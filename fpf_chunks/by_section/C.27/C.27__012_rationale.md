@@ -6,12 +6,12 @@ section_id: "C.27:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__012_rationale.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Change"
   - "C.27:10 — Rationale"
-line_start: 67443
-line_end: 67455
+line_start: 67379
+line_end: 67391
 dependencies:
   - "A.10"
   - "A.3.3"
@@ -59,5 +59,5 @@ C.27 adopts:
 - braking, redirection, coasting, recovery, stabilization, and rhythm as legitimate working questions;
 - interval-sensitive practice transfer, including the error introduced by copying static poses or rate words without the timing and effort pattern.
 
-C.27 adapts physical vocabulary into authored-claim adequacy and direct FPF relations. It rejects literal force, mass, acceleration, rhythm, or second-order-process kinds, mandatory calculus, universal control theory, and automatic QL relevance.
+C.27 uses physical vocabulary only for the temporal property or dependency actually claimed. Choose calculus, control modeling or another subject method when its operation is needed to answer that question.
 

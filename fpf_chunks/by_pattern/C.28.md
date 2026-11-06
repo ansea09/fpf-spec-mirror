@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.28.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.28 — CausalUse-CAL: Causal-Use Questions, Identification, and Realizability"
-line_start: 67789
-line_end: 68555
+line_start: 67725
+line_end: 68493
 dependencies:
   - "A.10"
   - "A.15"
@@ -241,9 +241,11 @@ CausalityLadderRung =
   counterfactualComparisonRung
 ```
 
-- observational: passive observation, natural behaviour, or association;
-- interventional: action setting, experiment, policy change, or action effect;
-- counterfactual: counter-to-fact, potential-outcome, or unit-history-conditioned comparison.
+- observational: a distribution or association under observation of the naturally occurring process;
+- interventional: an outcome distribution or effect under a specified intervention, experiment or policy;
+- counterfactual: a joint comparison across alternative interventions, or an intervention outcome conditioned on the factual history of the same case.
+
+Potential-outcome notation alone does not select the third rung. The population average effect `E[Y(1)] - E[Y(0)]` uses two interventional marginals and can be a second-rung question. A joint claim such as `P(Y(1) > Y(0))`, or what would have happened to this case given its observed history, needs the corresponding third-rung information. See [Yang and Bareinboim, §2](https://causalai.net/r130.pdf) for the hierarchy's distinction among those distributions.
 
 Lower-rung data may contribute to a higher-rung result only through a replayable identification, bound, or other specialist result. The rung label itself supplies no support.
 

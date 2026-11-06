@@ -6,12 +6,12 @@ section_id: "C.32.MWA.PP:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA.PP/C.32.MWA.PP__007_archetypal-grounding.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.32.MWA.PP — Construct and Compare Method Performance and Provision Arrangements"
   - "C.32.MWA.PP:5 — Archetypal Grounding"
-line_start: 79281
-line_end: 79460
+line_start: 79233
+line_end: 79412
 dependencies:
   - "A.3.1.MI"
   - "A.3.1.QM"
@@ -69,7 +69,7 @@ The first 20-minute board is on `D-21`; the second is on `D-8`. They occur on di
 
 At the `D-21` pre-entry checkpoint, `ReleaseDecider-17` performs the branch decision under `ASG-ReleaseDecision-17` and `AUTH-ReleaseDecision-17`, after the required safety-evidence decision under `ASG-SafetyReview-17` and `AUTH-SafetyEvidence-17`. B2 entry also requires `TraceReviewer-17` to perform `W-TraceAcceptReject-17` under `ASG-TraceReview-17` and `PERM-TraceAcceptReject-17` for every AI suggestion used by the branch.
 
-Before entry, choose A when signed evidence is already available or when versioned provisional evidence, supplier preparation, confidentiality, the trace-review assignment or permission, or a safety/release assignment or authority condition for B2 is absent. Once early B2 integration has occurred, A is no longer a possible history for that release.
+Before entry, choose A only when signed evidence is available in time and the signed-first arrangement meets the required integration slot, capacity and authority conditions. A missing B2 premise—versioned provisional evidence, supplier preparation, confidentiality, trace-review permission or a required safety/release assignment or authority—blocks B2; it does not make A meet the `D-21` slot while its evidence arrives at `D-8`. Recover the missing premise, construct another permitted arrangement, seek an authorized revision of the commitment, or hold the unsupported continuation. Once early B2 integration has occurred, A is no longer a possible history for that release.
 
 Missing signed evidence at `D-8` withholds release and starts recovery R. Preserve the performed integration record, exact provisional edition, uncertainty, and earlier use. When signed evidence arrives, record its relation and delta to the provisional edition, re-baseline, and repeat the comparison and affected verification. Retain or roll back/repeat early integration. For a full repeat of these recovery tasks, count `1.60 h` supplier preparation plus `2.80 h` safety preparation, board, and trace/closure work (`0.40 + 0.33 + 2.07`). Count affected verification or integration rework in addition; the case supplies no fixed duration for it. If recovery stops before those tasks finish, record the Work and burden that actually occurred rather than assigning the full repeat cost. Move only to the next authorized slot after repeated decision Work under the covering assignments and authority relations. Every repeated AI suggestion again requires the trace-review Work, assignment, and permission. Signed evidence supersedes provisional evidence for closure reliance without erasing the provisional history.
 

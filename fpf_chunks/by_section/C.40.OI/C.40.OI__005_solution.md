@@ -6,12 +6,12 @@ section_id: "C.40.OI:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OI/C.40.OI__005_solution.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.40.OI — Bound an Opportunity Inquiry"
   - "C.40.OI:4 — Solution"
-line_start: 86556
-line_end: 86654
+line_start: 86509
+line_end: 86607
 dependencies:
   - "A.15.9"
   - "B.5.PI"
@@ -55,7 +55,7 @@ Write why exploration is warranted now. Distinguish:
 - an observed dissatisfaction or changed constraint;
 - a proposed contribution or explicit problem hypothesis;
 - a supplier promise, technology signal, or PatternID used only as a search lead; and
-- curiosity that is valuable only if a bounded inquiry can be afforded.
+- curiosity about a question worth examining.
 
 Preserve competing formulations when they would send the inquiry toward different contributions. Use the direct problem-structuring pattern when deciding among those formulations is itself the current Work.
 

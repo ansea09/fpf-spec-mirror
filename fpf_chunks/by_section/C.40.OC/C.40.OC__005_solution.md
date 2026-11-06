@@ -6,12 +6,12 @@ section_id: "C.40.OC:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OC/C.40.OC__005_solution.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.40.OC — Characterize a Subject for a Possible Change"
   - "C.40.OC:4 — Solution"
-line_start: 86820
-line_end: 86951
+line_start: 86773
+line_end: 86904
 dependencies:
   - "C.11.CRC"
   - "C.16"
@@ -30,7 +30,7 @@ Build a characteristic account sufficient for this inquiry, exposing every mater
 
 Name the exact subject and configuration. For an AI case, distinguish model, data, scaffold, tools, oversight, access, and surrounding operating arrangement when their differences matter. For an organization, name the organization or bounded arrangement rather than treating its chart or provider as the subject. For a person, name the person and relevant later-Work context.
 
-State the receiving use, horizon, scenarios, and evidence window. A characterization for today's incident-review Work is not automatically valid for a future management role. A model benchmark in one configuration does not characterize another configuration with the same product label.
+State the receiving use, horizon and scenarios. Include the time stance and evidence window needed to interpret or rely on the selected readings; a reported measurement retains its measurement-specific temporal basis. A characterization for today's incident-review Work is not automatically valid for a future management role. A model benchmark in one configuration does not characterize another configuration with the same product label.
 
 If those boundaries are missing, use `C.40.OI` and return only after they are adequate for the current question.
 
@@ -60,7 +60,7 @@ For every selected characteristic, state in ordinary language:
 2. what the characteristic means for this receiving use;
 3. its scale or admissible levels and any unit;
 4. polarity—higher-is-better, lower-is-better, target-is-best, or no simple order;
-5. time stance and evidence window;
+5. time stance and evidence window when needed for interpretation or reliance, including the temporal basis of any reported measurement;
 6. current reading and uncertainty, or `unknown`;
 7. intended, threshold, exploratory, or comparison reading;
 8. explicitly protected reading or boundary when current;

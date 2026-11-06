@@ -6,12 +6,12 @@ section_id: "C.39.RQ:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.RQ/C.39.RQ__009_conformance-checklist.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.39.RQ — Construct Situated Method Requirements"
   - "C.39.RQ:7 — Conformance Checklist"
-line_start: 84547
-line_end: 84562
+line_start: 84500
+line_end: 84515
 dependencies:
   - "A.3.1"
   - "C.11"
@@ -32,7 +32,7 @@ Apply these questions to the criteria being established or appraised and to the 
 - [ ] Capability, assignment, permission, and decision authority imply none of one another; an assignment or authority relation does not prove performed Work or its decision result.
 - [ ] Allowable variation and non-negotiable conditions are explicit.
 - [ ] When a criterion's justification is disputed, the recommendation compares its actual protective contribution and burden and distinguishes that judgement from current force and the feasible amendment route.
-- [ ] Every burden limit names participant, Work scope, time window, bound, and measurement basis.
+- [ ] Every burden limit names its participant, Work scope, applicable time window, bound and basis, and how satisfaction can be determined. A measured burden retains its measurement method and conditions; a stipulated or derived bound retains its governing or derivation basis.
 - [ ] Every decision-changing row names evidence and `satisfied | failed | unknown` observations.
 - [ ] The result states acceptance-for-next-use, stop, and reopen conditions without selecting or admitting a Method.
 - [ ] Individual and combined structure questions are routed to different later results.

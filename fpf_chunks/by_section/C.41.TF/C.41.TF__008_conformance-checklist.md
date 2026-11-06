@@ -6,12 +6,12 @@ section_id: "C.41.TF:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.TF/C.41.TF__008_conformance-checklist.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.41.TF — Construct a Checklist Template That Preserves Its Questions"
   - "C.41.TF:7 — Conformance Checklist"
-line_start: 89398
-line_end: 89407
+line_start: 89351
+line_end: 89360
 dependencies:
   - "C.37"
   - "C.41"

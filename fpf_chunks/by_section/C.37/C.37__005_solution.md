@@ -6,12 +6,12 @@ section_id: "C.37:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37/C.37__005_solution.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.37 — Select and Use Representations for One Action"
   - "C.37:4 — Solution"
-line_start: 81817
-line_end: 81946
+line_start: 81768
+line_end: 81897
 dependencies:
   - "A.10"
   - "A.2.4"
@@ -42,12 +42,12 @@ Use one action spine:
 
 1. name the receiving System and exact action or decision;
 2. recover each candidate and its direct subject result;
-3. separate the direct subject result, optional first-use classification, bounded reliance, receiving result, and auxiliary facts;
+3. separate the direct subject result, optional first-use classification, bounded reliance, receiving conditions and result when needed, and auxiliary facts;
 4. state what the candidate exposes or preserves and what it withholds, loses, transforms, or leaves uncertain;
 5. mark the row `select`, `decline`, or `unresolved` for the named use and give its return trigger;
 6. co-record only rows that support the same receiver and exact action or decision.
 
-**Local mantra.** *One receiver, one action. Recover each candidate under its direct pattern. Name the claim, reliance, loss, receiving result, disposition, and return. Put rows together only for that action.*
+**Local mantra.** *One receiver, one action. Recover each candidate under its direct pattern. Name the claim, reliance, loss, receiving conditions, disposition, and return. Put rows together only for that action.*
 
 The mantra is a recall aid, not a decision rule. The receiving pattern still emits the choice, gate, permission, authorization, or domain result.
 
@@ -70,12 +70,12 @@ Open only the layers required by the attempted use.
 | Layer | What must be recoverable | What it does not establish |
 | --- | --- | --- |
 | Direct subject result | The candidate's independently governed kind or result, its subject, and any exact representation, conformance, correspondence, transition, structure, collection, mathematical, plan, Work, or domain relation on which the selected claim depends. | Intended evidence use, reliance, receiving decision, permission, gate passage, or authorization. |
-| Optional A.2.4 first-use classification | When the candidate episteme is being used as evidence or as a status carrier, the exact episteme, target claim or status, scope, polarity or value, window, and intended use. | Provenance, sufficiency, `RelianceDisposition`, assurance, permission, or receiving action. |
-| A.10 bounded reliance, when material | The exact relied-on claim, source and provenance path, premise, reference, decision-use, operation-argument, or other direct use relation, time/currentness boundary, bounded evidence use, unsupported attempted use, challenge when current, one current `RelianceDisposition`, and its reopen or stop condition. | Claim truth, selector outcome, gate result, approval, permission, assurance, or Work authorization. |
-| Receiving result | The exact `ChoiceResult`, gate result, permission, authorization, acceptance, or domain result supplied by the pattern that defines or tests the receiving action. | Candidate identity or evidence merely by mentioning the row. |
+| Optional A.2.4 first-use classification | When the candidate episteme is being used as evidence or as a status carrier, the exact episteme, target claim or status, polarity or value, intended use, and any scope or window that changes that use. | Provenance, sufficiency, `RelianceDisposition`, assurance, permission, or receiving action. |
+| Bounded reliance and a needed A.10 account | The relied-on claim, source, actual use relation and support needed for that use. When the source-to-use account remains implicit or must be replayable, use A.10's path and `RelianceDisposition`. Retain currentness, a live challenge, a locally plausible unsupported use, and a reopen or stop condition when they affect this reliance. | Claim truth, selector outcome, gate result, approval, permission, assurance, or Work authorization. |
+| Receiving conditions and result | The entry conditions imposed by the rule governing this contribution, including any required gate, permission or authorization. Obtain the choice, acceptance, task or domain result when that result is itself required by the receiving work. Qualified inputs may be used to construct it. | Candidate identity or evidence merely by mentioning the row. |
 | Auxiliary facts | Lens, publication, form, carrier, repair, provenance, source, or rendering facts needed to interpret or recover the row. | Any missing positive subject result, reliance, or receiving result. |
 
-If a layer required by the attempted use is negative, missing or unresolved, decline the row or mark it unresolved and name the missing fact or direct result. An unresolved assessment may help construct the required receiving result; it does not supply that result or permit a use that depends on it. Preserve independently supported premises while the missing result is obtained.
+If a condition required for the candidate's stated use is negative, missing or unresolved, decline that use or mark it unresolved and name the missing fact or direct result. Preserve independently supported premises. Use ready qualified inputs in the receiving comparison or construction; an unfinished choice or task result does not by itself create a missing input-admission result. Any action that depends on that later result still waits for its grounds.
 
 #### C.37:4.3 - State exposure, loss, and the row disposition
 
@@ -84,15 +84,15 @@ For each candidate, state only distinctions that change the receiving action:
 - what it exposes, foregrounds, or preserves;
 - what it withholds, omits, loses, transforms, or leaves uncertain;
 - the exact claim for which it is selected or declined;
-- the direct result and, when material, A.10 disposition that bounds that claim;
+- the direct result and reliance basis that bound that claim, including an A.10 disposition when that account is needed;
 - the condition that sends the reader back to the source or reopens selection.
 
 Use exactly these ordinary row dispositions:
 
 | Disposition | Use |
 | --- | --- |
-| `select` | The required direct subject result is positive, every required reliance condition supports the exact bounded use, and the receiving result permits this candidate's stated contribution. Narrow the selected claim when A.10 says `degrade`; do not invent a second disposition vocabulary. |
-| `decline` | A required direct result is negative, the receiving result excludes the candidate, or the candidate's loss makes the attempted use inadmissible. State the retained weaker use, if any. |
+| `select` | The required subject identity and relations are established, the reliance basis supports the bounded claim, and the conditions imposed on its use by the receiving rule hold. Use the claim in the receiving operation; obtain its eventual result there. An A.10 `degrade` disposition narrows the selected claim. |
+| `decline` | A required direct result is negative, the applicable receiving rule excludes the stated contribution, or the candidate's loss makes the attempted use inadmissible. State the retained weaker use, if any. |
 | `unresolved` | A required identity, relation, currentness fact, reliance path, disposition, or receiving result is missing or ambiguous. Name what would reopen the row. |
 
 Selection is use-bounded. It does not make the candidate true, complete, current, published, conforming, relied on, assured, or authorized outside the exact claim and action stated in the row.
@@ -104,7 +104,7 @@ Use this readable shape when the result must be retained:
 ```text
 Use-bounded representation-selection account:
   Receiving System and exact action or decision:
-  Receiving-result governor and result:
+  Receiving rule, required entry conditions, and result when needed:
   Candidate rows:
     - Candidate and direct subject result:
       Exact claim used:
@@ -123,7 +123,7 @@ This is a logical claim group, not a universal record kind, `U.Representation`, 
 
 #### C.37:4.5 - Realize the result once
 
-First determine whether a later receiving use needs the selection basis retained. An immediate sufficient selection can finish with its material loss and direct receiving result, without a new record or a certificate explaining non-retention.
+First determine whether a later receiving use needs the selection basis retained. An immediate sufficient selection can finish with its grounds, material loss and applicable receiving conditions, without a new record.
 
 When retention is needed:
 
@@ -133,7 +133,7 @@ When retention is needed:
 
 A later reader who must reconstruct the selection receives its logically complete basis; a bare verdict or locator is insufficient for that use.
 
-Retention does not weaken the required separation: direct subject result, optional A.2.4 classification, A.10 reliance when material, receiving result, exposure and loss, disposition and return remain recoverable as needed by that use. An immediate answer preserves the same substantive limits without instantiating every form field. A cross-use ensemble may later relate accounts under its own direct pattern; C.37 does not perform that organization.
+Retention preserves the needed separation: direct subject result, optional A.2.4 classification, reliance basis and any required A.10 account, receiving conditions and result when needed, exposure and loss, disposition and return. An immediate answer preserves the same substantive limits without instantiating every form field. A cross-use ensemble may later relate accounts under its own direct pattern; C.37 does not perform that organization.
 
 #### C.37:4.6 - Keep co-use local to one action
 
@@ -152,9 +152,9 @@ Open `C.13`, `A.22`, `E.17.0`, `C.29`, a domain integration pattern, or another 
 
 #### C.37:4.7 - Recognition, reliance, assurance, and action remain separate
 
-Recognition asks what the candidate is and which direct result or relation obtains. A.2.4 may add only its first evidence-use or status-use classification. A.10 adds one bounded evidence-provenance and reliance result only when the exact use relies on evidence. `B.3` enters only when an actual named assurance claim is current; consequence or reuse alone does not require an assurance package. The receiving pattern then owns the action result.
+Recognition asks what the candidate is and which direct result or relation obtains. A.2.4 may add its first evidence-use or status-use classification. Relied-on claims need the source, support and use conditions that warrant them; A.10 develops the source-to-use account when it remains implicit or must be replayable. `B.3` enters only when an actual named assurance claim is current; consequence or reuse alone does not require an assurance package. The receiving pattern owns the action result.
 
-This split lets ordinary reversible work stop cheaply. A practitioner may inspect or compare a candidate under its direct result and visible limit without opening A.10 or B.3 when no evidence reliance or assurance claim is being made. When reliance is material, the exact path and disposition become mandatory for that use.
+Use an already adequate source-to-use account directly. A new A.10 path or disposition is unnecessary when the claim and its warranted use are already explicit and no further replayable account is needed. A source gap, stale consumed premise or unsupported use still blocks the conclusion that depends on it; narrow the use, obtain the required support, or stop. Reuse an applicable A.10 disposition when one already supplies this boundary.
 
 #### C.37:4.8 - Direct exits and boundary cases
 
@@ -162,7 +162,7 @@ This split lets ordinary reversible work stop cheaply. A practitioner may inspec
 | --- | --- |
 | One direct domain Method already selects one representation–operation configuration for the same one use and returns its limits, as in rhythmic-representation choice. | Use that Method and result; do not invoke C.37 for a duplicate account. |
 | A candidate is called a view but `EpistemeViewpointConformanceRelation(E,P)` fails or cannot be evaluated. | Decline it for the view-dependent use or mark that row unresolved. C.37 cannot grant `U.View` membership. Another independently positive direct basis may support a different row and claim. |
-| A candidate is a mathematical graph or other mathematical object. | First identify the object and obtaining subject relations under their direct patterns; then use `C.29` for the explicit lens, mapping, preserved and lost structure, admitted use, and stop. C.37 neither admits the object nor makes the mapping obtain. |
-| A candidate is an ordinary non-graph diagram. | Identify its episteme and subject. Require an exact positive conformance, representation, correspondence, or domain result for the selected claim. Add A.10 when evidence is relied on. Publication, carrier, provenance, or C.2.P.DR repair cannot supply the missing basis or receiving result. |
+| A candidate is a mathematical graph or other mathematical object. | Identify the object and the subject relations on which the claim depends. Use an adequate domain result directly; use `C.29` when a separate mathematical representation, transfer, or reliance question remains. C.37 neither admits the object nor makes the mapping obtain. |
+| A candidate is an ordinary non-graph diagram. | Identify its episteme and subject. Require the conformance, representation, correspondence or domain grounds needed for the selected claim. Preserve its evidence and reliance basis; use A.10 for a still-implicit or required replayable source-to-use account. Publication, carrier, provenance or C.2.P.DR repair supplies no missing subject or action ground. |
 | Several project, process, or case viewpoints concern one Work. | Co-record them only when each can change the same exact action about that independently identified Work. A viewpoint for another action starts another account. |
 

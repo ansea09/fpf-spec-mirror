@@ -6,12 +6,12 @@ section_id: "C.30.LCA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.LCA/C.30.LCA__005_solution.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.30.LCA — Control Structure View Adequacy (LCA)"
   - "C.30.LCA:4 — Solution"
-line_start: 74233
-line_end: 74414
+line_start: 74171
+line_end: 74352
 dependencies:
   - "A.10"
   - "A.20"
@@ -73,7 +73,7 @@ ControlStructureViewNote:
   stratificationRepairRef?:
   nextPatternUseRef?:
   admissibleUse:
-  nonAdmissibleUse:
+  nonAdmissibleUse?:
   stopCondition:
 ```
 
@@ -91,12 +91,12 @@ InterLayerControlRelationNote:
   rateEnvelopeRefs?:
   violationFallbackRefs:
   admissibleUse:
-  nonAdmissibleUse:
+  nonAdmissibleUse?:
 ```
 
 Use this note only when a recovered control-layer relation is used for decomposition, substitution, a safety or stability claim, or an architecture decision. It is not proof and does not make the relation obtain. Otherwise keep C.30.LCA at the small note or ordinary description form, or use `C.30.STRAT` to recover the source label.
 
-A full `ControlStructureView` carries the common `ArchitectureStructuralView` content from `C.30.ASV:4.1` plus the control-specific fields below. Here `selectedControlStructureRef` names the same structure as the common `selectedStructureRef`; the full view retains `viewConstruction` and `hiddenOrLostStructure` even though this form does not repeat them.
+A full `ControlStructureView` carries the common `ArchitectureStructuralView` content from `C.30.ASV:4.1` plus the control-specific fields below. Here `selectedControlStructureRef` names the same structure as the common `selectedStructureRef`; the full view retains `hiddenOrLostStructure` and includes `viewConstruction?` when the receiving use needs that provenance even though this form does not repeat them.
 
 ```text
 ControlStructureView ::= ArchitectureStructuralView & {
@@ -148,14 +148,14 @@ ControlStructureView ::= ArchitectureStructuralView & {
   transformationFlowPathSliceRefs?: FinSet(PathSliceId),
 
   stratificationRepairRefs?: FinSet(C30STRATRepairRef),
-  sourceToUsePathRefs?: FinSet(U.RelationRef),
+  sourceToUsePathRefs?: FinSet(PathCitationRecordRef),
   downstreamPatternUseRefs?,
   representationRefs?: FinSet(U.EntityRef),
   publicationOccurrenceRefs?: FinSet(EpistemePublicationRelationRef),
   publicationFormRefs?: FinSet(U.EntityRef),
   carrierRefs?: FinSet(U.EntityRef),
   admissibleUse,
-  nonAdmissibleUse,
+  nonAdmissibleUse?,
   sourceReturnCondition?
 }
 ```
@@ -193,7 +193,7 @@ SafetyLossControlStructureNote:
     A.3.3 dynamics, C.27.TA temporal aspect or rate, and C.27 authored temporal-claim adequacy,
     C.28 causal-use, A.10 bounded source-to-use reliance, G.6 citable provenance paths,
     B.3 named assurance, A.20 internal-constraint validity, A.21 gate decisions
-  nonAdmissibleUse:
+  nonAdmissibleUse?:
     not safety proof, not safety-case verdict, not regulatory acceptance
 ```
 

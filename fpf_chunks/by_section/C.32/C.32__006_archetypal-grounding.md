@@ -6,12 +6,12 @@ section_id: "C.32:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32/C.32__006_archetypal-grounding.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.32 — Architecture Candidate Synthesis"
   - "C.32:5 — Archetypal Grounding"
-line_start: 76487
-line_end: 76498
+line_start: 76422
+line_end: 76433
 dependencies:
   - "A.10"
   - "A.15"
@@ -69,7 +69,7 @@ keywords:
 
 ### C.32:5 - Archetypal Grounding
 
-**Tell.** The regulated product-family first-minute slice in the Problem frame shows the minimum complete move: one grounded question, a small set of selected-structure contribution rows, three genuinely different candidate configurations, explicit gains and losses, and no premature decision. **Show.** The cases below vary the described holon and the selected structures while keeping that move recognizable. **Show again.** The didactic mini-slices in Solution 4 show what to repair when a required function has no feasible bearer. These three views are one grounding set, not three additional procedures.
+
 
 | Grounded working case | Synthesis question | C.32 candidate work | Stop condition |
 |---|---|---|---|

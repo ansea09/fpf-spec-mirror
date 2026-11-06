@@ -6,12 +6,12 @@ section_id: "C.27:5"
 section_title: "Optional Boundary-Trigger Reference"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__007_optional-boundary-trigger-reference.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Change"
   - "C.27:5 — Optional Boundary-Trigger Reference"
-line_start: 67317
-line_end: 67369
+line_start: 67254
+line_end: 67305
 dependencies:
   - "A.10"
   - "A.3.3"
@@ -75,7 +75,7 @@ Skip this section for ordinary local diagnosis and planning. It is a trigger-and
 | method composition or capability emergence | temporal adequacy does not define method composition, Work enactment, adaptive cycle, or capability emergence | B.1.5 and B.2.4 |
 | design/operation comparison, evolution or language-state movement | temporal adequacy qualifies the time claims; it does not perform the comparison, coordinate adaptation, or define cue stabilization, reopening, operationalization or retirement | A.4 for System design/operation comparison; B.4, A.16 and B.4.1 for their separate adaptation and language-state questions |
 | autonomy budget or freedom of action | tokens, guards, ledger, depletion, override, pause and resume remain their own claims | E.16 |
-| viability regulation | cite the exact C.26.3 claim episteme or ClaimAddress; its bearer is one exact System, one A.22 Structure with all four discriminators, or another subject with its direct identity rule | C.26.3 |
+| viability regulation | the envelope claim and its exact bearer; cite a separate episteme or ClaimAddress when the receiving use consumes that identity | C.26.3 |
 | selected organization as viability bearer | exact constituents, selected obtaining relations, applied constraints, and one selection-use frame; a list of role kinds and assignments is insufficient | A.22 and C.26.3 |
 | promise, gate, or high-stakes action | temporal action and window do not establish promise, acceptance, harm, safety, legal, ethical, financial, quality, service, or assurance claims | A.2.3, A.2.8, A.2.9, A.6.C, F.12, and direct assurance or domain patterns |
 | evidence path or freshness | path, slice, provenance, assurance, decay, and epistemic debt remain separate from the temporal claim | A.10, G.6, B.3, and B.3.4 |
@@ -98,6 +98,5 @@ Skip this section for ordinary local diagnosis and planning. It is a trigger-and
 - Metric improvement does not establish System improvement.
 - A temporal metric does not become value merely by publication or target use.
 - Measurement as action does not make QL relevant by itself.
-- Adding fields does not turn a diagnostic or planning claim into a causal, benchmark, promise-like, gate, or assurance claim. That use changes only when the required direct result and supported-use boundary are present.
-- The C.27 result cites the direct result only when its supported use relies on it.
+- A causal, benchmark, promise, gate or assurance conclusion retains the direct grounds required for that use. Cite the neighboring result only when the temporal assessment relies on it.
 

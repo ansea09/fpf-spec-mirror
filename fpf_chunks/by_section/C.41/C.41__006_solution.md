@@ -6,12 +6,12 @@ section_id: "C.41:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41/C.41__006_solution.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.41 — Select Checklist Questions for a Work Result"
   - "C.41:4 — Solution"
-line_start: 89145
-line_end: 89191
+line_start: 89098
+line_end: 89144
 dependencies:
   - "A.3.1"
   - "A.3.2"
@@ -35,7 +35,7 @@ Use your own and others' past omissions to propose questions, keeping the condit
 
 Follow the actual production and use relations far enough to expose a consequential omission. Who or what produces this result, what enables that producer, and who uses the result? At a relevant link, distinguish the producer or user, descriptions of it, its way of working and its actual work. A missing intermediate service, tool or capable performer may deserve attention even when the final subject looks satisfactory. Stop following links when further detail cannot change the selected questions. If the prospective subject does not yet exist, ask about the available materials, descriptions or enabling results without treating a description as the existing subject.
 
-Recover the descriptions used to judge the result and the assumptions connecting their described characteristics to that use. [C.39.RQ](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c39rq---construct-situated-method-requirements) helps construct criteria from the subject and situation. Use its account of criterion construction with the subject/description distinction in §0.2. When the criterion's basis is unavailable, return that specific question to competent domain work.
+Recover the descriptions used to judge the result and the assumptions connecting their described characteristics to that use. Use [C.39.RQ](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c39rq---construct-situated-method-requirements) when the missing criterion concerns a required Method contribution, retaining the subject/description distinction in §0.2. When the criterion's basis is unavailable, return that specific question to competent domain work.
 
 #### C.41:4.2 - Propose questions and test their contribution
 

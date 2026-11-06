@@ -6,12 +6,12 @@ section_id: "C.42:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.42/C.42__005_solution.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.42 — Reduce Avoidable Work While Preserving the Needed Result"
   - "C.42:4 — Solution"
-line_start: 90096
-line_end: 90212
+line_start: 90051
+line_end: 90167
 dependencies:
   - "A.11.OP"
   - "A.3.1.MI"
@@ -71,13 +71,13 @@ Use the distinction that changes the proposed intervention. The following cases 
 | A necessary operation consumes substantial processing effort. | Can another method, means, allocation or reusable result obtain the same contribution more economically? |
 | Corrective work recurs. | Can the condition producing the recurrence be changed, or is a better bounded response the worthwhile option? |
 
-Treat configuration-related rework concretely. If an accepted instruction requires one edition while the performer uses another, recover which edition was required, how the performer obtained the used one, and where the mismatch could have been prevented. “Be more careful” gives no new obtaining condition. An authoritative source, usable retrieval, recognition of the required edition and a proportionate check can form a preventive change. Its added effort belongs in the comparison.
+Treat configuration-related rework concretely. If an accepted instruction requires one edition while the performer uses another, recover which edition was required, how the performer obtained the used one, and where the mismatch could have been prevented. An authoritative source, usable retrieval, recognition of the required edition and a proportionate check can form a preventive change. Its added effort belongs in the comparison.
 
 A failed hypothesis is not automatically failed work. If the intended research result was a distinction between explanations, a well-grounded negative answer can supply it. Likewise, repeated practice can produce a capability even when it produces many similar outputs. Recover the intended result and the actual contribution before classifying that effort as avoidable. Repeating an invalid measurement may be wasteful; learning why it was invalid may supply valuable knowledge.
 
 For waiting, distinguish an unavailable prerequisite from an ordering problem among already feasible actions. Making an earlier decision, preparing an input in advance, changing batching or allocating an available resource can shorten the path. Each candidate still needs its receiving conditions. Starting more items can increase contention; moving a compulsory decision to the end can create extensive unusable work. A shorter first completion and greater sustained throughput are different improvements.
 
-For processing, construct a different obtaining operation rather than merely naming a tool. Explain what the tool or performer receives, what it does, how the recipient obtains an adequate result and what happens outside its supported cases. Reuse, delegation and automation are possible means. None wins by its category alone.
+For processing, construct a different obtaining operation. Explain what the tool or performer receives, what it does, how the recipient obtains an adequate result and what happens outside its supported cases. Reuse, delegation and automation are possible means.
 
 #### C.42:4.4 - Construct an intervention through the condition it changes
 
@@ -119,7 +119,7 @@ Make the selected change usable where the next affected work occurs. Identify th
 
 Use A.3.1.MI to distinguish the proposed way, introduction strategy, preparation, actual introduction and later work. Keep an adequate existing instruction where it suffices. Where an error recurs, change the conditions that allow it at the point of use: withdrawing an obsolete copy, supplying the correct source, making an exception route usable or providing the missing decision can matter more than another announcement.
 
-Select a trial when its attainable result can alter adoption or scope. Choose cases that expose the disputed condition, including consequential exceptions, and preserve the necessary result during the attempt. Establish when to continue, restrict, revise or stop. A known adequate correction may be introduced directly under the applicable rules; the word “improvement” does not require an experiment.
+Select a trial when its attainable result can alter adoption or scope. Choose cases that expose the disputed condition, including consequential exceptions, and preserve the necessary result during the attempt. Establish when to continue, restrict, revise or stop. A known adequate correction may be introduced directly under the applicable rules.
 
 Plan recovery appropriate to the subject. A previous software configuration may be restorable; lost trust, interrupted service or a person's acquired experience cannot be undone by replacing a file. Use limited exposure, retained alternatives, parallel provision or another suitable protection where reversibility is limited. Include these costs in the choice.
 
@@ -137,5 +137,5 @@ Keep the change when the supported gain remains worthwhile. Restrict or replace 
 
 A worthwhile reduction can release attention, capacity or resources. Establish what has actually become available before promising it elsewhere. Then ask whether that changed position makes another useful problem, investigation or capability attainable. C.40.NP develops this continuation from an obtained result.
 
-The next undertaking may change the problem, create knowledge, expand a capability or improve the way future changes are obtained. It can require more current work. Judge that contribution in its own right. Preserving the means for later development does not require perpetual activity, and ending an obsolete undertaking can be a successful reduction. This method governs economy of obtaining a result; it does not define all development as obtaining the same result more cheaply.
+The next undertaking may change the problem, create knowledge, expand a capability or improve the way future changes are obtained. It can require more current work. Judge that contribution in its own right. This method governs economy of obtaining a result; it does not define all development as obtaining the same result more cheaply.
 

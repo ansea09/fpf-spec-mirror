@@ -6,12 +6,12 @@ section_id: "C.32.MLAO:6"
 section_title: "Residual And Trade-Off Failure Modes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MLAO/C.32.MLAO__007_residual-and-trade-off-failure-modes.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.32.MLAO — Architecture Candidates to Reduce Cross-Scope Residuals"
   - "C.32.MLAO:6 — Residual And Trade-Off Failure Modes"
-line_start: 78675
-line_end: 78691
+line_start: 78627
+line_end: 78643
 dependencies:
   - "A.10"
   - "A.19.CPM"
@@ -57,14 +57,14 @@ keywords:
 |---|---|
 | **Local improvement shifts the residual elsewhere** | Record the scope and selected structure that improved, the scope and selected structure that worsened, and the new burden created. |
 | **Universal optimizer is assumed** | Treat optimization as bounded residual reduction over declared holon-level refs or declared scope refs, with comparison inputs, pattern for the next question, and stop condition. |
-| **Proxy result substitutes for comparison or choice claim** | When a score, vector, graph partition, front, DSM, or C.29 lens output is used to prefer a candidate, name the selected structures, preserved structure, lost structure, architecture characteristic, and pattern for the next question. |
+| **Proxy result substitutes for comparison or choice claim** | When a score, vector, graph partition, front, DSM, or C.29 lens output is used to prefer a candidate, name the selected structures, relevant preserved or lost structure, architecture characteristic, and pattern for the next question. |
 | **Level or scale wording leaves the relevant distinction unclear** | Use `E.10.ARCH`, `C.30.STRAT` or `C.16.P` for the unresolved meaning, and `E.10`/`B.2.P` for an unresolved whole-reidentification claim. Keep adequate ordinary wording and supply exact refs only where the receiving claim needs them. |
 | **Software-source overfit** | Treat software examples as domain lineage; admit other holons only after selected structures and affected scopes are recoverable. |
 | **Lossless repair is assumed** | Inspect possible new burdens in the affected scopes. Name any expected burden or loss; if none is identified, state the inspected structures, criteria, and evolution window without claiming universal losslessness. |
 | **Front member is treated as durable optimum** | A front member has archive or front membership under an evolution window; membership does not establish a durable architecture optimum. |
 | **Stepping stone is erased too early** | Keep retained stepping stones visible through `C.18` or `C.19` when they preserve future residual-reduction reach. |
-| **Architecture-influence residual is hidden** | A residual between one typed influence-side architecture source and transformed-side architecture content must open `C.32.CONWAY`; keep the changed referent and any actual transformation separate, and prepare influence-source-side, transformed-side, joint, and bounded-mismatch candidates as comparison inputs or downstream candidate alternatives. |
+| **Architecture-influence residual is hidden** | A residual between one typed influence-side architecture source and transformed-side architecture content must open `C.32.CONWAY`; keep the changed referent and any actual transformation separate, and use C.32.CONWAY:4.1.1 to construct the applicable source-side, transformed-side, joint or bounded-mismatch candidates, preserving the receiving requirement. |
 | **Ideality is used as optimum** | Treat ideality as direction for candidate generation, not as an adequacy claim that a bearer may be removed. |
-| **Universal bearer is admitted without scale window** | A general bearer still needs declared criteria rows, scale window, safety and admissibility boundaries, and an eval result when the claim depends on a reading. |
+| **Universal bearer admitted by name** | Establish the declared criteria, safety and admissibility boundaries required for the intended use, with an eval result when the claim depends on it. A scale-advantage claim or applicable policy selects C.19.1 and its scale window. |
 | **Functional graph has no feasible bearer** | Do not claim feasible residual reduction. Distinguish an unresolved feasibility question from demonstrated infeasibility; revise the candidate or retain it for an appropriate exploratory use. |
 

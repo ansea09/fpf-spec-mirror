@@ -6,12 +6,12 @@ section_id: "C.35:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.35/C.35__011_rationale.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.35 — Assess Generated or Discovered Results for Architecture Use"
   - "C.35:10 — Rationale"
-line_start: 81333
-line_end: 81339
+line_start: 81288
+line_end: 81294
 dependencies:
   - "A.13"
   - "A.15.1"
@@ -59,8 +59,8 @@ keywords:
 
 ### C.35:10 - Rationale
 
-Architecture synthesis increasingly receives results from search, model transformation, LLM proposal, code-agent mapping, DSM modularization, NAS, simulation, benchmark, and source discovery. Refusing those results would waste useful structure. Accepting them as architecture would create false authority. A short account can identify the result, actual or proposed organization and supported next use, with any condition or limitation that affects reliance. The larger record is justified only by a receiving use that depends on its additional distinctions.
+Architecture synthesis receives results from search, model transformation, LLM proposal, code-agent mapping, DSM modularization, NAS, simulation, benchmark and source discovery. A short account can identify the result, the organization it concerns and the supported next use, with any condition or limitation that affects reliance. The larger record is justified by a receiving use that depends on its additional distinctions.
 
-The result can carry a proposal, describe an obtaining structure or serve as a representation. Its selected use determines which distinctions and supporting results matter: representation correspondence, feasibility, evaluation, publication or decision authority, for example. Obtain each required result under its own subject rule; a mathematical representation used as a lens retains C.29 conditions.
+The result can carry a proposal, describe an obtaining structure or serve as a representation. Its selected use determines which distinctions and supporting results matter: representation correspondence, feasibility, evaluation, publication or decision authority, for example. Obtain each required result under its own subject rule; retain a mathematical representation's mapping and validity conditions, using C.29 when a separate choice, transfer, or reliance question remains.
 The source families explain why the branches differ. MBSE query practice, DSM and MDM work, and code-agent mapping expose discovery questions about extraction basis, observation, inference, unexplored regions, uncertainty, and validation. Graph grammars and model transformations expose the distinct need for exact source and result objects, trace, preservation, and loss. Multi-objective NAS and LLM-assisted design expose proposal questions about constraints, proposed organization, omissions, and validation without inventing a source structure. The GonzoML intake supplies neural operation vocabulary; resolve a source label when its meaning is unclear and changes the branch-specific claim or use.
 

@@ -6,12 +6,12 @@ section_id: "C.26.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.1/C.26.1__005_solution.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.26.1 — Probe-Coupled Boundary Interaction"
   - "C.26.1:4 — Solution"
-line_start: 66084
-line_end: 66253
+line_start: 66044
+line_end: 66199
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -40,21 +40,19 @@ keywords:
 
 ### C.26.1:4 - Solution
 
-Before accepting a passive read or unjustified lossless-transfer reading, ask whether the probe or interaction changed what the output may admissibly mean.
+Examine how the interaction produced the output and whether its effects matter to the state claim being used. A supported passive reading can finish the inquiry. A supported probe effect calls for a qualified reading; insufficient information leaves that interpretation unresolved.
 
-C.26.1 is active only when the interaction both participates in the represented state and its output is being used as evidence, export, comparison input, or decision input as if it were passive. Mere behavior change, ordinary feedback, or ordinary influence is not enough.
-
-A probe-coupled interaction may be useful and intentionally state-shaping. The repair is not to avoid it; the repair is to stop using its output as if it were a neutral pre-probe read.
+A probe-coupled interaction may be useful and intentionally state-shaping. Its output may still report a pre-probe quantity accurately. The relevant question is which quantity was read, at what point in the interaction, and how the result is used.
 
 Start with these recognition questions; ordinary prose is sufficient when it preserves their answers.
 
 | Mini-entry | Question |
 | --- | --- |
 | Ordinary governing pattern | Which ordinary FPF pattern already carries the baseline boundary, bridge, measurement, work, or viability question? |
-| False passive read | Which reading would be false: "the dashboard, workshop, API read, survey, message, or bridge just reports state"? |
-| Probe effect | What changed because of the probe, intervention, export, order, frame, or boundary crossing? |
-| Practical change | What does the team do differently now: mark probe-coupled, redesign the probe, order, or frame, rewrite bridge or export, add evidence, or apply a neighboring FPF pattern? |
-| Stop or neighboring-pattern handoff | Which use is unsupported by this note, and which FPF pattern carries that use? |
+| Reading to examine | What state, time and conditions is the output being taken to report? |
+| Possible probe effect | Which operation could change that state or the meaning of the output before, during or after the read? |
+| Practical change | Does the recovered procedure support the intended reading, require qualification or redesign, or leave an action-changing question unresolved? |
+| Remaining question, if any | What needed claim remains unsupported, and which subject method can supply its missing grounds? |
 
 Use the fuller account below when the receiving decision or a substantive dispute needs distinctions missing from the recognition note. Reuse an already adequate account; publication or reuse alone does not require a new record.
 
@@ -65,9 +63,9 @@ Distinctions for a fuller decision-bearing account:
 | Boundary | Which boundary or interface is involved, and which direct relation, if any, is crossed or queried? Identify each under its applicable subject pattern. |
 | Probe or interaction | Which operation or interaction produces the output, using which instrument or channel? |
 | QL cue or formal cue | If QL is retained, which named contextual-model obstruction meets C.26's activation test? An ordinary probe effect can be handled without this field. |
-| False passive reading | What discovery, neutral observation, one-way transfer, or unjustified lossless-message reading would be false? |
-| Pre-probe hypothesis | What did the team think the boundary state, alignment, readiness, context cut, or export validity was before the probe? |
-| Observed or inferred post-probe state | What changed, stabilized, became visible, became non-exportable, or lost admissible use because of the probe or interaction? |
+| Reading to examine | What passive-read or lossless-transfer assumption does the receiving use make? |
+| Pre-probe state or hypothesis, when needed | What is known or assumed about the state before the interaction? |
+| State at and after the read | Which state did the output measure or describe, and what changed during or after its production? Preserve uncertainty where the sequence or effect is unknown. |
 | Update class, if load-bearing | Is the update a system change, work change, epistemic reading update, carrier update, emitted-output update, formal model update, or update-law change? |
 | State-change evidence | Which traces, changed decisions, changed labels, changed priorities, behavior shifts, timing changes, or export failures support the state-change reading? |
 | Uncertainty / confidence posture | What remains inferred, approximate, disputed, probe-dependent, or not yet distinguishable? |
@@ -77,9 +75,9 @@ Distinctions for a fuller decision-bearing account:
 
 #### C.26.1:4.1 - Activation boundary
 
-This pattern is active only when the interaction both participates in the represented state and its output is being used as evidence, export, comparison input, or decision input as if it were passive. A passive-read, unjustified lossless-transfer, one-way-message, or ordinary-bridge treatment must be materially false for the current decision.
+Use this pattern while a possible state-changing interaction leaves an unresolved question about the interpretation of its output. A positive probe-coupled claim needs grounds for the relevant effect; suspicion alone does not establish it.
 
-Ordinary influence is not enough. A meeting that changes attention is ordinary work unless the meeting output is later used as a passive reading of alignment. An API call that is a mutating operation by its interface semantics is ordinary service/API semantics unless the call result is used as a neutral state export. A feature flag that changes behavior is ordinary intervention unless the flag readout is being used as evidence of the state it changes.
+A meeting that changes attention may still accurately report a fact observed before discussion. A mutating API operation can return the old or the new value according to its interface semantics. Identify that timing and meaning before treating either output as a false passive read.
 
 Performative-prediction analysis can explain behavior changed by a deployed prediction, score or metric. Use that account directly, with `C.16` for measurement, `A.10` for source recovery and bounded reliance, and `B.3` for a named assurance claim. C.26.1 can connect the supported probe effect to the corrected use of its output without QL; use it only while that question remains unresolved.
 
@@ -89,9 +87,11 @@ The pattern emits one of these results:
 
 | Result | Meaning |
 | --- | --- |
-| Keep boundary, mark probe-coupled | The boundary remains, but the read/export is no longer treated as passive. |
-| Redesign probe/order/frame | The workshop, dashboard, API read, survey, metric, or question order changes to reduce distortion. |
-| Redesign bridge/export | The bridge/export gains loss notes, use scope, confidence, and return-to-source path. |
+| Supported passive or time-qualified read | The procedure and evidence support the stated quantity at the stated time, including when a later probe effect leaves that reading intact. |
+| Unresolved interpretation | Name the missing operation, timing or effect premise and restrict only the conclusion that depends on it. |
+| Keep boundary, mark probe-coupled | The boundary remains, but the output is interpreted with its supported probe effect. |
+| Redesign probe/order/frame | Change the workshop, dashboard, API read, survey, metric or question order when that would supply the needed reading with less distortion. |
+| Redesign bridge/export | Preserve the state, timing and use conditions lost by the attempted export; state confidence or a return-to-source condition when the receiving use needs it. |
 | Split/merge/orchestrate differently | Boundary structure changes because the interaction changes the phenomenon. |
 | Apply `F.9` | Only bridge and loss remain live. |
 | Apply `C.16` | The probe is really a standard measurement with declared scale, method, evidence, and result. |
@@ -116,42 +116,28 @@ Ask: was the bounded-context cut merely discovered, or did the workshop, dashboa
 
 #### C.26.1:4.4 - Boundary interaction under concern and operational sequence
 
-The boundary interaction under concern is a boundary interaction used as evidence, export, comparison input, or architecture decision input. The interaction may be a meeting, question sequence, dashboard, metric, API read, survey, workshop, event stream, canary, test harness, service split, bridge, message, or management review. The pattern is active only when that interaction participates in the represented state enough that passive-read wording or unjustified lossless boundary-to-decision inference would change the decision.
+The boundary interaction under concern is used as evidence, export, comparison input or architecture decision input. Identify the concrete operation, any instrument or channel it uses, and the output being interpreted.
 
-The pattern governs one move: convert an apparently passive boundary read into a typed probe-coupled boundary decision. That decision says what the interaction read, what it changed, what the output can support, what it cannot support, and which neighboring FPF pattern takes over if the question is really bridge, measurement, evidence, work, decision, or viability.
+The useful result is a supported reading of that output, a corrected use, or the exact unresolved premise. A redesign is a further result only when it is needed and justified.
 
 Operational sequence:
 
-1. Name the boundary or relation involved and whether it is queried, crossed or changed.
-2. Name the operation or interaction that produced the output and distinguish any instrument, channel or carrier it used.
-3. State the false passive reading: what the team would have assumed if the probe were only a window.
-4. State the pre-probe hypothesis and the observed or inferred post-probe state.
-5. State the evidence carriers and uncertainty posture.
-6. State any export loss, memory, order or frame effect that changes the output's use. The already supported state change may itself explain why a pre-probe reading is invalid.
-7. Choose the finish result: keep boundary with probe note, redesign probe, order, or frame, redesign bridge or export, change the split, merge, or orchestration, or apply a neighboring FPF pattern.
+1. State the quantity or condition the receiving decision needs, its bearer and relevant time. Locate the actual output in the procedure, interface description, question sequence or available trace.
+2. Reconstruct the order of operations that can affect that quantity: preparation, sampling or questioning, state changes, output construction and later use. Read interface contracts, query definitions, timestamps, question wording or observed actions for those steps. Keep an unavailable step explicit rather than filling it with an assumed passive read.
+3. Trace a plausible effect from the operation to the reported quantity. For example, a query may populate a cache, publishing a score may change what people report, or discussion may change the agreement later summarized. Use existing mechanism or causal grounds; `C.28.CM` can develop an unresolved causal account. Mere temporal succession does not establish the effect.
+4. Determine whether the output concerns the state before, during or after that effect. Compare the intended interpretation with the procedure and observations. An operation that changes later state does not automatically invalidate an earlier reading. Distinguish an actual change in the subject from a changed label, carrier or interpretation.
+5. Retain only effects, export losses, order, memory or frame conditions that change the current use. If material alternatives remain, seek the existing trace or procedural fact that distinguishes them. A new comparison or probe is warranted only when its attainable result could change the receiving action enough to justify its cost. If the needed distinction cannot be made, state the unresolved interpretation and its consequence.
+6. Return the supported reading and choose any needed continuation: qualify the output, redesign the probe or export, change the boundary arrangement, or use the subject method for the remaining question. A sufficient reading finishes here.
 
-Required output: produce a probe-coupled interaction reading, a corrected use of the output, and, when it would reduce the problem, a redesign or decoupling move for the probe, order, frame, bridge, metric, dashboard, API read, or boundary interaction.
+For example, suppose an API request measures a cold-cache response and then fills the cache. The first response time can still support a cold-cache claim; a later response time cannot be used as that same cold-cache observation without further grounds. Recover the cache initialization, write point and measured interval from the procedure or trace. When those are unavailable, the unresolved point is which cache regime the timing represents, not a proven failure of all measurements.
 
 #### C.26.1:4.5 - Well-formed probe-coupled boundary state
 
-A probe-coupled boundary decision needs the following content, in ordinary prose or a record:
+A positive probe-coupled claim identifies the interaction, the relevant state or output meaning it changes, the grounds for that effect, and the consequence for the intended reading. Include the boundary, instrument, carrier, state history and confidence qualification when they carry that claim. A before/after reconstruction may be partial; do not turn missing information into an asserted change.
 
-- the boundary, context bridge, service interface, team boundary, role relation, authority relation, or system edge involved;
-- the probe lane and output carrier;
-- the state reading before the interaction and the state reading after the interaction;
-- the state-change evidence, including traces, changed labels, changed priorities, changed timings, changed routines, changed bridge fields, or changed downstream decisions;
-- the local stop condition: which use the output does not support without another pattern;
-- the neighboring FPF pattern that would carry the other claim.
+A useful result remains incomplete when the receiving use still depends on an unexplained output-producing step, an unsupported effect or a lost condition. State that specific gap. Evidence, command, measurement and semantic correspondence retain their distinct relations when more than one is used.
 
-The account is unfinished when any of these remains true:
-
-- the output is named, but the operation that produced it is hidden;
-- the operation is named, but the state that changed is not named;
-- the state changed, but the decision that changes because of that fact is not named;
-- the bridge/export loss is stated only as a vague warning rather than as a concrete non-admissible use;
-- the same interaction is alternately treated as evidence, command, measurement, and bridge without role split.
-
-The minimal admissible output is often enough: "this dashboard value is probe-coupled evidence for readiness behavior under window W"; "this workshop work changed alignment and therefore the workshop note cannot be treated as passive discovery"; "this API read is a non-neutral observation under these interface semantics"; "this context cut needs both `F.9` bridge loss and C.26.1 probe-coupling treatment."
+A minimal supported result may be: "this dashboard value evidences readiness behavior while the displayed score is used to allocate staffing"; "the workshop changed agreement, so its closing note is evidence of the resulting alignment"; or "this API response contains the value sampled before the write." Add a limit or further route only for a live unsupported use.
 
 #### C.26.1:4.6 - Probe, observable, output, and carrier split
 
@@ -172,22 +158,22 @@ This split prevents a common mistake: "the dashboard says ready" hides at least 
 
 Use this guide when a draft says that a boundary, system, team, or service is "coupled", "aligned", "interacting", "measured", "exported", "synchronized", or "read".
 
-| Trigger surface | First question | If yes | If no |
+| Trigger surface | Question that changes use | Supported effect | No relevant effect established |
 | --- | --- | --- | --- |
-| "The dashboard shows readiness." | Did publishing or using the dashboard change readiness behavior, escalation, staffing, or release posture? | Use C.26.1; state probe, update, evidence, and admissible use. | Use ordinary reporting, `C.16` for measurement, `A.10` for source recovery and bounded reliance, or `B.3` for an actual named assurance claim. |
-| "The workshop discovered the boundary." | Did question order, framing, participants, or artifacts change local meaning, ownership, trust, or viability? | Use C.26.1 with this context-cut worked use slice; add `F.9` if bridge/export loss is live. | Use ordinary DDD / `F.9` bounded-context work. |
-| "The API read returns state." | Is the read path state-changing under interface semantics, timing, cache, consistency, or downstream behavior? | Use C.26.1 if the result is later treated as a passive read. | Use ordinary API semantics, measurement, or data freshness. |
-| "The message transferred the decision." | Did the message change authority, trust, escalation, timing, or local meaning enough that copy or transfer is false? | Use C.26.1 and apply the relevant work or authority pattern to commitments or authority. | Use publication, bridge, or work enactment patterns. |
-| "The split improved viability." | Did the split/probe alter the viability envelope being evaluated? | Coordinate with `C.26.3`. | Use ordinary boundary, quality-bundle, or architecture patterns. |
+| "The dashboard shows readiness." | Did publishing or using the score change the behavior that this output is taken to report? | Qualify the readiness claim using the supported effect and timing. | Use an adequate reporting or measurement account; if the effect remains material and unknown, retain that uncertainty. |
+| "The workshop discovered the boundary." | Did discussion change the local meaning, ownership or agreement described by the final map? | Distinguish the resulting arrangement from the pre-workshop arrangement; add `F.9` only for an actual cross-context sense correspondence. | Use the supported domain account, or state which step or effect remains unknown. |
+| "The API read returns state." | What value is sampled relative to cache updates, mutations and response construction? | Interpret the output at that point in the sequence; redesign if the needed state is not recoverable. | Use adequate interface semantics, measurement or freshness grounds; do not infer a pre-state or post-state value from the verb "read" alone. |
+| "The message transferred the decision." | Did transmission or reception change the authority, trust, timing or meaning needed by this use? | Qualify the carried claim and use the applicable work or authority method. | Keep the supported transfer; identify any unresolved relation needed by the receiving use. |
+| "The split improved viability." | Does the evaluation depend on a change caused by the split or by the observation procedure? | Use `C.26.3` for the envelope and the probe account for the affected observation. | Use an adequate boundary or quality account, retaining a material unknown where necessary. |
 
-When relation wording is load-bearing, do not mint a relation token here. Use `A.6.P` if the relation or participants remain unclear; use the direct relation pattern when they are already known. Keep local explanatory prose unless the settled relation needs a reusable name under `F.18`.
+Use the direct relation pattern when the relation and participants are known, `A.6.P` when their meaning remains unclear, and `F.18` when the settled relation needs a reusable name.
 
 #### C.26.1:4.8 - Positive examples and near misses
 
 | Case | Supported C.26.1 use | Near miss and neighboring-pattern handoff |
 | --- | --- | --- |
 | Readiness dashboard | The readiness score changes team behavior: teams stop surfacing borderline failures because the dashboard is watched by release management. The score is probe-coupled evidence, not a passive readiness copy. | If the dashboard only reports a well-defined measure with no behavior-changing or frame-changing effect, use `C.16` and the direct pattern for any evidence claim that is current. |
-| API consistency check | A "read" through a cache warms entries and changes later latency, so the readout changes the performance state later used in the decision. | If the call is simply a mutating operation by interface semantics, use ordinary API/work semantics and say so plainly. |
+| API consistency check | A request warms the cache and changes later latency. Recover whether each timing was measured before or after warming; a later warm-cache result cannot by itself establish cold-cache performance. | If the interface and measured interval already settle that question, use the adequate API and measurement account directly. |
 | Survey order | Asking "who owns incidents?" before "which context owns payment failure?" changes the resulting context map and escalation plan. | If different answers merely reveal unresolved meanings, use `F.9` / `A.6.P` first. |
 | Event-storming workshop | The workshop produces a map and also changes team alignment, local vocabulary, and backlog priority. | If it only documents known differences, use ordinary DDD and bridge fields. |
 | Service split | Splitting Checkout and Payment changes recovery paths and support load, so the split is part of the phenomenon being evaluated. | If the split only reduces deployment coupling with no probe/export effect, use ordinary boundary and quality patterns. |

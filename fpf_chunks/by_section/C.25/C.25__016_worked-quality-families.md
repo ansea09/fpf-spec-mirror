@@ -6,12 +6,12 @@ section_id: "C.25:15"
 section_title: "Worked Quality Families"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.25/C.25__016_worked-quality-families.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.25 — Q-Bundle: Express a Quality Claim as One Characteristic or a Structured Bundle"
   - "C.25:15 — Worked Quality Families"
-line_start: 65199
-line_end: 65246
+line_start: 65209
+line_end: 65249
 dependencies:
   - "A.10"
   - "A.15"
@@ -85,12 +85,5 @@ Security claims routinely combine:
 
 #### C.25:15.4 - Maintainability and evolvability
 
-Maintainability or evolvability claims often drift into pure rhetoric. In `C.25`, they become usable only when the publisher separates:
-
-- the declared scope of systems or change classes,
-- the measurable slots (for example change lead time, defect reintroduction rate, restoration interval, review load),
-- the enabling mechanisms (modularity rules, test harnesses, interface discipline),
-- and the window or evidence conditions under which those measures were observed.
-
-This is exactly the kind of quality family that looks scalar in speech but turns composite once the claim is made explicit.
+For maintainability or evolvability, recover the particular claim and the contributors on which it depends. These may include the system or change-class scope; measures such as change lead time, defect reintroduction rate, restoration interval or review load; enabling mechanisms such as modularity rules or a test harness; and the observation window or other support actually used. Keep measures distinct from mechanism and scope claims. A narrow claim carried by one Characteristic can stop there; a broader claim retains every load-bearing contributor, not every example in this list.
 

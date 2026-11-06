@@ -6,12 +6,12 @@ section_id: "C.32.ADA:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ADA/C.32.ADA__008_conformance-checklist.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.32.ADA — Architecture Decision Adequacy Scales"
   - "C.32.ADA:7 — Conformance Checklist"
-line_start: 80655
-line_end: 80669
+line_start: 80610
+line_end: 80624
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -60,12 +60,12 @@ keywords:
 |---|---|
 | `CC-ADA-1` | Declared use and stop condition are written before evaluation. |
 | `CC-ADA-2` | The evaluated decision relation and optional ADR projection are cited. |
-| `CC-ADA-3` | Every coordinate is scored `0 absent` through `5 exceptionallyExpressedForDeclaredUse` or marked `notTriggered` with a grounded reason. |
+| `CC-ADA-3` | Every coordinate has a supported `0`–`5` value, a grounded `notTriggered` disposition, or an explicitly unestablished dependent value with its missing basis. Keep the complete evaluation draft while a required judgement is unestablished, retaining supported results. |
 | `CC-ADA-4` | Every value has adjacent-value rationale, not only a number. |
 | `CC-ADA-5` | No coordinate values are averaged or converted into one global score. |
 | `CC-ADA-6` | Weak coordinates name repair pattern refs and repair instructions. |
 | `CC-ADA-7` | Evidence, assurance, gate, measurement, eval, publication, Method, Work and pattern-quality claims retain their distinct meanings and applicable definitions or tests; exact ClaimGraph identity is cited when the claim or reliance needs it. |
 | `CC-ADA-8` | A project-local ADA record names both `projectWorkOccurrenceRef` and `architectureDecisionEvaluationProjectUseRelationRef`; the evaluated decision's relation, the suffix, or either field alone asserts no locality. |
-| `CC-ADA-9` | A local evaluator kind and a System-classification judgment use separate optional refs and neither requires an assignment. Actual evaluation first recovers the evaluator through A.13 and names independently admitted A.15.1 Work. Assignment species, occurrence, and F.6 refs are optional and appear only when the ADA record or receiving use expressly represents precise assignment-bound attribution; a missing or failed F.6 relation leaves independently admitted Work intact. An operation application and result episteme remain separate. Keep those objects and relations distinct, preserving the admission dependencies stated above; a label or record does not establish the other facts. |
-| `CC-ADA-10` | Every evaluation binds one exact `U.ClaimScope`, relevant A.2.6 `U.ContextSlice` membership, effective reference scheme and applicable plane, evaluation window, and input projection; the declared-use label and coordinate table do not replace them. |
+| `CC-ADA-9` | A local evaluator kind and a System-classification judgment use separate optional refs and neither requires an assignment. A claim about a particular dated evaluation Work occurrence first recovers the evaluator through A.13 and names independently admitted A.15.1 Work. Ordinary evaluation still retains the operation, material conditions and support needed for its result. Assignment species, occurrence, and F.6 refs are optional and appear only when the ADA record or receiving use expressly represents precise assignment-bound attribution; a missing or failed F.6 relation alone leaves independently admitted Work intact, with any questioned admission premise rechecked as above. An operation application and result episteme remain separate. Keep those objects and relations distinct, preserving the admission dependencies stated above; a label or record does not establish the other facts. |
+| `CC-ADA-10` | Each evaluation binds its exact claim scope, relevant context slices and reference scheme, preserving every declared selector and any plane, time qualification or input projection required by the judgement or receiving use. The declared-use label and coordinate table do not replace those conditions. |
 

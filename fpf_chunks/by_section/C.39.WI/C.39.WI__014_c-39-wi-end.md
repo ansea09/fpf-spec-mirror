@@ -6,12 +6,12 @@ section_id: "C.39.WI:End"
 section_title: "C.39.WI:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.WI/C.39.WI__014_c-39-wi-end.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.39.WI — Discover Worthwhile Method Improvements"
   - "C.39.WI:End — C.39.WI:End"
-line_start: 84203
-line_end: 84204
+line_start: 84154
+line_end: 84155
 dependencies:
   - "C.11.DUA"
   - "C.11.MV"

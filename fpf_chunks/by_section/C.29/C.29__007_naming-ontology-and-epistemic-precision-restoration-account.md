@@ -6,12 +6,12 @@ section_id: "C.29:6"
 section_title: "Naming, ontology, and epistemic precision-restoration account"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__007_naming-ontology-and-epistemic-precision-restoration-account.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:6 — Naming, ontology, and epistemic precision-restoration account"
-line_start: 69719
-line_end: 69739
+line_start: 69657
+line_end: 69677
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -79,5 +79,5 @@ When one `C.29` application needs a mathematical-lens name to become reusable ou
 
 #### C.29:6.3 - Ontology guard selected for FPF
 
-> A physical, organizational, or epistemic phenomenon is not directly identified with a mathematical object; it is represented through a mathematical object by an explicitly declared mapping that preserves the required structure and identifies any losses or additional receiving objects.
+> Distinguish the subject from its description and carrier. A mathematical object may itself be the subject, or it may represent another subject through a correspondence. State what that correspondence establishes: representation alone proves neither identity nor source-domain ontology; an established identity, equivalence or embedding remains usable at its actual strength.
 

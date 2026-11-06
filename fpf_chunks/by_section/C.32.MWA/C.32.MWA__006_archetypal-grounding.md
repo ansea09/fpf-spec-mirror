@@ -6,12 +6,12 @@ section_id: "C.32.MWA:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA/C.32.MWA__006_archetypal-grounding.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.32.MWA — Synthesize an Architecture Account of Methods and Their Use"
   - "C.32.MWA:5 — Archetypal Grounding"
-line_start: 78865
-line_end: 78874
+line_start: 78817
+line_end: 78826
 dependencies:
   - "A.13"
   - "A.15.1"
@@ -37,7 +37,7 @@ keywords:
 
 ### C.32.MWA:5 - Archetypal Grounding
 
-**Tell — methods and their social-dance use.** A five-minute social-dance occurrence sits inside a longer party. The architecture question connects dance methods, their performance, participant capabilities and the transmission of the style. Preparation has a real first-then order, while movement regulation, figure performance, partner coordination, style-specific performance and event participation can overlap in time. A teaching diagram is a description; bodily and pair capabilities concern participating Systems; scene transmission and later style selection are cultural relations. The synthesis keeps these structures linked but not identical. A sequence-only stack loses simultaneity, while one culture-level stack loses the actual Work and subject relations.
+**Methods and their social-dance use.** A five-minute social-dance occurrence sits inside a longer party. The architecture question connects dance methods, their performance, participant capabilities and the transmission of the style. Preparation has a real first-then order, while movement regulation, figure performance, partner coordination, style-specific performance and event participation can overlap in time. A teaching diagram is a description; bodily and pair capabilities concern participating Systems; scene transmission and later style selection are cultural relations. The synthesis keeps these structures linked but not identical. A sequence-only stack loses simultaneity, while one culture-level stack loses the actual Work and subject relations.
 
 **Show — engineering Methods in performed Work.** In a 90-minute power-converter integration run, model correction overlaps simulation, rig reconfiguration precedes closed-loop test, assurance overlaps later testing, and restoration of a simulation service overlaps the run without becoming part of the converter-integration Work. Reconfiguration changes the rig; the test uses that changed rig only after reconfiguration is complete and the rig is authorized for testing. Plant and controller models are descriptions used in the Work, not the converter or the Work. The team compares a sequence-only account with a linked account of Method, Work, subjects, models, platform service, capability, and evidence. The linked account wins for this question because it preserves the order and guarded enabling dependency between rig change and test, together with the overlapping activities. Those relations alone do not establish the internal organization of one Method or a transformation-flow structure. If evidence assembly is moved to the platform, the synthesis records platform availability and traceability as a moved burden rather than declaring an unqualified gain.
 

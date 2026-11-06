@@ -6,12 +6,12 @@ section_id: "C.32.CONWAY:5"
 section_title: "Worked Correspondence Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.CONWAY/C.32.CONWAY__006_worked-correspondence-cases.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.32.CONWAY — Architecture-Influence and Transformed-Architecture Correspondence"
   - "C.32.CONWAY:5 — Worked Correspondence Cases"
-line_start: 78375
-line_end: 78407
+line_start: 78321
+line_end: 78359
 dependencies:
   - "A.10"
   - "A.12"
@@ -35,6 +35,7 @@ dependencies:
   - "C.32.ACS"
   - "C.32.FAIL"
   - "C.32.MLAO"
+  - "C.32.MWA.PP"
   - "C.32.PAD"
   - "E.18"
   - "E.18.NET"
@@ -45,6 +46,12 @@ keywords:
 ---
 
 ### C.32.CONWAY:5 - Worked Correspondence Cases
+
+**Recovering the Plant-A constraint.** A request asks for independent field-module replacement. Begin with the present replacement instruction, the test package and a representative change record. Trace what happens after one module changes: which other modules must be present, which evidence is reused, and who can accept it. Suppose the test procedure evaluates an interaction across the current module boundary and the applicable certification rule consumes that joint result. The shared test is then a premise to preserve, not merely a scheduling habit.
+
+A manufacturing-cell candidate must supply a qualified way to obtain the needed joint evidence with less shared work. A product-boundary candidate can place the interacting parts within one independently replaceable unit and check what that larger unit costs the field user. A joint candidate changes the interface and qualifies the corresponding separate test. Keeping the batch dependency is a bounded alternative only where the replacement requirement permits it; otherwise it does not satisfy that requirement. Follow each proposed change through production, test, acceptance and replacement before treating its benefit as established.
+
+If the shared test instead exists only because the current fixture or approval arrangement is convenient, the same tracing can justify investigating separate provision without changing the product boundary. If its reason is undocumented, obtain the applicable procedure and provider's explanation first; do not infer either case from the fact that testing is shared. The exact positive case below represents independently established relation and performance facts after the relevant predicates and evidence have been supplied.
 
 | Grounded working case | Acting and performance facts | Influence-source and architecture-pair facts | Candidate work | Stop or return |
 |---|---|---|---|---|

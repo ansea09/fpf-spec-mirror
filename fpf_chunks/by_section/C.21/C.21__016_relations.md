@@ -6,12 +6,12 @@ section_id: "C.21:13"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__016_relations.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:13 — Relations"
-line_start: 62813
-line_end: 62818
+line_start: 62812
+line_end: 62817
 dependencies:
   - "A.10"
   - "A.17-A.18"
@@ -48,7 +48,7 @@ keywords:
 
 ### C.21:13 - Relations
 
-* **Builds on:** C.20 for the discipline, A.17-A.18 for Characteristic and Scale, C.16 for measurement and direct comparability, A.2.6 for ClaimScope and optional selected slices, and C.2.1 for result and series epistemes.
-* **Coordinates with:** F.9 for actual cross-local sense relations; G.0 and A.19 for numerical operation, comparison, or aggregation; G.4 for target bands and acceptance; G.9 for parity; G.11 for currentness and refresh; G.12 for dashboard representations; A.10/G.6 and B.3 only for named evidence-reliance or assurance uses; E.24.PUB for publication availability.
+* **Builds on:** C.20 for the discipline, A.17-A.18 for Characteristic and Scale, C.16 for measurement and comparability of measured readings, A.2.6 for ClaimScope and optional selected slices, and C.2.1 for result and series epistemes.
+* **Coordinates with:** F.9 for actual cross-local sense relations; G.0 and A.19 for numerical operation, comparison, or aggregation; G.4 for a selected formal target-band or acceptance interface; G.9 for parity; G.11 for currentness and refresh; G.12 for dashboard representations; A.10/G.6 and B.3 only for named evidence-reliance or assurance uses; E.24.PUB for publication availability.
 * **Constrains:** G.5 and G.10 when they consume a DHC coordinate: they carry the same active DHC replay basis rather than a generic method-spec or metric-edition pin.
 

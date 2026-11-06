@@ -6,12 +6,12 @@ section_id: "C.26:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26/C.26__010_consequences.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.26 — Quantum-Like Modeling Lens"
   - "C.26:9 — Consequences"
-line_start: 65956
-line_end: 65979
+line_start: 65932
+line_end: 65939
 dependencies:
   - "A.10"
   - "A.15"
@@ -54,23 +54,7 @@ keywords:
 
 This pattern gives FPF a single place to define QL-lite and the inherited non-quantum boundary. That reduces repeated disclaimers in child patterns and makes ordinary use lighter.
 
-Cluster success criteria:
+The gain is a better-bounded reading: probe-dependent evidence is not treated as a passive copy, comparison uses a shared frame, and export names what the target use may rely on. Where ordinary patterns already carry the claim, their result finishes the question.
 
-| Criterion | Good indicator |
-| --- | --- |
-| Fewer false passive reads | Dashboards, workshops, API reads, and reports are less often treated as neutral state copies. |
-| Fewer invalid comparisons | Same-named metrics from different contexts are not silently compared. |
-| Better bridge records | `F.9` records more often include admissible export use and non-admissible export use. |
-| Better release and evidence discipline | `B.3` and `A.10` are invoked only when the claim’s evidence or authority demand requires them. |
-| Less metaphorical leakage | Fewer `field`, `collapse`, `entanglement`, and `group mind` phrases appear in normative text. |
-| Faster local notes | Practitioners can write QL-lite notes without full audit cards. |
-| More retirements | QL wording is removed when ordinary FPF patterns carry the claim. |
-
-The best outcome may be fewer but better QL mentions.
-
-Do not retrofit QL into existing FPF examples merely because they involve measurement, context, service boundaries, feedback, coarsening, or distributed work. Patch only examples where a named false passive read, false shared frame, false faithful export, low-recoverability distributed-state reading, or QL-specific coarsening residue changes the decision.
-
-The cost is authoring discipline. A writer must name the ordinary FPF pattern, the actual QL cue, and the local stop. These details help prevent treating a changed, thinned, or frame-bound representation as if it were a full state.
-
-The state-representation coarsening card makes speed and tractability claims more honest. It lets teams use cheaper state descriptions while keeping loss and reopen conditions visible.
+The additional work is to establish any surviving contextual-model obstruction and state the inference or action it changes. Coarsening may make a state description cheaper to use; its declared losses and reopen conditions limit that gain to the intended use.
 

@@ -6,12 +6,12 @@ section_id: "C.37.CF:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37.CF/C.37.CF__001_intro.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.37.CF — Compare Content and Form Changes"
   - "C.37.CF:intro — Intro"
-line_start: 82285
-line_end: 82290
+line_start: 82236
+line_end: 82241
 dependencies:
   - "A.3.2.DE"
   - "C.2.8"

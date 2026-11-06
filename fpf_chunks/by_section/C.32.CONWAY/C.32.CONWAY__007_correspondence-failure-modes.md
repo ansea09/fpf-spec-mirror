@@ -6,12 +6,12 @@ section_id: "C.32.CONWAY:6"
 section_title: "Correspondence Failure Modes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.CONWAY/C.32.CONWAY__007_correspondence-failure-modes.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.32.CONWAY — Architecture-Influence and Transformed-Architecture Correspondence"
   - "C.32.CONWAY:6 — Correspondence Failure Modes"
-line_start: 78408
-line_end: 78426
+line_start: 78360
+line_end: 78378
 dependencies:
   - "A.10"
   - "A.12"
@@ -35,6 +35,7 @@ dependencies:
   - "C.32.ACS"
   - "C.32.FAIL"
   - "C.32.MLAO"
+  - "C.32.MWA.PP"
   - "C.32.PAD"
   - "E.18"
   - "E.18.NET"
@@ -59,7 +60,7 @@ keywords:
 | **One-sided optimization** | Consider source-side, transformed-side, joint and bounded-mismatch alternatives. Develop those applicable to the question, retaining the reason for any consequential exclusion. |
 | **Pair treated as network** | Keep the exact pair row as one qualified reading; use E.18.NET for network identity, members, and exact cross-flow relations. |
 | **Network citation treated as relation admission** | Ground the exact relation participants in member-flow positions and make the E.18.NET composite locator name that same citing current record and exactly one cross-flow row; otherwise remove `networkCrossFlowRelationRowRef`. A locator for one record does not qualify another record's citation. |
-| **Mirroring treated as adequacy** | Keep the statement as candidate pressure or use C.29 when mathematical structural similarity or preservation is claimed. |
+| **Mirroring treated as adequacy** | Establish the claimed preservation or adequacy under its actual rule and grounds. Keep unsupported mirroring as candidate pressure; use C.29 for an unresolved mathematical representation choice, transfer or reliance question. |
 | **Software-practice overfit** | When the changed referent is a product family, manufacturing system, school, hospital, or another admitted non-software holon, transfer only the selected-structure correspondence and affected characteristics; do not import software-service or team ontology. A method-family or method-description label alone does not make the named object a `U.Holon`; if the case uses a method-related holon, identify that exact holon and admit it independently under its direct kind-admission pattern. |
 | **Static correspondence** | Reconsider the affected correspondence when a change to an architecture, structure, relation, referent or window changes its premises; retain unaffected uses. |
 

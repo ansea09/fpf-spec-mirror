@@ -6,12 +6,12 @@ section_id: "C.39.MC:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.MC/C.39.MC__002_problem-frame.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.39.MC — Continue Method Development from Changed Conditions"
   - "C.39.MC:1 — Problem Frame"
-line_start: 84614
-line_end: 84627
+line_start: 84567
+line_end: 84580
 dependencies:
   - "A.15.7"
   - "A.22.CGUS"
@@ -28,7 +28,7 @@ keywords:
 
 Start by asking: **Which Method-architecture result do we need now, and what fact could change that need?** For example: “We can review the candidate description, but cannot yet claim that its proposed Methods form one whole. Which result should we obtain, and what stays valid when the missing evidence arrives?”
 
-The first useful answer can be spoken: “Review these unchanged claims through A.3.1.QM; keep the whole claim unresolved under B.1.5.CM; publication remains blocked by its separate condition. Reopen the whole claim when its missing relation basis arrives.” During ongoing Work, the deciding System uses A.15.7 to choose the actual next action and names its performer and feedback condition.
+The first useful answer can be spoken: “Review these unchanged claims through A.3.1.QM; keep the whole claim unresolved under B.1.5.CM; publication remains blocked by its separate condition. Reopen the whole claim when its missing relation basis arrives.” During ongoing Work, the deciding System uses A.15.7 to choose the actual next action and names the intended performer and any feedback condition needed for that continuation.
 
 The practical gain is continuity across Method-development questions. Each new fact returns to the result it can change; the practitioner need not restart qualification, comparison, description, and support work together or reconstruct their boundaries from a reading sequence.
 

@@ -6,12 +6,12 @@ section_id: "F.0.2.RC:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2.RC/F.0.2.RC__011_architectural-rationale.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "F.0.2.RC — Test Constructive Coverage and Refresh Dependent Explanations"
   - "F.0.2.RC:10 — Architectural Rationale"
-line_start: 118700
-line_end: 118705
+line_start: 118655
+line_end: 118660
 dependencies:
   - "A.10.1"
   - "A.3.1.CC"

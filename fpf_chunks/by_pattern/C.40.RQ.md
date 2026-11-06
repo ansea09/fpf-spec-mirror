@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.40.RQ.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.40.RQ — Requalify Changed Opportunities"
-line_start: 88135
-line_end: 88371
+line_start: 88088
+line_end: 88324
 dependencies:
   - "A.10"
   - "A.10.1"
@@ -37,7 +37,7 @@ Begin with the changed premise and the particular opportunity claim that used it
 
 This is application-specific requalification shared by Construction and Advising. A changed recommendation returns to its actual advice owner for the affected follow-up question; changed source-currentness or publication work retains its direct owner.
 
-**Ordinary non-use boundary.** Reuse a current result when no material premise or receiving use changed. A new filename, link, date label, or layout alone does not require reconstructing opportunities. If the current question is only one source's currentness, use G.11; if it is one already-known evidence reliance, use A.10 and the direct subject guidance. Do not create an indefinite monitoring service to answer a bounded change.
+**Ordinary non-use boundary.** Reuse a current result when no material premise or receiving use changed. A new filename, link, date label, or layout alone does not require reconstructing opportunities. If the current question is only one source's currentness, use G.11; if it is one already-known evidence reliance, use the direct subject guidance and retain the support needed for that use. Apply A.10 when the source-to-use account remains implicit or must be replayable. Do not create an indefinite monitoring service to answer a bounded change.
 
 ### C.40.RQ:2 - Problem
 
@@ -248,7 +248,7 @@ Keeping the earlier return, current qualification, and later authorized action s
 ### C.40.RQ:12 - Relations
 
 - **Receives from C.40.OI, C.40.NU, C.40.PC, C.40.DC, C.40.JF, C.40.OP and the applicable professional engagement Method:** the inquiry, characterization, contribution, direction, reachability, retained path, or advising boundary whose premise changed.
-- **Uses A.10 and A.15.9:** one-use reliance and bounded external-result qualification.
+- **Uses A.10 and A.15.9:** A.10 for a source-to-use account that remains implicit or must be replayable; A.15.9 for bounded external-result qualification.
 - **Uses A.10.1:** changed-source discovery and revalidation across actual receiving uses, with coverage and independently governed subject results.
 - **Returns to C.40.PC, C.40.DC, C.40.JF, C.40.OP, the applicable professional engagement Method and holder practices:** the smallest opportunity or relationship question affected by the new conditions.
 - **Uses C.11.CRC:** changed finite comparisons with complete coordinates and actual or conditional stage-specific baselines.

@@ -6,12 +6,12 @@ section_id: "C.40.RQ:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.RQ/C.40.RQ__003_problem.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.40.RQ — Requalify Changed Opportunities"
   - "C.40.RQ:2 — Problem"
-line_start: 88153
-line_end: 88160
+line_start: 88106
+line_end: 88113
 dependencies:
   - "A.10"
   - "A.10.1"

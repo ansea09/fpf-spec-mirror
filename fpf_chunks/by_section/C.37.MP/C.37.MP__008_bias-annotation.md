@@ -6,12 +6,12 @@ section_id: "C.37.MP:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37.MP/C.37.MP__008_bias-annotation.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.37.MP — Maintain a Method Representation Profile"
   - "C.37.MP:6 — Bias-Annotation"
-line_start: 82214
-line_end: 82225
+line_start: 82165
+line_end: 82176
 dependencies:
   - "A.10"
   - "A.3.1"
@@ -28,9 +28,9 @@ keywords:
 | --- | --- | --- |
 | artifact-as-Method bias | A diagram or playbook becomes the Method itself. | Return every row to the admitted Method or candidate account and current description edition. |
 | use-boundary collapse | One selection is reused for another action because the user, carrier, or Method is unchanged. | Give every receiver/action pair one complete embedded C.37 claim group and another row for another action. |
-| layer borrowing | Publication, provenance, evidence classification, or profile membership is treated as reliance or permission. | Keep direct subject result, optional A.2.4 classification, material A.10 reliance, and receiving result separately recoverable. |
+| layer borrowing | Publication, provenance, evidence classification, or profile membership is treated as reliance or permission. | Keep the direct subject result, optional A.2.4 classification, reliance basis and any needed A.10 account, receiving conditions and actual action result separately recoverable. |
 | viewpoint reification | A management label creates a Work or forces different direct subjects into one Work. | Recover each subject under A.15.6; apply each claimed view's conformance separately and complete the same-action selection under C.37. |
 | plan-as-work bias | A representation of intended enactment is reported as performed Work. | Preserve WorkPlan status and return the failed or absent Work-dependent result. |
-| graph metaphor bias | Any connected Method material is called a graph. | Reserve mathematical graph claims for an actual `C.29` result; call ordinary material a diagram, table, map, or other direct kind. |
+| graph metaphor bias | Any connected Method material is called a graph. | Ground a mathematical graph claim in its actual object and correspondence; use `C.29` only for a remaining representation, transfer, or reliance question. |
 | integrated-view bias | Profile colocation creates one authoritative super-view or new MethodDescription edition. | Keep rows separate and change the edition, collection, structure, or view only through its direct owner. |
 

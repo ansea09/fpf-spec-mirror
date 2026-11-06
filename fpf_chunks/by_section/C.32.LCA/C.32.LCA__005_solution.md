@@ -6,12 +6,12 @@ section_id: "C.32.LCA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.LCA/C.32.LCA__005_solution.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.32.LCA — Construct and Compare a Control Architecture"
   - "C.32.LCA:4 — Solution"
-line_start: 76654
-line_end: 76850
+line_start: 76589
+line_end: 76785
 dependencies:
   - "A.3.3.PI"
   - "B.2.5"

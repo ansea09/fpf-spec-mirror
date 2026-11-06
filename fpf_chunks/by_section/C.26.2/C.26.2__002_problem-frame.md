@@ -6,12 +6,12 @@ section_id: "C.26.2:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.2/C.26.2__002_problem-frame.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.26.2 — Enacted Distributed State Evidence"
   - "C.26.2:1 — Problem frame"
-line_start: 66345
-line_end: 66365
+line_start: 66289
+line_end: 66309
 dependencies:
   - "A.10"
   - "A.15"
@@ -39,14 +39,14 @@ keywords:
 
 Use this pattern when coordinated work, behavior, or trace patterns give evidence that a team, organization, service mesh, market, or other collective system is acting from a state that no single participant report, survey, policy sentence, dashboard, or API export faithfully carries.
 
-The pattern supports only a minimal evidence-bound claim. It lets an author say that coordinated work, behavior, or trace patterns are consistent with a distributed-state reading during a declared window, while keeping the claim tied to carriers, probes, rival explanations, and export loss.
+The pattern supports a bounded claim about the collective's current organization or behavior from the evidence available across its parts. Distinguish what those observations establish about the state from what explains its occurrence, and preserve uncertainty in either question.
 
 | Working surface | Value |
 | --- | --- |
 | Primary reader | Architect, incident lead, organizational analyst, or manager judging whether coordinated work, behavior, or trace patterns evidence a minimal collective-state reading. |
 | Evidence-bound state reading | An evidence-bound state reading over a declared collective `U.System`. |
-| Minimal state-reading move | Infer only the minimal carrier-bound and window-bound state claim, name rivals, and state export and probe limits. |
-| Outside work | Group-mind ontology, survey-as-state, timeless culture claims, ordinary routine claims, and formal measurement not governed by `C.16`. |
+| Minimal state-reading move | Recover the collective pattern from its parts' observed actions and relations; retain the evidence, time and live interpretation limits needed by the receiving use. |
+| Outside work | Unsupported group-mind or timeless-culture claims, a report mistaken for its subject, and questions already answered adequately by a routine, measurement or other subject account. |
 | What changes in practice | The team can use coordinated work, behavior, or trace patterns as evidence without pretending one report faithfully exports the whole state. |
 
 Plain glosses:

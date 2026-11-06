@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.41.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.41 — Select Checklist Questions for a Work Result"
-line_start: 89050
-line_end: 89290
+line_start: 89003
+line_end: 89243
 dependencies:
   - "A.3.1"
   - "A.3.2"
@@ -71,7 +71,7 @@ For a fuller account of change and subject states, return to [FPF A.3.3](https:/
 
 #### C.41:0.4 - Choosing and combining the Methods
 
-For a recurring omission, select a useful question set with C.41, express it with C.41.TF and arrange first use with C.41.OF. C.41.UA then produces answers on real occasions. Compare the contribution and burden with [C.11.MV](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c11mv---compare-the-worth-of-a-method-option), and use [A.3.1.MI](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a31mi---introduce-a-method-into-practice-and-decide-what-to-keep-or-change) to choose a worthwhile change. The result can be a clearer question, a different occasion, new support, or retirement of the aid.
+For a recurring omission, select a useful question set with C.41, express it with C.41.TF and arrange first use with C.41.OF. C.41.UA then produces answers on real occasions. Compare the contribution and burden, reusing an adequate comparison or using [C.11.MV](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c11mv---compare-the-worth-of-a-method-option) when that result is still needed. Use [A.3.1.MI](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a31mi---introduce-a-method-into-practice-and-decide-what-to-keep-or-change) when introduction and later use must inform a change. The result can be a clearer question, a different occasion, new support, or retirement of the aid.
 
 For shared work with uncertain criteria, use C.41.QC to challenge those criteria and checking means. C.41 retains the useful coverage; C.41.TF and C.41.OF give participants workable local views. C.41.UA supplies local answers. C.41.SR tests their combined use, locates gaps and reopens affected reliance when premises change. Several Methods can be active within the same larger performance; an earlier result is needed only where another action actually consumes it.
 
@@ -81,7 +81,7 @@ One centralized checklist can be sufficient when everyone has the relevant acces
 
 Across this family, ask whether the important work questions are covered, their meanings survive the chosen forms, people can answer at the right occasion, the answers have adequate grounds, shared conclusions follow from the contributions actually supplied, and uncertain criteria have been challenged. Inherit adequate answers from prior use; revisit the part changed by new evidence or conditions. Each pattern's Conformance Checklist makes its own contribution inspectable.
 
-These are questions about sound application, not a demand for a second checklist on every checklist. Recognition begins with the ordinary situations in §0.1 and the Problem frames. Assurance comes from examining the actual questions, observations, mappings, counterexamples and consequences in the later sections. More completed fields do not establish either useful work or a sound Method.
+Recognition begins with the ordinary situations in §0.1 and the Problem frames. Assurance comes from examining the actual questions, observations, mappings, counterexamples and consequences in the later sections.
 
 The constructed examples here illustrate reasoning and possible use. They do not report measured effectiveness. Human-use studies and AI evaluation studies inform the Methods under the limits in [C.41:11](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c4111---sota-echoing) and the supplying patterns' SoTA-Echoing sections. Practical adoption still depends on capabilities, access, working conditions and the result people value.
 
@@ -129,7 +129,7 @@ Use your own and others' past omissions to propose questions, keeping the condit
 
 Follow the actual production and use relations far enough to expose a consequential omission. Who or what produces this result, what enables that producer, and who uses the result? At a relevant link, distinguish the producer or user, descriptions of it, its way of working and its actual work. A missing intermediate service, tool or capable performer may deserve attention even when the final subject looks satisfactory. Stop following links when further detail cannot change the selected questions. If the prospective subject does not yet exist, ask about the available materials, descriptions or enabling results without treating a description as the existing subject.
 
-Recover the descriptions used to judge the result and the assumptions connecting their described characteristics to that use. [C.39.RQ](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c39rq---construct-situated-method-requirements) helps construct criteria from the subject and situation. Use its account of criterion construction with the subject/description distinction in §0.2. When the criterion's basis is unavailable, return that specific question to competent domain work.
+Recover the descriptions used to judge the result and the assumptions connecting their described characteristics to that use. Use [C.39.RQ](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c39rq---construct-situated-method-requirements) when the missing criterion concerns a required Method contribution, retaining the subject/description distinction in §0.2. When the criterion's basis is unavailable, return that specific question to competent domain work.
 
 #### C.41:4.2 - Propose questions and test their contribution
 
@@ -224,7 +224,7 @@ To examine this Method's use, inspect the actual selected questions:
 - Have constituent passes been kept separate from any encompassing conclusion?
 - Is the bounded coverage usable at its cost, with a concrete reason to reopen selection?
 
-An answer can be inherited from a still-applicable prior selection. The existence of these five questions is not a reason to create five additional records.
+An answer can be inherited from a still-applicable prior selection.
 
 ### C.41:8 - Common Anti-Patterns and How to Avoid Them
 

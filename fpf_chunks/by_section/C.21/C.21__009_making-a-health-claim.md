@@ -6,12 +6,12 @@ section_id: "C.21:7"
 section_title: "Making a health claim"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__009_making-a-health-claim.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:7 — Making a health claim"
-line_start: 62746
-line_end: 62756
+line_start: 62745
+line_end: 62755
 dependencies:
   - "A.10"
   - "A.17-A.18"
@@ -52,8 +52,8 @@ keywords:
 2. Identify the discipline under C.20 and one exact Characteristic and Scale.
 3. State ClaimScope, comparison or observation basis, and time or population basis.
 4. Stop if an ordinary typed claim is enough.
-5. If measuring, comparing, or aggregating, recover the C.16 chain and DHC replay basis; add only the exact legal-operation and crossing branches used.
+5. If measuring, recover the C.16 chain and DHC replay basis. If comparing or aggregating, retain the compatible inputs and legal operation, adding the measurement, crossing or formal-interface conditions actually used.
 6. If repeated windows matter, construct a series episteme from exact result refs.
-7. If a dashboard matters, represent those results under G.12.
+7. Use G.12 when the needed dashboard represents measured DHC coordinate results.
 8. If audience availability matters, establish E.24.PUB publication separately.
 

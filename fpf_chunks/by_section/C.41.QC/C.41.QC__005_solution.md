@@ -6,12 +6,12 @@ section_id: "C.41.QC:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.QC/C.41.QC__005_solution.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.41.QC — Qualify Checklist Criteria and Checking Means"
   - "C.41.QC:4 — Solution"
-line_start: 89932
-line_end: 89971
+line_start: 89887
+line_end: 89926
 dependencies:
   - "A.10"
   - "C.41"
@@ -26,9 +26,9 @@ A.10 governs evidence reliance; A.19.ULSAM governs an actual numerical aggregati
 
 #### C.41.QC:4.1 - Recover the claim, basis and intended reliance
 
-Name the criterion, the question it interprets and the subject of that question. Recover the description and the assumption connecting it to useful work. Use [C.39.RQ](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c39rq---construct-situated-method-requirements) when the criterion needs construction from the subject and situation.
+Name the criterion, the question it interprets and the subject of that question. Recover the description and the assumption connecting it to useful work. When the criterion needs construction, use [C.41](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c41---select-checklist-questions-for-a-work-result) §§4.1–4.2 to obtain a consequential work question and its basis. Use [C.39.RQ](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c39rq---construct-situated-method-requirements) when the missing criterion concerns a Method contribution.
 
-Then name the checking means: a person applying a judgement, a comparison script, an observation tool or a model-based evaluator. What does it actually observe or consume? What answer does it produce? What will another person or system infer from that answer? Administrative claim-checking Methods supply the distinctions needed for that domain. A method name or test file is not itself proof that the intended check occurred.
+Then name the checking means: a person applying a judgement, a comparison script, an observation tool or a model-based evaluator. What does it actually observe or consume? What answer does it produce? What will another person or system infer from that answer? Administrative claim-checking Methods supply the distinctions needed for that domain.
 
 For a model judge, include the supplied evidence and instructions, the criteria grouped in each call, and any rule combining repeated verdicts when these can change the relied-on answer.
 

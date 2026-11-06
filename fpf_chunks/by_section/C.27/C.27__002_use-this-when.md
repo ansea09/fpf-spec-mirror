@@ -6,12 +6,12 @@ section_id: "C.27:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__002_use-this-when.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Change"
   - "C.27:0 — Use This When"
-line_start: 67039
-line_end: 67076
+line_start: 66977
+line_end: 67013
 dependencies:
   - "A.10"
   - "A.3.3"
@@ -56,16 +56,15 @@ The practical question is simple:
 
 > Are we only reading a state, only reading a rate, or claiming that an intervention changes a rate, rhythm, recovery, or regime?
 
-If the claim is only a state or rate reading, stop. If it is intervention-sensitive, state the effort or input, window, resistance or cost, reason for the reading, supported use, unsupported use, and reopen condition.
+If the claim is only a state or rate reading and that answers the receiving question, stop. For an intervention-sensitive claim, recover the proposed input, relevant time, resistance or cost, and grounds for the predicted change. Return the supported use and any material limitation; add a reopening condition when later reliance needs it.
 
 **What this buys.** A trend no longer passes silently as an intervention model. Braking, pausing, stabilizing, redirecting, coasting, widening, narrowing, or slowing rollout remain available when acceleration would be the wrong move.
 
-**Primary EntityOfConcern.** Recover the source temporal claim as one exact C.2.1 episteme or as the exact claim denoted by a `C.2.1 ClaimAddress`: exact edition plus intrinsic claim identity declared by that edition's ClaimGraph. Every later `ClaimAddress` in C.27 means that same reusable value. The source claim's own EntityOfConcern remains the System, Work, Method, practice, service, benchmark, or other exact subject it discusses.
+**Primary working object.** The temporal claim whose adequacy matters to the receiving action. Recover its content and subject from the available plan, report, model, observation or other account. An exact C.2.1 episteme or `ClaimAddress` is needed when the receiving use relies on that independently referable identity. Here `ClaimAddress` means exact edition plus intrinsic claim identity declared by that edition's ClaimGraph.
 
-When a C.27 result is materialized, it is a separate C.2.1 episteme. Its EntityOfConcern is that exact source episteme or addressed claim, not the ClaimAddress used to refer to it. Its ClaimGraph states the Dyn reading, supported use, unsupported use, and reopen condition. The world-side subject remains a neighboring object; it is not a second EntityOfConcern of the C.27 result.
-A local note can remain record-shaped claim content. Use E.24.PUB only when a publication occurrence, form, carrier, audience availability, or source-backed publication face changes the use. A changed page or file does not by itself identify a changed claim.
+When an adequacy assertion is independently identified under C.2.1, its EntityOfConcern is the source episteme or addressed claim, not the reference used to designate it. An ordinary assessment can state its conclusion directly. Publication under E.24.PUB is separate from that claim and identity.
 
-**First useful move.** Recover the exact source claim and the exact C.27.TA temporal-aspect claim or ClaimAddress it uses. Then classify the source claim:
+**First useful move.** Recover what is claimed to change over time, for which subject and conditions. Use `C.27.TA` when its temporal meaning needs clarification, then classify the claim:
 
 | Reading | What the claim treats as sufficient | Normal result |
 | --- | --- | --- |

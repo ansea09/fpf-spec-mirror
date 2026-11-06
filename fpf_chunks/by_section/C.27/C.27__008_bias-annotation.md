@@ -6,12 +6,12 @@ section_id: "C.27:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__008_bias-annotation.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Change"
   - "C.27:6 — Bias-Annotation"
-line_start: 67370
-line_end: 67381
+line_start: 67306
+line_end: 67317
 dependencies:
   - "A.10"
   - "A.3.3"
@@ -53,7 +53,7 @@ keywords:
 Lenses: **Onto**, **Prag**, **Epist**, **Arch**, **Gov**.
 
 - **Onto:** source claim, described subject, temporal-aspect claim, adequacy claim, direct relation, publication occurrence, form, and carrier remain distinct.
-- **Prag:** ordinary prose, Dyn0, and Dyn1 remain cheap; the first Dyn2 result fits on one screen.
+- **Prag:** state and rate readings remain sufficient when they answer the question; Dyn2 adds only the explanation needed for its receiving use.
 - **Epist:** evidence, measurement, model assumption, planning assumption, diagnostic judgement, and causal result are not interchangeable.
 - **Arch:** C.27 keeps temporal-claim adequacy and cites the direct pattern for every other question.
 - **Gov:** a local card does not widen into a budget, gate, benchmark, promise, assurance, or public claim without the direct result required for that use.

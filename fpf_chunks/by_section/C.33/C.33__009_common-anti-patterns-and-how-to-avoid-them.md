@@ -6,12 +6,12 @@ section_id: "C.33:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.33/C.33__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.33 — Assess Structural Information for Architecture Use"
   - "C.33:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 80879
-line_end: 80889
+line_start: 80834
+line_end: 80844
 dependencies:
   - "A.22"
   - "A.6.3.NAR"
@@ -58,6 +58,6 @@ keywords:
 | ADR as realized structure proof | A decision record can carry decision memory and method expectation without showing what was built or how it behaves. | Use `C.32.PAD` for the project decision claim and `C.32.ADR` for its record projection; use C.33 only for the structural content and loss carried by the record; state realization claims using the exact architecture or evidence predicate and cite the pattern that defines or tests it when that reference is needed. |
 | Narrative as complete architecture | A narrative can preserve a route through selected structures while hiding placement, alternatives, measurements, interfaces, or realized structure. | Use `A.6.3.NAR` for the structure-to-narrative rendering relation and C.33 for captured and lost selected structure before architecture reuse. |
 | Code-agent graph as safe-change authority | A graph can expose observed and inferred relations while leaving unknown regions and hidden invariants. | Add observation class, confidence, unexplored regions, and non-admissible use. Use the patterns that define the safe-change, assurance, gate, and release checks when those claims are current. |
-| Metric as structural adequacy | A score, entropy value, epiplexity estimate, benchmark trace, or dependency F1 is a reading only under the applicable measurement or eval rule. | Use `C.16` to establish what is measured and how the reading may be used, `C.25` when a Q-bundle claim is current, and `C.32.ACE` for architecture evaluation. Keep any mathematical-lens claim with `C.29`. |
+| Metric as structural adequacy | A score, entropy value, epiplexity estimate, benchmark trace, or dependency F1 supports only the conclusion established by its calculation, measurement or evaluation conditions. | Retain the mathematical model and correspondence needed by a computed value; use `C.16` when measurement is claimed, `C.25` for a current Q-bundle claim, and `C.32.ACE` for architecture evaluation. Use `C.29` for an unresolved mathematical-representation choice, transfer, or reliance question. |
 | Neural label import | Terms such as attention, SSM, router, expert, cache, pruning, distillation, and NAS can hide several structure kinds and characteristics. | Recover the selected structure kind, relation, bearer, affected characteristic, preserved structure, and lost structure needed by the architecture claim, and identify the next claim plus the rule or test it needs before relying on the label for that use. |
 

@@ -6,12 +6,12 @@ section_id: "C.40.CU:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.CU/C.40.CU__008_conformance-checklist.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.40.CU — Develop a Useful and Reproducible Use of a Construct"
   - "C.40.CU:7 — Conformance Checklist"
-line_start: 86131
-line_end: 86142
+line_start: 86084
+line_end: 86095
 dependencies:
   - "B.1.5.EW"
   - "B.1.5.RS"
@@ -31,7 +31,7 @@ keywords:
 ### C.40.CU:7 - Conformance Checklist
 
 - The response, preparation, intervention, observation and relevant window are recoverable.
-- The receiving use states what result matters and which stronger claims it does not need.
+- The receiving use states what result matters.
 - Any selected contrast can distinguish a consequential uncertainty under supplied domain conditions.
 - The conclusion separates what was revealed from what was changed or supplied.
 - Candidate ways include the enabling and displaced contributions that can change their comparison.

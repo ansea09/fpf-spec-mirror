@@ -6,12 +6,12 @@ section_id: "C.31:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31/C.31__002_problem-frame.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.31 — Modularity and Reusable Structure Characteristics"
   - "C.31:1 — Problem frame"
-line_start: 75170
-line_end: 75203
+line_start: 75089
+line_end: 75122
 dependencies:
   - "A.10"
   - "A.17"
@@ -59,7 +59,7 @@ ModularityVectorLite:
   architectureClaimRef?:
   selectedStructureRefs:
   structureKindRefs:
-  threeLiveCharacteristicsAtMost:
+  liveCharacteristics:
   observedProblem:
   repairDirection:
   relatedClaimPatternLocatorsIfClaimed:
@@ -67,7 +67,7 @@ ModularityVectorLite:
   stopCondition:
 ```
 
-For the first diagnostic move, select at most three characteristics and connect them to the observed problem and any warranted repair. This limits the first inquiry, not the eventual analysis. A clearly bounded report-only proxy can be a sufficient result.
+For the first diagnostic move, select the characteristics needed to explain the observed problem and choose the next warranted repair. Keep this first inquiry small while preserving every distinction that changes that move. A clearly bounded report-only proxy can be a sufficient result.
 
 Claim-use boundary: before relying on a characteristic for comparison, causal explanation, assurance, selection or another further use, establish the grounds required by that claim. Making a qualified local account available to an audience preserves its limits; publication alone does not turn it into a measurement or a selection result. Add only the information on which the receiving use depends.
 

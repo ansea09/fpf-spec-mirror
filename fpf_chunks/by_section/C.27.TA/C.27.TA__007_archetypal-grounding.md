@@ -6,12 +6,12 @@ section_id: "C.27.TA:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27.TA/C.27.TA__007_archetypal-grounding.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.27.TA — Temporal Aspect: Time Windows, Rhythm, Cadence, and Currentness"
   - "C.27.TA:5 — Archetypal Grounding"
-line_start: 67680
-line_end: 67725
+line_start: 67616
+line_end: 67661
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -49,13 +49,13 @@ keywords:
 
 `CheckoutSystem-1 had a weekly release cadence during release train R14.`
 
-This is a complete first result: exact bearer, cadence predicate, release-train reference, and R14 window. It does not by itself say that the cadence is good, that quality improved, that particular Work occurred, or that a promised service level was met. Add further fields only when the next use depends on them.
+This result identifies the bearer, cadence, release-train timing reference and R14 observation window. It is sufficient when the receiving use needs that cadence; a claim about its quality or effect needs separate grounds.
 
 #### C.27.TA:5.2 - Source Freshness
 
 A benchmark comparison uses a model report from April and a competitor report from June.
 
-Name each report's currentness predicate, reference date or edition, and validity window for the comparison. April versus June publication dates alone do not establish that one claim is stale or that the reports are comparable. If no currentness basis is available, retain only the supported dated-report claim. `G.9`, source-use, evidence and benchmark patterns carry the separate parity, provenance and reliance questions.
+Identify what each report needs to be current about for the comparison, the relevant date or edition, and any period over which validity is claimed. April versus June publication dates alone establish neither staleness nor comparability. If no currentness basis is available, retain only the supported dated-report claim. `G.9` and the applicable source, evidence and benchmark patterns govern the separate parity, provenance and reliance questions.
 
 #### C.27.TA:5.3 - Architecture Recovery Timing
 
@@ -85,7 +85,7 @@ TemporalAspectStatementClaimContent:
 
 A review practice depends on a two-day response rhythm across several review positions and participants. Keep a responsibility claim separate when the temporal account relies on it.
 
-Name a local system-role kind or a separate System-classification judgement only when the receiving claim uses that distinction. If it relies on an assignment, cite the directly declared relation species and its obtaining occurrence with the actual participant values, holder, applicability, and extent under `A.2.1`. An assignment may be current in a plan or availability statement before any response Work occurs; it neither classifies a System nor implies completed Work. Only when the claim says that a System performed dated response Work should the reader first recover that exact performer through A.13 and independently admit the Work under A.15.1. Add F.6 only if the temporal account also consumes precise assignment-bound attribution through the same obtaining A.13 assignment; missing or failed F.6 attribution alone leaves the Work intact while its independent A.13/A.15.1 grounds still hold.
 
-C.27.TA names the exact EntityOfConcern, rhythm or cadence predicate, temporal reference, and window. When cross-bearer coordination matters, cite the direct coupling-relation declaration and an obtaining occurrence only after its predicate passes; keep the PatternID as a separate rule citation.
+
+C.27.TA states the bearer, rhythm or cadence, timing reference and applicable extent. When cross-bearer coordination matters, identify the direct coupling relation and establish its conditions before asserting an obtaining occurrence.
 

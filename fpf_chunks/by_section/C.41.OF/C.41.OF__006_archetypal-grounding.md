@@ -6,12 +6,12 @@ section_id: "C.41.OF:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.OF/C.41.OF__006_archetypal-grounding.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.41.OF — Fit a Checklist to Its Occasion of Use"
   - "C.41.OF:5 — Archetypal Grounding"
-line_start: 89512
-line_end: 89525
+line_start: 89467
+line_end: 89480
 dependencies:
   - "A.15.8"
   - "C.41"
@@ -31,5 +31,5 @@ On first use, “readable” turns out to be interpreted differently by two peop
 
 In the importer case, an agent is given criteria but no access to the stored catalogue after an error. Adding “verify preservation” to its prompt cannot produce that observation. The team supplies a bounded test environment and a tool that returns the before/after catalogue. If that tool fails, the agent records the unresolved question and returns it. A session restart restores the criteria and relevant evidence references in the agent's working context.
 
-These are constructed arrangements. A representative trial still has to establish whether their benefit warrants their interruptions and maintenance.
+These are constructed arrangements. In practice, judge their expected benefit and full burden on available grounds; use a representative trial when its observations can change that decision.
 

@@ -6,12 +6,12 @@ section_id: "C.31.RSA:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.RSA/C.31.RSA__002_problem-frame.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.31.RSA — Reusable Structure Accounting"
   - "C.31.RSA:1 — Problem frame"
-line_start: 75556
-line_end: 75595
+line_start: 75475
+line_end: 75514
 dependencies:
   - "A.10"
   - "A.19"
@@ -44,7 +44,7 @@ Use this pattern when a practitioner needs to locate where reusable structure li
 
 Claim-use boundary: any use that relies on the RSA account to make a claim beyond reusable-structure accounting is outside RSA. Examples include comparison, publication, evidence validity, assurance or safety-case reliance, gate use, architecture scale preference, causal use, selected-set result declaration, candidate synthesis, and local decision. Record with C.31.RSA only the reusable locus, bespoke residue, accounting basis, report-only share, repair direction, and source-return condition. Add another claim only after naming and applying the pattern that defines and tests it.
 
-First locate the reusable structure and bespoke residue, identify the accounting question, and explain any warranted repair or bounded exception. An adequate ordinary account can finish. `ReusableStructureTriage` can retain these distinctions:
+Start from the receiving reuse question and an adequate existing account, or recover reuse and residue from relevant instances as in :4.0. Explain any warranted repair or bounded exception. An adequate ordinary account can finish. `ReusableStructureTriage` can retain these distinctions:
 
 ```text
 ReusableStructureTriage:

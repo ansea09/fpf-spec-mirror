@@ -6,12 +6,12 @@ section_id: "C.27:8"
 section_title: "Common Anti-Patterns"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__010_common-anti-patterns.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Change"
   - "C.27:8 — Common Anti-Patterns"
-line_start: 67401
-line_end: 67419
+line_start: 67337
+line_end: 67355
 dependencies:
   - "A.10"
   - "A.3.3"
@@ -52,11 +52,11 @@ keywords:
 
 | Failure | Repair |
 | --- | --- |
-| Rate becomes intervention knowledge | Separate Dyn1 reading from Dyn2 claim; write the small card or stop. |
+| Rate becomes intervention knowledge | Separate the Dyn1 reading from the Dyn2 claim; supply the intervention-sensitive grounds or retain the narrower result. |
 | Effort-free acceleration | Name the claimed input, window when different, resistance or cost, and reason for the reading. |
 | Past slope becomes control law | Keep it diagnostic or cite the direct dynamics, control, or evaluation result. |
 | Rate change after effort becomes causal proof | Keep causal use unsupported or cite the exact C.28 result. |
-| Rhythm becomes decoration | Cite the exact C.27.TA claim; add coupling only when cross-bearer use relies on it. |
+| Rhythm becomes decoration | State the bearer, recurrence and timing reference; add coupling and exact claim references when the receiving use depends on them. |
 | Metric improvement becomes System improvement | Split measure, target, Work change, gaming or selection, causal claim, and proxy distortion. |
 | Local speed becomes aggregate agility | Name both bearers, aggregation, continuity, mix shift, and transfer boundary. |
 | Faster becomes better | Reopen value, harm, quality, promise, safety, legal, ethical, or assurance claims through their direct patterns. |

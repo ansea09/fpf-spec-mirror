@@ -6,12 +6,12 @@ section_id: "C.37:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37/C.37__008_conformance-checklist.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.37 — Select and Use Representations for One Action"
   - "C.37:7 — Conformance Checklist"
-line_start: 81985
-line_end: 82002
+line_start: 81936
+line_end: 81953
 dependencies:
   - "A.10"
   - "A.2.4"
@@ -44,7 +44,7 @@ keywords:
 | `CC-C37.2` Direct exit tested | The account is absent when one direct pattern already supplies the complete one-result/one-use selection and limits. |
 | `CC-C37.3` Direct subject result | Each row identifies the candidate, subject, direct governor, and every positive relation required by the selected claim. |
 | `CC-C37.4` A.2.4 bounded | First evidence-use or status-use classification is optional and never substitutes for provenance, reliance, or action authority. |
-| `CC-C37.5` A.10 bounded | When evidence reliance is material, the exact claim, path, direct use relation, time/currentness boundary, bounded evidence use, unsupported attempted use, challenge when current, current `RelianceDisposition`, and reopen or stop condition are recoverable. |
+| `CC-C37.5` Reliance bounded | A relied-on claim has the source, support and actual use conditions it needs. Use A.10 when the source-to-use account remains implicit or must be replayable; then preserve its exact path, use relation and current `RelianceDisposition`, with the currentness, challenge, unsupported-use boundary and return conditions material to that reliance. |
 | `CC-C37.6` Receiving result separate | The direct choice, gate, permission, authorization, acceptance, or domain pattern supplies the action result. |
 | `CC-C37.7` Exposure and loss | Each selected or declined claim states what is exposed or preserved and what is withheld, lost, transformed, or uncertain. |
 | `CC-C37.8` Honest disposition | Each row is `select`, `decline`, or `unresolved`; `degrade` narrows the selected claim rather than creating another row vocabulary. |

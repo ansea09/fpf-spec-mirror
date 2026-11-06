@@ -6,12 +6,12 @@ section_id: "C.30.P:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.P/C.30.P__006_solution.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.30.P — Clarify Architecture and Structure Wording (Precision Restoration)"
   - "C.30.P:4 — Solution"
-line_start: 72909
-line_end: 72957
+line_start: 72847
+line_end: 72895
 dependencies:
   - "A.10"
   - "A.15"
@@ -81,7 +81,7 @@ ArchitectureOrStructureRepairNote:
   relationFunctionClaimRef:
   repairedWordingOrDemotion:
   admissibleUse:
-  nonAdmissibleUse:
+  nonAdmissibleUse?:
   remainingReaderUse:
   disposition:
 ```

@@ -6,12 +6,12 @@ section_id: "C.32.P2S:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.P2S/C.32.P2S__005_solution.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.32.P2S — Problem-to-Structure Architecturing Unfolding"
   - "C.32.P2S:4 — Solution"
-line_start: 77154
-line_end: 77261
+line_start: 77089
+line_end: 77196
 dependencies:
   - "A.1"
   - "A.1.SCR"
@@ -152,6 +152,6 @@ Stop conditions:
 - stop at `C.32` when the next useful artifact is a candidate palette rather than a whole P2S carry-through record;
 - stop at `C.32.PAD` when the project architecture decision is current;
 - stop at `A.3.1` for Method identity or `A.3.2` for `MethodDescription` membership, or at the A.15 family when the current question is method-work alignment, work planning, readiness, or performed work;
-- stop at `C.16`, `C.25`, `C.29`, `C.32.ACE`, `E.23`, or `G.11` when the current claim is measurement, quality-bundle, mathematical-lens, eval, improvement, or `G.11` currentness refresh;
+- use `C.16`, `C.25`, `C.32.ACE`, `E.23` or `G.11` for a current measurement, quality-bundle, eval, improvement or currentness-refresh question; use `C.29` when mathematical representation choice, transfer or reliance remains unresolved;
 - reconsider P2S only when a later subject assertion establishes architecture pressure that changes candidate structures, expected structures, actual structures, selected structures, or the stronger-structure inspection condition.
 

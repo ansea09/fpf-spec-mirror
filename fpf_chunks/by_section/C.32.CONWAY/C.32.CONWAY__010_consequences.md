@@ -6,12 +6,12 @@ section_id: "C.32.CONWAY:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.CONWAY/C.32.CONWAY__010_consequences.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.32.CONWAY — Architecture-Influence and Transformed-Architecture Correspondence"
   - "C.32.CONWAY:9 — Consequences"
-line_start: 78450
-line_end: 78461
+line_start: 78402
+line_end: 78413
 dependencies:
   - "A.10"
   - "A.12"
@@ -35,6 +35,7 @@ dependencies:
   - "C.32.ACS"
   - "C.32.FAIL"
   - "C.32.MLAO"
+  - "C.32.MWA.PP"
   - "C.32.PAD"
   - "E.18"
   - "E.18.NET"
@@ -54,5 +55,5 @@ keywords:
 | Changed referent and transformed architecture stay recoverable. | A useful local frame may remain below exact-row assertion when the governor is missing or case facts remain unresolved. |
 | Network recursion remains with E.18.NET. | One pair row cannot stand in for the whole network or its cross-flow relations. |
 | Candidate architectures are checked against source-side production, testing, maintenance, evidence, and evolution arrangements. | Changing the influence-source side can be expensive; an attractive transformed-side candidate may therefore be rejected for the current evolution window. |
-| Organization, Work, method, tool, and module claims are routed to their subject patterns instead of being hidden in an architecture-pair result. | This separation may require the practitioner to follow several separately governed exits before comparison. Mirroring supplies candidate pressure, not architecture adequacy; use C.29 when the claim is mathematical structural similarity or preservation. |
+| Organization, Work, method, tool, and module claims are routed to their subject patterns instead of being hidden in an architecture-pair result. | This separation may require the practitioner to follow several separately governed exits before comparison. Mirroring supplies candidate pressure, not architecture adequacy; use C.29 when mathematical representation choice, transfer or reliance is unresolved. |
 

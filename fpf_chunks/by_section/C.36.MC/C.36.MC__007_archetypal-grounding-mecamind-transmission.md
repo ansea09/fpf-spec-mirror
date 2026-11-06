@@ -6,12 +6,12 @@ section_id: "C.36.MC:5"
 section_title: "Archetypal Grounding - MeCaMinD Transmission"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.MC/C.36.MC__007_archetypal-grounding-mecamind-transmission.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.36.MC — Qualify and Develop a Method Culture"
   - "C.36.MC:5 — Archetypal Grounding - MeCaMinD Transmission"
-line_start: 91332
-line_end: 91395
+line_start: 91287
+line_end: 91350
 dependencies:
   - "A.15.1"
   - "A.3.1"
@@ -62,7 +62,7 @@ Preserve the gaps: not every engineer used the practice; some found it not worth
 
 #### C.36.MC:5.2 - Essence Institutional Boundary
 
-The Essence record supports bounded institutional claims only: contributor organizations generated and revised language content; OMG selected formal editions; issue-handling Work, specifications, and machine-readable material supplied publication subjects; retained formal versions and the 2.0 beta can support an institutional-memory claim when its value, participants, predicate, and interval are stated. These claims enter the candidate/observed-practice branch unless independent Method admission and enactment evidence are supplied.
+The Essence record supports bounded institutional claims only: contributor organizations generated and revised language content; OMG selected formal editions; issue-handling Work, specifications, and machine-readable material supplied publication subjects; retained formal versions and the 2.0 beta can support an institutional-memory claim when its value, participants, predicate, and interval are stated. These claims preserve the source-described status of the participating practice and materials. A Method claim needs independent A.3.1 admission; an enactment claim additionally needs its own A.15.1 basis.
 
 The source does not establish recurring practitioner enactment, population recognition or selection in practice, long-term retention, practical superiority, improved results, or fitness for every Method family. Keep the supported institutional claims and their limits as a completed bounded account. A proposed change to one participating subject is a separate question; select its inquiry only when it is useful and attainable, retain credible action-changing hypotheses, and recover the named assignment, permission, or authority predicate for the change. A claimed tested intervention still needs actual Work and the later observation it asserts.
 

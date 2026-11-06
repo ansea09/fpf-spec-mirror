@@ -6,12 +6,12 @@ section_id: "C.41:0"
 section_title: "Use and combine the checklist Methods"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41/C.41__002_use-and-combine-the-checklist-methods.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.41 — Select Checklist Questions for a Work Result"
   - "C.41:0 — Use and combine the checklist Methods"
-line_start: 89056
-line_end: 89120
+line_start: 89009
+line_end: 89073
 dependencies:
   - "A.3.1"
   - "A.3.2"
@@ -66,7 +66,7 @@ For a fuller account of change and subject states, return to [FPF A.3.3](https:/
 
 #### C.41:0.4 - Choosing and combining the Methods
 
-For a recurring omission, select a useful question set with C.41, express it with C.41.TF and arrange first use with C.41.OF. C.41.UA then produces answers on real occasions. Compare the contribution and burden with [C.11.MV](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c11mv---compare-the-worth-of-a-method-option), and use [A.3.1.MI](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a31mi---introduce-a-method-into-practice-and-decide-what-to-keep-or-change) to choose a worthwhile change. The result can be a clearer question, a different occasion, new support, or retirement of the aid.
+For a recurring omission, select a useful question set with C.41, express it with C.41.TF and arrange first use with C.41.OF. C.41.UA then produces answers on real occasions. Compare the contribution and burden, reusing an adequate comparison or using [C.11.MV](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c11mv---compare-the-worth-of-a-method-option) when that result is still needed. Use [A.3.1.MI](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a31mi---introduce-a-method-into-practice-and-decide-what-to-keep-or-change) when introduction and later use must inform a change. The result can be a clearer question, a different occasion, new support, or retirement of the aid.
 
 For shared work with uncertain criteria, use C.41.QC to challenge those criteria and checking means. C.41 retains the useful coverage; C.41.TF and C.41.OF give participants workable local views. C.41.UA supplies local answers. C.41.SR tests their combined use, locates gaps and reopens affected reliance when premises change. Several Methods can be active within the same larger performance; an earlier result is needed only where another action actually consumes it.
 
@@ -76,7 +76,7 @@ One centralized checklist can be sufficient when everyone has the relevant acces
 
 Across this family, ask whether the important work questions are covered, their meanings survive the chosen forms, people can answer at the right occasion, the answers have adequate grounds, shared conclusions follow from the contributions actually supplied, and uncertain criteria have been challenged. Inherit adequate answers from prior use; revisit the part changed by new evidence or conditions. Each pattern's Conformance Checklist makes its own contribution inspectable.
 
-These are questions about sound application, not a demand for a second checklist on every checklist. Recognition begins with the ordinary situations in §0.1 and the Problem frames. Assurance comes from examining the actual questions, observations, mappings, counterexamples and consequences in the later sections. More completed fields do not establish either useful work or a sound Method.
+Recognition begins with the ordinary situations in §0.1 and the Problem frames. Assurance comes from examining the actual questions, observations, mappings, counterexamples and consequences in the later sections.
 
 The constructed examples here illustrate reasoning and possible use. They do not report measured effectiveness. Human-use studies and AI evaluation studies inform the Methods under the limits in [C.41:11](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c4111---sota-echoing) and the supplying patterns' SoTA-Echoing sections. Practical adoption still depends on capabilities, access, working conditions and the result people value.
 

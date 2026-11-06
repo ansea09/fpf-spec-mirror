@@ -6,12 +6,12 @@ section_id: "C.32.PAD:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.PAD/C.32.PAD__008_conformance-checklist.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.32.PAD — Project Architecture Decision After Candidate Synthesis"
   - "C.32.PAD:7 — Conformance Checklist"
-line_start: 80123
-line_end: 80138
+line_start: 80075
+line_end: 80090
 dependencies:
   - "A.1.STM"
   - "A.10"
@@ -73,7 +73,7 @@ keywords:
 | `CC-PAD-5` | Architecture-characteristic trade-offs, accepted losses, and guardrails are recorded. For creator development, the choice retains the affected product uses, promised capability, finite acceptance, provision conditions and authority to change commitments. |
 | `CC-PAD-6` | Architecture-description refs, method-use instructions, and performed-work boundaries remain distinct. |
 | `CC-PAD-7` | The architect-developer split, source-return condition, and reopen conditions are recorded. |
-| `CC-PAD-8` | Unresolved whole-transition wording uses `B.2.P`, and a remaining whole-reidentification claim uses `B.2`. A mathematical structural-information lens uses `C.29`; ordinary description correspondence and loss use their description rules. |
+| `CC-PAD-8` | Unresolved whole-transition wording uses `B.2.P`, and a remaining whole-reidentification claim uses `B.2`. Use `C.29` when mathematical representation choice, transfer or reliance remains unresolved; ordinary description correspondence and loss use their description rules. |
 | `CC-PAD-9` | ADR-like publication, evidence, assurance, gate, comparison, selection, selected-set result declaration, audience publication, local choice, and work claims exit to their patterns for the next questions. |
 | `CC-PAD-10` | Any project system-of-interest ref denotes one independently admitted existing `U.System`; a pre-inception intended referent stays in claim content. `SystemOfInterestRole` wording is recovered through `E.10.ROLE`; any local kind, separate classification judgment, and separately obtaining A.2.1 assignment are cited independently. Decision designation, kind, classification, assignment, and direct facts neither entail one another nor establish the missing compound project-selection truth. |
 | `CC-PAD-11` | Any network ref resolves to one independently selected E.18.NET structure, its project-question judgment stays in a separate C.2.1 episteme, and architecture use docks through C.30.TFS-REL. A PAD decision, network record, C.32.CONWAY frame, or exact pair row creates no member, cross-flow occurrence, influence occurrence, architecture relation, or actual structure effect. |

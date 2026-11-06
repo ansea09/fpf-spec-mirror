@@ -6,12 +6,12 @@ section_id: "C.36.MC:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.MC/C.36.MC__008_bias-annotation.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.36.MC — Qualify and Develop a Method Culture"
   - "C.36.MC:6 — Bias-Annotation"
-line_start: 91396
-line_end: 91408
+line_start: 91351
+line_end: 91363
 dependencies:
   - "A.15.1"
   - "A.3.1"
@@ -26,8 +26,8 @@ keywords:
 
 | Recurring bias | Likely drift | Repair |
 | --- | --- | --- |
-| candidate-enactment bias | A source-described candidate or observed practice becomes an admitted Method and enactment occurrence. | Use the candidate branch until A.3.1 and A.15.1 independently succeed. |
-| relation-label bias | “Transmission”, “selection”, or “memory” substitutes for value, participants, applicability, and obtaining predicate. | Use an existing direct predicate or derive the needed claim through A.6.RCD; state a positive and a discriminating negative case. |
+| candidate-enactment bias | A source-described candidate or observed practice becomes an admitted Method and enactment occurrence. | Preserve candidate status until A.3.1 admission succeeds; assert enactment only when its independent A.15.1 grounds obtain. |
+| relation-label bias | “Transmission”, “selection”, or “memory” substitutes for value, participants, applicability, and obtaining predicate. | Apply an adequate existing predicate and its test; use A.6.RCD, with positive and discriminating failed cases, for a needed new construction. |
 | claim-as-occurrence bias | A claim episteme, identifier, or later report creates or preserves a world-side relation occurrence. | Separate claim, evidence, interval observations, and conditional A.6.REL identity. |
 | carrier-bundle bias | Cards, teaching, tutoring, repository, rules, fields, and forums become one unnamed subject. | Name every actual subject and direct relation used; select a structure or architecture only when its governor applies. |
 | authorization inflation | Ownership, project position, assignment, permission, authority, and expertise become interchangeable. | Name the assignment, permission, or authority predicate, participants, permitted change, scope, and positive basis. |

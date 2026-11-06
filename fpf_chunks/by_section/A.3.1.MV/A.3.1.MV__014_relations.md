@@ -6,7 +6,7 @@ section_id: "A.3.1.MV:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MV/A.3.1.MV__014_relations.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "A.3.1.MV — Construct and Maintain a Method Variant"
   - "A.3.1.MV:12 — Relations"
@@ -28,5 +28,5 @@ keywords:
 - `A.3.1` governs Method admission. `A.3.1.MR` can recover a candidate Method from Work evidence under its conditions. `C.2.1` governs episteme and edition identity; `A.10` evidence use; `G.5` registered Method-family candidate sets; A.19 comparison and selected-set semantics.
 - A.3.1.MV records local source, evidence, situation, qualification-window, defeating-evidence, currentness, and retirement claims. Open `G.11` refresh orchestration only for one of its named shipped packs, evidence or selected sets, archives or fronts, publication/currentness objects, dependencies on reused A.6.RCD predicate definitions or derived relation kinds, or another G.11-admitted condition.
 - `A.3.4` governs any separate claim that one continuing carrier, organizational System, selected structure, or other subject actually changed across a bounded occurrence. A semantic difference, derivation account, edition relation, or local Work deviation does not by itself establish a `U.Transformation`.
-- A.3.1.MI consumes a maintained admitted variant or status-preserved candidate entry when attempting a bounded introduction. C.36.MC uses either an independently admitted Method with actual enactment or a status-preserved candidate or observed-practice branch without Method or enactment inflation; neither inherits admission or worth from the repertoire.
+- A.3.1.MI consumes a maintained admitted variant or status-preserved candidate entry when attempting a bounded introduction. C.36.MC uses either an independently admitted Method, with actual enactment when its cultural claim relies on that performance, or a status-preserved candidate or observed-practice branch without Method or enactment inflation; neither inherits admission or worth from the repertoire.
 

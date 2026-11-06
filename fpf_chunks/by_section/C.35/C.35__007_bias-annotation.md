@@ -6,12 +6,12 @@ section_id: "C.35:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.35/C.35__007_bias-annotation.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.35 — Assess Generated or Discovered Results for Architecture Use"
   - "C.35:6 — Bias-Annotation"
-line_start: 81284
-line_end: 81294
+line_start: 81239
+line_end: 81249
 dependencies:
   - "A.13"
   - "A.15.1"
@@ -61,7 +61,7 @@ keywords:
 
 | Bias | How C.35 counters it |
 | --- | --- |
-| Output authority bias | Identify the result, actual or proposed organization and supported next use, with any material condition, limitation or return. Add representation, publication, branch, or other detail only when the use depends on it. |
+| Output authority bias | Identify the result, organization, the status of the actual or proposed claim, and supported next use, with any material condition, limitation or return. Add representation, publication, branch, or other detail only when the use depends on it. |
 | Pareto-point admission bias | Treat a Pareto point, benchmark score, archive member, or search trace as a candidate input cue until its branch-specific basis and the concrete candidate-use rule are named. |
 | Reusable-generator collapse | Keep one-case output admission in C.35; handle reusable-generator, mechanism-suite, model-family, or production-pipeline claims with `E.20`, `G.1`, `G.10`, `G.11`, or another pattern that defines or constrains those claims. |
 | Bearer-free synthesis bias | Require bearer or realization boundary before treating a discovered function, relation, or candidate form as architecturally feasible. |

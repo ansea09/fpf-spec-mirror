@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.39.RP.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.39.RP — Organize a Repertoire for Method Development"
-line_start: 84205
-line_end: 84384
+line_start: 84156
+line_end: 84335
 dependencies:
   - "A.3.1.DR"
   - "A.3.1.MR"
@@ -78,7 +78,7 @@ The resulting list appears complete but cannot answer which alternatives are ide
 
 ### C.39.RP:4 - Solution
 
-A repertoire here serves a named Method-development use. G.5 retains authority over a maintained family or selector; G.11 governs a refresh that its own entry makes necessary. The construction below recovers the source contributions, alternatives and practical conditions that those results do not supply merely by listing Methods.
+A repertoire here serves a named Method-development use. G.5 supplies a Method-family registry or selector-facing result when that question is current; G.11 governs a refresh that its own entry makes necessary. The construction below recovers the source contributions, alternatives and practical conditions that those results do not supply merely by listing Methods.
 
 Build the repertoire around one receiving use. Recover exact subjects and source contributions, qualify every relation by its own evidence, and record unsupported positions as gaps instead of filling them with guesses.
 

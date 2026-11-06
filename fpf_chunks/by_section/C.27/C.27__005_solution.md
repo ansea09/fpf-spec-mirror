@@ -6,12 +6,12 @@ section_id: "C.27:3"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__005_solution.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Change"
   - "C.27:3 — Solution"
-line_start: 67109
-line_end: 67196
+line_start: 67046
+line_end: 67133
 dependencies:
   - "A.10"
   - "A.3.3"
@@ -52,21 +52,21 @@ keywords:
 
 Use the least-committing result that changes the receiving action.
 
-1. Recover the source temporal claim as one exact C.2.1 episteme or as the exact claim denoted by a ClaimAddress.
-2. Cite the exact C.27.TA episteme or ClaimAddress that states the positive temporal aspect. C.27 does not redefine its bearer, predicate, temporal reference, window, coupling, or currentness.
-3. Classify the source claim as Dyn0, Dyn1, or Dyn2.
-4. If it is Dyn0 or Dyn1 and no intervention-sensitive use remains, stop or use C.16.
-5. If it is Dyn2, supply the one-screen account below; its required content can remain one readable sentence.
-6. Add a direct neighboring result only when the supported use relies on its distinction.
-7. If the claim cannot meet the small card, narrow it. Do not open a larger profile merely because the card exposed uncertainty.
+1. Recover the temporal claim from the available account, keeping its subject, quantity or condition and relevant time explicit. Cite an exact episteme or ClaimAddress when that identity is consumed by the use.
+2. Resolve what the timing means: a dated observation, elapsed duration, order, recurring cadence, validity condition or another temporal property. Use `C.27.TA` if this is unclear; a separate temporal-aspect artifact is unnecessary when the claim already states it adequately.
+3. Classify the claim as Dyn0, Dyn1 or Dyn2.
+4. If it is Dyn0 or Dyn1 and no intervention-sensitive question remains, stop or use C.16 for the unresolved measurement question.
+5. For Dyn2, connect the proposed input to the claimed temporal effect. Recover the baseline, relevant window and resistance or cost; identify whether the basis is observation, a planning assumption, a model consequence or a causal result. Reuse adequate grounds. When the effect is the unresolved causal question, use C.28 and its construction or mechanism-replacement method as needed.
+6. Return the supported conclusion and only the neighboring result on which it depends. Unknown resistance or another missing premise can justify a narrower or unresolved result.
+7. Add more detail only when it can resolve a remaining receiving question; an incomplete form is not itself a reason to open a larger profile.
 
-#### C.27:3.1 - One-Screen Dyn2 Card
+#### C.27:3.1 - A Sufficient Dyn2 Account
 
-The first C.27 result can be one readable sentence:
+A compact account states the input, proposed temporal change, relevant window, resistance or cost and grounds. Its length follows the explanation needed by the receiving use.
 
-> [Input] is claimed to [move] [the cited temporal aspect] over [window] despite [resistance or cost]; [reason for the reading] supports [use], not [unsupported use]; reopen when [condition].
+For example: "Adding two reviewers is expected to increase completed reviews during the next two weeks. That forecast assumes sufficient independent review capacity; the shared approval bottleneck remains unmeasured, so doubling throughput is not yet supported."
 
-Use the short note below when the references need to travel or be reviewed separately:
+The optional record below is useful when separately identified claims must be referenced or reviewed:
 
 ~~~text
 Dyn2TemporalClaimAdequacyCardClaimContent
@@ -78,20 +78,20 @@ interventionWindow?:
 resistanceOrCost:
 reasonForReading:
 supportedUse:
-unsupportedUse:
-reopenTrigger:
+unsupportedUse?:
+reopenTrigger?:
 ~~~
 
-When materialized, this is ClaimGraph content in one C.2.1 episteme whose EntityOfConcern is the exact source episteme or addressed claim denoted by sourceTemporalClaimRef.
+When an independently identified C.27 adequacy episteme uses this record, its EntityOfConcern is the source episteme or addressed claim denoted by `sourceTemporalClaimRef`.
 
-- positiveTemporalAspectClaimRef cites an exact C.27.TA episteme or ClaimAddress.
+- `positiveTemporalAspectClaimRef` identifies the temporal claim used by that reference-bearing account. Ordinary prose may instead state the temporal aspect directly, keeping its meaning under C.27.TA.
 - move names the claimed temporal change, for example accelerate, brake, coast, recover, stabilize, widen, narrow, or a domain-local move.
 - claimedInterventionOrInput says what is claimed to affect the temporal behavior. It does not assert performed Work, authority, capability, or causal effect.
 - interventionWindow is omitted when the C.27.TA window is enough. Add it only when the input occurs over a different interval.
 - resistanceOrCost names the relevant lag, constraint, stored work, queue pressure, coordination cost, residue, or another domain-local obstacle. Unknown is an acceptable local answer.
 - reasonForReading names one exact evidence relation, measurement result, model assumption, planning assumption, diagnostic judgement, or direct neighboring result. These alternatives do not become one generic evidence kind.
-- supportedUse and unsupportedUse bound the practical reach of this C.27 result.
-- reopenTrigger says what change requires a narrower claim, new evidence, another direct pattern, or a new C.27 result.
+- supportedUse states the result's practical reach; unsupportedUse names a live overreach only when it needs to be excluded explicitly.
+- reopenTrigger is included when continued reliance needs a condition for revision, new evidence or another direct result.
 
 One local window may stand for claim, sampling, intervention, rhythm, and validity when the difference changes neither the claim nor the receiving action. Split them when, for example, evidence is sampled over a different interval, input precedes the observed outcome, comparison needs a baseline, follow-up occurs later, or validity expires sooner than the trace.
 
@@ -115,7 +115,7 @@ Keep coasting and debt distinct. Coasting describes continued movement or stabil
 
 #### C.27:3.4 - Boundary-Crossing Header
 
-Most uses stop at the one-screen account. When a receiving use depends on another pattern result, add its exact reference and contribution to that same account. The following header can organize those references when they need to travel together:
+An adequate compact account can finish the work. When the receiving use depends on another pattern's result, include its contribution and an exact reference where that identity is required. This optional header can organize separately referable results:
 
 ~~~text
 Dyn2TemporalClaimProfileClaimContent
@@ -125,14 +125,14 @@ positiveTemporalAspectClaimRef:
 dynOrder: Dyn2
 boundaryCrossingUse:
 supportedUse:
-unsupportedUse:
-validityOrReopenCondition:
+unsupportedUse?:
+validityOrReopenCondition?:
 activeNeighborResults:
   - exact result kind and reference supplied by its direct pattern
     contributionToThisUse:
 ~~~
 
-This profile remains ClaimGraph content in a C.2.1 adequacy episteme whose EntityOfConcern is the exact source episteme or addressed claim denoted by sourceTemporalClaimRef. It is not the ClaimAddress itself, described System, temporal bearer, Work trace, dynamics model, publication occurrence, form, or carrier.
+When the profile is used to identify an adequacy episteme, its EntityOfConcern is the source episteme or addressed claim denoted by `sourceTemporalClaimRef`. The profile's references preserve the direct results it consumes; they are not substituted for those results.
 
 Each activeNeighborResults entry names the actual result kind supplied by its direct pattern. Do not replace a C.16 measurement result, C.28 causal-use result, G.9 parity result, C.26.3 envelope-regulation claim, Work occurrence, evidence relation, or assurance claim with a generic C.27 field.
 

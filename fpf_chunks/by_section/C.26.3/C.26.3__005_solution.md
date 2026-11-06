@@ -6,12 +6,12 @@ section_id: "C.26.3:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.3/C.26.3__005_solution.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.26.3 — Viability-Envelope Boundary Regulation"
   - "C.26.3:4 — Solution"
-line_start: 66739
-line_end: 66927
+line_start: 66674
+line_end: 66861
 dependencies:
   - "A.10"
   - "A.15"
@@ -49,7 +49,7 @@ Start with these recognition questions; ordinary prose can supply the answers.
 | --- | --- |
 | Viability bearer | Is it one System with its A.1 identity, one A.22 `U.Structure` with exact constituents, selected obtaining relations, applied constraints, and a named selection-use frame, or a population/market slice with its own declared basis? A list of system-role kinds and assignment occurrences is not a bearer. |
 | Protected promise / function | Which `U.PromiseContent`, stakeholder value, function, operating regime, commitment payload, or delivery promise is protected? |
-| Envelope variables | Which dimensions and bounds must be retained for this viability decision? |
+| Envelope variables | What would prevent the protected work or result, which quantities or conditions reveal that failure, and what requirement or resource limit sets their admissible bounds? |
 | Disturbance | What pushes the exact object in the local viability-bearer position outside the declared envelope? |
 | Sensor / probe / candidate intervention | What reads the situation? What change is proposed, which exact object carries that proposal, and what actual Work, transformation, relation, or resulting state exists, if any? |
 | Trade-off / failure | What gets worse, what cost is paid, and what failure would show the envelope move did not work? |
@@ -64,7 +64,7 @@ Full envelope-regulation record:
 | Protected promise / function | Which `U.PromiseContent`, stakeholder value, function, operating regime, commitment payload, or delivery promise is protected? |
 | Current service/access claims, if any | Which independently governed service/access claims are current, and what exact subjects, relations, and subject patterns do they name? |
 | Envelope variables | Which characteristics or quality-bundle dimensions define viability? |
-| Viable region / bounds | What counts as inside, near edge, degraded, or outside the envelope for this use? |
+| Viable region / bounds | Which requirements, safety or operating limits, commitments or available resources determine acceptability for this use? Distinguish those criteria from observed values and provisional targets. |
 | QL cue or formal cue if retained | Which probe, order, export, coarsening, incompatible-frame, open-information-system update law, probe-frame relation, export admissibility, or measurement-changing-state cue remains after ordinary viability patterns are active, and what specific contextual-model obstruction does it leave for inference or use? |
 | Disturbance | What pushes the exact object in the local viability-bearer position outside the declared envelope? |
 | Sensors / probes | Which metric, dashboard, alert, health check, review, trace query, observation setup, or probe reads the envelope, and can it change behavior or hide unmeasured dimensions? |
@@ -86,7 +86,7 @@ Finish with one of these results:
 
 | Result | Meaning |
 | --- | --- |
-| Envelope claim | Write one `C.2.1` episteme whose EntityOfConcern is the exact viability bearer and whose ClaimGraph states the protected promise/function, envelope variables, viable region/bounds, disturbance, sensors/probes, boundary condition, and failure mode. When regulation is proposed, also state the candidate interventions, trade-off condition, and adaptation cost. Its effective ReferenceScheme supplies the reading context. |
+| Envelope claim | State the exact bearer, protected result, variables and justified bounds, disturbance, observations and failure condition. Include sensors/probes and boundary conditions where they affect the conclusion; a proposed regulation also needs its candidate change, trade-off and adaptation cost. Ordinary prose may carry these claims. |
 | Candidate-intervention recovery or redesign | Recover the direct object first. Revise only the current proposal—its Method or description, setting proposal, WorkPlan, access or permission claim, or Bridge proposal or description—and identify any dated Work, actual change, obtaining relation occurrence, and resulting state separately. A fixed F.9 Bridge is not an intervention object: after an endpoint sense or profile changes, test another F.9 candidate and identify it only if the predicate obtains. |
 | Measurement/probe redesign | Redesign a dashboard, alert, health check, readiness score, or review process because it distorts the envelope it reports. |
 | Neighbor coordination without QL | Keep the C.26.3 envelope-regulation claim and use `C.25`, `C.16`, `A.6`, `A.15`, `U.Dynamics`, `C.18`, `C.19`, or `A.19` for the exact neighboring objects and claims. Omit `C.26` / QL when no contextual-model obstruction remains. |
@@ -117,23 +117,22 @@ If those variables are not load-bearing, do not force dynamics machinery into th
 
 #### C.26.3:4.5 - Claim identity and operational sequence
 
-The primary result is one `C.2.1` episteme. Its EntityOfConcern is the exact viability bearer, its effective ReferenceScheme fixes how references are read, and its ClaimGraph states the envelope-regulation claim. The writing card below is only a local shape for that ClaimGraph; it is not the episteme's subject and does not create another object.
+Identify an envelope account under `C.2.1` when its exact claim-bearing identity is used: its EntityOfConcern is the viability bearer, its claim content states the envelope, and its effective ReferenceScheme determines how that content is read. A record is one possible presentation.
 
-Keep a `U.WorkPlan` and each other proposal under its direct kind. A setting proposal, policy proposal, Bridge description, or other proposal is a separate claim-bearing episteme unless its direct pattern identifies that object as another kind. Identify the episteme's EntityOfConcern under that pattern. A modal F.9 proposal concerns the admitted direct Bridge relation kind and designates its proposed endpoints and profile in the ClaimGraph. None of them becomes the envelope episteme merely by appearing in its ClaimGraph.
+Keep the actual object of a proposal clear. A setting or policy proposal may be part of that account's claims; mentioning it does not require another episteme. A separately identified proposal, `U.WorkPlan`, Method, description or relation retains the identity supplied by its direct pattern. In particular, a modal F.9 proposal designates possible endpoints and a profile; it does not establish an obtaining Bridge.
 
 The first useful move is to replace a one-scalar stability story with an inspectable envelope-regulation claim for the decision.
 
 Envelope-regulation sequence:
 
 1. Point the local viability-bearer position to one exact object. For a System, cite its A.1 identity. For selected organization, cite one A.22 `U.Structure` through exact independently identified constituents, exact selected obtaining relation occurrences, exact constraints as applied, and one named selection-use frame; a role-kind/assignment list is insufficient. For a population or market slice, state its declared domain and effective reference scheme, membership or scope, and identity basis. Then name the separately defined promise or function being preserved. If no branch identifies the bearer, stop.
-2. Name the envelope variables and the viable range or qualitative boundary for each.
-3. Name the disturbance or regime change.
-4. Name sensors/probes and say whether they only report, also frame, or also change behavior.
-5. When regulation is proposed, name each candidate intervention and recover the exact object of the proposal: Method or description, setting proposal, WorkPlan, access or permission claim, or Bridge proposal or description. Separately identify any dated Work, actual change, obtaining relation occurrence, or resulting state. Work may change an access, permission, assignment, local-sense claim, reference scheme, Bridge description, bounded-use claim, or other world-side object only as its direct pattern permits. If an F.9 endpoint or profile changes, test the resulting Bridge candidate anew; a fixed Bridge occurrence cannot be revised or ended by authority.
-6. State the boundary condition being preserved or changed.
-7. For a proposed regulation, state the trade-off condition and adaptation cost.
-8. State the failure mode and re-probe/destabilization condition.
-9. Add dynamics detail only if rate, inertia, damping, latency, resistance, or acceleration changes the decision.
+2. Recover the protected work or result from the receiving requirement, promise, operating procedure or current failure. Follow what must remain possible: successful outputs, necessary inputs, supporting work, resources and timing. For each relevant way it can fail, identify the quantity or condition that distinguishes continued operation from that failure. Keep the subject of each constraint explicit; support-team load is not automatically a characteristic of the service System.
+3. Obtain each bound from its governing basis. Reuse an applicable customer requirement, commitment, safety or operating limit, or an established resource constraint. Where the constraint is capacity, relate the demand in the stated window to the people, equipment, time or other provision actually available under that same workload and service condition. A historical average describes performance; it does not set acceptable performance. If a needed limit is absent, recover it with the party entitled to set the requirement or make the trade-off. Until then, a proposed threshold remains a scenario assumption: return the effects or feasible range and identify the unresolved acceptability question.
+4. Identify the disturbance or regime change and the observations needed to locate the current state against those bounds. Use existing observations where adequate. Recover what each sensor or probe measures, including timing, coverage and a supported behavior-changing effect; use `C.26.1` for a material unresolved interpretation.
+5. If regulation is needed, trace the failure to an available change in the mechanism, resource, operating rule or boundary condition. Reuse a suitable domain Method. When the dependency is unresolved, `C.28.CM` develops the causal account; `C.28.MR` derives consequences of a specified mechanism change, and `C.29` contributes when formulation or transfer needs mathematical work. Recover the proposal's object and distinguish it from any performed Work, actual transformation or obtaining relation. An F.9 endpoint/profile change requires testing the resulting Bridge candidate; Work does not revise a fixed Bridge occurrence.
+6. Follow each proposed change to every affected constraint, including displaced work, transition time and adaptation cost. Use a calculation, simulation, case evidence or other justified account appropriate to the decision. Keep its assumptions and uncertainty visible. Improving one variable is sufficient only if the remaining required conditions also hold.
+7. Return the supported diagnosis or conditional proposal. A known violation can rule out restoration of the envelope even while another effect remains unknown. A positive viability claim needs all its required conditions supported; an unresolved limit or effect may instead warrant a restricted action, further inquiry or no change. New inquiry is conditional on its attainable contribution to the receiving decision, not a required extra step.
+8. Add rate, inertia, damping, latency, resistance, acceleration or a reprobe condition only when it changes that result.
 
 Ordinary output: explain the viability bearer, variables and bounds, disturbance, observations and failure condition. When regulation is proposed, add the identified proposal, trade-off and adaptation cost. A record is useful when its layout helps recover those distinctions; ordinary prose can preserve them.
 
@@ -141,7 +140,7 @@ Finish with the supported diagnosis or the proposal it warrants. Use the proposa
 
 #### C.26.3:4.6 - Viability envelope record
 
-A usable envelope record is a C.26.3-local normal form for the ClaimGraph content of one `C.2.1` episteme about the exact viability bearer. The enclosing episteme supplies the EntityOfConcern and effective ReferenceScheme. The card is not a constructor and is used only when envelope regulation is load-bearing.
+When a record is useful, it can present the envelope claim and its grounds. Retain only the fields consumed by that claim or receiving action, while keeping its subject and any needed episteme identity recoverable.
 
 ```text
 exact object in the local viability-bearer position and pattern used to identify it: ...
@@ -165,7 +164,7 @@ Well-formedness constraints:
 
 - the local viability-bearer position points to one exact object and introduces no kind or relation: a System has its A.1 identity; an A.22 `U.Structure` has exact independently identified constituents, exact selected obtaining relation occurrences, exact constraints as applied, and one named selection-use frame; a population or market slice has its declared domain and effective reference scheme, membership or scope, and identity basis; a list of system-role kinds and assignments satisfies none of these branches;
 - service or access wording names each current object and relation separately—the exact object in the local viability-bearer position, promise content, system, system-role assignment, commitment, Work occurrence, evidence, or another direct relation—through the pattern that defines that object or relation; the wording creates neither a root bearer nor a bundle;
-- at least two envelope dimensions are visible when the claim says "viability" rather than one ordinary metric;
+- this pattern's multi-characteristic branch keeps every dimension needed by the protected result; if one characteristic already answers the question, use the adequate single-characteristic account;
 - at least one candidate intervention is named when the text proposes regulation rather than only diagnosis, and its proposal-side Method, description, setting proposal, WorkPlan, access or permission claim, or Bridge proposal or description is recovered under the subject pattern; any dated Work, actual transformation, obtaining relation occurrence, or resulting state is identified separately;
 - authority and latency are stated only for an object to which they apply; a description, Method, plan, setting label, Bridge description, or resulting state is not made an actor or Work by this card;
 - when regulation or adaptation is proposed, its adaptation cost is named, because allostasis hides cost when phrased as "stability through change";
@@ -178,8 +177,8 @@ Do not let one dashboard value stand for the whole envelope.
 | Item | Viability-facing question |
 | --- | --- |
 | Envelope variable | Which quality, resource, promise, risk, or operating dimension is inside/outside viable range? |
-| Sensor | Which metric, alert, trace, health check, survey, review, or observation reports part of the envelope? |
-| Probe | Which measurement setup, dashboard, readiness check, review, experiment, or incident query may change behavior or expose hidden dimensions? |
+| Sensor / observation source | Which instrument, observation procedure, trace or report supplies a reading, and what quantity or condition does that output represent? |
+| Probe | Which deliberate query, measurement, review or experiment supplies information, and does its interaction with the subject affect the needed interpretation? |
 | Candidate intervention | What change is proposed? Recover whether cache, throttle, routing, staffing, protocol, escalation, access, bridge, or context-split wording denotes a Method or description, setting proposal, plan, access or permission claim, or Bridge proposal or description. Separately identify any dated Work, actual transformation or other change, obtaining relation occurrence, or resulting state claimed to exist. |
 | Boundary condition | Which access, ownership, context, interface, promise, environment, or information constraint shapes the envelope? |
 | Adaptation cost | Which latency, risk, support load, or compliance exposure is incurred, and which effort, attention, energy, trust, or future flexibility is spent, reduced, or put at risk? |

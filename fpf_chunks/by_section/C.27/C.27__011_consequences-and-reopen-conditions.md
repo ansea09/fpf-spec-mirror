@@ -6,12 +6,12 @@ section_id: "C.27:9"
 section_title: "Consequences and Reopen Conditions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__011_consequences-and-reopen-conditions.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Change"
   - "C.27:9 — Consequences and Reopen Conditions"
-line_start: 67420
-line_end: 67442
+line_start: 67356
+line_end: 67378
 dependencies:
   - "A.10"
   - "A.3.3"
@@ -50,12 +50,12 @@ keywords:
 
 ### C.27:9 - Consequences and Reopen Conditions
 
-C.27 makes intervention-sensitive temporal claims inspectable while keeping ordinary state and rate prose cheap. Its cost is one small card and exact references only when the receiving use needs them.
+C.27 makes intervention-sensitive temporal claims inspectable. An adequate state or rate reading can remain sufficient; a stronger forecast needs its actual temporal and effect grounds.
 
-Refresh remains proportional:
+Refresh follows the receiving use:
 
-- a local card needs one reopen trigger;
-- a boundary-crossing claim may also need a validity window and evidence currentness;
+- include a reopening condition when later reliance depends on it;
+- a transferred claim may need a validity interval, current evidence or another stated condition;
 - G.11 carries refresh orchestration, and B.3.4 carries evidence decay and epistemic debt.
 
 Reopen when, for example:

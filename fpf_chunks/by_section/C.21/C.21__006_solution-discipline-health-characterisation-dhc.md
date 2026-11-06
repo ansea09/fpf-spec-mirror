@@ -6,12 +6,12 @@ section_id: "C.21:4"
 section_title: "Solution — Discipline Health Characterisation (DHC)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__006_solution-discipline-health-characterisation-dhc.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:4 — Solution — Discipline Health Characterisation (DHC)"
-line_start: 62627
-line_end: 62707
+line_start: 62626
+line_end: 62706
 dependencies:
   - "A.10"
   - "A.17-A.18"
@@ -50,7 +50,7 @@ keywords:
 
 #### C.21:4.0 - The objects used by DHC
 
-“DHC” names this vocabulary and method of use. It does not admit `U.DHCPack`, `U.DHCMethodSpec`, or `U.DHCSeries` as public kinds.
+“DHC” names this vocabulary and method of use.
 
 | Object | What it is | What it is not |
 | --- | --- | --- |
@@ -86,9 +86,9 @@ Each bullet below names one exact Characteristic and Scale family. A DHC use sel
 
 3. **PracticeAdoptionRate** — ratio in `[0,1]`; Unit `adopting_units/eligible_units`. Declare the population, adoption criterion, observation window, and treatment of partial adoption. Higher means wider observed adoption, not automatically better health or SoTA.
 
-4. **AlignmentDensity** — ratio; Unit `obtaining_relations/100_compared_cells`. Count only exact obtaining directed F.9 relations in the declared F.17 cell set. For each counted relation, state its orientation and admitted-use qualifier; keep observed loss in its evidence account, separate from any bounded-use claim under section 4.2. A higher value means denser declared alignment for that set; any health band belongs to G.4.
+4. **AlignmentDensity** — ratio; Unit `obtaining_relations/100_compared_cells`. Count only exact obtaining directed F.9 relations in the declared F.17 cell set. For each counted relation, state its orientation and admitted-use qualifier; keep observed loss in its evidence account, separate from any bounded-use claim under section 4.2. A higher value means denser declared alignment for that set; any preferred health band needs a receiving criterion, using G.4 when formal acceptance is selected.
 
-5. **DisruptionBalance** — interval reading over one exact disruption/consolidation method and corpus. Polarity is target-is-best, using an explicit target-band distance rule; the band belongs to G.4 Acceptance.
+5. **DisruptionBalance** — interval reading over one exact disruption/consolidation method and corpus. A receiving use may select target-is-best polarity with an explicit target band and distance rule. The raw reading supplies no preferred band; use G.4 when formal acceptance is required.
 
 6. **EvidenceUnitResolution** — ordinal, compare-only, under one exact segmentation scheme whose levels are nested, for example `artifact < section < claim < subclaim`. Higher means a finer addressable unit under that scheme. It does not say how many claims an artifact contains or how densely claims are supported.
 
@@ -108,16 +108,16 @@ A discipline-health use may add these coordinates when its question needs them. 
 
 12. **SemioSubstitutionPressure** — ordinal or ratio as separately declared, polarity lower-is-less-substitution-pressure. It asks how often a representation, fluent wording, record, dashboard, view, or source chain is mistaken for its engineering subject, relation, or claim.
 
-When either extension is active, add a short explanation naming the current claim kind or use boundary, the direct pattern and rule, admissible use, prohibited overread, and stop or reopen condition. The explanation is claim content, not a new evidence or assurance object.
+When either extension is active, explain the claim kind or use boundary and the direct pattern or rule that supports the reading. Include a limit, prohibited use or reopen condition when it changes how the result may be used.
 
 #### C.21:4.2 - Comparison and legality rules
 
-1. **Direct same-semantics comparison.** Compare readings directly when C.16's conservative conditions hold: the same measurement definition, Characteristic, Scale and Unit semantics, compatible model and calibration regime, and compatible time or population basis. Record the admitted comparison basis. Different source labels or editions alone require no Bridge.
+1. **Direct same-semantics comparison.** Compare readings under the same Characteristic and compatible Scale semantics and scope. Measured readings also retain C.16's applicable measurement-definition, model, calibration, Unit and time or population conditions. State the basis actually used; different source labels or editions alone require no Bridge.
 2. **Cross-local comparison.** When a comparison relies on a semantic relation between distinct F.17 local senses, cite the exact obtaining F.9 Bridge only after its predicate and dependencies hold. Keep its separate C.2.1 bounded-use claim, with the use, direction, correspondence rule, permitted-loss tolerance, and polarity, distinct from observed loss and current reliance. Follow F.9's A.10 reliance branch or, for an actual named assurance claim, its B.3 branch for the same bounded use. If the assurance use requires an R adjustment, cite the applicable domain model and keep the adjustment in that use's AssuranceResult. The relation supplies none of ClaimScope, measurement, comparison, or acceptance semantics.
 3. **Reference-plane crossing.** When a reading is used across distinct world, concept, or episteme planes, cite the exact crossing basis. Any R adjustment follows the named assurance-use and domain-model condition in rule 2. A dashboard row or source label does not establish the crossing.
 4. **Cross-scale transformation.** A conversion, normalization, distance, or aggregate names its exact Method, Scale, legal operation, and loss or uncertainty. No common scale is inferred from similar labels.
 5. **Freshness.** A persisted or reused coordinate carries its observation window and applicable currentness rule. Staleness leads to the receiving pattern's degrade, abstain, or reopen result; it does not rewrite the historical measurement.
-6. **Target bands.** “Target-is-best” is not “higher-is-better.” A comparison to a band uses an explicit distance-to-band rule and leaves the G.4 threshold separate.
+6. **Target bands.** “Target-is-best” is not “higher-is-better.” A comparison to a band uses an explicit distance-to-band rule and keeps the receiving acceptance criterion separate from the raw reading.
 
 | Scale family | Lawful ordinary operations | Prohibited shortcut |
 | --- | --- | --- |

@@ -6,12 +6,12 @@ section_id: "C.30.AD.BA:2"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD.BA/C.30.AD.BA__005_solution.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.30.AD.BA — Built-Asset Architecture Description and Reference Designation"
   - "C.30.AD.BA:2 — Solution"
-line_start: 72606
-line_end: 72756
+line_start: 72544
+line_end: 72694
 dependencies:
   - "A.1"
   - "A.10"
@@ -85,7 +85,7 @@ BuiltAssetArchitectureDescriptionUse@Project:
   assetInformationDescriptionRefs?: FinSet(U.EpistemeRef)
   digitalTwinDescriptionRefs?: FinSet(U.EpistemeRef)
   designRunSeparationUse?: BuiltAssetDesignRunSeparationUse, byValue
-  sourceToUsePathRefs?: FinSet(U.RelationRef)
+  sourceToUsePathRefs?: FinSet(PathCitationRecordRef)
   sourceReturnCondition?:
   representationRefs?: FinSet(U.EntityRef)
   publicationOccurrenceRefs?: FinSet(EpistemePublicationRelationRef)
@@ -95,7 +95,7 @@ BuiltAssetArchitectureDescriptionUse@Project:
   publicationCurrentnessRelationRefs?: FinSet(U.RelationRef)
   admissibleUse:
   nextGoverningPatternApplicationRef?:
-  nonAdmissibleUse:
+  nonAdmissibleUse?:
 ```
 
 Resolve `descriptionContentDesignation` under C.2.1:4.2.6 to the whole content of the same exact episteme selected by `architectureDescriptionRef`. Its by-value effective scheme must be the rules governing that content, not the rules of a document that merely describes the scheme. A missing or conflicting resolution leaves this use record unresolved; it does not reidentify the asset or establish view conformance.
@@ -108,9 +108,9 @@ Every value in `architectureStructuralViewRefs` identifies an exact description 
 
 `claimScope`, architecture concern, empirical grounding, and `modelUseStructureRef` remain neighboring qualifiers or relations. A DDD-style bounded-model-use structure appears only when that independently selected structure changes interpretation or selection for this use. It replaces none of the asset, relation, structure, description, scheme, scope, grounding, viewpoint, Work, or project-use objects and is absent from base identity.
 
-Use `sourceToUsePathRefs` when a model publication, exchange, measurement description, or other named expression enters the present architecture use. Use a source-return condition only when stronger use of a derivative or reused description must return to that named source or governing pattern. Keep a diagram or model as representation, and keep publication occurrence, form, and carrier separate. Use `G.11` when description freshness, publication currentness, edition, telemetry freshness, model decay, or synchronization currentness is the claim; none establishes architecture adequacy or empirical grounding by itself.
+When a model publication, exchange, measurement description or other source enters the architecture use, identify its edition and contribution. Use `sourceToUsePathRefs` for citable G.6 paths as defined in C.30.AD:4.3, keeping their cited direct relations distinct. Add a source-return condition when stronger use needs the named source. Keep representation and publication occurrence, form and carrier separate. Use G.11 when description freshness, publication currentness, model decay or synchronization currentness changes the claim.
 
-When ISO 19650 discipline is invoked, cite the exact published part and edition rather than an unversioned series label. At the `2026-07-31` source check, ISO lists `ISO 19650-1:2018`, Edition 1, and `ISO 19650-3:2020`, Edition 1, as published editions last confirmed in 2024 and now to be revised, with draft successors under development. The current transfer is therefore exact and bounded: Part 1 contributes whole-life information-management discipline for exchanging, recording, versioning, and organizing information; Part 3 contributes the operational-phase management process and information exchanges. Record the exact standard source and edition in the source-to-use path, the used model or information edition, the reference date and validity window through the currentness loci, the refresh or source-return condition, and `admissibleUse` and `nonAdmissibleUse`. A draft or later edition does not silently replace the cited source. ISO 19650 practice contributes information-management discipline, not FPF ontology, subject-relation truth, architecture adequacy, evidence sufficiency, assurance, Work occurrence, or authority.
+When ISO 19650 contributes to a use, cite the published part and edition and identify what it contributes. The cited ISO 19650-1:2018 edition supplies whole-life information-management concepts and principles; ISO 19650-3:2020 supplies operational-phase information management and exchanges. Keep the used information or model edition recoverable. Add a source-status date, validity window or refresh condition when the receiving use or governing regime depends on current status; a historical interpretation of a named edition needs no invented expiry. A draft or later edition does not silently replace the source used. These standards supply information-management discipline, not the asset's architecture facts or a separate authority claim.
 
 #### C.30.AD.BA:2.1 - Recover the selected structures before combining views
 
@@ -143,7 +143,7 @@ BuiltAssetReferenceDesignationUse:
   correspondingEntityRef?: U.EntityRef
   correspondenceClaimOrRelationRef?: U.EpistemeRef | U.RelationRef
   admissibleUse:
-  nonAdmissibleUse:
+  nonAdmissibleUse?:
 ```
 
 `selectedAspectStructureRef` names the exact structure in which the designation is interpreted, such as a functional, product, location, or declared local structure. It is not a free aspect label. `designatedEntityRef` names the entity designated in that structure. Include `designationOrReferenceRelationRef` only when the designation or reference relation kind is admitted and the occurrence independently obtains. If a design object and a realized component both need to be retrieved, name the two entities and a bounded correspondence claim or independently obtaining correspondence relation rather than letting one code silently collapse them.
@@ -174,7 +174,7 @@ BuiltAssetDesignRunSeparationUse:
   designSideWorkOccurrenceRefs?: FinSet(U.EntityRef constrained to U.Work)
   runSideWorkOccurrenceRefs?: FinSet(U.EntityRef constrained to U.Work)
   telemetryEpistemeRefs?: FinSet(U.EpistemeRef)
-  sourceToUsePathRefs: FinSet(U.RelationRef)
+  sourceToUsePathRefs?: FinSet(PathCitationRecordRef)
   descriptionFreshnessClaimRefs?: FinSet(U.EpistemeRef)
   publicationCurrentnessRelationRefs?: FinSet(U.RelationRef)
   designToRealizationCorrespondenceClaimOrRelationRefs?:

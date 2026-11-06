@@ -6,12 +6,12 @@ section_id: "C.39.MF:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.MF/C.39.MF__014_relations.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.39.MF — Choose and Reopen a Method Development Focus"
   - "C.39.MF:12 — Relations"
-line_start: 83876
-line_end: 83883
+line_start: 83827
+line_end: 83834
 dependencies:
   - "A.15.6"
   - "A.3.1"
@@ -24,7 +24,7 @@ keywords:
 ### C.39.MF:12 - Relations
 
 - `A.15.6` distinguishes project subjects and routes a Method-of-interest question here.
-- `A.3.1` governs Method identity; `G.5` governs maintained family and selector results; `C.11` governs the bounded focus choice.
+- `A.3.1` governs Method identity; `G.5` supplies Method-family registry and selector-facing results when its entry conditions hold; `C.11` governs the bounded focus choice.
 - C.39.RP may organize a repertoire for a one-Method, plurality, or relation focus. C.39.RQ may state criteria at that same level of focus.
 - A.3.1.QM receives identified Methods and candidate accounts without changing their status. C.32.MWA.PP receives a several-structure question; B.1.5.CM receives one proposed whole only when that question is live.
 - An applicable research Method may explain an identified Method, established family inclusion, or named relations. A local grouping label is not its explanandum.

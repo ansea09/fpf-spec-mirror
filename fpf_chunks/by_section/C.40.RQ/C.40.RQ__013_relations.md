@@ -6,12 +6,12 @@ section_id: "C.40.RQ:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.RQ/C.40.RQ__013_relations.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.40.RQ — Requalify Changed Opportunities"
   - "C.40.RQ:12 — Relations"
-line_start: 88359
-line_end: 88369
+line_start: 88312
+line_end: 88322
 dependencies:
   - "A.10"
   - "A.10.1"
@@ -25,7 +25,7 @@ keywords:
 ### C.40.RQ:12 - Relations
 
 - **Receives from C.40.OI, C.40.NU, C.40.PC, C.40.DC, C.40.JF, C.40.OP and the applicable professional engagement Method:** the inquiry, characterization, contribution, direction, reachability, retained path, or advising boundary whose premise changed.
-- **Uses A.10 and A.15.9:** one-use reliance and bounded external-result qualification.
+- **Uses A.10 and A.15.9:** A.10 for a source-to-use account that remains implicit or must be replayable; A.15.9 for bounded external-result qualification.
 - **Uses A.10.1:** changed-source discovery and revalidation across actual receiving uses, with coverage and independently governed subject results.
 - **Returns to C.40.PC, C.40.DC, C.40.JF, C.40.OP, the applicable professional engagement Method and holder practices:** the smallest opportunity or relationship question affected by the new conditions.
 - **Uses C.11.CRC:** changed finite comparisons with complete coordinates and actual or conditional stage-specific baselines.

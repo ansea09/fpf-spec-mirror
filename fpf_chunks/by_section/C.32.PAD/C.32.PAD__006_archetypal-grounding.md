@@ -6,12 +6,12 @@ section_id: "C.32.PAD:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.PAD/C.32.PAD__006_archetypal-grounding.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.32.PAD — Project Architecture Decision After Candidate Synthesis"
   - "C.32.PAD:5 — Archetypal Grounding"
-line_start: 80095
-line_end: 80111
+line_start: 80047
+line_end: 80063
 dependencies:
   - "A.1.STM"
   - "A.10"
@@ -75,7 +75,7 @@ keywords:
 
 **Architecture influence and transformed-side fit.** An automation project changes both a toolchain and the product it is used to change. C.32.CONWAY supplies a synthesis frame or, only after direct settlement, an exact architecture-influence pair row over the obtaining source-side and transformed-side C.30 architecture relations. C.32.PAD records which toolchain structure is decision-relevant, which product-side structure is selected or intended, which Systems are intended, which assignment requirements and Methods are planned, and which fit change reopens the decision. A current assignment or actual Work appears only when it independently obtains. Performance and actual transformation require their own obtaining relations.
 
-**Digital-twin structural information loss.** A built-asset team publishes a 6D-style digital-twin decision view for construction planning. The view intentionally hides supplier-agreement and temporary-work structures. C.32.PAD records the selected building, placement, schedule, cost, operation, and evidence structures that the decision uses; `C.30.AD` keeps the view correspondence and recoverable source structures explicit, and PAD states which accepted loss reopens the decision. Use `C.29` additionally when the conclusion relies on a mathematical lens. The view count, file, and model do not become the decision authority.
+**Digital-twin structural information loss.** A built-asset team publishes a 6D-style digital-twin decision view for construction planning. The view intentionally hides supplier-agreement and temporary-work structures. C.32.PAD records the selected building, placement, schedule, cost, operation, and evidence structures that the decision uses; `C.30.AD` keeps the view correspondence and recoverable source structures explicit, and PAD states which accepted loss reopens the decision. Use `C.29` additionally when mathematical representation choice, transfer or reliance remains unresolved. The view count, file, and model do not become the decision authority.
 
 **Workshop development and local completion.** During an admitted workshop-development project, the architect compares an additional machine, an integrated production-and-measurement arrangement and external machining for components with an agreed surface finish and order flow. The machine-only option lacks a qualified measurement Method and operator, so it cannot support the promised workshop capability. The selected option includes those contributions and material access, with capacity, cost and handover conditions checked for the affected products. The decision fixes the measurement and production interfaces, leaves detailed scheduling open within the capacity limit, and gives the responsible performers the corresponding work expectations under the independently established authority. Acceptance requires evidence that the combination can meet the agreed capability conditions; buying the machine alone closes only the acquisition result. The organizational project can finish before future components operate. A changed workload, loss of operator availability or failed product-use hypothesis can reopen the relevant decision. The components remain the product SoI throughout; the workshop's own architecture and acceptance remain explicit.
 

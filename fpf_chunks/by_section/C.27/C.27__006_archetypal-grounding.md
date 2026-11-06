@@ -6,12 +6,12 @@ section_id: "C.27:4"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__006_archetypal-grounding.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Change"
   - "C.27:4 — Archetypal Grounding"
-line_start: 67197
-line_end: 67316
+line_start: 67134
+line_end: 67253
 dependencies:
   - "A.10"
   - "A.3.3"
@@ -85,7 +85,7 @@ For a numerical version of this constructed case, let the backlog start at 120 c
 
 Source claim: “Slowing rollout for two weeks will keep CheckoutSystem-1 inside its usable envelope.”
 
-The exact C.27.TA claim states the reduced rollout cadence and two-week window. The exact C.26.3 episteme or ClaimAddress states the envelope-regulation claim and identifies CheckoutSystem-1 through its A.1 System identity. C.27 neither creates a viability relation nor copies the envelope schema.
+The temporal claim states the reduced rollout cadence and two-week window. The C.26.3 account states the envelope and identifies CheckoutSystem-1 through its A.1 System identity. This example uses separate exact references because the temporal assessment consumes both claims.
 
 ~~~text
 sourceTemporalClaimRef:
@@ -117,7 +117,7 @@ Slower rollout is not a failure to accelerate. It is adequate only for the bound
 
 Source claim: “Daily twenty-minute drills stabilize the learner's task rhythm.”
 
-For this case, LearnerSystem-1 is already independently identified under A.1. The exact C.27.TA claim says that LearnerSystem-1 has a daily task-practice cadence during the four-week training window.
+For this case, LearnerSystem-1 is already independently identified under A.1. Its positive temporal-aspect claim is a daily task-practice cadence during the four-week training window; the example below keeps that claim separately referenceable.
 
 ~~~text
 sourceTemporalClaimRef:

@@ -6,12 +6,12 @@ section_id: "C.32:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32/C.32__002_problem-frame.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.32 — Architecture Candidate Synthesis"
   - "C.32:1 — Problem frame"
-line_start: 76264
-line_end: 76370
+line_start: 76197
+line_end: 76303
 dependencies:
   - "A.10"
   - "A.15"
@@ -95,9 +95,9 @@ What goes wrong if C.32 is missed: the team optimizes one visible structure, suc
 
 What C.32 buys in practice: a practitioner can build a small set of candidate architecture configurations, each grounded in selected structure changes, architecture characteristics, known losses, and patterns for the next questions.
 
-Ordinary working move: name the selected structures that really change, name the few architecture characteristics that make the trade-off real, then write two to five candidate configurations with gain, loss, preserved structure, hidden loss, and next receiving use.
+Ordinary working move: name the selected structures and architecture characteristics that make the question consequential, then construct the structurally different configurations needed by the comparison, with expected gains, relevant preservation or loss, and next receiving use. A supported account that already settles the question can finish without constructing another option.
 
-A useful palette makes at least two structurally different configurations recoverable, with their selected-structure changes, relevant characteristics, expected gains, known losses and next use. Preserve a source-return condition when omitted detail can change that use.
+A completed comparative palette makes at least two structurally different configurations recoverable, with their selected-structure changes, relevant characteristics, expected gains, known losses and next use. A single configuration can be the starting point for that construction; it is not yet the comparative palette. Preserve a source-return condition when omitted detail can change the receiving use.
 
 Use C.32 only for candidate palette construction. Do not use it to ground the architecture claim, recover one structure, build characteristic criteria rows, design eval programs, handle architecture-influence correspondence, run archive or front-policy work, declare a selected-set result, publish it to an audience, choose locally, or decide the project architecture.
 

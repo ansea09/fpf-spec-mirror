@@ -6,12 +6,12 @@ section_id: "C.38:7"
 section_title: "Conformance and practical checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.38/C.38__008_conformance-and-practical-checks.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.38 — Construct Comparable Ways to Obtain One Result"
   - "C.38:7 — Conformance and practical checks"
-line_start: 82658
-line_end: 82676
+line_start: 82609
+line_end: 82627
 dependencies:
   - "A.10"
   - "A.15.9"
@@ -46,5 +46,5 @@ A use conforms only when the checks needed by its claimed comparison pass:
 
 **Recognition check.** The practitioner can recover one common result from a *build/buy/provider/AI* list and identify a decision-relevant hidden difference or duplicate. An arrangement taxonomy is unnecessary.
 
-**Assurance check.** For a consequential use, inspect each actual premise under its direct evidence and authority patterns, challenge one omitted burden that could reverse the choice, and verify that the selected domain assurance and acceptance Methods remain outside `C.38`.
+**Assurance check.** For a consequential use, inspect each actual premise under its direct evidence and authority patterns, examine any plausible omitted burden that could reverse the choice, and verify that the selected domain assurance and acceptance Methods remain outside `C.38`.
 

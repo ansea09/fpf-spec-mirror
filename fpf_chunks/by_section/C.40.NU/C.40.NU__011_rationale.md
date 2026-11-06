@@ -6,12 +6,12 @@ section_id: "C.40.NU:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.NU/C.40.NU__011_rationale.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.40.NU — Search Neighboring Uses and Means"
   - "C.40.NU:10 — Rationale"
-line_start: 87230
-line_end: 87235
+line_start: 87183
+line_end: 87188
 dependencies:
   - "C.17"
   - "C.18"

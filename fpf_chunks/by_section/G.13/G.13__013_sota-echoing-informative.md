@@ -6,12 +6,12 @@ section_id: "G.13:12"
 section_title: "SoTA-Echoing (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.13/G.13__013_sota-echoing-informative.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "G.13 — External Interop Hooks for SoTA Discipline Packs (conceptual)"
   - "G.13:12 — SoTA-Echoing (informative)"
-line_start: 133270
-line_end: 133281
+line_start: 133225
+line_end: 133236
 dependencies:
   - "A.18"
   - "A.19"

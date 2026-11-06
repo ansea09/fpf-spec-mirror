@@ -6,12 +6,12 @@ section_id: "C.31:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31/C.31__008_conformance-checklist.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.31 — Modularity and Reusable Structure Characteristics"
   - "C.31:7 — Conformance Checklist"
-line_start: 75459
-line_end: 75475
+line_start: 75378
+line_end: 75394
 dependencies:
   - "A.10"
   - "A.17"
@@ -47,13 +47,13 @@ keywords:
 
 | ID | Check |
 | --- | --- |
-| `CC-C31-1` | The first diagnostic pass identifies at most three relevant characteristics, the observed problem and any warranted repair. An adequate ordinary account can finish; later analysis may extend it. |
+| `CC-C31-1` | The first diagnostic pass identifies the relevant characteristics, observed problem and next warranted repair. An adequate ordinary account can finish; extend it when another distinction changes the receiving use. |
 | `CC-C31-2` | Each characteristic head under evaluation is classified as `DirectCharacteristic`, `CompositeCharacteristicDescription`, `LensBackedCharacteristic`, `TemporalOrScaleCharacteristic`, `CausalUseSensitiveCharacteristic`, or `ReportOnlyProxy`. |
 | `CC-C31-3` | A measurement or comparison has the C.16 meaning, operations and supporting basis required by its actual use. Recover an unresolved measurement head through section 4.3; an adequate existing account needs no new form. Exact rule-identity dependence requires relationFunctionClaimRef; an ordinary locator does not. Non-pattern authority uses authoritySourceRef under E.10. |
 | `CC-C31-4` | Each selected characteristic contributes to the architecture answer or a warranted repair. Any further claim retains its subject and governing rule. |
 | `CC-C31-5` | Report-only proxies retain their scope and action-changing limits. Stronger reliance requires its own grounds; publishing the bounded report does not enlarge them. |
 | `CC-C31-6` | A decision that relies on a proxy addresses the relevant divergence risk and how it is checked. |
-| `CC-C31-7` | Complexity, residual, and growth heads remain claim-scoped cues; apply C.29, C.31.ASAP when an architecture scale-preference claim is being made, C.27, C.28, C.16, C.25, C.30.ILC, C.31.RSA, G.5, or C.11 when the corresponding claim kind is being made. |
+| `CC-C31-7` | Complexity, residual and growth heads retain their scope and grounds. Use the relevant subject pattern for a further claim; C.29 is needed when mathematical representation choice, transfer or reliance remains unresolved. |
 | `CC-C31-8` | No C.31 text treats modularity as a single quality proof, assurance proof, gate result, causal proof, or architecture decision. |
 | `CC-C31-9` | Any score discloses scoring method, codomain, polarity, characteristic basis, comparability basis, and use boundary through the subject pattern. |
 | `CC-C31-10` | A source-dependent use retains the source contribution, assumptions and limits needed by its claim. Use G.2 when a current comparative SoTA basis is needed; a familiar method or bounded historical result does not require a new source row merely to be used. |

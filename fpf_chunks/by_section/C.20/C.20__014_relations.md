@@ -6,12 +6,12 @@ section_id: "C.20:10"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.20/C.20__014_relations.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.20 — Composition of U.Discipline (Discipline-CAL)"
   - "C.20:10 — Relations"
-line_start: 62565
-line_end: 62576
+line_start: 62564
+line_end: 62575
 dependencies:
   - "A.1"
   - "A.14"
@@ -55,7 +55,7 @@ keywords:
 
 **Coordinates with.** C.2.1 for canon, standard, classification, description, trace, and result epistemes; A.3.1 and B.1.5 for Methods and method composition; A.15.1 for dated discipline work; A.22 for optional selected structures; B.2 for a separately current whole-reidentification question; C.3 for project-local breadth and tradition classifications; C.22 for selector-facing problem typing and TaskSignature assignment; C.23 for MethodFamily evidence and maturity; E.10 for lexical precision; and F.17/F.18 for local-sense term publication and durable naming.
 
-**Conditional branches.** F.9 for exact Bridges; A.10 for ordinary evidence-bearing reliance and B.3 only for an actual named assurance claim; C.21 for discipline health; A.19.CPM for comparison and G.0 for its CG-Spec admissibility declaration; G.4 for acceptance thresholds; E.24.PUB for publication; G.5 for selector use of independently grounded discipline or method claims.
+**Conditional branches.** F.9 for exact Bridges; A.10 for a recoverable evidence account and B.3 for an actual named assurance claim; C.21 for discipline health; A.19.CPM and G.0 when their comparison and CG-Spec interfaces are used; G.4 for formal acceptance clauses; E.24.PUB for publication; G.5 for selector use of independently grounded discipline or Method claims.
 
 **G.2 source-pack boundary.** When one current G.2 harvest or synthesis informs a discipline account, preserve the anti-monoculture intent by keeping plausible rival lineages and the semantic localities relevant to that named synthesis visible, with an explicit coverage or omission rationale and explicit crossings where needed. C.20 sets no minimum number of Traditions, local frames, cards, contexts, or matrix rows; G.2 alone governs conformance of its pack. A plural or conforming pack, `TraditionPalette`, or `BridgeMatrix` supplies neither a discipline construction nor a part relation.
 

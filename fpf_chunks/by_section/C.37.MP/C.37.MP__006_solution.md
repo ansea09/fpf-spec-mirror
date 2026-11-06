@@ -6,12 +6,12 @@ section_id: "C.37.MP:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37.MP/C.37.MP__006_solution.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.37.MP — Maintain a Method Representation Profile"
   - "C.37.MP:4 — Solution"
-line_start: 82101
-line_end: 82155
+line_start: 82052
+line_end: 82106
 dependencies:
   - "A.10"
   - "A.3.1"
@@ -32,11 +32,11 @@ Build the Method representation profile from the current MethodDescription or ca
 
 #### C.37.MP:4.1 - Pattern-Use Unfolding
 
-1. **Name one Method-related use.** State the receiving System, exact decision about the Method or enactment-support action, situation, qualification window, and stop. Another action has its own `C.37` use account even when the user, carrier or Method is unchanged. Reuse unaffected grounds and reconsider the dependencies changed by that action.
+1. **Name one Method-related use.** State the receiving System, exact decision about the Method or enactment-support action, and situation, with the qualification window or stop needed for that use. Another action has its own `C.37` use account even when the user, carrier or Method is unchanged. Reuse unaffected grounds and reconsider the dependencies changed by that action.
 2. **Fix the Method subject and source account.** Name the admitted Method or candidate status and the current MethodDescription or candidate-account edition. Use A.3.2.DE when the needed Method claims are absent or not current enough.
 3. **Recover the claims needed by the action.** Select only the needed purpose, input/result, performer, capability, tool or resource, action or Work specification, variation point, guard, evidence, authority, support, feedback, or stop claims. Keep their actual subjects and statuses.
-4. **Recover every candidate through its direct governor.** Use `C.2.1` for the claim-bearing episteme, `E.17.0` for a view with its own conformance relation, `C.29` for a mathematical lens and correspondence, `E.24.PUB` for publication, and `A.22` for a selected structure. A title, layout, Method label, carrier, or profile row supplies none of those results.
-5. **Complete the use-bounded selection.** For the receiver and action, recover the complete selection basis defined in §4.2 and resolve any failed subject, reliance or receiving result at its owner. Use the direct exit when one owner already supplies this complete answer. Otherwise apply C.37; retain its basis once in the owning profile row only when later use needs it.
+4. **Recover every candidate through its direct governor.** Use `C.2.1` for the claim-bearing episteme, `E.17.0` for a view with its own conformance relation, the applicable domain result for a mathematical object and correspondence, with `C.29` when a separate representation, transfer, or reliance question remains, `E.24.PUB` for publication, and `A.22` for a selected structure. A title, layout, Method label, carrier, or profile row supplies none of those results.
+5. **Complete the use-bounded selection.** For the receiver and action, recover the applicable basis in §4.2 and resolve any missing required subject, reliance or receiving condition at its owner. Use qualified inputs to construct the receiving result; that eventual result is not a universal prerequisite to input selection. Use the direct exit when one owner already supplies the complete answer. Otherwise apply C.37; retain its basis once in the owning profile row only when later use needs it.
 6. **Compose the Method profile without flattening.** Connect the completed rows to one MethodDescription or candidate account. Record cross-use correspondences, conflicting omissions, edition dependencies, and keep-separate decisions. Use §4.4 to construct a missing correspondence and follow its dependencies. Shared profile membership creates no composite Method, super-view, collection, selected structure, or new description edition.
 7. **Recover supporting subjects before relating their accounts.** Preserve WorkPlan, Work, Method, result, and other subject statuses. Use `A.15.6` when project, process, or case wording leaves the subject unclear. Accounts of one independently admitted Work retain that same subject; accounts of different subjects remain separate epistemes with only the needed correspondence relations. Each claimed view needs its own `E.17.0` conformance result. Either arrangement may inform the same exact action under `C.37`; common subject identity alone neither permits co-use nor creates a multi-view family. Another action belongs in another row.
 8. **Resolve the live user-action question.** Direct claim inspection or an already matching observation may suffice for the present profile. Select a new probe only when a usability, interpretation or loss uncertainty can change the decision and its full design, reader, interpretation and displaced-Work burden is warranted and obtainable. For a selected probe, the named receiver retrieves the claim, distinguishes status or alternatives, performs the bounded action and applies its stop; report the actual result, not observed success from a plan. Return a defect to A.3.2.DE, C.37, the direct subject or receiving-result owner, A.15.8.MS, or the owning Method decision.
@@ -48,12 +48,12 @@ Use this shape when a later use needs the profile retained. Its applicable disti
 | Result position | Required content |
 | --- | --- |
 | Method subject | Admitted Method or candidate status and current MethodDescription or candidate-account edition. |
-| use boundary | Receiving System, exact Method-related action or decision, situation, qualification window, and stop. |
+| use boundary | Receiving System, exact Method-related action or decision and situation, with any qualification window or stop needed for that use. |
 | required Method claims | Exact purpose, input/result, action, variation, evidence, support, authority, or stop positions needed by the action. |
 | direct subject result | Independently governed `C.2.1`, `E.17.0`, `C.29`, `E.24.PUB`, `A.22`, or other direct result; explicit lower or failed result when it does not obtain. |
 | exact use claim | The precise claim this action would carry from that direct result. |
-| evidence and reliance | Optional A.2.4 first-use classification; when material, exact A.10 path, decision-use relation, currentness boundary, `RelianceDisposition`, and stop. |
-| receiving result | Direct choice, gate, permission, authorization, acceptance, task, or domain result that permits, declines, or leaves the use unresolved. |
+| evidence and reliance | Optional A.2.4 first-use classification; source, support and direct use relation required for reliance. Reuse or obtain A.10's path and disposition when its account is needed, retaining any currentness or stop condition material to that use. |
+| receiving conditions and result | Conditions that the receiving rule imposes on the stated contribution, including any required gate, permission or authorization; the eventual choice, acceptance, task or domain result when it is asserted or consumed by the next action. |
 | exposure and loss | Method claims and distinctions exposed or preserved, and those omitted, withheld, transformed, or uncertain. |
 | row disposition | `select`, `decline`, or `unresolved` for this exact action, with any narrowed use. |
 | status boundary | Method, candidate account, MethodDescription, WorkPlan, Work, representation, view, publication, structure, reliance, and receiving-result statuses preserved. |

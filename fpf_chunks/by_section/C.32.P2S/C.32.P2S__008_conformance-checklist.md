@@ -6,12 +6,12 @@ section_id: "C.32.P2S:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.P2S/C.32.P2S__008_conformance-checklist.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.32.P2S — Problem-to-Structure Architecturing Unfolding"
   - "C.32.P2S:7 — Conformance Checklist"
-line_start: 77292
-line_end: 77307
+line_start: 77227
+line_end: 77242
 dependencies:
   - "A.1"
   - "A.1.SCR"
@@ -58,7 +58,7 @@ keywords:
 | `CC-C32P2S-5` | Use `C.32` for candidate synthesis and the applicable patterns for comparison and selection. A score or prose preference alone does not establish a selection result. |
 | `CC-C32P2S-6` | When a project architecture decision is current, use `C.32.PAD`; for an ADR-like publication, use `C.32.ADR` and the applicable publication patterns. |
 | `CC-C32P2S-7` | Use `A.3.1` for Method identity, `A.3.2` for `MethodDescription` membership, and A.15-family patterns for alignment, work-plan, readiness, and performed-work claims. Identify every actual transformation under `A.3.4`. For every claimed Work-to-change link, cite the relation and the pattern or local `A.6.RCD` claim used to check it. Keep production-work, entity-identity-inception, and production-completion as separate local `A.15.PROD` claims. The P2S card carries refs and expected structure effects only. |
-| `CC-C32P2S-8` | For measurement, Q-bundle, mathematical-lens, eval, improvement, `G.11` currentness refresh, and `E.18` transformation-flow slice-local refresh claims, use `C.16`, `C.25`, `C.29`, `C.32.ACE`, `E.23`, `G.11`, or `E.18` as applicable. |
+| `CC-C32P2S-8` | Apply the direct conditions for a current measurement, Q-bundle, eval, improvement, G.11 refresh or E.18 slice-local refresh claim. Use C.29 when mathematical representation choice, transfer or reliance remains unresolved. |
 | `CC-C32P2S-9` | Architecture-influence cases keep the changed referent, any actual A.3.4 transformation, both exact C.30 architecture sides or modal claims, every influence source's exact kind and obtaining direct relation or precise provisional disposition, and the `C.32.CONWAY` synthesis-local frame or exact pair row separately recoverable. |
 | `CC-C32P2S-10` | When actual-structure feedback is the current question, check subject-side `U.Structure` values recovered under `A.22` from obtaining relation occurrences, applied constraints, invariants, or other selected-organization facts, together with architecture-characteristic results and relevant functional-characteristic or capability implications. Use operation, use, inspection, measurement, eval result, telemetry, decay, stronger-structure inspection return, or a decision-repair trigger as applicable. An earlier P2S use may stop with its current result and next receiving action under §4 without adding a feedback claim. |
 | `CC-C32P2S-11` | Selected and expected structures, methods, plans, models, decisions, descriptions, evaluation results, publications, and transfers remain distinct from actual structures and actual transformations. Resemblance does not establish conformance. Shared work, adjacency, common referents, or one flow establishes neither transformation composition nor partlessness. |

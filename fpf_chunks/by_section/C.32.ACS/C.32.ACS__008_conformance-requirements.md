@@ -6,12 +6,12 @@ section_id: "C.32.ACS:7"
 section_title: "Conformance requirements"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACS/C.32.ACS__008_conformance-requirements.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.32.ACS — Architecture Characteristic Criteria Set"
   - "C.32.ACS:7 — Conformance requirements"
-line_start: 77779
-line_end: 77796
+line_start: 77714
+line_end: 77731
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -51,7 +51,7 @@ keywords:
 
 | Requirement | Required result |
 |---|---|
-| `CC-ACS-1` | The criteria set names the described holon, architecture use, and receiving use; every admitted row names its exact `U.ClaimScope`, relevant A.2.6 `U.ContextSlice` membership, effective reference scheme and plane, and qualification or evaluation window. |
+| `CC-ACS-1` | The criteria set names the described holon, architecture use, and receiving use; every admitted row names its exact `U.ClaimScope`, relevant A.2.6 `U.ContextSlice` membership, effective reference scheme, applicable plane and any qualification or evaluation window required by the use. |
 | `CC-ACS-2` | Source catalogue, HCS starter pack, draft project criteria rows, optimization indicators, monitored guardrails, and context-only rows remain distinct. |
 | `CC-ACS-3` | The optimization core is small enough to guide the current work. Three to five rows is a heuristic, not a minimum; a larger core needs a use reason, and all binding constraints remain. |
 | `CC-ACS-4` | Each admitted row names a bearer or selected structure. A draft with an unresolved bearer remains a question and cannot guide the dependent architecture choice. |

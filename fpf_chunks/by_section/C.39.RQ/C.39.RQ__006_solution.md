@@ -6,12 +6,12 @@ section_id: "C.39.RQ:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.RQ/C.39.RQ__006_solution.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.39.RQ — Construct Situated Method Requirements"
   - "C.39.RQ:4 — Solution"
-line_start: 84442
-line_end: 84489
+line_start: 84393
+line_end: 84442
 dependencies:
   - "A.3.1"
   - "C.11"
@@ -32,7 +32,9 @@ Recognition is cheap: recurring Work, a changed constraint, or one plausible cap
 #### C.39.RQ:4.1 - Pattern-Use Unfolding
 
 1. **Bound the situation family.** Name representative Work, receiving result, affected subjects, decision window, recurrence expected, important variants, and ordinary exclusions. Use `A.15.6` when a project, process or case claim leaves its subject unclear; attach a criterion to the plan, Method, Work, result, or other subject it constrains. Several accounts concern one Work only when their claims support that reading.
-2. **State required contributions before candidates.** Describe the reusable actions, results, or preserved conditions that one Method or named Method relations must contribute. Do not write a familiar candidate's current procedure as the requirement unless that exact feature is independently non-negotiable.
+2. **Recover required contributions before assigning candidates.** Start from the professional result, available plans or instructions, and a relevant performed or anticipated case. Follow the receiving operation backward: what input, intermediate result or preserved condition must be available for it to succeed? Then follow an available way forward to find where it supplies that contribution, needs support, or fails. C.39:4.2–4.3 develops this source recovery and backward/forward construction when the connection is missing. State the resulting requirement without prescribing a familiar candidate's procedure unless that feature is independently non-negotiable.
+
+   Recover a binding limit from the receiving commitment, applicable rule or authorized allocation that sets it; use available provision to determine what can meet it. Observed duration or resource demand can expose a mismatch, but does not set an acceptable limit by itself. For example, a signed-approval requirement before closure makes obtaining that approval or returning a missing-approval stop a required contribution; it need not prescribe a particular review tool. If the allowed deadline, protection or allocation is unknown, retain that criterion question and identify the agreement, authority or professional basis needed to settle it. Reuse an adequate existing criterion; seek additional information only when its attainable contribution warrants the burden.
 3. **Use source prompts without importing kinds.** Ask what goal, procedure, rationale, framing, mindset, intended use, representation, tool, scope, and adaptation conditions a source makes visible. Place the answer with its actual subject. A stated mindset may be description content; an obtaining capability or cultural relation needs separate evidence.
 4. **Recover conditions around enactment.** State performer capabilities, technical and organizational conditions, inputs, support/provider access, responsibility, covering Work assignments, permission and decision-authority relations, evidence timing, reversibility, and other Work or result constraints. Keep these conditions distinct from one another and from the performed Work and its decision result.
 5. **Separate variation from invariants.** Name lawful branches, substitutions, timing ranges, and local adaptations. Mark non-negotiable result, safety, confidentiality, authority, or evidence conditions explicitly. If a criterion's justification is the live question, use §4.4 to appraise it while retaining its current force. An already justified criterion needs no new appraisal.
@@ -52,7 +54,7 @@ Use the rows that carry the present result. For a disputed criterion, retain the
 | criterion rows | Criterion ID, actual subject/relation, requirement or bound, allowed variation, non-negotiable status, and decision level. |
 | capability, assignment, permission, and authority | Required performer capabilities; separate responsibility and access conditions; covering Work assignments; permission and direct decision-authority relations; and evidence for each. |
 | technical and organizational conditions | Inputs, support/provider conditions, evidence timing, reversibility, coordination, and other situated constraints. |
-| burden limits | Participant, Work scope, time window, bound, measurement basis, and transferred-burden warning. |
+| burden limits | Participant, Work scope, applicable time window, bound and its basis, how satisfaction can be determined, and any material transfer of burden. |
 | evidence and disposition | Required observation or record and the condition for `satisfied`, `failed`, or `unknown` in later use, without a fit or selection verdict. |
 | disputed requirement, when this question is live | Supported retention or change recommendation, the protection and burden that justify it, current force, and the available amendment route or limit needed by its recipient. |
 | stop and reopen | Missing fact or failed non-negotiable that stops a route, adequate-next-use condition, and situation/source change that reopens the set. |

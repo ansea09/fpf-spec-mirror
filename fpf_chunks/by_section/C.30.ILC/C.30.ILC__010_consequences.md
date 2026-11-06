@@ -6,12 +6,12 @@ section_id: "C.30.ILC:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ILC/C.30.ILC__010_consequences.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.30.ILC — Cross-Scope Architecture Residual Triage"
   - "C.30.ILC:9 — Consequences"
-line_start: 74705
-line_end: 74712
+line_start: 74641
+line_end: 74648
 dependencies:
   - "A.10"
   - "A.22"
@@ -47,5 +47,5 @@ The gain is an early architecture move that is small and precise. The practition
 
 C.30.ILC supplies the residual account and first warranted move, which can complete the receiving question. A further construction or evaluation uses the applicable subject pattern. Measurement, scale relation, RG relation, coarse-graining relation, mathematical lens use, ethical mediation, candidate generation, evidence, assurance, and final choice remain outside until those claims are being made.
 
-This makes multilevel optimization usable rather than decorative. Use `C.30.ILC` to identify the residual that makes optimization relevant, `C.29` for an admissible mathematical-lens use only when level or scale mapping and preserved and lost structure are recoverable, `C.32.MLAO` and `C.32` for residual-reducing candidate frames and palettes, `G.5` for selected-set result declaration, and `C.32.PAD` for a project architecture decision. For publication, use `E.17` for a source-backed face and source return and `E.24.PUB` for the publication occurrence and audience availability.
+Use `C.30.ILC` to identify the residual that makes optimization relevant. Use `C.29` for a remaining mathematical formulation, transfer or reliance question, retaining the applicable level or scale mapping and preservation/loss boundary; an adequate domain result can be used directly. `C.32.MLAO` and `C.32` supply residual-reducing candidate frames and palettes, `G.5` supplies selected-set result declaration, and `C.32.PAD` governs a project architecture decision when those results are needed. For publication, use `E.17` for a source-backed face and source return and `E.24.PUB` for the publication occurrence and audience availability.
 

@@ -6,12 +6,12 @@ section_id: "C.32.MWA:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA/C.32.MWA__011_rationale.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.32.MWA — Synthesize an Architecture Account of Methods and Their Use"
   - "C.32.MWA:10 — Rationale"
-line_start: 78926
-line_end: 78931
+line_start: 78878
+line_end: 78883
 dependencies:
   - "A.13"
   - "A.15.1"
@@ -37,7 +37,7 @@ keywords:
 
 ### C.32.MWA:10 - Rationale
 
-The eight actions follow the dependencies of a truthful synthesis. The entry must distinguish obtaining from prospective before evidence is interpreted. Subjects and participant kinds must be known before a source layout is classified. Alternatives must exist before the first layout can be challenged. Relations and description correspondences then make the alternatives comparable. Whole reidentification prevents a neat name from carrying the wrong claim. Conflict and moved-burden comparison expose the real trade-off, and the final deliberate/distributed distinction prevents one project from being mistaken for cultural evolution.
+The eight actions follow the dependencies of a truthful synthesis. The entry must distinguish obtaining from prospective before evidence is interpreted. Subjects and participant kinds must be known before a source layout is classified. Test the first layout against the receiving question and its required relations. Construct alternatives when that question needs them; the recovered relations and description correspondences then make those alternatives comparable. A whole-identity question is resolved on its own grounds. Conflict and moved-burden comparison expose the real trade-off, and the final deliberate/distributed distinction prevents one project from being mistaken for cultural evolution.
 
 The Method does not require all structures to fit one master diagram. Its common result is coherence through stated relations and correspondences, not visual isomorphism. This is why a short prose account can be the first useful result and why a matrix, graph, or formal model remains optional.
 

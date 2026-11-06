@@ -6,12 +6,12 @@ section_id: "C.30.AD:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__002_use-this-when.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:0 — Use this when"
-line_start: 72116
-line_end: 72183
+line_start: 72054
+line_end: 72121
 dependencies:
   - "A.1"
   - "A.10"
@@ -91,7 +91,7 @@ Use it to answer:
 
 **What this buys.** A reader can tell what each description is about, how its views correspond, where reused material came from, how fresh it is, what it may be used for, and which other claims need their own patterns.
 
-**First useful description-use output.** In one or two ordinary sentences, say which description is being used, what it describes, which reference scheme gives its terms meaning, why it is being used, which structure matters, what use is allowed, and whether this answers the question or leaves an architecture move to make. If you call it a `U.View`, also name the viewpoint and the conformance relation that actually holds. Stop if this answers the question. Ordinary wording can also be retained, compared, or handed on. Use `ArchitectureDescriptionUseCard@Project` when its organized fields help the receiving work:
+**First useful description-use output.** Say which description is being used, what it describes, which reference scheme gives its terms meaning, why it is being used, which structure matters, what use is allowed, and whether this answers the question or leaves an architecture move to make. If you call it a `U.View`, also name the viewpoint and the conformance relation that actually holds. Stop if this answers the question. Ordinary wording can also be retained, compared, or handed on. Use `ArchitectureDescriptionUseCard@Project` when its organized fields help the receiving work:
 
 ```text
 ArchitectureDescriptionUseCard@Project:
@@ -114,7 +114,7 @@ ArchitectureDescriptionUseCard@Project:
   architectureStructuralViewRefs?: FinSet(U.EpistemeRef constrained to ArchitectureStructuralView)
   viewpointConformanceRelationRefs?: FinSet(EpistemeViewpointConformanceRelationRef)
   correspondenceClaimOrRelationRefs?: FinSet(U.EpistemeRef | U.RelationRef)
-  sourceToUsePathRefs?: FinSet(U.RelationRef)
+  sourceToUsePathRefs?: FinSet(PathCitationRecordRef)
   sourceReturnCondition?:
   representationRefs?: FinSet(U.EntityRef)
   publicationOccurrenceRefs?: FinSet(EpistemePublicationRelationRef)
@@ -122,13 +122,13 @@ ArchitectureDescriptionUseCard@Project:
   carrierRefs?: FinSet(U.EntityRef)
   specificationUseBoundary?:
   admissibleUse:
-  nonAdmissibleUse:
+  nonAdmissibleUse?:
   nextClaimPatternRef?: PatternRef
 ```
 
 `@Project` is only a retrieval cue. It creates no project, authority, context, viewpoint, parthood, or Work. When an actual project matters, `projectWorkOccurrenceRef` names the composite `U.Work` recovered under `A.15.6`. Include `architectureDescriptionProjectUseRelationRef` only when a named pattern defines how this description use concerns that Work and the relation actually holds. A Work reference alone is not project locality. If locality matters but the relation is not defined, return `missing-governor`; otherwise omit both project-local fields.
 
-The card is optional and does not identify the description. For its declared use, it retains the described thing, reference scheme, purpose, selected structures and their kinds, allowed and disallowed use, and the next architecture move or pattern needed for a separate claim. If it calls the description a `U.View`, it also retains the viewpoint and the conformance relation that actually holds. Use the fuller `ArchitectureDescriptionUseAccount` when its fields help keep the applicable correspondence, source use or return, freshness, specification use, publication, representation, or project locality inspectable. An adequate existing account need not be reformatted. Keep any authority claim in its own pattern and relation.
+The card is optional and does not identify the description. For its declared use, it retains the described thing, reference scheme, purpose, selected structures and their kinds, allowed use and any material limitation, and the next architecture move or pattern needed for a separate claim. If it calls the description a `U.View`, it also retains the viewpoint and the conformance relation that actually holds. Use the fuller `ArchitectureDescriptionUseAccount` when its fields help keep the applicable correspondence, source use or return, freshness, specification use, publication, representation, or project locality inspectable. An adequate existing account need not be reformatted. Keep any authority claim in its own pattern and relation.
 
 For publication use, each carrier reference resolves to an independently identified physical or digital entity whose actual state or realization yields the relevant expression. The carrier's domain supplies its identity rule. When the bearing claim needs inspection, recover its `PublicationExpressionBearingRelation` and exact expression under E.24.PUB. A reusable form has its separate conformance relation. A file object, immutable snapshot value and individual copy retain their different identity rules.
 

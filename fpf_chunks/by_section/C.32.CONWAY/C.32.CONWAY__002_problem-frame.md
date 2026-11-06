@@ -6,12 +6,12 @@ section_id: "C.32.CONWAY:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.CONWAY/C.32.CONWAY__002_problem-frame.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.32.CONWAY — Architecture-Influence and Transformed-Architecture Correspondence"
   - "C.32.CONWAY:1 — Problem frame"
-line_start: 78085
-line_end: 78269
+line_start: 78020
+line_end: 78204
 dependencies:
   - "A.10"
   - "A.12"
@@ -35,6 +35,7 @@ dependencies:
   - "C.32.ACS"
   - "C.32.FAIL"
   - "C.32.MLAO"
+  - "C.32.MWA.PP"
   - "C.32.PAD"
   - "E.18"
   - "E.18.NET"
@@ -91,12 +92,12 @@ Common exits by claim kind:
 - `A.12` for acting-side externalization, `A.13` for exact actual-performer recovery, `A.15.1` for independent dated-Work admission and distributed-performer forms, `A.2.1` for an exact assignment occurrence when separately claimed, `F.6` for a later `performedUnderAssignment(W, RA)` relation only when precise assignment-bound attribution is expressly consumed, and the pattern that defines any direct actor-side or Work-to-change relation needed by the current use. F.6's holder projection only supports equality comparison with the already recovered performer; it identifies neither assignment nor performer.
 - `A.6.M` for module-interface repair.
 - `C.32.ACS` for current architecture-characteristic criteria rows and `C.25` for any composite Q-Bundle and exact slot used by the trade-off.
-- `C.29` and the project-selected structural-equivalence pattern for mathematical structural similarity.
+- The subject's mathematical treatment for structural similarity; `C.29` when representation choice, transfer or reliance remains unresolved.
 - `A.19.CPM` for explicit comparison and `A.19.SelectorMechanism` for set-returning selection.
 - `G.5` for selected-set result declaration; `E.17` for a source-backed publication face and source return; `E.24.PUB` for the publication occurrence and audience availability; `C.18` and `C.19` for archive, front, or pool-treatment policy.
 - `C.11` for fixed local choice and `C.32.PAD` for a project architecture decision.
 
-The first useful result explains which source-side condition constrains the candidate and which change could address it. An ordinary account can suffice. Use `ArchitectureInfluenceTransformedArchitectureCorrespondenceFrame@Project` when a record helps preserve that reasoning; the record does not establish an acting entity, relation occurrence, architecture decision or structural equivalence.
+The first useful result explains which source-side condition constrains the candidate and which change could address it. An ordinary account can suffice. Use `ArchitectureInfluenceTransformedArchitectureCorrespondenceFrame@Project` when a record helps preserve that reasoning; the record does not establish an acting entity, relation occurrence, architecture decision or structural equivalence. When the constraining condition is not yet known, :4.1.1 recovers it from a needed change and its production, verification or approval dependencies.
 
 For a first pass, recover the synthesis question, intended use, independently identified changed referent and typed influence source. State the source-side and transformed-side structures available for the question, and keep a missing structure explicit rather than inventing it. For an architecture side, distinguish an obtaining C.30 ArchitectureRelation from modal ArchitectureClaim content. Add current criteria or provisional characteristic heads, applicable candidate forms and the next needed result; include evidence and a window when the claim uses them. Assert an exact pair row only when its direct relation and both obtaining architecture sides satisfy :4.2. Otherwise retain the provisional pressure and its precise unresolved condition. The first-minute case above can be recorded as follows:
 
@@ -189,7 +190,7 @@ ArchitectureInfluenceTransformedArchitectureCorrespondenceFrame@Project:
     architectureCharacteristicPressure:
     relationFunctionClaimRef:
     sourceReturnCondition?:
-  evolutionWindowRef:
+  evolutionWindowRef?: include when the intended claim or use depends on time
   evidenceRefs?:
   architecturePairRowRefs[]?: ArchitectureInfluenceTransformedArchitectureCorrespondenceRow@Context refs
   correspondenceClaims[]?: synthesis-local compound claims that have not yet met the exact-row assertion threshold
@@ -209,7 +210,7 @@ ArchitectureInfluenceTransformedArchitectureCorrespondenceFrame@Project:
     preservedStructure?:
     lostOrHiddenStructure?:
     receivingUsePatternLocator:
-    sourceReturnCondition:
+    sourceReturnCondition?: include when omitted detail can change the receiving use
   candidateArchitectureConfigurations[]:
     candidateRef:
     influenceSourceSideChange?:

@@ -6,12 +6,12 @@ section_id: "C.37:6"
 section_title: "Bias-Annotation  (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37/C.37__007_bias-annotation-informative.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.37 — Select and Use Representations for One Action"
   - "C.37:6 — Bias-Annotation  (informative)"
-line_start: 81975
-line_end: 81984
+line_start: 81926
+line_end: 81935
 dependencies:
   - "A.10"
   - "A.2.4"
@@ -41,8 +41,8 @@ keywords:
 | Lens | Likely drift | Repair |
 | --- | --- | --- |
 | Ontological | Repeated use of diagrams, tables, and records motivates a universal representation kind or relation. | Keep each candidate under its direct kind and relation; C.37 governs only the one-use selection move. |
-| Epistemic | Selected means true, sufficient, or assured. | State the exact claim, A.10 disposition when material, unsupported use, and any separately current B.3 assurance claim. |
-| Decision | The account is mistaken for the receiving choice, permission, authorization, or gate result. | Name the direct receiving-result governor and its actual result. |
+| Epistemic | Selected means true, sufficient, or assured. | State the exact claim and its support and limits, reuse or obtain an A.10 disposition when that account is needed, and ground any separately current B.3 assurance claim. |
+| Decision | The account is mistaken for the receiving choice, permission, authorization, or gate result. | Name the receiving rule and obtain its result for the claim or action that requires it; use qualified inputs to construct that result. |
 | Structural | Co-used rows appear to form one integrated whole. | Treat co-use as a shared action key only; open collection, structure, construction, or coherence claims separately. |
 | Didactic | A large form replaces the recognizable action. | Start with one receiver, one action, and one row; add a field only when it changes selection or return. |
 

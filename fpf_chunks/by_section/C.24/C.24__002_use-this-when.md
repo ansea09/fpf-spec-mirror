@@ -6,12 +6,12 @@ section_id: "C.24:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__002_use-this-when.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.24 — Plan Tool or Service Calls for a Fixed Action (C.Agent-Tools-CAL)"
   - "C.24:0 — Use this when"
-line_start: 64597
-line_end: 64690
+line_start: 64596
+line_end: 64689
 dependencies:
   - "A.10"
   - "A.15"
@@ -50,7 +50,7 @@ Use `A.15.7` first when ongoing Work still needs the next action to be chosen fr
 Use `C.24` when an applicable domain prescription or a completed decision has fixed the action or option and the practical question is now:
 
 - which admitted Methods to call, in what order;
-- which time, compute, cost, and risk budget to reserve;
+- which applicable time, compute, cost or risk budget to reserve;
 - what stops or replans the route; and
 - whether the useful output is a `CallPlan` or a `CheckpointReturn`.
 
@@ -67,12 +67,12 @@ Do not use it to generate candidates, keep a live pool, choose among unresolved 
 
 - one small, tool-neutral plan that cites the accepted action basis;
 - visible budgets, stop conditions, and replan triggers before calls are made;
-- one replayable call-trace reference after Work occurs; and
+- recoverable call facts and provenance when later use needs an execution account; and
 - one bounded checkpoint stating whether to probe again or seek a decision to adopt the proposed route.
 
 **Primary working object.** One `ATC.CallPlan : U.WorkPlan`. Each step selects a `U.Method`. A route description may help locate or constrain that Method, but remains a separate `U.MethodDescription`. Actual calls are dated `U.Work` and remain outside this planning result.
 
-**First useful move.** Identify the applicable domain prescription, A.15.7 decision or C.11 choose-now result that fixes the action. Fill that one branch of `actionBasis`. Then write the ordered Method refs, budget, stop or replan condition, and next planned action. Add route-description refs only where the route cannot be understood without them.
+**First useful move.** Recover the action and completion conditions fixed by the domain prescription, A.15.7 decision or C.11 choose-now result. Reuse an adequate known route. Otherwise, work backwards from the required result to admitted Methods and their needed inputs, then follow the proposed route forwards from the available inputs as in section 4.1. Return the supported ordered calls, applicable budget and stop or replan conditions, or the particular missing contribution or condition. Add route-description refs where they are needed to understand or qualify the route.
 
 **Not this pattern when.** Use `C.11` while fixed-option choice is unresolved, `C.19` while treatment of a live pool is unresolved, `G.5` when the current task is selector-facing result declaration, `A.15.5` for work-entry readiness, and `A.15.1` when the question is what Work actually occurred or which Method it enacted.
 

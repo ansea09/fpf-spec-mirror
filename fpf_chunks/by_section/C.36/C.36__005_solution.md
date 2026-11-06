@@ -6,12 +6,12 @@ section_id: "C.36:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36/C.36__005_solution.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.36 — Cultural Evolution and Cultural-Evolution Engineering"
   - "C.36:4 — Solution"
-line_start: 81456
-line_end: 81589
+line_start: 81411
+line_end: 81544
 dependencies:
   - "A.1"
   - "A.10"
@@ -73,7 +73,7 @@ Keep a project choice separate from what happens across a practice or population
 
 When the question is how the practice may develop, retain credible hypotheses whose differences could change the continuation, forecast, or warranted use. State the uncertainty that matters; a fixed number of hypotheses is not a completion condition. Use `B.5` and `B.5.2` for a needed hypothesis account and its consequences. A bounded forecast or continuation may be complete on the available basis while a stronger explanation remains unresolved.
 
-Select a new observation or intervention when its attainable result can improve that use enough to warrant its whole cost, delay, participant burden, and displaced work. Include the effort of designing and describing a proposed study, before treating it as an available option. Use `C.11.DUA` when that connection between a demanded inquiry and its receiving value needs recovery, and `C.11` when a named deciding System and an already formed bounded choice exist. The direct DPF or field Method designs and performs a selected inquiry; C.36 is not a general research-budget method. An unavailable or unhelpful probe withholds only the claim that needs it, not an independently supported current account. It creates no study assignment or omitted-experiment record.
+Select a new observation or intervention when its attainable result can improve that use enough to warrant its whole cost, delay, participant burden, and displaced work. Include the effort of designing and describing a proposed study, before treating it as an available option. Use `C.11.DUA` when that connection between a demanded inquiry and its receiving value needs recovery, and `C.11` when a named deciding System and an already formed bounded choice exist. The direct DPF or field Method designs and performs a selected inquiry; C.36 is not a general research-budget method. An unavailable or unhelpful probe withholds only the claim that needs it, not an independently supported current account.
 
 Use `A.3.3` when the claim states a state space and transition law, `C.28` when the current use relies on a causal claim, and `A.15.7` for the next action during ongoing Work. Use `A.10`, `C.16`, and `C.27` for the evidence, measurement, and time questions that actually arise.
 
@@ -167,7 +167,7 @@ The intervention card keeps the proposed intervention, targeted relation, and ne
 
 For planning and performance, use E.18.1 for P2W carry-through, A.15.2 for work planning, A.13 and A.15.1 for exact actual performers and independently admitted Work, and A.2.1/F.6 only when precise assignment-bound attribution is expressly consumed. Use A.3.4 for actual change. A.15.PROD may answer one current production-work, entity-inception, or completion question; the Work-to-change link still uses the direct predicate, A.6.1 binding, A.6.RCD local claim, or non-assertability result above.
 
-For archive or pool treatment use C.18 or C.19; for a selected-set result use G.5; for local choice use C.11; for a generated or discovered result intended for architecture use, use C.35's first result: a sentence identifying the exact result by its truthful kind, its obtaining or proposed organization, the supported next use and any material condition, limitation or return; for an architecture question use C.30; and for refresh use G.11. If audience availability is current, use E.24.PUB for the publication occurrence, form, carrier, audience, bounded use and availability. Use E.17 when the publication is a source-backed projection.
+For archive or pool treatment use C.18 or C.19; for a selected-set result use G.5; for local choice use C.11; for a generated or discovered result intended for architecture use, use C.35's first result: a sentence identifying the exact result by its truthful kind, the organization it concerns and the status of the actual or proposed claim, including any unresolved basis, the supported next use and any material condition, limitation or return; for an architecture question use C.30; and for refresh use G.11. If audience availability is current, use E.24.PUB for the publication occurrence, form, carrier, audience, bounded use and availability. Use E.17 when the publication is a source-backed projection.
 
 #### C.36:4.3 - Evolution Sense Split
 
@@ -191,5 +191,5 @@ Use clear domain meanings directly. Recover the object or relation when platform
 
 - Platform, recommendation environment, visibility infrastructure, algorithmic mediator, or platform-regime wording may name a System, a System classified under a local system-role kind, another relation participant, a system or product architecture, recognition or selection relation, measurement or visibility relation, publication relation, model-use boundary, project scope, or source-currentness relation.
 - Measurement regime wording may name a characteristic space, measurement relation, visibility relation, publication relation, dashboard relation, source-currentness relation, or comparison setup.
-- Attractor, basin, stable-dynamics, state-transition-law, and mathematical-model wording uses `A.3.3`, `C.27`, and `C.29` when that claim is current. A clear style metaphor can remain ordinary wording; use `F.17`, `F.18` or `F.9` only for the unresolved term, naming or Bridge question.
+- For an attractor, basin, stable-dynamics, state-transition-law, or other mathematical-model claim, recover the model and the conditions supporting that claim. Use `A.3.3` for the state space and transition law, `C.27` for a temporal-adequacy question, and `C.29` when a separate representation, transfer, or reliance question remains. A clear style metaphor can remain ordinary wording; use `F.17`, `F.18` or `F.9` only for the unresolved term, naming or Bridge question.
 

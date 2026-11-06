@@ -6,12 +6,12 @@ section_id: "C.39.MF:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.MF/C.39.MF__008_bias-annotation.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.39.MF — Choose and Reopen a Method Development Focus"
   - "C.39.MF:6 — Bias-Annotation"
-line_start: 83825
-line_end: 83833
+line_start: 83776
+line_end: 83784
 dependencies:
   - "A.15.6"
   - "A.3.1"

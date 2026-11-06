@@ -6,7 +6,7 @@ section_id: "C.20:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.20/C.20__011_consequences.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.20 — Composition of U.Discipline (Discipline-CAL)"
   - "C.20:8 — Consequences"
@@ -53,7 +53,7 @@ keywords:
 
 **Benefits.** The construction account distinguishes constituent replacement from reidentification without freezing a universal canon or Method repertoire. It preserves rival traditions through their explicit contributions and admissible directed uses. Comparison, selection and publication can use that account and their own characteristic, evidence or authority grounds; they do not supply missing construction facts.
 
-**Costs and trade-offs.** A positive claim needs exact parts, direct relation intervals, whole-forming claims, an assembly, a reidentification rule, one whole characteristic, and a larger-assembly compatibility account. The cost is proportional: ordinary use can stop at readable sentences. A named comparison adds Scale, comparator, and CG-Spec literacy; a cross-locality use that relies on an obtaining semantic Bridge adds its separate bounded-use claim and reliance work; trace, evidence, publication, health, selector, or assurance apparatus is added only for a named receiver. That extra explicitness pays back in safer reuse and clearer governance.
+**Costs and trade-offs.** A positive discipline claim needs exact parts, direct relation intervals, whole-forming claims, an assembly, a reidentification rule, one whole characteristic, and a larger-assembly compatibility account. Ordinary use can state these in readable sentences. A comparison adds its actual comparison basis and lawful operation; a selected CG-Spec adds that interface's declarations. Cross-local use that relies on an obtaining semantic Bridge adds its bounded-use claim and reliance grounds. Trace, publication, health, selector or assurance apparatus is added for the receiving use that needs it.
 
 **Risks avoided.** The pattern blocks label-made fields, institution-made identity, publication-made parts, context-count breadth, bridge-made merger, health-score ontology, and registry-made method or discipline membership.
 

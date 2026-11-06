@@ -6,12 +6,12 @@ section_id: "C.39.MF:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.MF/C.39.MF__006_solution.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.39.MF — Choose and Reopen a Method Development Focus"
   - "C.39.MF:4 — Solution"
-line_start: 83769
-line_end: 83799
+line_start: 83720
+line_end: 83750
 dependencies:
   - "A.15.6"
   - "A.3.1"
@@ -34,7 +34,7 @@ Select a focus whose subject and status are supported. Compare what addressing e
 3. **Recover the subjects of the accounts already in use.** For each project, process, case, lifecycle, stage, or workflow description, state what its claims concern, their actual or intended status, the question exposed, and the material omissions. Use `A.15.6` when the label hides the subject. Keep unlike subjects separate; a claimed view additionally needs its exact viewpoint and `E.17.0` conformance result.
 4. **Recover Method-status candidates.** List Methods already identified under `A.3.1`, candidate Method accounts, established family facts, local groupings, related Methods, and support or capability alternatives. Preserve their statuses.
 5. **Form materially different focus options.** Include each plausible one-Method, plurality, relation, and non-Method branch. A renamed package or differently drawn view is not another focus option.
-6. **Test family and relation claims.** Use `G.5` for any maintained family or selector claim and the applicable relation pattern for each direct relation. When no identified whole and obtaining relations exist, retain a relation focus or local grouping rather than a composite.
+6. **Test family and relation claims.** Apply the rule that defines the claimed family and the applicable relation pattern for each direct relation. Use `G.5` when the question needs its Method-family registry or selector-facing result. When no identified whole and obtaining relations exist, retain a relation focus or local grouping rather than a composite.
 7. **Choose and record.** Use `C.11` or a domain decision Method to select one focus for the receiving decision. State rejected options, evidence limits, next useful result, and the observation that reopens the focus.
 
 #### C.39.MF:4.2 - Record the Result
@@ -45,7 +45,7 @@ Select a focus whose subject and status are supported. Compare what addressing e
 | representative Work | Actual or intended Work relevant to the decision, with its result and participant meanings. |
 | accounts used | Each account's direct subject, claim, question, important loss, and effect on the focus; exact viewpoint and conformance result when a view is claimed. |
 | Method-status inventory | Identified Methods, candidate accounts, established family facts, local groupings, related Methods, and non-Method alternatives. |
-| options and choice | Four focus classes considered, selected class and subject, rejected options, basis, and unresolved claims. |
+| options and choice | Plausible focus options, selected class and subject, any rejected options, basis, and unresolved claims. |
 | continuation | Next result needed and one observable reopen condition. |
 
 #### C.39.MF:4.3 - What Changes in Practice

@@ -6,12 +6,12 @@ section_id: "C.25:20a"
 section_title: "Viability-envelope, quantum-like, and temporal-claim relation note"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.25/C.25__022_viability-envelope-quantum-like-and-temporal-claim-relation-note.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.25 — Q-Bundle: Express a Quality Claim as One Characteristic or a Structured Bundle"
   - "C.25:20a — Viability-envelope, quantum-like, and temporal-claim relation note"
-line_start: 65351
-line_end: 65388
+line_start: 65353
+line_end: 65378
 dependencies:
   - "A.10"
   - "A.15"
@@ -55,30 +55,18 @@ Practical reading:
 1. Decide whether one Characteristic answers the quality question; if it does, stop there.
 2. If several differently typed contributors are load-bearing, identify the bearer and include only those measures, scopes, windows, mechanisms, statuses, or evidence anchors.
 3. If one proxy or this proportional bundle answers the receiving question, stay in `C.25`.
-4. Open `C.26.3` only when several characteristics must remain inside a viable region under disturbance and a candidate intervention, boundary condition, adaptation cost, or failure mode matters.
+4. Open `C.26.3` when several conditions must hold together under a disturbance and the question is whether the viable region is retained, violated or unresolved, or how a proposed change could restore it.
 5. Open `C.27` only when a temporal claim is being used to change action—for example, when rate-change, effort, window, resistance, recovery, or cadence changes that action.
 
-Minimum viability-envelope note:
+For an envelope question, use `C.26.3:4.5` to recover the exact bearer and protected work or result, derive the relevant conditions from ways that work can fail, and obtain bounds from the receiving requirements and actual provision. Keep each bound's subject explicit. Compare the available observations with those bounds under the disturbance. A supported diagnosis can finish the use: a known violation establishes failure of the conjunction even while another condition is unknown; a positive viability claim needs all required conditions supported.
 
-| Field | Required content |
-| --- | --- |
-| Bearer | One exact `U.System` under A.1 when that System is the subject; or one exact `A.22` `U.Structure` when selected organization is the subject, with independently identified constituents, selected obtaining relations, applied constraints, and one selection-use frame. A service label, team label, or list of system-role kinds and assignment occurrences does not identify the bearer by itself. |
-| Protected promise / function | The promise, function, use, operating regime, or stakeholder value the envelope protects |
-| Variables | Which qualities, constraints, resources, risks, or state descriptors define the envelope |
-| Viable region / bounds | What counts as inside, near edge, degraded, or outside the envelope for this use |
-| Disturbance class | What perturbation, demand shift, environment change, probe, or boundary condition stresses the envelope |
-| Actuators | Which proposed work, design move, policy, boundary change, sensor change, or resource change could alter the bearer or its operating conditions; use C.26.3 to recover each candidate intervention's proposal-side object and distinguish any performed work or resulting change claimed to exist |
-| Trade-off / loss | What gets worse, hidden, coarsened, delayed, or made more expensive |
-| Admissible use | Which action, decision, relation, or triage use the envelope reading can carry |
-| Non-admissible use | Which release, audit, assurance, or universal quality claim requiring additional support it does not support |
-| Failure mode | What it means to leave the envelope or to mistake one proxy for the envelope |
+For proposed regulation, identify the intervention and which constraint each predicted effect concerns. Retain the grounds, unknown effects, displaced work, trade-offs and adaptation costs needed to judge that proposal. Recover needed authority or execution conditions for the proposed action. Unknown acceptability limits remain a requirement question or an explicit scenario assumption; observed averages do not supply normative bounds. These conditions are part of the claim and its use, not a compulsory envelope form.
 
 Useful outputs:
 
 - one `C.2.1` quality-claim episteme with Q-Bundle-shaped content when the issue is quality decomposition;
-- a `C.26.3` envelope-regulation note when probes, candidate interventions, or boundary conditions change the admissible viability reading;
+- a `C.26.3` supported envelope diagnosis or conditional regulation proposal, with the grounds required by that result;
 - a `C.27` temporal-claim adequacy card when a claim used to change action says that an intervention changes a rate, recovery, or cadence; state its effort, window, and resistance where load-bearing;
-- no QL wording when ordinary quality-bundle, proxy, feedback, or control tuning carries the work.
 
 #### C.25:20b - Architecture-decision Q-Bundle boundary
 

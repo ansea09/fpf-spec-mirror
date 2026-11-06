@@ -6,12 +6,12 @@ section_id: "C.25:14"
 section_title: "Slot Interaction Law"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.25/C.25__015_slot-interaction-law.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.25 — Q-Bundle: Express a Quality Claim as One Characteristic or a Structured Bundle"
   - "C.25:14 — Slot Interaction Law"
-line_start: 65177
-line_end: 65198
+line_start: 65187
+line_end: 65208
 dependencies:
   - "A.10"
   - "A.15"
@@ -66,5 +66,5 @@ A quality claim that depends on rolling windows, observation periods, maintenanc
 
 #### C.25:14.4 - Report-only summary proxies
 
-A publisher may compute a report-only summary proxy for convenience, for example a compact quality summary value or an oversight-facing composite score. State in claim content which exact Q-Bundle slots the proxy summarizes and what it leaves out. The proxy may be another Characteristic or claim under its direct pattern, but it does not replace the source quality-claim episteme or its addressed claims in a norm, gate, comparison, or cross-context use.
+A publisher may compute a report-only summary proxy, such as a compact quality summary value. Identify the source quality-claim episteme or exact `ClaimAddress`, and state which Q-Bundle slots the proxy summarizes and omits. The proxy is a separate Characteristic or claim under its direct pattern; it does not replace that source in a norm, gate, comparison, endpoint classification or cross-context use.
 

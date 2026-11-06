@@ -6,12 +6,12 @@ section_id: "C.26:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26/C.26__002_problem-frame.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.26 — Quantum-Like Modeling Lens"
   - "C.26:1 — Problem frame"
-line_start: 65397
-line_end: 65475
+line_start: 65387
+line_end: 65465
 dependencies:
   - "A.10"
   - "A.15"
@@ -54,13 +54,13 @@ keywords:
 
 FPF already has local patterns for decisions, boundaries, bridges, work, measurement, search, and quality bundles. Some real architecture cases still break when those patterns are applied as if every read, question, dashboard, workshop, bridge, or simplified representation were a passive view of a stable state.
 
-Use this pattern only after the ordinary FPF subject assertion and exact predicate are in place and one exact contextual-model obstruction still changes what may be inferred or done. The obstruction may be a no-global-section result, incompatible probe algebra, order-sensitive instrument result, or another named failure of passive read, joint comparison, faithful-enough export, or use-preserving coarsening. A broad word such as *context*, a diagram, different labels, ordinary DDD locality, or mere model plurality does not open C.26.
+Use this pattern to examine a possible contextual-model obstruction that the ordinary subject account does not yet settle and that could change the inference or action. Retain a QL use only when a named obstruction is established under stated assumptions—for example, failure of a proposed joint probability law, incompatible probe algebra or an order-sensitive instrument result. A label, diagram, ordinary locality or mere model plurality does not establish that result. The claim is relative to the specified construction and use; it is not proof that every non-QL treatment must fail.
 
 **What goes wrong if missed.** A dashboard, workshop, metric, bridge, export, or coarsened model is treated as a passive faithful readout even when the probe, frame, publication, or representation shortcut changes what can be inferred.
 
 **What this buys.** The user keeps the ordinary FPF pattern in charge and adds only the minimum quantum-like lens needed to prevent that concrete representational mistake.
 
-**Identity before the lens.** When C.26 carries a quality ascription or model claim, first name the quality bearer or C.2.1 claim-bearing episteme, its effective reference scheme, the probe or model frame, the comparison frame, and the applicable `U.ClaimScope`. State separately whether an `EpistemeEmpiricalGroundingRelation` obtains; a measurement, evidence reference, card, or label does not make it obtain.
+**Identify the claim before the lens.** Name its subject and the interpretation, scope, probe/model frame and comparison conditions on which it depends. Recover an exact C.2.1 episteme or `U.ClaimScope` when the receiving use consumes that identity. For an empirical-grounding claim, test the exact covered claims and direct mappings under C.2.1:4.3; known absence and an unresolved grounding assertion remain different.
 
 If a viewpoint matters, record one `U.ViewpointRef` that resolves to the `U.Viewpoint` episteme P.
 

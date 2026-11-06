@@ -6,7 +6,7 @@ section_id: "C.20:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.20/C.20__008_bias-annotation.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.20 — Composition of U.Discipline (Discipline-CAL)"
   - "C.20:6 — Bias-Annotation"
@@ -70,6 +70,6 @@ These questions expose different ways a field account can acquire unsupported me
 | **Canon or method monocentrism** | One document set or method family stands for both knowledge and practice. | Require independently identified contributions on both sides and exact coupling claims. |
 | **Schema completion** | Five filled positions or heterogeneous fields manufacture construction. | Use the two-participant direct relation and ordinary whole-forming claims; treat cards as descriptions. |
 | **Bridge universalism** | Translation or high congruence merges fields. | Keep Bridge, bounded-use proposition, reliance, comparison, and discipline construction separate. |
-| **Metric reification** | Health or maturity value is treated as discipline identity. | Keep C.21 readings and G.4 thresholds as evaluations over the exact discipline. |
+| **Metric reification** | Health or maturity value is treated as discipline identity. | Keep C.21 readings and any decision thresholds as evaluations over the exact discipline. |
 | **Snapshot extensionalism** | Any changed part creates another discipline, or the same part list guarantees sameness. | Apply the assembly-sensitive reidentification rule. |
 

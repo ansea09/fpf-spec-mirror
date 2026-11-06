@@ -6,12 +6,12 @@ section_id: "C.32.MLAO:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MLAO/C.32.MLAO__002_problem-frame.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.32.MLAO — Architecture Candidates to Reduce Cross-Scope Residuals"
   - "C.32.MLAO:1 — Problem frame"
-line_start: 78501
-line_end: 78591
+line_start: 78453
+line_end: 78543
 dependencies:
   - "A.10"
   - "A.19.CPM"
@@ -77,7 +77,7 @@ What C.32.MLAO buys in practice: the practitioner can prepare residual-reducing 
 
 Ordinary working move: name where the local improvement moved the cost, name the selected structure and scope that now carry the residual, then prepare candidate changes that reduce that residual while making the new burden explicit.
 
-Adoption test: after using C.32.MLAO, a reader can see the residual reduced, the new burden, the affected scope, the preserved structure, the lost structure, and the evolution-window stop condition for each candidate.
+Adoption test: after using C.32.MLAO, a reader can see the expected residual reduction, possible new burden, affected scopes, relevant preservation or loss, and evolution-window stop condition for each candidate, including what remains unresolved.
 
 Use C.32.MLAO only after residual triage. Do not use it to recover the residual itself, justify a mathematical lens, compare or select candidates, choose locally, declare a selected-set result, publish it to an audience, or decide the project architecture.
 
@@ -86,7 +86,7 @@ Common exits by claim kind:
 - `C.30.ILC` when the residual is not recoverable yet.
 - `C.32.ACS` when architecture-characteristic criteria rows are missing.
 - `C.32.ACE` when eval programs or eval results are the current claim.
-- `C.29` when mathematical-lens use is being claimed.
+- `C.29` when a question remains about choosing, transferring, or relying on a mathematical representation; a sufficient subject-level mathematical result can finish without that separate account.
 - `A.19.CPM` for explicit comparison, `A.19.SelectorMechanism` for set-returning selection, `C.11` for local choice, and `G.5` for selected-set result declaration.
 - `C.18` and `C.19` for archive, front, pool treatment, or stepping-stone retention.
 - `C.30.AD` for architecture-description work, `E.17` for a source-backed publication face and source return, and `E.24.PUB` for the publication occurrence and audience availability.

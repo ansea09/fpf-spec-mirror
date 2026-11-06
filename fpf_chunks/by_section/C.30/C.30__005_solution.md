@@ -6,12 +6,12 @@ section_id: "C.30:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30/C.30__005_solution.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.30 — Grounded Architecture and Selected-Structure Adequacy"
   - "C.30:4 — Solution"
-line_start: 71490
-line_end: 72007
+line_start: 71428
+line_end: 71945
 dependencies:
   - "A.1"
   - "A.10"
@@ -117,7 +117,7 @@ ArchitectureClaim ::= {
     architectureConcernClaimRefs?: FinSet(U.EpistemeRef),
     architectureConcernCue?: Plain recognition wording,
     admissibleUse,
-    nonAdmissibleUse
+    nonAdmissibleUse?
   },
   modelUseStructureRef?: SelectedStructureReference,
   empiricalGroundingRelationRef?: U.RelationRef
@@ -140,7 +140,7 @@ Recover which holonic architecture mode is current before applying MHT, structur
 | --- | --- | --- | --- |
 | Direct holonic architecture mode | One exact `ArchitectureRelation` between a described holon and an actual selected structure, plus any C.2.1 claim about it. | Recover the actual subject relations, selected structure, architecture relation, structure kind, concern, admissible-use frame, and first move. | Do not apply MHT merely because the architecture has levels, scopes, parts, modules, or views. |
 | Architecture-bound holon mode | An architecture residual raises a whole-reidentification question for a candidate result holon. | Use C.30 only for the actual-relation or modal-claim architecture residual; use `B.2` or `B.2.P` when whole reidentification is current. | `MHTTriggerProfile` is not a general architecture heuristic. |
-| Non-holonic description, record, or mathematical mode | A description, view, diagram, dashboard, model, source relation, publication form, or mathematical-lens result is under repair. | Use `C.30.AD`, `C.30.AD.BA`, `C.30.ASV`, `E.17`, `A.10`, or `C.29` according to the object or claim being repaired; use the pattern that defines or tests any other claim. | Do not treat the representation as the architecture or as MHT evidence by label. |
+| Description, record, or mathematical-use question | A description, view, diagram, dashboard, model, source relation, publication form, or mathematical result is under examination. | Use `C.30.AD`, `C.30.AD.BA`, `C.30.ASV`, `E.17`, `A.10`, or `C.29` for the corresponding question, under that pattern's entry conditions. A claim-bearing description or view may itself be an episteme holon. | Its identity and adequacy do not establish the described subject's architecture or an MHT. |
 
 #### C.30:4.1b - Evolutionary-engineering architecture candidate bridge
 
@@ -195,7 +195,7 @@ C30ArchitectureDescriptionBridge minimum:
     with independently obtaining E.17.0 viewpoint conformance
   viewpointConformanceRelationRefs?:
   admissibleUse:
-  nonAdmissibleUse:
+  nonAdmissibleUse?:
   correspondenceClaimOrRelationRefs or sourceReturnCondition?:
     only when reuse, cross-view use, or source return is needed
   freshnessClaimRefs?: only when currentness bounds admissible use
@@ -222,11 +222,11 @@ ArchitectureDescriptionPublication@Project ::= {
   sourcePinSetRef,
   audience,
   admissiblePublicationUse,
-  nonAdmissiblePublicationUse
+  nonAdmissiblePublicationUse?
 }
 ```
 
-`ArchitectureDescriptionPublication@Project` is subordinate to E.17 and MVPK machinery. It records the publication of one source episteme or episteme-lane view. `publicationViewpointRef?` names the publication-side viewpoint only when MVPK needs one; it is not an architecture viewpoint and not a TEVB viewpoint. `mvpkFaceRef` is a publication-lane face reference, not an alternative source episteme, source view, or source relation. Publication does not establish non-publication claims; apply `C.30:4.3` and the pattern that defines or tests any current evidence, gate, work, assurance, decision, or release claim.
+`ArchitectureDescriptionPublication@Project` is subordinate to E.17 and MVPK machinery. It records the publication of one source episteme or episteme-lane view. `publicationViewpointRef?` names the publication-side viewpoint only when MVPK needs one; it is not an architecture viewpoint and not a TEVB viewpoint. `mvpkFaceRef` is a publication-lane face reference, not an alternative source episteme, source view, or source relation.
 
 Model cards, system cards, and evaluation harness reports enter C.30 through the same publication boundary or source-relation boundary. They may describe a model, deployed AI system, architecture claim, evaluation harness, or policy, but the architecture move still needs the actual or candidate structure distinction, an obtaining `ArchitectureRelation` only when its predicate is satisfied, a bounded `ArchitectureClaim` when claim content is needed, and the applicable pattern for any proof, release, or gate claim.
 
@@ -242,7 +242,7 @@ ModelCardOrSystemCardBoundaryNote@Project ::= {
   evaluationScopeAndKnownLoss?,
   deploymentInterpretationOrUseMismatch?,
   evidenceOrAssurancePatternLocator?,
-  nonAdmissibleUse:
+  nonAdmissibleUse?:
     notArchitectureAdequacy | notSafetyProof |
     notReleaseAuthorityByPublicationAlone
 }
@@ -268,7 +268,7 @@ If a text says "<X> architecture", the phrase is precise only when the following
   actual selectedStructureRefs or separately recoverable candidate/expected claim content,
   architectureStructuralViewRefs only when a conforming view episteme is being used,
   admissibleUse,
-  nonAdmissibleUse.
+  nonAdmissibleUse?.
 If <X> is not a declared structure kind, the phrase is plain recognition wording only.
 ```
 
@@ -279,7 +279,7 @@ If <X> is not a declared structure kind, the phrase is plain recognition wording
 | logical architecture | `structureKindRef = DeclaredLogicalStructure`; local definition says whether `logical` means information relation, functional relation, runtime relation, responsibility relation, allocation relation, or another relation class. |
 | physical architecture | `structureKindRef` in `{MaterialSpatialStructure, PlacementDeploymentStructure}` or a locally declared physical structure kind. |
 | control architecture | `structureKindRef = ControlStructure`; an LCA record may describe the control structure, but use the applicable dynamics, temporal, causal, evidence, safety, or assurance patterns for any separate proof claim. |
-| information architecture | `structureKindRef = InformationDataStructure`; state bearer and residence, schema refs, semantic refs, persistence locus, provenance relation, custody relation, and source-return conditions. |
+| information architecture | `structureKindRef = InformationDataStructure`; recover the information-bearing entities and selected relations. Include residence, schema, meaning, persistence, provenance, custody or source-return conditions where they determine that structure or its receiving use. |
 | security architecture | `structureKindRef = SecurityTrustBoundaryStructure`; recover protected asset or effect, trust boundary, adversarial path, authority or privilege relation, secure-default or hardening boundary, and the applicable pattern for any evidence, assurance, or gate claim. |
 
 #### C.30:4.5 - Architecture characteristic assignment
@@ -348,7 +348,7 @@ ArchitectureStructuralCharacteristicQBundleClaimLine ::= {
   affectedUse?,
   futureDefinitionNeed?,
   evidenceOrCausalPatternLocator?,
-  nonAdmissibleUse
+  nonAdmissibleUse?
 }
 ```
 
@@ -416,7 +416,7 @@ ArchitectureCharacteristicQBundleClaim ::= {
   admissibleSemanticChangeClasses?,
   bridgeOrLossBoundary?,
   admissibleUse,
-  nonAdmissibleUse,
+  nonAdmissibleUse?,
   evidenceOrCausalPatternLocator?
 }
 ```
@@ -461,7 +461,7 @@ InterfaceSignatureBoundaryNote ::= {
   recoveredKind,
   claimPatternRefs,
   admissibleUse,
-  nonAdmissibleUse
+  nonAdmissibleUse?
 }
 
 ModuleRelationBoundaryNote ::= {
@@ -482,7 +482,7 @@ ModuleRelationBoundaryNote ::= {
   secureDefaultOrHardeningBoundary?,
   claimPatternRefs,
   admissibleUse,
-  nonAdmissibleUse
+  nonAdmissibleUse?
 }
 ```
 
@@ -519,7 +519,7 @@ Lens use by architecture problem:
 | Physical separation or spatial arrangement. | Topology, geometry, or spatial graph lens. | Adjacency, containment, separation, reachability, energy-transfer relation, or material-transfer relation. | Safety proof, accessibility, regulatory acceptance, and causal-use claims remain outside unless separately grounded. |
 | Composition relation. | Category, open-systems, or compositional lens. | Interface, composition, and coherence. | Domain semantics remain outside unless bridged. |
 
-This table is not a C.29 replacement and does not make mathematics mandatory. It helps the practitioner see when a lens may add a useful architecture move; C.29 still carries lens-use result, preserved structure, lost structure, relation class or admissible-use value, and stop condition when those description or view uses are being made.
+The table helps identify a mathematical treatment that could change the architecture answer. Use C.29 when choosing or constructing the formulation, transferring its result, or settling an unresolved reliance condition. Preserve the relevant mapping, assumptions, retained distinctions and losses; an already adequate domain result needs no separate lens-use record.
 
 Epiplexity-like use remains a C.29 bounded-observer structural-information lens. It may help recover learnable structure from traces, but it is not an architecture quality, task relevance proof, causal proof, assurance, or selector authority.
 
@@ -590,5 +590,5 @@ Use `ArchitectureCharacteristicQBundleClaim` only when publication, comparison, 
 
 **"The backup-pump architecture is safe because the loop is redundant."** C.30 starts with the plant holon, operating claim scope, effective reference scheme when local terms need it, and selected structures: control loop, material-flow structure, placement structure, module-interface relation, and maintenance-work relation. The redundancy phrase may motivate an architecture move, but use the applicable patterns for safety proof, causal proof, evidence sufficiency, gate passage, and work authorization. The C.30 output is the selected structure and next architecture move, not a safety case by slogan.
 
-**"We replaced the neural-network block, so the architecture improved."** Treat `block` first as a source label and apply `C.30.STRAT` unless the changed value is already recovered. The phrase is admissible architecture recognition only after the changed structure kind, transformation-flow relation, module or interface claim kind, preserved and lost structure, changed characteristic, source relation, and pattern for any decision or evidence claim are named. A block label, benchmark result, ablation, pruning mask, or distillation result is not an architecture decision, evidence sufficiency, gate passage, assurance, or architecture adequacy by itself.
+**"We replaced the neural-network block, so the architecture improved."** Recover what `block` names through C.30.STRAT when unclear. Then identify the changed structure or relation and the characteristic for which improvement is claimed. C.30.ASV's neural-network replacement case shows the conditional recovery of flow, module-interface, preserved or lost structure, source use and decision grounds. A modification need not assert all those claims; the claimed improvement still needs its actual comparison basis.
 

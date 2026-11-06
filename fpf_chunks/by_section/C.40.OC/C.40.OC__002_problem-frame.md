@@ -6,12 +6,12 @@ section_id: "C.40.OC:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OC/C.40.OC__002_problem-frame.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.40.OC — Characterize a Subject for a Possible Change"
   - "C.40.OC:1 — Problem Frame"
-line_start: 86774
-line_end: 86792
+line_start: 86727
+line_end: 86745
 dependencies:
   - "C.11.CRC"
   - "C.16"
@@ -30,7 +30,7 @@ Use this pattern when a person, organization, community arrangement, AI configur
 
 Use it after `C.40.OI` when the subject, receiving use, and horizon were still loose, or enter directly when those are already clear. It can serve either opportunity construction or bounded advising. It does not diagnose every property of the subject, choose a direction, prove capability, authorize intervention, or establish that development occurred.
 
-**Cheap exit.** Reuse an existing characterization when it covers the same subject and configuration, receiving use, horizon, characteristic meanings and scales, evidence window, protected conditions, and current question. If one domain practice already supplies the complete adequate characterization, use that result directly and retain its qualification.
+**Cheap exit.** Reuse an existing characterization when it covers the same subject and configuration, receiving use, horizon, characteristic meanings and scales, applicable time and evidence conditions, protected conditions, and current question. If one domain practice already supplies the complete adequate characterization, use that result directly and retain its qualification.
 
 **Ordinary non-use boundary.** Do not build a characterization merely because a dashboard exists. If no characteristic could change the next action, stop. Characterizations of populations, lineages, cultures, organizations, people, AI models, and engineered systems rely on different domain owners and evidence; similar metric labels do not justify transfer.
 

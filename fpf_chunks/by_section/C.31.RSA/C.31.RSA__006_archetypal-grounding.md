@@ -6,12 +6,12 @@ section_id: "C.31.RSA:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.RSA/C.31.RSA__006_archetypal-grounding.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.31.RSA — Reusable Structure Accounting"
   - "C.31.RSA:5 — Archetypal Grounding"
-line_start: 75742
-line_end: 75834
+line_start: 75671
+line_end: 75767
 dependencies:
   - "A.10"
   - "A.19"
@@ -40,11 +40,11 @@ keywords:
 
 ### C.31.RSA:5 - Archetypal Grounding
 
-**Tell.** Account for structure at declared loci under a declared accounting basis.
+Account for structure at declared loci under a declared accounting basis.
 
-**Show.** In one architecture, reusable structure may be located in a template and interface grammar. In another, it may be located in a test package, regulatory argument, work method, or flow pattern. In a third, the reusable part may be small, but the bounded exception is exactly what preserves safety or local fit.
+In one architecture, reusable structure may be located in a template and interface grammar. In another, it may be located in a test package, regulatory argument, work method, or flow pattern. In a third, the reusable part may be small, but the bounded exception is exactly what preserves safety or local fit.
 
-**Show.** A share can be useful as a local report. It becomes misleading when it hides which structure was counted, which structure was not counted, and when the reader must return to source records.
+A share can be useful as a local report. It becomes misleading when it hides which structure was counted, which structure was not counted, and when the reader must return to source records.
 
 Holon and episteme: the structures being accounted over are selected architecture-relevant structures in context. The RSA description describes those structures; it records the local accounting slots, report-only share values, and any source-return condition.
 
@@ -56,6 +56,10 @@ Situation:
 A regulated product line has reusable component templates and a reusable test package.
 Each customer delivery still repeats approval work and bespoke integration exceptions.
 ```
+
+Start with the delivery instructions, completed approval material and integration exceptions. The ordinary variants use the same component interfaces and test procedure within the package's stated operating envelope. One customer's approval adds an on-site witness required by its contract; another delivery repeats an adapter workaround because its input format falls outside the shared interface grammar. Comparing those cases with their requirements separates three contributions: a reusable test procedure within its conditions, a necessary customer-specific witness, and an unresolved design choice about accommodating the input format. Where the record does not explain a difference, recover that condition from the provider or governing requirement before deciding whether to remove it.
+
+The next account can therefore retain the common test and approval preparation, preserve the contractual witness, and propose an interface or adapter change for the recurring format exception. Replaying that proposed change through input, integration and test shows whether it preserves the required result and merely relocates work. Evidence validity for a new deployment still depends on that deployment's conditions; a reused procedure or file alone does not settle it. If the existing bounded account answers the receiving question, no refactoring or numeric share is needed.
 
 `ReusableStructureTriage`:
 
@@ -91,7 +95,7 @@ residueAcceptedAsBoundedException:
 sourceReturnCondition:
   return to deployment evidence and regulatory exception record before assurance or gate use
 relatedClaimPatternsIfClaimed:
-  `A.10` for the evidence-validity claim's source-to-use basis; `G.6` when a citable provenance path is needed; `B.3` for assurance reliance; `A.6.M` for interface grammar when a module-interface claim is made; `C.16` for the measurement account; `A.19.CPM` for comparison under a declared comparator
+  direct evidence-validity rule and its required source-to-use grounds; `A.10` when a replayable evidence account is needed; `G.6` for a needed citable provenance path; `B.3` for assurance reliance; `A.6.M` for an unresolved module-interface claim; `C.16` for measurement; `A.19.CPM` for a selected profile comparison
 stopCondition:
   report-only accounting; establish comparison, evidence-validity or assurance grounds when that particular further use is made
 ```
@@ -127,7 +131,7 @@ RSA can transfer from product-line architecture to neural-network architecture o
 - reusable structure may be located in recovered repeated-block topology, dataflow pattern, cache-placement rule, or evaluation harness;
 - bespoke residue may be located in model-specific tuning, data distribution dependence, memory-layout exception, or ablation gap;
 - benchmark gain is not reusable-structure accounting by itself;
-- for evidence claims, use `A.10` for source recovery and bounded reliance, and `G.6` when a citable provenance path is needed; use `C.28` for causal claims and `C.29` for mathematical-lens or compression claims.
+- establish evidence and causal claims under their direct rules; use `A.10` for a needed replayable source-to-use account, `G.6` for a needed citable provenance path, and `C.28` for causal-use recovery. Use `C.29` for an unresolved mathematical representation choice, transfer or reliance question.
 
 Admissible move: record which recovered structural locus was reused, what changed, what source distinctions must remain reachable, and which pattern defines or tests each benchmark, evidence, causal-use, or mathematical-lens claim. Non-admissible move: treat "block replacement improved the architecture" as RSA proof.
 

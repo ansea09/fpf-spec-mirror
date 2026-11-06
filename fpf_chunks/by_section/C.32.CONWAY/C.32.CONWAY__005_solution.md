@@ -6,12 +6,12 @@ section_id: "C.32.CONWAY:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.CONWAY/C.32.CONWAY__005_solution.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.32.CONWAY — Architecture-Influence and Transformed-Architecture Correspondence"
   - "C.32.CONWAY:4 — Solution"
-line_start: 78289
-line_end: 78374
+line_start: 78224
+line_end: 78320
 dependencies:
   - "A.10"
   - "A.12"
@@ -35,6 +35,7 @@ dependencies:
   - "C.32.ACS"
   - "C.32.FAIL"
   - "C.32.MLAO"
+  - "C.32.MWA.PP"
   - "C.32.PAD"
   - "E.18"
   - "E.18.NET"
@@ -54,10 +55,21 @@ Begin with the source-side pressure and candidate changes, using the local frame
 2. **Add acting and performance facts only when claimed.** Every precise actual performer is one exact `U.System` recovered through A.13. Claimed performance requires one exact dated `U.Work` independently admitted through A.15.1 and the exact actor-side or Work-to-change relation needed by the claim. When this frame or its receiving use expressly consumes precise assignment-bound attribution, separately represent the same obtaining A.13 assignment and its declared A.2.1 species, and test F.6 `performedUnderAssignment(W, RA)`; then compare `S` with `RA.HolderSystemSlot`. F.6 identifies neither assignment nor performer, and missing or failed F.6 attribution alone leaves the Work intact while its independent A.13/A.15.1 grounds still hold. Use A.15.1 `CC-A15.1-17` when several systems jointly perform the top-level Work or when the use instead needs a parent Work with separately performed child occurrences.
 3. **Name every influence source by kind.** Architecture, selected structure, Work, communication, constraint, and candidate-synthesis results retain their kinds and direct influence relations. Influence alone supplies no system identity, system-role kind or assignment, Work, performer status, changed-referent identity, or transformation participation.
 4. **Select one architecture pair.** For an exact row, name one obtaining influence-source C.30 `ArchitectureRelation` and one obtaining transformed-side C.30 `ArchitectureRelation`, with each exact holon and selected-`U.Structure` participant. Their architecture-bearing holons may differ from every acting system. Record equality only when independent actor and architecture-bearer facts establish it. If either side is only candidate, required, desired, or expected, keep its exact `ArchitectureClaim` and the pair in the synthesis frame; do not assert an exact pair row.
-5. **Map only structures and characteristics that change the candidate.** Recover the available source-side and transformed-side structures, intended gain and known loss; retain missing structure as a question. Include a window or source return when the use depends on it. A comparison relies on its relevant bound C.32.ACS criteria and any declared C.25 slots; earlier candidate construction can retain provisional heads.
+5. **Map only structures and characteristics that change the candidate.** Use the available source-side and transformed-side structures, intended gain and known loss. For an unexplained dependency, use :4.1.1 to recover its operative condition or a discriminating inquiry. Include a window or source return when the use depends on it. A comparison relies on its relevant bound C.32.ACS criteria and any declared C.25 slots; earlier candidate construction can retain provisional heads.
 6. **Consider four candidate forms.** Change the influence-source side, change the transformed architecture, change both, or keep a bounded mismatch with an explicit cost and reopen trigger. Develop the applicable alternatives and explain a consequential exclusion; an adequate existing candidate need not be rebuilt.
-7. **Use C.29 for mathematical structural-similarity claims.** A correspondence row does not establish homomorphism, equivalence, or architecture adequacy.
+7. **Establish any mathematical correspondence under its actual definitions and assumptions.** Use C.29 when choosing or transferring the representation, or relying on its result, leaves an unresolved question. A correspondence row alone establishes no homomorphism, equivalence or architecture adequacy.
 8. **Stop at the next governed claim.** Send comparison, selection, publication, choice, decision, evidence, assurance, gate, Work, or organization-governance claims to their direct patterns.
+
+##### C.32.CONWAY:4.1.1 - From a needed change to a correspondence candidate
+
+Use an already warranted explanation and candidate directly. Otherwise start with one needed product change or receiving result and the available instructions, change records, test material and participants. For work and provision dependencies, use C.32.MWA.PP:4.1 and :4.4–:4.7 to trace the result backward to its supplying operations and follow their outputs forward to the receiving use.
+
+- **Locate the dependency that limits the intended change.** Follow a representative actual change or explicit proposed change through production, integration, testing, evidence and approval as relevant. At a shared or unavailable contribution, inspect the rule and the input it needs. Ask its provider what would fail if this change proceeded separately. A wait may come from a shared resource, a required joint check, incompatible information or a decision right; those conditions lead to different candidates.
+- **Establish which condition must be preserved.** Compare that explanation with the requirement, interface contract, test procedure or actual failed change. Distinguish a necessary domain or contractual dependency from the present arrangement used to satisfy it. When the reason is unknown, seek the particular rule, observation or provider explanation that can distinguish them; a bounded trial is useful only if its possible result justifies its cost and permissions. Keep an unresolved fact explicit instead of treating the dependency as either necessary or dispensable.
+- **Construct a change at that relation.** A source-side candidate can provide independent access, qualified verification, information or decision authority where shared provision is the limitation. A transformed-side candidate can change a module boundary or interface so the required joint condition no longer crosses it. A joint candidate changes the interface and the way its production or verification is supplied. A bounded mismatch retains the dependency and states its actual cost and allowable limit; it is usable only if the receiving requirement permits that compromise. Develop the forms applicable to the recovered condition, including retaining an adequate arrangement.
+- **Follow each changed connection through to the result.** Check that its input is available, its provider can supply it under the relevant capacity, timing and authority conditions, and its output still establishes what the receiver needs. Preserve required joint checks or supply justified replacements. Explain the expected gain and any identified new burden or loss. A changed diagram alone does not establish these performance or causal claims.
+
+The first result can be a concrete candidate, a supported reason to retain the arrangement, or a precise open question with its obtainable source. For example, an unknown approval dependency can return “recover whether the approval rule requires a joint test of these two modules” to the procedure and its provider. An exact obtaining influence occurrence additionally retains the predicate and case grounds in :4.2; candidate construction does not require asserting it.
 
 #### C.32.CONWAY:4.2 - Exact reusable architecture-pair row
 
@@ -128,5 +140,5 @@ Choose only pressures that change the candidate or protect against a concrete lo
 
 **Stop condition.** A first-pass account may finish with the changed referent, typed source, relevant known or unknown structures, provisional pressure or grounded characteristics, applicable candidate forms and next useful action. Every asserted acting, performance or influence fact still needs its direct basis. Before relying on a candidate comparison, explain which sides change or remain fixed, the expected gain and its grounds, known loss, relevant window and conditions of use. Add a source return where omitted detail can change that use. An exact pair row additionally requires the obtaining architecture sides and satisfied influence predicate in :4.2. Keep missing governor, unresolved grounding or information sufficiency, and a false predicate distinct in provisional correspondence material.
 
-**Lowering condition.** Withhold an exact pair claim for a current use when its influence occurrence, either architecture occurrence or participant pair, changed referent or applicable window is missing or no longer supports that use. Keep supported historical claims within their conditions and retain useful provisional pressure. Reconsider a candidate when a proposed change, mismatch or known loss no longer fits the intended window; revise its conditions or retire it according to that result. Use A.3.4 or E.18 for a missing actual change or flow relation, A.12/A.2.1/A.15.1/F.6 for the particular acting, assignment, Work or attribution question, and C.29 for a mathematical structural claim.
+**Lowering condition.** Withhold an exact pair claim for a current use when its influence occurrence, either architecture occurrence or participant pair, changed referent or applicable window is missing or no longer supports that use. Keep supported historical claims within their conditions and retain useful provisional pressure. Reconsider a candidate when a proposed change, mismatch or known loss no longer fits the intended window; revise its conditions or retire it according to that result. Use A.3.4 or E.18 for a missing actual change or flow relation, A.12/A.2.1/A.15.1/F.6 for the particular acting, assignment, Work or attribution question, and C.29 for an unresolved mathematical representation choice, transfer or reliance question.
 

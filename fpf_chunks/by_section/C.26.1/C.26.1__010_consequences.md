@@ -6,12 +6,12 @@ section_id: "C.26.1:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.1/C.26.1__010_consequences.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.26.1 — Probe-Coupled Boundary Interaction"
   - "C.26.1:9 — Consequences"
-line_start: 66298
-line_end: 66303
+line_start: 66244
+line_end: 66249
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -42,5 +42,5 @@ keywords:
 
 This pattern corrects the interpretation used by a boundary decision. It turns "the workshop showed the split" into "the workshop both showed and changed the split-relevant state." It turns "the dashboard says ready" into "the dashboard is probe-coupled evidence with a limited decision use."
 
-The cost is that some familiar artifacts lose false authority. Dashboards, workshops, surveys, API reads, and messages remain useful, but their outputs no longer support a neutral-window reading when the interaction materially changes the represented state.
+Dashboards, workshops, surveys, API reads and messages remain useful. A supported probe effect changes only the readings it actually affects; an unresolved effect limits the dependent conclusion.
 

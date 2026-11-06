@@ -6,12 +6,12 @@ section_id: "C.26.1:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.1/C.26.1__011_rationale.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.26.1 — Probe-Coupled Boundary Interaction"
   - "C.26.1:10 — Rationale"
-line_start: 66304
-line_end: 66309
+line_start: 66250
+line_end: 66255
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -42,5 +42,5 @@ keywords:
 
 An output depends on the operation that produced it. When that operation also changes the represented state, the user must recover which state the output supports before using it in a decision. A supported ordinary account can establish that relation without QL.
 
-The pattern is not a generic interaction theory. It is a boundary/probe repair for cases where passive read or unjustified lossless-transfer reading is materially false.
+Use this account while the interaction leaves a material uncertainty or error in the interpretation of its output. An already adequate subject account is sufficient.
 

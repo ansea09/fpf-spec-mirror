@@ -6,12 +6,12 @@ section_id: "C.32.FAIL:6"
 section_title: "Repair-Entry Failure Modes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.FAIL/C.32.FAIL__007_repair-entry-failure-modes.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.32.FAIL — Architecture Failure Recognition and Repair"
   - "C.32.FAIL:6 — Repair-Entry Failure Modes"
-line_start: 79770
-line_end: 79785
+line_start: 79722
+line_end: 79737
 dependencies:
   - "A.10"
   - "A.13"
@@ -75,6 +75,6 @@ keywords:
 | **Function and characteristic collapse** | Keep user functions and architecture characteristics distinct where they change the repair or comparison; separate record fields are optional. |
 | **Function without bearer** | A functional architecture can remain a provisional candidate while feasibility is unresolved. Claim feasible use only when the required bearers and constraints support it. |
 | **Ideality used as deletion admissibility** | Ideal final result wording is a generation pressure; deleting a bearer is admissible only after function bearing, lost structure, new burden, and architecture characteristics are named. |
-| **Universal bearer admitted by name** | A universal module or general substrate must be treated as a candidate bearer under BLP scale-window discipline and declared architecture-characteristic criteria rows. |
+| **Universal bearer admitted by name** | Treat a universal module or general substrate as a candidate bearer. Establish the criteria and constraints required for its intended use; apply C.19.1 when scale advantage is claimed or the applicable policy selects it. |
 | **Conway wording without correspondence repair** | For a correspondence repair, use `C.32.CONWAY` to recover the changed referent, relevant architecture sides, influence claim and its truthful disposition, affected characteristics and useful candidate alternatives. A preliminary account can retain unresolved questions; an exact pair requires its own admitted relations. Architecture influence supplies no actor, assignment, Work, actual transformation, network membership, or cross-flow relation. |
 

@@ -6,12 +6,12 @@ section_id: "C.41.OF:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.OF/C.41.OF__012_sota-echoing.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.41.OF — Fit a Checklist to Its Occasion of Use"
   - "C.41.OF:11 — SoTA-Echoing"
-line_start: 89561
-line_end: 89570
+line_start: 89516
+line_end: 89525
 dependencies:
   - "A.15.8"
   - "C.41"
@@ -27,5 +27,5 @@ Sections 4.2–4.3 and the packer case make that choice concrete. Another email 
 
 The study by [Facey and colleagues](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0298224) supplies counterevidence about documentation versus observed use. [CheckPOINT](https://pubmed.ncbi.nlm.nih.gov/37734956/) supplies an alternative for observing team behavior; [Ridgeway and colleagues](https://doi.org/10.1016/j.pecinn.2026.100495) distinguish conversation-aid implementation from the practice it supports. Their instruments help select an observation that answers the question; they do not warrant observing every use or transferring a generic engagement score. [Urbach and colleagues](https://www.nejm.org/doi/abs/10.1056/NEJMsa1308261) found no significant mortality or complication reduction in their population-level before/after study, so introduction and completed forms cannot carry the outcome claim alone. Anthropic's accounts are bounded engineering demonstrations, not comparative human/AI effectiveness evidence.
 
-This choice accepts the cost of integration or assistance only for an obstruction a cheaper cue leaves in place. The sources do not rank all arrangements at equal effort. Section 4.3 therefore compares representative and later ordinary use, including observation cost and burdens moved elsewhere. Retain the existing arrangement when it already supports the needed action. Reopen the choice when access, capability, tools or incentives change, or when ordinary use fails despite successful assisted use.
+This choice accepts the cost of integration or assistance only for an obstruction a cheaper cue leaves in place. The sources do not rank all arrangements at equal effort. Section 4.3 therefore uses matching observations or needed comparisons of representative and later ordinary use, including observation cost and burdens moved elsewhere. Retain the existing arrangement when it already supports the needed action. Reopen the choice when access, capability, tools or incentives change, or when ordinary use fails despite successful assisted use.
 

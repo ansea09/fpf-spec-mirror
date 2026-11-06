@@ -6,12 +6,12 @@ section_id: "C.39.MC:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.MC/C.39.MC__005_solution.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.39.MC — Continue Method Development from Changed Conditions"
   - "C.39.MC:4 — Solution"
-line_start: 84645
-line_end: 84710
+line_start: 84598
+line_end: 84663
 dependencies:
   - "A.15.7"
   - "A.22.CGUS"
@@ -49,11 +49,11 @@ Retrieve the selected pattern through E.11.PUA/PUR and read its Solution and bou
 1. **Carry the result boundary forward.** In ordinary language name the Method, candidate account, proposed relation, description, or other subject under decision. Retain which claims are established, proposed, contradicted, or unresolved and which source or result supports them.
 2. **Expose only relevant continuations.** For each live alternative state the result it could obtain, the condition it needs, the facts known now, and whether it is available, blocked, or unknown. Name the first missing fact or rule. Do not add alternatives merely to make the account branch.
 3. **Keep material relations readable.** State a prerequisite result, local order, alternative, conflict, support condition, check, or return when it changes this use. Two nearby patterns can remain an unordered neighborhood. Use each relation's direct governor; a connecting arrow, contents order, or shared profile supplies no relation by itself.
-4. **Return the live choice to A.15.7.** During ongoing Work, the deciding System uses the available facts and the domain Method's limits to choose the next action. That result names the chooser, intended performer, and stop or feedback; establish capability, access, permission, or authority only when the action needs it. If Work is blocked by a missing performer, support, or continuation-state relation, use A.15.8's actual-Work configuration branch before returning to choice. An assistant's recommendation is input to that choice. Before Work, use the actual architecture, planning, readiness, or fixed-option decision instead.
+4. **Return the live choice to A.15.7.** During ongoing Work, the deciding System uses the available facts and the domain Method's limits to choose the next action. That result names the chooser and, for a selected action, its intended performer, with any stop or feedback condition needed for the continuation; establish capability, access, permission, or authority only when the action needs it. If Work is blocked by a missing performer, support, or continuation-state relation, use A.15.8's actual-Work configuration branch before returning to choice. An assistant's recommendation is input to that choice. Before Work, use the actual architecture, planning, readiness, or fixed-option decision instead.
 5. **Observe a result before updating its consequences.** An expectation remains an expectation until the result is obtained or independently supported. Use the direct result and Work/evidence patterns when those claims matter. Choosing an action, changing a plan, performing Work, and learning a fact remain separate.
 6. **Check the decision-relevant delta.** After a substantive result, or before relying on possibly stale information, use §4.3. Reopen the smallest affected question, retain results whose defining conditions still match, and stop when the receiving use has its result or honest blocker.
 
-The method does not require a log of every thought. “No decision-relevant change; continue using this result within its stated window” is sufficient when a continuity statement is needed. If no later use needs that statement, no additional record is required.
+“No decision-relevant change; continue using this result within its stated window” is sufficient when a continuity statement is needed. If no later use needs that statement, no additional record is required.
 
 #### C.39.MC:4.3 - Localize a Situation Change
 

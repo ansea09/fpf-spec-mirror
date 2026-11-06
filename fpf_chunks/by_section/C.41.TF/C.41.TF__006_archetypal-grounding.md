@@ -6,12 +6,12 @@ section_id: "C.41.TF:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.TF/C.41.TF__006_archetypal-grounding.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.41.TF — Construct a Checklist Template That Preserves Its Questions"
   - "C.41.TF:5 — Archetypal Grounding"
-line_start: 89365
-line_end: 89391
+line_start: 89318
+line_end: 89344
 dependencies:
   - "C.37"
   - "C.41"
@@ -42,7 +42,7 @@ Suppose the wide table on a small screen separates the answer from its S/v2 refe
 | Wording matches v2? | Yes: all cards compared with v2, observed 10:05 |
 | Set assembled for delivery? | Yes: assembled, observed 10:10 |
 
-If entries are recorded at 10:12, that time describes the recording. It neither changes the observation times nor shows when each condition first became true. A split view for counting and a view for wording comparison retain the S/v2 references and the relevant observation grounds. A detached green square cannot do that.
+If entries are recorded at 10:12, that time describes the recording. It neither changes the observation times nor shows when each condition first became true. A split view for counting and a view for wording comparison retain the S/v2 references and the relevant observation grounds.
 
 For an AI-assisted importer, a template can ask for an observed catalogue before and after a malformed input, with a reference to the input and the comparison performed. A field headed “Tests pass” loses the specific question if it is detached from those cases. When an observation tool fails, the form supports “unknown: post-import catalogue was not obtained”; it does not coerce the agent into a positive completion entry.
 

@@ -6,12 +6,12 @@ section_id: "C.32.ADA:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ADA/C.32.ADA__002_problem-frame.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.32.ADA — Architecture Decision Adequacy Scales"
   - "C.32.ADA:1 — Problem frame"
-line_start: 80434
-line_end: 80508
+line_start: 80386
+line_end: 80461
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -70,7 +70,7 @@ Typical entry phrases:
 "Do not average the decision; tell us what must be repaired."
 ```
 
-**First-minute use slice.** `ArchitectureReviewService-4` first has the A.13 core for decision-adequacy evaluation, and A.15.1 independently admits `DecisionAdequacyEvaluationWork-12` from 10:00 to 10:20 on 2026-08-12. The Work enacts `DecisionAdequacyEvaluationMethod-2` and occurs within the `U.System` named `ProjectArchitectureReviewService-4`. This slice expressly represents precise assignment-bound attribution: `ArchitectureReviewerAssignment-6` is an obtaining occurrence of directly declared species `ArchitectureReviewerAssignment`, held by the already recovered performer and covering the Work, and the separate F.6 relation is recorded. A Work-only ADA record can omit those explicit assignment and attribution refs while retaining the required A.13 basis; failed F.6 attribution alone would leave independently admitted evaluation Work intact while its independent A.13/A.15.1 grounds still hold. One separate result episteme states the declared use and coordinate outcomes. It does not approve the decision; it directs the exact bounded repairs needed before the decision can guide developer Work.
+**First-minute use slice.** An OrderFlow decision is to guide developer work, but its ADR says only “use events”. Read the decision and the available implementation instruction against the intended result: can developers recover the Method, inputs, readiness conditions and expected structural effect? If the instruction supplies part of that way but omits a needed readiness condition, assign the supported docking value and name the missing condition and its source. If the cited instruction is unavailable, leave that value unestablished and request the needed material; unavailable evidence is not established absence. Continue through the complete coordinate set, preserving supported results and the declared readiness floor. The evaluation yields bounded repairs or a use conclusion; approval and implementation commitment retain their own grounds.
 
 The primary governed object is `ArchitectureDecisionAdequacyEvaluation@Project`: a C.32.ADA-local evaluation record over one `ArchitectureDecisionRelation@Project`, optional `ArchitectureDecisionRecordProjection@Project`, and declared use. It is not the evaluated decision, evaluation Work, or result episteme.
 
@@ -80,9 +80,9 @@ What goes wrong if C.32.ADA is missed: a decision can appear complete because it
 
 What C.32.ADA buys in practice: the project can evaluate architecture decisions by complete coordinate set, keep kinds distinct, and repair the weakest live coordinates without turning adequacy into a single score.
 
-Ordinary working move: declare the evaluation use, evaluate every coordinate with an ordinal value and rationale, then state the repair condition for each weak coordinate and cite the smallest subject-pattern locus containing the required definition or constraint.
+Ordinary working move: declare the evaluation use, assess every coordinate under :4.2, and give each supported value its rationale. Retain a grounded `notTriggered` disposition or an unestablished dependent value when appropriate. State the needed repair or missing basis at its smallest useful source locus.
 
-Adoption test: after using C.32.ADA, another practitioner can see the declared use, complete coordinate values, rationales, repair targets, and stop condition for the architecture decision.
+Adoption test: after using C.32.ADA, another practitioner can recover the declared use, complete coordinate results with their rationales or missing bases, repair targets, and the supported use conclusion or reason it remains open.
 
 Not this pattern when the current object is FPF pattern quality, measurement validity, evidence support, assurance, gate passage, candidate synthesis, comparison, selection, local choice, or ADR publication projection itself. Use the pattern for the next question named in `Relations`.
 
@@ -96,9 +96,9 @@ ArchitectureDecisionAdequacyEvaluation@Project:
   claimScopeRef: U.EntityRef referencing one U.ClaimScope
   selectedContextSliceRefs:
   effectiveReferenceScheme:
-  referencePlane?:
-  evaluationWindow:
-  decisionQuestionInputProjectionRef:
+  referencePlane?: when interpretation depends on it
+  evaluationWindow?: when the judgement or its use depends on time
+  decisionQuestionInputProjectionRef?: when a selected projection is used
   evaluatorSystemRef?: U.EntityRef constrained to U.System
   evaluatorSystemRoleKindRef?: U.KindRef
   evaluatorSystemRoleClassificationJudgmentRef?: U.RelationRef
@@ -113,8 +113,9 @@ ArchitectureDecisionAdequacyEvaluation@Project:
   architectureDecisionRecordProjectionRef?:
   coordinateValues:
     - coordinateRef:
-      triggerStatus: evaluated | notTriggered
+      triggerStatus: evaluated | notTriggered | unestablished
       notTriggeredReason?: required only for notTriggered
+      missingBasis?: required only for unestablished; identify the needed source or judgement
       value?: 0|1|2|3|4|5; required only for evaluated
       valueLabel?: absent|namedOnly|partiallyExpressedForDeclaredUse|sufficientlyExpressedForDeclaredUse|wellExpressedForDeclaredUse|exceptionallyExpressedForDeclaredUse; required only for evaluated
       adjacentValueRationale?: required only for evaluated
@@ -127,5 +128,5 @@ ArchitectureDecisionAdequacyEvaluation@Project:
   reevaluationTrigger:
 ```
 
-Here `@Project` is a compatibility and retrieval cue only. A project-local ADA record names both the composite `U.Work` in `projectWorkOccurrenceRef` and the obtaining record-use relation in `architectureDecisionEvaluationProjectUseRelationRef`; the evaluated decision's own project relation, the suffix, or either field alone is insufficient. `evaluatorSystemRoleKindRef` and `evaluatorSystemRoleClassificationJudgmentRef` remain optional and separate. When actual evaluation is claimed, the evaluator first has its A.13 core and `evaluationWorkRef` names Work independently admitted under A.15.1. Assignment species, occurrence, and `evaluationPerformedUnderAssignmentRef` are optional and appear only when the record or receiving use expressly represents precise assignment-bound attribution; any present F.6 ref uses the same obtaining A.13 assignment, and its absence or failure leaves the Work intact. Any operation application and result episteme remain separate. Kind, classification, assignment, Work, attribution, application, responsibility, and result do not substitute for one another.
+Here `@Project` is a compatibility and retrieval cue only. A project-local ADA record names both the composite `U.Work` in `projectWorkOccurrenceRef` and the obtaining record-use relation in `architectureDecisionEvaluationProjectUseRelationRef`; the evaluated decision's own project relation, the suffix, or either field alone is insufficient. `evaluatorSystemRoleKindRef` and `evaluatorSystemRoleClassificationJudgmentRef` remain optional and separate. When a particular dated evaluation Work occurrence is claimed, the evaluator first has its A.13 core and `evaluationWorkRef` names Work independently admitted under A.15.1. An ordinary evaluation retains the operation, material conditions and support needed for its result. Assignment species, occurrence, and `evaluationPerformedUnderAssignmentRef` are optional and appear only when the record or receiving use expressly represents precise assignment-bound attribution; any present F.6 ref uses the same obtaining A.13 assignment, and its absence or failure alone leaves independently admitted Work intact. If the finding questions a premise consumed by that admission, recheck it and dependent conclusions. Any operation application and result episteme remain separate. Kind, classification, assignment, Work, attribution, application, responsibility, and result do not substitute for one another.
 

@@ -6,12 +6,12 @@ section_id: "C.36.P:5"
 section_title: "Worked Micro-Examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.P/C.36.P__007_worked-micro-examples.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.36.P — Clarify Cultural-Evolution Wording for a Claim or Action"
   - "C.36.P:5 — Worked Micro-Examples"
-line_start: 90890
-line_end: 90924
+line_start: 90845
+line_end: 90879
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -81,7 +81,7 @@ CulturalEvolutionWordingRecoveryLine:
 
 #### C.36.P:5.2 - "This Tradition Is An Attractor"
 
-If `attractor` is a loose metaphor for a stable recognizable style, state that local meaning and use C.36 for the cultural-evolution case. Use F.9 only when an actual relation between distinct source-local cells is current. If the project claims basin structure, stable dynamics, or state-transition law, use `A.3.3`, `C.27`, and `C.29` before C.36 relies on the claim.
+If `attractor` is a loose metaphor for a stable recognizable style, state that local meaning and use C.36 for the cultural-evolution case. Use F.9 only when an actual relation between distinct source-local cells is current. For a basin, stable-dynamics, or state-transition-law claim, recover the model, correspondence and conditions that support it. Use an adequate domain result directly, A.3.3 for its state space and transition law, C.27 for a temporal-adequacy question, and C.29 when a separate representation, transfer, or reliance question remains.
 
 #### C.36.P:5.3 - "Technique As Developmental Machinery"
 

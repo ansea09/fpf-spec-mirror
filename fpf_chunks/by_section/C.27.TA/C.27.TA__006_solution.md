@@ -6,12 +6,12 @@ section_id: "C.27.TA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27.TA/C.27.TA__006_solution.md"
-commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
+commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
 heading_path:
   - "C.27.TA — Temporal Aspect: Time Windows, Rhythm, Cadence, and Currentness"
   - "C.27.TA:4 — Solution"
-line_start: 67573
-line_end: 67679
+line_start: 67509
+line_end: 67615
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -47,7 +47,7 @@ keywords:
 
 #### C.27.TA:4.1 - Definition
 
-A temporal-aspect claim says that one exact object or exact claim has a time-bearing or order-bearing property under a stated temporal reference and interval. The statement is claim content, not automatically a temporal claim-adequacy result, dynamics law, work trace, method, mechanism, gate, evidence relation, or permission.
+A temporal-aspect claim says that an object or claim has a time-bearing or order-bearing property. Its temporal reference and extent must make that property interpretable: these may be a dated interval, a duration from an event, or a relation among recurring event types. For example, "each approval follows its corresponding review" specifies relative order without selecting a calendar window. A separate adequacy judgement under `C.27` is needed only when its answer could change the receiving use.
 
 Typical temporal predicates and qualifiers include:
 
@@ -67,18 +67,18 @@ Typical temporal predicates and qualifiers include:
 - `inertiaOrResidue`;
 - `refreshOrReopenCondition`.
 
-These names are predicates or qualifiers inside claim content, not new `U.*` kinds or locally identified aspect objects.
+
 
 #### C.27.TA:4.2 - Temporal Aspect Statement
 
-Use this fuller statement only when the four-part first result is not enough for the receiving use:
+Use this fuller statement when the receiving use needs the corresponding references or distinctions:
 
 ```text
 TemporalAspectStatementClaimContent:
   entityOfConcernRef:
   aspectPredicate:
   temporalReference:
-  windowOrInterval:
+  windowOrInterval?:
   entityRulePatternCitation?:
   effectiveReferenceSchemeRef?:
   claimOrWorkScopeRef?:
@@ -94,9 +94,9 @@ TemporalAspectStatementClaimContent:
   blockedLocalOverread?:
 ```
 
-When this statement is materialized, the record is ClaimGraph content in one `C.2.1` episteme. `entityOfConcernRef` resolves the exact bearer or exact claim being qualified. `aspectPredicate` says what is asserted of it; the label does not identify a temporal-aspect object. The first four fields are the normal minimum.
+When the statement is materialized, its claim content belongs to a `C.2.1` episteme. `entityOfConcernRef` resolves the bearer or claim being qualified; `aspectPredicate` states the property; `temporalReference` supplies the clock, event order or other timing basis. Include `windowOrInterval` when the claim is restricted to that extent or its interpretation requires one. Preserve any interval already asserted by the claim.
 
-Every remaining field is conditional. Add it only when changing that value could change the claim or the receiving action. PatternID citations tell the reader which rule to apply and assert no relation. If the claim relies on another direct relation, cite its exact declaration and cite an obtaining occurrence only after its predicate passes. There is no generic context field; each optional scheme, scope, Structure, source or use boundary, or local-use condition keeps the identity and test supplied by its direct pattern.
+Add the remaining fields only when their values change the claim or receiving action. PatternID citations identify applicable rules. A claim about another direct relation needs that relation's declaration; an assertion of an obtaining occurrence also needs its actual participants and conditions. Scheme, scope, Structure, source and use references retain the identity and conditions defined by their respective patterns.
 
 #### C.27.TA:4.3 - Direct Use and Rule Citation
 
@@ -113,20 +113,20 @@ Every remaining field is conditional. Add it only when changing that value could
 | benchmark freshness, baseline window, comparator edition, or parity window | `G.9` |
 | source currentness, evidence decay, provenance, or assurance refresh | evidence, source, provenance, assurance, and refresh patterns |
 
-This table supplies rule citations, not relation occurrences. When another relation is part of the temporal claim, use the fields above to cite its declaration; cite an obtaining occurrence only after its predicate passes.
+
 
 #### C.27.TA:4.4 - Rhythm, Cadence, And Synchronization
 
-A minimal rhythm or cadence claim still needs only the exact EntityOfConcern, temporal predicate, temporal reference, and window. Coupling, phase, synchronization, entrainment, dependency, or coordination wording appears only when the claim depends on a cross-bearer temporal relation.
+A rhythm or cadence claim needs its bearer, recurrence or ordering property and timing reference. An empirical assertion such as a weekly cadence observed during R14 also needs that observation window. A planned rule such as "run a review every Friday while this plan applies" can state its recurrence and applicability directly. Add phase, synchronization, entrainment or other cross-bearer relations when the claim depends on them.
 
-Escalation form:
+Optional reference-bearing form:
 
 ```text
 RhythmAspectClaimContent:
   entityOfConcernRef:
   aspectPredicate: rhythm | cadence | synchronization
   timingReference:
-  rhythmWindowRef:
+  rhythmWindowRef?:
   intervalStructure?:
   rulePatternCitation?:
   directCouplingRelationDeclarationRef?:
@@ -140,13 +140,13 @@ A plain "release cadence" or "workshop rhythm" may remain ordinary prose. It nee
 
 #### C.27.TA:4.5 - Currentness, Freshness, And Validity Window
 
-A currentness or freshness claim uses the same four-part minimum: exact EntityOfConcern, *current* or *fresh* predicate, reference time or edition, and validity interval or window. A source, benchmark, model, dashboard, or claim may be fresh enough for one use and stale for another.
+A currentness or freshness claim identifies the bearer, the property asserted, and the reference time or edition for the intended use. State a validity interval when the claim promises or establishes validity over that interval. "The registry entry was current when checked on 3 June" establishes no later validity period. A source, benchmark, model, dashboard, or claim may be fresh enough for one use and stale for another.
 
 Add a source-use boundary, currentness condition, refresh condition, or reopen condition only when the receiving use changes when that value changes. Use the direct source, evidence, benchmark, assurance, or refresh pattern for the separate provenance, parity, assurance, or refresh-work claim.
 
 #### C.27.TA:4.6 - Recovery, Stabilization, Inertia, And Effort Over Time
 
-A recovery, stabilization, inertia, or effort-over-time claim first names the exact EntityOfConcern, temporal predicate, temporal reference, and interval. Use C.27 when an unresolved question about the temporal claim's adequacy changes the receiving action. A sufficient positive temporal-aspect claim can still finish here.
+For recovery, stabilization, inertia or effort over time, identify the bearer and property, then recover the relevant starting event, timing reference and duration or observation interval. State the extent actually supported. Use C.27 when an unresolved question about the claim's adequacy changes the receiving action; a sufficient temporal-aspect claim can finish here.
 
-Add the disturbance or starting condition, measured reading, effort, resistance, residue, inertia relation, rule-pattern citation, or direct-relation reference only when the receiving use relies on that distinction. These values do not turn the temporal predicate into a transformation, Work, evidence, value, or assurance relation.
+Add the disturbance or starting condition, measured reading, effort, resistance, residue, inertia relation, rule citation, or direct-relation reference when the receiving use needs that distinction.
 
