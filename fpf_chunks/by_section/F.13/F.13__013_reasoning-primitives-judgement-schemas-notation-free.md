@@ -6,12 +6,12 @@ section_id: "F.13:12"
 section_title: "Reasoning primitives (judgement schemas, notation‑free)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.13/F.13__013_reasoning-primitives-judgement-schemas-notation-free.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "F.13 — Lexical Continuity & Deprecation"
   - "F.13:12 — Reasoning primitives (judgement schemas, notation‑free)"
-line_start: 123081
-line_end: 123129
+line_start: 122978
+line_end: 123026
 dependencies:
   - "F.1"
   - "F.17"
@@ -75,7 +75,7 @@ Resolve a legacy label to its earlier meaning and use first, then to any justifi
 
 #### F.13:12.9 - Alias budget
 
-Keep at most one useful legacy alias per register for one naming use.
+Keep the historical aliases needed by the naming use, with their meanings and editions recoverable and the preferred current designation clear.
 
 #### F.13:12.10 - Row‑level continuity
 

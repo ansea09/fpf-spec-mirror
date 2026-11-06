@@ -6,12 +6,12 @@ section_id: "G.2:6"
 section_title: "Bias-Annotation (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.2/G.2__007_bias-annotation-informative.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "G.2 — Harvest and Synthesize SoTA for a CG-Frame"
   - "G.2:6 — Bias-Annotation (informative)"
-line_start: 128166
-line_end: 128180
+line_start: 128074
+line_end: 128088
 dependencies:
   - "A.10"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
@@ -60,8 +60,8 @@ keywords:
   *Mitigation:* keep Claim Sheets disjoint by default; require explicit alignment proof for fusion; preserve loss notes.
 
 * **Recency bias.** Overweighting newest papers can hide durable backbone results; underweighting them misses SoTA drift.
-  *Mitigation:* publish freshness windows and make them RSCR‑relevant.
+  *Mitigation:* state the search date and use-relevant currentness basis; make changes to relied-on sources or applicable windows RSCR-relevant.
 
 * **Didactic bias.** Micro‑examples can steer interpretation toward familiar domains.
-  *Mitigation:* require heterogeneous substrates and explicit A.10 anchors.
+  *Mitigation:* show the operation and a consequential variation within the claim’s supported scope, with explicit source anchors; add a different substrate only when the claim and its grounds cover that transfer.
 

@@ -6,12 +6,12 @@ section_id: "E.4.FPF:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.FPF/E.4.FPF__013_relations.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.4.FPF — FPF Edition Assembly: Publication Forms, Carriers and Access Routes"
   - "E.4.FPF:12 — Relations"
-line_start: 94256
-line_end: 94265
+line_start: 94243
+line_end: 94252
 dependencies:
   - "C.33"
   - "C.34"

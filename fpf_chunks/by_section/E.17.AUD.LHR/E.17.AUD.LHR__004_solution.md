@@ -6,12 +6,12 @@ section_id: "E.17.AUD.LHR:3"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.LHR/E.17.AUD.LHR__004_solution.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.17.AUD.LHR — PublicationUnit Stability Discipline and Local Head Restoration - repair the overloaded local lexical head before the publication unit inherits it"
   - "E.17.AUD.LHR:3 — Solution"
-line_start: 109656
-line_end: 109735
+line_start: 109562
+line_end: 109641
 dependencies:
   - "A.10"
   - "A.15"
@@ -67,7 +67,7 @@ Use these five questions to recover an ordinary local repair:
 Treat that card as the recognition block. It is a local repair aid, not a universal sequence rail.
 Use it while one overloaded local lexical head remains the main defect.
 
-When family or governing-pattern language is load-bearing, add one explicit conditional output line next to the card: `repair disposition = ... | governing pattern = ... | primary entity/relation = ... | move = ... | outside work = ...`.
+When family or governing-pattern language is load-bearing, make the repair disposition, governing pattern, primary entity or relation, carried move and outside-work boundary recoverable in the repaired text or its immediate context. A separate compact line can record them when the receiving review needs it.
 
 Read the card as a three-way recovery aid:
 - if rows 1-5 stabilize around one repaired local lexical head, one restored local work position, one active primary entity or relation, and one honest local question, stay here;

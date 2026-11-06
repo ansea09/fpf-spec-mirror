@@ -6,12 +6,12 @@ section_id: "E.5.4:4"
 section_title: "Solution — Principle‑Taxonomy‑Guided Bias Audit"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5.4/E.5.4__005_solution-principle-taxonomy-guided-bias-audit.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.5.4 — Cross‑Disciplinary Bias Audit"
   - "E.5.4:4 — Solution — Principle‑Taxonomy‑Guided Bias Audit"
-line_start: 96713
-line_end: 96735
+line_start: 96698
+line_end: 96720
 dependencies:
   - "E.3"
   - "E.5"
@@ -38,6 +38,6 @@ keywords:
      scope explicitly: *“Applies primarily to thermodynamic systems.”*
 
 4. **Bias annotation**
-   The pattern carries a short **Bias‑Annotation** paragraph naming the five lenses and any scoping statement. Keep workflow checklists,
+   The pattern carries a short **Bias-Annotation** stating the result of the five-lens examination: any material weighting, its justification, and the scope or correction needed for the intended use. Keep workflow checklists,
    reviewer metadata and other data outside the Core, along with tips on data formats and data governance.
 

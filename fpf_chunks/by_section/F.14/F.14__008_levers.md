@@ -6,12 +6,12 @@ section_id: "F.14:7"
 section_title: "Levers"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__008_levers.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "F.14 — Anti-Explosion Control for System-Role and Status Name Families"
   - "F.14:7 — Levers"
-line_start: 123293
-line_end: 123326
+line_start: 123190
+line_end: 123223
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -64,7 +64,7 @@ keywords:
 
 #### F.14:7.2 - Reuse before minting
 
-Reuse only when the exact recovered value, kind, direct pattern, proposed use, and admitted naming scope match. Try an existing designation, alias, local expression, or current row before creating a card, cell, row, policy id, or new U-kind candidate. Local-sense reuse does not imply sameness with another local sense; row reuse does not widen the row's admitted use.
+Reuse only when the exact recovered value, kind, direct pattern, proposed use and admitted naming scope match. Before creating a card, cell, row, policy id or new U-kind candidate, establish the receiving need that adequate ordinary wording or an existing designation would not meet. Reuse available grounds for that decision. Local-sense reuse does not imply sameness with another local sense; row reuse does not widen the row's admitted use.
 
 #### F.14:7.3 - Use relations among system-role kinds before hybrid kinds
 

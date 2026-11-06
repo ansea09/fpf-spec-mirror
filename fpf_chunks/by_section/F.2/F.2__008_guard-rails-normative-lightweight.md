@@ -6,12 +6,12 @@ section_id: "F.2:7"
 section_title: "Guard-rails (normative, lightweight)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.2/F.2__008_guard-rails-normative-lightweight.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "F.2 — Source-Local Term Harvesting & Normalisation"
   - "F.2:7 — Guard-rails (normative, lightweight)"
-line_start: 119236
-line_end: 119246
+line_start: 119126
+line_end: 119136
 dependencies:
   - "A.11"
   - "A.7"
@@ -35,7 +35,7 @@ keywords:
 
 1. **Basis visible.** Every harvested expression **MUST** name the exact source and edition and the effective reference scheme needed to recover its meaning.
 2. **Idiomatic normalisation.** LNF **MUST** preserve meaningful source spelling, hyphenation, casing, and modifiers with minimal edits.
-3. **Two registers.** Each note **SHOULD** carry Tech and Plain labels; the Plain label must explain rather than broaden.
+3. **Registers when used.** A Tech designation remains source-faithful. A Plain designation is added for a stated didactic use and must explain the same meaning without broadening it.
 4. **Minimal generality.** The LocalSenseClaim **MUST** say no more than the source use and receiving question require.
 5. **Category hygiene.** A lexical note **MUST NOT** stand in for behaviour, obligation, measurement, kind, assignment, Work, or evidence.
 6. **No cross-source claim.** F.2 **MUST NOT** assert equivalence, subsumption, similarity, permission, or transfer between local meanings.

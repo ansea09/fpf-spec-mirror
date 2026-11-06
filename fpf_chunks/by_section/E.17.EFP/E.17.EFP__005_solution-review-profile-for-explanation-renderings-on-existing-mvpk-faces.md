@@ -6,12 +6,12 @@ section_id: "E.17.EFP:4"
 section_title: "Solution — review profile for explanation renderings on existing MVPK faces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.EFP/E.17.EFP__005_solution-review-profile-for-explanation-renderings-on-existing-mvpk-faces.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.17.EFP — ExplanationFaithfulnessProfile — explanation-use discipline over existing MVPK faces"
   - "E.17.EFP:4 — Solution — review profile for explanation renderings on existing MVPK faces"
-line_start: 108169
-line_end: 108414
+line_start: 108068
+line_end: 108313
 dependencies:
   - "A.10"
   - "A.15"
@@ -28,7 +28,9 @@ dependencies:
   - "A.6.B"
   - "A.7"
   - "B.3"
+  - "B.5.2"
   - "C.2.8"
+  - "C.28"
   - "E.10.D2"
   - "E.17"
   - "E.17.0"
@@ -60,7 +62,7 @@ This profile does not decide whether a claim is true or which claim-bearing obje
 - Class names are bounded-use labels for an expression or representation, not merit labels and not source-to-target relations.
 - Use E.17 for reusable face rules and E.24.PUB for exact expression, form conformance, carrier bearing and publication availability.
 - A changed assertion, concern or effective scheme reopens episteme identity even when the prose remains explanatory, didactic, reconstructive or speculative. Selecting only enough source content for a bounded use does not itself assert a changed ClaimGraph.
-- A causal or counterfactual addition requires a separate hypothesis episteme under B.5.2 before any publication expression can receive an EFP use label.
+- A causal or counterfactual addition requires a separately identified target and its actual grounds. C.28 governs causal support; B.5.2 supplies a new explanatory hypothesis when that is the work needed.
 
 #### E.17.EFP:4.1.c - Local working vocabulary
 

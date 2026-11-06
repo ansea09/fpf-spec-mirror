@@ -6,12 +6,12 @@ section_id: "F.3:13"
 section_title: "Safe reasoning moves"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.3/F.3__014_safe-reasoning-moves.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "F.3 — Source-Local Sense Clustering"
   - "F.3:13 — Safe reasoning moves"
-line_start: 119564
-line_end: 119576
+line_start: 119454
+line_end: 119466
 dependencies:
   - "A.11"
   - "A.7"
@@ -37,9 +37,9 @@ keywords:
 1. **Alias consolidation.** Merge expressions only when the source uses them interchangeably for the current question.
 2. **Argument split.** Split uses whose required participants differ materially.
 3. **Entailment split.** Split when the uses support different conclusions.
-4. **Parsimony merge.** Merge when no relevant source-grounded test distinguishes the candidates.
+4. **Parsimony merge.** Merge source-supported interchangeable uses when no relevant conclusion is lost; leave the comparison unresolved when the source basis cannot establish that result.
 5. **Counterexample trigger.** Tighten or split a claim that admits a concrete excluded use.
-6. **Label check.** Tech stays idiomatic; Plain explains without widening.
+6. **Label check, when labels are used.** Tech stays idiomatic; Plain explains without widening.
 7. **Address check.** Create an F.17 cell only when the receiving use needs a stable address.
 8. **Edition check.** Re-evaluate the interpretation basis before carrying a claim across an edition change.
 9. **Coverage ping.** If a frequent source expression that matters to the receiving question has no local-sense claim, check whether one useful cluster is missing.

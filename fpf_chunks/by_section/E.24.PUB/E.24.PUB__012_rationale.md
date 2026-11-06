@@ -6,12 +6,12 @@ section_id: "E.24.PUB:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__012_rationale.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.24.PUB — Episteme Publication: Availability, Form and Carrier"
   - "E.24.PUB:10 — Rationale"
-line_start: 117336
-line_end: 117345
+line_start: 117226
+line_end: 117235
 dependencies:
   - "A.6.3"
   - "A.6.3.RT"
@@ -42,7 +42,7 @@ Publication does not change an episteme into a nested publication object. It is 
 
 The split also preserves agency. A System can render, upload, print, index, withdraw, or replace a carrier, but the publication occurrence is the enduring availability relation, not that activity. It may obtain with no continuing publication Work, and an attempted publication activity can fail while no publication occurrence begins. If an actual Work claim matters, its direct patterns govern it; E.24.PUB only keeps it and its result outside the publication-relation participants.
 
-A layout repair can preserve the model being presented.
+
 
 In OWL, SKOS, RDF and triple-store implementations, one interface can expose labels, axioms, serializations, documents and queries together. Recover their functions for the intended use: an export operation by itself establishes neither the kind of the exported subject nor the truth of its claims.
 

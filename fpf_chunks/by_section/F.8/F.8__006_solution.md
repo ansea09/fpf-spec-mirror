@@ -6,12 +6,12 @@ section_id: "F.8:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__006_solution.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision for a Name"
   - "F.8:4 — Solution"
-line_start: 120915
-line_end: 121090
+line_start: 120810
+line_end: 120985
 dependencies:
   - "A.11"
   - "A.15"
@@ -69,7 +69,7 @@ Treat mint-or-reuse as a decision about an already recovered subject, not a vote
 3. the subject pattern that defines or tests that value or relation; and
 4. the proposed naming use.
 
-If any fact is missing, stop at the subject-recovery route; naming cannot supply it. Otherwise try the dispositions in this order and stop at the first one that supports the proposed use:
+If a needed fact is missing, recover it through the subject pattern. Otherwise use the following dispositions to select a sufficient treatment. Reuse an already justified choice; examine another disposition when it could meet the use with less burden or preserve a distinction the proposed choice loses:
 
 1. keep a local phrase;
 2. reuse an existing designation;
@@ -82,7 +82,7 @@ If any fact is missing, stop at the subject-recovery route; naming cannot supply
 9. introduce a policy identifier for an already recovered policy specification; or
 10. block or lower the naming use.
 
-The smallest result is one readable sentence, not a mandatory record: state the governed subject, proposed naming use, selected disposition, resulting name when any, and the change that would reopen the decision. Add a non-use boundary only when `F.19`'s grounded-contribution test admits it. For example, when no lighter disposition supports a needed durable local designation: “Under `PatternReviewReferenceScheme-2026`, use `ReviewerRole` as the Plain designation of `ReviewerSystemRole` for local review-method prose; select `openDurableNamingSettlement` and revisit the decision if the naming use becomes public or cross-local.”
+The ordinary result states the governed subject, proposed naming use, selected disposition and resulting name when any. Add a reopen condition when continued reuse needs it, and an explicit non-use boundary when F.19's grounded-contribution test warrants it. For example, when a durable local designation is needed: “Under `PatternReviewReferenceScheme-2026`, use `ReviewerRole` as the Plain designation of `ReviewerSystemRole` for local review-method prose; select `openDurableNamingSettlement` and revisit the decision if the naming use becomes public or cross-local.”
 
 The corresponding F.8 result labels are `localPhraseOnly`, `reuseExistingDesignation`, `aliasOnly`, `reuseDirectPatternName`, `reuseAdmittedTermRow`, `nameSystemRoleKindDescription`, `openDurableNamingSettlement`, `proposePublicTermRow`, `introducePolicyIdentifier`, and `blockOrLowerUse`. They are not new `U.*` kinds. A stronger result opens its subject pattern; it does not itself create a card, row, identifier, policy specification, or relation occurrence.
 
@@ -105,12 +105,12 @@ The corresponding F.8 result labels are `localPhraseOnly`, `reuseExistingDesigna
 
 #### F.8:4.2 - Decision Sequence
 
-Use this order and stop at the first disposition that supports the proposed use without hiding a governed distinction.
+Use the following questions to recover an adequate disposition without hiding a governed distinction. Skip questions already settled by the available basis.
 
 1. **Recover the four starting facts.** Name the expression, governed value or relation, its subject pattern, and the proposed use. If the value or relation is not available, stop and use its subject-recovery route; F.8 cannot establish it.
 2. **Split mixed candidates.** If one expression covers more than one governed subject or use—for example, a kind, assignment, evidence use, policy, Method, or Work—make separate naming decisions.
 3. **State the naming locality.** Supply the naming reference scheme's designation and interpretation rules by value, and state the local-sense claim. Cite a `SchemeSenseCell`, an obtaining `LocalSenseBasisRelation`, or a selected bounded-model-use Structure only when the naming use needs that object.
-4. **Apply F.14 and try a local phrase.** If ordinary local wording supports the use, choose `localPhraseOnly` and stop.
+4. **Apply F.14 when the needed naming treatment is unsettled.** If ordinary local wording supports the use, choose `localPhraseOnly` and stop; use an already justified stronger treatment when the receiving use needs it.
 5. **Try an existing designation.** Reuse it only when the value, kind, scope, occurrence identity, local sense, and proposed use match.
 6. **Try an alias.** Use `aliasOnly` when the governed meaning is unchanged and lineage can expose the wording variation. An alias may not change kind, scope, occurrence identity, use, or authority.
 7. **Try the subject's existing name.** Use the name supplied for the governed subject. A.2 and C.3 govern a local system-role kind and F.5 governs its designation; use F.18 only for a durable settlement and F.4 only for a separately needed `SystemRoleKindDescription`. A.2.1 continues to govern any assignment. For precise performed Work, A.13 first recovers each exact actual performer and A.15.1 independently admits the occurrence; F.6 follows only when the naming case or receiving use expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment.

@@ -6,12 +6,12 @@ section_id: "F.16:6"
 section_title: "Invariants"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.16/F.16__007_invariants.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "F.16 — Worked-Example Template (Cross-Domain)"
   - "F.16:6 — Invariants"
-line_start: 124050
-line_end: 124061
+line_start: 123947
+line_end: 123958
 dependencies:
   - "A.10"
   - "A.15"
@@ -59,6 +59,6 @@ keywords:
 5. **Source precision.** Source and edition and the effective scheme are explicit where wording or interpretation changes the claim.
 6. **Time and object distinctions.** MethodDescription, Work, observation, and output remain distinct; windows are stated when they change the result.
 7. **Agency precision.** Every asserted dated Work uses the performer's recovered A.13 core and independent A.15.1 admission. The core includes its obtaining assignment; add F.6 only when the worked claim needs precise assignment-bound attribution. Recover a separately needed local-kind or description claim under its own rule.
-8. **Evidence, evaluation, and boundary.** The page shows why the claim is supported; when evaluation occurs, it keeps evaluation Work, operation result, declared scale, EvidenceStatus, RequirementStatus, and optional verdict episteme distinct; and it states the consequential limits of the result.
+8. **Evidence, evaluation, and boundary.** The page shows why the claim is supported. An evaluation retains its inputs, rule, result and applicable scale; any claimed or required evaluation Work, exact application, status and durable verdict assertion remain distinct. State the consequential limits of the result.
 9. **Didactic parsimony.** Every item changes the worked answer; optional machinery is omitted when it does not.
 

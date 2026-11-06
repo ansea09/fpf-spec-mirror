@@ -6,7 +6,7 @@ section_id: "C.43:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.43/C.43__011_architectural-rationale.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "C.43 — Connect Observation, Choice and Action in Control"
   - "C.43:10 — Architectural Rationale"
@@ -27,7 +27,7 @@ keywords:
 
 The recurring work is constructing and revising a connected control account. It has a selectable problem and result even when every component Method already exists. **C.11.CRC** supplies a finite contribution comparison; **A.15.7** selects an action within current work; **C.11.DBR** reopens a changed decision basis; **C.32.LCA** constructs a control arrangement. None is required to change its independent purpose to explain this encompassing use.
 
-The common construction belongs at the transdisciplinary level because its relations survive across different controlled systems and implementations. Their mathematical, economic, organizational and biological fillings retain their own Methods and warranted conclusions. A shared term does not make those disciplines identical, and their combination does not impose a single universal controller.
+The common construction belongs at the transdisciplinary level because its relations survive across different controlled systems and implementations. Their mathematical, economic, organizational and biological fillings retain their own Methods and warranted conclusions.
 
 The mantra makes the developed relations easier to retain while each operation remains usable at its actual point of need. A sufficient existing continuation can be kept; a changed dependency reopens the contribution that relied on it. The general explanation supports that selective use across the different subject constructions.
 

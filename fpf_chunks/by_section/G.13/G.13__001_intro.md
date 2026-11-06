@@ -6,12 +6,12 @@ section_id: "G.13:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.13/G.13__001_intro.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "G.13 — External Interop Hooks for SoTA Discipline Packs (conceptual)"
   - "G.13:intro — Intro"
-line_start: 132912
-line_end: 132923
+line_start: 132822
+line_end: 132833
 dependencies:
   - "A.18"
   - "A.19"
@@ -48,7 +48,7 @@ keywords:
 
 **Use this when.** A SoTA author or downstream consumer needs repeatable mappings from an external scholarly source into FPF inputs, with the source snapshot, transformation and receiving use recoverable. Start by naming that source and the input needed by the receiving operation. A sufficient direct source citation needs no interop kit.
 
-Select and justify the mapping procedure separately; this kit records its inputs, outputs and revisions. The provider, embedding and entity-resolution blocks below remain seeds until their governing procedures are selected.
+Use :4.3 to establish the mapping from source meanings and actual records, then publish its inputs, outputs, conditions and revisions. Provider-specific ingestion, embedding and entity-resolution methods retain their own grounds; the extensions below identify their required wiring.
 
 
 **Status.** Stable

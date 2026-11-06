@@ -6,12 +6,12 @@ section_id: "F.6:7"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__009_archetypal-grounding.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "F.6 — SystemRoleAssignment and Performed-Work Attribution Check"
   - "F.6:7 — Archetypal Grounding"
-line_start: 120467
-line_end: 120511
+line_start: 120360
+line_end: 120406
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -66,7 +66,9 @@ The case basis directly links that Work to that assignment; the matching holder 
 
 #### F.6:7.2 - Two Review Commissions
 
-`ProjectReviewAppointmentAssignment` is a declared species. It declares three participant positions: `HolderSystemSlot`, local assigned kind, and `ReviewCommissionSlot`. `ReviewAssignment-A` and `ReviewAssignment-B` are two occurrences with Alice and `ReviewerSystemRole` in common but different commissions, and both cover the same interval. The case says that Alice performed `ReviewWork-A` under assignment A and `ReviewWork-B` under assignment B; it does not establish either crossed pairing. If the facts say only that Alice performed review Work while both appointments covered the interval, leave the attribution unresolved. The readable projection “Alice is reviewer” selects neither assignment and creates no generic assignment.
+`ProjectReviewAppointmentAssignment` is a declared species. It declares three participant positions: `HolderSystemSlot`, local assigned kind and `ReviewCommissionSlot`. `ReviewAssignment-A` and `ReviewAssignment-B` have Alice and `ReviewerSystemRole` in common but different commissions, and both cover the same interval. Commission A's request asks Alice to compare two pump alternatives; Commission B's request asks her to review a budget. The available correspondence identifies Alice's undertaking of A's request, and the execution and return facts show her comparison of those alternatives answering that same request. Following the required contribution through those facts establishes the link from `ReviewWork-A` to assignment A. The budget review has its own history and pairing; the shared holder and interval establish neither crossed pairing.
+
+If the available facts say only that Alice performed review Work while both appointments covered the interval, the attribution remains unresolved. The same is true if both requests ask the same question and the history does not distinguish which appointment the action fulfilled. The readable projection “Alice is reviewer” selects neither assignment.
 
 #### F.6:7.3 - Reviewer and Review Report
 

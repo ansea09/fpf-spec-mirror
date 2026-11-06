@@ -6,12 +6,12 @@ section_id: "E.23.CDI:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23.CDI/E.23.CDI__006_archetypal-grounding.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.23.CDI — Developing Capability for a Named Work Family"
   - "E.23.CDI:5 — Archetypal Grounding"
-line_start: 115610
-line_end: 115639
+line_start: 115501
+line_end: 115530
 dependencies:
   - "A.15.1"
   - "A.2.2"
@@ -26,7 +26,7 @@ keywords:
 
 ### E.23.CDI:5 - Archetypal Grounding
 
-**Working rule.** Begin with a current, bounded capability account and a desired result; choose an intervention only after the limiting contribution is known; then test that same target in representative Work. A completed intervention or exercise is activity evidence, not a transfer result.
+**Working rule.** Begin with a current, bounded capability account and a desired result; choose an intervention only after the limiting contribution is known; then test that same target in representative Work. Completion of an intervention or exercise alone is activity evidence; a transfer claim needs the representative performance and support specified above.
 
 The compact range table below is a recognition aid: it shows where the Method can be filled differently.
 

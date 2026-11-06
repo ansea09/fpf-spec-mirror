@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:13"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__021_rationale.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:13 — Rationale"
-line_start: 101995
-line_end: 102024
+line_start: 101915
+line_end: 101944
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -80,7 +80,7 @@ The workable split is a normal whole-span repair in `F.19`, compact recognition 
 
 **Alternative or default.** A central preferred-word list makes labels consistent but cannot establish obtaining relations, actual participants, claim-bearing epistemes, or direct rule ownership. Copied local warning tables stay close to each subject but duplicate recognition, drift independently, and displace the subject pattern's working problem. The selected line keeps the useful locality of direct owners and the reuse of one shared entry.
 
-**Bounded comparison and accepted trade-off.** Take the section 0 case in which `MethodDescription_NormalizeCustomer` says “input x is CustomerRow_17” beside `normalize(x)`. Give each distribution the same source sentence, formula, and one applicable recovery entry. A preferred-word list can standardize the label `input`, but that alone leaves open whether it names an argument representation or a declared participant slot. Both a correct subject-local table and the shared architecture can recover `Arg_x` and its correspondence to `CustomerRow_17`, then return to C.29. They yield the same sentence: “In the worked formula `normalize(x)`, argument `x` represents `CustomerRow_17`.” Because that use is already clear here, the selected distribution permits direct C.29 entry without a restoration row or form.
+**Bounded comparison and accepted trade-off.** Take the section 0 case in which `MethodDescription_NormalizeCustomer` says “input x is CustomerRow_17” beside `normalize(x)`. Give each distribution the same source sentence, formula, and one applicable recovery entry. A preferred-word list can standardize the label `input`, but that alone leaves open whether it names an argument representation or a declared participant slot. Both a correct subject-local table and the shared architecture can recover `Arg_x` and its correspondence to `CustomerRow_17`, then state the recovered representation relation. They yield the same sentence: “In the worked formula `normalize(x)`, argument `x` represents `CustomerRow_17`.” Because that use is already clear here, both correct approaches can stop at the sentence; C.29 is needed only if a separate mathematical representation or transfer question remains.
 
 For an unresolved recurrence, a local table offers a nearby lookup; the shared entry may require a cross-reference. In return, the shared distribution keeps the recognition and recovery rule in one maintained place, while copied tables require their copies to be kept consistent. **Adopt the shared entry with direct-known-rule bypass**, accepting that possible extra lookup to avoid duplicated rule maintenance. Preserve a local realization when its stable field set and remaining use justify it. This qualitative comparison establishes the distribution choice for the stated recurring case; it claims neither measured speed nor a benefit from centralizing the subject rules themselves.
 
@@ -91,5 +91,5 @@ For an unresolved recurrence, a local table offers a nearby lookup; the shared e
 | Miles and Bechhofer (eds.), [*SKOS Simple Knowledge Organization System Reference*](https://www.w3.org/TR/skos-reference/), W3C Recommendation, 18 August 2009 | Stable external knowledge-organization line. Use SKOS for controlled-vocabulary publication, designations, labels, and label relations when those are the actual objects; use F.18 and the relevant subject pattern for reusable FPF names and claims. SKOS concepts, notations, schemes, and mappings retain their own source meanings. | It is not a universal wording-repair ontology and does not define FPF world-side kinds or direct claims | Reopen only if the Recommendation or its current successor changes the label, concept-scheme, collection, or mapping contribution used here |
 | Current `E.8` and `E.19` pattern-locality and primary-EntityOfConcern rules, together with the subject-pattern coverage named in `E.10.ARCH:4` and `E.10.ARCH:14` | Governing local evaluation basis: keep subject patterns centered on their working object and use an existing defining or testing rule when it already closes the claim | Existing coverage does not prove that every future wording family fits this architecture | Reopen when subject patterns again need copied first-stage doctrine, a realization needs a different stable field set, or an existing subject rule absorbs the same entry, result, and stop |
 
-A source-locator, publication-status, popularity, or unused-example change alone does not reopen this architecture. Lower only the affected row when `E.10` can close it locally or a subject rule absorbs the same recovery at equal or lower effort.
+Lower only the affected row when `E.10` can close it locally or a subject rule absorbs the same recovery at equal or lower effort.
 

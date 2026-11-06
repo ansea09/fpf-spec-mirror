@@ -6,12 +6,12 @@ section_id: "E.2:10"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.2/E.2__011_consequences.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.2 — FPF's Eleven Pillars and Bitter-Lesson Preference (BLP)"
   - "E.2:10 — Consequences"
-line_start: 92684
-line_end: 92696
+line_start: 92672
+line_end: 92683
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -20,7 +20,6 @@ dependencies:
   - "C.16"
   - "C.18"
   - "C.19"
-  - "C.5"
   - "E.1"
   - "E.3"
   - "E.5"
@@ -47,7 +46,6 @@ keywords:
 
 * Gives contributors explicit constitutional obligations.
 * Delivers a falsifiable checklist for evaluating proposals.
-* Builds trust in high‑assurance domains through transparency.
 
 *Trade‑offs*
 

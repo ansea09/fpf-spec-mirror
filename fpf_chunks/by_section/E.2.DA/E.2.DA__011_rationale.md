@@ -6,12 +6,12 @@ section_id: "E.2.DA:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.2.DA/E.2.DA__011_rationale.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.2.DA — Evaluate How FPF Realizes Its Pillars (Pillar-Adequacy CharacteristicSpace)"
   - "E.2.DA:10 — Rationale"
-line_start: 92963
-line_end: 92968
+line_start: 92950
+line_end: 92955
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -30,5 +30,5 @@ keywords:
 
 FPF needs a corpus-level quality instrument because the language can degrade while individual pattern edits look successful. The complete eleven-coordinate evaluation examines accumulated effects on Pillar realization even when each constituent change is a bounded local repair.
 
-The instrument is still affordable because it asks for short rationales and evidence loci named by value. It does not require a new review process, full audit bundle, or exhaustive evidence or source-material dossier.
+The result uses short rationales and evidence loci named by value. Obtaining their grounds can still require substantial work; reuse adequate evidence and select further inquiry for the question it can resolve. The result requires neither a new review process nor an exhaustive audit or source dossier.
 

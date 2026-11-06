@@ -6,12 +6,12 @@ section_id: "F.17:7"
 section_title: "Row schema"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__009_row-schema.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "F.17 — Make a Settled Naming Decision Recoverable for Reuse (Unified Term Sheet)"
   - "F.17:7 — Row schema"
-line_start: 124404
-line_end: 124433
+line_start: 124301
+line_end: 124330
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -66,7 +66,7 @@ Use these positions when they are current. Presence means that the exact referen
 | `Defining or constraining pattern` | yes | Pattern whose rules define or constrain the value, its kind, its identity, or any obtaining semantics used by the row. |
 | `Reference scheme` | yes | Effective by-value naming `ReferenceScheme` used in this row's C.2.1 constitution. |
 | `Unified Tech name` | yes | Selected Tech designation expression. |
-| `Unified Plain name` | yes | Selected Plain designation expression. |
+| `Unified Plain name` | when needed for a stated didactic use | Selected Plain designation expression for the same governed value and local meaning. |
 | `SenseCellRefs` | one or more | Exact scheme-based local-sense coordinates needed by this row. |
 | `BridgeRefs` | only for an actual cross-local relation used by the row | Exact obtaining F.9 occurrences; the separate use claim and reliance stay in rationale or notes. |
 | `Row rationale` | yes | Why these projections form one row decision. |

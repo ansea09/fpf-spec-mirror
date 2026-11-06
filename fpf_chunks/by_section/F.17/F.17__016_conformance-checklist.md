@@ -6,12 +6,12 @@ section_id: "F.17:13.5"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__016_conformance-checklist.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "F.17 — Make a Settled Naming Decision Recoverable for Reuse (Unified Term Sheet)"
   - "F.17:13.5 — Conformance Checklist"
-line_start: 125194
-line_end: 125207
+line_start: 125091
+line_end: 125104
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -56,7 +56,7 @@ keywords:
 | Check | Passing condition |
 | --- | --- |
 | `CC-F17-1` | One exact governed value, its kind, the pattern that defines or constrains it, and the proposed row use were recovered before the row. |
-| `CC-F17-2` | F.14 was applied at every current card, cell, and row gate, and the lightest sufficient naming disposition was tried first. |
+| `CC-F17-2` | Each current card, cell and row has a receiving need under F.14; an already adequate lighter treatment is reused. |
 | `CC-F17-3` | Row episteme, NameCard, designation expressions, governed value, reference, exact SenseCell, basis relation, and any F.9 Bridge remain distinct. |
 | `CC-F17-4` | Every cell resolves to an effective by-value ReferenceScheme, exact expression, and local-sense claim; no generic context field or selected structure substitutes for them. |
 | `CC-F17-5` | Every actual `LocalSenseBasisRelation` has exactly the cell and basis episteme as participants; descriptions, source units, publication occurrences, forms, and carriers stay separate. |

@@ -6,12 +6,12 @@ section_id: "F.7:8"
 section_title: "Invariants"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.7/F.7__009_invariants.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "F.7 — Display Source-Local Comparisons in a Concept-Set Table"
   - "F.7:8 — Invariants"
-line_start: 120697
-line_end: 120708
+line_start: 120592
+line_end: 120603
 dependencies:
   - "A.6.9"
   - "B.3"
@@ -47,5 +47,5 @@ keywords:
 6. **No automatic closure.** Relations are not completed pairwise or transitively merely to fill a row.
 7. **No universal row type.** A `senseFamily` label is not required and cannot substitute for an intensional account of what is being compared.
 8. **Parsimony.** Keep only entries and columns that change the current answer.
-9. **Didactic bound.** Split a row that a careful reader cannot understand in about thirty seconds.
+9. **Didactic bound.** Split a row when its combined distinctions prevent the intended reader from recovering the comparison. Keep related claims together when their joint reading is needed.
 

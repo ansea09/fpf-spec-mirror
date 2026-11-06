@@ -6,12 +6,12 @@ section_id: "E.17.1:14"
 section_title: "Import, Subset, and Multi-Bundle Coordination"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__015_import-subset-and-multi-bundle-coordination.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.17.1 — Viewpoint Bundle Library - Reusable Viewpoint Reference Bundles"
   - "E.17.1:14 — Import, Subset, and Multi-Bundle Coordination"
-line_start: 106997
-line_end: 107037
+line_start: 106896
+line_end: 106936
 dependencies:
   - "A.16.0"
   - "A.22"
@@ -68,9 +68,9 @@ Many real description families need more than one bundle, for example:
 
 Preserve the exact provenance of every imported `U.ViewpointRef` and resolved P as `<editionDesignator(L), familyDesignator, member reference>`. That tuple answers where a member came from. It establishes no semantic sameness, difference, correspondence, translation, substitution, or admissible comparison by itself.
 
-If the compared meanings are interpreted under one exact effective reference scheme, identify the exact P editions or claim subgraphs being compared, state the exact comparison predicate, polarity, scope, and participants, and apply the pattern that defines that predicate. If no direct semantic predicate is current, report only the observable lexical or structural contrast—members, omissions, order, target criteria, or claim-shape differences—and do not call it correspondence.
+Identify the exact P editions or claim subgraphs being compared, the comparison predicate, polarity, scope and participants. Recover how each source interprets the values used by that predicate, then apply its subject method. Different schemes may require a representation or quantity conversion without requiring a semantic Bridge. If the material supports only a lexical or structural contrast—such as members, omissions, order, target criteria or claim-shape differences—state that limited result.
 
-If the comparison crosses effective schemes or semantic contexts, first resolve the two exact F.17 `SchemeSenseCell` endpoints. Use F.9 only when its direct Bridge predicate is actually satisfied. Then state the proposed comparison or reuse separately as one bounded C.2.1 use claim about that exact Bridge with `<u,d,r,t>` and polarity, and recover the exact A.10 reliance disposition or the B.3 assurance branch when an actual named assurance claim for that bounded use is current. Without the exact cells, obtaining Bridge, bounded-use claim, and required reliance path, stop at lexical or structural contrast. Catalogue provenance remains useful in every branch, but never substitutes for any of them.
+When the comparison or proposed reuse depends on a semantic relation between distinct local senses, resolve their exact F.17 `SchemeSenseCell` endpoints and establish the F.9 Bridge. State the proposed use separately as one bounded C.2.1 claim about that Bridge with `<u,d,r,t>` and polarity. For reliance on an affirmative claim, retain the same-use A.10 provenance. Ordinary reliance requires `RelianceDisposition=pass`; when an actual named assurance claim is current, require its B.3 result with `disposition=supported-for-use` for that bounded use. If a required meaning, correspondence or reliance ground is missing, withhold the dependent conclusion and retain the supported contrast or exact inquiry. Catalogue provenance identifies the sources in every branch.
 
 #### E.17.1:14.4 - Engineering vs publication families
 

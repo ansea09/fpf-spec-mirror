@@ -6,12 +6,12 @@ section_id: "F.14:16"
 section_title: "Didactic distillation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__017_didactic-distillation.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "F.14 — Anti-Explosion Control for System-Role and Status Name Families"
   - "F.14:16 — Didactic distillation"
-line_start: 123487
-line_end: 123490
+line_start: 123384
+line_end: 123387
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -50,5 +50,5 @@ keywords:
 
 ### F.14:16 - Didactic distillation
 
-When names multiply, do not ask for a better name first. Recover the exact values and the proposed use. Try no durable name, an existing designation, an alias, or a local expression. Keep relations among system-role kinds, status windows, capability, Method, Work, evidence, source, policy, and publication under their direct patterns. Create a cell, NameCard, row, identifier, or publication only when that exact object buys a named use; none requires the next and none makes the governed value real.
+When names multiply, recover the exact values and the proposed use. Keep adequate ordinary wording or an existing designation; compare other treatments when the choice remains unresolved. Keep relations among system-role kinds, status windows, capability, Method, Work, evidence, source, policy and publication under their direct patterns. Create a cell, NameCard, row, identifier or publication only for the named use that needs it.
 

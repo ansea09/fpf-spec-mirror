@@ -6,12 +6,12 @@ section_id: "E.4.PFR:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFR/E.4.PFR__011_rationale.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.4.PFR — Pattern-Framework Relation and Edition Discipline"
   - "E.4.PFR:9 — Rationale"
-line_start: 96071
-line_end: 96078
+line_start: 96058
+line_end: 96065
 dependencies:
   - "A.10"
   - "A.6.0"

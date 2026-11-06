@@ -6,12 +6,12 @@ section_id: "E.24:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24/E.24__006_solution.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.24 — U.Ontic and Ontic Introduction Discipline"
   - "E.24:4 — Solution"
-line_start: 116068
-line_end: 116530
+line_start: 115959
+line_end: 116421
 dependencies:
   - "A.19.ECS"
   - "A.6.0"
@@ -94,7 +94,7 @@ Use `E.24.UK` only when a candidate claims durable U-kind force. E.24 consumes i
 
 If a reader asks where an FPF ontic gets constructive grounding, follow its exact identity or grounding assertion and defining or constraining `ClaimGraph`. E.24 records a locator for that rule and only the relations needed by dependent use; it does not turn declarations, descriptions, publication objects, views, or representations into grounding participants. Their exact predicates, assertions, and rule-content locators remain in `E.24:4.3a`.
 
-For structural identity claims, the constructive chain is `E.14 -> B.3.5 -> C.13`: Working-Model relation first, declared `validationMode`, `tv:groundedBy`, and a reconstructible `Γ_m.sum`, `Γ_m.set`, or `Γ_m.slice` trace. The `Γ_m` trace is the reconstructible grounding object cited through `tv:groundedBy` under B.3.5. If a graph, tuple, or another mathematical expression represents that trace, the expression is a separate C.29 representation. Neither the trace nor its representation becomes the public relation vocabulary, and this structural grounding apparatus is not required for non-structural ontics.
+For structural identity, recover the subject’s direct identity rule and the construction or whole-forming facts it requires. Use C.13 when the receiving use needs an inspectable construction account. When B.3.5 coverage is elected or a named requirement calls for that profile, apply the E.14/B.3.5 Working-Model requirements with the branch-specific `validationMode` and `tv:groundedBy` support, including the appropriate reconstructible `Γ_m.sum`, `Γ_m.set` or `Γ_m.slice` trace where that branch requires it. Each constructor retains its own subject and conditions. A graph, tuple or other mathematical expression of that trace is a separate C.29 representation. The account, profile and representation do not replace the direct identity or construction facts.
 
 For a non-structural ontic, use the exact identity, grounding, or recognition assertion and defining `ClaimGraph` located by its direct subject-pattern reference. Open `E.24.UK` only for U-kind admission, C.2.1 only for an episteme's identity, `E.24.PUB` only for current availability, and the other rows of `E.24:4.3a` only when their selection question is true.
 
@@ -122,7 +122,7 @@ Not every ontic needs every map row. Open one only when its selection question c
 
 Keep annotation proportional. E.24 calls for recovery only where wording can change ontic identity, a direct relation, participant meaning, a reusable SlotSpec declaration, a description claim, admissible use, or the reliance basis of a dependent pattern. If readable domain prose already preserves those objects, do not replace it with declaration syntax merely to show that an ontic exists.
 
-This differs from pure ontology engineering because FPF patterns are written for action: they may define or constrain a kind or predicate, state an admission test, frame a judgement, or give practical guidance. That does not make every pattern episteme a `U.MethodDescription` or every subject a `U.Method`. An engineer-manager uses the applicable claims and guidance to decide what can be done, claimed, relied on, repaired, compared, or stopped. If the current claim says that an E.24 episteme describes an ontic-introduction Method, apply A.3.1 and A.3.2 to identify that Method and show that the episteme substantively describes how it is done. The accepted ontic-introduction decision supplies the object discipline for those practical choices; the pattern text itself performs no action.
+FPF patterns may define or constrain a kind or predicate, state an admission test, frame a judgement, or give practical guidance. That does not make every pattern episteme a `U.MethodDescription` or every subject a `U.Method`. An engineer-manager uses the applicable claims and guidance to decide what can be done, claimed, relied on, repaired, compared, or stopped. If the current claim says that an E.24 episteme describes an ontic-introduction Method, apply A.3.1 and A.3.2 to identify that Method and show that the episteme substantively describes how it is done. The accepted ontic-introduction decision supplies the object discipline for those practical choices.
 
 Precision restoration uses the same discipline without turning it into lexical style. First recover the source-side entities, direct relations, assertions, descriptions, and defining or constraining `ClaimGraph` sources compressed by the wording. Then repair toward a current FPF ontic only when one accepted ontic-introduction decision states how those objects are coordinated. If no such ontic exists, state the exact subject assertions, cite their pattern-description locators, keep only the needed claims in a bounded local episteme under C.2.1, or open an E.24 ontic-introduction decision.
 

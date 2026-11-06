@@ -6,12 +6,12 @@ section_id: "F.3:6"
 section_title: "Solution — how to think about clustering"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.3/F.3__007_solution-how-to-think-about-clustering.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "F.3 — Source-Local Sense Clustering"
   - "F.3:6 — Solution — how to think about clustering"
-line_start: 119429
-line_end: 119460
+line_start: 119319
+line_end: 119350
 dependencies:
   - "A.11"
   - "A.7"
@@ -54,11 +54,11 @@ If one use entails occurrence in time and another entails a design structure or 
 
 #### F.3:6.4 - Prefer the coarsest adequate partition
 
-Merge candidates when no source-grounded test relevant to the receiving question distinguishes them. Split when a concrete counterexample would otherwise be admitted. Do not split merely to fill a taxonomy.
+Merge candidates when the recovered source uses establish that they are interchangeable for the receiving question and preserve every relevant conclusion. A failed attempt to find a distinction is insufficient when the source basis is too weak to decide. Keep that uncertainty explicit. Split when a concrete counterexample would otherwise be admitted; do not split merely to fill a taxonomy.
 
 #### F.3:6.5 - Keep labels honest
 
-Keep the Tech label in the source’s idiom. Make the Plain label explain the same claim to a careful newcomer. Neither label is the value being described, and neither may widen the claim.
+When the receiving use needs an additional label, keep the Tech designation in the source’s idiom. Add a Plain designation for a stated didactic use, explaining the same claim. Neither label is the value being described, and neither may widen the claim.
 
 #### F.3:6.6 - Address only when needed
 

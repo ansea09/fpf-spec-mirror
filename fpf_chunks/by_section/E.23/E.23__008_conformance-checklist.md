@@ -6,12 +6,12 @@ section_id: "E.23:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__008_conformance-checklist.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:7 — Conformance Checklist"
-line_start: 115402
-line_end: 115423
+line_start: 115293
+line_end: 115314
 dependencies:
   - "A.19.ECS"
   - "A.22.CGUS"
@@ -35,7 +35,7 @@ keywords:
 | `CC-E23-1` | Name the exact object version, its evaluation and the settled evaluation question before claiming a changed evaluation result. Use `QualityEvaluationQuestionFrame` and `QualityEvaluationUseDeclaration` when the receiving use needs their exact declarations. |
 | `CC-E23-2` | Reuse a question only while its object version, selected characteristic space, predicate or comparator, ClaimScope, result-consuming work or decision, purpose, qualification window, and any grounded non-use boundary remain applicable. Resolve missing or changed bindings through E.22; a separate frame is conditional on its receiving use, not on repetition alone. |
 | `CC-E23-3` | Represent returned repair possibilities as row-atomic E.22 findings or proposal rows with closure tests; pair proposals selected for the next pass with scale-qualified predicted evaluation-result changes, using `ExpectedEvaluationResultChange@Context` when the conditional §4.2a account is needed. A grouped memory summary does not discharge skipped rows, and proposal selection does not establish performance. |
-| `CC-E23-4` | Every asserted evaluation or improvement `U.Work` first recovers each exact actual performer through A.13, then uses A.15.1 to identify the occurrence, time, Method, and containing System independently. Add A.2.1 and F.6 only when the record or receiving use expressly represents precise assignment-bound attribution; their absence or failure leaves the Work intact. Then name the evaluation application and result binding or direct result or change relation, plus any separate result episteme. Re-evaluate the changed object before claiming coordinate, status, `Q`, or front-relation change. |
+| `CC-E23-4` | Every asserted evaluation or improvement `U.Work` first recovers each exact actual performer through A.13, then uses A.15.1 to identify the occurrence, time, Method, and containing System independently. The obtaining A.13 assignment remains part of actual-performer admission. Add separate A.2.1 assignment-occurrence and F.6 references when the account expressly represents precise assignment-bound attribution; missing or failed attribution alone leaves independently admitted Work intact, subject to the premise-recheck rule in section 4. Then name the evaluation application and result binding or direct result or change relation, plus any separate result episteme. Re-evaluate the changed object before claiming coordinate, status, `Q`, or front-relation change. |
 | `CC-E23-5` | Record what became worse and protected trade-offs. |
 | `CC-E23-6` | Continue only when a scale-qualified expected evaluation-result change and the cost and risk account support another pass. |
 | `CC-E23-7` | Decide a local stop from the achieved aim, protected trade-offs and absence of a worthwhile feasible improvement under §4.3. All-`5`, exceptional or front-reaching results neither require nor suffice for that decision. |

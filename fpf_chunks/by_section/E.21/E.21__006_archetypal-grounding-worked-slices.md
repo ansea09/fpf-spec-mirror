@@ -6,12 +6,12 @@ section_id: "E.21:5"
 section_title: "Archetypal Grounding - worked slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.21/E.21__006_archetypal-grounding-worked-slices.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
   - "E.21:5 — Archetypal Grounding - worked slices"
-line_start: 114281
-line_end: 114388
+line_start: 114172
+line_end: 114279
 dependencies:
   - "A.17-A.19"
   - "A.19.ECS"
@@ -95,7 +95,7 @@ PrecisionRestorationProfile:
 | `SoTABindingAndCurrentness` | `3` | The edition makes no positive SoTA claim and supplies no `E.8:11` comparison, so its source pin and currentness rule cannot raise this coordinate; `2` would understate the explicit source-use scope, while `4` requires one complete comparison result that this diagnostic example expressly lacks. |
 | `FormalClaimAdmissibilityAndLensFit` | `4` | The edition makes no measurement, scalar, causal, or formal-model claim and assigns the pin only its traceability use, so `3` understates the fit; `5` lacks a formal near-miss. |
 | `FalsifiabilityAndLoweringCondition` | `3` | Edition publication is an observable reopen trigger, so `2` is too low; `4` would overstate a trigger that does not distinguish material from irrelevant change. |
-| `CorpusEntryProjectionAndEcologyFit` | `3` | The declared diagnostic use is explicitly non-corpus-facing and the whole checked text is present, so `2` is too low; `4` would require the absent entry or projection evidence for a corpus-facing claim. |
+| `CorpusEntryProjectionAndEcologyFit` | `4` | The whole quoted edition is the entry for this diagnostic rehearsal, and the evaluation keeps its source and neighboring-pattern grounds outside the checked text. These inspected conditions support a clear bounded fit, so `3` understates it. Only this supplied expression is examined; no reinforcing in-scope projection or changed-edition case supports `5`. A later corpus-facing use needs its own evidence. |
 | `EvolutionFrontAndRefreshDiscipline` | `2` | The edition states a refresh trigger, so `1` understates it; any new edition triggers refresh without testing whether the used rule changed, so `3` would overstate usable evolution discipline. |
 
 The profile, complete table, status, stop and reopen, plus the quoted pattern's grounded background-reading boundary, constitute this example's non-arithmetic `PatternQualityQBundle`; the single value of `2` is the one below-floor defect, not an arithmetic penalty or a reason to lower unrelated qualities.

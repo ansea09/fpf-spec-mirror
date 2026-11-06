@@ -6,12 +6,12 @@ section_id: "E.18:4"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__005_forces.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:4 — Forces"
-line_start: 110383
-line_end: 110393
+line_start: 110289
+line_end: 110299
 dependencies:
   - "A.15.1"
   - "A.15.PROD"
@@ -45,6 +45,6 @@ keywords:
 | **Publication neutrality vs auditability** | Keep faces notation-neutral and non-mechanistic while requiring the exact `CrossingRef`, per-binding accounts, gate-decision refs, and publication pins used by the named downstream reliance. |
 | **Set-return discipline vs business pressure for totals** | Preserve **return sets and declared partial orders** ↔ stakeholders demand single numbers.                                                                                     |
 | **Cross-locus, plane, edition, or selected-structure reuse vs safety** | Enable bounded reuse while naming the changed `U.ContextSlice`, plane, edition, design/run tag, or retargeted subject and separating its from/to values, establishing basis, any applicable declaration or rule, and any current rule application; invoke F.9 only for a separately established cross-semantic Bridge and bounded-use claim. |
-| **Agility vs reproducibility**                   | Permit evolving CG‑Spec, UNM, and Comparator editions ↔ require **edition pins** and **re‑emission** on change.                                                                  |
+| **Agility vs reproducibility** | Evolving CG-Spec, UNM and Comparator editions require exact pins and reconsideration of uses whose premises change; republication follows the affected result or an applicable currentness requirement. |
 | **Cycles vs convergence**                        | Allow Selection↔Planning iteration ↔ impose **budget** and **slice‑scoped** refresh to prevent thrash.                                                                     |
 

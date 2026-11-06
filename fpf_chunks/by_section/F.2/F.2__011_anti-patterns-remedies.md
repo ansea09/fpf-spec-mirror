@@ -6,12 +6,12 @@ section_id: "F.2:10"
 section_title: "Anti-patterns & remedies"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.2/F.2__011_anti-patterns-remedies.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "F.2 — Source-Local Term Harvesting & Normalisation"
   - "F.2:10 — Anti-patterns & remedies"
-line_start: 119266
-line_end: 119284
+line_start: 119156
+line_end: 119174
 dependencies:
   - "A.11"
   - "A.7"
@@ -39,7 +39,7 @@ keywords:
 | **A2** | String = meaning | Identical spelling is treated as one concept. | Homonyms such as *role* and *process* collapse. | State source, scheme, and LocalSenseClaim before comparison. |
 | **A3** | Over-normalisation | Case, hyphens, or modifiers are removed for consistency. | Source cues and citations become unreliable. | Make only minimal edits. |
 | **A4** | Headless multiword | *Service-level objective* becomes *objective*. | Scope disappears. | Preserve the meaningful compound. |
-| **A5** | Premature structure | A gloss contains equations, duties, or kind axioms. | A lexical note is asked to establish a substantive fact about another value. | Route the substantive claim to its direct pattern. |
+| **A5** | Meaning used as factual warrant | A gloss is used to establish that a substantive condition actually holds. | Explaining an equation, duty or kind criterion does not establish its application to an instance. | Preserve defining content in the explanation; test the substantive claim under its direct pattern. |
 | **A6** | Cross-source folding | “BPMN process ≈ PROV activity” appears in F.2. | A relation and its losses are hidden. | Leave the comparison to F.9. |
 | **A7** | Edition blur | A source name has no edition although usage changed. | The claim cannot be replayed. | Name the exact edition and recover the changed meaning afresh. |
 | **A8** | Dialect elevation | A tool keyword list is treated as the whole domain. | One source use displaces other evidence. | Keep it as one exact source basis. |

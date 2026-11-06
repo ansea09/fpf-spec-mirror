@@ -6,12 +6,12 @@ section_id: "E.11.PFP:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PFP/E.11.PFP__016_relations.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.11.PFP — Framework Publication Form Profile for Markdown"
   - "E.11.PFP:12 — Relations"
-line_start: 104748
-line_end: 104756
+line_start: 104667
+line_end: 104675
 dependencies:
   - "A.3.2"
   - "C.29"
@@ -35,7 +35,7 @@ keywords:
 ### E.11.PFP:12 - Relations
 
 - **Specializes:** `E.11` for the common reader-facing form of one FPF, DPF, or LPF edition; `E.11` retains practical-use discoverability and first-result routing.
-- **Uses:** `E.8` for the twelve substantive content functions, preferred Architectural Rationale title, intended-reader boundary, and usefulness of narrowing; `A.3.2` for an exact MethodDescription claim and `C.29` for any mathematical view of the relations.
+- **Uses:** `E.8` for the twelve substantive content functions, preferred Architectural Rationale title, intended-reader boundary, and usefulness of narrowing; `A.3.2` for an exact MethodDescription claim and `C.29` when choosing, transferring, or relying on a mathematical view raises a separate representation question.
 - **Coordinates with:** `E.4`, `E.4.FPF`, and `E.4.DPF` for framework/product boundary, product-specific publication units, optional reader cues, body order, and carrier assembly.
 - **Coordinates with:** `E.24.PUB` for publication occurrence, selected edition, form expression, carrier bearing, audience, bounded use, availability, and access; and `E.17` for bounded publication projections and source return.
 - **Coordinates with:** `E.4.PFR` for exact dependency and edition relations, `G.11` for currentness and refresh, `E.4.DPF.DA` and `E.2.DA` for applicable package or whole-FPF adequacy, and `E.21` for pattern quality.

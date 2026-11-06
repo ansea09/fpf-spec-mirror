@@ -6,12 +6,12 @@ section_id: "E.11.PFP:section-006"
 section_title: "Practical-Use Cards"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PFP/E.11.PFP__007_practical-use-cards.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.11.PFP — Framework Publication Form Profile for Markdown"
   - "E.11.PFP:section-006 — Practical-Use Cards"
-line_start: 104503
-line_end: 104614
+line_start: 104422
+line_end: 104533
 dependencies:
   - "A.3.2"
   - "C.29"
@@ -136,7 +136,7 @@ These are twelve content functions, not twelve compulsory new H1 sections. Each 
 
 There is no fixed number of generality scales. For example, a reader can move from FPF's general treatment of Methods to its Method-development family, a pattern-language construction specialization, a narrower literature-based extension profile, and a pattern that recovers one candidate Method from source and Work evidence. Further useful scales can be introduced. Explain the relation at each move: a profile is a bounded-use projection; specialization carries inherited content plus a delta; composition connects Method contributions; reuse makes one contribution available in several settings; a chapter or Part groups publication text. A substantive narrowing must pass `E.8:4.1.3`'s same-situation usefulness comparison.
 
-A pattern can participate in several profiles, and a profile can draw on several contributions. Describe this structure through the relations that hold. If a mathematical view is useful, apply `C.29`: select the elements and relation being modeled. A partial order needs its order properties; a lattice additionally needs the required bounds for every relevant pair. Multiple parentage or overlapping membership alone establishes neither. Keep that mathematical representation distinct from the Methods and their subject-side relations.
+A pattern can participate in several profiles, and a profile can draw on several contributions. Describe this structure through the relations that hold. For a mathematical view, select the elements and relation being modeled and use the applicable mathematics. Use `C.29` only when a separate question about choosing, transferring, or relying on that mathematical representation remains. A partial order needs its order properties; a lattice additionally needs the required bounds for every relevant pair. Multiple parentage or overlapping membership alone establishes neither. Keep that mathematical representation distinct from the Methods and their subject-side relations.
 
 ##### E.11.PFP:4.7.1 - Make an architectural-reference section recognizable on its own
 

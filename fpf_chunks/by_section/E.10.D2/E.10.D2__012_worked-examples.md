@@ -6,12 +6,12 @@ section_id: "E.10.D2:11"
 section_title: "Worked examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__012_worked-examples.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:11 — Worked examples"
-line_start: 102670
-line_end: 102727
+line_start: 102590
+line_end: 102647
 dependencies:
   - "A.7"
   - "C.2.1"
@@ -56,7 +56,7 @@ The organized claims expressed by a practice card may constitute that episteme. 
 
 An architecture review asks how `PaymentService` is organized for the operations concern. The architecture-description episteme has that exact holon as its EntityOfConcern; its claims identify the selected structure and state whether C.30's `ArchitectureRelation` obtains. The named review use selects the exact operations viewpoint because that concern changes which claims it reads and checks. If it did not change the reading, checking, or permitted conclusion, the use would remain named and the viewpoint selection would be omitted.
 
-The episteme is a `U.View` only if the E.17.0 conformance relation to an exact viewpoint obtains. Distinguish asserted structure in G, a graph expression X representing that structure, and reusable formation rules F. C.29 governs any mathematical inference from the graph; the architectural claim still needs its subject-side grounds. An ADR or dashboard creates no permission, assurance, or work relevance without the corresponding direct claim. If work uses the description, state the exact premise, reference, decision-use, or operation-argument relation through which the performed work actually consumes it.
+The episteme is a `U.View` only if the E.17.0 conformance relation to an exact viewpoint obtains. Distinguish asserted structure in G, a graph expression X representing that structure, and reusable formation rules F. Use an adequate mathematical result with its interpretation and subject-side grounds. C.29 applies when a separate choice, transfer or reliance question about that mathematical representation remains. An ADR or dashboard creates no permission, assurance, or work relevance without the corresponding direct claim. If work uses the description, state the exact premise, reference, decision-use, or operation-argument relation through which the performed work actually consumes it.
 
 #### E.10.D2:11.4 - Specification use
 

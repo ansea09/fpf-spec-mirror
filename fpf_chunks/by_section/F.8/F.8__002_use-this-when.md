@@ -6,12 +6,12 @@ section_id: "F.8:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__002_use-this-when.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision for a Name"
   - "F.8:0 — Use This When"
-line_start: 120853
-line_end: 120885
+line_start: 120748
+line_end: 120780
 dependencies:
   - "A.11"
   - "A.15"
@@ -74,11 +74,11 @@ Typical triggers include:
 - a governed value may need a durable name, public row, or policy identifier; and
 - pressure for a new U-kind appears. That last case stops before naming until E.24.UK has returned a stable admission disposition.
 
-**Primary working object.** One F.8 disposition for the expression and proposed use. Ordinary use creates no decision occurrence or result episteme. If a later claim must cite, replay, or assign accountability to the decision itself, use the separately triggered branch in §4.5.
+**Primary working object.** One F.8 disposition for the expression and proposed use. Ordinary naming needs no separate decision-occurrence or result-episteme identity. If a later claim must cite, replay or assign accountability to the decision itself, use the separately triggered branch in §4.5.
 
 **Primary working reader.** A practitioner choosing whether an expression should stay local, reuse a name, or open a stronger naming path.
 
-**First useful move.** Write the four starting facts. Then try, in order, a local phrase, an existing designation, an alias, the subject pattern's name, and an admitted F.17 row. Stop at the first sufficient result. Open a cell, NameCard, public row, or policy identifier only when the receiving use needs it.
+**First useful move.** Recover the four starting facts, then select the least burdensome treatment that supports the use: a local phrase, an existing designation, an alias, the subject pattern's name or an admitted F.17 row. Reuse known grounds for that choice; compare other treatments when their adequacy could change it. Open a cell, NameCard, public row or policy identifier only when the receiving use needs it.
 
 **What goes wrong if missed.** A convenient expression is treated as the subject it merely names. Local or source wording becomes durable ontology; a row or alias gains uses it never admitted; a role-like word hides a kind, description, assignment, Work occurrence, or another governed relation; or a record is mistaken for the decision it describes.
 

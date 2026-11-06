@@ -6,12 +6,12 @@ section_id: "E.17.EFP:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.EFP/E.17.EFP__008_conformance-checklist.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.17.EFP — ExplanationFaithfulnessProfile — explanation-use discipline over existing MVPK faces"
   - "E.17.EFP:7 — Conformance Checklist"
-line_start: 108536
-line_end: 108575
+line_start: 108434
+line_end: 108473
 dependencies:
   - "A.10"
   - "A.15"
@@ -28,7 +28,9 @@ dependencies:
   - "A.6.B"
   - "A.7"
   - "B.3"
+  - "B.5.2"
   - "C.2.8"
+  - "C.28"
   - "E.10.D2"
   - "E.17"
   - "E.17.0"
@@ -76,5 +78,5 @@ Use core ordinary checks first. Conditional rows open only when reader-fit, bund
 8. **CC-EF-12 — Derivative renderings keep source links operative.**
    A fork, adaptation, translation, generated explanation, tutorial, access-format conversion, or other derivative rendering that will guide work or reliance maps each operative claim to the exact source passage, carrier path, or project record that evidences it and names that record's FPF kind when material, or else downgrades to reader help or applies `A.6.3.CSC` as appropriate.
 9. **CC-EF-13 — Generated explanation reliance boundary is explicit.**
-   A generated explanation used beyond ordinary reader help states its explanation class, source-finding state, operative claims, the FPF pattern used to test each relied-on claim, the exact project record that carries it, and blocked downstream use. The explanation itself is not evidence, assurance, approval, gate passage, release reliance, or work authority.
+   A generated explanation used beyond ordinary reader help states its explanation class, source-finding state, operative claims, the FPF pattern used to test each relied-on claim, the source basis and any exact project record required by that use, and the supported use or specific gap. Evidence, assurance, approval, gate passage, release reliance and Work authority retain their direct grounds.
 

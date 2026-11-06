@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/G.6.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "G.6 — Evidence Graph and Provenance Ledger: Citable Evidence-Provenance Paths"
-line_start: 130007
-line_end: 130334
+line_start: 129919
+line_end: 130246
 dependencies:
   - "A.10"
   - "A.10.1"
@@ -362,7 +362,7 @@ The ledger is likewise an index over established provenance, not a result store 
 
 ### G.6:11 - SoTA-Echoing
 
-The source-use decisions below are based on the publishers' source versions current on 2026-07-30. These decisions remain qualified through 2027-07-30 unless a new Recommendation, specification edition, maintenance status, or replacement changes the adopted contract earlier.
+The table records the contributions adopted from the cited source editions. Reopen an affected source-use decision when a new specification, Recommendation, maintenance change or replacement alters a relied-on identity, provenance, validation or use condition; follow the dependent-use return in :4.5.
 
 | Exact source and source-use decision | G.6 use | Rejected overread | Direct source-change entry |
 | --- | --- | --- | --- |

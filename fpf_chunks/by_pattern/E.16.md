@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.16.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.16 — RoC‑Autonomy Budget & Enforcement"
-line_start: 105929
-line_end: 106182
+line_start: 105845
+line_end: 106100
 dependencies:
   - "A.10"
   - "A.13"
@@ -171,7 +171,7 @@ AutonomyLedgerEntry {
   guardVerdicts: { checkApplicationId -> GateCheckApplicationResult ref } // A.21; refs may be supplied by the cited GateDecisionResult
   overrideAuthorityRelationOccurrenceRef?             // required for overrideWork
   separationOfDutiesCheckResultRef?                    // required for overrideWork
-  pathIds: { PathId, PathSliceId }                     // for G-suite parity/refresh
+  pathIds?: { PathId[], PathSliceId? }                 // when the receiving parity, audit or refresh use needs these references
 }
 ```
 
@@ -190,11 +190,13 @@ The declaration names the exact A.2.7 incompatibility species and its predicate.
 Check authority for the proposed override independently. Once the override is actually performed and admitted under A.15.1, record its `overrideWork` ledger entry and policy-specified zero, negative or other budget delta. Match that performance to prior permission by the policy's exact action rule. The proposal and its pass result remain distinct from that performed SpeechAct Work.
 
 **E.16-S5 (Depletion behavior).**
-When a budget depletes - no tokens remain, an envelope is exceeded, or a cap is breached:
+When a budget depletes — no tokens remain, an envelope is exceeded, or a cap is breached:
 
-* block further autonomy-gated steps in the same accounting window;
+* block ordinary autonomy-gated continuation in the same accounting window;
 * emit a **DepletionNotice** SpeechAct and either **Escalate** or **Park** as the policy says; and
-* reopen the gate only after an admitted System performs **ResumeAutonomy** under its exact override-authority assignment, the A.2.7 predicate check over both actual assignments passes, the independent authority relation is current, and the ordinary guards pass.
+* resume ordinary continuation only after an admitted System performs **ResumeAutonomy** under its exact override-authority assignment, the A.2.7 predicate check over both actual assignments passes, the independent authority relation is current, and the ordinary guards pass.
+
+If the applicable policy permits an exception, recover its exact condition, the particular bounded action it permits, the current authority and every remaining guard. Apply S2 to that action and retain the policy’s accounting and recheck conditions. For example, a service policy may permit a qualified security fix while its exhausted error budget still blocks ordinary feature releases. Missing exception authority or a failed remaining safety condition leaves that action blocked. Permission for the exception does not resume ordinary continuation.
 
 **E.16‑S6 (Publication in UTS).**
 A UTS row that carries an autonomy claim about Work described through a local system-role kind, **Method**, **Service**, or **Selector** **MUST** include:
@@ -249,7 +251,7 @@ The declaration's `decision_tokens=3/day` and `error-budget burn <= 2%/day` rema
 | **E.16-CC-2** | Green-Gate decides the A.21 prospective work-entry claim and bounded action, resolving its identity/continuation, real holder/assignment/state, authority, scope/window, remaining budget, incompatibility and guards. Changed permission-relevant windows require recheck; request respelling does not create another action. |
 | **E.16-CC-3** | Work admitted under autonomy **MUST** have an `AutonomyLedgerEntry` that identifies the Work, performer System, exact assignment, budget edition, deltas, and references to the guard check-application results. |
 | **E.16-CC-4** | A proposed override passes its applicable A.2.7 species and independent authority check before performance. An existing target Work is distinct from that proposal. Only a performed, A.15.1-admitted override is recorded as overrideWork with the applicable delta and policy-supported match to prior permission. |
-| **E.16-CC-5** | Depletion **MUST** block autonomy-gated steps until `ResumeAutonomy` passes the actual-assignment separation-of-duties check, independent authority check, and ordinary guards. |
+| **E.16-CC-5** | Depletion **MUST** block ordinary autonomy-gated continuation until `ResumeAutonomy` passes the actual-assignment separation-of-duties check, independent authority check, and ordinary guards. A policy-permitted exception requires its exact bounded-action condition, current authority and remaining guards under S2; it does not resume other actions. |
 | **E.16-CC-6** | A UTS autonomy row carries the budget edition/state, guard policy, override protocol, scope/window, action/allocation refs when action-bound and actual Work refs when enactment-bound. |
 | **E.16-CC-7** | When bounded specialization scouting is in scope, scout budget, probe budget, and commit checkpoint **MUST** stay explicit, and a successful probe **SHALL NOT** count as automatic committed rollout. |
 
@@ -257,7 +259,7 @@ The declaration's `decision_tokens=3/day` and `error-budget burn <= 2%/day` rema
 
 * **Testability.** Budget use is checkable against declared tokens/envelopes; Work-anchored ledger entries support audit; **PauseAutonomy** stops autonomy-gated steps.
 * **Comparability.** UTS surfaces autonomy metadata for fair selection & parity.
-* **Safety.** Guards are hard gates; depletion halts further autonomy‑gated Work.
+* **Safety.** Required guards remain binding; depletion stops ordinary continuation, with only independently permitted, action-specific exceptions.
 
 #### E.16:7.1 - SoTA-Echoing — bind a budget decision to the proposed action
 

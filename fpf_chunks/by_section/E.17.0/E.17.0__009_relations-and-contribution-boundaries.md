@@ -6,12 +6,12 @@ section_id: "E.17.0:8"
 section_title: "Relations and contribution boundaries"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.0/E.17.0__009_relations-and-contribution-boundaries.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.17.0 — Viewpoint and View Recognition for Multi-View Describing"
   - "E.17.0:8 — Relations and contribution boundaries"
-line_start: 106694
-line_end: 106709
+line_start: 106593
+line_end: 106608
 dependencies:
   - "A.22"
   - "A.6.3"
@@ -39,7 +39,7 @@ keywords:
 - Use **A.22** to select `S_viewpoint` only when separately versioned convention organization changes a named action, and to select any separately current multi-view structure. E.17.0 supplies Q and candidate relation occurrences for that branch.
 - **A.6.3** defines optional source-to-receiving viewing construction, including identity viewing; it does not define view membership.
 - **E.10.D2** defines description epistemes and specification use. A describing use is always named; it selects a viewpoint only when that choice changes reading, checking, or a permitted conclusion. Selection does not establish conformance.
-- **F.18** supplies the two relation-kind NameCards; naming metadata neither defines relation semantics nor grants admission. **F.9** applies only when an exact relation between distinct F.17 `SchemeSenseCell` values obtains.
+- **F.18** governs the two relation-kind designations. **F.9** applies when a separately needed semantic relation between distinct F.17 `SchemeSenseCell` values is at issue.
 - **E.17.1** defines exact catalogue epistemes and local family declarations whose members are exact `U.ViewpointRef` values. **E.17.2** supplies the four-position project-local engineering viewpoint authoring template and, only after local materialization, its four exact bindings. A declaration, template position, or reference grants no viewpoint or view membership.
 - **E.24.UK** admits dependent `U.Viewpoint` and `U.View` once for public use; E.17.0 supplies their stable positive membership predicates.
 - **E.24.PUB** defines exact expression and bearing, selected form conformance, form-mediated availability and publication recurrence. **A.6.3.RT** and **A.6.3.RT.OE** govern expression construction; **C.29** governs a mathematical lens. Their use retains the independent predicate for any represented subject relation.

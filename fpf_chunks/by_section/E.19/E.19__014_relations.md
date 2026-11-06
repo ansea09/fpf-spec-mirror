@@ -6,12 +6,12 @@ section_id: "E.19:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__014_relations.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:12 — Relations"
-line_start: 113457
-line_end: 113493
+line_start: 113348
+line_end: 113384
 dependencies:
   - "A.15.1"
   - "A.6.P"
@@ -53,7 +53,7 @@ keywords:
   * `A.13` and `A.15.1` (exact actual-performer recovery and independent review, repair, or verification Work); `A.2`, `A.2.1`, and `F.6` only when local classification or precise assignment-bound attribution is expressly consumed; `A.6.1` separately defines check applications and bindings
   * `A.3.2` and `E.10.ROLE` (the full `U.MethodDescription` membership test and recovery of an ambiguous source *role* without forcing a system-role kind, assignment, participant, or representation position)
   * `C.2.1` (finding, focused-verification, aggregate review-result, and optional record epistemes)
-  * `A.10` and `B.3` (evidence use/provenance and any assurance or reliance on an E.19 result)
+  * `A.10` for an implicit or required-replayable source-to-use account; `B.3` for a selected assurance claim about an E.19 result
   * `F.10` and `E.24.PUB` (status use/interpretation and publication occurrence/form/carrier; neither is review work or admission authority)
   * `F.8` (mint vs reuse decisions)
   * `F.18` (local-first naming when one durable reusable name is needed)

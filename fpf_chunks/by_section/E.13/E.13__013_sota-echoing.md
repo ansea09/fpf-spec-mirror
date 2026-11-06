@@ -6,12 +6,12 @@ section_id: "E.13:10"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.13/E.13__013_sota-echoing.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.13 — Pragmatic Utility and Proxy-to-Value Alignment"
   - "E.13:10 — SoTA-Echoing"
-line_start: 105316
-line_end: 105326
+line_start: 105235
+line_end: 105245
 dependencies:
   - "A.10"
   - "A.21"
@@ -42,10 +42,10 @@ keywords:
 
 | Claim | Source lineage | Local adoption |
 | --- | --- | --- |
-| A measure used for decision or control can corrupt the process it monitors. | Goodhart and Campbell indicator-pressure lines. | `CurrentProxyUse` distinguishes measure, target, incentive, gate, and release argument. |
-| Proxy optimization has distinct failure modes. | Manheim/Garrabrant Goodhart variants and later proxy-failure work. | `WhatGotWorse` and protected qualities prevent a single proxy from standing for value. |
-| Measures can replace the strategic construct in decision makers' minds. | Management-accounting surrogation work by Choi, Hecht, Tayler, and later studies. | The proxy is never named as the value; the intended value is named first. |
-| Optimizing an imperfect reward or specification can satisfy the formal signal while missing the intended outcome. | AI safety specification-gaming and reward-hacking work, including formal reward-hacking analyses and current reasoning-model specification-gaming evaluations. | Evaluation values, judge scores, and all-`5` posture are treated as proxies that require value-slice and protected-quality checks. |
-| Useful measures should be derived from goals and questions. | Goal-Question-Metric and GQM+Strategies measurement alignment. | E.13 asks for intended value/objective before proxy and asks which decision or work the proxy affects. |
-| Human values require stakeholder and use-context inquiry, not only formal metrics. | Value Sensitive Design and value-oriented design lines. | The minimally viable value slice may include user, operator, manager, safety, or affected-stakeholder evidence when those values are live. |
+| A measure used for decision or control can corrupt the process it monitors. | [Campbell, *Assessing the Impact of Planned Social Change* (1976), pp. 49–52](https://www.humanlearning.systems/uploads/08%20Assessing%20the%20Impact%20of%20Planned%20Social%20Change.pdf), a historical account of indicator pressure and distortion. | `CurrentProxyUse` distinguishes measure, target, incentive, gate, and release argument. |
+| Proxy optimization has distinct failure modes. | [Manheim and Garrabrant, *Categorizing Variants of Goodhart's Law* (2018/2019)](https://arxiv.org/abs/1803.04585), distinguishing mechanisms of harmful proxy overoptimization. | `WhatGotWorse` and protected qualities prevent a single proxy from standing for value. |
+| Measures can replace the strategic construct in decision makers' minds. | [Choi, Hecht and Tayler, *Lost in Translation* (2012)](https://scholarsarchive.byu.edu/facpub/8208/), on strategy surrogation and incentive compensation. | The proxy is never named as the value; the intended value is named first. |
+| Optimizing an imperfect reward or specification can satisfy the formal signal while missing the intended outcome. | [Skalse et al., *Defining and Characterizing Reward Hacking* (2022)](https://arxiv.org/abs/2209.13085), a formal treatment of proxy and true reward divergence under stated policy assumptions. | Evaluation values, judge scores, and all-`5` posture are treated as proxies that require value-slice and protected-quality checks. |
+| Useful measures should be derived from goals and questions. | [Basili, Caldiera and Rombach, *The Goal Question Metric Approach*](https://www.cs.umd.edu/~mvz/handouts/gqm.pdf), deriving measurement from goals, questions and interpretation context. | E.13 asks for intended value/objective before proxy and asks which decision or work the proxy affects. |
+| Human values require stakeholder and use-context inquiry, not only formal metrics. | [Value Sensitive Design's tripartite methodology](https://vsdesign.org/vsd/), connecting stakeholder values with conceptual, empirical and technical investigations. | The minimally viable value slice may include user, operator, manager, safety, or affected-stakeholder evidence when those values are live. |
 

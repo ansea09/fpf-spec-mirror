@@ -6,12 +6,12 @@ section_id: "F.4:7"
 section_title: "Worked Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__009_worked-cases.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "F.4 — SystemRoleKindDescription — Describing an Exact System-Role Kind"
   - "F.4:7 — Worked Cases"
-line_start: 119823
-line_end: 119856
+line_start: 119713
+line_end: 119746
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -77,5 +77,5 @@ The sentence “Standard S has the architecture-standard role in this Work” is
 
 #### F.4:7.4 - Access Role Is Not Automatically a System Role
 
-RBAC *role* often names a permission grouping. If the current claim concerns permission or access standing, use the direct policy, deontic, access, or status relation. Treat a local access term as a system-role kind only when its own C.3 identity and criterion are current and a receiving Work claim actually needs that classification. Even then, permission and assignment remain separate.
+RBAC *role* often names a permission grouping. If the current claim concerns permission or access standing, use the direct policy, deontic, access or status relation. Treat a local access term as a system-role kind only when A.2 and C.3 establish its candidate domain, work-facing membership distinction and identity. Classify a particular candidate when the receiving use needs that judgment. Permission and assignment remain separate.
 

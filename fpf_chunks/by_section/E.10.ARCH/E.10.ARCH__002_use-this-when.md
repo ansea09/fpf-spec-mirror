@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__002_use-this-when.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:0 — Use This When"
-line_start: 101648
-line_end: 101665
+line_start: 101568
+line_end: 101585
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -73,7 +73,7 @@ Use this pattern when a recurring FPF-governed wording problem survives the norm
 
 | Wording | Applicable result | Grounded distinction in this near-miss |
 | --- | --- | --- |
-| `MethodDescription_NormalizeCustomer`, which describes one exact `U.Method` `NormalizeCustomer`, says “input x is CustomerRow_17” beside the worked formula `normalize(x)`. | The current use is the worked formula's argument representation, so bypass E.10.ARCH to C.29. Keep `Arg_x` as the representation element and state the explicit correspondence from `Arg_x` to the described value `CustomerRow_17`. The repaired practitioner sentence is: “In the worked formula `normalize(x)`, argument `x` represents `CustomerRow_17`.” | The worked formula's argument place and the value it represents. |
+| `MethodDescription_NormalizeCustomer`, which describes one exact `U.Method` `NormalizeCustomer`, says “input x is CustomerRow_17” beside the worked formula `normalize(x)`. | The current use is already clear: preserve the argument's representation relation and bypass further restoration. Use C.29 only for a separate question about choosing, transferring or relying on the mathematical representation. Keep `Arg_x` as the representation element and state the explicit correspondence from `Arg_x` to the described value `CustomerRow_17`. The repaired practitioner sentence is: “In the worked formula `normalize(x)`, argument `x` represents `CustomerRow_17`.” | The worked formula's argument place and the value it represents. |
 
 **Not this pattern when.**
 

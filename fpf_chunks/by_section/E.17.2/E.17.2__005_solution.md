@@ -6,12 +6,12 @@ section_id: "E.17.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.2/E.17.2__005_solution.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.17.2 — TEVB - Project-local Typical Engineering Viewpoint Bundle Template for Holons"
   - "E.17.2:4 — Solution"
-line_start: 107228
-line_end: 107374
+line_start: 107127
+line_end: 107273
 dependencies:
   - "A.22"
   - "A.6.3"
@@ -170,7 +170,7 @@ A materialized local TEVB instance provides four exact project references; the t
 4. use A.6.RCD when no existing direct or derived relation is sufficient;
 5. recover any representation's correspondence to that relation; use A.6.3.RT/A.6.3.RT.OE for expression construction or representation-scheme transition, adding C.29 when a mathematical inference or transfer question requires it.
 
-If a separate receiving claim asserts dated `U.Work`, recover each exact actual performer through A.13 and use A.15.1 to establish the Work, Method, time, and containing System independently. Add F.6 only when that receiving claim also consumes precise assignment-bound attribution through the same obtaining A.13 assignment; missing or failed F.6 leaves the Work intact. Those Work and optional attribution facts are neither participants in the cross-view relation nor prerequisites for identifying it.
+If a separate receiving claim asserts dated `U.Work`, recover each exact actual performer through A.13 and use A.15.1 to establish the Work, Method, time, and containing System independently. Add F.6 only when that receiving claim also consumes precise assignment-bound attribution through the same obtaining A.13 assignment; missing or failed F.6 alone leaves independently admitted Work intact. Those Work and optional attribution facts are neither participants in the cross-view relation nor prerequisites for identifying it.
 
 E.17 and E.24.PUB may publish a selected TEVB view edition through `PublicationExpressionRelation(selectedEdition,publicationExpression,boundedUseDeclaration)`, `PublicationExpressionBearingRelation(presentationCarrier,publicationExpression)`, and the five-participant `EpistemePublicationRelation(selectedEdition,audienceDeclaration,boundedUseDeclaration,publicationExpression,presentationCarrier)`. Identify the expression and carrier independently under their own domains. When a reusable publication form is selected, establish `PublicationFormConformanceRelation(publicationExpression,publicationForm)`; the same expression witnesses the corresponding form-mediated expression and bearing relations. Each exact relation retains its own participant set and maximal continuous obtaining interval; changing a participant or restoring its predicate after a gap yields another occurrence without reidentifying unchanged E or P. Broader availability through permitted expressions or carriers can continue when an exact publication changes.
 

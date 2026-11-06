@@ -6,12 +6,12 @@ section_id: "E.20:4"
 section_title: "Solution — the Mechanism Introduction Protocol (MIP)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.20/E.20__005_solution-the-mechanism-introduction-protocol-mip.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.20 — Mechanism Introduction Protocol: Introduce or Revise FPF Mechanisms"
   - "E.20:4 — Solution — the Mechanism Introduction Protocol (MIP)"
-line_start: 113556
-line_end: 113783
+line_start: 113447
+line_end: 113674
 dependencies:
   - "A.15.3"
   - "A.6.1"
@@ -110,8 +110,8 @@ Conditional manifest fields appear only when the corresponding claim is present:
 |---|---|---|---|
 | `U.Mechanism` identity and content: exact `EntityOfConcernRef`, effective reference scheme, direct subject and range fields, operation algebra, laws, admissibility, Applicability, and optional dependency manifest | **Mechanism-subject pattern under A.6.1** | Designated mechanism-subject pattern | A suite, plan, wiring module, card layout, or MIP manifest does not supply mechanism semantics; neighboring relations stay with their direct patterns. |
 | Suite membership, obligations, spec pins, and suite protocols | **Suite-subject pattern** | `A.6.7` or `A.6.7.<FamilyKey>` | SHALL NOT carry mechanism semantics, acceptance thresholds, gate criteria, DecisionLogs, or publication tails into the suite. |
-| Planned baseline pins (planned slot fillings, edition-pinned refs, explicit time selector) | **One `U.WorkPlan` and the planned-filling rows kept inside it** | `A.15.2` plus `A.15.3` rows that point to declaration members defined by their own patterns | SHALL NOT embed launch values, witnesses, or gate decisions in planning, or give a row independent identity. |
-| Source-grounded method, comparator, or generator candidates and their synthesis | **SoTA-pack subject pattern** for the pack; the cited subject patterns for the definitions used | `G.2` for claims, family cards and handoffs; the cited CHR/CAL, method, provenance or evaluation definition for its semantics | SHALL NOT treat a candidate card or wiring module as an introduced definition, or rephrase a source update as kernel semantics. |
+| Planned baseline pins (planned slot fillings, material edition-pinned refs, and a time selector when applicability or selection depends on it) | **One `U.WorkPlan` and the planned-filling rows kept inside it** | `A.15.2` plus `A.15.3` rows that point to declaration members defined by their own patterns | SHALL NOT embed launch values, witnesses, or gate decisions in planning, or give a row independent identity. |
+| A SoTA pack of source-grounded method, comparator, or generator candidates and their synthesis | **SoTA-pack subject pattern** for the pack; the cited subject patterns for the definitions used | `G.2` for claims, family cards and handoffs; the cited CHR/CAL, method, provenance or evaluation definition for its semantics | SHALL NOT treat a candidate card or wiring module as an introduced definition, or rephrase a source update as kernel semantics. |
 | Wiring that binds SoTA packs into flows or tasks | **Extension module governing definition** | `G.x:Ext.*` (`GPatternExtension` with explicit `PatternScopeId`) | SHALL NOT mint new semantics; SHALL bind only. |
 | Token renames and drift management | **Lexical subject pattern** | `F.18` (alias docking) plus registers per E.10/F.17 | SHALL NOT silently rewrite tokens or break citations. |
 | Change-cause taxonomy and regression triggers | **RSCR subject pattern** | `G.Core` | SHALL NOT invent ad hoc “reason kinds” scattered in patterns. |
@@ -194,13 +194,13 @@ This step keeps the P2W planning-to-work boundary crisp: the WorkPlan states **p
 
 #### E.20:4.8 - Step 8: Wiring & SoTA updates (keep method evolution out of kernel)
 
-If the introduction involves methods, comparators, selectors, or other SoTA-sensitive choices:
+For a method, comparator, selector or other SoTA-sensitive choice, retain the relevant source contributions and the editions actually used. A sufficient direct source reference can support the choice.
 
-1. Publish the source claims, candidate method/comparator families and needed synthesis in **SoTA packs** (G.2), referenced by edition-pinned refs. Use the pack handoffs to reach the subject definitions needed for the choice: G.3 for CHR, G.4 for CAL, and G.5 for registry/dispatch. The pack preserves their grounds and references; it does not replace those definitions or their admission conditions.
-2. Pin the chosen SoTA refs in the exact WorkPlan. Use declaration-local rows only for existing members under E.20:4.7; wiring consumes the selected planned values rather than silently overriding them.
-3. Put flow/task binding logic in **wiring modules** (`GPatternExtension`), with an explicit `PatternScopeId` and declared subject pattern.
-4. Wiring may bind, select, dispatch, or cite SoTA method packs; it may not redefine the mechanism's identity-bearing A.6.1 content. A bridge, realization, evaluation, evidence-use, or publication claim named by wiring remains governed by its direct relation pattern.
-5. If a SoTA update changes a mechanism's signature/laws, that semantic change SHALL be performed in the mechanism-subject pattern, under the A.6.1 mechanism-definition template; the change SHALL emit RSCR triggers (E.20:4.10).
+1. Use a G.2 synthesis pack when the receiving synthesis or Part-G use needs that result. Its handoffs reach the subject definitions used for the choice: G.3 for CHR, G.4 for CAL and G.5 for registry/dispatch. The pack preserves grounds and references; those definitions and admission conditions remain applicable.
+2. If an actual WorkPlan changes, pin the chosen source or pack refs in that WorkPlan. Use declaration-local rows only for existing members under E.20:4.7; wiring consumes the selected planned values rather than silently overriding them.
+3. When flow/task binding or dispatch is current, put that logic in wiring modules (`GPatternExtension`) with an explicit `PatternScopeId` and declared subject pattern.
+4. Wiring may bind, select, dispatch or cite method packs; it may not redefine the mechanism's identity-bearing A.6.1 content. A bridge, realization, evaluation, evidence-use or publication claim named by wiring remains governed by its direct pattern.
+5. If a source update changes the mechanism's signature or laws, change the mechanism-subject pattern under the A.6.1 definition template and emit the affected RSCR triggers under E.20:4.10.
 
 #### E.20:4.9 - Step 9: Terminology continuity (alias docking)
 

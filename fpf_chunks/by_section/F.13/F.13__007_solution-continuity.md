@@ -6,12 +6,12 @@ section_id: "F.13:6"
 section_title: "Solution — Continuity"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.13/F.13__007_solution-continuity.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "F.13 — Lexical Continuity & Deprecation"
   - "F.13:6 — Solution — Continuity"
-line_start: 122943
-line_end: 122970
+line_start: 122840
+line_end: 122867
 dependencies:
   - "F.1"
   - "F.17"
@@ -44,7 +44,7 @@ Use the least-committing continuity relation that tells the truth after recoveri
 
 2. **`aliases(label_legacy ↔ label_pref)`** — a legacy synonym is kept for reading.
    *Use when:* The two exact label uses have the same scheme, local-sense claim, intended use and, where applicable, governed value.
-   *Effect:* Keep a two-way read-path; writing uses `label_pref`. Keep at most one legacy alias per register. Distinct expressions need not be the same SchemeSenseCell.
+   *Effect:* Keep the needed two-way read-paths; writing uses `label_pref`. Preserve historical aliases that readers still need, distinguished from the preferred current designation. Distinct expressions need not be the same SchemeSenseCell.
 
 3. **`splits(label_old ⇒ {label_A, label_B})`** — one earlier label covered several senses or rows that are now distinguished.
    *Use when:* F.3 recovers the distinct local senses, or F.7 establishes the required row refactor.
@@ -52,7 +52,7 @@ Use the least-committing continuity relation that tells the truth after recoveri
 
 4. **`merges({label_A, label_B} ⇒ label_new)`** — several labels are consolidated for one recovered naming use.
    *Use when:* The local label uses have the same scheme, local-sense claim and use, with the same governed value where applicable; or two F.7 rows are duplicate displays of the same named comparison or use, exact entries, independently established relations, losses, basis and receiving-use conclusion.
-   *Effect:* Keep the old labels' epoch-qualified read-paths subject to the alias budget. This label or display consolidation does not merge source-local cells, named values or Bridge occurrences.
+   *Effect:* Keep the old labels' epoch-qualified read-paths needed by historical or current readers. This label or display consolidation does not merge source-local cells, named values or Bridge occurrences.
 
 5. **`retires(label_old)`** — a name is withdrawn without one successor.
    *Use when:* The label misleads and no single successor preserves its earlier use.

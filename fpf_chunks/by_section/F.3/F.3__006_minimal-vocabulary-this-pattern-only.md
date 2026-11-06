@@ -6,12 +6,12 @@ section_id: "F.3:5"
 section_title: "Minimal vocabulary (this pattern only)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.3/F.3__006_minimal-vocabulary-this-pattern-only.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "F.3 — Source-Local Sense Clustering"
   - "F.3:5 — Minimal vocabulary (this pattern only)"
-line_start: 119419
-line_end: 119428
+line_start: 119309
+line_end: 119318
 dependencies:
   - "A.11"
   - "A.7"
@@ -36,7 +36,7 @@ keywords:
 
 * **Interpretation basis** — the exact source and edition and the effective reference scheme used to understand the selected passages.
 * **Unit** — a source-local lexical note from F.2.
-* **LocalSenseClaim** — the one-sentence claim that a cluster of source uses supports under that basis.
+* **LocalSenseClaim** — the claim that a cluster of source uses supports under that basis, explained at the detail needed by the receiving question.
 * **Supporting expressions** — the F.2 expressions consolidated by the claim.
 * **Counterexample** — a short source-grounded use that must not be covered by this claim.
 * **SchemeSenseCell** — F.17’s optional stable address; it carries the scheme, an expression, and the local-sense claim.

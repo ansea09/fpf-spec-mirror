@@ -6,12 +6,12 @@ section_id: "E.17:9"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__011_conformance-checklist-normative.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:9 — Conformance Checklist (normative)"
-line_start: 107968
-line_end: 108011
+line_start: 107867
+line_end: 107910
 dependencies:
   - "A.10"
   - "A.15.4"
@@ -76,11 +76,11 @@ A conformance check is kept only if it changes the next bounded use of the publi
 | **CC-MVPK-4d (Published comparison and ordering)** | A source contrast keeps its declared comparison criteria. A published selection or ordering keeps its source-defined set or order semantics and comparator, citing **ComparatorSet** when that formal family is used. | No hidden scalarization or decision by display order; an ordinary bounded contrast needs no invented ranking or comparator family. |
 | **CC-MVPK-4e (Signature names the actual object)** | Use **Signature** on a face only for an object that is a signature under its applicable pattern. Use **TechName** or **PlainName** for the face's name. | A cited signature remains identifiable; a face label is not presented as a signature. |
 | **CC‑MVPK‑4f (Numeric and optional-PC discipline)** | Numeric or comparable claims retain the source pins that affect interpretation; when the optional PC profile is selected, its PC and CHR/CG references are explicit. | Cards show the material unit, scale, reference-plane, and edition pins; selected PC fields resolve without making PC classification a prerequisite for an ordinary face. |
-| **CC‑MVPK‑4g (No axis or dimension)** | Faces avoid “axis”, “dimension”, and “plane” metaphors except **ReferencePlane**; use CHR terms (**Characteristic**, slot, or **CharacteristicSpace**). | Lexical check flags none; only `ReferencePlane` appears. |
+| **CC‑MVPK‑4g (Characteristic and mathematical meaning)** | Faces name the actual characteristic, slot, space or mathematical construction. | The terms preserve the source meaning and the interpretation needed by the bounded use; literal mathematical axes, dimensions and planes remain admissible. |
 | **CC‑MVPK‑4h (Edition pins on defs)** | Where maps, distances, or spaces are cited, the face pins `DescriptorMapRef.edition` and `DistanceDefRef.edition` as applicable. Identify the space by `CharacteristicSpaceRef`; when the use depends on its exact definition, pin the separate `characteristicSpaceDescriptionRef: U.EpistemeRef` under A.19:5.1.1.1. | Required references resolve; the description supplies the defining components of that same space. |
 | **CC‑MVPK‑4i (Crossing references)** | A semantic crossing cites its F.9 Bridge and separate bounded-use claim; a plane-dependent value cites its selected `ReferencePlane` and applicable rule. A B.3 `CL`/`Φ(CL)` reference appears only when the current assurance use consumes that integration relation. | F.9 and plane references resolve; any B.3 penalty belongs to the assurance-bearing integration relation, not to the face. |
 | **CC‑MVPK‑4k (Subset‑of underlier)** | A face selecting `E` retains each applicable `ClaimScope` bound. If it presents a qualified holder-ability claim `C` about holder System `H` for work admission, also require `PublicationScope ⊆ WorkScope(C)`; use the intersection when both bounds apply. Reindexing **does not widen** publication scope. | The capability description has EntityOfConcern `H`; `C` designates its work-condition basis. All applicable subset witnesses pass; promotion diff shows no widening. |
-| **CC‑MVPK‑6 (Γ‑separation)** | No cost, time, or data-spend on publication morphisms. | Inspection shows that any cost, time, or data-spend claim concerns separately identified Work. |
+| **CC‑MVPK‑6 (Γ‑separation)** | Publication morphisms do not themselves consume cost, time, or data resources. | Any published resource claim retains its accounting subject and measured, estimated or derived basis. A claim about performed Work retains that independently admitted occurrence and its actual resource-use grounds. |
 | **CC‑MVPK‑7 (Reindexing monotone)** | If `s ⪯ t`, then `Emit_s(x) ⪯ Emit_t(x)`. | `TechCard` ≤ `InteropCard` (more structure, same claims). |
 | **CC‑MVPK‑8 (`publication-face kind` discipline)** | Only literal `publication-face kind` values **publication face/form** or **interop publication form** are used; faces are named **...View**, **...Card**, or **...Lane**. | Token scan; no “rendering” or “presentation” as `publication-face kind` values. |
 | **CC‑MVPK‑9 (Reindexing naturality)** | Conceptual-form coercions `PromoteFace[s->t]` exist, are total in the selected formal substrate, and commute with composition. | The local witness uses `PromoteFace` and is not overread as a world-side relation. |

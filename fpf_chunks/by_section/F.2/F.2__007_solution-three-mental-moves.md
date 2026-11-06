@@ -6,12 +6,12 @@ section_id: "F.2:6"
 section_title: "Solution — three mental moves"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.2/F.2__007_solution-three-mental-moves.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "F.2 — Source-Local Term Harvesting & Normalisation"
   - "F.2:6 — Solution — three mental moves"
-line_start: 119216
-line_end: 119235
+line_start: 119106
+line_end: 119125
 dependencies:
   - "A.11"
   - "A.7"
@@ -37,13 +37,13 @@ keywords:
 
 Ask: **“Which exact source use am I reading, and under which interpretation rules?”**
 
-Name the source and edition, locate the passage, and recover the effective reference scheme with F.0.1. Take one or two representative phrases. If you cannot identify that basis, do not harvest the word yet.
+Name the source and edition, locate the passages that support the meaning, and recover the effective reference scheme with F.0.1. Quote representative wording when it helps the reader recover that meaning. If the basis cannot be identified, leave the interpretation unresolved.
 
 #### F.2:6.2 - Move B — Name the local meaning faithfully
 
 Ask: **“How does this source itself say it?”**
 
-Choose the LNF with minimal editing. Keep an idiomatic Tech label, add an explanatory Plain label, and write one LocalSenseClaim. Prefer the source’s head noun and meaningful modifiers. Put behavioural equations, obligations, measurements, and kind criteria under their direct patterns rather than inside the lexical note.
+Choose the LNF with minimal editing and explain the LocalSenseClaim. When the receiving use needs an additional label, keep the Tech designation in the source's idiom; add a Plain designation when it helps the intended reader recover the same meaning. Preserve meaningful head nouns and modifiers. Include a source-grounded equation, obligation or kind criterion when it is part of that meaning. Establishing a factual instance, performance, obligation or classification remains a separate claim under its direct pattern.
 
 #### F.2:6.3 - Move C — Fence the result
 

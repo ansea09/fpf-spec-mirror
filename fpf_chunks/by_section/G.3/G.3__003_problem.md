@@ -6,12 +6,12 @@ section_id: "G.3:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.3/G.3__003_problem.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "G.3 — CHR Authoring for a CG‑Frame: Characteristics, Scales, Levels, Coordinates"
   - "G.3:2 — Problem"
-line_start: 128315
-line_end: 128326
+line_start: 128223
+line_end: 128234
 dependencies:
   - "A.10"
   - "A.15.2"
@@ -62,11 +62,11 @@ keywords:
 
 Numbers alone do not tell a downstream user which measurements and operations are admissible. Common failures include:
 
-* **Meaning leaks** when the same token is reused after its referent or sense, bearer, scope, validity window, evidence basis, or intended use has changed.
+* **Meaning leaks** when the same token is reused after its referent or sense, bearer, scope, applicable validity window, evidence basis, or intended use has changed.
 * **Illicit arithmetic** (e.g., averaging ordinals, mixing units, laundering polarity).
 * **Hidden normalizations** that silently change scale type, polarity, or admissible transforms.
 * **Unreproducible comparisons** (missing edition pins for methods/distances/policies; unclear reference plane).
-* **Unscoped reuse** (the characteristic or scale lacks an exact edition, bearer, scope and validity window, reference plane, evidence basis, or intended downstream use; any relation needed for reuse is left unstated).
+* **Unscoped reuse** (the characteristic or scale lacks an exact edition, bearer, scope and any required temporal qualification, reference plane, evidence basis, or intended downstream use; any relation needed for reuse is left unstated).
 * **Un-auditable aggregation** (no explicit legality surface and guard surface; no proof hooks; unclear governing definition for the Γ‑fold).
 * **Refresh chaos** (changes in names/editions/policies do not map to typed RSCR causes).
 

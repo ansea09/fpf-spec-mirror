@@ -6,7 +6,7 @@ section_id: "C.43:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.43/C.43__005_solution.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "C.43 — Connect Observation, Choice and Action in Control"
   - "C.43:4 — Solution"
@@ -33,7 +33,7 @@ Use the following operations where their results are missing. Return from a cons
 
 Begin with the subject of the intended change and the systems that can realize it. A controlled system can be a machine, a person, an organization or another physically realized system. A controller can be embodied in one participant or distributed across several. These descriptions designate what the systems do in this relationship; they do not introduce essential kinds of system. The change being organized can also concern work, capability, an applied Method or the model used in decisions. Establish separately what content is revised and which systems interpret it, act and produce the intended consequences. A model, goal, command and report are content used in that work, not additional physical plants.
 
-Recover the present conditions from which action must continue. Include completed work, effects still unfolding, resources already occupied, and commitments that constrain what can happen next. The present is not a blank initial condition. Nor is maintaining the current practice equivalent to freezing the system: it is a continuation with its own future consequences.
+Recover the present conditions from which action must continue. Include completed work, effects still unfolding, resources already occupied, and commitments that constrain what can happen next. Maintaining the current practice continues its effects; it does not freeze the system.
 
 State the result being sought, the conditions to preserve, the affected participants and the span over which the choice matters. These can be qualitative. An emergency response may need only a justified action until assistance arrives; an investment can require consequences over years. Establish whose decision can change a goal or commitment. Conflicting interests may require agreement, a legitimate governing decision or separate comparisons rather than one invented common preference.
 
@@ -49,7 +49,7 @@ Control can be open over a selected interval. An input is selected or set from t
 
 The subject of the decision, the information and interventions available to each participant, and the physical realization can have different boundaries. One device can estimate, choose, act and modify its own means. Several participants can jointly supply one influence, and each can be influenced by the others. Recover the contributions and their actual connection before allocating them to parts. A combined mathematical description can retain joint dynamics when a clean separation of states is unsuitable. Its coordinates do not themselves establish physical parthood.
 
-For distributed control, preserve what each participant can know and do. Writing local rules as `u_i(t) = pi_i(I_i(t))` makes their information dependence explicit; collecting those rules into one notation creates no shared observation, communication channel or authority. Compare their joint effects with shared resources, timing and constraints. The constructive work is obtaining the required cooperation, not merely drawing a larger controller around the participants.
+For distributed control, preserve what each participant can know and do. Writing local rules as `u_i(t) = pi_i(I_i(t))` makes their information dependence explicit; collecting those rules into one notation creates no shared observation, communication channel or authority. Compare their joint effects with shared resources, timing and constraints. The constructive work is obtaining the required cooperation.
 
 ##### C.43:4.1.2 - Explain controlled self-change through its acting and changed sides
 
@@ -73,19 +73,19 @@ Start from the incumbent's actual relations. An unexecuted command, a delayed ob
 | A proposed action with no available means or authority | A recommendation or selected proposal and the missing realization relation | How to obtain the means or agreement, change the proposal, or state the remaining inability to act |
 | An unexplained gap in the observed arrangement | The supported relation and the uncertainty about another contribution | An observation or source that can distinguish absence from an omitted description |
 
-A mathematically degenerate case is useful when the mapping is justified: a constant policy removes dependence on new observations; a zero coupling removes a specified influence. A missing observation in the evidence is not such a zero. Likewise, a coupled nonlinear arrangement need not be a limiting case of one particular linear model to be describable here. Use the common relations to select an adequate subject model under **C.29**, then establish its relevant behavior. This preserves both an honest description of imperfect control and the stronger question of what should replace it.
+A mathematically degenerate case is useful when the mapping is justified: a constant policy removes dependence on new observations; a zero coupling removes a specified influence. A missing observation in the evidence is not such a zero. Likewise, a coupled nonlinear arrangement need not be a limiting case of one particular linear model to be describable here. Choose or reuse an adequate subject model and establish its relevant behavior. Apply **C.29** when a mathematical representation's choice, transfer or supported use remains unresolved. This preserves both an honest description of imperfect control and the stronger question of what should replace it.
 
 ##### C.43:4.1.4 - Recover the control claim behind the field wording
 
 Read *control*, *management*, *regulation*, *governance* or *steering* in the claim where it is used. First identify what is being discussed: a field of practice, its methods, the people doing the work, an actual arrangement, an intervention, a power to decide, or information about the result. Then recover the subject being influenced, the condition or change at issue, the available information and means, and how they determine what happens. Preserve the established field name while making this particular relationship explicit.
 
-In operations management, practitioners control how an undertaking produces and delivers its results: they connect demand, capacity, work, commitments and observed performance to changes in what is done. The word *management* does not exclude this practice from the common control construction. The discipline also studies and designs those operations. A calculation, forecast or inspection is a contribution to control when its result is used in that connection; the field name alone does not specify the contribution. The same distinction applies to strategic direction and to control at other horizons.
+In operations management, practitioners control how an undertaking produces and delivers its results: they connect demand, capacity, work, commitments and observed performance to changes in what is done. The word *management* does not exclude this practice from the common control construction. The discipline also studies and designs those operations. A calculation, forecast or inspection is a contribution to control when its result is used in that connection. The same distinction applies to strategic direction and to control at other horizons.
 
 The organizational account must retain the conditions through which a decision can influence action: commitments, participation, rights, incentives and available resources. A right to issue an instruction and the means to have it carried out are different relations that can both be necessary. *Governance* may concern how such rights, obligations and accountability are constituted or exercised; recover those acts and their effects rather than translating the word into a physical feedback mechanism. *Management* may also designate the people exercising a responsibility. Name those people when they are the claim's subject.
 
 Likewise, an inspection called a *control* can establish a test result without selecting or realizing a corrective action. Identify the response that receives the result when the claim concerns continuing control. In translation, English *control* and Russian *контроль* are not interchangeable by default: the latter can mean checking or monitoring, while *управление* can name the wider arrangement. Preserve a source's intended meaning through the recovered relationship; do not replace every occurrence with one preferred English word.
 
-The result is an ordinary, usable account such as: “The operating team changes job release using queue information, due dates, capacity and existing commitments.” Use C.30.LCA when the resulting observation, command or supervision relations need structural qualification; use the direct authority, commitment, measurement or evidence pattern when that is the remaining question. If the text already makes its intended meaning clear, retain it. No new control kind, universal organizational hierarchy or renaming of a discipline is needed for this recovery.
+The result is an ordinary, usable account such as: “The operating team changes job release using queue information, due dates, capacity and existing commitments.” Use C.30.LCA when the resulting observation, command or supervision relations need structural qualification; use the direct authority, commitment, measurement or evidence pattern when that is the remaining question. If the text already makes its intended meaning clear, retain it.
 
 #### C.43:4.2 - Build the account of the situation needed for the choice
 
@@ -254,5 +254,5 @@ The mantra orders questions for understanding; it gives no common clock to their
 
 Each phrase recalls a relation developed above. Assessment is sufficient relative to the choice. Alternatives include future conditional actions. Comparison includes the consequences and means of the whole continuation. Realization connects a decision to actual change. Examination supplies evidence for the next use. Revision follows the dependency whose basis changed.
 
-Use the mantra to locate the unresolved connection, then work there. A new observation can send reasoning to the model, a resource constraint to the alternatives, or a changed purpose to the comparison basis. Several answers can be refined together. The arrows give a teaching order for **A.22.CGUS**, not a one-pass workflow or a required first step. Use the fuller explanation and subject Methods when a remembered phrase no longer supplies the needed operation.
+Use the mantra to locate the unresolved connection, then work there. A new observation can send reasoning to the model, a resource constraint to the alternatives, or a changed purpose to the comparison basis. Several answers can be refined together. The arrows give a teaching order, not a one-pass workflow or a required first step. Use the fuller explanation and subject Methods when a remembered phrase no longer supplies the needed operation.
 

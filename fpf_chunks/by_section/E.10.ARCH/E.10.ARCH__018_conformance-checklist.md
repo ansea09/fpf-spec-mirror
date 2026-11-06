@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:10"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__018_conformance-checklist.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:10 — Conformance Checklist"
-line_start: 101936
-line_end: 101964
+line_start: 101856
+line_end: 101884
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -76,7 +76,7 @@ Selecting a recovery pattern selects guidance. Kind admission, the truth of an e
 | `CC-E10ARCH-3` | Direct known cases bypass restoration. The installed-bearing report, C.29 graph edge, reusable `ParticipantSlot`, and source-word `input` cases preserve direct relation, assertion, declaration, actual participant, representation, method/work/transformation/result, and subject-pattern boundaries. |
 | `CC-E10ARCH-4` | A new realization pattern is added only when no existing defining or constraining rule and subject-pattern guidance supply the stable recovery shape without duplicating repair-only doctrine. |
 | `CC-E10ARCH-5` | Each subject description keeps its primary `EntityOfConcern` and first useful move central and retains only thin first-use cues to precision restoration when wording is hidden. A guard about description or publication use appears only under the `F.19` plausible-intended-reader test and stays with the exact rule whose use it changes; it does not become the subject Solution. |
-| `CC-E10ARCH-6` | `reading`, `read`, and `quality-read` wording remains trigger wording and does not mint `ReadingPrecisionRestoration`. |
+| `CC-E10ARCH-6` | Keep ordinary reading instructions ordinary. Use C.2.P for an unresolved source, publication or use distinction and the direct evaluation pattern only when that evaluation claim is current. |
 | `CC-E10ARCH-6a` | EntityOfConcern-family uses follow the rule-content split in §2.1. Keep the episteme's identified `EntityOfConcern`, a declaration-local `EntityOfConcernSlot`, and references or designations separate. `C.2.P` defines and `E.17.AUD` uses the union field `publicationUnitPrimaryEntityOfConcern`; `E.17.AUD.OOTD` defines the separate local `publicationUnitPrimarySubject`. The latter equals `EntityOfConcern(E)` only when one identified carried episteme E concerns that exact entity. Neither field adds a constitution participant and the fields are not aliases. Recover other current claims under their defining rules and use F.18 for durable naming after recovery. |
 | `CC-E10ARCH-6b` | State-family wording follows one path: E.10 recognizes it; E.10.MOVE first resolves ambiguous readiness-like wording; A.19.SPR repairs only a remaining hidden object or state frame; and the direct pattern states the recovered relation, assertion, result, decision, or field. A predicate appears only when that direct pattern defines or needs one. |
 | `CC-E10ARCH-6c` | Stratification and source-label wording follows the selected distribution: `E.10` recognizes the wording-use row, `C.30.STRAT` supplies the recovery rule and practical guidance for recurring source-label repair, and exact subject assertions state already-recovered control-layer, module-interface, architecture-to-`TransformationFlowStructure`, scale or coarse-graining, publication relation set, gate, work, decision, or ordinary non-use cases directly. |

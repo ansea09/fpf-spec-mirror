@@ -6,12 +6,12 @@ section_id: "E.11.DSG:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.DSG/E.11.DSG__005_solution.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.11.DSG — Architectural Reference"
   - "E.11.DSG:4 — Solution"
-line_start: 104798
-line_end: 104916
+line_start: 104717
+line_end: 104835
 dependencies:
   - "C.2.1"
   - "C.2.P"
@@ -89,11 +89,11 @@ Make the account noticeable from the ordinary entrance to the explained language
 Test this entrance from the reader's starting situation, without supplying the Reference's name or destination as the answer. Can the reader notice that the explanation exists, tell what question it answers, and choose it when the arrangement is unclear? Can someone with a familiar sufficient Method still proceed directly? Successful filename search or link resolution answers a different question.
 
 
-Make these facts recoverable before the reader chooses an entry. An embedded architectural reference can use the containing publication's edition, date, status and ToC wherever they already identify this unit and its content; do not repeat that front matter or constitute a separate edition solely for the account. A separately carried unit exposes the necessary facts at its own entrance:
+Make the facts needed to identify and use the architectural reference recoverable before the reader chooses an entry. An embedded account can use the containing publication's identifying information and ToC. A separately carried unit exposes the necessary information at its own entrance:
 
-- the qualified architectural-reference title and exact edition locator;
-- fixed edition date, intended readers, and practical use;
-- actionable status or an honest non-current, superseded, or retired warning, together with its as-of basis;
+- the qualified architectural-reference title and a locator; identify an exact edition when the receiving use depends on it;
+- intended readers and practical use, with the edition date when it changes identification or use;
+- a status or warning when it changes the reader's continuation, with the grounds and as-of basis needed for any currentness claim;
 - a direct entry to the account of the explained whole, with constituent and external contributions distinguished; and
 - a table of contents that locates the architectural account, useful question-led entries and their supplying explanations without implying a mandatory order.
 
@@ -130,9 +130,9 @@ Say directly what each returned item does. For an available result, name the res
 
 #### E.11.DSG:4.4 - Test sufficiency and each item's necessity
 
-Call an answer a **sufficient combination with every returned item necessary** only when the Reference entry gives a recoverable candidate boundary, required result, and sufficiency rule, the combination satisfies that rule, and removing any returned item makes the result insufficient. The boundary is the resources actually inspected through the entry and its direct source returns, not every publication that might exist. This item-necessity test does not establish the smallest combination. A “smallest” claim also needs a declared size criterion and a comparison or argument showing that no smaller in-scope combination is sufficient.
+Call a combination sufficient when it satisfies the required result and sufficiency rule within the recoverable candidate boundary. The boundary is the resources actually inspected through the entry and its direct source returns, not every publication that might exist. Claim that every returned item is necessary only when removing any one makes the result insufficient. This item-necessity test does not establish the smallest combination: that claim also needs a size criterion and a comparison or argument showing that no smaller in-scope combination is sufficient.
 
-When that test cannot be completed, return a bounded plausible combination and name the uncertainty or missing item. Do not disguise a convenient shortlist as a `JointUseSet`. When all-member inclusion has been justified under the stated rule and needs a selector-facing `JointUseSet` declaration, use `G.5-6 DeclareSetResult` with the already identified members, named use and current inclusion basis. The resources retain their own kinds; this declaration does not perform their selection.
+Return the strongest supported conclusion. Established sufficiency remains usable when item necessity or minimal size is unestablished; when sufficiency itself remains open, name the missing premise and qualify the combination accordingly. Distinguish resources included together from alternatives retained for later choice. When justified all-member inclusion needs a selector-facing `JointUseSet` declaration, use `G.5-6 DeclareSetResult` with the identified members, named use and current inclusion basis. The resources retain their own kinds; this declaration does not perform their selection.
 
 #### E.11.DSG:4.5 - Return to the full Methods and refresh the affected answers
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.5.4.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.5.4 — Cross‑Disciplinary Bias Audit"
-line_start: 96694
-line_end: 96772
+line_start: 96679
+line_end: 96757
 dependencies:
   - "E.3"
   - "E.5"
@@ -56,7 +56,7 @@ Bias in wording, examples, unit choices or principle weighting can make a rule a
      scope explicitly: *“Applies primarily to thermodynamic systems.”*
 
 4. **Bias annotation**
-   The pattern carries a short **Bias‑Annotation** paragraph naming the five lenses and any scoping statement. Keep workflow checklists,
+   The pattern carries a short **Bias-Annotation** stating the result of the five-lens examination: any material weighting, its justification, and the scope or correction needed for the intended use. Keep workflow checklists,
    reviewer metadata and other data outside the Core, along with tips on data formats and data governance.
 
 ### E.5.4:5 - Archetypal Grounding (System / Episteme)
@@ -70,7 +70,7 @@ Bias in wording, examples, unit choices or principle weighting can make a rule a
 
 | ID | Requirement | Purpose |
 |----|-------------|---------|
-| **CC‑BA.1** | Each Core pattern **SHALL** include a *Bias‑Annotation* listing the five lenses and any declared scope limitation. | Ensures explicit reflection on bias. |
+| **CC‑BA.1** | Each Core pattern **SHALL** include a *Bias-Annotation* stating the material result of the five-lens examination and any justified scope limitation. | Makes the actual bias conclusion usable. |
 | **CC‑BA.2** | A pattern labelled “universal” **MUST NOT** privilege a single lens without justification or scoping note. | Preserves trans‑disciplinary integrity. |
 | **CC‑BA.3** | If scope is declared, the pattern **SHALL** state its rationale. When cross-domain translation is claimed or required, it **SHALL** reference the mapping or rationale supporting that translation and state its limits. | Keeps pathways open for other calculi. |
 | **CC‑BA.4 Universality claim and applicable evidence** | A pattern labelled **“universal”** states the exact ClaimScope, population or bearer, qualification window, and intended use of that claim. When the claim is universal-core placement for a durable U-kind candidate governed by **E.24.UK**, apply **A.8:3**'s complete cross-domain projection test. `Diversity_P` or `IlluminationSummary` supports that test only through its governing C.17, C.19, or direct pattern; it is not a standalone gate. | Keeps the claimed scope and its applicable evidence explicit. |

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.19.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
-line_start: 112675
-line_end: 113495
+line_start: 112566
+line_end: 113386
 dependencies:
   - "A.15.1"
   - "A.6.P"
@@ -114,12 +114,12 @@ For an ordinary bounded review, keep the reviewed edition or subset, question, s
 1. the exact reviewed FPF pattern edition or bounded subset and the declared admission/refresh question;
 2. the review configuration: baseline and risk-selected PCP declarations, exact question scope, use, qualification window, and stop boundary;
 3. the semantic review `U.Method`, when that identity matters; call an episteme its `U.MethodDescription` only after it passes A.3.2;
-4. for each actual review, repair, or verification occurrence asserted as dated `U.Work`, recover every exact actual performer through A.13 and use A.15.1 to identify its time, Method, containing System, and Work independently. Add F.6 only when the review account expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment. That attribution must be independently grounded rather than inferred from holder identity or timing, and a missing or failed F.6 link leaves the Work intact;
+4. for each actual review, repair, or verification occurrence asserted as dated `U.Work`, recover every exact actual performer through A.13 and use A.15.1 to identify its time, Method, containing System, and Work independently. Add F.6 only when the review account expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment. That attribution must be independently grounded rather than inferred from holder identity or timing, and a missing or failed F.6 link alone leaves independently admitted Work intact; recheck any A.13 or A.15.1 premise invalidated by the same finding and its dependent conclusions;
 5. each exact PCP check application and A.6.1 binding only when the receiving use must replay those bindings;
 6. any distinct authoring/repair work, changed pattern edition, and focused verification work/application in inspect-repair-verify form;
 7. actionable finding or blocker claims, focused-verification claims, and one C.2.1 aggregate E.19 review-result episteme when a durable conclusion is required;
 8. any separate authority-bearing admission, refresh, return-for-repair, or waiver decision and its decision work;
-9. witnesses, A.10 evidence-use or provenance relations, and any B.3 assurance or reliance result when those claims are made; and
+9. witnesses and the support required by the actual claim; A.10 when an implicit or required-replayable source-to-use account is needed; and any B.3 result required by the selected assurance claim; and
 10. any F.10 status use, publication occurrence or form, carrier, and currentness relation used by the receiving claim.
 
 Any local system-role kind and its independently evaluated classification are optional separate claims; neither supplies assignment or performance. Route unresolved source *role* through `E.10.ROLE`, and name intended-reader or representation positions directly. When a later claim relies on a dated occurrence, apply item 4 and `CC-E19-0`.
@@ -151,7 +151,7 @@ If the aim is repeated improvement against an object-under-improvement evaluatio
 
 `E.19` reviewer and reviewed-pattern wording is FPF pattern-quality gate wording. It governs FPF admission, refresh, return-for-repair, blocker, and review-profile claims, not `E.21` coordinate assignment and not project-side publication interpretation, explanation interpretation, comparative review-unit use, or participation in a named project-side review relation. When those project-side relations are used, use the publication or project-side pattern that names the object being interpreted or reviewed.
 
-**Project-side reuse boundary.** Use this boundary when an E.19 review-result episteme is cited for project certification, evidence, safety or compliance assurance, gate input, release justification, work authority, or publication truth. First identify the exact FPF pattern-quality claim it states: admission, refresh, repair return, or selected pattern-quality boundary. Any project-side reuse then opens the concrete relation that governs that use: `A.10` for evidence or provenance, `G.11` for source currentness, `B.3` for assurance, `F.10` for status use/interpretation, `A.20` for a current local CV status when applicable, `A.21` for gate decision, `A.15` for work, or the relevant project-side pattern. The E.19 result may be evidence about FPF pattern quality; it is not certification of the project world. Plain wording in the reviewed text remains ordinary unless it changes admissible use, evidence, gate, assurance, work, decision, status use, or FPF pattern application. A project refusal or approval requires a project-side governing relation that states the project claim and its admissible use.
+**Project-side reuse boundary.** Use this boundary when an E.19 review-result episteme is cited for project certification, evidence, safety or compliance assurance, gate input, release justification, work authority, or publication truth. First identify the exact FPF pattern-quality claim it states: admission, refresh, repair return, or selected pattern-quality boundary. Any project-side reuse then opens the concrete relation that governs that use: `A.10` for an implicit or required-replayable source-to-use account, `G.11` for source currentness, `B.3` for assurance, `F.10` for status use/interpretation, `A.20` for a current local CV status when applicable, `A.21` for gate decision, `A.15` for work, or the relevant project-side pattern. The E.19 result may be evidence about FPF pattern quality; it is not certification of the project world. Plain wording in the reviewed text remains ordinary unless it changes admissible use, evidence, gate, assurance, work, decision, status use, or FPF pattern application. A project refusal or approval requires a project-side governing relation that states the project claim and its admissible use.
 
 
 
@@ -253,7 +253,7 @@ Checks include:
 Checks include:
 
 * refresh-sensitive claims are identified and either (a) updated from the best current problem-relevant source line with matching Solution changes, or (b) explicitly scope-limited and labeled as historical lineage; source date, count, official status, or novelty alone does not establish current-best use,
-* select living refresh only for a high-priority claim or pattern subset likely to change when new evidence or a changed neighbor appears. Monitor and reopen the smallest affected unit at a named trigger; return it to ordinary periodic review when continued surveillance no longer buys enough currentness for its cost,
+* select living refresh only for a high-priority claim or pattern subset likely to change when new evidence or a changed neighbor appears. Monitor and reopen the smallest affected unit at a named trigger. When continued surveillance no longer justifies its cost, retain only a separately justified interval or trigger and any binding maintenance requirement; otherwise end that surveillance,
 * Relations are updated to current pattern IDs; deprecations/renames are handled via explicit continuity notes (no silent relabeling),
 * when one new or substantially revised pattern subset is being prepared for send or landing, inspect the related patterns, the concrete constraints or tests they supply, companion patterns, Relations entries, and monolith-backed pattern sections that may require aligned edits. Repair an in-scope mismatch or return it as a finding. Successful alignment remains visible in the changed sources and the governing landing or release result, not in an E.19 pass recital,
 * any long-lived companion, profile, check sheet, pattern-local companion row, review harness, or analogous selected non-pattern FPF kind-reference pair kept with the reviewed pattern or subset states its use question, the concrete pattern contribution or selected non-pattern FPF kind-reference pair it serves, admissible companion-only use, one real breakage if absent, and demotion or deletion condition when no such breakage exists.
@@ -275,7 +275,7 @@ Checks include:
 * each “best practice” claim or SoTA claim in the Solution is explicitly **bound** to SoTA‑Echoing rows (or to SoTA Synthesis Pack identifiers when used), rather than floating as ungrounded prescription, and those rows identify best-known current practice rather than popularity alone,
 * the selected SoTA practice or source set answers the declared working problem and the relevant domain or practice tradition rather than merely justifying package placement, naming neatness, or pattern clustering,
 * each SoTA row changes at least one FPF-governed outcome for the pattern: what the user may do, a source-supported applicability or reliance limit, which FPF pattern application must be named, or a claim's eligibility for a named release, policy, assurance, gate, action-selection, or adjudication use. An explicit rejected reading follows F.19's grounded-guard test,
-* novel synthesis retains its actual evidential status: frame it as a scoped hypothesis with explicit limits, or substantiate the stronger claim through its source claims, support and conflict relations, shared dependencies and applicability under `G.2` and `B.1.3`. To admit the stronger synthesis as normative guidance, promote or register it in a SoTA Synthesis Pack with those grounds. Registration alone does not establish it as best-known practice. A merely explanatory SoTA note that leaves the FPF-governed sections untouched is non-conforming,
+* novel synthesis retains its actual evidential status: frame it as a scoped hypothesis with explicit limits, or substantiate the stronger claim through its source claims, support and conflict relations, shared dependencies and applicability under `B.1.3`. Admission as normative guidance requires those grounds and limits. Use `G.2` when the receiving use requires broad, refreshable SoTA harvesting and its handoffs; pack registration alone does not establish the synthesis as best-known practice. A merely explanatory SoTA note that leaves the FPF-governed sections untouched is non-conforming,
 * where traditions disagree substantively, the pattern makes the disagreement visible and states whether it adopts, adapts, or rejects each relevant source idea instead of silently selecting one tradition,
 * retrieval or benchmark methods are used only when the relevant evidence relation is present; their dimensions do not become universal pattern-quality benchmarks,
 * refresh‑sensitive claims (those likely to decay) are explicitly marked with scope limits, timespan notes, or lineage labeling when appropriate.
@@ -358,17 +358,17 @@ Use this risk-trigger model:
   newly treated as entry-bearing, one changed wrong-pattern or
   governing-entry or applicable-projection-function boundary, one changed local
   first-entry selection effect, or one substantive lexical-query cue change.
-  The author runs the core check and adds at most one selected risk check if
-  needed. A compact pattern-local note is conditional on the rationale need
-  stated below.
+  The author runs the core check and adds only the check or combined checks
+  needed for unresolved entry risks, reusing overlapping evidence. A compact
+  pattern-local note is conditional on the rationale need stated below.
 
 * **Trigger class 3 — multi-companion-function or high-risk public entry change**
   one change affecting several selected projection or companion functions together, one
   public-entry rewrite, one often-misclassified entry-recognition function, or one newly
   introduced first-entry pattern-comparison set.
   The author runs the core check and adds only the relevant selected risk
-  check, usually parity, wrong-pattern, public-entry, or expanded-entry-disambiguation-case
-  adequacy.
+  checks, such as parity, wrong-pattern, public-entry or expanded-entry-
+  disambiguation-case adequacy, stopping when the live risks are covered.
 
 * **Trigger class 4 — retrieval-facing, observed-failure, or measured-improvement change**
   one retrieval-facing companion or projection function changes, one observed misretrieval or repeated
@@ -702,7 +702,7 @@ This defect requires a different comparison from section 5.1. There the relation
 
 ### E.19:6 - Bias-Annotation
 
-Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: **Universal** (applies to all patterns and all clusters).
+
 
 Bias risks and mitigations:
 
@@ -744,7 +744,7 @@ Bias risks and mitigations:
 | **CC-E19-17 (Companion-material retention is justified).** | When a new or refreshed pattern subset keeps a long-lived companion, profile, check sheet, pattern-local companion row, review harness, or analogous selected non-pattern FPF kind-reference pair, the retention basis **MUST** make its companion function explicit: companion use question, concrete pattern contribution or selected non-pattern FPF kind-reference pair served, admissible companion-only use, one real breakage if absent, and retention, accepted-source-material-only, or removal condition when no such breakage exists. Use the governing retention or design decision; no separate E.19 pass account is required. | Prevents companion material from remaining by inertia or becoming hidden authority after the pattern body already carries the usable guidance. |
 | **CC-E19-18 (Substantive solution and locus adequacy is checked).** | A new, refreshed, or materially repaired subset **MUST** receive a pattern-specific substantive adequacy check unless the change is purely mechanical. Check whether it still solves the stated problem, assigns claims to the correct governing loci, preserves kind boundaries and selected companion/projection functions, keeps SoTA grounding current enough, remains usable without excess apparatus, and worsens no content relation. Repair each in-scope failure or return it as a finding and name any needed wider boundary. Questions that reveal no defect need no separate account. | Prevents clean checklists and terminology from hiding wrong content. |
 | **CC-E19-19 (Accepted-decision carry-through is checked).** | When the reviewed pattern, subset, or current change is claimed to implement an accepted `DRR`, repair findings, intake material, architecture source material, or other accepted source named by value, inspect each applicable decision against the reviewed loci or the named concrete pattern contribution, claim, companion, result, or source that carries it. Require exact predicate or defining `ClaimGraph` identity only when the decision or named reliance needs it. Repair or report partial, missing, wrongly rejected, wrongly routed, or wrongly classified carry-through. The accepted source remains the decision source; do not duplicate decisions expressed sufficiently, inherited unchanged, correctly absent, or outside the subset. Keep `E.17.ID.CR` units, `PublicationUnit`, publication forms/faces, source materials, and project-side review relations in their governing kinds. | Prevents accepted decisions from disappearing without making E.19 their second authority. |
-| **CC-E19-20 (Project-side reuse has its own governing result).** | Reuse outside FPF pattern-quality review requires a project-side governing result that names the project claim, relation, required evidence or assurance, and the exact contribution taken from E.19. The E.19 result remains scoped to the reviewed FPF pattern edition or subset. | Keeps pattern review and project-side decisions under their respective rules. |
+| **CC-E19-20 (Project-side claims retain their own grounds).** | When reuse supports a project-side claim beyond the stated pattern-quality result, establish that claim under its applicable rule, retaining the required evidence or assurance and the exact contribution taken from E.19. Keep a separate project-side result when that rule or receiving use requires it. The E.19 result remains scoped to the reviewed FPF pattern edition or subset. | Keeps pattern review and project-side decisions under their respective rules. |
 | **CC-E19-21 (Precise-language distribution is preserved).** | When the reviewed change repairs language or edits its rules, check the selected distribution: `F.19` owns the common whole-span semantic and pragmatic repair; `E.10` supplies compact cues and exact routing; `E.10.ARCH` opens only for unresolved ontological recovery; exact subject patterns define or test the recovered object or relation; affected patterns keep only thin cues unless the recovered subject is their own EntityOfConcern. A review fails this row when an affected pattern grows a rival normal-pass algorithm, mandatory counterreading field, duplicate trigger registry, or check-internal attention mechanics. | Prevents pattern admission or refresh from duplicating the language method or reintroducing ungrounded guards. |
 | **CC-E19-22 (EntityOfConcern and precise-language triage is applied).** | For the changed span and affected pattern texts, apply the review-specific continuity questions in §4.2.1 and the common `F.19` reading. Compare admissible use before and after independently of whether an explicit guard is warranted. Add formal identities only when truth, a live distinction, or named reliance needs them; apply A.3.1 and A.3.2 before claiming Method or MethodDescription, and `CC-E19-0` to dated Work. Use E.21 `PrecisionRestorationProfile` when that evaluation is active. | Prevents a type-correct rewrite from changing referent, path, use, or consumer behavior while keeping deep restoration auxiliary to the pattern claim. |
 | **CC-E19-23 (Pattern-edition use-value replay preserves distinct outcomes).** | When `E.8:4.1.2` selects a material edition change, judge separately only the affected use probes and changed wording groups whose result can differ. Apply `F.19` to each group: compare its subject, predicate, participants, modal force, referents, operands, contribution, information order, and applicability boundary under its governing rule. Check widening and narrowing against that rule and the accepted change decision independently of reader-plausibility; use the plausible-reader test for explicit-guard contribution. Do not invent an alien case or guard. Replay the positive Solution and each coordination or enumeration member whose membership or contribution can differ. Reuse prior results only when object, editions, scope, and assurance question match. Run this once on the stable candidate before acceptance or landing; do not create per-keystroke review, a second ledger, or positive recitals. | Prevents broad-use preservation from hiding semantic drift while keeping bounded edits cheap. |
@@ -786,7 +786,7 @@ Bias risks and mitigations:
 | -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
 | **Repeatable admission decisions** — reviewers share a common review language.     | More explicit editorial work; mitigated by a small baseline and risk-selected profiles.        |
 | **Higher trust in normative content** — CC becomes the enforceable conformance check set. | Authors must align prose and CC carefully; mitigated by coherence checks.                  |
-| **Controlled evolution** — reviewers detect and repair conceptual drift.              | Periodic workload; mitigated by prioritizing high-dependency and high-risk patterns first. |
+| **Controlled evolution** — reviewers detect and repair conceptual drift.              | Maintenance workload; mitigated by prioritizing high-dependency and high-risk patterns first. |
 | **Less hidden drift** — terminology and cross-context reuse become explicit.     | Some drafts will be delayed; mitigated by early profile selection when the relevant risk is already visible.        |
 
 ### E.19:10 - Rationale
@@ -811,7 +811,7 @@ The baseline profile protects cross-pattern comparability and editorial sanity. 
 
 **Selected current front.** Ordinary E.19 use combines a lightweight stable-candidate review with cheap bounded automation, then scales review depth by likely harm, novelty, reuse breadth, and source volatility. It preserves independent findings as a real review form, tests breadth with practitioner evidence only when the claim warrants it, and refreshes the smallest triggered unit. The selected trade-off avoids running questions for absent risks while retaining human judgement of semantics, practical use, and current-source decisions. Practitioner studies and continued surveillance add effort only when the claimed breadth or currentness warrants it. Reopen this choice when another approach demonstrates equal or better detection of those four defect families at lower comparable effort.
 
-When a receiving use requires a reusable E.19 result, it states the review claim for one exact FPF pattern edition or subset. Its EntityOfConcern, ClaimGraph, scope, applicable profiles, findings or aggregate cleared boundary, conclusion, and reopen condition state that pattern-quality claim. Any project-side reuse supplies its own governing relation, evidence or assurance, and decision under the relevant project rule. Review, repair, verification, result publication, admission or refresh decision, and project-side reuse remain separately recoverable. Reopen the affected result claim when a change to the reviewed text, accepted source, SoTA grounding, related pattern contribution, selected companion or projection function, profile trigger, review boundary, or claimed downstream use can change its conclusion or applicability.
+When a receiving use requires a reusable E.19 result, it states the review claim for one exact FPF pattern edition or subset. Its EntityOfConcern, ClaimGraph, scope, applicable profiles, findings or aggregate cleared boundary, conclusion, and reopen condition state that pattern-quality claim. A project-side claim beyond the stated pattern-quality result needs its own grounds and any evidence, assurance or decision required by the relevant project rule. Review, repair, verification, result publication, admission or refresh decision, and project-side reuse remain separately recoverable. Reopen the affected result claim when a change to the reviewed text, accepted source, SoTA grounding, related pattern contribution, selected companion or projection function, profile trigger, review boundary, or claimed downstream use can change its conclusion or applicability.
 
 ### E.19:12 - Relations
 
@@ -834,7 +834,7 @@ When a receiving use requires a reusable E.19 result, it states the review claim
   * `A.13` and `A.15.1` (exact actual-performer recovery and independent review, repair, or verification Work); `A.2`, `A.2.1`, and `F.6` only when local classification or precise assignment-bound attribution is expressly consumed; `A.6.1` separately defines check applications and bindings
   * `A.3.2` and `E.10.ROLE` (the full `U.MethodDescription` membership test and recovery of an ambiguous source *role* without forcing a system-role kind, assignment, participant, or representation position)
   * `C.2.1` (finding, focused-verification, aggregate review-result, and optional record epistemes)
-  * `A.10` and `B.3` (evidence use/provenance and any assurance or reliance on an E.19 result)
+  * `A.10` for an implicit or required-replayable source-to-use account; `B.3` for a selected assurance claim about an E.19 result
   * `F.10` and `E.24.PUB` (status use/interpretation and publication occurrence/form/carrier; neither is review work or admission authority)
   * `F.8` (mint vs reuse decisions)
   * `F.18` (local-first naming when one durable reusable name is needed)

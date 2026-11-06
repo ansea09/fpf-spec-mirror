@@ -6,12 +6,12 @@ section_id: "E.4.PFAD:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFAD/E.4.PFAD__005_solution.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.4.PFAD — Principle-Framework Architecture Decision"
   - "E.4.PFAD:4 — Solution"
-line_start: 94314
-line_end: 94466
+line_start: 94301
+line_end: 94453
 dependencies:
   - "A.15.1"
   - "A.22"
@@ -139,7 +139,7 @@ A residual comparison can therefore return one missing operation, a new composit
 
 When professional Method coverage can change point 5, the same compact framework answer projects five connected claim groups from points 1, 3, 4, 5, 7, and 8. The projection remains content of that one answer and its one ordinary `E.9` DRR. Fill each group to the grain that changes first use, using a representation suited to the case, before DPF authoring:
 
-1. **Practice truth and first use:** identify every bounded practice claim or promised practice contribution by its exact subject and scope, mark that claim—not the answer as a whole—as obtaining or possible-future, and state practitioner, recurring or anticipated difficulty, sought result, first use, stop or wrong-turn return, qualification window, and receiving decision. Include only non-use boundaries admitted by `F.19`'s grounded-contribution test.
+1. **Practice claims and first use:** identify every bounded practice claim or promised contribution by its subject and scope. Distinguish a claim about existing practice from a proposed practice, and state what is supported, refuted or unresolved. Name the practitioner, recurring or anticipated difficulty, sought result, first use, stop or wrong-turn return, qualification window, and receiving decision. Include only non-use boundaries admitted by `F.19`'s grounded-contribution test.
 2. **Project and Method positions:** name the direct project subjects, use and environment, materially different solution forms, and Methods under their actual operational, system-change, solution, Method-of-interest, or Method-development relations. Keep incumbent Work, development or trial Work, candidate-practice Work, and intended Work distinct.
 3. **Selected structures and correspondences:** include only the Method, Work, subject, transformation-flow, capability/provider, description, contribution, Method-development, and cultural structures whose correspondence, conflict, or non-isomorphism changes the answer.
 4. **Pressures and evidence:** keep constraints, conflicts, failures, environment or interest changes, and observed, source-supported, estimated, contradicted, and missing links distinct from causal history and temporal unfolding.
@@ -147,11 +147,11 @@ When professional Method coverage can change point 5, the same compact framework
 
 Within an existing-framework contribution or another answer that selects no new framework, distinguish one existing DPF receiving a contribution from a use that composes exact contributions supplied by several DPFs and FPF. Record the latter as cross-DPF composition under the selected one of the five outcomes, optionally exposed through a role-centred view or access route. Decide Suite membership separately.
 
-One answer may contain several bounded practice claims with different truth status. Every selected practice question names the claim or claims it consumes, so an obtaining incumbent-practice claim can coexist with a possible-future candidate-practice claim without backdating the candidate or erasing current incumbent coverage. Independently obtaining A.13 agency claims and actual development or trial Work keep their own status; neither proves that the candidate practice obtains. Public coverage is another claim and remains limited to the exact obtaining or prospective contribution and later package evaluation.
+One answer may contain several bounded practice claims with different subjects and support. Every selected question names the claims it consumes. A supported incumbent-practice claim can coexist with an unresolved claim about another existing practice and with a candidate-practice proposal. Independently obtaining A.13 agency claims and actual development or trial Work retain their own status; they establish candidate-practice coverage only when the required relation and evidence support it. Public coverage remains a separate claim, limited to the supported contribution and package evaluation.
 
 For an obtaining practice claim, name actual recurring difficulties and representative actual Work. A precise Agent-performer branch first supplies A.13's core: the exact admitted System, local agential system-role kind and criterion, classification, obtaining assignment, and needed scope, working situation, and window. Add the agency-characteristic profile only when a Grade, autonomy or profile claim, a criterion-dependent characteristic, or a named assurance use consumes it. A.15.1 then independently admits the actual Work from its performance history, Method, extent, and containment. Only after admission does F.6 supply any precise assignment-bound attribution through that same obtaining assignment. State evidence limits; a missing F.6 relation leaves admitted Work intact and only the attribution unresolved.
 
-For a possible-future practice claim, name intended use, incumbent Work or Method and observed problem evidence, candidate Methods and architecture, realization conditions, a planned representative trial, expected acceptance and failure observations, and reopen conditions. Any incumbent-practice or actual trial-Work claim stays independently obtaining when supported, but the candidate-practice Work, candidate-practice Agents, and current candidate-practice coverage remain unasserted until their own conditions obtain.
+For a proposed practice, recover intended use, any incumbent Work or Method and available problem evidence, candidate Methods and architecture, and realization conditions. State what the construction, sources, derivation or earlier validation support for that use and which material questions remain open. Plan a representative trial when a binding requirement demands it, or when needed evidence is missing and the attainable result justifies the trial's full burden; name its acceptance, failure and reopen conditions. Otherwise retain the sufficient existing basis or state the exact unresolved claim. Incumbent-practice and actual trial-Work claims remain independently grounded; candidate-practice Work and Agents are asserted only when their own admission conditions obtain.
 
 For every selected question, name its receiving pattern and the exact bounded practice claim or claims whose values change first use. If a required group or claim-to-question binding is absent at that grain, return a bounded PFAD gap to the architecture decision for completion before DPF authoring. A completed `C.32.MWA` synthesis is used only when several selected structures do not line up one-for-one, and `E.23.CDI` only when capability development changes the answer.
 

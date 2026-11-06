@@ -6,12 +6,12 @@ section_id: "E.10.DEV:8"
 section_title: "Common Anti-Patterns and Repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.DEV/E.10.DEV__009_common-anti-patterns-and-repairs.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.10.DEV — Recovering What Development or Evolution Means in the Current Claim"
   - "E.10.DEV:8 — Common Anti-Patterns and Repairs"
-line_start: 101243
-line_end: 101254
+line_start: 101163
+line_end: 101174
 dependencies:
   - "A.15"
   - "A.2.2"
@@ -40,7 +40,7 @@ keywords:
 | --- | --- |
 | One development lifecycle for unlike holders | Recover the subject and direct owner; keep holder-specific Methods and Work order local. |
 | Training occurred, therefore capability developed | Separate provider Work or intervention Work from capability evidence, transfer, and effect. |
-| Population evolution as one entity's transformation | Recover membership and lineage or return the population-ownership gap. |
+| Population evolution as one entity's transformation | Recover the needed population membership and lineage relations through the applicable domain account; name only the premise or framework relation still missing for the receiving use. |
 | OEE archive as a biological population | Use the archive, front, or pool owner unless population relations independently obtain. |
 | Planned trajectory as actual history | State posture and keep planned, modelled, and actual results separate. |
 | Mandatory DEV plus MOVE paperwork | Open the second child only for a distinct remaining claim. |

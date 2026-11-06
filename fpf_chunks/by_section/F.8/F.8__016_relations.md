@@ -6,12 +6,12 @@ section_id: "F.8:13"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__016_relations.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision for a Name"
   - "F.8:13 — Relations"
-line_start: 121268
-line_end: 121284
+line_start: 121163
+line_end: 121179
 dependencies:
   - "A.11"
   - "A.15"
@@ -71,7 +71,7 @@ keywords:
 - `F.5` names only after F.8 has selected the naming case.
 - Use `F.4` only for a separately needed `SystemRoleKindDescription`; naming the local kind itself does not require that episteme.
 - `F.9` governs an obtaining Bridge between F.17 cells; `F.17` governs admitted public-row use before F.8 reuses it.
-- `F.18` expands durable naming only after lighter dispositions have failed.
+- `F.18` supplies a durable naming settlement when the receiving use needs one.
 - `F.14` supplies the anti-explosion stop before every stronger F.8 disposition.
 - `F.15` may check the resulting distinctions; it neither chooses the disposition nor creates a naming object.
 

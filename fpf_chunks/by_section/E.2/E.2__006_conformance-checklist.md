@@ -6,12 +6,12 @@ section_id: "E.2:5"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.2/E.2__006_conformance-checklist.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.2 — FPF's Eleven Pillars and Bitter-Lesson Preference (BLP)"
   - "E.2:5 — Conformance Checklist"
-line_start: 92620
-line_end: 92630
+line_start: 92608
+line_end: 92618
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -20,7 +20,6 @@ dependencies:
   - "C.16"
   - "C.18"
   - "C.19"
-  - "C.5"
   - "E.1"
   - "E.3"
   - "E.5"
@@ -45,7 +44,7 @@ keywords:
 
 | ID         | Requirement                                                                                                                       | Purpose                               |
 | ---------- | --------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------- |
-| **CC‑P‑1** | Every architectural pattern **must** list which pillar(s) it instantiates or refines.                                             | Guarantees constitutional grounding.  |
+| **CC‑P‑1** | An architectural pattern names the Pillars whose realization or conflict changes its design or use, with the substantive grounds required by CC‑P‑4. | Makes material constitutional relations recoverable. |
 | **CC‑P‑2** | Every DRR proposing a normative change **must** include a “Pillar Impact Analysis.”                                               | Makes constitutional review explicit. |
 | **CC‑P‑3** | Tooling and pedagogical artefacts **should** document which pillar(s) shape their design.                                         | Upholds P‑2 (Didactic Primacy).       |
 | **CC‑P‑4** | Assess the substance of every applicable Pillar constraint and any material conflict. Name the Pillars whose realization changes the pattern’s design or use; no minimum link count substitutes for that argument. | Grounds conformance in the obligations that matter to the pattern. |

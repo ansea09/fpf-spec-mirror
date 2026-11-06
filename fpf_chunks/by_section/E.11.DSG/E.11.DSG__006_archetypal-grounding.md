@@ -6,12 +6,12 @@ section_id: "E.11.DSG:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.DSG/E.11.DSG__006_archetypal-grounding.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.11.DSG — Architectural Reference"
   - "E.11.DSG:5 — Archetypal Grounding"
-line_start: 104917
-line_end: 104953
+line_start: 104836
+line_end: 104872
 dependencies:
   - "C.2.1"
   - "C.2.P"
@@ -43,7 +43,7 @@ If the decision is safety-critical or legally constrained, add the exact source 
 
 #### E.11.DSG:5.2 - External suppliers and a translated Reference
 
-A Reference may combine results from narrative, language-practice and pedagogical DPFs for one lesson-planning question. It labels each as a constituent or an external supplier according to the actual field architecture; their co-use alone creates no Suite. Include all three only if removing any one makes that result insufficient under the stated rule. Otherwise present alternatives or a bounded plausible combination.
+A Reference may combine results from narrative, language-practice and pedagogical DPFs for one lesson-planning question. It labels each as a constituent or an external supplier according to the actual field architecture; their co-use alone creates no Suite. Explain the contribution and conditions of the resources included together and judge whether their combination supplies the lesson-planning result. Claim that every item is necessary only if removing any one defeats that result. Retain an established sufficient combination without that stronger claim; distinguish it from alternatives or a combination whose sufficiency is still open.
 
 A Spanish translation of an English Reference is a derivative episteme when its effective scheme changes. It remains in the same Reference product only while it uses the same reader and use, access rule, warning rule, later-review rule, and retirement rule. A separately established maintenance relation changes product identity only when the identity rule says so. A different Spanish use or current state may select another Reference product even when its title and cited DPFs remain recognizable.
 

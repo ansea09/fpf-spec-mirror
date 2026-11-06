@@ -6,12 +6,12 @@ section_id: "G.8:6"
 section_title: "Archetypal Grounding (System / Episteme)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.8/G.8__007_archetypal-grounding-system-episteme.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "G.8 — Package Method-Family Admissibility Rules and Maturity Ladders (SoS-LOG)"
   - "G.8:6 — Archetypal Grounding (System / Episteme)"
-line_start: 131090
-line_end: 131100
+line_start: 131000
+line_end: 131010
 dependencies:
   - "A.10"
   - "A.21"
@@ -50,5 +50,5 @@ A CG‑Frame carries multiple offline/robust decision families (for example, con
 A method family uses a QD archive, for example one driven by CMA-ES or a differentiable QD method. The bundle pins `DescriptorMapRef.edition` and `DistanceDefRef.edition`, plus insertion/emitter policies. Illumination metrics are logged as telemetry; any promotion into dominance is only via explicit CAL policy pins (recorded in the admissibility trace).
 
 **Show-C — Open-ended environment–method co-evolution.**
-A generator family operates in an open‑ended setting (e.g., POET‑style and PAIRED‑style regimes). The bundle carries `TransferRulesRef.edition` and validity region pins; unknown transfer validity triggers a `degrade` branch rather than an ad‑hoc fourth status. Telemetry (coverage/regret proxies) is emitted for refresh planning, not silently turned into dominance.
+A generator family operates in an open-ended setting (e.g., POET-style or PAIRED-style regimes). The bundle carries `TransferRulesRef.edition` and validity-region pins. If transfer validity is unknown, a declared narrower-use branch may return `degrade` after C.23’s prerequisites pass; without that permitted branch, the result is `abstain`. A missing evidence profile at R0 is reported as the missing prerequisite, with later Acceptance not reached, rather than filled with `false`. Retain an applicable maturity result when it was validly reused. Coverage/regret telemetry remains report-only unless its governing policy promotes it into dominance.
 

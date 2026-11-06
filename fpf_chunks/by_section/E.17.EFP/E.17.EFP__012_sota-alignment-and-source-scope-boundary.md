@@ -6,12 +6,12 @@ section_id: "E.17.EFP:11"
 section_title: "SoTA Alignment and Source-Scope Boundary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.EFP/E.17.EFP__012_sota-alignment-and-source-scope-boundary.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.17.EFP — ExplanationFaithfulnessProfile — explanation-use discipline over existing MVPK faces"
   - "E.17.EFP:11 — SoTA Alignment and Source-Scope Boundary"
-line_start: 108600
-line_end: 108620
+line_start: 108498
+line_end: 108518
 dependencies:
   - "A.10"
   - "A.15"
@@ -28,7 +28,9 @@ dependencies:
   - "A.6.B"
   - "A.7"
   - "B.3"
+  - "B.5.2"
   - "C.2.8"
+  - "C.28"
   - "E.10.D2"
   - "E.17"
   - "E.17.0"
@@ -55,7 +57,7 @@ keywords:
 
 **Source-grounded branch.** The XAI/NLP/RAG sources justify caution about generated or model-facing explanations: fluency, plausibility, retrieved context, or an `AI summary` label does not establish claim preservation, evidence, or reliance. They support the focused identity and use check only when that population is current.
 
-**Local human-authored branch.** For ordinary human explanation, the architecture is justified only by the concrete local problem and the E.17.EFP:5.7 replay. The default is non-use when a simpler source-linked boundary sentence is equally comprehensible, preserves the claims, costs less, and prevents the same overread.
+**Local human-authored branch.** For ordinary human explanation, the architecture is justified only by the concrete local problem and the E.17.EFP:5.7 replay. As in the generated case, use the simpler source-linked boundary sentence when it is equally comprehensible, preserves the claims, costs less, and prevents the same overread.
 
 **Retained result.** Keep only the identity-and-bounded-sufficiency screen, an explanation class when it changes the next action, the compact bounded/blocked use, and a reopen condition. Add reader-model, trace, provenance, evidence, RAG, self-consistency, or interactive-system details only when their exact source-scoped situation is present.
 

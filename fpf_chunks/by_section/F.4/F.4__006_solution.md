@@ -6,12 +6,12 @@ section_id: "F.4:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__006_solution.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "F.4 — SystemRoleKindDescription — Describing an Exact System-Role Kind"
   - "F.4:4 — Solution"
-line_start: 119703
-line_end: 119776
+line_start: 119593
+line_end: 119666
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -57,9 +57,9 @@ The following is a content checklist, not a relation signature or mandatory reco
 - the candidate domain, operative membership condition, intended member/non-member boundary, and continuity rule;
 - the current `KindSignature` edition and effective reference scheme;
 - a short recognition explanation;
-- the full A.1 range of possible candidate systems, using examples only when helpful;
+- the candidate-system range, clarifying the broad A.1 meaning of System when the intended reader could otherwise misread it;
 - the smallest direct-feature criteria or invariants needed by the current use; and
-- the explicit boundary: the description asserts no classification, assignment, capability, Method, Work, evidence, status, permission, responsibility, publication, or relation-position occurrence.
+- the boundaries needed to distinguish this description from neighboring claims in the current use.
 
 **Add only when the current use depends on them:**
 
@@ -83,7 +83,7 @@ These are claims or references in an episteme. They are not `SlotSpec` declarati
 | Recognition explanation | A first-minute explanation that distinguishes this kind from neighboring kinds and objects. |
 | Candidate-system range | Candidates must first be admitted as `U.System`; people, teams, organizations, and non-human technical objects are possible examples, not four subkinds declared here. |
 | Conditional neighboring references | Add neighboring references for assignment state, capability, Method, naming, and Bridges only when the receiving use depends on them. |
-| Non-inference boundary | Explicit separation from classification, assignment, Work, evidence, status, permission, responsibility, publication, and relation-position claims. |
+| Non-inference boundary | Keep description, classification, assignment and other neighboring claims separate; state an explicit contrast when it prevents a plausible mistake in the current use. |
 
 A quick local description may stop after the always-recoverable content. A consequence-bearing Work-admission use requires only the neighboring relations it actually needs.
 
@@ -115,7 +115,7 @@ Write a description in this order:
 2. Name the current `KindSignature` edition and effective reference scheme.
 3. Give one short recognition paragraph, including the broad A.1 system range when a cold reader could narrow it incorrectly.
 4. State the smallest direct criteria or invariants that distinguish the kind.
-5. State what the description does not assert about classification, assignment, capability, Method, Work, evidence, status, permission, responsibility, publication, or relation positions.
+5. State an explicit boundary when the current use could otherwise confuse the description with classification, assignment, capability, Method, Work or another neighboring claim.
 6. Add neighboring references only when the receiving use depends on them.
 7. Use F.18 for a durable public name. Use C.3.3 only when an actual relation between exact local kinds is current; use F.9 only when the receiving claim relates distinct F.17 local-sense cells.
 

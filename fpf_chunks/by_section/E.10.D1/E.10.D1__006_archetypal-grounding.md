@@ -6,12 +6,12 @@ section_id: "E.10.D1:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D1/E.10.D1__006_archetypal-grounding.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.10.D1 — Recovering What “Context” Means in Use"
   - "E.10.D1:5 — Archetypal Grounding"
-line_start: 102345
-line_end: 102354
+line_start: 102265
+line_end: 102274
 dependencies:
   - "A.1.1"
   - "A.2.6"
@@ -41,7 +41,7 @@ keywords:
 
 **Model-use decision.** A change note says, “The controller change stays inside the press-control context.” If the decision asks only whether `PressControlModel-5` applies to `Press-3` within the stated claim scope, the engineer states that `ModelApplicabilityRelation` and stops. If release review depends jointly on model applicability, actual assigned-Work use, fixed-content coherence, applied constraints, and one selection-use frame, the engineer selects their A.1.1 `BoundedModelUseStructure`. The word *context* does not decide between those branches.
 
-**Claim boundary.** A review says, “The comparison is valid in this context.” The repaired claim names the compared bearers, comparison scheme, `U.ClaimScope`, member slices, qualification window, evidence basis, and intended use. If those values already make the claim interpretable, no additional formal object is introduced.
+**Claim boundary.** A review says, “The comparison is valid in this context.” Name the compared bearers, comparison basis, applicability conditions, evidence basis, and intended use. When those conditions and the calculation settle the question, stop. If the receiving rule requires A.2.6 scope membership, identify the required scope and slice and apply its guard; retain any qualification window required by that use.
 
 **Ordinary non-use.** A source quotation says, “Context mapping is collaborative.” If the current claim is only that the source uses this phrase, keep the quotation and cite the source. Open A.1.1, F.9, or another branch only when the receiving text relies on a model-use structure, semantic relation, or other recovered content.
 

@@ -6,12 +6,12 @@ section_id: "E.10.P:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.P/E.10.P__001_intro.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.10.P — Conceptual Prefixes policy & registry"
   - "E.10.P:intro — Intro"
-line_start: 102234
-line_end: 102264
+line_start: 102154
+line_end: 102184
 dependencies:
   - "A.10"
   - "A.14"
@@ -64,7 +64,7 @@ keywords:
 
 **Conformance Checklist (E.10.P).**
 * **CC‑LEX‑P.1** New Core text **SHALL NOT** introduce an unregistered conceptual prefix.
-* **CC‑LEX‑P.2** Each occurrence of a registered prefix **SHALL** cite the applicable defining anchor on first use in a section.
+* **CC‑LEX‑P.2** Keep the prefix's meaning and applicable defining anchor recoverable. Cite the anchor where the prefix or member's meaning would otherwise be unclear; an adequate earlier definition or reference can be reused.
 * **CC‑LEX‑P.3** Incidental examples that expand a prefix into a concrete URI or machine syntax **MUST** mark the expansion *informative* and locate it in Tooling/Pedagogy. A pattern governing that concrete syntax may include necessary examples under E.5.1; the conceptual prefix alone establishes no machine binding.
 
 **Relations.** Uses E.10:8.3 for namespace reservation, E.24.UK:4.1 for U-kind admission, B.1.3:4.2 and B.1.4:3 for the listed Γ operators, B.1.2:4 for system aggregation and delimitation decisions, and A.14, A.10, B.3, B.3.5 and C.13 for the remaining registered vocabularies. Applies E.5.1 (Lexical Firewall) and E.5.2 (Notational Independence); depends on E.9 (DRR).

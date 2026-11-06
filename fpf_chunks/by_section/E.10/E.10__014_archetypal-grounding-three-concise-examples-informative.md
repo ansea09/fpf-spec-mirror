@@ -6,12 +6,12 @@ section_id: "E.10:12"
 section_title: "Archetypal grounding: three concise examples (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__014_archetypal-grounding-three-concise-examples-informative.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:12 — Archetypal grounding: three concise examples (informative)"
-line_start: 100538
-line_end: 100573
+line_start: 100457
+line_end: 100494
 dependencies:
   - "A.10"
   - "A.15"
@@ -64,33 +64,35 @@ These examples show the repaired claim first. Open the exact Work, attribution, 
 
 #### E.10:12.1 - Healthcare (operating-room planning and work)
 
-**Messy:** “The surgical **process** is scheduled at 08:00; the SOP approves the incision and the **service** documents recovery.”
+**Source sentence:** “The surgical **process** is scheduled at 08:00; the SOP approves the incision and the **service** documents recovery.” For this constructed case, the planning material identifies Patient_221, IncisionMethod, the 08:00 PlanItem and its reservations; the applicable policy supplies the approval and gate conditions. An approval record identifies ApprovalSpeechActWork-221 performed by QAApprovalSystem, and the service means the ward team.
 
 **Repair, taking `service` here to mean the ward team:** “Schedule `Incision_221` in `OR_Case_221_WorkPlan` for 08:00, using `IncisionMethod`. `SOP_OR_v4` states the incision-readiness constraint. `QAApprovalSystem` performs the approval; record its speech-act content. Separately recover the applicable A.21 profile and required check results. Its `GateDecisionResult` states whether and under which conditions the planned run may proceed. The ward team records `Patient_221`'s recovery in `RecoveryRecord_221`.”
 
 **Formal plan membership.** `OR_Case_221_WorkPlan` is used as `U.WorkPlan` only after A.15.2 membership is established: its already identified present EntityOfConcern is `Patient_221`, its horizon is the bounded surgical-planning interval, and `Incision_221`, a `PlanItem` substantively coordinates the intended surgeon classification and assignment conditions, operating-room resource reservation, planned start of 08:00, `IncisionMethod`, the `U.Method`, and the incision-readiness target. It cites `IncisionMethodDescription`, a separately identified claim-bearing episteme. That episteme is `U.MethodDescription` only because the method is its exact EntityOfConcern and its claims substantively describe how the method is carried out. Any edition identity needed by the plan is selected through a separate `U.EpistemeRef` whose subject pattern supplies its rule; carrier version remains separate.
 
-**Actual approval Work.** For `ApprovalSpeechActWork-221`, recover `QAApprovalSystem` as exact actual performer through A.13 and let A.15.1 independently admit the dated Work. Add F.6 only when this account or its receiving use expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment; F.6 identifies neither assignment nor performer, and missing or failed F.6 leaves the Work intact. Add `ApproverSystemRole` only when that classification matters.
+**Actual approval Work.** For `ApprovalSpeechActWork-221`, recover `QAApprovalSystem` as exact actual performer through A.13 and let A.15.1 independently admit the dated Work. Add F.6 only when this account or its receiving use expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment; F.6 identifies neither assignment nor performer. A missing or failed attribution alone leaves independently admitted Work intact; recheck any A.13 or A.15.1 premise invalidated by the same finding under A.15.1:4.1. Add `ApproverSystemRole` only when that classification matters.
 
 **Separate source claims.** If the source also specifies a monitoring promise or an access method, recover those additional claims separately: `PostOpMonitoringPromiseContent` states the promised monitoring and its vitals acceptance envelope. `WardAccessMethod : U.Method` names the exact access method; `WardProtocol` is `U.MethodDescription` only if it is a separately identified claim-bearing episteme about that method and passes A.3.2, while its publication form and carrier remain separate. These are additional claims, not replacements for recording recovery.
 
 #### E.10:12.2 - Manufacturing (assembly line)
 
-**Messy:** “The welding **function** provides air-tight seams; the **process** costs 3 min.”
+**Source sentence:** “The welding **function** provides air-tight seams; the **process** costs 3 min.” In this constructed case, the available capability assessment identifies Robot_SN789 and its qualified Weld_MIG_v3 conditions; the run observations identify WeldWork-SN789-4711, its three-minute duration and the affected joint.
 
 **Repair:** “`Robot_SN789` can execute `Weld_MIG_v3` within envelope E at measures M. The run `WeldWork-SN789-4711` lasts three minutes and changes the workpiece joint. Use the recorded measurements to check the duration and the seam's air-tightness acceptance criterion.”
 
-For one run, recover `Robot_SN789` as exact actual performer through A.13 and let A.15.1 independently admit `WeldWork-SN789-4711` from its performer, time, Method, and containing-System facts. Add F.6 only when this account or its receiving use expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment; F.6 identifies neither assignment nor performer, and missing or failed F.6 leaves the Work intact. Add `WelderSystemRole` only when that classification matters. Each bounded change of the workpiece joint is identified under A.3.4 before stating a work-to-change fact. If the Work first constitutes a distinct seam entity, `A.15.PROD` supplies its identity specification and inception boundary. Measurement-result epistemes remain separate evidence for acceptance and duration claims.
+For one run, recover `Robot_SN789` as exact actual performer through A.13 and let A.15.1 independently admit `WeldWork-SN789-4711` from its performer, time, Method, and containing-System facts. Add F.6 only when this account or its receiving use expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment; F.6 identifies neither assignment nor performer. A missing or failed attribution alone leaves independently admitted Work intact; recheck any A.13 or A.15.1 premise invalidated by the same finding under A.15.1:4.1. Add `WelderSystemRole` only when that classification matters. Each bounded change of the workpiece joint is identified under A.3.4 before stating a work-to-change fact. If the Work first constitutes a distinct seam entity, `A.15.PROD` supplies its identity specification and inception boundary. Measurement-result epistemes remain separate evidence for acceptance and duration claims.
 
 Treat source string `WeldingCellContext` as a quoted recovery cue. If it changes the claim, recover the exact source edition, plant practice, effective scheme, scope, or working situation that it denotes. Recover the actual participant meanings and values from that assignment's declared A.2.1 species, together with its uninterrupted obtaining interval.
 
 #### E.10:12.3 - Cloud and SRE
 
-**Messy:** “The storage **service** wrote logs and the deployment **process** failed after 2 min.”
+**Source sentence:** “The storage **service** wrote logs and the deployment **process** failed after 2 min.” In this constructed case, the event records identify sCGSpecCIBot's deployment attempt and LogWriterSystem's logging occurrence, including the deployment's failure after 120 seconds.
 
 **Repair:** “`sCGSpecCIBot` performed `DeployWork-r4711`, which failed after 120 seconds. `LogWriterSystem` performed `LogWritingWork-r4711`.”
 
 Admit each Work occurrence through A.13 and A.15.1; add F.6 only for a current assignment-bound attribution. Treat `sCG-Spec_ci_bot#DeployerRole:CD_v7` as a source expression and recover `CD_v7` separately. Use `DeployerSystemRole` or `TransformerSystemRole` only when the classification changes the claim.
 
 **Separate source claims.** If the source also specifies durability and availability targets as a storage promise, recover them in `ObjectStoragePromiseContent`. If it supplies an access-method description, identify that separate episteme as `S3_API_Spec_vX` and preserve the method it describes.
+
+If the source supplies only an intended cycle time, preserve that intended bound rather than assert a measured run duration. If it does not identify a performer, approval basis or particular occurrence, retain the supported statement and leave that dependent claim unresolved.
 

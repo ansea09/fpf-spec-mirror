@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.17.AUD.OOTD.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.17.AUD.OOTD — PublicationUnit Stability Discipline and PublicationUnit Primary-Subject Discipline - publication-unit stability over one primary subject"
-line_start: 109930
-line_end: 110312
+line_start: 109836
+line_end: 110218
 dependencies:
   - "A.10"
   - "A.15"
@@ -371,7 +371,7 @@ Used well, this section buys three main gains:
 - neighboring patterns and downstream decision texts stop getting blamed for confusion created one layer earlier.
 
 The cost is that some notes must become shorter, split earlier, or reopen more honestly when their subject, concern, carried move, or downstream use really changes.
-That cost is deliberate.
+
 
 ### E.17.AUD.OOTD:10 - Rationale
 

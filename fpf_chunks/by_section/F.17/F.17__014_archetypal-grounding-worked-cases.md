@@ -6,12 +6,12 @@ section_id: "F.17:12"
 section_title: "Archetypal Grounding - worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__014_archetypal-grounding-worked-cases.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "F.17 — Make a Settled Naming Decision Recoverable for Reuse (Unified Term Sheet)"
   - "F.17:12 — Archetypal Grounding - worked cases"
-line_start: 124503
-line_end: 125189
+line_start: 124400
+line_end: 125086
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -141,7 +141,7 @@ LocalSenseBasisRelationDescription.BoundedModelUseStructure.FPFCore.2026-07-25:
   editionId: 2026-07-25
 ```
 
-This row records `BoundedModelUseStructure` for public reuse; availability of its selected edition requires the separate E.24.PUB publication relations. A.22 keeps its cross-structure NameCard local until an independently governed crossing obtains and the exact positive membership basis is available. That conditional label needs its own public-row decision when those conditions are met.
+This row records `BoundedModelUseStructure` for public reuse; availability of its selected edition requires the separate E.24.PUB publication relations. A.22 retains `CrossContextRelationStructure` as a provisional local designator and governs when a positive structure member may be claimed. Any later naming settlement or public row must be established for its exact governed value under F.18 and the row gate.
 
 #### F.17:12.4e - Three bounded-model-use direct relation-kind rows
 
@@ -489,7 +489,7 @@ Each row retains its C.2.1 episteme identity and refers separately to the govern
 
 #### F.17:12.4g - Make a settled row available only through a separate publication operation
 
-Do not perform an E.24.PUB publication operation on a placeholder. First require the governed value, its lexical classification, the reference scheme's selected name and permitted scope, and the intended reader use to pass F.18 and the ordinary F.17 row gate. If any input is unresolved, keep it as naming work rather than representing it as a current row. Only when an exact audience and bounded availability use are current should E.24.PUB make the selected row edition available through a distinct form and carrier.
+Do not perform an E.24.PUB publication operation on a placeholder. First require the governed value, its lexical classification, the reference scheme's selected name and permitted scope, and the intended reader use to pass F.18 and the ordinary F.17 row gate. If any input is unresolved, keep it as naming work rather than representing it as a current row. When availability is current, state how the selected row edition is available to its audience for the bounded use through an expression and carrier. E.24.PUB governs that claim at its required granularity; name reusable-form conformance only when it matters.
 
 A NameCard, scheme-sense cell, basis relation, row reference, or E.24.PUB occurrence substitutes for none of those decisions. Keep predicate definition, actual use, basis analysis, naming settlement, row admission, and downstream availability separate.
 

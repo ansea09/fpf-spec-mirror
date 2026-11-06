@@ -6,12 +6,12 @@ section_id: "F.9:14"
 section_title: "Reasoning primitives"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__016_reasoning-primitives.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "F.9 — Relate Local Meanings across Contexts (Alignment and Bridge)"
   - "F.9:14 — Reasoning primitives"
-line_start: 121619
-line_end: 121710
+line_start: 121514
+line_end: 121605
 dependencies:
   - "A.10"
   - "A.13"
@@ -122,7 +122,7 @@ and current reliance supports C for u
 => no Work, assertion, publication, relation, or operation application follows.
 ```
 
-An actual receiving object exists only when its subject pattern supplies its participants or arguments, obtaining or performance facts, and identity.
+A claim about an actual receiving object needs the participants or arguments, obtaining or performance facts, and identity supplied by its subject pattern.
 
 #### F.9:14.6 - Direction guard
 

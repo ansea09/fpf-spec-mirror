@@ -6,12 +6,12 @@ section_id: "G.3:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.3/G.3__006_archetypal-grounding.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "G.3 — CHR Authoring for a CG‑Frame: Characteristics, Scales, Levels, Coordinates"
   - "G.3:5 — Archetypal Grounding"
-line_start: 128650
-line_end: 128677
+line_start: 128560
+line_end: 128587
 dependencies:
   - "A.10"
   - "A.15.2"
@@ -80,7 +80,7 @@ keywords:
 * freshness/decay expectations for the stated use,
 * legality surfaces that forbid averaging incompatible ordinal labels (e.g., severity grades) and require explicit unit/exposure constraints for any derived rate.
 
-*Downstream:* CAL acceptance governs thresholds and guard‑bands; evidence wiring is cited via Path/PathSlice to make refresh triggers actionable.
+*Downstream:* CAL acceptance governs thresholds and guard-bands; source/proof/measurement references, including G.6 paths when used, identify the basis to reconsider after a relevant change.
 
 **AG‑3 — Quality‑Diversity / Illumination (MAP-Elites/CMA-ME lineage).**
 *System:* a CG-Frame that uses a QD archive or front as the source for a declared set-result outcome under G.5.

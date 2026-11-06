@@ -6,7 +6,7 @@ section_id: "C.43:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.43/C.43__006_archetypal-grounding.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "C.43 — Connect Observation, Choice and Action in Control"
   - "C.43:5 — Archetypal Grounding"
@@ -41,7 +41,7 @@ During use, the operator checks the assumption that test delay leaves both actio
 
 A service team has six specialist-hours available before the next deadline. A repair requires four hours; an already accepted obligation requires three. Separate forecasts that assign all six hours to each task make both look feasible. The joint continuation needs seven.
 
-The common Method connects the obligations to the same capacity and time window. It prompts a substantive choice: obtain an additional qualified hour that can actually be used in time, change one scope or deadline with the relevant participant, or choose which consequence to accept under legitimate authority. Merely recalculating a more accurate completion forecast does not create the missing capacity.
+The common Method connects the obligations to the same capacity and time window. It prompts a substantive choice: obtain an additional qualified hour that can actually be used in time, change one scope or deadline with the relevant participant, or choose which consequence to accept under legitimate authority.
 
 If another qualified specialist becomes available, the resource conflict can close without changing the goal. If the client withdraws the obligation, the goal and commitment basis changes even with no forecasting error. If neither remedy can be arranged inside the decision window, the team may need a different standing allocation or authority arrangement. The changed dependency selects the different return.
 
@@ -56,7 +56,7 @@ Consider two deliberately simplified hypotheses for a hand moving along one axis
 | Response to the delayed visual position alone | Use the displayed deviation: `u = -k*y` | Request `-1 cm`, a further leftward correction. |
 | Prediction using the visual position and recent commands | Estimate current position as `x_hat = y + c`, then use `u = -k*x_hat` | Estimate `-1 cm` and request `+0.5 cm`, a rightward correction. |
 
-The display is the same, but the proposed information-to-action relations predict opposite signs. The difference follows from the intermediate state estimate, not from calling one model predictive. With no predicted intervening displacement, both command `-1 cm`; that condition alone cannot distinguish them. The useful experimental contrast therefore combines a controlled display delay with a qualified history of intervening movement, while observing the direction and timing of the ensuing correction. Increasing delay without constructing those different predictions would leave the research question unanswered.
+The display is the same, but the proposed information-to-action relations predict opposite signs. The difference follows from the intermediate state estimate. With no predicted intervening displacement, both command `-1 cm`; that condition alone cannot distinguish them. The useful experimental contrast therefore combines a controlled display delay with a qualified history of intervening movement, while observing the direction and timing of the ensuing correction. Increasing delay without constructing those different predictions would leave the research question unanswered.
 
 Suppose a rightward correction is observed under the contrasting conditions. It disagrees with the visually driven model's leftward prediction and is compatible with the second model. Before attributing the response to internal prediction, examine how the commands and observations were established and what other information the person could use. A third model that uses current proprioceptive information can also produce a rightward correction. That alternative requires a further discriminating condition or leaves the internal mechanism unresolved; merely fitting the second model cannot remove it. Conversely, an inaccurate command-to-movement model can defeat this particular predictor without defeating prediction as a whole class of explanation.
 

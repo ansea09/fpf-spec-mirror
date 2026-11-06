@@ -6,7 +6,7 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.2.4.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "A.2.4 — Episteme Evidence-Use and Status-Use Relations"
 line_start: 6058
@@ -98,8 +98,8 @@ Use direct relation patterns instead:
 
 | Current claim | Use |
 | --- | --- |
-| one episteme is used as evidence for one claim, effect, or bounded reliance use | `A.10`, with the A.2.4 evidence-use SlotKinds below |
-| evidence is used by an actual named assurance claim | `B.3`, after A.10 source/provenance recovery and bounded-reliance classification; A.2.4 supplies only the first-use classification |
+| one episteme is used as evidence for one claim, effect, or bounded reliance use | The evidence-use relation under A.2.4:4.1; use `A.10` when its source-to-use account remains implicit or must be replayable. |
+| evidence is used by an actual named assurance claim | `B.3`, with the source/provenance and use grounds required by that claim; reuse an adequate account, or use A.10 when it needs recovery or replay. A.2.4 supplies the first-use classification. |
 | the episteme itself is being identified, versioned, or distinguished from publication faces and publication carriers | `C.2.1` |
 | the use is causal, counterfactual, intervention-facing, or simulation-only | `C.28`, with the A.10 descriptive source/provenance path and the A.2.4 first-use classification as inputs |
 | the source says "status", "approved", "current", "valid", "stale", "ready", or another status-like value | `F.10` or the direct status, gate, permission, safety, or release pattern; A.10 for bounded reliance and B.3 for an actual named assurance claim |

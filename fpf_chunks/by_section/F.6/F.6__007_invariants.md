@@ -6,12 +6,12 @@ section_id: "F.6:5"
 section_title: "Invariants"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__007_invariants.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "F.6 — SystemRoleAssignment and Performed-Work Attribution Check"
   - "F.6:5 — Invariants"
-line_start: 120441
-line_end: 120459
+line_start: 120334
+line_end: 120352
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -55,7 +55,7 @@ keywords:
 4. RA's predicate obtains throughout the attributed Work interval; a declared window alone does not establish coverage.
 5. The species declaration, occurrence participant identity, holder match, and time coverage constrain but do not establish the Work–assignment link.
 6. Overlapping assignments are checked pair by pair; an unresolved basis never licenses attribution to every covering assignment.
-7. Every positive precise assignment-bound performer attribution starts from an already admitted Work whose actual performer has the A.13 core for the exact action, scope, working situation, and window, then adds its own F.6 link through the same covering assignment occurrence. A characteristic profile remains conditional on its receiving use. A lead, team, member, coordination, allocation, or responsibility claim substitutes for none of these.
+7. Every positive precise assignment-bound performer attribution starts from an already admitted Work whose actual performer has the A.13 core for the exact action and any scope, working situation and window needed by the attribution use, then adds its own F.6 link through the same covering assignment occurrence. A characteristic profile remains conditional on its receiving use. A lead, team, member, coordination, allocation, or responsibility claim substitutes for none of these.
 8. A passive assigned System is not thereby a performer. Any claimed passive participation needs a rule that defines it; otherwise A.6.RCD returns `missing-governor`.
 9. Assignment does not prove performance, and attribution proves neither classification, capability, state, Method validity, result quality, responsibility, authority, nor acceptance.
 10. `RoleEnactment` wording is repaired to Work plus `performedUnderAssignment`; no duplicate object remains.

@@ -6,18 +6,19 @@ section_id: "E.24.UK:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.UK/E.24.UK__006_solution.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.24.UK — U-kind Admission and Ontic Settlement"
   - "E.24.UK:4 — Solution"
-line_start: 117452
-line_end: 117697
+line_start: 117342
+line_end: 117587
 dependencies:
   - "A.1.1"
   - "A.11"
   - "A.2.6"
   - "A.22"
   - "A.6.0"
+  - "A.6.3.RT"
   - "A.6.5"
   - "A.6.RCD"
   - "A.6.REL"
@@ -195,7 +196,7 @@ FPF has already admitted `U.Relation`; project users do not repeat this ontology
 
 The admission does not force explicit materialization of every obtaining relation. Ordinary engineering prose can stop at the direct relation sentence. A system performs explicit-individuation work only when a named receiving episteme, direct relation, or operation-application assertion depends on occurrence identity. The accepted Tech label `U.Relation` is governed separately through its F.18 NameCard; the label does not establish the extent.
 
-Apply the positive extent rule before classifying a nearby object. Predicate content is a rule; an assertion or occurrence description is a C.2.1 episteme; a designator or reference stays under F.18; a reusable form stays under E.24.PUB; and a row, graph edge, or diagram element stays under C.29. None is the obtaining occurrence. Connect it to the occurrence only through its explicit assertion, description, designation, reference, publication, or representation relation.
+Apply the positive extent rule before classifying a nearby object. Predicate content is a rule; an assertion or occurrence description is a C.2.1 episteme; a designator or reference stays under F.18; a reusable form stays under E.24.PUB; and a row, graph edge or diagram element retains its interpretation under the applicable subject-description or representation rule. Use C.29 for an unresolved mathematical representation, transfer or reliance question and A.6.3.RT for a representation-scheme transition. None is the obtaining occurrence. Connect it to the occurrence only through its explicit assertion, description, designation, reference, publication, or representation relation.
 
 The rule is not lexical. An individuable publication-relation occurrence is itself a `U.Relation` when E.24.PUB defines that relation and states its obtaining and identity conditions. A row that represents the occurrence remains a representation element. Reidentify the current object by the rule that defines or tests it instead of inferring membership from words such as relation, edge, link, record, or reference.
 
@@ -284,5 +285,5 @@ Do not keep a false `U.*` structural name for memory or search convenience. Use 
 
 #### E.24.UK:4.6 - Failed U-kind Admission Dispatch
 
-When positive admission fails, select a non-admission exit only when its own basis holds: `reuse` with one accepted result, `local-kind` with one C.3.2 declaration, or `reject` when no classification result is needed for the receiving use and the actual object is recovered under its defining or testing rule. If a missing law or fact prevents a truthful result, keep admission unresolved. A participating entity keeps its intrinsic kind; a declaration component stays an A.6.5 SlotSpec; a designation or claim field stays in its episteme; a structure, publication form, or representation stays under A.22, E.24.PUB, or C.29; and a measure or source expression stays with its measurement or wording-use rule. Public naming waits until that recovery is complete.
+When positive admission fails, select a non-admission exit only when its own basis holds: `reuse` with one accepted result, `local-kind` with one C.3.2 declaration, or `reject` when no classification result is needed for the receiving use and the actual object is recovered under its defining or testing rule. If a missing law or fact prevents a truthful result, keep admission unresolved. A participating entity keeps its intrinsic kind; a declaration component stays an A.6.5 SlotSpec; a designation or claim field stays in its episteme; a structure stays under A.22, a publication form under E.24.PUB, and a representation under its applicable subject-description or representation rule, with C.29 supplying unresolved mathematical representation, transfer or reliance work; and a measure or source expression stays with its measurement or wording-use rule. Public naming waits until that recovery is complete.
 

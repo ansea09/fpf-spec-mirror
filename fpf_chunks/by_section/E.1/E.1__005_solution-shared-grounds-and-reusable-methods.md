@@ -6,12 +6,12 @@ section_id: "E.1:4"
 section_title: "Solution — Shared Grounds and Reusable Methods"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.1/E.1__005_solution-shared-grounds-and-reusable-methods.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.1 — Vision & Mission"
   - "E.1:4 — Solution — Shared Grounds and Reusable Methods"
-line_start: 92495
-line_end: 92518
+line_start: 92483
+line_end: 92506
 dependencies:
   - "E.2"
 keywords:
@@ -40,7 +40,7 @@ FPF expresses these shared grounds and reusable contributions through:
 5. three **core invariants** that every artefact must honour
 
    * **Evolvability** — change is expected and governed;
-   * **Cross‑Scale Coherence** — the same algebra binds parts to wholes at any level;
+   * **Cross‑Scale Coherence** — preserve shared distinctions across scales and qualify each part–whole algebra for its subject and the structure it preserves;
    * **Didactic Transparency** — each element exposes its own reasoning path.
 
 For a proposed rule or artifact, take one affected use through these steps:

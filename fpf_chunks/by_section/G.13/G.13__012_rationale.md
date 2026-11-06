@@ -6,12 +6,12 @@ section_id: "G.13:11"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.13/G.13__012_rationale.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "G.13 — External Interop Hooks for SoTA Discipline Packs (conceptual)"
   - "G.13:11 — Rationale"
-line_start: 133219
-line_end: 133224
+line_start: 133144
+line_end: 133149
 dependencies:
   - "A.18"
   - "A.19"
@@ -48,5 +48,5 @@ keywords:
 
 An explicit interop kit lets authors use external scholarly sources while keeping comparisons, editions and transformations visible.
 
-`G.13` provides **conceptual registration, alignment, and telemetry hooks**: cards and surfaces pin editions, cite governing patterns, and expose provenance hooks; telemetry hooks produce typed refresh causes. Domain/tool specifics remain in `Extensions` (or Phase‑3 governing definitions).
+`G.13` connects source meanings and records to receiving inputs through :4.3, then makes the transformation and source editions citable. Its cards and surfaces retain the applicable provenance and refresh inputs. Extensions bind provider or method details used by that transformation.
 

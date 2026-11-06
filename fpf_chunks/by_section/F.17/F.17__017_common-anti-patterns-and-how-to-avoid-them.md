@@ -6,12 +6,12 @@ section_id: "F.17:13"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__017_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "F.17 — Make a Settled Naming Decision Recoverable for Reuse (Unified Term Sheet)"
   - "F.17:13 — Common Anti-Patterns and How to Avoid Them"
-line_start: 125208
-line_end: 125223
+line_start: 125105
+line_end: 125120
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -63,7 +63,7 @@ keywords:
 | Spelling or suffix identity | Lets a familiar label, stable id, or `...@Context` form create or merge values. | Resolve the value under the pattern that defines or constrains it and treat only tokens fixed there as lineage. |
 | Borrowed locality label as Tech name | Imports one tradition's commitments into the row and hides the effective interpretation basis. | Recover the governed value and scheme-based cell; select the designation under F.18 and cite an actual F.9 Bridge only when its separate predicate and use conditions hold. |
 | Basis by source title | Replaces the exact cell and actual basis relation with a file or citation. | Recover the cell and two-participant basis relation; keep source-unit and publication facts separate. |
-| Row as publication | Treats table presence, rendering, upload, form, or carrier as availability. | Use E.24.PUB for the selected row edition, audience, bounded use, form, and carrier. |
+| Row as publication | Treats table presence, rendering, upload, form or carrier alone as availability. | Establish E.24.PUB availability for the selected row edition, audience and bounded use through its expression and carrier; include reusable-form conformance when needed. |
 | Block as ontology or completeness proof | Treats navigation as subtype structure or row count as value evidence. | Keep blocks optional and judge the exact row use through reader recovery and blocked-use avoidance. |
 | Row without its defining or constraining pattern | Lets F.17 govern the named object. | Point to the pattern that defines or constrains the value or stop the public-row path. |
 

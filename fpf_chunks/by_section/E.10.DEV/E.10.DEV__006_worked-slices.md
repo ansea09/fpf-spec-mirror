@@ -6,12 +6,12 @@ section_id: "E.10.DEV:5"
 section_title: "Worked Slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.DEV/E.10.DEV__006_worked-slices.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.10.DEV — Recovering What Development or Evolution Means in the Current Claim"
   - "E.10.DEV:5 — Worked Slices"
-line_start: 101182
-line_end: 101220
+line_start: 101102
+line_end: 101140
 dependencies:
   - "A.15"
   - "A.2.2"
@@ -49,7 +49,7 @@ Return a **missing-information result** to the programme author. First ask wheth
 #### E.10.DEV:5.2 - Change in human capability
 Source wording: `Mira developed as an engineer.`
 
-For the capability reading, recover the named Work family, supported envelope, qualification window, measures, and evidence under `A.2.2`. To preserve *developed*, also recover the change over time from comparable qualification conditions and evidence under the applicable change owner. If that comparison is unavailable, return the missing comparison; state any supported current capability separately. If the later question concerns an apparent loss, failed transfer, or condition-dependent expression, use current `E.23.CAE` only to return the qualified differential observation and disposition; do not turn that result into a trajectory choice or development Work. If a dated intervention occurred, identify its Work and Method separately. Do not rely on candidate `E.23.CDI` as current FPF law; after its own admission it may apply only when a separate steering or choice result selects capability development.
+For the capability reading, recover the named Work family, supported envelope, attained bounds and evidence under `A.2.2`, with the qualification and time conditions needed by the use. To preserve *developed*, also recover the change over time from comparable qualification conditions and evidence under the applicable change owner. If that comparison is unavailable, return the missing comparison; state any supported current capability separately. If the later question concerns an apparent loss, failed transfer, or condition-dependent expression, use current `E.23.CAE` only to return the qualified differential observation and disposition; do not turn that result into a trajectory choice or development Work. If a dated intervention occurred, identify its Work and Method separately. Use `E.23.CDI` when the receiving task calls for capability development.
 
 #### E.10.DEV:5.3 - Organization change
 
@@ -61,7 +61,7 @@ If the claim asserts actual rollout Work, recover its performer and occurrence i
 
 Source wording: `The population evolved as the archive improved.`
 
-Split the claims. Recover the population relations actually relied on—for example, membership, generation or lineage, variation, selection or retention, environment, or distribution—and their evidence under an admitted domain owner; return the exact gap when that owner is missing. Archive or front improvement uses `C.17`–`C.19`. Establish any additionally claimed reproduction or population relation under its own domain rules.
+Split the claims. Recover the population relations actually relied on—for example, membership, generation or lineage, variation, selection or retention, environment, or distribution—and their evidence under the applicable domain account. Keep a sufficient supported population claim; return only a definition, relation or evidential premise still missing for the receiving use. Archive or front improvement uses the relevant `C.17`–`C.19` contribution. Establish any additionally claimed reproduction or population relation under its own domain rules.
 
 #### E.10.DEV:5.5 - Model and plan postures
 

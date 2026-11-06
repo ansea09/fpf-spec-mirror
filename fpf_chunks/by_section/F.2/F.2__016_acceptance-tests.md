@@ -6,12 +6,12 @@ section_id: "F.2:15"
 section_title: "Acceptance tests"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.2/F.2__016_acceptance-tests.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "F.2 — Source-Local Term Harvesting & Normalisation"
   - "F.2:15 — Acceptance tests"
-line_start: 119347
-line_end: 119365
+line_start: 119237
+line_end: 119255
 dependencies:
   - "A.11"
   - "A.7"
@@ -37,7 +37,7 @@ keywords:
 
 * **SCR-F2-S01 (basis).** Every note names the exact source and edition and the effective scheme required to recover the claim.
 * **SCR-F2-S02 (idiomatic LNF).** Each LNF preserves meaningful spelling, hyphenation, casing, and modifiers.
-* **SCR-F2-S03 (two registers).** Tech is faithful and Plain is explanatory without added scope.
+* **SCR-F2-S03 (registers when used).** Tech is faithful; an added Plain designation is explanatory without added scope.
 * **SCR-F2-S04 (lexical boundary).** No note substitutes for behaviour, obligation, measurement, kind, assignment, Work, or evidence.
 * **SCR-F2-S05 (no cross-source claim).** F.2 asserts no equivalence, hierarchy, transfer, or permission between local meanings.
 * **SCR-F2-S06 (minimal generality).** Each LocalSenseClaim is no broader than its source use and receiving question.

@@ -6,12 +6,12 @@ section_id: "E.10:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__002_use-this-when.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:0 — Use this when"
-line_start: 99052
-line_end: 99785
+line_start: 98972
+line_end: 99704
 dependencies:
   - "A.10"
   - "A.15"
@@ -189,8 +189,7 @@ Classify the sentence first.
 | wording such as `describedEntity`, `DescribedEntityRef`, `primary described entity`, `EntityOfInterest`, or `EoIClass` | recover the actual `EntityOfConcern` participant under C.2.1, the publication-unit primary-EntityOfConcern or ordinary primary-subject use, or the local FPF kind; use `EntityOfConcernSlot` only as an A.6.5 `SlotSpec` inside a current reusable constitution `RelationSignature`; keep `entityOfConcernRef` and `EntityOfConcernRef` under their applicable reference rules; and rewrite to the exact current value among those, `EntityOfConcernChangeMode`, `EntityOfConcernClass`, `publicationUnitPrimaryEntityOfConcern`, `publicationUnitPrimarySubject` only for the `E.17.AUD.OOTD` primary-subject use, or the local FPF kind named by value. For the non-claim-bearing case, use the kind named by value or plain `topic` or `subject` without inventing an `EntityOfConcernRef`. If no use can be recovered by value, keep the old wording only as quoted source or trigger wording and block reliance. |
 | a review target | `review target`, review-facing target packet named by value, FPF pattern, pattern section, or file-carrier set only when the file-carrier interpretation is being made |
 | a local table or paragraph topic with no claim-bearing episteme, C.2.1 participant, current declaration, or reference use | `topic`, `subject`, or direct noun |
-| an FPF-side pattern, pattern section, accepted `DRR`, FPF publication, FPF view, document with named source-basis, evidence-basis, architecture-basis, or review-basis relation or use, or companion or projection material being improved | FPF pattern, pattern section, accepted `DRR`, FPF publication, FPF view, document with named source-basis, evidence-basis, architecture-basis, or review-basis relation or use, or companion or projection material |
-| a project-side episteme, publication, record, carrier, or activity under work | project episteme, view, or publication named by value, independently established evidence-use relation recovered through A.10, typed evidence record, `A.20` constraint or adjudication decision record, A.21 `GateDecisionResult`, an optional A.21 `DecisionLog`, `B.3` assurance or engineering-justification record, typed status record whose FPF status pattern is named, `A.2.8 U.Commitment`, exact `A.2.8.PER` permission result, `C.11 ChoiceResult`, `C.11` decision record, `A.6.A` action invitation, one `A.15.1` dated Work occurrence admitted under `U.Work`, a separate episteme about that occurrence, `A.15 U.WorkPlan`, `U.Method`, `U.MethodDescription`, carrier relation, or front-end relation |
+| a project-side episteme, publication, record, carrier, or activity under work | project episteme, view, or publication named by value, independently established evidence-use relation under its direct rule, with A.10 when its source-to-use account needs recovery or replay, typed evidence record, `A.20` constraint or adjudication decision record, A.21 `GateDecisionResult`, an optional A.21 `DecisionLog`, `B.3` assurance or engineering-justification record, typed status record whose FPF status pattern is named, `A.2.8 U.Commitment`, exact `A.2.8.PER` permission result, `C.11 ChoiceResult`, `C.11` decision record, `A.6.A` action invitation, one `A.15.1` dated Work occurrence admitted under `U.Work`, a separate episteme about that occurrence, `A.15.2 U.WorkPlan`, `U.Method`, `U.MethodDescription`, carrier relation, or front-end relation |
 
 Use the selected row only when the EntityOfConcern distinction changes the sentence. State the recovered participant, publication-unit use, review target, or ordinary topic directly; preserve any claim-bearing episteme, declaration, representation, source wording, and reader use that actually remains current. The ordinary result is the repaired sentence or a blocker, followed by the local `F.19` reread.
 
@@ -247,7 +246,7 @@ If the sentence says a publication "supports", "authorizes", "proves", "permits"
 
 ##### E.10:0.2c.5 - `surface`, `view`, `face`
 
-Do not treat these as synonyms.
+
 
 | Word | First split |
 | --- | --- |
@@ -255,7 +254,7 @@ Do not treat these as synonyms.
 | `face` | generic publication face, declared MVPK face, UI face, or public-facing companion publication |
 | `surface` | Treat as trigger wording, not as an accepted Tech head. Recover one of: publication face, publication form, publication unit, carrier, rendering, UI or front-end face, physical or geometric surface, companion publication, companion or projection material, carrier relation, or another FPF object named by value. |
 
-If the sentence can survive only because these are blurred, the sentence is not ready.
+
 
 ##### E.10:0.2c.6 - `source`, `target`
 
@@ -363,7 +362,7 @@ If a text says "reader-facing" or "review-facing", it also names what is facing 
 
 ##### E.10:0.2c.11 - `owner`, `home`, `host`, `locus`
 
-These are not interchangeable.
+
 
 Keep *owner* as ordinary architectural, organizational, policy, source-maintenance, or stewardship wording when the sentence already makes the precise ownership or responsibility relation and its participants clear. Otherwise name that direct relation. *Owner* does not mean a system-role kind, `U.SystemRoleAssignment`, authority, or Work by default, and it is not a substitute for `pattern`, `DRR`, selected `U.Episteme`, exact `EpistemePublicationRelation` occurrence, publication form, publication unit, file carrier, or project record.
 
@@ -377,7 +376,7 @@ Split the actual claim into the smallest applicable value:
 - support root; or
 - ordinary or quoted non-use when *owner* is only title-like wording; otherwise use the result selected through `E.10.ROLE`—for example, a local system-role kind and classification, a named `U.SystemRoleAssignment` occurrence, or another relation.
 
-Never use *owner* to avoid deciding which of those claims the sentence makes.
+
 
 ##### E.10:0.2c.12 - `route`, `branch`, `handoff`, `path`, `trajectory`, `move`, `flow`
 
@@ -413,7 +412,7 @@ Use these words when the sentence makes clear **what participates or is used, in
 | --- | --- |
 | “The paper contributes to our method.” | “We use the paper's calibration rule to choose the correction, under its stated interval assumption.” Name the passage and actual or proposed use. A citation alone establishes no use or evidence claim. |
 | “This operation contributes to preparation.” | “Calculating the correction is a constituent of this preparation Method under its construction rule.” Use B.1.5 for Method parthood; describe performed Work separately when that is the claim. |
-| “The test contributes evidence.” | State which test result supports which claim and under what limits, using A.10 when that evidence use is asserted. Evidence for a residual at sampled marks need not warrant the whole interval. |
+| “The test contributes evidence.” | State which test result supports which claim and under what limits, using the direct evidence rule and A.10 when the source-to-use account needs recovery or replay. Evidence for a residual at sampled marks need not warrant the whole interval. |
 | “The replacement adds value.” | Compare the realizable changed configuration with the present one under C.11.CRC when its finite-change question is current. Keep the affected results, resources, horizon and uncertainty visible. |
 | “The author makes an original contribution.” | Name the new distinction, Method or explanation and the question it answers. E.8:11 compares that answer with alternatives; authorship alone establishes neither novelty nor practical superiority. |
 
@@ -439,13 +438,13 @@ Possible recoveries include:
 Use `concept` only where current `FPF` already has the relevant concept-set, UTS, local-meaning, or Part F machinery available.
 Otherwise recover the claim-bearing episteme; the obtaining direct relation and actual participants; the current A.6.5 declaration, participant designation, or representation and explicit correspondence under their applicable pattern when one of those is actually present; or the record kind and defining rule named by value.
 
-A representation need not use a mathematical lens. Recover its represented subject and correspondence under the direct pattern or domain rule. Use C.29 for mathematical objects, mathematical mappings or returned mathematical inference; use A.6.3.RT for a claimed representation transition, E.24.PUB for expression and publication, and C.37 only when one receiving action needs a selection or co-use account.
+A representation need not use a mathematical lens. Recover its represented subject and correspondence under the direct pattern or domain rule. Use C.29 when choosing, transferring or relying on a mathematical representation leaves a separate correspondence or inference question; use A.6.3.RT for a claimed representation transition, E.24.PUB for expression and publication, and C.37 only when one receiving action needs a selection or co-use account.
 
 ##### E.10:0.2c.15 - `pattern`, generic FPF-side object wording, `locus`, `row`, `target`
 
 `Pattern` is not a free synonym for regularity.
 If the intended object is an FPF pattern, write `FPF pattern` or name the pattern and the definition, constraint, test or method being used.
-If it is not an FPF pattern, do not write `recovered FPF construction` as the final value. Choose one recovered value by sentence function: episteme, view, publication, publication form, generic publication face, declared MVPK face, `PublicationUnit`, carrier relation, front-end relation, project-side FPF kind and reference named by value, document with named source-basis, evidence-basis, architecture-basis, or review-basis relation or use, review target, obtaining direct relation and actual participants, receiver-needed relation occurrence, reusable `RelationSignature` and A.6.5 `SlotSpec` values, claim-bearing episteme with any current participant designations, representation element under its direct pattern and explicit correspondence, `C.11` `ChoiceResult`, `C.11` decision record, `A.6.A` action invitation, `A.15` `U.WorkPlan`, one `A.15.1` dated Work occurrence admitted under `U.Work` or a separate episteme about it, `U.Method`, `U.MethodDescription`, `A.20` constraint or adjudication decision record, A.21 `GateDecisionResult`, an optional A.21 `DecisionLog`, independently established evidence-use relation recovered through A.10, typed evidence record, `B.3` assurance or engineering-justification record, or typed status record whose FPF status pattern is named.
+If the subject is not an FPF pattern, name the concrete object or relation and the use asserted about it. Use §0.2a for an unresolved kind, source, publication, Work, authority or representation question; then return the recovered value to this sentence.
 
 Avoid generic FPF-side object wording, generic named-target wording, `locus`, `row`, and `host` when they hide kind.
 Use them only when the kind is literally a table row, document with named source-basis relation or use, file carrying FPF pattern text, or review target and the sentence does not need a narrower FPF kind.
@@ -456,7 +455,7 @@ For FPF-facing wording that carries a claim being made, direct relation, admissi
 Do not write `authority-bearing FPF pattern`, `authority-bearing FPF row`, `FPF row named by value`, `selected FPF pattern, record, or relation`, `governing FPF relation`, or `required project record or action` as final fields.
 
 When one of these union-fields appears, make the A.6.P choice explicit:
-- if the sentence is making a relation claim, recover the `RelationKind`, actual participants, qualifiers, scope, time, viewpoint, and admissibility target, then state the obtaining direct relation and those participants; distinguish one relation occurrence only for a named receiving use; add a reusable `RelationSignature` and A.6.5 `SlotSpec` values only when declaration is current; and keep any claim-bearing row or field as an assertion episteme, participant designation, or representation under its direct pattern and explicit correspondence as its own assertion or representation rather than as the relation itself;
+- if the sentence is making a relation claim, recover the `RelationKind` and actual participants, with the qualifiers, scope, time, viewpoint and admissibility target required by the direct relation or receiving use, then state that claim with those participants and its supported polarity or unresolved status; distinguish one relation occurrence only for a named receiving use; add a reusable `RelationSignature` and A.6.5 `SlotSpec` values only when declaration is current; and keep any claim-bearing row or field as an assertion episteme, participant designation, or representation under its direct pattern and explicit correspondence as its own assertion or representation rather than as the relation itself;
 - if the sentence is not making one relation claim, unpack the wording and claim under repair into an FPF-side kind, reference, or relation named by value and one project-side FPF kind with its reference, or state that no project-side FPF kind is triggered;
 - if the same unpacking recurs across cases with one stable recovery shape, record a light A.6.P specialization candidate rather than minting a vocabulary-wide replacement field.
 
@@ -504,7 +503,7 @@ FPF patterns provide reusable guidance for recognizable problem situations. In o
 
 Use `apply pattern`, `use the pattern guidance`, `the pattern applies to this problem situation`, or `the case falls under this pattern` for the ordinary FPF-side use. These expressions do not assert that the pattern acts.
 
-Do not leave `project action` as final wording when it hides a distinction that changes the current claim or use. For ordinary project-side activity, say plainly who does what and what result or judgement follows. When a current claim or receiving use depends on formal classification, choose exactly one applicable kind or relation: `U.Method`; `U.MethodDescription`; `U.Mechanism`; `A.15` `U.WorkPlan`; one `A.15.1` dated Work occurrence admitted under `U.Work`; a separate claim-bearing episteme asserting a fact about that Work occurrence; exact entity plus a direct relation involving that occurrence recovered through `A.6.P.WMR`; exact `A.6.1` operation-application binding; local `A.15.PROD` claim; measurement-result episteme; evaluation or diagnostic finding; `C.11` `ChoiceResult`; `C.11` decision record; `A.6.A` action invitation; `A.20` constraint or adjudication decision record; A.21 `GateDecisionResult`; an optional A.21 `DecisionLog`; independently established evidence-use relation recovered through A.10; typed evidence record; `B.3` assurance or engineering-justification record; typed status record whose FPF status pattern is named; carrier relation; front-end relation; or another accepted project-side FPF kind.
+For ordinary project-side activity, say who does what and which result or judgement follows. When the current claim depends on a formal kind or relation, recover that value under its direct pattern and preserve its membership or obtaining conditions. Apply §0.2a only while that selection remains unresolved.
 
 Keep `route`, `path`, `branch`, `handoff`, `trajectory`, `move`, or `flow` as ordinary navigation wording when no FPF movement, control, or temporal claim depends on it. When such a claim is current, name the relevant movement, control, and temporal relations and use the pattern that defines them.
 
@@ -575,7 +574,7 @@ If a basis changes what may be done, state the admissible use. State a relation 
 
 A bilingual alias is not a Bridge by itself and does not create equivalence, substitution, UTS admission, or a cross-local naming relation.
 
-When translated wording has FPF-governed use, recover the FPF kind named by value, local head, publication construction, source relation, and admissible use before accepting the translation. A translated explanation is a derivative rendering; operative claims need claim-bound source relations and `E.17.EFP` or `A.10` when reliance use is being made. A translated `PublicationUnit` may preserve form while shifting its primary subject or carried publication move; apply `E.17.AUD` or `E.17.AUD.OOTD` when that shift is being claimed. Local translated heads may use `E.17.AUD.LHR` or `C.2.P` without full `F.18` unless durable cross-local naming, a UTS row, a Core-facing term, or a reusable FPF head is intended.
+When translated wording has FPF-governed use, recover the FPF kind named by value, local head, publication construction, source relation, and admissible use before accepting the translation. Operative claims in a translated explanation retain the source-to-use grounds needed for reliance. Use `E.17.EFP` when an explanation-class or source-rendering ambiguity changes that use, and `A.10` when its evidence/provenance account needs recovery or replay. A translated `PublicationUnit` may preserve form while shifting its primary subject or carried publication move; apply `E.17.AUD` or `E.17.AUD.OOTD` when that shift is being claimed. Local translated heads may use `E.17.AUD.LHR` or `C.2.P` without full `F.18` unless durable cross-local naming, a UTS row, a Core-facing term, or a reusable FPF head is intended.
 
 ##### E.10:0.2c.25 - `state`, `status`, `posture`, `readiness`
 

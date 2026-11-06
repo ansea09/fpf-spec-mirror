@@ -6,12 +6,12 @@ section_id: "E.9.DA:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9.DA/E.9.DA__013_relations.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.9.DA — Evaluate a DRR for Its Declared Authoring Use (Decision-Adequacy CharacteristicSpace)"
   - "E.9.DA:12 — Relations"
-line_start: 99020
-line_end: 99039
+line_start: 98940
+line_end: 98959
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -33,7 +33,7 @@ keywords:
 | `A.19`, `A.19.ECS`, `A.17`, `A.18`, `C.16`, `C.16.Q`, `C.25` | Define or constrain the characteristic space, evaluation specification, characteristics, scales, measurement boundary, quality-ascription precision, declared-use floor, noncompensatory status meaning, and any separately selected Q-Bundle consumed here. E.9.DA supplies the DRR-specific coordinates and result rules. |
 | `A.13`, `A.15.1`, `F.6`, `A.6.1`, `A.2`, `A.2.1`, `C.3.2` | `A.13` supplies every precise evaluator-performer's core and same obtaining assignment; `A.15.1` independently admits dated Work; `F.6` supplies a separate later relation only when precise assignment-bound attribution is current. `A.6.1` governs an exact application of a declared mechanism operation and its actual bindings; `A.2` and `A.2.1` supply the assignment species and occurrence; `C.3.2` is relevant only to an independently asserted local system-role classification. Method, application, Work, and attribution are independently conditional here. Neither an application nor Method alone implies Work. |
 | `C.2.1` | Defines the identity of an exact checked DRR or reusable coordinate/result/record episteme when that identity is current. An ordinary bounded review need not create those objects. |
-| `A.10`, `B.3` | `A.10` recovers the exact sources, independently established support and use relations, provenance and currentness needed for bounded reliance. `B.3` governs assurance when an actual named assurance claim about an exact target claim is current. Witness presence and a favorable value establish neither reliance nor assurance. |
+| `A.10`, `B.3` | Use the direct subject grounds for reliance on the checked result. A.10 recovers an implicit source-to-use account or makes provenance, currentness and bounded reliance replayable when needed. B.3 governs an actual named assurance claim about an exact target claim. A favorable value does not establish those separate grounds. |
 | `F.10`, `G.11` | Govern any downstream status use/interpretation and currentness. A local E.9.DA status value does not authorize drafting by itself. |
 | `E.24.PUB`, `C.29` | `E.24.PUB` governs publication occurrence, form, and carrier; `C.29` governs representation through a declared mathematical lens when such a lens is used for a result or record. State publication separately from the assessment and its evidence basis. |
 | `E.8` | Governs later authored pattern bodies and the current-best-versus-lineage, source-payload, adoption, changed-locus, and reopen discipline used in §11. |

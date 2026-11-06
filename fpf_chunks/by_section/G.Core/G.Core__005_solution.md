@@ -6,12 +6,12 @@ section_id: "G.Core:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.Core/G.Core__005_solution.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "G.Core — Discipline SoTA Kit Invariants, Defaults and Refresh Triggers (Part G)"
   - "G.Core:4 — Solution"
-line_start: 126573
-line_end: 126837
+line_start: 126463
+line_end: 126727
 dependencies:
   - "A.15.3"
   - "A.19"
@@ -54,7 +54,7 @@ For each Part G invariant already defined elsewhere, `G.Core`:
 | `guard_decision_tristate(pass|degrade|abstain)` + `unknown_never_coerces_to_pass` | A.6.7 + C.23 | `GuardDecision := {pass|degrade|abstain}` only; `unknown` maps to `degrade`/`abstain` via explicit SoS‑LOG branch/policy pins. |
 | `penalties_route_to_r_eff_only` | A.6.7:4.2(2) | Model-bound penalty condition: apply the named model's result meaning and applicability; loss assessment and numerical assurance penalties follow that governing clause. |
 | `no_silent_scalarisation_of_partial_orders` + `no_silent_totalisation` | A.6.7 | Partial-order results stay set‑valued; no silent scalar ranks or “helpful” totalisation. |
-| `planned_filling_in_workplan` + `actual_launch_facts_and_witness` + `gate_decision_separation` | A.15.2 + A.15.3 + A.19.CHR + A.6.7 + E.18:5.6 | Edition/reference baselines are A.15.2 WorkPlan content; A.15.3 applies only to independently declared members. Preserve the planned values. An actual launch claim requires independently admitted Work and obtaining direct relations or exact application bindings; any FinalizeLaunchValues witness is a separate episteme. GateDecision/DecisionLog semantics remain with their gate governor. |
+| `planned_filling_in_workplan` + `actual_launch_facts_and_witness` + `gate_decision_separation` | A.15.2 + A.15.3 + A.19.CHR + A.6.7 + E.18:5.6 | A baseline adopted as planned work is A.15.2 WorkPlan content; A.15.3 applies only to independently declared members. Preserve the planned values. An actual launch claim requires independently admitted Work and obtaining direct relations or exact application bindings; any FinalizeLaunchValues witness is a separate episteme. GateDecision/DecisionLog semantics remain with their gate governor. |
 | `DefaultGoverningDefinitionIndex.single_governing_definition_per_DefaultId` | this pattern | Any default names exactly one governing definition; `G.Core.DefaultGoverningDefinitionIndex` is an index, not a second spec. |
 
 This pattern also governs four pieces of Part‑G‑wide infrastructure that are **not** already governed elsewhere:
@@ -64,18 +64,18 @@ This pattern also governs four pieces of Part‑G‑wide infrastructure that are
 * the **Δ‑discipline** for ID‑stable deduplication (delegation without public‑ID breakage), and
 * the **linkage compression catalogues** (`GCoreConformanceProfileId`, `GCoreTriggerSetId`, `GCorePinSetId`) used to keep `G.x` linkage sections small.
 
-#### G.Core:4.2 - Mandatory `G.Core linkage` manifest requirement for every `G.x`
+#### G.Core:4.2 - State the applicable G.Core linkage
 
-Every pattern `G.x` in Part G SHALL include a short, explicit **Core linkage** section that is notation‑independent and id‑based.
+Each Part-G pattern makes its applicable core obligations, pins, defaults and refresh triggers recoverable. A direct reference with its use conditions is sufficient; `GCoreLinkageManifest` provides a compact representation when several shared sets are used.
 
-* Relations: `Builds on: G.Core`.
-* Solution: include a section named `G.x:<n> - G.Core linkage (normative)` that contains a `GCoreLinkageManifest` listing, at minimum:
+* Cite `G.Core` and the governing definitions of the obligations used.
+* When using a `GCoreLinkageManifest`, identify the applicable sets or individual ids:
 
-  * `CoreConformanceProfileIds := { GCoreConformanceProfileId… }` *(preferred)* and/or `CoreConformanceIds := { CC‑GCORE‑… }`
-  * `RSCRTriggerSetIds := { GCoreTriggerSetId… }` *(preferred)* and/or `RSCRTriggerKindIds := { RSCRTriggerKindId… }`
-  * `CorePinSetIds := { GCorePinSetId… }` *(preferred)* and/or `CorePinsRequired := { … }` *(pins/refs surfaced by the kit; include policy‑id pins and edition pins when applicable; list only additions/overrides if pin sets are used)*
-  * `DefaultsConsumed := { DefaultId… }` *(ids only; governing definition is resolved via `G.Core.DefaultGoverningDefinitionIndex`; cite governing definition, don’t restate)*
-  * `TriggerAliasMapRef?` *(present or cited) if the pattern uses local trigger tokens*
+  * `CoreConformanceProfileIds := { GCoreConformanceProfileId… }` and/or `CoreConformanceIds := { CC‑GCORE‑… }`
+  * `RSCRTriggerSetIds := { GCoreTriggerSetId… }` and/or `RSCRTriggerKindIds := { RSCRTriggerKindId… }`
+  * `CorePinSetIds := { GCorePinSetId… }` and/or `CorePinsRequired := { … }` (list additions or overrides when pin sets are used)
+  * `DefaultsConsumed := { DefaultId… }` (the governing definition is resolved through `G.Core.DefaultGoverningDefinitionIndex`)
+  * `TriggerAliasMapRef?` when local trigger tokens need canonical aliases
 
 **Nil‑elision (normative size rule).** Any field whose value is `∅` MAY be omitted; omission means `∅` and does not relax any obligation.
 
@@ -83,9 +83,9 @@ Every pattern `G.x` in Part G SHALL include a short, explicit **Core linkage** s
 
 ##### G.Core:4.2.1 - `GCoreLinkageManifest` (canonical shape)
 
-`GCoreLinkageManifest` is the minimal, pattern‑local wiring manifest for citing `G.Core` without duplicating universal prose.
+`GCoreLinkageManifest` groups the pattern-local references to `G.Core` without duplicating the governing rules.
 
-A `G.x` MAY render the manifest as prose, a table, or structured notation, but the ids SHALL be recoverable by authoring review:
+A `G.x` MAY render this linkage as prose, a table, or structured notation. Its applicable ids and conditions SHALL remain recoverable:
 
 `GCoreLinkageManifest := ⟨
   CoreConformanceProfileIds?: {GCoreConformanceProfileId…},
@@ -113,11 +113,11 @@ A `GCoreConformanceProfileId` is a stable identifier for a named set of `CC‑GC
 
 A `GCorePinSetId` is a stable identifier for a named set of commonly recurring **pin obligations** used in Part‑G kits. It exists solely to reduce repetition in `G.x` linkage sections (no new semantics).
 
-**Conditional pins (normative).** In pin‑set expansions below, a pin marked with `?` is **conditional**: it **MUST** be present iff the pattern actually uses the corresponding surface/artefact class; otherwise it MAY be omitted (nil‑elision permitted) and is treated as `∅`. A `G.x` MAY strengthen a conditional pin to unconditional by listing it explicitly in `CorePinsRequired`.
+**Conditional pins (normative).** A pin marked with `?` is required when the pattern’s actual object or receiving use calls for that surface; otherwise it may be omitted. An independently selected kit or receiving contract can require a pin explicitly. Selection of a shared pin set preserves those conditions; it does not create a CG-Frame, comparison specification, WorkPlan or crossing.
 
 | GCorePinSetId | Expands to `CorePinsRequired` (set) | Notes |
 | --- | --- | --- |
-| `GCorePinSetId.PartG.AuthoringMinimal` | `{CG-FrameContext, entityOfConcern := ⟨GroundingHolon, ReferencePlane⟩, CNSpecRef.edition, CGSpecRef.edition}` | Baseline scope+spec pins for most Part‑G authoring kits (design‑time, citable, refreshable). |
+| `GCorePinSetId.PartG.AuthoringMinimal` | `{CG-FrameContext?, entityOfConcern := ⟨GroundingHolon, ReferencePlane⟩?, CNSpecRef.edition?, CGSpecRef.edition?}` | Pin the frame, subject/plane and specification editions required by the actual kit or use. A CG-governed comparison retains its CN/CG pins; a local view, source registration or refresh judgement without that comparison uses its own required scope and source basis. |
 | `GCorePinSetId.PartG.CrossingVisibilityPins` | `{BridgeId?/BridgeCardId?, KindBridgeAssertionRef[]?, PlaneRelationRef[]?, BridgeMatrixId?, CL?/CL^k?/CL^plane?, Φ/Ψ/Φ_plane policy-ids?, CrossingBundleId?, UTSRowId[]?, PathId[]?/PathSliceId[]?}` | Activate the channel and receiving-use conditions below. Selecting this pin set alone creates no correspondence, calibration, loss model, publication row or flow/gate crossing. |
 
 **CrossingVisibilityPins activation.** Recover the relation and receiving use before expanding its applicable pins:

@@ -6,12 +6,12 @@ section_id: "E.10.D2:8"
 section_title: "Neighboring use routing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__009_neighboring-use-routing.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:8 — Neighboring use routing"
-line_start: 102577
-line_end: 102644
+line_start: 102497
+line_end: 102564
 dependencies:
   - "A.7"
   - "C.2.1"
@@ -56,11 +56,11 @@ Call the same episteme a `U.View` only when it conforms to at least one exact `U
 
 Use A.2.6 when the receiving use depends on the exact claim scope and its context-slice membership. Use A.1.1 when the receiving use depends on one exact `BoundedModelUseStructure`. Neither scope nor structure becomes a description constituent merely because a table displays it.
 
-Use C.2.1 empirical grounding only when claims must be mapped to exact observation, intervention, measurement, or test relations involving one grounding holon. Use A.10 when the use relies on an exact evidence-provenance path; use B.3 when an assurance claim is made or its material-reliance threshold is met. Evidence, assurance, or an evaluation result can support an assertion about a description or its specification use; none makes the subject-side claim true, changes the EntityOfConcern, or mutates the description episteme. State the exact validity or reliance window when that receiving use depends on one.
+Use C.2.1 empirical grounding only when claims must be mapped to exact observation, intervention, measurement, or test relations involving one grounding holon. Retain an adequate evidence-provenance basis; use A.10 when the source-to-use path is still implicit or a replayable account is needed; use B.3 when an assurance claim is made or its material-reliance threshold is met. Evidence, assurance, or an evaluation result can support an assertion about a description or its specification use; none makes the subject-side claim true, changes the EntityOfConcern, or mutates the description episteme. State the exact validity or reliance window when that receiving use depends on one.
 
-Use G.11 when currentness of the description edition, evidence path, harness, viewpoint, publication, or another neighbor matters to the receiving use. A currentness judgment applies to that exact object or relation; it is not a generic status field of the EntityOfConcern.
+Retain an adequate currentness basis for the description edition, evidence path, harness, viewpoint, publication or other neighbor. Use G.11 when a changed premise or condition may alter that basis and the receiving use needs a refresh decision. A currentness judgment applies to that exact object or relation.
 
-Where claims cross reference schemes, first recover the exact F.17 source and receiving senses and the obtaining F.9 Bridge needed by the direct use. A separate current C.2.1 claim states whether that Bridge is suitable for the named bounded use, direction, correspondence rule, and loss tolerance; A.10 or B.3 separately governs reliance. A Bridge, profile, card, or shared spelling is neither a licence nor proof that comparison, translation, or work occurred.
+Where claims cross reference schemes, first recover the exact F.17 source and receiving senses and the obtaining F.9 Bridge needed by the direct use. A separate current C.2.1 claim states whether that Bridge is suitable for the named bounded use, direction, correspondence rule, and loss tolerance. For reliance on that claim, preserve the A.10 evidence-provenance path for that same use; ordinary evidence reliance requires the applicable local RelianceDisposition, while an actual named assurance claim requires its B.3 result for the same bounded assurance use. A Bridge, profile, card, or shared spelling is neither a licence nor proof that comparison, translation, or work occurred.
 
 #### E.10.D2:8.3 - Edition, publication, form, and carrier
 

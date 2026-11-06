@@ -6,12 +6,12 @@ section_id: "E.10.INT:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.INT/E.10.INT__013_relations.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.10.INT — Recovering What Interest or Curiosity Means Here"
   - "E.10.INT:12 — Relations"
-line_start: 101069
-line_end: 101077
+line_start: 100989
+line_end: 100997
 dependencies:
   - "C.11"
   - "C.16"
@@ -32,5 +32,5 @@ keywords:
 - **C.16 and C.17** supply measurement and the distinctions among novelty, usefulness and sample surprise.
 - **C.11** compares formed options; **C.19** governs directions in an active search pool; **C.18** supplies retention in an exploration archive. **C.40** develops problems and ways together.
 - **D.1 and D.3** supply ethical-value and conflict analysis when affected interests raise those questions.
-- **E.23.CDI** offers candidate capability-development guidance that separates a described acquisition method, its execution and an asserted capability change. It can govern an FPF claim only after its own admission; the applicable admitted field pattern supplies the acquisition or intervention method.
+- **E.23.CDI** supplies capability development when that is the receiving task, separating the acquisition Method, its execution and the asserted capability change. Its entry conditions and the applicable field Method govern the intervention.
 

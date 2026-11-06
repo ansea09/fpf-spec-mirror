@@ -6,12 +6,12 @@ section_id: "E.19:11"
 section_title: "SoTA-Echoing — problem-first comparison of review approaches"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__013_sota-echoing-problem-first-comparison-of-review-approaches.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:11 — SoTA-Echoing — problem-first comparison of review approaches"
-line_start: 113439
-line_end: 113456
+line_start: 113330
+line_end: 113347
 dependencies:
   - "A.15.1"
   - "A.6.P"
@@ -48,5 +48,5 @@ keywords:
 
 **Selected current front.** Ordinary E.19 use combines a lightweight stable-candidate review with cheap bounded automation, then scales review depth by likely harm, novelty, reuse breadth, and source volatility. It preserves independent findings as a real review form, tests breadth with practitioner evidence only when the claim warrants it, and refreshes the smallest triggered unit. The selected trade-off avoids running questions for absent risks while retaining human judgement of semantics, practical use, and current-source decisions. Practitioner studies and continued surveillance add effort only when the claimed breadth or currentness warrants it. Reopen this choice when another approach demonstrates equal or better detection of those four defect families at lower comparable effort.
 
-When a receiving use requires a reusable E.19 result, it states the review claim for one exact FPF pattern edition or subset. Its EntityOfConcern, ClaimGraph, scope, applicable profiles, findings or aggregate cleared boundary, conclusion, and reopen condition state that pattern-quality claim. Any project-side reuse supplies its own governing relation, evidence or assurance, and decision under the relevant project rule. Review, repair, verification, result publication, admission or refresh decision, and project-side reuse remain separately recoverable. Reopen the affected result claim when a change to the reviewed text, accepted source, SoTA grounding, related pattern contribution, selected companion or projection function, profile trigger, review boundary, or claimed downstream use can change its conclusion or applicability.
+When a receiving use requires a reusable E.19 result, it states the review claim for one exact FPF pattern edition or subset. Its EntityOfConcern, ClaimGraph, scope, applicable profiles, findings or aggregate cleared boundary, conclusion, and reopen condition state that pattern-quality claim. A project-side claim beyond the stated pattern-quality result needs its own grounds and any evidence, assurance or decision required by the relevant project rule. Review, repair, verification, result publication, admission or refresh decision, and project-side reuse remain separately recoverable. Reopen the affected result claim when a change to the reviewed text, accepted source, SoTA grounding, related pattern contribution, selected companion or projection function, profile trigger, review boundary, or claimed downstream use can change its conclusion or applicability.
 

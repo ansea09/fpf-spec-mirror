@@ -6,12 +6,12 @@ section_id: "E.17.ID.CR:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.ID.CR/E.17.ID.CR__007_bias-annotation.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.17.ID.CR — Compare Sources Within a Shared Review Frame (ComparativeReviewUnit)"
   - "E.17.ID.CR:6 — Bias-Annotation"
-line_start: 109224
-line_end: 109231
+line_start: 109130
+line_end: 109137
 dependencies:
   - "A.15"
   - "A.15.2"
@@ -43,7 +43,7 @@ keywords:
 
 Scope: bounded comparative review units governed under `ComparativeReviewUnit` inside `InterpretationDiscipline`, not all review, all publication, or all decision work.
 
-This pattern intentionally biases toward one modest object: a bounded comparison over already available source epistemes or source publications. Its mitigation is positive before it is prohibitive: recover the source references, shared review frame, bounded lift, blocked downstream claim or effect, and boundary trigger. When the boundary trigger fires, name the crossed claim and use the governing pattern for that claim rather than extending this pattern by another warning list.
+This pattern focuses on a bounded comparison over available sources. Recover the source claims, shared question, comparison basis and supported contrast. When the receiving work asks for a stronger claim, use its governing Method and retain the grounds already established by the comparison.
 
 The governance risk is not that a comparative review unit exists; it is that fluent comparison hides stronger use. The pattern therefore keeps reader-fit, interaction mode, and source relation visible only when they change the review unit's actual use, while keeping authority-bearing claims with their own governing patterns and project-side FPF kinds and references named by value.
 

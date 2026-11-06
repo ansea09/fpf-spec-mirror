@@ -6,12 +6,12 @@ section_id: "E.10.LRN:5"
 section_title: "Worked Slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.LRN/E.10.LRN__007_worked-slices.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.10.LRN — Recovering What “Learning” Means in the Current Claim"
   - "E.10.LRN:5 — Worked Slices"
-line_start: 100819
-line_end: 100844
+line_start: 100739
+line_end: 100764
 dependencies:
   - "A.10"
   - "A.15"
@@ -65,9 +65,9 @@ An active-learning policy chooses a query or observation because its expected re
 
 #### E.10.LRN:5.5 - Public construction
 
-A participant builds and explains a working pump simulation. The artifact and explanation make some model choices inspectable. Assessment Work may use them as evidence for bounded claims. Independent diagnosis of a changed pump configuration is a different representative task. Test it under its declared support conditions and use the resulting evidence for a bounded transfer or capability claim.
+A participant builds and explains a working pump simulation. The artifact and explanation make some model choices inspectable. Assessment Work may use them as evidence for bounded claims. Independent diagnosis of a changed pump configuration is a different representative task. Use adequate existing performance evidence for that capability or transfer claim. If its relevant conditions remain untested, a warranted test under the declared support conditions can supply the missing evidence.
 
 #### E.10.LRN:5.6 - Organizational learning
 
-An organization publishes a “lessons learned” report. Publication establishes an available episteme, not changed enacted practice. Recover later Method changes, assignments, Work occurrences, selection, retention, and operating consequences before claiming organizational or cultural change.
+An organization publishes a “lessons learned” report. This establishes an available episteme. A supported claim that a new variant entered an institutional memory may finish at that narrower result. A claim that people changed their practice needs the relevant Method, assignment and Work facts and evidence of the claimed change. Recover selection, retention or operating consequences only for the cultural claim that uses them; publication alone does not establish changed enacted practice.
 

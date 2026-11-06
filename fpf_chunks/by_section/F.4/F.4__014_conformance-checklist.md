@@ -6,12 +6,12 @@ section_id: "F.4:12"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__014_conformance-checklist.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "F.4 — SystemRoleKindDescription — Describing an Exact System-Role Kind"
   - "F.4:12 — Conformance Checklist"
-line_start: 119915
-line_end: 119931
+line_start: 119805
+line_end: 119821
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -53,7 +53,7 @@ keywords:
 | `CC-F4-02` | Are the candidate domain, operative membership condition, intended member/non-member boundary, continuity rule, current `KindSignature`, and effective scheme recoverable, with source or practice provenance used only to locate or compare definitions? |
 | `CC-F4-02a` | Are the description episteme, local kind, `KindSignature`, effective scheme, optional F.17 cell and basis relation, and candidate-classification judgment kept separate, with optional values added only when the receiving use needs them? |
 | `CC-F4-03` | Is the description separate from the kind, classification judgment, NameCard, public row, publication form, and carrier? |
-| `CC-F4-04` | Does first entry preserve the full A.1 range of possible systems rather than imply only non-human technical systems? |
+| `CC-F4-04` | Does first entry preserve the kind's operative candidate domain and clarify the A.1 meaning of System where the intended reader could otherwise narrow it incorrectly? |
 | `CC-F4-05` | Are classification and assignment handled separately under C.3.2 and A.2.1? |
 | `CC-F4-06` | Are capability claims handled under A.2.2? |
 | `CC-F4-07` | Are Method, plan, and Work claims handled under A.3, A.15, and their direct neighbors? |

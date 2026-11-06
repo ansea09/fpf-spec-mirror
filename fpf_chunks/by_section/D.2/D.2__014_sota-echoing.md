@@ -6,12 +6,12 @@ section_id: "D.2:10"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.2/D.2__014_sota-echoing.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "D.2 — Recognize Ethical Concerns Across Levels and Scopes (Multilevel Ethics)"
   - "D.2:10 — SoTA-Echoing"
-line_start: 91811
-line_end: 91819
+line_start: 91805
+line_end: 91808
 dependencies:
   - "A.1"
   - "A.15"
@@ -31,10 +31,5 @@ keywords:
 
 ### D.2:10 - SoTA-Echoing
 
-| Source line | Practical implication for this pattern |
-| --- | --- |
-| Multilevel selection and holonic systems thinking | Ethical effects often appear across nested, overlapping, or situation-defined scopes; the case must declare the levels or scopes it uses instead of importing a fixed moral ladder. |
-| Applied ethics and responsibility practice | Trace responsibility and harm across the scopes where the action has consequences. |
-| FPF holon and episteme ontology | Affected systems, collections, work occurrences, disciplines, and epistemes may be current; value-frame editions, ClaimScope, and qualification windows delimit the ethical claim, while descriptions and publication use remain separate from the affected in-life object. |
-| Architecture residual discipline | A cross-scope residual can require architecture repair, a D.3 conflict description, or both; D.2 names the next pattern to apply instead of treating architecture shape as ethical proof or ethics as architecture by default. |
+For recognizing a transferred consequence, **adopt** A.1.CSD's tracing of a proposed change through actual relations and supported possible effects, when the affected account is incomplete. Compared with judging only the proposal's local target or assigning priority by level, :2 and the service-restriction case retain the access loss alongside the claimed quality benefit. D.1 supplies the value premise; D.3 and D.4 describe and decide the resulting conflict. This construction makes the traced concern available for the next question without a fixed level catalogue or a full impact study. Its conclusion covers the bearers and effect paths actually recovered. Reuse an adequate existing account; reconsider it when a new relation, consequence or value premise changes the affected concern.
 

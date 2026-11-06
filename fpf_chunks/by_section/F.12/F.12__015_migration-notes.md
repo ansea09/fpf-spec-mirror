@@ -6,12 +6,12 @@ section_id: "F.12:14"
 section_title: "Migration notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.12/F.12__015_migration-notes.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "F.12 — Evaluate Promise Fulfilment from Work Evidence (Service Acceptance)"
   - "F.12:14 — Migration notes"
-line_start: 122846
-line_end: 122854
+line_start: 122743
+line_end: 122751
 dependencies:
   - "A.10"
   - "A.15.1"

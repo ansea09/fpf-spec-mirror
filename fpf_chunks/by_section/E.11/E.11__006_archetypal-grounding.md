@@ -6,12 +6,12 @@ section_id: "E.11:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__006_archetypal-grounding.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:5 — Archetypal Grounding"
-line_start: 103269
-line_end: 103390
+line_start: 103189
+line_end: 103310
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"
@@ -56,7 +56,7 @@ The card does not promise a machined component. When actual machining later beco
 
 Suppose a new `A.6.3.RT` edition restores a progressive representation result: an ordinary target representation plus source-comparison note first, exact endpoints only when a named receiver makes their identity material, and a historical transition occurrence only when actual transition Work and all required participants are current. Repair only the affected `WORKING-DOCUMENTS` branch so its first result and escalation triggers match the direct pattern. The card heading and general question remain unchanged when readers still recognize the same situation.
 
-After the repair, compare the same truthful entry with and without its mantra after a delay or interruption. Keep the card only if the mantra materially helps a cold reader reconstruct the choice-changing cross-pattern path and its first result or return. If the two forms perform alike, use an ordinary entry or locator; if the mantra hides the result or return, repair or drop it.
+If the repair changes the cross-pattern path that the mantra must help the reader recover, or its first result or return, compare the same truthful entry with and without the mantra after a delay or interruption. Reuse a still-applicable comparison for unchanged mnemonic content and use. Keep the card only when the comparison supports a material mnemonic gain. If the two forms perform alike, use an ordinary entry or locator; if the mantra hides the result or return, repair or drop it.
 
 #### E.11:5.5 - A better first-click rate can make discovery worse
 

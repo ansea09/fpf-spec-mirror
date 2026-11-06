@@ -6,12 +6,12 @@ section_id: "E.16:7"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.16/E.16__008_consequences.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.16 — RoC‑Autonomy Budget & Enforcement"
   - "E.16:7 — Consequences"
-line_start: 106134
-line_end: 106162
+line_start: 106052
+line_end: 106080
 dependencies:
   - "A.10"
   - "A.13"
@@ -53,7 +53,7 @@ keywords:
 
 * **Testability.** Budget use is checkable against declared tokens/envelopes; Work-anchored ledger entries support audit; **PauseAutonomy** stops autonomy-gated steps.
 * **Comparability.** UTS surfaces autonomy metadata for fair selection & parity.
-* **Safety.** Guards are hard gates; depletion halts further autonomy‑gated Work.
+* **Safety.** Required guards remain binding; depletion stops ordinary continuation, with only independently permitted, action-specific exceptions.
 
 #### E.16:7.1 - SoTA-Echoing — bind a budget decision to the proposed action
 

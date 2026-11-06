@@ -6,12 +6,12 @@ section_id: "E.23.CDI:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23.CDI/E.23.CDI__008_conformance-checklist.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.23.CDI — Developing Capability for a Named Work Family"
   - "E.23.CDI:7 — Conformance Checklist"
-line_start: 115652
-line_end: 115665
+line_start: 115543
+line_end: 115556
 dependencies:
   - "A.15.1"
   - "A.2.2"
@@ -33,7 +33,7 @@ keywords:
 | `CC-E23CDI-3` | Before intervention selection, the desired measures or success predicate and protected conditions are explicit; the desired result is not presented as an established current ability or actual change. |
 | `CC-E23CDI-4` | The intervention addresses the limitation; any provider System and provider contribution remain distinct from the holder's capability, and a selected plan remains distinct from performed development Work. |
 | `CC-E23CDI-5` | Transfer tests the declared target in representative Work under the relevant envelope and window; attendance, exercise completion, description, publication, or provider delivery is not substituted. |
-| `CC-E23CDI-6` | The plan, performed development Work, performed transfer Work, evidence and result, pre- and post-intervention capability statements, capability-change comparison, and any actual Transformation claim remain separate. The comparison uses commensurable measures, envelopes, windows, and current support. A causal Transformation claim cites an independently identified Transformation and an obtaining direct Work-to-change predicate or supported local claim; otherwise the exact missing-governor blocker remains. |
+| `CC-E23CDI-6` | The plan, performed development Work, performed transfer Work, evidence and result, pre- and post-intervention capability statements, capability-change comparison, and any actual Transformation claim remain separate. The comparison uses commensurable measures, envelopes, windows, and current support. A causal Transformation claim cites an independently identified Transformation and an obtaining direct Work-to-change predicate or supported local claim; otherwise retain the actual unresolved basis. Reserve `missing-governor` for an unavailable predicate or governing condition; missing case facts leave the relation unestablished, and a supported negative or inapplicable result remains distinct. |
 | `CC-E23CDI-7` | A population is not treated as capable by aggregation. Member distributions and cultural propagation have separate results unless the population whole is independently admitted as the holder System. |
 | `CC-E23CDI-8` | The result states what evidence, expired qualification window, changed operating condition, or failed transfer result reopens the baseline, target, Method account, holder boundary, intervention, protected conditions, or currentness claim. |
 | `CC-E23CDI-9` | When acquisition adapts to feedback, its action choice and costs are stated; the receiving check can distinguish improved control feedback from usable Method structure and can change the intervention when they disagree. |

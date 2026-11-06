@@ -6,12 +6,12 @@ section_id: "F.2:4"
 section_title: "Core idea (didactic)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.2/F.2__005_core-idea-didactic.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "F.2 — Source-Local Term Harvesting & Normalisation"
   - "F.2:4 — Core idea (didactic)"
-line_start: 119198
-line_end: 119203
+line_start: 119088
+line_end: 119093
 dependencies:
   - "A.11"
   - "A.7"
@@ -33,7 +33,7 @@ keywords:
 
 ### F.2:4 - Core idea (didactic)
 
-For each needed use, name the **exact source and edition**, the relevant passage, and the **effective reference scheme** under which the passage is being read. Harvest an attested **LocalExpression**, choose a minimally edited **Local Normal Form (LNF)**, add Tech and Plain labels, and state the **LocalSenseClaim** in one sentence.
+For each needed use, name the **exact source and edition**, the relevant passage, and the **effective reference scheme** under which the passage is being read. Harvest an attested **LocalExpression**, choose a minimally edited **Local Normal Form (LNF)**, and explain its **LocalSenseClaim** at the detail needed by the receiving question. Add a separate label when a naming or didactic use needs it.
 
 That is the ordinary F.2 result. If later work needs a durable address, F.17 may represent it as `SchemeSenseCell = <ReferenceScheme, LocalExpression, LocalSenseClaim>` and record the basis relation. The cell is optional and does not replace the source, passage, or claim. F.2 establishes no relation to another source-local meaning.
 

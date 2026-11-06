@@ -6,12 +6,12 @@ section_id: "F.6:9"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__011_conformance-checklist.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "F.6 — SystemRoleAssignment and Performed-Work Attribution Check"
   - "F.6:9 — Conformance Checklist"
-line_start: 120524
-line_end: 120544
+line_start: 120419
+line_end: 120439
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -49,7 +49,7 @@ keywords:
 
 ### F.6:9 - Conformance Checklist
 
-1. `WorkOccurrenceSlot` names one dated `U.Work` occurrence already admitted by A.15.1 without relying on F.6; its actual performers already have the A.13 core for the exact action, scope, working situation, and window, and any characteristic profile is required only by its own Grade, autonomy, criterion-dependent, profile, or assurance use.
+1. `WorkOccurrenceSlot` names one dated `U.Work` occurrence already admitted by A.15.1 without relying on F.6; its actual performers already have the A.13 core for the exact action and any scope, working situation and window needed by the attribution use, and any characteristic profile is required only by its own Grade, autonomy, criterion-dependent, profile, or assurance use.
 2. `SystemRoleAssignmentSlot` names one assignment occurrence of a declared species under `U.SystemRoleAssignment` through `U.RelationRef`.
 3. The assignment's declared species, all identity-bearing participants, rule, applicability, and uninterrupted occurrence identity remain recoverable. Each species keeps its SlotSpec `ValueKind` domains distinct from the participant values supplied by the occurrence; `AssignedSystemRoleKindSlot` takes one kind value from its declared local system-role-kind domain.
 4. The case establishes that W was performed under RA; the assignment's existence, matching holder, and temporal overlap do not establish that link.

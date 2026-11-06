@@ -6,12 +6,12 @@ section_id: "F.2:16"
 section_title: "Didactic distillation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.2/F.2__017_didactic-distillation.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "F.2 — Source-Local Term Harvesting & Normalisation"
   - "F.2:16 — Didactic distillation"
-line_start: 119366
-line_end: 119369
+line_start: 119256
+line_end: 119259
 dependencies:
   - "A.11"
   - "A.7"
@@ -33,5 +33,5 @@ keywords:
 
 ### F.2:16 - Didactic distillation
 
-> “Name the exact source and edition, find the passage, and say under which reference scheme you are reading it. Keep the source’s own expression, add a faithful Tech label and a helpful Plain label, and state its local meaning in one sentence. Stop there. The same spelling elsewhere proves nothing. Use F.17 only if you need a stable address, and use F.9 only if a real relation between two local meanings must be tested.”
+> “Name the exact source and edition, find the relevant passages, and say under which reference scheme you are reading them. Keep the source's own expression and explain its local meaning. Add a separate label when the receiving use needs it, preserving the same meaning. Stop when that answers the question. Use F.17 when a stable address is needed, and F.9 when a relation between two local meanings must be tested.”
 

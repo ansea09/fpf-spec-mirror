@@ -6,12 +6,12 @@ section_id: "E.18:14"
 section_title: "Relations (explicit pattern-to-pattern relations)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__016_relations-explicit-pattern-to-pattern-relations.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:14 — Relations (explicit pattern-to-pattern relations)"
-line_start: 110910
-line_end: 110945
+line_start: 110818
+line_end: 110853
 dependencies:
   - "A.15.1"
   - "A.15.PROD"
@@ -59,9 +59,9 @@ keywords:
 * **Operational interpretation (default): Eulerian.** A flow valuation uses the typed connection/cut domain of 5.2. Declarative assurance operations annotate the resolved subject under 5.4; an actual transfer, receipt or displacement requires its direct predicate and facts.
 
 **UNM and comparability**
-* **E.18 -> constrains -> UNM declaration and use loci.** Declare `CG-Spec`, `ComparatorSet`, and `UNM.TransportRegistryPhi` only at the UNM declaration locus; normalize-then-compare is mandatory.
+* **E.18 -> uses -> A.19.UNM when normalization is required.** Reuse an adequate common basis directly. Otherwise establish the normalization and its applicable declarations under UNM; publish the `CG-Spec`, `ComparatorSet` and `UNM.TransportRegistryPhi` values actually consumed.
 * **E.18 -> constrains -> G.5 SelectionAndTuning.** Set-returning, comparator-pinned decisions and no hidden scalarization; cite the exact selector-declared set, handoff, abstain, or escalation outcome. Any next-step tuning remains in its separately identified `U.WorkPlan` with any declaration-local A.15.3 planned-filling rows, or in a separately identified configuration or policy that passes its own applicable rule, with no launch-value slot filling.
-* **E.18 -> constrains -> G.11 EvaluatingAndRefreshing.** EditionBumpProposal, two-phase update through the UNM declaration locus, and path-local refresh. When current, identify `RefreshPlan@Context`, dated Work, later measurement and calibration, and `RefreshReport@Context` separately; no request, plan, record, audit artefact, or publication substitutes for another or becomes the returned world-side result by label.
+* **E.18 -> constrains -> G.11 EvaluatingAndRefreshing.** EditionBumpProposal, any applicable two-phase update through the normalization declaration, and dependency-closed refresh through addressed slices. When current, identify `RefreshPlan@Context`, dated Work, later measurement and calibration, and `RefreshReport@Context` separately; no request, plan, record, audit artefact, or publication substitutes for another or becomes the returned world-side result by label.
 
 **Work boundary**
 * **E.18 -> coordinates with -> A.15.1 Work occurrences and A.15.5 work-entry readiness.** When an exact current `LaunchGate` relation consumes one prospective `workEntryClaimRef`, its current profile application selects any required freshness, tag, ingress, or other checks and maps their results to the attempted-entry consequence. If Work occurs, A.15.1 defines and tests the exact Work individual and requires the relevant world-side relations involving it to obtain independently; a separate `FinalizeLaunchValues` witness, telemetry record, or acceptance claim may designate the occurrence but is not that occurrence.

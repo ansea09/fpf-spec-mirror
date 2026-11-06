@@ -6,12 +6,12 @@ section_id: "D.4:5.1"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.4/D.4__009_bias-annotation.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "D.4 — Ethical Mediation and Decision Use"
   - "D.4:5.1 — Bias-Annotation"
-line_start: 92211
-line_end: 92219
+line_start: 92204
+line_end: 92212
 dependencies:
   - "A.1.CSD"
   - "A.10"
@@ -38,6 +38,6 @@ keywords:
 | --- | --- | --- |
 | Conflict description becomes decision | A D.3 description is treated as if it already selected an action. | Name the D.4 move and its admissible use. |
 | Assurance becomes permission | Technical assurance is read as ethical authorization. | Keep assurance as an assurance or evidence relation and record the ethical use separately. |
-| Formula becomes ethics | Allocation, optimization, or scoring is treated as the ethical decision. | Use `C.29` for the representation; explain how its result informs the ethical comparison under D.4. |
-| Residual harm disappears | Action proceeds while residuals, admitted decision or repair Systems, and direct responsibility relations stay unnamed. | Name accepted residuals, prospective plans, commitments, permissions, authority and assignment requirements, the admitted direct responsibility predicates or exact missing governors, evidence limits, and return condition. Identify actual Work and its performer when performance is claimed; add assignment-bound attribution when that further claim is made. |
+| Formula becomes ethics | Allocation, optimization, or scoring is treated as the ethical decision. | Explain how the calculation's result and conditions inform the ethical comparison; use `C.29` when the representation's choice, transfer or supported use remains unresolved. |
+| Residual harm disappears | Action proceeds while consequential residuals, affected parties or the authority and responsibility needed for the decision remain unclear. | Name the consequential residual and the decision basis, including the authority and responsibility it relies on. Add plans, commitments, permissions, assignment requirements and a return condition where this decision needs them; retain material evidence limits and precise unresolved claims. Identify actual Work and its performer when performance is claimed; add assignment-bound attribution when that further claim is made. |
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.18.NET.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.18.NET — Network of Transformation-Flow Structures"
-line_start: 112257
-line_end: 112674
+line_start: 112164
+line_end: 112565
 dependencies:
   - "A.1.STM"
   - "A.12"
@@ -365,7 +365,7 @@ Bias risks considered: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Sco
 | --- | --- |
 | **Gov:** demanding a fully reusable relation occurrence can hide the cheaper local decision. | The first result permits a proposed description and one exact result from the pattern governing the relation claim, or one separate missing-discriminator blocker; it invents no common status kind or generic relation. |
 | **Arch:** a network-shaped case can tempt the reader to invent a containing holon or an obtaining architecture relation. | C.30.TFS-REL distinguishes actual containing-holon, bounded single-holon claim, and explicit inter-holon uses while retaining independent network selection. |
-| **Onto/Epist:** a graph, record, or demonstrative slice can be mistaken for the selected network. | The four A.22 identity discriminators precede every description, record, rendering, architecture reading, and demonstration. |
+| **Onto/Epist:** a graph, record, or demonstrative slice can be mistaken for the selected network. | The four A.22 identity discriminators ground a claimed selected network. A provisional description may precede that qualification. |
 | **Prag:** exact member, relation, endpoint, and constraint apparatus can crowd out first use. | The practitioner first produces one small network result or one exact stop; the durable record remains optional. |
 | **Did:** the coffee and build-the-builder cases can be over-read as a closed domain ontology or a universal edge vocabulary. | The cases demonstrate boundary choices only; each cross-flow relation still needs an admitted kind, its applicable predicate, and exact participants. |
 
@@ -413,23 +413,7 @@ Adoption test: use E.18.NET only when the current question needs independently i
 
 ### E.18.NET:10 - Rationale and naming
 
-The selected head preserves the established `TransformationFlowStructure` name, says that the members are structures rather than valuations, and supports recursive membership at any finite nesting depth. The shorter cue “transformation-flow network” is retrieval wording only after the governed value is clear.
-
-```text
-NameCard:
-  NameCardId: NC-TRANSFORMATION-FLOW-STRUCTURE-NETWORK
-  GovernedValueRef: TransformationFlowStructureNetwork@Context <: U.Structure
-  SubjectPatternLocator: E.18.NET
-  ReferenceScheme: FPFCoreReferenceScheme
-  LocalSenseRef: recursive selected organization over independently identified TransformationFlowStructure or TransformationFlowStructureNetwork values and exact cross-flow relation occurrences, with member boundaries and locally exposed positions preserved
-  TechLabel: TransformationFlowStructureNetwork
-  PlainLabel: network of transformation-flow structures
-  CandidateSet: TransformationFlowStructureNetwork; TransformationFlowNetwork; CrossFlowRelationStructure; TransformationFlowDependencyStructure; CoupledTransformationFlowStructure; FlowOfFlows; CreatorGraph; CreationStructure
-  RejectedCandidates: TransformationFlowNetwork can mean one network-shaped TFS; CrossFlowRelationStructure hides the transformation-flow use; TransformationFlowDependencyStructure narrows to one projection; CoupledTransformationFlowStructure suggests one merged TFS; FlowOfFlows conflicts with FlowValuation; CreatorGraph confuses the ontic structure with a graph and narrows change to creation; CreationStructure excludes operation, repair, modification, and reuse
-  SelectionRationale: preserve the established TransformationFlowStructure head, make structures rather than valuations the members, and permit recursive membership at any finite nesting depth
-  LineageEntries: flow-of-flows and creator-graph examples remain retrieval lineage for the stress cases; fixed two-level and one-giant-flow ontic readings are retired
-  RefreshCondition: reopen if repeated use cannot distinguish one TFS with several valuations, one subflow, and a recursive network of independently identified TFS values
-```
+`TransformationFlowStructureNetwork` names a recursively selected organization over independently identified transformation-flow structures or networks and exact cross-flow relation occurrences, preserving member boundaries and locally exposed positions. Members are structures rather than their valuations, and nesting may have any finite depth. The Plain name is “network of transformation-flow structures.” The shorter cue “transformation-flow network” serves retrieval after that subject is clear.
 
 ### E.18.NET:11 - SoTA-Echoing
 
@@ -440,9 +424,9 @@ Each line below is inherited only while the cited current pattern version retain
 | `A.22:4.1` and the `A.22:11` row beginning “FPF `C.2.1` and `E.10.D2` description discipline” | **Adopt** the four selected-structure discriminators and the separation of structure from its description, view, record, selecting system, and selection Work. | Network identity is the exact `directMemberRefs[]`, selected obtaining `selectedCrossFlowRelationOccurrenceRefs[]`, exact `selectedNetworkConstraintRefs[]`, and one `networkUseFrame`; the descriptive record and selection activity remain separate from the non-agentive network. | Applies while A.22 keeps those four discriminator meanings and that description/view boundary. Reopen this line if A.22 changes a discriminator or allows a description, view, record, or selection activity to identify or authorize the structure. |
 | `E.18:5.1` through `E.18:5.3`, `E.18:5.13`, and the `E.18:12` rows `Applied category theory and compositional open systems`, `Operads, wiring diagrams, and hypergraph categories`, and `Open-graph and string-diagram rewriting` | **Adapt** resolved participant and connection positions, typed valuation locality, complete incidences, interface exposure and dependent refresh to recursively selected members. | A network keeps each leaf TFS identity, resolves exposed positions through finite member paths, and preserves the predicates and full participants of selected cross-member occurrences. | Apply while the selected-structure, mapping, valuation and refresh conditions remain those of E.18; reopen a use whose preserved or lost structure changes. |
 | `E.18.2:4.1` through `E.18.2:4.3` and the `E.18.2:9` rows `FPF strict-distinction, selected-structure, architecture-description, and view apparatus` and `Applied category theory, wiring diagrams, and graph rewriting` | **Adopt** the subject/description/lens separation and **adapt** the permitted expressions to member paths, n-ary relation views, quotients, and folds. | A mathematical description may expose or compare network structure only after naming its network subject, declared use, preserved structure, lost structure, and stop; it neither creates nor reidentifies the network or its relation occurrences. | Applies while E.18.2 keeps the five-way discriminator and the named rows' preserved/lost-structure and C.29 lens-use boundary. Reopen this line if the selected subject branch, preserved/lost account, mapping mode, or C.29 return condition changes. |
-| `A.22.CGUS:4.4` and its `A.22.CGUS:11` rows on OCPQ and JuliaHub Dyad 3.2 with Modelica 3.7 as historical lineage; plus `E.18.3:4.2a`, `E.18.3:4.4`, and its `E.18.3:11` OCPQ and ModelingToolkit/FMI rows | **Adapt** typed object-and-relation structure, Dyad's current separation of reusable component models from separately selected analyses, and post-admission demonstration discipline to a network locator. | A network-aware demonstration consumes already admitted positions and exact relation-reference epistemes, keeps member-local state, branches, omissions, and return visible, and never turns the displayed path into the network, model, analysis, WorkPlan, or performed Work. | Applies while A.22.CGUS keeps Dyad as its current engineering comparator and Modelica only as historical lineage, and while CGUS and E.18.3 keep post-admission slices and exact locator admission. Reopen this line if those object-relation, model-analysis, admission, or locator decisions change. |
+| `A.22.CGUS:4.4` and its `A.22.CGUS:11` rows on OCPQ and JuliaHub Dyad components and analyses with Modelica 3.7 as historical lineage; plus `E.18.3:4.2a`, `E.18.3:4.4`, and its `E.18.3:11` OCPQ and ModelingToolkit/FMI rows | **Adapt** typed object-and-relation structure, Dyad's documented separation of reusable component models from separately selected analyses, and post-admission demonstration discipline to a network locator. | A network-aware demonstration consumes already admitted positions and exact relation-reference epistemes, keeps member-local state, branches, omissions, and return visible, and never turns the displayed path into the network, model, analysis, WorkPlan, or performed Work. | Applies while A.22.CGUS retains that bounded Dyad component/analysis comparison and Modelica only as historical lineage, and while CGUS and E.18.3 keep post-admission slices and exact locator admission. Reopen this line if those object-relation, model-analysis, admission, or locator decisions change. |
 
-The F.18 NameCard entries `flow-of-flows` and `creator-graph` remain naming and stress-example lineage only; they authorize no current ontology or practice claim. A new need for cyclic member identity, a separately re-identifiable membership occurrence, or cross-flow semantics that cannot preserve the direct relation and its endpoints reopens the E.18.NET architecture decision itself, not the source-currentness status of every row above.
+A new need for cyclic member identity, a separately re-identifiable membership occurrence, or cross-flow semantics that cannot preserve the direct relation and its endpoints reopens the E.18.NET architecture decision itself.
 
 ### E.18.NET:12 - Relations
 

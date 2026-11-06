@@ -6,12 +6,12 @@ section_id: "F.6:10"
 section_title: "Common Anti-Patterns and Repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__012_common-anti-patterns-and-repairs.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "F.6 — SystemRoleAssignment and Performed-Work Attribution Check"
   - "F.6:10 — Common Anti-Patterns and Repairs"
-line_start: 120545
-line_end: 120561
+line_start: 120440
+line_end: 120456
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -54,7 +54,7 @@ keywords:
 | Assignment proves Work | Holding is confused with dated performance. | Name the Work and assignment, then establish from the case that the Work was performed under that assignment. |
 | Holder plus interval constructs attribution | Any covering assignment held by the performer is treated as the assignment under which W occurred. | Treat the matching holder and interval coverage as necessary checks; establish from the case which assignment the Work was performed under. |
 | Overlap attributes to every commission | Two assignments with a common holder and interval both receive the same Work. | Recover all participants; establish only the Work–assignment link supported by the case, or leave it unresolved. |
-| Lead or team assignment covers everyone | One assignment substitutes for the actual performer set. | Recover every exact actual performer of top-level or child Work through A.13 and let A.15.1 independently admit each Work occurrence. When precise assignment-bound attribution is current, give each performer its own same A.13 assignment and later F.6 link to the already admitted Work; missing attribution leaves Work intact. |
+| Lead or team assignment covers everyone | One assignment substitutes for the actual performer set. | Recover every exact actual performer of top-level or child Work through A.13 and let A.15.1 independently admit each Work occurrence. When precise assignment-bound attribution is current, give each performer its own same A.13 assignment and later F.6 link to the already admitted Work; missing attribution alone leaves independently admitted Work intact, subject to section 4.2's premise recheck. |
 | Passive article becomes performer | A test-subject assignment and overlap are read as Work attribution or passive participation. | Attribute Work only to actual performers; use the rule that defines passive participation or return the A.6.RCD `missing-governor` result. |
 | Work attributed by a system-role label | The holder and assignment occurrence are unavailable. | Recover the declared assignment occurrence, all its participants, and its holder. |
 | F.6 creates a generic assignment | A stronger appointment is flattened or duplicated. | Keep RA's declared species and let `SystemRoleAssignmentSlot` consume the family. |

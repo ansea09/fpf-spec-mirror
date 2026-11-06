@@ -6,12 +6,12 @@ section_id: "E.11:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__012_sota-echoing.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:11 — SoTA-Echoing"
-line_start: 103449
-line_end: 103470
+line_start: 103368
+line_end: 103389
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"
@@ -44,7 +44,7 @@ The alternative is familiar-title or ranked-result lookup with a short topical s
 
 | Source or practice line | Problem-solving move taken here | Adoption and boundary |
 | --- | --- | --- |
-| [Radović and Manzey, *The Impact of a Mnemonic Acronym on Learning and Performing a Procedural Task and Its Resilience Toward Interruptions*](https://doi.org/10.3389/fpsyg.2019.02522), 2019 experiments; and [Yang et al., *Testing (quizzing) boosts classroom learning*](https://doi.org/10.1037/bul0000309), 2021 meta-analysis of 222 classroom studies | Compare the same truthful entry with and without a mantra, then replay the remembered path after delay or interruption. The acronym study found faster learning but no general benefit to completion time or error rate; the retrieval-practice effect varied with the comparison condition, format, repetition, feedback, timing, and design. | **Adapt, checked 2026-08-25:** a memorable cue and later retrieval justify testing mnemonic gain, not presuming it. `E.11:4.1`, `E.11:4.4.1`, case 5.4, `E11-14`, and `E11-15` select a card only when the mantra materially restores a choice-changing cross-pattern question, result, check, branch, or return. A one-result local mantra remains a valid teaching aid but does not select the richer card form. **Reject:** repetition, immediate familiarity, syntax, phrase length, topic coverage, or a public label as proof, and any inference that recalling a formula executes the work. Both sources study learning tasks rather than FPF use. Reopen only if comparable reader-use evidence removes the advantage over the no-mantra entry or shows that the mantra hides the result or return. |
+| [Radović and Manzey, *The Impact of a Mnemonic Acronym on Learning and Performing a Procedural Task and Its Resilience Toward Interruptions*](https://doi.org/10.3389/fpsyg.2019.02522), 2019 experiments; and [Yang et al., *Testing (quizzing) boosts classroom learning*](https://doi.org/10.1037/bul0000309), 2021 meta-analysis of 222 classroom studies | Compare the same truthful entry with and without a mantra, then replay the remembered path after delay or interruption. The acronym study found faster learning but no general benefit to completion time or error rate; the retrieval-practice effect varied with the comparison condition, format, repetition, feedback, timing, and design. | **Adapt:** a memorable cue and later retrieval justify testing mnemonic gain, not presuming it. `E.11:4.1`, `E.11:4.4.1`, case 5.4, `E11-14`, and `E11-15` select a card only when the mantra materially restores a choice-changing cross-pattern question, result, check, branch, or return. A one-result local mantra remains a valid teaching aid but does not select the richer card form. **Reject:** repetition, immediate familiarity, syntax, phrase length, topic coverage, or a public label as proof, and any inference that recalling a formula executes the work. Both sources study learning tasks rather than FPF use. Reopen only if comparable reader-use evidence removes the advantage over the no-mantra entry or shows that the mantra hides the result or return. |
 
 **Cue question.** When a reader's familiar wording or language hides another useful target, should the entry merely translate the same label, show more results, or explain the choice nearby? The selected line is the smallest situation-and-result cue that lets this reader distinguish the targets, with an expansion only for a distinction that cannot fit truthfully. The alternative is a concise translated title or ordinary search snippet. Keep that alternative when it already distinguishes the use; otherwise prefer a short explanation of what the reader can obtain over extra synonyms. This trades a little reading space for a visible choice, without requiring full translation, a multilingual interface, or another public scenario.
 

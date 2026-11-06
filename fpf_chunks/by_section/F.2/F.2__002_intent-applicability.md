@@ -6,12 +6,12 @@ section_id: "F.2:1"
 section_title: "Intent & applicability"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.2/F.2__002_intent-applicability.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "F.2 — Source-Local Term Harvesting & Normalisation"
   - "F.2:1 — Intent & applicability"
-line_start: 119171
-line_end: 119178
+line_start: 119061
+line_end: 119068
 dependencies:
   - "A.11"
   - "A.7"
@@ -33,7 +33,7 @@ keywords:
 
 ### F.2:1 - Intent & applicability
 
-**Intent.** Turn usage in an exact source and edition into a small, auditable set of source-local expressions and one-sentence meaning claims. Keep the source’s idiom, help a cold reader, and withhold every cross-source conclusion.
+**Intent.** Turn usage in an exact source and edition into a small, auditable set of source-local expressions and meaning claims. Keep the source's idiom and the explanation the intended reader needs, while leaving cross-source conclusions to their own comparison.
 
 **Use this when.** F.1 has selected a source because it can change the receiving answer, and the reader needs the actual words that carry its contribution. Re-enter when the selected edition, passage, language, or interpretation basis changes enough to change meaning.
 

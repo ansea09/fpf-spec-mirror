@@ -6,12 +6,12 @@ section_id: "F.3:16"
 section_title: "Acceptance tests"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.3/F.3__017_acceptance-tests.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "F.3 — Source-Local Sense Clustering"
   - "F.3:16 — Acceptance tests"
-line_start: 119604
-line_end: 119622
+line_start: 119494
+line_end: 119512
 dependencies:
   - "A.11"
   - "A.7"
@@ -37,7 +37,7 @@ keywords:
 #### F.3:16.1 - Static conformance
 
 * **SCR-F3-S01 (basis).** Every LocalSenseClaim names its source and edition and the effective reference scheme.
-* **SCR-F3-S02 (labels).** Tech and Plain denote the same bounded claim.
+* **SCR-F3-S02 (labels when used).** Tech and any Plain designation denote the same bounded claim.
 * **SCR-F3-S03 (fidelity and time stance).** Each claim is grounded in cited source use, preserves any source-grounded design-time, run-time, or other temporal distinction, and contains no imported substantive calculus.
 * **SCR-F3-S04 (parsimony).** The claim set is small enough for the receiving question.
 * **SCR-F3-S05 (counterexample).** Ambiguous heads have a concrete boundary test.
@@ -45,7 +45,7 @@ keywords:
 
 #### F.3:16.2 - Regression
 
-* **RSCR-F3-E01 (merge soundness).** Every merge has a failed relevant distinction test.
+* **RSCR-F3-E01 (merge soundness).** Every merge has source-grounded support for the same relevant meaning and preserves the receiving conclusions.
 * **RSCR-F3-E02 (split necessity).** Every split cites an argument, entailment, temporal, or counterexample difference.
 * **RSCR-F3-E03 (edition honesty).** Changed editions are not silently absorbed into an old claim.
 * **RSCR-F3-E04 (label stability).** Label changes do not change the claim unnoticed.

@@ -6,12 +6,12 @@ section_id: "D.4:2"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.4/D.4__005_solution.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "D.4 — Ethical Mediation and Decision Use"
   - "D.4:2 — Solution"
-line_start: 92092
-line_end: 92160
+line_start: 92084
+line_end: 92153
 dependencies:
   - "A.1.CSD"
   - "A.10"
@@ -55,7 +55,8 @@ EthicalMediationDecisionUse:
   conflictDescriptionRef: exact C.2.1 U.Episteme identified through D.3
   affectedEntityOfConcernRef
   affectedSystemRefs?
-  valueFrameEditionRefs
+  valuePremises
+  valueFrameEditionRefs?
   decisionQuestionRef?
   intendedDecisionUse?
   intendedWorkUse?
@@ -99,5 +100,5 @@ EthicalMediationDecisionUse:
 ```
 
 
-Name the affected EntityOfConcern and any affected Systems, the value-frame editions, the decision question and options, and the intended decision or Work use. Add ClaimScope and a qualification window when they delimit that use. State the proposed mediation or refusal and any accepted residuals. If evidence, causal adequacy, assurance, architecture residuals, responsibility, permission, or actual Work remains unresolved, return only that question to the pattern that defines it. These values delimit the mediation; a generic context field does not.
+Name the affected EntityOfConcern and any affected Systems, the value premises and any frame editions used, the decision question and options, and the intended decision or Work use. Add ClaimScope and a qualification window when they delimit that use. State the proposed mediation or refusal and any accepted residuals. If evidence, causal adequacy, assurance, architecture residuals, responsibility, permission, or actual Work remains unresolved, return only that question to the pattern that defines it.
 

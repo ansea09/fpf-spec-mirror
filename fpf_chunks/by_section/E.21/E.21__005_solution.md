@@ -6,12 +6,12 @@ section_id: "E.21:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.21/E.21__005_solution.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
   - "E.21:4 — Solution"
-line_start: 113926
-line_end: 114280
+line_start: 113817
+line_end: 114171
 dependencies:
   - "A.17-A.19"
   - "A.19.ECS"
@@ -41,7 +41,7 @@ keywords:
 Apply the evaluation in six steps:
 
 1. configure the checked pattern edition, scope, use, reader, window, characteristic space and specification, and evidence basis; include the exact semantic evaluation Method only when its identity or actual assessment Work is asserted;
-2. let the admitted evaluator `U.System` apply the specification; add the dated-Work account below only when the result deliberately asserts assessment Work, and add an `A.6.1` application only when the conditional rule below is independently satisfied;
+2. let the evaluator apply the specification; add the dated-Work account below only when the result deliberately asserts assessment Work, and add an `A.6.1` application only when the conditional rule below is independently satisfied;
 3. constitute every coordinate-result claim with `ShortRationale` and the aggregate result episteme;
 4. assert the local `PatternQualityStatus` in that result;
 5. state its stop, repair, architecture-hold, or refresh condition; and
@@ -55,7 +55,7 @@ For one pattern-quality evaluation, keep independently recoverable the objects a
 4. when exact Method identity or actual assessment Work is asserted, one separately identified semantic evaluation `U.Method`;
 5. when actual dated assessment `U.Work` is asserted, first recover every evaluator-performer's A.13 core for the assessment action. A.15.1 then independently admits the Work from its performance history, enacted Method, temporal extent, and one obtaining locally declared relation to the containing `U.System`, under the exact system boundary and qualification window. Add F.6 only when the evaluation account also needs precise assignment-bound attribution, using the same obtaining A.13 assignment. A compact account may omit an identifier unused by the receiving claim only when every relation it consumes remains recoverable;
 6. every coordinate-result claim, their same-bearer non-arithmetic `PatternQualityQBundle` ClaimGraph payload, and one C.2.1 aggregate pattern-quality-result episteme when a durable result is needed;
-7. witnesses, comparator/source/case refs, exact A.10 evidence-use/provenance relations and bounded reliance results, and any B.3 result for an actual named assurance claim;
+7. witnesses, comparator/source/case refs and actual support for the coordinate claims; A.10 source-to-use relations and bounded reliance results when the account is implicit or must remain replayable; and any B.3 result for an actual named assurance claim;
 8. an optional evaluation-record episteme that packages those refs;
 9. the local `PatternQualityStatus` value and any separate F.10 status use/interpretation, E.19 admission or refresh decision, project gate or authority decision, publication, and currentness relation; and
 10. later E.23 improvement or other repair work and its changed pattern edition.
@@ -160,7 +160,7 @@ PatternQualityResultEpisteme:
       BoundedNonUse?: <only when an independently grounded competing use or plausible confusion changes the result's use>
   AssessmentApplicationRef: <PatternQualityEvaluationApplicationRef: exact A.6.1 occurrence ref only when the declared-operation condition holds; otherwise omitted>
   PatternQualityWitnessRefs:
-  PatternQualityEvidenceUseRefs:
+  PatternQualityEvidenceUseRefs?: <A.10 account when implicit or required to remain replayable>
 PatternQualityEvaluationRecord: <optional packaging of configuration, application or work, result, witness or evidence, reopen refs, and any grounded non-use boundary>
 ```
 
@@ -239,7 +239,7 @@ When the profile is not clean, lower every affected coordinate named by the prof
 
 #### E.21:4.4 - RequiredPatternQualityCoordinates
 
-For every conforming E.21 result, an admitted evaluator `U.System` applies the evaluation specification to every coordinate, and the result episteme states every coordinate value and rationale.
+For every conforming E.21 result, an evaluator applies the evaluation specification to every coordinate, and the result episteme states every coordinate value and rationale.
 
 | Coordinate | What it evaluates |
 |---|---|

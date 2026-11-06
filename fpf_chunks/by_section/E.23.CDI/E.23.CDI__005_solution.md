@@ -6,12 +6,12 @@ section_id: "E.23.CDI:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23.CDI/E.23.CDI__005_solution.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.23.CDI — Developing Capability for a Named Work Family"
   - "E.23.CDI:4 — Solution"
-line_start: 115557
-line_end: 115609
+line_start: 115448
+line_end: 115500
 dependencies:
   - "A.15.1"
   - "A.2.2"
@@ -46,7 +46,7 @@ Keep the holder System, its capability, the target Work family, development inte
 4. Find the contribution that is missing, limiting, or poorly coordinated. When the issue is which organization of a particular Method the holder can use, apply A.2.2:2.1 at the grain that exposes the missing relation; use :4.2.1 below to choose how it will become usable.
 5. Choose an intervention directed at that limitation, and name any provider System on which the intervention relies. The intervention may use, for example, practice, coaching, adaptation, tooling, changed support, or a changed Method; the receiving domain supplies the actual choice.
 6. Carry the protected conditions into the chosen intervention. Keep the selected intervention or plan separate from any development Work that is later performed.
-7. Declare a transfer check that tests the stated target in representative Work under the relevant operating conditions. When that check is performed, keep the transfer Work, its evidence and result, and the resulting capability statement or currentness assessment separate. An exercise, description, publication, attendance record, or provider delivery is not that transfer check.
+7. Declare a transfer check that tests the stated target in representative Work under the relevant operating conditions. When that check is performed, keep the transfer Work, its evidence and result, and the resulting capability statement or currentness assessment separate. Exercise completion, attendance or provider delivery alone does not establish transfer. Reuse evidence from an exercise or another check when it tests the declared target in representative Work under the receiving conditions and satisfies its evidence requirements.
 8. Reopen the Method account, holder boundary, baseline, target, intervention, protected conditions, or currentness claim when the transfer evidence shows that the earlier account was wrong, incomplete, or no longer current.
 
 ##### E.23.CDI:4.2.1 - Choose how Method structure will become usable

@@ -6,12 +6,12 @@ section_id: "E.24:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24/E.24__009_conformance-checklist.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.24 — U.Ontic and Ontic Introduction Discipline"
   - "E.24:6 — Conformance Checklist"
-line_start: 116602
-line_end: 116634
+line_start: 116493
+line_end: 116524
 dependencies:
   - "A.19.ECS"
   - "A.6.0"
@@ -50,11 +50,10 @@ Activation rule: every candidate uses the cheap-card checks `CC-E24-1`, `CC-E24-
 | `CC-E24-1a` | The decision keeps two layers explicit. At the instance layer, every included direct relation names actual participant identities and meanings, any kind conditions required by its predicate, and its direct governor. At the ontology/declaration layer, typed decision claims state why each kind, relation rule, declaration, pattern, and dependent reliance belongs; no world-side occurrence among those declaration-level objects is implied. Any identity-bearing relation is marked explicitly. |
 | `CC-E24-1b` | The author characterizes the current case, runs existing-governor reuse, exact-identity, relation-or-constitution, dependent-use, and non-duplication tests, and fills the ontology disposition last. Its summary placement near the top of a card is not evidence that it was selected first. |
 | `CC-E24-1c` | Direct use is selected when one readable governed claim closes the receiving use; bounded episteme when that use needs several governed claims read together but no pattern consumes their package as ontology; durable ontic only when multiple current patterns must reuse one independently identified ontology unit and would otherwise duplicate or disagree about identity, constitution, or the minimal relation set. |
-| `CC-E24-1d` | One boundary fixture keeps the source expression, provenance, and independently identified decision subject fixed while showing the receiving use, changed evidence, exact branch payload, and stop for direct use, bounded episteme, the stronger durable-ontic threshold, and unresolved inquiry. |
 | `CC-E24-2` | Existing exact rule content is checked by value before a new ontic is selected. For a relation-kind candidate, the decision cites the exact direct relation pattern passage, which states participant meanings, obtaining, applicability, and occurrence identity, or an `A.6.RCD` result that returns a derived or primitive candidate with that proposed direct subject settlement. Local claim and predicate-definition results are not admitted as relation kinds. |
 | `CC-E24-3` | When the durable branch is selected, the decision states the proposed ontic's stable identity criteria and says what does and does not change that identity. |
 | `CC-E24-4` | A durable ontic names the subject's exact identity, constitution, or recognition rule and its minimal governed relation set. For every included relation it names the direct governor; when one is identity-bearing, it also names participant meanings, independent participant-identification rules, required kind conditions, obtaining condition, and occurrence identity. A typed use additionally requires independently governed participant ranges and complete A.6.5 SlotSpecs; ontic settlement supplies no missing kind admission. |
-| `CC-E24-4a` | When constructive grounding is claimed, the text names the direct grounding rule. Structural identity claims use the `E.14 -> B.3.5 -> C.13` chain with Working-Model, `tv:groundedBy`, and `Γ_m`; non-structural ontics use the identity, grounding, or recognition rule of their subject pattern. |
+| `CC-E24-4a` | A constructive-grounding claim names its direct rule and required subject facts. C.13 supplies an inspectable construction account when needed. For elected or independently required profile coverage, follow the E.14/B.3.5 branch-specific Working-Model, validation-mode and `tv:groundedBy` conditions, including a `Γ_m` trace where that branch requires it. Non-structural ontics retain their direct identity, grounding or recognition rule. |
 | `CC-E24-4b` | Ontic introduction creates no project-side relation occurrence. A designator designates and a governed reference resolves only after the direct predicate and identity rule reidentify the occurrence; an assertion or description episteme carries the claim and designation. A publication occurrence makes a selected episteme edition available and neither designates nor creates the world-side occurrence. |
 | `CC-E24-4c` | E.24 and E.24.UK use one `E24FamilySettlementDecision`. Independent positive kind admission may return the explicit direct-use or bounded-coordination conclusion that no additional durable ontic is needed, with no `OnticSettlementResult`. When both new outputs are independently needed, one atomic decision returns separate result references from common inputs; neither is prior evidence for the other and both remain provisional while a required branch is unresolved. An empty relation set or a nearby relation added for form supplies no coordination contribution. |
 | `CC-E24-5` | When the durable branch is selected, the decision states the primary governed subject kind, stable identity criterion, exact identity or constitution rule, minimal governed relation set and direct governors, the reliance basis of each named dependent pattern, existing-pattern reuse, and non-use boundary by value. E.10.ARCH wording-restoration coordinates are included only when that restoration opened the case, and the E.8 pattern nest remains publication placement; neither becomes a component or identity criterion of the ontic. |

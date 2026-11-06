@@ -6,12 +6,12 @@ section_id: "E.17.AUD.LHR:5"
 section_title: "Worked slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.LHR/E.17.AUD.LHR__006_worked-slices.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.17.AUD.LHR — PublicationUnit Stability Discipline and Local Head Restoration - repair the overloaded local lexical head before the publication unit inherits it"
   - "E.17.AUD.LHR:5 — Worked slices"
-line_start: 109748
-line_end: 109870
+line_start: 109654
+line_end: 109776
 dependencies:
   - "A.10"
   - "A.15"
@@ -39,7 +39,7 @@ keywords:
 
 The following cases illustrate local repair, transfer to comparison or whole-unit repair, and reopening after changed observations. They are alternative outcomes, not a recommended sequence.
 
-**Worked-slice mini-schema.** When a case turns episteme-publication-heavy or boundary-heavy, recover the same compact output in this order: `overloaded local lexical head | lexical-head kind | active local reading | primary entity/relation | carried action or question under repair | outside work | repair disposition`.
+**Worked-slice aid.** The cases below display the overloaded local lexical head, its kind and active reading, the primary entity or relation, the carried action, outside work and repair disposition. Use this arrangement when it helps recover the repair; an adequate repaired sentence needs no separate output schema.
 
 #### E.17.AUD.LHR:5.1 - `review` is really carrying two jobs
 
@@ -64,17 +64,17 @@ The repaired unit can now either stay with the boundary review or explicitly bec
 A paragraph says:
 `This text is the policy.`
 
-But what it really means is one publication form that describes the policy rather than being the policy object itself.
+The intended claim is that this particular published text describes the policy.
 
 Local repair:
 - overloaded local lexical head = `text`;
-- restored lexical-head kind = publication form;
-- active local reading = publication unit, not policy authority object;
-- primary entity/relation = the policy description visible in this unit;
+- restored lexical-head kind = publication expression;
+- active local reading = this particular expression of a policy description;
+- primary entity/relation = the described policy;
 - carried move = describe the policy rather than claim authority for it;
 - outside work = approval, rollout, release, gate, policy, assurance, or adjudication status.
 
-**Repaired sentence.** `This publication form describes the policy.`
+**Repaired sentence.** `This published text describes the policy.`
 
 This is the ordinary stay-local case. One repaired local lexical head keeps later sentences from borrowing authority from the wrong local reading without forcing publication-unit stabilization.
 

@@ -6,7 +6,7 @@ section_id: "C.43:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.43/C.43__010_consequences.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "C.43 — Connect Observation, Choice and Action in Control"
   - "C.43:9 — Consequences"
@@ -27,5 +27,5 @@ keywords:
 
 The practitioner can combine independently useful contributions into a continuation whose assumptions agree, and can revise that continuation without discarding sound work. The account also exposes a specific unavailable contribution instead of hiding it in a plausible overall narrative.
 
-The cost is attention to dependencies that a familiar routine can leave implicit. Apply the Method at the unresolved connection and reuse an adequate whole. More elaborate representations are worthwhile only when they change the warranted action or assurance.
+The cost is attention to dependencies that a familiar routine can leave implicit. Apply the Method at the unresolved connection and reuse an adequate whole. More elaborate representations are worthwhile when their contribution to the receiving explanation, action or assurance justifies their burden.
 

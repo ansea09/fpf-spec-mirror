@@ -6,12 +6,12 @@ section_id: "E.17:10"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__012_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:10 — Common Anti-Patterns and How to Avoid Them"
-line_start: 108012
-line_end: 108024
+line_start: 107911
+line_end: 107923
 dependencies:
   - "A.10"
   - "A.15.4"
@@ -51,7 +51,7 @@ keywords:
 2. **Publishing only endpoint faces.**
     *Fix:* The optional formal profile constructs faces for `g o f`, not only endpoint faces for `FaceObj_s(X)`, `FaceObj_s(Y)`, and `FaceObj_s(Z)`. A system performs the construction work.
 3. **Unpinned numbers.**
-    *Fix:* Reject card; supply **pins** plus CG and CHR references.
+    *Fix:* Recover the value’s required interpretation and support. Retain the material pins and add CG or CHR references only when the applicable rule or selected profile consumes them; withhold a numeric use whose required basis remains missing.
 4. **Face presented as a view without conformance.**
     *Fix:* Resolve the exact viewpoint episteme and apply E.17.0 to the exact candidate episteme; redesign or re-emit the face only after the semantic repair.
 5. **`InteropCard` equivalent to `TechCard` duplication.**

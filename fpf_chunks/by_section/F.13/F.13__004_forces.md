@@ -6,12 +6,12 @@ section_id: "F.13:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.13/F.13__004_forces.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "F.13 — Lexical Continuity & Deprecation"
   - "F.13:3 — Forces"
-line_start: 122913
-line_end: 122921
+line_start: 122810
+line_end: 122818
 dependencies:
   - "F.1"
   - "F.17"
@@ -38,6 +38,6 @@ keywords:
 | ------------------------------ | -------------------------------------------------------------------------------------------- |
 | **Continuity vs truthfulness** | Preserve readers’ continuity while making sense changes visible.                 |
 | **Locality vs convenience**    | Keep aliases **inside Contexts** even when a catchy global name tempts reuse.                   |
-| **Simplicity vs coverage**     | Retain the legacy names readers will encounter within the declared alias budget. |
+| **Simplicity vs coverage** | Keep the preferred current designation clear while retaining the historical names readers need. |
 | **Didactics vs formality**     | Make the mapping teachable without inventing new low‑level artefacts or processes.           |
 

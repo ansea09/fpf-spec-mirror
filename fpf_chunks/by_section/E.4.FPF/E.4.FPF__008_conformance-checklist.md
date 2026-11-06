@@ -6,12 +6,12 @@ section_id: "E.4.FPF:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.FPF/E.4.FPF__008_conformance-checklist.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.4.FPF — FPF Edition Assembly: Publication Forms, Carriers and Access Routes"
   - "E.4.FPF:7 — Conformance checklist"
-line_start: 94202
-line_end: 94219
+line_start: 94189
+line_end: 94206
 dependencies:
   - "C.33"
   - "C.34"
@@ -46,7 +46,7 @@ keywords:
 | CC-FPF.3 Core, units, forms, carriers, and routes separated | Core pattern set, publication units, publication expressions, reusable publication forms, exact physical or digital carrier entities, access routes, relation records, source and currentness records, and quality records remain distinct. |
 | CC-FPF.4 Dependency direction protected | DPFs and local frameworks may depend on FPF Core. A transdisciplinary contribution enters through a deliberate Core amendment whose content no longer depends on the DPF or local framework. |
 | CC-FPF.5 Quality route correct | Whole-FPF adequacy uses `E.2.DA`; individual patterns use `E.21`; DPF packages use `E.4.DPF.DA`; DRR uses `E.9.DA`. |
-| CC-FPF.6 Publication thinness preserved | Readme, Architectural Reference, ToC, cards, and other projection units help entry and return semantic authority to subject patterns; an independently identified carrier and an actual expression-bearing relation support each carrier claim. |
+| CC-FPF.6 Publication purpose and authority preserved | Readme, ToC and cards support entry; the Architectural Reference explains the whole and its connections. Each returns subject definitions and separately selectable Methods to their pattern owners; an independently identified carrier and an actual expression-bearing relation support each carrier claim. |
 | CC-FPF.7 Access carrier and route bounded | Each named access carrier is an independently identified physical or digital entity whose actual state or realization yields a particular access-facing expression; any selected reusable form constrains that expression separately. MCP services, retrieval and search routes, and assistant integrations are recorded separately and expose edition identity, currentness, and refusal conditions. Framework authority, runtime dependency, work permission, and actual access claims use their own direct predicates and evidence. |
 | CC-FPF.8 Refresh relation visible | Source-front, edition, entry-use, currentness, and evaluation changes identify the affected assertion and exact subject pattern, such as `G.2`, `G.11`, `E.2.DA`, or `E.21`. |
 | CC-FPF.9 Unit, form, and carrier boundary visible | Each Readme, Architectural Reference, ToC, or equivalent FPF publication unit states the reader and use, the first-principles route it foregrounds, what it coarsens or leaves out, and where subject-pattern detail resumes. The selected publication form constrains how an expression arranges those units; an exact all-in-one Markdown or other independently identified carrier bears that expression without exposing build metadata as reader front matter. |

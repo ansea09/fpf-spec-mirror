@@ -6,18 +6,17 @@ section_id: "E.11.PUA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUA/E.11.PUA__005_solution.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.11.PUA — Pattern Use in a Working Situation and First Useful Result"
   - "E.11.PUA:4 — Solution"
-line_start: 103521
-line_end: 103917
+line_start: 103440
+line_end: 103836
 dependencies:
   - "A.13"
   - "A.15"
   - "A.15.1"
   - "A.15.PROD"
-  - "A.6.5"
   - "A.6.P.WMR"
   - "A.6.RCD"
   - "C.2.1"
@@ -227,7 +226,7 @@ Candidate basis claim:  // ordinary C.2.1 episteme; local description, no new U-
   supportingEvidenceUseRefs[]?: exact evidence-use references under their own rules
 ```
 
-The claim states how each cited object supports the candidate's question and expectation. It keeps each object's kind and the asserted use recoverable; a generic “additional basis” wrapper supplies neither. A README template can supply a reusable starting point, while case facts come from the actual subject, practical question, effective scheme and action-changing working conditions.
+The claim states how each cited object supports the candidate's question and expectation. It keeps each object's kind and the asserted use recoverable. A README template can supply a reusable starting point, while case facts come from the actual subject, practical question, effective scheme and action-changing working conditions.
 
 Reference respelling that still designates the same source changes no source referent. Added evidence can change support without changing that source. A richer display may preserve the episteme. Changing its claim content, EntityOfConcern or effective ReferenceScheme identifies another candidate or basis episteme under C.2.1. A direct basis relation remains a separate option only when a receiver needs its occurrence and its participants, predicate and identity are independently settled under A.6.REL.
 
@@ -251,7 +250,7 @@ CandidatePatternUse@Context <: U.Episteme:
   returnBoundaryRef: U.EpistemeRef, referencing one PatternUseBoundaryCondition@Context
 ```
 
-The public template is absent when the candidate was formed by direct pattern inspection without a README template. `directSolutionSectionRef` is the Solution section of `directPatternRef`; no redundant solution-MethodDescription ref is retained. A project-tailored MethodDescription is a separate `U.MethodDescription` under A.3.2. If dated Work first constitutes that episteme and the inception claim matters, state the exact A.15.PROD assertion; any derivation or reuse relation to the direct pattern episteme remains separate. Applicability, recommendation, and coordination remain exact E.11.PUR assertions.
+The public template is absent when the candidate was formed by direct pattern inspection without a README template. `directSolutionSectionRef` is the Solution section of `directPatternRef`. A project-tailored MethodDescription is a separate `U.MethodDescription` under A.3.2. If dated Work first constitutes that episteme and the inception claim matters, state the exact A.15.PROD assertion; any derivation or reuse relation to the direct pattern episteme remains separate. Applicability, recommendation, and coordination remain exact E.11.PUR assertions.
 
 ##### E.11.PUA:4.4.1 - Rationale subjects stay distinct
 

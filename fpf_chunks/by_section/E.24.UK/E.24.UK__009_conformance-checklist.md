@@ -6,18 +6,19 @@ section_id: "E.24.UK:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.UK/E.24.UK__009_conformance-checklist.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.24.UK — U-kind Admission and Ontic Settlement"
   - "E.24.UK:7 — Conformance Checklist"
-line_start: 117764
-line_end: 117793
+line_start: 117654
+line_end: 117683
 dependencies:
   - "A.1.1"
   - "A.11"
   - "A.2.6"
   - "A.22"
   - "A.6.0"
+  - "A.6.3.RT"
   - "A.6.5"
   - "A.6.RCD"
   - "A.6.REL"
@@ -66,7 +67,7 @@ keywords:
 | `CC-E24UK-6` | A world-side relation participant retains its independently governed kind. The cited direct relation pattern states what that participant means in the relation; a relation kind or occurrence does not own a ClaimGraph. |
 | `CC-E24UK-6a` | A reusable declaration component remains one A.6.5 SlotSpec; its SlotKind does not become a U-kind. |
 | `CC-E24UK-6b` | A participant designation or other assertion or description field remains inside the receiving `U.Episteme`. |
-| `CC-E24UK-6c` | A selected structure, reusable form, or representation element remains under `A.22`, `E.24.PUB`, or `C.29` respectively. |
+| `CC-E24UK-6c` | A selected structure remains under A.22 and a reusable publication form under E.24.PUB. A representation element retains its interpretation and subject correspondence under the applicable rule; Use C.29 for unresolved mathematical representation, transfer or reliance and A.6.3.RT for a representation-scheme transition. |
 | `CC-E24UK-7` | F.8, F.5, F.18, and F.17 are used only after the governed object and admission decision are stable. |
 | `CC-E24UK-8` | E.24 remains the head ontic pattern; use E.24.UK for detailed U-kind admission without duplicating that procedure back into E.24. |
 

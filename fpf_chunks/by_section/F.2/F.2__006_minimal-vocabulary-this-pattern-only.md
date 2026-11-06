@@ -6,12 +6,12 @@ section_id: "F.2:5"
 section_title: "Minimal vocabulary (this pattern only)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.2/F.2__006_minimal-vocabulary-this-pattern-only.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "F.2 — Source-Local Term Harvesting & Normalisation"
   - "F.2:5 — Minimal vocabulary (this pattern only)"
-line_start: 119204
-line_end: 119215
+line_start: 119094
+line_end: 119105
 dependencies:
   - "A.11"
   - "A.7"
@@ -37,9 +37,9 @@ keywords:
 * **Attested phrase** — a short verbatim cue showing how the expression is used in that source.
 * **LocalExpression** — the exact expression whose source-local meaning is being recovered.
 * **Local Normal Form (LNF)** — the minimally edited surface used to cite that expression while preserving the source’s spelling, hyphenation, and casing.
-* **Tech and Plain labels** — an engineer-facing label faithful to the source and a newcomer-facing label that does not add scope.
-* **LocalSenseClaim** — one sentence saying what the expression means in this source use, at the least generality needed by the receiving question.
-* **Source-local lexical note** — the exact source basis, expression and LNF, labels, claim, and one or two attested cues. This is F.2’s ordinary outcome.
+* **Additional labels, when needed** — a source-faithful Tech designation and, for a stated didactic use, a Plain designation for the same local meaning.
+* **LocalSenseClaim** — the claim saying what the expression means in this source use, at the least generality and sufficient detail needed by the receiving question.
+* **Source-local lexical note** — the exact source basis, expression and LNF, meaning claim, supporting passages, and any labels needed by the receiving use. This is F.2's ordinary outcome.
 * **Homonymy signal** — notice that the same string supports different local claims; this notice is not a relation between those claims.
 * **SchemeSenseCell** — F.17’s optional three-part address, used only when durable reuse needs it.
 

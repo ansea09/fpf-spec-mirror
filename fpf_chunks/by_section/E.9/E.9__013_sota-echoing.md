@@ -6,12 +6,12 @@ section_id: "E.9:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9/E.9__013_sota-echoing.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.9 — Design-Rationale Record (DRR) for FPF Content Decisions"
   - "E.9:11 — SoTA-Echoing"
-line_start: 98570
-line_end: 98584
+line_start: 98493
+line_end: 98504
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -40,12 +40,9 @@ keywords:
 
 `E.9` draws on mature decision-record and design-rationale lineages, but no listed standard or template is automatically current SoTA for every FPF decision. The DRR selects current problem-owning evidence under E.8 when that evidence is load-bearing. Its distinctive contribution is a decision-rationale record for one bounded FPF content decision, with enough by-value rationale to distribute durable content without making the record a shadow specification.
 
-| Practice source family | Local FPF invariant and practical implication | Popular shortcut rejected |
-|---|---|---|
-| **Mature architecture-description standards lineage, including joint ISO, IEC, and IEEE 42010:2022** | Concerns, viewpoints, decisions, and rationale should remain inspectable. E.9 adapts that lineage to FPF content deltas; it does not treat an architecture-description standard as the sole or automatically current SoTA for the decision question. | Reject treating a patch as self-explanatory rationale or selecting a familiar standard by prestige. |
-| **Markdown ADR practice, including post-2015 lightweight ADR and MADR-style templates** | Context, decision, and consequence records are useful when the change is local. A semantic FPF amendment needs enough by-value decision-ground and source-use content for later pattern drafting without reinvention. | Reject treating a generic ADR template as sufficient when a multi-pattern FPF change needs Pillar, lens, naming, SoTA, distribution, or loss and recoverability content. |
-| **Continuous and evolutionary architecture decision-record practice** | Decision records keep decisions revisitable as systems evolve. FPF keeps mutable process state out of the DRR and handles reopened content with a successor decision record. | Reject turning the DRR into a status log, gate diary, or permanent shadow law. |
-| **Research and design-rationale traditions around alternatives and trade-off capture** | Rejected alternatives and trade-offs must remain recoverable enough that future authors do not re-litigate or silently reverse the selected answer. FPF adapts this through the Eleven Pillars and Principle-Taxonomy lenses. | Reject recording only the selected answer while leaving why-this-not-that implicit. |
+[MADR's template](https://adr.github.io/madr/decisions/adr-template.html) connects context, considered options, a justified decision and consequences; its confirmation section is optional. E.9 retains this concise rationale function. When one FPF decision changes several loci, it additionally assigns their content obligations and the conditions under which authors can use the selected answer. A longer record is useful only for those remaining dependencies.
+
+[ISO/IEC/IEEE 42010:2022](https://www.iso.org/standard/74393.html) distinguishes an entity's architecture from its description and leaves architecting processes and recording media outside its scope. E.9 likewise keeps its decision record distinct from the selected architecture and the work that realizes it; the standard does not supply the FPF content decision or its admission result.
 
 The practical gain is content-selection quality under semantic load: decision work selects the answer, alternatives, losses, boundary, and loci; the DRR episteme makes that result replayable before pattern drafting. Any durable rule, example, or obligation useful after realization belongs in the selected FPF pattern or non-pattern kind-reference pair, not in the DRR as permanent shadow canon.
 

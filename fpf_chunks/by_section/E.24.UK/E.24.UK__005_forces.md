@@ -6,18 +6,19 @@ section_id: "E.24.UK:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.UK/E.24.UK__005_forces.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.24.UK — U-kind Admission and Ontic Settlement"
   - "E.24.UK:3 — Forces"
-line_start: 117442
-line_end: 117451
+line_start: 117332
+line_end: 117341
 dependencies:
   - "A.1.1"
   - "A.11"
   - "A.2.6"
   - "A.22"
   - "A.6.0"
+  - "A.6.3.RT"
   - "A.6.5"
   - "A.6.RCD"
   - "A.6.REL"

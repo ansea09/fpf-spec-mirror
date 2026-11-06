@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.18.2.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.18.2 — Transformation Flow Mathematical Description"
-line_start: 111543
-line_end: 111787
+line_start: 111451
+line_end: 111694
 dependencies:
   - "A.10"
   - "A.15"
@@ -107,11 +107,11 @@ E.18.2 solves the description problem: it records a mathematical expression over
 
 ### E.18.2:4 - Solution
 
-Write a `TransformationFlowMathematicalDescription@Context` only when the mathematical expression changes the current transformation-flow description move. Name exactly one described ontic subject: one E.18 TFS or one E.18.NET network. Keep that subject reference, the mathematical description, any C.29 lens-use judgment, and any E.17 publication face separate. Then decide whether the C.29 lens-use card is needed for adequacy, payoff, preserved/lost structure, or boundary.
+Write a `TransformationFlowMathematicalDescription@Context` only when the mathematical expression changes the current transformation-flow description move. Name exactly one described ontic subject: one E.18 TFS or one E.18.NET network. Keep that subject reference, the mathematical description, any C.29 lens-use judgment, and any E.17 publication face separate. If a separate representation, transfer or adequacy question remains beyond the sufficient local description, use C.29 and retain its result; add a lens-use record only when the receiving use needs one.
 
-#### E.18.2:4.1 - First-use record
+#### E.18.2:4.1 - First-use account
 
-Use this compact record for ordinary cases:
+State the subject, mathematical object, correspondence, preserved or lost structure and declared use in ordinary prose or equations when sufficient. Use this compact record when the receiving use needs a separately inspectable description:
 
 ```text
 TransformationFlowMathematicalDescription@Context:
@@ -184,7 +184,7 @@ E.18.2 defines the mathematical description of the selected TFS or network. For 
 | formal-substrate signature | `A.6.0` supplies the profile-specific signature declaration |
 | work plan | Apply A.15.2's plan-identity and intended-work rules to identify the plan and intended-work relations. |
 | performed work | Apply A.15.1's occurrence and identity rules to identify the dated `U.Work` occurrence. |
-| evidence use | `A.10` supplies the evidence relation for the named reliance |
+| evidence use | Recover the evidence and its support for the named reliance under the subject rules and `A.2.4`; use `A.10` when its source-to-use account is implicit or must remain replayable |
 | assurance use | `B.3` returns the bounded assurance result for that reliance |
 | internal step validity | `A.20` returns the constraint-validity result |
 | gate profile or decision | `A.21` supplies the gate profile, aggregation, decision, and publication minima |
@@ -205,7 +205,7 @@ E.18.2 defines the mathematical description of the selected TFS or network. For 
 
 **P2W carry-through.** A P2W source expression or publication may draw a graph-shaped path from formal substrate to principle frame, mechanism position, method selection, work planning, work, and evaluation. The graph-shaped expression can be an E.18.2 description of the selected carry-through structure. The P2W move itself remains `E.18.1`; work planning remains A.15; dated work remains `U.Work`.
 
-**Neural-network dataflow.** A transformer architecture diagram may describe layers, attention blocks, residual connections, and graph-like connection structure. If the current claim selects one TFS, use E.18; if it selects independently identified TFS or nested-network members plus exact cross-member relation occurrences, use E.18.NET; if it is an architecture claim, use C.30. If the current claim is the mathematical graph, tensor-shape relation, or wiring expression that describes one such already selected subject, use E.18.2. For benchmark superiority, apply the relevant comparison test. For training Work, apply A.15.1's occurrence and identity rules; for an evidence claim, state the A.10 evidence-use relation; for release, test the release action as Work and any separate subject-release predicate; for causality, apply the exact causal predicate and test. The diagram supplies none of those project results.
+**Neural-network dataflow.** A transformer architecture diagram may describe layers, attention blocks, residual connections, and graph-like connection structure. If the current claim selects one TFS, use E.18; if it selects independently identified TFS or nested-network members plus exact cross-member relation occurrences, use E.18.NET; if it is an architecture claim, use C.30. If the current claim is the mathematical graph, tensor-shape relation, or wiring expression that describes one such already selected subject, use E.18.2. For benchmark superiority, apply the relevant comparison test. For training Work, apply A.15.1's occurrence and identity rules; for an evidence claim, recover its subject-support grounds and use A.10 when the source-to-use account is implicit or must remain replayable; for release, test the release action as Work and any separate subject-release predicate; for causality, apply the exact causal predicate and test. The diagram supplies none of those project results.
 
 **Circuit and algorithm.** A logic-circuit schematic can describe a transformation-flow structure realizing a Boolean relation. The netlist, wiring graph, algebraic normal form, and truth table are different mathematical or formal descriptions. They do not by themselves decide whether the selected method exists, whether the CMOS mechanism is valid under voltage and timing conditions, or whether a dated powered run occurred.
 
@@ -230,7 +230,7 @@ E.18.2 defines the mathematical description of the selected TFS or network. For 
 - `CC-E18.2-7` No mathematical expression proves work occurrence, authorizes action, passes a gate, settles evidence, or establishes architecture adequacy by itself.
 - `CC-E18.2-8` A rendered graph, table, equation, diagram, or other publication face remains separate from the mathematical description and is handled through `E.17`; changing it alone reidentifies neither the description nor its selected TFS or network subject.
 - `CC-E18.2-9` When selected TFS, selected network, work, method, mechanism, signature, evidence, gate, decision, architecture, function, module-interface, or reusable-structure claims are current, apply the exact contribution named for that claim in §4.4 and keep the result it returns. E.18.2 records only the mathematical-description relation for one already selected ontic subject.
-- `CC-E18.2-10` A source expression or publication face that carries several claims is split into records by current EntityOfConcern and relation position, not by the expression's or publication's name.
+- `CC-E18.2-10` Distinguish the claims carried by a source expression or publication face by their current EntityOfConcern and relation position. Keep separate records when the receiving use needs their independent identity or reconstruction.
 
 ### E.18.2:6 - Common Anti-Patterns and How to Avoid Them
 
@@ -246,9 +246,9 @@ E.18.2 defines the mathematical description of the selected TFS or network. For 
 
 | Consequence | Benefit | Cost or mitigation |
 |---|---|---|
-| Mathematical descriptions get their own local record. | Graphs, paths, slices, quotients, and wiring can be used without becoming hidden ontology. | One source expression or publication face may need several records. |
+| Mathematical descriptions retain their subject, correspondence and declared use. | Graphs, paths, slices, quotients, and wiring can be used without becoming hidden ontology. | A receiving use may need separately inspectable records. |
 | E.18 and E.18.NET stay about selected ontic structures. | One TFS and one network of independently identified TFS members remain inspectable without becoming their mathematical descriptions. | Readers must choose E.18, E.18.NET, or E.18.2 by the current EntityOfConcern. |
-| C.29 remains general. | E.18.2 does not duplicate the whole mathematical-lens pattern. | Claim-bearing adequacy needs a C.29 reference. |
+| C.29 remains general. | E.18.2 does not duplicate the whole mathematical-lens pattern. | A separate representation or transfer question needs the applicable C.29 result. |
 | Boundary to work, gates, evidence, and architecture is explicit. | Mathematical prestige does not replace project checks. | Stronger claims require the exact contribution and returned result named for that claim in §4.4. |
 
 ### E.18.2:8 - Rationale
@@ -262,7 +262,6 @@ The pattern is intentionally narrower than C.29. C.29 answers the general questi
 | Practice tradition | Distinction kept for E.18.2 | E.18.2 invariant | Practitioner implication | Return if |
 |---|---|---|---|---|
 | FPF strict-distinction, selected-structure, architecture-description, and view apparatus (`A.7`, `A.22`, `C.30.AD`, `E.17`) | A description or view can expose one selected TFS or network without becoming that structure or evidence. | The mathematical description names exactly one subject branch, expression, preserved/lost structure, declared use, and boundary stop. | A readable model can guide inspection without authorizing action. | The selected E.18 TFS or E.18.NET network, publication face, evidence relation, or architecture claim changes. |
-| SysML v2 — deliberately excluded | No move or lineage is adopted for E.18.2: SysML v2's long-promoted model-and-diagram program is not treated as current working SoTA for this problem. | Search prominence, diagram familiarity, and the word *system* do not establish a useful structure/description boundary. | Use practices that solve the current modeling problem in operating tools and projects; do not import a SysML v2 basis by default. | Reconsider only on concrete project evidence that changes the current problem and outperforms the adopted working line. |
 | Applied category theory, wiring diagrams, and graph rewriting (Fong & Spivak, arXiv [`1803.05316`](https://arxiv.org/abs/1803.05316); Spivak, arXiv [`1305.0297`](https://arxiv.org/abs/1305.0297); Baez & Fong, arXiv [`1504.05625`](https://arxiv.org/abs/1504.05625); Bonchi et al., arXiv [`1602.06771`](https://arxiv.org/abs/1602.06771); Patterson/Spivak/Vagner, arXiv [`2101.12046`](https://arxiv.org/abs/2101.12046)). | Formal expression is useful because it preserves some structure and drops other structure. | Quotient, fold, refinement, factorization, and wiring claims name what survives and what is lost. | Coarser and finer descriptions can be compared without pretending they are identical. | The preserved/lost structure, mapping mode, or C.29 lens-use adequacy changes. |
 | Digital-thread, research-object, and source-reference practice (RO-Crate paper, arXiv [`2108.06503`](https://arxiv.org/abs/2108.06503); Di Cosmo/Gruenpeter/Zacchiroli, arXiv [`2001.08647`](https://arxiv.org/abs/2001.08647); ISO 23247 digital-twin lineage). | Replay works only when record kinds remain distinct. | E.18.2 descriptions cite one E.18 TFS or E.18.NET network and exact related records rather than absorbing work, evidence, gate, and publication claims. | A trace graph can remain useful without becoming proof, plan, or performed work. | Source-currentness relation, work-family law, evidence, gate, or publication-use relation changes. |
 | Engineering architecture practice uses functional, dataflow, and interface diagrams under explicit view, viewpoint, and correspondence discipline. | A diagram may describe architecture, transformation-flow structure, method, mechanism, or publication face according to the current EoC. | E.18.2 keeps only the mathematical-description relation; architecture adequacy remains under `C.30`, architecture structural-view adequacy remains under `C.30.ASV`, and reusable-structure characteristics remain under `C.31`. | Functional and dataflow diagrams can be used without semio-bias or architecture overclaim. | The architecture selected structure, viewpoint, or correspondence relation changes. |
@@ -275,7 +274,7 @@ The pattern is intentionally narrower than C.29. C.29 answers the general questi
 - Apply C.29 to evaluate mathematical-lens use and retain its returned adequacy, preserved/lost structure, payoff, obstruction, or stop result when that claim is current.
 - Use C.2.1 for description-episteme identity and E.17 for publication faces and their publication boundary.
 - Use A.6.0 for formal-substrate signatures, A.6.1 for mechanisms and applications, A.6.5 for slot discipline, and E.20 for mechanism-method placement.
-- Apply A.15.1 to identify performed Work, A.15.2 to identify work plans, A.20 to obtain internal-step validity, A.21 to obtain gate results, A.10 to state evidence relations, B.3 to obtain assurance, and C.11 to obtain local choices.
+- Apply A.15.1 to identify performed Work, A.15.2 to identify work plans, A.20 to obtain internal-step validity, A.21 to obtain gate results, A.10 for an implicit or required-replayable source-to-use account, B.3 to obtain assurance, and C.11 to obtain local choices.
 - Apply C.30 to state architecture claims, C.30.AD to identify architecture descriptions, C.30.ASV to evaluate structural views, A.6.F to recover unsettled function-like claims and their subject patterns, A.6.M to state module-interface relations, and C.31 to state reusable-structure characteristics.
 
 ### E.18.2:End

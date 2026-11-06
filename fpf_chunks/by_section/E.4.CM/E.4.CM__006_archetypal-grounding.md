@@ -6,12 +6,12 @@ section_id: "E.4.CM:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.CM/E.4.CM__006_archetypal-grounding.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.4.CM — Develop Connected Methods as Framework Contributions"
   - "E.4.CM:5 — Archetypal Grounding"
-line_start: 93817
-line_end: 93888
+line_start: 93804
+line_end: 93875
 dependencies:
   - "A.3.1"
   - "B.1.5"
@@ -101,5 +101,5 @@ The supplied answers can occupy ordinary connected prose with exact returns. The
 
 A short reminder can say: “Recover the receiving uses; construct and qualify preparation; apply each use's conditions; return the failed connection to development and preserve qualified branches.” In the resulting publication it returns to the full explanation, including the domain comparison and its limits. Reading the reminder in order requires neither development during every use nor a sequence between the independent receivers.
 
-The ordinary studio practitioner obtained a workable conditional arrangement through C.39. The framework author has drafted its public explanation, chosen its maintained scope and placement, made direct uses reachable, and identified the missing domain SoTA comparison. The numerical argument and selective return remain useful under their stated premises. The DPF account is complete for publication only after that comparison is answered and its consequences incorporated. Formatting adds no timing evidence.
+The ordinary studio practitioner obtained a workable conditional arrangement through C.39. The framework author has drafted its public explanation, chosen its maintained scope and placement, made direct uses reachable, and identified the missing domain SoTA comparison. The numerical argument and selective return remain useful under their stated premises. The DPF account is complete for publication only after that comparison is answered and its consequences incorporated.
 

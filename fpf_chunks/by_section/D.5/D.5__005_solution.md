@@ -6,12 +6,12 @@ section_id: "D.5:2"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.5/D.5__005_solution.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "D.5 — Bias Audit and Ethical Assurance"
   - "D.5:2 — Solution"
-line_start: 92298
-line_end: 92334
+line_start: 92291
+line_end: 92327
 dependencies:
   - "A.10"
   - "B.3"
@@ -63,5 +63,5 @@ BiasAuditAssuranceFrame@Context:
   strongerSourceReturnCondition?
 ```
 
-The frame organizes the audit account. It is neither the object being audited nor evidence that its use is fair. Include relied-on evidence and any stronger-source return needed by the particular conclusion.
+The frame organizes the audit account. Include relied-on evidence and any stronger-source return needed by the particular conclusion.
 

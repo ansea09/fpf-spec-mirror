@@ -6,12 +6,12 @@ section_id: "F.15:13"
 section_title: "Archetypal Grounding - worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__015_archetypal-grounding-worked-cases.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Naming and Semantic Unification"
   - "F.15:13 — Archetypal Grounding - worked cases"
-line_start: 123814
-line_end: 123874
+line_start: 123711
+line_end: 123771
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -93,7 +93,7 @@ F.15 result:
 * RSCR-F15-E7 compares the two exact description epistemes and the described local system-role kind.
 * RSCR-F15-E8 permits F.13/F.18 alias or rename treatment only for expression change with value, scheme, sense, and use preserved.
 * F.18 updates the NameCard; F.17 updates a public row only if that row use is current and its gate passes.
-* If the described system-role kind or description claim changed, F.4 and the naming patterns create the corresponding new objects; F.15 does not declare continuity.
+* If the described system-role kind or description claim changed, F.4 and C.2.1 identify the affected value or episteme; F.18 rechecks naming when the change affects its value, interpretation or use. F.15 does not infer continuity from the label.
 
 #### F.15:13.4 - Partial Bridge later claimed as equivalence
 

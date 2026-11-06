@@ -6,12 +6,12 @@ section_id: "E.17.ID.CR:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.ID.CR/E.17.ID.CR__008_conformance-checklist.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.17.ID.CR — Compare Sources Within a Shared Review Frame (ComparativeReviewUnit)"
   - "E.17.ID.CR:7 — Conformance Checklist"
-line_start: 109232
-line_end: 109272
+line_start: 109138
+line_end: 109178
 dependencies:
   - "A.15"
   - "A.15.2"
@@ -52,11 +52,11 @@ Use ID.CR-Core for ordinary comparison notes. Conditional rows apply only when t
 2. **CC-ID-2 - Source references and comparison criterion are explicit.**
    A reviewer can see what already-fixed source episteme or source publication is being interpreted and what declared comparison criterion or contrast is carrying the lift.
 3. **CC-ID-3 - The lift stays bounded.**
-   The unit or its immediate review context keeps bounded lift, blocked downstream claim or effect, world-contact limit, and boundary trigger visible before any neighboring claim can be read from the unit.
+   The unit or its immediate review context keeps the supported contrast, comparison basis and material conditions recoverable. State a blocked use or reopen condition when it changes this comparison’s interpretation or receiving use.
 4. **CC-ID-6 - Neighboring-pattern boundaries stay visible.**
    When the boundary trigger fires, the neighboring FPF pattern carries that prompt, ontology, action, gate, authority, or downstream claim instead of leaving it hidden inside comparative prose.
 5. **CC-ID-8 - The review unit does not over-claim authority.**
-   The unit remains review-only and non-executive; stronger authority use is carried only by the named governing pattern and project-side FPF kind and reference.
+   Any stronger authority claim requires its actual governing basis. Require an explicit review-only or non-executive limit when the unit’s wording, arrangement or receiving use could otherwise imply that authority.
 
 #### E.17.ID.CR:7.2 - ID.CR-Conditional checks
 
@@ -73,10 +73,10 @@ Use ID.CR-Core for ordinary comparison notes. Conditional rows apply only when t
 | --- | --- | --- |
 | `CC-ID-1` | `E.17.ID.CR:4.3.b.a` rows **Reviewed source** and **Shared review frame and alternative identities** | `E.17.ID.CR:5.4.5`, `E.17.ID.CR:5.4.6`, `E.17.ID.CR:5.4.6.a` |
 | `CC-ID-2` | `E.17.ID.CR:4.3.b.a` rows **Reviewed source**, **Source references**, and **Bounded lift** | `E.17.ID.CR:5.4.5`, `E.17.ID.CR:5.4.6`, `E.17.ID.CR:5.4.6.a` |
-| `CC-ID-3` | `E.17.ID.CR:4.3.b.a` rows **Bounded lift**, **Blocked downstream claim or effect**, and **World-contact limit** | `E.17.ID.CR:5.4.6`, `E.17.ID.CR:5.4.10`, `E.17.ID.CR:5.4.11` |
+| `CC-ID-3` | `E.17.ID.CR:4.3.b.a` rows **Bounded lift**, **Downstream-use limit, when needed**, and **World-contact limit, when needed** | `E.17.ID.CR:5.4.6`, `E.17.ID.CR:5.4.10`, `E.17.ID.CR:5.4.11` |
 | `CC-ID-4` | near-top **Neighboring-work boundary**, **Quick working-fit check**, and `E.17.ID.CR:4.5 - Neighboring-work boundary glance` | `E.17.ID.CR:5.4.7` through `E.17.ID.CR:5.4.10` |
 | `CC-ID-5` | `E.17.ID.CR:4.3.d` bridge-declaration fields plus `E.17.ID.CR:4.2` neighboring patterns | `E.17.ID.CR:5.4.1`, `E.17.ID.CR:5.4.2`, `E.17.ID.CR:5.4.3` |
 | `CC-ID-6` | `E.17.ID.CR:4.3.b.a` row **Boundary trigger** plus the near-top boundary corridor | `E.17.ID.CR:5.4.7` through `E.17.ID.CR:5.4.10` |
 | `CC-ID-7` | `E.17.ID.CR:4.3.d` interpretant-side fields, kept subordinate to the ordinary minimum and blocked downstream claim or effect | `E.17.ID.CR:5.4.4`, `E.17.ID.CR:5.4.6`, `E.17.ID.CR:5.4.6.b` |
-| `CC-ID-8` | `E.17.ID.CR:4.3.b.a` rows **Blocked downstream claim or effect** and **World-contact limit** | `E.17.ID.CR:5.4.6`, `E.17.ID.CR:5.4.10`, `E.17.ID.CR:5.4.11` |
+| `CC-ID-8` | `E.17.ID.CR:4.3.b.a` rows **Downstream-use limit, when needed** and **World-contact limit, when needed** | `E.17.ID.CR:5.4.6`, `E.17.ID.CR:5.4.10`, `E.17.ID.CR:5.4.11` |
 

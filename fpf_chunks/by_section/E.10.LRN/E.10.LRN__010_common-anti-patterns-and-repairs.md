@@ -6,12 +6,12 @@ section_id: "E.10.LRN:8"
 section_title: "Common Anti-Patterns and Repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.LRN/E.10.LRN__010_common-anti-patterns-and-repairs.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.10.LRN — Recovering What “Learning” Means in the Current Claim"
   - "E.10.LRN:8 — Common Anti-Patterns and Repairs"
-line_start: 100866
-line_end: 100877
+line_start: 100786
+line_end: 100797
 dependencies:
   - "A.10"
   - "A.15"
@@ -53,7 +53,7 @@ keywords:
 | “The teacher taught it, therefore the person can do it” | Separate teaching Work from capability evidence and transfer. |
 | “The model learned it, therefore the deployed System can do it” | Separate training, model edition, evaluation, deployment, and capability. |
 | “Information gain is learning progress” | Name the belief/model update and keep capability change separate. |
-| “A public artifact proves knowledge” | Treat it as inspectable evidence input; test representative independent use separately. |
+| “A public artifact proves knowledge” | Identify the claim and what the artifact supports. A proposition may be supported by its proof or explanation; a claim about the holder's independent use or transfer needs evidence of that performance under the relevant conditions. Reuse sufficient evidence, and test only the remaining consequential question. |
 | “A pattern is the atom of knowledge or a meme” | Treat the pattern as an episteme and, only in a named case, a cultural variant under `C.36`. |
 | Replace *learning* with one preferred synonym | Recover the subject claim; vocabulary replacement alone does not close the ambiguity. |
 

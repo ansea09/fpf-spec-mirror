@@ -6,12 +6,12 @@ section_id: "E.11.PFP:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PFP/E.11.PFP__011_conformance-checklist.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.11.PFP — Framework Publication Form Profile for Markdown"
   - "E.11.PFP:7 — Conformance Checklist"
-line_start: 104680
-line_end: 104705
+line_start: 104599
+line_end: 104624
 dependencies:
   - "A.3.2"
   - "C.29"
@@ -55,6 +55,6 @@ keywords:
 | CC-PFP.14 Scope examples survive | The rule remains usable for FPF, DPF, and LPF editions and for a low-tool or non-clickable carrier without introducing a second edition identity. |
 | CC-PFP.15 Navigation remains usable | The ToC represents Readme and the architectural-reference unit in its established product-native grammar before the singular pattern index; headings and labels describe their purpose, and the integrated rendered-structure summary plus intended-reader inspection exposes grouping defects without a second full read. |
 | CC-PFP.16 Whole account usable | Every substantive E.8 question has a public answer, an exact inherited answer, or an explicit use-changing gap at each selected scope. The framework's Architectural Reference connects Methods and their results, retains their Architectural Rationale and shared source synthesis, and leaves direct pattern entry available. Its embedded or separate carrier does not change that function. Headings or locators alone do not establish this content. |
-| CC-PFP.17 Scales and relations truthful | Further useful scales remain possible; the actual specialization, profile, composition, reuse, and publication-grouping relations are distinguished. A claimed mathematical order or lattice has the conditions required by C.29. |
+| CC-PFP.17 Scales and relations truthful | Further useful scales remain possible; the actual specialization, profile, composition, reuse, and publication-grouping relations are distinguished. A claimed mathematical order or lattice satisfies its mathematical conditions. C.29 is used when a separate representation-choice, transfer, or reliance question requires it. |
 | CC-PFP.18 Whole-account sections addressable | Every architectural-reference subsection exposes its framework code, declared unit key and complete ordinal path; nested paths and heading levels agree. The whole unit ends with one correctly addressed, content-free H2 `:End` heading before the next unit. Addressed profile or support units identify their declared unit. Links resolve to the intended rendered headings, while the target content supplies the promised answer. Publication-unit addresses do not create pattern-index entries, and a changed title does not itself preserve a former fragment. |
 

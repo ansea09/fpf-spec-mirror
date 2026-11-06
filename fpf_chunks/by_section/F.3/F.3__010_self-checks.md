@@ -6,12 +6,12 @@ section_id: "F.3:9"
 section_title: "Self-checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.3/F.3__010_self-checks.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "F.3 — Source-Local Sense Clustering"
   - "F.3:9 — Self-checks"
-line_start: 119484
-line_end: 119492
+line_start: 119374
+line_end: 119382
 dependencies:
   - "A.11"
   - "A.7"
@@ -34,10 +34,10 @@ keywords:
 
 ### F.3:9 - Self-checks
 
-* **Same-conclusion test.** Would the candidate uses ever change a source-grounded conclusion relevant here? If not, merge.
-* **Argument probe.** Substitute the participants from one use into the other. If the source proposition fails, split.
+* **Same-conclusion test.** Do the source uses establish the same relevant meaning and preserve the conclusions needed here? If so, merge. If the available passages cannot settle the comparison, retain the unresolved difference and identify the missing basis.
+* **Argument probe.** Substitute the participants from one use into the other. Split when this exposes incompatible source-required participant kinds or semantic roles. A false instance alone does not establish another sense: “Alice is licensed” and “Bob is licensed” can differ in truth while using `licensed` with the same meaning.
 * **Entailment probe.** Does one use imply an occurrence while the other implies a description, kind, or status? Split.
-* **Label inversion.** Read the Plain label alone. If it invites a broader claim, tighten it.
+* **Label inversion.** When a Plain label is used, read it alone. If it invites a broader claim, tighten it.
 * **Counterexample ping.** Use a source-grounded excluded use when it matters to the receiving question. If that use falls inside the claim, refine the boundary.
 * **Memory rule.** Poor recall is a cue to inspect the partition for needless splits. Retain every source-grounded distinction that changes the receiving use.
 

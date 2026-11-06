@@ -6,12 +6,12 @@ section_id: "E.10.DEV:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.DEV/E.10.DEV__013_relations.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.10.DEV — Recovering What Development or Evolution Means in the Current Claim"
   - "E.10.DEV:12 — Relations"
-line_start: 101289
-line_end: 101295
+line_start: 101209
+line_end: 101215
 dependencies:
   - "A.15"
   - "A.2.2"
@@ -38,6 +38,6 @@ keywords:
 
 - **Selected by:** `E.10` when development or evolution wording remains action-changing because the subject, continuity or membership, posture, direction or value basis, or direct owner is not yet recoverable.
 - **Builds on:** `F.19`, `E.10`, `E.10.ARCH`, `A.3.4.P`, `A.2.2`, current `E.23.CAE`, `A.3.3`, `B.4`, `C.17`–`C.19`, `C.27.TA`, `C.29`, and `C.36`.
-- **Coordinates with:** current `E.23.CAE` only when the recovered capability branch needs its observation or disposition differential; `E.10.MOVE` for a remaining trajectory or path posture; `E.10.LRN` for learning-word recovery; `C.36.P` for remaining cultural-evolution wording; A.15 for Work or WorkPlan; candidate `E.23.CDI` only after its own admission and a separate applicable steering or choice result; and each direct holder or domain owner selected by the repaired claim.
+- **Coordinates with:** current `E.23.CAE` only when the recovered capability branch needs its observation or disposition differential; `E.10.MOVE` for a remaining trajectory or path posture; `E.10.LRN` for learning-word recovery; `C.36.P` for remaining cultural-evolution wording; A.15 for Work or WorkPlan; `E.23.CDI` when capability development is the selected task; and each direct holder or domain owner selected by the repaired claim.
 - **Keeps outside:** domain ontology, governed by the selected subject owners, and framework admission under `E.4.PFAD`.
 

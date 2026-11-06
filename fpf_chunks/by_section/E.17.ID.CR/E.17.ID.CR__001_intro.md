@@ -6,12 +6,12 @@ section_id: "E.17.ID.CR:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.ID.CR/E.17.ID.CR__001_intro.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.17.ID.CR — Compare Sources Within a Shared Review Frame (ComparativeReviewUnit)"
   - "E.17.ID.CR:intro — Intro"
-line_start: 108635
-line_end: 108671
+line_start: 108533
+line_end: 108569
 dependencies:
   - "A.15"
   - "A.15.2"
@@ -49,7 +49,7 @@ keywords:
 
 **First-minute working moment.** A team has two or more source-pinned notes, sheets, views, or review aids on the table. They need one honest comparison unit: two design options for one release, two methods for one task family, two vendor bulletins for one control scope, two research syntheses for one uncertainty question, or two programme strategies for one initiative. The job is not yet action selection, approval, ontology repair, or wider work-process control. It is to compare without pretending that the comparison note already became a decision.
 
-**First output.** One bounded comparison whose ordinary minimum is recoverable in the unit or its immediate review context. A source-linked paragraph or small comparison table may suffice. The seven-row card below is a recovery aid, not an additional required publication:
+**First output.** One bounded comparison whose ordinary minimum is recoverable in the unit or its immediate review context. A source-linked paragraph or small comparison table may suffice. The card below is a recovery aid, not an additional required publication; include a blocked-use or boundary field only when it changes this comparison’s interpretation or use:
 
 ```text
 ComparativeReviewUnit:

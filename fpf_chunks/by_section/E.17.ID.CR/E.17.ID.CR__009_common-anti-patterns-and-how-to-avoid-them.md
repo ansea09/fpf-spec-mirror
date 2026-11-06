@@ -6,12 +6,12 @@ section_id: "E.17.ID.CR:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.ID.CR/E.17.ID.CR__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.17.ID.CR — Compare Sources Within a Shared Review Frame (ComparativeReviewUnit)"
   - "E.17.ID.CR:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 109273
-line_end: 109285
+line_start: 109179
+line_end: 109191
 dependencies:
   - "A.15"
   - "A.15.2"
@@ -48,7 +48,7 @@ keywords:
 | **Soft prompt or choice smuggling** | The review unit has begun asking for an explanation or selecting an action but hides that change in comparative prose. | For an explanatory question with rival explanations still open, use `B.5.2.0` or `B.5.2` and publish the prompt's species, open question, scope, and motivating provenance. For a choice among already available actions, probes, or method options, use `C.11`; choice alone requires no `U.AbductivePrompt`. |
 | **Viewing capture** | Same-entity restatement or representation-shift work is pulled into interpretation just because the result is more readable. | Name the base source relation or representation work first and use bounded comparison only when bounded comparative lift is primary. |
 | **Explanation-face laundering** | Interpretation language is used to avoid explicit `E.17.EFP` class and bounded-use review. | If face class or bounded connective prose is primary, stay with `E.17.EFP`. |
-| **Gentle-tone advisory overread** | A calm explanatory tone makes work or reliance, assurance, or gate guidance sound harmless. | Publish `boundedComparativeUse`, `overreadRisk`, `worldContactPolicy`, and `downstreamAuthorityLimit` explicitly. |
+| **Gentle-tone advisory overread** | A calm explanatory tone can conceal a particular unsupported recommendation, assurance or gate claim. | State the actual use limit and recover the grounds required by that stronger claim when it is requested. |
 | **EntityOfConcern shift** | A changed target is mislabeled as interpretation because the prose still sounds comparative. | Apply `OntologicalReframing` or `A.6.4` once continuity witnesses or changed target govern the claim. |
 | **Interface neutrality fiction** | A guided or contrastive aid pretends to be audience-neutral while steering blocked downstream use. | Make `targetUserModel`, `interactionMode`, and `contrastiveQuestion` explicit and keep the non-bounded use forbidden. |
 

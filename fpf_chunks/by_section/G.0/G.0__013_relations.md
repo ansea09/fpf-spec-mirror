@@ -6,12 +6,12 @@ section_id: "G.0:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.0/G.0__013_relations.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "G.0 — Define Admissible Comparison and Aggregation for a Frame (CG-Spec)"
   - "G.0:12 — Relations"
-line_start: 127297
-line_end: 127302
+line_start: 127201
+line_end: 127206
 dependencies:
   - "A.10"
   - "A.17"
@@ -55,6 +55,6 @@ keywords:
 ### G.0:12 - Relations
 
 **Builds on:** `G.Core`, `A.19.CN (CN‑Spec)`, `A.10 (evidence-provenance account)`, `A.17–A.19 / C.16 (MM‑CHR legality)`, `A.18 (CSLC)`, `B.3 (trust / Γ‑fold family)`, `F.* (contexts, bridges, CL, UTS)`, `E.10 (lexical rules)`, `E.5.* (notation independence discipline)`.
-**Used by:** `G.1` (generator guards), `G.2` (harvesting constraints), `G.3` (required CHR), `G.4` (acceptance templates / proof hooks), `G.5` (eligibility gates), `G.6` (evidence/pin surfaces), and downstream parity/shipping/refresh where `CG‑Spec` is pinned.
+**Used by:** `G.1` (generator guards), `G.2` (harvesting constraints), `G.3` (required CHR), `G.4` (acceptance templates / proof hooks), and `G.5` (eligibility gates); `G.6` when the represented claim depends on CG-Spec, and parity/shipping/refresh where that specification is pinned.
 **Publishes to:** `UTS` (Name Cards + editioned `CG‑Spec` segments).
 

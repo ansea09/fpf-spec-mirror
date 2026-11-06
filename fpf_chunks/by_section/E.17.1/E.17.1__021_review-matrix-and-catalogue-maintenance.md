@@ -6,12 +6,12 @@ section_id: "E.17.1:20"
 section_title: "Review Matrix and Catalogue Maintenance"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__021_review-matrix-and-catalogue-maintenance.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.17.1 — Viewpoint Bundle Library - Reusable Viewpoint Reference Bundles"
   - "E.17.1:20 — Review Matrix and Catalogue Maintenance"
-line_start: 107150
-line_end: 107160
+line_start: 107049
+line_end: 107059
 dependencies:
   - "A.16.0"
   - "A.22"
@@ -42,7 +42,7 @@ A reviewer can test a viewpoint bundle library with five questions:
 1. **Do the member viewpoints still have explicit standalone meaning?**
 2. **Does the local declaration and its family designator describe one coherent recurring family rather than one convenience list?**
 3. **If a subset is imported, is the omitted remainder still visible as omission rather than silent deletion?**
-4. **If several bundles interact, is exact provenance preserved without being called correspondence, and does any actual comparison follow the correct same-scheme or F.9 cross-context branch?**
+4. **If several bundles interact, is exact provenance preserved, and does each comparison use its subject method with F.9 added only for an actual semantic relation between distinct local senses?**
 5. **Has a publication face started impersonating the library itself?**
 
 Prefer small, provenance-preserving declarations inside exact editioned catalogues over lexical mega-families that are easy to name but hard to reuse truthfully.

@@ -6,12 +6,12 @@ section_id: "E.17.EFP:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.EFP/E.17.EFP__011_rationale.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.17.EFP — ExplanationFaithfulnessProfile — explanation-use discipline over existing MVPK faces"
   - "E.17.EFP:10 — Rationale"
-line_start: 108596
-line_end: 108599
+line_start: 108494
+line_end: 108497
 dependencies:
   - "A.10"
   - "A.15"
@@ -28,7 +28,9 @@ dependencies:
   - "A.6.B"
   - "A.7"
   - "B.3"
+  - "B.5.2"
   - "C.2.8"
+  - "C.28"
   - "E.10.D2"
   - "E.17"
   - "E.17.0"
@@ -40,5 +42,5 @@ keywords:
 
 ### E.17.EFP:10 - Rationale
 
-Generated and model-facing explanation can hide source drift; ordinary human explanation can instead be burdened by a profile it does not need. EFP therefore keeps the ontic boundary and bounded-use benefit while making simpler-note non-use the default whenever it is equally effective.
+EFP keeps the identity and bounded-use check when it changes the permitted use of an explanation. Prefer a simpler source-linked boundary sentence whenever it preserves the needed claims and prevents the same credible overread.
 

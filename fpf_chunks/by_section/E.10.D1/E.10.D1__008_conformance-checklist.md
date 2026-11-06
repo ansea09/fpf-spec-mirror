@@ -6,12 +6,12 @@ section_id: "E.10.D1:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D1/E.10.D1__008_conformance-checklist.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.10.D1 — Recovering What “Context” Means in Use"
   - "E.10.D1:7 — Conformance Checklist"
-line_start: 102365
-line_end: 102381
+line_start: 102285
+line_end: 102301
 dependencies:
   - "A.1.1"
   - "A.2.6"
@@ -44,7 +44,7 @@ A use of `E.10.D1` conforms when:
 3. the repaired sentence names the relevant value, relation, scope, scheme, situation, or use and the contribution of any cited pattern;
 4. source-local meaning reuses an adequate current `F.0.1` result or applies `F.0.1` when that result is absent or inadequate, then cites a basis relation only when it obtains;
 5. an A.1.1 structure is selected only when the organization of its direct facts changes the decision;
-6. a claim boundary uses A.2.6 scope and membership facts rather than a generic Context participant;
+6. a claim boundary states the applicability conditions and grounds needed by its use, applying A.2.6 scope and membership facts when the receiving rule requires them;
 7. an F.9 Bridge is opened only between different semantic-context projections, and its bounded-use claim remains separate;
 8. architecture wording distinguishes an actual selected structure and obtaining `ArchitectureRelation` from a negative, unresolved, candidate, or expected `ArchitectureClaim`;
 9. viewpoint or view wording identifies the candidate episteme and viewpoint edition and uses the E.17.0 positive, negative, or unresolved conformance result;

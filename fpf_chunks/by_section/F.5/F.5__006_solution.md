@@ -6,12 +6,12 @@ section_id: "F.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__006_solution.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "F.5 — Name U-kinds, Local System-Role Kinds and SystemRoleKindDescriptions"
   - "F.5:4 — Solution"
-line_start: 120042
-line_end: 120120
+line_start: 119932
+line_end: 120010
 dependencies:
   - "A.10"
   - "A.15"
@@ -61,7 +61,7 @@ Make these facts recoverable in the prose, direct admission, F.4 description, Co
 - the direct source of its meaning;
 - for a local system-role-kind designation, the candidate domain, operative membership condition, intended member/non-member boundary, continuity rule, current `KindSignature`, and effective scheme, with source or practice provenance kept as a locator or comparison cue;
 - for a description name, the separate F.4 `SystemRoleKindDescription` and its exact EntityOfConcern;
-- the selected Tech and Plain designations;
+- the selected Tech designation and any Plain designation needed for a stated didactic use;
 - aliases or predecessor labels with lineage;
 - morphology, neutrality, and minimal-generality checks; and
 - the boundary that prevents the name from absorbing classification, assignment, capability, Method, Work, status, evidence, permission, responsibility, publication, or relation-position claims.
@@ -83,7 +83,7 @@ Keep four things separate: the chosen name, the local system-role kind it names,
 
 #### F.5:4.2 - Tech and Plain Designations
 
-Use two human-facing designations when a name is durable enough to be reused:
+Choose a Tech designation for durable reuse. Add a Plain designation when a stated didactic use needs it:
 
 | Designation | Job | Constraint |
 | --- | --- | --- |
@@ -97,7 +97,7 @@ For the description episteme, name the description rather than the described kin
 
 For a coupled system-role–Method phrase, recover the local kind and Method separately before naming either one. Recover and name a MethodDescription, WorkPlan, or dated Work only when that exact object is already admitted and the naming use consumes it; a shared phrase does not require any of them to exist. `RoboticsEngineerSystemRole` may designate one admitted local kind; `RobotEngineeringMethod` names a Method or Method family. Ordinary *engineer-roboticist* may remain the Plain expression when nearby project wording makes the intended kind clear and the C.3 candidate domain, membership distinction, boundary probes, and continuity remain recoverable. The wording helps the reader; it does not identify the kind. It replaces neither a qualifying MethodDescription nor any description of planned or performed Work.
 
-When a later naming use actually consumes one dated Work identity, that Work must already be constituted before F.5 naming begins. Recover every exact actual performer through A.13, and let A.15.1 independently admit the Work from its semantic Method, time, containing System, and other required direct facts. Add the assignment occurrence, holder equality, and F.6 relation only when the naming record or receiving use expressly represents precise assignment-bound attribution; missing or failed F.6 leaves the Work identity intact. Otherwise keep the activity in ordinary wording and do not mint a Work identifier merely to support a name.
+When a later naming use actually consumes one dated Work identity, that Work must already be constituted before F.5 naming begins. Recover every exact actual performer through A.13, and let A.15.1 independently admit the Work from its semantic Method, time, containing System, and other required direct facts. Add the assignment occurrence, holder equality, and F.6 relation only when the naming record or receiving use expressly represents precise assignment-bound attribution; missing or failed F.6 alone leaves independently admitted Work intact. If the same finding invalidates a premise consumed by its A.13/A.15.1 admission, recheck that premise and its dependent conclusions under F.6:4.2. When the naming use does not consume a dated Work identity, keep the activity in ordinary wording.
 
 For a U-kind, the Tech designation should be neutral enough that no witness wins by vocabulary alone. If witnesses disagree between `Observation`, `Reading`, and `MeasurementResult`, a Concept-Set row preserves the comparison; the exact shared value and invariants must still pass E.24.UK admission or their direct defining rule before an author uses F.5 to choose a name.
 
@@ -119,8 +119,8 @@ When a candidate contains a tempting word, recover the current claim instead of 
 
 | Source wording | First ontological question | Direct next locus |
 | --- | --- | --- |
-| `EvidenceRole`, `ModelFitEvidenceRole`, or “evidence role” | Is an episteme used as evidence for a target claim with exact scope, polarity, relevance window, and provenance? | A.10, B.3, C.2.1, or the exact evidence-use relation |
-| `RequirementRole` or “standard role” | Is an episteme, standard, or clause used as a requirement, source, or specification? | E.10.D2, C.28, E.17, or the exact source or requirement relation |
+| `EvidenceRole`, `ModelFitEvidenceRole`, or “evidence role” | Is an episteme used as evidence for a target claim with the needed scope, polarity and provenance, including a relevance window when the use depends on it? | A.2.4, A.10, B.3 for a named assurance claim, or the exact evidence-use relation |
+| `RequirementRole` or “standard role” | Is an episteme, standard or clause used as a requirement, source or specification? | E.10.D2 and the exact source, specification-use or requirement relation; E.17 for a separate publication-form question |
 | `Access Role` in RBAC | Is this a policy or permission grouping rather than a work-facing kind? | Exact access, policy, permission, or status relation; F.18 only if durable naming is needed |
 | “role of subject, provider, or input” | Is this participant meaning, a declaration slot, or a representation position? | E.10.ROLE, A.6.RSIR, and A.6.5 |
 | `ReviewerSystemRole` | Is one exact local C.3 kind with a direct criterion current? | A.2 with C.3; F.4 for its description; A.2.1 only when assigned |

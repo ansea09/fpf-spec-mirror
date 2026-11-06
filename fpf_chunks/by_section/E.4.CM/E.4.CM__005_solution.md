@@ -6,12 +6,12 @@ section_id: "E.4.CM:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.CM/E.4.CM__005_solution.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.4.CM — Develop Connected Methods as Framework Contributions"
   - "E.4.CM:4 — Solution"
-line_start: 93573
-line_end: 93816
+line_start: 93560
+line_end: 93803
 dependencies:
   - "A.3.1"
   - "B.1.5"
@@ -227,7 +227,7 @@ A practitioner needs to check one retained review under a known matching-conditi
 
 Source familiarity, preference for a neat architecture and enthusiasm for pattern languages can bias all these judgments. Preserve the rival account and the cheaper direct route. AI-assisted recovery or comparison retains its model, input and interaction limits when they matter to the claimed result; fluency does not replace source access or independent use evidence.
 
-Source prestige can hide a missing action; familiarity with the intended language can make its author privately supply an omitted join. Inspect what the receiving reader can actually recover from the allocated contribution and full suppliers. The constructed cases establish no population effect or universal advantage.
+Source prestige can hide a missing action; familiarity with the intended language can make its author privately supply an omitted join. Inspect what the receiving reader can actually recover from the allocated contribution and full suppliers.
 
 ##### E.4.CM:4.8.7 - Conformance Checklist
 
@@ -241,7 +241,7 @@ The recurring failures have distinct repairs. A chapter copied as a Method retur
 
 ##### E.4.CM:4.8.9 - Consequences
 
-Recoverable source decisions make it possible to localize reconsideration when a premise changes. The burden is additional initial reading and maintenance of the dependencies needed for return. The H/L/W case demonstrates the intended connection and its stops; it does not establish effectiveness in recurring production practice. Use a simpler account when maintaining the language does not repay its burden.
+Recoverable source decisions make it possible to localize reconsideration when a premise changes. The burden is additional initial reading and maintenance of the dependencies needed for return. Use a simpler account when maintaining the language does not repay its burden.
 
 
 ##### E.4.CM:4.8.10 - Architectural Rationale

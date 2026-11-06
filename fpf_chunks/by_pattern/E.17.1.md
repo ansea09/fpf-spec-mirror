@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.17.1.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.17.1 — Viewpoint Bundle Library - Reusable Viewpoint Reference Bundles"
-line_start: 106726
-line_end: 107162
+line_start: 106625
+line_end: 107061
 dependencies:
   - "A.16.0"
   - "A.22"
@@ -134,7 +134,7 @@ An eligible replacement for `R_L` must also resolve the actual catalogue designa
 - the exact `U.ViewpointRef` members and target-kind compatibility claim for each declaration; and
 - only maintenance claims currently needed, using the branch that matches the present claim:
   - for a current maintenance-System claim, cite the admitted maintenance `U.System`; cite an exact local system-role kind and its independently evaluated classification only when that classification is current;
-  - for actual maintenance Work, recover the exact actual performer through A.13 and let A.15.1 independently admit the dated `U.Work`; add F.6 only when the catalogue claim or receiving use expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment. F.6 identifies neither assignment nor performer, missing or failed F.6 leaves the Work intact, and a short catalogue claim may omit identifiers its bounded use does not need;
+  - for actual maintenance Work, recover the exact actual performer through A.13 and let A.15.1 independently admit the dated `U.Work`; add F.6 only when the catalogue claim or receiving use expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment. F.6 identifies neither assignment nor performer, missing or failed F.6 alone leaves independently admitted Work intact, and a short catalogue claim may omit identifiers its bounded use does not need;
   - for current maintenance responsibility, cite its direct admitted predicate and actual participants or return the exact missing governor; assignment establishes no responsibility; and
   - for prospective maintenance guidance, retain only the change-control note, intended maintenance condition or `U.WorkPlan`, and scope tag; this content asserts no performed Work, current assignment, or responsibility.
 
@@ -222,7 +222,7 @@ After a recurring family-level use is established, the pattern biases FPF toward
 - `CC-VBL-4` Every candidate E is independently identified and gains `U.View` membership only through obtaining E/P conformance—not through construction, selection, bundling, naming, form, carrier, rendering, or publication.
 - `CC-VBL-5` A family designator is not used as an id kind, publication-face/form kind, carrier kind, viewpoint reference, or substitute for an exact member.
 - `CC-VBL-6` Changes to member references, targets, family meaning, or compatibility constraints create another catalogue edition carrying the revised or new family declaration; publication or annex-only change does not reidentify unchanged P.
-- `CC-VBL-7` Multi-bundle imports preserve exact catalogue provenance and collisions only. Same-scheme comparison names its exact predicate and participants and applies the pattern that defines that predicate. Cross-context comparison resolves exact F.17 cells, obtaining F.9 Bridge, separate `<u,d,r,t>` claim, and required A.10 or B.3 reliance; otherwise it stops at lexical or structural contrast.
+- `CC-VBL-7` Multi-bundle imports preserve exact catalogue provenance. A comparison identifies its predicate, participants, scope and operative interpretation and applies the subject method. A genuine cross-local-sense use additionally retains the F.17 endpoints, obtaining F.9 Bridge and separate `<u,d,r,t>` claim; affirmative reliance needs the same-use A.10 provenance and the applicable ordinary-reliance or named-assurance result under F.9:4.2. Keep only the conclusion supported by these grounds.
 - `CC-VBL-8` E.24.PUB expression, bearing, publication, recurrence, rendering work, and mathematical representation under C.29 remain distinct, grant no viewpoint or view membership, and make no represented world-side relation obtain.
 - `CC-VBL-9` A bundle intended for non-expert reuse should provide references that resolve under their applicable schemes to exact archetypal-grounding examples or sections for its member viewpoints; grounding aids recognition but grants no membership.
 
@@ -338,9 +338,9 @@ Many real description families need more than one bundle, for example:
 
 Preserve the exact provenance of every imported `U.ViewpointRef` and resolved P as `<editionDesignator(L), familyDesignator, member reference>`. That tuple answers where a member came from. It establishes no semantic sameness, difference, correspondence, translation, substitution, or admissible comparison by itself.
 
-If the compared meanings are interpreted under one exact effective reference scheme, identify the exact P editions or claim subgraphs being compared, state the exact comparison predicate, polarity, scope, and participants, and apply the pattern that defines that predicate. If no direct semantic predicate is current, report only the observable lexical or structural contrast—members, omissions, order, target criteria, or claim-shape differences—and do not call it correspondence.
+Identify the exact P editions or claim subgraphs being compared, the comparison predicate, polarity, scope and participants. Recover how each source interprets the values used by that predicate, then apply its subject method. Different schemes may require a representation or quantity conversion without requiring a semantic Bridge. If the material supports only a lexical or structural contrast—such as members, omissions, order, target criteria or claim-shape differences—state that limited result.
 
-If the comparison crosses effective schemes or semantic contexts, first resolve the two exact F.17 `SchemeSenseCell` endpoints. Use F.9 only when its direct Bridge predicate is actually satisfied. Then state the proposed comparison or reuse separately as one bounded C.2.1 use claim about that exact Bridge with `<u,d,r,t>` and polarity, and recover the exact A.10 reliance disposition or the B.3 assurance branch when an actual named assurance claim for that bounded use is current. Without the exact cells, obtaining Bridge, bounded-use claim, and required reliance path, stop at lexical or structural contrast. Catalogue provenance remains useful in every branch, but never substitutes for any of them.
+When the comparison or proposed reuse depends on a semantic relation between distinct local senses, resolve their exact F.17 `SchemeSenseCell` endpoints and establish the F.9 Bridge. State the proposed use separately as one bounded C.2.1 claim about that Bridge with `<u,d,r,t>` and polarity. For reliance on an affirmative claim, retain the same-use A.10 provenance. Ordinary reliance requires `RelianceDisposition=pass`; when an actual named assurance claim is current, require its B.3 result with `disposition=supported-for-use` for that bounded use. If a required meaning, correspondence or reliance ground is missing, withhold the dependent conclusion and retain the supported contrast or exact inquiry. Catalogue provenance identifies the sources in every branch.
 
 #### E.17.1:14.4 - Engineering vs publication families
 
@@ -389,7 +389,7 @@ Bundle authors should ask:
 - what local didactic publications or examples belong in annexes instead of the bundle core,
 - and whether the bundle is stable enough to deserve a reusable family designator.
 
-A good bundle is not maximal. It is coherent, reviewable, and reusable.
+
 
 #### E.17.1:16.2 - For reviewers
 
@@ -408,7 +408,7 @@ Integrators should keep libraries small, curated, and editioned. Publish only th
 - one explicit local extension only when local membership or meaning changes,
 - and one clear subset declaration only when the current use imports a subset.
 
-Do not create all three by default. Library sprawl destroys the cognitive advantage that reusable bundles are supposed to provide.
+Do not create all three by default.
 
 ### E.17.1:17 - Edition and Migration Notes
 
@@ -451,9 +451,9 @@ A description family may project only a subset of a reusable bundle. This is adm
 
 #### E.17.1:19.2 - Comparative bundle use
 
-First decide whether the comparison stays inside one exact effective reference scheme. In that branch, name the exact members or claim subgraphs, comparison predicate, polarity, scope, and participants, then apply the pattern that defines the predicate; provenance merely identifies their catalogue origins. If only names, member sets, omissions, or structures can be compared, state that bounded lexical or structural contrast and stop.
+Name the exact members or claim subgraphs, comparison predicate, polarity, scope and participants; recover their operative interpretation and apply the subject method as in :14.3. If only names, member sets, omissions or structures can be compared, state that bounded contrast and stop.
 
-When local senses cross schemes or semantic contexts, resolve the exact F.17 cells and apply F.9. Claim a semantic correspondence only when the exact Bridge obtains. A proposed comparison, translation, or reuse also needs its own bounded-use claim naming the proposed use, direction, correspondence rule, tolerated loss, and polarity, plus a current A.10 reliance disposition or the B.3 assurance branch when an actual named assurance claim for that bounded use is current. Similar family labels, matching designators, matching member counts, or provenance tuples establish none of those results. Use F.9.1 only to add a separate stance episteme whose EntityOfConcern is that bounded-use claim; it neither annotates nor reidentifies the Bridge and cannot widen the claim.
+When the comparison needs a semantic relation between distinct local senses, use their exact F.17 cells and the obtaining F.9 Bridge. A proposed comparison, translation or reuse needs its separate bounded-use claim with direction, correspondence rule, tolerated loss and polarity. For reliance on an affirmative claim, retain the same-use A.10 provenance and the applicable ordinary-reliance or named-assurance result under F.9:4.2. Use F.9.1 only when a separate stance episteme about that bounded-use claim is needed. Retain an unresolved required basis as the limit on the dependent use.
 
 #### E.17.1:19.3 - Boundary to publication-face design
 A publication face may render one composite presentation of several viewpoints, but the face is not the bundle. `E.17.1` therefore requires the underlying member structure to remain recoverable even when a public-facing document flattens it for readability.
@@ -465,7 +465,7 @@ A reviewer can test a viewpoint bundle library with five questions:
 1. **Do the member viewpoints still have explicit standalone meaning?**
 2. **Does the local declaration and its family designator describe one coherent recurring family rather than one convenience list?**
 3. **If a subset is imported, is the omitted remainder still visible as omission rather than silent deletion?**
-4. **If several bundles interact, is exact provenance preserved without being called correspondence, and does any actual comparison follow the correct same-scheme or F.9 cross-context branch?**
+4. **If several bundles interact, is exact provenance preserved, and does each comparison use its subject method with F.9 added only for an actual semantic relation between distinct local senses?**
 5. **Has a publication face started impersonating the library itself?**
 
 Prefer small, provenance-preserving declarations inside exact editioned catalogues over lexical mega-families that are easy to name but hard to reuse truthfully.

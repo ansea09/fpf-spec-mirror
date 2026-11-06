@@ -6,12 +6,12 @@ section_id: "E.24.CD:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.CD/E.24.CD__002_use-this-when.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.24.CD — Ontic Candidate Detection and First-Use Disposition"
   - "E.24.CD:0 — Use This When"
-line_start: 116713
-line_end: 116741
+line_start: 116603
+line_end: 116631
 dependencies:
   - "A.1"
   - "A.14"
@@ -20,6 +20,7 @@ dependencies:
   - "A.19.ECS"
   - "A.3.4"
   - "A.6.0"
+  - "A.6.3.RT"
   - "A.6.5"
   - "A.6.F"
   - "A.6.P"
@@ -76,7 +77,7 @@ Typical moments:
 
 - If one existing subject pattern already states the needed claim, use it directly.
 - If a local kind, criterion, candidate judgment, or extension is already the question, use `C.3`, `C.3.1`, and `C.3.2`.
-- If the current question is a description episteme, use `C.2.1` for its identity and the subject-specific description pattern when one applies. For view membership, publication form or occurrence, representation, or carrier, use `E.17.0`, `E.24.PUB`, or `C.29`.
+- If the question concerns a description episteme, use `C.2.1` for its identity and the subject-specific description pattern. Use `E.17.0` for view membership and `E.24.PUB` for publication form, occurrence and carrier. Representation correspondence stays with its applicable subject or representation rule; use `A.6.3.RT` for a representation-scheme transition and `C.29` for an unresolved mathematical representation, transfer or reliance question.
 - If the subject and governing claim are clear and only the wording hides them, use `F.19` for wording repair and `E.10` for any unresolved meaning.
 - If a durable ontic has already been selected, use `E.24`; if a durable public `U.*` kind is separately at issue, use `E.24.UK`.
 - If the work is comparing architecture alternatives, construct the evaluation through `A.19.ECS`.

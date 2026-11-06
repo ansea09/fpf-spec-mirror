@@ -6,12 +6,12 @@ section_id: "E.18.1:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__013_relations.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.18.1 — P2W Problem-to-Work Carry-Through"
   - "E.18.1:12 — Relations"
-line_start: 111511
-line_end: 111540
+line_start: 111419
+line_end: 111448
 dependencies:
   - "A.15"
   - "A.15.PROD"
@@ -55,7 +55,7 @@ keywords:
 ### E.18.1:12 - Relations
 - Apply `A.22.CGUS` when P2W identifies one A.22 structure whose local loci, selected relations, applied constraints, and at least two potential continuations are recoverable. Judge enabled, disabled, unknown, and error outcomes for the present case separately from structure identity and membership.
 - `E.18.3` qualifies that exact A.22-selected CGUS through positions, bindings, and already-obtaining occurrences from one independently identified E.18 substrate. E.18 defines the one-TFS and parent-relative internal-`SubflowRef` interfaces; E.18.NET defines independently identified network members and exact obtaining cross-member relations. P2W cites those exact values, adds no subset, reciprocal record, or hybrid structure schema, and neither reidentifies nor routes them.
-- Before hardening a source-derived DPF seed, recover the needed source contribution and its limits through the sufficient source route in `E.4.DPF:4`. Use `G.2` when that requires a broad, refreshable CG-Frame pack across competing traditions. Add `A.10` for claim-bound source or provenance, `G.6` for addressable path citation or shared provenance representation, `B.3` for assurance of a named reliance use, and `G.11` for currentness and refresh only when that stronger use is current.
+- Before hardening a source-derived DPF seed, recover the needed source contribution and its limits through the sufficient source route in `E.4.DPF:4`. Use `G.2` when that requires a broad, refreshable CG-Frame pack across competing traditions. Add `A.10` when the source-to-use account is implicit or must remain replayable, `G.6` for addressable path citation or shared provenance representation, `B.3` for assurance of a named reliance use, and `G.11` for currentness and refresh only when that stronger use is current.
 - `E.4.DPF` guides DPF authoring; `E.4.CM` develops the connected Methods and their explanation from the field's working questions before they are assigned to patterns. When the framework-architecture question is live, `E.9` records the selected answer and `E.4.PFAD` profiles its framework-specific content; `E.4.PFR` handles an optional framework-relation record only when a named maintenance use needs one.
 - `E.23` defines and tests repeated quality improvement only after the object version and evaluation are recoverable; P2W may carry a seed to that point but does not become the improvement method.
 - `G.11` defines and tests currentness, admitted-source decay, source-use relation change, edition change, and refresh when a changed source publication, source-use relation, or telemetry reopens the actually dependent P2W applications and their consuming continuations.
@@ -74,7 +74,7 @@ keywords:
 | Transformation; temporal aspect; temporal-claim adequacy; dynamics | Actual bounded transformation -> `A.3.4`; temporal aspect -> `C.27.TA`; adequacy of a temporal claim for use -> `C.27`; dynamics episteme -> `A.3.3`. |
 | Archive or front; retained exploration value; live pool; selector; parity; selected-set declaration; publication | Archive or front -> `C.18`; still-live pool -> `C.19`; selector -> `A.19.SelectorMechanism`; parity -> `G.9`; selected-set declaration -> `G.5`; source-backed publication face -> `E.17`; publication occurrence, form, carrier, audience, bounded use, and availability -> `E.24.PUB`. A pool, selected set, and publication are different results. |
 | Alignment; dated Work; planning; planned filling; appearance-based reliance; work-entry readiness; work-to-change; production; unresolved result wording | Alignment -> `A.15`; Work -> `A.15.1`; planning -> `A.15.2`; planned filling -> `A.15.3`; reliance repair -> `A.15.4`; readiness -> `A.15.5`; work-to-change -> its named subject predicate or the applicable `A.6.RCD` route; production -> `A.15.PROD`; unresolved result, input, or handoff wording -> `A.6.P.WMR`. P2W cites the returned claim or blocker rather than repeating its proof. |
-| Generator autonomy; evidence; assurance; provenance | Generator autonomy -> `E.16`; evidence -> `A.10`; assurance for a named reliance -> `B.3`; provenance -> `G.6`. An autonomy declaration supplies none of evidence, assurance, permission, or performed Work. |
+| Generator autonomy; evidence; assurance; provenance | Generator autonomy -> `E.16`; evidence -> the applicable subject-support grounds and `A.2.4`; implicit or required-replayable source-to-use account -> `A.10`; assurance for a named reliance -> `B.3`; a needed citable or shared provenance path -> `G.6`. An autonomy declaration supplies none of evidence, assurance, permission, or performed Work. |
 | Acceptance record, label, or claimed acceptance | Name the exact acceptance question and apply the pattern that defines or tests its predicate. Carry its result or blocker. A record or label does not establish acceptance, and `C.25` defines no universal acceptance predicate. |
 | Step constraint validity; subject or regulatory conformance; FPF pattern-quality review or admission | E.18 step validity -> `A.20`; other conformance -> the pattern or regulation that defines its test; FPF pattern-quality review -> `E.21`; admission, refresh, or return after that review -> `E.19`. None supplies universal conformance. |
 | Gate decision; permission; release; work-entry readiness; local choice; commitment | Gate decision -> `A.21`; permission, exercise, or conflict -> `A.2.8.PER`; grant or revocation act -> `A.2.9`; obligation or prohibition -> `A.2.8`; release Work -> `A.15.1`; subject-release relation -> the pattern for its named predicate; readiness -> `A.15.5`; local choice -> `C.11`. Ask these separately. |

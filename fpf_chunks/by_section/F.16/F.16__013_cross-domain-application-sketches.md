@@ -6,12 +6,12 @@ section_id: "F.16:12"
 section_title: "Cross-domain application sketches"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.16/F.16__013_cross-domain-application-sketches.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "F.16 — Worked-Example Template (Cross-Domain)"
   - "F.16:12 — Cross-domain application sketches"
-line_start: 124137
-line_end: 124158
+line_start: 124034
+line_end: 124055
 dependencies:
   - "A.10"
   - "A.15"
@@ -70,5 +70,5 @@ Recover the local system-role kind under A.2 with C.3 and the exact assignment u
 
 **Situation and claim.** A build MethodDescription contains a target duration; dated build Work occurs; observations report actual duration; a service promise is evaluated for a calendar week.
 
-Use A.3.2 for MethodDescription membership, A.15 and B.1.5 for delivery and evaluation Work and any Method enactment, C.16 for observations and measured values, A.2.3 and F.12 for promise evaluation, A.6.1 for the exact evaluation application and result binding, A.10 for a descriptive account of independently established evidence relations and bounded reliance, and B.3 only for an actual named assurance claim. Cite the MethodDescription edition only if it changes the result or replay, and state separately whether the Work used it. A comparison table may show promised and observed values, but it establishes neither Work, result, status, nor a verdict episteme.
+Use A.3.2 for MethodDescription membership, A.15 and B.1.5 for delivery Work and any claimed evaluation Work or Method enactment, C.16 for observations and measured values, and A.2.3 with F.12 for promise evaluation. Use A.6.1 when the exact evaluation application and result binding are current; use A.10 for a descriptive account of independently established evidence relations and bounded reliance, and B.3 only for an actual named assurance claim. Cite the MethodDescription edition only if it changes the result or replay, and state separately whether the Work used it. A comparison table may show promised and observed values, but it establishes neither Work, result, status, nor a verdict episteme.
 

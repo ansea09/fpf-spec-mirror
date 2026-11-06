@@ -6,12 +6,12 @@ section_id: "E.16:4"
 section_title: "Solution — Rule‑of‑Constraints (RoC) for Autonomy"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.16/E.16__005_solution-rule-of-constraints-roc-for-autonomy.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.16 — RoC‑Autonomy Budget & Enforcement"
   - "E.16:4 — Solution — Rule‑of‑Constraints (RoC) for Autonomy"
-line_start: 105968
-line_end: 106094
+line_start: 105884
+line_end: 106012
 dependencies:
   - "A.10"
   - "A.13"
@@ -133,7 +133,7 @@ AutonomyLedgerEntry {
   guardVerdicts: { checkApplicationId -> GateCheckApplicationResult ref } // A.21; refs may be supplied by the cited GateDecisionResult
   overrideAuthorityRelationOccurrenceRef?             // required for overrideWork
   separationOfDutiesCheckResultRef?                    // required for overrideWork
-  pathIds: { PathId, PathSliceId }                     // for G-suite parity/refresh
+  pathIds?: { PathId[], PathSliceId? }                 // when the receiving parity, audit or refresh use needs these references
 }
 ```
 
@@ -152,11 +152,13 @@ The declaration names the exact A.2.7 incompatibility species and its predicate.
 Check authority for the proposed override independently. Once the override is actually performed and admitted under A.15.1, record its `overrideWork` ledger entry and policy-specified zero, negative or other budget delta. Match that performance to prior permission by the policy's exact action rule. The proposal and its pass result remain distinct from that performed SpeechAct Work.
 
 **E.16-S5 (Depletion behavior).**
-When a budget depletes - no tokens remain, an envelope is exceeded, or a cap is breached:
+When a budget depletes — no tokens remain, an envelope is exceeded, or a cap is breached:
 
-* block further autonomy-gated steps in the same accounting window;
+* block ordinary autonomy-gated continuation in the same accounting window;
 * emit a **DepletionNotice** SpeechAct and either **Escalate** or **Park** as the policy says; and
-* reopen the gate only after an admitted System performs **ResumeAutonomy** under its exact override-authority assignment, the A.2.7 predicate check over both actual assignments passes, the independent authority relation is current, and the ordinary guards pass.
+* resume ordinary continuation only after an admitted System performs **ResumeAutonomy** under its exact override-authority assignment, the A.2.7 predicate check over both actual assignments passes, the independent authority relation is current, and the ordinary guards pass.
+
+If the applicable policy permits an exception, recover its exact condition, the particular bounded action it permits, the current authority and every remaining guard. Apply S2 to that action and retain the policy’s accounting and recheck conditions. For example, a service policy may permit a qualified security fix while its exhausted error budget still blocks ordinary feature releases. Missing exception authority or a failed remaining safety condition leaves that action blocked. Permission for the exception does not resume ordinary continuation.
 
 **E.16‑S6 (Publication in UTS).**
 A UTS row that carries an autonomy claim about Work described through a local system-role kind, **Method**, **Service**, or **Selector** **MUST** include:

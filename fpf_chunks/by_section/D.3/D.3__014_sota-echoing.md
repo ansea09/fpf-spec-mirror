@@ -6,12 +6,12 @@ section_id: "D.3:10"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.3/D.3__014_sota-echoing.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "D.3 — Describe an Ethical Conflict Across Levels or Scopes"
   - "D.3:10 — SoTA-Echoing"
-line_start: 92034
-line_end: 92044
+line_start: 92026
+line_end: 92036
 dependencies:
   - "A.1"
   - "A.10"
@@ -38,7 +38,7 @@ keywords:
 
 ### D.3:10 - SoTA-Echoing
 
-`SoTA` here means the best current contribution to the practical question of making value conflict inspectable before deciding it. The comparison is current to 2026-08-20; publication date, popularity, and official status are not sufficient by themselves.
+The comparison below selects contributions from the named sources and editions for making value conflict inspectable before deciding it. Their use and limits are stated for that question.
 
 | Practice question | Exact source and status | Selected contribution and limit | Decision, receiving locus, and reopen |
 | --- | --- | --- | --- |

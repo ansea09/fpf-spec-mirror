@@ -6,12 +6,12 @@ section_id: "E.23.CAE:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23.CAE/E.23.CAE__002_problem-frame.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.23.CAE — Capability Access and Expression Differential Probe"
   - "E.23.CAE:1 — Problem frame"
-line_start: 115732
-line_end: 115763
+line_start: 115623
+line_end: 115654
 dependencies:
   - "A.15.7"
   - "A.15.8"
@@ -39,7 +39,7 @@ keywords:
 
 **First useful move.** State the case in ordinary language:
 
-> This holder has a qualified capability claim or prior result for this Work family under these conditions. The present demand is not met. Before choosing more development, recover a safe qualified reference condition, vary the smallest decision-bearing condition without further development, and record which observable distinction changes first. If that reference cannot be obtained, return the missing basis or an unresolved disposition.
+> This holder has a qualified capability claim or prior result for this Work family under these conditions. The present demand is not met. Before choosing more development, compare available observations under a qualified reference and the present demand. Reuse them when the holder, relevant conditions, update state and evidence requirements match the receiving question. Obtain only the missing safe contrast, without further development, and state which observable distinction changes first. If that reference cannot be obtained, return the missing basis or an unresolved disposition.
 
 **First useful result.** Return the controlled observations, one or more qualified differential dispositions, the strongest surviving rival (if any), the limits of the result, and candidate routes to the patterns or domain Methods that could receive it. The result is not a choice, authorization, selected next Work, or performed Work; it does not establish hidden memory or a causal mechanism.
 
@@ -54,5 +54,5 @@ keywords:
 - Use `E.23.CDI` when capability development has already been selected and the live question is the intervention and representative transfer check.
 - Use `A.15.7` when ongoing Work merely needs one next action; use `C.11` only when a current chooser and `OptionSet` already exist and comparison can change the choice.
 - Use the direct domain Method when a human memory mechanism, organization routine, continual-learning algorithm, robotic controller, medical condition, safety rule, threshold, or intervention is the live subject.
-- Do not use one successful occurrence to infer a capability, and do not run a risky live probe when replay, simulation, staged testing, or another protected evidence route is required.
+- Infer capability only within the scope and conditions warranted by the occurrence and its supporting evidence. Use replay, simulation, staged testing or another protected evidence route when a live probe would be unsafe.
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.8.ML.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.8.ML — Construct a Pattern Language for Connected Methods"
-line_start: 97784
-line_end: 97949
+line_start: 97729
+line_end: 97894
 dependencies:
   - "A.3.2.DE"
   - "B.1.5"
@@ -78,7 +78,7 @@ A MethodDescription has one admitted Method as its exact subject. A source-groun
 
 A profile account concerns the selected pattern/Method arrangement for its declared uses. It can include several MethodDescriptions and neighboring results. [E.4.CM:4.8](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#e4cm48---produce-source-grounded-method-knowledge-in-pattern-language-form) develops the source-grounded production construction as a specialization of the existing framework-contribution Method, with C.39 governing general Method development outside publication. Its account remains distinct from independent situated-use and general profile-relation claims. Sharing a carrier does not merge those epistemes.
 
-Method parthood is another claim. Independently identify the proposed whole and smaller Methods, then use B.1.5 for their whole-forming relations, joins, bounds and failure conditions. In the absence of that result, a useful action/result architecture remains prospective. Do not make the pattern inventory stand in for the missing composition.
+Method parthood is another claim. Independently identify the proposed whole and smaller Methods, then use B.1.5 for their whole-forming relations, joins, bounds and failure conditions. In the absence of that result, the proposed Method composition remains unestablished. Do not make the pattern inventory stand in for the missing composition.
 
 #### E.8.ML:4.3 - Make each relation say something useful
 

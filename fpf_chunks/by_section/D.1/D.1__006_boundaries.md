@@ -6,7 +6,7 @@ section_id: "D.1:3"
 section_title: "Boundaries"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.1/D.1__006_boundaries.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "D.1 — Clarify an Ethical Claim's Value Basis (Value Plurality)"
   - "D.1:3 — Boundaries"
@@ -43,7 +43,7 @@ keywords:
 | How should a mapped ethical conflict be mediated, refused, escalated, or used in a decision? | `D.4` |
 | Is a model, metric, policy, publication, or release-bearing claim biased, unfair, or ethically unsafe? | `D.5` |
 | Does the causal fairness claim have the required C.28 evidence value and verdict? | `C.28`, with `D.5` for ethical-audit use |
-| Is the ethical claim supported, and can that support be relied on for this use? | The applicable subject and evidence patterns for support; `A.10` for bounded reliance on the result |
+| Is the ethical claim supported, and can that support be relied on for this use? | Use the applicable subject and evidence patterns and an adequate existing basis; apply `A.10` when the source-to-use relation is implicit or must be made replayable for the receiving use. |
 | Is an assurance claim being made? | `B.3` |
 | Is an architecture residual current? | `C.30.ILC` |
 

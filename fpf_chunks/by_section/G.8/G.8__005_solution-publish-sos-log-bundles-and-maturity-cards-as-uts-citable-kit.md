@@ -6,12 +6,12 @@ section_id: "G.8:4"
 section_title: "Solution — Publish SoS‑LOG bundles and maturity cards as UTS‑citable kit"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.8/G.8__005_solution-publish-sos-log-bundles-and-maturity-cards-as-uts-citable-kit.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "G.8 — Package Method-Family Admissibility Rules and Maturity Ladders (SoS-LOG)"
   - "G.8:4 — Solution — Publish SoS‑LOG bundles and maturity cards as UTS‑citable kit"
-line_start: 130776
-line_end: 130973
+line_start: 130686
+line_end: 130883
 dependencies:
   - "A.10"
   - "A.21"
@@ -206,16 +206,16 @@ SoS-LOGBundle@Context :=
 * **B1 — Evidence wiring.** At packaging time the bundle SHOULD provide resolvable evidence refs (typically `A10EvidenceGraphRef?[]` and/or `EvidenceGraphId?`). At run time, admissibility outcomes SHOULD cite `PathId/PathSliceId` when available (`G.6`), so rung transitions and `degrade/abstain` traces are audit‑stable.
 * **B2 — CL/plane routing pins.** When reuse depends on a sense, kind or plane correspondence, the bundle/ledger MUST cite its obtaining relation and receiving-use grounds under G.Core:4.2.3. An F.9 use keeps its separate bounded-use claim and reliance basis through `G.8:Ext.BridgeReuseWiring`; kind and plane uses retain their direct governing conditions. The bundle/ledger MUST pin the Bridge/CL/Φ/Ψ/Φ_plane references actually required by that use (reference-only; policy ids resolvable per `F.8:8.1`). CL and loss-policy pins are mandatory only when required by the actual calibration or separate named assurance account. Any numerical assurance penalty MUST satisfy `CC‑GCORE‑PEN‑1`, including its model applicability and declared-result conditions.
 * **B3 — Retention policy and QD fields.** Record `PortfolioMode` and dominance inputs under CC-G8-5 and their G.5 definitions. When the bundle or ledger actually binds a QD or QD-using generator branch, pin the descriptor, distance, insertion and emitter definitions required for that use under CC-G8-6. `PortfolioMode=Archive` alone preserves evidence and requires no QD definitions. Any illumination telemetry remains report-only unless a `G.4` governing-pattern policy authorises its dominance contribution and that policy id is recorded in the run-time trace.
-* **B4 — Open‑ended fields.** If the bundle binds an open‑ended generator family, it MUST pin `GeneratorFamilyRowRef` and `TransferRulesRef.edition` (and any validity region/coupler policy ids when used). Unknown transfer validity MUST be recorded as `degrade`/branching, not as an ad‑hoc fourth status.
+* **B4 — Open-ended fields.** If the bundle binds an open-ended generator family, pin `GeneratorFamilyRowRef`, `TransferRulesRef.edition` and any validity-region/coupler policy ids used. For unknown transfer validity, apply C.23 R0/R2/R3/R7: use a declared `degrade` branch only after its prerequisites pass and its narrower use is permitted; otherwise return `abstain`. Retain the unknown condition and branch basis.
 * **B5 — Telemetry hooks.** On any material telemetry event (illumination increase, archive insertion, probe accounting update, open‑ended coverage/regret proxy update), the emitted telemetry pins SHOULD include the controlling policy ids plus the relevant edition pins (e.g., `DescriptorMapRef.edition`, `DistanceDefRef.edition`, `TransferRulesRef.edition`) and, when available, `PathSliceId` to keep RSCR planning auditable.
 
 #### G.8:4.4 - `AdmissibilityLedger@Context` (run‑time view; selector‑facing)
 
-A conforming ledger is a UTS‑published view (or a view‑projection of a Work/Audit artefact) with rows of the form:
+A conforming ledger is a UTS-published view (or a view-projection of a Work/Audit artefact) of the branch actually reached. Its row positions are:
 
-`⟨ MethodFamilyRowRef, TaskSignatureRef, SoSLogRuleId, RuleEdition, EvidenceProfileRef, ClaimScope, QualificationWindow, IntendedAdmissionUse, EligibilityVerdict, CGSpecVerdict, AcceptanceVerdictRefs?, PolicyEditionRefs[], GuardDecision ∈ {pass|degrade|abstain}, DegradeMode?/SoSLogBranchId[]?, MaturityRungId?, AcceptanceClauseId[]?, EvidencePathRefs?, CrossingPins?, PortfolioMode?, DominanceRegime?, Edition ⟩`
+`⟨ MethodFamilyRowRef, TaskSignatureRef, SoSLogRuleId, RuleEdition, EvidenceProfileRef?, ClaimScope?, QualificationWindow?, IntendedAdmissionUse, EligibilityVerdict?, CGSpecVerdict?, AcceptanceVerdictRefs?, PolicyEditionRefs[], GuardDecision ∈ {pass|degrade|abstain}, DegradeMode?/SoSLogBranchId[]?, MaturityRungId?, AcceptanceClauseId[]?, EvidencePathRefs?, CrossingPins?, PortfolioMode?, DominanceRegime?, Edition ⟩`
 
-The bundle, maturity card, and ledger bind one exact G.5 `MethodFamilyRowRef = <MethodFamilyId, rowEdition>`; an open-ended generator use also binds `GeneratorFamilyRowRef = <GeneratorFamilyId, rowEdition>`. Their own publication `Edition` does not replace either registry-row edition. Preserve the rule edition and the C.23 admission basis: evidence profile, claim scope, qualification window, intended use, consulted verdicts, and policy editions. An unresolved required reference blocks only the result that depends on it; never resolve an old result against the current row by default.
+The bundle, maturity card and ledger bind one exact G.5 `MethodFamilyRowRef = <MethodFamilyId, rowEdition>`; an open-ended generator use also binds `GeneratorFamilyRowRef = <GeneratorFamilyId, rowEdition>`. Their publication `Edition` does not replace a registry-row edition. Retain every premise established or validly reused for the branch, with its applicable evidence profile, claim scope, qualification window, intended use and policy editions. Follow C.23:4.2.1 when a required reference is unavailable or evaluation stops early: name the missing basis or the judgement not reached, and leave its dependent result unestablished. An applicable earlier result remains a reused result. These report qualifications do not add a guard status or maturity rung; `pass` still requires the complete admission basis, and `degrade` requires the permitted branch and its prerequisites.
 
 Where `EvidencePathRefs` are typically `PathId[]/PathSliceId[]` when `G.6` is in use (or resolvable), and “CrossingPins” retain the actual correspondence and receiving-use grounds under G.Core:4.2.3, including the F.9 bounded-use claim, reliance basis and applicable Bridge/CL/Φ pins when `G.8:Ext.BridgeReuseWiring` is used.
 

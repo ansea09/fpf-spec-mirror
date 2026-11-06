@@ -6,12 +6,12 @@ section_id: "E.10.MOVE:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.MOVE/E.10.MOVE__012_sota-echoing.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.10.MOVE — Move, Readiness and Trajectory Wording Precision Restoration"
   - "E.10.MOVE:11 — SoTA-Echoing"
-line_start: 101609
-line_end: 101629
+line_start: 101529
+line_end: 101549
 dependencies:
   - "A.1.STM"
   - "A.10"
@@ -66,9 +66,9 @@ The comparison separates direct-claim recovery, cue preservation, and imported s
 | Source line | Contribution used here | Limitation and reopen condition |
 | --- | --- | --- |
 | FPF internal basis: `E.10`, `E.10.ARCH`, `A.6.P`, `A.6.RCD`, `A.3.4.P`, `A.19.SPR`, `A.22.CGUS`, `E.11.PUA`, `E.11.PUR`, and `E.23` | Use a trigger word as a cue to inspect the current claim; restore any unresolved governed value and relation before rewriting, preserve ordinary useful wording, and use the direct pattern for the final claim. | These patterns govern internal recovery rather than external empirical rank. Reopen only the affected slice when one changes the relevant kind settlement, authority boundary, or recovery fields. |
-| Current `A.3.3`, `A.3.4`, `B.4`, `C.27.TA`, `C.29`, `C.17`–`C.19`, `C.36`, and `A.16.0`; Schaffter, Bounekkar, and Negre, [“Trajectory-Based Recommender Systems as Control Systems”](https://arxiv.org/abs/2606.22957), arXiv v1, 2026-06-22 | Supply direct internal owners and a domain case that preserves goal, state, model, action, and posture; the comparison informs the trajectory trigger, recovery questions, direct exits, exact-gap result, and no-general-head boundary. | The preprint is exploratory, synthetic, simplified, and specific to trajectory-based recommender systems. Reopen only if a later edition or rival supplies validated cross-domain structure that changes the subject, identity, ordering, posture, direct-owner, or general-head decision. Locator, publication-status, popularity, or unused-example changes alone do not reopen the pattern. Monitor at ordinary refresh intervals; use continuous monitoring only if this claim becomes both high-priority and volatile. |
+| Current `A.3.3`, `A.3.4`, `B.4`, `C.27.TA`, `C.29`, `C.17`–`C.19`, `C.36`, and `A.16.0`; Schaffter, Bounekkar, and Negre, [“Trajectory-Based Recommender Systems as Control Systems”](https://arxiv.org/abs/2606.22957), arXiv v1, 2026-06-22 | Supply direct internal owners and a domain case that preserves goal, state, model, action, and posture; the comparison informs the trajectory trigger, recovery questions, direct exits, exact-gap result, and no-general-head boundary. | The preprint is exploratory, synthetic, simplified, and specific to trajectory-based recommender systems. Reopen only if a later edition or rival supplies validated cross-domain structure that changes the subject, identity, ordering, posture, direct-owner, or general-head decision. |
 | Zhu, Reinecke, and Mitra, [*Language Scent: Exploring Cross-Language Information Navigation*](https://arxiv.org/abs/2604.03604v2), arXiv v2, 2026-08-06 | Analogy for cue preservation: the study concerns query-language selection and proximal cues, with a laboratory study of 16 multilingual speakers. It motivates testing whether a familiar cue helps the current reader; the in-situ wording decision still uses `F.19`. | Cross-language navigation is the study's scope. Reopen the adopted cue hypothesis if broader evidence shows that a cue obscures the governed value or impedes the intended reader use. |
-| Steve Tendon, [*The Book of TameFlow: Theory of Constraints Applied to Knowledge-Work Management*](https://leanpub.com/tameflow), publisher's contents accessed 2026-09-02; historical source context: Tendon, [*Constraints Everywhere*](https://tameflow.com/blog/2020-08-09/constraints-everywhere/), 2020 | The book supplies `MOVE` (Minimal Outcome-Value Effort) and Full-Kitting; the historical article distinguishes forward-looking preparation from current execution. These ground the source-practice distinctions among effort, outcome or value, constraint, and pre-entry preparation. | This line is scoped to knowledge-work management and is not a universal move or readiness ontology. Reopen if the used source meanings or FPF work, readiness, or gate patterns change their result boundaries. |
+| Steve Tendon, [*The Book of TameFlow: Theory of Constraints Applied to Knowledge-Work Management*](https://leanpub.com/tameflow), publisher's contents | The contents identify `MOVE` (Minimal Outcome-Value Effort), Full-Kitting and its relation to execution management. Preserve those source-practice terms while using the direct Work, readiness and gate patterns for the FPF claims. | This bounded source locator does not establish a universal move or readiness ontology. Reopen the affected interpretation if the used source meaning or its direct FPF conditions change. |
 
 The selected line is FPF's direct-claim recovery. The external sources contribute a domain comparison, a cue-preservation hypothesis, and imported practice meanings; the constructed architecture case is in §5.10.
 

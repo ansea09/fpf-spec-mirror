@@ -6,12 +6,12 @@ section_id: "E.18:10"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__013_consequences.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:10 — Consequences"
-line_start: 110869
-line_end: 110883
+line_start: 110777
+line_end: 110791
 dependencies:
   - "A.15.1"
   - "A.15.PROD"
@@ -42,7 +42,7 @@ keywords:
 **Benefits.**
 
 1. **Universality with discipline:** resolved subject relations and explicit gates keep actual participation distinct from work and method order and make cross-domain flows (ML, supply-chain, TAMP and MPC, scientific work structures) uniformly analyzable and auditable.
-2. **Comparability and replayability:** CSLC and edition‑pinned comparators prevent covert scalarization and enable declared set returns and reproducible decisions.
+2. **Comparability and replayability:** an adequate common basis, normalization when required, and edition-pinned comparison rules support declared return semantics and replay without covert scalarization.
 3. **Locality of change:** actual dependency closure identifies all affected PathSlices while leaving independent uses intact; large selected structures remain stable under frequent edition bumps.
 4. **Clean work-entry boundary:** When an exact design-run-tag claim and applicable profile rule are current, a `LaunchGate` may consume the corresponding identified check result. The gate never establishes actual launch values. Those values obtain only through exact direct relations or A.6.1 application bindings involving one later Work occurrence; acceptance claims and telemetry records remain separate epistemes or relations that may designate that occurrence.
 5. **Assurance visibility:** When publication or reuse is current, MVPK can make the exact profile application, gate-decision result, optional audit record, and any sufficient reuse witness locally checkable without making them mandatory for an ordinary local structure use.

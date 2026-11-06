@@ -6,12 +6,12 @@ section_id: "G.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.2/G.2__005_solution.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "G.2 — Harvest and Synthesize SoTA for a CG-Frame"
   - "G.2:4 — Solution"
-line_start: 127829
-line_end: 128138
+line_start: 127733
+line_end: 128046
 dependencies:
   - "A.10"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
@@ -126,7 +126,7 @@ Each named component is addressable via a stable **pack‑local identifier** (e.
 
    * exact source and edition, claim region, effective ReferenceScheme where meaning matters, EntityOfConcern, and comparison basis for the stated use,
    * explicit evidence anchors/citations (A.10 and/or EvidenceGraph refs when available),
-   * explicit freshness window notes and risk/trust cues *(cite `B.3` governing definitions when using trust/decay language)*.
+   * the currentness basis relevant to the claim’s use, including any applicable freshness window and risk/trust cues (cite `B.3` when using trust/decay claims).
 
 3. **`G.2c OperatorAndObjectInventory`**
    Inventory of candidate CHR terms (characteristics/scales/coordinates) and candidate CAL operators/flows *as stubs* for downstream authoring.
@@ -178,7 +178,7 @@ When authoring `ClaimSheets[Tradition]`, teams often benefit from a single‑pag
 
 #### G.2:4.3 - Harvester loop (conceptual choreography; pattern-governed)
 
-A conforming `G.2` pack publication is built by iterating the following conceptual loop until the declared gates are satisfied:
+Apply the following operations to the declared source population. A conforming pack satisfies its declared gates. When the available basis does not satisfy them, return the supported bounded result and the unmet condition; repeat a search or repair only when an attainable contribution justifies it.
 
 1. **Declare scope and plurality.**
    Identify the exact CG-frame (the declared framing episteme), the initial `Tradition` set, each intended claim region and EntityOfConcern, the comparison basis, and the receiving use. Record the cited CG-frame and source editions and evidence anchors in the pack pins rather than hiding them in a generic context field. Before counting, fix the HarvestPolicy's receiving question, counted population, grouping and same-family equivalence, including overlap handling for a combined population.
@@ -205,13 +205,17 @@ A conforming `G.2` pack publication is built by iterating the following conceptu
    If a `G.2` pack publication asserts fusion or substitution across sources or across `Tradition` records (beyond mere “parallel divergent claims”), it **MUST** emit `GammaEpistSynthId` records per `G.2:Ext.GammaEpistSynthesis` (provenance union + explicit object alignment refs + assurance tuple refs), and it **MUST** apply `CC‑GCORE‑PEN‑1` to its loss assessment and any numerical assurance penalty.
 
 7. **Publish teachable micro‑groundings.**
-   Attach worked micro-examples to load-bearing claims, each tied to the exact source and edition, claim region, EntityOfConcern, comparison basis, intended use, and evidence carrier or A.10 evidence-provenance path.
+   Attach worked micro-examples that explain the load-bearing claim and a consequential variation in its conditions. Keep them within the claim’s supported scope. Each retains the source and edition, claim region, EntityOfConcern, comparison basis, intended use and evidence carrier or A.10 evidence-provenance path.
 
 8. **Apply gates and record repairs.**
-   Apply that fixed HarvestPolicy basis and count its distinct units before comparing coverage with `FamilyCoverageFloorK` (and apply any optional diversity-by-distance gate under its own basis). Missing count semantics returns an unassessable result and the exact missing basis, not an instruction to search more. If a defined gate fails, the pack **MUST**:
-   * record the failure and the repair iteration in `FlowRecord` and `CorpusLedger`,
-   * pin the updated `HarvestPolicyRef` / criteria ids (if changed),
-   * iterate the loop rather than silently weakening the gate.
+   Apply the fixed HarvestPolicy basis and count its distinct units before comparing coverage with `FamilyCoverageFloorK` (and apply any optional diversity-by-distance gate under its own basis). Missing count semantics returns an unassessable result and the exact missing basis. If a defined gate fails:
+
+   * record the failed criterion, count and basis in `FlowRecord`, with the relevant corpus entries recoverable;
+   * identify a missing relevant lineage, venue or source region that could change the result, and judge whether the available search or repair is worth undertaking for the receiving use;
+   * if it is, perform that search or repair and recount under the declared policy. Pin any justified policy change and preserve the earlier judgement under its earlier basis;
+   * otherwise return the scoped claims and failed or incomplete pack judgement, its receiving-use limit and any precise remaining inquiry. Preserve the failed gate rather than treating the partial result as a conforming pack.
+
+   For example, an exhausted bounded population containing two method families fails a declared `k=3` method-only gate. A further report about either family does not change that count. A known unexamined source region may justify another search; without one, the count and coverage failure can be the completed bounded answer. Missing population or equivalence rules instead leave the count judgement unassessable.
 
 9. **Emit hand‑off manifests and export views.**
    Produce explicit manifests to:
@@ -263,7 +267,7 @@ A conforming `G.2` pack publication is built by iterating the following conceptu
 
 **PatternScopeId:** `G.2:Ext.HarvestProtocols`
 **GPatternExtensionId:** `HarvestProtocols`
-**GPatternExtensionKind:** `Phase3Seed`
+**GPatternExtensionKind:** `MethodSpecific`
 **GoverningPatternId:** `G.2`
 **Uses:** `{B.3, A.10}` *(for freshness/decay and provenance anchors, when protocol requires them explicitly)*
 **⊑/⊑⁺:** `∅`

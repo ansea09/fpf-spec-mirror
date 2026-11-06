@@ -6,12 +6,12 @@ section_id: "E.17.ID.CR:5"
 section_title: "Archetypal grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.ID.CR/E.17.ID.CR__006_archetypal-grounding.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.17.ID.CR — Compare Sources Within a Shared Review Frame (ComparativeReviewUnit)"
   - "E.17.ID.CR:5 — Archetypal grounding"
-line_start: 108986
-line_end: 109223
+line_start: 108892
+line_end: 109129
 dependencies:
   - "A.15"
   - "A.15.2"
@@ -123,10 +123,10 @@ Why it stays here:
 
 ##### E.17.ID.CR:5.4.5 - Product and design-review comparison case
 
-**Source slice.** Two already available design-review notes describe the same integration boundary for the same planned release.
-One note foregrounds coupling and rollback pressure; the other foregrounds delivery simplicity and lower immediate implementation cost.
+**Source slice.** Two available design-review notes concern the same integration boundary and planned release. The release meeting needs to know what each note establishes about rollback and implementation effort.
+Note A states: `Rollback uses the existing adapter, which must first be modified. No implementation-effort estimate is available.` Note B states: `Implementation uses one interface and is estimated at two engineer-days. Rollback has not been assessed.`
 
-**Comparative review unit.** `For architecture review, the first note foregrounds coupling risk more than the second, while the second foregrounds delivery simplicity and lower immediate implementation cost more than the first; that asymmetry is useful for discussion, but it is not yet a recommendation to choose either option.`
+**Comparative review unit.** `For release review, A describes a rollback path conditional on modifying the adapter, while B leaves rollback unassessed. B supplies a two-engineer-day implementation estimate; A supplies no estimate. These source statements do not establish which option has lower total effort or risk. If the next decision needs that comparison, obtain the missing estimates and rollback assessment on a compatible basis.`
 
 **Working-boundary use.** This is the ordinary stay-here case: the shared review frame, bounded comparative lift, and outside-work boundary are already explicit, so the bounded comparative review move itself stays primary.
 

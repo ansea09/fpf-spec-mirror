@@ -6,12 +6,12 @@ section_id: "E.18.NET:10"
 section_title: "Rationale and naming"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.NET/E.18.NET__011_rationale-and-naming.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.18.NET — Network of Transformation-Flow Structures"
   - "E.18.NET:10 — Rationale and naming"
-line_start: 112632
-line_end: 112651
+line_start: 112539
+line_end: 112542
 dependencies:
   - "A.1.STM"
   - "A.12"
@@ -39,21 +39,5 @@ keywords:
 
 ### E.18.NET:10 - Rationale and naming
 
-The selected head preserves the established `TransformationFlowStructure` name, says that the members are structures rather than valuations, and supports recursive membership at any finite nesting depth. The shorter cue “transformation-flow network” is retrieval wording only after the governed value is clear.
-
-```text
-NameCard:
-  NameCardId: NC-TRANSFORMATION-FLOW-STRUCTURE-NETWORK
-  GovernedValueRef: TransformationFlowStructureNetwork@Context <: U.Structure
-  SubjectPatternLocator: E.18.NET
-  ReferenceScheme: FPFCoreReferenceScheme
-  LocalSenseRef: recursive selected organization over independently identified TransformationFlowStructure or TransformationFlowStructureNetwork values and exact cross-flow relation occurrences, with member boundaries and locally exposed positions preserved
-  TechLabel: TransformationFlowStructureNetwork
-  PlainLabel: network of transformation-flow structures
-  CandidateSet: TransformationFlowStructureNetwork; TransformationFlowNetwork; CrossFlowRelationStructure; TransformationFlowDependencyStructure; CoupledTransformationFlowStructure; FlowOfFlows; CreatorGraph; CreationStructure
-  RejectedCandidates: TransformationFlowNetwork can mean one network-shaped TFS; CrossFlowRelationStructure hides the transformation-flow use; TransformationFlowDependencyStructure narrows to one projection; CoupledTransformationFlowStructure suggests one merged TFS; FlowOfFlows conflicts with FlowValuation; CreatorGraph confuses the ontic structure with a graph and narrows change to creation; CreationStructure excludes operation, repair, modification, and reuse
-  SelectionRationale: preserve the established TransformationFlowStructure head, make structures rather than valuations the members, and permit recursive membership at any finite nesting depth
-  LineageEntries: flow-of-flows and creator-graph examples remain retrieval lineage for the stress cases; fixed two-level and one-giant-flow ontic readings are retired
-  RefreshCondition: reopen if repeated use cannot distinguish one TFS with several valuations, one subflow, and a recursive network of independently identified TFS values
-```
+`TransformationFlowStructureNetwork` names a recursively selected organization over independently identified transformation-flow structures or networks and exact cross-flow relation occurrences, preserving member boundaries and locally exposed positions. Members are structures rather than their valuations, and nesting may have any finite depth. The Plain name is “network of transformation-flow structures.” The shorter cue “transformation-flow network” serves retrieval after that subject is clear.
 

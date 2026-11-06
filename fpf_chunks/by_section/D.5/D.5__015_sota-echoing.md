@@ -6,12 +6,12 @@ section_id: "D.5:10"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.5/D.5__015_sota-echoing.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "D.5 — Bias Audit and Ethical Assurance"
   - "D.5:10 — SoTA-Echoing"
-line_start: 92440
-line_end: 92448
+line_start: 92433
+line_end: 92436
 dependencies:
   - "A.10"
   - "B.3"
@@ -30,10 +30,5 @@ keywords:
 
 ### D.5:10 - SoTA-Echoing
 
-| Source line | Practical implication for this pattern |
-| --- | --- |
-| Fairness and bias audit practice | Representation, proxy, metric, visibility, language, and impact concerns must be tied to intended use, affected groups, source-currentness, and accepted residuals. |
-| Causal fairness and causal inference | Associative, interventional, and counterfactual fairness claims need different evidence values and cannot be interchanged by wording. |
-| Assurance and governance practice | An assurance record can support bounded reliance, but does not grant moral permission under unresolved residual harm or replace D.3 and D.4 when interlevel conflict is exposed. |
-| FPF episteme and publication discipline | Bias registers and reports are descriptions or publication-use objects; they do not make the audited object fair by existing. |
+For deciding what a fairness result supports, **adapt** C.16’s measurement interpretation and C.28:4.6’s claim-specific identification and estimation conditions. Against the aggregate-accuracy inference in :6, :2–4 retain the qualified metric result and obtain the additional causal basis only for a conclusion that needs it. Section :3.1 reuses an adequate audit account and selects further work from the actual reliance, while a missing required basis leaves the stronger conclusion unsupported. B.3 supplies any assurance relation and D.4 its ethical decision use. Reopen the affected basis when the population, intended use, claimed effect, evidence conditions or binding requirement changes.
 

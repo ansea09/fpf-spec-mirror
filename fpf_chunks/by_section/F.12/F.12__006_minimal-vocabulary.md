@@ -6,12 +6,12 @@ section_id: "F.12:5"
 section_title: "Minimal vocabulary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.12/F.12__006_minimal-vocabulary.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "F.12 — Evaluate Promise Fulfilment from Work Evidence (Service Acceptance)"
   - "F.12:5 — Minimal vocabulary"
-line_start: 122681
-line_end: 122695
+line_start: 122576
+line_end: 122590
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -54,8 +54,8 @@ keywords:
 * **Observation** — the actual observation occurrence and its result under C.2 and C.16.
 * **Measured value** — a value for a named characteristic on an explicit scale and unit.
 * **Window** — the time, batch, episode, phase, or other bounded evaluation interval under F.10.
-* **Evaluation Work** — the dated Work in which a System enacts the evaluation Method over the selected facts and states.
-* **Evaluation application and result** — the A.6.1 operation application with exact argument bindings and a result value on the acceptance specification's declared scale.
+* **Evaluation Work** — the dated Work in which a System enacts the evaluation Method over the selected facts and states; identify it when the evaluation account or receiving use consumes that performance history.
+* **Evaluation application and result** — the application of the rule to its selected inputs and the result on the acceptance specification's declared scale. An exact application identity and argument/result binding use A.6.1 when that formal claim is current.
 * **Evaluation rule and result scale** — the stated comparison or aggregation and its declared admissible results. Boolean, trichotomous, graded, `N/A`, and `Inconclusive`-including scales are examples, not defaults.
 * **Status use** — a separate F.10 application of an exact EvidenceStatus or RequirementStatus value to its exact target, scope, window, and use after the direct result is recovered.
 * **Verdict episteme** — an optional C.2.1 episteme that states the evaluation result or status when another use needs a durable assertion; it is not the operation result or the fulfilment relation.

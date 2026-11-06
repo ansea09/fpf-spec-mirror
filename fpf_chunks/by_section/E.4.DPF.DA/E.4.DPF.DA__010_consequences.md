@@ -6,12 +6,12 @@ section_id: "E.4.DPF.DA:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF.DA/E.4.DPF.DA__010_consequences.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.4.DPF.DA — Evaluate a DPF or LPF Package for Its Declared Use (Package-Adequacy CharacteristicSpace)"
   - "E.4.DPF.DA:9 — Consequences"
-line_start: 95702
-line_end: 95707
+line_start: 95689
+line_end: 95694
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -59,7 +59,7 @@ keywords:
 
 ### E.4.DPF.DA:9 - Consequences
 
-The pattern adds one package-level evaluation on top of individual pattern checks. The cost is worthwhile when DPF packages become reusable across domains, enterprises, AI-agent prompt packs, teaching materials, or local practice frameworks.
+Package evaluation examines connections and field coverage that individual pattern checks cannot establish. Its cost includes recovering and assessing the needed evidence; reuse adequate results and scope additional work to the package judgement being sought.
 
 It also prevents a common false choice. A DPF seed can be useful without pretending to be public-ready, and a public-ready package can remain domain-bounded without pretending to be FPF Core. `D12` adds one field-coverage judgement and `PFM12` one incremental publication-form check. Neither starts a second evaluation pass, copies another Method's steps, or charges a `PFM1` observation twice.
 

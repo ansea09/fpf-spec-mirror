@@ -6,12 +6,12 @@ section_id: "D.3:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.3/D.3__002_problem-frame.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "D.3 — Describe an Ethical Conflict Across Levels or Scopes"
   - "D.3:1 — Problem Frame"
-line_start: 91845
-line_end: 91852
+line_start: 91834
+line_end: 91841
 dependencies:
   - "A.1"
   - "A.10"
@@ -40,7 +40,7 @@ keywords:
 
 Ethical conflicts can cross part–whole relations or overlapping scopes. A decision may improve an organization's performance while harming affected people; an episteme may shape decisions that benefit some users and disadvantage others. Declare the relations and scopes present in the case; structural levels do not establish a moral hierarchy.
 
-The practical problem is connecting each claim to what it affects. An inventory of affected entities and values does not explain which claim concerns which entity or why the claims cannot all be satisfied. Describe each side as one connected statement and explain their tension.
+The practical problem is connecting each claim to what it affects. An inventory of affected entities and values does not explain which claim concerns which entity or why those concerns are in tension for the present question. Describe each side as one connected statement and explain their tension.
 
-The reusable result is a description episteme, not the conflict in the situation and not the form used to show it. The phrase *conflict structure* remains useful ordinary shorthand for the connected claim content inside that description. It does not name a new public `U.*` kind or a generic direct relation.
+The reusable result is a description episteme, not the conflict in the situation and not the form used to show it. The phrase *conflict structure* remains useful ordinary shorthand for the connected claim content inside that description.
 

@@ -6,12 +6,12 @@ section_id: "E.19:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__011_consequences.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:9 — Consequences"
-line_start: 113424
-line_end: 113432
+line_start: 113315
+line_end: 113323
 dependencies:
   - "A.15.1"
   - "A.6.P"
@@ -38,6 +38,6 @@ keywords:
 | -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
 | **Repeatable admission decisions** — reviewers share a common review language.     | More explicit editorial work; mitigated by a small baseline and risk-selected profiles.        |
 | **Higher trust in normative content** — CC becomes the enforceable conformance check set. | Authors must align prose and CC carefully; mitigated by coherence checks.                  |
-| **Controlled evolution** — reviewers detect and repair conceptual drift.              | Periodic workload; mitigated by prioritizing high-dependency and high-risk patterns first. |
+| **Controlled evolution** — reviewers detect and repair conceptual drift.              | Maintenance workload; mitigated by prioritizing high-dependency and high-risk patterns first. |
 | **Less hidden drift** — terminology and cross-context reuse become explicit.     | Some drafts will be delayed; mitigated by early profile selection when the relevant risk is already visible.        |
 

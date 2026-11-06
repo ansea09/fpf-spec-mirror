@@ -6,12 +6,12 @@ section_id: "E.14:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__007_solution.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.14 — Human-Centric Working-Model: Readable Claims and Recoverable Assurance"
   - "E.14:4 — Solution"
-line_start: 105399
-line_end: 105448
+line_start: 105318
+line_end: 105367
 dependencies:
   - "B.3.5"
   - "C.13"
@@ -46,7 +46,7 @@ Where episteme-publication-heavy or transform-heavy patterns need a compact onto
 This is a reading-order rule rather than a demand that every reader consume the assurance text first.
 The point is to keep the human-facing Working-Model text primary while preserving a recoverable, auditable assurance text beneath it.
 
-When empirical evaluation is current, keep the same reading order. Put the ordinary subject claim first. Keep an intended evaluation in its `U.WorkPlan`, name the selected `U.Method`, and cite a `U.MethodDescription` only when the plan, execution claim, or interpretation relies on that edition. If evaluation actually occurs, recover every performer's A.13 core and independently admit the dated Work under A.15.1. Add F.6 only when the current assurance use also needs precise assignment-bound attribution; when it does, name every performer, the assignment link checked with F.6, and the Method the Work enacted, use A.2.1 for the assignment itself, and test any local system-role-kind classification separately. The first sentence may omit identifiers or basis details it does not use, provided every consumed fact remains recoverable. The availability of the evaluation plan or support records does not establish that evaluation Work occurred.
+When empirical evaluation is current, put the ordinary subject claim first. Keep a proposed evaluation distinct from completed performance; use `U.WorkPlan` when the receiving question requires coordination of future Work, and retain the actual Method and any relied-on MethodDescription edition. When a claim asserts or relies on a dated evaluation Work, recover its required performer basis under A.13 and independently admit the Work under A.15.1. Add F.6 when precise assignment-bound attribution is consumed, keeping the assignment and any local system-role-kind classification independently grounded. An ordinary result may omit identifiers it does not consume while keeping all facts needed for its use recoverable.
 > **E.14-P.1 – Working-Model first, assurance when current.**
 > Operate one **Working-Model** for all human-facing discussion and state the direct claim first. If neither the publication nor a named current requirement calls for assurance, the author may stop there. When assurance is current, declare only the posture and shoulder or shoulders required by the applicable pattern: **Mapping** to align a term with the chosen model value it names; **Logical** to state label meaning, scope, constraints, and limits; **Constructive** to make independently grounded construction facts inspectable; or **Empirical Validation** to support a bounded reliance on a domain result. Under `B.3.5`, covered claims declare `validationMode`. For each selected shoulder, name only the objects, scope, and qualification window the current use consumes. None creates the model value, subject relation, Work occurrence, or result it supports.
 
@@ -61,13 +61,13 @@ When empirical evaluation is current, keep the same reading order. Put the ordin
 
 > **E.14-P.5 – Required assurance postures are explicit.**
 > A Working-Model relation covered by an elected `B.3.5` profile **declares** `validationMode ∈ {axiomatic, inferential, postulate}`. Another named current assurance requirement may require its own declared posture. A direct relation outside such a profile needs no E.14 assurance field.
-> _axiomatic_ means that the author relies on one linked Constructive account for this assertion; _inferential_ means that the author relies on a reasoned chain; _postulate_ means that the assertion remains a pragmatic working claim within a stated scope. For a postulate, the author should add brief empirical cues that show where the claim tends to hold or what would challenge it. The posture alone establishes no evaluation Work and no result. Empirical Validation may accompany any posture when observation is the right support. Mapping, Logical, Constructive, and Empirical assurance remain separate from the claim's direct ontology and from the currentness of every record involved.
+> _axiomatic_ means that the author relies on the linked construction account required by the elected branch; _inferential_ means that the author relies on a followable reasoned chain. Under `B.3.5`, a permitted _postulate_ is a scoped pragmatic claim linked to an admissible evidence object, with empirical challenge cues. Follow another elected profile's own requirements. Empirical Validation may accompany any permitted posture when observation supplies the needed support; a posture declaration does not itself establish performed evaluation.
 
 > **E.14‑P.6 – Parsimony in the working text.**
 > No new Working‑Model relation types are introduced if the existing Logical label-meaning rules plus Constructive grounding suffice to capture the intended meaning.
 
 > **E.14‑P.7 – A postulate is not completed evaluation.**
-> When *postulate* is chosen, authors **SHALL** state the claim and its scope and **SHOULD** give brief empirical cues — where it tends to hold or what would challenge it — to ease later validation. This posture by itself requires no dated Work, result, A.13 performer core, A.15.1 Work admission, F.6 attribution, provenance path, or assurance claim. If evaluation or measurement actually occurred and the current assurance use relies on its result, authors **SHALL** name the scope and qualification window that use consumes, the domain result and result episteme, and the A.10 descriptive evidence-provenance account of the independently established source and use relations; every performer keeps an A.13 core and the Work is independently admitted under A.15.1. F.6 is added only when the assurance use also consumes precise assignment-bound attribution. When an actual named assurance claim is current, the B.3 assurance claim remains separate and required for that assurance-bearing use. Another named current assurance requirement supplies its own obligations.
+> Under an elected `B.3.5` postulate branch, authors **SHALL** state the claim and scope, link the admissible evidence object, and give the profile's empirical challenge cues. That requirement does not by itself assert a new evaluation Work. When reliance consumes an actual evaluation or measurement result, keep its necessary subject, scope, result and source grounds recoverable. Identify dated Work, performers, Method, bindings, result episteme and qualification window where the claim or applicable profile depends on them. Use A.10 when the source-to-use relationship must be made explicit or replayable, retaining already sufficient direct support; use F.6 for consumed assignment-bound attribution and B.3 for a current assurance claim. Each remains governed by its own conditions.
 
 > **E.14‑P.8 – Working-model-first is not explanation-thin.**
 > Human-facing parsimony does **not** license under-explained pattern prose. When a pattern claims a Working‑Model benefit, it **SHALL** still provide enough problem framing, rationale, and worked slices that readers can tell what the model clarifies, what remains on the assurance shoulders, and when a heavier review path is required.

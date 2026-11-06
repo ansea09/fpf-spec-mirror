@@ -6,12 +6,12 @@ section_id: "E.11.DSG:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.DSG/E.11.DSG__013_relations.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.11.DSG — Architectural Reference"
   - "E.11.DSG:12 — Relations"
-line_start: 105014
-line_end: 105020
+line_start: 104933
+line_end: 104939
 dependencies:
   - "C.2.1"
   - "C.2.P"

@@ -6,12 +6,12 @@ section_id: "E.10:6"
 section_title: "Ontology Guards"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__008_ontology-guards.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:6 — Ontology Guards"
-line_start: 99843
-line_end: 100011
+line_start: 99762
+line_end: 99930
 dependencies:
   - "A.10"
   - "A.15"
@@ -136,20 +136,20 @@ The Onto3 block above is the one bounded distinction and assignment example. The
 > **Note on registers.** A technical designation first names a value admitted under its own subject pattern. A Plain twin then names that same value under §6.2. Tradition or lineage wording follows C.20's exact-subject and relation recovery; the words alone identify neither an episteme about epistemes nor a public kind.
 
 * **Onto‑Deon — Deontic lexicon guard (Core register)**
-**Rule.** In the Conceptual Core, avoid using **“Standard”** as the head noun of an EntityOfConcern name unless the object is an explicit **deontic speech-act** under the **Gov** lens (cf. E.3).
+**Rule.** Recover what **standard** names before choosing a Tech head: a normative document and its compliance use, a measurement reference, or another established subject. A speech act that institutes an obligation is a separate claim under its own pattern.
 
 For interface and boundary invariants concerning things such as holons, interfaces, and ports, name the exact invariant, compatibility condition, compliance profile, acceptance specification, or interoperability profile by value—for example `InterfaceCompatibilityCondition`, `ComplianceProfile`, `AcceptanceSpec`, or `InteropProfile`. State any promise or commitment separately; naming does not make it a property of the thing.
 
-Use the word **standard** for a publication of a Description episteme, possibly admitted for specification use, that is *intended to be complied with* and has explicit compliance checks.
+For a normative document, identify the episteme, the criteria it states and the compliance use that gives them force. A metrological measurement standard can instead be a measuring system, material measure or reference material used to realize a quantity with a stated value and uncertainty ([VIM3:5.1](https://jcgm.bipm.org/vim/en/5.1.html)).
 
-If an EntityOfConcern-side item is currently named `… Standard`, rename it to a proper EntityOfConcern-side name, and (optionally) add a separate publication of the relevant Description episteme under the needed compliance or specification use that contains the standard text and the intended compliance checks.
+Rename a `…Standard` designation only when its head obscures the recovered subject or conflicts with the applicable naming rule. Keep that subject distinct from a description of it, any publication occurrence and any separately established duty.
  **Rewrite hints (Tech → Tech).**
  `publication Standard` → `publication standard`;
  `frame Standard` → `frame standard`;
  `measurement Standard` → `measurement standard`;
  `Method Interface Standard (MIC)` → `Method Interface Standard (MIS)`;
  `Boundary-Inheritance Standard (BIC)` → `Boundary-Inheritance Standard (BIS)`.
- **Rationale.** Keeps Core prose centred on EntitiesOfConcern and their boundary invariants; reserves deontic obligations for governance contexts and **U.PromiseContent**‑like promises. Do **not** misuse “plane”: deontic speech‑acts are analysed via the **Gov** lens, while **ReferencePlane** remains `{world | concept | episteme}`.
+**Rationale.** The same word can name a normative account, a measurement reference or another subject. Recover its actual kind and use before naming it. Analyse deontic acts through the Gov lens; `ReferencePlane` retains `{world | concept | episteme}`.
 
 #### E.10:6.2 - Twin‑Register Discipline (Tech and Plain)
 

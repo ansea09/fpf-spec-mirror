@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.17.0.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.17.0 — Viewpoint and View Recognition for Multi-View Describing"
-line_start: 106183
-line_end: 106725
+line_start: 106101
+line_end: 106624
 dependencies:
   - "A.22"
   - "A.6.3"
@@ -307,7 +307,7 @@ In the structured branch the selected public individual is exact episteme P abou
 - A catalogue or local family-declaration position, catalogue edition, package ID, or publication grouping does not constitute P or grant membership.
 - P requires no parent `U.Signature`, is not a public C.3 local kind, and is not `EpistemeViewpointConformanceRelationSignature`. A reusable kind declaration, a local-kind classification judgment, and a direct-relation declaration are different jobs with different subjects.
 
-`U.Viewpoint` is therefore the same P under the complete positive predicate above: no new root identity, wrapper identity, method requirement, selection-dependent membership, or generic-episteme shortcut.
+`U.Viewpoint` is therefore the same P under the complete positive predicate above.
 
 ##### E.17.0:4.6.5 - Author progressively and stop at the needed assurance
 
@@ -337,28 +337,9 @@ Citation, co-membership, reference resolution, compatible schemes, or a graph ed
 
 The SlotSpecs declare reusable participant meanings and polarity. Their declaration does not make the relation obtain or identify an occurrence. The current A.6.6 vocabulary resolution chain is `viewpointConventionDependsOn` -> current vocabulary entry -> `ViewpointConventionDependencyRelationSignature` -> its EntityOfConcern, `ViewpointConventionDependencyRelation`. The NameToken, its separate NameCard, vocabulary entry, signature episteme, direct kind, and occurrence remain distinct; spelling or citation proves none of them equivalent and makes no occurrence obtain.
 
-##### E.17.0:4.7.1 - Local designation of the direct relation kind; public row pending
+##### E.17.0:4.7.1 - Local designation of the direct relation kind
 
-The complete F.18 NameCard below is a durable local naming settlement. Core-facing reuse is proposed, but no current F.17 row or SenseCell accepts this value and sense; the card therefore remains pending and makes no public-row claim.
-
-| Field | Exact value or rule |
-|---|---|
-| `NameCardId` | `NameCard.ViewpointConventionDependencyRelation.Local`; this identifies the local card only |
-| `GovernedValueRef` | exact direct kind `ViewpointConventionDependencyRelation`, not r, its signature, vocabulary entry, token, assertion, or card |
-| `GovernedValueKindRef` | `U.Kind`; this is the kind of the governed value, not another value reference |
-| `SubjectPatternLocator` | `E.17.0`, locating the exact defining and occurrence-identity claims; A.6.6 separately constrains reusable vocabulary-entry use, and F.18 separately constrains this naming act rather than the relation semantics |
-| `ReferenceScheme` | exact by-value `FPFCoreReferenceScheme` |
-| `ClaimContent` | `NameCard.ViewpointConventionDependencyRelation.Local.ClaimGraph`, constituted by all identity-bearing naming-settlement claims in this table |
-| `LocalSenseRef` | semantic dependence of one exact viewpoint-convention constituent episteme on one exact base constituent episteme, dependent first; replacing that base edition or losing its exact used content can change interpretation or replay |
-| `TechLabel` | `ViewpointConventionDependencyRelation` |
-| `PlainLabel` | `this viewpoint-convention constituent depends on that exact base constituent` |
-| `CandidateSet` | dependency candidates: selected label, `ConstituentSemanticDependencyRelation`, `ViewpointConventionRelianceRelation`; representation candidates: `ConstituentReferenceRelation`, `ViewpointLinkRelation`, `ViewpointOrganizationEdge` |
-| `RejectedCandidates` | `ConstituentSemanticDependencyRelation` drops the viewpoint-convention boundary; reliance widens to decision reliance; reference states resolution only; link leaves predicate and polarity unstated; organization-edge names a graph representation rather than obtaining. None is an alias. |
-| `SelectionRationale` | the selected label names both the viewpoint-convention domain and semantic-dependency predicate; the RelationSignature, not the label, carries participant meanings |
-| `BridgeRefs` | none; this settlement makes no cross-scheme local-sense correspondence claim |
-| `PublicRowStatus` | `pending`; no `UnifiedTermRowRef`, public card identity, F.17 SenseCell, or local-sense basis relation is claimed |
-| `LineageEntries` | rejected reference, link, organization-edge, semantic-dependency, and reliance spellings remain source lineage only, never synonyms |
-| `RefreshCondition` | reopen when participant kinds, obtaining predicate, A.6.6 use policy, or repeated reader evidence changes; reopen the public-row question only when a current F.17 entry and result accept the exact value, card, scheme, sense, and supported use |
+Within this pattern, `ViewpointConventionDependencyRelation` designates semantic dependence of one exact viewpoint-convention constituent episteme on one exact base constituent episteme, dependent first. Replacing the base edition or losing its exact used content can change interpretation or replay. The Plain designation is “this viewpoint-convention constituent depends on that exact base constituent.” The signature above retains the participant meanings and polarity.
 
 ##### E.17.0:4.7.2 - Add only the neighboring object the receiving use needs
 
@@ -397,7 +378,7 @@ When empirical interpretation or replay testing is current, identify separately:
 - `H_dependencyEvaluator : U.System` under A.1 as performer;
 - exact `RA_dependencyEvaluator : DependencyEvaluationWorkAssignment <: U.SystemRoleAssignment` under A.2.1, with `H_dependencyEvaluator` in `HolderSystemSlot`, declaration-local assigned-kind domain `DependencyEvaluatorSystemRoleKindDomain`, and `DependencyEvaluatorSystemRole` as RA's assigned-kind value admitted by that domain; the value, assignment, holder System, and Work remain distinct, and neither the value nor assignment acts;
 - `M_dependencyTest : U.Method` under A.3.1 and, when needed, `D_dependencyTest : U.MethodDescription` under A.3.2; D describes M but is neither method, work, RelationSignature, nor OperationAlgebra, and a separate A.6.1 operation declaration is cited only when typed application is current;
-- exact `W_dependencyTest : U.Work`: A.13 first recovers H as the exact actual performer through the already named obtaining RA; A.15.1 independently admits W as enacting M; because this branch expressly represents precise assignment-bound attribution, F.6 separately relates W to that same RA. F.6 identifies neither RA nor H, and a failed F.6 relation would leave W intact while removing only that attribution;
+- exact `W_dependencyTest : U.Work`: A.13 first recovers H as the actual performer through the already named obtaining RA; A.15.1 independently admits W as enacting M. Add F.6 only when the receiving claim needs precise attribution of W through that same RA. An attribution failure alone leaves independently admitted W intact; if the finding invalidates a consumed performer or Work-admission premise, recheck that premise and its dependent conclusions;
 - exact `B_dependencyEmpirical`, a C.2.1 episteme identifying the model, calibration, assumptions, and interpretation basis; and
 - exact result episteme `T_dependency = <G_dependencyTestResult,E_dependent,S_test>`, whose ClaimGraph designates exact `E_base`, predicate, method, conditions, basis, and positive or negative result.
 
@@ -419,7 +400,7 @@ Keep these three cases distinct:
 2. a negative empirical or formal result may support `C_dependencyDoesNotObtain` without presupposing r, fabricating D, or becoming a positive occurrence; and
 3. T may support the claim that r obtains without supporting use-specific admissibility; a later decision method may consume empirical and formal result epistemes in separate declared premise slots and produce a separate C.11 result.
 
-For historical reliance on a claim or result, use `A.10` to recover its obtaining premise, decision-use, reference-use, or operation-argument relation for the named bounded use. Recover exact Work and its enacted Method only when that dated Work is itself a current claim or the expressly selected empirical evaluation branch above requires them. Retain that branch's A.13 performer basis, independent A.15.1 Work admission, and F.6 when precise assignment-bound attribution is consumed. Storage, inspection, citation, attachment, production, graph membership, or adjacency alone does not establish that use. Keep empirical and formal algebras distinct; keep provenance and assurance with A.10, G.6, and B.3. Retain a missing-governor blocker instead of inventing a generic evidence, use, or acceptance relation.
+For historical reliance on a claim or result, recover its obtaining premise, decision-use, reference-use, or operation-argument relation for the named bounded use. Use `A.10` when the source-to-use account is implicit or must remain replayable. Recover exact Work and its enacted Method only when that dated Work is itself a current claim or the expressly selected empirical evaluation branch above requires them. Retain that branch's A.13 performer basis, independent A.15.1 Work admission, and F.6 when precise assignment-bound attribution is consumed. Storage, inspection, citation, attachment, production, graph membership, or adjacency alone does not establish that use. Keep empirical and formal algebras distinct; keep provenance and assurance with A.10, G.6, and B.3. Retain a missing-governor blocker instead of inventing a generic evidence, use, or acceptance relation.
 
 ##### E.17.0:4.7.4 - Schemes, scope, transformation, and change
 
@@ -549,7 +530,7 @@ ISO 42010 supplies vocabulary lineage. The remaining rows state FPF design ratio
 - Use **A.22** to select `S_viewpoint` only when separately versioned convention organization changes a named action, and to select any separately current multi-view structure. E.17.0 supplies Q and candidate relation occurrences for that branch.
 - **A.6.3** defines optional source-to-receiving viewing construction, including identity viewing; it does not define view membership.
 - **E.10.D2** defines description epistemes and specification use. A describing use is always named; it selects a viewpoint only when that choice changes reading, checking, or a permitted conclusion. Selection does not establish conformance.
-- **F.18** supplies the two relation-kind NameCards; naming metadata neither defines relation semantics nor grants admission. **F.9** applies only when an exact relation between distinct F.17 `SchemeSenseCell` values obtains.
+- **F.18** governs the two relation-kind designations. **F.9** applies when a separately needed semantic relation between distinct F.17 `SchemeSenseCell` values is at issue.
 - **E.17.1** defines exact catalogue epistemes and local family declarations whose members are exact `U.ViewpointRef` values. **E.17.2** supplies the four-position project-local engineering viewpoint authoring template and, only after local materialization, its four exact bindings. A declaration, template position, or reference grants no viewpoint or view membership.
 - **E.24.UK** admits dependent `U.Viewpoint` and `U.View` once for public use; E.17.0 supplies their stable positive membership predicates.
 - **E.24.PUB** defines exact expression and bearing, selected form conformance, form-mediated availability and publication recurrence. **A.6.3.RT** and **A.6.3.RT.OE** govern expression construction; **C.29** governs a mathematical lens. Their use retains the independent predicate for any represented subject relation.

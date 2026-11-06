@@ -6,12 +6,12 @@ section_id: "F.0.2:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2/F.0.2__008_conformance-checklist.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "F.0.2 — Semantic Synthesis across Source Ontologies"
   - "F.0.2:7 — Conformance Checklist"
-line_start: 118272
-line_end: 118284
+line_start: 118162
+line_end: 118174
 dependencies:
   - "A.2.4"
   - "C.2.1"
@@ -38,8 +38,8 @@ keywords:
 - `CC-F0.2-2` Every load-bearing source claim has a recoverable EntityOfConcern, effective ReferenceScheme, edition, and source role; locators are not treated as source-use relations.
 - `CC-F0.2-3` The source cut covers the intended use, known rival explanations, action-changing counterexamples, transfer limits, and material non-fit by relevance rather than by a universal count or distance threshold.
 - `CC-F0.2-4` Similarity, correspondence, Bridge, framework fit, or `G.2` pack conformance is used as input and not as synthesis truth or permission to merge.
-- `CC-F0.2-5` The result is one provisional synthesis claim, contrast claim, or unresolved-inquiry claim with ordinary `C.2.1` identity and one stable local locator in the authoring source.
-- `CC-F0.2-6` The result names its receiving content, placement, or pattern-allocation decision. When that decision occurs, the decision record cites the result locator and source edition and states the disposition; an absent disposition is not acceptance.
+- `CC-F0.2-5` The result is one provisional synthesis claim, contrast claim or unresolved-inquiry claim whose content, subject, interpretation basis and sources are recoverable. Add a stable local locator when later citation or replay needs it.
+- `CC-F0.2-6` The result answers its receiving content, placement or pattern-allocation question. Keep any decision record required by that use; an absent disposition is not acceptance.
 - `CC-F0.2-7` The result states relied source claims and editions, why each matters, retained differences and limits, and material reopen conditions.
 - `CC-F0.2-8` An unresolved-inquiry claim concerns the inquiry state, names what remains usable and the next source action, and does not turn missing evidence into a negative domain claim.
 - `CC-F0.2-9` Domain roles, methods, examples, evidence bases, and refresh lines stay in their subject DPF; the reusable synthesis move remains independent of those DPFs.

@@ -6,12 +6,12 @@ section_id: "E.15:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.15/E.15__005_solution.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.15 — Pattern Change, Edition Continuity, and Impact Analysis"
   - "E.15:4 — Solution"
-line_start: 105726
-line_end: 105821
+line_start: 105642
+line_end: 105737
 dependencies:
   - "C.18"
   - "C.19"
@@ -124,5 +124,5 @@ Keep accepted historical editions immutable and recoverable. A successor does no
 
 E.15 finishes when the candidate answers the change question, every actual dependent locus in scope is repaired or explicitly unresolved, material predecessor functions have dispositions, and the selected checks support the claimed Delta-Class and continuity. Publication, acceptance, registration, and landing remain separate later decisions.
 
-Schedule a living refresh only for a high-value claim likely to change and only when someone will use the signal. Name the trigger and affected claim. Otherwise use ordinary periodic review; a generic “watch SoTA” obligation is not useful work.
+Schedule a living refresh only for a high-value claim likely to change and only when someone will use the signal. Name the trigger and affected claim. Retain any review interval required by an applicable publication or maintenance obligation.
 

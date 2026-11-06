@@ -6,12 +6,12 @@ section_id: "E.11:4"
 section_title: "Solution - Give Each Entry Publication Unit One Job"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__005_solution-give-each-entry-publication-unit-one-job.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:4 — Solution - Give Each Entry Publication Unit One Job"
-line_start: 102877
-line_end: 103268
+line_start: 102797
+line_end: 103188
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"
@@ -264,7 +264,7 @@ PublicOrdinaryWalkthroughRow@FPFReadme <: U.Episteme:
   continuationConditionRef: PublicPatternUseBoundaryConditionTemplate@FPFReadme
 ```
 
-Where an exact row is used, it carries one result template or public blocker. A walkthrough is still an explanation, not a project method, work order, or recommendation. It may contain a short repeatable formulation of the direct pattern's `Solution`. Call it a CGUS demonstrative slice only when `A.22.CGUS` independently admits the represented conditional structure; an ordinary walkthrough needs no record explaining why it is not such a slice.
+Where an exact row is used, it carries one result template or public blocker. It may contain a short repeatable formulation of the direct pattern's `Solution`. Call it a CGUS demonstrative slice only when `A.22.CGUS` independently admits the represented conditional structure; an ordinary walkthrough needs no record explaining why it is not such a slice.
 
 #### E.11:4.4.1 - Practical-use carry-through check
 
@@ -293,7 +293,7 @@ PracticalUseCarryThroughCheck:
   principalBlockedOverreadRef?: PublicPatternUseBoundaryConditionTemplate@FPFReadme
 ```
 
-The view is not a form to complete or a durable check object. Inspect only positions that the expansion actually uses. If an example is needed, use at most one ordinary walkthrough or admitted demonstrative slice for that branch. The demonstrative form must satisfy `A.22.CGUS`; the ordinary form needs no non-admission rationale. State a principal blocked overread only when the public wording otherwise invites a consequential false project claim.
+The view is not a form to complete or a durable check object. Inspect only positions that the expansion actually uses. Use an ordinary walkthrough or an admitted demonstrative slice when it explains a distinction the branch needs. Add another case only when its changed condition reveals a consequential choice or limit that the first case leaves unclear. The demonstrative form must satisfy `A.22.CGUS`; the ordinary form needs no non-admission rationale. State a principal blocked overread only when the public wording otherwise invites a consequential false project claim.
 
 For each expanded candidate-use template, exactly one result promise or exact public blocker is present. A promise identifies the direct pattern and `Solution`, potential-result kind, local identification question, the identity or obtaining basis and result-relative basis that actually make the promise true, the minimum usable result, and a receiver only when that continuation is current. A blocker states the missing rule or information and carries no fulfilled result template. A broad family, generic result relation, omitted value disguised as a weak promise, fabricated project occurrence, or PatternID list without selection conditions does not pass.
 
@@ -348,7 +348,7 @@ PracticalUseEntryComparisonRationale@Context <: U.Episteme:
   comparisonRationaleDescriptionRef: U.Episteme
 ```
 
-Stop inspection when one entry has enough recognition and first-result advantage to justify direct pattern inspection, when no remaining entry can change the starting choice, or when the inspection budget opens an explicit return. No fixed maximum of three is inferred.
+Stop inspection when one entry has enough recognition and first-result advantage to justify direct pattern inspection, when no remaining entry can change the starting choice, or when the inspection budget opens an explicit return.
 
 Materialize comparison history only when a named receiving use relies on it:
 

@@ -6,12 +6,12 @@ section_id: "E.14:12"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__015_sota-echoing.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.14 — Human-Centric Working-Model: Readable Claims and Recoverable Assurance"
   - "E.14:12 — SoTA-Echoing"
-line_start: 105649
-line_end: 105657
+line_start: 105568
+line_end: 105573
 dependencies:
   - "B.3.5"
   - "C.13"
@@ -24,10 +24,7 @@ keywords:
 
 ### E.14:12 - SoTA-Echoing
 
-| Source line | What E.14 adopts | Boundary |
-| --- | --- | --- |
-| Human-centered design and cognitive ergonomics | Working readers need a small, usable model before assurance apparatus. | Usability does not license vague or under-explained prose. |
-| Formal methods and model-based assurance | Heavy justification can remain available below the working text. | Assurance artifacts do not define the public Working-Model vocabulary. |
-| Ontology engineering and mapping practice | Source labels, synonyms, and registers are captured in mapping rather than shown as slash labels. | Mapping is not a second public vocabulary. |
-| Constructive ontology and constructional mereology | Structural claims can carry an inspectable account of independently grounded construction facts when identity matters. | The account creates neither the direct relation nor whole identity and is not the default assurance route for epistemic claims. |
+For the question of how a mixed team can use a relation while its grounds remain inspectable, E.14 selects claim-first presentation with support chosen by the receiving question. Requiring the full assurance stack before every use delays even a direct relation whose meaning and grounds already suffice; exposing the claim alone fails a use that consumes unresolved mapping, inference, construction or empirical support. Sections 4–6 preserve the direct stop and add the needed support without changing the subject claim.
+
+This is a bounded synthesis of FPF contributions: adopt B.3.3's distinction among meaning correspondence, verification and validation; preserve B.3.5's elected branch obligations and C.13's construction-account content; adapt their presentation so the readable claim comes first. This arrangement preserves sufficient direct use and the additional grounds of assurance-dependent use. Reconsider it when a reader cannot recover a consumed condition or a competing presentation supplies the same claim and grounds with less justified effort.
 

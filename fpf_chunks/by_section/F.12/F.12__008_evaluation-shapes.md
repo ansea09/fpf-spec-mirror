@@ -6,12 +6,12 @@ section_id: "F.12:7"
 section_title: "Evaluation shapes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.12/F.12__008_evaluation-shapes.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "F.12 — Evaluate Promise Fulfilment from Work Evidence (Service Acceptance)"
   - "F.12:7 — Evaluation shapes"
-line_start: 122730
-line_end: 122749
+line_start: 122627
+line_end: 122646
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -49,7 +49,7 @@ keywords:
 
 ### F.12:7 - Evaluation shapes
 
-The calculation shapes and examples below take independently admitted delivery and evaluation Work as inputs under A.2.3:4.3. Their population, measurement and acceptance claims still need the stated local basis.
+The calculation shapes and examples below preserve the delivery Work or population and illustrate an explicit evaluation-Work account. Use that account when its history is current. For an ordinary result, apply the same population, measurement and acceptance conditions through R4 without separately identifying the evaluation occurrence.
 
 #### F.12:7.1 - Availability share
 

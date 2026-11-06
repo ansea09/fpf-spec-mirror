@@ -6,12 +6,12 @@ section_id: "E.9.DA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9.DA/E.9.DA__005_solution.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.9.DA — Evaluate a DRR for Its Declared Authoring Use (Decision-Adequacy CharacteristicSpace)"
   - "E.9.DA:4 — Solution"
-line_start: 98639
-line_end: 98924
+line_start: 98559
+line_end: 98844
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -41,7 +41,7 @@ That result may remain readable prose. It needs no assessment-work record, appli
 
 Use the complete coordinate result when a complete reusable evaluation was explicitly requested or when a named later reliance needs stable coordinate values. Materialize the exact characteristic-space configuration, semantic evaluation Method, A.6.1 application, result episteme, witnesses, or evidence-use relations only when that receiving use depends on their identities.
 
-The semantic Method, A.6.1 application, and dated Work are independently conditional. A reusable coordinate result can exist without any of them. A receiving claim may use a semantic Method without asserting Work, and it may use an exact application and its actual bindings without asserting Work. If dated `U.Work` is asserted, the Method and application become required parts of that E.9.DA branch; every precise performer first has an A.13 core and A.15.1 independently admits the Work. F.6 follows only when the result also needs precise assignment-bound attribution.
+The semantic Method, A.6.1 application, and dated Work are independently conditional. A reusable coordinate result can exist without any of them. A receiving claim may use a semantic Method without asserting Work, and it may use an exact application and its actual bindings without asserting Work. If dated `U.Work` is asserted, establish the Method actually enacted, every precise performer's A.13 core and independent A.15.1 Work admission. Add an A.6.1 application only when the claim uses an independently declared operation and its obtaining application; establish any relation to the Work separately. F.6 follows only when the result needs precise assignment-bound attribution.
 
 Before assigning coordinates, make one bounded content-first search for an important question the DRR omitted. Inspect the governed problem, the problem-owning practice, current sources, the strongest live alternative, failure and recovery cases, and true direct consumers. If an omitted question would change the answer, architecture, source use, consumer obligation, first drafting action, or stop, return it as a substantive finding before completing the coordinate judgement.
 
@@ -78,7 +78,7 @@ The following names support only the complete reusable-result branch. An ordinar
 | `CampaignProblemSolutionUnfoldingCheck` | Triggered carry-through check for DRRs that create or modify README entries, path-shaped patterns, pattern families, DPF entries, first-practical routes, or constraint-governed unfolding structures. It names admitted problem-side record refs or cues, accepted starting records, current starting structures, entry cues, selected solution architecture, affected unfolding families, loci and concrete-pattern or relation map added or changed, any independently grounded overread that a plausible intended reader could make, and residue that must move from DRR or README into patterns or unfolding structures. |
 | `DRRDecisionAdequacyResultRef` | One C.2.1 result episteme whose EntityOfConcern is the exact checked DRR episteme and whose ClaimGraph states the required use and source, window, effective floor and source, coordinate-result claims, bounded omitted-question-search disposition, local status, first drafting action or repair, stop or return, reopen, and any grounded non-use boundary. Method, application, Work, witnesses, records, and later authority use remain separate objects or relations. |
 | `DRRDecisionAdequacyWitnessRefs` | Exact comparison, source, trace, case, or locus witnesses cited by result claims; witness presence is neither a value nor an evidence-use relation. |
-| `DRRDecisionAdequacyEvidenceUseRefs` | References to the independently established relations that support reliance on result claims. Use A.10 to recover their exact sources, provenance, currentness and bounded use; its descriptive path creates none of those relations. |
+| `DRRDecisionAdequacyEvidenceUseRefs` | References to the independently established relations that support reliance on result claims. Reuse their adequate source and use grounds. Use A.10 when the source-to-use account is still implicit or its provenance, currentness or bounded reliance must remain replayable. |
 | `DRRDecisionAdequacyRecordRef` | Optional C.2.1 record episteme that packages refs to the configuration and whichever of Method, application, Work admission, result, witness, evidence-use, reopen, and grounded non-use values are actually current. Its function is reference packaging; status and authority use their direct receiving relations. |
 | `DRRDecisionAdequacyStatus` | Local admissible-use value derived noncompensatorily from the required use and source, effective floor, coordinate values, and architecture or split blockers. Any F.10 status use or interpretation by a receiver is a separate relation. |
 
@@ -114,7 +114,7 @@ DRRDecisionAdequacyAssessmentApplication?:
 
 AssessmentWorkAdmission?: <omit when no dated U.Work is asserted;
   when present, every non-optional field below is required>
-  AssessmentApplicationRef: <same exact A.6.1 application>
+  AssessmentApplicationRef?: <include only when the Work account consumes an independently established A.6.1 application; state the obtaining Work-to-application relation>
   AssessmentWorkRef: <one dated U.Work independently admitted under A.15.1>
   AssessmentWorkInterval:
   AssessmentContainingSystemRef: <exact U.System>
@@ -292,7 +292,7 @@ E.9.DA reliance-bearing result:
   Status, first action or repair, bounded overread, and reopen condition: <include stop or return; overread only when independently grounded>
 ```
 
-Only this reliance-bearing branch requires every coordinate and the exact identities its receiving use consumes. Method, application, and Work refs remain independently conditional; asserting dated `U.Work` requires the Method, application, every precise performer's A.13 core, and independent A.15.1 admission from the branch in 4.2. F.6 is additionally required only when the result asserts precise assignment-bound attribution. A downstream status use, assurance, E.19 admission, authority, or drafting permission remains a separate claim with its own defining or constraining pattern.
+Only this reliance-bearing branch requires every coordinate and the exact identities its receiving use consumes. Method, application and Work refs remain independently conditional. Asserting dated `U.Work` requires the enacted Method, every precise performer's A.13 core and independent A.15.1 admission; an A.6.1 application is required only when the receiving claim consumes that separately established application. F.6 is additionally required only for precise assignment-bound attribution. Downstream status use, assurance, E.19 admission, authority and drafting permission retain their own direct grounds.
 
 #### E.9.DA:4.7 - Structured finding row when reuse needs it
 

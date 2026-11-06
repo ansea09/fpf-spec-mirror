@@ -6,12 +6,12 @@ section_id: "F.18:1"
 section_title: "Context"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__003_context.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
   - "F.18:1 — Context"
-line_start: 125306
-line_end: 125325
+line_start: 125203
+line_end: 125222
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -59,7 +59,7 @@ A name lets people refer to an independently governed value. The naming decision
 - `F.17` only as a later public-row consumer whose current entry and result must accept the exact F.18 objects named below;
 - `E.10.ROLE` when bare claim-bearing *role* hides its object; `A.6.5` and `A.6.RSIR` when relation, signature, interface, or slot wording hides the governed object; `A.6.P.WMR` when Work and Method boundary wording still hides the exact relation; and `A.15.1` when a candidate performed-work name still lacks occurrence grounding.
 
-The central subject is one `F.18` naming settlement for one exact already-governed value. `F.18` supplies the candidate comparison, selected Tech and Plain designations, declared naming use, and reopen conditions. The value's direct pattern retains its kind, identity, obtaining, and other subject semantics.
+The central subject is one `F.18` naming settlement for one exact already-governed value. `F.18` supplies the candidate comparison, selected Tech designation, any Plain designation needed for a stated didactic use, declared naming use and reopen conditions. The value's direct pattern retains its kind, identity, obtaining and other subject semantics.
 
 Its complete claim graph records the selected designation expressions, exact local sense, covered and rejected alternatives, rationale, lineage, and reopen condition.
 

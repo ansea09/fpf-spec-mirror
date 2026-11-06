@@ -6,12 +6,12 @@ section_id: "D.2:2"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.2/D.2__005_solution.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "D.2 — Recognize Ethical Concerns Across Levels and Scopes (Multilevel Ethics)"
   - "D.2:2 — Solution"
-line_start: 91706
-line_end: 91753
+line_start: 91700
+line_end: 91747
 dependencies:
   - "A.1"
   - "A.15"
@@ -31,7 +31,7 @@ keywords:
 
 ### D.2:2 - Solution
 
-Name the local gain, who or what may bear a loss, and the levels or scopes that make this an ethical concern. State the next question to settle. Recognition is complete when those sides and the next use are clear; an already qualified `D.3` conflict or `D.4` decision question can be used directly.
+Start with the proposed action or arrangement and the local gain. If an adequate account of affected parties and consequences already exists, use it. Otherwise follow the changed work, use or dependency from the proposal to the entities that may bear its effects; use `A.1.CSD` when a consequential bearer or effect path remains unclear. Keep an obtaining relation distinct from a possible consequence and retain an unresolved bearer or path as unresolved. Name the possible loss and the levels or scopes that make it an ethical concern, then state the next question to settle. Recognition is complete when the affected sides and next use are sufficiently clear; an already qualified `D.3` conflict or `D.4` decision question can be used directly.
 
 Use `MultilevelEthicsEntry@Context` when the practitioner or a recipient needs to recover these connections for comparison or revision. Keep its content in the existing answer or working note when that suffices. Add evidence, value-frame editions, and supporting relations where the stated concern actually relies on them:
 
@@ -45,7 +45,7 @@ MultilevelEthicsEntry@Context:
   declaredLevelOrScopeRefs
   affectedHolonRefs
   affectedEpistemeRefs?
-  roleWordRecoveryRefs?: E.10.ROLE results when role wording occurs
+  roleWordRecoveryRefs?: E.10.ROLE results when the relevant role meaning needed clarification
   localSystemRoleKindRefs?: FinSet(U.KindRef)
   systemRoleClassificationAssertionRefs?: FinSet(U.EpistemeRef)
   systemRoleAssignmentRows?: FinSet({

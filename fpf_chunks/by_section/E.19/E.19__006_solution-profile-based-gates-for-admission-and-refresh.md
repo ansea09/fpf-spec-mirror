@@ -6,12 +6,12 @@ section_id: "E.19:4"
 section_title: "Solution — Profile-based gates for admission and refresh"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__006_solution-profile-based-gates-for-admission-and-refresh.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:4 — Solution — Profile-based gates for admission and refresh"
-line_start: 112743
-line_end: 113315
+line_start: 112634
+line_end: 113206
 dependencies:
   - "A.15.1"
   - "A.6.P"
@@ -47,12 +47,12 @@ For an ordinary bounded review, keep the reviewed edition or subset, question, s
 1. the exact reviewed FPF pattern edition or bounded subset and the declared admission/refresh question;
 2. the review configuration: baseline and risk-selected PCP declarations, exact question scope, use, qualification window, and stop boundary;
 3. the semantic review `U.Method`, when that identity matters; call an episteme its `U.MethodDescription` only after it passes A.3.2;
-4. for each actual review, repair, or verification occurrence asserted as dated `U.Work`, recover every exact actual performer through A.13 and use A.15.1 to identify its time, Method, containing System, and Work independently. Add F.6 only when the review account expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment. That attribution must be independently grounded rather than inferred from holder identity or timing, and a missing or failed F.6 link leaves the Work intact;
+4. for each actual review, repair, or verification occurrence asserted as dated `U.Work`, recover every exact actual performer through A.13 and use A.15.1 to identify its time, Method, containing System, and Work independently. Add F.6 only when the review account expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment. That attribution must be independently grounded rather than inferred from holder identity or timing, and a missing or failed F.6 link alone leaves independently admitted Work intact; recheck any A.13 or A.15.1 premise invalidated by the same finding and its dependent conclusions;
 5. each exact PCP check application and A.6.1 binding only when the receiving use must replay those bindings;
 6. any distinct authoring/repair work, changed pattern edition, and focused verification work/application in inspect-repair-verify form;
 7. actionable finding or blocker claims, focused-verification claims, and one C.2.1 aggregate E.19 review-result episteme when a durable conclusion is required;
 8. any separate authority-bearing admission, refresh, return-for-repair, or waiver decision and its decision work;
-9. witnesses, A.10 evidence-use or provenance relations, and any B.3 assurance or reliance result when those claims are made; and
+9. witnesses and the support required by the actual claim; A.10 when an implicit or required-replayable source-to-use account is needed; and any B.3 result required by the selected assurance claim; and
 10. any F.10 status use, publication occurrence or form, carrier, and currentness relation used by the receiving claim.
 
 Any local system-role kind and its independently evaluated classification are optional separate claims; neither supplies assignment or performance. Route unresolved source *role* through `E.10.ROLE`, and name intended-reader or representation positions directly. When a later claim relies on a dated occurrence, apply item 4 and `CC-E19-0`.
@@ -84,7 +84,7 @@ If the aim is repeated improvement against an object-under-improvement evaluatio
 
 `E.19` reviewer and reviewed-pattern wording is FPF pattern-quality gate wording. It governs FPF admission, refresh, return-for-repair, blocker, and review-profile claims, not `E.21` coordinate assignment and not project-side publication interpretation, explanation interpretation, comparative review-unit use, or participation in a named project-side review relation. When those project-side relations are used, use the publication or project-side pattern that names the object being interpreted or reviewed.
 
-**Project-side reuse boundary.** Use this boundary when an E.19 review-result episteme is cited for project certification, evidence, safety or compliance assurance, gate input, release justification, work authority, or publication truth. First identify the exact FPF pattern-quality claim it states: admission, refresh, repair return, or selected pattern-quality boundary. Any project-side reuse then opens the concrete relation that governs that use: `A.10` for evidence or provenance, `G.11` for source currentness, `B.3` for assurance, `F.10` for status use/interpretation, `A.20` for a current local CV status when applicable, `A.21` for gate decision, `A.15` for work, or the relevant project-side pattern. The E.19 result may be evidence about FPF pattern quality; it is not certification of the project world. Plain wording in the reviewed text remains ordinary unless it changes admissible use, evidence, gate, assurance, work, decision, status use, or FPF pattern application. A project refusal or approval requires a project-side governing relation that states the project claim and its admissible use.
+**Project-side reuse boundary.** Use this boundary when an E.19 review-result episteme is cited for project certification, evidence, safety or compliance assurance, gate input, release justification, work authority, or publication truth. First identify the exact FPF pattern-quality claim it states: admission, refresh, repair return, or selected pattern-quality boundary. Any project-side reuse then opens the concrete relation that governs that use: `A.10` for an implicit or required-replayable source-to-use account, `G.11` for source currentness, `B.3` for assurance, `F.10` for status use/interpretation, `A.20` for a current local CV status when applicable, `A.21` for gate decision, `A.15` for work, or the relevant project-side pattern. The E.19 result may be evidence about FPF pattern quality; it is not certification of the project world. Plain wording in the reviewed text remains ordinary unless it changes admissible use, evidence, gate, assurance, work, decision, status use, or FPF pattern application. A project refusal or approval requires a project-side governing relation that states the project claim and its admissible use.
 
 
 
@@ -186,7 +186,7 @@ Checks include:
 Checks include:
 
 * refresh-sensitive claims are identified and either (a) updated from the best current problem-relevant source line with matching Solution changes, or (b) explicitly scope-limited and labeled as historical lineage; source date, count, official status, or novelty alone does not establish current-best use,
-* select living refresh only for a high-priority claim or pattern subset likely to change when new evidence or a changed neighbor appears. Monitor and reopen the smallest affected unit at a named trigger; return it to ordinary periodic review when continued surveillance no longer buys enough currentness for its cost,
+* select living refresh only for a high-priority claim or pattern subset likely to change when new evidence or a changed neighbor appears. Monitor and reopen the smallest affected unit at a named trigger. When continued surveillance no longer justifies its cost, retain only a separately justified interval or trigger and any binding maintenance requirement; otherwise end that surveillance,
 * Relations are updated to current pattern IDs; deprecations/renames are handled via explicit continuity notes (no silent relabeling),
 * when one new or substantially revised pattern subset is being prepared for send or landing, inspect the related patterns, the concrete constraints or tests they supply, companion patterns, Relations entries, and monolith-backed pattern sections that may require aligned edits. Repair an in-scope mismatch or return it as a finding. Successful alignment remains visible in the changed sources and the governing landing or release result, not in an E.19 pass recital,
 * any long-lived companion, profile, check sheet, pattern-local companion row, review harness, or analogous selected non-pattern FPF kind-reference pair kept with the reviewed pattern or subset states its use question, the concrete pattern contribution or selected non-pattern FPF kind-reference pair it serves, admissible companion-only use, one real breakage if absent, and demotion or deletion condition when no such breakage exists.
@@ -208,7 +208,7 @@ Checks include:
 * each “best practice” claim or SoTA claim in the Solution is explicitly **bound** to SoTA‑Echoing rows (or to SoTA Synthesis Pack identifiers when used), rather than floating as ungrounded prescription, and those rows identify best-known current practice rather than popularity alone,
 * the selected SoTA practice or source set answers the declared working problem and the relevant domain or practice tradition rather than merely justifying package placement, naming neatness, or pattern clustering,
 * each SoTA row changes at least one FPF-governed outcome for the pattern: what the user may do, a source-supported applicability or reliance limit, which FPF pattern application must be named, or a claim's eligibility for a named release, policy, assurance, gate, action-selection, or adjudication use. An explicit rejected reading follows F.19's grounded-guard test,
-* novel synthesis retains its actual evidential status: frame it as a scoped hypothesis with explicit limits, or substantiate the stronger claim through its source claims, support and conflict relations, shared dependencies and applicability under `G.2` and `B.1.3`. To admit the stronger synthesis as normative guidance, promote or register it in a SoTA Synthesis Pack with those grounds. Registration alone does not establish it as best-known practice. A merely explanatory SoTA note that leaves the FPF-governed sections untouched is non-conforming,
+* novel synthesis retains its actual evidential status: frame it as a scoped hypothesis with explicit limits, or substantiate the stronger claim through its source claims, support and conflict relations, shared dependencies and applicability under `B.1.3`. Admission as normative guidance requires those grounds and limits. Use `G.2` when the receiving use requires broad, refreshable SoTA harvesting and its handoffs; pack registration alone does not establish the synthesis as best-known practice. A merely explanatory SoTA note that leaves the FPF-governed sections untouched is non-conforming,
 * where traditions disagree substantively, the pattern makes the disagreement visible and states whether it adopts, adapts, or rejects each relevant source idea instead of silently selecting one tradition,
 * retrieval or benchmark methods are used only when the relevant evidence relation is present; their dimensions do not become universal pattern-quality benchmarks,
 * refresh‑sensitive claims (those likely to decay) are explicitly marked with scope limits, timespan notes, or lineage labeling when appropriate.
@@ -291,17 +291,17 @@ Use this risk-trigger model:
   newly treated as entry-bearing, one changed wrong-pattern or
   governing-entry or applicable-projection-function boundary, one changed local
   first-entry selection effect, or one substantive lexical-query cue change.
-  The author runs the core check and adds at most one selected risk check if
-  needed. A compact pattern-local note is conditional on the rationale need
-  stated below.
+  The author runs the core check and adds only the check or combined checks
+  needed for unresolved entry risks, reusing overlapping evidence. A compact
+  pattern-local note is conditional on the rationale need stated below.
 
 * **Trigger class 3 — multi-companion-function or high-risk public entry change**
   one change affecting several selected projection or companion functions together, one
   public-entry rewrite, one often-misclassified entry-recognition function, or one newly
   introduced first-entry pattern-comparison set.
   The author runs the core check and adds only the relevant selected risk
-  check, usually parity, wrong-pattern, public-entry, or expanded-entry-disambiguation-case
-  adequacy.
+  checks, such as parity, wrong-pattern, public-entry or expanded-entry-
+  disambiguation-case adequacy, stopping when the live risks are covered.
 
 * **Trigger class 4 — retrieval-facing, observed-failure, or measured-improvement change**
   one retrieval-facing companion or projection function changes, one observed misretrieval or repeated

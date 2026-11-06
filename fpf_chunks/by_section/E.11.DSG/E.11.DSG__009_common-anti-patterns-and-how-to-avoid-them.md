@@ -6,12 +6,12 @@ section_id: "E.11.DSG:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.DSG/E.11.DSG__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.11.DSG — Architectural Reference"
   - "E.11.DSG:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 104978
-line_end: 104991
+line_start: 104897
+line_end: 104910
 dependencies:
   - "C.2.1"
   - "C.2.P"
@@ -43,7 +43,7 @@ keywords:
 | Reference performs lookup | Publication content is mistaken for dated Work or an operation application. | When a direct claim needs lookup Work, use A.13 to identify its actual performer and A.15.1 to admit the dated occurrence independently. If the claim must also identify the assignment under which the lookup was performed, check that relation separately through F.6. Keep the Method and any A.6.1 application bindings separate. |
 | Disciplinary composition from navigation | Co-listing makes outside suppliers appear to be subdisciplines, or an open link is treated as proof that its answer remains usable. | Return to the C.20-grounded Suite architecture for composition and to the supplying contribution for applicability and currentness. |
 | Mandatory answer record | Every conversation produces a lookup-result object. | Keep ordinary answers in prose; persist only for named review, reuse, publication, or reliance. |
-| “Smallest” from item necessity | Removing any one item can defeat this combination while another, smaller combination still works. | State the supported sufficiency and item-necessity claim. Claim “smallest” only with a size criterion and a comparison or argument excluding smaller sufficient combinations; otherwise say “bounded plausible combination.” |
+| “Smallest” from item necessity | Removing any one item can defeat this combination while another, smaller combination still works. | State the supported sufficiency and item-necessity claims. Claim “smallest” only with a size criterion and grounds excluding smaller sufficient combinations; otherwise retain the supported narrower conclusion. |
 | Translation as edition | Shared title or provenance hides changed claims or scheme. | Identify the derivative episteme and source-to-use path; test edition continuity independently. |
 | Byline as maintenance or authority | Author attribution is made to carry responsibility, currentness, or authority. | Show attribution when useful and establish maintenance, publication, authority, and currentness separately. |
 

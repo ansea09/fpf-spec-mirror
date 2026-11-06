@@ -6,12 +6,12 @@ section_id: "F.7:11"
 section_title: "Worked example and application sketches"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.7/F.7__012_worked-example-and-application-sketches.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "F.7 — Display Source-Local Comparisons in a Concept-Set Table"
   - "F.7:11 — Worked example and application sketches"
-line_start: 120755
-line_end: 120786
+line_start: 120650
+line_end: 120681
 dependencies:
   - "A.6.9"
   - "B.3"
@@ -63,7 +63,7 @@ Performed-Work attribution remains an A.15.1 and F.6 claim about actual Work and
 
 #### F.7:11.4 - Class inclusion and FCA order
 
-A contrast row may show OWL class inclusion, FPF subtype, and FCA concept order together while stating that FCA order is not class inclusion. A positive relation between the first two is still a separate claim with its own semantics and evidence.
+A contrast row may show OWL class inclusion, FPF `U.SubkindOf`, and FCA concept order together. FCA orders formal concepts by inclusion of their extents, equivalently reverse inclusion of their intents, within a selected formal context ([Rudolph, Săcărea and Troancă, 2015, §2.1](https://iccl.inf.tu-dresden.de/w/images/a/aa/RST-IJCAI2015.pdf)). That order does not by itself establish an OWL class axiom or an FPF subkind fact. A positive correspondence requires an explicit interpretation and grounds for the chosen domain and membership criteria.
 
 #### F.7:11.5 - *Role* trigger word
 

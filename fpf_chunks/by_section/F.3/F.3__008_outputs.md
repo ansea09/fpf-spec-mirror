@@ -6,12 +6,12 @@ section_id: "F.3:7"
 section_title: "Outputs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.3/F.3__008_outputs.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "F.3 — Source-Local Sense Clustering"
   - "F.3:7 — Outputs"
-line_start: 119461
-line_end: 119472
+line_start: 119351
+line_end: 119362
 dependencies:
   - "A.11"
   - "A.7"
@@ -36,8 +36,8 @@ keywords:
 
 For each interpretation basis used by the receiving question, F.3 yields a small set of local-sense claims. Each has:
 
-* a Tech and Plain label pair;
-* a one-sentence LocalSenseClaim;
+* any additional labels needed by a naming or didactic use;
+* the LocalSenseClaim and sufficient explanation of its meaning;
 * the supporting expressions and passages;
 * an optional counterexample that sharpens the boundary;
 * an optional F.17 SchemeSenseCell when durable addressability is worth its cost.

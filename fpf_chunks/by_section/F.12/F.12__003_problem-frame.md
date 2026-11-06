@@ -6,12 +6,12 @@ section_id: "F.12:2"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.12/F.12__003_problem-frame.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "F.12 — Evaluate Promise Fulfilment from Work Evidence (Service Acceptance)"
   - "F.12:2 — Problem frame"
-line_start: 122647
-line_end: 122655
+line_start: 122542
+line_end: 122550
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -53,6 +53,6 @@ keywords:
 2. **Output ≠ outcome.** Commands or setpoints are mistaken for the consumer-relevant result.
 3. **Word ≠ measure.** *Availability*, *latency*, or *incident* is used without recovering its exact local meaning and characteristic.
 4. **Proxy by assumption.** Monitor output is called a proxy before asking whether the observation and measurement model already concern the promised characteristic directly; when they do not, the needed indicator relation has no defining or testing rule.
-5. **Evaluation disappears.** A verdict appears without evaluation Work, an enacted evaluation Method, exact operation inputs, or a result binding.
+5. **Evaluation disappears.** A verdict appears without the selected facts, acceptance rule, calculation or other application that supports its result. A claim about who performed the evaluation additionally needs its actual performance basis.
 6. **Status families collapse.** `Satisfied`, `Violated`, and `Inconclusive` are treated as one universal scale even though the first two are RequirementStatus values and the third is an EvidenceStatus value unless an exact local result scale says otherwise.
 

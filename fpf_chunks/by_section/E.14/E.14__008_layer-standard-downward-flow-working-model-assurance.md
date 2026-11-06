@@ -6,12 +6,12 @@ section_id: "E.14:5"
 section_title: "Layer Standard & Downward Flow (Working‑Model → Assurance)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__008_layer-standard-downward-flow-working-model-assurance.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.14 — Human-Centric Working-Model: Readable Claims and Recoverable Assurance"
   - "E.14:5 — Layer Standard & Downward Flow (Working‑Model → Assurance)"
-line_start: 105449
-line_end: 105516
+line_start: 105368
+line_end: 105435
 dependencies:
   - "B.3.5"
   - "C.13"
@@ -75,9 +75,9 @@ This section defines **what each layer is for**, **what it guarantees when selec
 
 **Purpose.** Make the empirical basis and bounded admissible use of one Working-Model claim inspectable without turning evidence, provenance, or an assurance record into the subject result.
 
-**Guarantee.** A `postulate` remains a scoped working claim: state its target and scope and supply the brief empirical cues that B.3.5 calls for. It does not establish that evaluation or measurement Work occurred or that a result exists. When evaluation or measurement did occur and the current assurance use relies on its result, name the target claim, `U.ClaimScope`, qualification window, and the pattern that defines or tests the result; recover every performer `U.System`'s A.13 core and independently admit the dated Work under A.15.1 with the Method it enacted. Add F.6 only when the assurance use also needs each exact Work-assignment attribution; the assignment remains a separate A.2.1 claim. Cite a relied-on `U.MethodDescription` only when current, test any local system-role-kind classification separately, and name the participants or A.6.1 bindings, domain-local result, and C.2.1 result episteme that the claim uses. Use A.10 for the evidence-provenance path and reliance disposition, and B.3 for any assurance claim. These objects can support or qualify the Working-Model claim. Another named current assurance requirement retains its own obligations.
+**Guarantee.** Supply the empirical support required for the target claim and receiving use. A permitted `B.3.5` postulate states its scope, links an admissible evidence object and gives challenge cues; an ungrounded proposal does not satisfy that elected profile. For a relied-on domain result, recover its interpretation, applicability and source grounds under the pattern that defines or tests it. Keep any required scope selectors and temporal qualification; do not add a time window to a non-temporal claim merely for this account. Where the result or profile consumes a dated Work claim, establish its performer basis under A.13, independently admit the Work under A.15.1 and retain its enacted Method. F.6 supplies exact assignment-bound attribution when consumed; A.2.1 governs the assignment. Keep any relied-on MethodDescription edition, participant or A.6.1 binding, local classification and C.2.1 result-episteme identity under their own rules. Use A.10 for a source-to-use account that needs to be explicit or replayable, and B.3 for an assurance claim. Already sufficient grounds remain usable; an unresolved required premise remains open.
 
-**Deliverable.** Keep the ordinary Working-Model sentence first. For a postulate with no relied-on completed result, state its scope and add the brief empirical cues called for by the selected profile, then stop. When the current use relies on an actual evaluation or measurement result, expose only the exact result, Work, provenance, currentness, and assurance relations that use consumes. Intended evaluation remains in `U.WorkPlan` until dated Work occurs. If a claim that evaluation Work first constituted the result episteme is separately current, A.15.PROD alone recovers that local entity-identity inception claim; no universal work-result, evidence-result, or production relation is implied. Re-evaluate the affected reliance when expiry or changed sources, method, calibration, result, qualification window, provenance, or assurance basis can change its support. Narrow or withdraw that reliance when its applicable condition fails; age alone does not defeat still-applicable evidence. Under B.3/B.3.3, Empirical Validation contributes only what its result establishes for the target claim and receiving use. Any reliability calculation needs its exact domain quantity and model; claim scope follows A.2.6 and the evidence that warrants that scope and window.
+**Deliverable.** Keep the ordinary Working-Model sentence first and expose only the support required for its stated use. A `postulate` follows the elected profile, including B.3.5's evidence object and challenge cues when that profile applies; no new evaluation is required merely to declare the posture. A proposed evaluation remains prospective; use `U.WorkPlan` when coordination of future Work is needed. If the current question concerns the Work's productive treatment, an episteme's identity inception or a production-completion condition, use A.15.PROD for that question. Re-evaluate only reliance affected by a changed source, method, calibration, result, temporal qualification, provenance or assurance premise. Narrow or withdraw that reliance when its applicable condition fails; age alone does not defeat still-applicable evidence. Under B.3/B.3.3, Empirical Validation contributes what its result establishes for the target claim and receiving use. A reliability calculation needs its exact domain quantity and model; scope follows A.2.6 and its warrant.
 
 #### E.14:5.6 - Purpose-selected support for a single Working-Model statement
 
@@ -86,7 +86,7 @@ Start with the direct Working-Model arrow **A –Component-of→ B**. If no assu
 1. **Mapping**, when source-word alignment matters, shows that *A* and *B* are the chosen labels for their model values and records background labels without making them Working-Model names.
 2. **Logical**, when the relation reading needs assurance, states what **Component-of** means here and the boundaries of that use.
 3. **Constructive**, when `B.3.5` is elected for this structural assertion, links the readable claim to one current C.2.1 trace episteme that reports the participants, direct relation occurrences, construction rule, and identity conditions in a C.13 `sum` form; the author declares `validationMode=axiomatic`. The direct relation and identity tests remain decisive.
-4. **Empirical Validation**, when the current reliance needs observation, names the empirical claim and scope, domain result and result episteme, dated evaluation or measurement Work, actual bindings required by the measurement rule, qualification window, A.10 evidence-provenance path, and any separately current B.3 assurance claim. Those objects support this bounded use.
+4. **Empirical Validation**, when the current reliance needs observation, exposes the empirical claim, supported domain result and scope, together with the Work, result-episteme identity, bindings, temporal qualification and source-to-use account that the claim or elected profile consumes under §5.5. A separately current B.3 assurance claim retains its own grounds.
 
 The selected support stays below the readable claim. It makes the needed basis inspectable without forcing unused assurance machinery into the Working-Model.
 

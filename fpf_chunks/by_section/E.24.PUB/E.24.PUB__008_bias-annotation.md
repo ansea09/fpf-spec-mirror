@@ -6,12 +6,12 @@ section_id: "E.24.PUB:6"
 section_title: "Bias Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__008_bias-annotation.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.24.PUB — Episteme Publication: Availability, Form and Carrier"
   - "E.24.PUB:6 — Bias Annotation"
-line_start: 117292
-line_end: 117302
+line_start: 117182
+line_end: 117192
 dependencies:
   - "A.6.3"
   - "A.6.3.RT"
@@ -38,7 +38,7 @@ keywords:
 
 ### E.24.PUB:6 - Bias Annotation
 
-Lenses tested: **Onto**, **Epist**, **Semio**, **Arch**, **Prag**, **Did**.
+
 
 - **Onto:** direct relation occurrences and their actual participants remain primary; visible forms do not decide kinds.
 - **Epist:** the selected edition, audience declaration, and bounded-use declaration retain C.2.1 identities.

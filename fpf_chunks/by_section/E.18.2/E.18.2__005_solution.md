@@ -6,12 +6,12 @@ section_id: "E.18.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.2/E.18.2__005_solution.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.18.2 — Transformation Flow Mathematical Description"
   - "E.18.2:4 — Solution"
-line_start: 111613
-line_end: 111704
+line_start: 111521
+line_end: 111612
 dependencies:
   - "A.10"
   - "A.15"
@@ -38,11 +38,11 @@ keywords:
 
 ### E.18.2:4 - Solution
 
-Write a `TransformationFlowMathematicalDescription@Context` only when the mathematical expression changes the current transformation-flow description move. Name exactly one described ontic subject: one E.18 TFS or one E.18.NET network. Keep that subject reference, the mathematical description, any C.29 lens-use judgment, and any E.17 publication face separate. Then decide whether the C.29 lens-use card is needed for adequacy, payoff, preserved/lost structure, or boundary.
+Write a `TransformationFlowMathematicalDescription@Context` only when the mathematical expression changes the current transformation-flow description move. Name exactly one described ontic subject: one E.18 TFS or one E.18.NET network. Keep that subject reference, the mathematical description, any C.29 lens-use judgment, and any E.17 publication face separate. If a separate representation, transfer or adequacy question remains beyond the sufficient local description, use C.29 and retain its result; add a lens-use record only when the receiving use needs one.
 
-#### E.18.2:4.1 - First-use record
+#### E.18.2:4.1 - First-use account
 
-Use this compact record for ordinary cases:
+State the subject, mathematical object, correspondence, preserved or lost structure and declared use in ordinary prose or equations when sufficient. Use this compact record when the receiving use needs a separately inspectable description:
 
 ```text
 TransformationFlowMathematicalDescription@Context:
@@ -115,7 +115,7 @@ E.18.2 defines the mathematical description of the selected TFS or network. For 
 | formal-substrate signature | `A.6.0` supplies the profile-specific signature declaration |
 | work plan | Apply A.15.2's plan-identity and intended-work rules to identify the plan and intended-work relations. |
 | performed work | Apply A.15.1's occurrence and identity rules to identify the dated `U.Work` occurrence. |
-| evidence use | `A.10` supplies the evidence relation for the named reliance |
+| evidence use | Recover the evidence and its support for the named reliance under the subject rules and `A.2.4`; use `A.10` when its source-to-use account is implicit or must remain replayable |
 | assurance use | `B.3` returns the bounded assurance result for that reliance |
 | internal step validity | `A.20` returns the constraint-validity result |
 | gate profile or decision | `A.21` supplies the gate profile, aggregation, decision, and publication minima |

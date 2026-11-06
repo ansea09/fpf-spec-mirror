@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.23.CDI.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.23.CDI — Developing Capability for a Named Work Family"
-line_start: 115513
-line_end: 115723
+line_start: 115404
+line_end: 115614
 dependencies:
   - "A.15.1"
   - "A.2.2"
@@ -89,7 +89,7 @@ Keep the holder System, its capability, the target Work family, development inte
 4. Find the contribution that is missing, limiting, or poorly coordinated. When the issue is which organization of a particular Method the holder can use, apply A.2.2:2.1 at the grain that exposes the missing relation; use :4.2.1 below to choose how it will become usable.
 5. Choose an intervention directed at that limitation, and name any provider System on which the intervention relies. The intervention may use, for example, practice, coaching, adaptation, tooling, changed support, or a changed Method; the receiving domain supplies the actual choice.
 6. Carry the protected conditions into the chosen intervention. Keep the selected intervention or plan separate from any development Work that is later performed.
-7. Declare a transfer check that tests the stated target in representative Work under the relevant operating conditions. When that check is performed, keep the transfer Work, its evidence and result, and the resulting capability statement or currentness assessment separate. An exercise, description, publication, attendance record, or provider delivery is not that transfer check.
+7. Declare a transfer check that tests the stated target in representative Work under the relevant operating conditions. When that check is performed, keep the transfer Work, its evidence and result, and the resulting capability statement or currentness assessment separate. Exercise completion, attendance or provider delivery alone does not establish transfer. Reuse evidence from an exercise or another check when it tests the declared target in representative Work under the receiving conditions and satisfies its evidence requirements.
 8. Reopen the Method account, holder boundary, baseline, target, intervention, protected conditions, or currentness claim when the transfer evidence shows that the earlier account was wrong, incomplete, or no longer current.
 
 ##### E.23.CDI:4.2.1 - Choose how Method structure will become usable
@@ -122,7 +122,7 @@ Keep the selected intervention or plan, performed development Work, performed tr
 
 ### E.23.CDI:5 - Archetypal Grounding
 
-**Working rule.** Begin with a current, bounded capability account and a desired result; choose an intervention only after the limiting contribution is known; then test that same target in representative Work. A completed intervention or exercise is activity evidence, not a transfer result.
+**Working rule.** Begin with a current, bounded capability account and a desired result; choose an intervention only after the limiting contribution is known; then test that same target in representative Work. Completion of an intervention or exercise alone is activity evidence; a transfer claim needs the representative performance and support specified above.
 
 The compact range table below is a recognition aid: it shows where the Method can be filled differently.
 
@@ -171,7 +171,7 @@ Suppose a trial learner's training signal improves while it still produces the a
 | `CC-E23CDI-3` | Before intervention selection, the desired measures or success predicate and protected conditions are explicit; the desired result is not presented as an established current ability or actual change. |
 | `CC-E23CDI-4` | The intervention addresses the limitation; any provider System and provider contribution remain distinct from the holder's capability, and a selected plan remains distinct from performed development Work. |
 | `CC-E23CDI-5` | Transfer tests the declared target in representative Work under the relevant envelope and window; attendance, exercise completion, description, publication, or provider delivery is not substituted. |
-| `CC-E23CDI-6` | The plan, performed development Work, performed transfer Work, evidence and result, pre- and post-intervention capability statements, capability-change comparison, and any actual Transformation claim remain separate. The comparison uses commensurable measures, envelopes, windows, and current support. A causal Transformation claim cites an independently identified Transformation and an obtaining direct Work-to-change predicate or supported local claim; otherwise the exact missing-governor blocker remains. |
+| `CC-E23CDI-6` | The plan, performed development Work, performed transfer Work, evidence and result, pre- and post-intervention capability statements, capability-change comparison, and any actual Transformation claim remain separate. The comparison uses commensurable measures, envelopes, windows, and current support. A causal Transformation claim cites an independently identified Transformation and an obtaining direct Work-to-change predicate or supported local claim; otherwise retain the actual unresolved basis. Reserve `missing-governor` for an unavailable predicate or governing condition; missing case facts leave the relation unestablished, and a supported negative or inapplicable result remains distinct. |
 | `CC-E23CDI-7` | A population is not treated as capable by aggregation. Member distributions and cultural propagation have separate results unless the population whole is independently admitted as the holder System. |
 | `CC-E23CDI-8` | The result states what evidence, expired qualification window, changed operating condition, or failed transfer result reopens the baseline, target, Method account, holder boundary, intervention, protected conditions, or currentness claim. |
 | `CC-E23CDI-9` | When acquisition adapts to feedback, its action choice and costs are stated; the receiving check can distinguish improved control feedback from usable Method structure and can change the intervention when they disagree. |
@@ -183,7 +183,7 @@ Suppose a trial learner's training signal improves while it still produces the a
 | Training completed, capability changed | Keep the training or exercise result, then check the admitted holder's capability and transfer in representative Work. |
 | Group label as holder | Identify the exact System whose capability is claimed; keep member capabilities separate unless the whole is admitted for that claim. |
 | Provider success as holder success | Record the provider contribution separately and test whether the holder can perform the named Work. |
-| Exercise as transfer | Preserve the exercise evidence but run a representative-Work check under the relevant conditions. |
+| Exercise as transfer | Assess what the exercise evidence supports under the receiving conditions. Reuse a sufficient representative-Work check; obtain the missing performance evidence when the exercise does not supply it. |
 | Balanced means equal scores | Name the limiting contribution and protected conditions; do not invent a universal scale or equal target. |
 | Cultural spread as capability | Use `C.36` for distributed cultural change and keep capability with the admitted holder System. |
 | Human training as the universal intervention. Practice, coaching, or credential language is copied into a technical, organizational, AI, collective, equipped, or hybrid case without identifying the actual limiting contribution. | Recover the holder-specific limitation and domain Methods, choose the intervention that addresses it, and test the declared target in representative Work. |
@@ -222,8 +222,8 @@ The comparison below asks which current practice changes the capability-developm
 | `A.1`, `A.2.2` | Admit the holder System and govern qualified ability claims, their work conditions and attained bounds, support, qualification and fit. A.2.2:2.1 supplies the Method-relative profile when a missing operation or join changes development. |
 | `C.2.8` | Supplies recovery of selected structure from an expressed account. That result can help locate a missing explanation while capability, acquisition and transfer keep their own evidence. |
 | `A.3.1`, `A.3.2` | Govern the domain Methods and their descriptions used by the development account. |
-| `A.13`, `A.15.1`, `A.2.1`, `F.6` | Govern exact actual-performer recovery and independent admission of performed development and transfer Work. Assignment and F.6 enter only for an expressly consumed precise assignment-bound attribution. Completion of either Work occurrence does not establish a post-intervention capability or actual capability change. |
-| `A.3.4`, `A.6.RCD` | Govern an independently identified actual Transformation and the obtaining direct Work-to-change predicate or supported local claim needed when development Work is said to have caused that change. When neither route is available, keep Work and Transformation separate and return the exact missing-governor blocker. |
+| `A.13`, `A.15.1`, `A.2.1`, `F.6` | Govern exact actual-performer recovery and independent admission of performed development and transfer Work. The obtaining A.13 assignment remains part of actual-performer admission; expose separate assignment and F.6 references when precise assignment-bound attribution is consumed. Completion of either Work occurrence does not establish a post-intervention capability or actual capability change. |
+| `A.3.4`, `A.6.RCD` | Govern an independently identified actual Transformation and the obtaining direct Work-to-change predicate or supported local claim needed when development Work is said to have caused that change. Keep Work and Transformation separate until that relation is supported. Return the missing predicate or governing condition, missing case evidence, or supported negative/inapplicable result according to the actual failed requirement. |
 | `A.19`, `C.2.1`, `A.10`, `B.3` | Govern comparison of declared measures, capability statements, and the evidence, ordinary reliance, or assurance relations that support their use. These epistemes and relations are not the holder's actual ability, an actual Transformation, or a causal Work-to-change claim. |
 | `E.22` | Frames the capability or transfer evaluation when that question needs an explicit evaluation use. |
 | `E.23` | Supplies the general improvement boundary and routes here when capability development for named Work is the live question. |

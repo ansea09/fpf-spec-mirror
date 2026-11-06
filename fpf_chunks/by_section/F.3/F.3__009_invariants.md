@@ -6,12 +6,12 @@ section_id: "F.3:8"
 section_title: "Invariants"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.3/F.3__009_invariants.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "F.3 — Source-Local Sense Clustering"
   - "F.3:8 — Invariants"
-line_start: 119473
-line_end: 119483
+line_start: 119363
+line_end: 119373
 dependencies:
   - "A.11"
   - "A.7"
@@ -36,8 +36,8 @@ keywords:
 
 1. **Basis explicit.** Every LocalSenseClaim names the source and edition and the effective reference scheme needed to interpret it.
 2. **Parsimony.** Prefer the coarsest partition that preserves source-grounded differences relevant to use.
-3. **Idiomatic Tech.** The Tech label remains source-faithful.
-4. **Didactic Plain.** The Plain label aids comprehension without adding scope.
+3. **Idiomatic Tech.** A Tech designation, when used, remains source-faithful.
+4. **Didactic Plain.** A Plain designation, when used, aids comprehension without adding scope.
 5. **Usage first.** Claims follow source passages, not imported taxonomies.
 6. **Counterexample rule.** A source-grounded counterexample that matters to the receiving question forces a split or tighter claim.
 7. **Category boundary.** A local-sense claim does not establish behaviour, obligation, measurement, kindhood, assignment, or Work.

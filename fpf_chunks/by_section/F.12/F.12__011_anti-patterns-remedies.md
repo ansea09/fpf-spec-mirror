@@ -6,12 +6,12 @@ section_id: "F.12:10"
 section_title: "Anti-patterns & remedies"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.12/F.12__011_anti-patterns-remedies.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "F.12 — Evaluate Promise Fulfilment from Work Evidence (Service Acceptance)"
   - "F.12:10 — Anti-patterns & remedies"
-line_start: 122783
-line_end: 122800
+line_start: 122680
+line_end: 122697
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -55,7 +55,7 @@ keywords:
 | **A2** | Output as outcome | Setpoint writes or commands prove service delivery. | Intended influence replaces observed result. | Use observations and measurement that directly concern the promised characteristic; if a distinct indicator relation is needed, define or test it and state its loss. |
 | **A3** | Cell as subject | ClauseCell, WorkCell, or MeasureCell bears the result or status. | Lexical address replaces promise, Work, evaluation, and evidence. | Cite the actual values; retain a cell only as an address. |
 | **A4** | Generic Bridge | One Bridge is claimed to connect promise, Work, measure, indicator, result, and status. | Several distinct relations disappear. | Use A.2.3 for promise-side relations, C.16 for measurement, the defining or testing pattern for an indicator relation, A.10 for evidence use, A.15.1 and A.6.1 for evaluation, F.10 for status, and F.9 only for local-meaning relations. |
-| **A5** | Windowless result | “We met the SLA” has no period, population, evaluation Work, or applied rule. | The claim cannot be replayed. | State window, population, evaluation Work, application, result binding, and declared scale. |
+| **A5** | Windowless result | “We met the SLA” omits the relevant period, population or applied rule. | The acceptance claim cannot be justified for its declared use. | Recover the window, population, inputs, rule, result and applicable scale; add evaluation-Work or application identity when claimed or required. |
 | **A6** | Percentile mirage | Annual pooled p95 is used for a monthly promise. | Aggregation and promise scope differ. | Evaluate within the promise’s exact window and population. |
 | **A7** | Proxy by label | Synthetic probes equal user experience because they are called a proxy. | The text skips the direct-measurement question and any actual indicator relation. | First test whether C.16 already measures the promised characteristic. If not, name both indicator participants and its defining or testing pattern; use C.16.P and return `missing-governor` when absent. |
 | **A8** | Work mismatch | Evidence concerns another product, region, or occurrence. | The result is about the wrong subject. | Match every observation to the judged Work or population. |

@@ -6,12 +6,12 @@ section_id: "E.10:11"
 section_title: "E.10 conformance prompts (normative, concept-only questions)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__013_e-10-conformance-prompts-normative-concept-only-questions.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:11 — E.10 conformance prompts (normative, concept-only questions)"
-line_start: 100515
-line_end: 100537
+line_start: 100434
+line_end: 100456
 dependencies:
   - "A.10"
   - "A.15"
@@ -69,10 +69,10 @@ keywords:
 5. **Qualifier-claim prompt.** If an adjective, participle, genitive, or comparative modifier carries a claim being made, comparison criterion, relation, or admissible-use boundary, has that use been restored explicitly rather than left inside the modifier alone?
 6. **Relation and representation prompt.** Does the sentence state its ordinary relation and participants? If the distinction among an obtaining fact, reusable declaration, claim or report, and representation remains unresolved, use `E.10.ARCH`; if it is already clear, use the exact subject pattern without inventorying the other branches.
 7. **Support interpretation prompt.** Write the concrete relation first. Keep ordinary or quoted `support`; otherwise use the direct subject pattern, `A.6.P` only for an unclear predicate or participant, `A.6.RCD` only after both are clear but no current pattern supplies the rule, and `A.6.6` for basedness. Section `E.10:0.2c.18` carries the examples; do not recreate its alternatives in the repaired sentence.
-8. **Comparison-basis prompt.** If the sentence compares, ranks, escalates, or downgrades something, is the comparison basis ontologically homogeneous after head-kind and qualifier restoration?
+8. **Comparison-basis prompt.** Does the basis satisfy the comparison or condition rule actually used? Preserve the distinct relations or values when that rule combines them; require homogeneity where the rule needs it, after restoring the heads and qualifier claims.
 9. **Morphology prompt.** Do suffix, compound, prefix, and casing pass **LEX.Morph** gates (for example, concrete `…SystemRole` kind designations, `MethodDescription`, and `Work`), with no default bare-`Role` Tech reading?
 10. **Promise, ability, access, and performance split.** Are service promise or acceptance content, service-access relation, **Capability** (ability), and **Work** (performance) distinct and defined by their patterns?
-11. **Plan and execution split.** Are planning cues and `U.WorkPlan` kept separate from performed `U.Work`? For each actual performer, does A.13 supply the local kind and criterion, classification, same obtaining assignment, scope, working situation, window, and adequate core evidence, with a profile only when conditionally consumed? Does A.15.1 then independently admit the Work from its performance history, Method, time, and containing System? When precise assignment-bound attribution is claimed, does F.6 separately relate that already admitted Work through the same assignment? Do affected-referent, binding, resource-use, assertion, and description claims remain separate?
+11. **Plan and execution split.** Are planning cues and `U.WorkPlan` kept separate from performed `U.Work`? For each actual performer, does A.13 supply the local kind and criterion, classification, same obtaining assignment, any scope, working situation and window required by the use, and adequate core evidence, with a profile only when conditionally consumed? Does A.15.1 then independently admit the Work from its performance history, Method, time, and containing System? When precise assignment-bound attribution is claimed, does F.6 separately relate that already admitted Work through the same assignment? Do affected-referent, binding, resource-use, assertion, and description claims remain separate?
 12. **Predicate-compatibility cue.** When evidence, a document, publication, pattern, representation, or method is the grammatical subject of an agentive or causal predicate, read the complete span through `F.19`, including negation and modality. Retain clear ordinary metonymy; otherwise state the capable participant's action or the exact non-agentive relation positively. Open A.1, A.13, A.15.1, or F.6 only when precise agency, Work, or attribution is part of the claim.
 13. **Bridge prompt.** When the text asserts an F.9 Bridge between local senses, are the exact cells identified and does that relation obtain under its applicable profile? When a receiving use is current, does a separate C.2.1 claim state the proposed action, use direction, correspondence rule, tolerated loss and polarity? Keep reliance, assurance and any performed action separate and open them only when current. Other relations between local senses use their own defining rule.
 14. **Collision prompt.** Were full-text and Reserved-Names checks completed, with no other meaning of this token anywhere in FPF?

@@ -6,12 +6,12 @@ section_id: "E.9:4"
 section_title: "Solution — state the decision before distributing it"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9/E.9__006_solution-state-the-decision-before-distributing-it.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.9 — Design-Rationale Record (DRR) for FPF Content Decisions"
   - "E.9:4 — Solution — state the decision before distributing it"
-line_start: 98263
-line_end: 98443
+line_start: 98196
+line_end: 98366
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -84,12 +84,12 @@ substantive DRR adequacy rather than later review-only hardening.
 | **Exact decision grounds and governing inheritance** | Exact source documents, accepted architecture records, accepted audit records, and inherited decisions that materially govern the decision, plus any remaining uncertainty not already closed by those grounds. | Header or `Decision grounds used`, with the Problem frame or Rationale carrying the decision-relevant source use. |
 | **Purpose, utility, and scenario grounding** | Intended FPF use-value, first-minute working situation, minimum scenario/anti-case grounding, and compact utility/fitness reading. | Problem frame. |
 | **Decision-relevant alternatives and current disposition** | The alternatives needed to explain the selected answer, a live boundary, or a reopen condition, with their current disposition. Discussion history and harmless options stay outside the current DRR; retain them in a separate historical source only when a named later use needs that history. | Decision and Rationale. |
-| **Content-distribution and outside-boundary map** | For each load-bearing selected answer: the positive content obligation each selected pattern or selected non-pattern FPF kind-reference pair must carry, the first subject kind and action guidance expected in drafting when a pattern is selected, which decision-relevant related patterns or selected non-pattern FPF kind-reference pairs stay unamended under the current decision, and any agreement that must hold across selected loci. Outside-boundary and non-obligation material is secondary distribution control; it must be normalized, compact, and not pasteable as copied negative doctrine or precision-restoration debt for the selected pattern Solution. Ordinary `use/apply this pattern` wording remains valid action-guiding shorthand. In the distribution map, state the concrete claim, relation, boundary, or practitioner action that would change. Repeated content-family and reference catalogues, README/ToC/E.11 navigation, current development's package-boundary, split/defer, and architecture-placement correspondence, and phrase-level boilerplate around simple claims stay in DRR, architecture documents, handoff, relation rows, README, ToC, `E.11`, or one compact local locus instead of the Solution. Publish use-changing architectural reasons under `E.8:4.2.3`. When proposed wording still needs precision restoration, the DRR names the selected restoration or governing pattern: `E.10`, `E.10.ARCH`, `F.18`, `F.19`, or another governing pattern. Named related patterns or selected non-pattern FPF kind-reference pairs must be classified now, not left as tentative `most likely` / `may need` / `if later touched` watch prose. | Decision. |
-| **Existing-pattern sufficiency and new-pattern necessity** | For each load-bearing selected answer, whether one already-existing pattern is sufficient, one already-existing selected non-pattern FPF kind-reference pair is sufficient, or one newly selected pattern or selected non-pattern FPF kind-reference pair is necessary, and why rejected options would misplace, overload, or falsely split the pattern or selected non-pattern FPF kind-reference pair that governs the selected answer. | Decision and Rationale. |
+| **Content-distribution and outside-boundary map** | For each load-bearing selected answer: the positive content obligation each selected locus must carry, the first subject kind and action guidance expected in drafting when a pattern is selected, which decision-relevant related selected loci stay unamended under the current decision, and any agreement that must hold across selected loci. Outside-boundary and non-obligation material is secondary distribution control; it must be normalized, compact, and not pasteable as copied negative doctrine or precision-restoration debt for the selected pattern Solution. Ordinary `use/apply this pattern` wording remains valid action-guiding shorthand. In the distribution map, state the concrete claim, relation, boundary, or practitioner action that would change. Repeated content-family and reference catalogues, README/ToC/E.11 navigation, current development's package-boundary, split/defer, and architecture-placement correspondence, and phrase-level boilerplate around simple claims stay in DRR, architecture documents, handoff, relation rows, README, ToC, `E.11`, or one compact local locus instead of the Solution. Publish use-changing architectural reasons under `E.8:4.2.3`. When proposed wording still needs precision restoration, the DRR names the selected restoration or governing pattern: `E.10`, `E.10.ARCH`, `F.18`, `F.19`, or another governing pattern. Named related selected loci must be classified now, not left as tentative `most likely` / `may need` / `if later touched` watch prose. | Decision. |
+| **Existing-pattern sufficiency and new-pattern necessity** | For each load-bearing selected answer, whether one already-existing pattern is sufficient, one already-existing selected non-pattern FPF kind-reference pair is sufficient, or one newly selected locus is necessary, and why rejected options would misplace, overload, or falsely split the selected locus that governs the selected answer. | Decision and Rationale. |
 | **Naming, ontology, and wrong-carrier-confusion account** | Head/branch/object/move/outside-work separation, tempting wrong-pattern assignment or wrong non-pattern FPF kind-reference assignment, and any load-bearing `F.18` naming obligation needed to keep the selected answer truthful by value. | Problem frame, Decision, and Rationale. |
 | **Reusable content-disposition when triggered** | Whether a potentially reusable selected non-pattern FPF kind-reference pair remains local, is generalized now, is rejected, or is placed outside the current decision with named pattern, selected non-pattern FPF kind-reference pair, or decision record. | Decision and Rationale. |
 | **Loss and recoverability template when source-loss or scope narrowing is declared** | Preserved distinctions, dropped distinctions, admissible use, non-admissible downstream use, recoverability class, and reopen/stop rule. | Decision and Consequences. |
-| **Selected locus and related-pattern boundary account** | Why the selected loci carry the content, which tempting patterns or selected non-pattern FPF kind-reference pairs stay outside, and which governing patterns govern specific outside claims, relations, or boundaries. | Decision and Rationale. |
+| **Selected locus and related-pattern boundary account** | Why the selected loci carry the content, which tempting selected loci stay outside, and which governing patterns govern specific outside claims, relations, or boundaries. | Decision and Rationale. |
 | **Convergence and overlap account when several content-decision branches touch the same carrier set** | Whether overlap is valid convergence or an architecture problem requiring reconsideration, what agreement across selected loci must hold, and whether a new pattern or selected non-pattern FPF kind-reference pair is actually selected or refused now. | Decision and Consequences. |
 | **Selected-answer stability boundary** | Which elements of the selected answer are fixed now for later FPF drafting, and which later elaborations may strengthen wording, examples, source-use rows, or validation evidence without reopening the selected answer. | Decision and Consequences. |
 | **Impact, practical gains, and remaining validation evidence obligation** | Affected patterns and selected non-pattern FPF kind-reference pairs, practical gains/costs, authority or release consequences when they follow from the content decision, and the remaining validation evidence obligation that still constrains later authoring or landing. | Consequences. |
@@ -107,7 +107,7 @@ for one bounded coordinated change set: enough semantic closure that later
 drafting distributes the selected answer into selected loci rather than
 inventing it for the first time pattern by pattern.
 
-When one bounded decision coordinates several patterns or selected non-pattern FPF kind-reference pairs, or one cluster of mutually dependent pattern edits and selected non-pattern FPF kind-reference pair edits, the DRR **MAY**
+When one bounded decision coordinates several selected loci, or one cluster of mutually dependent pattern edits and selected non-pattern FPF kind-reference pair edits, the DRR **MAY**
 carry additional substantive sections beyond that minimum kernel. Typical substantive additions include obligations on selected loci, one explicit
 new-pattern vs existing-pattern decision, one impact or non-goal map across selected loci, coverage or agreement maps across selected loci, convergence
 classification, and one provisional decision-law account by value that
@@ -123,19 +123,9 @@ baton carrier, packet checklist, staging log, or other development-process
 brief.
 
 When one selected answer could plausibly fit an existing pattern or selected non-pattern kind-reference pair, or require a new one, the selected-answer decision result recorded in the DRR must state that sufficiency/necessity disposition by value. A tentative carrier list is not a decision result; later drafting must not be asked to invent the selected locus.
-When the accepted decision grounds or the DRR itself already names one pattern or
-selected non-pattern FPF kind-reference pair as part of the distribution question, that
-pattern or selected non-pattern FPF kind-reference pair is not a neutral future watch item. The DRR
-must classify it now either as one selected pattern or selected non-pattern FPF kind-reference pair
-with explicit obligation, one explicit boundary neighbor kept unchanged,
-one inherited-unchanged neighbor, or one outside-current-decision item
-with named pattern, selected non-pattern FPF kind-reference pair, or decision record. Conditional or
-time-relative pattern prose or prose for one selected non-pattern FPF kind-reference pair such as `most likely`, `may need local
-hardening`, `if later touched`, `watch later`, or one equivalent
-placeholder is non-conforming there because it marks one unmade current
-decision rather than one explicit current disposition.
+When accepted decision grounds or the DRR names a pattern or non-pattern kind-reference pair as part of the distribution question, classify that locus now: selected with an explicit obligation, a boundary neighbour kept unchanged, inherited unchanged, or outside the current decision with a named pattern, kind-reference pair, or decision record. A phrase such as `may need local hardening` does not settle that current disposition.
 
-When decision grounds expose a potentially reusable non-pattern carrier or neighboring source-use, evidence, assurance, validation, or architecture-decision mechanism, the selected-answer result must classify it as generalized now, kept local with reason, rejected, or outside the decision with a named pattern, selected non-pattern FPF kind-reference pair, or decision record. The DRR records that disposition; mere mention of an existing artifact is not the deciding work or result.
+When decision grounds expose a potentially reusable non-pattern carrier or neighboring source-use, evidence, assurance, validation, or architecture-decision mechanism, the selected-answer result must classify it as generalized now, kept local with reason, rejected, or outside the decision with a named locus or decision record. The DRR records that disposition; mere mention of an existing artifact is not the deciding work or result.
 When one selected answer involves source-loss mode, simplification, redaction,
 summarization, or other declared loss, the DRR must make the admissible-use template explicit by value. Explanation alone is not enough; the decision
 must say what remains preserved, what is dropped, which branch reading is admissible and which selected non-pattern FPF kind-reference pair carries it, which uses lack an admissible carrier or evidence path, what recoverability class
@@ -145,17 +135,17 @@ declared source-loss or scope-narrowing state.
 A nontrivial DRR is mature enough for downstream authoring only when
 material selected-answer branch choices about the EntityOfConcern, selected loci, outside-current-decision boundary, reusable-content disposition,
 and loss/recoverability regime have already been selected, rejected,
-inherited unchanged, or placed outside the current decision with a named pattern, selected non-pattern FPF kind-reference pair, or decision record. If those choices are still missing, the DRR is still decision-grounding work
+inherited unchanged, or placed outside the current decision with a named locus or decision record. If those choices are still missing, the DRR is still decision-grounding work
 rather than one accepted design-rationale record.
 
 The DRR episteme lives **outside** normative Core. A separately governed acceptance, authority, or realization decision may rely on it, but the word *accepted*, a record status, review mark, or publication does not make its claims true or authorize change.
 
-When the selected answer is separately authorized for realization, dated authoring work applies it to the selected patterns or selected non-pattern Core kind-reference pairs. The changed Core content, authoring work, result claims, checks, witnesses, publications, and any landing or release record remain distinct; apply the relevant pattern to each claim. The DRR remains external provenance and temporary convergence support; it must not remain the sole carrier of enduring semantics after those semantics are realized in Core.
+When the selected answer is separately authorized for realization, dated authoring work applies it to the selected loci. The changed Core content, authoring work, result claims, checks, witnesses, publications, and any landing or release record remain distinct; apply the relevant pattern to each claim. The DRR remains external provenance and temporary convergence support; it must not remain the sole carrier of enduring semantics after those semantics are realized in Core.
 
 Authors using a separately accepted selected answer may elaborate examples, SoTA-Echoing, recognition sections, local wording, and neighboring fit inside its declared stability boundary. A change to the selected answer, selected loci, outside boundary, reusable-content disposition, or loss/recoverability regime requires a successor decision result and DRR episteme rather than a silent edit to downstream prose.
 
 Improvement work may apply E.23 to a DRR episteme. That work, its method applications, quality-result claims, and witnesses are separate from the DRR and do not turn the record into a pattern draft. When SoTA is load-bearing, the successor decision result must show what changed in the selected answer, locus obligation, boundary, example, validation obligation, or reopen condition; otherwise the source use remains rationale-only or lineage-only.
-When a campaign creates or modifies route-shaped, unfolding-shaped, first-entry, DPF, or multi-pattern path material, add a compact `CampaignProblemSolutionUnfoldingCheck`:
+When a campaign changes route-shaped, unfolding-shaped, first-entry, DPF or multi-pattern path material, make the connection from its actual starting situation to the selected solution and next use recoverable. The following optional form can carry those contents; include only fields that describe the current decision:
 
 ```text
 CampaignProblemSolutionUnfoldingCheck:
@@ -174,12 +164,12 @@ CampaignProblemSolutionUnfoldingCheck:
   whatStayedOnlyInDRRAndMustMoveToPatternOrUnfoldingStructure:
   whatStayedOnlyInReadmeAndMustMoveToPatternOrUnfoldingStructure:
   blockedOverreads?: [only exact readings admitted by `F.19`'s grounded-contribution test]
-  rejectedUnfoldingAlternatives:
+  rejectedUnfoldingAlternatives?: <only those needed to explain the selected answer, boundary, or reopen condition>
   unfoldingCarryThroughResidueAfterContentUpdate:
   refreshOrReopenTrigger:
 ```
 
-The critical field is `whatStayedOnlyInDRRAndMustMoveToPatternOrUnfoldingStructure`. If it remains nonempty after host drafting, the selected answer has not been fully realized. The next authoring work moves the surviving content into the selected pattern body, unfolding block, README seed, E.11 expansion, or concrete relation locus; adding another record paragraph is not realization.
+After host drafting, identify any enduring selected content that remains available only in the DRR. Move it into the selected pattern body, unfolding block, README seed, E.11 expansion or concrete relation locus so that the public reader can obtain and use the solution.
 
 To preserve **P-2 Didactic Primacy** without duplicating meta-text, realization work using a separately accepted selected answer should distill stable Rationale, Consequences, SoTA-Echoing, Grounding, and other valid convergence content into the selected informative pattern loci under E.8. The DRR episteme remains external provenance; it is not itself landed or transformed into Core.
 A substantive DRR is one claim-bearing episteme about one bounded current content-decision question/change set. It may carry selected obligations only in its Decision or Consequences, but no route, gate, handoff, packet, monolith, mutable status, or future-campaign state. Any undecided remainder is explicitly outside the decision with a named pattern, kind-reference pair, or successor decision record.
@@ -201,7 +191,7 @@ The DRR names:
 - the first improved FPF use that the admitted method gives to an author, reviewer, or downstream FPF user;
 - the current disposition: selected now, inherited sufficient, rejected now, or outside the current decision with the named evaluation pattern, accepted `DRR`, or accepted decision-ground item named by value.
 
-Reusable process-source method is not limited to semio wording or pattern-authoring language. It may enter FPF only when it is separable from local process mechanics, improves FPF use, and has one exact evaluation pattern. After the method lands in FPF, process documents should cite the selected FPF pattern instead of keeping a parallel long-form rule.
+Reusable process-source methods may contribute beyond semio wording or pattern-authoring language. Admit the contribution when it is separable from local process mechanics, improves the selected FPF use, and has adequate grounds for the claims being made. Apply E.19 to pattern admission and E.21 when a pattern-quality conclusion is required. After the method lands in FPF, process documents should cite the selected FPF pattern instead of keeping a parallel long-form rule.
 
 #### E.9:4.2 - Develop an unsettled decision through a working expression
 
@@ -209,11 +199,11 @@ When the selected answer is still unknown, begin with the current difficulty and
 
 Use a provisional expression to bring a consequential relation into view: juxtapose two cases, arrange competing explanations, trace a dependency, or compare an intended use with the result currently available. E.8:4.2.1.2 and A.6.3.RT.OE supply the expression construction. Identify what the arrangement lets you infer and what remains unsupported. A question mark can make an unresolved interpretation visible; it supplies no premise for choosing one answer.
 
-Let the result change the decision question when it reveals that the original question conflated different work. Retain live alternatives only for the comparison they support. Replace a classification by format, tool or package name when the deciding difference concerns the operation or conditions of use. A working table can therefore be revised or discarded after it has produced the useful distinction. Its row count is not progress toward a decision.
+Let the result change the decision question when it reveals that the original question conflated different work. Retain live alternatives only for the comparison they support. Replace a classification by format, tool or package name when the deciding difference concerns the operation or conditions of use. A working table can therefore be revised or discarded after it has produced the useful distinction.
 
 Before another author relies on the selected answer, resolve each premise that can change its selected obligation, or choose an explicitly bounded result whose remaining uncertainty does not defeat that obligation. State an honest stop where neither is available. Use the four kernel components and the applicable inspection content in §4.1 to inspect that closure. Material already recoverable in the account need not be copied into another answer column. A source pointer without the needed substantive contribution is not recoverable decision content.
 
 Keep this difference visible in the writing. “The source order for this row is unknown” can be a valid investigation result. “Convert this row using day/month/year” would require the missing premise. Conversely, a settled decision to stop such rows and request their interpretation can be supported even while their particular dates remain unknown. What remains open must be compared with the decision actually being made.
 
-The record carries the resulting problem, selection, reasons and consequences, not every discarded worksheet or the chronology of deciding. Retain a working expression when a later use needs its reasoning or recoverability; otherwise carry its useful result and source return into the decision. An incomplete exploration becomes neither an accepted decision nor an authorization merely by receiving a DRR heading.
+The record carries the resulting problem, selection, reasons and consequences, not every discarded worksheet or the chronology of deciding. Retain a working expression when a later use needs its reasoning or recoverability; otherwise carry its useful result and source return into the decision.
 

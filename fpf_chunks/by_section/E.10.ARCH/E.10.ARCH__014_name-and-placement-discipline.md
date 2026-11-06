@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:8"
 section_title: "Name and placement discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__014_name-and-placement-discipline.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:8 — Name and placement discipline"
-line_start: 101889
-line_end: 101898
+line_start: 101809
+line_end: 101818
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -71,5 +71,5 @@ Tech prose must resolve a distribution cue to its applicable routing coordinate:
 
 `pattern nest` is allowed for ID and placement grouping such as `A.6.*`, `C.16.*`, or `C.30.*`. It is not a semantic parent relation and not an authority relation.
 
-`SelectedLocusObligationClosure` is the `E.9.DA` coordinate name for selected-locus obligation closure.
+
 

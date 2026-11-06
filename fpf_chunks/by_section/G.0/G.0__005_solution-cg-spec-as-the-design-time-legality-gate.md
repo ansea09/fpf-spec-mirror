@@ -6,12 +6,12 @@ section_id: "G.0:4"
 section_title: "Solution — CG‑Spec as the design-time legality gate"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.0/G.0__005_solution-cg-spec-as-the-design-time-legality-gate.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "G.0 — Define Admissible Comparison and Aggregation for a Frame (CG-Spec)"
   - "G.0:4 — Solution — CG‑Spec as the design-time legality gate"
-line_start: 126998
-line_end: 127202
+line_start: 126888
+line_end: 127106
 dependencies:
   - "A.10"
   - "A.17"
@@ -58,7 +58,7 @@ keywords:
 
 * the **ComparatorSet** (explicit, finite, typed) permitted in this frame,
 * the **ScaleComplianceProfile** (SCP) that constrains lawful operations per characteristic,
-* **MinimalEvidence** requirements per characteristic (lanes, carriers, freshness windows, crossing allowances, failure behavior),
+* **MinimalEvidence** requirements per characteristic (lanes, carriers, any applicable freshness windows or crossing conditions, and failure behavior),
 * the frame’s **penalty and trust folding wiring** (by explicit policy ids and edition pins),
 * **AcceptanceStubs** as design-time templates (thresholds remain governed by CAL, not by CG‑Spec),
 * optional method-family hooks (e.g., illumination/QD or explore↔exploit guards) *as wiring only*, with semantics governed by the corresponding patterns.
@@ -158,7 +158,7 @@ CG‑Spec :=
     RSCRTriggerKindId[]
   ⟩,
 
-  Naming := UTS Name Cards (twin labels plus bridge notes),
+  Naming := UTS Name Cards (designations under F.17/F.18 plus bridge notes),
   PublicIdContinuity := ⟨governing definition, DRR link, refresh cadence, decay and aging policy, deprecations⟩,
   Provenance := ⟨carrier types, SoTA-pack refs, DRR/SCR linkage⟩
 ⟩
@@ -177,7 +177,7 @@ CG‑Spec :=
 | **G.0‑2 SCP**      | CHR pack refs (G.3), legality proofs | `CG‑Spec.SCP` + bindings to lawful operators/aggregators                   |
 | **G.0‑3 Evidence** | SoTA inputs (G.2), source and carrier provenance account (A.10)   | `CG‑Spec.MinimalEvidence`, `Γ‑fold` segment pins, `CL‑Routing`, `Φ` ids    |
 | **G.0‑4 Publish**  | All above                            | Versioned `CG‑Spec@UTS` plus Name Cards, public-id continuity records, and RSCR tests and trigger kinds  |
-| **G.0‑5 Expose_CrossingHooks** | `CG‑Spec` + crossing/plane/policy pins | GateCrossing inputs for `GateChecks` (`E.18/A.21`): plane checks, lane purity, lexical SD pins |
+| **G.0‑5 Expose_CrossingHooks** | `CG‑Spec` + pins required by an applicable E.18 flow crossing or A.21 gate | Inputs for that crossing’s `GateChecks`: the required plane, intent, lane and lexical SD checks |
 | **→ G.1**          | `CG‑Spec`                            | Generator guardrails (Comparator/SCP/MinEv pins); degrade/abstain wiring   |
 | **→ G.2**          | `CG‑Spec`                            | Harvesting inclusion/exclusion and crossing policy constraints             |
 | **→ G.3**          | `CG‑Spec`                            | Required CHR characteristics/scales/operators to exist                     |
@@ -187,13 +187,27 @@ CG‑Spec :=
 
 #### G.0:4.5 - CG‑Spec authoring chassis (informative)
 
-1. **Charter the frame.** Declare `Context`, `Scope`, `entityOfConcern`, boundary examples/non-examples, and `ReferenceMap`.
-2. **Draft ComparatorSet and SCP.** Enumerate permitted comparator forms and bind each to CHR characteristics and legality constraints (scale/unit/polarity discipline). Attach guard bindings as explicit references/pins.
-3. **Bind Characteristics.** For every comparison, identify the CHR characteristics of the quantities being compared and cite them by id (reuse/mint via UTS discipline).
-4. **Declare MinimalEvidence.** For each characteristic: required lanes/carriers, freshness window, crossing allowances (if any), and explicit failure behavior wiring (tri-state semantics delegated to `G.Core`).
-5. **Pin the support-composition basis.** Cite `DefaultId.GammaFoldForR_eff` for the model-qualified rule. A numerical fold or loss pins its actual receiving model, compatible inputs, dependency assumptions, and justification refs; monotonicity and boundedness alone are insufficient. When no common aggregate is justified, the referenced rule retains separate support and a bounded synthesis. Publish any actually used Φ/CL policy ids; keep acceptance thresholds in G.4.
-6. **Publish and register regression tests.** Publish `CG‑Spec@UTS` with edition-pinned segments; register RSCR tests for the frame’s legality surfaces and evidence minima.
-7. **Public-id continuity and refresh readiness.** Declare refresh cadence and deprecations with lexical continuity notes; ensure RSCR trigger kinds are emitted as canonical ids.
+Begin with the receiving question and the available material: the task or decision request, descriptions of the subject and operating conditions, binding requirements, candidate methods, and existing observations. Reuse an adequate frame. When its criteria are not yet known, establish them before filling the specification.
+
+##### G.0:4.5.1 - Obtain the comparison basis
+
+1. **Recover the decision and its conditions.** Use C.39.RQ:4.1 to work backward from what the receiving result must enable and forward from the available ways of obtaining it. Inspect the request, relevant commitments or rules, and the descriptions of actual use. For each consequential success or failure, ask which property of the subject makes that difference. Recover a binding limit from its applicable requirement or authorized allocation; an observed value establishes performance under its conditions, not the limit the receiver must accept. Where two uses need different conditions, retain distinct scope slices.
+2. **Turn the differences into characteristics.** A.19.ECS:4.2 supplies the construction: start with cases that would satisfy, fail or fall outside the use; identify the properties that distinguish them; split a compound property when its components can vary independently; and establish each characteristic’s subject, meaning, scale, units and observation procedure through G.3/C.16. Existing domain definitions and validated procedures can supply these results directly. If the needed characteristic or procedure is unavailable, return that particular construction to its competent supplier, with the decision it prevents.
+3. **Choose the comparisons the question needs.** For each proposed comparison, state what relation between results would change the receiving decision. Match that relation to the characteristics’ lawful operations: equality of categories, an order where justified, or a numerical operation whose scale, units and assumptions permit it. Retain separate coordinates when trade-offs have not been resolved. A weighted total requires a justified aggregation and the receiving preference basis. G.0 then enumerates this finite set of comparators and its legality conditions.
+4. **Obtain the evidence minima from the claim.** Follow each required characteristic and comparator back to what would establish its inputs and applicability: for example, a traceable observation under the relevant operating conditions, an exact proof for a formal claim, or a justified transfer from a different population. Reuse the applicable domain qualification, measurement or acceptance method. Specify the carriers, conditions and checks it requires, and the consequence when they are missing or fail. G.2 can recover missing source support; G.4 carries the acceptance policy. A currentness window is needed when the claim’s use depends on it; a numerical support fold needs its actual model under B.3/C.2.2.
+5. **Return the supported frame and its limit.** The available material may establish all required criteria, disqualify an operation, or leave a particular criterion, authority, measurement procedure or transfer premise unresolved. Keep those outcomes separate. Identify the source, responsible authority, observation or method construction that could settle an unresolved premise, and which comparison must wait for it. A descriptive comparison can remain useful when a required acceptance judgement is unavailable; it must retain that receiving-use limit.
+
+**Worked construction.** A team must compare compression methods for a specified archive batch on one host. The available request says “choose a method that fits the backup operation”; the maintenance allocation gives a 15-minute window and a 2 GiB memory allowance, while the archive requirement demands lossless recovery. The batch inventory and host configuration establish the scope. Working backward exposes three required properties: recovery identity, elapsed time and peak memory. Recovery identity is tested by comparing the recovered contents with the original batch; time and memory use the stated measurement procedures and units. The requirements supply the pass limits. Among passing alternatives, an additional request to reduce storage permits comparison by compressed size; without a preference for trading time against size, the frame retains those coordinates separately.
+
+The available reports now have a precise use. A report that tested recovery on the same batch supplies that observation; a report giving a 12-minute mean on a different host needs a justified transfer or a measurement on the receiving host. That mean does not establish a guarantee of fitting the allocated window. If the receiving requirement is a guaranteed upper bound, the chosen qualification method must supply that bound; otherwise fit remains unestablished. If the allocation is absent, the team can compare observed times and memory but must obtain the applicable allocation before claiming acceptance. If the receiving question changes to archival space efficiency with no execution-window requirement, the performance observations remain usable while the 15-minute gate no longer governs that comparison.
+
+##### G.0:4.5.2 - Bind and publish the established basis
+
+1. **Charter the frame.** Declare `Context`, `Scope`, `entityOfConcern`, boundary examples/non-examples, and `ReferenceMap` from the receiving question and established conditions.
+2. **Bind ComparatorSet, SCP and characteristics.** Enumerate the permitted comparator forms obtained above; bind each to the CHR characteristics and its scale, unit, polarity and other legality conditions. Cite existing characteristic ids or publish new ones under UTS discipline.
+3. **Declare MinimalEvidence.** For each characteristic, bind the required lanes/carriers, any applicable freshness window or crossing allowance, and explicit failure behavior (tri-state semantics delegated to `G.Core`). Keep unresolved prerequisites visible with the operations they prevent.
+4. **Pin the support-composition basis.** Cite `DefaultId.GammaFoldForR_eff` for the model-qualified rule. A numerical fold or loss pins its actual receiving model, compatible inputs, dependency assumptions, and justification refs; monotonicity and boundedness alone are insufficient. When no common aggregate is justified, the referenced rule retains separate support and a bounded synthesis. Publish any actually used Φ/CL policy ids; keep acceptance thresholds in G.4.
+5. **Publish and register regression tests.** Publish `CG‑Spec@UTS` with edition-pinned segments; register RSCR tests for the frame’s legality surfaces and evidence minima. Preserve public-id continuity and deprecation notes. State the refresh triggers and any cadence justified by the frame’s use; emit canonical trigger ids when their conditions obtain.
 
 #### G.0:4.6 - Extensions (pattern-scoped; non-core)
 

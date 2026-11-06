@@ -6,12 +6,12 @@ section_id: "E.10.ROLE:5"
 section_title: "Archetypal Grounding — Worked Slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ROLE/E.10.ROLE__007_archetypal-grounding-worked-slices.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.10.ROLE — Recovering What “Role” Means in the Current Claim"
   - "E.10.ROLE:5 — Archetypal Grounding — Worked Slices"
-line_start: 102152
-line_end: 102169
+line_start: 102072
+line_end: 102089
 dependencies:
   - "A.2"
   - "A.2.1"
@@ -41,7 +41,7 @@ keywords:
 
 #### E.10.ROLE:5.2 - A Report Plays a Role in Approval
 
-The report is an episteme. For the evidence-use reading established by the source, write “reviewers used Report-R as evidence for ApprovalClaim-C”, then use A.10 for the evidence-provenance account and B.3 only when an actual named assurance claim is current, including when an applicable material-reliance threshold requires that claim.
+The report is an episteme. For the evidence-use reading established by the source, write “reviewers used Report-R as evidence for ApprovalClaim-C” and keep the support and limits needed for that claim recoverable. Use A.10 when the source-to-use account remains implicit or the receiving use needs it replayed. Use B.3 only when an actual named assurance claim is current, including when an applicable material-reliance threshold requires it.
 
 #### E.10.ROLE:5.3 - API Provider Role
 

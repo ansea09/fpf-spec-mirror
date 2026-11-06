@@ -6,12 +6,12 @@ section_id: "F.0.2.MA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2.MA/F.0.2.MA__005_solution.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "F.0.2.MA — Synthesize and Allocate Method Contributions"
   - "F.0.2.MA:4 — Solution"
-line_start: 118379
-line_end: 118419
+line_start: 118269
+line_end: 118309
 dependencies:
   - "A.3.1.DR"
   - "A.3.1.MR"
@@ -33,7 +33,7 @@ Reconcile meanings before assigning destinations. Preserve every difference that
 
 1. **Name the receiving use and contribution.** Identify the description, Method question or pattern-language use being changed. Take the recovered source claim together with its difficulty or opportunity, proposed action, result, conditions and source location.
 2. **Keep the input roles distinct.** A documentary claim remains what that source asserts. A returned MR account keeps its candidate, rival and evidence limits. A current FPF/DPF result keeps its declared scope. A source's report that work occurred is not independent occurrence evidence.
-3. **Resolve only the meaning difference that matters.** Use F.0.1 when a source expression is ambiguous, F.1 when the source cut is insufficient, and F.0.2 when cross-source synthesis is needed. Consume its provisional synthesis, contrast or unresolved-inquiry result, including its locator, source edition and receiving disposition; do not replace that result with a similarity score.
+3. **Resolve only the meaning difference that matters.** Use F.0.1 when a source expression is ambiguous, F.1 when the source cut is insufficient, and F.0.2 when cross-source synthesis is needed. Use its provisional synthesis, contrast or unresolved-inquiry result, with its source edition, grounds and any disposition already made. Preserve a locator when later citation needs it; a similarity score does not replace the comparison.
 4. **Subtract the current answer by value.** Open the current FPF or DPF supplier that appears to cover the contribution. Compare the practitioner question, action, first result, applicability and stop. Use the supplier directly if it answers those positions. When a source adds a warranted Method-specific condition or move, retain that remainder and explain its receiving use.
 5. **Decide whether the contributions can share an account.** Compare reusable action, participant meanings, preconditions, result, variation and stop. Merge supported common content while retaining different conditions. Split incompatible actions or statuses. Keep an unresolved alternative when the evidence cannot distinguish them. A.3.1.QM and B.1.5.CM settle any Method or whole claim needed by the allocation.
 6. **Assign the contribution and its remainder.** State what is reused from current supply; what is added to or changes a Method description or pattern; what remains direct source material; and what is unresolved. Allocate the shared construction by its actual premises. A Method, corpus or publication can be the subject of a transdisciplinary operation. Retain a domain contribution where its action depends on that discipline's substantive knowledge; do not infer either Core placement or exclusion from the subject's name.

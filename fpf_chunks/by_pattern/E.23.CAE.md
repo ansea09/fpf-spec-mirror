@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.23.CAE.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.23.CAE — Capability Access and Expression Differential Probe"
-line_start: 115724
-line_end: 115999
+line_start: 115615
+line_end: 115890
 dependencies:
   - "A.15.7"
   - "A.15.8"
@@ -46,7 +46,7 @@ keywords:
 
 **First useful move.** State the case in ordinary language:
 
-> This holder has a qualified capability claim or prior result for this Work family under these conditions. The present demand is not met. Before choosing more development, recover a safe qualified reference condition, vary the smallest decision-bearing condition without further development, and record which observable distinction changes first. If that reference cannot be obtained, return the missing basis or an unresolved disposition.
+> This holder has a qualified capability claim or prior result for this Work family under these conditions. The present demand is not met. Before choosing more development, compare available observations under a qualified reference and the present demand. Reuse them when the holder, relevant conditions, update state and evidence requirements match the receiving question. Obtain only the missing safe contrast, without further development, and state which observable distinction changes first. If that reference cannot be obtained, return the missing basis or an unresolved disposition.
 
 **First useful result.** Return the controlled observations, one or more qualified differential dispositions, the strongest surviving rival (if any), the limits of the result, and candidate routes to the patterns or domain Methods that could receive it. The result is not a choice, authorization, selected next Work, or performed Work; it does not establish hidden memory or a causal mechanism.
 
@@ -61,7 +61,7 @@ keywords:
 - Use `E.23.CDI` when capability development has already been selected and the live question is the intervention and representative transfer check.
 - Use `A.15.7` when ongoing Work merely needs one next action; use `C.11` only when a current chooser and `OptionSet` already exist and comparison can change the choice.
 - Use the direct domain Method when a human memory mechanism, organization routine, continual-learning algorithm, robotic controller, medical condition, safety rule, threshold, or intervention is the live subject.
-- Do not use one successful occurrence to infer a capability, and do not run a risky live probe when replay, simulation, staged testing, or another protected evidence route is required.
+- Infer capability only within the scope and conditions warranted by the occurrence and its supporting evidence. Use replay, simulation, staged testing or another protected evidence route when a live probe would be unsafe.
 
 ### E.23.CAE:2 - Problem
 
@@ -125,8 +125,8 @@ This optional form records the probe result; it introduces no new FPF kind.
 1. **Check the demand against the claim.** Confirm that the current task belongs to the Work family and capability envelope being relied upon. Compare measures and qualification windows before calling a difference loss or transfer failure.
 2. **Recover the relevant configuration.** Name actual or intended performers, roles, tools, records, interfaces, authority, environmental conditions, state, and other supports only where their direct rules apply. Use `A.15.8` when one exact Work or WorkPlan configuration is current.
 3. **Hold development and updating fixed.** During the contrast, avoid new teaching, rehearsal, procedure rewrite, fine-tuning, parameter update, recalibration, or other development where safe and feasible. If the probe necessarily changes the holder, mark the affected distinction unresolved or narrow the claim.
-4. **Return to a qualified reference condition.** Recreate a previously successful or separately qualified condition without further development. Prefer an `A → B → A` or equivalent return when order, recency, or transition history can matter. Reappearance rejects simple global loss under those tested conditions; it does not establish general transfer.
-5. **Vary a decision-bearing condition.** Change the smallest condition that can distinguish live rivals: an overt cue, cue reliability, preceding decision state or uncertainty, role, record, authority, tool, task or context identifier, state feedback, blocked versus interleaved order, transition frequency, or another domain-relevant condition. A label or visible setting is not assumed to be the effective context.
+4. **Return to a qualified reference condition.** When the needed contrast is not already supported by matching observations, recreate a previously successful or separately qualified condition without further development. Prefer an `A → B → A` or equivalent return when order, recency, or transition history can matter. Reappearance rejects simple global loss under those tested conditions; it does not establish general transfer.
+5. **Vary a decision-bearing condition.** For a remaining unresolved contrast, change the smallest condition that can distinguish live rivals: an overt cue, cue reliability, preceding decision state or uncertainty, role, record, authority, tool, task or context identifier, state feedback, blocked versus interleaved order, transition frequency, or another domain-relevant condition. A label or visible setting is not assumed to be the effective context.
 6. **Observe applicability separately.** Ask whether the relevant Method, response, routine, policy, or prior case is selected as applicable before judging execution. For a person this may involve recognition or choice; for an organization it may involve routing, role, record, or authorization; for AI or robotics it may involve task/context identification, policy routing, or function activation. These are different mechanisms occupying one observational position.
 7. **Separate availability, adaptation, enactment, and result.** Where the case permits, observe whether the response can be accessed or activated, whether it can be transformed for the changed demand, whether the actual performer arrangement can enact it, and whether the required result obtains. A later failure does not by itself establish an earlier one.
 8. **Compare live rivals.** Retain every explanation still compatible with the observations. Ordinary cue effects, interference, envelope mismatch, configuration loss, applicability failure, access or activation failure, adaptation failure, enactment failure, and actual holder change are not synonyms.
@@ -234,7 +234,7 @@ The case keeps the first probe small while retaining the distinction between pro
 
 | Anti-pattern | What fails | Repair |
 | --- | --- | --- |
-| “It failed, so the capability is gone.” | Envelope, support, applicability, access, adaptation, and enactment remain untested. | Bind the claim and run the smallest safe differential contrast. |
+| “It failed, so the capability is gone.” | Envelope, support, applicability, access, adaptation, and enactment remain untested. | Bind the claim and compare sufficient matching observations; obtain the smallest safe differential contrast still needed. |
 | “It returned, so nothing changed.” | Reference recovery is mistaken for transfer or whole-envelope capability. | State the tested condition and continue only with the distinction the receiving decision needs. |
 | “The organization remembered.” | Roles, records, rules, tools, authority, and actual performance collapse into a human-memory metaphor. | Name the exact organizational relations and actual Work; retain organization-specific explanation. |
 | “The model catastrophically forgot.” | Benchmark failure is treated as parameter overwrite without routing or activation probes. | Hold update fixed and test qualified task/context activation before making a model-specific change claim. |

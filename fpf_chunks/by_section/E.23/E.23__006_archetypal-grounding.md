@@ -6,12 +6,12 @@ section_id: "E.23:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__006_archetypal-grounding.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:5 — Archetypal Grounding"
-line_start: 115337
-line_end: 115385
+line_start: 115228
+line_end: 115276
 dependencies:
   - "A.19.ECS"
   - "A.22.CGUS"
@@ -69,7 +69,7 @@ Before calling this an expansion of possibilities, identify what the earlier way
 
 **Make continuation possible for the next participant.** Use `C.36.RP:4.3–4.6` to decide whether the recipient needs to execute, adapt or develop the preparation. For development, give access to the construction, its reasons and conditions, relevant cases and the means or assistance for obtaining a missing contribution. Observe the recipient using these means on changed conditions and making the resulting construction usable in another preparation episode. Merely circulating the exercise set leaves this result untested. If a methodologist leaves, a surviving document may no longer be sufficient: recover the missing support or revise the arrangement before relying on the old success.
 
-An independent participant outside the organization can continue this work without becoming its component. If the question now concerns transmission, retention or change across a cultural population, use `C.36`; count actual receiving and developing episodes for the declared question rather than treating popularity as the result. Changing those transmission conditions is itself a proposal to test. A finite successful continuation does not demonstrate indefinite open-ended development.
+An independent participant outside the organization can continue this work without becoming its component. If the question now concerns transmission, retention or change across a cultural population, use `C.36`; count actual receiving and developing episodes for the declared question rather than treating popularity as the result. Changing those transmission conditions is itself a proposal to test.
 
 **A person improves a way of learning.** An engineer has 90 minutes of personal practice and 15 minutes of mentor help each week. Familiar solutions are available, but changed constraints are missed. Instead of another rereading, the engineer retains a first unaided answer, compares it with the governing condition and a contrast, practices the missing operation, and tests a fresh case. To examine improvement of the learning method, follow its next use: can the engineer derive a useful learning question from a new work episode, select suitable practice and use the result for the following choice? Include help and the whole practice cycle in the allowance. One correct subject answer does not settle this question. If restored access to current data removes the difficulty without training, use the capability-access distinction in `E.23.CAE` and retain the adequate learning method. Developing a person's capability, when separately selected, uses `E.23.CDI` and the relevant human-development practice; the person cannot be reset to an earlier state for comparison.
 

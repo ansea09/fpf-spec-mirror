@@ -6,12 +6,12 @@ section_id: "E.17.1:16"
 section_title: "Authoring and Review Guidance"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__017_authoring-and-review-guidance.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.17.1 — Viewpoint Bundle Library - Reusable Viewpoint Reference Bundles"
   - "E.17.1:16 — Authoring and Review Guidance"
-line_start: 107070
-line_end: 107101
+line_start: 106969
+line_end: 107000
 dependencies:
   - "A.16.0"
   - "A.22"
@@ -46,7 +46,7 @@ Bundle authors should ask:
 - what local didactic publications or examples belong in annexes instead of the bundle core,
 - and whether the bundle is stable enough to deserve a reusable family designator.
 
-A good bundle is not maximal. It is coherent, reviewable, and reusable.
+
 
 #### E.17.1:16.2 - For reviewers
 
@@ -65,5 +65,5 @@ Integrators should keep libraries small, curated, and editioned. Publish only th
 - one explicit local extension only when local membership or meaning changes,
 - and one clear subset declaration only when the current use imports a subset.
 
-Do not create all three by default. Library sprawl destroys the cognitive advantage that reusable bundles are supposed to provide.
+Do not create all three by default.
 

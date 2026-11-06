@@ -6,12 +6,12 @@ section_id: "E.10.MOVE:5"
 section_title: "Archetypal Grounding - Worked Slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.MOVE/E.10.MOVE__006_archetypal-grounding-worked-slices.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.10.MOVE — Move, Readiness and Trajectory Wording Precision Restoration"
   - "E.10.MOVE:5 — Archetypal Grounding - Worked Slices"
-line_start: 101470
-line_end: 101552
+line_start: 101390
+line_end: 101472
 dependencies:
   - "A.1.STM"
   - "A.10"
@@ -84,7 +84,7 @@ If the claim predicts a later evaluation result, restore the evaluation pattern,
 
 Source sentence: "The next FPF move is to check architecture."
 
-If this is a project-local recommendation, restore `PatternUseRecommendation@Context` under `E.11.PUR` and cite the exact architecture pattern being recommended. With this sentence alone, the architecture, check question, and expected result remain unspecified. Return the blocker: "Specify which architecture is to be checked, which question the check must answer, and which result is required." Once those are known, the recommendation may say "next useful pattern use" and name the operation on that architecture and its expected result.
+If this is a project-local recommendation, recover its applicability, expected result, worth and boundary under E.11.PUR, and identify the architecture pattern being recommended. Materialize PatternUseRecommendation@Context only when a named later use needs the recommendation addressable. With this sentence alone, the architecture, check question, and expected result remain unspecified. Return the blocker: "Specify which architecture is to be checked, which question the check must answer, and which result is required." Once those are known, the recommendation may say "next useful pattern use" and name the operation on that architecture and its expected result.
 
 #### E.10.MOVE:5.4 - TameFlow `MOVE`
 
@@ -110,7 +110,7 @@ Use A.10 to recover the selected claim, exact sources, independently established
 
 Source sentence: "The next move is to heat-treat the shaft."
 
-If this names the reusable way of changing the shaft, recover the `U.Method` and its description under A.3.1 and A.3.2. If it places a heat-treatment operation in intended work, recover the WorkPlan or PlanItem under A.15.2. If heat treatment has occurred, recover the dated A.15.1 Work occurrence, affected shaft, method enactment, and result. If the question is whether that intended work can start, recover A.15.5 work-entry readiness. If the receiving context does not select among them, return the blocker: "Specify whether this describes the heat-treatment method, plans the work, reports completed heat treatment, or asks whether the planned work can start."
+If this names the reusable way of changing the shaft, recover the Method under A.3.1; use A.3.2 only if the claim depends on a particular episteme's MethodDescription membership. If it places a heat-treatment operation in intended work, recover the WorkPlan or PlanItem under A.15.2. If heat treatment has occurred, recover the dated A.15.1 Work occurrence, affected shaft, method enactment, and result. If the question is whether that intended work can start, recover A.15.5 work-entry readiness. If the receiving context does not select among them, return the blocker: "Specify whether this describes the heat-treatment method, plans the work, reports completed heat treatment, or asks whether the planned work can start."
 
 #### E.10.MOVE:5.8 - Clinical readiness
 

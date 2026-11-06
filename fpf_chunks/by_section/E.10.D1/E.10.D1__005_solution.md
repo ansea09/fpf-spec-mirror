@@ -6,12 +6,12 @@ section_id: "E.10.D1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D1/E.10.D1__005_solution.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.10.D1 — Recovering What “Context” Means in Use"
   - "E.10.D1:4 — Solution"
-line_start: 102299
-line_end: 102344
+line_start: 102219
+line_end: 102264
 dependencies:
   - "A.1.1"
   - "A.2.6"
@@ -53,13 +53,13 @@ The bounded result is the repaired statement. No additional record is part of th
 | --- | --- | --- |
 | Source-local meaning | An adequate current `F.0.1` result: the source, edition, expression, passage and plain meaning. Add an exact F.17 `SchemeSenseCell <ReferenceScheme, LocalExpression, LocalSenseClaim>` only when a named reuse, claim, receiver or relation needs its address; state a `LocalSenseBasisRelation` only when that support relation is current and obtains. | Reuse the adequate result. If the source-local meaning remains unclear, apply `F.0.1`, rewrite the sentence, and return to the subject question. Open `F.1` only when source selection is live, `F.9` only when the receiving claim needs a relation between exact local senses with different interpretation bases, and `F.0.2` only when several source ontologies must be compared for the receiving claim. |
 | DDD or model-use boundary | The direct A.1.1 `ModelApplicabilityRelation`, assigned-Work `ModelUseRelation`, or `ModelExpressionCoherenceRelation`. Select one `BoundedModelUseStructure` only when the organization of several such facts changes the engineering decision. | Stop at the direct relation when it answers the question. Select the wider structure only under A.1.1 and A.22. |
-| Claim applicability or comparison boundary | The A.2.6 `U.ClaimScope`, its admitted `U.ContextSlice` values and membership facts, effective scheme, qualification window, comparison scheme, and any direct relation needed by the claim. | State those values and predicates under their subject patterns. Do not add a generic context participant. |
+| Claim applicability or comparison boundary | The claim, its applicability conditions, and the comparison basis or direct relation needed by the receiving use. When a receiving rule requires A.2.6 scope membership, identify its U.ClaimScope, admitted U.ContextSlice values and membership result; recover scheme and temporal qualifications where they change that use. | State the sufficient conditions and grounds directly, or apply the required scope-membership guard. |
 | Working situation, project use, or reader use | The named situation; intended reader; use; decision; non-use boundary; and the participants, Work, and claims whose change would alter that use or decision. `Problem frame` remains a readable pattern heading rather than a formal Context value. | Write the situation and use directly. Introduce a formal value only when a named later use needs its identity. |
 | Design-time or run-time wording | The design artifact, plan, description, or model edition, or the performed Work, world-side occurrence, or state on which the sentence actually relies. | Keep design-time descriptions and plans separate from run-time holons, states, relations, and Work. Apply the pattern for the recovered object; the labels *design* and *run* create no shared Context or time-tag object. |
 | Architecture relation or claim | The described holon, actual subject relations, selected `U.Structure`, and an obtaining `ArchitectureRelation` only when the C.30 predicate holds. Otherwise recover an `ArchitectureClaim` whose content says that the relation does not obtain, remains unresolved, or concerns a candidate or expected structure. | Apply `C.30`. State the actual relation and selected structure when they obtain. If the described holon, selected structure, architecture concern, or actual-versus-candidate distinction is still missing, stop with C.30's `concernCueOnly` or `problemCardReady` result. |
 | Viewpoint or view | One identified candidate episteme, one identified `U.Viewpoint` edition with fixed rules, and the `EpistemeViewpointConformanceRelation` question between them. The same candidate episteme is a `U.View` relative to that viewpoint only when the relation obtains. | Apply `E.17.0` and return its readable positive, negative, or unresolved result. Stop there unless a named receiving use needs occurrence identity, warrant, new-viewpoint authoring, multi-view organization, or publication detail. |
 | Environment, operating region, or operating condition | The subject claim and the actual holon, relation, state, spatial or temporal qualifier, constraint, or condition whose change affects that claim or the next action. An environmental label remains source wording until the practitioner uses the subject pattern's definitions or constraints to identify the content used by the statement. | Apply the pattern that defines or constrains the subject claim. If the statement still cannot name which environmental fact or operating condition changes the claim or action, return an unresolved wording result; do not infer an architecture or viewpoint claim. |
-| DPF, domain, or local-practice boundary | The domain subject; intended audience and use; effective scheme; claim scope; qualification window; and source basis. | Keep domain or local meaning in its DPF or LPF. The word *domain* is neither restricted to a catalogue mark nor promoted to a U-kind by this pattern. |
+| DPF, domain, or local-practice boundary | The domain subject, intended audience and use, effective scheme, source basis and qualifications that actually bound the claim, including a temporal window when needed. | Keep domain or local meaning in its DPF or LPF. The word *domain* is neither restricted to a catalogue mark nor promoted to a U-kind by this pattern. |
 
 #### E.10.D1:4.2 - Word use is a trigger, not a verdict
 

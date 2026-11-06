@@ -6,12 +6,12 @@ section_id: "F.12:4"
 section_title: "Core idea (didactic)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.12/F.12__005_core-idea-didactic.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "F.12 — Evaluate Promise Fulfilment from Work Evidence (Service Acceptance)"
   - "F.12:4 — Core idea (didactic)"
-line_start: 122665
-line_end: 122680
+line_start: 122560
+line_end: 122575
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -49,15 +49,15 @@ keywords:
 
 ### F.12:4 - Core idea (didactic)
 
-Before reporting the result, name nine things:
+Recover the following content needed to justify the result. An ordinary evaluation may stop with the delivery facts, adequate observations, rule and supported result; the separate performance history is needed when it is claimed or consumed:
 
 1. the exact **`U.PromiseContent` claim** being evaluated;
 2. the actual **Work occurrence or defined Work population** whose delivery is in question;
 3. the promised outcome or characteristic and its scope;
 4. the relevant **observations and measured values**, including scale and unit;
 5. the explicit **window** and population boundary;
-6. the evaluation **Method** and the System's dated evaluation **Work** that enacts it;
-7. the exact A.6.1 operation application, including its selected inputs and result binding;
+6. the evaluation Method and, when its performance history is claimed or consumed, the independently admitted dated evaluation Work that enacts it;
+7. the selected evaluation inputs, applied rule and result; recover the exact A.6.1 application and result binding when that identity is claimed or required by the governing rule;
 8. the acceptance rule and declared result scale, such as a Boolean, trichotomous, graded, `N/A`, or `Inconclusive`-including scale when that scale is actually declared; and
 9. the PromiseContentUse, delivery, fulfilment, measurement, evidence-use, any separately defined indicator or proxy, reliance, and status relations that actually connect these claims.
 

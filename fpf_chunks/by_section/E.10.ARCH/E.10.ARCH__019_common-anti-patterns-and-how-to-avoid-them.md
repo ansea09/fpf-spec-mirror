@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:11"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__019_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:11 — Common Anti-Patterns and How to Avoid Them"
-line_start: 101965
-line_end: 101986
+line_start: 101885
+line_end: 101906
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -68,7 +68,7 @@ keywords:
 | Anti-pattern | Symptom | Repair |
 | --- | --- | --- |
 | Generic container recovery | A record, row, field, or slot-shaped placeholder is presented as the recovered ontology although the current object could be a direct relation, assertion episteme, declaration, participant designation, publication form, or representation. | Name the exact governed object and its defining or testing rule; add declaration, assertion, reference, publication, or representation apparatus only for a named receiving use. |
-| Representation becomes obtaining | A graph edge, tuple component, diagram element, or table cell is treated as the world-side relation or its occurrence identity. | Keep the element under the exact C.29 or publication predicate, state the represented object and explicit correspondence, and test the direct relation predicate separately. |
+| Representation becomes obtaining | A graph edge, tuple component, diagram element, or table cell is treated as the world-side relation or its occurrence identity. | State what the element represents and the correspondence used. Establish the world-side relation separately under its own predicate. Use C.29 only for an unresolved mathematical representation or transfer question. |
 | Method description becomes a project constellation | One `U.MethodDescription` is made to contain a method family, mechanism, plan, Work occurrence, transformation, result, architecture, and representation as if they were one object. | Let one `U.MethodDescription` describe one exact `U.Method`; state every other current object and direct relation separately under its defining or testing rule. |
 | Authoring row becomes a practitioner form | Engineers are required to complete an applicability row before using a clear rule. | Keep the row inside E.10.ARCH authoring and publication architecture; give practitioners the shortest exact object-and-relation sentence and bypass restoration when the concrete predicate and its rule are clear. |
 | Classification or type-correct-designation fallback without repair | The text names a restoration pattern, generic result label, MethodDescription field, planned use, compatible type, or designation but leaves no exact governed object, direct relation, claim-bearing episteme, defining or testing rule, truthful WMR result family, or blocker. | Apply the recovered defining or testing rule to one truthful result or fail closed; type correctness and designation do not establish actuality. |

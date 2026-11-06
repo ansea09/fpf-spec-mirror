@@ -6,12 +6,12 @@ section_id: "F.0.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2/F.0.2__005_solution.md"
-commit_sha: "4e277189a17b8f9bd3dcdda5df58623d9085ede9"
+commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
 heading_path:
   - "F.0.2 — Semantic Synthesis across Source Ontologies"
   - "F.0.2:4 — Solution"
-line_start: 118150
-line_end: 118206
+line_start: 118040
+line_end: 118096
 dependencies:
   - "A.2.4"
   - "C.2.1"
@@ -41,8 +41,8 @@ keywords:
 3. **Choose a bounded source cut.** Apply `F.1`. Include the sources needed for the intended use, known rival explanations, action-changing counterexamples, transfer limits, and material non-fit. State why each selected source can change the decision.
 4. **Compare what changes action.** Compare concepts, relation participants, explanations, contexts, assumptions, source roles, counterexamples, losses, and validity limits. Treat lexical or model correspondences as proposals to inspect, not as conclusions. Use **B.5.TC** when the difference between theoretical accounts needs a constructed comparison: work the same question in each, locate the consequential difference and retain complementary or unresolved contributions.
 5. **Write one first result.** Write a provisional synthesis claim when a positive shared contribution is warranted; a contrast claim when the proposed unification is not warranted for the named use; or an unresolved-inquiry claim when a named source gap prevents either substantive answer.
-6. **Give the result a stable local locator and name its receiving decision.** Keep ordinary `C.2.1` claim identity. Add a stable locator within the authoring source, such as `SE-CS-03`, so later text can cite the same result together with that source edition. Name the content, placement, or pattern-allocation decision that will consider it.
-7. **Record the receiving disposition.** When the named decision is made, its decision record states whether this result is used as proposed, revised into a newly identified claim, not used for the named purpose, or reopened for further comparison. Cite the result locator and source edition. A result awaiting that decision remains a proposal; silence or a citation is not acceptance.
+6. **Return the result to its receiving decision.** Keep the claim, source edition and grounds recoverable, and name the content, placement or pattern-allocation question it answers. Add a stable local locator, such as `SE-CS-03`, when later citation or replay needs that address. C.2.1 governs an explicitly identified claim episteme.
+7. **Apply the receiving disposition.** Decide whether to use the result as proposed, revise it, keep a contrast, or continue the unresolved inquiry. Record that disposition when the decision's governing use needs a record, citing the exact result and source edition. A result still awaiting the decision remains a proposal; silence or citation alone is not acceptance.
 8. **Keep the source use revisable.** Identify the source claims and editions relied on, why each matters to this result, what was deliberately left local or rejected, and which change reopens the comparison.
 
 Stop after one bounded synthesis slice when it answers the named authoring question. Enter clustering, Concept-Set, naming, UTS, or heavy harvesting only when the next question requires that additional result.
@@ -59,13 +59,13 @@ Stop after one bounded synthesis slice when it answers the named authoring quest
 
 #### F.0.2:4.3 - Three result branches
 
-Every result recorded for later authoring, review, or decision use is an ordinary claim-bearing episteme under `C.2.1`. Its identity remains `<claim content, EntityOfConcern, effective ReferenceScheme>`. Give every such result a stable local locator in its authoring source and cite that locator together with the source edition. The locator helps readers recover the claim but does not identify it by itself.
+A result identified as a claim-bearing episteme retains its C.2.1 identity `<claim content, EntityOfConcern, effective ReferenceScheme>`. Keep the result and source edition recoverable for the receiving use. A stable local locator can supply a needed address for later citation or replay; it does not identify the claim by itself.
 
 | Result | What the claim concerns | What it says | Required receiving disposition |
 | --- | --- | --- | --- |
-| **Provisional synthesis claim** | The proposed domain or pattern contribution, interpreted through the receiving scheme and the declared source-local correspondences used in the comparison. | A positive cross-source claim with scope, source roles, retained differences, and limits. `Provisional` means proposed for a later decision, not accepted framework meaning. | The named decision record cites the locator and source edition, then states that the proposal is used as written, revised into a newly identified claim, not used for the named purpose, or reopened. |
-| **Contrast claim** | The candidate unification or proposed shared contribution being tested, interpreted through the receiving scheme and the source-local comparison rules. | Why the inspected comparison does not warrant that unification for the named use. It preserves the source-local claims and any narrower positive claim that remains supported. | The named decision record cites the locator and source edition, then keeps the source claims distinct for the named use, adopts a narrower or revised claim, does not use the contrast, or reopens the comparison. |
-| **Unresolved-inquiry claim** | The bounded inquiry state, interpreted through the receiving scheme and the source-currentness, adequacy, and comparison rules actually available. | A named missing, stale, or too-weak source prevents the inquiry from choosing between a provisional synthesis and a contrast. It states what remains usable and the next source action; it does not assert that the disputed claim is false. | The named decision record cites the locator and source edition, then retains the bounded unresolved result and its usable remainder, commissions the named source action, ends the named use, or reopens the comparison. Any later substantive answer is a separately identified result. |
+| **Provisional synthesis claim** | The proposed domain or pattern contribution, interpreted through the receiving scheme and the declared source-local correspondences used in the comparison. | A positive cross-source claim with scope, source roles, retained differences, and limits. `Provisional` means proposed for a later decision, not accepted framework meaning. | The receiving decision determines whether the proposal is used as written, revised into a newly identified claim, not used for the named purpose, or reopened. |
+| **Contrast claim** | The candidate unification or proposed shared contribution being tested, interpreted through the receiving scheme and the source-local comparison rules. | Why the inspected comparison does not warrant that unification for the named use. It preserves the source-local claims and any narrower positive claim that remains supported. | The receiving decision keeps the source claims distinct for the named use, adopts a narrower or revised claim, does not use the contrast, or reopens the comparison. |
+| **Unresolved-inquiry claim** | The bounded inquiry state, interpreted through the receiving scheme and the source-currentness, adequacy, and comparison rules actually available. | A named missing, stale, or too-weak source prevents the inquiry from choosing between a provisional synthesis and a contrast. It states what remains usable and the next source action; it does not assert that the disputed claim is false. | The receiving decision retains the bounded unresolved result and its usable remainder, commissions the named source action, ends the named use, or reopens the comparison. Any later substantive answer is a separately identified result. |
 
 The source gap is the reason and closure condition for an unresolved-inquiry claim, not a fourth result branch. A temporary unrecorded pause is not an `F.0.2` result that later work can cite.
 
