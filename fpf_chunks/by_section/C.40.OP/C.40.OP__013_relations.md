@@ -6,12 +6,12 @@ section_id: "C.40.OP:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OP/C.40.OP__013_relations.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "C.40.OP — Maintain Opportunities and Stepping Stones"
   - "C.40.OP:12 — Relations"
-line_start: 88075
-line_end: 88085
+line_start: 88063
+line_end: 88073
 dependencies:
   - "A.15.9"
   - "C.11.CRC"

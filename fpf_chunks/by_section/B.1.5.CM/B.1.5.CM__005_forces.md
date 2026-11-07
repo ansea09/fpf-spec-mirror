@@ -6,12 +6,12 @@ section_id: "B.1.5.CM:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5.CM/B.1.5.CM__005_forces.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "B.1.5.CM — Construct and Qualify a Composite Method"
   - "B.1.5.CM:3 — Forces"
-line_start: 42955
-line_end: 42964
+line_start: 42947
+line_end: 42956
 dependencies:
   - "A.3.1"
   - "B.1.5"

@@ -6,12 +6,12 @@ section_id: "B.5.PI:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.PI/B.5.PI__010_consequences.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "B.5.PI — Initiate Inquiry from Ongoing Work"
   - "B.5.PI:9 — Consequences"
-line_start: 50710
-line_end: 50715
+line_start: 50700
+line_end: 50705
 dependencies:
   - "A.1.STM"
   - "A.15.11"
@@ -29,5 +29,5 @@ keywords:
 
 An apparently routine task can yield a question that a search service, colleague or pattern library can help answer. Successful adaptations and inarticulate objections can contribute without already being recognized defects. The work gains a connection between doing, questioning and obtaining another method.
 
-This consumes attention and sometimes exposes a need that cannot yet be met. False leads and imposed interpretations remain possible. The method supplies a way to begin and return, not a guarantee of discovery, learning or organizational improvement. Its use depends on accessible work, interpretation and an attainable response.
+This consumes attention and sometimes exposes a need that cannot yet be met. False leads and imposed interpretations remain possible. Its use depends on accessible work, interpretation and an attainable response.
 

@@ -6,12 +6,12 @@ section_id: "F.2:4"
 section_title: "Core idea (didactic)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.2/F.2__005_core-idea-didactic.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "F.2 — Source-Local Term Harvesting & Normalisation"
   - "F.2:4 — Core idea (didactic)"
-line_start: 119088
-line_end: 119093
+line_start: 119076
+line_end: 119081
 dependencies:
   - "A.11"
   - "A.7"

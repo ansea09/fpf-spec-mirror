@@ -6,12 +6,12 @@ section_id: "B.5.FM:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.FM/B.5.FM__012_sota-echoing.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "B.5.FM — Construct a First Model for the Working Question"
   - "B.5.FM:11 — SoTA-Echoing"
-line_start: 48690
-line_end: 48707
+line_start: 48682
+line_end: 48699
 dependencies:
   - "A.3.3"
   - "A.6.3.RT"
@@ -32,9 +32,9 @@ keywords:
 
 **Finding a question through a scheme.** Compare two practical starting points: follow a provisional question into a small model (:4.1–:4.5), or use an understood scheme to expose a question (:4.2.1). Give both routes the same workshop facts, knowledge of the attempt/feedback relation and a hand calculation. The first can begin with “Can this plan provide the intended practice?”, select the instructor's time, derive 72 minutes and revise the arrangement. With independent stations it changes the model and withdraws the serial restriction. Both routes can obtain these results.
 
-Use the scheme-based entry when an apparently adequate account, such as a seating plan, leaves the relevant question unclear. Its applicability table distinguishes an unknown relation from one that is inapplicable, inexpressible or in conflict with the case. In :5.4 the demonstration-only variant drops the individual-practice question instead of treating it as a missing provision. Recovering and trying a scheme has a cost: use the direct construction when the distinction and question are already clear. This comparison supports a choice between instructions under the stated conditions; it establishes neither faster learning nor better field performance.
+Use the scheme-based entry when an apparently adequate account, such as a seating plan, leaves the relevant question unclear. Its applicability table distinguishes an unknown relation from one that is inapplicable, inexpressible or in conflict with the case. In :5.4 the demonstration-only variant drops the individual-practice question instead of treating it as a missing provision. Recovering and trying a scheme has a cost: use the direct construction when the distinction and question are already clear.
 
-Gentner and Hoyos, [Analogy and Abstraction](https://doi.org/10.1111/tops.12278), 2017, §§1.2–2, provide a historical structural-alignment account. Adapt relational rather than name matching in :4.2.1; the reviewed transfer effects depend on their task and comparison conditions. Keet and Khan, [Discerning and Characterising Types of Competency Questions for Ontologies](https://arxiv.org/html/2412.13688v1), 2024, §§3–4, contribute purpose-sensitive questions and limits of a scheme's expressiveness. Adapt those distinctions in the applicability table without imposing their ontology-specific taxonomy. Vagnino and Walker, [Schema drift](https://doi.org/10.1016/j.cognition.2025.106418), 2026, supplies a limitation: repeated comparison can change relational judgments, with rival explanations unresolved. This motivates the explicit return to a changed relation; it does not establish this repair's efficacy.
+Gentner and Hoyos, [Analogy and Abstraction](https://doi.org/10.1111/tops.12278), 2017, §§1.2–2, provide a historical structural-alignment account. Adapt relational rather than name matching in :4.2.1; the reviewed transfer effects depend on their task and comparison conditions. Keet and Khan, [Discerning and Characterising Types of Competency Questions for Ontologies](https://arxiv.org/html/2412.13688v1), 2024, §§3–4, contribute purpose-sensitive questions and limits of a scheme's expressiveness. Adapt those distinctions in the applicability table without imposing their ontology-specific taxonomy. Vagnino and Walker, [Schema drift](https://doi.org/10.1016/j.cognition.2025.106418), 2026, supplies a limitation: repeated comparison can change relational judgments, with rival explanations unresolved. This motivates the explicit return to a changed relation.
 
 Reconsider the scheme-based entry when it repeatedly produces irrelevant questions or when the direct construction already supplies the needed distinction. Repair the correspondence or continue from the adequate question before broadening the inquiry.
 

@@ -6,12 +6,12 @@ section_id: "C.41.UA:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.UA/C.41.UA__004_forces.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "C.41.UA — Use a Checklist to Answer Questions and Act on the Results"
   - "C.41.UA:3 — Forces"
-line_start: 89554
-line_end: 89563
+line_start: 89542
+line_end: 89551
 dependencies:
   - "A.10"
   - "A.15.1"

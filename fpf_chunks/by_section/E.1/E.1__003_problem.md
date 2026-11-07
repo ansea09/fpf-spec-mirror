@@ -6,12 +6,12 @@ section_id: "E.1:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.1/E.1__003_problem.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "E.1 — Vision & Mission"
   - "E.1:2 — Problem"
-line_start: 92462
-line_end: 92464
+line_start: 92450
+line_end: 92452
 dependencies:
   - "E.2"
 keywords:

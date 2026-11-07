@@ -6,12 +6,12 @@ section_id: "B.5.MPC:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.MPC/B.5.MPC__006_archetypal-grounding.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "B.5.MPC — Connect Physical, Mathematical and Computational Reasoning"
   - "B.5.MPC:5 — Archetypal Grounding"
-line_start: 47204
-line_end: 47340
+line_start: 47196
+line_end: 47332
 dependencies:
   - "A.15.9"
   - "A.3.3"
@@ -166,7 +166,7 @@ Connect the abstract transition rule to the physical means. Exclusive possession
 
 A second entrance needs access to the same total stock. A copied stock of three additional accepted cards permits six simultaneous admissions, even if both attendants follow their local rule correctly. A shared pool of the original three cards preserves the common bound. Partitioning those same cards, for example two at one entrance and one at the other, also preserves it. The partition can make a visitor wait at one entrance while a card is free at the other; redistribution then needs a transfer of an existing free card.
 
-The useful result is a conditional admission design and an interpretation of its observable stock. Its computational contribution is a finite-state procedure that answers whether an admission can proceed and maintains the relevant count. People and material transfers can execute it without a digital program. The invariant does not establish fair waiting, fast entry or detection of every procedural violation; those are different questions with their own needed contributions.
+The useful result is a conditional admission design and an interpretation of its observable stock. Its computational contribution is a finite-state procedure that answers whether an admission can proceed and maintains the relevant count. People and material transfers can execute it without a digital program.
 
 The coordinating Method makes the physical card and room-boundary rules, mathematical invariant and executing procedure agree. This is also why changing the stock or the return rule changes the joint result even when the counting arithmetic remains correct.
 

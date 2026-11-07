@@ -6,12 +6,12 @@ section_id: "C.41.UA:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.UA/C.41.UA__008_conformance-checklist.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "C.41.UA — Use a Checklist to Answer Questions and Act on the Results"
   - "C.41.UA:7 — Conformance Checklist"
-line_start: 89630
-line_end: 89639
+line_start: 89618
+line_end: 89627
 dependencies:
   - "A.10"
   - "A.15.1"

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.5.QD.CF.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "B.5.QD.CF — Reformulate a Problem by Examining Its Conflicting Assumptions"
-line_start: 49330
-line_end: 49526
+line_start: 49322
+line_end: 49518
 dependencies:
   - "B.1.5.EW"
   - "B.5.FM"
@@ -88,7 +88,7 @@ Choose a premise whose change could matter and whose status is open to examinati
 - **One value is imposed across different conditions.** Do the requirements concern distinguishable participants, times or situations? If so, what construction permits the required values in those conditions? If they concern the same participant and condition, a second name supplies no new possibility.
 - **A restriction belongs to the present representation or construction.** What relation must a different representation or construction preserve, and how could it satisfy the retained requirements? B.5.FM constructs the relation; B.5.RR carries its change through the affected reasoning.
 
-These are common entries, not an exhaustive set of creative moves. State what would answer the selected question: an alternative operation, a condition-dependent construction, a counterexample to necessity, or a derivation of impossibility.
+These are common entries. State what would answer the selected question: an alternative operation, a condition-dependent construction, a counterexample to necessity, or a derivation of impossibility.
 
 A tentative assumption change lets you explore that question. Keep the conclusion conditional until the replacement premise or operation has the support its use needs. Reconsider a requirement explicitly when that is the selected change; a convenient answer to the changed requirement leaves the original one open.
 
@@ -164,7 +164,7 @@ The result can already end the construction search under these premises. If the 
 
 The familiar means can dominate the description of a need. Recovering the result it supplies helps make a replacement thinkable. Conversely, a wish for a harmonious answer can lead the practitioner to relax the very condition that mattered. Returning to all retained requirements exposes that loss.
 
-The easiest premise to remove may be the one with the strongest physical or practical basis. Diagnose its role without treating mathematical removability as permission to discard it. People and AI agents can both produce a coherent reformulation that solves a different problem.
+The easiest premise to remove may be the one with the strongest physical or practical basis. Diagnose its role without treating mathematical removability as permission to discard it.
 
 ### B.5.QD.CF:7 - Conformance Checklist
 
@@ -197,7 +197,7 @@ Recovering premises and returning a proposal to the full need costs effort. Conc
 
 An incompatibility is relational: it depends on statements used together. That is why inspecting one requirement in isolation often misses the constructive opening. Separating a needed outcome from an assumed necessary means exposes a question about how else the outcome could be obtained.
 
-The return to the original need prevents successful reformulation from becoming accidental goal substitution. A conditional construction, an achieved result and an impossibility make different contributions to the encompassing work. Keeping those contributions distinct allows division of work between people and AI without requiring each contributor to solve the whole problem.
+The return to the original need prevents successful reformulation from becoming accidental goal substitution. A conditional construction, an achieved result and an impossibility make different contributions to the encompassing work. Keeping those contributions distinct allows division of work between people and AI.
 
 Conflict-driven reformulation is a constituent of question development with its own recurring difficulty and operation. B.5.QD supplies the broader development of a question from either failure or success. This pattern unfolds the move from conflicting premises to an alternative construction or a useful limit, leaving subject construction and validation with their own methods.
 

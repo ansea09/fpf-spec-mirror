@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.16.1.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "A.16.1 — PreArticulationCuePack: Preserve an Early Cue Before Choosing Its Use"
-line_start: 33895
-line_end: 34115
+line_start: 33888
+line_end: 34107
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -113,7 +113,7 @@ Use `primaryWitnessRef` or `primaryAnchor` when one witness or anchor carries th
 
 The referenced facets keep their own definitions. `primaryAnchor`, `candidateAnchors`, contrasts, and exemplars commonly provide anchor material for `AE` under `C.2.4`; `languageStateClosureDegreeRef` docks to `C.2.5`; source and use claims follow `C.2.6`, and representation-factor refs follow `C.2.7`; `languageStateFacetProfileRef` may bundle them through `C.2.LS`.
 
-In this cluster, a cue is a salient epistemic nucleus extracted from witnesses, traces, felt tensions, model outputs, work-possibility hints, reliance-possibility hints, contrasts, or other grounds and made preservable as a pack. A raw signal-like trace counts as a cue only when that salience and preservability have been made explicit; otherwise it remains a trace, not yet a cue. Any evidence use is separately qualified under A.10 for a named target claim.
+In this cluster, a cue is a salient epistemic nucleus extracted from witnesses, traces, felt tensions, model outputs, work-possibility hints, reliance-possibility hints, contrasts, or other grounds and made preservable as a pack. A raw signal-like trace counts as a cue only when that salience and preservability have been made explicit; otherwise it remains a trace, not yet a cue. For evidence use, establish the grounds for the named target claim. Use A.10 when the source-to-use account is implicit or must remain replayable.
 
 #### A.16.1:4.2 - Use boundary
 The cue pack preserves the nucleus, its grounds and any visible directional hints. Valence, urgency, discomfort, promise or attraction may explain preservation; they do not by themselves establish an evaluation, abductive prompt, selected route, or an action-oriented claim recovered through A.6.A.
@@ -129,11 +129,11 @@ A cue pack may admissibly feed:
 - `A.16.2` when prior stabilization must be reopened, backed off, respecified, or retired.
 
 ### A.16.1:5 - Archetypal Grounding
-**Tell.** A cue pack says "there is a preserve-worthy cue nucleus here" without falsely claiming that a later route or endpoint form already exists.
+A cue pack says "there is a preserve-worthy cue nucleus here" without falsely claiming that a later route or endpoint form already exists.
 
-**Show (System).** A console alert with traces and tension indicators may be worth preserving as a cue pack before anyone can honestly publish route selection, gate logic, or work execution.
+**System case.** A console alert with traces and tension indicators may be worth preserving as a cue pack before anyone can honestly publish route selection, gate logic, or work execution.
 
-**Show (Episteme).** A researcher's stabilized discrepancy cue from bodily observation or inspection of a trace with exemplars and contrasts can be published as a cue pack before it becomes a routed cue set, an abductive prompt, or an anomaly statement.
+**Episteme case.** A researcher's stabilized discrepancy cue from bodily observation or inspection of a trace with exemplars and contrasts can be published as a cue pack before it becomes a routed cue set, an abductive prompt, or an anomaly statement.
 
 ### A.16.1:6 - Bias-Annotation
 This pattern biases authors toward preserving low-articulation meaningful cues instead of discarding them or disguising them as later publication forms with higher closure, a selected route, or a passed endpoint test. The counter-bias is deliberate as well: a cue pack must still name what is being preserved and why.
@@ -152,7 +152,6 @@ This pattern biases authors toward preserving low-articulation meaningful cues i
 - **Cue as route record.** Do not let `selectedRoute`, route rationale, or route-selection status hide inside cue-pack prose.
 - **Cue without nucleus.** Do not publish only refs and carriers while leaving the preserved core unnamed.
 - **Cue without triage.** Do not pretend all witnesses or anchors are equally load-bearing when one clearly carries the preservation need.
-- **Cue as carrier zoo.** Do not make `PreArticulationCuePack` a replacement for `A.7` carrier discipline.
 
 ### A.16.1:9 - Consequences
 The benefit is an admissible preservation form for early cues and a cleaner seam into `B.4.1` route publication and the later patterns that define, constrain, or test endpoint claims. The trade-off is one more explicit publication form that must be named and maintained.
@@ -204,7 +203,7 @@ A practitioner should check:
 - whether route language is still an early directional hint rather than route selection.
 
 #### A.16.1:14.3 - Carrier reminder
-The cue pack may cite traces, embodiment, and model-state refs, but it should not try to replace `A.7` carrier discipline.
+Use the carrier-analysis boundary in §20.2.
 
 ### A.16.1:15 - Migration and Extension Notes
 
@@ -227,7 +226,7 @@ One cue pack may later split into several route-bearing continuations if its pre
 ### A.16.1:18 - Worked Cue Complexes and Practitioner Tests
 
 #### A.16.1:18.2 - Practitioner test for under-specified packs
-A practitioner may ask: if the candidate-anchor and witness references were hidden, could a reader still name the cue nucleus and understand the preservation rationale? If what is being preserved remains unclear, the pack is under-specified and should be rewritten, retired, or not published yet.
+A practitioner may ask whether the intended recipient can name the cue nucleus and understand its preservation rationale from the account and the exact referenced material they can access and interpret. If the required meaning remains unclear, revise the account to supply it, retire the pack, or postpone publication.
 
 #### A.16.1:18.3 - Practitioner test for covert endpoint capture
 Check any proposed inference from the cue pack to an endpoint result, publication availability or authority. Apply the pattern that establishes the required claim; if its grounds are missing, retain the supported observation and withhold that additional conclusion. Preserve any independently established facts needed to understand the cue.

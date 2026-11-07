@@ -6,12 +6,12 @@ section_id: "B.5.TU:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.TU/B.5.TU__012_sota-echoing.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "B.5.TU — Construct a Working Use of an Unfamiliar Theory"
   - "B.5.TU:11 — SoTA-Echoing"
-line_start: 48894
-line_end: 48903
+line_start: 48886
+line_end: 48895
 dependencies:
   - "A.15.9"
   - "A.6.3.RT"
@@ -25,7 +25,7 @@ keywords:
 
 ### B.5.TU:11 - SoTA-Echoing
 
-**How much theory must be reconstructed for a first use?** Adapt [van Oostrum, Langer and Ay (2025), Introduction and §§1–2, 4](https://arxiv.org/html/2406.07726v4): connect the operational question to stated model variables and inference, work an example, and recover deeper derivations when they are needed. The alternative is to use an interpreted supplied implementation. Retain that cheaper route when it suffices; reconstruct dependencies when adaptation or explanation requires them. Sections :4.1–:4.4 make that choice explicit. The source provides a discrete active-inference account and a minimal implementation, not evidence that one learning sequence suits every practice or agent.
+**How much theory must be reconstructed for a first use?** Adapt [van Oostrum, Langer and Ay (2025), Introduction and §§1–2, 4](https://arxiv.org/html/2406.07726v4): connect the operational question to stated model variables and inference, work an example, and recover deeper derivations when they are needed. The alternative is to use an interpreted supplied implementation. Retain that cheaper route when it suffices; reconstruct dependencies when adaptation or explanation requires them. Sections :4.1–:4.4 make that choice explicit. The source provides a discrete active-inference account and a minimal implementation.
 
 **How can notation reveal what an application still lacks?** Adapt [SICM's Preface](https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/9579/sicm_edition_2.zip/preface001.html): recover function arguments, substitutions and composition where implicit conventions obscure the operation. A familiar conventional expression is cheaper when the reader can already use it reliably. Sections :4.2–:4.4 therefore call for operative reconstruction at the unresolved step; :5.2 supplies a case. The selected contribution is explicit operation recovery. Its source's strong requirement of automatic interpretability is appropriate for computational exposition; ordinary use may be settled by a clear hand-worked construction.
 

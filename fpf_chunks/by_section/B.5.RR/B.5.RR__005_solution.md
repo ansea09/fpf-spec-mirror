@@ -6,12 +6,12 @@ section_id: "B.5.RR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.RR/B.5.RR__005_solution.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "B.5.RR — Revise Reasoning After a Premise or Question Changes"
   - "B.5.RR:4 — Solution"
-line_start: 48319
-line_end: 48374
+line_start: 48311
+line_end: 48366
 dependencies:
   - "B.5"
   - "B.5.MPC.R"
@@ -41,7 +41,7 @@ Begin at the changed premise and at the desired conclusion. Find which intermedi
 
 Keep a sufficient alternative separately. For example, recovering a file may require either a readable local copy or an available remote copy. If both are encrypted with one unavailable key, the two storage locations leave the same prerequisite unresolved.
 
-Use an established lemma at the level its receiving use needs. Open its proof when the change reaches a condition of the lemma or the way its result is obtained. Do the same for an established measurement or computation: inspect the part whose application the change calls into question.
+Use an established lemma at the level its receiving use needs. Inspect its statement and application conditions first; open its proof when the revision requires changing or checking the reasoning that establishes it. Do the same for an established measurement or computation: inspect the part whose application the change calls into question.
 
 A sketch or a few statements can hold these dependencies. Use B.1.1 when a dependency representation needs its relation clarified. A reasoning dependency says which premise or operation supports a conclusion; physical causation and temporal order require their own relations.
 

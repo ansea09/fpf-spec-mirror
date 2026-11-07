@@ -6,12 +6,12 @@ section_id: "A.6.RSIR:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIR/A.6.RSIR__014_relations.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "A.6.RSIR — Relation, Signature, Interface, Role, and Slot Precision Restoration"
   - "A.6.RSIR:12 — Relations"
-line_start: 21836
-line_end: 21851
+line_start: 21829
+line_end: 21844
 dependencies:
   - "A.10"
   - "A.15"
@@ -69,5 +69,5 @@ Apply `A.6.P` for relation precision restoration after the recovered object is a
 
 Apply `A.6.M`, `A.6.F`, `A.6.A`, `A.3.4.P`, `E.18`, `C.30`, `C.30.ASV`, `C.30.AD`, or `C.30.TFS-REL` for the corresponding module-interface, functional, affordance, transformation, transformation-flow, architecture-of, structural-view, or architecture-description question.
 
-Apply `C.2.1`, `E.17`, `C.2.P.DR`, `A.10`, `B.3`, `G.6`, `F.10`, or `C.28` for the corresponding episteme identity and content, publication, declarative representation, evidence, assurance, provenance, status, or causal-use question; the exact direct claim rule still supplies the predicate, polarity, or use asserted through that content.
+Apply `C.2.1` for episteme identity and content, `E.24.PUB` for publication availability and occurrence identity, and `E.17` for a needed reader-facing form of an accepted account. Use `C.2.P.DR`, `A.10`, `B.3`, `G.6`, `F.10` or `C.28` for the corresponding declarative representation, evidence, assurance, provenance, status or causal-use question; the exact direct claim rule still supplies the predicate, polarity or use asserted through that content.
 

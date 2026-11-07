@@ -6,12 +6,12 @@ section_id: "C.16.IR:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.IR/C.16.IR__001_intro.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "C.16.IR — Determine What a Measurement Indication Can Resolve"
   - "C.16.IR:intro — Intro"
-line_start: 59172
-line_end: 59177
+line_start: 59160
+line_end: 59165
 dependencies:
   - "A.3.3.PI"
   - "B.5.MPC.R"

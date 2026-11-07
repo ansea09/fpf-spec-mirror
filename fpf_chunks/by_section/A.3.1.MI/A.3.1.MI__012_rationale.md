@@ -6,12 +6,12 @@ section_id: "A.3.1.MI:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MI/A.3.1.MI__012_rationale.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "A.3.1.MI — Introduce a Method into Practice and Decide What to Keep or Change"
   - "A.3.1.MI:10 — Rationale"
-line_start: 11436
-line_end: 11441
+line_start: 11431
+line_end: 11436
 dependencies:
   - "A.3.1"
   - "A.3.1.FT"

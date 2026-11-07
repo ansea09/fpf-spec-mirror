@@ -6,12 +6,12 @@ section_id: "B.5.RA:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.RA/B.5.RA__006_archetypal-grounding.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "B.5.RA — Recover an Argument for Its Next Use"
   - "B.5.RA:5 — Archetypal Grounding"
-line_start: 48067
-line_end: 48195
+line_start: 48059
+line_end: 48187
 dependencies:
   - "B.5"
   - "B.5.MPC"
@@ -59,7 +59,7 @@ The result is a usable recovery choice or a focused request for a missing contri
 
 #### B.5.RA:5.3 - A projection argument with two grounds and one shared condition
 
-A seminar organizer receives the message: ‘The slides should display correctly. Dana says the projector is compatible, and yesterday's rehearsal worked.’ The organizer needs to decide whether another display test is needed before using projector P with laptop L and adapter D. The relevant technical claim C is: **the current PDF can be displayed at 1080p by this setup**. It says nothing yet about sound, remote attendance or uninterrupted operation for an entire seminar.
+A seminar organizer receives the message: ‘The slides should display correctly. Dana says the projector is compatible, and yesterday's rehearsal worked.’ The organizer needs to decide whether another display test is needed before using projector P with laptop L and adapter D. The relevant technical claim C is: **the current PDF can be displayed at 1080p by this setup**.
 
 **Construct the offered argument.** Ask what ‘compatible’ and ‘worked’ mean here. Suppose Dana maintains these projectors, has relevant technical expertise, and explicitly confirms her claim: ‘The current PDF can be displayed at 1080p using P, L and D at the current settings.’ Separately, the organizer personally inspected all pages of the current PDF during the rehearsal and found them displayed correctly at 1080p. Recover the condition S: the equipment, PDF and settings relevant to this result have not changed.
 
@@ -74,7 +74,7 @@ R2: {the organizer observed the current PDF displayed correctly on P/L/D; S}
     --applicable rehearsal result--> C
 ```
 
-R1 and R2 are separate grounds, but they share S. R2 is not merely another report of Dana's judgement. There is no numeric independence or probability claim.
+R1 and R2 are separate grounds, but they share S. R2 is not merely another report of Dana's judgement.
 
 **Question the ground.** A colleague asks, ‘Did Dana assess this adapter, or just the projector's ordinary input?’ Dana replies that her message was shorthand: she knows P and L but had assumed that D was compatible. This answer removes the claimed coverage of her assessment. Mark the objection at R1's asserted scope and its use for C. The resulting conclusion is not ‘the slides cannot display’. R2 still supplies the observed result for P/L/D. If that rehearsal is an adequate technical basis for this modest use and S holds, the organizer can use C on R2 alone. The map records why losing one reason need not lose the conclusion.
 
@@ -146,7 +146,7 @@ Ask, “Did Noah receive or see this parcel, or infer its arrival from the troll
     --inference from a clue--> P: this parcel has arrived
 ```
 
-Noah's claim about the trolley can remain credible while his conclusion about the parcel is unsupported. The observation and inferred arrival were compressed into one attributed statement. The repair separates them and locates the missing connection. It does not establish that Noah was dishonest, that the parcel is absent, or that a witness's every claim needs specialist credentials.
+Noah's claim about the trolley can remain credible while his conclusion about the parcel is unsupported. The observation and inferred arrival were compressed into one attributed statement. The repair separates them and locates the missing connection.
 
 Ask what other work moves the trolley and whether this delivery was due to use it. Suppose the workshop uses the same trolley for outgoing parcels, and today's dispatch account explains its current position. That removes the offered clue's claimed discrimination for this arrival. The recipient can check the receiving record or inspect the parcel location. Either would be a new ground; repeating Noah's title supplies none.
 

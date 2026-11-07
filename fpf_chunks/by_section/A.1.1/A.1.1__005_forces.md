@@ -6,12 +6,12 @@ section_id: "A.1.1:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.1/A.1.1__005_forces.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "A.1.1 — Bounded Model-Use Structure: Applicability, Use and Expression Coherence (DDD Bounded Context)"
   - "A.1.1:3 — Forces"
-line_start: 3168
-line_end: 3179
+line_start: 3163
+line_end: 3174
 dependencies:
   - "A.1"
   - "A.14"

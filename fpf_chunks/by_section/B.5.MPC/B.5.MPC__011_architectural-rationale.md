@@ -6,12 +6,12 @@ section_id: "B.5.MPC:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.MPC/B.5.MPC__011_architectural-rationale.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "B.5.MPC — Connect Physical, Mathematical and Computational Reasoning"
   - "B.5.MPC:10 — Architectural Rationale"
-line_start: 47393
-line_end: 47440
+line_start: 47385
+line_end: 47432
 dependencies:
   - "A.15.9"
   - "A.3.3"
@@ -41,9 +41,9 @@ The receiving physical question joins several operations whose local success has
 
 The epistemological and methodological contributions meet in the use of a result. Axiomatization can make the objects, premises and permitted constructions explicit. A physical postulate contributes to empirical knowledge through an interpreted model whose consequences can be compared with observations. Computational formulation and realization let agents work through consequences using specified operations on represented inputs. The practitioner connects these contributions to obtain and apply knowledge, then uses an encountered limitation or a newly available operation to change the method or pose another question. Their detailed constructions give substance to the pragmatic question: which further work becomes possible?
 
-The robot makes the need concrete. Circumference, transmission ratio, integer rounding and signed-command semantics are separately intelligible. The useful command exists only when they refer to compatible motion and counts. A.3.3 can help recover state, C.29 can construct and transfer the mathematical consequence, and C.16 can interpret an observation. Their contributions enter the joint question through the dependencies explained in :4; none by itself chooses all the other subject content.
+The robot makes the need concrete. Circumference, transmission ratio, integer rounding and signed-command semantics are separately intelligible. The useful command exists only when they refer to compatible motion and counts. A.3.3 can help recover state, C.29 can construct and transfer the mathematical consequence, and C.16 can interpret an observation. Their contributions enter the joint question through the dependencies explained in :4.
 
-B.5 provides the general inquiry method: recover the question, perform the missing contribution, make its result understandable, and settle or revise the inquiry. This specialization adds the recurring connections among physical account, mathematical interpretation, computational formulation and executing arrangement. The relation is specialization of inquiry coordination and composition with the constituent Methods. A mathematical Method does not become the parent of a physical modeling Method merely because its result is used there.
+B.5 provides the general inquiry method: recover the question, perform the missing contribution, make its result understandable, and settle or revise the inquiry. This specialization adds the recurring connections among physical account, mathematical interpretation, computational formulation and executing arrangement. The relation is specialization of inquiry coordination and composition with the constituent Methods.
 
 An alternative is to use a fixed forward sequence. That is convenient when every input is new and later stages expose no earlier gap. It becomes wasteful when a ready theorem supplies the answer, and inadequate when command semantics require an earlier state distinction. The dependency method retains a forward traversal but also supports backward recovery, direct entry and returns after changed conditions.
 

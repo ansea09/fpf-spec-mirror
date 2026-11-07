@@ -6,12 +6,12 @@ section_id: "A.2.8:13"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8/A.2.8__016_relations.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "A.2.8 — U.Commitment — Individual Duties to Act or Refrain"
   - "A.2.8:13 — Relations"
-line_start: 8455
-line_end: 8460
+line_start: 8450
+line_end: 8455
 dependencies:
   - "A.10"
   - "A.15.1"

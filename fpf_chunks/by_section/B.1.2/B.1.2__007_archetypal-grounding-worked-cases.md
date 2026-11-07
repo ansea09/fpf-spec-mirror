@@ -6,12 +6,12 @@ section_id: "B.1.2:5"
 section_title: "Archetypal Grounding (Worked Cases)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.2/B.1.2__007_archetypal-grounding-worked-cases.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "B.1.2 — Coordinate Decisions About System Aggregation and Delimitation"
   - "B.1.2:5 — Archetypal Grounding (Worked Cases)"
-line_start: 41549
-line_end: 41572
+line_start: 41541
+line_end: 41564
 dependencies:
   - "A.1"
   - "A.10"

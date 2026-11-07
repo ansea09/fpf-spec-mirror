@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.1.SCR.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "A.1.SCR — Finding the Acting or Changed System"
-line_start: 3552
-line_end: 3814
+line_start: 3547
+line_end: 3809
 dependencies:
   - "A.1"
   - "A.1.CSD"

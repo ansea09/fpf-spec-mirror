@@ -6,12 +6,12 @@ section_id: "C.16.RM:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.RM/C.16.RM__011_architectural-rationale.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "C.16.RM — Repair a Measurement Model or Arrangement"
   - "C.16.RM:10 — Architectural Rationale"
-line_start: 59599
-line_end: 59606
+line_start: 59587
+line_end: 59594
 dependencies:
   - "B.5.MPC.R"
   - "B.5.RR"

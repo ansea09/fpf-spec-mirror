@@ -6,12 +6,12 @@ section_id: "A.7.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.1/A.7.1__006_solution.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "A.7.1 — Consequence-Guided Ontological Problem Solving"
   - "A.7.1:4 — Solution"
-line_start: 25882
-line_end: 25932
+line_start: 25875
+line_end: 25925
 dependencies:
   - "A.11"
   - "A.7"
@@ -64,7 +64,7 @@ The four loci are a named diagnostic set; they are not a mandatory sequence.
 
 1. Select the first locus capable of resolving the delta.
 2. Perform the required domain inquiry, wording repair, typing, evidence assessment or construction analysis.
-3. Use exact `A.7.CP` claim IDs through `ClaimUsedAsReasoningBasisRelation@Context` only when those claims are load-bearing in the work. Do not traverse the compact by default.
+3. Cite exact `A.7.CP` claim IDs when their contents are load-bearing. Use `ClaimUsedAsReasoningBasisRelation@Context` when the receiving use needs to recover the actual Work, receiving result, posture, scope, or interval of that reliance. Do not traverse the compact by default.
 4. Preserve direct evidence, currentness, source-use, kind-admission, and subject-construction patterns.
 5. Return the repaired result immediately when the next action is truthful at the declared guarantee.
 

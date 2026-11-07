@@ -6,12 +6,12 @@ section_id: "A.3.1.MI:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MI/A.3.1.MI__006_solution.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "A.3.1.MI — Introduce a Method into Practice and Decide What to Keep or Change"
   - "A.3.1.MI:4 — Solution"
-line_start: 11262
-line_end: 11354
+line_start: 11257
+line_end: 11349
 dependencies:
   - "A.3.1"
   - "A.3.1.FT"

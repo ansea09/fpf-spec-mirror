@@ -6,12 +6,12 @@ section_id: "C.29.2:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29.2/C.29.2__007_bias-annotation.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "C.29.2 — Computational Formulation"
   - "C.29.2:6 — Bias-Annotation"
-line_start: 70659
-line_end: 70669
+line_start: 70647
+line_end: 70657
 dependencies:
   - "A.10"
   - "A.3.1"

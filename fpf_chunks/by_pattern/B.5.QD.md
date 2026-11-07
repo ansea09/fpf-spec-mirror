@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.5.QD.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "B.5.QD — Develop a New Question from a Result or Construction"
-line_start: 49116
-line_end: 49329
+line_start: 49108
+line_end: 49321
 dependencies:
   - "B.5.MPC"
   - "B.5.RA"
@@ -88,7 +88,7 @@ Use variations that have a reason in the work. The following are common ways to 
 
 A variation can change the original task. Preserve that change explicitly: restricting a claim to trees may give a valid result while leaving the original request about all graphs unanswered. If the broader request still matters, keep it as an unresolved question.
 
-These variations can be combined or repeated. Their purpose is to expose a useful answer, not to fill a catalogue of question types.
+These variations can be combined or repeated. Their purpose is to expose a useful answer.
 
 When requirements appear incompatible, B.5.QD.CF recovers the premises producing the conflict and asks what other construction could satisfy the retained need. It distinguishes changing an assumed means or representation from changing a requirement, and can return a useful impossibility when the conditions must remain.
 

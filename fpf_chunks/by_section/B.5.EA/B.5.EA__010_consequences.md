@@ -6,12 +6,12 @@ section_id: "B.5.EA:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.EA/B.5.EA__010_consequences.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "B.5.EA — Articulate a Working Distinction from Experience"
   - "B.5.EA:9 — Consequences"
-line_start: 46751
-line_end: 46756
+line_start: 46743
+line_end: 46748
 dependencies:
   - "B.5"
   - "B.5.4"
@@ -25,5 +25,5 @@ keywords:
 
 Previously unusable experience can contribute to joint reasoning. The participant may discover what they mean while the listener obtains something more useful than agreement with a vague label.
 
-The method requires attention and, in its human experiential branch, the participant's willingness and ability to return to the experience. It offers no guarantee that the account will become clear. Use accessible observations or another contribution when that return is unavailable.
+The method requires attention and, in its human experiential branch, the participant's willingness and ability to return to the experience. Use accessible observations or another contribution when that return is unavailable.
 

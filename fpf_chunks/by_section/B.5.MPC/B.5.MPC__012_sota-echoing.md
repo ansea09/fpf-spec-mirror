@@ -6,12 +6,12 @@ section_id: "B.5.MPC:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.MPC/B.5.MPC__012_sota-echoing.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "B.5.MPC — Connect Physical, Mathematical and Computational Reasoning"
   - "B.5.MPC:11 — SoTA-Echoing"
-line_start: 47441
-line_end: 47454
+line_start: 47433
+line_end: 47446
 dependencies:
   - "A.15.9"
   - "A.3.3"
@@ -35,7 +35,7 @@ keywords:
 
 ### B.5.MPC:11 - SoTA-Echoing
 
-For the declared coordination question, the selected answer is the explicit combination of physical interpretation, operation-preserving mathematical use, computational formulation and realization comparison. The sources below supply particular advances and alternatives. The combined Method is a methodological synthesis. The three cases are constructed under their stated conditions. The synthesis and its cases establish no measured advantage for every discipline, reader or team.
+For the declared coordination question, the selected answer is the explicit combination of physical interpretation, operation-preserving mathematical use, computational formulation and realization comparison. The sources below supply particular advances and alternatives. The combined Method is a methodological synthesis. The three cases are constructed under their stated conditions.
 
 | Practice question | Source contribution, comparison and application | Limits and condition for reconsidering the choice |
 | --- | --- | --- |

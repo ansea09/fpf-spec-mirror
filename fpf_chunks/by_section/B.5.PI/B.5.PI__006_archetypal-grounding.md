@@ -6,12 +6,12 @@ section_id: "B.5.PI:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.PI/B.5.PI__006_archetypal-grounding.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "B.5.PI — Initiate Inquiry from Ongoing Work"
   - "B.5.PI:5 — Archetypal Grounding"
-line_start: 50631
-line_end: 50674
+line_start: 50623
+line_end: 50666
 dependencies:
   - "A.1.STM"
   - "A.15.11"
@@ -67,5 +67,5 @@ The first useful question was therefore "Does this list include every contact th
 
 Change one condition: the apparent CA line is only a drawing crossing, and the design establishes no mesh between C and A. The chain representation then preserves the stipulated contacts. Retain its compatible-direction result under that model. Tooth engagement, torque and motion under load remain separate questions only when the receiving decision needs them. If the actual contact cannot yet be established, retain that particular uncertainty and obtain the needed inspection; a drawn proximity alone settles neither outcome.
 
-The mantra exposed a connection worth examining before a felt failure. The contact evidence and kinematic argument supplied the particular answer. This illustrates the inquiry operation and its bounded continuation; it is not an observation that mantra use has improved design performance.
+The mantra exposed a connection worth examining before a felt failure. The contact evidence and kinematic argument supplied the particular answer. This illustrates the inquiry operation and its bounded continuation.
 

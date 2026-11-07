@@ -6,12 +6,12 @@ section_id: "A.16.1:14"
 section_title: "Authoring and Practitioner Checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__015_authoring-and-practitioner-checks.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "A.16.1 — PreArticulationCuePack: Preserve an Early Cue Before Choosing Its Use"
   - "A.16.1:14 — Authoring and Practitioner Checks"
-line_start: 34045
-line_end: 34065
+line_start: 34037
+line_end: 34057
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -55,5 +55,5 @@ A practitioner should check:
 - whether route language is still an early directional hint rather than route selection.
 
 #### A.16.1:14.3 - Carrier reminder
-The cue pack may cite traces, embodiment, and model-state refs, but it should not try to replace `A.7` carrier discipline.
+Use the carrier-analysis boundary in §20.2.
 

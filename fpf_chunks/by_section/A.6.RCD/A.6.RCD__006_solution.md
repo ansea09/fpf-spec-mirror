@@ -6,12 +6,12 @@ section_id: "A.6.RCD:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RCD/A.6.RCD__006_solution.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "A.6.RCD — Needed Relation Claim Derivation and Relation-Kind Admission"
   - "A.6.RCD:4 — Solution"
-line_start: 21279
-line_end: 21455
+line_start: 21274
+line_end: 21450
 dependencies:
   - "A.11"
   - "A.6.0"
@@ -40,12 +40,12 @@ Name the blocked receiving claim and participants. Reuse a current direct predic
 1. **Name the blocked use.** State the exact claim, check, decision, or continuation that cannot proceed, and what answer would close it.
 2. **Recover participants and direct relations.** Use `A.6.P` to name the actual participant referents under their relation-participant meanings and retrieve the smallest plausible base from the exact pattern content or declaration that defines each base predicate and its obtaining law. Similar tokens, shared field names, or adjacent graph edges are not a base.
 3. **Choose the least constructor admitted by the current substrate.** State the constructor semantics and the base claim content it consumes. Do not infer an operator from punctuation or notation.
-4. **Replay three things.** Test one positive case, one discriminating failure case, and the named receiving use. Keep hidden intermediates, polarity, scope, time, and base-definition editions visible when they change the result.
+4. **Check the derivation and its use.** Establish that the base claims and selected constructor support the required result and that it answers the named receiving use. Reuse an adequate existing proof or check; add positive or discriminating cases when needed to establish or explain applicability or failure. Keep hidden intermediates, polarity, scope, time, and base-definition editions visible when they change the result.
 5. **Select the lightest disposition.** Choose exactly one of the four dispositions in section 4.3 and stop at its stopping rule.
 6. **Open reusable semantics when the receiving use needs one stable definition.** This can support planned reuse or a reference to the rule; previously observed repetition is unnecessary. Decide whether the rule concerns one exact subject or is parameterized across subject instances. For one subject, identify a subject-bounded compound-law episteme whose EntityOfConcern is that subject and state the reuse limit. Across subjects, identify the reusable predicate definition itself as EntityOfConcern; that episteme may satisfy A.6.0 U.Signature membership before relation-kind admission, but it is not a RelationSignature.
 7. **Open kind admission only when occurrence semantics are consumed.** A derived kind needs a direct subject settlement with obtaining, applicability, base dependencies, and a non-optional occurrence-identity rule. A primitive candidate additionally carries the failed derivation, the exact action-facing distinction lost, its own obtaining and recurrence laws, independent receiving uses, and a standalone subject-pattern obligation.
 
-Use this compact working note only while the decision is live:
+When a separate note helps the live decision, use the applicable prompts below:
 
 ```text
 A.6.RCD working note:
@@ -54,8 +54,8 @@ A.6.RCD working note:
   candidateBaseRelationClaims:
   selectedSubstrateAndEdition:
   constructorSemantics:
-  positiveCase:
-  discriminatingFailureCase:
+  positiveCaseIfNeeded:
+  discriminatingFailureCaseIfNeeded:
   receivingUseReplay:
   disposition:
   predicateDefinitionModeIfCurrent: subjectBounded | reusableAcrossSubjects
@@ -132,9 +132,9 @@ In either branch, the definition content states:
 - parameter and participant meanings;
 - the exact base-relation claims and the pattern content or declarations that define their predicates and obtaining laws;
 - the derivation rule under the selected substrate;
-- polarity, scope, time, and applicability;
+- claim polarity and applicability, with any scope or time arguments the rule consumes;
 - base-definition and substrate dependencies plus their editions when current;
-- positive and discriminating cases;
+- justification of the derived rule and its applicability, with cases where needed to expose a deciding condition;
 - the admissible claim use, plus a restriction on occurrence or ontology inference only when F.19's independent-ground, plausible-reader and consequence test warrants it.
 
 If neither the exact subject nor the exact reusable predicate definition is the truthful `EntityOfConcern`, keep the needed results as local compound claims. Do not manufacture a union concern or alternate opportunistically between the rule and a nearby domain subject.
@@ -181,11 +181,11 @@ The ordinary branch can stop at a readable direct claim or one readable compound
 
 **Negative direct-claim case.** A staffing check asks whether Robot_7 is assigned as InspectorSystemRole for Cell_3 during Interval_T under the declared CellInspectorAssignment species of U.SystemRoleAssignment. The species is the relation kind, not an assignment occurrence. A.2.1 and the species definition supply participant meanings and the positive predicate for the actual holder, cell and interval; taxonomy and reference scheme are not participants. When an applicable non-assignment criterion or complete closure basis is satisfied, a C.2.1 episteme can state the negative and disposition 1 closes the check without individuating an obtaining assignment. An absent direct predicate, applicability condition or required occurrence rule yields `missing-governor`; sufficient case facts that fail the positive test yield `factually unsupported`; an unavailable deciding fact yields `missing-information`. Neither a failed positive test nor a blocker supplies negative polarity by itself.
 
-**Assurance branch for DPF and FPF authors.** DPF and FPF authors use this branch whenever they author a compound claim, reusable predicate definition, or relation-kind admission candidate, including a durable local compound claim that stops at disposition 2. In addition, verify:
+**Check a compound claim or proposed definition.** DPF and FPF authors verify the applicable grounds below when authoring a compound claim, reusable predicate definition, or relation-kind admission candidate, including a durable local compound claim that stops at disposition 2:
 
 - exact base patterns, definitions, editions, and applicability;
 - selected substrate and constructor semantics;
-- positive case, discriminating failure case, and receiving-use replay;
+- the derivation's validity and receiving-use result, with positive or discriminating cases when needed to settle a consequential condition;
 - one truthful definition `EntityOfConcern` when reusable semantics are published;
 - dependency and currentness conditions;
 - direct occurrence-identity and recurrence rules for every admitted relation kind;

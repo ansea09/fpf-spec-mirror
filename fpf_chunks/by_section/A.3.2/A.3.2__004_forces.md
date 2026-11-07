@@ -6,12 +6,12 @@ section_id: "A.3.2:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2/A.3.2__004_forces.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "A.3.2 — U.MethodDescription: Description Episteme for a Way of Doing"
   - "A.3.2:3 — Forces"
-line_start: 11510
-line_end: 11519
+line_start: 11505
+line_end: 11514
 dependencies:
   - "A.1.1"
   - "A.10"

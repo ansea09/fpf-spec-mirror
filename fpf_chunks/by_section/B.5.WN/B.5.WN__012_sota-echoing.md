@@ -6,12 +6,12 @@ section_id: "B.5.WN:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.WN/B.5.WN__012_sota-echoing.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "B.5.WN — Develop Lines of Thought with Working Notes"
   - "B.5.WN:11 — SoTA-Echoing"
-line_start: 47012
-line_end: 47025
+line_start: 47004
+line_end: 47017
 dependencies:
   - "A.15.10"
   - "A.15.11"
@@ -34,7 +34,7 @@ keywords:
 
 Luhmann's 1981 account, [*Kommunikation mit Zettelkästen*](https://ckrybus.com/static/papers/luhmann1981.pdf), is a historical example of sustained practice. Andy Matuschak's [daily working log](https://notes.andymatuschak.org/Daily_working_log) and [writing strategy](https://notes.andymatuschak.org/Executable_strategy_for_writing) provide inspectable digital-practice alternatives. Their descriptions are method accounts, not controlled efficacy comparisons.
 
-**Decision and cost.** Adopt stable addressability and recoverable source returns when later reasoning uses them. Adapt note unity to independent use and connected inference, and retain temporary project views when their argument develops differently. Reject a universal promotion ladder or note-count target: neither selects the useful result in these cases. The accepted burden is selective formulation and connection in exchange for an available later continuation. The comparisons establish these constructed uses; learning and general productivity remain empirical questions.
+**Decision and cost.** Adopt stable addressability and recoverable source returns when later reasoning uses them. Adapt note unity to independent use and connected inference, and retain temporary project views when their argument develops differently. Reject a universal promotion ladder or note-count target: neither selects the useful result in these cases. The accepted burden is selective formulation and connection in exchange for an available later continuation.
 
 Reopen the arrangement when useful thoughts repeatedly remain unfindable, mandatory structure suppresses a needed distinction, maintenance exceeds the contribution to actual work, or a simpler available practice supports the same continuation with less effort.
 

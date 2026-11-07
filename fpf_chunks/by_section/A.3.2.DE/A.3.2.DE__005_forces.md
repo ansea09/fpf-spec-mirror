@@ -6,12 +6,12 @@ section_id: "A.3.2.DE:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2.DE/A.3.2.DE__005_forces.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "A.3.2.DE — Describe a Method for Its Intended Use"
   - "A.3.2.DE:3 — Forces"
-line_start: 11814
-line_end: 11824
+line_start: 11809
+line_end: 11819
 dependencies:
   - "A.3.2"
   - "C.37"

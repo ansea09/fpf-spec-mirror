@@ -6,12 +6,12 @@ section_id: "B.5.2.1:4"
 section_title: "Solution — NQD-Generate and its C.18 records"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.1/B.5.2.1__005_solution-nqd-generate-and-its-c-18-records.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "B.5.2.1 — Instrument Abductive Hypothesis Generation with Novelty–Quality–Diversity (NQD)"
   - "B.5.2.1:4 — Solution — NQD-Generate and its C.18 records"
-line_start: 50165
-line_end: 50184
+line_start: 50157
+line_end: 50176
 dependencies:
   - "A.17"
   - "A.18"

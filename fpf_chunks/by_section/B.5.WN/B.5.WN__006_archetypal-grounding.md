@@ -6,12 +6,12 @@ section_id: "B.5.WN:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.WN/B.5.WN__006_archetypal-grounding.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "B.5.WN — Develop Lines of Thought with Working Notes"
   - "B.5.WN:5 — Archetypal Grounding"
-line_start: 46902
-line_end: 46969
+line_start: 46894
+line_end: 46961
 dependencies:
   - "A.15.10"
   - "A.15.11"
@@ -58,7 +58,7 @@ A rough second note asks whether adding two positive irrational numbers must als
 
 The new note retains the two values and that short justification. Its link to the first says: “The first proof requires a rational addend; replacing that condition by an irrational addend permits a rational sum.” Separating the counterexample from its positivity and irrationality grounds would make later use require reconstruction. A small connected note is sufficient.
 
-The assigned explanation also needs a case where two positive irrational addends have an irrational sum. Using `sqrt(2) + sqrt(2) = 2sqrt(2)` supplies it: if that sum were rational, division by the nonzero rational 2 would make `sqrt(2)` rational. The two cases now support the bounded answer that the sum can be rational or irrational. They do not classify products, limits or other operations.
+The assigned explanation also needs a case where two positive irrational addends have an irrational sum. Using `sqrt(2) + sqrt(2) = 2sqrt(2)` supplies it: if that sum were rational, division by the nonzero rational 2 would make `sqrt(2)` rational. The two cases now support the bounded answer that the sum can be rational or irrational.
 
 The writer's outline becomes: distinguish the rational-addend theorem; present the rational-sum counterexample; present the irrational-sum case; state the resulting limit of inference. Rewriting the notes into that order produces an explanation for the assigned question. The earlier theorem remains in the collection, with its actual condition.
 
@@ -66,7 +66,7 @@ A later question about squares can enter through the same concern with what an o
 
 #### B.5.WN:5.3 - Carry a developing question into operational case work
 
-An engineer has the notes in :5.1, including their corrected question about availability and actual use. They do not establish that every delay has the bench's cause. The engineer keeps an entry for “completed activity, receiving result still unavailable”.
+An engineer has the notes in :5.1, including their corrected question about availability and actual use. The engineer keeps an entry for “completed activity, receiving result still unavailable”.
 
 At an already authorized support handover, a case note says: “Nightly exports finish on time; the senior analyst removes duplicates every morning. The customer proposes buying faster workers.” Private row contents remain in the customer's system. The engineer's permitted work is to examine the support question, not to change that system.
 
@@ -80,11 +80,11 @@ Now use the subject information available in this constructed case. The current 
 
 A later signed configuration report says v2. The retained case question makes its contribution recognizable: it supplies the missing protocol fact. At the next permitted handover, the engineer reads the governing manual and the current case basis. Under the stipulated v2 rule, absence of the relevant receipt must still be confirmed before the proposed resend. The configuration result has answered one question; it has not performed that check or the action. The recipient receives the case-specific explanation and needed next contribution, not the engineer's entire note collection.
 
-Compare the full construction with the smaller incumbent. The ordinary case record already retains the duplicate episode, the protocol question and the eventual report. It is sufficient to resume this same support case; copying those facts into a second case ledger adds no needed capability. The longer-lived note contributes a separately developed question, its grounds and its limits across the bench, review and export occasions. Making that thought available costs the formulation and maintenance of the note and entry. When a practitioner can obtain the same question directly from the present record, no advantage of the additional network is established for that use. Keep the network contribution only for continuations that actually use it.
+The ordinary case record already retains the duplicate episode, the protocol question and the eventual report. It is sufficient to resume this same support case; copying those facts into a second case ledger adds no needed capability. The longer-lived note contributes a separately developed question, its grounds and its limits across the bench, review and export occasions. Making that thought available costs the formulation and maintenance of the note and entry. Use the present record directly when it already supplies the needed question. Keep the network contribution only for continuations that actually use it.
 
 Finally change the governing source. A new manual still describes v2 but additionally requires destination certification. The available report identifies v2 and says nothing about certification. Preserve that observation, the original duplicate episode and the question that connected them. Revise the conditional advice: the former basis is insufficient for this proposed resend. Obtain the certification contribution through an authorized route or withhold the action; the current protocol fact need not be collected again merely because another premise is missing.
 
-The note has helped construct and carry a question into work. The allowed encounter, configuration read, interpretation of the manual and controlled operational action remain actual contributions with their own conditions. A saved connection performs none of them by itself.
+The note has helped construct and carry a question into work. The allowed encounter, configuration read, interpretation of the manual and controlled operational action remain actual contributions with their own conditions.
 
 #### B.5.WN:5.4 - Keep the simpler project record when it suffices
 

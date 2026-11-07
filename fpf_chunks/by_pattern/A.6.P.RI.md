@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.P.RI.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "A.6.P.RI — Recover Agent-Relative References for Action"
-line_start: 20544
-line_end: 20739
+line_start: 20539
+line_end: 20734
 dependencies:
   - "A.6.3.RT"
   - "A.6.4"
@@ -127,7 +127,7 @@ Change the assignment to “move the crate one metre toward your own left”. Wi
 
 If B's heading is unavailable, “one metre west” can still be a complete instruction for a performer who can act in that frame. Otherwise the body-relative instruction remains unresolved. The method asks for the information needed by the chosen means, not for every possible position description.
 
-A mobile robot receiving the same external displacement needs a usable relation between the shared frame and its action representation. Obtaining that relation and the capability to perform the movement is a separate technical task. The example does not prescribe its learning or control architecture.
+A mobile robot receiving the same external displacement needs a usable relation between the shared frame and its action representation. Obtaining that relation and the capability to perform the movement is a separate technical task.
 
 #### A.6.P.RI:5.2 - Preserve the speaker when relaying a request
 
@@ -183,7 +183,7 @@ Use the questions needed for the receiving decision. An already clear instructio
 
 The same source account can support a usable receiving instruction without losing who or what it concerned. A changed position or participant becomes a condition to handle explicitly where it matters.
 
-The method can expose missing information and thereby postpone an action that previously appeared clear. It does not create the unavailable information, movement capability or authority. Where ordinary shared understanding already settles the reference, further formalization would add cost without improving the action.
+The method can expose missing information and thereby postpone an action that previously appeared clear. Where ordinary shared understanding already settles the reference, further formalization would add cost without improving the action.
 
 ### A.6.P.RI:10 - Architectural Rationale
 

@@ -6,12 +6,12 @@ section_id: "F.9:23"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__025_rationale.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "F.9 — Relate Local Meanings across Contexts (Alignment and Bridge)"
   - "F.9:23 — Rationale"
-line_start: 121734
-line_end: 121739
+line_start: 121722
+line_end: 121727
 dependencies:
   - "A.10"
   - "A.13"

@@ -6,12 +6,12 @@ section_id: "A.15.PROD:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.PROD/A.15.PROD__006_archetypal-grounding.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "A.15.PROD — Production Work, Entity-Identity Inception, and Production Completion Recovery"
   - "A.15.PROD:5 — Archetypal Grounding"
-line_start: 33090
-line_end: 33244
+line_start: 33083
+line_end: 33237
 dependencies:
   - "A.1"
   - "A.10"
@@ -122,7 +122,7 @@ Delivery, class acceptance, and operational release remain separate. The sentenc
 
 **Work, Method, and change.** A dated pressure-adjustment Work occurrence may enact an exact pressure-adjustment method, while A.3.4 independently identifies a pressure transformation.
 
-**Work-to-change claim.** Open a positive claim only when the subject practice supplies a named predicate with Work and transformation participant positions and the case facts make that predicate obtain. Otherwise keep the two occurrences separate and return `missing-governor[pressure-work-to-change]`.
+**Work-to-change claim.** Use the direct subject predicate or a sufficient local compound rule relating the Work and transformation. When its applicability conditions and case facts establish the relation, state the positive claim. If neither rule is available, keep the two occurrences separately identified and return `missing-governor[pressure-work-to-change]`. An unavailable deciding fact yields `missing-information`; under an applicable rule, sufficient facts that fail the positive test yield `factually unsupported`. Report known inapplicability separately. A negative claim additionally needs the applicable non-obtaining criterion or complete closure basis under §4.4.
 
 **Stop.** If the affected vessel or process already exists and no production-completion criterion is current, the result records the exact Work, the exact transformation, and their obtaining Work-to-change predicate. The production-work-participation, entity-inception, and completion branches remain unopened.
 

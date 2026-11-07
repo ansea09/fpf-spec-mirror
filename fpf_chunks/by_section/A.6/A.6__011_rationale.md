@@ -6,12 +6,12 @@ section_id: "A.6:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6/A.6__011_rationale.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "A.6 — Signature Stack: Classify and Place Boundary Claims"
   - "A.6:10 — Rationale"
-line_start: 14227
-line_end: 14239
+line_start: 14222
+line_end: 14234
 dependencies:
   - "A.10"
   - "A.15"

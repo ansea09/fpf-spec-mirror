@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.2.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "C.2 — Epistemic holon composition (KD-CAL)"
-line_start: 50952
-line_end: 51064
+line_start: 50940
+line_end: 51052
 dependencies:
   - "A.1"
   - "A.10"

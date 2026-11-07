@@ -6,12 +6,12 @@ section_id: "B.5.TU:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.TU/B.5.TU__005_solution.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "B.5.TU — Construct a Working Use of an Unfamiliar Theory"
   - "B.5.TU:4 — Solution"
-line_start: 48754
-line_end: 48807
+line_start: 48746
+line_end: 48799
 dependencies:
   - "A.15.9"
   - "A.6.3.RT"
@@ -41,7 +41,7 @@ For this application, identify the objects, relations, given information, permit
 
 Follow the needed result backward to its prerequisites. Keep shared prerequisites and jointly required inputs visible. When a description names a construction without showing how to perform it, B.5.RC recovers its producing operations. When an inference remains unclear, B.5.RA recovers the reason and transitions needed by the receiving use.
 
-Make an unfamiliar expression operative at the point of difficulty. Determine the arguments of a function, the objects related by a diagram, or the conditions under which a rule applies. A.6.3.RT helps construct a usable expression under the available notation. Understanding a symbol's name is useful only as far as it helps perform or interpret the operation.
+Make an unfamiliar expression operative at the point of difficulty. Determine the arguments of a function, the objects related by a diagram, or the conditions under which a rule applies. A.6.3.RT helps construct a usable expression under the available notation.
 
 #### B.5.TU:4.3 - Construct the application
 

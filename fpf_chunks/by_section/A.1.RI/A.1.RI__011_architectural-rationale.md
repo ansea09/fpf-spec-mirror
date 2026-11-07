@@ -6,12 +6,12 @@ section_id: "A.1.RI:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.RI/A.1.RI__011_architectural-rationale.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "A.1.RI — Reidentifying an Object across Observations"
   - "A.1.RI:10 — Architectural Rationale"
-line_start: 3069
-line_end: 3076
+line_start: 3064
+line_end: 3071
 dependencies:
   - "A.1"
   - "A.3.3.PI"

@@ -6,12 +6,12 @@ section_id: "B.5.SD:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.SD/B.5.SD__005_solution.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "B.5.SD — Construct a Useful Answer through Substantive Discussion"
   - "B.5.SD:4 — Solution"
-line_start: 50778
-line_end: 50852
+line_start: 50768
+line_end: 50842
 dependencies:
   - "A.3.1"
   - "B.5.RA"
@@ -53,7 +53,7 @@ Then connect the claims. Use B.5.RA:4.4a to recover an argument implicit in pros
 
 In a multi-component system, distinguish the claim that each component works from the claim that they work together. Recover interfaces, interactions, loads and shared conditions that can defeat composition. In an organizational proposal, distinguish one participant's spare time from joint availability at the moment of handover. In a learning design, distinguish exposure to instruction from the operation the learner will later perform.
 
-Use the ordinary form best suited to the subject: a calculation, diagram, connected prose, prototype, table with explained relations or another working product. The form needs to expose the reasoning, not merely list topics. A canvas or checklist can help notice an omitted concern; its completed boxes do not construct the missing connection.
+Use the ordinary form best suited to the subject: a calculation, diagram, connected prose, prototype, table with explained relations or another working product. Choose a form that exposes the reasoning. A canvas or checklist can also help notice an omitted concern.
 
 At intervals, have the receiver or another capable participant trace a consequential question through the developing answer. Which conclusion follows? From which grounds? What action does it permit? A break in that trace locates more useful work than another general round of opinions.
 
@@ -83,9 +83,9 @@ Give the receiver the connected result in a usable form, with the decisive groun
 
 Examine a plausible consequential variation. If a test window disappears, which claims and proposed decisions lose their basis? If the population, interface or load changes, which earlier findings still apply? If another receiver reveals a needed input, does the proposed simplification still work? Follow only the affected connections; a small change need not restart the whole discussion.
 
-This variation is a way of checking whether the explanation actually relates its parts. It is not empirical proof that every relevant condition has been discovered. Preserve a consequential unlisted concern when it appears.
+This variation is a way of checking whether the explanation actually relates its parts. Preserve a consequential unlisted concern when it appears.
 
-Finish when the current receiving question has a warranted answer and feasible continuation, including a justified stop. If participants repeat views while the connection remains missing, change the construction, obtain the absent competence or return the blocker. More speaking rounds do not supply an absent subject method.
+Finish when the current receiving question has a warranted answer and feasible continuation, including a justified stop. If participants repeat views while the connection remains missing, change the construction, obtain the absent competence or return the blocker.
 
 #### B.5.SD:4.7 - Use AI for substantive construction at its actual competence
 

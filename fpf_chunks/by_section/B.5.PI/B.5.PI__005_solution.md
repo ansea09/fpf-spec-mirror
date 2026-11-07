@@ -6,12 +6,12 @@ section_id: "B.5.PI:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.PI/B.5.PI__005_solution.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "B.5.PI — Initiate Inquiry from Ongoing Work"
   - "B.5.PI:4 — Solution"
-line_start: 50561
-line_end: 50630
+line_start: 50553
+line_end: 50622
 dependencies:
   - "A.1.STM"
   - "A.15.11"
@@ -53,13 +53,13 @@ An explanation of a Method, or of several connected Methods, shows which answers
 
 Choose the mantra by the result being examined. For a project account, A.1.STM connects intended use, functioning, construction and creators. For a physical question whose answer depends on mathematics and computation, B.5.MPC connects the physical account, interpretation, mathematical consequence, computation and return. Recover the supplying Method's purpose, applicability, dependencies and order of justification. The system mantra's direction from receiving use and wider functioning to construction and creation belongs to its systemic question. Another Method can connect different subjects and require a different order. If the working question is already answered by a sufficient direct contribution, use that answer instead of adding a traversal.
 
-Apply the questions to a particular current episode or a possible case relevant to the work. An existing explanation, drawing, calculation or demonstration may supply enough material. Follow the connections that the decision consumes: what must each answer mean, what does the next operation need from it, and under which conditions can they be used together? Use the mantra's logical direction while admitting supported answers at their appropriate places and returning when a later condition changes an earlier premise. When a short phrase cannot explain the connection, obtain the developed Method or the missing subject knowledge. Merely reciting the questions cannot supply it.
+Apply the questions to a particular current episode or a possible case relevant to the work. An existing explanation, drawing, calculation or demonstration may supply enough material. Follow the connections that the decision consumes: what must each answer mean, what does the next operation need from it, and under which conditions can they be used together? Use the mantra's logical direction while admitting supported answers at their appropriate places and returning when a later condition changes an earlier premise. When a short phrase cannot explain the connection, obtain the developed Method or the missing subject knowledge.
 
 Keep a missing answer, an incompatible pair of answers and an adequately supported answer distinguishable. A blank can mean that the condition is unknown, irrelevant here, or absent in the situation; determine which consequence matters before calling it a defect. Work one discriminating consequence where useful: would the result still answer its use if this assumed connection failed or this ordinary condition changed? A constructed possible case can expose an unsupported general promise; it does not show that the failure has already occurred.
 
 Turn the consequential gap into an inquiry: what claim or condition needs to be established, why its answer could change the work, and what attainable observation, explanation or construction could resolve it? Continue through sections 4.3–4.5. C.22.2 is useful when the next operation needs an inspectable problem-side formulation; an actual Problem claim retains C.22.PFR's own conditions. Preserve a cue when that is all the occasion supports, and continue without change when the supplied grounds are already adequate.
 
-A felt difficulty can lead to the same questions by tracing what the work should enable and where its account fails. The mantra makes selected consequential dependencies available before that symptom is noticed. This explains the connection between the two entries without making either a universal diagnostic script. Keep the resulting question and useful continuation; the exercise succeeds by what it brings into consideration, not by finding an obligatory number of problems. Its speed, discovery rate and later effect depend on the actual use and require their own evidence.
+A felt difficulty can lead to the same questions by tracing what the work should enable and where its account fails. The mantra makes selected consequential dependencies available before that symptom is noticed. Keep the resulting question and useful continuation.
 
 #### B.5.PI:4.3 - Keep the part that the familiar account loses
 

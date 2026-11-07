@@ -6,12 +6,12 @@ section_id: "B.5.TU:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.TU/B.5.TU__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "B.5.TU — Construct a Working Use of an Unfamiliar Theory"
   - "B.5.TU:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 48868
-line_end: 48877
+line_start: 48860
+line_end: 48869
 dependencies:
   - "A.15.9"
   - "A.6.3.RT"

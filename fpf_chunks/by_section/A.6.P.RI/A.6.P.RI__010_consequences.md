@@ -6,12 +6,12 @@ section_id: "A.6.P.RI:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P.RI/A.6.P.RI__010_consequences.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "A.6.P.RI — Recover Agent-Relative References for Action"
   - "A.6.P.RI:9 — Consequences"
-line_start: 20703
-line_end: 20708
+line_start: 20698
+line_end: 20703
 dependencies:
   - "A.6.3.RT"
   - "A.6.4"
@@ -25,5 +25,5 @@ keywords:
 
 The same source account can support a usable receiving instruction without losing who or what it concerned. A changed position or participant becomes a condition to handle explicitly where it matters.
 
-The method can expose missing information and thereby postpone an action that previously appeared clear. It does not create the unavailable information, movement capability or authority. Where ordinary shared understanding already settles the reference, further formalization would add cost without improving the action.
+The method can expose missing information and thereby postpone an action that previously appeared clear. Where ordinary shared understanding already settles the reference, further formalization would add cost without improving the action.
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.3.1.CC.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "A.3.1.CC — Check the Coherence of a Method Claim"
-line_start: 10612
-line_end: 10813
+line_start: 10607
+line_end: 10808
 dependencies:
   - "A.10"
   - "A.15.8.MS"

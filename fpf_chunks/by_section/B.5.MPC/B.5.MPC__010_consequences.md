@@ -6,12 +6,12 @@ section_id: "B.5.MPC:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.MPC/B.5.MPC__010_consequences.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "B.5.MPC — Connect Physical, Mathematical and Computational Reasoning"
   - "B.5.MPC:9 — Consequences"
-line_start: 47385
-line_end: 47392
+line_start: 47377
+line_end: 47384
 dependencies:
   - "A.15.9"
   - "A.3.3"
@@ -39,5 +39,5 @@ The practitioner can assemble a useful answer from contributions obtained at dif
 
 The method also changes what work is commissioned. Instead of asking for another undifferentiated simulation or report, a team can ask for the missing physical relation, retained state, constructive algorithm, measurement or realization. An already adequate contribution remains available when an unrelated part changes.
 
-This connection work has a cost. Recovering an unfamiliar source, learning notation or obtaining a physical premise can take more effort than calculating the displayed answer. Spend that effort where it changes the receiving use. The method provides no automatic completeness claim for physics, mathematics or computing; it makes the needed subject contribution and its remaining boundary visible.
+This connection work has a cost. Recovering an unfamiliar source, learning notation or obtaining a physical premise can take more effort than calculating the displayed answer. Spend that effort where it changes the receiving use.
 

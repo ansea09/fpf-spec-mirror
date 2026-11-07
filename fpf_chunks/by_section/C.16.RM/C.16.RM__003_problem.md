@@ -6,12 +6,12 @@ section_id: "C.16.RM:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.RM/C.16.RM__003_problem.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "C.16.RM — Repair a Measurement Model or Arrangement"
   - "C.16.RM:2 — Problem"
-line_start: 59409
-line_end: 59416
+line_start: 59397
+line_end: 59404
 dependencies:
   - "B.5.MPC.R"
   - "B.5.RR"

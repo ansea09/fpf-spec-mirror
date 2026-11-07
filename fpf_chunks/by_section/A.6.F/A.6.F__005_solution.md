@@ -6,12 +6,12 @@ section_id: "A.6.F:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.F/A.6.F__005_solution.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "A.6.F — Function and Functional Precision Restoration (RPR-FUNCTION)"
   - "A.6.F:4 — Solution"
-line_start: 22514
-line_end: 22778
+line_start: 22507
+line_end: 22771
 dependencies:
   - "A.10"
   - "A.15"
@@ -266,12 +266,12 @@ The note records only the local function-flow-module alignment and boundary. Its
 | function = method | Method is a reusable way of doing. A method claim may state an intended effect, but that effect is neither the method nor an actual `U.Transformation`; apply A.3.4 only when the actual change occurrence is independently grounded. |
 | function = system-role kind, assignment, participation, functioning, or responsibility | Recover only the branch the sentence asserts. A system-role kind is a local `...SystemRole` kind; an assignment is one occurrence and its declared `U.SystemRoleAssignment` species; actual Work requires A.13 and independent A.15.1 admission, with F.6 only for precise assignment-bound attribution; participation, functioning, and responsibility each need their domain predicate and supporting case facts; a missing rule, unknown fact and refuted claim have different outcomes. |
 | mathematical function = holon purpose | Recover the intended connection to purpose. Use C.29 when it requires a mathematical representation or inference account, including preserved and lost structure and limits of use; an ordinary mathematical function needs no such account merely to remain a function. |
-| functional diagram = evidence | Distinguish the diagram, the claim-bearing episteme it expresses and any publication. The content may support a claim under A.10; diagram presence alone does not. Use G.6 when the receiving use needs an addressable provenance path. |
+| functional diagram = evidence | Distinguish the diagram, the claim-bearing episteme it expresses and any publication. The content may support a named claim under that claim's direct rule; diagram presence alone does not. Use A.10 when the source-to-use account is implicit or must remain replayable, and G.6 when the receiving use needs an addressable provenance path. |
 | functionality = quality | Recover the quality bearer and subject pattern through `C.25`, `C.16`, or C.16.Q before using the wording as an adequacy claim. |
 
 #### A.6.F:4.7 - Composability and compositionality
 
-Composability and quality compositionality are separate claims. If the text says parts can be assembled, keep that as a structure or use claim. If it says a quality of the whole follows from parts, assign the quality-composition claim to `C.25` and C.16-backed measurement or quality claim:
+Composability and quality compositionality are separate claims. If the text says parts can be assembled, keep that as a structure or use claim. If it says a quality of the whole follows from parts, assign the quality-composition claim to `C.25` and the direct characteristic, measurement, or quality pattern governing that claim:
 
 ```text
 Composability:
@@ -284,15 +284,15 @@ Composability:
   subjectPatternApplicationRefs: A.6.M for `ModuleInterfaceClaim`; C.2.1 for its claim-bearing episteme; A.6.RCD when a reusable direct relation is needed but absent; A.6.REL only after the direct relation is admitted and the receiving use needs explicit occurrence identity; A.6.0 and A.6.5 only for the reusable declaration
 Quality compositionality:
   exactGovernedObjectOrClaim: the affected Q-Bundle and the exact structural-characteristic, causal-hypothesis, or evidence-relation claim that this use relies on
-  directRelationPredicateUse?: the exact predicate defined or tested through C.16, C.16.Q, or A.10 and its actual participants, only when that relation is current
+  directRelationPredicateUse?: the exact predicate supplied by the applicable subject pattern and its actual participants, only when that relation is current
   relationalAssertionUse?: the exact C.2.1 episteme and its affirmative, negative, or modal quality or evidence claim when that assertion is current
-  subjectPatternApplicationRefs: C.25; C.16 or C.16.Q; A.10 only when evidence use or reliance is the claim being made
+  subjectPatternApplicationRefs: C.25; A.17 and A.18 for Characteristic and Scale questions; C.16 for measurement; C.16.Q for unresolved quality wording; A.10 when the source-to-use account is implicit or must remain replayable
 Non-admissible:
   successful assembly is not quality propagation
 ```
 Compositional formalisms may express explicit composition structures and view or model relations. They do not make safety, latency, reliability, or another quality propagate automatically.
 
-A.6.F defines no separate quality-composition record. Use the claim form supplied by the applicable subject pattern. A composite family uses the exact C.25 Q-Bundle, including its bearer, scope, measures, qualification window, mechanisms or status, and evidence. A single characteristic or measurement follows C.16, with C.16.Q used only when quality wording still needs repair; name its bearer, scope, measure, and claim identity. Keep a causal inference with its causal pattern, and use A.10 only when evidence use or reliance is the claim being made. If those values cannot be named, keep the quality-composition claim unresolved rather than filling an A.6.F-only schema.
+A.6.F defines no separate quality-composition record. Use the claim form supplied by the applicable subject pattern. A composite family uses the C.25 Q-Bundle with its bearer and declared measures. Include scope, a qualification window, mechanisms, status, or evidence when that value changes the quality claim or receiving action. A single Characteristic and its Scale follow A.17 and A.18; use C.16 for a measurement question and C.16.Q when quality wording still needs repair. Keep a causal inference with its causal pattern. Use A.10 when the source-to-use account is implicit or must remain replayable. If a required value cannot be established, keep the dependent quality-composition claim unresolved rather than filling an A.6.F-only schema.
 
 #### A.6.F:4.8 - Worked slices
 

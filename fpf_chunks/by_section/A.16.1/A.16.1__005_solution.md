@@ -6,12 +6,12 @@ section_id: "A.16.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__005_solution.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "A.16.1 — PreArticulationCuePack: Preserve an Early Cue Before Choosing Its Use"
   - "A.16.1:4 — Solution"
-line_start: 33931
-line_end: 33987
+line_start: 33924
+line_end: 33980
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -78,7 +78,7 @@ Use `primaryWitnessRef` or `primaryAnchor` when one witness or anchor carries th
 
 The referenced facets keep their own definitions. `primaryAnchor`, `candidateAnchors`, contrasts, and exemplars commonly provide anchor material for `AE` under `C.2.4`; `languageStateClosureDegreeRef` docks to `C.2.5`; source and use claims follow `C.2.6`, and representation-factor refs follow `C.2.7`; `languageStateFacetProfileRef` may bundle them through `C.2.LS`.
 
-In this cluster, a cue is a salient epistemic nucleus extracted from witnesses, traces, felt tensions, model outputs, work-possibility hints, reliance-possibility hints, contrasts, or other grounds and made preservable as a pack. A raw signal-like trace counts as a cue only when that salience and preservability have been made explicit; otherwise it remains a trace, not yet a cue. Any evidence use is separately qualified under A.10 for a named target claim.
+In this cluster, a cue is a salient epistemic nucleus extracted from witnesses, traces, felt tensions, model outputs, work-possibility hints, reliance-possibility hints, contrasts, or other grounds and made preservable as a pack. A raw signal-like trace counts as a cue only when that salience and preservability have been made explicit; otherwise it remains a trace, not yet a cue. For evidence use, establish the grounds for the named target claim. Use A.10 when the source-to-use account is implicit or must remain replayable.
 
 #### A.16.1:4.2 - Use boundary
 The cue pack preserves the nucleus, its grounds and any visible directional hints. Valence, urgency, discomfort, promise or attraction may explain preservation; they do not by themselves establish an evaluation, abductive prompt, selected route, or an action-oriented claim recovered through A.6.A.

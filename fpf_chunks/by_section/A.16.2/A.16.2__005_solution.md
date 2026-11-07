@@ -6,12 +6,12 @@ section_id: "A.16.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.2/A.16.2__005_solution.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "A.16.2 — Reopen, SketchBackoff, Respecify, or Retire a Language-State Publication"
   - "A.16.2:4 — Solution"
-line_start: 34142
-line_end: 34171
+line_start: 34134
+line_end: 34163
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -59,7 +59,7 @@ Make the following content recoverable for each retreat or retirement move; add 
 - and successor information when the receiving use needs it. Identify a successor only under its applicable relation; distinguish a no-successor result supported by a negative criterion or complete closure basis from an unresolved successor question.
 
 #### A.16.2:4.3 - Status and relation discipline
-Reconsider each route selection, endpoint or gate conclusion, publication availability, current-use or retirement claim that depends on the changed basis. Revise those no longer supported and preserve unaffected claims. A past test result remains a historical fact; distinguish it from whether its conclusion still applies to the current use. The move does not by itself establish a change in authority, responsibility, permission, or commitment. If one of those relations does change, name its exact predicate, participants, object or action, scope, interval, and ending or instituting act under its direct pattern.
+Reconsider each route selection, endpoint or gate conclusion, publication availability, current-use or retirement claim that depends on the changed basis. Revise those no longer supported and preserve unaffected claims. A past test result remains a historical fact; distinguish it from whether its conclusion still applies to the current use. The move does not by itself establish a change in authority, responsibility, permission, or commitment. If one of those relations changes, establish the change under its direct predicate, with its actual participants and the scope, interval, or instituting or ending act the rule requires.
 
 If only one route claim, scope assumption or operational use fails, retain the surviving content. Follow its actual dependencies under §20 instead of resetting the entire publication.
 

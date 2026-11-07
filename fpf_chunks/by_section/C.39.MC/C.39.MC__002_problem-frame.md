@@ -6,12 +6,12 @@ section_id: "C.39.MC:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.MC/C.39.MC__002_problem-frame.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "C.39.MC — Continue Method Development from Changed Conditions"
   - "C.39.MC:1 — Problem Frame"
-line_start: 84567
-line_end: 84580
+line_start: 84555
+line_end: 84568
 dependencies:
   - "A.15.7"
   - "A.22.CGUS"

@@ -6,12 +6,12 @@ section_id: "C.32.MWA.PP:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA.PP/C.32.MWA.PP__012_rationale.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "C.32.MWA.PP — Construct and Compare Method Performance and Provision Arrangements"
   - "C.32.MWA.PP:10 — Rationale"
-line_start: 79491
-line_end: 79510
+line_start: 79479
+line_end: 79498
 dependencies:
   - "A.3.1.MI"
   - "A.3.1.QM"

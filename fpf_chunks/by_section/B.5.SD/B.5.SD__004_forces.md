@@ -6,12 +6,12 @@ section_id: "B.5.SD:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.SD/B.5.SD__004_forces.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "B.5.SD — Construct a Useful Answer through Substantive Discussion"
   - "B.5.SD:3 — Forces"
-line_start: 50768
-line_end: 50777
+line_start: 50758
+line_end: 50767
 dependencies:
   - "A.3.1"
   - "B.5.RA"
@@ -24,7 +24,7 @@ keywords:
 
 Several participants can contribute knowledge that no one initially holds together. Their contributions need interpretation and integration, not merely collection.
 
-A clear question limits effort, yet the question may change when a hidden assumption is exposed. The group needs enough structure to return a usable answer without pretending that thought follows a fixed meeting script.
+A clear question limits effort, yet the question may change when a hidden assumption is exposed. The group needs enough structure to return a usable answer.
 
 Participation and neutrality matter to the fairness of discussion. A warranted technical conclusion also requires discriminating between supported and unsupported claims. Fair hearing does not assign equal evidential weight to every statement.
 

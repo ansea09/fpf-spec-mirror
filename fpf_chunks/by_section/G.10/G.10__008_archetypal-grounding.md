@@ -6,12 +6,12 @@ section_id: "G.10:7"
 section_title: "Archetypal grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.10/G.10__008_archetypal-grounding.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "G.10 — SoTA Pack Shipping"
   - "G.10:7 — Archetypal grounding"
-line_start: 132032
-line_end: 132039
+line_start: 132020
+line_end: 132027
 dependencies:
   - "A.10"
   - "A.15.3"

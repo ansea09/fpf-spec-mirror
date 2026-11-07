@@ -6,12 +6,12 @@ section_id: "C.37.CF:End"
 section_title: "C.37.CF:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37.CF/C.37.CF__014_c-37-cf-end.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "C.37.CF — Compare Content and Form Changes"
   - "C.37.CF:End — C.37.CF:End"
-line_start: 82470
-line_end: 82471
+line_start: 82458
+line_end: 82459
 dependencies:
   - "A.3.2.DE"
   - "C.2.8"

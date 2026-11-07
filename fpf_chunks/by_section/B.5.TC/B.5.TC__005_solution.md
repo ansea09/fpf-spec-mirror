@@ -6,12 +6,12 @@ section_id: "B.5.TC:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.TC/B.5.TC__005_solution.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "B.5.TC — Compare Theoretical Accounts for a Working Question"
   - "B.5.TC:4 — Solution"
-line_start: 48950
-line_end: 49020
+line_start: 48942
+line_end: 49012
 dependencies:
   - "B.5.RA"
   - "B.5.RR"
@@ -86,7 +86,7 @@ Common outcomes are:
 - **Complementary uses.** Give each account its question and contribution. When combining their results, establish the compatibility needed at the connection.
 - **A consequential unresolved difference.** Keep the conditional answers and the premise or observation that would discriminate them. Continue with an unaffected result, a sufficient bound or the worthwhile inquiry selected for that difference.
 
-Accuracy, reach, computational effort, learning effort and the ability to change the construction can matter differently across uses. Compare the values that can change this choice. If their trade-off is unresolved, C.11 supplies the decision method; a single “best theory” score would hide it.
+Accuracy, reach, computational effort, learning effort and the ability to change the construction can matter differently across uses. Compare the values that can change this choice. If their trade-off is unresolved, C.11 supplies the decision method.
 
 Reopen when the question, premises, interpretation, available operation or relevant evidence changes. B.5.RR helps revise the affected reasoning. Reuse the comparison where its dependencies remain intact.
 
@@ -94,5 +94,5 @@ Reopen when the question, premises, interpretation, available operation or relev
 
 Recognize the need from an unresolved disagreement or a choice between accounts. One worked comparison can already reveal an omitted premise or a useful complementary answer.
 
-Qualify the result for its intended use. A mathematical equivalence needs a derivation over its claimed domain. A physical prediction needs the corresponding model and observation basis. An implemented approximation needs an error account adequate for the question. Use the relevant subject Methods and B.3 for these claims. Broader reliance is a reason to establish the broader claim, while an ordinary local use can stop with its sufficient local result.
+Qualify the result for its intended use. A mathematical equivalence needs a derivation over its claimed domain. A physical prediction needs the corresponding model and observation basis. An implemented approximation needs an error account adequate for the question. Use the relevant subject Methods for these claims. Use B.3 when a named assurance claim about this result and use needs its own assurance argument and qualification. Broader reliance is a reason to establish the broader claim, while an ordinary local use can stop with its sufficient local result.
 

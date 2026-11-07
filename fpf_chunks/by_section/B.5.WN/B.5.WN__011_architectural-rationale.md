@@ -6,12 +6,12 @@ section_id: "B.5.WN:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.WN/B.5.WN__011_architectural-rationale.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "B.5.WN — Develop Lines of Thought with Working Notes"
   - "B.5.WN:10 — Architectural Rationale"
-line_start: 47004
-line_end: 47011
+line_start: 46996
+line_end: 47003
 dependencies:
   - "A.15.10"
   - "A.15.11"
@@ -28,7 +28,7 @@ keywords:
 
 A retained expression and a line of reasoning have different continuity conditions. An observation can remain unchanged while an interpretation is corrected; a question can retain its address while its proposed answer changes; a project argument can select and rewrite only part of the collection.
 
-Stable addresses and compatible units make those changes manageable. The reasoning comes from the operations on their content and relations. The collection therefore supports inquiry without determining the subject truth or requiring a uniform lifecycle for every note.
+Stable addresses and compatible units make those changes manageable. The reasoning comes from the operations on their content and relations.
 
 B.5.QD develops a question from a result, B.5.RR revises dependent reasoning, and A.6.3.RT.OE prepares an expression for an operation. The present method connects such work across retained formulations and later occasions, including the passage from a developing network to a recipient's argument.
 

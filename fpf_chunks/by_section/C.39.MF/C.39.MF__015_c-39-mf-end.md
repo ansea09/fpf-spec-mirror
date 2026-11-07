@@ -6,12 +6,12 @@ section_id: "C.39.MF:End"
 section_title: "C.39.MF:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.MF/C.39.MF__015_c-39-mf-end.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "C.39.MF — Choose and Reopen a Method Development Focus"
   - "C.39.MF:End — C.39.MF:End"
-line_start: 83835
-line_end: 83836
+line_start: 83823
+line_end: 83824
 dependencies:
   - "A.15.6"
   - "A.3.1"

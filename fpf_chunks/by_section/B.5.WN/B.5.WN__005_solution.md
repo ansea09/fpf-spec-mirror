@@ -6,12 +6,12 @@ section_id: "B.5.WN:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.WN/B.5.WN__005_solution.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "B.5.WN — Develop Lines of Thought with Working Notes"
   - "B.5.WN:4 — Solution"
-line_start: 46818
-line_end: 46901
+line_start: 46810
+line_end: 46893
 dependencies:
   - "A.15.10"
   - "A.15.11"
@@ -30,7 +30,7 @@ Develop the note through its use in reasoning. Recover its meaning, formulate th
 
 **Recover a thought → make one useful connection → follow what it changes → leave a usable return.**
 
-A collection becomes useful through these continuations. Its size and number of links do not establish them.
+A collection becomes useful through these continuations.
 
 #### B.5.WN:4.1 - Enter through available material
 
@@ -82,9 +82,9 @@ Use the access arrangement actually available. A link that only the author can o
 
 Follow a connection while it can yield a useful next result under the available means. The result may be a refined question rather than an answer. Ask what evidence or construction could now distinguish the live possibilities. Continue with that contribution, or leave the question in a form that a later occasion can use.
 
-Two kinds of return are useful. A known deferred intention can be recalled at its next occasion. A semantic entry can expose a relevant thought while following a different question, including when its author has forgotten that it exists. Saving the note supplies neither return automatically.
+Two kinds of return are useful. A known deferred intention can be recalled at its next occasion. A semantic entry can expose a relevant thought while following a different question, including when its author has forgotten that it exists.
 
-For a deliberate deferral, retain the open question, the basis already obtained and what would make continuation worthwhile or necessary. Use a concrete reminder when there is a known occasion. Use a meaningful entry when the future occasion is not known. No invented deadline is needed merely to make an unfinished thought look managed.
+For a deliberate deferral, retain the open question, the basis already obtained and what would make continuation worthwhile or necessary. Use a concrete reminder when there is a known occasion. Use a meaningful entry when the future occasion is not known.
 
 Compare deferral with the present reliance. If today's choice consumes the missing premise, obtain it, choose a supported alternative or withhold the dependent conclusion. If no current use consumes it, the question may remain open. This is the useful resemblance to lazy evaluation: work can wait until its result matters, provided the later use can recover the dependency and initiate the needed work.
 
@@ -92,7 +92,7 @@ Compare deferral with the present reliance. If today's choice consumes the missi
 
 When a project or assigned question needs an answer, select the notes that can contribute to it. State the proposed conclusion and arrange the reasons in the order the recipient needs. A visible outline can keep the whole argument available while one passage is being written.
 
-Turn the selected material into that argument. Supply missing transitions, examine contrary material, remove repetitions and distinguish a useful example from evidence for a general claim. A chain of links is not yet the written inference. Composition often exposes a premise that seemed present only because the author knew the collection.
+Turn the selected material into that argument. Supply missing transitions, examine contrary material, remove repetitions and distinguish a useful example from evidence for a general claim. Composition often exposes a premise that seemed present only because the author knew the collection.
 
 A project may develop copies or selected passages differently from the retained notes. Keep a source return where it matters; the new use need not rewrite every original formulation. Conversely, if new evidence defeats a retained claim still used elsewhere, return that change to the affected reasoning. Follow the actual dependency rather than synchronizing every sentence merely because it was copied.
 
@@ -102,7 +102,7 @@ A useful collection can remain incomplete. An argument offered for reliance must
 
 At a useful stopping point, leave the result that was obtained and the next live question or operation when one remains. The later user should be able to recover why that continuation follows. A completed argument, a narrowed question and a deliberately abandoned conjecture have different further uses.
 
-Retain long-lived notes when their future use warrants it. Processed fleeting cues and completed project material can have other dispositions. Apply the relevant retention, confidentiality and access rules before sharing or discarding material. The method supplies no authority to preserve or expose restricted information.
+Retain long-lived notes when their future use warrants it. Processed fleeting cues and completed project material can have other dispositions. Apply the relevant retention, confidentiality and access rules before sharing or discarding material.
 
 For a handoff, select what the recipient needs to continue the particular reasoning: its present question, obtained result, consequential uncertainty, usable source returns and next contribution. Make abbreviated personal relations explicit where that reader cannot recover them. The whole private collection need not travel.
 

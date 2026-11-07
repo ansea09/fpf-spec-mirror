@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.5.EA.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "B.5.EA — Articulate a Working Distinction from Experience"
-line_start: 46610
-line_end: 46782
+line_start: 46602
+line_end: 46774
 dependencies:
   - "B.5"
   - "B.5.4"
@@ -165,7 +165,7 @@ The listener's expertise can make a premature explanation attractive. Preserve t
 
 Previously unusable experience can contribute to joint reasoning. The participant may discover what they mean while the listener obtains something more useful than agreement with a vague label.
 
-The method requires attention and, in its human experiential branch, the participant's willingness and ability to return to the experience. It offers no guarantee that the account will become clear. Use accessible observations or another contribution when that return is unavailable.
+The method requires attention and, in its human experiential branch, the participant's willingness and ability to return to the experience. Use accessible observations or another contribution when that return is unavailable.
 
 ### B.5.EA:10 - Rationale
 

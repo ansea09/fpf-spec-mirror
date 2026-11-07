@@ -6,12 +6,12 @@ section_id: "A.7.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.2/A.7.2__006_solution.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "A.7.2 — FPF Ontology-Premise Reconciliation"
   - "A.7.2:4 — Solution"
-line_start: 26041
-line_end: 26143
+line_start: 26034
+line_end: 26136
 dependencies:
   - "A.10"
   - "A.7.1"
@@ -42,7 +42,7 @@ keywords:
 4. Test whether the result claims support incompatible answers to the same receiving claim or practical consequence in the same scope. If not, return `noConflictStop` or `contextSplit`.
 5. Compare exact source content through direct evidence, formal-semantics, domain, scope, and currentness patterns. Do not rank source labels.
 6. Translate candidate distinctions into FPF objects and constructive consequences. Test them against subject evidence and only the `A7CP-*` claims used by the reconciliation work.
-7. Reopen the smallest FPF decision set, preserve unaffected subject-pattern decisions, and repair the method clause or subject-pattern decision that caused the dated applications to yield incompatible results. Run enough of the affected application again to obtain a checked result; do not stop at rewriting a premise list.
+7. When the comparison establishes a defective method clause or subject-pattern decision, reopen the smallest affected decision set and repair it, preserving unaffected decisions. Run enough of the affected application again to obtain a checked result. When the available grounds warrant neither correction, retain the appropriate `doNotCompose` or `unresolvedEscalation` result under §4.2.
 8. Return one declared result with affected use, stop, and reopen condition.
 
 #### A.7.2:4.2 - Use one closed reconciliation result set

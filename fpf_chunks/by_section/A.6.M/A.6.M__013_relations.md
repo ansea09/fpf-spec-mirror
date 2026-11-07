@@ -6,12 +6,12 @@ section_id: "A.6.M:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.M/A.6.M__013_relations.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "A.6.M — Module and Interface Claim Repair"
   - "A.6.M:12 — Relations"
-line_start: 23233
-line_end: 23255
+line_start: 23226
+line_end: 23248
 dependencies:
   - "A.10"
   - "A.20"
@@ -64,6 +64,6 @@ keywords:
 | `E.18` and `C.30.TFS-REL` | E.18 transformation-flow relations, path slices, crossings, and flow valuations are not interface specifications. |
 | `C.31` | Modularity and reusable-structure characteristics are governed by C.31 after relation repair when characteristic or measurement use is being made. |
 | `C.31.RSA` | Reusable-structure accounting is governed by C.31.RSA when reusable loci, bespoke residue, or report-only share claims are being made. |
-| `C.16` | Measurement, score, scale, unit, comparability, and evidence-stub admissibility remain C.16-governed. |
+| `A.17`, `A.18`, `C.16`, `C.16.P`, and `A.19.CPM` | Use A.17 for the Characteristic, A.18 for scale-operation legality, C.16 for measurement, C.16.P while measurement wording is ambiguous, and A.19.CPM for comparison. An evidence stub remains an optional locator into A.10/G.6 provenance. |
 | `A.10`, `B.3`, `A.20`, `A.21`, `C.28`, `E.20`, `G.5`, `C.11` | Evidence, assurance, gates, causal use, mechanism suites, set-return selection, and local decisions use their subject patterns; they are not A.6.M claims. |
 

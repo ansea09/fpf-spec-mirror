@@ -6,12 +6,12 @@ section_id: "C.39.MF:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.MF/C.39.MF__003_problem-frame.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "C.39.MF — Choose and Reopen a Method Development Focus"
   - "C.39.MF:1 — Problem Frame"
-line_start: 83698
-line_end: 83703
+line_start: 83686
+line_end: 83691
 dependencies:
   - "A.15.6"
   - "A.3.1"

@@ -6,12 +6,12 @@ section_id: "C.40.CU:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.CU/C.40.CU__007_bias-annotation.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "C.40.CU — Develop a Useful and Reproducible Use of a Construct"
   - "C.40.CU:6 — Bias-Annotation"
-line_start: 86078
-line_end: 86083
+line_start: 86066
+line_end: 86071
 dependencies:
   - "B.1.5.EW"
   - "B.1.5.RS"

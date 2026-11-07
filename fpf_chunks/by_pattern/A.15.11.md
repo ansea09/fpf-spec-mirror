@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.15.11.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "A.15.11 — Make Applicable Methods Noticeable in Work"
-line_start: 32644
-line_end: 32867
+line_start: 32637
+line_end: 32860
 dependencies:
   - "A.15"
   - "A.15.7"
@@ -212,7 +212,7 @@ Use the questions that can change the judgement about this arrangement.
 
 A useful method can enter work before the recipient formulates a search query. Its relation to the task becomes available for examination, including rejection. The arrangement can be as small as a question beside an existing estimate.
 
-This adds preparation and maintenance costs and can create distraction. It also depends on someone finding a method worth introducing. It does not guarantee discovery of every unknown possibility. Repeated use can justify improving a shared arrangement; a one-off direct answer can remain the better choice.
+This adds preparation and maintenance costs and can create distraction. It also depends on someone finding a method worth introducing. Repeated use can justify improving a shared arrangement; a one-off direct answer can remain the better choice.
 
 ### A.15.11:10 - Architectural Rationale
 

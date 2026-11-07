@@ -6,12 +6,12 @@ section_id: "C.40.DC:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.DC/C.40.DC__001_intro.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "C.40.DC — Construct Directions with Support Configurations"
   - "C.40.DC:intro — Intro"
-line_start: 87413
-line_end: 87420
+line_start: 87401
+line_end: 87408
 dependencies:
   - "A.3.1"
   - "A.3.2"

@@ -6,12 +6,12 @@ section_id: "A.6.P.RI:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P.RI/A.6.P.RI__006_archetypal-grounding.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "A.6.P.RI — Recover Agent-Relative References for Action"
   - "A.6.P.RI:5 — Archetypal Grounding"
-line_start: 20637
-line_end: 20672
+line_start: 20632
+line_end: 20667
 dependencies:
   - "A.6.3.RT"
   - "A.6.4"
@@ -35,7 +35,7 @@ Change the assignment to “move the crate one metre toward your own left”. Wi
 
 If B's heading is unavailable, “one metre west” can still be a complete instruction for a performer who can act in that frame. Otherwise the body-relative instruction remains unresolved. The method asks for the information needed by the chosen means, not for every possible position description.
 
-A mobile robot receiving the same external displacement needs a usable relation between the shared frame and its action representation. Obtaining that relation and the capability to perform the movement is a separate technical task. The example does not prescribe its learning or control architecture.
+A mobile robot receiving the same external displacement needs a usable relation between the shared frame and its action representation. Obtaining that relation and the capability to perform the movement is a separate technical task.
 
 #### A.6.P.RI:5.2 - Preserve the speaker when relaying a request
 

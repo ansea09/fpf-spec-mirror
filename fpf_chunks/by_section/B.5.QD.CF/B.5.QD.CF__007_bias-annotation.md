@@ -6,12 +6,12 @@ section_id: "B.5.QD.CF:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.QD.CF/B.5.QD.CF__007_bias-annotation.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "B.5.QD.CF — Reformulate a Problem by Examining Its Conflicting Assumptions"
   - "B.5.QD.CF:6 — Bias-Annotation"
-line_start: 49468
-line_end: 49473
+line_start: 49460
+line_end: 49465
 dependencies:
   - "B.1.5.EW"
   - "B.5.FM"
@@ -27,5 +27,5 @@ keywords:
 
 The familiar means can dominate the description of a need. Recovering the result it supplies helps make a replacement thinkable. Conversely, a wish for a harmonious answer can lead the practitioner to relax the very condition that mattered. Returning to all retained requirements exposes that loss.
 
-The easiest premise to remove may be the one with the strongest physical or practical basis. Diagnose its role without treating mathematical removability as permission to discard it. People and AI agents can both produce a coherent reformulation that solves a different problem.
+The easiest premise to remove may be the one with the strongest physical or practical basis. Diagnose its role without treating mathematical removability as permission to discard it.
 

@@ -6,12 +6,12 @@ section_id: "E.4.CM:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.CM/E.4.CM__005_solution.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "E.4.CM — Develop Connected Methods as Framework Contributions"
   - "E.4.CM:4 — Solution"
-line_start: 93560
-line_end: 93803
+line_start: 93548
+line_end: 93791
 dependencies:
   - "A.3.1"
   - "B.1.5"

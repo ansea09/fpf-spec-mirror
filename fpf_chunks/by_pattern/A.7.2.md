@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.7.2.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "A.7.2 — FPF Ontology-Premise Reconciliation"
-line_start: 26003
-line_end: 26215
+line_start: 25996
+line_end: 26208
 dependencies:
   - "A.10"
   - "A.7.1"
@@ -79,7 +79,7 @@ Reconciliation recovers what each application actually used, what source content
 4. Test whether the result claims support incompatible answers to the same receiving claim or practical consequence in the same scope. If not, return `noConflictStop` or `contextSplit`.
 5. Compare exact source content through direct evidence, formal-semantics, domain, scope, and currentness patterns. Do not rank source labels.
 6. Translate candidate distinctions into FPF objects and constructive consequences. Test them against subject evidence and only the `A7CP-*` claims used by the reconciliation work.
-7. Reopen the smallest FPF decision set, preserve unaffected subject-pattern decisions, and repair the method clause or subject-pattern decision that caused the dated applications to yield incompatible results. Run enough of the affected application again to obtain a checked result; do not stop at rewriting a premise list.
+7. When the comparison establishes a defective method clause or subject-pattern decision, reopen the smallest affected decision set and repair it, preserving unaffected decisions. Run enough of the affected application again to obtain a checked result. When the available grounds warrant neither correction, retain the appropriate `doNotCompose` or `unresolvedEscalation` result under §4.2.
 8. Return one declared result with affected use, stop, and reopen condition.
 
 #### A.7.2:4.2 - Use one closed reconciliation result set
@@ -206,10 +206,10 @@ The dominant biases are prestige hierarchy, forced convergence, and formal-shape
 | Anti-pattern | Repair |
 |---|---|
 | Rank sources or traditions before naming the receiving claim. | Recover exact source content, use function, scope, currentness, and consequence. |
-| Rewrite a premise list while dated applications keep yielding conflicting results. | Repair the smallest method clause or subject-pattern decision that causes the incompatible result, then check the affected application result. |
+| Rewrite a premise list while dated applications keep yielding conflicting results. | Repair an established defect in the smallest affected method clause or subject-pattern decision, then check the application result. When the grounds warrant neither correction, use the non-convergence result under §4.2. |
 | Force one ontology because shared terminology looks desirable. | Permit `contextSplit` or `doNotCompose` when constructions or uses differ. |
 | Treat citation, publication, or a completed review dossier as an obtaining source-use relation. | Require actual consumption by dated decision work for one receiving claim; keep optional content-slice, model-use, currentness, evidence, and disposition records only when this reconciliation uses them. |
-| Let a pattern, source, reader label, system-role kind, or assignment perform reconciliation. | Use A.13 to identify the actual performer and A.15.1 to admit the dated reconciliation Work independently. Retain the separately declared assignment species and obtaining occurrence used by A.13; add F.6 only if the result must also identify the assignment under which that Work was performed. Neither the kind nor the assignment acts. |
+| Let a pattern, source, reader label, system-role kind, or assignment perform reconciliation. | Name the capable practitioner or System performing the reconciliation. For an asserted dated Work occurrence, use A.13 and independent A.15.1 admission, retaining the assignment species and obtaining occurrence required by A.13; add F.6 only if the result needs precise assignment-bound attribution. Neither the kind nor the assignment acts. |
 | Copy the common compact into this method. | Cite exact `A7CP-*` claims; keep `A.7.CP` as the authoritative source for the claim content and relation definition. |
 
 ### A.7.2:9 - Consequences

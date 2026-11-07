@@ -6,12 +6,12 @@ section_id: "A.15.10:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.10/A.15.10__006_archetypal-grounding.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "A.15.10 — Resume Interrupted Work"
   - "A.15.10:5 — Archetypal Grounding"
-line_start: 32548
-line_end: 32573
+line_start: 32541
+line_end: 32566
 dependencies:
   - "A.15"
   - "A.15.5"
@@ -35,7 +35,7 @@ An AI assistant resumes a wording review at paragraph six. Its summary says “f
 
 It opens the method's operative section and the last substantive result. The fifth paragraph was completed; the sixth was only located. It reads the sixth paragraph as a connected argument and tries removing “approved” from a procedure name. The word identifies which procedure may be used, so deletion would change the instruction. It retains the word and explains that contribution through the review's existing result.
 
-The return recovered both the position and the method. It did not require reviewing the first five paragraphs again. The assistant's reconstruction does not imply a human memory mechanism.
+The return recovered both the position and the method. It did not require reviewing the first five paragraphs again.
 
 #### A.15.10:5.2 - The recipient receives a conclusion with an obsolete condition
 

@@ -6,12 +6,12 @@ section_id: "A.3.1.QM:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.QM/A.3.1.QM__008_bias-annotation.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "A.3.1.QM — Qualify a Method for Its Intended Contribution"
   - "A.3.1.QM:6 — Bias-Annotation"
-line_start: 10346
-line_end: 10354
+line_start: 10341
+line_end: 10349
 dependencies:
   - "A.3.1"
   - "A.3.1.CC"

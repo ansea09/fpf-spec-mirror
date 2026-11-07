@@ -6,12 +6,12 @@ section_id: "B.5.MPC.R:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.MPC.R/B.5.MPC.R__012_sota-echoing.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "B.5.MPC.R — Repair a Physical-Mathematical-Computational Connection"
   - "B.5.MPC.R:11 — SoTA-Echoing"
-line_start: 47704
-line_end: 47715
+line_start: 47696
+line_end: 47707
 dependencies:
   - "A.15.9"
   - "A.3.3"

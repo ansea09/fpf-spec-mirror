@@ -6,12 +6,12 @@ section_id: "C.40.JF:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.JF/C.40.JF__013_relations.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "C.40.JF — Qualify Dependencies and Joint Reachability"
   - "C.40.JF:12 — Relations"
-line_start: 87864
-line_end: 87873
+line_start: 87852
+line_end: 87861
 dependencies:
   - "A.10"
   - "A.15.9"

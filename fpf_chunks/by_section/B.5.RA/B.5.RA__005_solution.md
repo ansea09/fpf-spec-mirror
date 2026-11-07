@@ -6,12 +6,12 @@ section_id: "B.5.RA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.RA/B.5.RA__005_solution.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "B.5.RA — Recover an Argument for Its Next Use"
   - "B.5.RA:4 — Solution"
-line_start: 47951
-line_end: 48066
+line_start: 47943
+line_end: 48058
 dependencies:
   - "B.5"
   - "B.5.MPC"
@@ -105,7 +105,7 @@ Use a short outline or **argument map** when the dependencies would otherwise be
 
 Put jointly used premises in one reason group. To check the grouping, remove one premise in thought and ask whether the *same offered inference* still supplies a reason for that target. If its bridge is gone, keep the co-premises linked. If another complete reason remains, show that reason separately. Separate reasons need not each be sufficient for the contemplated use; several weak reasons may be cumulative, and their adequacy remains a subject judgement. Retain common sources or assumptions across groups so that repeating one report does not create independent evidence.
 
-Use A.6.3.RT.OE when the expression obscures the recovered relations. Show an intermediate conclusion at both of its uses and keep an objection attached to the claim or inference it challenges. Preserve source attribution and consequential uncertainties in the outline. Read it back as ordinary reasoning and compare it with the text. If the map seems more certain, more comprehensive or easier to defend, find what was lost or added. A tidy layout cannot settle a competing interpretation.
+Use A.6.3.RT.OE when the expression obscures the recovered relations. Show an intermediate conclusion at both of its uses and keep an objection attached to the claim or inference it challenges. Preserve source attribution and consequential uncertainties in the outline. Read it back as ordinary reasoning and compare it with the text. If the map seems more certain, more comprehensive or easier to defend, find what was lost or added.
 
 The selected structure can now be used for criticism. An answer may require changing the structure itself: a supposed eyewitness report can turn out to be an inference from an observed clue, as in :5.5. Return to the interpretation and grouping when that happens, rather than merely adding a negative mark to the first scheme.
 
@@ -123,7 +123,7 @@ Place an objection at its target:
 | The transition from premises to conclusion | Whether the stated circumstances permit that inference, even if its premises are accepted. |
 | The conclusion | The opposing argument and its grounds alongside the argument already offered. |
 
-An objection also needs grounds. A question can expose an unsupported premise without establishing its negation. A reply that answers the question may restore that support; a reply that merely repeats the conclusion does not. When disagreement persists, locate whether it concerns evidence, an inference condition or the criterion for accepting the result. Use the relevant practice to settle that issue. Neither the number of questions answered nor the number of arrows is a rule for combining support.
+An objection also needs grounds. A question can expose an unsupported premise without establishing its negation. A reply that answers the question may restore that support; a reply that merely repeats the conclusion does not. When disagreement persists, locate whether it concerns evidence, an inference condition or the criterion for accepting the result. Use the relevant practice to settle that issue.
 
 Return the strongest conclusion the surviving grounds justify for the intended use, with an unresolved condition when necessary. Apply B.5.RR to a changed premise or inference condition and follow its affected dependents. Keep a sufficient alternative that survives. If no adequate route remains, obtain the missing ground, narrow the conclusion or leave it unresolved. A map and a familiar scheme organize this work; the subject reasoning still determines what follows.
 

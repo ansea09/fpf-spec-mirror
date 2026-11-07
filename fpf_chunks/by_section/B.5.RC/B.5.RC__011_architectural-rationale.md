@@ -6,12 +6,12 @@ section_id: "B.5.RC:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.RC/B.5.RC__011_architectural-rationale.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "B.5.RC — Recover a Construction from Its Description"
   - "B.5.RC:10 — Architectural Rationale"
-line_start: 47887
-line_end: 47896
+line_start: 47879
+line_end: 47888
 dependencies:
   - "A.6.3.RT"
   - "B.5"
@@ -30,5 +30,5 @@ The method follows the construction's dependency structure. One intermediate obj
 
 Construction and reasoning about properties remain connected. In the triangle case, the construction creates a common point and the circle properties establish equal sides. In the stand case, fitting conditions permit assembly, while load and carrying requirements can lead to design revision. This relation warrants cooperating methods for construction recovery and argument recovery.
 
-B.5 coordinates these contributions within inquiry. C.39 develops a missing method, C.29.2 develops a computational formulation, and A.6.3.RT prepares an operative expression. Their results can supply a missing step here; the source-recovery question does not by itself select every neighbouring method.
+B.5 coordinates these contributions within inquiry. C.39 develops a missing method, C.29.2 develops a computational formulation, and A.6.3.RT prepares an operative expression. Their results can supply a missing step here.
 

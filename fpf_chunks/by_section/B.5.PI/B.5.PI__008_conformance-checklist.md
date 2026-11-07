@@ -6,12 +6,12 @@ section_id: "B.5.PI:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.PI/B.5.PI__008_conformance-checklist.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "B.5.PI — Initiate Inquiry from Ongoing Work"
   - "B.5.PI:7 — Conformance Checklist"
-line_start: 50679
-line_end: 50693
+line_start: 50671
+line_end: 50683
 dependencies:
   - "A.1.STM"
   - "A.15.11"
@@ -37,6 +37,4 @@ For guidance or an application claiming this method, examine the consequential c
 - The continuation can obtain a usable contribution, identify missing means, or stop without change under stated conditions.
 - Conformance, result achievement, adequacy for the receiving work and completeness of the description remain different claims.
 - The result returns to the encompassing work, and any claim about later independent use has its own basis.
-
-These checks cover the stated method, not every possible anomaly in the work under consideration.
 

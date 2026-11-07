@@ -6,12 +6,12 @@ section_id: "A.6.RSIR:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIR/A.6.RSIR__007_archetypal-grounding.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "A.6.RSIR — Relation, Signature, Interface, Role, and Slot Precision Restoration"
   - "A.6.RSIR:5 — Archetypal Grounding"
-line_start: 21755
-line_end: 21774
+line_start: 21750
+line_end: 21769
 dependencies:
   - "A.10"
   - "A.15"
@@ -70,8 +70,8 @@ keywords:
 | Source phrase | Positive recovery | Near miss to reject |
 |---|---|---|
 | “API role is provider” | Apply `E.10.ROLE` once. If it recovers `ProviderSystemRole`, an exact assignment, provider Work, API publication, promise, access relation, or another direct object, apply that object's rule and leave RSIR closed. Apply A.6.RSIR only for a remaining declaration, direct-participation, interface, operation, or representation-position question; use A.6.C only when protocol, SLA, service-term, or agreement-like wording bundles unlike claims. | Do not assign a system role to an API description or protocol, and do not repeat the E.10.ROLE recovery inside RSIR. |
-| "endpoint parameter source" | Use the direct relation pattern when the phrase hides a participant meaning or actual participant; use `A.6.5` only for a complete `SlotSpec` in a current reusable `RelationSignature`; use `A.6.1` when it names an operation `ArgumentDeclaration`, `ResultDeclaration`, or an actual binding in one independently identified exact application; use the selected representation rule or E.17 when it is a representation position or API-description publication, and `A.6.P:4.11a` when a service-documentation label hides the concrete subject or relation; recover correspondence from the selected scheme, making it explicit when the receiving claim needs it. | Do not create an endpoint kind, a work-facing role from the word "source", a parameter ontology, a public application kind, a universal input/output relation, or a world-side participant or binding from representation shape. |
+| "endpoint parameter source" | Use the direct relation pattern when the phrase hides a participant meaning or actual participant; use `A.6.5` only for a complete `SlotSpec` in a current reusable `RelationSignature`; use `A.6.1` when it names an operation `ArgumentDeclaration`, `ResultDeclaration`, or an actual binding in one independently identified exact application; use the selected representation rule for a representation position, E.24.PUB for publication availability, or E.17 for a needed reader-facing form of the accepted API description, and `A.6.P:4.11a` when a service-documentation label hides the concrete subject or relation; recover correspondence from the selected scheme, making it explicit when the receiving claim needs it. | Do not create an endpoint kind, a work-facing role from the word "source", a parameter ontology, a public application kind, a universal input/output relation, or a world-side participant or binding from representation shape. |
 | “`Engineer-7#Verifier:Lab-A`” | Recover Engineer-7 as the holder System, VerifierSystemRole as the local kind, and any claimed assignment under its declared U.SystemRoleAssignment species. In this case Lab-A denotes the facility System where verification Work occurs; that Work-location claim is separate. | The spelling alone does not make Lab-A an assignment participant or establish Holder#Role:Context as an identity rule. Apply the species' own participant and identity rules. |
 | "function of the pump" | `A.6.F`, `A.3.4`, `E.18`, or `C.30.TFS-REL` when the phrase names functional structure; `A.2.2` when it names a system capability. | Do not treat "function" as the recovered kind before the current claim is known. |
-| “standard evidence role” | Apply `E.10.ROLE` once, then use A.10, B.3, F.10, or E.17 for the recovered evidence, source, status, assurance, or publication claim. Leave RSIR closed unless a separate direct-participation, declaration, interface, operation, or representation-position question remains. | Do not invent `U.EvidenceRole` or put the standard episteme into `U.SystemRoleAssignment`. |
+| “standard evidence role” | Apply `E.10.ROLE` once, then use A.10, B.3 or F.10 for the recovered evidence, source, status or assurance claim under its own conditions; use E.24.PUB for publication availability and E.17 for a needed reader-facing form. Leave RSIR closed unless a separate direct-participation, declaration, interface, operation, or representation-position question remains. | Do not invent `U.EvidenceRole` or put the standard episteme into `U.SystemRoleAssignment`. |
 

@@ -6,12 +6,12 @@ section_id: "B.5.QD.CF:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.QD.CF/B.5.QD.CF__005_solution.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "B.5.QD.CF — Reformulate a Problem by Examining Its Conflicting Assumptions"
   - "B.5.QD.CF:4 — Solution"
-line_start: 49364
-line_end: 49425
+line_start: 49356
+line_end: 49417
 dependencies:
   - "B.1.5.EW"
   - "B.5.FM"
@@ -55,7 +55,7 @@ Choose a premise whose change could matter and whose status is open to examinati
 - **One value is imposed across different conditions.** Do the requirements concern distinguishable participants, times or situations? If so, what construction permits the required values in those conditions? If they concern the same participant and condition, a second name supplies no new possibility.
 - **A restriction belongs to the present representation or construction.** What relation must a different representation or construction preserve, and how could it satisfy the retained requirements? B.5.FM constructs the relation; B.5.RR carries its change through the affected reasoning.
 
-These are common entries, not an exhaustive set of creative moves. State what would answer the selected question: an alternative operation, a condition-dependent construction, a counterexample to necessity, or a derivation of impossibility.
+These are common entries. State what would answer the selected question: an alternative operation, a condition-dependent construction, a counterexample to necessity, or a derivation of impossibility.
 
 A tentative assumption change lets you explore that question. Keep the conclusion conditional until the replacement premise or operation has the support its use needs. Reconsider a requirement explicitly when that is the selected change; a convenient answer to the changed requirement leaves the original one open.
 

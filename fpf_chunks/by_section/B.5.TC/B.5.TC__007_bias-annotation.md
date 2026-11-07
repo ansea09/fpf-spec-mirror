@@ -6,12 +6,12 @@ section_id: "B.5.TC:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.TC/B.5.TC__007_bias-annotation.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "B.5.TC — Compare Theoretical Accounts for a Working Question"
   - "B.5.TC:6 — Bias-Annotation"
-line_start: 49053
-line_end: 49058
+line_start: 49045
+line_end: 49050
 dependencies:
   - "B.5.RA"
   - "B.5.RR"
@@ -29,5 +29,5 @@ keywords:
 
 A shared question can favor the account that originally framed it. Retain a rival's newly expressible question when it opens useful inquiry; compare that contribution on its own terms. Conversely, unfamiliar notation can make an ordinary operation appear novel. Recover the operation before crediting or rejecting the account.
 
-The cases use small formal constructions so their decisive steps can be inspected. They demonstrate the comparison method, with domain premises stated in each case. A difficult real application can need specialist knowledge, uncertain premises and more than one iteration. Human, AI and collective contributions can participate in the comparison; claims about their learning or reliability require their own basis.
+The cases use small formal constructions so their decisive steps can be inspected. They demonstrate the comparison method, with domain premises stated in each case. A difficult real application can need specialist knowledge, uncertain premises and more than one iteration.
 

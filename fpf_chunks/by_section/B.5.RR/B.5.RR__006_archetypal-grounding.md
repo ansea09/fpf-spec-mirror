@@ -6,12 +6,12 @@ section_id: "B.5.RR:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.RR/B.5.RR__006_archetypal-grounding.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "B.5.RR — Revise Reasoning After a Premise or Question Changes"
   - "B.5.RR:5 — Archetypal Grounding"
-line_start: 48375
-line_end: 48408
+line_start: 48367
+line_end: 48400
 dependencies:
   - "B.5"
   - "B.5.MPC.R"
@@ -33,7 +33,7 @@ T(n)=S(n+1)−1=(n+1)²−1=n²+2n.
 
 For n=4, the new sum is 3+5+7+9=24. The old formula applied unchanged would return 16. The proof of S survives; the application of that proof changes.
 
-This repair also exposes a reusable construction. For n terms starting at a and increasing by 2, term j, counted from j=0, is (2j+1)+(a−1). Summing the established odd-number terms and the n equal additions gives n²+n(a−1). Changing the increment would require another derivation. The worked extension makes the next question precise without assuming that the same correction covers every progression.
+This repair also exposes a reusable construction. For n terms starting at a and increasing by 2, term j, counted from j=0, is (2j+1)+(a−1). Summing the established odd-number terms and the n equal additions gives n²+n(a−1). Changing the increment would require another derivation. The worked extension makes the next question precise.
 
 For the next use, retain four terms and the increment 2, but require their sum to be 28. The former starting value a=3 becomes the unknown: 16+4(a−1)=28 gives a=4. Checking 4+6+8+10=28 confirms the required sum. If there are zero terms and the required sum is positive, no starting value can supply it: the empty sum is zero for every a. The changed question then requires a different term count or total.
 

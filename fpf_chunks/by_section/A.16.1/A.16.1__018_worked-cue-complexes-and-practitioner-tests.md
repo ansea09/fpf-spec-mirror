@@ -6,12 +6,12 @@ section_id: "A.16.1:18"
 section_title: "Worked Cue Complexes and Practitioner Tests"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__018_worked-cue-complexes-and-practitioner-tests.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "A.16.1 — PreArticulationCuePack: Preserve an Early Cue Before Choosing Its Use"
   - "A.16.1:18 — Worked Cue Complexes and Practitioner Tests"
-line_start: 34084
-line_end: 34091
+line_start: 34076
+line_end: 34083
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -39,7 +39,7 @@ keywords:
 ### A.16.1:18 - Worked Cue Complexes and Practitioner Tests
 
 #### A.16.1:18.2 - Practitioner test for under-specified packs
-A practitioner may ask: if the candidate-anchor and witness references were hidden, could a reader still name the cue nucleus and understand the preservation rationale? If what is being preserved remains unclear, the pack is under-specified and should be rewritten, retired, or not published yet.
+A practitioner may ask whether the intended recipient can name the cue nucleus and understand its preservation rationale from the account and the exact referenced material they can access and interpret. If the required meaning remains unclear, revise the account to supply it, retire the pack, or postpone publication.
 
 #### A.16.1:18.3 - Practitioner test for covert endpoint capture
 Check any proposed inference from the cue pack to an endpoint result, publication availability or authority. Apply the pattern that establishes the required claim; if its grounds are missing, retain the supported observation and withhold that additional conclusion. Preserve any independently established facts needed to understand the cue.

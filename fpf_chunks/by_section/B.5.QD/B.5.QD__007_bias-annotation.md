@@ -6,12 +6,12 @@ section_id: "B.5.QD:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.QD/B.5.QD__007_bias-annotation.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "B.5.QD — Develop a New Question from a Result or Construction"
   - "B.5.QD:6 — Bias-Annotation"
-line_start: 49264
-line_end: 49270
+line_start: 49256
+line_end: 49262
 dependencies:
   - "B.5.MPC"
   - "B.5.RA"

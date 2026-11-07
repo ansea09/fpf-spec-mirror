@@ -6,12 +6,12 @@ section_id: "A.15.10:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.10/A.15.10__007_bias-annotation.md"
-commit_sha: "d8dd955fddb923b5b946d2c5865d0665cff5a67e"
+commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
 heading_path:
   - "A.15.10 — Resume Interrupted Work"
   - "A.15.10:6 — Bias-Annotation"
-line_start: 32574
-line_end: 32579
+line_start: 32567
+line_end: 32572
 dependencies:
   - "A.15"
   - "A.15.5"
