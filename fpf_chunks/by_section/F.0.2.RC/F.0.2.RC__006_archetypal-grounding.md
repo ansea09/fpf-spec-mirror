@@ -6,12 +6,12 @@ section_id: "F.0.2.RC:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2.RC/F.0.2.RC__006_archetypal-grounding.md"
-commit_sha: "870fb0c2a5dcfe1e0165a111fdf2cf8659c85a54"
+commit_sha: "e307edbd91c04c1d85661bd309b9944fac251937"
 heading_path:
   - "F.0.2.RC — Test Constructive Coverage and Refresh Dependent Explanations"
   - "F.0.2.RC:5 — Archetypal Grounding"
-line_start: 118471
-line_end: 118500
+line_start: 118477
+line_end: 118506
 dependencies:
   - "A.10.1"
   - "A.3.1.CC"
