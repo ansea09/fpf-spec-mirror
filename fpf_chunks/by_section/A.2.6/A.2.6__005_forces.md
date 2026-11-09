@@ -6,7 +6,7 @@ section_id: "A.2.6:4"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__005_forces.md"
-commit_sha: "e307edbd91c04c1d85661bd309b9944fac251937"
+commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Test Scope Membership and Combine Scopes"
   - "A.2.6:4 — Forces"

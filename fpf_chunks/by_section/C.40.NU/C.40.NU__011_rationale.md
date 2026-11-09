@@ -6,7 +6,7 @@ section_id: "C.40.NU:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.NU/C.40.NU__011_rationale.md"
-commit_sha: "e307edbd91c04c1d85661bd309b9944fac251937"
+commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
 heading_path:
   - "C.40.NU — Search Neighboring Uses and Means"
   - "C.40.NU:10 — Rationale"

@@ -6,7 +6,7 @@ section_id: "A.3.1.CC:End"
 section_title: "A.3.1.CC:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.CC/A.3.1.CC__015_a-3-1-cc-end.md"
-commit_sha: "e307edbd91c04c1d85661bd309b9944fac251937"
+commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
 heading_path:
   - "A.3.1.CC — Check the Coherence of a Method Claim"
   - "A.3.1.CC:End — A.3.1.CC:End"

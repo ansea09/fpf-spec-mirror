@@ -6,7 +6,7 @@ section_id: "C.41.QC:End"
 section_title: "C.41.QC:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.QC/C.41.QC__014_c-41-qc-end.md"
-commit_sha: "e307edbd91c04c1d85661bd309b9944fac251937"
+commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
 heading_path:
   - "C.41.QC — Qualify Checklist Criteria and Checking Means"
   - "C.41.QC:End — C.41.QC:End"

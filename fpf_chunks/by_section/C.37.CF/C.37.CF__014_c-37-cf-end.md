@@ -6,7 +6,7 @@ section_id: "C.37.CF:End"
 section_title: "C.37.CF:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37.CF/C.37.CF__014_c-37-cf-end.md"
-commit_sha: "e307edbd91c04c1d85661bd309b9944fac251937"
+commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
 heading_path:
   - "C.37.CF — Compare Content and Form Changes"
   - "C.37.CF:End — C.37.CF:End"
