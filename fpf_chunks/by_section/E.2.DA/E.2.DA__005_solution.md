@@ -6,12 +6,12 @@ section_id: "E.2.DA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.2.DA/E.2.DA__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.2.DA — Evaluate How FPF Realizes Its Pillars (Pillar-Adequacy CharacteristicSpace)"
   - "E.2.DA:4 — Solution"
-line_start: 92732
-line_end: 92869
+line_start: 97265
+line_end: 97402
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -30,14 +30,14 @@ keywords:
 
 `E.2.DA` is the Pillar-adequacy specialization of `A.19.ECS`. An evaluator applies its questions to one FPF object under improvement against all eleven `E.2` Pillars for a declared use.
 
-An `E.2.DA` result gives every Pillar coordinate a value, short rationale, evidence locus, and shared evidence basis for the FPF object being evaluated. Local pattern quality, `DRR` adequacy, and wording repair use their own object-under-improvement questions. A bounded diagnostic may borrow selected Pillar questions, but makes neither an E.2.DA-result nor an FPF-adequacy status claim.
+An `E.2.DA` result gives every Pillar coordinate a value, short rationale, evidence locus, and shared evidence basis for the FPF object being evaluated. Local pattern quality, `DRR` adequacy, and wording repair use their object-under-improvement questions. A bounded diagnostic may borrow selected Pillar questions, but makes neither an E.2.DA-result nor an FPF-adequacy status claim.
 
 #### E.2.DA:4.1 - Local names and kind settlement
 
 | Local name | Kind and use |
 |---|---|
 | `FPFPillarAdequacyEvaluation` | Authored evaluation record over one scoped FPF Pillar-adequacy claim. |
-| `FPFObjectUnderImprovementRef` | FPF object version named by value being evaluated. |
+| `FPFObjectUnderImprovementRef` | Identifies by value the FPF object and version under evaluation. |
 | `FPFAdequacyUseScope` | Declared FPF-level use the object must serve. |
 | `FPFAdequacyReaderScope` | Primary reader family and working situation for the adequacy claim. |
 | `FPFAdequacyQualificationWindow` | Edition, source-currentness, neighbour, release, or comparison window for which the values hold. |
@@ -124,7 +124,7 @@ An `E.2.DA` result uses this table shape:
 
 For values `1..4`, explain why the lower adjacent value would understate the evidence and the higher adjacent value would overstate it. For `0`, explain why `1` would overstate the evidence and what would raise the value or reopen it. For `5`, explain why `4` would understate the evidence and what would lower the value or reopen it.
 
-A Pillar essay, local-quality average, two-column table, or result whose value depends on unchecked corpus, projection or source evidence is draft evaluation material. Check the needed evidence before assigning the affected value. An observed defect lowers a value according to its coordinate meaning; absence of a check does not by itself establish that defect. A completed E.2.DA result still evaluates all eleven coordinates.
+A Pillar essay, local-quality average, two-column table, or result whose value depends on unchecked corpus, projection or source evidence is draft evaluation material. Check the needed evidence before assigning the affected value. An observed defect lowers a value according to its coordinate meaning; absence of a check does not by itself establish that defect. A completed E.2.DA result evaluates all eleven coordinates.
 
 Common calibration points:
 
@@ -160,7 +160,7 @@ E.2.DA result:
   Reopen if: <smallest changed locus or condition>
 ```
 
-For a small release decision, the coordinate table may be compact. It is still complete. Status is not assigned from prose, a checklist count, a local-pattern average, a two-column table, or a result missing evidence loci needed by its values.
+For a small release decision, the coordinate table may be compact if it retains every required row and field. Status is not assigned from prose, a checklist count, a local-pattern average, a two-column table, or a result missing evidence loci needed by its values.
 
 When `E.22`, `E.23`, absorption, or exceptional-improvement framing asks for improvement, below-floor Pillar coordinates return findings or repair. Above-floor coordinates receive proposal rows only for substantive non-dominated FPF-level content opportunities inside the declared use: for example, better entry recognition, placement of defining, constraining, or testing content, source-currentness carry-through, projection thinning, corpus-ecology repair, kind-preserving precision restoration, open-ended evolution support, or deletion or relocation of apparatus that weakens the FPF object. Apparatus-only additions do not qualify. Do not treat every value below `5` as a defect. A `4` may be the correct stop value only with loci showing why further Pillar-content movement is dominated, unavailable, or outside scope.
 

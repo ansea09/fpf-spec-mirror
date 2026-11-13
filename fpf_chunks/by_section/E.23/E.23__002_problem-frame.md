@@ -6,12 +6,12 @@ section_id: "E.23:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:1 — Problem frame"
-line_start: 114795
-line_end: 114817
+line_start: 122064
+line_end: 122086
 dependencies:
   - "A.19.ECS"
   - "A.22.CGUS"
@@ -29,11 +29,11 @@ keywords:
 ---
 
 ### E.23:1 - Problem frame
-Use `E.23` when an object version will be improved through repeated passes under a declared object-under-improvement evaluation. The object can be a pattern, `DRR`, FPF corpus object, engineering quality object, naming candidate, OEE and NQD candidate, archive or front member, selected set, parity report, refresh report, or declared transformation result, if an exact evaluation supplies values and stop meanings for that object kind.
+Use `E.23` when an object version will be improved through repeated passes under the evaluation declared for that object. The object can be a pattern, `DRR`, FPF corpus object, engineering quality object, naming candidate, OEE and NQD candidate, archive or front member, selected set, parity report, refresh report, or declared transformation result, if the evaluation supplies values and stop meanings for that object kind.
 
-First useful move: name the object version under improvement, the exact evaluation that will re-evaluate it, the improvement aim, protected trade-offs, cost and risk account, and local stop condition.
+First useful move: name the object version under improvement, the evaluation to use again on the changed version, the improvement aim, protected trade-offs, cost and risk account, and local stop condition.
 
-For improvement of an operating work process whose useful next condition is clearer than the way to reach it, §4.4.1 develops the Improvement Kata branch: study current work, establish a near target condition, and use observations and bounded experiments to discover an effective change. Preparing that basis can finish with a useful next observation. An actual improvement pass still needs the object, evaluation, protected qualities and continuation grounds above. Use the coached-practice application in HCD.9:4.10 when developing the learner's or coach's reasoning is also intended.
+For improvement of an operating work process whose useful next condition is clearer than the way to reach it, §4.4.1 develops the Improvement Kata branch: study current work, establish a near target condition, and use observations and bounded experiments to discover an effective change. Preparing that basis can finish with a useful next observation. An actual improvement pass needs the object, evaluation, protected qualities and continuation grounds above. Use the coached-practice application in HCD.9:4.10 when developing the learner's or coach's reasoning is also intended.
 
 Not this pattern when one direct quality evaluation is enough. Run that evaluation; use E.22 first only when its question needs clarification. Use `A.19.ECS` first if the needed evaluation characteristic space does not exist.
 
@@ -45,9 +45,9 @@ Use `E.23.CAE` first when the apparent object to improve remains ambiguous becau
 
 Use `E.23.CDI` instead when a separate applicable steering or choice result has made capability development current for one admitted holder System and named Work family, and the change must be checked in representative Work. That is a separate capability-development Method; E.23 points to its description without copying its actions. Use a population assessment when the question is a distribution across member capabilities, `C.36` when generation, transmission, recognition, selection, retention, or loss across a cultural population is current, and `C.32.MWA` first only when the target-practice architecture itself must be recovered or compared.
 
-What goes wrong if missed: teams close discharge rows instead of improving quality, retry blindly, optimize visible values while damaging protected qualities, stop merely because every value is `5`, or let a review recommendation become decision, work, evidence, selected-set result declaration, actual publication, parity, or refresh by stealth.
+What goes wrong if missed: teams close discharge rows instead of improving quality, retry blindly, optimize visible values while damaging protected qualities, stop merely because every value is `5`, or treat a review recommendation as a decision, work, evidence, a selected-set result declaration, actual publication, parity, or refresh.
 
-What this buys in practice: each pass has a declared object version, an intended evaluation-result change, a rerunnable evaluation, protected trade-offs, and a stop or switch condition. Effort can then change substantive quality and stop when no non-dominated change is worth its cost, instead of merely producing more review state.
+What this buys in practice: each pass has a declared object version, an intended evaluation-result change, a rerunnable evaluation, protected trade-offs, and a stop or switch condition. The team can then spend its effort on improving the object’s quality instead of accumulating review records, and stop when no non-dominated change is worth its cost.
 
 Primary EntityOfConcern in plain terms: the repeated quality-improvement method for one object version under one declared evaluation.
 

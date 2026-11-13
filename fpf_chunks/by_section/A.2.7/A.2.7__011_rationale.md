@@ -6,12 +6,12 @@ section_id: "A.2.7:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.7/A.2.7__011_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.2.7 — SystemRoleKindRelationStructure - Relations among System-Role Kinds"
   - "A.2.7:9 — Rationale"
-line_start: 8084
-line_end: 8091
+line_start: 8417
+line_end: 8424
 dependencies:
   - "A.2"
   - "A.2.1"
@@ -32,7 +32,7 @@ keywords:
 
 ### A.2.7:9 - Rationale
 
-When a receiving check needs several kind relations together, a dependent `SystemRoleKindRelationStructure` identifies that organization. The actual assignments remain separate inputs to the check.
+When a receiving check needs several kind relations together, a dependent `SystemRoleKindRelationStructure` identifies that organization. The assignments remain separate inputs to the check.
 
 The families are separate because their laws differ. Substitution is directional. Incompatibility is symmetric under one joint condition. A bundle uses an order-insensitive finite set and an allocation rule. Monotonic qualification belongs to `U.SubkindOf`; non-monotonic restriction stays residual. One generic hierarchy cannot preserve those distinctions.
 

@@ -6,12 +6,12 @@ section_id: "C.2.5:18"
 section_title: "Review Matrix and Reopen Tests"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.5/C.2.5__019_review-matrix-and-reopen-tests.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.2.5 — Language-State Closure Degree — How Fixed Is the Current Candidate Space?"
   - "C.2.5:18 — Review Matrix and Reopen Tests"
-line_start: 54090
-line_end: 54109
+line_start: 56327
+line_end: 56346
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -45,7 +45,7 @@ An assurance reader should ask:
 - whether the publication distinguishes local closure from whole-case finality.
 
 #### C.2.5:18.2 - False-finality test
-When a receiving action relies on "final", "settled", or "decided", check the actual scope and source of fixation and any applicable guard. A final-sounding word alone does not establish those conditions.
+When a receiving action relies on "final", "settled", or "decided", check the scope and source of fixation and any applicable guard. A final-sounding word alone does not establish those conditions.
 
 #### C.2.5:18.3 - Cross-facet reminder
 Assess articulation under C.2.4 and representation under C.2.7 independently of closure. Source, evidence, access and action conditions retain their separate claims under C.2.6.

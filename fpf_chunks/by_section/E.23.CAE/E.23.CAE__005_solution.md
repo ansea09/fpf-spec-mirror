@@ -6,12 +6,12 @@ section_id: "E.23.CAE:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23.CAE/E.23.CAE__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.23.CAE — Capability Access and Expression Differential Probe"
   - "E.23.CAE:4 — Solution"
-line_start: 115669
-line_end: 115764
+line_start: 123007
+line_end: 123107
 dependencies:
   - "A.15.7"
   - "A.15.8"
@@ -30,8 +30,8 @@ keywords:
 
 Name only the values that can change the probe or its later use:
 
-1. the exact holder System;
-2. the named Work family or exact current demand;
+1. the holder System;
+2. the named Work family or current demand;
 3. the capability envelope, measures, evidence, and qualification window currently relied upon;
 4. the prior qualified result or reference condition;
 5. the present failure or unstable expression;
@@ -40,9 +40,9 @@ Name only the values that can change the probe or its later use:
 8. protected conditions and probe limits; and
 9. the receiving question that a differential observation could change.
 
-If the holder or Work family is unclear, return to `A.2.2`. If the current demand is already outside the claimed envelope, return `outsideClaimedEnvelope` and stop the loss diagnosis. If a known configuration failure fully explains the case, use `A.15.8` and stop here.
+If the holder or Work family is unclear, return to `A.2.2`. If the current demand is outside the claimed envelope, return `outsideClaimedEnvelope` and stop the loss diagnosis. If a known configuration failure fully explains the case, use `A.15.8` and stop here.
 
-For a compact retained account, use this local shape only when another use needs it:
+Use this compact record only when another use needs it:
 
 ```text
 CapabilityAccessExpressionProbe@Use:
@@ -64,14 +64,14 @@ This optional form records the probe result; it introduces no new FPF kind.
 #### E.23.CAE:4.2 - Run the differential probe
 
 1. **Check the demand against the claim.** Confirm that the current task belongs to the Work family and capability envelope being relied upon. Compare measures and qualification windows before calling a difference loss or transfer failure.
-2. **Recover the relevant configuration.** Name actual or intended performers, roles, tools, records, interfaces, authority, environmental conditions, state, and other supports only where their direct rules apply. Use `A.15.8` when one exact Work or WorkPlan configuration is current.
+2. **Recover the relevant configuration.** Name actual or intended performers, roles, tools, records, interfaces, authority, environmental conditions, state, and other supports only where their direct rules apply. Use `A.15.8` when the question concerns one Work or WorkPlan configuration.
 3. **Hold development and updating fixed.** During the contrast, avoid new teaching, rehearsal, procedure rewrite, fine-tuning, parameter update, recalibration, or other development where safe and feasible. If the probe necessarily changes the holder, mark the affected distinction unresolved or narrow the claim.
 4. **Return to a qualified reference condition.** When the needed contrast is not already supported by matching observations, recreate a previously successful or separately qualified condition without further development. Prefer an `A → B → A` or equivalent return when order, recency, or transition history can matter. Reappearance rejects simple global loss under those tested conditions; it does not establish general transfer.
 5. **Vary a decision-bearing condition.** For a remaining unresolved contrast, change the smallest condition that can distinguish live rivals: an overt cue, cue reliability, preceding decision state or uncertainty, role, record, authority, tool, task or context identifier, state feedback, blocked versus interleaved order, transition frequency, or another domain-relevant condition. A label or visible setting is not assumed to be the effective context.
 6. **Observe applicability separately.** Ask whether the relevant Method, response, routine, policy, or prior case is selected as applicable before judging execution. For a person this may involve recognition or choice; for an organization it may involve routing, role, record, or authorization; for AI or robotics it may involve task/context identification, policy routing, or function activation. These are different mechanisms occupying one observational position.
 7. **Separate availability, adaptation, enactment, and result.** Where the case permits, observe whether the response can be accessed or activated, whether it can be transformed for the changed demand, whether the actual performer arrangement can enact it, and whether the required result obtains. A later failure does not by itself establish an earlier one.
 8. **Compare live rivals.** Retain every explanation still compatible with the observations. Ordinary cue effects, interference, envelope mismatch, configuration loss, applicability failure, access or activation failure, adaptation failure, enactment failure, and actual holder change are not synonyms.
-9. **Return a disposition and candidate routes.** State the earliest supported distinction, evidence and conditions, the strongest surviving rival (if any), any materially unsupported use at issue, and patterns or domain Methods that could receive the result. If no rival remains among those tested, state that bounded result. Do not select a route merely because the probe produced a disposition.
+9. **Return a disposition and candidate routes.** State the earliest supported distinction, evidence and conditions, the strongest surviving rival (if any), any materially unsupported use at issue, and patterns or domain Methods that could receive the result. If no rival remains among those tested, state that bounded result. Do not choose a route on the strength of the disposition alone.
 
 These steps organize observations, not a universal cognitive pipeline. A holder may implement them through simultaneous, recurrent, distributed, or structurally different processes.
 
@@ -88,7 +88,7 @@ These steps organize observations, not a universal cognitive pipeline. A holder 
 | `adaptationFailureSupported` | The response is selected and available, but cannot be transformed to the changed demand while enactment supports are adequate. | Direct adaptation or domain Method inquiry. | Loss of the original response or the correct adaptation Method. |
 | `enactmentFailureSupported` | The response or adapted Method is selected and available, but performer assignment, coordination, authority, body, actuator, interface, tool, or another condition prevents actual Work or its result. | `A.15.8`, performer/authority owners, and the direct domain Method. | Capability change when the necessary performer arrangement did not obtain. |
 | `capabilityClaimRevisionWarranted` | Qualified reference and target probes fail across relevant conditions, envelope and configuration rivals have been addressed, and holder-specific evidence supports changed ability in the stated window. | Reassess the `A.2.2` capability claim; use a separate steering or choice result before development. | A specific human, organizational, model, or controller memory mechanism. |
-| `unresolvedDifferential` | Safety, missing reference evidence, concurrent updating, coupled changes, insufficient measures, or surviving rivals block a responsible distinction. | Obtain the missing evidence, use a protected test, narrow the claim, or stop. | Permission to choose the most familiar explanation. |
+| `unresolvedDifferential` | Safety, missing reference evidence, concurrent updating, coupled changes, insufficient measures, or surviving rivals prevent a safe, adequately supported distinction among the remaining explanations. | Obtain the missing evidence, use a protected test, narrow the claim, or stop. | Permission to choose the most familiar explanation. |
 
 One case may support several ordered dispositions. Keep each observation and its limits visible. No disposition is a `ChoiceResult`, authorization, selected next Work, or performed Work.
 
@@ -112,10 +112,15 @@ A cheap reversible probe can support a narrow disposition. A high-stakes capabil
 Keep the first result compact; one useful shape is:
 
 > **Claim tested:** [holder, Work family, envelope, window].
+>
 > **Controlled contrast:** [reference, changed condition, and what was held fixed].
+>
 > **Observation:** [what reappeared, disappeared, or changed first].
+>
 > **Disposition:** [qualified differential result].
+>
 > **Surviving rival and limit:** [what remains plausible and what is not established].
+>
 > **Candidate routes:** [patterns or domain Methods that could receive the result].
 
 During ongoing Work, `A.15.7` can use the disposition as current information while recovering a next action. Use `C.11` only when a current chooser and `OptionSet` already exist and comparison or another probe can change the choice. `E.23.CAE` supplies neither pattern's result. Use `E.23.CDI` only after a separate applicable steering or choice result selects capability development.

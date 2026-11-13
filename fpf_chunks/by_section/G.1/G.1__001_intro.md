@@ -6,12 +6,12 @@ section_id: "G.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.1/G.1__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.1 — Author a Reusable CG-Frame Generator and Selector Kit"
   - "G.1:intro — Intro"
-line_start: 127203
-line_end: 127221
+line_start: 135253
+line_end: 135271
 dependencies:
   - "A.10"
   - "A.15.2"
@@ -59,7 +59,7 @@ keywords:
 **Tag.** architectural pattern; *generator chassis* (design‑time kit / authoring scaffold)
 **Normativity.** normative, except sections explicitly marked *informative*
 **Stage.** *design‑time* authoring of a generator‑kit with a *run‑time* execution façade (policy‑governed; edition‑aware)
-**Primary output.** the **six‑card chassis** `M1…M6` published as a **complete, reusable CG‑Frame kit**, plus a versioned **kit manifest** `CGKitId` that binds the six cards as a single reusable unit
+**Primary output.** Publish the six cards `M1…M6` as a reusable CG‑Frame kit. The versioned **kit manifest**, identified by `CGKitId`, binds all six by their card ids.
 **Primary hooks.** see **§12 Relations** (notably `G.Core`, `G.0`, `G.2`, `G.5`, `G.10`, `G.11`)
 **Working‑model first (informative).** prefer working models and didactic micro‑examples; escalate to formal harnesses only when risk warrants (per E.8).
 

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.19.SelectorMechanism"
-pattern_title: "Unified Selection Kernel, SelectorMechanism"
+pattern_title: "Selection Kernel"
 section_id: "A.19.SelectorMechanism:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SelectorMechanism/A.19.SelectorMechanism__014_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.19.SelectorMechanism — Unified Selection Kernel, SelectorMechanism"
+  - "A.19.SelectorMechanism — Selection Kernel"
   - "A.19.SelectorMechanism:12 — Relations"
-line_start: 39530
-line_end: 39556
+line_start: 41108
+line_end: 41134
 dependencies:
   - "A.19.CHR"
   - "A.19.CN"
@@ -43,9 +43,9 @@ keywords:
   * `A.6.1` and its conformance checklist for mechanism identity, declaration content, applicability, and specialisation-chain discipline.
   * `A.19.CHR` for suite membership, suite protocol closure, SlotKind lexicon, and threshold and default discipline.
   * `G.0` for `CG‑Spec` admissibility and evidence declarations.
-  * `A.19` for the exact `CharacteristicSpacePredicate` basis when one governs selection.
-  * `A.19.CPM` for every exact binary `Compare` application in the finite basis, its pair, realized eligibility value, and own set-valued output binding.
-  * `A.2.6` for `U.ClaimScope` identity and exact `U.ContextSlice` membership.
+  * `A.19` for the `CharacteristicSpacePredicate` basis when one governs selection.
+  * `A.19.CPM` for every binary `Compare` application in the finite basis, its pair, realized eligibility value, and own set-valued output binding.
+  * `A.2.6` for `U.ClaimScope` identity and `U.ContextSlice` membership.
   * `A.19.CN` for `CN-Spec`, whose declared comparison and candidate-use conditions supply an explicit input.
   * `C.22` for `TaskSignature` as a policy-reference artifact when used.
   * `A.6.1 §4.2` for operation-local argument/result meanings and their SlotIndex projection; the local extension rule preserves inherited meanings.
@@ -54,12 +54,12 @@ keywords:
   * `A.2.4`, `A.10`, and `G.11` for evidence-use scope, provenance, and currentness, separately from selection scope and output.
 * **Used by**
 
-  * `A.19.CHR` as the canonical `select` stage in CHR pipelines.
+  * `A.19.CHR` as the `select` stage in CHR pipelines.
   * `G.5` as the primary conformance and specialization context for selector-based method dispatch and `PortfolioMode` policies.
-  * `E.18` when this declaration is used by transformation-flow nodes. A.15.3 governs planned refs only for independently declared receiving positions; actual operation bindings and any dated selection Work retain their direct rules.
+  * `E.18` when this declaration is used by transformation-flow nodes. A.15.3 governs planned refs only for independently declared receiving positions; operation bindings and any dated selection Work retain their rules.
 * **Coordinates with**
 
-  * `CPM` and other admissible comparison stages as producers of the exact result bindings whose justified-token union fills the Selector's `ComparisonResultSlot` argument.
+  * `CPM` and other admissible comparison stages as producers of the result bindings whose justified-token union fills the Selector's `ComparisonResultSlot` argument.
   * `ULSAM` and other admissible aggregation stages that must remain explicit rather than hidden inside selection.
   * `E.20` for governing-pattern discipline; `F.18` when a reusable name or alias needs to be chosen. An F.9 semantic Bridge requires its own predicate, not merely a source term.
 

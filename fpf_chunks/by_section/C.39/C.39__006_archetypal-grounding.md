@@ -6,12 +6,12 @@ section_id: "C.39:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39/C.39__006_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.39 — Find and Develop a Way to Obtain a Result"
   - "C.39:5 — Archetypal Grounding"
-line_start: 82819
-line_end: 82891
+line_start: 86861
+line_end: 86933
 dependencies:
   - "A.22.CGUS"
   - "A.3.1"
@@ -39,7 +39,7 @@ In this constructed case, the requested result is a source-traceable account dis
 
 Following that Method on the permitted local records reveals that timestamps alone do not establish a shared setup. The team proposes connecting cases to equipment, shift and setup records before comparing them. This could prevent a setup difference from being attributed to the inspected object. The connecting inference fails if the relevant setup cannot be recovered.
 
-The resulting candidate is: recover setup-linked cases, compare eligible error/non-error cases under the specialist Method, and return what the comparison supports and leaves unresolved. Result checking can use an existing qualified operation. The precise remaining question is whether the permitted records can recover enough comparable setups.
+The resulting candidate is: recover setup-linked cases, compare eligible error/non-error cases under the specialist Method, and return what the comparison supports and leaves unresolved. Result checking can use an existing qualified operation. The remaining question is whether the permitted records can recover enough comparable setups.
 
 That one explained candidate and its gap suffice to decide whether a bounded records inquiry is worthwhile. There is no diagnosis yet. A separate delivery or service comparison can later consider who could perform the investigation and its full burden; this search neither grants data reuse nor establishes that investigator's availability.
 
@@ -59,7 +59,7 @@ Subtracting the initial 40 ms leaves mismatches of 0, 2 and 5 ms. Thus aligning 
 
 The workshop first adjusts the constant shift using all three markers. Their offsets are 40, 42 and 45 ms; centering the smallest and largest gives 42.5 ms. Subtracting that shift leaves residuals of -2.5, -0.5 and 2.5 ms, each within the stipulated marker tolerance. A different constant shift therefore supplies a candidate correction without introducing a changing time correspondence.
 
-The search returns that constant-shift candidate and the precise support question: does it preserve the required relation over the interval used for feedback, and can an available qualified editing operation apply it? A suitable calibration result or a narrower qualified interval can close the gap. Fitting the three markers does not establish adequacy between them or an achieved corrected recording. All numbers and professional inputs here are constructed, not device-performance evidence.
+The search returns that constant-shift candidate and the support question: does it preserve the required relation over the interval used for feedback, and can an available qualified editing operation apply it? A suitable calibration result or a narrower qualified interval can close the gap. Fitting the three markers does not establish adequacy between them or an achieved corrected recording. All numbers and professional inputs here are constructed, not device-performance evidence.
 
 For repeated correction work, C.39.RO:5.1 develops this case into an operation on any nonempty finite set of marker offsets. It derives the correction and the smallest achievable worst residual, so a tighter tolerance can return an impossibility result and prompt a different correction method.
 
@@ -73,7 +73,7 @@ To turn that calculation into preparation, connect source tracks and correspondi
 
 Calculation precedes editing. During a preparation episode, it also constitutes part of the encompassing preparation being performed. The order and encompassing relation answer different questions. A reusable preparation can qualify as a composite Method under B.1.5 when its applicability, action, result and constituent conditions are established; a four-step label list alone does not establish this.
 
-**Explain what a later practitioner does.** For these supplied premises, the instruction is: identify the receiving interval and tolerance; obtain corresponding offsets and the justified interval bound; calculate the centering correction and its bound; proceed only if the bound meets the receiving tolerance and the editing operation is qualified; apply that operation and return the corrected recording with the interval and qualification needed by its receivers. Missing correspondence, interval support or editing qualification returns that specific question. The general explanation tells the practitioner why these inputs are necessary and why the stop is there.
+**Explain what a later practitioner does.** For these supplied premises, the instruction is: identify the receiving interval and tolerance; obtain corresponding offsets and the justified interval bound; calculate the centering correction and its bound; proceed only if the bound meets the receiving tolerance and the editing operation is qualified; apply that operation and return the corrected recording with the interval and qualification needed by its receivers. Missing correspondence, interval support or editing qualification returns that question. The general explanation tells the practitioner why these inputs are necessary and why the stop is there.
 
 The conditional bound of 2.5 ms meets both receiving requirements. Analysis can produce a movement judgement, and viewing can serve its different purpose. Their common input neither makes preparation a part of each receiving Method nor makes analysis and viewing one Method. They may use the same immutable recording independently under the stated access and resource conditions. Preparing a later recording is another application; developing another preparation method is different work.
 
@@ -89,18 +89,18 @@ The practitioner has obtained a conditional preparation, explicit joins to two r
 
 **Recover the positive construction.** The source describes a person proposing an unusual action, exposing it to reasoned objections, answering an objection or changing the proposal, and then acting when no further objection is found in the discussion. It also distinguishes deciding what is to be learned from designing how to teach it. Merely extracting the words “logic”, “criticism” and “action” would lose the revisable proposal and the connection to a next move. Treating the anecdotes as proof of a universally successful method would add support they do not supply.
 
-The receiving author follows the proposed way on the present material: what would the next practitioner actually receive? The source supplies proposing, criticizing and revising. The instruction to proceed still needs the receiving action's applicable requirements and grounds. The absence of further objections does not show that the prerequisites for the proposed action are satisfied. Following the receiving use exposes the question: what further grounds would justify this action?
+The receiving author follows the proposed way on the present material: what would the next practitioner receive? The source supplies proposing, criticizing and revising. The instruction to proceed still needs the receiving action's applicable requirements and grounds. The absence of further objections does not show that the prerequisites for the proposed action are satisfied. Following the receiving use exposes the question: what further grounds would justify this action?
 
-**Construct the missing connection.** Keep the proposal and reasons for revising it. Name the result wanted from the proposed action and recover the conditions on which its usefulness depends. Connect each consequential claim to the actual grounds on which this use can rely through A.10. Obtain a separate assurance answer through B.3 only when that stronger claim is required. A critique can refute one reason, suggest an adaptation, or reveal an unanswered question; determine which it does before accepting or discarding the proposal.
+**Construct the missing connection.** Keep the proposal and reasons for revising it. Name the result wanted from the proposed action and recover the conditions on which its usefulness depends. Connect each consequential claim to the grounds on which this use can rely through A.10. Obtain a separate assurance answer through B.3 only when that stronger claim is required. A critique can refute one reason, suggest an adaptation, or reveal an unanswered question; determine which it does before accepting or discarding the proposal.
 
-When complete-enough alternatives are available, C.11 compares them on the same basis. An available next inquiry is worth doing when its attainable answer could change that choice and warrants its burden. Otherwise choose under the adequate current basis or retain the precise unresolved condition. An absent indispensable condition does not become satisfied because inquiry is costly.
+When complete-enough alternatives are available, C.11 compares them on the same basis. An available next inquiry is worth doing when its attainable answer could change that choice and warrants its burden. Otherwise choose under the adequate current basis or name the condition that remains unresolved. An absent indispensable condition does not become satisfied because inquiry is costly.
 
 **Return a usable instruction.** For this use the author can now say: state the proposed result and action; expose the reasons that matter; examine substantive objections and revise the affected proposal or reason; establish the receiving action's necessary conditions; compare the available continuations; return the selected continuation with its grounds and the condition that would change it. A sufficiently qualified existing proposal can go directly to use. If the useful result is only a proposal worth testing, keep that narrower conclusion rather than claim completed performance.
 
 **Apply the instruction to a receiving proposal.** Use the studio proposal in section 5.3: prepare one recording by subtracting a constant correction, then use it for movement analysis and demonstration viewing. Recover the two required results and their 3 ms and 8 ms tolerances. The independently supplied interval bound and qualified editing operation support a worst residual of 2.5 ms after the 42.5 ms correction. These are the grounds for using that preparation under the two stated requirements. If the interval basis is unavailable, the same three marker readings justify only their local residuals; the next useful inquiry concerns the interval, and “nobody objected” cannot fill it. This applies the source-inspired proposal–criticism–revision connection while the established mathematical and professional suppliers provide the receiving grounds.
 
-The author has constructed an instruction and shown its conditional application. This does not show that a person has learned the method, that the recording was actually prepared, or that every proposal needs a formal assurance case. A content review asks whether the source contribution and added connection are faithfully and sufficiently explained; a claim of benefit in another practice needs its own evidence.
+The author has constructed an instruction and shown its conditional application. This does not show that a person has learned the method, that the recording was prepared, or that every proposal needs a formal assurance case. A content review asks whether the source contribution and added connection are faithfully and sufficiently explained; a claim of benefit in another practice needs its own evidence.
 
-**Change one receiving condition.** Tighten movement analysis to 2 ms as in section 5.3. The 2.5 ms bound remains correct, but it no longer supports that use; the 5 ms span of the marker offsets rules out meeting 2 ms with any constant correction. Reopen the analysis proposal and develop another warranted preparation or return the unmet requirement. Viewing at 8 ms remains qualified under its unchanged conditions. The proposal–criticism–revision Method also remains available for examining the replacement. If a changed calibration instead undermined the shared interval bound, reconsider both receiving uses that relied on it. Independence follows from the actual dependency, not from the uses having different names.
+**Change one receiving condition.** Tighten movement analysis to 2 ms as in section 5.3. The 2.5 ms bound remains correct, but it no longer supports that use; the 5 ms span of the marker offsets rules out meeting 2 ms with any constant correction. Reopen the analysis proposal and develop another warranted preparation or return the unmet requirement. Viewing at 8 ms remains qualified under its unchanged conditions. The proposal–criticism–revision Method also remains available for examining the replacement. If a changed calibration instead undermined the shared interval bound, reconsider both receiving uses that relied on it. Whether the uses are independent depends on what each relies on, not on their different names.
 
 

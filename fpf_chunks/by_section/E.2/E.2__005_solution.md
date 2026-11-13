@@ -6,12 +6,12 @@ section_id: "E.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.2/E.2__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.2 — FPF's Eleven Pillars and Bitter-Lesson Preference (BLP)"
   - "E.2:4 — Solution"
-line_start: 92575
-line_end: 92595
+line_start: 97108
+line_end: 97128
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -41,7 +41,7 @@ keywords:
 ---
 
 ### E.2:4 - Solution
-FPF rests on **eleven binding pillars**. Every artefact, pattern, and design-rationale record (DRR) must honour the applicable constraints and explain material conflicts. Together the pillars guide evolvability, cross-scale coherence and didactic clarity; their realization must be established for the particular use.
+FPF rests on **eleven binding pillars**. Every artefact, pattern, and design-rationale record (DRR) must honour the applicable constraints and explain material conflicts. Together the pillars guide evolvability, cross-scale coherence and didactic clarity; their realization must be established for the use.
 
 | ID       | Pillar                         | Essence                                                                                                                   |
 | -------- | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------- |
@@ -57,7 +57,7 @@ FPF rests on **eleven binding pillars**. Every artefact, pattern, and design-rat
 | **P‑10** | **Open‑Ended Evolution**       | Keep justified improvement, revision, replacement and branching possible. Choose continuation under the use’s cost and safety constraints; permit retention, local stopping and retirement with explicit reasons and reopen conditions.               |
 | **P‑11** | **State‑of‑the‑Art Alignment** | The kernel and extension domain-specific patterns track reliable contemporary knowledge and update when the SoTA advances.                     |
 
-A pillar-impact argument can use ordinary accepted mathematical theory directly. Use `C.29` when a separate question remains about choosing a mathematical representation, transferring a result, or relying on the represented structure. State the correspondence, preserved and lost structure, and limits needed for that use; `E.2` continues to govern the pillar claim.
+A pillar-impact argument can use ordinary accepted mathematical theory. Use `C.29` when a separate question remains about choosing a mathematical representation, transferring a result, or relying on the represented structure. State the correspondence, preserved and lost structure, and limits needed for that use; `E.2` continues to govern the pillar claim.
 
 > Any DRR that contradicts a pillar must first amend this constitutional pattern.
 

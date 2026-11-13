@@ -6,12 +6,12 @@ section_id: "C.3.2:9"
 section_title: "Required Worked Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__011_required-worked-cases.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.3.2 — Kind Intent, Membership Judgment, and Extension"
   - "C.3.2:9 — Required Worked Cases"
-line_start: 55518
-line_end: 55547
+line_start: 57808
+line_end: 57837
 dependencies:
   - "A.14"
   - "A.2.6"
@@ -43,7 +43,7 @@ Value `87 °C`, with declared scale, unit, interpretation, and time, is admissib
 
 #### C.3.2:9.4 - Schema label
 
-A row carries label `Customer`, but the claim asks whether account holder #441 is a contractual customer. If the kind admits account-holder Systems or persons rather than database rows, the row itself is not an admissible candidate. For the actual account holder, the label may support recovery of the governed contractual relation but does not make that relation obtain. A different row-shape kind could make the row admissible under its own criterion.
+A row carries label `Customer`, but the claim asks whether account holder #441 is a contractual customer. If the kind admits account-holder Systems or persons rather than database rows, the row itself is not an admissible candidate. For the account holder, the label may support recovery of the governed contractual relation but does not make that relation obtain. A different row-shape kind could make the row admissible under its own criterion.
 
 #### C.3.2:9.5 - Unavailable measurement
 

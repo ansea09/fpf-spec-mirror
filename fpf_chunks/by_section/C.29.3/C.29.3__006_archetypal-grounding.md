@@ -6,12 +6,12 @@ section_id: "C.29.3:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29.3/C.29.3__006_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.29.3 — Computational Realization"
   - "C.29.3:5 — Archetypal Grounding"
-line_start: 70888
-line_end: 70987
+line_start: 73981
+line_end: 74080
 dependencies:
   - "A.3.3"
   - "A.6.1"
@@ -23,7 +23,7 @@ keywords:
 
 ### C.29.3:5 - Archetypal Grounding
 
-These constructed cases expose different realization failures. They establish consequences of the stated models; using an actual apparatus also requires the relevant physical and operating knowledge.
+These constructed cases expose different realization failures. They establish consequences of the stated models; using an apparatus also requires physical and operating knowledge.
 
 #### C.29.3:5.1 - Carry a calculated count through a finite command interface
 
@@ -47,7 +47,7 @@ Suppose the interface wraps modulo 65,536 and interprets the result as signed. T
 modeled displacement ≈ -0.0588734463 m
 ~~~
 
-The calculation of the desired count remains correct; input preparation changes the delivered count. An interface that rejects the value would produce a different failure, so the actual interface behavior matters.
+The calculation of the desired count remains correct; input preparation changes the delivered count. An interface that rejects the value would produce a different failure, so the interface behavior matters.
 
 One repair uses two completed commands of 31,831. Under the relative-addition rule, their total is 63,662 and their modeled displacement is approximately 2.0000007151 m. The preparation now supplies two representable values, and the execution argument uses addition across their completed displacements.
 
@@ -55,7 +55,7 @@ If a command means "reach this absolute count," repeating 31,831 leaves the same
 
 A range restriction is another useful repair. The largest positive relative command corresponds to approximately 1.0294056648 m under this model. Whether that restriction is adequate depends on the requested motion. A deadline can make two commands unsuitable even when their displacements add.
 
-The result is a command procedure with a stated input range and composition rule. For actual travel, determine whether the commands were completed and use a measurement or physical relation that accounts for consequential slip and effective radius.
+The result is a command procedure with a stated input range and composition rule. To assess travel, determine whether the commands were completed and use a measurement or physical relation that accounts for consequential slip and effective radius.
 
 #### C.29.3:5.2 - Read an analog sum with the output scale it needs
 
@@ -73,7 +73,7 @@ Each source is connected through an equal resistor R to one common node. The sup
 Vout = (Vx + Vy) / 2
 ~~~
 
-The arrangement physically produces an average voltage. To obtain the intended sum, derive its readout:
+The arrangement produces an average voltage. To obtain the intended sum, derive its readout:
 
 ~~~text
 decoded result = 20 × [Vout expressed in volts]
@@ -93,7 +93,7 @@ decoded-result error ≤ 20 × 0.003 = 0.06
 
 An absolute tolerance of 0.1 is therefore met under these bounds. A tolerance of 0.01 is not established by them. Better input setting or readout, a different realization, or a weaker receiving requirement would need comparison. The bound is deterministic; no cancellation or probability distribution has been assumed.
 
-If the instrument loads the node or the resistor values differ, the stated averaging relation needs revision. Those changes belong in the circuit and measurement account, through C.16 where appropriate. The common realization method supplies the preparation/execution/readout comparison and the receiving error calculation. Electrical design supplies the physical law and actual component behavior.
+If the instrument loads the node or the resistor values differ, the stated averaging relation needs revision. Those changes belong in the circuit and measurement account, through C.16 where appropriate. The common realization method supplies the preparation/execution/readout comparison and the receiving error calculation. Electrical design supplies the physical law and component behavior.
 
 #### C.29.3:5.3 - Preserve a bound during material admission operations
 
@@ -119,5 +119,5 @@ A second entrance can share the same stock or receive a partition of it, such as
 
 Partitioning can cause waiting at one entrance while a card is free at the other. Moving an existing free card preserves the total; creating another accepted card changes it. This separates the capacity property from the additional question of useful service across entrances.
 
-The result is a conditional admission arrangement, its preserved bound and a qualified reading of the free stock. The administrative method supplies controlled entry, exclusive possession and return. The mathematical construction makes explicit which physical and procedural properties the computation consumes.
+The result is a conditional admission arrangement, its preserved bound and an occupancy bound derived from the free stock. The administrative method supplies controlled entry, exclusive possession and return. The mathematical construction makes explicit which physical and procedural properties the computation consumes.
 

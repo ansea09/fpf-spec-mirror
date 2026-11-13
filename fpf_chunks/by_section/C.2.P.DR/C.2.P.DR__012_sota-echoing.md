@@ -6,12 +6,12 @@ section_id: "C.2.P.DR:10"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P.DR/C.2.P.DR__012_sota-echoing.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.2.P.DR — Repair Claims Based on Declarative Form Alone (Declarative Representation Precision Restoration)"
   - "C.2.P.DR:10 — SoTA-Echoing"
-line_start: 55052
-line_end: 55062
+line_start: 57328
+line_end: 57338
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -51,7 +51,7 @@ The sources below support the stated distinctions. The final column gives their 
 | Exact source or practice anchor | Source-use function or relation | What it changes here |
 | --- | --- | --- |
 | Gogioso et al., ["Constructor Theory as Process Theory"](https://arxiv.org/abs/2401.05364v1), EPTCS 397, 2023; Deutsch and Marletto, ["Constructor theory of time"](https://arxiv.org/abs/2505.08692v3), revised 2026-06-05. | The first relates abstract tasks to their physical implementations in a compositional process framework. The second formulates laws through possible and impossible transformations and examines duration and dynamics on that basis. | Recover whether the current claim specifies a task, proposes an implementation or asserts performance, then apply the corresponding subject rule from 4.4. |
-| Bosman et al., ["A Calculus for Scoped Effects & Handlers"](https://arxiv.org/abs/2304.09697v7), LMCS 20(4), 2024; Matache et al., ["Scoped Effects as Parameterized Algebraic Theories"](https://arxiv.org/abs/2402.03103v2), ESOP 2024 extended version. | The first supplies operational semantics and a type-and-effect system for scoped effects and handlers. The second gives an algebraic treatment of scoped operations and equations for equational reasoning. | Identify the operation, handler, scope or equation actually under discussion before classifying a Method, declaration or performed Work claim. |
+| Bosman et al., ["A Calculus for Scoped Effects & Handlers"](https://arxiv.org/abs/2304.09697v7), LMCS 20(4), 2024; Matache et al., ["Scoped Effects as Parameterized Algebraic Theories"](https://arxiv.org/abs/2402.03103v2), ESOP 2024 extended version. | The first supplies operational semantics and a type-and-effect system for scoped effects and handlers. The second gives an algebraic treatment of scoped operations and equations for equational reasoning. | Identify the operation, handler, scope or equation under discussion before classifying a Method, declaration or performed Work claim. |
 | Chiariello et al., ["Direct Encoding of Declare Constraints in ASP"](https://arxiv.org/abs/2412.10152v1), TPLP 25, 2025; Berti et al., ["OCEL (Object-Centric Event Log) 2.0 Specification"](https://arxiv.org/abs/2403.01975v1), 2024; Bosmans et al., ["Dynamic and Scalable Data Preparation for Object-Centric Process Mining"](https://arxiv.org/abs/2410.00596v1), 2024. | Declare constraints specify admissible traces; the ASP work encodes their semantics directly. OCEL 2.0 defines an event-and-object data model and exchange formats. The data-preparation work separates ingestion, transformation and storage from static log exchange. | Distinguish the constraint, event report or data-preparation activity before accepting a method, work-plan, Work, evidence or gate claim. |
 | Tiurin et al., ["Equivalence Hypergraphs: DPO Rewriting for Monoidal E-Graphs"](https://arxiv.org/abs/2406.15882v2), revised 2025-05-20. | Equivalence hypergraphs represent morphisms in a monoidal setting and support categorical rewriting. | Recover the equivalence or composition relation represented by an edge or rewrite. A separate claim about instruction order or performed action keeps its own grounds. |
 

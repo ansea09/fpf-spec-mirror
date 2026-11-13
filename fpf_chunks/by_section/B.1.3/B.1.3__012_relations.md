@@ -6,17 +6,16 @@ section_id: "B.1.3:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.3/B.1.3__012_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.1.3 — Knowledge Aggregation (Γ_epist): Synthesis and Target-Scheme Compilation"
   - "B.1.3:11 — Relations"
-line_start: 41908
-line_end: 41917
+line_start: 43553
+line_end: 43564
 dependencies:
   - "A.1"
   - "A.10"
   - "A.12"
-  - "A.13"
   - "A.14"
   - "A.15"
   - "A.15.1"
@@ -35,18 +34,18 @@ dependencies:
   - "C.2.1"
   - "E.17"
   - "E.24.PUB"
-  - "F.6"
   - "F.9"
-  - "U.Work"
 keywords:
 ---
 
 ### B.1.3:11 - Relations
 
-* **Builds on:** C.2.1 (episteme identity and independently obtaining edition relations), A.6.1 (semantic operation declarations and exact application bindings), A.14 (ConstituentOf, collection belonging under each collection's own rule, and proper temporal restriction of one unchanged carrier), A.7 (Strict Distinction), and A.15/A.15.1 (Method/Work alignment and Work-temporal law). A.12 is used only when an acting-side distinction is current. An ordinary actor sentence needs no classification apparatus. Any particular dated synthesis or compilation `U.Work` first reuses each performer's A.13 core and is independently admitted under A.15.1; F.6 follows only when the receiving claim also needs precise assignment-bound attribution. A short local projection may omit an assignment identifier unused by the receiver only when every consumed relation remains recoverable.
+* **Builds on:** C.2.1 (episteme identity and independently obtaining edition relations), A.6.1 (semantic operation declarations and application bindings), A.14 (ConstituentOf, collection belonging under each collection's rule, and proper temporal restriction of one unchanged carrier), A.7 (Strict Distinction), and A.15/A.15.1 (Method/Work alignment and Work-temporal law). A.12 is used only when an acting-side distinction is current.
+
+  An ordinary actor sentence needs no classification apparatus. Any dated synthesis or compilation `U.Work` first reuses each performer's A.13 core and is independently admitted under A.15.1; F.6 follows only when the receiving claim also needs assignment-bound attribution. A short local projection may omit an assignment identifier unused by the receiver only when every consumed relation remains recoverable.
 * **Coordinates with:** B.1.1 dependency-structure and relation-grounding checks, B.1.4 (Γ\_ctx/Γ\_time inside knowledge folds), B.1.6 (Γ\_work for compute/collection spend).
-* **Coordinates with:** F.9 for exact cross-context Bridges and bounded-use claims; A.10 for ordinary reliance accounts and the same-use `RelianceDisposition` required for relied-on Bridge use; B.3 additionally when an actual named assurance claim is current; A.15.PROD when production, first existence, or completion is current; and E.17/E.24.PUB for publication, form, and carrier. B.2 is used only when exact construction facts leave a separate whole-reidentification question after the existing-whole explanation check.
-* **Used by:** B.3 assurance uses the aggregate's exact formal basis, scope, and support account, including any justified R calculation and mapping limitations; C.11 and C.19.2 govern a separately selected inquiry or action decision.
+* **Coordinates with:** F.9 for cross-context Bridges and bounded-use claims; A.10 for reliance accounts and the same-use `RelianceDisposition` required for relied-on Bridge use; B.3 additionally when a named assurance claim is current; A.15.PROD when production, first existence, or completion is current; and E.17/E.24.PUB for publication, form, and carrier. B.2 is used only when construction facts leave a separate whole-reidentification question after the existing-whole explanation check.
+* **Used by:** B.3 assurance uses the aggregate's formal basis, scope, and support account, including any justified R calculation and mapping limitations; C.11 and C.19.2 govern a separately selected inquiry or action decision.
 
 > **One‑sentence takeaway.**
 > **Γ\_epist** preserves provenance, distinguishes what each source contributes, and combines support only as its meanings and dependencies warrant—returning a useful bounded synthesis when no common score is justified.

@@ -6,12 +6,12 @@ section_id: "C.22.2:24"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__025_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:24 — Consequences"
-line_start: 64324
-line_end: 64342
+line_start: 67081
+line_end: 67099
 dependencies:
   - "A.10"
   - "A.15"
@@ -65,7 +65,7 @@ keywords:
 - A source-grounded formulation can expose that a requested rewrite, selected candidate or indicator change does not yet answer the concern. The next use can then seek the missing distinction, retain alternatives or stop before unnecessary work.
 - Current archive, pool, front, shortlist, set-return, parity, refresh, evidence, and `C.29` patterns are reused instead of duplicated.
 - The positive use of mathematical and first-principles thinking is preserved: it can find missing structure, not only check already-written mathematics.
-- Characterization and parity are no longer optional background when they are prerequisites for problem reviewability.
+- Characterization and parity are required when problem reviewability depends on them.
 - Representation-change relations are handled through named relation references rather than local proof inside the problem card.
 
 #### C.22.2:24.2 - Costs of Use

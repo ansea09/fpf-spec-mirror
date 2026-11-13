@@ -6,12 +6,12 @@ section_id: "E.10.DEV:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.DEV/E.10.DEV__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.10.DEV — Recovering What Development or Evolution Means in the Current Claim"
   - "E.10.DEV:2 — Problem"
-line_start: 101010
-line_end: 101020
+line_start: 106666
+line_end: 106676
 dependencies:
   - "A.15"
   - "A.2.2"
@@ -36,7 +36,7 @@ keywords:
 
 ### E.10.DEV:2 - Problem
 
-Without a shared recovery move:
+Without a shared way to recover the claim, these mistakes arise.
 
 1. the umbrella word substitutes for identifying the current subject and direct owner;
 2. intervention Work is treated as the holder's actual change or as evidence that the intended result occurred;

@@ -6,12 +6,12 @@ section_id: "C.40.CU:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.CU/C.40.CU__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.40.CU — Develop a Useful and Reproducible Use of a Construct"
   - "C.40.CU:7 — Conformance Checklist"
-line_start: 86072
-line_end: 86083
+line_start: 90304
+line_end: 90315
 dependencies:
   - "B.1.5.EW"
   - "B.1.5.RS"
@@ -35,7 +35,7 @@ keywords:
 - Any selected contrast can distinguish a consequential uncertainty under supplied domain conditions.
 - The conclusion separates what was revealed from what was changed or supplied.
 - Candidate ways include the enabling and displaced contributions that can change their comparison.
-- The chosen way is carried through its critical joins to the receiving result or an exact remaining gap.
+- The chosen way is carried through its critical joins to the receiving result or to where a contribution is still missing.
 - Reproduction supplies the necessary method, participants and support; independent capability is claimed only when supported.
 - A changed whole condition returns to the affected constituent or connection.
 - Retained use, proposed continuation and stop remain distinct.

@@ -6,12 +6,12 @@ section_id: "A.3.4.P:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4.P/A.3.4.P__006_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.3.4.P — Transformation Wording Repair: Recover Objects and Claims"
   - "A.3.4.P:5 — Archetypal Grounding"
-line_start: 13463
-line_end: 13505
+line_start: 13908
+line_end: 13950
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -74,7 +74,7 @@ Repair: the block may be an architecture locus or module allocation. For a claim
 
 Source wording says: "The guide-selection workflow changes the target gene."
 
-Repair: the target-gene edit is only a candidate `U.Transformation` until the exact biological referent, edit boundary, boundary conditions, actual sequence and direct-relation facts, and reidentification rule establish one occurrence. Guide selection may be method, method description, work plan, evidence-facing table, or performed lab work according to the current claim.
+Repair: the target-gene edit is only a candidate `U.Transformation` until the biological referent, edit boundary, boundary conditions, actual sequence and direct-relation facts, and reidentification rule establish one occurrence. Guide selection may be method, method description, work plan, evidence-facing table, or performed lab work according to the current claim.
 
 #### A.3.4.P:5.4 - Evidence path near a plant change
 
@@ -88,7 +88,7 @@ Repair: identify the action meant by *proceed* and the condition the evidence is
 TransformationWordingRepair:
   EncounteredWording: "the refrigeration circuit moves heat through the cycle"
   WorkingConcern: recover whether the sentence is about one bounded heat-transfer change, a selected compound transformation-flow structure, a thermodynamic mechanism, a functional architecture view, or a schematic publication.
-  RecoveredEntityOfConcern: `RefrigeratorHeatTransferFlowStructure-1`, the exact selected `TransformationFlowStructure` over the compressor, condenser, expansion, and evaporator transformation loci.
+  RecoveredEntityOfConcern: `RefrigeratorHeatTransferFlowStructure-1`, the selected `TransformationFlowStructure` over the compressor, condenser, expansion, and evaporator transformation loci.
   ActualTransformationDisposition: no actual occurrence claim is made; the current object is the selected `RefrigeratorHeatTransferFlowStructure-1`.
   NeighboringClaimAndExactRelation: the four named loci are positions in `RefrigeratorHeatTransferFlowStructure-1`; bindings to actual transformation occurrences have not been established.
   GoverningPattern: `E.18` governs `RefrigeratorHeatTransferFlowStructure-1`; use `A.3.4` when a claim about an actual component occurrence needs its basis established.

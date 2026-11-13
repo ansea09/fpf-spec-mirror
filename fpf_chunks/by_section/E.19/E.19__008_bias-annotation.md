@@ -6,12 +6,12 @@ section_id: "E.19:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__008_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:6 — Bias-Annotation"
-line_start: 113223
-line_end: 113239
+line_start: 120361
+line_end: 120377
 dependencies:
   - "A.15.1"
   - "A.6.P"
@@ -36,7 +36,7 @@ keywords:
 
 
 
-Bias risks and mitigations:
+These risks can arise when reviewing any FPF pattern or cluster.
 
 * **Governance bias (Gov):** reviewers may over-prioritize compliance signals and under-prioritize teaching value.
   *Mitigation:* PCP‑BASE checks didactic grounding and internal coherence and prioritizes ontology and semantics.

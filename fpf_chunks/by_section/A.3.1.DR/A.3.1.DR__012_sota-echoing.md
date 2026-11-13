@@ -6,12 +6,12 @@ section_id: "A.3.1.DR:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.DR/A.3.1.DR__012_sota-echoing.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.3.1.DR — Recover Method Contributions from Documentary Sources"
   - "A.3.1.DR:11 — SoTA-Echoing"
-line_start: 10220
-line_end: 10229
+line_start: 10621
+line_end: 10630
 dependencies:
   - "A.3.1.MR"
   - "A.3.1.QM"

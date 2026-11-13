@@ -6,12 +6,12 @@ section_id: "C.27:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__008_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Change"
   - "C.27:6 — Bias-Annotation"
-line_start: 67294
-line_end: 67305
+line_start: 70352
+line_end: 70363
 dependencies:
   - "A.10"
   - "A.3.3"
@@ -58,5 +58,5 @@ Lenses: **Onto**, **Prag**, **Epist**, **Arch**, **Gov**.
 - **Arch:** C.27 keeps temporal-claim adequacy and cites the direct pattern for every other question.
 - **Gov:** a local card does not widen into a budget, gate, benchmark, promise, assurance, or public claim without the direct result required for that use.
 
-Plain speed, acceleration, effort, inertia, rhythm, agility, process, practice, service, and tool-call wording may help recognition. In a technical claim, recover the actual rate, temporal window, input or Work, resistance, exact bearer, and direct relation. This is an ontological recovery rule, not a lexical ban.
+Plain speed, acceleration, effort, inertia, rhythm, agility, process, practice, service, and tool-call wording may help recognition. In a technical claim, recover the rate, temporal window, input or Work, resistance, exact bearer, and direct relation.
 

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.5.RA"
-pattern_title: "Recover an Argument for Its Next Use"
+pattern_title: "Recover an Argument for Use"
 section_id: "B.5.RA:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.RA/B.5.RA__006_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "B.5.RA — Recover an Argument for Its Next Use"
+  - "B.5.RA — Recover an Argument for Use"
   - "B.5.RA:5 — Archetypal Grounding"
-line_start: 48059
-line_end: 48187
+line_start: 50075
+line_end: 50203
 dependencies:
   - "B.5"
   - "B.5.MPC"
@@ -41,15 +41,15 @@ For n=3, the sum is 1+3+5=9. Adding the next odd number, 7, gives 16. This insta
 
 A square drawing gives another way to follow the increment: grow an n-by-n square with a row of n cells and a column of n+1 cells. That adds 2n+1 cells. The drawing and algebra expose the same increment under the counting interpretation.
 
-The reader can now explain the role of the initial value and successor step. If the next task instead asks for the sum of n odd terms beginning at 3, the changed range opens a revision: use the established sum through the (n+1)th odd number and remove the first term, giving S(n+1)−1=n²+2n. For four terms, 3+5+7+9=24. The reusable contribution is the recovered relation between range, initial value and increment.
+The reader can explain the role of the initial value and successor step. If the next task instead asks for the sum of n odd terms beginning at 3, the changed range opens a revision: use the established sum through the (n+1)th odd number and remove the first term, giving S(n+1)−1=n²+2n. For four terms, 3+5+7+9=24. The reusable contribution is the recovered relation between range, initial value and increment.
 
-If the original question asked only for 1+3+5, direct addition would already supply the result. Recovering the general argument earns its effort when explanation, general use or revision needs it.
+If the original question asked only for 1+3+5, direct addition would supply the result. Recovering the general argument earns its effort when explanation, general use or revision needs it.
 
 #### B.5.RA:5.2 - Understanding a drawing-recovery argument
 
 A team needs to open an archived engineering drawing for reuse. Someone argues that the drawing is recoverable because three backup copies exist.
 
-Recover the method behind that conclusion. For the encrypted-backup route, the needed contributions are readable stored data, an available way to decrypt it and a decoder for the drawing format. Their joint use produces a readable drawing. Having more copies addresses loss of stored data, while all three may still share one decryption key.
+Recover the method behind that conclusion. For the encrypted-backup route, the needed contributions are readable stored data, an available way to decrypt it and a decoder for the drawing format. Their joint use produces a readable drawing. Having more copies addresses loss of stored data, while all three may share one decryption key.
 
 Suppose the key is unavailable. The backup count leaves the decoding route incomplete. The next useful question is whether the key can be recovered or another usable copy obtained. The recovered argument identifies that missing prerequisite.
 
@@ -61,7 +61,7 @@ The result is a usable recovery choice or a focused request for a missing contri
 
 A seminar organizer receives the message: ‘The slides should display correctly. Dana says the projector is compatible, and yesterday's rehearsal worked.’ The organizer needs to decide whether another display test is needed before using projector P with laptop L and adapter D. The relevant technical claim C is: **the current PDF can be displayed at 1080p by this setup**.
 
-**Construct the offered argument.** Ask what ‘compatible’ and ‘worked’ mean here. Suppose Dana maintains these projectors, has relevant technical expertise, and explicitly confirms her claim: ‘The current PDF can be displayed at 1080p using P, L and D at the current settings.’ Separately, the organizer personally inspected all pages of the current PDF during the rehearsal and found them displayed correctly at 1080p. Recover the condition S: the equipment, PDF and settings relevant to this result have not changed.
+**Construct the offered argument.** Ask what ‘compatible’ and ‘worked’ mean here. Suppose Dana maintains these projectors, has relevant technical expertise, and confirms her claim: ‘The current PDF can be displayed at 1080p using P, L and D at the current settings.’ Separately, the organizer inspected all pages of the current PDF during the rehearsal and found them displayed correctly at 1080p. Recover the condition S: the equipment, PDF and settings relevant to this result have not changed.
 
 The expertise and the assertion work together in the first reason. Neither ‘Dana is an expert’ alone nor an unattributed compatibility sentence supplies that reason. The rehearsal is a different ground: it is an observed instance under the required setup. Its use for another showing depends on S and on the ordinary technical judgement that the successful test remains applicable. It is not a deductive guarantee of future operation.
 
@@ -76,15 +76,15 @@ R2: {the organizer observed the current PDF displayed correctly on P/L/D; S}
 
 R1 and R2 are separate grounds, but they share S. R2 is not merely another report of Dana's judgement.
 
-**Question the ground.** A colleague asks, ‘Did Dana assess this adapter, or just the projector's ordinary input?’ Dana replies that her message was shorthand: she knows P and L but had assumed that D was compatible. This answer removes the claimed coverage of her assessment. Mark the objection at R1's asserted scope and its use for C. The resulting conclusion is not ‘the slides cannot display’. R2 still supplies the observed result for P/L/D. If that rehearsal is an adequate technical basis for this modest use and S holds, the organizer can use C on R2 alone. The map records why losing one reason need not lose the conclusion.
+**Question the ground.** A colleague asks, ‘Did Dana assess this adapter, or just the projector's ordinary input?’ Dana replies that her message was shorthand: she knows P and L but had assumed that D was compatible. This answer removes the claimed coverage of her assessment. Mark the objection at R1's asserted scope and its use for C. The resulting conclusion is not ‘the slides cannot display’. R2 supplies the observed result for P/L/D. If that rehearsal is an adequate technical basis for this modest use and S holds, the organizer can use C on R2 alone. The map records why losing one reason need not lose the conclusion.
 
-**Revise after a common condition changes.** Before the seminar, D is replaced by D2. B.5.RR now follows the changed configuration through both uses of S. The rehearsal remains evidence about D, and Dana's statement supplies no assessment of D2. C for the new setup is unresolved. Testing the new setup, restoring D, or obtaining an applicable technical account can close that gap. Repeating the old positive reports cannot.
+**Revise after a common condition changes.** Before the seminar, D is replaced by D2. B.5.RR follows the changed configuration through both uses of S. The rehearsal remains evidence about D, and Dana's statement supplies no assessment of D2. C for the new setup is unresolved. Testing the new setup, restoring D, or obtaining an applicable technical account can close that gap. Repeating the old positive reports cannot.
 
 Suppose a test with D2 then shows that the current PDF is not displayed under the intended settings, after the operator checks the connections and follows the equipment's setup instructions. This is a new opposing observation for that tested setup. The organizer can report that the attempted display failed and return to technical diagnosis; the observation alone does not identify which component caused the failure.
 
-**Separate the technical result from the practical proposal.** ‘Therefore use P’ introduces another inference. It needs the seminar's display requirement, an available way to keep the tested setup, and comparison with relevant alternatives and costs. If using P prevents another booked session from running, that consequence can defeat the proposal while C remains supported. PSDA.5/.6/.8 supply the option, value and consequence work. The receiving decision uses the qualified technical result instead of silently expanding it into a recommendation.
+**Separate the technical result from the practical proposal.** ‘Therefore use P’ introduces another inference. It needs the seminar's display requirement, an available way to keep the tested setup, and comparison with relevant alternatives and costs. If using P prevents another booked session from running, that consequence can defeat the proposal while C remains supported. PSDA.5/.6/.8 supply the option, value and consequence work. The receiving decision uses the qualified technical result instead of expanding it into a recommendation.
 
-The useful return is a conclusion with its surviving reason and its next change condition: use the rehearsal for the unchanged setup; reopen compatibility after replacing the adapter; treat the later failed display as a result to diagnose. Another person can challenge a specific connection and see what needs to be redone.
+The return is a conclusion with its surviving reason and its next change condition: use the rehearsal for the unchanged setup; reopen compatibility after replacing the adapter; treat the later failed display as a result to diagnose. Another person can challenge a connection and see what needs to be redone.
 
 #### B.5.RA:5.4 - From an ambiguous message to a conditional venue argument
 
@@ -96,13 +96,13 @@ An amateur theatre group is choosing a room for a complete three-hour rehearsal 
 
 A first sketch that puts “the hall is free” and “we can rehearse” into two boxes as asserted facts has strengthened the text. A sketch that puts every remaining sentence directly under “use the hall” hides how the recommendation is supposed to follow. Two more faithful readings remain: the message could argue from available space or from avoiding a hire charge. The booking role makes the first reading plausible, but does not prove which meaning the speaker intended.
 
-Ask the organizer what was meant. Suppose the reply is: “I meant unbooked for our Friday rehearsal. Noor told me there was a free slot. I was explaining last week's cancellation, which we all already know about.” This supports the availability reading and identifies the “because” sentence as an explanation of the accepted cancellation. Keep that explanation as context; it supplies no evidence that the hall is available this Friday. The reply still does not establish the slot's duration or the relative cost.
+Ask the organizer what was meant. Suppose the reply is: “I meant unbooked for our Friday rehearsal. Noor told me there was a free slot. I was explaining last week's cancellation, which we all already know about.” This supports the availability reading and identifies the “because” sentence as an explanation of the accepted cancellation. Keep that explanation as context; it supplies no evidence that the hall is available this Friday. The reply does not establish the slot's duration or the relative cost.
 
-**Extract the claims without filling the gaps.** The organizer's proposed conditional is now: if the school hall is available for the required Friday session, the group can complete that rehearsal there. Noor is reported to have said there is a free slot. Managing the bookings gives a reason to treat her as able to know the booking entries, not as an expert on every condition of a rehearsal. Recovering her statement's actual scope is necessary before using it for the three-hour claim.
+**Extract the claims without filling the gaps.** The organizer's proposed conditional is: if the school hall is available for the required Friday session, the group can complete that rehearsal there. Noor is reported to have said there is a free slot. Managing the bookings gives a reason to treat her as able to know the booking entries, not as an expert on every condition of a rehearsal. Recovering her statement's scope is necessary before using it for the three-hour claim.
 
-The sentence about waste suggests a practical choice: avoid paying for an alternative when an adequate option already exists and the payment buys no relevant advantage. It does not mention past investment or abandoning an earlier undertaking. A sunk-costs scheme therefore adds the wrong premise. The useful question is which present and future differences make the studio expense unnecessary.
+The sentence about waste suggests a practical choice: avoid paying for an alternative when an adequate option exists and the payment buys no relevant advantage. It does not mention past investment or abandoning an earlier undertaking. A sunk-costs scheme therefore adds the wrong premise. The question is which present and future differences make the studio expense unnecessary.
 
-A provisional structure makes the missing intermediate result and grounds visible. Braces below group co-premises. “Reported” retains attribution; “proposed implicit” identifies a reading supported by the waste remark but not yet confirmed. Arrows mean the indicated support.
+A provisional structure makes the missing intermediate result and grounds visible. Braces below group co-premises. “Reported” retains attribution; “proposed implicit” identifies a reading supported by the waste remark but not confirmed. Arrows mean the indicated support.
 
 ```text
 {Noor manages the bookings; Noor is reported to say a slot is free}
@@ -122,19 +122,19 @@ A provisional structure makes the missing intermediate result and grounds visibl
     --practical inference--> C: use the hall for this rehearsal
 ```
 
-A is not yet the premise about the required hours, and F is not simply another independent reason alongside Noor's report. F depends on the availability claim and the organizer's conditional. D is an exposed need for evidence, not a fact extracted from “waste”. The practical argument remains conditional on it and on the other requirements in F. The map therefore recovers both the plausible offered reasoning and what it has not supplied.
+A is not the premise about the required hours, and F is not another independent reason alongside Noor's report. F depends on the availability claim and the organizer's conditional. D is an exposed need for evidence, not a fact extracted from “waste”. The practical argument remains conditional on it and on the other requirements in F. The map therefore recovers both the plausible offered reasoning and what it has not supplied.
 
-**Use the structure to ask the next question.** The availability claim affects every later step, so ask Noor for the actual interval before making a booking. She replies: “The hall is unbooked from 18:00 to 20:00; another group has it after that.” The actors need 18:00 to 21:00 for the complete run. Preserve Noor's narrower claim; do not revise it into a false claim that the hall is occupied all evening. Replace A's uncertain scope with the two-hour interval. That interval does not supply the required three-hour premise, so the route to F and C fails for the intended session. It is unnecessary to settle the cost comparison to reach this result.
+**Use the structure to ask the next question.** The availability claim affects every later step, so ask Noor for the interval before making a booking. She replies: “The hall is unbooked from 18:00 to 20:00; another group has it after that.” The actors need 18:00 to 21:00 for the complete run. Preserve Noor's narrower claim; do not revise it into a false claim that the hall is occupied all evening. Replace A's uncertain scope with the two-hour interval. That interval does not supply the required three-hour premise, so the route to F and C fails for the intended session. It is unnecessary to settle the cost comparison to reach this result.
 
 B.5.RR follows that affected route while retaining the usable booking information and last week's explanation. A shorter rehearsal, a different time or the studio can become alternatives, but each changes a condition or opens another argument. The source has not justified any of them merely by losing its first recommendation. If the group changes the task to a two-hour scene rehearsal, reassess the conditional's remaining requirements and the practical comparison for that new use.
 
-**Separate reconstruction from a repair.** Suppose the reader now checks room capacity, access for every actor and both venues' charges. Those findings may help construct a better choice argument. They are new grounds obtained by the reader. They do not make the original message complete or turn its ambiguous “free” into a statement about price.
+**Separate reconstruction from a repair.** Suppose the reader checks room capacity, access for every actor and both venues' charges. Those findings may help construct a better choice argument. They are new grounds obtained by the reader. They do not make the original message complete or turn its ambiguous “free” into a statement about price.
 
 #### B.5.RA:5.5 - An expert's title cannot turn a clue into an observation
 
 A workshop colleague writes: “The parcel has arrived. Noah, our electronics expert, says so: the goods trolley is back by the door.” The recipient wants to tell an assembler that the replacement parts are ready to collect.
 
-Trying expert opinion first exposes a mismatch: electronics expertise does not establish knowledge of this delivery. Ordinary access could matter instead. A person who checked the parcel could report its arrival without being an expert. Before replacing the first scheme with knowledgeable testimony, recover what Noah actually knows.
+Trying expert opinion first exposes a mismatch: electronics expertise does not establish knowledge of this delivery. Ordinary access could matter instead. A person who checked the parcel could report its arrival without being an expert. Before replacing the first scheme with knowledgeable testimony, recover what Noah knows.
 
 Ask, “Did Noah receive or see this parcel, or infer its arrival from the trolley?” Suppose Noah replies, “I saw the trolley. I haven't looked for the parcel; deliveries usually bring it back.” Now the distinction changes the structure:
 
@@ -148,7 +148,7 @@ Ask, “Did Noah receive or see this parcel, or infer its arrival from the troll
 
 Noah's claim about the trolley can remain credible while his conclusion about the parcel is unsupported. The observation and inferred arrival were compressed into one attributed statement. The repair separates them and locates the missing connection.
 
-Ask what other work moves the trolley and whether this delivery was due to use it. Suppose the workshop uses the same trolley for outgoing parcels, and today's dispatch account explains its current position. That removes the offered clue's claimed discrimination for this arrival. The recipient can check the receiving record or inspect the parcel location. Either would be a new ground; repeating Noah's title supplies none.
+Ask what other work moves the trolley and whether this delivery was due to use it. Suppose the workshop uses the same trolley for outgoing parcels, and today's dispatch account explains its position. That removes the offered clue's claimed discrimination for this arrival. The recipient can check the receiving record or inspect the parcel location. Either would be a new ground; repeating Noah's title supplies none.
 
-This differs from a disagreement over the trustworthiness of a witness who actually saw the parcel. In that case the disputed ground would be the report. Here the observation is accepted and the disputed transition is from trolley position to this parcel's arrival. The first scheme has been abandoned for a substantive reason, the map has changed, and the next inquiry follows the remaining gap.
+This differs from a disagreement over the trustworthiness of a witness who saw the parcel. In that case the disputed ground would be the report. Here the observation is accepted and the disputed transition is from trolley position to this parcel's arrival. The first scheme has been abandoned for a substantive reason, the map has changed, and the next inquiry follows the remaining gap.
 

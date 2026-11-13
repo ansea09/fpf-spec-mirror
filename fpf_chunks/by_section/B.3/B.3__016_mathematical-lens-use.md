@@ -6,12 +6,12 @@ section_id: "B.3:11b"
 section_title: "Mathematical-lens use"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__016_mathematical-lens-use.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.3 — Is This Claim Supported for This Use? — Trust and Assurance Calculus"
   - "B.3:11b — Mathematical-lens use"
-line_start: 45171
-line_end: 45174
+line_start: 47023
+line_end: 47026
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -37,5 +37,5 @@ keywords:
 
 ### B.3:11b - Mathematical-lens use
 
-When a C.29 mathematical-lens result is an input to an assurance claim, cite the exact lens-result claim, its interpretation and limits, the evidence-use and provenance relations relied on, and the named assurance use. Mathematical elegance or a structure-preserving mapping does not raise assurance by itself. Measurement construction and comparability remain with C.16.
+When a C.29 mathematical-lens result is an input to an assurance claim, cite the lens-result claim, its interpretation and limits, the evidence-use and provenance relations relied on, and the named assurance use. Mathematical elegance or a structure-preserving mapping does not raise assurance by itself. Measurement construction and comparability remain with C.16.
 

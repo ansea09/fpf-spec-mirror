@@ -6,12 +6,12 @@ section_id: "C.30.LCA:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.LCA/C.30.LCA__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.30.LCA — Control Structure View Adequacy (LCA)"
   - "C.30.LCA:1 — Problem frame"
-line_start: 74104
-line_end: 74143
+line_start: 77327
+line_end: 77370
 dependencies:
   - "A.10"
   - "A.20"
@@ -47,21 +47,21 @@ keywords:
 
 ### C.30.LCA:1 - Problem frame
 
-Use this pattern when a control diagram, control-language source, or selected control structure changes the next architecture move. Start with an ordinary question: what actually controls what, through which observation, command, reference, supervision, or feedback relation? A label such as controller, plant, observer, planner, supervisor, or policy loop is only a cue; identify the relation and what each participant does in it before relying on the diagram.
+Use this pattern when a control diagram, control-language source, or selected control structure changes the next architecture move. Start by asking: what controls what, through which observation, command, reference, supervision, or feedback relation? A label such as controller, plant, observer, planner, supervisor, or policy loop is only a cue; identify the relation and what each participant does in it before relying on the diagram.
 
 A participating System, local system-role kind, System-classification judgment, assignment, Method, or Work is a separate fact. Add it only when it independently obtains and changes the use of the control-structure result.
 
 The first useful result can be one sentence: “Supervisor S sends allowed-mode commands to controller C and receives status feedback; this diagram does not yet establish stability or safety.” The small note below retains that result and the next action. If the source says only `layer`, `level`, `tier`, or `stack` without a control-specific relation, use `C.30.STRAT` first.
 
-What goes wrong if C.30.LCA is missed: a control diagram becomes the control structure, `U.View`, or proof; stratification labels bypass `C.30.STRAT` and carry undeclared scope; and `B.2.5`, E.18 transformation-flow prose, or Layered Control Architecture prose is overread as control adequacy.
+What goes wrong if C.30.LCA is missed: a control diagram is treated as the control structure, `U.View`, or proof; stratification labels bypass `C.30.STRAT` and carry undeclared scope; and `B.2.5`, E.18 transformation-flow prose, or Layered Control Architecture prose is overread as control adequacy.
 
 What C.30.LCA buys in practice: the practitioner can keep useful controller, plant, observer, regulator, supervisor, feedback, rate, and control-layer language while recovering a selected control structure, one description episteme, its possible E.17.0 view conformance, and the pattern used to state or test each proof or claim.
 
 When the question is how to construct or change the cooperation of observations, decisions and interventions, use `C.32.LCA`. It develops alternatives with their information, timing, authority and continuation conditions. Supply the recovered control account to that construction; return here when a candidate's description or view needs qualification. An adequate arrangement needing only a clearer account can finish with C.30.LCA.
 
-Not this pattern when the issue under repair is generic stratification or source-label repair, only an E.18 transformation-flow path slice, function description, module boundary, measurement head, causal intervention, or safety case. Use `C.30.STRAT`, `C.30.TFS-REL`, `A.6.F`, `A.6.M`, `C.16`, `C.28`, or the applicable assurance or evidence pattern to state or test the current claim.
+Do not use C.30.LCA when the issue under repair is generic stratification or source-label repair, only an E.18 transformation-flow path slice, function description, module boundary, measurement head, causal intervention, or safety case. Use `C.30.STRAT`, `C.30.TFS-REL`, `A.6.F`, `A.6.M`, `C.16`, `C.28`, or the assurance or evidence pattern to state or test the claim at issue.
 
-The primary EntityOfConcern for a full C.30.LCA description or view is one exact selected control `U.Structure`. The description, selected structure, controlled holon, architecture relation, architecture claim, viewpoint, conformance occurrence, control relations and their participants, any participating Systems, classifications, assignments, Methods or Work, diagram, representation, proof claims, and publication remain separate. Start with the smallest useful note:
+The primary EntityOfConcern for a full C.30.LCA description or view is one selected control `U.Structure`. The description, selected structure, controlled holon, architecture relation, architecture claim, viewpoint, conformance occurrence, control relations and their participants, any participating Systems, classifications, assignments, Methods or Work, diagram, representation, proof claims, and publication remain separate. Start with the smallest useful note:
 
 ```text
 ControlStructureViewNote ordinary minimum:
@@ -75,13 +75,17 @@ ControlStructureViewNote ordinary minimum:
   stopCondition:
 ```
 
-Use either `selectedControlStructureRef` or an honest `structureGap`. A positive control claim also names at least one obtaining control relation and its participants. This note is enough when those values make the next action clear; its fields do not turn it into a C.2.1 episteme or `U.View`.
+Use either `selectedControlStructureRef` or a `structureGap`. A positive control claim also names at least one obtaining control relation and its participants. This note is enough when those values make the next action clear; its fields do not turn it into a C.2.1 episteme or `U.View`.
 
 Add a described holon, an architecture-relation occurrence or claim, rate bands, control-layer relations, boundaries, view and viewpoint-conformance facts, source return, representation, or publication only when they change the intended use. Add participating Systems, local classifications, assignments, Methods, Work, and F.6 attribution only when those neighboring facts are independently current.
 
-When either form includes actual control Work, each Work ref names an occurrence independently admitted under A.15.1 after every exact actual performer is recovered through A.13. `assignmentRows` and `actualControlWorkAttributionRefs` remain optional: include them only when the note, view, or receiving use expressly represents precise assignment-bound attribution. Any present attribution ref resolves through F.6 to the same obtaining A.13 assignment; absence or failure of attribution alone leaves independently admitted Work intact. If the same finding invalidates an admission premise, recheck that premise and the conclusions that used it. The note or view creates none of these facts.
+When either form includes control Work, each Work ref names an occurrence independently admitted under A.15.1 after every performer is recovered through A.13.
 
-Use full `ControlStructureView` only when an independently identified architecture-description episteme about the selected control structure satisfies the fixed E.17.0 predicate for one viewpoint. Full use is justified when control-participant meanings, direct relations, rates, recovered control-layer labels, boundary refs, source return, representation or publication, or the patterns used for particular claims matter beyond the note.
+`assignmentRows` and `actualControlWorkAttributionRefs` remain optional: include them only when the note, view, or receiving use expressly represents precise assignment-bound attribution. Any present attribution ref resolves through F.6 to the same obtaining A.13 assignment; absence or failure of attribution alone leaves independently admitted Work intact.
 
-An obtaining relation can be ineffective or harmful. Describe the actual command, observation and response, including their delay, rather than supplying missing ideal connections. Distinguish an established absence from a relation not yet known: `oneWay` and `unclear` support different next inquiries. A controller whose feedback amplifies a deviation still has describable feedback; adequacy is a judgement on its behavior for the receiving use. **C.43:4.1.1–4.1.3** connects that description to explanation and a possible change. **C.32.LCA** develops the new arrangement when that is required.
+If the same finding invalidates an admission premise, recheck that premise and the conclusions that used it. The note or view creates none of these facts.
+
+Use full `ControlStructureView` only when an independently identified architecture-description episteme about the selected control structure satisfies the fixed E.17.0 predicate for one viewpoint. Full use is justified when control-participant meanings, direct relations, rates, recovered control-layer labels, boundary refs, source return, representation or publication, or the patterns used for claims matter beyond the note.
+
+An obtaining relation can be ineffective or harmful. Describe the command, observation and response, including their delay, rather than supplying missing ideal connections. Distinguish an established absence from a relation not yet known: `oneWay` and `unclear` support different next inquiries. A controller whose feedback amplifies a deviation still has describable feedback; adequacy is a judgement on its behavior for the receiving use. **C.43:4.1.1–4.1.3** connects that description to explanation and a possible change. **C.32.LCA** develops the new arrangement when that is required.
 

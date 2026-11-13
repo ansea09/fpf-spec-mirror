@@ -6,12 +6,12 @@ section_id: "C.2.6:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.6/C.2.6__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.2.6 — Sources, Evidence and Conditions for Using an Episteme"
   - "C.2.6:intro — Intro"
-line_start: 54112
-line_end: 54127
+line_start: 56349
+line_end: 56364
 dependencies:
   - "A.10"
   - "A.16"
@@ -54,7 +54,7 @@ keywords:
 
 **Sufficient result and non-use.** State the relations and conditions that can change the intended interpretation, check or action. Use an already sufficient description directly. A new account, classification or chart is unnecessary when the receiving work can recover those facts and conditions from the available text.
 
-**What goes wrong if missed.** A report can preserve a sentence while losing access to the observation, model state or interaction needed to use it. An unspecified claim that it is "anchored" leaves the reader to infer whether this means derivation, evidence or an actual condition of action.
+**What goes wrong if missed.** A report can preserve a sentence while losing access to the observation, model state or interaction needed to use it. An unspecified claim that it is "anchored" leaves the reader to infer whether this means derivation, evidence or a condition of action.
 
 **What this buys.** The recipient can identify which conclusions remain supported, which action conditions still hold and what must be recovered before the intended use can continue.
 

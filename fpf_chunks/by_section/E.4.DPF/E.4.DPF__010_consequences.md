@@ -6,12 +6,12 @@ section_id: "E.4.DPF:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__010_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.4.DPF — Domain and Local Principle Frameworks: Whether and How to Author and Publish"
   - "E.4.DPF:9 — Consequences"
-line_start: 95268
-line_end: 95273
+line_start: 100245
+line_end: 100250
 dependencies:
   - "A.1.1"
   - "A.13"
@@ -55,9 +55,6 @@ dependencies:
   - "G.11"
   - "G.2"
 keywords:
-  - "and boundary into additional mini-method columns. Pattern bodies remain the main language of use"
-  - "do not copy first move"
-  - "result"
 ---
 
 ### E.4.DPF:9 - Consequences

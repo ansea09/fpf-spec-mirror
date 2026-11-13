@@ -6,12 +6,12 @@ section_id: "G.8:10"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.8/G.8__011_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.8 — Package Method-Family Admissibility Rules and Maturity Ladders (SoS-LOG)"
   - "G.8:10 — Consequences"
-line_start: 131068
-line_end: 131075
+line_start: 139136
+line_end: 139143
 dependencies:
   - "A.10"
   - "A.21"
@@ -38,13 +38,13 @@ keywords:
   - "SoS-LOG"
   - "admissibility ledger"
   - "rule ids"
-  - "tri-state {pass"
+  - "tri-state {pass\\"
 ---
 
 ### G.8:10 - Consequences
 
 * **Positive:** `G.5` receives a stable, citable, selector‑facing artefact without importing rule semantics or threshold logic.
-* **Positive:** Audit and refresh become tractable: pins, crossings, evidence paths, and trigger kinds are explicit.
+* **Positive:** Pins, crossing references, evidence paths and trigger kinds tell an auditor what grounded the decision and help identify the uses whose checks may need to be reopened.
 * **Positive:** The ladder retains its ordinal or partial-order meaning, so a maturity label cannot substitute for the evidence and conditions of admission.
 * **Negative:** Requires stricter authoring discipline (UTS publication, pin completeness, explicit wiring).
 * **Negative:** Without maintained G.6 paths, a later reader may need more work to recover the cited evidence. Evaluate the resolvable A.10 anchors and their support for the stated use; absence of a graph alone does not lower evidence-support class. If a required basis cannot be recovered, abstain from the dependent use.

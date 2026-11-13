@@ -6,12 +6,12 @@ section_id: "C.36.MC:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.MC/C.36.MC__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.36.MC — Qualify and Develop a Method Culture"
   - "C.36.MC:intro — Intro"
-line_start: 91099
-line_end: 91105
+line_start: 95579
+line_end: 95585
 dependencies:
   - "A.15.1"
   - "A.3.1"

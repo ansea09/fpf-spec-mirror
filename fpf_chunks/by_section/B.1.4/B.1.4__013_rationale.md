@@ -6,12 +6,12 @@ section_id: "B.1.4:8.1"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.4/B.1.4__013_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.1.4 — Specify Order-Sensitive or Temporal Aggregation (Γ_ctx, Γ_time)"
   - "B.1.4:8.1 — Rationale"
-line_start: 42125
-line_end: 42130
+line_start: 43782
+line_end: 43789
 dependencies:
   - "A.1.1"
   - "A.14"
@@ -36,7 +36,9 @@ keywords:
 
 ### B.1.4:8.1 - Rationale
 
-Order-sensitive and temporal aggregation combine already grounded inputs under a selected operation. One continuing carrier may be considered through proper phases; separate Work occurrences or observations may supply intervals for a different temporal aggregate; and an order structure may be the desired result or an input to a further calculation. Each case keeps its direct grounds: carrier identity and `PhaseOf` for proper phases, C.2.1 identity and obtaining edition relations for episteme history, A.15.1 for Work, C.27.TA for temporal facts, and the actual ordered relations, operation and conditions for the aggregate. Resource, transformation, evidence and whole-reidentification claims retain their own rules.
+Order-sensitive and temporal aggregation combine already grounded inputs under a selected operation. One continuing carrier may be considered through proper phases; separate Work occurrences or observations may supply intervals for a different temporal aggregate; and an order structure may be the desired result or an input to a further calculation.
+
+Each case keeps its grounds: carrier identity and `PhaseOf` for proper phases, C.2.1 identity and obtaining edition relations for episteme history, A.15.1 for Work, C.27.TA for temporal facts, and the ordered relations, operation and conditions for the aggregate. Resource, transformation, evidence and whole-reidentification claims retain their rules.
 
 Distinguish design-time possible order from run-time history. When both contribute to one use, state the correspondence between their claims; keep one or several accounts according to what that use needs.
 

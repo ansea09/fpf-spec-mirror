@@ -6,12 +6,12 @@ section_id: "A.3.2:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2/A.3.2__012_sota-echoing.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.3.2 — U.MethodDescription: Description Episteme for a Way of Doing"
   - "A.3.2:11 — SoTA-Echoing"
-line_start: 11752
-line_end: 11761
+line_start: 12169
+line_end: 12178
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -60,5 +60,5 @@ keywords:
 | scoped-effects and handlers work | Bosman et al., ["A Calculus for Scoped Effects & Handlers"](https://arxiv.org/abs/2304.09697), 2024; Matache et al., ["Scoped Effects as Parameterized Algebraic Theories"](https://arxiv.org/abs/2402.03103), 2024; Kura, ["On Complete Categorical Semantics for Effect Handlers"](https://arxiv.org/abs/2602.03275), 2026. | Separate syntax, handling, scope, resources, equations and semantic model; executable coherence does not establish uniquely determined semantics. | An executable-looking episteme may describe a Method, but form or one working interpretation does not by itself settle its Method, mechanism law, semantic equivalence, or success. |
 | binding-aware equality representation | Tiurin, Ghica, and Hu, ["E-Graphs With Bindings"](https://arxiv.org/abs/2505.00807), 2025; Zucker, ["Lifting E-Graphs: A Function Isn't a Constant"](https://arxiv.org/abs/2606.22734), 2026. | Variables, binders, and contexts need explicit representation semantics; ordinary graph equality is not enough. | When equivalence depends on binding or context, state that comparison basis. Alpha-equivalent or graph-equivalent representations do not automatically identify one Method or equivalent claim content. |
 | persistent equality representation | Merckx et al., ["E-Graphs as a Persistent Compiler Abstraction"](https://arxiv.org/abs/2602.16707), 2026. | An equality representation may persist across several intermediate-representation levels while its expression changes. | Persistence of one representation structure across compiler stages is a representation fact; it does not establish episteme-edition continuity, Method identity, MethodDescription membership, or performed Work. |
-| Historical declarative-versus-imperative programming contrasts | Codd 1970; Kowalski 1979; Selinger et al. 1979; van der Aalst, Pesic, and Schonenberg 2009; Van Roy and Haridi 2004. | Historical lineage and comparison cases; these anchors do not establish the current state of their fields. | Older slogans remain useful recognition cues, but the reader still asks what the artifact asserts and which FPF object that claim concerns. |
+| Historical declarative-versus-imperative programming contrasts | Codd 1970; Kowalski 1979; Selinger et al. 1979; van der Aalst, Pesic, and Schonenberg 2009; Van Roy and Haridi 2004. | Historical lineage and comparison cases; these anchors do not establish the current state of their fields. | Older slogans remain useful recognition cues, but the reader asks what the artifact asserts and which FPF object that claim concerns. |
 

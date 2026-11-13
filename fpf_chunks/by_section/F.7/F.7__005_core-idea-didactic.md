@@ -6,12 +6,12 @@ section_id: "F.7:4"
 section_title: "Core idea (didactic)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.7/F.7__005_core-idea-didactic.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.7 — Display Source-Local Comparisons in a Concept-Set Table"
   - "F.7:4 — Core idea (didactic)"
-line_start: 120536
-line_end: 120548
+line_start: 128188
+line_end: 128202
 dependencies:
   - "A.6.9"
   - "B.3"
@@ -48,5 +48,7 @@ A **Concept-Set row** is a didactic grouping for one stated comparison or use. I
 * the evidence or direct pattern that supports each substantive claim;
 * a counterexample or boundary showing where the comparison stops.
 
-The word *set* names the entries collected for display. It does not assert that they are one value. A row may show an identity, overlap, ordering, incompatibility, disjointness, or no relation at all, but only because that claim is established outside the layout. F.9 is used only when the actual relation is between distinct local meanings. For every other relation, cite the pattern that defines, constrains, or tests it.
+The word *set* names the entries collected for display. It does not assert that they are one value. A row can show a grounded relation, such as identity, overlap, ordering, incompatibility or disjointness. When the comparison asserts no relation, say so. A claim that a particular relation does not hold needs its own grounds.
+
+Use F.9 only for a relation between distinct local meanings. For every other relation, cite the pattern that defines, constrains, or tests it.
 

@@ -6,12 +6,12 @@ section_id: "A.19.CN:5"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CN/A.19.CN__006_conformance-checklist-normative.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.19.CN — CN-frame: Specify and Maintain Comparability and Normalization"
   - "A.19.CN:5 — Conformance Checklist (normative)"
-line_start: 36539
-line_end: 36568
+line_start: 38041
+line_end: 38070
 dependencies:
   - "A.19"
   - "A.6.1"
@@ -47,7 +47,7 @@ keywords:
 
 **CC‑A19.D1‑3 (Chart).** `chart` **MUST** name its reference state and coordinate patch. For measured values, cite the applicable measurement method and protocol under C.16; for evaluated or otherwise ascribed values, cite the rule and basis that establish those values.
 
-**CC‑A19.D1‑4 (Normalization references, not redefinition).** When normalization is used, `normalization` **MUST** identify the admitted mechanism and provide the normalization references required by the A.19.UNM governing pattern (methods / invariants / fix, and instances when used) so that any normalization‑based comparison is auditable. This pattern does not define what a “NormalizationMethod” is — it requires that CN‑Spec can point to the governing pattern that does.
+**CC‑A19.D1‑4 (Normalization references, not redefinition).** When normalization is used, `normalization` **MUST** identify the admitted mechanism and provide the normalization references required by A.19.UNM (methods / invariants / fix, and instances when used) so that any normalization‑based comparison is auditable. This pattern does not define what a “NormalizationMethod” is — it requires that CN‑Spec can point to the governing pattern that does.
 
 **CC‑A19.D1‑5 (Comparability mode).** `comparability.mode` **MUST** be either **coordinatewise** (same chart, Scales and applicable Units) or **normalization‑based** (“normalize‑then‑compare” via the declared **UNM**). Mixed/implicit modes are prohibited. A.19.UNM governs the directed result and any optional classes. The receiving comparison must retain its required distinctions; equality of normalized outputs alone establishes no operational congruence. CN-Spec pins the chosen result branch and its basis.
 
@@ -55,9 +55,9 @@ keywords:
 
 **CC‑A19.D1‑7 (Aggregation discipline).** When aggregation is used, `aggregation.Γ_fold` **MUST** identify the declared scale-lawful fold, its applicable algebraic properties and any required time policy. G.0 and A.19.ULSAM govern admissibility and the fold; B.3 applies when the fold serves an assurance claim. Keep the values separate when no fold is needed.
 
-**CC‑A19.D1‑8 (Relation and use discipline).** When reuse depends on a semantic correspondence or difference between two exact F.17 local senses, test the F.9 predicate and cite a Bridge only when it obtains. To use an obtaining Bridge, the receiving C.2.1 claim **MUST** separately state the use, direction, correspondence rule, tolerated loss and polarity. Reliance on an affirmative claim requires the A.10 disposition under F.9:4.2; a named assurance use also requires its B.3 result. Missing or unresolved required correspondence blocks the dependent use. A coordinate mapping and any applicable plane relation retain their separate grounds.
+**CC‑A19.D1‑8 (Relation and use discipline).** When reuse depends on a semantic correspondence or difference between two F.17 local senses, test the F.9 predicate and cite a Bridge only when it obtains. To use an obtaining Bridge, the receiving C.2.1 claim **MUST** separately state the use, direction, correspondence rule, tolerated loss and polarity. Reliance on an affirmative claim requires the A.10 disposition under F.9:4.2; a named assurance use also requires its B.3 result. Missing or unresolved required correspondence blocks the dependent use. A coordinate mapping and any applicable plane relation retain their separate grounds.
 
-**CC‑A19.D1‑9 (Conditional non-self-certification).** When the receiving claim or control requires independent certification, the certifying holder **MUST NOT** have authored or materially selected the exact CN-Spec edition or admission basis being certified, including relevant retained earlier content. Apply §4.2 to holder/Work/history, required authority and examination. Unknown history is unresolved. An adequate use with no such requirement may remain explicitly uncertified.
+**CC‑A19.D1‑9 (Conditional non-self-certification).** When the receiving claim or control requires independent certification, the certifying holder **MUST NOT** have authored or materially selected the CN-Spec edition or admission basis being certified, including relevant retained earlier content. Apply §4.2 to holder/Work/history, required authority and examination. Unknown history is unresolved. An adequate use with no such requirement may remain explicitly uncertified.
 
 **CC‑A19.D1‑10 (Maintenance, deprecation, and DRR).** A CN-Spec maintained for later reuse or as a shared edition **MUST** make its maintenance responsibility, applicable deprecation arrangement and consequential decisions recoverable. Use E.9 for decisions that need a DRR. A one-use comparison need not invent a maintenance assignment or retirement plan.
 

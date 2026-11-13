@@ -6,12 +6,12 @@ section_id: "C.28.MR:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28.MR/C.28.MR__006_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.28.MR — Derive an Intervention Consequence by Mechanism Replacement"
   - "C.28.MR:5 — Archetypal Grounding"
-line_start: 68808
-line_end: 68847
+line_start: 71881
+line_end: 71920
 dependencies:
   - "A.3.3.TR"
   - "B.5.MPC"
@@ -51,7 +51,7 @@ Replacing the display equation by `D=6 V` leaves `V=12 V`; current and power rem
 
 Suppose the supply's current limit is now relevant. Use the revised positive-command model `V=min(C, I_max R)` with `I_max=1.5 A`. The 12 V command now gives 9 V at the load and 13.5 W. The 6 V command still gives 6 W. Relative to natural behavior, the calculated power reduction is now 7.5 W, instead of 18 W in the earlier operating-region model.
 
-This is a model comparison. Using this result for a physical supply requires an account of its regulation, load and limiting behavior. Altering a graphical interface value is a physical intervention only when the interface actually controls the modeled command.
+This is a model comparison. Using this result for a physical supply requires an account of its regulation, load and limiting behavior. Altering a graphical interface value is a physical intervention only when the interface controls the modeled command.
 
 #### C.28.MR:5.3 - A definite intervention answer with an indefinite baseline
 

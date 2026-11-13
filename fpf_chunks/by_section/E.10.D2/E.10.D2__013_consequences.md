@@ -6,12 +6,12 @@ section_id: "E.10.D2:12"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__013_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:12 — Consequences"
-line_start: 102636
-line_end: 102645
+line_start: 108430
+line_end: 108439
 dependencies:
   - "A.7"
   - "C.2.1"
@@ -41,6 +41,6 @@ keywords:
 | Description and specification names have explicit constitution and checkability conditions. | Authors must recover one C.2.1 constitution and the receiving use instead of relying on a suffix, title, or filled context record. |
 | One episteme can remain stable across changed viewpoint selections, harnesses, evidence, publications, carriers, and representations. | Each changed neighboring use needs its own subject pattern when it matters to the next action. |
 | Publication, evidence, assurance, gate, work, state, and system-role-kind or assignment claims remain independently testable. | Prose can become slightly longer when a source phrase compressed several non-substitutable relations. |
-| The ordinary move stays small because optional neighbors are opened conditionally. | A genuinely load-bearing neighbor cannot be hidden merely to keep the sentence short. |
+| The ordinary move stays small because optional neighbors are opened conditionally. | Keep a load-bearing neighbor visible even when naming it lengthens the sentence. |
 | A local application can return an exact blocker. | Name the missing receiving use, C.2.1 discriminator, direct governor or checkability basis; resume when it can be recovered. |
 

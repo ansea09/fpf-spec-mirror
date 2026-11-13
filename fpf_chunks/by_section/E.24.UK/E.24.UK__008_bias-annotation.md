@@ -6,12 +6,12 @@ section_id: "E.24.UK:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.UK/E.24.UK__008_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.24.UK — U-kind Admission and Ontic Settlement"
   - "E.24.UK:6 — Bias-Annotation"
-line_start: 117644
-line_end: 117647
+line_start: 125224
+line_end: 125229
 dependencies:
   - "A.1.1"
   - "A.11"
@@ -43,5 +43,7 @@ keywords:
 
 ### E.24.UK:6 - Bias-Annotation
 
-This pattern blocks punctuation-bias and taxonomy-bias. A `U.*` spelling, title, filename, table row, or imported type word is not enough to create a durable FPF kind. Recover the governed individuals, their identity or membership rule, and the PatternID that locates that rule first. When the candidate instead names participation in a relation, a SlotSpec, an assertion or description field, a selected `U.Structure`, an `E.24.PUB` form, or a `C.29` representation element, retain that exact object and its defining or testing rule. For a structure specialization, first recover the same base individual through A.22's four discriminators, then test its specialization predicate. Only then decide whether any durable U-kind distinction remains.
+A `U.*` spelling, title, filename, table row, or imported type word is insufficient to establish a durable FPF kind. First recover the governed individuals, their identity or membership rule, and the PatternID that locates that rule.
+
+If the candidate names participation in a relation, a SlotSpec, an assertion or description field, a selected `U.Structure`, an `E.24.PUB` form, or a `C.29` representation element, keep that object and its defining or testing rule. For a structure specialization, first identify the same base individual by A.22’s four discriminators, then test its specialization predicate. Only then decide whether a durable U-kind distinction remains.
 

@@ -6,12 +6,12 @@ section_id: "C.16:2"
 section_title: "Scope and result boundary (Normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__003_scope-and-result-boundary-normative.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:2 — Scope and result boundary (Normative)"
-line_start: 58608
-line_end: 58620
+line_start: 60979
+line_end: 60991
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -57,9 +57,9 @@ keywords:
 
 C.16 covers construction and use of measurement models. For a performed measurement, it keeps the following parts of the result account recoverable:
 
-- one measurand or otherwise exact measurement subject;
+- one measurand or otherwise identified measurement subject;
 - one Characteristic and one Scale, with Level or Coordinate and Unit when applicable;
-- the reusable measurement specification, exact `U.Method`, measurement model, calibration requirements, and uncertainty treatment;
+- the reusable measurement specification, `U.Method`, measurement model, calibration requirements, and uncertainty treatment;
 - dated measurement work with performer, actual bindings, resources, and time stance;
 - the value or set of values attributed to the measurand together with relevant information, including uncertainty and interpretation basis; and
 - direct comparability within the declared basis.

@@ -6,12 +6,12 @@ section_id: "A.16.0:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.0/A.16.0__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.16.0 — Keep an Episteme's Language-State and Publication History Recoverable"
   - "A.16.0:intro — Intro"
-line_start: 33588
-line_end: 33607
+line_start: 35068
+line_end: 35087
 dependencies:
   - "A.16"
   - "A.16.1"
@@ -60,5 +60,5 @@ keywords:
 
 **What goes wrong if missed.** Readers treat cue packs, routed cue sets, endpoint-bound publications, and next-use dockings as successive states of one unchanged episteme; forks, losses, authority changes, and work-requiring crossings become implicit, and an actual responsibility change may be mistaken for semantic docking.
 
-**What this buys.** One optional trajectory account that records lineage, position claims, move kinds, publication forms, losses, and the next use and authority boundary without wrapping every local `A.16` move in heavy history machinery.
+**What this buys.** One optional trajectory account that records lineage, position claims, move kinds, publication forms, losses, and the next use and authority boundary without requiring a history account for every local `A.16` move.
 

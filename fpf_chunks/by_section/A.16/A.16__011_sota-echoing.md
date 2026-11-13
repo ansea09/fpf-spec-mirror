@@ -6,12 +6,12 @@ section_id: "A.16:10"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__011_sota-echoing.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.16 — Language-State Moves: Choose the Next Publication and Use of a Cue or Claim"
   - "A.16:10 — SoTA-Echoing"
-line_start: 33570
-line_end: 33579
+line_start: 35050
+line_end: 35059
 dependencies:
   - "A.13"
   - "A.15.1"
@@ -59,7 +59,7 @@ keywords:
 
 **Incident-response contribution.** [NIST SP 800-61r3 (2025), §2](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r3.pdf) connects lessons from incident-response activities to revisions of cybersecurity practices; learning can affect ongoing work rather than wait for recovery to end. A.16 uses that feedback idea for reopening a publication or its use. The source's scope is cybersecurity incident response.
 
-**Historical provenance contribution.** [W3C PROV-DM (2013), §5.2.2](https://www.w3.org/TR/2013/REC-prov-dm-20130430/#term-revision) distinguishes revision as a particular derivation relation between entities. This supplies a historical comparison for stating a lineage predicate rather than inferring it from a repeated label. C.2.1 supplies FPF episteme identity.
+**Historical provenance contribution.** [W3C PROV-DM (2013), §5.2.2](https://www.w3.org/TR/2013/REC-prov-dm-20130430/#term-revision) distinguishes revision as a derivation relation between entities. This supplies a historical comparison for stating a lineage predicate rather than inferring it from a repeated label. C.2.1 supplies FPF episteme identity.
 
 **FPF adaptation.** The ten moves and the threshold for a separate A.16.0 history are FPF's coordination choices. Neither cited source establishes that move set or the threshold. Keep sufficient local content, expose consequential loss and retreat, and use E.18 only for an independently selected TransformationFlowStructure.
 

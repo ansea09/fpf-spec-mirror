@@ -6,12 +6,12 @@ section_id: "F.0.2.RC:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2.RC/F.0.2.RC__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.0.2.RC — Test Constructive Coverage and Refresh Dependent Explanations"
   - "F.0.2.RC:1 — Problem frame"
-line_start: 118396
-line_end: 118403
+line_start: 125988
+line_end: 125995
 dependencies:
   - "A.10.1"
   - "A.3.1.CC"
@@ -26,7 +26,7 @@ keywords:
 
 **Use this when.** A Method-description language claims to preserve useful source contributions, but you need to find out whether a user can recover the promised action, conditions and source basis. Use it again when a source or use changes and you must identify the affected repair without discarding supported work.
 
-The working reader is a Method engineer maintaining a source-grounded description or pattern language. Begin with one promise: **which source contribution should a user be able to reconstruct for this action, and what would count as a consequential loss?**
+As a Method engineer maintaining a source-grounded description or pattern language, begin with one promise: **which source contribution should a user be able to reconstruct for this action, and what would count as a consequential loss?**
 
 The first useful result is one reconstruction answer: the contribution recovered, a deliberate omission with a usable return, or the missing or contradicted element and its next repair. A known one-claim contradiction already owned by A.3.1.CC needs no additional reconstruction exercise.
 

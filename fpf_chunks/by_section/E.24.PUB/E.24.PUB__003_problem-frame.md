@@ -6,12 +6,12 @@ section_id: "E.24.PUB:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__003_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.24.PUB — Episteme Publication: Availability, Form and Carrier"
   - "E.24.PUB:1 — Problem Frame"
-line_start: 116942
-line_end: 116951
+line_start: 124419
+line_end: 124430
 dependencies:
   - "A.6.3"
   - "A.6.3.RT"
@@ -38,7 +38,9 @@ keywords:
 
 ### E.24.PUB:1 - Problem Frame
 
-Ontics and other entities are usually encountered through expressions of epistemes and physical or digital carriers. In a completed inspection card, the claims about the inspected subject can constitute a `U.Episteme`; the particular signs express those claims; reusable arrangement rules supply a publication form; and a file or sheet bears the expression. A publication occurrence makes the selected episteme available through that expression and carrier to a declared audience for a bounded use.
+Ontics and other entities are usually encountered through expressions of epistemes and physical or digital carriers.
+
+In a completed inspection card, the claims about the inspected subject can constitute a `U.Episteme`; the particular signs express those claims; reusable arrangement rules supply a publication form; and a file or sheet bears the expression. A publication occurrence makes the selected episteme available through that expression and carrier to a declared audience for a bounded use.
 
 These relations connect separately identified objects. E.24.PUB defines exact publication through expression and bearing, and reusable-form conformance when a form is selected. It also supplies form-mediated claims and broader availability for uses that do not require one fixed expression. Ordinary publication can be stated in one sentence.
 

@@ -6,12 +6,12 @@ section_id: "C.11.DUA:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.DUA/C.11.DUA__010_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.11.DUA — Make Advice and Evidence Demands Worth Their Burden"
   - "C.11.DUA:9 — Consequences"
-line_start: 58038
-line_end: 58043
+line_start: 60385
+line_end: 60390
 dependencies:
   - "A.10"
   - "C.11"

@@ -6,12 +6,12 @@ section_id: "C.11.DBR:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.DBR/C.11.DBR__010_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.11.DBR — Reconsider a Decision When Its Relied-on Basis Changes"
   - "C.11.DBR:9 — Consequences"
-line_start: 57782
-line_end: 57785
+line_start: 60125
+line_end: 60130
 dependencies:
   - "A.10"
   - "A.10.1"
@@ -27,5 +27,7 @@ keywords:
 
 ### C.11.DBR:9 - Consequences
 
-The reader can preserve a decision for one use while reopening another, retain completed work while challenging its expected benefit, and give a chooser a specific comparison question. The cost is recovering actual reliance and aligning the observations. Poor records or inaccessible contributors can leave that recovery unresolved. A short statement suffices for a small use; a broad dependent set can legitimately require more work. The Method does not promise that a replacement or favorable outcome exists.
+The reader can preserve a decision for one use while reopening another, retain completed work while challenging its expected benefit, and give a chooser a specific comparison question.
+
+The cost is recovering actual reliance and aligning the observations. Poor records or inaccessible contributors can leave that recovery unresolved. A short statement suffices for a small use; a broad dependent set can require more work. The Method does not promise that a replacement or favorable outcome exists.
 

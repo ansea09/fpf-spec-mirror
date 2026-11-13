@@ -6,12 +6,12 @@ section_id: "B.3:11a"
 section_title: "Quantum-like claims"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__015_quantum-like-claims.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.3 — Is This Claim Supported for This Use? — Trust and Assurance Calculus"
   - "B.3:11a — Quantum-like claims"
-line_start: 45167
-line_end: 45170
+line_start: 47019
+line_end: 47022
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -37,5 +37,5 @@ keywords:
 
 ### B.3:11a - Quantum-like claims
 
-Quantum-like wording does not require assurance by itself. If the wording only prevents a local representation mistake, keep the note with `C.26` and ordinary evidence. Apply B.3 only when an actual assurance claim about that exact quantum-like result and use is current. A comparative superiority claim must name the rival model, baseline, claimed mechanism, scope, evidence, and loss. Mathematical novelty or prestige supplies no assurance.
+Quantum-like wording does not require assurance by itself. If the wording only prevents a local representation mistake, keep the note with `C.26` and ordinary evidence. Apply B.3 only when an assurance claim about that quantum-like result and use is current. A comparative superiority claim must name the rival model, baseline, claimed mechanism, scope, evidence, and loss. Mathematical novelty or prestige supplies no assurance.
 

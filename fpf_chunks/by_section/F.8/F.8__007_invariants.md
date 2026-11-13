@@ -6,12 +6,12 @@ section_id: "F.8:5"
 section_title: "Invariants"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__007_invariants.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision for a Name"
   - "F.8:5 — Invariants"
-line_start: 120980
-line_end: 120992
+line_start: 128642
+line_end: 128654
 dependencies:
   - "A.11"
   - "A.15"
@@ -63,11 +63,11 @@ keywords:
 ### F.8:5 - Invariants
 
 1. **Four facts, one use.** Every disposition names the expression, governed value or relation, its subject pattern, and one proposed use. Split an expression that covers more than one governed subject or use.
-2. **Lightest sufficient result.** Use adequate ordinary wording or an existing designation directly. Create a cell, NameCard, row or policy identifier only for the receiving need it serves. An unsettled U-kind proposal stops before naming.
+2. **Lightest sufficient result.** Use adequate ordinary wording or an existing designation. Create a cell, NameCard, row or policy identifier only for the receiving need it serves. An unsettled U-kind proposal stops before naming.
 3. **Reuse preserves meaning.** Reuse or aliasing changes no kind, scope, occurrence identity, local-sense claim, admitted use, authority, or lineage. Shared spelling under another scheme establishes neither sameness nor an F.9 Bridge.
 4. **Kind, description, assignment, and Work stay distinct.** A designation may name a recovered local system-role kind `K` without creating the optional F.4 description `D`. Neither name classifies a candidate, creates an A.2.1 assignment `A`, or demonstrates Work. Other governed uses remain with their subject patterns.
 5. **Rows stay within admitted use.** Reusing an F.17 row supplies only its `AdmissibleUse` and no equivalence.
-6. **Ordinary and accountable decisions stay distinct.** Ordinary F.8 use needs no decision occurrence or result episteme. The §4.5 branch opens only after the decision or choice pattern admits the occurrence; otherwise it returns `missing-governor`.
+6. **Ordinary and accountable decisions stay distinct.** Ordinary F.8 use needs no decision occurrence or result episteme. When the use requires that history, test the occurrence under the rule for that decision or choice. Use the §4.5 result block when a separate result episteme is needed and its subject occurrence is established. If the occurrence cannot be established, give the applicable §4.5 outcome for the history claim.
 7. **Naming objects imply none of one another.** A designation, cell, basis relation, NameCard, row, identifier, publication occurrence, form, or carrier is created only for its receiving use. A selected Structure appears only when its organization changes interpretation of this naming use.
 8. **Admission precedes naming.** Before E.24.UK returns a stable disposition, F.8 can only block or lower the proposed naming use. Afterward it may name only the admitted, reused, local, or recovered non-kind object identified by that result.
 9. **Policy identifiers remain references.** Every identifier resolves a policy specification. Its mint occurrence and history are required only for the stronger uses stated in §8.1 and remain distinct from any C.11 result, decision-making Work, result episteme, or record.

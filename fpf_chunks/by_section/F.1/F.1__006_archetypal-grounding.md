@@ -6,12 +6,12 @@ section_id: "F.1:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.1/F.1__006_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.1 — Find and Select Sources for a Current Question"
   - "F.1:5 — Archetypal Grounding"
-line_start: 118788
-line_end: 118915
+line_start: 126387
+line_end: 126514
 dependencies:
   - "A.10"
   - "A.7"
@@ -102,7 +102,7 @@ The resulting `SourceCutNote` is identified by that ClaimGraph, the stated recei
 - **Exclude:** “No inspected claim from this source changes the stated use; record the exclusion and what would reopen it.”
 - **Return a gap:** “This unavailable or uninspectable source may be load-bearing; the cut remains limited here.”
 - **Keep meanings local:** “Selection puts both sources in view; it does not say their terms are identical or related.”
-- **Use search assistance:** “The ranking tells us what to inspect next; the source claim decides whether it enters the cut.”
+- **Use search assistance:** “The ranking tells us what to inspect next; we decide whether to retain the source from the claim we inspect.”
 - **Reopen:** “This question, use, relied claim, rival, counterexample, or transfer boundary changed, so select again.”
 
 
@@ -117,9 +117,9 @@ A workshop reader asks, “May a shared bench be used while an acceptance run is
 
 The reader preserves the whole question, including the cooling interval, and bounds the search to those binders. The catalogue has no “cooling” entry. That is a limitation of this route. Browsing *Setup* produces a reference to an older equipment name and a drawing whose legend says “reserved interval”. The reader tries that term in the drawing register and obtains drawing D-14, edition 2, note 6. The note reserves the bench through the cooling interval; its exception allows sharing only before the run begins.
 
-The result is that inspected note, its drawing and edition address, why the interval and exception matter, and the scope of the archive searched. It supplies a rule for the subject practitioner to use with the actual run conditions. It does not establish the present bench state or permission by itself. The reader need not produce a SourceCutNote merely to return this sufficient source.
+The result is that inspected note, its drawing and edition address, why the interval and exception matter, and the scope of the archive searched. It supplies a rule for the subject practitioner to use with the actual run conditions. It does not establish the present bench state or permission by itself. The reader can return this sufficient source without producing a SourceCutNote.
 
-Change the question to “Which inspection condition changed between editions?” The reader obtains the available D-14 edition 1 note and compares it with edition 2 around the exception. Both passages become candidates. If the later comparison needs a justified two-edition basis, :4.2 selects their roles and returns a SourceCutNote. Change the question instead to “What word do these drawings use for the cooling interval?” The inspected wording can answer directly; further source selection adds nothing to that use.
+Change the question to “Which condition for sharing the bench changed between editions?” The reader obtains the available D-14 edition 1 note and compares it with edition 2 around the exception. Both passages become candidates. If the later comparison needs a justified two-edition basis, :4.2 selects their roles and returns a SourceCutNote. Change the question instead to “What word do these drawings use for the cooling interval?” The inspected wording can answer directly; further source selection adds nothing to that use.
 
 The first failed route mattered because its catalogue vocabulary excluded the older name. The complementary route recovered source wording. This construction works with paper and ordinary reading; it requires no index engineering or automated ranking.
 
@@ -137,7 +137,7 @@ A title-only service that cannot search or return those body conditions would re
 
 An engineer already has the needed fictional WS-4 procedure, edition 2, clause 7. An edition-3 notice names a changed inspection exception. The question remains whether the same inspection condition applies. The engineer opens edition 3 at that clause and reads the exception with its surrounding applicability conditions.
 
-If the relied condition is unchanged, the passage remains usable for its earlier contribution, with the updated edition address. If the exception changed, the engineer returns the changed passage and the earlier passage when the comparison needs it, then reopens the affected subject judgement or source-cut claim. No unchanged chapter needs a new search merely because the cover changed.
+If the relied condition is unchanged, the passage remains usable for its earlier contribution, with the updated edition address. If the exception changed, the engineer returns the changed passage and the earlier passage when the comparison needs it, then reopens the affected subject judgement or source-cut claim. A changed cover gives no reason to search unchanged chapters again.
 
 Now change the question to whether a particular attachment can be accepted. The retrieved clause does not settle an unknown material or operating condition. The subject engineer receives the passage and that missing premise. A found rule and a justified source cut supply different contributions from engineering applicability.
 
@@ -145,7 +145,7 @@ Now change the question to whether a particular attachment can be accepted. The 
 
 A review cites a 2025 original, but the reader can obtain only the review's excerpt and the original's catalogue record. The catalogue establishes a lead. The excerpt is inspectable at its own review address; the original's body and omitted conditions remain inaccessible.
 
-Return those distinctions and identify the needed original or authorized access. Continue a use that the excerpt can actually support; keep a dependent judgement open when its missing context can change the answer. Another search over the same catalogue cannot turn the original into inspected material. A later copy of the original reopens that gap; it does not require discarding other unchanged findings.
+Return those distinctions and identify the needed original or authorized access. Continue a use the excerpt can support; keep a dependent judgement open when its missing context can change the answer. Another search over the same catalogue cannot turn the original into inspected material. A later copy of the original reopens that gap; it does not require discarding other unchanged findings.
 
 
 #### F.1:5.10 - A changed question with two needed contributions
@@ -156,7 +156,7 @@ The catalogue points to a note about equipment labels. Reading it reveals that a
 
 The equipment register explains how current identifiers distinguish the pumps. Further guides found through different terms give more identification examples, but leave the preparation-state question unanswered. A reference in the register gives a route to H-2. The next search opens its completion condition in section 5, with the definition of the reported state and interval. The new contribution is that condition, not merely a new document.
 
-The reader now returns R-4:2 for the equipment-identification basis and H-2:5 for the condition on reporting completed preparation. These supply the current requirement question. Stop searching and use them to examine the proposed handover. Choosing a course still requires judging the actual learning need; identifying the requirements did not make that judgement. If the available operations do not explain how to produce the required handover, use C.39 to develop the missing connection, with those passages as inputs.
+The reader now returns R-4:2 for the equipment-identification basis and H-2:5 for the condition on reporting completed preparation. These supply the current requirement question. Stop searching and use them to examine the proposed handover. Choosing a course still requires judging the learning need. Identifying the handover requirements did not settle that question. If the available operations do not explain how to produce the required handover, use C.39 to develop the missing connection, with those passages as inputs.
 
 If the procedure is inaccessible, return the inspected identification passage and the missing preparation-condition source. More identification guides do not close that gap. If both passages were already known and sufficient, open them directly. No additional route or SourceCutNote is needed for that use.
 

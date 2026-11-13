@@ -6,12 +6,12 @@ section_id: "F.8:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__006_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision for a Name"
   - "F.8:4 — Solution"
-line_start: 120804
-line_end: 120979
+line_start: 128458
+line_end: 128641
 dependencies:
   - "A.11"
   - "A.15"
@@ -82,7 +82,9 @@ If a needed fact is missing, recover it through the subject pattern. Otherwise u
 9. introduce a policy identifier for an already recovered policy specification; or
 10. block or lower the naming use.
 
-The ordinary result states the governed subject, proposed naming use, selected disposition and resulting name when any. Add a reopen condition when continued reuse needs it, and an explicit non-use boundary when F.19's grounded-contribution test warrants it. For example, when a durable local designation is needed: “Under `PatternReviewReferenceScheme-2026`, use `ReviewerRole` as the Plain designation of `ReviewerSystemRole` for local review-method prose; select `openDurableNamingSettlement` and revisit the decision if the naming use becomes public or cross-local.”
+The ordinary result states the governed subject, proposed naming use, selected disposition and resulting name when any. Add a reopen condition when continued reuse needs it, and an explicit non-use boundary when F.19's grounded-contribution test warrants it.
+
+For example, when a durable local designation is needed: “Under `PatternReviewReferenceScheme-2026`, use `ReviewerRole` as the Plain designation of `ReviewerSystemRole` for local review-method prose; select `openDurableNamingSettlement` and revisit the decision if the naming use becomes public or cross-local.”
 
 The corresponding F.8 result labels are `localPhraseOnly`, `reuseExistingDesignation`, `aliasOnly`, `reuseDirectPatternName`, `reuseAdmittedTermRow`, `nameSystemRoleKindDescription`, `openDurableNamingSettlement`, `proposePublicTermRow`, `introducePolicyIdentifier`, and `blockOrLowerUse`. They are not new `U.*` kinds. A stronger result opens its subject pattern; it does not itself create a card, row, identifier, policy specification, or relation occurrence.
 
@@ -115,8 +117,8 @@ Use the following questions to recover an adequate disposition without hiding a 
 6. **Try an alias.** Use `aliasOnly` when the governed meaning is unchanged and lineage can expose the wording variation. An alias may not change kind, scope, occurrence identity, use, or authority.
 7. **Try the subject's existing name.** Use the name supplied for the governed subject. A.2 and C.3 govern a local system-role kind and F.5 governs its designation; use F.18 only for a durable settlement and F.4 only for a separately needed `SystemRoleKindDescription`. A.2.1 continues to govern any assignment. For precise performed Work, A.13 first recovers each exact actual performer and A.15.1 independently admits the occurrence; F.6 follows only when the naming case or receiving use expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment.
 8. **Try one admitted F.17 row.** Reuse only the row's declared `AdmissibleUse`. Local-sense reuse does not imply cross-local sameness; a row and equal spelling create no F.9 Bridge.
-9. **Open only the next naming object that pays for itself.** A stable local address may justify a cell; an enduring naming settlement may justify a NameCard; a public/Core/durable/cross-local need may justify an F.17 row. None implies the next object.
-10. **Introduce a policy identifier only for a recovered policy specification.** A local identifier can stop with that specification and its scope. If the mint history is cited, replayed, normative, cross-local, or accountable, recover its decision or choice occurrence through the subject pattern; otherwise return `missing-governor` for that stronger history claim. Keep any C.11 result, decision-making Work, result episteme, and record separate.
+9. **Create the next naming object only when its use justifies the cost.** A stable local address may justify a cell; an enduring naming settlement may justify a NameCard; a public/Core/durable/cross-local need may justify an F.17 row. None implies the next object.
+10. **Introduce a policy identifier only for a recovered policy specification.** A local identifier can stop with that specification and its scope. If the mint history is cited, replayed, normative, cross-local, or accountable, recover its decision or choice occurrence through the subject pattern. If the occurrence cannot be established, give the applicable §4.5 outcome for the history claim. Keep any C.11 result, decision-making Work, result episteme, and record separate.
 11. **Stop before naming an unsettled U-kind proposal.** Select `blockOrLowerUse`. If the governed object is still unclear, use E.24.CD; otherwise send the recovered proposal episteme or source construct to E.24.UK. F.8 does not test or admit the candidate. After E.24.UK returns a stable `root`, `same-individual-dependent`, `identity-dependent`, `reuse`, `local-kind`, or `reject` disposition, re-enter F.8 only if the admitted or reused kind, local kind, or recovered non-kind object needs a designation.
 12. **Block or lower.** If no disposition is justified, keep the expression local, quote it as source wording, or lower the claim.
 
@@ -151,7 +153,7 @@ F.8 consumes one named F.17 row and its declared use; it neither constitutes the
 
 | Declared row use | F.8 admissible naming use | Other claims return to |
 | --- | --- | --- |
-| Naming-only | Shared prose label, glossary text, teaching label | The direct subject pattern for the claim actually needed—for example equivalence, assignment, performed Work, structural inference, or measurement equivalence. |
+| Naming-only | Shared prose label, glossary text, teaching label | The subject pattern that governs the claim at issue—for example equivalence, assignment, performed Work, structural inference, or measurement equivalence. |
 | System-role-kind designation naming | A designation may cite the row as a comparison aid after the local kind is recovered | The direct result for kind admission, cross-local kind identity, classification, or assignment. |
 | System-role-kind-description naming | A label for a separately justified `SystemRoleKindDescription` may cite the row as a comparison aid | The direct result for kind identity, cross-local kind identity, or assignment; the separately justified description remains the object being named. |
 | Measurement naming | Shared measurement label where units and procedure constraints remain visible | The measurement pattern for any claim of procedure interchange. |
@@ -203,7 +205,9 @@ MintReuseDecisionResultEpisteme:
   ReopenCondition:
 ```
 
-The block describes the result episteme. `EntityOfConcernRef` resolves to the decision or choice occurrence admitted through `DecisionGovernorLocator`; the predicate, participants, applicability, and identity basis show why that occurrence exists. `GovernedValueSubjectPatternLocator` identifies the pattern for the value being named. `NonAdmissibleOverread` is included only when admitted by `F.19`'s grounded-contribution test. A C.11 `ChoiceResult` and dated decision-making Work keep their direct identities and relations. If the occurrence and its governor cannot be recovered, do not instantiate the block: return the A.6.RCD `missing-governor` result. If no result episteme is needed, state the ordinary result and stop.
+The block describes the result episteme. `EntityOfConcernRef` resolves to the decision or choice occurrence admitted through `DecisionGovernorLocator`; the predicate, participants, applicability, and identity basis show why that occurrence exists. `GovernedValueSubjectPatternLocator` identifies the pattern for the value being named. `NonAdmissibleOverread` is included only when admitted by `F.19`'s grounded-contribution test. A C.11 `ChoiceResult` and dated decision-making Work keep their direct identities and relations.
+
+To assert a decision occurrence, establish it under the rule for that occurrence. If no governing rule can state or test the claim, return `missing-governor`. If the rule exists but a deciding fact is missing, return `missing-information`. If sufficient facts fail the positive test, the positive claim is `factually unsupported`. Use A.6.RCD:0.1 for an inapplicable case or a negative claim with its own grounds. Leave an unestablished occurrence out of the block. When no separate result episteme is needed, state the warranted result in ordinary language.
 
 #### F.8:8.1 - Policy-Identifier Mint-or-Reuse Discipline
 
@@ -224,14 +228,18 @@ PolicyIdentifierReference:
   MintDecisionResultEpistemeRef?:
   ScopeOrNamespaceRef:
 ```
-`PolicyIdentifier` is the selected designator. `PolicySpecificationRef` resolves to the separate policy-definition episteme and pins an edition or equivalent digest when needed. A local non-accountable introduction can stop there with explicit local scope. The conditional mint-occurrence fields are required when the use cites, replays, makes normative, reuses across the local boundary, or assigns accountability to the mint history; together they resolve one admitted decision or choice occurrence and the pattern, predicate, actual participants, applicability, and identity rule that establish it. If that stronger use is requested and those facts are absent, return `missing-governor` for it rather than inventing an occurrence. A C.11 `ChoiceResult` and any dated decision-making Work remain separate. `MintDecisionResultEpistemeRef`, when current, resolves to a C.2.1 episteme or accepted record describing the occurrence; the record does not perform the decision.
+`PolicyIdentifier` is the selected designator. `PolicySpecificationRef` resolves to the separate policy-definition episteme and pins an edition or equivalent digest when needed. A local non-accountable introduction can stop there with explicit local scope.
+
+The conditional mint-occurrence fields are required when the use cites, replays, makes normative, reuses across the local boundary, or assigns accountability to the mint history; together they resolve one admitted decision or choice occurrence and the pattern, predicate, actual participants, applicability, and identity rule that establish it. If that use requires a mint history you cannot establish, apply §4.5 to that claim.
+
+A C.11 `ChoiceResult` and any dated decision-making Work remain separate. `MintDecisionResultEpistemeRef`, when current, resolves to a C.2.1 episteme or accepted record describing the occurrence; the record does not perform the decision.
 
 For FPF normative policy identifiers, the durable result episteme is usually an accepted `E.9` decision record, but only after the decision or choice pattern has admitted the occurrence that record describes. A local non-exported and non-accountable identifier needs only its separately recoverable specification and explicit scope; it need not create a decision or result episteme. In every branch, the policy specification, identifier, any decision or choice occurrence, any C.11 result, any decision-making Work, and any record remain distinct.
 
 Rules:
 
-1. **No silent policy-identifier introduction.** Every new identifier resolves the separate `PolicySpecificationRef` and states its scope. A local non-accountable introduction stops there. A cited, replayed, normative, cross-local, or accountable mint history additionally resolves the decision or choice occurrence plus the pattern, predicate, participants, applicability, and identity rule that establish it; without that basis, return `missing-governor` for the stronger branch and do not claim it.
-2. **Reuse is reference use.** Reusing an existing identifier resolves the same identifier and policy specification. Resolve the original mint occurrence only when the current reuse consumes or asserts that history; it does not restate policy semantics, turn a record into the occurrence, or silently create another decision.
+1. **No silent policy-identifier introduction.** Every new identifier resolves the separate `PolicySpecificationRef` and states its scope. A local non-accountable introduction stops there. A cited, replayed, normative, cross-local, or accountable mint history additionally resolves the decision or choice occurrence plus the pattern, predicate, participants, applicability, and identity rule that establish it; if the occurrence cannot be established, leave the history unasserted and apply §4.5.
+2. **Reuse is reference use.** Reusing an existing identifier resolves the same identifier and policy specification. Resolve the original mint occurrence only when the current reuse consumes or asserts that history. Reusing the identifier does not restate policy semantics, turn a record into the occurrence, or silently create another decision.
 3. **Gate checkability.** A gate, crossing, Bridge, assurance, or publication claim that depends on a policy identifier includes `PolicyIdentifierReference` or an equivalent resolvable structure admitted by its subject pattern.
 4. **Policy authority stays with the subject pattern.** F.8 selects introduction or reuse of the identifier; it does not decide whether the policy permits Work, passes a gate, makes a relation obtain, or provides evidence.
 5. **The identifier grants nothing by itself.** Name, namespace, suffix, source prestige, specification publication, or decision record grants no permission, status, equivalence, or authority beyond the policy claim defined by its subject pattern.

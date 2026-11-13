@@ -6,12 +6,12 @@ section_id: "E.10:11"
 section_title: "E.10 conformance prompts (normative, concept-only questions)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__013_e-10-conformance-prompts-normative-concept-only-questions.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:11 — E.10 conformance prompts (normative, concept-only questions)"
-line_start: 100422
-line_end: 100444
+line_start: 106058
+line_end: 106080
 dependencies:
   - "A.10"
   - "A.15"
@@ -60,16 +60,16 @@ keywords:
 
 ### E.10:11 - E.10 conformance prompts *(normative, concept-only questions)*
 
-> Use only the prompt selected by the compact route. Do not answer all prompts for every wording repair; § 7 and § 8 retain their own exact conformance uses.
+> Use only the prompt selected by the compact route. Do not answer all prompts for every wording repair; § 7 and § 8 retain their distinct conformance uses.
 
 1. **Local-use prompt.** When *context* changes interpretation or the next action, has E.10.D1 recovered the exact source, scheme, scope, model-use structure, situation, frame, referent, or practice that matters?
 2. **EntityOfConcern and Description-episteme boundary and specification-use prompt.** Does each sentence use the correct boundary (the EntityOfConcern named directly; Description-episteme use for descriptions; specification use only where a direct gate pattern grants it; run: actuals)?
 3. **Token prompt.** For new or renamed tokens, is **`LEX.TokenClass`** declared and consistent with where the token appears?
-4. **Head-kind prompt.** Does the head noun name what the phrase is actually about—for example, a Method, Work, Characteristic, Capability, constraint claim, commitment, publication form, service-access relation, service-offer record, interpretation, local kind, `U.Transformation`, `TransformationFlowStructure`, authority use, source or practice boundary, or another exact object? If bare *role* is claim-bearing, use `E.10.ROLE`; a concrete `...SystemRole` compound is admissible only for an exact local system-role kind. A narrowing qualifier alone does not answer this question.
+4. **Head-kind prompt.** Does the head noun name what the phrase is about—for example, a Method, Work, Characteristic, Capability, constraint claim, commitment, publication form, service-access relation, service-offer record, interpretation, local kind, `U.Transformation`, `TransformationFlowStructure`, authority use, source or practice boundary, or another exact object? If bare *role* is claim-bearing, use `E.10.ROLE`; a concrete `...SystemRole` compound is admissible only for an exact local system-role kind. A narrowing qualifier alone does not answer this question.
 5. **Qualifier-claim prompt.** If an adjective, participle, genitive, or comparative modifier carries a claim being made, comparison criterion, relation, or admissible-use boundary, has that use been restored explicitly rather than left inside the modifier alone?
 6. **Relation and representation prompt.** Does the sentence state its ordinary relation and participants? If the distinction among an obtaining fact, reusable declaration, claim or report, and representation remains unresolved, use `E.10.ARCH`; if it is already clear, use the exact subject pattern without inventorying the other branches.
 7. **Support interpretation prompt.** Write the concrete relation first. Keep ordinary or quoted `support`; otherwise use the direct subject pattern, `A.6.P` only for an unclear predicate or participant, `A.6.RCD` only after both are clear but no current pattern supplies the rule, and `A.6.6` for basedness. Section `E.10:0.2c.18` carries the examples; do not recreate its alternatives in the repaired sentence.
-8. **Comparison-basis prompt.** Does the basis satisfy the comparison or condition rule actually used? Preserve the distinct relations or values when that rule combines them; require homogeneity where the rule needs it, after restoring the heads and qualifier claims.
+8. **Comparison-basis prompt.** Does the basis satisfy the comparison or condition rule used? Preserve the distinct relations or values when that rule combines them; require homogeneity where the rule needs it, after restoring the heads and qualifier claims.
 9. **Morphology prompt.** Do suffix, compound, prefix, and casing pass **LEX.Morph** gates (for example, concrete `…SystemRole` kind designations, `MethodDescription`, and `Work`), with no default bare-`Role` Tech reading?
 10. **Promise, ability, access, and performance split.** Are service promise or acceptance content, service-access relation, **Capability** (ability), and **Work** (performance) distinct and defined by their patterns?
 11. **Plan and execution split.** Are planning cues and `U.WorkPlan` kept separate from performed `U.Work`? For each actual performer, does A.13 supply the local kind and criterion, classification, same obtaining assignment, any scope, working situation and window required by the use, and adequate core evidence, with a profile only when conditionally consumed? Does A.15.1 then independently admit the Work from its performance history, Method, time, and containing System? When precise assignment-bound attribution is claimed, does F.6 separately relate that already admitted Work through the same assignment? Do affected-referent, binding, resource-use, assertion, and description claims remain separate?
@@ -77,7 +77,7 @@ keywords:
 13. **Bridge prompt.** When the text asserts an F.9 Bridge between local senses, are the exact cells identified and does that relation obtain under its applicable profile? When a receiving use is current, does a separate C.2.1 claim state the proposed action, use direction, correspondence rule, tolerated loss and polarity? Keep reliance, assurance and any performed action separate and open them only when current. Other relations between local senses use their own defining rule.
 14. **Collision prompt.** Were full-text and Reserved-Names checks completed, with no other meaning of this token anywhere in FPF?
 15. **Naming-procedure prompt.** If one durable reusable name is needed because no admissible existing token carries the needed meaning beyond one local repair, was the governed value settled first, was the applicable **F.8** decision recorded, and were the **F.18** NameCard and any required **F.17** public term row completed rather than picking a label by intuition or filling publication apparatus around an unresolved object?
-16. **Value-substitution prompt.** After the repair, can the declared reader still see the remaining admissible reader use, and did the repair preserve usability, affordability, semantic composability, fit with the rule governing the claim, and local action guidance? If not, narrow the repair, keep ordinary wording with a recovery note naming the recovered kind and use, or leave the issue blocking instead of optimizing for lexical purity.
+16. **Value-substitution prompt.** After the repair, can the declared reader tell what use remains admissible, and did the repair preserve usability, affordability, semantic composability, fit with the rule governing the claim, and local action guidance? If not, narrow the repair, keep ordinary wording with a recovery note naming the recovered kind and use, or leave the issue blocking instead of optimizing for lexical purity.
 
 **Working order for precision repair on FPF-governed prose.** Use the precision-before-coarsening rule in `F.19:4`; the selected lexical prompts here locate the unresolved head, qualifier, or comparison question.
 

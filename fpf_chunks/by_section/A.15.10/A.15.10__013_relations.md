@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.15.10"
-pattern_title: "Resume Interrupted Work"
+pattern_title: "Resume Work"
 section_id: "A.15.10:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.10/A.15.10__013_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.15.10 — Resume Interrupted Work"
+  - "A.15.10 — Resume Work"
   - "A.15.10:12 — Relations"
-line_start: 32623
-line_end: 32634
+line_start: 33961
+line_end: 33972
 dependencies:
   - "A.15"
   - "A.15.5"
@@ -29,7 +29,7 @@ keywords:
 
 ### A.15.10:12 - Relations
 
-- A.15.1 governs the identity and temporal extent of actual Work; a return does not settle occurrence identity by itself.
+- A.15.1 governs the identity and temporal extent of Work; a return does not settle occurrence identity by itself.
 - A.15.2 governs WorkPlan content. A return plan remains a plan until work is performed.
 - A.15.5 handles entry readiness; A.15.7 selects a next action once the working basis is available.
 - A.15.8 tests and repairs configuration and recovery dependencies when that question is current.

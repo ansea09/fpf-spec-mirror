@@ -6,12 +6,12 @@ section_id: "E.22:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.22/E.22__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.22 — Improvement-Oriented Quality Evaluation Question Framing"
   - "E.22:7 — Conformance checklist"
-line_start: 114688
-line_end: 114704
+line_start: 121951
+line_end: 121967
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -36,12 +36,12 @@ keywords:
 | `CC-E22-2` | State purpose, declared floor or improvement aim, protected trade-offs, qualification window, and expected result form. |
 | `CC-E22-3` | Keep the object-under-improvement evaluation as the source of values and the coordinate set to be evaluated. A description, dashboard, or frame cannot substitute for the selected space, predicate/comparator, actual evaluation, or result. |
 | `CC-E22-4` | Represent actionable returned work as typed finding or `CandidateImprovementProposalRow@Context` values with expected substantive evaluation effect, closure test, and the conditionally present `KindRestorationCheck`. An outside claim cites its subject pattern; E.22 frames the improvement question and does not restate that ontology. |
-| `CC-E22-5` | For absorption, report quality impact on the changed object, not only applied and not-applied dispositions. |
-| `CC-E22-6` | State a compact declarative non-use boundary only when an independently grounded reading by a plausible intended reader would turn the result into a different claim or authority. Keep the result on the evaluation question and name only the specific outside claim plus the pattern that defines or constrains it when one is needed; precision-restoration or phrase-apparatus issues belong to the named evaluation profile and `F.19`, not to a local boundary catalogue. |
+| `CC-E22-5` | For absorption, report how the changes affected the quality of the object. Applied and not-applied dispositions alone do not establish that effect. |
+| `CC-E22-6` | State a compact declarative non-use boundary only when an independently grounded reading by a plausible intended reader would turn the result into a different claim or authority. Keep the result on the evaluation question and name only the outside claim and the pattern that defines or constrains it when one is needed. Use the named evaluation profile and `F.19` for precision-restoration or phrase-apparatus issues; they do not need a local boundary catalogue. |
 | `CC-E22-7` | State what became worse when a proposed or applied improvement raises visible values. |
 | `CC-E22-8` | Use `E.23` for repeated improvement after one framed evaluation returns findings or proposals. |
-| `CC-E22-8a` | Do not frame `5`, all-`5`, or `5-defensible` as the work target. Frame below-floor repair separately from optional exceptional-improvement proposals. The optional proposal target is substantive content change, not score proof; allow checked `no proposal` or `stay at current value` only when further change would be dominated by apparatus growth, proof theatre, or protected-quality loss. |
+| `CC-E22-8a` | Do not frame `5`, all-`5`, or `5-defensible` as the work target. Frame below-floor repair separately from optional exceptional-improvement proposals. An optional proposal must identify a substantive content change. Allow checked `no proposal` or `stay at current value` only when further change would be dominated by apparatus growth, proof theatre, or protected-quality loss. |
 | `CC-E22-9` | Preserve the object-under-improvement evaluation's required scope, evidence basis, complete coordinate set, rationales, and result form. For an E.21 result, include its compact `PrecisionRestorationProfile` under E.21:4.3a; checked evidence and coordinate-specific payloads retain their governing requirements. |
-| `CC-E22-10` | Keep the question frame separate from actual evaluation. An evaluator condition appears in the use declaration only when it changes the question or result admissibility; an intended evaluator identity appears only when identity is itself declared. For actual dated Work, recover the evaluator through A.13 and admit the Work independently through A.15.1. The obtaining A.13 assignment remains part of the actual performer's admission grounds. Add separate assignment and F.6 refs when the account expressly represents precise assignment-bound attribution; missing or failed F.6 alone does not revoke independently admitted Work. Recheck shared admission premises as specified in section 4.1. Keep the application, result relation, result episteme, pattern locator, Method, any independently admitted method description, quality model, evidence-basis and result-form descriptions, evidence use, and result-consuming work or decision distinct. |
+| `CC-E22-10` | Keep the question frame separate from actual evaluation. An evaluator condition appears in the use declaration only when it changes the question or result admissibility. An intended evaluator identity appears only when that identity is declared. For actual dated Work, recover the evaluator through A.13 and admit the Work independently through A.15.1. The obtaining A.13 assignment remains part of the actual performer's admission grounds. Add separate assignment and F.6 refs when the account expressly represents precise assignment-bound attribution. Missing or failed F.6 alone does not revoke independently admitted Work. Recheck shared admission premises as specified in section 4.1. Keep the application, result relation, result episteme, pattern locator, Method, any independently admitted method description, quality model, evidence-basis and result-form descriptions, evidence use, and result-consuming work or decision distinct. |
 | `CC-E22-11` | A low value, finding, failed floor, or improvement aim does not establish an actual Problem. Any actual Problem relied on by the consuming use resolves to one current C.22.PFR occurrence with its direct participants and temporal identity. |
 

@@ -6,12 +6,12 @@ section_id: "E.9.DA:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9.DA/E.9.DA__010_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.9.DA — Evaluate a DRR for Its Declared Authoring Use (Decision-Adequacy CharacteristicSpace)"
   - "E.9.DA:9 — Consequences"
-line_start: 98901
-line_end: 98910
+line_start: 104445
+line_end: 104454
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -33,5 +33,5 @@ keywords:
 | Architecture selection becomes visible. | By-value but wrong split or merge choices no longer pass as complete distribution. | Some DRRs need architecture repair before drafting. |
 | Source mutation is explicit. | SoTA, standards, reviews, audits, and accepted decisions shape decisions rather than decorate them. | Rationale-only sources cannot raise values. |
 | The effective floor and required use are reproducible. | Two evaluators can derive the same status without choosing an easier frame after seeing evidence. | The invoking use or E.9.DA default must be named, and every below-floor required coordinate remains noncompensatory. |
-| One bounded search tests the DRR's frame before coordinate closure. | The reviewer can identify an omitted question that changes the answer. | The evaluator must inspect problem, practice, sources, alternative, failure/recovery, and true consumers far enough to answer that one question. |
+| One bounded search tests the DRR's frame before coordinate closure. | The reviewer can identify an omitted question that changes the answer. | To answer that question, the evaluator must inspect the problem, practice, sources, alternative, failure and recovery cases, and the consumers that depend on the decision. Limit the search to what the answer requires. |
 

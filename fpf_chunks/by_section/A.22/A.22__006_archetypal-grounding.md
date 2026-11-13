@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.22"
-pattern_title: "Structure and Structural Views (STRUCT-CAL)"
+pattern_title: "Structure and Structural Views"
 section_id: "A.22:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__006_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.22 — Structure and Structural Views (STRUCT-CAL)"
+  - "A.22 — Structure and Structural Views"
   - "A.22:5 — Archetypal Grounding"
-line_start: 40518
-line_end: 40525
+line_start: 42126
+line_end: 42133
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -71,7 +71,7 @@ keywords:
 
 | Tell-Show-Show row | Grounding |
 | --- | --- |
-| Tell | A practitioner sees an arrangement that matters but does not yet know whether it is a diagram, a model, a graph, an architecture claim, a source description, base-dependence relation, evidence relation, lens relation, or decision. A.22 asks first: which exact constituents and obtaining relations are selected, under which applied constraints and named use frame, and what loss changes the next action? |
+| Tell | A practitioner sees an arrangement that matters but does not yet know whether it is a diagram, a model, a graph, an architecture claim, a source description, base-dependence relation, evidence relation, lens relation, or decision. A.22 asks first: which constituents and obtaining relations are selected, under which applied constraints and named use frame, and what loss changes the next action? |
 | Show: `U.System` | In a plant, vehicle, software system, or neural-network model, the selected structure may be transformation-flow, control, module-interface structure, placement, information, scale, or declared logical structure. The structure record does not become the system and does not prove that the system is safe, maintainable, or ready. |
 | Show: `U.Episteme` | A paper, model, generated relation graph, dashboard, architecture note, or mathematical-lens output may describe or present a description of selected structure. A selected-structure claim may rely on that description through a source-description relation or an A.6.6 base-dependence relation. The episteme, view, and publication remain separate from the structure and from each relied-on relation; name that relation and any validation boundary required by its definition or intended use; add a structure-use return condition when §4.5 requires it. |
 

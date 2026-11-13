@@ -6,12 +6,12 @@ section_id: "B.1.2:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.2/B.1.2__004_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.1.2 — Coordinate Decisions About System Aggregation and Delimitation"
   - "B.1.2:2 — Problem"
-line_start: 41470
-line_end: 41480
+line_start: 43082
+line_end: 43092
 dependencies:
   - "A.1"
   - "A.10"
@@ -47,5 +47,5 @@ When these distinctions are missed:
 3. **Functional and physical structures collapse.** A resistor symbol, control function, chassis function, or service label is treated as a physical component by name alone.
 4. **Whole-level characteristics lack grounding.** Mass, capacity, reliability, safety, throughput, assurance, or agency-like characteristics are rolled up without saying which bearers, relations, and scales support the claim.
 5. **Transformation becomes containment.** A tool, teacher, actuator, script, or controller changes a holon and is then treated as its part or containing whole.
-6. **Coordination record becomes ontology.** One aggregate-shaped record silently creates systemhood, parts, boundary, crossings, allocation, evidence, and representation instead of pointing to independently governed facts.
+6. **Coordination record becomes ontology.** One aggregate-shaped record creates systemhood, parts, boundary, crossings, allocation, evidence, and representation instead of pointing to independently governed facts.
 

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.6"
-pattern_title: "Base Declaration Discipline: Say Exactly What Something Depends On"
+pattern_title: "Base Declaration Discipline: Say What Something Depends On"
 section_id: "A.6.6:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__012_sota-echoing.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.6.6 — Base Declaration Discipline: Say Exactly What Something Depends On"
+  - "A.6.6 — Base Declaration Discipline: Say What Something Depends On"
   - "A.6.6:11 — SoTA-Echoing"
-line_start: 24004
-line_end: 24025
+line_start: 24925
+line_end: 24946
 dependencies:
   - "A.10"
   - "A.14"
@@ -46,7 +46,7 @@ keywords:
    *Primary sources:* [Hartig and Thompson, *Foundations of an Alternative Approach to Reification in RDF* (first submitted 2014)](https://arxiv.org/abs/1406.3399), retained as history and marked obsolete by its authors; [RDF 1.2 Concepts and Abstract Data Model, Candidate Recommendation Snapshot, 7 April 2026](https://www.w3.org/TR/2026/CR-rdf12-concepts-20260407/).
 
 2. **Wikidata-style statements with qualifiers and references.**
-   **Adopt/Adapt.** Wikidata statements separate a core statement from optional qualifiers and references. We adopt that separation and adapt it by making decision-relevant basis requirements explicit through exact evidence-use relations, with slots only for a genuinely reused declaration, and explicit scope/time where the assertion or time-dependent use needs them.
+   **Adopt/Adapt.** Wikidata statements separate a core statement from optional qualifiers and references. We adopt that separation and adapt it by making decision-relevant basis requirements explicit through evidence-use relations, with slots only for a reused declaration, and explicit scope/time where the assertion or time-dependent use needs them.
    *Primary source:* [Wikidata, Help:Statements](https://www.wikidata.org/wiki/Help:Statements).
 
 3. **Metrology traceability and calibration competence.**
@@ -57,7 +57,7 @@ keywords:
    **Adopt/Adapt.** SACM formalises claim/evidence structures and emphasises structured support relations. We adopt the idea that decision-relevant admissibility links should be explicit, and adapt it by using FPF’s scope/time discipline and by treating relation-kind elision as a first-order defect.
    *Primary source:* [OMG Structured Assurance Case Metamodel (SACM), version 2.3, October 2023](https://www.omg.org/spec/SACM/2.3).
 
-5. **Objects over a base as a stable mathematical lens.**
+5. **Objects over a base as a mathematical lens.**
    **Adopt/Adapt.** Category-theory treatments of objects over a base, including slice categories, offer a mathematical way to compare an X-relative-to-B construction. Use that lens only when the selected mathematical construction and its correspondence to the direct domain relation are established under C.29. It supplies no universal obtaining predicate, scope, time or witness rule for calibration, evidence, attribution and the other distinct domain relations.
    *Primary source:* Riehl, *Category Theory in Context* (2016).
 

@@ -6,12 +6,12 @@ section_id: "G.12:5"
 section_title: "Interfaces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.12/G.12__007_interfaces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.12 — DHC Dashboards (Discipline-Health Time Series and Views)"
   - "G.12:5 — Interfaces"
-line_start: 132754
-line_end: 132764
+line_start: 140874
+line_end: 140884
 dependencies:
   - "A.19"
   - "A.2.6"
@@ -58,5 +58,5 @@ keywords:
 | `Render_DHCView` | exact result or series refs, view specification, annotations | `DHCRow[]` and/or `DashboardSlice` representations |
 | `Publish_DHCView` | exact selected episteme edition (series, coordinate result, or independently constituted view episteme), dashboard form, and E.24.PUB audience, bounded use, carrier, and interval | obtaining publication relation for that edition when its predicate holds |
 | `Emit_DHCTelemetry` | exact changed definition, window, evidence, crossing, or policy pin and affected slice | G.11-facing telemetry payload |
-| optional panel interfaces | the corresponding extension's exact values | only that panel's representation and conditional refresh pins |
+| optional panel interfaces | the values specified by the corresponding extension | only that panel's representation and conditional refresh pins |
 

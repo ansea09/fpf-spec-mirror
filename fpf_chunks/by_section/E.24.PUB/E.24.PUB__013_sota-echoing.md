@@ -6,12 +6,12 @@ section_id: "E.24.PUB:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__013_sota-echoing.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.24.PUB — Episteme Publication: Availability, Form and Carrier"
   - "E.24.PUB:11 — SoTA-Echoing"
-line_start: 117230
-line_end: 117260
+line_start: 124745
+line_end: 124777
 dependencies:
   - "A.6.3"
   - "A.6.3.RT"
@@ -49,7 +49,7 @@ The practical question is what an audience can obtain for a stated use, and whic
 
 For form-mediated availability, one and the same X must satisfy expression, bearing and form conformance. An adequate expression elsewhere and a different conforming expression on C do not establish that C makes E available. This shared witness is the binding that the two separate existential support claims leave open.
 
-A change of exact X or C creates another exact publication occurrence. Broader availability can nevertheless continue while at least one permitted expression and carrier remains available at every time in the stated interval. Keep any form or carrier restriction that the receiving use actually requires. A failure of one copy establishes a broader gap only if all permitted alternatives fail.
+When publication obtains with a different X or C, it is another exact occurrence. Broader availability can nevertheless continue while at least one permitted expression and carrier remains available at every time in the stated interval. Keep any form or carrier restriction that the receiving use requires. A failure of one copy establishes a broader gap only if all permitted alternatives fail.
 
 The cost of the exact comparison is selecting the expression domain and equality, carrier identity, and relevant time interval before comparing publications. A continuing managed file and an immutable snapshot answer different identity questions. For ordinary use, the readable publication sentence suffices; recover this detail when its alternatives can change the answer.
 
@@ -63,7 +63,9 @@ The following bounded comparisons support those choices. Their source models ret
 | [Fathallah et al. 2026, v2 of 26 July](https://arxiv.org/abs/2506.01232v2), author abstract: RIGOR starts from relational schemas and enriches them with domain information to construct OWL ontologies. | The expression test retains the interpreted claims; section 4.2 permits a schema or table migration to change X or C while E is preserved. Mapping or serialization alone is not treated as full recovery of domain meaning. |
 | [Oyewale and Soru 2026](https://arxiv.org/abs/2602.01276v1), author abstract: ontology construction separates extraction, hierarchy formation and RDF serialization, with reported limitations in scope and hierarchy. | Sections 4.4–4.5 and CC-E24PUB-8 keep construction and its epistemic adequacy separate from publication availability. Export success supplies no missing adequacy judgement. |
 
-The abstracts supply these bounded problem comparisons, not a validated performance ranking or the five-participant FPF predicate. A.6.REL supplies the direct-relation and occurrence rules; C.2.1 supplies episteme identity. A.6.3, C.29, E.17 and E.24.UK retain their construction, mathematical-representation, view-membership and admission questions. Their combination here is the FPF construction justified by the publication questions above.
+The abstracts supply these bounded problem comparisons, not a validated performance ranking or the five-participant FPF predicate.
+
+A.6.REL supplies the direct-relation and occurrence rules; C.2.1 supplies episteme identity. A.6.3, C.29, E.17 and E.24.UK retain their construction, mathematical-representation, view-membership and admission questions. Their combination here is the FPF construction justified by the publication questions above.
 
 Reopen the choice when a real receiving use cannot distinguish the provided content under the declared identities, or when the broader-availability rule reports a gap despite continuous availability through its permitted alternatives. Reopen a source comparison when a newer result changes the distinction it supports. A different file format or storage tool alone supplies neither counterexample.
 

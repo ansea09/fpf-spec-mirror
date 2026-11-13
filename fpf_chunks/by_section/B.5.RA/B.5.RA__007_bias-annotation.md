@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.5.RA"
-pattern_title: "Recover an Argument for Its Next Use"
+pattern_title: "Recover an Argument for Use"
 section_id: "B.5.RA:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.RA/B.5.RA__007_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "B.5.RA — Recover an Argument for Its Next Use"
+  - "B.5.RA — Recover an Argument for Use"
   - "B.5.RA:6 — Bias-Annotation"
-line_start: 48188
-line_end: 48195
+line_start: 50204
+line_end: 50211
 dependencies:
   - "B.5"
   - "B.5.MPC"
@@ -25,9 +25,9 @@ keywords:
 
 ### B.5.RA:6 - Bias-Annotation
 
-A familiar scheme label can make a reader force the text into its expected premises. A fluent paraphrase can quietly turn a condition into a fact or a tentative report into certainty. Return the proposed structure to the source and the question being answered, especially when the map looks stronger than the passage.
+A familiar scheme label can make a reader force the text into its expected premises. A fluent paraphrase can turn a condition into a fact or a tentative report into certainty. Return the proposed structure to the source and the question being answered, especially when the map looks stronger than the passage.
 
 Familiar vocabulary and a correct-looking calculation can create confidence before the reasoning has been recovered. Conversely, checking every line can consume attention while leaving the role of a lemma unexplained. Use the local transition and the main reason together.
 
-AI-generated formal proofs make the distinction consequential: a checked formal derivation supplies a result under its formal definitions, while the intended statement and the explanatory structure needed for reuse may still need recovery. The relevant comparison is the one that can change the contemplated use.
+AI-generated formal proofs make the distinction consequential: a checked formal derivation supplies a result under its definitions, while the intended statement and the explanatory structure needed for reuse may need recovery. The relevant comparison is the one that can change the contemplated use.
 

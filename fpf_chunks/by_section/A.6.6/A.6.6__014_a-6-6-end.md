@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.6"
-pattern_title: "Base Declaration Discipline: Say Exactly What Something Depends On"
+pattern_title: "Base Declaration Discipline: Say What Something Depends On"
 section_id: "A.6.6:End"
 section_title: "A.6.6:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__014_a-6-6-end.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.6.6 — Base Declaration Discipline: Say Exactly What Something Depends On"
+  - "A.6.6 — Base Declaration Discipline: Say What Something Depends On"
   - "A.6.6:End — A.6.6:End"
-line_start: 24050
-line_end: 24051
+line_start: 24971
+line_end: 24972
 dependencies:
   - "A.10"
   - "A.14"

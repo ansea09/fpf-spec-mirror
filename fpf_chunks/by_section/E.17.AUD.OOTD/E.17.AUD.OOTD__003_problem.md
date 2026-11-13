@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.17.AUD.OOTD"
-pattern_title: "PublicationUnit Stability Discipline and PublicationUnit Primary-Subject Discipline - publication-unit stability over one primary subject"
+pattern_title: "Clarify the Primary Subject of a Publication Unit (PublicationUnit Primary-Subject Discipline)"
 section_id: "E.17.AUD.OOTD:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.OOTD/E.17.AUD.OOTD__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "E.17.AUD.OOTD — PublicationUnit Stability Discipline and PublicationUnit Primary-Subject Discipline - publication-unit stability over one primary subject"
+  - "E.17.AUD.OOTD — Clarify the Primary Subject of a Publication Unit (PublicationUnit Primary-Subject Discipline)"
   - "E.17.AUD.OOTD:2 — Problem"
-line_start: 109879
-line_end: 109887
+line_start: 116632
+line_end: 116640
 dependencies:
   - "A.10"
   - "A.15"
@@ -46,5 +46,5 @@ Without a named publication-unit discipline:
 2. reviewers argue about wording while missing that the unit has already shifted subject, concern, claim, communicative move, or downstream use;
 3. teams quietly read one note as if it licensed a downstream use the unit never declared;
 4. local lexical discipline (`A.6.P`, `E.10`, `F.18`) gets blamed for publication-unit interpretation instability it was never meant to solve alone;
-5. unit-form confusion is mistaken for view, face, carrier, or publication architecture even when the immediate problem is simpler and closer.
+5. unit-form confusion is mistaken for view, face, carrier, or publication architecture even when the immediate problem is how to read the unit.
 

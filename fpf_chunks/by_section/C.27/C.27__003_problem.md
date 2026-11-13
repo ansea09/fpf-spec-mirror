@@ -6,12 +6,12 @@ section_id: "C.27:1"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Change"
   - "C.27:1 — Problem"
-line_start: 67002
-line_end: 67023
+line_start: 70056
+line_end: 70077
 dependencies:
   - "A.10"
   - "A.3.3"
@@ -59,8 +59,8 @@ Typical consequences include:
 - a past slope is used as a future control law;
 - visible throughput rises while hidden queues, rework, quality loss, service demand, or burnout worsen;
 - a local rate change is projected across scale without an aggregation relation or bearer continuity;
-- rhythm becomes a mood word with no exact bearer, temporal reference, window, or supported use;
-- a planning assumption is laundered into causal proof, benchmark superiority, a release gate, public promise, or assurance claim;
+- rhythm is used without an identified bearer, temporal reference, window, or supported use;
+- a planning assumption substitutes for the grounds needed for causal proof, benchmark superiority, a release gate, a public promise, or an assurance claim;
 - more reviewers, data, tokens, tool calls, model capacity, or parallelism is assumed to produce linear improvement;
 - slowing, braking, pausing, or recovery is treated as failure merely because speed is the implicit value;
 - probe, frame, token, dashboard, or active-sensing language activates QL before ordinary patterns have carried their questions.

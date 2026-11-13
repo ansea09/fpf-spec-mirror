@@ -6,12 +6,12 @@ section_id: "C.43:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.43/C.43__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.43 — Connect Observation, Choice and Action in Control"
   - "C.43:2 — Problem"
-line_start: 90305
-line_end: 90312
+line_start: 94687
+line_end: 94694
 dependencies:
   - "A.12"
   - "C.11"
@@ -29,5 +29,5 @@ Useful answers are often developed separately. One account estimates the situati
 
 The difficulty is not resolved by arranging their titles in a cycle. The practitioner needs to know why one answer is usable by the next, what to do when they disagree, and which earlier conclusion a new observation changes. Otherwise a repeated cycle can reproduce an unsuitable action, and an accurate local calculation can support an infeasible whole.
 
-The same missing connections obstruct explanation. A report of a response does not reveal which information determined it; a stated rule does not establish that the corresponding action occurred; and different mechanisms can produce the same observed trajectory. The investigator needs to derive how a proposed observation-to-action relation produces its consequence and which changed condition would distinguish it from a serious alternative. The resulting conclusion concerns what the arrangement does. Whether to retain or change it additionally depends on the intended outcome and available means.
+The same missing connections obstruct explanation. A report of a response does not reveal which information determined it; a stated rule does not establish that the corresponding action occurred; and different mechanisms can produce the same observed trajectory. The investigator needs to derive how a proposed observation-to-action relation produces its consequence and which changed condition would distinguish it from an alternative. The resulting conclusion concerns what the arrangement does. Whether to retain or change it additionally depends on the intended outcome and available means.
 

@@ -6,12 +6,12 @@ section_id: "G.3:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.3/G.3__011_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.3 — CHR Authoring for a CG‑Frame: Characteristics, Scales, Levels, Coordinates"
   - "G.3:10 — Rationale"
-line_start: 128632
-line_end: 128637
+line_start: 136683
+line_end: 136688
 dependencies:
   - "A.10"
   - "A.15.2"
@@ -62,5 +62,5 @@ keywords:
 
 CHR authoring states which measurements and operations downstream reasoning may use. By making scale/unit/polarity explicit, publishing legality and guard surfaces, and requiring provenance pins, CHR authoring prevents downstream mechanisms from silently inventing their own legality assumptions.
 
-Separating core invariants into `G.Core` prevents drift and ensures Part‑G‑wide properties (tri‑state, penalty routing, set‑return semantics, RSCR typing, Default Governing Definition Index) cite `G.Core` as their governing definition, while CHR remains responsible for CHR‑specific kit surfaces.
+Using shared rules from `G.Core` keeps tri-state guards, penalty routing, set-return semantics and RSCR trigger kinds consistent across Part G. Its default index points to the pattern that defines each default. CHR defines the frame’s measurement kit.
 

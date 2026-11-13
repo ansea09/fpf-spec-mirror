@@ -6,12 +6,12 @@ section_id: "A.19.SPR:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SPR/A.19.SPR__003_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.19.SPR — Repair State and Status Wording"
   - "A.19.SPR:1 — Problem frame"
-line_start: 35301
-line_end: 35308
+line_start: 36803
+line_end: 36810
 dependencies:
   - "A.10"
   - "A.16"
@@ -47,7 +47,7 @@ keywords:
 
 FPF needs compact state words. Engineers reasonably say that a pump is stable, a source is current, an evidence path is incomplete, an assurance claim has expired, or an intended performance is ready for work entry.
 
-The words work when the reader can recover the item, the actual claim or value, and the rule behind it. Trouble begins when the word replaces those facts. “Ready” may mean a patient condition, an assignment satisfying a condition, an A.15.5 work-entry result, an A.21 gate decision, or merely a green display. Those are different claims.
+The words work when the reader can recover the item, the claim or value, and the rule behind it. Trouble begins when the word replaces those facts. “Ready” may mean a patient condition, an assignment satisfying a condition, an A.15.5 work-entry result, an A.21 gate decision, or merely a green display. Those are different claims.
 
 A repaired sentence may therefore name an ordinary domain condition, an obtaining relation, an assertion episteme, an evaluation result, a decision result, or a project-side record field. It introduces a predicate only when the rule for that claim defines or needs one.
 

@@ -6,12 +6,12 @@ section_id: "F.5:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__003_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.5 — Name U-kinds, Local System-Role Kinds and SystemRoleKindDescriptions"
   - "F.5:1 — Problem Frame"
-line_start: 119888
-line_end: 119899
+line_start: 127501
+line_end: 127512
 dependencies:
   - "A.10"
   - "A.15"
@@ -61,5 +61,5 @@ First, a public U-kind gets a name only after E.24.UK admits the exact value. An
 
 Second, one concrete local system-role kind receives a `...SystemRole` designation after A.2 and C.3 settle its candidate domain, operative membership condition, intended member/non-member boundary, and continuity rule. A practice or source reference may help readers find or compare that settlement; it does not identify the kind. `SystemRole` is common morphology, not a universal kind. An F.4 description episteme is another object and may receive a separate `...SystemRoleKindDescription` name. Neither label creates the kind, description, classification, or assignment.
 
-The tempting shortcut is to make system-role descriptions cover statuses and episteme uses because all need labels. That convenience creates duplicate ontology. Another governed value—for example, a status, evidence use, permission, or publication—may need a name; none becomes a system-role kind because it is named.
+Using system-role descriptions for statuses and episteme uses can seem convenient because all need labels. Treating these uses as system-role kinds creates duplicate ontology. Another governed value—for example, a status, evidence use, permission, or publication—may need a name; none becomes a system-role kind because it is named.
 

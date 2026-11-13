@@ -6,12 +6,12 @@ section_id: "E.18.3:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.3/E.18.3__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.18.3 — Constraint-Governed Transformation-Flow Unfolding Structure"
   - "E.18.3:intro — Intro"
-line_start: 111683
-line_end: 111688
+line_start: 118667
+line_end: 118672
 dependencies:
   - "A.10"
   - "A.15"
@@ -43,5 +43,5 @@ keywords:
 
 > **Type:** E.18 transformation-flow specialization of `A.22.CGUS`
 > **Status:** Stable
-> **Normativity:** Normative unless explicitly marked informative
+> **Normativity:** Normative unless marked informative
 

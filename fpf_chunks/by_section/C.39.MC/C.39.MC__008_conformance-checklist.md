@@ -6,12 +6,12 @@ section_id: "C.39.MC:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.MC/C.39.MC__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.39.MC — Continue Method Development from Changed Conditions"
   - "C.39.MC:7 — Conformance Checklist"
-line_start: 84692
-line_end: 84701
+line_start: 88913
+line_end: 88922
 dependencies:
   - "A.15.7"
   - "A.22.CGUS"
@@ -24,11 +24,11 @@ keywords:
 
 ### C.39.MC:7 - Conformance Checklist
 
-- The current question is about a Method, its relations, or its description; a sufficient direct result is used without a profile wrapper.
+- The current question is about a Method, its relations, or its description; a sufficient result is used without a profile wrapper.
 - The next needed result and its supplying pattern are explicit; established, proposed, contradicted, and unresolved claims retain their statuses.
-- Every exposed continuation has a relevant condition and current basis, or an honest missing fact.
+- Every exposed continuation has a relevant condition and current basis, or a missing fact.
 - During ongoing Work, A.15.7 supplies the action choice; the chooser, intended performer, and any material authority/access/capability relation remain distinguishable.
 - A substantive change reopens its affected Method-development result and dependent uses; unaffectedness is checked against the retained basis.
-- Formal CGUS, persistent results, and Work claims are opened only for a use that needs them and satisfy their own direct rules.
+- Formal CGUS, persistent results, and Work claims are opened only for a use that needs them and satisfy their rules.
 - The answer states the first useful result or blocker and the next stop or return, without treating reader order as Work order.
 

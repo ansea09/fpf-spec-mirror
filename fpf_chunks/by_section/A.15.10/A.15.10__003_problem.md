@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.15.10"
-pattern_title: "Resume Interrupted Work"
+pattern_title: "Resume Work"
 section_id: "A.15.10:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.10/A.15.10__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.15.10 — Resume Interrupted Work"
+  - "A.15.10 — Resume Work"
   - "A.15.10:2 — Problem"
-line_start: 32456
-line_end: 32463
+line_start: 33778
+line_end: 33785
 dependencies:
   - "A.15"
   - "A.15.5"
@@ -29,9 +29,9 @@ keywords:
 
 ### A.15.10:2 - Problem
 
-A bookmark can retain the paragraph while losing the question that made it worth reading. A task list can retain the next item while losing the rule for completing it. A colleague can receive a polished conclusion without the condition that limits its use.
+A bookmark can retain the paragraph while losing the question that made it worth reading. A task list can retain the next item while losing the rule for completing it. A colleague can receive a conclusion without the condition that limits its use.
 
-Consequently, a practitioner may restart everything, repeat finished work or confidently continue a different task. Requiring a detailed account at every pause creates another failure: preparation and record keeping consume more effort than the interruption would have cost.
+Consequently, a practitioner may restart everything, repeat finished work or continue a different task. Requiring a detailed account at every pause creates another failure: preparation and record keeping consume more effort than the interruption would have cost.
 
 The practical question is how to retain or recover enough meaning to continue the work, without turning every switch of attention into a reporting procedure.
 

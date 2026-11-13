@@ -6,18 +6,17 @@ section_id: "C.18.1:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18.1/C.18.1__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.18.1 — Scaling‑Law Lens Binding (SLL)"
   - "C.18.1:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 61396
-line_end: 61399
+line_start: 63847
+line_end: 63850
 dependencies:
   - "C.16"
   - "C.17"
   - "C.18"
   - "C.19"
-  - "C.24"
   - "G.10"
   - "G.5"
   - "G.9"

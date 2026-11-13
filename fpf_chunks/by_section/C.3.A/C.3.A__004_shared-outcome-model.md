@@ -6,12 +6,12 @@ section_id: "C.3.A:3"
 section_title: "Shared outcome model"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.A/C.3.A__004_shared-outcome-model.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.3.A — Typed Guard Macros for Kinds + USM (Annex)"
   - "C.3.A:3 — Shared outcome model"
-line_start: 56238
-line_end: 56249
+line_start: 58542
+line_end: 58557
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -36,10 +36,14 @@ keywords:
 All guards obey these invariants.
 
 1. **Exact declarations.** A kind designator never substitutes for the exact `KindSignature` edition needed by the use.
-2. **Candidate only when current.** A universally quantified claim or proof can be checked for declaration compatibility without inventing a wildcard candidate. Actual application, test attachment, capability input/output use, or other candidate-bearing action pins the candidate, checks admissibility, and evaluates the four-input judgment only for an admissible request.
+2. **Candidate check for candidate-bearing use.** A universally quantified claim or proof can be checked for declaration compatibility without a wildcard candidate. Actual application, test attachment, capability input/output use, or other candidate-bearing action pins the candidate, checks admissibility, and evaluates the four-input judgment only for an admissible request.
 3. **Admissibility, then three classification values.** Check candidate and slice admissibility under the pinned declarations before any C.3.2 or C.3.4 judgment below. An inadmissible request gives `not-applicable`; no judgment is formed. For admissible inputs, `true` means the criterion is known to hold; `false` means it is known to fail; `unknown` means the evaluation cannot settle because evidence or a declared dependency is unavailable.
 4. **Separate guard disposition.** A guard returns an action disposition such as allow or refuse. An inadmissible request causes refusal without a classification judgment. Both `false` and `unknown` normally cause fail-closed refusal, but the guard MUST preserve which classification value it consumed.
-5. **Scope separation.** Scope coverage is a USM predicate over a named slice. It does not classify the candidate or repair kind compatibility. Scope translation enters only when exact local senses require it under A.2.6; a changed locality or scheme alone does not trigger it. The Scope Bridge shorthand below denotes the obtaining F.9 Bridge, while a separate affirmative C.2.1 claim states this translation's direction, rule, and permitted loss. Reliance uses the current A.10 disposition or, when a named assurance claim is current, a B.3 result supporting this same use.
-6. **Bridge separation.** An obtaining KindBridge relation connects exact, independently identified distinct source and target kinds when its directional correspondence predicate holds under C.3.3. Its separate bridge assertion supplies mapping, loss, evidence, definedness, admitted use, and any `CL^k` required by the consumed assurance or calibration account; neither object creates a target kind, signature, or judgment. A locality change alone supplies no such relation. Same-kind reuse selects the receiving declaration edition and, when a candidate is current, a fresh receiving judgment.
+5. **Scope separation.** Scope coverage is a USM predicate over a named slice. It does not classify the candidate or repair kind compatibility. Scope translation enters only when exact local senses require it under A.2.6; a changed locality or scheme alone does not trigger it.
+
+   The Scope Bridge shorthand below denotes the obtaining F.9 Bridge, while a separate affirmative C.2.1 claim states this translation's direction, rule, and permitted loss. Reliance uses the current A.10 disposition or, when a named assurance claim is current, a B.3 result supporting this same use.
+6. **Bridge separation.** An obtaining KindBridge relation connects exact, independently identified distinct source and target kinds when its directional correspondence predicate holds under C.3.3. Its separate bridge assertion supplies mapping, loss, evidence, definedness, admitted use, and any `CL^k` required by the consumed assurance or calibration account; neither object creates a target kind, signature, or judgment.
+
+   A locality change alone supplies no such relation. Same-kind reuse selects the receiving declaration edition and, when the receiving use is candidate-bearing, a fresh receiving judgment.
 7. **R-only consequences.** Justified scope- and kind-bridge consequences affect R only. They do not change F, G, or classification truth.
 

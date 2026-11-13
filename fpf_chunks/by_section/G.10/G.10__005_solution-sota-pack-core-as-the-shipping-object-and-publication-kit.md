@@ -6,12 +6,12 @@ section_id: "G.10:4"
 section_title: "Solution — SoTA‑Pack(Core) as the shipping object and publication kit"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.10/G.10__005_solution-sota-pack-core-as-the-shipping-object-and-publication-kit.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.10 — SoTA Pack Shipping"
   - "G.10:4 — Solution — SoTA‑Pack(Core) as the shipping object and publication kit"
-line_start: 131711
-line_end: 132000
+line_start: 139798
+line_end: 140081
 dependencies:
   - "A.10"
   - "A.15.3"
@@ -55,56 +55,41 @@ keywords:
 
 ### G.10:4 - Solution — `SoTA‑Pack(Core)` as the shipping object and publication kit
 
-`G.10` defines a **pack-governed** shipping surface: a notation‑independent object that **cites** all upstream artefacts by stable ids/refs and exposes the minimum pins required to (a) consume the result via selection, (b) audit it via path citations and crossing bundles, and (c) refresh it via typed RSCR triggers.
+A `SoTA‑Pack(Core)` cites each upstream artefact it includes by stable ID or reference. The pack is independent of notation. It supplies the minimum pins its receiving uses need for selection, audit or refresh. These include applicable path citations and crossing bundles for audit and typed RSCR triggers for refresh.
 
 #### G.10:4.1 - G.Core linkage (normative)
 
 **Builds on:** `G.Core` (Part‑G core invariants; Default Governing Definition Index citation)
 
 **GCoreLinkageManifest (G.10)** *(normative; expands per `G.Core:4.2`; `Nil‑elision` applies)*
-Effective obligations/pins/triggers are computed as **union(expand(sets), explicit deltas)** under `Nil‑elision`.
+Under `Nil‑elision`, compute the effective obligations, pins and triggers as `union(expand(sets), explicit deltas)`.
 
-* `CoreConformanceProfileIds` := {
-  `GCoreConformanceProfileId.PartG.AuthoringBase`,
-  `GCoreConformanceProfileId.PartG.TriStateGuard`,
-  `GCoreConformanceProfileId.PartG.UTSWhenPublicIdsMinted`,
-  `GCoreConformanceProfileId.PartG.ShippingBoundary`
-  }
+* `CoreConformanceProfileIds` := `{GCoreConformanceProfileId.PartG.AuthoringBase, GCoreConformanceProfileId.PartG.TriStateGuard, GCoreConformanceProfileId.PartG.UTSWhenPublicIdsMinted, GCoreConformanceProfileId.PartG.ShippingBoundary}`
 
-* `RSCRTriggerSetIds` := { `GCoreTriggerSetId.RefreshOrchestration` }
+* `RSCRTriggerSetIds` := `{ GCoreTriggerSetId.RefreshOrchestration }`
   *(payload pins: `PackId(UTS)`, `publicationScopeId`, `CNSpecRef.edition`, `CGSpecRef.edition`, `PlanItemRefs := ⟨WorkPlanRef, planLocalContentLocator⟩[]`, `AuditPins`, `UTSRowId[]`, `PathId/PathSliceId`, crossing policy pins, `TelemetryPinIds`, relevant upstream artefact ids)*
 
-* `DefaultsConsumed` := {
-  `DefaultId.PortfolioMode`,
-  `DefaultId.DominanceRegime`,
-  `DefaultId.GammaFoldForR_eff`
-  }
-  *(Governing definitions are resolved through `G.Core.DefaultGoverningDefinitionIndex` and are not restated here.)*
+* `DefaultsConsumed` := `{ DefaultId.PortfolioMode, DefaultId.DominanceRegime, DefaultId.GammaFoldForR_eff }`
+  *Resolve their definitions through `G.Core.DefaultGoverningDefinitionIndex`.*
 
-* `CorePinSetIds` := {
-  `GCorePinSetId.PartG.AuthoringMinimal`,
-  `GCorePinSetId.PartG.CrossingVisibilityPins`
-  }
+* `CorePinSetIds` := `{ GCorePinSetId.PartG.AuthoringMinimal, GCorePinSetId.PartG.CrossingVisibilityPins }`
 
-* `CorePinsRequired` *(pattern delta; pin names only; id‑valued unless noted)* := {
+* `CorePinsRequired` *(pattern delta; pin names only; id‑valued unless noted)* := \{
   `PackId(UTS)`,
   `publicationScopeId`,
   `contextSliceId?`,
-
   `PlanItemRefs := ⟨WorkPlanRef, planLocalContentLocator⟩[]?` *(WorkPlanning planned baseline refs)*,
   `AuditPins` *(pack‑level pin bundle: edition pins (only on `…Ref.edition`), policy‑ids, UTS/Path pins; ids only)*,
-
   `UTSRowId[]`,
   `PathId[]?`, `PathSliceId[]?`,
   `CrossingBundleIds := CrossingBundleId[]?`,
   `TelemetryPinIds := TelemetryPinId[]?`,
   `PortfolioRosterId?`,
-
   `MOOManifestId?` *(method‑of‑obtaining‑output disclosure; conceptual object id)*
-  }
+  \}
 
 
-* `TriggerAliasMapRef` := `∅` *(canonical trigger ids are used directly)*
+* `TriggerAliasMapRef` := `∅` *(canonical trigger ids are used without aliases)*
 
 > **Mode-specific definition pins.** Use the applicable `GPatternExtension` blocks in `G.10:4.6` for additional QD/OEE/interop pins.
 
@@ -161,13 +146,13 @@ SoTA‑Pack(Core) :=
 ⟩
 ```
 
-`PlanItemRefs`, when present, resolve the exact U.WorkPlan episteme and locate the baseline content inside it. For A.15.3 content, the locator uses that WorkPlan's `planItemDesignator` and any needed `rowDesignator`; it gives the item or row no independent identity or edition. An ordinary A.15.2 baseline stays ordinary plan content when it reuses no declaration member. A changed plan must not silently replace the earlier reference carried by the shipped pack.
+`PlanItemRefs`, when present, resolve the exact U.WorkPlan episteme and locate the baseline content inside it. For A.15.3 content, the locator uses that WorkPlan's `planItemDesignator` and any needed `rowDesignator`; it gives the item or row no independent identity or edition. An A.15.2 baseline stays plan content when it reuses no declaration member. A changed plan must not silently replace the earlier reference carried by the shipped pack.
 
 ##### G.10:4.2.1 - Portfolio roster (normative; pack-governed; governing-definition delegating)
 
-`PortfolioRosterId` identifies the **selector‑facing** pack roster token. The corresponding `PortfolioRoster@Context` is one citation-and-binding roster record inside the shipped publication form, not a publication face kind, publication form kind, interop publication form kind, or carrier kind:
-it MUST NOT redefine selection / selected-set semantics (governed by `G.5`) or parity semantics (governed by `G.9`).
-Mode‑specific definition pins (QD/OEE/interop) are introduced only via `G.10:Ext.*` blocks.
+`PortfolioRosterId` identifies the **selector-facing** roster. `PortfolioRoster@Context` records its citations and bindings inside the shipped publication form. It is not a kind of publication face, publication form, interop publication form or carrier.
+
+The roster MUST NOT redefine selection or selected-set semantics (`G.5`) or parity semantics (`G.9`). Mode-specific definition pins for QD, OEE or interop come only from `G.10:Ext.*` blocks.
 
 ```
 PortfolioRoster@Context :=
@@ -208,22 +193,24 @@ PortfolioRoster@Context :=
 ⟩
 ```
 
-The roster cites exact G.5 `MethodFamilyRowRef = <MethodFamilyId, rowEdition>` and `GeneratorFamilyRowRef = <GeneratorFamilyId, rowEdition>` values. A lineage id alone cannot replay the selected membership or grouping basis; each row ref resolves its immutable source edition. Shipping these references neither admits the members nor creates their grouping. Preserve the row's G.5 local or public registry-identity contract. A visible project-local row is not automatically a public registry entry; intentional public registration adds S1/S1′ naming and UTS duties. G.10's independently applicable pack-shipping requirements and E.24.PUB availability conditions still apply.
+The roster cites G.5 `MethodFamilyRowRef = <MethodFamilyId, rowEdition>` and `GeneratorFamilyRowRef = <GeneratorFamilyId, rowEdition>` values. A lineage id alone cannot replay the selected membership or grouping basis; each row ref resolves its immutable source edition.
+
+Shipping these references neither admits the members nor creates their grouping. Preserve the row's G.5 local or public registry-identity contract. A visible project-local row is not automatically a public registry entry; intentional public registration adds S1/S1′ naming and UTS duties. G.10's independently applicable pack-shipping requirements and E.24.PUB availability conditions still apply.
 
 *Presence rule:* `PortfolioRosterId` MAY be omitted only when the shipped pack is *inputs‑only*
 (e.g., shipping CHR/CAL/evidence without any selector‑consumable selected-set/shortlist output).
 
-The `selectorOutcomeKind`, `setResultFamily`, `handoffKind`, `sourceSetFamily`, `sourceSetComposition`, `derivedViewKind`, `basePaletteRef`, `lensId`, and `shortlistId` fields in this roster are payload metadata fields or refs inside the shipped publication form. They do not define publication face kinds, publication form kinds, interop publication form kinds, or carrier kinds, and they do not let `G.10` re-govern `G.5`, `C.18`, `C.19`, or `G.2` semantics.
+The `selectorOutcomeKind`, `setResultFamily`, `handoffKind`, `sourceSetFamily`, `sourceSetComposition`, `derivedViewKind`, `basePaletteRef`, `lensId`, and `shortlistId` fields carry payload metadata or references inside the shipped publication form. They do not define publication face kinds, publication form kinds, interop publication form kinds, or carrier kinds, and the rules of `G.5`, `C.18`, `C.19` and `G.2` remain with those patterns.
 
-**Interpretation constraints (normative by delegation).** Any universal invariants governing (i) CN/CG spec-ref governing-definition assignment, (ii) crossing visibility and penalty routing, (iii) tri‑state guards, (iv) set‑return semantics, (v) P2W split, (vi) defaults, and (vii) RSCR trigger typing are **not restated here** and are enforced via `G.Core` conformance (see `CC‑G10‑CoreRef`).
+**Interpretation constraints (normative by delegation).** `G.Core` conformance requires the applicable CN or CG governing specification and its edition to be cited under its own rule. It also enforces the shared invariants for crossing visibility and penalty routing, tri-state guards, set returns, the P2W split, defaults and RSCR trigger types (`CC‑G10‑CoreRef`).
 
 #### G.10:4.3 - Shipping procedure (normative)
 
 Compose the pack while preserving the cited definitions:
 
 1. **S‑1 — Gather & pin.** Collect upstream artefact ids and verify the **required pins** implied by the linkage manifest (edition pins, policy pins, UTS/Path pins).
-2. **S‑2 — Compose `SoTA‑Pack(Core)` + MOO disclosure.** Assemble the pack object. For shipped outcomes intended for downstream use, attach a **`MOOManifest`** listing the methods, mechanisms and policies used to obtain them at their exact editions (ids only; semantics stay with governing definitions).
-3. **S‑3 — Publish selection/parity roster (selector‑facing).** Except when the inputs-only presence-rule exception in §4.2.1 is used, produce a selector‑readable `PortfolioRosterId` with the parity/definition pins required for reproducibility; do not mandate formats.
+2. **S‑2 — Compose `SoTA‑Pack(Core)` + MOO disclosure.** Assemble the pack object. For shipped outcomes intended for downstream use, attach a **`MOOManifest`** listing the methods, mechanisms and policies used to obtain them, with the edition of each (ids only; semantics stay with governing definitions).
+3. **S‑3 — Publish the selection/parity roster.** Give the selector a `PortfolioRosterId` with the parity and definition pins needed for reproducibility. No format is prescribed. An inputs-only pack may omit the roster under §4.2.1.
 4. **S‑4 — Anchor and publish path citations.** Ensure A.10 anchors exist and publish/record `PathId/PathSliceId` citations required for downstream explainability (e.g., the `C.23` W2 `AdmissibilityLedger`) and maturity rung changes.
 5. **S‑5 — Expose CrossingBundle.** For each GateCrossing relevant to the shipped artefacts, expose the required `CrossingBundle` references (fail fast on missing or non‑conformant bundles when required).
 6. **S‑6 — Emit telemetry pins for refresh planning.** Whenever illumination increases or archive/OEE pin state changes, emit PathSlice‑keyed telemetry with policy‑id and the active `…Ref.edition` pins (and QD `EmitterPolicyRef`/`InsertionPolicyRef` when applicable).
@@ -244,11 +231,11 @@ Compose the pack while preserving the cited definitions:
 
 *Surfaces remain **conceptual** per **E.5.2**; RO‑Crate/ORKG/OpenAlex mappings belong to **Annex/Interop** and do not affect Core conformance.*
 
-> **Note.** Any concrete serialisation/export is *not* part of this interface set. Serialisation belongs to interop/annex governing-definition assignment and must not become the governing definition.
+> Concrete exports and serialisations fall outside this interface set. Their definitions belong to Annex/Interop. Check conformance against G.10’s notation-independent shipping requirements and the applicable G.Core obligations.
 
 #### G.10:4.5 - Consequence of governing-definition assignment (normative boundary statement)
 
-`G.10` is the **one governing definition** of “shipping” in Part G *(by delegation to `CC‑GCORE‑SKP‑1`)*.
+`G.10` alone defines Part G shipping, by delegation to `CC‑GCORE‑SKP‑1`.
 Other `G.x` patterns may produce artefacts that are shipped, but they must not embed shipping obligations; they cite `G.10` shipping surfaces instead.
 
 #### G.10:4.6 - Extensions (pattern‑scoped; non‑core)
@@ -260,12 +247,13 @@ All method‑/generator‑/interop‑specific shipping extension declarations li
 ##### G.10:4.6.1 - GPatternExtension — `G.10:Ext.QDArchiveShippingPins`
 
 
-**PatternScopeId:** `G.10:Ext.QDArchiveShippingPins`
-**GPatternExtensionId:** `QDArchiveShippingPins`
-**GPatternExtensionKind:** `MethodSpecific`
-**GoverningPatternId:** `C.18`
-**Uses:** `{C.18, C.21, G.5, G.8, G.11}`
-**⊑/⊑⁺:** `∅`
+- **PatternScopeId:** `G.10:Ext.QDArchiveShippingPins`
+- **GPatternExtensionId:** `QDArchiveShippingPins`
+- **GPatternExtensionKind:** `MethodSpecific`
+- **GoverningPatternId:** `C.18`
+- **Uses:** `{C.18, C.21, G.5, G.8, G.11}`
+- **⊑/⊑⁺:** `∅`
+
 **RequiredPins/EditionPins/PolicyPins (minimum):**
 
 * `DescriptorMapRef.edition`
@@ -276,42 +264,47 @@ All method‑/generator‑/interop‑specific shipping extension declarations li
 * `CharacteristicSpaceRef` *(id/ref; iff archive partitioning is declared)*
 * `characteristicSpaceDescriptionRef: U.EpistemeRef` *(iff partitioning depends on an exact space-definition episteme; resolve it with `CharacteristicSpaceRef` under A.19:5.1.1.1)*
 * `PathSliceId[]` *(to bind telemetry/refresh scope when archive behaviour is present)*
+
 **RSCRTriggerSetIds:** `∅` *(covered by `G.10` core linkage via `GCoreTriggerSetId.RefreshOrchestration`)*
+
 **Notes (shipping-pin discipline):**
-* This block never redefines archive semantics; it only states which pins must be present in the shipped pack when QD archive fields are present.
+* When QD archive fields are shipped, this block specifies their required pins. `C.18` defines the QD archive semantics used here.
 
 
 
 ##### G.10:4.6.2 - GPatternExtension — `G.10:Ext.OEEShippingPins`
 
 
-**PatternScopeId:** `G.10:Ext.OEEShippingPins`
-**GPatternExtensionId:** `OEEShippingPins`
-**GPatternExtensionKind:** `GeneratorSpecific`
-**GoverningPatternId:** `G.5`
-**Uses:** `{G.5, G.11}`
-**⊑/⊑⁺:** `∅`
+- **PatternScopeId:** `G.10:Ext.OEEShippingPins`
+- **GPatternExtensionId:** `OEEShippingPins`
+- **GPatternExtensionKind:** `GeneratorSpecific`
+- **GoverningPatternId:** `G.5`
+- **Uses:** `{G.5, G.11}`
+- **⊑/⊑⁺:** `∅`
+
 **RequiredPins/EditionPins/PolicyPins (minimum):**
 
 * `TransferRulesRef.edition`
-* `EnvironmentValidityRegion?` *(id/ref; iff an explicit region is declared as part of generator-family support)*
+* `EnvironmentValidityRegion?` *(id/ref; iff a region is declared as part of generator-family support)*
 * `PathSliceId[]` *(scope key for refreshable generator telemetry when present)*
 
 **RSCRTriggerSetIds:** `∅` *(covered by the core trigger set)*
+
 **Notes (shipping-pin discipline):**
-* “Open‑endedness” semantics remain defined by the governing pattern; the pack only carries the pins required to make the shipped claim replayable/auditable.
+* `G.5` identifies the generator-family row and its cited open-ended mode. The cited family and transfer rules define that use. The pack carries the pins needed to replay and audit the shipped claim.
 
 
 
 ##### G.10:4.6.3 - GPatternExtension — `G.10:Ext.InteropCitation`
 
 
-**PatternScopeId:** `G.10:Ext.InteropCitation`
-**GPatternExtensionId:** `InteropCitation`
-**GPatternExtensionKind:** `InteropSpecific`
-**GoverningPatternId:** `G.13`
-**Uses:** `{G.13}`
-**⊑/⊑⁺:** `∅`
+- **PatternScopeId:** `G.10:Ext.InteropCitation`
+- **GPatternExtensionId:** `InteropCitation`
+- **GPatternExtensionKind:** `InteropSpecific`
+- **GoverningPatternId:** `G.13`
+- **Uses:** `{G.13}`
+- **⊑/⊑⁺:** `∅`
+
 **RequiredPins/EditionPins/PolicyPins (minimum):**
 
 * `InteropSurfaceId`
@@ -321,8 +314,9 @@ All method‑/generator‑/interop‑specific shipping extension declarations li
 * `MappingPolicyRef`
 
 **RSCRTriggerSetIds:** `∅` *(covered by the core trigger set)*
+
 **Notes (shipping-pin discipline):**
-* This block only records that an interop surface contributed to the shipped pack’s provenance; it does not redefine any crosswalk semantics.
+* Record the interop surface that contributed to the pack’s provenance. `G.13` governs the crosswalk semantics.
 
 #### G.10:4.7 - Metadata for shipped results and source views
 
@@ -333,9 +327,9 @@ For a derived tradition view, retain `derivedViewKind`, `basePaletteRef` and its
 
 ##### G.10:4.7.1 - Worked publication slice
 
-- If the visible surface is one tradition front under the declared `Q`, publish `sourceSetFamily=Front`, `derivedViewKind=TraditionFront`, and keep `basePaletteRef=SoTAPaletteDescriptionId` recoverable instead of pretending that the palette itself already was that front. Publish `selectorOutcomeKind` only when a G.5 selector outcome is also shipped, and `setResultFamily` only for its `SetResultOutcome` branch.
+- If the visible surface is one tradition front under the declared `Q`, publish `sourceSetFamily=Front`, `derivedViewKind=TraditionFront`, and identify the palette it was derived from with `basePaletteRef=SoTAPaletteDescriptionId`. Publish `selectorOutcomeKind` only when a G.5 selector outcome is also shipped, and `setResultFamily` only for its `SetResultOutcome` branch.
 - If one shortlist is emitted from that derived tradition front, publish `selectorOutcomeKind=SetResultOutcome`, `setResultFamily=Shortlist`, `sourceSetFamily=Front`, `derivedViewKind=TraditionFront`, `basePaletteRef=SoTAPaletteDescriptionId`, and the named `lensId` together.
-- If that same shortlisted surface is emitted as one stable public object, also publish `shortlistId=<...>` and keep it recoverable that the token names that shortlist rather than replacing it.
+- If that same shortlisted surface is emitted as one stable public object, also publish `shortlistId=<...>` so a receiver can identify the shortlist by that token.
 - If one retained tradition archive view is shown, publish `sourceSetFamily=Archive`, `derivedViewKind=TraditionArchive`, and keep the same `basePaletteRef` recoverable. A G.5 selector outcome, when also shipped, carries its admitted outcome kind and, only for a `SetResultOutcome`, its set-result kind.
 - If the shortlist is later ordered, publish `setResultFamily=RankedShortlist` and keep the declared source set visible.
 - Use `ChoiceSet` only as a mathematical gloss when the shipped object is explicitly one mathematical analysis artifact rather than the public selected set; it is not a `setResultFamily` value.

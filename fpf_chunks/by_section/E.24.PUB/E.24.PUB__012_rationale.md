@@ -6,12 +6,12 @@ section_id: "E.24.PUB:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__012_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.24.PUB — Episteme Publication: Availability, Form and Carrier"
   - "E.24.PUB:10 — Rationale"
-line_start: 117220
-line_end: 117229
+line_start: 124733
+line_end: 124744
 dependencies:
   - "A.6.3"
   - "A.6.3.RT"
@@ -38,9 +38,11 @@ keywords:
 
 ### E.24.PUB:10 - Rationale
 
-Publication does not change an episteme into a nested publication object. It is a real availability relation supported by an expression relation and a bearing relation. That architecture explains why one encountered card, diagram, or file can matter in several ways without admitting one umbrella presentation kind.
+Publication does not change an episteme into a nested publication object. It is an availability relation supported by an expression relation and a bearing relation. That architecture explains why one encountered card, diagram, or file can matter in several ways without admitting one umbrella presentation kind.
 
-The split also preserves agency. A System can render, upload, print, index, withdraw, or replace a carrier, but the publication occurrence is the enduring availability relation, not that activity. It may obtain with no continuing publication Work, and an attempted publication activity can fail while no publication occurrence begins. If an actual Work claim matters, its direct patterns govern it; E.24.PUB only keeps it and its result outside the publication-relation participants.
+The split also preserves agency. A System can render, upload, print, index, withdraw, or replace a carrier, but the publication occurrence is the enduring availability relation, not that activity.
+
+The availability relation may obtain with no continuing publication Work, and an attempted publication activity can fail while no publication occurrence begins. If an actual Work claim matters, its direct patterns govern it; E.24.PUB only keeps it and its result outside the publication-relation participants.
 
 
 

@@ -6,12 +6,12 @@ section_id: "F.8:6"
 section_title: "Reasoning Checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__008_reasoning-checks.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision for a Name"
   - "F.8:6 — Reasoning Checks"
-line_start: 120993
-line_end: 121009
+line_start: 128655
+line_end: 128671
 dependencies:
   - "A.11"
   - "A.15"
@@ -62,7 +62,7 @@ keywords:
 
 ### F.8:6 - Reasoning Checks
 
-Use these as reading checks, not as a required notation or record.
+Use the table to check the decision. No particular notation or record is required.
 
 | Situation | Decision |
 | --- | --- |
@@ -72,7 +72,7 @@ Use these as reading checks, not as a required notation or record.
 | An alias is proposed. | Preserve the governed kind, scope, occurrence identity, admitted use, and lineage to the selected designation. |
 | The same spelling appears under another ReferenceScheme or local-sense claim. | Infer neither sameness nor an F.9 Bridge. Use a Bridge only when its predicate obtains between the relevant F.17 cells. |
 | `L` is proposed for a local system-role kind `K`. | A.2 and C.3 govern `K`; F.5 governs `L`; F.18 opens only for a durable settlement. F.4 is used only for a separately needed description `D`, while A.2.1 governs any assignment `A`. For precise performed Work, A.13 first recovers the exact actual performer and A.15.1 independently admits the Work; F.6 is added only when this naming case or receiving use expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment. |
-| A role-like expression is actually about another governed use—for example, evidence, status, policy, source, publication, or a relation position. | Recover that subject through its pattern before selecting a durable designation. |
+| The claim using a role-like expression concerns another governed subject or use—for example, evidence, status, policy, source, publication, or a relation position. | Recover that subject through its pattern before selecting a durable designation. |
 | An F.17 row is proposed for reuse. | Reuse it only for its `AdmissibleUse`; the row supplies neither equivalence nor a wider use. |
 | A receiving claim needs the decision occurrence itself. | Use §4.5. Recover the decision or choice pattern, predicate, participants, applicability, and identity basis. If no such governor is available, return `missing-governor`; keep any C.11 result and decision-making Work separate. |
 | An expression is offered as a new U-kind before E.24.UK has settled admission. | Return `blockOrLowerUse`. Use E.24.CD if the governed object is unclear and send any surviving U-kind proposal to E.24.UK. Re-enter F.8 only for the object identified by the stable result. |

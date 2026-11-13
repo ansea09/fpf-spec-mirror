@@ -6,12 +6,12 @@ section_id: "D.2:4"
 section_title: "Boundaries"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.2/D.2__007_boundaries.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "D.2 — Recognize Ethical Concerns Across Levels and Scopes (Multilevel Ethics)"
   - "D.2:4 — Boundaries"
-line_start: 91746
-line_end: 91751
+line_start: 96234
+line_end: 96239
 dependencies:
   - "A.1"
   - "A.15"
@@ -33,5 +33,5 @@ keywords:
 
 D.2 recognizes ethical concerns across levels and scopes. Use the corresponding subject method to judge a conflict, mediate it or conduct an audit.
 
-Levels and scopes are declared relations in the current situation. If a mathematical lens is needed for scale, frustration, optimization, Pareto comparison, or renormalization-like reasoning, use `C.29` and the applicable pattern for the current object.
+Levels and scopes are declared relations in the situation. If a mathematical lens is needed for scale, frustration, optimization, Pareto comparison, or renormalization-like reasoning, use `C.29` and the applicable pattern for the object.
 

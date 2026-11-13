@@ -6,12 +6,12 @@ section_id: "E.18:6.1"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__008_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:6.1 — Bias-Annotation"
-line_start: 110664
-line_end: 110673
+line_start: 117506
+line_end: 117515
 dependencies:
   - "A.15.1"
   - "A.15.PROD"
@@ -39,11 +39,11 @@ keywords:
 
 ### E.18:6.1 - Bias-Annotation
 
-* **Acyclic-bias risk.** Tooling accustomed to DAGs may discourage admissible feedback loops; E.18 explicitly permits loops with budget and sentinel controls (CC-E18-13, -18).
+* **Acyclic-bias risk.** Tooling accustomed to DAGs may discourage admissible feedback loops. E.18 permits loops with budget and sentinel controls (CC-E18-13, -18).
 * **Scalarization-bias risk.** Cultural defaults to single-score rankings can suppress Pareto fronts and QD archives; E.18 keeps declared order relations and return sets visible (CC-E18-10, CC-E18-12).
 * **Interop-dominance risk.** File and format ecosystems (CWL, RO-Crate, and lineage) can be mistaken for semantic sources; E.18 places them in **InteropCard** and keeps the applicable semantic definitions and tests explicit at the loci and gates.
 * **Over-formalization risk.** Category-theoretic formalisms can obscure operational guard-rails; ordinary E.18 states each crossing in readable prose, while replay-facing use keeps exact positions, per-binding accounts, one separate A.21 gate decision, and `CrossingRef` (CC-E18-11, -23).
 * **Retrospective rewrite risk.** Keep historical occurrences and edition pins intact. Reassess their current uses through the dependency closure in 5.13 and CC-E18-18; a new actual execution has its own identity.
 
-**Mitigations.** Select checks from the current use before applying a profile. Require edition pins when a current comparison or publication depends on them, inspect the `GateDecisionResult` for a current decision and an optional `DecisionLog` only when audit, history, replay, or reuse depends on it, and cover every actually dependent branch, join and consuming face through the required PathSlices (5.13).
+**Mitigations.** Select checks from the current use before applying a profile. Require edition pins when a current comparison or publication depends on them, inspect the `GateDecisionResult` for a current decision and an optional `DecisionLog` only when audit, history, replay, or reuse depends on it, and cover every dependent branch, join and consuming face through the required PathSlices (5.13).
 

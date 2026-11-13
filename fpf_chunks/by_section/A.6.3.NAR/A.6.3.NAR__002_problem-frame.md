@@ -6,12 +6,12 @@ section_id: "A.6.3.NAR:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.NAR/A.6.3.NAR__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.3.NAR — Structure-to-Narrative Rendering"
   - "A.6.3.NAR:1 — Problem frame"
-line_start: 19332
-line_end: 19365
+line_start: 20197
+line_end: 20232
 dependencies:
   - "A.10"
   - "A.22.CGUS"
@@ -60,7 +60,7 @@ Plain starting vocabulary:
 | `ordering and connective account` | The chosen event, causal, discovery, didactic, tension, traversal, or other order, plus the links that explain why one step follows another. |
 | `narrative rendering` | The receiving sequential account. A page, audio file, slide, or publication carrier can express or make it available without being the account's claim-bearing identity. |
 | `loss and return` | What the narrative omits, weakens, rearranges, or cannot support, and where the reader returns when that missing structure matters. |
-| `narrating or rendering worker` | The person, team or system preparing the narrative. A particular dated Work claim follows A.13 and independent A.15.1 admission; F.6 applies only when precise assignment-bound attribution matters. Any authority claim has its own grounds. |
+| `narrating or rendering worker` | The person, team or system preparing the narrative. A dated Work claim follows A.13 and independent A.15.1 admission; F.6 applies only when precise assignment-bound attribution matters. Any authority claim has its own grounds. |
 | `structural-information question` | How much of the selected source structure can this reader correctly extract from the narrative under the stated preparation, access and budget? Use `C.2.8` for the characteristic, `C.33` for architecture-use adequacy and the applicable domain evaluation for a local scale. |
 
 **First useful move.** Write a useful narrative and give the reader enough source and ordering information to see what it preserves, foregrounds or omits. A compact note can carry that information. Add a source-return condition when omitted structure or a changed question requires it; any excluded downstream use follows F.19:4's full guard test.
@@ -71,7 +71,9 @@ Plain starting vocabulary:
 
 **Ordinary use.** For low-reliance teaching, orientation, or internal explanation, the useful narrative with the needed source and ordering information is enough. Exact endpoint identities and a formal construction record are not prerequisites for this first result.
 
-**Reliance-facing use.** Open the exact branch only when the receiving use makes claim-level identity and preservation evidence material: for example, the narrative must travel independently, be cited or disputed, cross a material representation-scheme boundary for consequential use, enter generated-output admission under an identity-bearing receiver, support consequential reliance, or satisfy another named receiver that requires exact identity. A public context is a cue to ask which receiving requirement applies; publicness alone is not sufficient. Then recover exact source episteme `X`, receiving narrative episteme `Y`, and construction `n : X -> Y`, together with the additional source dependencies, scheme relation, loss, evidence, or assurance actually required by that receiving use.
+**Reliance-facing use.** Open the exact branch only when the receiving use makes claim-level identity and preservation evidence material: for example, the narrative must travel independently, be cited or disputed, cross a material representation-scheme boundary for consequential use, enter generated-output admission under an identity-bearing receiver, support consequential reliance, or satisfy another named receiver that requires exact identity. A public context is a cue to ask which receiving requirement applies; publicness alone is not sufficient.
+
+Then recover source episteme `X`, receiving narrative episteme `Y`, and construction `n : X -> Y`, together with the additional source dependencies, scheme relation, loss, evidence, or assurance required by that receiving use.
 
 Carrier export, generated-output admission, publication, evidence, assurance, ethics, and work authorization are separate questions; apply the corresponding pattern only when that claim is current.
 

@@ -6,12 +6,12 @@ section_id: "G.6:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.6/G.6__006_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.6 — Evidence Graph and Provenance Ledger: Citable Evidence-Provenance Paths"
   - "G.6:5 — Archetypal Grounding"
-line_start: 130121
-line_end: 130152
+line_start: 138173
+line_end: 138208
 dependencies:
   - "A.10"
   - "A.10.1"
@@ -61,7 +61,11 @@ keywords:
 
 #### G.6:5.1 - Measurement, acceptance, and decision
 
-In this constructed case, a measurement team performs dated C.16 measurement Work with bindings for the pressure measurand, detector, calibration, model, input quantities and uncertainty propagation. Its pressure measurement result is stated in a distinct C.2.1 episteme. An evaluation team later performs G.4 `EvaluationWork`, applying one declared acceptance clause through exact A.6.1 bindings and obtaining `unknown`; another C.2.1 episteme states that verdict. A decision maker then performs C.11 decision Work, uses the verdict episteme through an exact premise relation and defers. The performer and Work references are independently established under §4.1.
+In this constructed case, a measurement team performs dated C.16 measurement Work with bindings for the pressure measurand, detector, calibration, model, input quantities and uncertainty propagation. A distinct C.2.1 episteme states the pressure measurement result.
+
+An evaluation team later performs G.4 `EvaluationWork`, applying one declared acceptance clause through exact A.6.1 bindings and obtaining `unknown`; another C.2.1 episteme states that verdict.
+
+A decision maker then performs C.11 decision Work, uses the verdict episteme through an exact premise relation and defers. For all three Work occurrences, the performer and Work references are independently established under §4.1.
 
 G.6 may give this chain one `PathId` only after the measurement, work, binding, result, episteme, clause-application, premise, and decision relations are independently established. Its nodes keep raw detector output, indication, actual pressure, measurement result, verdict, and decision distinct. Its edges cite the exact relations; none produces the work, verdict, or decision.
 
@@ -73,7 +77,7 @@ The G.6 path cites every measurement result and episteme, the work-set and overl
 
 #### G.6:5.3 - Produced model and benchmark use
 
-A training team performs dated training Work with exact actual bindings and, when an inception or completion claim is current, one local A.15.PROD claim. An evaluation team separately performs benchmark-evaluation Work, applies its declared method and dataset edition and obtains a result under the benchmark's direct governor; a C.2.1 episteme states that result. Both Work occurrences use their independently established performer refs. E.17 governs the model card's source-backed face and return to the selected claims, E.24.PUB their actual audience availability, and C.29 any consumed representation correspondence. G.11 supplies currentness when later use depends on edition or freshness.
+A training team performs dated training Work with identified application bindings. When the account asserts inception or completion, it also cites one local A.15.PROD claim. An evaluation team separately performs benchmark-evaluation Work, applies its declared method and dataset edition and obtains a result under the benchmark's direct governor. A C.2.1 episteme states that result. The path cites independently established performer refs for both Work occurrences. E.17 governs the model card's source-backed face and return to the selected claims, E.24.PUB their actual audience availability, and C.29 any consumed representation correspondence. G.11 supplies currentness when later use depends on edition or freshness.
 
 A G.6 `PathSliceId` may cite that dependency chain for replication. The graph does not infer training from the model's presence, participation from a roster, evaluation from the protocol, superiority from the score, or deployment permission from the model card.
 
@@ -85,7 +89,7 @@ A dashboard cell shows `Ready`. F.10 governs the status-use classification; A.10
 
 In a constructed inspection account, `Path-P1` connects measurement result M1 to acceptance result V1, and `Path-P2` connects M2 to V2. Both measurements use the same calibration qualification K through independently established relations. A later selection S uses both acceptance results. `Path-P3`, stored in the same publication, uses a different calibration and supports an unrelated result.
 
-A correction to K first appears in P1's projection. The ledger's indexes also locate P2, and the receiving-use relations lead from V1 and V2 to S. Reconsider both branches and S under their subject patterns. P3 stays outside this reach because it does not consume the changed qualification. Two paths citing K still cite one common basis; their count supplies no independent corroboration. If the index cannot cover another receiving store, state that discovery limit and use A.10.1 when the receiving question needs that search.
+A correction to K first appears in P1's projection. The ledger's indexes also locate P2, and the receiving-use relations lead from V1 and V2 to S. Reconsider both branches and S under their subject patterns. P3 stays outside this reach because it does not consume the changed qualification. P1 and P2 cite the same K. Counting both paths supplies no independent corroboration. If the index cannot cover another receiving store, state that discovery limit and use A.10.1 when the receiving question needs that search.
 
 The resulting G.6 account identifies the affected paths and their exact dependencies. G.11:5 continues this case through different branch outcomes and selection of the needed work.
 

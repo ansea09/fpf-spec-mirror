@@ -6,12 +6,12 @@ section_id: "A.16:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.16 — Language-State Moves: Choose the Next Publication and Use of a Cue or Claim"
   - "A.16:3 — Forces"
-line_start: 33383
-line_end: 33393
+line_start: 34863
+line_end: 34873
 dependencies:
   - "A.13"
   - "A.15.1"
@@ -64,5 +64,5 @@ keywords:
 | **Early capture vs endpoint discipline** | Preserve low-articulation content without claiming that an endpoint test has passed. |
 | **Continuity vs identity change** | Keep a form-only publication of one episteme distinct from the first typed preservation and from a content-changing successor episteme. |
 | **Advance vs retreat** | Support formalize and operationalize together with reopen, sketch-backoff, respecify, and retire. |
-| **Plain use vs assurance detail** | Keep the shortest practitioner path short while exposing exact Work, publication, or authority relations when they are genuinely current. |
+| **Plain use vs assurance detail** | Keep the practitioner path short while exposing Work, publication, or authority relations when they are current. |
 

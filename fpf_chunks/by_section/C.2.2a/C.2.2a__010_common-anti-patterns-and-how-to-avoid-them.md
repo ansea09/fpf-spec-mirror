@@ -6,12 +6,12 @@ section_id: "C.2.2a:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2a/C.2.2a__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.2.2a — Language-State Chart over U.CharacteristicSpace"
   - "C.2.2a:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 52991
-line_end: 52998
+line_start: 55208
+line_end: 55215
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -46,9 +46,9 @@ keywords:
 
 ### C.2.2a:8 - Common Anti-Patterns and How to Avoid Them
 - **Maturity monism.** Replace the needed distinctions with one stage word. Publish the relevant slot values and state any required source or use condition separately.
-- **Formality capture.** Use `F` to stand in for articulation, closure, or source and use conditions. Repair by naming the actual facet subject pattern.
+- **Formality capture.** Use `F` to stand in for articulation, closure, or source and use conditions. Repair by naming the facet subject pattern.
 - **Carrier collapse.** Treat a document, cue pack, or routed note as if it were the position itself. Repair by distinguishing the position claim, publication form (including an MVPK face) and carrier.
 - **Threshold folklore.** Hide a relied-on facet threshold behind a readiness label. Repair by making its slot conditions explicit or citing the applicable declaration.
-- **Bridge by vibe.** Similar stage language is treated as equivalence. Recover the two exact F.17 local senses and test F.9; cite a Bridge only when its predicate obtains. Otherwise keep both positions local and route the actual comparison or translation question.
+- **Bridge by vibe.** Similar stage language is treated as equivalence. Recover the two exact F.17 local senses and test F.9; cite a Bridge only when its predicate obtains. Otherwise keep both positions local and route the comparison or translation question.
 - **Corridor inflation.** Treat the navigation cluster or corridor map as if it were the subject-pattern set for all downstream semantics. Repair by naming the pattern that governs the current chart, seam, or downstream claim; identify any seam publication form separately.
 

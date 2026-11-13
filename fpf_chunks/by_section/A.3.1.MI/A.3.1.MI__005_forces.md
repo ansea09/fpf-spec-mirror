@@ -6,12 +6,12 @@ section_id: "A.3.1.MI:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MI/A.3.1.MI__005_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.3.1.MI — Introduce a Method into Practice and Decide What to Keep or Change"
   - "A.3.1.MI:3 — Forces"
-line_start: 11245
-line_end: 11256
+line_start: 11646
+line_end: 11657
 dependencies:
   - "A.3.1"
   - "A.3.1.FT"
@@ -27,7 +27,7 @@ keywords:
 | --- | --- |
 | Real practice | Natural Work reveals use and consequences, while many conditions change together. |
 | Intervention clarity | Separate intended changes make learning possible, while one programme label can hide those changes. |
-| Capability | New Work may need development, while A.3.1.MI must not smuggle training in as capability. |
+| Capability | New Work may need development, while delivered training and acquired capability remain different results. |
 | Authority and participation | A governed change needs its applicable authorization and actual performers, while sponsorship and attendance are weaker facts. |
 | Time | Observation timing must fit the receiving decision, while delay can make sources and alternatives stale. |
 | Contribution | A decision needs a plausible account, while causal isolation is often unavailable. |

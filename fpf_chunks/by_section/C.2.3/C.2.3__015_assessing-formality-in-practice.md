@@ -6,12 +6,12 @@ section_id: "C.2.3:14"
 section_title: "Assessing formality in practice"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.3/C.2.3__015_assessing-formality-in-practice.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.2.3 — Formality of an Episteme"
   - "C.2.3:14 — Assessing formality in practice"
-line_start: 53281
-line_end: 53306
+line_start: 55506
+line_end: 55531
 dependencies:
   - "A.16"
   - "A.18"
@@ -41,7 +41,7 @@ keywords:
 
 1. Which claim, declaration or argument must be understood, executed, combined or checked?
 2. Are its terms, domains and interpretation sufficient for that operation?
-3. Are the required predicates, operations and inference steps actually expressed?
+3. Are the required predicates, operations and inference steps expressed?
 4. Which calculus and assumptions matter, and what checking result is available when required?
 5. Would changing the expression property change the receiving result, or would it only add unused apparatus?
 

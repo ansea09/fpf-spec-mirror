@@ -6,12 +6,12 @@ section_id: "C.13:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.13/C.13__011_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.13 — Constructional Mereology (Compose‑CAL)"
   - "C.13:8 — Consequences"
-line_start: 58511
-line_end: 58529
+line_start: 60882
+line_end: 60900
 dependencies:
   - "A.1"
   - "A.14"
@@ -31,16 +31,16 @@ keywords:
 
 **Benefits**
 
-- **Inspectable construction.** A practitioner can recover which exact inputs, relations, and rule support the described construction or delimitation.
+- **Inspectable construction.** A practitioner can recover which inputs, relations, and rule support the described construction or delimitation.
 - **Identity clarity.** The account distinguishes the input list from the assembly and keeps whole reidentification with the direct identity rule.
 - **Human-first use.** Ordinary component, belongs-to, aspect and measured-portion sentences remain readable; notation is optional shorthand for a named construction use.
 - **Plane separation.** Order, time, evidence, representation, kind admission, and receiving reliance keep their direct owners.
 - **Cross-domain reuse.** The same three forms can describe system, episteme, method, work, discipline, collection, aspect and measured-portion cases without claiming one universal part relation.
-- **Truthful stops.** Missing direct part or transformation-composition governors remain visible instead of being hidden by a trace.
+- **Composition limits.** Missing direct part or transformation-composition governors remain visible instead of being hidden by a trace.
 
 **Costs and mitigations**
 
-- A truthful trace needs more than a parts list: exact relations, assembly, and identity conditions must be named. Reuse a direct pattern's existing facts rather than duplicating them.
+- A truthful trace needs more than a parts list: relation occurrences, assembly, and identity conditions must be named. Reuse a direct pattern's existing facts rather than duplicating them.
 - A world-side construction can obtain before anyone writes a trace, and its direct relation claim can remain usable without an assurance profile. When its publication elects B.3.5 or a named current requirement demands it, materialize the required trace and validation mode without treating publication as the cause of construction.
 - The same inputs can support different assemblies, and one whole can survive permitted replacements. Always carry the direct reidentification rule.
 

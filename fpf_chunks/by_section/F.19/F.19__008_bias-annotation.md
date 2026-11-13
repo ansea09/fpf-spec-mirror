@@ -6,12 +6,12 @@ section_id: "F.19:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.19/F.19__008_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
   - "F.19:6 — Bias-Annotation"
-line_start: 126288
-line_end: 126299
+line_start: 134328
+line_end: 134339
 dependencies:
   - "A.19.SPR"
   - "A.6.P"
@@ -34,7 +34,7 @@ keywords:
 
 ### F.19:6 - Bias-Annotation
 
-`F.19` deliberately biases toward direct, reader-usable technical prose. The protected value is kind-preserving clarity, not brevity by itself. A longer rewrite is better when it restores a participant, relation, boundary, or operational detail that the declared use needs.
+`F.19` favors direct technical prose that its reader can use. The protected value is kind-preserving clarity, not brevity by itself. A longer rewrite is better when it restores a participant, relation, boundary, or operational detail that the declared use needs.
 
 | Likely bias | Failure | Countermove |
 |---|---|---|

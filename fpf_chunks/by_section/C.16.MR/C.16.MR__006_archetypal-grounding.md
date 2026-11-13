@@ -6,12 +6,12 @@ section_id: "C.16.MR:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.MR/C.16.MR__006_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.16.MR — Construct a Measurement Relation"
   - "C.16.MR:5 — Archetypal Grounding"
-line_start: 59038
-line_end: 59093
+line_start: 61423
+line_end: 61478
 dependencies:
   - "A.3.3"
   - "B.5.FM"
@@ -77,5 +77,5 @@ Here d is the least nonnegative remainder of r1-r0 modulo 16, and k is a nonnega
 
 If the interval is known to contain fewer than 16 events, N=5. Without that bound, subtracting the displayed numbers or returning the modular difference loses possible complete wraps. A wider counter, a recorded wrap count or shorter observation intervals can supply the missing information for a later measurement.
 
-To infer elapsed time, another relation is needed: the counter must count timing ticks with an applicable tick-duration account. A counter of arbitrary work events alone measures no duration. This identifies a missing relation rather than inventing one from the numerical display.
+To infer elapsed time, another relation is needed: the counter must count timing ticks with an applicable tick-duration account. A counter of arbitrary work events alone measures no duration. This identifies a missing relation.
 

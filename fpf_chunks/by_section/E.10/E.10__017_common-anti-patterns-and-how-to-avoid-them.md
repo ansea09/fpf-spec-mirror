@@ -6,12 +6,12 @@ section_id: "E.10:15"
 section_title: "Common anti-patterns and how to avoid them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__017_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:15 — Common anti-patterns and how to avoid them"
-line_start: 100508
-line_end: 100517
+line_start: 106150
+line_end: 106159
 dependencies:
   - "A.10"
   - "A.15"

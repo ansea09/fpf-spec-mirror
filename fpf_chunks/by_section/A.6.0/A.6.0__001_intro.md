@@ -6,12 +6,12 @@ section_id: "A.6.0:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.0/A.6.0__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.0 — U.Signature - Reusable Law-Governed Declaration Episteme"
   - "A.6.0:intro — Intro"
-line_start: 16214
-line_end: 16224
+line_start: 16831
+line_end: 16841
 dependencies:
   - "A.15.1"
   - "A.17"

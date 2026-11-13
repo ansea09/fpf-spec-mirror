@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.19.USCM"
-pattern_title: "Unified Scoring Mechanism, USCM"
+pattern_title: "Scoring Mechanism"
 section_id: "A.19.USCM:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.USCM/A.19.USCM__014_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.19.USCM — Unified Scoring Mechanism, USCM"
+  - "A.19.USCM — Scoring Mechanism"
   - "A.19.USCM:12 — Relations"
-line_start: 38462
-line_end: 38484
+line_start: 39999
+line_end: 40021
 dependencies:
 keywords:
   - "CG-Spec.MinimalEvidence"
@@ -20,14 +20,14 @@ keywords:
   - "ScoringMethodDescription"
   - "score profile"
   - "scoring"
-  - "tri-state admissibility (pass"
+  - "tri-state admissibility (pass\\"
 ---
 
 ### A.19.USCM:12 - Relations
 
 * **Builds on**
 
-  * `A.6.1` (operation declarations and actual application/binding rules).
+  * `A.6.1` (operation declarations and application/binding rules).
   * `A.19.CHR:4.2.1` (CHR SlotKind lexicon).
   * `G.0` (CG‑Spec, specifically `SCP` and `MinimalEvidence`).
   * `A.18` (CSLC lawfulness discipline).

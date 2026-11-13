@@ -6,21 +6,15 @@ section_id: "C.35:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.35/C.35__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.35 — Assess Generated or Discovered Results for Architecture Use"
   - "C.35:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 81250
-line_end: 81260
+line_start: 85168
+line_end: 85178
 dependencies:
-  - "A.13"
-  - "A.15.1"
-  - "A.15.PROD"
-  - "A.2.1"
   - "A.22"
-  - "A.3.4"
   - "A.6.M"
-  - "A.6.RCD"
   - "C.16"
   - "C.18"
   - "C.19"
@@ -41,9 +35,7 @@ dependencies:
   - "C.32.PAD"
   - "C.33"
   - "C.34"
-  - "C.36"
   - "E.18"
-  - "F.6"
   - "G.5"
 keywords:
   - "DSM"
@@ -61,10 +53,10 @@ keywords:
 
 | Anti-pattern | Why it fails | Repair move |
 | --- | --- | --- |
-| LLM output as architecture | Plausible prose and a diagram may denote a modal architecture claim and its representation; neither supplies obtaining relation occurrences, an A.22 structure, bearer feasibility, decision, or realization. | Recover the proposal, adding exact claim identity when its use needs independent reidentification; distinguish the diagram and its correspondence when used. Use C.29 for an unresolved mathematical-representation choice, transfer, or reliance question. State the admission condition and return; C.32 can consume the modal proposal without actualizing it. Use `C.32.PAD` and `C.32.ADR` for decision and ADR claims. |
-| Pareto point as admission | A Pareto result records trade-off position under chosen criteria; its graph, table, or file is a neighboring representation or publication item, not architecture adequacy. | Name the exact result and the current next-use condition. Add search space, criteria, constraints, bearer boundary, and eval return only when the candidate use relies on them; then handle that use under `C.32`. |
+| LLM output as architecture | Plausible prose and a diagram may denote a modal architecture claim and its representation; neither supplies obtaining relation occurrences, an A.22 structure, bearer feasibility, decision, or realization. | Recover the proposal, adding claim identity when its use needs independent reidentification; distinguish the diagram and its correspondence when used. Use C.29 for an unresolved mathematical-representation choice, transfer, or reliance question. State the admission condition and return; C.32 can consume the modal proposal without actualizing it. Use `C.32.PAD` and `C.32.ADR` for decision and ADR claims. |
+| Pareto point as admission | A Pareto result records trade-off position under chosen criteria; its graph, table, or file is a neighboring representation or publication item, not architecture adequacy. | Name the result and the current next-use condition. Add search space, criteria, constraints, bearer boundary, and eval return only when the candidate use relies on them; then handle that use under `C.32`. |
 | One output as reusable-generator governance | A single generated output does not by itself establish claims about the reusable generator's method, mechanism suite, dataset, prompt policy, or refresh process. | Keep the one-case output in C.35 and open `E.20`, `G.1`, `G.10`, `G.11`, or another pattern that defines or constrains the reusable-generator claim. |
-| Cluster as module architecture | A cluster claim can expose co-change or dependency pressure while leaving functional-bearer semantics, interface substitutability, and obtaining relation occurrences unknown; its matrix or file does not settle that gap. | Recover the exact cluster result, extraction basis, observed and inferred content, unknowns, coverage, uncertainty, validation, and the representation correspondence required by its use. Keep unestablished claims about the existing organization unresolved and any proposed reorganization modal; handle modularity and reuse under `C.31` and candidate use under `C.32`. |
-| Transformation output as feasibility proof | A graph grammar or model-transformation Method can return a useful claim and representation while proving neither an actual `U.Transformation` nor an obtaining A.22 result structure. | Recover the exact result, source and result objects, transformation trace, preservation and loss, and the bearer boundary needed by the use. Include the Method, Work and attribution when those claims are current. Retain a relied-on representation correspondence and use C.29 for a remaining choice, transfer, or reliance question. Keep a proposed result organization in its architecture claim; cite A.22 only after its four discriminators resolve, and cite A.3.4 plus the Work-to-change or A.15.PROD claim for any actual change. |
+| Cluster as module architecture | A cluster claim can expose co-change or dependency pressure while leaving functional-bearer semantics, interface substitutability, and obtaining relation occurrences unknown; its matrix or file does not settle that gap. | Recover the cluster result, extraction basis, observed and inferred content, unknowns, coverage, uncertainty, validation, and the representation correspondence required by its use. Keep unestablished claims about the existing organization unresolved and any proposed reorganization modal; handle modularity and reuse under `C.31` and candidate use under `C.32`. |
+| Transformation output as feasibility proof | A graph grammar or model-transformation Method can return a useful claim and representation while proving neither an actual `U.Transformation` nor an obtaining A.22 result structure. | Recover the result, source and result objects, transformation trace, preservation and loss, and the bearer boundary needed by the use. Include the Method, Work and attribution when those claims are current. Retain a relied-on representation correspondence and use C.29 for a remaining choice, transfer, or reliance question. Keep a proposed result organization in its architecture claim; cite A.22 only after its four discriminators resolve, and cite A.3.4 plus the Work-to-change or A.15.PROD claim for any actual change. |
 | Bypassing eval and measurement governance | A search score, benchmark, ablation, or validation trace can look like proof of architecture quality. | Use `C.16` for measurement readings, `C.25` for Q-bundle use, `C.32.ACE` for eval programs and eval results, and `C.32.PAD` for project architecture decisions. |
 

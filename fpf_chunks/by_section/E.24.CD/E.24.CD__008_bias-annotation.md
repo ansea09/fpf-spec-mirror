@@ -6,12 +6,12 @@ section_id: "E.24.CD:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.CD/E.24.CD__008_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.24.CD — Ontic Candidate Detection and First-Use Disposition"
   - "E.24.CD:6 — Bias-Annotation"
-line_start: 116820
-line_end: 116833
+line_start: 124287
+line_end: 124300
 dependencies:
   - "A.1"
   - "A.14"
@@ -57,7 +57,7 @@ keywords:
 
 
 
-This pattern intentionally biases toward early recovery of the real subject and the blocked work. It resists:
+This pattern favors early recovery of the real subject and the blocked work. It resists:
 
 - **publication-form bias:** treating a card, schema, table, or record as the subject matter;
 - **wording bias:** treating a repeated word as a kind or relation decision;
@@ -65,5 +65,5 @@ This pattern intentionally biases toward early recovery of the real subject and 
 - **scoring bias:** rating a candidate before its subject, identity rule, direct relations, and practical use are known;
 - **semio-bias:** discussing forms and labels while the governed subject and claim disappear.
 
-The mitigation is concrete: name the work, subject, needed claim, pattern that states it, applicable disposition, next action, and stop or return. Open E.24 from the detection facts in section 4.3; the identity rule and relation set remain its settlement question.
+Name the work, the subject and claim you can identify, and the applicable pattern or missing fact. State the disposition, next action and stop or return condition. Open E.24 from the detection facts in section 4.3; the identity rule and relation set remain its settlement question.
 

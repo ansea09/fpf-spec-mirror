@@ -6,12 +6,12 @@ section_id: "C.41.UA:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.UA/C.41.UA__012_sota-echoing.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.41.UA — Use a Checklist to Answer Questions and Act on the Results"
   - "C.41.UA:11 — SoTA-Echoing"
-line_start: 89647
-line_end: 89656
+line_start: 93915
+line_end: 93924
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -24,9 +24,9 @@ keywords:
 
 ### C.41.UA:11 - SoTA-Echoing
 
-How much recovery or fresh checking is needed after an interruption or changed premise? **Adopt** sufficient existing grounds for the actual question, and **adapt** the resumption cue to the missing context. The serious alternatives are a position marker, a marker with question-specific content, and obtaining a fresh observation. Section 4.1 chooses among them by whether the question and prior grounds are recoverable and still apply, including the cost of that recovery.
+How much recovery or fresh checking is needed after an interruption or changed premise? **Adopt** sufficient existing grounds for the question, and **adapt** the resumption cue to the missing context. The alternatives are a position marker, a marker with question-specific content, and obtaining a fresh observation. Section 4.1 chooses among them by whether the question and prior grounds are recoverable and still apply, including the cost of that recovery.
 
-A bare “card seven” is enough only when the performer already knows what was compared and against which description. When that context is missing, retaining it avoids either guessing or repeating all comparisons. The deliberate trade-off is a little more preparation and reading for a more dependable continuation. If recovering a trustworthy record costs more than an adequate direct inspection, inspect again. In §5, however, known unchanged S and the changed v3 phrase already support No: another observation adds no needed information. If S may have changed, current inspection supplies a missing basis. These branches **reject** both automatic repetition and automatic reuse.
+A bare “card seven” is enough only when the performer already knows what was compared and against which description. When that context is missing, retaining it avoids either guessing or repeating all comparisons. The trade-off is a little more preparation and reading for a more dependable continuation. If recovering a trustworthy record costs more than an adequate inspection, inspect again. In §5, however, known unchanged S and the changed v3 phrase support No: another observation adds no needed information. If S may have changed, current inspection supplies a missing basis. These branches **reject** both automatic repetition and automatic reuse.
 
 [Chen and colleagues' laboratory experiments](https://doi.org/10.1016/j.ergon.2023.103453) supply a contextual-cue candidate and comparisons with other task support, with effects that depend on the experimental condition and measure. They motivate testing which content matters; they do not rank every workplace recovery arrangement or establish a universal interface. The supplied *Methodology* and *Systems Management* manuscripts distinguish useful work from reporting. [Anthropic's 2025 account](https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents) supplies a concrete testing-before-pass arrangement; its [2026 account](https://www.anthropic.com/engineering/harness-design-long-running-apps) motivates revisiting the means as capabilities change. Those engineering cases do not establish that every resumed occasion needs a new test.
 

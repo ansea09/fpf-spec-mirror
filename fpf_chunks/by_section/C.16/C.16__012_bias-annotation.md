@@ -6,12 +6,12 @@ section_id: "C.16:9"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__012_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:9 — Bias-Annotation"
-line_start: 58821
-line_end: 58830
+line_start: 61205
+line_end: 61214
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -60,6 +60,6 @@ keywords:
 | Number-as-fact | A displayed value lacks measurand, Characteristic, Scale, model, calibration, uncertainty, or time stance. | Rebuild the complete C.16 chain. |
 | Instrument realism | Raw output or indication is asserted as the actual subject state. | Separate output, indication, attributed result, and subject state. |
 | Uncertainty laundering | A point estimate is carried forward while model and calibration uncertainty disappear. | Recover input uncertainties, correlations, propagation, and interpretation. |
-| Dashboard authority | A tile or score is reused as diagnosis, assurance, acceptance, or decision authority. | Route the later use to the exact patterns for its Work, result, provenance, currentness, and reliance claims. |
-| Common-scale pressure | Distinct scales are normalized merely because comparison is desired. | Require an exact transformation and receiving comparison pattern; otherwise preserve incomparability. |
+| Dashboard authority | A tile or score is reused as diagnosis, assurance, acceptance, or decision authority. | Route the later use to the patterns for its Work, result, provenance, currentness, and reliance claims. |
+| Common-scale pressure | Distinct scales are normalized merely because comparison is desired. | Require a specified transformation and receiving comparison pattern; otherwise preserve incomparability. |
 

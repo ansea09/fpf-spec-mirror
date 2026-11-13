@@ -6,12 +6,12 @@ section_id: "E.17.1:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__011_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.17.1 — Viewpoint Bundle Library - Reusable Viewpoint Reference Bundles"
   - "E.17.1:10 — Rationale"
-line_start: 106823
-line_end: 106826
+line_start: 113354
+line_end: 113359
 dependencies:
   - "A.16.0"
   - "A.22"
@@ -37,5 +37,7 @@ keywords:
 
 ### E.17.1:10 - Rationale
 
-`MultiViewDescribing` supports viewpoint plurality. `E.17.1` supplies packaging and provenance discipline for that plurality, including cases where viewpoints are used to re-express positions in a language-state chart declared under C.2.2a or language-state history accounts through the `LanguageStateMoveTrajectory` form under `A.16.0`. It makes member provenance explicit across repeated uses. Semantic correspondence is a separate result: same-scheme comparison states its exact predicate and participants, while cross-context comparison uses F.9 and a bounded-use reliance path.
+`MultiViewDescribing` supports viewpoint plurality. `E.17.1` supplies packaging and provenance discipline for that plurality, including cases where viewpoints are used to re-express positions in a language-state chart declared under C.2.2a or language-state history accounts through the `LanguageStateMoveTrajectory` form under `A.16.0`. It makes member provenance explicit across repeated uses.
+
+Semantic correspondence is a separate result: same-scheme comparison states its predicate and participants, while cross-context comparison uses F.9 and a bounded-use reliance path.
 

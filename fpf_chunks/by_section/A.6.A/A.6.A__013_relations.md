@@ -6,12 +6,12 @@ section_id: "A.6.A:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.A/A.6.A__013_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.A — Affordance and Action-Invitation Precision Restoration (ACT-INV)"
   - "A.6.A:12 — Relations"
-line_start: 22433
-line_end: 22455
+line_start: 23322
+line_end: 23344
 dependencies:
   - "A.15"
   - "A.16"
@@ -62,7 +62,7 @@ keywords:
 [A6A-4]: https://roboticsconference.org/2024/program/papers/62/ "https://roboticsconference.org/2024/program/papers/62/"
 
 #### A.6.A:12.1 - Early cues and recovered meanings
-Use this method when the wording can support a useful interpretation or a question that distinguishes alternatives. Earlier cues may remain with `A.16.1` or `B.4.1`. A recovered inquiry can remain open, and a recovered physical claim can return its exact missing rule or fact.
+Use this method when the wording can support a useful interpretation or a question that distinguishes alternatives. Earlier cues may remain with `A.16.1` or `B.4.1`. A recovered inquiry can remain open, and a recovered physical claim can return its missing rule or fact.
 
 #### A.6.A:12.2 - Continue from the recovered result
 Apply `A.6.B` when the recovered claim is boundary-bearing and `A.15` when a Method, plan or performed Work question is live. Keep an alert-intervention or operator-intervention reading distinguishable from a generic interface cue when human factors, authority or the policy rule change the result. A common invitation record is not a prerequisite.

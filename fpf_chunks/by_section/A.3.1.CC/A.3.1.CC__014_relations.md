@@ -6,12 +6,12 @@ section_id: "A.3.1.CC:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.CC/A.3.1.CC__014_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.3.1.CC — Check the Coherence of a Method Claim"
   - "A.3.1.CC:12 — Relations"
-line_start: 10799
-line_end: 10806
+line_start: 11200
+line_end: 11207
 dependencies:
   - "A.10"
   - "A.15.8.MS"

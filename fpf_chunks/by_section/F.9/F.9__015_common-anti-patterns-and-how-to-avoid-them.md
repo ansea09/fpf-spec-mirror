@@ -6,12 +6,12 @@ section_id: "F.9:13"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__015_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.9 — Relate Local Meanings across Contexts (Alignment and Bridge)"
   - "F.9:13 — Common Anti-Patterns and How to Avoid Them"
-line_start: 121488
-line_end: 121507
+line_start: 129188
+line_end: 129207
 dependencies:
   - "A.10"
   - "A.13"
@@ -60,10 +60,10 @@ keywords:
 | ID | Anti-pattern | Symptom | Repair |
 | --- | --- | --- | --- |
 | AP-1 | String-equals becomes sense-equals | Same spelling is used as proof of identity. | Resolve the exact cells and test the least-committing relation profile. |
-| AP-2 | Profile as use licence | Direction, use rule, or tolerated loss is placed inside profile identity. | Keep only relation semantics in the profile; state `<u,d,r,t>` in a separate C.2.1 claim. |
+| AP-2 | Profile as use licence | The direction, rule or tolerated loss of a proposed use is placed inside profile identity. | Keep only relation semantics in the profile; state `<u,d,r,t>` in a separate C.2.1 claim. |
 | AP-3 | Bridge-alone substitution | “A corresponds to B, therefore use A as B.” | Require both the obtaining Bridge and an affirmative bounded-use claim, then check A.10 or B.3 reliance. |
 | AP-4 | Symmetry grants two directions | An `Equivalence` Bridge is treated as two approved substitutions. | State and test each proposed use direction separately. |
-| AP-5 | Inclusion grants the reverse use | A broader sense is silently substituted for a narrower one. | Refine the endpoint senses and test the reverse relation and bounded use independently. |
+| AP-5 | Inclusion grants the reverse use | A broader sense is silently substituted for a narrower one. | Test the reverse use on its own rule and loss tolerance. If a positive use requires refined endpoint meanings or an inverse relation, test that new Bridge separately. |
 | AP-6 | Assessment score grants use | `CL=3` is cited instead of the exact rule, tolerance, and reliance path. | Treat the score as optional evidence shorthand; write and warrant the bounded-use claim. |
 | AP-7 | Loss note becomes tolerance | An observed difference is treated as automatically acceptable. | Put observed loss in evidence and the accepted maximum in the claim's `t`. |
 | AP-8 | Card creates relation or permission | An approved or published card is cited as obtaining or authorization. | Test the Bridge independently and recover authorization under its direct governor. |

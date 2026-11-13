@@ -6,28 +6,22 @@ section_id: "C.17:6"
 section_title: "Results, profiles, and assessment Work"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__008_results-profiles-and-assessment-work.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.17 — Characterising Generative Novelty and Value"
   - "C.17:6 — Results, profiles, and assessment Work"
-line_start: 60799
-line_end: 60822
+line_start: 63211
+line_end: 63234
 dependencies:
-  - "A.0"
   - "A.1.1"
   - "A.10"
-  - "A.13"
   - "A.15.1"
-  - "A.15.2"
   - "A.17"
   - "A.18"
   - "A.19"
   - "A.19.ECS"
-  - "A.2.1"
   - "A.3.1"
   - "A.3.2"
-  - "A.6.1"
-  - "B.1.6"
   - "B.3"
   - "B.4"
   - "C.11"
@@ -58,7 +52,7 @@ keywords:
 
 #### C.17:6.1 - Coordinate claims
 
-For each selected characteristic, choose one truthful route:
+For each selected characteristic, choose one route:
 
 - cite an already constituted `C.16` measurement-result episteme and its complete measurand, Characteristic, Scale, Method, dated measurement Work, measurand relation or A.6.1 binding, any further bindings required by the claim, time, uncertainty, and evidence chain;
 - if the current action measures the coordinate, constitute that complete C.16 chain before using the value;

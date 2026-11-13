@@ -6,12 +6,12 @@ section_id: "A.19.CN:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CN/A.19.CN__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.19.CN — CN-frame: Specify and Maintain Comparability and Normalization"
   - "A.19.CN:intro — Intro"
-line_start: 36402
-line_end: 36415
+line_start: 37904
+line_end: 37917
 dependencies:
   - "A.19"
   - "A.6.1"
@@ -43,9 +43,9 @@ keywords:
 
 > **Scope.** Use a CN-frame to state which values may be compared for one bearer and intended use. Declare the characteristic space, chart and comparison basis in CN-Spec, adding normalization when needed. Maintain editions retained for later reuse or shared use, and apply the conditions for each proposed reuse.
 >
-> **Use this when** readings need a recoverable comparison basis or a changed basis may affect their reuse. Keep the bearer, Characteristic and Scale meanings, observation or evaluation basis and intended comparison together. An already sufficient account can serve as CN-Spec; its notation is unrestricted. Apply the corresponding `A.19` mechanism pattern when normalization, indicatorization, scoring, aggregation, comparison or selection is actually needed. C.16 governs measurement backing and G.0 governs the applicable admission conditions.
+> **Use this when** readings need a recoverable comparison basis or a changed basis may affect their reuse. Keep the bearer, Characteristic and Scale meanings, observation or evaluation basis and intended comparison together. An already sufficient account can serve as CN-Spec; its notation is unrestricted. Apply the corresponding `A.19` mechanism pattern when normalization, indicatorization, scoring, aggregation, comparison or selection is needed. C.16 governs measurement backing and G.0 governs the applicable admission conditions.
 >
-> **Reader guide (fast navigation).**
+> **Reader guide.**
 > - “What does `NormalizationMethodId/…InstanceId/≡_UNM/NormalizationFix` mean?” → **A.19.UNM**.
 > - “What is an Indicator / `IndicatorChoicePolicy` and why NCV ≠ Indicator?” → **A.19.UINDM**.
 > - “Why can we trust a normalization / where does calibration or evidence live?” → **C.16 (MM‑CHR)**.

@@ -6,12 +6,12 @@ section_id: "C.40.RQ:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.RQ/C.40.RQ__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.40.RQ — Requalify Changed Opportunities"
   - "C.40.RQ:2 — Problem"
-line_start: 88094
-line_end: 88101
+line_start: 92328
+line_end: 92335
 dependencies:
   - "A.10"
   - "A.10.1"
@@ -28,5 +28,5 @@ Practitioners can respond to change too broadly or too narrowly. They repeat eve
 
 Another error rewrites the past. A revised opportunity description makes a previous recommendation seem different from what was delivered. A later step is treated as implemented because it was retained in a path. A missed observation is interpreted as evidence that nothing changed.
 
-The practitioner needs a local account of what changed, what actually depended on it, what is now supported, and who must act on the resulting question.
+The practitioner needs a local account of what changed, what depended on it, what is now supported, and who must act on the resulting question.
 

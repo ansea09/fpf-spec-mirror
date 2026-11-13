@@ -6,12 +6,12 @@ section_id: "D.5:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.5/D.5__011_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "D.5 — Bias Audit and Ethical Assurance"
   - "D.5:7 — Conformance Checklist"
-line_start: 92394
-line_end: 92402
+line_start: 96927
+line_end: 96935
 dependencies:
   - "A.10"
   - "B.3"
@@ -32,8 +32,8 @@ keywords:
 
 | ID | Requirement | Purpose |
 | --- | --- | --- |
-| CC-D5-1 | The result names the audited EntityOfConcern, intended use, affected populations or Systems, and the bias, fairness, impact, or ethical concern being answered. Relied-on evidence and material limitations qualify its warranted use. Assurance use, repair return, ClaimScope, and qualification window are explicit when they delimit the audit; record and investigation depth follow the particular reliance in §3.1. | Keeps audit scope inspectable. |
-| CC-D5-2 | Metric, causal fairness, evidence, assurance, publication, and architecture-residual claims use their direct owners. | Prevents D.5 from swallowing neighboring patterns. |
+| CC-D5-1 | The result names the audited EntityOfConcern, intended use, affected populations or Systems, and the bias, fairness, impact, or ethical concern being answered. Relied-on evidence and material limitations qualify its warranted use. Assurance use, repair return, ClaimScope, and qualification window are explicit when they delimit the audit; record and investigation depth follow the reliance in §3.1. | Keeps audit scope inspectable. |
+| CC-D5-2 | Metric, causal fairness, evidence, assurance, publication, and architecture-residual claims use their subject patterns. | Prevents D.5 from swallowing neighboring patterns. |
 | CC-D5-3 | Ethical assurance is recorded as assurance or evidence relation, not moral permission. | Keeps assurance from becoming ethical authorization. |
 | CC-D5-4 | If the audit exposes interlevel conflict, use D.3 for the conflict description and D.4 for mediation or decision use. | Keeps D.5 connected to the D cluster without replacing it. |
 

@@ -6,12 +6,12 @@ section_id: "B.5.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.1/B.5.1__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.5.1 — Coordinate Development States: Explore → Shape → Evidence → Operate"
   - "B.5.1:intro — Intro"
-line_start: 49519
-line_end: 49522
+line_start: 51575
+line_end: 51578
 dependencies:
   - "B.3.3"
   - "B.4"

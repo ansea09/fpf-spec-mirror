@@ -6,12 +6,12 @@ section_id: "C.32.PAD:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.PAD/C.32.PAD__006_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.32.PAD — Project Architecture Decision After Candidate Synthesis"
   - "C.32.PAD:5 — Archetypal Grounding"
-line_start: 80035
-line_end: 80051
+line_start: 83864
+line_end: 83880
 dependencies:
   - "A.1.STM"
   - "A.10"
@@ -71,7 +71,7 @@ keywords:
 
 **Project system-of-interest and network.** A plant-modernization decision designates already admitted `PumpUnit-3 : U.System` as the project system-of-interest and cites exact composite `PumpUpgradeWork-7`. The source label `SystemOfInterestRole` is recovered through `E.10.ROLE`. In this case the local `SystemOfInterestSystemRole` criterion selects the System occupying that role in the named undertaking: the intended delivery use, designation and relation of the participants' contributions are recoverable. Merely being under investigation would not satisfy that criterion. The kind is cited through `systemOfInterestKindRef`, and the separate judgment classifying `PumpUnit-3` under it is cited through `systemOfInterestClassificationRef`. This optional technical account serves a receiver that needs the classification; ordinary project reasoning need not introduce it. For this constructed case, the complete A.2.1 declaration of `PumpQualificationSystemOfInterestAssignment` is independently established: its assigned-kind domain contains `SystemOfInterestSystemRole`, and its predicate, applicability, participant meanings and occurrence-identity rule are settled. Case facts establish that predicate throughout the cited occurrence’s interval for `PumpUnit-3` as holder, the assigned kind and every other required participant. PAD cites the species and its obtaining occurrence `PumpUnit-3-QualificationAssignment-7` separately. A taxonomy or scheme is not an assignment participant, and neither kind, classification, nor assignment establishes Work, responsibility, or authority. Each Work-to-pump, Work-to-change, evaluation, production, or use fact keeps its own subject pattern. An independently selected E.18.NET network may connect production-system change, pump change, and qualification flows for the named project question. PAD cites that exact network, the optional C.2.1 selection judgment, and the C.30.TFS-REL architecture-use trace; it does not recreate network identity or infer cross-flow relations from a record or C.32.CONWAY pair row. If the decision needs a combined project-selection claim, apply A.15.6:4.1a to recover its local constructor semantics and required case facts. A separately materialized substrate is needed only under that pattern’s stated conditions. Return `missing-substrate[project-selection-conjunction]` only when the needed operator semantics are unavailable; distinguish unresolved case facts from an established failure of the claim.
 
-**Method-family architecture.** The team applies a review Method to compare specialized review contributions, peer rotation, and tool-supported triage. `E.10.ROLE` first recovers any local kind, assignment, direct-relation position, function claim, or ordinary label hidden by role wording. The selected option uses peer rotation plus a tool-supported evidence handoff. C.32.PAD records those exact recovered relations, Method, evidence, and information structures, the trade-off between teachability and evidence custody, and the refinement scope left open for local checklists.
+**Method-family architecture.** The team applies a review Method to compare specialized review contributions, peer rotation, and tool-supported triage. `E.10.ROLE` first recovers any local kind, assignment, direct-relation position, function claim, or ordinary label hidden by role wording. The selected option uses peer rotation plus a tool-supported evidence handoff. C.32.PAD records those recovered relations, Method, evidence, and information structures, the trade-off between teachability and evidence custody, and the refinement scope left open for local checklists.
 
 **Architecture influence and transformed-side fit.** An automation project changes both a toolchain and the product it is used to change. C.32.CONWAY supplies a synthesis frame or, only after direct settlement, an exact architecture-influence pair row over the obtaining source-side and transformed-side C.30 architecture relations. C.32.PAD records which toolchain structure is decision-relevant, which product-side structure is selected or intended, which Systems are intended, which assignment requirements and Methods are planned, and which fit change reopens the decision. A current assignment or actual Work appears only when it independently obtains. Performance and actual transformation require their own obtaining relations.
 

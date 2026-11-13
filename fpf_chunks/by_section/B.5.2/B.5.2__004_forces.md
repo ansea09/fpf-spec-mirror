@@ -6,12 +6,12 @@ section_id: "B.5.2:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2/B.5.2__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.5.2 — Generate and Compare Candidate Explanations (Abductive Loop)"
   - "B.5.2:3 — Forces"
-line_start: 49615
-line_end: 49624
+line_start: 51673
+line_end: 51682
 dependencies:
   - "A.10"
   - "A.16"
@@ -31,7 +31,7 @@ keywords:
 |---|---|
 | **Generativity vs discipline** | The loop must admit non-deductive candidate generation without making arbitrary guesses look admissible. |
 | **Breadth vs typed entry** | Abduction should begin from more than anomaly alone, but not from any untyped prose fragment. |
-| **Rival diversity vs decision pressure** | Several candidates should remain visible long enough to compare them, while still allowing one prime hypothesis to progress. |
+| **Rival diversity vs decision pressure** | Several candidates should remain visible long enough to compare them, while allowing one prime hypothesis to progress. |
 | **Speed vs traceability** | The loop must be light enough for repeated use but explicit enough to preserve provenance and later review. |
-| **Plausibility vs evidence** | A candidate may be worth pursuing before evidence is strong, but it still needs explicit plausibility grounds. |
+| **Plausibility vs evidence** | A candidate may be worth pursuing before evidence is strong, but it needs explicit plausibility grounds. |
 

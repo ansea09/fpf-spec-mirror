@@ -6,12 +6,12 @@ section_id: "F.17:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__006_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.17 — Make a Settled Naming Decision Recoverable for Reuse (Unified Term Sheet)"
   - "F.17:4 — Solution"
-line_start: 124178
-line_end: 124192
+line_start: 132053
+line_end: 132067
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -37,7 +37,6 @@ dependencies:
   - "F.10"
   - "F.14"
   - "F.15"
-  - "F.17"
   - "F.18"
   - "F.2"
   - "F.3"
@@ -47,7 +46,6 @@ dependencies:
   - "F.7"
   - "F.8"
   - "F.9"
-  - "G.11"
 keywords:
 ---
 
@@ -58,7 +56,7 @@ Recover the naming objects needed for the declared reuse, then constitute a row 
 1. **Recover the value.** Identify one exact already-governed value or relation, its kind, the pattern that defines or constrains it, its identity or obtaining semantics, and one proposed use. Split a mixed candidate before naming.
 2. **Apply the anti-explosion gate.** Use F.14 to establish what the receiving use needs before minting a card, cell, row or family. Reuse an adequate local expression, existing designation, alias or admitted row directly. A stronger object needs a contribution that those adequate treatments do not supply.
 3. **Settle only the durable name that is needed.** If one expression remains unresolved, use F.8. If a durable naming settlement is justified, F.18 constitutes one C.2.1 NameCard and selects the Tech designation and any Plain designation needed for a stated didactic use. The card creates neither the value nor its kind and does not require a cell or row.
-4. **Address a local sense only when useful.** Create one `SchemeSenseCell` only when the exact local expression and sense claim need a stable address under an effective by-value `ReferenceScheme`. Cite a selected bounded-model-use Structure only when its organization changes this exact naming use. The cell does not require a NameCard or row.
+4. **Address a local sense only when useful.** Create one `SchemeSenseCell` only when the exact local expression and sense claim need a stable address under an effective by-value `ReferenceScheme`. Cite a selected bounded-model-use Structure only when its organization changes this naming use. The cell does not require a NameCard or row.
 5. **Open the public-row gate independently.** Apply F.14 again when public, Core-facing, durable, or cross-local reuse needs a row. The current F.18 public-row interface supplies the exact NameCard, selected designations, governed value and kind, the locator for its defining or constraining pattern, effective scheme, and exact cell. None of those inputs alone requires the row.
 6. **Add a Bridge only for an actual cross-local relation.** Compare the exact `<ReferenceScheme, LocalSenseClaim>` projections. When the proposed row use relates different projections, cite an obtaining F.9 Bridge between the exact cells and separately cite the affirmative C.2.1 use claim plus its current A.10 or B.3 reliance. Same spelling, scheme difference, or cell presence proves no Bridge.
 7. **Constitute one row episteme.** Its C.2.1 EntityOfConcern is the exact independently governed value; its claim graph cites the separate naming-settlement episteme, selected designations, admitted citation use, any grounded blocked-use claim, rationale, and reopen condition. Split unlike governed values or independently different uses into separate rows.

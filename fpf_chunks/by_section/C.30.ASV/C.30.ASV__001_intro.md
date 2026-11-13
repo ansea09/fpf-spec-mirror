@@ -6,12 +6,12 @@ section_id: "C.30.ASV:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ASV/C.30.ASV__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
   - "C.30.ASV:intro — Intro"
-line_start: 73248
-line_end: 73253
+line_start: 76378
+line_end: 76383
 dependencies:
   - "A.1"
   - "A.10"
@@ -67,5 +67,5 @@ keywords:
 
 > **Type:** Architectural pattern
 > **Status:** Stable
-> **Normativity:** Normative unless explicitly marked informative
+> **Normativity:** Normative unless marked informative
 

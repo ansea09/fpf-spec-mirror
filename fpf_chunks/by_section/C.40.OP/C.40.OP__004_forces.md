@@ -6,12 +6,12 @@ section_id: "C.40.OP:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OP/C.40.OP__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.40.OP — Maintain Opportunities and Stepping Stones"
   - "C.40.OP:3 — Forces"
-line_start: 87890
-line_end: 87900
+line_start: 92124
+line_end: 92134
 dependencies:
   - "A.15.9"
   - "C.11.CRC"

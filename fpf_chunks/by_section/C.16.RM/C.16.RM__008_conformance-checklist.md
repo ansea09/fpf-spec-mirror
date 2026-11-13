@@ -6,12 +6,12 @@ section_id: "C.16.RM:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.RM/C.16.RM__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.16.RM — Repair a Measurement Model or Arrangement"
   - "C.16.RM:7 — Conformance Checklist"
-line_start: 59560
-line_end: 59569
+line_start: 61945
+line_end: 61954
 dependencies:
   - "B.5.MPC.R"
   - "B.5.RR"
@@ -31,6 +31,6 @@ keywords:
 - **CC-C16.RM-3 - Choice basis.** Available comparisons, domain relations or proportionate further inquiry support the selected repair.
 - **CC-C16.RM-4 - Target continuity.** The revised arrangement retains the intended target or a stated relation to the accepted changed use.
 - **CC-C16.RM-5 - Dependent results.** Changed models, computations, calibration and observations are carried through the affected interpretation.
-- **CC-C16.RM-6 - Adequate test.** The comparison can expose the addressed defect and supports the range or result actually claimed.
+- **CC-C16.RM-6 - Adequate test.** The comparison can expose the addressed defect and supports the range or result claimed.
 - **CC-C16.RM-7 - Useful completion.** The returned result and remaining uncertainty answer the receiving question or state the consequential limitation.
 

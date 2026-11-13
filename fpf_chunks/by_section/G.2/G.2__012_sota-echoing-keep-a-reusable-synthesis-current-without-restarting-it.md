@@ -6,12 +6,12 @@ section_id: "G.2:11"
 section_title: "SoTA-Echoing — keep a reusable synthesis current without restarting it"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.2/G.2__012_sota-echoing-keep-a-reusable-synthesis-current-without-restarting-it.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.2 — Harvest and Synthesize SoTA for a CG-Frame"
   - "G.2:11 — SoTA-Echoing — keep a reusable synthesis current without restarting it"
-line_start: 128148
-line_end: 128161
+line_start: 136198
+line_end: 136211
 dependencies:
   - "A.10"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
@@ -60,7 +60,7 @@ The [PRISMA 2020 reporting guidance](https://www.prisma-statement.org/prisma-202
 
 The [2024 PRISMA-LSR extension](https://www.bmj.com/content/387/bmj-2024-079183) supplies the more specific reporting line for an actually selected living protocol: justify that mode, identify the version's trigger and changes, and plan when to retire it. **Adapt** that distinction to the policy pins, change causes and downstream handoffs in §4.3 and `G.2-2 Extend`; G.11 governs refresh orchestration. Source reporting guidance does not supply an automatic update schedule or establish that a newly added claim is sound.
 
-The control-stack case in §5.1 makes the improvement concrete. If e1's operating-envelope claim is revised, the existing ledger identifies M-R and its consumers; re-examine that claim and the comparisons that depend on it. The new report does not add a family. The method-only count remains 2 until a distinct method-family unit within the declared population is found. A static review can also be updated correctly, but each separate consumer must recover the changed basis unless a shared update is published. For the same new source and receiving question, the selected pack reuses existing screening and claim relations; its added maintenance burden is justified only while repeated shared use and consequential change make that work useful.
+In the control-stack case (§5.1), if e1's operating-envelope claim is revised, locate the changed source and claim in the ledger. Use the family card and handoff manifests to identify M-R and its affected consumers, then re-examine the claim and the comparisons that depend on it. The new report does not add a family. The method-only count remains 2 until a distinct method-family unit within the declared population is found. A static review can also be updated correctly, but each separate consumer must recover the changed basis unless a shared update is published. For the same new source and receiving question, the selected pack reuses existing screening and claim relations; its added maintenance burden is justified only while repeated shared use and consequential change make that work useful.
 
 Reopen the choice of protocol when the evidence rate, decision importance, uncertainty or maintenance resources change; retire living surveillance when its reason no longer holds. Reopen an individual synthesis when a new source changes a relied-on claim, coverage judgement or alignment. A source with a new date but no relevant content change does not by itself warrant reconstructing every downstream conclusion.
 

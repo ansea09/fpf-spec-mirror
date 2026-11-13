@@ -6,12 +6,12 @@ section_id: "C.41:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41/C.41__006_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.41 — Select Checklist Questions for a Work Result"
   - "C.41:4 — Solution"
-line_start: 89086
-line_end: 89132
+line_start: 93354
+line_end: 93400
 dependencies:
   - "A.3.1"
   - "A.3.2"
@@ -35,7 +35,7 @@ Use your own and others' past omissions to propose questions, keeping the condit
 
 Follow the actual production and use relations far enough to expose a consequential omission. Who or what produces this result, what enables that producer, and who uses the result? At a relevant link, distinguish the producer or user, descriptions of it, its way of working and its actual work. A missing intermediate service, tool or capable performer may deserve attention even when the final subject looks satisfactory. Stop following links when further detail cannot change the selected questions. If the prospective subject does not yet exist, ask about the available materials, descriptions or enabling results without treating a description as the existing subject.
 
-Recover the descriptions used to judge the result and the assumptions connecting their described characteristics to that use. Use [C.39.RQ](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c39rq---construct-situated-method-requirements) when the missing criterion concerns a required Method contribution, retaining the subject/description distinction in §0.2. When the criterion's basis is unavailable, return that specific question to competent domain work.
+Recover the descriptions used to judge the result and the assumptions connecting their described characteristics to that use. Use [C.39.RQ](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c39rq---construct-situated-method-requirements) when the missing criterion concerns a required Method contribution, retaining the subject/description distinction in §0.2. When the criterion's basis is unavailable, return that question to competent domain work.
 
 #### C.41:4.2 - Propose questions and test their contribution
 
@@ -54,7 +54,7 @@ For each candidate, establish:
 
 These can be spoken answers in a small case. A maintained list benefits from nearby explanations where readers would otherwise guess. A criterion author can consult a specialist; the eventual user need not reproduce the author's entire reasoning.
 
-A question can support prevention, preparation for a possible failure or recovery after it. For the workshop, confirming usable backup materials can improve the response to a display failure without making that failure less likely. Ask what makes the action suitable for these actual participants and circumstances: printed copies may be ordinary access for one participant and backup for another. Keep the intended contribution explicit. Available backup materials do not establish a successful response, and preparation does not remove the possible value of improving the underlying technical Method.
+A question can support prevention, preparation for a possible failure or recovery after it. For the workshop, confirming usable backup materials can improve the response to a display failure without making that failure less likely. Ask what makes the action suitable for these participants and circumstances: printed copies may be ordinary access for one participant and backup for another. Keep the intended contribution explicit. Available backup materials do not establish a successful response, and preparation does not remove the possible value of improving the underlying technical Method.
 
 A canvas can prompt inquiry as well as confirm conditions. “Who will use this result, and why?” may initiate a conversation that develops an account; “Have we identified the intended users?” asks about that account. Select the prompt that serves this occasion, and distinguish obtaining an answer from judging its adequacy. Filled sections can expose missing connections without establishing that the described proposal will work. For a seminar proposal, naming participants, activities and available support does not establish that those participants can attend or that the activities help them learn. Keep the substantive assumptions and grounds available for discussion; use the appropriate domain practice to test them.
 

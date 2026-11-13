@@ -6,12 +6,12 @@ section_id: "A.2.7:5"
 section_title: "Worked Slices and Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.7/A.2.7__007_worked-slices-and-archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.2.7 — SystemRoleKindRelationStructure - Relations among System-Role Kinds"
   - "A.2.7:5 — Worked Slices and Archetypal Grounding"
-line_start: 7908
-line_end: 8034
+line_start: 8239
+line_end: 8367
 dependencies:
   - "A.2"
   - "A.2.1"
@@ -34,7 +34,7 @@ keywords:
 
 #### A.2.7:5.1 - Manufacturing Admission Substitution
 
-Plant A admits `SeniorHydraulicsTechnicianSystemRole` and `HydraulicsTechnicianSystemRole` as exact local kinds. During 2026H2, the pressure-test admission Method uses this rule: an assignment to the senior kind may satisfy the condition written for the technician kind only for `PumpPressureTestMethodFamily` and only while the candidate assignment satisfies A.2.5 predicate `PressureTestReady`.
+Plant A admits `SeniorHydraulicsTechnicianSystemRole` and `HydraulicsTechnicianSystemRole` as local kinds. During 2026H2, the pressure-test admission Method uses this rule: an assignment to the senior kind may satisfy the condition written for the technician kind only for `PumpPressureTestMethodFamily` and only while the candidate assignment satisfies A.2.5 predicate `PressureTestReady`.
 
 The direct species uses the local `PlantMaintenanceSystemRoleKindDomain`:
 
@@ -50,7 +50,9 @@ RelationSignature:
     PlantPressureTestAdmissionSubstitutionPredicate, ByValue
 ```
 
-The predicate names the ordered two kinds, receiving Method family, `PressureTestReady` rule, 2026H2 applicability, and the exact semantic basis whose edition changes either clause. `PlantMaintenanceRoles-2026` and `Plant-A-Maintenance-Scheme` may be cited in the assertion; they are not extra relation participants. When a later edition is used, compare those identity-bearing clauses. If they remain unchanged, use the same predicate. If a clause changes, identify the changed predicate and establish whether it obtains for its participants; a new relation occurrence begins only when it does. If the comparison is unresolved, leave predicate continuity unresolved.
+The predicate names the ordered two kinds, receiving Method family, `PressureTestReady` rule, 2026H2 applicability, and the semantic basis whose edition changes either clause. `PlantMaintenanceRoles-2026` and `Plant-A-Maintenance-Scheme` may be cited in the assertion; they are not extra relation participants.
+
+When a later edition is used, compare those identity-bearing clauses. If they remain unchanged, use the same predicate. If a clause changes, identify the changed predicate and establish whether it obtains for its participants; a new relation occurrence begins only when it does. If the comparison is unresolved, leave predicate continuity unresolved.
 
 ```text
 PlantPressureTestSubstitutionAssertion:
@@ -69,11 +71,11 @@ PlantPressureTestSubstitutionAssertion:
     systemRoleKindRelationExtent: [2026-07-01, 2026-12-31]
 ```
 
-The system performing admission checking resolves the candidate's exact A.2.1 assignment and its current `PressureTestReady` state occurrence. Those are inputs to the receiving rule, not substitution-relation participants. Capability is checked separately. For a claim about a particular performed pressure-test Work, identify the performer through A.13 and admit the occurrence independently through A.15.1; add F.6 when precise assignment attribution is needed.
+The system performing admission checking resolves the candidate's A.2.1 assignment and its current `PressureTestReady` state occurrence. Those are inputs to the receiving rule, not substitution-relation participants. Capability is checked separately. For a claim about a performed pressure-test Work, identify the performer through A.13 and admit the occurrence independently through A.15.1; add F.6 when precise assignment attribution is needed.
 
 #### A.2.7:5.2 - Safety Separation of Duties
 
-For one hazard-analysis Work item, the same system must not hold both author and approver assignments during overlapping windows. The direct species uses the exact `SafetyCaseSystemRoleKindDomain` and a predicate identified by the unordered pair `{HazardAnalysisAuthorSystemRole, HazardAnalysisApproverSystemRole}`, same-holder rule, same-Work rule, overlap test, applicability, and meaning-bearing semantic basis.
+For one hazard-analysis Work item, the same system must not hold both author and approver assignments during overlapping windows. The direct species uses the `SafetyCaseSystemRoleKindDomain` and a predicate identified by the unordered pair `{HazardAnalysisAuthorSystemRole, HazardAnalysisApproverSystemRole}`, same-holder rule, same-Work rule, overlap test, applicability, and meaning-bearing semantic basis.
 
 ```text
 HazardAnalysisAuthorApproverIncompatibility :
@@ -87,7 +89,7 @@ RelationSignature:
     HazardAnalysisSeparationPredicate, ByValue
 ```
 
-The predicate has characterized these kinds continuously since 2026-01-01. A particular pair of assignments with the same holder and Work item during overlapping windows is a later case satisfying the rule; it does not create the kind relation.
+The predicate has characterized these kinds continuously since 2026-01-01. A pair of assignments with the same holder and Work item during overlapping windows is a later case satisfying the rule; it does not create the kind relation.
 
 ```text
 HazardAnalysisAuthorApproverIncompatibilityAssertion:
@@ -107,7 +109,7 @@ HazardAnalysisAuthorApproverIncompatibilityAssertion:
     systemRoleKindRelationExtent: [2026-01-01, open]
 ```
 
-A verifier system applies the work-admission Method to two exact assignment occurrences and the target Work item. The checking Work produces the receiving decision.
+A verifier system applies the work-admission Method to two assignment occurrences and the target Work item. The checking Work produces the receiving decision.
 
 #### A.2.7:5.3 - Clinical Joint Admission
 
@@ -123,7 +125,7 @@ RelationSignature:
     ThreeDistinctHoldersForProcedurePredicate, ByValue
 ```
 
-The set is order-insensitive. The predicate names the three exact kinds, distinct-holder rule, full-window rule, procedure applicability, and meaning-bearing semantic basis. The taxonomy episteme and clinical reference scheme may help an assertion designate or interpret the kinds; they are not participants of the bundle relation.
+The set is order-insensitive. The predicate names the three kinds, distinct-holder rule, full-window rule, procedure applicability, and meaning-bearing semantic basis. The taxonomy episteme and clinical reference scheme may help an assertion designate or interpret the kinds; they are not participants of the bundle relation.
 
 ```text
 OperatingTheatreThreeSystemRoleBundleAssertion:
@@ -151,7 +153,7 @@ The lab proposes:
 RoboticsEngineerSystemRole U.SubkindOf EngineerSystemRole
 ```
 
-The proposal is not a premise for classifying Vasya or any other system. Under the exact aligned `KindSignature` editions and effective reference-scheme edition, direct robotics-engineering features are evaluated against both kinds. Only if every defined true `RoboticsEngineerSystemRole` judgment implies a true `EngineerSystemRole` judgment may C.3.1 establish the relation.
+The proposal is not a premise for classifying Vasya or any other system. Under the aligned `KindSignature` editions and effective reference-scheme edition, direct robotics-engineering features are evaluated against both kinds. Only if every defined true `RoboticsEngineerSystemRole` judgment implies a true `EngineerSystemRole` judgment may C.3.1 establish the relation.
 
 A known robotics-engineer `true` with engineer `false` refutes the relation. If a dependency required by the broader judgment is unavailable, the result is `unknown` and the order remains unresolved. A restriction concerning only one Method family, project phase, or allocation condition that fails monotonicity uses a residual qualification relation instead.
 

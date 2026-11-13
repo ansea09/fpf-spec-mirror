@@ -6,12 +6,12 @@ section_id: "B.3.4:7"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.4/B.3.4__008_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.3.4 — Can Earlier Evidence Still Support This Use? — Evidence Decay and Epistemic Debt"
   - "B.3.4:7 — Consequences"
-line_start: 45390
-line_end: 45395
+line_start: 47250
+line_end: 47255
 dependencies:
   - "A.10"
   - "B.3"
@@ -30,7 +30,7 @@ keywords:
 
 ### B.3.4:7 - Consequences
 
-Teams can retain applicable support and direct review towards changed premises, reducing needless repetition without losing actual maintenance obligations. Later recipients receive the warnings that change their decisions.
+Teams can retain applicable support and direct review towards changed premises, reducing needless repetition without losing maintenance obligations. Later recipients receive the warnings that change their decisions.
 
-This requires judgement about dependency reach and review policy. An optional queue or dashboard helps allocate capacity but cannot replace that judgement. Sparse evidence about a relevant condition may leave the current use unresolved even when the carrier itself is unchanged.
+This requires judgement about dependency reach and review policy. An optional queue or dashboard helps allocate capacity but cannot replace that judgement. Sparse evidence about a relevant condition may leave the use unresolved even when the carrier itself is unchanged.
 

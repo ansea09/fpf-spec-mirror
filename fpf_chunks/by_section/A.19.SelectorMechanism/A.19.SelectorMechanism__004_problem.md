@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.19.SelectorMechanism"
-pattern_title: "Unified Selection Kernel, SelectorMechanism"
+pattern_title: "Selection Kernel"
 section_id: "A.19.SelectorMechanism:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SelectorMechanism/A.19.SelectorMechanism__004_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.19.SelectorMechanism — Unified Selection Kernel, SelectorMechanism"
+  - "A.19.SelectorMechanism — Selection Kernel"
   - "A.19.SelectorMechanism:2 — Problem"
-line_start: 39192
-line_end: 39211
+line_start: 40747
+line_end: 40766
 dependencies:
   - "A.19.CHR"
   - "A.19.CN"
@@ -38,7 +38,7 @@ keywords:
 
 ### A.19.SelectorMechanism:2 - Problem
 
-Engineering teams regularly need to make “a selection decision” under conditions that are normal in real projects:
+Engineering teams regularly need to make “a selection decision” under conditions that are normal in projects:
 
 * comparisons are partial, multi‑criteria, or set‑valued,
 * evidence is incomplete or policy‑gated, and
@@ -50,7 +50,7 @@ If selection is not a first‑class mechanism boundary with stable semantics, th
 * **Hidden thresholds and constants:** thresholds, weights, dominance regimes, and default `PortfolioMode` fields get smuggled into implementations and become invisible in discussion and audit.
 * **Scalarization by convenience:** set‑valued comparison outcomes get replaced by a scalar “score summary” that is treated as decision‑relevant without being declared as such.
 * **Evidence coercion:** missing or unknown evidence gets treated as “good enough” (implicit pass) rather than yielding explicit `degrade` or `abstain`.
-* **Boundary erosion:** selection quietly performs comparison, scoring, aggregation, or publishing.
+* **Boundary erosion:** selection performs comparison, scoring, aggregation, or publishing.
 * **Selection-boundary drift:** a selected-set label is reused after candidate universe, finite upstream comparison-application basis or its required coverage, selection conditions, A.19 predicate, claim scope, selected context slices, reference plane, or evaluation window changed.
 * **Guard-output collapse:** `degrade` or `abstain` is treated as a selected-set member or as a generic selection result.
 

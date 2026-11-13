@@ -6,12 +6,12 @@ section_id: "B.1.2:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.2/B.1.2__012_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.1.2 — Coordinate Decisions About System Aggregation and Delimitation"
   - "B.1.2:9 — Rationale"
-line_start: 41615
-line_end: 41618
+line_start: 43229
+line_end: 43232
 dependencies:
   - "A.1"
   - "A.10"

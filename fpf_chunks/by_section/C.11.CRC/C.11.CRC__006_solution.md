@@ -6,12 +6,12 @@ section_id: "C.11.CRC:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.CRC/C.11.CRC__006_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.11.CRC — Configuration-Relative Contribution Comparison"
   - "C.11.CRC:4 — Solution"
-line_start: 57487
-line_end: 57549
+line_start: 59819
+line_end: 59881
 dependencies:
   - "A.1.CSD"
   - "A.10"
@@ -50,7 +50,7 @@ Construct the smallest finite counterfactual comparison that can change the answ
 2. **Freeze the current configuration.** Name the actual or currently relied-on configuration `S0`, system boundary, affected Systems, the holder or beneficiary and what it holds or benefits from, relevant environment, and what is held fixed only for this comparison. If the affected-System coordinate is missing and could change the comparison, use `A.1.CSD` first; bring back only consequence claims compatible with this `S0`/`Δ`/`S1`, horizon, evidence window, and receiving decision. A historical, empty, or ideal configuration is not the default baseline.
 3. **Name the finite change.** State the addition, replacement, removal, intervention, or probe `Δ`, the realizable candidate configuration `S1`, admissibility conditions, implementation capability, planned transition work, reversibility, and excluded variants.
 4. **Fix horizon and scenarios.** State the interval, relevant states or scenarios, timing assumptions, and any decision or evidence window. Do not combine results from incompatible horizons without an explicit mapping.
-5. **Declare result coordinates.** Name the result vector whose coordinates can change the decision and the protected coordinates that may not be silently scalarized. Include affected-System consequences and distributional differences when current.
+5. **Declare result coordinates.** Name the result vector whose coordinates can change the decision and the protected coordinates that may not be silently scalarized. Include affected-System consequences and distributional differences when they matter to the comparison.
 6. **Declare resource coordinates.** For the action, transition, information acquisition, and computation, name the attention, capital, time, material, energy, and other resources consumed or expected to be consumed in this field case. State required authority separately as an admissibility condition. Keep costs of evaluating and realizing the change distinct.
 7. **Recover constraints and interactions.** State active and potentially activated constraints, complements, substitutes, thresholds, congestion, downstream effects, common causes, overlaps, and double-counting risks.
 8. **Recover option effects.** State whether the finite change opens, closes, delays, preserves, or makes irreversible later options. Keep information value and option value as decision inputs, not already realized operating results.
@@ -61,7 +61,7 @@ Construct the smallest finite counterfactual comparison that can change the answ
 
 #### C.11.CRC:4.1 - Lightweight comparison form
 
-`ConfigurationRelativeContributionComparison@Context` is a form name for one ordinary comparison episteme. It is not a root U-kind, universal delta value, selector result, or decision.
+`ConfigurationRelativeContributionComparison@Context` is a form name for one comparison episteme. It is not a root U-kind, universal delta value, selector result, or decision.
 
 ```text
 receivingQuestionRef:
@@ -87,7 +87,7 @@ An ordinary comparison sentence or existing calculation can carry this result wh
 
 #### C.11.CRC:4.2 - Mathematical and model-routing distinction
 
-| Expression encountered | Exact question | Required boundary |
+| Expression encountered | Question | Required boundary |
 | --- | --- | --- |
 | Finite difference or counterfactual configuration comparison | What changes between realizable `S0` and `S1` over the declared horizon? | Default here for indivisible, non-smooth, thresholded, path-dependent, or strongly interacting changes. Do not infer additivity. |
 | Derivative or gradient | What is the local rate of change with respect to a coordinate under smoothness and small-change assumptions? | It approximates the finite contribution only when the validity region and remainder are adequate for `Δ`. |

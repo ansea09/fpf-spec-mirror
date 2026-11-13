@@ -6,12 +6,12 @@ section_id: "C.16:7"
 section_title: "Provenance and use semantics (Normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__008_provenance-and-use-semantics-normative.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:7 — Provenance and use semantics (Normative)"
-line_start: 58760
-line_end: 58769
+line_start: 61144
+line_end: 61153
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -61,5 +61,5 @@ An evidence stub is an optional compact locator from the reading claim to an exa
 
 - Several stubs form a list of locators, not a measurement algebra. Their union is not uncertainty propagation and does not guarantee stronger warrant.
 - A provenance edge may be asserted only after its direct source relation, work fact, participation, production, representation, or citation relation is independently established.
-- A later user states the exact relied-on claim and local `RelianceDisposition`; use B.3 when an actual named assurance claim is current. Mere availability, citation, or graph membership does not establish actual use.
+- A later user states the exact relied-on claim and local `RelianceDisposition`; use B.3 when a named assurance claim is at issue. Mere availability, citation, or graph membership does not establish actual use.
 

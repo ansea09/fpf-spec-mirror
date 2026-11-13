@@ -6,12 +6,12 @@ section_id: "A.9:9"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.9/A.9__010_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.9 — Choose and Check an Aggregation Law for the Intended Result"
   - "A.9:9 — Relations"
-line_start: 26657
-line_end: 26669
+line_start: 27649
+line_end: 27661
 dependencies:
   - "A.19.CN"
   - "A.19.ULSAM"
@@ -37,7 +37,7 @@ keywords:
 | A.8 | Tests a proposed durable U-kind's universal-core placement only when that separate admission question is live. |
 | C.29 | Governs the mathematical representation and its subject correspondence; domain theory supplies the application law. |
 | A.19.CN, A.19.CHR and A.19.ULSAM | CN records the selected characteristic basis and aggregation claim; ULSAM operates the selected CHR fold under its own admissibility and scale rules. A.9 settles an unresolved choice or needed property before reliance. |
-| B.1.5 and B.1.6 | Supply direct Method-composition and resource-accounting rules for those uses. |
+| B.1.5 and B.1.6 | Supply Method-composition and resource-accounting rules for those uses. |
 | B.3 | Supplies assurance when the receiving claim requires it. |
 | B.2 | Governs whole reidentification independently of aggregation-law failure. |
 

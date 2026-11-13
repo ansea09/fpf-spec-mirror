@@ -6,12 +6,12 @@ section_id: "C.39:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39/C.39__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.39 — Find and Develop a Way to Obtain a Result"
   - "C.39:3 — Forces"
-line_start: 82688
-line_end: 82697
+line_start: 86720
+line_end: 86729
 dependencies:
   - "A.22.CGUS"
   - "A.3.1"
@@ -36,8 +36,8 @@ keywords:
 | Force | Tension |
 | --- | --- |
 | A useful explanation versus a promising name | A familiar technique can guide retrieval while concealing its required inputs and limits. |
-| Reuse versus invention | An existing Method can finish the question cheaply; a genuinely missing connection still needs constructive work. |
+| Reuse versus invention | An existing Method can finish the question cheaply; a missing connection needs constructive work. |
 | Transfer versus source fidelity | The receiving problem may require adaptation, but changing a source's claim to fit the target supplies no evidence. |
 | Sufficient understanding versus endless refinement | A constituent gap matters when it can change the whole result, feasibility or burden. |
-| A candidate versus a demonstrated result | An explanation can support the next inquiry before actual applicability or realization is established. |
+| A candidate versus a demonstrated result | An explanation can support the next inquiry before the way's applicability or realization is established. |
 

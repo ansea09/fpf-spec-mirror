@@ -6,12 +6,12 @@ section_id: "C.11.DUA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.DUA/C.11.DUA__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.11.DUA — Make Advice and Evidence Demands Worth Their Burden"
   - "C.11.DUA:4 — Solution"
-line_start: 57856
-line_end: 57935
+line_start: 60201
+line_end: 60282
 dependencies:
   - "A.10"
   - "C.11"
@@ -32,7 +32,7 @@ Start from what the recipient is trying to settle. Recover the work hidden in th
 
 #### C.11.DUA:4.1 - Recover the receiving question and demanded work
 
-Identify the question the recipient needs answered and the horizon at which an improvement matters. Read an existing instruction as something somebody would actually have to perform: what would they believe, do, stop doing, postpone or spend if they followed it?
+Identify the question the recipient needs answered and the horizon at which an improvement matters. Read an existing instruction as something somebody would have to perform: what would they believe, do, stop doing, postpone or spend if they followed it?
 
 Recover a missing performer, resource, access, time condition or authority when it can change feasibility or the recommendation. An unavailable data set or a study that finishes after the decision window is a different option from an available timely check. Do not turn a simple answer into a universal plan form.
 
@@ -46,11 +46,11 @@ Keep three answers distinct:
 | What can the recipient reasonably do with that basis? | A feasible continuation, narrower use, reversible action, deferral or stop. | `C.11` for a local choice; `C.11.CRC` when the finite contribution comparison is missing. |
 | What further inquiry could improve that use? | A worthwhile attainable check, or continuation with the present basis. | `C.11` for information or computation value; the direct subject method for the inquiry. |
 
-These are questions to resolve where live, not three mandatory output fields. A source limitation qualifies the attempted claim. It does not by itself choose evidence acquisition.
+Resolve these questions when relevant to the receiving use; they are not three mandatory output fields. A source limitation qualifies the attempted claim. It does not by itself choose evidence acquisition.
 
 #### C.11.DUA:4.2 - Compare attainable inquiry with its receiving value
 
-If the relevant distinction or possible result is not yet expressible, use B.5:4.1.2 to develop grounds from an accessible episode, source or attempt. The immediate comparison can concern a bounded exploration likely to improve the description or reveal a dependency. It need not promise a particular discovery. Return with the basis actually obtained before demanding a specific action-changing answer. Appraising an already formulated inquiry and constructing its missing basis are different contributions.
+If the relevant distinction or possible result is not yet expressible, use B.5:4.1.2 to develop grounds from an accessible episode, source or attempt. The immediate comparison can concern a bounded exploration likely to improve the description or reveal a dependency. It need not promise a particular discovery. Return with the basis obtained before demanding a specific action-changing answer. Appraising an already formulated inquiry and constructing its missing basis are different contributions.
 
 When an inquiry is proposed or a consequential uncertainty, anomaly or applicable requirement makes one live, identify a plausible result that would change the conclusion, choice or warranted use. Compare obtaining that result with the feasible alternatives. These may include using present knowledge, a smaller reversible step, a different source, a narrower claim, deferral or stopping.
 
@@ -64,7 +64,7 @@ For exploratory research, name the explanatory, model-building, hypothesis-discr
 
 ##### C.11.DUA:4.2.1 - Compare a proposed change with continuing the work
 
-For optional advice to change a way of working, include continuing without that change among the serious alternatives. A useful new contribution can be considered while the present work succeeds and its constraints remain unchanged. Recover what the recipient could gain, on which horizon, and what following the advice would require.
+For optional advice to change a way of working, include continuing without that change in the comparison. A useful new contribution can be considered while the present work succeeds and its constraints remain unchanged. Recover what the recipient could gain, on which horizon, and what following the advice would require.
 
 When the gain depends on a constituent action, use B.1.5.EW to recover the encompassing work performed through it, the contributions needed below it and the conditions that change its use. Use B.1.5.RS for a proposed replacement in those wholes. Include a second receiving whole or an intermediate connection while it can reverse the advice. Use an already adequate account directly.
 
@@ -72,7 +72,9 @@ Compare the full continuation: understanding and discussing the advice, obtainin
 
 Keep deciding to think further, presenting advice, deciding to change and performing the change separate. Cheap computation can justify frequent consideration while interruption and transition costs justify infrequent advice or intervention. Consider timing and a smaller change when those alternatives matter. A change in performer capability or adaptation cost can justify reconsidering the encompassing way of working.
 
-Use the available basis before asking the recipient for more work. Unclear benefit alone gives the recipient no obligation to prove an optional suggestion useless or fund an expensive evaluation. Obtain more information only when a plausible attainable answer can change a worthwhile continuation. If presenting the advice has no proportionate basis, continue without presenting it; no rejection record is required merely to finish. Preserve a reason or reconsideration condition only for a receiving use that needs it.
+Use the available basis before asking the recipient for more work. Unclear benefit alone gives the recipient no obligation to prove an optional suggestion useless or fund an expensive evaluation. Obtain more information only when a plausible attainable answer can change a worthwhile continuation.
+
+If presenting the advice has no proportionate basis, continue without presenting it; no rejection record is required merely to finish. Preserve a reason or reconsideration condition only for a receiving use that needs it.
 
 An existing obligation still constrains the available continuations. Examine its merits and possible revision through section 4.3 when that question is live.
 
@@ -84,7 +86,7 @@ Compare retaining, tightening, relaxing or replacing the requirement only where 
 
 A limit below background calls first for distinguishing the incoming background, the activity's attributable increment and the total resulting level. A total-exposure objective can justify reducing background too. Neither “below background” nor “required for safety” settles the merits without that contribution comparison.
 
-Keep the merits judgement separate from the currently available action set. A binding requirement continues to govern until the relevant authority or agreement changes it. Advice can recommend a lawful exception, a revised criterion or another activity and identify the feasible route to that change. A hoped-for revision is not already available. If the current requirement makes the proposed action unavailable and no acceptable alternative or timely revision is feasible, state that impasse.
+Keep the merits judgement separate from the currently available action set. A binding requirement continues to govern until the relevant authority or agreement changes it. Advice can recommend a lawful exception, a revised criterion or another activity and identify the feasible route to that change. If the current requirement makes the proposed action unavailable and no acceptable alternative or timely revision is feasible, state that impasse.
 
 When applying apparatus under `C.19.2`, compare eligible applications under the current result, guarantee and constraints. A cheaper method that drops a required guarantee is a different proposal. Resume under a revised declaration only when that revision is available through its governing authority or agreement.
 
@@ -96,7 +98,7 @@ For an external-text review, return a concrete repair: identify the demanded wor
 
 Follow the selected method through its completion requirements. Keep the recommendation or decision and its useful basis. An inactive inquiry creates no empty field, no waiver and no requirement to explain why checking was omitted. If a later recipient would otherwise overgeneralize the result, infer fresh evidence or miss a material limitation, retain the minimum explanation in that result. A short useful explanation alone need not instantiate a complete probe account.
 
-Apply the same appraisal to any prescribed record. If it has binding force, distinguish its usefulness from what the current procedure requires and use the available revision route. This pattern does not manufacture permission to disregard it.
+Apply the same appraisal to any prescribed record. If it has binding force, distinguish its usefulness from what the current procedure requires and use the available revision route. This appraisal does not grant permission to disregard it.
 
 Finish when the recipient has the warranted answer and continuation for the present question, including a justified stop when necessary. Reopen when the receiving use, possible consequence, feasible means, source basis or information opportunity changes materially.
 

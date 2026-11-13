@@ -6,12 +6,12 @@ section_id: "E.13:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.13/E.13__012_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.13 — Pragmatic Utility and Proxy-to-Value Alignment"
   - "E.13:9 — Rationale"
-line_start: 105217
-line_end: 105222
+line_start: 111567
+line_end: 111572
 dependencies:
   - "A.10"
   - "A.21"
@@ -40,7 +40,7 @@ keywords:
 
 ### E.13:9 - Rationale
 
-FPF needs measurement, evaluation, assurance, and release checks, but those checks remain instruments. They are not the value by themselves. `E.13` keeps the visible instrument attached to the intended value and asks whether the value survives optimization pressure.
+FPF needs measurement, evaluation, assurance, and release checks as instruments for pursuing practical value. `E.13` keeps the visible instrument attached to the intended value and asks whether the value survives optimization pressure.
 
-Goodhart-style failure is not repaired by another large audit apparatus. It is repaired by restoring the relation among value, proxy, use position, protected qualities, and a small slice where the value is visible.
+To repair a Goodhart-style failure, restore the relation among the intended value, the proxy, its use, the protected qualities, and a small case that shows the value. Adding another large audit cannot by itself restore that relation.
 

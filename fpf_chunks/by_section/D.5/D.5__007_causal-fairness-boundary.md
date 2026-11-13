@@ -6,12 +6,12 @@ section_id: "D.5:4"
 section_title: "Causal Fairness Boundary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.5/D.5__007_causal-fairness-boundary.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "D.5 — Bias Audit and Ethical Assurance"
   - "D.5:4 — Causal Fairness Boundary"
-line_start: 92365
-line_end: 92374
+line_start: 96896
+line_end: 96905
 dependencies:
   - "A.10"
   - "B.3"
@@ -36,5 +36,5 @@ When counterfactual fairness is consequential, reusable, published, or used for 
 
 Cite the C.28 result from the existing `BiasAuditReport@Context`. When only metric disparity is claimed, record the metric or evaluation result and stop. An interventional proxy may support a bounded interventional fairness statement, but it does not establish counterfactual fairness without the required estimand and support components.
 
-The C.28 result is one evidence basis for the audit conclusion. Interpret it within the declared audit scope. A release decision or ethical-assurance claim requires its own judgement and supporting basis.
+The C.28 result is one evidence basis for the audit conclusion. Interpret it within the declared audit scope. A release decision or ethical-assurance claim requires a judgement and supporting basis.
 

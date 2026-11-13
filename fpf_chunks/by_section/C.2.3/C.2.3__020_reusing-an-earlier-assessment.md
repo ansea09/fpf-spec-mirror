@@ -6,12 +6,12 @@ section_id: "C.2.3:19"
 section_title: "Reusing an earlier assessment"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.3/C.2.3__020_reusing-an-earlier-assessment.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.2.3 — Formality of an Episteme"
   - "C.2.3:19 — Reusing an earlier assessment"
-line_start: 53380
-line_end: 53393
+line_start: 55605
+line_end: 55618
 dependencies:
   - "A.16"
   - "A.18"
@@ -39,7 +39,7 @@ keywords:
 
 #### C.2.3:19.1 - Recover the assessed meaning
 
-An earlier label such as F4 or F8 is a locator for an assessment, not enough information to use it. Recover the actual expression, criteria and basis. Preserve useful properties already established, such as explicit predicates, executable semantics or a checked derivation. Do not infer a new profile or admissibility result from the number alone.
+An earlier label such as F4 or F8 is a locator for an assessment, not enough information to use it. Recover the expression, criteria and basis. Preserve useful properties already established, such as explicit predicates, executable semantics or a checked derivation. Do not infer a new profile or admissibility result from the number alone.
 
 #### C.2.3:19.2 - Reuse a sufficient result
 

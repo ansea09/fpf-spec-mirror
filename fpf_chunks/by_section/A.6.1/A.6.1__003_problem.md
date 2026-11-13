@@ -6,12 +6,12 @@ section_id: "A.6.1:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.1/A.6.1__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.1 — U.Mechanism - Reusable Law-Governed Operation Declaration"
   - "A.6.1:2 — Problem"
-line_start: 16687
-line_end: 16699
+line_start: 17406
+line_end: 17418
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -52,7 +52,7 @@ keywords:
 
 ### A.6.1:2 - Problem
 
-FPF needs reusable operation declarations for scope, normalization, selection, comparison, physical modeling, and other domains. Without one precise ontic:
+FPF needs reusable operation declarations for scope, normalization, selection, comparison, physical modeling, and other domains. Without a common definition of this kind of declaration:
 
 1. an operation name does not reveal its typed arguments or result;
 2. declared laws are mixed with admission predicates and evaluation outcomes;
@@ -61,5 +61,5 @@ FPF needs reusable operation declarations for scope, normalization, selection, c
 5. mathematical notation or imperative prose is overread as an executable sequence;
 6. descriptions, publications, methods, and dated work acquire mechanism identity by proximity.
 
-The repair is a small set of exact distinctions applied with progressive explicitness.
+Make the distinctions below explicit as the receiving use requires.
 

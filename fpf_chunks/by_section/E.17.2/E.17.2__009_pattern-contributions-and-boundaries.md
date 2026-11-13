@@ -6,12 +6,12 @@ section_id: "E.17.2:8"
 section_title: "Pattern contributions and boundaries"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.2/E.17.2__009_pattern-contributions-and-boundaries.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.17.2 — TEVB - Project-local Typical Engineering Viewpoint Bundle Template for Holons"
   - "E.17.2:8 — Pattern contributions and boundaries"
-line_start: 107351
-line_end: 107362
+line_start: 113946
+line_end: 113957
 dependencies:
   - "A.22"
   - "A.6.3"
@@ -31,13 +31,13 @@ keywords:
 
 ### E.17.2:8 - Pattern contributions and boundaries
 
-- **E.17.2** provides the four-position project authoring template and its concern distinctions. It supplies no exact L, declaration, reference, P edition, or membership occurrence; a project materializes those objects through the patterns below.
+- **E.17.2** provides the four-position project authoring template and its concern distinctions. It supplies no L, declaration, reference, P edition, or membership occurrence. A project materializes those objects through the patterns below.
 - Use **E.17.0** for `U.Viewpoint` and `U.View` membership, `ViewpointConventionDependencyRelation`, `EpistemeViewpointConformanceRelation`, and ordinary-use stops.
-- Use **E.17.1** for catalogue L, local family declarations, and packaging by exact viewpoint references; it admits no bundle U-kind.
+- Use **E.17.1** for catalogue L, local family declarations, and packaging by viewpoint references. E.17.1 admits no bundle U-kind.
 - Use **C.2.1** to identify every constituent episteme, Q, P, candidate E, assertion, and description.
-- Use **C.13** to construct exact collections and **A.22** to select structures.
+- Use **C.13** to construct collections and **A.22** to select structures.
 - Use **A.6.3** only for optional source-to-receiving viewing construction; that construction does not grant view membership.
-- Use **A.3.1/A.3.2** for Methods and MethodDescriptions, **A.3.4** for transformations, **A.2** for local system-role kinds, **C.3.2** for their `KindSignature` declarations, four-input classification judgments, and optional extensions, **A.2.1** for exact `U.SystemRoleAssignment` species and occurrences, **A.2.2** for capabilities, **A.2.7** for relations among system-role kinds, the direct responsibility pattern for responsibility, **E.18** for transformation flows, and **B.1.1** plus applicable module or interface patterns for dependency, module, and interface relations.
+- Use **A.3.1/A.3.2** for Methods and MethodDescriptions, **A.3.4** for transformations, **A.2** for local system-role kinds, **C.3.2** for their `KindSignature` declarations, four-input classification judgments, and optional extensions, **A.2.1** for `U.SystemRoleAssignment` species and occurrences, **A.2.2** for capabilities, **A.2.7** for relations among system-role kinds, the direct responsibility pattern for responsibility, **E.18** for transformation flows, and **B.1.1** plus applicable module or interface patterns for dependency, module, and interface relations.
 - Use **E.24.PUB** for publication objects and relations, **A.6.3.RT/A.6.3.RT.OE** for expression construction and representation-scheme transition, and **C.29** for a mathematical lens over independently recovered objects or relations.
-- Use **A.6.RCD** to state or derive a needed relation claim, or return its exact blocker, when current predicates are insufficient.
+- Use **A.6.RCD** to state or derive a needed relation claim, or return its blocker, when current predicates are insufficient.
 

@@ -6,12 +6,12 @@ section_id: "B.4.1:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4.1/B.4.1__007_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.4.1 — Publish Candidate Routes for a Stabilized Cue (RoutedCueSet)"
   - "B.4.1:6 — Bias-Annotation"
-line_start: 46085
-line_end: 46087
+line_start: 47991
+line_end: 47993
 dependencies:
   - "A.15"
   - "A.16"
@@ -34,5 +34,5 @@ keywords:
 ---
 
 ### B.4.1:6 - Bias-Annotation
-The pattern favors preserving low-articulation cues and publishing route plurality explicitly. The counter-bias is explicit as well: routing must still state why one route is live and why one route was selected if selection occurred.
+The pattern favors preserving low-articulation cues and publishing route plurality. Routing must state why one route is live and why one route was selected if selection occurred.
 

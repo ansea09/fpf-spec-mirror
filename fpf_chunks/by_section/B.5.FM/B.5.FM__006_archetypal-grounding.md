@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.5.FM"
-pattern_title: "Construct a First Model for the Working Question"
+pattern_title: "Construct a Model for the Question"
 section_id: "B.5.FM:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.FM/B.5.FM__006_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "B.5.FM — Construct a First Model for the Working Question"
+  - "B.5.FM — Construct a Model for the Question"
   - "B.5.FM:5 — Archetypal Grounding"
-line_start: 48576
-line_end: 48641
+line_start: 50604
+line_end: 50669
 dependencies:
   - "A.3.3"
   - "A.6.3.RT"
@@ -38,7 +38,7 @@ Try a steady account with constant component heating, all generated heat passing
 
 Use supplied steady readings of 80 °C at the component, 25 °C at the case attachment and 20 °C in the air. The component-to-case difference is 55 °C. Even ideal external cooling of the case to the air temperature leaves the component at 75 °C under these assumptions. The fan-only proposal cannot reach 65 °C in this model.
 
-The result directs work toward the component-to-case contact, another heat path or reduced heating. Direct airflow onto the component would change the assumed path; temperature-dependent heating or conductance would change the fixed-difference argument. Measurement uncertainty matters to the real-device conclusion.
+The result directs work toward the component-to-case contact, another heat path or reduced heating. Airflow onto the component would change the assumed path; temperature-dependent heating or conductance would change the fixed-difference argument. Measurement uncertainty matters to the real-device conclusion.
 
 A useful next request is: “Can this component stay below 65 °C after changing its contact to the case, and which observations distinguish the relevant heat paths?” The model supplies that request before a detailed equation set is commissioned.
 
@@ -56,9 +56,9 @@ Let q be the discharged volume in cm³. The gas occupies 100+q cm³; liquid heig
 10000/(100+q) + 0.1*(20−q/100) = 100   [kPa]
 ```
 
-The positive solution is about 2.039 cm³, with gas pressure about 98.002 kPa and liquid height about 19.980 cm. In this slow-flow account, the discharge approaches a stop after a very small volume. Changing outlet size changes resistance and the approach to equilibrium; this same equilibrium balance applies while air entry and inertial effects remain negligible.
+The positive solution is about 2.039 cm³, with gas pressure about 98.002 kPa and liquid height about 19.980 cm. In this slow-flow account, the discharge approaches a stop after a small volume. Changing outlet size changes resistance and the approach to equilibrium; this equilibrium balance applies while air entry and inertial effects remain negligible.
 
-Allowing ambient air to reach the gas space changes the model: gas pressure can remain near outside pressure as liquid leaves. Air entering through the outlet, gas-temperature change, vessel deformation or appreciable capillary pressure requires another account. The immediate useful result is the distinction between an outlet-flow restriction and a gas-replacement restriction. Investigate the air path before treating outlet enlargement as the answer.
+Allowing ambient air to reach the gas space changes the model: gas pressure can remain near outside pressure as liquid leaves. Air entering through the outlet, gas-temperature change, vessel deformation or appreciable capillary pressure requires another account. The result is the distinction between an outlet-flow restriction and a gas-replacement restriction. Investigate the air path before treating outlet enlargement as the answer.
 
 #### B.5.FM:5.3 - Construct classes that permit a counting inference
 
@@ -86,7 +86,7 @@ Twelve people have accepted a 60-minute workshop. There are twelve seats and one
 
 Use the relation between attempted action, observation and feedback to ask whether the intended practice can occur in the session. The sequential arrangement requires `12 * (4 + 2) = 72` minutes before any introduction. The next question is which arrangement can supply the intended practice and feedback within the available time. Reducing attendance, increasing duration or changing the learning arrangement have different consequences. Merely pairing learners supplies the required feedback only if they can provide that contribution.
 
-Now suppose twelve independent stations already provide the required task-specific feedback and can be used concurrently. The serial calculation no longer describes the work. Use the concurrent duration and the remaining session activities to decide whether the arrangement fits; this reasoning does not require another instructor. If the intended event is instead a demonstration with no individual practice, the individual-feedback relation does not impose that practice on it. Clarify the event's purpose before treating this scheme as applicable.
+Now suppose twelve independent stations provide the required task-specific feedback and can be used concurrently. The serial calculation no longer describes the work. Use the concurrent duration and the remaining session activities to decide whether the arrangement fits; this reasoning does not require another instructor. If the intended event is instead a demonstration with no individual practice, the individual-feedback relation does not impose that practice on it. Clarify the event's purpose before treating this scheme as applicable.
 
-The same question-forming move can use a measurement scheme: a shared column label, such as temperature, leaves the relevant quantity, observing conditions and aggregation to be recovered before combining records. If the existing documentation already establishes their suitability, use that answer. The scheme supplies a question, not a compulsory new measurement.
+The same question-forming move can use a measurement scheme: a shared column label, such as temperature, leaves the relevant quantity, observing conditions and aggregation to be recovered before combining records. If the existing documentation establishes their suitability, use that answer. The scheme supplies a question, not a compulsory new measurement.
 

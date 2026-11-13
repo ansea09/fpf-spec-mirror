@@ -6,12 +6,12 @@ section_id: "A.19.SPR:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SPR/A.19.SPR__002_use-this-when.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.19.SPR — Repair State and Status Wording"
   - "A.19.SPR:0 — Use this when"
-line_start: 35276
-line_end: 35300
+line_start: 36778
+line_end: 36802
 dependencies:
   - "A.10"
   - "A.16"
@@ -51,17 +51,17 @@ Use this pattern when a phrase such as “the system is ready”, “the source 
 
 **First question.** Ask:
 
-> What exact item is this sentence about, what does it say about that item, and which rule or criterion gives the statement its meaning?
+> What item is this sentence about, what does it say about that item, and which rule or criterion gives the statement its meaning?
 
-**Cheap direct repair.** Write the answer as one ordinary technical sentence. Name the item, the actual value, relation, result, or claim, and the rule or criterion only when the reader needs it to understand or act. If that sentence is clear and safe for the intended use, stop. Do not create a repair note or list every claim the sentence does not make.
+**Repair.** Write the answer as one ordinary technical sentence. Name the item, the value, relation, result, or claim, and the rule or criterion only when the reader needs it to understand or act. If that sentence is clear and safe for the intended use, stop. Do not create a repair note or list every claim the sentence does not make.
 
-**What this buys.** A reader can understand the statement and its next practical use without learning a hidden status vocabulary.
+**What this buys.** A reader can understand the statement and its next use without learning a hidden status vocabulary.
 
 Typical triggers include `state`, `status`, `posture`, `stance`, `currentness`, `validity`, `stable`, `accepted`, `blocked`, `candidate`, `degraded`, `readiness`, `ready`, and similar compounds. A precise-looking field such as `LensUseBoundaryValue` or `dynClaimPosture` is also a trigger when its object, possible values, or rule cannot be recovered.
 
 **Not this pattern when.**
 
-- If the exact item, claim or value, and applicable rule are already clear, use that rule directly.
+- If the item, claim or value, and applicable rule are already clear, use that rule directly.
 - If `readiness` or `ready` still hides whether the sentence concerns a subject state, assignment condition, work entry, gate decision, publication use, permission, or performed Work, use `E.10.MOVE` first.
 - If the wording is ordinary prose and carries no FPF-governed claim, keep it ordinary.
 - If one `Characteristic`, Scale, Coordinate, score, or measurement construction is hidden, use `C.16.P` first.

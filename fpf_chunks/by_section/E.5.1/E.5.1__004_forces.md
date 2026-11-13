@@ -6,12 +6,12 @@ section_id: "E.5.1:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5.1/E.5.1__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.5.1 — DevOps Lexical Firewall"
   - "E.5.1:3 — Forces"
-line_start: 96429
-line_end: 96436
+line_start: 101630
+line_end: 101637
 dependencies:
   - "E.5"
 keywords:
@@ -22,6 +22,6 @@ keywords:
 | Force | Tension |
 |-------|---------|
 | **Continuity** | Concepts must survive tool turnover. |
-| **Pedagogic clarity** | Examples need concreteness ↔ too much concreteness hard‑codes technology. |
+| **Pedagogic clarity** | Examples need concrete detail, but too much hard-codes a technology. |
 | **Cross‑domain reach** | Physical‑system engineers and knowledge‑theorists use different stacks. |
 

@@ -6,12 +6,12 @@ section_id: "G.4:4"
 section_title: "Solution — author the smallest lawful CAL pack"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.4/G.4__005_solution-author-the-smallest-lawful-cal-pack.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.4 — CAL Authoring for a CG-Frame: Operators, Acceptance Clauses, Evidence Wiring"
   - "G.4:4 — Solution — author the smallest lawful CAL pack"
-line_start: 128704
-line_end: 128961
+line_start: 136755
+line_end: 137013
 dependencies:
   - "A.10"
   - "A.13"
@@ -60,19 +60,19 @@ keywords:
 
 #### G.4:4.0 - Practitioner authoring path C1–C9
 
-Complete these actions in order; widen a step only when its stated input is needed by the current task.
+Complete these actions in order. Extend a step only when the task needs the additional input named there.
 
 1. **C1 — Charter the scope.** Name the exact `CG‑Frame`, `EntityOfConcern`, `ReferencePlane`, task, `CNSpecRef.edition`, and `CGSpecRef.edition`. State the assumption envelope in ordinary language.
-2. **C2 — Declare one typed operator.** Give it a stable id, CHR-typed signature, preconditions, result kind, and failure behavior. This is an `A.6.1` operation declaration, not evidence of an application.
-3. **C3 — Declare one acceptance clause.** Name the exact Characteristic and the A.6.1 argument declaration that admits the corresponding C.16 measurement-result episteme, then declare the predicate or threshold, `ClaimScope`, any evaluation window required by the predicate or receiving use, any separate qualification window that limits use, unknown handling, and the stated stop, degrade, or abstain behavior. Keep the exact current result episteme for the later application. If the clause claims statistical risk or coverage control, also name the loss, target, calibration population and window, sampling or exchangeability assumptions, declared treatment of shift, and the exact policy that states the guarantee.
+2. **C2 — Declare one typed operator.** Give it a stable id, CHR-typed signature, preconditions, result kind, and failure behavior. The card declares the operation under `A.6.1`. Evidence for an application comes from its execution (§4.4a).
+3. **C3 — Declare one acceptance clause.** Name the exact Characteristic and the A.6.1 argument declaration that admits the corresponding C.16 measurement-result episteme. Declare the predicate or threshold, `ClaimScope`, any evaluation window required by the predicate or receiving use, any separate qualification window that limits use, unknown handling, and the stated stop, degrade, or abstain behavior. Keep the exact current result episteme for the later application. If the clause claims statistical risk or coverage control, also name the loss, target, calibration population and window, sampling or exchangeability assumptions, declared treatment of shift, and the exact policy that states the guarantee.
 4. **C4 — Compose only a legal flow.** Cite the operators and gating clauses, preserve the lawful result kind, and keep a selected set when no lawful scalarization exists. A declared DAG is possible composition, not performed work.
 5. **C5 — Name the minimum evidence/currentness need.** Cite the exact A.10 source/provenance anchors and G.11 currentness conditions needed to judge the clause. Do not turn an evidence profile, citation, or graph membership into a verdict or actual reliance.
 6. **C6 — Add an extension only when the task needs one.** Select its current subject pattern first, then pin only the descriptor, distance, insertion, exploration, branch, or path records that change the present CAL action. Otherwise omit the extension.
-7. **C7 — Record proof or an explicit gap.** For every operator, flow, or clause, cite the legality/monotonicity/boundedness justification actually required; when it is missing, publish the gap and the consequent degrade/abstain behavior.
+7. **C7 — Record proof or an explicit gap.** For every operator, flow, or clause, cite each required justification for legality, monotonicity or boundedness. If any required justification is missing, publish the gap and the consequent degrade/abstain behavior.
 8. **C8 — Exercise declaration behavior.** Provide one worked authoring example and focused conformance tests for illegal operations, `pass | fail | unknown`, currentness conditions when they are part of admissibility, and failure behavior. The example and test remain declarations/test records unless separately grounded dated work is named.
 9. **C9 — Publish and hand off.** Mint stable ids and continuity notes, then emit the smallest immutable `TaskMap` edition. It cites the exact charter edition, the already constituted C.22 `TaskSignatureRef`, the task, and edition-bearing operator, flow, gating-clause, and evidence-profile refs; the cited evidence profiles carry the needed currentness pins. It neither constructs the TaskSignature nor copies clause thresholds. Use G.11 for change refs; G.4 defines no refresh rule or runtime occurrence or result.
 
-The authoring path is complete when a cold reader can reconstruct the plain acceptance sentence from the published ids and can also say what still has to happen at runtime. The detailed manifests, schemas, interfaces, and optional extension blocks below make the same pack machine-citable; they do not add another practitioner sequence.
+The path is complete when a reader unfamiliar with the author’s work can reconstruct the acceptance statement from the published ids and identify what must happen at runtime. The manifests, schemas, interfaces and optional extensions below make that same pack machine-citable. The order of work is C1–C9.
 
 #### G.4:4.1 - G.Core linkage (normative)
 
@@ -115,7 +115,7 @@ By the `G.Core` Expansion rule, the effective conformance ids / trigger kinds / 
 
 Notes (normative intent, delegated semantics):
 
-* The semantics of tri‑state outcomes, penalty routing, set‑return discipline, crossing visibility, P2W split, typed RSCR causes, and the Default Governing Definition Index are governed in `G.Core` and are not redefined here.
+* Apply `G.Core` for tri-state outcomes, penalty routing, set-return discipline, crossing visibility, the P2W split and typed RSCR causes. Its Default Governing Definition Index identifies the rule for each default.
 * EvidenceGraph/Path pins, when used, are declared only via **`G.4:Ext.EvidenceGraphWiring`** in **G.4:4.5**.
 * Method‑specific pins (e.g., QD descriptor/distance/insert policy pins; open‑ended transfer rules pins) MUST appear only in **Extensions** blocks (see **G.4:4.5**) and MUST NOT introduce competing defaults.
 
@@ -128,19 +128,19 @@ Notes (normative intent, delegated semantics):
   * cites the exact `CGFrameId`, `EntityOfConcernRef`, and `ReferencePlane`,
   * cites the governance and legality records (`CNSpecRef`, `CGSpecRef`) by edition,
   * records the assumption envelope on which the acceptance predicates rely without minting another governance or legality record.
-* `TaskMap` — the conditional G.4 handoff record to `G.5` when CAL gates are current; one exact edition names the task, cites the already constituted C.22 `TaskSignatureRef` and exact charter edition, and cites the acceptance-clause, operator, flow, and evidence-profile refs that selection actually consumes. It does not constitute the TaskSignature or contain threshold values.
+* `TaskMap` — the conditional G.4 handoff record to `G.5` when CAL gates are current; one exact edition names the task, cites the already constituted C.22 `TaskSignatureRef` and exact charter edition, and cites the acceptance-clause, operator, flow, and evidence-profile refs that selection consumes. It does not constitute the TaskSignature or contain threshold values.
 * `CAL.Operator[]` — UTS‑published typed operation declarations governed by `A.6.1`; a card declares possible arguments, result kinds, and conditions but does not assert that an operation ran:
 
-  * explicit signature over CHR types,
-  * explicit preconditions/postconditions (incl. legality guard macros references),
-  * explicit provenance/evidence hooks (by ids/pins, not by tool behavior).
+  * declared signature over CHR types,
+  * declared preconditions and postconditions, including references to legality guard macros,
+  * provenance and evidence hooks identified by ids or pins independently of tool behavior.
 * `CAL.Acceptance[]` — typed predicate declarations whose use is bounded by the declared `ClaimScope`, any evaluation window required by the predicate or receiving use, and any separate qualification window that limits use; a clause declares how an actual application is judged but is not itself a verdict:
 
   * binds to CHR characteristic ids and to exact A.6.1 argument declarations for admissible C.16 measurement-result epistemes (and, when inducing numeric comparison or aggregation, to `CG‑Spec.characteristic` ids),
   * keeps the exact current result episteme in the later application binding rather than in the reusable clause,
   * exposes unknown handling and failure behavior via policy pins.
 
-Each `resultInputDeclarationRef` resolves an A.6.1 `ArgumentDeclaration` whose meaning names the C.16 measurement-result episteme expected by the clause, whose exact ValueKind and binding designation rule are explicit, and whose admissibility conditions require the named Characteristic and result shape. A deliberately one-off clause may also cite an already existing episteme in `fixedResultEpistemeRefs[]?`; mark that clause one-off instead of presenting it as reusable.
+Each `resultInputDeclarationRef` resolves an A.6.1 `ArgumentDeclaration`. Its meaning identifies the C.16 measurement-result episteme expected by the clause. The declaration states the ValueKind and binding designation rule and requires a result for the named Characteristic with the admissible shape. A one-off clause may also cite an already existing episteme in `fixedResultEpistemeRefs[]?`; mark that clause one-off instead of presenting it as reusable.
 * `CAL.Flow[]` — legality‑checked declarations of possible operator composition; a declared DAG is not performed work:
 
   * declares result kind (scalar only when lawful; selected-set / set-result when partial orders remain partial orders),
@@ -153,7 +153,8 @@ Each `resultInputDeclarationRef` resolves an A.6.1 `ArgumentDeclaration` whose m
 * **Optional** `CAL.NQD[]` — QD/OEE‑related calculus surfaces when declared:
 
   * descriptor/distance/insertion artifacts are pinned by ids/editions,
-  * semantics are governed by method‑specific governing definitions (e.g., `C.18`, `C.19`) and not redefined by CAL.
+  * method-specific patterns such as `C.18` and `C.19` define the semantics used by CAL.
+
 A CAL clause that consumes G.7 calibration states its exact receiving use and premises. A locally justified CL threshold is an additional policy condition; the ProofLedger and named authority must support that condition. It does not replace the bounded-use claim, target classification or reliance result. A policy waiver changes only the authorized policy condition.
 
 * `CAL.ProofLedger` — a proof/justification ledger:
@@ -162,7 +163,7 @@ A CAL clause that consumes G.7 calibration states its exact receiving use and pr
 * Publication artifacts:
 
   * UTS Name Cards under F.17/F.18 for all public ids,
-  * RSCR tests ids and Worked‑Examples ids,
+  * ids for RSCR tests and worked examples,
   * deprecation notices and edition bump notes as public-id continuity records.
 
 Boundary discipline (normative):
@@ -229,7 +230,7 @@ When CAL authoring relies on SoTA coverage, consume G.2's pack `CoverageJudgemen
 
 #### G.4:4.4a - Declaration-to-runtime evaluation boundary (normative)
 
-A CAL pack is a reusable design-time declaration. A stored operator card, clause, flow, `TaskMap`, proof-ledger row, test, or evidence-profile reference establishes neither an actual participant nor performed evaluation. When a CAL declaration is applied, recover the runtime chain explicitly:
+A CAL pack is a reusable design-time declaration. A stored operator card, clause, flow, `TaskMap`, proof-ledger row, test, or evidence-profile reference establishes neither an actual participant nor performed evaluation. When a CAL declaration is applied, recover the following runtime chain:
 
 1. Name one exact `EvaluationMethod` (`U.Method`). Its `U.MethodDescription` may state generic participants, parameters, effects, and evaluation conditions, but it carries no actual-participant slots and no intrinsic claim that a test, proof, or acceptance event occurred.
 2. Cite the exact `CAL.Operator`, `CAL.Flow`, and `CAL.Acceptance` declarations as `A.6.1` operation semantics. Resolve the clause's `resultInputDeclarationRef`, then bind the exact current C.16 measurement-result episteme in this application and test it against the declaration's Characteristic and admissible result shape. Use the exact `A.6.1` declaration and application bindings; do not infer them from a compatible signature, `TaskMap`, or stored reference.
@@ -250,7 +251,7 @@ This chain keeps declaration, execution, local result, result episteme, provenan
 - **GPatternExtensionId:** `EvidenceGraphWiring`
 - **GPatternExtensionKind:** `InteropSpecific`
 - **GoverningPatternId:** `G.6`
-- **Entry:** use only when this CAL pack must cite a shared, addressable G.6 path or slice across more than one downstream consumer.
+- **Entry:** use when this CAL pack needs to cite an addressable G.6 path or slice, whether one receiving use requires it or several consumers share it.
 - **Stop:** omit the block when a local A.10 source-to-use account is sufficient; remove it when no current clause, proof, or example cites the path.
 - **Uses:** `{G.6}`
 - **⊑/⊑⁺:** `∅`
@@ -279,7 +280,7 @@ This chain keeps declaration, execution, local result, result episteme, provenan
   - `TaskSignatureRef?` (if activation is TaskSignature‑bound)
 - **RSCRTriggerSetIds:** `∅`
 - **RSCRTriggerKindIds:** `{RSCRTriggerKindId.EditionPinChange, RSCRTriggerKindId.PolicyPinChange, RSCRTriggerKindId.TelemetryDelta, RSCRTriggerKindId.FreshnessOrDecayEvent}`
-- **Notes (wiring‑only):** CAL does not redefine QD semantics; it only pins the descriptor, distance, and insertion records needed for reproducible archive behavior. Any archive/illumination summaries (e.g., coverage / QD‑score / occupancyEntropy / filledCells) are published as report‑only outputs unless an explicit CAL acceptance clause/policy authorizes promotion.
+- **Notes:** C.18 defines QD semantics. CAL pins the descriptor, distance and insertion records needed to reproduce archive behavior. Any archive/illumination summaries (e.g., coverage / QD‑score / occupancyEntropy / filledCells) are published as report‑only outputs unless an explicit CAL acceptance clause/policy authorizes promotion.
 
 **GPatternExtension block: `G.4:Ext.EELog`**
 - **PatternScopeId:** `G.4:Ext.EELog`

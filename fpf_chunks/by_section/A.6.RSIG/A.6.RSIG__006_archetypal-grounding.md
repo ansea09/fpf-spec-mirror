@@ -6,12 +6,12 @@ section_id: "A.6.RSIG:5"
 section_title: "Archetypal grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIG/A.6.RSIG__006_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.RSIG — Recognition Signatures: Find the Defining Episteme for a Description"
   - "A.6.RSIG:5 — Archetypal grounding"
-line_start: 14470
-line_end: 14563
+line_start: 14925
+line_end: 15018
 dependencies:
   - "A.6"
   - "A.6.P"
@@ -49,7 +49,7 @@ First recover the defining description; the cue alone leaves its boundary claim 
 4. `applies_to` = requests presented at the boundary under the declared
    admissibility conditions.
 5. `excludes` = downstream effect claims, duty allocation, or evidence claims
-   not actually stated by this description.
+   not stated by this description.
 6. `definitionEpistemeRef` = the governing boundary description, not one local
    paraphrase or summary note.
 7. `nearby_false_description_or_wrong_definition_episteme` = an evidence/work claim or
@@ -112,5 +112,5 @@ With only the cue, first ask what the pairwise comparison is intended to determi
 5. `definitionEpistemeRef` = the defining comparison or Method-description episteme identified from the source, which this short cue does not supply.
 6. `nearby_false_description_or_wrong_definition_episteme` = selection/publication doctrine
    treated as if the method note had already settled it.
-7. `first_admissible_entry_stop_or_reroute` = inspect the identified comparison description. Its actual applicability and any subsequent selection still need their own conditions established.
+7. `first_admissible_entry_stop_or_reroute` = inspect the identified comparison description. Its applicability and any subsequent selection need their own conditions established.
 

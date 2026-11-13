@@ -6,12 +6,12 @@ section_id: "E.24.CD:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.CD/E.24.CD__013_sota-echoing.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.24.CD — Ontic Candidate Detection and First-Use Disposition"
   - "E.24.CD:11 — SoTA-Echoing"
-line_start: 116895
-line_end: 116906
+line_start: 124368
+line_end: 124379
 dependencies:
   - "A.1"
   - "A.14"
@@ -63,5 +63,5 @@ keywords:
 | CYC microtheory line. | Lineage-only caution: context-bounded knowledge modules are a useful analogy for contradiction locality and scope-bounded ontology fragments. | Do not cite CYC as current decisive support for FPF ontic design and do not import CYC architecture as FPF law. |
 | OWL, SKOS, RDF, and triple-store practice. | Infrastructure and expression lineage: these lines carry ontology descriptions, vocabulary links, queries, and serialization forms. | Use them as expression and publication caution only; they do not substitute for `U.Ontic`, do not show that labels are ontology, and do not answer FPF ontic modularization by themselves. |
 
-Smallest source-currentness reopen trigger: reopen this SoTA slice when a newer ontology-engineering or data-model-to-ontology source changes the selected criteria for reusable subject identity, minimal relation sets, bounded scope, validation, or source-form overread; do not reopen it merely because a new vocabulary, serialization, or KG tool appears.
+Reopen this source comparison when a newer ontology-engineering or data-model-to-ontology source changes the selected criteria for reusable subject identity, minimal relation sets, bounded scope, validation, or source-form overread; do not reopen it merely because a new vocabulary, serialization, or KG tool appears.
 

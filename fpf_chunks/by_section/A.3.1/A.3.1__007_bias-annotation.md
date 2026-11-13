@@ -6,12 +6,12 @@ section_id: "A.3.1:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1/A.3.1__007_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.3.1 — U.Method: Reusable Way of Doing with Explicit Applicability"
   - "A.3.1:6 — Bias-Annotation"
-line_start: 9726
-line_end: 9739
+line_start: 10113
+line_end: 10126
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -49,5 +49,5 @@ The following biases obscure method identity:
 * **holder-as-method bias**: a team, system, supplier, or capability holder becomes the method name;
 * **semio-bias**: the discussion shifts to wording, a document, publication, or evidence face before the reusable action and its boundary have been stated.
 
-Use one concrete test in every case: can the reader state the reusable action, its participants, applicability, intended result, and stop? If yes, identify the `U.Method`; apply A.3.2 when a method-description membership claim is needed and A.15.2 when planned Work is being described; and state only those enactment, evidence, or other relations that actually obtain. If not, keep the source phrase unresolved or use the subject pattern shown in §4.
+Use one concrete test in every case: can the reader state the reusable action, its participants, applicability, intended result, and stop? If yes, identify the `U.Method`; apply A.3.2 when a method-description membership claim is needed and A.15.2 when planned Work is being described; and state only those enactment, evidence, or other relations that obtain. If not, keep the source phrase unresolved or use the subject pattern shown in §4.
 

@@ -6,12 +6,12 @@ section_id: "F.0.1:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.1/F.0.1__006_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.0.1 — Source-Local Meaning Recovery"
   - "F.0.1:5 — Archetypal Grounding"
-line_start: 117840
-line_end: 117912
+line_start: 125428
+line_end: 125500
 dependencies:
   - "E.10"
   - "E.10.D1"
@@ -35,18 +35,18 @@ keywords:
 
 Start with one troublesome use in one already selected source. Return one ordinary sentence plus a source pointer. Stop when it answers the question.
 
-Continue only for the next result actually needed:
+Continue only for the next result you need:
 
 - `F.1` for a question-relative source cut;
 - `F.17` for a durable local-sense address and, when current, its basis relation;
 - `F.9` for an actual relation between distinct recovered cells;
 - `F.0.2` for a bounded comparison or synthesis among source ontologies;
 - `F.18` for naming after the subject distinction is settled; or
-- the rule that defines or tests the exact entity, relation, claim, measurement, permission, or Work question itself, with its pattern ID as locator.
+- the rule that defines or tests the exact entity, relation, claim, measurement, permission, or Work question, with the pattern ID as locator.
 
 #### F.0.1:5.2 - Compact worked results and recognition cues
 
-A **worked result** below names the exact source, edition, passage, and meaning used. A **recognition cue** only marks a likely false friend; it establishes no local meaning until the practitioner supplies those four values. This distinction keeps a broad set of examples useful without dressing an unresolved pointer as source-backed knowledge.
+A **worked result** below names the exact source, edition, passage, and meaning used. A **recognition cue** only marks a likely false friend; it establishes no local meaning until the practitioner supplies those four values. This distinction lets readers use examples from several fields while seeing which readings still need source work.
 
 ##### F.0.1:5.2.1 - *process* and *activity*
 

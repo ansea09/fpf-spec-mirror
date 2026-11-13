@@ -6,12 +6,12 @@ section_id: "C.36.MC:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.MC/C.36.MC__009_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.36.MC — Qualify and Develop a Method Culture"
   - "C.36.MC:7 — Conformance Checklist"
-line_start: 91352
-line_end: 91370
+line_start: 95832
+line_end: 95850
 dependencies:
   - "A.15.1"
   - "A.3.1"
@@ -27,14 +27,14 @@ keywords:
 - [ ] A C.20 Discipline result is used, or a smaller C.36 practice and population boundary is named with the Discipline claim unresolved.
 - [ ] The subject's status is preserved: admitted Method, with independently grounded enactment when the cultural claim relies on it, or candidate/observed practice plus identified candidate accounts, source claims, cards, templates, description epistemes, and any relied-on Work facts without Method, `U.MethodDescription`, or enactment inflation.
 - [ ] One value, participant meanings, applicability condition, predicate and supported test result are explicit; a needed new predicate construction includes its positive and discriminating negative or failed case.
-- [ ] An existing direct predicate is used when sufficient; otherwise A.6.RCD returns the lightest truthful disposition. A.6.REL occurrence identity is opened only when later use must distinguish occurrences.
+- [ ] An existing direct predicate is used when sufficient; otherwise A.6.RCD returns the lightest disposition. A.6.REL occurrence identity is opened only when later use must distinguish occurrences.
 - [ ] The world-side claim, claim episteme, evidence and reliance, and named-interval observations remain separate.
 - [ ] Cards, descriptions with their recorded kind and status, publications, Systems, teaching/tutoring/event Work, rules, fields, forums, assignments, permissions, authority, and other direct relations are separately identified as subjects.
 - [ ] A.22 is used only for one selected structure and C.30 only for a current architecture question.
 - [ ] When the intended action requires authorization, its assignment, permission, or authority predicate, participants, permitted action, scope, positive basis, and protected conditions are explicit.
 - [ ] The supported current account or continuation can finish without a fixed hypothesis count or new intervention. Credible action-changing rivals and relevant uncertainty remain; a selected inquiry has an attainable contribution worth its whole burden, including design effort, and feasible participants, access, resources, and window.
 - [ ] C.27 is used only for a temporal adequacy claim, A.3.3 only for a transition law, C.28 only for causal reliance, A.15.7 only during ongoing Work, and C.11 only after a chooser and OptionSet exist.
-- [ ] A claim of tested change or later retention uses the actual Work and interval observations it asserts, without automatically reidentifying one occurrence across intervals. Missing later evidence withholds only the dependent claim.
+- [ ] A claim of tested change or later retention uses the Work and interval observations it asserts, without automatically reidentifying one occurrence across intervals. Missing later evidence withholds only the dependent claim.
 - [ ] Practitioner or constructed-Method consequences, non-use, burden, adaptation, and rejection remain separate from the cultural predicate.
 - [ ] When transmission or adaptation is the receiving problem, the account connects the recipient's needed decision, preserved requirements, changed operation, explanation and actual support. A finished answer supplied by a teacher is not credited as the recipient's capability.
 - [ ] An unresolved explanation remains `unknown` where relevant without erasing an independently supported continuation, narrower claim, or stop.

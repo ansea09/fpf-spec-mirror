@@ -3,15 +3,15 @@ chunk_kind: "child"
 pattern_id: "B.5.2.1"
 pattern_title: "Instrument Abductive Hypothesis Generation with Novelty–Quality–Diversity (NQD)"
 section_id: "B.5.2.1:3"
-section_title: "The Creativity‑CHR (references only; no re‑definitions here)"
+section_title: "The Creativity‑CHR"
 source_path: "FPF-Spec.md"
-output_path: "by_section/B.5.2.1/B.5.2.1__004_the-creativity-chr-references-only-no-re-definitions-here.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+output_path: "by_section/B.5.2.1/B.5.2.1__004_the-creativity-chr.md"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.5.2.1 — Instrument Abductive Hypothesis Generation with Novelty–Quality–Diversity (NQD)"
-  - "B.5.2.1:3 — The Creativity‑CHR (references only; no re‑definitions here)"
-line_start: 50139
-line_end: 50156
+  - "B.5.2.1:3 — The Creativity‑CHR"
+line_start: 52207
+line_end: 52224
 dependencies:
   - "A.17"
   - "A.18"
@@ -26,7 +26,7 @@ dependencies:
 keywords:
 ---
 
-### B.5.2.1:3 - The **Creativity‑CHR** (references only; no re‑definitions here)
+### B.5.2.1:3 - The **Creativity‑CHR**
 
 The NQD Characteristics used here are defined by **C.17** and **A.18**:
 
@@ -37,7 +37,7 @@ The NQD Characteristics used here are defined by **C.17** and **A.18**:
 Surprise is an optional coordinate; IlluminationSummary is a retained-set telemetry report under C.17. Use either in comparison only when the C.19 policy names that use and its constituted basis; promotion into dominance requires an explicit policy.
 **`Use‑Value`** (*alias:* `ValueGain`) is **informative for decision lenses** (Decsn‑CAL) and **MUST NOT** enter NQD dominance by default (see C.17 §4.2).
 
-For each coordinate actually used, declare its bearer, Characteristic, Scale, polarity, admissible operations, scope, window and evidence basis under C.17. Cite a constituted C.16 measurement result when the coordinate was measured, or a C.2.1 ascription under its declared rule. Candidate must-constraint eligibility and the conditions for performing generation are separate questions.
+For each coordinate used, declare its bearer, Characteristic, Scale, polarity, admissible operations, scope, window and evidence basis under C.17. Cite a constituted C.16 measurement result when the coordinate was measured, or a C.2.1 ascription under its declared rule. Candidate must-constraint eligibility and the conditions for performing generation are separate questions.
 
 > **Lexical discipline.** The items above are **Characteristics** in the sense of **A.17/A.18**; avoid reserved names such as “validity” or “operation.”
 > **Comparison basis.** Compare each Q coordinate under its declared Scale, polarity and admissible order. Different units across coordinates do not by themselves require normalization for componentwise Pareto comparison. If the chosen comparator requires a transformation, declare it and preserve the order distinctions on which dominance depends (see CC-B.5.2.1-6).

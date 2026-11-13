@@ -6,12 +6,12 @@ section_id: "C.39.RQ:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.RQ/C.39.RQ__014_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.39.RQ — Construct Situated Method Requirements"
   - "C.39.RQ:12 — Relations"
-line_start: 84537
-line_end: 84545
+line_start: 88740
+line_end: 88748
 dependencies:
   - "A.3.1"
   - "C.11"

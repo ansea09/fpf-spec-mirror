@@ -6,12 +6,12 @@ section_id: "C.16.RM:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.RM/C.16.RM__006_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.16.RM — Repair a Measurement Model or Arrangement"
   - "C.16.RM:5 — Archetypal Grounding"
-line_start: 59484
-line_end: 59553
+line_start: 61869
+line_end: 61938
 dependencies:
   - "B.5.MPC.R"
   - "B.5.RR"
@@ -54,9 +54,9 @@ Suppose instead that the shield removes ambient light but transmits a known frac
 
 `I = (r - b)/(g*alpha) = (7.4 - 2)/(2*0.9) = 3 mW.`
 
-If the transmission fraction is unknown, this new reading alone leaves the original beam unresolved. The earlier valid on/off observations still support their result of 3 mW. The shield's changed interaction must be included in any conclusion drawn from the new measurement.
+If the transmission fraction is unknown, this new reading alone leaves the original beam unresolved. The earlier on/off observations still support their result of 3 mW. The shield's changed interaction must be included in any conclusion drawn from the new measurement.
 
-For a question I ≤ 3.2 mW, suppose each on/off reading has an arbitrary additive error between -0.1 and 0.1 mV, while g and the shared background remain fixed. The difference gives 2.9 ≤ I ≤ 3.1 mW, so the bound settles the question. Drift in A between on and off would add a further term. Alternating readings reduces that uncertainty only with a supplied account of the drift; the alternation itself is insufficient.
+For a question I ≤ 3.2 mW, suppose each on/off reading has an arbitrary additive error between -0.1 and 0.1 mV, while g and the shared background remain fixed. The difference gives 2.9 ≤ I ≤ 3.1 mW, so the bound settles the question. Drift in A between on and off would add a further term. Alternating readings reduces that uncertainty only with a supplied account of the drift.
 
 #### C.16.RM:5.2 - Reduce loading enough to settle the question
 
@@ -70,7 +70,7 @@ One option is to determine Rs more closely and correct the loaded reading. Anoth
 
 `9.9*(1 + 0.8/100) ≤ E ≤ 9.9*(1 + 1.2/100),`
 
-so 9.9792 ≤ E ≤ 10.0188 V. The bound settles E ≤ 10.5 V while Rs remains unresolved. The repair earned its place by reducing the unknown resistance's influence on this conclusion.
+so 9.9792 ≤ E ≤ 10.0188 V. The bound settles E ≤ 10.5 V while Rs remains unresolved. The repair reduces the unknown resistance's influence on this conclusion.
 
 Restore a supplied reading-error bound of ±0.1 V for the new meter. The positive factors give:
 

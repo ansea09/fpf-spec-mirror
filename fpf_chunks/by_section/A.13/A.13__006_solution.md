@@ -6,12 +6,12 @@ section_id: "A.13:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.13/A.13__006_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.13 — The Agential Role & Agency Spectrum"
   - "A.13:4 — Solution"
-line_start: 28195
-line_end: 28266
+line_start: 29247
+line_end: 29318
 dependencies:
   - "A.10"
   - "A.12"
@@ -56,7 +56,7 @@ This keeps a useful ordinary word without creating a universal `Agent` or `Agent
 #### A.13:4.2 - Local Agential System-Role Kinds and Their Specializations
 
 *   **Local agential system-role kind:** A practice or source may define a local kind whose stable work-facing contribution is goal-directed action. The kind classifies candidate Systems under its own criterion; it is not a universal root kind, an assignment occurrence, or Work.
-*   **Specialized agential system-role kinds:** A local practice may distinguish transformation, observation, planning, or another contribution when it supplies a real criterion for the distinction. An assignment to one such kind establishes only that assignment; any transformation, observation, plan, or performed Work still needs its own claim.
+*   **Specialized agential system-role kinds:** A local practice may distinguish transformation, observation, planning, or another contribution when it supplies a criterion for the distinction. An assignment to one such kind establishes only that assignment; any transformation, observation, plan, or performed Work still needs its own claim.
 
 #### A.13:4.3 - Measuring Agency: The Agency Characteristic Profile and the Spectrum
 

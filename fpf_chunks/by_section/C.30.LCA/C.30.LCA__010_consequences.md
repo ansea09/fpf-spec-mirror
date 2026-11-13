@@ -6,12 +6,12 @@ section_id: "C.30.LCA:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.LCA/C.30.LCA__010_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.30.LCA — Control Structure View Adequacy (LCA)"
   - "C.30.LCA:9 — Consequences"
-line_start: 74381
-line_end: 74386
+line_start: 77633
+line_end: 77638
 dependencies:
   - "A.10"
   - "A.20"
@@ -47,7 +47,7 @@ keywords:
 
 ### C.30.LCA:9 - Consequences
 
-The gain is a small, usable control-structure output that preserves common architecture language while blocking structure, view, and proof overread. Practitioners can still say `controller`, `plant`, `supervisor`, `feedback`, and `control layer`, but the record shows the selected structure, the boundary between description and view, and the direct relations those words carry; generic stratification labels use `C.30.STRAT` first.
+The gain is a small control-structure output that preserves common architecture language while blocking structure, view, and proof overread. Practitioners can still say `controller`, `plant`, `supervisor`, `feedback`, and `control layer`, but the record shows the selected structure, the boundary between description and view, and the direct relations those words carry; generic stratification labels use `C.30.STRAT` first.
 
-The cost is recovering missing control facts or checking the conformance or property on which the use depends. Reuse an adequate existing account. Recognition can finish with an ordinary sentence; view membership, safety, stability, evidence, assurance or gate passage requires its own applicable basis.
+The cost is recovering missing control facts or checking the conformance or property on which the use depends. Reuse an adequate existing account. Recognition can finish with an ordinary sentence; view membership, safety, stability, evidence, assurance or gate passage requires its own basis.
 

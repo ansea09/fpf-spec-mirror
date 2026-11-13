@@ -6,12 +6,12 @@ section_id: "C.29.BB:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29.BB/C.29.BB__007_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.29.BB — Construct a Balance across a Boundary"
   - "C.29.BB:6 — Bias-Annotation"
-line_start: 71256
-line_end: 71261
+line_start: 74349
+line_end: 74354
 dependencies:
   - "A.3.3.TR"
   - "C.11.DUA"
@@ -23,7 +23,7 @@ keywords:
 
 ### C.29.BB:6 - Bias-Annotation
 
-The storage examples make additivity easy to see. Apply it elsewhere only with a corresponding quantity definition. For a count of file copies inside the chosen boundary, making one additional copy adds one through internal production.
+The storage examples make additivity easy to see. Apply it elsewhere only with a corresponding quantity definition. For a count of file copies inside the boundary, making one additional copy adds one through internal production.
 
 The job example is a pathwise counting account. It introduces no arrival distribution, steady-state condition or claim that all jobs require equal effort. Those assumptions become relevant only for further questions that use them.
 

@@ -6,12 +6,12 @@ section_id: "G.4:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.4/G.4__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.4 — CAL Authoring for a CG-Frame: Operators, Acceptance Clauses, Evidence Wiring"
   - "G.4:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 129038
-line_end: 129063
+line_start: 137090
+line_end: 137115
 dependencies:
   - "A.10"
   - "A.13"
@@ -76,9 +76,9 @@ keywords:
 
 * **Exploratory telemetry treated as dominance.**
   Avoid: letting probe/illumination telemetry quietly become a dispatch criterion.
-  Prefer: keep it report‑only unless an explicit policy‑bound acceptance clause authorizes promotion.
+  Prefer: keep it report‑only unless a policy-bound acceptance clause expressly authorizes its promotion.
 
 * **Declaration mistaken for execution.**
   Avoid: treating a CAL card, `TaskMap`, proof-ledger row, worked example, or evidence edge as proof that an operator ran or a verdict obtained.
-  Prefer: recover every precise performer's A.13 core, let A.15.1 independently admit the dated Work, and add F.6 only when exact assignment-bound attribution through the same obtaining assignment is current; recover actual direct bindings separately. Compact wording may omit only an unused assignment identifier and no consumed fact. Keep the domain-local result and any result episteme separate from both.
+  Prefer: recover every precise performer's A.13 core, let A.15.1 independently admit the dated Work, and add F.6 only when the receiving claim needs to establish that the Work was performed under the same obtaining assignment; recover actual direct bindings separately. Compact wording may omit only an unused assignment identifier and no consumed fact. Keep the domain-local result and any result episteme separate from both.
 

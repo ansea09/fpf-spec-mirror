@@ -6,12 +6,12 @@ section_id: "C.29.1:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29.1/C.29.1__006_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.29.1 — Mathematical Result Transfer"
   - "C.29.1:5 — Archetypal Grounding"
-line_start: 70114
-line_end: 70248
+line_start: 73207
+line_end: 73341
 dependencies:
   - "A.3.3"
   - "A.6.3.RT"
@@ -23,7 +23,7 @@ keywords:
 
 ### C.29.1:5 - Archetypal Grounding
 
-The following constructions use stated mathematical models. Their conclusions show what follows from those models and correspondences. Applying them to an actual store, transport arrangement or thermal system also depends on the relevant accounting, compatibility or physical premises.
+The following constructions use stated mathematical models. Their conclusions show what follows from those models and correspondences. Applying them to a store, transport arrangement or thermal system also depends on the relevant accounting, compatibility or physical premises.
 
 #### C.29.1:5.1 - Transfer a reservation update to available stock
 
@@ -75,7 +75,7 @@ The arithmetic min(1,4)+2 = 3 still holds. Its use as the attainable minimum fai
 
 Repair the state at B by retaining whether the continuation permission remains. Let p arrive at (B,0) and q at (B,1). Only (B,1) has the r transition to C. Minimizing over the allowed complete routes in this expanded account yields 4 + 2 = 6. Returning q followed by r supplies an allowed source witness.
 
-There is also a useful result from the coarser account. If it deliberately ignores the permission restriction, its feasible route set contains the real feasible routes. Costs of retained routes remain unchanged. Its minimum 3 is therefore a lower bound on the true minimum, here 6. The bound rules out a source route costing at most 2. It cannot establish that a source route costing at most 4 exists; that would need an allowed witness.
+There is also a useful result from the coarser account. If it deliberately ignores the permission restriction, its feasible route set contains all routes allowed by the source account. Costs of retained routes remain unchanged. Its minimum 3 is therefore a lower bound on the source minimum, here 6. The bound rules out a source route costing at most 2. It cannot establish that a source route costing at most 4 exists; that would need an allowed witness.
 
 **Returned result.** Endpoint reachability, the cost of a selected route and the minimum over compatible routes are different questions. Retain history only insofar as it changes future compatibility or cost. When a coarser account is cheaper to use, its lower bound may still answer the receiving question without constructing the optimal source route.
 
@@ -135,7 +135,7 @@ Temperature differences are added to a temperature on the same scale. At k = 1 t
 
 If an exact maximum is wanted, retaining (m,|d|) is sufficient under this symmetric update. The sign of d is needed only for questions distinguishing which body is warmer. Retain the distinction needed by the question, rather than restoring both coordinates automatically.
 
-**Returned result and return condition.** The bound answers the stated question at the second sampling instant under the supplied model. It does not assert that the bodies were always below 60 °C: the initial pair (20,80) was not. Unequal heat capacities, external heat exchange or a changed transfer rule require a new update and a new comparison. Establishing that this discrete model predicts an actual pair of bodies requires physical and measurement work; B.5.MPC connects that work to the mathematical result.
+**Returned result and return condition.** The bound answers the stated question at the second sampling instant under the supplied model. It does not assert that the bodies were always below 60 °C: the initial pair (20,80) was not. Unequal heat capacities, external heat exchange or a changed transfer rule require a new update and a new comparison. Establishing that this discrete model predicts a pair of bodies requires physical and measurement work; B.5.MPC connects that work to the mathematical result.
 
 #### C.29.1:5.4 - Return a rational result from a real-number construction
 

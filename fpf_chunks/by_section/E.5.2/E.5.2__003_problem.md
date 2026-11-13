@@ -6,12 +6,12 @@ section_id: "E.5.2:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5.2/E.5.2__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.5.2 — Notational Independence"
   - "E.5.2:2 — Problem"
-line_start: 96508
-line_end: 96510
+line_start: 101715
+line_end: 101717
 dependencies:
   - "A.6.3.RT"
   - "A.6.3.RT.OE"
@@ -22,5 +22,5 @@ keywords:
 ---
 
 ### E.5.2:2 - Problem
-A definition can depend on unstated conventions of one glyph set or diagram grammar. Translation then changes its claims or leaves them unclear. Treating every visual form as an illustration creates a different failure: a useful construction or reasoning operation disappears from the description when it is carried by the expression itself.
+A definition can depend on unstated conventions of one glyph set or diagram grammar. Translation then changes its claims or leaves them unclear. Treating every visual form as an illustration leaves a useful construction or reasoning operation out of the description when the expression carries that operation.
 

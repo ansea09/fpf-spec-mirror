@@ -6,12 +6,12 @@ section_id: "C.36.MC:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.MC/C.36.MC__002_use-this-when.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.36.MC — Qualify and Develop a Method Culture"
   - "C.36.MC:0 — Use This When"
-line_start: 91106
-line_end: 91134
+line_start: 95586
+line_end: 95614
 dependencies:
   - "A.15.1"
   - "A.3.1"
@@ -26,11 +26,11 @@ keywords:
 
 Use this pattern when a group intends to continue or change how a bounded population generates, transmits, recognizes, selects, remembers, retains, or loses the ways of working in that practice—not merely improve one Method, publish an edition, teach one person, or change one project choice. Begin with one value and one testable cultural predicate: what is said to be transmitted, selected, remembered, or otherwise changed, by which participants and under which conditions. Use an adequate existing predicate and its test; derive a missing predicate as in §4.1.
 
-When transmission or development is the live question, follow one recipient from the available account to the work they need to do. Can they explain the important choice, perform it with the intended support, and change it when the situation changes? Section 4.5 connects the contributions needed for that receiving work. Merely identifying a card, teacher or repository does not supply the connection.
+When transmission or development is the live question, follow one recipient from the available account to the work they need to do. Can they explain the important choice, perform it with the intended support, and change it when the situation changes? Section 4.5 connects the contributions needed for that receiving work. Identifying a card, teacher or repository does not supply the connection.
 
 For a first pass, say in ordinary language what is being passed, selected, remembered, or lost; by whom and for whom; what the available evidence supports; and whether that supports continuing, revising, branching, replacing, stopping, or leaving one claim unknown. Keep the identified card, rule, Work occurrence, System, or direct relation and uncertainty that change this use. If that answers the question, stop. Add predicate, claim-episteme, occurrence-identity, structure, or architecture apparatus only when a later decision must rely on it.
 
-When the result must be retained or handed on, use a small cultural account. Name the C.20-recognized Discipline or smaller unresolved practice boundary and the truthful subject-status branch: an admitted Method, with an independently grounded A.15.1 `enactsMethod` occurrence when the cultural claim relies on actual performance of that Method, or a candidate lineage/source-described observed practice without claiming Method admission or enactment. Keep the testable cultural claim, named participants, available evidence, relevant interval and uncertainty, and the supported decision together. Add the lightest truthful A.6.RCD disposition, separate subjects, authorization, hypotheses, consequences, or selected-inquiry details only when the current claim or receiving use needs them. A continued practice needs no new intervention row merely to finish.
+When the result must be retained or handed on, use a small cultural account. Name the C.20-recognized Discipline or smaller unresolved practice boundary and the subject-status branch: an admitted Method, with an independently grounded A.15.1 `enactsMethod` occurrence when the cultural claim relies on actual performance of that Method, or a candidate lineage/source-described observed practice without claiming Method admission or enactment. Keep the testable cultural claim, named participants, available evidence, relevant interval and uncertainty, and the supported decision together. Add the lightest A.6.RCD disposition, separate subjects, authorization, hypotheses, consequences, or selected-inquiry details only when the current claim or receiving use needs them. A continued practice needs no new intervention row merely to finish.
 
 Here *culture* is Plain practice wording for bounded claims about how a population generates, transmits, recognizes, selects, remembers, retains, changes, or loses practice. A school label, framework edition, repository, training event, local Method choice, repeated task, or institutional publication does not establish those claims together.
 
@@ -46,7 +46,7 @@ Do not use this pattern for a bounded introduction whose primary result is targe
 | bounded population | Identified transmitting, receiving, recognizing, selecting, remembering, retaining, generating, or losing participants for the named predicate, place, and period. | “The organization”, “the community”, or “users” is insufficient without participant meanings and a boundary. |
 | cultural predicate and disposition | The transmitted, selected, recognized, remembered, retained, generated, or lost value; participant meanings; applicability; an existing direct predicate and its test, or a needed A.6.RCD construction with its positive and discriminating failed cases. | A convenient relation label does not create a direct relation kind or obtaining occurrence. |
 | claim, evidence, and occurrence | The world-side direct relation or bounded relation-bearing claim; a separate claim episteme; evidence and reliance; and observations at named intervals. Use A.6.REL occurrence identity only when later work must distinguish occurrences. | A claim episteme, identifier, evidence item, or later report neither creates nor reidentifies a world-side occurrence. |
-| participating subjects | Identified cards, descriptions with their recorded kind and status, publication occurrences, repositories or other Systems, teaching/tutoring/event Work, decision-rule epistemes, fields, forums, assignments, permissions, authority, and other direct relations actually relied on. | A bundle word does not establish selected structure; A.22 applies only to one selected organization whose constituents and obtaining relations change the decision, and C.30 only to a current architecture question. |
+| participating subjects | Identified cards, descriptions with their recorded kind and status, publication occurrences, repositories or other Systems, teaching/tutoring/event Work, decision-rule epistemes, fields, forums, assignments, permissions, authority, and other direct relations relied on. | A bundle word does not establish selected structure; A.22 applies only to one selected organization whose constituents and obtaining relations change the decision, and C.30 only to a current architecture question. |
 | bounded authorization | One named assignment, permission, or authority predicate with Agent, action or changed subject, scope, and positive basis that permits the intervention. | Ownership, project position, assignment, permission, authority, and expertise are not interchangeable. |
 | development hypotheses and inquiry | Credible explanations whose different consequences could change the continuation or warranted claim; a new observation only when its attainable contribution warrants its whole burden. | Unresolved explanation does not erase a bounded supported account. Neither a second hypothesis nor a proposed study is a universal completion field; a causal or tested-change claim keeps its own evidence conditions. |
 | practitioner or constructed-Method consequence | A separately observed change in practitioner Work, understanding, burden, result, or a constructed Method. | It is not the cultural claim and does not prove that claim caused the consequence. |

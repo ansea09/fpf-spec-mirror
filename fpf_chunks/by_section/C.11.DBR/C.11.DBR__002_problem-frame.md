@@ -6,12 +6,12 @@ section_id: "C.11.DBR:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.DBR/C.11.DBR__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.11.DBR — Reconsider a Decision When Its Relied-on Basis Changes"
   - "C.11.DBR:1 — Problem frame"
-line_start: 57638
-line_end: 57649
+line_start: 59974
+line_end: 59985
 dependencies:
   - "A.10"
   - "A.10.1"
@@ -29,7 +29,7 @@ keywords:
 
 Use this pattern when an earlier choice, commitment or recommendation is known, and a later observation, outcome or changed condition may alter the basis for one use of that result. A team may have completed an intervention while its expected benefit failed to appear. A model may remain a correct account of its original observations while no longer supporting the next prediction. The question is: **what does this later result change about the earlier choice, and what can remain in use?**
 
-**First useful move.** Name the earlier result and the use now in question, then recover the premise that actually supported that use. Compare the later result with that premise under comparable conditions. A finding that nothing material changed can finish the work. A material difference supplies a bounded input to a separately made current decision.
+**First useful move.** Name the earlier result and the use now in question, then recover the premise that supported that use. Compare the later result with that premise under comparable conditions. A finding that nothing material changed can finish the work. A material difference supplies a bounded input to a separately made current decision.
 
 The reader needs access to the earlier basis, the later result and the subject knowledge needed to interpret them. Ask the responsible contributor for an unavailable premise or interpretation; a decision log alone does not supply it. Ordinary prose in the existing discussion can carry the answer. Use a retained account only when another person or later action needs it.
 

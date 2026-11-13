@@ -6,12 +6,12 @@ section_id: "C.2.3:15"
 section_title: "Composition and interaction"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.3/C.2.3__016_composition-and-interaction.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.2.3 — Formality of an Episteme"
   - "C.2.3:15 — Composition and interaction"
-line_start: 53307
-line_end: 53328
+line_start: 55532
+line_end: 55553
 dependencies:
   - "A.16"
   - "A.18"
@@ -51,7 +51,7 @@ Formality concerns expression; G concerns applicability or claim scope. Making a
 
 #### C.2.3:15.3 - Relation to R
 
-An explicit expression can make a claim easier to test or its derivation easier to check. It does not create empirical support. A checked formal argument establishes its conclusion under the admitted premises and calculus; applying that conclusion to the world additionally needs the relevant interpretation and evidence. Assess freshness, corroboration and mapping limitations under their actual assurance models.
+An explicit expression can make a claim easier to test or its derivation easier to check. It does not create empirical support. A checked formal argument establishes its conclusion under the admitted premises and calculus; applying that conclusion to the world additionally needs the relevant interpretation and evidence. Assess freshness, corroboration and mapping limitations under their assurance models.
 
 #### C.2.3:15.4 - Relation to CL and Bridges
 

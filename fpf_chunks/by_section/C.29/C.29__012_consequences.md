@@ -6,12 +6,12 @@ section_id: "C.29:11"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__012_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:11 — Consequences"
-line_start: 69791
-line_end: 69798
+line_start: 72884
+line_end: 72891
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -64,7 +64,7 @@ keywords:
 
 | Benefit | Cost or handling |
 |---|---|
-| Authors get a small checklist before using terms such as field, quantum, category, RG, manifold, graph, or information geometry. | Some quick analogies will be downgraded to local prose; this is intended. |
+| Authors get a small checklist before using terms such as field, quantum, category, RG, manifold, graph, or information geometry. | Some quick analogies will be downgraded to local prose. |
 | A proposed metric/noise relation can suggest a candidate learning model. | Its correspondence and application conditions still need testing before reliance. |
 | Cross-domain transfer becomes auditable through preserved structure and lost structure and stop conditions. | More upfront statement effort; reduces downstream epistemic precision repair. |
 

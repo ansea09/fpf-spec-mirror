@@ -6,12 +6,12 @@ section_id: "F.9:18"
 section_title: "Didactic distillation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__020_didactic-distillation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.9 — Relate Local Meanings across Contexts (Alignment and Bridge)"
   - "F.9:18 — Didactic distillation"
-line_start: 121661
-line_end: 121672
+line_start: 129361
+line_end: 129372
 dependencies:
   - "A.10"
   - "A.13"
@@ -60,7 +60,7 @@ keywords:
 Use this five-part script:
 
 1. Find the two exact local senses.
-2. Say what semantic relation holds and test whether that Bridge obtains.
+2. State the proposed correspondence or difference and test it. Report whether the Bridge obtains, is ruled out or remains unresolved.
 3. State the proposed use separately: action, direction, rule, tolerated loss, and polarity.
 4. Check whether current evidence or assurance supports relying on that claim; recover authorization separately if needed.
 5. If the use happened, identify the actual object and apply the relevant pattern to the claim about it. Make a card only when reuse is worth the maintenance.

@@ -6,12 +6,12 @@ section_id: "B.2:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2/B.2__002_use-this-when.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.2 — Meta-Holon Transition - Whole Reidentification"
   - "B.2:0 — Use This When"
-line_start: 43352
-line_end: 43380
+line_start: 45078
+line_end: 45106
 dependencies:
   - "A.1"
   - "A.10"
@@ -48,13 +48,13 @@ keywords:
 
 ### B.2:0 - Use This When
 
-Use this pattern when changed facts raise the question whether the existing whole still carries the current claim or a new whole must be identified. The question may concern its delimitation, part relation, constitutive assembly, objective, supervision, capability envelope, agency threshold, or temporal consolidation.
+Use this pattern when changed facts raise the question whether the existing whole still carries the claim or a new whole must be identified. The question may concern its delimitation, part relation, constitutive assembly, objective, supervision, capability envelope, agency threshold, or temporal consolidation.
 
 The question can also arise when a whole is first constituted or first recognized. If no prior holon has been established, use A.1 and the applicable construction and kind-specific patterns to recognize the candidate. B.2's comparison begins only when there is an established prior whole to compare with it.
 
 Typical moments:
 
-- a set of coordinated parts becomes a regulated system with its own objective and externally visible commitments;
+- a set of coordinated parts becomes a regulated system with its objective and externally visible commitments;
 - a commissioning history crosses into operation and the assurance claim must restart for the operational whole;
 - a theory, model family, or knowledge body becomes an episteme whole recognized under the already admitted `U.Episteme` kind rather than remaining a loose catalogue;
 - separately governed structure, functioning, method, and work facts support a capability envelope that the existing whole cannot explain; evidence separately supports the claim about those facts;
@@ -62,15 +62,15 @@ Typical moments:
 
 **First useful move.** Compare the observed gain or shift with explanations that preserve the existing whole. If better parts, corrected relations, improved measurement, Method or Work repair, richer phase coverage, or architecture-view repair is sufficient, stay with the existing whole and use that subject pattern. Proceed to a new-whole claim only when that comparison leaves whole reidentification necessary. When the identity grounds themselves are missing or disputed, start with :4.0.
 
-**What goes wrong if missed.** Emergence becomes rhetoric, ordinary improvement is overclaimed as a new whole, or a genuinely new whole remains hidden under old part, evidence, assurance, architecture, or responsibility claims.
+**What goes wrong if missed.** Emergence becomes rhetoric, ordinary improvement is overclaimed as a new whole, or a new whole remains hidden under old part, evidence, assurance, architecture, or responsibility claims.
 
-**What this buys.** The practitioner can decide whether the current claim concerns the existing whole or a new one, using the changed facts and each whole's identity grounds. The result guides subsequent records and reliance decisions.
+**What this buys.** The practitioner can decide whether the claim concerns the existing whole or a new one, using the changed facts and each whole's identity grounds. The result guides subsequent records and reliance decisions.
 
 **Not this pattern when.**
 
 - If the claim is ordinary part-whole construction, use `B.1`, `A.14`, and `C.13`.
-- If the claim is a whole-level characteristic change, use `C.16` and the direct measurement or evaluation pattern.
-- If the claim is capability without whole reidentification, use the direct capability and characteristic patterns.
+- If the claim is a whole-level characteristic change, use `C.16` and the measurement or evaluation pattern.
+- If the claim is capability without whole reidentification, use the capability and characteristic patterns.
 - If the claim is transformation or work, use `A.3.4` for the change and `A.15.1` for the Work; use `A.12` when the acting side needs recovery and `A.15` when alignment across the neighboring objects is the question.
 - If the claim is only wording repair for emergence-family language, use `B.2.P` first.
 - If the claim concerns a graph, RG-like, MSPD or other mathematical expression, use its mathematical or subject pattern, with `C.29` for an unresolved representation-choice, transfer or reliance question. `B.2` applies separately when whole reidentification is also current.

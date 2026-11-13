@@ -6,12 +6,12 @@ section_id: "E.24.CD:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.CD/E.24.CD__005_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.24.CD — Ontic Candidate Detection and First-Use Disposition"
   - "E.24.CD:3 — Forces"
-line_start: 116642
-line_end: 116651
+line_start: 124083
+line_end: 124092
 dependencies:
   - "A.1"
   - "A.14"
@@ -60,6 +60,6 @@ keywords:
 | Early recognition vs premature ontology | A recurring concern should be noticed, but recurrence alone must not mint a durable subject or `U.*` kind. |
 | Visible form vs governed subject | A form can reveal the problem while remaining an episteme, publication form, representation, carrier, or local record. |
 | Direct reuse vs shared coordination | Existing patterns carry their own claims; concrete duplication or disagreement across named consumers can require E.24 to decide whether shared ontology is needed. |
-| First-use affordability vs adequate discrimination | The author needs a quick choice, but the choice must still separate direct use, local classification, publication, wording, and durable admission. |
+| First-use affordability vs adequate discrimination | The author needs a quick choice, but the choice must separate direct use, local classification, publication, wording, and durable admission. |
 | Traceability vs registry growth | A disputed choice may need one explanatory sentence; it does not need a standing candidate catalogue. |
 

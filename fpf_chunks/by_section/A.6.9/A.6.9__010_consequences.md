@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.9"
-pattern_title: "Cross-Context Sameness Disambiguation - Restoring the concrete claim behind \"same\", \"equivalent\", and \"align\" (RPR-XCTX)"
+pattern_title: "Cross-Context Sameness Disambiguation - Restoring the claim behind \"same\", \"equivalent\", and \"align\" (RPR-XCTX)"
 section_id: "A.6.9:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.9/A.6.9__010_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.6.9 — Cross-Context Sameness Disambiguation - Restoring the concrete claim behind \"same\", \"equivalent\", and \"align\" (RPR-XCTX)"
+  - "A.6.9 — Cross-Context Sameness Disambiguation - Restoring the claim behind \"same\", \"equivalent\", and \"align\" (RPR-XCTX)"
   - "A.6.9:9 — Consequences"
-line_start: 24816
-line_end: 24834
+line_start: 25737
+line_end: 25755
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -62,15 +62,15 @@ keywords:
   * Turns ambiguous sameness into a visible relation question and a visible action question.
   * Lets one Bridge remain stable while use direction, tolerance, evidence, and polarity change.
   * Prevents scores, cards, assurance, and publications from becoming hidden permission or occurrence.
-  * Gives authors exact local stops instead of a vague “not equivalent”.
+  * Gives authors local stops instead of a vague “not equivalent”.
 
 * **Cons**
 
   * A positive use normally needs two sentences instead of one adjective.
   * Reviewers must inspect the correspondence rule, tolerated loss, and evidence for the named action.
-  * Many attractive “same” claims become only an explanatory comparison or a negative use claim.
+  * Many “same” claims become only an explanatory comparison or a negative use claim.
 
 **Adoption test (PRAG).** Take one sentence containing *same*, *equivalent*, *align*, or *map*. A practitioner passes when they can name the concrete action and state the truthful result of the selected branch. A non-semantic result uses its concrete predicate or constraint and exits before F.9.
 
-For a semantic-correspondence question, resolve the local senses and decide whether the F.9 branch applies. If it does, recover the exact cells and profile and say whether the Bridge obtains. Distinguish a false predicate result or an inapplicable case from missing facts or a missing governor. Only a proposed use of an obtaining Bridge additionally needs the separate bounded-use claim and, when someone will rely on it, the applicable reliance result. Name any required authorization or claimed receiving occurrence that remains missing. If the wording prevents recovery, keep it explanatory and name the exact missing meaning; a complete false test is not missing information.
+For a semantic-correspondence question, resolve the local senses and decide whether the F.9 branch applies. If it does, recover the cells and profile and say whether the Bridge obtains. Distinguish a false predicate result or an inapplicable case from missing facts or a missing governor. Only a proposed use of an obtaining Bridge additionally needs the separate bounded-use claim and, when someone will rely on it, the applicable reliance result. Name any required authorization or claimed receiving occurrence that remains missing. If the wording prevents recovery, keep it explanatory and name the missing meaning; a complete false test is not missing information.
 

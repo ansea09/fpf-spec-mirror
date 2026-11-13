@@ -6,12 +6,12 @@ section_id: "F.0.2:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2/F.0.2__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.0.2 — Semantic Synthesis across Source Ontologies"
   - "F.0.2:intro — Intro"
-line_start: 117993
-line_end: 117998
+line_start: 125581
+line_end: 125586
 dependencies:
   - "A.2.4"
   - "C.2.1"
@@ -36,5 +36,5 @@ keywords:
 
 > **Type:** Architectural (A)
 > **Status:** Stable
-> **Normativity:** Normative unless explicitly marked informative
+> **Normativity:** Normative unless marked informative
 

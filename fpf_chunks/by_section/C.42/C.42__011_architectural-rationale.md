@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.42"
-pattern_title: "Reduce Avoidable Work While Preserving the Needed Result"
+pattern_title: "Reduce Work While Preserving the Needed Result"
 section_id: "C.42:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.42/C.42__011_architectural-rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "C.42 — Reduce Avoidable Work While Preserving the Needed Result"
+  - "C.42 — Reduce Work While Preserving the Needed Result"
   - "C.42:10 — Architectural Rationale"
-line_start: 90248
-line_end: 90257
+line_start: 94622
+line_end: 94631
 dependencies:
   - "A.11.OP"
   - "A.3.1.MI"

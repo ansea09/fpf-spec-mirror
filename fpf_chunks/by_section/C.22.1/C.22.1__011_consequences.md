@@ -6,12 +6,12 @@ section_id: "C.22.1:10"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.1/C.22.1__011_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.22.1 — Task-family adaptation signature"
   - "C.22.1:10 — Consequences"
-line_start: 63303
-line_end: 63308
+line_start: 65936
+line_end: 65941
 dependencies:
   - "A.15"
   - "C.19.1"
@@ -40,6 +40,6 @@ keywords:
 ### C.22.1:10 - Consequences
 
 - Acquisition time and cost can be compared with prior exposure and any claimed post-threshold efficiency on one recoverable basis.
-- Selector and parity pattern applications can consume a stable upstream specialization object without minting shadow vocabularies.
+- Selector and parity pattern applications can consume a stable upstream adaptation signature without silently redefining its fields.
 - Claimed corridor entry and known downside remain visible alongside the specialization gain.
 

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.6"
-pattern_title: "Base Declaration Discipline: Say Exactly What Something Depends On"
+pattern_title: "Base Declaration Discipline: Say What Something Depends On"
 section_id: "A.6.6:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__007_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.6.6 — Base Declaration Discipline: Say Exactly What Something Depends On"
+  - "A.6.6 — Base Declaration Discipline: Say What Something Depends On"
   - "A.6.6:6 — Bias-Annotation"
-line_start: 23929
-line_end: 23937
+line_start: 24850
+line_end: 24858
 dependencies:
   - "A.10"
   - "A.14"
@@ -45,6 +45,6 @@ keywords:
 | --- | --- |
 | **Governance / assurance** | Prefers explicit witnesses and time selectors when the decision's basis requires them; increases auditability but adds authoring overhead. |
 | **Architecture** | Prefers the direct assertion and predicate first. It permits a reusable declaration or scoped assertion record only for a named receiver, reducing both hidden relations and record-first over-formalization. |
-| **Onto-epistemic** | Makes the actual relation kind and direct predicate explicit; resists both metaphor-only wording and a universal base-relation kind. |
+| **Onto-epistemic** | Makes the relation kind and direct predicate explicit; resists both metaphor-only wording and a universal base-relation kind. |
 | **Didactic** | Teaches the short dependent–base–direct-relation question first; the optional record vocabulary appears only for a named later use. |
 

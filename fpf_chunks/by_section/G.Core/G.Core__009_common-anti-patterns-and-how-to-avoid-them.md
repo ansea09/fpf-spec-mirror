@@ -6,12 +6,12 @@ section_id: "G.Core:8"
 section_title: "Common anti-patterns and how to avoid them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.Core/G.Core__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.Core — Discipline SoTA Kit Invariants, Defaults and Refresh Triggers (Part G)"
   - "G.Core:8 — Common anti-patterns and how to avoid them"
-line_start: 126771
-line_end: 126793
+line_start: 134821
+line_end: 134843
 dependencies:
   - "A.15.3"
   - "A.19"
@@ -35,16 +35,16 @@ keywords:
 ### G.Core:8 - Common anti-patterns and how to avoid them
 
 * **Anti-pattern:** Restating CN‑Spec/CG‑Spec rules inside a `G.x` “for convenience”.
-  **Avoid:** cite `A.19.CN` and `G.0` through `CC‑GCORE‑CN‑CG‑1`.
+  **Avoid:** cite the applicable specification (`A.19.CN`, `G.0` or both) through `CC‑GCORE‑CN‑CG‑1`.
 
 * **Anti-pattern:** Adding a fourth guard status (“unknown”, “maybe”, “probe-only”) as a separate decision value.
   **Avoid:** keep guard domain tri‑state; express “probe-only” as policy/branching and record via pins/audit.
 
 * **Anti-pattern:** Treating mandatory invariants as “defaults” to centralize them.
-  **Avoid:** keep invariants as invariants (CC‑GCORE‑* cited through canonical governing definitions); restrict the Default Governing Definition Index to true defaults (constants or conditional default-rules).
+  **Avoid:** Cite mandatory invariants through their `CC‑GCORE‑*` items and governing definitions. Reserve the Default Governing Definition Index for defaults, including constants and conditional default rules.
 
 * **Anti-pattern:** Turning partial orders into scalar ranks silently.
-  **Avoid:** keep set‑valued semantics unless a total order is explicitly declared by a comparator/policy.
+  **Avoid:** keep the set returned under the partial order. A total ranking may guide a decision when the applicable comparator or policy explicitly admits it. A scalar summary used only for reporting leaves the selected set unchanged.
 
 * **Anti-pattern:** Competing defaults scattered across multiple patterns.
   **Avoid:** Default Governing Definition Index; delegate duplicate statements to the one governing definition.

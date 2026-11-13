@@ -6,12 +6,12 @@ section_id: "C.19:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 61822
-line_end: 61830
+line_start: 64295
+line_end: 64303
 dependencies:
   - "A.10"
   - "A.19.CPM"
@@ -22,13 +22,7 @@ dependencies:
   - "C.16"
   - "C.17"
   - "C.18"
-  - "C.19"
-  - "C.22.PFR"
   - "C.24"
-  - "C.28"
-  - "C.32"
-  - "C.32.P2S"
-  - "C.35"
   - "E.10.LRN"
   - "E.17"
   - "E.24.PUB"
@@ -53,7 +47,7 @@ keywords:
 
 ### C.19:8 - Common Anti-Patterns and How to Avoid Them
 
-- **Using deployment readiness to settle research continuation.** Judge active exploration and cheaper retention by their prospective contribution and remaining cost. Keep the actual qualification for deployment or transfer; past expenditure is not a reason to keep funding the line.
+- **Using deployment readiness to settle research continuation.** Judge active exploration and cheaper retention by their prospective contribution and remaining cost. Keep the qualification for deployment or transfer; past expenditure is not a reason to keep funding the line.
 
 - **Treating one scalarized top-1 as the frontier.** Avoid by naming the governing lens and keeping the live frontier distinct from any lens-ranked pick.
 - **Treating an unresolved policy question as a settled treatment.** Return the supported `currentTreatment` when its conditions hold. Otherwise identify the unresolved premise and dependent judgement; if another question has become current, name its subject pattern.

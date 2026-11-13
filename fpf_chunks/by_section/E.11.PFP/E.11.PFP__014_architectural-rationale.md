@@ -6,12 +6,12 @@ section_id: "E.11.PFP:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PFP/E.11.PFP__014_architectural-rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.11.PFP — Framework Publication Form Profile for Markdown"
   - "E.11.PFP:10 — Architectural Rationale"
-line_start: 104641
-line_end: 104646
+line_start: 110849
+line_end: 110858
 dependencies:
   - "A.3.2"
   - "C.29"
@@ -34,7 +34,11 @@ keywords:
 
 ### E.11.PFP:10 - Architectural Rationale
 
-The shared rule fixes only the recognition points whose reuse pays across FPF, DPF, and LPF: a compact product-declared opening, Readme and the architectural-reference unit represented in the established ToC grammar, one logical pattern index, one selected practical-entry set with five-field ordinary examples and six-field selected cards, truthful product boundaries, and recognizable major units. It leaves titles, optional public cues, the exact product-native ToC segment, example selection, the reading-burden measure and two limits, front line shape, and reference tails with the product-specific rule because their value depends on the reader's choice and publication language. These product-specific choices preserve direct entry while keeping deterministic checks narrow.
+The shared rule fixes only the recognition points whose reuse pays across FPF, DPF, and LPF: a compact product-declared opening, Readme and the architectural-reference unit represented in the established ToC grammar, one logical pattern index, one selected practical-entry set with five-field ordinary examples and six-field selected cards, truthful product boundaries, and recognizable major units.
 
-The twelve E.8 functions supply the content questions because a whole language, a substantive profile, and an individual pattern all need to explain working situations, Methods, evidence, use, and consequences. Reusing the functions makes omissions visible without inventing a new account for every product. Exact inherited answers and explicit deltas keep the explanation proportional to what changes. The alternative of ad hoc architecture prose can preserve valuable reasons but offers no stable way to find a missing kind of answer. Literal recursive pattern formatting would add parent bodies and rigid heading depth that the subject's relations do not require. The selected form therefore reuses the substantive questions inside the established publication units and keeps the full patterns directly accessible.
+It leaves titles, optional public cues, the exact product-native ToC segment, example selection, the reading-burden measure and two limits, front line shape, and reference tails with the product-specific rule because their value depends on the reader's choice and publication language. These product-specific choices preserve direct entry while keeping deterministic checks narrow.
+
+The twelve E.8 functions supply the content questions because a whole language, a substantive profile, and an individual pattern all need to explain working situations, Methods, evidence, use, and consequences. Reusing the functions makes omissions visible without inventing a new account for every product. Exact inherited answers and explicit deltas keep the explanation proportional to what changes.
+
+The alternative of ad hoc architecture prose can preserve valuable reasons but offers no stable way to find a missing kind of answer. Literal recursive pattern formatting would add parent bodies and rigid heading depth that the subject's relations do not require. The selected form therefore reuses the substantive questions inside the established publication units and keeps the full patterns directly accessible.
 

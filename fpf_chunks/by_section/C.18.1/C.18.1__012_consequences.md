@@ -6,18 +6,17 @@ section_id: "C.18.1:11"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18.1/C.18.1__012_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.18.1 — Scaling‑Law Lens Binding (SLL)"
   - "C.18.1:11 — Consequences"
-line_start: 61410
-line_end: 61417
+line_start: 63861
+line_end: 63868
 dependencies:
   - "C.16"
   - "C.17"
   - "C.18"
   - "C.19"
-  - "C.24"
   - "G.10"
   - "G.5"
   - "G.9"
@@ -47,5 +46,5 @@ keywords:
 
 **Trade-offs.** A supported scale claim needs observations at at least two scale points and recoverable invariants, applicable phase and uncertainty information, any seeds used, and applicable policy thresholds. Reuse of an applicable account can avoid new probing. The gain is that selectors, parity harnesses, refresh telemetry, and mathematical-lens uses can cite one bounded scale claim instead of guessing whether the observed behavior transfers.
 
-**Stop condition.** Stop at C.18.1 when the scale variable, ScaleWindow, probe basis, supported class or explicit classification limit, and parity notes suffice for the receiving question. An unresolved class can finish this inquiry while leaving a scale-dependent preference unsupported. Select further probing only when its attainable contribution to the decision warrants its burden; use C.11.DUA if that choice needs resolution. Move to `G.9`, `C.19`, `G.11`, `C.29`, or a domain annex when parity, selector policy, telemetry refresh, mathematical lens, or numeric fit becomes the live object.
+**Stop condition.** Stop at C.18.1 when the scale variable, ScaleWindow, probe basis, supported class or explicit classification limit, and parity notes suffice for the receiving question. An unresolved class can finish this inquiry while leaving a scale-dependent preference unsupported. Select further probing only when its attainable contribution to the decision warrants its burden; use C.11.DUA if that choice needs resolution. Move to `G.9`, `C.19`, `G.11`, `C.29`, or a domain annex when the next question concerns parity, selector policy, telemetry refresh, a mathematical lens, or a numeric fit.
 

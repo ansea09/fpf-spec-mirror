@@ -6,12 +6,12 @@ section_id: "G.13:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.13/G.13__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.13 — External Interop Hooks for SoTA Discipline Packs (conceptual)"
   - "G.13:intro — Intro"
-line_start: 132816
-line_end: 132827
+line_start: 140936
+line_end: 140948
 dependencies:
   - "A.18"
   - "A.19"
@@ -52,7 +52,8 @@ Use :4.3 to establish the mapping from source meanings and actual records, then 
 
 
 **Status.** Stable
-**Normativity.** Normative when used (when any `G.13` surface is authored/emitted/consumed); informative otherwise.
+
+**Normativity.** Normative when a `G.13` surface is authored, emitted or consumed. Informative otherwise.
 
 
 

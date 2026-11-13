@@ -6,12 +6,12 @@ section_id: "E.2:11"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.2/E.2__012_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.2 — FPF's Eleven Pillars and Bitter-Lesson Preference (BLP)"
   - "E.2:11 — Rationale"
-line_start: 92672
-line_end: 92677
+line_start: 97205
+line_end: 97210
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -44,5 +44,5 @@ keywords:
 
 The pillars interlock: *Cognitive Elegance* (P‑1) enables *Didactic Primacy* (P‑2); *Open‑Ended Kernel* (P‑4) and *FPF Layering* (P‑5) make *Open‑Ended Evolution* (P‑10) and *SoTA alignment* (P‑11) feasible; *Cross‑Scale Consistency* (P‑8) provides the algebraic backbone for *Scalable Formality* (P‑3). Together the pillars balance stability with change, rigor with accessibility, and abstraction with measurable impact.
 
-`C.29` supports a pillar-impact argument when its mathematical representation choice, transfer, or reliance remains unresolved. It makes the relevant correspondence, loss and use condition explicit; `E.2` remains authority over the pillars.
+`C.29` supports a pillar-impact argument when its mathematical representation choice, transfer, or reliance remains unresolved. It states the relevant correspondence, loss and use condition; `E.2` remains authority over the pillars.
 

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.22"
-pattern_title: "Structure and Structural Views (STRUCT-CAL)"
+pattern_title: "Structure and Structural Views"
 section_id: "A.22:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.22 — Structure and Structural Views (STRUCT-CAL)"
+  - "A.22 — Structure and Structural Views"
   - "A.22:3 — Forces"
-line_start: 40185
-line_end: 40195
+line_start: 41763
+line_end: 41773
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -74,7 +74,7 @@ keywords:
 | First-principles structure EntityOfConcern vs ontology inflation | FPF needs a reusable selected-structure EntityOfConcern for organizations that expose relations, applied constraints, invariants, variation classes, preserved arrangement, and lost arrangement, but adding one such EntityOfConcern can accidentally invite many false root kinds. |
 | Useful compression vs structure-use return | Structure makes work easier by compressing cases, but a `StructureUseReturnCondition` is needed when compression, extraction, coarsening, source-description reuse, base-dependence reuse, grounding reuse, evidence reuse, lens reuse, simulation reuse, or representation reuse hides a distinction needed for action. |
 | Description and view usability vs structure confusion | Descriptions and views make structure inspectable, but a useful view can be mistaken for the structure itself. |
-| Mathematical-lens application vs mathematical overread | C.29 lens output is usable within its declared mapping, preserved structure, lost structure, and stop condition; any evidence, causal, assurance, or decision claim uses its own predicate and result. |
+| Mathematical-lens application vs mathematical overread | C.29 lens output is usable within its declared mapping, preserved structure, lost structure, and stop condition; any evidence, causal, assurance, or decision claim uses its predicate and result. |
 | Architecture dependency vs architecture takeover | Architecture uses selected structure through `C.30`; A.22 does not import architecture as its parent or make every structure an architecture. |
 | Plain engineering speech vs Tech recovery | Words such as structure, graph, architecture, module, function, interface, pattern, block, layer, level, tier, stack, expert, cache, router, and gate can remain in Plain prose, but a claim that depends on their precise meaning needs recoverable Tech fields and pattern applications. Use `C.30.STRAT` when a source label leaves the selected-structure claim ambiguous. |
 

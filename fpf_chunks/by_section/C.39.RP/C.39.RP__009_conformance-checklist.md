@@ -6,12 +6,12 @@ section_id: "C.39.RP:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.RP/C.39.RP__009_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.39.RP — Organize a Repertoire for Method Development"
   - "C.39.RP:7 — Conformance Checklist"
-line_start: 84270
-line_end: 84281
+line_start: 88443
+line_end: 88454
 dependencies:
   - "A.3.1.DR"
   - "A.3.1.MR"
@@ -27,10 +27,10 @@ keywords:
 - [ ] The repertoire has one named comparison or proposal use and a relevance criterion.
 - [ ] Every Method cites an existing `A.3.1` identity result; every provisional subject remains a candidate account.
 - [ ] MethodDescriptions attach only to already identified Methods and remain distinct from those Methods.
-- [ ] Every source contribution names an exact source or artifact edition, subject, contribution used, evidence/status, scope, and limit.
+- [ ] Every source contribution names a source or artifact edition, subject, contribution used, evidence/status, scope, and limit.
 - [ ] Established family relations, project-local groupings, variant claims, and lineage relations are recorded separately.
 - [ ] Every lineage claim names both subjects, the relation, and the supporting source without implying causation, superiority, or composition.
-- [ ] Publication/artifact edition and current project reliance are distinguishable. A new date alone neither defeats nor renews support; changed evidence, applicability and actual time boundaries still govern the receiving use.
+- [ ] Publication/artifact edition and current project reliance are distinguishable. A new date alone neither defeats nor renews support; changed evidence, applicability and time boundaries govern the receiving use.
 - [ ] Missing alternatives, provenance, relations, editions, evidence, or source meanings remain visible.
 - [ ] The stop states what the repertoire supports and which claims remain unavailable.
 

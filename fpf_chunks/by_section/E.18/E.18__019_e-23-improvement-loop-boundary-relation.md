@@ -6,12 +6,12 @@ section_id: "E.18:15b"
 section_title: "E.23 Improvement-Loop Boundary Relation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__019_e-23-improvement-loop-boundary-relation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:15b — E.23 Improvement-Loop Boundary Relation"
-line_start: 110860
-line_end: 110865
+line_start: 117718
+line_end: 117725
 dependencies:
   - "A.15.1"
   - "A.15.PROD"
@@ -39,7 +39,9 @@ keywords:
 
 ### E.18:15b - E.23 Improvement-Loop Boundary Relation
 
-When a transformation-flow structure contains a cycle, budgeted retry path, monitor/escalate path, or slice-local refresh relation, `E.18` defines the selected structure: identified constituents and relations, resolved positions, path or slice, gate positions, pins, and the dependent refresh scope. The cycle becomes an `E.23` quality-improvement loop only when a named object version is changed and then re-evaluated by a declared object-under-improvement evaluation. Otherwise it remains a transformation-flow structure, work-control cue, gate relation, or refresh relation; apply the pattern whose Solution answers that exact claim.
+When a transformation-flow structure contains a cycle, budgeted retry path, monitor/escalate path, or slice-local refresh relation, `E.18` defines the selected structure: identified constituents and relations, resolved positions, path or slice, gate positions, pins, and the dependent refresh scope. The cycle becomes an `E.23` quality-improvement loop only when a named object version is changed and then re-evaluated by a declared object-under-improvement evaluation.
+
+Otherwise it remains a transformation-flow structure, work-control cue, gate relation, or refresh relation; apply the pattern whose Solution answers that exact claim.
 
 Agent-loop diagrams often contain both kinds. A monitor/retry/escalate loop over physical execution state may be a valid `TransformationFlowStructure` and may include an `A.21` gate, but it does not prove that the controlled object improved. If the harness itself is improved, use the E.23 object-version improvement definition and test; if the harness only runs work, use the A.15 family to identify and test the work occurrence.
 

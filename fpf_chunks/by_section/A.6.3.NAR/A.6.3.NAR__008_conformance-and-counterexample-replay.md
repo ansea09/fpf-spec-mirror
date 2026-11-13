@@ -6,12 +6,12 @@ section_id: "A.6.3.NAR:7"
 section_title: "Conformance and counterexample replay"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.NAR/A.6.3.NAR__008_conformance-and-counterexample-replay.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.3.NAR — Structure-to-Narrative Rendering"
   - "A.6.3.NAR:7 — Conformance and counterexample replay"
-line_start: 19634
-line_end: 19664
+line_start: 20507
+line_end: 20537
 dependencies:
   - "A.10"
   - "A.22.CGUS"
@@ -51,11 +51,11 @@ keywords:
 | `CC-NAR-4` | The narrative has been compared with its source for preservation, foregrounding, omission, weakening, rearrangement, and unsupported strengthening. |
 | `CC-NAR-5` | The supported use is clear; source return is specified when omitted structure or a changed question requires it. Any excluded use passes F.19:4's full guard test. |
 | `CC-NAR-6` | Temporal posture, mediation, event-model support, viewpoint, engagement, and worker history appear only when each changes use or blocks a likely overread. |
-| `CC-NAR-7` | Evidence, assurance, ethics, policy, publication, decision, and Work claims use the patterns that define or test those exact claims. |
+| `CC-NAR-7` | Evidence, assurance, ethics, policy, publication, decision, and Work claims use the patterns that define or test those claims. |
 | `CC-NAR-8` | The exact branch opens when the identified receiving use depends on claim identity and preservation. Citation, distribution or generated status alone does not establish that need. |
 | `CC-NAR-9` | In that branch, `X` and `Y` are independently identified by claim content, EntityOfConcern and effective interpretation rules (`ReferenceScheme`); a model, file or prose label alone supplies none of those identities. |
 | `CC-NAR-10` | Exact `n : X -> Y` states same EntityOfConcern, claim construction, endpoint scheme relation, ordering, preservation, loss, prohibited strengthening, applicability, and return. |
-| `CC-NAR-11` | Additional source epistemes and correspondence dependencies are exact when used; actual Work, system, system-role kind or assignment, method, publication, carrier, evidence, assurance, and `U.View` membership remain separately identified and must satisfy their own definitions or tests. Completing the exact record does not itself authorize reliance. |
+| `CC-NAR-11` | Additional source epistemes and correspondence dependencies are exact when used; Work, system, system-role kind or assignment, method, publication, carrier, evidence, assurance, and `U.View` membership remain separately identified and must satisfy their own definitions or tests. Completing the exact record does not itself authorize reliance. |
 | `CC-NAR-12` | Changes to the source, selected structure, order, loss, use, exact identity, depended-on relation or return are checked for their effect on the narrative. Preserve unaffected uses; repair affected content or restrict only uses no longer supported. |
 
 Counterexample replay:
@@ -63,12 +63,12 @@ Counterexample replay:
 | Case | Required result |
 | --- | --- |
 | Ordinary entry | A team can turn an architecture trade-off structure into a useful explanatory sequence and loss note without first inventing `X`, `Y`, `n`, Work, or assurance records. |
-| Preserve vs retarget | Exact NAR requires the same exact EntityOfConcern; a different narrated concern requires A.6.4 even when derived from `X`. |
+| Preserve vs retarget | Exact NAR requires the same EntityOfConcern; a different narrated concern requires A.6.4 even when derived from `X`. |
 | Same vs different scheme | Narrative order may be primary in either case. A material scheme change additionally opens RT, but scheme difference alone establishes neither `n` nor correspondence. |
-| Candidate vs `U.View` | A valid narrative episteme and NAR construction can fail conformance to exact viewpoint P. That failed test grants no `U.View` membership through P; conformance to another viewpoint remains independent. |
+| Candidate vs `U.View` | A valid narrative episteme and NAR construction can fail conformance to viewpoint P. That failed test grants no `U.View` membership through P; conformance to another viewpoint remains independent. |
 | Source publication/form/carrier | A publication can make `X` available and a form or carrier can express it; none becomes `X`, and a narrative page or audio file is not `Y`. |
 | Narrative order | Chronology, tension, or didactic order is a declared construction rule, not automatically world-side event order, proof order, performed-Work order, or an obtaining relation. |
 | Controlled loss | If `Y` is usable only under declared loss, narrower use, and source return, coordinate CSC; NAR ordering alone does not make the loss admissible. |
-| Grounded source, ungrounded narrative | Grounding of `X` or a designated evidence set does not ground `Y`; recover a separate exact `EpistemeEmpiricalGroundingRelation` for `Y` only when its own claims satisfy that rule. |
+| Grounded source, ungrounded narrative | Grounding of `X` or a designated evidence set does not ground `Y`; recover a separate `EpistemeEmpiricalGroundingRelation` for `Y` only when its own claims satisfy that rule. |
 | Selected structure overread | NAR may order an A.22 structure designated by source claims. Identify the source and receiving epistemes independently; keep the selected-structure and narrative-ordering positions distinct. |
 

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.9"
-pattern_title: "Cross-Context Sameness Disambiguation - Restoring the concrete claim behind \"same\", \"equivalent\", and \"align\" (RPR-XCTX)"
+pattern_title: "Cross-Context Sameness Disambiguation - Restoring the claim behind \"same\", \"equivalent\", and \"align\" (RPR-XCTX)"
 section_id: "A.6.9:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.9/A.6.9__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.6.9 — Cross-Context Sameness Disambiguation - Restoring the concrete claim behind \"same\", \"equivalent\", and \"align\" (RPR-XCTX)"
+  - "A.6.9 — Cross-Context Sameness Disambiguation - Restoring the claim behind \"same\", \"equivalent\", and \"align\" (RPR-XCTX)"
   - "A.6.9:intro — Intro"
-line_start: 24501
-line_end: 24518
+line_start: 25422
+line_end: 25439
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -55,21 +55,21 @@ keywords:
   - "separate C.2.1 bounded-use claim"
 ---
 
-## A.6.9 - Cross-Context Sameness Disambiguation - Restoring the concrete claim behind "same", "equivalent", and "align" (RPR-XCTX)
+## A.6.9 - Cross-Context Sameness Disambiguation - Restoring the claim behind "same", "equivalent", and "align" (RPR-XCTX)
 > **Type:** Relational precision-restoration pattern; Architectural (A) — A.6.P specialisation (RPR)
 > **Status:** Stable
 > **Normativity:** Normative
 
-**Use this pattern when** a document, table row, boundary statement, or publication claim uses *same*, *equivalent*, *aligned*, *mapped*, or *corresponding* in a way that may hide ordinary designation, a non-semantic lane or id claim, or a real relation between exact local senses.
+**Use this pattern when** a document, table row, boundary statement, or publication claim uses *same*, *equivalent*, *aligned*, *mapped*, or *corresponding* in a way that may hide ordinary designation, a non-semantic lane or id claim, or a real relation between local senses.
 
 **What goes wrong if missed.** A label match, explanation, ID mapping, or partial correspondence becomes global identity or a licence for an unspecified use. Direction, use rule, tolerated loss, evidence, and the actual downstream act disappear inside one umbrella word.
 
-**What this buys.** The sentence becomes one concrete result: a same-context designation, a claim stated using its concrete predicate or constraint, an obtaining F.9 Bridge with a separate bounded-use claim when a use is proposed, or an explicit stop. A card is added only when the claims must travel.
+**What this buys.** The sentence becomes one result: a same-context designation, a claim stated using its concrete predicate or constraint, an obtaining F.9 Bridge with a separate bounded-use claim when a use is proposed, or an explicit stop. A card is added only when the claims must travel.
 
-> **Builds on:** A.6.P for relational prose repair; F.17 for exact scheme-based SenseCells; F.18 for designation; F.9 for the direct Bridge relation, profile, bounded-use boundary, and card boundary; C.2.1 for claim and description identity; F.0.1, F.7, and F.8 for sense-family and downstream naming discipline; A.7 and A.6.6 for lane and identifier dispatch
-> **Coordinates with:** A.10 for descriptive evidence-provenance paths and local reliance dispositions; B.3 for assurance; E.17.0 for View membership; E.24.PUB for publication occurrence, form, and carrier; C.3.3 for the exact `KindBridge` relation and C.3.2 for a fresh target classification judgment; A.2.6 for scope operations; A.6.3.RT for representation transition; A.22 for structure; A.2.1, A.13, A.15.1, and conditional F.6 for system-role-kind, assignment, and Work claims
+> **Builds on:** A.6.P for relational prose repair; F.17 for scheme-based SenseCells; F.18 for designation; F.9 for the direct Bridge relation, profile, bounded-use boundary, and card boundary; C.2.1 for claim and description identity; F.0.1, F.7, and F.8 for sense-family and downstream naming discipline; A.7 and A.6.6 for lane and identifier dispatch
+> **Coordinates with:** A.10 for descriptive evidence-provenance paths and local reliance dispositions; B.3 for assurance; E.17.0 for View membership; E.24.PUB for publication occurrence, form, and carrier; C.3.3 for the `KindBridge` relation and C.3.2 for a fresh target classification judgment; A.2.6 for scope operations; A.6.3.RT for representation transition; A.22 for structure; A.2.1, A.13, A.15.1, and conditional F.6 for system-role-kind, assignment, and Work claims
 
-Use this pattern when umbrella sameness wording could hide which exact local senses, designation, lane, identifier, scope operation, representation transition, structure relation, or proposed use is current. The trigger starts a dispatch; it does not oblige the author to assert a Bridge or complete a card. Keep wording whose object, meaning and use are already clear.
+Use this pattern when umbrella sameness wording could hide which local senses, designation, lane, identifier, scope operation, representation transition, structure relation, or proposed use is current. The trigger starts a dispatch; it does not oblige the author to assert a Bridge or complete a card. Keep wording whose object, meaning and use are already clear.
 
-When the remaining question is semantic, first test whether a Bridge obtains. For a proposed use of an obtaining Bridge, state the use separately in ordinary language: what someone will do, in which direction, by which correspondence rule, and how much semantic loss that use tolerates. Give that C.2.1 claim affirmative or negative polarity. F.9, A.10, and B.3 supply the exact follow-through; A.6.9 teaches the reader how to recover it from ambiguous prose.
+When the remaining question is semantic, first test whether a Bridge obtains. For a proposed use of an obtaining Bridge, state the use separately in ordinary language: what someone will do, in which direction, by which correspondence rule, and how much semantic loss that use tolerates. Give that C.2.1 claim affirmative or negative polarity. F.9, A.10, and B.3 supply the follow-through; A.6.9 teaches the reader how to recover it from ambiguous prose.
 

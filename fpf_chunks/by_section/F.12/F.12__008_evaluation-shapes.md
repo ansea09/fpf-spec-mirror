@@ -6,12 +6,12 @@ section_id: "F.12:7"
 section_title: "Evaluation shapes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.12/F.12__008_evaluation-shapes.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.12 — Evaluate Promise Fulfilment from Work Evidence (Service Acceptance)"
   - "F.12:7 — Evaluation shapes"
-line_start: 122621
-line_end: 122640
+line_start: 130382
+line_end: 130403
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -53,11 +53,13 @@ The calculation shapes and examples below preserve the delivery Work or populati
 
 #### F.12:7.1 - Availability share
 
-Promise: availability is at least 99.9% for a calendar month. Delivery Work: the defined service-delivery occurrences or population during that month. Evidence: observations and measurement results for the promised availability characteristic. A System performs evaluation Work; its A.6.1 application binds the in-scope values and returns the declared result. If the observation model already concerns the promised characteristic, there is no proxy relation. If synthetic probes instead indicate a different user-experience characteristic, name the exact indicator relation, its defining or testing pattern, uncovered regions or degradations, and the evidence-use boundary; otherwise stop with `missing-governor`.
+Promise: availability is at least 99.9% for a calendar month. Delivery Work: the defined service-delivery occurrences or population during that month. Evidence: observations and measurement results for the promised availability characteristic. A System performs evaluation Work; its A.6.1 application binds the in-scope values and returns the declared result.
+
+If the observation model already concerns the promised characteristic, there is no proxy relation. If synthetic probes measure a different characteristic, identify the rule relating it to user experience. State which regions or degradations the probes leave uncovered and how that limits use of their evidence. Without a defining or testing rule return `missing-governor`. If the rule exists, apply it and limit the verdict to what the probe evidence supports.
 
 #### F.12:7.2 - Latency percentile
 
-Promise: p95 response latency is at most 120 ms for a stated request population and window. Evidence: response-time observations for that population. Evaluation Work applies the declared sampling, exclusion, and percentile rule and binds its result on the declared acceptance scale. Sampling bias or missing paths can support `EvidenceStatus=Inconclusive` and leave `RequirementStatus=Pending`, or yield a locally declared result when the scale explicitly says so.
+Promise: p95 response latency is at most 120 ms for a stated request population and window. Evidence: response-time observations for that population. Evaluation Work applies the declared sampling, exclusion, and percentile rule and binds its result on the declared acceptance scale. Sampling bias or missing paths can support `EvidenceStatus=Inconclusive` and leave `RequirementStatus=Pending`, or yield a locally declared result when the scale specifies that result.
 
 #### F.12:7.3 - Safety or quality band
 

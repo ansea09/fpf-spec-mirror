@@ -6,12 +6,12 @@ section_id: "F.16:14"
 section_title: "Acceptance tests"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.16/F.16__015_acceptance-tests.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.16 — Worked-Example Template (Cross-Domain)"
   - "F.16:14 — Acceptance tests"
-line_start: 124062
-line_end: 124083
+line_start: 131935
+line_end: 131956
 dependencies:
   - "A.10"
   - "A.15"
@@ -56,8 +56,8 @@ keywords:
 
 * **SCR-F16-S01 (recognition).** Situation, failure, gain, and worked claim are clear to a cold reader.
 * **SCR-F16-S02 (actual subjects).** No cell, row, label, or record substitutes for an actual value.
-* **SCR-F16-S03 (direct relations).** Every substantive relation names its exact participants and cites the pattern that defines or tests it; unsupported proxy wording ends at A.6.RCD `missing-governor`.
-* **SCR-F16-S04 (conditional F.9).** F.9 appears only for a real relation between distinct local meanings.
+* **SCR-F16-S03 (direct relations).** Every substantive relation names its exact participants and cites the pattern that defines or tests it; use A.6.RCD `missing-governor` for a proposed indicator when no rule defines or tests its relation.
+* **SCR-F16-S04 (conditional F.9).** F.9 appears when the worked claim needs a test of semantic correspondence between local meanings with different interpretation bases. Any asserted Bridge must meet its predicate.
 * **SCR-F16-S05 (source and evidence).** Exact sources and editions and the A.10 evidence-use basis are visible where they affect the claim; B.3 appears only for an actual named assurance claim.
 * **SCR-F16-S06 (optional aids).** Cells and tables are omitted when they do not reduce reader effort; their presence or layout is not treated as evidence.
 * **SCR-F16-S07 (time and agency).** Windows, Work, System, assignment, and attribution are explicit when material.

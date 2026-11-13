@@ -6,17 +6,16 @@ section_id: "B.1.3:10"
 section_title: "Rationale (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.3/B.1.3__011_rationale-informative.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.1.3 — Knowledge Aggregation (Γ_epist): Synthesis and Target-Scheme Compilation"
   - "B.1.3:10 — Rationale (informative)"
-line_start: 41901
-line_end: 41907
+line_start: 43546
+line_end: 43552
 dependencies:
   - "A.1"
   - "A.10"
   - "A.12"
-  - "A.13"
   - "A.14"
   - "A.15"
   - "A.15.1"
@@ -35,9 +34,7 @@ dependencies:
   - "C.2.1"
   - "E.17"
   - "E.24.PUB"
-  - "F.6"
   - "F.9"
-  - "U.Work"
 keywords:
 ---
 
@@ -46,5 +43,5 @@ keywords:
 * **Epistemic composition is not physical addition.** A missing necessary premise, a complementary study, and a contrary result do different work. The receiving claim and dependency model determine their combination; minimum is not universally conservative.
 * **Provenance supports reliance.** Losing a source or SCR link can defeat reconstruction or warranted use while the episteme keeps the same C.2.1 identity. Restore the missing provenance and reconsider the affected reliance. Identify another episteme only when claim content, EntityOfConcern or effective ReferenceScheme changes; source or method claims that form part of the claim content are subject to that same rule.
 * **Interpretation matters.** Declared reference schemes and local senses let a reader identify reinterpretation. F.9 governs any cross-context Bridge; C.2.1 governs the resulting episteme identity.
-* **Parsimony with power.** Provenance, support roles and dependencies, exact mappings, and order/time hooks suffice for a useful synthesis without imposing a common score. [Gutierrez, Glymour and Davey Smith, *Evidence triangulation in health research* (2025)](https://link.springer.com/article/10.1007/s10654-024-01194-6) supports comparing design assumptions and shared biases, checking target-question comparability, and using qualitative comparison when quantitative pooling is unwarranted. This methodological contribution does not supply a universal R formula or make a further study mandatory.
+* **Synthesis without a common score.** Provenance, support roles and dependencies, mappings, and order/time hooks suffice for a useful synthesis without imposing a common score. [Gutierrez, Glymour and Davey Smith, *Evidence triangulation in health research* (2025)](https://link.springer.com/article/10.1007/s10654-024-01194-6) supports comparing design assumptions and shared biases, checking target-question comparability, and using qualitative comparison when quantitative pooling is unwarranted. This methodological contribution does not supply a universal R formula or make a further study mandatory.
 

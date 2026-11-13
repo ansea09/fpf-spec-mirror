@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.5.TU"
-pattern_title: "Construct a Working Use of an Unfamiliar Theory"
+pattern_title: "Construct a Use of an Unfamiliar Theory"
 section_id: "B.5.TU:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.TU/B.5.TU__007_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "B.5.TU — Construct a Working Use of an Unfamiliar Theory"
+  - "B.5.TU — Construct a Use of an Unfamiliar Theory"
   - "B.5.TU:6 — Bias-Annotation"
-line_start: 48843
-line_end: 48848
+line_start: 50879
+line_end: 50884
 dependencies:
   - "A.15.9"
   - "A.6.3.RT"
@@ -25,7 +25,7 @@ keywords:
 
 ### B.5.TU:6 - Bias-Annotation
 
-The worked cases favor explicit mathematical accounts with small, inspectable operations. Other theories can use qualitative or interpretive inferences; their warranted application conditions and criticism must come from the relevant practice. A convenient numerical example should not decide which kind of explanation the question needs.
+The worked cases favor mathematical accounts with small, inspectable operations. Other theories can use qualitative or interpretive inferences; their warranted application conditions and criticism must come from the relevant practice. A convenient numerical example should not decide which kind of explanation the question needs.
 
-Familiar terminology can make a supplied interpretation look independently recovered. Attribute the actual contribution when assessing learning or capability. In ordinary assisted work, use the supplied result at the scope its interpretation supports.
+Familiar terminology can make a supplied interpretation look independently recovered. Attribute the contribution when assessing learning or capability. In ordinary assisted work, use the supplied result at the scope its interpretation supports.
 

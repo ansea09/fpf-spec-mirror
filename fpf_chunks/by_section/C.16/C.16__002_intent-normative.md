@@ -6,12 +6,12 @@ section_id: "C.16:1"
 section_title: "Intent (Normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__002_intent-normative.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:1 — Intent (Normative)"
-line_start: 58594
-line_end: 58607
+line_start: 60965
+line_end: 60978
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -63,7 +63,7 @@ keywords:
 
 **Not this pattern when.** Use A.17 for the Characteristic, A.18 for scale-operation legality, C.16.P while measurement wording is still ambiguous, A.19.CPM for comparison, A.19.SelectorMechanism for selection, C.28 for causal use, A.10/G.6 for provenance, B.3 for assurance, G.4 for an acceptance declaration, G.11 for currentness, and C.11 for a decision result. C.16 supplies none of those results by implication.
 
-**Local designators.** `MeasurementSpecification`, `MeasurementMethod`, `MeasurementModel`, `MeasurementWork`, `MeasurementResult`, and `MeasurementResultEpisteme` name exact objects in one case; they are not new public U-kinds or universal relation types. `MeasurementMethod` is one exact `U.Method`; `MeasurementWork` is one dated `U.Work`; `MeasurementResultEpisteme` is one C.2.1 episteme.
+**Local designators.** `MeasurementSpecification`, `MeasurementMethod`, `MeasurementModel`, `MeasurementWork`, `MeasurementResult`, and `MeasurementResultEpisteme` name objects in one case; they are not new public U-kinds or universal relation types. `MeasurementMethod` is one `U.Method`; `MeasurementWork` is one dated `U.Work`; `MeasurementResultEpisteme` is one C.2.1 episteme.
 
 **Objects used together.** A measurement specification fixes the Characteristic, Scale and applicable unit, and states which method, model and interpretation conditions govern the result. A reading attributes values to a subject under those conditions. Section :5.5.1 supplies `ReadingContent` when a reusable interface needs to classify that content; an episteme stating it has its separate C.2.1 identity. A unit supplies the adopted quantity reference and conversion meaning. An evidence stub is an optional compact locator into A.10/G.6 provenance. These objects can be expressed together while retaining the distinct specification, value, claim, episteme and performed measurement.
 

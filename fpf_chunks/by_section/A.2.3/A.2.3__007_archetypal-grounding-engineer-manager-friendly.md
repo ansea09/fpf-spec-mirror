@@ -6,43 +6,19 @@ section_id: "A.2.3:5"
 section_title: "Archetypal grounding (engineer‑manager friendly)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__007_archetypal-grounding-engineer-manager-friendly.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.2.3 — U.PromiseContent — Promised Outcomes and Acceptance Criteria"
   - "A.2.3:5 — Archetypal grounding (engineer‑manager friendly)"
-line_start: 5826
-line_end: 5839
+line_start: 6029
+line_end: 6044
 dependencies:
-  - "A.1.1"
-  - "A.10"
-  - "A.15.1"
-  - "A.15.2"
-  - "A.15.PROD"
-  - "A.2"
-  - "A.2.1"
   - "A.2.2"
-  - "A.2.6"
   - "A.2.8"
-  - "A.2.9"
-  - "A.3.1"
-  - "A.3.2"
-  - "A.6.1"
   - "A.6.C"
   - "A.6.P"
-  - "A.7"
-  - "B.3"
-  - "C.2.1"
   - "E.10"
   - "F.12"
-  - "F.9"
-  - "U.ClaimScope"
-  - "U.Episteme"
-  - "U.Method"
-  - "U.MethodDescription"
-  - "U.SystemRoleAssignment"
-  - "U.Work"
-  - "U.WorkPlan"
-  - "U.WorkScope"
 keywords:
   - "SLA"
   - "SLO"
@@ -57,7 +33,7 @@ keywords:
 
 ### A.2.3:5 - Archetypal grounding (engineer‑manager friendly)
 
-**Worked-case premise.** `E.24.UK` has already admitted the public `U.System` kind. Every exact entity named as a system in the rows below independently satisfies the complete A.1 criterion, including acting eligibility. If that premise cannot be established, keep the exact entity without system membership and stop only the provider-assignment, access-point, delivery-system, or Work-attribution claim that depends on it; other direct claims may continue under their subject patterns.
+**Worked-case premise.** `E.24.UK` has already admitted the public `U.System` kind. Every entity named as a system in the rows below independently satisfies the complete A.1 criterion, including acting eligibility. If that premise cannot be established, keep the entity without system membership and stop only the provider-assignment, access-point, delivery-system, or Work-attribution claim that depends on it; other direct claims may continue under their subject patterns.
 
 | Domain | Promise-content episteme | Provider and consumer assignments | Access specification | Delivery work | Evidence and evaluation |
 | --- | --- | --- | --- | --- | --- |
@@ -67,5 +43,7 @@ keywords:
 
 **Key takeaway.** The same pattern yields one promise-content episteme in each domain. Direct system-role assignment, `PromiseContentUse`, evaluation-operation, evidence, acceptance, and publication relations retain their own participants and governors; evaluation remains separately performed `U.Work`.
 
-**Locality replay.** In the cloud-storage row, identify `CloudStoragePromiseContent-v3`, `CloudStorageOfferScheme-2026`, and `EligibleStorageAccounts-EU-2026Q3` as the exact promise-content edition, its effective scheme, and its `U.ClaimScope`. Then `PromiseContentUse(PUT-2026-07-14-1042, CloudStoragePromiseContent-v3, Interval-PUT-1042)` ties one dated delivery-work occurrence to that edition. Name a selected model-use structure only in a receiving assertion or use that is actually model-local. If another catalog scheme is consumed, add the exact obtaining F.9 Bridge, the separate claim that it suits this bounded use, and the A.10 evidence-provenance relation with `RelianceDisposition=pass`. Use B.3 only if an actual named assurance claim about this use is current.
+**Locality replay.** In the cloud-storage row, identify `CloudStoragePromiseContent-v3`, `CloudStorageOfferScheme-2026`, and `EligibleStorageAccounts-EU-2026Q3` as the exact promise-content edition, its effective scheme, and its `U.ClaimScope`. Then `PromiseContentUse(PUT-2026-07-14-1042, CloudStoragePromiseContent-v3, Interval-PUT-1042)` ties one dated delivery-work occurrence to that edition.
+
+Name a selected model-use structure only in a receiving assertion or use that is model-local. If another catalog scheme is consumed, add the exact obtaining F.9 Bridge, the separate claim that it suits this bounded use, and the A.10 evidence-provenance relation with `RelianceDisposition=pass`. Use B.3 only if a named assurance claim about this use is current.
 

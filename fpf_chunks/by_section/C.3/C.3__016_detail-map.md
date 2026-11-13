@@ -6,12 +6,12 @@ section_id: "C.3:14"
 section_title: "Detail Map"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__016_detail-map.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.3 — Kinds, Intent and Extent, and Typed Reasoning"
   - "C.3:14 — Detail Map"
-line_start: 55212
-line_end: 55225
+line_start: 57494
+line_end: 57507
 dependencies:
   - "A.1"
   - "A.11"
@@ -56,5 +56,5 @@ C.3 is the head pattern for typed reasoning. It leaves each detailed mechanism a
 | Abstraction facet | `C.3.5` | `KindAT` as an editorial planning facet on one exact local kind, with no effect on the kind, declaration, judgment, extension, bridge assessment, guard, or F–G–R. |
 | Typed guards and applied examples | `C.3.A` | Declaration-level kind compatibility and exact candidate-use judgments kept separate across regulatory, assurance, ESG, and Method–Work uses, including the independently grounded actual `W : U.Work` boundary. |
 
-Do not treat this compact head pattern as the whole C.3 discipline when a case needs declaration, classification, extension, Bridge, kind-use adaptation, abstraction, or applied-guard detail. Use the neighboring C.3 pattern that defines or constrains the live detail.
+When a case needs detail on declaration, classification, extension, Bridge, kind-use adaptation, abstraction, or applied guards, use the neighboring C.3 pattern that defines or constrains that detail.
 

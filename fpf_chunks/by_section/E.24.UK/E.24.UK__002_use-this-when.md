@@ -6,12 +6,12 @@ section_id: "E.24.UK:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.UK/E.24.UK__002_use-this-when.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.24.UK — U-kind Admission and Ontic Settlement"
   - "E.24.UK:0 — Use This When"
-line_start: 117276
-line_end: 117306
+line_start: 124793
+line_end: 124827
 dependencies:
   - "A.1.1"
   - "A.11"
@@ -43,7 +43,7 @@ keywords:
 
 ### E.24.UK:0 - Use This When
 
-Use this pattern when a public FPF expression proposes a `U.*`, type, kind, or subkind and the author must choose among four outcomes: reuse an admitted durable kind, declare a bounded C.3.2 local kind, admit a genuinely needed durable kind, or recover a non-kind object under the rule that defines or tests it. A title, filename, ToC row, table, or source spelling opens the question but never answers it.
+Use this pattern when a public FPF expression proposes a `U.*`, type, kind, or subkind and the author must decide its status. When the grounds support a decision, the four choices are to reuse an admitted durable kind, declare a bounded C.3.2 local kind, admit a new durable kind that the use needs, or recover a non-kind object under the rule that defines or tests it. A title, filename, ToC row, table, or source spelling raises that question without settling it.
 
 Typical moments:
 
@@ -54,15 +54,19 @@ Typical moments:
 - a `RelationSignature` SlotKind, an assertion or description field, a `C.29` representation element, or an `E.24.PUB` reusable form has acquired a `U.*` spelling;
 - a single E.24 ontic settlement appears to govern one root U-kind plus several dependent durable U-kinds.
 
-**Primary EntityOfConcern.** Identify the exact object the admission decision is about before filling the shared E.24-family decision: an already recoverable C.3 `U.Kind`, the proposal episteme for an unadmitted distinction, or the source-construct entity being translated. Put the proposed criterion, candidate individuals, intended extent and non-member boundary, spelling, and dependent claims in the decision's ClaimGraph. If no decision subject is identifiable, keep the inquiry open. An extension, member list, rule bundle, title, or spelling cannot fill this position.
+**Primary EntityOfConcern.** Identify the object the admission decision is about before filling the shared E.24-family decision: an already recoverable C.3 `U.Kind`, the proposal episteme for an unadmitted distinction, or the source-construct entity being translated.
+
+Put the proposed criterion, candidate individuals, intended extent and non-member boundary, spelling, and dependent claims in the decision's ClaimGraph. If no decision subject is identifiable, keep the inquiry open. An extension, member list, rule bundle, title, or spelling cannot fill this position.
 
 **Primary working reader.** The first reader is an FPF pattern author or reviewer deciding whether a public FPF name should remain `U.*`. The downstream reader is the practitioner who uses public pattern titles, headings, ToC rows, and names as orientation cues and needs those cues to point to the real governed object.
 
-**First useful move.** First name the exact local kind, proposal episteme, or source-construct entity that the decision is about; if no such object is identifiable, retain the inquiry and stop. Then recover the proposed governed individuals, identity or membership rule, intended extent and non-member boundary, and the action-facing claim that needs the kind. Test whether existing U-kinds, direct relations, declaration SlotKinds, C.3 local kinds, or selected structures already preserve that distinction. Judge the public spelling only after the admission disposition is stable.
+**First useful move.** Name the local kind, proposal episteme, or source-construct entity that the decision is about. If you cannot identify it, keep the inquiry open and stop there.
 
-**What goes wrong if missed.** FPF grows a shadow ontology by punctuation. A slot label becomes a kind, a publication form becomes an ontic, type and kind wording becomes active beside ontic settlement, and a useful title survives because it is searchable rather than because it names the governed object.
+Then recover the proposed governed individuals, identity or membership rule, intended extent and non-member boundary, and the action-facing claim that needs the kind. Test whether existing U-kinds, direct relations, declaration SlotKinds, C.3 local kinds, or selected structures already preserve that distinction. Judge the public spelling only after the admission disposition is stable.
 
-**What this buys.** Public `U.*` names become trustworthy. A candidate distinction either passes one explicit root or dependent admission test, or stays with the actual governed object and uses its defining or testing rule, with the PatternID kept only as a locator, without creating an umbrella kind.
+**What goes wrong if missed.** Treating a `U.*` spelling as admission creates a second ontology. A slot label is treated as a kind, a publication form as an ontic, and type and kind wording can compete with the settled ontology. A searchable title can survive even if it names the wrong object.
+
+**What this buys.** Readers can trace an admitted public `U.*` name to its governing rule. A new public U-kind must pass the explicit test for its root or dependent form. If an existing rule covers the distinction, its PatternID serves only to locate that rule; no umbrella kind is introduced. If the grounds settle neither branch, the inquiry stays open.
 
 **Not this pattern when.**
 

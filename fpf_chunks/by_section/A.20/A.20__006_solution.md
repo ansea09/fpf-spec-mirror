@@ -6,12 +6,12 @@ section_id: "A.20:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__006_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.20 — Constraint Validity for Transformation Steps"
   - "A.20:4 — Solution"
-line_start: 39617
-line_end: 39728
+line_start: 41195
+line_end: 41306
 dependencies:
   - "A.10"
   - "A.15"
@@ -33,13 +33,13 @@ keywords:
 
 #### A.20:4.1 - Result ontology
 
-`ConstraintValidityResult` is a C.2.1 result episteme. It is not a new U-kind and not a world-side relation. Its exact EntityOfConcern is the constrained subject. Its ClaimGraph states one application of one named constraint to one case.
+`ConstraintValidityResult` is a C.2.1 result episteme. It is not a new U-kind and not a world-side relation. Its EntityOfConcern is the constrained subject. Its ClaimGraph states one application of one named constraint to one case.
 
 The constrained subject is normally:
 
 1. one independently identified `U.Transformation` used at an E.18 transformation position;
 2. one A.6.1 operation application whose internal law is being tested; or
-3. the exact proposition carried by one A.6.4 bounded-use assertion q, only when that proposition is the named internal constraint. q remains a C.2.1 episteme about exact arrow r; its ClaimGraph and the separate current-case judgement remain under A.6.4, and any actual operation application remains separate.
+3. the proposition carried by one A.6.4 bounded-use assertion q, only when that proposition is the named internal constraint. q remains a C.2.1 episteme about arrow r; its ClaimGraph and the separate current-case judgement remain under A.6.4, and any operation application remains separate.
 
 Another subject is admissible only when its own pattern defines a named internal constraint and states why this result form applies. An E.18 locus label alone supplies neither the subject nor the constraint.
 
@@ -65,9 +65,9 @@ ConstraintValidityResult:
   evaluationWorkRef?:
 ```
 
-`outcome` is present only when `evaluationState=evaluated` and `applicabilityValue` is `required` or `optional`. A not-applicable constraint records the reason it is outside this case. A not-run constraint records that evaluation work has not produced a result. Neither is `unknown` and neither silently counts as success.
+`outcome` is present only when `evaluationState=evaluated` and `applicabilityValue` is `required` or `optional`. A not-applicable constraint records the reason it is outside this case. A not-run constraint records that evaluation work has not produced a result. Neither is `unknown` and neither counts as success.
 
-If a dated evaluation Work occurrence is asserted, first establish its A.13 core: the performing System, exact local agential-role kind and membership criterion, and an obtaining assignment of its declared direct species for the relevant scope and time. A.15.1 independently admits that performance; F.6 applies afterward only for precise assignment-bound attribution. The optional `evaluationWorkRef` cites that Work separately from the result episteme.
+If a dated evaluation Work occurrence is asserted, first establish its A.13 core: the performing System, local agential-role kind and membership criterion, and an obtaining assignment of its declared direct species for the relevant scope and time. A.15.1 independently admits that performance; F.6 applies afterward only for assignment-bound attribution. The optional `evaluationWorkRef` cites that Work separately from the result episteme.
 
 The legacy label `FlowConstraintValidity` may be retained only as a locator for this result family. It does not name a relation, gate status, publication record, or flow-wide property.
 
@@ -97,7 +97,7 @@ Optional results do not change the summary unless a separately accepted use deci
 
 #### A.20:4.3 - Constraint families and outcome rules
 
-The following families are recognition aids, not a universal required list. Each application still names the actual constraint, edition, assumptions, case facts, and test.
+The following families are recognition aids, not a universal required list. Each application still names the constraint, edition, assumptions, case facts, and test.
 
 | Constraint family | Trigger | `satisfied` means | Other outcomes |
 | --- | --- | --- | --- |
@@ -105,15 +105,15 @@ The following families are recognition aids, not a universal required list. Each
 | Admissibility conditions | The operation or transformation declares guards or admissible cases. | Every required guard is true for the case and window. | A false guard is `violated`; undetermined guard truth is `unknown`. |
 | Law or invariant set | The current claim relies on a named law or invariant. | The named invariant holds for the case under its assumptions. | A counterexample is `violated`; missing case facts or witness content are `unknown`. |
 | Quantity and unit coherence | The current operation combines quantities or units. | The case is coherent under the already declared quantity, unit, and reference-scheme rules. | A mismatch is `violated`; an unrecovered declaration is `unknown`. A.20 does not define or translate units or planes. |
-| Sensitivity or stability bound | A robustness, continuity, perturbation, safety-envelope, or stability claim actually depends on a bound. | The cited bound covers the stated domain, assumptions, distance or norm, and case. | A counterexample is `violated`; absent assumptions or certificate content are `unknown`. No bound is required without this trigger. |
+| Sensitivity or stability bound | A robustness, continuity, perturbation, safety-envelope, or stability claim depends on a bound. | The cited bound covers the stated domain, assumptions, distance or norm, and case. | A counterexample is `violated`; absent assumptions or certificate content are `unknown`. No bound is required without this trigger. |
 | Return-shape preservation | A consumer relies on a declared set, archive, order, or other non-scalar result shape. | The transformation preserves that declared shape for the current case. | Hidden scalarization or lost required structure is `violated`; unrecovered shape facts are `unknown`. A.20 does not rank or select the result. |
-| A.6.4 retargeting invariant | The exact proposition in q is the named internal constraint for the current use; q remains the C.2.1 bounded-use assertion about r. | Exact current case facts establish the proposition as stated, including its invariant, visible loss, named receiving use, conditions, and polarity. | A counterexample is `violated`; a missing deciding fact is `unknown` unless the constraint itself makes absence a failure. This A.20 result may enter the case basis for A.6.4's separate `satisfies`, `fails`, or `cannot decide` judgement; it is not that judgement, and the exact current facts remain separately named. r and any application remain separate. |
+| A.6.4 retargeting invariant | The proposition in q is the named internal constraint for the current use; q remains the C.2.1 bounded-use assertion about r. | Current case facts establish the proposition as stated, including its invariant, visible loss, named receiving use, conditions, and polarity. | A counterexample is `violated`; a missing deciding fact is `unknown` unless the constraint itself makes absence a failure. This A.20 result may enter the case basis for A.6.4's separate `satisfies`, `fails`, or `cannot decide` judgement; it is not that judgement, and the current facts remain separately named. r and any application remain separate. |
 
 The constraint's own pattern supplies its truth condition. A.20 supplies the application result form and summary only.
 
 #### A.20:4.4 - Gate and policy boundary
 
-An A.21 gate may consume an exact A.20 result or summary as one declared input. A.20 does not translate `satisfied`, `violated`, or `unresolved` into `pass`, `degrade`, `block`, or `abstain`; A.21 applies the current gate rule to its complete check set.
+An A.21 gate may consume an A.20 result or summary as one declared input. A.20 does not translate `satisfied`, `violated`, or `unresolved` into `pass`, `degrade`, `block`, or `abstain`; A.21 applies the current gate rule to its complete check set.
 
 Every other applicable gate-fit check keeps its own result. A failed or unresolved internal constraint may prevent the aggregate gate decision from passing, but it does not make freshness, system-role fit, channel fit, regulatory conformance, reference-plane crossing, or another independent fact undefined or not applicable.
 
@@ -121,11 +121,11 @@ An implementation may defer expensive evaluation work after an already blocking 
 
 #### A.20:4.5 - Retargeting boundary
 
-For a `StructuralReinterpretation` use, receive the exact A.6.4 arrow r and q, a C.2.1 bounded-use assertion about r. q's ClaimGraph states the invariant, visible loss, named receiving use, conditions, and affirmative or negative polarity. A.20 opens only when that exact proposition is the named internal constraint. The separate A.6.4 current-case judgement compares exact current facts with q and returns `satisfies`, `fails`, or `cannot decide`; it is not the A.20 result. If an actual operation application is also current, identify and test it separately.
+For a `StructuralReinterpretation` use, receive the A.6.4 arrow r and q, a C.2.1 bounded-use assertion about r. q's ClaimGraph states the invariant, visible loss, named receiving use, conditions, and affirmative or negative polarity. A.20 opens only when that proposition is the named internal constraint. The separate A.6.4 current-case judgement compares current facts with q and returns `satisfies`, `fails`, or `cannot decide`; it is not the A.20 result. If an operation application is also current, identify and test it separately.
 
-A.20 returns only a `ConstraintValidityResult` for that named internal constraint. That result may enter the case basis for the separate A.6.4 current-case judgement; the exact current facts remain separate, and the result reidentifies neither r nor q and records no application. It leaves `EntityOfConcernRef` as an entity reference and adds no `KindBridge` or UTS row. An isomorphism or lens, including reverse `put` and Put-Get or Get-Put laws, enters only as a separately current reversibility claim under its own governor.
+A.20 returns only a `ConstraintValidityResult` for that named internal constraint. That result may enter the case basis for the separate A.6.4 current-case judgement; the current facts remain separate, and the result reidentifies neither r nor q and records no application. It leaves `EntityOfConcernRef` as an entity reference and adds no `KindBridge` or UTS row. An isomorphism or lens, including reverse `put` and Put-Get or Get-Put laws, enters only as a separately current reversibility claim under its own governor.
 
-Use F.9 separately only when the current claim also needs an obtaining semantic correspondence between two exact F.17 local senses. Keep its bounded-use claim, optional `CL`, evidence, and reliance separate; A.20 creates none of them.
+Use F.9 separately only when the current claim also needs an obtaining semantic correspondence between two F.17 local senses. Keep its bounded-use claim, optional `CL`, evidence, and reliance separate; A.20 creates none of them.
 
 #### A.20:4.6 - Neighboring claims
 
@@ -136,7 +136,7 @@ A.20 keeps only the result content needed to reuse the internal-constraint findi
 - `G.11` defines refresh planning and performed refresh work;
 - `C.27` defines temporal-claim adequacy;
 - `A.21` defines check applications, profile use, gate aggregation, and decision consequences;
-- `A.10` recovers provenance and bounded reliance; the direct support pattern defines each evidence relation and `B.3` governs assurance; and
+- `A.10` recovers provenance and bounded reliance; the support pattern defines each evidence relation and `B.3` governs assurance; and
 - `A.15.2` defines WorkPlans; an asserted dated Work uses the admission grounds in §4.1.
 
 Citing an A.20 result in one of those claims does not copy that consumer's identity, scheduling, publication, or policy fields into A.20.

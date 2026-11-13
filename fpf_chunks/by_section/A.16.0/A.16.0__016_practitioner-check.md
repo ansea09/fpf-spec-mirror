@@ -6,12 +6,12 @@ section_id: "A.16.0:15"
 section_title: "Practitioner check"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.0/A.16.0__016_practitioner-check.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.16.0 — Keep an Episteme's Language-State and Publication History Recoverable"
   - "A.16.0:15 — Practitioner check"
-line_start: 33875
-line_end: 33885
+line_start: 35355
+line_end: 35365
 dependencies:
   - "A.16"
   - "A.16.1"
@@ -51,5 +51,5 @@ A practitioner should ask:
 4. Are multi-route state and lineage fork being kept distinct?
 5. Are derivation, supersession, fork, merge, or retirement links visible where the reading depends on them?
 6. Does the current claim concern an episteme edition, a seam or endpoint publication form, or—when bounded availability matters—an `EpistemePublicationRelation` occurrence? Are those positions kept separate, and is the endpoint test named?
-7. If `formalize` or `operationalize` required world-facing work, is the work-boundary crossing explicit? If responsibility, commitment, permission, or authority also changed, are its participants, exact relation, object or action, scope, interval, and required instituting act stated separately?
+7. If `formalize` or `operationalize` required world-facing work, is the work-boundary crossing explicit? If responsibility, commitment, permission, or authority also changed, are its participants, relation, object or action, scope, interval, and required instituting act stated separately?
 

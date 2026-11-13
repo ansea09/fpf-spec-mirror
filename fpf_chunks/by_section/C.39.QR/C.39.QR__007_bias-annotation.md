@@ -6,12 +6,12 @@ section_id: "C.39.QR:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.QR/C.39.QR__007_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.39.QR — Return Results to the Original Question"
   - "C.39.QR:6 — Bias-Annotation"
-line_start: 83120
-line_end: 83125
+line_start: 87169
+line_end: 87174
 dependencies:
   - "C.11.DUA"
   - "C.39"

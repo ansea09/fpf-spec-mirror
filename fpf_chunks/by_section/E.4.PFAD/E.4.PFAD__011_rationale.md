@@ -6,12 +6,12 @@ section_id: "E.4.PFAD:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFAD/E.4.PFAD__011_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.4.PFAD — Principle-Framework Architecture Decision"
   - "E.4.PFAD:10 — Rationale"
-line_start: 94614
-line_end: 94620
+line_start: 99403
+line_end: 99409
 dependencies:
   - "A.15.1"
   - "A.22"
@@ -55,6 +55,6 @@ keywords:
 
 The PFAD locator makes recurring framework-specific questions discoverable. One ordinary `E.9` DRR records the bounded answer, alternatives, rationale, consequences, action, and reopen condition.
 
-The field-boundary assessment reserves field-scale identity for a contribution with the practitioner coverage and independent use that justify it. The several-structure branch grounds the practice architecture in its actual Methods, Work, subjects, descriptions, capabilities, providers, and cultural relations. Direct assertions state each selected initial pattern relation under its own predicate; optional representations serve their named uses.
+The field-boundary assessment reserves field-scale identity for a contribution with the practitioner coverage and independent use that justify it. The several-structure branch grounds the practice architecture in its actual Methods, Work, subjects, descriptions, capabilities, providers, and cultural relations. Direct assertions state each selected initial pattern relation under its own predicate. Optional representations serve their named uses.
 
 

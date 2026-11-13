@@ -6,12 +6,12 @@ section_id: "C.40.OD:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OD/C.40.OD__007_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.40.OD — Construct and Continue Open-Ended Development"
   - "C.40.OD:6 — Bias-Annotation"
-line_start: 88537
-line_end: 88542
+line_start: 92795
+line_end: 92800
 dependencies:
   - "C.32.MWA.PP"
   - "C.40.CD"
@@ -24,7 +24,7 @@ keywords:
 
 ### C.40.OD:6 - Bias-Annotation
 
-The main distortion is to begin with a familiar institution, course or flowchart and make every problem fit it. Recover the developing subject, work and consequential variation before selecting those forms. Another distortion is to equate autonomy with absence of support. Compare the degree and kind of independence actually worth developing.
+The main distortion is to begin with a familiar institution, course or flowchart and make every problem fit it. Recover the developing subject, work and consequential variation before selecting those forms. Another distortion is to equate autonomy with absence of support. Compare the degree and kind of independence worth developing.
 
 A further bias treats success on a prepared case as evidence for the whole proposed culture. Ask which subject changed, which further use was shown and what remains a supported expectation.
 

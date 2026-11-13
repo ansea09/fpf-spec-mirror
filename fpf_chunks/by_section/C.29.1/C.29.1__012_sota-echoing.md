@@ -6,12 +6,12 @@ section_id: "C.29.1:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29.1/C.29.1__012_sota-echoing.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.29.1 — Mathematical Result Transfer"
   - "C.29.1:11 — SoTA-Echoing"
-line_start: 70334
-line_end: 70347
+line_start: 73427
+line_end: 73440
 dependencies:
   - "A.3.3"
   - "A.6.3.RT"
@@ -31,7 +31,7 @@ The working problem is reuse of mathematical consequences across accounts at a c
 | Patrick Cousot, *Abstract Interpretation: From 0, 1, To ∞*, §2. Its abstract operations cover the possible concrete results represented by their inputs. [Author's text](https://pcousot.github.io/publications/CSV-2023-cousot.pdf). | Exact reconstruction retains more information; a sound abstraction can establish a property with less information but can leave a question undecided. Testing selected cases is cheaper in some settings but does not establish coverage of all permitted cases. | **Adopt** coverage as the reason a bounded abstract result supports a concrete conclusion. **Adapt** that reasoning to C.29.1:4.5's compatible cases and bounds. General abstract-domain construction and program-analysis algorithms remain in their mathematical and computational practice. |
 | A. Yu. Khrennikov, *Введение в квантовую теорию информации* (2008), pp. 66–68. The passage constructs real numbers and a Hilbert space by completion. | Keeping only the starting domain avoids extra objects but can leave a needed limit unavailable. Completion retains an embedded copy of the starting domain and supplies those limits; returning a source result still requires its allowed form. | **Adapt** this explanatory contrast in C.29.1:5.4's rational-setting construction. The example and its parity argument are this pattern's worked synthesis. In physical modeling, relate the resulting mathematical quantities to the preparations and observations for which the model is used. |
 
-The pattern's synthesis is the practitioner sequence connecting these obligations to the intended answer: construct the map, compare operations and availability, establish independence or coverage, and return the consequence. The reservation, route, thermal and rational-setting constructions derive their claims from their stated premises. The cited sources supply reusable mathematical lines, not evidence that a particular physical or organizational application satisfies those premises.
+The pattern's synthesis is the practitioner sequence connecting these obligations to the intended answer: construct the map, compare operations and availability, establish independence or coverage, and return the consequence. The reservation, route, thermal and rational-setting constructions derive their claims from their stated premises. The cited sources supply reusable mathematical lines, not evidence that a physical or organizational application satisfies those premises.
 
-A direct proof in the original account remains a serious alternative. Prefer it when it is simpler than establishing and maintaining a transfer. Reconsider a chosen summary when a new query needs a distinction it omits, when composition introduces a new condition, or when a tighter justified bound changes the decision. Reopen the mathematical work affected by that change.
+A direct proof in the original account remains an alternative. Prefer it when it is simpler than establishing and maintaining a transfer. Reconsider a chosen summary when a new query needs a distinction it omits, when composition introduces a new condition, or when a tighter justified bound changes the decision. Reopen the mathematical work affected by that change.
 

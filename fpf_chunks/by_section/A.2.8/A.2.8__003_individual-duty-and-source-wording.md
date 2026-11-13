@@ -6,12 +6,12 @@ section_id: "A.2.8:0.1"
 section_title: "Individual Duty and Source Wording"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8/A.2.8__003_individual-duty-and-source-wording.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.2.8 — U.Commitment — Individual Duties to Act or Refrain"
   - "A.2.8:0.1 — Individual Duty and Source Wording"
-line_start: 8143
-line_end: 8148
+line_start: 8476
+line_end: 8481
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -43,5 +43,5 @@ keywords:
 
 `U.Commitment` is an enduring individual deontic relation. It covers obligation, recommendation-as-duty, and prohibition.
 
-The words *bind* and *binding* already denote technical bindings in FPF; they do not name this relation. Source phrases such as *binding promise*, *must*, *shall*, *guarantees*, *is responsible for*, or *legally required* are recognition cues. Recover their exact claim before selecting `U.Commitment`.
+The words *bind* and *binding* already denote technical bindings in FPF; they do not name this relation. Source phrases such as *binding promise*, *must*, *shall*, *guarantees*, *is responsible for*, or *legally required* are recognition cues. Recover their claim before selecting `U.Commitment`.
 

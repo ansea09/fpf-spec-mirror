@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.19.UNM"
-pattern_title: "Normalize Coordinate Values under Declared Invariants (UNM)"
+pattern_title: "Normalize Coordinate Values under Declared Invariants"
 section_id: "A.19.UNM:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UNM/A.19.UNM__012_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.19.UNM — Normalize Coordinate Values under Declared Invariants (UNM)"
+  - "A.19.UNM — Normalize Coordinate Values under Declared Invariants"
   - "A.19.UNM:10 — Rationale"
-line_start: 37807
-line_end: 37816
+line_start: 39333
+line_end: 39343
 dependencies:
 keywords:
   - "CV→NCV"
@@ -19,7 +19,7 @@ keywords:
   - "NormalizationInvariant[*]"
   - "NormalizationMethodId"
   - "NormalizationMethodInstanceId"
-  - "fail-closed tri-state guard (pass"
+  - "fail-closed tri-state guard (pass\\"
   - "normalization"
   - "validity window (no implicit “latest”)"
   - "≡_UNM"
@@ -28,9 +28,10 @@ keywords:
 ### A.19.UNM:10 - Rationale
 
 UNM separates three contributions needed to justify a normalized value:
-- The selected transformation defines its actual domain, output and preservation/loss conditions.
+- The selected transformation defines its domain, output and preservation/loss conditions.
 - CN-Spec states when normalization is needed and which configured method applies to the comparison.
 - C.16 supplies measurement and calibration grounds for that use.
+
 The receiving use determines which distinctions must survive and whether a relation to another meaning, kind or plane is required. Those relations and any assurance calculation retain their own conditions; a common numeric range supplies none of these grounds.
 
 

@@ -6,12 +6,12 @@ section_id: "E.9:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9/E.9__012_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.9 — Design-Rationale Record (DRR) for FPF Content Decisions"
   - "E.9:10 — Rationale"
-line_start: 98462
-line_end: 98480
+line_start: 103998
+line_end: 104010
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -38,16 +38,10 @@ keywords:
 
 ### E.9:10 - Rationale
 FPF evolves through explicit, reviewable decisions rather than silent edits. The DRR is the minimum structured argument and, when several loci must move together, a temporary convergence record. This keeps P-10 Open-Ended Evolution compatible with P-1 Cognitive Elegance and P-2 Didactic Primacy. Exact method, work, result, episteme, assessment, and authority distinctions remain available when a current claim depends on them; they do not precede or replace the readable decision.
-Every nontrivial conforming DRR must make
-Problem‑frame / Decision / Rationale / Consequences recoverable, but it
-may carry richer substantive coordination content when that prevents
-shadow documents or semantic invention during distribution into Core patterns and selected non-pattern FPF kind-reference pairs. The same floor also requires the decision-inspection content that
-later authoring and review otherwise reconstruct manually: exact decision grounds,
-use-value, first-minute working situation, scenario grounding, alternatives,
-current disposition map, naming/ontology obligation, selected content distribution,
-existing-pattern sufficiency/new-pattern necessity, overlap classification,
-selected-answer stability, impact/boundary graph, practical payoff, and
-any remaining uncertainty that materially shapes the decision.
+
+Every nontrivial conforming DRR must make Problem frame, Decision, Rationale, and Consequences recoverable. It may also carry the coordination content that prevents shadow documents or new decisions being invented during distribution to Core patterns and selected non-pattern FPF kind-reference pairs.
+
+The minimum includes what authors and reviewers would otherwise have to reconstruct: exact grounds, use-value, the first-minute working situation, scenario, alternatives and current dispositions, naming or ontology obligations, content distribution, whether an existing pattern suffices or a new one is needed, overlap, stability of the answer, the graph of impacts and boundaries, practical payoff, and uncertainties that could change the decision.
 
 Pointer-based DRRs (CC‑DRR.1a) prevent duplicated prose, and distribution
 into Core patterns and selected non-pattern FPF kind-reference pairs (CC‑DRR.4) keeps the specification itself learnable

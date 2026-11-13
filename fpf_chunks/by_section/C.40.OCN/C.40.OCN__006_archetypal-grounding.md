@@ -6,12 +6,12 @@ section_id: "C.40.OCN:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OCN/C.40.OCN__006_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.40.OCN — Construct a Bounded Opportunity"
   - "C.40.OCN:5 — Archetypal Grounding"
-line_start: 86337
-line_end: 86394
+line_start: 90571
+line_end: 90628
 dependencies:
   - "A.15.9"
   - "C.11"
@@ -34,9 +34,9 @@ This constructed example assumes the bounded facts below. It reports no actual m
 
 An engineering-services unit hears that a new model can process long technical records. No accepted development problem or target result has been selected. The inquiry concerns useful contributions to engineering handoffs within ninety days, under confidential-data, independent-acceptance and continuing-service conditions. Buying or deploying the model is not the inquiry's objective.
 
-The inquiry searches in three directions. From the technology, it explores record retrieval and qualification support rather than assuming autonomous decision-making. From uses, it considers evidence acceptance and shift handoff. From characteristics, it considers traceability of limits and reduced recovery burden; a manual index and a clearer handoff structure remain serious non-model possibilities.
+The inquiry searches in three directions. From the technology, it explores record retrieval and qualification support rather than assuming autonomous decision-making. From uses, it considers evidence acceptance and shift handoff. From characteristics, it considers traceability of limits and reduced recovery burden; a manual index and a clearer handoff structure remain non-model possibilities worth examining.
 
-The case's receiving-use statements identify two different worthwhile concerns. An acceptance engineer needs to recover which claims an evidence package actually supports. Shift staff need a usable account of unresolved exceptions and who can take the next authorized action. These statements establish why the possible contributions matter in the example; they do not establish that the model can supply them.
+The case's receiving-use statements identify two different worthwhile concerns. An acceptance engineer needs to recover which claims an evidence package supports. Shift staff need a usable account of unresolved exceptions and who can take the next authorized action. These statements establish why the possible contributions matter in the example; they do not establish that the model can supply them.
 
 | Account position | Opportunity A: recover the acceptance premise | Opportunity B: support shift Work |
 | --- | --- | --- |
@@ -58,7 +58,7 @@ An affirmative access disposition would open only the permitted evaluation possi
 
 Both opportunities might later compete for the same review capacity. Their individual plausibility does not establish that they can be pursued together. The joint time/support question remains with its qualified owner before any combined reachability or plan claim.
 
-A small archive is optional. If the unit retains these candidates for later inquiry, its record names this Method and the actual search operations, the two candidate accounts and their source lineage, the missing premises, and the retention reason: preserving distinct useful questions until their dependencies can be resolved. It claims no non-dominated front, expanded possibility space, performed trial or effectiveness.
+A small archive is optional. If the unit retains these candidates for later inquiry, its record names this Method and the search operations used, the two candidate accounts and their source lineage, the missing premises, and the retention reason: preserving distinct useful questions until their dependencies can be resolved. It claims no non-dominated front, expanded possibility space, performed trial or effectiveness.
 
 #### C.40.OCN:5.2 - A person exploring future engineering work
 
@@ -68,11 +68,11 @@ The person searches neighboring applications of their technical experience, diff
 
 A qualified demand statement in the case explains why each contribution could matter. For the evidence-review direction, access to a permitted example set is available, but the person's capability and the transfer from supported practice to representative Work remain unknown. For the coordination direction, access to the relevant participants and competent feedback support are not established. A job title and a course listing supply neither missing premise.
 
-The first account retains two conditional opportunities. It names the particular evidence-review or coordination contribution, its prospective use, the four-month horizon, the relevant support and uncertainty, and the next question. For evidence review, that question is what bounded representative assessment can distinguish an absent capability from difficulty caused by the current support configuration. For coordination, the first question is whether an appropriate practice/feedback opportunity can actually be made available.
+The first account retains two conditional opportunities. It names the evidence-review or coordination contribution, its prospective use, the four-month horizon, the relevant support and uncertainty, and the next question. For evidence review, that question is what bounded representative assessment can distinguish an absent capability from difficulty caused by the current support configuration. For coordination, the first question is whether an appropriate practice/feedback opportunity can be made available.
 
-Current career information about these directions is qualified for accuracy, context and currency, following the human-only contribution of [NCDG 2024, CD2/CD3](https://www.ncda.org/aws/NCDA/pt/sp/ncdg_home_page). Results from the applicable human-capability and target-domain Methods still determine capability, intervention and transfer claims. The framework of career information does not make a course effective.
+Current career information about these directions is qualified for accuracy, context and currency, following the human-only contribution of [NCDG 2024, CD2/CD3](https://www.ncda.org/aws/NCDA/pt/sp/ncdg_home_page). Results from the applicable human-capability and target-domain Methods determine capability, intervention and transfer claims. The framework of career information does not make a course effective.
 
-The person may stop here. There is no final advice episteme, no invented adviser and no compulsory institutional conflict. If a separate adviser is later engaged, the professional decision-support engagement conditions open then. If the person instead already has adequate alternatives and is ready to choose, direct domain or C.11 guidance is enough.
+The person may stop here. This inquiry produces no final advice episteme and needs neither a separate adviser nor an institutional conflict. If a separate adviser is later engaged, the professional decision-support engagement conditions open then. If the person instead already has adequate alternatives and is ready to choose, domain or C.11 guidance is enough.
 
 #### C.40.OCN:5.3 - A defeated or insufficient opportunity
 

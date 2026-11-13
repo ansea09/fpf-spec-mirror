@@ -6,12 +6,12 @@ section_id: "A.15.6:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.6/A.15.6__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.15.6 — Recover What Project, Process, or Case Wording Refers To"
   - "A.15.6:intro — Intro"
-line_start: 31098
-line_end: 31107
+line_start: 32209
+line_end: 32216
 dependencies:
   - "A.1"
   - "A.1.STM"
@@ -45,7 +45,5 @@ keywords:
 > **Status:** Stable
 > **Normativity:** Normative unless marked informative
 
-**Plain name.** Recover what project, process, or case wording refers to.
-
-**Primary reader.** This pattern is for the FPF practitioner who must identify what project-, process-, or case-management wording actually refers to before relying on the claim, then open the pattern that defines or constrains that subject.
+**Reader.** This pattern is for the FPF practitioner who must identify what project-, process-, or case-management wording refers to before relying on the claim, then open the pattern that defines or constrains that subject.
 

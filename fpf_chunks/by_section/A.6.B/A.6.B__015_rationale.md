@@ -6,12 +6,12 @@ section_id: "A.6.B:13"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__015_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:13 — Rationale"
-line_start: 15392
-line_end: 15399
+line_start: 15903
+line_end: 15910
 dependencies:
   - "A.10"
   - "A.2.3"
@@ -48,7 +48,7 @@ keywords:
   - "The key words MUST"
   - "accountable norms and grants"
   - "actual exercise"
-  - "an individual-duty D- claim MUST name its actual bearer and exact separately obtaining U.Commitment"
+  - "an individual-duty D- claim MUST name its actual bearer and separately obtaining U.Commitment"
   - "and SHALL have their RFC 2119/8174 meanings only when capitalized as shown"
   - "and evaluated results distinct"
   - "as if it were an agent obligation"

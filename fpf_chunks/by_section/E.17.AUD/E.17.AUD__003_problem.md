@@ -1,27 +1,20 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.17.AUD"
-pattern_title: "PublicationUnit Stability Discipline - keep one publication unit stable enough to read honestly"
+pattern_title: "Keep a Publication Unit Stable (PublicationUnit Stability Discipline)"
 section_id: "E.17.AUD:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD/E.17.AUD__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "E.17.AUD — PublicationUnit Stability Discipline - keep one publication unit stable enough to read honestly"
+  - "E.17.AUD — Keep a Publication Unit Stable (PublicationUnit Stability Discipline)"
   - "E.17.AUD:2 — Problem"
-line_start: 109248
-line_end: 109256
+line_start: 115978
+line_end: 115986
 dependencies:
-  - "A.10"
-  - "A.15"
-  - "A.15.4"
   - "A.16.0"
-  - "A.20"
-  - "A.21"
   - "A.7"
-  - "B.3"
-  - "C.11"
   - "C.2.1"
   - "C.2.2a"
   - "E.10"
@@ -41,9 +34,9 @@ keywords:
 ### E.17.AUD:2 - Problem
 
 Without a named publication-unit stability discipline:
-1. teams repair local wording when the real defect is whole-unit interpretation instability;
-2. teams open whole-unit stabilization when the real defect is still one overloaded local lexical head;
-3. teams keep thickening a publication-unit repair when the active problem situation is already bounded comparison;
+1. teams repair local wording when the interpretation of the whole unit is unstable;
+2. teams open whole-unit stabilization when the defect is one overloaded local lexical head;
+3. teams extend a publication-unit repair when the task already calls for a bounded comparison;
 4. teams mistake note, sheet, table, or screen labels for different kinds of publication unit when they name different presentation forms of one unit;
 5. teams infer an engineering-process, approval, or rollout claim or effect that the text does not support.
 

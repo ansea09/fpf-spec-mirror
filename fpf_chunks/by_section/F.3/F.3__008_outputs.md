@@ -6,12 +6,12 @@ section_id: "F.3:7"
 section_title: "Outputs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.3/F.3__008_outputs.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.3 — Source-Local Sense Clustering"
   - "F.3:7 — Outputs"
-line_start: 119345
-line_end: 119356
+line_start: 126944
+line_end: 126955
 dependencies:
   - "A.11"
   - "A.7"
@@ -42,5 +42,5 @@ For each interpretation basis used by the receiving question, F.3 yields a small
 * an optional counterexample that sharpens the boundary;
 * an optional F.17 SchemeSenseCell when durable addressability is worth its cost.
 
-These are reference points for reasoning. They are not mandatory records, and their proximity creates no relation.
+Use these claims as reference points for reasoning. They can be stated in ordinary prose; make a record when the receiving use requires one. Displaying the claims together establishes no relation.
 

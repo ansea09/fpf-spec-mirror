@@ -6,12 +6,12 @@ section_id: "E.24.UK:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.UK/E.24.UK__007_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.24.UK — U-kind Admission and Ontic Settlement"
   - "E.24.UK:5 — Archetypal Grounding"
-line_start: 117582
-line_end: 117643
+line_start: 125138
+line_end: 125223
 dependencies:
   - "A.1.1"
   - "A.11"
@@ -45,9 +45,17 @@ keywords:
 
 #### E.24.UK:5.0 - Five Replays Through One Decision Sequence
 
-Use the same five steps in every replay: (1) identify the decision's EntityOfConcern and named use; (2) test an existing durable kind, direct relation, and bounded C.3 classification; (3) state governed individuals, membership or identity, intended extent, and the nearest non-member; (4) run all eight conditions, the shared E.24-family settlement, and the A.11/A.8 branch when current; (5) record one result reference, naming result, non-use boundary, and reopen condition. A future genuinely new candidate must complete this sequence before its public name is admitted.
+Use the same five steps in every replay.
 
-In each closed replay, the `E24UK-*` reference identifies the exact admission-result episteme or reconstructed result. The five steps summarize that result and, when a current shared decision exists, point to its separate ClaimGraph; the effective reference scheme is `FPFCoreReferenceScheme`. A stopped replay names the exact blocker instead of pretending that an admission result exists.
+1. Identify the decision’s EntityOfConcern and named use.
+2. Test an existing durable kind, direct relation, and bounded C.3 classification.
+3. For a classificatory distinction, state the governed individuals, membership or identity, intended extent, and nearest non-member. If the use needs no classification, identify what carries its claim.
+4. Test a proposed positive admission against all eight conditions. Use the shared E.24-family settlement and apply A.11/A.8 when the kernel question arises. A non-admission exit needs the grounds for that exit.
+5. For a closed replay, record its result reference, naming outcome, non-use boundary, and reopen condition. For a stopped replay, identify the missing grounds and leave the admission result open.
+
+A new candidate must complete this sequence before its public name is admitted.
+
+In each closed replay, the `E24UK-*` reference identifies the admission-result episteme or reconstructed result. The five steps summarize that result and, when a current shared decision exists, point to its separate ClaimGraph; the effective reference scheme is `FPFCoreReferenceScheme`. A stopped replay identifies what prevents admission. It records no admission result.
 
 **Reconstructed root — `U.Relation`.**
 
@@ -69,17 +77,29 @@ In each closed replay, the `E24UK-*` reference identifies the exact admission-re
 
 1. **Subject and use.** The decision subjects are the A.22 source constructs for base `U.Structure` and its two model-use specializations. A.1.1 and crossing-analysis consumers need durable membership without turning a context, team, subsystem, description, or view into another structure individual.
 2. **Coverage.** `U.Structure` supplies the one base identity. The two specialization conditions add stable action-facing membership to that same individual; neither needs an independent root or an identity-dependence relation to a context-like bearer.
-3. **Membership and near-misses.** A.22 first identifies `PressControlUse_S` from exact constituents `PressControlModel-5`, `Press-3`, and `PressControllerCode-17`; selected obtaining `ModelApplicabilityRelation`, `ModelUseRelation`, and `ModelExpressionCoherenceRelation` occurrences; an exact applied safety-control constraint claim whose proposition refers to the claim scope used by that selection; and the named use “decide whether operating use and controller-code maintenance belong to one bounded model-use organization.” That claim may state a proposition about the scope or its A.2.6 membership predicate; neither the bare scope nor the membership outcome is the constraint claim. Only then may the same `PressControlUse_S` satisfy `BoundedModelUseStructure`. The supplier-to-billing material currently supplies only a proposed six-part crossing organization—source `SupplierUse_S`, target `BillingUse_S`, direction, required fit, permitted loss, and claim scope. `SupplierToBillingTranslation_R` and `SupplierBillingCrossing_S` are not asserted: no compatible exact crossing predicate and current facts make the crossing obtain, so the A.22 relation-occurrence discriminator and base identity are unavailable. Only after that predicate is defined, current facts satisfy it, and all four A.22 discriminators are established may the same identified structure satisfy the conditional crossing-analysis specialization. `PressControlTeam`, a `BillingContext` label, `ContextMap_v3` as a `U.View`, its diagram, and its publication occurrence identify none of those structures and grant no specialization membership.
-4. **Eight tests and settlement.** Governed base-structure and bounded-model-use individuals, A.22 identity and positive bounded-model-use membership witnesses, action-facing model-use needs, non-duplication, A.22 as direct locus, the relevant settlements, and by-value reliance are present. For the conditional crossing-analysis specialization, this replay settles only the same-individual-dependent membership rule and its action-facing need; it has no positive witness and no public F.17 row while the direct crossing governor is absent. A.2.6 contributes only when an applied constraint refers to an exact claim scope. That constraint, not the bare scope, membership outcome, or its representation, occupies the third discriminator.
-5. **Result and flip.** `E24UK-AR-USTRUCTURE-R12-01` records `root`; `E24UK-AR-BMUS-R12-01` records the current named `same-individual-dependent` specialization; `E24UK-AR-A22-CROSSING-RULE-R12-01` records only the conditional `same-individual-dependent` crossing-analysis rule without asserting a current member or public term. Each specialization implies `U.Structure` membership only for the same individual that satisfies its exact A.22 condition. If the four base discriminators cannot be recovered, stop at the exact description or representation. If base identity is established but one specialization condition fails, retain only the base `U.Structure`; do not repair the failure with a context label, another structure identity, holonhood, or view typing. Reopen only when the A.22 identity or specialization condition, the A.2.6 applied-scope interface, the named reliance, or the shared settlement law changes.
+3. **Membership and near-misses.** A.22 first identifies `PressControlUse_S` from exact constituents `PressControlModel-5`, `Press-3`, and `PressControllerCode-17`; selected obtaining `ModelApplicabilityRelation`, `ModelUseRelation`, and `ModelExpressionCoherenceRelation` occurrences; an exact applied safety-control constraint claim whose proposition refers to the claim scope used by that selection; and the named use “decide whether operating use and controller-code maintenance belong to one bounded model-use organization.” That claim may state a proposition about the scope or its A.2.6 membership predicate; neither the bare scope nor the membership outcome is the constraint claim. Only then may the same `PressControlUse_S` satisfy `BoundedModelUseStructure`.
+
+   The supplier-to-billing material currently supplies only a proposed six-part crossing organization—source `SupplierUse_S`, target `BillingUse_S`, direction, required fit, permitted loss, and claim scope. `SupplierToBillingTranslation_R` and `SupplierBillingCrossing_S` are not asserted: no compatible exact crossing predicate and current facts make the crossing obtain, so the A.22 relation-occurrence discriminator and base identity are unavailable.
+
+   Only after that predicate is defined, current facts satisfy it, and all four A.22 discriminators are established may the same identified structure satisfy the conditional crossing-analysis specialization. `PressControlTeam`, a `BillingContext` label, `ContextMap_v3` as a `U.View`, its diagram, and its publication occurrence identify none of those structures and grant no specialization membership.
+4. **Eight tests and settlement.** Governed base-structure and bounded-model-use individuals, A.22 identity and positive bounded-model-use membership witnesses, action-facing model-use needs, non-duplication, A.22 as direct locus, the relevant settlements, and by-value reliance are present.
+
+   For the conditional crossing-analysis specialization, this replay settles only the same-individual-dependent membership rule and its action-facing need; it has no positive witness and no public F.17 row while the direct crossing governor is absent.
+
+   A.2.6 contributes only when an applied constraint refers to an exact claim scope. That constraint, not the bare scope, membership outcome, or its representation, occupies the third discriminator.
+5. **Result and flip.** `E24UK-AR-USTRUCTURE-R12-01` records `root`; `E24UK-AR-BMUS-R12-01` records the current named `same-individual-dependent` specialization; `E24UK-AR-A22-CROSSING-RULE-R12-01` records only the conditional `same-individual-dependent` crossing-analysis rule without asserting a current member or public term. Each specialization implies `U.Structure` membership only for the same individual that satisfies its exact A.22 condition.
+
+   If the four base discriminators cannot be recovered, stop at the exact description or representation. If base identity is established but one specialization condition fails, retain the base `U.Structure` and any independently established specialization. Withhold the specialization whose condition failed. Do not repair the failure with a context label, another structure identity, holonhood, or view typing.
+
+   Reopen only when the A.22 identity or specialization condition, the A.2.6 applied-scope interface, the named reliance, or the shared settlement law changes.
 
 **Rejected near-miss — a separate `U.Capability` individual.**
 
-1. **Subject and use.** The source construct proposes `Pump37MaintenanceCapability_2026` as an individual distinct from holder `Pump37`. Recover what planning, promise, work-fit and development uses actually need: what the pump can do under stated conditions and bounds, with the warrant required for the receiving use.
+1. **Subject and use.** The source construct proposes `Pump37MaintenanceCapability_2026` as an individual distinct from holder `Pump37`. Recover what planning, promise, work-fit and development uses need: what the pump can do under stated conditions and bounds, with the warrant required for the receiving use.
 2. **Coverage.** The holder retains `U.System` identity. An identified ability assertion uses C.2.1 `U.Episteme` identity. The proposition, its assertion, support and demand-fit result need no second capability individual; no additional local classification is needed for those uses.
 3. **Discriminating cases.** New evidence can change support without performance change. A stricter throughput demand can change fit. Calibration can change actual ability with unchanged paperwork. Loss and recovery change the qualified predicate at the stated times; replacing the holder changes the assertion's subject. None requires reidentifying a second individual.
 4. **Tests and result.** No additional classificatory distinction survives recovery, so `E24UK-NAR-U-CAPABILITY-01` records `reject`. This rejects the new kind commitment, not the reality of the holder's ability. A holder-indexed tuple cannot substitute for an independently needed subject and identity rule.
-5. **Reopening condition.** Reopen only for a concrete receiving use in which continuity of a separate object changes the answer and supplies the required identity facts, including any obtaining dependence relation and its identity effect. A new record, evidence window, ability label or local-kind declaration alone does not supply that need.
+5. **Reopening condition.** Reopen only when a concrete receiving use depends on continuity of a separate object and the available evidence supplies its required identity facts, including any obtaining dependence relation and its identity effect. A new record, evidence window, ability label or local-kind declaration alone does not supply that need.
 
 **Rejected near-miss — `U.EpistemePublication`.**
 
@@ -87,13 +107,17 @@ In each closed replay, the `E24UK-*` reference identifies the exact admission-re
 2. **Coverage.** `U.Episteme` already identifies the episteme, while E.24.PUB defines the exact E/A/U/X/C publication occurrence, expression and bearing, with optional form conformance and separately quantified availability.
 3. **Participation and classification.** The same episteme can participate in a publication occurrence at one time and cease participating later. A fixed criterion can classify it by that participation at the declared slice. An episteme outside the required publication relation at that slice fails the criterion. The present use asks only for the availability claim, so it needs no additional classification.
 4. **Failed test and settlement.** Non-duplication fails for the proposed public kind: `E24-OS-EPISTEME-ONTIC-02` and the E.24.PUB rules already supply the objects and publication relation needed to state availability. A.11 returns that existing expression; the E.24.UK decision records `reject` for this proposal and use. No A.8 core-placement test or new name is needed.
-5. **Result.** `E24UK-NAR-EPUB-01` records `reject`. Use Plain **published episteme** only in a claim that identifies or permits recovery of the obtaining `EpistemePublicationRelation`; admit no `U.EpistemePublication` name. Reopen when a receiving use needs classification by publication participation. For a project query over available epistemes, first establish the C.3.2 declaration, including its criterion and slice; return `local-kind` only with its `LocalKindDeclarationRef`. A proposed durable public kind still has to meet all eight conditions.
+5. **Result.** `E24UK-NAR-EPUB-01` records `reject`. Use Plain **published episteme** only in a claim that identifies or permits recovery of the obtaining `EpistemePublicationRelation`. This availability-only use needs no `U.EpistemePublication` kind or public name.
+
+   Reopen when a receiving use needs classification by publication participation. For a project query over available epistemes, first establish the C.3.2 declaration, including its criterion and slice; return `local-kind` only with its `LocalKindDeclarationRef`. A proposed durable public kind has to meet all eight conditions.
 
 #### E.24.UK:5.3 - Broad rule-content provision/support candidate
 
 A proposal groups phrases such as "this pattern defines or constrains the result", "the framework supports the claim", and "service provision" under one public kind. The phrases do not identify common individuals: one locates defining claim content, another may describe evidence or source use, and the third may designate dated Work, a Method, promise content, or an operational bearer. They share neither an identity or membership rule nor a receiver that needs the proposed instances as one kind.
 
-Recover each material occurrence first under C.2.1 and its exact subject relation. Then return `reject` for the broad candidate. Each result cites the corresponding assertion through `RejectedCandidateRecoveryRef`; it does not cite the shared word list or migration table. Genuine Work, source, evidence, publication, authority, access, and direct-relation claims survive unchanged in their own meanings. An unrecovered occurrence stays unchanged. The rejection admits no `U.Provision`, `U.Support`, generic `SupportRelation`, governance occurrence, or rule-locus description kind.
+Recover each material occurrence first under C.2.1 and its exact subject relation. Then return `reject` for the broad candidate. Each result cites the corresponding assertion through `RejectedCandidateRecoveryRef`; it does not cite the shared word list or migration table.
+
+Work, source, evidence, publication, authority, access, and direct-relation claims survive unchanged in their own meanings. An unrecovered occurrence stays unchanged. This rejection admits no `U.Provision`, `U.Support`, generic `SupportRelation`, governance occurrence, or rule-locus description kind.
 
 #### E.24.UK:5.4 - Type And Kind Governance Passage
 
@@ -101,5 +125,5 @@ A passage that says a proposed type must pass A.8 or A.11 is a kernel-level U-ki
 
 #### E.24.UK:5.5 - Lower-level Heading
 
-A lower-level heading containing `U.*` does not admit kindhood by heading shape. Recover whether the heading names an already admitted root or dependent U-kind, a declaration-local SlotKind, a claim-bearing `U.Episteme`, a relation-defined participant meaning, or a publication object. Keep the recovered object and the rule that defines or tests it; rename the heading when it advertises a different kind.
+A lower-level heading containing `U.*` can name any of several objects. Its spelling alone cannot admit a U-kind. Recover whether the heading names an already admitted root or dependent U-kind, a declaration-local SlotKind, a claim-bearing `U.Episteme`, a relation-defined participant meaning, or a publication object. Keep the recovered object and the rule that defines or tests it; rename the heading when it advertises a different kind.
 

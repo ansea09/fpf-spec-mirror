@@ -6,12 +6,12 @@ section_id: "A.3.1.MV:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MV/A.3.1.MV__004_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.3.1.MV — Construct and Maintain a Method Variant"
   - "A.3.1.MV:2 — Problem"
-line_start: 11040
-line_end: 11045
+line_start: 11441
+line_end: 11446
 dependencies:
   - "A.3.1"
   - "A.3.1.MI"
@@ -23,7 +23,7 @@ keywords:
 
 ### A.3.1.MV:2 - Problem
 
-Version numbers, filenames, team names, tool stacks, and project histories become variant identifiers. A successful local adaptation is generalized without an admitted reusable Method. Candidate recombinations inherit parent admission. A new MethodDescription edition is mistaken for a new Method, while a real change to operation order or stop conditions is hidden as documentation maintenance.
+Version numbers, filenames, team names, tool stacks, and project histories become variant identifiers. A successful local adaptation is generalized without an admitted reusable Method. Candidate recombinations inherit parent admission. A new MethodDescription edition is mistaken for a new Method, while a change to operation order or stop conditions is hidden as documentation maintenance.
 
 The resulting repertoire cannot guide selection. Users cannot tell which semantics changed, whether evidence applies to parent or child, what support edition is current, which situation claim is supported, or when an entry should be retired.
 

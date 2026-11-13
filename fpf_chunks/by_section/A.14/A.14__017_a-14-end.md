@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.14"
-pattern_title: "Advanced Mereology: Components, Portions, Aspects & Phases"
+pattern_title: "Mereology: Components, Portions, Aspects & Phases"
 section_id: "A.14:End"
 section_title: "A.14:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.14/A.14__017_a-14-end.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.14 — Advanced Mereology: Components, Portions, Aspects & Phases"
+  - "A.14 — Mereology: Components, Portions, Aspects & Phases"
   - "A.14:End — A.14:End"
-line_start: 28729
-line_end: 28730
+line_start: 29795
+line_end: 29796
 dependencies:
   - "A.1"
   - "A.15"

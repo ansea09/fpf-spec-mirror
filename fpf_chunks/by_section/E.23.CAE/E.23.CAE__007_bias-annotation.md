@@ -6,12 +6,12 @@ section_id: "E.23.CAE:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23.CAE/E.23.CAE__007_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.23.CAE — Capability Access and Expression Differential Probe"
   - "E.23.CAE:6 — Bias-Annotation"
-line_start: 115787
-line_end: 115798
+line_start: 123140
+line_end: 123151
 dependencies:
   - "A.15.7"
   - "A.15.8"
@@ -30,8 +30,8 @@ keywords:
 
 | Lens | Declared bias and counter-check |
 | --- | --- |
-| **Gov** | Favors delaying redevelopment until a cheaper differential observation is available. Counter-risk: delay itself causes harm. Use the protected or specialist route and stop when the next probe is not safe or decision-relevant. |
-| **Arch** | Favors one exact holder and explicit configuration. Counter-risk: an organization, team, equipped person, AI service, or robot is admitted as one whole merely because the label is convenient. Reapply the System and capability boundaries. |
+| **Gov** | Favors delaying redevelopment until a cheaper differential observation is available. Counter-risk: delay causes harm. Use the protected or specialist route and stop when the next probe is not safe or decision-relevant. |
+| **Arch** | Favors one identified holder and explicit configuration. Counter-risk: an organization, team, equipped person, AI service, or robot is admitted as one whole merely because the label is convenient. Reapply the System and capability boundaries. |
 | **Onto-Epist** | Favors separating capability, response, observation, disposition, mechanism claim, choice, Work, and causal claim. Counter-risk: local field names appear to create new kinds. Keep the compact ordinary result and expose the card only for a named receiving use. |
 | **Prag** | Favors an `A → B → A` or similarly discriminating contrast. Counter-risk: repeated probing changes the holder or exceeds its value. Record contamination, narrow the claim, or return `unresolvedDifferential`. |
 | **Did** | Favors human, organizational, and AI/robot cases to block a human-only analogy. Counter-risk: readers copy case-specific interventions. Reuse only the common observation positions and return mechanisms and interventions to their owners. |

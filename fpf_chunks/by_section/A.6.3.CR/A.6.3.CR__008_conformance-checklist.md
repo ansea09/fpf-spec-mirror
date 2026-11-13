@@ -6,12 +6,12 @@ section_id: "A.6.3.CR:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CR/A.6.3.CR__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.3.CR — ConservativeRetextualization: EntityOfConcern-Preserving Textual Re-Expression"
   - "A.6.3.CR:7 — Conformance Checklist"
-line_start: 18448
-line_end: 18466
+line_start: 19301
+line_end: 19319
 dependencies:
   - "A.15"
   - "A.6.2"
@@ -47,7 +47,7 @@ keywords:
 6. **CC-CR-6 — Local conservativity witness remains satisfied.**
    The reviewed case does not silently widen modality, remove caveats, raise reliability assessment, add an F.9 Bridge or bounded-use suitability claim, establish current reliance or authorization, claim that receiving use occurred, or collapse declared alternatives beyond stated loss notes.
 7. **CC-CR-7 — A missing condition, preservation defect, or changed claim is explicit on failure.**
-   If the case fails a check, name the missing source or condition, the repairable preservation defect, or the actual changed claim. Repair and recheck within CR when the intended restatement can be restored. For an actual different claim or use, name the pattern to use next (`ExplanationFaithfulnessProfile`, `RepresentationSchemeTransition`, `A.6.4`, `B.5.2`, or another applicable pattern).
+   If the case fails a check, name the missing source or condition, the repairable preservation defect, or the changed claim. Repair and recheck within CR when the intended restatement can be restored. For a different claim or use, name the pattern to use next (`ExplanationFaithfulnessProfile`, `RepresentationSchemeTransition`, `A.6.4`, `B.5.2`, or another applicable pattern).
 8. **CC-CR-8 — Working-model first remains intact.**
    Ordinary same-entity rewrites stay lightweight; fuller explicit review records carry the fields needed for cases requiring fuller review.
 

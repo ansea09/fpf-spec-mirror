@@ -3,15 +3,15 @@ chunk_kind: "child"
 pattern_id: "E.10"
 pattern_title: "Unified Lexical Rules for FPF"
 section_id: "E.10:4"
-section_title: "Solution - compact cues with exact lexical routes"
+section_title: "Solution - compact cues with lexical routes"
 source_path: "FPF-Spec.md"
-output_path: "by_section/E.10/E.10__006_solution-compact-cues-with-exact-lexical-routes.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+output_path: "by_section/E.10/E.10__006_solution-compact-cues-with-lexical-routes.md"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
-  - "E.10:4 — Solution - compact cues with exact lexical routes"
-line_start: 99723
-line_end: 99732
+  - "E.10:4 — Solution - compact cues with lexical routes"
+line_start: 105290
+line_end: 105299
 dependencies:
   - "A.10"
   - "A.15"
@@ -58,7 +58,7 @@ dependencies:
 keywords:
 ---
 
-### E.10:4 - Solution - compact cues with exact lexical routes
+### E.10:4 - Solution - compact cues with lexical routes
 
 Apply the connected `F.19` reading to the complete natural span. If ordinary meaning settles the issue, repair the text and stop. Only a surviving FPF lexical question opens the subordinate `LEX-BUNDLE` or `ULR` material.
 

@@ -6,12 +6,12 @@ section_id: "A.15.7:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.7/A.15.7__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.15.7 — Situation-Responsive Work Steering and Next-Action Selection"
   - "A.15.7:7 — Conformance Checklist"
-line_start: 31658
-line_end: 31669
+line_start: 32875
+line_end: 32886
 dependencies:
   - "A.10"
   - "A.13"
@@ -33,7 +33,7 @@ keywords:
 
 ### A.15.7:7 - Conformance Checklist
 
-- **CC-A15.7-1 — Current Work.** Is ongoing Work identified, or did the user correctly stop and name `A.15.2`, `A.15.5`, or `C.11` for the question that remains?
+- **CC-A15.7-1 — Current Work.** Is ongoing Work identified, or did the user stop and name `A.15.2`, `A.15.5`, or `C.11` for the question that remains?
 - **CC-A15.7-2 — Method limits.** Is the applicable domain Method and the relevant allowance or stop explicit?
 - **CC-A15.7-3 — Action-guiding information.** Does every stated fact matter to the action, and is the observation, report, recommendation, or other information current enough when that matters?
 - **CC-A15.7-4 — Method relation.** Are domain and steering Methods distinct, with co-enactment or composition asserted only from its own basis?

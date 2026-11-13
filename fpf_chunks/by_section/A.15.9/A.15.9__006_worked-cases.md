@@ -6,12 +6,12 @@ section_id: "A.15.9:5"
 section_title: "Worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.9/A.15.9__006_worked-cases.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.15.9 — Use or Request a Bounded Result from Another Practice"
   - "A.15.9:5 — Worked cases"
-line_start: 32347
-line_end: 32368
+line_start: 33663
+line_end: 33690
 dependencies:
   - "A.10"
   - "A.13"
@@ -43,11 +43,17 @@ An engineering team is choosing a compressor operating region. It already has a 
 
 Suppose the existing qualified operating region remains available, but the proposed region could meet an important capacity need before the controller choice. The acoustics team can answer the configuration-specific question in that window using an available test setup; the expected gain over keeping the existing region warrants the preparation, test, interpretation, and delay together. This case premise selects acquisition; a general rating or merely cheap test would not do so.
 
-The team requests: “For the controller decision, return the observed tonal-noise and vibration limits for this compressor, mounting, room, and speed range, with the tested conditions and unsupported region. A supported limit, objection, or missing-test blocker is useful; the acoustics result does not choose the controller.” The acoustics practice keeps its Method and evidence rules; the engineering team keeps the architecture decision. If the question later becomes which complete internal, provider, reuse, or redesign way can make the same accepted control result available, leave this one-contribution question and use `C.38`.
+The team requests: “For the controller decision, return the observed tonal-noise and vibration limits for this compressor, mounting, room, and speed range, with the tested conditions and unsupported region. A supported limit, objection, or missing-test blocker is useful; the acoustics result does not choose the controller.”
+
+The acoustics practice keeps its Method and evidence rules; the engineering team keeps the architecture decision.
+
+If the question later becomes which complete internal, provider, reuse, or redesign way can make the same accepted control result available, leave this one-contribution question and use `C.38`.
 
 #### A.15.9:5.3 - A fluent tool output is not specialist approval
 
 A case worker receives a generated summary labelled *verified legal review*. The summary cites no governing edition, jurisdiction, case configuration, performing Agent, Method, or authority. It may help locate sources, but it cannot support the current eligibility decision.
 
-The case worker returns: “The generated summary can help locate sources, but is not qualified for this eligibility decision in this jurisdiction. That decision remains blocked on the missing legal basis.” A dated legal-result request becomes a continuation only if the obtainable contribution warrants acquisition for this case. If later evidence supports the tool or another Agent as the actual performer of bounded legal-research Work, those facts still do not create legal authority or make the receiving administrative decision.
+The case worker returns: “The generated summary can help locate sources, but is not qualified for this eligibility decision in this jurisdiction. That decision remains blocked on the missing legal basis.”
+
+A dated legal-result request becomes a continuation only if the obtainable contribution warrants acquisition for this case. If later evidence supports the tool or another Agent as the performer of bounded legal-research Work, those facts do not create legal authority or make the receiving administrative decision.
 

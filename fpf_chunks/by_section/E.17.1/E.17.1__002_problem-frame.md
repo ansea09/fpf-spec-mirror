@@ -6,12 +6,12 @@ section_id: "E.17.1:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.17.1 — Viewpoint Bundle Library - Reusable Viewpoint Reference Bundles"
   - "E.17.1:1 — Problem frame"
-line_start: 106645
-line_end: 106652
+line_start: 113166
+line_end: 113173
 dependencies:
   - "A.16.0"
   - "A.22"
@@ -37,9 +37,9 @@ keywords:
 
 ### E.17.1:1 - Problem frame
 
-**Selected-family discipline.** A local declaration states the exact target-kind compatibility condition it uses: either a by-value criterion or a reference that resolves to the exact ClaimGraph defining or constraining the admitted target kind. Bundle labels, aliases, annexes, files, and publication faces never supply that criterion or select an actual entity by themselves.
+**Selected-family discipline.** A local declaration states its target-kind compatibility condition as either a by-value criterion or a reference that resolves to the ClaimGraph defining or constraining the admitted target kind. Bundle labels, aliases, annexes, files, and publication faces never supply that criterion or select an actual entity by themselves.
 
-`MultiViewDescribing` lets engineers recognize several epistemes about one exact entity as views under exact viewpoint editions and recover cross-view relations only when those relations actually obtain. In practice many such viewpoint families recur across projects and schools: engineering teams reuse functional / procedural / structural / interface viewpoints; governance teams reuse risk / control / compliance / operations viewpoints; research teams reuse theory / experiment / inference / limitation viewpoints.
+`MultiViewDescribing` lets engineers recognize several epistemes about one entity as views under viewpoint editions and recover cross-view relations only when those relations obtain. Many viewpoint families recur across projects and schools. Engineering teams reuse functional, procedural, structural and interface viewpoints. Governance teams reuse risk, control, compliance and operations viewpoints. Research teams reuse theory, experiment, inference and limitation viewpoints.
 
-E.17.1 therefore supplies one explicit packaging pattern for reusable viewpoint families so that authors can import them, name them stably, review them once, and keep viewpoint-family identity separate from document labels, publication faces, and publication forms.
+E.17.1 provides a pattern for packaging reusable viewpoint families. With it, authors can import them, name them stably, review them once, and keep viewpoint-family identity separate from document labels, publication faces, and publication forms.
 

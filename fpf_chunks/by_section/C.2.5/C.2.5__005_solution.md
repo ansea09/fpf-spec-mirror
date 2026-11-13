@@ -6,12 +6,12 @@ section_id: "C.2.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.5/C.2.5__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.2.5 — Language-State Closure Degree — How Fixed Is the Current Candidate Space?"
   - "C.2.5:4 — Solution"
-line_start: 53932
-line_end: 53980
+line_start: 56167
+line_end: 56217
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -40,15 +40,17 @@ Language-state closure degree (`CD`) characterizes how firmly a specified candid
 
 Closure degree is the Characteristic; `CD0`–`CD5` name values on its ordinal Scale. A reading attributes a supported value, or a set of remaining possible values, to an identified episteme edition within a stated assessment scope and receiving use. A language-state chart binds the Characteristic and Scale in a slot under A.19. The Characteristic, its Scale values, a reading and the chart slot remain distinct under A.18/A.19.
 
-A closure assessment states the actual fixity and its grounds. Claims about a binding route commitment, gate or authority relation follow their own rules and case facts. A note or C.2.LS profile can express the closure assessment; its reusable form and the filled assessment remain distinct.
+A closure assessment states the fixity and its grounds. Claims about a binding route commitment, gate or authority relation follow their own rules and case facts. A note or C.2.LS profile can express the closure assessment; its reusable form and the filled assessment remain distinct.
 
 #### C.2.5:4.5 - Recover the choice before assigning a level
 
 Name the question or choice whose candidate space matters. Recover the live alternatives, any selected route or frame, and the reason that limits further choice. State the scope of that fixation and what would justify reopening it. The different sources of narrowing in :16.2 determine what must be reconsidered when conditions change.
 
-Use that ordinary account directly when it supplies the receiving decision's condition. Assign a `CD` reading when the work needs comparison on this Scale, a chart position or a test against a declared threshold. Match the actual narrowing and reopening conditions to :4.2; retain an unresolved reading when the available grounds do not establish them. A level does not replace the surviving alternatives or the reason for their treatment.
+Use that ordinary account directly when it supplies the receiving decision's condition. Assign a `CD` reading when the work needs comparison on this Scale, a chart position or a test against a declared threshold. Match the narrowing and reopening conditions to :4.2; retain an unresolved reading when the available grounds do not establish them. A level does not replace the surviving alternatives or the reason for their treatment.
 
-The Scale's order describes greater fixity, not a universal improvement. Inquiry may need several alternatives kept live; a particular operational use may need one route fixed under a separately justified rule. C.2.4 assesses how explicit this content is. Writing out the alternatives and the decision rule can improve articulation without changing closure. New evidence or a changed use can instead reopen one choice while other commitments remain fixed. Preserve the supported observations and surviving choices, then revise only the conclusions affected by the change, using A.16.2 when a publication move is needed.
+The Scale's order describes greater fixity, not a universal improvement. Inquiry may need several alternatives kept live; a particular operational use may need one route fixed under a separately justified rule.
+
+C.2.4 assesses how explicit this content is. Writing out the alternatives and the decision rule can improve articulation without changing closure. New evidence or a changed use can instead reopen one choice while other commitments remain fixed. Preserve the supported observations and surviving choices, then revise only the conclusions affected by the change, using A.16.2 when a publication move is needed.
 
 #### C.2.5:4.1 - Characteristic specification
 - **Assessed subject:** the identified episteme edition, with the candidate space, assessment scope and receiving use stated.

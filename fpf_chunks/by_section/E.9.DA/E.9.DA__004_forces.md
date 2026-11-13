@@ -6,12 +6,12 @@ section_id: "E.9.DA:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9.DA/E.9.DA__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.9.DA — Evaluate a DRR for Its Declared Authoring Use (Decision-Adequacy CharacteristicSpace)"
   - "E.9.DA:3 — Forces"
-line_start: 98536
-line_end: 98546
+line_start: 104066
+line_end: 104076
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -29,7 +29,7 @@ keywords:
 
 | Force | Tension |
 |---|---|
-| Decision completeness vs concise rationale | A `DRR` must decide enough, but must not become final pattern prose. |
+| Decision completeness vs concise rationale | A `DRR` must settle enough to guide drafting while leaving authors to write the final pattern prose. |
 | Exactness vs drafting freedom | The `DRR` fixes selected answers and boundaries; authors still write usable pattern text. |
 | Source preservation vs synthesis | Source distinctions matter, but the `DRR` must state FPF decisions. |
 | Multi-locus coordination vs EoC boundary | One decision can affect many patterns while one `DRR` adequacy claim stays scoped. |

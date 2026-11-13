@@ -6,12 +6,12 @@ section_id: "A.15.5:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.5/A.15.5__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.15.5 — Work-Entry Readiness and Full-Kit Preparation"
   - "A.15.5:2 — Problem"
-line_start: 30897
-line_end: 30906
+line_start: 32004
+line_end: 32013
 dependencies:
   - "A.10"
   - "A.15"
@@ -47,11 +47,11 @@ keywords:
 
 ### A.15.5:2 - Problem
 
-Without one explicit local work-entry readiness claim and result semantics:
+Without one local work-entry readiness claim and result semantics:
 
-1. Full-kit preparation becomes an attractive umbrella for planning, source relations, gate passage, and performed work.
+1. Full-kit preparation becomes an umbrella for planning, source relations, gate passage, and performed work.
 2. A green tile or ready label is treated as a `GateDecisionResult`.
-3. Declaration-local planned-filling content inside the WorkPlan is overread as evidence that the planned values were actually prepared or used.
+3. Declaration-local planned-filling content inside the WorkPlan is overread as evidence that the planned values were prepared or used.
 4. Resource readiness is confused with resource consumption.
 5. A committed item becomes "done" by position in a board, not by a separately established completion claim about dated `U.Work`.
 

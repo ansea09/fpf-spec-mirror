@@ -6,12 +6,12 @@ section_id: "A.3.1.MR:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MR/A.3.1.MR__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.3.1.MR — Candidate-Method Recovery from Work Evidence"
   - "A.3.1.MR:7 — Conformance Checklist"
-line_start: 9975
-line_end: 9987
+line_start: 10372
+line_end: 10384
 dependencies:
   - "A.10"
   - "A.13"
@@ -38,5 +38,5 @@ keywords:
 - **CC-A3.1.MR-7 — Useful distinguishing question.** Where discrimination changes recovery or downstream use, is the question clear and any held-out evidence kept out of account construction? Does the account remain usable when no answerable investigation is needed or available, with stronger dependent claims withheld?
 - **CC-A3.1.MR-8 — Result branch.** Does the result stop at candidate account, separate comparison, record-only result, or named blocker without granting Method or MethodDescription membership?
 - **CC-A3.1.MR-9 — Specialist exit.** Is `RMP.10` used for complete reconstruction only when the receiving use needs its larger burden?
-- **CC-A3.1.MR-10 — Plain use.** Can a cold practitioner explain the candidate, evidence, real rivals, gaps and supported current use without a mandatory next-test plan?
+- **CC-A3.1.MR-10 — Plain use.** Can a cold practitioner explain the candidate, evidence, rivals, gaps and supported current use without a mandatory next-test plan?
 

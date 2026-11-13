@@ -6,12 +6,12 @@ section_id: "C.40.OCN:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OCN/C.40.OCN__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.40.OCN — Construct a Bounded Opportunity"
   - "C.40.OCN:7 — Conformance Checklist"
-line_start: 86399
-line_end: 86407
+line_start: 90633
+line_end: 90641
 dependencies:
   - "A.15.9"
   - "C.11"
@@ -32,6 +32,6 @@ keywords:
 - The proposed contribution is distinct from the problem and its evidence.
 - Materially different directions retain their operative support conditions.
 - Joint reachability uses qualified premises for the same holder and horizon.
-- The return distinguishes a qualified candidate, conditional possibility, rejected direction and exact gap.
+- The return distinguishes a qualified candidate, conditional possibility, rejected direction and gap.
 - A useful stop or discriminating next question follows without inventing advice or commitment.
 

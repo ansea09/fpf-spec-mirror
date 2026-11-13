@@ -6,12 +6,12 @@ section_id: "E.16:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.16/E.16__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.16 — RoC‑Autonomy Budget & Enforcement"
   - "E.16:3 — Forces"
-line_start: 105855
-line_end: 105871
+line_start: 112322
+line_end: 112338
 dependencies:
   - "A.10"
   - "A.13"
@@ -54,15 +54,15 @@ keywords:
 | Force                          | Tension                                                                  |
 | ------------------------------ | ------------------------------------------------------------------------ |
 | **Creativity vs Safety**       | Exploration autonomy vs hard constraints and override duties             |
-| **Locality vs Comparability**  | A budget stays bound to its claim, working situation, scope, window, policy, and override rule; actual holders, assignments and authority enter a scheduled action check; a Work reference appears only when performance independently qualifies under A.15.1. |
+| **Locality vs Comparability**  | A budget stays bound to its claim, working situation, scope, window, policy, and override rule. A scheduled action check uses the actual holders, assignments and authority. A Work reference appears only when performance independently qualifies under A.15.1. |
 | **Simplicity vs Auditability** | Lightweight authoring vs ledger‑grade evidence                           |
 | **Autonomy vs SoD**            | Helpful self‑action vs separation‑of‑duties and human‑in‑the‑loop points |
 
 #### E.16:3.1 - Bias-Annotation
 
-* **Gov.** Bias toward enforceable oversight (hard gates, SoD, canonical override SpeechActs). Mitigation: exploration autonomy is still allowed, but only inside an explicit budget and time window.
+* **Gov.** Bias toward enforceable oversight (hard gates, SoD, canonical override SpeechActs). Autonomous exploration is allowed only within a stated budget and time window.
 * **Arch.** Bias toward gate‑and‑ledger structure (Green‑Gate + Work‑anchored `AutonomyLedger`). Mitigation: `telemetrySpecRef` can scope what is emitted when full deltas are unnecessary.
-* **Onto/Epist.** Bias toward typed, testable constraints (MM‑CHR tokens, explicit admissibility checks). Mitigation: budgets are optional‑field (`?`) so low‑risk contexts can start minimal and tighten over time.
+* **Onto/Epist.** Bias toward typed, testable constraints (MM‑CHR tokens, explicit admissibility checks). Mitigation: the budget fields marked `?` are optional, so low‑risk contexts can start with a minimal budget and tighten its limits over time.
 * **Prag.** Bias toward measurable quotas may under‑express “soft” autonomy goals. Mitigation: pair `decision_tokens` with `risk_bands` to capture non‑counting limits.
 * **Did.** Bias toward explicit mechanics increases authoring surface area. Mitigation: provide a default `AutonomyBudgetDecl` template and minimal harness cases in **F.15**.
 

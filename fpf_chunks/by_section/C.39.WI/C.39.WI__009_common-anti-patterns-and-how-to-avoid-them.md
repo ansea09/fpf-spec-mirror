@@ -6,12 +6,12 @@ section_id: "C.39.WI:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.WI/C.39.WI__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.39.WI — Discover Worthwhile Method Improvements"
   - "C.39.WI:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 84073
-line_end: 84084
+line_start: 88222
+line_end: 88233
 dependencies:
   - "C.11.DUA"
   - "C.11.MV"
@@ -26,7 +26,7 @@ keywords:
 | Failure | Repair |
 | --- | --- |
 | Improve whatever is easiest to edit. | Follow consequential work and compare complete changes, including a more valuable alternative. |
-| Reject every saving away from the bottleneck. | Examine the actual expense, capacity, protection or future-use consequence and the change's displaced contribution. |
+| Reject every saving away from the bottleneck. | Examine the expense, capacity, protection or future-use consequence and the change's displaced contribution. |
 | Monetize every saved salaried hour. | Name the avoided payment or actual receiving use; retain nonmonetary burden separately. |
 | Call every expensive activity waste or toil. | Recover its contribution and the means needed to preserve it under a better arrangement. |
 | Find a familiar operation and close a whole field question. | Recover the source's difficulties and constructive organization, then compare the supplied whole use. |

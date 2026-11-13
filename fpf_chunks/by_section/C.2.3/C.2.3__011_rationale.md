@@ -6,12 +6,12 @@ section_id: "C.2.3:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.3/C.2.3__011_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.2.3 — Formality of an Episteme"
   - "C.2.3:10 — Rationale"
-line_start: 53208
-line_end: 53213
+line_start: 55433
+line_end: 55438
 dependencies:
   - "A.16"
   - "A.18"
@@ -39,5 +39,5 @@ keywords:
 
 Formality matters because an expression can make interpretations, operations and inferential commitments available for shared examination. The properties that enable these uses are related but not identical. A formal specification can define what is required without giving a procedure; a procedure can run without expressing a proof of the required property. A richer logic can express additional distinctions without improving an already sufficient statement of an ordinary invariant.
 
-A profile preserves these relations without pretending that every pair has one overall order. Declared local chains remain economical when their criteria are genuinely nested. Comparison then rests on the receiving operation and preserved meaning. Composition follows the same reasoning: a whole must supply the connections its result depends on, while evidence about the world retains its separate role.
+A profile preserves these relations without pretending that every pair has one overall order. Declared local chains remain economical when their criteria are nested. Comparison then rests on the receiving operation and preserved meaning. Composition follows the same reasoning: a whole must supply the connections its result depends on, while evidence about the world retains its separate role.
 

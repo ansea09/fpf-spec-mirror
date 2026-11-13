@@ -6,12 +6,12 @@ section_id: "E.5:4"
 section_title: "Solution — the Four Guard‑Rails"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5/E.5__005_solution-the-four-guard-rails.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.5 — Four Guard‑Rails of FPF"
   - "E.5:4 — Solution — the Four Guard‑Rails"
-line_start: 96356
-line_end: 96368
+line_start: 101552
+line_end: 101569
 dependencies:
   - "E.2"
   - "E.3"
@@ -24,7 +24,12 @@ keywords:
 
 ### E.5:4 - Solution — the Four Guard‑Rails
 Every Core, Tooling, and Pedagogy artefact must obey these **four guard-rails** at its own layer.
-**Scope.** These guard-rails regulate concepts, claims and their relations. Abstract Core definitions exclude incidental tools, formats and workflows. A rule about a named publication form, protocol or grammar may retain the syntax necessary for that subject under E.5.1, with its edition/use boundary. Linting and automation remain outside Core and are optional unless a separate operational contract requires them; they preserve the governed conditions rather than define the concepts.
+
+**Scope.** These guard-rails regulate concepts, claims and their relations. Abstract Core definitions exclude incidental tools, formats and workflows.
+
+A rule about a named publication form, protocol or grammar may retain the syntax necessary for that subject under E.5.1, with its edition/use boundary.
+
+Linting and automation remain outside Core and are optional unless a separate operational contract requires them. They preserve the governed conditions rather than define the concepts.
 
 | # | Guard‑Rail | Protects against |
 |---|------------|------------------|
@@ -33,5 +38,5 @@ Every Core, Tooling, and Pedagogy artefact must obey these **four guard-rails** 
 | **GR‑3** | **Unidirectional Dependency** | Convenience cycles |
 | **GR‑4** | **Cross‑Disciplinary Bias Audit** | Disciplinary monoculture |
 
-Concrete rules for each rail live in patterns **E.5.1 – E.5.4**.
+For the detailed rule behind each guard-rail, see **E.5.1 – E.5.4**.
 

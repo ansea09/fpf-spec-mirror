@@ -3,15 +3,15 @@ chunk_kind: "child"
 pattern_id: "A.15.2"
 pattern_title: "U.WorkPlan: Plan Content for Coordinating Future Work"
 section_id: "A.15.2:2"
-section_title: "Problem (what breaks without WorkPlan)"
+section_title: "Problem"
 source_path: "FPF-Spec.md"
-output_path: "by_section/A.15.2/A.15.2__003_problem-what-breaks-without-workplan.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+output_path: "by_section/A.15.2/A.15.2__003_problem.md"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.15.2 — U.WorkPlan: Plan Content for Coordinating Future Work"
-  - "A.15.2:2 — Problem (what breaks without WorkPlan)"
-line_start: 29800
-line_end: 29807
+  - "A.15.2:2 — Problem"
+line_start: 30878
+line_end: 30885
 dependencies:
   - "A.10"
   - "A.15"
@@ -56,7 +56,7 @@ keywords:
   - "variance"
 ---
 
-### A.15.2:2 - Problem (what breaks without `WorkPlan`)
+### A.15.2:2 - Problem
 
 1. **“Workflow = schedule” conflation.** A way-of-doing description is used to answer a scheduling question while time, performer or resource constraints remain unstated.
 2. **Plan and occurrence blur.** Gantt bars or Kanban tickets are reported as if the work already happened; audits and costing degrade.

@@ -6,12 +6,12 @@ section_id: "B.2.P:5"
 section_title: "Archetypal Grounding (Worked Cases)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.P/B.2.P__007_archetypal-grounding-worked-cases.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.2.P — Clarify Emergence and Meta-Holon Transition (MHT) Claims"
   - "B.2.P:5 — Archetypal Grounding (Worked Cases)"
-line_start: 43842
-line_end: 43886
+line_start: 45606
+line_end: 45656
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -53,7 +53,7 @@ Recover:
 
 - Is "fleet" a membership set, collection-as-whole, acting collective system, or the candidate new system named by an MHT claim?
 - Does the agency wording name an admitted System, an agency-relevant characteristic or threshold, a local system-role kind, a separate System-classification judgment, an obtaining assignment, or only ordinary prose? Recover these independently: the characteristic can obtain without an assignment and the System may participate passively. Send unresolved claim-bearing “role” wording through `E.10.ROLE`.
-- For a new-system candidate selected by the B.2 comparison, are the complete A.1 criterion and the direct B.2.2 System criterion satisfied? Recover the delimitation, objective, coordination and capability claims used in this fleet case with their supporting grounds. Add assurance for a named assurance question or binding requirement.
+- For a new-system candidate selected by the B.2 comparison, are the A.1 criterion and the B.2.2 System criterion satisfied? Recover the delimitation, objective, coordination and capability claims used in this fleet case with their supporting grounds. Add assurance for a named assurance question or binding requirement.
 
 If whole identity remains in question, use B.2 and, for its new-system candidate, B.2.2. For a managed collection with a whole-level metric, recover membership, any required collection construction, and the characteristic bearer and value under A.14, C.13 and C.16 respectively. Use B.3.5 only when its assurance profile is elected.
 
@@ -66,7 +66,7 @@ Recover:
 - Is the result a benchmark artifact?
 - Does the claim concern reidentifying the actual holon?
 
-Apply the direct model or evaluation rule to the recovered result and C.16 to its characteristic claim. Recover the assumptions, correspondence and evidence used by that inference; apply A.10 when a source-to-use account is needed, and C.29 for a remaining representation, transfer or reliance question. An adequate calculation can finish. Use B.2 when the actual whole's identity remains the question.
+Apply the model or evaluation rule to the recovered result and C.16 to its characteristic claim. Recover the assumptions, correspondence and evidence used by that inference; apply A.10 when a source-to-use account is needed, and C.29 for a remaining representation, transfer or reliance question. An adequate calculation can finish. Use B.2 when the actual whole's identity remains the question.
 
 #### B.2.P:5.3 - "A Meta-Functional Transition Happened"
 
@@ -80,13 +80,19 @@ Use B.2.4 only for the B.2-facing whole-reidentification case. Otherwise use `A.
 
 #### B.2.P:5.4 - "The Selected Context Became A Meta-System"
 
-Recover the selected relation organization and its constituents from the account. If it is `BoundedModelUseStructure`, keep it as dependent `U.Structure` under A.1.1 and A.22. Naming, depicting or selecting that organization does not itself establish structural parthood, agency, holonhood or MHT; establish the needed facts under their direct predicates. If the source concerns an actual system whole, begin with B.2's comparison of the existing whole and changed facts; apply complete A.1 and System recognition when the new-whole branch is selected. First recognition without a prior whole remains with A.1 and the direct subject pattern.
+Recover the selected relation organization and its constituents from the account. If it is `BoundedModelUseStructure`, keep it as dependent `U.Structure` under A.1.1 and A.22. Naming, depicting or selecting that organization does not itself establish structural parthood, agency, holonhood or MHT; establish the needed facts under their predicates.
+
+If the source concerns a system whole, begin with B.2's comparison of the existing whole and changed facts; apply A.1 and System recognition when the new-whole branch is selected. First recognition without a prior whole remains with A.1 and the subject pattern.
 
 #### B.2.P:5.5 - "The Evidence For Emergence Was Lost"
 
-Recover the exact whole-reidentification assertion, its evidence or assurance relation, the selected assertion edition, and the receiving work. Missing evidence can make a governed evaluation return `unknown`; a stale edition can fail G.11 currentness; a person or System performing the receiving work can decline reliance, defer, or reopen. None of those results reverses an actual construction or changes the direct rule that decides whether the existing whole continues or a new whole must be identified. Do not rewrite evidence loss as absence of the whole or as a new MHT.
+Recover the whole-reidentification assertion, its evidence or assurance relation, the selected assertion edition, and the receiving work. Missing evidence can make a governed evaluation return `unknown`; a stale edition can fail G.11 currentness; a person or System performing the receiving work can decline reliance, defer, or reopen.
+
+None of those results reverses a construction or changes the rule that decides whether the existing whole continues or a new whole must be identified. Do not rewrite evidence loss as absence of the whole or as a new MHT.
 
 #### B.2.P:5.6 - "The Assembly Changes Form One Higher-Level Change"
 
-Identify each actual change independently under A.3.4. A shared work occurrence, flow, changed referent, time window, method decomposition, or C.13 construction trace does not make those changes parts of one transformation. If the use requires a composite transformation and no direct governor supplies constituent contribution, compatibility, boundary, interfaces, whole identity, and reidentification, return that exact blocker. Do not infer either composition or atomism.
+Identify each change independently under A.3.4. A shared work occurrence, flow, changed referent, time window, method decomposition, or C.13 construction trace does not make those changes parts of one transformation.
+
+If the use requires a composite transformation and no governor supplies constituent contribution, compatibility, boundary, interfaces, whole identity, and reidentification, return that blocker. Do not infer either composition or atomism.
 

@@ -6,12 +6,12 @@ section_id: "F.3:11"
 section_title: "Local-Sense Cards"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.3/F.3__012_local-sense-cards.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.3 — Source-Local Sense Clustering"
   - "F.3:11 — Local-Sense Cards"
-line_start: 119392
-line_end: 119405
+line_start: 126991
+line_end: 127004
 dependencies:
   - "A.11"
   - "A.7"
@@ -42,7 +42,7 @@ An optional one-glance card may show:
 * **LocalSenseClaim**;
 * **supporting expressions and passages**;
 * **counterexample**;
-* **F.17 cell**, only when one is actually used.
+* **F.17 cell**, only when its stable address is used for this claim.
 
 The card is a display. Its fields do not create a new object or relation.
 

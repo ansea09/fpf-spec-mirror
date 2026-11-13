@@ -6,12 +6,12 @@ section_id: "B.2.P:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.P/B.2.P__011_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.2.P — Clarify Emergence and Meta-Holon Transition (MHT) Claims"
   - "B.2.P:8 — Consequences"
-line_start: 43926
-line_end: 43939
+line_start: 45696
+line_end: 45709
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -57,5 +57,5 @@ Costs:
 
 - Ambiguous emergence-family phrases take one recovery step before use.
 - Some attractive umbrella claims become narrower subject-pattern claims.
-- Old mnemonic labels may survive only as quoted source wording or reduced-use cues unless the concrete thing or claim and its direct pattern are identified.
+- Old mnemonic labels may survive only as quoted source wording or reduced-use cues unless the thing or claim and its pattern are identified.
 

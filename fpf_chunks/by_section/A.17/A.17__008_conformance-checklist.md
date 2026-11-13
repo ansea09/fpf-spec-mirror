@@ -6,12 +6,12 @@ section_id: "A.17:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.17/A.17__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.17 — Canonical “Characteristic” (A.CHR-NORM): Name What Is Measured"
   - "A.17:7 — Conformance Checklist"
-line_start: 34370
-line_end: 34389
+line_start: 35850
+line_end: 35869
 dependencies:
   - "A.17"
   - "A.18"

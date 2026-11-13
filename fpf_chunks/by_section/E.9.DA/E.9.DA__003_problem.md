@@ -6,12 +6,12 @@ section_id: "E.9.DA:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9.DA/E.9.DA__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.9.DA — Evaluate a DRR for Its Declared Authoring Use (Decision-Adequacy CharacteristicSpace)"
   - "E.9.DA:2 — Problem"
-line_start: 98520
-line_end: 98535
+line_start: 104050
+line_end: 104065
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -27,7 +27,7 @@ keywords:
 
 ### E.9.DA:2 - Problem
 
-`E.9` defines the DRR decision method and ordinary minimum form, plus exact decision-work/result and C.2.1 identity when a current claim or named reliance needs them. It does not by itself establish whether one exact DRR is decision-bearing enough for a declared downstream use. A review can approve headings, source volume or clean prose while the pattern author still has to invent missing decisions.
+`E.9` defines how to decide and record FPF content, the ordinary minimum DRR form, and the exact decision-work, result, and C.2.1 identities to establish when a claim or named reliance needs them. To judge adequacy, examine whether the DRR under review settles enough for the declared downstream use. A reviewer can approve the headings, source volume or prose while the author still has to invent a decision.
 
 Recurring failures:
 
@@ -39,5 +39,5 @@ Recurring failures:
 6. Source use is copied without saying what changed in the accepted decision.
 7. Architecture descriptions, views, graphs, packets, or notes are treated as the FPF decision.
 8. Administrative state becomes adequacy evidence.
-9. Ordinal adequacy values become repair targets, so the `DRR` gains source rows, locus tables, boundary catalogues, or review proof while the selected answer and first drafting action do not become more decisive.
+9. Ordinal adequacy values become repair targets, so the `DRR` gains source rows, locus tables, boundary catalogues, or review proof without making either the selected answer or the first drafting action more decisive.
 

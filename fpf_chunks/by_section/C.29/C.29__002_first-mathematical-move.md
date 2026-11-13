@@ -6,12 +6,12 @@ section_id: "C.29:0"
 section_title: "First mathematical move"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__002_first-mathematical-move.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:0 — First mathematical move"
-line_start: 68933
-line_end: 68940
+line_start: 72006
+line_end: 72013
 dependencies:
   - "A.1.1"
   - "A.10"

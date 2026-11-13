@@ -6,12 +6,12 @@ section_id: "F.11:9"
 section_title: "Micro-examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__010_micro-examples.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.11 — Distinguish Method, MethodDescription, Work and Outputs"
   - "F.11:9 — Micro-examples"
-line_start: 122400
-line_end: 122407
+line_start: 130145
+line_end: 130152
 dependencies:
   - "A.13"
   - "A.15"
@@ -49,5 +49,5 @@ For each dated Work named here and in §11, take independent A.13/A.15.1 admissi
 
 1. **Data pipeline deployment.** Method: delta-load transformation. MethodDescription: `etl_delta.py@v3` plus its documented rules. Work: the nightly run on 2025-07-14. No control output is material. Approval of the description and measured rows processed are separate claims.
 2. **Valve control.** Method: PID tuning and control method. MethodDescription: tuning sheet and cited IEC program description. Work: PLC task cycles from 18:00 to 18:30. Outputs: the exact setpoints and PWM duty values produced during those cycles. Temperature observations, not the commands alone, support a settling-time verdict.
-3. **Clinical assay.** Method: ELISA. MethodDescription: kit IFU v7. Work: batch B217. Robot commands are outputs during the Work; absorbance observations support the batch evaluation. IFU approval does not settle the batch verdict.
+3. **Clinical assay.** Method: ELISA. MethodDescription: kit IFU v7. Work: the assay run on batch B217. Robot commands are outputs during the Work; absorbance observations support the batch evaluation. IFU approval does not settle the batch verdict.
 

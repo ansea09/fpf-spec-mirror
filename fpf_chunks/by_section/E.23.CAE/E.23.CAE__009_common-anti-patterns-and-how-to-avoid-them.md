@@ -6,12 +6,12 @@ section_id: "E.23.CAE:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23.CAE/E.23.CAE__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.23.CAE — Capability Access and Expression Differential Probe"
   - "E.23.CAE:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 115816
-line_end: 115828
+line_start: 123169
+line_end: 123181
 dependencies:
   - "A.15.7"
   - "A.15.8"
@@ -30,7 +30,7 @@ keywords:
 | --- | --- | --- |
 | “It failed, so the capability is gone.” | Envelope, support, applicability, access, adaptation, and enactment remain untested. | Bind the claim and compare sufficient matching observations; obtain the smallest safe differential contrast still needed. |
 | “It returned, so nothing changed.” | Reference recovery is mistaken for transfer or whole-envelope capability. | State the tested condition and continue only with the distinction the receiving decision needs. |
-| “The organization remembered.” | Roles, records, rules, tools, authority, and actual performance collapse into a human-memory metaphor. | Name the exact organizational relations and actual Work; retain organization-specific explanation. |
+| “The organization remembered.” | Roles, records, rules, tools, authority, and actual performance collapse into a human-memory metaphor. | Name the organizational relations and actual Work; retain organization-specific explanation. |
 | “The model catastrophically forgot.” | Benchmark failure is treated as parameter overwrite without routing or activation probes. | Hold update fixed and test qualified task/context activation before making a model-specific change claim. |
 | Cue theater | A visible label is varied while the decision-bearing state, uncertainty, order, or transition statistics remain unchanged. | Vary the condition that distinguishes the live rivals and state what was held fixed. |
 | Probe that teaches | Repeated trials, prompts, correction, or fine-tuning alter the holder while being called measurement. | Record the intervention, narrow the claim, redesign the contrast, or return unresolved. |

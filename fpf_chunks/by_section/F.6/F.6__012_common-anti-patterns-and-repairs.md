@@ -6,12 +6,12 @@ section_id: "F.6:10"
 section_title: "Common Anti-Patterns and Repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__012_common-anti-patterns-and-repairs.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.6 — SystemRoleAssignment and Performed-Work Attribution Check"
   - "F.6:10 — Common Anti-Patterns and Repairs"
-line_start: 120434
-line_end: 120450
+line_start: 128083
+line_end: 128099
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -58,9 +58,9 @@ keywords:
 | Passive article becomes performer | A test-subject assignment and overlap are read as Work attribution or passive participation. | Attribute Work only to actual performers; use the rule that defines passive participation or return the A.6.RCD `missing-governor` result. |
 | Work attributed by a system-role label | The holder and assignment occurrence are unavailable. | Recover the declared assignment occurrence, all its participants, and its holder. |
 | F.6 creates a generic assignment | A stronger appointment is flattened or duplicated. | Keep RA's declared species and let `SystemRoleAssignmentSlot` consume the family. |
-| Non-covering assignment | Work lies outside RA's predicate-true episode. | Use the covering assignment only when the case also links it to the Work; otherwise leave attribution unresolved. |
+| Non-covering assignment | Work lies outside RA’s predicate-true episode. | Rule out this pairing. Attribute the Work to another assignment only if the case establishes coverage, a direct link to that assignment and the other required conditions. |
 | `RoleEnactmentFact` retained | A duplicate object competes with Work and attribution. | Replace it with the F.6 relation between the Work and assignment. |
 | Assertion or evidence creates the pair | A report or support path is treated as what makes the Work–assignment fact true. | Keep the assertion and evidence in their own relations; use them only to support reliance on the attribution claim. |
 | Report as performer | A result or evidence episteme fills holder position. | Keep the report in its result, evidence, source, or publication relation. |
-| Context shorthand becomes ontology | `Context` is inserted as a universal participant. | Recover the denoted object and the relation that actually applies. |
+| Context shorthand becomes ontology | `Context` is inserted as a universal participant. | Recover the denoted object and the applicable relation. |
 

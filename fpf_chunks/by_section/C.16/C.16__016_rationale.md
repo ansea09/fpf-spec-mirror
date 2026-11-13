@@ -6,12 +6,12 @@ section_id: "C.16:14"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__016_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:14 — Rationale"
-line_start: 58864
-line_end: 58867
+line_start: 61248
+line_end: 61251
 dependencies:
   - "A.10"
   - "A.15.1"

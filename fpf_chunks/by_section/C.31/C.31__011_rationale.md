@@ -6,12 +6,12 @@ section_id: "C.31:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31/C.31__011_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.31 — Modularity and Reusable Structure Characteristics"
   - "C.31:10 — Rationale"
-line_start: 75409
-line_end: 75416
+line_start: 78854
+line_end: 78861
 dependencies:
   - "A.10"
   - "A.17"
@@ -49,5 +49,5 @@ C.31 is a characterization pattern because modularity and reusable-structure tal
 
 The small first inquiry preserves affordability. A practitioner may need one relation to repair, one interface grammar to tighten or one residue to account for. These distinctions determine whether measurement could improve the next move; a complete diagnostic answer can stop without a full card.
 
-The pattern rejects a single complexity or modularity score because selected heads are not automatically commensurable. When a local score is genuinely useful, it belongs under disclosed scoring, comparator, characteristic, declared-measurement-basis, and subject-pattern discipline.
+The pattern rejects a single complexity or modularity score because selected heads are not automatically commensurable. When a local score is useful, it belongs under disclosed scoring, comparator, characteristic, declared-measurement-basis, and subject-pattern discipline.
 

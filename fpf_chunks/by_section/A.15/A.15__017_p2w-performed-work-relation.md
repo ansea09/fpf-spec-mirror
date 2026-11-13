@@ -6,12 +6,12 @@ section_id: "A.15:12d"
 section_title: "P2W Performed-Work Relation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__017_p2w-performed-work-relation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.15 — System-Role–Method–Work Alignment"
   - "A.15:12d — P2W Performed-Work Relation"
-line_start: 29101
-line_end: 29106
+line_start: 30167
+line_end: 30172
 dependencies:
   - "A.10"
   - "A.13"
@@ -65,7 +65,7 @@ keywords:
 
 ### A.15:12d - P2W Performed-Work Relation
 
-When E.18.1 reaches performed Work, keep `U.Work` as the admitted kind and identify one exact dated occurrence under it.
+When E.18.1 reaches performed Work, keep `U.Work` as the admitted kind and identify one dated occurrence under it.
 
-A performed-work record is a separate `U.Episteme`. It may cite a WorkPlan, planned baseline, and exact Work occurrence. It can state bindings, performed values, substitutions, variance, telemetry, outputs, outcome claims, and result references only through independently obtaining relations; none is stored in or constituted by the Work occurrence. Comparator, transport, `PrincipleFrame`, formal-substrate signature, evidence, assurance, and gate relations remain separate.
+A performed-work record is a separate `U.Episteme`. It may cite a WorkPlan, planned baseline, and Work occurrence. It can state bindings, performed values, substitutions, variance, telemetry, outputs, outcome claims, and result references only through independently obtaining relations; none is stored in or constituted by the Work occurrence. Comparator, transport, `PrincipleFrame`, formal-substrate signature, evidence, assurance, and gate relations remain separate.
 

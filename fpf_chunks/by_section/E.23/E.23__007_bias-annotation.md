@@ -6,12 +6,12 @@ section_id: "E.23:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__007_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:6 — Bias-Annotation"
-line_start: 115271
-line_end: 115286
+line_start: 122583
+line_end: 122598
 dependencies:
   - "A.19.ECS"
   - "A.22.CGUS"
@@ -30,7 +30,7 @@ keywords:
 
 ### E.23:6 - Bias-Annotation
 
-This pattern biases FPF toward adaptive improvement with explicit re-evaluation. The bias is useful because many real objects improve only through feedback and revision.
+This pattern biases FPF toward adaptive improvement with explicit re-evaluation. The bias is useful because many objects improve only through feedback and revision.
 
 The bias is bounded. One direct evaluation can close without a loop. Repetition is justified only by a scale-qualified predicted evaluation-result change and acceptable cost and risk.
 

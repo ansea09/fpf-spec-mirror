@@ -6,12 +6,12 @@ section_id: "A.19.CN:8"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CN/A.19.CN__009_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.19.CN — CN-frame: Specify and Maintain Comparability and Normalization"
   - "A.19.CN:8 — Archetypal Grounding"
-line_start: 36582
-line_end: 36712
+line_start: 38084
+line_end: 38218
 dependencies:
   - "A.19"
   - "A.6.1"
@@ -54,7 +54,7 @@ keywords:
 
 * `cs_basis`: *P50Latency\[ms] (↓)*, *P99Latency\[ms] (↓)*, *Load\[req/s]*
 * `chart`: client vantage, trace sampler v4; `MethodDescription#HTTP_probe_v4`
-* Before comparing a client end-to-end reading with a server processing reading, resolve their actual Characteristic and observation basis. Both may use ms yet answer different questions. Keep separate coordinates or obtain readings for the same declared characteristic and basis; a unit conversion alone cannot supply that match.
+* Before comparing a client end-to-end reading with a server processing reading, resolve their Characteristic and observation basis. Both may use ms yet answer different questions. Keep separate coordinates or obtain readings for the same declared characteristic and basis; a unit conversion alone cannot supply that match.
 * `normalization`: monotone time‑warp compensation for collector skew; invariant = percentile order
 * `comparability`: **normalization‑based (UNM)** with declared normalization
 * `aggregation`: use a max-of-mins latency fold only when the declared service model justifies it; a WLNK bound needs its own bottleneck model. Neither follows from latency percentiles alone.
@@ -98,7 +98,11 @@ Work ── performedBy ──> assigned System
 Work ── enacts ──> Method
 ```
 
-The System is classified under the exact local system-role kind and participates in the obtaining assignment used by this RSG account. A deliberately asserted evaluation or operational Work additionally needs the complete A.13 core: the performing System, exact local agential-role kind and its membership criterion, and an obtaining assignment of its declared direct species for the relevant scope and time. A.15.1 independently admits the Work; F.6 applies afterward only when precise assignment-bound attribution is needed. The schema abbreviates these grounds; its arrows do not establish them. A role-state graph lists states such as Ready, Waiting, or Degraded. Evaluation applies the state checklist and supports a StateAssertion. In this gating use, operational enactment requires an admissible assertion that an enactable state obtains; the Work, Method, assignment, and result remain different objects.
+The System is classified under the local system-role kind and participates in the obtaining assignment used by this RSG account.
+
+An asserted evaluation or operational Work additionally needs the complete A.13 core: the performing System, local agential-role kind and its membership criterion, and an obtaining assignment of its declared direct species for the relevant scope and time. A.15.1 independently admits the Work; F.6 applies afterward only when precise assignment-bound attribution is needed. The schema abbreviates these grounds; its arrows do not establish them.
+
+A role-state graph lists states such as Ready, Waiting, or Degraded. Evaluation applies the state checklist and supports a StateAssertion. In this gating use, operational enactment requires an admissible assertion that an enactable state obtains; the Work, Method, assignment, and result remain different objects.
 
 _Relational stub:_
 
@@ -124,7 +128,7 @@ ComparisonClaim ── cites ──> normalization instance and/or Bridge-use cl
 RelianceClaim ── cites ──> evidence status and assurance limits
 ```
 
-The normalization instance identifies the declared re-expression and its validity window. The Bridge identifies only an obtaining relation between two exact local senses. A comparison that relies on either one says so in its own use claim; its evidence and assurance limits remain explicit.
+The normalization instance identifies the declared re-expression and its validity window. The Bridge identifies only an obtaining relation between two local senses. A comparison that relies on either one says so in its own use claim; its evidence and assurance limits remain explicit.
 
 _Relational stub:_
 
@@ -149,7 +153,7 @@ source F.17 cell ── obtaining Bridge under its predicate profile ──> rec
 SystemRoleKind' ── stated refinement relation ──> SystemRoleKind
 ```
 
-A checklist re-expression cites the normalization instance when it uses normalization. When it also needs a semantic correspondence or difference between exact local senses, apply §4.3: test the F.9 predicate, retain any missing or unresolved required correspondence, and separately ground the use of an obtaining Bridge. A stated refinement between system-role kinds records how their state distinctions correspond; it must preserve the entailment needed for enactability rather than relying on similar role names.
+A checklist re-expression cites the normalization instance when it uses normalization. When it also needs a semantic correspondence or difference between local senses, apply §4.3: test the F.9 predicate, retain any missing or unresolved required correspondence, and separately ground the use of an obtaining Bridge. A stated refinement between system-role kinds records how their state distinctions correspond; it must preserve the entailment needed for enactability rather than relying on similar role names.
 
 _Relational stub:_
 

@@ -6,12 +6,12 @@ section_id: "B.5:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5/B.5__007_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.5 — Choose the Next Reasoning Contribution (Canonical Reasoning Cycle)"
   - "B.5:6 — Bias-Annotation"
-line_start: 46529
-line_end: 46534
+line_start: 48469
+line_end: 48474
 dependencies:
   - "A.10"
   - "B.5.1"
@@ -24,7 +24,7 @@ keywords:
 
 ### B.5:6 - Bias-Annotation
 
-The examples favor discrete construction and a simple physical representation. Other fields may need probabilistic, interpretive, historical or other arguments with different criticism demands. Select the contribution by the actual question and discipline.
+The examples favor discrete construction and a simple physical representation. Other fields may need probabilistic, interpretive, historical or other arguments with different criticism demands. Select the contribution by the question and discipline.
 
-Easy-to-produce outputs can dominate attention. Recover the intended epistemic or practical purpose when speed, proof count, a convenient measurement or the current favorite tool starts determining which question is asked.
+Easy-to-produce outputs can dominate attention. Recover the intended epistemic or practical purpose when speed, proof count, a convenient measurement or the favorite tool starts determining which question is asked.
 

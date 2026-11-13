@@ -6,12 +6,12 @@ section_id: "C.16:15a"
 section_title: "Measurement and probe note for quantum-like readings"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__019_measurement-and-probe-note-for-quantum-like-readings.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:15a — Measurement and probe note for quantum-like readings"
-line_start: 58916
-line_end: 58942
+line_start: 61301
+line_end: 61327
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -55,7 +55,7 @@ keywords:
 
 ### C.16:15a - Measurement and probe note for quantum-like readings
 
-Use C.16 first when the live object is a sensor reading, survey response, dashboard value, score, probe result, or state coordinate. Noise, probability, discreteness, gaming, or difficult interpretation does not by itself make a case quantum-like.
+Use C.16 first when the object is a sensor reading, survey response, dashboard value, score, probe result, or state coordinate. Noise, probability, discreteness, gaming, or difficult interpretation does not by itself make a case quantum-like.
 
 Recover the ordinary measurement chain first:
 
@@ -63,7 +63,7 @@ Recover the ordinary measurement chain first:
 2. separate reusable method and model from dated work and actual bindings;
 3. name input quantities, output quantity, calibration basis, uncertainty propagation, and one measurement-result episteme;
 4. distinguish emitted output, indication, actual subject state, measurement result, result episteme, diagnosis, criterion verdict, and decision; and
-5. attach provenance through A.10/G.6 and state the exact supported and unsupported later uses.
+5. attach provenance through A.10/G.6 and state the supported and unsupported later uses.
 
 Only after that repair ask whether the probe order, frame, publication, or export changes the state or the inferences that remain admissible. If it does, C.26 may govern that residual contextual or probe-order question. If it does not, remain in C.16 and the ordinary evidence, assurance, or receiving-use patterns.
 
@@ -71,12 +71,12 @@ Minimum probe note:
 
 | Field | Required content |
 | --- | --- |
-| Measurand and Characteristic | What exact subject quantity or characteristic is intended to be measured? |
+| Measurand and Characteristic | What subject quantity or characteristic is intended to be measured? |
 | Scale and time stance | On what Scale and Unit, at what time or window, is the value attributed? |
 | Method, model, calibration | What reusable method/model and applicable calibration basis govern the reading? |
 | Work and bindings | Which dated Work occurred, who performed it, and which resource or argument bindings does this measurement claim use? |
 | Inputs, output, uncertainty | Which model inputs determine the output quantity, and how is uncertainty propagated? |
 | Result episteme | Which C.2.1 episteme states the attributed value and interpretation basis? |
 | Boundary | Which raw output, indication, subject state, diagnosis, verdict, or decision remains separate? |
-| Use | Which exact later use is supported, degraded, deferred, or unsupported? |
+| Use | Which later use is supported, degraded, deferred, or unsupported? |
 

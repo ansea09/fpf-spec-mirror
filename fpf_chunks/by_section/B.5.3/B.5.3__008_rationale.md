@@ -6,12 +6,12 @@ section_id: "B.5.3:7"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.3/B.5.3__008_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.5.3 — Interpret Domain Vocabulary for an FPF Claim (Domain-Concept Bridge)"
   - "B.5.3:7 — Rationale"
-line_start: 50385
-line_end: 50388
+line_start: 52465
+line_end: 52468
 dependencies:
   - "A.13"
   - "A.15"
@@ -44,5 +44,5 @@ keywords:
 
 ### B.5.3:7 - **Rationale**
 
-This pattern implements open-ended parsimony: FPF can use many domain vocabularies without turning every useful expression into a kernel kind. It recovers the source-local claim first, routes the needed FPF value to its direct pattern, and introduces an F.9 Bridge only for an actual relation between distinct local senses.
+This pattern implements open-ended parsimony: FPF can use many domain vocabularies without turning every useful expression into a kernel kind. It recovers the source-local claim first, uses the pattern that defines or constrains the needed FPF value, and introduces an F.9 Bridge only for a relation between distinct local senses.
 

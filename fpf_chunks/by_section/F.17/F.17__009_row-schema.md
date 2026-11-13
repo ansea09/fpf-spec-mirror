@@ -6,12 +6,12 @@ section_id: "F.17:7"
 section_title: "Row schema"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__009_row-schema.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.17 — Make a Settled Naming Decision Recoverable for Reuse (Unified Term Sheet)"
   - "F.17:7 — Row schema"
-line_start: 124295
-line_end: 124324
+line_start: 132184
+line_end: 132215
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -37,7 +37,6 @@ dependencies:
   - "F.10"
   - "F.14"
   - "F.15"
-  - "F.17"
   - "F.18"
   - "F.2"
   - "F.3"
@@ -47,7 +46,6 @@ dependencies:
   - "F.7"
   - "F.8"
   - "F.9"
-  - "G.11"
 keywords:
 ---
 
@@ -77,7 +75,9 @@ Use these positions when they are current. Presence means that the exact referen
 | `Currentness condition` | yes | Claim stating what reopens review; not a self-proving currentness relation. |
 | `Notes` | optional | Short lineage, teaching, homonym, use-claim, or reliance note. |
 
-For `SenseCellRefs`, recover the exact by-value scheme, expression, and local-sense claim. Cite `LocalSenseBasisRelation` only when an actual basis relation obtains. A NameCard selects designations; it does not fill the cell or basis positions. A source title, file, carrier, locality label, selected structure, row id, or description substitutes for none of them.
+For `SenseCellRefs`, recover the exact by-value scheme, expression, and local-sense claim. Cite `LocalSenseBasisRelation` only when the basis relation obtains. A NameCard selects designations; it does not fill the cell or basis positions. A source title, file, carrier, locality label, selected structure, row id, or description substitutes for none of them.
 
-Publication availability is not a row column. When current, maintain the exact E.24.PUB relation occurrences, particular expression, carrier, audience and bounded use beside the selected row edition. When a reusable publication form is selected, identify it and establish the expression's conformance. Form-mediated availability uses that same expression as witness. Publication change does not silently change the row episteme or its C.2.1 edition relation.
+Publication availability is not a row column. When current, maintain the exact E.24.PUB relation occurrences, particular expression, carrier, audience and bounded use beside the selected row edition.
+
+When a reusable publication form is selected, identify it and establish the expression's conformance. Form-mediated availability uses that same expression as witness. Publication change does not silently change the row episteme or its C.2.1 edition relation.
 

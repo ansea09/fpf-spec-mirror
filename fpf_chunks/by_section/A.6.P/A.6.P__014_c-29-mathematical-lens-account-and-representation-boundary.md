@@ -6,12 +6,12 @@ section_id: "A.6.P:12b"
 section_title: "C.29 mathematical-lens account and representation boundary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__014_c-29-mathematical-lens-account-and-representation-boundary.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.P — Relational Precision Restoration - Recovering Direct Relations from Under-Specified Claims"
   - "A.6.P:12b — C.29 mathematical-lens account and representation boundary"
-line_start: 20531
-line_end: 20536
+line_start: 21404
+line_end: 21409
 dependencies:
   - "A.1.SCR"
   - "A.1.STM"
@@ -38,7 +38,7 @@ keywords:
 
 ### A.6.P:12b - C.29 mathematical-lens account and representation boundary
 
-Use C.29 when choosing or transferring a mathematical representation could expose a needed relation, invariant, obstruction, approximation or resource limit, or when a proposed inference exceeds the representation's supported correspondence. Its operation identifies a concrete mathematical object, establishes the needed correspondence, performs the mathematical work and returns the consequence with its limits. An adequate local equation, algorithm or domain model needs no C.29 note when no separate representation or transfer question remains. A relied-on representation still follows its selected interpretation conventions; neither a lens-use account nor visible form makes a world-side relation obtain or supplies occurrence identity.
+Use C.29 when choosing or transferring a mathematical representation could expose a needed relation, invariant, obstruction, approximation or resource limit, or when a proposed inference exceeds the representation's supported correspondence. Its operation identifies a mathematical object, establishes the needed correspondence, performs the mathematical work and returns the consequence with its limits. An adequate local equation, algorithm or domain model needs no C.29 note when no separate representation or transfer question remains. A relied-on representation still follows its selected interpretation conventions; neither a lens-use account nor visible form makes a world-side relation obtain or supplies occurrence identity.
 
 For cross-context meaning, export or substitution wording, first distinguish designation, an operation and a semantic-correspondence claim under A.6.9. Only the last opens F.9: recover both local senses and test its direct Bridge predicate. F.9 supplies the obtaining condition and occurrence-identity rule when the two exact local-sense endpoints resolve, their interpretation bases differ, and the declared profile applies. Use `C.2.1` for any independently needed assertion, occurrence description or Bridge Card, and for a bounded-use claim when a proposed use requires it. `A.2.4` classifies evidence use; `A.10` supplies a replayable source-to-use account when needed; `B.3` governs a separately named assurance claim; `E.24.PUB` governs publication, and the receiving object's pattern governs any use that actually occurs. A changed claim, Card, evidence item, reliance result, or publication is not a changed Bridge occurrence. Use C.29 when a separate mathematical representation or transfer question remains. A representation may state or support a Bridge claim; its presence alone establishes neither the Bridge nor the represented world-side relation. If the sentence needs no cross-context correspondence or substitution claim, add no Bridge. If it needs another relation for which no current pattern supplies a defining or testing rule after the participants and needed sentence are explicit, record the established A.6.RCD `missing-governor` result.
 

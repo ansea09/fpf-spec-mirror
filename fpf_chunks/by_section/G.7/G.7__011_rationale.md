@@ -6,12 +6,12 @@ section_id: "G.7:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.7/G.7__011_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.7 — Cross‑Tradition Bridge Calibration Kit (BridgeMatrix → BridgeCards + BCT/Sentinels)"
   - "G.7:10 — Rationale"
-line_start: 130614
-line_end: 130619
+line_start: 138674
+line_end: 138679
 dependencies:
   - "A.21"
   - "B.3"
@@ -55,7 +55,7 @@ keywords:
 
 ### G.7:10 - Rationale
 
-* **Why a kit (not a new governance card or legality gate)?** Bridge calibration must support many downstream consumers without becoming a competing legality gate; governing-spec semantics remain governed by `CG‑Spec`/`CN‑Spec`.
+* **Why publish a kit?** Several consumers can use the same calibration. They use `CN‑Spec` for the governing comparison rules and `CG‑Spec` for the legality gate. The kit supplies calibration without creating a second governance card or gate.
 * **Why BCT + RegressionSet + SentinelSet?** Regression tests make calibration drift detectable; sentinels identify the downstream scopes to refresh.
-* **Why row scopes?** Because “comparable” is not one thing; scope must be explicit to avoid accidental substitution.
+* **Why declare the row scope?** Two constructs may be comparable for one question and fail another. The scope identifies the correspondence or difference the row calibrates, so a reader can check the intended use.
 

@@ -6,12 +6,12 @@ section_id: "B.5.2.0:14"
 section_title: "Prompt package discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.0/B.5.2.0__016_prompt-package-discipline.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.5.2.0 — Question Form for Entering Abduction (U.AbductivePrompt)"
   - "B.5.2.0:14 — Prompt package discipline"
-line_start: 50051
-line_end: 50080
+line_start: 52119
+line_end: 52148
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -47,14 +47,14 @@ An abductive prompt should make explicit:
 
 - the **prompt species**,
 - the **open question**,
-- the **motivating provenance actually used**,
+- the **motivating provenance used**,
 - the **contrast set**, if one is already visible,
 - the **scope** in which the question is being asked,
 - and the **witnesses or cue grounds** that justify beginning abduction.
 
 This package lets downstream conjectures be assessed against the same identified explanatory question.
 
-For specialization-sensitive prompt species, preserve the declared task family or utility target, the conditions needed for the explanatory question, including any stated threshold or budget, and the motivating provenance actually used. Preserve alternative prompt shapes when they remain live and matter to entry.
+For specialization-sensitive prompt species, preserve the declared task family or utility target, the conditions needed for the explanatory question, including any stated threshold or budget, and the motivating provenance used. Preserve alternative prompt shapes when they remain live and matter to entry.
 
 #### B.5.2.0:14.2 - Claims about the question and an asserted answer
 
@@ -62,8 +62,8 @@ A prompt account states what is being asked and why, while leaving the answer op
 
 #### B.5.2.0:14.3 - Prompt provenance remains load-bearing
 
-The motivating provenance is part of prompt admission. Preserve the route, cue or witness basis actually used; a prompt with no routing history does not need an invented route.
+The motivating provenance is part of prompt admission. Preserve the route, cue or witness basis used; a prompt with no routing history does not need an invented route.
 
 #### B.5.2.0:14.4 - Check prompt against silent promotion
-An assurance reader should watch for the common mistake where authors silently upgrade a prompt into a hypothesis merely because the prose sounds explanatory. If the text already leans on one preferred answer as settled, either rewrite it back into a real question or explicitly apply the governing pattern that carries the asserted answer.
+An assurance reader should watch for the common mistake where authors silently upgrade a prompt into a hypothesis merely because the prose sounds explanatory. If the text already leans on one preferred answer as settled, either rewrite it back into an open question or explicitly apply the governing pattern that carries the asserted answer.
 

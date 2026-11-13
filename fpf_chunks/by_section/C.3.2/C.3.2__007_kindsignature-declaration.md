@@ -6,12 +6,12 @@ section_id: "C.3.2:5"
 section_title: "KindSignature Declaration"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__007_kindsignature-declaration.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.3.2 — Kind Intent, Membership Judgment, and Extension"
   - "C.3.2:5 — KindSignature Declaration"
-line_start: 55447
-line_end: 55461
+line_start: 57733
+line_end: 57749
 dependencies:
   - "A.14"
   - "A.2.6"
@@ -33,12 +33,14 @@ Author a reusable `KindSignature` only when a named receiving use needs the crit
 
 - the exact kind that is its `EntityOfConcern`;
 - the candidate `ValueKind` or exact value interpretation admitted as input;
-- the membership condition in terms of directly governed candidate qualities, relations, constructive grounding, epistemes, registrations, certifications, publications, legal statuses, or other exact conditions;
+- the membership condition in terms of directly governed candidate qualities, relations, constructive grounding, epistemes, registrations, certifications, publications, legal statuses, or other conditions;
 - the exact `U.ContextSlice` applicability in which the evaluation may be formed;
 - the effective reference scheme: designation and interpretation rules for reading that declaration;
 - the assumptions and dependencies on which the criterion relies, including any required standards, versions, units, or temporal policy;
 - the expression properties needed for its intended use under C.2.3; and
 - an optional `ExtentRule` for a named extension-consuming use.
 
-In A.6.0 terms, `SubjectKind` is the broad candidate kind and `RangedValueKind` is `{true, false, unknown}`. `not-applicable` is returned before this ranged evaluation. `ExtentRule` is declaration content, not a new ontic relation. Formality characterizes the declaration episteme, not the kind, candidate, truth, or extension. A changed membership condition, candidate-domain declaration, `EntityOfConcern`, applicability, or effective scheme identifies another episteme. Recheck its signature membership under A.6.0 and its `KindSignature` content under this section; claim an edition relation under C.2.1 only when that relation obtains. C.3.1 separately decides kind continuity.
+In A.6.0 terms, `SubjectKind` is the broad candidate kind and `RangedValueKind` is `{true, false, unknown}`. `not-applicable` is returned before this ranged evaluation. `ExtentRule` is declaration content, not a new ontic relation. Formality characterizes the declaration episteme, not the kind, candidate, truth, or extension.
+
+A changed membership condition, candidate-domain declaration, `EntityOfConcern`, applicability, or effective scheme identifies another episteme. Recheck its signature membership under A.6.0 and its `KindSignature` content under this section; claim an edition relation under C.2.1 only when that relation obtains. C.3.1 separately decides kind continuity.
 

@@ -6,12 +6,12 @@ section_id: "A.19:7"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19/A.19__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.19 — CharacteristicSpace: Coordinates, State Predicates and Dynamics Hook (A.CHR‑SPACE)"
   - "A.19:7 — Common Anti-Patterns and How to Avoid Them"
-line_start: 34945
-line_end: 34977
+line_start: 36425
+line_end: 36457
 dependencies:
   - "A.10"
   - "A.15"
@@ -54,7 +54,7 @@ _The following are common modeling mistakes (“anti-patterns”) related to mea
 
 -   **“Same label ⇒ comparable.”**
     ✗ Assuming two `Ready` labels or two same-named coordinates are comparable across different reference schemes or planes.
-  ✓ Normalize into one declared target space. Cite an F.9 Bridge only when its predicate obtains between two exact F.17 local senses, state the bounded-use claim and reliance separately, and cite the applicable plane relation for a ReferencePlane crossing. Let CPM state the comparison scope, comparator, plane, and window.
+  ✓ Normalize into one declared target space. Cite an F.9 Bridge only when its predicate obtains between two F.17 local senses, state the bounded-use claim and reliance separately, and cite the applicable plane relation for a ReferencePlane crossing. Let CPM state the comparison scope, comparator, plane, and window.
 
 -   **“Compare before common-space mapping.”**
     ✗ Comparing values directly across different scales, e.g. _Drift\_A = 5°C vs Drift\_B = 5°F_ as if they were the same.
@@ -62,7 +62,7 @@ _The following are common modeling mistakes (“anti-patterns”) related to mea
 
 - **“Checklist = method sequence.”**
   - Wrong: `Ready` means “do Step 1, then Step 2.”
-  - Repair: let the checklist state the conditions that must hold. Put the way of reaching them in a separate Method or MethodDescription, planned occurrences in a WorkPlan, and what actually happened in Work. Evidence separately supports an assertion or evaluation result; it is not the condition itself.
+  - Repair: let the checklist state the conditions that must hold. Put the way of reaching them in a separate Method or MethodDescription, planned occurrences in a WorkPlan, and what happened in Work. Evidence separately supports an assertion or evaluation result; it is not the condition itself.
 
 -   **“Retro-fix past assertions.”**
     ✗ Going back to edit or reinterpret old StateAssertions after changing a threshold or NormalizationMethod (e.g. “We updated the criteria, let’s ‘fix’ last quarter’s records to match”).
@@ -73,7 +73,7 @@ _The following are common modeling mistakes (“anti-patterns”) related to mea
 - C.27 may flag: a rate or rate-change claim that needs base characteristic, scale and unit, time base or sampling window, transformation or finite-difference method, evidence, and admissible use.
 - A.19 governs CharacteristicSpace and Coordinate discipline; C.16 governs measurement construction and backing.
 - Non-admissible use: words such as velocity, acceleration, throughput, cadence, or recovery speed do not by themselves establish a Characteristic, Scale, or measurement method.
-- Use boundary: when the interpretation governs the current claim, cite `baseCharacteristicRef`, the relevant measure reference, sampling window, construction method such as `DHCMethodRef`, and the C.16 measurement or construction relation reference; C.27 does not define a parallel measurement system.
+- Use boundary: when the interpretation governs the claim, cite `baseCharacteristicRef`, the relevant measure reference, sampling window, construction method such as `DHCMethodRef`, and the C.16 measurement or construction relation reference; C.27 does not define a parallel measurement system.
 
 **A.19.ECS object-under-improvement evaluation construction relation.**
 

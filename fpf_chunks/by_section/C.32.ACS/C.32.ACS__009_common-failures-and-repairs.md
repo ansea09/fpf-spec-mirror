@@ -6,12 +6,12 @@ section_id: "C.32.ACS:8"
 section_title: "Common failures and repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACS/C.32.ACS__009_common-failures-and-repairs.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.32.ACS — Architecture Characteristic Criteria Set"
   - "C.32.ACS:8 — Common failures and repairs"
-line_start: 77720
-line_end: 77733
+line_start: 81549
+line_end: 81562
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -52,11 +52,11 @@ keywords:
 | Failure | Working symptom | Repair |
 |---|---|---|
 | `CatalogueCopyAsCriteriaSet` | A project imports a long list of ilities and treats the list as architecture guidance. | Use HCS for starter heads, then build ACS rows, mark optimization indicators, and keep guardrails and context-only rows separate. |
-| `TooManyOptimizationIndicators` | Dozens of rows drive optimization at once. | Choose the rows that need active optimization for the next step. Classify the others by their actual use; preserve every binding constraint and necessary guardrail, regardless of the core size. |
+| `TooManyOptimizationIndicators` | Dozens of rows drive optimization at once. | Choose the rows that need active optimization for the next step. Classify the others by their use; preserve every binding constraint and necessary guardrail, regardless of the core size. |
 | `FunctionGoalAsArchitectureCriterion` | A user-visible function is used as the architecture optimization criterion. | Recover the function claim through `A.6.F`; then name the architecture characteristic that makes the function sustainable. |
 | `QBundleDuplicatedAsScaleSet` | Maintainability, availability, security, teachability, or trustworthiness is treated as one ACS row when the truth depends on several typed slots. | Open `C.25`, construct or reference the Q-Bundle, then select only the relevant slot for ACS use. Keep any report-only proxy outside the criteria row unless its bearer, scale, proxy risk, and receiving use are declared. |
 | `EvalProgramAsCriterion` | A test, monitor, source-side fitness function, benchmark, dashboard, or eval result is named as the criterion. | Name the characteristic row first; eval-program construction belongs to `C.32.ACE` and measurement claims belong to `C.16`. |
-| `BearerCarryoverWithoutRebinding` | An engineered-system row is copied to architecture around a Method, local system-role kind, separate System-classification judgment, assignment, or cultural-evolution case without changing the exact bearer, predicate, scale, or admissible use. | Return to HCS only if the described holon family changed. Otherwise stay in ACS and rebind the row to the actual bearer and selected structure; an admitted Method remains its own holon, while a local kind or assignment retains its separate kind. |
+| `BearerCarryoverWithoutRebinding` | An engineered-system row is copied to architecture around a Method, local system-role kind, separate System-classification judgment, assignment, or cultural-evolution case without changing the exact bearer, predicate, scale, or admissible use. | Return to HCS only if the described holon family changed. Otherwise stay in ACS and rebind the row to the bearer and selected structure; an admitted Method remains its own holon, while a local kind or assignment retains its separate kind. |
 | `LocalGainHidesCounterLoss` | A candidate improves one row while worsening evidence burden, control burden, source-return cost, or functional adequacy. | Add monitored guardrail rows and open `E.13` when proxy-to-value drift appears before comparison or next synthesis. |
 | `ReadingAsDecision` | A better reading is treated as the selected architecture. | Keep the reading as feedback. Use `A.19.CPM` for explicit comparison, `A.19.SelectorMechanism` for set-returning selection, `C.11` for local choice, `G.5` for selected-set result declaration, and `C.32.PAD` for a project architecture decision. For publication, use `E.24.PUB` for the publication occurrence and audience availability, and E.17 when a source-backed face and source return are needed. |
 | `ContextLabelAsRowScope` | A domain, team, project, or bounded-context label is used as if it delimited every criterion row. | Bind each row's exact `U.ClaimScope`, selected A.2.6 context slices, scheme, applicable plane and any required window, preserving every declared selector; add a selected model-use structure only when it changes interpretation. |

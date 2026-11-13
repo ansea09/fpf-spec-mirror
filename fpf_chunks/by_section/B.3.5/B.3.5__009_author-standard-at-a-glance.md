@@ -6,12 +6,12 @@ section_id: "B.3.5:7"
 section_title: "Author Standard (at a glance)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.5/B.3.5__009_author-standard-at-a-glance.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.3.5 — Assurance Grounding for Working-Model Relation Claims (CT2R-LOG)"
   - "B.3.5:7 — Author Standard (at a glance)"
-line_start: 45564
-line_end: 45579
+line_start: 47446
+line_end: 47461
 dependencies:
   - "B.3"
   - "C.13"
@@ -23,13 +23,13 @@ keywords:
 
 When you add or import a relation edge:
 
-1. **Pick a Working-Model relation sentence** such as “Impeller ComponentOf Pump” or “Vehicle 12 belongs to Fleet North under its registration rule”; avoid raw `ut:PartOf` unless you are drafting meta-level axioms. If no current publication choice or requirement elects CT2R-LOG, publish that direct claim and stop.
+1. **Pick a Working-Model relation sentence** such as “Impeller ComponentOf Pump” or “Vehicle 12 belongs to Fleet North under its registration rule”; avoid raw `ut:PartOf` unless you are drafting meta-level axioms. If no publication choice or requirement elects CT2R-LOG, publish that claim and stop.
 
 2. **When CT2R-LOG is elected, attach `tv:groundedBy`**:
 
    * Structural parthood → the applicable current construction trace and `validationMode=axiomatic`.
    * Collection belonging under the collection's own rule → one current `C.13 set` trace and `validationMode=axiomatic`.
-   * Another permitted epistemic or constitutive claim → the evidence object, argument or qualifying C.13 account actually used, with its corresponding mode from :4.
+   * Another permitted epistemic or constitutive claim → the evidence object, argument or qualifying C.13 account used, with its corresponding mode from :4.
 3. **Declare the selected `tv:validationMode`** for every covered claim.
 
 

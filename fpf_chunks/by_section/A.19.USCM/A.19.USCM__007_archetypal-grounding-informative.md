@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.19.USCM"
-pattern_title: "Unified Scoring Mechanism, USCM"
+pattern_title: "Scoring Mechanism"
 section_id: "A.19.USCM:5"
 section_title: "Archetypal Grounding — informative"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.USCM/A.19.USCM__007_archetypal-grounding-informative.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.19.USCM — Unified Scoring Mechanism, USCM"
+  - "A.19.USCM — Scoring Mechanism"
   - "A.19.USCM:5 — Archetypal Grounding — informative"
-line_start: 38331
-line_end: 38360
+line_start: 39868
+line_end: 39897
 dependencies:
 keywords:
   - "CG-Spec.MinimalEvidence"
@@ -20,7 +20,7 @@ keywords:
   - "ScoringMethodDescription"
   - "score profile"
   - "scoring"
-  - "tri-state admissibility (pass"
+  - "tri-state admissibility (pass\\"
 ---
 
 ### A.19.USCM:5 - Archetypal Grounding — informative
@@ -29,10 +29,10 @@ keywords:
 
 Think of USCM as **admissibility‑gated scoring**:
 
-* Input: “an admitted profile of measures for this exact bearer, criteria, comparison basis, evidence policy and result use, with any scope or window that qualifies that use, plus the CN-Spec and CG-Spec editions that declare those bounds”
+* Input: “an admitted profile of measures for this bearer, criteria, comparison basis, evidence policy and result use, with any scope or window that qualifies that use, plus the CN-Spec and CG-Spec editions that declare those bounds”
 * Output: “a set of score measures that downstream steps may compare/select on”
 
-The key didactic boundary is: **USCM is allowed to transform measures only within the admissibility surface (SCP+CSLC), and it must not hide normalization, aggregation, or ordering.**
+**USCM is allowed to transform measures only within the admissibility surface (SCP+CSLC), and it must not hide normalization, aggregation, or ordering.**
 
 #### A.19.USCM:5.2 - Show — rollout-plan evaluation
 
@@ -51,5 +51,5 @@ A research lead compares several model families for deployment across heterogene
 
 * Indicators include calibration and robustness metrics; scoring is done using a calibrated probabilistic score plus uncertainty‑aware score dimensions.
 * A chosen scoring method may require monotonicity or interpretability, as in the additive and lattice examples below. A separate prediction-uncertainty account may supply an interval under its own method and conditions; its interval is not another name for a vector of score dimensions.
-* The declared score profile retains each score dimension and any justified uncertainty representation. Unknown input is not replaced by a point score. Downstream comparison explicitly handles the actual scalar, vector or interval meanings it consumes.
+* The declared score profile retains each score dimension and any justified uncertainty representation. Unknown input is not replaced by a point score. Downstream comparison explicitly handles the scalar, vector or interval meanings it consumes.
 

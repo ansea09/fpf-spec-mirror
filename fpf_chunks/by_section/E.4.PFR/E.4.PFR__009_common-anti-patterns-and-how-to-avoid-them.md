@@ -6,12 +6,12 @@ section_id: "E.4.PFR:7"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFR/E.4.PFR__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.4.PFR — Pattern-Framework Relation and Edition Discipline"
   - "E.4.PFR:7 — Common Anti-Patterns and How to Avoid Them"
-line_start: 96022
-line_end: 96037
+line_start: 101166
+line_end: 101181
 dependencies:
   - "A.10"
   - "A.6.0"
@@ -50,15 +50,15 @@ keywords:
 
 | Anti-pattern | What fails | Repair |
 | --- | --- | --- |
-| Related-pattern flattening | A relation list hides subject, function or predicate. | Recover the exact subject assertion first; add a relation-specific row only for a named PFR receiver. |
-| Mandatory row for every relation | Representation burden becomes an ontology and ordinary authoring becomes record-first. | Keep lane 1; open lane 2 only above its receiver threshold. |
-| Pattern owner or governor | A pattern locator becomes a semantic owner, authority, or relation participant. | Cite the exact defining or constraining ClaimGraph and state the subject assertion. |
-| Dependency as specialization | Edition reliance is read as child-pattern inheritance. | Use the exact dependency assertion; add a dependency-specific record only when a named dependency-impact or refresh receiver needs it, and state specialization separately if it also obtains. |
-| Compatibility folded into dependency | A dependency sentence or record carries `compatibilityBoundary` and makes one relation stand for two claims. | State dependency and pairwise compatibility separately; add only an optional ref from the dependency record when a named maintenance consumer needs the link. |
-| Compatibility by version label | An edition number is assumed to settle compatibility. | Inspect the exact pair, overlapping use, difference or interface, impact, and reopen condition; otherwise make no positive compatibility claim. |
+| Related-pattern flattening | A relation list hides subject, function or predicate. | Recover the subject assertion and its predicate first. Add a relation-specific row only for a named PFR receiver. |
+| Mandatory row for every relation | Representation burden becomes an ontology and ordinary authoring becomes record-first. | Use Lane 1. Open Lane 2 only above its receiver threshold. |
+| Pattern owner or governor | A pattern locator becomes a semantic owner, authority, or relation participant. | Cite the ClaimGraph that defines or constrains the relation and state the subject assertion. |
+| Dependency as specialization | Edition reliance is read as child-pattern inheritance. | Use the exact dependency assertion. Add a dependency-specific record only when a named dependency-impact or refresh receiver needs it, and state specialization separately if it also obtains. |
+| Compatibility folded into dependency | A dependency sentence or record carries `compatibilityBoundary` and makes one relation stand for two claims. | State dependency and pairwise compatibility separately. Add only an optional ref from the dependency record when a named maintenance consumer needs the link. |
+| Compatibility by version label | An edition number is assumed to settle compatibility. | Identify both editions in the pair and inspect the overlapping use, difference or interface, impact, and reopen condition. Otherwise make no positive compatibility claim. |
 | Generated graph as authority | A search or graph artifact decides relation meaning. | Apply C.35 when the exact generated or discovered result is to inform architecture work, and test the exact subject predicate independently. |
-| Callable route as dependency | A skill, endpoint, or assistant integration is treated as framework dependency, method order, permission, or Work. | State only the exact bounded access relation; keep runtime/tool/work/currentness claims separate. |
+| Callable route as dependency | A skill, endpoint, or assistant integration is treated as framework dependency, method order, permission, or Work. | State only the exact bounded access relation. Keep runtime/tool/work/currentness claims separate. |
 | Source prose as basis truth | "supports" is read as formal-premise use, evidence, or sufficiency. | Separate the source contribution and its bounded use from actual-use predicates, evidence, and candidate evaluation. For a contribution from a SoTA pack, use its G.2 source-use account. |
-| Silent conflict winner | One sufficient base overwrites another in the same cell. | Preserve both and record pairwise conflict; return `established-conflict` and open bounded E.9. |
+| Silent conflict winner | One sufficient base overwrites another in the same cell. | Preserve both and record pairwise conflict. Return `established-conflict` and open bounded E.9. |
 | Analysis as permission | A compatible or established family is treated as authorization or reliance. | Use the separate A.10/B.3 and authority/permission claims required by the attempted use. |
 

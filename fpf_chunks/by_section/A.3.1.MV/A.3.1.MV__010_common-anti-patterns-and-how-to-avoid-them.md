@@ -6,12 +6,12 @@ section_id: "A.3.1.MV:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MV/A.3.1.MV__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.3.1.MV — Construct and Maintain a Method Variant"
   - "A.3.1.MV:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 11163
-line_end: 11172
+line_start: 11564
+line_end: 11573
 dependencies:
   - "A.3.1"
   - "A.3.1.MI"
@@ -28,6 +28,6 @@ keywords:
 | “Version 2.1 is a new Method variant.” | Show the changed reusable Method semantics or maintain an edition only. |
 | “The team adapted it, so the variant is admitted.” | Preserve the Work evidence and candidate account until independent admission. |
 | “The prompt changed, so the Method changed.” | Recover the reusable semantics expressed by the prompt. Use A.3.1 to decide whether Method identity changed; maintain any separate support change under its own pattern. |
-| “The hybrid inherits evidence from all three parent Methods.” | Preserve the hybrid’s actual admission status and bind each relied-on result to the hybrid’s own semantics and situation. Select a trial when its useful attainable answer warrants its full burden. |
+| “The hybrid inherits evidence from all three parent Methods.” | Preserve the hybrid’s admission status and bind each relied-on result to the hybrid’s own semantics and situation. Select a trial when its useful attainable answer warrants its full burden. |
 | “Retired means obsolete everywhere.” | Name the selection use and defeating condition; preserve other supported uses and history. |
 

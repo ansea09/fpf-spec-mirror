@@ -6,12 +6,12 @@ section_id: "E.8.ECSPF:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8.ECSPF/E.8.ECSPF__006_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.8.ECSPF — Author an FPF Pattern from an Accepted Evaluation CharacteristicSpace Specification"
   - "E.8.ECSPF:5 — Archetypal Grounding"
-line_start: 97986
-line_end: 98025
+line_start: 103535
+line_end: 103580
 dependencies:
   - "A.19.ECS"
   - "C.25"
@@ -28,7 +28,7 @@ keywords:
 
 ### E.8.ECSPF:5 - Archetypal Grounding
 
-Guidance based on an evaluation `CharacteristicSpace` becomes reusable in FPF only when a practitioner can recognize the evaluated object and use before reading the coordinate table. The publication form must teach the evaluation use, not merely list the values. The following slice shows the author's move from an accepted specification to practitioner-facing content.
+Guidance based on an evaluation `CharacteristicSpace` becomes reusable in FPF only when a practitioner can recognize the evaluated object and use before reading the coordinate table. The publication form must teach practitioners how to carry out the evaluation. A list of values alone is insufficient. The following slice shows the author's move from an accepted specification to practitioner-facing content.
 
 **Accepted specification.** An author has an accepted `EvaluationCharacteristicSpaceSpec` for one version of a field-service handover instruction.
 
@@ -47,7 +47,7 @@ Guidance based on an evaluation `CharacteristicSpace` becomes reusable in FPF on
 
 > Use this pattern when you must decide whether a field-service handover instruction is ready for a supervised first use by a maintenance lead who did not write it. Use it only for the named equipment configuration and safety-procedure edition. First give the current instruction to that reader and ask them to identify the first move and the condition that requires stopping or escalation. A spare-parts catalogue is outside this evaluation.
 
-These lines carry the selected object kind, use, reader, qualification window, first move, and wrong-kind boundary. Merely writing “see `A.19.ECS`” would not.
+These lines carry the selected object kind, use, reader, qualification window, first move, and wrong-kind boundary. The citation “see `A.19.ECS`” alone would not convey them.
 
 **Minimal Solution and result form.** The pattern then tells the practitioner to use the current instruction version, observe the cold-reader trial, judge both coordinates from their stated value meanings, and record both coordinate results. For example:
 
@@ -56,13 +56,19 @@ These lines carry the selected object kind, use, reader, qualification window, f
 | `FirstMoveRecoverability` | `2` | `1` would understate independent recovery; no higher value exists. | Opening instruction and observed first move. | checked |
 | `HazardBoundaryVisibility` | `1` | `0` would ignore the recoverable safety reference; `2` would overstate visibility before action. | Safety reference after the first action. | checked |
 
-The returned status is `repair`, because one coordinate remains below its declared ready value. If both checked rows were `2`, the instruction would reach `ready for supervised use`; a spare-parts catalogue would return to evaluation selection before these rows were opened. A simple `A.10` citation is enough to locate the evidence-use discipline for this ordinary case; a particular assertion or `ClaimGraph` is needed only if later interpretation or reuse depends on that identity.
+The returned status is `repair`, because one coordinate remains below its declared ready value. If both checked rows were `2`, the instruction would reach `ready for supervised use`; a spare-parts catalogue would return to evaluation selection before these rows were opened.
 
-**Near miss, proxy improvement.** An editor shortens the instruction so the first move is easier to find, but deletes the visible stop condition. `FirstMoveRecoverability` rises to `2` while `HazardBoundaryVisibility` falls to `0`. The author must not add or average those ordinal values and call the rewrite better. The protected safety trade-off has been lost, so the pattern returns `repair` and the accepted specification must be reopened if its current status rule would reward that rewrite.
+A simple `A.10` citation is enough to locate the evidence-use discipline for this ordinary case; identify the assertion or `ClaimGraph` only if later interpretation or reuse depends on its identity.
+
+**Near miss, proxy improvement.** An editor shortens the instruction so the first move is easier to find, but deletes the visible stop condition. `FirstMoveRecoverability` rises to `2` while `HazardBoundaryVisibility` falls to `0`.
+
+The author must not add or average those ordinal values and call the rewrite better. The protected safety trade-off has been lost, so the pattern returns `repair` and the accepted specification must be reopened if its current status rule would reward that rewrite.
 
 **Pattern-quality evaluation.** `E.21` is an evaluation for one FPF pattern version. Its publication form must still open with the working question "is this pattern good enough for the declared use?" before showing coordinates such as first-action recoverability, boundary fit, and SoTA binding.
 
 **Local rubric.** A project team defines a temporary rubric for choosing a meeting room. The `A.19.ECS` specification may be adequate locally, but no durable FPF pattern is needed because the evaluated object kind and use do not recur across FPF practice.
 
-**Object-kind boundary.** A nuclear-plant evaluation can judge nuclear plants and declared comparable power-generation alternatives. A plant inspection report can supply evidence about the plant but is outside that evaluated-object kind: before the evaluation is opened, select a suitable evaluation; after a forced invocation, record an object-kind-fit defect/value rather than treating it as a weak nuclear plant or skipping declared coordinates. The pattern publication form must show that boundary before readers try to use the coordinate table.
+**Object-kind boundary.** A nuclear-plant evaluation can judge nuclear plants and declared comparable power-generation alternatives. A plant inspection report can supply evidence about the plant but is outside that evaluated-object kind: before the evaluation is opened, select a suitable evaluation; after a forced invocation, record an object-kind-fit defect/value rather than treating it as a weak nuclear plant or skipping declared coordinates.
+
+The pattern publication form must show that boundary before readers try to use the coordinate table.
 

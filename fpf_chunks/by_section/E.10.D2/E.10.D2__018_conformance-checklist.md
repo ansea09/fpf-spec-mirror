@@ -6,12 +6,12 @@ section_id: "E.10.D2:17"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__018_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:17 — Conformance checklist"
-line_start: 102697
-line_end: 102713
+line_start: 108491
+line_end: 108507
 dependencies:
   - "A.7"
   - "C.2.1"
@@ -46,7 +46,7 @@ keywords:
 | **CC-D2-6** | Are grounding, view, scope, model-use structure, evidence, assurance, edition, currentness, publication, carrier, and representation opened only when the receiving use depends on their direct relation? |
 | **CC-D2-7** | Are publication occurrence, form, carrier, representation, file, dashboard and work-record uses recovered under their own rules, and is `U.View` membership a separately established property of the same episteme rather than another identity? |
 | **CC-D2-8** | Is current prose free of peer-layer I-D-S vocabulary, `intensional object`, `DescribedEntity*`, `EntityOfInterest`, `EoI`, `EoIClass`, mandatory context recursion, and a local DescriptionContext tuple? |
-| **CC-D2-9** | Is the word `plane` absent for this distinction, with `ReferencePlane` reserved for a subject pattern such as CHR that actually defines it? |
+| **CC-D2-9** | Is the word `plane` absent for this distinction, with `ReferencePlane` reserved for a subject pattern such as CHR that defines it? |
 | **CC-D2-10** | Is wording about the “role” of a description, source, standard, requirement, evidence item, publication, dashboard, or view resolved to its exact typed use rather than a spurious `U.SystemRoleAssignment`? |
 | **CC-D2-11** | Do systems perform work while epistemes carry claims, and are statuses, gate verdicts, permission, acceptance, assurance, and runtime state kept under their subject patterns? |
 | **CC-D2-12** | Does the application stop at the smallest sufficient result or return one exact missing-fact or missing-governor blocker? |

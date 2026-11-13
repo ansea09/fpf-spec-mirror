@@ -6,12 +6,12 @@ section_id: "C.11:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11/C.11__011_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.11 — Decision Theory (Decsn-CAL)"
   - "C.11:10 — Rationale"
-line_start: 57346
-line_end: 57357
+line_start: 59676
+line_end: 59687
 dependencies:
   - "A.10"
   - "A.13"
@@ -54,11 +54,11 @@ keywords:
 
 A live option set and a live choice among that set are not the same question as generating options, governing a candidate pool, or sequencing execution. Keeping that distinction explicit is what makes the doctrine usable rather than ceremonial.
 
-`DecisionSubject` is the better default chooser term because decision theory often applies to persons, teams, organizations, and other system-bearing collectivities. `Agent` remains useful, but only when an explicit agency claim is actually being made.
+`DecisionSubject` is the better default chooser term because decision theory often applies to persons, teams, organizations, and other system-bearing collectivities. `Agent` remains useful, but only when an explicit agency claim is being made.
 
 A minimal mathematical floor is necessary because choice doctrine without one stable object stack quickly turns into verbal drift. But a pattern also fails if it keeps only the object names and never shows how those objects discipline an actual choice. That is why `Solution` here is procedural: it must carry the path from `OptionSet` through one `ChoiceRule` to one `ChoiceResult`, including the stop-or-probe decision, rather than only one survey of neighboring theories.
 
 The receiving work can use the selected option, retained alternatives or next probe together with the grounds and limits of that choice.
 
-At the same time, this pattern should not pretend that one full quantum-like or geometry-heavy package is already settled just because those neighboring lines are real.
+At the same time, this pattern should not treat a full quantum-like or geometry-heavy package as settled merely because those neighboring lines exist.
 

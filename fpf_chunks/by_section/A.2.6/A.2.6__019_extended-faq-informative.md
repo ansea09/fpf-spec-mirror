@@ -6,12 +6,12 @@ section_id: "A.2.6:18"
 section_title: "Extended FAQ (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__019_extended-faq-informative.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Test Scope Membership and Combine Scopes"
   - "A.2.6:18 — Extended FAQ (informative)"
-line_start: 7419
-line_end: 7449
+line_start: 7742
+line_end: 7773
 dependencies:
   - "A.1.1"
   - "A.15.1"
@@ -53,6 +53,7 @@ First decide what “latest” is doing. If it means that evidence or data must 
 
 **Q7. How do we use a scope with differently named slice selectors?**
 First resolve whether the designations refer to the same values under the effective reference scheme. If exact local senses differ and membership must be expressed across them, name the obtaining F.9 Bridge. Then state the separate affirmative C.2.1 claim for the proposed translation's direction, mapping rule, and tolerated loss, establish the exact A.10 or B.3 reliance branch, and evaluate the scope returned by `deriveTranslatedScope`.
+
 **Q8. What about abstraction level or detail?**
 Keep **AT (AbstractionTier)** and **D (Detail and Resolution)** as orthogonal, optional annotations. They never substitute for **Claim scope** or **Work scope**.
 

@@ -6,12 +6,12 @@ section_id: "G.10:2"
 section_title: "Problem — Failures of reuse, legality and refresh"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.10/G.10__003_problem-failures-of-reuse-legality-and-refresh.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.10 — SoTA Pack Shipping"
   - "G.10:2 — Problem — Failures of reuse, legality and refresh"
-line_start: 131689
-line_end: 131699
+line_start: 139776
+line_end: 139786
 dependencies:
   - "A.10"
   - "A.15.3"

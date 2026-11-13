@@ -6,12 +6,12 @@ section_id: "C.32.ADR:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ADR/C.32.ADR__011_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.32.ADR — Architecture Decision Record Projection"
   - "C.32.ADR:10 — Rationale"
-line_start: 80331
-line_end: 80338
+line_start: 84160
+line_end: 84167
 dependencies:
   - "A.10"
   - "A.15"
@@ -46,7 +46,7 @@ keywords:
 
 ADR practice is valuable when it makes architectural decisions communicable and revisitable. It becomes weak when a record is treated as the decision itself or when a template substitutes for decision work.
 
-C.32.ADR therefore uses the record as a projection. `C.32.PAD` governs the decision relation; the record publishes its description for a declared reader. Drafting can help develop that decision without establishing it by itself. This preserves the strongest ADR practice, small and updateable records, while adding FPF kind control for architecture descriptions, method descriptions, evidence, assurance, gate, publication, and performed work.
+C.32.ADR therefore uses the record as a projection. `C.32.PAD` governs the decision relation; the record publishes its description for a declared reader. Drafting can help develop that decision without establishing it by itself. This preserves the ADR practice of keeping records small and updateable, while adding FPF kind control for architecture descriptions, method descriptions, evidence, assurance, gate, publication, and performed work.
 
 The pattern also generalizes ADR practice beyond software by using section functions rather than software-specific carrier assumptions. A record can be a Markdown file, engineering memo, or certification rationale if it projects the decision description and keeps receiving claims with their subject patterns.
 

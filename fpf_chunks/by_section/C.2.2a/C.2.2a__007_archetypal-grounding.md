@@ -6,12 +6,12 @@ section_id: "C.2.2a:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2a/C.2.2a__007_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.2.2a — Language-State Chart over U.CharacteristicSpace"
   - "C.2.2a:5 — Archetypal Grounding"
-line_start: 52972
-line_end: 52978
+line_start: 55189
+line_end: 55195
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -47,7 +47,7 @@ keywords:
 ### C.2.2a:5 - Archetypal Grounding
 **Tell.** One note can be used in an operator's acknowledgement procedure yet still have low closure. Another can report an architecture document's assertions in symbolic form while its route choice remains open. Both notes have positions in one language-state chart, but not on one maturity progression.
 
-**Show (System).** A service disturbance is a system-side phenomenon. The positioned governed `U.Episteme` publication is the alerting episteme published from that disturbance. In `Pump-alert-21` (:13.2), its position combines declared observation terms and unit-bearing values, `CD1`, and local/sparse/symbolic readings for the defined indicator code. The account separately states the operator acknowledgement and diagnostic-check condition.
+**Show (System).** A service disturbance is a system-side phenomenon. The positioned `U.Episteme` publication is the alerting episteme published from that disturbance. In `Pump-alert-21` (:13.2), its position combines declared observation terms and unit-bearing values, `CD1`, and local/sparse/symbolic readings for the defined indicator code. The account separately states the operator acknowledgement and diagnostic-check condition.
 
-**Show (Episteme).** A model-vs-observation discrepancy is a witness-level tension, not the positioned episteme publication itself. Once preserved as a cue pack, the resulting governed `U.Episteme` may be low in articulation, low in closure, derived from an identified trace, and only partly symbolic even when rendered into prose.
+**Show (Episteme).** A model-vs-observation discrepancy is a witness-level tension, not the positioned episteme publication itself. Once preserved as a cue pack, the resulting `U.Episteme` may be low in articulation, low in closure, derived from an identified trace, and only partly symbolic even when rendered into prose.
 

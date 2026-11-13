@@ -6,12 +6,12 @@ section_id: "C.3.1:5"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__007_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.3.1 — Kind Identity and Subkind Relations (U.Kind and U.SubkindOf)"
   - "C.3.1:5 — Solution"
-line_start: 55295
-line_end: 55306
+line_start: 57581
+line_end: 57592
 dependencies:
   - "A.1"
   - "A.11"
@@ -52,5 +52,5 @@ keywords:
 6. **Separate relation, predicate, and assertion.** Use the readable relation sentence first. Add `R_sub`, a C.2.1 assertion, evidence, or publication only when a named receiver consumes that object.
 7. **Diagnose counterexamples at the rule.** Repair a false relation proposal, incompatible declaration alignment, or missing distinct-kind bridge. Do not edit an extension row to make the order appear true.
 8. **Decide kind continuity independently.** Apply the before/after test in section 6 whenever criterion, candidate domain, assumptions, dependencies, effective scheme, or locality changes. Another `KindSignature` edition neither proves nor denies kind continuity.
-9. **Keep scope and Work outside the kind.** A kind carries no claim scope. An exact `W : U.Work` remains a dated work occurrence under its direct pattern; keep it distinct from a plan, log, label, classification record, or episteme about W.
+9. **Keep scope and Work outside the kind.** A kind carries no claim scope. A `W : U.Work` remains a dated work occurrence under its direct pattern; keep it distinct from a plan, log, label, classification record, or episteme about W.
 

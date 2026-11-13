@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.2.2"
-pattern_title: "Meta-System Transition: Test the Proposed New Whole as a System"
+pattern_title: "Test the Proposed New Whole as a System"
 section_id: "B.2.2:5"
 section_title: "Archetypal Grounding (Worked Cases)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.2/B.2.2__007_archetypal-grounding-worked-cases.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "B.2.2 — Meta-System Transition: Test the Proposed New Whole as a System"
+  - "B.2.2 — Test the Proposed New Whole as a System"
   - "B.2.2:5 — Archetypal Grounding (Worked Cases)"
-line_start: 44087
-line_end: 44111
+line_start: 45867
+line_end: 45893
 dependencies:
   - "A.1"
   - "A.10"
@@ -44,20 +44,22 @@ keywords:
 
 #### B.2.2:5.1 - Search-And-Rescue Swarm
 
-Before MHT, the project has individual drones with local navigation and maintenance records. After MHT, the current object may be one search-and-rescue swarm if the result whole has its own mission objective, coordination relation, external command relation, capability envelope, and swarm-level risks.
+Before MHT, the project has individual drones with local navigation and maintenance records. After MHT, the object may be one search-and-rescue swarm if the result whole has its mission objective, coordination relation, external command relation, capability envelope, and swarm-level risks.
 
 - **Candidate new whole:** the search-and-rescue swarm named by B.2.
-- **A.1 basis:** exact drone constituents, obtaining formation and coverage-coordination relations, the governed swarm assembly, the swarm reidentification rule, and the whole-level area-search characteristic; its boundary, command and mission interfaces, operating characteristics, and identity-preservation conditions also fit the applicable larger rescue-system construction rule.
-- **System criterion:** the swarm has acting eligibility. This case also has its own command-and-operating-area delimitation, mission objective, coordination relations, and external commitments.
+- **A.1 basis:** drone constituents, obtaining formation and coverage-coordination relations, the governed swarm assembly, the swarm reidentification rule, and the whole-level area-search characteristic; its boundary, command and mission interfaces, operating characteristics, and identity-preservation conditions also fit the applicable larger rescue-system construction rule.
+- **System criterion:** the swarm has acting eligibility. This case also has its command-and-operating-area delimitation, mission objective, coordination relations, and external commitments.
 - **Assurance:** swarm-level tests support claims about the candidate; individual drone certificates remain component evidence. Their contribution to a swarm-level claim depends on that claim and the evidence's applicability.
 
 The old drone evidence remains relevant, but it is not enough for the swarm-level assurance claim.
 
 #### B.2.2:5.2 - Cloud Platform
 
-Consider independent services proposed as one platform with a shared control plane, system-level SLO, deployment and rollback coordination, platform-level evidence, and external commitments. Establish those case facts under their direct patterns and test the proposed whole under :4.1.
+Consider independent services proposed as one platform with a shared control plane, system-level SLO, deployment and rollback coordination, platform-level evidence, and external commitments. Establish those case facts under their patterns and test the proposed whole under :4.1.
 
-If a better dashboard or an additional service is sufficiently explained as a change of the existing whole under its identity rule, use the relevant architecture-description, publication, measurement, or component pattern. Use B.2.2 when B.2 identifies the operating platform itself as the exact candidate new whole to be tested under A.1 and the direct `U.System` criterion. Claim a system result only after those tests pass; retain a failed or unresolved evaluation under :4.1.
+If a better dashboard or an additional service is sufficiently explained as a change of the existing whole under its identity rule, use the relevant architecture-description, publication, measurement, or component pattern.
+
+Use B.2.2 when B.2 identifies the operating platform as the candidate new whole to be tested under A.1 and the `U.System` criterion. Claim a system result only after those tests pass; retain a failed or unresolved evaluation under :4.1.
 
 #### B.2.2:5.3 - Production Cell
 

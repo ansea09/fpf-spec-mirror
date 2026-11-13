@@ -6,12 +6,12 @@ section_id: "A.6.1:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.1/A.6.1__010_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.1 — U.Mechanism - Reusable Law-Governed Operation Declaration"
   - "A.6.1:9 — Consequences"
-line_start: 17096
-line_end: 17112
+line_start: 17891
+line_end: 17907
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -62,7 +62,7 @@ keywords:
 
 **Costs and trade-offs.**
 
-- Authors recover the declared subject, effective reference scheme, and exact applicability rather than relying on one context label.
+- Authors recover the declared subject, effective reference scheme, and applicability rather than relying on one context label.
 - A realization claim may need a separate relation and evidence-use statement.
 - Mechanism comparison may require explicit mappings among operation argument and result declarations and a C.29 lens.
 - Some familiar single-score or implicit-latest practices become unusable until their scale, scorer, or time policy is stated.

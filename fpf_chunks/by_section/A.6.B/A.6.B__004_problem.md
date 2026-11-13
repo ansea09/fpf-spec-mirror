@@ -6,12 +6,12 @@ section_id: "A.6.B:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__004_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:2 — Problem"
-line_start: 14687
-line_end: 14700
+line_start: 15142
+line_end: 15155
 dependencies:
   - "A.10"
   - "A.2.3"
@@ -48,7 +48,7 @@ keywords:
   - "The key words MUST"
   - "accountable norms and grants"
   - "actual exercise"
-  - "an individual-duty D- claim MUST name its actual bearer and exact separately obtaining U.Commitment"
+  - "an individual-duty D- claim MUST name its actual bearer and separately obtaining U.Commitment"
   - "and SHALL have their RFC 2119/8174 meanings only when capitalized as shown"
   - "and evaluated results distinct"
   - "as if it were an agent obligation"
@@ -79,12 +79,12 @@ keywords:
 When authors cannot reliably answer two questions—
 
 1. “What does this claim contribute: meaning, an admission condition, normative content or a deontic position, or an occurrence/evidence account?”
-2. “What grounds are needed to settle this exact claim?”
+2. “What grounds are needed to settle this claim?”
 
 —then boundary statements drift across layers, faces fork semantics, and “compliance” becomes a matter of interpretation rather than a property that can be checked.
 
 A boundary needs a minimal, stable classification that:
 
 * classifies every **atomic** statement into a unique quadrant, and
-* forces any cross‑quadrant dependencies to be **explicitly referenced**, not smuggled by paraphrase.
+* requires any cross‑quadrant dependencies to be **explicitly referenced**.
 

@@ -6,12 +6,12 @@ section_id: "F.17:14"
 section_title: "Closure conditions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__018_closure-conditions.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.17 — Make a Settled Naming Decision Recoverable for Reuse (Unified Term Sheet)"
   - "F.17:14 — Closure conditions"
-line_start: 125115
-line_end: 125131
+line_start: 133022
+line_end: 133038
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -37,7 +37,6 @@ dependencies:
   - "F.10"
   - "F.14"
   - "F.15"
-  - "F.17"
   - "F.18"
   - "F.2"
   - "F.3"
@@ -47,7 +46,6 @@ dependencies:
   - "F.7"
   - "F.8"
   - "F.9"
-  - "G.11"
 keywords:
 ---
 
@@ -60,7 +58,7 @@ One row is ready for its declared citation use only when:
 - the exact F.18 NameCard, selected Tech designation and any Plain designation are current for this public-row gate;
 - every `SchemeSenseCell` resolves to one by-value ReferenceScheme, local expression, and local-sense claim;
 - every relied-on local-sense basis is an actual two-participant `LocalSenseBasisRelation` and every description/source/publication object remains separate;
-- any cross-local use cites an obtaining F.9 Bridge for the exact endpoints, then a separate affirmative use claim and current A.10 or B.3 reliance;
+- any row use that relies on semantic correspondence between different local meanings cites an obtaining F.9 Bridge for the exact endpoints, a separate affirmative use claim and current A.10 reliance for that use or, when a named assurance claim is needed, the corresponding B.3 assurance result;
 - the row has one decision, an admitted citation use, any grounded blocked-use claim, an edition designator, and a reopen condition;
 - any historical continuation is an exact C.2.1 `EpistemeEditionRelation` rather than shared id or title;
 - any claimed availability has E.24.PUB grounds at the granularity asserted; an ordinary availability statement is sufficient when no finer identity or change question is current; and

@@ -6,12 +6,12 @@ section_id: "A.19:End"
 section_title: "A.19:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19/A.19__015_a-19-end.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.19 — CharacteristicSpace: Coordinates, State Predicates and Dynamics Hook (A.CHR‑SPACE)"
   - "A.19:End — A.19:End"
-line_start: 35009
-line_end: 35010
+line_start: 36489
+line_end: 36490
 dependencies:
   - "A.10"
   - "A.15"

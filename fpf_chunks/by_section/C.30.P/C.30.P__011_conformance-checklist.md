@@ -6,12 +6,12 @@ section_id: "C.30.P:8"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.P/C.30.P__011_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.30.P — Clarify Architecture and Structure Wording (Precision Restoration)"
   - "C.30.P:8 — Conformance checklist"
-line_start: 72948
-line_end: 72959
+line_start: 76070
+line_end: 76081
 dependencies:
   - "A.10"
   - "A.15"
@@ -64,7 +64,7 @@ keywords:
 | --- | --- |
 | `CC-C30P-1` | The repaired span makes its object, claim and useful conclusion recoverable. Name the subject pattern for any unresolved substantive question and state a blocked interpretation only when it changes the use; a separate repair record is optional. |
 | `CC-C30P-2` | A diagram, model, graph, dashboard, ADR, source, publication, view, face, `PublicationUnit`, file, carrier, or rendering is not treated as architecture or structure by appearance. |
-| `CC-C30P-3` | Direct `A.22`, `C.30`, `C.30.ASV`, or named `C.30.*` use applies the subject pattern directly when the selected-structure claim being made, architecture relation, architecture-description use, structural-view use, or named C.30 subcase is already recoverable. |
+| `CC-C30P-3` | Use `A.22`, `C.30`, `C.30.ASV`, or a named `C.30.*` pattern directly when the selected-structure claim being made, architecture relation, architecture-description use, structural-view use, or named C.30 subcase is already recoverable. |
 | `CC-C30P-4` | Source-use, currentness, and publication-to-carrier relation recovery uses `C.2.P` before architecture or structure claim use only while the relevant distinction remains hidden; an already recovered claim goes directly to its subject pattern. |
 | `CC-C30P-5` | Function-like, relation-like, mathematical-lens, characteristic and scale, quality, evidence, assurance, gate, work, decision, causal-use, release, and method claims are assigned to their subject patterns. |
 | `CC-C30P-6` | The repair does not mint `U.Architecture`, `ArchitectureStructure`, a generic architecture head, or mandatory architecture-repair record. |

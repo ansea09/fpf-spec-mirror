@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.19.SelectorMechanism"
-pattern_title: "Unified Selection Kernel, SelectorMechanism"
+pattern_title: "Selection Kernel"
 section_id: "A.19.SelectorMechanism:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SelectorMechanism/A.19.SelectorMechanism__012_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.19.SelectorMechanism — Unified Selection Kernel, SelectorMechanism"
+  - "A.19.SelectorMechanism — Selection Kernel"
   - "A.19.SelectorMechanism:10 — Rationale"
-line_start: 39503
-line_end: 39513
+line_start: 41081
+line_end: 41091
 dependencies:
   - "A.19.CHR"
   - "A.19.CN"

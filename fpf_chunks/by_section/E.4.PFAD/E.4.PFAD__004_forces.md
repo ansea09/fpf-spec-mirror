@@ -6,12 +6,12 @@ section_id: "E.4.PFAD:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFAD/E.4.PFAD__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.4.PFAD — Principle-Framework Architecture Decision"
   - "E.4.PFAD:3 — Forces"
-line_start: 94273
-line_end: 94288
+line_start: 98952
+line_end: 98967
 dependencies:
   - "A.15.1"
   - "A.22"
@@ -55,11 +55,11 @@ keywords:
 
 | Force | Tension |
 | --- | --- |
-| Discoverability | Authors need a recognizable framework question, but a locator must not become another decision object. |
+| Discoverability | Authors need to recognize the framework question. Giving it a locator must not create another decision object. |
 | Framework scale | A narrow pattern set can be useful, but a broad public framework needs connected problem-family coverage, a first use that does not depend on unpublished authoring context, and a stated reason for later refresh rather than a pattern count. |
 | Several structures | A decision needs one coherent practice-architecture answer, but Method, Work, subject, description, capability, provider, and cultural structures need not line up one-for-one. |
 | Decision memory | Later work needs rationale and consequences, but the DRR is not the accepted answer, performed authoring, or framework edition. |
-| Framework detail | Edition, dependency, pattern placement, relations, omissions, the sources that later authors must be able to revisit, and publication consequences matter, but unrelated quality, naming, and package apparatus must stay conditional. |
+| Framework detail | Edition, dependency, pattern placement, relations, omissions, the sources that later authors must be able to revisit, and publication consequences matter. Add quality, naming, and package details only when the decision or a named use needs them. |
 | Cheap exit | A suitable non-framework product, small access result, or existing-framework contribution may solve the immediate problem without a framework decision. |
 | Relation precision | Initial pattern relations may shape the architecture, but a row or schema does not make those relations obtain. |
 | Evolution | The answer needs a reopen condition without turning every refresh concern into a mandatory field. |

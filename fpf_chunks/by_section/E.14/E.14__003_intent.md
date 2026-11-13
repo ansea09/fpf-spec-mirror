@@ -6,12 +6,12 @@ section_id: "E.14:1"
 section_title: "Intent"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__003_intent.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.14 — Human-Centric Working-Model: Readable Claims and Recoverable Assurance"
   - "E.14:1 — Intent"
-line_start: 105259
-line_end: 105263
+line_start: 111613
+line_end: 111623
 dependencies:
   - "B.3.5"
   - "C.13"
@@ -25,5 +25,11 @@ keywords:
 ### E.14:1 - Intent
 
 Establish a **single, human-centric Working-Model** that practitioners can read, discuss, and evolve **without first reading the full assurance account**.
-A direct Working-Model statement needs no assurance field simply because it is published. When a publication elects `B.3.5` or another named current assurance requirement applies, declare its posture and supply the support its branch requires. Under `B.3.5`, covered claims declare `validationMode`: structural claims carry their required construction account; a permitted `postulate` links an admissible evidence object and states scope and challenge cues; an `inferential` claim links a followable argument. These supports justify or challenge the claim without creating its subject or relation. Recover the Work, result, provenance and currentness facts consumed by the reliance, following §5.5. Assurance remains beneath the readable claim.
+Publication alone does not require an assurance field on a direct Working-Model statement.
+
+When a publication elects `B.3.5` or another named current assurance requirement applies, declare its posture and supply the support its branch requires.
+
+Under `B.3.5`, covered claims declare `validationMode`: structural claims carry their required construction account; a permitted `postulate` links an admissible evidence object and states scope and challenge cues; an `inferential` claim links a followable argument.
+
+These supports justify or challenge the claim without creating its subject or relation. Recover the Work, result, provenance and currentness facts consumed by the reliance, following §5.5. Assurance remains beneath the readable claim.
 

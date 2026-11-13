@@ -6,12 +6,12 @@ section_id: "E.18.1:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__007_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.18.1 — P2W Problem-to-Work Carry-Through"
   - "E.18.1:6 — Bias-Annotation"
-line_start: 111323
-line_end: 111332
+line_start: 118275
+line_end: 118284
 dependencies:
   - "A.15"
   - "A.15.PROD"
@@ -54,11 +54,11 @@ keywords:
 
 ### E.18.1:6 - Bias-Annotation
 
-Lenses tested: **Gov**, **Arch**, **Ontological and epistemic**, **Prag**, **Did**. Scope: **accepted problem-side record plus carried distinction moving toward FPF applications**.
+These five lenses were tested: **Gov**, **Arch**, **Ontological and epistemic**, **Prag**, **Did**. Scope: **accepted problem-side record plus carried distinction moving toward FPF applications**.
 
 - **Governance bias (Gov):** permission, gate, release, assurance, and decision cues remain local cues until the relation and participants are stated: an `A.2.8.PER` permission result, `A.21 GateDecision`, `A.15.1` release `U.Work` occurrence plus any required named subject release predicate, `B.3` assurance result, or direct decision result. The word `authorization` supplies none of them.
 - **Architectural bias (Arch):** diagrams, selected structures, and module-interface language help formulate the next relation question; they do not replace the accepted claim, receiving use, separately identified viewpoint or model-use participant, applicable pattern contribution, or returned result.
-- **Ontological and epistemic bias:** a source publication, diagram, compact note, or formal declaration remains separate from the subject EntityOfConcern and from the relation or result claimed through the particular pattern contribution used for the current question.
+- **Ontological and epistemic bias:** a source publication, diagram, compact note, or formal declaration remains separate from the subject EntityOfConcern and from the relation or result claimed through the pattern contribution used for the current question.
 - **Pragmatic bias (Prag):** the carry-through structure is useful for action without becoming a prescribed project procedure.
-- **Didactic bias (Did):** the local P2W mantra and positive carry-through structure come before the heavier relation aids, so precision does not bury the working P2W application.
+- **Didactic bias (Did):** the local P2W mantra and positive carry-through structure show how to use P2W before the reader needs the more detailed relation aids.
 

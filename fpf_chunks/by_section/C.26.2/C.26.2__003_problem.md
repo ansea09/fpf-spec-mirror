@@ -6,12 +6,12 @@ section_id: "C.26.2:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.2/C.26.2__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.26.2 — Enacted Distributed State Evidence"
   - "C.26.2:2 — Problem"
-line_start: 66298
-line_end: 66305
+line_start: 69294
+line_end: 69301
 dependencies:
   - "A.10"
   - "A.15"
@@ -41,5 +41,5 @@ Teams often need to talk about latent alignment, readiness, market posture, serv
 
 One option is unsupported collective-state language: "the organization knows", "the culture decided", "the market wants", or "the service mesh understands", used as if the wording established the state. The other option is false reduction: a survey answer, policy sentence, dashboard, or report is treated as the whole state.
 
-Both fail. Coordinated behavior may evidence a real working state, but it does not automatically identify a durable mind, internal representation, causal mechanism, or faithful-enough export for the intended use.
+Both fail. Coordinated behavior may evidence a working state, but it does not automatically identify a durable mind, internal representation, causal mechanism, or faithful-enough export for the intended use.
 

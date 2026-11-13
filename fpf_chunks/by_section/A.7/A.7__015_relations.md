@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.7"
-pattern_title: "Strict Distinction: Repair Conflations of FPF Objects (Clarity Lattice)"
+pattern_title: "Distinction: Repair Conflations of FPF Objects (Clarity Lattice)"
 section_id: "A.7:13"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__015_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.7 — Strict Distinction: Repair Conflations of FPF Objects (Clarity Lattice)"
+  - "A.7 — Distinction: Repair Conflations of FPF Objects (Clarity Lattice)"
   - "A.7:13 — Relations"
-line_start: 25801
-line_end: 25807
+line_start: 26722
+line_end: 26728
 dependencies:
   - "A.1"
   - "A.10"
@@ -46,8 +46,8 @@ keywords:
 
 ### A.7:13 - Relations
 
- **Builds on:** A.1 (Holon), A.2 and A.2.1 (system-role kinds and system-role-assignment relations), A.3.1/A.3.2/A.3.4 (Method, MethodDescription, Transformation), A.10 (evidence-provenance, carrier, and source-currentness relations), A.14 (Advanced Mereology), A.15/A.15.1/A.15.2 (System-Role–Method–Work, Work, and WorkPlan Alignment).
+ **Builds on:** A.1 (Holon), A.2 and A.2.1 (system-role kinds and system-role-assignment relations), A.3.1/A.3.2/A.3.4 (Method, MethodDescription, Transformation), A.10 (evidence-provenance, carrier, and source-currentness relations), A.14 (Mereology), A.15/A.15.1/A.15.2 (System-Role–Method–Work, Work, and WorkPlan Alignment).
 * **Constrains:** A.13 (Agency sits on systems only; epistemes non-behavioural), B.1.2:4 system-aggregation and delimitation decisions, B.1.5 Method composition, B.1.4 temporal aggregation, and B.1.6 Work-resource aggregation. These uses preserve the System, Method, Work, and Episteme distinctions; publication follows its own availability conditions in E.24.PUB.
-* **Extends:** E.8, E.10, Part F and Part G, B.3, and the C-cluster by enforcing the EntityOfConcern/Description boundary, specification-use and publication orthogonality, System/Episteme separation, same or near-same EntityOfConcern discipline across views, and progressive actor wording. Publication remains the separately governed availability of an exact episteme through a form and carrier.
-* **Coordinates with:** E.18 for crossing visibility, A.21 for gate checks, E.17 for publication, and E.10 for lexical checks. F.17 identifies exact local senses and F.9 governs an obtaining Bridge between two such senses; a ReferencePlane crossing follows its applicable plane relation. The bounded-use claim, reliance, optional `CL`, and any named policy penalty remain separate.
+* **Extends:** E.8, E.10, Part F and Part G, B.3, and the C-cluster by enforcing the EntityOfConcern/Description boundary, specification-use and publication orthogonality, System/Episteme separation, same or near-same EntityOfConcern discipline across views, and progressive actor wording. Publication remains the separately governed availability of an episteme through a form and carrier.
+* **Coordinates with:** E.18 for crossing visibility, A.21 for gate checks, E.17 for publication, and E.10 for lexical checks. F.17 identifies local senses and F.9 governs an obtaining Bridge between two such senses; a ReferencePlane crossing follows its applicable plane relation. The bounded-use claim, reliance, optional `CL`, and any named policy penalty remain separate.
 

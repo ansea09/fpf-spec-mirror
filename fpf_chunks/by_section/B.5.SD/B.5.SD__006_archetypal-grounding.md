@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.5.SD"
-pattern_title: "Construct a Useful Answer through Substantive Discussion"
+pattern_title: "Construct an Answer through Substantive Discussion"
 section_id: "B.5.SD:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.SD/B.5.SD__006_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "B.5.SD — Construct a Useful Answer through Substantive Discussion"
+  - "B.5.SD — Construct an Answer through Substantive Discussion"
   - "B.5.SD:5 — Archetypal Grounding"
-line_start: 50843
-line_end: 50868
+line_start: 52947
+line_end: 52972
 dependencies:
   - "A.3.1"
   - "B.5.RA"
@@ -24,17 +24,17 @@ keywords:
 
 #### B.5.SD:5.1 - Component evidence does not yet support the assembled claim
 
-Suppose a review group needs to decide whether an evidence package supports configuration C7. One module has passed a test in C6; another has its own successful report. The facilitator collects both reports and every participant's concerns. The reviewer still lacks a basis for C7.
+Suppose a review group needs to decide whether an evidence package supports configuration C7. One module has passed a test in C6; another has a successful report. The facilitator collects both reports and every participant's concerns. The reviewer still lacks a basis for C7.
 
-The integrator asks the relevant specialist which parameter changed and whether the old observation covers its effect. The specialist identifies an interface interaction outside the old test conditions. The discussion now has a specific missing relation: the individual results do not establish the joint behaviour under C7's load.
+The integrator asks the relevant specialist which parameter changed and whether the old observation covers its effect. The specialist identifies an interface interaction outside the old test conditions. The discussion now has a missing relation: the individual results do not establish the joint behaviour under C7's load.
 
 The participants construct three continuations. They could test the joint configuration, narrow the acceptance claim to the already supported use, or redesign the interface so the earlier evidence becomes applicable under justified conditions. A qualified engineer supplies the required model and test judgement. The lab can provide a window for the first option, and the decision maker accepts the inquiry cost.
 
 The returned proposal states the interaction, configuration, load, required observation and decision that will use the answer. Until the test is performed, the dependent acceptance claim remains unsupported. This is a useful constructed result: it explains the gap and how the proposed inquiry could settle it.
 
-Now remove the lab window. The account exposes the dependent test and decision. The group revisits the narrower claim, another provider or a later release; it does not preserve an unavailable test by leaving it in the minutes. The component results remain useful for the claims they actually support.
+Now remove the lab window. The account exposes the dependent test and decision. The group revisits the narrower claim, another provider or a later release; it does not preserve an unavailable test by leaving it in the minutes. The component results remain useful for the claims they support.
 
-If a qualified specialist had already established that the C6 evidence applied unchanged to C7, the direct explanation would have sufficed. The workshop would add no missing inference.
+If a qualified specialist had already established that the C6 evidence applied unchanged to C7, the explanation would have sufficed. The workshop would add no missing inference.
 
 #### B.5.SD:5.2 - A community disagrees over an explanatory article
 
@@ -44,5 +44,5 @@ The facilitator asks for the receiving choice, not a vote on favourite wording. 
 
 The group can agree that the revised explanation answers the question while one contributor declines further editorial work. LDR.2 handles that contribution if it matters. The explanation's warrant and a volunteer's consent remain separate.
 
-If the group lacks the modelling competence needed to assess the two cases, it returns the exact question to a qualified practitioner. A well-facilitated consensus would not fill the gap.
+If the group lacks the modelling competence needed to assess the two cases, it returns the question to a qualified practitioner. A well-facilitated consensus would not fill the gap.
 

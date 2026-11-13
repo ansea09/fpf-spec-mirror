@@ -6,12 +6,12 @@ section_id: "C.36:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36/C.36__006_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.36 — Cultural Evolution and Cultural-Evolution Engineering"
   - "C.36:5 — Archetypal Grounding"
-line_start: 81533
-line_end: 81621
+line_start: 85516
+line_end: 85610
 dependencies:
   - "A.1"
   - "A.10"
@@ -69,9 +69,11 @@ The AI-agent slice separates a project's benchmark choice from performed change 
 
 #### C.36:5.1 - Engineering Product Family
 
-An engineering lead has an archive of candidate cooling-module designs, a Q-front over energy use and maintainability, competitor product families, and a roadmap pressure to keep more than one line current. The first C.36 question is not "which module is best?" but whether the project is shaping a product-family culture: shared methods, work products, review criteria, memory epistemes, exact local system-role kinds and any obtaining assignments needed for Work attribution, architecture-candidate generation, selection regimes, and refresh rhythm.
+An engineering lead has an archive of candidate cooling-module designs, a Q-front over energy use and maintainability, competitor product families, and a roadmap pressure to keep more than one line current. The first C.36 question is not "which module is best?" but whether the project is shaping a product-family culture: shared methods, work products, review criteria, memory epistemes, local system-role kinds and any obtaining assignments needed for Work attribution, architecture-candidate generation, selection regimes, and refresh rhythm.
 
-If the question is only archive or front treatment, use `C.18` and `C.19`. If the team is changing how the engineering organization generates, recognizes, retains, compares, and learns from module variants, explain those relations in a sufficient account, using the optional case card if helpful. Use `E.18.1` when problem-to-work carry-through is needed. When that work yields a generated or discovered result intended for architecture use, use `C.35`'s one-sentence first result to state its supported use and any remaining condition before `C.32` candidate synthesis; the cultural-evolution case remains in C.36.
+If the question is only archive or front treatment, use `C.18` and `C.19`. If the team is changing how the engineering organization generates, recognizes, retains, compares, and learns from module variants, explain those relations in a sufficient account, using the optional case card if helpful. Use `E.18.1` when problem-to-work carry-through is needed.
+
+When that work yields a generated or discovered result intended for architecture use, use `C.35`'s one-sentence first result to state its supported use and any remaining condition before `C.32` candidate synthesis; the cultural-evolution case remains in C.36.
 
 #### C.36:5.2 - Music And Dance Style Engineering
 
@@ -109,11 +111,11 @@ CulturalEvolutionCaseCard@Context:
   LevelOrScopeRefs: festival scene, teaching network, platform circulation scope
   StyleOrTraditionTermRows: "contemporary" term row above
   CurrentEvolutionaryQuestion: change recognition and teaching methods without collapsing the style label into one root kind
-  ApplicablePatternRefs: C.36; use C.18, C.19, G.5, A.3.1 and G.11 for the archive, pool, selected-set, Method and refresh claims actually made
+  ApplicablePatternRefs: C.36; use C.18, C.19, G.5, A.3.1 and G.11 for the archive, pool, selected-set, Method and refresh claims made
   RefreshRefs: refresh when platform mediation, judging, canon, or teaching adoption changes
 ```
 
-The next project move may be `C.18` archive generation, `C.19` current-pool treatment, `G.5` selected-set result declaration, or an intervention card that targets recognition, pedagogy, canon, or platform mediation. If publication is current, use `E.24.PUB` for its occurrence and audience availability, with `E.17` when it is a source-backed projection. The card alone does not prove that the targeted change occurred.
+The next project move may be `C.18` archive generation, `C.19` current-pool treatment, `G.5` selected-set result declaration, or an intervention card that targets recognition, pedagogy, canon, or platform mediation. If publication is at issue, use `E.24.PUB` for its occurrence and audience availability, with `E.17` when it is a source-backed projection. The card alone does not prove that the targeted change occurred.
 
 If the case also claims a new level, new holon, model-use or scope reframe, feedback-down relation, whole reidentification, cross-scope frustration residual, or interlevel ethical conflict, keep the C.36 result and test the additional claim separately.
 
@@ -123,7 +125,7 @@ For example, use B.2 or B.2.P for MHT and whole reidentification; A.1 or the app
 
 A team develops several AI-agent framework variants and notices that evaluation dashboards change which agent patterns the community copies. The cultural-evolution case includes agent-framework method families, work products, benchmark or dashboard publications, recognition and selection regimes, mediating systems, memory epistemes, and refresh. The case keeps those values visible before the project decides whether to change the benchmark, generate new variants, declare a selected-set result, publish it, or revise the method family.
 
-If the team chooses a new benchmark, that is a project choice, not evidence that the wider practice selected it. Record the choice with `C.11` and any planned or performed change through the applicable Work and change patterns. Use C.36 separately for later evidence that agent patterns were generated, copied, recognized, selected, retained, or lost across the practice. Widespread persistence does not retroactively authorize the project choice.
+If the team chooses a new benchmark, that is a project choice, not evidence that the wider practice selected it. Record the choice with `C.11` and any planned or performed change through the Work and change patterns. Use C.36 separately for later evidence that agent patterns were generated, copied, recognized, selected, retained, or lost across the practice. Widespread persistence does not retroactively authorize the project choice.
 
 #### C.36:5.4 - Neighbor boundaries
 
@@ -136,15 +138,19 @@ If the team chooses a new benchmark, that is a project choice, not evidence that
 | current pool treatment, exploration or exploitation policy, graduation, narrowing, or sunset | `C.19` |
 | selector-facing retained set, shortlist, ranked shortlist, specialist handoff, abstain, or escalation | `G.5` |
 | refresh, deprecation, edition, source currentness, lineage, or currentness reporting | `G.11` |
-| generated or discovered result intended for architecture use, architecture candidate, selected structure, architecture description, or architecture structural view | `C.35` for the exact result's supported use, the organization concerned and the status of the actual or proposed claim, including any unresolved basis, and any material condition, limitation or return; `C.32` for candidate synthesis; and `C.30`, `C.30.AD`, or `C.30.ASV` for the direct architecture, description, or view question |
+| generated or discovered result intended for architecture use, architecture candidate, selected structure, architecture description, or architecture structural view | `C.35` for the result's supported use, the organization concerned and whether the claim is established, refuted, unestablished, or a proposal, including any unresolved basis, and any material condition, limitation or return; `C.32` for candidate synthesis; and `C.30`, `C.30.AD`, or `C.30.ASV` for the architecture, description, or view question |
 | new level, new holon, MHT, whole reidentification, model-use or scope reframe, supervisor-subholon feedback, cross-scope frustration residual, or interlevel ethical conflict | keep the C.36 cultural-evolution result and use A.1, B.2, B.2.P, B.2.5, C.30.ILC, C.29, D.2, D.3, D.4, or the applicable holon, System, architecture, mathematical-lens, or ethics pattern |
-| local choice among already available options | `C.11`; use `C.36` separately only when generation, transmission, recognition, selection, retention, or loss across a practice or population is also current |
+| local choice among already available options | `C.11`; use `C.36` separately only when generation, transmission, recognition, selection, retention, or loss across a practice or population is also at issue |
 | problem-to-work carry-through | `E.18.1` |
 | dynamics, temporal adequacy, or mathematical-lens use | `A.3.3` for a state space and transition law; `C.27` for temporal adequacy; `C.29` for a remaining mathematical representation, transfer, or reliance question |
 
 #### C.36:5.5 - Continue the Supported Practice or Select a Useful Trial
 
-In a constructed dance-school case, the same teachers and learners have repeatedly used the current archive examples in the stated class, and the available teaching observations support that bounded transmission claim. No participant, access, or protection condition has changed. Continue the arrangement for that class. The teachers' remaining time is needed to run it; an additional comparison would displace useful teaching without changing the present continuation. The account need not invent a rival explanation or a study, and it makes no claim about other schools or long-term retention.
+In a constructed dance-school case, the same teachers and learners have repeatedly used the current archive examples in the stated class, and the available teaching observations support that bounded transmission claim. No participant, access, or protection condition has changed.
 
-Now suppose the next class must learn from the archive without teacher assistance. The current observations do not support that receiving condition. The school has an authorized preparation session in which the learners can try a representative task, access and support are available, and its result will determine whether the archive-only arrangement can be used or teaching support must remain. Select that bounded trial through the direct teaching Method. This completes the recommendation to test, not the trial or a transmission claim for the new condition. A later tested-change claim must use the actual receiving Work and observations; causal explanation remains a separate question.
+Continue the arrangement for that class. The teachers' remaining time is needed to run it; an additional comparison would displace useful teaching without changing the present continuation. The account need not invent a rival explanation or a study, and it makes no claim about other schools or long-term retention.
+
+Now suppose the next class must learn from the archive without teacher assistance. The current observations do not support that receiving condition. The school has an authorized preparation session in which the learners can try a representative task, access and support are available, and its result will determine whether the archive-only arrangement can be used or teaching support must remain.
+
+Select that bounded trial through the teaching Method. This completes the recommendation to test, not the trial or a transmission claim for the new condition. A later tested-change claim must use the actual receiving Work and observations; causal explanation remains a separate question.
 

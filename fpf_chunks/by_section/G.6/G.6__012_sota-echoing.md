@@ -6,12 +6,12 @@ section_id: "G.6:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.6/G.6__012_sota-echoing.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.6 — Evidence Graph and Provenance Ledger: Citable Evidence-Provenance Paths"
   - "G.6:11 — SoTA-Echoing"
-line_start: 130217
-line_end: 130231
+line_start: 138273
+line_end: 138287
 dependencies:
   - "A.10"
   - "A.10.1"
@@ -59,7 +59,7 @@ keywords:
 
 ### G.6:11 - SoTA-Echoing
 
-The table records the contributions adopted from the cited source editions. Reopen an affected source-use decision when a new specification, Recommendation, maintenance change or replacement alters a relied-on identity, provenance, validation or use condition; follow the dependent-use return in :4.5.
+The table shows what G.6 adopts from the publishers’ editions current on 30 July 2026. Reopen an affected source-use decision when a new specification, Recommendation, maintenance change or replacement alters a relied-on identity, provenance, validation or use condition; follow the dependent-use return in :4.5.
 
 | Exact source and source-use decision | G.6 use | Rejected overread | Direct source-change entry |
 | --- | --- | --- | --- |

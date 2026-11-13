@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.5.FM"
-pattern_title: "Construct a First Model for the Working Question"
+pattern_title: "Construct a Model for the Question"
 section_id: "B.5.FM:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.FM/B.5.FM__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "B.5.FM — Construct a First Model for the Working Question"
+  - "B.5.FM — Construct a Model for the Question"
   - "B.5.FM:4 — Solution"
-line_start: 48494
-line_end: 48575
+line_start: 50518
+line_end: 50603
 dependencies:
   - "A.3.3"
   - "A.6.3.RT"
@@ -34,11 +34,11 @@ State what alternatives the answer should distinguish: whether an intervention c
 
 Inspect a small instance or the available arrangement. Describe the supplied facts separately from the account you propose. Ask what changes between the cases that matter. The first question can be provisional; preserve a new question when the attempted construction reveals a more useful distinction.
 
-If the participant cannot yet express what differs or matters, B.5.EA helps articulate that contribution before model construction. Return here when the resulting distinction permits a question or contrast; do not require this preliminary work when the contrast is already usable.
+If the participant cannot express what differs or matters, B.5.EA helps articulate that contribution before model construction. Return here when the resulting distinction permits a question or contrast; do not require this preliminary work when the contrast is usable.
 
-When the current account is clear but leaves you unsure which question matters, the scheme comparison in :4.2.1 can expose a useful distinction. A discovered question may already have an adequate answer; use it without requiring a larger model.
+When the account is clear but leaves you unsure which question matters, the scheme comparison in :4.2.1 can expose a useful distinction. A discovered question may have an adequate answer; use it without requiring a larger model.
 
-An existing answer may already resolve the contrast. Use it under its conditions. C.11.DUA helps when obtaining more information or refining a model competes with acting on a sufficient answer.
+An existing answer may resolve the contrast. Use it under its conditions. C.11.DUA helps when obtaining more information or refining a model competes with acting on a sufficient answer.
 
 #### B.5.FM:4.2 - Choose the participants and distinctions
 
@@ -50,7 +50,7 @@ For a question about permitted continuations, A.3.3 helps construct a sufficient
 
 ##### B.5.FM:4.2.1 - Let a conceptual scheme expose a useful question
 
-Start from what the current account is meant to enable, even when the question is provisional: prepare a workshop, interpret an effect or improve a construction. Choose a small, understood conceptual scheme whose relations could reveal a consequential distinction. Here a scheme means related concepts and the inferences their relations permit. For example, connecting a learner's attempt, what an instructor can observe and the feedback required can expose a question that a seating plan leaves unanswered.
+Start from what the account is meant to enable, even when the question is provisional: prepare a workshop, interpret an effect or improve a construction. Choose a small, understood conceptual scheme whose relations could reveal a consequential distinction. Here a scheme means related concepts and the inferences their relations permit. For example, connecting a learner's attempt, what an instructor can observe and the feedback required can expose a question that a seating plan leaves unanswered.
 
 State the possible contribution before expanding the account. Recover the selected relation's participants, conditions and a consequence; B.5.TU helps if that theoretical contribution is unfamiliar. Use B.5.4 to construct its tentative correspondence to the case. Keep what the source account says distinguishable from what the scheme suggests adding. A sketch or ordinary question can carry the correspondence.
 
@@ -58,9 +58,9 @@ When a relation appears absent, distinguish the following outcomes:
 
 | What is available | Useful continuation |
 | --- | --- |
-| The account already supplies the relation and answer. | Use them. |
+| The account supplies the relation and answer. | Use them. |
 | The relation applies, but a participant or condition is unknown. | Ask whether resolving it could change the work. |
-| The relation does not apply under the scheme's own conditions. | Drop that question or try an applicable scheme. |
+| The relation does not apply under the scheme's conditions. | Drop that question or try an applicable scheme. |
 | The expression cannot represent the needed distinction. | Change the expression or scheme; A.6.3.RT helps when that change needs work. |
 | The scheme conflicts with a consequential part of the case. | Reconsider the correspondence or assumption before using its consequence. |
 
@@ -68,27 +68,29 @@ An empty position in a diagram establishes none of these outcomes by itself. If 
 
 Try two plausible answers when that cheaply reveals what is at stake. If both permit the same sufficient continuation, stop the additional inquiry. Otherwise formulate the question in the participant's working language and say what answer would help: a condition, construction, distinction or bound. The benefit can concern a later inquiry or a new method. C.11.DUA governs whether obtaining the answer is worth its burden.
 
-Use the resulting answer directly or continue constructing the model it needs. A subject specialist or AI can supply a relation, correspondence or calculation; the required knowledge and access depend on that contribution.
+Use the resulting answer or continue constructing the model it needs. A subject specialist or AI can supply a relation, correspondence or calculation; the required knowledge and access depend on that contribution.
 
 #### B.5.FM:4.3 - Build relations that can produce a consequence
 
 Use subject knowledge to propose how the selected participants interact or which operations are permitted. Explain how each proposed relation answers part of the question. A physical interaction law, a mathematical formation rule and an execution rule supply different kinds of premise.
 
-When the working question is causal and the proposed mechanisms still need to be expressed as comparable models, use C.28.CM to construct and challenge those models. Keep the outcome and time horizon comparable across the accounts, together with any intervention being considered. Make the variables, mechanisms, assumptions and material alternative influences explicit. Return each model with its useful consequence or the premise still needed to derive one; continue with inference and criticism in :4.4–4.5. An annotated sketch or ordinary explanation may suffice. Use a supplied or readily constructed model directly when it already supports the needed inference.
+When the question is causal and the proposed mechanisms need to be expressed as comparable models, use C.28.CM to construct and challenge those models. Keep the outcome and time horizon comparable across the accounts, together with any intervention being considered. Make the variables, mechanisms, assumptions and material alternative influences explicit. Return each model with its useful consequence or the premise needed to derive one; continue with inference and criticism in :4.4–4.5.
 
-Starting material can come from more than one source. A known model may need to be altered before it becomes a useful analogy. Recover the corresponding participants and relations, then examine the changes needed in the present situation. The construction can improve both the proposed model and the understanding of what it represents.
+An annotated sketch or ordinary explanation may suffice. Use a supplied or readily constructed model when it supports the needed inference.
+
+Starting material can come from more than one source. A known model may need to be altered before it becomes a useful analogy. Recover the corresponding participants and relations, then examine the changes needed in the situation. The construction can improve both the proposed model and the understanding of what it represents.
 
 Keep coupled choices compatible. If liquid leaving a closed vessel increases the space occupied by trapped gas, a pressure calculation must use that changed space. If two classes of formal objects permit different extensions, their counts must remain distinguishable until the extension is performed.
 
-Use an expression that lets you carry out the next inference: an annotated sketch, a table of permitted operations, equations, a physical surrogate or a computational construction. A physical surrogate has its own material behavior; establish which of its results can inform the original situation. C.29 helps construct and use a mathematical representation, including when no mathematical object has yet been selected. A.6.3.RT helps when the expression itself prevents the operation.
+Use an expression that lets you carry out the next inference: an annotated sketch, a table of permitted operations, equations, a physical surrogate or a computational construction. A physical surrogate has its material behavior; establish which of its results can inform the original situation. C.29 helps construct and use a mathematical representation, including when no mathematical object has been selected. A.6.3.RT helps when the expression prevents the operation.
 
 #### B.5.FM:4.4 - Obtain the smallest useful consequence
 
-Work one case through the proposed relations. A direction of change, a limiting value, an obstruction or a small construction may answer the current question before a detailed numerical model is needed.
+Work one case through the proposed relations. A direction of change, a limiting value, an obstruction or a small construction may answer the question before a detailed numerical model is needed.
 
 Show which premise makes the consequence follow. If calculation or simulation is needed, C.29.2 supplies computational formulation and C.29.3 supplies realization. If the reasoning is available but difficult to follow, B.5.RA helps recover the decisive inference.
 
-Return the consequence to the question. A limiting value can rule out an intervention under the model's assumptions. A constructed recurrence can supply a count. An unresolved interaction can turn “calculate the system” into a specific request for another contribution.
+Return the consequence to the question. A limiting value can rule out an intervention under the model's assumptions. A constructed recurrence can supply a count. An unresolved interaction can turn “calculate the system” into a request for another contribution.
 
 #### B.5.FM:4.5 - Examine a choice that can change the answer
 
@@ -100,7 +102,9 @@ When a discrepancy has several possible explanations, retain those possibilities
 
 #### B.5.FM:4.6 - Apply the result and choose the continuation
 
-Use what the model now supports: make a design choice, reject an option, construct an object, specify a calculation, select an observation or revise the question. Try the proposed use of that consequence. For example, sufficient average delivery can settle a capacity question; continuous supply also depends on delivery times, consumption and available stock. If the intended action needs such a further relation or condition, keep the supported answer and identify the missing contribution. Supply the assumptions another contributor needs to use the result.
+Use what the model supports: make a design choice, reject an option, construct an object, specify a calculation, select an observation or revise the question.
+
+Try the proposed use of that consequence. For example, sufficient average delivery can settle a capacity question; continuous supply also depends on delivery times, consumption and available stock. If the intended action needs such a further relation or condition, keep the supported answer and identify the missing contribution. Supply the assumptions another contributor needs to use the result.
 
 Name a missing contribution by the result it must provide. For example, ask which heat-transfer path a proposed change affects, which state distinguishes two continuations, or which operation produces the needed formal object. A.15.9 helps obtain that contribution from another practice.
 

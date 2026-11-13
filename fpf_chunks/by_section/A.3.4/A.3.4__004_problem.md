@@ -6,12 +6,12 @@ section_id: "A.3.4:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4/A.3.4__004_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.3.4 — U.Transformation: Actual Bounded Change Under Conditions"
   - "A.3.4:2 — Problem"
-line_start: 13028
-line_end: 13041
+line_start: 13461
+line_end: 13474
 dependencies:
   - "A.1"
   - "A.10"

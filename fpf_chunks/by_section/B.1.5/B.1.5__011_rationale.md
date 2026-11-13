@@ -6,12 +6,12 @@ section_id: "B.1.5:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5/B.1.5__011_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.1.5 — Gamma_method - Order-Sensitive Method Composition and Work Enactment"
   - "B.1.5:10 — Rationale"
-line_start: 42520
-line_end: 42523
+line_start: 44226
+line_end: 44229
 dependencies:
   - "A.1"
   - "A.15"
@@ -59,5 +59,5 @@ keywords:
 
 ### B.1.5:10 - Rationale
 
-The rationale is a strict object separation. Paying this explicitness cost exposes brittle joins and accidental external dependencies at Method boundaries before someone relies on the composite claim. Order is semantic but not structural parthood. A method can be a non-agentive holon, but a step label, graph node, phase, source section, description constituent, plan item, or work part is not a method part until the `U.Method` and `methodPartOf` occurrence are recovered. `Gamma_method` concerns ways of doing; `Gamma_work` supports occurrence-side resource analysis; B.3 evaluates assurance; A.22 selects useful relation organizations; B.2 handles a separately current higher-level reidentification claim. None of those neighboring objects replaces the direct B.1.5 construction facts.
+The rationale is object separation. Paying this explicitness cost exposes brittle joins and accidental external dependencies at Method boundaries before someone relies on the composite claim. Order is semantic but not structural parthood. A method can be a non-agentive holon, but a step label, graph node, phase, source section, description constituent, plan item, or work part is not a method part until the `U.Method` and `methodPartOf` occurrence are recovered. `Gamma_method` concerns ways of doing; `Gamma_work` supports occurrence-side resource analysis; B.3 evaluates assurance; A.22 selects useful relation organizations; B.2 handles a separately current higher-level reidentification claim. None of those neighboring objects replaces the B.1.5 construction facts.
 

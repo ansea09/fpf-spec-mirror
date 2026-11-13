@@ -6,12 +6,12 @@ section_id: "F.15:13"
 section_title: "Archetypal Grounding - worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__015_archetypal-grounding-worked-cases.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Naming and Semantic Unification"
   - "F.15:13 — Archetypal Grounding - worked cases"
-line_start: 123705
-line_end: 123765
+line_start: 131537
+line_end: 131601
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -69,9 +69,13 @@ F.15 result:
 * An `ExecutionSystemRoleKindDescription` remains an F.4 episteme about one exact local `ExecutionSystemRole` under one scheme; it does not describe both cells, assign a system, or prove work.
 * If a later `task` sense becomes cyclic while the `activity` sense remains non-periodic, RSCR-F15-E4 and E9 compare exact later cells and Bridge candidates; evidence may change the use claim or reliance without silently rewriting the prior Bridge.
 
-Suppose `CheckRun-17` is dated assessment `U.Work`, `CheckMethod-17` is its semantic `U.Method`, `CheckInterval-17` is the Work interval, and `HarnessSystem-17` is the containing System. `Evaluator-17` is the admitted `U.System` that performs the Work using that Method during `CheckInterval-17`. First recover Evaluator-17's A.13 core for this action, including declared assignment species `EvaluatorAssignmentSpecies-17` and one obtaining occurrence `EvaluatorAssignment-17` with every required participant value, Evaluator-17 as holder, and interval coverage. A.15.1 then independently admits `CheckRun-17` from its performance history, enacted Method, interval, and containing-System relation. Because this example also claims performance under `EvaluatorAssignment-17`, F.6 afterward links the already admitted Work to that same assignment.
+Suppose `CheckRun-17` is dated assessment `U.Work`, `CheckMethod-17` is its semantic `U.Method`, `CheckInterval-17` is the Work interval, and `HarnessSystem-17` is the containing System. `Evaluator-17` is the admitted `U.System` that performs the Work using that Method during `CheckInterval-17`.
 
-`ApplySCR-S12-17` is the exact A.6.1 rule application and bindings. `BridgeRuleResult-17` is a separate C.2.1 result claim; `WitnessTrace-17` and its A.10 path are separate again. `UnificationConformanceRecord-17` merely cites those admitted refs. Publishing the record requires its own E.24.PUB occurrence, form, and carrier.
+First recover Evaluator-17's A.13 core for this action, including declared assignment species `EvaluatorAssignmentSpecies-17` and one obtaining occurrence `EvaluatorAssignment-17` with every required participant value, Evaluator-17 as holder, and interval coverage.
+
+A.15.1 then independently admits `CheckRun-17` from its performance history, enacted Method, interval, and containing-System relation. Because this example also claims performance under `EvaluatorAssignment-17`, F.6 afterward links the already admitted Work to that same assignment.
+
+`ApplySCR-S12-17` is the exact A.6.1 rule application and bindings. `BridgeRuleResult-17` is a separate C.2.1 result claim; `WitnessTrace-17` and its A.10 path are separate again. The record `UnificationConformanceRecord-17` cites these independently admitted items. Publishing the record requires an E.24.PUB publication occurrence with a particular expression borne by a carrier. If a reusable publication form is selected, check that expression’s conformance to it.
 
 #### F.15:13.2 - Service availability across service and observation schemes
 
@@ -80,7 +84,7 @@ The slice contains one service-management status value/use and one uptime-observ
 F.15 result:
 
 * SCR-F15-S14 requires F.10 for the status family/value, target, scope, window, source condition, and intended use, or the exact defining or testing rule for the current status claim.
-* A named cross-local comparison must pass SCR-F15-S12 and S13; the row or shared `availability` label does not create the Bridge.
+* If the comparison uses a semantic correspondence, check it under SCR-F15-S12 and S13. To use the uptime measurement to judge service fulfilment, check the applicable measurement and acceptance rules. A shared label or row establishes neither claim.
 * Observation evidence and A.10 reliance are not the status value, comparison result, assurance claim, or F.15 result.
 * Use B.3 only when an actual named assurance claim is current. If a direct rule requires that claim for this use, recover it first; materiality or slice membership alone establishes no assurance claim.
 

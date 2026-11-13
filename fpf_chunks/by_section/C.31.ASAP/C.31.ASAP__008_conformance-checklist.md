@@ -6,19 +6,18 @@ section_id: "C.31.ASAP:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.ASAP/C.31.ASAP__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.31.ASAP — Which Architecture Is Preferable Under Scale? (Scale Amenability)"
   - "C.31.ASAP:7 — Conformance Checklist"
-line_start: 76118
-line_end: 76134
+line_start: 79646
+line_end: 79662
 dependencies:
   - "A.1.1"
   - "A.10"
   - "A.17"
   - "A.18"
   - "A.19"
-  - "A.19.CPM"
   - "A.2.6"
   - "A.6.M"
   - "B.3"
@@ -34,12 +33,7 @@ dependencies:
   - "C.31"
   - "C.31.RSA"
   - "C.32"
-  - "C.32.ACS"
-  - "C.32.P2S"
   - "C.32.PAD"
-  - "C.33"
-  - "C.34"
-  - "C.35"
   - "G.5"
   - "G.6"
   - "G.9"
@@ -59,8 +53,8 @@ keywords:
 
 | ID | Requirement | Purpose |
 | --- | --- | --- |
-| `CC-C31.ASAP-1` | A C.31.ASAP use being made names the architecture alternative set, described holon, exact `U.ClaimScope`, relevant A.2.6 `U.ContextSlice` membership, scale variable and its window, and claimed preference under scale. | Prevents generic "scales better" and generic-context wording. |
-| `CC-C31.ASAP-2` | The account names slope/probe evidence or a no-probe reason and retains its actual reach. An untested window remains hypothetical without an extrapolation basis; a no-probe reason is not observed evidence. | Keeps the strength of the preference proportionate to its grounds. |
+| `CC-C31.ASAP-1` | A C.31.ASAP use being made names the architecture alternative set, described holon, `U.ClaimScope`, relevant A.2.6 `U.ContextSlice` membership, scale variable and its window, and claimed preference under scale. | Prevents generic "scales better" and generic-context wording. |
+| `CC-C31.ASAP-2` | The account names slope/probe evidence or a no-probe reason and retains its reach. An untested window remains hypothetical without an extrapolation basis; a no-probe reason is not observed evidence. | Keeps the strength of the preference proportionate to its grounds. |
 | `CC-C31.ASAP-3` | Expected stable or improving structure and exception-growth risk are stated. | Keeps the pattern about architecture structure rather than scale vocabulary. |
 | `CC-C31.ASAP-4` | Source-return condition is present when a compressed, coarse, extracted, indexed or accounting representation drops distinctions on which the receiving action depends. | Prevents unsafe coarse descriptions. |
 | `CC-C31.ASAP-5` | Waiver reason is one of deontic constraint, safety or law-domain boundary, scale-probe overturn, assurance infeasibility, or context-specific bounded exception. | Prevents false debt labels. |
@@ -68,7 +62,7 @@ keywords:
 | `CC-C31.ASAP-7` | Platform, product-line, modularity, reuse, open-interface, RG, and coarse-graining labels do not establish scale preference by themselves. | Blocks source-label overread. |
 | `CC-C31.ASAP-8` | Mathematical inferences retain their model, correspondence and use conditions. Use C.29 for unresolved representation choice, transfer or reliance; C.31.ASAP governs the distinct scale preference. | Keeps the mathematical and preference grounds explicit without requiring a separate lens output for an adequate domain treatment. |
 | `CC-C31.ASAP-9` | Comparison, selected-set, local choice, evidence, assurance, gate, work, or release claims name the governing pattern. | Prevents scale preference from becoming selection or assurance. |
-| `CC-C31.ASAP-10` | A source-dependent preference retains the adopted contribution, its assumptions and limits. | Makes the grounds of the particular preference recoverable. |
-| `CC-C31.ASAP-11` | Project-local audit use names both `projectWorkOccurrenceRef` and `architectureScaleAuditProjectUseRelationRef`; a residue register remains retrieval-only unless its own governed direct relation to the exact composite Work is cited. | Prevents an `@Project` suffix, work reference, or borrowed audit relation from fabricating locality. |
+| `CC-C31.ASAP-10` | A source-dependent preference retains the adopted contribution, its assumptions and limits. | Makes the grounds of the preference recoverable. |
+| `CC-C31.ASAP-11` | Project-local audit use names both `projectWorkOccurrenceRef` and `architectureScaleAuditProjectUseRelationRef`; a residue register remains retrieval-only unless its own governed direct relation to the composite Work is cited. | Prevents an `@Project` suffix, work reference, or borrowed audit relation from fabricating locality. |
 | `CC-C31.ASAP-12` | When an ACS criterion row and an ASAP preference are both current, each is separately referenced and neither substitutes for the other. | Keeps criterion admission and alternative preference distinct. |
 

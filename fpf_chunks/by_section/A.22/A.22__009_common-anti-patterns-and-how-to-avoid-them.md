@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.22"
-pattern_title: "Structure and Structural Views (STRUCT-CAL)"
+pattern_title: "Structure and Structural Views"
 section_id: "A.22:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.22 — Structure and Structural Views (STRUCT-CAL)"
+  - "A.22 — Structure and Structural Views"
   - "A.22:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 40557
-line_end: 40567
+line_start: 42165
+line_end: 42175
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -72,7 +72,7 @@ keywords:
 | Anti-pattern | Symptom | Repair |
 | --- | --- | --- |
 | **Structure-as-document** | A diagram, table, dashboard, relation graph, or prose section is called the structure. | Recover publication, publication-form, description, or view relation; name the structure separately only when selected organization is being claimed. |
-| **Reliance-interpretation-as-structure** | A trace used as source basis, benchmark, lens output, model, or simulation is treated as the structure. | Name the exact A.6.6, source-description, evidence, or lens relation and its definition or test; state the validation and stop conditions required by that relation or intended use, and add a structure-use return condition when §4.5 requires it. Use F.19:4 for any optional explanatory guard. |
+| **Reliance-interpretation-as-structure** | A trace used as source basis, benchmark, lens output, model, or simulation is treated as the structure. | Name the A.6.6, source-description, evidence, or lens relation and its definition or test; state the validation and stop conditions required by that relation or intended use, and add a structure-use return condition when §4.5 requires it. Use F.19:4 for any optional explanatory guard. |
 | **Loss-free extraction** | An extracted or coarsened account hides a loss that changes the receiving use. | State what is preserved and lost, the supported use and any required validation boundary. Add a structure-use return condition under §4.5 or narrow the use so the hidden distinction is not relied on. |
 | **Architecture root-kind rebound** | Structure work reintroduces `U.Architecture` or treats architecture as parallel to structure. | Use `ArchitectureRelation` and C.30; keep A.22 as the upstream selected-structure EntityOfConcern. |
 | **Lens ontology import** | A mathematical lens output becomes the imported ontology. | Use C.29 for the lens, cite it through C.29 lens-use result, preserved structure, lost structure, and stop-condition discipline. |

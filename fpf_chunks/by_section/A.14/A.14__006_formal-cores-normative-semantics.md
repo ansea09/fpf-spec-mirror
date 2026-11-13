@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.14"
-pattern_title: "Advanced Mereology: Components, Portions, Aspects & Phases"
+pattern_title: "Mereology: Components, Portions, Aspects & Phases"
 section_id: "A.14:5"
 section_title: "Formal cores (normative semantics)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.14/A.14__006_formal-cores-normative-semantics.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.14 — Advanced Mereology: Components, Portions, Aspects & Phases"
+  - "A.14 — Mereology: Components, Portions, Aspects & Phases"
   - "A.14:5 — Formal cores (normative semantics)"
-line_start: 28424
-line_end: 28511
+line_start: 29482
+line_end: 29575
 dependencies:
   - "A.1"
   - "A.15"
@@ -71,7 +71,9 @@ keywords:
 * **POR‑4 (Kind integrity).** x and y must share the same **measure kind** and **unit** (or a declared conversion).
 * **POR‑5 (Boundary compatibility).** For physical wholes, the whole’s boundary encloses the union of its portions; cross‑boundary “leaks” are interactions, not portions.
 
-Check POR-2 separately for the chosen measure: additivity alone supplies only non-strict monotonicity. One sufficient practical case is an admitted disjoint decomposition `y = x ⊔ r` with finite `μ(y)` and positive `μ(x)` and `μ(r)`; additivity then gives strict dominance. If a proposed proper part has zero measure or the same measure as the whole, use a measure that distinguishes the portion and remainder, or retain the separately justified part relation under its own pattern.
+Check POR-2 separately for the chosen measure: additivity alone supplies only non-strict monotonicity. One sufficient case is an admitted disjoint decomposition `y = x ⊔ r` with finite `μ(y)` and positive `μ(x)` and `μ(r)`; additivity then gives strict dominance.
+
+If a proposed proper part has zero measure or the same measure as the whole, use a measure that distinguishes the portion and remainder, or retain the separately justified part relation under its own pattern.
 
 **Didactic tests.**
 
@@ -105,7 +107,7 @@ Either object may also support a separate PortionOf claim when it satisfies the 
 - ✔ “PumpUnit\#3 **before** calibration” — PhaseOf(Pump\#3\_pre, Pump\#3).
 - ✔ If `PhaseOf(Pump#3@week-32, Pump#3@2026)` and `PhaseOf(Pump#3@2026, Pump#3)`, transitivity also gives `PhaseOf(Pump#3@week-32, Pump#3)`. A high-vibration diagnostic window may overlap a calibration window for the same pump; neither is thereby a cell of one selected partition.
 - ✔ “Specification episteme E during τ₂” — PhaseOf(E@τ₂, E) when E@τ₂ is identified as a proper temporal restriction of E itself and the C.2.1 identity triple remains unchanged. ✘ “Spec v2” — if a C.2.1 discriminator changed, identify another episteme and test `EpistemeEditionRelation(E_v1,E_v2)` separately; the label proves neither identity nor continuity.
-- ✘ “Shift 1 of the same batch run” — use A.15.1 `TemporalPartOf_work`, `EpisodeOf_work`, `OperationalPartOf_work`, or another exact Work-part or occurrence relation whose predicate obtains.
+- ✘ “Shift 1 of the same batch run” — use A.15.1 `TemporalPartOf_work`, `EpisodeOf_work`, `OperationalPartOf_work`, or another Work-part or occurrence relation whose predicate obtains.
 - ✘ “Prototype vs. production unit” — identify each holon and any separately established relation. The labels alone select neither **PhaseOf**, **ComponentOf**, **ConstituentOf**, nor MHT.
 
 #### A.14:5.3 - AspectOf — bearer-dependent structural part under one named facet rule
@@ -127,16 +129,20 @@ Either object may also support a separate PortionOf claim when it satisfies the 
 **Didactic tests.**
 
 - ✓ In this constructed case, Reactor-7 and ThermalEnvelope-7 are independently admitted holons. The thermal-boundary rule distinguishes ThermalEnvelope-7 as the connected enclosure of insulation panels, seals, and boundary interfaces that constrains heat transfer across the reactor boundary. ThermalEnvelope-7 is identified by the continuing enclosure under that rule, not by a fixed panel list. `AspectOf(ThermalEnvelope-7, Reactor-7; thermal-boundary)` obtains while that enclosure and Reactor-7 continue. Replacing one panel under the same rule preserves the aspect; dismantling the enclosure, replacing the facet rule with a different boundary, or reidentifying Reactor-7 ends the occurrence. A changed temperature reading or dashboard view does not.
-- ✗ “Safety is an aspect of the design” when *safety* is only a Characteristic, concern, viewpoint, or heading. Recover that actual claim first.
+- ✗ “Safety is an aspect of the design” when *safety* is only a Characteristic, concern, viewpoint, or heading. Recover that claim first.
 - ✗ “Pump-7 during warm-up is its thermal aspect.” Use `PhaseOf` for the proper temporal restriction and `A.19` for a measured thermal Characteristic when those claims obtain.
 
 #### A.14:5.4 - CT2R-LOG and Compose-CAL handshake
 
-- A direct structural parthood claim is usable without this assurance handshake. If the publication elects B.3.5 or a named current requirement demands it, link the claim through `tv:groundedBy` to its applicable current C.2.1 `Γ_m.sum` or `Γ_m.slice` construction-trace episteme and declare `validationMode=axiomatic`. The direct relation pattern decides whether the occurrence obtains and how it is identified; the relevant entity pattern decides identity through change. The trace only reports that basis.
+- A direct structural parthood claim is usable without this assurance handshake. If the publication elects B.3.5 or a named current requirement demands it, link the claim through `tv:groundedBy` to its applicable current C.2.1 `Γ_m.sum` or `Γ_m.slice` construction-trace episteme and declare `validationMode=axiomatic`.
+
+  The direct relation pattern decides whether the occurrence obtains and how it is identified; the relevant entity pattern decides identity through change. The trace only reports that basis.
 - **PortionOf** uses the measured-portion `slice` account in `C.13:4.1.1` when B.3.5 is elected: identify the portion and whole, delimiting boundary, same-stuff/content basis, extensive measure and compatible unit. The aspect profile of `slice` has different conditions.
 - **AspectOf** uses one current `C.13 slice` trace when that assurance branch is elected. The trace names the aspect, bearer, facet rule, relation occurrence, and identity conditions.
 - **PhaseOf** is temporal parthood and shall not be grounded through `Γ_m`. Its assurance follows the same-holon and proper-interval criteria, the separately declared selected-partition rule when one is claimed, and `Γ_time` ordering (`B.1.4`).
-- A collection's own belongs-to relation remains distinct from constructive parthood (`CC-MEM-2`). State its participants, what makes it obtain, and whether later belonging is the same occurrence or a new one under the collection's pattern. A direct claim needs no B.3.5 fields. If B.3.5 assurance is elected, link `validationMode=axiomatic` to one current `C.13 set` trace that reports the relation that already obtains. The trace supports neither a ComponentOf inference nor a universal prohibition on separately grounded parthood.
+- A collection's own belongs-to relation remains distinct from constructive parthood (`CC-MEM-2`). State its participants, what makes it obtain, and whether later belonging is the same occurrence or a new one under the collection's pattern. A direct claim needs no B.3.5 fields.
 
-Two quick identity tests apply before relying on a trace. The same listed constituents can form a different whole when their direct assembly relations or rule differ. Conversely, a permitted constituent replacement can preserve the same whole. An equal input list, a repeated trace, or `validationMode=axiomatic` decides neither case.
+  If B.3.5 assurance is elected, link `validationMode=axiomatic` to one current `C.13 set` trace that reports the relation that already obtains. The trace supports neither a ComponentOf inference nor a universal prohibition on separately grounded parthood.
+
+Two identity tests apply before relying on a trace. The same listed constituents can form a different whole when their direct assembly relations or rule differ. Conversely, a permitted constituent replacement can preserve the same whole. An equal input list, a repeated trace, or `validationMode=axiomatic` decides neither case.
 

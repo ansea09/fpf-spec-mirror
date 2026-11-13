@@ -6,12 +6,12 @@ section_id: "C.2.6:16"
 section_title: "Publishing the Required Account"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.6/C.2.6__017_publishing-the-required-account.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.2.6 — Sources, Evidence and Conditions for Using an Episteme"
   - "C.2.6:16 — Publishing the Required Account"
-line_start: 54260
-line_end: 54270
+line_start: 56503
+line_end: 56513
 dependencies:
   - "A.10"
   - "A.16"
@@ -48,7 +48,7 @@ keywords:
 Identify the episteme and the receiving use, then state or cite only the source, evidence, access or action conditions that use needs. Make their participants, grounds and any consequential uncertainty recoverable. Include a source transformation when it changes the claim or its use. For one unchanged relation, its adequate existing description can suffice.
 
 #### C.2.6:16.2 - Source-versus-form rule
-Distinguish the source episteme, any receiving episteme and their publication forms under C.2.P. State provenance, evidence and use claims about the actual participants. A prose form alone establishes neither a document as the original source nor a change in the observation or interaction being reported.
+Distinguish the source episteme, any receiving episteme and their publication forms under C.2.P. State provenance, evidence and use claims about the participants. A prose form alone establishes neither a document as the original source nor a change in the observation or interaction being reported.
 
 #### C.2.6:16.3 - Joint-use account
 When several relations jointly enable the use, identify their separate contributions and which facts establish each. Retain the known relations while recovering a missing one; uncertainty about one does not erase the others or establish a mixture.

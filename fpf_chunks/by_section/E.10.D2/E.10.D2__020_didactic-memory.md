@@ -6,12 +6,12 @@ section_id: "E.10.D2:19"
 section_title: "Didactic memory"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__020_didactic-memory.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:19 — Didactic memory"
-line_start: 102728
-line_end: 102738
+line_start: 108522
+line_end: 108532
 dependencies:
   - "A.7"
   - "C.2.1"
@@ -42,6 +42,6 @@ Use the short memory **use, claims, entity, scheme, one needed neighbor**:
 2. **Claims.** What exact ClaimGraph is being used?
 3. **Entity.** What exact independently identified EntityOfConcern are those claims about?
 4. **Scheme.** What effective ReferenceScheme makes the claims readable about that entity?
-5. **One needed neighbor.** Does the next action actually need a describing-use viewpoint, specification checking, grounding, scope, model-use structure, evidence, edition, currentness, publication, carrier, representation, Bridge, or work use?
+5. **One needed neighbor.** Does the next action need a describing-use viewpoint, specification checking, grounding, scope, model-use structure, evidence, edition, currentness, publication, carrier, representation, Bridge, or work use?
 6. **Stop.** Add only that direct relation, or stop after constitution if none is needed.
 

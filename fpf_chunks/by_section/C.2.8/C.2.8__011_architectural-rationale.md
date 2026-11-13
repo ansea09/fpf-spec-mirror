@@ -6,12 +6,12 @@ section_id: "C.2.8:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.8/C.2.8__011_architectural-rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.2.8 — ExtractableStructuralInformation — Structure This Reader Can Recover"
   - "C.2.8:10 — Architectural Rationale"
-line_start: 54699
-line_end: 54706
+line_start: 56957
+line_end: 56964
 dependencies:
   - "A.17"
   - "A.18"
@@ -36,9 +36,9 @@ keywords:
 
 ### C.2.8:10 - Architectural Rationale
 
-The three-bearer definition explains why the same account can support different structural recoveries. The episteme identifies the expressed account, the particular expression identifies the sign construction available for extraction, and the observer identifies who or what can extract the structure. Reusable-form conformance can hold for several such constructions; the two-statement case shows why those constructions need separate recovery comparisons. Qualification conditions retain the resources and access that make each comparison meaningful.
+The three-bearer definition explains why the same account can support different structural recoveries. The episteme identifies the expressed account, the expression identifies the sign construction available for extraction, and the observer identifies who or what can extract the structure. Reusable-form conformance can hold for several such constructions; the two-statement case shows why those constructions need separate recovery comparisons. Qualification conditions retain the resources and access that make each comparison meaningful.
 
-Articulation explicitness, structural amount and task adequacy answer different questions. A plan can state its action condition completely while its reader lacks the prerequisite procedure. A diagram can expose additional relations while remaining insufficient for a design decision. Keeping these results separate preserves both the useful gain and the precise next question.
+Articulation explicitness, structural amount and task adequacy answer different questions. A plan can state its action condition completely while its reader lacks the prerequisite procedure. A diagram can expose additional relations while remaining insufficient for a design decision. Keeping these results separate preserves both the useful gain and the next question.
 
-A common definition also allows unlike estimators without claiming universal commensurability. A path count and a justified coding estimate can address structural-information questions; their values are comparable only under an adequate scale and correspondence. The source studies therefore inform the aspect and its conditions while domain methods establish the particular result.
+A common definition also allows unlike estimators without claiming universal commensurability. A path count and a justified coding estimate can address structural-information questions; their values are comparable only under an adequate scale and correspondence. The source studies therefore inform the aspect and its conditions while domain methods establish the result.
 

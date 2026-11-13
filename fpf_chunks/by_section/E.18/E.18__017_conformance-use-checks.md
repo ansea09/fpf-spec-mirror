@@ -6,12 +6,12 @@ section_id: "E.18:15"
 section_title: "Conformance Use Checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__017_conformance-use-checks.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:15 — Conformance Use Checks"
-line_start: 110842
-line_end: 110855
+line_start: 117696
+line_end: 117709
 dependencies:
   - "A.15.1"
   - "A.15.PROD"
@@ -45,7 +45,7 @@ Choose tests from the current use, then apply the selected profile to those test
 2. **Crossing or launch check, when current:** for a `GateCrossing`, apply its crossing and gate rows, including the exact positions and changed-binding account; add launch rows only for a current `LaunchGate` or work-entry claim. Do not infer a Work occurrence from either gate.
 3. **Publication or assurance check, when current:** for a published face, apply the MVPK, pin, and no-new-claim rows. Inspect `DecisionLog`, evidence-lane, replay, or SquareLaw material only when the current decision, crossing, publication, or named downstream reliance needs it.
 4. **Comparison, selection, cycle, or refresh check, when current:** apply comparator and set-return tests to a current comparison or selection; apply budget, sentinel, edition, and slice-local replay tests to a current cycle or refresh. Hold editions fixed only for a replay claim, and test an edition bump only for a current refresh use.
-5. **Structural reinterpretation check, when current:** confirm one exact A.6.4 arrow r, an affirmative q, a separate current-case judgement of `satisfies`, unchanged `CtxState`, and `PathSliceId` locality. Apply A.20 only when q also raises a current internal constraint. Test an independent F.9 Bridge and its bounded-use claim only when cross-semantic correspondence is also claimed; keep optional `CL`, evidence, reliance, any application, and Work separate.
+5. **Structural reinterpretation check, when current:** confirm one A.6.4 arrow r, an affirmative q, a separate current-case judgement of `satisfies`, unchanged `CtxState`, and `PathSliceId` locality. Apply A.20 only when q also raises a current internal constraint. Test an independent F.9 Bridge and its bounded-use claim only when cross-semantic correspondence is also claimed; keep optional `CL`, evidence, reliance, any application, and Work separate.
 
 [20]: https://webstore.ansi.org/preview-pages/ISO/preview_ISO%2B23247-1-2021.pdf?srsltid=AfmBOooAUXpg38IpkTlUFtcCpaMVOjivkewJWDIUd1VemIJO91abNEkG "INTERNATIONAL STANDARD ISO 23247-1"
 

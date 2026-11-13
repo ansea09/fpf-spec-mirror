@@ -6,12 +6,12 @@ section_id: "F.15:13.6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__016_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Naming and Semantic Unification"
   - "F.15:13.6 — Bias-Annotation"
-line_start: 123766
-line_end: 123769
+line_start: 131602
+line_end: 131605
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -57,5 +57,5 @@ keywords:
 
 ### F.15:13.6 - Bias-Annotation
 
-F.15 counters unification bias by comparing actual definitions, local senses and continuity grounds. Shared spelling, table membership, a stable id, an earlier pass, a Bridge description or a NameCard does not establish common meaning or continuity.
+F.15 counters unification bias by comparing definitions, local senses and continuity grounds. Shared spelling, table membership, a stable id, an earlier pass, a Bridge description or a NameCard does not establish common meaning or continuity.
 

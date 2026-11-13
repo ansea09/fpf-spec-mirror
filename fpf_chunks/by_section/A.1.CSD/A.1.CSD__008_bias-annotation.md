@@ -6,12 +6,12 @@ section_id: "A.1.CSD:6"
 section_title: "Bias Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.CSD/A.1.CSD__008_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.1.CSD — Discovering Systems That May Bear Consequences"
   - "A.1.CSD:6 — Bias Annotation"
-line_start: 3984
-line_end: 3995
+line_start: 4090
+line_end: 4101
 dependencies:
   - "A.1"
   - "A.1.SCR"

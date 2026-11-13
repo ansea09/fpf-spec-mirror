@@ -6,12 +6,12 @@ section_id: "A.1.1:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.1/A.1.1__014_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.1.1 — Bounded Model-Use Structure: Applicability, Use and Expression Coherence (DDD Bounded Context)"
   - "A.1.1:12 — Relations"
-line_start: 3530
-line_end: 3544
+line_start: 3620
+line_end: 3634
 dependencies:
   - "A.1"
   - "A.14"
@@ -45,8 +45,8 @@ keywords:
 - `A.2.6` governs `U.ClaimScope`, `U.ContextSlice`, and membership. `C.16` governs measurement bases, readings, scales, units, and direct comparability. `A.2.4` and A.10 govern evidence use; F.10 governs status family and status use; B.3 governs assurance.
 - `A.2` distinguishes local system-role kinds and their classifications. `A.2.1` defines and tests `U.SystemRoleAssignment` species, occurrences, and states; `A.2.7` defines and tests any separately needed relation among system-role kinds in model-use loci. E.10.ROLE routes any other technical use of *role* before one of these claims is selected.
 - `A.3.1`, `A.15.1`, and `E.18` govern Context Mapping method, performed mapping Work, and transformation-flow structures. A.15.PROD enters only for a separately needed local entity-inception claim.
-- `F.17` and `F.18` govern sense cells, durable public labels, candidate-name history, public rows, lineage, and name refresh. A.1.1 consumes the settled names without copying their dossiers.
-- `F.9` defines an obtaining Bridge between exact F.17 `SchemeSenseCell` values. A Bridge carries relation semantics, not a receiving-use decision or a structure-to-structure crossing. A separate C.2.1 claim states bounded suitability. A.10 handles ordinary reliance; B.3 adds a bounded result only when an actual named assurance claim is current.
+- `F.17` and `F.18` govern sense cells, durable public labels, candidate-name history, public rows, lineage, and name refresh. A.1.1 uses the settled names.
+- `F.9` defines an obtaining Bridge between exact F.17 `SchemeSenseCell` values. A Bridge carries relation semantics, not a receiving-use decision or a structure-to-structure crossing. A separate C.2.1 claim states bounded suitability. A.10 handles ordinary reliance; B.3 adds a bounded result only when a named assurance claim is at issue.
 - `E.17.0` governs view conformance; `E.24.PUB` governs publication through a particular expression and carrier, with a reusable form when selected. `A.6.3.RT` governs transitions between representation schemes; `A.6.3.RT.OE:4` constructs an expression for the needed operation; `C.29` applies when mathematical representation and inference are needed.
 - `C.2.P` recovers an exact source expression and routes any source-use relation to its direct governor.
 - `A.6.0` and `A.6.5` govern the `RelationSignature` and SlotSpecs declared here; `A.6.REL` governs progressive explicit individuation after the direct relation kind, obtaining condition, and occurrence-identity rule exist.

@@ -6,12 +6,12 @@ section_id: "A.3.4:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4/A.3.4__003_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.3.4 — U.Transformation: Actual Bounded Change Under Conditions"
   - "A.3.4:1 — Problem Frame"
-line_start: 13020
-line_end: 13027
+line_start: 13451
+line_end: 13460
 dependencies:
   - "A.1"
   - "A.10"
@@ -54,7 +54,9 @@ keywords:
 
 ### A.3.4:1 - Problem Frame
 
-FPF often needs to talk about change in physical systems, engineered artifacts, organizations, presentation carriers, constituent organizations, architectures, programs, regulatory situations, and research objects. A revised specification needs an early split: changed claim content identifies two C.2.1 epistemes, not one continuing changed episteme. Test the `EpistemeEditionRelation` when historical continuation between them is claimed. Open A.3.4 only for a continuing carrier, constituent organization, or other subject with its own identity rule; if revision `U.Work` first creates the later episteme, use `A.15.PROD` for that first existence. When the source says *process*, *editing*, or *construction*, recover the changed object from the case.
+FPF often needs to talk about change in physical systems, engineered artifacts, organizations, presentation carriers, constituent organizations, architectures, programs, regulatory situations, and research objects. A revised specification needs an early split: changed claim content identifies two C.2.1 epistemes, not one continuing changed episteme. Test the `EpistemeEditionRelation` when historical continuation between them is claimed.
+
+Open A.3.4 only for a continuing carrier, constituent organization, or other subject with its own identity rule; if revision `U.Work` first creates the later episteme, use `A.15.PROD` for that first existence. When the source says *process*, *editing*, or *construction*, recover the changed object from the case.
 
 For transformer constitution use `A.3`; for signatures and slot discipline use `A.6.0` and `A.6.5`; for problem-to-work carry-through use `E.18.1`. Section 0 and sections 4.4–4.5 provide the other neighboring routes.
 

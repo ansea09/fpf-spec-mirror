@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.5.PI"
-pattern_title: "Initiate Inquiry from Ongoing Work"
+pattern_title: "Initiate Inquiry from Work"
 section_id: "B.5.PI:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.PI/B.5.PI__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "B.5.PI — Initiate Inquiry from Ongoing Work"
+  - "B.5.PI — Initiate Inquiry from Work"
   - "B.5.PI:7 — Conformance Checklist"
-line_start: 50671
-line_end: 50683
+line_start: 52769
+line_end: 52781
 dependencies:
   - "A.1.STM"
   - "A.15.11"
@@ -29,9 +29,9 @@ keywords:
 
 For guidance or an application claiming this method, examine the consequential conditions:
 
-- The entry can occur without a recognized error, a diagnostic term or a request for an audit; its actual occasion, access and attentional demand are recoverable.
+- The entry can occur without a recognized error, a diagnostic term or a request for an audit; its occasion, access and attentional demand are recoverable.
 - The comparison retains the receiving use and what it took to obtain the result, including successful adaptations when they matter.
-- When a mantra guides the comparison, its Method fits the question; its actual connections and justification order are applied to a recoverable case. A found gap becomes a qualified question or cue, while adequate answers and irrelevant conditions permit a stop.
+- When a mantra guides the comparison, its Method fits the question; its connections and justification order are applied to a recoverable case. A found gap becomes a qualified question or cue, while adequate answers and irrelevant conditions permit a stop.
 - A proposed interpretation is tested on the original case; the participant is not required to invent a diagnosis before their concern can be examined.
 - An early cue can remain open without being mislabeled a confirmed anomaly, Problem or selected investigation.
 - The continuation can obtain a usable contribution, identify missing means, or stop without change under stated conditions.

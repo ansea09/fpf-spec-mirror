@@ -6,12 +6,12 @@ section_id: "D.3:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.3/D.3__010_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "D.3 — Describe an Ethical Conflict Across Levels or Scopes"
   - "D.3:6 — Conformance Checklist"
-line_start: 91981
-line_end: 91992
+line_start: 96479
+line_end: 96490
 dependencies:
   - "A.1"
   - "A.10"
@@ -43,8 +43,8 @@ keywords:
 | CC-D3-1 | A reusable result is one C.2.1 episteme with one exact EntityOfConcern, ClaimGraph, and effective ReferenceScheme. Edition, form, carrier, and publication remain separate. | Makes the reference used by D.4 reidentifiable. |
 | CC-D3-2 | At least two sides each connect one ethical claim, affected entity, declared level relation or applicable scope, value premise, consequence, and horizon. Identify a value-frame edition when used; add evidence use and uncertainty when current. | Shows what each claim affects rather than presenting a flat inventory. |
 | CC-D3-3 | Any ClaimScope on the whole description remains separate from side-specific ClaimScopes and Work extents. | Prevents the description's coverage from replacing the scope of a side. |
-| CC-D3-4 | The tension names the sides and explains the incompatibility, trade-off, parity or unresolved tension relevant to the next use. A direct relation claim retains its predicate, participants, polarity or modality, and case basis or precise unresolved condition. An affirmative occurrence claim needs its obtaining basis; cite occurrence identity only when the receiving use needs it. | Prevents a reference field from manufacturing a fact in the situation. |
+| CC-D3-4 | The tension names the sides and explains the incompatibility, trade-off, parity or unresolved tension relevant to the next use. A direct relation claim retains its predicate, participants, polarity or modality, and case basis or unresolved condition. An affirmative occurrence claim needs its obtaining basis; cite occurrence identity only when the receiving use needs it. | Prevents a reference field from manufacturing a fact in the situation. |
 | CC-D3-5 | Classification assertion, Method, Work, relation definition, relation occurrence, evidence episteme, evidence use, publication, form, and carrier remain separately typed when used. | Prevents the conflict description from absorbing neighboring objects. |
-| CC-D3-6 | The first useful result is readable without the optional enriched branches, and every added branch changes the conflict or its next use. | Keeps D.3 affordable in ordinary project work. |
+| CC-D3-6 | The first result is readable without the optional enriched branches, and every added branch changes the conflict or its next use. | Keeps D.3 affordable in ordinary project work. |
 | CC-D3-7 | The next-use statement names D.4, D.5, C.28, C.30.ILC, evidence, assurance, or another receiving pattern by value. | Keeps mapping separate from mediation, decision, proof, and assurance. |
 

@@ -6,12 +6,12 @@ section_id: "B.5.RC:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.RC/B.5.RC__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.5.RC — Recover a Construction from Its Description"
   - "B.5.RC:3 — Forces"
-line_start: 47743
-line_end: 47752
+line_start: 49747
+line_end: 49756
 dependencies:
   - "A.6.3.RT"
   - "B.5"
@@ -26,9 +26,9 @@ keywords:
 
 | Force | Tension |
 | --- | --- |
-| Required result and available means | Working backward keeps the desired result in view; working forward reveals what the available operations can actually produce. |
+| Required result and available means | Working backward keeps the desired result in view; working forward reveals what the available operations can produce. |
 | Source fidelity and useful invention | Filling a gap may solve the task, but the added operation then needs its own justification and must remain distinguishable from what the source supplied. |
 | Properties and ways of obtaining an object | A property can guide construction or follow from it. The next use determines whether an existence result suffices or an instance must be obtained. |
-| Shared prerequisites and execution order | Several steps may use the same object, and one step may need several results together. A simple list can hide either relation. |
+| Shared prerequisites and execution order | Several steps may use the same object, and one step may need several results together. A list can hide either relation. |
 | Small case and reusable method | A small case exposes missing operations cheaply; broader use depends on which conditions and operations survive the change of case. |
 

@@ -6,12 +6,12 @@ section_id: "E.17.2:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.2/E.17.2__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.17.2 — TEVB - Project-local Typical Engineering Viewpoint Bundle Template for Holons"
   - "E.17.2:1 — Problem frame"
-line_start: 107079
-line_end: 107089
+line_start: 113628
+line_end: 113638
 dependencies:
   - "A.22"
   - "A.6.3"
@@ -35,7 +35,7 @@ Engineering descriptions repeatedly ask four different questions about one holon
 
 1. **Functional:** what transformations, capabilities, and effects characterize what the holon can or is intended to do?
 2. **Procedural:** what methods, orders, states, concurrency, failures, and recovery rules characterize how relevant behavior unfolds?
-3. **Allocation-responsibility:** which admitted Systems, exact local system-role kinds, current C.3.2 judgments that one System counts under a kind for one `KindSignature` edition and context slice, obtaining assignments, capabilities, transformations, and separately governed responsibility relations or selected structures are related to the holon's behavior?
+3. **Allocation-responsibility:** which admitted Systems and local system-role kinds relate to the holon’s behavior? Which current C.3.2 judgments, obtaining assignments, capabilities, transformations, and separately governed responsibility relations or selected structures relate to it? Each such C.3.2 judgment says that one System counts under a kind for one `KindSignature` edition and context slice.
 4. **Module-interface:** what constituent holons, interfaces, dependency structures, substitutability conditions, and change rules characterize its construction?
 
 The questions recur across hardware, software, organizations, and mixed systems. Their answers may appear as prose, models, diagrams, cards, or publications, but those forms do not identify the viewpoints or make an episteme a view.

@@ -6,12 +6,12 @@ section_id: "G.9:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.9/G.9__005_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.9 — Parity and Benchmark Harness"
   - "G.9:3 — Forces"
-line_start: 131161
-line_end: 131170
+line_start: 139229
+line_end: 139238
 dependencies:
   - "A.19"
   - "A.2.6"
@@ -50,7 +50,7 @@ keywords:
 
 * **Pluralism vs comparability.** Support justified comparisons across Traditions while preserving their differences in meaning and admissibility.
 * **Partial orders.** Many targets are only partially ordered; parity reporting must preserve CSLC-admissible outcome shape (often declared set results rather than a single scalar; an archive may supply the compared candidates).
-* **Edition sensitivity.** Parity must be robust to silent drift in measurement and comparator definitions. When DHC, QD, or OEE modes are used, the required definition pins are introduced only through the corresponding `Extensions` blocks; omit them when unused.
+* **Edition sensitivity.** A reader must be able to tell which measurement and comparator definitions a parity run used, even after those definitions change. When DHC, QD, or OEE modes are used, the required definition pins are introduced only through the corresponding `Extensions` blocks; omit them when unused.
 * **Telemetry versus objectives.** `IlluminationSummary`, coverage, and regret are report-only telemetry by default. A dominance change needs an explicit CAL policy id recorded in the audit pins.
 * **Crossing visibility.** An actual E.18 flow crossing or A.21 gate used by parity retains its required `CrossingBundle`, pins and checks. Failure blocks the dependent publication or use.
 * **Cross-sense and reference-plane reuse.** When expressions have distinct F.17 source-local meanings, recover both cells and establish the required F.9 relation; a ReferencePlane crossing follows its own declared crossing basis. Each actual correspondence retains its required pins and evidence; any justified numerical loss follows its receiving model and R-channel placement.

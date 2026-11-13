@@ -6,12 +6,12 @@ section_id: "A.6.B:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__003_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:1 — Problem frame"
-line_start: 14681
-line_end: 14686
+line_start: 15136
+line_end: 15141
 dependencies:
   - "A.10"
   - "A.2.3"
@@ -48,7 +48,7 @@ keywords:
   - "The key words MUST"
   - "accountable norms and grants"
   - "actual exercise"
-  - "an individual-duty D- claim MUST name its actual bearer and exact separately obtaining U.Commitment"
+  - "an individual-duty D- claim MUST name its actual bearer and separately obtaining U.Commitment"
   - "and SHALL have their RFC 2119/8174 meanings only when capitalized as shown"
   - "and evaluated results distinct"
   - "as if it were an agent obligation"
@@ -76,7 +76,7 @@ keywords:
 
 ### A.6.B:1 — Problem frame
 
-Boundary descriptions routinely collapse four distinct claim families into “contract soup”: definitions are written as obligations, runtime gates are hidden inside laws, governance talk is assigned to “the interface”, and operational-result “guarantees” are asserted without the actual Work, evaluation, or observation needed to settle them. The resulting boundary is brittle: substitution becomes unclear, and auditability becomes performative rather than adjudicable.
+Boundary descriptions routinely mix four distinct claim families: definitions are written as obligations, runtime gates are hidden inside laws, governance talk is assigned to “the interface”, and operational-result “guarantees” are asserted without the actual Work, evaluation, or observation needed to settle them. This makes substitution unclear and leaves apparent auditability without claims that can be adjudicated.
 
 The classification connects the strata already distinguished in FPF: Signature and Mechanism; the EntityOfConcern, claim-bearing episteme and carrier; and views under viewpoints. It lets a reader identify each claim, how it is settled and which other claims its use depends on.
 

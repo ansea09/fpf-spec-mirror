@@ -6,12 +6,12 @@ section_id: "C.33:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.33/C.33__007_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.33 — Assess Structural Information for Architecture Use"
   - "C.33:6 — Bias-Annotation"
-line_start: 80801
-line_end: 80810
+line_start: 84642
+line_end: 84651
 dependencies:
   - "A.22"
   - "A.6.3.NAR"
@@ -56,7 +56,7 @@ keywords:
 | --- | --- |
 | Carrier completeness bias | Explain captured structure and the use it supports. State lost, hidden or uncaptured structure and excluded uses where they affect reliance. |
 | Metric bias | Treat entropy, epiplexity estimate, benchmark score, dashboard value, dependency F1, and invariant F1 as readings only when `C.16` or `C.32.ACE` has opened that claim. |
-| Source-label ontology bias | Keep source labels such as layer, router, cache, expert, pruning, distillation, block, DSM cluster, and architecture-search result as source wording. When a label carries an unresolved FPF structure or relation claim, use `C.30.STRAT`, `C.30.TFS-REL`, `A.6.M`, `C.31`, `C.32`, or another direct subject pattern to recover the object and predicate for that claim. |
+| Source-label ontology bias | Keep source labels such as layer, router, cache, expert, pruning, distillation, block, DSM cluster, and architecture-search result as source wording. When a label carries an unresolved FPF structure or relation claim, use `C.30.STRAT`, `C.30.TFS-REL`, `A.6.M`, `C.31`, `C.32`, or another subject pattern to recover the object and predicate for that claim. |
 | Observer-belief bias | State observation class, confidence, active-passive gap, budget boundary and unexplored regions where they qualify the use of an agent-produced or probe-produced carrier. A map alone does not establish internal belief, safe change or assurance. |
 | Decision-memory bias | Treat ADR-like records as decision descriptions and method expectations. Use `C.32.PAD` or `C.32.ADR` for decision and projection claims, and use C.33 only for what structural content the record carries or loses. |
 

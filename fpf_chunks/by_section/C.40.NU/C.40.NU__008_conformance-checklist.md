@@ -6,12 +6,12 @@ section_id: "C.40.NU:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.NU/C.40.NU__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.40.NU — Search Neighboring Uses and Means"
   - "C.40.NU:7 — Conformance Checklist"
-line_start: 87140
-line_end: 87153
+line_start: 91374
+line_end: 91387
 dependencies:
   - "C.17"
   - "C.18"
@@ -35,7 +35,7 @@ A conforming search return:
 2. **MUST** identify the generating operations and the differences that make retained leads consequential.
 3. **MUST** distinguish source claims, local inferences, analogy, and missing evidence.
 4. **MUST NOT** equate source count, idea count, novelty, or a supplier demonstration with local worth or reachability.
-5. **MUST** preserve binding constraints while separately identifying assumptions that may be investigated. A live merits question returns its supported judgement of protection and burden and the actual amendment limit, without treating the recommendation as a changed rule.
+5. **MUST** preserve binding constraints while separately identifying assumptions that may be investigated. A live merits question returns its supported judgement of protection and burden and the amendment limit, without treating the recommendation as a changed rule.
 6. **MUST** state the stopping reason and any unsearched area whose omission can change the receiving use.
 7. **MUST** return a useful local answer, a next question with action-changing answers, an adequate lead set, rejection, or a specific gap.
 8. **MUST NOT** require a workshop, exhaustive search, archive, live pool, recommendation, or selected direction for an ordinary search result.

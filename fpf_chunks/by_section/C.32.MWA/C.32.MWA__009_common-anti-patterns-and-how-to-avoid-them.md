@@ -6,12 +6,12 @@ section_id: "C.32.MWA:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA/C.32.MWA__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.32.MWA — Synthesize an Architecture Account of Methods and Their Use"
   - "C.32.MWA:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 78843
-line_end: 78857
+line_start: 82672
+line_end: 82686
 dependencies:
   - "A.13"
   - "A.15.1"
@@ -48,5 +48,5 @@ keywords:
 | **Product comparison nowhere** | A live field or maintenance boundary is hidden inside a favored architecture. | Compare the four arrangements and pass the result to the applicable product decision. |
 | **Model equals its subject** | A view or matrix is treated as a world-side whole or relation. | State the described subject, model use, correspondence, and preserved and lost distinctions. |
 | **Project choice equals cultural success** | A deliberate intervention is taken as proof of later recognition, spread, selection, or retention. | Keep the project claim and each cultural-change claim separate; use `C.36` for the latter. |
-| **Notation as the first result** | The account becomes precise but unusable to the practitioner who must act on it. | Lead with the short prose synthesis; retain notation only where it catches a real ambiguity or supports a later check. |
+| **Notation as the first result** | The account becomes precise but unusable to the practitioner who must act on it. | Lead with the short prose synthesis; retain notation only where it catches an ambiguity or supports a later check. |
 

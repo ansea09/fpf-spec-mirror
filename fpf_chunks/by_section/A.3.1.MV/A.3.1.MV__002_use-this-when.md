@@ -6,12 +6,12 @@ section_id: "A.3.1.MV:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MV/A.3.1.MV__002_use-this-when.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.3.1.MV — Construct and Maintain a Method Variant"
   - "A.3.1.MV:0 — Use This When"
-line_start: 11008
-line_end: 11033
+line_start: 11409
+line_end: 11434
 dependencies:
   - "A.3.1"
   - "A.3.1.MI"
@@ -25,9 +25,9 @@ keywords:
 
 Use this pattern when a Method has been adapted, branched, recombined, or revised and future users must know whether they face the same Method, a reusable variant, a candidate proposal, or only a changed description, representation, tool, prompt, publication, support result, or local Work occurrence. Begin with the reusable way of doing that may have changed: which operation, dependency, participant condition, entry or stop rule, or other reusable Method semantic is different?
 
-For a first pass, state what reusable way of doing changed, if any; and, if none did, which object changed, which maintained result and exact claim or edition it affects, and what to maintain, reconsider, or stop. Use the fuller account only when later selection, reuse, comparison, or retirement needs it.
+For a first pass, state what reusable way of doing changed, if any. If none did, name the changed object, the maintained result, the affected claim or edition, and what to maintain, reconsider, or stop. Use the fuller account only when later selection, reuse, comparison, or retirement needs it.
 
-The first useful result is an account of the variant decision and any derivation needed for the maintained use. A fuller account, when needed, names the parent Method or candidate, the proposed child and status, preserved semantics, changed semantics, derivation basis, applicable situation claim, available supporting and defeating evidence, relied-on descriptions and support editions, current selection uses, currentness, retirement condition, and the next decision. If the visible change is not a Method variant, the account instead names the changed object, the separately governed maintained result, the exact claim or edition affected, and the next maintenance, reconsideration, or stop action.
+The first useful result is an account of the variant decision and any derivation needed for the maintained use. A fuller account, when needed, names the parent Method or candidate, the proposed child and status, preserved semantics, changed semantics, derivation basis, applicable situation claim, available supporting and defeating evidence, relied-on descriptions and support editions, current selection uses, currentness, retirement condition, and the next decision. If the visible change is not a Method variant, the account instead names the changed object, the separately governed maintained result, the claim or edition affected, and the next maintenance, reconsideration, or stop action.
 
 Here *variant* is Plain practice wording for a Method whose reusable semantics differ in a way relevant to a named use while its derivation from another Method remains useful. The label alone does not admit a `U.Method`, establish provenance, or prove fit, worth, reuse, or superiority.
 

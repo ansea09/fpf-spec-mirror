@@ -6,12 +6,12 @@ section_id: "A.1.CSD:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.CSD/A.1.CSD__006_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.1.CSD — Discovering Systems That May Bear Consequences"
   - "A.1.CSD:4 — Solution"
-line_start: 3892
-line_end: 3949
+line_start: 3988
+line_end: 4049
 dependencies:
   - "A.1"
   - "A.1.SCR"
@@ -46,12 +46,16 @@ Discover outward from concrete possibilities, preserve the status of every relat
 2. **Name focus and receiver.** State the exact proposed or observed focus entity, current configuration when relevant, exact receiving decision or investigation, scope, place when material, and horizon.
 3. **Generate change-producing possibilities.** Consider intended and plausible Work, realization, operation, use, maintenance, misuse, failure, recovery, adaptation, continuing change, retirement, and later conditions that matter here. These are examples of possibilities, not a lifecycle or mandatory sequence.
 4. **Trace paths and challenge the boundary.** Follow supported obtaining direct-relation occurrences separately from modal path claims. For a modal claim, name the proposed relation kind, candidate participants, conditions, support, and uncertainty. Then ask which Systems capable of bearing the stated change remain outside the current frame.
-5. **Recover relation status and holon basis.** Establish every claimed world-side relation occurrence—such as part-whole, participation, dependency, crossing, or exposure—only through its direct governor. Recover an environment from one focal System delimitation, exact external referents, supported crossing relations, and the selected use; recover a delimitation or boundary through its own FPF construction and supporting facts, retaining its kind under the direct pattern. A boundary label alone establishes no relation occurrence. Support a containing-System claim through the exact part-whole relation and construction. A context or declared scope remains a use-bounding fact and does not by itself make a world-side relation obtain. Use exact construction facts rather than a level word. Use B.2 or B.2.2 only when current facts create a real whole-reidentification question, then inspect possible bearers on both sides.
+5. **Recover relation status and holon basis.** Establish every claimed world-side relation occurrence—such as part-whole, participation, dependency, crossing, or exposure—only through its direct governor. Recover an environment from one focal System delimitation, exact external referents, supported crossing relations, and the selected use; recover a delimitation or boundary through its own FPF construction and supporting facts, retaining its kind under the direct pattern. A boundary label alone establishes no relation occurrence.
+
+    Support a containing-System claim through the exact part-whole relation and construction. A context or declared scope remains a use-bounding fact and does not by itself make a world-side relation obtain. Use exact construction facts rather than a level word. Use B.2 or B.2.2 only when current facts create a real whole-reidentification question, then inspect possible bearers on both sides.
 6. **Recognize or retain bearer references.** Use `A.1.SCR` only when an actual candidate's systemhood is load-bearing. Keep a not-yet-present intended bearer as a designator inside modal content; retain an unidentified bearer as an explicit unknown without changing the claim's modality. Preserve a collection, place, scope, or other referent under its own kind or blocker.
 7. **Qualify each consequence claim.** Name the changed state or characteristic, exact bearer, obtaining-occurrence or modal-path status, conditions, configuration, direction and magnitude cue when known, time, grounded whole/part or declared-scope coordinate when current, evidence, uncertainty, and causal status.
 8. **Keep cross-scale coordinates distinct.** Preserve each bearer's changed state or characteristic, conditions, horizon, evidence, uncertainty, and receiving use. A later domain aggregate may be added for its own use; it does not replace the original claims or set priority by scale.
 9. **Connect the result.** For each material claim, state whether the receiver needs a constraint, alternative, evidence-producing probe, specialist return, monitoring condition, reversible step, or explicit unresolved gap. Route a stronger claim to the pattern or practice that defines and tests it.
-10. **Select further inquiry by contribution and burden.** When a particular missing bearer or path could change the receiving use, apply `C.11.DUA` to what an attainable observation could establish and its full preparation, access, performer, interpretation, delay, displaced work, and downside. Compare further inquiry with using the present account, retaining a constraint or alternative, or stopping. Examine proposed observations separately and as a programme: individually useful requests can compete for the same capacity or jointly miss the window. Prioritize a selected inquiry by its consequences and reversibility, keeping poorly observed sides and their original coordinates visible.
+10. **Select further inquiry by contribution and burden.** When a particular missing bearer or path could change the receiving use, apply `C.11.DUA` to what an attainable observation could establish and its full preparation, access, performer, interpretation, delay, displaced work, and downside. Compare further inquiry with using the present account, retaining a constraint or alternative, or stopping.
+
+    Examine proposed observations separately and as a programme: individually useful requests can compete for the same capacity or jointly miss the window. Prioritize a selected inquiry by its consequences and reversibility, keeping poorly observed sides and their original coordinates visible.
 11. **Stop and reopen.** Finish when the account gives the receiver the useful qualified answer and its material limit. Retain plausible missing bearers or paths and a reopen condition where they change interpretation or a later use. Name a next discovery action only when selected under step 10; an unresolved path requires no study proposal or separate explanation for omitting one.
 
 This sequence of actions is a reasoning aid. Discovery, observation, design, comparison, and specialist inquiry may proceed concurrently and reopen one another.
@@ -68,7 +72,7 @@ This sequence of actions is a reasoning aid. Discovery, observation, design, com
 | A scale distinction changes the search | Recover exact holons or declared scopes and the obtaining construction, delimitation, crossing, or dependency facts. A level label alone establishes none. |
 | A different whole may now carry the claim | Use B.2/B.2.2 only for the exact existing-whole/new-whole comparison; then inspect candidate bearers on both sides without assuming either side wins. |
 
-An exact modal claim can qualify the present answer and identify what a later observation would have to establish. Add a separate actuality claim only when the direct obtaining predicate and its case conditions are supported.
+A modal claim can qualify the present answer and identify what a later observation would have to establish. Add a separate actuality claim only when the direct obtaining predicate and its case conditions are supported.
 
 #### A.1.CSD:4.3 - Make the account recoverable for use
 

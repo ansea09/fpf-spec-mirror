@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.10.LRN"
-pattern_title: "Recovering What “Learning” Means in the Current Claim"
+pattern_title: "Recover What “Learning” Means in This Claim"
 section_id: "E.10.LRN:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.LRN/E.10.LRN__005_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "E.10.LRN — Recovering What “Learning” Means in the Current Claim"
+  - "E.10.LRN — Recover What “Learning” Means in This Claim"
   - "E.10.LRN:3 — Forces"
-line_start: 100654
-line_end: 100664
+line_start: 106296
+line_end: 106306
 dependencies:
   - "A.10"
   - "A.15"

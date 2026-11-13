@@ -6,12 +6,12 @@ section_id: "B.4.1:20"
 section_title: "Route Evidence and Discrimination Package"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4.1/B.4.1__017_route-evidence-and-discrimination-package.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.4.1 — Publish Candidate Routes for a Stabilized Cue (RoutedCueSet)"
   - "B.4.1:20 — Route Evidence and Discrimination Package"
-line_start: 46190
-line_end: 46205
+line_start: 48100
+line_end: 48115
 dependencies:
   - "A.15"
   - "A.16"
@@ -36,16 +36,16 @@ keywords:
 ### B.4.1:20 - Route Evidence and Discrimination Package
 
 #### B.4.1:20.1 - Evidence-per-route rule
-Each live route in a routed cue set should cite the cue grounds that support it and any further grounds used to keep it live. Where those grounds are not yet published, complete the route account so readers can assess the support.
+Each live route in a routed cue set should cite the cue grounds that support it and any further grounds used to keep it live. Where those grounds are not published, complete the route account so readers can assess the support.
 
 #### B.4.1:20.2 - Discriminator publication
 When further information is needed to decide a route's use or selection, name the missing fact or condition and which question it would resolve. Several routes may remain live because they support different needed contributions.
 
 #### B.4.1:20.3 - Multi-route state is not yet a lineage fork
-One routed cue set may keep several candidate routes live without yet forking lineage. A fork claim requires distinct successor epistemes or project records and the obtaining lineage relation under their applicable identity and lineage rules. State the preserved and lost content needed for that claim. Publication availability and any responsibility or authority handoff remain separate claims.
+One routed cue set may keep several candidate routes live without forking lineage. A fork claim requires distinct successor epistemes or project records and the lineage relation under their identity and lineage rules. State the preserved and lost content needed for that claim. Publication availability and any responsibility or authority handoff remain separate claims.
 
 #### B.4.1:20.4 - Projection restraint
 A typed downstream projection publication or prompt may be shown as one admissible continuation; the other live routes, their grounds and any unresolved conditions relevant to their use or selection shall remain readable.
 
 #### B.4.1:20.5 - Review test for false single-route certainty
-Ask: if a selected route were excluded, would the publication still explain the other live routes and any unresolved conditions relevant to their use or selection? If that information is missing, restore it before relying on the route set.
+Ask: if a selected route were excluded, would the publication explain the other live routes and any unresolved conditions relevant to their use or selection? If that information is missing, restore it before relying on the route set.

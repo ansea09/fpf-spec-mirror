@@ -6,12 +6,12 @@ section_id: "B.5.RR:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.RR/B.5.RR__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.5.RR — Revise Reasoning After a Premise or Question Changes"
   - "B.5.RR:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 48416
-line_end: 48425
+line_start: 50440
+line_end: 50449
 dependencies:
   - "B.5"
   - "B.5.MPC.R"
@@ -25,7 +25,7 @@ keywords:
 
 | Observed failure in revision | Why it matters | Repair |
 | --- | --- | --- |
-| Replace a number while retaining the old question | The calculation still solves for the former unknown. | Restate the givens and requested result before choosing the computation. |
+| Replace a number while retaining the old question | The calculation solves for the former unknown. | Restate the givens and requested result before choosing the computation. |
 | Treat the loss of one argument as a refutation | A different sufficient argument may remain. | Examine its premises and derive the conclusion or its negation separately. |
 | Count two dependent arguments as independent | Both can fail with their shared prerequisite. | Follow the common premise through both uses. |
 | Preserve a conclusion through circular repetition | The retained statements supply no starting support. | Recover a grounded argument or leave the conclusion unresolved. |

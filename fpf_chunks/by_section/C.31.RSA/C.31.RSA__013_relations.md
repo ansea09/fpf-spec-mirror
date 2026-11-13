@@ -6,12 +6,12 @@ section_id: "C.31.RSA:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.RSA/C.31.RSA__013_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.31.RSA — Reusable Structure Accounting"
   - "C.31.RSA:12 — Relations"
-line_start: 75836
-line_end: 75851
+line_start: 79313
+line_end: 79328
 dependencies:
   - "A.10"
   - "A.19"
@@ -48,7 +48,7 @@ keywords:
 | `C.30`, `C.30.AD`, and `C.30.ASV` | Supply architecture-claim, architecture-description-use, and structural-view context, respectively, for the structures being accounted over. |
 | `C.16`, `A.17`, `A.18`, `A.19`, `A.19.CPM` | When RSA shares are used beyond report-only, use C.16 for measurement construction, A.17 for Characteristics, A.18 for scale, unit, and operation legality, including any score used; A.19 for a CharacteristicSpace or reusable space predicate when current; and A.19.CPM for comparison of admitted profiles under a declared comparator. |
 | `C.25` | Governs broader quality-family bundles when reusable structure is used in a quality claim. |
-| `A.10`, `B.3`, `G.6` | A.10 supplies a replayable source-to-use account when needed; G.6 makes an established provenance path citable; B.3 governs assurance claims, including safety-case support. Actual reliance retains the grounds required by its claim. |
+| `A.10`, `B.3`, `G.6` | A.10 supplies a replayable source-to-use account when needed; G.6 makes an established provenance path citable; B.3 governs assurance claims, including safety-case support. Reliance retains the grounds required by its claim. |
 | `C.29` | Helps resolve mathematical representation choice, transfer or reliance when the accounting's ordinary mathematical treatment does not already answer that question. |
 | `C.27`, `C.28`, `C.31.ASAP`, `C.18.1`, `C.19.1` | For claims arising from residue growth or reuse movement, use C.27 for temporal-claim adequacy, C.28 for causal use, C.31.ASAP for architecture alternatives under a declared scale variable and window, C.18.1 for scaling-law lens binding, and C.19.1 for scale-based preference or declared generality policy; a generality preference for architecture structure remains a declared local analogy or policy. |
 | `C.32.P2S` | RSA rows may supply reusable structure, bespoke residue, evidence reuse, or source-return pressure to an architecturing flow. Candidate synthesis, selected-set result declaration, and architecture decisions remain outside RSA. |

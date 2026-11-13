@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.5.PI"
-pattern_title: "Initiate Inquiry from Ongoing Work"
+pattern_title: "Initiate Inquiry from Work"
 section_id: "B.5.PI:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.PI/B.5.PI__013_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "B.5.PI — Initiate Inquiry from Ongoing Work"
+  - "B.5.PI — Initiate Inquiry from Work"
   - "B.5.PI:12 — Relations"
-line_start: 50726
-line_end: 50735
+line_start: 52828
+line_end: 52837
 dependencies:
   - "A.1.STM"
   - "A.15.11"
@@ -31,7 +31,7 @@ keywords:
 - **B.5.EA** develops a correctable expression; **A.16.1** preserves an early cue; **B.4.1** makes grounded continuations explicit when needed. Their results can remain provisional.
 - **B.5.QD**, **B.5.QD.CF** and **B.5** develop questions, examine conflicting assumptions and connect reasoning contributions after or during this entry.
 - **A.1.STM** and **B.5.MPC** supply developed Methods and their long mantras for different receiving questions. This pattern uses a suitable reminder to initiate inquiry before a complaint; each supplying Method retains its subject knowledge, order of justification and conditions.
-- **C.22.PFR**, **C.22.2** and **E.18.1** govern problem-side distinctions, inspectable problem formulation and carrying an accepted formulation into work. They do not require every early cue to be such a formulation already.
+- **C.22.PFR**, **C.22.2** and **E.18.1** govern problem-side distinctions, inspectable problem formulation and carrying an accepted formulation into work. They do not require every early cue to be such a formulation.
 - **C.11.DUA/.CRC** help choose a worthwhile continuation; **A.15.7** selects a next action under current conditions. **E.11.PUA** returns a selected pattern's result to its receiving use and can reopen inquiry here.
 - **B.1.5** and **B.1.5.EW** recover simultaneous constituent and encompassing methods; **E.23.CDI** frames capability development when the needed contribution cannot yet be performed.
 

@@ -6,12 +6,12 @@ section_id: "F.12:8"
 section_title: "Invariants"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.12/F.12__009_invariants.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.12 — Evaluate Promise Fulfilment from Work Evidence (Service Acceptance)"
   - "F.12:8 — Invariants"
-line_start: 122641
-line_end: 122655
+line_start: 130404
+line_end: 130418
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -52,7 +52,7 @@ keywords:
 1. **Exact promise.** The evaluation identifies the `U.PromiseContent` claim, not merely an SLO label or cell.
 2. **Delivery-side relations.** The judged delivery Work or population and the applicable A.2.3 promise-use, delivered-outcome, and fulfilment relations remain distinct from evaluation.
 3. **Outcome evidence.** Observations and values concern the promised characteristic of that Work; outputs and approvals alone are insufficient.
-4. **Direct-before-proxy.** When observation and measurement directly concern the promised characteristic, use C.16 and A.10 and add no proxy. A distinct indicator relation needs exact participants and a defining or testing pattern, or the result is `missing-governor`.
+4. **Direct-before-proxy.** When observation and measurement directly concern the promised characteristic, use C.16 and A.10 and add no proxy. For a distinct indicator, identify its participants and the rule that defines or tests their relation. Return `missing-governor` if the rule is missing. If it is known, check its conditions for this case.
 5. **Window and population.** Both are explicit and match the promise.
 6. **Evaluation basis.** The selected inputs, applied acceptance rule and result remain recoverable. A claimed or rule-required dated evaluation Work and exact A.6.1 application satisfy their separate admission and binding conditions.
 7. **Declared result scale.** Characteristic, scale, unit, aggregation, threshold, exclusions, and admissible result values are stated as applicable. Boolean, trichotomous, graded, `N/A`, and `Inconclusive`-including scales are examples, not defaults.

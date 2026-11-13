@@ -6,12 +6,12 @@ section_id: "F.9:25"
 section_title: "Bridge Card publication discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__027_bridge-card-publication-discipline.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.9 — Relate Local Meanings across Contexts (Alignment and Bridge)"
   - "F.9:25 — Bridge Card publication discipline"
-line_start: 121743
-line_end: 121756
+line_start: 129443
+line_end: 129460
 dependencies:
   - "A.10"
   - "A.13"
@@ -59,7 +59,11 @@ keywords:
 
 #### F.9:25.1 - Minimal truthful card
 
-A reusable description/Card states its mode and exact C.2.1 identity. An actual one names its already individuated Bridge; a candidate or negative one names the admitted direct Bridge relation kind and modally designates proposed endpoints, profile, and polarity in its ClaimGraph. When it packages a proposed use, it states `u`, `d`, `r`, `t`, polarity, observed loss, evidence, currentness, nearest non-use, and the exact A.10 disposition or, when an actual named assurance claim is current, its B.3 `AssuranceResult`. Missing relation facts are never repaired by filling more fields. If availability matters, E.24.PUB publishes the selected episteme edition for one declared audience and bounded use through its independently governed publication occurrence, form, and carrier.
+A reusable description/Card states its mode and exact C.2.1 identity. An actual one names its already individuated Bridge; a candidate or negative one names the admitted direct Bridge relation kind and modally designates proposed endpoints, profile, and polarity in its ClaimGraph.
+
+When the description or Card packages a proposed use, it states `u`, `d`, `r`, `t`, polarity, observed loss, evidence, currentness, nearest non-use, and the exact A.10 disposition or, when an actual named assurance claim is current, its B.3 `AssuranceResult`. Missing relation facts are never repaired by filling more fields.
+
+If availability matters, E.24.PUB publishes the selected episteme edition for one declared audience and bounded use through its independently governed publication occurrence, form, and carrier.
 
 #### F.9:25.2 - One occurrence, several claims and descriptions
 

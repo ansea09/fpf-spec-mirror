@@ -6,12 +6,12 @@ section_id: "B.2.3:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.3/B.2.3__003_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.2.3 — Meta-Holon Transition With Episteme Result"
   - "B.2.3:1 — Problem Frame"
-line_start: 44209
-line_end: 44216
+line_start: 45997
+line_end: 46004
 dependencies:
   - "A.1"
   - "A.10"
@@ -38,7 +38,7 @@ keywords:
 
 A collection does not become a theory merely because its items are stored together. Distinguish the claim-bearing whole from its publication form and carrier.
 
-A group of papers, models, datasets, design notes, forecasts, standards, or local doctrines may remain a collection. Use B.2.3 when B.2's exact candidate new whole is to be tested under A.1 and the current C.2.1 constitution criterion for one interpretable claim-bearing episteme.
+A group of papers, models, datasets, design notes, forecasts, standards, or local doctrines may remain a collection. Use B.2.3 when B.2's candidate new whole is to be tested under A.1 and the C.2.1 constitution criterion for one interpretable claim-bearing episteme.
 
-B.2.3 tests B.2's candidate under A.1 and C.2.1, then retains B.2's one `resultHolonRef` and `resultHolonKindRef` for the established result. Each current neighboring relation keeps its own subject pattern.
+B.2.3 tests B.2's candidate under A.1 and C.2.1, then retains B.2's one `resultHolonRef` and `resultHolonKindRef` for the established result. Each neighboring relation keeps its subject pattern.
 

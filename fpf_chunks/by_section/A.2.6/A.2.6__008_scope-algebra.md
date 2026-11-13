@@ -6,12 +6,12 @@ section_id: "A.2.6:7"
 section_title: "Scope Algebra"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__008_scope-algebra.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Test Scope Membership and Combine Scopes"
   - "A.2.6:7 — Scope Algebra"
-line_start: 6997
-line_end: 7096
+line_start: 7316
+line_end: 7417
 dependencies:
   - "A.1.1"
   - "A.15.1"
@@ -68,7 +68,7 @@ Scope_published = SpanUnion({S_i})  =  ⋃_{i=1..n} S_i
 **Constraints.**
 
 * Independence MUST be justified (different support lines must not rely on the same weakest link).
-* The union MUST NOT exceed the union of supported slices; “hopeful” areas are disallowed.
+* The union MUST NOT exceed the union of supported slices.
 * Publishers SHOULD annotate coverage density/heterogeneity (informative) to aid R assessment, but numeric “coverage” is not part of G.
 * **Independence criterion.** Support lines in a **SpanUnion** MUST be partitioned so that each line has a set of **essential components** disjoint from the others’ essential components (no shared weakest link). The partition (or a certificate thereof) SHALL be referenced in the publication.
 
@@ -80,7 +80,7 @@ Under **USM**, `U.ClaimScope` is a **set‑valued** **USM scope object** over `U
 **2) G composes via `∩` / `SpanUnion`, not via `min` / `avg`.**
 USM already fixes composition: along a **dependent path** use **intersection**; across **independent support lines** publish **SpanUnion**. None of these operations relies on (or preserves) any linear order. An ordinal “G ladder” invites people to take **minimums/averages**, which is **incorrect** for sets and breaks the established algebra.
 
-**3) A G ladder drags in “abstraction level,” which is orthogonal.**
+**3) Abstraction level is orthogonal to G.**
 A ladder from instances through patterns and formal types to equivalence up to isomorphism describes an abstraction or typing distinction. That distinction does not determine where a claim holds. **Abstraction** can be described by the optional **`AbstractionTier (AT)`** facet; **applicability** is **`U.ClaimScope (G)`**.
 
 **4) A G ladder breaks locality and Bridge semantics.**
@@ -103,7 +103,9 @@ Use translation only when ordinary designation resolution cannot settle the exac
 
 The Bridge establishes the direct semantic correspondence. The separate claim selects this translation's direction, rule, and tolerance. A Bridge profile, Bridge Card, reference-scheme difference, project label, or slice designator cannot supply that claim or its reliance basis. A missing or non-obtaining Bridge blocks the semantic branch. A missing or non-affirmative use claim blocks reliance. A non-passing A.10 disposition blocks ordinary reliance; when an actual named assurance claim is current, a B.3 result other than `supported-for-use` stops or narrows the assurance-bearing use. None of these outcomes makes an otherwise obtaining Bridge false.
 
-An A.10 `pass`, or a B.3 `AssuranceResult` with `disposition=supported-for-use`, supports only the named use; neither authorizes it. A direct domain rule may require an assurance claim, but it must be stated separately. Observed mismatch, calibration error, and counterexamples are evidence about the use claim. The permitted loss is the tolerance inside that claim. If the rule and tolerance permit translation only for part of the source scope, identify that part and return its target image. Neither the Bridge nor the claim supplies direct support for adding a slice, and neither makes membership true. The exact `deriveTranslatedScope` application remains an A.6.1 operation application; the claim and reliance basis do not prove that it occurred.
+An A.10 `pass`, or a B.3 `AssuranceResult` with `disposition=supported-for-use`, supports only the named use; neither authorizes it. A direct domain rule may require an assurance claim, but it must be stated separately.
+
+Observed mismatch, calibration error, and counterexamples are evidence about the use claim. The permitted loss is the tolerance inside that claim. If the rule and tolerance permit translation only for part of the source scope, identify that part and return its target image. Neither the Bridge nor the claim supplies direct support for adding a slice, and neither makes membership true. The exact `deriveTranslatedScope` application remains an A.6.1 operation application; the claim and reliance basis do not prove that it occurred.
 
 #### A.2.6:7.6 - Δ‑Operations (Widen, Narrow, Refit)
 

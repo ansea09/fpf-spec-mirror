@@ -6,12 +6,12 @@ section_id: "F.6:7"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__009_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.6 — SystemRoleAssignment and Performed-Work Attribution Check"
   - "F.6:7 — Archetypal Grounding"
-line_start: 120354
-line_end: 120400
+line_start: 127995
+line_end: 128049
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -62,17 +62,23 @@ InspectionAssignment-17 : MaintenanceInspectionAssignment
 InspectionWork-17 was performed under InspectionAssignment-17.
 ```
 
-The case basis directly links that Work to that assignment; the matching holder and interval only confirm necessary conditions. Robot-7 is the actor. Separately, the inspection Work enacts `TurbineInspection@Maintenance-2026` as its Method. `InspectorSystemRole`, a sensor capability, algorithm-possession wording, the Method, and `TurbineInspectionProcedure-v3` do not perform the inspection. Use A.3.2 to decide whether that last episteme is a MethodDescription. Calibration state, Method adequacy, report quality, and acceptance remain separate.
+The case basis directly links that Work to that assignment; the matching holder and interval only confirm necessary conditions. Robot-7 is the actor.
+
+Separately, the inspection Work enacts `TurbineInspection@Maintenance-2026` as its Method. `InspectorSystemRole`, a sensor capability, algorithm-possession wording, the Method, and `TurbineInspectionProcedure-v3` do not perform the inspection. Use A.3.2 to decide whether that last episteme is a MethodDescription. Calibration state, Method adequacy, report quality, and acceptance remain separate.
 
 #### F.6:7.2 - Two Review Commissions
 
-`ProjectReviewAppointmentAssignment` is a declared species. It declares three participant positions: `HolderSystemSlot`, local assigned kind and `ReviewCommissionSlot`. `ReviewAssignment-A` and `ReviewAssignment-B` have Alice and `ReviewerSystemRole` in common but different commissions, and both cover the same interval. Commission A's request asks Alice to compare two pump alternatives; Commission B's request asks her to review a budget. The available correspondence identifies Alice's undertaking of A's request, and the execution and return facts show her comparison of those alternatives answering that same request. Following the required contribution through those facts establishes the link from `ReviewWork-A` to assignment A. The budget review has its own history and pairing; the shared holder and interval establish neither crossed pairing.
+`ProjectReviewAppointmentAssignment` is a declared species. It declares three participant positions: `HolderSystemSlot`, local assigned kind and `ReviewCommissionSlot`. `ReviewAssignment-A` and `ReviewAssignment-B` have Alice and `ReviewerSystemRole` in common but different commissions, and both cover the same interval.
+
+Commission A’s request asks Alice to compare two pump alternatives; Commission B's request asks her to review a budget. The available correspondence identifies Alice's undertaking of A's request, and the execution and return facts show her comparison of those alternatives answering that same request. Following the required contribution through those facts establishes the link from `ReviewWork-A` to assignment A. The budget review has its own history and pairing; the shared holder and interval establish neither crossed pairing.
 
 If the available facts say only that Alice performed review Work while both appointments covered the interval, the attribution remains unresolved. The same is true if both requests ask the same question and the history does not distinguish which appointment the action fulfilled. The readable projection “Alice is reviewer” selects neither assignment.
 
 #### F.6:7.3 - Reviewer and Review Report
 
-`CommissionReviewAssignment` is a declared species. It declares three participant positions: holder, local reviewer kind, and commission. Its rule applies to admitted review commissions and says that the fixed holder is appointed under the identified commission to supply the review contribution; one occurrence is the maximal uninterrupted interval for which that rule stays true. `ReviewAssignment-82` is its occurrence for Alice and `Commission-82`, and it covers `ReviewWork-82`. The case identifies this as the assignment under which Alice performed that Work. `ReviewReport-82` is a separate `U.Episteme`; it may state the attribution, and evidence may support reliance on that statement, but neither creates the Work–assignment fact. Use A.15.PROD only for a current report-inception claim. The report is neither the performer nor the attribution.
+`CommissionReviewAssignment` is a declared species. It declares three participant positions: holder, local reviewer kind, and commission. Its rule applies to admitted review commissions and says that the fixed holder is appointed under the identified commission to supply the review contribution; one occurrence is the maximal uninterrupted interval for which that rule stays true. `ReviewAssignment-82` is its occurrence for Alice and `Commission-82`, and it covers `ReviewWork-82`. The case identifies this as the assignment under which Alice performed that Work.
+
+`ReviewReport-82` is a separate `U.Episteme`; it may state the attribution, and evidence may support reliance on that statement, but neither creates the Work–assignment fact. Use A.15.PROD only for a current report-inception claim. The report is neither the performer nor the attribution.
 
 #### F.6:7.4 - Standard Used during Safety Work
 
@@ -82,13 +88,15 @@ A safety engineer or tool System can separately hold a covering safety-analysis 
 
 #### F.6:7.5 - Access Label and Approval Work
 
-An access directory says Alice has `DB-Admin`. That entry describes an access or policy relation under its own scheme; it is not automatically an `ApproverSystemRole` assignment.
+An access directory says Alice has `DB-Admin`. That entry describes an access or policy relation under its own scheme; the entry alone does not establish an `ApproverSystemRole` assignment.
 
 `ApprovalCommissionAssignment` is a declared species. It declares three participant positions: holder, local approver kind, and `ApprovalScopeSlot`. Its rule applies to admitted release scopes and says that the fixed holder is commissioned to supply approval within the identified scope; one occurrence is the maximal uninterrupted interval for which that rule stays true. `ApprovalAssignment-481` is its occurrence for Alice and the current release scope. If it covers `ApprovalWork-481` and the case identifies it as the assignment under which Alice performed that Work, the attribution is grounded. The directory entry may support a separate authorization claim but cannot substitute for the assignment or its link to the Work.
 
 #### F.6:7.6 - Distributed Performers and Child Work
 
-A.13 first recovers `ReviewTeam-9` and `Alice` as the two exact actual performers through `TeamReviewAssignment-9` and `MemberReviewAssignment-A9`, and A.15.1 independently admits `JointReviewWork-9`. Because this example expressly represents assignment-bound attribution for each performer, F.6 afterward establishes one relation for each Work-assignment pair through those same assignments. Neither assignment identifies or stands for the other performer. If `AliceFindingCheckWork-9` is separately admitted as child Work after its own A.13/A.15.1 basis passes, add its covering assignment and F.6 link only because this example also expressly attributes that child Work, and keep its Work-part relation to `JointReviewWork-9` separate.
+A.13 first recovers `ReviewTeam-9` and `Alice` as the two exact actual performers through `TeamReviewAssignment-9` and `MemberReviewAssignment-A9`, and A.15.1 independently admits `JointReviewWork-9`. Because this example expressly represents assignment-bound attribution for each performer, F.6 afterward establishes one relation for each Work-assignment pair through those same assignments. Neither assignment identifies or stands for the other performer.
+
+If `AliceFindingCheckWork-9` is separately admitted as child Work after its own A.13/A.15.1 basis passes, add its covering assignment and F.6 link only because this example also expressly attributes that child Work, and keep its Work-part relation to `JointReviewWork-9` separate.
 
 #### F.6:7.7 - Passive Test Article
 

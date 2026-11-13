@@ -6,12 +6,12 @@ section_id: "C.40.OI:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OI/C.40.OI__012_sota-echoing.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.40.OI — Bound an Opportunity Inquiry"
   - "C.40.OI:11 — SoTA-Echoing"
-line_start: 86679
-line_end: 86692
+line_start: 90913
+line_end: 90926
 dependencies:
   - "A.15.9"
   - "B.5.PI"
@@ -31,7 +31,7 @@ keywords:
 
 **Useful adaptation here.** C.40.OI joins those contributions to development-subject identification from [E.10.DEV](https://github.com/ailev/FPF/blob/main/FPF-Spec.md), inquiry appraisal from C.11.DUA and bounded outside-practice use from A.15.9. Sections 4.1–4.6 connect the subject, local question or receiving use, protections, available means and sufficient return. This supports a self-inquiry, an unsettled future receiver, or a question that an existing qualified result can already answer. None of those entries requires convening a decision conference or constructing a decision model.
 
-**Serious alternative and price.** Requisite modelling is a strong direct choice when participants need to develop shared understanding, examine consequential trade-offs or test sensitivity to disputed judgements. Use the corresponding decision-support practice directly when it supplies the whole needed result. C.40.OI's smaller return can be useful before that need is established, but it supplies neither the model nor the facilitated shared understanding. Its explicit boundary costs attention too: repeating it around an adequate modelling brief adds work without a useful contribution.
+**Alternative and price.** Requisite modelling is a strong choice when participants need to develop shared understanding, examine consequential trade-offs or test sensitivity to disputed judgements. Use the corresponding decision-support practice when it supplies the whole needed result. C.40.OI's smaller return can be useful before that need is established, but it supplies neither the model nor the facilitated shared understanding. Its explicit boundary costs attention too: repeating it around an adequate modelling brief adds work without a useful contribution.
 
 **Source roles and limits.** [ISO 56007:2023](https://www.iso.org/standard/75068.html) provides the normative opportunity/idea-management boundary before solution development. Reliance here is on its public scope, not an inspected full standard or evidence of effectiveness. Phillips supplies a developed practitioner account and cases, not proof of this Method's comparative performance. The FPF contributions retain their respective semantic, appraisal and reliance roles; subject practices supply the actual development evidence.
 

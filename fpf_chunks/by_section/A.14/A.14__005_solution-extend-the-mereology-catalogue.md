@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.14"
-pattern_title: "Advanced Mereology: Components, Portions, Aspects & Phases"
+pattern_title: "Mereology: Components, Portions, Aspects & Phases"
 section_id: "A.14:4"
-section_title: "Solution — extend the mereology catalogue, keep it clean"
+section_title: "Solution — extend the mereology catalogue"
 source_path: "FPF-Spec.md"
-output_path: "by_section/A.14/A.14__005_solution-extend-the-mereology-catalogue-keep-it-clean.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+output_path: "by_section/A.14/A.14__005_solution-extend-the-mereology-catalogue.md"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.14 — Advanced Mereology: Components, Portions, Aspects & Phases"
-  - "A.14:4 — Solution — extend the mereology catalogue, keep it clean"
-line_start: 28409
-line_end: 28423
+  - "A.14 — Mereology: Components, Portions, Aspects & Phases"
+  - "A.14:4 — Solution — extend the mereology catalogue"
+line_start: 29467
+line_end: 29481
 dependencies:
   - "A.1"
   - "A.15"
@@ -52,7 +52,7 @@ keywords:
   - "portion"
 ---
 
-### A.14:4 - Solution — extend the mereology catalogue, keep it clean
+### A.14:4 - Solution — extend the mereology catalogue
 
 **A.14 defines three additional direct sub-relations of `partOf`:**
 

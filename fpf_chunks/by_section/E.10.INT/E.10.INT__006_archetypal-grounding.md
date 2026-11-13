@@ -6,12 +6,12 @@ section_id: "E.10.INT:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.INT/E.10.INT__006_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.10.INT — Recovering What Interest or Curiosity Means Here"
   - "E.10.INT:5 — Archetypal Grounding"
-line_start: 100897
-line_end: 100924
+line_start: 106549
+line_end: 106578
 dependencies:
   - "C.11"
   - "C.16"
@@ -39,9 +39,11 @@ The example constructs an information-seeking policy. Whether a particular contr
 
 #### E.10.INT:5.2 - Progress and a stepping stone
 
-In a constructed example, a compressor learns a dictionary entry for a repeated substring in a fixed data block. Its total lossless description of that block, counting the dictionary and encoded data under the same convention, falls from 100 bits before the update to 80 afterwards. “The second version is more interesting” can now be recovered as “this dictionary update reduced the total description by 20 bits for this block.” If the team is choosing more training, it considers the likely further improvement and the work required.
+In a constructed example, a compressor learns a dictionary entry for a repeated substring in a fixed data block. Its total lossless description of that block, counting the dictionary and encoded data under the same convention, falls from 100 bits before the update to 80 afterwards. “The second version is more interesting” can now be recovered as “this dictionary update reduced the total description by 20 bits for this block.”
 
-Another construction may deserve attention even though that measure has not improved. In Stanley and Lehman's Picbreeder example, a participant retained and developed an image resembling an alien face; a car-like image appeared through later changes. The first participant could act on the available image and its variation possibilities before knowing that destination. The practical result of this recovery is to retain the construction and its means of variation for exploration. C.18 governs an archive used for that purpose.
+If the team is choosing more training, it considers the likely further improvement and the work required.
+
+Another construction may deserve attention even though that measure has not improved. In Stanley and Lehman's Picbreeder example, a participant retained and developed an image resembling an alien face; a car-like image appeared through later changes. The first participant could act on the available image and its variation possibilities before knowing that destination. For further exploration, retain the construction and its means of variation. C.18 governs an archive used for that purpose.
 
 These cases permit different choices: improving a known performance measure and preserving a possible starting point for new work.
 
@@ -51,5 +53,5 @@ A workshop needs music for listeners who are familiar with 4/4 and are beginning
 
 Recover the request as “choose material that helps these listeners maintain the beat and want to move while encountering 7/8.” The facilitator can start from simpler 7/8 material and adjust from the listeners' response. If the purpose is instead to exercise a skilled drummer's coordination, that practice question needs its own choice of material.
 
-This distinction is supported by Spiech and colleagues' study: Western listeners' groove ratings peaked at moderate complexity in 4/4, while simpler rhythms received the highest ratings in the less common meters tested. Here *groove* means the pleasurable urge to move. The study supports adapting the comparison to listener and meter; the workshop's teaching method supplies the exercise.
+Spiech and colleagues found that Western listeners' groove ratings peaked at moderate complexity in 4/4, while simpler rhythms received the highest ratings in the less common meters tested. Here *groove* means the pleasurable urge to move. The study supports adapting the comparison to listener and meter. The workshop's teaching method supplies the exercise.
 

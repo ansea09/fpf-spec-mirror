@@ -6,12 +6,12 @@ section_id: "C.3:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__002_use-this-when.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.3 — Kinds, Intent and Extent, and Typed Reasoning"
   - "C.3:0 — Use This When"
-line_start: 55071
-line_end: 55084
+line_start: 57347
+line_end: 57360
 dependencies:
   - "A.1"
   - "A.11"
@@ -52,7 +52,7 @@ Use this pattern when a claim needs a reusable kind, a subkind comparison, a jud
 
 **What this buys.** A practitioner can classify an admissible candidate under a known kind without confusing the kind, its declaration and the judgment. A represented set of current members remains available when a query needs it; the conditions being classified retain their own rules.
 
-**Primary EntityOfConcern.** One typed-reasoning question: the exact `U.Kind` individual, its intended candidate domain and membership distinction, any `U.SubkindOf` comparison needed by the claim, and the C.3.2 candidate question the use actually asks. The exact `KindSignature` edition makes its effective designation and interpretation rules recoverable; the scheme and practice/source provenance are not stored on the kind.
+**Primary EntityOfConcern.** One typed-reasoning question: the exact `U.Kind` individual, its intended candidate domain and membership distinction, any `U.SubkindOf` comparison needed by the claim, and the C.3.2 candidate question the use asks. The exact `KindSignature` edition makes its effective designation and interpretation rules recoverable; the scheme and practice/source provenance are not stored on the kind.
 
 **First useful move.** Write the ordinary conclusion first. For example: `Pump #14 counts as a cooling pump in this plant slice because it satisfies the declared cooling-pump condition.` Add a reusable declaration, admissibility detail, explicit judgment, support reference, or extension representation only when a named receiving use needs it.
 

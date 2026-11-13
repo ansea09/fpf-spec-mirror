@@ -6,12 +6,12 @@ section_id: "C.32.MWA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA/C.32.MWA__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.32.MWA — Synthesize an Architecture Account of Methods and Their Use"
   - "C.32.MWA:4 — Solution"
-line_start: 78752
-line_end: 78804
+line_start: 82581
+line_end: 82633
 dependencies:
   - "A.13"
   - "A.15.1"
@@ -41,10 +41,10 @@ Build one readable synthesis from the relations supported by the current case. K
 
 #### C.32.MWA:4.1 - Eight actions
 
-1. **Choose a truthful entry.** For an obtaining organization of Method use, anchor one independently admitted representative performed Work occurrence and the useful result at stake, with A.13 bases before A.15.1 admission; establish the other relied-on relations separately. For a possible-future organization, anchor an intended-use case, `WorkPlan`, or another correctly typed prospective account; state what would put that proposal into use and how later representative Work would test it. Keep actual development or support Work separate from the proposed use. Actual and prospective claims can coexist in the same account.
-2. **Name the subject and participants.** State the subject under discussion (`EntityOfConcern`) and the actual kinds of the participants before classifying rows or positions. A source word such as *practice*, *layer*, *role*, *model*, or *provider* does not settle those kinds.
+1. **Choose an entry.** For an obtaining organization of Method use, anchor one independently admitted representative performed Work occurrence and the useful result at stake, with A.13 bases before A.15.1 admission; establish the other relied-on relations separately. For a possible-future organization, anchor an intended-use case, `WorkPlan`, or another correctly typed prospective account; state what would put that proposal into use and how later representative Work would test it. Keep actual development or support Work separate from the proposed use. Actual and prospective claims can coexist in the same account.
+2. **Name the subject and participants.** State the subject under discussion (`EntityOfConcern`) and the kinds of the participants before classifying rows or positions. A source word such as *practice*, *layer*, *role*, *model*, or *provider* does not settle those kinds.
 3. **Build alternatives for the question.** State whether the alternatives are competing architecture accounts of the same arrangement, proposed changes to that arrangement, or both. Competing accounts can reveal a relation that a sequence-only description misses; proposed changes alter how the Methods would be used or supported. Keep those comparisons distinct. Develop or reuse alternatives that can change the decision or fail on different cases. When NQD is the current generation test, retain NQD-distinct candidates: their novelty is not a relabeling, their use-value preserves the declared constraints, and their diversity exposes different failure modes. A first layout needs examination against the question; retain it when it supplies an adequate answer. Do not turn NQD into one scalar score.
-4. **Recover each relation actually used.** In ordinary words first, state whether the source claim concerns Method composition or order, Work parthood or overlap, a subject relation, description or model use, a capability or provider dependency, cultural dynamics, or another admitted relation. Use the pattern that defines or constrains that relation when the claim matters to the answer. For structures of a Method and its uses, C.30.ASV:4.5a helps select the question before drawing its representation.
+4. **Recover each relation used.** In ordinary words first, state whether the source claim concerns Method composition or order, Work parthood or overlap, a subject relation, description or model use, a capability or provider dependency, cultural dynamics, or another admitted relation. Use the pattern that defines or constrains that relation when the claim matters to the answer. For structures of a Method and its uses, C.30.ASV:4.5a helps select the question before drawing its representation.
 5. **Separate the described objects from their descriptions.** Keep identified Methods, Work, Systems and their relations distinct from the descriptions, models, views and coarse-grained accounts about them. A description can itself be used in Work; name that use separately from what it describes. State the correspondence and the distinctions each description preserves or loses.
 6. **Resolve a whole-identity question when needed.** Use `B.2` when the current claim raises a consequential question about retaining the identified Method, Work, System or Discipline whole or identifying a new one. Keep the existing whole when a supported explanation is sufficient, and retain uncertainty when the needed basis is missing. Reidentify a selected structure under `A.22`'s four identity discriminators when the claim requires a different selected structure.
 7. **Compare conflict and moved burden.** Expose conflicts between candidate structures. For every apparent local repair, ask what residual, constraint, cost, evidence burden, delay, or loss moved to another structure or scope. Compare the alternatives against the named architecture question, not against visual tidiness.
@@ -71,7 +71,7 @@ A compact table can support this account. Symbolic predicates are optional assur
 
 #### C.32.MWA:4.3 - Conditional product-boundary comparison
 
-Only when product identity is the current architecture question, compare these four genuinely different arrangements:
+Only when product identity is the current architecture question, compare these four different arrangements:
 
 1. one domain DPF;
 2. independently maintained sibling DPFs;
@@ -82,7 +82,7 @@ For each arrangement, state the recurring practitioner problem, first useful res
 
 #### C.32.MWA:4.4 - Stop, lower, and reopen
 
-Stop when the short synthesis identifies the truthful entry, selected structures and relations, consequential correspondences and losses, any conflict or moved burden, and the next useful action. Include genuinely different alternatives when the receiving question needs a comparison; an adequate account or retained arrangement can finish without inventing another option. Add a view only when it can change the answer.
+Stop when the short synthesis identifies the entry, selected structures and relations, consequential correspondences and losses, any conflict or moved burden, and the next useful action. Include different alternatives when the receiving question needs a comparison; an adequate account or retained arrangement can finish without inventing another option. Add a view only when it can change the answer.
 
 Lower only the dependent claim when its subject, representative occurrence or prospective anchor, relation, evidence boundary, or required alternative is not recoverable. Preserve independently useful content and obtain the named missing basis from its direct source or pattern.
 

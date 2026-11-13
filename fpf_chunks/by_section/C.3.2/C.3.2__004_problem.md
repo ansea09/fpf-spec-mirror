@@ -6,12 +6,12 @@ section_id: "C.3.2:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__004_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.3.2 — Kind Intent, Membership Judgment, and Extension"
   - "C.3.2:2 — Problem"
-line_start: 55418
-line_end: 55421
+line_start: 57704
+line_end: 57707
 dependencies:
   - "A.14"
   - "A.2.6"

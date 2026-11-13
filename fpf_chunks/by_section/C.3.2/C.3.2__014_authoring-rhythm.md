@@ -6,12 +6,12 @@ section_id: "C.3.2:12"
 section_title: "Authoring Rhythm"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__014_authoring-rhythm.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.3.2 — Kind Intent, Membership Judgment, and Extension"
   - "C.3.2:12 — Authoring Rhythm"
-line_start: 55567
-line_end: 55576
+line_start: 57857
+line_end: 57866
 dependencies:
   - "A.14"
   - "A.2.6"
@@ -30,10 +30,10 @@ keywords:
 ### C.3.2:12 - Authoring Rhythm
 
 1. Start with one readable classification sentence and its practical use.
-2. Recover the exact candidate and the governed criterion conditions before discussing support.
-3. Reuse an existing signature edition only when it truly governs candidate ValueKind, criterion, applicability, scheme, and dependencies.
+2. Recover the candidate and the governed criterion conditions before discussing support.
+3. Reuse an existing signature edition only when it governs candidate ValueKind, criterion, applicability, scheme, and dependencies.
 4. Check admissibility. Stop with `not-applicable` when candidate or slice lies outside the declaration.
 5. For an admissible request, return `true`, `false`, or `unknown` without folding in the guard decision.
 6. Create an extension only for a named set-consuming use.
-7. If a separate assertion is required, give its C.2.1 episteme the exact EntityOfConcern, content, scope, support use, and edition.
+7. If a separate assertion is required, give its C.2.1 episteme the EntityOfConcern, content, scope, support use, and edition.
 

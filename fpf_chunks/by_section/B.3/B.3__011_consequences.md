@@ -6,12 +6,12 @@ section_id: "B.3:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__011_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.3 — Is This Claim Supported for This Use? — Trust and Assurance Calculus"
   - "B.3:9 — Consequences"
-line_start: 45131
-line_end: 45146
+line_start: 46983
+line_end: 46998
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -42,12 +42,12 @@ keywords:
 - Assurance remains explicit without forcing one cross-domain score.
 - A small local claim can stop with the compact result and its recoverable argument.
 - Visible assumptions and dependency structure let the practitioner check whether a calculation applies.
-- Domain safety, access, responsibility, status, and decision rules retain their own meaning.
+- Domain safety, access, responsibility, status, and decision rules retain their meaning.
 - Visible artifacts can contribute useful provenance or evidence without becoming authority.
 
 **Trade-offs**
 
 - B.3 supplies no convenient universal number. A project must use the domain model that gives its inputs meaning.
-- Some assurance questions remain unresolved until a dependency model, calibrated mapping, or direct domain requirement is supplied.
+- Some assurance questions remain unresolved until a dependency model, calibrated mapping, or domain requirement is supplied.
 - Reusable replay records can add cost; include them when the receiving use needs them.
 

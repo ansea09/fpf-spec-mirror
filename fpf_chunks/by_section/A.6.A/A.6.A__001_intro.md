@@ -6,12 +6,12 @@ section_id: "A.6.A:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.A/A.6.A__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.A — Affordance and Action-Invitation Precision Restoration (ACT-INV)"
   - "A.6.A:intro — Intro"
-line_start: 21847
-line_end: 21890
+line_start: 22726
+line_end: 22769
 dependencies:
   - "A.15"
   - "A.16"
@@ -59,13 +59,13 @@ keywords:
 
 **What goes wrong if missed.** A physical opportunity, detected cue, proposed inquiry or interface prompt is read as a capability, duty, permission or completed action. The reader acts on the wording without recovering the claim that would justify that action.
 
-**What this buys.** A sufficient statement of the actual opportunity, prompt, claim or question, with the participants, conditions and subject rule needed for its use. An unresolved rule or fact is returned as an exact gap. An ordinary sentence can be the complete result.
+**What this buys.** A sufficient statement of the opportunity, prompt, claim or question, with the participants, conditions and subject rule needed for its use. An unresolved rule or fact is returned as a gap. An ordinary sentence can be the complete result.
 
 **First useful move.** Recover what the speaker means in this use. Compare the live alternatives—for example, an available physical action, detection of that opportunity, an operator prompt, or a proposed inquiry. State the supported interpretation or the question that distinguishes the remaining alternatives. Apply the recovered subject rule before asserting its result.
 
 **Not this pattern when.** If the claim and its subject are already clear, use that subject pattern directly—for example, for a Method, MethodDescription, WorkPlan, actual Work, ability, duty, gate, evidence, evaluation or publication. A sufficient existing sentence needs no further recovery note.
 
-**Governed move.** This pattern recovers the meaning of affordance-like and action-first wording. Its interpretation menu and optional recovery note do not define one common relation kind or a durable U-kind. Any actual opportunity, relation occurrence, Method, ability or Work that the result names keeps its own subject, obtaining conditions and identity rule.
+**Governed move.** This pattern recovers the meaning of affordance-like and action-first wording. Its interpretation menu and optional recovery note do not define one common relation kind or a durable U-kind. Any opportunity, relation occurrence, Method, ability or Work that the result names keeps its own subject, obtaining conditions and identity rule.
 
 Use **A.6.P** when the recovered content is a relation claim. Other recovered results, including an open inquiry question, go directly to their governing patterns. The recurring repair is to recover meaning, relevant participants and conditions, then express the result sufficiently for the receiving use.
 Preserve an insufficiently articulated cue through `A.16.1` or publish its possible continuations through `B.4.1`. A question can become clear enough for inquiry while its answer remains unknown.
@@ -77,12 +77,12 @@ This recovery lets ecological psychology, phenomenology, active inference, contr
 **C.16.Q** for evaluative-language repair; **C.2.2a, A.16, A.16.1, A.16.2, and B.4.1** for language-state chart positions, articulation and closure coordination, admissible moves, early cue classification, next-use docking, and admissible retreat when a published recovery result must be reopened; use **A.16.0** only when lineage, branch, loss, or an actual responsibility-handoff history itself must be published as an explicit trajectory account; **B.5.2.0** when the recovered result is an explanatory question or candidate inquiry; **C.2.LS, C.2.4, C.2.5, C.2.6, and C.2.7** for articulation and closure readings, source and use claims, and representation-factor readings referenced but not governed here; **A.10** and **B.3** for evidence and assurance; **B.4** and **B.5** for anomaly-driven cycles; **E.17.0** for viewpoint reference resolution and independent view conformance, and **E.17** for publication; **F.9** for Bridges and bounded-use claims; **F.9.1** for optional stance notes about those claims; **C.3.3** for kind-bridge repair when endpoint kind mismatches appear.
 
 **E.10.ARCH relation.**
-A.6.A supplies the wording-recovery method when an `E.10` or `E.10.ARCH` use leaves an affordance-like or action-first phrase ambiguous. Recover the actual claim or question and then its direct governor. Evaluative content goes to `C.16.Q`; ability, Method, Work, duty, evidence, assurance, gate and decision claims use their own patterns. Keep a recovery note only when a later reader needs the interpretation or its grounds.
+A.6.A supplies the wording-recovery method when an `E.10` or `E.10.ARCH` use leaves an affordance-like or action-first phrase ambiguous. Recover the claim or question and then its direct governor. Evaluative content goes to `C.16.Q`; ability, Method, Work, duty, evidence, assurance, gate and decision claims use their own patterns. Keep a recovery note only when a later reader needs the interpretation or its grounds.
 
 **Non-goal.**
 This pattern does **not** assert that physical affordances, interface affordances, social affordances, epistemic probe moves, articulation-closure moves, latent policy cues, and control opportunities are one concept.
 
-Its job is to publish a disciplined treatment of action-first language across those traditions, using a direct contrast when that is enough and an F.9 Bridge only for an exact cross-context semantic-correspondence claim, while preventing false identity by shared language.
+Its job is to publish a treatment of action-first language across those traditions, using a direct contrast when that is enough and an F.9 Bridge only for a cross-context semantic-correspondence claim, while preventing false identity by shared language.
 
 The recovered meaning selects the next pattern:
 

@@ -6,12 +6,12 @@ section_id: "B.5:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5/B.5__006_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.5 — Choose the Next Reasoning Contribution (Canonical Reasoning Cycle)"
   - "B.5:5 — Archetypal Grounding"
-line_start: 46407
-line_end: 46528
+line_start: 48335
+line_end: 48468
 dependencies:
   - "A.10"
   - "B.5.1"
@@ -34,10 +34,12 @@ A triangle is a counterexample: putting the first two adjacent vertices in diffe
 Build the tree by keeping an ordered waiting list. The neighbours of a vertex are the vertices joined to it by an edge.
 
 1. Choose any unseen vertex as a root, mark it seen, give it depth 0 and put it on the waiting list.
-2. Remove the first waiting vertex. For each of its unseen neighbours, mark that neighbour seen, record the removed vertex as its parent, give it the parent's depth plus 1, and append it to the waiting list. A vertex already seen keeps its first parent and depth.
+2. Remove the first waiting vertex. For each of its unseen neighbours, mark that neighbour seen, record the removed vertex as its parent, give it the parent's depth plus 1, and append it to the waiting list. A seen vertex keeps its first parent and depth.
 3. Repeat step 2 until the list is empty. If an unseen vertex remains, start a new root and repeat; this covers disconnected components and isolated vertices.
 
-This is breadth-first search: a discovered vertex waits behind the vertices already waiting. The recorded parent edges form a tree in each component. Assign even-depth vertices to one group and odd-depth vertices to the other. If every graph edge joins opposite parities, these groups give the partition. If an edge joins equal parities, write each endpoint's chain of parents back to the root. Keep the two paths up to their common vertex of greatest depth, discarding the shared part beyond it. The retained paths have an even total length; the extra edge closes a simple odd cycle. An odd cycle cannot alternate between two groups all the way around. Thus the procedure returns either a two-colouring or an odd-cycle witness.
+This is breadth-first search: a discovered vertex waits behind the vertices already waiting. The recorded parent edges form a tree in each component. Assign even-depth vertices to one group and odd-depth vertices to the other. If every graph edge joins opposite parities, these groups give the partition.
+
+If an edge joins equal parities, write each endpoint's chain of parents back to the root. Keep the two paths up to their common vertex of greatest depth, discarding the shared part beyond it. The retained paths have an even total length; the extra edge closes a simple odd cycle. An odd cycle cannot alternate between two groups all the way around. Thus the procedure returns either a two-colouring or an odd-cycle witness.
 
 For a worked traversal, take vertices A–F and edges AB, AC, BD, CE, DF and EF. Start at A and inspect neighbours alphabetically. The waiting list changes as follows; the processed vertex is the parent of each newly found vertex in that row.
 
@@ -52,19 +54,19 @@ For a worked traversal, take vertices A–F and edges AB, AC, BD, CE, DF and EF.
 
 A has depth 0, so the groups are {A,D,E} and {B,C,F}; each of the six edges crosses between them. Now add DE. Its endpoints both have depth 2. Their parent paths D–B–A and E–C–A, joined by DE, give the five-edge cycle D–B–A–C–E–D. The added edge therefore prevents the requested two-group partition.
 
-The decisive idea is parity plus a tree-path construction, not the enumeration of many successful examples. The result answers a mathematical question without an empirical test. To use it for allocation, separately establish that vertices represent the relevant items and edges the actual pairwise incompatibilities. If three-way constraints matter, that application question must change.
+The decisive idea is parity plus a tree-path construction, not the enumeration of many successful examples. The result answers a mathematical question without an empirical test. To use it for allocation, separately establish that vertices represent the relevant items and edges the pairwise incompatibilities. If three-way constraints matter, that application question must change.
 
-The concrete practice targets are to explain the obstruction, construct a partition or failure witness for another finite graph, and handle disconnected components. Assess those capabilities on a changed graph with the references and assistance permitted in the intended work.
+The practice targets are to explain the obstruction, construct a partition or failure witness for another finite graph, and handle disconnected components. Assess those capabilities on a changed graph with the references and assistance permitted in the intended work.
 
 #### B.5:5.2 - A physical question changes the representation
 
 In a constructed engineering case, a cabinet contains two components. The intended question concerns the hottest component, but a proposed lumped model reports only their arithmetic mean temperature.
 
-Let the modeled component temperatures be T1 and T2, with mean m = (T1 + T2)/2. The states (20,80) and (50,50), in degrees Celsius, both give m = 50. Their maxima are 80 and 50. A stipulated threshold of 60 therefore gives different classifications. On a state set containing both pairs, no function of m alone can recover the maximum or that classification.
+Let the modeled component temperatures be T1 and T2, with mean m = (T1 + T2)/2. The states (20,80) and (50,50), in degrees Celsius, both give m = 50. Their maxima are 80 and 50. A stipulated threshold of 60 therefore gives different classifications. On a state set containing both pairs, no function of m can recover the maximum or that classification.
 
 A constructive repair retains the signed contrast d = (T1 − T2)/2. Then T1 = m + d, T2 = m − d, and max(T1,T2) = m + |d|. If an independently supported bound |d| ≤ Δ holds for the physical conditions, m + Δ is an upper bound within that model. Otherwise the contrast has to be estimated or measured, or the inference restricted.
 
-The next physical inquiry is concrete: which temperature differences are possible under the actual loading, coupling and time window; how well does one temperature represent each component; and what measurements and error bounds cover the hottest relevant region? Compare a direct measurement, a two-state model and a qualified conservative bound by the evidence each requires and the decision each can support. Use existing adequate physical knowledge before selecting another experiment.
+For the next physical inquiry, ask: which temperature differences are possible under the loading, coupling and time window; how well does one temperature represent each component; and what measurements and error bounds cover the hottest relevant region? Compare a direct measurement, a two-state model and a qualified conservative bound by the evidence each requires and the decision each can support. Use existing adequate physical knowledge before selecting another experiment.
 
 The mathematical argument exposes the lost information. For physical use, justify the two-temperature approximation. A more accurate fit to the same mean cannot settle that lost distinction. The first useful return is the changed quantity and representation question plus the physical premise that would distinguish the continuations.
 
@@ -72,7 +74,7 @@ The mathematical argument exposes the lost information. For physical use, justif
 
 A service has unexplained latency spikes. B.5.2 supplies a qualified backup-interaction conjecture and serious rivals. Derive an observable contrast between backup and comparison intervals, accounting for traffic and other relevant conditions. If the requisite observations exist, compare them under the domain's inference Method. If they do not, the result can finish as a qualified conjecture and a specified missing test.
 
-A separately qualified operational workaround may already answer the immediate service question. Using it does not require pretending that the causal explanation is established or rerunning a sufficient result through every reasoning contribution.
+A separately qualified operational workaround may answer the immediate service question. Using it does not require pretending that the causal explanation is established or rerunning a sufficient result through every reasoning contribution.
 
 #### B.5:5.4 - A relaxed problem supports a different use
 
@@ -82,19 +84,21 @@ Let x and y count A- and B-jobs. The intended constraints are x in {0,1}, y in {
 
 Recover what that calculation establishes. From the relaxed time constraint, y <= (4 - 3x)/2, so V <= 6 + 0.5x <= 6.5. The returned real-valued pair attains this bound. This is an optimum of the relaxation. The proposed half B-job is excluded by the intended whole-job condition.
 
-For the whole-job question, x = 0 permits at most y = 2 and value 6. With x = 1, the remaining hour permits y = 0 and value 5. Two B-jobs therefore attain the integer optimum 6. The human or tool doing this reasoning can check both feasibility and the comparison directly.
+For the whole-job question, x = 0 permits at most y = 2 and value 6. With x = 1, the remaining hour permits y = 0 and value 5. Two B-jobs therefore attain the integer optimum 6. Check that the selected jobs fit the constraints and compare the best value for x = 0 with the best value for x = 1.
 
-The relaxation still answers a useful question: can any permitted whole-job choice reach value 7? Every integer choice is also feasible for the relaxation, whose proved upper bound is 6.5, so the answer is no. Choosing a realizable assignment needs the integer result; ruling out value 7 needs only the upper bound. With five hours instead, the same argument gives V <= 7.5 + 0.5x <= 8. The choice x = 1, y = 1 attains value 8 in both formulations. The planner can use that relaxed optimum as the whole-job answer because this returned choice satisfies the integer conditions.
+The relaxation answers a useful question: can any permitted whole-job choice reach value 7? Every integer choice is also feasible for the relaxation, whose proved upper bound is 6.5, so the answer is no. Choosing a realizable assignment needs the integer result; ruling out value 7 needs only the upper bound.
 
-Here the human–AI division follows the contribution being sought. A planner can use assisted optimization while being able to state what counts as a whole job, recover the constraints actually solved, and distinguish an attainable choice from an upper bound. If the required work is to develop the optimization Method, its construction and proof become additional capability targets. An exercise can change the time window or divisibility condition and ask the learner to choose the formulation and explain which result answers the question.
+With five hours instead, the same argument gives V <= 7.5 + 0.5x <= 8. The choice x = 1, y = 1 attains value 8 in both formulations. The planner can use that relaxed optimum as the whole-job answer because this returned choice satisfies the integer conditions.
+
+Allocate the work according to the contribution sought. A planner can use assisted optimization while being able to state what counts as a whole job, recover the constraints solved, and distinguish an attainable choice from an upper bound. If the required work is to develop the optimization Method, its construction and proof become additional capability targets. To assess a learner's own capability, change the time window or the divisibility condition. With the assistance allowed in the exercise, the learner chooses the formulation and explains which result answers the question.
 
 #### B.5:5.5 - Understand which composition a theory permits
 
 A practitioner wants one input to feed two operations. Let `X`, `Y` and `Z` be distinct atomic types, with available operations `f: X → Y` and `g: X → Z`. A cartesian account supplies copying, `Δ_X(x) = (x,x)`. The composite `(f × g) ∘ Δ_X` returns `(f(x),g(x))` from one input.
 
-Compare an account generated only by `f`, `g`, identities, serial composition, tensoring and exchange of factors. Here `f ⊗ g` runs the two operations on separately supplied inputs, `X ⊗ X`. Every permitted generator preserves the number of atomic factors; composition and tensoring preserve that property. Therefore those operations cannot construct `X → Y ⊗ Z`. The missing contribution is a second input or an additional copying operation.
+Compare an account generated by `f`, `g`, identities, serial composition, tensoring and exchange of factors. Here `f ⊗ g` runs the two operations on separately supplied inputs, `X ⊗ X`. Every permitted generator preserves the number of atomic factors; composition and tensoring preserve that property. Therefore those operations cannot construct `X → Y ⊗ Z`. The missing contribution is a second input or an additional copying operation.
 
-The receiving work determines whether copying its input is admissible. The comparison exposes that requirement before selecting an implementation. [Baez and Stay, §2.3](https://arxiv.org/pdf/0903.0340), supplies the cartesian/monoidal distinction; the generated-operation case above makes its use explicit.
+The receiving work determines whether copying its input is admissible. The comparison exposes that requirement before selecting an implementation. [Baez and Stay, §2.3](https://arxiv.org/pdf/0903.0340), supplies the cartesian/monoidal distinction; the generated-operation case above shows its use.
 
 #### B.5:5.6 - Choose a first physical model before commissioning a calculation
 
@@ -108,7 +112,9 @@ Model the case as losing heat only to that air through temperature-driven transf
 
 Suppose the steady readings are 80 °C at the component, 25 °C at the case attachment and 20 °C in the surrounding air. Take these values as exact for the first conditional calculation. The component–case difference is 55 °C. Under the proposed model it remains 55 °C when only external cooling changes. Even ideal cooling of the case to the 20 °C air therefore leaves the component at 75 °C. Improving only this part of the heat path cannot meet the 65 °C target under those assumptions.
 
-This result redirects the design question toward the component–case path, a new direct heat path or reduced heating. It also identifies what could invalidate the estimate: direct airflow onto the component changes the assumed path, while temperature-dependent heating or conductance changes the fixed-difference argument. For the real device, check measurement uncertainty and those assumptions before relying on the bound. A useful specialist request is now: 'Given this assembly and load, can the component stay below 65 °C after improving its contact to the case; which additional observations would settle that?' The engineer can request that model and calculation without first specifying its equations.
+This result redirects the design question toward the component–case path, a new direct heat path or reduced heating. It also identifies what could invalidate the estimate: airflow onto the component changes the assumed path, while temperature-dependent heating or conductance changes the fixed-difference argument. For the real device, check measurement uncertainty and those assumptions before relying on the bound.
+
+A useful specialist request is now: 'Given this assembly and load, can the component stay below 65 °C after improving its contact to the case; which additional observations would settle that?' The engineer can request that model and calculation without first specifying its equations.
 
 #### B.5:5.7 - Recover an argument, then change its starting point
 
@@ -120,7 +126,7 @@ A square of n by n unit cells makes the same step visible. Add one row of n cell
 
 Now the requested sum has n terms beginning at 3: 3 + 5 + ... + (2n + 1). Recover which premise changed. These are the first n + 1 positive odd integers with the initial 1 removed. The retained argument therefore gives S(n + 1) - 1 = (n + 1) squared - 1 = n squared + 2n. For four terms, 3 + 5 + 7 + 9 = 24; the old n-squared formula would give 16.
 
-The reusable contribution is the initial-value and increment argument. It lets the reader obtain the changed sum by identifying the changed range and reusing the already established result. A different progression would require recovering its increment before selecting another formula.
+The reusable contribution is the initial-value and increment argument. It lets the reader obtain the changed sum by identifying the changed range and reusing the established result. A different progression would require recovering its increment before selecting another formula.
 
 #### B.5:5.8 - An available report exposes a previously unknown condition of use
 
@@ -128,19 +134,25 @@ In a constructed case, a coordinator asks whether an automatically produced atte
 
 Read one row and recover how it was produced. The transformation counts attendance records grouped by the participant's displayed name. Ask a course leader to demonstrate the intended use: deciding whom to contact about missing sessions. This makes the relevant unit a participant, while the calculation groups by a name. The first question is now whether those identify the same thing in this use.
 
-Construct a small contrast from that relation. Two different participants called Alex, each present once, yield the same name and count as one Alex present twice. The report alone cannot tell the leader whom to contact. This conclusion follows from the grouping rule; it does not establish that a collision occurred in the actual course. A source check can establish whether that condition holds for the present cohort. The data documentation also describes a stable participant identifier, making a previously unconsidered continuation expressible: group by that identifier and retain a suitable display label.
+Construct a contrast from that relation. Two different participants called Alex, each present once, yield the same name and count as one Alex present twice. The report alone cannot tell the leader whom to contact. This conclusion follows from the grouping rule; it does not establish that a collision occurred in the course. A source check can establish whether that condition holds for the present cohort.
 
-The correction needs its own conditions: the identifier must track the participant for the relevant period, and the receiving leader must be permitted to see the resulting information. Those are questions for the data owner and the actual arrangement. If the owner is unavailable today, the analyst can inspect the transformation and prepare a proposed change; that work supplies neither the missing qualification nor permission. A qualified manual source may support today's contact decision, or the dependent decision may have to wait. The total attendance count can remain usable if it is all the recipient needs and its own conditions hold.
+The data documentation also describes a stable participant identifier, making a previously unconsidered continuation expressible: group by that identifier and retain a suitable display label.
 
-Suppose the owner later establishes that names are unique within this cohort. The current report can then support this cohort's participant distinction under that premise. The collision counterexample still exposes the limitation of a general claim about other cohorts; it does not oblige a redesign of every bounded use. Comparing those claims prevents both an unwarranted release and unnecessary work.
+For this correction, the identifier must track the participant for the relevant period, and the receiving leader must be permitted to see the resulting information. Those are questions for the data owner and the arrangement. If the owner is unavailable today, the analyst can inspect the transformation and prepare a proposed change; that work supplies neither the missing qualification nor permission.
+
+A qualified manual source may support today's contact decision, or the dependent decision may have to wait. The total attendance count can remain usable if it is all the recipient needs and its conditions hold.
+
+Suppose the owner later establishes that names are unique within this cohort. The report can then support this cohort's participant distinction under that premise. The collision counterexample exposes the limitation of a general claim about other cohorts; it does not oblige a redesign of every bounded use. Comparing those claims prevents both an unwarranted release and unnecessary work.
 
 The reusable move was to recover an operation from accessible material, connect its output with a demonstrated use, derive a contrast from the mismatched identities and construct a changed continuation. Neither the receiving criterion nor the alternatives had to be fully specified beforehand.
 
 #### B.5:5.9 - Inquiry obtains a distinction before there is an intervention to choose
 
-In a second constructed case, a researcher has measurement traces with an occasional unexplained step. There is no proposed intervention, known cause or useful list of future actions. A small accessible inquiry is to inspect one raw trace and reconstruct how the instrument's software obtains the displayed quantity. This can reveal a measurement operation or a distinction that the present account omits; it does not promise an explanation of the phenomenon.
+In a second constructed case, a researcher has measurement traces with an occasional unexplained step. There is no proposed intervention, known cause or useful list of future actions. An accessible inquiry is to inspect one raw trace and reconstruct how the instrument's software obtains the displayed quantity. This can reveal a measurement operation or a distinction that the present account omits; it does not promise an explanation of the phenomenon.
 
-In this case the reconstruction finds that the display subtracts a reference value which can be updated during recording. Holding the raw reading fixed while changing the reference produces a step in the displayed quantity. This derives a candidate explanation from an exposed operation. It is not evidence that such an update caused the observed event. The next useful contribution is to compare the reference-update record and raw readings with the display at that event, accounting for timing and measurement conditions. If those records do not exist, arranging to retain them in a later observation may make the distinction testable. B.5.2 and the domain research Method govern rival explanations and their assessment.
+In this case the reconstruction finds that the display subtracts a reference value which can be updated during recording. Holding the raw reading fixed while changing the reference produces a step in the displayed quantity. This derives a candidate explanation from an exposed operation. It is not evidence that such an update caused the observed event.
 
-Had the software exposed no such operation, the inspection could finish with a more precise measurement account and an unresolved question. Further work would need its own attainable contribution and grounds. The value of the initial inspection was its plausible access to the measurement process at modest cost, not advance knowledge of the reference update. The inquiry's result concerns understanding; an operational change need not follow.
+The next useful contribution is to compare the reference-update record and raw readings with the display at that event, accounting for timing and measurement conditions. If those records do not exist, arranging to retain them in a later observation may make the distinction testable. B.5.2 and the domain research Method govern rival explanations and their assessment.
+
+Had the software exposed no such operation, the inspection could finish with a more precise measurement account and an unresolved question. Further work would need an attainable contribution and grounds. The value of the initial inspection was its plausible access to the measurement process at modest cost, not advance knowledge of the reference update. The inquiry's result concerns understanding; an operational change need not follow.
 

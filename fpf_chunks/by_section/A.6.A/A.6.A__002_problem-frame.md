@@ -6,12 +6,12 @@ section_id: "A.6.A:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.A/A.6.A__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.A — Affordance and Action-Invitation Precision Restoration (ACT-INV)"
   - "A.6.A:1 — Problem frame"
-line_start: 21891
-line_end: 21926
+line_start: 22770
+line_end: 22805
 dependencies:
   - "A.15"
   - "A.16"
@@ -49,7 +49,7 @@ keywords:
 
 ### A.6.A:1 - Problem frame
 
-FPF repeatedly encounters a predictable precision failure mode around **affordance-like and action-first** language.
+FPF repeatedly encounters a precision failure around **affordance-like and action-first** language.
 
 Authors say:
 
@@ -61,7 +61,7 @@ Authors say:
 * “the model wants to brake”
 * “the situation is actionable”
 
-…but the intended meaning is actually one of several different **action-oriented families**, for example:
+…but the intended meaning is one of several different **action-oriented families**, for example:
 
 1. **Physical affordance** — a physical or environmental configuration offers a bodily action to an embodied agent.
 2. **Interface affordance** — an operator-interface element, operator panel, alarm, or publication face presents an operator move.
@@ -76,7 +76,7 @@ The recurrent failure modes are:
 * **Site confusion.** The invitation-bearing site is unclear: physical entity, scene, interface entity, description episteme, carrier, policy state, or problem episode.
 * **Enactor confusion.** The system that would act is unclear: for example, a human operator, robot controller, team or automation system. An assignment may help designate its holder, but is not itself the actor.
 * **Action confusion.** The candidate action is hidden behind vague language like *actionable*, *calls for*, *ready for*, *natural next step*.
-* **Invitation vs obligation collapse.** A situation that merely invites an action is rewritten as if it already created a duty.
+* **Invitation vs obligation collapse.** A situation that invites an action is rewritten as if it already created a duty.
 * **Invitation vs capability collapse.** A local, situated action opportunity is rewritten as if it were a general capability claim.
 * **Invitation vs work collapse.** Offered action is narrated as if it had already been executed.
 * **Substrate confusion.** Ecological, embodied, latent-distributed, and symbolic-local action cues are silently collapsed.

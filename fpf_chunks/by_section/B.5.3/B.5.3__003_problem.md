@@ -6,12 +6,12 @@ section_id: "B.5.3:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.3/B.5.3__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.5.3 — Interpret Domain Vocabulary for an FPF Claim (Domain-Concept Bridge)"
   - "B.5.3:2 — Problem"
-line_start: 50309
-line_end: 50312
+line_start: 52389
+line_end: 52392
 dependencies:
   - "A.13"
   - "A.15"
@@ -44,5 +44,5 @@ keywords:
 
 ### B.5.3:2 - **Problem**
 
-How can FPF let project teams keep domain vocabulary while preserving the current FPF ontology? A dictionary-style alias is too weak because it only says that two labels are being associated. It does not determine what the local claim asserts or which FPF kind or relation that claim needs.
+How can FPF let project teams keep domain vocabulary while preserving the FPF ontology? A dictionary-style alias is too weak because it only says that two labels are being associated. It does not determine what the local claim asserts or which FPF kind or relation that claim needs.
 

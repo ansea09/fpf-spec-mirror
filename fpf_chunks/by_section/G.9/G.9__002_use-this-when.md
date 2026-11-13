@@ -6,12 +6,12 @@ section_id: "G.9:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.9/G.9__002_use-this-when.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.9 — Parity and Benchmark Harness"
   - "G.9:0 — Use this when"
-line_start: 131118
-line_end: 131139
+line_start: 139186
+line_end: 139207
 dependencies:
   - "A.19"
   - "A.2.6"
@@ -62,9 +62,9 @@ keywords:
 
 #### G.9:0.2 — What this buys
 
-- one exact `ParityPlanRef` that fixes the plan edition, baseline, freshness, comparator, and bridge discipline up front
-- one `ParityReport` that cites that exact plan and echoes its active baseline binding, pins, outcomes, and evidence trace by value
+- one `ParityPlanRef` that fixes the plan edition, baseline, freshness, comparator, and bridge discipline up front
+- one `ParityReport` that cites that plan edition and echoes its active baseline binding, pins, outcomes, and evidence trace by value
 - one harness that downstream selection can consume without inventing a `G.9`-local CSLC gate or a shadow governance card
 
-Illumination, coverage, and regret remain telemetry by default. If they are promoted into dominance, that promotion must be one explicit policy-bound choice rather than one hidden scoring convenience.
+Illumination, coverage and regret are telemetry by default. To use them in dominance, declare the policy that authorizes the promotion and record its ID.
 

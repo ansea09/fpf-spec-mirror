@@ -6,12 +6,12 @@ section_id: "D.5:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.5/D.5__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "D.5 — Bias Audit and Ethical Assurance"
   - "D.5:intro — Intro"
-line_start: 92245
-line_end: 92258
+line_start: 96770
+line_end: 96789
 dependencies:
   - "A.10"
   - "B.3"
@@ -34,9 +34,15 @@ keywords:
 > **Status:** Stable
 
 
-**Use this when.** Use this pattern when you need to examine bias or fairness in a current or intended use, assess its effects on people, or establish what an ethical-assurance claim supports.
+**Use this when.** You need to examine bias or fairness in a current or intended use, assess its effects on people, or establish what an ethical-assurance claim supports.
 
-**Not this pattern when.** If the ethical value frame is missing, use `D.1`. If the current question is multilevel ethics entry, use `D.2`. If the current question is to describe the sides and tension of an interlevel ethical conflict, use `D.3`. If the current question is mediation or decision use of that conflict, use `D.4`. If the current question is only evidence, causality, assurance, measurement, or architecture residual without bias, fairness, human or group impact, or ethical assurance, use the corresponding subject pattern.
+**Not this pattern when.**
+
+- If the ethical value frame is missing, use `D.1`.
+- For multilevel ethics entry, use `D.2`.
+- To describe the sides and tension of an interlevel ethical conflict, use `D.3`.
+- For mediation or decision use of that conflict, use `D.4`.
+- If the question is only evidence, causality, assurance, measurement, or architecture residual without bias, fairness, human or group impact, or ethical assurance, use the corresponding subject pattern.
 
 **What goes wrong if missed.** Ordinary technical verification is accepted as sufficient while bias or harm to affected people remains unexamined.
 

@@ -6,12 +6,12 @@ section_id: "A.15.PROD:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.PROD/A.15.PROD__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.15.PROD — Production Work, Entity-Identity Inception, and Production Completion Recovery"
   - "A.15.PROD:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 33275
-line_end: 33288
+line_start: 34739
+line_end: 34752
 dependencies:
   - "A.1"
   - "A.10"
@@ -40,12 +40,12 @@ keywords:
 | Anti-pattern | Failure | Repair |
 | --- | --- | --- |
 | Every work-caused transformation is production | Modification of a continuing entity is treated as entity creation or completed production. | The repair first recovers work plus actual change and opens only the production question needed by the receiver. |
-| The final visible step created the product | Narrative order substitutes for first satisfaction of the exact applicable identity-specification episteme. | The repair recovers exact `identityClosingWork`, actual effects, the specification episteme, its named applicability predicate or filled local claim, and the earliest satisfying boundary. |
-| Plan or log as production work | Intended or recorded material is treated as the dated occurrence. | The repair recovers exact A.15.1 work and relates plan, log, and evidence separately. |
-| Shared label as work parthood | Two occurrences called *assembly* are treated as parent and part. | The repair states the exact A.15.1 work-part relation or keeps the occurrences separate. |
+| The final visible step created the product | Narrative order substitutes for first satisfaction of the applicable identity-specification episteme. | The repair recovers `identityClosingWork`, actual effects, the specification episteme, its named applicability predicate or filled local claim, and the earliest satisfying boundary. |
+| Plan or log as production work | Intended or recorded material is treated as the dated occurrence. | The repair recovers A.15.1 work and relates plan, log, and evidence separately. |
+| Shared label as work parthood | Two occurrences called *assembly* are treated as parent and part. | The repair states the A.15.1 work-part relation or keeps the occurrences separate. |
 | Work parts imply transformation parts | Composite work is used as proof of a composite transformation. | The repair keeps transformations independently identified and returns the missing transformation-composition governor when needed. |
-| Completion equals acceptance | A later customer or regulator verdict is used as the production-completion criterion. | State completion at its exact historical boundary and govern acceptance separately. |
+| Completion equals acceptance | A later customer or regulator verdict is used as the production-completion criterion. | State completion at its historical boundary and govern acceptance separately. |
 | Current damage erases completion | Present nonconformance is used to deny an earlier satisfied criterion. | Keep the earlier claim indexed by its criterion, applicability basis, boundary, and boundary state; state the later transformation separately. |
-| One omnibus production episteme | Work, inception, completion, delivery, and evidence are put into one claim with a union concern. | The repair splits one local C.2.1 episteme per selected question and direct neighboring claim. |
+| One omnibus production episteme | Work, inception, completion, delivery, and evidence are put into one claim with a union concern. | The repair splits one local C.2.1 episteme per selected question and neighboring claim. |
 | Relation-name escalation | Familiar production wording is promoted to a universal relation kind. | The repair stops at A.6.RCD disposition 2 unless the named use of reusable predicate semantics or occurrence identity justifies the corresponding A.6.RCD continuation. |
 

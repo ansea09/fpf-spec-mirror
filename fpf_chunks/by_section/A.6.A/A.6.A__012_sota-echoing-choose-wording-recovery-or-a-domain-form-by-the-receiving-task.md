@@ -6,12 +6,12 @@ section_id: "A.6.A:11"
 section_title: "SoTA-Echoing — choose wording recovery or a domain form by the receiving task"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.A/A.6.A__012_sota-echoing-choose-wording-recovery-or-a-domain-form-by-the-receiving-task.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.A — Affordance and Action-Invitation Precision Restoration (ACT-INV)"
   - "A.6.A:11 — SoTA-Echoing — choose wording recovery or a domain form by the receiving task"
-line_start: 22408
-line_end: 22432
+line_start: 23297
+line_end: 23321
 dependencies:
   - "A.15"
   - "A.16"
@@ -51,7 +51,7 @@ keywords:
 
 **Practice question.** For §5.2's “This handle affords pulling,” should the receiver first recover the supported claim or directly produce a domain-specific action representation? The selected answer for ambiguous documentation is §4.0a's six-step recovery, stopping at the useful statement, inquiry or missing basis. The serious alternative is to apply the source's established interpretation and manipulation method directly. **Adopt** that shorter route when the intended meaning and receiving interface are already settled. **Reject** choosing an operational form merely because the sentence contains “affords.”
 
-[ReKep, PMLR 270 (2025)](https://proceedings.mlr.press/v270/huang25g.html) supplies a concrete form-and-method alternative: language instructions and RGB-D observations can be converted into constraints over 3D keypoints, then used in optimization for robot actions. It is a serious alternative for an actual manipulation task, not a proposed general theory of wording. **Adapt** its explicit interface demand to the last branch in §5.2: use the representation when the receiver needs that plan and has the required inputs. Its manipulation results do not establish the truth of this pattern's handle claim or validate the six-step recovery.
+[ReKep, PMLR 270 (2025)](https://proceedings.mlr.press/v270/huang25g.html) supplies a concrete form-and-method alternative: language instructions and RGB-D observations can be converted into constraints over 3D keypoints, then used in optimization for robot actions. It is a serious alternative for a manipulation task, not a proposed general theory of wording. **Adapt** its explicit interface demand to the last branch in §5.2: use the representation when the receiver needs that plan and has the required inputs. Its manipulation results do not establish the truth of this pattern's handle claim or validate the six-step recovery.
 
 Compare the same receiving question and supplied inputs when choosing between recovery and a domain method:
 

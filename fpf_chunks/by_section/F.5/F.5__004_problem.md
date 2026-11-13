@@ -6,12 +6,12 @@ section_id: "F.5:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__004_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.5 — Name U-kinds, Local System-Role Kinds and SystemRoleKindDescriptions"
   - "F.5:2 — Problem"
-line_start: 119900
-line_end: 119914
+line_start: 127513
+line_end: 127527
 dependencies:
   - "A.10"
   - "A.15"
@@ -53,7 +53,7 @@ keywords:
 
 ### F.5:2 - Problem
 
-Without this pattern:
+Without a way to check names against their meanings, these errors can arise.
 
 1. **Local terms look global.** `Observation`, `Activity`, or `Process` becomes a U-kind name although it carries one practice's or source's private commitments.
 2. **System-role names become hidden admissions.** A label such as `ReviewerSystemRole` is treated as if the local kind or candidate classification already exists.

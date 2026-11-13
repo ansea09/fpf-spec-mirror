@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.19.UINDM"
-pattern_title: "Indicatorization (UINDM): Select Indicators Under a Declared Policy"
+pattern_title: "Indicatorization: Select Indicators Under a Declared Policy"
 section_id: "A.19.UINDM:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UINDM/A.19.UINDM__011_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.19.UINDM — Indicatorization (UINDM): Select Indicators Under a Declared Policy"
+  - "A.19.UINDM — Indicatorization: Select Indicators Under a Declared Policy"
   - "A.19.UINDM:9 — Consequences"
-line_start: 38094
-line_end: 38106
+line_start: 39627
+line_end: 39639
 dependencies:
 keywords:
   - "CHR suite stage indicatorize"
@@ -19,7 +19,7 @@ keywords:
   - "IndicatorChoicePolicy"
   - "indicator set"
   - "indicatorization"
-  - "tri-state admissibility (pass"
+  - "tri-state admissibility (pass\\"
 ---
 
 ### A.19.UINDM:9 - Consequences
@@ -33,5 +33,5 @@ keywords:
 **Costs / trade‑offs**
 
 * Adds an explicit step (and explicit policy work) before scoring/comparison.
-* Strict fail‑closed behavior can increase early `degrade/abstain` outcomes until evidence and policies are properly specified.
+* Fail‑closed behavior can increase early `degrade/abstain` outcomes until evidence and policies are properly specified.
 

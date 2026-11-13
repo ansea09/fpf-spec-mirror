@@ -6,12 +6,12 @@ section_id: "C.11.DUA:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.DUA/C.11.DUA__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.11.DUA — Make Advice and Evidence Demands Worth Their Burden"
   - "C.11.DUA:1 — Problem frame"
-line_start: 57825
-line_end: 57836
+line_start: 60170
+line_end: 60181
 dependencies:
   - "A.10"
   - "C.11"
@@ -34,7 +34,7 @@ An engineer reports that a discharge criterion was below the incoming background
 
 The broad activity is decision support through advice. This pattern addresses the branch in which advice turns uncertainty or a requirement into consequential work for its recipient. Its subject is the **advice statement or requirement being composed or examined**, including the action or inquiry it demands. An empirical claim, recommendation, method instruction and binding requirement retain their different meanings and force. The method recovers the demand, appraises it and returns a usable continuation.
 
-**First useful result.** Give the supported answer or repaired advice, the continuation available to the recipient, and any limitation that changes its use. The result can be an explanation, recommendation, bounded inquiry, proposed requirement revision or an honest impasse. Ordinary prose is sufficient.
+**First useful result.** Give the supported answer or repaired advice, the continuation available to the recipient, and any limitation that changes its use. The result can be an explanation, recommendation, bounded inquiry, proposed requirement revision or an impasse. Ordinary prose is sufficient.
 
 **Ordinary non-use boundary.** If the question, support and feasible answer are already clear, answer directly. Use `A.10` directly for a source-reliance question, `C.11` for an already adequate local choice, or `C.19.2` for economical application under an undisputed declaration. This composition adds value when somebody otherwise has to reconstruct the connection between those questions. Domain inference, experimental design, permission and enactment remain with their own methods and authorities.
 

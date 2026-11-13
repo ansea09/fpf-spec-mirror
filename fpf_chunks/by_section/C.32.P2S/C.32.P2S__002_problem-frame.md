@@ -6,56 +6,60 @@ section_id: "C.32.P2S:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.P2S/C.32.P2S__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.32.P2S — Problem-to-Structure Architecturing Unfolding"
   - "C.32.P2S:1 — Problem frame"
-line_start: 76932
-line_end: 77053
+line_start: 80605
+line_end: 80756
 dependencies:
   - "A.1"
   - "A.1.SCR"
   - "A.1.STM"
   - "A.15.6"
   - "A.22"
-  - "A.22.CGUS"
-  - "A.3.4"
-  - "B.2"
   - "C.22.2"
   - "C.25"
   - "C.29"
   - "C.30"
-  - "C.30.AD"
-  - "C.30.ASV"
-  - "C.30.ILC"
-  - "C.30.TFS-REL"
   - "C.31"
   - "C.32"
-  - "C.32.ACE"
-  - "C.32.ACS"
-  - "C.32.CONWAY"
-  - "C.32.FAIL"
-  - "C.32.HCS"
-  - "C.32.MLAO"
   - "C.33"
-  - "C.34"
   - "C.35"
   - "E.17"
-  - "E.18"
-  - "E.18.3"
   - "E.24.PUB"
 keywords:
 ---
 
 ### C.32.P2S:1 - Problem frame
 
-Use this pattern when an architect or architecture-responsible practitioner has a stated receiving-use basis and must carry its architecture pressure through selected structures, candidate synthesis, project architecture decision, realization Work, actual-structure feedback, and the next action selected for the current question. In a systemic product undertaking, recover the common SoI and useful use that justify the architecture. In work on its creator, keep the organization as the architectural subject and connect its needed capability to that product use. An independently warranted non-system result retains its own receiving question. When a needed use, boundary or functioning hypothesis remains unclear, recover that particular basis before relying on the dependent architecture choice.
+Use this pattern when an architect or architecture-responsible practitioner has a stated receiving-use basis and must carry its architecture pressure through selected structures, candidate synthesis, project architecture decision, realization Work, actual-structure feedback, and the next action selected for the current question.
 
-The common first moment is practical: a required function has no recoverable bearer; an architecture characteristic is failing; a cross-scope residual survives local repair; a modularity, reuse, interface, scale, or description-loss problem blocks action; one typed Work, communication, tool, method, deployment, evidence, selected-structure, or architecture-side source cannot yet sustain the transformed-side architecture content needed for the changed referent; or operation shows that expected structures and actual structures diverge.
+In a systemic product undertaking, recover the common SoI and useful use that justify the architecture. In work on its creator, keep the organization as the architectural subject and connect its needed capability to that product use. An independently warranted non-system result retains its own receiving question. When a needed use, boundary or functioning hypothesis remains unclear, recover that basis before relying on the dependent architecture choice.
+
+Common starting situations include:
+
+- A required function has no recoverable bearer.
+- An architecture characteristic is failing.
+- A cross-scope residual survives local repair.
+- A modularity, reuse, interface, scale, or description-loss problem blocks action.
+- One typed Work, communication, tool, method, deployment, evidence, selected-structure, or architecture-side source cannot yet sustain the transformed-side architecture content needed for the changed referent.
+- Operation shows that expected structures and actual structures diverge.
 
 The first useful result explains how the architecture pressure bears on the structures needed for the outside use and what the receiving work needs next. An ordinary account can be sufficient. Use `ProblemToStructureArchitecturingFlowCard@Project` when a reusable record helps keep those connections recoverable. The card is a working `U.Episteme` about one project-local P2S architecturing transformation flow; the flow, Method, descriptions, decisions and Work remain independently identified objects.
 
-For the first pass, make the following content recoverable, using the card only when needed: exact problem claim or pressure, described holon, architecture question and intended use, ClaimScope or qualification window when material, first pattern to use, one unknown or selected structure, selected transformation-flow structure when one is actually relied on, and pattern for the next claim. Add decision, work, eval, publication, and feedback refs only when the corresponding question becomes current.
+For the first pass, make the following content recoverable, using the card only when needed:
+
+- problem claim or pressure;
+- described holon;
+- architecture question and intended use;
+- ClaimScope or qualification window when material;
+- first pattern to use;
+- one unknown or selected structure;
+- selected transformation-flow structure when one is relied on;
+- pattern for the next claim.
+
+Add decision, work, eval, publication, and feedback refs only when the corresponding question becomes current.
 
 ```text
 ProblemToStructureArchitecturingFlowCard@Project:
@@ -67,15 +71,15 @@ ProblemToStructureArchitecturingFlowCard@Project:
   intendedArchitectureUse:
   claimScopeRef?: U.ClaimScope
   qualificationWindowRef?:
-  transformationFlowStructureRef?: exact independently selected E.18 structure used by this flow
+  transformationFlowStructureRef?: independently selected E.18 structure used by this flow
   architectingSystemRef?: U.EntityRef constrained to U.System
   architectingAssignmentSpeciesRef?: U.RelationKindRef constrained under U.SystemRoleAssignment
   architectingSystemRoleAssignmentRef?: U.RelationRef constrained to U.SystemRoleAssignment, naming the obtaining occurrence when an assignment claim is current
 
   firstPatternLocator:
   problemPressure:
-    acceptedProblemCardRef?: U.EpistemeRef resolving to one exact C.22.2 ProblemCard
-    actualProblematicForRelationRef?: U.RelationRef resolving to one exact C.22.PFR occurrence, only when an actual Problem is independently current
+    acceptedProblemCardRef?: U.EpistemeRef resolving to one C.22.2 ProblemCard
+    actualProblematicForRelationRef?: U.RelationRef resolving to one C.22.PFR occurrence, only when an actual Problem is independently current
 
     pressureKind:
     problemPressureSignalRefs?:
@@ -83,9 +87,9 @@ ProblemToStructureArchitecturingFlowCard@Project:
     architectureConcernRefs?:
     currentStopOrReturnReason?:
   architectureContent:
-    architectureQuestionCardRef?: U.EpistemeRef resolving to one exact C.30 ArchitectureQuestionCard@Project
-    architectureClaimRefs[]?: exact C.30 ArchitectureClaimRefs
-    currentArchitectureRelationRefs[]?: exact obtaining C.30 ArchitectureRelation refs
+    architectureQuestionCardRef?: U.EpistemeRef resolving to one C.30 ArchitectureQuestionCard@Project
+    architectureClaimRefs[]?: C.30 ArchitectureClaimRefs
+    currentArchitectureRelationRefs[]?: obtaining C.30 ArchitectureRelation refs
 
     candidateStructureKindRefs?:
     selectedStructureRefs?:
@@ -117,7 +121,7 @@ ProblemToStructureArchitecturingFlowCard@Project:
     performedWorkAttributionRefs?: refs to obtaining F.6 performedUnderAssignment relations only when the flow or receiving use expressly represents attribution
 
     actualTransformationRefs?:
-    workToChangeRelationRefs?: Work-to-change relations that actually obtain
+    workToChangeRelationRefs?: Work-to-change relations that obtain
     workToChangeRuleRefs?: refs to applicable rules in the cited patterns, or to local claims selected under A.6.RCD disposition 2
     productionWorkClaimRefs?:
     entityIdentityInceptionClaimRefs?:
@@ -128,18 +132,18 @@ ProblemToStructureArchitecturingFlowCard@Project:
     influenceSourceRows[]?: asserted influence facts only
       influenceSourceRef:
       influenceSourceKindRef:
-      exactInfluenceRelationRef: U.RelationRef to a relation that actually obtains and has a declared predicate
+      exactInfluenceRelationRef: U.RelationRef to a relation that obtains and has a declared predicate
       influencePatternLocator:
     influenceSourceArchitectureMaps[]?:
       influenceSourceHolonRef:
-      influenceSourceArchitectureRelationRef?: exact obtaining C.30 ArchitectureRelation ref
-      influenceSourceArchitectureClaimRef?: exact C.30 ArchitectureClaimRef for modal content
+      influenceSourceArchitectureRelationRef?: obtaining C.30 ArchitectureRelation ref
+      influenceSourceArchitectureClaimRef?: C.30 ArchitectureClaimRef for modal content
       influenceSourceSelectedStructureRefs:
     transformedHolonRef:
-    transformedArchitectureRelationRef?: exact obtaining C.30 ArchitectureRelation ref
-    transformedArchitectureClaimRef?: exact C.30 ArchitectureClaimRef for modal content
+    transformedArchitectureRelationRef?: obtaining C.30 ArchitectureRelation ref
+    transformedArchitectureClaimRef?: C.30 ArchitectureClaimRef for modal content
     transformedSelectedStructureRefs:
-    correspondenceFrameOrPairRowRef: C.32.CONWAY synthesis-local frame or exact pair-row ref
+    correspondenceFrameOrPairRowRef: C.32.CONWAY synthesis-local frame or pair-row ref
   feedback:
     evalProgramRefs?:
     evalResultRefs?:
@@ -159,13 +163,23 @@ ProblemToStructureArchitecturingFlowCard@Project:
   patternForNextClaim:
 ```
 
-For `ProblemToStructureArchitecturingFlowCard@Project`, `flowId` designates the exact project-local P2S architecturing transformation flow that is the card's C.2.1 EntityOfConcern. The claims carried by the filled card and the effective reference scheme for its designations remain recoverable; changed claim content, changed flow EntityOfConcern, or changed effective reference scheme identifies another card episteme. `@Project` is a compatibility and retrieval cue only. It establishes no project entity, composite-work identity, context, authority, viewpoint, or parthood. When the card is genuinely used in one actual project, `projectWorkOccurrenceRef` identifies the exact composite Work occurrence admitted under `U.Work` and `architecturingFlowCardProjectUseRelationRef` identifies the direct relation by which architecturing work uses the card. The card, the architecturing work it helps coordinate, and the larger project work remain distinct.
+For `ProblemToStructureArchitecturingFlowCard@Project`, `flowId` designates the project-local P2S architecturing transformation flow that is the card's C.2.1 EntityOfConcern. The claims carried by the filled card and the effective reference scheme for its designations remain recoverable; changed claim content, changed flow EntityOfConcern, or changed effective reference scheme identifies another card episteme.
 
-The problem, architecting-side, realization, and architecture refs point to independently established objects; they are not P2S relation kinds. `acceptedProblemCardRef` resolves to one C.22.2 C.2.1 episteme; the nested signal and pressure fields neither constitute that card nor make an actual Problem obtain. An assignment claim uses `architectingAssignmentSpeciesRef` and `architectingSystemRoleAssignmentRef` for its separately declared species and obtaining occurrence; it supplies neither classification nor performance. When performance is current, each exact performer first has its A.13 core and each `performedWorkRef` names Work independently admitted through A.15.1. `performedWorkAttributionRefs` are optional and appear only when the flow or receiving use expressly represents precise assignment-bound attribution through the same obtaining A.13 assignment; missing or failed F.6 attribution alone leaves the Work refs intact while the independent A.13/A.15.1 grounds for each referenced Work still hold. Authority, responsibility, capability, Work, assignment, attribution, and result remain separate.
+`@Project` is a compatibility and retrieval cue only. It establishes no project entity, composite-work identity, context, authority, viewpoint, or parthood.
 
-`actualTransformationRefs` name independently identified actual changes under `A.3.4`. The Work-to-change fields pair each relation that actually obtains with the cited pattern or local claim used to check it. The three production refs resolve to separate local `A.15.PROD` claims and remain absent when their particular question is not current.
+When the card is used in one project, `projectWorkOccurrenceRef` identifies the composite Work occurrence admitted under `U.Work` and `architecturingFlowCardProjectUseRelationRef` identifies the direct relation by which architecturing work uses the card. The card, the architecturing work it helps coordinate, and the larger project work remain distinct.
 
-`actualStructureRefs` name subject-side `U.Structure` values whose declared substrate and selected relation organization are recovered under `A.22` from direct facts that actually obtain; they introduce neither an `ActualStructure` kind nor an actualization relation. Use C.30 to keep the described holon, obtaining `ArchitectureRelation` occurrences, selected structures, and any affirmative, negative, unresolved, candidate, required, desired, or expected `ArchitectureClaim` content separate. `actualStructureDescriptionRefs` name later descriptions of those structures and do not make them actual.
+The problem, architecting-side, realization, and architecture refs point to independently established objects; they are not P2S relation kinds. `acceptedProblemCardRef` resolves to one C.22.2 C.2.1 episteme; the nested signal and pressure fields neither constitute that card nor make an actual Problem obtain.
 
-Not this pattern when the current work is only a problem card, only a grounded architecture claim, only a structural view, only a candidate palette, only a project architecture decision, only an ADR-like publication, only work planning, only performed work, only measurement, only a mathematical lens, or only `G.11` currentness, freshness, telemetry, edition, or decay orchestration. Use the pattern named in `Relations` for that narrower claim.
+An assignment claim uses `architectingAssignmentSpeciesRef` and `architectingSystemRoleAssignmentRef` for its separately declared species and obtaining occurrence; it supplies neither classification nor performance.
+
+When performance is current, each performer first has its A.13 core and each `performedWorkRef` names Work independently admitted through A.15.1. `performedWorkAttributionRefs` are optional and appear only when the flow or receiving use expressly represents precise assignment-bound attribution through the same obtaining A.13 assignment; missing or failed F.6 attribution alone leaves the Work refs intact while the independent A.13/A.15.1 grounds for each referenced Work still hold. Authority, responsibility, capability, Work, assignment, attribution, and result remain separate.
+
+`actualTransformationRefs` name independently identified actual changes under `A.3.4`. The Work-to-change fields pair each relation that obtains with the cited pattern or local claim used to check it. The three production refs resolve to separate local `A.15.PROD` claims and remain absent when their question is not current.
+
+`actualStructureRefs` name subject-side `U.Structure` values whose declared substrate and selected relation organization are recovered under `A.22` from direct facts that obtain; they introduce neither an `ActualStructure` kind nor an actualization relation.
+
+Use C.30 to keep the described holon, obtaining `ArchitectureRelation` occurrences, selected structures, and any affirmative, negative, unresolved, candidate, required, desired, or expected `ArchitectureClaim` content separate. `actualStructureDescriptionRefs` name later descriptions of those structures and do not make them actual.
+
+For work limited to a problem card, a grounded architecture claim, a structural view, a candidate palette, a project architecture decision, an ADR-like publication, work planning, performed work, measurement, a mathematical lens, or `G.11` currentness, freshness, telemetry, edition, or decay orchestration, use the pattern named in `Relations` for that narrower claim.
 

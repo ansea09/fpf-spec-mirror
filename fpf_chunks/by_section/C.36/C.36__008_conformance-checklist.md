@@ -6,12 +6,12 @@ section_id: "C.36:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36/C.36__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.36 — Cultural Evolution and Cultural-Evolution Engineering"
   - "C.36:7 — Conformance Checklist"
-line_start: 81634
-line_end: 81649
+line_start: 85623
+line_end: 85638
 dependencies:
   - "A.1"
   - "A.10"
@@ -63,15 +63,15 @@ keywords:
 
 | Check | Passing observation |
 |---|---|
-| **CC-C36-1 — Recognizable case** | The text names the practice, population, collective, or Discipline boundary; the variants; the cultural-evolution relation currently at issue; and the next action or stop. |
+| **CC-C36-1 — Recognizable case** | The text names the practice, population, collective, or Discipline boundary; the variants; the cultural-evolution relation at issue; and the next action or stop. |
 | **CC-C36-2 — Small first result** | A cold reader can use the one-sentence case or small case card before encountering the assurance expansion. Optional fields appear only when their identities change a later claim. |
 | **CC-C36-3 — Recovered objects** | Familiar words such as *culture*, *style*, *tradition*, *practice*, *platform*, *regime*, and *technique* do not stand in for several unseparated FPF objects or relations. |
-| **CC-C36-4 — Project choice** | A project decision or authorization is recorded through its direct pattern and is not offered as evidence of transmission, recognition, selection, retention, loss, intervention performance, or effect. |
-| **CC-C36-5 — Proposal, Work, and effect** | A proposed intervention, planned Work, performed Work, actual transformation, Work-to-change relation, and measured effect remain separate. Every asserted Work occurrence has exact A.13-qualified performers and independent A.15.1 admission. Assignment and F.6 refs appear only when the card or receiving use expressly represents precise assignment-bound attribution. |
+| **CC-C36-4 — Project choice** | A project decision or authorization is recorded through the pattern for that claim and is not offered as evidence of transmission, recognition, selection, retention, loss, intervention performance, or effect. |
+| **CC-C36-5 — Proposal, Work, and effect** | A proposed intervention, planned Work, performed Work, actual transformation, Work-to-change relation, and measured effect remain separate. Every asserted Work occurrence has A.13-qualified performers and independent A.15.1 admission. Assignment and F.6 refs appear only when the card or receiving use expressly represents precise assignment-bound attribution. |
 | **CC-C36-6 — Population observation** | Observed spread, popularity, persistence, or loss identifies its population, period, relation, observation basis and any measurement being relied on; it neither authorizes the project nor proves the intervention caused the observation. |
-| **CC-C36-7 — Mediation** | A platform, recommender, archive, publication, or provider is named by its actual kind and relation. Mediation does not become selection, value, authority, or cultural control by label. |
+| **CC-C36-7 — Mediation** | A platform, recommender, archive, publication, or provider is named by its kind and relation. Mediation does not become selection, value, authority, or cultural control by label. |
 | **CC-C36-8 — Separate effect test** | The intervention's expected effect, observed value, measurement relation, and effect claim are recoverable separately; observing a value alone does not prove the effect. |
-| **CC-C36-9 — Neighbor boundary** | Archive/front, pool, selected-set, local-choice, publication, architecture, currentness, transformation, Work, and mathematical-model claims use their direct patterns when current. |
+| **CC-C36-9 — Neighbor boundary** | Use the patterns for archive/front, pool, selected-set, local-choice, publication, architecture, currentness, transformation, Work, and mathematical-model claims when those claims are at issue. |
 | **CC-C36-10 — Source and refresh** | Every adopted SoTA move retains its stated limit and currentness trigger; a source label or newer date alone does not establish a cultural relation. |
-| **CC-C36-11 — Possible development** | When the question is how the practice may develop, the answer retains credible action-changing hypotheses and relevant uncertainty; it may finish as a bounded forecast or continuation on sufficient available grounds. A selected observation or intervention has a feasible, worthwhile receiving contribution, including study-design effort and displaced work. Use `B.5`/`B.5.2` for needed hypotheses and consequences, `C.11.DUA` for a questionable inquiry demand, `C.11` for an already formed bounded choice, and the direct DPF or field Method for selected inquiry. There is no fixed hypothesis count or compulsory next probe. Actual tested change, temporal, dynamics, and causal claims keep their direct evidence conditions. |
+| **CC-C36-11 — Possible development** | When the question is how the practice may develop, the answer retains credible action-changing hypotheses and relevant uncertainty; it may finish as a bounded forecast or continuation on sufficient available grounds. A selected observation or intervention has a feasible, worthwhile receiving contribution, including study-design effort and displaced work. Use `B.5`/`B.5.2` for needed hypotheses and consequences, `C.11.DUA` for a questionable inquiry demand, `C.11` for an already formed bounded choice, and the DPF or field Method for selected inquiry. There is no fixed hypothesis count or compulsory next probe. Actual tested change, temporal, dynamics, and causal claims keep the evidence conditions set by their own patterns. |
 

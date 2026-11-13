@@ -6,12 +6,12 @@ section_id: "E.10.INT:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.INT/E.10.INT__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.10.INT — Recovering What Interest or Curiosity Means Here"
   - "E.10.INT:7 — Conformance Checklist"
-line_start: 100931
-line_end: 100939
+line_start: 106585
+line_end: 106593
 dependencies:
   - "C.11"
   - "C.16"

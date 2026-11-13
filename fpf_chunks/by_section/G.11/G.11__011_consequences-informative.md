@@ -6,12 +6,12 @@ section_id: "G.11:9"
 section_title: "Consequences (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.11/G.11__011_consequences-informative.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.11 — Decide Whether and How to Refresh SoTA Packs and Related Results (Telemetry and Decay)"
   - "G.11:9 — Consequences (informative)"
-line_start: 132469
-line_end: 132475
+line_start: 140592
+line_end: 140598
 dependencies:
   - "A.10.1"
   - "A.6.RCD"
@@ -50,6 +50,6 @@ keywords:
 
 * **Selective, replayable upkeep.** The practitioner can retain a sufficient result or trace selected refresh from its changed premise through dependent uses to performed work and its results.
 * **Stable semantics with flexible operations.** Trigger meaning is centralized (`G.Core`), while scheduling sophistication can evolve as policy-bound extensions.
-* **Clear governing-definition assignment boundaries.** Orchestration coordinates actions under their governing definitions; it does not redefine their semantics (shipping remains `G.10`, selection remains `G.5`, etc.).
+* **Governing definitions.** Refresh coordinates actions under their existing rules. For example, `G.10` governs shipping and `G.5` governs selection.
 * **Cost: pin discipline overhead.** Authors carry the ids, editions and policies needed to make refresh comparable and to recover its dependencies.
 

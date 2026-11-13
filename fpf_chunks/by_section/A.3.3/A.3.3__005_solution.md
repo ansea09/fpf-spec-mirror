@@ -6,12 +6,12 @@ section_id: "A.3.3:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3/A.3.3__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.3.3 — U.Dynamics: State-Space and Transition-Law Episteme"
   - "A.3.3:4 — Solution"
-line_start: 11995
-line_end: 12134
+line_start: 12412
+line_end: 12555
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -49,14 +49,14 @@ keywords:
 
 #### A.3.3:4.1 - Definition
 
-`U.Dynamics` is a same-individual dependent kind of `U.Episteme`. Membership holds when one already identified episteme has the changing subject as its exact C.2.1 `EntityOfConcern` and its ClaimGraph, interpreted under the effective reference scheme, substantively declares both a state space and a state-transition law for that subject. The law may include exogenous inputs, constraints, disturbances, and an observation relation.
+`U.Dynamics` is a same-individual dependent kind of `U.Episteme`. Membership holds when one already identified episteme has the changing subject as its C.2.1 `EntityOfConcern` and its ClaimGraph, interpreted under the effective reference scheme, substantively declares both a state space and a state-transition law for that subject. The law may include exogenous inputs, constraints, disturbances, and an observation relation.
 
-The C.2.1 ClaimGraph, exact `EntityOfConcern`, and effective reference scheme remain the episteme's identity discriminators. A.3.3 adds no context field or second dynamics identity. A `U.ClaimScope`, operating region, applicability window, qualification interval, parameter regime, or scale band enters only through the exact claim that uses it and its subject pattern; changing one can change claim content without becoming an ambient container.
+The C.2.1 ClaimGraph, `EntityOfConcern`, and effective reference scheme remain the episteme's identity discriminators. A.3.3 adds no context field or second dynamics identity. A `U.ClaimScope`, operating region, applicability window, qualification interval, parameter regime, or scale band enters only through the claim that uses it and its subject pattern; changing one can change claim content without becoming an ambient container.
 
-`U.Dynamics` can declare a deterministic transition, permitted alternatives, a probability law over continuations, or a combination of these. Its time description can be continuous, discrete or hybrid. It can make state-change claims about physical systems, software services, organizations, epistemes, claim portfolios, resource states, architecture characteristics, or another exact EntityOfConcern. If several subjects are jointly modelled, the exact C.2.1 EntityOfConcern must itself be an independently identified collection, system, or other admitted subject.
+`U.Dynamics` can declare a deterministic transition, permitted alternatives, a probability law over continuations, or a combination of these. Its time description can be continuous, discrete or hybrid. It can make state-change claims about physical systems, software services, organizations, epistemes, claim portfolios, resource states, architecture characteristics, or another EntityOfConcern. If several subjects are jointly modelled, the C.2.1 EntityOfConcern must itself be an independently identified collection, system, or other admitted subject.
 
 
-If empirical grounding is claimed, state the exact C.2.1 `EpistemeEmpiricalGroundingRelation`.
+If empirical grounding is claimed, state the C.2.1 `EpistemeEmpiricalGroundingRelation`.
 
 #### A.3.3:4.2 - Dynamics statement
 
@@ -92,10 +92,10 @@ Use a contribution below when its question arises while constructing or using th
 | Question now requiring an answer | Contribution |
 | --- | --- |
 | Which reusable way is being identified, and does the episteme describe that way? | A.3.1 identifies the `U.Method`; A.3.2 tests whether an episteme substantively describes that admitted Method. |
-| Does a proposed whole Method have the claimed parts and whole behavior? | B.1.5 establishes the exact part Methods, obtaining `methodPartOf` relations, whole-forming claims and constraints, whole semantics, boundary and reidentification. |
+| Does a proposed whole Method have the claimed parts and whole behavior? | B.1.5 establishes the part Methods, obtaining `methodPartOf` relations, whole-forming claims and constraints, whole semantics, boundary and reidentification. |
 | What work is planned, or what was actually performed? | A.15.2 identifies the `U.WorkPlan` episteme coordinating possible future Work; A.15.1 independently admits dated performed `U.Work` and establishes its actuals. |
 | Does the question concern a continuing role assignment or a particular state episode within it? | A.2.5 distinguishes the assignment from its `SystemRoleAssignmentStateRelation` occurrence: one maximal uninterrupted episode in which the specified predicate holds while that assignment remains in force. Select the subject the modeled change or prediction concerns. |
-| Is one actual bounded change established? | A.3.4 requires the exact changed referent, temporal extent under its continuity rule or formal ordering boundary, boundary conditions, actual characteristic-state and obtaining direct-relation facts, and continuity or reidentification. |
+| Is one actual bounded change established? | A.3.4 requires the changed referent, temporal extent under its continuity rule or formal ordering boundary, boundary conditions, actual characteristic-state and obtaining direct-relation facts, and continuity or reidentification. |
 | Which independently selected organization of constituents and obtaining relations is being used? | A.22 identifies that Structure, including a selected transformation-flow organization. |
 | Which operation or law-governed application is admissible over the subject kind? | A.6.1 identifies the `U.Mechanism` episteme declaring the operation family, laws and admissibility conditions. Use E.20 when introducing or revising a mechanism definition in FPF. |
 | Which mathematical substrate or transferred representation supports the model? | Use the direct mathematical Method; use A.6.0 when the model needs a reusable formal-substrate declaration. Section :4.7 specifies the C.29 transfer question. |
@@ -128,7 +128,11 @@ U.Dynamics membership view {
 }
 ```
 
-`stateSpace` is claim content of this `U.Dynamics` episteme. It refers to an A.19 `CharacteristicSpace`: the product of declared characteristic value sets. The model states which combinations are admitted, through constraints or a predicate over that product. A.3.3.CC constructs such a configuration description; a predictive state can require additional information under :4.4.1. Characteristics retain their local meanings, units, Scales and comparability rules; C.16 supplies measurement construction when needed. A receiving evaluation may reuse this CharacteristicSpace; its scoring and judgement belong to that evaluation. Topology, geometry, aggregation or coordinate transformations are supplied over the domain where trajectories or comparisons use them; an independently selected organization of constituents and obtaining relations remains A.22 `U.Structure`.
+`stateSpace` is claim content of this `U.Dynamics` episteme. It refers to an A.19 `CharacteristicSpace`: the product of declared characteristic value sets. The model states which combinations are admitted, through constraints or a predicate over that product. A.3.3.CC constructs such a configuration description; a predictive state can require additional information under :4.4.1.
+
+Characteristics retain their local meanings, units, Scales and comparability rules; C.16 supplies measurement construction when needed. A receiving evaluation may reuse this CharacteristicSpace; its scoring and judgement belong to that evaluation.
+
+Topology, geometry, aggregation or coordinate transformations are supplied over the domain where trajectories or comparisons use them; an independently selected organization of constituents and obtaining relations remains A.22 `U.Structure`.
 
 `transitionLaw` is paradigm-agnostic. It can be an equation, relation, kernel, finite-state transition, queueing model, Bayesian update, Petri-net firing relation, simulation rule, learned predictor, or hybrid model, provided the state space, semantic basis, and applicability boundary are declared.
 
@@ -153,12 +157,12 @@ The construction can finish before a complete dynamics model exists: a useful re
 
 #### A.3.3:4.5 - Evidence, prediction, conformance, drift, and calibration
 
-Let `D` be a `U.Dynamics` about exact EntityOfConcern `E`. Let `W` denote only exact dated `U.Work` occurrences when Work is current, and let `O` denote separately identified observation, telemetry, source, or measurement records.
+Let `D` be a `U.Dynamics` about EntityOfConcern `E`. Let `W` denote only dated `U.Work` occurrences when Work is current, and let `O` denote separately identified observation, telemetry, source, or measurement records.
 
 | Derived value | Meaning |
 | --- | --- |
-| `trace(W, O, D)` | ordered observed values produced by the declared observation relation from exact Work-side facts when present and separately identified telemetry, source, observation, or measurement records |
-| `initialState(W, O, D)` | stated, measured, or estimated state at trace start, with the exact statement or result and its subject pattern recoverable |
+| `trace(W, O, D)` | ordered observed values produced by the declared observation relation from Work-side facts when present and separately identified telemetry, source, observation, or measurement records |
+| `initialState(W, O, D)` | stated, measured, or estimated state at trace start, with the statement or result and its subject pattern recoverable |
 | `predict(D, initialState, inputs, horizon)` | trajectory or distribution generated by the transition law over the declared horizon |
 | `insideOperatingRegion(D, state)` | check that `state` satisfies D's constraints and invariants; separately name the prediction or use and its relevant time or horizon, then check D's applicability window for that use |
 | `residuals(prediction, trace, alignment)` | discrepancies between the selected prediction and observed trace values under the stated alignment; `prediction` is the result of the identified `predict(D, initialState, inputs, horizon)` calculation |
@@ -167,11 +171,11 @@ Let `D` be a `U.Dynamics` about exact EntityOfConcern `E`. Let `W` denote only e
 
 These expressions name claim-side calculations or questions. When an observation, conformance, drift, measurement, evaluation, gate, or assurance result is claimed, the applicable evaluation or measurement declaration states the criterion and result semantics, and the actual application and result are identified separately; C.2.1 identifies any persisted result episteme, and use A.10 or B.3 only for the separately claimed reliance or assurance use.
 
-Calibration Work and its domain result may support a later dynamics episteme whose changed ClaimGraph receives its own C.2.1 identity; an `EpistemeEditionRelation` obtains only when C.2.1's exact continuation predicate is separately established.
+Calibration Work and its domain result may support a later dynamics episteme whose changed ClaimGraph receives its own C.2.1 identity; an `EpistemeEditionRelation` obtains only when C.2.1's continuation predicate is separately established.
 
 #### A.3.3:4.6 - Prediction use in comparison or gating
 
-A prediction used for comparison, release, gate, assurance, or work preparation states the exact dynamics edition, predicted Coordinates, operating region, horizon, and relevant error or uncertainty. State any time step, parameter regime or source-currentness condition on which the prediction or receiving use depends. The direct consumer's policy then states which observation, validation, sensitivity, robustness, stability, or normalization-composition conditions that use requires.
+A prediction used for comparison, release, gate, assurance, or work preparation states the dynamics edition, predicted Coordinates, operating region, horizon, and relevant error or uncertainty. State any time step, parameter regime or source-currentness condition on which the prediction or receiving use depends. The direct consumer's policy then states which observation, validation, sensitivity, robustness, stability, or normalization-composition conditions that use requires.
 
 A fresh observation may replace or check the prediction when the policy calls for it. A non-expansive bound, another sensitivity bound, or commutation with a normalization step is required only when the named use relies on that property. If the required conditions are absent or fail, the prediction cannot carry that use. State a needed currentness claim through `C.27.TA`. Use `C.27` when a separate authored temporal-claim adequacy question remains. Obtain a needed internal-constraint result through A.20; use A.21 for a gate decision or the applicable decision pattern for another decision.
 
@@ -179,7 +183,7 @@ A fresh observation may replace or check the prediction when the policy calls fo
 
 Stay in A.3.3 when the transition law or observation relation uses accepted local dynamics under one explicit semantic basis and applicability boundary.
 
-Use C.29 when the law's use depends on a contested transfer, cross-domain analogy, learned or speculative mathematical lens, scale change, abstraction, quotienting or reusable explanation across contexts. Establish the preserved and lost structure, operating region or scale window, applicable rival, lens-use boundary and stop condition. Then state the resulting dynamics law and its observation, constraint and calibration conditions here. The direct prediction consumer still determines reliance under :4.6.
+Use C.29 when the law's use depends on a contested transfer, cross-domain analogy, learned or speculative mathematical lens, scale change, abstraction, quotienting or reusable explanation across contexts. Establish the preserved and lost structure, operating region or scale window, applicable rival, lens-use boundary and stop condition. Then state the resulting dynamics law and its observation, constraint and calibration conditions here. The direct prediction consumer determines reliance under :4.6.
 
 #### A.3.3:4.8 - Recover an ambiguous source claim
 

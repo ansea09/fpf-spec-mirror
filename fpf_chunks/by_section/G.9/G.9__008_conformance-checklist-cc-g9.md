@@ -6,12 +6,12 @@ section_id: "G.9:6"
 section_title: "Conformance Checklist (CC‑G9)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.9/G.9__008_conformance-checklist-cc-g9.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.9 — Parity and Benchmark Harness"
   - "G.9:6 — Conformance Checklist (CC‑G9)"
-line_start: 131548
-line_end: 131605
+line_start: 139628
+line_end: 139685
 dependencies:
   - "A.19"
   - "A.2.6"
@@ -48,7 +48,7 @@ keywords:
 
 ### G.9:6 — Conformance Checklist (CC‑G9)
 
-**CC‑G9‑CoreRef (normative; mandatory).**
+**CC‑G9‑CoreRef (normative).**
 G.9 conforms only if it satisfies the **effective** set of `CC‑GCORE‑*` declared in **G.9:4.0 GCoreLinkageManifest** (including trigger typing, Default Governing Definition Index links, and P2W split).
 
 1. **CC‑G9.1 — Exact comparison boundary, equal windows (and budgets), and pinned spec editions (local).**
@@ -83,7 +83,7 @@ G.9 conforms only if it satisfies the **effective** set of `CC‑GCORE‑*` decl
    Delegated to `CC‑GCORE‑CROSS‑1` and `CC‑GCORE‑PEN‑1`. This item remains as a stable delegation point for Bridge and reference-plane crossing visibility plus R-channel penalty placement discipline.
 
 8. **CC‑G9.8 — Report replay and evidence trace completeness (local).**
-   A ParityReport **SHALL** carry the exact `ParityPlanRef` and `BaselineBindingRef` used for the run, echo `TaskSignatureRef` and any required `TaskMapRef` when the selector branch was used, and include an EvidenceTrace with `EvidenceGraphId` and the relevant `PathId[]` (and `PathSliceId?` when needed), covering inclusions, refusals, abstentions, and degradations. If the historical plan edition or binding cannot be resolved, return that unresolved input instead of substituting a current edition.
+   A ParityReport **SHALL** carry the `ParityPlanRef` and `BaselineBindingRef` used for the run, echo `TaskSignatureRef` and any required `TaskMapRef` when the selector branch was used, and include an EvidenceTrace with `EvidenceGraphId` and the relevant `PathId[]` (and `PathSliceId?` when needed), covering inclusions, refusals, abstentions, and degradations. If the historical plan edition or binding cannot be resolved, return that unresolved input instead of substituting a current edition.
 
 9. **CC‑G9.9 — Telemetry hooks are emitted with pins (local).**
    When parity emits telemetry for refresh, emitted telemetry **SHALL** carry the active edition pins and policy‑ids needed to re‑run parity (including the active subset of `ParityPinSet` relevant to the emitted event).
@@ -94,7 +94,7 @@ G.9 conforms only if it satisfies the **effective** set of `CC‑GCORE‑*` decl
     Parity publication **SHALL** include RSCR parity tests (via `F.15` harness refs) that cover negative/refusal paths relevant to this plan (missing pins, edition drift, missing bridge calibration refs, etc.).
 
 11. **CC‑G9.11 — GateCrossing visibility (delegation point).**
-    Delegated to `CC‑GCORE‑CROSS‑1` and the applicable GateCrossing/CrossingBundle harness checks (`E.18`, `A.21`, `F.9`, and relevant Part G bridge or crossing wiring). This remains a stable delegation point.
+    Delegated to `CC‑GCORE‑CROSS‑1` and the applicable GateCrossing/CrossingBundle harness checks (`E.18`, `A.21`, `F.9`, and relevant Part G bridge or crossing wiring).
 
 12. **CC‑G9.12 — Tech‑register lexical discipline (local).**
     Tech prose and heads **SHALL** follow E.10: do not introduce drift‑prone primitives (e.g., “metric” as a Tech primitive); reference the source pattern's canonical terms and pinned refs.
@@ -102,5 +102,5 @@ G.9 conforms only if it satisfies the **effective** set of `CC‑GCORE‑*` decl
 13. **CC‑G9.13 — MOO disclosure for parity (local).**
     `Run_Parity` / `Publish_ParityReport` **SHALL** record the ParityHarness identity (UTS ids) and the active pins required to interpret the outcome (editions + policy‑ids), so the reader can recover the harness and pins from the parity record itself.
 
-14. **CC-G9-CLP-1 - Causal method rung parity.** If a parity report compares causal methods, it SHALL first run `CausalRungParityScreen`; when full parity remains plausible, it SHALL declare target causality-ladder rung, causal-use claim kind, `causalEstimandRef`, interventional-action basis, causal support-component refs, exact transport endpoints and transportability result when needed, estimate result when needed, bridge and loss where rungs differ, and `causalUseSupportResultRef` when relevant C.28 support is consumed, and degraded parity or abstain result where parity cannot be established.
+14. **CC-G9-CLP-1 - Causal method rung parity.** For a report comparing causal methods, the comparison SHALL begin with `CausalRungParityScreen`. When full parity remains plausible, the report SHALL declare target causality-ladder rung, causal-use claim kind, `causalEstimandRef`, interventional-action basis, causal support-component refs, exact transport endpoints and transportability result when needed, estimate result when needed, bridge and loss where rungs differ, and `causalUseSupportResultRef` when relevant C.28 support is consumed. Where parity cannot be established, the report SHALL state degraded parity or abstention.
 

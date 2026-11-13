@@ -6,12 +6,12 @@ section_id: "A.2.6:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Test Scope Membership and Combine Scopes"
   - "A.2.6:intro — Intro"
-line_start: 6673
-line_end: 6705
+line_start: 6975
+line_end: 7007
 dependencies:
   - "A.1.1"
   - "A.15.1"
@@ -36,11 +36,11 @@ keywords:
 > **Type:** Ontic pattern
 
 
-> **One-line summary.** A.2.6 lets a practitioner test one exact `U.ContextSlice` against one exact set-valued scope. For a claim, `member(slice, claimScope)` is `true` or `false`: `true` admits the claim-scope condition and `false` stops that use. An evaluation returns `unknown` when its available basis cannot determine membership. The predicate is not a `U.Relation` occurrence.
+> **One-line summary.** A.2.6 lets a practitioner test one `U.ContextSlice` against one set-valued scope. For a claim, `member(slice, claimScope)` is `true` or `false`: `true` admits the claim-scope condition and `false` stops that use. An evaluation returns `unknown` when its available basis cannot determine membership. The predicate is not a `U.Relation` occurrence.
 
-**Use this pattern when** a receiving action needs to decide whether a claim, capability, or publication use covers one exact combination of standards, environment, local sense, platform, cohort, or time selectors.
+**Use this pattern when** a receiving action needs to decide whether a claim, capability, or publication use covers one combination of standards, environment, local sense, platform, cohort, or time selectors.
 
-**First useful move.** Name the exact claim, its exact `U.ClaimScope`, and the target `U.ContextSlice`; evaluate membership. Stop on `false`. On `unknown`, obtain the missing evaluation input, narrow the attempted use, or abstain. Add a result episteme or table only when the receiving use needs one. If exact local senses must be translated, follow §7.5: name the obtaining F.9 Bridge and separate affirmative C.2.1 claim for this translation, then establish the A.10 evidence basis and applicable reliance condition before using the translated scope.
+**First useful move.** Name the claim, its `U.ClaimScope`, and the target `U.ContextSlice`; evaluate membership. Stop on `false`. On `unknown`, obtain the missing evaluation input, narrow the attempted use, or abstain. Add a result episteme or table only when the receiving use needs one. If exact local senses must be translated, follow §7.5: name the obtaining F.9 Bridge and separate affirmative C.2.1 claim for this translation, then establish the A.10 evidence basis and applicable reliance condition before using the translated scope.
 
 **What goes wrong if missed.** Teams infer coverage from a document, table, “current context” label, or selected structure; treat an unevaluated slice as excluded; or mint `ScopeDelimitationRelation` occurrences for included and excluded slices. Those moves collapse predicate truth, evaluation, representation, and structure.
 

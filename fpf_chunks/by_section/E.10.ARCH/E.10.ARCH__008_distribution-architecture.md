@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.10.ARCH"
-pattern_title: "Wording-Use Ontological Precision Restoration Architecture"
+pattern_title: "Architecture for Recovering Ontological Meaning in Wording"
 section_id: "E.10.ARCH:2"
 section_title: "Distribution architecture"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__008_distribution-architecture.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
+  - "E.10.ARCH — Architecture for Recovering Ontological Meaning in Wording"
   - "E.10.ARCH:2 — Distribution architecture"
-line_start: 101627
-line_end: 101694
+line_start: 107338
+line_end: 107418
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -65,12 +65,12 @@ keywords:
 
 ### E.10.ARCH:2 - Distribution architecture
 
-The standing construction is:
+The patterns divide the work as follows.
 
 1. The author applies `F.19` to the whole span and uses the compact `E.10` cues to locate an FPF-governed wording use. Close it locally when the object and predicate are recoverable; otherwise select the defining or testing rule, controlled precision-reduction pattern, durable-name application, or fail-closed non-use disposition.
 2. The `E.10.ARCH` text contains the shared recovery algorithm and the `WordingUseRestorationApplicabilityTable`.
 3. The author applies the bounded entry, realization pattern, or direct subject rule selected through `E.10:0.2a` and the applicability table below. The selected content unpacks the wording for one named `semanticArea` and its `ontologicalNeighborhood`. Use `A.6.P.WMR` after generic relation recovery only when one Method and Work boundary claim remains hidden; use `A.6.RCD` only after exact participants are recovered and no current direct relation or already admitted local relation-bearing claim closes the receiving claim.
-4. Additional applicability rows, and only when needed additional realization patterns, appear when repeated FPF-governed wording hides a stable primary-EntityOfConcern use field set, a stable recovery shape, and a useful remaining reader use that no existing subject pattern already carries.
+4. Add an applicability row, and a realization pattern only if needed, when repeated FPF-governed wording hides a stable primary-EntityOfConcern use field set, a stable recovery shape, and a useful remaining reader use that no existing subject pattern carries.
 5. `E.8` defines pattern-form and placement requirements for wording such as `pattern nest`, and requires authoring prose that uses `ontologicalNeighborhood` to expose the relevant `semanticAreaBaseConcept`, `semanticArea`, and `semanticAreaSenseFamily` rather than treating neighborhood as the semantic unit.
 6. An author or reviewer uses `E.19` to check that authored pattern hosts preserve this distribution and do not keep rival first-stage repair doctrine.
 
@@ -78,12 +78,16 @@ This architecture keeps `E.10` compact. It also keeps subject patterns centered 
 
 #### E.10.ARCH:2.1 - EntityOfConcern and recurring hidden-field distribution
 
-`EntityOfInterest`, `EoI`, `EoIClass`, `describedEntity`, `DescribedEntityRef`, and `primary described entity` are active repair triggers. FPF-governed wording must recover the EntityOfConcern-family use named by value, publication-unit primary-EoC or ordinary primary-subject use, or local FPF kind, then rewrite to `EntityOfConcern`, `entityOfConcernRef`, `EntityOfConcernRef`, `EntityOfConcernClass`, `publicationUnitPrimaryEntityOfConcern`, `publicationUnitPrimarySubject` for the `E.17.AUD.OOTD` primary-subject use, or the local FPF kind named by value. For the non-claim-bearing case, use the kind named by value or plain `topic` or `subject` without inventing an `EntityOfConcernRef`. If no use is recoverable by value, the wording remains quoted source or trigger wording and cannot be used for reliance.
+`EntityOfInterest`, `EoI`, `EoIClass`, `describedEntity`, `DescribedEntityRef`, and `primary described entity` are active repair triggers. FPF-governed wording must recover the EntityOfConcern-family use named by value, publication-unit primary-EoC or ordinary primary-subject use, or local FPF kind, then rewrite to `EntityOfConcern`, `entityOfConcernRef`, `EntityOfConcernRef`, `EntityOfConcernClass`, `publicationUnitPrimaryEntityOfConcern`, `publicationUnitPrimarySubject` for the `E.17.AUD.OOTD` primary-subject use, or the local FPF kind named by value.
+
+For the non-claim-bearing case, use the kind named by value or plain `topic` or `subject` without inventing an `EntityOfConcernRef`. If no use is recoverable by value, the wording remains quoted source or trigger wording and cannot be used for reliance.
 
 - `C.2.1` defines episteme identity and the identified `EntityOfConcern` participant of `EpistemeConstitutionRelation`; `A.6.5` defines `EntityOfConcernSlot` only inside a reusable constitution `RelationSignature`; direct reference rules define or constrain `entityOfConcernRef`, `EntityOfConcernRef`, and related reference use.
 - `C.2.P` carries episteme, publication, source-wording, and source-relation precision restoration when the sentence still hides source wording, claim-bearing episteme, publication construction, publication-form construction, project-side reliance, pattern-application wording, or use or non-use disposition.
 - `F.18` carries durable naming, selected head settlement, and source-string and durable-name discipline after the kind under repair and use are recovered.
-- `C.2.P` defines and `E.17.AUD` uses the union field `publicationUnitPrimaryEntityOfConcern`: the carried EntityOfConcern or the non-claim-bearing kind, topic, or subject value. `E.17.AUD.OOTD` governs its separate local `publicationUnitPrimarySubject` for one bounded publication unit with one carried move and one outside-work boundary. Only when the unit carries one identified episteme `E` and the subject is the exact entity that its claims concern may `publicationUnitPrimarySubject = EntityOfConcern(E)` be stated. Neither field adds a participant to `EpistemeConstitutionRelation`, and the fields are not aliases.
+- `C.2.P` defines and `E.17.AUD` uses the union field `publicationUnitPrimaryEntityOfConcern`: the carried EntityOfConcern or the non-claim-bearing kind, topic, or subject value. `E.17.AUD.OOTD` governs its separate local `publicationUnitPrimarySubject` for one bounded publication unit with one carried move and one outside-work boundary.
+
+  Only when the unit carries one identified episteme `E` and the subject is the exact entity that its claims concern may `publicationUnitPrimarySubject = EntityOfConcern(E)` be stated. Neither field adds a participant to `EpistemeConstitutionRelation`, and the fields are not aliases.
 - `A.6.3`, its retained `entityOfConcernRef`-preserving specializations, and `A.6.4` carry preservation or retargeting of the EntityOfConcern across episteme morphisms.
 - When an evidence, assurance, gate, work, decision, architecture, characteristic, mathematical-lens, or project-side claim is already recoverable, use the rule that defines or constrains that exact claim or its admissible-use boundary.
 
@@ -102,9 +106,14 @@ For bare claim-bearing *role*, use `E.10.ROLE` to recover the sentence's work-fa
 For claim-bearing *learn*, *learning*, *learned*, *taught*, or *trained* wording, use `E.10.LRN` only while the participant, changed subject, Work, Method, result, evidence, or receiving use is hidden. Return the corrected or split claims to their direct subject patterns.
 
 For claim-bearing *development*, *develop*, *evolution*, *evolve*, *progress*, *growth*, *maturation*, *adaptation*, or *lineage* wording, use `E.10.DEV` only while the changed or represented subject, needed continuity or membership, posture, direction or value claim, direct owner, or receiving use is hidden. Use `E.10.MOVE` afterward only when a separately relied-on trajectory, route, path, order, posture, or representation remains ambiguous.
+
 Use an ontic-level restoration pattern only when recurring wording hides a candidate durable ontology unit whose primary governed subject kind, stable identity, core direct relation, named neighboring direct relations, and subject patterns need joint recovery before wording repair. The restoration recovers the exact current governed objects and direct relation uses; it does not treat declaration-local SlotKinds or assertion-side participant designations as parts of the ontic.
 
-Use `E.24.CD` only when recurring wording exposes a candidate subject that may need an E.24 ontic-introduction decision: a potential primary governed subject kind, stable identity, core direct relation, named neighboring direct relations, and action-facing gain that no existing rule already carries. Use `E.24.PUB` only when the repair must distinguish ontic, ontic-description episteme, publication form, view, record, card, table, schema, data-structure expression, rendering, or source relation. If `A.22`, `A.19`, `C.30`, `A.3.4`, `C.2.1`, or another pattern already contains the defining or testing rule for the recovered object or claim, use that rule directly and cite `E.24.CD` or `E.24.PUB` only for the relevant thin boundary.
+Use `E.24.CD` only when recurring wording exposes a candidate subject that may need an E.24 ontic-introduction decision: a potential primary governed subject kind, stable identity, core direct relation, named neighboring direct relations, and action-facing gain that no existing rule carries.
+
+Use `E.24.PUB` only when the repair must distinguish ontic, ontic-description episteme, publication form, view, record, card, table, schema, data-structure expression, rendering, or source relation.
+
+If `A.22`, `A.19`, `C.30`, `A.3.4`, `C.2.1`, or another pattern already contains the defining or testing rule for the recovered object or claim, use that rule directly and cite `E.24.CD` or `E.24.PUB` only for the relevant thin boundary.
 
 Use a facet-level restoration pattern only when one recurring facet cuts across several ontics or subject patterns and has its own stable ambiguity. Function-like wording under `A.6.F` is the standing example: function wording may point to transformation behavior, performed-work action or another actor-side claim under an exact direct governor, a separately typed architecture or other influence source under its exact relation, mathematical function, module allocation, capability, quality, role, work, method, evidence, assurance, gate, or decision. That facet is too broad to duplicate inside every ontic-level restoration pattern and too specific to leave as ordinary prose.
 
@@ -125,9 +134,13 @@ A conforming specialized restoration pattern states:
 
 When authoring or maintaining a DPF, use this shared method only when the `E.4.DPF` entry condition holds: recurring domain wording obstructs a named reader use. Identify the domain object or relation, the relied claim, and its use boundary in the affected DPF subject pattern; use `E.10.ARCH` for the recovery method and `F.19` for the final plain technical rewrite. Semantic synthesis and wording restoration remain separate: restoration preserves the meaning of an identified claim in the current DPF edition; it neither establishes nor revises that claim.
 
-Write the resulting domain entry beside the DPF claim whose wording it restores. The entry identifies the recurring wording, the relied DPF claim, the DPF edition in which that claim is current, the recovered domain object or relation, the surviving reader use, the repaired wording, and the condition that reopens either the entry or its relied claim. Add a negative or non-use boundary only under the `F.19` plausible-intended-reader test; it is not a required entry field. Do not copy the domain trigger into the FPF-wide applicability table. One isolated wording failure stays a local `F.19` rewrite, a compact `E.10` route, or a direct rewrite under the DPF claim's defining or constraining rule.
+Write the resulting domain entry beside the DPF claim whose wording it restores. The entry identifies the recurring wording, the relied DPF claim, the DPF edition in which that claim is current, the recovered domain object or relation, the surviving reader use, the repaired wording, and the condition that reopens either the entry or its relied claim.
 
-Identify a separate DPF-local profile only when several entries are consumed together by a named maintained use. Identify the profile as a claim-bearing episteme, state its receiving use and edition, and keep the constituent entries independently revisable; if a table publishes the profile, keep the table as its publication form. Existing local profiles remain local applications of this method.
+Add a negative or non-use boundary only under the `F.19` plausible-intended-reader test; it is not a required entry field. Do not copy the domain trigger into the FPF-wide applicability table.
+
+One isolated wording failure stays a local `F.19` rewrite, a compact `E.10` route, or a direct rewrite under the DPF claim's defining or constraining rule.
+
+Identify a separate DPF-local profile only when several entries are consumed together by a named maintained use. Identify the profile as a claim-bearing episteme, state its receiving use and edition, and keep the constituent entries independently revisable. The profile can be published as a table. Existing local profiles remain local applications of this method.
 
 If the attempted repair exposes a missing or unstable domain distinction, stop the wording route. Return to the DPF source, semantic-synthesis, or content decision that can establish the missing claim; only then resume the wording repair.
 

@@ -6,12 +6,12 @@ section_id: "A.10:10a"
 section_title: "Evidence carriers for quantum-like statements"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10/A.10__015_evidence-carriers-for-quantum-like-statements.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.10 — Evidence Graph Referring: Claim-Bound Evidence and Provenance Graph"
   - "A.10:10a — Evidence carriers for quantum-like statements"
-line_start: 27064
-line_end: 27069
+line_start: 28086
+line_end: 28091
 dependencies:
   - "A.10"
   - "A.13"
@@ -52,7 +52,7 @@ keywords:
 
 ### A.10:10a - Evidence carriers for quantum-like statements
 
-Use A.10 when a quantum-like statement is being relied on. Name the minimal claim, selected source episteme and edition, any material publication occurrence, form, or carrier, bounded use, and `RelianceDisposition`. Include time/currentness, a live rival, and a locally plausible unsupported-use boundary when they change reliance. Add producing or interpreting dated `U.Work`, Method, actual bindings, and a Work-to-value predicate only when those facts are independently current. Use C.16 for a measurement claim, the relevant C.26 pattern for actual probe or frame effects, and C.29 only when a separate mathematical-lens choice, transfer or reliance question remains. Use F.9 when the claim needs a Bridge between exact senses in different contexts; then distinguish that relation from the judgment of its bounded use and tolerated loss. Use B.3 only for an actual named assurance claim. Consequential uses without one retain their direct safety, permission, gate, release, or other governing rule.
+Use A.10 when a quantum-like statement is being relied on. Name the minimal claim, selected source episteme and edition, any material publication occurrence, form, or carrier, bounded use, and `RelianceDisposition`. Include time/currentness, a live rival, and a locally plausible unsupported-use boundary when they change reliance. Add producing or interpreting dated `U.Work`, Method, actual bindings, and a Work-to-value predicate only when those facts are independently current. Use C.16 for a measurement claim, the relevant C.26 pattern for actual probe or frame effects, and C.29 only when a separate mathematical-lens choice, transfer or reliance question remains. Use F.9 when the claim needs a Bridge between senses in different contexts; then distinguish that relation from the judgment of its bounded use and tolerated loss. Use B.3 only for a named assurance claim. Consequential uses without one retain their direct safety, permission, gate, release, or other governing rule.
 
 The `quantum-like` label has no evidence weight. A descriptive graph may represent the source and use relations only after those relations are established.
 

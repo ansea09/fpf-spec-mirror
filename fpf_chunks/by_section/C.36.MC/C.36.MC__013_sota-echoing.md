@@ -6,12 +6,12 @@ section_id: "C.36.MC:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.MC/C.36.MC__013_sota-echoing.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.36.MC — Qualify and Develop a Method Culture"
   - "C.36.MC:11 — SoTA-Echoing"
-line_start: 91401
-line_end: 91421
+line_start: 95881
+line_end: 95901
 dependencies:
   - "A.15.1"
   - "A.3.1"
@@ -26,13 +26,13 @@ keywords:
 
 **Practice question.** When recipients can work with a combination of descriptions, tools and teaching, what warrants continuing that arrangement, developing a more adaptable explanation, or first studying which contribution makes the difference?
 
-**Selected answer.** Preserve the bounded result established under the actual receiving conditions. Spend on further construction or discrimination only when a different receiving requirement, unavailable provision, credible failure or prospective gain makes its result consequential.
+**Selected answer.** Preserve the bounded result established under the receiving conditions. Spend on further construction or discrimination only when a different receiving requirement, unavailable provision, credible failure or prospective gain makes its result consequential.
 
 One serious alternative is to retain the complete demonstrated arrangement: provide the cards, board, teaching and tutoring together, without first making every adaptation decision independently recoverable. That is the better answer when recipients need the same result, the provision remains obtainable, and its whole burden is acceptable. Section 4.5 must not turn such a success into a compulsory reconstruction project. If another recipient must adapt the practice under changed conditions or cannot obtain a necessary teacher's contribution, repeating the arrangement no longer answers that use. The additional construction makes the consequential choice, its grounds, the changed operation and the remaining provision recoverable. It costs explanation, practice and feedback work; it earns that cost only through the receiving action it enables. Sections 4.5 and 5.4 work through this difference without assuming that a shorter card or a new example teaches adaptation.
 
 A second serious alternative is to isolate the effects of material, teaching and tutoring before deciding how to continue. Such a study can be preferable when a consequential provision choice depends on their separate effects and a discriminating comparison is feasible. It is unnecessary for a claim restricted to successful work with the observed combination. MeCaMinD therefore yields the combined-conditions account in section 5 while card-only transmission remains unresolved. This accepts weaker causal knowledge without weakening the stated observation. Section 4.1, steps 8–11, preserves that boundary and requires the whole cost, delay, participant burden and displaced work to enter any new inquiry decision. The opposed constructed security-assessment cases in section 5.1 show why an additional inquiry or repeated assessment can either protect an uncovered consequence or merely displace useful work.
 
-Waern et al. supply observed combined provision and difficulties with literal use; they are comparison evidence, not an experiment isolating that provision. Ardi et al. supply observed use, non-use and burden; the opposed requirement choices are this pattern's constructed applications, not an empirical ranking reported by the study. **Adapt** those distinctions; **retain** a directly sufficient arrangement. Reopen this comparison when the receiving use requires a stronger claim, the necessary provision changes, a recipient cannot make the consequential adaptation, or a feasible rival offers a better result at comparable whole burden. A new causal or retention claim still needs its own evidence.
+Waern et al. supply observed combined provision and difficulties with literal use; they are comparison evidence, not an experiment isolating that provision. Ardi et al. supply observed use, non-use and burden; the opposed requirement choices are this pattern's constructed applications, not an empirical ranking reported by the study. **Adapt** those distinctions; **retain** a sufficient arrangement. Reopen this comparison when the receiving use requires a stronger claim, the necessary provision changes, a recipient cannot make the consequential adaptation, or a feasible rival offers a better result at comparable whole burden. A new causal or retention claim needs its own evidence.
 
 | Source | Adopted or adapted contribution | Boundary and practitioner implication |
 | --- | --- | --- |

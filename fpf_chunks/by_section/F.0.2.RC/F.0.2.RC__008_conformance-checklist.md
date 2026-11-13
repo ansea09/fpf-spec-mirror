@@ -6,12 +6,12 @@ section_id: "F.0.2.RC:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2.RC/F.0.2.RC__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.0.2.RC — Test Constructive Coverage and Refresh Dependent Explanations"
   - "F.0.2.RC:7 — Conformance Checklist"
-line_start: 118513
-line_end: 118522
+line_start: 126107
+line_end: 126116
 dependencies:
   - "A.10.1"
   - "A.3.1.CC"
@@ -25,7 +25,7 @@ keywords:
 ### F.0.2.RC:7 - Conformance Checklist
 
 - The source/language editions, receiving use and coverage promise are identifiable.
-- The reconstruction tests actionable meaning, conditions, stops and source qualifications, not topic presence alone.
+- The reconstruction tests actionable meaning, conditions, stops and source qualifications, not just the presence of a topic.
 - Unsupported additions and deliberate omissions are distinguished from missing promised content.
 - The result states its tested scope and evidence limits.
 - Every changed premise has an affected claim or an unresolved impact boundary.

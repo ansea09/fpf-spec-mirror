@@ -6,12 +6,12 @@ section_id: "F.17:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.17 — Make a Settled Naming Decision Recoverable for Reuse (Unified Term Sheet)"
   - "F.17:intro — Intro"
-line_start: 124119
-line_end: 124134
+line_start: 131992
+line_end: 132009
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -37,7 +37,6 @@ dependencies:
   - "F.10"
   - "F.14"
   - "F.15"
-  - "F.17"
   - "F.18"
   - "F.2"
   - "F.3"
@@ -47,7 +46,6 @@ dependencies:
   - "F.7"
   - "F.8"
   - "F.9"
-  - "G.11"
 keywords:
 ---
 
@@ -55,7 +53,7 @@ keywords:
 > **Type:** Lexical row pattern (F)
 > **Status:** Stable
 
-**Use this when.** Use F.17 when an independently governed value has a settled durable name and public, Core-facing, durable, or cross-local reuse needs a reader-facing term row.
+**Use this when.** An independently governed value has a settled durable name and public, Core-facing, durable, or cross-local reuse needs a reader-facing term row.
 
 **First useful move.** Point to the exact governed value, its kind, the pattern that defines or constrains it, one proposed row use, the selected Tech designation and any Plain designation needed for that use. Then apply F.14 at the row gate. If no durable row is needed, reuse the designation, alias, local expression or name already supplied for that value and stop.
 
@@ -65,5 +63,7 @@ keywords:
 
 **What this buys.** A compact, durable navigation row through which readers can recover the naming decision and the rules that define or constrain the governed value without letting the row create, merge, prove, or publish that value.
 
-**Not this pattern when.** Keep private wording, local synonyms or aliases, and names already supplied where the value is defined or constrained in their local use. Use F.14 before every naming object, F.8 for one unresolved mint-or-reuse choice, F.18 for the durable naming settlement, F.9 only for an actual relation between exact cells, and E.24.PUB only when a selected row edition must be made available. For any stronger ontology, obtaining, equivalence, authority, system-role-kind, assignment, relation-position, status, evidence, Work, or subject-use claim, use the pattern that defines or constrains it.
+**Not this pattern when.** Keep private wording, local synonyms or aliases, and names already supplied where the value is defined or constrained in their local use. Use F.14 before every naming object, F.8 for one unresolved mint-or-reuse choice, F.18 for the durable naming settlement, F.9 only for an actual relation between exact cells, and E.24.PUB only when a selected row edition must be made available.
+
+For any stronger ontology, obtaining, equivalence, authority, system-role-kind, assignment, relation-position, status, evidence, Work, or subject-use claim, use the pattern that defines or constrains it.
 

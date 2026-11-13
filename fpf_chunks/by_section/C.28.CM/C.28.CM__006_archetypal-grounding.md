@@ -6,12 +6,12 @@ section_id: "C.28.CM:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28.CM/C.28.CM__006_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.28.CM — Construct and Challenge a Causal Model"
   - "C.28.CM:5 — Archetypal Grounding"
-line_start: 68597
-line_end: 68647
+line_start: 71670
+line_end: 71720
 dependencies:
   - "A.15.9"
   - "B.5.2"
@@ -60,11 +60,11 @@ Setting the displayed number to 12 replaces the display mechanism in either mode
 
 A separately qualified voltage or current observation can discriminate these idealized models. The need is a measurement of the physical quantity with a suitable independent basis, not another copy of the same display.
 
-Change the situation: the displayed value is fed into an automatic controller for the next command. The earlier absence of a display-to-device path no longer applies over that horizon. Add D(t) → C(t+1) → V(t+1) and obtain the controller law before predicting the later current. The current instant and later controlled behavior are different questions. C.28.MR then performs the chosen replacement in the model actually constructed.
+Change the situation: the displayed value is fed into an automatic controller for the next command. The earlier absence of a display-to-device path no longer applies over that horizon. Add D(t) → C(t+1) → V(t+1) and obtain the controller law before predicting the later current. The current instant and later controlled behavior are different questions. C.28.MR then performs the chosen replacement in the model constructed.
 
 #### C.28.CM:5.3 - Separate AI assistance from assignment and selection
 
-A team reports that AI-assisted tasks had a higher success rate. The question is the effect of actually using assistance A on success Y for the same eligible task population. Let D denote pre-existing task difficulty and H the worker's prior skill.
+A team reports that AI-assisted tasks had a higher success rate. The question is the effect of using assistance A on success Y for the same eligible task population. Let D denote pre-existing task difficulty and H the worker's prior skill.
 
 One model contains A → Y, D → A, D → Y, H → A and H → Y. The rival keeps the assignment and difficulty/skill relations but omits A → Y: the observed difference could arise through who used assistance and on which tasks. Success rates alone do not settle that difference.
 
@@ -72,7 +72,7 @@ The models permit different intervention consequences even when they fit the sam
 
 Suppose inclusion in the showcase S depends on both use of assistance and success. A → S ← Y adds a selection path; conditioning on showcased tasks opens it. Reconstruct the eligible set and inclusion process before using the selected comparison for the population question.
 
-Now randomize an offer Z while leaving actual use A voluntary. The offer's effect is a different estimand from the effect of A. If the offer also teaches a technique used without the AI, Z has a route to Y outside A. Using the offer as an instrument to learn the effect of actual use would require it to affect success only through use, among other assumptions. The additional route violates that requirement. The model returns the exact identification question and keeps observed performance descriptive until the required result is available.
+Now randomize an offer Z while leaving use A voluntary. The offer's effect is a different estimand from the effect of A. If the offer also teaches a technique used without the AI, Z has a route to Y outside A. Using the offer as an instrument to learn the effect of use would require it to affect success only through use, among other assumptions. The additional route violates that requirement. The model returns the identification question and keeps observed performance descriptive until the required result is available.
 
 The useful return can be a revised comparison population, a retained unmeasured cause, or a direct-effect route that invalidates a proposed design. A larger benchmark or more detailed simulation does not resolve those missing premises by itself.
 

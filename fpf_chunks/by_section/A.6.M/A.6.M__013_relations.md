@@ -6,12 +6,12 @@ section_id: "A.6.M:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.M/A.6.M__013_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.M — Module and Interface Claim Repair"
   - "A.6.M:12 — Relations"
-line_start: 23226
-line_end: 23248
+line_start: 24147
+line_end: 24169
 dependencies:
   - "A.10"
   - "A.20"
@@ -60,7 +60,7 @@ keywords:
 | `C.30` and `C.30.ASV` | Architecture claims and module-interface structural views stay architecture-governed. |
 | `C.33`, `C.34`, and `C.35` | Use these only when a module carrier, interface carrier, view, source label, generated map, or discovered structure needs architecture-specific captured-structure adequacy, lost-structure adequacy, preservation adequacy, or generated-carrier admission support. Use A.6.M for module-interface relation, interface specification, substitutability, change-policy, and platform-grammar claims. |
 | `A.6.F` | Function and functional wording stays distinct from module allocation. |
-| `A.15` and `A.2` | Method, WorkPlan, performed Work, exact system-role-kind and assignment claims, team-boundary wording, and delivery-unit wording keep their own defining or constraining patterns. Responsibility claims require their domain predicate and case facts; A.6.RCD addresses a missing rule, not unknown facts; `VP.AllocationResponsibility` is only a recognition cue. Use A.6.M only for a recovered module-interface relation or correspondence. |
+| `A.15` and `A.2` | Method, WorkPlan, performed Work, system-role-kind and assignment claims, team-boundary wording, and delivery-unit wording keep their own defining or constraining patterns. Responsibility claims require their domain predicate and case facts; A.6.RCD addresses a missing rule, not unknown facts; `VP.AllocationResponsibility` is only a recognition cue. Use A.6.M only for a recovered module-interface relation or correspondence. |
 | `E.18` and `C.30.TFS-REL` | E.18 transformation-flow relations, path slices, crossings, and flow valuations are not interface specifications. |
 | `C.31` | Modularity and reusable-structure characteristics are governed by C.31 after relation repair when characteristic or measurement use is being made. |
 | `C.31.RSA` | Reusable-structure accounting is governed by C.31.RSA when reusable loci, bespoke residue, or report-only share claims are being made. |

@@ -6,12 +6,12 @@ section_id: "C.32.ADR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ADR/C.32.ADR__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.32.ADR — Architecture Decision Record Projection"
   - "C.32.ADR:4 — Solution"
-line_start: 80236
-line_end: 80277
+line_start: 84065
+line_end: 84106
 dependencies:
   - "A.10"
   - "A.15"
@@ -56,7 +56,7 @@ Work in this order:
 6. Carry the decision outcome. State the selected architecture option, bounded exception, or supersession relation from PAD.
 7. Carry rationale, accepted losses, and consequences. Include architecture-characteristic trade-offs and guardrails, not only benefits.
 8. Carry Method-use instructions and work split when the decision guides developer work. State the required action and expected structure effect plainly; cite the Method, pattern-use guidance or readiness rule when the reader needs it.
-9. Carry the confirmation, evaluation or violation-detection conditions needed by the decision's use. Use `C.32.ACE` for evaluation framing, `C.16` for measurement, `A.10` for a needed replayable source-to-use account, and `B.3`, `A.21` or the direct governance rule for the respective assurance, gate or authority claim. Preserve the actual support each claim requires.
+9. Carry the confirmation, evaluation or violation-detection conditions needed by the decision's use. Use `C.32.ACE` for evaluation framing, `C.16` for measurement, `A.10` for a needed replayable source-to-use account, and `B.3`, `A.21` or the governance rule for the respective assurance, gate or authority claim. Preserve the support each claim requires.
 10. Carry the applicable publication and source-return boundaries. Use `E.24.PUB` for publication occurrences and audience availability, `E.17` when a source-backed face and source return are needed, and `C.30.AD` for architecture-description claims.
 11. Carry status, supersession, and update conditions. Old records remain useful as history when superseded; the active decision relation tells which one governs current work.
 
@@ -74,7 +74,7 @@ Select the following functions by the declared reader use, retaining what is nee
 | Rationale | Why this outcome is acceptable now, including accepted losses and protected guardrails. |
 | Consequences | Expected effects on structures, methods, teams, costs, risks, evidence, operation, and later change. |
 | Method-use instruction | Required style, pattern use, method description, or work practice, when the decision changes developer work. |
-| Work split | Prospective allocation or instruction content through the plan, policy, commitment, permission, decision, responsibility, authority, or other direct relation that actually states it; otherwise the exact missing governor. Also show readiness or gate exits and the source-return condition. Professional titles are audience cues, not ownership predicates. |
+| Work split | Prospective allocation or instruction content through the plan, policy, commitment, permission, decision, responsibility, authority, or other direct relation that states it. If no applicable predicate is admitted, record the missing governor; keep an unresolved application premise distinct. Also show readiness or gate exits and the source-return condition. Professional titles are audience cues, not ownership predicates. |
 | Confirmation or eval exit | How the decision can be checked, evaluated, monitored, or found violated. |
 | Publication boundary | Links to architecture descriptions, views, evidence, assurance, and source material without making the ADR the source object. |
 

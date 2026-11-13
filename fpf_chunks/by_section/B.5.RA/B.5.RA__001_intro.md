@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.5.RA"
-pattern_title: "Recover an Argument for Its Next Use"
+pattern_title: "Recover an Argument for Use"
 section_id: "B.5.RA:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.RA/B.5.RA__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "B.5.RA — Recover an Argument for Its Next Use"
+  - "B.5.RA — Recover an Argument for Use"
   - "B.5.RA:intro — Intro"
-line_start: 47909
-line_end: 47914
+line_start: 49915
+line_end: 49920
 dependencies:
   - "B.5"
   - "B.5.MPC"
@@ -23,7 +23,7 @@ keywords:
   - "distinguishes ordinary access to knowledge from expertise"
 ---
 
-## B.5.RA - Recover an Argument for Its Next Use
+## B.5.RA - Recover an Argument for Use
 
 > **Type:** Method pattern
 > **Status:** Stable

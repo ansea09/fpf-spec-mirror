@@ -6,12 +6,12 @@ section_id: "E.4.FPF:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.FPF/E.4.FPF__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.4.FPF — FPF Edition Assembly: Publication Forms, Carriers and Access Routes"
   - "E.4.FPF:3 — Forces"
-line_start: 93981
-line_end: 93991
+line_start: 98607
+line_end: 98617
 dependencies:
   - "C.33"
   - "C.34"
@@ -43,8 +43,8 @@ keywords:
 |---|---|
 | First principles vs domain knowledge | FPF must carry transdisciplinary ontology, epistemology, evidence, architecture, decision, work, publication, and improvement distinctions without becoming a doctrine of one domain. |
 | Public adoption vs subject-pattern authority | Readme, Architectural Reference, examples, cards, skills, and MCP access must help new users without becoming a second spec. |
-| Core stability vs evolution | FPF needs stable dependability for downstream DPFs, while the framework remains open to new patterns, better terminology, and source-front movement. |
-| Pattern-set quality vs whole-framework quality | Individual `E.21` results matter, but they do not equal whole-FPF Pillar adequacy. |
+| Core stability vs evolution | Downstream DPFs need a stable basis in FPF, while FPF remains open to new patterns, better terminology, and source-front movement. |
+| Pattern-set quality vs whole-framework quality | Individual `E.21` results matter, but they do not establish whether the whole FPF meets the Pillars. |
 | Carrier plurality vs identity | The same FPF edition can use several publication units and forms, several exact presentation carriers, and several access routes; those different objects must not create competing FPFs or collapse into one another. |
 | Access convenience vs architecture clarity | A callable access route can make FPF easier to use while hiding edition, currentness, source, and authority boundaries. |
 

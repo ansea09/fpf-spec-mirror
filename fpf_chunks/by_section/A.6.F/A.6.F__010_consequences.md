@@ -6,12 +6,12 @@ section_id: "A.6.F:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.F/A.6.F__010_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.F — Function and Functional Precision Restoration (RPR-FUNCTION)"
   - "A.6.F:9 — Consequences"
-line_start: 22825
-line_end: 22833
+line_start: 23724
+line_end: 23732
 dependencies:
   - "A.10"
   - "A.15"
@@ -74,5 +74,5 @@ keywords:
 | Function-like prose remains usable without minting `U.Function`. | The object or claim and applicable rule must be recoverable; additional relation, declaration, assertion, specification, view, or representation objects appear only for a named use. |
 | Functional architecture becomes a normal architecture-by-structure-kind case. | C.30 or C.30.ASV may be needed when the phrase carries an architecture claim. |
 | Capability, method, Work, system-role kind, assignment, participation, functioning, responsibility, mathematical, quality, module, and interface claims stay separable. | One familiar word may require several independently established objects or claims when several readings are current. |
-| C.29, C.25, C.16, A.15, C.30, and `A.6.M` govern only the claims that belong to them. | A conforming use stops once the exact object or claim, subject pattern, and remaining action are clear instead of opening all possible subject patterns. |
+| C.29, C.25, C.16, A.15, C.30, and `A.6.M` govern only the claims that belong to them. | A conforming use stops once the object or claim, subject pattern, and remaining action are clear instead of opening all possible subject patterns. |
 

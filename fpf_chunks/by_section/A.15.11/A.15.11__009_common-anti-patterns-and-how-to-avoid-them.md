@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.15.11"
-pattern_title: "Make Applicable Methods Noticeable in Work"
+pattern_title: "Make Methods Noticeable in Work"
 section_id: "A.15.11:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.11/A.15.11__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.15.11 — Make Applicable Methods Noticeable in Work"
+  - "A.15.11 — Make Methods Noticeable in Work"
   - "A.15.11:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 32810
-line_end: 32819
+line_start: 34168
+line_end: 34177
 dependencies:
   - "A.15"
   - "A.15.7"
@@ -28,7 +28,7 @@ keywords:
 
 ### A.15.11:8 - Common Anti-Patterns and How to Avoid Them
 
-**Publishing without arranging an encounter.** An unused method receives a clearer title and another index entry, but the intended practitioner still never reaches either. Improve the occasion and route into the work.
+**Publishing without arranging an encounter.** An unused method receives a clearer title and another index entry, but the intended practitioner never reaches either. Improve the occasion and route into the work.
 
 **Matching a topic while missing a condition.** A cue for comparing optional additions is shown when the task is to fulfil a binding reporting obligation. Retain the obligation and compare permissible ways to meet it.
 

@@ -6,12 +6,12 @@ section_id: "C.2.P.DR:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P.DR/C.2.P.DR__002_use-this-when.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.2.P.DR — Repair Claims Based on Declarative Form Alone (Declarative Representation Precision Restoration)"
   - "C.2.P.DR:0 — Use this when"
-line_start: 54739
-line_end: 54768
+line_start: 56997
+line_end: 57026
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -48,7 +48,7 @@ keywords:
 
 Use this pattern when the appearance of a representation is being used to establish an operational or classification claim without its required grounds—for example, treating a green dashboard tile as release permission or a graph path as prescribed work.
 
-**First useful move.** Identify the expression and the claim being inferred from it. Recover what the expression actually states or represents, then apply the rule for the disputed claim. Return wording that preserves the supported use and identifies what remains unestablished. A sentence can suffice. Use a `DeclarativeRepresentationRepair` note only when the receiving use needs a separately inspectable repair.
+**First useful move.** Identify the expression and the claim being inferred from it. Recover what the expression states or represents, then apply the rule for the disputed claim. Return wording that preserves the supported use and identifies what remains unestablished. A sentence can suffice. Use a `DeclarativeRepresentationRepair` note only when the receiving use needs a separately inspectable repair.
 
 **Quick example.** A heat-flow graph in a reactor-cooling review can show preserved and lost flow relations. It does not authorize a valve change by graph shape. The repair keeps the graph path as graph structure, returns release or gate reliance to the gate, source, and evidence patterns, and blocks the hidden work-permission claim.
 

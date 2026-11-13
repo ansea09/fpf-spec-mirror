@@ -6,12 +6,12 @@ section_id: "A.7.1:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.1/A.7.1__003_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.7.1 — Consequence-Guided Ontological Problem Solving"
   - "A.7.1:1 — Problem frame"
-line_start: 25853
-line_end: 25858
+line_start: 26778
+line_end: 26783
 dependencies:
   - "A.11"
   - "A.7"
@@ -35,5 +35,5 @@ keywords:
 
 A maintenance sentence can be lexically clear and still merge two relation occurrences across removal and reinstallation. A responsibility claim can use a plausible system-role word or assignment while omitting the direct responsibility predicate and its participants. A graph or logical type can look exact while omitting the construction that changes the action. In these situations, a glossary is too little and an exhaustive ontology exercise is too much.
 
-The governed concern is the smallest ontology-analysis application that changes one declared engineering use, result, or guarantee. The ordinary product is a repaired statement, Method choice, action, subject-qualified result, or explicit blocker—not an ontology artifact by default.
+The concern is the smallest ontology-analysis application that changes one declared engineering use, result, or guarantee. The ordinary product is a repaired statement, Method choice, action, subject-qualified result, or explicit blocker—not an ontology artifact by default.
 

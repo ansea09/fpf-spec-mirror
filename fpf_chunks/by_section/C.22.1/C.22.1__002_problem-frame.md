@@ -6,12 +6,12 @@ section_id: "C.22.1:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.1/C.22.1__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.22.1 — Task-family adaptation signature"
   - "C.22.1:1 — Problem frame"
-line_start: 63226
-line_end: 63229
+line_start: 65859
+line_end: 65862
 dependencies:
   - "A.15"
   - "C.19.1"
@@ -39,5 +39,5 @@ keywords:
 
 ### C.22.1:1 - Problem frame
 
-Final task score alone does not tell whether a holder, dyad, or bounded specialist portfolio acquired usable specialization quickly, under what budget, with what prior exposure, whether the resulting competence transferred, or whether it entered a genuinely new solution corridor. If those elements are not published together, the adaptation claim splinters across task typing, probe notes, selector prose, and parity notes, and later readers can no longer tell what exactly was being compared.
+Final task score alone does not tell whether a holder, dyad, or bounded specialist portfolio acquired usable specialization quickly, under what budget, with what prior exposure, whether the resulting competence transferred, or whether the adaptation path entered a new solution corridor. If those elements are not published together, the adaptation claim splinters across task typing, probe notes, selector prose, and parity notes, and later readers can no longer tell what was being compared.
 

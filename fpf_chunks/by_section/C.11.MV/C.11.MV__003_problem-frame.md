@@ -6,12 +6,12 @@ section_id: "C.11.MV:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.MV/C.11.MV__003_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.11.MV — Compare the Worth of a Method Option"
   - "C.11.MV:1 — Problem Frame"
-line_start: 58105
-line_end: 58110
+line_start: 60454
+line_end: 60459
 dependencies:
   - "A.3.1.FT"
   - "A.3.1.QM"

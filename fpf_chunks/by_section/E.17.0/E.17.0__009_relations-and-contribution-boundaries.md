@@ -6,12 +6,12 @@ section_id: "E.17.0:8"
 section_title: "Relations and contribution boundaries"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.0/E.17.0__009_relations-and-contribution-boundaries.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.17.0 — Viewpoint and View Recognition for Multi-View Describing"
   - "E.17.0:8 — Relations and contribution boundaries"
-line_start: 106581
-line_end: 106596
+line_start: 113102
+line_end: 113117
 dependencies:
   - "A.22"
   - "A.6.3"
@@ -33,7 +33,7 @@ keywords:
 ### E.17.0:8 - Relations and contribution boundaries
 
 - **C.2.1** identifies episteme, claim-content, EntityOfConcern, scheme, and edition identity for P, E, D, and any optional assertion, description, result, basis, or target-claim episteme. E.17.0 adds dependent `U.Viewpoint` and `U.View` membership to those same individuals.
-- Use **C.13** to construct exact `C_viewpoint` only in the action-changing structured-viewpoint branch, and any separately needed collection of selected viewpoints or views.
+- Use **C.13** to construct `C_viewpoint` only in the action-changing structured-viewpoint branch, and any separately needed collection of selected viewpoints or views.
 - **A.6.6** defines the reusable `viewpointConventionDependsOn` vocabulary entry; **A.6.5** declares the four SlotSpecs inside the two RelationSignature declarations. E.17.0 defines direct dependency and conformance obtaining tests and positive occurrence identity.
 - **C.3.2** admits the two optional local explicit-result ValueKinds and any exact local target or stakeholder KindSignature; their values do not determine direct judgments.
 - Use **A.22** to select `S_viewpoint` only when separately versioned convention organization changes a named action, and to select any separately current multi-view structure. E.17.0 supplies Q and candidate relation occurrences for that branch.

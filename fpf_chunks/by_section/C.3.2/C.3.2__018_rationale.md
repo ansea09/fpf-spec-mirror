@@ -6,12 +6,12 @@ section_id: "C.3.2:16"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__018_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.3.2 — Kind Intent, Membership Judgment, and Extension"
   - "C.3.2:16 — Rationale"
-line_start: 55614
-line_end: 55617
+line_start: 57904
+line_end: 57907
 dependencies:
   - "A.14"
   - "A.2.6"
@@ -29,5 +29,5 @@ keywords:
 
 ### C.3.2:16 - Rationale
 
-The kind, its declaration, pre-judgment applicability, one admissible candidate judgment, and a representation of current true candidates answer different questions. Their separation prevents evidence, locality, time, scope, and notation from rewriting ontology while still allowing a criterion to concern a directly governed episteme, status, or relation when that is the actual classification condition.
+The kind, its declaration, pre-judgment applicability, one admissible candidate judgment, and a representation of current true candidates answer different questions. Their separation prevents evidence, locality, time, scope, and notation from rewriting ontology while still allowing a criterion to concern a directly governed episteme, status, or relation when that is the classification condition.
 

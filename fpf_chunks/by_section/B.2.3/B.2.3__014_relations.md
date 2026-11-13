@@ -6,12 +6,12 @@ section_id: "B.2.3:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.3/B.2.3__014_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.2.3 — Meta-Holon Transition With Episteme Result"
   - "B.2.3:11 — Relations"
-line_start: 44407
-line_end: 44414
+line_start: 46213
+line_end: 46220
 dependencies:
   - "A.1"
   - "A.10"
@@ -36,8 +36,8 @@ keywords:
 
 ### B.2.3:11 - Relations
 
-- **Specializes:** `B.2` by testing its exact candidate new whole under the complete A.1 criterion and current C.2.1 constitution for the already admitted `U.Episteme` kind.
-- **Builds on:** `B.2` for the exact candidate new whole and whole reidentification, `A.1` for candidate recognition, `C.2.1` for the obtaining ClaimGraph/EntityOfConcern/ReferenceScheme constitution relation, and `E.24.UK` for prior public-kind admission.
+- **Specializes:** `B.2` by testing its candidate new whole under the A.1 criterion and C.2.1 constitution for the already admitted `U.Episteme` kind.
+- **Builds on:** `B.2` for the candidate new whole and whole reidentification, `A.1` for candidate recognition, `C.2.1` for the obtaining ClaimGraph/EntityOfConcern/ReferenceScheme constitution relation, and `E.24.UK` for prior public-kind admission.
 - **Coordinates with:** `C.2.P`, `C.2.P.DR`, `E.17`, `E.17.*`, `A.6.2`, `A.6.3`, `A.6.4`, `A.6.3.CSC`, `A.10`, `B.3`, `B.3.5`, `C.29`, `F.18`, and `F.19`.
 - **Uses:** `B.2.P` when source wording such as emergence-family or title-mnemonic wording hides the claim kind.
 - **Contrasts with:** `B.2.2` for system-result MHT and `B.2.4` for the capability and functioning decision bridge to whole reidentification.

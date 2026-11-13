@@ -6,12 +6,12 @@ section_id: "A.6.3.RT.OE:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT.OE/A.6.3.RT.OE__006_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.3.RT.OE — Construct an Operative Expression"
   - "A.6.3.RT.OE:5 — Archetypal Grounding"
-line_start: 19144
-line_end: 19249
+line_start: 20005
+line_end: 20110
 dependencies:
   - "A.6.3.RT"
   - "B.5.RA"
@@ -93,7 +93,7 @@ For a performer who needs to locate the cycle boundaries inside this phrase, add
 
 The duration labels retain the whole phrase. These additional cues expose the positions needed for its coordination; use the compact labels alone when that relationship is already available to the performer.
 
-This case adapts Nelson's exercise 7. Reuse the pulse alignment when phrase and cycle change tempo together. Recompute it when a syllable duration in pulses, the cycle's pulse division or the phrase's entry relative to the cycle changes. A particular performer's fluency remains a question for actual performance.
+This case adapts Nelson's exercise 7. Reuse the pulse alignment when phrase and cycle change tempo together. Recompute it when a syllable duration in pulses, the cycle's pulse division or the phrase's entry relative to the cycle changes. A performer's fluency remains a question for performance.
 
 #### A.6.3.RT.OE:5.4 - Discover which duration an investigation needs
 

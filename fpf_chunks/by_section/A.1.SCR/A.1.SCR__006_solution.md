@@ -6,12 +6,12 @@ section_id: "A.1.SCR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.SCR/A.1.SCR__006_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.1.SCR — Finding the Acting or Changed System"
   - "A.1.SCR:4 — Solution"
-line_start: 3600
-line_end: 3699
+line_start: 3692
+line_end: 3795
 dependencies:
   - "A.1"
   - "A.1.CSD"
@@ -31,7 +31,7 @@ keywords:
 Start with four plain statements:
 
 1. the claim you are trying to use;
-2. the exact entity proposed as actor, change bearer, capability holder, persistent subject, or project system-of-interest;
+2. the entity proposed as actor, change bearer, capability holder, persistent subject, or project system-of-interest;
 3. the decision or action that would differ if this entity were or were not a system; and
 4. the observation, boundary fact, or construction fact that would settle that difference.
 
@@ -64,8 +64,8 @@ When the decision still depends on systemhood, recover all six A.1 constructive 
 
 | A.1 component | Practical recovery question |
 | --- | --- |
-| Exact entity | Which one entity is being tested, and what identity rule distinguishes it from its name, description, parts, environment, and successor? |
-| Exact constituents | Which entities actually constitute it rather than merely being nearby, listed, sampled, or described with it? |
+| Entity | Which one entity is being tested, and what identity rule distinguishes it from its name, description, parts, environment, and successor? |
+| Constituents | Which entities actually constitute it rather than merely being nearby, listed, sampled, or described with it? |
 | Constructive part relations and assembly | Which obtaining part relations and assembly make these constituents this whole? |
 | Reidentification rule | Which changes preserve it, and which replacement, disassembly, completion, or termination ends it? |
 | Composition-grounded whole-level characteristic | Which characteristic follows from the actual assembly rather than from a label, plan, measurement, or one constituent? |
@@ -77,10 +77,10 @@ Then apply the already admitted `U.System` condition: the whole has an actual ph
 
 | Disposition | Required first result |
 | --- | --- |
-| Subject-pattern result | Exact object or relation, the claim needed for the decision, the cited subject pattern's concrete contribution, and the action now possible; no A.1 test. |
-| System recognized | Exact system, identity and boundary, decisive construction facts, acting-eligibility basis, and the system-dependent next use. |
-| Proposed system reading rejected | Exact non-system subject or relation, its subject pattern, and the action that remains possible. |
-| Evaluation unresolved | Exact `U.Entity`, missing A.1 component or kind-specific condition, needed information, and the decision that stays blocked. |
+| Subject-pattern result | Object or relation, the claim needed for the decision, the cited subject pattern's concrete contribution, and the action now possible; no A.1 test. |
+| System recognized | System, identity and boundary, decisive construction facts, acting-eligibility basis, and the system-dependent next use. |
+| Proposed system reading rejected | Non-system subject or relation, its subject pattern, and the action that remains possible. |
+| Evaluation unresolved | `U.Entity`, missing A.1 component or kind-specific condition, needed information, and the decision that stays blocked. |
 
 `SubjectPatternLocator` locates the cited pattern; in ordinary prose, cite its PatternID. Add exact predicate or defining-content references, including a defining episteme edition or `ClaimGraph`, only when the governing claim or a named receiving use requires them (C.2.1 §4.2.4).
 
@@ -95,13 +95,15 @@ After the first result, add only claims consumed by the decision. Shared extent,
 
 #### A.1.SCR:4.6 - Keep service/access recovery independent
 
-When service or access wording is the unresolved phrase, start in A.6.P §4.11a. A.6.P names the exact service-provision Work, Method, PromiseContent, system-role assignment, bearer, access-providing arrangement, permission, status, or direct relation. Use A.1.SCR only if the repaired sentence makes a separate system-dependent assertion about the exact entity recovered there—an exact bearer or access-providing arrangement.
+When service or access wording is the unresolved phrase, start in A.6.P §4.11a. A.6.P names the service-provision Work, Method, PromiseContent, system-role assignment, bearer, access-providing arrangement, permission, status, or direct relation. Use A.1.SCR only if the repaired sentence makes a separate system-dependent assertion about the entity recovered there—a bearer or access-providing arrangement.
 
-“My service stopped” does not by itself say that a system stopped. Service-provision Work may have ceased, an exact deployed or physical bearer may have stopped or become unavailable, an access-providing arrangement may be proposed as the exact system whose functioning stopped, or promised availability/fulfilment may have failed. Use A.1.SCR only to test a separately proposed exact bearer or access-providing arrangement when its system boundary matters to the decision.
+“My service stopped” does not by itself say that a system stopped. Service-provision Work may have ceased, a deployed or physical bearer may have stopped or become unavailable, an access-providing arrangement may be proposed as the system whose functioning stopped, or promised availability/fulfilment may have failed. Use A.1.SCR only to test a separately proposed bearer or access-providing arrangement when its system boundary matters to the decision.
 
 #### A.1.SCR:4.7 - Connect recognition to the project SoI
 
-The **system-of-interest (SoI)** is the system whose intended use and expected benefit give the relevant cooperation of creators its common purpose. A.1.STM:4.1 distinguishes it from the **system-in-hand**, the system locally being investigated or changed. An organization can be that engineering subject while its product or products remain the SoI. A machine or component supplied as a usable product can be the SoI of its own product undertaking under the receiving-use and fitness obligations explained there. Recognition under A.1 establishes the System; the cooperation's purpose and designation need their own basis. One project can concern several systems and other results, while this recognition question tests the exact entity on which the current claim relies.
+The **system-of-interest (SoI)** is the system whose intended use and expected benefit give the relevant cooperation of creators its common purpose. A.1.STM:4.1 distinguishes it from the **system-in-hand**, the system locally being investigated or changed. An organization can be that engineering subject while its product or products remain the SoI. A machine or component supplied as a usable product can be the SoI of its own product undertaking under the receiving-use and fitness obligations explained there.
+
+Recognition under A.1 establishes the System; the cooperation's purpose and designation need their own basis. One project can concern several systems and other results, while this recognition question tests the entity on which the current claim relies.
 
 A plan or decision can designate the project SoI or select a local subject. Recover which claim is current and keep these questions separate:
 
@@ -116,7 +118,9 @@ For example, a production team can recognize the factory as the actual System wh
 
 A future SoI or a series of intended instances can likewise be described before any actual holder exists. Agreement about the SoI role and required kind of holder is not recognition of an individual System. A.1.STM:4.2 keeps these prospective and actual claims distinct.
 
-For a claim about a particular dated Work occurrence, first identify every actual performing System and recover its A.13 core. Independently admit that occurrence under A.15.1 from its performance history, at least one Method actually followed, temporal extent, and at least one locally declared containing-System relation. Apply this branch to the occurrence being asserted, whether it is Work represented on the map or a separately asserted Work of using the map. After admission, add F.6 only when the receiving claim also needs precise assignment-bound attribution through that performer's same obtaining assignment. A Work-only claim may stop after admission.
+For a claim about a particular dated Work occurrence, first identify every actual performing System and recover its A.13 core. Independently admit that occurrence under A.15.1 from its performance history, at least one Method actually followed, temporal extent, and at least one locally declared containing-System relation. Apply this branch to the occurrence being asserted, whether it is Work represented on the map or a separately asserted Work of using the map.
+
+After admission, add F.6 only when the receiving claim also needs precise assignment-bound attribution through that performer's same obtaining assignment. A Work-only claim may stop after admission.
 
 Infer no project designation from system recognition, affectedness, familiar wording, a system-role label, or shared realization. When a decision needs one compound claim connecting the project designation with independently established Work, change or use facts, apply A.15.6:4.1a. Return `missing-substrate[project-selection-conjunction]` only when the needed operator semantics are unavailable; preserve the designation and direct facts.
 

@@ -6,12 +6,12 @@ section_id: "E.24.PUB:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.24.PUB — Episteme Publication: Availability, Form and Carrier"
   - "E.24.PUB:intro — Intro"
-line_start: 116915
-line_end: 116920
+line_start: 124388
+line_end: 124393
 dependencies:
   - "A.6.3"
   - "A.6.3.RT"
@@ -40,5 +40,5 @@ keywords:
 
 > **Type:** Part E FPF authoring discipline pattern
 > **Status:** Stable
-> **Normativity:** Normative unless a section is explicitly informative
+> **Normativity:** Normative unless a section is marked informative
 

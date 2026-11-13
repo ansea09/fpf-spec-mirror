@@ -6,12 +6,12 @@ section_id: "A.1.SCR:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.SCR/A.1.SCR__014_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.1.SCR — Finding the Acting or Changed System"
   - "A.1.SCR:12 — Relations"
-line_start: 3798
-line_end: 3807
+line_start: 3894
+line_end: 3903
 dependencies:
   - "A.1"
   - "A.1.CSD"
@@ -28,7 +28,7 @@ keywords:
 
 - **Builds on:** A.1 for the complete constructive criterion, admitted holon kinds, acting eligibility, and `true | false | unknown` evaluation discipline.
 - **Leaves directly through:** A.2.2, A.3.1, A.3.2, A.3.4, A.15.1, A.15.2, A.22, C.2.1, E.18, and the exact relation pattern when systemhood is not load-bearing.
-- **Service/access first use:** A.6.P §4.11a; A.1.SCR applies only to a separate system-dependent claim about the exact entity recovered there—an exact bearer or access-providing arrangement.
+- **Service/access first use:** A.6.P §4.11a; A.1.SCR applies only to a separate system-dependent claim about the entity recovered there—a bearer or access-providing arrangement.
 - **Uses for projects:** A.15.6 for the actual and intended system distinction, plan or decision designation of the project system-of-interest, separate tests of the system-role kind and assignment, project-relevant network selection, and `missing-substrate[project-selection-conjunction]`; A.1.STM only when the returned recognition result must re-enter the system-thinking long map.
 - **Uses for missing relations:** A.6.RCD with exact participants, receiving use, and `missing-governor[...]`.
 - **Coordinates with:** A.1.CSD when a returned bearer result opens the separate question of which other Systems may undergo relevant changes; A.1.STM for the separate long-map use after recognition; and E.10 for lexical triggers.

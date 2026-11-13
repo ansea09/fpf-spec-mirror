@@ -6,12 +6,12 @@ section_id: "A.6.3.CR:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CR/A.6.3.CR__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.3.CR — ConservativeRetextualization: EntityOfConcern-Preserving Textual Re-Expression"
   - "A.6.3.CR:1 — Problem frame"
-line_start: 18173
-line_end: 18190
+line_start: 19014
+line_end: 19031
 dependencies:
   - "A.15"
   - "A.6.2"
@@ -42,7 +42,7 @@ Use this pattern when available source claims about the same EntityOfConcern nee
 
 **What goes wrong if missed.** A summary, translation, or manager-readable rewrite is treated as harmless editing after it has started hiding explanation work, bridge work, changed authority relation, or a narrower admissible use.
 
-**What this buys.** One honest same-entity textual rewrite with visible source-relation tether, visible omission or loss notes, and a clear repair or next-pattern route when conservativity fails.
+**What this buys.** A same-entity textual rewrite with visible source-relation tether and omission or loss notes, and a repair or next-pattern route when conservativity fails.
 
 **Ordinary use.** A short source-to-result statement can suffice when the source relation, material omissions and intended use remain recoverable.
 

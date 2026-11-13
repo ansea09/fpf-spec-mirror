@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.5.RA"
-pattern_title: "Recover an Argument for Its Next Use"
+pattern_title: "Recover an Argument for Use"
 section_id: "B.5.RA:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.RA/B.5.RA__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "B.5.RA — Recover an Argument for Its Next Use"
+  - "B.5.RA — Recover an Argument for Use"
   - "B.5.RA:7 — Conformance Checklist"
-line_start: 48196
-line_end: 48211
+line_start: 50212
+line_end: 50229
 dependencies:
   - "B.5"
   - "B.5.MPC"
@@ -35,7 +35,9 @@ For the argument and use being recovered:
 6. A small instance supports the explanation at its stated scope; a general conclusion has its corresponding reasoning.
 7. Further checking is selected for an unresolved question, and adequately supported parts remain reusable.
 
-For an argument using :4.4a, also inspect whether the claims preserve the source's scope, conditions and attribution; a consequential competing reading has been resolved or retained; and the selected scheme fits the offered reasoning. Intermediate conclusions and joint reasons must expose the actual dependency. Reconstructed premises and conclusions remain distinguishable from supplied ones and from the reader's new grounds. Each consequential objection has a target and grounds. A changed condition should revise the affected support without automatically asserting the opposite conclusion.
+For an argument using :4.4a, also inspect whether the claims preserve the source's scope, conditions and attribution; a consequential competing reading has been resolved or retained; and the selected scheme fits the offered reasoning. Intermediate conclusions and joint reasons must expose the dependency.
 
-These are questions about the recovered reasoning. Their answers may already be evident in the working explanation or application.
+Reconstructed premises and conclusions remain distinguishable from supplied ones and from the reader's new grounds. Each consequential objection has a target and grounds. A changed condition should revise the affected support without automatically asserting the opposite conclusion.
+
+These are questions about the recovered reasoning. Their answers may be evident in the explanation or application.
 

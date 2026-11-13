@@ -6,12 +6,12 @@ section_id: "E.4.PFR:5"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFR/E.4.PFR__007_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.4.PFR — Pattern-Framework Relation and Edition Discipline"
   - "E.4.PFR:5 — Bias-Annotation"
-line_start: 95981
-line_end: 96000
+line_start: 101123
+line_end: 101144
 dependencies:
   - "A.10"
   - "A.6.0"
@@ -48,21 +48,23 @@ keywords:
 
 ### E.4.PFR:5 - Bias-Annotation
 
-**Scope.** The assertion-first discipline is **Universal within this pattern's subject**: every claimed relation starts as a readable assertion with its subject, relation function, basis, polarity, and current facts. The reusable row, dependency record, package manifest, and high-cost basis analysis are **limited** tools for a named framework-maintenance use whose next action needs them; none is a prerequisite for ordinary relation prose.
+**Scope.** The assertion-first discipline is **Universal within this pattern's subject**: every claimed relation starts as a readable assertion with its subject, relation function, basis, polarity, and current facts.
+
+The reusable row, dependency record, package manifest, and high-cost basis analysis are **limited** tools for a named framework-maintenance use whose next action needs them. None is a prerequisite for ordinary relation prose.
 
 | Lens | Boundary |
 | --- | --- |
 | **Gov** | A row or analysis grants no authority, acceptance, permission, or reliance. |
 | **Arch** | Assertions, relations, records, editions, publications, carriers, and access routes stay distinct. |
 | **Epist** (Epistemological and Ontological) | A representation cites an assertion but neither creates the relation nor proves more than its bounded basis. |
-| **Prag** | Stop after the direct assertion unless a named next action needs more structure; keep high-cost analysis exceptional. |
+| **Prag** | Stop after the direct assertion unless a named next action needs more structure. Keep high-cost analysis exceptional. |
 | **Did** | Lead with the readable assertion and introduce optional machinery only through a concrete receiving use. |
 
-The first drift is relation-word overread: words such as *depends*, *uses*, *supports*, *governs*, or *profiles* are treated as if they settled relation function. Recover the exact subject assertion; use F.19:4.4 to decide whether a stronger reading needs an explicit correction.
+The first drift is reading too much into relation words. Terms such as *depends*, *uses*, *supports*, *governs*, or *profiles* are treated as if they settled relation function. Recover the assertion about the subject and the relation it states. Use F.19:4.4 to decide whether a stronger reading needs an explicit correction.
 
-The second drift is record prestige: a standardized row is required before the assertion can count. Keep the direct assertion as default and demand a named receiver for every row.
+The second drift is to require a standardized row before an assertion can count. Keep the direct assertion as default and demand a named receiver for every row.
 
-The third drift is software-package analogy: compatibility, endpoints, and access carriers are useful, but framework relations are not build imports, module calls, APIs, runtime routes, permissions, or performed Work.
+The third drift is treating a framework edition like a software package. Compatibility, endpoints, and access carriers are useful, but framework relations are not build imports, module calls, APIs, runtime routes, permissions, or performed Work.
 
-The fourth drift is basis inflation: definition, citation, evidence, or later sufficiency is mistaken for actual formal-premise use or criterion selection, and every actual-use claim receives a complete analysis. Keep actual use exact and open analysis only for its high-cost receiver.
+The fourth drift is to mistake definition, citation, evidence, or later sufficiency for actual formal-premise use or criterion selection and to give every actual-use claim a complete analysis. Keep actual use exact and open analysis only for its high-cost receiver.
 

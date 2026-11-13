@@ -6,12 +6,12 @@ section_id: "A.15.3:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.3/A.15.3__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.15.3 — SlotFillingsPlanItem: Plan a Value for an Existing Declaration Member"
   - "A.15.3:4 — Solution"
-line_start: 30127
-line_end: 30232
+line_start: 31216
+line_end: 31321
 dependencies:
   - "A.15.1"
   - "A.15.2"
@@ -64,7 +64,7 @@ Each row points to one member in one declaration episteme selected for the inten
 | expected result of a future operation application | one `ResultDeclaration` in one A.6.1 `OperationDeclaration` | A.6.1 and the cited mechanism define result meaning and the result-binding predicate; an expected value is not a returned value |
 | another declared future use | one declaration member whose own pattern defines both the member meaning and its actual-use predicate | cite that pattern and declaration; if either definition is absent, return `missing-governor` instead of inventing a target |
 
-A `U.MethodDescription` is not a target merely because it mentions inputs, effects, parameters, bounds, or acceptance conditions. A table or form exposes an A.6.5 SlotSpec only when a cited `RelationSignature` actually contains that SlotSpec. Operation arguments and results stay in A.6.1 declarations; planning them does not turn them into A.6.5 SlotSpecs.
+A `U.MethodDescription` is not a target merely because it mentions inputs, effects, parameters, bounds, or acceptance conditions. A table or form exposes an A.6.5 SlotSpec only when a cited `RelationSignature` contains that SlotSpec. Operation arguments and results stay in A.6.1 declarations; planning them does not turn them into A.6.5 SlotSpecs.
 
 One item may contain several rows when they serve the same intended performance, baseline policy, and rule for revising the plan. Each row still resolves to its own declared member. Split the item when those three controls differ. The WorkPlan's present EntityOfConcern remains its C.2.1 identity discriminator; a merely possible future performance does not replace it.
 
@@ -133,7 +133,7 @@ The row plans a value; it is not an application or binding. An actual argument b
 
 When actual use is compared with the plan, establish the relation participation under its obtaining predicate or the operation argument/result binding under A.6.1. A plan row, matching label, type or value supplies none of those facts by itself. Add an independently admitted A.15.1 Work identity only when the comparison also consumes that dated occurrence claim.
 
-If the team must state whether actual use matched the plan, name the comparison policy and the independently established actual facts. A one-off comparison may use A.6.RCD disposition 2 for a local compound assertion. Repeated parameterized comparisons may use disposition 3: keep a compound law subject-bounded when every reuse concerns one exact subject, or identify a reusable predicate-definition episteme when the rule is used across subjects. Do not admit a comparison relation kind unless a named receiving use needs distinct comparison occurrences as such; then name that use and follow relation-kind admission. None of these comparisons changes the WorkPlan or creates a universal planned-to-actual relation.
+If the team must state whether actual use matched the plan, name the comparison policy and the independently established actual facts. A one-off comparison may use A.6.RCD disposition 2 for a local compound assertion. Repeated parameterized comparisons may use disposition 3: keep a compound law subject-bounded when every reuse concerns one subject, or identify a reusable predicate-definition episteme when the rule is used across subjects. Do not admit a comparison relation kind unless a named receiving use needs distinct comparison occurrences as such; then name that use and follow relation-kind admission. None of these comparisons changes the WorkPlan or creates a universal planned-to-actual relation.
 
 An unplanned participant is still an actual participant when the relation's obtaining predicate holds for the complete participant set. To say that a planned value was missing, excluded, or substituted, apply the comparison policy's closure or negative criterion to the case facts. Return `missing-information` when facts required to decide the comparison are unavailable; return `missing-governor` when the required comparison predicate or policy rule is absent.
 

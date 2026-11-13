@@ -6,12 +6,12 @@ section_id: "E.17.EFP:12a"
 section_title: "C.29 mathematical-lens use relation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.EFP/E.17.EFP__014_c-29-mathematical-lens-use-relation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.17.EFP — ExplanationFaithfulnessProfile — explanation-use discipline over existing MVPK faces"
   - "E.17.EFP:12a — C.29 mathematical-lens use relation"
-line_start: 108515
-line_end: 108518
+line_start: 115196
+line_end: 115199
 dependencies:
   - "A.10"
   - "A.15"
@@ -42,5 +42,5 @@ keywords:
 
 ### E.17.EFP:12a - C.29 mathematical-lens use relation
 
-> When a published explanation expression uses a mathematical lens, EFP still classifies and bounds its explanation use. Cite the applicable `C.29` output only for the mathematical-lens claim actually used. If the applicable C.29 result is `MathLensUse.LensCandidateNote`, retain its first-candidate recognition use and next lens-use action and output; `CandidateMathObject?` remains optional. For a load-bearing mathematical-lens claim, cite the exact `MathLensUse.OneLine`, `MathLensUse.MiniCard`, or `MathLensUse.FullCard` result required by C.29. Keep recoverable the candidate mathematical object, lens mapping mode, preserved and lost structure, exposed invariant or distinction, and stop condition required by that output, plus `LensUseBoundaryValue` and `declaredLensUse` where C.29 requires them; include `blockedLensOverread?` only when it passes F.19's plausible-reader test. Keep EFP's bounded explanation use and blocked downstream use explicit; do not copy fields already recoverable through that exact reference. Add source-relation, evidence, face, or forbidden-use detail only when the receiving use makes it material; the mathematical-lens result does not make the explanation faithful, evidential, or admissible downstream by itself.
+> When a published explanation expression uses a mathematical lens, EFP still classifies and bounds its explanation use. Cite the applicable `C.29` output only for the mathematical-lens claim used. If the applicable C.29 result is `MathLensUse.LensCandidateNote`, retain its first-candidate recognition use and next lens-use action and output. `CandidateMathObject?` remains optional. For a load-bearing mathematical-lens claim, cite the exact `MathLensUse.OneLine`, `MathLensUse.MiniCard`, or `MathLensUse.FullCard` result required by C.29. Keep recoverable the candidate mathematical object, lens mapping mode, preserved and lost structure, exposed invariant or distinction, and stop condition required by that output, plus `LensUseBoundaryValue` and `declaredLensUse` where C.29 requires them. Include `blockedLensOverread?` only when it passes F.19's plausible-reader test. Keep EFP's bounded explanation use and blocked downstream use explicit. Do not copy fields already recoverable through that exact reference. Add source-relation, evidence, face, or forbidden-use detail only when the receiving use makes it material; the mathematical-lens result does not make the explanation faithful, evidential, or admissible downstream by itself.
 

@@ -6,12 +6,12 @@ section_id: "B.3.5:2"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.5/B.3.5__003_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.3.5 — Assurance Grounding for Working-Model Relation Claims (CT2R-LOG)"
   - "B.3.5:2 — Problem Frame"
-line_start: 45445
-line_end: 45448
+line_start: 47307
+line_end: 47310
 dependencies:
   - "B.3"
   - "C.13"
@@ -21,5 +21,5 @@ keywords:
 
 ### B.3.5:2 - Problem Frame
 
-B.3.5 exists where a readable Working-Model relation must remain usable by practitioners while assurance readers still need a grounding relation and declared validation stance. The pattern governs how a public relation claim connects to the support required by its selected assurance use.
+B.3.5 exists where a readable Working-Model relation must remain usable by practitioners while assurance readers need a grounding relation and declared validation stance. The pattern governs how a public relation claim connects to the support required by its selected assurance use.
 

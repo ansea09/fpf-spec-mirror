@@ -6,12 +6,12 @@ section_id: "E.23:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:2 — Problem"
-line_start: 114818
-line_end: 114827
+line_start: 122087
+line_end: 122100
 dependencies:
   - "A.19.ECS"
   - "A.22.CGUS"
@@ -34,7 +34,11 @@ FPF often improves artifacts by repeated review, repair, and re-evaluation. The 
 
 The loop also avoids the maturity-ladder trap. Meeting the floor or receiving all `5`s supplies quality evidence within the current scope. Stopping additionally requires the practical judgement in §4.3; neither result proves that the object cannot improve.
 
-The loop also fails when an ordinal value becomes a work target. `5` is an assigned result after measurement, not an instruction to add apparatus until a `5` can be defended. Below-floor values return a repair proposal or intended-work claim; they do not establish that Work occurred. Above-floor improvement becomes a selected proposal when chosen under the applicable selection rule, but the target is a substantive content improvement: stronger positive action guidance, worked slice, case and countercase coverage, source-currentness carry-through, mature-content discharge, relation cleanup, deletion of displaced apparatus, split of overloaded content, or another named content gain. `Stay at 4` or `no proposal` is admissible only after a by-value search finds no non-dominated content improvement worth its cost under protected qualities. A selected proposal becomes neither performed Work nor actual Transformation until those independently governed occurrences obtain.
+The loop also fails when an ordinal value becomes a work target. `5` is an assigned result after measurement, not an instruction to add apparatus until a `5` can be defended.
+
+Below-floor values return a repair proposal or intended-work claim; they do not establish that Work occurred.
+
+Above-floor improvement becomes a selected proposal when chosen under the applicable selection rule, but the target is a substantive content improvement: stronger positive action guidance, worked slice, case and countercase coverage, source-currentness carry-through, mature-content discharge, relation cleanup, deletion of displaced apparatus, split of overloaded content, or another named content gain. `Stay at 4` or `no proposal` is admissible only after a by-value search finds no non-dominated content improvement worth its cost under protected qualities. Selection does not perform the Work or bring about the Transformation. Each occurrence needs its own grounds.
 
 A below-floor value, finding, improvement aim, or repeated-evaluation need is not by itself an actual Problem. If one improvement use relies on an actual Problem, cite one current C.22.PFR `ProblematicForRelation` occurrence with its actual-condition and criterion-applicability participants and its maximal continuous adverse-episode identity. Evaluation Work, result epistemes, evidence, and loop records may support a claim about that occurrence; they neither create nor split it.
 

@@ -6,12 +6,12 @@ section_id: "C.37.MP:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37.MP/C.37.MP__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.37.MP — Maintain a Method Representation Profile"
   - "C.37.MP:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 82178
-line_end: 82189
+line_start: 86193
+line_end: 86204
 dependencies:
   - "A.10"
   - "A.3.1"
@@ -26,7 +26,7 @@ keywords:
 
 | Anti-pattern | Repair |
 | --- | --- |
-| “This diagram is the Method.” | Name the Method or candidate account, current description edition, direct subject result, exact claim, and use boundary. |
+| “This diagram is the Method.” | Name the Method or candidate account, current description edition, subject result, claim, and use boundary. |
 | “Everyone should use the canonical process map.” | Make another row for every receiver/action pair and expose only its required Method claims and stops. |
 | “Every project, process, and case account must be a view of one Work.” | Recover each direct subject first. Preserve one admitted Work where the claims concern it; keep unlike subjects and their needed correspondences explicit. |
 | “The current publication proves this row may be used.” | Record publication as an availability fact; establish the required subject and reliance grounds and the receiving rule's conditions on this use. |

@@ -6,12 +6,12 @@ section_id: "E.18.1:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__010_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.18.1 — P2W Problem-to-Work Carry-Through"
   - "E.18.1:9 — Consequences"
-line_start: 111376
-line_end: 111385
+line_start: 118328
+line_end: 118337
 dependencies:
   - "A.15"
   - "A.15.PROD"
@@ -57,8 +57,8 @@ keywords:
 | Consequence | Benefit | Cost or mitigation |
 |---|---|---|
 | A compact carry-through note can be materialized when another person or later action needs replay. | A practitioner can recover how the accepted problem-side claim led to the applicable pattern contribution and its result. | Ordinary conversation adds no record; transfer, audit, delayed feedback, costly reversal, automation, or durable reuse pays for the note. |
-| Positive carry-through structure comes before boundary. | First use is readable before the heavier relation aid. | Boundary checks are still available in one canonical section. |
-| Result language becomes unpackable. | Artifacts, telemetry, acceptance, measurement, and refresh can be handled by their own records; unresolved *role enactability* wording goes through E.10.ROLE and then to the pattern for the recovered object or relation. | More than one application may be needed for one wording span from an admitted source. |
+| Positive carry-through structure comes before boundary. | First use is readable before the heavier relation aid. | Boundary checks remain available in one section. |
+| The reader can identify what a result claim means. | Artifacts, telemetry, acceptance, measurement, and refresh can be handled by their own records; unresolved *role enactability* wording goes through E.10.ROLE and then to the pattern for the recovered object or relation. | More than one application may be needed for one wording span from an admitted source. |
 | P2W stays non-procedural. | The pattern can be used in many project situations without prescribing one local procedure. | A work procedure comes from method material or `A.15.2` planning material outside P2W. |
 | Related patterns keep their authority. | P2W avoids duplicating evidence, gate, decision, architecture, publication, mechanism, and work-family doctrine. | Users consult the pattern named by the recovered relation when that relation is being made. |
 

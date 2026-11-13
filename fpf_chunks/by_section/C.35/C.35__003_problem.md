@@ -6,21 +6,15 @@ section_id: "C.35:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.35/C.35__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.35 — Assess Generated or Discovered Results for Architecture Use"
   - "C.35:2 — Problem"
-line_start: 81168
-line_end: 81175
+line_start: 85047
+line_end: 85060
 dependencies:
-  - "A.13"
-  - "A.15.1"
-  - "A.15.PROD"
-  - "A.2.1"
   - "A.22"
-  - "A.3.4"
   - "A.6.M"
-  - "A.6.RCD"
   - "C.16"
   - "C.18"
   - "C.19"
@@ -41,9 +35,7 @@ dependencies:
   - "C.32.PAD"
   - "C.33"
   - "C.34"
-  - "C.36"
   - "E.18"
-  - "F.6"
   - "G.5"
 keywords:
   - "DSM"
@@ -63,5 +55,11 @@ Modern architecture work receives claim-bearing outputs, representations, public
 
 These results can expose candidate decompositions, relation gaps, hidden invariants, feasible search regions, trade-off points, source labels, or overlooked organization. They are not automatically obtaining A.22 structures, realized holon structures, eval results, evidence sufficiency, or decision authority.
 
-C.35 handles the gap between exact result identity and architecture use. It first asks what the result is; which claim, represented object, or proposed organization it carries; whether representation or publication distinctions matter; and which architecture use is proposed. It then asks only the questions belonging to the actual branch. A transformation names its exact source and result objects, trace, preservation, and loss. A discovery names its observation or extraction basis, what is observed, inferred, or unknown, the covered and unexplored region, uncertainty, and validation. A generative proposal names its constraints, proposed organization or claim content, known omissions, and validation needs; source and preservation enter only when an actual baseline is declared. Method, performed Work, attribution, bearer feasibility, and publication detail enter only when the receiving use relies on them.
+C.35 handles the gap between result identity and architecture use. It first asks what the result is; which claim, represented object, or proposed organization it carries; whether representation or publication distinctions matter; and which architecture use is proposed. It then asks only the questions belonging to the result's branch:
+
+- A transformation names its source and result objects, trace, preservation, and loss.
+- A discovery names its observation or extraction basis, what is observed, inferred, or unknown, the covered and unexplored region, uncertainty, and validation.
+- A generative proposal names its constraints, proposed organization or claim content, known omissions, and validation needs; source and preservation enter only when a baseline is declared.
+
+Method, performed Work, attribution, bearer feasibility, and publication detail enter only when the receiving use relies on them.
 

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.10.ROLE"
-pattern_title: "Recovering What “Role” Means in the Current Claim"
+pattern_title: "Recover What “Role” Means in This Claim"
 section_id: "E.10.ROLE:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ROLE/E.10.ROLE__004_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "E.10.ROLE — Recovering What “Role” Means in the Current Claim"
+  - "E.10.ROLE — Recover What “Role” Means in This Claim"
   - "E.10.ROLE:2 — Problem"
-line_start: 101997
-line_end: 102005
+line_start: 107743
+line_end: 107751
 dependencies:
   - "A.2"
   - "A.2.1"
@@ -40,5 +40,5 @@ A cold reader needs to answer two questions at the point of use:
 1. What exact object or relation does this sentence claim?
 2. What useful action or conclusion depends on making that distinction?
 
-If the text answers neither question, a fluent rewrite can preserve the word while changing the claim. A mechanical replacement can be even worse: it can assign a report, schema field, relation participant, or diagram position to a system-role kind that was never intended.
+If the text answers neither question, a fluent rewrite can preserve the word while changing the claim. A mechanical replacement can introduce a further error by assigning a report, schema field, relation participant, or diagram position to a system-role kind that was never intended.
 

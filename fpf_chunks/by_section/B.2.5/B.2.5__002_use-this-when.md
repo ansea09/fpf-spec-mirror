@@ -6,12 +6,12 @@ section_id: "B.2.5:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.5/B.2.5__002_use-this-when.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.2.5 — Supervisor-Subholon Feedback Relation"
   - "B.2.5:0 — Use This When"
-line_start: 44620
-line_end: 44646
+line_start: 46432
+line_end: 46458
 dependencies:
   - "A.1"
   - "A.10"
@@ -43,7 +43,7 @@ keywords:
 
 ### B.2.5:0 - Use This When
 
-Use this pattern to describe two-sided feedback between one supervising acting system and one or more supervised holons. If the supervision is conditioned by a local system-role kind or assignment, recover that classification and exact assignment separately.
+Use this pattern to describe two-sided feedback between one supervising acting system and one or more supervised holons. If the supervision is conditioned by a local system-role kind or assignment, recover that classification and assignment separately.
 
 The first useful move is to recover the facts supporting the feedback claim:
 
@@ -56,7 +56,7 @@ The first useful move is to recover the facts supporting the feedback claim:
 
 **What goes wrong if missed.** A control diagram, policy note, dashboard, publication channel, or supervisor word starts carrying part-whole, agency, safety, assurance, timing, gate, or architecture claims that belong elsewhere.
 
-**What this buys.** B.2.5 gives a readable compound claim: for each named holon, this system receives the stated observation and returns an influence coupled to it under the applicable rule. The observation, influence and coupling facts remain separately governed; the assertion can support a control description without introducing a fused feedback occurrence.
+**What this buys.** B.2.5 gives a compound claim: for each named holon, this system receives the stated observation and returns an influence coupled to it under the applicable rule. The observation, influence and coupling facts remain separately governed; the assertion can support a control description without introducing a fused feedback occurrence.
 
 **Not this pattern when.**
 
@@ -64,7 +64,7 @@ The first useful move is to recover the facts supporting the feedback claim:
 - If the question is architecture or selected structure, use `C.30`, `A.22`, and `C.30.ASV`.
 - If the question is reusable dynamics, timing, rate, or temporal validity, use `A.3.3` and `C.27`.
 - If the question is causal use, use `C.28`.
-- If the question is evidence, provenance, assurance, or a gate decision, use `A.10`, `G.6`, `B.3`, or `A.21` respectively. Use `A.20` for its internal-constraint test in a transformation-flow structure; other constraint claims need their direct pattern.
-- If module or interface wording hides the exact claim, use `A.6.M` to recover it; use the direct pattern for an already precise allocation or commitment claim.
+- If the question is evidence, provenance, assurance, or a gate decision, use `A.10`, `G.6`, `B.3`, or `A.21` respectively. Use `A.20` for its internal-constraint test in a transformation-flow structure; other constraint claims need their pattern.
+- If module or interface wording hides the claim, use `A.6.M` to recover it; use the pattern for an already precise allocation or commitment claim.
 - If the question is whole reidentification, use `B.2`.
 

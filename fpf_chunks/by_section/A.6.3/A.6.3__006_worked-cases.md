@@ -6,12 +6,12 @@ section_id: "A.6.3:5"
 section_title: "Worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3/A.6.3__006_worked-cases.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.3 — Episteme viewing - EntityOfConcern-preserving episteme construction"
   - "A.6.3:5 — Worked cases"
-line_start: 17752
-line_end: 17777
+line_start: 18577
+line_end: 18606
 dependencies:
   - "A.13"
   - "A.15.1"
@@ -34,7 +34,7 @@ keywords:
 
 #### A.6.3:5.1 - Safety-focused system description
 
-X is a rich system-description episteme about exact plant S. Y is a smaller episteme about the same S containing only safety-critical functions, hazards, and mitigations recoverable from X. The viewing declaration names the filter and omitted claim families. A.6.3 construction obtains. Y becomes a `U.View` only after exact safety viewpoint P is resolved and `EpistemeViewpointConformanceRelation(Y,P)` obtains.
+X is a system-description episteme about plant S. Y is a smaller episteme about the same S containing only safety-critical functions, hazards, and mitigations recoverable from X. The viewing declaration names the filter and omitted claim families. A.6.3 construction obtains. Y becomes a `U.View` only after safety viewpoint P is resolved and `EpistemeViewpointConformanceRelation(Y,P)` obtains.
 
 #### A.6.3:5.2 - Directly authored view
 
@@ -46,13 +46,17 @@ Query Q constructs Y from source X while preserving the same system and making o
 
 #### A.6.3:5.4 - Normalized publication card
 
-X and Y are separately identified epistemes about exact morphism f. Y reorders claims and normalizes names without changing their interpretation. `NormalizeTechCard : X -> Y` is a direct viewing. For a repeat claim under the same scheme and normalization rules, identify the next normalization arrow `n_Y : Y -> Z`; establish `Z = Y` under C.2.1 and `compose(n_Y, NormalizeTechCard) ≃ NormalizeTechCard` under the substrate's declared arrow equivalence, with a fixture or proof. A later publication occurrence makes Y available through a TechCard form. Y is called `U.View` only if it conforms to the exact publication viewpoint; the form and carrier remain separate.
+X and Y are separately identified epistemes about morphism f. Y reorders claims and normalizes names without changing their interpretation. `NormalizeTechCard : X -> Y` is a direct viewing. For a repeat claim under the same scheme and normalization rules, identify the next normalization arrow `n_Y : Y -> Z`; establish `Z = Y` under C.2.1 and `compose(n_Y, NormalizeTechCard) ≃ NormalizeTechCard` under the substrate's declared arrow equivalence, with a fixture or proof.
+
+A later publication occurrence makes Y available through a TechCard form. Y is called `U.View` only if it conforms to the publication viewpoint; the form and carrier remain separate.
 
 #### A.6.3:5.5 - Cross-model coverage
 
-Requirements episteme R and design episteme D concern exact system S. Exact realization relations connect particular requirements to design elements. A correspondence assertion episteme states those occurrences. Receiving episteme Y selects only requirements with an obtaining realization relation. A.6.3 records the correspondence-mediated construction from the exact sources to Y; the assertion episteme and matrix representation remain separate from the realization occurrences.
+Requirements episteme R and design episteme D concern system S. Realization relations connect requirements to design elements. A correspondence assertion episteme states those occurrences.
+
+Receiving episteme Y selects only requirements with an obtaining realization relation. A.6.3 records the correspondence-mediated construction from the sources to Y; the assertion episteme and matrix representation remain separate from the realization occurrences.
 
 #### A.6.3:5.6 - Retargeting boundary
 
-X concerns pump P-14. A proposed Y concerns the whole cooling skid. Even if every Y claim is derived from X plus neighboring descriptions, A.6.3 does not apply because the exact EntityOfConcern changed. If declaring a retargeting arrow, use A.6.4. For a claimed receiving use, separately state its invariant, visible loss, use conditions and affirmative or negative proposition; assess that proposition against particular facts when a current-case judgement is needed.
+X concerns pump P-14. A proposed Y concerns the whole cooling skid. Even if every Y claim is derived from X plus neighboring descriptions, A.6.3 does not apply because the EntityOfConcern changed. If declaring a retargeting arrow, use A.6.4. For a claimed receiving use, separately state its invariant, visible loss, use conditions and affirmative or negative proposition; assess that proposition against case facts when a current-case judgement is needed.
 

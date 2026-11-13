@@ -6,12 +6,12 @@ section_id: "A.2.4:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.4/A.2.4__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.2.4 — Episteme Evidence-Use and Status-Use Relations"
   - "A.2.4:2 — Problem"
-line_start: 6080
-line_end: 6093
+line_start: 6335
+line_end: 6348
 dependencies:
   - "A.10"
   - "A.2"
@@ -20,13 +20,7 @@ dependencies:
   - "A.6.RSIR"
   - "B.3"
   - "C.2.1"
-  - "C.28"
-  - "E.10.D2"
   - "E.10.ROLE"
-  - "E.17"
-  - "F.10"
-  - "G.11"
-  - "G.6"
   - "U.SystemRoleAssignment"
 keywords:
   - "claim"
@@ -41,7 +35,7 @@ keywords:
 
 ### A.2.4:2 - Problem
 
-Source text may use `U.EvidenceRole` or another evidence-like *role* label for a real need: an episteme can be used as evidence for a claim under an effective source scheme and exact ClaimScope, with polarity, time, assurance use, weight, and provenance constraints. Treat those spellings as source-word triggers. The FPF repair states an evidence-use relation; it does not classify the episteme under a system-role kind or place it in a `U.SystemRoleAssignment`.
+Source text may use `U.EvidenceRole` or another evidence-like *role* label for a need: an episteme can be used as evidence for a claim under an effective source scheme and ClaimScope, with polarity, time, assurance use, weight, and provenance constraints. Treat those spellings as source-word triggers. The FPF repair states an evidence-use relation; it does not classify the episteme under a system-role kind or place it in a `U.SystemRoleAssignment`.
 
 Unresolved role-shaped wording can lead to the following failures:
 

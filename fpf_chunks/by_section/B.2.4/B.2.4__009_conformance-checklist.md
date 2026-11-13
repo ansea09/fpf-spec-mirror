@@ -6,12 +6,12 @@ section_id: "B.2.4:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.4/B.2.4__009_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.2.4 — Do Capability or Functioning Changes Require Whole Reidentification?"
   - "B.2.4:6 — Conformance Checklist"
-line_start: 44556
-line_end: 44566
+line_start: 46368
+line_end: 46378
 dependencies:
   - "A.10"
   - "A.15"
@@ -39,10 +39,10 @@ keywords:
 
 | Check | Requirement |
 | --- | --- |
-| `CC-B2.4-1` | B.2.4 is used only when exact capability, functioning, or selected in-life transformation-flow facts leave a B.2 whole-reidentification question after subject-pattern explanations are tested. |
+| `CC-B2.4-1` | B.2.4 is used only when capability, functioning, or selected in-life transformation-flow facts leave a B.2 whole-reidentification question after subject-pattern explanations are tested. |
 | `CC-B2.4-2` | Ordinary capability, function, functioning, transformation, method, work, module, characteristic, evidence, and architecture claims return to subject patterns. |
 | `CC-B2.4-3` | A capability or function label does not substitute for the subject-pattern facts or B.2 whole comparison. |
 | `CC-B2.4-4` | Method, method description, work plan, and work occurrence remain separate. |
 | `CC-B2.4-5` | Mathematical or publication descriptions of transformation-flow structure do not replace the in-life structure. |
-| `CC-B2.4-6` | If B.2 remains current, it handles the remaining whole comparison, tests an exact candidate new whole under the complete A.1 and direct kind criteria when required, and supplies any optional record needed by the receiving use. |
+| `CC-B2.4-6` | If B.2 remains current, it handles the remaining whole comparison, tests a candidate new whole under the A.1 and kind criteria when required, and supplies any optional record needed by the receiving use. |
 

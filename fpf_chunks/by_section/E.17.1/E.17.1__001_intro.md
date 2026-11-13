@@ -6,12 +6,12 @@ section_id: "E.17.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.17.1 — Viewpoint Bundle Library - Reusable Viewpoint Reference Bundles"
   - "E.17.1:intro — Intro"
-line_start: 106613
-line_end: 106644
+line_start: 113134
+line_end: 113165
 dependencies:
   - "A.16.0"
   - "A.22"
@@ -45,19 +45,19 @@ keywords:
 
 **Plain-name.** Viewpoint bundle library.
 
-**Use this when.** The same coherent family of already admitted viewpoint editions recurs across projects, schools, or publication uses, and users need one editioned catalogue from which exact viewpoint references can be imported without restating or reidentifying the viewpoints.
+**Use this when.** The same coherent family of already admitted viewpoint editions recurs across projects, schools, or publication uses, and users need one editioned catalogue from which they can import viewpoint references without restating or reidentifying the viewpoints.
 
-**First action.** Resolve one already admitted catalogue edition L and its family designator, retrieve the local declaration, and resolve only the `U.ViewpointRef` members needed now. If L or the declaration is new, missing, or disputed, use §4.2 to recover `<G_L, K_L, R_L>` and verify L's C.2.1 constitution for that edition; reuse that result while the edition, effective scheme, and relied-on premises stay unchanged.
+**First action.** Resolve one already admitted catalogue edition L and its family designator, retrieve the local declaration, and resolve only the `U.ViewpointRef` members needed now. If L or the declaration is new, missing, or disputed, use §4.2 to recover `<G_L, K_L, R_L>` and verify L's C.2.1 constitution for that edition. Reuse that result while the edition, effective scheme, and relied-on premises stay unchanged.
 
-**First useful result.** One exact catalogue edition L, one ordinary family designator retrieving a local declaration claim block, and one finite non-empty member set of `U.ViewpointRef` values that each resolve to an exact E.17.0 viewpoint episteme edition. L retains its C.2.1 identity; the compact locator `<editionDesignator(L), familyDesignator>` aids retrieval under `R_L` but is neither L's identity nor a separate bundle kind or entity.
+**First useful result.** One catalogue edition L, one ordinary family designator retrieving a local declaration claim block, and one finite non-empty member set of `U.ViewpointRef` values that each resolve to an E.17.0 viewpoint episteme edition. L retains its C.2.1 identity. The compact locator `<editionDesignator(L), familyDesignator>` aids retrieval under `R_L` but is neither L's identity nor a separate bundle kind or entity.
 
-**Ordinary stop.** Stop when exact L, the declaration, and the needed reference subset are recoverable. Do not reconstruct L's constitution, instantiate every member, select an A.22 structure, prove conformance, or publish the catalogue merely to import an admitted family.
+**Ordinary stop.** Stop when L, the declaration, and the needed reference subset are recoverable. Do not reconstruct L's constitution, instantiate every member, select an A.22 structure, prove conformance, or publish the catalogue merely to import an admitted family.
 
 **Admission boundary.** E.24.UK admits `U.Viewpoint` and `U.View`; it does not admit `U.ViewpointBundleLibrary` or `U.ViewpointBundle`. E.17.1 therefore defines an ordinary catalogue-episteme form and local bundle declarations in its claim content.
 
-**Do not use this when.** One describing use merely selects one viewpoint or a small one-off set that has no recurring family-level purpose. Keep the exact references local; a bundle adds no conformance, `U.Viewpoint` or `U.View` membership, structure, publication, or correspondence merely by collecting them.
+**Do not use this when.** A describing use needs only to select one viewpoint or a small one-off set that has no recurring family-level purpose. Keep the references local; collecting them in a bundle adds no conformance, `U.Viewpoint` or `U.View` membership, structure, publication, or correspondence.
 
-**What changes in practice.** Authors reuse exact references and preserve their bundle provenance; reviewers can detect silent member substitution, alias collision, and package-driven membership claims.
+**What changes in practice.** Authors reuse references and preserve their bundle provenance. Reviewers can detect silent member substitution, alias collision, and package-driven membership claims.
 
 
 

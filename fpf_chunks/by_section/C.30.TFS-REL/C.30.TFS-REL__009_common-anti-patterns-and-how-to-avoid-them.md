@@ -6,24 +6,20 @@ section_id: "C.30.TFS-REL:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.TFS-REL/C.30.TFS-REL__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.30.TFS-REL — Use Transformation-Flow Structures and Networks in Architecture"
   - "C.30.TFS-REL:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 75021
-line_end: 75033
+line_start: 78397
+line_end: 78409
 dependencies:
   - "A.10"
   - "A.15"
-  - "A.15.1"
   - "A.20"
   - "A.21"
   - "A.22"
   - "A.3.4"
-  - "A.6.0"
-  - "A.6.5"
   - "A.6.F"
-  - "A.6.M"
   - "A.7"
   - "B.3"
   - "C.16"
@@ -33,13 +29,8 @@ dependencies:
   - "C.30"
   - "C.30.AD"
   - "C.30.ASV"
-  - "C.30.STRAT"
   - "C.32"
   - "C.32.CONWAY"
-  - "C.32.P2S"
-  - "C.33"
-  - "C.34"
-  - "C.35"
   - "E.10"
   - "E.17.0"
   - "E.18"
@@ -48,7 +39,6 @@ dependencies:
   - "E.18.NET"
   - "E.24.PUB"
   - "F.18"
-  - "G.6"
 keywords:
   - "ArchitectureTransformationFlowStructureRelation"
   - "TFS"
@@ -72,5 +62,5 @@ keywords:
 | **Crossing-as-gate-result** | A crossing relation is treated as gate passage. | Assign gate-decision claims to A.21 and keep crossing relation under E.18. |
 | **Valuation-as-score** | A flow valuation is used as a generic architecture score. | State E.18 valuation and set-return discipline; assign measurement, characterization, selection, or candidate-set claims to `C.16` or an admitted governing pattern. |
 | **Generated relation-graph proof** | A code-agent relation graph or probe output is used as proof of architecture understanding or safety. | Recover source publication/codebase edition, extraction/probe locus, observation class from {observed, inferred, unknown}, unexplored regions, hidden structure, and direct evidence or assurance application. |
-| **Prompt-data-tool flow as authority proof** | A prompt, data, or tool-flow diagram is treated as permission for tool action or proof that authority is safe. | Keep it as a transformation-flow use or E.18.2 mathematical description. Route a selected `SecurityTrustBoundaryStructure` view through C.30.ASV; for agentic tool use, route call planning to `C.24` after the action or option is fixed and autonomy-budget enforcement to `E.16`. Use `A.20` for an internal-constraint result, `A.21` for a named gate decision, or the direct domain pattern for the particular release, admissibility, or approval claim when that claim is current. |
+| **Prompt-data-tool flow as authority proof** | A prompt, data, or tool-flow diagram is treated as permission for tool action or proof that authority is safe. | Keep it as a transformation-flow use or E.18.2 mathematical description. Route a selected `SecurityTrustBoundaryStructure` view through C.30.ASV; for agentic tool use, route call planning to `C.24` after the action or option is fixed and autonomy-budget enforcement to `E.16`. Use `A.20` for an internal-constraint result, `A.21` for a named gate decision, or the direct domain pattern for the release, admissibility, or approval claim when that claim is current. |
 

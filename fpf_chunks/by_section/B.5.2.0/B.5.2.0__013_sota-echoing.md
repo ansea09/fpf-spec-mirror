@@ -6,12 +6,12 @@ section_id: "B.5.2.0:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.0/B.5.2.0__013_sota-echoing.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.5.2.0 — Question Form for Entering Abduction (U.AbductivePrompt)"
   - "B.5.2.0:11 — SoTA-Echoing"
-line_start: 50019
-line_end: 50023
+line_start: 52083
+line_end: 52089
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -40,5 +40,7 @@ keywords:
 ### B.5.2.0:11 - SoTA-Echoing
 An opportunity or a probe-related contrast can raise an explanatory question without being formulated as an anomaly.
 
-As a foundational semantic comparison, Ciardelli, *Why We Need a Question Semantics* (author preprint, 2021; published chapter, 2022), distinguishes an issue from its expression and from the act of asking, and develops resolution conditions for questions. His *Inquisitive Action Logic* (2026) continues to treat questions as semantic content used within a formal system. Here that distinction supports separating the question from an account about it. The local explanatory-question rule in §4.2.1 is an FPF construction; these sources do not supply its account-membership rule or a universal identity test for explanations. Sources: [chapter record](https://research.unipd.it/handle/11577/3466402), [2026 paper](https://arxiv.org/abs/2606.31866).
+As a foundational semantic comparison, Ciardelli, *Why We Need a Question Semantics* (author preprint, 2021; published chapter, 2022), distinguishes an issue from its expression and from the act of asking, and develops resolution conditions for questions. His *Inquisitive Action Logic* (2026) continues to treat questions as semantic content used within a formal system.
+
+Here that distinction supports separating the question from an account about it. The local explanatory-question rule in §4.2.1 is an FPF construction; these sources do not supply its account-membership rule or a universal identity test for explanations. Sources: [chapter record](https://research.unipd.it/handle/11577/3466402), [2026 paper](https://arxiv.org/abs/2606.31866).
 

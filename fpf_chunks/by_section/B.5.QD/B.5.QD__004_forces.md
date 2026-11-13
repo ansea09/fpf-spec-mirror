@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.5.QD"
-pattern_title: "Develop a New Question from a Result or Construction"
+pattern_title: "Develop a Question from a Result or Construction"
 section_id: "B.5.QD:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.QD/B.5.QD__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "B.5.QD — Develop a New Question from a Result or Construction"
+  - "B.5.QD — Develop a Question from a Result or Construction"
   - "B.5.QD:3 — Forces"
-line_start: 49130
-line_end: 49139
+line_start: 51172
+line_end: 51181
 dependencies:
   - "B.5.MPC"
   - "B.5.RA"
@@ -25,7 +25,7 @@ keywords:
 
 ### B.5.QD:3 - Forces
 
-| Force | Working tension |
+| Force | Tension |
 |---|---|
 | Continuity and novelty | Earlier reasoning supplies operations worth retaining; its original question can also hide the next useful distinction. |
 | Refutation and recovery | A counterexample can invalidate a broad claim while leaving much of its construction available. |

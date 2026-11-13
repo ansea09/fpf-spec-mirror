@@ -6,21 +6,15 @@ section_id: "C.35:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.35/C.35__007_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.35 — Assess Generated or Discovered Results for Architecture Use"
   - "C.35:6 — Bias-Annotation"
-line_start: 81227
-line_end: 81237
+line_start: 85145
+line_end: 85155
 dependencies:
-  - "A.13"
-  - "A.15.1"
-  - "A.15.PROD"
-  - "A.2.1"
   - "A.22"
-  - "A.3.4"
   - "A.6.M"
-  - "A.6.RCD"
   - "C.16"
   - "C.18"
   - "C.19"
@@ -41,9 +35,7 @@ dependencies:
   - "C.32.PAD"
   - "C.33"
   - "C.34"
-  - "C.36"
   - "E.18"
-  - "F.6"
   - "G.5"
 keywords:
   - "DSM"
@@ -61,8 +53,8 @@ keywords:
 
 | Bias | How C.35 counters it |
 | --- | --- |
-| Output authority bias | Identify the result, organization, the status of the actual or proposed claim, and supported next use, with any material condition, limitation or return. Add representation, publication, branch, or other detail only when the use depends on it. |
-| Pareto-point admission bias | Treat a Pareto point, benchmark score, archive member, or search trace as a candidate input cue until its branch-specific basis and the concrete candidate-use rule are named. |
+| Output authority bias | Identify the result, organization, claim status (established, refuted, unestablished, or proposal), and supported next use, with any material condition, limitation or return. Add representation, publication, branch, or other detail only when the use depends on it. |
+| Pareto-point admission bias | Treat a Pareto point, benchmark score, archive member, or search trace as a candidate input cue until its branch-specific basis and the candidate-use rule are named. |
 | Reusable-generator collapse | Keep one-case output admission in C.35; handle reusable-generator, mechanism-suite, model-family, or production-pipeline claims with `E.20`, `G.1`, `G.10`, `G.11`, or another pattern that defines or constrains those claims. |
 | Bearer-free synthesis bias | Require bearer or realization boundary before treating a discovered function, relation, or candidate form as architecturally feasible. |
 | Eval substitution bias | Handle eval programs and eval results under `C.32.ACE`; handle measurement under `C.16`; do not let good eval numbers act as candidate admission or decision authority. |

@@ -6,12 +6,12 @@ section_id: "F.16:12"
 section_title: "Cross-domain application sketches"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.16/F.16__013_cross-domain-application-sketches.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.16 — Worked-Example Template (Cross-Domain)"
   - "F.16:12 — Cross-domain application sketches"
-line_start: 124028
-line_end: 124049
+line_start: 131895
+line_end: 131920
 dependencies:
   - "A.10"
   - "A.15"
@@ -64,11 +64,15 @@ Recover both exact local claims. State the actual relation, if any, between thei
 
 **Situation and claim.** The same System performs Work under a local operator system-role assignment and also has permissions grouped by an RBAC role. The claim is that these are different subjects even when both use the word *role*.
 
-Recover the local system-role kind under A.2 with C.3 and the exact assignment under A.2.1. For claimed dated Work, recover the performer's A.13 core and independently admit the Work under A.15.1; add F.6 only for precise attribution through that same obtaining assignment. F.4 supplies a kind description only when one is needed. Use the access-control pattern for the permission grouping, E.10.ROLE and F.0.1 for the trigger word, and the direct rule for any separation-of-duties constraint. A table row or shared spelling establishes neither sameness nor disjointness.
+Recover the local system-role kind under A.2 with C.3 and the exact assignment under A.2.1. For claimed dated Work, recover the performer's A.13 core and independently admit the Work under A.15.1; add F.6 only for precise attribution through that same obtaining assignment. F.4 supplies a kind description only when one is needed.
+
+Use the access-control pattern for the permission grouping, E.10.ROLE and F.0.1 for the trigger word, and the direct rule for any separation-of-duties constraint. A table row or shared spelling establishes neither sameness nor disjointness.
 
 #### F.16:12.3 - Method description, Work, and service promise
 
 **Situation and claim.** A build MethodDescription contains a target duration; dated build Work occurs; observations report actual duration; a service promise is evaluated for a calendar week.
 
-Use A.3.2 for MethodDescription membership, A.15 and B.1.5 for delivery Work and any claimed evaluation Work or Method enactment, C.16 for observations and measured values, and A.2.3 with F.12 for promise evaluation. Use A.6.1 when the exact evaluation application and result binding are current; use A.10 for a descriptive account of independently established evidence relations and bounded reliance, and B.3 only for an actual named assurance claim. Cite the MethodDescription edition only if it changes the result or replay, and state separately whether the Work used it. A comparison table may show promised and observed values, but it establishes neither Work, result, status, nor a verdict episteme.
+Use A.3.2 for MethodDescription membership, A.15 and B.1.5 for delivery Work and any claimed evaluation Work or Method enactment, C.16 for observations and measured values, and A.2.3 with F.12 for promise evaluation. Use A.6.1 when the exact evaluation application and result binding are current; use A.10 for a descriptive account of independently established evidence relations and bounded reliance, and B.3 only for an actual named assurance claim.
+
+Cite the MethodDescription edition only if it changes the result or replay, and state separately whether the Work used it. A comparison table may show promised and observed values, but it establishes neither Work, result, status, nor a verdict episteme.
 

@@ -6,12 +6,12 @@ section_id: "E.18.NET:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.NET/E.18.NET__012_sota-echoing.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.18.NET — Network of Transformation-Flow Structures"
   - "E.18.NET:11 — SoTA-Echoing"
-line_start: 112531
-line_end: 112543
+line_start: 119684
+line_end: 119698
 dependencies:
   - "A.1.STM"
   - "A.12"
@@ -39,7 +39,9 @@ keywords:
 
 ### E.18.NET:11 - SoTA-Echoing
 
-Each line below is inherited only while the cited current pattern version retains both the named body decision and the named source-use row for its declared use. E.18.NET relies on the currentness decision recorded with that source-use row; it does not independently turn the cited literature or tool practice into current authority. When one cited source-use row changes, reopen only the affected line here.
+Each line below is inherited only while the cited current pattern version retains both the named body decision and the named source-use row for its declared use. E.18.NET relies on the currentness decision recorded with that source-use row; it does not independently turn the cited literature or tool practice into current authority.
+
+When one cited source-use row changes, reopen only the affected line here.
 
 | Current pattern version and exact source-use locus | E.18.NET disposition | Use in E.18.NET | Qualification and smallest reopen |
 | --- | --- | --- | --- |

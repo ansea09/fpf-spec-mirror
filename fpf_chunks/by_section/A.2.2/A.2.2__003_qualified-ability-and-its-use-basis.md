@@ -6,12 +6,12 @@ section_id: "A.2.2:2"
 section_title: "Qualified Ability and Its Use Basis"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__003_qualified-ability-and-its-use-basis.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.2.2 — System Capability: Conditions, Measures and Fit"
   - "A.2.2:2 — Qualified Ability and Its Use Basis"
-line_start: 5272
-line_end: 5308
+line_start: 5452
+line_end: 5488
 dependencies:
   - "A.1"
   - "A.15"
@@ -48,9 +48,9 @@ Use these values when the receiving comparison needs them:
 | Qualification policy and currentness assessment | The rule for relying on that support now, and its dated assessment. A qualification window may expire while actual ability remains unchanged. |
 | Capability-fit predicate | The receiving comparison of demanded work conditions and bounds with the qualified holder claim. This is distinct from the ability proposition and its support. |
 
-WorkScope describes work conditions, even when an episteme states them. That episteme's ClaimScope concerns its claims; the two scopes do not become interchangeable. Quantitative bounds and qualification policy remain separate from WorkScope membership. A time condition belongs in WorkScope only when it actually changes which work slices are covered; an evidence-age rule belongs in qualification.
+WorkScope describes work conditions, even when an episteme states them. That episteme's ClaimScope concerns its claims; the two scopes do not become interchangeable. Quantitative bounds and qualification policy remain separate from WorkScope membership. A time condition belongs in WorkScope only when it changes which work slices are covered; an evidence-age rule belongs in qualification.
 
-These distinctions permit ordinary capability use without `U.Capability` as an additional kind. A separate kind question arises only if a concrete receiving use needs another individual's continuity or a useful stable classification beyond the holder and these claims; E.24.UK then requires that question's actual identity and membership facts.
+These distinctions permit ordinary capability use without `U.Capability` as an additional kind. A separate kind question arises only if a concrete receiving use needs another individual's continuity or a useful stable classification beyond the holder and these claims; E.24.UK then requires that question's identity and membership facts.
 
 #### A.2.2:2.1 - Method-relative capability: the structure the holder can use
 

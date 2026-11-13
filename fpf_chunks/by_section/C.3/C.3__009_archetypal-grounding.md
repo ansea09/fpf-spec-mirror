@@ -6,12 +6,12 @@ section_id: "C.3:7"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__009_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.3 — Kinds, Intent and Extent, and Typed Reasoning"
   - "C.3:7 — Archetypal Grounding"
-line_start: 55157
-line_end: 55167
+line_start: 57439
+line_end: 57449
 dependencies:
   - "A.1"
   - "A.11"
@@ -51,7 +51,7 @@ keywords:
 | Pump #14 is evaluated as a cooling pump. | Use one local kind, one declared criterion, one exact plant slice, and one `true`/`false`/`unknown` judgment. | The pump and its cooling, flow, and measured-state facts remain under direct physical and measurement governors. |
 | A maintenance episteme is classified by its instruction content while PDF and HTML forms circulate. | Judge the exact episteme against the local kind criterion. | Changing only publication form or carrier leaves this content-based judgment unchanged. |
 | A temperature value is classified into an interval. | Keep the value under its unit and measurement interpretation and judge the value directly. | Do not fabricate a value-shaped entity merely to classify it. |
-| A schema labels a row `Customer`. | Treat the label as a cue to recover the actual candidate and criterion. | Schema spelling alone yields neither `true` nor a public U-kind. |
+| A schema labels a row `Customer`. | Treat the label as a cue to recover the candidate and criterion. | Schema spelling alone yields neither `true` nor a public U-kind. |
 | A measurement required by a criterion is unavailable. | Return `unknown`; let a safety guard decline the use separately. | Do not coerce missing information to `false`. |
 | A log row is labelled `inspection work`. | First identify any exact dated `W : U.Work` under `A.15.1`; only then can W be a candidate for a local kind. | The row, plan, or label is not W, and `U.Work` never occupies W's individual position. |
 

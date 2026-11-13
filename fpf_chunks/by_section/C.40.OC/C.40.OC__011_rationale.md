@@ -6,12 +6,12 @@ section_id: "C.40.OC:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OC/C.40.OC__011_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.40.OC — Characterize a Subject for a Possible Change"
   - "C.40.OC:10 — Rationale"
-line_start: 86967
-line_end: 86972
+line_start: 91201
+line_end: 91206
 dependencies:
   - "C.11.CRC"
   - "C.16"
@@ -24,7 +24,7 @@ keywords:
 
 ### C.40.OC:10 - Rationale
 
-The common contribution is not one cross-holder scale. It is the action of selecting and orienting characteristics for one subject, receiving use, horizon, and opportunity question, then returning their substantive meanings and evidence to direct owners.
+The common contribution is not one cross-holder scale. It is the action of selecting and orienting characteristics for one subject, receiving use, horizon, and opportunity question, then returning their substantive meanings and evidence to owners.
 
 In opportunity construction, use the characterization to vary opportunity-generating dimensions and specify finite candidate changes. In advising, use it to recover premises that can reverse a comparison or recommendation.
 

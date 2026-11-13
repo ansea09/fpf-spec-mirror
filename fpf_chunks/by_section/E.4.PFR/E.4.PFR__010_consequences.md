@@ -6,12 +6,12 @@ section_id: "E.4.PFR:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFR/E.4.PFR__010_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.4.PFR — Pattern-Framework Relation and Edition Discipline"
   - "E.4.PFR:8 — Consequences"
-line_start: 96038
-line_end: 96045
+line_start: 101182
+line_end: 101191
 dependencies:
   - "A.10"
   - "A.6.0"
@@ -48,7 +48,9 @@ keywords:
 
 ### E.4.PFR:8 - Consequences
 
-**Benefits.** Readable assertions remain cheap. Named maintenance receivers gain stable rows for relation comparison, edition impact, publication/dependency repair, and refresh. Dependency and pairwise compatibility can change independently and reopen only affected claims. Actual use, candidate bases, conflicts, and downstream reliance become inspectable without adding governance kinds or owner relations.
+**Benefits.** Readable assertions remain cheap. Named maintenance receivers gain stable rows for relation comparison, edition impact, publication/dependency repair, and refresh.
+
+Dependency and pairwise compatibility can change independently and reopen only affected claims. Actual use, candidate bases, conflicts, and downstream reliance become inspectable without adding governance kinds or owner relations.
 
 **Costs.** Any selected generic row or dependency-specific record must resolve an existing assertion and exact ClaimGraph rather than citing a heading. High-cost analysis requires complete candidate and pairwise work. Existing record-first schemas and owner fields need repair.
 

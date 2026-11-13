@@ -6,12 +6,12 @@ section_id: "F.1:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.1/F.1__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.1 — Find and Select Sources for a Current Question"
   - "F.1:2 — Problem"
-line_start: 118591
-line_end: 118603
+line_start: 126189
+line_end: 126201
 dependencies:
   - "A.10"
   - "A.7"
@@ -34,13 +34,13 @@ keywords:
 
 ### F.1:2 - Problem
 
-Without question-led finding and a justified source cut where one is needed:
+The following problems can arise when people search without a guiding question or omit a source cut that the work needs.
 
 1. **Word drift.** Familiar terms silently change meaning across sources and editions.
 2. **Canon lock.** One influential standard is mistaken for the whole answer.
 3. **Recency blur.** An old edition remains load-bearing merely because it was used first.
 4. **Category bleed.** Designed structures, performed occurrences, system roles, statuses, permissions, and measurements are merged before their source claims are inspected.
-5. **Source bloat.** A large reading list hides which sources can actually change the current answer.
+5. **Source bloat.** A large reading list hides which sources can change the current answer.
 6. **Search substitution.** Rank, similarity, or family membership is mistaken for relevance, truth, or completeness.
 7. **Vocabulary lock.** The question's first wording misses a source that uses another name or explains the needed relation differently.
 8. **Access blur.** A title, excerpt or failed search over one subset is treated as if the full source had been inspected.

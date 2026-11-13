@@ -6,12 +6,12 @@ section_id: "A.7.1:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.1/A.7.1__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.7.1 — Consequence-Guided Ontological Problem Solving"
   - "A.7.1:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 25954
-line_end: 25964
+line_start: 26900
+line_end: 26910
 dependencies:
   - "A.11"
   - "A.7"
@@ -36,9 +36,9 @@ keywords:
 | Anti-pattern | Repair |
 |---|---|
 | Begin from a glossary or full ontology checklist. | Begin from the affected result and defeated claim; enter only the capable locus. |
-| Treat missing evidence as a missing kind. | Return to measurement/evidence with the exact blocked claim. |
+| Treat missing evidence as a missing kind. | Return to measurement/evidence with the blocked claim. |
 | Run constructive analysis for every typed relation. | Stop when direct kinds, positions, direction, time, and identity already determine the move. |
 | Treat a graph, predicate, or formal class as the world construction. | Recover CT2R loss and the direct subject construction before reverse inference. |
 | Let a description episteme, local kind or assignment act. | Name the capable System when it is unclear. For a deliberately asserted dated ontology-analysis Work, apply the §0 basis; keep local-kind classification, assignment and any F.6 attribution distinct. Ordinary reader action needs no invented Work identity. |
-| Copy the twelve compact claims into the method. | Cite exact `A7CP-*` IDs only when load-bearing; keep `A.7.CP` as the authoritative source. |
+| Copy the twelve compact claims into the method. | Cite `A7CP-*` IDs only when load-bearing; keep `A.7.CP` as the authoritative source. |
 

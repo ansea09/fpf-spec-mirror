@@ -6,12 +6,12 @@ section_id: "A.19.SPR:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SPR/A.19.SPR__005_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.19.SPR — Repair State and Status Wording"
   - "A.19.SPR:3 — Forces"
-line_start: 35320
-line_end: 35328
+line_start: 36822
+line_end: 36830
 dependencies:
   - "A.10"
   - "A.16"
@@ -49,6 +49,6 @@ keywords:
 | --- | --- |
 | Short working language | Practitioners need compact sentences, but a consequential claim must still identify what is being judged. |
 | Local fields | A finite field can be useful; a vague status field can hide several unrelated claims. |
-| Direct patterns | A.19 covers characteristic spaces, while evidence, assurance, publication, assignment state, readiness, gates, and project records keep their own rules. |
+| Patterns | A.19 covers characteristic spaces, while evidence, assurance, publication, assignment state, readiness, gates, and project records keep their own rules. |
 | Small repair | Most cases need one rewritten sentence, while replayed or high-consequence cases may need a few additional fields. |
 

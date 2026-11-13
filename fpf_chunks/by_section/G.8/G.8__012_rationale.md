@@ -6,12 +6,12 @@ section_id: "G.8:11"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.8/G.8__012_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.8 — Package Method-Family Admissibility Rules and Maturity Ladders (SoS-LOG)"
   - "G.8:11 — Rationale"
-line_start: 131076
-line_end: 131079
+line_start: 139144
+line_end: 139147
 dependencies:
   - "A.10"
   - "A.21"
@@ -38,10 +38,10 @@ keywords:
   - "SoS-LOG"
   - "admissibility ledger"
   - "rule ids"
-  - "tri-state {pass"
+  - "tri-state {pass\\"
 ---
 
 ### G.8:11 - Rationale
 
-`C.23` governs **rule semantics**, `G.4` governs **thresholding/acceptance**, `G.6` governs **path‑addressable provenance**, and `G.5` governs **selection/registry semantics**. A dedicated packaging kit lets projects cite those sources in one auditable dispatch surface instead of duplicating semantics inside ad‑hoc “decision bundles” (creating shadow specs). `G.8` keeps these boundaries strict while providing a single, consumable surface.
+`C.23` defines the rules, `G.4` defines Acceptance and its thresholds, `G.6` supplies path-addressable provenance, and `G.5` defines selection and registry use. A project can cite all four in one auditable package for dispatch without maintaining competing definitions.
 

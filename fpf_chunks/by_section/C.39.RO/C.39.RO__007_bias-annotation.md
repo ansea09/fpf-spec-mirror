@@ -6,12 +6,12 @@ section_id: "C.39.RO:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.RO/C.39.RO__007_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.39.RO — Turn a Construction into a Reusable Operation"
   - "C.39.RO:6 — Bias-Annotation"
-line_start: 83585
-line_end: 83590
+line_start: 87642
+line_end: 87647
 dependencies:
   - "A.3.1"
   - "A.3.2"
@@ -26,7 +26,7 @@ keywords:
 
 ### C.39.RO:6 - Bias-Annotation
 
-Under E.3's five Principle-Taxonomy lenses (Gov, Arch, Epist, Prag and Did), this Method favors constructions whose steps and conditions can be recovered. Its mathematical and programming examples make that recovery explicit. Skilled bodily or collective practice may need demonstrations, observation or other descriptions to expose the same operational dependencies.
+Under E.3's five Principle-Taxonomy lenses (Gov, Arch, Epist, Prag and Did), this Method favors constructions whose steps and conditions can be recovered. Its mathematical and programming examples show how to recover those steps and conditions. Skilled bodily or collective practice may need demonstrations, observation or other descriptions to expose the same operational dependencies.
 
 People and computational agents can contribute different parts of this work: recovering a case, deriving a relation, testing an implementation or supplying a physical condition. Their division of work follows the operations and available capability.
 

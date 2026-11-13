@@ -6,12 +6,12 @@ section_id: "C.27:5"
 section_title: "Optional Boundary-Trigger Reference"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__007_optional-boundary-trigger-reference.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Change"
   - "C.27:5 — Optional Boundary-Trigger Reference"
-line_start: 67242
-line_end: 67293
+line_start: 70300
+line_end: 70351
 dependencies:
   - "A.10"
   - "A.3.3"
@@ -50,9 +50,9 @@ keywords:
 
 ### C.27:5 - Optional Boundary-Trigger Reference
 
-Skip this section for ordinary local diagnosis and planning. It is a trigger-and-destination map, not a form. The examples in each row are representative rather than exhaustive.
+Skip this section for ordinary local diagnosis and planning. It is a trigger-and-destination map. The examples in each row are representative rather than exhaustive.
 
-| Trigger in the supported use | Distinction C.27 must not hide | Exact destination |
+| Trigger in the supported use | Distinction C.27 must not hide | Destination |
 | --- | --- | --- |
 | rate, measure, metric, score, proxy, or base-characteristic wording is not yet recoverable | do not guess the characteristic or measure from a familiar word | C.16.P |
 | rate or rate-change measurement | base characteristic, coordinate construction when current, construction method, sampling window, comparability, noise or stability, and evidence legality | A.19 and the exact C.16 result |
@@ -69,7 +69,7 @@ Skip this section for ordinary local diagnosis and planning. It is a trigger-and
 | multiple object traces | object bearers, events, interactions, queues, convergence or divergence, and aggregation | object-centric process evidence and aggregation patterns |
 | cross-scale transfer | source bearer, target bearer, aggregation, bearer continuity, mix shift, and explicit transfer-use boundary | aggregation, evidence, and architecture patterns |
 | changed scale variable | resource or capacity variable, scale window, probes, elasticity as rising, knee, flat, declining, or unknown, and parity; this differs from transferring a reading across bearers | C.18.1 and G.9 |
-| time-scale choice changes use | spot, episode, sprint, life-cycle, learning-cycle, technoevolution, lifetime, or another exact temporal scale is named only when it changes bearer, evidence, use, or reopen | C.27.TA and the direct domain pattern |
+| time-scale choice changes use | spot, episode, sprint, life-cycle, learning-cycle, technoevolution, lifetime, or another temporal scale is named only when it changes bearer, evidence, use, or reopen | C.27.TA and the direct domain pattern |
 | task-family adaptation | declared TaskFamily or TaskSignature, usable threshold, time and budget to threshold, prior exposure, transfer, retention, and downside | C.22.1 |
 | search speed | narrowing speed differs from novelty, archive growth, illumination, frontier coverage, and search health | C.17, C.18, and C.19 |
 | method composition or capability emergence | temporal adequacy does not define method composition, Work enactment, adaptive cycle, or capability emergence | B.1.5 and B.2.4 |
@@ -90,7 +90,7 @@ Skip this section for ordinary local diagnosis and planning. It is a trigger-and
 
 #### C.27:5.1 - Pattern-Use Notes
 
-- A local resistance value of unknown is allowed. It blocks stronger use without the direct evidence or assumption boundary required for that use; it does not force a new theory.
+- A local resistance value of unknown is allowed. It blocks stronger use without the direct evidence or assumption boundary required for that use.
 - A historical trend does not supply a control horizon, update rule, constraints, or stability.
 - Evidence from policy A does not carry policy B merely because both policies concern the same rate.
 - Equal final scores do not erase unequal adaptation windows, effort, rework, validity, or recovery.

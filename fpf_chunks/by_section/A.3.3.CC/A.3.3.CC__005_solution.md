@@ -6,12 +6,12 @@ section_id: "A.3.3.CC:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3.CC/A.3.3.CC__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.3.3.CC — Construct a Configuration Description under Constraints"
   - "A.3.3.CC:4 — Solution"
-line_start: 12331
-line_end: 12392
+line_start: 12762
+line_end: 12823
 dependencies:
   - "A.17"
   - "A.18"
@@ -33,7 +33,7 @@ Construct the description from the working question, then choose a representatio
 
 State what the reader must find: a fitting arrangement, a compatible assignment, a range of positions or the configurations to which a law will later apply. Identify the participants and the differences that can change this answer.
 
-Give each variable a meaning and a value range. For a physical position, include the reference frame and unit needed to interpret it. For a relation, identify its participants: a distance needs the two endpoints; a job count needs the particular buffer. A.17 and A.18 supply the Characteristic and Scale vocabulary when the variables are declared as FPF characteristics.
+Give each variable a meaning and a value range. For a physical position, include the reference frame and unit needed to interpret it. For a relation, identify its participants: a distance needs the two endpoints; a job count needs the buffer. A.17 and A.18 supply the Characteristic and Scale vocabulary when the variables are declared as FPF characteristics.
 
 Separate quantities held fixed in the present model from variables to be found. A link length may be a parameter in a rigid-body model and a changing quantity in an elastic model. The distinction follows the modeled use, so a later revision can change it.
 
@@ -53,7 +53,7 @@ Place restrictions on rates, operations or transitions with those relations. The
 
 #### A.3.3.CC:4.3 - Choose a representation that supports the operation
 
-Compare the following forms using the operation the reader actually needs.
+Compare the following forms using the operation the reader needs.
 
 | Form | How to construct and use it | When it becomes inconvenient |
 | --- | --- | --- |
@@ -75,7 +75,7 @@ For a small finite product, generate a tuple, evaluate the conditions and retain
 
 For equations or inequalities, solve them to the extent needed and substitute the result into the retained relations. If numerical computation is used, interpret its tolerance against the modeled condition. A small residual has a different use from a proof of equality or an established margin from a collision boundary.
 
-A configuration rejected by one condition identifies a concrete premise to inspect. An empty admissible set under the chosen premises is also useful: it can return the task to a size, capacity, connection or requirement decision. Failure of an incomplete search to find a tuple leaves the existence question open.
+A configuration rejected by one condition identifies a premise to inspect. An empty admissible set under the chosen premises is also useful: it can return the task to a size, capacity, connection or requirement decision. Failure of an incomplete search to find a tuple leaves the existence question open.
 
 #### A.3.3.CC:4.5 - Carry the result into use and revise it when needed
 

@@ -6,12 +6,12 @@ section_id: "E.12:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.12/E.12__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.12 — Didactic Primacy & Cognitive Ergonomics"
   - "E.12:2 — Problem"
-line_start: 104943
-line_end: 104949
+line_start: 111233
+line_end: 111239
 dependencies:
   - "C.11.DUA"
   - "E.13"
@@ -29,8 +29,8 @@ keywords:
 
 ### E.12:2 - **Problem**
 
-If the framework's design prioritizes theoretical purity or formal completeness over cognitive ergonomics, it becomes vulnerable to two critical failure modes:
+Giving theoretical purity or formal completeness priority over cognitive ergonomics exposes the framework to two serious failures:
 
-1.  **Goodhart's Law:** When a measure, such as an `AssuranceLevel` within a declared `B.3.3` profile, becomes the primary target, it can cease to indicate the understanding sought. Teams may start "gaming the metrics," producing assurance-bearing epistemes or publications that satisfy the visible criteria but remain conceptually shallow or pragmatically useless.
-2.  **Cognitive Overload & Rejection:** The framework becomes so dense, jargon-laden, and procedurally complex that its users—the very agents it is meant to serve—either burn out or abandon it in favor of simpler, albeit less rigorous, methods. Certification procedures can consume effort without helping users understand or decide the matter at hand.
+1.  **Goodhart's Law:** When a measure, such as an `AssuranceLevel` within a declared `B.3.3` profile, becomes the primary target, it can cease to indicate the understanding sought. Teams may optimize for the metric and produce assurance-bearing epistemes or publications that satisfy the visible criteria but remain conceptually shallow or pragmatically useless.
+2.  **Cognitive Overload & Rejection:** The framework becomes so dense, jargon-laden, and procedurally complex that its users burn out or switch to simpler, less rigorous methods. Certification procedures can consume effort without helping users understand or decide the matter at hand.
 

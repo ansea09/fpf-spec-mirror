@@ -6,12 +6,12 @@ section_id: "C.16.IR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.IR/C.16.IR__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.16.IR — Determine What a Measurement Indication Can Resolve"
   - "C.16.IR:4 — Solution"
-line_start: 59197
-line_end: 59263
+line_start: 61582
+line_end: 61648
 dependencies:
   - "A.3.3.PI"
   - "B.5.MPC.R"
@@ -25,7 +25,7 @@ keywords:
 
 ### C.16.IR:4 - Solution
 
-Construct the cases compatible with the indication and relevant conditions. Obtain the sought values represented by those cases, retaining the distinction between feasible examples and bounds that contain all solutions. Use that result to answer the current question.
+Construct the cases compatible with the indication and relevant conditions. Obtain the sought values represented by those cases, retaining the distinction between feasible examples and bounds that contain all solutions. Use that result to answer the question.
 
 #### C.16.IR:4.1 - Fix the sought distinction and available relation
 
@@ -45,9 +45,9 @@ With bounded error, include the unknown error in its stated range. If a relation
 
 `r = f(x,z) + e, with e in the supplied error range.`
 
-Use that equation only when additive error describes the actual indication convention. An error before clipping, an error after clipping and a missed event can require different relations.
+Use that equation only when additive error describes the indication convention. An error before clipping, an error after clipping and a missed event can require different relations.
 
-A compact mathematical expression for the compatible sought values is:
+A mathematical expression for the compatible sought values is:
 
 `S(r) = {x : there exist admitted z and e for which r = f(x,z) + e}.`
 
@@ -63,7 +63,7 @@ During elimination, preserve the conditions of each operation. Dividing by an un
 
 For several unknowns, obtain the sought value from each compatible joint case. The other unknowns can remain unresolved when every compatible case gives the same sought answer. Section :5.1 gives a source voltage determined while its internal resistance remains unknown.
 
-When a complete solution is costly, distinguish two useful computational results:
+When a complete solution is costly, distinguish two computational results:
 
 - A **feasible example** is one case that satisfies the original relations and conditions. Two such cases can establish a consequential ambiguity.
 - An **outer bound** contains every compatible sought value but can also contain values that no case realizes. If the whole bound satisfies an inequality, that inequality holds for every compatible value. A bound spanning both sides of a threshold alone does not establish that both outcomes are possible.

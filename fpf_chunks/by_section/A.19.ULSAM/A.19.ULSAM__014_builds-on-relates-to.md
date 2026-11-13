@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.19.ULSAM"
-pattern_title: "Unified Lawful Scale Aggregation Mechanism (ULSAM)"
+pattern_title: "Unified Lawful Scale Aggregation Mechanism"
 section_id: "A.19.ULSAM:12"
 section_title: "Builds on / Relates to"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ULSAM/A.19.ULSAM__014_builds-on-relates-to.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.19.ULSAM — Unified Lawful Scale Aggregation Mechanism (ULSAM)"
+  - "A.19.ULSAM — Unified Lawful Scale Aggregation Mechanism"
   - "A.19.ULSAM:12 — Builds on / Relates to"
-line_start: 38743
-line_end: 38757
+line_start: 40280
+line_end: 40294
 dependencies:
   - "A.19.CPM"
   - "A.19.SelectorMechanism"
@@ -25,14 +25,14 @@ keywords:
   - "fold_Γ?"
   - "lawful aggregation"
   - "scale-lawful fold"
-  - "tri-state guard (pass"
+  - "tri-state guard (pass\\"
   - "ΓFoldRef"
 ---
 
 ### A.19.ULSAM:12 - Builds on / Relates to
 
 **Builds on (cite, don’t duplicate).**
-- `A.6.1` (operation declarations and actual application/binding rules).
+- `A.6.1` (operation declarations and application/binding rules).
 - `A.6.1 §4.2` (operation-local argument/result declarations as the source of SlotIndex).
 - `A.19.CHR` (CHR suite boundary; stage `fold_Γ?`; CHR SlotKind Lexicon).
 - `G.0` (`CG-Spec.Γ_fold`, `CG-Spec.SCP`, `CG-Spec.MinimalEvidence`; admissibility gate).

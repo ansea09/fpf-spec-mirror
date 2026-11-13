@@ -6,12 +6,12 @@ section_id: "C.32.FAIL:5"
 section_title: "Worked Repair Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.FAIL/C.32.FAIL__006_worked-repair-cases.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.32.FAIL — Architecture Failure Recognition and Repair"
   - "C.32.FAIL:5 — Worked Repair Cases"
-line_start: 79694
-line_end: 79709
+line_start: 83523
+line_end: 83538
 dependencies:
   - "A.10"
   - "A.13"
@@ -70,11 +70,11 @@ keywords:
 
 **Show-B - Product-family platform with exception growth.** A platform promise reduces local delivery effort but grows evidence exceptions at the product-family scope. The repair cue names variation structure, substitution policy, and evidence scope as the architecture objects under stress. The first repair action is not to declare the platform adequate; it is to repair variation slots and bounded-exception rules, then use `C.32.MLAO` to frame residual-reducing candidates if cross-scope burden is current; use `A.19.CPM` when an explicit comparison is needed.
 
-**Show-C - Responsibility change shifts coordination cost.** A stream-aligned team improves local delivery flow, but release testing and evidence responsibility remain shared. The repair cue names the team or organization System, the coordination relation, and the module-interface and evidence structures under stress. A proposed responsibility retargeting names its direct predicate, the current and proposed participants, and the occurrence to replace; without that basis it returns `missing-governor`. Ordinary work organization, Method or plan structure, local kind, separate System-classification judgment, assignment, enactor relation, and actual Work network remain separate. C.32.CONWAY supplies only the architecture-influence synthesis frame or qualified pair row; it supplies none of those other facts.
+**Show-C - Responsibility change shifts coordination cost.** A stream-aligned team improves local delivery flow, but release testing and evidence responsibility remain shared. The repair cue names the team or organization System, the coordination relation, and the module-interface and evidence structures under stress. A proposed responsibility retargeting names its direct predicate, the current and proposed participants, and the occurrence to replace. Return `missing-governor` only when no applicable predicate governs the relation; leave an unestablished application premise unresolved. Ordinary work organization, Method or plan structure, local kind, separate System-classification judgment, assignment, enactor relation, and actual Work network remain separate. C.32.CONWAY supplies only the architecture-influence synthesis frame or qualified pair row; it supplies none of those other facts.
 
 **Show-D - Generated architecture candidate.** An agent system produces a high-scoring blueprint. The repair cue treats the blueprint as a source cue, recovers the selected-structure changes encoded in it, names preserved and lost structure, and recovers an adequate candidate palette for any comparison or decision that needs it. A publication can retain the proposal and its unresolved conditions under its own rules.
 
-**Show-E - Built-asset maintenance dashboard.** A facility maintenance dashboard shows a dependency graph and freshness scores. The repair cue keeps the graph's mathematical-lens use bounded, recovers the actual selected structures under stress in maintenance work and asset interfaces, and keeps timing or evidence claims with their subject patterns.
+**Show-E - Built-asset maintenance dashboard.** A facility maintenance dashboard shows a dependency graph and freshness scores. The repair cue keeps the graph's mathematical-lens use bounded, recovers the selected structures under stress in maintenance work and asset interfaces, and keeps timing or evidence claims with their subject patterns.
 
 **Show-F - Function with no feasible bearer.** A searched AI workflow adds a verification function after model output, but the edge device has no resource margin and the cloud placement violates latency. The repair cue names the function-bearing gap, then opens C.32. Candidate repairs can, for example, add a local bearer, split verification into local and cloud steps, change deployment placement, reduce the demand, or reject the candidate for the current evolution window.
 

@@ -6,12 +6,12 @@ section_id: "C.11.DBR:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.DBR/C.11.DBR__011_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.11.DBR — Reconsider a Decision When Its Relied-on Basis Changes"
   - "C.11.DBR:10 — Rationale"
-line_start: 57786
-line_end: 57791
+line_start: 60131
+line_end: 60136
 dependencies:
   - "A.10"
   - "A.10.1"
@@ -29,5 +29,5 @@ keywords:
 
 Reconsideration needs a result before current choice: an explanation of what changed in the earlier basis and where that matters. The comparison is relative to a receiving use, so a change can defeat one application while leaving another intact.
 
-The cheap preservation branch and direct subject exit make the generalization useful without prescribing a universal review cycle. Qualifying the later observation before interpreting its effect prevents novelty from becoming authority. Completing an overview after the current decision preserves the direction in which the results are actually obtained and used.
+The cheap preservation branch and direct subject exit make the generalization useful without prescribing a universal review cycle. Qualifying the later observation before interpreting its effect prevents novelty from becoming authority. Completing an overview after the current decision preserves the direction in which the results are obtained and used.
 

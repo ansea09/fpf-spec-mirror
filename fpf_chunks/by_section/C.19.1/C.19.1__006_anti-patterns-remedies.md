@@ -6,12 +6,12 @@ section_id: "C.19.1:4"
 section_title: "Anti-patterns & remedies"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.1/C.19.1__006_anti-patterns-remedies.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.19.1 — Bitter‑Lesson Preference (BLP)"
   - "C.19.1:4 — Anti-patterns & remedies"
-line_start: 61967
-line_end: 61976
+line_start: 64458
+line_end: 64467
 dependencies:
   - "A.0"
   - "A.10"
@@ -44,9 +44,9 @@ keywords:
 
 ### C.19.1:4 - Anti-patterns & remedies
 
-- **Slogan as evidence.** `General`, `agentic`, or `Bitter Lesson` is treated as proof. Repair with the cheap probe and an actual comparison basis.
+- **Slogan as evidence.** `General`, `agentic`, or `Bitter Lesson` is treated as proof. Repair with the cheap probe and a comparison basis.
 - **Analogy as empirical result.** A module relation, organization, or episteme is assigned compute/data scaling semantics. State a local analogy or policy and use a bearer-appropriate predicate and evidence form.
-- **Universal experiment recipe.** Every claim receives seeds, FLOPs, and a multi-factor design. Select the smallest method that can answer the actual risk-bearing claim.
+- **Universal experiment recipe.** Every claim receives seeds, FLOPs, and a multi-factor design. Select the smallest method that can answer the risk-bearing claim.
 - **General wins by non-dominance.** Error bars overlap, so the more general option is declared superior. Return no empirical scale preference or cite a separate tie-break policy.
 - **Single-winner leaderboard.** Hidden budget mixing or scalarization replaces Pareto comparison. Restore comparable windows, objective coordinates, uncertainty, and policy identifiers.
 - **Debt without trigger.** A local bounded tactic is entered into Heuristic Debt. Apply the `BLP-4` trigger before creating the entry.

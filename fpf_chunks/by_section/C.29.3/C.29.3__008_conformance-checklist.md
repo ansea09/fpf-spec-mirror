@@ -6,12 +6,12 @@ section_id: "C.29.3:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29.3/C.29.3__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.29.3 — Computational Realization"
   - "C.29.3:7 — Conformance Checklist"
-line_start: 70998
-line_end: 71011
+line_start: 74091
+line_end: 74104
 dependencies:
   - "A.3.3"
   - "A.6.1"
@@ -23,7 +23,7 @@ keywords:
 
 ### C.29.3:7 - Conformance Checklist
 
-Apply the checks to the particular realization and use. Their answers can remain in the working calculation, diagram or operating explanation.
+Apply the checks to the realization and use. Their answers can remain in the working calculation, diagram or operating explanation.
 
 | Check | What must be recoverable |
 | --- | --- |

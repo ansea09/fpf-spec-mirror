@@ -6,12 +6,12 @@ section_id: "F.0.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2/F.0.2__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.0.2 — Semantic Synthesis across Source Ontologies"
   - "F.0.2:4 — Solution"
-line_start: 118034
-line_end: 118090
+line_start: 125624
+line_end: 125680
 dependencies:
   - "A.2.4"
   - "C.2.1"
@@ -42,10 +42,10 @@ keywords:
 4. **Compare what changes action.** Compare concepts, relation participants, explanations, contexts, assumptions, source roles, counterexamples, losses, and validity limits. Treat lexical or model correspondences as proposals to inspect, not as conclusions. Use **B.5.TC** when the difference between theoretical accounts needs a constructed comparison: work the same question in each, locate the consequential difference and retain complementary or unresolved contributions.
 5. **Write one first result.** Write a provisional synthesis claim when a positive shared contribution is warranted; a contrast claim when the proposed unification is not warranted for the named use; or an unresolved-inquiry claim when a named source gap prevents either substantive answer.
 6. **Return the result to its receiving decision.** Keep the claim, source edition and grounds recoverable, and name the content, placement or pattern-allocation question it answers. Add a stable local locator, such as `SE-CS-03`, when later citation or replay needs that address. C.2.1 governs an explicitly identified claim episteme.
-7. **Apply the receiving disposition.** Decide whether to use the result as proposed, revise it, keep a contrast, or continue the unresolved inquiry. Record that disposition when the decision's governing use needs a record, citing the exact result and source edition. A result still awaiting the decision remains a proposal; silence or citation alone is not acceptance.
+7. **Decide what to do with the result.** Use the options for its branch in §4.3. When the receiving use requires a record, state the decision and cite the exact result and source edition. A result awaiting the decision remains a proposal; silence or citation alone is not acceptance.
 8. **Keep the source use revisable.** Identify the source claims and editions relied on, why each matters to this result, what was deliberately left local or rejected, and which change reopens the comparison.
 
-Stop after one bounded synthesis slice when it answers the named authoring question. Enter clustering, Concept-Set, naming, UTS, or heavy harvesting only when the next question requires that additional result.
+Stop after one bounded synthesis slice when it answers the named authoring question. Enter clustering, Concept-Set, naming, UTS, or broad source harvesting only when the next question requires that additional result.
 
 #### F.0.2:4.2 - Source-basis branches
 
@@ -65,7 +65,7 @@ A result identified as a claim-bearing episteme retains its C.2.1 identity `<cla
 | --- | --- | --- | --- |
 | **Provisional synthesis claim** | The proposed domain or pattern contribution, interpreted through the receiving scheme and the declared source-local correspondences used in the comparison. | A positive cross-source claim with scope, source roles, retained differences, and limits. `Provisional` means proposed for a later decision, not accepted framework meaning. | The receiving decision determines whether the proposal is used as written, revised into a newly identified claim, not used for the named purpose, or reopened. |
 | **Contrast claim** | The candidate unification or proposed shared contribution being tested, interpreted through the receiving scheme and the source-local comparison rules. | Why the inspected comparison does not warrant that unification for the named use. It preserves the source-local claims and any narrower positive claim that remains supported. | The receiving decision keeps the source claims distinct for the named use, adopts a narrower or revised claim, does not use the contrast, or reopens the comparison. |
-| **Unresolved-inquiry claim** | The bounded inquiry state, interpreted through the receiving scheme and the source-currentness, adequacy, and comparison rules actually available. | A named missing, stale, or too-weak source prevents the inquiry from choosing between a provisional synthesis and a contrast. It states what remains usable and the next source action; it does not assert that the disputed claim is false. | The receiving decision retains the bounded unresolved result and its usable remainder, commissions the named source action, ends the named use, or reopens the comparison. Any later substantive answer is a separately identified result. |
+| **Unresolved-inquiry claim** | The bounded inquiry state, interpreted through the receiving scheme and the source-currentness, adequacy, and comparison rules available for this inquiry. | A named missing, stale, or too-weak source prevents the inquiry from choosing between a provisional synthesis and a contrast. It states what remains usable and the next source action; it does not assert that the disputed claim is false. | The receiving decision retains the bounded unresolved result and its usable remainder, commissions the named source action, ends the named use, or reopens the comparison. Any later substantive answer is a separately identified result. |
 
 The source gap is the reason and closure condition for an unresolved-inquiry claim, not a fourth result branch. A temporary unrecorded pause is not an `F.0.2` result that later work can cite.
 
@@ -73,13 +73,13 @@ The source gap is the reason and closure condition for an unresolved-inquiry cla
 
 Use `F.0.2` for one ontology-to-subject-pattern question whose smallest useful result is one of the three claims above. Use `G.2` when a `CG-Frame` needs a broad, refreshable harvesting surface with a CorpusLedger, Claim Sheets, palette, inventories, alignment records, examples, and declared G.3-G.5 handoffs.
 
-An author may use identified claims and provenance from a `G.2` pack as inputs here. The author must still compare retained differences, limits, receiving use, and reopen conditions before writing an `F.0.2` result. The bounded comparison does not require the rest of the pack when the question does not use it.
+An author may use identified claims and provenance from a `G.2` pack as inputs here. The author must compare retained differences, limits, receiving use, and reopen conditions before writing an `F.0.2` result. The bounded comparison does not require the rest of the pack when the question does not use it.
 
 #### F.0.2:4.5 - Boundary to wording-use precision restoration
 
 Semantic synthesis and wording restoration both pass through ontology, but they answer different questions. Semantic synthesis forms or revises a cross-source claim. Wording restoration starts from an already current subject claim and repairs a consequential wording use so that the intended entity, relation, claim kind, and admissible action can again be recovered.
 
-A recurring wording failure may supply evidence that a subject distinction is missing or unstable. The system maintaining the affected FPF or DPF edition then uses that evidence in a named content decision. The findings do not themselves revise the synthesis claim. A DPF keeps its domain wording entries beside the domain patterns that use them; `E.10.ARCH` supplies the shared restoration method.
+A recurring wording failure may supply evidence that a subject distinction is missing or unstable. The system maintaining the affected FPF or DPF edition then uses that evidence in a named content decision. The findings can support a proposed revision. The content decision governs changes to the claim maintained in that edition. A DPF keeps its domain wording entries beside the domain patterns that use them; `E.10.ARCH` supplies the shared restoration method.
 
 A DPF may need a reliable current domain ontology so practitioners can recognize situations, distinguish Methods and results, and use its solution moves. An author can use F.0.2 to synthesize or revise that ontology as a proposed contribution. Ontology alone is not a DPF: use `E.4` and `E.4.DPF` to connect it to recurring problems, constructive Methods, a usable first cut, evidence practice, access, and maintenance.
 

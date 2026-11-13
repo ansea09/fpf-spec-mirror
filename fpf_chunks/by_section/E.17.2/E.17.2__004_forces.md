@@ -6,12 +6,12 @@ section_id: "E.17.2:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.2/E.17.2__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.17.2 — TEVB - Project-local Typical Engineering Viewpoint Bundle Template for Holons"
   - "E.17.2:3 — Forces"
-line_start: 107103
-line_end: 107114
+line_start: 113652
+line_end: 113663
 dependencies:
   - "A.22"
   - "A.6.3"
@@ -34,10 +34,10 @@ keywords:
 | Force | Tension |
 |---|---|
 | Reuse vs exact edition | Teams need stable families, while conformance depends on exact claim-bearing viewpoint editions. |
-| Small core vs subject breadth | Four viewpoints should remain learnable without pretending that safety, mission, data, deployment, and every domain concern are the same four things. |
-| Holon-centered view vs concern objects | A view can concern one holon while its claims designate Methods, transformations, local system-role kinds, assignments, capabilities, and structures through exact relations. |
+| Small core vs subject breadth | The four positions should be learnable. Safety, mission, data, deployment and other domain concerns can require different positions. |
+| Holon-centered view vs concern objects | A view can concern one holon while its claims designate Methods, transformations, local system-role kinds, assignments, capabilities, and structures through relations. |
 | Familiar engineering language vs kind precision | `functional view` should remain readable without turning `functional`, `view`, or a diagram label into an intrinsic kind by spelling. |
 | Direct authoring vs generated descriptions | Both can yield conforming views; neither route establishes conformance by itself. |
-| Cross-view comparison vs invented links | Comparable views need exact direct relations, not a universal correspondence record or matching diagram positions. |
+| Cross-view comparison vs invented links | Comparable views need direct relations, not a universal correspondence record or matching diagram positions. |
 | Viewpoint reuse vs publication reuse | Many unpublished epistemes can conform to the same viewpoint, and each episteme may later have many publication forms; packaging must not redefine membership. |
 

@@ -6,12 +6,12 @@ section_id: "B.5.MPC.R:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.MPC.R/B.5.MPC.R__011_architectural-rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.5.MPC.R — Repair a Physical-Mathematical-Computational Connection"
   - "B.5.MPC.R:10 — Architectural Rationale"
-line_start: 47688
-line_end: 47695
+line_start: 49688
+line_end: 49695
 dependencies:
   - "A.15.9"
   - "A.3.3"
@@ -32,5 +32,5 @@ The common revision method B.5.RR follows affected reasoning. This specializatio
 
 Working from the disagreement can settle the question with a bound or identify the observation that must change.
 
-The physical and mathematical accounts need each other without becoming the same account. A mathematical equality can expose why two frequencies have identical samples. The physical sampling arrangement determines whether those are the relevant possible inputs. Computational analysis then operates on the resulting data. The useful knowledge comes from keeping those relations together; applying it can change the measurement method itself.
+The physical and mathematical accounts need each other without becoming the same account. A mathematical equality can expose why two frequencies have identical samples. The physical sampling arrangement determines whether those are the relevant possible inputs. Computational analysis then operates on the resulting data. The knowledge comes from keeping those relations together; applying it can change the measurement method.
 

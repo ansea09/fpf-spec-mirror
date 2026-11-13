@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.17.AUD.LHR"
-pattern_title: "PublicationUnit Stability Discipline and Local Head Restoration - repair the overloaded local lexical head before the publication unit inherits it"
+pattern_title: "Restore the Local Meaning of an Overloaded Word or Phrase (Local Head Restoration)"
 section_id: "E.17.AUD.LHR:4"
 section_title: "Quick worked-slice starter"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.LHR/E.17.AUD.LHR__005_quick-worked-slice-starter.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "E.17.AUD.LHR — PublicationUnit Stability Discipline and Local Head Restoration - repair the overloaded local lexical head before the publication unit inherits it"
+  - "E.17.AUD.LHR — Restore the Local Meaning of an Overloaded Word or Phrase (Local Head Restoration)"
   - "E.17.AUD.LHR:4 — Quick worked-slice starter"
-line_start: 109630
-line_end: 109641
+line_start: 116383
+line_end: 116394
 dependencies:
   - "A.10"
   - "A.15"
@@ -37,13 +37,13 @@ keywords:
 
 ### E.17.AUD.LHR:4 - Quick worked-slice starter
 
-If you need one ordinary entry sentence fast, start from one of these:
+When you need a starting sentence, choose an example that fits the working situation:
 
-| Working moment | Safe starter sentence |
+| Working moment | Starter sentence |
 | --- | --- |
 | Architecture note | `This note is one review publication unit about the proposed service boundary, not yet about rollout work.` |
 | Operations review | `This review unit is about the incident episode and its timing contrast, not yet about action approval.` |
 | Semio-heavy paragraph | `This paragraph is about the comparative review unit, not the wider architecture strategy.` |
 
-Use these starters only as local examples. If outside observations or downstream constraints change what the sentence can honestly carry, reopen with the governing FPF pattern or project-side FPF kind and reference named by value instead of treating the starter as step one of a fixed flow.
+Use these starters only as local examples. If outside observations or downstream constraints change what the sentence can claim, reopen the question using the governing FPF pattern or the project-side FPF kind and reference named by value. The starter does not set the first step of a fixed flow.
 

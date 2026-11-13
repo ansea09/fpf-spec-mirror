@@ -6,21 +6,15 @@ section_id: "C.35:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.35/C.35__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.35 — Assess Generated or Discovered Results for Architecture Use"
   - "C.35:intro — Intro"
-line_start: 81059
-line_end: 81064
+line_start: 84924
+line_end: 84929
 dependencies:
-  - "A.13"
-  - "A.15.1"
-  - "A.15.PROD"
-  - "A.2.1"
   - "A.22"
-  - "A.3.4"
   - "A.6.M"
-  - "A.6.RCD"
   - "C.16"
   - "C.18"
   - "C.19"
@@ -41,9 +35,7 @@ dependencies:
   - "C.32.PAD"
   - "C.33"
   - "C.34"
-  - "C.36"
   - "E.18"
-  - "F.6"
   - "G.5"
 keywords:
   - "DSM"
@@ -61,5 +53,5 @@ keywords:
 
 > **Type:** Architectural pattern
 > **Status:** Stable
-> **Normativity:** Normative unless explicitly marked informative
+> **Normativity:** Normative unless marked informative
 

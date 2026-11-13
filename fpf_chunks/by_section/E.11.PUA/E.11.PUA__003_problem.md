@@ -6,12 +6,12 @@ section_id: "E.11.PUA:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUA/E.11.PUA__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.11.PUA — Pattern Use in a Working Situation and First Useful Result"
   - "E.11.PUA:2 — Problem"
-line_start: 103410
-line_end: 103415
+line_start: 109333
+line_end: 109342
 dependencies:
   - "A.13"
   - "A.15"
@@ -38,5 +38,9 @@ keywords:
 
 Reading a pattern does not by itself apply it. Without a usable pattern-use method, readers stop at recognition, create a meta-card instead of the subject result, or report a plan, note, generated answer, or support record as if the intended physical, clinical, organizational, learned, or epistemic result already existed.
 
-The opposite failure is also common: every bounded use is burdened with a shortlist, candidate form, fit records, provenance graph, and closure dossier. The paperwork becomes the apparent result and obscures the direct `Solution`. FPF adds no generic `U.Result`, `U.WorkProduct`, `U.PatternApplication`, or generic `Use` kind. First identify the result entity or obtaining relation and the direct pattern whose content defines, constrains, or tests it. Identify an exact predicate, pattern episteme, `ClaimGraph`, Method, plan, dated Work, Transformation, evaluation, decision, later-use object, or category-correct basis only when that distinction changes the truth, the next action, the stop, or a named reliance.
+The opposite failure is also common: every bounded use is burdened with a shortlist, candidate form, fit records, provenance graph, and closure dossier. The paperwork becomes the apparent result and obscures the direct `Solution`.
+
+FPF adds no generic `U.Result`, `U.WorkProduct`, `U.PatternApplication`, or generic `Use` kind. First identify the result entity or obtaining relation and the direct pattern whose content defines, constrains, or tests it.
+
+Identify an exact predicate, pattern episteme, `ClaimGraph`, Method, plan, dated Work, Transformation, evaluation, decision, later-use object, or category-correct basis only when that distinction changes the truth, the next action, the stop, or a named reliance.
 

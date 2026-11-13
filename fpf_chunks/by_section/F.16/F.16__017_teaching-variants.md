@@ -6,12 +6,12 @@ section_id: "F.16:16"
 section_title: "Teaching variants"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.16/F.16__017_teaching-variants.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.16 — Worked-Example Template (Cross-Domain)"
   - "F.16:16 — Teaching variants"
-line_start: 124093
-line_end: 124100
+line_start: 131966
+line_end: 131973
 dependencies:
   - "A.10"
   - "A.15"
@@ -55,6 +55,6 @@ keywords:
 * **Single-source direct case.** One source, one actual value, one obtaining relation, one boundary; no table or F.9 relation.
 * **Two-source comparison.** Two exact local claims, an optional F.7 row, and one separately supported conclusion.
 * **Triangulated evidence case.** Promise, Work, and observation sources joined by their direct fulfilment, measurement, and evidence relations.
-* **Difference lesson.** Two trigger-word uses kept distinct, with no relation asserted unless one actually obtains.
+* **Difference lesson.** Two trigger-word uses kept distinct, with no relation asserted unless one obtains.
 * **Window primer.** The same promise and Work evaluated under different explicit windows to show why result, status-use, and verdict-episteme identity must be checked separately.
 

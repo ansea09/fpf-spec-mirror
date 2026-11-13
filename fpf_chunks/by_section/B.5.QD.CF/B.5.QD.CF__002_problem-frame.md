@@ -6,12 +6,12 @@ section_id: "B.5.QD.CF:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.QD.CF/B.5.QD.CF__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.5.QD.CF — Reformulate a Problem by Examining Its Conflicting Assumptions"
   - "B.5.QD.CF:1 — Problem frame"
-line_start: 49328
-line_end: 49337
+line_start: 51378
+line_end: 51387
 dependencies:
   - "B.1.5.EW"
   - "B.5.FM"
@@ -31,5 +31,5 @@ keywords:
 
 The result is a reformulated question or candidate construction whose retained requirements, changed premise and remaining obstacle are understood. Sometimes the useful result is an impossibility under the retained conditions, followed by a decision about which requirement can change.
 
-The reader needs enough knowledge to interpret the requirements and the inference connecting them, or access to someone who can supply that interpretation. Start with ordinary statements and a small case. Use an adequate existing solution directly. If the only unresolved question is choosing an accepted trade-off, compare the options; recovering premises is useful when it could reveal another option or change the grounds for that choice.
+The reader needs enough knowledge to interpret the requirements and the inference connecting them, or access to someone who can supply that interpretation. Start with ordinary statements and a small case. Use an adequate existing solution. If the only unresolved question is choosing an accepted trade-off, compare the options; recovering premises is useful when it could reveal another option or change the grounds for that choice.
 

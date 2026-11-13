@@ -6,12 +6,12 @@ section_id: "F.7:2"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.7/F.7__003_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.7 — Display Source-Local Comparisons in a Concept-Set Table"
   - "F.7:2 — Problem frame"
-line_start: 120518
-line_end: 120526
+line_start: 128170
+line_end: 128178
 dependencies:
   - "A.6.9"
   - "B.3"
@@ -39,10 +39,10 @@ keywords:
 
 ### F.7:2 - Problem frame
 
-Cross-source comparison commonly fails through:
+Four common errors in cross-source comparison are:
 
 1. **Silent equivalence:** similar labels are treated as one meaning.
-2. **Loss denial:** an actual relation is shown without direction or limitation.
+2. **Loss denial:** a relation that holds is shown without direction or limitation.
 3. **Name inflation:** a new umbrella label is coined merely because several entries share a row.
 4. **Cognitive scatter:** source meanings, relations, evidence, and the receiving question are separated across documents.
 

@@ -6,12 +6,12 @@ section_id: "F.5:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__005_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.5 — Name U-kinds, Local System-Role Kinds and SystemRoleKindDescriptions"
   - "F.5:3 — Forces"
-line_start: 119915
-line_end: 119925
+line_start: 127528
+line_end: 127538
 dependencies:
   - "A.10"
   - "A.15"

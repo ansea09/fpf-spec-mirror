@@ -6,12 +6,12 @@ section_id: "F.3:10"
 section_title: "Anti-patterns & remedies"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.3/F.3__011_anti-patterns-remedies.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.3 — Source-Local Sense Clustering"
   - "F.3:10 — Anti-patterns & remedies"
-line_start: 119377
-line_end: 119391
+line_start: 126976
+line_end: 126990
 dependencies:
   - "A.11"
   - "A.7"
@@ -38,9 +38,9 @@ keywords:
 | --- | --- | --- | --- | --- |
 | **A1** | String = sense | Surface identity decides the cluster. | Different propositions collapse. | Compare argument patterns and entailments. |
 | **A2** | Cross-source creep | A BPMN use is folded with a PROV use inside F.3. | The interpretation basis changes unnoticed. | Finish each local claim first; test any relation in F.9. |
-| **A3** | Over-granulation | *SLO* and its full form become separate claims without a difference in use. | Friction rises without gain. | Consolidate source-blessed aliases. |
+| **A3** | Over-granulation | *SLO* and its full form become separate claims without a difference in use. | Friction rises without gain. | Consolidate aliases whose source uses support the same claim. |
 | **A4** | Under-granulation | Diagram node and real occurrence share one claim. | Later inferences contradict each other. | Split on argument or entailment conflict and add a counterexample. |
-| **A5** | Imported definition | A dictionary replaces the selected source passages. | The result is no longer source-local. | Ground the claim in the actual passages. |
+| **A5** | Imported definition | A dictionary replaces the selected source passages. | The result is no longer source-local. | Ground the claim in the passages from the selected source. |
 | **A6** | Label drift | Plain adds scope not present in Tech or the claim. | The cold reader learns the wrong concept. | Keep both labels within the same claim. |
 | **A7** | Meaning used as factual warrant | A sense claim is used to establish that a policy, equation or kind criterion holds for an instance. | Interpreting a substantive condition and establishing its application are different questions. | Keep defining content needed to explain the source meaning; test the separate substantive claim under its direct pattern. |
 | **A8** | Edition blend | Two editions with changed usage share one unqualified claim. | Replay and comparison become unreliable. | State each basis; merge only if evidence supports the same claim. |

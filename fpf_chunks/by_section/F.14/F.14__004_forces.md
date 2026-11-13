@@ -6,12 +6,12 @@ section_id: "F.14:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.14 — Anti-Explosion Control for System-Role and Status Name Families"
   - "F.14:3 — Forces"
-line_start: 123116
-line_end: 123126
+line_start: 130910
+line_end: 130920
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -53,7 +53,7 @@ keywords:
 | Force | Tension to resolve |
 | --- | --- |
 | Parsimony versus real difference | A small vocabulary is useful only if every real governed distinction remains recoverable. |
-| Local expression versus durable reuse | Most wording can remain local; public or repeated reuse may justify one durable settlement. |
+| Local expression versus durable reuse | Most wording can remain local. Public or repeated reuse may justify a durable settlement. |
 | Recognition versus assignment | A good system-role-kind name helps recognition; it does not assign a system or prove Work. |
 | Relations versus a new kind | Substitution, incompatibility, qualification, and bundle relations among system-role kinds may be useful without admitting another local kind. |
 | Status family versus status-name growth | Time windows, values, confidence, and presentation labels should not multiply status families. |

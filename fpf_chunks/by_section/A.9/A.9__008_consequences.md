@@ -6,12 +6,12 @@ section_id: "A.9:7"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.9/A.9__008_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.9 — Choose and Check an Aggregation Law for the Intended Result"
   - "A.9:7 — Consequences"
-line_start: 26645
-line_end: 26650
+line_start: 27637
+line_end: 27642
 dependencies:
   - "A.19.CN"
   - "A.19.ULSAM"
@@ -30,7 +30,7 @@ keywords:
 
 ### A.9:7 - Consequences
 
-The practitioner can explain why the chosen operation answers the actual question and what would defeat it. A combined result remains usable only while the stated model and conditions apply. Lawful reordering or repartitioning can support distributed calculation.
+The practitioner can explain why the chosen operation answers the question and what would defeat it. A combined result remains usable only while the stated model and conditions apply. Lawful reordering or repartitioning can support distributed calculation.
 
 The cost is recovering the domain meaning, dependencies and any property required by the action. A sufficient existing law can make this cheap. When its basis is absent, a qualified bound or retained inputs preserves useful information and exposes the missing premise. Whole recognition uses A.1; use B.2 for a remaining whole-reidentification question.
 

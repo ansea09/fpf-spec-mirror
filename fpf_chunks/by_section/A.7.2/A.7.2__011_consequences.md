@@ -6,12 +6,12 @@ section_id: "A.7.2:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.2/A.7.2__011_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.7.2 — FPF Ontology-Premise Reconciliation"
   - "A.7.2:9 — Consequences"
-line_start: 26177
-line_end: 26180
+line_start: 27145
+line_end: 27148
 dependencies:
   - "A.10"
   - "A.7.1"
@@ -34,5 +34,5 @@ keywords:
 
 ### A.7.2:9 - Consequences
 
-The Method can establish compatible co-use, retain scoped alternatives, block composition for a named use, or return an unresolved decision with its reopen condition. Its cost is recovering the source, receiving claim and actual application facts, including currentness where it affects the comparison. That work is justified by a material conflict and stops at the sufficient scoped result.
+The Method can establish compatible co-use, retain scoped alternatives, block composition for a named use, or return an unresolved decision with its reopen condition. Its cost is recovering the source, receiving claim and application facts, including currentness where it affects the comparison. That work is justified by a material conflict and stops at the sufficient scoped result.
 

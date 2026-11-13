@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.17.AUD.OOTD"
-pattern_title: "PublicationUnit Stability Discipline and PublicationUnit Primary-Subject Discipline - publication-unit stability over one primary subject"
+pattern_title: "Clarify the Primary Subject of a Publication Unit (PublicationUnit Primary-Subject Discipline)"
 section_id: "E.17.AUD.OOTD:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.OOTD/E.17.AUD.OOTD__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "E.17.AUD.OOTD — PublicationUnit Stability Discipline and PublicationUnit Primary-Subject Discipline - publication-unit stability over one primary subject"
+  - "E.17.AUD.OOTD — Clarify the Primary Subject of a Publication Unit (PublicationUnit Primary-Subject Discipline)"
   - "E.17.AUD.OOTD:intro — Intro"
-line_start: 109824
-line_end: 109862
+line_start: 116577
+line_end: 116615
 dependencies:
   - "A.10"
   - "A.15"
@@ -39,11 +39,11 @@ dependencies:
 keywords:
 ---
 
-## E.17.AUD.OOTD - PublicationUnit Stability Discipline and PublicationUnit Primary-Subject Discipline - publication-unit stability over one primary subject
+## E.17.AUD.OOTD - Clarify the Primary Subject of a Publication Unit (PublicationUnit Primary-Subject Discipline)
 
 > **Status:** Stable
 
-**Placement.** Narrow publication-unit stability pattern inside the broader `PublicationUnit Stability Discipline`.
+**Placement.** A pattern in the `PublicationUnit Stability Discipline` for stabilizing one publication unit.
 
 **Builds on.** `A.6.P`, `A.7`, `E.10`, `F.18`, `E.14`, `E.19`, `C.2.2a`, `A.16.0`.
 
@@ -51,30 +51,30 @@ keywords:
 
 **Plain-name.** Keep one publication unit explicit about its primary subject.
 
-**One-line summary.** `PublicationUnit Primary-Subject Discipline` applies to one bounded publication unit at a time and keeps that unit explicit about what it is mainly about, what claim or communicative move it carries, and what wider work, downstream use, decision, or reliance claim remains outside.
+**One-line summary.** For one bounded publication unit at a time, `PublicationUnit Primary-Subject Discipline` makes clear what the unit is mainly about, what claim or communicative move it carries, and which wider work, downstream use, decision, or reliance claim remains outside.
 
 **Primary subject.** In this pattern, `publicationUnitPrimarySubject` means what this bounded publication unit is mainly about for the current reading. It may be a named entity, boundary, episode, question, proposal, pattern section, or another plainly named subject. This is a publication aid, not a new `U.` kind or a `C.2.1` participant by default.
 
-**Exact C.2.1 projection.** Only when the unit carries one identified claim-bearing episteme `E`, and its primary subject is the exact entity that the claims of `E` concern, may the author state `publicationUnitPrimarySubject = EntityOfConcern(E)`. Otherwise do not infer an `EntityOfConcernRef` from a topic label or interpretation alone, or use a primary-subject transition as evidence that the exact `C.2.1` participant changed.
+**Exact C.2.1 projection.** Only when the unit carries one identified claim-bearing episteme `E`, and its primary subject is the entity that the claims of `E` concern, may the author state `publicationUnitPrimarySubject = EntityOfConcern(E)`. Otherwise do not infer an `EntityOfConcernRef` from a topic label or interpretation alone, or use a primary-subject transition as evidence that the `C.2.1` participant changed.
 
 **Publication unit.** Here this means one bounded note, memo, sheet, review aid, screen, table, or short section that people are expected to read as one unit.
 
-**Use this when.** Use this pattern when one note, memo, sheet, screen, table, comparison aid, or other publication unit sounds continuous while it quietly shifts what it is mainly about, which question it foregrounds, what it claims or asks the reader to do, or which wider process it appears to license. Use it when local word repair is no longer enough and the unit needs one stable answer to: what is this unit about, what move is it making, how may it be used, and what still remains outside?
+**Use this when.** A note, memo, sheet, screen, table, comparison aid, or other publication unit can sound continuous even as it shifts what it is mainly about, which question it foregrounds, what it claims or asks the reader to do, or which wider process it appears to license. Use this pattern when local word repair is no longer enough and the unit needs stable answers about its subject, the move it makes, its permitted use, and the work that remains outside.
 
-**What goes wrong if you miss this.** One publication unit starts with one subject and quietly ends with another concern, claim, communicative move, or downstream use. Review then gets trapped in sentence-level wording arguments while the real defect is publication-unit interpretation instability, and readers over-attribute decision weight or scope to a unit that never declared it.
+**What goes wrong.** A publication unit changes its subject, concern, claim, communicative move, or downstream use without marking the change. Reviewers argue over sentences while the reading of the unit as a whole shifts. Readers then give it decision weight or scope it never claimed.
 
-**What this buys you in practice.** It lets a team stop publication-unit interpretation instability before one memo, note, or review unit quietly starts carrying rollout, approval, wider architecture strategy, or another wider concern by habit. In practice that means reviewers can name the real stabilization job earlier, keep downstream work outside, and decide faster whether the current unit is stable enough to keep using at all.
+**Practical gain.** A team can prevent an unmarked change of reading before a memo, note, or review unit comes to stand for rollout, approval, wider architecture strategy, or another concern beyond the unit without saying so. Reviewers can identify what needs to be stabilized sooner, keep downstream work outside the unit, and decide more quickly whether its interpretation is stable enough for continued use.
 
-**Not this pattern when.** This is not the right pattern when:
+**When to use another approach.** Use another approach when:
 - the problem is still local lexical-head kind or qualifier repair and `E.17.AUD.LHR` (`Local Head Restoration`) is enough;
 - the same publication unit is already stable enough, and the question under repair is one bounded comparative review move over already available source epistemes or publications under `E.17.ID.CR`;
 - the question under repair is still same-entity rewrite, representation shift, explanation-face work, bridge-explication, or another neighboring pattern whose move is already primary;
 - the question under repair is view, face, carrier, or publication architecture rather than publication-unit interpretation instability;
-- the unit is already being used to approve, assign, adjudicate, or direct work and should use the more honest downstream decision, work, or reliance publication.
+- the unit is already being used to approve, assign, adjudicate, or direct work and should use the downstream decision, work, or reliance publication appropriate to that use.
 
-**Quick recovery.** If this situation fits, write the ordinary natural-language declaration in `E.17.AUD.OOTD:4.3` and compare it with the nearest worked slice in `E.17.AUD.OOTD:5.1` through `E.17.AUD.OOTD:5.6`. Use the six diagnostic prompts only if the declaration is hard to make honest. If one clear sentence or two short sentences settle the case, stop there rather than creating a card or climbing into heavier assurance by habit.
+**Quick recovery.** If this situation fits, write the ordinary natural-language declaration in `E.17.AUD.OOTD:4.3` and compare it with the nearest worked slice in `E.17.AUD.OOTD:5.1` through `E.17.AUD.OOTD:5.6`. Use the six diagnostic prompts only if it is hard to state the declaration accurately. If one clear sentence or two short sentences settle the case, stop there. A card or further assurance is unnecessary for that ordinary result.
 
 **What this pattern does.** `PublicationUnit Stability Discipline` names the broader family. `PublicationUnit Primary-Subject Discipline` is the local writing-and-review pattern for making one unit's primary subject, carried move, downstream-use boundary, and outside-work boundary clear together.
 
-**Reader.** This pattern is written first for an engineer-manager, architect, reviewer, or programme lead who needs to stop one publication unit from quietly changing what it is about.
+**Reader.** The primary reader is an engineer-manager, architect, reviewer, or programme lead who needs to stop one publication unit from changing its subject without saying so.
 

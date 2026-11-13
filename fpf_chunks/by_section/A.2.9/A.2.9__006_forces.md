@@ -6,12 +6,12 @@ section_id: "A.2.9:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.9/A.2.9__006_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.2.9 — U.SpeechAct — Communicative Work and Its Intended Use"
   - "A.2.9:3 — Forces"
-line_start: 8841
-line_end: 8852
+line_start: 9196
+line_end: 9207
 dependencies:
   - "A.10"
   - "A.13"
@@ -49,9 +49,9 @@ keywords:
 | ---------------------- | ----------------------------------------------------------------------------------------------------------------------- |
 | Minimality | The account should serve routine use without requiring a full pragmatics or legal-instrument model. |
 | Auditability           | If used as a gate, it must be evidence-backed; but not all communicative acts are equally observable or retainable.     |
-| Interpretive locality  | Recognition and institutional force depend on exact taxonomies, schemes, and current policies; F.9 is needed only when a receiving use really crosses local meanings. |
-| Multi-party reality    | Many real boundaries are multiparty (protocols, organizations); dyadic “speaker-hearer” is too narrow.                  |
+| Interpretive locality  | Recognition and institutional force depend on exact taxonomies, schemes, and current policies; F.9 is needed only when a receiving use crosses local meanings. |
+| Multi-party reality    | Many boundaries are multiparty (protocols, organizations); dyadic “speaker-hearer” is too narrow.                  |
 | Multi-function reality | One utterance can carry multiple recognizable functions; “one act = one force” is often false.                          |
 | Separation discipline  | Must preserve **kind** ≠ **actual act occurrence** ≠ **SpeechActRecord** ≠ **utterance description** ≠ **carrier or trace**. |
-| Use proportionality     | A receiving-use judgement must remain useful without a full occurrence record, while audit or institutional reliance still needs exact Work, assignment, Method, taxonomy, and evidence, plus a policy when recognition or institutional force depends on it. |
+| Use proportionality     | A receiving-use judgement must remain useful without a full occurrence record, while audit or institutional reliance needs exact Work, assignment, Method, taxonomy, and evidence, plus a policy when recognition or institutional force depends on it. |
 

@@ -6,12 +6,12 @@ section_id: "C.16:8"
 section_title: "Measurement-result boundaries (Normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__009_measurement-result-boundaries-normative.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:8 — Measurement-result boundaries (Normative)"
-line_start: 58770
-line_end: 58786
+line_start: 61154
+line_end: 61170
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -65,7 +65,7 @@ Keep the following objects distinct even when one carrier displays several of th
 | Measurement result | What value or values are attributed to the measurand, with relevant method, model, calibration, uncertainty, and time information? |
 | Measurement-result episteme | What durable C.2.1 claim states that result and its interpretation basis? |
 | Diagnosis or causal conclusion | What later domain interpretation is supported under its own method and result algebra? |
-| Criterion or acceptance verdict | Did the exact criterion application return pass, fail, or unknown? |
+| Criterion or acceptance verdict | Did the criterion application return pass, fail, or unknown? |
 | Decision result | What did separate C.11 decision work decide? |
 
 The carrier, dashboard, ledger, criterion clause, and evidence path may represent or cite several rows. None collapses their identities or establishes another row by presence alone.

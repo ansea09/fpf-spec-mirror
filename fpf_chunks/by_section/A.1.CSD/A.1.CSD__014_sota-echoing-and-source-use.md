@@ -6,12 +6,12 @@ section_id: "A.1.CSD:12"
 section_title: "SoTA Echoing and Source Use"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.CSD/A.1.CSD__014_sota-echoing-and-source-use.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.1.CSD — Discovering Systems That May Bear Consequences"
   - "A.1.CSD:12 — SoTA Echoing and Source Use"
-line_start: 4057
-line_end: 4072
+line_start: 4163
+line_end: 4178
 dependencies:
   - "A.1"
   - "A.1.SCR"

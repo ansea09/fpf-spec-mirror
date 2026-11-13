@@ -6,12 +6,12 @@ section_id: "E.15:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.15/E.15__013_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.15 — Pattern Change, Edition Continuity, and Impact Analysis"
   - "E.15:12 — Relations"
-line_start: 105812
-line_end: 105830
+line_start: 112279
+line_end: 112297
 dependencies:
   - "C.18"
   - "C.19"
@@ -38,14 +38,14 @@ keywords:
 * **E.10**, **F.18**, and **F.19** for wording-use diagnosis, naming, and precise plain language.
 * **E.9** for a material content decision and **E.9.DA** when that decision needs adequacy review.
 * **F.0.1** and **F.1** for exact source-local meaning and question-relative source selection.
-* **A.10** and **B.3** when a changed claim actually depends on evidence use or assurance.
+* **A.10** and **B.3** when a changed claim depends on evidence use or assurance.
 
 **Coordinates with:**
 
 * **A.10.1** for the general move from a changed source claim to bounded actual uses when cross-use discovery is needed. E.15 is the FPF-pattern-edition specialization of that move: its primary object remains one exact existing FPF pattern edition and its successor, and its Delta-Class, predecessor-function continuity, proportionate pattern checks, and candidate-plus-change-account result remain intact.
 * **E.19** for pattern review, **E.21/E.22** for quality evaluation, and **E.23** for repeated improvement.
-* **C.18 and C.19** for optional candidate generation and explore/exploit control when a real alternative-search branch is open.
-* **F.15** for applicable regression checks and **F.9** only when the changed use actually relates distinct local senses.
+* **C.18 and C.19** for optional candidate generation and explore/exploit control when the alternative-search branch is open.
+* **F.15** for applicable regression checks and **F.9** only when the changed use relates distinct local senses.
 * **B.4** for later evolution-loop scheduling when a named refresh trigger is worth maintaining.
 * **E.24.PUB** and the landing process for later publication and integration; neither follows from an E.15 result.
 

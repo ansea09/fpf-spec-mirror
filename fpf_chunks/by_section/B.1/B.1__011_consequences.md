@@ -6,12 +6,12 @@ section_id: "B.1:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1/B.1__011_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.1 — Holon Aggregation and Part-Whole Construction"
   - "B.1:9 — Consequences"
-line_start: 41174
-line_end: 41187
+line_start: 42786
+line_end: 42799
 dependencies:
   - "A.1"
   - "A.14"
@@ -36,7 +36,7 @@ Positive consequences:
 - Users can combine aggregation notation with an independently grounded account of the objects and relations.
 - Part-whole claims expose their objects, relations, and construction grounds for review.
 - Role, Method, Work, mathematical-lens, and publication descriptions remain distinguishable from part-whole claims.
-- Whole reidentification has an explicit entry condition for B.2.
+- Whole reidentification has an entry condition for B.2.
 
 Costs:
 

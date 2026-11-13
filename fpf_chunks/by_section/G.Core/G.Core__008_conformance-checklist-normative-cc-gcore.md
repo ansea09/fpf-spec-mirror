@@ -6,12 +6,12 @@ section_id: "G.Core:7"
 section_title: "Conformance checklist (normative) — CC‑GCORE"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.Core/G.Core__008_conformance-checklist-normative-cc-gcore.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.Core — Discipline SoTA Kit Invariants, Defaults and Refresh Triggers (Part G)"
   - "G.Core:7 — Conformance checklist (normative) — CC‑GCORE"
-line_start: 126745
-line_end: 126770
+line_start: 134795
+line_end: 134820
 dependencies:
   - "A.15.3"
   - "A.19"
@@ -51,10 +51,10 @@ The following conformance items retain their stated applicability conditions. Ea
 | **CC‑GCORE‑LINK‑2** | A `CC‑Gx‑CoreRef`, when used, delegates to the effective core obligations and their conditions, including referenced profile expansions. Equivalent direct delegation is sufficient. |
 | **CC‑GCORE‑UTS‑1**   | If a Part‑G pattern mints, deprecates, or evolves any public identifier, it SHALL publish/update the corresponding UTS entries and cite them via `UTSRowId` pins, delegating UTS semantics (Tech and applicable Plain designations, alias/deprecation discipline, edition pins) to its canonical governing definition `F.17 (UTS)`. |
 | **CC‑GCORE‑ID‑1**    | When deduplicating, existing public CC ids in `G.x` SHALL NOT be deleted/renamed; they SHALL become delegation items to relevant `CC‑GCORE‑…` items. |
-| **CC‑GCORE‑ID‑2**    | Public id continuity applies beyond CC item ids: `UTSRowId` rows, `RSCRTriggerAliasId` tokens (e.g., `T0…T7`), deprecation notices, and edition bumps SHALL preserve prior ids and express drift via alias/deprecation/edition evolution (never by reusing/redefining an old id). When downstream behaviour can change, the change SHALL emit a canonical `RSCRTriggerKindId` (e.g., `TokenizationOrNameChange`, `EditionPinChange`). |
+| **CC‑GCORE‑ID‑2**    | Publications SHALL preserve non-CC public ids, including `UTSRowId` and `RSCRTriggerAliasId` tokens (e.g., `T0…T7`). Express changes through aliases, deprecation notices and new editions. An old id SHALL NOT be reused or redefined. When downstream behaviour can change, the change SHALL emit a canonical `RSCRTriggerKindId` (e.g., `TokenizationOrNameChange`, `EditionPinChange`). |
 | **CC‑GCORE‑TRIG‑1**  | A conforming `G.Core` SHALL define the canonical `RSCRTriggerKindId` catalogue and SHALL be its single writer. |
 | **CC‑GCORE‑TRIG‑2**  | Any `G.x` that uses local trigger tokens SHALL provide (or cite) a `TriggerAliasMap` mapping each alias to canonical `RSCRTriggerKindId`. |
 | **CC‑GCORE‑TRIG‑3**  | Any artefact that records RSCR/SCR/refresh reasons SHALL record canonical `RSCRTriggerKindId` (aliases may be recorded as labels only). |
 | **CC‑GCORE‑TRIG‑4**  | A conforming `G.Core` SHALL keep `TriggerAliasMap.*` consistent with the governing patterns’ deprecated trigger alias catalogues (e.g., `G.11:T*`). Any change to an alias mapping SHALL be treated as refresh‑sensitive; at minimum it SHALL be recorded/emitted as `RSCRTriggerKindId.TokenizationOrNameChange` (and, if the mapped trigger kinds change, the corresponding canonical kinds apply as well). |
-| **CC‑GCORE‑DEF‑1**  | A conforming `G.Core` SHALL maintain a Default Governing Definition Index for Part‑G defaults, ensuring each `DefaultId.*` names exactly one governing definition (a CC item or a policy id). All other patterns SHALL cite the governing definition and SHALL NOT state competing defaults. Any governing-definition change MUST be recorded as `RSCRTriggerKindId.DefaultGoverningDefinitionChange`. |
+| **CC‑GCORE‑DEF‑1**  | A conforming `G.Core` SHALL maintain a Default Governing Definition Index for Part‑G defaults, ensuring each `DefaultId.*` names exactly one governing definition (a CC item, policy id or TaskSignature rule). All other patterns SHALL cite the governing definition and SHALL NOT state competing defaults. Any governing-definition change MUST be recorded as `RSCRTriggerKindId.DefaultGoverningDefinitionChange`. |
 

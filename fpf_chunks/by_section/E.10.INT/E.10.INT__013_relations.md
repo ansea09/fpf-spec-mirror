@@ -6,12 +6,12 @@ section_id: "E.10.INT:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.INT/E.10.INT__013_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.10.INT — Recovering What Interest or Curiosity Means Here"
   - "E.10.INT:12 — Relations"
-line_start: 100977
-line_end: 100985
+line_start: 106631
+line_end: 106639
 dependencies:
   - "C.11"
   - "C.16"
@@ -30,7 +30,7 @@ keywords:
 - **E.10 and E.10.ARCH** locate this recovery when interest-family wording hides the relation needed for work. F.19 handles the surrounding prose.
 - **E.10.LRN** recovers a remaining ambiguity about what learned or changed. E.10.DEV handles a remaining development or evolution claim.
 - **C.16 and C.17** supply measurement and the distinctions among novelty, usefulness and sample surprise.
-- **C.11** compares formed options; **C.19** governs directions in an active search pool; **C.18** supplies retention in an exploration archive. **C.40** develops problems and ways together.
+- **C.11** compares formed options. **C.19** governs directions in an active search pool. **C.18** supplies retention in an exploration archive. **C.40** develops problems and ways together.
 - **D.1 and D.3** supply ethical-value and conflict analysis when affected interests raise those questions.
 - **E.23.CDI** supplies capability development when that is the receiving task, separating the acquisition Method, its execution and the asserted capability change. Its entry conditions and the applicable field Method govern the intervention.
 

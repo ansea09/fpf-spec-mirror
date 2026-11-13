@@ -6,12 +6,12 @@ section_id: "A.1.RI:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.RI/A.1.RI__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.1.RI — Reidentifying an Object across Observations"
   - "A.1.RI:2 — Problem"
-line_start: 2915
-line_end: 2922
+line_start: 2959
+line_end: 2966
 dependencies:
   - "A.1"
   - "A.3.3.PI"
@@ -32,5 +32,5 @@ Observations describe what was found at particular occasions and under particula
 
 Pairwise plausible connections can also conflict. Under a model in which each object is detected once, assigning the same later detection to two earlier objects fails the joint account. Conversely, several complete associations may all satisfy the available constraints.
 
-The practitioner needs to determine what the observations actually resolve and carry that result into the next calculation or action.
+The practitioner needs to determine what the observations resolve and carry that result into the next calculation or action.
 

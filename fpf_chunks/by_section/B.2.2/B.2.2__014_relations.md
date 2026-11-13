@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.2.2"
-pattern_title: "Meta-System Transition: Test the Proposed New Whole as a System"
+pattern_title: "Test the Proposed New Whole as a System"
 section_id: "B.2.2:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.2/B.2.2__014_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "B.2.2 — Meta-System Transition: Test the Proposed New Whole as a System"
+  - "B.2.2 — Test the Proposed New Whole as a System"
   - "B.2.2:11 — Relations"
-line_start: 44173
-line_end: 44180
+line_start: 45959
+line_end: 45966
 dependencies:
   - "A.1"
   - "A.10"
@@ -42,7 +42,7 @@ keywords:
 
 ### B.2.2:11 - Relations
 
-- **Specializes:** `B.2` by testing its exact candidate new whole under the complete A.1 criterion and the already admitted `U.System` kind.
+- **Specializes:** `B.2` by testing its candidate new whole under the A.1 criterion and the already admitted `U.System` kind.
 - **Builds on:** `A.1`, `B.1.2`, `A.14`, and `C.13` for holon and system delimitation and part-whole grounding.
 - **Coordinates with:** `A.12`, `A.3.4`, `A.15`, `A.15.1`, `A.2.1`, `A.2.2`, `C.16`, `A.6.F`, `C.30`, `A.22`, `C.30.ASV`, `C.30.TFS-REL`, `A.10`, `B.3`, and `B.3.5`.
 - **Uses:** `B.2.5` when supervisor-subholon feedback relation is part of the system-result evidence.

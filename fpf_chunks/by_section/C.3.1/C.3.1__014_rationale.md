@@ -6,12 +6,12 @@ section_id: "C.3.1:12"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__014_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.3.1 — Kind Identity and Subkind Relations (U.Kind and U.SubkindOf)"
   - "C.3.1:12 — Rationale"
-line_start: 55375
-line_end: 55378
+line_start: 57661
+line_end: 57664
 dependencies:
   - "A.1"
   - "A.11"
@@ -44,5 +44,5 @@ keywords:
 
 ### C.3.1:12 - Rationale
 
-Kind identity, direct `U.SubkindOf` obtaining, assertion identity, declaration identity, candidate state, and current extension answer different questions and change under different conditions. Their separation lets a kind survive a compatible declaration revision while preventing an assertion or revised criterion from creating an order fact, silently rewriting prior classifications, or hiding a non-obtaining subkind proposal. Keeping the core small also prevents construction, admission, naming, scope, slot discipline, or dependency from being smuggled into one hierarchy relation.
+Kind identity, direct `U.SubkindOf` obtaining, assertion identity, declaration identity, candidate state, and current extension answer different questions and change under different conditions. Their separation lets a kind survive a compatible declaration revision while preventing an assertion or revised criterion from creating an order fact, silently rewriting prior classifications, or hiding a non-obtaining subkind proposal. Keeping the core small also prevents construction, admission, naming, scope, slot discipline, or dependency from being introduced into one hierarchy relation.
 

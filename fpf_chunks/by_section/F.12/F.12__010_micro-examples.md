@@ -6,12 +6,12 @@ section_id: "F.12:9"
 section_title: "Micro-examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.12/F.12__010_micro-examples.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.12 — Evaluate Promise Fulfilment from Work Evidence (Service Acceptance)"
   - "F.12:9 — Micro-examples"
-line_start: 122656
-line_end: 122673
+line_start: 130419
+line_end: 130438
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -59,7 +59,9 @@ keywords:
 
 #### F.12:9.2 - Furnace temperature band
 
-The promise content states `[720,740] °C` during the soak phase. The delivery Work is the actual batch soak occurrence. Calibrated thermocouple observations either measure the product characteristic directly or use a separately defined sensor-location indicator relation. Evaluation Work applies the band rule and binds its result. An out-of-band result can support `RequirementStatus=Violated`; insufficient spatial evidence supports `EvidenceStatus=Inconclusive` and leaves the requirement pending unless the declared acceptance scale specifies another local result.
+The promise content states `[720,740] °C` during the soak phase. The delivery Work is the actual batch soak occurrence. Calibrated thermocouple observations either measure the product characteristic directly or use a separately defined sensor-location indicator relation.
+
+For this batch, evaluation Work applies the band rule and binds its result. An out-of-band result can support `RequirementStatus=Violated`; insufficient spatial evidence supports `EvidenceStatus=Inconclusive` and leaves the requirement pending unless the declared acceptance scale specifies another local result.
 
 #### F.12:9.3 - Incident restoration duration
 

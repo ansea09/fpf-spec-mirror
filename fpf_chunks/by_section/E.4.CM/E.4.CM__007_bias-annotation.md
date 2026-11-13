@@ -6,12 +6,12 @@ section_id: "E.4.CM:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.CM/E.4.CM__007_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.4.CM — Develop Connected Methods as Framework Contributions"
   - "E.4.CM:6 — Bias-Annotation"
-line_start: 93864
-line_end: 93867
+line_start: 98478
+line_end: 98481
 dependencies:
   - "A.3.1"
   - "B.1.5"
@@ -33,5 +33,5 @@ keywords:
 
 ### E.4.CM:6 - Bias-Annotation
 
-An expert author can forget how much synthesis they supplied between references. Compare the actual public inputs with the reasoning used in the worked case. Conversely, enthusiasm for a source can create a named umbrella with no added contribution. The same-situation comparison tests both errors.
+An expert author can forget how much synthesis they supplied between references. Compare the public inputs readers receive with the reasoning used in the worked case. Conversely, enthusiasm for a source can create a named umbrella with no added contribution. The same-situation comparison tests both errors.
 

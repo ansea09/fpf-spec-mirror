@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.9"
-pattern_title: "Cross-Context Sameness Disambiguation - Restoring the concrete claim behind \"same\", \"equivalent\", and \"align\" (RPR-XCTX)"
+pattern_title: "Cross-Context Sameness Disambiguation - Restoring the claim behind \"same\", \"equivalent\", and \"align\" (RPR-XCTX)"
 section_id: "A.6.9:End"
 section_title: "A.6.9:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.9/A.6.9__014_a-6-9-end.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.6.9 — Cross-Context Sameness Disambiguation - Restoring the concrete claim behind \"same\", \"equivalent\", and \"align\" (RPR-XCTX)"
+  - "A.6.9 — Cross-Context Sameness Disambiguation - Restoring the claim behind \"same\", \"equivalent\", and \"align\" (RPR-XCTX)"
   - "A.6.9:End — A.6.9:End"
-line_start: 24863
-line_end: 24864
+line_start: 25784
+line_end: 25785
 dependencies:
   - "A.1.1"
   - "A.10"

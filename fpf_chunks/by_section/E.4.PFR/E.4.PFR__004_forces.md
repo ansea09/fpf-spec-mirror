@@ -6,12 +6,12 @@ section_id: "E.4.PFR:2"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFR/E.4.PFR__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.4.PFR — Pattern-Framework Relation and Edition Discipline"
   - "E.4.PFR:2 — Forces"
-line_start: 95741
-line_end: 95754
+line_start: 100796
+line_end: 100809
 dependencies:
   - "A.10"
   - "A.6.0"
@@ -52,7 +52,7 @@ keywords:
 | --- | --- |
 | Ordinary affordability | A direct assertion should remain one sentence when no maintenance receiver needs a row. |
 | Stable maintenance form | Edition-impact, comparison, publication/dependency repair, and refresh may need consistent fields across many assertions. |
-| Relation economy | Compact rows help inspection but can hide the exact defining or constraining ClaimGraph. |
+| Relation economy | Compact rows help inspection but can hide which ClaimGraph defines or constrains the relation. |
 | Dependency pressure | Edition dependency is useful but is not compatibility, specialization, recommendation order, publication grouping, derivation, or evaluation. |
 | Compatibility pressure | Framework editions need compatibility, deprecation, supersession, and refresh boundaries without becoming software packages. |
 | Actual-use truth | Definition, citation, or adjacency must not be mistaken for formal-premise use or criterion selection. |

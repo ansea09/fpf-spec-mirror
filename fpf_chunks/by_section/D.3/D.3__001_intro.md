@@ -6,12 +6,12 @@ section_id: "D.3:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.3/D.3__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "D.3 — Describe an Ethical Conflict Across Levels or Scopes"
   - "D.3:intro — Intro"
-line_start: 91808
-line_end: 91821
+line_start: 96302
+line_end: 96315
 dependencies:
   - "A.1"
   - "A.10"
@@ -42,11 +42,11 @@ keywords:
 > **Status:** Stable
 
 
-**Use this when.** Use this pattern when ethical claims at different declared levels or scopes raise an incompatibility, trade-off or unresolved value tension that needs explaining. State each ethical concern as a claim about the case.
+**Use this when.** Ethical claims at different declared levels or scopes raise an incompatibility, trade-off or unresolved value tension that needs explaining. State each ethical concern as a claim about the case.
 
-**Not this pattern when.** If only the ethical value frame is missing, use `D.1`. If only entry recognition is needed, use `D.2`. If D.3 has already described the conflict and the current question is mediation or decision use, use `D.4`. If the question is bias, fairness, impact audit, causal-fairness audit consumption, or ethical assurance, use `D.5`.
+**Not this pattern when.** If only the ethical value frame is missing, use `D.1`. If only entry recognition is needed, use `D.2`. If D.3 has already described the conflict and the question is mediation or decision use, use `D.4`. If the question is bias, fairness, impact audit, causal-fairness audit consumption, or ethical assurance, use `D.5`.
 
-**What goes wrong if missed.** The team debates values or decisions before it can say who or what is affected, under which value frame and scope, over what horizon, and why the live claims are in tension.
+**What goes wrong if missed.** The team debates values or decisions before it can say who or what is affected, under which value frame and scope, over what horizon, and why the claims are in tension.
 
 **What this buys.** A reader can see each side, what it affects, and how the sides are in tension before deciding what to do.
 

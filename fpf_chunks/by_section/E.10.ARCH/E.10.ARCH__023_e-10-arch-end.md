@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.10.ARCH"
-pattern_title: "Wording-Use Ontological Precision Restoration Architecture"
+pattern_title: "Architecture for Recovering Ontological Meaning in Wording"
 section_id: "E.10.ARCH:End"
 section_title: "E.10.ARCH:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__023_e-10-arch-end.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
+  - "E.10.ARCH — Architecture for Recovering Ontological Meaning in Wording"
   - "E.10.ARCH:End — E.10.ARCH:End"
-line_start: 101960
-line_end: 101961
+line_start: 107706
+line_end: 107707
 dependencies:
   - "A.10"
   - "A.15.1"

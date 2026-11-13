@@ -6,12 +6,12 @@ section_id: "C.2.P:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P/C.2.P__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.2.P — Clarify Episteme, Publication, and Source Wording (Epistemic Precision Restoration)"
   - "C.2.P:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 52396
-line_end: 52408
+line_start: 54587
+line_end: 54599
 dependencies:
   - "A.10"
   - "A.15"
@@ -58,9 +58,9 @@ keywords:
 | --- | --- | --- |
 | Token swap | Replace `display` with `face` or `host` with `file` without recovering kind and sentence function. | Apply head-kind and relation recovery before rewriting. |
 | Group-kind list | Leave a list such as `pattern, record, relation, or action` as if the list names one kind. | Decide whether the sentence needs one kind, a relation record, a tuple-like record, alternative cases, or a blocked ontology. |
-| Type-correct but inert rewrite | All overread is removed, all heads are typed, and no practical guidance remains: the reader can see that local checks passed but cannot tell why the distinction matters, what to do, or which FPF pattern application or project-side FPF kind carries the claim being made. | Recover the didactic or recognition function in wording whose claim being made is recovered through the named FPF pattern, keep any Plain line mapped to the recovered Tech interpretation when both registers are current, state the remaining reader use, or demote the phrase to reduced-use cue, blocked use, or rewrite incomplete instead of treating the repair as complete. |
+| Type-correct but inert rewrite | All overread is removed, all heads are typed, and no practical guidance remains: the reader can see that local checks passed but cannot tell why the distinction matters, what to do, or which FPF pattern application or project-side FPF kind carries the claim. | Recover the didactic or recognition function in wording whose claim is recovered through the named FPF pattern, keep any Plain line mapped to the recovered Tech interpretation when both registers are current, state the remaining reader use, or demote the phrase to reduced-use cue, blocked use, or rewrite incomplete instead of treating the repair as complete. |
 | Expressive overread rebound | A repair restores practical guidance with a memorable Plain or didactic line, but that line carries a claim not recoverable from the Tech fields, named FPF kind, recovered relation, project-side reference, disposition, or pattern application. | Map the line to the recovered Tech interpretation under `E.10:6.2`; use the FPF pattern that defines, constrains, or tests the claim; or demote the phrase to reduced-use cue, blocked use, or rewrite incomplete. |
-| Pillar-blind precision pass | A broad cleanup proves trigger removal and kind recovery, but never checks whether `E.2` `P-2`, `E.6`, `E.8`, or `E.12` still let the intended reader see the working situation, why it matters, and what first useful move remains. | For FPF-governed Problem frames, Problem sections, recognition texts, examples, and worked slices, state the remaining reader use or FPF pattern application. Preserve intentional didactic metaphors when they are ordinary recognition aids or when their claim being made maps back to Tech. If the didactic function was harmed, repair the Plain wording so it maps back to the recovered Tech interpretation, or mark the rewrite incomplete instead of accepting type-correct but inert wording. |
+| Pillar-blind precision pass | A broad cleanup proves trigger removal and kind recovery, but never checks whether `E.2` `P-2`, `E.6`, `E.8`, or `E.12` still let the intended reader see the working situation, why it matters, and what first useful move remains. | For FPF-governed Problem frames, Problem sections, recognition texts, examples, and worked slices, state the remaining reader use or FPF pattern application. Preserve intentional didactic metaphors when they are ordinary recognition aids or when their claim maps back to Tech. If the didactic function was harmed, repair the Plain wording so it maps back to the recovered Tech interpretation, or mark the rewrite incomplete instead of accepting type-correct but inert wording. |
 | Source-companion header leakage | Carry a source-companion header into a pattern and let `Authority: none` or `Current use` define the new pattern. | Replace the copied metadata with the pattern’s own subject, use, and applicable normative status. |
 | Pattern as procedure | Treat a pattern episteme as executable code or performed Work merely because an instruction says to call, route to, or invoke it. | Keep ordinary instrumental wording when it clearly means that a practitioner uses the pattern. For an asserted dated Work occurrence, use A.13 and independent A.15.1 admission; add F.6 only for precise assignment-bound attribution. Use A.3.2 when a claimed `U.MethodDescription` membership needs checking. |
 | Strength metaphor | Say a claim is strong or weak without a recoverable comparison basis, such as a characteristic, threshold, evidence class, scope, gate condition, or use-boundary relation. | Name that basis, or replace the metaphor with the recovered use-boundary claim when that is what the sentence means. |

@@ -1,27 +1,20 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.17.AUD"
-pattern_title: "PublicationUnit Stability Discipline - keep one publication unit stable enough to read honestly"
+pattern_title: "Keep a Publication Unit Stable (PublicationUnit Stability Discipline)"
 section_id: "E.17.AUD:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD/E.17.AUD__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "E.17.AUD — PublicationUnit Stability Discipline - keep one publication unit stable enough to read honestly"
+  - "E.17.AUD — Keep a Publication Unit Stable (PublicationUnit Stability Discipline)"
   - "E.17.AUD:3 — Forces"
-line_start: 109257
-line_end: 109266
+line_start: 115987
+line_end: 115996
 dependencies:
-  - "A.10"
-  - "A.15"
-  - "A.15.4"
   - "A.16.0"
-  - "A.20"
-  - "A.21"
   - "A.7"
-  - "B.3"
-  - "C.11"
   - "C.2.1"
   - "C.2.2a"
   - "E.10"
@@ -42,9 +35,9 @@ keywords:
 
 | Force | Tension |
 | --- | --- |
-| **Recognisability vs precision** | Cold readers need an early recognizable situation, but the unit still needs explicit primary-subject, carried-publication-move, and outside-work discipline. |
-| **Local repair vs whole-unit stabilization** | It is cheaper to fix one overloaded local lexical head, but sometimes the whole publication unit already carries a quiet shift in primary subject, carried publication move, or outside boundary to work, work planning, decision, gate, or reliance claim. |
-| **Stability vs an honest next-pattern boundary** | Teams want to keep one unit usable, but they also need to admit when the live question is now comparison, explanation, or a downstream claim or effect. |
-| **Form variety vs publication-unit fidelity** | Note, memo, sheet, table, and screen are convenient ordinary labels, but they must not silently replace the publication unit under review. |
-| **Readability vs downstream claim or effect laundering** | Clearer or more polished prose helps readers, but it does not by itself mint approval, policy, gate, work, or reliance claim or effect. |
+| **Recognisability vs precision** | Cold readers need a recognizable situation at the start. The unit must also make its primary subject, its publication move and its boundary with outside work explicit. |
+| **Local repair vs whole-unit stabilization** | It is cheaper to fix one overloaded local lexical head, but the whole unit may have changed its primary subject, its publication move, or its boundary with work, work planning, decision, gate, or a reliance claim without marking the change. |
+| **Stability vs the boundary with the next pattern** | Teams want to keep one unit usable, but they also need to recognize when the question has shifted to comparison, explanation, or a downstream claim or effect. |
+| **Form variety vs publication-unit fidelity** | Note, memo, sheet, table, and screen are convenient ordinary labels, but a switch from the unit under review to its presentation form must be marked. |
+| **Readability and unsupported downstream claims or effects** | Clearer or more polished prose helps readers, but it does not by itself establish an approval, policy, gate, work, or reliance claim or effect. |
 

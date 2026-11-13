@@ -6,12 +6,12 @@ section_id: "C.16.P:6"
 section_title: "Adjacent Claim Governance Named by Value"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.P/C.16.P__008_adjacent-claim-governance-named-by-value.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.16.P — Restore Precision to Characteristic and Scale Wording"
   - "C.16.P:6 — Adjacent Claim Governance Named by Value"
-line_start: 59720
-line_end: 59740
+line_start: 62105
+line_end: 62125
 dependencies:
   - "A.17"
   - "A.18"
@@ -35,12 +35,12 @@ keywords:
 | --- | --- |
 | `Characteristic` | `A.17` |
 | `Scale`, value set, value, coordinate, unit, scoring method, measurement use | `A.18`, `C.16` |
-| `CharacteristicSpace` | `A.19` or `A.19.ECS` when evaluation-characteristic-space construction is live |
+| `CharacteristicSpace` | `A.19` or `A.19.ECS` when the question concerns evaluation-characteristic-space construction |
 | Q-bundle or quality-family decomposition into differently typed contributors | `C.25` |
 | Quality-term or evaluative characterization wording | `C.16.Q` after any needed characteristic and scale repair |
 | Pattern-quality coordinate or pattern-quality evaluation | `E.21` |
 | Mathematical function, mathematical lens, preserved-structure and lost-structure, model adequacy or lens-use result | `C.29` for the mathematical-lens-use part; direct model or domain pattern for a non-lens adequacy claim; ordinary mathematics when no FPF-governed use is claimed. |
-| CHR mechanism, characteristic-space mechanism, selector, suite, or set-return law | `A.19.CN`, `G.0`, `A.19.UINDM`, `A.19.USCM`, `A.19.ULSAM`, `A.19.CPM`, `A.19.SelectorMechanism`, `G.5`, `C.11`, or mechanism pattern named by value |
+| CHR mechanism, characteristic-space mechanism, selector, suite, or set-return law | `A.19.CN`, `G.0`, `A.19.UINDM`, `A.19.USCM`, `A.19.ULSAM`, `A.19.CPM`, `A.19.SelectorMechanism`, `G.5`, `C.11`, or the pattern governing the recovered mechanism |
 | Evidence or proof | The pattern governing the evidence or proof claim; `A.10` when the source-to-use account for a relied-on claim remains implicit. |
 | Assurance or engineering justification | `B.3` or the governing assurance pattern for an assurance claim with a named target claim and use; otherwise the pattern governing the engineering justification. |
 | Gate, constraint, release, readiness threshold | `A.20`, `A.21`, release or admissibility pattern, or gate pattern governing the claim |

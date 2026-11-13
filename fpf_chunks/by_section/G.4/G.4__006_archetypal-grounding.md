@@ -6,12 +6,12 @@ section_id: "G.4:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.4/G.4__006_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.4 — CAL Authoring for a CG-Frame: Operators, Acceptance Clauses, Evidence Wiring"
   - "G.4:5 — Archetypal Grounding"
-line_start: 128962
-line_end: 129004
+line_start: 137014
+line_end: 137056
 dependencies:
   - "A.10"
   - "A.13"
@@ -87,7 +87,7 @@ The same A.13 core uses `SafetyAcceptanceEvaluationAssignment`, a directly decla
 
 Only after that A.13 core is established does A.15.1 independently admit `EvalWork-2026-07-30-17 : U.Work` from its exact performance history, enacted `SafetyAcceptanceMethod`, temporal extent, and obtaining containing-System relation to independently admitted `SafetyEvaluationTeamSystem-17`. The actual A.6.1 application `SafetyAcceptanceApplication-17` binds candidate `C-17` separately from its binding of current C.16 measurement-result episteme `SafetyMeasureResult-E17` to `SafetyResultArgument-D1` while using unchanged reusable clause `AC_SafetyGate`. Neither the assignment nor an F.6 conclusion is an A.15.1 admission premise.
 
-Because this worked case explicitly says that the Work was performed under an assignment, F.6 afterward establishes `performedUnderAssignment(EvalWork-2026-07-30-17, SafetyAcceptanceEvaluationAssignment-17)` through the same obtaining A.13 assignment. The direct case fact links that exact pair, holder equality holds, and the assignment interval covers the Work. A different overlapping assignment held by the same performer would not establish this attribution.
+Because this worked case states that the Work was performed under an assignment, F.6 afterward establishes `performedUnderAssignment(EvalWork-2026-07-30-17, SafetyAcceptanceEvaluationAssignment-17)` through the same obtaining A.13 assignment. The direct case fact links the named Work and assignment, the holder is the performer, and the assignment interval covers the Work. A different overlapping assignment held by the same performer would not establish this attribution.
 
 `SafetyMeasureResult-E17` states the measured safety characteristic, scale, attributed value, uncertainty, model, calibration, and measurement Work; it is neither the raw detector output nor the acceptance verdict. The clause application obtains `unknown` because the uncertainty interval crosses the threshold. A later `SafetyMeasureResult-E18` can bind through separately identified `SafetyAcceptanceApplication-18` while `AC_SafetyGate` remains unchanged. A C.16 result for `CostUSD_2026`, a result with an incompatible declared shape, or raw detector output fails `SafetyResultArgument-D1` before the predicate runs; it does not cause a new reusable clause edition. A separate C.2.1 episteme asserts that exact verdict and cites its provenance under A.10 and, when the EvidenceGraph extension is present, G.6; G.11 supplies currentness. A later C.11 result may record `defer`, and its claim uses the verdict episteme through an exact premise or decision-use relation. Any decision-making Work remains separate. The clause card, proof-ledger row, evidence edge, and decision record do not retroactively establish the measurement Work or the evaluation occurrence.
 

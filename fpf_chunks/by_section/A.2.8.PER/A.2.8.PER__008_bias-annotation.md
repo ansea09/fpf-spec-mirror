@@ -6,12 +6,12 @@ section_id: "A.2.8.PER:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8.PER/A.2.8.PER__008_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.2.8.PER — Granted Permission, Exercise, and Non-Prohibition"
   - "A.2.8.PER:6 — Bias-Annotation"
-line_start: 8714
-line_end: 8718
+line_start: 9065
+line_end: 9069
 dependencies:
   - "A.10"
   - "A.13"
@@ -36,5 +36,5 @@ keywords:
 ### A.2.8.PER:6 - Bias-Annotation
 
 
-The chief bias is document-and-display authority: a readable permit, badge, policy response, or green gate looks stronger than its recoverable relation. The repair is exact ground, participants, policy/currentness, scope/window, and separate evidence. A second bias is obligation-shaped deontics; the exercise and non-exercise rules preserve permission as latitude.
+The chief bias is document-and-display authority: a readable permit, badge, policy response, or green gate looks stronger than its recoverable relation. The repair is to recover the grounds, participants, policy and its currentness, scope, window, and separate evidence. A second bias is obligation-shaped deontics; the exercise and non-exercise rules preserve permission as latitude.
 

@@ -6,12 +6,12 @@ section_id: "A.19:1"
 section_title: "Intent & Scope (Normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19/A.19__003_intent-scope-normative.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.19 — CharacteristicSpace: Coordinates, State Predicates and Dynamics Hook (A.CHR‑SPACE)"
   - "A.19:1 — Intent & Scope (Normative)"
-line_start: 34641
-line_end: 34658
+line_start: 36121
+line_end: 36138
 dependencies:
   - "A.10"
   - "A.15"
@@ -50,7 +50,7 @@ keywords:
 
 ### A.19:1 - Intent & Scope (Normative)
 
-**Intent.** Establish two composable A.19 values. `U.CharacteristicSpace` is the declared space of characteristics, scales, genuine Scale value sets, Coordinate positions and groups, optional overlays, comparability boundaries, normalization boundaries, and typing hooks. `CharacteristicSpacePredicate` is a typed unary Boolean predicate over declared Coordinates in one such space. Partial observations and their absence statuses remain consumer inputs. For dynamics, `U.Dynamics.stateSpace` points to the declared space so a holon's change can be described as a trajectory in typed Coordinates. For epistemes, state remains governed by ESG; F-G-R are assurance coordinates, not an episteme state space.
+**Intent.** Establish two composable A.19 values. `U.CharacteristicSpace` is the declared space of characteristics, scales, Scale value sets, Coordinate positions and groups, optional overlays, comparability boundaries, normalization boundaries, and typing hooks. `CharacteristicSpacePredicate` is a typed unary Boolean predicate over declared Coordinates in one such space. Partial observations and their absence statuses remain consumer inputs. For dynamics, `U.Dynamics.stateSpace` points to the declared space so a holon's change can be described as a trajectory in typed Coordinates. For epistemes, state remains governed by ESG; F-G-R are assurance coordinates, not an episteme state space.
 
 `U.CharacteristicSpace` is the declared multi-characteristic space. `CharacteristicSpacePredicate` is a reusable predicate by value, not its wording, evaluation, or result. Consumer uses remain separate from both.
 
@@ -63,6 +63,6 @@ keywords:
 
 A.19 stops after the space, predicate, optional overlays, and dynamics typing hook. Use A.19.UNM for normalization, A.19.CPM for comparison, A.19.SelectorMechanism for selection, C.16 and A.10 for measurement and evidence, and A.3.3 for dynamics.
 
-**Space-and-predicate versus consumer boundary.** A consumer reference such as `...SpaceRef` designates one declared space. A consumer use of a predicate separately identifies its subject/input and, when an evaluation is claimed, its operation and result. It binds the exact `U.ClaimScope`, relevant A.2.6 `U.ContextSlice` membership, effective reference scheme and reference plane, application or evaluation window, and partial-input conditions required for interpretation, applicability or reliance, or by the receiving pattern. Those bindings are not fields of the space or predicate. They may change while the predicate remains the same; changing the predicate's input domain or coordinate projection, Scale meaning, normalization, Boolean expression, cut or band, composition, or polarity creates a different predicate. Any obtaining semantic Bridge, its bounded-use claim and reliance, and any applicable plane relation are separately identified for the consumer use; none identifies the predicate. A.19.CPM separately governs comparison relations, comparator applications, and their results.
+**Space-and-predicate versus consumer boundary.** A consumer reference such as `...SpaceRef` designates one declared space. A consumer use of a predicate separately identifies its subject/input and, when an evaluation is claimed, its operation and result. It binds the `U.ClaimScope`, relevant A.2.6 `U.ContextSlice` membership, effective reference scheme and reference plane, application or evaluation window, and partial-input conditions required for interpretation, applicability or reliance, or by the receiving pattern. Those bindings are not fields of the space or predicate. They may change while the predicate remains the same; changing the predicate's input domain or coordinate projection, Scale meaning, normalization, Boolean expression, cut or band, composition, or polarity creates a different predicate. Any obtaining semantic Bridge, its bounded-use claim and reliance, and any applicable plane relation are separately identified for the consumer use; none identifies the predicate. A.19.CPM separately governs comparison relations, comparator applications, and their results.
 
 `A.19.ECS` constructs an evaluation `CharacteristicSpace` for an object kind under improvement. `E.21`, `E.9.DA`, `E.2.DA`, and other evaluation patterns consume declared spaces and predicates for their own evaluated objects. A.19 supplies the reusable values; those patterns supply object-specific applicability, evaluation, result, evidence-use, stop, and receiving-work semantics.

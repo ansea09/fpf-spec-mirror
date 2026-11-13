@@ -6,12 +6,12 @@ section_id: "E.8.ML:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8.ML/E.8.ML__011_architectural-rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.8.ML — Construct a Pattern Language for Connected Methods"
   - "E.8.ML:10 — Architectural Rationale"
-line_start: 97858
-line_end: 97863
+line_start: 103381
+line_end: 103388
 dependencies:
   - "A.3.2.DE"
   - "B.1.5"
@@ -26,7 +26,9 @@ keywords:
 
 ### E.8.ML:10 - Architectural Rationale
 
-A source-to-language architecture lies between source allocation and situated use. It must show how independently useful descriptions and neighboring results contribute together while preserving their different subjects. A.3.2.DE alone does not decide that whole arrangement; E.11.PFP alone does not supply its Method-specific content.
+A source-to-language architecture lies between source allocation and situated use. It must show how independently useful descriptions and neighboring results contribute together while preserving their different subjects.
+
+A.3.2.DE alone does not decide that whole arrangement; E.11.PFP alone does not supply its Method-specific content.
 
 The selected structure can be useful without an admitted composite Method or a formal CGUS. Progressive exactness lets ordinary users act from a clear result and stop while preserving a path to the stronger claims when a later use needs them.
 

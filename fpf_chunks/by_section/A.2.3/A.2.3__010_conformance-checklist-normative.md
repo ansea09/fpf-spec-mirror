@@ -6,43 +6,19 @@ section_id: "A.2.3:7"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__010_conformance-checklist-normative.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.2.3 — U.PromiseContent — Promised Outcomes and Acceptance Criteria"
   - "A.2.3:7 — Conformance Checklist (normative)"
-line_start: 5863
-line_end: 5934
+line_start: 6073
+line_end: 6153
 dependencies:
-  - "A.1.1"
-  - "A.10"
-  - "A.15.1"
-  - "A.15.2"
-  - "A.15.PROD"
-  - "A.2"
-  - "A.2.1"
   - "A.2.2"
-  - "A.2.6"
   - "A.2.8"
-  - "A.2.9"
-  - "A.3.1"
-  - "A.3.2"
-  - "A.6.1"
   - "A.6.C"
   - "A.6.P"
-  - "A.7"
-  - "B.3"
-  - "C.2.1"
   - "E.10"
   - "F.12"
-  - "F.9"
-  - "U.ClaimScope"
-  - "U.Episteme"
-  - "U.Method"
-  - "U.MethodDescription"
-  - "U.SystemRoleAssignment"
-  - "U.Work"
-  - "U.WorkPlan"
-  - "U.WorkScope"
 keywords:
   - "SLA"
   - "SLO"
@@ -64,12 +40,14 @@ In normative prose, an instance of `U.PromiseContent` SHALL be referred to as a 
 `U.PromiseContent` **IS** a consumer-facing promise-content `U.Episteme`. One or more exact `EpistemePublicationRelation` occurrences may make the same selected promise-content edition available through separately identified expressions and carriers without changing its episteme identity. Identify reusable forms when their rules matter. No expression, publication form, or presentation carrier is the promise content. `U.PromiseContent` is not a `U.System`, `U.Method`, `U.MethodDescription`, `U.Work`, or `U.WorkPlan`.
 
 **CC-A2.3-2 (Semantic locality).**
-Every promise content names its effective `ReferenceScheme`, `promisedOutcomeSpecRef`, and exact `U.ClaimScope`. A selected `BoundedModelUseStructure` may be designated only by the receiving assertion or use when it changes one actually model-local interpretation; it is neither a promise-content field nor an optional participant or identity discriminator of `PromiseContentUse`.
+Every promise content names its effective `ReferenceScheme`, `promisedOutcomeSpecRef`, and exact `U.ClaimScope`. A selected `BoundedModelUseStructure` may be designated only by the receiving assertion or use when it changes one model-local interpretation; it is neither a promise-content field nor an optional participant or identity discriminator of `PromiseContentUse`.
+
 **CC-A2.3-3 (System-role kinds stay distinct from holders and assignments).**
 `providerSystemRoleKindRef` and, when present, `consumerSystemRoleKindRef` are promise-content fields typed by `U.KindRef` and resolve to local system-role kinds. When actual provider or consumer assignments are claimed, their species are declared under `U.SystemRoleAssignment`; a kind label or reference alone identifies neither a holder nor a performer.
 
 **CC-A2.3-4 (Acceptance).**
 `acceptanceSpec` **MUST** be present and **MUST** define how delivered `U.Work` is judged as pass, fail, or a declared grade against named evaluation criteria and target values. Any SLA deontics are represented through `U.Commitment`. The promise content **MUST** declare **Claim scope (G)** where operating conditions, populations, locales, or another claim extent matter. Every verdict cites an explicit **Gamma_time** window.
+
 If the acceptance criteria mention measurable characteristics such as availability, latency, accuracy, cost, or safety, each characteristic MUST be introduced through C.16 with its scale, unit when applicable, and measurement specification under C.16:5.2. A relied-on measured verdict additionally names its supporting evidence and direct evidence relations. When a quality-family label hides several possible contributors, use C.25 to retain the one characteristic or structured bundle that the acceptance claim needs. If the reading depends on a particular measurement Method, identify that Method. Cite its `U.MethodDescription` only when the acceptance claim depends on that edition's claims. The characteristic is referenced by its exact identifier rather than by an unqualified KPI label.
 
 **CC‑A2.3‑5 (Access).**
@@ -84,6 +62,7 @@ Resource and time actuals belong to the performed `U.Work` occurrence under A.15
 
 **CC-A2.3-8 (Provider capability stays separate).**
 When delivery depends on provider ability, use the A.2.2 qualified ability claim about the provider System and the separate capability-fit predicate for the planned delivery work. Do not insert capability into promise-content identity or infer capability or fit from a system-role designation or assignment.
+
 **CC-A2.3-9 (Edition and promise-use interval).**
 A change to `content`, `promisedOutcomeSpecRef`, or `effectiveReferenceScheme` creates a new promise-content episteme edition under the C.2.1 identity rule. Each `PromiseContentUse` occurrence has one promise-content edition and one delivery-work occurrence as participants and `PromiseUseIntervalSlot` as its temporal qualifier; an untyped `version` or `timespan` entry fills none of those positions.
 
@@ -97,10 +76,13 @@ Do **not** place a promise content clause in PBS or SBS, or treat it as a part o
 Planned-work windows and calendars are content of `U.WorkPlan` (A.15.2). Performed delivery belongs to `U.Work` (A.15.1). Exact affected referents, pre-work and post-work states, and direct actual-change, production, delivery, or acceptance relations remain separate. Evidence epistemes and evidence-use relations support assertions about those facts; they are not slots or parts of the Work occurrence.
 
 **CC-A2.3-13 (Claim scope, work scope, and promise-use interval).**
-The promise-content episteme names one exact `U.ClaimScope`; an intended maximal extent is stated as that scope rather than represented by omission. The qualified ability claim about the provider separately designates its `U.WorkScope`; this work-condition basis is distinct from the episteme's ClaimScope. `PromiseUseIntervalSlot` is the temporal qualifier of each `PromiseContentUse` occurrence. The `ScopeCoverage` predicate is satisfied only when the selected context slice belongs to the claim scope. When membership depends on time, name an explicit `Gamma_time` selector and its membership boundary; retain every selector already declared in the slice even when this predicate does not inspect it. Neither temporal extent nor capability scope replaces claim scope.
+The promise-content episteme names one exact `U.ClaimScope`; an intended maximal extent is stated as that scope rather than represented by omission. The qualified ability claim about the provider separately designates its `U.WorkScope`; this work-condition basis is distinct from the episteme's ClaimScope. `PromiseUseIntervalSlot` is the temporal qualifier of each `PromiseContentUse` occurrence.
+
+The `ScopeCoverage` predicate is satisfied only when the selected context slice belongs to the claim scope. When membership depends on time, name an explicit `Gamma_time` selector and its membership boundary; retain every selector already declared in the slice even when this predicate does not inspect it. Neither temporal extent nor capability scope replaces claim scope.
 
 **CC-A2.3-14 (Scheme and scope bridges).**
-Cross-scheme reuse first names the exact obtaining F.9 Bridge occurrence. A separate current C.2.1 claim with affirmative polarity must say that this Bridge suits the named bounded promise-content use, in the stated direction, under the use-specific correspondence rule, and within the permitted-loss tolerance. Ordinary reliance requires the exact A.10 evidence-provenance relation with `RelianceDisposition=pass` for that use. Use B.3 only when an actual named assurance claim is current; its result supports, narrows, or blocks only that bounded assurance use. Cross-scope reuse separately names the mapped `U.ClaimScope` and its A.2.6 relations.
+Cross-scheme reuse first names the exact obtaining F.9 Bridge occurrence. A separate current C.2.1 claim with affirmative polarity must say that this Bridge suits the named bounded promise-content use, in the stated direction, under the use-specific correspondence rule, and within the permitted-loss tolerance. Ordinary reliance requires the exact A.10 evidence-provenance relation with `RelianceDisposition=pass` for that use. Use B.3 only when a named assurance claim is current; its result supports, narrows, or blocks only that bounded assurance use. Cross-scope reuse separately names the mapped `U.ClaimScope` and its A.2.6 relations.
+
 **CC-A2.3-15 (OutcomeSpec typing).**
 `promisedOutcomeSpecRef` MUST be a `U.EpistemeRef` resolving to an A.2.3:4.1.1 `OutcomeSpec` specification-use episteme. It MUST NOT point at a concrete `U.Work` occurrence, affected or delivered entity, actual operation-result binding, verdict episteme, or downstream effect, and `OutcomeSpec` MUST NOT be written as an independently admitted `U.OutcomeSpec`.
 
@@ -118,8 +100,11 @@ To determine whether a `U.Work` occurrence participating in `PromiseContentUse` 
 * A.10 evidence relations obtain between each relied-on satisfaction assertion and its supporting evidence epistemes.
 
 Assert delivery only after these mode-specific conditions are established. Explicitly individuate `PromisedOutcomeDeliveryRelation` only when a downstream relation or claim must refer to its occurrence identity; otherwise retain the readable `deliversPromisedOutcome(W, OS)` assertion.
+
 **CC-A2.3-18 (Acceptance evaluation supports rather than constitutes fulfilment).**
-Follow the §4.3 route: use A.13 to identify the actual evaluator and let A.15.1 admit the evaluation Work independently before saying that it enacts the Method selected in `acceptanceSpec` over the same Work facts and post-work states used to test delivery. Add F.6 only if this evaluation account must also state under which assignment the Work was performed. Cite a MethodDescription only when the claim depends on that exact edition. The actual operation application carries its argument and result bindings. Any durable verdict episteme, any identity-inception claim, and evidence-use relations remain separate. Independently established A.10 evidence relations support reliance on the fulfilment assertion; they do not constitute fulfilment.
+Follow the §4.3 route: use A.13 to identify the actual evaluator and let A.15.1 admit the evaluation Work independently before saying that it enacts the Method selected in `acceptanceSpec` over the same Work facts and post-work states used to test delivery. Add F.6 only if this evaluation account must also state under which assignment the Work was performed. Cite a MethodDescription only when the claim depends on that exact edition.
+
+The actual operation application carries its argument and result bindings. Any durable verdict episteme, any identity-inception claim, and evidence-use relations remain separate. Independently established A.10 evidence relations support reliance on the fulfilment assertion; they do not constitute fulfilment.
 
 **CC-A2.3-19 (OutcomeSpec ↔ unitOfDelivery coherence).**
 If `unitOfDelivery` is present, its counting rule states a `selectorRef` that selects only work occurrences eligible to satisfy `SC.promisedOutcomeSpecRef` in the declared mode. For a cross-promise aggregate using one occurrence, the rule states either `dedupeKeyRef` or cites the counting-policy episteme that defines the counting rule. A selector may denote work occurrences filling `FulfilmentWorkOccurrenceSlot` in obtaining `PromiseContentFulfilmentRelation` occurrences; it does not count work for which fulfilment has not been established.

@@ -6,12 +6,12 @@ section_id: "A.11.OP:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.11.OP/A.11.OP__013_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.11.OP — Decision-Relevant Least Action and Operational Parsimony: Test a Proposed Requirement"
   - "A.11.OP:12 — Relations"
-line_start: 27827
-line_end: 27838
+line_start: 28863
+line_end: 28874
 dependencies:
   - "A.10"
   - "A.11"
@@ -43,5 +43,5 @@ keywords:
 - **Coordinates with:** `A.3.1` and `A.3.2` for Method and MethodDescription identity, `A.15.1` for dated Work, and `A.15.7` for next-action choice during ongoing Work. A.11.OP governs design-time admission of the requirement.
 - **Constrained by:** applicable law and regulation, `E.5` Guard-Rails, `A.10` reliance boundaries, `B.3` assurance floors, and any other direct subject or authority pattern for the use.
 - **Consumed by:** Method Engineering and other DPFs when they decide whether domain-specific requirements or support apparatus deserve mandatory status. Those frameworks retain their domain decisions and evidence.
-- **May be specialized by:** local practice frameworks for concrete execution and assurance. Their local arrangements remain local rather than FPF authority.
+- **May be specialized by:** local practice frameworks for execution and assurance. Their local arrangements remain local rather than FPF authority.
 

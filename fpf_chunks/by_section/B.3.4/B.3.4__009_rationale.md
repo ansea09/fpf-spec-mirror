@@ -6,12 +6,12 @@ section_id: "B.3.4:8"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.4/B.3.4__009_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.3.4 — Can Earlier Evidence Still Support This Use? — Evidence Decay and Epistemic Debt"
   - "B.3.4:8 — Rationale"
-line_start: 45396
-line_end: 45401
+line_start: 47256
+line_end: 47263
 dependencies:
   - "A.10"
   - "B.3"
@@ -32,5 +32,7 @@ keywords:
 
 An earlier result can remain valid for its earlier claim while no longer supporting a changed use. Conversely, elapsed time need not defeat an unchanged premise. Maintenance therefore follows the assurance argument and its conditions.
 
-B.3's source account and [ISO/IEC/IEEE 15026-2:2022](https://www.iso.org/standard/80625.html) place maintenance with assurance cases. C.27.TA supplies the use-relative temporal qualification. This pattern adapts those distinctions to continued reliance and planning; it attributes no universal decay equation or mandatory expiry date to the standard. A validated domain deterioration model or an applicable review rule can justify a particular time-based policy and its reconsideration conditions.
+B.3's source account and [ISO/IEC/IEEE 15026-2:2022](https://www.iso.org/standard/80625.html) place maintenance with assurance cases. C.27.TA supplies the use-relative temporal qualification. This pattern adapts those distinctions to continued reliance and planning; it attributes no universal decay equation or mandatory expiry date to the standard.
+
+A validated domain deterioration model or an applicable review rule can justify a time-based policy and its reconsideration conditions.
 

@@ -6,12 +6,12 @@ section_id: "B.3:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.3 — Is This Claim Supported for This Use? — Trust and Assurance Calculus"
   - "B.3:1 — Problem frame"
-line_start: 44869
-line_end: 44881
+line_start: 46703
+line_end: 46715
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -37,14 +37,14 @@ keywords:
 
 ### B.3:1 - Problem frame
 
-Assurance concerns a claim, not the world-side subject in isolation. Begin with one exact target claim, identified by its C.2.1 episteme or `ClaimAddress` as specified in §4.2, and one named use of an assurance conclusion. The claim's EntityOfConcern remains the system, episteme, method, work occurrence, relation occurrence, or other exact subject identified by its direct pattern.
+Assurance concerns a claim, not the world-side subject in isolation. Begin with one target claim, identified by its C.2.1 episteme or `ClaimAddress` as specified in §4.2, and one named use of an assurance conclusion. The claim's EntityOfConcern remains the system, episteme, method, work occurrence, relation occurrence, or other subject identified by its pattern.
 
 For example:
 
-- a battery-pack safety fact and its direct test result remain under their safety, measurement, and test patterns;
+- a battery-pack safety fact and its test result remain under their safety, measurement, and test patterns;
 - the episteme that states the safety claim remains under C.2.1;
 - an assurance result states whether a named argument carries that claim for a named release use;
 - a later gate, permission, or release decision remains a separate result.
 
-The word **calculus** here means a disciplined way to select, combine, and interpret the inputs that the assurance argument actually consumes. B.3 defines no universal arithmetic across systems and epistemes.
+The word **calculus** here means a disciplined way to select, combine, and interpret the inputs that the assurance argument consumes. B.3 defines no universal arithmetic across systems and epistemes.
 

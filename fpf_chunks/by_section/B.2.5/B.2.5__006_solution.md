@@ -6,12 +6,12 @@ section_id: "B.2.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.5/B.2.5__006_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.2.5 — Supervisor-Subholon Feedback Relation"
   - "B.2.5:4 — Solution"
-line_start: 44673
-line_end: 44743
+line_start: 46485
+line_end: 46563
 dependencies:
   - "A.1"
   - "A.10"
@@ -43,15 +43,17 @@ keywords:
 
 ### B.2.5:4 - Solution
 
-State the feedback claim in one C.2.1 episteme about the named controller and supervised holons. A sufficient ordinary reading is: “For every drone in this set during the stated interval, controller C receives the stated observations and returns commands coupled to those observations under rule R.” Use A.6.RCD's compound-claim branch; the description does not require a new relation kind or one independently reidentifiable feedback occurrence.
+State the feedback claim in one C.2.1 episteme about the named controller and supervised holons. A sufficient reading is: “For every drone in this set during the stated interval, controller C receives the stated observations and returns commands coupled to those observations under rule R.” Use A.6.RCD's compound-claim branch; the description does not require a new relation kind or one independently reidentifiable feedback occurrence.
 
-For a nonempty set H and each h in H, recover three propositions under their direct domain definitions:
+For a nonempty set H and each h in H, recover three propositions under their domain definitions:
 
 1. **Observation:** which state of h is observed or reported to the controller, through which obtaining observation, report, publication or source relation.
 2. **Return:** which influence from the controller reaches h, under the applicable command, constraint, objective, mode or Work predicate.
 3. **Coupling:** which rule applies to this observation and return, and which facts establish that this return depends on that observation under the rule.
 
-The compound claim is true exactly when all three propositions hold for every member of H under common applicability: the same named use, participants, scope and temporal qualification. This is ordinary logical conjunction of those propositions, not a combination of probability scores or assurance results. Recover each direct definition and its applicable edition when the claim relies on it. A local use needs no separately published conjunction rule.
+The compound claim is true exactly when all three propositions hold for every member of H under common applicability: the named use, participants, scope and temporal qualification. This is logical conjunction of those propositions, not a combination of probability scores or assurance results.
+
+Recover each definition and its applicable edition when the claim relies on it. A local use needs no separately published conjunction rule.
 
 An optional note can retain the needed details:
 
@@ -72,13 +74,19 @@ SupervisorSubholonFeedbackClaim@Context:  // claim-bearing episteme, not U.Relat
   strongerClaimPatternRefs?:
 ```
 
-Observation and influence references keep their own kinds; a report episteme, a signal occurrence and a source-use relation are not interchangeable occupants of one relation position. Evidence supports the assertion under A.10; its adequacy and the obtaining of the base facts remain separate questions. A local system-role kind and assignment are added only when they independently obtain and affect this use.
+Observation and influence references keep their kinds; a report episteme, a signal occurrence and a source-use relation are not interchangeable occupants of one relation position.
+
+Evidence supports the assertion under A.10; its adequacy and the obtaining of the base facts remain separate questions. A local system-role kind and assignment are added only when they independently obtain and affect this use.
 
 #### B.2.5:4.1 - Establish and qualify the conjunction
 
-Co-present telemetry and commands are insufficient. For each pair, apply the coupling rule to the actual observation and return. An unrelated broadcast fails that condition; one-way reporting fails the two-sided predicate. If the rule is missing, return the missing governor. If the rule exists but a needed observation or dependency fact is unavailable, return missing information. Neither absence of proof alone nor an empty supervised set supports the affirmative assertion. A negative claim needs the rule's non-obtaining test and facts that satisfy it.
+Co-present telemetry and commands are insufficient. For each pair, apply the coupling rule to the observation and return. An unrelated broadcast fails that condition; one-way reporting fails the two-sided predicate.
 
-Keep the base occurrences and their own extent and continuity rules. A communication break can make an interval-qualified feedback assertion fail without ending a supervisor assignment. Reconnection requires current observation, return and coupling facts. Apply a changed policy to the affected interval; adding a holon extends the asserted set only after its own pair is supported.
+If the rule is missing, return the missing governor. If the rule exists but a needed observation or dependency fact is unavailable, return missing information. Neither absence of proof nor an empty supervised set supports the affirmative assertion. A negative claim needs the rule's non-obtaining test and facts that satisfy it.
+
+Keep the base occurrences and their extent and continuity rules. A communication break can make an interval-qualified feedback assertion fail without ending a supervisor assignment. Reconnection requires current observation, return and coupling facts.
+
+Apply a changed policy to the affected interval; adding a holon extends the asserted set only after its pair is supported.
 
 Reopen the dedicated relation-kind alternative only when a receiving use needs to identify a feedback occurrence independently across changes. That alternative must supply its obtaining, extent and continuity rules, including interruptions, under A.6.RCD and A.6.REL. A useful compound description can stop here.
 
@@ -86,7 +94,7 @@ Reopen the dedicated relation-kind alternative only when a receiving use needs t
 
 A supervised holon may be part of a larger holon, but supervision and parthood are different relations. The supervising entity must be independently admitted as `U.System`; it may supervise under a system-role assignment without being a physical part of the supervised holon. A method, policy, or review practice can structure the supervision work; it does not supervise by itself.
 
-Use `A.1` for holon recognition, `A.14` for the exact mereological claim, and `B.1` or `C.13` for the applicable construction account. Use B.2.5 for the compound supervisor-subholon feedback claim.
+Use `A.1` for holon recognition, `A.14` for the mereological claim, and `B.1` or `C.13` for the applicable construction account. Use B.2.5 for the compound supervisor-subholon feedback claim.
 
 #### B.2.5:4.3 - Acting-System Boundary
 

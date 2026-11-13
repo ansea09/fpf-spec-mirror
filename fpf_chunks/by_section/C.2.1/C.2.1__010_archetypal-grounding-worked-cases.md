@@ -6,49 +6,28 @@ section_id: "C.2.1:9"
 section_title: "Archetypal Grounding — Worked Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__010_archetypal-grounding-worked-cases.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:9 — Archetypal Grounding — Worked Cases"
-line_start: 51817
-line_end: 51893
+line_start: 53965
+line_end: 54047
 dependencies:
   - "A.1"
-  - "A.1.1"
   - "A.10"
-  - "A.14"
-  - "A.2.6"
-  - "A.22"
-  - "A.3.1"
-  - "A.3.2"
-  - "A.3.4"
   - "A.6.0"
-  - "A.6.1"
-  - "A.6.2"
-  - "A.6.3"
-  - "A.6.3.RT"
-  - "A.6.4"
   - "A.6.5"
   - "A.6.REL"
   - "A.7"
   - "B.3"
-  - "C.13"
-  - "C.2.1"
-  - "C.2.P"
   - "C.29"
   - "C.3.2"
-  - "E.10.D2"
-  - "E.13"
-  - "E.17"
   - "E.17.0"
   - "E.24.PUB"
   - "E.24.UK"
-  - "F.9"
   - "G.11"
   - "U.Episteme"
-  - "U.MethodDescription"
   - "U.Signature"
-  - "U.View"
 keywords:
 ---
 
@@ -58,7 +37,13 @@ These cases ground the pattern in practice; only a case that names an obtaining 
 
 #### C.2.1:9.1 - Physical engineering
 
-A pump-maintenance specification has a claim graph about exact pump `P` under a reference scheme that resolves part names, states, units, and measurement procedures. Those three participants identify the episteme. For test bench `B`, exact covered claim subgraph `C_B` contains the discharge-pressure-tolerance and leakage claims. Its claim-to-world mapping names the direct pressure-measurement and leakage-inspection relations involving `B`; a maintenance-interval claim outside `C_B` is not grounded by those measurements. The grounding relation over `(E,B)`, with `covered=C_B`, continues for the maximal interval during which every required mapping obtains. If that coverage continues while an evidence archive or inspection-work log becomes unavailable, only a separately governed support, warrant, confidence, or evidence-use assertion may change. A publication occurrence makes the episteme available through a rendered checklist form borne by an exact carrier. When checklist marks assert particular maintenance or inspection Work, use :4.0's Work branch; assignment attribution is added only when the checklist account requires it. When a receiving use needs a separate assertion that `P` satisfies the constructive `U.System` criterion, identify it as another episteme about `P`; renaming or republishing the governing FPF pattern does not change `P` or create its systemhood.
+A pump-maintenance specification has a claim graph about exact pump `P` under a reference scheme that resolves part names, states, units, and measurement procedures. Those three participants identify the episteme. For test bench `B`, exact covered claim subgraph `C_B` contains the discharge-pressure-tolerance and leakage claims. Its claim-to-world mapping names the direct pressure-measurement and leakage-inspection relations involving `B`; a maintenance-interval claim outside `C_B` is not grounded by those measurements.
+
+The grounding relation over `(E,B)`, with `covered=C_B`, continues for the maximal interval during which every required mapping obtains. If that coverage continues while an evidence archive or inspection-work log becomes unavailable, only a separately governed support, warrant, confidence, or evidence-use assertion may change.
+
+A publication occurrence makes the episteme available through a rendered checklist form borne by an exact carrier. When checklist marks assert particular maintenance or inspection Work, use :4.0's Work branch; assignment attribution is added only when the checklist account requires it.
+
+When a receiving use needs a separate assertion that `P` satisfies the constructive `U.System` criterion, identify it as another episteme about `P`; renaming or republishing the governing FPF pattern does not change `P` or create its systemhood.
 
 The classification assertion changes only when its own claim content or reference scheme changes. Pump continuity is judged instead under the `A.1` reidentification rule; a changed or unchanged assertion does not establish that continuity.
 

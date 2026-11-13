@@ -6,33 +6,21 @@ section_id: "C.25:16"
 section_title: "Authoring and Review Guidance"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.25/C.25__017_authoring-and-review-guidance.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.25 — Q-Bundle: Express a Quality Claim as One Characteristic or a Structured Bundle"
   - "C.25:16 — Authoring and Review Guidance"
-line_start: 65238
-line_end: 65267
+line_start: 68178
+line_end: 68207
 dependencies:
-  - "A.10"
   - "A.15"
-  - "A.16.0"
   - "A.18"
   - "A.2.6"
   - "A.6.1"
   - "B.3"
   - "C.16"
-  - "C.16.P"
   - "C.16.Q"
-  - "C.17"
-  - "C.18"
-  - "C.19"
-  - "C.2.2a"
   - "C.26.3"
-  - "C.33"
-  - "C.34"
-  - "C.35"
-  - "F.9"
-  - "F.9.1"
 keywords:
   - "admissible quality-family use"
   - "characteristic plus scope"
@@ -66,13 +54,13 @@ The schema remains available for a demanding case; it is not the authoring order
 A checking reader should ask:
 
 - whether the chosen endpoint shape is admissible,
-- whether any scope slot has been smuggled into scalar language,
+- whether any scope slot is described as a scalar,
 - whether mechanism presence has been mistaken for a metric,
-- whether the window is truly optional or actually load-bearing,
-- and whether any summary proxy is trying to replace the underlying bundle.
+- whether the window is optional or load-bearing,
+- and whether any summary proxy is being used to replace the underlying bundle.
 
 
 #### C.25:16.3 - For gate designers and assurance leads
 
-Resist a guard such as *resilience must be high*. Cite the exact quality-claim episteme or addressed claim and name only the slots the decision actually uses—for example one scope, one measure threshold, a load-bearing window, or a required mechanism. Do not require an absent slot merely because the source claim uses Q-Bundle-shaped content.
+Resist a guard such as *resilience must be high*. Cite the exact quality-claim episteme or addressed claim and name only the slots the decision uses—for example one scope, one measure threshold, a load-bearing window, or a required mechanism. Do not require an absent slot merely because the source claim uses Q-Bundle-shaped content.
 

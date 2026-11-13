@@ -6,12 +6,12 @@ section_id: "C.32.FAIL:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.FAIL/C.32.FAIL__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.32.FAIL — Architecture Failure Recognition and Repair"
   - "C.32.FAIL:3 — Forces"
-line_start: 79647
-line_end: 79656
+line_start: 83476
+line_end: 83485
 dependencies:
   - "A.10"
   - "A.13"
@@ -66,7 +66,7 @@ keywords:
 
 | Force | Tension |
 |---|---|
-| Fast recognition | Practitioners need short warning cues while the repair object is still unclear. |
+| Fast recognition | Practitioners need short warning cues while the repair object is unclear. |
 | Object recovery | Source expressions and domain habits can hide the architecture object under stress. |
 | Repair locality | The first useful repair action should change architecture handling, not open a broad audit. |
 | Neighboring claim patterns | Evidence, assurance, gate, release, selection, and decision claims may be nearby but governed elsewhere. |

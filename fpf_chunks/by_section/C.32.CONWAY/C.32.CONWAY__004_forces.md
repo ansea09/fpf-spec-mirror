@@ -6,12 +6,12 @@ section_id: "C.32.CONWAY:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.CONWAY/C.32.CONWAY__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.32.CONWAY — Architecture-Influence and Transformed-Architecture Correspondence"
   - "C.32.CONWAY:3 — Forces"
-line_start: 78201
-line_end: 78211
+line_start: 82030
+line_end: 82040
 dependencies:
   - "A.10"
   - "A.12"

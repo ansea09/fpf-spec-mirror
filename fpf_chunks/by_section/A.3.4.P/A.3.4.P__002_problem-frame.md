@@ -6,12 +6,12 @@ section_id: "A.3.4.P:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4.P/A.3.4.P__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.3.4.P — Transformation Wording Repair: Recover Objects and Claims"
   - "A.3.4.P:1 — Problem frame"
-line_start: 13347
-line_end: 13354
+line_start: 13792
+line_end: 13799
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -60,7 +60,7 @@ keywords:
 
 People talk about change with familiar labels—for example, a manufacturing process, refrigeration cycle, or team workflow. Recover the object and claim when that wording leaves an FPF-governed distinction unresolved.
 
-The recurring defect is a second ontology by convenience. The same text may treat "process" as method, work occurrence, transformation-flow structure, mechanism, result evidence, and publication diagram. A graph path may become an action route. A network label may become a durable head beside `TransformationFlowStructure`. A function word may collapse functioning, mathematical function, software routine, module allocation, a system merely named as actor, and a differently typed influence source whose direct relation has not been recovered.
+The recurring defect is a second ontology by convenience. The same text may treat "process" as method, work occurrence, transformation-flow structure, mechanism, result evidence, and publication diagram. A graph path may become an action route. A network label may become a durable head beside `TransformationFlowStructure`. A function word may collapse functioning, mathematical function, software routine, module allocation, a system merely named as actor, and a differently typed influence source whose relation has not been recovered.
 
 This pattern distinguishes the actual change, its description and any neighboring claims, then uses the subject pattern for each unresolved question.
 

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.15.11"
-pattern_title: "Make Applicable Methods Noticeable in Work"
+pattern_title: "Make Methods Noticeable in Work"
 section_id: "A.15.11:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.11/A.15.11__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.15.11 — Make Applicable Methods Noticeable in Work"
+  - "A.15.11 — Make Methods Noticeable in Work"
   - "A.15.11:3 — Forces"
-line_start: 32665
-line_end: 32675
+line_start: 34003
+line_end: 34013
 dependencies:
   - "A.15"
   - "A.15.7"

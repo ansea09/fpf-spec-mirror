@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.19.ECS"
-pattern_title: "Evaluation CharacteristicSpace Construction: Define What Counts as Better"
+pattern_title: "CharacteristicSpace Construction: Define What Counts as Better"
 section_id: "A.19.ECS:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ECS/A.19.ECS__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.19.ECS — Evaluation CharacteristicSpace Construction: Define What Counts as Better"
+  - "A.19.ECS — CharacteristicSpace Construction: Define What Counts as Better"
   - "A.19.ECS:3 — Forces"
-line_start: 35057
-line_end: 35068
+line_start: 36545
+line_end: 36556
 dependencies:
   - "A.17-A.19"
   - "C.16"

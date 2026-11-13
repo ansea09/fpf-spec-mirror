@@ -6,12 +6,12 @@ section_id: "E.18.3:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.3/E.18.3__004_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.18.3 — Constraint-Governed Transformation-Flow Unfolding Structure"
   - "E.18.3:2 — Problem"
-line_start: 111705
-line_end: 111710
+line_start: 118693
+line_end: 118700
 dependencies:
   - "A.10"
   - "A.15"
@@ -41,7 +41,9 @@ keywords:
 
 ### E.18.3:2 - Problem
 
-Transformation-flow artifacts are easy to overread. A path diagram becomes a workflow. A flow card becomes performed work. A P2W chain becomes work authorization. A graph expression becomes the whole structure. A gate, evidence path, architecture decision, or publication face becomes part of the transformation-flow ontology by visual adjacency.
+Readers can mistake a path diagram for a workflow, a flow card for performed work, a P2W chain for work authorization, or a graph expression for the whole structure. Showing a gate, evidence path, architecture decision, or publication face next to a flow can likewise suggest that it is part of the transformation-flow ontology.
 
-The repair cannot be lexical. E.18.3 qualification depends on one A.22-selected structure, its CGUS-local loci and potential topology, the correct E.18 or E.18.NET case, typed transformation subjects, flow-position mappings, and obtaining occurrences. The case- and time-indexed continuation result separately cites each candidate, its applicable test or obtaining-relation basis, case inputs, facts or evidence, dependent occurrences, window, and outcome. Description adequacy and stronger uses are separate decisions.
+Changing a label cannot establish qualification. E.18.3 qualification depends on one A.22-selected structure, its CGUS-local loci and potential topology, the correct E.18 or E.18.NET case, typed transformation subjects, flow-position mappings, and obtaining occurrences.
+
+The case- and time-indexed continuation result separately cites each candidate, its applicable test or obtaining-relation basis, case inputs, facts or evidence, dependent occurrences, window, and outcome. Description adequacy and stronger uses are separate decisions.
 

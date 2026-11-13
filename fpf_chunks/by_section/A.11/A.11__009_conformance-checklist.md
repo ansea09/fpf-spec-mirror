@@ -6,12 +6,12 @@ section_id: "A.11:3"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.11/A.11__009_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.11 — Ontological Parsimony"
   - "A.11:3 — Conformance Checklist"
-line_start: 27527
-line_end: 27537
+line_start: 28557
+line_end: 28567
 dependencies:
   - "A.6.P"
   - "A.6.RCD"
@@ -31,8 +31,8 @@ keywords:
 | --- | --- |
 | `CC-A11-1` | The candidate's governed object is recovered before parsimony is judged. |
 | `CC-A11-2` | If the candidate uses `U.*` force, `E.24.UK` is applied before F.5, F.8, or F.18 naming. |
-| `CC-A11-3` | The best existing governed expression is attempted by value. For a relation-kind candidate this includes the exact `A.6.P` / `A.6.RCD` disposition. A representation may supply evidence. A derived relation-kind candidate requires its justified stable occurrence semantics, receiving use, and direct settlement; only a primitive candidate requires A.6.RCD disposition 4's irreducibility test. Admission remains the complete governing result. |
+| `CC-A11-3` | The best existing governed expression is attempted by value. For a relation-kind candidate this includes the `A.6.P` / `A.6.RCD` disposition. A representation may supply evidence. A derived relation-kind candidate requires its justified stable occurrence semantics, receiving use, and settlement; only a primitive candidate requires A.6.RCD disposition 4's irreducibility test. Admission remains the complete governing result. |
 | `CC-A11-4` | Material loss is stated as a lost claim, lost distinction, lost boundary, or lost admissible use, not as naming discomfort. |
 | `CC-A11-5` | Strong overlap lowers or rejects the candidate unless the difference changes claims. |
-| `CC-A11-6` | The parsimony finding identifies the applicable section 2 continuation and, for a relation-kind candidate, the exact `A.6.RCD` result. Any actual U-kind admission cites the complete E.24.UK result rather than treating a continuation as admission. |
+| `CC-A11-6` | The parsimony finding identifies the applicable section 2 continuation and, for a relation-kind candidate, the `A.6.RCD` result. Any U-kind admission cites the complete E.24.UK result rather than treating a continuation as admission. |
 

@@ -6,12 +6,12 @@ section_id: "C.11.DUA:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.DUA/C.11.DUA__006_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.11.DUA — Make Advice and Evidence Demands Worth Their Burden"
   - "C.11.DUA:5 — Archetypal Grounding"
-line_start: 57936
-line_end: 58004
+line_start: 60283
+line_end: 60351
 dependencies:
   - "A.10"
   - "C.11"
@@ -93,5 +93,5 @@ The receiving use is model discrimination within the year's research program. Co
 
 **Completed advice.** “Run the four-week discriminating measurement. Under the stated model predictions, its result will eliminate or revise one explanation and inform the next instrument design. The broader survey does not presently distinguish those predictions and consumes the remaining allocation. Reconsider the measurement if instrument sensitivity cannot separate them.”
 
-The useful result sought is explanatory progress and a better basis for later research. No immediate operational intervention is needed to justify that contribution. If the sensitivity condition fails, naming it does not turn the proposed measurement into a useful experiment; revise the design or retain the unresolved models.
+The useful result sought is explanatory progress and a better basis for later research. No immediate operational intervention is needed to justify that contribution. If the sensitivity condition fails, the proposed measurement cannot distinguish the model predictions; revise the design or retain the unresolved models.
 

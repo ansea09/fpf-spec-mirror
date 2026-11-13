@@ -6,12 +6,12 @@ section_id: "C.27.TA:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27.TA/C.27.TA__002_use-this-when.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.27.TA — Temporal Aspect: Time Windows, Rhythm, Cadence, and Currentness"
   - "C.27.TA:0 — Use This When"
-line_start: 67436
-line_end: 67470
+line_start: 70494
+line_end: 70530
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -45,7 +45,7 @@ keywords:
 
 ### C.27.TA:0 - Use This When
 
-Use this pattern when a project needs to state a positive temporal-aspect claim about one exact object or exact claim—for example, its time window, cadence, freshness, recovery timing, or currentness.
+Use this pattern when a project needs to state a positive temporal-aspect claim about one object or claim—for example, its time window, cadence, freshness, recovery timing, or currentness.
 
 Use it when the working question is:
 
@@ -54,15 +54,17 @@ Use it when the working question is:
 - which temporal reference makes the statement reviewable: calendar time, clock time, event order, cycle, sprint, epoch, release train, sampling interval, follow-up interval, or domain-local timing reference; and
 - whether the property is merely stated, measured, used in a temporal claim, used in a transformation claim, or used in a work, evidence, or decision relation.
 
-**Primary EntityOfConcern.** The `EntityOfConcern` is the independently identified bearer or exact claim being qualified. A temporal label such as *cadence*, *freshness*, or *recovery timing* is a predicate or qualifier in the ClaimGraph; it is not a second entity.
+**Primary EntityOfConcern.** The `EntityOfConcern` is the independently identified bearer or claim being qualified. A temporal label such as *cadence*, *freshness*, or *recovery timing* is a predicate or qualifier in the ClaimGraph; it is not a second entity.
 
-**C.2.1 and publication boundary.** A materialized temporal-aspect statement is ClaimGraph content in one `C.2.1` episteme whose effective ReferenceScheme makes the temporal terms interpretable. Changing that claim content identifies another episteme. A changed layout, publication occurrence, form, or carrier can leave the episteme unchanged; those publication objects remain separate under `E.24.PUB` when availability matters. When the claim depends on another direct relation, cite that relation's exact declaration or independently established occurrence. A PatternID remains an ordinary rule citation and is never a relation reference.
+**C.2.1 and publication boundary.** A materialized temporal-aspect statement is ClaimGraph content in one `C.2.1` episteme whose effective ReferenceScheme makes the temporal terms interpretable. Changing that claim content identifies another episteme. A changed layout, publication occurrence, form, or carrier can leave the episteme unchanged; those publication objects remain separate under `E.24.PUB` when availability matters.
+
+When the claim depends on another direct relation, cite that relation's declaration or independently established occurrence. A PatternID remains an ordinary rule citation and is never a relation reference.
 
 **First useful move.** Identify the bearer or claim, state its temporal property, and supply the reference and extent needed to interpret it. An observed cadence needs the period observed; a general ordering rule can instead name the event types and their relative order.
 
 **First result.** `CheckoutSystem-1 had a weekly release cadence during release train R14.` This is enough when the receiving action needs no further distinction. Stop there.
 
-Open the fuller statement only when the receiving use also depends on measurement, an exact scheme or scope, a selected Structure, a source or use boundary, currentness, reopen conditions, coupling, another direct relation, or an explicit rule citation or blocked overread.
+Open the fuller statement only when the receiving use also depends on measurement, a scheme or scope, a selected Structure, a source or use boundary, currentness, reopen conditions, coupling, another direct relation, or an explicit rule citation or blocked overread.
 
 **What goes wrong if missed.** A cadence has no bearer, a currentness claim has no reference date, or a recovery estimate omits its starting event. Readers then cannot tell which temporal claim could support the receiving action.
 

@@ -6,12 +6,12 @@ section_id: "A.15.1:14"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__018_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.15.1 — U.Work: Dated Performed Work Occurrence"
   - "A.15.1:14 — Relations"
-line_start: 29727
-line_end: 29732
+line_start: 30805
+line_end: 30810
 dependencies:
   - "A.1"
   - "A.10"
@@ -56,7 +56,7 @@ keywords:
 
 ### A.15.1:14 - Relations
 
-* **Builds on:** A.1 for the candidate occurrence's common constructive criterion and exact System admission; A.2 for local agential system-role kinds and classification; A.2.1 for direct assignment species and occurrences; A.13 for the precise agency claim, characteristic profile, scope, window, and evidence; A.3.1 for `U.Method`; A.3.2 for `U.MethodDescription`; C.2.1 for episteme editions and effective reference scheme; A.2.6 for claim scope; and C.27.TA for temporal qualification.
+* **Builds on:** A.1 for the candidate occurrence's common constructive criterion and System admission; A.2 for local agential system-role kinds and classification; A.2.1 for direct assignment species and occurrences; A.13 for the precise agency claim, characteristic profile, scope, window, and evidence; A.3.1 for `U.Method`; A.3.2 for `U.MethodDescription`; C.2.1 for episteme editions and effective reference scheme; A.2.6 for claim scope; and C.27.TA for temporal qualification.
 * **Coordinates with:** F.6 for attribution through the same obtaining A.13 assignment; A.15 for alignment; A.6.1 for actual bindings; A.3.4 for actual Transformations; A.15.PROD for production and inception; B.1.4 and B.1.6 for aggregation; E.10/E.10.ROLE for Agent, performer, and role wording; A.10, B.3, E.17, and A.15.4 for evidence, assurance, publication-use, and appearance-based reliance; A.15.5 for readiness; and C.32.P2S for carry-through. Permission, gate, result, production, delivery, and acceptance remain independent of Work identity.
 * **Informs:** reporting and KPI patterns, assurance and evidence patterns that use Work as the reference occurrence, and planning patterns that compare exact `U.WorkPlan` claims with independently identified Work occurrences.
 

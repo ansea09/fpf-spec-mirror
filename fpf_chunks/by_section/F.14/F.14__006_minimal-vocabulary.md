@@ -6,12 +6,12 @@ section_id: "F.14:5"
 section_title: "Minimal vocabulary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__006_minimal-vocabulary.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.14 — Anti-Explosion Control for System-Role and Status Name Families"
   - "F.14:5 — Minimal vocabulary"
-line_start: 123140
-line_end: 123150
+line_start: 130938
+line_end: 130948
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -53,7 +53,7 @@ keywords:
 * **Anti-explosion control pass** — one bounded review of related candidate expressions before durable naming objects are added.
 * **Candidate name family** — proposed expressions that appear to designate related values or relations.
 * **Recovered governed value** — the exact typed value or relation the expression is trying to designate, under its direct pattern.
-* **Naming use** — the exact reader or practitioner action for which the expression is being considered.
+* **Naming use** — what the reader or practitioner proposes to do with the expression.
 * **Light disposition** — no durable name, existing designation, alias, local expression, or existing row reuse.
 * **System-role-kind relation expression** — an expression designating an exact A.2.7 substitution, incompatibility, qualification, or bundle relation rather than another local system-role kind.
 * **Status-family expression** — an expression for a status family, value, window, confidence claim, or status-use relation defined under F.10 or a direct status pattern.

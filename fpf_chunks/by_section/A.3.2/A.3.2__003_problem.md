@@ -6,12 +6,12 @@ section_id: "A.3.2:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2/A.3.2__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.3.2 — U.MethodDescription: Description Episteme for a Way of Doing"
   - "A.3.2:2 — Problem"
-line_start: 11494
-line_end: 11504
+line_start: 11897
+line_end: 11907
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -54,7 +54,7 @@ keywords:
 
 ### A.3.2:2 - Problem
 
-Without a precise `U.MethodDescription` distinction, projects collapse several different claims:
+Without the `U.MethodDescription` distinction, projects collapse several different claims:
 
 1. **Description as run.** A flowchart, repository, executable, lab protocol, or solver file is treated as if it were the dated work occurrence.
 2. **Description as method semantics.** A notation or file is treated as the method itself, so equivalent descriptions look like competing methods and different methods can hide behind one document name.

@@ -6,12 +6,12 @@ section_id: "G.2:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.2/G.2__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.2 — Harvest and Synthesize SoTA for a CG-Frame"
   - "G.2:intro — Intro"
-line_start: 127679
-line_end: 127698
+line_start: 135729
+line_end: 135748
 dependencies:
   - "A.10"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
@@ -54,7 +54,7 @@ keywords:
 
 > **Type:** Architectural (A)
 > **Status:** Stable
-> **Normativity:** Normative *(unless explicitly marked informative)*
+> **Normativity:** Normative *(unless marked informative)*
 >
 > **Purpose.** Provide a repeatable, auditable way to **discover**, **triage**, and **synthesize** state‑of‑the‑art (SoTA) across competing `Tradition` lineages for CHR/CAL/LOG authoring and method selection in a `CG‑Frame`.
 >
@@ -68,5 +68,5 @@ keywords:
 >
 > **Scope note.** This pattern **governs** the harvesting + synthesis *generator* in Part G. Use **G.10** to ship the pack and **G.11** to orchestrate refresh.
 >
-> **Terminology note (normative).** In normative clauses below, **`Tradition`** refers to the *Tech* token `Tradition` (a plural lineage with internally coherent commitments). Plain “tradition” is allowed only as a 1:1 synonym.
+> **Terminology (normative).** The Tech token `Tradition` denotes a plural lineage with internally coherent commitments. Normative clauses may use the Plain term “tradition” only for that same meaning (1:1).
 

@@ -6,12 +6,12 @@ section_id: "F.1:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.1/F.1__011_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.1 — Find and Select Sources for a Current Question"
   - "F.1:10 — Rationale"
-line_start: 119001
-line_end: 119009
+line_start: 126600
+line_end: 126608
 dependencies:
   - "A.10"
   - "A.7"
@@ -35,7 +35,7 @@ keywords:
 ### F.1:10 - Rationale
 
 
-Finding is useful when the question and the source's wording do not yet meet. An exact address or lexical lookup is sufficient when it reaches the needed content. Variants and complementary routes earn their extra cost by exposing material that the first route could miss. Restoring the original conditions during inspection prevents broader discovery from changing the question. Returning source context and actual access prevents a compact finding aid from supplying claims it never showed.
+Finding is useful when the question and the source's wording do not yet meet. An exact address or lexical lookup is sufficient when it reaches the needed content. Variants and complementary routes earn their extra cost by exposing material that the first route could miss. Restoring the original conditions during inspection prevents broader discovery from changing the question. State what the reader could inspect and return the passage in context so the receiver can tell which claims it supports.
 
 The receiving question determines which source differences matter. A source belongs in the active cut when an inspected claim can change the answer, expose a rival or counterexample, or mark where transfer fails.
 

@@ -6,12 +6,12 @@ section_id: "C.26.2:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.2/C.26.2__010_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.26.2 — Enacted Distributed State Evidence"
   - "C.26.2:9 — Consequences"
-line_start: 66573
-line_end: 66578
+line_start: 69577
+line_end: 69582
 dependencies:
   - "A.10"
   - "A.15"
@@ -37,7 +37,7 @@ keywords:
 
 ### C.26.2:9 - Consequences
 
-This pattern lets FPF discuss enacted collective states. It gives authors a disciplined way to use traces, routines, coordinated work, and export loss in one minimal claim.
+This pattern lets FPF discuss enacted collective states. It gives authors a way to use traces, routines, coordinated work, and export loss in one minimal claim.
 
-The cost is that many attractive claims become narrower. Minimal evidence-bound claims are often more useful than confident but ungrounded stories.
+The cost is that many claims become narrower. Minimal evidence-bound claims are often more useful than confidently asserted claims that lack support.
 

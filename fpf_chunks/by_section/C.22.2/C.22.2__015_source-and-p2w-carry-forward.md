@@ -6,12 +6,12 @@ section_id: "C.22.2:14"
 section_title: "Source and P2W Carry-Forward"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__015_source-and-p2w-carry-forward.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:14 — Source and P2W Carry-Forward"
-line_start: 64118
-line_end: 64141
+line_start: 66862
+line_end: 66885
 dependencies:
   - "A.10"
   - "A.15"
@@ -62,7 +62,7 @@ Apply the following source details as constraints on `C.22.2` use and its P2W-fa
 
 | Source detail | Current FPF recovery | `C.22.2` carry-forward relation |
 |---|---|---|
-| Source examples: person, team, organization, System, community, episteme, and exact Work | Recognition material for the EntityOfConcern or exact A.15.6 Work when it changes problem-card use; not a new FPF kind taxonomy | A domain or practice locus may qualify the effective ReferenceScheme, ClaimScope, horizon, indicators, cost of error, the exact system-role kind or assignment, participation, viewpoint, or comparison, but it neither constitutes the card nor identifies an actual Problem. |
+| Source examples: person, team, organization, System, community, episteme, and Work | Recognition material for the EntityOfConcern or A.15.6 Work when it changes problem-card use; not a new FPF kind taxonomy | A domain or practice locus may qualify the effective ReferenceScheme, ClaimScope, horizon, indicators, cost of error, the exact system-role kind or assignment, participation, viewpoint, or comparison, but it neither constitutes the card nor identifies an actual Problem. |
 | Engineering language for reproducibility and management language for coordination, rights, resources, and responsibility | Verification and reproducibility, coordination, right, resource, system-role classification or assignment, participation, and responsibility claims are different FPF relations | `C.22.2` may retain bare *role* only as an E.10.ROLE cue; any exact kind, assignment, participation, budget, right, or responsibility field or relation reference follows its direct pattern. Claims outside the problem-side record stay there. |
 | Problem factory, solution factory, and factory-of-factories | Source exposition for three related work families, not FPF process kinds | `C.22.2` covers only the problem-side output. Solution and P2W relations use `G.5`, `A.15`, `E.18`, `A.10`, `G.6`, `B.3`, `A.21`, `E.16`, and `G.11`; organizational-development or platform-capability questions are outside this pattern. |
 | Characterization protocol: ReferenceScheme, ClaimScope or slice, compared set, exact system-role-kind, assignment, participation, or viewpoint qualification, scale, polarity, measurement Method, freshness, repeatability, budget, missing data, and comparison rules | `C.16`, `A.19`, `C.25`, `G.9`, and the exact qualification pattern | `ProblemCard` cites characterization, qualification, and comparability relations when current; available measurement or a visible label alone is not an accepted use relation. |
@@ -78,5 +78,5 @@ Apply the following source details as constraints on `C.22.2` use and its P2W-fa
 | Runbook, rollback plan, canary, SafeStop, error budget, and override protocol | Work, gate, autonomy, evidence, and control records | These source forms are not `C.22.2` subobjects; apply `A.15`, `A.21`, `E.16`, `A.10`, `G.6`, or `B.3` when the corresponding claim is current. |
 | Trust debt after reliance-window expiry | Freshness and decay indicator and bounded-risk continuation question | Treat trust debt as an indicator or problem-formulation follow-up reason, not as punishment, proof failure, or gate passage by itself. |
 
-`C.22.2` remains the problem-side output. P2W carries its problem-side cues and, when current, exact receiving-use and Work references into method-family selection, work planning, performed-work interpretation, and result measurement.
+`C.22.2` remains the problem-side output. P2W carries its problem-side cues and, when current, receiving-use and Work references into method-family selection, work planning, performed-work interpretation, and result measurement.
 

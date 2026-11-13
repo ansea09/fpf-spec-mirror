@@ -6,12 +6,12 @@ section_id: "C.32.ADA:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ADA/C.32.ADA__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.32.ADA — Architecture Decision Adequacy Scales"
   - "C.32.ADA:7 — Conformance Checklist"
-line_start: 80598
-line_end: 80612
+line_start: 84427
+line_end: 84441
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -66,6 +66,6 @@ keywords:
 | `CC-ADA-6` | Weak coordinates name repair pattern refs and repair instructions. |
 | `CC-ADA-7` | Evidence, assurance, gate, measurement, eval, publication, Method, Work and pattern-quality claims retain their distinct meanings and applicable definitions or tests; exact ClaimGraph identity is cited when the claim or reliance needs it. |
 | `CC-ADA-8` | A project-local ADA record names both `projectWorkOccurrenceRef` and `architectureDecisionEvaluationProjectUseRelationRef`; the evaluated decision's relation, the suffix, or either field alone asserts no locality. |
-| `CC-ADA-9` | A local evaluator kind and a System-classification judgment use separate optional refs and neither requires an assignment. A claim about a particular dated evaluation Work occurrence first recovers the evaluator through A.13 and names independently admitted A.15.1 Work. Ordinary evaluation still retains the operation, material conditions and support needed for its result. Assignment species, occurrence, and F.6 refs are optional and appear only when the ADA record or receiving use expressly represents precise assignment-bound attribution; a missing or failed F.6 relation alone leaves independently admitted Work intact, with any questioned admission premise rechecked as above. An operation application and result episteme remain separate. Keep those objects and relations distinct, preserving the admission dependencies stated above; a label or record does not establish the other facts. |
+| `CC-ADA-9` | A local evaluator kind and a System-classification judgment use separate optional refs and neither requires an assignment. A claim about a particular dated evaluation Work occurrence first recovers the evaluator through A.13 and names independently admitted A.15.1 Work. Ordinary evaluation retains the operation, material conditions and support needed for its result. Assignment species, occurrence, and F.6 refs are optional and appear only when the ADA record or receiving use represents precise assignment-bound attribution; a missing or failed F.6 relation alone leaves independently admitted Work intact, with any questioned admission premise rechecked as above. An operation application and result episteme remain separate. Keep those objects and relations distinct, preserving the admission dependencies stated above; a label or record does not establish the other facts. |
 | `CC-ADA-10` | Each evaluation binds its exact claim scope, relevant context slices and reference scheme, preserving every declared selector and any plane, time qualification or input projection required by the judgement or receiving use. The declared-use label and coordinate table do not replace those conditions. |
 

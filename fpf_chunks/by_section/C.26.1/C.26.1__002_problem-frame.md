@@ -6,12 +6,12 @@ section_id: "C.26.1:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.1/C.26.1__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.26.1 — Probe-Coupled Boundary Interaction"
   - "C.26.1:1 — Problem frame"
-line_start: 65995
-line_end: 66014
+line_start: 68983
+line_end: 69002
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -40,7 +40,7 @@ keywords:
 
 ### C.26.1:1 - Problem frame
 
-Use this pattern when a boundary read, meeting, metric, API read, dashboard, workshop, survey or message is used as evidence of state, and a possible effect of that interaction on the reported state could change the decision. Recover which state the output actually supports before deciding whether the read is passive, probe-coupled, or unresolved.
+Use this pattern when a boundary read, meeting, metric, API read, dashboard, workshop, survey or message is used as evidence of state, and a possible effect of that interaction on the reported state could change the decision. Recover which state the output supports before deciding whether the read is passive, probe-coupled, or unresolved.
 
 The useful move is to recover what the interaction read, what it changed and which state its output can support. That ordinary result can finish the use. Add QL only under the separate C.26 activation test.
 

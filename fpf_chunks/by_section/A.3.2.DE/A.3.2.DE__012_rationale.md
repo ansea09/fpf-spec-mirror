@@ -6,12 +6,12 @@ section_id: "A.3.2.DE:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2.DE/A.3.2.DE__012_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.3.2.DE — Describe a Method for Its Intended Use"
   - "A.3.2.DE:10 — Rationale"
-line_start: 11935
-line_end: 11940
+line_start: 12352
+line_end: 12357
 dependencies:
   - "A.3.2"
   - "C.37"
@@ -22,7 +22,7 @@ keywords:
 
 ### A.3.2.DE:10 - Rationale
 
-Description adequacy is use-relative, while MethodDescription membership is not. Separating those questions allows a small episteme to describe an admitted Method without pretending to satisfy every receiver. It also lets a rich candidate account remain prospectively useful without turning description quality into Method identity.
+Description adequacy is use-relative, while MethodDescription membership is not. Separating those questions lets a small episteme describe an admitted Method, with adequacy assessed for each receiving use. It also lets a rich candidate account remain prospectively useful without turning description quality into Method identity.
 
 The claim-first order prevents representation and publication choices from selecting ontology.
 

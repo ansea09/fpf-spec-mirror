@@ -6,12 +6,12 @@ section_id: "B.2:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2/B.2__008_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.2 — Meta-Holon Transition - Whole Reidentification"
   - "B.2:6 — Bias-Annotation"
-line_start: 43632
-line_end: 43641
+line_start: 45390
+line_end: 45399
 dependencies:
   - "A.1"
   - "A.10"
@@ -53,6 +53,6 @@ keywords:
 | Emergence rhetoric | A gain, surprise, or synergy label declares a new whole. | Perform B.2's existing-whole comparison before declaring a new whole. |
 | Record as ontology | Trigger profiles, result fields, or checklist labels become U-kinds. | Keep the trigger profile, optional explanation result, and reidentification record as `U.Episteme` values; keep the ordinary comparison as an action. Let `E.24.UK` handle public-kind admission and A.1 recognize the candidate new whole. |
 | Math as MHT | Graph, RG-like, MSPD, benchmark, scaling, or morphism expression declares whole reidentification. | Recover the holon identity claim and its grounds; use `C.29` for a remaining representation-choice, transfer or reliance question. Begin B.2 with the existing-whole comparison. |
-| Binary agency | Agency threshold crossing is treated as a root kind or binary status. | Use the direct characteristic-space and threshold patterns; use B.2 when the threshold claim raises a consequential whole-reidentification question. |
-| Transformation as containment | A system changes another holon and is treated as its part or containing whole without a separately obtaining part-whole relation. | Use A.12, A.3.4, A.15.1, and the direct crossing relation pattern; apply B.2 only when separately grounded facts make whole reidentification current. |
+| Binary agency | Agency threshold crossing is treated as a root kind or binary status. | Use the characteristic-space and threshold patterns; use B.2 when the threshold claim raises a consequential whole-reidentification question. |
+| Transformation as containment | A system changes another holon and is treated as its part or containing whole without a separately obtaining part-whole relation. | Use A.12, A.3.4, A.15.1, and the crossing relation pattern; apply B.2 only when separately grounded facts make whole reidentification current. |
 

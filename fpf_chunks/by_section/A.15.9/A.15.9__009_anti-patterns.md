@@ -6,12 +6,12 @@ section_id: "A.15.9:8"
 section_title: "Anti-patterns"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.9/A.15.9__009_anti-patterns.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.15.9 — Use or Request a Bounded Result from Another Practice"
   - "A.15.9:8 — Anti-patterns"
-line_start: 32402
-line_end: 32412
+line_start: 33724
+line_end: 33734
 dependencies:
   - "A.10"
   - "A.13"
@@ -37,6 +37,6 @@ keywords:
 - **Receiver takeover.** The request dictates the supplier's Method or rewrites the professional conclusion to fit the desired decision.
 - **Supplier takeover.** Supplying one result is treated as making the receiver's decision.
 - **One contribution account as ontology.** Request, assignment, Work, communication, result, evidence, acceptance, and authority become fields of one invented world-side object.
-- **Tool exceptionalism.** AI output is either accepted by fluency or rejected by species rather than assessed under the same direct result, evidence, Work, and authority rules.
+- **Tool exceptionalism.** AI output is either accepted by fluency or rejected by species rather than assessed under the same result, evidence, Work, and authority rules.
 - **Local change, global reopen.** One changed source or condition forces every contribution and decision to be repeated.
 

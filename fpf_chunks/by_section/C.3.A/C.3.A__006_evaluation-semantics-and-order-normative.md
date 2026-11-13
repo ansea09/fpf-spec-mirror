@@ -6,12 +6,12 @@ section_id: "C.3.A:5"
 section_title: "Evaluation semantics and order (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.A/C.3.A__006_evaluation-semantics-and-order-normative.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.3.A — Typed Guard Macros for Kinds + USM (Annex)"
   - "C.3.A:5 — Evaluation semantics and order (normative)"
-line_start: 56350
-line_end: 56363
+line_start: 58660
+line_end: 58675
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -33,15 +33,17 @@ keywords:
 
 ### C.3.A:5 - Evaluation semantics and order (normative)
 
-**E-01 (Order).** Recover exact declarations and kind compatibility first; check Scope coverage second; when the receiving action is candidate-bearing, check admissibility and evaluate the exact candidate judgment only for an admissible request; then apply R consequences, freshness, and policy thresholds before the separate action disposition. When composing macros, reuse checks whose inputs and receiving use are unchanged, and apply the same justified bridge consequence only once on the receiving R path.
+**E-01 (Order).** Recover exact declarations and kind compatibility first; check Scope coverage second; when the receiving action is candidate-bearing, check admissibility and evaluate the candidate judgment only for an admissible request; then apply R consequences, freshness, and policy thresholds before the separate action disposition.
+
+When composing macros, reuse checks whose inputs and receiving use are unchanged, and apply the same justified bridge consequence only once on the receiving R path.
 
 **E-02 (Determinism).** With fixed candidates when any, kind/signature editions, slices, bridge/assertion editions, dependencies, and time selectors, the judgments and guard predicates MUST be reproducible. Implicit “latest” is forbidden.
 
-**E-03 (Admissibility and three values).** Every current C.3.2 or C.3.4 classification consumed by a guard MUST retain `true`, `false`, or `unknown`. Keep `not-applicable` outside the classification range. Missing evidence or an unavailable declared dependency in an admissible evaluation MUST NOT be coerced to `false`.
+**E-03 (Admissibility and three values).** Every C.3.2 or C.3.4 classification consumed by a guard MUST retain `true`, `false`, or `unknown`. Keep `not-applicable` outside the classification range. Missing evidence or an unavailable declared dependency in an admissible evaluation MUST NOT be coerced to `false`.
 
 **E-04 (Fail-closed without truth rewrite).** A required check returning `false`, `unknown`, or `not-applicable`, a missing declaration, non-obtaining relation, unavailable bridge assertion, or uncovered Scope causes refusal. The refusal is not itself a classification value or an assertion that the relevant world-side relation fails to obtain.
 
-**E-05 (Bridge composition and consequence).** Apply C.3.3:KB-10 to a relied-on chain. Establish joint definedness and preservation of the source distinctions needed by the receiving use from its actual mappings and intermediate interpretations. A minimum of comparable link ranks is a link summary, not that preservation result. The receiving R path records each relied-on bridge and assertion and applies only its justified consequences; neither F nor G nor a judgment value is modified.
+**E-05 (Bridge composition and consequence).** Apply C.3.3:KB-10 to a relied-on chain. Establish joint definedness and preservation of the source distinctions needed by the receiving use from its mappings and intermediate interpretations. A minimum of comparable link ranks is a link summary, not that preservation result. The receiving R path records each relied-on bridge and assertion and applies only its justified consequences; neither F nor G nor a judgment value is modified.
 
 **E-06 (Predicate separation).** Declaration compatibility, candidate admissibility, candidate classification, Scope coverage, evidence freshness, bridge applicability, capability fit, and action disposition SHALL remain separately inspectable predicates.
 

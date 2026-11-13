@@ -6,12 +6,12 @@ section_id: "A.19:0"
 section_title: "First use: declare a space and one predicate"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19/A.19__002_first-use-declare-a-space-and-one-predicate.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.19 — CharacteristicSpace: Coordinates, State Predicates and Dynamics Hook (A.CHR‑SPACE)"
   - "A.19:0 — First use: declare a space and one predicate"
-line_start: 34610
-line_end: 34640
+line_start: 36090
+line_end: 36120
 dependencies:
   - "A.10"
   - "A.15"
@@ -52,7 +52,7 @@ keywords:
 
 Declare which Characteristics form the space. Add a reusable predicate when the receiving use needs to test a condition on a state in that space.
 
-**First move.** Name the `CharacteristicSpace` and list its slots. Each slot names one Characteristic, its subject or input roles, and one Scale with its admissible values. Add order, topology, distance, or a mapping only when a real use needs it.
+**First move.** Name the `CharacteristicSpace` and list its slots. Each slot names one Characteristic, its subject or input roles, and one Scale with its admissible values. Add order, topology, distance, or a mapping only when a use needs it.
 
 **Smallest complete case.** A pump team declares `PumpOperatingSpace` with two slots:
 
@@ -65,7 +65,7 @@ For Pump #37, the available tuple of Coordinates is `(72 °C, 315 kPa)`. The reu
 
 > `ready(x) := 60 °C <= x.coolantTemperature <= 80 °C and x.dischargePressure >= 300 kPa`.
 
-For this tuple, `ready(x)` is true. That is the practical result: a reader can recover the two meanings, inspect the current input, and repeat the test. The declaration does not by itself claim that the readings are current, authorize work, or pass a gate.
+For this tuple, `ready(x)` is true. That is the result: a reader can recover the two meanings, inspect the input, and repeat the test. The declaration does not by itself claim that the readings are current, authorize work, or pass a gate.
 
 **Add only what the next use needs.**
 
@@ -73,9 +73,9 @@ For this tuple, `ready(x)` is true. That is the practical result: a reader can r
 - Use A.19.UNM for normalization, A.19.UINDM for indicator choice, A.19.USCM for scoring, A.19.ULSAM for scale aggregation, A.19.CPM for comparison, and A.19.SelectorMechanism for selection. Use B.1 for a separate holonic-composition claim. G.0 checks whether the numeric operation is admissible.
 - Use A.3.3 when the space types a dynamics model.
 - Use A.19.CHR when a characterization task needs shared suite contracts; add A.15.3 for typed planned fillings of independently declared positions, and E.18 when the selected flow structure is needed. Use E.20 when an FPF change introduces or revises mechanism or suite semantics or their governing definitions.
-- Use the direct evaluation, gate, evidence, or assurance pattern for that separate use.
+- Use the evaluation, gate, evidence, or assurance pattern for that separate use.
 
 If none of those questions is current, stop with the space and predicate above.
 
-**Boundary.** A.19 defines the space and reusable predicate. A subject binding, partial observation, evaluation, result, comparison, gate, evidence use, view, or publication remains a separate value or occurrence under its direct pattern.
+**Boundary.** A.19 defines the space and reusable predicate. A subject binding, partial observation, evaluation, result, comparison, gate, evidence use, view, or publication remains a separate value or occurrence under its pattern.
 

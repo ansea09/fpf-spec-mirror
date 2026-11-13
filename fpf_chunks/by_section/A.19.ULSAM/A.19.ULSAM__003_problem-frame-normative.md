@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.19.ULSAM"
-pattern_title: "Unified Lawful Scale Aggregation Mechanism (ULSAM)"
+pattern_title: "Unified Lawful Scale Aggregation Mechanism"
 section_id: "A.19.ULSAM:1"
 section_title: "Problem frame (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ULSAM/A.19.ULSAM__003_problem-frame-normative.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.19.ULSAM — Unified Lawful Scale Aggregation Mechanism (ULSAM)"
+  - "A.19.ULSAM — Unified Lawful Scale Aggregation Mechanism"
   - "A.19.ULSAM:1 — Problem frame (normative)"
-line_start: 38520
-line_end: 38528
+line_start: 40057
+line_end: 40065
 dependencies:
   - "A.19.CPM"
   - "A.19.SelectorMechanism"
@@ -25,7 +25,7 @@ keywords:
   - "fold_Γ?"
   - "lawful aggregation"
   - "scale-lawful fold"
-  - "tri-state guard (pass"
+  - "tri-state guard (pass\\"
   - "ΓFoldRef"
 ---
 
@@ -36,5 +36,5 @@ Within CHR, teams frequently need an **explicit aggregation step** (Γ‑fold) t
 - leak into selection (“the selector silently computes a scalar”),
 - become an “implementation default” rather than a declared policy,
 - violate scale lawfulness (especially via ordinal arithmetic or unit-mixing),
-- become unauditable (“what exactly got folded, and under what evidence posture?”).
+- become unauditable (“what got folded, and under what evidence posture?”).
 

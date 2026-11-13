@@ -6,12 +6,12 @@ section_id: "E.10.DEV:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.DEV/E.10.DEV__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.10.DEV — Recovering What Development or Evolution Means in the Current Claim"
   - "E.10.DEV:1 — Problem Frame"
-line_start: 101004
-line_end: 101009
+line_start: 106660
+line_end: 106665
 dependencies:
   - "A.15"
   - "A.2.2"
@@ -36,7 +36,7 @@ keywords:
 
 ### E.10.DEV:1 - Problem Frame
 
-The same umbrella wording is used for unlike subjects. For example, a person develops a capability; an organization changes its working arrangement; an organism matures; a population evolves through membership and lineage relations; a model predicts a state history; an engineering search changes an archive or front; and a practitioner proposes a development programme. The claims may share readable language while differing in identity, evidence, method, and practical operation.
+The same umbrella wording is used for unlike subjects. For example, a person develops a capability, an organization changes its working arrangement, and an organism matures. A population evolves through membership and lineage relations. A model predicts a state history, an engineering search changes an archive or front, and a practitioner proposes a development programme. The claims may share readable language while differing in identity, evidence, method, and practical operation.
 
 The repair should make the first useful subject claim visible. It preserves the source word when useful and returns each substantive question to the pattern that owns it.
 

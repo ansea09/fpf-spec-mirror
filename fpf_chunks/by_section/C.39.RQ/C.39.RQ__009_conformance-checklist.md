@@ -6,12 +6,12 @@ section_id: "C.39.RQ:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.RQ/C.39.RQ__009_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.39.RQ — Construct Situated Method Requirements"
   - "C.39.RQ:7 — Conformance Checklist"
-line_start: 84488
-line_end: 84503
+line_start: 88691
+line_end: 88706
 dependencies:
   - "A.3.1"
   - "C.11"
@@ -27,11 +27,11 @@ Apply these questions to the criteria being established or appraised and to the 
 
 - [ ] The criteria name a situation family, receiving Work/result, decision level, scope, window, variations, and exclusions.
 - [ ] Required Method contributions are stated before candidate assignment.
-- [ ] Every criterion names its actual subject or relation rather than hiding it under “method fit”.
+- [ ] Every criterion names its subject or relation rather than hiding it under “method fit”.
 - [ ] Method/account content, MethodDescription, performer capability, responsibility, support/access, covering Work assignment, permission relation, decision-authority relation, performed Work, decision result, culture, and receiving-result claims remain distinct.
 - [ ] Capability, assignment, permission, and decision authority imply none of one another; an assignment or authority relation does not prove performed Work or its decision result.
 - [ ] Allowable variation and non-negotiable conditions are explicit.
-- [ ] When a criterion's justification is disputed, the recommendation compares its actual protective contribution and burden and distinguishes that judgement from current force and the feasible amendment route.
+- [ ] When a criterion's justification is disputed, the recommendation compares its protective contribution and burden and distinguishes that judgement from current force and the feasible amendment route.
 - [ ] Every burden limit names its participant, Work scope, applicable time window, bound and basis, and how satisfaction can be determined. A measured burden retains its measurement method and conditions; a stipulated or derived bound retains its governing or derivation basis.
 - [ ] Every decision-changing row names evidence and `satisfied | failed | unknown` observations.
 - [ ] The result states acceptance-for-next-use, stop, and reopen conditions without selecting or admitting a Method.

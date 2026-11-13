@@ -6,12 +6,12 @@ section_id: "B.2:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2/B.2__011_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.2 — Meta-Holon Transition - Whole Reidentification"
   - "B.2:9 — Consequences"
-line_start: 43671
-line_end: 43685
+line_start: 45429
+line_end: 45443
 dependencies:
   - "A.1"
   - "A.10"
@@ -50,7 +50,7 @@ keywords:
 
 Positive consequences:
 
-- MHT becomes a precise whole-reidentification move rather than a synonym for improvement.
+- MHT becomes a whole-reidentification move rather than a synonym for improvement.
 - Cases involving a candidate new system, episteme, method, work occurrence, or discipline use the same B.2 whole-reidentification solution while retaining their subject patterns.
 - Trigger language helps locate the changed facts that need examination.
 - Mathematical and benchmark evidence can be used without replacing the holon claim.
@@ -58,6 +58,6 @@ Positive consequences:
 Costs:
 
 - Users must try existing-whole explanations before declaring MHT.
-- MHT records require a reference to the exact candidate new whole, a reference to its already admitted public kind, A.1 recognition, and the evidence needed by any classification assertion used downstream.
+- MHT records require a reference to the candidate new whole, a reference to its already admitted public kind, A.1 recognition, and the evidence needed by any classification assertion used downstream.
 - Some attractive emergence claims will return to ordinary characteristic, method, work, architecture, or measurement repair.
 

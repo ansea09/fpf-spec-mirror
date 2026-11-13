@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.2.2"
-pattern_title: "Meta-System Transition: Test the Proposed New Whole as a System"
+pattern_title: "Test the Proposed New Whole as a System"
 section_id: "B.2.2:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.2/B.2.2__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "B.2.2 — Meta-System Transition: Test the Proposed New Whole as a System"
+  - "B.2.2 — Test the Proposed New Whole as a System"
   - "B.2.2:intro — Intro"
-line_start: 43959
-line_end: 43964
+line_start: 45731
+line_end: 45736
 dependencies:
   - "A.1"
   - "A.10"
@@ -40,9 +40,9 @@ dependencies:
 keywords:
 ---
 
-## B.2.2 - Meta-System Transition: Test the Proposed New Whole as a System
+## B.2.2 - Test the Proposed New Whole as a System
 
 > **Type:** Part B holonic construction pattern
 > **Status:** Stable
-> **Normativity:** Normative unless a section is explicitly informative
+> **Normativity:** Normative unless a section is marked informative
 

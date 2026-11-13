@@ -6,12 +6,12 @@ section_id: "F.4:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__004_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.4 — SystemRoleKindDescription — Describing an Exact System-Role Kind"
   - "F.4:2 — Problem"
-line_start: 119563
-line_end: 119576
+line_start: 127164
+line_end: 127177
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -47,7 +47,7 @@ keywords:
 
 ### F.4:2 - Problem
 
-Without this pattern:
+The following errors confuse a kind, its description or the claims made when that kind is used.
 
 1. **Description and kind collapse.** The description is treated as the local system-role kind.
 2. **Description and classification collapse.** A card is treated as proof that one candidate satisfies the kind criterion.

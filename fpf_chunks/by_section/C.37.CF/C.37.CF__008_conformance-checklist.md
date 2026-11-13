@@ -6,12 +6,12 @@ section_id: "C.37.CF:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37.CF/C.37.CF__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.37.CF — Compare Content and Form Changes"
   - "C.37.CF:7 — Conformance Checklist"
-line_start: 82409
-line_end: 82418
+line_start: 86430
+line_end: 86439
 dependencies:
   - "A.3.2.DE"
   - "C.2.8"
@@ -27,5 +27,5 @@ keywords:
 - Reader learning, tool differences and other material confounds remain visible.
 - When a changed-condition return is tested, an initial answer precedes disclosure of that condition.
 - Observed burden is distinguished from estimated or unmeasured burden.
-- The result returns to the proper content, selection, trial or worth decision.
+- The result returns to the content, selection, trial or worth decision it informs.
 

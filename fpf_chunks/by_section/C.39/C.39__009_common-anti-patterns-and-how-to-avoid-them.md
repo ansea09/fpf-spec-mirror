@@ -6,12 +6,12 @@ section_id: "C.39:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39/C.39__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.39 — Find and Develop a Way to Obtain a Result"
   - "C.39:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 82909
-line_end: 82920
+line_start: 86951
+line_end: 86962
 dependencies:
   - "A.22.CGUS"
   - "A.3.1"
@@ -40,6 +40,6 @@ keywords:
 | A decomposition tree stands in for explanation. | Follow only the unresolved contribution that can change the whole answer. |
 | A sufficient way is kept open until a second rival appears. | Finish this search; enter same-result comparison only when that question is live. |
 | A candidate correction is described as an achieved result. | State the candidate and missing support separately, as in the timing case. |
-| A description format is treated as the way of developing every Method. | Construct and explain for the actual use, then select the necessary form. |
+| A description format is treated as the way of developing every Method. | Construct and explain what the receiving use requires, then select the necessary form. |
 | One failed receiver discards all uses of a shared result. | Follow the changed condition and preserve uses whose premises and requirements still hold. |
 

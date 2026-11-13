@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.10.MOVE"
-pattern_title: "Move, Readiness and Trajectory Wording Precision Restoration"
+pattern_title: "Clarify Wording About Moves, Readiness and Trajectories"
 section_id: "E.10.MOVE:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.MOVE/E.10.MOVE__007_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "E.10.MOVE — Move, Readiness and Trajectory Wording Precision Restoration"
+  - "E.10.MOVE — Clarify Wording About Moves, Readiness and Trajectories"
   - "E.10.MOVE:6 — Bias-Annotation"
-line_start: 101461
-line_end: 101466
+line_start: 107165
+line_end: 107170
 dependencies:
   - "A.1.STM"
   - "A.10"
@@ -55,5 +55,5 @@ keywords:
 
 Lenses: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: FPF-governed move, readiness, route, path, and trajectory wording uses.
 
-The method deliberately foregrounds Onto/Epist distinctions and direct subject ownership. The cheap ordinary-use path protects practical use and readability: recover only the distinctions that matter to the current claim and keep useful familiar wording. The concrete recurring misuses and their repairs are in §8.
+The method foregrounds Onto/Epist distinctions and direct subject ownership. The cheap ordinary-use path protects practical use and readability: recover only the distinctions that matter to the current claim and keep useful familiar wording. Recurring misuses and their repairs are in §8.
 

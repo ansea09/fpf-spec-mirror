@@ -6,12 +6,12 @@ section_id: "E.5:5"
 section_title: "Archetypal Grounding (System / Episteme)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5/E.5__006_archetypal-grounding-system-episteme.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.5 — Four Guard‑Rails of FPF"
   - "E.5:5 — Archetypal Grounding (System / Episteme)"
-line_start: 96369
-line_end: 96377
+line_start: 101570
+line_end: 101578
 dependencies:
   - "E.2"
   - "E.3"
@@ -28,6 +28,6 @@ keywords:
 |------------|-------------------|----------------------|
 | GR‑1 | Definition of `U.System` never cites file formats or build scripts. | Definition of `U.Episteme` avoids naming specific proof engines. |
 | GR‑2 | A meaning-preserving mapping between text and diagram retains the pump boundary invariant. | A meaning-preserving mapping between algebraic and graph expressions retains F‑G‑R semantics. |
-| GR‑3 | A sizing helper imports Core invariants; Core never imports helper tutorials. | Learning guide cites R‑score; Core does not derive its semantics from the guide. |
+| GR‑3 | A sizing helper imports Core invariants. Core never imports helper tutorials. | A learning guide cites the R‑score. Core does not derive its semantics from the guide. |
 | GR‑4 | Bias audit removes thermo‑mechanical jargon from a “universal” pattern. | Audit replaces physics‑centric metaphors in a trust pattern. |
 

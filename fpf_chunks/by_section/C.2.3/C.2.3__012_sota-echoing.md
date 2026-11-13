@@ -6,12 +6,12 @@ section_id: "C.2.3:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.3/C.2.3__012_sota-echoing.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.2.3 — Formality of an Episteme"
   - "C.2.3:11 — SoTA-Echoing"
-line_start: 53214
-line_end: 53224
+line_start: 55439
+line_end: 55449
 dependencies:
   - "A.16"
   - "A.18"
@@ -44,5 +44,5 @@ keywords:
 | [Isabelle overview](https://isabelle.in.tum.de/overview.html), maintained tool documentation, including its HOL and LCF account. | A higher-order environment supplies formal statements and checked reasoning with substantial reusable libraries. | The availability of these capabilities does not establish that a particular submitted expression or proof has passed its required checks. |
 | [The HoTT Book](https://homotopytypetheory.org/book/), authors' description of univalent foundations; foundational source. | Univalence and higher inductive types change what can be expressed and how mathematical reasoning is organized. | A different foundation is not a higher universal formality rank. Its relevance depends on the needed structures and admitted assumptions. |
 
-These sources support distinctions among actual capabilities and formal bases. They do not establish a total order from prose through execution to successive schools of logic. Apply the assessment method above to the expression and use at hand; consult the sources when their particular language or apparatus is in question.
+These sources support distinctions among capabilities and formal bases. They do not establish a total order from prose through execution to successive schools of logic. Apply the assessment method above to the expression and use at hand; consult the sources when their particular language or apparatus is in question.
 

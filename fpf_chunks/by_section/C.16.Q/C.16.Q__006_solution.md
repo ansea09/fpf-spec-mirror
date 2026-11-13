@@ -6,25 +6,20 @@ section_id: "C.16.Q:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.Q/C.16.Q__006_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
   - "C.16.Q:4 — Solution"
-line_start: 59889
-line_end: 60247
+line_start: 62274
+line_end: 62638
 dependencies:
   - "A.10"
   - "A.16"
-  - "A.16.0"
-  - "A.16.1"
-  - "A.16.2"
   - "A.17"
   - "A.18"
   - "A.19"
-  - "A.19.CPM"
   - "A.2.6"
   - "A.6.A"
-  - "A.6.B"
   - "A.6.P"
   - "A.7"
   - "B.3"
@@ -32,31 +27,15 @@ dependencies:
   - "B.5.2.0"
   - "C.16"
   - "C.16.P"
-  - "C.17"
-  - "C.18"
-  - "C.19"
   - "C.2.1"
-  - "C.2.2a"
-  - "C.2.4"
-  - "C.2.5"
-  - "C.2.6"
-  - "C.2.7"
-  - "C.2.LS"
   - "C.25"
-  - "C.30.AD"
-  - "C.30.ASV"
   - "E.10"
   - "E.10.ARCH"
-  - "E.17.0"
-  - "E.17.2"
   - "E.21"
   - "E.8"
   - "F.18"
   - "F.9"
   - "F.9.1"
-  - "U.ClaimScope"
-  - "U.ContextSlice"
-  - "U.ViewpointRef"
 keywords:
 ---
 
@@ -72,7 +51,7 @@ Inspect quality wording when its sense, bearer, comparison or consequence is unc
 
 1. **Read the whole assertion.** Recover what the sentence claims or asks. Retain its wording when an inspectable before/after comparison is needed.
 2. **Recover the subject being described or evaluated.** Distinguish the EntityOfConcern being described from its description, publication face or carrier when that distinction changes the claim. Keep ordinary non-governed wording ordinary.
-3. **Distinguish the live meanings.** Use the stated purpose and interpretation scheme, together with any relevant evaluation conditions or comparison, to resolve plausible alternatives. If an existing endpoint already conveys the intended claim, use it and stop this repair. Keep a short Candidate-Set Note only when unresolved alternatives need to remain inspectable for the receiving decision or publication; use an existing explanation when it already does that job.
+3. **Distinguish the plausible interpretations.** Use the stated purpose and interpretation scheme, together with any relevant evaluation conditions or comparison, to resolve plausible alternatives. If an existing endpoint already conveys the intended claim, use it and stop this repair. Keep a short Candidate-Set Note only when unresolved alternatives need to remain inspectable for the receiving decision or publication; use an existing explanation when it already does that job.
 4. **Follow the recovered question.** For action-oriented wording, a relation, evidence, a gate or another non-quality question, apply its subject rule. Use A.6.A, A.6.P, C.16.P or another recovery pattern only while the corresponding meaning is still unclear. An adequately expressed question can finish without a `QualitySense`.
 5. **Choose a sense when a transitional ascription is needed.** Select the applicable `QualitySense` and retain consequential rival interpretations while they remain unresolved. Explain a rejected alternative only when that distinction helps recover the intended claim.
 6. **State the supported interpretation.** Use the known endpoint's form, or the transitional form under §4.1 with its required bearer, scheme, probe/model and comparison conditions, evaluator/viewpoint, scope and normal form. Add result, evidence, grounding or cross-local references only for independently established relations used by this claim.
@@ -82,9 +61,9 @@ Inspect quality wording when its sense, bearer, comparison or consequence is unc
 
 A transitional ascription makes an unresolved quality interpretation explicit under one effective ReferenceScheme and a named endpoint pattern or source relation. It records the intended characterization without asserting a result or evidence relation merely through its fields.
 
-`qualityTermAscription(...)` is the canonical transitional quality-term repair form when the endpoint choice is not yet fixed. It is not the universal resting place, not a relation kind by default, and not a shadow endpoint source.
+`qualityTermAscription(...)` is the canonical transitional quality-term repair form when the endpoint choice is not yet fixed. The form is not a relation kind by default and does not replace the endpoint source.
 
-Use of `qualityTermAscription(...)` presupposes enough articulation explicitness to name the bearer, effective scheme, probe/model frame, comparison frame or explicit `none`, ClaimScope, and at least one candidate quality-sense family. Closure degree may remain low while `qualityTermAscription(...)` is transitional, but content that is still only a cue pack, forwarded cue, or open explanatory probe stays in `A.16.1`, `B.4.1`, or `B.5.2.0`. If a published record later loses an interpretation-bearing scheme, frame, scope, or direct source relation required for its stated use, retreat via `A.16.2`; changed witnesses, evidence use, or grounding reopen only the exact neighboring result or reliance claim they bear on.
+Use of `qualityTermAscription(...)` presupposes enough articulation explicitness to name the bearer, effective scheme, probe/model frame, comparison frame or explicit `none`, ClaimScope, and at least one candidate quality-sense family. Closure degree may remain low while `qualityTermAscription(...)` is transitional, but content that is still only a cue pack, forwarded cue, or open explanatory probe stays in `A.16.1`, `B.4.1`, or `B.5.2.0`. If a published record later loses an interpretation-bearing scheme, frame, scope, or direct source relation required for its stated use, retreat via `A.16.2`; changed witnesses, evidence use, or grounding reopen only the neighboring result or reliance claim they bear on.
 
 The transitional form is:
 
@@ -122,7 +101,13 @@ qualityTermAscription :=
 
 `effectiveReferenceScheme`, `probeOrModelFrameRef`, `comparisonFrameRef`, and `claimScope` are explicit even when the comparison value is `none`; no generic `context` or `frame` slot defines their semantics. A probe or model frame remains the exact domain-local probe/model configuration. A comparison frame resolves the applicable `CG-Spec`, comparator edition, comparison scope, reference plane, and interval under A.19.CPM; it is not a universal `Frame` kind.
 
-The record designates, but does not embed, a viewpoint. A non-`none` `viewpointRef` is one `U.ViewpointRef` whose governed resolution yields an exact viewpoint episteme; the reference, the viewpoint episteme, and the evaluator remain different objects. `qualityResultClaimRef` is not assessment work, while witness refs and an A.10 evidence-provenance path establish neither a result nor empirical grounding. Cite `empiricalGroundingRelationRef` only for a separately obtaining C.2.1 relation between the identified episteme and exact holon under governed observation, intervention, measurement, test, or evaluation relations. Likewise, cite an F.9 Bridge occurrence and bounded-use claim only when each independently exists. Cite a Card only when that optional package exists. Cite a stance note only when its reference resolves a C.2.1 episteme whose `EntityOfConcern` is that exact use claim. At least one of `endpointPatternLocator` and `endpointSourceRelationRef` is required. The locator identifies the pattern passage that defines or tests the endpoint; it does not make the pattern an actor or require a separate assertion or `ClaimGraph` unless a named later use depends on that rule identity.
+The record designates, but does not embed, a viewpoint. A non-`none` `viewpointRef` is one `U.ViewpointRef` whose governed resolution yields an exact viewpoint episteme; the reference, the viewpoint episteme, and the evaluator remain different objects.
+
+`qualityResultClaimRef` is not assessment work, while witness refs and an A.10 evidence-provenance path establish neither a result nor empirical grounding. Cite `empiricalGroundingRelationRef` only for a separately obtaining C.2.1 relation between the identified episteme and exact holon under governed observation, intervention, measurement, test, or evaluation relations.
+
+Likewise, cite an F.9 Bridge occurrence and bounded-use claim only when each independently exists. Cite a Card only when that optional package exists. Cite a stance note only when its reference resolves a C.2.1 episteme whose `EntityOfConcern` is that exact use claim.
+
+At least one of `endpointPatternLocator` and `endpointSourceRelationRef` is required. The locator identifies the pattern passage that defines or tests the endpoint. A separate assertion or `ClaimGraph` is required only when a named later use depends on that rule identity.
 
 For a use whose quality meaning remains consequentially ambiguous, “X has quality” is insufficient. State the supported interpretation, use the known endpoint, or retain the unresolved alternatives in the transitional form when its entry conditions are met.
 
@@ -147,7 +132,7 @@ If inverse wording is used in Plain prose, rewrite it into the bearer-centred fo
 
 #### C.16.Q:4.1c - Endpoint-first discipline
 
-When the endpoint pattern or explicit endpoint source relation is already known, publish the form it defines directly. Keep `qualityTermAscription(...)` only when preserving the transitional ambiguity is itself informative. `qualityTermAscription(...)` is therefore a transitional characterization record, not a shadow endpoint source.
+When the endpoint pattern or explicit endpoint source relation is already known, publish the form it defines directly. Keep `qualityTermAscription(...)` only when preserving the transitional ambiguity is itself informative.
 
 Typical direct endpoints are:
 
@@ -209,7 +194,7 @@ A declared local vocabulary under one effective ReferenceScheme MAY add local se
 `QS.EngineeringQualityFamily` and `QS.ControlAdequacy` default to `Bundle`.
 A declared local use under one effective ReferenceScheme MAY operationalize one explicit head as a `Characteristic`, but that is a declared operationalization, not a second default normal form.
 
-**Normative interpretation rules.** Choose the family from the actual claim; a domain label alone does not determine its sense.
+**Normative interpretation rules.** Choose the family from the claim; a domain label alone does not determine its sense.
 
 * In NQD, QD or selector use, the evaluative Q head defaults to `QS.UseValue` unless another sense is explicitly declared.
 * An engineering quality claim resolves to one explicit `U.Characteristic` with its CSLC Scale, or an explicit Bundle, preferably a C.25 Q-Bundle when its conditions apply.
@@ -229,7 +214,7 @@ A conforming `qualityTermAscription` SHALL make explicit:
    Name the intended quality-sense family; retain the evaluative criteria when the claim evaluates that subject.
 
 3. **Effective ReferenceScheme.**
-   State the effective reference scheme by value in the C.2.1:4.1.2 range `EpistemeInterpretationScheme`: supply the actual designation and interpretation rules with their semantic dependencies so every designator and local sense in the ascription is interpretable. A generic context label or a representation scheme is not a substitute.
+   State the effective reference scheme by value in the C.2.1:4.1.2 range `EpistemeInterpretationScheme`: supply the designation and interpretation rules with their semantic dependencies so every designator and local sense in the ascription is interpretable. A generic context label or a representation scheme is not a substitute.
 
 4. **Probe or model frame.**
    Name the exact domain-local exemplar pack, probe pack, test or criticism pack, Q-bundle definition, CG-frame, acceptance specification, control horizon, or other governed probe/model configuration.
@@ -244,7 +229,7 @@ A conforming `qualityTermAscription` SHALL make explicit:
    State whether the ascription uses `SignalPack`, `Characteristic`, `Bundle`, or `Objective`. If separately performed assessment work produced a result claim, cite that exact C.2.1 episteme through `qualityResultClaimRef`; do not identify the work, result, bearer, or transitional record with one another.
 
 8. **ClaimScope, selected slices, and time.**
-   State one `U.ClaimScope` and its exact `U.ContextSlice` membership when the members matter. State `Γ_time` when omission changes meaning. `U.WorkScope` and `U.PublicationScope` remain with their own work or publication claims rather than substituting for this claim scope. Freshness, qualification, and evidence-decay windows remain in their exact evidence, capability, or currentness lanes rather than being smuggled into *quality*.
+   State one `U.ClaimScope` and its exact `U.ContextSlice` membership when the members matter. State `Γ_time` when omission changes meaning. `U.WorkScope` and `U.PublicationScope` remain with their own work or publication claims rather than substituting for this claim scope. Keep freshness, qualification, and evidence-decay windows with the evidence, capability, or currentness claims they qualify, instead of treating them as *quality*.
 
 9. **Reference plane when relevant.**
    Name the plane when the same trigger phrase could concern the EntityOfConcern being described, its description, a carrier, or a publication face.
@@ -276,7 +261,7 @@ A conforming `SignalPack` contains:
 * the signal use it supports and the additional declaration needed before treating a proxy as a `Characteristic`.
 
 **QNF-2 - `Characteristic`.**
-Use only when the sense is truly one measurable characteristic on one declared scale.
+Use only when the sense is one measurable characteristic on one declared scale.
 This uses **A.17, A.18, and C.16** and inherits full scale legality.
 
 **QNF-3 - `Bundle`.**
@@ -321,7 +306,7 @@ C.16.Q SHALL prevent the collapse of **function or capability** claims into **qu
 
 Within one exact `<ReferenceScheme, LocalSenseClaim>` interpretation basis, lexical restoration may choose a local sense or rename without asserting an F.9 Bridge. When a use depends on semantic correspondence between two quality senses with different interpretation bases, resolve both exact F.17 `SchemeSenseCell` values and test the direct F.9 Bridge predicate. Source-local description or separate citation of the two senses needs no such correspondence. Scheme difference, shared spelling, an analogy, a loss note, or a quality record establishes no Bridge.
 
-If the Bridge obtains, cite its exact occurrence and state any proposed comparison, substitution, operationalization, or projection as a separate F.9 bounded-use claim. That claim names the direction, rule, tolerated loss, polarity, and effective ReferenceScheme. Apply A.10 or B.3 only for the reliance branch that is actually live. A Bridge Card remains optional reusable packaging.
+If the Bridge obtains, cite its exact occurrence and state any proposed comparison, substitution, operationalization, or projection as a separate F.9 bounded-use claim. That claim names the direction, rule, tolerated loss, polarity, and effective ReferenceScheme. Apply A.10 or B.3 only for the reliance branch involved in the proposed use. A Bridge Card remains optional reusable packaging.
 
 Add an F.9.1 stance note only when a short interpretive cue helps a reader understand that exact bounded-use claim. The note is a separate C.2.1 episteme whose `EntityOfConcern` is the claim. Its optional label may be, for example:
 
@@ -338,7 +323,7 @@ Examples:
 * `QS.PreconceptualFit` and `QS.LatentFit` are usually only candidates for partial correspondence. If the proposed use depends on correspondence between their exact cross-local F.17 cells, test an F.9 kind such as `Partial-overlap`; an optional `partialAnalogy` note may help read the resulting bounded-use claim but cannot establish identity.
 * A progression from `QS.PreconceptualFit` to `QS.PhenomenalCharacter` needs its exact direct relation or bounded-use account; shared articulation history does not make the senses identical.
 * A felt cue can prompt a choice of engineering measure without asserting that the measure represents that cue. If the claim instead proposes a cross-local operationalization or projection, establish its Bridge, bounded-use rule and tolerated loss separately from the measurement result. Add a stance note only if it improves the reading.
-* An engineering measure can be selected as an objective under a declared CG-frame. That use does not identify the whole engineering family with selector value. When it depends on a cross-local correspondence, state the actual F.9 use and any demonstrated loss; selecting an objective alone establishes no loss.
+* An engineering measure can be selected as an objective under a declared CG-frame. That use does not identify the whole engineering family with selector value. When it depends on a cross-local correspondence, state the F.9 use and any demonstrated loss; selecting an objective alone establishes no loss.
 * An obtaining F.9 Bridge between `QS.ExplanatoryMerit` and `QS.UseValue` does not by itself establish identity. An F.9.1 `nonEquivalent` note may help read an existing bounded-use claim but cannot replace the Bridge finding or claim polarity.
 * Pirsig-style **dynamic quality** may locally cue `QS.PreconceptualFit` or sometimes `QS.LatentFit`. Within one exact interpretation basis this may be a local rename; a proposed correspondence across bases needs exact F.17 cells and F.9 treatment. A source-local account can retain its own meaning. The label alone supplies neither identity nor empirical grounding.
 * Pirsig-style **static quality** usually cues a `Characteristic` or `Bundle` publication under another declared sense; it is not identical with dynamic quality.
@@ -364,13 +349,13 @@ Changes to a transitional ascription SHALL preserve the distinctions in this cha
 * **`rescopeClaim(...)`** — change `U.ClaimScope` or its exact `U.ContextSlice` members.
 * **`retime(...)`** — change `Γ_time`.
 * **`refreshWitnessRefs(...)`** — refresh witness bindings without silently changing an evidence-provenance path or grounding relation.
-* **`replaceEvidenceProvenancePath(...)`** — replace the cited A.10 path of exact direct relations without manufacturing a quality result.
+* **`replaceEvidenceProvenancePath(...)`** — replace the cited A.10 path of exact direct relations; replacing the path does not by itself constitute a quality result.
 * **`replaceEmpiricalGroundingRelationRef(...)`** — cite another independently obtaining C.2.1 grounding occurrence; a record edit cannot make it obtain.
 * **`retargetBridgeOccurrenceRef(...)`** — retarget an exact F.9 occurrence ref; it does not retarget a bounded-use claim, optional Bridge Card, or optional stance note by implication.
 * **`exitQualityAscription(...)`** — end use of the quality-ascription form and continue with the pattern for the recovered non-quality claim; never silently retype the old record.
 
 A silent **sense rewrite** is a breaking semantic change.
-If the ascription ceases to mean “quality ascription” at all, close it with `exitQualityAscription(...)` and publish the recovered claim in the form needed for its use rather than pretending the same record survived unchanged.
+If the record no longer expresses a quality ascription, close it with `exitQualityAscription(...)` and publish the recovered claim in the form needed for its use.
 
 **A.6.P rewrite note.**
 `retargetBearer(...)` is the family-specific form of `retargetParticipant(BearerSlot, …)`. It, `retargetEvaluator(...)`, `retargetViewpointRef(...)`, and `retargetBridgeOccurrenceRef(...)` are reference-retargeting moves and SHALL preserve the A.6.5 distinction between a reference and the object it resolves. `reviseSense(...)`, `reArticulate(...)`, `reProxy(...)`, `reBundle(...)`, `reScale(...)`, `reProbeOrModelFrame(...)`, and `reComparisonFrame(...)` refine `reviseByValue(...)`. `reReferenceScheme(...)` and `rescopeClaim(...)` change interpretation-bearing values and require an identity check for any published C.2.1 episteme. Witness, evidence-path, result-claim, grounding-relation, Bridge, bounded-use-claim, Card, and stance-note refs change independently; no edit silently rewrites another.
@@ -410,12 +395,12 @@ In **Tech and normative prose**:
 
 A transitional ascription can be elaborated as its interpretation becomes clearer. Changed grounds can also require revising or withdrawing earlier content; elaboration is not necessarily monotone:
 
-1. Select a **`QualitySense`** and retain rival candidates while ambiguity is live.
+1. Select a **`QualitySense`** and retain rival candidates while the intended sense remains unresolved.
 2. Name the exact bearer, effective ReferenceScheme, `U.ClaimScope`, and any meaning-changing `Γ_time`, reference plane, representation scheme, or substrate.
 3. Name the probe or model frame and the separate comparison frame or explicit `none`; then name evaluator and `U.ViewpointRef` independently.
 4. Choose an admissible **normal form** and identify any separately constituted quality-result claim.
 5. Add exemplars, probes, characteristic heads, bundle members, objective pins, witness refs, and exact A.10 evidence-provenance paths as needed. Cite empirical grounding only through an independently obtaining relation.
-6. If cross-local correspondence is live, resolve exact F.17 cells, the obtaining F.9 Bridge, and the separate bounded-use claim. Add a Card only as optional packaging and an F.9.1 stance note only as optional reader help about that claim.
+6. If the use depends on cross-local correspondence, resolve exact F.17 cells, the obtaining F.9 Bridge, and the separate bounded-use claim. Add a Card only as optional packaging and an F.9.1 stance note only as optional reader help about that claim.
 7. Preserve any boundary claim and its material dependencies under A.6.B; add stable hooks only when the receiving use needs them.
 8. Never move between sense families, frames, schemes, scopes, result claims, or neighboring relations silently.
 

@@ -6,12 +6,12 @@ section_id: "G.10:9"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.10/G.10__012_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.10 — SoTA Pack Shipping"
   - "G.10:9 — Relations"
-line_start: 132069
-line_end: 132074
+line_start: 140150
+line_end: 140157
 dependencies:
   - "A.10"
   - "A.15.3"
@@ -56,6 +56,8 @@ keywords:
 ### G.10:9 - Relations
 
 **Builds on:** `G.Core`; consumes/cites artefacts governed by cited patterns from `G.2` (harvest pack), `G.3` (CHR pack), `G.4` (CAL pack), `G.6` (EvidenceGraph), `G.7` (bridge calibration), `G.8` (SoS‑LOG bundle), `G.9` (parity report), optional `G.12` (dashboard slice), optional `G.13` (interop surface).
+
 **Publishes to / used by:** UTS (pack identity), selector‑facing consumers (via `G.5`), audit and assurance publications (SCR/RSCR), refresh orchestration (`G.11`).
-**Constrains:** tooling exports are downstream; serialisation and repository integration are explicitly non‑normative here.
+
+**Constrains:** tooling exports are downstream; serialisation and repository integration are non‑normative here.
 

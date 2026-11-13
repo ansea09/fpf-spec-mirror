@@ -6,12 +6,12 @@ section_id: "E.17.EFP:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.EFP/E.17.EFP__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.17.EFP — ExplanationFaithfulnessProfile — explanation-use discipline over existing MVPK faces"
   - "E.17.EFP:2 — Problem"
-line_start: 108039
-line_end: 108047
+line_start: 114696
+line_end: 114704
 dependencies:
   - "A.10"
   - "A.15"
@@ -44,8 +44,8 @@ keywords:
 
 Without a dedicated profile:
 1. an expression of the source, a rewritten target episteme, and a new hypothesis blur together;
-2. explanation prose starts behaving like a second semantic rule track;
+2. readers use explanation prose as if it were a second source of semantic rules;
 3. publication-side reviewers cannot tell which expressions remain within the bounded use of their explanation class;
-4. source and evidence details are either demanded for every explanation or omitted when a named claim, dispute, derivative, or reliance actually needs them;
+4. source and evidence details are either demanded for every explanation or omitted when a named claim, dispute, derivative, or reliance needs them;
 5. an EFP class quietly substitutes for C.2.1 identity, an obtaining source-to-target relation, bridge work, or a gate decision.
 

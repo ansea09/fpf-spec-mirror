@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.19.USCM"
-pattern_title: "Unified Scoring Mechanism, USCM"
+pattern_title: "Scoring Mechanism"
 section_id: "A.19.USCM:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.USCM/A.19.USCM__005_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.19.USCM — Unified Scoring Mechanism, USCM"
+  - "A.19.USCM — Scoring Mechanism"
   - "A.19.USCM:3 — Forces"
-line_start: 38191
-line_end: 38206
+line_start: 39724
+line_end: 39739
 dependencies:
 keywords:
   - "CG-Spec.MinimalEvidence"
@@ -20,7 +20,7 @@ keywords:
   - "ScoringMethodDescription"
   - "score profile"
   - "scoring"
-  - "tri-state admissibility (pass"
+  - "tri-state admissibility (pass\\"
 ---
 
 ### A.19.USCM:3 - Forces
@@ -29,11 +29,11 @@ keywords:
 
 2. **Method diversity vs stable mechanism boundary.** Scoring methods evolve rapidly; USCM’s signature must remain stable so method families can be wired through SoTA packs and extensions without mutating the mechanism boundary.
 
-3. **Vector reality vs scalar simplicity.** Many situations require multiple score dimensions. A single scalar score may be convenient but must be an explicit, declared commitment, not a hidden reduction.
+3. **Vector reality vs scalar simplicity.** Many situations require multiple score dimensions. A single scalar score may be convenient but must be a declared commitment, not a hidden reduction.
 
 4. **Uncertainty vs decisiveness.** Teams need decisions under uncertainty; the framework must prevent epistemic overconfidence. Tri-state admissibility guards state whether the declared conditions pass, permit degraded use or require abstention; their correctness depends on the rule and evidence.
 
-5. **Strict distinction across CHR steps.** USCM must not absorb UNM, ULSAM, or CPM semantics “for convenience,” or the suite becomes opaque and non‑teachable.
+5. **Distinction across CHR steps.** USCM must not absorb UNM, ULSAM, or CPM semantics “for convenience,” or the suite becomes opaque and non‑teachable.
 
 6. **Evolvability vs didactic usability.** Interfaces must remain evolvable (stable SlotKind surface; method semantics externalized), while the spec remains teachable: a reader must find USCM’s purpose, boundary, laws, guard behavior, and audit minimum in one place.
 

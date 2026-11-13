@@ -6,12 +6,12 @@ section_id: "A.10:7"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10/A.10__010_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.10 — Evidence Graph Referring: Claim-Bound Evidence and Provenance Graph"
   - "A.10:7 — Consequences"
-line_start: 27020
-line_end: 27027
+line_start: 28042
+line_end: 28049
 dependencies:
   - "A.10"
   - "A.13"
@@ -54,7 +54,7 @@ keywords:
 
 **Benefits.** Reliance becomes replayable without turning A.10 into an authority over the results it cites. The same path can expose stale sources, hidden transformations, ungrounded work, incompatible currentness, or an unsupported lift from provenance to action.
 
-**Trade-offs.** Subject-pattern recovery takes more effort than a single evidence edge. The gain is that later users can challenge exactly the claim, work fact, source relation, currentness result, or reliance boundary that failed.
+**Trade-offs.** Subject-pattern recovery takes more effort than a single evidence edge. The gain is that later users can challenge the claim, work fact, source relation, currentness result, or reliance boundary that failed.
 
 **Failure containment.** Missing source, work, direct binding, rule for a cited result, currentness, or use relation blocks or narrows only the affected reliance use. It does not authorize a universal evidence or result relation.
 

@@ -6,12 +6,12 @@ section_id: "F.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.1/F.1__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.1 — Find and Select Sources for a Current Question"
   - "F.1:intro — Intro"
-line_start: 118564
-line_end: 118576
+line_start: 126160
+line_end: 126172
 dependencies:
   - "A.10"
   - "A.7"
@@ -38,7 +38,7 @@ keywords:
 
 > **Type:** Architectural (A)
 > **Status:** Stable
-> **Normativity:** Normative unless explicitly marked informative
+> **Normativity:** Normative unless marked informative
 
 > **One-sentence summary.** Find inspectable material for the current question, expose search and access limits, and select the smallest sufficient source set when its claims, rivals or counterexamples need a justified basis.
 

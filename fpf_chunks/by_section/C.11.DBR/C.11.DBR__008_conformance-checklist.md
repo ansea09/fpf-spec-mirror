@@ -6,12 +6,12 @@ section_id: "C.11.DBR:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.DBR/C.11.DBR__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.11.DBR — Reconsider a Decision When Its Relied-on Basis Changes"
   - "C.11.DBR:7 — Conformance Checklist"
-line_start: 57762
-line_end: 57771
+line_start: 60105
+line_end: 60114
 dependencies:
   - "A.10"
   - "A.10.1"
@@ -27,7 +27,7 @@ keywords:
 
 ### C.11.DBR:7 - Conformance Checklist
 
-- The account identifies the known earlier result, its current receiving use and the actual role of the relied-on basis.
+- The account identifies the known earlier result, its current receiving use and the role of the relied-on basis.
 - The later result is qualified and compared at a commensurate scope and horizon, or the decisive mismatch is explicit.
 - Materiality follows the use's constraint, comparison or applicability condition; a no-material finding can finish without a new choice.
 - Affected uses follow established reliance; preserved results retain their grounds, and uninspected branches remain outside the conclusion.

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.42"
-pattern_title: "Reduce Avoidable Work While Preserving the Needed Result"
+pattern_title: "Reduce Work While Preserving the Needed Result"
 section_id: "C.42:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.42/C.42__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "C.42 — Reduce Avoidable Work While Preserving the Needed Result"
+  - "C.42 — Reduce Work While Preserving the Needed Result"
   - "C.42:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 90228
-line_end: 90239
+line_start: 94602
+line_end: 94613
 dependencies:
   - "A.11.OP"
   - "A.3.1.MI"
@@ -24,11 +24,11 @@ keywords:
 
 ### C.42:8 - Common Anti-Patterns and How to Avoid Them
 
-**Automate the unwanted output.** A quicker duplicate still consumes work. Recover the receiving use through 4.1 before treating production as necessary.
+**Automate the unwanted output.** A quicker duplicate consumes work. Recover the receiving use through 4.1 before treating production as necessary.
 
 **Call all repetition waste.** Similar practice attempts and negative tests can obtain capability or knowledge. Use the result distinction in 4.3 and the contrasting case in 5.3.
 
-**Turn the mnemonic into stage gates.** Waiting for every earlier diagnosis can postpone a well-supported combined intervention. Follow the actual grounds and dependencies in 4.4.
+**Turn the mnemonic into stage gates.** Waiting for every earlier diagnosis can postpone a well-supported combined intervention. Follow the grounds and dependencies in 4.4.
 
 **Claim the local saving as the whole gain.** A requester stops entering data while support staff reconstruct it. Follow the transferred contribution and its bearer through 4.5.
 

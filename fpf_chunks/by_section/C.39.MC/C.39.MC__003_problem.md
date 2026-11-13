@@ -6,12 +6,12 @@ section_id: "C.39.MC:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.MC/C.39.MC__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.39.MC — Continue Method Development from Changed Conditions"
   - "C.39.MC:2 — Problem"
-line_start: 84569
-line_end: 84574
+line_start: 88776
+line_end: 88781
 dependencies:
   - "A.15.7"
   - "A.22.CGUS"
@@ -24,7 +24,7 @@ keywords:
 
 ### C.39.MC:2 - Problem
 
-A Method engineer receives knowledge in different forms: candidate accounts, source dossiers, qualified contributions, architecture proposals, descriptions, and review results. A convenient pattern sequence can hide the distinction between a result that exists, a claim still awaiting support, and a next action that somebody must choose.
+A Method engineer receives knowledge in different forms: candidate accounts, source dossiers, qualified contributions, architecture proposals, descriptions, and review results. A convenient pattern sequence can hide the distinction between a result that exists, a claim awaiting support, and a next action that somebody must choose.
 
 When one condition changes, two errors follow. The practitioner may carry a stale composition or authority claim into the next action, or reopen every result because “the situation changed.” Both lose useful work: the first by relying beyond its basis, the second by repeating unaffected judgements.
 

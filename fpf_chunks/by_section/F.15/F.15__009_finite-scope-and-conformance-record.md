@@ -6,12 +6,12 @@ section_id: "F.15:7"
 section_title: "Finite scope and conformance record"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__009_finite-scope-and-conformance-record.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Naming and Semantic Unification"
   - "F.15:7 — Finite scope and conformance record"
-line_start: 123496
-line_end: 123542
+line_start: 131316
+line_end: 131366
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -100,5 +100,9 @@ UnificationConformanceRecord:
   ReopenTrigger:
 ```
 
-The checked scope, rule declaration, ordinary checking action or admitted dated assessment Work, exact application, result claim, witness, A.10 evidence-provenance path, conformance-record episteme, E.24.PUB occurrence, publication form, carrier, and G.11 currentness relation remain distinct. A result ref is included only after its C.2.1 claim exists. The optional record may cite an already admitted Work ref; it does not restate the Work's performer, Method, assignment, time, or containing System. Publication and currentness refs are neighbouring claims, not record identity shortcuts.
+The checked scope, rule declaration, ordinary checking action or admitted dated assessment Work, exact application, result claim, witness, A.10 evidence-provenance path, conformance-record episteme, E.24.PUB occurrence, publication form, carrier, and G.11 currentness relation remain distinct.
+
+A result ref is included only after its C.2.1 claim exists.
+
+The optional record may cite an already admitted Work ref; it does not restate the Work's performer, Method, assignment, time, or containing System. Publication and currentness refs are neighbouring claims, not record identity shortcuts.
 

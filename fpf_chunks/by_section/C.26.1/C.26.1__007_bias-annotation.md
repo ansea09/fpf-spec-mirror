@@ -6,12 +6,12 @@ section_id: "C.26.1:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.1/C.26.1__007_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.26.1 — Probe-Coupled Boundary Interaction"
   - "C.26.1:6 — Bias-Annotation"
-line_start: 66196
-line_end: 66201
+line_start: 69192
+line_end: 69197
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -40,7 +40,7 @@ keywords:
 
 ### C.26.1:6 - Bias-Annotation
 
-This pattern biases authors against passive-reading convenience. That bias is useful when dashboards, workshops, surveys, and API reads are treated as if they carry state without changing it.
+This pattern biases authors toward examining how an interaction affects the interpretation of its output. That bias is useful when dashboards, workshops, surveys, and API reads are treated as if they carry state without changing it.
 
-The pattern also biases authors against overusing QL. It keeps ordinary intervention, ordinary message passing, ordinary bridge loss, ordinary API semantics, and ordinary work enactment with their existing FPF patterns when no probe-coupled reading remains.
+The pattern also biases authors against overusing QL. When no probe-coupled reading remains, the ordinary questions of intervention, message passing, bridge loss, API semantics, and work enactment stay with their existing FPF patterns.
 

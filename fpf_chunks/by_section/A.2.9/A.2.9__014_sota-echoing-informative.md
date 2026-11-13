@@ -6,12 +6,12 @@ section_id: "A.2.9:11"
 section_title: "SoTA-Echoing (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.9/A.2.9__014_sota-echoing-informative.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.2.9 — U.SpeechAct — Communicative Work and Its Intended Use"
   - "A.2.9:11 — SoTA-Echoing (informative)"
-line_start: 9138
-line_end: 9146
+line_start: 9511
+line_end: 9519
 dependencies:
   - "A.10"
   - "A.13"
@@ -49,6 +49,6 @@ keywords:
 
 * **ISO 24617‑2:2020 / multi-dimensional communicative functions.** Modern dialogue‑act standards treat communicative behavior as potentially multi‑functional. A.2.9 mirrors this with an `actTypes` **set** on one communicative Work and permits shared carriers across several acts only when their world-side histories establish distinct occurrences.
 * **Commitment-based semantics for communication (multi-agent/protocol practice, 2015+).** A pragmatic way to avoid mental-state modeling is to track communication by its **social/institutional effects**, especially on commitments, permissions, and protocol states. A.2.9 reflects this via separate `institutes.commitments` and `institutes.permissions` links to `U.Commitment` and `GrantedPermissionRelation@Context` without modeling sincerity or intention.
-* **Illocutionary pluralism in multiparty discourse (2015+).** One utterance can perform multiple recognizable functions. A.2.9 avoids the “single force” trap by allowing several recognized functions on one act, while several acts sharing an utterance or carrier still require distinct occurrence grounds.
+* **Illocutionary pluralism in multiparty discourse (2015+).** One utterance can perform multiple recognizable functions. A.2.9 avoids the “single force” trap by allowing several recognized functions on one act, while several acts sharing an utterance or carrier require distinct occurrence grounds.
 * **Purpose-relative grounding evidence and structured interaction.** Clark and Brennan's (1991) purpose-relative grounding principle is a historical anchor: evidence of understanding must be sufficient for the current purpose. Studies of grounding gaps in human–LLM dialogue (Shaikh et al., 2024, 2025) reinforce the risk of presumed shared understanding, while one structured-interface study (Do et al., 2024) shows that interaction structure can help in its tested setting. Section 5.1 applies that line by naming the receiving use and evidence first, then changing the wording, representation, prerequisite, medium or interaction that blocks it. A reply, silence or favourable outcome alone does not fix meaning, prove achievement or establish causal contribution. For the named receiving use, reconsider the affected evidence threshold or interaction choice when new evidence, changed participants, a changed medium or a failed source transfer invalidates its basis.
 

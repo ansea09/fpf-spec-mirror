@@ -6,12 +6,12 @@ section_id: "A.15.4:4"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__009_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.15.4 — Work-Relevant Appearance-Based Reliance Repair"
   - "A.15.4:4 — Conformance Checklist"
-line_start: 30798
-line_end: 30807
+line_start: 31905
+line_end: 31914
 dependencies:
   - "A.10"
   - "A.13"
@@ -59,6 +59,6 @@ keywords:
 | **CC-A15.4-1 (One attempted use; proportionate prerequisite account)** | Name the attempted use. A sufficient stop or source-finding result may identify only the first missing prerequisite; before allowing the attempted use, establish every prerequisite it consumes. A sufficient ordinary note or accessible source account may carry these prerequisites. Keep their subject predicate and test, participants, required posture/currentness and dependency on the attempted use recoverable, with the kind and native project-side reference detail required by the governing rule or receiving use. If `RequiredPositionEntries` is selected, keep its five named fields matched to each direct object; use one row per object and retain native reference types rather than coercing them into a generic `U.EntityRef` list. If a prerequisite is absent or fails its posture, `AllowedUseNow` stays at the safe narrowed use. | Keeps the ordinary path light and every prerequisite under the rule or test that defines it. |
 | **CC-A15.4-2 (P2W publication use boundary)** | A principle scheme, functional diagram, scenario, screen, or explanation that exposes a P2W chain guides only the project use selected for it: method-family selection, selection of a particular Method, work planning, reliance on dated Work, or use of a work-result record or measurement. Each claim retains its own governing pattern. Claims outside that selected use require their own relation or result and source relation named by value. | Keeps P2W publication use tied to the work use under repair instead of turning publication form into project authority. |
 | **CC-A15.4-3 (Lowering and refresh)** | When a prerequisite or its applicable test cannot be recovered, state a supported narrower use or stop. Name the first failed prerequisite and its return or refresh condition. Before proceeding, keep every prerequisite consumed by that use separately recoverable, with the native reference detail required by its governing rule or receiving use. | Preserves a supported narrower use while the required prerequisite is recovered. |
-| **CC-A15.4-4 (Exact reopening judgment)** | Before allowing the attempted use, establish each consumed prerequisite under its own criterion and applicability, currentness and evidence rules. Recheck changed or failed premises and their dependents; retain unchanged applicable results. Keep permission/norm conflict separate from grant currentness: an unresolved or norm-selecting result blocks the affected use. A separately required gate and readiness result must satisfy their direct rules; neither substitutes for permission or a required commitment. | Prevents named records and green displays from replacing the current basis of the attempted use. |
+| **CC-A15.4-4 (Reopening judgment)** | Before allowing the attempted use, establish each consumed prerequisite under its own criterion and applicability, currentness and evidence rules. Recheck changed or failed premises and their dependents; retain unchanged applicable results. Keep permission/norm conflict separate from grant currentness: an unresolved or norm-selecting result blocks the affected use. A separately required gate and readiness result must satisfy their direct rules; neither substitutes for permission or a required commitment. | Prevents named records and green displays from replacing the current basis of the attempted use. |
 | **CC-A15.4-5 (Register source and effect)** | For register-backed reliance, distinguish the entry episteme, publication, authoritative-source rule and the direct relation or finding. Recover entry-producing, exercised or evaluation Work only when the rule or occurrence claim consumes it; each asserted Work needs A.13 and independent A.15.1 admission. Add F.6 only for assignment-bound attribution. A failed F.6 test alone leaves independent Work admission intact; recheck any admission premise also affected by that finding. Use the entry only for claims supported under its rule and evidence/currentness basis. | Preserves rule-governed register authority while rejecting inference from entry presence alone. |
 

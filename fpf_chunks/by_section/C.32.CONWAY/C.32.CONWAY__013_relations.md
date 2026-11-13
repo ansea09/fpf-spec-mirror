@@ -6,12 +6,12 @@ section_id: "C.32.CONWAY:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.CONWAY/C.32.CONWAY__013_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.32.CONWAY — Architecture-Influence and Transformed-Architecture Correspondence"
   - "C.32.CONWAY:12 — Relations"
-line_start: 78424
-line_end: 78432
+line_start: 82253
+line_end: 82261
 dependencies:
   - "A.10"
   - "A.12"
@@ -47,9 +47,9 @@ keywords:
 
 ### C.32.CONWAY:12 - Relations
 
-- **Builds on:** `C.32` for candidate architecture synthesis; `C.30` for exact described holons, obtaining `ArchitectureRelation` occurrences, selected `U.Structure` participants, and modal `ArchitectureClaim` content; `A.3.4` and `A.3.4.P` for the continuing changed referent and actual bounded transformation; `A.12` for acting-side externalization; `A.13` for exact actual-performer recovery; `A.15.1` for independent dated-Work admission and distributed-performer forms; `A.2.1` for assignment occurrence identity when separately represented; `F.6` for a later `performedUnderAssignment(W, RA)` relation only when precise assignment-bound attribution is consumed; direct subject relation patterns for actor-side, Work-to-change, and influence occurrences; `A.6.REL` when this episteme consumes occurrence identity; `E.18` for one TFS; and `E.18.NET` for network identity and exact cross-member relations. F.6's holder projection only compares equality with the already recovered performer.
+- **Builds on:** `C.32` for candidate architecture synthesis; `C.30` for exact described holons, obtaining `ArchitectureRelation` occurrences, selected `U.Structure` participants, and modal `ArchitectureClaim` content; `A.3.4` and `A.3.4.P` for the continuing changed referent and actual bounded transformation; `A.12` for acting-side externalization; `A.13` for exact performer recovery; `A.15.1` for independent dated-Work admission and distributed-performer forms; `A.2.1` for assignment occurrence identity when separately represented; `F.6` for a later `performedUnderAssignment(W, RA)` relation only when precise assignment-bound attribution is consumed; direct subject relation patterns for actor-side, Work-to-change, and influence occurrences; `A.6.REL` when this episteme consumes occurrence identity; `E.18` for one TFS; and `E.18.NET` for network identity and exact cross-member relations. F.6's holder projection only compares equality with the already recovered performer.
 - **Uses:** `C.32.ACS` for current architecture-characteristic criteria rows; `C.25` for composite Q-Bundles and their declared slots; `C.32.MWA.PP` for tracing work and provision dependencies and constructing changed arrangements; `C.32.MLAO` for a cross-scope residual; `C.32.FAIL` for a correspondence repair failure; `C.29` when mathematical representation choice, transfer or reliance is unresolved; and `A.6.P.WMR` and `A.6.RCD` when a required direct relation cannot be recovered.
-- **Patterns for the next questions:** `A.19.CPM` for explicit comparison, `A.19.SelectorMechanism` for set-returning selection, `G.5` for selected-set result declaration, `E.17` for a source-backed publication face and source return, `E.24.PUB` for the publication occurrence and audience availability, `C.18` and `C.19` for archive, front, or pool treatment, `C.11` for fixed local choice, `C.32.PAD` for architecture decisions, `A.10` for evidence, `B.3` for assurance, `A.21` for gate decisions, the applicable authority or permission relation for release, and the direct method, Work, or organization-governance patterns when those claims are current.
+- **Patterns for the next questions:** `A.19.CPM` for explicit comparison, `A.19.SelectorMechanism` for set-returning selection, `G.5` for selected-set result declaration, `E.17` for a source-backed publication face and source return, `E.24.PUB` for the publication occurrence and audience availability, `C.18` and `C.19` for archive, front, or pool treatment, `C.11` for fixed local choice, `C.32.PAD` for architecture decisions, `A.10` for evidence, `B.3` for assurance, `A.21` for gate decisions, the applicable authority or permission relation for release, and the method, Work, or organization-governance patterns when those claims are current.
 - **Network boundary:** an `ArchitectureInfluenceTransformedArchitectureCorrespondenceRow@Context` may be cited as one qualified reading in `architectureCorrespondenceRowRefs[]`; it is not the network and does not satisfy an E.18.NET cross-flow relation without the separately grounded obtaining occurrence and endpoint bindings. Its optional singular row locator qualifies only the exact current citing record it names.
 - **P2S docking:** `C.32.P2S` may use C.32.CONWAY when a problem-to-structure flow needs one exact architecture-influence/transformed-architecture pair. It does not infer performer or influence facts from the flow card.
 - **Boundary:** C.32.CONWAY governs correspondence framing and one exact reusable architecture-pair episteme inside candidate synthesis. It does not govern actor identity, Work occurrence, organization redesign, authority, evidence sufficiency, assurance, gate passage, release, structural-equivalence theory, final architecture decision, or transformation-flow-network identity.

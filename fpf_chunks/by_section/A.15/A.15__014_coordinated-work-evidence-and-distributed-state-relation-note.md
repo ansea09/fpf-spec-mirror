@@ -6,12 +6,12 @@ section_id: "A.15:12a"
 section_title: "Coordinated-work evidence and distributed-state relation note"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__014_coordinated-work-evidence-and-distributed-state-relation-note.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.15 — System-Role–Method–Work Alignment"
   - "A.15:12a — Coordinated-work evidence and distributed-state relation note"
-line_start: 29065
-line_end: 29090
+line_start: 30131
+line_end: 30156
 dependencies:
   - "A.10"
   - "A.13"
@@ -69,7 +69,7 @@ Use A.15 first when the claim concerns which system performed which Work, under 
 
 Application choices:
 
-1. Name the holder systems, local system-role kinds, exact assignments, Methods, Work occurrences, and separate results needed by the claim.
+1. Name the holder systems, local system-role kinds, assignments, Methods, Work occurrences, and separate results needed by the claim.
 2. State which Work occurrences and which separate C.2.1 assertions, traces, observations, reports, or metrics make the coordination visible.
 3. Ask whether ordinary system-role–Method–Work alignment explains the case. If yes, stop in A.15.
 4. Add a C.26.2 low-recoverability distributed-state reading only after establishing its collective `U.System` bearer and boundary under C.26.2, and only when no participant statement, local component report, single evidence record, dashboard, or exported representation carries the inferred state faithfully enough for its intended use. Without that collective bearer, retain ordinary A.15 alignment of individual performers.
@@ -80,7 +80,7 @@ The C.26.2 reading is a minimal evidence-bound `U.Episteme` claim about that col
 
 | Position | Required content |
 | --- | --- |
-| Evidence or provenance relation | Exact Work, or a separate assertion, trace, observation, report, or metric about it, connected to the reading through an independently established direct evidence/provenance relation. Use A.10 when a replayable source-to-use account is needed, and G.6 when a trace representation is needed. |
+| Evidence or provenance relation | Work, or a separate assertion, trace, observation, report, or metric about it, connected to the reading through an independently established direct evidence/provenance relation. Use A.10 when a replayable source-to-use account is needed, and G.6 when a trace representation is needed. |
 | Time window | The interval for which the reading is supported and any local stop; add decay or refresh conditions when the intended reuse, contest or consequential reliance needs them. |
 | Probe or occasion | The question, task, workshop, incident, handover, dashboard, or coordination situation that made the state inferable |
 | Weakest claim | The minimal distributed-state reading carried by the sources |

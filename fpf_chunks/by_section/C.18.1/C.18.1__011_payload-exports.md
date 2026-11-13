@@ -6,18 +6,17 @@ section_id: "C.18.1:10"
 section_title: "Payload — exports"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18.1/C.18.1__011_payload-exports.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.18.1 — Scaling‑Law Lens Binding (SLL)"
   - "C.18.1:10 — Payload — exports"
-line_start: 61400
-line_end: 61409
+line_start: 63851
+line_end: 63860
 dependencies:
   - "C.16"
   - "C.17"
   - "C.18"
   - "C.19"
-  - "C.24"
   - "G.10"
   - "G.5"
   - "G.9"
@@ -46,7 +45,7 @@ keywords:
 `SLL.Card@Context` (UTS row; editioned):
 `⟨S{knobs, applicable units, phase when relevant}, ScaleWindow, Scale‑Probe{points≥2, design, uncertainty basis, seeds?, CI?}, ElasticityClass χ?, ParityNotes{iso‑scale?|loss, invariants}, BridgeIds?/Φ/Ψ, PolicyIds? (E/E‑LOG), PathSliceId?⟩`.
 
-**UTS row template (conceptual; pencil‑ready).**
+**UTS row template (conceptual).**
 `SLL.Card@Context := S=(ordered variables; applicable units=…; phase when relevant=…), ScaleWindow=[LOW…HIGH], Probe=(points=…, design=…, uncertainty basis=…, seeds?=…, CI?=…), χ?=rising|knee|flat|declining, ParityNotes=(iso=true|false; invariants=…), Bridge/Φ/Ψ=(…), PolicyIds=(…), PathSliceId=(…)`.
 
 Here `χ?` means that the class is omitted when unresolved; uncertainty is not a fifth behavior class. Keep the probe account and its limitation available to the receiving comparison. An unassigned class cannot support a class-dependent preference.

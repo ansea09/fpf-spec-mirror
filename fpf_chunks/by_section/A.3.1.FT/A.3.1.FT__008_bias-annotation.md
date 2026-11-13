@@ -6,12 +6,12 @@ section_id: "A.3.1.FT:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.FT/A.3.1.FT__008_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.3.1.FT — Qualify Method Fit and Transfer"
   - "A.3.1.FT:6 — Bias-Annotation"
-line_start: 10936
-line_end: 10947
+line_start: 11337
+line_end: 11348
 dependencies:
   - "A.3.1"
   - "A.3.1.QM"
@@ -25,7 +25,7 @@ keywords:
 | Bias | Likely drift | Repair |
 | --- | --- | --- |
 | label-transfer bias | The same Method name is treated as evidence of the same Method and conditions. | Recover Method status, semantics, actual Work, and situation positions. |
-| success-generalization bias | One favourable occurrence becomes a situation-family claim. | Return the narrow fit result and name transfer evidence still missing. |
+| success-generalization bias | One favourable occurrence becomes a situation-family claim. | Return the narrow fit result and name the missing transfer evidence. |
 | uncontrolled-sameness bias | Unrecorded capability, support, and organizational conditions are called matched. | Separate matched, changed, and unknown positions with their bases. |
 | adaptation laundering | Changed reusable semantics are called local tailoring. | Return an A.3.1.MV variant question and preserve both branches. |
 | failure-totalization bias | One difficulty becomes whole-Method failure. | Determine which claim, if any, the evidence contradicts, and identify that claim's situation boundary and correction owner. |

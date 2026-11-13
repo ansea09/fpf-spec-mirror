@@ -6,12 +6,12 @@ section_id: "B.1.1:5"
 section_title: "Archetypal Grounding (Worked Cases)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.1/B.1.1__007_archetypal-grounding-worked-cases.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.1.1 — Dependency Structure and Relation Grounding"
   - "B.1.1:5 — Archetypal Grounding (Worked Cases)"
-line_start: 41337
-line_end: 41356
+line_start: 42949
+line_end: 42968
 dependencies:
   - "A.1"
   - "A.10"
@@ -35,7 +35,7 @@ keywords:
 
 Source graph: `PowerGrid -> Plant`.
 
-If the edge means electricity supply, recover that exact supply relation. It establishes neither plant parthood nor its absence. Test a separate part-whole claim under the chosen whole's identity and parthood rules; an independently admitted internal power subsystem can be both a supplier and a part.
+If the edge means electricity supply, recover that supply relation. It establishes neither plant parthood nor its absence. Test a separate part-whole claim under the chosen whole's identity and parthood rules; an independently admitted internal power subsystem can be both a supplier and a part.
 
 #### B.1.1:5.2 - Digital Twin
 
@@ -47,5 +47,5 @@ If the edge means representation, recover the architecture-description, publicat
 
 Source graph: `Prep -> Weld -> Paint`.
 
-If the graph describes a method or process view, use the patterns that define the method, description, and order claims. If it describes performed Work, use A.15.1 with occurrence identity, timing, evidence, and the exact Work relation. If one graph represents both, distinguish the Method or plan relations from the evidenced Work relations.
+If the graph describes a method or process view, use the patterns that define the method, description, and order claims. If it describes performed Work, use A.15.1 with occurrence identity, timing, evidence, and the Work relation. If one graph represents both, distinguish the Method or plan relations from the evidenced Work relations.
 

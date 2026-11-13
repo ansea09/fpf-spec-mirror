@@ -6,12 +6,12 @@ section_id: "A.2.7:7"
 section_title: "Failure Modes and Repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.7/A.2.7__009_failure-modes-and-repairs.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.2.7 — SystemRoleKindRelationStructure - Relations among System-Role Kinds"
   - "A.2.7:7 — Failure Modes and Repairs"
-line_start: 8058
-line_end: 8073
+line_start: 8391
+line_end: 8406
 dependencies:
   - "A.2"
   - "A.2.1"
@@ -34,15 +34,15 @@ keywords:
 
 | Failure | Why it fails | Repair |
 |---|---|---|
-| Job-title or taxonomy order used for admission | The order states neither the receiving rule nor its applicability. | Recover a directional admission-substitution predicate for the exact use. |
+| Job-title or taxonomy order used for admission | The order states neither the receiving rule nor its applicability. | Recover a directional admission-substitution predicate for the use. |
 | `RoboticsEngineerSystemRole` treated as a subkind because of its name | A proposed edge is used as its own membership premise. | Evaluate paired classifications independently and apply C.3.1 monotonicity. |
 | Non-monotonic restriction forced into `U.SubkindOf` | A true narrower judgment can coexist with a false broader judgment. | A known narrower-true/broader-false case refutes the proposed order. Leave it unresolved only when required information is missing; use a separately predicated residual relation if that non-monotonic restriction remains useful. |
 | Independence asserted without a joint condition | The checker cannot determine which holders, actual Work or proposed action, and windows make the allocation incompatible. | Put the holder rule, the species' actual-Work or proposed-action identity condition, temporal test, applicability and basis into the incompatibility predicate. |
-| Bundle name treated as one kind | Holder allocation and independent assignments disappear. | Keep an order-insensitive kind-set relation and exact allocation predicate. |
+| Bundle name treated as one kind | Holder allocation and independent assignments disappear. | Keep an order-insensitive kind-set relation and allocation predicate. |
 | Taxonomy or scheme made a permanent participant | Interpretation support is turned into world-side relation identity even when meaning does not change. | Keep only kind participants and predicate; include an edition in semantic basis only when the rule depends on it. |
 | Positive assertion reference used to create an occurrence | A reference and interval appear before predicate truth and individuation. | Establish truth, apply the identity rule when needed, then designate the occurrence. |
-| Structure produces a decision | A non-agentive organization is made to act. | Name the system that uses the structure and the applicable decision rule. If a particular dated checking Work is asserted, follow the performer-and-Work route in §1. |
-| Graph treated as the relation structure | Representation identity replaces selected relation identity. | Recover the exact kind constituents, selected obtaining occurrences, applied constraints, and named selection-use frame; use C.29 for the graph and its preserved and lost structure. |
+| Structure produces a decision | A non-agentive organization is made to act. | Name the system that uses the structure and the applicable decision rule. If a dated checking Work is asserted, follow the performer-and-Work route in §1. |
+| Graph treated as the relation structure | Representation identity replaces selected relation identity. | Recover the kind constituents, selected obtaining occurrences, applied constraints, and named selection-use frame; use C.29 for the graph and its preserved and lost structure. |
 | Bridge used as substitution licence | Correspondence is overread as suitability, assignment, authorization, or outcome. | Keep Bridge, bounded use, reliance, local relation, and receiving Work separate. |
 | Evaluation window declared as a participant | The receiver's target interval is confused with the world-side relation's derived extent. | Remove the temporal SlotSpec; keep `systemRoleKindRelationExtent` in an affirmative assertion or occurrence description and the target window in the receiving assertion or check. |
 

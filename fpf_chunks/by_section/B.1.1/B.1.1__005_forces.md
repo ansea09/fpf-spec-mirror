@@ -6,12 +6,12 @@ section_id: "B.1.1:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.1/B.1.1__005_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.1.1 — Dependency Structure and Relation Grounding"
   - "B.1.1:3 — Forces"
-line_start: 41257
-line_end: 41265
+line_start: 42869
+line_end: 42877
 dependencies:
   - "A.1"
   - "A.10"

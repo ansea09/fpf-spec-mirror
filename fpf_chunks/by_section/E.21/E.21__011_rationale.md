@@ -6,12 +6,12 @@ section_id: "E.21:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.21/E.21__011_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
   - "E.21:9 — Rationale"
-line_start: 114327
-line_end: 114332
+line_start: 121544
+line_end: 121549
 dependencies:
   - "A.17-A.19"
   - "A.19.ECS"
@@ -36,7 +36,7 @@ keywords:
 
 ### E.21:9 - Rationale
 
-`E.21` keeps the declared measurement structure simple: one checked-object class, one ordinal scale, one required coordinate set, one non-arithmetic `PatternQualityQBundle` result payload, one local status set, and one stop-condition form. The specification marks no coordinate inactive; an evaluator applies them all, and the result episteme states what value the exact checked pattern edition and named evidence basis support under the declared use.
+`E.21` keeps the declared measurement structure simple: one checked-object class, one ordinal scale, one required coordinate set, one non-arithmetic `PatternQualityQBundle` result payload, one local status set, and one stop-condition form. All coordinates remain active. The evaluator applies them all, and the result episteme states what value the exact checked pattern edition and named evidence basis support under the declared use.
 
 The mature-pattern parity coordinate tests whether formally clean wording also carries the worked slices, source carry-through, lowering conditions, and transfer coverage selected from mature FPF patterns for the declared use. Carry those selected ingredients in the body or the neighboring pattern that governs the claim; length alone establishes none of them.
 

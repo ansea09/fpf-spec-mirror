@@ -6,12 +6,12 @@ section_id: "C.39.RP:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.RP/C.39.RP__005_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.39.RP — Organize a Repertoire for Method Development"
   - "C.39.RP:3 — Forces"
-line_start: 84188
-line_end: 84198
+line_start: 88343
+line_end: 88353
 dependencies:
   - "A.3.1.DR"
   - "A.3.1.MR"
@@ -28,8 +28,8 @@ keywords:
 | --- | --- |
 | Reuse | A repertoire should save future search, while a universal catalogue accumulates irrelevant and stale entries. |
 | Breadth | Important alternatives may sit outside Method Engineering literature, while undirected collection becomes a bibliography. |
-| Stable reference | Exact identities and editions aid replay, while practices and descriptions continue to change. |
+| Stable reference | Identities and editions aid replay, while practices and descriptions continue to change. |
 | Lineage | Provenance explains where a contribution came from, while ancestry is easily overread as causation, quality, or family membership. |
-| Honest incompleteness | Missing positions should remain visible, while teams are tempted to fill them with plausible names or inferred relations. |
+| Incompleteness | Missing positions should remain visible, while teams are tempted to fill them with plausible names or inferred relations. |
 | Local comparison | A temporary grouping can make a decision tractable, while its label can be mistaken for a world-side family. |
 

@@ -6,12 +6,12 @@ section_id: "E.18.2:6"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.2/E.18.2__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.18.2 — Transformation Flow Mathematical Description"
   - "E.18.2:6 — Common Anti-Patterns and How to Avoid Them"
-line_start: 111636
-line_end: 111645
+line_start: 118620
+line_end: 118629
 dependencies:
   - "A.10"
   - "A.15"
@@ -43,6 +43,6 @@ keywords:
 | **Graph-as-world.** A graph-shaped expression is treated as the project-world structure because it is visually convincing. | Name whether the current EoC is one E.18 TFS, one E.18.NET network, an E.18.2 mathematical description, a C.29 lens-use judgment, or an E.17 publication face. |
 | **Path-as-procedure.** A mathematical path or path slice is read as a required project procedure. | Keep it as a mathematical relation over a selected structure; use method or work-plan patterns for procedures. |
 | **Algebra-as-mechanism.** An operation law or equation system is treated as a realized mechanism. | Use A.6.0 for formal substrate and A.6.1 for mechanism claims; keep E.18.2 to the expression relation. |
-| **Fold-as-identity.** A quotient, fold, or coarsening erases detail and is then used as if nothing was lost. | State preserved structure, lost structure, and lost-structure return condition; use C.29 when the adequacy of the fold matters. |
+| **Fold-as-identity.** A quotient, fold, or coarsening erases detail and is then used as if nothing was lost. | State what the expression preserves, what it loses, and when to return to the lost detail; use C.29 when the adequacy of the fold matters. |
 | **Diagram-as-architecture adequacy.** A clean diagram is treated as proof that the architecture is good. | Use `C.30` for the architecture claim, `C.30.ASV` for architecture structural-view adequacy, and `C.31` for reusable-structure characteristics; `E.18.2` only describes one already selected TFS or network mathematically. |
 

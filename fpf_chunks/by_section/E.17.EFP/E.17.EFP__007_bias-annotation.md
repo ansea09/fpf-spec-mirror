@@ -6,12 +6,12 @@ section_id: "E.17.EFP:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.EFP/E.17.EFP__007_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.17.EFP — ExplanationFaithfulnessProfile — explanation-use discipline over existing MVPK faces"
   - "E.17.EFP:6 — Bias-Annotation"
-line_start: 108417
-line_end: 108421
+line_start: 115098
+line_end: 115102
 dependencies:
   - "A.10"
   - "A.15"
@@ -43,5 +43,5 @@ keywords:
 ### E.17.EFP:6 - Bias-Annotation
 
 
-Scope: **Conditional** where explanation-class ambiguity changes use. External source grounding is limited to generated, model-facing, retrieval-facing, or interactive explanation. The simpler-note non-use condition applies whenever that note performs the task; ordinary human-authored use remains a local design branch.
+Scope: **Conditional** where explanation-class ambiguity changes use. External source grounding is limited to generated, model-facing, retrieval-facing, or interactive explanation. The simpler-note non-use condition applies whenever that note performs the task. Ordinary human-authored use remains a local design branch.
 

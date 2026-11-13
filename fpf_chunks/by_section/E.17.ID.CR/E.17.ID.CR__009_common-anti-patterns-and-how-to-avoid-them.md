@@ -6,12 +6,12 @@ section_id: "E.17.ID.CR:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.ID.CR/E.17.ID.CR__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.17.ID.CR — Compare Sources Within a Shared Review Frame (ComparativeReviewUnit)"
   - "E.17.ID.CR:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 109167
-line_end: 109179
+line_start: 115885
+line_end: 115897
 dependencies:
   - "A.15"
   - "A.15.2"
@@ -44,11 +44,11 @@ keywords:
 | Anti-pattern | Why it is wrong | How to avoid it |
 | --- | --- | --- |
 | **Comparison-unit instability** | The text sounds as if it governs a note in one section, a publication unit in another, a comparative move in a third, and a whole review process in a fourth. | Stabilise one bounded comparative review unit early and keep note, sheet, UI, and rendering labels explicit as ordinary forms of that object rather than stylistic substitutes. |
-| **Bridge gloss inflation** | A helpful comparative sentence or stance word starts acting like a Bridge or use licence. | Require `bridgeOccurrenceRef` and `boundedUseClaimRef`; keep any Card optional, and use `bridgeStanceRef` only for a separate F.9.1 episteme about that exact claim. |
+| **Bridge gloss inflation** | A helpful comparative sentence or stance word starts acting like a Bridge or use licence. | Require `bridgeOccurrenceRef` and `boundedUseClaimRef`; keep any Card optional, and use `bridgeStanceRef` only for a separate F.9.1 episteme about that claim. |
 | **Soft prompt or choice smuggling** | The review unit has begun asking for an explanation or selecting an action but hides that change in comparative prose. | For an explanatory question with rival explanations still open, use `B.5.2.0` or `B.5.2` and publish the prompt's species, open question, scope, and motivating provenance. For a choice among already available actions, probes, or method options, use `C.11`; choice alone requires no `U.AbductivePrompt`. |
-| **Viewing capture** | Same-entity restatement or representation-shift work is pulled into interpretation just because the result is more readable. | Name the base source relation or representation work first and use bounded comparison only when bounded comparative lift is primary. |
+| **Viewing capture** | Same-entity restatement or representation-shift work is pulled into interpretation on the strength of improved readability alone. | Name the base source relation or representation work first and use bounded comparison only when bounded comparative lift is primary. |
 | **Explanation-face laundering** | Interpretation language is used to avoid explicit `E.17.EFP` class and bounded-use review. | If face class or bounded connective prose is primary, stay with `E.17.EFP`. |
-| **Gentle-tone advisory overread** | A calm explanatory tone can conceal a particular unsupported recommendation, assurance or gate claim. | State the actual use limit and recover the grounds required by that stronger claim when it is requested. |
+| **Gentle-tone advisory overread** | A calm explanatory tone can conceal an unsupported recommendation, assurance or gate claim. | State the applicable use limit and recover the grounds required by that stronger claim when it is requested. |
 | **EntityOfConcern shift** | A changed target is mislabeled as interpretation because the prose still sounds comparative. | Apply `OntologicalReframing` or `A.6.4` once continuity witnesses or changed target govern the claim. |
 | **Interface neutrality fiction** | A guided or contrastive aid pretends to be audience-neutral while steering blocked downstream use. | Make `targetUserModel`, `interactionMode`, and `contrastiveQuestion` explicit and keep the non-bounded use forbidden. |
 

@@ -6,12 +6,12 @@ section_id: "E.4.PFIP:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFIP/E.4.PFIP__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.4.PFIP — Principle-Framework Publication Integration and Preservation"
   - "E.4.PFIP:3 — Forces"
-line_start: 96114
-line_end: 96125
+line_start: 101264
+line_end: 101275
 dependencies:
   - "C.2.1"
   - "C.33"
@@ -31,11 +31,11 @@ keywords:
 
 | Force | Tension |
 | --- | --- |
-| Accepted change vs predecessor continuity | The candidate must realize new decisions without treating all other predecessor content as disposable. |
-| Complete traversal vs affordable use | Every predecessor content or selected structure required for the declared use needs an outcome, but ordinary retained content should not create a large positive ledger. |
+| Accepted change vs predecessor continuity | Realize the new decisions in the candidate without treating all other predecessor content as disposable. |
+| Complete traversal vs affordable use | Every item of predecessor content or selected structure required for the declared use needs an outcome, but ordinary retained content should not create a large positive ledger. |
 | Several forms vs truthful comparison | The same edition may have several forms, yet shared use or shared carriers do not make those forms one eligible comparison pair. |
 | Text convenience vs structural meaning | Line and span diffs are cheap for comparable text; diagrams, cards, and retrieval forms need their own content or selected-structure inventories. |
 | Form evolution vs content disposition | A form can be retired, split, or merged without authorizing the retirement of what it expressed. |
 | Reuse vs local specificity | FPF, DPF, and LPF publications share the integration problem, while an applicable FPF pattern still defines or constrains what matters for each form and use. |
-| Strong assurance vs bounded result | The comparison can expose loss and support later reliance; later admission, publication, release, or assurance decisions use their own methods. |
+| Strong assurance vs bounded result | The comparison can expose loss and support later reliance. Later admission, publication, release, or assurance decisions use their own methods. |
 

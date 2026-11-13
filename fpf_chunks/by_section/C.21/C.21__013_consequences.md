@@ -6,12 +6,12 @@ section_id: "C.21:11"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__013_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:11 — Consequences"
-line_start: 62778
-line_end: 62785
+line_start: 65331
+line_end: 65338
 dependencies:
   - "A.10"
   - "A.17-A.18"
@@ -52,5 +52,5 @@ keywords:
 
 **Costs.** A numerical or reused claim must expose its definition and comparison basis. A comparison that depends on semantic correspondence between distinct local senses additionally needs the obtaining relation, bounded-use claim, loss account and applicable reliance basis.
 
-**Risks avoided.** False maturity ladders, hidden polarity reversal, scope substitution, Bridge inflation, stale trends, publication-as-result, and assurance-by-record are blocked.
+**Risks avoided.** The pattern prevents false maturity ladders, hidden polarity reversal, scope substitution, unnecessary Bridges, stale trends, treating a publication as a result, and treating a record as assurance.
 

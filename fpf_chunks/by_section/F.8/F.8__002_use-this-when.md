@@ -6,12 +6,12 @@ section_id: "F.8:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__002_use-this-when.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision for a Name"
   - "F.8:0 — Use This When"
-line_start: 120742
-line_end: 120774
+line_start: 128396
+line_end: 128428
 dependencies:
   - "A.11"
   - "A.15"
@@ -64,7 +64,7 @@ keywords:
 
 **Plain name.** Keep, reuse, or strengthen a name.
 
-Use F.8 after the subject is known and a project must decide the smallest naming treatment for one expression and one use. Start only when these four facts are available: the expression, the governed value or relation, its subject pattern, and the proposed naming use.
+Use F.8 after the subject is known and a project must choose the least burdensome adequate naming treatment for one expression and one use. Start only when these four facts are available: the expression, the governed value or relation, its subject pattern, and the proposed naming use.
 
 Typical triggers include:
 
@@ -74,9 +74,9 @@ Typical triggers include:
 - a governed value may need a durable name, public row, or policy identifier; and
 - pressure for a new U-kind appears. That last case stops before naming until E.24.UK has returned a stable admission disposition.
 
-**Primary working object.** One F.8 disposition for the expression and proposed use. Ordinary naming needs no separate decision-occurrence or result-episteme identity. If a later claim must cite, replay or assign accountability to the decision itself, use the separately triggered branch in §4.5.
+**Primary working object.** One F.8 disposition for the expression and proposed use. Ordinary naming needs no separate decision-occurrence or result-episteme identity. If a later claim must cite, replay or assign accountability to the decision itself, use §4.5.
 
-**Primary working reader.** A practitioner choosing whether an expression should stay local, reuse a name, or open a stronger naming path.
+**Primary working reader.** Use F.8 when you need to decide whether to keep an expression local, reuse a name or use a naming treatment that local wording or reuse cannot supply.
 
 **First useful move.** Recover the four starting facts, then select the least burdensome treatment that supports the use: a local phrase, an existing designation, an alias, the subject pattern's name or an admitted F.17 row. Reuse known grounds for that choice; compare other treatments when their adequacy could change it. Open a cell, NameCard, public row or policy identifier only when the receiving use needs it.
 

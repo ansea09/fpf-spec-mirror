@@ -6,12 +6,12 @@ section_id: "A.21:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.21/A.21__014_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.21 — Gate Decisions from Independent Check Results"
   - "A.21:12 — Relations"
-line_start: 40099
-line_end: 40109
+line_start: 41677
+line_end: 41687
 dependencies:
   - "A.10"
   - "A.15.5"
@@ -34,7 +34,7 @@ keywords:
 
 ### A.21:12 - Relations
 
-- `A.20` supplies exact internal-constraint results or a complete required-set summary without gate policy.
+- `A.20` supplies internal-constraint results or a complete required-set summary without gate policy.
 - `E.18` supplies selected-structure positions, paths, slices, and structural crossing facts; it does not make every work-entry question a gate or crossing.
 - `A.15.5` defines full-kit and work-entry readiness and remains the ordinary route when no gate decision is current.
 - Source claims remain under the applicable subject patterns named in §4.9; safety and regulatory criteria remain with their domain patterns.

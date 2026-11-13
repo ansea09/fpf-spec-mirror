@@ -6,12 +6,12 @@ section_id: "F.6:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__002_use-this-when.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.6 — SystemRoleAssignment and Performed-Work Attribution Check"
   - "F.6:0 — Use This When"
-line_start: 120138
-line_end: 120164
+line_start: 127765
+line_end: 127793
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -51,7 +51,7 @@ keywords:
 
 **Plain name.** Check whether this already admitted Work was performed under this exact system-role assignment.
 
-Use this pattern only after A.15.1 has independently admitted a dated `U.Work` occurrence. Use F.6 when deciding whether that already admitted Work was performed under a particular assignment occurrence from the `U.SystemRoleAssignment` family. When it was, the direct world-side performed-under-assignment relation obtains. A separate assertion or record can identify the two occurrences and state that relation.
+Use F.6 only after A.15.1 has independently admitted a dated `U.Work` occurrence, and when you need to decide whether it was performed under a particular assignment occurrence from the `U.SystemRoleAssignment` family. When it was, the direct world-side performed-under-assignment relation obtains. A separate assertion or record can identify the two occurrences and state that relation.
 
 Typical moments:
 
@@ -64,13 +64,15 @@ Typical moments:
 
 **Primary EntityOfConcern.** One obtaining `performedUnderAssignment` relation occurrence between a `U.Work` occurrence and an assignment occurrence whose species is declared under `U.SystemRoleAssignment`.
 
-**Primary working reader.** An engineer, operator, Method author, manager, or FPF author deciding whether a performed-Work attribution is grounded strongly enough for the next use.
+**Primary working reader.** An engineer, operator, Method author, manager or FPF author can use this check to decide whether an attribution is sufficiently grounded for its next use.
 
-**First useful move.** Confirm that A.15.1 has already admitted the exact dated Work without using an F.6 conclusion. Name that Work and the assignment occurrence under which it is said to have been performed. Recover the assignment's declared species and participant values, then confirm that the actual performer already has the A.13 core for this action and any scope, working situation and window needed by the attribution use and that this is the same obtaining assignment. Evidence supports those core facts; a characteristic profile enters only for a consumed Grade, autonomy or profile result, criterion-dependent characteristic, or assurance use. Ask what direct case fact links the exact pair. Confirm holder equality and interval coverage; those checks alone do not create the link. If the case does not establish the pair, leave the attribution unresolved. Retain independently admitted Work while its admission grounds hold; apply section 4.2's premise-recheck rule when the same finding also defeats one of those grounds. When the case establishes the pair and the required grounds hold, say plainly that the holder System performed the Work under that assignment.
+**First useful move.** Confirm that A.15.1 has already admitted the exact dated Work without using an F.6 conclusion. Name that Work and the assignment occurrence under which it is said to have been performed. Recover the assignment’s declared species and participant values. Confirm that the actual performer has the A.13 core for this action and any scope, working situation and window needed by the attribution use. Check that this is the same assignment occurrence that obtains under A.13. Evidence supports those core facts; a characteristic profile enters only for a consumed Grade, autonomy or profile result, criterion-dependent characteristic, or assurance use.
+
+Ask what direct case fact links the exact pair. Confirm holder equality and interval coverage; those checks alone do not create the link. If the facts leave the pair undecided, leave it unresolved. If they rule this pair out, say so. Retain independently admitted Work while its admission grounds hold; apply section 4.2's premise-recheck rule when the same finding also defeats one of those grounds. When the case establishes the pair and the required grounds hold, say that the holder System performed the Work under that assignment.
 
 **What goes wrong if missed.** Assignment is treated as proof of Work, a label replaces the assignment occurrence, a generic assignment duplicate erases a stronger appointment, or a log or report is made the performer. When several assignments overlap, interval coverage then attributes the same Work to all of them even though the exact pair was never established.
 
-**What this buys.** Attribution is one thin relation. The holder System remains the actor, the assignment occurrence remains linked to its species and participant values, and Work, Method, capability, state, result, evidence, publication, and cross-context use remain separate.
+**What this buys.** Attribution is one relation between the Work and assignment occurrences. The holder System remains the actor, the assignment occurrence remains linked to its species and participant values, and Work, Method, capability, state, result, evidence, publication, and cross-context use remain separate.
 
 **Not this pattern when.** Use `A.2` for the system-role kind and classification, `A.2.1` for assignment species and occurrence identity, `A.2.5` for assignment state, `A.2.2` for capability, and `A.15.1` for the Work occurrence. Use the direct evidence, source-reliance, publication, access, authority, permission, responsibility, status, gate, or decision pattern when that relation is current. Use `E.10.ROLE` and `A.6.RSIR` when *role* denotes another object or relation position.
 

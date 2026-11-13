@@ -6,12 +6,12 @@ section_id: "C.31:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31/C.31__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.31 — Modularity and Reusable Structure Characteristics"
   - "C.31:1 — Problem frame"
-line_start: 75077
-line_end: 75110
+line_start: 78483
+line_end: 78535
 dependencies:
   - "A.10"
   - "A.17"
@@ -67,13 +67,32 @@ ModularityVectorLite:
   stopCondition:
 ```
 
-For the first diagnostic move, select the characteristics needed to explain the observed problem and choose the next warranted repair. Keep this first inquiry small while preserving every distinction that changes that move. A clearly bounded report-only proxy can be a sufficient result.
+For the first diagnostic move, select the characteristics needed to explain the observed problem and choose the next warranted repair. Keep this first inquiry small while preserving every distinction that changes that move. A bounded report-only proxy can be a sufficient result.
 
 Claim-use boundary: before relying on a characteristic for comparison, causal explanation, assurance, selection or another further use, establish the grounds required by that claim. Making a qualified local account available to an audience preserves its limits; publication alone does not turn it into a measurement or a selection result. Add only the information on which the receiving use depends.
 
-What goes wrong if C.31 is missed: "modular" becomes a binary label; a single modularity score hides incompatible characteristics; interface publication is confused with substitutability; internal cohesion is improved while evidence reuse gets worse; bespoke residue moves from templates into work or assurance; and complexity language becomes a commensurable score without a declared characteristic, scale, measurement basis, comparison basis, or admissible-use boundary.
+What goes wrong if C.31 is missed:
+
+- "modular" becomes a binary label;
+- a single modularity score hides incompatible characteristics;
+- interface publication is confused with substitutability;
+- internal cohesion is improved while evidence reuse gets worse;
+- bespoke residue moves from templates into work or assurance; and
+- complexity language becomes a commensurable score without a declared characteristic, scale, measurement basis, comparison basis, or admissible-use boundary.
 
 What C.31 buys in practice: the practitioner can choose the modularity characteristic that matters, identify a warranted repair, and determine what further measurement, evidence, causal, scale, selection or accounting grounds the intended use requires.
 
-Not this pattern when the question under repair is only source-label recovery, module-interface relation repair, reusable-structure accounting, general measurement admissibility, quality-family claim, architecture scale-preference claim, mathematical-lens use, candidate architecture synthesis, or selection. Use `C.30.STRAT`, `A.6.M`, `C.31.RSA`, `C.16`, `C.25`, `C.31.ASAP`, `C.29`, `C.32`, `G.5`, or `C.11` as appropriate: `C.32` governs candidate architecture synthesis, `G.5` selected-set result declaration, and `C.11` local choice.
+For a question limited to one of the following, use the indicated pattern instead of C.31:
+
+| Question | Pattern |
+| --- | --- |
+| Source-label recovery | `C.30.STRAT` |
+| Module-interface relation repair | `A.6.M` |
+| Reusable-structure accounting | `C.31.RSA` |
+| General measurement admissibility | `C.16` |
+| Quality-family claim | `C.25` |
+| Architecture scale-preference claim | `C.31.ASAP` |
+| Mathematical-lens use | `C.29` |
+| Candidate architecture synthesis | `C.32` |
+| Selection | `G.5` for selected-set result declaration; `C.11` for local choice |
 

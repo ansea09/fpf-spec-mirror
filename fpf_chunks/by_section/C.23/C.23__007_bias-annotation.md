@@ -6,12 +6,12 @@ section_id: "C.23:6"
 section_title: "Bias‑Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.23/C.23__007_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.23 — MethodFamily Evidence & Maturity (Method‑SoS‑LOG)"
   - "C.23:6 — Bias‑Annotation"
-line_start: 64527
-line_end: 64530
+line_start: 67354
+line_end: 67357
 dependencies:
   - "A.10"
   - "B.3"

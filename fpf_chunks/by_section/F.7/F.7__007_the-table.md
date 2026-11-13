@@ -6,12 +6,12 @@ section_id: "F.7:6"
 section_title: "The table"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.7/F.7__007_the-table.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.7 — Display Source-Local Comparisons in a Concept-Set Table"
   - "F.7:6 — The table"
-line_start: 120559
-line_end: 120576
+line_start: 128213
+line_end: 128230
 dependencies:
   - "A.6.9"
   - "B.3"
@@ -39,12 +39,12 @@ keywords:
 
 ### F.7:6 - The table
 
-Use the smallest columns that make the current argument recoverable:
+Choose the fewest columns that make the current argument recoverable:
 
 | Comparison or use | Exact source-local entries | Obtaining relations and direction | Loss and boundary | Basis and evidence | Receiving-use conclusion |
 | --- | --- | --- | --- | --- | --- |
 
-For a teaching contrast, the relation column may say **none asserted** and the conclusion may say **keep distinct**. For an F.9 relation, show its declared relation kind, direction, CL if that relation actually defines one, and loss. Do not compute a row-wide CL or replace the separate bounded-use claim with a table label.
+For a teaching contrast, the relation column may say **none asserted** and the conclusion may say **keep distinct**. For an F.9 relation, show its declared relation kind, direction, CL if the relation defines one, and loss. Do not compute a row-wide CL or replace the separate bounded-use claim with a table label.
 
 **Reading rules:**
 

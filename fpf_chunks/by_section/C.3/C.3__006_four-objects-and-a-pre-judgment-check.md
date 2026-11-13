@@ -6,12 +6,12 @@ section_id: "C.3:4"
 section_title: "Four Objects and a Pre-judgment Check"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__006_four-objects-and-a-pre-judgment-check.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.3 — Kinds, Intent and Extent, and Typed Reasoning"
   - "C.3:4 — Four Objects and a Pre-judgment Check"
-line_start: 55108
-line_end: 55122
+line_start: 57388
+line_end: 57402
 dependencies:
   - "A.1"
   - "A.11"
@@ -57,5 +57,5 @@ Keep these four objects separately recoverable:
 
 Before the judgment, C.3.2 returns `admissible` or `not-applicable`. Candidate mismatch with the declared `ValueKind`, or a slice outside declared applicability, is `not-applicable` and no three-valued judgment is formed. Missing support or an unavailable dependency for an admissible candidate instead yields `unknown`.
 
-Scope is not a fifth part of the kind. A `KindSignature` episteme may carry its own `U.ClaimScope`, and a separate classification assertion carries the scope of that assertion. The `U.ContextSlice` is an evaluation input.
+The kind does not carry scope. A `KindSignature` episteme may carry its own `U.ClaimScope`, and a separate classification assertion carries the scope of that assertion. The `U.ContextSlice` is an evaluation input.
 

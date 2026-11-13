@@ -6,12 +6,12 @@ section_id: "C.39.QR:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.QR/C.39.QR__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.39.QR — Return Results to the Original Question"
   - "C.39.QR:2 — Problem"
-line_start: 82978
-line_end: 82985
+line_start: 87020
+line_end: 87027
 dependencies:
   - "C.11.DUA"
   - "C.39"
@@ -26,5 +26,5 @@ A team can produce a correct result and still lose the work it was asked to do. 
 
 Two judgements are involved. One concerns what a result obtained through a working construction warrants about the subject. The other concerns whether the work result answers the original question sufficiently for its intended use. A sound first judgement may leave the second unresolved: an accurate estimate can be useful while the requested explanation, decision or operational capability is still missing.
 
-The loss can persist through review when later performers inherit the smaller question from the candidate, task breakdown or earlier verdict. Repair requires recovering the encompassing question and constructing its missing answer. Another correct local result can contribute to that work, provided its actual role and limits remain visible.
+The loss can persist through review when later performers inherit the smaller question from the candidate, task breakdown or earlier verdict. Repair requires recovering the encompassing question and constructing its missing answer. Another correct local result can contribute to that work, provided its role and limits remain visible.
 

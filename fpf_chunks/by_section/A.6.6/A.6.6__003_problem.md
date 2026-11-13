@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.6"
-pattern_title: "Base Declaration Discipline: Say Exactly What Something Depends On"
+pattern_title: "Base Declaration Discipline: Say What Something Depends On"
 section_id: "A.6.6:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.6.6 — Base Declaration Discipline: Say Exactly What Something Depends On"
+  - "A.6.6 — Base Declaration Discipline: Say What Something Depends On"
   - "A.6.6:2 — Problem"
-line_start: 23658
-line_end: 23694
+line_start: 24579
+line_end: 24615
 dependencies:
   - "A.10"
   - "A.14"
@@ -50,10 +50,10 @@ Typical failure modes this pattern is designed to eliminate:
    The same situation is described alternately as “X is anchored/grounded” and “Y is an anchor/ground”, with incompatible naming, hidden directionality, and silent re-typing of the ends.
 
 3. **Base–witness confusion.**
-   Evidence, pins, certificates, or proofs are treated as “the base”, even when they are only witnesses for a base relation (or conversely: a true base is treated as a mere witness).
+   Evidence, pins, certificates, or proofs are treated as “the base”, even when they are only witnesses for a base relation (or conversely: a base is treated as a mere witness).
 
 4. **Scope/time collapse.**
-   A time-dependent assertion leaves its applicable interval or temporal rule unclear, so readers cannot tell which case it covers.
+   A time-dependent assertion leaves its interval or temporal rule unclear, so readers cannot tell which case it covers.
 
 5. **`Γ_time` used as a proxy for freshness.**
    Authors treat `Γ_time` as “freshness” or “evidence decay”, collapsing TimePolicy with witness-timespan/freshness predicates.
@@ -71,7 +71,7 @@ Typical failure modes this pattern is designed to eliminate:
    A.6.5 separates a declaration-local SlotSpec, a designation carried in an episteme and the actual participant. Editing a designation does not itself change the obtaining relation.
 
 9. **Anchor relapse (source or meaning surrogate).**
-   “Anchor/anchoring” is used to mean “the source”, “the meaning”, “the global reference”, or “the thing that makes this true”. This hides the exact source, scheme, expression, local claim, and any obtaining basis relation behind a metaphor; the phrase alone does not let a reviewer recover them.
+   “Anchor/anchoring” is used to mean “the source”, “the meaning”, “the global reference”, or “the thing that makes this true”. This hides the source, scheme, expression, local claim, and any obtaining basis relation behind a metaphor; the phrase alone does not let a reviewer recover them.
 
 10. **Support bucket relapse.**
     “Support”, “support basis”, “support relation”, or “support record” is used as a generic container for unlike relations. Some cases are direct base-dependence; others are evidence use, assurance input, causal-use support basis, mathematical-lens use, work enablement, source description, publication companionship, or ordinary help. Treating them as one support relation recreates the under-described dependence that A.6.6 is meant to repair.

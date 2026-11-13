@@ -6,12 +6,12 @@ section_id: "A.19.SPR:5"
 section_title: "Worked examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SPR/A.19.SPR__007_worked-examples.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.19.SPR — Repair State and Status Wording"
   - "A.19.SPR:5 — Worked examples"
-line_start: 35436
-line_end: 35471
+line_start: 36938
+line_end: 36973
 dependencies:
   - "A.10"
   - "A.16"
@@ -53,7 +53,7 @@ Each example starts with wording for the stated use; §4 determines which furthe
 
 **After:** “Pump 37 satisfies `InspectionOperatingCondition`: its coolant temperature is 72 °C, within the 60–80 °C band, and its discharge pressure is 315 kPa, above the 300 kPa minimum.”
 
-For a relied-on inspection decision, make the measurement basis and applicable condition recoverable. Add the reading time, exact condition edition and recheck condition when the decision depends on them.
+For a relied-on inspection decision, make the measurement basis and applicable condition recoverable. Add the reading time, condition edition and recheck condition when the decision depends on them.
 
 #### A.19.SPR:5.2 - Work-entry readiness is not gate passage
 
@@ -61,7 +61,7 @@ For a relied-on inspection decision, make the measurement basis and applicable c
 
 **After:** “At 10:00, the A.15.5 check found that `PlanItem-Deploy-12` satisfied its release-entry criterion and was ready for work entry until 10:30; recheck if a required input changes.”
 
-For replay, make the plan item, criterion, input facts, result and reliance window recoverable. Identify a separate result episteme or checking Work only when that identity matters; a claimed Work needs its A.13 basis and independent A.15.1 admission, with F.6 only for precise assignment-bound attribution. The work-entry finding alone establishes no gate passage. Use A.21 for a distinct `OperationalGate(profile)` that consumes declared checks and publishes its own decision.
+For replay, make the plan item, criterion, input facts, result and reliance window recoverable. Identify a separate result episteme or checking Work only when that identity matters; a claimed Work needs its A.13 basis and independent A.15.1 admission, with F.6 only for assignment-bound attribution. The work-entry finding alone establishes no gate passage. Use A.21 for a distinct `OperationalGate(profile)` that consumes declared checks and publishes its own decision.
 
 #### A.19.SPR:5.3 - Source use and currentness
 
@@ -69,11 +69,11 @@ For replay, make the plan item, criterion, input facts, result and reliance wind
 
 **After:** “This review uses edition E7 for decision question Q. Reconsider that choice if the question or the source content needed to answer it changes.”
 
-When the decision relies on a claim from E7, assess that claim’s currentness under B.3.4 using the premises and time limits that matter to this use. Preserve exact source and result identities when the receiving operation depends on them.
+When the decision relies on a claim from E7, assess that claim’s currentness under B.3.4 using the premises and time limits that matter to this use. Preserve source and result identities when the receiving operation depends on them.
 
-#### A.19.SPR:5.4 - Other direct repairs
+#### A.19.SPR:5.4 - Other repairs
 
-- **Evidence.** Replace “evidence status incomplete” with “Reliance on claim C remains unestablished because the needed calibration basis is missing; obtain the missing calibration basis and check again.” Add exact evidence and currentness references only when the receiving decision needs them.
+- **Evidence.** Replace “evidence status incomplete” with “Reliance on claim C remains unestablished because the needed calibration basis is missing; obtain the missing calibration basis and check again.” Add evidence and currentness references only when the receiving decision needs them.
 - **Publication.** Replace “publication posture allows decision input” with “This publication exposes candidate input X for the decision; the decision rule still evaluates X.”
 - **Mathematical lens.** Keep `LensUseBoundaryValue` in C.29 when its possible values and intended lens use are defined. State what the value permits for the intended lens use under C.29.
 - **Temporal claim.** For a C.27 classification, name the temporal claim and its Dyn0, Dyn1 or Dyn2 reading. State the supported use; add the intervention account only when the claim is intervention-sensitive.

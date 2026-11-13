@@ -6,12 +6,12 @@ section_id: "A.6.3:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3/A.6.3__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.3 — Episteme viewing - EntityOfConcern-preserving episteme construction"
   - "A.6.3:1 — Problem frame"
-line_start: 17610
-line_end: 17625
+line_start: 18435
+line_end: 18450
 dependencies:
   - "A.13"
   - "A.15.1"
@@ -40,9 +40,9 @@ Several neighboring facts can all be true but are not the same fact:
 2. a declared viewing rule licenses Y's claims from X and any additional named sources or admitted facts it requires;
 3. X and Y have the same EntityOfConcern;
 4. Y makes no stronger claims than the identified sources license;
-5. Y conforms to an exact viewpoint and is therefore a `U.View`;
+5. Y conforms to a viewpoint and is therefore a `U.View`;
 6. a system performed work that first constituted Y;
-7. Y was later published through an exact form and carrier.
+7. Y was later published through a form and carrier.
 
 Ordinary use may need only items 1 through 4. The remaining claims are opened independently.
 

@@ -6,12 +6,12 @@ section_id: "C.40.OD:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OD/C.40.OD__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.40.OD — Construct and Continue Open-Ended Development"
   - "C.40.OD:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 88556
-line_end: 88571
+line_start: 92814
+line_end: 92829
 dependencies:
   - "C.32.MWA.PP"
   - "C.40.CD"
@@ -32,9 +32,9 @@ keywords:
 
 **One successful service proves recipient mastery.** Keep delivery, assisted performance, transferred capability and self-development distinct.
 
-**All research feeds today's product.** Preserve independent research ends and their actual relation to the rest of the portfolio.
+**All research feeds today's product.** Preserve independent research ends and their relation to the rest of the portfolio.
 
-**The new AI removes every human purpose.** Recompare the whole allocation against the actual retained result and duties.
+**The new AI removes every human purpose.** Recompare the whole allocation against the retained result and duties.
 
 **The example defines the Method.** Keep case assumptions local and test consequential changes that could defeat the promised use.
 

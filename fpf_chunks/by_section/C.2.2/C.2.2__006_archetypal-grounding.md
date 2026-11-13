@@ -6,28 +6,21 @@ section_id: "C.2.2:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2/C.2.2__006_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.2.2 — Reliability R in the F–G–R triad"
   - "C.2.2:5 — Archetypal Grounding"
-line_start: 52710
-line_end: 52739
+line_start: 54903
+line_end: 54933
 dependencies:
-  - "A.1.1"
-  - "A.10"
   - "A.2.6"
   - "A.21"
-  - "A.6.3.RT"
-  - "A.6.3.RT.OE"
   - "B.1.3"
   - "B.3"
-  - "B.3.3"
-  - "B.3.4"
   - "C.16"
   - "C.2"
   - "C.2.3"
   - "C.21"
-  - "C.29"
   - "C.3"
   - "C.3.3"
   - "C.3.A"
@@ -82,5 +75,6 @@ If track telemetry is used as evidence for the road claim, establish the grounds
 * `c3:` “A achieves ≥ 0.92 F1 on dataset family F under deployment preprocessing P.” (empirical)
 
 `c2` can achieve high VA through its proof under the stated axioms and domain; an empirical LA contribution may be N/A. If the conclusion is also used for an implementation, establish the correspondence between “domain D,” the proved algorithm and that implementation’s input and execution model.
+
 `c3` needs empirical support for its stated dataset and preprocessing conditions. For production use, establish the dataset/preprocessing applicability and the grounds for reusing that evidence, then apply the warranted loss of that reuse to `R_eff`; change `G` separately if the production claim has another scope. Use B.3.4 when changed conditions or an applicable review rule can alter that support; retain any required validity window or shift condition. An unchanged bounded use with still-applicable support needs no new freshness policy.
 

@@ -6,12 +6,12 @@ section_id: "B.5.QD.CF:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.QD.CF/B.5.QD.CF__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.5.QD.CF — Reformulate a Problem by Examining Its Conflicting Assumptions"
   - "B.5.QD.CF:3 — Forces"
-line_start: 49346
-line_end: 49355
+line_start: 51396
+line_end: 51405
 dependencies:
   - "B.1.5.EW"
   - "B.5.FM"
@@ -25,11 +25,11 @@ keywords:
 
 ### B.5.QD.CF:3 - Forces
 
-| Force | Working tension |
+| Force | Tension |
 | --- | --- |
 | Needed outcome and familiar means | A proven way is valuable, but familiarity can conceal an unsupported necessity claim. |
-| Clear conflict and hidden conditions | A small conflicting set is easier to inspect; other requirements can still defeat its proposed repair. |
+| Clear conflict and hidden conditions | A small conflicting set is easier to inspect; other requirements can defeat its proposed repair. |
 | Exploration and commitment | A temporary relaxation can reveal a possibility before anyone has the means or authority to realize it. |
-| Precision and effort | A formal construction can settle a consequential inference; ordinary reasoning may already locate the question. |
+| Precision and effort | A formal construction can settle a consequential inference; ordinary reasoning may locate the question. |
 | Continuity and change | A narrower question may produce useful work while leaving the original need partly unanswered. |
 

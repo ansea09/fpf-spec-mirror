@@ -6,12 +6,12 @@ section_id: "E.5:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5/E.5__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.5 — Four Guard‑Rails of FPF"
   - "E.5:2 — Problem"
-line_start: 96343
-line_end: 96346
+line_start: 101539
+line_end: 101542
 dependencies:
   - "E.2"
   - "E.3"
@@ -23,6 +23,6 @@ keywords:
 ---
 
 ### E.5:2 - Problem
-Core definitions can become tied to transient tools or one notation, acquire dependency cycles, or present domain-specific assumptions as universal. Authors need constraints that preserve reusable meanings while permitting concrete examples and different forms of expression.
+Core definitions can become tied to transient tools or one notation, acquire dependency cycles, or present domain-specific assumptions as universal. Authors need constraints that preserve reusable meanings while allowing concrete examples and different forms of expression.
 
 

@@ -6,12 +6,12 @@ section_id: "F.17:16"
 section_title: "SoTA Decision for One Reader-Facing Term Row"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__021_sota-decision-for-one-reader-facing-term-row.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.17 — Make a Settled Naming Decision Recoverable for Reuse (Unified Term Sheet)"
   - "F.17:16 — SoTA Decision for One Reader-Facing Term Row"
-line_start: 125144
-line_end: 125159
+line_start: 133051
+line_end: 133076
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -37,7 +37,6 @@ dependencies:
   - "F.10"
   - "F.14"
   - "F.15"
-  - "F.17"
   - "F.18"
   - "F.2"
   - "F.3"
@@ -47,21 +46,30 @@ dependencies:
   - "F.7"
   - "F.8"
   - "F.9"
-  - "G.11"
 keywords:
 ---
 
 ### F.17:16 - SoTA Decision for One Reader-Facing Term Row
 
-**Question and selected answer.** At the effort of settling one reusable term, what must a reader recover beyond a familiar label, and what apparatus can be left out? Applying `E.8:11`, the selected answer is one readable row that returns separately to the named value, naming decision, exact local sense, permitted citation use and any grounded blocked-use claim, and the condition that reopens the row. Create it only when that reader-facing route is needed.
+**Question and selected answer.** At the effort of settling one reusable term, what must a reader recover beyond a familiar label, and what apparatus can be left out? Under `E.8:11`, use one readable row that returns separately to the named value, naming decision, exact local sense, permitted citation use and any grounded blocked-use claim, and the condition that reopens the row. Create it only when that reader-facing route is needed.
 
-**The lightweight serious rival.** The [OntoLex Community Report, Overview, Purpose, Core, and Semantics](https://www.w3.org/2016/04/ontolex/), permits the core module alone. A fair one-term comparator is a lexical entry with a form, a sense and a reference to the already defined ontology entity, plus only the usage notes this application needs. It does not require a full lexicon, morphology or syntax graph; it is not intended to define the ontology itself. **Adapt** its expression/sense/reference separation in `5.1` and `7`. Its extensibility also permits notes or a view to expose the same decision content as an F.17 row.
+**The lightweight serious rival.** The [OntoLex Community Report, Overview, Purpose, Core, and Semantics](https://www.w3.org/2016/04/ontolex/) permits the core module alone. A fair one-term comparator is a lexical entry with a form, a sense and a reference to the already defined ontology entity, plus only the usage notes this application needs. It does not require a full lexicon, morphology or syntax graph; it is not intended to define the ontology itself.
 
-The choice is therefore not between a cheap row and an unnecessarily large graph. Hold the term, target, use conditions, and maintenance obligation fixed. A bare label or bare form/sense/reference chain lets the reader find the expression and target, but leaves the naming choice and reason to revisit it unstated, along with any blocked use that the reader needs to distinguish. Adding those statements to the lightweight rival closes that gap; a generated readable view of those same statements is an acceptable way to express the F.17 row. A different vocabulary or file format is not, by itself, an improvement or a second naming result.
+**Adapt** its expression/sense/reference separation in `5.1` and `7`. Its extensibility also permits notes or a view to expose the same decision content as an F.17 row.
 
-For an ordinary reader inspecting one term, select the explicit row because the decision and return are visible together. The deliberate trade-off is maintaining a truthful reader-facing projection instead of asking that reader to reconstruct it from linked lexical statements. When lexical tooling already produces that projection, keep it and avoid a second editable source. Conversely, when morphology, translation, or machine lexicon exchange is the actual use, the core model and only its needed extensions may be the better carrier. No measured speed advantage, blanket cost superiority, or replacement of OntoLex is claimed.
+Compare the row with the lightweight lexical entry. Hold the term, target, use conditions, and maintenance obligation fixed. A bare label or bare form/sense/reference chain lets the reader find the expression and target, but leaves the naming choice and reason to revisit it unstated, along with any blocked use that the reader needs to distinguish.
 
-**Exact effect and countercases.** Steps 1–5 of section `4`, together with sections `6` and `14`, stop at ordinary wording, a local card, or a cell when no row is needed; steps 7–8 of section `4`, together with sections `5.1` and `7`, make the row's returns explicit and keep later publication separate. The countercase in `12.2` prevents a state label from becoming a system-role kind, `12.4c` leaves ordinary mantra wording without rows, `12.4h` distinguishes a reusable structure kind from one selected instance, and `12.4i` returns the Reference name to its product-form rule without creating a product or lookup Work. These cases supply the FPF-local reason for the added decision content; the OntoLex report supplies the rival's lexical modeling capability, not validation of FPF ontology. **Reject** mandatory full-lexicon modeling, raw label familiarity as sufficient reader recovery, and the inference that a row makes its referent or publication real.
+Adding those statements to the lightweight rival closes that gap; a generated readable view of those same statements is an acceptable way to express the F.17 row. A different vocabulary or file format is not, by itself, an improvement or a second naming result.
+
+For an ordinary reader inspecting one term, select the explicit row because the decision and return are visible together. The trade-off is maintaining a truthful reader-facing projection instead of asking that reader to reconstruct it from linked lexical statements. When lexical tooling already produces that projection, keep it and avoid a second editable source.
+
+When morphology, translation, or machine lexicon exchange is the actual use, the core model and only its needed extensions may be the better carrier. No measured speed advantage, blanket cost superiority, or replacement of OntoLex is claimed.
+
+**Exact effect and countercases.** Steps 1–5 of section `4`, together with sections `6` and `14`, stop at ordinary wording, a local card, or a cell when no row is needed; steps 7–8 of section `4`, together with sections `5.1` and `7`, make the row's returns explicit and keep later publication separate.
+
+The countercase in `12.2` prevents a state label from becoming a system-role kind, `12.4c` leaves ordinary mantra wording without rows, `12.4h` distinguishes a reusable structure kind from one selected instance, and `12.4i` returns the Reference name to its product-form rule without creating a product or lookup Work.
+
+These cases supply the FPF-local reason for the added decision content; the OntoLex report supplies the rival's lexical modeling capability, not validation of FPF ontology. **Reject** mandatory full-lexicon modeling, raw label familiarity as sufficient reader recovery, and the inference that a row makes its referent or publication real.
 
 **Reopen.** Recompare when an equally small lexical entry or other presentation exposes the same decision, relevant use limits, and exact returns with less reader and maintenance effort; when a generated view drifts from its source; or when the current use needs linguistic distinctions or machine exchange omitted by the row. If the added reader projection no longer changes use, retain the simpler expression of the same content.
 

@@ -6,12 +6,12 @@ section_id: "D.5:5"
 section_title: "Ethical Assurance Boundary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.5/D.5__008_ethical-assurance-boundary.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "D.5 — Bias Audit and Ethical Assurance"
   - "D.5:5 — Ethical Assurance Boundary"
-line_start: 92375
-line_end: 92380
+line_start: 96906
+line_end: 96911
 dependencies:
   - "A.10"
   - "B.3"
@@ -30,7 +30,7 @@ keywords:
 
 ### D.5:5 - Ethical Assurance Boundary
 
-Ethical assurance is not a stamp of moral permission. It is an assurance claim that bias, fairness, impact, and accepted residuals have been examined for the current use.
+Ethical assurance is not a stamp of moral permission. It is an assurance claim that bias, fairness, impact, and accepted residuals have been examined for the use.
 
 Use `B.3` for the assurance relation. Establish the needed evidence and its currentness through the applicable subject and source rules; use `A.10` when the source-to-use relation is implicit or must be made replayable. Use `D.3` to describe an interlevel ethical conflict and `D.4` to mediate or use it in a decision. Use `C.30.ILC` when the issue is an architecture residual rather than a bias or fairness audit.
 

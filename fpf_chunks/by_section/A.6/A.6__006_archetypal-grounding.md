@@ -6,12 +6,12 @@ section_id: "A.6:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6/A.6__006_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6 — Signature Stack: Classify and Place Boundary Claims"
   - "A.6:5 — Archetypal Grounding"
-line_start: 14109
-line_end: 14179
+line_start: 14566
+line_end: 14636
 dependencies:
   - "A.10"
   - "A.15"
@@ -81,9 +81,9 @@ The two cases below distinguish declaration, admissibility, governance and actua
 
 * **Actual occurrence and work layer.**
 
-  * The payment-handling occurrence is `U.Work` only when its exact actual performer first has the A.13 core and A.15.1 independently admits the occurrence from its Method, time, containing System, and other required direct facts. If this payment account also asks under which assignment the performer acted, add F.6 through the same obtaining A.13 assignment; missing or failed attribution leaves the payment Work intact.
-  * The ledger reservation change, event emission, timer transition, or retry effect is a separate actual-occurrence claim under A.3/A.3.4 or its exact interaction or causal-use pattern. Check each effect separately: knowing that the payment Work occurred does not show that the ledger changed, an event was emitted, or a retry happened.
-  * Traces, logs, and metrics enter an A.10 evidence path for the exact effect being relied on; carrier presence creates neither Work nor change.
+  * The payment-handling occurrence is `U.Work` only when its actual performer first has the A.13 core and A.15.1 independently admits the occurrence from its Method, time, containing System, and other required direct facts. If this payment account also asks under which assignment the performer acted, add F.6 through the same obtaining A.13 assignment; missing or failed attribution leaves the payment Work intact.
+  * The ledger reservation change, event emission, timer transition, or retry effect is a separate actual-occurrence claim under A.3/A.3.4 or its interaction or causal-use pattern. Check each effect separately: knowing that the payment Work occurred does not show that the ledger changed, an event was emitted, or a retry happened.
+  * Traces, logs, and metrics enter an A.10 evidence path for the effect being relied on; carrier presence creates neither Work nor change.
 * **Publication faces (MVPK).**
 
   * PlainView: narrative for stakeholders (what the service promise is, in plain terms).
@@ -99,9 +99,9 @@ The two cases below distinguish declaration, admissibility, governance and actua
 * “Clients MUST include Idempotency-Key” is a D prescription. If an admission rule also requires that header, reference that rule’s predicate; the three-condition predicate above does not include it. An obtaining individual `U.Commitment` additionally needs the actual bearer, constitutive rule, instituting basis and direct predicate under A.2.8.
 * “System emits AuthorizationRecord” is ambiguous between a generic emission rule and an actual event report. Only the actual-event reading belongs in E, with its occurrence basis supplied; the wording alone does not choose that reading.
 
-**Changing this API.** Suppose the proposed replacement keeps the fields and the three-condition admission predicate above, but changes `APPROVED` to mean only that a request was queued. Apply §4.7 to an existing client that relies on the stated reservation law. That law is no longer met at the response, so preserving the message type is insufficient for this replacement. Keeping `APPROVED` for an actual reservation preserves this particular claim; introducing `PENDING` requires an explicit protocol and changed client handling. Other compatibility conditions remain to be checked.
+**Changing this API.** Suppose the proposed replacement keeps the fields and the three-condition admission predicate above, but changes `APPROVED` to mean only that a request was queued. Apply §4.7 to an existing client that relies on the stated reservation law. That law is no longer met at the response, so preserving the message type is insufficient for this replacement. Keeping `APPROVED` for an actual reservation preserves this claim; introducing `PENDING` requires an explicit protocol and changed client handling. Other compatibility conditions remain to be checked.
 
-Alternatively, suppose the replacement adds `hasHeader(Idempotency-Key)` to the admission predicate. The existing D prescription already requires that header, but the old A predicate admits requests without it. For clients promised the old admitted-input set, the added condition is a restriction. For a use explicitly limited to requests that already carry the header, this particular restriction excludes no additional input. The compatibility conclusion therefore names the receiving population. Changing only the `AuthorizationRecord` schema instead returns to its consumers and evidence links; it need not change either the reservation law or admission rule.
+Alternatively, suppose the replacement adds `hasHeader(Idempotency-Key)` to the admission predicate. The existing D prescription already requires that header, but the old A predicate admits requests without it. For clients promised the old admitted-input set, the added condition is a restriction. For a use explicitly limited to requests that already carry the header, this restriction excludes no additional input. The compatibility conclusion therefore names the receiving population. Changing only the `AuthorizationRecord` schema instead returns to its consumers and evidence links; it need not change either the reservation law or admission rule.
 
 #### A.6:5.3 - Published evaluation protocol
 
@@ -115,7 +115,7 @@ Alternatively, suppose the replacement adds `hasHeader(Idempotency-Key)` to the 
 
 * **Effects and evidence:** the dated evaluation run is a Work occurrence only when A.15.1 grounds it; its result episteme, any model or dataset change, and the report publication remain separate. Report files, logs, hashes, and trace IDs support the selected claims through A.10 but create none of those occurrences or results.
 
-**Non-Work E contrast.** A seedling's spontaneous first-leaf unfolding can be an actual A.3.4 transformation with no performer, assignment, method, or Work occurrence. Measurements may support that exact change claim through A.10; neither the observation work nor its carrier becomes the change.
+**Non-Work E contrast.** A seedling's spontaneous first-leaf unfolding can be an actual A.3.4 transformation with no performer, assignment, method, or Work occurrence. Measurements may support that change claim through A.10; neither the observation work nor its carrier becomes the change.
 
 * **Multi‑view (MVPK face designators):**
 

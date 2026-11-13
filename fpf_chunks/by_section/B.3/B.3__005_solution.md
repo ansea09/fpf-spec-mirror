@@ -6,12 +6,12 @@ section_id: "B.3:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.3 — Is This Claim Supported for This Use? — Trust and Assurance Calculus"
   - "B.3:4 — Solution"
-line_start: 44902
-line_end: 45032
+line_start: 46736
+line_end: 46878
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -41,13 +41,13 @@ keywords:
 
 State these three things before choosing measures or a record:
 
-1. the exact target claim;
+1. the target claim;
 2. the named assurance use;
 3. the conclusion that must be supported, narrowed, or refused for that use.
 
-Keep the following objects separate whenever they are current:
+Keep the following objects separate:
 
-1. world-side facts and direct domain results;
+1. world-side facts and domain results;
 2. the target-claim episteme;
 3. evidence-use relations and source-provenance paths;
 4. any assessment Work and the System that performed it;
@@ -72,11 +72,15 @@ AssuranceResult:
   reopenCondition:
 ```
 
-`targetClaimRef` identifies the exact C.2.1 episteme or one exact C.2.1 `ClaimAddress` when the use concerns one addressed claim inside a larger episteme. `basisRefs` cite the direct results, evidence-use relations, provenance paths, argument claims, or domain rules actually used. A compact result is complete when these fields decide the named use and its basis and limits are recoverable.
+`targetClaimRef` identifies the C.2.1 episteme or one C.2.1 `ClaimAddress` when the use concerns one addressed claim inside a larger episteme. `basisRefs` cite the results, evidence-use relations, provenance paths, argument claims, or domain rules used. A compact result is complete when these fields decide the named use and its basis and limits are recoverable.
 
-Keep the assurance argument readable beside its result or through references that let the recipient inspect it. Explain why the cited basis supports the target claim for this use, including applicable assumptions, limitations and relevant contrary results. This written account is an **assurance case**. Develop it while reasoning: start with the claim and use, state the proposed support, and revise the argument when a premise or inference proves inadequate. A short coherent paragraph can suffice; add detail when review, transfer or later reconsideration needs it.
+Keep the assurance argument readable beside its result or through references that let the recipient inspect it. Explain why the cited basis supports the target claim for this use, including assumptions, limitations and contrary results. This written account is an **assurance case**.
 
-Use C.2.1 to identify the epistemes whose claims make up the case. A claim about a system retains that system as its subject. For an assurance-result episteme, the EntityOfConcern is the target claim content or episteme whose support is being judged; `targetClaimRef` locates that subject. A case can bring several such epistemes together, preserving their identities and argument relations. The text or diagram expresses their claims; E.24.PUB governs the expression and its carrier.
+Develop it while reasoning: start with the claim and use, state the proposed support, and revise the argument when a premise or inference proves inadequate. A short coherent paragraph can suffice; add detail when review, transfer or later reconsideration needs it.
+
+Use C.2.1 to identify the epistemes whose claims make up the case. A claim about a system retains that system as its subject. For an assurance-result episteme, the EntityOfConcern is the target claim content or episteme whose support is being judged; `targetClaimRef` locates that subject.
+
+A case can bring several such epistemes together, preserving their identities and argument relations. The text or diagram expresses their claims; E.24.PUB governs the expression and its carrier.
 
 An unfinished argument remains useful working material: identify the missing support and return the appropriate unresolved disposition. A positive assurance result requires an argument sufficient for the named use under the applicable domain rules.
 
@@ -84,7 +88,7 @@ Add a claim scope, condition set, interpretation scheme, audience, or time windo
 
 Add assessment Work, performer, Method, application bindings, witnesses, or a reusable record only when the receiving use depends on competence, conflict of interest, timing, reproducibility, contest, redress, or later replay. These identities are never mandatory merely because B.3 is used.
 
-An optional assurance note may cite the result and its basis. Safety authority, contest, and redress remain governed by their direct domain rules, as described in §4.7.
+An optional assurance note may cite the result and its basis. Safety authority, contest, and redress remain governed by their domain rules, as described in §4.7.
 
 #### B.3:4.3 - Name each characteristic by its bearer and scale
 
@@ -106,8 +110,8 @@ The letters `F`, `G`, `R`, and `CL` may appear inside a declared local scheme, b
 
 - **Formality or inspectability.** Formal structure can make assumptions and inference steps easier to check. It raises assurance only when the named argument explains which uncertainty or verification need it closes. Making a wrong model proof-grade does not improve truth or empirical adequacy.
 - **Claim scope.** `U.ClaimScope` stays an A.2.6 value. It is not a quality coordinate. Widening or narrowing scope changes the claim and its applicable use under the declared scope rules.
-- **Reliability-like characteristics.** Use the exact domain definition, bearer and scale, with any applicable unit and the population or trials, conditions and qualification window required by that definition or the receiving use. A system reliability measure and an evidence-quality judgment are not interchangeable.
-- **Relation congruence.** Characterize one exact mapping, calibration, interface, or other relation occurrence only under a declared scale and interpretation. The value neither changes the participants nor supplies a universal penalty.
+- **Reliability-like characteristics.** Use the domain definition, bearer and scale, with any applicable unit and the population or trials, conditions and qualification window required by that definition or the receiving use. A system reliability measure and an evidence-quality judgment are not interchangeable.
+- **Relation congruence.** Characterize one mapping, calibration, interface, or other relation occurrence only under a declared scale and interpretation. The value neither changes the participants nor supplies a universal penalty.
 
 Never average ordinal values. Do not subtract an ordinal value from a ratio quantity. Thresholds and order comparisons are valid only under the scale that defines them.
 
@@ -115,16 +119,18 @@ Never average ordinal values. Do not subtract an ordinal value from a ratio quan
 
 B.3 supplies no default fold. When the assurance argument combines quantitative or ordered inputs, cite:
 
-1. the exact result claims being combined;
+1. the result claims being combined;
 2. the dependency or alternative-path structure;
 3. the domain aggregation rule or model;
 4. the assumptions required by the rule or model, including any independence, dependence, calibration or unit assumptions;
 5. the calculation or ordered comparison;
 6. any rival rule that is plausible at comparable effort and could change the result or its warranted use.
 
-Use `min` only when the cited domain rule makes the weakest input a lower bound or bottleneck for the exact quantity. It is not universally conservative. If no applicable aggregation rule is available, report the inputs separately and return a bounded, non-positive, or unresolved disposition. Do not manufacture one score to make the result look complete.
+Use `min` only when the cited domain rule makes the weakest input a lower bound or bottleneck for the quantity. It is not universally conservative.
 
-Several independent evidence lines may strengthen an argument only through the rule that states how their dependence and coverage are handled. Claim-scope intersection or union follows A.2.6 and the relevant evidence model; it is not an assurance arithmetic shortcut.
+If no applicable aggregation rule is available, report the inputs separately and return a bounded, non-positive, or unresolved disposition. Do not manufacture one score to make the result look complete.
+
+Several independent evidence lines may strengthen an argument only through the rule that states how their dependence and coverage are handled. Claim-scope intersection or union follows A.2.6 and the evidence model; it is not an assurance arithmetic shortcut.
 
 #### B.3:4.5 - Add the proof detail the assurance use needs
 
@@ -132,9 +138,11 @@ Add calculated or model-bearing details, replay details, or both to the compact 
 
 **Compact path.** Use the six-field result in 4.2. Stop when it decides the named use.
 
-**Calculated or model-bearing path.** Add the characteristic results, dependency structure, assumptions, aggregation rule, rival, calculation trace, and sensitivity or failure condition actually used.
+**Calculated or model-bearing path.** Add the characteristic results, dependency structure, assumptions, aggregation rule, rival, calculation trace, and sensitivity or failure condition used.
 
-**Replay path.** Add Work, performer, Method, application bindings, witnesses, and a reusable note only when those identities change the named assurance use. For any assessment Work, use A.13 to identify the actual performer and A.15.1 to admit the dated occurrence independently. Add F.6 only if the replay must also say exactly under which assignment the Work was performed. The Work, performer, Method, optional assignment check, result, witness, note, and publication remain separate.
+**Replay path.** Add Work, performer, Method, application bindings, witnesses, and a reusable note only when those identities change the named assurance use.
+
+For any assessment Work, use A.13 to identify the performer and A.15.1 to admit the dated occurrence independently. Add F.6 only if the replay must also say under which assignment the Work was performed. The Work, performer, Method, optional assignment check, result, witness, note, and publication remain separate.
 
 Do not select the replay path merely because the use is important. Importance may make more basis necessary, but every added field must change inspectability, contestability, or the decision.
 
@@ -142,27 +150,31 @@ Do not select the replay path merely because the use is important. Importance ma
 
 A visible artifact, such as an attestation or dashboard tile, contributes to assurance only through a claim and basis relation used by the argument. Establish whether the artifact supplies a cue, source, evidence item, or representation for that use.
 
-If the current question concerns only a status, gate decision, permission, warning, or source location, use its direct pattern and produce no B.3 result. If an assurance claim is current, cite the item only for the property it actually establishes. A valid signature or provenance chain can establish origin and integrity without establishing safety, truth, compliance, or readiness.
+If the question concerns only a status, gate decision, permission, warning, or source location, use its pattern and produce no B.3 result.
 
-#### B.3:4.7 - Leave domain obligations with their direct patterns
+If an assurance claim is current, cite the item only for the property it establishes. A valid signature or provenance chain can establish origin and integrity without establishing safety, truth, compliance, or readiness.
 
-B.3 evaluates an assurance claim. It does not define safety duties, access rules, responsibility, affected-party disclosure, contest, redress, people or team status, resource allocation, release authority, or controlled action. Cite each applicable direct rule as a premise or limitation.
+#### B.3:4.7 - Leave domain obligations with their patterns
 
-When a direct domain rule says a consequential use requires an assurance claim, state that claim and then apply B.3. When the direct rule requires a decision, permission, review, contest route, or redress relation instead, use that result directly. A display that affects behavior does not by itself open B.3.
+B.3 evaluates an assurance claim. It does not define safety duties, access rules, responsibility, affected-party disclosure, contest, redress, people or team status, resource allocation, release authority, or controlled action. Cite each applicable rule as a premise or limitation.
+
+When a domain rule says a consequential use requires an assurance claim, state that claim and then apply B.3. When the rule requires a decision, permission, review, contest route, or redress relation instead, use that result. A display that affects behavior does not by itself open B.3.
 
 #### B.3:4.8 - Preserve time, currentness, and design/run distinctions
 
-State the exact window only when time changes the assurance conclusion. Monitoring, drift, incidents, evidence refresh, version change, policy change, gate change, or a newly discovered defeater can narrow, reopen, or withdraw a result while the target fact and target-claim identity remain unchanged.
+State the window only when time changes the assurance conclusion. Monitoring, drift, incidents, evidence refresh, version change, policy change, gate change, or a newly discovered defeater can narrow, reopen, or withdraw a result while the target fact and target-claim identity remain unchanged.
 
 Design evidence and run evidence may support different claims. Produce separate results when target use, conditions, scope, or evidence window differs; compare them instead of merging them into one score.
 
-#### B.3:4.9 - Keep causal-use and method-structure branches direct
+#### B.3:4.9 - Use causal-use and method-structure results
 
-When an assurance argument depends on a causal-use claim, consume the exact `C.28` result and its stated supported and unsupported uses. B.3 does not re-run causal identification. An unsupported causal-use result narrows, blocks, or leaves the assurance claim unresolved; it does not become a low universal reliability coordinate.
+When an assurance argument depends on a causal-use claim, consume the `C.28` result and its stated supported and unsupported uses. B.3 does not re-run causal identification. An unsupported causal-use result narrows, blocks, or leaves the assurance claim unresolved; it does not become a low universal reliability coordinate.
 
-When Method composition, fallback, selection or family organization matters to the assurance argument, first use B.1.5, G.5 or the direct predicate for the relied-on fact. Use A.22 only when a separately selected organization itself changes the assurance question; then recover its selection basis and all four identity discriminators. MethodRelationStructure is a local designator for that selected structure, not a universal kind or a required record for every composition claim.
+When Method composition, fallback, selection or family organization matters to the assurance argument, first use B.1.5, G.5 or the predicate for the relied-on fact.
+
+Use A.22 only when a separately selected organization changes the assurance question; then recover its selection basis and all four identity discriminators. MethodRelationStructure is a local designator for that selected structure, not a universal kind or a required record for every composition claim.
 
 #### B.3:4.10 - Use Working-Model declarations only for what they state
 
-An E.14 Working-Model assertion may contribute its declared validation posture and grounding links. A postulate still needs the empirical basis required by the current assurance use; an inferential claim needs its reasoning basis; an axiomatic or constructive claim needs the exact construction and identity basis it relies on. The declaration, grounding link, assessment Work, assurance result, and publication remain different objects.
+An E.14 Working-Model assertion may contribute its declared validation posture and grounding links. A postulate needs the empirical basis required by the assurance use; an inferential claim needs its reasoning basis; an axiomatic or constructive claim needs the construction and identity basis it relies on. The declaration, grounding link, assessment Work, assurance result, and publication remain different objects.
 

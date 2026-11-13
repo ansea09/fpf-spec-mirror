@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.5.RA"
-pattern_title: "Recover an Argument for Its Next Use"
+pattern_title: "Recover an Argument for Use"
 section_id: "B.5.RA:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.RA/B.5.RA__011_architectural-rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "B.5.RA — Recover an Argument for Its Next Use"
+  - "B.5.RA — Recover an Argument for Use"
   - "B.5.RA:10 — Architectural Rationale"
-line_start: 48232
-line_end: 48243
+line_start: 50250
+line_end: 50261
 dependencies:
   - "B.5"
   - "B.5.MPC"
@@ -29,9 +29,9 @@ A source orders its text for exposition; the argument relates premises, intermed
 
 Local and overall understanding constrain each other. In :5.1, the equal-increment idea explains the role of the recurrence, and the induction step establishes the general result. In :5.2, the recovery route explains why the key and format matter, and their availability determines which route can be used. A fluent summary that cannot support these transitions is insufficient for the intended use.
 
-For ordinary prose, interpretation and evaluation constrain each other without becoming the same judgement. Context can justify reading a statement as a recommendation while its grounds remain inadequate. A later answer can expose a mistaken structure rather than a false premise within the original structure. Claim extraction, comparison of readings and scheme testing make that return possible. Going straight to a familiar scheme saves effort only when the offered inference is already clear; strengthening the source to fit it loses the argument being recovered.
+For ordinary prose, interpretation and evaluation constrain each other without becoming the same judgement. Context can justify reading a statement as a recommendation while its grounds remain inadequate. A later answer can expose a mistaken structure rather than a false premise within the original structure. Claim extraction, comparison of readings and scheme testing make that return possible. Going straight to a familiar scheme saves effort only when the offered inference is clear; strengthening the source to fit it loses the argument being recovered.
 
-This common method concerns recovery of reasoning already offered for a result. B.5 coordinates the broader inquiry; B.5.RC recovers an auxiliary construction; a subject method supplies an unfamiliar inference. To explain the result to someone else, select the reasoning and representation that make their intended use possible. C.2.8 helps characterize what that recipient can extract under stated preparation and access.
+This common method concerns recovery of reasoning offered for a result. B.5 coordinates the broader inquiry; B.5.RC recovers an auxiliary construction; a subject method supplies an unfamiliar inference. To explain the result to someone else, select the reasoning and representation that make their intended use possible. C.2.8 helps characterize what that recipient can extract under stated preparation and access.
 
 Recovery also makes revision possible. The changed premise can be followed through the contributions that use it, while independent arguments remain available. Revision has its own task and result; recovering the original argument supplies the dependency information it needs.
 

@@ -6,12 +6,12 @@ section_id: "C.11.DBR:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.DBR/C.11.DBR__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.11.DBR — Reconsider a Decision When Its Relied-on Basis Changes"
   - "C.11.DBR:intro — Intro"
-line_start: 57633
-line_end: 57637
+line_start: 59969
+line_end: 59973
 dependencies:
   - "A.10"
   - "A.10.1"

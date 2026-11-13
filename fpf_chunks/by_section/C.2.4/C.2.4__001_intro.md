@@ -6,12 +6,12 @@ section_id: "C.2.4:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.4/C.2.4__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.2.4 — Articulation Explicitness — How Explicit Is an Episteme's Meaning for Its Use?"
   - "C.2.4:intro — Intro"
-line_start: 53676
-line_end: 53689
+line_start: 55909
+line_end: 55922
 dependencies:
   - "A.13"
   - "A.15"
@@ -53,7 +53,7 @@ keywords:
 
 **Plain-name.** Articulation explicitness.
 
-**Use this pattern when.** Use C.2.4 when the next move depends on how explicitly a governed episteme's meaning is articulated for its semantic branch and receiving use.
+**Use this pattern when.** Use C.2.4 when the next move depends on how explicitly an episteme's meaning is articulated for its semantic branch and receiving use.
 
 **What goes wrong if missed.** A formal-looking sentence is treated as semantically ready, a real early cue is discarded as too vague, or a partly explicit note is forced through relation repair even when its receiving question concerns another kind of content, such as a plan or ordinary domain statement.
 

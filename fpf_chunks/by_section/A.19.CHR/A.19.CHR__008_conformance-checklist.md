@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.19.CHR"
-pattern_title: "CHRMechanismSuite: Shared Rules for Characterization and Selection"
+pattern_title: "Shared Rules for Characterization and Selection"
 section_id: "A.19.CHR:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CHR/A.19.CHR__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.19.CHR — CHRMechanismSuite: Shared Rules for Characterization and Selection"
+  - "A.19.CHR — Shared Rules for Characterization and Selection"
   - "A.19.CHR:7 — Conformance Checklist"
-line_start: 37249
-line_end: 37334
+line_start: 38759
+line_end: 38844
 dependencies:
   - "A.15.2"
   - "A.15.3"
@@ -66,13 +66,13 @@ A conforming `CHRMechanismSuiteDescription` SHALL enumerate exactly the six CHR 
 A conforming `CHRMechanismSuiteDescription.mechanisms` SHALL be duplicates-free and SHALL NOT treat order as semantic (WF‑MS‑1).
 
 **CC‑A67CHR‑2b (No dangling IntensionRefs).**
-Each member reference resolves to one exact declaration edition under §4.2.2, and each used operation resolves within that declaration. A stub without the contract is insufficient for use.
+Each member reference resolves to one declaration edition under §4.2.2, and each used operation resolves within that declaration. A stub without the contract is insufficient for use.
 
 **CC‑A67CHR‑3 (Governing spec refs are pins, not copies).**
 A conforming `CHRMechanismSuiteDescription` SHALL cite `CN‑Spec` and `CG‑Spec` as required spec refs and SHALL NOT duplicate them as “shadow specs”.
 
 **CC‑A67CHR‑3a (Planned-baseline requirement is pinned).**
-For a P2W path, a conforming suite cites the exact WorkPlan and baseline locator carrying its selected editions and references. Other uses resolve the editions without inventing a WorkPlan. A.15.3 typed filling is conditional on independently declared positions.
+For a P2W path, a conforming suite cites the WorkPlan and baseline locator carrying its selected editions and references. Other uses resolve the editions without inventing a WorkPlan. A.15.3 typed filling is conditional on independently declared positions.
 
 **CC‑A67CHR‑4 (Crossing discipline is complete).**
 A conforming `CHRMechanismSuiteDescription.suite_obligations` SHALL include the complete clause set in §4.3, with each clause applied under its stated conditions.
@@ -85,11 +85,11 @@ A conforming `CHRMechanismSuiteDescription.suite_obligations` SHALL:
 4) enforce guard lexeme reservations (`USM.CompareGuard` / `USM.LaunchGuard` are gate-level pins; mechanism predicates use `…Admissibility/…Eligibility`).
 
 **CC‑A67CHR‑6 (No hidden scalarization/totalization).**
-A conforming `CHRMechanismSuiteDescription.suite_obligations` SHALL include explicit bans on silent scalarization of partial orders and silent totalization.
+A conforming `CHRMechanismSuiteDescription.suite_obligations` SHALL include bans on silent scalarization of partial orders and silent totalization.
 
 **CC‑A67CHR‑7 (No thresholds in core + single-source defaults).**
 A conforming `CHRMechanismSuiteDescription.suite_obligations` SHALL include `no_thresholds_in_suite_core`.
-If any suite protocol relies on defaults (e.g., `PortfolioMode`), the suite description and plan items SHALL cite those defaults from their single declared source (typically a TaskSignature or explicit policy-id), and SHALL NOT introduce competing defaults in the suite.
+If any suite protocol relies on defaults (e.g., `PortfolioMode`), the suite description and plan items SHALL cite those defaults from their single declared source (typically a TaskSignature or policy-id), and SHALL NOT introduce competing defaults in the suite.
 
 **CC‑A67CHR‑8 (Protocol explicitness + closure).**
 If `suite_protocols` is present, a conforming `CHRMechanismSuiteDescription` SHALL:
@@ -99,7 +99,7 @@ If `suite_protocols` is present, a conforming `CHRMechanismSuiteDescription` SHA
 **CC‑A67CHR‑8a (Canonical protocol is available when protocols are published).**
 If `suite_protocols` is present, a conforming `CHRMechanismSuiteDescription` SHALL include at least one protocol equivalent to:
 `normalize (UNM) → indicatorize (UINDM) → score (USCM) → fold_Γ? (ULSAM) → compare (CPM) → select (SelectorMechanism)`,
-where `fold_Γ` is explicitly optional.
+where `fold_Γ` is optional.
 Any publish/telemetry continuation follows its applicable rules: G.10 for Part-G pack shipping and E.24.PUB for episteme availability, form or carrier claims. It MUST NOT be encoded as a `ProtocolStep` inside `suite_protocols` (to preserve WF-MS-2 closure).
 
 **CC‑A67CHR‑9 (Packaging separation).**
@@ -113,17 +113,17 @@ A publish/telemetry continuation is outside `suite_protocols` and follows its ap
 
 **CC‑A67CHR‑11 (Plan and enactment).** Planned references and values establish no actual binding, launch value, execution witness or gate decision.
 
-**CC‑A67CHR‑11a (Use anchors).** Recover the described entity, bounded context, CG-frame, path slice, publication scope, reference plane when current, and explicit time rule needed for the declared use.
+**CC‑A67CHR‑11a (Use anchors).** Recover the described entity, bounded context, CG-frame, path slice, publication scope, reference plane when current, and time rule needed for the declared use.
 
 **CC‑A67CHR‑11b (Expected guards).** Expected guard pins belong to `{USM.CompareGuard, USM.LaunchGuard}` and name the responsible gate when later event aggregation requires it.
 
 **CC‑A67CHR‑11c (Spec baseline).** The baseline cites CN-Spec and CG-Spec and their selected editions. Cite the independently declared position separately when either reference is also used as a typed planned argument filling.
 
-**CC‑A67CHR‑12 (Exact edition resolution).** Each used declaration and operation has one governing edition. Multiple applicable editions require a selection condition before use; a source list or implicit latest does not resolve them.
+**CC‑A67CHR‑12 (Edition resolution).** Each used declaration and operation has one governing edition. Multiple applicable editions require a selection condition before use; a source list or implicit latest does not resolve them.
 
 **CC‑A67CHR‑13 (Applicable crossing references).** Expected crossings cite only the relations, policies and bundle anchors their governing rules require; the baseline embeds no CL/Φ tables.
 
-**CC‑A67CHR‑14 (Audit traceability).** Later Work audit can cite the exact WorkPlan and baseline locator and distinguish actual bindings or deviations from planned values.
+**CC‑A67CHR‑14 (Audit traceability).** Later Work audit can cite the WorkPlan and baseline locator and distinguish bindings or deviations from planned values.
 
 #### A.19.CHR:7.3 - MVPK face checks (when projected)
 
@@ -131,5 +131,5 @@ A publish/telemetry continuation is outside `suite_protocols` and follows its ap
 Any `TechCard(…)` / `PlainView(…)` projection of the plan item does not introduce new assertions beyond the plan item.
 
 **CC‑A67CHR‑16 (Fail-closed pins on claimful faces).**
-If a face publishes an edition reference, retain that exact reference. For a comparability or launch claim, also publish every anchor required by the relations, receiving policy and gate actually used; a gate-owned USM pin retains its `GuardOwnerGateSlot`. Missing a required anchor makes that claim nonconformant. A note that only pins a new declaration edition needs no invented BridgeCard, UTS crossing row, CrossingBundle or gate event.
+If a face publishes an edition reference, retain that reference. For a comparability or launch claim, also publish every anchor required by the relations, receiving policy and gate used; a gate-owned USM pin retains its `GuardOwnerGateSlot`. Missing a required anchor makes that claim nonconformant. A note that only pins a new declaration edition needs no invented BridgeCard, UTS crossing row, CrossingBundle or gate event.
 

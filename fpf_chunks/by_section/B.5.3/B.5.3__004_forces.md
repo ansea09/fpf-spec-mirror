@@ -6,12 +6,12 @@ section_id: "B.5.3:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.3/B.5.3__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.5.3 — Interpret Domain Vocabulary for an FPF Claim (Domain-Concept Bridge)"
   - "B.5.3:3 — Forces"
-line_start: 50313
-line_end: 50321
+line_start: 52393
+line_end: 52401
 dependencies:
   - "A.13"
   - "A.15"
@@ -49,5 +49,5 @@ keywords:
 | **Domain fluency vs. ontological parsimony** | Teams need familiar words, but FPF must not grow a new root kind whenever a local term appears. |
 | **Same word vs. different claim** | The same expression can make different local claims in different sources or schemes and can point to different FPF values. Spelling alone decides none of them. |
 | **Meaning recovery vs. role overuse** | Some domain uses concern a system-role kind or assignment; many concern another value or relation. Recover the claim before choosing the terminology. |
-| **Small result vs. hidden ontology** | The result should be as small as the use permits, yet still expose any real kind, relation, loss, and return condition instead of hiding them behind a synonym. |
+| **Small result vs. hidden ontology** | The result should be as small as the use permits, yet expose any kind, relation, loss, and return condition instead of hiding them behind a synonym. |
 

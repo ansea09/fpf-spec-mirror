@@ -6,21 +6,15 @@ section_id: "C.35:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.35/C.35__011_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.35 — Assess Generated or Discovered Results for Architecture Use"
   - "C.35:10 — Rationale"
-line_start: 81276
-line_end: 81282
+line_start: 85195
+line_end: 85202
 dependencies:
-  - "A.13"
-  - "A.15.1"
-  - "A.15.PROD"
-  - "A.2.1"
   - "A.22"
-  - "A.3.4"
   - "A.6.M"
-  - "A.6.RCD"
   - "C.16"
   - "C.18"
   - "C.19"
@@ -41,9 +35,7 @@ dependencies:
   - "C.32.PAD"
   - "C.33"
   - "C.34"
-  - "C.36"
   - "E.18"
-  - "F.6"
   - "G.5"
 keywords:
   - "DSM"
@@ -62,5 +54,6 @@ keywords:
 Architecture synthesis receives results from search, model transformation, LLM proposal, code-agent mapping, DSM modularization, NAS, simulation, benchmark and source discovery. A short account can identify the result, the organization it concerns and the supported next use, with any condition or limitation that affects reliance. The larger record is justified by a receiving use that depends on its additional distinctions.
 
 The result can carry a proposal, describe an obtaining structure or serve as a representation. Its selected use determines which distinctions and supporting results matter: representation correspondence, feasibility, evaluation, publication or decision authority, for example. Obtain each required result under its own subject rule; retain a mathematical representation's mapping and validity conditions, using C.29 when a separate choice, transfer, or reliance question remains.
-The source families explain why the branches differ. MBSE query practice, DSM and MDM work, and code-agent mapping expose discovery questions about extraction basis, observation, inference, unexplored regions, uncertainty, and validation. Graph grammars and model transformations expose the distinct need for exact source and result objects, trace, preservation, and loss. Multi-objective NAS and LLM-assisted design expose proposal questions about constraints, proposed organization, omissions, and validation without inventing a source structure. The GonzoML intake supplies neural operation vocabulary; resolve a source label when its meaning is unclear and changes the branch-specific claim or use.
+
+The source families explain why the branches differ. MBSE query practice, DSM and MDM work, and code-agent mapping expose discovery questions about extraction basis, observation, inference, unexplored regions, uncertainty, and validation. Graph grammars and model transformations expose the distinct need for source and result objects, trace, preservation, and loss. Multi-objective NAS and LLM-assisted design expose proposal questions about constraints, proposed organization, omissions, and validation without inventing a source structure. The GonzoML intake supplies neural operation vocabulary; resolve a source label when its meaning is unclear and changes the branch-specific claim or use.
 

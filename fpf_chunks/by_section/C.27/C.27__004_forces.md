@@ -6,12 +6,12 @@ section_id: "C.27:2"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Change"
   - "C.27:2 — Forces"
-line_start: 67024
-line_end: 67033
+line_start: 70078
+line_end: 70087
 dependencies:
   - "A.10"
   - "A.3.3"
@@ -51,10 +51,10 @@ keywords:
 ### C.27:2 - Forces
 
 1. **Cheap recognition versus costly overformalization.** Keep the state, rate and intervention-sensitive distinction easy to recover. Use C.27 when a temporal-adequacy question can change the receiving action.
-2. **Effort profiles versus derivative words.** Real interventions can be impulses, scheduled pushes, feedback policies, adaptive regimes, brakes, pauses, coasting periods, or redirections. The useful question is what input occurs over which window, not whether the prose says acceleration.
-3. **Resistance without fake physics.** Lag, queue pressure, habit, coordination cost, technical debt, service demand, physical inertia, or another domain-local resistance can matter. None becomes a new mass or force kind.
+2. **Effort profiles versus derivative words.** Interventions can be impulses, scheduled pushes, feedback policies, adaptive regimes, brakes, pauses, coasting periods, or redirections. The useful question is what input occurs over which window.
+3. **Domain-specific resistance.** Lag, queue pressure, habit, coordination cost, technical debt, service demand, physical inertia, or another domain-local resistance can matter. None becomes a new mass or force kind.
 4. **Temporal meaning and coupling.** Preserve the temporal claim's bearer, predicate and timing under C.27.TA; add an exact separate reference when needed. Cross-bearer phase, synchronization, coupling or entrainment appears only when the receiving use relies on that relation.
 5. **Readable practice versus hidden claim inflation.** Ordinary actor and practice wording should stay readable. Exact System, assignment, authority, Work, causal, benchmark, promise, and assurance details appear only when the current claim relies on them.
-6. **Preservation versus copied neighboring schemas.** Rare uses need exact trigger questions, but C.27 should cite the result of C.16, C.28, G.9, C.26.3, or another direct pattern instead of reproducing its schema.
+6. **Preservation versus copied neighboring schemas.** Rare uses need trigger questions, but C.27 should cite the result of C.16, C.28, G.9, C.26.3, or another direct pattern instead of reproducing its schema.
 7. **Value neutrality versus acceleration bias.** C.27 must allow acceleration, deceleration, braking, redirecting, coasting, pausing, stabilizing, recovering, sustaining, widening, and narrowing without deciding which is valuable.
 

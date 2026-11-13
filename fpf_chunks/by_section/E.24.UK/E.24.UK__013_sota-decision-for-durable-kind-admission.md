@@ -6,12 +6,12 @@ section_id: "E.24.UK:11"
 section_title: "SoTA Decision for Durable Kind Admission"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.UK/E.24.UK__013_sota-decision-for-durable-kind-admission.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.24.UK — U-kind Admission and Ontic Settlement"
   - "E.24.UK:11 — SoTA Decision for Durable Kind Admission"
-line_start: 117712
-line_end: 117729
+line_start: 125294
+line_end: 125317
 dependencies:
   - "A.1.1"
   - "A.11"
@@ -43,7 +43,7 @@ keywords:
 
 ### E.24.UK:11 - SoTA Decision for Durable Kind Admission
 
-The bounded question is practical: **when should a reusable distinction become a durable public kind, when is a local classifier or direct relation enough, and what identity commitment does each choice add?** Compare alternatives at the effort of repairing or authoring one FPF pattern—not at the effort of adopting a whole enterprise ontology.
+**When should a reusable distinction become a durable public kind, when is a local classifier or direct relation enough, and what identity commitment does each choice add?** Compare the alternatives for the work of repairing or authoring one FPF pattern. Adoption of a whole enterprise ontology falls outside that comparison.
 
 | Current line | Strong contribution | Failure mode or extra effort for this question | FPF decision and receiving locus |
 | --- | --- | --- | --- |
@@ -55,7 +55,13 @@ The bounded question is practical: **when should a reusable distinction become a
 
 **Contribution to the FPF admission decision.** E.24.UK first tests reuse of an accepted kind and bounded C.3 classification, and recovers a direct relation or other non-kind object when no classification result is needed for the receiving use. A new durable kind requires repeated cross-pattern reliance and an exact membership or dependence rule. Where the simpler result already preserves the needed distinction, it avoids another ontology commitment while retaining identity, non-member, reliance, and reopen tests.
 
-The shared E.24 decision is part of that gain. It prevents the ontic and public-kind questions from being answered by two incompatible cards. The U.Kind case retains the independent root admission and returns direct rule use without an additional durable ontic; the separate U.SubkindOf settlement remains under its own direct relation and receiving-use grounds. In the capability case, recovery returns qualified holder-ability claims and rejects an unnecessary additional kind. In the WorkPlan case, the same episteme gains dependent membership without a second plan. A role or phase near-miss stays with a direct relation or local kind; `HighRiskPump@Turnaround2026` stays a local C.3 distinction; and public spelling waits for F.18 after the object is settled. A source may model a pressure quality or an obligation-bearing relation as a separate dependent individual. FPF does so only when a direct rule identifies that individual and its exact dependence. A measurement value, assertion, participant pair, agreement document, or relation record cannot admit it by representation alone.
+The shared E.24 decision is part of that gain. It prevents the ontic and public-kind questions from being answered by two incompatible cards.
 
-The main remaining failure risks are also explicit. The progressive route can under-admit a distinction if a bounded use hides later cross-pattern reliance, or over-admit it if repeated wording is mistaken for stable membership. Reopen when a stronger current alternative offers the same identity assurance at lower effort, when an admitted kind loses its member/non-member or continuity test, or when a worked counterexample changes the same-individual, identity-dependent, local-kind, or non-kind decision.
+The U.Kind case retains the independent root admission and returns direct rule use without an additional durable ontic; the separate U.SubkindOf settlement remains under its own direct relation and receiving-use grounds. In the capability case, recovery returns qualified holder-ability claims and rejects an unnecessary additional kind. In the WorkPlan case, the same episteme gains dependent membership without a second plan.
+
+A role or phase near-miss stays with a direct relation or local kind; `HighRiskPump@Turnaround2026` stays a local C.3 distinction; and public spelling waits for F.18 after the object is settled.
+
+A source may model a pressure quality or an obligation-bearing relation as a separate dependent individual. FPF does so only when a direct rule identifies that individual and its exact dependence. A measurement value, assertion, participant pair, agreement document, or relation record cannot admit it by representation alone.
+
+The progressive route can under-admit a distinction if a bounded use hides later cross-pattern reliance, or over-admit it if repeated wording is mistaken for stable membership. Reopen when a stronger current alternative offers the same identity assurance at lower effort, when an admitted kind loses its member/non-member or continuity test, or when a worked counterexample changes the same-individual, identity-dependent, local-kind, or non-kind decision.
 

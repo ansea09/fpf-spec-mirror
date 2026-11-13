@@ -6,12 +6,12 @@ section_id: "E.11:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:1 — Problem frame"
-line_start: 102747
-line_end: 102764
+line_start: 108541
+line_end: 108558
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"
@@ -44,9 +44,9 @@ A reader may arrive with a project question rather than a PatternID: for example
 
 **Primary EntityOfConcern.** One public entry or discoverability publication unit: pattern title, README first-entry guidance, architectural-reference explanation, ToC query material, retrieval cue, expanded entry-disambiguation case, or a pattern-local `Problem frame`.
 
-**Author and reader remain different.** An FPF author or maintainer publishes or refreshes the public guidance. A practitioner, manager, or assisting agent reads it and opens the direct pattern; that reader is not thereby performing E.11 publication work.
+**Who publishes and who reads.** An FPF author or maintainer publishes or refreshes the public guidance. A practitioner, manager, or assisting agent reads it and opens the direct pattern; that reader is not thereby performing E.11 publication work.
 
 **Practical gain.** The entry connects a project question to a direct pattern and its first useful result. The direct pattern retains the governing explanation; each navigation unit carries its own entry function.
 
-**Not this pattern when.** After one direct pattern is selected, use `E.11.PUA` to follow its `Solution` to the smallest useful result or an honest missing-basis stop. Use `E.11.PUR` to judge applicability, recommendation, coordination, or ordering among candidate pattern uses, and to stop on an earlier result that still answers the concern. Use the direct pattern for the actual result, plan, work, evidence, decision, authorization, or publication claim.
+**Not this pattern when.** After one direct pattern is selected, use `E.11.PUA` to follow its `Solution` to the smallest useful result or a stop that states the missing basis. Use `E.11.PUR` to judge applicability, recommendation, coordination, or ordering among candidate pattern uses, and to stop on an earlier result that still answers the concern. Use the direct pattern for the actual result, plan, work, evidence, decision, authorization, or publication claim.
 

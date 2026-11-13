@@ -6,12 +6,12 @@ section_id: "A.19:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19/A.19__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.19 — CharacteristicSpace: Coordinates, State Predicates and Dynamics Hook (A.CHR‑SPACE)"
   - "A.19:intro — Intro"
-line_start: 34599
-line_end: 34609
+line_start: 36079
+line_end: 36089
 dependencies:
   - "A.10"
   - "A.15"
@@ -53,7 +53,7 @@ keywords:
 > **Type:** Kernel characteristic-space and dynamics-typing pattern
 > **Status:** Stable
 
-**Use this when.** Use this pattern when the current object is either a declared `CharacteristicSpace` or a reusable by-value `CharacteristicSpacePredicate` over that space: characteristics, scales, value sets, coordinate bindings, optional overlays, predicate operators and cuts, comparability and normalization boundaries, partial-observation handling, and the `U.Dynamics.stateSpace` hook.
+**Use this when.** Use this pattern when the object is either a declared `CharacteristicSpace` or a reusable by-value `CharacteristicSpacePredicate` over that space: characteristics, scales, value sets, coordinate bindings, optional overlays, predicate operators and cuts, comparability and normalization boundaries, partial-observation handling, and the `U.Dynamics.stateSpace` hook.
 
 **What goes wrong if missed.** Teams compare raw numbers from different scales, treat dashboards or scores as the space, hide thresholds inside state labels, silently change a predicate use's scope or evaluation window, smuggle method sequences into checklists, or give consumer patterns private space and predicate kinds.
 

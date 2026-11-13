@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.2.2"
-pattern_title: "Meta-System Transition: Test the Proposed New Whole as a System"
+pattern_title: "Test the Proposed New Whole as a System"
 section_id: "B.2.2:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.2/B.2.2__009_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "B.2.2 — Meta-System Transition: Test the Proposed New Whole as a System"
+  - "B.2.2 — Test the Proposed New Whole as a System"
   - "B.2.2:6 — Conformance Checklist"
-line_start: 44122
-line_end: 44134
+line_start: 45904
+line_end: 45916
 dependencies:
   - "A.1"
   - "A.10"
@@ -45,9 +45,9 @@ keywords:
 | Check | Requirement |
 | --- | --- |
 | `CC-B2.2-1` | B.2 has already left a whole-reidentification question before B.2.2 is used. |
-| `CC-B2.2-2` | A positive system-result claim requires B.2's exact candidate new whole to pass the complete A.1 criterion and the direct `U.System` criterion. Failed or unresolved recognition follows :4.1. |
+| `CC-B2.2-2` | A positive system-result claim requires B.2's candidate new whole to pass the A.1 criterion and the `U.System` criterion. Failed or unresolved recognition follows :4.1. |
 | `CC-B2.2-3` | Use B.2's references for the candidate and established result. Any durable account remains an optional C.2.1 episteme under B.2. |
-| `CC-B2.2-4` | Identify the result-system delimitation and any crossing relations needed by the claim under their direct predicates. |
+| `CC-B2.2-4` | Identify the result-system delimitation and any crossing relations needed by the claim under their predicates. |
 | `CC-B2.2-5` | An obtaining supervision or coordination relation is not treated as automatic system recognition, and evidence for it is not treated as safety warrant. |
 | `CC-B2.2-6` | Acting-system participation, transformation, and work are separated from parthood. |
 | `CC-B2.2-7` | Component assurance is not silently transferred to the result system. |

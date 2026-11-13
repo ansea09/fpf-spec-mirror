@@ -6,12 +6,12 @@ section_id: "F.9:14"
 section_title: "Reasoning primitives"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__016_reasoning-primitives.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.9 — Relate Local Meanings across Contexts (Alignment and Bridge)"
   - "F.9:14 — Reasoning primitives"
-line_start: 121508
-line_end: 121599
+line_start: 129208
+line_end: 129299
 dependencies:
   - "A.10"
   - "A.13"
@@ -57,7 +57,7 @@ keywords:
 
 ### F.9:14 - Reasoning primitives
 
-These are conceptual judgements, not work-enactment, card-completion, registry, publication, permission, or authorization rules.
+These conceptual judgements do not supply work-enactment, card-completion, registry, publication, permission, or authorization rules.
 
 #### F.9:14.1 - Direct Bridge occurrence
 
@@ -75,7 +75,7 @@ iff
   and requiredDependencies(P) are present.
 ```
 
-No proposed use, direction, use-specific rule, loss tolerance, claim polarity, reliance result, or card is a component of `P`.
+The proposed use, its direction, its rule and tolerated loss, the claim's polarity, the reliance result and the Card are outside `P`. An asymmetric relation retains its endpoint orientation in `P`.
 
 #### F.9:14.2 - Bounded-use proposition
 
@@ -126,7 +126,7 @@ A claim about an actual receiving object needs the participants or arguments, ob
 
 #### F.9:14.6 - Direction guard
 
-Relation symmetry or orientation does not select `d`. Each proposed direction receives its own bounded-use claim. For an inclusion relation, a broader-to-narrower proposal normally requires refined endpoint senses and a separately tested Bridge; it cannot borrow safety from the inverse reading.
+Relation symmetry or orientation does not select `d`. Each proposed direction receives its own bounded-use claim. For inclusion, a broader-to-narrower use needs its own grounds. If it requires refined meanings, test their Bridge separately. A reverse use can be rejected while the original Bridge stands.
 
 #### F.9:14.7 - Chained-use guard
 

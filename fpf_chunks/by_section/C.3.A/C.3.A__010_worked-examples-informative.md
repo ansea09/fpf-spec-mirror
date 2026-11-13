@@ -6,12 +6,12 @@ section_id: "C.3.A:9"
 section_title: "Worked examples (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.A/C.3.A__010_worked-examples-informative.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.3.A — Typed Guard Macros for Kinds + USM (Annex)"
   - "C.3.A:9 — Worked examples (informative)"
-line_start: 56428
-line_end: 56437
+line_start: 58740
+line_end: 58753
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -33,9 +33,13 @@ keywords:
 
 ### C.3.A:9 - Worked examples (informative)
 
-**E1 — Same-context braking claim.** A policy quantified over `Vehicle` pins `VehicleSignature@v4`; the receiver pins `PassengerCarSignature@v3`. Declaration admission establishes `SubkindOfObtains(PassengerCar, Vehicle; plantVehicleScheme)`. Applying the policy to VIN-17 evaluates `J(VIN-17, PassengerCar, v3, S-plant)`; on `true`, C.3.1 monotonicity supplies the Vehicle-side consequence needed by the universal claim. A missing axle dependency yields `unknown` and a separate refusal.
+**E1 — Same-context braking claim.** A policy quantified over `Vehicle` pins `VehicleSignature@v4`; the receiver pins `PassengerCarSignature@v3`. Declaration admission establishes `SubkindOfObtains(PassengerCar, Vehicle; plantVehicleScheme)`.
 
-**E2 — Cross-plant reuse.** An obtaining KindBridge relates source `Vehicle` to target `TransportUnit`; its assertion records a collapsed EV/ICE distinction and `CL^k=2`. The target signature is independently authored. Plant-B evaluates its exact vehicle candidate under that target edition; the source result is only support. The receiving R assessment accounts for the collapsed EV/ICE distinction when it affects the relied-on claim; the bridge rating alone supplies no numerical decrement.
+Applying the policy to VIN-17 evaluates `J(VIN-17, PassengerCar, v3, S-plant)`; on `true`, C.3.1 monotonicity supplies the Vehicle-side consequence needed by the universal claim. A missing axle dependency yields `unknown` and a separate refusal.
+
+**E2 — Cross-plant reuse.** An obtaining KindBridge relates source `Vehicle` to target `TransportUnit`; its assertion records a collapsed EV/ICE distinction and `CL^k=2`. The target signature is independently authored.
+
+Plant-B evaluates its vehicle candidate under that target edition; the source result is only support. The receiving R assessment accounts for the collapsed EV/ICE distinction when it affects the relied-on claim; the bridge rating alone supplies no numerical decrement.
 
 **E3 — API adapter.** A producer declares `Request`; a consumer expects `AuthenticatedRequest`. Declaration compatibility fails until an adapter and target declaration are recovered. For request `req-884`, unavailable key-validation support yields target `unknown`; the consumer refuses without asserting that the request is known unauthenticated.
 

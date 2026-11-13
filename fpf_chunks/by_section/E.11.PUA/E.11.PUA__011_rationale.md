@@ -6,12 +6,12 @@ section_id: "E.11.PUA:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUA/E.11.PUA__011_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.11.PUA — Pattern Use in a Working Situation and First Useful Result"
   - "E.11.PUA:10 — Rationale"
-line_start: 103928
-line_end: 103935
+line_start: 109950
+line_end: 109961
 dependencies:
   - "A.13"
   - "A.15"
@@ -36,9 +36,13 @@ keywords:
 
 ### E.11.PUA:10 - Rationale
 
-FPF patterns supply action- or judgement-guiding content for recurring working situations. Some selected `Solution` sections describe methods; others define, constrain, test, or guide a judgement without doing so. Establish formal `U.MethodDescription` membership under A.3.2 only when the episteme's EntityOfConcern is an admitted Method, at least one claim concerns that Method as a way of doing, and that distinction changes the claim. The missing middle is neither discovery nor recommendation: use one selected conditional `Solution` to identify the first result with its own identity and basis that answers the current question, or stop when its basis is missing.
+FPF patterns supply action- or judgement-guiding content for recurring working situations. Some selected `Solution` sections describe methods; others define, constrain, test, or guide a judgement without doing so.
 
-Separating ordinary semantic checking from conditional record materialization protects both usability and rigor. A conversation can be sufficient for a bounded reversible question. Another person's later use, an audit, an automated use, or an expensive decision can demand addressable support. The same ontology serves both profiles; only the reliance changes the recording granularity.
+Establish formal `U.MethodDescription` membership under A.3.2 only when the episteme's EntityOfConcern is an admitted Method, at least one claim concerns that Method as a way of doing, and that distinction changes the claim.
+
+The missing middle is neither discovery nor recommendation: use one selected conditional `Solution` to identify the first result with its own identity and basis that answers the current question, or stop when its basis is missing.
+
+Separating ordinary semantic checking from conditional record materialization protects both usability and rigor. A conversation can be sufficient for a bounded reversible question. Later use by another agent, an audit, an automated use, or an expensive decision can demand addressable support. The same ontology serves both profiles; only the reliance changes the recording granularity.
 
 The first-result boundary prevents proxy completion. A plan, note, simulation, or assessment may be valuable and may be the result at the current pattern-use position. It cannot stand for a later physical, clinical, organizational, or learned change. Stop where the current basis supports value, then continue under the pattern that defines, constrains, or tests the next result or relation.
 

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.5.SD"
-pattern_title: "Construct a Useful Answer through Substantive Discussion"
+pattern_title: "Construct an Answer through Substantive Discussion"
 section_id: "B.5.SD:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.SD/B.5.SD__013_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "B.5.SD — Construct a Useful Answer through Substantive Discussion"
+  - "B.5.SD — Construct an Answer through Substantive Discussion"
   - "B.5.SD:12 — Relations"
-line_start: 50918
-line_end: 50930
+line_start: 53022
+line_end: 53034
 dependencies:
   - "A.3.1"
   - "B.5.RA"
@@ -24,12 +24,12 @@ keywords:
 
 LDR.1 obtains capable participants and the conditions for their contributions. LDR.2 settles incompatible commitments exposed by the answer. LDR.4 uses the answer to prepare a proposal and first use.
 
-[B.5.RA](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#b5ra---recover-an-argument-for-its-next-use) recovers and examines the relevant argument; [B.5.RR](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#b5rr---revise-reasoning-after-a-premise-or-question-changes) revises the affected reasoning after a changed premise or question. Their results supply the argument contributions used in sections 4.3 and 4.5.
+[B.5.RA](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#b5ra---recover-an-argument-for-use) recovers and examines the relevant argument; [B.5.RR](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#b5rr---revise-reasoning-after-a-premise-or-question-changes) revises the affected reasoning after a changed premise or question. Their results supply the argument contributions used in sections 4.3 and 4.5.
 
 FPF [C.39](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c39---find-and-develop-a-way-to-obtain-a-result) supplies the general development of a way to obtain a result when an operation or connection is missing. C.11.DUA appraises the further inquiry and its receiving value. C.28 supplies causal reasoning when the intended conclusion is causal.
 
-The actual subject practice supplies the needed Method and its applicability conditions. Engineering configuration, strategy, human learning and corporate decisions retain their different methods and acceptance conditions. C.41.OF may supply a useful execution aid.
+The subject practice supplies the needed Method and its applicability conditions. Engineering configuration, strategy, human learning and corporate decisions retain their different methods and acceptance conditions. C.41.OF may supply an execution aid.
 
-When this work is a decision-support inquiry, PSDA.12 recovers participants and attributed concerns and PSDA.13 establishes professional inquiry and dissent conditions. Other practices retain their own participation and authority requirements. PSDA.1–9 supply formulation, model and decision-analysis constructions when their question is live. A sound analytical answer and consent to use or act on it remain separate results.
+When this work is a decision-support inquiry, PSDA.12 recovers participants and attributed concerns and PSDA.13 establishes professional inquiry and dissent conditions. Other practices retain their participation and authority requirements. PSDA.1–9 supply formulation, model and decision-analysis constructions when their question is live. A sound analytical answer and consent to use or act on it remain separate results.
 
 

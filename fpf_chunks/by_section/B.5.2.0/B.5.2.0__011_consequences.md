@@ -6,12 +6,12 @@ section_id: "B.5.2.0:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.0/B.5.2.0__011_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.5.2.0 — Question Form for Entering Abduction (U.AbductivePrompt)"
   - "B.5.2.0:9 — Consequences"
-line_start: 50013
-line_end: 50015
+line_start: 52077
+line_end: 52079
 dependencies:
   - "A.16"
   - "A.16.0"

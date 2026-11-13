@@ -6,12 +6,12 @@ section_id: "F.15:15.2"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__021_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Naming and Semantic Unification"
   - "F.15:15.2 — Rationale"
-line_start: 123826
-line_end: 123829
+line_start: 131662
+line_end: 131665
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -57,5 +57,5 @@ keywords:
 
 ### F.15:15.2 - Rationale
 
-Cross-local reuse depends on the exact local meanings and supported relation; regression compares the relevant earlier and later values for a named use. F.15 brings those checks together in a finite slice and returns unresolved subject questions to the patterns that can settle them.
+Cross-local reuse depends on the exact local meanings and supported relation. Regression compares the relevant earlier and later values for a named use. F.15 brings those checks together in a finite slice and returns unresolved subject questions to the patterns that can settle them.
 

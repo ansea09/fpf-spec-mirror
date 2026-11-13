@@ -6,12 +6,12 @@ section_id: "A.15.4:9"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__014_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.15.4 — Work-Relevant Appearance-Based Reliance Repair"
   - "A.15.4:9 — Relations"
-line_start: 30841
-line_end: 30866
+line_start: 31948
+line_end: 31973
 dependencies:
   - "A.10"
   - "A.13"
@@ -55,7 +55,7 @@ keywords:
 ### A.15.4:9 - Relations
 
 * **Cluster relation:** `A.15.4` is a cluster member under `A.15` for work-relevant appearance-based reliance repair; it does not replace the A.15 system-role-kind, assignment, Method, plan, and Work kernel.
-* **Uses:** `E.17`, `E.17:5.1b`, `E.17:5.1c`, and `E.17:5.1d` for source-relation and use-boundary vocabulary; `E.17.EFP` for explanation faithfulness and source-finding; `A.16.0` when source lineage, branches, retirement, loss or a responsibility handoff needs reviewable history; `A.6`, `A.6.B`, and `A.6.C` for boundary wording; `A.10` for evidence and currentness; `B.3` for assurance; `A.15.5` for work-entry readiness; `A.20` for constraint validity; `A.21` for gate decisions; `A.2.1` for exact system-role assignments; `A.2.5` for assignment-state relations; A.13 for actual performers' core agency bases; A.15.1 for independently admitted dated Work; F.6 only when the receiving result must also identify the assignment under which that Work was performed; and `A.2.8`, `A.2.8.PER`, and `A.2.9` only through the single permission and authority branch in §3.
+* **Uses:** `E.17`, `E.17:5.1b`, `E.17:5.1c`, and `E.17:5.1d` for source-relation and use-boundary vocabulary; `E.17.EFP` for explanation faithfulness and source-finding; `A.16.0` when source lineage, branches, retirement, loss or a responsibility handoff needs reviewable history; `A.6`, `A.6.B`, and `A.6.C` for boundary wording; `A.10` for evidence and currentness; `B.3` for assurance; `A.15.5` for work-entry readiness; `A.20` for constraint validity; `A.21` for gate decisions; `A.2.1` for system-role assignments; `A.2.5` for assignment-state relations; A.13 for actual performers' core agency bases; A.15.1 for independently admitted dated Work; F.6 only when the receiving result must also identify the assignment under which that Work was performed; and `A.2.8`, `A.2.8.PER`, and `A.2.9` only through the single permission and authority branch in §3.
 * **E.10 and E.10.MOVE relation-selection rule:** When the direct question is already known, apply its subject pattern directly or use the §3 lookup. Use `E.10.MOVE` when work-entry or readiness wording still hides the governed claim. Use `E.10.ARCH` when the distinction among a world-side fact, reusable declaration, claim or report, and representation remains unresolved. Permission or authority uses the single §3 branch. `A.15.4` starts only while a required relation or result is still hidden by the reliance appearance.
 * **A.15 boundary relation:** use `A.15` directly when the remaining question under repair is system-role-kind, assignment, Method, plan, and Work alignment rather than a reliance appearance being used as a reason for Work or reliance.
 

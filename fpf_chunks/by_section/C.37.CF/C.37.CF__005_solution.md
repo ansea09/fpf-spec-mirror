@@ -6,12 +6,12 @@ section_id: "C.37.CF:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37.CF/C.37.CF__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.37.CF — Compare Content and Form Changes"
   - "C.37.CF:4 — Solution"
-line_start: 82254
-line_end: 82318
+line_start: 86269
+line_end: 86339
 dependencies:
   - "A.3.2.DE"
   - "C.2.8"
@@ -54,29 +54,35 @@ If a cell cannot be constructed without changing another load-bearing feature, s
 
 Ask the reader to obtain the first useful result, not to rate which document looks better. Recover:
 
-- the applicable action or decision and the answer actually given;
+- the action or decision called for, and the reader's answer;
 - the result, stop or missing condition the reader identifies;
 - unsupported inferences or lost distinctions that change the answer;
 - the source returns needed to support or correct it; and
-- the observed burden when time, source openings, attempts or other relevant effort were actually recorded.
+- the observed burden when time, source openings, attempts or other relevant effort were recorded.
 
-When the question is how much selected structure the reader can extract, use [`C.2.8 ExtractableStructuralInformation`](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28---extractablestructuralinformation--structure-this-reader-can-recover). Identify the expressed account, its particular expression and the reader, with selected relations, correctness criterion, prior knowledge, operations, help, access and budget qualified for this comparison. A qualitative account of recovered and missing relations often suffices. A number needs a declared structural scale and fixed units or denominator, not counts of words or arrows.
+When the question is how much selected structure the reader can extract, use [`C.2.8 ExtractableStructuralInformation`](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28---extractablestructuralinformation--structure-this-reader-can-recover). Identify the expressed account, the expression being tested and the reader, with selected relations, correctness criterion, prior knowledge, operations, help, access and budget qualified for this comparison. A qualitative account of recovered and missing relations often suffices. A number needs a declared structural scale and fixed units or denominator, not counts of words or arrows.
 
-Keep a design estimate separate from an actual recovery observation or a mapped formal estimate. A response establishes recovery in that trial, not a maximum or population reliability. State what changed in content, what changed in expression, and what preparation, actual help or a source return supplied. Familiar relations can count; a reader's independent correction of false or absent instruction is not credited to the expression. Missing basis is not zero. A successful changed-condition return supports its own condition rather than increasing the original amount.
+Keep a design estimate separate from an actual recovery observation or a mapped formal estimate. A response establishes recovery in that trial, not a maximum or population reliability.
+
+State what changed in content, what changed in expression, and what preparation, help or a source return supplied. Familiar relations can count; a reader's independent correction of false or absent instruction is not credited to the expression.
+
+Missing basis is not zero. A successful changed-condition return supports its own condition rather than increasing the original amount.
 
 These are candidate observations, not one universal score. Select those that can change this comparison. A source-opening count does not measure comprehension; shorter reading does not prove lower total effort; recognizing a prescribed action does not establish its correct enactment.
 
-Choose readers and allocation to variants in proportion to the claim. A fresh probe withholds the other answers and the author's preferred conclusion when they would teach the task. Repeated-reader comparisons retain learning and order effects instead of calling the reader fresh. In AI probes, keep the model, supplied context and available tools recoverable when they affect inference. Generalizing from a few AI answers to human performance is another unanswered question.
+Choose readers and allocation to variants in proportion to the claim. A fresh probe withholds the other answers and the author's preferred conclusion when they would teach the task. Repeated-reader comparisons retain learning and order effects instead of calling the reader fresh.
+
+In AI probes, keep the model, supplied context and available tools recoverable when they affect inference. Generalizing from a few AI answers to human performance is another unanswered question.
 
 #### C.37.CF:4.4 - When testing a changed-condition return
 
 Use this probe when the comparison needs to establish how a reader responds to a new fact. First retain the reader's initial answer. Then disclose the changed source, missing fact or altered receiving use. Ask what must change and what remains usable.
 
-A good return revisits the dependent claim rather than repeating the whole task or preserving an invalid assumption. Compare the actual revised answer, its source returns and its stop. If the changed condition changes the comparison question or available action set, identify that new question; do not present the two answers as observations under identical conditions.
+The reader should revisit the dependent claim rather than repeat the whole task or preserve an invalid assumption. Compare the reader's revised answer, its source returns and its stop. If the changed condition changes the comparison question or available action set, identify that new question; do not present the two answers as observations under identical conditions.
 
 #### C.37.CF:4.5 - Return a bounded revision result
 
-State the inspected variants, the content/form contrasts they actually support, observations, losses, uncertainty and next decision. Distinguish a demonstrated local difference, no distinguishing result in this probe, an unavailable contrast and a confounded comparison.
+State the inspected variants, the content/form contrasts they support, observations, losses, uncertainty and next decision. Distinguish a demonstrated local difference, no distinguishing result in this probe, an unavailable contrast and a confounded comparison.
 
 Compare extraction effort and receiving value separately from structural amount through C.11.CRC and C.11. Retain the sufficient incumbent when the proposed change supplies no worthwhile gain.
 

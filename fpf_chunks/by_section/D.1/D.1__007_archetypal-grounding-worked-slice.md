@@ -6,12 +6,12 @@ section_id: "D.1:4"
 section_title: "Archetypal Grounding (Worked Slice)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.1/D.1__007_archetypal-grounding-worked-slice.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "D.1 — Clarify an Ethical Claim's Value Basis (Value Plurality)"
   - "D.1:4 — Archetypal Grounding (Worked Slice)"
-line_start: 91579
-line_end: 91594
+line_start: 96063
+line_end: 96078
 dependencies:
   - "A.1"
   - "A.1.CSD"
@@ -45,7 +45,7 @@ A community workshop has adopted a personal-authority premise for voluntary part
 
 The benefit of faster dispatch gives a reason to propose tracking, while the sponsor's approval covers the supplied equipment. Neither supplies the members' missing agreement. Under the adopted premise, the coordinator must obtain valid agreement to the proposed information use or construct another arrangement. The reciprocal question exposes the missing ground: the coordinator would also need a reason for letting another organizer collect the coordinator's movements merely because it helped that organizer's project.
 
-Suppose members understand the purpose and retention period, can decline without losing access to ordinary workshop services, and can instead report availability at agreed intervals. A member's agreement can authorize the limited tracking described. It does not authorize publishing a route that reveals a nonparticipant's location; that changed effect needs its own consideration. The alternative reporting arrangement also shows why a useful dispatch purpose need not require the initially chosen means.
+Suppose members understand the purpose and retention period, can decline without losing access to ordinary workshop services, and can instead report availability at agreed intervals. A member's agreement can authorize the limited tracking described. It does not authorize publishing a route that reveals a nonparticipant's location; that changed effect needs consideration. The alternative reporting arrangement also shows why a useful dispatch purpose need not require the initially chosen means.
 
-Now change the question to an ordinary task within a member's already accepted shift. If the established agreement authorizes the coordinator to allocate that task, the personal-authority premise does not require a new consent ceremony. Recover the actual scope and any remaining constraints. If the proposed tracking is instead claimed to be mandatory under an applicable safety rule, establish that rule and its ethical basis; voluntary consent is no longer the explanation for the mandate. These different conclusions arise from changed grounds of authority, not from a change in the person's status.
+Now change the question to an ordinary task within a member's already accepted shift. If the established agreement authorizes the coordinator to allocate that task, the personal-authority premise does not require a new consent ceremony. Recover the scope and any remaining constraints. If the proposed tracking is instead claimed to be mandatory under an applicable safety rule, establish that rule and its ethical basis; voluntary consent is no longer the explanation for the mandate. These different conclusions arise from changed grounds of authority, not from a change in the person's status.
 

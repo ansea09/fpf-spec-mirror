@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.5.TC"
-pattern_title: "Compare Theoretical Accounts for a Working Question"
+pattern_title: "Compare Theoretical Accounts for a Question"
 section_id: "B.5.TC:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.TC/B.5.TC__012_sota-echoing.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "B.5.TC — Compare Theoretical Accounts for a Working Question"
+  - "B.5.TC — Compare Theoretical Accounts for a Question"
   - "B.5.TC:11 — SoTA-Echoing"
-line_start: 49086
-line_end: 49097
+line_start: 51126
+line_end: 51139
 dependencies:
   - "B.5.RA"
   - "B.5.RR"
@@ -31,9 +31,11 @@ For comparing what different mathematical accounts let a practitioner compute, *
 
 For physical formulations that may agree, **adopt** the constructive comparison in Sussman and Wisdom's *Structure and Interpretation of Classical Mechanics*, second edition (2015), §1.6: derive the equations under the stated force and potential assumptions. This answers more than a numerical fit and often costs less than a new simulation. Against selecting a formulation solely by familiarity, preserve the advantage of coordinates adapted to constraints. Sections :4.3–:4.4 and :5.2 separate that choice from numerical approximation. Reopen when interactions, constraints or the requested result change. [Publisher's text](https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/9579/sicm_edition_2.zip/chapter001.html).
 
-For comparing causal uses, **adopt** intervention construction from Pearl's *Causal inference in statistics: An overview* (2009), §3.2.1, and **adapt** it here to expose the particular consequence on which two accounts disagree. Agreement in the observed distribution, a serious comparator for prediction, can leave that intervention consequence undecided. Sections :4.4 and :5.3 use this construction; C.28 supplies the broader causal method. Reopen when the causal premises or intended intervention change. [Author's paper](https://ftp.cs.ucla.edu/pub/stat_ser/r350.pdf).
+For comparing causal uses, **adopt** intervention construction from Pearl's *Causal inference in statistics: An overview* (2009), §3.2.1, and **adapt** it here to expose the consequence on which two accounts disagree. Agreement in the observed distribution, a comparator for prediction, can leave that intervention consequence undecided. Sections :4.4 and :5.3 use this construction; C.28 supplies the broader causal method. Reopen when the causal premises or intended intervention change. [Author's paper](https://ftp.cs.ucla.edu/pub/stat_ser/r350.pdf).
 
-For prediction, a serious alternative to choosing a single account is combining predictive distributions. Yao, Vehtari, Simpson and Gelman's stacking method (2018) chooses weights through predictive performance when the candidate set need not contain the data-generating model. **Adapt** that question-relative choice into :4.5's permission to retain combinations. **Reject** using such predictive weights as a verdict about causal mechanism or mathematical equivalence; those are different comparison questions. The statistical method remains with its domain, including its scoring and validation conditions. Reopen when prediction under another distribution or a different use is required. [Authors' paper](https://sites.stat.columbia.edu/gelman/research/published/stacking.pdf).
+For prediction, an alternative to choosing a single account is combining predictive distributions. Yao, Vehtari, Simpson and Gelman's stacking method (2018) chooses weights through predictive performance when the candidate set need not contain the data-generating model.
+
+**Adapt** that question-relative choice into :4.5's permission to retain combinations. **Reject** using such predictive weights as a verdict about causal mechanism or mathematical equivalence; those are different comparison questions. The statistical method remains with its domain, including its scoring and validation conditions. Reopen when prediction under another distribution or a different use is required. [Authors' paper](https://sites.stat.columbia.edu/gelman/research/published/stacking.pdf).
 
 This pattern combines these constructive contributions into a common comparison method.
 

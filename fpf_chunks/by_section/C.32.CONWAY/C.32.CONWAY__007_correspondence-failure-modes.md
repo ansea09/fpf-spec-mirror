@@ -6,12 +6,12 @@ section_id: "C.32.CONWAY:6"
 section_title: "Correspondence Failure Modes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.CONWAY/C.32.CONWAY__007_correspondence-failure-modes.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.32.CONWAY — Architecture-Influence and Transformed-Architecture Correspondence"
   - "C.32.CONWAY:6 — Correspondence Failure Modes"
-line_start: 78348
-line_end: 78366
+line_start: 82177
+line_end: 82195
 dependencies:
   - "A.10"
   - "A.12"
@@ -56,11 +56,11 @@ keywords:
 | **Influence source without governor** | Apply the direct relation pattern. With no kind/predicate, keep the correspondence synthesis-local and return `missing-governor`; with unresolved facts, name the grounding boundary; with a false predicate, remove the influence-occurrence claim. |
 | **Architecture-bearer equality with an actor inferred** | Keep the influence-source holon and acting-system refs separate; assert equality only when independent actor and architecture-bearer facts establish it. |
 | **Transformed-side-only inverse Conway** | If the text says inverse Conway but changes only the transformed architecture, name the exact influence-source selected structure that must change or stop using the inverse-Conway claim. |
-| **Source-side change without transformed pressure** | If an organization, method, line, or toolchain is reorganized without one transformed architecture and characteristic under pressure, return to the direct Work or organization-design use. |
+| **Source-side change without transformed pressure** | If an organization, method, line, or toolchain is reorganized without one transformed architecture and characteristic under pressure, return to the Work or organization-design use. |
 | **One-sided optimization** | Consider source-side, transformed-side, joint and bounded-mismatch alternatives. Develop those applicable to the question, retaining the reason for any consequential exclusion. |
 | **Pair treated as network** | Keep the exact pair row as one qualified reading; use E.18.NET for network identity, members, and exact cross-flow relations. |
 | **Network citation treated as relation admission** | Ground the exact relation participants in member-flow positions and make the E.18.NET composite locator name that same citing current record and exactly one cross-flow row; otherwise remove `networkCrossFlowRelationRowRef`. A locator for one record does not qualify another record's citation. |
-| **Mirroring treated as adequacy** | Establish the claimed preservation or adequacy under its actual rule and grounds. Keep unsupported mirroring as candidate pressure; use C.29 for an unresolved mathematical representation choice, transfer or reliance question. |
-| **Software-practice overfit** | When the changed referent is a product family, manufacturing system, school, hospital, or another admitted non-software holon, transfer only the selected-structure correspondence and affected characteristics; do not import software-service or team ontology. A method-family or method-description label alone does not make the named object a `U.Holon`; if the case uses a method-related holon, identify that exact holon and admit it independently under its direct kind-admission pattern. |
+| **Mirroring treated as adequacy** | Establish the claimed preservation or adequacy under its rule and grounds. Keep unsupported mirroring as candidate pressure; use C.29 for an unresolved mathematical representation choice, transfer or reliance question. |
+| **Software-practice overfit** | When the changed referent is a product family, manufacturing system, school, hospital, or another admitted non-software holon, transfer only the selected-structure correspondence and affected characteristics; do not import software-service or team ontology. A method-family or method-description label alone does not make the named object a `U.Holon`; if the case uses a method-related holon, identify that exact holon and admit it independently under its kind-admission pattern. |
 | **Static correspondence** | Reconsider the affected correspondence when a change to an architecture, structure, relation, referent or window changes its premises; retain unaffected uses. |
 

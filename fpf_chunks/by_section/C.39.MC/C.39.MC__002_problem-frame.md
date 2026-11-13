@@ -6,12 +6,12 @@ section_id: "C.39.MC:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.MC/C.39.MC__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.39.MC — Continue Method Development from Changed Conditions"
   - "C.39.MC:1 — Problem Frame"
-line_start: 84555
-line_end: 84568
+line_start: 88758
+line_end: 88775
 dependencies:
   - "A.15.7"
   - "A.22.CGUS"
@@ -28,11 +28,15 @@ keywords:
 
 Start by asking: **Which Method-architecture result do we need now, and what fact could change that need?** For example: “We can review the candidate description, but cannot yet claim that its proposed Methods form one whole. Which result should we obtain, and what stays valid when the missing evidence arrives?”
 
-The first useful answer can be spoken: “Review these unchanged claims through A.3.1.QM; keep the whole claim unresolved under B.1.5.CM; publication remains blocked by its separate condition. Reopen the whole claim when its missing relation basis arrives.” During ongoing Work, the deciding System uses A.15.7 to choose the actual next action and names the intended performer and any feedback condition needed for that continuation.
+The first useful answer can be spoken: “Review these unchanged claims through A.3.1.QM; keep the whole claim unresolved under B.1.5.CM; publication remains blocked by its separate condition. Reopen the whole claim when its missing relation basis arrives.” During ongoing Work, the deciding System uses A.15.7 to choose the next action and names the intended performer and any feedback condition needed for that continuation.
 
 The practical gain is continuity across Method-development questions. Each new fact returns to the result it can change; the practitioner need not restart qualification, comparison, description, and support work together or reconstruct their boundaries from a reading sequence.
 
-**Ordinary non-use.** If one current MethodDescription already states the applicable action, conditions, result, and stop, use it directly. If one existing pattern or result answers the whole current question, use that answer and stop. A single action does not need a continuation account, alternative set, CGUS, or durable result. Before Work begins, use the actual architecture, planning, or work-entry question; A.15.7 governs only an ongoing-Work choice.
+**Ordinary non-use.** If one current MethodDescription already states the applicable action, conditions, result, and stop, use it. If one existing pattern or result answers the whole current question, use that answer and stop.
+
+A single action does not need a continuation account, alternative set, CGUS, or durable result.
+
+Before Work begins, use the architecture, planning, or work-entry question; A.15.7 governs only an ongoing-Work choice.
 
 This is the situated-use branch of Method development using pattern-language knowledge. It does not recover and reconcile an entire source corpus or construct the complete language.
 

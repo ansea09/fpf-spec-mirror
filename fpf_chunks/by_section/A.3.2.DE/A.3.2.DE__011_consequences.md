@@ -6,12 +6,12 @@ section_id: "A.3.2.DE:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2.DE/A.3.2.DE__011_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.3.2.DE — Describe a Method for Its Intended Use"
   - "A.3.2.DE:9 — Consequences"
-line_start: 11929
-line_end: 11934
+line_start: 12346
+line_end: 12351
 dependencies:
   - "A.3.2"
   - "C.37"

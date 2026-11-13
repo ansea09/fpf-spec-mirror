@@ -6,12 +6,12 @@ section_id: "B.5:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5/B.5__012_sota-echoing.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.5 — Choose the Next Reasoning Contribution (Canonical Reasoning Cycle)"
   - "B.5:11 — SoTA-Echoing"
-line_start: 46568
-line_end: 46583
+line_start: 48508
+line_end: 48525
 dependencies:
   - "A.10"
   - "B.5.1"
@@ -32,7 +32,9 @@ keywords:
 
 **How can an inquiry begin before equations are available?** Adapt the qualitative entry described by Etkina and Brookes in [the ISLE method explanation](https://www.islephysics.net/why-isle.html): observations can lead to proposed mechanisms, consequences and discriminating tests before quantitative formalization. Section 4.1.1 makes a first provisional account available; section 5.6 works an engineering model choice. ISLE supplies an instructional method in a supported learning setting.
 
-**How do grounds and alternatives arise before a testable hypothesis?** Adapt [Ott and Hannah (2024), Emergent Findings and tables 3–4](https://doi.org/10.1287/stsc.2024.0178): open encounters, mental trials and interpretation can reveal participants and dependencies before a specific test is formulated. Their longitudinal study of nine ventures describes contingent combinations of practices, not a universally validated algorithm. Section 4.1.2 connects such constructive work to the existing first-model, reasoning and inquiry-appraisal Methods; that general connection is a methodological synthesis, with domain qualification still required.
+**How do grounds and alternatives arise before a testable hypothesis?** Adapt [Ott and Hannah (2024), Emergent Findings and tables 3–4](https://doi.org/10.1287/stsc.2024.0178): open encounters, mental trials and interpretation can reveal participants and dependencies before a test is formulated. Their longitudinal study of nine ventures describes contingent combinations of practices, not a universally validated algorithm.
+
+Section 4.1.2 connects such constructive work to the existing first-model, reasoning and inquiry-appraisal Methods; that general connection is a methodological synthesis, with domain qualification required.
 
 **What does exploring an intended use contribute?** Adapt [NASA's Stakeholder Expectations Definition, §4.1.1.2.4](https://www.nasa.gov/reference/4-1-stakeholder-expectations-definition/): exercising a concept of operations can expose missing interactions and return them to expectations. The engineering practice supports working through a use to discover conditions; it does not establish that a generic scheme finds all consequential distinctions in other fields.
 

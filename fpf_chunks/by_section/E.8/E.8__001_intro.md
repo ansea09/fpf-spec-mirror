@@ -6,12 +6,12 @@ section_id: "E.8:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:intro — Intro"
-line_start: 96891
-line_end: 96896
+line_start: 102130
+line_end: 102135
 dependencies:
   - "E.10"
   - "E.10.MOVE"
@@ -60,5 +60,5 @@ keywords:
 
 > **Type:** Architectural (A)
 > **Status:** Stable
-> **Normativity:** Normative (unless explicitly marked informative)
+> **Normativity:** Normative (unless marked informative)
 

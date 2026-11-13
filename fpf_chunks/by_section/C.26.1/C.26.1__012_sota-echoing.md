@@ -6,12 +6,12 @@ section_id: "C.26.1:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.1/C.26.1__012_sota-echoing.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.26.1 — Probe-Coupled Boundary Interaction"
   - "C.26.1:11 — SoTA-Echoing"
-line_start: 66244
-line_end: 66262
+line_start: 69240
+line_end: 69258
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -42,18 +42,18 @@ keywords:
 
 | Pattern claim | Practice source | Pattern implication | Adoption stance |
 | --- | --- | --- | --- |
-| A probe or instrument can produce both an output and a state update; the output alone does not specify the operation. | [Quantum-instrument modeling of question order, response replicability, and QQ-equality](https://www.sciencedirect.com/science/article/pii/S0022249620301152). | Ask what operation produced both output and update before treating dashboards, API reads, workshops, surveys, or metrics as passive reads. | Adapt the instrument/update lesson; do not import a full organization ontology. |
-| Contextual judgment and order effects are common enough to be a practical modeling cue. | [Quantum Cognition](https://www.annualreviews.org/content/journals/10.1146/annurev-psych-033020-123501). | Treat question order, workshop order, and dashboard framing as possible state-shaping operations when they change the decision. | Adopt as a recognition cue with critical limits. |
+| A probe or instrument can produce both an output and a state update; the output alone does not specify the operation. | [Quantum-instrument modeling of question order, response replicability, and QQ-equality](https://www.sciencedirect.com/science/article/pii/S0022249620301152). | Ask what operation produced both output and update before treating dashboards, API reads, workshops, surveys, or metrics as passive reads. | Adapt the instrument/update lesson. |
+| Contextual judgment and order effects are common enough to be a practical modeling cue. | [Quantum Cognition](https://www.annualreviews.org/content/journals/10.1146/annurev-psych-033020-123501). | Treat question order, workshop order, and dashboard framing as possible state-shaping operations when they change the decision. | Adopt as a recognition cue. |
 | Classical instrument models may explain some sequential-decision data, so QL is useful but not uniquely necessary by default. | [Quantum-like Cognition in Process Theories: An Analysis](https://arxiv.org/abs/2604.08604). | Keep rival routes visible; QL remains a modeling lens, not a necessity claim. | Use as non-exclusivity discipline. |
-| A prediction, score, or metric can change the target distribution because people act on it, without requiring a QL probe reading. | [Performative Prediction](https://proceedings.mlr.press/v119/perdomo20a.html). | Use the performative-prediction account to explain dashboard-induced or score-induced behavior. Apply C.26.1 when the output still needs a corrected state/use interpretation; add QL only under C.26's separate activation test. | Adopt as a classical rival path that sharpens when C.26.1 is actually useful. |
+| A prediction, score, or metric can change the target distribution because people act on it, without requiring a QL probe reading. | [Performative Prediction](https://proceedings.mlr.press/v119/perdomo20a.html). | Use the performative-prediction account to explain dashboard-induced or score-induced behavior. Apply C.26.1 when the output still needs a corrected state/use interpretation; add QL only under C.26's separate activation test. | Adopt as a classical rival path that sharpens when C.26.1 is useful. |
 | Boundaries can be modeled by what a system can measure, model, and affect, while mathematical boundary descriptions are not new worldly substances. | [The Computational Boundary of a Self](https://philpapers.org/rec/LEVTCB-3) and [The Markov blankets of life](https://philarchive.org/rec/KIRTMB). | Make the boundary/probe relation explicit without reifying the boundary or coupling phrase. | Adapt for boundary-function discipline. |
 | Bounded-context and microservice practice already governs ordinary domain cuts and integration points. | [Use domain analysis to model microservices](https://learn.microsoft.com/en-us/azure/architecture/microservices/model/domain-analysis) and [DDD in software development: a 2025 SLR](https://www.sciencedirect.com/science/article/pii/S0164121225002055). | Use C.26.1 only when the cut, workshop, bridge, dashboard, API extraction, split, or merge changes represented boundary state or export validity. | Use DDD as baseline; add C.26.1 only for the probe-coupled support load. |
 
-Worked-use-slice discipline from these rows:
+Apply these source contributions:
 
 - start from the ordinary FPF pattern before QL wording;
 - show the concrete operation that produced the output;
-- show the supported state update or export loss that changes the decision, or the exact unresolved premise;
+- show the supported state update or export loss that changes the decision, or the unresolved premise;
 - keep relation wording local; use `A.6.P` for unresolved relation meaning and `F.18` for a reusable name only after the relation is settled under its direct pattern;
 - keep source-formalism language as modeling support, not as pattern-body ontology.
 

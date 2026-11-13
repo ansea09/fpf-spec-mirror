@@ -6,12 +6,12 @@ section_id: "C.40.PC:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.PC/C.40.PC__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.40.PC — Construct a Worthwhile Problem and Proposed Contribution"
   - "C.40.PC:2 — Problem"
-line_start: 87220
-line_end: 87227
+line_start: 91454
+line_end: 91461
 dependencies:
   - "A.15.9"
   - "A.2.3"
@@ -28,7 +28,7 @@ keywords:
 
 A niche, a worthwhile problem, and a proposed contribution answer different questions. A niche is a possible fit between a contribution and a use. The problem explains why an inadequate or foregone result matters there. The contribution says what could be supplied and how the receiver would recognize it.
 
-If these are collapsed, a supplier's enthusiasm becomes demand, a proposed offer becomes a commitment, and a useful intermediate result becomes a promise of benefit. “Recover missing evidence” turns into “approve faster,” although neither the time saving nor the approval is established. Alternatively, a practitioner rejects a useful problem merely because no feasible way to address it is known yet.
+If these are collapsed, a supplier's enthusiasm is treated as demand, a proposed offer as a commitment, and a useful intermediate result as a promise of benefit. “Recover missing evidence” is read as “approve faster,” although neither the time saving nor the approval is established. Alternatively, a practitioner rejects a useful problem merely because no feasible way to address it is known yet.
 
 The needed move is to make the value and contribution claims separately inspectable, preserving uncertainty without losing a worthwhile next question.
 

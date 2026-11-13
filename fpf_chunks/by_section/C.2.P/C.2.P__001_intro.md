@@ -6,12 +6,12 @@ section_id: "C.2.P:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P/C.2.P__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.2.P — Clarify Episteme, Publication, and Source Wording (Epistemic Precision Restoration)"
   - "C.2.P:intro — Intro"
-line_start: 51985
-line_end: 51990
+line_start: 54161
+line_end: 54166
 dependencies:
   - "A.10"
   - "A.15"

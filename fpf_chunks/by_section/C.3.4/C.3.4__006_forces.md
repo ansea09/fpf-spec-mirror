@@ -6,12 +6,12 @@ section_id: "C.3.4:4"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__006_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.3.4 — KindUseAdaptationDeclaration — Tailor the Use of an Existing Kind"
   - "C.3.4:4 — Forces"
-line_start: 55877
-line_end: 55887
+line_start: 58175
+line_end: 58185
 dependencies:
   - "A.2.6"
   - "C.2.1"
@@ -28,7 +28,7 @@ keywords:
 | Force | Tension to resolve |
 | --- | --- |
 | Local specialization vs common core | A use needs tailoring without forking the base kind. |
-| Expressivity vs determinism | Real constraints must remain reproducibly checkable. |
+| Expressivity vs determinism | Constraints must remain reproducibly checkable. |
 | Applicability vs uncertainty | Candidate/slice mismatch stops before the judgment; missing facts preserve `unknown`. |
 | Scope vs candidate constraints | Conditions on ClaimScope stay under A.2.6; conditions on the candidate enter classification. |
 | Reuse vs proliferation | Stable conceptual distinctions may warrant a separately identified kind, but declaration reuse alone does not. |

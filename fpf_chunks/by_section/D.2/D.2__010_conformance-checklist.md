@@ -6,12 +6,12 @@ section_id: "D.2:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.2/D.2__010_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "D.2 — Recognize Ethical Concerns Across Levels and Scopes (Multilevel Ethics)"
   - "D.2:6 — Conformance Checklist"
-line_start: 91767
-line_end: 91775
+line_start: 96259
+line_end: 96267
 dependencies:
   - "A.1"
   - "A.15"
@@ -33,8 +33,8 @@ keywords:
 
 | ID | Requirement | Purpose |
 | --- | --- | --- |
-| CC-D2-1 | Declared levels or scopes come from the situation and are named by value. | Keeps the ethical comparison grounded in the actual relations rather than a fixed moral ladder. |
-| CC-D2-2 | Name the affected entities, Methods, actual Work and consequences needed for the concern. Clarify unclear role wording with `E.10.ROLE`; keep any local kind and C.2.1 classification assertion distinct. For an assignment, use its declared species and support the actual claim; an asserted occurrence needs its participants and applicability. Establish participation, responsibility, commitment, permission and authority separately when relied on, retaining a supported negative or conditional result, or the specific missing fact or rule. | Keeps the entry usable without making assignment imply participation or responsibility. |
+| CC-D2-1 | Declared levels or scopes come from the situation and are named by value. | Keeps the ethical comparison grounded in the relations rather than a fixed moral ladder. |
+| CC-D2-2 | Name the affected entities, Methods, actual Work and consequences needed for the concern. Clarify unclear role wording with `E.10.ROLE`; keep any local kind and C.2.1 classification assertion distinct. For an assignment, use its declared species and support the claim; an asserted occurrence needs its participants and applicability. Establish participation, responsibility, commitment, permission and authority separately when relied on, retaining a supported negative or conditional result, or the missing fact or rule. | Keeps the entry usable without making assignment imply participation or responsibility. |
 | CC-D2-3 | The result identifies the next live question and `D.3`, `D.4`, `D.5`, `C.30.ILC`, or another subject pattern that answers it. The entry record is used only when its recoverable content contributes to that use. | Keeps D.2 as entry recognition, not conflict solver. |
-| CC-D2-4 | Mathematical reasoning retains its subject, interpretation and applicable conditions. Use `C.29` when representation choice, transfer or supported use remains unresolved, and the direct measurement pattern when a measurement claim is current. | Keeps mathematical support distinct from ethical priority. |
+| CC-D2-4 | Mathematical reasoning retains its subject, interpretation and applicable conditions. Use `C.29` when representation choice, transfer or supported use remains unresolved, and the measurement pattern when a measurement claim is current. | Keeps mathematical support distinct from ethical priority. |
 

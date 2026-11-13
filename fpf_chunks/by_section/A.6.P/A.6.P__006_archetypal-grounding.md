@@ -6,12 +6,12 @@ section_id: "A.6.P:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__006_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.P — Relational Precision Restoration - Recovering Direct Relations from Under-Specified Claims"
   - "A.6.P:5 — Archetypal Grounding"
-line_start: 20341
-line_end: 20396
+line_start: 21214
+line_end: 21269
 dependencies:
   - "A.1.SCR"
   - "A.1.STM"
@@ -72,13 +72,13 @@ If the adopted construction rule makes installation Work constitutive, identify 
 
 **Adjacent reading.** Record `ninety-seven percent of endpoint pairs passed the mapping test` with `C.16`. If approval relies on that result, classify the evidence use under `A.2.4` and use `A.10` when its source-to-use basis must remain replayable. The percentage does not establish the needed sentence.
 
-**Result.** Bearing-replacement approval is not yet supported. First recover what each label designates under its reference scheme and the grounding or identity evidence for those referents. If the applicable designation and subject-identity rules establish one independently identified bearing, return that bounded identity claim; it does not by itself authorize replacement. If the labels designate different referents, or a kind and an individual, revise or reject the candidate claim as warranted. Keep missing interpretation or evidence explicit. Return `A.6.RCD missing-governor` only when the exact remaining predicate or a required applicability or identity rule is absent, naming that gap and the affected use.
+**Result.** Bearing-replacement approval is not yet supported. First recover what each label designates under its reference scheme and the grounding or identity evidence for those referents. If the applicable designation and subject-identity rules establish one independently identified bearing, return that bounded identity claim; it does not by itself authorize replacement. If the labels designate different referents, or a kind and an individual, revise or reject the candidate claim as warranted. Keep missing interpretation or evidence explicit. Return `A.6.RCD missing-governor` only when the remaining predicate or a required applicability or identity rule is absent, naming that gap and the affected use.
 
 **Representation boundary.** The edge and endpoint positions represent the assertion and its participants under the graph convention. Their interpretation makes the claim readable; the designation and subject-identity evidence decide its truth. Neither shared labels nor a visible edge establishes substitutability or an individuated relation occurrence by itself.
 
 When the claim is that both model epistemes concern the same world-side holon, recover each episteme's exact EntityOfConcern or grounding designation plus the observations, trajectory, or identity evidence governed for that holon. A Bridge preserves stated correspondences and losses; it does not prove the common world-side referent.
 
-**Show the viewpoint-conformance use.** A review must decide whether model episteme `E` conforms to maintenance viewpoint episteme `P`. Identify `E` from its claim content, EntityOfConcern, and effective reference scheme, and resolve `P` as one claim-bearing viewpoint edition before reading a diagram, field, or reference as ontology. Then apply the direct predicate governed by `E.17.0`: `EpistemeViewpointConformanceRelation(E,P)`. Plainly, `E` conforms to this exact viewpoint.
+**Show the viewpoint-conformance use.** A review must decide whether model episteme `E` conforms to maintenance viewpoint episteme `P`. Identify `E` from its claim content, EntityOfConcern, and effective reference scheme, and resolve `P` as one claim-bearing viewpoint edition before reading a diagram, field, or reference as ontology. Then apply the direct predicate governed by `E.17.0`: `EpistemeViewpointConformanceRelation(E,P)`. Plainly, `E` conforms to this viewpoint.
 
 For unchanged `E` and `P`, the pair `<E,P>` determines one positive occurrence. Selecting `P` for this review is a separate use qualification: selection neither makes conformance obtain nor enters occurrence identity. If another review selects `P2`, test `<E,P2>` instead of retagging `E`. A `viewpointRef` or diagram label does not identify either participant by itself. A query, transformation, or projection may supply construction history for `E`, but neither that history nor an assertion, evaluation, representation, or publication makes conformance obtain.
 
@@ -86,7 +86,7 @@ Add an occurrence designator when a receiving use needs to refer to or reidentif
 
 #### A.6.P:5.4 - Method, Work, system-role objects, and agency
 
-The sentence `the inspection method checks Pump_P` may remain ordinary metonymy under F.19. For a separate claim about actual inspection history, recover the following exact case. The source basis says that admitted `System_S` has the A.13 core for inspection: it is independently classified under local kind `InspectorSystemRole` and holds obtaining `InspectionAssignment-17` of declared `MaintenanceInspectionAssignment` species for the stated scope and window. A.15.1 then independently admits `InspectionWork_W` and its `enactsMethod(InspectionWork_W, InspectionMethod_M)` relation; the examination relation separately connects the Work to `Pump_P`. Because this worked account expressly states under which assignment the inspection was performed, F.6 then establishes `performedUnderAssignment(InspectionWork_W, InspectionAssignment-17)` and checks the already recovered performer against the holder. If the deciding F.6 fact were missing, attribution would remain unresolved; contrary facts would refute that attribution. The independently admitted Work remains in either case. Taxonomy episteme and reference scheme may interpret the assertion but are not assignment participants. `System_S` performs `InspectionWork_W`.
+The sentence `the inspection method checks Pump_P` may remain ordinary metonymy under F.19. For a separate claim about actual inspection history, recover the following case. The source basis says that admitted `System_S` has the A.13 core for inspection: it is independently classified under local kind `InspectorSystemRole` and holds obtaining `InspectionAssignment-17` of declared `MaintenanceInspectionAssignment` species for the stated scope and window. A.15.1 then independently admits `InspectionWork_W` and its `enactsMethod(InspectionWork_W, InspectionMethod_M)` relation; the examination relation separately connects the Work to `Pump_P`. Because this worked account expressly states under which assignment the inspection was performed, F.6 then establishes `performedUnderAssignment(InspectionWork_W, InspectionAssignment-17)` and checks the already recovered performer against the holder. If the deciding F.6 fact were missing, attribution would remain unresolved; contrary facts would refute that attribution. The independently admitted Work remains in either case. Taxonomy episteme and reference scheme may interpret the assertion but are not assignment participants. `System_S` performs `InspectionWork_W`.
 
 #### A.6.P:5.5 - Formal reduced case
 

@@ -6,12 +6,12 @@ section_id: "A.7.CP:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.CP/A.7.CP__009_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.7.CP — Constructive-Premise Compact and Reasoning-Basis Use"
   - "A.7.CP:7 — Conformance Checklist"
-line_start: 26348
-line_end: 26360
+line_start: 27334
+line_end: 27346
 dependencies:
   - "A.7"
   - "A.7.1"
@@ -29,8 +29,8 @@ keywords:
 
 | ID | Check |
 |---|---|
-| `CC-A7CP-1` | Every relation occurrence names one exact basis-claim episteme/ID, dated reasoning-work occurrence, exact receiving-result episteme, posture, optional narrower use scope, and maximal continuous reliance interval. |
-| `CC-A7CP-2` | The work actually relies on the claim for that exact receiving result; citation, access, publication, or use elsewhere in the work is insufficient. |
+| `CC-A7CP-1` | Every relation occurrence names one basis-claim episteme/ID, dated reasoning-work occurrence, receiving-result episteme, posture, optional narrower use scope, and maximal continuous reliance interval. |
+| `CC-A7CP-2` | The work relies on the claim for that receiving result; citation, access, publication, or use elsewhere in the work is insufficient. |
 | `CC-A7CP-3` | `adoptedPremise` and `conditionalAssumption` are use postures, not intrinsic claim kinds. |
 | `CC-A7CP-4` | An actual change of posture or another occurrence-identity value identifies a different or later result-specific occurrence and reopens that result and its dependents. Correcting knowledge of a historical use changes the assertion, not the occurrence; reuse other results only when their consumed grounds remain unchanged. |
 | `CC-A7CP-5` | Consumers cite only load-bearing claim IDs and do not copy the compact. |

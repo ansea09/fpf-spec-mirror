@@ -6,12 +6,12 @@ section_id: "B.5.MPC.R:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.MPC.R/B.5.MPC.R__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.5.MPC.R — Repair a Physical-Mathematical-Computational Connection"
   - "B.5.MPC.R:3 — Forces"
-line_start: 47492
-line_end: 47501
+line_start: 49490
+line_end: 49499
 dependencies:
   - "A.15.9"
   - "A.3.3"
@@ -31,8 +31,8 @@ keywords:
 | Force | Tension |
 | --- | --- |
 | Local correctness and joint usefulness | A valid result can answer a question different from the receiving physical question. |
-| Stable relations and changed unknowns | The same physical relation can serve several questions, but each may require a different computation. |
+| Stable relations and changed unknowns | The physical relation can serve several questions, but each may require a different computation. |
 | Observation and intervention | Obtaining an indication can change the state or conditions whose behavior is being inferred. |
 | Economical repair and unresolved alternatives | A short correction can suffice; an ambiguous discrepancy may need a discriminating observation or a conditional result. |
-| Useful abstraction and realizable operation | Mathematical possibilities can exceed the preparation, timing or range of the available apparatus. |
+| Abstraction and realizable operation | Mathematical possibilities can exceed the preparation, timing or range of the available apparatus. |
 

@@ -6,12 +6,12 @@ section_id: "A.6.RSIR:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIR/A.6.RSIR__008_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.RSIR — Relation, Signature, Interface, Role, and Slot Precision Restoration"
   - "A.6.RSIR:6 — Bias-Annotation"
-line_start: 21770
-line_end: 21777
+line_start: 22649
+line_end: 22656
 dependencies:
   - "A.10"
   - "A.15"
@@ -59,7 +59,7 @@ keywords:
 
 This pattern has a relation-cluster bias because it sits in A.6. It mitigates that bias by stopping as soon as the applicable definition, constraint, or test is clear.
 
-It has an interface and software-language stress case because API, endpoint, protocol, and interface wording often enters from software. The pattern deliberately keeps the recovery general: architecture interfaces, physical ports, functional ports, service-access descriptions, and publication forms are all possible, and none is selected by word choice alone.
+It has an interface and software-language stress case because API, endpoint, protocol, and interface wording often enters from software. The pattern keeps the recovery general: architecture interfaces, physical ports, functional ports, service-access descriptions, and publication forms are all possible, and none is selected by word choice alone.
 
 It resists semio-bias by keeping descriptions, publications, records, reports, standards, and source labels under the patterns that define or constrain those objects and uses: `C.2.1`, `E.24.PUB`, `E.17`, `C.2.P.DR`, `A.10`, `B.3`, `F.10`, `C.28`, `E.10`, or `E.10.ARCH` when those objects or uses are current. A source label may help recognition; its presence is not evidence that the denoted object is the current EntityOfConcern or that a proposed action is admissible.
 

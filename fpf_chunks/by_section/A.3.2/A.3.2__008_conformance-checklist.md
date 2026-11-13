@@ -6,12 +6,12 @@ section_id: "A.3.2:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2/A.3.2__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.3.2 — U.MethodDescription: Description Episteme for a Way of Doing"
   - "A.3.2:7 — Conformance Checklist"
-line_start: 11691
-line_end: 11722
+line_start: 12102
+line_end: 12139
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -60,7 +60,9 @@ keywords:
 
 **CC-A3.2-3 (No automatic trigger repair).** Wording such as `algorithm`, `program`, `proof`, `solver`, `workflow`, `process`, `procedure`, `recipe`, or `model` is only a cue. Classify the episteme as `U.MethodDescription` only after its claim and admitted Method pass CC-A3.2-1 and CC-A3.2-2.
 
-**CC-A3.2-4 (Description not work).** Executable-looking material is not a Work occurrence. For a program run, proof-checking session, solver run, lab run, or clinical application, first recover every performing System's A.13 core, including its obtaining assignment of a separately declared species. Admit Work only after A.15.1 independently identifies the world-side occurrence, enacted Method, temporal extent, and containing System. Apply F.6 through that same assignment afterward only when precise assignment-bound attribution is claimed; a missing or failed F.6 attribution leaves independently admitted Work intact. Any participant, resource-use, or work-to-referent claim needs its own admitted relation; if none exists, return the corresponding missing-governor result.
+**CC-A3.2-4 (Description not work).** Executable-looking material is not a Work occurrence. For a program run, proof-checking session, solver run, lab run, or clinical application, first recover every performing System's A.13 core, including its obtaining assignment of a separately declared species. Admit Work only after A.15.1 independently identifies the world-side occurrence, enacted Method, temporal extent, and containing System.
+
+Apply F.6 through that same assignment afterward only when precise assignment-bound attribution is claimed; a missing or failed F.6 attribution leaves independently admitted Work intact. Any participant, resource-use, or work-to-referent claim needs its own admitted relation; if none exists, return the corresponding missing-governor result.
 
 **CC-A3.2-5 (Membership and additional claims).** Method-description membership does not establish WorkPlan membership, a gate decision, permission, approval, external-rule authorization, or an evidence relation. Test each additional claim under its subject pattern. The same episteme may also be a `U.WorkPlan` when it meets A.15.2.
 
@@ -78,9 +80,13 @@ keywords:
 
 **CC-A3.2-12 (Nondeterminism).** When a description permits search, optimization, sampling, nondeterministic choice, or learned behavior, state the admissible result range and the criterion for evaluating actual Work or results. Name the pattern or declaration that defines that criterion.
 
-**CC-A3.2-13 (Cross-context and semantic-locality boundary).** F.9 answers only whether a Bridge obtains between two `SchemeSenseCell` values. For proposed reuse, state a separate C.2.1 claim with the use, direction, correspondence rule, loss tolerance, and affirmative or negative polarity. Positive polarity alone is not reliance. Ordinary reliance with no assurance claim requires `RelianceDisposition=pass` on its A.10 path. When an actual named assurance claim about the same bounded use is current, apply B.3; positive assurance requires its `AssuranceResult` with `disposition=supported-for-use`. A direct domain rule may require that claim, but consequence alone does not create it. A negative or absent use claim, a non-passing A.10 disposition, or—when that assurance claim is current—a B.3 result that does not support the attempted use stops or narrows reuse even while the Bridge obtains. Changes of reference scheme, unit, role taxonomy, claim scope, or model use stay under their own patterns.
+**CC-A3.2-13 (Cross-context and semantic-locality boundary).** F.9 answers only whether a Bridge obtains between two `SchemeSenseCell` values. For proposed reuse, state a separate C.2.1 claim with the use, direction, correspondence rule, loss tolerance, and affirmative or negative polarity. Positive polarity alone is not reliance. Ordinary reliance with no assurance claim requires `RelianceDisposition=pass` on its A.10 path.
 
-**CC-A3.2-14 (Declarative representation).** Use `C.2.P.DR` when a declarative representation's form or layout is being treated as sufficient to prescribe work. Recover the direct object or relation and any representation use. Assert the proposed route, dispatch, call, or work-control sequence only when its exact predicate is defined and current facts satisfy it; otherwise retain the direct object or representation without that unsupported action claim.
+When a named assurance claim about the same bounded use is current, apply B.3; positive assurance requires its `AssuranceResult` with `disposition=supported-for-use`. A direct domain rule may require that claim, but consequence alone does not create it.
+
+A negative or absent use claim, a non-passing A.10 disposition, or—when that assurance claim is current—a B.3 result that does not support the attempted use stops or narrows reuse even while the Bridge obtains. Changes of reference scheme, unit, role taxonomy, claim scope, or model use stay under their own patterns.
+
+**CC-A3.2-14 (Declarative representation).** Use `C.2.P.DR` when a declarative representation's form or layout is being treated as sufficient to prescribe work. Recover the direct object or relation and any representation use. Assert the proposed route, dispatch, call, or work-control sequence only when its predicate is defined and current facts satisfy it; otherwise retain the direct object or representation without that unsupported action claim.
 
 **CC-A3.2-15 (Causal-use boundary).** A method description may describe intervention assignment, target-trial emulation, realized-counterfactual sampling, simulation, or causal-evidence collection. It does not by itself establish causal use. If causal effect, intervention success, counterfactual comparison, causal fairness, or policy effect is claimed, use `C.28`.
 

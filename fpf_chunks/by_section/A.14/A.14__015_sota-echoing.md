@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.14"
-pattern_title: "Advanced Mereology: Components, Portions, Aspects & Phases"
+pattern_title: "Mereology: Components, Portions, Aspects & Phases"
 section_id: "A.14:14"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.14/A.14__015_sota-echoing.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.14 — Advanced Mereology: Components, Portions, Aspects & Phases"
+  - "A.14 — Mereology: Components, Portions, Aspects & Phases"
   - "A.14:14 — SoTA-Echoing"
-line_start: 28684
-line_end: 28722
+line_start: 29748
+line_end: 29788
 dependencies:
   - "A.1"
   - "A.15"
@@ -54,7 +54,7 @@ keywords:
 
 ### A.14:14 - SoTA-Echoing
 
-The collection-belonging rule uses a constructional question: what is the collection, what gives it identity, and which relation actually obtains? A subject-specific rule supplies the belonging predicate.
+The collection-belonging rule uses a constructional question: what is the collection, what gives it identity, and which relation obtains? A subject-specific rule supplies the belonging predicate.
 
 | Source line | Useful contribution | Limit | A.14 decision and destination |
 | --- | --- | --- | --- |
@@ -65,7 +65,7 @@ The collection-belonging rule uses a constructional question: what is the collec
 
 
 
-The resulting collection alternatives are deliberately distinct:
+The resulting collection alternatives are distinct:
 
 - **Selected:** an ordinary subject-specific belongs-to sentence plus the collection's own rule.
 - **Rejected:** one generic `MemberOf`, because it collapses formal inclusion, classification, participation, collection belonging, and constructive parthood.
@@ -88,6 +88,8 @@ The catalogue keeps direct component, constituent, portion, bearer-dependent asp
 #### A.14:14.1 - Aspect branch application
 
 
-For AspectOf, A.14 adapts the constructor-and-identity questions of Partridge et al. and Florio and Linnebo's Core Constructional Ontology: which bearer, facet rule, dependent aspect and identity conditions make this structural part? The bearer/facet conditions and required `StructPartOf` relation are FPF choices. Fine's historical composition-first treatment motivates identifying the composition operation before the part claim. A.14 adapts that line in `A.14:5.3`, the decision procedure, and `CC-ASP-1` through `CC-ASP-4`; `C.13 slice` remains an optional report, not the constructor of the aspect. The serious alternatives are routed rather than renamed: measured Characteristic (`C.16`/`A.19`), viewpoint or view (`E.17`), representation or projection (`C.29` or its direct pattern), selected partition, and temporal restriction (`PhaseOf`/`C.27.TA`). Identify the actual relation before reusing the word *aspect*.
+For AspectOf, A.14 adapts the constructor-and-identity questions of Partridge et al. and Florio and Linnebo's Core Constructional Ontology: which bearer, facet rule, dependent aspect and identity conditions make this structural part? The bearer/facet conditions and required `StructPartOf` relation are FPF choices. Fine's historical composition-first treatment motivates identifying the composition operation before the part claim. A.14 adapts that line in `A.14:5.3`, the decision procedure, and `CC-ASP-1` through `CC-ASP-4`; `C.13 slice` remains an optional report, not the constructor of the aspect.
+
+The alternatives are routed rather than renamed: measured Characteristic (`C.16`/`A.19`), viewpoint or view (`E.17`), representation or projection (`C.29` or its direct pattern), selected partition, and temporal restriction (`PhaseOf`/`C.27.TA`). Identify the relation before reusing the word *aspect*.
 
 

@@ -6,12 +6,12 @@ section_id: "C.3.1:14"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__016_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.3.1 — Kind Identity and Subkind Relations (U.Kind and U.SubkindOf)"
   - "C.3.1:14 — Relations"
-line_start: 55383
-line_end: 55389
+line_start: 57669
+line_end: 57675
 dependencies:
   - "A.1"
   - "A.11"
@@ -44,7 +44,7 @@ keywords:
 
 ### C.3.1:14 - Relations
 
-- **Specializes:** `A.6.REL` for `U.SubkindOf`: exact ordered kind participants, criterion-entailment or exhaustive closed-domain obtaining, applicability, lightweight occurrence use, and participant-determined identity; schemes and declaration editions qualify interpretation and assertion rather than occurrence identity.
+- **Specializes:** `A.6.REL` for `U.SubkindOf`: ordered kind participants, criterion-entailment or exhaustive closed-domain obtaining, applicability, lightweight occurrence use, and participant-determined identity; schemes and declaration editions qualify interpretation and assertion rather than occurrence identity.
 - **Builds on:** `C.3`, A.6.0 declaration identity, C.2.1 episteme and assertion identity, A.2.6/USM context-slice and scope discipline, F-G-R, and C.2.3 formality.
 - **Coordinates with:** `C.3.2` judgments and extensions, `C.3.3` correspondence between independently identified distinct kinds, `A.2` when one local kind is a system-role kind, `A.6.5` declaration-slot uses that consume an already obtaining subkind relation, `C.29` representations, `E.24.UK` durable U-kind admission, and `A.8`, `A.11`, `F.8`, and `F.5` when public kind governance is current.
 - **Other governing patterns:** Use C.2.1 for subkind-assertion epistemes, whether affirmative, negative, or unresolved; candidate features, classification assertions, kind declarations, context bridges, and public naming decisions retain their own governing patterns.

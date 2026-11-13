@@ -6,12 +6,12 @@ section_id: "C.21:4"
 section_title: "Solution — Discipline Health Characterisation (DHC)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__006_solution-discipline-health-characterisation-dhc.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:4 — Solution — Discipline Health Characterisation (DHC)"
-line_start: 62614
-line_end: 62694
+line_start: 65163
+line_end: 65243
 dependencies:
   - "A.10"
   - "A.17-A.18"
@@ -62,7 +62,7 @@ keywords:
 | dashboard row or slice | A C.29 or G.12 representation over exact result or series refs. | The result, evidence, series episteme, publication, or discipline. |
 | publication occurrence | An obtaining E.24.PUB availability relation among one selected episteme edition, audience declaration, bounded-use declaration, form, carrier, and availability interval. | Rendering, upload, release, measurement, or series-assembly Work. |
 
-Rendering, measuring, assembling a series, uploading, and maintaining availability may each be Work when actually performed. A work record or carrier does not make that Work occur.
+Rendering, measuring, assembling a series, uploading, and maintaining availability may each be Work when performed. A work record or carrier does not make that Work occur.
 
 #### C.21:4.0a - One replay basis for every persisted coordinate
 
@@ -72,7 +72,7 @@ Every persisted, compared, aggregated or published C.16 measurement coordinate m
 
 - `DHCMethodRef.edition` resolves the same Characteristic, Scale, Method, MethodDescription, model, calibration, and uncertainty semantics named by the active fields. A mismatch is not repaired by choosing one field as “primary.”
 - `DHCDefinitionSetRef.edition` appears only when a named reusable definition selection exists.
-- `TargetSliceRef` appears only when the named computation or publication actually consumes an A.2.6 selection. Every selected slice must be shown to belong to, or otherwise be covered by, the authoritative `ClaimScope`; the slice never substitutes for that scope.
+- `TargetSliceRef` appears only when the named computation or publication consumes an A.2.6 selection. Every selected slice must be shown to belong to, or otherwise be covered by, the authoritative `ClaimScope`; the slice never substitutes for that scope.
 - `DistanceDefRef.edition` appears only when the Scale comparison or target-distance rule uses a separately declared distance.
 - Evidence paths, lane tags, currentness, assurance, acceptance, public names, and publication refs are added only when the receiving use consumes those separate results.
 
@@ -112,8 +112,8 @@ When either extension is active, explain the claim kind or use boundary and the 
 
 #### C.21:4.2 - Comparison and legality rules
 
-1. **Direct same-semantics comparison.** Compare readings under the same Characteristic and compatible Scale semantics and scope. Measured readings also retain C.16's applicable measurement-definition, model, calibration, Unit and time or population conditions. State the basis actually used; different source labels or editions alone require no Bridge.
-2. **Cross-local comparison.** When a comparison relies on a semantic relation between distinct F.17 local senses, cite the exact obtaining F.9 Bridge only after its predicate and dependencies hold. Keep its separate C.2.1 bounded-use claim, with the use, direction, correspondence rule, permitted-loss tolerance, and polarity, distinct from observed loss and current reliance. Follow F.9's A.10 reliance branch or, for an actual named assurance claim, its B.3 branch for the same bounded use. If the assurance use requires an R adjustment, cite the applicable domain model and keep the adjustment in that use's AssuranceResult. The relation supplies none of ClaimScope, measurement, comparison, or acceptance semantics.
+1. **Direct same-semantics comparison.** Compare readings under the same Characteristic and compatible Scale semantics and scope. Measured readings also retain C.16's applicable measurement-definition, model, calibration, Unit and time or population conditions. State the basis used; different source labels or editions alone require no Bridge.
+2. **Cross-local comparison.** When a comparison relies on a semantic relation between distinct F.17 local senses, cite the exact obtaining F.9 Bridge only after its predicate and dependencies hold. Keep its separate C.2.1 bounded-use claim, with the use, direction, correspondence rule, permitted-loss tolerance, and polarity, distinct from observed loss and current reliance. Follow F.9's A.10 reliance branch or, for a named assurance claim, its B.3 branch for the same bounded use. If the assurance use requires an R adjustment, cite the applicable domain model and keep the adjustment in that use's AssuranceResult. The relation supplies none of ClaimScope, measurement, comparison, or acceptance semantics.
 3. **Reference-plane crossing.** When a reading is used across distinct world, concept, or episteme planes, cite the exact crossing basis. Any R adjustment follows the named assurance-use and domain-model condition in rule 2. A dashboard row or source label does not establish the crossing.
 4. **Cross-scale transformation.** A conversion, normalization, distance, or aggregate names its exact Method, Scale, legal operation, and loss or uncertainty. No common scale is inferred from similar labels.
 5. **Freshness.** A persisted or reused coordinate carries its observation window and applicable currentness rule. Staleness leads to the receiving pattern's degrade, abstain, or reopen result; it does not rewrite the historical measurement.

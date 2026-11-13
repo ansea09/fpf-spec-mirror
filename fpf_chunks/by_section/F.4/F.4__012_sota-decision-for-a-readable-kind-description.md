@@ -6,12 +6,12 @@ section_id: "F.4:10"
 section_title: "SoTA Decision for a Readable Kind Description"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__012_sota-decision-for-a-readable-kind-description.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.4 — SystemRoleKindDescription — Describing an Exact System-Role Kind"
   - "F.4:10 — SoTA Decision for a Readable Kind Description"
-line_start: 119771
-line_end: 119785
+line_start: 127382
+line_end: 127398
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -55,8 +55,10 @@ The bounded question is: **how can one work-facing kind be described for recogni
 | Current [BFO 2020 artifacts](https://github.com/BFO-ontology/BFO-2020), maintained for the ISO/IEC 21838-2 line | Separates enduring things from processes and distinguishes dependence, roles, and dispositions. | A whole upper-ontology commitment is expensive for a short recognition description and still does not decide the identity of the local FPF kind, its assignment occurrence, Method, Work, or publication package. | **Adopt** the warnings that dependence is not parthood and that role/disposition/process readings must not be fused. **Reject** BFO classification or standard status as the local kind-identity or description gate. This constrains sections 4.2, 7, and 8. |
 | [ISO 704:2022](https://www.iso.org/standard/79077.html) together with W3C OntoLex-Lemon's [lexical entry, sense, and reference model](https://www.w3.org/2016/04/ontolex/) | ISO separates object, concept, definition, and designation; OntoLex separates lexical form and sense from the ontology referent. | Neither line establishes an FPF system-role kind, classifies a candidate, makes an assignment obtain, proves capability or Work, or makes a description edition available. | **Adopt** description/designation/referent separation in sections 4.1 and 4.2. **Reject** a definition, label, lexical sense, or row as a fact about the described work. F.4 adds the direct neighboring exits and publication boundary in sections 4, 7, and checklist 12. |
 
-**Selected non-dominated contribution.** gUFO and BFO offer richer foundational categorization, but at higher mapping effort and without deciding the project-local recognition use. ISO 704 and OntoLex keep description and designation separate at lower effort, but leave assignment, capability, Method, Work, and publication outside their answer. F.4 takes the smallest useful middle path: one C.2.1 episteme about one already recovered C.3 kind, a short ordinary-language recognition distinction, and explicit exits for stronger neighboring claims. At the effort of one pattern description, it preserves the needed ontology while remaining usable by a cold project reader.
+**Selected non-dominated contribution.** gUFO and BFO offer richer foundational categorization, but at higher mapping effort and without deciding the project-local recognition use. ISO 704 and OntoLex keep description and designation separate at lower effort, but leave assignment, capability, Method, Work, and publication outside their answer.
+
+Among the approaches considered at the effort of writing one project pattern, the smallest construction judged sufficient uses one C.2.1 episteme about one already recovered C.3 kind, a short recognition criterion in ordinary language, and references for stronger claims. It preserves the distinction between the description and the kind. The criterion tells a new project reader how to recognize the kind, and the references show where to check those claims.
 
 
-Currentness and reopen condition: reopen F.4 when A.2, C.3, A.2.1, A.2.5, A.2.7, A.15, A.6.5, A.6.RSIR, C.2.1, F.9, F.10, F.18, or the accepted episteme-use discipline changes enough that the described-kind or non-inference boundary would be stated differently.
+Reopen F.4 when A.2, C.3, A.2.1, A.2.5, A.2.7, A.15, A.6.5, A.6.RSIR, C.2.1, F.9, F.10, F.18, or the accepted episteme-use discipline changes enough that the described-kind or non-inference boundary would be stated differently.
 

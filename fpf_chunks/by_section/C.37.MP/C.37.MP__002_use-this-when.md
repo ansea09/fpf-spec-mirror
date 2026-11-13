@@ -6,12 +6,12 @@ section_id: "C.37.MP:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37.MP/C.37.MP__002_use-this-when.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.37.MP — Maintain a Method Representation Profile"
   - "C.37.MP:0 — Use This When"
-line_start: 81995
-line_end: 82015
+line_start: 85996
+line_end: 86016
 dependencies:
   - "A.10"
   - "A.3.1"
@@ -24,9 +24,9 @@ keywords:
 
 ### C.37.MP:0 - Use This When
 
-Use this pattern when a current MethodDescription or candidate Method account must support several unlike Method-related actions or decisions, and the practitioner needs to relate their use-specific representation selections without pretending that one text, diagram, table, model, or view is the Method for every user. Begin with one ordinary question: which exact action or decision must this receiving System perform, and which Method claim must become visible for it?
+Use this pattern when a current MethodDescription or candidate Method account must support several unlike Method-related actions or decisions, and the practitioner needs to relate their use-specific representation selections without treating one text, diagram, table, model, or view as the Method for every user. Begin by asking: which action or decision must this receiving System perform, and which Method claim must become visible for it?
 
-The first useful result is one logically complete use selection in a Method representation profile. Name the Method or candidate status and source edition, receiver, exact action, needed Method claims, direct basis, applicable reliance and receiving conditions, material loss, disposition and return. Retain the complete C.37 group in its owning profile row when a later use needs it; an immediate sufficient selection needs no new record or standalone duplicate.
+The first useful result is one complete use selection in a Method representation profile. Name the Method or candidate status and source edition, receiver, action, needed Method claims, direct basis, applicable reliance and receiving conditions, material loss, disposition and return. Retain the complete C.37 group in its owning profile row when a later use needs it; an immediate sufficient selection needs no new record or standalone duplicate.
 
 Use `C.37` or the applicable direct pattern and stop when only one action is current and no Method-specific cross-use profile is needed. Do not use C.37.MP to select representations for an arbitrary entity, format unchanged content, establish publication or access, or create a collection or selected structure. C.37.MP begins only when the missing result is the Method-specific organization of independently governed, use-bounded selections around one MethodDescription or candidate account.
 
@@ -35,7 +35,7 @@ Use `C.37` or the applicable direct pattern and stop when only one action is cur
 | Position | What it contributes | What it does not establish |
 | --- | --- | --- |
 | Method representation profile | A Method-specific ensemble relating complete use-bounded rows to one MethodDescription or candidate account and recording cross-use correspondences, omissions, edition relations, and keep-separate decisions. | A new Method, MethodDescription edition, integrated view, collection, selected structure, or universal representation taxonomy. |
-| embedded `C.37` same-use claim group | One receiver and exact action or decision; direct subject result; exact claim; optional A.2.4 classification; reliance basis and any needed A.10 path and disposition; receiving conditions and result when required; exposure and loss; row disposition; return trigger. | The cross-use Method profile, subject-side direct results, reliance truth, authorization, capability, Work, or support-configuration choice. |
+| embedded `C.37` same-use claim group | One receiver and action or decision; subject result; claim; optional A.2.4 classification; reliance basis and any needed A.10 path and disposition; receiving conditions and result when required; exposure and loss; row disposition; return trigger. | The cross-use Method profile, subject-side results, reliance truth, authorization, capability, Work, or support-configuration choice. |
 | MethodDescription or candidate account | The current Method claims and status from which representation needs are recovered. | That every claim is admitted, current, applicable, enacted, or supported by one representation. |
 | `C.2.1` episteme | Claim-bearing content about a named `EntityOfConcern` under an effective scheme. | View conformance, mathematical correspondence, publication, reliance, or receiving permission. |
 | `E.17.0` view result | An episteme that satisfies one stated viewpoint through its own conformance relation. | Conformance to another viewpoint, identity of the viewed entity, or fitness for another action. |

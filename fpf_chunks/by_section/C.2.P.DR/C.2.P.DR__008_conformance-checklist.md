@@ -6,12 +6,12 @@ section_id: "C.2.P.DR:6"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P.DR/C.2.P.DR__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.2.P.DR — Repair Claims Based on Declarative Form Alone (Declarative Representation Precision Restoration)"
   - "C.2.P.DR:6 — Conformance checklist"
-line_start: 55011
-line_end: 55025
+line_start: 57287
+line_end: 57301
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -51,7 +51,7 @@ keywords:
 | `CC-C2PDR-1` | A repair separately names the visible expression or artifact, the exact current direct object or relation, and any current representation or correspondence use. Record `none` for the representation branch only when the receiving use needs an inspectable account. No field types structures, relations, formal objects, publication objects, or carrier-side objects as one family of representation kinds. |
 | `CC-C2PDR-2` | When a representation use is current, the repair names its exact represented EntityOfConcern or claim and, for a mathematical-lens or selected-structure use, the preserved and lost structure and admitted and blocked uses required by its subject pattern; any current source or publication relation is named independently. When `RepresentationOrCorrespondenceUse` is `none`, no represented-target, preserved/lost-structure, or lens-use account is required. |
 | `CC-C2PDR-3` | The disputed operational claim is explicit. Its missing grounds remain distinct from a use blocked by an applicable rule. |
-| `CC-C2PDR-4` | Use the recovered subject pattern for the governed claim. Sufficient ordinary wording or a bounded source quotation may finish without further formalization. If recovery is incomplete, retain only the supported use and identify the unresolved claim; apply any actual stop under its governing rule. |
+| `CC-C2PDR-4` | Use the recovered subject pattern for the governed claim. Sufficient ordinary wording or a bounded source quotation may finish without further formalization. If recovery is incomplete, retain only the supported use and identify the unresolved claim; apply any stop under its governing rule. |
 | `CC-C2PDR-5` | Legitimate `A.10 evidence path`, `E.18` graph path, `PathSlice`, carrier file path, URL, or mathematical path use is preserved when its exact evidence, provenance, graph, carrier/source, or mathematical object or relation is current. |
 | `CC-C2PDR-6` | Method-like and algorithm-like wording identifies the visible expression, direct object or relation, current claim, and any exact representation use before selecting a subject pattern. If A.3.2 is selected, test whether the identified C.2.1 episteme has one admitted `U.Method` as its exact `EntityOfConcern` and at least one substantive way-of-doing claim. Positive membership requires both conditions; retain a negative or unresolved result when the test warrants it. Representation form alone does not settle membership. |
 | `CC-C2PDR-7` | An `E.10.ARCH:3.1` project-concern recovery may connect method, mechanism, formal-substrate, work values, evidence relations, source relations, gate relations, or result relations, but each connected value keeps its own subject pattern and typed claim. |

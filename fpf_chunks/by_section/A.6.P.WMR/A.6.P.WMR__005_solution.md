@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.P.WMR"
-pattern_title: "Exact Relation Recovery for Method and Work Claims"
+pattern_title: "Relation Recovery for Method and Work Claims"
 section_id: "A.6.P.WMR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P.WMR/A.6.P.WMR__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.6.P.WMR — Exact Relation Recovery for Method and Work Claims"
+  - "A.6.P.WMR — Relation Recovery for Method and Work Claims"
   - "A.6.P.WMR:4 — Solution"
-line_start: 20787
-line_end: 21006
+line_start: 21660
+line_end: 21879
 dependencies:
   - "A.15.1"
   - "A.15.1-A.15.3"
@@ -36,32 +36,32 @@ keywords:
 
 Treat the boundary wording as a claim about one thing relative to another object. Recover the direct verb or reason-specific stop first. Keep claim subject, time, polarity and assertability independently recoverable when they can change the answer.
 
-The method handles one relation-bearing claim at a time. The trigger word stays in view only until the exact thing, related object, and safe direct verb or stop are recoverable. The result replaces the compressed phrase with the shortest ordinary sentence. If a neighboring claim is still needed, apply the pattern whose Solution answers that exact question.
+The method handles one relation-bearing claim at a time. The trigger word stays in view only until the thing, related object, and safe direct verb or stop are recoverable. The result replaces the compressed phrase with the shortest ordinary sentence. If a neighboring claim is still needed, apply the pattern whose Solution answers that question.
 
 #### A.6.P.WMR:4.0 - Thin recovery core and conditional interfaces
 
-The stable ordinary core is one `A.6.P`-isolated relation-bearing claim, one exact thing, one exact related object, one direct verb or reason-specific stop, exactly one of four truthful exit families, and one readable sentence. The fourth family explains why the attempted claim cannot be asserted: `factually unsupported`, `missing-information`, `missing-governor`, a governing rule's inapplicable result, or `missing-substrate`, as distinguished in section 4.3. `Missing-governor` names the affected use and absent definition, applicability, or occurrence rule; it names a future pattern or declaration need only when one is identifiable.
+The stable ordinary core is one `A.6.P`-isolated relation-bearing claim, one thing, one related object, one direct verb or reason-specific stop, exactly one of four truthful exit families, and one readable sentence. The fourth family explains why the attempted claim cannot be asserted: `factually unsupported`, `missing-information`, `missing-governor`, a governing rule's inapplicable result, or `missing-substrate`, as distinguished in section 4.3. `Missing-governor` names the affected use and absent definition, applicability, or occurrence rule; it names a future pattern or declaration need only when one is identifiable.
 
 Claim subject, modality and temporal extent, polarity, and recovery or support state remain four independent assurance controls. Their values must be recoverable whenever they can change the answer, but a practitioner does not have to recite the four labels when an ordinary sentence already makes the only material reading clear. WMR supplies this recovery and stop. It does not absorb the algorithms, checklists, or ontics of rules applied to a separate question.
 
 | Additional question and applicable rule | Apply it only when | Result used here |
 | --- | --- | --- |
-| the rule that defines or tests the exact direct relation, or `A.6.1` | the exact relation or one declared operation application is the current question | one readable direct subject-relation claim, one exact declaration-local application binding, or its exact non-assertability result |
-| `A.6.RCD` | no direct relation closes the named use, and a substrate-admitted compound claim, repeated predicate semantics, or relation-kind question is current | its lightest local claim, reusable-definition or conditional kind-admission continuation, or exact blocker; WMR does not reproduce the derivation or disposition algorithm |
-| `A.15.PROD` | production-work participation, entity-identity inception, or production completion is explicitly the current question | one local production claim or that branch's exact blocker; WMR does not reproduce the branch basis |
+| the rule that defines or tests the direct relation, or `A.6.1` | the relation or one declared operation application is the current question | one readable direct subject-relation claim, one declaration-local application binding, or its non-assertability result |
+| `A.6.RCD` | no direct relation closes the named use, and a substrate-admitted compound claim, repeated predicate semantics, or relation-kind question is current | its lightest local claim, reusable-definition or conditional kind-admission continuation, or blocker; WMR does not reproduce the derivation or disposition algorithm |
+| `A.15.PROD` | production-work participation, entity-identity inception, or production completion is explicitly the current question | one local production claim or that branch's blocker; WMR does not reproduce the branch basis |
 | `A.13` and `A.15.1`, then `F.18` when naming is needed | the sentence deliberately claims a particular performed Work occurrence | the A.13 basis and independent A.15.1 Work admission at the needed granularity, or the supported neighboring object or blocker; F.6 only for a separate precise assignment-bound attribution; F.18 only for a needed durable name |
-| `A.3.4` and the rule for the current transformation-composition claim | the current claim actually depends on an actual change or positive transformation composition | one independently identified transformation, one governed composition result, or the exact missing-governor or missing-substrate blocker |
+| `A.3.4` and the rule for the current transformation-composition claim | the current claim depends on an actual change or positive transformation composition | one independently identified transformation, one governed composition result, or the missing-governor or missing-substrate blocker |
 | the rule for evidence use, assurance, naming, delivery, acceptance, transfer, publication, or another subject | the current use additionally needs that distinct claim | only the separately established claim, judgment, name, occurrence, or blocker; none becomes a WMR field or makes the recovered relation obtain |
 
 #### A.6.P.WMR:4.1 - Three ordinary questions and two conditional assurance questions
 
 | Ask | Write |
 | --- | --- |
-| 1. What exact thing is this? | Name one exact referent under its admitted kind. `Input`, `Output`, `Result`, `Outcome`, `Deliverable`, and `Handoff` do not become kinds. |
-| 2. Relative to what exact object is it being named? | Name one exact method description, plan, dated Work, operation application, transformation, evaluation, delivery, transfer, receiving work, or another directly governed object. Split several current related objects into separate claims. |
+| 1. What thing is this? | Name one referent under its admitted kind. `Input`, `Output`, `Result`, `Outcome`, `Deliverable`, and `Handoff` do not become kinds. |
+| 2. Relative to what object is it being named? | Name one method description, plan, dated Work, operation application, transformation, evaluation, delivery, transfer, receiving work, or another directly governed object. Split several current related objects into separate claims. |
 | 3. What direct verb can be said now—or why not? | Write the shortest direct relation sentence, declaration-local binding, local claim, or reason-specific non-assertability result. A synonym, shared time, plan row, diagram edge, or nearby record is not the deciding relation. |
 | 4. Could a claim dimension change the answer? | Only then state the material claim subject, modality and extent, polarity, or recovery or support distinction. Keep them independent. |
-| 5. Does a named later use need the formal governor or assurance replay? | Name the PatternID locator for the defining or testing content, exact `RelationKind` and relation-declaration episteme, declaration-local predicate, or local-claim rule that makes the answer checkable. Add occurrence identity, evidence, publication, or assurance only when that later use needs it. |
+| 5. Does a named later use need the formal governor or assurance replay? | Name the PatternID locator for the defining or testing content, `RelationKind` and relation-declaration episteme, declaration-local predicate, or local-claim rule that makes the answer checkable. Add occurrence identity, evidence, publication, or assurance only when that later use needs it. |
 
 The practitioner stops after question 3 when the ordinary answer has one clear reading and no named later use needs more apparatus. Questions 4 and 5 inspect or reuse that answer; they do not replace it.
 
@@ -72,15 +72,15 @@ The four dimensions remain independent. Make a dimension explicit when two plaus
 | Claim dimension | Recovered answer | Non-inference guard |
 | --- | --- | --- |
 | Claim subject | One reusable declaration, particular intended relation, commitment relation, or particular subject relation. | Selecting the subject decides neither whether it obtains nor its polarity, time, or support. |
-| Modality and temporal extent | `generic`; `intended or planned`; `actually obtaining` at the current exact extent; or `historically obtained` at one exact past extent. State commitment fulfilment separately. | An obtaining commitment does not make the promised relation fulfilled; a past relation remains a historical claim at its governed extent. |
-| Polarity | Positive or negative under one exact predicate, condition, and governor. | A governed negative claim individuates no obtaining relation occurrence. Absent support or missing information does not establish negative polarity. |
+| Modality and temporal extent | `generic`; `intended or planned`; `actually obtaining` at the current extent; or `historically obtained` at one past extent. State commitment fulfilment separately. | An obtaining commitment does not make the promised relation fulfilled; a past relation remains a historical claim at its governed extent. |
+| Polarity | Positive or negative under one predicate, condition, and governor. | A governed negative claim individuates no obtaining relation occurrence. Absent support or missing information does not establish negative polarity. |
 | Recovery or support state | `governed-and-assertable`, `factually unsupported`, `missing-information`, `missing-governor`, a rule-qualified inapplicable result, or `missing-substrate`. | This state reports whether the selected claim can be asserted; it neither makes nor prevents the subject relation from obtaining. |
 
 **Well-formedness constraint `WMR-WF1` — orthogonal claim dimensions.** Whenever one of the four dimensions can alter the result, its value must be separately recoverable from the sentence or its immediate governed basis. No dimension supplies another. Explicit axis vocabulary is required only for a material ambiguity, comparison, assurance replay, or reusable formalization; it is not a prerequisite for every simple direct sentence.
 
 `Factually unsupported` applies when an applicable governor and sufficient deciding facts are available but those facts fail the test for the proposed polarity. `Missing-information` applies when a fact needed to decide the test or its applicability is unavailable. `Missing-governor` applies when the participants and question are known but no direct rule supplies the needed predicate, condition or occurrence law. A failed test supplies no opposite polarity without its own basis.
 
-A current commitment is expressible without collapsing fulfilment only when its exact commitment `RelationKind`, participant meanings, extent, obtaining predicate, and the `SubjectPatternLocator` for its defining or constraining content are named; a local id such as `COM-17` is not that settlement. The commitment does not establish fulfilment of the promised delivery. Judge that separate claim under its own predicate and case facts; unavailable facts leave fulfilment unresolved rather than proving non-fulfilment. A separately stated past case fact remains positive at its governed extent after its named participants satisfy the governor's predicate; it need not obtain now to remain historically true. A generic prescription from a policy or another normative episteme does not by itself assert an individual commitment. Open that individual branch only when the sentence claims a duty of an actual System or separately governed party under A.2.8.
+A current commitment is expressible without collapsing fulfilment only when its commitment `RelationKind`, participant meanings, extent, obtaining predicate, and the `SubjectPatternLocator` for its defining or constraining content are named; a local id such as `COM-17` is not that settlement. The commitment does not establish fulfilment of the promised delivery. Judge that separate claim under its own predicate and case facts; unavailable facts leave fulfilment unresolved rather than proving non-fulfilment. A separately stated past case fact remains positive at its governed extent after its named participants satisfy the governor's predicate; it need not obtain now to remain historically true. A generic prescription from a policy or another normative episteme does not by itself assert an individual commitment. Open that individual branch only when the sentence claims a duty of an actual System or separately governed party under A.2.8.
 
 A change in any dimension is substantive. A plan does not become an actually obtaining relation because its date arrives; a later observation does not retroactively manufacture a missing relation; and stronger support does not substitute for the subject relation's own facts.
 
@@ -88,7 +88,7 @@ A change in any dimension is substantive. A plan does not become an actually obt
 
 Choose by the kind of answer the receiving use needs:
 
-1. If one direct subject pattern or declaration defines the relation between the exact participants, use the direct relation exit.
+1. If one direct subject pattern or declaration defines the relation between the participants, use the direct relation exit.
 2. If the claim is only that one identified operation application used or returned one value, use the declaration-local `A.6.1` binding exit.
 3. If the question is production-work participation, entity inception, production completion, or another substrate-admitted local conjunction, use the local `A.15.PROD` or `A.6.RCD` claim exit.
 4. If the attempted claim lacks the required basis, stop with the reason distinguished below. A known inapplicability result and missing constructor semantics also use this exit; neither is forced into a failed-fact result.
@@ -97,10 +97,10 @@ The exit determines the next action; it is not a fifth claim classification.
 
 | Exit | Use it when | Result |
 | --- | --- | --- |
-| Exact direct subject relation claim | The direct governor supplies the `RelationKind`, participant meanings, predicate, applicability, and defining source. A positive claim has separate case facts satisfying the predicate. A negative claim additionally has an explicit applicable non-obtaining criterion and separate facts satisfying it. | The shortest positive or negative direct sentence. A positive occurrence, assertion episteme, local id, and evidence remain distinct; a governed negative claim individuates no occurrence. |
-| Exact `A.6.1` operation-application binding | One identified application and exact bound value satisfy the declaration-local argument or result predicate, extent, kind, cardinality, and identity rule. | A sentence stating only the binding. It says neither that dated work occurred nor that work produced, constituted, delivered, or accepted the bound entity. |
-| Local `A.15.PROD` or `A.6.RCD` claim | One local production question or another local compound question admitted by the selected substrate is current, and no new occurrence kind is needed. | The readable local claim under its exact base governors and the lightest sufficient disposition. |
-| Exact non-assertability result | The attempted claim is factually unsupported, lacks deciding information or a governor, is outside a known applicability rule, or lacks the constructor semantics needed to derive it. | A sentence naming the attempted claim and the corresponding reason below. Preserve the governing rule and known facts; infer no opposite polarity or fallback relation. |
+| Direct subject relation claim | The direct governor supplies the `RelationKind`, participant meanings, predicate, applicability, and defining source. A positive claim has separate case facts satisfying the predicate. A negative claim additionally has an explicit applicable non-obtaining criterion and separate facts satisfying it. | The shortest positive or negative direct sentence. A positive occurrence, assertion episteme, local id, and evidence remain distinct; a governed negative claim individuates no occurrence. |
+| `A.6.1` operation-application binding | One identified application and bound value satisfy the declaration-local argument or result predicate, extent, kind, cardinality, and identity rule. | A sentence stating only the binding. It says neither that dated work occurred nor that work produced, constituted, delivered, or accepted the bound entity. |
+| Local `A.15.PROD` or `A.6.RCD` claim | One local production question or another local compound question admitted by the selected substrate is current, and no new occurrence kind is needed. | The readable local claim under its base governors and the lightest sufficient disposition. |
+| Non-assertability result | The attempted claim is factually unsupported, lacks deciding information or a governor, is outside a known applicability rule, or lacks the constructor semantics needed to derive it. | A sentence naming the attempted claim and the corresponding reason below. Preserve the governing rule and known facts; infer no opposite polarity or fallback relation. |
 
 For the fourth exit, retain the distinction that determines the next move:
 
@@ -124,48 +124,48 @@ These informative shapes help draft an answer once its meaning is known. Include
 
 ```text
 Reusable declaration:
-  Under <applicability>, <exact declaration> declares that <exact entity position>
+  Under <applicability>, <declaration> declares that <entity position>
   has <participant or predicate meaning>; no particular intended or obtaining relation follows.
 
 Particular intended relation:
-  <exact WorkPlan or other intended-work episteme> states that <exact entity>
-  is intended to <direct relation> <exact related object> under <condition>;
+  <WorkPlan or other intended-work episteme> states that <entity>
+  is intended to <direct relation> <related object> under <condition>;
   actual obtaining remains open.
 
 Actually obtaining now:
-  <exact entity> <direct relation in ordinary words> <exact related object>
-  during <current exact extent>; governed by <RelationKind token> under <direct pattern or relation-declaration episteme>.
+  <entity> <direct relation in ordinary words> <related object>
+  during <current extent>; governed by <RelationKind token> under <direct pattern or relation-declaration episteme>.
 
 Historically obtained:
-  <exact entity> <direct relation in ordinary words> <exact related object>
-  during <exact past extent>; governed by <RelationKind token> under <direct pattern or relation-declaration episteme>.
+  <entity> <direct relation in ordinary words> <related object>
+  during <past extent>; governed by <RelationKind token> under <direct pattern or relation-declaration episteme>.
 
 Governed negative:
-  During <exact extent>, <exact entity> did not <direct relation in ordinary words> <exact related object>
+  During <extent>, <entity> did not <direct relation in ordinary words> <related object>
   under <RelationKind token>, with defining or constraining content at <SubjectPatternLocator>; <separate case facts> satisfy
   <the direct pattern's or declaration's explicit negative or non-obtaining criterion or closure basis>,
   and no relation occurrence is individuated.
 
 Obtaining `U.Commitment`, promised relation separate:
   <U.Commitment occurrence> obtains for <actual duty-bearing System or separately governed party>, with <modality>, <referents>, <scope>, and <validity interval>;
-  <current prescription>, <exact constitutive rule>, <rule-required actual instituting basis>, and <actual facts> satisfy the A.2.8 direct predicate;
-  the promised relation remains <intended | unfulfilled | fulfilled at exact extent> under its own <RelationKind token> and <SubjectPatternLocator>.
+  <current prescription>, <constitutive rule>, <rule-required actual instituting basis>, and <actual facts> satisfy the A.2.8 direct predicate;
+  the promised relation remains <intended | unfulfilled | fulfilled at extent> under its own <RelationKind token> and <SubjectPatternLocator>.
 
 Factually unsupported:
-  Under <known governor>, the <positive or negative> claim that <exact relation sentence> is not assertable
+  Under <known governor>, the <positive or negative> claim that <relation sentence> is not assertable
   because <available facts> fail <applicable named condition>; no opposite polarity follows.
 
 Missing information:
-  Under <known governor>, whether <exact entity> <candidate direct relation> <exact related object> obtains
+  Under <known governor>, whether <entity> <candidate direct relation> <related object> obtains
   is unresolved because <named deciding fact> is unavailable.
 
 Missing governor:
-  Whether <exact participant> <proposed direct relation> <exact related participant> obtains
+  Whether <participant> <proposed direct relation> <related participant> obtains
   is unresolved for <named use> because no current definition supplies <predicate, applicability, or occurrence rule>;
   name a future pattern or declaration need only when one is identifiable. No PatternID or case fact is required for a rule that does not exist.
 ```
 
-For example, `CF-17 was not consumed by W-204` does not follow merely because the positive consumption fact fails or is unavailable. It closes as a governed negative sentence only if the direct pattern or declaration for machining resource consumption supplies an applicable non-consumption criterion or complete closure basis for the exact quantity, work, and extent and separate case facts satisfy it. Otherwise the proposed positive claim remains `factually unsupported` or `missing-information`, or the relation question remains `missing-governor`, according to the independently recovered deficit.
+For example, `CF-17 was not consumed by W-204` does not follow merely because the positive consumption fact fails or is unavailable. It closes as a governed negative sentence only if the direct pattern or declaration for machining resource consumption supplies an applicable non-consumption criterion or complete closure basis for the quantity, work, and extent and separate case facts satisfy it. Otherwise the proposed positive claim remains `factually unsupported` or `missing-information`, or the relation question remains `missing-governor`, according to the independently recovered deficit.
 
 A practitioner **MAY** retain the trigger word as optional Plain orientation after the direct sentence is recoverable. The direct sentence and its dimensions, not the familiar label or support state, carry the claim into planning, work, evaluation, delivery, acceptance, transfer, or receiving use.
 
@@ -173,7 +173,7 @@ A practitioner **MAY** retain the trigger word as optional Plain orientation aft
 
 **Invariant `WMR-I1` — ontology economy.** Recovering boundary wording does not introduce a universal input, result or handoff kind or relation; retain each recovered object and predicate under its own definition. **Invariant `WMR-I2` — transformation non-entailment.** A plan, desired state, model, description, evaluation, publication or flow representation does not establish an actual transformation merely by its presence or label. Claims and evidence in that material can support a transformation judgement under A.3.4; shared time, Work or referent alone does not.
 
-When the repaired claim depends on transformation composition, state its exact participants and question, then apply `A.3.4` and the rule for that composition claim. Keep only the resulting independently identified transformations plus either one governed composition claim or the exact missing-governor or missing-substrate blocker. WMR does not restate or evaluate their contribution, compatibility, composition, or reidentification algorithm.
+When the repaired claim depends on transformation composition, state its participants and question, then apply `A.3.4` and the rule for that composition claim. Keep only the resulting independently identified transformations plus either one governed composition claim or the missing-governor or missing-substrate blocker. WMR does not restate or evaluate their contribution, compatibility, composition, or reidentification algorithm.
 
 The blocker reaches only the composition-dependent claim; independent work, change, production, evaluation, delivery, acceptance, transfer, and receiving-use questions continue under their own governors.
 
@@ -181,7 +181,7 @@ The blocker reaches only the composition-dependent claim; independent work, chan
 
 For ordinary recognition, the first three questions and one of four truthful exits are enough. Use the two assurance questions and explicit claim-dimension vocabulary only when they can change the answer or a named later use needs to inspect it.
 
-A practitioner **MAY** open a separate assurance branch when the receiving use additionally needs evidence, warrant, assurance, gate, currentness, publication, or reliance. Apply the relevant evidence, assurance, gate, currentness, publication, or reliance check to the exact direct subject claim, `A.6.1` application binding, local `A.15.PROD` or `A.6.RCD` claim, or non-assertability result together with its governor. Preserve the section 4.3 reasons and their different continuations. A missing subject rule may identify a future pattern or declaration need; unavailable constructor semantics retain their separate derivation question. Support or assurance changes neither polarity nor whether the subject relation obtains.
+A practitioner **MAY** open a separate assurance branch when the receiving use additionally needs evidence, warrant, assurance, gate, currentness, publication, or reliance. Apply the relevant evidence, assurance, gate, currentness, publication, or reliance check to the direct subject claim, `A.6.1` application binding, local `A.15.PROD` or `A.6.RCD` claim, or non-assertability result together with its governor. Preserve the section 4.3 reasons and their different continuations. A missing subject rule may identify a future pattern or declaration need; unavailable constructor semantics retain their separate derivation question. Support or assurance changes neither polarity nor whether the subject relation obtains.
 
 #### A.6.P.WMR:4.7 - Recover a result and reuse its established meaning
 
@@ -192,11 +192,11 @@ Start with the receiving question: what may someone do because this result is av
 - if a condition continued to hold, state that condition over its required extent; attribute its maintenance to Work only through the applicable maintenance predicate and its facts;
 - if an entity first began to exist, or that is the question, open A.15.PROD's entity-inception branch;
 - if one operation application returned a value, state only its A.6.1 result binding;
-- if the referent is a measured characteristic value, keep that exact value and its direct measurement relation; if it is a comparison, diagnosis, or evaluation claim, identify that exact C.2.1 episteme and its direct basis;
+- if the referent is a measured characteristic value, keep that value and its direct measurement relation; if it is a comparison, diagnosis, or evaluation claim, identify that C.2.1 episteme and its direct basis;
 - if an entity was delivered or transferred, use the direct delivery or transfer occurrence;
 - if the question concerns fulfilment of a promise, use A.2.3's specified outcome and acceptance conditions;
-- if the claim is a downstream effect, apply the pattern whose Solution answers that exact effect-relation question;
-- if `result` names a `C.11` `ChoiceResult`, an acceptance verdict, a decision occurrence or record, or another value, entity, fact, or claim already identified under its applicable identity or occurrence rule, keep that exact kind and write only the direct relation current for this use.
+- if the claim is a downstream effect, apply the pattern whose Solution answers that effect-relation question;
+- if `result` names a `C.11` `ChoiceResult`, an acceptance verdict, a decision occurrence or record, or another value, entity, fact, or claim already identified under its applicable identity or occurrence rule, keep that kind and write only the direct relation current for this use.
 
 If the selected reading lacks a deciding fact or governor, return its reason-specific non-assertability result. The word `result` does not establish one kind or relation family shared by these different readings. This does not prevent the same established meaning from recurring with different participants, including entities of different kinds.
 
@@ -206,7 +206,7 @@ The same discipline applies to other established relations. A.2.3:8.1 defines `d
 
 For another occurrence of the same claim, retrieve its existing predicate or compound definition and retain its participant meanings, applicability and limits. Substitute the new participants and check their facts. A changed entity kind calls for the applicable identity or subject rule; it does not by itself call for a new result meaning. A different receiving question may require another relation even when the entity is unchanged.
 
-When the same needed rule is repeatedly missing, use A.6.RCD:4.1–4.5. Reuse a direct predicate where one suffices; keep a one-use compound claim local; define a repeated compound rule once in its subject practice. Distinguish a law limited to one exact subject from a predicate definition reusable across subjects. The latter has the definition itself as its EntityOfConcern. Only a use that consumes the identity of an obtaining relation occurrence opens relation-kind admission. Neither repeated wording nor heterogeneous participants requires that additional ontology.
+When the same needed rule is repeatedly missing, use A.6.RCD:4.1–4.5. Reuse a direct predicate where one suffices; keep a one-use compound claim local; define a repeated compound rule once in its subject practice. Distinguish a law limited to one subject from a predicate definition reusable across subjects. The latter has the definition itself as its EntityOfConcern. Only a use that consumes the identity of an obtaining relation occurrence opens relation-kind admission. Neither repeated wording nor heterogeneous participants requires that additional ontology.
 
 **Keep useful preservation and later use visible.** Work may achieve its intended benefit by keeping an existing condition within limits. A.3.1 supplies the Method's intended preserved condition. The subject rule and observations over the required interval decide whether that condition held; a further Work-to-maintenance claim needs its own applicable basis. Unchanged endpoints alone establish neither continuous preservation nor its attribution. A new object is unnecessary for this benefit. Performing Work alone does not establish a change of the referent whose condition was preserved.
 
@@ -227,9 +227,9 @@ The broader boundary-word palette below is an informative recognition aid. A row
 | `result` | Apply the deciding branches above. Keep the referent under its own kind and write only the direct relation or binding that makes this use true. |
 | `outcome` | Distinguish a downstream subject effect from a measured value, comparison, or evaluation verdict. Each has its own related object and governor. |
 | `deliverable` | Recover the entity separately in each planning, commitment, delivery, and acceptance claim. Planned, produced, delivered, and accepted are not inherited from one another. |
-| `handoff` | Recover the actual transfer work or direct transfer relation. A package or record is a separate episteme; transfer, delivery, and receiving use remain distinct. Use E.10.MOVE only when that exact process-move question is current. |
+| `handoff` | Recover the actual transfer work or direct transfer relation. A package or record is a separate episteme; transfer, delivery, and receiving use remain distinct. Use E.10.MOVE only when that process-move question is current. |
 
-When no direct governor closes a selected row, name the exact participants, proposed predicate and question, affected use, and absent definition, applicability, or occurrence rule. Name a future pattern or declaration need only when one is identifiable. A broader hypernym, another boundary word, or a new universal record does not settle the missing relation.
+When no direct governor closes a selected row, name the participants, proposed predicate and question, affected use, and absent definition, applicability, or occurrence rule. Name a future pattern or declaration need only when one is identifiable. A broader hypernym, another boundary word, or a new universal record does not settle the missing relation.
 
 #### A.6.P.WMR:4.8 - Work-name grounding by morphology and occurrence
 
@@ -241,7 +241,7 @@ For a deliberately asserted particular Work occurrence, recover its A.13 basis a
 
 Any output, result, outcome, production, delivery, or acceptance wording is a separate WMR claim only while its direct relation or claim dimensions remain hidden. Once readable, apply the rule for that relation or claim; it does not become part of work identity.
 
-The preceding action-nominal classification is an FPF-scoped synthesis from recurring morphology-and-subject ambiguity, not a rule imported from PMI, PRINCE2, IDEF0, or IDEF3. A domain may conventionally use an action nominal as the durable name of an already grounded method, plan item, functional-view record, or dated work occurrence; that direct identity and exact predicate win over morphology. The synthesis reopens if repeated practice shows that the cue classifies a directly grounded value under the wrong predicate family, or if a trigger case cannot close through `A.6.F`, the exact subject predicate, or `A.15.1` without new ontology.
+The preceding action-nominal classification is an FPF-scoped synthesis from recurring morphology-and-subject ambiguity, not a rule imported from PMI, PRINCE2, IDEF0, or IDEF3. A domain may conventionally use an action nominal as the durable name of an already grounded method, plan item, functional-view record, or dated work occurrence; that direct identity and predicate win over morphology. The synthesis reopens if repeated practice shows that the cue classifies a directly grounded value under the wrong predicate family, or if a trigger case cannot close through `A.6.F`, the subject predicate, or `A.15.1` without new ontology.
 
 | Planning or description lineage | Bounded use here | Prohibited inference |
 | --- | --- | --- |
@@ -250,5 +250,5 @@ The preceding action-nominal classification is an FPF-scoped synthesis from recu
 | IDEF0 historical recognition lineage (non-authoritative here) | A box label remains source-side function-model wording. A still-hidden FPF claim requires `A.6.F`; otherwise the label names the already recovered required-transformation or required-effect claim, actual `U.Transformation`, functional-view record, method description, `TransformationFlowStructure` locus, or other exact governed value under its direct pattern. | This lineage supplies no positive FPF kind inference: neither box form nor function wording identifies `U.Function` or supplies identity evidence for a performed Work occurrence admitted under `U.Work`. |
 | IDEF3 Units-of-Behavior historical recognition lineage (non-authoritative here) | The terminology remains only as wording that may occur in inherited process descriptions. | This lineage supplies no positive FPF kind or relation inference; a Unit-of-Behavior description or label is never identity evidence for a dated Work occurrence admitted under `U.Work`. |
 
-**Inspection contrast.** `inspection method` names the way of doing. `planned Pump-14 inspection work` is intended-work content. `Pump-14 inspection on 2026-07-15 09:10-09:34` becomes an exact performed occurrence only when applying A.15.1 establishes it at the required granularity; otherwise retain the lowered object or blocker. If the current question is whether the work first constituted an inspection-report episteme, apply A.15.PROD and use its local entity-identity-inception claim or exact branch blocker. A measured or diagnostic result uses its direct result rule, and a pass/fail verdict remains a separately governed evaluation-result episteme rather than the inspected entity or a downstream effect.
+**Inspection contrast.** `inspection method` names the way of doing. `planned Pump-14 inspection work` is intended-work content. `Pump-14 inspection on 2026-07-15 09:10-09:34` becomes a performed occurrence only when applying A.15.1 establishes it at the required granularity; otherwise retain the lowered object or blocker. If the current question is whether the work first constituted an inspection-report episteme, apply A.15.PROD and use its local entity-identity-inception claim or branch blocker. A measured or diagnostic result uses its direct result rule, and a pass/fail verdict remains a separately governed evaluation-result episteme rather than the inspected entity or a downstream effect.
 

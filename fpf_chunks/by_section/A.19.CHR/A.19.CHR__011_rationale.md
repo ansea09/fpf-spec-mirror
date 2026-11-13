@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.19.CHR"
-pattern_title: "CHRMechanismSuite: Shared Rules for Characterization and Selection"
+pattern_title: "Shared Rules for Characterization and Selection"
 section_id: "A.19.CHR:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CHR/A.19.CHR__011_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.19.CHR — CHRMechanismSuite: Shared Rules for Characterization and Selection"
+  - "A.19.CHR — Shared Rules for Characterization and Selection"
   - "A.19.CHR:10 — Rationale"
-line_start: 37356
-line_end: 37367
+line_start: 38866
+line_end: 38877
 dependencies:
   - "A.15.2"
   - "A.15.3"
@@ -55,7 +55,7 @@ The suite description records membership and shared conditions, while each membe
 
 2. **Spec refs remain centralized.** CN-Spec and CG-Spec state the applicable comparison, normalization, indicator-choice and numeric-admission conditions. The suite cites those specifications without copying their content.
 
-3. **P2W integration becomes explicit without turning planning into execution.** Ordinary A.15.2 content records the edition/reference baseline. Typed A.15.3 filling is needed only for an independently declared position; only enactment supplies actual bindings and launch witnesses.
+3. **P2W integration becomes explicit without turning planning into execution.** Ordinary A.15.2 content records the edition/reference baseline. Typed A.15.3 filling is needed only for an independently declared position; only enactment supplies bindings and launch witnesses.
 
-4. **Uncertainty has an explicit disposition.** Tri-state guard decisions distinguish passing, qualified degradation and abstention. Safety of a receiving use still depends on its evidence and policy; a decision token supplies no missing ground. Gate decisions and decision logs remain with OperationalGate(profile).
+4. **Uncertainty has a disposition.** Tri-state guard decisions distinguish passing, qualified degradation and abstention. Safety of a receiving use still depends on its evidence and policy; a decision token supplies no missing ground. Gate decisions and decision logs remain with OperationalGate(profile).
 

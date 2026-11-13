@@ -6,12 +6,12 @@ section_id: "A.15.7:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.7/A.15.7__007_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.15.7 — Situation-Responsive Work Steering and Next-Action Selection"
   - "A.15.7:6 — Bias-Annotation"
-line_start: 31650
-line_end: 31657
+line_start: 32867
+line_end: 32874
 dependencies:
   - "A.10"
   - "A.13"
@@ -36,6 +36,6 @@ keywords:
 - **Optimization bias:** do not force every responsive choice into a fully enumerated optimization problem.
 - **Human-only bias:** deciding and performing Systems may be people, teams, robots, AI systems, organizations, or other equipped or combined arrangements.
 - **Automation bias:** a recommender output, score, dashboard, or case file informs a decision only through current and applicable claims; it does not become the chooser.
-- **Improvisation romanticism:** responsiveness remains bounded by the domain Method, actual constraints, and stop conditions.
-- **Record inflation:** durable records are optional and use-driven; a direct observation sentence can be enough.
+- **Improvisation romanticism:** responsiveness remains bounded by the domain Method, constraints, and stop conditions.
+- **Record inflation:** durable records are optional and use-driven; an observation sentence can be enough.
 

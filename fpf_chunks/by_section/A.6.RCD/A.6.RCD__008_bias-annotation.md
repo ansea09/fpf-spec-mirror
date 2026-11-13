@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.RCD"
-pattern_title: "Needed Relation Claim Derivation and Relation-Kind Admission"
+pattern_title: "Relation Claim Derivation and Relation-Kind Admission"
 section_id: "A.6.RCD:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RCD/A.6.RCD__008_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.6.RCD — Needed Relation Claim Derivation and Relation-Kind Admission"
+  - "A.6.RCD — Relation Claim Derivation and Relation-Kind Admission"
   - "A.6.RCD:6 — Bias-Annotation"
-line_start: 21515
-line_end: 21520
+line_start: 22388
+line_end: 22393
 dependencies:
   - "A.11"
   - "A.6.0"
@@ -33,7 +33,7 @@ keywords:
 
 ### A.6.RCD:6 - Bias-Annotation
 
-This pattern corrects primitive-kind bias: a useful repeated phrase or representation can look ontologically important before its exact claim and occurrence semantics are recovered. It also corrects false-parsimony bias: if every accepted derivation loses a distinction that changes real work and the subject supplies its own obtaining and identity laws, refusing the primitive would hide needed ontology.
+This pattern corrects primitive-kind bias: a useful repeated phrase or representation can look ontologically important before its claim and occurrence semantics are recovered. It also corrects false-parsimony bias: if every accepted derivation loses a distinction that changes real work and the subject supplies its own obtaining and identity laws, refusing the primitive would hide needed ontology.
 
 The formal examples can bias authors toward syntax-first reasoning. The method therefore begins from the blocked receiving use, direct participants, and direct relations. The ordinary branch stays readable; formal apparatus appears only when it changes replay, reuse, proof, interoperability, or admission.
 

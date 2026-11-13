@@ -6,12 +6,12 @@ section_id: "A.3.1.WT:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.WT/A.3.1.WT__011_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.3.1.WT — Design and Interpret a Method Work Trial"
   - "A.3.1.WT:9 — Consequences"
-line_start: 10577
-line_end: 10582
+line_start: 10978
+line_end: 10983
 dependencies:
   - "A.10"
   - "A.15.1"

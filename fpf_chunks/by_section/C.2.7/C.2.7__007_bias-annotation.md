@@ -6,12 +6,12 @@ section_id: "C.2.7:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.7/C.2.7__007_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.2.7 — LanguageStateRepresentationFactorBundle — How Is the Representation Organized?"
   - "C.2.7:6 — Bias-Annotation"
-line_start: 54372
-line_end: 54374
+line_start: 56621
+line_end: 56623
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -35,5 +35,5 @@ keywords:
 ---
 
 ### C.2.7:6 - Bias-Annotation
-The pattern resists folk theories that try to line up one representation factor with one stage or progression story.
+The pattern resists inferring a stage or progression from one representation factor alone.
 

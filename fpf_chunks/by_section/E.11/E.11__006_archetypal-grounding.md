@@ -6,12 +6,12 @@ section_id: "E.11:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__006_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:5 — Archetypal Grounding"
-line_start: 103177
-line_end: 103298
+line_start: 109072
+line_end: 109209
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"
@@ -54,7 +54,9 @@ The card does not promise a machined component. When actual machining later beco
 
 #### E.11:5.4 - Repair the smallest card slice after a direct result changes
 
-Suppose a new `A.6.3.RT` edition restores a progressive representation result: an ordinary target representation plus source-comparison note first, exact endpoints only when a named receiver makes their identity material, and a historical transition occurrence only when actual transition Work and all required participants are current. Repair only the affected `WORKING-DOCUMENTS` branch so its first result and escalation triggers match the direct pattern. The card heading and general question remain unchanged when readers still recognize the same situation.
+Suppose a new `A.6.3.RT` edition restores a progressive representation result: an ordinary target representation plus source-comparison note first, exact endpoints only when a named receiver makes their identity material, and a historical transition occurrence only when actual transition Work and all required participants are current.
+
+Repair only the affected `WORKING-DOCUMENTS` branch so its first result and escalation triggers match the direct pattern. The card heading and general question remain unchanged when readers still recognize the same situation.
 
 If the repair changes the cross-pattern path that the mantra must help the reader recover, or its first result or return, compare the same truthful entry with and without the mantra after a delay or interruption. Reuse a still-applicable comparison for unchanged mnemonic content and use. Keep the card only when the comparison supports a material mnemonic gain. If the two forms perform alike, use an ordinary entry or locator; if the mantra hides the result or return, repair or drop it.
 
@@ -66,7 +68,9 @@ The visible navigation measure improved while the intended value worsened. Keep 
 
 #### E.11:5.6 - Discharge a duplicate first-entry row by function
 
-Suppose a compact row combines architecture and diagrams, evidence, dashboard use, and alternative comparison. Do not keep it as another public example merely to display topic coverage. Put architecture design or review in `ARCHITECTURE`; put description, view, dashboard, and rendering use in `WORKING-DOCUMENTS` and the direct E.17/C.30.AD patterns; put costly evidence or commitment questions in `OPTION-COMPARISON` and their direct A.10/B.3/A.21 patterns; put useful search phrases in the ToC or retrieval. Use the worked comparisons in `E.11:5.7–5.14` only if those cues still leave a genuine ambiguity. Delete the duplicate after every useful function has a matching home.
+Suppose a compact row combines architecture and diagrams, evidence, dashboard use, and alternative comparison. Do not keep it as another public example merely to display topic coverage. Put architecture design or review in `ARCHITECTURE`; put description, view, dashboard, and rendering use in `WORKING-DOCUMENTS` and the direct E.17/C.30.AD patterns; put costly evidence or commitment questions in `OPTION-COMPARISON` and their direct A.10/B.3/A.21 patterns; put useful search phrases in the ToC or retrieval.
+
+Use the worked comparisons in `E.11:5.7–5.14` only if those cues still leave the first choice unresolved. Delete the duplicate after every useful function has a matching home.
 
 
 
@@ -104,7 +108,11 @@ An already accepted engineering account may instead need reader-facing publicati
 
 A team says, “We need a shortlist, not one winner.” Ask which first result is missing: an admissible comparison, a pool of candidates, policy over that pool, a selected-set declaration, publication of the result, or one local decision. The fact that the current use concerns a governed set changes the choice; a one-winner doctrine is premature.
 
-If comparison or aggregation is not yet admissible, inspect `G.0`, `A.19.CN` and the relevant `A.17–A.19` bodies; `A.19.CPM` or `A.19.SelectorMechanism` becomes current when the comparator or selector structure itself is unsettled. For generation and archive/front stewardship while forming the pool, open `C.18`. For policy over still-live candidates, open `C.19`. Use `G.5-6 DeclareSetResult` when already identified members and a current choice, pool treatment or other inclusion basis need a selector-facing set declaration. `G.5-3 Select` applies when selection among its admitted Method or generator candidates is itself needed. `E.24.PUB` separately makes a declared result available.
+If comparison or aggregation is not yet admissible, inspect `G.0`, `A.19.CN` and the relevant `A.17–A.19` bodies; `A.19.CPM` or `A.19.SelectorMechanism` becomes current when the comparator or selector structure itself is unsettled.
+
+For generation and archive/front stewardship while forming the pool, open `C.18`. For policy over still-live candidates, open `C.19`.
+
+Use `G.5-6 DeclareSetResult` when already identified members and a current choice, pool treatment or other inclusion basis need a selector-facing set declaration. `G.5-3 Select` applies when selection among its admitted Method or generator candidates is itself needed. `E.24.PUB` separately makes a declared result available.
 
 If the actual question is one local choice, open `C.11`. If the action or option is already fixed and the missing result is a tool or service call plan or checkpoint return, use `C.24`, including for a call that performs an already chosen comparison. Stop at the correct direct body or a sufficiently discriminated candidate set; neither a shortlist nor the order of these examples prescribes a sequence. If several inspected pattern uses still need a recommendation or coordination, take that question to `E.11.PUR`.
 
@@ -136,7 +144,9 @@ A team says, “Adding review capacity for two sprints will double backlog reduc
 
 Keep a snapshot as Dyn0 and a measured trend or rate as Dyn1. Open `C.16` when measurement construction or comparability is missing. Use `C.27` when the temporal claim changes admissible action because effort, window, resistance or cost, basis and reopening conditions matter. Its local `Dyn2TemporalClaimAdequacyCard`, or a boundary-crossing `Dyn2TemporalClaimProfile`, states that temporal-use question; it is not benchmark or causal proof.
 
-Return a different question to its direct owner: `A.3.3` for a reusable transition law or formal dynamics model; `B.1.4` or `B.1.6` when contextual/temporal or work-resource aggregation is the missing subject; `G.9` for benchmark parity; `C.25` for quality, first asking whether one Characteristic and Scale suffice and using a bundle only when differently typed contributors jointly determine the claim; `C.26.3` for viability diagnosis and selected boundary regulation. `C.24` addresses call planning for an already fixed action. A relied-on causal effect belongs to `C.28`, not to the fact that the rate changed.
+Return a different question to its direct owner: `A.3.3` for a reusable transition law or formal dynamics model; `B.1.4` or `B.1.6` when contextual/temporal or work-resource aggregation is the missing subject; `G.9` for benchmark parity; `C.25` for quality, first asking whether one Characteristic and Scale suffice and using a bundle only when differently typed contributors jointly determine the claim; `C.26.3` for viability diagnosis and selected boundary regulation.
+
+`C.24` addresses call planning for an already fixed action. A relied-on causal effect belongs to `C.28`, not to the fact that the rate changed.
 
 Use `C.26` only if an exact contextual-model obstruction still changes inference or action after the applicable ordinary subject assertion and predicate are in place. Stop at ordinary prose, Dyn0, Dyn1 with the needed measurement body, the relevant Dyn2 account, or a correctly named neighbor use. Reopen when the effort, window, resistance/cost, basis or intended action changes. Faster is not automatically better. A velocity target alone establishes no improvement or service promise; a dynamic benchmark needs a comparison basis before it supports superiority.
 
@@ -144,13 +154,19 @@ Use `C.26` only if an exact contextual-model obstruction still changes inference
 
 #### E.11:5.14 - A decision relies on a causal or counterfactual claim
 
-A reader encounters “this policy would have prevented harm”, “the intervention caused the improvement”, “this fairness result is causal”, or “these simulated counterfactuals prove the decision”. Ask whether publication, choice, deployment, assurance, audit, benchmarking or method dispatch actually relies on causal support. Causal-looking wording alone is insufficient; the relied-on claim is the discriminating fact.
+A reader encounters “this policy would have prevented harm”, “the intervention caused the improvement”, “this fairness result is causal”, or “these simulated counterfactuals prove the decision”.
 
-Open `C.28` when the required support concerns an effect, intervention success, counterfactual comparison, causal fairness, policy optimality, causal evidence, off-policy/causal-RL evaluation or causal method superiority. Its `Solution` recovers the causal-use question, causality-ladder rung, claim kind, estimand, identification, counterfactual sampling realizability and support components, then distinguishes supported from unsupported use. A cheap downgrade sentence can be enough; a `CausalUseTriageRecord`, `CausalUseEvidenceDesignRecord` or `CausalUseSupportResult` is used only at the scope needed by the receiving claim.
+Ask whether publication, choice, deployment, assurance, audit, benchmarking or method dispatch relies on causal support. Causal-looking wording alone is insufficient; the relied-on claim is the discriminating fact.
+
+Open `C.28` when the required support concerns an effect, intervention success, counterfactual comparison, causal fairness, policy optimality, causal evidence, off-policy/causal-RL evaluation or causal method superiority. Its `Solution` recovers the causal-use question, causality-ladder rung, claim kind, estimand, identification, counterfactual sampling realizability and support components, then distinguishes supported from unsupported use.
+
+A cheap downgrade sentence can be enough; a `CausalUseTriageRecord`, `CausalUseEvidenceDesignRecord` or `CausalUseSupportResult` is used only at the scope needed by the receiving claim.
 
 If only a measured value is at issue, use `C.16`; if rate, trend or temporal adequacy is at issue, use `C.27`. If the question is method, work or work-plan structure, use `A.15` and `A.3.2`; a sampling procedure, intervention recipe or target-trial phrase does not supply causal support by itself. Split a boundary duty or agreement with `A.6`. Use `C.26` for residual QL modeling only when an exact contextual-model obstruction still changes inference or action after the ordinary subject assertion and predicate are in place.
 
-`A.10` governs the evidence/provenance paths actually relied on. `B.3`, `D.5`, `G.5` and `G.9` use a `C.28` support result when the downstream question is respectively assurance, ethical/fairness audit, method dispatch or benchmark parity. Keep `C.11`, `C.19` or `C.24` as the direct local-choice, live-pool-policy or fixed-action call-planning use when that is the actual work; the support result does not decide it. Stop at the sufficient downgrade, scoped causal record/support result, or named neighboring use that cites its limits.
+`A.10` governs the evidence/provenance paths relied on. `B.3`, `D.5`, `G.5` and `G.9` use a `C.28` support result when the downstream question is respectively assurance, ethical/fairness audit, method dispatch or benchmark parity.
+
+Keep `C.11`, `C.19` or `C.24` as the direct local-choice, live-pool-policy or fixed-action call-planning use when that is the actual work; the support result does not decide it. Stop at the sufficient downgrade, scoped causal record/support result, or named neighboring use that cites its limits.
 
 Return to causal support if the estimand, causal rung, identification, realizability or relied-on use changes. A randomized procedure is not automatically counterfactual support; simulation is not realized counterfactual data; a fairness metric is not causal fairness; and methods on different causal rungs or estimands are not made comparable by one benchmark. Causal support itself creates no duty, promise, commitment, release gate or admissibility predicate.
 

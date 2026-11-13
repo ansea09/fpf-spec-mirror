@@ -6,12 +6,12 @@ section_id: "A.6.7:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.7/A.6.7__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.7 — MechSuiteDescription — Shared Conditions for Joint Use of Distinct Mechanisms"
   - "A.6.7:7 — Conformance Checklist"
-line_start: 24399
-line_end: 24434
+line_start: 25320
+line_end: 25355
 dependencies:
   - "A.21"
   - "A.6.1"
@@ -59,11 +59,11 @@ A `MechSuiteDescription` is conformant iff all applicable items hold:
 
 **CC‑A.6.7‑8 (No thresholds in core).** The suite MUST NOT publish acceptance thresholds or “passing scores”. Thresholds must remain in acceptance clauses / task signatures / gate profiles.
 
-**CC‑A.6.7‑9 (Crossing visibility anchors).** If suite use consumes an actual semantic crossing or an independently governed E.18 crossing/A.21 gate, require only that claim’s applicable visibility and audit anchors, including Bridge, CL, policy, UTS or Path pins when its direct rule requires them. A changed edition alone creates none of those objects; keep the exact changed edition pin without manufacturing a crossing.
+**CC‑A.6.7‑9 (Crossing visibility anchors).** If suite use consumes an actual semantic crossing or an independently governed E.18 crossing/A.21 gate, require only that claim’s applicable visibility and audit anchors, including Bridge, CL, policy, UTS or Path pins when its direct rule requires them. A changed edition alone creates none of those objects; keep the changed edition pin without manufacturing a crossing.
 
 **CC‑A.6.7‑10 (Suite id present).** The suite MUST declare `mech_suite_id: MechSuiteId` so that downstream planning/audit can cite it stably.
 
-**CC‑A.6.7‑11 (Independent correspondence conditions).** A claimed kind correspondence MUST satisfy C.3.3 and retain the calibration and use conditions actually required there. When the use also relies on an F.9 semantic correspondence, establish that Bridge independently and retain both channels' applicable policies and penalties. A new EntityOfConcern of the same kind or a plane-only change creates neither correspondence by itself.
+**CC‑A.6.7‑11 (Independent correspondence conditions).** A claimed kind correspondence MUST satisfy C.3.3 and retain the calibration and use conditions required there. When the use also relies on an F.9 semantic correspondence, establish that Bridge independently and retain both channels' applicable policies and penalties. A new EntityOfConcern of the same kind or a plane-only change creates neither correspondence by itself.
 
 **CC‑A.6.7‑12 (Implementation export hygiene when cited).** If the suite cites realizations/implementations, the citations MUST preserve export/import discipline (LOG/CHR: no Γ export; CAL: exactly one Γ; imports acyclic).
 

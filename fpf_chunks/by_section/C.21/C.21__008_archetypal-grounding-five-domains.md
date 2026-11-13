@@ -6,12 +6,12 @@ section_id: "C.21:6"
 section_title: "Archetypal Grounding (five domains)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__008_archetypal-grounding-five-domains.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:6 — Archetypal Grounding (five domains)"
-line_start: 62709
-line_end: 62732
+line_start: 65258
+line_end: 65285
 dependencies:
   - "A.10"
   - "A.17-A.18"
@@ -50,7 +50,7 @@ keywords:
 
 #### C.21:6.1 - Computer vision: direct comparison without a Bridge
 
-Two `ReproducibilityRate` results concern the same benchmark population and ClaimScope. Both cite the same Characteristic and ratio Scale editions, the same `DHCMethodRef.edition`, compatible model and calibration rules, and matching 24-month population windows. The team compares the two rates directly under that basis. The source reports have different publication editions, but no distinct F.17 local senses are being related, so no F.9 relation is invented.
+Two `ReproducibilityRate` results concern the same benchmark population and ClaimScope. Both cite the same Characteristic and ratio Scale editions, the same `DHCMethodRef.edition`, compatible model and calibration rules, and matching 24-month population windows. The team compares the two rates directly under that basis. The source reports have different publication editions, but no distinct F.17 local senses are being related, so no F.9 relation is required.
 
 Formal benchmark approval and actual benchmark adoption are reported separately as `FormalRecognitionStatus` and `PracticeAdoptionRate`.
 
@@ -60,7 +60,11 @@ One claim reports `EvidenceUnitResolution = claim` under `ClinicalClaimSegmentat
 
 #### C.21:6.3 - Software performance engineering: explicit cross-local use
 
-The compared cells are `OpenTelemetry:SLO/latency-objective@E4` and `VendorB:SLO/service-level-target@E7`. For this example, take `F9-SPE-SLO-12` as an independently established directed F.9 Bridge from the OpenTelemetry cell to the VendorB cell under a satisfied predicate profile. A separate C.2.1 bounded-use claim states suitability for “compare service-latency objective coverage in the 2026 survey” in that direction, using only rows with the aligned 30-day window and tolerating no rolling-window mismatch. The evidence loss note records that the target cell permits a different rolling-window convention; the comparison still requires current A.10 reliance on the bounded-use claim. That directed relation is one counted member of the declared AlignmentDensity cell set; it does not make all tracing-ecosystem readings comparable.
+The compared cells are `OpenTelemetry:SLO/latency-objective@E4` and `VendorB:SLO/service-level-target@E7`. For this example, take `F9-SPE-SLO-12` as an independently established directed F.9 Bridge from the OpenTelemetry cell to the VendorB cell under a satisfied predicate profile.
+
+A separate C.2.1 bounded-use claim states suitability for “compare service-latency objective coverage in the 2026 survey” in that direction, using only rows with the aligned 30-day window and tolerating no rolling-window mismatch. The evidence loss note records that the target cell permits a different rolling-window convention; the comparison still requires current A.10 reliance on the bounded-use claim.
+
+That directed relation is one counted member of the declared AlignmentDensity cell set; it does not make all tracing-ecosystem readings comparable.
 
 #### C.21:6.4 - Decision-making: entropy and concentration stay separate
 

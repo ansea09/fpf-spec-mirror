@@ -6,12 +6,12 @@ section_id: "A.2.4:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.4/A.2.4__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.2.4 — Episteme Evidence-Use and Status-Use Relations"
   - "A.2.4:1 — Problem Frame"
-line_start: 6059
-line_end: 6079
+line_start: 6314
+line_end: 6334
 dependencies:
   - "A.10"
   - "A.2"
@@ -20,13 +20,7 @@ dependencies:
   - "A.6.RSIR"
   - "B.3"
   - "C.2.1"
-  - "C.28"
-  - "E.10.D2"
   - "E.10.ROLE"
-  - "E.17"
-  - "F.10"
-  - "G.11"
-  - "G.6"
   - "U.SystemRoleAssignment"
 keywords:
   - "claim"
@@ -52,7 +46,7 @@ Use it when the working question is:
 
 **Primary EntityOfConcern.** The `EntityOfConcern` is the evidence-use relation or status-use relation around an episteme.
 
-**First useful move.** Name the exact episteme and the claim or governed status for which it is being used. When the intended use needs more than this classification, use §4.6 to recover the additional claim and its direct governing pattern.
+**First useful move.** Name the episteme and the claim or governed status for which it is being used. When the intended use needs more than this classification, use §4.6 to recover the additional claim and its direct governing pattern.
 
 **What goes wrong if missed.** Producing or evaluating work is attributed to the document itself, a dataset is treated as if it were classified under a work-facing system-role kind, a dashboard status is used as permission, a proof is used outside its theory-version fence, or a simulation-only counterfactual output is relabelled as realized causal evidence.
 

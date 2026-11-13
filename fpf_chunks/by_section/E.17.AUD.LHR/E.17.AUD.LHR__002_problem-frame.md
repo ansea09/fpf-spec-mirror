@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.17.AUD.LHR"
-pattern_title: "PublicationUnit Stability Discipline and Local Head Restoration - repair the overloaded local lexical head before the publication unit inherits it"
+pattern_title: "Restore the Local Meaning of an Overloaded Word or Phrase (Local Head Restoration)"
 section_id: "E.17.AUD.LHR:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.LHR/E.17.AUD.LHR__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "E.17.AUD.LHR — PublicationUnit Stability Discipline and Local Head Restoration - repair the overloaded local lexical head before the publication unit inherits it"
+  - "E.17.AUD.LHR — Restore the Local Meaning of an Overloaded Word or Phrase (Local Head Restoration)"
   - "E.17.AUD.LHR:1 — Problem frame"
-line_start: 109516
-line_end: 109540
+line_start: 116266
+line_end: 116290
 dependencies:
   - "A.10"
   - "A.15"
@@ -37,12 +37,12 @@ keywords:
 
 ### E.17.AUD.LHR:1 - Problem frame
 
-**Anti-single-sequence note.** The quick checks, ordinary card, worked slices, and governing-pattern and project-side-reference boundary rules in this section are local aids for one publication unit under review. They do not prescribe a canonical transformation flow or a fixed sequence for every admissible case. One case may stabilize after one lexical-head repair, another may reopen when outside observation changes the honest question, and another may apply `E.17.AUD.OOTD` when the publication unit still has unstable primary-subject or carried-move reading.
+The quick checks, ordinary card, worked cases, and rules for choosing a governing pattern or a project reference help repair one publication unit. They prescribe no canonical transformation flow or fixed order for all cases. One case may stabilize after one head repair. In another case, an outside observation may change the question and reopen the case. A unit whose primary subject or carried move still shifts may need `E.17.AUD.OOTD`.
 
 The recurring defect is small but expensive:
 - one broad familiar word enters early;
 - the word is never restored to one kind or local work position;
-- later sentences inherit its ambiguity as if nothing happened.
+- later sentences inherit its ambiguity.
 
 Typical load-bearing local heads include:
 - `document`
@@ -58,5 +58,5 @@ Typical load-bearing local heads include:
 - `interpretation`
 - `reading`
 
-These words are not uniformly wrong. They become risky when one of them starts carrying primary entity, active relation, local work position, move, or governing-pattern boundary load without being restored first.
+These words can be appropriate. A word becomes risky when readers must infer the primary entity, active relation, local work position, move, or governing-pattern boundary before anyone has clarified what it names.
 

@@ -6,25 +6,20 @@ section_id: "C.16.Q:7"
 section_title: "Conformance Checklist (CC-C16Q)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.Q/C.16.Q__009_conformance-checklist-cc-c16q.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
   - "C.16.Q:7 — Conformance Checklist (CC-C16Q)"
-line_start: 60453
-line_end: 60495
+line_start: 62852
+line_end: 62894
 dependencies:
   - "A.10"
   - "A.16"
-  - "A.16.0"
-  - "A.16.1"
-  - "A.16.2"
   - "A.17"
   - "A.18"
   - "A.19"
-  - "A.19.CPM"
   - "A.2.6"
   - "A.6.A"
-  - "A.6.B"
   - "A.6.P"
   - "A.7"
   - "B.3"
@@ -32,37 +27,21 @@ dependencies:
   - "B.5.2.0"
   - "C.16"
   - "C.16.P"
-  - "C.17"
-  - "C.18"
-  - "C.19"
   - "C.2.1"
-  - "C.2.2a"
-  - "C.2.4"
-  - "C.2.5"
-  - "C.2.6"
-  - "C.2.7"
-  - "C.2.LS"
   - "C.25"
-  - "C.30.AD"
-  - "C.30.ASV"
   - "E.10"
   - "E.10.ARCH"
-  - "E.17.0"
-  - "E.17.2"
   - "E.21"
   - "E.8"
   - "F.18"
   - "F.9"
   - "F.9.1"
-  - "U.ClaimScope"
-  - "U.ContextSlice"
-  - "U.ViewpointRef"
 keywords:
 ---
 
 ### C.16.Q:7 - Conformance Checklist (CC-C16Q)
 
-Apply the following conditions to the branch actually used. A known endpoint follows its own form. Requirements for ascription fields and records apply when the transitional form is used; the semantic distinctions remain relevant wherever they change the claim.
+Apply the following conditions to the branch used. A known endpoint follows its own form. Requirements for ascription fields and records apply when the transitional form is used; the semantic distinctions remain relevant wherever they change the claim.
 
 1. **CC-C16Q-1 - Explicit endpoint classification and explicit sense.**
    Every repaired claim makes its subject, intended sense and governing conditions recoverable. Use a known endpoint directly. A transitional `qualityTermAscription(...)` has an explicit `QualitySense` and endpoint classification; an adequate ordinary explanation needs no additional record.
@@ -73,7 +52,7 @@ Apply the following conditions to the branch actually used. A known endpoint fol
 4. **CC-C16Q-4 - Effective scheme, evaluator, and viewpoint reference.**
    The effective reference scheme is explicit. Evaluator and `U.ViewpointRef` are separate; a non-`none` reference resolves one exact viewpoint episteme and grants no conformance, membership, authority, or result.
 5. **CC-C16Q-5 - Substrate and referencePlane are declared when relevant.**
-    Cross-talk across articulation modes (including preconceptual), representation substrates (including latent-distributed and symbolic-local), or `ReferencePlane` values `world`, `concept`, and `episteme` is not allowed without explicit substrate and, when live, plane declarations.
+    Cross-talk across articulation modes (including preconceptual), representation substrates (including latent-distributed and symbolic-local), or `ReferencePlane` values `world`, `concept`, and `episteme` is not allowed without explicit substrate and, when omission would change meaning, plane declarations.
 6. **CC-C16Q-6 - ClaimScope, slices, and `Γ_time` are explicit.**
    One `U.ClaimScope`, its meaning-changing `U.ContextSlice` members, and any meaning-changing `Γ_time` are stated; work or publication scope does not substitute for claim scope.
 7. **CC-C16Q-7 - Admissible normal form and result boundary.**

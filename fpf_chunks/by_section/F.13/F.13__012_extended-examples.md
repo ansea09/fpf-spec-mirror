@@ -6,12 +6,12 @@ section_id: "F.13:11"
 section_title: "Extended examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.13/F.13__012_extended-examples.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.13 — Lexical Continuity & Deprecation"
   - "F.13:11 — Extended examples"
-line_start: 122932
-line_end: 122971
+line_start: 130712
+line_end: 130751
 dependencies:
   - "F.1"
   - "F.17"
@@ -47,7 +47,7 @@ keywords:
 * **Contexts:** *IEC 61131‑3 (run)*; *state‑space control texts (design)*.
 * **Temptation:** Rename **“task execution”** to **“actuation”** “to sound control‑ish”.
 * **Diagnosis:** Different Contexts; different SenseCells (program run vs control output).
-* **Move:** **No rename.** Keep the labels. Establish any actual Work-to-signal production or output relation under its direct pattern, following F.11. Add F.9 only when a separate semantic correspondence between exact local senses is needed; then keep the bounded-use claim and reliance separate.
+* **Move:** **No rename.** Keep the labels. Establish any actual Work-to-signal production or output relation under the pattern for that relation, following F.11. Add F.9 only when a separate semantic correspondence between the particular local senses is needed. Then keep the bounded-use claim and reliance separate.
 * **Pay‑off:** Plant narratives stop calling programs “actuators”; runtime vs control semantics stay crisp.
 
 #### F.13:11.3 - Kind-CAL × method/work stack — false merge avoided
@@ -55,7 +55,7 @@ keywords:
 * **Contexts:** *OWL 2 (types, design)*; *SPEM 2.0 (methods, design)*.
 * **Issue:** A row labeled **“Class”** tried to absorb **“WorkProductKind”** by a `renames`.
 * **Diagnosis:** Not same sense; different calculi (type vs artefact category).
-* **Move:** **Split the row**: `splits("class" ⇒ {"type‑class","work‑product‑category"})`.
+* **Move:** Reject the proposed rename. If the old row already combined both meanings, apply `splits("class" ⇒ {"type‑class","work‑product‑category"})` and preserve the earlier reading path.
 * **Pay-off:** Later descriptions can cite the exact local meaning they use. Any SystemRoleKindDescription still describes its independently recovered system-role kind under F.4; a source-cell pointer does not establish that kind.
 
 #### F.13:11.4 - Enactment × KD‑CAL — replacing a misleading metaphor

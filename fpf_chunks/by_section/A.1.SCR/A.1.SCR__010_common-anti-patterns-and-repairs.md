@@ -3,15 +3,15 @@ chunk_kind: "child"
 pattern_id: "A.1.SCR"
 pattern_title: "Finding the Acting or Changed System"
 section_id: "A.1.SCR:8"
-section_title: "Common Anti-Patterns and Exact Repairs"
+section_title: "Common Anti-Patterns and Repairs"
 source_path: "FPF-Spec.md"
-output_path: "by_section/A.1.SCR/A.1.SCR__010_common-anti-patterns-and-exact-repairs.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+output_path: "by_section/A.1.SCR/A.1.SCR__010_common-anti-patterns-and-repairs.md"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.1.SCR — Finding the Acting or Changed System"
-  - "A.1.SCR:8 — Common Anti-Patterns and Exact Repairs"
-line_start: 3763
-line_end: 3775
+  - "A.1.SCR:8 — Common Anti-Patterns and Repairs"
+line_start: 3859
+line_end: 3871
 dependencies:
   - "A.1"
   - "A.1.CSD"
@@ -24,16 +24,16 @@ dependencies:
 keywords:
 ---
 
-### A.1.SCR:8 - Common Anti-Patterns and Exact Repairs
+### A.1.SCR:8 - Common Anti-Patterns and Repairs
 
 | Anti-pattern | Why it fails | Repair |
 | --- | --- | --- |
 | Complete A.1 test before the decision is known | Classification work may change nothing. | State what depends on systemhood; take the subject-pattern exit when it does not. |
-| Pattern list without an actor/change bearer | The reader still cannot act. | Name the exact subject and concrete decision. |
-| Temporary reading treated as a kind | Evaluation position becomes ontology. | Keep one exact `U.Entity` under an admitted kind test. |
+| Pattern list without an actor/change bearer | The reader still cannot act. | Name the subject and concrete decision. |
+| Temporary reading treated as a kind | Evaluation position becomes ontology. | Keep one `U.Entity` under an admitted kind test. |
 | Unknown as a third ontic state | Missing information becomes world-side indeterminacy. | Name the missing input and blocked decision. |
 | Neighbor bundle | Different identity laws disappear. | Return the subject first, then separately governed claims needed now. |
 | Physical-realization identity | Co-location or one embodiment merges kinds. | Apply each identity rule and relation governor. |
 | Project designation inferred | Recognition or affectedness is mistaken for designation as the project system-of-interest. | Recover the product-use basis and designation under section 4.7; test any local system-role classification and assignment separately. |
-| Software *service* treated as system | Source-domain metonymy silently chooses a bearer. | Begin in A.6.P, name the exact referent, and enter here only for a system-dependent claim. |
+| Software *service* treated as system | Source-domain metonymy silently chooses a bearer. | Begin in A.6.P, name the referent, and enter here only for a system-dependent claim. |
 

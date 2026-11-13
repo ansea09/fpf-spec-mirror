@@ -6,12 +6,12 @@ section_id: "A.6.H:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.H/A.6.H__014_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.H — Wholeness Language Unpacking — RPR-WHOLE"
   - "A.6.H:12 — Relations"
-line_start: 25459
-line_end: 25468
+line_start: 26380
+line_end: 26389
 dependencies:
   - "A.1"
   - "A.10"
@@ -62,11 +62,11 @@ keywords:
 
 ### A.6.H:12 - Relations
 
-- **Specialises:** `A.6.P` after its 4.11 whole/part/integrity/coverage branch has recovered exact candidate objects and the receiving sentence.
+- **Specialises:** `A.6.P` after its 4.11 whole/part/integrity/coverage branch has recovered candidate objects and the receiving sentence.
 - **Uses for direct mereology:** `A.14`; construction accounts to `C.13`; selected structures to `A.22`; holon recognition to `A.1`; and remaining whole reidentification to `B.2`.
-- **Uses for episteme and publication questions:** `C.2.1`, `A.3.2`, `E.17`, `E.24.PUB`, and `C.29` as selected by the exact subject.
+- **Uses for episteme and publication questions:** `C.2.1`, `A.3.2`, `E.17`, `E.24.PUB`, and `C.29` as selected by the subject.
 - **Uses for Method, plan, and Work questions:** `A.3.1`, `B.1.5`, `A.15.2`, the A.13/A.15.1/conditional F.6 basis in §4.2, `A.15.PROD`, and `B.1.4` only for bounded aggregation of already recovered temporal or order relations.
 - **Uses for integrity, evidence, and assurance questions:** `A.17` or the applicable subject rule for a Characteristic or constraint; `C.16` for measurement, with `C.16.P` for unresolved characteristic or scale wording; `A.2.4` for evidence-use classification, `A.10` for a needed replayable source-to-use account, and `B.3` for an assurance claim.
-- **Uses for absent relation governance:** `A.6.RCD` after participants, required predicate, and blocked receiving use are exact.
+- **Uses for absent relation governance:** `A.6.RCD` after the participants, required predicate, and blocked receiving use have been identified.
 - **Does not establish from wording or record form alone:** a whole, lifecycle or other new kind, automatic edition series, universal part relation, coverage status, assurance verdict, or direct relation occurrence.
 

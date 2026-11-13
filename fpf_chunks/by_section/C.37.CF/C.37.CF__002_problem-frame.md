@@ -6,12 +6,12 @@ section_id: "C.37.CF:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37.CF/C.37.CF__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.37.CF — Compare Content and Form Changes"
   - "C.37.CF:1 — Problem frame"
-line_start: 82230
-line_end: 82237
+line_start: 86245
+line_end: 86252
 dependencies:
   - "A.3.2.DE"
   - "C.2.8"

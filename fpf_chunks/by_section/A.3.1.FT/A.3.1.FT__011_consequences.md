@@ -6,12 +6,12 @@ section_id: "A.3.1.FT:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.FT/A.3.1.FT__011_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.3.1.FT — Qualify Method Fit and Transfer"
   - "A.3.1.FT:9 — Consequences"
-line_start: 10971
-line_end: 10976
+line_start: 11372
+line_end: 11377
 dependencies:
   - "A.3.1"
   - "A.3.1.QM"
@@ -22,7 +22,7 @@ keywords:
 
 ### A.3.1.FT:9 - Consequences
 
-Fit and transfer claims become inspectable and narrow enough to guide real decisions. Practitioners can see which conditions matter, what actual Work supports the result, whether the same Method persisted, and where another situation must reopen the claim.
+Fit and transfer claims become inspectable and narrow enough to guide decisions. Practitioners can see which conditions matter, what actual Work supports the result, whether the same Method persisted, and where another situation must reopen the claim.
 
 The cost is that many plausible transfers end as missing evidence or a smaller applicability envelope. A semantic adaptation may also leave a separate variant to maintain.
 

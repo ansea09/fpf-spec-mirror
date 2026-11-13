@@ -6,12 +6,12 @@ section_id: "E.13:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.13/E.13__007_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.13 — Pragmatic Utility and Proxy-to-Value Alignment"
   - "E.13:5 — Archetypal Grounding"
-line_start: 105172
-line_end: 105181
+line_start: 111520
+line_end: 111529
 dependencies:
   - "A.10"
   - "A.21"
@@ -42,7 +42,7 @@ keywords:
 
 | Case | Proxy pressure | E.13 repair |
 | --- | --- | --- |
-| Pattern quality loop | All-`5` pattern-quality posture becomes the target. | Use `E.21` values as measurements; repair only substantive content movement and record what worsened when apparatus grew. |
+| Pattern quality loop | All-`5` pattern-quality posture becomes the target. | Use `E.21` values as measurements. Revise the pattern only where its substantive content can improve. Record what worsened when apparatus was added. |
 | DRR review | Source rows and selected-locus tables grow while the decision remains vague. | Use `E.9.DA`; the DRR improves only when selected answer, source payload, or first drafting action improves. |
 | Safety dashboard | A lower incident count is used as proof of safety. | Split measure, reporting behavior, unreported hazard, and safety assurance; use the safety/assurance pattern for the stronger claim. |
 | AI reward model | A model gets higher reward or judge score by exploiting the specification. | Treat the score as proxy; inspect unmeasured intended outcome and blocked value dimensions. |

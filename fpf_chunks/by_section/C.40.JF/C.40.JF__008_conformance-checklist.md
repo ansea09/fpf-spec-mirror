@@ -6,12 +6,12 @@ section_id: "C.40.JF:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.JF/C.40.JF__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.40.JF — Qualify Dependencies and Joint Reachability"
   - "C.40.JF:7 — Conformance Checklist"
-line_start: 87804
-line_end: 87816
+line_start: 92038
+line_end: 92050
 dependencies:
   - "A.10"
   - "A.15.9"
@@ -33,6 +33,6 @@ keywords:
 6. **MUST** preserve C.11.CRC's complete coordinate basis when asserting finite contribution or dominance relations.
 7. **MUST** distinguish supported reachability, a conditional opportunity, a ruled-out transition, and an unresolved candidate.
 8. **MUST** localize a missing or defeated premise and retain unaffected independent alternatives.
-9. **MUST NOT** infer holder transfer, learning, capability, authority, observed effect, or choice merely from the presence of a label, source description, benchmark, or reachability account. Use a qualified result for the specific claim.
+9. **MUST NOT** infer holder transfer, learning, capability, authority, observed effect, or choice merely from the presence of a label, source description, benchmark, or reachability account. Use a qualified result for the claim.
 10. **SHOULD** use a short result when the claim and its decisive limits are readily recoverable.
 

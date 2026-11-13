@@ -6,12 +6,12 @@ section_id: "C.30.AD:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__004_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:2 — Problem"
-line_start: 72126
-line_end: 72129
+line_start: 75219
+line_end: 75222
 dependencies:
   - "A.1"
   - "A.10"
@@ -76,5 +76,5 @@ keywords:
 
 ### C.30.AD:2 - Problem
 
-A practitioner needs to know whether an architecture description supports the intended work: what it describes, which claims and selected structures it makes recoverable, how it corresponds to other descriptions, and where its use must stop or return to a source. A polished view set can leave these questions unanswered; requiring a full documentation apparatus for an already adequate sentence creates a different failure. The task is to supply the missing description content and its grounds at the scale the use needs.
+A practitioner needs to know whether an architecture description supports the intended work: what it describes, which claims and selected structures it makes recoverable, how it corresponds to other descriptions, and where its use must stop or return to a source. A polished view set can leave these questions unanswered; requiring a full documentation apparatus for an adequate sentence creates a different failure. The task is to supply the missing description content and its grounds at the scale the use needs.
 

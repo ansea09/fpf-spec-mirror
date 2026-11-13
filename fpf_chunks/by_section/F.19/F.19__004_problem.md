@@ -6,12 +6,12 @@ section_id: "F.19:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.19/F.19__004_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
   - "F.19:2 — Problem"
-line_start: 126111
-line_end: 126114
+line_start: 134115
+line_end: 134118
 dependencies:
   - "A.19.SPR"
   - "A.6.P"
@@ -34,5 +34,5 @@ keywords:
 
 ### F.19:2 - Problem
 
-How can a practitioner repair technically plausible prose that asserts unsupported relations or makes the reader invent missing structure, while preserving the kinds, claim boundaries, operational detail, and established terms that the intended use actually needs—without building a controlled language, a universal ontology of speech, a prohibited-word list, or a form for every correction?
+How can a practitioner repair technically plausible prose that asserts unsupported relations or makes the reader invent missing structure, while preserving the kinds, claim boundaries, operational detail, and established terms that the intended use needs? How can the practitioner do this without building a controlled language, a universal ontology of speech, a prohibited-word list, or a form for every correction?
 

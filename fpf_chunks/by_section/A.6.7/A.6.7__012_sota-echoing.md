@@ -6,12 +6,12 @@ section_id: "A.6.7:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.7/A.6.7__012_sota-echoing.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.7 — MechSuiteDescription — Shared Conditions for Joint Use of Distinct Mechanisms"
   - "A.6.7:11 — SoTA-Echoing"
-line_start: 24481
-line_end: 24490
+line_start: 25402
+line_end: 25411
 dependencies:
   - "A.21"
   - "A.6.1"
@@ -41,9 +41,9 @@ keywords:
 
 **Question and selected answer.** How can a practitioner reuse several operation contracts under one set of conditions without selecting an implementation prematurely? For this question, **adapt** the explicit process-reference, input/output and requirement separation in [CWL Workflow v1.2.1, §3.3 and §4.3](https://www.commonwl.org/v1.2/Workflow.html#WorkflowStep). Its [abstract Operation](https://www.commonwl.org/v1.2/Workflow.html#Operation) describes inputs and outputs before binding a concrete process. This supplies a declaration-first composition comparison; FPF admissibility and operation identity retain their own rules.
 
-**Serious alternative.** A pinned executable pipeline is preferable when the task is already to fit and run compatible estimators. [scikit-learn 1.9.1 Pipeline, `steps`](https://scikit-learn.org/stable/modules/generated/sklearn.pipeline.Pipeline.html) exposes named estimator steps; each has fit, and intermediate steps have transform. It is a substantive composition alternative, not evidence that every characterization contract should have that interface.
+**Serious alternative.** A pinned executable pipeline is preferable when the task is already to fit and run compatible estimators. [scikit-learn 1.9.1 Pipeline, `steps`](https://scikit-learn.org/stable/modules/generated/sklearn.pipeline.Pipeline.html) exposes named estimator steps; each has fit, and intermediate steps have transform. It is a composition alternative.
 
 For OfferChoice, compare both approaches with the same two contracts, four operation uses and four specification references. **Adopt** explicit member/operation resolution and one common specification baseline; **reject** the shortcut of identifying these contracts only by stage names or selected realizers. An executable pipeline could carry the same facts through adapters and metadata, but those additions still need their declarations and checks. The suite keeps them inspectable before an implementation exists. The deliberate cost is another reference layer; it offers no execution or performance advantage. Once executable estimators and their composition fully answer the question, use that pipeline and do not add a suite merely for documentation.
 
-This choice is expressed in §4.1's exact declaration/edition resolution, §4.4's separate protocol and the filled §4.6 case: a returned comparison binding supplies selection, and absent evidence stops the chain. The architectural comparison is a local inference from the stated use and these primary specifications, not a measured productivity result or a claim that either source defines FPF. Reopen it if a receiving use needs only one already complete executable pipeline, if an additional reference layer hides a required condition, or if a rival represents the same distinct contracts and joint conditions with less total reader work.
+This choice is expressed in §4.1's declaration/edition resolution, §4.4's separate protocol and the filled §4.6 case: a returned comparison binding supplies selection, and absent evidence stops the chain. The architectural comparison is a local inference from the stated use and these primary specifications, not a measured productivity result. Reopen it if a receiving use needs only one already complete executable pipeline, if an additional reference layer hides a required condition, or if a rival represents the same distinct contracts and joint conditions with less total reader work.
 

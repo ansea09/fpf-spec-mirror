@@ -6,12 +6,12 @@ section_id: "F.9:10"
 section_title: "Invariants"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__012_invariants.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.9 — Relate Local Meanings across Contexts (Alignment and Bridge)"
   - "F.9:10 — Invariants"
-line_start: 121416
-line_end: 121433
+line_start: 129106
+line_end: 129123
 dependencies:
   - "A.10"
   - "A.13"
@@ -60,7 +60,7 @@ keywords:
 1. **Exact endpoints first.** A Bridge has exactly two F.17 `SchemeSenseCell` participants.
 2. **No context object.** Semantic context is recovered from endpoint content and is not a relation participant.
 3. **Different context is not enough.** Different projections trigger the question but do not establish the relation.
-4. **Profile contains relation semantics only.** Receiving use, direction, use rule, loss tolerance, polarity, reliance, authorization, and receiving objects are absent from profile identity.
+4. **Profile contains relation semantics only.** The proposed use, its direction, its correspondence rule, loss tolerance, polarity, reliance, authorization, and receiving objects are absent from profile identity.
 5. **Obtaining before occurrence reference.** A positive Bridge reference appears only after the fixed predicate is true and its dependencies are present.
 6. **Use claim is separate.** Every proposed use names `u`, `d`, `r`, `t`, and polarity in a C.2.1 claim about the exact Bridge.
 7. **Reliance is separate.** A.10 says whether ordinary evidence supports relying on the bounded-use claim. When an actual named assurance claim is current, B.3 supplies its bounded `AssuranceResult`. Neither answer comes from F.9 or the Card.

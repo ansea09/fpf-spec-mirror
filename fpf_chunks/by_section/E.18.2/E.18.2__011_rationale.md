@@ -6,12 +6,12 @@ section_id: "E.18.2:8"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.2/E.18.2__011_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.18.2 — Transformation Flow Mathematical Description"
   - "E.18.2:8 — Rationale"
-line_start: 111655
-line_end: 111660
+line_start: 118639
+line_end: 118644
 dependencies:
   - "A.10"
   - "A.15"
@@ -38,7 +38,7 @@ keywords:
 
 ### E.18.2:8 - Rationale
 
-Graph-shaped or morphism-shaped source labels do not carry current ontology by themselves here. They remain useful only when the current EntityOfConcern is named: E.18 keeps one selected TFS, E.18.NET keeps one selected network, A.3.4 keeps bounded transformation, E.18.1 keeps P2W carry-through, and E.18.2 keeps one mathematical description of exactly one selected TFS or network.
+A label such as “graph” or “morphism” does not by itself identify what is being described. To use the label, name the current EntityOfConcern: E.18 keeps one selected TFS, E.18.NET keeps one selected network, A.3.4 keeps bounded transformation, E.18.1 keeps P2W carry-through, and E.18.2 keeps one mathematical description of exactly one selected TFS or network.
 
-The pattern is intentionally narrower than C.29. C.29 answers the general question "is this mathematical lens use adequate for this declared purpose?" E.18.2 answers the local question "what mathematical expression describes this one selected TFS or network, and which declared use does that expression serve here?" This prevents shadow math-lens doctrine while preserving the practical value of graph, path, category, tuple, and algebraic expression in transformation-flow work.
+E.18.2 has a narrower scope than C.29. C.29 answers the general question "is this mathematical lens use adequate for this declared purpose?" E.18.2 answers the local question "what mathematical expression describes this one selected TFS or network, and which declared use does that expression serve here?" Using C.29 for adequacy avoids a second set of lens-use rules. Graphs, paths, categories, tuples and algebras remain useful for describing transformation flows.
 

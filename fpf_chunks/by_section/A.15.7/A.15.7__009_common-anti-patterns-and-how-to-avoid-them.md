@@ -6,12 +6,12 @@ section_id: "A.15.7:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.7/A.15.7__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.15.7 — Situation-Responsive Work Steering and Next-Action Selection"
   - "A.15.7:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 31670
-line_end: 31681
+line_start: 32887
+line_end: 32898
 dependencies:
   - "A.10"
   - "A.13"
@@ -41,5 +41,5 @@ keywords:
 | “The steering Method is obviously part of the domain Method.” | Assert composition only with the admitted Methods and an obtaining composition relation. A needed co-enactment claim instead requires two separately grounded enactments. If neither relationship is asserted or needed, retain the ordinary next-action answer without adding one. |
 | “The recommendation was recent enough.” | Establish that the action-guiding claims remain applicable. When a consumed premise is defeated, refresh it, use a supported alternative or safe fallback, or stop. |
 | “The plan already contains the action, so Work occurred.” | Keep plan revision, next-action answer, and performed Work separate. |
-| “Several options might exist, so use C.11 first.” | Recover the current Work, relevant Method limits, facts, and available actions first; use `C.11` when the live alternatives genuinely need comparison. |
+| “Several options might exist, so use C.11 first.” | Recover the current Work, relevant Method limits, facts, and available actions first; use `C.11` when the live alternatives need comparison. |
 

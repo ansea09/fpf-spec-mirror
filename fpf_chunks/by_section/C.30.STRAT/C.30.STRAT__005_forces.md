@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__005_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.30.STRAT — Clarify Stratification and Architecture Source Labels"
   - "C.30.STRAT:3 — Forces"
-line_start: 73029
-line_end: 73037
+line_start: 76151
+line_end: 76159
 dependencies:
   - "A.10"
   - "A.15"
@@ -66,8 +66,8 @@ keywords:
 
 | Force | Tension |
 | --- | --- |
-| Source-language usability vs ontology | Practitioners need compact local words; a technical claim needs the actual object or relation, its participants or bearer, its scope, and its allowed use. |
+| Source-language usability vs ontology | Practitioners need compact local words; a technical claim needs the object or relation, its participants or bearer, its scope, and its allowed use. |
 | Pattern placement vs applicable rule | C.30 placement does not decide the applicable rule: the recovered claim may belong to control, modules, flow, scale, publication, state, evidence, work, or decision. |
-| Known meaning vs detour | When the current object or relation is already clear, use its pattern directly. |
+| Known meaning vs detour | When the object or relation is already clear, use its pattern directly. |
 | Precision vs action | A type-correct result is still inadequate if it leaves the receiving question unanswered. |
 

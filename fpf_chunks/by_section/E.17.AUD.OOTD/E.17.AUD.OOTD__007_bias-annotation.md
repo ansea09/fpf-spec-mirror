@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.17.AUD.OOTD"
-pattern_title: "PublicationUnit Stability Discipline and PublicationUnit Primary-Subject Discipline - publication-unit stability over one primary subject"
+pattern_title: "Clarify the Primary Subject of a Publication Unit (PublicationUnit Primary-Subject Discipline)"
 section_id: "E.17.AUD.OOTD:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.OOTD/E.17.AUD.OOTD__007_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "E.17.AUD.OOTD — PublicationUnit Stability Discipline and PublicationUnit Primary-Subject Discipline - publication-unit stability over one primary subject"
+  - "E.17.AUD.OOTD — Clarify the Primary Subject of a Publication Unit (PublicationUnit Primary-Subject Discipline)"
   - "E.17.AUD.OOTD:6 — Bias-Annotation"
-line_start: 110114
-line_end: 110117
+line_start: 116865
+line_end: 116868
 dependencies:
   - "A.10"
   - "A.15"
@@ -40,6 +40,6 @@ keywords:
 ---
 
 ### E.17.AUD.OOTD:6 - Bias-Annotation
-This section intentionally biases toward explicit publication-unit stability and against quietly letting one unit absorb wider work or decision pressure by habit.
-The main mitigation is explicit primary-subject, concern, carried-move, downstream-use, and outside-work surfacing; conditional use of exact `EntityOfConcern` only when `C.2.1` warrants it; early return to `E.17.ID.CR` when publication-unit stability is already solved; and an explicit boundary choice once a downstream claim becomes primary.
+This pattern favors making the unit’s reading stable and visible. It discourages letting the unit take on wider work or decision pressure without marking that change.
+To counter that bias, name the primary subject, concern, carried move, downstream use, and outside work. Use `EntityOfConcern` only when `C.2.1` warrants that identification. Return promptly to `E.17.ID.CR` when the unit is stable and a bounded comparison remains, and state which boundary applies once a downstream claim becomes primary.
 

@@ -6,12 +6,12 @@ section_id: "C.31:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31/C.31__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.31 — Modularity and Reusable Structure Characteristics"
   - "C.31:2 — Problem"
-line_start: 75111
-line_end: 75118
+line_start: 78536
+line_end: 78543
 dependencies:
   - "A.10"
   - "A.17"
@@ -45,7 +45,7 @@ keywords:
 
 ### C.31:2 - Problem
 
-Architecture work often asks for more modularity, better reuse, lower coupling, more explicit interfaces, cleaner allocation, or less bespoke residue. These phrases point to real engineering work, but they do not name one scalar property.
+Architecture work often asks for more modularity, better reuse, lower coupling, more explicit interfaces, cleaner allocation, or less bespoke residue. These phrases point to engineering work, but they do not name one scalar property.
 
 Modularity can improve along one characteristic while worsening another. A design can reduce external coupling and increase interface alphabet size. A platform can standardize interfaces and create unhelpful rigidity. Evidence reuse can improve while functional-to-module allocation remains tangled. A report can show a high reuse share while hiding source-return work or residual uncertainty.
 

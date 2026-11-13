@@ -6,12 +6,12 @@ section_id: "C.3.5:3"
 section_title: "Anchors K0…K3 (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.5/C.3.5__004_anchors-k0-k3-informative.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.3.5 — KindAT — Intentional Abstraction Facet for Kinds (K0…K3)"
   - "C.3.5:3 — Anchors K0…K3 (informative)"
-line_start: 56077
-line_end: 56118
+line_start: 58381
+line_end: 58422
 dependencies:
   - "A.2.6"
   - "C.2.2"
@@ -34,13 +34,13 @@ keywords:
 
 #### C.3.5:3.1 - K0 — Instance-level
 
-**Intent.** The local kind is used for named exemplars or a tightly curated cohort.
+**Intent.** The local kind is used for named exemplars or a curated cohort.
 
 **Cues.** The reusable criterion, when one is needed, relies mainly on direct identity features or an enumerated bounded candidate domain.
 
 **Non-example.** A stable invariant-bearing distinction belongs nearer K2 even if few candidates are currently known.
 
-**Planning.** Prefer exact slice-bound judgments and assurance over the current candidate domain. When reuse depends on matching named candidates, make that correspondence explicit. Any KindBridge assessment follows the actual distinct-kind correspondence and its preservation evidence.
+**Planning.** Prefer slice-bound judgments and assurance over the current candidate domain. When reuse depends on matching named candidates, make that correspondence explicit. Any KindBridge assessment follows the actual distinct-kind correspondence and its preservation evidence.
 
 #### C.3.5:3.2 - K1 — Behavioral pattern
 
@@ -56,7 +56,7 @@ keywords:
 
 **Intent.** The local kind has explicit invariants, relations, and a reviewed position in a local kind order.
 
-**Cues.** A reusable `KindSignature` declaration episteme pins predicate-like criteria, dependencies, and reference scheme; judgments are replayable under exact editions.
+**Cues.** A reusable `KindSignature` declaration episteme pins predicate-like criteria, dependencies, and reference scheme; judgments are replayable under editions.
 
 **Non-example.** An informal cohort or role cue does not become K2 merely because it is stored in a schema.
 

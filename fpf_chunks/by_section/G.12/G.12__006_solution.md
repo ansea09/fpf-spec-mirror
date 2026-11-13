@@ -6,12 +6,12 @@ section_id: "G.12:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.12/G.12__006_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.12 — DHC Dashboards (Discipline-Health Time Series and Views)"
   - "G.12:4 — Solution"
-line_start: 132584
-line_end: 132753
+line_start: 140709
+line_end: 140873
 dependencies:
   - "A.19"
   - "A.2.6"
@@ -53,20 +53,15 @@ keywords:
 
 #### G.12:4.0 — G.Core linkage
 
-This pattern consumes G.Core obligations only for the branches actually opened.
+This pattern consumes G.Core obligations only for the branches opened.
 
 **GCoreLinkageManifest (G.12)**
 
-* `CoreConformanceProfileIds` := {
-  `GCoreConformanceProfileId.PartG.AuthoringBase`,
-  `GCoreConformanceProfileId.PartG.TriStateGuard`,
-  `GCoreConformanceProfileId.PartG.UTSWhenPublicIdsMinted`,
-  `GCoreConformanceProfileId.PartG.ShippingBoundary`
-  }.
-* `RSCRTriggerSetIds` := {`GCoreTriggerSetId.BridgeCalibrationKit`} only when crossing or refresh wiring is used.
-* `RSCRTriggerKindIds` := {`RSCRTriggerKindId.LegalitySurfaceEdit`} only when a persisted series or view depends on that surface. Optional panels add only their own declared trigger kinds.
+* `CoreConformanceProfileIds` := `{GCoreConformanceProfileId.PartG.AuthoringBase, GCoreConformanceProfileId.PartG.TriStateGuard, GCoreConformanceProfileId.PartG.UTSWhenPublicIdsMinted, GCoreConformanceProfileId.PartG.ShippingBoundary}`.
+* `RSCRTriggerSetIds` := `{GCoreTriggerSetId.BridgeCalibrationKit}` only when crossing or refresh wiring is used.
+* `RSCRTriggerKindIds` := `{RSCRTriggerKindId.LegalitySurfaceEdit}` only when a persisted series or view depends on that surface. Optional panels add only their own declared trigger kinds.
 * `DefaultsConsumed` := `∅`; portfolio defaults become current only through `G.12:Ext.PortfolioTelemetry`.
-* `CorePinSetIds` := {`GCorePinSetId.PartG.AuthoringMinimal`, `GCorePinSetId.PartG.CrossingVisibilityPins`} with nil-elision.
+* `CorePinSetIds` := `{GCorePinSetId.PartG.AuthoringMinimal, GCorePinSetId.PartG.CrossingVisibilityPins}` with nil-elision.
 
 The minimal durable series basis is `DHCSeriesRef.edition`, `DisciplineRef`, `IntendedUse`, `ClaimScopeRef`, exact coordinate-result refs, and their windows. Each coordinate resolves the complete `DHCReplayBasis` from C.21. `PathSliceId[]`, crossing pins, public-name rows, shipping pins, publication refs, and telemetry pins are conditional.
 
@@ -75,9 +70,9 @@ The minimal durable series basis is `DHCSeriesRef.edition`, `DisciplineRef`, `In
 | Local name | Exact object | Boundary |
 | --- | --- | --- |
 | `DHCCoordinateResultRef` | Ref to one persisted C.21/C.16 coordinate-result episteme and its active C.21 replay basis. | It is not a row, series, evidence path, or acceptance decision. |
-| `DHCSeries` | One C.2.1 episteme whose EntityOfConcern is the discipline and whose ClaimGraph orders coordinate-result refs by explicit windows under one intended use, ClaimScope, and comparison basis. | It is not a public U-kind, publication occurrence, dashboard, carrier, or Work. |
-| `DHCRow` | One representation element showing an exact coordinate-result ref and selected readable fields. | It does not compute, establish, or replace the result. |
-| `DashboardSlice` | A dashboard representation or grouping over exact row, result, or series refs; use C.29 when an unresolved mathematical representation or transfer question matters to the dashboard use. | It adds no comparison, normalization, acceptance, or selection semantics. |
+| `DHCSeries` | One C.2.1 episteme whose EntityOfConcern is the discipline and whose ClaimGraph orders coordinate-result refs by their stated windows under one intended use, ClaimScope, and comparison basis. | It is not a public U-kind, publication occurrence, dashboard, carrier, or Work. |
+| `DHCRow` | One representation element showing the reference to the coordinate result and selected readable fields. | It does not compute, establish, or replace the result. |
+| `DashboardSlice` | A dashboard representation or grouping over references to the rows, results or series. Use C.29 when an unresolved mathematical representation or transfer question matters to the dashboard use. | It adds no comparison, normalization, acceptance, or selection semantics. |
 | `DHCTelemetryPin` | A G.11-facing refresh payload with a canonical trigger, exact affected scope, and changed definition, window, evidence, or policy pins. | It is not evidence, currentness, an edition relation, or refresh Work. |
 | dashboard publication | An E.24.PUB occurrence for one exact selected episteme edition expressed by the dashboard form, with its audience, bounded use, carrier, and availability interval. The selected edition may be a series, a coordinate result, or a view independently constituted as a C.2.1 episteme. | A view element, UTS row, rendering, upload, or release label does not supply episteme identity or make publication obtain. |
 
@@ -117,29 +112,29 @@ DashboardSlice := <
 >
 ```
 
-`TargetSliceRef` is present only when the series construction or publication consumes an A.2.6 selection. The ClaimGraph must then state how each selected slice belongs to or is covered by the authoritative `ClaimScope`. A changing time window is not silently encoded as “latest.”
+`TargetSliceRef` is present only when the series construction or publication consumes an A.2.6 selection. The ClaimGraph must then state how each selected slice belongs to or is covered by the authoritative `ClaimScope`. Identify changes to the time window. Do not silently substitute “latest.”
 
 #### G.12:4.2 — Method of obtaining the result
 
 **Stage A — Select what the view is about**
 
-1. **Start from exact results.** Select persisted C.21 coordinate-result refs for one already identified discipline.
-2. **Fix use, scope, and windows.** Name IntendedUse and ClaimScope. Add a `TargetSliceRef` only when the computation or publication really consumes it, and state its relation to the scope.
-3. **Check replay identity.** For every coordinate, resolve the C.21 `DHCReplayBasis`: Characteristic, Scale, Unit when current, `DHCMethodRef.edition`, exact Method, MethodDescription edition when used, model or calibration pins when used, time or population basis, and any active distance or definition-set edition.
-4. **Choose the comparison branch.** Directly comparable C.16 readings need no Bridge. Actual distinct-local-sense use cites the obtaining F.9 relation, observed loss, and a separate affirmative bounded-use claim naming direction, use rule, and loss tolerance, with the current supporting reliance required by F.9. Add reference-plane routing only when a real plane crossing is used; cite its exact basis, and assess any numerical assurance consequence under the applicable B.3 model for the named use.
-5. **Open optional panels only when used.** Portfolio, QD, open-ended, maturity, SoTA, shipping, and advanced-view fields appear only through their extension blocks.
+1. **Select the coordinate results.** Use persisted C.21 coordinate-result refs for one already identified discipline.
+2. **Fix use, scope, and windows.** Name IntendedUse and ClaimScope. Add a `TargetSliceRef` only when the computation or publication consumes it, and state its relation to the scope.
+3. **Check replay identity.** For every coordinate, resolve the C.21 `DHCReplayBasis`: Characteristic, Scale, Unit when current, `DHCMethodRef.edition`, the Method used, MethodDescription edition when used, model or calibration pins when used, time or population basis, and any active distance or definition-set edition.
+4. **Choose the comparison branch.** Directly comparable C.16 readings need no Bridge. When the comparison uses a relation between distinct local senses, cite the obtaining F.9 relation, observed loss, and a separate affirmative bounded-use claim naming direction, use rule, and loss tolerance, with the current supporting reliance required by F.9. Add reference-plane routing only when the use crosses reference planes; cite its exact basis, and assess any numerical assurance consequence under the applicable B.3 model for the named use.
+5. **Choose panels for the receiving use.** Portfolio, QD, open-ended, maturity, SoTA, shipping, and advanced-view fields appear only through their extension blocks.
 
 **Stage B — Construct or update content**
 
-1. When new coordinates are required, obtain their C.16 measurement results and coordinate-result epistemes with the active C.21 replay basis. Identify the exact Method and dated measurement Work, and the MethodDescription, model, and calibration basis required for that measurement use. Keep these objects separate; G.12 creates none of them from a row.
-2. When the receiving use needs one series episteme, assemble or revise the `DHCSeries` ClaimGraph from exact coordinate-result refs and windows. Otherwise construct the local view directly over those result refs. Series assembly may be dated Work; its resulting episteme remains separate from the Work or work record.
-3. Apply A.18 and any exact A.19/G.0 comparison, normalization, distance, or aggregation rule actually used. Nominal and ordinal values remain non-arithmetic unless an explicit lawful transformation creates another Scale.
+1. When new coordinates are required, obtain their C.16 measurement results and coordinate-result epistemes with the active C.21 replay basis. Identify the Method used and the dated measurement Work, and the MethodDescription, model, and calibration basis required for that measurement use. Keep these objects separate. G.12 creates none of them from a dashboard row.
+2. When the receiving use needs one series episteme, assemble or revise the `DHCSeries` ClaimGraph from exact coordinate-result refs and windows. If a series episteme is unnecessary, construct the local view over the result refs. Series assembly may be dated Work; its resulting episteme remains separate from the Work or work record.
+3. Apply A.18 and the A.19/G.0 rules used for comparison, normalization, distance or aggregation. Nominal and ordinal values remain non-arithmetic unless an explicit lawful transformation creates another Scale.
 4. Construct `DHCRow` and `DashboardSlice` representations. They may omit fields for readability only when every displayed claim still resolves its exact result and replay basis.
 
 **Stage C — Publish or refresh only when required**
 
 1. If public designators are needed, use F.18 for names of already constituted series or views. A name row is not publication.
-2. If an audience must be able to obtain a selected episteme edition, establish E.24.PUB with that exact edition, audience, bounded use, dashboard form, carrier, and interval. If the view itself is the selected episteme, recover its independent C.2.1 identity. Otherwise a view over several source epistemes identifies each selected edition and its publication occurrence. Construct a series episteme only when the receiving use needs that additional ordered account.
+2. If an audience must be able to obtain a selected episteme edition, establish E.24.PUB with that exact edition, audience, bounded use, dashboard form, carrier, and interval. If the view itself is the selected episteme, recover its independent C.2.1 identity. Otherwise, if the view presents several source epistemes, identify each selected edition and its publication occurrence. Construct a series episteme only when the receiving use needs that additional ordered account.
 3. If changed definitions, windows, evidence paths, crossing bases, or policies must trigger selective maintenance, emit G.11 telemetry pins naming the affected result or series slice. Otherwise stop without refresh wiring.
 
 #### G.12:4.9 — Optional Extensions
@@ -154,7 +149,7 @@ DashboardSlice := <
 * `PatternScopeId`: `G.12:Ext.SoTAPalette`
 * `GPatternExtensionKind`: `InteropSpecific`
 * `GoverningPatternId`: `G.2`
-* Optional pins: `SoTA_PackRef.edition?`, exact F.17 cell refs, and obtaining F.9 relation refs when alignment is actually displayed.
+* Optional pins: `SoTA_PackRef.edition?`, exact F.17 cell refs, and obtaining F.9 relation refs when alignment is displayed.
 * No additional trigger kind by default.
 
 
@@ -209,7 +204,7 @@ DashboardSlice := <
 * `PatternScopeId`: `G.12:Ext.PackInclusion`
 * `GPatternExtensionKind`: `InteropSpecific`
 * `GoverningPatternId`: `G.10`
-* Conditional values: exact pack ref, selected `DHCSeriesRef.edition` or `DashboardSliceRef`, and the replay or shipping pins the included claims actually require.
+* Conditional values: exact pack ref, selected `DHCSeriesRef.edition` or `DashboardSliceRef`, and the replay or shipping pins required by the included claims.
 * G.10 governs shipping; this extension only identifies what is included.
 
 

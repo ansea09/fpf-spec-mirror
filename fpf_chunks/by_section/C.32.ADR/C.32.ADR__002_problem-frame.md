@@ -6,12 +6,12 @@ section_id: "C.32.ADR:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ADR/C.32.ADR__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.32.ADR — Architecture Decision Record Projection"
   - "C.32.ADR:1 — Problem frame"
-line_start: 80150
-line_end: 80212
+line_start: 83979
+line_end: 84041
 dependencies:
   - "A.10"
   - "A.15"
@@ -64,15 +64,15 @@ The primary `EntityOfConcern` is `ArchitectureDecisionRecordProjection@Project`:
 
 `ArchitectureDecisionRecordProjection@Project` is not a new `U.*` kind and not a new root publication ontology. It publishes a project decision description for the declared reader use. Use `E.24.PUB` for actual publication and `E.17` when a source-backed face and source return are needed; use `C.32.PAD` for the decision relation.
 
-What goes wrong if C.32.ADR is missed: the project either publishes a record-shaped text that hides the actual architecture decision, or it copies architecture descriptions, diagrams, and method material into a record without telling the reader what decision was made and what work must change.
+A project can publish a record-shaped text that hides the actual architecture decision, or copy architecture descriptions, diagrams, and method material into a record without telling the reader what decision was made and what work must change.
 
-What C.32.ADR buys in practice: a decision record can be small, readable, updateable, and still tied to candidate synthesis, selected structures, architecture characteristics, method-use instructions, work split, confirmation evals, and source-return.
+A decision record can be small, readable, updateable, and tied to candidate synthesis, selected structures, architecture characteristics, method-use instructions, work split, confirmation evals, and source-return.
 
 Ordinary working move: start from a PAD decision relation, select the record's publication scope, map each necessary section to the decision content it carries, then publish only what the reader needs to use, check, or reopen the decision.
 
 Adoption test: after using C.32.ADR, a future reader can recover the decision question, considered options, outcome, rationale, consequences, required method or work change, confirmation or eval path, source links, and supersession condition without mistaking the record for the architecture or the decision relation.
 
-Use `C.32.PAD` when the decision content still needs development; drafting its record can support that work without a second artifact. Keep an unresolved proposal visibly proposed. Use the direct subject pattern when the current question is architecture-description adequacy, a general MVPK face, evidence, assurance, gate passage, local choice, performed work or pattern authoring. Use the pattern for the next question named in `Relations`.
+Use `C.32.PAD` when the decision content needs development; drafting its record can support that work without a second artifact. Keep an unresolved proposal visibly proposed. Use the subject pattern when the current question is architecture-description adequacy, a general MVPK face, evidence, assurance, gate passage, local choice, performed work or pattern authoring. Use the pattern for the next question named in `Relations`.
 
 The first useful output is the readable decision record. `ArchitectureDecisionRecordProjection@Project` can organize its content when a structured account is useful; include the fields needed by the declared use:
 
@@ -103,5 +103,5 @@ ArchitectureDecisionRecordProjection@Project:
   publicationUseRefs?
 ```
 
-Here `@Project` is a compatibility and retrieval cue only. It does not make the projection a project, project work, or the architecture decision relation. When this record projection is genuinely local to one actual project, `projectWorkOccurrenceRef` identifies the exact composite `U.Work`, while `architectureDecisionRecordProjectUseRelationRef` identifies the direct relation by which the record is published for, relied on by, or otherwise used in that work under the corresponding subject pattern. The decision relation, its description, the publication projection, any publication occurrence, and the composite project work remain separately identifiable.
+Here `@Project` is a compatibility and retrieval cue only. It does not make the projection a project, project work, or the architecture decision relation. When this record projection is local to one project, `projectWorkOccurrenceRef` identifies the exact composite `U.Work`, while `architectureDecisionRecordProjectUseRelationRef` identifies the direct relation by which the record is published for, relied on by, or otherwise used in that work under the corresponding subject pattern. The decision relation, its description, the publication projection, any publication occurrence, and the composite project work remain separately identifiable.
 

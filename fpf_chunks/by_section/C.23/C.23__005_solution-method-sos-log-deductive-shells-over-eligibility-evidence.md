@@ -6,12 +6,12 @@ section_id: "C.23:4"
 section_title: "Solution — Method‑SoS‑LOG: deductive shells over Eligibility & Evidence"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.23/C.23__005_solution-method-sos-log-deductive-shells-over-eligibility-evidence.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.23 — MethodFamily Evidence & Maturity (Method‑SoS‑LOG)"
   - "C.23:4 — Solution — Method‑SoS‑LOG: deductive shells over Eligibility & Evidence"
-line_start: 64382
-line_end: 64489
+line_start: 67141
+line_end: 67302
 dependencies:
   - "A.10"
   - "B.3"
@@ -42,7 +42,13 @@ keywords:
 
 #### C.23:4.1 - Objects & heads (LEX/I‑D‑S)
 
-**`MethodFamily`** (registered in G.5) carries **Eligibility** and artefact identity; **`MaturityCard`** (this pattern) carries evidence‑aware maturity; **`SoS‑LOG.Rule`** (this pattern) is an executable rule schema; evaluating a rule returns one of `{Admit | Degrade(mode) | Abstain}` for a `(TaskSignature, MethodFamily)` pair. A qualifying description episteme uses `…Description`; `…Spec` names that same episteme only after the E.10.D2 specification-use gate grants the named use.
+- **`MethodFamily`** (registered in G.5) carries **Eligibility** and artefact identity.
+- **`MaturityCard`** (this pattern) carries evidence‑aware maturity.
+- **`SoS‑LOG.Rule`** (this pattern) is an executable rule schema.
+
+Evaluating a rule returns one of `{Admit | Degrade(mode) | Abstain}` for a `(TaskSignature, MethodFamily)` pair.
+
+A qualifying description episteme uses `…Description`; `…Spec` names that same episteme only after the E.10.D2 specification-use gate grants the named use.
 
 #### C.23:4.2 - Rule schema (normative)
 
@@ -55,40 +61,71 @@ LOG.Deduce_f(TaskSignature S2) → {Admit | Degrade(mode) | Abstain}
 with the following **branch obligations**:
 
 **R0 — CG-Spec gate (precondition).** For the exact G.5 registry row and `MethodFamily`, verify the cited `CG-Spec.MinimalEvidence` and EvidenceProfile for every CHR characteristic used by the family's acceptance clauses and flows, under the declared claim scope and selected slices, qualification window, and intended selector use. Failure ⇒ `Abstain` with reasons. Publish the consulted CG-Spec, EvidenceProfile, registry, and policy editions.
-*Rationale:* selector legality requires the CG‑Spec gate to be explicit, not implicit in prose. Publish associated **ReferencePlane** notes alongside the consulted ids.
+*Rationale:* selector legality requires an explicit CG‑Spec gate. Publish associated **ReferencePlane** notes alongside the consulted ids.
 
-**R0.QD — QD pre-gates (when QD is used).** Apply these gates when the TaskSignature enables a QD search or QD illumination use, including an open-ended generator that actually uses QD. Resolve that use and its fields under C.22:5.1. Retaining evidence under `PortfolioMode=Archive` or emitting a set of alternatives does not activate this branch. For the active QD use, verify:
-(i) **CharacteristicSpaceRef** resolves to the CHR-typed coordinates and dimension required by the declared descriptor and comparison rules, with ReferencePlane wherever interpretation or the receiving contract requires it;
-(ii) **ArchiveConfig** is lawful (topology, resolution, **K**>0, `InsertionPolicyRef`, `DistanceDef` with **edition id** and declared metric/pseudometric status);
-(iii) **EmitterPolicyRef** present (with **edition id**);
- (iv) resolve **DominanceRegime**; if absent, use **default= ParetoOnly**.
- Failure of any ⇒ `Abstain` with reasons.
+**R0.QD — QD pre-gates (when QD is used).** Apply these gates when the TaskSignature enables a QD search or QD illumination use, including an open-ended generator that uses QD. Resolve that use and its fields under C.22:5.1. Retaining evidence under `PortfolioMode=Archive` or emitting a set of alternatives does not activate this branch. For the active QD use, verify:
+
+- (i) **CharacteristicSpaceRef** resolves to the CHR-typed coordinates and dimension required by the declared descriptor and comparison rules, with ReferencePlane wherever interpretation or the receiving contract requires it;
+- (ii) **ArchiveConfig** is lawful (topology, resolution, **K**>0, `InsertionPolicyRef`, `DistanceDef` with **edition id** and declared metric/pseudometric status);
+- (iii) **EmitterPolicyRef** present (with **edition id**);
+- (iv) resolve **DominanceRegime**; if absent, use **default= ParetoOnly**.
+
+Failure of any ⇒ `Abstain` with reasons.
 
 **R1 — Admit.** `Admit` **IFF**
-(a) S2 satisfies **Eligibility** predicates of *f* (tri‑state aware),
-(b) the exact **EvidenceProfile minima** referenced by Acceptance/Flows for *f* are met for the declared claim scope and selected slices, qualification window, and intended selector use (post R0),
-(c) all relevant **CAL.AcceptanceClauses** (G.4) evaluate to true under lawful CHR comparisons,
-(d) any **maturity gating** (e.g., a floor on Maturity rungs) is expressed as an **AcceptanceClause** and referenced here by id (no acceptance thresholds inside LOG).
+
+- (a) S2 satisfies **Eligibility** predicates of *f* (tri‑state aware),
+- (b) the exact **EvidenceProfile minima** referenced by Acceptance/Flows for *f* are met for the declared claim scope and selected slices, qualification window, and intended selector use (post R0),
+- (c) all relevant **CAL.AcceptanceClauses** (G.4) evaluate to true under lawful CHR comparisons,
+- (d) any **maturity gating** (e.g., a floor on Maturity rungs) is expressed as an **AcceptanceClause** and referenced here by id (no acceptance thresholds inside LOG).
+
 *LOG never sets acceptance thresholds; its rules use and cite Acceptance verdicts.*
 
-**R2 — Degrade.** Apply R0 and, when applicable, R0.QD before any degrade branch, including U2, U3, and R7. Failure returns `Abstain` for the attempted use. After those gates pass, return `Degrade(mode)` only through a declared family branch when an admitted unknown or an unmet acceptance condition permits a narrower scope or execution mode under the applicable CAL failure behavior; `mode ∈ {scope-narrow | sandbox | probe-only}`. An eligibility violation still requires R3 abstention. Record the exact S2 unknowns or unmet conditions, narrowed claim scope or execution mode, qualification window, governing policy edition, and result. If the branch changes the intended use, re-evaluate R0 and eligibility for that bounded use before relying on it. LOG-Degrade never changes CHR scales or planes or turns a failed CAL verdict into a pass.
+**R2 — Degrade.** Apply R0 and, when applicable, R0.QD before any degrade branch, including U2, U3, and R7. Failure returns `Abstain` for the attempted use.
+
+After those gates pass, return `Degrade(mode)` only through a declared family branch when an admitted unknown or an unmet acceptance condition permits a narrower scope or execution mode under the applicable CAL failure behavior; `mode ∈ {scope-narrow | sandbox | probe-only}`. An eligibility violation still requires R3 abstention.
+
+Record the exact S2 unknowns or unmet conditions, narrowed claim scope or execution mode, qualification window, governing policy edition, and result. If the branch changes the intended use, re-evaluate R0 and eligibility for that bounded use before relying on it. LOG-Degrade never changes CHR scales or planes or turns a failed CAL verdict into a pass.
+
 **Note (CAL vs LOG).** CAL‑level **`degrade.order`** (fall‑back to order‑only comparisons) is governed by **G.4**/**CG‑Spec** and is **not** a LOG mode. **SoS‑LOG never overrides CAL outcomes**; a LOG branch **only narrows** `Scope(G)` or **execution mode** (e.g., `sandbox`, `probe‑only`), it **does not** alter CHR scales or admissible orders.
+
 `probe-only` MUST cite the applicable probe-budget and Acceptance-bound guards. Cite an E/E-LOG policy when that policy governs exploration over a still-live pool.
 
 **R3 — Abstain.** If S2 violates **Eligibility** or R0 fails, return `Abstain` with the failed rule, reasons, and available policy, evidence-profile, scope, and qualification-window basis. Report missing references and unperformed judgements under §4.2.1. Abstain is mandatory for illegal CHR operations and when a conclusion depends on an F.9 Bridge, kind relation, or plane relation that has not been established.
 
-**R4 — Relation and loss routing.** Cite an F.9 Bridge, kind relation, or plane relation only when the admission decision actually relies on that obtaining relation. Record its participants, direction, what meaning is preserved and what is lost, receiving use, and applicable policy edition. When the admission use makes a separate named assurance claim, identify its exact target claim and receiving use under B.3. Assess loss under the receiving-use rule. A numerical assurance penalty requires an applicable domain model under B.3:4.3–4.4 and affects that model's declared assurance result. Expression properties, claim scope and admission conditions retain their own governing rules. A changed registry row, evidence profile, claim scope, qualification window, or intended use is not by itself a crossing.
+**R4 — Relation and loss routing.** Cite an F.9 Bridge, kind relation, or plane relation only when the admission decision relies on that obtaining relation. Record its participants, direction, what meaning is preserved and what is lost, receiving use, and applicable policy edition.
 
-**R5 — Proof hooks.** Every branch **MUST** retain its **A.10 evidence/source basis** for the conclusion it makes. For an early `Abstain`, cite the available basis for the failed prerequisite and name the required evidence that could not be recovered. Evidence used by a branch retains the lane tags (TA/VA/LA) and freshness windows required by its CG-Spec.MinimalEvidence and EvidenceProfile; missing requirements remain explicit gaps under §4.2.1. Cite **Bridge ids + loss notes** when the branch relies on a Bridge; the decision is **SCR‑visible**. When **G.6 EvidenceGraph** is present, also **publish EvidenceGraph path id(s)** for the branch (admit/degrade/abstain). **A branch verdict is not its own evidence basis**.
+When the admission use makes a separate named assurance claim, identify its exact target claim and receiving use under B.3.
 
-**R6 — Retention, source and selector outcome.** Resolve `PortfolioMode` under G.5 `CC-G5.23`; it governs retention of exploration evidence. After `Admit`, a QD archive may supply candidates to G.5, but the archive remains a source. The emitted outcome follows G.5:4.4b–4.4e, with its result family when applicable, exact members, ordering and basis. Retaining an archive supplies neither a new result family nor a QD requirement. When illumination telemetry is used, it remains report-only unless **CAL** authorises `DominanceRegime=ParetoPlusIllumination` and the **policy id** is recorded in SCR; coverage and regret likewise remain reported telemetry unless their governing policy promotes them.
+Assess loss under the receiving-use rule. A numerical assurance penalty requires an applicable domain model under B.3:4.3–4.4 and affects that model's declared assurance result. Expression properties, claim scope and admission conditions retain their own governing rules.
+
+A changed registry row, evidence profile, claim scope, qualification window, or intended use is not by itself a crossing.
+
+**R5 — Proof hooks.** Every branch **MUST** retain its **A.10 evidence/source basis** for the conclusion it makes. For an early `Abstain`, cite the available basis for the failed prerequisite and name the required evidence that could not be recovered.
+
+Evidence used by a branch retains the lane tags (TA/VA/LA) and freshness windows required by its CG-Spec.MinimalEvidence and EvidenceProfile; missing requirements remain explicit gaps under §4.2.1.
+
+Cite **Bridge ids + loss notes** when the branch relies on a Bridge; the decision is **SCR‑visible**. When **G.6 EvidenceGraph** is present, also **publish EvidenceGraph path id(s)** for the branch (admit/degrade/abstain). **A branch verdict is not its own evidence basis**.
+
+**R6 — Retention, source and selector outcome.** Resolve `PortfolioMode` under G.5 `CC-G5.23`; it governs retention of exploration evidence. After `Admit`, a QD archive may supply candidates to G.5, but the archive remains a source. The emitted outcome follows G.5:4.4b–4.4e, with its result family when applicable, exact members, ordering and basis. Retaining an archive supplies neither a new result family nor a QD requirement.
+
+When illumination telemetry is used, it remains report-only unless **CAL** authorises `DominanceRegime=ParetoPlusIllumination` and the **policy id** is recorded in SCR; coverage and regret likewise remain reported telemetry unless their governing policy promotes them.
 
 **R7 — GeneratorFamily branches (open‑ended).** If S2 includes `GeneratorIntent`, SoS‑LOG **MUST**:
- (i) verify **`EnvironmentValidityRegion`** is declared and lawful;
- (ii) verify **`TransferRulesRef`** exists; if `unknown` ⇒ `Degrade(scope‑narrow)` or `Abstain` per family policy;
- (iii) treat the selection surface as **pairs `{environment, method}`**; publish **coverage and regret** under their declared telemetry policies. When the active branch or receiving use requires **IlluminationSummary**, obtain that retained-set report under C.17:5.1 with its `Diversity_P` measurement policy, Scale, descriptor or feature basis, and distance or covering definition. Generation alone requires no illumination report. These results remain report-only unless their governing policy promotes them under **R6**.
 
-**R8 — Telemetry and refresh hooks.** When an active QD or open-ended generator branch records an illumination increase or changes its search archive, publish the current editions and actual edition increments of the definitions on which the changed use depends. For QD, these include its characteristic space, descriptor map, distance, insertion and emitter policies under R0.QD and C.22. For open-ended generation, retain **`TransferRulesRef.edition`** and the applicable validity and telemetry policy ids; add QD definitions only when that branch uses QD. A separate illumination report retains the measurement basis required by C.17:5.1. Ordinary retention of selection evidence follows its own retention and source references; it does not require QD definitions. Expose **PathSliceId** for refresh or decay in SCR only when an E.18 path slice is current.
+- (i) verify **`EnvironmentValidityRegion`** is declared and lawful;
+- (ii) verify **`TransferRulesRef`** exists; if `unknown` ⇒ `Degrade(scope‑narrow)` or `Abstain` per family policy;
+- (iii) treat the selection surface as **pairs `{environment, method}`**; publish **coverage and regret** under their declared telemetry policies. When the active branch or receiving use requires **IlluminationSummary**, obtain that retained-set report under C.17:5.1 with its `Diversity_P` measurement policy, Scale, descriptor or feature basis, and distance or covering definition. Generation alone requires no illumination report. These results remain report-only unless their governing policy promotes them under **R6**.
+
+**R8 — Telemetry and refresh hooks.** When an active QD or open-ended generator branch records an illumination increase or changes its search archive, publish the current editions and actual edition increments of the definitions on which the changed use depends.
+
+For QD, these include its characteristic space, descriptor map, distance, insertion and emitter policies under R0.QD and C.22.
+
+For open-ended generation, retain **`TransferRulesRef.edition`** and the applicable validity and telemetry policy ids; add QD definitions only when that branch uses QD.
+
+A separate illumination report retains the measurement basis required by C.17:5.1.
+
+Ordinary retention of selection evidence follows its own retention and source references; it does not require QD definitions. Expose **PathSliceId** for refresh or decay in SCR only when an E.18 path slice is current.
 
 > Admit on the complete R1 basis. Degrade only through a declared narrower-use branch after its prerequisites pass. Abstain when a prerequisite fails or the policy supplies no permitted branch.
 
@@ -115,7 +152,11 @@ These descriptions qualify report entries; they do not extend the S2 value sets,
 
 #### C.23:4.3 - Maturity ladder (poset, not a scalar; Description, not Spec)
 
-When a maturity judgement is established for an admission use, publish or cite its editioned **`MaturityCardDescription`** for the exact evaluated `MethodFamily`, G.5 registry edition, evidence profile, claim scope and selected slices, qualification window, and intended admission use (UTS enum ids; scale kind = ordinal; reference plane declared). Cite an existing card when its judgement remains applicable. If no applicable judgement is available at an early stop, report that state under §4.2.1 without creating a card or assigning a rung. Do not embed acceptance thresholds here; an admission floor remains a G.4 AcceptanceClause cited by R1.
+When a maturity judgement is established for an admission use, publish or cite its editioned **`MaturityCardDescription`** for the exact evaluated `MethodFamily`, G.5 registry edition, evidence profile, claim scope and selected slices, qualification window, and intended admission use (UTS enum ids; scale kind = ordinal; reference plane declared).
+
+Cite an existing card when its judgement remains applicable. If no applicable judgement is available at an early stop, report that state under §4.2.1 without creating a card or assigning a rung.
+
+Do not embed acceptance thresholds here; an admission floor remains a G.4 AcceptanceClause cited by R1.
 
 * **L0 — Anecdotal.** Claims exist; lanes sparse; examples ad‑hoc.
 * **L1 — Worked‑Examples.** Multiple **worked examples** with lane tags and **Scope slices** declared; *no replication yet*.
@@ -126,9 +167,13 @@ When a maturity judgement is established for an admission use, publish or cite i
 * **L4 — QD‑Hardened.** For an active QD use, establish archive stability under the declared **InsertionPolicy/DistanceDef** editions and reproducible **IlluminationSummary** improvements under controlled budgets. For an OEE generator, establish severe tests of its **EnvironmentValidityRegion**. An OEE use without QD does not acquire QD archive or illumination requirements; retain the exact branch and evidence behind the rung.
 
 **Norms.**
+
 **M1.** The ladder is **lane‑aware** (TA/VA/LA) and **freshness‑aware**; it is **not** a global numeric score. Declare **Scale kind=ordinal** and the **closed enumeration** of rungs; register the enum at **UTS** (twin labels; editioned).
+
 **M2.** Transitions **MUST** be justified by **EvidenceGraph** paths (once G.6 is available) and published at UTS; missing anchors ⇒ no advance.
+
 **M3.** Any maturity floor used for admission—for example, a run-critical selector use requiring at least L2—MUST be authored as a CAL.AcceptanceClause and cited by R1 with its policy edition, claim scope, qualification window, and verdict; SoS-LOG does not embed acceptance thresholds.
+
 **M4.** Declare the MaturityCard reference plane. If an admission decision relies on a relation to another plane, cite that exact obtaining plane relation, its direction and loss, and the applicable policy edition; any loss assessment or assurance penalty follows R4.
 
 > *Rationale note.* Treating maturity as a **poset** aligns with B.3's requirement for lawful comparisons and avoids **scalarisation across ordinal/ratio** scales; assurance calculations follow R4; maturity and admission retain their separate rules.
@@ -136,13 +181,22 @@ When a maturity judgement is established for an admission use, publish or cite i
 #### C.23:4.4 - Unknowns & Shift classes (tri‑state discipline)
 
 **U1. (LEX).** Enumerations for `Degrade(mode)` and Maturity rungs **MUST** be declared as **closed value sets** and **registered at UTS** (twin labels). **Lexical SD** (**E.10**) applies.
-**U2.** A live S2 characteristic or predicate admits `unknown` only when its C.22 value rule permits it; `unknown` **MUST** map to a branch (`Degrade` or `Abstain`) declared on the **family** (no coercions). Each branch publishes a **branch‑id** and (where used) a `mode` from a **closed enum** registered at **UTS** (LEX enum clarity).
+
+**U2.** A live S2 characteristic or predicate admits `unknown` only when its C.22 value rule permits it; `unknown` **MUST** map to a branch (`Degrade` or `Abstain`) declared on the **family** (no coercions). Each branch publishes a **branch‑id** and (where used) a `mode` from a **closed enum** registered at **UTS**.
+
 **U3.** `ShiftClass` semantics follow **C.22**. For a known `ShiftClass ∈ {covariate‑shift, concept‑drift, adversarial}`, the default is `Degrade(scope‑narrow)` unless a CAL.AcceptanceClause explicitly guards the regime. A live `unknown` follows U2 and its declared Degrade or Abstain branch. All these branches remain subject to R0, applicable R0.QD and R2/R3.
 
 #### C.23:4.5 - Publication & wiring
 
-**W1.** Register the SoS-LOG rule ids. Publish or cite a `MaturityCardDescription` for an established maturity judgement under §4.3; use §4.2.1 when an early stop leaves that judgement unavailable. RSCR tests cover `Admit`, `Degrade`, `Abstain`, and unknown paths, including early reports with missing bases or unperformed judgements. Relation and loss-policy ids appear only where a branch actually relies on them.
-**W2. Admissibility Ledger.** Publish an editioned `AdmissibilityLedger`. Each selector-facing row identifies the exact `MethodFamilyId`, G.5 registry edition, TaskSignature, RuleId and rule edition, intended admission use, claim scope, qualification window, decisive branch, and decision result. Record its MaturityRung, EvidenceProfile, AcceptanceClause and policy references, verdicts, evidence paths, DominanceRegime, and PortfolioMode according to §4.2.1: retain established or applicable reused values and explain any required but unresolved reference or unperformed judgement. An explanation of a missing or unperformed result accompanies its unfilled value position; it is not a substitute verdict or rung. Include obtaining relation and loss-policy ids only when actually used, and G.6 path ids under R5's condition. UTS registers the row vocabulary; the ledger records the admission result and its basis.
+**W1.** Register the SoS-LOG rule ids. Publish or cite a `MaturityCardDescription` for an established maturity judgement under §4.3; use §4.2.1 when an early stop leaves that judgement unavailable. RSCR tests cover `Admit`, `Degrade`, `Abstain`, and unknown paths, including early reports with missing bases or unperformed judgements. Relation and loss-policy ids appear only where a branch relies on them.
+
+**W2. Admissibility Ledger.** Publish an editioned `AdmissibilityLedger`. Each selector-facing row identifies the exact `MethodFamilyId`, G.5 registry edition, TaskSignature, RuleId and rule edition, intended admission use, claim scope, qualification window, decisive branch, and decision result.
+
+Record its MaturityRung, EvidenceProfile, AcceptanceClause and policy references, verdicts, evidence paths, DominanceRegime, and PortfolioMode according to §4.2.1: retain established or applicable reused values and explain any required but unresolved reference or unperformed judgement. An explanation of a missing or unperformed result accompanies its unfilled value position; it is not a substitute verdict or rung.
+
+Include obtaining relation and loss-policy ids only when used, and G.6 path ids under R5's condition. UTS registers the row vocabulary; the ledger records the admission result and its basis.
+
 **W3. Strategy composition.** For a selection composition called a strategy, cite its governing G.5 rule. Cite an E/E-LOG policy when the composition uses that policy over a still-live pool.
+
 **W4.** Selector (G.5) **consumes** these rules; results appear in the **Dispatcher Report** with reasons in/out and cited anchors/bridges.
 

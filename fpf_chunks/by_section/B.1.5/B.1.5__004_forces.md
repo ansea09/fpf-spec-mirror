@@ -6,12 +6,12 @@ section_id: "B.1.5:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5/B.1.5__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.1.5 — Gamma_method - Order-Sensitive Method Composition and Work Enactment"
   - "B.1.5:3 — Forces"
-line_start: 42215
-line_end: 42225
+line_start: 43874
+line_end: 43884
 dependencies:
   - "A.1"
   - "A.15"
@@ -61,9 +61,9 @@ keywords:
 
 | Force | Tension |
 | --- | --- |
-| Method reuse vs source concreteness | Teams need a reusable way of doing, while sources often show only one description, run, or plan. |
+| Method reuse vs source examples | Teams need a reusable way of doing, while sources often show only one description, run, or plan. |
 | Order fidelity vs compact modeling | Important sequences and joins must remain explicit without turning every diagram edge into ontology. |
-| Order vs simultaneous contribution | A real first–then condition must survive, while Methods that contribute together must not be invented as stages merely because they are described in sequence. |
+| Order vs simultaneous contribution | A first–then condition must survive, while Methods that contribute together must not be invented as stages merely because they are described in sequence. |
 | Whole-method identity vs relation usefulness | Some method-side relations are useful without asserting one composite method whole. |
 | Interface exposure vs encapsulation | A composite method must state which interactions callers may rely on and which remain internal. |
 | Assurance vs execution | Assurance needs joins, adapters, cutsets, and failure conditions; dated enactment, result, and evidence-use claims stay with their subject patterns. |

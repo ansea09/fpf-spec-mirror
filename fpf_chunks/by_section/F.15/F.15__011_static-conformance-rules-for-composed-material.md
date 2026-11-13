@@ -6,12 +6,12 @@ section_id: "F.15:9"
 section_title: "Static conformance rules for composed material"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__011_static-conformance-rules-for-composed-material.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Naming and Semantic Unification"
   - "F.15:9 — Static conformance rules for composed material"
-line_start: 123563
-line_end: 123597
+line_start: 131387
+line_end: 131425
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -58,10 +58,12 @@ keywords:
 ### F.15:9 - Static conformance rules for composed material
 
 **SCR-F15-S7 (`SystemRoleKindDescription` boundary).**
-An F.4 `SystemRoleKindDescription` is one C.2.1 episteme about one exact local system-role kind under one effective ReferenceScheme. It makes the C.3 candidate domain, operative membership condition, intended member/non-member boundary, continuity rule, and current `KindSignature` recoverable. Practice or source provenance may locate the definition but does not identify the kind. The description is not the kind, NameCard, `SchemeSenseCell`, assignment, status, evidence template, method, or work; a cell is cited only when the naming use needs one.
+An F.4 `SystemRoleKindDescription` is one C.2.1 episteme about one exact local system-role kind under one effective ReferenceScheme. It makes the C.3 candidate domain, operative membership condition, intended member/non-member boundary, continuity rule, and current `KindSignature` recoverable.
+
+Practice or source provenance may locate the definition but does not identify the kind. The description is not the kind, NameCard, `SchemeSenseCell`, assignment, status, evidence template, method, or work; a cell is cited only when the naming use needs one.
 
 **SCR-F15-S8 (Name discipline without F.18 duplication).**
-Every candidate or selected name cites the recovered governed value and the pattern containing its defining or constraining rule. Apply the F.14 and F.8 criteria to decide whether naming work continues; use F.18 to form the NameCard and choose designations; use F.17 to constitute an admitted row. In an F.15 check, verify those exact references; do not choose a name.
+Every candidate or selected name cites the recovered governed value and the pattern containing its defining or constraining rule. Apply the F.14 and F.8 criteria to decide whether naming work continues. If the naming use requires a durable settlement, check the NameCard and designations established under F.18. If a term row is claimed, check its admission under F.17. Name selection remains with the naming decision.
 
 **SCR-F15-S9 (F.17 row truth).**
 Each cited row is one exact F.17 `UnifiedTermRow` episteme that records one value, its direct kind, the locator where that kind or value is defined, its NameCard, selected designations, effective scheme, one or more exact `SchemeSenseCell` refs, admitted uses, any grounded blocked uses required by F.19, and reopen condition. One cell is valid when the row use is not cross-local; a row-shaped local note or table position is not a row episteme.
@@ -73,7 +75,9 @@ Each row cell remains an exact SchemeSenseCell. NameCard, local-sense basis rela
 When an existing NameCard or row supports the same governed value and admitted use, reuse it or record the exact F.8 decision that justifies another naming settlement. A new label, table, project, or edition is not a visible value difference.
 
 **SCR-F15-S12 (Actual Bridge before Bridge use).**
-A cited F.9 Bridge has two exact endpoint cells, one exact relation-semantic profile, a currently true kind-defined predicate, and all required dependencies. Its assertion/description episteme and optional Card remain separate. A separate C.2.1 claim states whether that occurrence suits the exact direction, rule, loss tolerance, polarity, and use; A.10 or B.3 separately governs reliance.
+A cited F.9 Bridge has two exact endpoint cells, one exact relation-semantic profile, a currently true kind-defined predicate, and all required dependencies. Its assertion/description episteme and optional Card remain separate.
+
+A separate C.2.1 claim affirms or rejects the proposed use of that Bridge in the stated direction, under the stated correspondence rule and loss tolerance. Use A.10 for ordinary reliance on the claim. Use B.3 when the receiving use needs a named assurance claim.
 
 **SCR-F15-S13 (Cross-local locality).**
 Use F.9 only for different `<ReferenceScheme, LocalSenseClaim>` projections and one named current correspondence use. Same-projection expression reuse stays with designation; different projections do not themselves establish a relation; when no current correspondence use exists, add no Bridge or bounded-use claim.

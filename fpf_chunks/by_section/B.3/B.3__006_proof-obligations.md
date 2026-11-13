@@ -6,12 +6,12 @@ section_id: "B.3:5"
 section_title: "Proof obligations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__006_proof-obligations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.3 — Is This Claim Supported for This Use? — Trust and Assurance Calculus"
   - "B.3:5 — Proof obligations"
-line_start: 45033
-line_end: 45054
+line_start: 46879
+line_end: 46900
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -41,12 +41,12 @@ keywords:
 
 Every positive or narrowed B.3 result:
 
-1. identifies the exact target claim and named assurance use;
-2. cites only basis results and relations that actually bear on that use;
-3. states applicable assumptions and limitations, including any unsupported stronger use relevant to the receiving decision;
+1. identifies the target claim and named assurance use;
+2. cites only basis results and relations that bear on that use;
+3. states assumptions and limitations, including any unsupported stronger use relevant to the receiving decision;
 4. keeps target fact, claim, evidence, assessment, result, record, publication, and later use distinct;
 5. names a reopen condition;
-6. uses the direct domain rule for every safety, permission, access, status, release, responsibility, or controlled-action premise;
+6. uses the domain rule for every safety, permission, access, status, release, responsibility, or controlled-action premise;
 7. avoids aggregation unless its model and assumptions are explicit.
 
 #### B.3:5.2 - Additional obligations for a calculated result
@@ -55,5 +55,5 @@ A calculated result also names every bearer, characteristic, scale, applicable u
 
 #### B.3:5.3 - Additional obligations for replay
 
-A replayable result adds only the Work and performance facts needed by the receiving use. Follow the §4.5 replay route for each assessment Work. Add its Method, application binding, witness, timing fact, or separate F.6 assignment check only when competence, independence, reproducibility, contest, or redress actually depends on that fact. No record field stands in for an obtaining relation.
+A replayable result adds only the Work and performance facts needed by the receiving use. Follow the §4.5 replay route for each assessment Work. Add its Method, application binding, witness, timing fact, or separate F.6 assignment check only when competence, independence, reproducibility, contest, or redress depends on that fact. No record field stands in for an obtaining relation.
 

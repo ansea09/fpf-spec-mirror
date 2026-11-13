@@ -6,12 +6,12 @@ section_id: "B.2.P:5.7"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.P/B.2.P__008_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.2.P — Clarify Emergence and Meta-Holon Transition (MHT) Claims"
   - "B.2.P:5.7 — Bias-Annotation"
-line_start: 43887
-line_end: 43896
+line_start: 45657
+line_end: 45666
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -53,5 +53,5 @@ keywords:
 | Collection-agency bias | Collective nouns are separated into membership set, constructed whole, acting collective system, whole-level characteristic bearer, or candidate new holon named by an MHT claim. |
 | Metric-as-whole bias | Identify the characteristic or benchmark and apply its measurement or evaluation rule with the source and correspondence grounds it uses. Open B.2 only when whole identity remains in question. |
 | Math-lens-as-ontology bias | Graph, scale, morphism, benchmark, and MSPD expressions stay mathematical-lens or evaluation material until the in-life EntityOfConcern is recovered. |
-| Source-mnemonic bias | `MET`, `MFT`, `promotion`, and `post*` spellings remain recognition cues until the concrete thing or claim and its direct pattern are named. |
+| Source-mnemonic bias | `MET`, `MFT`, `promotion`, and `post*` spellings remain recognition cues until the thing or claim and its pattern are named. |
 

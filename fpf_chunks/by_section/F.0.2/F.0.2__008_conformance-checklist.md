@@ -6,12 +6,12 @@ section_id: "F.0.2:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2/F.0.2__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.0.2 — Semantic Synthesis across Source Ontologies"
   - "F.0.2:7 — Conformance Checklist"
-line_start: 118156
-line_end: 118168
+line_start: 125746
+line_end: 125758
 dependencies:
   - "A.2.4"
   - "C.2.1"
@@ -40,7 +40,7 @@ keywords:
 - `CC-F0.2-4` Similarity, correspondence, Bridge, framework fit, or `G.2` pack conformance is used as input and not as synthesis truth or permission to merge.
 - `CC-F0.2-5` The result is one provisional synthesis claim, contrast claim or unresolved-inquiry claim whose content, subject, interpretation basis and sources are recoverable. Add a stable local locator when later citation or replay needs it.
 - `CC-F0.2-6` The result answers its receiving content, placement or pattern-allocation question. Keep any decision record required by that use; an absent disposition is not acceptance.
-- `CC-F0.2-7` The result states relied source claims and editions, why each matters, retained differences and limits, and material reopen conditions.
+- `CC-F0.2-7` The result identifies the source claims and editions it relies on, why each matters, retained differences and limits, and material reopen conditions.
 - `CC-F0.2-8` An unresolved-inquiry claim concerns the inquiry state, names what remains usable and the next source action, and does not turn missing evidence into a negative domain claim.
 - `CC-F0.2-9` Domain roles, methods, examples, evidence bases, and refresh lines stay in their subject DPF; the reusable synthesis move remains independent of those DPFs.
 - `CC-F0.2-10` The author stops after the smallest result that answers the receiving question and opens `G.2` or later Part F work only for a named additional use.

@@ -6,12 +6,12 @@ section_id: "A.3.1.MR:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MR/A.3.1.MR__010_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.3.1.MR — Candidate-Method Recovery from Work Evidence"
   - "A.3.1.MR:9 — Consequences"
-line_start: 10000
-line_end: 10009
+line_start: 10397
+line_end: 10406
 dependencies:
   - "A.10"
   - "A.13"
@@ -34,6 +34,6 @@ keywords:
 | Several imperfect sources can support a useful provisional account. | Every account claim must remain traceable to its supporting sources. State the evidence-construction Method and choices when they affect reliance on those sources; retain the event-data requirements of §4.2. |
 | Rival accounts remain visible instead of being averaged into one false subject. | A project may have to carry several candidates until discriminating evidence arrives. |
 | Process mining becomes a well-scoped contribution rather than an ontological shortcut. | Preparation and discovery choices must be exposed when the account relies on them. |
-| Record-only evidence still returns a useful result. | The user must resist promoting a coherent sequence to a Method by form or frequency. |
+| Record-only evidence returns a useful result. | The user must resist promoting a coherent sequence to a Method by form or frequency. |
 | Specialist Method Engineering receives source-traceable candidate accounts. | Complete reconstruction remains a separate, sometimes costly programme. |
 

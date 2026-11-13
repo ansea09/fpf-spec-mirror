@@ -6,12 +6,12 @@ section_id: "B.1.5:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5/B.1.5__010_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.1.5 — Gamma_method - Order-Sensitive Method Composition and Work Enactment"
   - "B.1.5:9 — Consequences"
-line_start: 42514
-line_end: 42519
+line_start: 44220
+line_end: 44225
 dependencies:
   - "A.1"
   - "A.15"
@@ -59,7 +59,7 @@ keywords:
 
 ### B.1.5:9 - Consequences
 
-B.1.5 buys inspectable Method composition without confusing the candidate Method, composition claim, MethodDescription, selected Structure, Work occurrence, resource use, and assurance argument. The practitioner can say which exact Methods are parts, which ordinary whole-forming claims and constraints qualify the candidate as composite, which interactions belong to its boundary, what exact Work enacts it, and where a stronger claim must stop.
+B.1.5 buys inspectable Method composition without confusing the candidate Method, composition claim, MethodDescription, selected Structure, Work occurrence, resource use, and assurance argument. The practitioner can say which Methods are parts, which ordinary whole-forming claims and constraints qualify the candidate as composite, which interactions belong to its boundary, what Work enacts it, and where a stronger claim must stop.
 
-The cost is proportionate explicitness: exact Methods, `methodPartOf` occurrences, whole-forming claim content, order and join conditions, interface decisions, whole semantics, and reidentification must be stated before the composite qualification can be relied on. Ordinary use can stop at readable local claims; reusable definitions, relation kinds, declarations, publication, and assurance are added only when a named receiver needs them.
+The cost is proportionate explicitness: Methods, `methodPartOf` occurrences, whole-forming claim content, order and join conditions, interface decisions, whole semantics, and reidentification must be stated before the composite qualification can be relied on. Ordinary use can stop at local claims; reusable definitions, relation kinds, declarations, publication, and assurance are added only when a named receiver needs them.
 

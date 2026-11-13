@@ -6,18 +6,17 @@ section_id: "C.18.1:13"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18.1/C.18.1__015_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.18.1 — Scaling‑Law Lens Binding (SLL)"
   - "C.18.1:13 — Relations"
-line_start: 61428
-line_end: 61440
+line_start: 63879
+line_end: 63895
 dependencies:
   - "C.16"
   - "C.17"
   - "C.18"
   - "C.19"
-  - "C.24"
   - "G.10"
   - "G.5"
   - "G.9"
@@ -48,9 +47,13 @@ keywords:
 - C.27 may flag: a claim that more review capacity, tool calls, tokens, data, model capacity, parallelism, freedom of action, sprints, or another declared scale variable changes rate, learning, recovery, throughput, stabilization, or improvement.
 - This pattern keeps: scale variable, scale window, scale probes, and elasticity value.
 - Non-admissible use: more scale does not by itself establish linear improvement, and a scale word does not create a C.27 rate-change claim by itself.
-- Neighboring-pattern use: if comparison or benchmark use is current, cite G.9 for parity; if linear improvement is merely assumed, name the scale variable and scale window or state the improvement claim as an assumption.
+- Neighboring-pattern use: for a comparison or benchmark, cite G.9 for parity; if linear improvement is assumed, name the scale variable and scale window or state the improvement claim as an assumption.
 
-**Builds on:** C.16/17/18. **Coordinates with:** C.19 (lenses/policies), **G.5** (set‑returning selector), **G.9** (parity; **ParetoOnly** default; UNM/NormalizationMethod‑based mapping), **G.10** (shipping). Use C.24 only when a fixed action or option needs tool or service call planning; a scale claim about budgets or freedom of action alone does not require that plan.
+**Builds on:** C.16/17/18.
+
+**Coordinates with:** C.19 (lenses/policies), **G.5** (set‑returning selector), **G.9** (parity; **ParetoOnly** default; UNM/NormalizationMethod‑based mapping), **G.10** (shipping).
+
+Use C.24 only when a fixed action or option needs tool or service call planning; a scale claim about budgets or freedom of action alone does not require that plan.
 
 > *Pedagogical cue.* **Say what is scaled, use the probe basis and steer only by the behavior it supports.**
 

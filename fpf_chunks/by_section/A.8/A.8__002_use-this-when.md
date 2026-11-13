@@ -6,21 +6,19 @@ section_id: "A.8:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.8/A.8__002_use-this-when.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.8 — Universal Core Principle: Test a U-Kind Across Domains"
   - "A.8:0 — Use This When"
-line_start: 26408
-line_end: 26432
+line_start: 27394
+line_end: 27418
 dependencies:
   - "A.11"
   - "C.3"
   - "C.3.1"
   - "E.24.UK"
-  - "F.17"
   - "F.18"
   - "F.8"
-  - "F.9"
 keywords:
   - "domain-agnostic"
   - "kernel-level U-kind admission"
@@ -32,7 +30,7 @@ keywords:
 
 Use this pattern when a candidate durable U-kind is proposed as a kernel-level universal primitive rather than as a local concept, C.3 `U.Kind`, direct subject-pattern value, Concept-Set row, slot, relation, record, publication form, or dependent durable value.
 
-**What goes wrong if missed.** A local domain noun enters the kernel as if it were universal, or a genuinely universal primitive is rejected because its domain projections use different words.
+**What goes wrong if missed.** A local domain noun enters the kernel as if it were universal, or a universal primitive is rejected because its domain projections use different words.
 
 **What this buys.** Kernel admission becomes a falsifiable cross-domain claim: the candidate must keep the same abstract contribution across diverse domain families while losses and local differences stay visible.
 
@@ -43,7 +41,7 @@ Typical moments:
 - a new U-kind proposal includes a universal-core claim, or an already admitted kind is being considered for kernel placement;
 - source or draft type wording claims kernel-level status and must be recovered into current U-kind governance.
 
-**Primary EntityOfConcern.** The EntityOfConcern is the universal-core admission claim for one candidate U-kind.
+**Primary EntityOfConcern.** The universal-core admission claim for one candidate U-kind.
 
 **First useful move.** Recover the candidate and its proposed membership or identity rule through `E.24.UK`. If kernel-level status is claimed, test whether it makes the same abstract contribution in at least three foundationally different domain families. Use the applicable accepted admission result for an already admitted kind; a new proposal supplies the shared decision's independently recovered candidate inputs.
 

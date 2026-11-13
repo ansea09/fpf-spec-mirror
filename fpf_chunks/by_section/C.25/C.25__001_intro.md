@@ -6,33 +6,21 @@ section_id: "C.25:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.25/C.25__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.25 — Q-Bundle: Express a Quality Claim as One Characteristic or a Structured Bundle"
   - "C.25:intro — Intro"
-line_start: 64968
-line_end: 64988
+line_start: 67867
+line_end: 67896
 dependencies:
-  - "A.10"
   - "A.15"
-  - "A.16.0"
   - "A.18"
   - "A.2.6"
   - "A.6.1"
   - "B.3"
   - "C.16"
-  - "C.16.P"
   - "C.16.Q"
-  - "C.17"
-  - "C.18"
-  - "C.19"
-  - "C.2.2a"
   - "C.26.3"
-  - "C.33"
-  - "C.34"
-  - "C.35"
-  - "F.9"
-  - "F.9.1"
 keywords:
   - "admissible quality-family use"
   - "characteristic plus scope"
@@ -55,11 +43,20 @@ keywords:
 **Plain-name.** Quality-bundle normal form.
 
 **Builds on.**
-`C.2.1` for the enclosing quality-claim episteme, `A.2.6` for scope algebra, `A.6.1` for operation-declaration references when current, and `C.16` / `A.18` for Characteristic and Scale legality.
-**Coordinates with.**
-`C.17-C.19` for quality-related measurement families, `C.16.P` when characteristic/scale/score wording is not yet recoverable, `A.15` for method, work-plan, or work-occurrence gating, and `C.16.Q` for quality/evaluative-characterization wording before the endpoint is one explicit characteristic, Q-Bundle-shaped claim content, objective, or another governing pattern.
 
-**Use this pattern when.** Use C.25 when an engineering-quality family such as availability, resilience, security or maintainability may be hiding several differently typed contributors and the reader needs one claim that keeps them distinct.
+- `C.2.1` for the enclosing quality-claim episteme;
+- `A.2.6` for scope algebra;
+- `A.6.1` for operation-declaration references when current;
+- `C.16` / `A.18` for Characteristic and Scale legality.
+
+**Coordinates with.**
+
+- `C.17-C.19` for quality-related measurement families;
+- `C.16.P` when characteristic/scale/score wording is not yet recoverable;
+- `A.15` for method, work-plan, or work-occurrence gating;
+- `C.16.Q` for quality/evaluative-characterization wording before the endpoint is one explicit characteristic, Q-Bundle-shaped claim content, objective, or another governing pattern.
+
+**Use this pattern when** an engineering-quality family such as availability, resilience, security or maintainability may be hiding several differently typed contributors and the reader needs one claim that keeps them distinct.
 
 **First useful move.** Ask: *what would make this quality claim false?* If one measure on one declared Scale answers the question, state that one Characteristic and stop. Use Q-Bundle-shaped claim content only when several differently typed contributors—such as a measure and scope, or measures plus a load-bearing window or mechanism—jointly determine the answer.
 

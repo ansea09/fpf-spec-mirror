@@ -6,12 +6,12 @@ section_id: "C.39.QR:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.QR/C.39.QR__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.39.QR — Return Results to the Original Question"
   - "C.39.QR:3 — Forces"
-line_start: 82986
-line_end: 82996
+line_start: 87028
+line_end: 87038
 dependencies:
   - "C.11.DUA"
   - "C.39"
@@ -25,7 +25,7 @@ keywords:
 | Tension | Consequence for the work |
 | --- | --- |
 | Tractable partial work and an encompassing purpose | Give the contribution a bounded question and retain the result it must help obtain. |
-| Useful representation and justified inference | Recover the correspondence and inference rule needed for the particular returned claim. |
+| Useful representation and justified inference | Recover the correspondence and inference rule needed for the returned claim. |
 | Stable commitments and learning during work | Improve the proposed way and expectation while explaining any change to the agreed result. |
 | Independent appraisal and its cost | Recover the original expectation independently where inherited narrowing could affect the judgement; reuse sound grounds. |
 | Missing content and limited resources | Choose the next constructive move by its attainable contribution and full burden. |

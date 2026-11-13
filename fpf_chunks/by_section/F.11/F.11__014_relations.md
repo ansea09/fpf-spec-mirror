@@ -6,12 +6,12 @@ section_id: "F.11:13"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__014_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.11 — Distinguish Method, MethodDescription, Work and Outputs"
   - "F.11:13 — Relations"
-line_start: 122469
-line_end: 122484
+line_start: 130214
+line_end: 130229
 dependencies:
   - "A.13"
   - "A.15"
@@ -55,7 +55,7 @@ keywords:
 
 - **F.4 and F.6:** a local system-role kind, its description, an assignment, and performed-Work attribution remain distinct from Method, MethodDescription, Work, and output.
 - **F.5:** use distinct designations when one source expression hides different subjects. Add a Plain counterpart only when it helps the intended reader and retains the same subject.
-- **F.7 and F.9:** compare exact local claims or F.17 cells and cite F.9 only when a semantic relation actually obtains. A shared heading creates no identity, relation, or use licence.
+- **F.7 and F.9:** compare exact local claims or F.17 cells and cite F.9 only when a semantic relation obtains. A shared heading creates no identity, relation, or use licence.
 
 **Used by.** Part C examples and the A.3, A.15, and B.1.5 method-and-work stack. Every MethodDescription membership judgement, enactment, performed-Work attribution, description use, observation, output, evidence use, or publication claim still uses the pattern that defines or tests it.
 

@@ -6,12 +6,12 @@ section_id: "E.10.D2:14"
 section_title: "SoTA-echoing and source use"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__015_sota-echoing-and-source-use.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:14 — SoTA-echoing and source use"
-line_start: 102652
-line_end: 102662
+line_start: 108446
+line_end: 108456
 dependencies:
   - "A.7"
   - "C.2.1"
@@ -43,5 +43,5 @@ keywords:
 | Current FPF C.2.1, E.17.0, E.24.PUB, A.1.1, A.2.6, A.10/B.3, G.11, and C.29 interfaces | Supply the authoritative local identities and direct-use boundaries for episteme, viewpoint/view, publication, model use, scope, reliance, currentness, and representation. | E.10.D2 consumes those interfaces; it does not mint a rival description ontology or copy every neighbor into one pattern. |
 | Andrei Rodin, [*Univalence and Constructive Identity*](https://arxiv.org/abs/1206.1769) (2012), used as conceptual lineage | The Venus example connects an identity judgment with its empirical grounds. FPF uses its own identity discriminators when comparing labels or presentations. | This conceptual analogy does not establish C.2.1 identity, an obtaining Bridge or admissible substitution; those require their direct FPF grounds. |
 
-Reopen this source-use synthesis when a cited standard changes the practical distinction, or when the current FPF constitution, viewpoint, publication, specification-use, Bridge, or representation interface changes enough that one of the routed decisions above would be stated differently. A newer source matters only when it changes the working decision, not merely because it is newer.
+Reopen this source-use synthesis when a cited standard changes the practical distinction, or when the current FPF constitution, viewpoint, publication, specification-use, Bridge, or representation interface changes enough that one of the routed decisions above would be stated differently. A newer source matters here only when it changes the working decision.
 

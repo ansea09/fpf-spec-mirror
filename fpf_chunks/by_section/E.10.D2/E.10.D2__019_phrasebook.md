@@ -6,12 +6,12 @@ section_id: "E.10.D2:18"
 section_title: "Phrasebook"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__019_phrasebook.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:18 — Phrasebook"
-line_start: 102714
-line_end: 102727
+line_start: 108508
+line_end: 108521
 dependencies:
   - "A.7"
   - "C.2.1"
@@ -44,7 +44,7 @@ keywords:
 | “The PDF is the method.” | “The method-description episteme concerns the identified Method; the PDF carrier provides an expression of that episteme, optionally following reusable publication-form rules.” |
 | “Same label, same thing.” | “Identify each entity under its own identity rule. For epistemes compare ClaimGraph, EntityOfConcern and effective scheme. Use F.9 only when a receiving claim also needs a semantic relation between exact local senses with different interpretation bases; keep the bounded-use claim and reliance separate.” |
 | “Evidence status is a role state.” | “The status claim concerns its exact epistemic or deontic subject; use `SystemRoleAssignmentStateRelation` only for one exact assignment and predicate, or the direct system-state relation for another runtime fact.” |
-| “The source has the approval role.” | “State the exact source-use, evidence-use, assurance-use, gate-use, or publication-use relation. For a claimed Work use, name the exact premise, governed reference, decision-use relation, or A.6.1 operation-argument binding and its actual participants; otherwise return the exact `missing-governor` result. None is a work-facing role assignment by wording.” |
+| “The source has the approval role.” | “State the exact source-use, evidence-use, assurance-use, gate-use, or publication-use relation. For a claimed Work use, name the exact premise, governed reference, decision-use relation, or A.6.1 operation-argument binding and its actual participants. Return `missing-governor` if no direct rule supplies the predicate and participants needed for the claimed use. None is a work-facing role assignment by wording.” |
 | “Fill the description context tuple.” | “Name the receiving use and the exact viewpoint it selects only when that selection changes what the receiver reads or checks; do not create a context tuple.” |
 | “The dashboard approves deployment.” | “An exact publication occurrence may make the architecture-description edition available through a dashboard form borne by a carrier; an exact gate verdict or permission relation is separately required for approval.” |
 

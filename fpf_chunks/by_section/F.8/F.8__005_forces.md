@@ -6,12 +6,12 @@ section_id: "F.8:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__005_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision for a Name"
   - "F.8:3 — Forces"
-line_start: 120792
-line_end: 120803
+line_start: 128446
+line_end: 128457
 dependencies:
   - "A.11"
   - "A.15"
@@ -68,7 +68,7 @@ keywords:
 | Local fit vs reuse | A name may be clear under one ReferenceScheme and unsafe for another use or local sense. |
 | Readability vs hidden ontology | Short names help readers but can hide kind, relation, scope, or occurrence identity. |
 | Familiarity vs neutrality | A source word may be a useful alias without being the selected FPF designation. |
-| Speed vs downstream cost | Quick minting is cheap now and expensive when later patterns must repair it. |
+| Speed vs downstream cost | A name coined in haste costs little to introduce and costs later users more if they have to repair it. |
 | Traceability vs record-first collapse | A result episteme can support replay without becoming the decision occurrence. |
 | Open-world use vs false completeness | No durable name may mean “not needed now”, not “a new U-kind is required”. |
 

@@ -6,12 +6,12 @@ section_id: "C.33:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.33/C.33__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.33 — Assess Structural Information for Architecture Use"
   - "C.33:7 — Conformance checklist"
-line_start: 80811
-line_end: 80821
+line_start: 84652
+line_end: 84662
 dependencies:
   - "A.22"
   - "A.6.3.NAR"

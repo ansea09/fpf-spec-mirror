@@ -6,12 +6,12 @@ section_id: "C.28.MR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28.MR/C.28.MR__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.28.MR — Derive an Intervention Consequence by Mechanism Replacement"
   - "C.28.MR:4 — Solution"
-line_start: 68746
-line_end: 68807
+line_start: 71819
+line_end: 71880
 dependencies:
   - "A.3.3.TR"
   - "B.5.MPC"
@@ -25,7 +25,7 @@ keywords:
 
 **Choose the intervention and question → recover the mechanisms and input law → replace the selected mechanisms → solve the affected relations → obtain the requested consequence → return its interpretation and useful limit.**
 
-These moves form a derivation. A few equations can carry the complete small result.
+These moves form a derivation. A few equations can carry the complete result.
 
 #### C.28.MR:4.1 - Specify what is changed and what is asked
 
@@ -43,13 +43,13 @@ Keep the subject interpretation with the equations. An equation's left-hand side
 
 Preserve common inputs and their dependence. If two disturbances arise from one shared event, retain that event or their joint law when calculating both effects. A simulation must generate one compatible joint input for a case; independent resampling of its components would change the model.
 
-Recover only the mechanisms needed to determine the queried consequence and their relevant conditions. A missing actuator relation may prevent a physical consequence while still allowing a useful comparison inside an explicitly assumed model. State that assumption where the result uses it.
+Recover only the mechanisms needed to determine the queried consequence and their relevant conditions. A missing actuator relation may prevent a physical consequence while allowing a useful comparison inside an assumed model. State that assumption where the result uses it.
 
 #### C.28.MR:4.3 - Construct the modified model
 
 Replace each targeted mechanism by its stated constant or function. Retain the other mechanism functions and the supplied input law. Then let their output values follow from the new inputs to those functions.
 
-For a randomized replacement, give its randomization law and its dependence on existing inputs. An independent randomizer is one possible specification. If the proposed change also alters the environment or population, include that change in the compared model instead of silently treating it as part of a constant intervention.
+For a randomized replacement, give its randomization law and its dependence on existing inputs. An independent randomizer is one possible specification. If the proposed change also alters the environment or population, include that change in the compared model instead of treating it as part of a constant intervention.
 
 Keep a replacement's scope visible in time. In a discrete-time model, identify the affected update steps. In an event-driven model, identify the triggering condition and the state change it initiates. A.3.3.TR helps construct the relevant continuation rule from interactions, events and subject laws when that rule is missing.
 
@@ -59,11 +59,11 @@ For physical interpretation, ask whether the proposed action also changes anothe
 
 For an acyclic model, evaluate the retained and replaced functions in dependency order. For a time-stepped model, propagate from its initial conditions through the selected horizon. For simultaneous equations or continuous dynamics, use the solution method and conditions appropriate to those relations.
 
-Check the transformed relations themselves when a replacement can change existence or select among several solutions. A solver's first returned branch may leave other admitted answers. If all admitted solutions agree on the queried quantity, that agreement can answer the question. If their answers differ, retain the possible answers, derive a useful bound, or expose the condition needed to choose among them. If the model has no relevant solution for inputs the query includes, return that obstruction and repair the model or question.
+Check the transformed relations when a replacement can change existence or select among several solutions. A solver's first returned branch may leave other admitted answers. If all admitted solutions agree on the queried quantity, that agreement can answer the question. If their answers differ, retain the possible answers, derive a useful bound, or expose the condition needed to choose among them. If the model has no relevant solution for inputs the query includes, return that obstruction and repair the model or question.
 
-For probabilistic results, the selected solutions must define the requested random quantity under the input law. Existence of one numerical trace supplies less than a uniquely determined distribution. A general proof is unnecessary when a direct finite calculation settles the present query.
+For probabilistic results, the selected solutions must define the requested random quantity under the input law. Existence of one numerical trace supplies less than a uniquely determined distribution. A general proof is unnecessary when a finite calculation settles the present query.
 
-For a dynamically triggered jump, recover the event-order or flow/jump choice if it changes the result. A model's steady-state solution alone does not determine what happens during a transient. The hybrid-system approach discussed in :11 supplies one treatment with explicit conditions; the subject model still determines which treatment is appropriate.
+For a dynamically triggered jump, recover the event-order or flow/jump choice if it changes the result. A model's steady-state solution alone does not determine what happens during a transient. The hybrid-system approach discussed in :11 supplies one treatment with explicit conditions; the subject model determines which treatment is appropriate.
 
 #### C.28.MR:4.5 - Calculate the consequence under the retained conditions
 

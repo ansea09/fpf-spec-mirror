@@ -6,12 +6,12 @@ section_id: "D.2:7"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.2/D.2__012_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "D.2 — Recognize Ethical Concerns Across Levels and Scopes (Multilevel Ethics)"
   - "D.2:7 — Consequences"
-line_start: 91785
-line_end: 91788
+line_start: 96277
+line_end: 96280
 dependencies:
   - "A.1"
   - "A.15"
@@ -31,5 +31,5 @@ keywords:
 
 ### D.2:7 - Consequences
 
-Making cross-scope concerns explicit lets the practitioner choose the next useful question, such as an ethical conflict, an architectural consequence or a need for audit.
+Making cross-scope concerns explicit lets the practitioner choose the next question, such as an ethical conflict, an architectural consequence or a need for audit.
 

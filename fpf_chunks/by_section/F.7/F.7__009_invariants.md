@@ -6,12 +6,12 @@ section_id: "F.7:8"
 section_title: "Invariants"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.7/F.7__009_invariants.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.7 — Display Source-Local Comparisons in a Concept-Set Table"
   - "F.7:8 — Invariants"
-line_start: 120586
-line_end: 120597
+line_start: 128240
+line_end: 128251
 dependencies:
   - "A.6.9"
   - "B.3"
@@ -39,7 +39,7 @@ keywords:
 
 ### F.7:8 - Invariants
 
-1. **Exact entries.** Every filled source-local cell identifies the exact source and edition and claim, or an exact F.17 cell.
+1. **Exact entries.** Every filled source-local cell identifies the particular source, edition and claim, or the particular F.17 cell.
 2. **No row-created relation.** Co-placement, matching labels, or a shared FPF designation establishes nothing about the entries.
 3. **Direct relation basis.** Every stated relation cites its direct pattern and available evidence; F.9 is conditional, not universal.
 4. **Separate receiving use.** Any conclusion about comparison, substitution, reporting, or reuse is stated and supported separately.

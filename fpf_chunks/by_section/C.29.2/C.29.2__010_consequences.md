@@ -6,12 +6,12 @@ section_id: "C.29.2:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29.2/C.29.2__010_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.29.2 — Computational Formulation"
   - "C.29.2:9 — Consequences"
-line_start: 70688
-line_end: 70693
+line_start: 73781
+line_end: 73786
 dependencies:
   - "A.10"
   - "A.3.1"
@@ -33,7 +33,7 @@ keywords:
 
 ### C.29.2:9 - Consequences
 
-The practitioner can now tell whether the computation answers the question, answers a useful restricted question, or still lacks a particular construction. Procedure recovery can expose missing information before implementation, and a representation-level estimate can reject an infeasible design before substantial resource use.
+The practitioner can now tell whether the computation answers the question, answers a useful restricted question, or still lacks a construction. Procedure recovery can expose missing information before implementation, and a representation-level estimate can reject an infeasible design before substantial resource use.
 
-The cost is making the answer-producing connection explicit. For an ordinary small calculation this may take only a few lines. A large or delicate problem can require substantial algorithmic and numerical work; this pattern helps identify that work and connect its results, but does not remove it. Retaining a simple reference procedure may cost extra implementation effort while providing an intelligible comparison for an optimized candidate.
+The cost is making the answer-producing connection explicit. For an ordinary small calculation this may take only a few lines. A large or delicate problem can require substantial algorithmic and numerical work; this pattern helps identify that work and connect its results. Retaining a simple reference procedure may cost extra implementation effort while providing an intelligible comparison for an optimized candidate.
 

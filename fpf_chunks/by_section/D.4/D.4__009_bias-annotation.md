@@ -6,12 +6,12 @@ section_id: "D.4:5.1"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.4/D.4__009_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "D.4 — Ethical Mediation and Decision Use"
   - "D.4:5.1 — Bias-Annotation"
-line_start: 92192
-line_end: 92200
+line_start: 96715
+line_end: 96723
 dependencies:
   - "A.1.CSD"
   - "A.10"
@@ -39,5 +39,5 @@ keywords:
 | Conflict description becomes decision | A D.3 description is treated as if it already selected an action. | Name the D.4 move and its admissible use. |
 | Assurance becomes permission | Technical assurance is read as ethical authorization. | Keep assurance as an assurance or evidence relation and record the ethical use separately. |
 | Formula becomes ethics | Allocation, optimization, or scoring is treated as the ethical decision. | Explain how the calculation's result and conditions inform the ethical comparison; use `C.29` when the representation's choice, transfer or supported use remains unresolved. |
-| Residual harm disappears | Action proceeds while consequential residuals, affected parties or the authority and responsibility needed for the decision remain unclear. | Name the consequential residual and the decision basis, including the authority and responsibility it relies on. Add plans, commitments, permissions, assignment requirements and a return condition where this decision needs them; retain material evidence limits and precise unresolved claims. Identify actual Work and its performer when performance is claimed; add assignment-bound attribution when that further claim is made. |
+| Residual harm disappears | Action proceeds while consequential residuals, affected parties or the authority and responsibility needed for the decision remain unclear. | Name the consequential residual and the decision basis, including the authority and responsibility it relies on. Add plans, commitments, permissions, assignment requirements and a return condition where this decision needs them; retain material evidence limits and unresolved claims. Identify Work and its performer when performance is claimed; add assignment-bound attribution when that further claim is made. |
 

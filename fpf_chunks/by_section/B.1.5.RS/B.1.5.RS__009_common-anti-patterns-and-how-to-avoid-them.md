@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.1.5.RS"
-pattern_title: "Evaluate a Constituent Method Replacement in Its Encompassing Uses"
+pattern_title: "Evaluate a Method Replacement in Its Encompassing Uses"
 section_id: "B.1.5.RS:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5.RS/B.1.5.RS__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "B.1.5.RS — Evaluate a Constituent Method Replacement in Its Encompassing Uses"
+  - "B.1.5.RS — Evaluate a Method Replacement in Its Encompassing Uses"
   - "B.1.5.RS:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 42863
-line_end: 42872
+line_start: 44571
+line_end: 44580
 dependencies:
   - "A.3.1"
   - "B.1.5"
@@ -26,7 +26,7 @@ keywords:
 
 | Failure | Repair |
 | --- | --- |
-| One matching output stands in for preserved behavior. | Recover the timing, interaction or property actually used by the whole and test that contribution. |
+| One matching output stands in for preserved behavior. | Recover the timing, interaction or property used by the whole and test that contribution. |
 | Compatibility in one whole is exported to every user. | Separate receiving uses and restrict the conclusion accordingly. |
 | Every implementation detail must remain unchanged. | Preserve what the declared use relies on; permit changes outside that dependence. |
 | An adapter is omitted from the candidate's cost or failure analysis. | Include the adapter in the candidate arrangement and follow the combined behavior. |

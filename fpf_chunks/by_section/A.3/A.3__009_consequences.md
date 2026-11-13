@@ -6,12 +6,12 @@ section_id: "A.3:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3/A.3__009_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.3 — Transformer Quartet: Distinguish Work, Performer, Method and Method Description"
   - "A.3:8 — Consequences"
-line_start: 9306
-line_end: 9319
+line_start: 9685
+line_end: 9698
 dependencies:
   - "A.10"
   - "A.12-A.15"
@@ -35,7 +35,7 @@ keywords:
 **Benefits**
 
 * **Recoverable Work basis.** A conforming assertion about performed Work designates the world-side occurrence, each performer System's A.13 basis, enacted Method, and any obtaining F.6 attribution or neighboring description, capability, work-to-change, evidence, or aggregation claim on which the current use relies; actual-change identity remains separately inspectable under A.3.4.
-* **Keep system parts distinct from method and edition claims.** A Method, local system-role kind, or description does not become a part of a System by describing its operation; edition succession is also distinct from a part-whole relation. Actual Method-to-Method parts remain governed by A.3.1 and B.1.5.
+* **Keep system parts distinct from method and edition claims.** A Method, local system-role kind, or description does not become a part of a System by describing its operation; edition succession is also distinct from a part-whole relation. Method-to-Method parts remain governed by A.3.1 and B.1.5.
 * **Composable analytics without hidden ownership.** Exact Work intervals and performed resource-use facts can feed separately recovered B.1.4 or B.1.6 aggregations; the selected policy, evidence, and result remain inspectable at that direct owner.
 * **Local plurality without whole-context bridges.** Exact role taxonomies, ReferenceSchemes, compatibility rules, and use-specific mappings let local practices differ without treating a shared label or one bridge as wholesale equivalence.
 

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.5.QD"
-pattern_title: "Develop a New Question from a Result or Construction"
+pattern_title: "Develop a Question from a Result or Construction"
 section_id: "B.5.QD:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.QD/B.5.QD__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "B.5.QD — Develop a New Question from a Result or Construction"
+  - "B.5.QD — Develop a Question from a Result or Construction"
   - "B.5.QD:4 — Solution"
-line_start: 49140
-line_end: 49215
+line_start: 51182
+line_end: 51257
 dependencies:
   - "B.5.MPC"
   - "B.5.RA"
@@ -27,15 +27,15 @@ keywords:
 
 **Recover what changed → locate the dependency or new operation → construct a consequential question → work a revealing case → choose the next inquiry and keep what remains useful.**
 
-Enter with the result that actually changed the inquiry. Reuse a known formulation or derivation when it already supplies the needed step. Return to an earlier step if an attempted answer reveals that the question is ambiguous, underdetermined or more expensive than its use warrants.
+Enter with the result that changed the inquiry. Reuse a known formulation or derivation when it supplies the needed step. Return to an earlier step if an attempted answer reveals that the question is ambiguous, underdetermined or more expensive than its use warrants.
 
 #### B.5.QD:4.1 - Recover the contribution of the earlier work
 
-State the earlier question and what the work actually obtained. Identify the part that matters now: a counterexample, an unresolved inference, a constructed object, a computational operation or a distinction the earlier description omitted.
+State the earlier question and what the work obtained. Identify the part that matters: a counterexample, an unresolved inference, a constructed object, a computational operation or a distinction the earlier description omitted.
 
 For a failure, locate its scope. A counterexample to a lemma can expose a defect in one argument while leaving the main conjecture undecided. A counterexample satisfying the main conjecture's premises refutes that conjecture. A program's failure on a case may instead concern its implementation. Recover the relevant reasoning under B.5.RA or B.5.RR when this difference is unclear.
 
-For a success, recover what can now be done with the result. Explain its inputs, output and application conditions. A computation that produces cumulative totals, for example, may provide a way to answer many interval questions. Its reusable contribution is the relation between those totals and the intervals.
+For a success, recover what can be done with the result. Explain its inputs, output and application conditions. A computation that produces cumulative totals, for example, may provide a way to answer many interval questions. Its reusable contribution is the relation between those totals and the intervals.
 
 Keep independently supported results available. They can supply the construction, limiting case or partial answer for the next question.
 
@@ -53,19 +53,19 @@ Use variations that have a reason in the work. The following are common ways to 
 | A successful construction produces more information than the first answer used. | Ask what further result can be obtained from that information and by which operation. |
 | Different cases collapse to one description. | Ask what additional distinction determines the answer, or what bound remains possible without it. |
 | An argument needs an unavailable intermediate result. | Ask for a lemma, witness or construction that supplies that step; state how it would be used. |
-| A familiar operation becomes available in another setting. | Ask whether its required relations hold there and what receiving task it can now serve. |
+| A familiar operation becomes available in another setting. | Ask whether its required relations hold there and what receiving task it can serve. |
 
-A variation can change the original task. Preserve that change explicitly: restricting a claim to trees may give a valid result while leaving the original request about all graphs unanswered. If the broader request still matters, keep it as an unresolved question.
+A variation can change the original task. State that change: restricting a claim to trees may give a valid result while leaving the original request about all graphs unanswered. If the broader request matters, keep it as an unresolved question.
 
 These variations can be combined or repeated. Their purpose is to expose a useful answer.
 
 When requirements appear incompatible, B.5.QD.CF recovers the premises producing the conflict and asks what other construction could satisfy the retained need. It distinguishes changing an assumed means or representation from changing a requirement, and can return a useful impossibility when the conditions must remain.
 
-#### B.5.QD:4.3 - Give the new question an answer form
+#### B.5.QD:4.3 - Give the question an answer form
 
 Say what would answer the question: for example, a construction, an explanatory relation, a bound, a counterexample or a condition under which an operation works. State the objects, allowed changes and premises that can alter the answer.
 
-Connect that answer to its possible use. “Find a partition” and “return a partition or an odd-cycle witness” make different contributions: the second also explains failure. “Predict the position” and “bound the reachable positions” may serve the same present decision at different effort.
+Connect that answer to its possible use. “Find a partition” and “return a partition or an odd-cycle witness” make different contributions: the second also explains failure. “Predict the position” and “bound the reachable positions” may serve the decision at different effort.
 
 Separate a proposed answer from the question. “Does this procedure always terminate on finite inputs?” remains a useful question when the proposed positive answer is false. The failing case can open the question of a termination condition or another procedure.
 
@@ -75,21 +75,21 @@ If a question combines several missing contributions, make the dependency visibl
 
 Choose a small case that exercises the changed condition or new operation. Attempt the requested construction or inference and explain where it succeeds or stops.
 
-Use the result to improve the question. A successful case can expose a reusable relation. A failed case can identify a missing premise, an incompatible demand or an operation still to be developed. If two admissible cases give different answers from the same supplied information, ask for the missing distinction or a result valid for both.
+Use the result to improve the question. A successful case can expose a reusable relation. A failed case can identify a missing premise, an incompatible demand or an operation to be developed. If two admissible cases give different answers from the same supplied information, ask for the missing distinction or a result valid for both.
 
-A case establishes its own result. A broader mathematical claim needs its derivation, and applying a physical model needs the relevant physical basis. The question can already be useful before those answers are established: the first attempt should make the next contribution more identifiable.
+A case establishes its result. A broader mathematical claim needs its derivation, and applying a physical model needs the relevant physical basis. The question can be useful before those answers are established: the first attempt should make the next contribution more identifiable.
 
-Begin with available reasoning and information. Obtain further evidence only when its possible answers can change the useful inquiry enough to justify the effort under C.11.DUA. An existing bound or conditional answer may settle the current use.
+Begin with available reasoning and information. Obtain further evidence only when its possible answers can change the useful inquiry enough to justify the effort under C.11.DUA. An existing bound or conditional answer may settle the use.
 
 #### B.5.QD:4.5 - Choose an attainable inquiry
 
-Compare the few questions that remain serious candidates. Ask what each answer would enable and where work could begin with the available capabilities, collaborators and resources. Include the cost of learning or obtaining a missing operation when it affects the choice.
+Compare the few questions that remain candidates. Ask what each answer would enable and where work could begin with the available capabilities, collaborators and resources. Include the cost of learning or obtaining a missing operation when it affects the choice.
 
-A worthwhile first question may be narrower than the eventual aim: establish a limiting case, find one witness, recover a missing lemma or test a proposed connection. Explain how that result would contribute to the larger question. If the contribution is already available, use it and select the next unresolved step.
+A worthwhile first question may be narrower than the eventual aim: establish a limiting case, find one witness, recover a missing lemma or test a proposed connection. Explain how that result would contribute to the larger question. If the contribution is available, use it and select the next unresolved step.
 
 E.10.INT helps distinguish useful interest from novelty, surprise or a local scoring heuristic. A question can be worth pursuing because it opens further constructions, changes what can be explained or makes another question approachable. Its eventual practical destination may remain unknown. When problems and ways of solving them must develop together, use C.40; retain a promising alternative when its prospective use justifies doing so.
 
-Continue with the chosen question, its first attempt and the dependency that attempt is meant to resolve. A short explanation in the work can carry this result. Stop when the current need is answered, or when another inquiry is the better use of the available effort.
+Continue with the chosen question, its first attempt and the dependency that attempt is meant to resolve. A short explanation in the work can carry this result. Stop when the need is answered, or when another inquiry is the better use of the available effort.
 
 #### B.5.QD:4.6 - Separate question recognition from answer assurance
 

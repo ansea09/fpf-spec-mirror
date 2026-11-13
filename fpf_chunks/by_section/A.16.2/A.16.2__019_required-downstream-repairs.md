@@ -6,12 +6,12 @@ section_id: "A.16.2:20"
 section_title: "Required Downstream Repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.2/A.16.2__019_required-downstream-repairs.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.16.2 — Reopen, SketchBackoff, Respecify, or Retire a Language-State Publication"
   - "A.16.2:20 — Required Downstream Repairs"
-line_start: 34266
-line_end: 34276
+line_start: 35746
+line_end: 35756
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -42,5 +42,5 @@ A retreat or retirement often leaves stale downstream publications or Work targe
 Retreat propagation should be as narrow as truth permits. If only one framing scaffold failed, then only the downstream publications or Work targets that depend on that scaffold need revision. Over-broad rollback is wasteful; under-broad rollback leaves false route, endpoint, publication, or current-use claims in circulation.
 
 #### A.16.2:20.3 - Retreat timestamping and witness continuity
-Where several revisions exist, the changed publication or accompanying note should identify the earlier publication and retained witnesses. State which obtaining relation, if any, supports episteme continuity. Without that linkage, readers may not know whether two nearby texts are alternative drafts or a genuine retreat sequence.
+Where several revisions exist, the changed publication or accompanying note should identify the earlier publication and retained witnesses. State which obtaining relation, if any, supports episteme continuity. Without that linkage, readers may not know whether two nearby texts are alternative drafts or a retreat sequence.
 

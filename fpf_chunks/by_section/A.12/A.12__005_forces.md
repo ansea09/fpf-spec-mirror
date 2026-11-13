@@ -6,12 +6,12 @@ section_id: "A.12:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.12/A.12__005_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.12 — Acting-Side Externalization and Reflexive Split: Identify Who Acts on What"
   - "A.12:3 — Forces"
-line_start: 27889
-line_end: 27898
+line_start: 28923
+line_end: 28932
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -45,5 +45,5 @@ keywords:
 | Internal regulation vs object collapse | A larger holon may contain both regulator and regulated parts; that does not make the regulator and regulated position identical for the current claim. |
 | Automation vs accountability | Automated action may require distinct System, role, Method, Work and evidence claims; include each only when the explanation needs it and its basis holds. |
 | Episteme use vs episteme agency | A carrier update, another episteme edition and a changed publication relation need different identity tests (§4.3). A Work performer or `U.SystemRoleAssignment` holder must be an admitted `U.System`. |
-| Boundary crossing vs parthood | When an exact boundary-crossing relation independently satisfies the predicate, applicability, and identity rules that define it, it does not thereby make the acting system a part of the changed holon or the larger whole containing it. Without those rules, keep the crossing claim open rather than inferring either crossing or parthood. |
+| Boundary crossing vs parthood | When a boundary-crossing relation independently satisfies the predicate, applicability, and identity rules that define it, it does not thereby make the acting system a part of the changed holon or the larger whole containing it. Without those rules, keep the crossing claim open rather than inferring either crossing or parthood. |
 

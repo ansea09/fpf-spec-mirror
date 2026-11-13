@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.19.USCM"
-pattern_title: "Unified Scoring Mechanism, USCM"
+pattern_title: "Scoring Mechanism"
 section_id: "A.19.USCM:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.USCM/A.19.USCM__012_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.19.USCM — Unified Scoring Mechanism, USCM"
+  - "A.19.USCM — Scoring Mechanism"
   - "A.19.USCM:10 — Rationale"
-line_start: 38429
-line_end: 38439
+line_start: 39966
+line_end: 39976
 dependencies:
 keywords:
   - "CG-Spec.MinimalEvidence"
@@ -20,7 +20,7 @@ keywords:
   - "ScoringMethodDescription"
   - "score profile"
   - "scoring"
-  - "tri-state admissibility (pass"
+  - "tri-state admissibility (pass\\"
 ---
 
 ### A.19.USCM:10 - Rationale

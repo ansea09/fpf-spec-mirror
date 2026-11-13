@@ -6,12 +6,12 @@ section_id: "C.11:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11/C.11__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.11 — Decision Theory (Decsn-CAL)"
   - "C.11:2 — Problem"
-line_start: 56758
-line_end: 56767
+line_start: 59084
+line_end: 59093
 dependencies:
   - "A.10"
   - "A.13"
@@ -56,7 +56,7 @@ Many systems have options on the table but still lack one explicit doctrine for 
 
 One question is still generating candidate options, variants, or open-ended search directions. Another question is governing how broadly a candidate pool should be explored or exploited before narrowing. A third question is planning, sequencing, replanning, or enacting the chosen option once a choice has already been made. The fourth question, and the one governed here, is choosing among already-available options under uncertainty, dependence, and bounded deliberation.
 
-A second distortion appears when decision theory is reduced to one thin slogan about expected utility. Real choosers face evidential and causal distinctions, subjunctive or success-first cases, probe costs, information value, computation value, and situations where the chooser is not just one isolated individual.
+A second distortion appears when decision theory is reduced to a slogan about expected utility. Real choosers face evidential and causal distinctions, subjunctive or success-first cases, probe costs, information value, computation value, and situations where the chooser is not just one isolated individual.
 
-Without one explicit place for choice calculus, search, candidate-pool policy, and planning rush into the same question, while the actual doctrine of choosing among live options disappears behind generic talk about rationality.
+Without an explicit place for choice calculus, search, candidate-pool policy, and planning get treated as the same question, while the doctrine of choosing among live options disappears behind generic talk about rationality.
 

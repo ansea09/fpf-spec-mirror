@@ -6,12 +6,12 @@ section_id: "G.12:9"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.12/G.12__011_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.12 — DHC Dashboards (Discipline-Health Time Series and Views)"
   - "G.12:9 — Relations"
-line_start: 132793
-line_end: 132798
+line_start: 140913
+line_end: 140918
 dependencies:
   - "A.19"
   - "A.2.6"
@@ -53,5 +53,5 @@ keywords:
 
 **Builds on:** C.21, C.16, C.2.1, A.2.6, C.29, E.24.PUB, and G.Core only for the active Part-G branches.
 
-**Coordinates with:** G.6 and G.11 for relied-on evidence and refresh; A.19 and G.0 for comparison or aggregation; F.9 for actual distinct-local-sense use; F.18 for optional public names; G.5, C.18, C.19, G.8, G.10, and G.2 through the declared extensions.
+**Coordinates with:** G.6 and G.11 for relied-on evidence and refresh; A.19 and G.0 for comparison or aggregation; F.9 when a comparison uses a relation between distinct local senses; F.18 for optional public names; G.5, C.18, C.19, G.8, G.10, and G.2 through the declared extensions.
 

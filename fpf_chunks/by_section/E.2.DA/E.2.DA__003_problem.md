@@ -6,12 +6,12 @@ section_id: "E.2.DA:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.2.DA/E.2.DA__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.2.DA — Evaluate How FPF Realizes Its Pillars (Pillar-Adequacy CharacteristicSpace)"
   - "E.2.DA:2 — Problem"
-line_start: 92707
-line_end: 92720
+line_start: 97240
+line_end: 97253
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -28,9 +28,9 @@ keywords:
 
 ### E.2.DA:2 - Problem
 
-`E.2` gives the Pillars and their constitutional meaning. It does not by itself evaluate whether a concrete FPF object realizes those Pillars well enough for a concrete use. Without `E.2.DA`, corpus-level reviews tend to collapse into local pattern scores, process state, review praise, or broad claims that "FPF improved."
+`E.2` gives the Pillars and their constitutional meaning. It does not by itself evaluate whether the scoped FPF object realizes those Pillars well enough for its declared use. Without `E.2.DA`, corpus-level reviews tend to collapse into local pattern scores, process state, review praise, or broad claims that "FPF improved."
 
-The specific failures are:
+The failures are:
 
 1. Local pattern quality is averaged into FPF adequacy.
 2. Entry projections and companion files become separately maintained sources of definitions, constraints, or tests supplied by pattern bodies.

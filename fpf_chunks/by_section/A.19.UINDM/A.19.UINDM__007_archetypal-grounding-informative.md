@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.19.UINDM"
-pattern_title: "Indicatorization (UINDM): Select Indicators Under a Declared Policy"
+pattern_title: "Indicatorization: Select Indicators Under a Declared Policy"
 section_id: "A.19.UINDM:5"
 section_title: "Archetypal Grounding (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UINDM/A.19.UINDM__007_archetypal-grounding-informative.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.19.UINDM — Indicatorization (UINDM): Select Indicators Under a Declared Policy"
+  - "A.19.UINDM — Indicatorization: Select Indicators Under a Declared Policy"
   - "A.19.UINDM:5 — Archetypal Grounding (informative)"
-line_start: 38003
-line_end: 38040
+line_start: 39536
+line_end: 39573
 dependencies:
 keywords:
   - "CHR suite stage indicatorize"
@@ -19,7 +19,7 @@ keywords:
   - "IndicatorChoicePolicy"
   - "indicator set"
   - "indicatorization"
-  - "tri-state admissibility (pass"
+  - "tri-state admissibility (pass\\"
 ---
 
 ### A.19.UINDM:5 - Archetypal Grounding (informative)
@@ -28,8 +28,8 @@ keywords:
 
 Use UINDM to select the basis positions for a policy-bound projection:
 
-* Input: “the declared characteristic basis for this exact bearer, claim scope and selected slices, qualification window, evidence basis, and intended use, plus an explicit indicator choice policy”
-* Output: “the selected positions of this exact basis, each retaining its Characteristic, Scale and meaning for downstream use”
+* Input: “the declared characteristic basis for this bearer, claim scope and selected slices, qualification window, evidence basis, and intended use, plus an explicit indicator choice policy”
+* Output: “the selected positions of this basis, each retaining its Characteristic, Scale and meaning for downstream use”
 
 UINDM selects basis positions. A projection to those positions retains their coordinate values and Scale meanings.
 
@@ -39,10 +39,10 @@ A program manager maintains a `DeclaredCharacteristicSpace` for manufacturing si
 
 * The CN‑Spec’s `indicator_policy` for the “weekly executive dashboard” selects a subset:
   `{DefectRate, IncidentRate, UnitCost, LeadTime, EnergyPerUnit, OnTimeDelivery}`.
-* In this example each named Characteristic has one basis position. UINDM resolves the six names to those exact positions and returns S; each position retains its original Scale.
+* In this example each named Characteristic has one basis position. UINDM resolves the six names to those positions and returns S; each position retains its original Scale.
 * One site lacks reliable incident reporting for the last week. This example's evidence-gated policy permits retaining the fixed six-position set under `degrade`, with that gap explicit. IndicatorizeEligibility therefore returns `degrade`, and the audit retains the effective MinimalEvidence and edition pins. The selected IncidentRate position supplies no missing value; a downstream comparison depending on that value follows its own insufficient-evidence rule.
 
-Downstream mechanisms can now be held to the invariant: **they may only score/compare/select using the declared indicator profile (or explicitly abstain/degrade).** This avoids “dashboard drift” where different teams silently score on different subsets.
+Downstream mechanisms can now be held to the invariant: **they may only score/compare/select using the declared indicator profile (or abstain/degrade).** This avoids “dashboard drift” where different teams silently score on different subsets.
 
 #### A.19.UINDM:5.3 - Show (U.Episteme) — robust evaluation across environments
 
@@ -50,13 +50,13 @@ A research lead wants indicators for model robustness under distribution shift (
 
 * The declared characteristic-space basis includes many candidate metrics (accuracy slices, calibration, subgroup error, OOD detection quality).
 * The indicator choice policy is “invariance-driven”: prefer indicators whose meanings remain applicable across the selected environments; deprioritize proxies with an established environment-sensitive interpretation. For example, a constructed policy retains subgroup-error positions only when the subgroup definition, target label and error criterion match the intended comparison in each environment.
-* UINDM returns the positions resolved by that policy. An action-changing unresolved match yields no selection. Once the positions are resolved, insufficient evidence follows the declared degrade/abstain rule. Keeping the same error definition does not establish stable model performance under distribution shift; the later evaluation needs the actual values and evidence for that claim.
+* UINDM returns the positions resolved by that policy. An action-changing unresolved match yields no selection. Once the positions are resolved, insufficient evidence follows the declared degrade/abstain rule. Keeping the same error definition does not establish stable model performance under distribution shift; the later evaluation needs the values and evidence for that claim.
 
 #### A.19.UINDM:5.4 - One Characteristic at two Scale positions
 
-Let the exact space declaration `CS7` have ordered positions `i1=(Temperature, Celsius)` and `i2=(Temperature, kelvin)`, followed by an unrelated cost position. A state contains `x_i1=20 °C` and `x_i2=293.15 K`. The policy “select Celsius temperature” returns `S={i1}`. The explicit all-matches policy “all Temperature positions” returns `{i1,i2}`, with `x|_S` in the original order and both Scale meanings retained. UINDM converts neither value. This use retains the reference to CS7 and a separate `characteristicSpaceDescriptionRef` to the exact episteme defining that basis.
+Let the space declaration `CS7` have ordered positions `i1=(Temperature, Celsius)` and `i2=(Temperature, kelvin)`, followed by an unrelated cost position. A state contains `x_i1=20 °C` and `x_i2=293.15 K`. The policy “select Celsius temperature” returns `S={i1}`. The all-matches policy “all Temperature positions” returns `{i1,i2}`, with `x|_S` in the original order and both Scale meanings retained. UINDM converts neither value. This use retains the reference to CS7 and a separate `characteristicSpaceDescriptionRef` to the episteme defining that basis.
 
 For the first policy, a separately admitted USCM scoring use can read the Celsius value under its declared method `g_C(c)=(c-0)/(40-0)` on Celsius interval `[0,40]`, returning `0.5` at 20. The interval endpoints are part of this illustrative scoring declaration. Supplying 293.15 as though it were Celsius violates that method's input basis; a TemperatureRef alone would not reveal the error. All-matches selection requires a receiving method that accepts those two Scale-specific positions, or a narrower selection; it is not a universal default.
 
-Suppose a different space `CS8` reverses these two positions. Select CS8 and its description episteme explicitly, preserving CS7, its description and the earlier result. Resolving “Celsius temperature” now selects its CS8-local position i2. Reusing CS7's naked integer 1 would select kelvin and is invalid. If the policy merely says “Temperature” and supplies no rule for the two matches, return its unresolved/abstain disposition. A missing indicator policy retains the defined abstain result, and evidence gating still applies only when the selected policy requires it.
+Suppose a different space `CS8` reverses these two positions. Select CS8 and its description episteme, preserving CS7, its description and the earlier result. Resolving “Celsius temperature” now selects its CS8-local position i2. Reusing CS7's naked integer 1 would select kelvin and is invalid. If the policy says “Temperature” and supplies no rule for the two matches, return its unresolved/abstain disposition. A missing indicator policy retains the defined abstain result, and evidence gating still applies only when the selected policy requires it.
 

@@ -6,12 +6,12 @@ section_id: "C.40.NP:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.NP/C.40.NP__011_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.40.NP — Continue from a Result to New Attainable Problems"
   - "C.40.NP:10 — Rationale"
-line_start: 88973
-line_end: 88976
+line_start: 93241
+line_end: 93244
 dependencies:
   - "C.18"
   - "C.19"
@@ -28,5 +28,5 @@ keywords:
 
 ### C.40.NP:10 - Rationale
 
-The changed position, rather than a calendar or programme promise, supplies the next question. Tracing how a result changes the next obtaining way makes recursion examinable. Cultural continuation adds independently acting carriers without making a population one managed agent.
+A qualified result can put a previously inaccessible problem within reach. Those undertaking or authorizing the next work can choose it when the expected gain justifies the cost of an attempt. Tracing how a result changes the next obtaining way makes recursion examinable. Cultural continuation adds independently acting carriers without making a population one managed agent.
 

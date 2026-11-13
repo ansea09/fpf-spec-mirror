@@ -6,12 +6,12 @@ section_id: "E.10:10"
 section_title: "Optional detailed lexical checks (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__012_optional-detailed-lexical-checks-informative.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:10 — Optional detailed lexical checks (informative)"
-line_start: 100410
-line_end: 100421
+line_start: 106046
+line_end: 106057
 dependencies:
   - "A.10"
   - "A.15"
@@ -65,7 +65,7 @@ Use this section only after `F.19` and the compact cue surface have selected a l
 - Sections 5 and 6 distinguish lexical strata and Tech/Plain register use.
 - Section 7 tests token generality, domain anchoring, local source meaning, and acronym use.
 - Section 8 governs morphology, suffixes, compounds, aliases, and entry lexemes.
-- Section 9 contains deep recovery rows for an already-selected overloaded FPF head.
+- Section 9 contains recovery rows for an already-selected overloaded FPF head.
 - `F.18` governs a durable reusable name after the value and use are settled.
 
 Open only the subsection that can change the sentence. Repaired text or a blocker, followed by the local `F.19` reread, is sufficient. Create a DRR or other preservation evidence only when a separate receiving decision requires it.

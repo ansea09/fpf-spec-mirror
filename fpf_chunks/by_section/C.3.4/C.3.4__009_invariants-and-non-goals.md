@@ -6,12 +6,12 @@ section_id: "C.3.4:7"
 section_title: "Invariants and Non-goals"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__009_invariants-and-non-goals.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.3.4 — KindUseAdaptationDeclaration — Tailor the Use of an Existing Kind"
   - "C.3.4:7 — Invariants and Non-goals"
-line_start: 55946
-line_end: 55951
+line_start: 58244
+line_end: 58249
 dependencies:
   - "A.2.6"
   - "C.2.1"
@@ -27,5 +27,5 @@ keywords:
 
 - **No Scope leakage.** An adaptation declaration cannot widen or narrow Claim scope G; context conditions are enforced by A.2.6 guards.
 - **Identity preservation.** The base kind remains `k`; the declaration does not change its `EntityOfConcern`.
-- **Aggregation unaffected.** Adaptation and correspondence declarations do not change the applicable F rule under C.2.3 or the justified support-composition model or non-aggregate synthesis under C.2.2; guards route candidate-feature predicates to the exact judgment and context predicates to Scope.
+- **Aggregation unaffected.** Adaptation and correspondence declarations do not change the applicable F rule under C.2.3 or the justified support-composition model or non-aggregate synthesis under C.2.2; guards route candidate-feature predicates to the adaptation judgment and context predicates to Scope.
 

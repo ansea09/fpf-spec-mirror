@@ -6,12 +6,12 @@ section_id: "B.2.4:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.4/B.2.4__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.2.4 — Do Capability or Functioning Changes Require Whole Reidentification?"
   - "B.2.4:intro — Intro"
-line_start: 44417
-line_end: 44422
+line_start: 46223
+line_end: 46228
 dependencies:
   - "A.10"
   - "A.15"
@@ -39,5 +39,5 @@ keywords:
 
 > **Type:** Part B holonic construction pattern
 > **Status:** Stable
-> **Normativity:** Normative unless a section is explicitly informative
+> **Normativity:** Normative unless a section is marked informative
 

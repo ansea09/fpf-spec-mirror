@@ -6,12 +6,12 @@ section_id: "C.36:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36/C.36__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.36 — Cultural Evolution and Cultural-Evolution Engineering"
   - "C.36:2 — Problem"
-line_start: 81372
-line_end: 81387
+line_start: 85324
+line_end: 85339
 dependencies:
   - "A.1"
   - "A.10"
@@ -61,11 +61,11 @@ keywords:
 
 ### C.36:2 - Problem
 
-Culture, style, tradition, genre, scene, practice, platform, regime, technique, and developmental-machinery wording is useful but dangerous. In source and project prose, one label may point, for example, to:
+Culture, style, tradition, genre, scene, practice, platform, regime, technique, and developmental-machinery wording is useful in source and project prose, but one label can refer to different objects or relations. For example, it may name:
 
 - a method family or method relation structure;
 - a work family or family of performed works;
-- an exact local system-role kind, its classification judgment, or a separately obtaining system-role-assignment occurrence;
+- a local system-role kind, its classification judgment, or a separately obtaining system-role-assignment occurrence;
 - a discipline or collective holon;
 - a canon or memory episteme;
 - a recognition, selection, measurement, or visibility relation;

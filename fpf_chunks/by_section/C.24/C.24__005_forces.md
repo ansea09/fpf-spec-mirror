@@ -6,26 +6,23 @@ section_id: "C.24:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__005_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.24 — Plan Tool or Service Calls for a Fixed Action (C.Agent-Tools-CAL)"
   - "C.24:3 — Forces"
-line_start: 64688
-line_end: 64696
+line_start: 67544
+line_end: 67552
 dependencies:
   - "A.10"
   - "A.15"
   - "A.15.1"
   - "A.15.2"
-  - "A.15.7"
   - "B.1.6"
   - "B.3"
   - "C.11"
   - "C.16"
   - "C.18"
   - "C.19"
-  - "C.19.1"
-  - "C.2.1"
   - "C.28"
   - "C.5"
   - "E.17"

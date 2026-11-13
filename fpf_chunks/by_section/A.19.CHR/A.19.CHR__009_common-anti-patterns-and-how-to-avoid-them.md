@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.19.CHR"
-pattern_title: "CHRMechanismSuite: Shared Rules for Characterization and Selection"
+pattern_title: "Shared Rules for Characterization and Selection"
 section_id: "A.19.CHR:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CHR/A.19.CHR__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.19.CHR — CHRMechanismSuite: Shared Rules for Characterization and Selection"
+  - "A.19.CHR — Shared Rules for Characterization and Selection"
   - "A.19.CHR:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 37335
-line_end: 37346
+line_start: 38845
+line_end: 38856
 dependencies:
   - "A.15.2"
   - "A.15.3"
@@ -54,8 +54,8 @@ keywords:
 | Using `MechFamilyDescription` as a suite container | Collapses “many implementations of one mechanism” into “many mechanisms”, mixing levels and breaking reuse constraints | Use `MechSuiteDescription` for multi-mechanism sets; use `MechFamilyDescription` only for multiple implementations of a single `U.Mechanism` |
 | Embedding a second CG‑Spec or CL/Φ/Φ_plane tables inside the suite or plan item | Duplicates the governing spec refs and creates drift between planning, gates, and audit | Publish refs and pins only (`CGSpecRef`, `BridgeCardRef`, policy-id pins); keep tables in their canonical registries and cite them |
 | Implicit UNM/UINDM/ULSAM “inside” score/compare/select | Breaks auditability and violates the suite protocol explicitness obligation | Make dependencies explicit as protocol steps (`Uses`) and cite the chosen mechanism instances in the planned baseline and audit pins |
-| Hidden thresholds or weights in CHR core | Moves acceptance criteria into the wrong layer, defeating the declared defaults source and traceability | Keep thresholds in AcceptanceClauses, TaskSignature, or GateProfile; if a policy is needed, mint a policy-id and cite it explicitly |
-| Scalarizing partial orders “for convenience” | Violates set-return semantics and hides incomparability | Keep comparisons set-valued via CPM and selectors set-returning; any scalar summary must be declared as report-only telemetry or as an explicit lawful comparator |
-| Treating planned baseline as a launch witness | Smuggles execution facts into planning and blurs P2W separation | Record the edition/reference baseline in A.15.2; add A.15.3 fillings only for declared positions and keep actual bindings and launch witnesses in enactment |
+| Hidden thresholds or weights in CHR core | Moves acceptance criteria into the wrong layer, defeating the declared defaults source and traceability | Keep thresholds in AcceptanceClauses, TaskSignature, or GateProfile; if a policy is needed, mint a policy-id and cite it |
+| Scalarizing partial orders “for convenience” | Violates set-return semantics and hides incomparability | Keep comparisons set-valued via CPM and selectors set-returning; any scalar summary must be declared as report-only telemetry or as a lawful comparator |
+| Treating planned baseline as a launch witness | Smuggles execution facts into planning and blurs P2W separation | Record the edition/reference baseline in A.15.2; add A.15.3 fillings only for declared positions and keep bindings and launch witnesses in enactment |
 | Using `CompareGuard` / `LaunchGuard` as mechanism lexemes | Collides with reserved gate-level pins and blurs guard vs gate responsibilities | In mechanisms use `…Eligibility` / `…Admissibility`; reserve `USM.CompareGuard` and `USM.LaunchGuard` for gate-visible pins |
 

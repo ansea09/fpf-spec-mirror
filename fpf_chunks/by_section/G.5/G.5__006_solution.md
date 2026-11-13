@@ -6,12 +6,12 @@ section_id: "G.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__006_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.5 — Method-Family Registry, Dispatch and Selected-Set Result Declaration"
   - "G.5:4 — Solution"
-line_start: 129273
-line_end: 129715
+line_start: 137325
+line_end: 137767
 dependencies:
   - "C.11"
   - "C.18"
@@ -68,14 +68,14 @@ For crossing-aware selection, `CorePinsRequired` below lists the crossing pins i
 
 * `CoreConformanceProfileIds :=`
 
-  * `GCoreConformanceProfileId.PartG.AuthoringBase` *(when the current operation authors a registry in an actually selected CG-Frame or performs G.5-3 Select within that frame)*
+  * `GCoreConformanceProfileId.PartG.AuthoringBase` *(when the current operation authors a registry in a selected CG-Frame or performs G.5-3 Select within that frame)*
   * `GCoreConformanceProfileId.PartG.TriStateGuard` *(when evaluating eligibility or acceptance predicates)*
   * `GCoreConformanceProfileId.PartG.UTSWhenPublicIdsMinted` *(when public identities are minted or evolved, including intentional public registration under S1/S1′ and CC-G5.6; a reusable project-local row alone does not activate this profile)*
   * `GCoreConformanceProfileId.PartG.ShippingBoundary` *(when an output is shipped)*
 * `CorePinSetIds :=`
 
-  * `GCorePinSetId.PartG.AuthoringMinimal` *(for the same actual CG-Frame registry-authoring or G.5-3 Select use; local registration or a set declaration alone does not activate it)*
-* `CorePinsRequired :=` *(delta over PinSets; pins and refs are id-only; prefer strengthening optional-to-required over restating pins already covered by PinSets)*
+  * `GCorePinSetId.PartG.AuthoringMinimal` *(for the same CG-Frame registry-authoring or G.5-3 Select use; local registration or a set declaration alone does not activate it)*
+* `CorePinsRequired :=` *(additions to the PinSets; identify pins and refs by id only. When a use makes an optional pin mandatory, state that change. Prefer referencing inherited pins to repeating them)*
 
   * `TaskSignatureRef` *(the C.22 TaskSignature edition for `Select`; see `G.5:4.2`, S2)*
   * `TaskMapRef?` *(exact G.4 map edition, only when this selection uses G.4 CAL gates)*
@@ -88,7 +88,7 @@ For crossing-aware selection, `CorePinsRequired` below lists the crossing pins i
   * `UTSRowId[]?` *(when the operation mints, evolves or consumes a public identity; intentional public registration activates S1/S1′ and CC-G5.6 obligations)*
   * `FailureBehaviorPolicyId?` *(only when degrade or abstain behavior is explicitly policy‑bound)*
   * `SoSLogBranchId?` *(only when degrade or abstain behavior is explicitly policy‑bound)*
-  * `BridgeId/BridgeCardId?` *(the obtaining Bridge actually used by this selection; a Bridge Card is cited only when that Card is relied on)*
+  * `BridgeId/BridgeCardId?` *(the obtaining Bridge used by this selection; a Bridge Card is cited only when that Card is relied on)*
   * `BridgeMatrixId?` *(when this selection uses a BridgeMatrix)*
   * `CL/CL^k/CL^plane?` *(the applicable values when cited or required by the consumed calibration or named assurance account)*
   * `Φ/Ψ/Φ_plane policy-ids?` *(the applicable policy ids and editions when required by the consumed calibration or named assurance account, or when crossing or plane penalties are applied)*
@@ -101,7 +101,7 @@ For crossing-aware selection, `CorePinsRequired` below lists the crossing pins i
 * `RSCRTriggerSetIds :=`
 
   * `GCoreTriggerSetId.RefreshOrchestration`
-    *(payload: exact changed source and affected-use scope; `SCRId`, `DRRId`; `TaskSignatureRef`, `CGSpecRef.edition` and `CNSpecRef.edition` for a `Select` result; the exact `MethodFamilyRowRef[]` and/or `GeneratorFamilyRowRef[]` actually consumed; and the applicable `TaskMapRef?`, `AcceptanceClauseId[]?`, `SoSLogBranchId?`, `FailureBehaviorPolicyId?`, `DescriptorMapRef.edition?`, `DistanceDefRef.edition?`, `TransferRulesRef.edition?`, `InsertionPolicyRef?`, `PathId[]?`, `PathSliceId[]?`, `RSCRTestId[]?`. Nongraph scope uses the existing G.Core `PatternScopeId` branch.)*
+    *(payload: exact changed source and affected-use scope; `SCRId`, `DRRId`; `TaskSignatureRef`, `CGSpecRef.edition` and `CNSpecRef.edition` for a `Select` result; the exact `MethodFamilyRowRef[]` and/or `GeneratorFamilyRowRef[]` consumed; and the applicable `TaskMapRef?`, `AcceptanceClauseId[]?`, `SoSLogBranchId?`, `FailureBehaviorPolicyId?`, `DescriptorMapRef.edition?`, `DistanceDefRef.edition?`, `TransferRulesRef.edition?`, `InsertionPolicyRef?`, `PathId[]?`, `PathSliceId[]?`, `RSCRTestId[]?`. Nongraph scope uses the existing G.Core `PatternScopeId` branch.)*
 
 #### G.5:4.2 - Dispatcher and Registry object set (notation‑independent)
 
@@ -147,7 +147,7 @@ Both branches also fix the applicable eligibility/comparison basis and every sel
 **S2 — C.22 `TaskSignature` input and conditional G.4 map.**
 C.22 constitutes the `TaskSignature` episteme and defines its edition rule. G.5 consumes its `TaskSignatureRef` and does not reconstruct it from a task, CAL pack, or map. Its edition identifies the task basis used by selection.
 
-When this selector actually uses G.4 CAL gates, it also consumes one exact `TaskMapRef`. Resolve that immutable map edition, require its `taskSignatureRef` to equal the C.22 `TaskSignatureRef` supplied to this selector, and follow its exact `CALCharterRef` and edition-bearing clause, operator, flow, and evidence-profile refs. The map carries references, not a duplicate TaskSignature or clause thresholds. If no G.4 gate is current, omit `TaskMapRef`; an ordinary selector does not need a CAL pack merely to return a truthful bounded result.
+When this selector uses G.4 CAL gates, it also consumes one exact `TaskMapRef`. Resolve that immutable map edition, require its `taskSignatureRef` to equal the C.22 `TaskSignatureRef` supplied to this selector, and follow its exact `CALCharterRef` and edition-bearing clause, operator, flow, and evidence-profile refs. The map carries references, not a duplicate TaskSignature or clause thresholds. If no G.4 gate is current, omit `TaskMapRef`; an ordinary selector does not need a CAL pack merely to return a truthful bounded result.
 
 For the G.4 safety example, G.5 receives `TaskSignatureRef=SafetyPortfolioTaskSignature-E4` and `TaskMapRef=<SafetySelectionMap, E3>`. The map resolves `CALCharterRef=<SafetyCALCharter, E2>` and the cited gate declarations. A different signature ref or an unresolved charter or component blocks only that gated selector use.
 
@@ -155,7 +155,7 @@ For the G.4 safety example, G.5 receives `TaskSignatureRef=SafetyPortfolioTaskSi
 A notation‑independent selector that:
 
 * consumes `TaskSignatureRef`, exact method- or generator-family row refs, pinned spec refs, and an exact matching `TaskMapRef` only when G.4 CAL gates are current,
-* applies the declared eligibility conditions and any assurance gates actually required for this use (tri-state),
+* applies the declared eligibility conditions and any assurance gates required for this use (tri-state),
 * computes an admissible (possibly partial) order,
 * returns an outcome under §4.4b over exact candidates admitted by its method- or generator-family rules, preserving the declared ordering and `PortfolioMode` (per `DefaultId.PortfolioMode` and explicit overrides). The kernel's `JointUseSet` branch is limited to admitted Methods; non-Method joint inclusion uses `DeclareSetResult` under CC-G5.46,
 * emits audit records with pins addressable by DRR and SCR records.
@@ -177,20 +177,20 @@ A compact Work account may omit an assignment identifier unused by its receiving
 Replay upstream CPM applications through their own declaration-local bindings. Separately admitted comparison or selection Work is required when that Work is asserted or consumed. Evidence use, A.10 reliance/provenance, G.11 currentness and a C.2.1 result episteme retain their independent grounds when asserted or consumed by the receiving use.
 
 **S3.A — `TaskFamilySpecializationProfile@Context` (run‑time; conditional).**
-When the real selector question is acquisition of usable specialization on a declared task family, the selector may emit one `TaskFamilySpecializationProfile@Context` for each candidate, one `SpecialistHandoff`, or one narrowed handoff plan. Here `profile` means one selector-time comparison record for bounded specialization, not a new U-kind and not a generic narrative profile. `G.5` carries this selector-time specialization question here; it does not redefine the adaptation-signature field vocabulary from `C.22.1`.
+When the selection question is whether or how candidates can acquire usable specialization on a declared task family, the selector may emit one `TaskFamilySpecializationProfile@Context` for each candidate, one `SpecialistHandoff`, or one narrowed handoff plan. Here `profile` means one selector-time comparison record for bounded specialization, not a new U-kind and not a generic narrative profile. Use the adaptation-signature fields defined by `C.22.1` for this comparison.
 
 The profile should therefore cite one `AdaptationSignatureRef` or equivalent pinned field set carrying the declared `TaskFamilyRef` or `TaskSignature`, the work-measure threshold target, prior exposure declaration, time-to-threshold, budget-to-threshold, post-threshold efficiency when relevant, any declared transfer or retention claim, any downside cost or downside on adjacent tasks, and any specialization-entry baseline, specialization-entry evidence, or stepping-stone evidence item that materially affects comparison.
 
 Admission rule for `SpecialistHandoff`: use that handoff kind only when the truthful declared result is one heterogeneous handoff bundle whose members occupy different specialization positions that still need to travel together. Do not use it when a `SetResultOutcome` with `Shortlist`, `RankedShortlist`, or `JointUseSet`, or a `HandoffOutcome` with another admitted handoff kind, already states the result more precisely.
 
-When the declared task family is heterogeneous, the selector may return one `SpecialistHandoff`, one other narrowed handoff plan, or one `SetResultOutcome` with an admitted `SetResultFamily` that preserves rival specialists rather than collapsing them into a fake single winner. Low-human-overlap candidates remain admissible only when the profile, evidence basis, and policy constraints are explicit.
+When the declared task family is heterogeneous, the selector may return one `SpecialistHandoff`, one other narrowed handoff plan, or one `SetResultOutcome` with an admitted `SetResultFamily` that preserves rival specialists rather than declaring a single winner without grounds. Low-human-overlap candidates remain admissible only when the profile, evidence basis, and policy constraints are explicit.
 
 **S4 — `Composition and fallbacks` templates (design‑time).**
 A library of composition shapes—`preconditioner -> solver -> verifier`, cascades, and meta-selectors—remains available **as design-time templates**, admissibility-checked and pinned. A template is a description or policy-bound arrangement for possible composition; its existence, diagram order, registry placement, or selection does not create a Method, `methodPartOf` occurrence, obtaining relation, or selected Structure.
 
 If exact A.3.1 Methods, exact B.1.5 `methodPartOf` occurrences, all other required whole-forming claims and constraints, whole semantics, interface boundary, and reidentification rule qualify one already identified candidate as a composite `U.Method`, consume that exact Method through the B.1.5 branch. If independently identified Methods and already-obtaining relations are instead organized for one use without constituting one Method, consume an independently selected A.22 `U.Structure` only after its exact constituents, selected obtaining relation occurrences, applied constraints, and named selection-use frame are present. `MethodRelationStructure` may remain a local readable designator for that actually selected Structure; it is not a U-kind, relation kind, Method holon, registry-row identity, or generic `@BoundedContext` object.
 
-A C.2.1 episteme may describe either governed object. A.3.2 applies only when the episteme's exact `EntityOfConcern` is one already admitted Method and its claims substantively describe that Method; an episteme whose exact concern is the selected Structure is not thereby a `U.MethodDescription`. Concrete strategy semantics stay in the referenced method families; G.5 only carries the composition template, selector relation, registry row, exact consumed Method or Structure reference, or selected-set result. None of those G.5 artifacts supplies the B.1.5 or A.22 construction facts.
+A C.2.1 episteme may describe either governed object. A.3.2 applies only when the episteme's `EntityOfConcern` is one already admitted Method and its claims substantively describe that Method; an episteme whose concern is the selected Structure is not thereby a `U.MethodDescription`. Concrete strategy semantics stay in the referenced method families; G.5 only carries the composition template, selector relation, registry row, exact consumed Method or Structure reference, or selected-set result. None of those G.5 artifacts supplies the B.1.5 or A.22 construction facts.
 
 Use C.29 when a selector representation or its transfer leaves an unresolved correspondence, preserved-or-lost distinction, or inference needed for the current question. An adequate local calculation or representation may be used directly.
 
@@ -208,7 +208,7 @@ S5 governs the selector-facing record boundary, not truth or actuality by record
 Use §4.4b for outcome kinds and §4.4c for conditional public-identity fields.
 
 **S6 — `Governance and evolution` declaration boundary (design-time).**
-Versioning, deprecation, and registry evolution discipline (UTS publication; continuity), without minting new Part‑G‑wide types.
+State how registry entries are versioned, deprecated and published through UTS, and how continuity is maintained as entries change. These changes use the existing Part-G types.
 
 #### G.5:4.3 - Selector head and narrower selector families
 
@@ -242,7 +242,7 @@ Method- and generator-specific pressures such as `QD` archives, open-ended decla
 - A.2 declares local agential kind `CatalystMethodSelectorSystemRole`. Its membership criterion requires the stable work-facing contribution of method-family selection and goal-directed, condition-sensitive regulation under `CatalystSelectionAdmissibilityNorm-17`: the holder must apply the current gates, preserve the admissible set-return semantics, and abstain or escalate when no candidate qualifies. `CatalystSelectorDecisionTrace-17` shows `CatalystSelectorSystem-17` excluding the third family for failed `MinimalEvidence`, retaining the first two as non-dominated, and emitting no scalar winner. The trace and boundary/runtime records support the criterion facts under A.2's membership rule; A.10 makes that source-to-use account recoverable. The case independently classifies `CatalystSelectorSystem-17` under `CatalystMethodSelectorSystemRole`; neither the assignment nor the candidate Work supplies the classification. No Grade, autonomy result, characteristic profile, or stronger assurance claim is consumed.
 - The same A.13 core uses `CatalystSelectorAssignment`, a directly declared species under `U.SystemRoleAssignment`. The species declares holder, assigned-kind, and task-signature participant meanings and the assignment predicate. `CatalystSelectorAssignment-17` obtains with `CatalystSelectorSystem-17`, `CatalystMethodSelectorSystemRole`, and `CatalystTaskSignature-17` as its exact participant values; its maximal uninterrupted predicate-true interval covers the stated scope, situation, and window.
 - Only after that core is established does A.15.1 independently admit `CatalystSelectionWork-17 : U.Work` from the exact selection-action history, enacted `CatalystFamilySelectionMethod`, temporal extent, and obtaining containing-System relation to independently admitted `CatalystSearchTeamSystem`. Actual application `CatalystSelectApplication-17` separately carries its effective candidate, criteria, and A.19 `SelectionSlot` bindings. Neither the assignment nor F.6 is an A.15.1 admission premise.
-- Because this account explicitly attributes the Work under `CatalystSelectorAssignment-17`, F.6 afterward establishes `performedUnderAssignment(CatalystSelectionWork-17, CatalystSelectorAssignment-17)` through that same obtaining A.13 assignment. The direct case fact links the exact pair, holder equality holds, and the assignment interval covers the Work. A different overlapping assignment held by the same System would not establish this attribution. A short result may omit the assignment identifier only after every fact consumed by the attribution remains recoverable.
+- Because this account states that the Work was performed under `CatalystSelectorAssignment-17`, F.6 afterward establishes `performedUnderAssignment(CatalystSelectionWork-17, CatalystSelectorAssignment-17)` through that same obtaining A.13 assignment. The direct case fact links the exact pair, holder equality holds, and the assignment interval covers the Work. A different overlapping assignment held by the same System would not establish this attribution. A short result may omit the assignment identifier only after every fact consumed by the attribution remains recoverable.
 - A persisted shortlist assertion is a separate C.2.1 episteme; its DRR or SCR references do not by themselves prove the exclusion facts, warrant the result, authorize downstream action, or make that episteme available to an audience.
 
 - When one upstream `C.19` pass has already narrowed the live pool to one internal retained subset over registered families, `G.5-6 DeclareSetResult` may declare that result as one `Shortlist` with one `ShortlistId` and explicit basis pins only when selector-facing result declaration is now the question. Until that declaration occurs, the internal retained subset is not yet one G.5 shortlist result.
@@ -250,7 +250,7 @@ Method- and generator-specific pressures such as `QD` archives, open-ended decla
 
 #### G.5:4.4b - Declared selected-set result and closure rule
 
-When the current question is selector-facing result declaration, state one explicit selected-set result rather than leave it implicit in a selector trace, comparison note, or local choice.
+State the selector-facing outcome and the information its kind requires, so the recipient can use it without reconstructing it from a selector trace, comparison note, or local choice.
 
 For method- or generator-family dispatch, that result closes selector work over grounded rows. For a `JointUseSet`, it records already identified members that are all included for one named use. It does not replace registry maintenance, comparison rules, the upstream choice or inclusion basis, or the patterns that identify the members and their relations.
 
@@ -277,7 +277,7 @@ Exact content, claims about a member's use or contribution, and direct relations
 
 For framework use, `memberRef` may name an exact already identified edition under its existing identity rules. Do not populate `MethodRef`, create a registry row, or classify that edition as a Method merely to emit the result.
 
-Every outcome still states its `SelectorOutcomeKind`, public result kind when applicable, members, keyed entries, handoff content, or blocking condition, ordering, and sufficient basis pins. A handoff also states its next downstream use boundary.
+Every outcome states its `SelectorOutcomeKind`, public result kind when applicable, members, keyed entries, handoff content, or blocking condition, ordering, and sufficient basis pins. A handoff also states its next downstream use boundary.
 
 A compact retained-alternative result may look like:
 
@@ -310,7 +310,7 @@ SelectorOutcome(
   basisPins = [choice_result_12, edition_basis_7]
 )
 ```
-Close with `Shortlist` or `RankedShortlist` when the result retains alternatives. Close with `JointUseSet` only when every member is included for the named use and its keyed membership can be stated truthfully. Close with a handoff, abstain, or escalation outcome when that is the actual result. If the result omits its result family, members or member entries, ordering, named use where required, or basis pins, it is not a complete `G.5` result.
+Close with `Shortlist` or `RankedShortlist` when the result retains alternatives. Close with `JointUseSet` only when every member is included for the named use and that membership is established for every entry key. Close with a handoff, abstain, or escalation outcome when that is the actual result. A complete `G.5` result states its basis and ordering status and supplies the fields its kind requires. For a set, these include its family, retained members or keyed joint-use entries, and the named use for joint inclusion. For a handoff, abstention or escalation, give the corresponding handoff content or blocking condition.
 
 #### G.5:4.4bb - Public labels over archive, front, and style source sets
 
@@ -388,7 +388,7 @@ The following extensions apply only when their corresponding mode is active. The
 * `RSCRTriggerKindIds`: `{RSCRTriggerKindId.PolicyPinChange, RSCRTriggerKindId.TelemetryDelta, RSCRTriggerKindId.FreshnessOrDecayEvent}`
 * `Notes (extension discipline; semantics cited):`
 
-  * This block activates exploration and exploitation-governed dispatch.
+  * Use this block for dispatch under an exploration and exploitation policy.
   * Examples include bandit-style or Bayesian selection under explicit risk budgets, adaptive probing, and exploration with policy-bound abstain or degrade behavior.
 
 **GPatternExtension block: `G.5:Ext.SoSLOG`**
@@ -409,7 +409,7 @@ The following extensions apply only when their corresponding mode is active. The
 * `RSCRTriggerKindIds`: `{RSCRTriggerKindId.PolicyPinChange, RSCRTriggerKindId.MaturityRungChange, RSCRTriggerKindId.EvidenceSurfaceEdit}`
 * `Notes (extension discipline; semantics cited):`
 
-  * This block pins dispatch decisions to explicit rule and branch ids, enabling auditable “why” without inventing a fourth acceptance status.
+  * The pinned ids identify the rule and branch that governed each dispatch decision. Using a branch leaves the three acceptance statuses unchanged.
 
 **GPatternExtension block: `G.5:Ext.NQD`**
 

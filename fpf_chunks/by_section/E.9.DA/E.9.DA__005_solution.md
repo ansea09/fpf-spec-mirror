@@ -6,12 +6,12 @@ section_id: "E.9.DA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9.DA/E.9.DA__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.9.DA — Evaluate a DRR for Its Declared Authoring Use (Decision-Adequacy CharacteristicSpace)"
   - "E.9.DA:4 — Solution"
-line_start: 98547
-line_end: 98832
+line_start: 104077
+line_end: 104374
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -27,9 +27,9 @@ keywords:
 
 ### E.9.DA:4 - Solution
 
-Judge semantic adequacy before constructing evaluation apparatus. Read the exact DRR in its declared authoring use and ask whether a practitioner or author can recover the working problem, selected answer, practical change, selected loci, first drafting action, and boundary without inventing decisions or decoding avoidable formality.
+Start with the decision itself. Read the DRR under review in its declared authoring use. Can a practitioner or author recover the working problem, selected answer, practical change, selected loci, first drafting action, and boundary without inventing decisions or decoding avoidable formality? Settle that question before constructing any optional evaluation materials.
 
-For an ordinary bounded review, the sufficient result is:
+The following result suffices for an ordinary bounded review.
 
 - the exact DRR and declared authoring use;
 - substantive findings, repaired DRR text, or the unchanged checked DRR when the review is clean;
@@ -37,25 +37,27 @@ For an ordinary bounded review, the sufficient result is:
 - the first drafting action or first repair; and
 - the stop or reopen condition.
 
-That result may remain readable prose. It needs no assessment-work record, application object, aggregate result episteme, precision-profile record, witness package, or evidence-use package merely for symmetry.
+Plain prose can carry this result. Reserve an assessment-work record, application object, aggregate result episteme, precision-profile record, witness package, or evidence-use package for a use that needs it.
 
 Use the complete coordinate result when a complete reusable evaluation was explicitly requested or when a named later reliance needs stable coordinate values. Materialize the exact characteristic-space configuration, semantic evaluation Method, A.6.1 application, result episteme, witnesses, or evidence-use relations only when that receiving use depends on their identities.
 
-The semantic Method, A.6.1 application, and dated Work are independently conditional. A reusable coordinate result can exist without any of them. A receiving claim may use a semantic Method without asserting Work, and it may use an exact application and its actual bindings without asserting Work. If dated `U.Work` is asserted, establish the Method actually enacted, every precise performer's A.13 core and independent A.15.1 Work admission. Add an A.6.1 application only when the claim uses an independently declared operation and its obtaining application; establish any relation to the Work separately. F.6 follows only when the result needs precise assignment-bound attribution.
+A reusable coordinate result can exist without a semantic Method, A.6.1 application, or dated Work. Decide separately whether the receiving claim uses each identity. A claim may use a Method, or an exact application with its actual bindings, without asserting Work.
 
-Before assigning coordinates, make one bounded content-first search for an important question the DRR omitted. Inspect the governed problem, the problem-owning practice, current sources, the strongest live alternative, failure and recovery cases, and true direct consumers. If an omitted question would change the answer, architecture, source use, consumer obligation, first drafting action, or stop, return it as a substantive finding before completing the coordinate judgement.
+If the claim asserts dated `U.Work`, establish the Method enacted, every precise performer's A.13 core, and independent A.15.1 Work admission. Add an A.6.1 application only when the claim uses an independently declared operation and its obtaining application. Establish any relation between application and Work separately. Use F.6 only when the result needs precise assignment-bound attribution.
 
-In every branch, keep the checked DRR, evaluation specification, action or Work, application, result, record, evidence use, status use, authority, and later repair distinct. A compact result omits identities that its receiving use does not consume. Omitting those refs does not make facts required by an asserted Work claim optional.
+Before assigning coordinates, make one bounded search for an important question the DRR omitted. Inspect the governed problem, the problem-owning practice, current sources, the strongest live alternative, failure and recovery cases, and direct consumers. If an omitted question would change the answer, architecture, source use, consumer obligation, first drafting action, or stop, return it as a substantive finding before completing the coordinate judgement.
 
-For a broad language or ontology rule, `DraftingActionability`, `LexicalAndNamingClosure`, and the precision-restoration reading consume the actual-host comparison between the predecessor and proposed versions. The DRR's promise, a table-completeness check, a different lane test, or an invented fact pack is not evidence of practitioner use. Formal precision and plain comprehensibility are both required; neither compensates for loss of the other.
+In either branch, distinguish the checked DRR, evaluation specification, action or Work, application, result, record, evidence use, status use, authority, and later repair. A compact result can omit identities its receiving use does not need. A claim that asserts Work must still establish the facts required for that Work.
+
+For a broad language or ontology rule, use the predecessor and proposed versions of the actual host to judge `DraftingActionability`, `LexicalAndNamingClosure`, and precision restoration. A promise in the DRR, complete table, test in another lane, or invented fact pack cannot establish how a practitioner can use that host. Require both formal precision and plain comprehensibility.
 
 #### E.9.DA:4.1 - Local names and kind settlement
 
-The following names support only the complete reusable-result branch. An ordinary bounded review need not instantiate them. When the branch is opened, each name resolves to the existing FPF object or reference stated here; none names an authority or mandatory record.
+The names below are for a complete reusable result. Ordinary bounded review can proceed without them. In a reusable result, each name denotes the existing FPF object or reference described in its row. The names confer no authority and require no record on their own.
 
 | Local name | Kind and function |
 |---|---|
-| `DRRDecisionAdequacyEvaluation` | Compatibility compound label for the full evaluation package. Any use resolves to the exact values current for its receiving use: configuration, optional semantic Method, optional assessment application and bindings, optional Work admission, result episteme, witnesses or evidence-use relations, and optional record. The label is not one kind, Method, application, or Work occurrence. |
+| `DRRDecisionAdequacyEvaluation` | Compatibility label for the full evaluation package. Resolve it to the values its receiving use needs: configuration, result episteme, and, where applicable, semantic Method, assessment application and bindings, Work admission, witnesses or evidence-use relations, and record. The label does not denote a single kind, Method, application, or Work occurrence. |
 | `DRRDecisionAdequacyCharacteristicSpaceRef` | Reference to the exact A.19 `U.CharacteristicSpace` whose slots are the required E.9.DA coordinates and whose scale bindings use `E.9.DA:4.3`; not an assessment, result, or record. |
 | `DRRDecisionAdequacyEvaluationSpecRef` | Reference to this object-specific A.19.ECS evaluation-specification episteme: applicability, coordinates, scale meanings, evidence/missingness rules, result shape, calibration, status meanings, and reopen conditions. |
 | `DRRVersionRef` | Exact C.2.1 `DRR` episteme version named by value as the checked object. |
@@ -68,21 +70,21 @@ The following names support only the complete reusable-result branch. An ordinar
 | `DRRDecisionAdequacyEvaluationConfiguration` | Local input tuple binding the exact checked DRR, required use and source, scope, characteristic space/specification, selected-locus map, evidence basis, qualification window, effective floor, and the semantic Method only when a receiving claim uses that identity. It is neither a new U-kind nor performed Work. |
 | `DRRDecisionAdequacyAssessmentWorkRef` | Exact dated A.15.1 `U.Work`, when that identity is needed. Every precise evaluator-performer first has an A.13 core; A.15.1 independently admits the Work from its performance history, semantic evaluation Method, interval, and containing System. The exact assignment species and obtaining occurrence remain part of the A.13 core. F.6 attribution is named separately only when the receiving result also needs precise assignment-bound attribution. |
 | `DRRDecisionAdequacyApplicationRef` | Exact A.6.1 application and actual bindings, when a receiving claim uses them. Its inputs and outputs are only the values named by its declaration and obtaining bindings. It implies no Work; relate it to Work only through a separately defined relation whose predicate obtains. |
-| `DRRDecisionAdequacyEvidenceBasis` | Checked DRR, source, accepted-decision, selected-locus, architecture, currentness, neighbour, and bounded omitted-question-search loci named by value when the receiving reliance needs them; inclusion is not evidence use by itself. |
+| `DRRDecisionAdequacyEvidenceBasis` | Checked DRR, source, accepted-decision, selected-locus, architecture, currentness, neighbour, and bounded omitted-question-search loci named by value when the receiving reliance needs them. Establish any evidence-use relation separately. |
 | `DRRCoordinateValueRationales` | Required result claims: coordinate, value, adjacent-value rationale, and evidence locus named by value. |
-| `DRRCoordinateLocusRefs` | Exact DRR loci cited by result claims; citation does not itself establish a value. |
+| `DRRCoordinateLocusRefs` | Exact DRR loci cited by result claims. Justify the coordinate value from what the cited content shows. |
 | `DRRSourceUseDischargeMap` | Source-use relation, source-currentness, selected payload, rejected payload, and selected locus when a source publication, source pack, or source-use record governs a decision. |
-| `DRRPrecisionRestorationProfile` | Compact profile of the DRR wording's effect when the requested reusable result or named reliance consumes it. State the overall effect, affected coordinates, and checked loci once. Its diagnostic facets are word-use precision, phrase apparatus, repetition-and-distribution, ontic-slot clarity, description-publication-source boundary separation, and pattern-application ontology; report a facet when it distinguishes the result or repair. Name the concrete pattern or relation when needed to resolve the affected meaning, and include a repair or blocker when present. A receiving form that needs an explicit clean disposition may use `no-repair` with the checked loci. |
+| `DRRPrecisionRestorationProfile` | Compact account of the effect of the DRR's wording when the requested reusable result or named reliance needs it. State the overall effect, affected coordinates, and checked loci once. Its diagnostic facets are word-use precision, phrase apparatus, repetition-and-distribution, ontic-slot clarity, description-publication-source boundary separation, and pattern-application ontology; report a facet when it distinguishes the result or repair. Name the concrete pattern or relation when needed to resolve the affected meaning, and include a repair or blocker when present. A receiving form that needs an explicit clean disposition may use `no-repair` with the checked loci. |
 | `DRRKindRestorationCheck` | Pre-repair and post-repair check required when a wording, naming, or precision-restoration proposal can change an FPF-governed meaning. Compare the relevant object kind, relation or claim kind, current ontic slot, relation position, use relation, admissible use, and scope. A receiving form may use `not triggered`, `ordinary prose`, `already satisfied`, or `blocker` with loci when it needs an explicit disposition. |
 | `DRROnticCandidateDisposition` | If the DRR selects, rejects, splits, or declines a candidate ontic, this names the candidate `EntityOfConcern`, sufficiency rationale, rejected alternatives, broad candidate-universe sanity sweep when the claim is broad, slot-relation boundary, description-publication boundary, and selected pattern placement by value. |
 | `CampaignProblemSolutionUnfoldingCheck` | Triggered carry-through check for DRRs that create or modify README entries, path-shaped patterns, pattern families, DPF entries, first-practical routes, or constraint-governed unfolding structures. It names admitted problem-side record refs or cues, accepted starting records, current starting structures, entry cues, selected solution architecture, affected unfolding families, loci and concrete-pattern or relation map added or changed, any independently grounded overread that a plausible intended reader could make, and residue that must move from DRR or README into patterns or unfolding structures. |
 | `DRRDecisionAdequacyResultRef` | One C.2.1 result episteme whose EntityOfConcern is the exact checked DRR episteme and whose ClaimGraph states the required use and source, window, effective floor and source, coordinate-result claims, bounded omitted-question-search disposition, local status, first drafting action or repair, stop or return, reopen, and any grounded non-use boundary. Method, application, Work, witnesses, records, and later authority use remain separate objects or relations. |
 | `DRRDecisionAdequacyWitnessRefs` | Exact comparison, source, trace, case, or locus witnesses cited by result claims; witness presence is neither a value nor an evidence-use relation. |
 | `DRRDecisionAdequacyEvidenceUseRefs` | References to the independently established relations that support reliance on result claims. Reuse their adequate source and use grounds. Use A.10 when the source-to-use account is still implicit or its provenance, currentness or bounded reliance must remain replayable. |
-| `DRRDecisionAdequacyRecordRef` | Optional C.2.1 record episteme that packages refs to the configuration and whichever of Method, application, Work admission, result, witness, evidence-use, reopen, and grounded non-use values are actually current. Its function is reference packaging; status and authority use their direct receiving relations. |
+| `DRRDecisionAdequacyRecordRef` | Optional C.2.1 record episteme that packages refs to the configuration and the applicable Method, application, Work admission, result, witness, evidence-use, reopen, and grounded non-use values. Status and authority require their direct receiving relations. |
 | `DRRDecisionAdequacyStatus` | Local admissible-use value derived noncompensatorily from the required use and source, effective floor, coordinate values, and architecture or split blockers. Any F.10 status use or interpretation by a receiver is a separate relation. |
 
-These names are local evaluation positions and refs. They are not release state, review status, project evidence, gate result, assurance, work, publication, or pattern-quality values.
+These names identify local evaluation positions and references. Release or review status, project evidence, gate results, assurance, work, publication, and pattern-quality values are separate from those positions and references. Establish each on its own grounds.
 
 #### E.9.DA:4.2 - Optional exact evaluation application, Work, result, and record
 
@@ -120,10 +122,10 @@ AssessmentWorkAdmission?: <omit when no dated U.Work is asserted;
   AssessmentContainingSystemRef: <exact U.System>
   SemanticEvaluationMethodRef: <exact U.Method>
   EnactedMethodRef: <same SemanticEvaluationMethodRef>
-  EvaluatorSystemRef: <the admitted U.System that actually performs the Work>
+  EvaluatorSystemRef: <the admitted U.System that performs the Work>
   EvaluatorA13CoreBasisRef: <exact local agential kind and criterion, classification,
     obtaining assignment, scope, working situation, window, and adequate core evidence;
-    add a characteristic profile only when its own receiving use consumes it>
+    add a characteristic profile only when its receiving use consumes it>
   EvaluatorSystemRoleAssignmentSpeciesRef: <the declared assignment species and all
     identity-bearing participant positions used by EvaluatorA13CoreBasisRef>
   EvaluatorSystemRoleAssignmentRef: <the same obtaining assignment occurrence with all
@@ -165,9 +167,9 @@ DRRDecisionAdequacyResultEpisteme:
   EvidenceUseRelationRefs:
 ```
 
-An optional `DRRDecisionAdequacyRecordRef` may package refs to the configuration, semantic Method when used, assessment application when used, Work admission when asserted, result episteme, witnesses, evidence-use relations, publication, and currentness. Establish any assessment application or Work through its own applicable conditions. Coordinate claims, evidence use, assurance, F.10 status use, acceptance, and downstream authorization each need their own basis.
+An optional `DRRDecisionAdequacyRecordRef` can collect references to the configuration, result episteme, witnesses, evidence-use relations, publication, and currentness. Include the semantic Method and assessment application when used, and Work admission when Work is asserted. Establish the application and Work through their respective conditions. Coordinate claims, evidence use, assurance, F.10 status use, acceptance, and downstream authorization each require their own basis.
 
-When a viewpoint or grounding claim matters to the reliance, name its basis separately. Evaluator identity, record packaging, and source labels do not by themselves give the result that viewpoint or grounding.
+If reliance depends on a viewpoint or grounding claim, give the basis for that claim. The evaluator's identity, the record's packaging, and a source label cannot establish it on their own.
 
 `E.22` may frame whether the evaluation is floor-only, exceptional-improvement, trade-off, open-question, absorption, or proposal-producing and may raise a floor before evidence is judged. Keep the required authoring use fixed after evidence appears. `E.23` governs later repeated improvement work on the checked DRR after result claims or findings exist.
 
@@ -184,15 +186,19 @@ When a viewpoint or grounding claim matters to the reliance, name its basis sepa
 
 When a complete reusable coordinate evaluation is produced, each ordinal value is a content-evaluation claim about the exact checked DRR under the declared use and window. In an ordinary bounded review, the same scale may guide judgement without materializing a measure, Work record, result episteme, assurance, acceptance, or reward.
 
-The default effective floor is `3 sufficientlyExpressedForDeclaredUse` for every required E.9.DA coordinate. The required authoring use comes from the review request, an accepted decision, or an `E.22` question frame; the E.9.DA default supplies the floor when that source did not raise one before evaluation. A source may raise the whole floor or named coordinate floors before evidence is judged. The evaluator may not lower a floor, narrow the use or selected loci, or shorten the qualification window after seeing the result in order to make the DRR admissible. A diagnostic use with a lower target may report values, but it cannot yield `admissibleForDeclaredAuthoringUse`.
+Every required E.9.DA coordinate has a default floor of `3 sufficientlyExpressedForDeclaredUse`. The review request, an accepted decision, or an `E.22` question frame fixes the required authoring use. Use the E.9.DA default unless a source declares a higher floor for all coordinates or for named coordinates before the evidence is judged. Record the source of each raised floor.
+
+Once the evaluator has seen the result, they may not lower a floor, narrow the use or selected loci, or shorten the qualification window to make the DRR admissible. A diagnostic evaluation with a lower target may report values. It cannot yield `admissibleForDeclaredAuthoringUse`.
 
 #### E.9.DA:4.4 - Required decision-adequacy coordinates
 
-Before assigning values, run the bounded omitted-question search from §4. Ask whether the DRR omitted an important question that would change its answer, content architecture, source use, consumer obligation, first drafting action, or stop. Inspect only enough of the governed problem, problem-owning practice, current sources, strongest live alternative, failure and recovery cases, and true direct consumers to answer that question.
+Before assigning values, run the bounded omitted-question search from §4. Ask whether the DRR omitted an important question that would change its answer, content architecture, source use, consumer obligation, first drafting action, or stop. Inspect only enough of the governed problem, problem-owning practice, current sources, strongest live alternative, failure and recovery cases, and direct consumers to answer that question.
 
-If an important omitted question is found, state it as a substantive finding before coordinate closure and reassess every affected decision, architecture, source-use, actionability and boundary coordinate under its value rule. Do not hide it by moving to an easier use. When none is found, an ordinary clean review needs no separate ledger; a reusable result records only the checked basis and clean disposition needed by its named reliance.
+If the search finds an important omitted question, state it as a substantive finding before closing the coordinates. Reassess each affected decision, architecture, source-use, actionability and boundary coordinate under its value rule, keeping the required use fixed. When the search finds no such question, an ordinary clean review needs no separate ledger. A reusable result records the checked basis and clean disposition its named reliance needs.
 
-For a framework-architecture decision, recover the field and whole-use question from the initiating problem and source basis before evaluating the proposed owner. Inspect the decisive E.4.PFAD comparison, including any current framework boundaries that the new material puts in question. A correct list of suppliers, suitable carrier, closed alternative rows or successful use of a newly written application cannot by itself establish that the previous architecture already supplies that whole. Preserve those useful results at their actual scope; leave the architecture conclusion open when the required field or redistribution comparison is absent.
+For a framework-architecture decision, recover the practice field and the full use the initiating problem and sources require before evaluating the proposed owner. Inspect the decisive E.4.PFAD comparison, including any current framework boundaries that the new material calls into question.
+
+A correct list of suppliers, a suitable carrier, closed alternative rows, or successful use of a newly written application can each support a narrower conclusion. None by itself establishes that the previous architecture already supplies the whole. Preserve each result at its demonstrated scope. Leave the architecture conclusion open when the required field or redistribution comparison is absent.
 
 
 | Coordinate | Evaluation question |
@@ -208,18 +214,18 @@ For a framework-architecture decision, recover the field and whole-use question 
 | `LexicalAndNamingClosure` | Does actual proposed wording preserve the live kind, claim, relation, ordinary meaning, and first action under E.8 and F.19, using E.10, F.18, A.6.P, C.2.P, or the concrete defining or constraining pattern only where needed? |
 | `SoTAAndEvidenceUseInDecision` | Does each decision-governing source change a decision payload, and are non-SoTA source uses bounded? |
 | `ScopeBoundaryAndNonOverread` | Are the selected decision scope, action-changing outside items, source-use or missing-structure return conditions, and lost distinctions explicit without letting precision-restoration defects or architecture-memo leakage displace the selected answer? When a specific competing reading is independently grounded and plausible, is the smallest needed correction stated? |
-| `ConsequencesAndRegressionCoverage` | Are costs, validation obligations, source-loss regressions, actual-host cases, preserved predecessor ideas, near misses, and true direct-consumer changes sufficient to protect drafting without demanding repeated full-corpus proof? |
+| `ConsequencesAndRegressionCoverage` | Are costs, validation obligations, source-loss regressions, actual-host cases, preserved predecessor ideas, near misses, and changes to direct consumers sufficient to protect drafting without demanding repeated full-corpus proof? |
 | `SiblingDecisionCoordination` | Is coordination with other `DRR`s, accepted decisions, or evaluation patterns explicit without duplication or weakening? |
 | `AdministrativeStateAndAuthoringHistorySeparation` | Are review logistics, packet state, landing, monolith placement, chat history, and authoring history kept out of decision evidence? |
-| `CorpusEcologyAndShadowSpecResistance` | Does the DRR place repeated doctrine in the concrete patterns that carry it, update true direct consumers, and avoid duplicate local variants or shadow specs? |
+| `CorpusEcologyAndShadowSpecResistance` | Does the DRR place repeated doctrine in the concrete patterns that carry it, update the consumers that depend directly on the distributed content, and avoid duplicate local variants or shadow specs? |
 
-Coordinate separation is by repair question. One `DRR` section may support several coordinates, but the rationale must state the distinct property supported for each. When two heads always fail and repair together, the `DRR` or the evaluation pattern needs characteristic-space repair through `A.19.ECS`.
+Distinguish coordinates by the repair question each answers. One `DRR` section may support several coordinates. State which property it supports for each. When two coordinates always fail and require repair together, use `A.19.ECS` to repair the characteristic space in the `DRR` or the evaluation pattern.
 
 #### E.9.DA:4.4a - Result-row discipline and calibration
 
 Use the question-to-ground and result-acceptance operation in `E.22:4.3` within this evaluation.
 
-A complete reusable E.9.DA result makes every coordinate, its value or unestablished state, the applicable adjacent-value rationale, and its evidence locus recoverable. Choose its form for the receiving use, preserving any required serialization; the table below is one sufficient form:
+A complete reusable result must let the reader recover every coordinate, its value or unestablished state, the applicable adjacent-value rationale, and the evidence locus. Choose a form that suits the receiving use and preserves any required serialization. The table shows one sufficient form.
 
 | Coordinate | Value | ShortRationale | EvidenceLocus |
 |---|---:|---|---|
@@ -227,7 +233,9 @@ A complete reusable E.9.DA result makes every coordinate, its value or unestabli
 
 For values `1..4`, explain why the lower adjacent value would understate the evidence and the higher adjacent value would overstate it. For `0`, explain why `1` would overstate the evidence and what would raise the value or reopen it. For `5`, explain why `4` would understate the evidence and what would lower the value or reopen it.
 
-A result that omits a required coordinate, its value or unestablished state, applicable rationale, or evidence locus is incomplete for reusable coordinate use. An ordinary bounded review remains sufficient when it precisely states the checked DRR, required use and source, effective floor, substantive finding, repaired text or clean unchanged result, first action, and stop or reopen condition. When required evidence is missing or unchecked, identify the gap and leave the affected value unestablished until the needed check is completed. Assign a lower value only when checked content shows the inadequacy specified by that coordinate's value rule; for example, an absent required decision in the DRR can justify a low value. An answer-changing omitted question requires reassessment of each dependent coordinate under that same rule; it is not an extra coordinate or a compensable checklist item.
+A reusable coordinate result is incomplete if any required coordinate, its value or unestablished state, the applicable rationale, or its evidence locus is missing. An ordinary bounded review is sufficient when it clearly identifies the checked DRR, the required use and its source, the effective floor, a substantive finding, repaired text or a clean unchanged result, the first action, and the stop or reopen condition.
+
+When required evidence is missing or unchecked, identify the gap. Leave the affected value unestablished until the needed check is complete. Assign a lower value only if checked content establishes the inadequacy in that coordinate's rule. For example, the checked DRR may lack a required decision. If an omitted question changes the answer, reassess each dependent coordinate under its own rule. The question adds no coordinate, and strength on another coordinate cannot compensate.
 
 Common calibration points:
 
@@ -240,7 +248,7 @@ Common calibration points:
 
 #### E.9.DA:4.5 - Local result status and stop condition
 
-The following are local conclusions for the exact checked DRR, required authoring use, effective floor, and qualification window. They may be stated in an ordinary bounded result; a C.2.1 aggregate result episteme is needed only when a named later reliance needs that exact reusable object. They are not review decisions, gates, permissions, assurance levels, or work states.
+Each status below applies to the DRR under review, required use, effective floor, and qualification window. An ordinary bounded review may state it. Create a C.2.1 aggregate result episteme only when a named later reliance needs that reusable object. A local status neither decides a review nor establishes a gate result, permission, assurance level, or work state.
 
 | Status | Meaning |
 |---|---|
@@ -250,13 +258,15 @@ The following are local conclusions for the exact checked DRR, required authorin
 | `splitDecisionRequired` | Several coupled questions need separate decision records or explicit convergence before the current result can be admissible. |
 | `holdForArchitectureDecision` | Content object, branch, neighbour boundary, selected locus, structural-view relation, missing-structure return condition, source-use relation, or publication split must be decided before adequacy can close. |
 
-The status rule is noncompensatory. A strong value on one coordinate cannot offset another required coordinate below its effective floor. An unresolved architecture blocker yields `holdForArchitectureDecision` regardless of the other values; a required split yields `splitDecisionRequired`; an easier or different use yields `newFrameRequired`. Otherwise any below-floor required coordinate yields `repairBeforeDrafting`. State the required-use source, effective floor, and floor source in either result form so another evaluator can reproduce the conclusion. A missing or unchecked basis does not establish a below-floor value. Complete the needed check before deriving a conclusion that depends on it; an unestablished required value cannot support `admissibleForDeclaredAuthoringUse`. Independently established architecture, split or below-floor findings remain usable.
+Derive status without compensation across coordinates. An unresolved architecture blocker yields `holdForArchitectureDecision` regardless of the other values. A required split yields `splitDecisionRequired`, and an easier or different use yields `newFrameRequired`. Otherwise, any required coordinate below its effective floor yields `repairBeforeDrafting`. State the required-use source, effective floor, and floor source in either result form so another evaluator can reproduce the conclusion.
+
+When evidence needed for a coordinate is missing or unchecked, that value remains unestablished. Complete the check before drawing a conclusion that depends on that value. An unestablished required value cannot support `admissibleForDeclaredAuthoringUse`. An independently established architecture blocker, required split, or below-floor finding remains usable.
 
 A result carrying `admissibleForDeclaredAuthoringUse` states the first drafting action, stop or return, and reopen condition. A non-ready result states the first repair, split boundary, or architecture question. Add a non-admissible reading only when an independent local ground makes it plausible and action-changing; any later gate or authorization uses a separately defined receiving relation.
 
 #### E.9.DA:4.6 - Compact result form
 
-An ordinary bounded result is deliberately short:
+Keep an ordinary bounded result short. One possible form follows.
 
 ```text
 E.9.DA bounded review:
@@ -271,9 +281,9 @@ E.9.DA bounded review:
   Reopen if:
 ```
 
-This is sufficient when no named later use needs a reusable coordinate result. A clean focused review may point directly to the unchanged DRR and needs no separate clean ledger for the bounded omitted-question search. An inspect-repair-verify pass points to the repaired text and focused verification.
+This form suffices when no named later use needs a reusable coordinate result. A clean focused review may point to the unchanged DRR without a separate clean ledger for the bounded omitted-question search. After an inspect–repair–verify pass, point to the repaired text and its focused verification.
 
-When a complete reusable coordinate evaluation is explicitly required, or a named later reliance needs exact result identity, extend rather than replace the bounded result:
+Extend the bounded result when a complete reusable coordinate evaluation is explicitly required or a named later reliance needs exact result identity. Keep the bounded result's content in the extended form.
 
 ```text
 E.9.DA reliance-bearing result:
@@ -288,11 +298,11 @@ E.9.DA reliance-bearing result:
   Evidence basis checked, including the bounded omitted-question search:
   Coordinate results: <each Coordinate, Value or unestablished state, ShortRationale, EvidenceLocus; form as in 4.4a>
   Precision-restoration reading and triggered exact checks:
-  Witness and evidence-use refs actually used by the reliance:
+  Witness and evidence-use refs on which the named use relies:
   Status, first action or repair, bounded overread, and reopen condition: <include stop or return; overread only when independently grounded>
 ```
 
-Only this reliance-bearing branch requires every coordinate and the exact identities its receiving use consumes. Method, application and Work refs remain independently conditional. Asserting dated `U.Work` requires the enacted Method, every precise performer's A.13 core and independent A.15.1 admission; an A.6.1 application is required only when the receiving claim consumes that separately established application. F.6 is additionally required only for precise assignment-bound attribution. Downstream status use, assurance, E.19 admission, authority and drafting permission retain their own direct grounds.
+Only the reliance-bearing branch requires every coordinate and the exact identities its receiving use needs. Method, application, and Work remain independently conditional. A claim of dated `U.Work` requires the enacted Method, every precise performer's A.13 core, and independent A.15.1 admission. Include an A.6.1 application only if the receiving claim uses that separately established application. Add F.6 only for precise assignment-bound attribution. Downstream status use, assurance, E.19 admission, authority, and drafting permission require their own direct grounds.
 
 #### E.9.DA:4.7 - Structured finding row when reuse needs it
 
@@ -307,7 +317,9 @@ E.9.DA finding:
   Closure test: <what changed DRR text would show>
 ```
 
-Use this row when a transferable structured finding is required. An ordinary bounded review may instead place the same precise diagnosis and repair direction in its one handoff or repaired text. Labels such as `weak DRR`, `needs more evidence`, or `architecture unclear` remain too vague in either form. Record one independently repairable defect once and name all affected coordinates or statuses; keep their distinct values and rationales.
+Use this row when the finding must be reusable in a structured form. In an ordinary bounded review, you may put the same precise diagnosis and repair direction in the handoff or repaired text. Labels such as `weak DRR`, `needs more evidence`, or `architecture unclear` leave the repair unspecified in either form. Record each independently repairable defect once and identify all affected coordinates or statuses, preserving their distinct values and rationales.
 
-When `E.22`, `E.23`, absorption, or exceptional-improvement framing requests improvement, below-floor coordinate-result claims support finding rows and subsequent repair work. Above-floor coordinates receive proposal rows only for substantive non-dominated decision-content opportunities inside the declared authoring use: a more decisive selected answer, source payload mutation, selected-locus obligation, architecture split or merge decision, rejected-alternative closure, first drafting action, regression case, or deletion or relocation of apparatus that would otherwise become pattern prose. Do not treat every value below `5` as a defect. A `4` may be the correct stop value only with loci showing why further decision-content movement is dominated, unavailable, or outside scope.
+When `E.22`, `E.23`, absorption, or exceptional-improvement framing requests improvement, below-floor claims support finding rows and subsequent repair. Use a proposal row for an above-floor change only when it offers a substantive, non-dominated improvement within the declared authoring use. It might settle the answer more decisively, change the adopted source payload, assign a selected-locus obligation, decide an architecture split or merge, close a rejected alternative, specify a first drafting action or regression case, or remove or relocate apparatus that would otherwise enter the pattern prose.
+
+A value below `5` is not in itself a defect. Stopping at `4` requires loci showing why a further change to decision content is dominated, unavailable, or outside scope.
 

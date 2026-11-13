@@ -6,12 +6,12 @@ section_id: "E.4.DPF:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__011_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.4.DPF — Domain and Local Principle Frameworks: Whether and How to Author and Publish"
   - "E.4.DPF:10 — Rationale"
-line_start: 95274
-line_end: 95279
+line_start: 100251
+line_end: 100256
 dependencies:
   - "A.1.1"
   - "A.13"
@@ -55,14 +55,11 @@ dependencies:
   - "G.11"
   - "G.2"
 keywords:
-  - "and boundary into additional mini-method columns. Pattern bodies remain the main language of use"
-  - "do not copy first move"
-  - "result"
 ---
 
 ### E.4.DPF:10 - Rationale
 
 Domain and local frameworks are FPF-grounded framework editions for declared domain or local use frames. They need domain source work, FPF authoring discipline, architecture decisions, direct relation assertions, quality loops, and refresh routes. Add the relation or edition records needed for a current maintenance use; a direct assertion closes the task when no such representation is needed.
 
-Its contribution is one framework-authoring Method plus Plain selection and branching guidance. This episteme qualifies as its A.3.2 `U.MethodDescription` because it describes that admitted Method as its EntityOfConcern. E.8 supplies the pattern-authoring and publication-form discipline; A.3.2 supplies MethodDescription qualification. When an A.22.CGUS is genuinely current, admit it separately with exact conditions, continuations, stops, and demonstration. Every produced or selected result still needs a receiving use and the pattern that defines, constrains, or tests that result or use relation.
+Its contribution is one framework-authoring Method plus Plain selection and branching guidance. This episteme qualifies as its A.3.2 `U.MethodDescription` because it describes that admitted Method as its EntityOfConcern. E.8 supplies the pattern-authoring and publication-form discipline; A.3.2 supplies MethodDescription qualification. When an A.22.CGUS is current, admit it separately with exact conditions, continuations, stops, and demonstration. Every produced or selected result needs a receiving use and the pattern that defines, constrains, or tests that result or use relation.
 

@@ -6,12 +6,12 @@ section_id: "C.22.PFR:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.PFR/C.22.PFR__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.22.PFR — Problematic-For Relation"
   - "C.22.PFR:7 — Conformance Checklist"
-line_start: 63625
-line_end: 63641
+line_start: 66320
+line_end: 66336
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -41,7 +41,7 @@ keywords:
 9. `[adverseEpisodeStart, open]` is used only by a claim that supports current continuous obtaining; a later supported end completes the claimed extent on the same stable occurrence reference.
 10. Actual non-adverse B between actual adverse A and C yields two world-side PFR occurrences. Evidence can support, refute, or leave that boundary unresolved; a gap alone proves neither one occurrence nor two.
 11. Method availability and solvability claims remain separate from PFR actuality and identity.
-12. Possible conditions remain exact forecast, scenario, counterfactual, or anticipated-condition claims under their direct governors until both participant relations and adverse predicate truth obtain; assertion polarity and reliance posture do not substitute for those obtaining conditions.
+12. Possible conditions remain forecast, scenario, counterfactual, or anticipated-condition claims under their direct governors until both participant relations and adverse predicate truth obtain; assertion polarity and reliance posture do not substitute for those obtaining conditions.
 13. Ordinary readable use can stop before explicit PFR materialization when no receiving claim needs Problem identity.
-14. Installed-component, battery-voltage, proof-gap, clinical-condition, missed-transfer and hot-surface cases remain explicitly non-conforming until their named direct condition and, where applicable, problem-for/applicability governors exist; a phrase, measurement, diagnosis, record, card, or position in a flow structure does not supply those relations.
+14. Installed-component, battery-voltage, proof-gap, clinical-condition, missed-transfer and hot-surface cases remain non-conforming until their named direct condition and, where applicable, problem-for/applicability governors exist; a phrase, measurement, diagnosis, record, card, or position in a flow structure does not supply those relations.
 

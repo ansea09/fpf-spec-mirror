@@ -6,12 +6,12 @@ section_id: "C.39.RO:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.RO/C.39.RO__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.39.RO — Turn a Construction into a Reusable Operation"
   - "C.39.RO:3 — Forces"
-line_start: 83467
-line_end: 83477
+line_start: 87520
+line_end: 87530
 dependencies:
   - "A.3.1"
   - "A.3.2"

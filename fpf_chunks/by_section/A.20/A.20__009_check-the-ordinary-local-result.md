@@ -6,12 +6,12 @@ section_id: "A.20:7"
 section_title: "Check the ordinary local result"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__009_check-the-ordinary-local-result.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.20 — Constraint Validity for Transformation Steps"
   - "A.20:7 — Check the ordinary local result"
-line_start: 39752
-line_end: 39771
+line_start: 41330
+line_end: 41349
 dependencies:
   - "A.10"
   - "A.15"
@@ -33,7 +33,7 @@ keywords:
 
 For an ordinary A.20 use, check only these five points:
 
-1. **Subject and constraint (`CC-A20-1`).** Name the exact subject and the exact constraint and edition being applied.
+1. **Subject and constraint (`CC-A20-1`).** Name the subject and the constraint and edition being applied.
 2. **Case and applicability (`CC-A20-2`).** State the assumptions, case facts, scope, evaluation window, and why the constraint is `required`, `optional`, or `notApplicable`.
 3. **Evaluation and outcome (`CC-A20-2`).** Record `evaluated` or `notRun`. For an evaluated applicable constraint, record `satisfied`, `violated`, `unknown`, or `error` under the constraint's own outcome rule.
 4. **Support (`CC-A20-1`).** Give the witness, counterexample, missing-information reason, or error reason that supports that result.
@@ -43,9 +43,9 @@ A specialist constraint such as a stability bound, return-shape condition, or re
 
 #### A.20:7.1 - Extensions only when another use is current
 
-| Trigger | Additional check | Direct pattern |
+| Trigger | Additional check | Pattern |
 | --- | --- | --- |
 | A gate consumes the result | Keep every applicable GateFit result independently recoverable; an A.20 failure changes only the A.21 aggregate under its current rule (`CC-A20-5`). A deferred required check remains `notRun` (`CC-A20-6`). | `A.21` |
-| The exact proposition in an A.6.4 bounded-use assertion q is the named internal constraint | Apply A.20 to that proposition for the stated case and return only its `ConstraintValidityResult`; keep r, q, any operation application, and the A.6.4 current-case judgement separate. A Bridge or reversibility claim enters only when separately current (`CC-A20-8`). | `A.6.4`; add `F.9` only for a separate semantic-correspondence claim |
-| Publication, structure, time, refresh, evidence, assurance, or Work is current | Keep those claims in their own result or relation and follow the direct pattern (`CC-A20-9`). A.20 adds no publication-face, path, slice, scheduler, gate-profile, or gate-algebra fields (`CC-A20-7`). | `E.17`, `E.18`, `C.27`, `G.11`, `A.10`, `B.3`, or `A.15`, as applicable |
+| The proposition in an A.6.4 bounded-use assertion q is the named internal constraint | Apply A.20 to that proposition for the stated case and return only its `ConstraintValidityResult`; keep r, q, any operation application, and the A.6.4 current-case judgement separate. A Bridge or reversibility claim enters only when separately current (`CC-A20-8`). | `A.6.4`; add `F.9` only for a separate semantic-correspondence claim |
+| Publication, structure, time, refresh, evidence, assurance, or Work is current | Keep those claims in their own result or relation and follow the pattern (`CC-A20-9`). A.20 adds no publication-face, path, slice, scheduler, gate-profile, or gate-algebra fields (`CC-A20-7`). | `E.17`, `E.18`, `C.27`, `G.11`, `A.10`, `B.3`, or `A.15`, as applicable |
 

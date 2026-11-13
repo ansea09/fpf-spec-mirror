@@ -6,12 +6,12 @@ section_id: "C.29:6"
 section_title: "Naming, ontology, and epistemic precision-restoration account"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__007_naming-ontology-and-epistemic-precision-restoration-account.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:6 — Naming, ontology, and epistemic precision-restoration account"
-line_start: 69645
-line_end: 69665
+line_start: 72738
+line_end: 72758
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -77,7 +77,7 @@ The stable name is `Mathematical Lens Use` because `C.29` governs a declared use
 
 When one `C.29` application needs a mathematical-lens name to become reusable outside that application, use `F.18` local-first naming; when it quantifies over a class of described entities, use `C.3` Kind-CAL; when it creates or reuses a durable concept or record family, use `F.8` minting or reuse and `E.9` design-rationale discipline.
 
-#### C.29:6.3 - Ontology guard selected for FPF
+#### C.29:6.3 - Subject and representation
 
 > Distinguish the subject from its description and carrier. A mathematical object may itself be the subject, or it may represent another subject through a correspondence. State what that correspondence establishes: representation alone proves neither identity nor source-domain ontology; an established identity, equivalence or embedding remains usable at its actual strength.
 

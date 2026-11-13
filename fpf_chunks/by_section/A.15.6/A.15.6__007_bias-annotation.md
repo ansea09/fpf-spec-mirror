@@ -6,12 +6,12 @@ section_id: "A.15.6:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.6/A.15.6__007_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.15.6 — Recover What Project, Process, or Case Wording Refers To"
   - "A.15.6:6 — Bias-Annotation"
-line_start: 31411
-line_end: 31418
+line_start: 32582
+line_end: 32591
 dependencies:
   - "A.1"
   - "A.1.STM"
@@ -43,7 +43,9 @@ keywords:
 
 This pattern has a project-recovery bias because project wording is widespread in FPF names. The process and case branches prevent that bias from making composite work the subject of every management claim.
 
-It has a 4D work-occurrence bias for actual projects. The guard has an explicit order: first A.13-qualified performer facts and A.15.1 Work admission with obtaining work-parthood; separately, F.6 attribution when a precise assignment-bound claim is current; apply the five project-specific qualifications to the independently admitted Work. A temporary organization, plan, Transformation, product, dashboard, or time-contained occurrence remains a neighboring object unless the admission and qualification facts establish the composite Work and the claim is actually about it.
+It has a 4D work-occurrence bias for actual projects. The guard has an order: first A.13-qualified performer facts and A.15.1 Work admission with obtaining work-parthood; separately, F.6 attribution when a precise assignment-bound claim is current; apply the five project-specific qualifications to the independently admitted Work.
 
-The examples include engineering, medicine, and learning to resist software-document bias. **Working product** is Plain recognition wording. Recover the entity under the pattern that defines or constrains it, then state the production-work, entity-identity-inception, changed-referent, measurement, evaluation, delivery, acceptance, or later-use claim that the decision actually needs. Keep the Plain wording only while the needed relation or claim remains recoverable.
+A temporary organization, plan, Transformation, product, dashboard, or time-contained occurrence remains a neighboring object unless the admission and qualification facts establish the composite Work and the claim is about it.
+
+The examples include engineering, medicine, and learning to resist software-document bias. **Working product** is Plain recognition wording. Recover the entity under the pattern that defines or constrains it, then state the production-work, entity-identity-inception, changed-referent, measurement, evaluation, delivery, acceptance, or later-use claim that the decision needs. Keep the Plain wording only while the needed relation or claim remains recoverable.
 

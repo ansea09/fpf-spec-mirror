@@ -6,12 +6,12 @@ section_id: "E.17.ID.CR:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.ID.CR/E.17.ID.CR__011_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.17.ID.CR — Compare Sources Within a Shared Review Frame (ComparativeReviewUnit)"
   - "E.17.ID.CR:10 — Rationale"
-line_start: 109188
-line_end: 109196
+line_start: 115906
+line_end: 115914
 dependencies:
   - "A.15"
   - "A.15.2"
@@ -42,9 +42,9 @@ keywords:
 ### E.17.ID.CR:10 - Rationale
 
 Teams already write small comparative review units, often as comparison notes or sheets, to move a review forward.
-What they usually lack is a disciplined way to keep that unit useful without letting it silently become an equivalence claim, a hidden hypothesis, a redesign push, or a release decision.
+What they usually lack is a disciplined way to keep that unit useful without letting it imply equivalence, an unstated hypothesis, pressure to redesign, or a release decision.
 
-This pattern exists to protect that everyday bounded-comparison use.
+The pattern protects that everyday use of bounded comparisons.
 It keeps a comparative review unit usable by making five entries visible enough to inspect: the bounded comparative review unit, the source references, the bounded comparative lift, the blocked downstream claim or effect, and the boundary trigger that would end interpretation.
-The gain is practical: a team can compare available source epistemes or source publications honestly without pretending that a helpful review unit already carries more authority than it really does.
+A team can compare available source epistemes or source publications while keeping the authority of the comparison within its bounds.
 

@@ -6,12 +6,12 @@ section_id: "F.10:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.10 — Apply and Interpret Evidence, Standard and Requirement Statuses"
   - "F.10:4 — Solution"
-line_start: 122034
-line_end: 122184
+line_start: 129748
+line_end: 129908
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -47,7 +47,7 @@ Recover the governed target and direct result before applying a local status. Tr
 
 #### F.10:4.1 - Three status families
 
-F.10 supplies a small set of three status families—`EvidenceStatus`, `StandardStatus`, and `RequirementStatus`—for common project use. A family classifies local status values; it is not a universal result kind and does not create its targets.
+F.10 supplies three status families—`EvidenceStatus`, `StandardStatus`, and `RequirementStatus`—for common project use. A family classifies local status values; it is not a universal result kind and does not create its targets.
 
 | Status family | Modality | Typical exact target | What the family permits one status-use assertion to say |
 | --- | --- | --- | --- |
@@ -55,7 +55,7 @@ F.10 supplies a small set of three status families—`EvidenceStatus`, `Standard
 | `StandardStatus` | deontic and curatorial | exact standard/profile edition, method description, governed configuration, or other admitted standard target | What the exact governing source sanctions, discourages, or supersedes for one scheme, edition, scope, window, and use. It is not an approval speech act, permission, runtime result, or requirement satisfaction. |
 | `RequirementStatus` | deontic and compliance-facing | exact requirement, duty, constraint, acceptance, or obligation clause | What is asserted about applicability, satisfaction, violation, waiver, or pending evaluation for that clause under its direct rule, scope, conditions, and window. It is not the clause, evaluation work, result, gate, or assurance. |
 
-A project may define local sublevels or labels, but each label resolves under one effective ReferenceScheme to one exact local sense and maps to one of these three families—`EvidenceStatus`, `StandardStatus`, or `RequirementStatus`—or to another status family defined by its own pattern. Adding a family row creates neither a system-role kind nor a global synonym.
+A project may define local sublevels or labels, but each label resolves under one effective ReferenceScheme to one exact local sense. Each label maps to one of the three F.10 families—`EvidenceStatus`, `StandardStatus`, or `RequirementStatus`—or to another status family defined by its own pattern. Adding a family row creates neither a system-role kind nor a global synonym.
 
 #### F.10:4.2 - Status value, use occurrence, assertion, and display
 
@@ -91,9 +91,13 @@ StatusUseRelation:
   NotCarried:
 ```
 
-For an F.10-family status, `StatusUseRelation(B,T,V,G,W,U)` obtains only when: `B` and `T` resolve to admitted governed objects; exact cell `V` has the required F.10 family/local sense under its effective ReferenceScheme; the family-specific source and any direct result/evaluation basis support applying `V` to `T`; `G` and `W` bound that application; and `U` is the named intended use without a stronger inference. Unknown or missing basis yields no positive occurrence and a `Pending`, `Inconclusive`, or explicit unresolved disposition only when that value's own rule is satisfied. Absence of evidence is never target falsity.
+For an F.10-family status, `StatusUseRelation(B,T,V,G,W,U)` obtains only when: `B` and `T` resolve to admitted governed objects; exact cell `V` has the required F.10 family/local sense under its effective ReferenceScheme; the family-specific source and any direct result/evaluation basis support applying `V` to `T`; `G` and `W` bound that application; and `U` is the named intended use without a stronger inference.
 
-One F.10 occurrence is identified by the exact ordered tuple `<B,T,V,G,W,U>`. Repeated evaluations, assertions, displays, rows, records, or citations create no duplicates. A changed bearer, target, value cell, scope, window, or intended use identifies another candidate. A changed source, evidence path, evaluation, or currentness fact can change whether the fixed candidate is warranted or obtains; it is not silently copied into relation identity. A status under another exact predicate keeps its own subject assertion and defining or constraining `ClaimGraph` instead of inheriting this predicate by family resemblance.
+If the deciding facts are unavailable, withhold the positive status assertion. State `Pending`, `Inconclusive` or another unresolved disposition only when its own rule is satisfied. Absence of evidence is never target falsity.
+
+One F.10 occurrence is identified by the exact ordered tuple `<B,T,V,G,W,U>`. Repeated evaluations, assertions, displays, rows, records, or citations create no duplicates. A changed bearer, target, value cell, scope, window, or intended use identifies another candidate.
+
+A changed source, evidence path, evaluation, or currentness fact can change whether the fixed candidate is warranted or obtains; it does not enter the relation identity. A status under another exact predicate keeps its own subject assertion and defining or constraining `ClaimGraph` instead of inheriting this predicate by family resemblance.
 
 A distinct C.2.1 status-assertion episteme states affirmative or negative polarity for the exact `StatusUseRelation`. A separate display or publication form may render that assertion. The assertion does not perform evaluation, and the display does not become the assertion, source, or actual receiving use.
 
@@ -149,7 +153,7 @@ These values classify evidential standing; they do not replace the observation, 
 4. `Deprecated` — discouraged, conditionally allowed, or being phased out.
 5. `Superseded` — replaced by another named edition, profile, or governing source.
 
-`Approved` does not mean that an approval act occurred unless its direct speech-act/decision relation is separately recovered; it grants no permission and proves no runtime satisfaction.
+`Approved` alone does not establish an approval act. That claim requires separate recovery of its direct speech-act/decision relation. The status grants no permission and proves no runtime satisfaction.
 
 **RequirementStatus** local values:
 
@@ -164,7 +168,9 @@ These values classify evidential standing; they do not replace the observation, 
 
 #### F.10:4.6 - Bridge and interpretation discipline
 
-Status meanings do not travel by label. When a comparison needs semantic correspondence between different `<ReferenceScheme, LocalSenseClaim>` projections, resolve the exact F.17 cells and test the F.9 predicate. Cite an obtaining Bridge as the semantic premise alongside the separate bounded-use claim and current A.10 or B.3 reliance needed by that use. Its Card or description is separate and optional; optional F.9 `CL` remains evidence-strength shorthand, not a use threshold. The Bridge makes no status-use occurrence obtain and produces no target result.
+Status meanings do not travel by label. When a comparison needs semantic correspondence between different `<ReferenceScheme, LocalSenseClaim>` projections, resolve the exact F.17 cells and test the F.9 predicate. Cite an obtaining Bridge as the semantic premise alongside the separate bounded-use claim and current A.10 or B.3 reliance needed by that use.
+
+A Bridge Card or description is separate and optional. F.9 `CL` is optional evidence-strength shorthand, not a use threshold. The Bridge makes no status-use occurrence obtain and produces no target result.
 
 When one status-use occurrence is used to explain or evaluate a status question of another family, scheme, or modality, recover an exact `StatusInterpretationRelation`:
 
@@ -180,7 +186,9 @@ StatusInterpretationRelation:
   IntendedUse:
 ```
 
-It obtains only when the named interpretation rule admits that source occurrence for the exact target question, direction, scope, window, and use. Its occurrence identity is the exact ordered `<SourceStatusUseOccurrenceRef, TargetStatusQuestionRef, Direction, InterpretationRuleRef, ClaimScopeAndWindow, IntendedUse>` tuple; a Bridge ref is a separate qualifying premise when the use needs an obtaining F.9 semantic relation between different local-sense projections. A family edge, shared word, Bridge, table row, or source order is not this relation. The rule application and its result claim remain separate. Identify dated evaluation Work only when its history is current and independently admitted under A.13/A.15.1. Even a positive interpretation relation does not by itself produce `RequirementStatus=Satisfied`, `StandardStatus=Approved`, a gate result, permission, assurance, or actual later reliance.
+It obtains only when the named interpretation rule admits that source occurrence for the exact target question, direction, scope, window, and use. Its occurrence identity is the exact ordered `<SourceStatusUseOccurrenceRef, TargetStatusQuestionRef, Direction, InterpretationRuleRef, ClaimScopeAndWindow, IntendedUse>` tuple; a Bridge ref is a separate qualifying premise when the use needs an obtaining F.9 semantic relation between different local-sense projections.
+
+A family edge, shared word, Bridge, table row, or source order is not this relation. The rule application and its result claim remain separate. Identify dated evaluation Work only when its history is current and independently admitted under A.13/A.15.1. A positive interpretation relation alone does not produce `RequirementStatus=Satisfied`, `StandardStatus=Approved`, a gate result, permission, assurance, or actual later reliance.
 
 #### F.10:4.7 - Design-run discipline
 
@@ -190,5 +198,7 @@ Keep three questions separate:
 * What does an exact governing source sanction for this method description, profile, standard edition, or configuration and use?
 * What does the direct requirement-evaluation result say about this exact clause, target, scope, conditions, and runtime/design window?
 
-A standard-approved method description may be admissible for selection under that profile. It does not show that the method was enacted or that a runtime clause was satisfied. Runtime evidence may become an admitted input to requirement evaluation through an exact evidence-use and status-interpretation relation. It does not approve the method, standard, gate, or release.
+A standard-approved method description may be admissible for selection under that profile. It does not show that the method was enacted or that a runtime clause was satisfied.
+
+Runtime evidence may become an admitted input to requirement evaluation through an exact evidence-use and status-interpretation relation. It does not approve the method, standard, gate, or release.
 

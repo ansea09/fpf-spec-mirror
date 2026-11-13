@@ -6,12 +6,12 @@ section_id: "A.2.8:7"
 section_title: "Bias Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8/A.2.8__010_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.2.8 — U.Commitment — Individual Duties to Act or Refrain"
   - "A.2.8:7 — Bias Annotation"
-line_start: 8381
-line_end: 8391
+line_start: 8720
+line_end: 8730
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -48,5 +48,5 @@ keywords:
 | Legal-form bias | A maximal legal-policy schema is imposed on every duty. | Keep the direct participants minimal and establish the rule-required instituting basis. Add further legal-policy detail or assurance only when the receiving claim needs it. |
 | Evidence-as-constitution | An audit trail is treated as what creates the duty. | Keep support and institution separate. |
 | Responsibility overreach | Duty is read as ownership or accountability. | Apply the direct responsibility predicate or return its missing governor. |
-| Keyword bias | `MUST`, `SHALL`, `MAY`, or `responsible` selects an ontology by spelling. | Recover the claim first, then select the exact relation or ordinary non-use. |
+| Keyword bias | `MUST`, `SHALL`, `MAY`, or `responsible` selects an ontology by spelling. | Recover the claim first, then select the relation or ordinary non-use. |
 

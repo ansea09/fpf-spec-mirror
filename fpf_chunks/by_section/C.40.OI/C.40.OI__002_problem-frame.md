@@ -6,12 +6,12 @@ section_id: "C.40.OI:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OI/C.40.OI__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.40.OI — Bound an Opportunity Inquiry"
   - "C.40.OI:1 — Problem Frame"
-line_start: 86452
-line_end: 86470
+line_start: 90686
+line_end: 90704
 dependencies:
   - "A.15.9"
   - "B.5.PI"
@@ -27,11 +27,11 @@ keywords:
 
 What inquiry is worth conducting when someone says “we should develop,” names a fashionable solution, or asks what to develop next before the receiving change is clear?
 
-Use this pattern when a person, organization, community, AI arrangement, platform, facility, research programme, or another identified subject has a development concern or aspiration but the receiving use, horizon, protected conditions, reason to explore, or affordable inquiry effort is still loose. The first useful result is a bounded inquiry that another person can inspect, or one exact missing premise that prevents such an inquiry.
+Use this pattern when a person, organization, community, AI arrangement, platform, facility, research programme, or another identified subject has a development concern or aspiration but the receiving use, horizon, protected conditions, reason to explore, or affordable inquiry effort is loose. The first useful result is a bounded inquiry that another person can inspect, or one missing premise that prevents such an inquiry.
 
 Begin here without appointing an adviser. A person can bound a self-inquiry and continue into opportunity construction. When a distinct performer is already being asked to advise a named recipient, this pattern can recover the subject, use, and horizon, but the applicable professional engagement Method governs whether the advising relationship itself is admissible.
 
-**Cheap exit.** Reuse an existing inquiry when it already identifies the same subject, receiving use, horizon, protections, posture, and effort boundary and no material premise changed. If a qualified domain practice owns the whole question, use it directly. If adequate alternatives already exist and the remaining need is comparison, recommendation, or authorized choice, stop opportunity construction and use the direct decision-support owner.
+**Cheap exit.** Reuse an existing inquiry when it already identifies the same subject, receiving use, horizon, protections, posture, and effort boundary and no material premise changed. If a qualified domain practice owns the whole question, use it. If adequate alternatives already exist and the remaining need is comparison, recommendation, or authorized choice, stop opportunity construction and use the decision-support owner.
 
 **Ordinary non-use boundary.** A research account of change in a non-cultural population or lineage is not advice to that population. A separately authorized researcher may have an opportunity or decision question, but the researcher or sponsoring organization—not the population—then supplies the recipient and authority boundary.
 

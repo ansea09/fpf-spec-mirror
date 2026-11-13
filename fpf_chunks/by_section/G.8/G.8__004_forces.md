@@ -6,12 +6,12 @@ section_id: "G.8:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.8/G.8__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.8 — Package Method-Family Admissibility Rules and Maturity Ladders (SoS-LOG)"
   - "G.8:3 — Forces"
-line_start: 130669
-line_end: 130679
+line_start: 138729
+line_end: 138739
 dependencies:
   - "A.10"
   - "A.21"
@@ -38,14 +38,14 @@ keywords:
   - "SoS-LOG"
   - "admissibility ledger"
   - "rule ids"
-  - "tri-state {pass"
+  - "tri-state {pass\\"
 ---
 
 ### G.8:3 - Forces
 
 | Force                                        | Tension                                                                                                      |
 | -------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
-| **Pluralism vs. dispatchability**            | Preserve multiple method families and partial orders ↔ still provide a consumable artefact for `G.5`.        |
+| **Pluralism vs. dispatchability**            | Preserve multiple method families and partial orders ↔ provide a consumable artefact for `G.5`.        |
 | **Auditability vs. authoring friction**      | Fine‑grained pins and citations ↔ keeping authoring lightweight and notation‑independent.                    |
 | **Maturity as poset vs. scalar ranking**     | The declared ladder may be ordinal or partially ordered ↔ a single readiness number can hide its distinctions.                                  |
 | **Telemetry richness vs. decision hygiene**  | Rich QD/OEE telemetry ↔ avoid illegitimate promotion into dominance without explicit policy.                 |

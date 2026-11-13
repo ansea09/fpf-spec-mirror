@@ -6,24 +6,20 @@ section_id: "C.30.TFS-REL:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.TFS-REL/C.30.TFS-REL__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.30.TFS-REL — Use Transformation-Flow Structures and Networks in Architecture"
   - "C.30.TFS-REL:intro — Intro"
-line_start: 74668
-line_end: 74676
+line_start: 77996
+line_end: 78004
 dependencies:
   - "A.10"
   - "A.15"
-  - "A.15.1"
   - "A.20"
   - "A.21"
   - "A.22"
   - "A.3.4"
-  - "A.6.0"
-  - "A.6.5"
   - "A.6.F"
-  - "A.6.M"
   - "A.7"
   - "B.3"
   - "C.16"
@@ -33,13 +29,8 @@ dependencies:
   - "C.30"
   - "C.30.AD"
   - "C.30.ASV"
-  - "C.30.STRAT"
   - "C.32"
   - "C.32.CONWAY"
-  - "C.32.P2S"
-  - "C.33"
-  - "C.34"
-  - "C.35"
   - "E.10"
   - "E.17.0"
   - "E.18"
@@ -48,7 +39,6 @@ dependencies:
   - "E.18.NET"
   - "E.24.PUB"
   - "F.18"
-  - "G.6"
 keywords:
   - "ArchitectureTransformationFlowStructureRelation"
   - "TFS"
@@ -65,8 +55,8 @@ keywords:
 
 > **Type:** Architectural pattern
 > **Status:** Stable
-> **Normativity:** Normative unless explicitly marked informative
+> **Normativity:** Normative unless marked informative
 > **Tech-name:** `ArchitectureTransformationFlowStructureRelation` (relation record)
 > **Plain-name:** architecture transformation-flow structure relation
-> **Governed object:** the bounded architecture-use record connecting an actual `ArchitectureRelation`, exact selected architecture structure, exact structural-view or description episteme, or bounded architecture claim to one selected `TransformationFlowStructure` under `E.18` or one selected `TransformationFlowStructureNetwork` under `E.18.NET`; the record does not itself instantiate a direct relation.
+> **Governed object:** the bounded architecture-use record connecting an actual `ArchitectureRelation`, selected architecture structure, structural-view or description episteme, or bounded architecture claim to one selected `TransformationFlowStructure` under `E.18` or one selected `TransformationFlowStructureNetwork` under `E.18.NET`; the record does not itself instantiate a direct relation.
 

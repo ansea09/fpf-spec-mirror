@@ -6,12 +6,12 @@ section_id: "G.10:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.10/G.10__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.10 — SoTA Pack Shipping"
   - "G.10:intro — Intro"
-line_start: 131668
-line_end: 131678
+line_start: 139752
+line_end: 139765
 dependencies:
   - "A.10"
   - "A.15.3"
@@ -57,10 +57,13 @@ keywords:
 
 > **Status:** Stable
 
-**Use this when.** Part-G output must reach a selector, auditor or maintainer as one citable, editioned shipment. Start from that receiving use, collect the required upstream references and preserve the conditions for interpreting their results. A sufficient existing result can be cited directly; creating a new pack is needed only for this shipping use.
+**Use this when.** Part-G output must reach a selector, auditor or maintainer as one citable, editioned shipment. Start from that receiving use, collect the required upstream references and preserve the conditions for interpreting their results. You can cite a sufficient existing result directly. Create a new pack only when the receiving use calls for a shipment.
 
 For an independently applicable `E.18` flow crossing or `A.21` gate, carry its required CrossingBundle or gate anchors into the shipped pack.
-**Builds on:** `G.Core` (Part‑G core invariants and delegation); upstream pack/kit governing definitions as cited publications or records (not redefined here).
-**Governs (scope boundary):** *shipping* of Part‑G outputs as a **pack** (`SoTA‑Pack(Core)`), including the pack‑level publication kit: (i) selector‑facing selection/parity roster, (ii) PathId/PathSlice citation surface, (iii) telemetry pins for refresh planning, and (iv) optional interop ingestion as citation‑only notes.
-**Does not govern:** governing spec refs (`CN‑Spec`, `CG‑Spec`), CHR/CAL semantics, selection semantics, evidence semantics, bridge calibration semantics, refresh orchestration (these remain with their governing definitions and are **cited**).
+
+**Builds on:** `G.Core` defines the shared Part‑G invariants and delegation. Cite the publications or records that define the upstream packs and kits.
+
+**Governs:** shipping Part‑G outputs as a `SoTA‑Pack(Core)`. A selector-facing outcome gets a selection/parity roster. The kit also exposes applicable `PathId`/`PathSliceId` citations and telemetry pins for refresh planning, and may include interop notes used only as citations. An inputs-only pack may omit the roster.
+
+**Cites:** The definitions of `CN‑Spec` and `CG‑Spec`, CHR/CAL, selection, evidence, bridge calibration and refresh orchestration remain with their governing patterns.
 

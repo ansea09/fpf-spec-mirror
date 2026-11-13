@@ -6,12 +6,12 @@ section_id: "A.3.4:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4/A.3.4__005_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.3.4 — U.Transformation: Actual Bounded Change Under Conditions"
   - "A.3.4:3 — Forces"
-line_start: 13042
-line_end: 13051
+line_start: 13475
+line_end: 13484
 dependencies:
   - "A.1"
   - "A.10"
@@ -56,7 +56,7 @@ keywords:
 
 | Force | Tension |
 | --- | --- |
-| Generality and specificity | The same five identification questions must work for physical, biological, software, organizational, documentary, architectural, formal, and epistemic changes. Each domain still keeps its own subject and relation patterns. |
+| Generality and specificity | The same five identification questions must work for physical, biological, software, organizational, documentary, architectural, formal, and epistemic changes. Each domain keeps its own subject and relation patterns. |
 | Possible, planned, actual, modeled, and claimed transformation | A source may call a change possible, planned, enacted, observed, modeled, claimed, or published. Only the changed subject, boundary, before/during/after facts, and continuity rule establish an actual `U.Transformation`; the plan, work, observation, model, assertion, and publication remain separate claims. |
 | Neighboring value competition | A method, mechanism, dynamics model, work occurrence, time claim, evidence item, or result can look like *the thing that changed*. Test the actual change first; use the separate pattern for each additional claim. |
 | Time and order | Many transformations need a time window, cadence, duration, ordering relation, or refresh condition, but time wording alone does not define the transformation. |

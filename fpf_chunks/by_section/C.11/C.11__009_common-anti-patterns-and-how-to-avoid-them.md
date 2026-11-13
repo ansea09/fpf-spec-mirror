@@ -6,12 +6,12 @@ section_id: "C.11:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11/C.11__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.11 — Decision Theory (Decsn-CAL)"
   - "C.11:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 57315
-line_end: 57333
+line_start: 59645
+line_end: 59663
 dependencies:
   - "A.10"
   - "A.13"
@@ -59,8 +59,8 @@ A result is usable when its recipient can recover the choice and the grounds on 
 | Candidate-formation or search takeover | The text starts constructing complete ways or generating options as if that work were already part of decision doctrine. | The choice rule has no stable option set to compare. | State the existing option set. Use `C.38` for same-result way formation, `C.39` for a missing explanation of how to obtain the result, or `C.40` for feasible variation and examination. Add `C.18` when a generation account or archive/front claim is needed. |
 | Policy collapse | Exploration or exploitation governance over a candidate pool is written as if it were identical with choosing among current options. | Choice doctrine and candidate-pool policy become indistinguishable. | `C.19` remains explicit as the neighboring pattern for selection policy and exploration governance. |
 | Planning collapse | Sequencing, replanning, and enactment budgeting are written as if they were already part of the choice calculus. | Planning-side question moves out of `C.24` by accident. | Execution order and operational budgeting remain in `C.24`, even when `C.11` says more probing is rational. |
-| Inventory without decision rule | The current comparison names many objects and schools but never shows how to move from a live option set through one `ChoiceRule` to one `ChoiceResult`. | The pattern becomes one cleaned-up survey rather than one decision discipline. | State one explicit decision-record shape: chooser, option set, comparison basis, dependence layer, applicable probe-worthiness test, one explicit doctrine, and one emitted result. |
-| Hidden basis shift | Different options are compared under different belief states, outcome models, or dependence layers without one explicit statement that the basis changed. | The comparison only looks precise; in fact the choice rule cannot be audited. | Keep one shared comparison basis until one named probe or model change updates it, and state explicitly when the dependence layer changes. |
+| Inventory without decision rule | The current comparison names many objects and schools but never shows how to move from a live option set through one `ChoiceRule` to one `ChoiceResult`. | The pattern becomes a survey rather than one decision discipline. | State one explicit decision-record shape: chooser, option set, comparison basis, dependence layer, applicable probe-worthiness test, one explicit doctrine, and one emitted result. |
+| Hidden basis shift | Different options are compared under different belief states, outcome models, or dependence layers without one explicit statement that the basis changed. | The comparison looks precise, but its choice rule cannot be audited. | Keep one shared comparison basis until one named probe or model change updates it, and state explicitly when the dependence layer changes. |
 | No closure rule | The text sounds careful but never says what makes `choose now`, `reject current set`, `probe again`, or `reroute` lawful. | The record never closes into one explicit decision result. | State the closure conditions explicitly and show why the current case satisfies exactly one of them. |
 | Undefined load-bearing terms | Terms such as `PreferenceOrder`, `BeliefState`, or `OutcomeModel` appear without local operational clarification. | Core comparison objects stay implicit and the decision question depends on outside theory or undocumented assumptions. | Give one local plain gloss or equivalent operational clarification for each load-bearing term used in the pattern text. |
 | Bounded-resource bridge loss | `ProbeBudget`, `ValueOfInformation`, or `ValueOfComputation` are mentioned, but the text silently lets `C.19` or `C.24` own them. | The theory-side doctrine disappears into neighboring policy or planning prose. | Keep those objects theory-side in `C.11`; let neighboring patterns consume their outputs without minting the concepts. |

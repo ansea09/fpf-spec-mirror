@@ -6,12 +6,12 @@ section_id: "F.9.1:10"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9.1/F.9.1__011_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.9.1 — Bridge Stance Note — Clarify a Bounded Use"
   - "F.9.1:10 — Bias-Annotation"
-line_start: 121958
-line_end: 121961
+line_start: 129668
+line_end: 129673
 dependencies:
   - "A.10"
   - "A.6.3.CSC"
@@ -36,5 +36,7 @@ keywords:
 
 ### F.9.1:10 - Bias-Annotation
 
-**Favored reading.** Prefer disciplined, claim-local comparative reading to sweeping synonym claims. **Counter-risk.** Do not turn harmless comparison into a Bridge, bounded-use claim, reliance judgment, and stance note when that machinery changes no action. Apply the four checks in 4.1; when item 4 has no reader benefit, stop.
+**Favored reading.** Prefer disciplined, claim-local comparative reading to sweeping synonym claims.
+
+Do not turn harmless comparison into a Bridge, bounded-use claim, reliance judgment, and stance note when that machinery changes no action. Apply the four checks in 4.1; when item 4 has no reader benefit, stop.
 

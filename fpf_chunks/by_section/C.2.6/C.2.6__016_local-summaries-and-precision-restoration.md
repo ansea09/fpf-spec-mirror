@@ -6,12 +6,12 @@ section_id: "C.2.6:15"
 section_title: "Local Summaries and Precision Restoration"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.6/C.2.6__016_local-summaries-and-precision-restoration.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.2.6 — Sources, Evidence and Conditions for Using an Episteme"
   - "C.2.6:15 — Local Summaries and Precision Restoration"
-line_start: 54246
-line_end: 54259
+line_start: 56489
+line_end: 56502
 dependencies:
   - "A.10"
   - "A.16"
@@ -52,7 +52,7 @@ For example, a team comparing access to a designated primary check can define on
 When the summary is used in a language-state chart, declare its Characteristic as its own slot. A changed aspect or Scale changes that chart's meaning under A.19:5.1.2; preserve or establish an explicit mapping when an old position must be compared with it. C.3.2 governs any separate classification using these readings.
 
 #### C.2.6:15.2 - Recover a relation hidden by metaphor
-When wording such as "the system wants" or "the note suggests" leaves the intended action or claim unclear, identify what the system does, what the note asserts, or who makes the interpretation. Recover the relevant detector, performer or witness through the direct subject pattern. An ordinary understood metaphor needs no expanded record.
+When wording such as "the system wants" or "the note suggests" leaves the intended action or claim unclear, identify what the system does, what the note asserts, or who makes the interpretation. Recover the relevant detector, performer or witness through the pattern governing the subject. An ordinary understood metaphor needs no expanded record.
 
 #### C.2.6:15.3 - Boundary reminder
 Source and use relations answer their stated questions. Representation, articulation, closure and trust retain their own definitions and tests.

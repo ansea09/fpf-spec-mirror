@@ -6,12 +6,12 @@ section_id: "C.3.3:10"
 section_title: "Anti‑patterns & Remedies (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.3/C.3.3__011_anti-patterns-remedies-informative.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.3.3 — KindBridge and CL^k — Correspondence between Distinct Kinds"
   - "C.3.3:10 — Anti‑patterns & Remedies (informative)"
-line_start: 55796
-line_end: 55806
+line_start: 58094
+line_end: 58104
 dependencies:
   - "A.2.6"
   - "A.6.REL"
@@ -27,7 +27,7 @@ keywords:
 
 | Anti‑pattern                                 | Why it’s wrong                         | Remedy                                                                              |
 | -------------------------------------------- | -------------------------------------- | ----------------------------------------------------------------------------------- |
-| One interoperability score, or mandatory scope-plus-kind bridges | Blurs independent channels and invents unused relations | Open only the exact Scope, kind, and sense relations consumed by the receiving use; keep their losses and R consequences separate |
+| One interoperability score, or mandatory scope-plus-kind bridges | Blurs independent channels and invents unused relations | Open only the Scope, kind, and sense relations consumed by the receiving use; keep their losses and R consequences separate |
 | Claiming preserved `⊑` while inverting order | Makes typed reasoning unsound          | Mark as **not preserved**; add **loss note**; consider adapter or subkind redesign  |
 | Hiding collapses | Overstates coverage | State the collapsed subkinds and their consequence for the receiving use; apply only a justified R consequence. |
 | Implicit latest mapping | Non-deterministic and non-auditable | Pin both scheme editions and the mapping-rule edition in the bridge assertion; outside bridge definedness decline that bridge use without changing an independently obtained receiving result. |

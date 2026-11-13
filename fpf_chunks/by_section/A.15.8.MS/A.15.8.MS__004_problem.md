@@ -6,12 +6,12 @@ section_id: "A.15.8.MS:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.8.MS/A.15.8.MS__004_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.15.8.MS — Configure Methodological Support for Work"
   - "A.15.8.MS:2 — Problem"
-line_start: 31976
-line_end: 31981
+line_start: 33230
+line_end: 33235
 dependencies:
   - "A.15.8"
   - "A.19"
@@ -24,5 +24,5 @@ keywords:
 
 One failure treats a Method Base as a folder and declares success when files are uploaded. Another builds a platform before observing a user task. A third lets tool integration stand in for access, assignment, capability, permission, authority, or performed Work. A fourth groups all components under a convenient label and calls the proposal a selected structure.
 
-These shortcuts hide which task or condition needs attention. Users cannot tell whether the wrong edition, missing relation, denied access, unsuitable representation, absent assignment, missing permission, authority boundary, or capability gap defeated a task criterion, or whether the task is untested or information needed to judge it is missing. Repairs then grow around the platform rather than around the task and its actual conditions.
+These shortcuts hide which task or condition needs attention. Users cannot tell whether the wrong edition, missing relation, denied access, unsuitable representation, absent assignment, missing permission, authority boundary, or capability gap defeated a task criterion, or whether the task is untested or information needed to judge it is missing. Repairs then grow around the platform rather than around the task and its conditions.
 

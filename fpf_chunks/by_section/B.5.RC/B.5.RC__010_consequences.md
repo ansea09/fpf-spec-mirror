@@ -6,12 +6,12 @@ section_id: "B.5.RC:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.RC/B.5.RC__010_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.5.RC — Recover a Construction from Its Description"
   - "B.5.RC:9 — Consequences"
-line_start: 47873
-line_end: 47878
+line_start: 49877
+line_end: 49882
 dependencies:
   - "A.6.3.RT"
   - "B.5"
@@ -24,7 +24,7 @@ keywords:
 
 ### B.5.RC:9 - Consequences
 
-The practitioner can turn a compressed account into an obtainable result and a meaningful division of further work. A specialist request can name the missing operation and its inputs rather than ask for a second explanation of the entire source.
+The practitioner can turn a compressed account into an obtainable result and a division of further work. A specialist request can name the missing operation and its inputs rather than ask for a second explanation of the entire source.
 
-Recovery may expose a gap in the source or in the reader's preparation. It also costs more than directly using a construction already understood. The stopping rule preserves that cheaper route and allows a useful conditional result.
+Recovery may expose a gap in the source or in the reader's preparation. It also costs more than directly using an understood construction. The stopping rule preserves that cheaper route and allows a useful conditional result.
 

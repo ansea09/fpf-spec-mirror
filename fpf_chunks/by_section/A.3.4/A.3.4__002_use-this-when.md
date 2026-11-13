@@ -6,12 +6,12 @@ section_id: "A.3.4:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4/A.3.4__002_use-this-when.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.3.4 — U.Transformation: Actual Bounded Change Under Conditions"
   - "A.3.4:0 — Use This When"
-line_start: 12997
-line_end: 13019
+line_start: 13428
+line_end: 13450
 dependencies:
   - "A.1"
   - "A.10"
@@ -54,9 +54,9 @@ keywords:
 
 ### A.3.4:0 - Use This When
 
-Use this pattern when a project must decide whether an actual change occurred and identify that one change. Ask: what continuing subject changed, where the change begins and ends, which facts differ before, during, and after it, and what rule makes this one occurrence rather than unrelated observations.
+Use this pattern when a project must decide whether a change occurred and identify that one change. Ask: what continuing subject changed, where the change begins and ends, which facts differ before, during, and after it, and what rule makes this one occurrence rather than unrelated observations.
 
-**First useful move.** Name the continuing subject and where the change begins and ends. Write the subject facts that hold before, during, and after that boundary, then state the boundary conditions and the continuity or reidentification rule that make this one occurrence. A desired state, method, plan or model alone leaves occurrence unresolved. Use records or observations for the actual facts they support.
+**First useful move.** Name the continuing subject and where the change begins and ends. Write the subject facts that hold before, during, and after that boundary, then state the boundary conditions and the continuity or reidentification rule that make this one occurrence. A desired state, method, plan or model alone leaves occurrence unresolved. Use records or observations for the facts they support.
 
 Missing information about a neighboring claim leaves that claim unresolved; it neither disproves nor establishes the transformation.
 

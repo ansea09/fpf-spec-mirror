@@ -6,12 +6,12 @@ section_id: "A.6.A:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.A/A.6.A__010_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.A — Affordance and Action-Invitation Precision Restoration (ACT-INV)"
   - "A.6.A:9 — Consequences"
-line_start: 22388
-line_end: 22399
+line_start: 23277
+line_end: 23288
 dependencies:
   - "A.15"
   - "A.16"
@@ -50,9 +50,9 @@ keywords:
 ### A.6.A:9 - Consequences
 
 **Benefits.**
-This pattern turns ambiguous action-oriented wording into a usable subject claim, question or exact gap. It preserves the distinctions needed for embodied, ecological, learned-policy, interface and control uses while avoiding a compulsory intermediate record.
+This pattern turns ambiguous action-oriented wording into a usable subject claim, question or gap. It preserves the distinctions needed for embodied, ecological, learned-policy, interface and control uses while avoiding a compulsory intermediate record.
 
-It also complements C.16.Q cleanly: C.16.Q repairs **evaluative** ambiguity, while A.6.A repairs **action-inviting** ambiguity.
+It also complements C.16.Q: C.16.Q repairs **evaluative** ambiguity, while A.6.A repairs **action-inviting** ambiguity.
 
 **Trade-offs and mitigations.**
 The pattern adds authoring overhead and can feel heavy in early exploration.

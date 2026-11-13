@@ -6,12 +6,12 @@ section_id: "B.5:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5/B.5__011_architectural-rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.5 — Choose the Next Reasoning Contribution (Canonical Reasoning Cycle)"
   - "B.5:10 — Architectural Rationale"
-line_start: 46562
-line_end: 46567
+line_start: 48502
+line_end: 48507
 dependencies:
   - "A.10"
   - "B.5.1"
@@ -26,5 +26,5 @@ keywords:
 
 Inquiry connects different kinds of useful results. A construction supplies an object or procedure; a deduction establishes an implication; a conjecture offers an explanation; observations supply evidence about a phenomenon. Their value depends on what question they answer and what further use their support permits. Treating every result as an explanatory hypothesis would obscure these differences.
 
-Question formation belongs here because the result of one reasoning contribution can alter the premises or aim of the next. Detailed object identity, mathematical-lens use, evidence, search and capability development retain their own Methods. Their results can enter an inquiry without turning each PatternID into a required stage.
+Question formation belongs here because the result of one reasoning contribution can alter the premises or aim of the next. Detailed object identity, mathematical-lens use, evidence, search and capability development retain their Methods. Their results can enter an inquiry without turning each PatternID into a required stage.
 

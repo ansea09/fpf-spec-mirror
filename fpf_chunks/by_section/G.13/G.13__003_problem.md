@@ -6,12 +6,12 @@ section_id: "G.13:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.13/G.13__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.13 — External Interop Hooks for SoTA Discipline Packs (conceptual)"
   - "G.13:2 — Problem"
-line_start: 132836
-line_end: 132845
+line_start: 140959
+line_end: 140968
 dependencies:
   - "A.18"
   - "A.19"
@@ -46,11 +46,11 @@ keywords:
 
 ### G.13:2 - Problem
 
-External sources publish **claim‑adjacent signals** (citations, concept graphs, “task/method” tags, replication links, dataset usage, disruption‑style indicators, benchmark metadata). These are useful for *generation* (palette building, declared set-result exploration, candidate bridge discovery), not only for audit. The mapping can fail in the following ways:
+External sources publish **claim‑adjacent signals** (citations, concept graphs, “task/method” tags, replication links, dataset usage, disruption‑style indicators, benchmark metadata). These signals can support audit and the generation of new inputs, for example by helping to build a palette, explore a declared set result or discover a candidate bridge. The mapping can fail in the following ways:
 
-* **CN/CG spec-ref leakage.** External numeric signals get treated as if they were lawful “scores” without explicit binding to CHR/CAL/CG surfaces.
+* **CN/CG spec-ref leakage.** A receiver treats external numeric signals as lawful scores without showing how they are bound to the applicable CHR/CAL/CG definitions.
 * **Implicit crossings.** An opaque transformation hides the actual correspondence, its receiving-use grounds or the bundle anchors required by a real flow crossing or gate.
 * **Edition drift + refresh brittleness.** Snapshots change, schemas drift, indicator definitions get revised; without edition‑pinned interop surfaces and typed trigger causes, parity and dashboard stability degrade.
 * **Evidence disconnect.** A derived feature without recoverable source and transformation grounds cannot be checked or repaired in the receiving use.
-* **Format‑as‑norm.** A convenient serialisation (KG export, JSON schema, RO‑Crate, etc.) becomes treated as the specification, undermining notation independence.
+* **Format‑as‑norm.** A convenient serialisation (KG export, JSON schema, RO‑Crate, etc.) is taken as the specification, undermining notation independence.
 

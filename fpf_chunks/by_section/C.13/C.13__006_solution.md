@@ -6,12 +6,12 @@ section_id: "C.13:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.13/C.13__006_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.13 — Constructional Mereology (Compose‑CAL)"
   - "C.13:4 — Solution"
-line_start: 58367
-line_end: 58434
+line_start: 60734
+line_end: 60805
 dependencies:
   - "A.1"
   - "A.14"
@@ -35,13 +35,15 @@ Use the coarsest of three construction narratives that fits the object being des
 
 | Form | Practical reading | Facts required before the trace is truthful | What the form does not establish |
 | --- | --- | --- | --- |
-| `Γ_m.sum(parts)` | These exact constituents are assembled as this integrated whole. | one exact candidate whole; exact constituent entities; exact obtaining constructive part-relation occurrences; the assembly rule or method and its applicability; the candidate's identity or reidentification rule | that proximity, one drawing, a parts list, or the constituent set alone makes the whole; that every constituent change ends the whole |
+| `Γ_m.sum(parts)` | These constituents are assembled as this integrated whole. | one identified candidate whole; identified constituent entities; the constructive part-relation occurrences that obtain; the assembly rule or method and its applicability; the candidate's identity or reidentification rule | that proximity, one drawing, a parts list, or the constituent set alone makes the whole; that every constituent change ends the whole |
 | `Γ_m.set(elems)` | These entities belong to this collection under the collection's own rule. | one identified collection; identified entities; the belongs-to occurrences that obtain; the collection's belongs-to and identity rules | that the notation creates the collection or relation; component integration, acting-system organization, agency, A.1 holonhood, constructive parthood, or transitive belonging |
 | `Γ_m.slice(entity, facet)` for an aspect; `Γ_m.slice(whole, portionBoundary)` for a measured portion | This aspect or portion is distinguished under the rule for its own relation. | For an aspect: the aspect, bearer, facet rule, obtaining AspectOf occurrence and identity rule. For a portion: the portion, whole, same-stuff/content basis, boundary, extensive measure and unit, obtaining PortionOf relation and identity conditions; see :4.1.1. | a facet establishing a measured portion, or an amount identifying a particular part without its boundary |
 
 The familiar argument lists are readable shorthand, not complete ontological signatures. A complete use names the described object and states the direct facts beside the shorthand. Input order does not matter to the list of designated inputs, but assembly relations, rules, facets, portion boundaries and identity conditions do matter. The same input set under a different assembly can yield another whole.
 
-A construction may obtain in the world even when no trace episteme has been written. When another piece of work needs an inspectable trace, materialize a C.2.1 episteme whose claim content names the described object; its constituents, entities that belong, bearer, or containing whole; the relation occurrences that obtain; the construction rule; and the identity conditions. Creating, editing, publishing or losing the account does not, by itself, establish a change in the construction it describes. A register update that also changes belonging must be assessed under the collection's constitutive rule.
+A construction may obtain in the world even when no trace episteme has been written. When another piece of work needs an inspectable trace, materialize a C.2.1 episteme whose claim content names the described object; its constituents, entities that belong, bearer, or containing whole; the relation occurrences that obtain; the construction rule; and the identity conditions.
+
+Creating, editing, publishing or losing the account does not, by itself, establish a change in the construction it describes. A register update that also changes belonging must be assessed under the collection's constitutive rule.
 
 Do not add a fourth constructor merely to carry time, execution order, parallelism, representation, evidence, or a domain label. Keep those claims with their direct patterns beside the construction account.
 
@@ -66,16 +68,16 @@ When B.3.5 is elected for the PortionOf assertion, link `tv:groundedBy` to this 
 * **C13-N5 — Trace separation.** A materialized trace is a C.2.1 episteme. Its notation or publication alone establishes neither the described entities and relations, their construction and identity rules, nor holonhood.
 * **C13-N6 — A collection account is not component assembly.** `set` supports a collection account; it does not imply integrated assembly, `ComponentOf`, system agency, or A.1 recognition. Use `sum` only when constructive part relations and assembly are independently grounded.
 * **C13-N7 — Elected assurance grounding stays with B.3.5.** A direct structural Working-Model edge may be published without a C.13 trace. When that publication elects B.3.5 or a named current requirement demands the profile, follow B.3.5 for the required `tv:groundedBy` link and declared `validationMode`; C.13 supplies the reconstructible trace content. Evidence, warrant, currentness, and reliance remain separate, and neither the link nor the mode replaces the direct construction or identity facts.
-* **C13-N8 — Subject owners remain authoritative.** Method, work, and discipline construction may use C.13 only after their direct patterns identify actual parts and whole-forming relations. A selected dependent `U.Structure` does not become a whole, collection, aspect, or holon by selection or name.
-* **C13-N9 — Transformation composition stays fail-closed.** A C.13 entity-construction trace, method decomposition, work decomposition, common changed referent, or temporal subdivision establishes neither transformation parthood nor a composite transformation. Without a direct transformation-composition governor, retain the independently identified changes and the exact blocker; infer neither composition nor atomism.
+* **C13-N8 — Subject owners remain authoritative.** Method, work, and discipline construction may use C.13 only after their direct patterns identify parts and whole-forming relations. A selected dependent `U.Structure` does not become a whole, collection, aspect, or holon by selection or name.
+* **C13-N9 — Transformation composition stays fail-closed.** A C.13 entity-construction trace, method decomposition, work decomposition, common changed referent, or temporal subdivision establishes neither transformation parthood nor a composite transformation. Without a direct transformation-composition governor, retain the independently identified changes and the blocker; infer neither composition nor atomism.
 
 #### C.13:4.3 - Scope, applicability, terms & notation
 
-Use Compose-CAL when the current claim concerns the construction of one exact system, episteme, method, work occurrence, discipline, collection, aspect, or measured portion and its direct part patterns already supply the required participants and obtaining relations. Do not apply it merely because a sentence contains `part`, a diagram groups nodes, or a selected structure organizes relations.
+Use Compose-CAL when the claim concerns the construction of one system, episteme, method, work occurrence, discipline, collection, aspect, or measured portion and its direct part patterns already supply the required participants and obtaining relations. Do not apply it merely because a sentence contains `part`, a diagram groups nodes, or a selected structure organizes relations.
 
 - **`Γ_m`** — the three-form notation for a C.13 construction narrative.
 - **construction trace** — claim content that names the object being described; its inputs; the direct relations that obtain; its construction rule; and its identity conditions; when materialized, it is a C.2.1 episteme.
-- **constructive part relation** — an exact world-side relation occurrence governed by its direct pattern; it is designated by the trace but not created by it.
+- **constructive part relation** — a world-side relation occurrence governed by its direct pattern; it is designated by the trace but not created by it.
 - **assembly rule or method** — the rule explaining the construction: assembly from constituents, collection belonging, aspect distinction under a facet, or portion delimitation under a measure. The account cites that rule separately from the object it describes.
 - **identity or reidentification rule** — the direct rule that identifies the described object and says which changes preserve or end it.
 
@@ -85,13 +87,15 @@ Use Compose-CAL when the current claim concerns the construction of one exact sy
 - an ordinary belongs-to sentence may accompany a `set` construction; the collection's own pattern supplies its meaning, occurrence history, and any recurrence rule;
 - `AspectOf` may accompany a `slice` construction;
 - `PortionOf` uses the measured-portion profile of `slice` in :4.1.1, with A.14's same-stuff/content, measure and boundary conditions;
-- `ConstituentOf` needs the direct logical or content-part relation; material mixtures use their exact portion or component owner.
+- `ConstituentOf` needs the direct logical or content-part relation; material mixtures use the pattern for their portion or component relation.
 
-The readable label and the trace answer different questions. The label states which direct relation obtains; the trace explains how the exact relation set supports this construction. Neither one is evidence merely by being present.
+The readable label and the trace answer different questions. The label states which direct relation obtains; the trace explains how the relation set supports this construction. Neither one is evidence merely by being present.
 
 #### C.13:4.4 - Structural CT2R Typing-Grounding Use
 
-When a target kind or logical representation must reuse both a `Γ_m` construction account and an independently grounded Working-Model relation, explain their correspondence and which mereological structure the target preserves or loses. The `StructuralCT2RTypingGroundingUnfoldingStructureBlock` from `B.3.5` is an optional way to record that account. Use `A.22` when the receiving question needs a selected structure and `A.22.CGUS` when potential continuations and their conditions are at issue. C.13 supplies the subject-side construction relations. Recover any required bridge, kind intent, proof, empirical evidence and admissible reuse under their governing patterns. Apply `A.7.1` when an inadequate working account must be diagnosed against the subject construction.
+When a target kind or logical representation must reuse both a `Γ_m` construction account and an independently grounded Working-Model relation, explain their correspondence and which mereological structure the target preserves or loses. The `StructuralCT2RTypingGroundingUnfoldingStructureBlock` from `B.3.5` is an optional way to record that account.
+
+Use `A.22` when the receiving question needs a selected structure and `A.22.CGUS` when potential continuations and their conditions are at issue. C.13 supplies the subject-side construction relations. Recover any required bridge, kind intent, proof, empirical evidence and admissible reuse under their governing patterns. Apply `A.7.1` when an inadequate working account must be diagnosed against the subject construction.
 
 Use this split especially when a readable relation label such as ComponentOf, a collection's belongs-to predicate, AspectOf, ConstituentOf, or RepresentationOf is being reused beyond what its sentence warrants. The label does not by itself prove constructive grounding or a wider structural projection. Name the construction trace and Working-Model relation, the target kind or logical representation, any bridge used, the structure preserved and collapsed, and the proof or evidence relation required by the stronger claim. If the evidence instead diagnoses a mismatch that requires revision of the working ontology, apply `A.7.1`.
 

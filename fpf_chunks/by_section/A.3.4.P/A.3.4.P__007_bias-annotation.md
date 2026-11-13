@@ -6,12 +6,12 @@ section_id: "A.3.4.P:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4.P/A.3.4.P__007_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.3.4.P — Transformation Wording Repair: Recover Objects and Claims"
   - "A.3.4.P:6 — Bias-Annotation"
-line_start: 13506
-line_end: 13509
+line_start: 13951
+line_end: 13954
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -58,5 +58,5 @@ keywords:
 
 ### A.3.4.P:6 - Bias-Annotation
 
-Familiar domain words can bias kind selection before the actual claim is recovered. The refrigeration and attention examples show why the same label may describe a structure, mechanism or action. Start from the sentence’s participants and predicate, and retain an already adequate ordinary domain expression.
+Familiar domain words can bias kind selection before the claim being made is recovered. The refrigeration and attention examples show why the same label may describe a structure, mechanism or action. Start from the sentence’s participants and predicate, and retain an already adequate ordinary domain expression.
 

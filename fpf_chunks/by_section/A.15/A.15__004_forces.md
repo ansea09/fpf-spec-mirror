@@ -6,12 +6,12 @@ section_id: "A.15:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.15 — System-Role–Method–Work Alignment"
   - "A.15:3 — Forces"
-line_start: 28813
-line_end: 28822
+line_start: 29879
+line_end: 29888
 dependencies:
   - "A.10"
   - "A.13"
@@ -68,8 +68,8 @@ keywords:
 | Force | Tension |
 | --- | --- |
 | Structure and enactment | Stable structural decomposition must remain distinct from system classification, assignment, Method, plan, capability, and dated Work. |
-| Simple and specialized assignments | A simple assignment should remain light, while a real commission, position, or locus must retain the participant that distinguishes its species and occurrence. |
+| Simple and specialized assignments | A simple assignment should remain light, while a commission, position, or locus must retain the participant that distinguishes its species and occurrence. |
 | Method, plan, and occurrence | A reusable Method, its description, intended Work, and performed Work must stay connected without becoming one record. |
-| Clarity and precision | Practitioners need ordinary readable claims, while reliance-bearing use may need exact occurrence identity, evidence use, source currentness, or assurance. |
+| Clarity and precision | Practitioners need ordinary readable claims, while reliance-bearing use may need occurrence identity, evidence use, source currentness, or assurance. |
 | Accountability and proportionality | Auditability may require a full trace, but ordinary orientation should stop at the shortest sufficient relation chain. |
 

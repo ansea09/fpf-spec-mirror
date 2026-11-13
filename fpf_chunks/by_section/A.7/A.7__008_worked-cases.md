@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.7"
-pattern_title: "Strict Distinction: Repair Conflations of FPF Objects (Clarity Lattice)"
+pattern_title: "Distinction: Repair Conflations of FPF Objects (Clarity Lattice)"
 section_id: "A.7:6"
 section_title: "Worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__008_worked-cases.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.7 — Strict Distinction: Repair Conflations of FPF Objects (Clarity Lattice)"
+  - "A.7 — Distinction: Repair Conflations of FPF Objects (Clarity Lattice)"
   - "A.7:6 — Worked cases"
-line_start: 25670
-line_end: 25685
+line_start: 26591
+line_end: 26606
 dependencies:
   - "A.1"
   - "A.10"
@@ -48,9 +48,9 @@ keywords:
 
 #### A.7:6.1 - System and episteme
 
-**Digital twin and asset.** In this example, `Twin-e4` is a C.2.1 description episteme about the asset. `Maintenance system M updated the asset configuration using Twin-e4.` This ordinary sentence keeps the acting System, asset, and episteme visible. If the receiving claim concerns exact Work, carrier change, evidence, source currentness, or an assignment, add those objects and direct relations separately. Twin-e4 supplies the representation used by M; the updating action belongs to M. A cross-plane use cites only its applicable plane relation and policy.
+**Digital twin and asset.** In this example, `Twin-e4` is a C.2.1 description episteme about the asset. `Maintenance system M updated the asset configuration using Twin-e4.` This ordinary sentence keeps the acting System, asset, and episteme visible. If the receiving claim concerns Work, carrier change, evidence, source currentness, or an assignment, add those objects and direct relations separately. Twin-e4 supplies the representation used by M; the updating action belongs to M. A cross-plane use cites only its applicable plane relation and policy.
 
-**Review and manuscript.** `Reviewer Dana reviewed Manuscript-e7 and wrote Review-e2.` This is valid ordinary actor wording when Dana is a recoverable System and no inference uses assignment identity. `PeerReviewGuide-e2` is a MethodDescription only if its exact EntityOfConcern is the PeerReview Method and its claims say substantively how that Method is performed. For a precise audit, use A.13 to identify the review performer and A.15.1 to admit the review Work independently. Add F.6 only if the audit must also identify the assignment under which that Work was performed. Keep the resulting review episteme, manuscript and review carriers, and evidence or source relations separate.
+**Review and manuscript.** `Reviewer Dana reviewed Manuscript-e7 and wrote Review-e2.` This is valid ordinary actor wording when Dana is a recoverable System and no inference uses assignment identity. `PeerReviewGuide-e2` is a MethodDescription only if its EntityOfConcern is the PeerReview Method and its claims say substantively how that Method is performed. For a precise audit, use A.13 to identify the review performer and A.15.1 to admit the review Work independently. Add F.6 only if the audit must also identify the assignment under which that Work was performed. Keep the resulting review episteme, manuscript and review carriers, and evidence or source relations separate.
 
 #### A.7:6.2 - Progressive technical examples
 

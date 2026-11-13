@@ -6,12 +6,12 @@ section_id: "F.18:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__006_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
   - "F.18:4 — Solution"
-line_start: 125240
-line_end: 125681
+line_start: 133163
+line_end: 133638
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -52,7 +52,11 @@ Use a local-first naming protocol:
 3. For a durable name, constitute one `NameCard` episteme under `C.2.1`; keep the value, its kind, the card, selected designations, exact local sense, and any basis or Bridge relation distinct.
 4. Choose the Tech label and any Plain designation needed for a stated didactic use from the smallest candidate set that covers the live head-term families and plausible neighbouring objects.
 5. Record the covered alternatives, rejected candidates, selection reason, lineage, and the condition that reopens the settlement.
-6. Only for public, Core-facing, durable-across-context, or cross-context reuse, test the then-current `F.17` entry. It must accept the exact governed value and kind, NameCard episteme, by-value scheme, local sense, and any actual Bridge. Public or durable reuse alone creates no Bridge. When the named use relates different `<ReferenceScheme, LocalSenseClaim>` projections, F.17 must also accept the separate affirmative C.2.1 claim and current A.10 or B.3 reliance through the row rationale or notes rather than treating either as NameCard content. Its result must supply the required public row. If any required input or result is absent, retain the durable name and NameCard locally, mark the public row pending, and stop.
+6. Only for public, Core-facing, durable-across-context, or cross-context reuse, test the then-current `F.17` entry. It must accept the exact governed value and kind, NameCard episteme, by-value scheme, local sense, and any actual Bridge. Public or durable reuse alone creates no Bridge.
+
+   When the named use relates different `<ReferenceScheme, LocalSenseClaim>` projections, F.17 must also accept the separate affirmative C.2.1 claim and current A.10 or B.3 reliance through the row rationale or notes rather than treating either as NameCard content.
+
+   The F.17 result must supply the required public row. If any required input or result is absent, retain the durable name and NameCard locally, mark the public row pending, and stop.
 7. Keep each cited subject, relation and later operation under its own rules. In particular, distinguish the Bridge, the separate claim about its named use, A.10 or B.3 reliance, and authorization. F.18 governs the naming settlement.
 
 #### F.18:4.1 - Naming Invariants
@@ -72,7 +76,11 @@ Every durable name must satisfy these invariants.
 
 #### F.18:4.2 - `NameCard` Fields
 
-A NameCard is complete when its full interpreted naming-settlement content (`ClaimGraph`) is recoverable under C.2.1. That value satisfies `NonemptyClaimContent`; membership alone does not supply the narrower naming-settlement claims required here. A compact card states the governed value and subject pattern, effective scheme and local-sense claim, the selected Tech designation and any Plain designation needed for a stated didactic use, candidate set, rejections, rationale, lineage, and reopen condition. The subject pattern can make the governed kind unambiguous. These claims together constitute the complete semantic content; an omitted expanded field contributes no hidden claim. The compact cards `NC-U-RELATION`, `NC-PROBLEM-CRITERION-APPLICABILITY-RELATION`, and `NC-PROBLEMATIC-FOR-RELATION` use this form. Section 4.2a carries four expanded bounded-model-use cards.
+A NameCard is complete when its full interpreted naming-settlement content (`ClaimGraph`) is recoverable under C.2.1. That value satisfies `NonemptyClaimContent`; membership alone does not supply the narrower naming-settlement claims required here.
+
+A compact card states the governed value and subject pattern, effective scheme and local-sense claim, the selected Tech designation and any Plain designation needed for a stated didactic use, candidate set, rejections, rationale, lineage, and reopen condition. The subject pattern can make the governed kind unambiguous. These claims together constitute the complete semantic content; an omitted expanded field contributes no hidden claim.
+
+The compact cards `NC-U-RELATION`, `NC-PROBLEM-CRITERION-APPLICABILITY-RELATION`, and `NC-PROBLEMATIC-FOR-RELATION` use this form. Section 4.2a carries four expanded bounded-model-use cards.
 
 Use the expanded form only when the current naming use needs the additional position:
 
@@ -102,7 +110,11 @@ NameCard:
 Field discipline:
 
 - The card is a `C.2.1` episteme. `GovernedValueRef` resolves to its exact `EntityOfConcern`; `ClaimContent` is the complete interpreted naming-settlement content in `NonemptyClaimContent`; and `ReferenceScheme` is the effective by-value `EpistemeInterpretationScheme` under which those claims are interpreted. Changing any of those three values identifies another card episteme. Changing only a content or card designator, carrier, field order, or layout does not.
-- The expanded form's `ClaimContent` names the complete semantic value expressed by its readable sibling fields. The examples' `.ClaimGraph` labels are local content designators; a label or graph encoding is not the value. When a representation instead supplies a stored constituent designation, declare a C.2.1:4.2.6 `ClaimContentDesignation` whose exact source edition and selection resolve to that complete naming-settlement content. The source may supply its whole content or an intrinsic semantic selection; resolve it before applying the content-range and naming-completeness tests. Changing a selected Tech/Plain name asserted by the card, declared use, local-sense claim, coverage, rejection, rationale, lineage, or reopen claim changes the content and therefore the card episteme even if the displayed content or card designator stays the same.
+- The expanded form's `ClaimContent` names the complete semantic value expressed by its readable sibling fields. The examples' `.ClaimGraph` labels are local content designators; a label or graph encoding is not the value.
+
+  When a representation instead supplies a stored constituent designation, declare a C.2.1:4.2.6 `ClaimContentDesignation` whose exact source edition and selection resolve to that complete naming-settlement content. The source may supply its whole content or an intrinsic semantic selection; resolve it before applying the content-range and naming-completeness tests.
+
+  Changing a selected Tech/Plain name asserted by the card, declared use, local-sense claim, coverage, rejection, rationale, lineage, or reopen claim changes the content and therefore the card episteme even if the displayed content or card designator stays the same.
 - `NameCardId` designates the card episteme. It is not another identity discriminator and does not create a card kind.
 - `GovernedValueRef` resolves to the exact already-governed object or value being named. `GovernedValueKindRef` is added when the kind is not already unambiguous from that value and its subject pattern, or when a receiving use needs the exact kind reference. For relation-facing wording the value reference resolves to exactly one of the objects distinguished in section 5.6; a field label, card, table row, or local phrase is not a proxy for that object.
 - `subjectPatternLocator` names the pattern description containing the exact ClaimGraph that defines or constrains the value. `F.18` defines only the naming-settlement predicate recorded in the card; a pattern that merely presents or teaches the name defines neither the value nor this settlement.
@@ -113,7 +125,7 @@ Field discipline:
 - `PublicRowStatus` is exactly one of `localOnly`, `pending`, or `current` when public-row use is current. `UnifiedTermRowRef` separately resolves to the exact row and is present only when status is `current` after the section 4.4 `F.17` entry/result gate passes. Omission in a compact card claims no row. A pending public use does not imply that a row already exists.
 - `RefreshCondition` names a change to the value, kind, scheme, local sense, Bridge, subject pattern or receiving use, or a repeated reader error, that requires reconsidering this settlement.
 
-An eligible partial scheme can still leave a naming claim or reference uninterpreted; resolve that gap before the exact settlement or public-row use. Known typography-only rules fail the scheme criterion. Content and scheme membership establish neither a supported local sense, an obtaining basis relation or Bridge, suitability for a named cross-local use, nor actual use.
+An eligible partial scheme can leave a naming claim or reference uninterpreted; resolve that gap before the exact settlement or public-row use. Known typography-only rules fail the scheme criterion. Content and scheme membership establish neither a supported local sense, an obtaining basis relation or Bridge, suitability for a named cross-local use, nor actual use.
 
 Names such as "foundational principle pattern set", "FPF Core", "domain principle framework", and "local practice framework" require ordinary `NameCard` work before public stabilization under an effective reference scheme. Source aliases such as `ZPF`, `SPF`, `TPF`, or broad `xPF` labels remain intake aliases until `F.18` has settled the governed value and kind, by-value reference scheme, exact local sense, rejected candidates, and admissible short form.
 
@@ -209,7 +221,11 @@ NameCard:
   RefreshCondition: reopen when A.1.1 changes the participant kinds, five-part predicate-value membership, same-scheme or bridged-comparison branch, permitted-loss rule, participant-determined identity, FPFCoreReferenceScheme, the current F.17 cell or row, or the public receiving use
 ```
 
-These four naming settlements require no correspondence between different `<ReferenceScheme, LocalSenseClaim>` projections, so they add no Bridge or use claim. If a named current use relates different `<ReferenceScheme, LocalSenseClaim>` projections, apply the F.9 predicate to the possible Bridge, identify the affirmative bounded-use claim separately under C.2.1, and apply A.10 or B.3 to the relied-on evidence or assurance claim; without that use, add no Bridge or use claim. For `ModelExpressionCoherenceRelation`, an A.1.1 predicate may require an obtaining Bridge in its bridged interpretation branch; a receiving assertion or structure selection that relies on that occurrence still needs its own bounded-use claim and reliance path. The NameCard records the naming settlement; a row may cite the separate Bridge, bounded-use claim and reliance when its use needs them.
+These four naming settlements require no correspondence between different `<ReferenceScheme, LocalSenseClaim>` projections, so they add no Bridge or use claim.
+
+If a named current use relates different `<ReferenceScheme, LocalSenseClaim>` projections, apply the F.9 predicate to the possible Bridge, identify the affirmative bounded-use claim separately under C.2.1, and apply A.10 or B.3 to the relied-on evidence or assurance claim; without that use, add no Bridge or use claim.
+
+For `ModelExpressionCoherenceRelation`, an A.1.1 predicate may require an obtaining Bridge in its bridged interpretation branch; a receiving assertion or structure selection that relies on that occurrence still needs its own bounded-use claim and reliance path. The NameCard records the naming settlement; a row may cite the separate Bridge, bounded-use claim and reliance when its use needs them.
 
 #### F.18:4.2b - Current Role-Precision NameCards
 
@@ -402,10 +418,14 @@ A.22.CGUS:4.4 permits one exact C.2.1 episteme to show a traversal through an al
 
 Keep *demonstrative walkthrough* as ordinary readable wording when a sentence already makes the exact shown slice clear. Keep *mantra* as bounded seminar or pattern-local recall wording when repetition and attention are the point. These local recall uses need no durable naming settlement or public row.
 
-If a later use needs stable citation of one exact slice, first recover that C.2.1 episteme from its claim content, the qualified CGUS it concerns, and its effective scheme. Then make one NameCard only if durable naming is useful. Add another card and a Bridge only if a second exact scheme-and-sense projection materially changes interpretation and one named correspondence use is current. Availability remains a separate E.24.PUB operation. `mantra move` stays E.10.MOVE Plain wording for a shown E.11.PUA continuation description; it is not a durable value or a second scheme.
+If a later use needs stable citation of one exact slice, first recover that C.2.1 episteme from its claim content, the qualified CGUS it concerns, and its effective scheme. Then make one NameCard only if durable naming is useful. When a second exact scheme-and-sense projection changes the interpretation, reuse its naming settlement or make a card if it needs a durable name. If a named use depends on correspondence between the projections, test that relation under F.9 and follow §4.4.1.
+
+Availability remains a separate E.24.PUB operation. `mantra move` stays E.10.MOVE Plain wording for a shown E.11.PUA continuation description; it is not a durable value or a second scheme.
 
 #### F.18:4.2d - Rule-content names with unresolved lexical prerequisites
-Consider the following R7 naming candidates under the by-value `FPFCoreReferenceScheme`. Keep each governed `U.NameToken` separate from the predicate or designation value it names. Suppose the E.10 TokenClass, reserved-name and allowed-scope prerequisites have not yet been established for these candidates. Then they remain candidate inputs rather than current `NameCard` epistemes: `PublicRowStatus = pending` and no `UnifiedTermRowRef` exists. These naming uses require no semantic correspondence and make no Bridge claim.
+Consider the following R7 naming candidates under the by-value `FPFCoreReferenceScheme`. Keep each governed `U.NameToken` separate from the predicate or designation value it names.
+
+Suppose the E.10 TokenClass, reserved-name and allowed-scope prerequisites have not yet been established for these candidates. They remain naming candidates. There is no current NameCard or public row to cite until the lexical prerequisites and naming decisions for that row are settled. These naming uses require no semantic correspondence and make no Bridge claim.
 
 | Candidate expression | Exact local sense and governed value | Covered head families and rejected overread | Three-arena invariance | Reopen/close condition |
 | --- | --- | --- | --- | --- |
@@ -443,7 +463,9 @@ NameCard:
   RefreshCondition: reopen when the explained-language function, required public rationale, carrier independence, product boundary or title use changes; when readers confuse the account with a Method, Guide, decision record or new discipline; or when the governing scheme, exact sense cell or row changes
 ```
 
-This naming use requires no correspondence between different local senses, so the settlement adds no F.9 Bridge or correspondence-use claim. *FPF Library Architectural Reference*, *Engineering Suite Architectural Reference* and *Method Engineering Principle Framework Architectural Reference* qualify the same functional designation by the explained whole. They do not name new kinds or independently maintained series. The full title, filename, declared publication-unit key and stable `SectionRef` are separate; changing a title does not by itself preserve an old Markdown fragment.
+This naming use requires no correspondence between different local senses, so the settlement adds no F.9 Bridge or correspondence-use claim. *FPF Library Architectural Reference*, *Engineering Suite Architectural Reference* and *Method Engineering Principle Framework Architectural Reference* qualify the same functional designation by the explained whole. They do not name new kinds or independently maintained series.
+
+The full title, filename, declared publication-unit key and stable `SectionRef` are separate; changing a title does not by itself preserve an old Markdown fragment.
 
 
 #### F.18:4.3 - Candidate Selection
@@ -459,7 +481,7 @@ Judge candidates on:
 
 Use these as ordinal comparisons. Do not average them into one score. If a Pareto-front or quality-diversity method is used, the dimensions and dominance rule must be visible on the card.
 
-One candidate can win even when it is not perfect, but the `SelectionRationale` must say what it buys, what risk remains, and why the covered set is sufficient for this use.
+A candidate can be selected despite a remaining weakness. The `SelectionRationale` must say what it buys, what risk remains, and why the covered set is sufficient for this use.
 
 #### F.18:4.4 - Public Term Rows
 
@@ -471,17 +493,29 @@ The F.17 entry must be able to recover:
 - the locator for the pattern containing its defining or testing rule;
 - the NameCard episteme, selected Tech designation and any Plain designation needed for the naming use;
 - the effective by-value reference scheme, exact F.17 scheme-based SenseCell, and any separate local-sense basis relation;
-- any F.9 Bridge that actually obtains.
+- any F.9 Bridge that obtains.
 
-If the row use relates different `<ReferenceScheme, LocalSenseClaim>` projections, its rationale or notes must cite the separate affirmative C.2.1 claim for the exact action, direction, rule, and tolerance, plus that claim's current A.10 or B.3 reliance. The result must contain one row for one naming decision and state its supported citation use. Add a blocked-use claim only when an independently grounded overreading changes understanding or action, as F.19 explains. If the entry cannot do this, keep the durable name and NameCard local and mark the public row pending. Do not repair or emulate the missing row inside F.18.
+If the row use relates different `<ReferenceScheme, LocalSenseClaim>` projections, its rationale or notes must cite the separate affirmative C.2.1 claim for the exact action, direction, rule, and tolerance, plus that claim's current A.10 or B.3 reliance.
+
+The F.17 result must contain one row for one naming decision and state its supported citation use. Add a blocked-use claim only when an independently grounded overreading changes understanding or action, as F.19 explains.
+
+If the entry cannot do this, keep the durable name and NameCard local and mark the public row pending. Do not repair or emulate the missing row inside F.18.
 
 ##### F.18:4.4.1 - Cross-Projection Use and Reliance
 
-Open this branch only when one named reuse must relate different `<ReferenceScheme, LocalSenseClaim>` projections. Compare the exact F.17 cells. Another expression under the same projection is a designation question and gets no Bridge. Different projections open the F.9 question; a different scheme is only one way projections can differ and proves no relation. Test the F.9 predicate and cite a Bridge only when it actually obtains. With no current correspondence use, create no Bridge or use claim regardless of scheme count.
+Open this branch only when one named reuse must relate different `<ReferenceScheme, LocalSenseClaim>` projections. Compare the exact F.17 cells. Another expression under the same projection is a designation question and gets no Bridge. Different projections open the F.9 question; a different scheme is only one way projections can differ and proves no relation.
+
+Test the F.9 predicate and cite a Bridge only when it obtains. With no current correspondence use, create no Bridge or use claim regardless of scheme count.
 
 State the proposed naming use in a separate current C.2.1 claim whose EntityOfConcern is that Bridge. Record the action, direction, correspondence rule, tolerated loss, and polarity.
 
-For an affirmative named-use claim, recover the independently established direct evidence relations and their descriptive A.10 evidence-provenance account. `RelianceDisposition=pass` supports only this bounded use and requires the evidence demanded by the claim and its direct rule. Use B.3 only when an actual named assurance claim is current. If a direct rule requires such a claim and it is missing, return `assurance-needed` and recover that claim before opening B.3; materiality alone creates neither a claim nor a positive result. A failed or non-passing claim or reliance stops or narrows the use. Neither route authorizes the use or proves that it occurred.
+For an affirmative named-use claim, recover the independently established direct evidence relations and their descriptive A.10 evidence-provenance account. `RelianceDisposition=pass` supports only this bounded use and requires the evidence demanded by the claim and its direct rule.
 
-If the reuse did occur, recover the claimed result under its own rule: actual Work through section 5.3, an assertion episteme under C.2.1, publication under E.24.PUB, a direct relation under its predicate, or an operation application under A.6.1. Name a `BoundedModelUseStructure` only when that selected structure changes the sense or naming use. Until the Bridge, separate claim, and required reliance are current, keep the names local or record the unresolved alignment. A reference-scheme or model-use-structure difference alone supplies neither a premise nor governed-value identity.
+Use B.3 only when an actual named assurance claim is current. If a direct rule requires such a claim and it is missing, return `assurance-needed` and recover that claim before opening B.3; materiality alone creates neither a claim nor a positive result.
+
+A failed or non-passing claim or reliance stops or narrows the use. Neither the A.10 nor the B.3 route authorizes the use or proves that it occurred.
+
+If the reuse did occur, recover the claimed result under its own rule: actual Work through section 5.3, an assertion episteme under C.2.1, publication under E.24.PUB, a direct relation under its predicate, or an operation application under A.6.1. Name a `BoundedModelUseStructure` only when that selected structure changes the sense or naming use.
+
+Until the Bridge, separate claim, and required reliance are current, keep the names local or record the unresolved alignment. A reference-scheme or model-use-structure difference alone supplies neither a premise nor governed-value identity.
 

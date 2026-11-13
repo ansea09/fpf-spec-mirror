@@ -6,12 +6,12 @@ section_id: "A.6.0:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.0/A.6.0__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.0 — U.Signature - Reusable Law-Governed Declaration Episteme"
   - "A.6.0:4 — Solution"
-line_start: 16269
-line_end: 16494
+line_start: 16888
+line_end: 17187
 dependencies:
   - "A.15.1"
   - "A.17"
@@ -43,17 +43,23 @@ keywords:
 
 ### A.6.0:4 - Solution
 
-Use `U.Signature` as the dependent durable U-kind for a reusable law-governed declaration episteme. Identify the episteme through its content, exact `EntityOfConcernRef`, and effective `ReferenceScheme`. Let the declaration state its vocabulary, laws, and applicability. Keep the declared subject and every later realization under their direct kinds and relations.
+Use `U.Signature` as the dependent durable U-kind for a reusable law-governed declaration episteme. Identify the episteme through its content, `EntityOfConcernRef`, and effective `ReferenceScheme`. Let the declaration state its vocabulary, laws, and applicability. Keep the declared subject and every later realization under their direct kinds and relations.
 
-**Local signature mantra.** *Name the subject and value or result range. State the reusable terms, laws and applicability. Add participant declarations, operation parameters, slice-dependent membership or dependencies when a receiving use needs them. Distinguish the declared rules from particular applications, evaluations, Work and publication.*
+**Local signature mantra.** *Name the subject and value or result range. State the reusable terms, laws and applicability. Add participant declarations, operation parameters, slice-dependent membership or dependencies when a receiving use needs them. Distinguish the declared rules from applications, evaluations, Work and publication.*
 
-In FPF terms, the subject is identified by `EntityOfConcernRef`; `SubjectKind`, `RangedValueKind`, and optional `ResultKind` state the declared subject and range; and `Vocabulary`, `Laws`, and `Applicability` state the reusable terms, regularities, and use boundary. Add A.6.5 SlotSpecs only when a reusable `RelationSignature` must preserve the same participant meanings and types. Add A.6.1 operation arguments or results only for a current mechanism declaration. Add `SliceSet` and `ExtentRule` only when the same declared kind can have different members at selected context slices. Declare a dependency only when another signature actually relies on imported or provided names or laws. If the named reuse still works without an optional addition, leave that addition out. Mechanism implementations and realizations remain under A.6.1, evaluations under their direct evaluation patterns, work under A.15.1, and publication under E.24.PUB. The mantra is Plain recall wording. When a receiving question concerns available continuations and their conditions, use A.22.CGUS's ordinary branch. Continue to formal qualification only when a named later use needs structure identity or replayable results; then identify the A.22 structure, its local loci and at least two potential continuations under the selected relations and constraints.
+In FPF terms, the subject is identified by `EntityOfConcernRef`; `SubjectKind`, `RangedValueKind`, and optional `ResultKind` state the declared subject and range; and `Vocabulary`, `Laws`, and `Applicability` state the reusable terms, regularities, and use boundary. Add A.6.5 SlotSpecs only when a reusable `RelationSignature` must preserve the same participant meanings and types. Add A.6.1 operation arguments or results only for a current mechanism declaration. Add `SliceSet` and `ExtentRule` only when the same declared kind can have different members at selected context slices. Declare a dependency only when another signature relies on imported or provided names or laws.
+
+If the named reuse still works without an optional addition, leave that addition out.
+
+Mechanism implementations and realizations remain under A.6.1, evaluations under their direct evaluation patterns, work under A.15.1, and publication under E.24.PUB.
+
+The mantra is Plain recall wording. When a receiving question concerns available continuations and their conditions, use A.22.CGUS's ordinary branch. Continue to formal qualification only when a named later use needs structure identity or replayable results; then identify the A.22 structure, its local loci and at least two potential continuations under the selected relations and constraints.
 
 #### A.6.0:4.1 - Admit and identify U.Signature
 
-`U.Signature` is a same-individual dependent durable U-kind under `U.Episteme`. C.2.1 first identifies one episteme through one `EpistemeConstitutionRelation` by its complete claim content, exact independently governed `EntityOfConcern`, and effective `ReferenceScheme`. The claim graph and reference scheme are epistemic constituents; the `EntityOfConcern` is not. A.6.0 adds a stable membership condition and practitioner-facing declaration use to that already identified individual. It adds no second constitution relation, identity discriminator, assembly, composition rule, or holon test.
+`U.Signature` is a same-individual dependent durable U-kind under `U.Episteme`. C.2.1 first identifies one episteme through one `EpistemeConstitutionRelation` by its complete claim content, independently governed `EntityOfConcern`, and effective `ReferenceScheme`. The claim graph and reference scheme are epistemic constituents; the `EntityOfConcern` is not. A.6.0 adds a stable membership condition and practitioner-facing declaration use to that already identified individual. It adds no second constitution relation, identity discriminator, assembly, composition rule, or holon test.
 
-An already identified episteme is a `U.Signature` exactly when, under its effective `ReferenceScheme`, its complete identity-bearing claim content carries a reusable law-governed declaration about its exact `EntityOfConcern` and includes all of the following with substantive meaning:
+An already identified episteme is a `U.Signature` exactly when, under its effective `ReferenceScheme`, its complete identity-bearing claim content carries a reusable law-governed declaration about its `EntityOfConcern` and includes all of the following with substantive meaning:
 
 - direct `SubjectKind` and `RangedValueKind` declarations that identify the declared subject and value range;
 - `Vocabulary` that supplies the designators needed to reuse the declaration;
@@ -61,13 +67,25 @@ An already identified episteme is a `U.Signature` exactly when, under its effect
 - `Applicability` that bounds where those claims are used;
 - `ResultKind`, `SliceSet`, `ExtentRule`, and dependency, import, or provided-name declarations only when those distinctions are current for the declaration.
 
-Resolve the complete interpreted claim content and operative rules under C.2.1:4.1.1; C.2.1:4.1.2 supplies `NonemptyClaimContent` and `EpistemeInterpretationScheme` when a typed consumer needs those ranges. Signature membership additionally requires the substantive declaration content above. Judge that complete content, not a selected subset or the presence of field names. A minimal directly authored signature may carry the declaration content required by the A.6.0 membership predicate in one claim graph without citing any smaller episteme. A signature may instead cite separately identified source or dependency epistemes, provided its own claim graph names the dependency relation and the declaration meaning thereby reused. Those source epistemes remain separate individuals connected through their governing dependency, source-use, edition, or other direct relations; they are not components assembled into the signature, and their citation alone does not establish signature membership.
+Resolve the complete interpreted claim content and operative rules under C.2.1:4.1.1; C.2.1:4.1.2 supplies `NonemptyClaimContent` and `EpistemeInterpretationScheme` when a typed consumer needs those ranges. Signature membership additionally requires the substantive declaration content above. Judge that complete content, not a selected subset or the presence of field names.
 
-E.24.UK governs the one-time public admission of the dependent kind. In project work, authoring a new declaration candidate, or revising a declaration so that its claim content, exact `EntityOfConcern`, or effective `ReferenceScheme` changes, yields a resulting C.2.1 discriminator triple. When the one `EpistemeConstitutionRelation` for that triple obtains, C.2.1 identifies the resulting episteme; A.6.0 then judges whether that already identified individual satisfies the `U.Signature` membership predicate, without adding a second constitution occurrence or identity discriminator. An optional separately reviewable membership judgment is another classification-assertion episteme whose exact `EntityOfConcern` is the candidate. For citation, comparison, reuse, or membership judgment with unchanged C.2.1 discriminators, the candidate episteme and its constitution occurrence remain the same.
+A minimal directly authored signature may carry the declaration content required by the A.6.0 membership predicate in one claim graph without citing any smaller episteme.
 
-The signature keeps the C.2.1 identity of the same episteme. Two designations resolve to that same individual only while the complete claim content, exact `EntityOfConcern`, and effective `ReferenceScheme` are unchanged. Changing any discriminator identifies another `U.Episteme`; call that new individual a `U.Signature` only if it independently satisfies the membership predicate above. State an edition, refinement, or supersession relation only when its own direct predicate obtains.
+A signature may instead cite separately identified source or dependency epistemes, provided its own claim graph names the dependency relation and the declaration meaning thereby reused. Those source epistemes remain separate individuals connected through their governing dependency, source-use, edition, or other direct relations; they are not components assembled into the signature, and their citation alone does not establish signature membership.
 
-The declared subject remains the independently governed `EntityOfConcern`, not the signature. A realization of the declaration remains under its direct pattern. A description whose `EntityOfConcern` is the signature is another episteme. Publication occurrence, independently identified expression, any selected reusable publication form, physical or digital carrier, and representations remain separate objects and relations under their direct patterns; publication or visible form establishes neither identity nor membership. G.11 currentness and every later work or use likewise remain neighboring judgments and relations rather than signature identity components.
+E.24.UK governs the one-time public admission of the dependent kind.
+
+In project work, authoring a new declaration candidate, or revising a declaration so that its claim content, `EntityOfConcern`, or effective `ReferenceScheme` changes, yields a resulting C.2.1 discriminator triple. When the one `EpistemeConstitutionRelation` for that triple obtains, C.2.1 identifies the resulting episteme; A.6.0 then judges whether that already identified individual satisfies the `U.Signature` membership predicate, without adding a second constitution occurrence or identity discriminator.
+
+An optional separately reviewable membership judgment is another classification-assertion episteme whose `EntityOfConcern` is the candidate. For citation, comparison, reuse, or membership judgment with unchanged C.2.1 discriminators, the candidate episteme and its constitution occurrence remain the same.
+
+The signature keeps the C.2.1 identity of the same episteme. Two designations resolve to that same individual only while the complete claim content, `EntityOfConcern`, and effective `ReferenceScheme` are unchanged. Changing any discriminator identifies another `U.Episteme`; call that new individual a `U.Signature` only if it independently satisfies the membership predicate above. State an edition, refinement, or supersession relation only when its own direct predicate obtains.
+
+The declared subject remains the independently governed `EntityOfConcern`, not the signature. A realization of the declaration remains under its direct pattern. A description whose `EntityOfConcern` is the signature is another episteme.
+
+Publication occurrence, independently identified expression, any selected reusable publication form, physical or digital carrier, and representations remain separate objects and relations under their direct patterns; publication or visible form establishes neither identity nor membership.
+
+G.11 currentness and every later work or use likewise remain neighboring judgments and relations rather than signature identity components.
 
 #### A.6.0:4.2 - Write the minimum declaration content
 
@@ -76,19 +94,27 @@ The four content groups are semantic components, not a mandatory visual table. A
 | Content group | Content and use |
 |---|---|
 | `SubjectKind`, `RangedValueKind`, optional `ResultKind`, `SliceSet`, and `ExtentRule` | Name the declared subject and value range, plus a distinct result kind when current. When membership of the same `SubjectKind` can differ across context slices, `SliceSet` names the addressable `U.ContextSlice` values to consider and `ExtentRule` states how membership is judged at one selected slice, thereby determining `Extension(SubjectKind, slice)`. |
-| `Vocabulary` | Declares the public designators for value kinds, relation kinds, operators, and other independently identified declared objects. A `RelationSignature` may include SlotSpecs under A.6.5; each SlotSpec gives a declaration-local SlotKind name and the exact participant ValueKind and designation mode. A mechanism may include operation argument and result declarations under A.6.1. E.24.UK governs public U-kind admission. |
+| `Vocabulary` | Declares the public designators for value kinds, relation kinds, operators, and other independently identified declared objects. A `RelationSignature` may include SlotSpecs under A.6.5; each SlotSpec gives a declaration-local SlotKind name and the participant ValueKind and designation mode. A mechanism may include operation argument and result declarations under A.6.1. E.24.UK governs public U-kind admission. |
 | `Laws` | States semantic predicates, equations, invariants, closure conditions and other declared regularities. An operation-entry predicate belongs to A.6.1. Use A.3.1 for a separate Method claim. If a particular dated Work is asserted, use A.13 for its actual performer and A.15.1 for independent Work admission. Add F.6 only when precise assignment-bound attribution through the same obtaining assignment is consumed; attribution failure leaves the Work intact. |
-| `Applicability` | States the exact `U.ClaimScope` and any other use qualifiers current for this declaration, such as a relevant time interval or selected `CHR:ReferencePlane`. Cite an optional `modelUseStructureRef : SelectedStructureReference` only when an independently selected model-use structure changes interpretation. |
+| `Applicability` | States the `U.ClaimScope` and any other use qualifiers current for this declaration, such as a relevant time interval or selected `CHR:ReferencePlane`. Cite an optional `modelUseStructureRef : SelectedStructureReference` only when an independently selected model-use structure changes interpretation. |
 
-`SubjectKind` and `RangedValueKind` are declaration-content components. C.3 governs the declared kinds; E.24.UK governs public U-kind admission. A.2.6 supplies addressable `U.ContextSlice` values; C.3.2 governs the membership judgment and any optional materialized `KindExtension` representation. `SliceSet` is not a generic space, time interval, numeric or result range, or changing dataset. `ExtentRule` tells how the declared kind's members are determined at one named slice. A time selector may be part of a `U.ContextSlice`; a value or result range stays in `RangedValueKind` or `ResultKind`; changing data stays with its subject pattern; and a claim-bearing mathematical set representation opens C.29 only for a mathematical-lens use. Leave both fields out unless membership of the same declared kind can differ across the named slices.
+`SubjectKind` and `RangedValueKind` are declaration-content components. C.3 governs the declared kinds; E.24.UK governs public U-kind admission. A.2.6 supplies addressable `U.ContextSlice` values; C.3.2 governs the membership judgment and any optional materialized `KindExtension` representation.
 
-Applicability and meaning remain distinct. The effective `ReferenceScheme` is part of episteme identity. The exact `U.ClaimScope` delimits use; when current for the declaration, a relevant time interval, selected `CHR:ReferencePlane`, or selected `BoundedModelUseStructure : U.Structure` further delimits or organizes applicability. Retain both the effective `ReferenceScheme` and exact `U.ClaimScope` when adding these applicability qualifiers.
+`SliceSet` is not a generic space, time interval, numeric or result range, or changing dataset. `ExtentRule` tells how the declared kind's members are determined at one named slice.
+
+A time selector may be part of a `U.ContextSlice`; a value or result range stays in `RangedValueKind` or `ResultKind`; changing data stays with its subject pattern; and a claim-bearing mathematical set representation opens C.29 only for a mathematical-lens use. Leave both fields out unless membership of the same declared kind can differ across the named slices.
+
+Applicability and meaning remain distinct. The effective `ReferenceScheme` is part of episteme identity. The `U.ClaimScope` delimits use; when current for the declaration, a relevant time interval, selected `CHR:ReferencePlane`, or selected `BoundedModelUseStructure : U.Structure` further delimits or organizes applicability. Retain both the effective `ReferenceScheme` and `U.ClaimScope` when adding these applicability qualifiers.
 
 #### A.6.0:4.3 - Use RelationSignature for reusable relation declaration
 
 `RelationSignature` is the relation-facing use of one `U.Signature`. It is not a second U-kind.
 
-Its `EntityOfConcernRef` identifies one exact already admitted direct relation kind. If `A.6.RCD` settles a derived relation kind, that kind counts here only after its direct subject settlement states the participant meanings, exact base-definition and named-substrate dependencies, obtaining and applicability laws, and a direct occurrence-identity rule. The derivation or predicate definition may be cited as a dependency, but a predicate-definition episteme whose `EntityOfConcern` is the reusable predicate definition rather than the admitted relation kind is not a `RelationSignature`. A `RelationSignature` declares:
+Its `EntityOfConcernRef` identifies one already admitted direct relation kind. If `A.6.RCD` settles a derived relation kind, that kind counts here only after its direct subject settlement states the participant meanings, exact base-definition and named-substrate dependencies, obtaining and applicability laws, and a direct occurrence-identity rule.
+
+The derivation or predicate definition may be cited as a dependency, but a predicate-definition episteme whose `EntityOfConcern` is the reusable predicate definition rather than the admitted relation kind is not a `RelationSignature`.
+
+A `RelationSignature` declares:
 
 - the relation-kind designator;
 - one `SlotSpec` for each world-side participant meaning that needs reusable typed declaration;
@@ -117,18 +143,24 @@ refMode := ByValue | RefKind
 | Component | Meaning in a RelationSignature |
 |---|---|
 | `SlotKind` | The declaration-local name by which this `RelationSignature` distinguishes one participant meaning of its EntityOfConcern relation kind. It is not a participant, system-role kind, or mathematical operand. |
-| `ValueKind` | The exact world-side kind admitted for the relation participant. |
-| `refMode` | How a receiving episteme, such as an assertion, description, or occurrence record, carries a participant designation: by value or through one exact governed RefKind. That designation denotes the actual participant. The occurrence record and the relation occurrence are distinct. |
+| `ValueKind` | The world-side kind admitted for the relation participant. |
+| `refMode` | How a receiving episteme, such as an assertion, description, or occurrence record, carries a participant designation: by value or through one governed RefKind. That designation denotes the participant. The occurrence record and the relation occurrence are distinct. |
 
-Use A.6.5 to declare these participant meanings. In the simple `MaintenanceInspectionAssignment` species, use `HolderSystemSlot` and one declaration-local `AssignedSystemRoleKindSlot` with `MaintenanceSystemRoleKindDomain` as its ValueKind and `ByValue` as its refMode. In `InspectionAssignment-17`, `InspectorSystemRole` is the assigned-kind participant value. A stronger species adds only a real participant that changes its predicate or occurrence identity. Taxonomy episteme, reference scheme, interval description, and generic context may interpret an assertion but are not generic world-side assignment participants. Do not force SlotSpecs into a one-off assertion that has no receiving typed use.
+Use A.6.5 to declare these participant meanings. In the simple `MaintenanceInspectionAssignment` species, use `HolderSystemSlot` and one declaration-local `AssignedSystemRoleKindSlot` with `MaintenanceSystemRoleKindDomain` as its ValueKind and `ByValue` as its refMode. In `InspectionAssignment-17`, `InspectorSystemRole` is the assigned-kind participant value.
 
-A formal or mechanism declaration may instead need named operation arguments and a result. A.6.1 governs that `OperationAlgebra`. A representation may use a mathematical operand order, product, function, or tuple. A.6.3.RT governs a same-EntityOfConcern representation-scheme transition; C.29 governs only a mathematical-lens use. Those operation parameters do not become `RelationSignature` SlotSpecs or SlotKinds merely because the same notation uses angle brackets or numbered arguments. When a relation claim consumes a mathematical representation, state an explicit correspondence between the representation's operands and the independently declared SlotSpecs.
+A stronger species adds only a participant that changes its predicate or occurrence identity. Taxonomy episteme, reference scheme, interval description, and generic context may interpret an assertion but are not generic world-side assignment participants. Do not force SlotSpecs into a one-off assertion that has no receiving typed use.
 
-#### A.6.0:4.5 - Expose real declaration dependencies
+A formal or mechanism declaration may instead need named operation arguments and a result. A.6.1 governs that `OperationAlgebra`. A representation may use a mathematical operand order, product, function, or tuple. A.6.3.RT governs a same-EntityOfConcern representation-scheme transition; C.29 governs only a mathematical-lens use.
 
-Open a `SignatureManifest` only after this test. Add an import when removing one named provider would leave this declaration unable to interpret a required non-local term or unable to replay one of its stated laws; name the provider and the exact required term or law. Add a provide entry when this declaration introduces a named term or law and one named dependent declaration relies on it. A background citation, similar vocabulary, shared publication, list membership, or convenient replay order is not a dependency.
+Those operation parameters do not become `RelationSignature` SlotSpecs or SlotKinds merely because the same notation uses angle brackets or numbered arguments. When a relation claim consumes a mathematical representation, state an explicit correspondence between the representation's operands and the independently declared SlotSpecs.
 
-The `SignatureManifest` heading co-locates entries with three functions: `id` is an identity-neutral display designator; `signatureRef` and its optional `.edition` pin form a governed reference to an already recoverable signature episteme; and `imports` and `provides` may carry or represent dependency and name-or-law introduction claims in the signature's exact claim content.
+#### A.6.0:4.5 - Declare dependencies
+
+Open a `SignatureManifest` only after this test. Add an import when removing one named provider would leave this declaration unable to interpret a required non-local term or unable to replay one of its stated laws; name the provider and the exact required term or law.
+
+Add a provide entry when this declaration introduces a named term or law and one named dependent declaration relies on it. A background citation, similar vocabulary, shared publication, list membership, or convenient replay order is not a dependency.
+
+The `SignatureManifest` heading co-locates entries with three functions: `id` is an identity-neutral display designator; `signatureRef` and its optional `.edition` pin form a governed reference to an already recoverable signature episteme; and `imports` and `provides` may carry or represent dependency and name-or-law introduction claims in the signature's claim content.
 
 The `SignatureManifest` section may carry entries with these functions:
 
@@ -137,19 +169,23 @@ The `SignatureManifest` section may carry entries with these functions:
 | `id : SignatureId` | An identity-neutral display designator or representation metadata for one already independently identified signature episteme. It is not a governed reference and does not enter the C.2.1 identity triple. |
 | `signatureRef : U.EpistemeRef` | A governed reference resolving to the already identified signature episteme selected for replay. Changing its serialization preserves the referent only while resolution returns that same episteme under the effective reference scheme. |
 | `signatureRef.edition` | An optional edition pin on `signatureRef` for one already recoverable episteme edition. The pin neither enters the C.2.1 identity triple nor establishes that an `EpistemeEditionRelation` obtains. |
-| `imports` | When the signature's exact claim content states that interpretation requires a named term or that replay requires an exact law claim from a named provider declaration, this entry carries that claim content or visibly represents it. Name both provider and required term or law. The designators, governed references, or list membership alone establish no dependency or source-use occurrence. |
-| `provides` | When the signature's exact claim content states that it introduces a public term or law on which a named dependent declaration relies, this entry carries that claim content or visibly represents it. Public SlotKinds and RefKinds can be named terms. Being listed establishes no consumer dependency by itself. |
+| `imports` | When the signature's claim content states that interpretation requires a named term or that replay requires an exact law claim from a named provider declaration, this entry carries that claim content or visibly represents it. Name both provider and required term or law. The designators, governed references, or list membership alone establish no dependency or source-use occurrence. |
+| `provides` | When the signature's claim content states that it introduces a public term or law on which a named dependent declaration relies, this entry carries that claim content or visibly represents it. Public SlotKinds and RefKinds can be named terms. Being listed establishes no consumer dependency by itself. |
 
-A change confined to the spelling of `id` or the serialization of `signatureRef` preserves episteme identity only when the reference still resolves to the same episteme and its exact claim content, exact EntityOfConcern, and effective `ReferenceScheme` remain unchanged. Changing `signatureRef.edition` selects another already recoverable edition; it does not by itself establish an edition relation, historical continuity, or `U.Signature` membership for the referent. If a C.2.1 identity discriminator changes, A.6.0:4.10 governs the resulting identity.
+A change confined to the spelling of `id` or the serialization of `signatureRef` preserves episteme identity only when the reference still resolves to the same episteme and its claim content, EntityOfConcern, and effective `ReferenceScheme` remain unchanged.
+
+Changing `signatureRef.edition` selects another already recoverable edition; it does not by itself establish an edition relation, historical continuity, or `U.Signature` membership for the referent. If a C.2.1 identity discriminator changes, A.6.0:4.10 governs the resulting identity.
 
 Use these dependency-manifest predicates:
 
 - **SM-1 Term-and-law resolution.** Every required non-local term or exact law claim resolves under the effective reference scheme to the one named provider declaration that supplies it.
-- **SM-2 No redeclaration and legal direction.** A provided term or law is not also supplied by a transitive import under the same effective reference scheme, and the claimed provider-to-consumer direction matches the predicate of the exact dependency or source-use relation rather than a drawn arrow or list order.
+- **SM-2 No redeclaration and legal direction.** A provided term or law is not also supplied by a transitive import under the same effective reference scheme, and the claimed provider-to-consumer direction matches the predicate of the dependency or source-use relation rather than a drawn arrow or list order.
 - **SM-3 Imports, replay order and cycles.** Explicit `imports` **MUST** form an acyclic graph and respect E.5.3's dependency direction. A cycle in those imports violates that rule and also prevents a one-pass provider-to-consumer replay. Recover the claims responsible for the cycle before repairing the declaration; do not silently delete an edge or invent an order. Other semantic relations retain their own governing predicates: the imports restriction is not a verdict on every possible relation cycle. Keep the graph representation and ordering separate from the semantic claims; use C.29 only for a mathematical-lens use.
 - **SM-4 Export boundary.** A dependent declaration relies on provided names and cited laws, not on private publication layout or implementation detail.
 
-The remove-the-provider test above identifies a candidate dependency. State the exact dependency or source-use relation only after its direct predicate is satisfied for the named provider, consumer, term or law, and use. A citation, manifest entry, list membership, or replay result can support an assertion about that relation. A provider or provider-edition change may require resolution, replay, or currentness review; it changes the consumer signature's identity only when the consumer's own claim content, exact EntityOfConcern, or effective reference scheme changes.
+The remove-the-provider test above identifies a candidate dependency. State the dependency or source-use relation only after its direct predicate is satisfied for the named provider, consumer, term or law, and use. A citation, manifest entry, list membership, or replay result can support an assertion about that relation.
+
+A provider or provider-edition change may require resolution, replay, or currentness review; it changes the consumer signature's identity only when the consumer's own claim content, EntityOfConcern, or effective reference scheme changes.
 
 A governed reference to a separately identified object is not an exported vocabulary name merely because that reference appears in the signature.
 
@@ -157,21 +193,33 @@ A governed reference to a separately identified object is not an exported vocabu
 
 A signature profile is a constrained use of the same `U.Signature` kind. The profile states which content is current and which neighboring patterns define or constrain later use.
 
-**`profile = FormalSubstrate`.** Declare vocabulary and terms, inference kinds, formal laws, applicability, and the actual declaration dependencies carried in the signature's claim content. A.6.1 separately governs `OperationAlgebra`, operation designators, typed argument and result positions, admission conditions, application, and realization. An A.6.1 declaration may cite the FormalSubstrate signature. When a mathematical object is selected as a lens for another entity, C.29 governs the lens-use claim.
+**`profile = FormalSubstrate`.** Declare vocabulary and terms, inference kinds, formal laws, applicability, and the declaration dependencies carried in the signature's claim content. A.6.1 separately governs `OperationAlgebra`, operation designators, typed argument and result positions, admission conditions, application, and realization. An A.6.1 declaration may cite the FormalSubstrate signature. When a mathematical object is selected as a lens for another entity, C.29 governs the lens-use claim.
 
-**`profile = PrincipleFrame`.** Write the postulates and invariants, then name the observable distinction each one requires: what must be observed or compared to tell whether the frame's claim holds. Cite a separately identified characteristic or measurement declaration when it is needed to state or check that distinction; units, scales, `CHR:ReferencePlane` values, comparators, and normalizations remain under A.17, A.18, C.16, CHR, A.19.CPM, and A.19.UNM. If the text decides whether a proposed operation application, run, or gate may proceed, move that decision to A.6.1 or the direct evaluation and gate pattern, including A.21/C.11 where applicable. A PrincipleFrame may state what a decision must respect, but it is not that admission decision. For ordinary reuse, apply the frame's Applicability and the direct subject rules for any reference-plane or model-use-structure question. When the receiving claim needs an exact semantic relation between two local senses whose interpretation bases differ, first recover the two exact F.17 local senses; cite an F.9 Bridge only if its direct predicate obtains and state the bounded-use claim, direction, preservation, loss, and any required reliance separately. Cited declarations remain independently identified objects, not extra PrincipleFrame identity components.
+**`profile = PrincipleFrame`.** Write the postulates and invariants, then name the observable distinction each one requires: what must be observed or compared to tell whether the frame's claim holds. Cite a separately identified characteristic or measurement declaration when it is needed to state or check that distinction; units, scales, `CHR:ReferencePlane` values, comparators, and normalizations remain under A.17, A.18, C.16, CHR, A.19.CPM, and A.19.UNM.
 
-State a relation between two signatures directly as refinement, conservative extension, equivalence, or another independently governed relation only when that relation's own predicate obtains. Before using the refinement label, compare all three reusable content duties: `Vocabulary`, `Laws`, and `Applicability`. Name the terms preserved, added, or removed; the laws preserved, strengthened, or changed; and whether the population, time, `CHR:ReferencePlane`, and claim scope stay the same, narrow, or widen. An unexplained applicability widening fails the refinement claim; use another direct relation whose predicate explicitly permits the widening instead of hiding it under `refinement`. Use a C.29 morphism only when a mathematical structure-preservation claim is actually current.
+If the text decides whether a proposed operation application, run, or gate may proceed, move that decision to A.6.1 or the direct evaluation and gate pattern, including A.21/C.11 where applicable. A PrincipleFrame may state what a decision must respect, but it is not that admission decision.
+
+For ordinary reuse, apply the frame's Applicability and the direct subject rules for any reference-plane or model-use-structure question.
+
+When the receiving claim needs a semantic relation between two local senses whose interpretation bases differ, first recover the two F.17 local senses; cite an F.9 Bridge only if its direct predicate obtains and state the bounded-use claim, direction, preservation, loss, and any required reliance separately. Cited declarations remain independently identified objects, not extra PrincipleFrame identity components.
+
+State a relation between two signatures directly as refinement, conservative extension, equivalence, or another independently governed relation only when that relation's own predicate obtains.
+
+Before using the refinement label, compare all three reusable content duties: `Vocabulary`, `Laws`, and `Applicability`. Name the terms preserved, added, or removed; the laws preserved, strengthened, or changed; and whether the population, time, `CHR:ReferencePlane`, and claim scope stay the same, narrow, or widen. An unexplained applicability widening fails the refinement claim; use another direct relation whose predicate explicitly permits the widening instead of hiding it under `refinement`. Use a C.29 morphism only when a mathematical structure-preservation claim is current.
 
 #### A.6.0:4.6a - Rule-content actual-use predicate declaration
 
-`RuleContentBasisFindingDefinition@R7` is one ordinary `U.Signature` for two reusable predicates over claim content. Its exact EntityOfConcern is the reusable predicate definition; both `SubjectKind` and `RangedValueKind` are `NonemptyClaimContent` under C.2.1:4.1.2. No distinct result kind is current because an ordinary C.2.1 assertion states whether a predicate obtains. The declaration is not a `RelationSignature`: `dependentContent` and `baseContent` are semantic parameters, not world-side relation participants or A.6.5 SlotSpecs.
+`RuleContentBasisFindingDefinition@R7` is one ordinary `U.Signature` for two reusable predicates over claim content. Its EntityOfConcern is the reusable predicate definition; both `SubjectKind` and `RangedValueKind` are `NonemptyClaimContent` under C.2.1:4.1.2. No distinct result kind is current because an ordinary C.2.1 assertion states whether a predicate obtains. The declaration is not a `RelationSignature`: `dependentContent` and `baseContent` are semantic parameters, not world-side relation participants or A.6.5 SlotSpecs.
 
 The C.2.1 range criterion identifies eligible semantic inputs; it establishes neither actual use nor candidate sufficiency. This range declaration leaves an earlier exact episteme-edition pin at its original source. Before reusing an earlier assertion with the present declaration, compare its exact dependent and base values, interpretation and applicable predicate law; carry forward only the conclusion that this comparison supports. The names R7 and R8 alone do not identify an unchanged declaration episteme or transfer acceptance.
 
 Its vocabulary includes `SelectedRuleContentSubgraphDesignation@RuleContentBasisFindingDefinition-R7`, `derivedUsingRuleContent@RuleContentBasisFindingDefinition-R7`, and `evaluatedAgainstRuleContent@RuleContentBasisFindingDefinition-R7`. The designation resolves one exact nonempty base subgraph selected for one identified use. `RuleContentDerivationProfile@R7`, `RuleContentEvaluationProfile@R7`, and `RuleContentBasisFamilyAlgebra@R7` are named subgraphs of this signature's ClaimGraph.
 
-The derivation predicate obtains only when an identified derivation claim used exact `baseContent` as a formal premise under a declared inference rule or application to produce exact `dependentContent`. The evaluation predicate obtains only when an identified criterion-selection claim selected exact `baseContent` for one exact bounded evaluation claim concerning `dependentContent`. Definition, constraint, applicability, consultation, citation, influence, provenance, evidence, evaluation Work, result, sufficiency, assurance, reliance, authority, and publication establish neither predicate by themselves.
+The derivation predicate obtains only when an identified derivation claim used exact `baseContent` as a formal premise under a declared inference rule or application to produce exact `dependentContent`.
+
+The evaluation predicate obtains only when an identified criterion-selection claim selected exact `baseContent` for one exact bounded evaluation claim concerning `dependentContent`.
+
+Definition, constraint, applicability, consultation, citation, influence, provenance, evidence, evaluation Work, result, sufficiency, assurance, reliance, authority, and publication establish neither predicate by themselves.
 
 An assertion names the exact actual-use claim identity and bounded receiving use, and adds scope, temporal policy, scheme interpretation, Bridge/loss, or source/witness qualifications only when each independently changes that assertion. A changed subject, content, mode, use, actual-use claim, scope extension, time policy, or interpreted endpoint identifies a successor assertion under C.2.1 rather than mutating every use of this reusable definition.
 
@@ -179,13 +227,21 @@ R7 is a changed-law successor of historical `RuleContentBasisFindingDefinition@R
 
 #### A.6.0:4.6b - Candidate-basis establishment and family disposition
 
-`RuleContentBasisFindingDefinition@R8` is a changed-law successor of R7. It preserves R7's two actual-use predicate tests and adds the following laws to its named `RuleContentBasisFamilyAlgebra@R8` subgraph. Candidate sufficiency is a separate operation: it asks whether a basis can support the exact derivation or bounded evaluation under named rules, not whether that basis was actually used. Existing R7 actual-use assertions retain their exact definition and use pins. R8 inherits no acceptance, actual use or reliance merely from succession.
+`RuleContentBasisFindingDefinition@R8` is a changed-law successor of R7. It preserves R7's two actual-use predicate tests and adds the following laws to its named `RuleContentBasisFamilyAlgebra@R8` subgraph.
 
-For one exact analysis question and temporal cell under E.4.PFR §3.6, take a finite candidate universe V and its supported open/closed state. Each candidate is a finite nonempty conjunctive set of semantic-base subgraphs. The receiving contract fixes which axes are required before evaluation. Exactness, applicability and sufficiency are always required; acceptance and witness join that conjunction only when the receiving contract requires them. Each axis has an independently supported true/false result or remains unknown.
+Candidate sufficiency is a separate operation: it asks whether a basis can support the exact derivation or bounded evaluation under named rules, not whether that basis was actually used.
+
+Existing R7 actual-use assertions retain their exact definition and use pins. R8 inherits no acceptance, actual use or reliance merely from succession.
+
+For one analysis question and temporal cell under E.4.PFR §3.6, take a finite candidate universe V and its supported open/closed state. Each candidate is a finite nonempty conjunctive set of semantic-base subgraphs.
+
+The receiving contract fixes which axes are required before evaluation. Exactness, applicability and sufficiency are always required; acceptance and witness join that conjunction only when the receiving contract requires them. Each axis has an independently supported true/false result or remains unknown.
 
 **Sufficiency.** In derive mode, the named inference rules derive the exact dependent proposition from the candidate basis with no undeclared premises. In evaluate mode, the basis supplies the criteria and facts required by the named evaluation rule to obtain its bounded result. That result may be negative: a supported failing evaluation does not make its basis insufficient. These laws neither establish `derivedUsingRuleContent` nor `evaluatedAgainstRuleContent` without their separate actual-use facts.
 
-**Establishment.** A candidate is established iff all required axes are true. It is decisively defeated iff at least one required axis is false, even when another is unknown. Otherwise its establishment remains unresolved. Minimality is an additional result: a candidate is inclusion-minimal when no proper sub-basis in the stated comparison domain is sufficient under the same rules. Unknown or false optional minimality does not remove an established candidate. A request for a minimal family qualifies that additional answer separately.
+**Establishment.** A candidate is established iff all required axes are true. It is decisively defeated iff at least one required axis is false, even when another is unknown. Otherwise its establishment remains unresolved.
+
+Minimality is an additional result: a candidate is inclusion-minimal when no proper sub-basis in the stated comparison domain is sufficient under the same rules. Unknown or false optional minimality does not remove an established candidate. A request for a minimal family qualifies that additional answer separately.
 
 Let F contain all and only established candidates. Keep independently sufficient alternatives even when a required overlapping pair has incompatible consequences. A required pair is one whose compatibility can change the cell disposition or named receiver action; its result is compatible, established incompatible, or unresolved. Apply conflict precedence, then exactly one row:
 
@@ -196,7 +252,7 @@ Let F contain all and only established candidates. Keep independently sufficient
 | F nonempty, V closed, every candidate establishment settled, and all required pairs compatible | `established-compatible` |
 | F empty and V open or at least one candidate establishment unresolved | `open-no-established` |
 | F empty, V closed/nonempty, and every candidate decisively defeated | `closed-insufficient` |
-| F empty, V closed/empty, and an exact supported claim identifies the absent needed content, subject/use and search boundary | `missing-candidates` |
+| F empty, V closed/empty, and a supported claim identifies the absent needed content, subject/use and search boundary | `missing-candidates` |
 | F empty, V closed/empty, without that supported needed-content claim | `closed-empty-unresolved-need` |
 
 An unknown axis on an already defeated candidate is not unresolved establishment. With fewer than two established candidates, no required pair exists and the all-compatible pair condition is vacuously true. The supported needed-content claim retains its reconsideration condition. A closed empty universe alone proves no missing need. Without a named receiving analysis need, take E.4.PFR's no-analysis exit before this operation.
@@ -207,7 +263,7 @@ R8's succession claim names R7, R8, `changeClass = reusable-law-change`, the add
 
 | Current object or claim | Subject pattern |
 |---|---|
-| Constitution and C.2.1 identity of the exact claim-bearing episteme, including a separately identified relation-occurrence description episteme | C.2.1; the direct object or relation pattern still governs the described EntityOfConcern |
+| Constitution and C.2.1 identity of the claim-bearing episteme, including a separately identified relation-occurrence description episteme | C.2.1; the direct object or relation pattern still governs the described EntityOfConcern |
 | Reusable declaration episteme and `U.Signature` membership | A.6.0 |
 | Relation obtaining and explicitly individuated occurrence | Direct relation pattern and A.6.REL |
 | `RelationSignature` SlotSpecs and participant-designation discipline | A.6.5 |
@@ -216,14 +272,14 @@ R8's succession claim names R7, R8, `changeClass = reusable-law-change`, the add
 | Performed work | A.15.1 |
 | Optional source-to-receiving-episteme viewing construction | A.6.3 |
 | Same-EntityOfConcern representation-scheme transition | A.6.3.RT |
-| Cross-reference-scheme, cross-plane, or changed model-use-structure use | Use F.9 only when the use relates two exact F.17 local senses and its direct Bridge predicate obtains; state the bounded-use claim separately. Otherwise use the direct plane or model-use-structure pattern. |
+| Cross-reference-scheme, cross-plane, or changed model-use-structure use | Use F.9 only when the use relates two F.17 local senses and its direct Bridge predicate obtains; state the bounded-use claim separately. Otherwise use the direct plane or model-use-structure pattern. |
 | Numeric comparison, normalization, units, scales, and measurement | A.19.CPM and A.19.UNM, together with A.17, A.18, C.16, and the direct measurement pattern when each object or relation is current |
 | Mathematical or diagrammatic lens use, including its operand mapping or correspondence | C.29 |
 | Current representation-factor bundle for governed episteme publication positions | C.2.7 |
 | Publication-face use and the distinct publication occurrence, form, and carrier relations | E.17 for the publication-face use profile; E.24.PUB for the direct occurrence, form, and carrier relations |
 | Evidence-use or status-use relation | A.2.4 |
 | Evidence-provenance graph or path | A.10 |
-| Actual named assurance claim and its bounded result | B.3 |
+| Named assurance claim and its bounded result | B.3 |
 | Operational gate profile and the decision that uses its result | A.21 and C.11 |
 
 The rows name the direct patterns that define or constrain these common adjacent objects and claims.
@@ -232,28 +288,44 @@ The rows name the direct patterns that define or constrain these common adjacent
 
 Make three decisions by naming the next sentence, comparison, tool, or declaration that must work:
 
-1. **State the direct relation and stop.** Use this branch when the task only asks whether one direct relation's predicate holds for its actual participants under its subject pattern's conditions. State the affirmative or negative claim under that pattern, or an exact governed modal claim when that family is current. For example, `During Shift-17, Robot-7 is assigned as inspector through InspectionAssignment-17` is a complete current A.2.1 assertion when the direct `MaintenanceInspectionAssignment` predicate holds. Add an A.10 or receiving-evaluation reliance judgment only when the task separately asks whether to rely on the assertion.
-2. **Share one declaration.** Reuse or author a signature when the receiving use needs reusable participant meanings, vocabulary, laws or applicability. The declaration can be useful before a second consumer appears. For example, a staffing assertion and an F.6 Work-attribution consumer can cite the `MaintenanceInspectionAssignment` `RelationSignature` when both need its `HolderSystemSlot`, declaration-local `AssignedSystemRoleKindSlot` with `MaintenanceSystemRoleKindDomain` as ValueKind and `ByValue` as refMode, any real species-specific participants and the direct predicate. In `InspectionAssignment-17`, `InspectorSystemRole` is the assigned-kind participant value. Repeating the word `assigned` alone creates no declaration need. C.2.1 identifies an authored episteme through its claim content, EntityOfConcern and effective reference scheme; A.6.0 then judges signature membership.
-3. **Distinguish one occurrence.** Open occurrence identity only when a later claim must refer to that same occurrence, compare or qualify it, track its beginning, continuation, cessation, or change, or use it as a participant of another relation. For example, F.6 work attribution must cite the exact covering assignment episode, and a staffing history that compares Shift-17 with a later reassignment must apply A.2.1's uninterrupted-obtaining same-versus-new-occurrence rule. A roster-row identifier that merely designates an assertion identifies neither the assignment occurrence nor a new occurrence; use F.18 only after A.2.1 has distinguished the occurrence to which a reference should resolve.
+1. **State the direct relation and stop.** Use this branch when the task only asks whether one direct relation's predicate holds for its participants under its subject pattern's conditions. State the affirmative or negative claim under that pattern, or a governed modal claim when that family is current. For example, `During Shift-17, Robot-7 is assigned as inspector through InspectionAssignment-17` is a complete current A.2.1 assertion when the direct `MaintenanceInspectionAssignment` predicate holds. Add an A.10 or receiving-evaluation reliance judgment only when the task separately asks whether to rely on the assertion.
+2. **Share one declaration.** Reuse or author a signature when the receiving use needs reusable participant meanings, vocabulary, laws or applicability. The declaration can be useful before a second consumer appears. For example, a staffing assertion and an F.6 Work-attribution consumer can cite the `MaintenanceInspectionAssignment` `RelationSignature` when both need its `HolderSystemSlot`, declaration-local `AssignedSystemRoleKindSlot` with `MaintenanceSystemRoleKindDomain` as ValueKind and `ByValue` as refMode, any species-specific participants and the direct predicate. In `InspectionAssignment-17`, `InspectorSystemRole` is the assigned-kind participant value. Repeating the word `assigned` alone creates no declaration need. C.2.1 identifies an authored episteme through its claim content, EntityOfConcern and effective reference scheme; A.6.0 then judges signature membership.
+3. **Distinguish one occurrence.** Open occurrence identity only when a later claim must refer to that same occurrence, compare or qualify it, track its beginning, continuation, cessation, or change, or use it as a participant of another relation. For example, F.6 work attribution must cite the covering assignment episode, and a staffing history that compares Shift-17 with a later reassignment must apply A.2.1's uninterrupted-obtaining same-versus-new-occurrence rule. A roster-row identifier that merely designates an assertion identifies neither the assignment occurrence nor a new occurrence; use F.18 only after A.2.1 has distinguished the occurrence to which a reference should resolve.
 
-These are the `receiving-use` thresholds. They concern three different objects and are not stages that construct a relation or episteme from need. The stop is observable: the target direct assertion, shared declaration for the named consumers, or occurrence-referencing claim can be written without another unresolved object. That target motivates authoring, selection, reuse, or explicit individuation. Apply C.2.1 to episteme identity and the direct relation pattern to occurrence identity. Selecting or reusing an unchanged episteme leaves its identity unchanged. When entries, branches, returns, or stops form one reusable structure, apply A.22.CGUS's formal qualification branch only after the A.22 identity, local locus bindings, selected relations and constraints, and potential continuations are recoverable.
+These are the `receiving-use` thresholds. They concern three different objects and are not stages that construct a relation or episteme from need.
+
+The stop is observable: the target direct assertion, shared declaration for the named consumers, or occurrence-referencing claim can be written without another unresolved object. That target motivates authoring, selection, reuse, or explicit individuation.
+
+Apply C.2.1 to episteme identity and the direct relation pattern to occurrence identity. Selecting or reusing an unchanged episteme leaves its identity unchanged.
+
+When entries, branches, returns, or stops form one reusable structure, apply A.22.CGUS's formal qualification branch only after the A.22 identity, local locus bindings, selected relations and constraints, and potential continuations are recoverable.
 
 #### A.6.0:4.9 - Recover formal-substrate and PrincipleFrame uses by direct governing relation
 
 | Current claim | Direct governed use |
 |---|---|
-| Author, select, or cite a formal declaration | Use `U.Signature(profile=FormalSubstrate)` with its subject, vocabulary, inference kinds, laws, applicability, and real dependencies. |
+| Author, select, or cite a formal declaration | Use `U.Signature(profile=FormalSubstrate)` with its subject, vocabulary, inference kinds, laws, applicability, and dependencies. |
 | Use a mathematical object to preserve selected structure while hiding other structure | Use C.29 and state the mathematical-lens relation. |
 | Declare, apply, or realize an operation | Use A.6.1 for the `OperationAlgebra`, typed argument and result positions, admission conditions, application, and realization; cite a FormalSubstrate signature only when that named dependency is current. |
 | Carry an encountered distinction toward later work | Use E.18.1 for the carry-through relation. |
 
 The same independently identified formal object or episteme can participate in these different uses while retaining its own identity and kind. State the applicable declaration, dependency, operation, lens, or carry-through relation for the receiving use.
 
-For a `PrincipleFrame`, write one postulate or invariant together with the observable difference that would count for or against it. Cite a characteristic, measurement, unit, scale, reference plane, comparator, or normalization declaration only when that declaration is needed to state or check that difference; an informative citation is not a dependency. Do not put an operation-admission, run-acceptance, or gate-passage verdict into the frame. For ordinary reuse, apply the frame's Applicability and the direct subject rules for any reference-plane or model-use-structure question. If the receiving claim needs an exact semantic relation between two local senses whose interpretation bases differ, recover the two exact F.17 local senses and test the direct F.9 predicate; cite a Bridge only when it obtains, state preservation and loss in a separate bounded-use claim, and establish any required reliance before use. A cited declaration may be superseded, or an independently obtaining dependency relation may cease or be replaced, without retroactively changing the PrincipleFrame's identity. Changing the PrincipleFrame's own citation or dependency claim changes its claim content and therefore identifies another episteme; the same follows when its exact EntityOfConcern or effective reference scheme changes. Any edition, refinement, or supersession relation between the two epistemes must independently obtain and must pass the Vocabulary-Laws-Applicability comparison above.
+For a `PrincipleFrame`, write one postulate or invariant together with the observable difference that would count for or against it. Cite a characteristic, measurement, unit, scale, reference plane, comparator, or normalization declaration only when that declaration is needed to state or check that difference; an informative citation is not a dependency.
 
-#### A.6.0:4.10 - Change the exact object that changed
+Do not put an operation-admission, run-acceptance, or gate-passage verdict into the frame.
 
-Apply C.2.1 first. Every `U.Episteme` is identified by its complete interpreted claim content (`ClaimGraph`), one exact EntityOfConcern, and its effective interpretation rules (`ReferenceScheme`). Changing any member of this mandatory triple identifies another episteme. That episteme is a `U.Signature` only when it independently satisfies A.6.0 membership. A changed discriminator, `SignatureId`, or `signatureRef.edition` value does not by itself establish signature membership or historical continuity.
+For ordinary reuse, apply the frame's Applicability and the direct subject rules for any reference-plane or model-use-structure question.
+
+If the receiving claim needs a semantic relation between two local senses whose interpretation bases differ, recover the two F.17 local senses and test the direct F.9 predicate; cite a Bridge only when it obtains, state preservation and loss in a separate bounded-use claim, and establish any required reliance before use.
+
+A cited declaration may be superseded, or an independently obtaining dependency relation may cease or be replaced, without retroactively changing the PrincipleFrame's identity.
+
+Changing the PrincipleFrame's own citation or dependency claim changes its claim content and therefore identifies another episteme; the same follows when its EntityOfConcern or effective reference scheme changes. Any edition, refinement, or supersession relation between the two epistemes must independently obtain and must pass the Vocabulary-Laws-Applicability comparison above.
+
+#### A.6.0:4.10 - Change the object that changed
+
+Apply C.2.1 first. Every `U.Episteme` is identified by its complete interpreted claim content (`ClaimGraph`), one EntityOfConcern, and its effective interpretation rules (`ReferenceScheme`). Changing any member of this mandatory triple identifies another episteme. That episteme is a `U.Signature` only when it independently satisfies A.6.0 membership. A changed discriminator, `SignatureId`, or `signatureRef.edition` value does not by itself establish signature membership or historical continuity.
 
 A change to `imports` or `provides` changes the consumer signature's identity only when it changes that signature's own claim content. A changed provider or provider edition can instead leave the consumer episteme unchanged while requiring the named dependency or source-use assertion, resolution result, replay result, or currentness judgment to be reconsidered.
 
@@ -263,7 +335,9 @@ Connect two different epistemes by `EpistemeEditionRelation`, refinement, supers
 
 When a once-current signature becomes stale while its identity remains recoverable, G.11 governs currentness and selection among recoverable editions.
 
-Reopen declaration authoring when a proposed change affects the signature's exact claim content, EntityOfConcern, effective reference scheme, declared dependency, Vocabulary, Laws, Applicability, or the boundary of a FormalSubstrate, PrincipleFrame, or other admitted profile. The revised claim-bearing candidate is another C.2.1 episteme; A.6.0 judges its signature membership again, and any edition, refinement, or supersession relation remains a separate claim under its direct governor. Also reopen the affected declaration element when current problem-owning-domain or formal-method SoTA changes the term, inference form, law shape, applicability condition, or realization boundary being declared.
+Reopen declaration authoring when a proposed change affects the signature's claim content, EntityOfConcern, effective reference scheme, declared dependency, Vocabulary, Laws, Applicability, or the boundary of a FormalSubstrate, PrincipleFrame, or other admitted profile. The revised claim-bearing candidate is another C.2.1 episteme; A.6.0 judges its signature membership again, and any edition, refinement, or supersession relation remains a separate claim under its direct governor. Also reopen the affected declaration element when current problem-owning-domain or formal-method SoTA changes the term, inference form, law shape, applicability condition, or realization boundary being declared.
 
-When a governed kind name, `SubjectKind`, `RangedValueKind`, SlotKind, RefKind, or exported term is renamed, apply F.19 to the changed wording; use E.10 for unresolved lexical questions and F.18 for durable naming. Accept the rename only when a cold reader can still recover the same FPF kind, declaration use, and practical action; otherwise keep the old name or return the naming defect. Do not revise the signature merely because a realization, work occurrence, measurement, Bridge use, evidence-use relation, publication, provider currentness, or G.11 selection changed. Update that neighboring object under its subject pattern, and reopen the signature only if its own claim or dependency content must change.
+When a governed kind name, `SubjectKind`, `RangedValueKind`, SlotKind, RefKind, or exported term is renamed, apply F.19 to the changed wording; use E.10 for unresolved lexical questions and F.18 for durable naming. Accept the rename only when a cold reader can still recover the same FPF kind, declaration use, and practical action; otherwise keep the old name or return the naming defect.
+
+Do not revise the signature merely because a realization, work occurrence, measurement, Bridge use, evidence-use relation, publication, provider currentness, or G.11 selection changed. Update that neighboring object under its subject pattern, and reopen the signature only if its own claim or dependency content must change.
 

@@ -6,12 +6,12 @@ section_id: "A.6.A:7"
 section_title: "Conformance Checklist (CC-A.6.A)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.A/A.6.A__008_conformance-checklist-cc-a-6-a.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.A — Affordance and Action-Invitation Precision Restoration (ACT-INV)"
   - "A.6.A:7 — Conformance Checklist (CC-A.6.A)"
-line_start: 22305
-line_end: 22373
+line_start: 23194
+line_end: 23262
 dependencies:
   - "A.15"
   - "A.16"
@@ -63,13 +63,13 @@ A text or pattern conforms to A.6.A iff:
    When the claim names an actual would-be enactor, identify the System that would act. A cited assignment may designate its holder; it is not itself the enactor.
 
 5. **CC-A.6.A-5 — Recoverable action and independently identified Method when selected.**
-   State the action or inquiry being discussed. If the result selects a Method for enactment, identify its exact `U.Method` and keep any MethodDescription separate. A proposed action need not invent a Method, WorkPlan or actual Work.
+   State the action or inquiry being discussed. If the result selects a Method for enactment, identify its `U.Method` and keep any MethodDescription separate. A proposed action need not invent a Method, WorkPlan or actual Work.
 
 6. **CC-A.6.A-6 — Explicit coupling frame.**
-   Recover the actual conditions or coupling relation that determine the claim, when applicable; named configuration objects alone do not establish it.
+   Recover the conditions or coupling relation that determine the claim, when applicable; named configuration objects alone do not establish it.
 
 7. **CC-A.6.A-7 — Detector, viewpoint reference, and view separation.**
-   When current, `detector`, ref-backed `viewpointRef`, its effective reference scheme, and independent optional `view` are not silently collapsed. The reference resolves to an exact admitted viewpoint episteme; a cited view already passes E.17.0 independently.
+   When current, `detector`, ref-backed `viewpointRef`, its effective reference scheme, and independent optional `view` are not silently collapsed. The reference resolves to an admitted viewpoint episteme; a cited view already passes E.17.0 independently.
 
 8. **CC-A.6.A-8 — Lawful normal form.**
    When the receiving use needs one of §4.5's forms, apply its discipline. A sufficient ordinary sentence, claim or question has no additional record requirement.
@@ -96,10 +96,10 @@ A text or pattern conforms to A.6.A iff:
     State what interpretation changed and how that changes the claim or its use. The optional verbs in §4.8 can express that change.
 
 16. **CC-A.6.A-16 — No silent relation-family switch.**
-    A changed interpretation or an additional quality, ability, commitment or Work claim is made explicit under its own governor. Use a relation-kind change only when an actual relation-kind claim changes; two distinguishable sentences need no mandatory pair of records.
+    A changed interpretation or an additional quality, ability, commitment or Work claim is made explicit under its own governor. Use a relation-kind change only when a relation-kind claim changes; two distinguishable sentences need no mandatory pair of records.
 
 17. **CC-A.6.A-17 — Bridge accountability.**
-    A cross-tradition comparison first states whether it asserts or relies on semantic correspondence between exact senses in different semantic contexts. If yes, it cites an obtaining F.9 Bridge only after the predicate passes and adds a matching bounded-use claim only when a proposed use is live. If no, it uses E.17.ID.CR or the exact direct relation that supplies the contrast. Any F.9.1 stance note remains optional reader help for an already constituted claim.
+    A cross-tradition comparison first states whether it asserts or relies on semantic correspondence between exact senses in different semantic contexts. If yes, it cites an obtaining F.9 Bridge only after the predicate passes and adds a matching bounded-use claim only when a proposed use is live. If no, it uses E.17.ID.CR or the direct relation that supplies the contrast. Any F.9.1 stance note remains optional reader help for an already constituted claim.
 
 18. **CC-A.6.A-18 — Boundary-claim hook when needed.**
     Apply L, A, D or E only when the recovered statement is an A.6.B boundary claim. For A, identify the action or application and the predicate governing its admission under the applicable rule; otherwise retain the direct rule for scope, claim use, duty, publication or the actual result.
@@ -114,5 +114,5 @@ A text or pattern conforms to A.6.A iff:
     If a different interpretation changes a decision, retain the rival and the ground that excludes it, or return the missing discriminating question. Use a separate note only when the receiving use needs one.
 
 22. **CC-A.6.A-22 — Record inclusion grants no dependent-kind membership.**
-    `viewpointRef` resolves under the effective reference scheme to an independently admitted `U.Viewpoint`; optional `view` names an independently identified episteme whose `U.View` membership follows only from exact E.17.0 conformance. Neither field nor a recovery note establishes either membership.
+    `viewpointRef` resolves under the effective reference scheme to an independently admitted `U.Viewpoint`; optional `view` names an independently identified episteme whose `U.View` membership follows only from E.17.0 conformance. Neither field nor a recovery note establishes either membership.
 

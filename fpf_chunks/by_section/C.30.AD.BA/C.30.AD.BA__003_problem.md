@@ -6,12 +6,12 @@ section_id: "C.30.AD.BA:1.0"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD.BA/C.30.AD.BA__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.30.AD.BA — Built-Asset Architecture Description and Reference Designation"
   - "C.30.AD.BA:1.0 — Problem"
-line_start: 72517
-line_end: 72520
+line_start: 75616
+line_end: 75619
 dependencies:
   - "A.1"
   - "A.10"

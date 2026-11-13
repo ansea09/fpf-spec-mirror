@@ -6,12 +6,12 @@ section_id: "C.43:End"
 section_title: "C.43:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.43/C.43__014_c-43-end.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.43 — Connect Observation, Choice and Action in Control"
   - "C.43:End — C.43:End"
-line_start: 90710
-line_end: 90711
+line_start: 95190
+line_end: 95191
 dependencies:
   - "A.12"
   - "C.11"

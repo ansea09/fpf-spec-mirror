@@ -6,12 +6,12 @@ section_id: "C.32.CONWAY:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.CONWAY/C.32.CONWAY__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.32.CONWAY — Architecture-Influence and Transformed-Architecture Correspondence"
   - "C.32.CONWAY:intro — Intro"
-line_start: 77999
-line_end: 78007
+line_start: 81828
+line_end: 81836
 dependencies:
   - "A.10"
   - "A.12"
@@ -49,7 +49,7 @@ keywords:
 
 > **Type:** Architectural subpattern under C.32
 > **Status:** Stable
-> **Normativity:** Normative unless explicitly marked informative
+> **Normativity:** Normative unless marked informative
 > **Tech-name:** `Architecture-Influence and Transformed-Architecture Correspondence`
 > **Plain cue:** compare an architecture that influences the change with the architecture being changed
 > **Lineage and search cue only:** Transformer and Transformed Architecture Correspondence

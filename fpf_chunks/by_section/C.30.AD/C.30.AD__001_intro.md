@@ -6,12 +6,12 @@ section_id: "C.30.AD:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:intro — Intro"
-line_start: 72027
-line_end: 72041
+line_start: 75120
+line_end: 75134
 dependencies:
   - "A.1"
   - "A.10"
@@ -78,7 +78,7 @@ keywords:
 
 > **Type:** Architectural pattern
 > **Status:** Stable
-> **Normativity:** Normative unless explicitly marked informative
+> **Normativity:** Normative unless marked informative
 
 **Plain-name.** Architecture-description adequacy.
 

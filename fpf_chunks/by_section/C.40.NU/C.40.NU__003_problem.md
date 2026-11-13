@@ -6,12 +6,12 @@ section_id: "C.40.NU:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.NU/C.40.NU__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.40.NU — Search Neighboring Uses and Means"
   - "C.40.NU:2 — Problem"
-line_start: 87017
-line_end: 87024
+line_start: 91251
+line_end: 91258
 dependencies:
   - "C.17"
   - "C.18"
@@ -29,7 +29,7 @@ keywords:
 
 ### C.40.NU:2 - Problem
 
-A search can inherit its answer from the first suggestion. Searching for better courses still assumes that learning is the needed change; searching for better models still assumes that the model is the limiting part. Different brands then masquerade as different opportunities.
+A search can inherit its answer from the first suggestion. Searching for better courses still assumes that learning is the needed change; searching for better models still assumes that the model is the limiting part. Different brands are then mistaken for different opportunities.
 
 Unbounded brainstorming fails differently. It accumulates possibilities without a recoverable receiving use, generating operation, source limit, or next discriminating question. Idea count and novelty replace usefulness; checking every lead consumes the time intended for development.
 

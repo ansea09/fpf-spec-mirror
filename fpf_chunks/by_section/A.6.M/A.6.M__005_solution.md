@@ -6,12 +6,12 @@ section_id: "A.6.M:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.M/A.6.M__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.M — Module and Interface Claim Repair"
   - "A.6.M:4 — Solution"
-line_start: 22949
-line_end: 23141
+line_start: 23856
+line_end: 24058
 dependencies:
   - "A.10"
   - "A.20"
@@ -48,11 +48,19 @@ keywords:
 
 A.6.M specializes `A.6.P` for module, component, interface, platform, and open-architecture wording when the recovered result is module-interface claim content, an interface specification, platform grammar, substitutability claim, or open-architecture module-interface claim. Stratification or architecture-operation source labels covered by `C.30.STRAT` are governed by `C.30.STRAT` until that repair recovers this module-interface content. A.6.M neither mints root kinds from those labels nor admits a direct module relation from record syntax.
 
-A candidate module is an exact `U.Holon` used in a claim that treats it as a replaceable, reusable, or separately changed structural unit of a larger `U.Holon`, ordinarily under the exact `VP.ModuleInterface` viewpoint episteme. The claim names its boundary, interface specification, admissibility conditions, substitutability policy when replaceability is claimed, and change policy when separate change is claimed. Effective reference scheme and `U.ClaimScope` qualify the claim; an optional selected model-use structure appears only when its organization changes module meaning. None replaces the two holons or makes a module relation obtain. A `FunctionalElementClaim` is different: it is a claim-bearing episteme cited by a functional structural view under C.30.ASV, not a root kind or a module relation. It binds required behaviour or effect to bearer or candidate bearer, capability, functional ports, and allocation claims when those claims are current; required or desired content is not an actual `U.Transformation`. The relation between functional and module claims is separately governed allocation or correspondence, not identity. One module candidate can correspond to many functional elements; many module candidates can correspond to one functional element; a functional element can remain unallocated; and a module candidate can be present in a module-interface view with no current functional behaviour in the functional view.
+A candidate module is a `U.Holon` used in a claim that treats it as a replaceable, reusable, or separately changed structural unit of a larger `U.Holon`, ordinarily under the `VP.ModuleInterface` viewpoint episteme. The claim names its boundary, interface specification, admissibility conditions, substitutability policy when replaceability is claimed, and change policy when separate change is claimed. Effective reference scheme and `U.ClaimScope` qualify the claim; an optional selected model-use structure appears only when its organization changes module meaning. None replaces the two holons or makes a module relation obtain.
 
-Functional ports and module interfaces may both use `U.Signature` discipline, but they govern different claims. A functional port constrains input condition, output condition, accepted-state, and produced-state slots for a functional behavior or transformation. A module interface constrains boundary, substitutability, compatibility, protocol references, schema references, version policy, change policy, and conformance expectations for a module relation. Do not move a functional-port claim into module-interface structure unless a module-interface or substitution claim is actually being made.
+A `FunctionalElementClaim` is different: it is a claim-bearing episteme cited by a functional structural view under C.30.ASV, not a root kind or a module relation. It binds required behaviour or effect to bearer or candidate bearer, capability, functional ports, and allocation claims when those claims are current; required or desired content is not an actual `U.Transformation`.
 
-For modular synthesis, A.6.M supplies only the module-interface claim slice. A synthesis action may align required functional claims under `VP.Functional`, transformation-flow topology under `E.18` and `C.30.TFS-REL`, control structure under `C.30.LCA`, procedures and work packages under `VP.Procedural`, and module and interface claims under `VP.ModuleInterface`. `VP.AllocationResponsibility` is only a recognition cue for allocation or responsibility concerns: a positive responsibility claim needs its domain predicate and supporting participant and applicability facts, with explicit occurrence identity when the receiving use needs it. Missing facts leave that claim unknown; only an absent governing rule leaves an A.6.RCD missing governor. Use A.6.M to repair claims about modules and their interfaces; non-module candidate generation, allocation, responsibility, evidence, assurance, decision, Work, and characteristic claims remain with their direct patterns.
+The relation between functional and module claims is separately governed allocation or correspondence, not identity. One module candidate can correspond to many functional elements; many module candidates can correspond to one functional element; a functional element can remain unallocated; and a module candidate can be present in a module-interface view with no current functional behaviour in the functional view.
+
+Functional ports and module interfaces may both use `U.Signature` discipline, but they govern different claims. A functional port constrains input condition, output condition, accepted-state, and produced-state slots for a functional behavior or transformation. A module interface constrains boundary, substitutability, compatibility, protocol references, schema references, version policy, change policy, and conformance expectations for a module relation. Do not move a functional-port claim into module-interface structure unless a module-interface or substitution claim is being made.
+
+For modular synthesis, A.6.M supplies only the module-interface claim slice. A synthesis action may align required functional claims under `VP.Functional`, transformation-flow topology under `E.18` and `C.30.TFS-REL`, control structure under `C.30.LCA`, procedures and work packages under `VP.Procedural`, and module and interface claims under `VP.ModuleInterface`.
+
+`VP.AllocationResponsibility` is only a recognition cue for allocation or responsibility concerns: a positive responsibility claim needs its domain predicate and supporting participant and applicability facts, with explicit occurrence identity when the receiving use needs it. Missing facts leave that claim unknown; only an absent governing rule leaves an A.6.RCD missing governor.
+
+Use A.6.M to repair claims about modules and their interfaces; non-module candidate generation, allocation, responsibility, evidence, assurance, decision, Work, and characteristic claims remain with their direct patterns.
 
 #### A.6.M:4.1 - `ModuleInterfaceClaim` record
 
@@ -73,7 +81,7 @@ ModuleInterfaceClaim:
   selectedDependencyStructureRef?: SelectedStructureReference
   boundaryRef: BoundaryRef
   interfaceSpecificationRef?: U.EpistemeRef constrained to InterfaceSpecification
-  interfaceSpecificationGap?: exact missing-specification result
+  interfaceSpecificationGap?: missing-specification result
   functionalCorrespondenceRelationRefs?: FinSet(U.RelationRef)
   transformationFlowStructureRefs?: FinSet(SelectedStructureReference)
   transformationFlowRelationOccurrenceRefs?: FinSet(U.RelationRef)
@@ -98,17 +106,19 @@ ModuleInterfaceClaim:
   nonAdmissibleUse?
 ```
 
-This form is claim content in one C.2.1 episteme. Its identity uses that content, the one exact `entityOfConcernRef`, and the effective reference scheme. `claimScope` qualifies the claim when its coverage matters. `modelUseStructureRef` is present only when one independently selected model-use structure changes the meaning of *module* for this claim; it is not a module participant, whole, boundary, or source of relation obtaining. `VP.ModuleInterface` is a reference to the exact viewpoint episteme when viewpoint use matters; citing it does not make this claim a `U.View`. The interface-specification and direct-relation fields obey the same exclusive branches as `ModuleRelationRepairNote`. If `entityOfConcernRef` names an admitted direct module-relation occurrence, the disposition is `admittedRelationAndOccurrence` and `obtainingRelationOccurrenceRef` resolves that same occurrence. Under the other dispositions, `entityOfConcernRef` stays with the module holon or selected dependency structure.
+This form is claim content in one C.2.1 episteme. Its identity uses that content, the one `entityOfConcernRef`, and the effective reference scheme. `claimScope` qualifies the claim when its coverage matters. `modelUseStructureRef` is present only when one independently selected model-use structure changes the meaning of *module* for this claim; it is not a module participant, whole, boundary, or source of relation obtaining. `VP.ModuleInterface` is a reference to the viewpoint episteme when viewpoint use matters; citing it does not make this claim a `U.View`.
+
+The interface-specification and direct-relation fields obey the same exclusive branches as `ModuleRelationRepairNote`. If `entityOfConcernRef` names an admitted direct module-relation occurrence, the disposition is `admittedRelationAndOccurrence` and `obtainingRelationOccurrenceRef` resolves that same occurrence. Under the other dispositions, `entityOfConcernRef` stays with the module holon or selected dependency structure.
 
 A record, package path, file boundary, graph edge, list position, name or publication does not make a world-side module relation obtain. Its content may supply a claim or grounds; assess those under the applicable rule. A.6.M admits no general direct module relation kind. If the receiving use needs a predicate that no subject rule supplies, use A.6.RCD to settle participant meanings, obtaining conditions, applicability and any needed recurrence or identity rule. Use A.6.REL when explicit identity is needed to distinguish, reidentify or refer to an obtaining occurrence, or to use it as a participant. A separately constituted RelationSignature may declare reusable SlotSpecs; neither declaration nor claim creates the occurrence.
 
 For an already defined domain predicate `p(M, W, B)` over module M, whole W and boundary B, a practitioner may report that its truth is unknown because required protocol facts are missing. If established facts violate its rule, the practitioner may instead assert that `p(M, W, B)` does not hold. Both use `admittedPredicateClaim`, preserving the predicate, participants and grounds without positing an obtaining occurrence. A positive claim may also use that branch when explicit occurrence identity adds nothing. Use `admittedRelationAndOccurrence` only when the obtaining occurrence is independently established and its identity is needed.
 
-Well-formedness: the claim names both holons, one exact EntityOfConcern, an effective reference scheme, one boundary, and exactly one of an interface-specification reference and an explicit interface-specification gap. Its direct-relation disposition has exactly the fields required by the selected branch. Optional structure, relation, evidence, mechanism, policy, conformance, source, and reliance references are used only when those exact objects and claims are current under their direct rules.
+Well-formedness: the claim names both holons, one EntityOfConcern, an effective reference scheme, one boundary, and exactly one of an interface-specification reference and an explicit interface-specification gap. Its direct-relation disposition has exactly the fields required by the selected branch. Optional structure, relation, evidence, mechanism, policy, conformance, source, and reliance references are used only when those objects and claims are current under their direct rules.
 
 #### A.6.M:4.2 - Interface specification is not a label
 
-A.6.M calls the independently identified specification episteme an `InterfaceSpecification`. It is one `U.Episteme` under C.2.1 whose `EntityOfConcern` is the exact boundary named by the module claim. Its identity is `<exact ClaimGraph, that one EntityOfConcern, effective reference scheme>`. Its claim content may include:
+A.6.M calls the independently identified specification episteme an `InterfaceSpecification`. It is one `U.Episteme` under C.2.1 whose `EntityOfConcern` is the boundary named by the module claim. Its identity is `<ClaimGraph, that one EntityOfConcern, effective reference scheme>`. Its claim content may include:
 
 ```text
 InterfaceSpecification claim content:
@@ -134,19 +144,19 @@ A signature declares vocabulary, laws, and applicability. A slot or endpoint rec
 
 | Source wording | Governing repair application |
 | --- | --- |
-| `component` | First recover the claim actually made under `A.14`: for example `ComponentOf`, `ConstituentOf`, `PortionOf`, belonging under the collection's own rule, or `PhaseOf`. Apply A.6.M only when a module-interface relation is being claimed. |
-| `module` | Recover a `ModuleInterfaceClaim` or `ModuleRelationRepairNote` over exact `U.Holon` refs under the exact `VP.ModuleInterface` viewpoint episteme when needed. Do not infer a direct relation occurrence; assert that the relation obtains only when its defining rule exists and current facts satisfy its predicate; a negative or unresolved predicate claim does not require an obtaining occurrence. |
-| `functional element` | Keep it as a `FunctionalElementClaim` episteme cited by a functional structural view; use `A.6.F` to repair wording and connect it to module-interface structure only through an exact allocation or correspondence relation. Keep required or desired behaviour as claim content. Cite an actual `U.Transformation` only when A.3.4 independently supplies its changed referent, boundary, conditions, actual before/during/after facts, and continuity basis. |
-| `work package`, `delivery unit`, or `team boundary` | Recover only the Work, Method, WorkPlan, system-role or responsibility claim actually made. For deliberately asserted dated Work use A.13, independent A.15.1 admission and F.6 only for precise assignment-bound attribution. An independent system-role kind or classification claim needs no assignment; responsibility needs its own rule and case facts. Relate these to module-interface structure only through the applicable correspondence, allocation or boundary relation. |
+| `component` | First recover the claim made under `A.14`: for example `ComponentOf`, `ConstituentOf`, `PortionOf`, belonging under the collection's own rule, or `PhaseOf`. Apply A.6.M only when a module-interface relation is being claimed. |
+| `module` | Recover a `ModuleInterfaceClaim` or `ModuleRelationRepairNote` over `U.Holon` refs under the `VP.ModuleInterface` viewpoint episteme when needed. Do not infer a direct relation occurrence; assert that the relation obtains only when its defining rule exists and current facts satisfy its predicate; a negative or unresolved predicate claim does not require an obtaining occurrence. |
+| `functional element` | Keep it as a `FunctionalElementClaim` episteme cited by a functional structural view; use `A.6.F` to repair wording and connect it to module-interface structure only through an allocation or correspondence relation. Keep required or desired behaviour as claim content. Cite an actual `U.Transformation` only when A.3.4 independently supplies its changed referent, boundary, conditions, actual before/during/after facts, and continuity basis. |
+| `work package`, `delivery unit`, or `team boundary` | Recover only the Work, Method, WorkPlan, system-role or responsibility claim made. For deliberately asserted dated Work use A.13, independent A.15.1 admission and F.6 only for precise assignment-bound attribution. An independent system-role kind or classification claim needs no assignment; responsibility needs its own rule and case facts. Relate these to module-interface structure only through the applicable correspondence, allocation or boundary relation. |
 | `deployment scope` or `placement` | Recover a deployment or placement structure under `C.30` or `C.30.ASV` when that deployment or placement structure is being claimed. Relate it to module-interface structure only through declared correspondence or boundary relation. |
 | `interface` | For the recovered module-interface claim, identify its InterfaceSpecification or the missing specification. If bare interface wording could mean another object, use A.6.RSIR first; a wire, port, API or flow need not be a module interface. |
 | `signature` | Keep as A.6.0 declaration. It is not an implemented interface, mechanism, gate, evidence row, or substitution policy. |
 | `port` or `endpoint` | Recover `SlotSpec`, endpoint field, or interface-specification field when the claim is being made. It is not a module, graph edge, transformation-flow crossing, or proof of integration. |
-| `functional link` | Keep it as claim content in a functional structural-view episteme; relate it to module claims only through an exact correspondence, allocation, or retargeting relation. |
+| `functional link` | Keep it as claim content in a functional structural-view episteme; relate it to module claims only through a correspondence, allocation, or retargeting relation. |
 | `E.18 transformation-flow relation` or `path` | Keep under `E.18` and `C.30.TFS-REL`; it may inform an architecture-to-transformation-flow relation, but it is not an interface specification. |
 | `platform` | Recover `PlatformGrammarRef`: extension rules, variability slots, interface specifications, substitution policy, and conformance expectations when platform extension, variation, substitution, or conformance use is being claimed. |
 | stratification or architecture-operation source label | Apply `C.30.STRAT` first. Use A.6.M only when the recovered result is a module-interface relation, interface specification, platform grammar, substitutability policy, change policy, or open-architecture module-interface claim. Otherwise apply `C.30.LCA`, `C.30.ASV`, `A.6.F`, `E.18`, `C.16.P`, `C.29`, `C.2.P`, or use ordinary source-label disposition when no FPF-governed claim remains. |
-| `open architecture` | Recover an `OpenArchitectureClaim` episteme: published interface specifications, substitution rules, change policy, data-rights or access constraints when those constraints are part of the claim, and exact conformance, evidence, source, or reliance relations only when that stronger reliance claim is being made. |
+| `open architecture` | Recover an `OpenArchitectureClaim` episteme: published interface specifications, substitution rules, change policy, data-rights or access constraints when those constraints are part of the claim, and conformance, evidence, source, or reliance relations only when that stronger reliance claim is being made. |
 
 #### A.6.M:4.4 - First repair sequence
 
@@ -225,7 +235,7 @@ ModuleRelationRepairNote:
   stopCondition: use the correspondence to locate an architecture question; it supplies no compatibility result
 ```
 
-The third slice uses Conway-like mirroring as a diagnostic prompt. It does not make organization structure, communication relations, a system-role assignment, or delivery responsibility into module-interface structure by identity. Assess any team-delivery or on-call responsibility claim under its own admitted predicate for the actual Systems, scopes and intervals. Retain a supported claim, an adequately grounded negative, or an unresolved factual question as warranted. Return the exact A.6.RCD missing governor only when a needed defining, applicability or identity rule is absent.
+The third slice uses Conway-like mirroring as a diagnostic prompt. It does not make organization structure, communication relations, a system-role assignment, or delivery responsibility into module-interface structure by identity. Assess any team-delivery or on-call responsibility claim under its own admitted predicate for the actual Systems, scopes and intervals. Retain a supported claim, an adequately grounded negative, or an unresolved factual question as warranted. Return the A.6.RCD missing governor only when a needed defining, applicability or identity rule is absent.
 
 If the repair proposes more modules, more open interfaces or more parallel transformation-flow paths, assess the possible costs before claiming improvement. Synchronization work, communication overhead, conformance work, shared-resource pressure, hidden exception cost, or cross-boundary change cost can become the claim being made. A.6.M repairs only the module-interface relation; speedup, bottleneck, modularity, measurement, work, and quality tradeoffs are governed by `C.29`, `E.18`, `C.31`, `C.16`, `A.15`, or the related subject pattern named by value when that related claim is being made.
 

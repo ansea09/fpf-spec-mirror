@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.19.SelectorMechanism"
-pattern_title: "Unified Selection Kernel, SelectorMechanism"
+pattern_title: "Selection Kernel"
 section_id: "A.19.SelectorMechanism:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SelectorMechanism/A.19.SelectorMechanism__005_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.19.SelectorMechanism — Unified Selection Kernel, SelectorMechanism"
+  - "A.19.SelectorMechanism — Selection Kernel"
   - "A.19.SelectorMechanism:3 — Forces"
-line_start: 39212
-line_end: 39233
+line_start: 40767
+line_end: 40788
 dependencies:
   - "A.19.CHR"
   - "A.19.CN"
@@ -38,7 +38,7 @@ keywords:
 
 ### A.19.SelectorMechanism:3 - Forces
 
-1. **Set‑valued reality vs single‑winner convenience.** Many admissible comparisons are partial orders. The kernel must preserve set‑valued semantics while still allowing single‑winner outcomes when explicitly requested by criteria.
+1. **Set‑valued reality vs single‑winner convenience.** Many admissible comparisons are partial orders. The kernel must preserve set‑valued semantics while still allowing single‑winner outcomes when requested by criteria.
 
 2. **Policy primacy vs method freedom.** Criteria and defaults must be explicit and policy‑bound, while multiple method families and decision styles must remain add‑able without mutating the kernel.
 
@@ -46,7 +46,7 @@ keywords:
 
 4. **Evidence discipline vs delivery pressure.** Under uncertainty, teams default to coercion (unknown → pass). The kernel must enforce tri‑state eligibility and fail‑closed discipline.
 
-5. **Replayability vs conceptual minimalism.** The mechanism declaration stays small. Replay recovers the actual `Select` application, its argument and `SelectionSlot` bindings, effective editions, policies, candidates, and selected set. Dated selection Work and evidence-provenance retain their independent grounds when asserted by the account or consumed by the receiving use.
+5. **Replayability vs conceptual minimalism.** The mechanism declaration stays small. Replay recovers the `Select` application, its argument and `SelectionSlot` bindings, effective editions, policies, candidates, and selected set. Dated selection Work and evidence-provenance retain their independent grounds when asserted by the account or consumed by the receiving use.
 
 6. **Evolvability vs didactic usability.** The kernel must be stable enough to support SoTA wiring and specialisation chains, but also teachable: one place states the mechanism boundary, laws, eligibility behavior, and the neighboring replay basis for realized use.
 
@@ -54,7 +54,7 @@ keywords:
 
 8. **No competing defaults.** If defaults exist for `PortfolioMode`, dominance regime, or archive policy, cite their declared sources rather than re-declaring them in the kernel.
 
-9. **Scope continuity vs legitimate reselection.** Selection may narrow candidates or apply explicit policy, but it may not silently change the finite upstream comparison-application basis, its required pair coverage, any member's predicate basis, claim scope, selected context slices, reference plane, or evaluation window. A justified change is a new selection application and may require new binary comparisons.
+9. **Scope continuity vs legitimate reselection.** Selection may narrow candidates or apply explicit policy, but it may not change the finite upstream comparison-application basis, its required pair coverage, any member's predicate basis, claim scope, selected context slices, reference plane, or evaluation window. A justified change is a new selection application and may require new binary comparisons.
 
 ---
 

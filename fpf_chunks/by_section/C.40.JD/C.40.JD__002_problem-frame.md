@@ -6,12 +6,12 @@ section_id: "C.40.JD:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.JD/C.40.JD__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.40.JD — Develop a Way, Its Holder and Its Provision Together"
   - "C.40.JD:1 — Problem frame"
-line_start: 88616
-line_end: 88621
+line_start: 92876
+line_end: 92881
 dependencies:
   - "A.12"
   - "C.32.MWA.PP"
@@ -28,5 +28,5 @@ keywords:
 
 Use this Method when obtaining a worthwhile result requires coupled changes in a way of doing, its performer or holder, and the conditions that make performance possible. The difficulty can be a good Method that cannot be enacted locally, capable help that bypasses the intended learning, or learning that produces an operation current work cannot use. The result is a jointly workable construction with separate claims for delivery, acquired capability and provision.
 
-An already adequate way, capable holder and sufficient provision can be used directly. A simple request for help belongs with the applicable implementation-support practice or the actual supplier. This Method does not make every supported episode open-ended development; C.40.OD governs that larger claim.
+An already adequate way, capable holder and sufficient provision can be used directly. A simple request for help belongs with the applicable implementation-support practice or the supplier. This Method does not make every supported episode open-ended development; C.40.OD governs that larger claim.
 

@@ -6,12 +6,12 @@ section_id: "C.40.OP:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OP/C.40.OP__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.40.OP — Maintain Opportunities and Stepping Stones"
   - "C.40.OP:1 — Problem Frame"
-line_start: 87872
-line_end: 87881
+line_start: 92106
+line_end: 92115
 dependencies:
   - "A.15.9"
   - "C.11.CRC"
@@ -32,5 +32,5 @@ For an opportunity portfolio, name the later option that retention is meant to p
 
 This pattern governs opportunity retention and path construction, including development opportunities. A *portfolio* here is the maintained set of opportunity descriptions and their relevant relations. It is not a funding allocation, selected development programme, recommendation, or permission to realize every member. A *stepping stone* is a candidate step retained for what it may enable later, not necessarily for being best now.
 
-**Ordinary non-use boundary.** Do not create a portfolio when one current question needs only a direct qualification or choice and there is no useful later retention. Reuse an adequate set with its current conditions. Enter directly from existing opportunities; no complete opportunity-construction sequence is required. When an authorized programme and its implementation are already the subject, use the owning programme or work practice. If an actual search archive, front, or live-pool treatment is the question, use C.18 or C.19 at the specific return in `:4.5`.
+**Ordinary non-use boundary.** Do not create a portfolio when one current question needs only a qualification or choice and there is no useful later retention. Reuse an adequate set with its current conditions. Enter from existing opportunities; no complete opportunity-construction sequence is required. When an authorized programme and its implementation are already the subject, use the owning programme or work practice. If a search archive, front, or live-pool treatment is the question, use C.18 or C.19 at the return in `:4.5`.
 

@@ -6,12 +6,12 @@ section_id: "C.32:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32/C.32__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.32 — Architecture Candidate Synthesis"
   - "C.32:4 — Solution"
-line_start: 76316
-line_end: 76409
+line_start: 79901
+line_end: 80027
 dependencies:
   - "A.10"
   - "A.15"
@@ -29,7 +29,6 @@ dependencies:
   - "C.19"
   - "C.19.1"
   - "C.25"
-  - "C.29"
   - "C.30"
   - "C.30.ASV"
   - "C.30.ILC"
@@ -48,9 +47,6 @@ dependencies:
   - "C.32.MWA"
   - "C.32.P2S"
   - "C.32.PAD"
-  - "C.33"
-  - "C.34"
-  - "C.35"
   - "E.18"
   - "E.22"
   - "E.23"
@@ -76,32 +72,45 @@ The palette retains the configurations needed by the receiving question. `Archit
 Work in seven steps:
 
 1. Anchor the palette to one described holon or holon family, synthesis question, and intended next use. Name any current C.30 architecture relations and selected structures that can change that question.
-2. Explain the contributions of the smallest useful set of selected structures. Start with the recoverable functional demand and candidate bearer, using `A.6.F` for unresolved function meaning, and constructive module/manufacture or placement/deployment structures when they shape the question. Add control, flow, Method, Work, local-kind or classification, assignment, information, evidence or scale structures only when they change it. Send unresolved claim-bearing role wording through `E.10.ROLE`. For each candidate treated as feasible, name a bearer able to satisfy each required function under the declared constraints; retain unknown or failed feasibility explicitly for diagnosis or repair.
-3. State the characteristics and any Q-Bundle slots that make the trade-off real, reusing existing criteria rows when available. Use C.32.ACS when a criteria-row construction is needed. Keep functional demand, characteristic, criterion, evaluation result and decision distinct.
-4. Generate candidate architecture configurations. A candidate claim may propose, for example, changed decomposition, allocation, A.6.F function bearing, bearer count, placement, interface grammar, a control or transformation-flow relation, Method use, future assignment conditions, an independently established responsibility relation, evidence scope, information structure, or a bounded exception. Modal candidate wording creates no assignment occurrence and proves no Work occurred. Use a WorkPlan, policy, commitment, permission, decision, or other truthful prospective object when one applies. For actual precise Work, recover each exact actual performer System through A.13 and let A.15.1 independently admit the dated Work and enacted Method; add an assignment occurrence, its declared species, and F.6 only when the candidate account or its receiving use expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment. F.6 identifies neither assignment nor performer, missing or failed F.6 attribution alone leaves the Work intact while its independent A.13/A.15.1 grounds still hold, and an assignment never carries responsibility by itself.
+2. Explain the contributions of the smallest useful set of selected structures. Start with the recoverable functional demand and candidate bearer, using `A.6.F` for unresolved function meaning, and constructive module/manufacture or placement/deployment structures when they shape the question. Add control, flow, Method, Work, local-kind or classification, assignment, information, evidence or scale structures only when they change it. Send unresolved claim-bearing role wording through `E.10.ROLE`.
+
+   For each candidate treated as feasible, name a bearer able to satisfy each required function under the declared constraints; retain unknown or failed feasibility explicitly for diagnosis or repair.
+3. State the characteristics and any Q-Bundle slots that define the trade-off, reusing existing criteria rows when available. Use C.32.ACS when a criteria-row construction is needed. Keep functional demand, characteristic, criterion, evaluation result and decision distinct.
+4. Generate candidate architecture configurations. A candidate claim may propose, for example, changed decomposition, allocation, A.6.F function bearing, bearer count, placement, interface grammar, a control or transformation-flow relation, Method use, future assignment conditions, an independently established responsibility relation, evidence scope, information structure, or a bounded exception.
+
+   Modal candidate wording creates no assignment occurrence and proves no Work occurred. Use a WorkPlan, policy, commitment, permission, decision, or other truthful prospective object when one applies. For actual precise Work, recover each actual performer System through A.13 and let A.15.1 independently admit the dated Work and enacted Method; add an assignment occurrence, its declared species, and F.6 only when the candidate account or its receiving use expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment.
+
+   F.6 identifies neither assignment nor performer, missing or failed F.6 attribution alone leaves the Work intact while its independent A.13/A.15.1 grounds still hold, and an assignment never carries responsibility by itself.
 5. For each candidate, state its selected-structure changes, expected gains, known losses, constraint fit and preserved or hidden structure. Identify material unknowns rather than inventing a gain or loss. Add a source-return condition when omitted distinctions affect the next use.
-6. When a front, archive, search result, or pool-treatment policy is being used, cite `C.18`, `C.19`, or NQD and OEE support as generation or retention support only. Keep the C.32 candidate content separate from archive work, front membership, pool treatment, selected-set result declaration, actual publication, and local choice.
+6. When a front, archive, search result, or pool-treatment policy is being used, cite `C.18`, `C.19`, or NQD and OEE support as generation or retention support only. Keep the C.32 candidate content separate from archive work, front membership, pool treatment, selected-set result declaration, publication, and local choice.
 7. Stop when the palette supplies the candidate content needed by the receiving question, such as comparison, archive use, selected-set declaration, publication, choice or repair. That content need not perform the receiving operation in advance.
 
-Together these contributions explain how the proposed relations make a configuration possible and what they constrain. Ordinary prose or rows can carry that account. Cite an exact defining rule through `relationFunctionClaimRef` only when the interpretation or receiving use depends on its identity; a pattern citation normally suffices to locate the rule. Name an evolution window when the expected use or comparison assumptions depend on that range of change.
+Together these contributions explain how the proposed relations make a configuration possible and what they constrain. Ordinary prose or rows can carry that account. Cite a defining rule through `relationFunctionClaimRef` only when the interpretation or receiving use depends on its identity; a pattern citation normally suffices to locate the rule. Name an evolution window when the expected use or comparison assumptions depend on that range of change.
 
 **Architecture-characteristic improvement loop.** A completed palette can finish the current question. Reopen synthesis when changed characteristic pressure or feedback warrants another configuration. The practitioner uses characteristic pressure or criteria from `C.32.ACS`, `C.31`, `C.25`, `C.16`, `C.16.P`, `C.31.ASAP` or a local Q-Bundle to construct selected-structure changes, stating which characteristics should improve and which protected conditions may worsen.
 
 `ArchitectureCharacteristicImprovementLoop@Project` is a local feedback record for reopening C.32 synthesis when characteristic pressure changes.
 
-Keep each receiving claim with its subject pattern.
-Criteria rows stay with `C.32.ACS`; Q-Bundles with `C.25`; scale preference with `C.31.ASAP`; measurement with `C.16`; eval programs and eval results with `C.32.ACE`.
+Keep each receiving claim with its subject pattern:
+
+- Criteria rows stay with `C.32.ACS`;
+- Q-Bundles with `C.25`;
+- scale preference with `C.31.ASAP`;
+- measurement with `C.16`; and
+- eval programs and eval results with `C.32.ACE`.
+
 Improvement-question framing and repeated-improvement method stay with `E.22` or `E.23`.
+
 Use `A.19.CPM` for comparison, `A.19.SelectorMechanism` for set-returning selection, `G.5` for selected-set result declaration, `C.11` for local choice, and `C.32.PAD` for a project architecture decision. For publication, use `E.24.PUB` for occurrence and audience availability, with `E.17` when a source-backed face and return are needed.
-For this loop, bring only the changed characteristic pressure into C.32 and return the next candidate palette.
-Open another synthesis question only when an evaluation result, front relation, retained alternative, rejected candidate or source-return trigger changes what must be configured.
+
+For this loop, bring only the changed characteristic pressure into C.32 and return the next candidate palette. Open another synthesis question only when an evaluation result, front relation, retained alternative, rejected candidate or source-return trigger changes what must be configured.
 
 An evaluation result that cohesion improved, evidence reuse decayed, coupling changed, latency worsened or exceptions grew does not choose an architecture. To use it as feedback, recover the bearer, characteristic or criterion, scale or qualitative reading frame, affected structures and the inference it supports. A parity frame is needed when that inference relies on parity.
 
 ```text
 ArchitectureCharacteristicImprovementLoop@Project:
   projectWorkOccurrenceRef?: U.EntityRef constrained to U.Work
-  architectureSynthesisProjectUseRelationRef?: U.RelationRef resolving to the exact synthesis-feedback or work-use relation
+  architectureSynthesisProjectUseRelationRef?: U.RelationRef resolving to the synthesis-feedback or work-use relation
   describedHolonRef:
   currentArchitectureCharacteristicPressureRefs:
   architectureCharacteristicCriteriaSetRef?:
@@ -121,7 +130,7 @@ ArchitectureCharacteristicImprovementLoop@Project:
 | Constructive bearer | `ModuleInterfaceStructure`, material, manufacturing, or component relation. | Candidate modules, interface grammar, substitutability, variation slots, and fabrication burden. | `A.6.M`, `C.31`, `C.30.ASV`. |
 | Placement and locality | `PlacementDeploymentStructure` or `MaterialSpatialStructure`. | Location, latency, access, environment, maintenance, and source-return burden. | `C.30.ASV`, domain pattern when current. |
 | Control and flow | `ControlStructure` and `TransformationFlowStructure`. | Feedback, supervisor relation, rate, flow relation, crossing, and transformation relation. | `C.32.LCA` for constructing and comparing control arrangements; `C.30.LCA` for control-description or view adequacy; `E.18`, `C.30.TFS-REL`, `C.27` when timing is current. |
-| Method, Work, local-kind or assignment, information, and evidence | Method and Work structures; relations among local system-role kinds, classifications, or assignment structures; direct allocation or responsibility relations; information and evidence structures. | Prospective enactment burden, independently established responsibility, data custody, evidence reuse, assurance pressure, and source return. | `E.10.ROLE` for unresolved wording; A.2 and A.2.1 for recovered kind, classification, or assignment; A.15 for actual Work, with F.6 only when precise assignment-bound attribution is expressly consumed; the admitted direct domain predicate or exact missing governor for responsibility; `A.10`, `B.3`, `C.25`, and `C.31` when those claims are current. |
+| Method, Work, local-kind or assignment, information, and evidence | Method and Work structures; relations among local system-role kinds, classifications, or assignment structures; direct allocation or responsibility relations; information and evidence structures. | Prospective enactment burden, independently established responsibility, data custody, evidence reuse, assurance pressure, and source return. | `E.10.ROLE` for unresolved wording; A.2 and A.2.1 for recovered kind, classification, or assignment; A.15 for actual Work, with F.6 only when precise assignment-bound attribution is expressly consumed; the admitted direct domain predicate or missing governor for responsibility; `A.10`, `B.3`, `C.25`, and `C.31` when those claims are current. |
 
 Candidate architecture changes are local C.32 entries for candidate configurations. They are not FPF work occurrences, method steps, or receiving-pattern claims. A change is admissible only when the selected structure being changed is named.
 
@@ -132,9 +141,9 @@ Candidate architecture changes are local C.32 entries for candidate configuratio
 | `functionBearerFeasibilityRepair` | Repair a candidate whose functional structure names a required function that no admitted bearer can bear under module, placement, resource, control, or evidence constraints. | Add or change an A.6.F bearer, split the function, change placement or resource access, change the direct control or responsibility relation, reduce the functional demand, or reject the candidate. |
 | `functionBearerConsolidation` | Transfer a required function onto an existing bearer under the selected-structure constraints, remove a support bearer, or propose one more general bearer for several functions. | State the functions transferred, the bearer removed or generalized, the affected architecture characteristics, the lost options, and the BLP scale window or waiver when scale advantage is claimed. |
 | `structuralSubstitution` | Replace one selected structure with another candidate structure. | State what is preserved and what is lost. |
-| `relationRetargeting` | Change an affected relation endpoint, direct responsibility relation, system-role assignment, dependency relation, admissible-use boundary, or source-return relation. | Name the relation kind and its actual predicate before using the change in a candidate; if a needed responsibility predicate is absent, record the exact missing governor. |
-| `architectureInfluenceCorrespondenceSynthesis` | Coordinate candidate structures when an independently typed architecture or other source constrains transformed-side architecture content for a changed referent. | Use `C.32.CONWAY:4.1.1` to recover the operative constraint and construct applicable changes; name the changed referent and any independently grounded A.3.4 transformation separately; name each typed influence source by kind and its exact direct relation when an influence occurrence is asserted, otherwise keep the pressure synthesis-local with its `missing-governor`, unresolved-grounding, or false-predicate disposition; for each actual architecture side keep the exact C.30 holon, obtaining `ArchitectureRelation`, and selected `U.Structure` visible, and keep modal content in `ArchitectureClaim`; then prepare influence-source-side, transformed-side, joint, or bounded-mismatch candidates with affected architecture characteristics, expected gain, known loss, any needed source-return condition, and the pattern for the next question. |
-| `decompositionOrAllocationChange` | Propose reallocation of a module, future assignment condition, Work boundary, evidence relation, data custody, control relation, or variation slot across structures; retarget responsibility only through its direct domain predicate. | State the proposed boundary, participant conditions, prospective object, and migration burden. Do not create an assignment or Work occurrence from candidate wording; return the exact missing governor when the needed responsibility relation has no current predicate. |
+| `relationRetargeting` | Change an affected relation endpoint, direct responsibility relation, system-role assignment, dependency relation, admissible-use boundary, or source-return relation. | Name the relation kind and its predicate before using the change in a candidate; if a needed responsibility predicate is absent, record the missing governor. |
+| `architectureInfluenceCorrespondenceSynthesis` | Coordinate candidate structures when an independently typed architecture or other source constrains transformed-side architecture content for a changed referent. | Use `C.32.CONWAY:4.1.1` to recover the operative constraint and construct applicable changes; name the changed referent and any independently grounded A.3.4 transformation separately; name each typed influence source by kind and its direct relation when an influence occurrence is asserted, otherwise keep the pressure synthesis-local with its `missing-governor`, unresolved-grounding, or false-predicate disposition; for each actual architecture side keep the C.30 holon, obtaining `ArchitectureRelation`, and selected `U.Structure` visible, and keep modal content in `ArchitectureClaim`; then prepare influence-source-side, transformed-side, joint, or bounded-mismatch candidates with affected architecture characteristics, expected gain, known loss, any needed source-return condition, and the pattern for the next question. |
+| `decompositionOrAllocationChange` | Propose reallocation of a module, future assignment condition, Work boundary, evidence relation, data custody, control relation, or variation slot across structures; retarget responsibility only through its direct domain predicate. | State the proposed boundary, participant conditions, prospective object, and migration burden. Do not create an assignment or Work occurrence from candidate wording; return the missing governor when the needed responsibility relation has no current predicate. |
 | `placementOrDeploymentChange` | Change locality, deployment, material placement, installation, or maintenance access. | Name the affected structure and the latency, access, source-return, or environment burden. |
 | `flowOrControlVariant` | Change transformation flow, control depth, rate band, feedback boundary, or mediator relation. | State the timing, control, observability, or accountability burden created by the change. |
 | `interfaceGrammarChange` | Narrow, split, widen, or stabilize an interaction boundary. | Apply `A.6.M` when module-interface relation repair is current. |
@@ -146,12 +155,28 @@ Candidate architecture changes are local C.32 entries for candidate configuratio
 | Situation | First C.32 step | Candidate repair |
 |---|---|---|
 | A sterilization function is placed in a shared field module, but the field placement has no power and no certified evidence relation for that heat cycle. | Keep the functional demand separate from the module and placement structures. | Add a local certified bearer, split the function into pre-field and field steps, change placement, or reject the shared-module candidate. |
-| An ML functional graph includes retrieval, planning, and action, but no module-interface relation or direct domain predicate carries evidence-refresh responsibility or admissible-use control. | Treat the graph as functional structure and recover module-interface, evidence, control, admitted-System, and responsibility relations separately. | Add a retrieval service and an admitted evidence-refresh responsibility relation with actual participants, add a supervisor relation, narrow model-interface behavior, return the exact missing governor, or reject the candidate. |
-| A Method family says the review function is automated, but A.6.F identifies no bearer and no direct responsibility predicate identifies who is responsible for exceptions. | Recover the Method structure and A.6.F function bearer first. Keep any admitted Systems, local kinds, separate System-classification judgments, assignments, actual Work and separately needed F.6 attribution, responsibility relation, and evidence structure separate. | Propose an assignment condition only in truthful plan or candidate content; cite a direct exception-responsibility relation or exact missing governor; split the Method step, change evidence scope, or keep the automation as source cue. Use a full Work chain only after performance. |
+| An ML functional graph includes retrieval, planning, and action, but no module-interface relation or direct domain predicate carries evidence-refresh responsibility or admissible-use control. | Treat the graph as functional structure and recover module-interface, evidence, control, admitted-System, and responsibility relations separately. | Add a retrieval service and an admitted evidence-refresh responsibility relation with actual participants, add a supervisor relation, narrow model-interface behavior, return the missing governor, or reject the candidate. |
+| A Method family says the review function is automated, but A.6.F identifies no bearer and no direct responsibility predicate identifies who is responsible for exceptions. | Recover the Method structure and A.6.F function bearer first. Keep any admitted Systems, local kinds, separate System-classification judgments, assignments, actual Work and separately needed F.6 attribution, responsibility relation, and evidence structure separate. | Propose an assignment condition only in truthful plan or candidate content; cite a direct exception-responsibility relation or missing governor; split the Method step, change evidence scope, or keep the automation as source cue. Use a full Work chain only after performance. |
 
-When one independently typed architecture-side or other source constrains transformed-side architecture content for a changed referent, use `C.32.CONWAY` before using Conway, mirroring, or inverse-Conway language in candidate synthesis. Use :4.1.1 there to obtain an unexplained constraint and candidate change from available work, test and approval material. The practitioner names the changed referent and any actual A.3.4 transformation separately, each influence source by exact kind and its direct relation only when that occurrence is asserted, and, for each actual architecture side, the exact C.30 described holon, obtaining `ArchitectureRelation`, and selected `U.Structure`; modal architecture content stays in an exact `ArchitectureClaim`. Without an admitted and satisfied direct influence predicate, the pressure stays synthesis-local in the C.32.CONWAY frame with its `missing-governor`, unresolved-grounding, or false-predicate disposition and no exact pair row. Candidate work then names influence-source-side, transformed-side, joint, or bounded-mismatch changes, architecture characteristics under pressure, expected gains, known losses, and any source-return conditions needed by the use.
+When one independently typed architecture-side or other source constrains transformed-side architecture content for a changed referent, use `C.32.CONWAY` before using Conway, mirroring, or inverse-Conway language in candidate synthesis. Use :4.1.1 there to obtain an unexplained constraint and candidate change from available work, test and approval material.
 
-Keep the candidate palette as the C.32 result. `C.32.CONWAY` carries the architecture-influence correspondence frame or one exact reusable pair-row episteme. Influence alone supplies no acting System, local system-role kind, System-classification judgment, assignment, Work, changed-referent identity, or transformation participation. Transformation, acting and Work attribution, exact influence, transformation-flow, and module-interface claims belong to `A.3.4`, `A.12`, `A.2.1`, `A.15.1`, `F.6`, the direct influence pattern, `E.18`, `C.30.TFS-REL`, or `A.6.M` when current. Establish preservation and correspondence under their applicable subject rules, using `C.34` for adequacy questions. Use `C.29` when mathematical representation choice, transfer or reliance is unresolved.
+The practitioner names:
+
+- the changed referent and any actual A.3.4 transformation separately;
+- each influence source by kind and its direct relation only when that occurrence is asserted; and
+- for each actual architecture side, the C.30 described holon, obtaining `ArchitectureRelation`, and selected `U.Structure`.
+
+Modal architecture content stays in an `ArchitectureClaim`.
+
+Without an admitted and satisfied direct influence predicate, the pressure stays synthesis-local in the C.32.CONWAY frame with its `missing-governor`, unresolved-grounding, or false-predicate disposition and no pair row.
+
+Candidate work then names influence-source-side, transformed-side, joint, or bounded-mismatch changes, architecture characteristics under pressure, expected gains, known losses, and any source-return conditions needed by the use.
+
+Keep the candidate palette as the C.32 result. `C.32.CONWAY` carries the architecture-influence correspondence frame or one reusable pair-row episteme.
+
+Influence alone supplies no acting System, local system-role kind, System-classification judgment, assignment, Work, changed-referent identity, or transformation participation. Transformation, acting and Work attribution, exact influence, transformation-flow, and module-interface claims belong to `A.3.4`, `A.12`, `A.2.1`, `A.15.1`, `F.6`, the direct influence pattern, `E.18`, `C.30.TFS-REL`, or `A.6.M` when current.
+
+Establish preservation and correspondence under their applicable subject rules, using `C.34` for adequacy questions. Use `C.29` when mathematical representation choice, transfer or reliance is unresolved.
 
 A richer dossier is optional. Open it when source views, relation notes, measurements, C.29 lens outputs, evidence or failure repairs affect the next architecture use. Ordinary use needs one recoverable account per configuration; a row is one convenient form.
 
@@ -159,5 +184,9 @@ A richer dossier is optional. Open it when source views, relation notes, measure
 
 **Stop condition.** Stop when the palette supplies the selected structures, proposed changes, gains, losses, constraint fit and relevant limits needed for the next use. Retain source return where it protects that use.
 
-**Lowering and return.** A single visible configuration can be the starting point for synthesis; use :4 to construct another configuration only when the question needs it. Recover a missing architecture claim through C.30 or candidate content through its available source or description. Repair an unqualified feasibility, gain or loss under C.32.FAIL, retaining the supported content and exact unknown. When an adequate palette or retained configuration answers the synthesis question, stop; continue to comparison, selection, publication, choice, decision, evidence or assurance only for the receiving question that remains. Reopen C.32 when a criteria row, eval result, retained alternative, front relation, source-return trigger or source-currentness change alters the structures under pressure or acceptable loss.
+**Lowering and return.** A single visible configuration can be the starting point for synthesis; use :4 to construct another configuration only when the question needs it. Recover a missing architecture claim through C.30 or candidate content through its available source or description. Repair an unqualified feasibility, gain or loss under C.32.FAIL, retaining the supported content and identifying what remains unknown.
+
+When an adequate palette or retained configuration answers the synthesis question, stop; continue to comparison, selection, publication, choice, decision, evidence or assurance only for the receiving question that remains.
+
+Reopen C.32 when a criteria row, eval result, retained alternative, front relation, source-return trigger or source-currentness change alters the structures under pressure or acceptable loss.
 

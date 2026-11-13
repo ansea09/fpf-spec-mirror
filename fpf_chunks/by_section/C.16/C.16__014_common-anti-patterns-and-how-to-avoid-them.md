@@ -6,12 +6,12 @@ section_id: "C.16:11"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__014_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:11 — Common Anti-Patterns and How to Avoid Them"
-line_start: 58846
-line_end: 58855
+line_start: 61230
+line_end: 61239
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -57,7 +57,7 @@ keywords:
 
 - **Template as occurrence.** A reusable measurement specification, model, signature, or calibration procedure is treated as proof that work occurred. Ground dated work and actual bindings.
 - **Generic result field.** A record has `result=...` without saying whether it is output, indication, measurement result, diagnosis, verdict, or decision. Name the direct result kind and governor.
-- **Evidence algebra.** Evidence locators are unioned as though idempotence or count determined uncertainty or warrant. Use measurement-model uncertainty propagation and exact A.10/B.3 reliance separately.
+- **Evidence algebra.** Evidence locators are unioned as though idempotence or count determined uncertainty or warrant. Use measurement-model uncertainty propagation and A.10/B.3 reliance separately.
 - **Scale drift.** A template id is reused as though changed Scale, model, unit, or calibration requirements preserved the same specification. Publish a successor and state the relation; do not mutate historical readings.
 - **Arithmetic on ordinal.** Encoded levels are averaged or ratio-compared. Stay with order-preserving operations or introduce a separately governed scoring method and Scale.
 - **Multi-Characteristic stuffing.** One reading carries a vector while pretending to be one measurement. Create separate results and declare any later aggregation.

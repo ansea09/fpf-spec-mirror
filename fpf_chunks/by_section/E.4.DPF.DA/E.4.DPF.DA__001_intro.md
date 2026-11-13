@@ -6,12 +6,12 @@ section_id: "E.4.DPF.DA:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF.DA/E.4.DPF.DA__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.4.DPF.DA — Evaluate a DPF or LPF Package for Its Declared Use (Package-Adequacy CharacteristicSpace)"
   - "E.4.DPF.DA:intro — Intro"
-line_start: 95306
-line_end: 95311
+line_start: 100283
+line_end: 100288
 dependencies:
   - "A.1.1"
   - "A.10"

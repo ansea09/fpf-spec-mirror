@@ -3,15 +3,15 @@ chunk_kind: "child"
 pattern_id: "F.12"
 pattern_title: "Evaluate Promise Fulfilment from Work Evidence (Service Acceptance)"
 section_id: "F.12:12"
-section_title: "Safe reasoning moves"
+section_title: "Reasoning about promise fulfilment"
 source_path: "FPF-Spec.md"
-output_path: "by_section/F.12/F.12__013_safe-reasoning-moves.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+output_path: "by_section/F.12/F.12__013_reasoning-about-promise-fulfilment.md"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.12 — Evaluate Promise Fulfilment from Work Evidence (Service Acceptance)"
-  - "F.12:12 — Safe reasoning moves"
-line_start: 122710
-line_end: 122724
+  - "F.12:12 — Reasoning about promise fulfilment"
+line_start: 130481
+line_end: 130495
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -47,12 +47,12 @@ keywords:
   - "operation result binding"
 ---
 
-### F.12:12 - Safe reasoning moves
+### F.12:12 - Reasoning about promise fulfilment
 
 1. **Match scope.** Confirm that the promise content covers the exact delivery Work or population and keep A.2.3 promise use, delivery, and fulfilment distinct.
 2. **Name the window.** Make time, batch, phase, and exclusions explicit.
 3. **Test direct measurement first.** Confirm whether each observation and its measurement model directly concern the promised characteristic; if so, use C.16 and A.10 and add no proxy.
-4. **Recover an indicator only when needed.** When another characteristic stands in, name both participants, the defining or testing pattern, coverage, and loss. Use C.16.P for recovery and A.6.RCD `missing-governor` when the relation is absent.
+4. **Recover an indicator only when needed.** When another characteristic stands in, name both participants, the defining or testing pattern, coverage, and loss. Use C.16.P to recover the indicator. Return A.6.RCD `missing-governor` when its defining or testing rule is missing. A known rule can also show that the indicator fails for this use.
 5. **Check values.** Name characteristic, scale, unit, aggregation, and uncertainty.
 6. **Perform the evaluation.** Apply the declared rule to its selected inputs and recover the result on its scale. Identify the performing System, dated Work and exact A.6.1 application when that performance account is claimed or required; keep the actual admission and binding grounds. Cite a MethodDescription edition when it changes the result or replay.
 7. **Use evidence directly.** Recover the direct evidence-use claims, the descriptive A.10 path and its bounded-reliance disposition. Enter B.3 only for an actual named assurance claim, and E.13 only when a proxy is optimized or drives a decision, gate, incentive, release argument, reputation signal, or repair.

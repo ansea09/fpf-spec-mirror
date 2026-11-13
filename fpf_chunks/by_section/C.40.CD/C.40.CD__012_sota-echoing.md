@@ -6,12 +6,12 @@ section_id: "C.40.CD:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.CD/C.40.CD__012_sota-echoing.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.40.CD — Develop Problems and Ways of Solving Them Together"
   - "C.40.CD:11 — SoTA-Echoing"
-line_start: 85850
-line_end: 85865
+line_start: 90082
+line_end: 90097
 dependencies:
   - "B.5.MPC"
   - "B.5.MPC.R"
@@ -30,9 +30,9 @@ keywords:
 
 The selected line combines constructive problem development, operation reuse and target examination. Compare it with keeping the target fixed and improving a sufficient existing way: that cheaper alternative is preferred when it supplies the wanted result without developing a new question.
 
-[POET v3](https://arxiv.org/html/1901.01753v3), §3, supplies a concrete paired environment/agent construction with environment generation, optimization and cross-environment transfer. Adapt those connections in :4.2–4.5. Its fixed thresholds and copying of policy parameters belong to that computational implementation.
+[POET v3](https://arxiv.org/html/1901.01753v3), §3, supplies a paired environment/agent construction with environment generation, optimization and cross-environment transfer. Adapt those connections in :4.2–4.5. Its fixed thresholds and copying of policy parameters belong to that computational implementation.
 
-[Enhanced POET](https://arxiv.org/html/2003.08536v1), §3 and appendices A.1/A.4, distinguishes environment encoding from behavioral characterization and changes when costly transfer adaptation is attempted. Adapt characterization for the actual transfer choice and attention to adaptation cost in :4.6. A policy that skips adaptation after poor direct transfer is a bounded economy; an intelligible target-specific adaptation can warrant a different choice.
+[Enhanced POET](https://arxiv.org/html/2003.08536v1), §3 and appendices A.1/A.4, distinguishes environment encoding from behavioral characterization and changes when costly transfer adaptation is attempted. Adapt characterization for the transfer choice and attention to adaptation cost in :4.6. A policy that skips adaptation after poor direct transfer is a bounded economy; an intelligible target-specific adaptation can warrant a different choice.
 
 [LLM-POET](https://arxiv.org/html/2406.04663v1), §§2–4, changes the environment generator while retaining the need to make its generated representation usable in the environment. Adapt that validity condition in :4.2. Its reported performance comparison has substantial uncertainty and concerns the tested generators and environments.
 

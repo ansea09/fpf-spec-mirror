@@ -6,12 +6,12 @@ section_id: "C.2.5:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.5/C.2.5__010_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.2.5 — Language-State Closure Degree — How Fixed Is the Current Candidate Space?"
   - "C.2.5:9 — Consequences"
-line_start: 54002
-line_end: 54004
+line_start: 56239
+line_end: 56241
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -34,5 +34,5 @@ keywords:
 ---
 
 ### C.2.5:9 - Consequences
-The benefit is admissible handling of stabilization, commitment, and reopening. The trade-off is making the actual narrowing and any consequential retreat recoverable.
+The benefit is admissible handling of stabilization, commitment, and reopening. The trade-off is making the narrowing and any consequential retreat recoverable.
 

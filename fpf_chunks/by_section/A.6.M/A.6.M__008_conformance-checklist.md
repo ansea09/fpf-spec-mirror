@@ -6,12 +6,12 @@ section_id: "A.6.M:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.M/A.6.M__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.M — Module and Interface Claim Repair"
   - "A.6.M:7 — Conformance Checklist"
-line_start: 23164
-line_end: 23177
+line_start: 24083
+line_end: 24096
 dependencies:
   - "A.10"
   - "A.20"
@@ -48,10 +48,10 @@ keywords:
 
 | ID | Check |
 | --- | --- |
-| `CC-A6M-1` | The repaired claim makes recoverable the whole holon, candidate module holon, effective reference scheme, claim coverage when it matters, and exact module-interface viewpoint episteme when used; already clear wording needs no further repair. No context suffix or optional model-use structure supplies those objects. |
-| `CC-A6M-2` | The repair states whether the phrase is a module relation, component relation, function allocation, procedural or work-package relation, exact system-role-assignment occurrence, direct responsibility relation, deployment or placement structure, interface specification, signature, port or endpoint, transformation-flow crossing, mechanism realization, platform grammar, control relation, autonomy-like operation claim, `C.30.STRAT` source-label case, or open-architecture claim. |
+| `CC-A6M-1` | The repaired claim makes recoverable the whole holon, candidate module holon, effective reference scheme, claim coverage when it matters, and module-interface viewpoint episteme when used; already clear wording needs no further repair. No context suffix or optional model-use structure supplies those objects. |
+| `CC-A6M-2` | The repair states whether the phrase is a module relation, component relation, function allocation, procedural or work-package relation, system-role-assignment occurrence, direct responsibility relation, deployment or placement structure, interface specification, signature, port or endpoint, transformation-flow crossing, mechanism realization, platform grammar, control relation, autonomy-like operation claim, `C.30.STRAT` source-label case, or open-architecture claim. |
 | `CC-A6M-3` | No root kind is created for module, interface, platform, or open architecture, and `ModuleInterfaceClaim` is not treated as an independently admitted direct relation. The four direct-relation dispositions remain distinct; an admitted predicate may be affirmed, denied or left factually unresolved without an obtaining occurrence. A needed missing rule uses A.6.RCD; occurrence identity uses `A.6.REL` only after that relation is admitted and obtains. |
-| `CC-A6M-4` | The independently identified `InterfaceSpecification` episteme, its exact C.2.1 identity, and an `interfaceSpecificationRef` that resolves it are recoverable when interface compatibility, substitutability, or conformance is claimed. A missing specification remains an explicit gap. |
+| `CC-A6M-4` | The independently identified `InterfaceSpecification` episteme, its C.2.1 identity, and an `interfaceSpecificationRef` that resolves it are recoverable when interface compatibility, substitutability, or conformance is claimed. A missing specification remains an explicit gap. |
 | `CC-A6M-5` | Substitution or change policy is declared when replaceability, alternate supplier, upgrade, or platform extension is being claimed. Substitutability not established by the repair is marked as not established, not implied by wording. |
 | `CC-A6M-6` | Function, transformation-flow, control, work, evidence, assurance, gate, decision, causal, and mechanism claims use their subject patterns. |
 | `CC-A6M-7` | A failed check gives a repair action or subject-pattern application, not only a rejection. |

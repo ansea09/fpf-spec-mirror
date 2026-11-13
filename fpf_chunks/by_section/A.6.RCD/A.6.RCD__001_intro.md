@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.RCD"
-pattern_title: "Needed Relation Claim Derivation and Relation-Kind Admission"
+pattern_title: "Relation Claim Derivation and Relation-Kind Admission"
 section_id: "A.6.RCD:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RCD/A.6.RCD__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.6.RCD — Needed Relation Claim Derivation and Relation-Kind Admission"
+  - "A.6.RCD — Relation Claim Derivation and Relation-Kind Admission"
   - "A.6.RCD:intro — Intro"
-line_start: 21206
-line_end: 21213
+line_start: 22079
+line_end: 22086
 dependencies:
   - "A.11"
   - "A.6.0"
@@ -31,11 +31,11 @@ dependencies:
 keywords:
 ---
 
-## A.6.RCD - Needed Relation Claim Derivation and Relation-Kind Admission
+## A.6.RCD - Relation Claim Derivation and Relation-Kind Admission
 
 > **Type:** Kernel relation-foundation pattern
 > **Status:** Stable
-> **Normativity:** Normative unless explicitly marked informative
+> **Normativity:** Normative unless marked informative
 
 **Plain name.** Derive the needed relation claim before admitting a relation kind.
 

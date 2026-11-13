@@ -6,12 +6,12 @@ section_id: "E.17.ID.CR:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.ID.CR/E.17.ID.CR__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.17.ID.CR — Compare Sources Within a Shared Review Frame (ComparativeReviewUnit)"
   - "E.17.ID.CR:3 — Forces"
-line_start: 108580
-line_end: 108594
+line_start: 115261
+line_end: 115275
 dependencies:
   - "A.15"
   - "A.15.2"
@@ -44,13 +44,13 @@ keywords:
 | Force | Tension |
 | --- | --- |
 | **Engineer-manager usability vs governance precision** | The pattern starts from a recognisable review situation without hiding its neighboring patterns. |
-| **Middle-band reality** | Some bounded comparisons add more interpretive lift than a short F.9.1 stance note about an existing bounded-use claim but still stop below full action selection. |
-| **Source tether vs interpretive lift** | The case adds a bounded interpretive lift without pretending to create a new free-floating semantics. |
-| **Comparison unit vs surrounding work** | The pattern keeps the comparative review unit, the bounded comparison, and the larger review process distinct rather than sliding between them by style. |
+| **Middle-band reality** | Some bounded comparisons establish a contrast beyond a short F.9.1 stance note about an existing bounded-use claim without selecting an action. |
+| **Source tether vs interpretive lift** | The comparison adds a bounded interpretation grounded in its sources. It cannot introduce a meaning independent of them. |
+| **Comparison unit vs surrounding work** | The pattern keeps the comparative review unit, the bounded comparison, and the larger review process distinct even when the prose uses similar labels. |
 | **Viewing restraint** | Interpretation does not absorb same-entity viewing, conservative rewriting, or representation-scheme transition whose main question is not bounded comparison. |
 | **Bridge restraint** | Interpretation does not become a second bridge taxonomy. |
-| **Explanation restraint** | Interpretation does not become a shadow face-use discipline system next to `E.17.EFP`. |
+| **Explanation restraint** | The use of an existing explanation face remains governed by `E.17.EFP`. |
 | **Abductive restraint** | Interpretation stops before an abductive-prompt or action-selection claim governs the next action. |
 | **Ontology restraint** | Interpretation does not hide same-referent pressure, retargeted-EntityOfConcernRef pressure, or changed `EntityOfConcernRef`. |
-| **Interpretant-side boundedness** | Reader-fit can matter, but it remains explicit and bounded rather than silently rewriting authority. |
+| **Interpretant-side boundedness** | When reader fit affects the comparison, state the use it supports and its limits. Reader fit does not change the authority the comparison carries. |
 

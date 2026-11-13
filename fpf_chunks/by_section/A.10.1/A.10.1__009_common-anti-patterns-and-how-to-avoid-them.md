@@ -6,12 +6,12 @@ section_id: "A.10.1:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10.1/A.10.1__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.10.1 — Revalidate Affected Uses When a Relied-on Source Changes"
   - "A.10.1:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 27349
-line_end: 27362
+line_start: 28379
+line_end: 28392
 dependencies:
   - "A.10"
   - "A.10.1"
@@ -30,7 +30,7 @@ keywords:
 | --- | --- | --- |
 | **Version fanout** | A new edition reopens every downstream result. | Compare claims first; follow only actual action-changing dependence. |
 | **Carrier preservation** | The same world object or familiar file shape is treated as proof that all uses remain valid. | Separate source episteme, claim content, publication, carrier, and world-side change. |
-| **Search hit equals impact** | Every textual hit is classified affected. | Inspect the receiving content and exact direct use relation. |
+| **Search hit equals impact** | Every textual hit is classified affected. | Inspect the receiving content and direct use relation. |
 | **Declared graph equals reality** | Every reachable node is reopened and undeclared premises are missed. | Combine source-outward and receiver-oriented discovery; establish each relation independently. |
 | **One convenient repository equals coverage** | “No use found” hides inaccessible, stale, or excluded surfaces. | State the frame, surface-by-surface basis, explicit exclusions, and gaps. |
 | **Unresolved means unaffected** | A missing premise or inaccessible source receives a silent clean result. | Return `unresolved` or the coverage gap. Name a responsible practitioner/System only when a selected continuation requires that allocation. |

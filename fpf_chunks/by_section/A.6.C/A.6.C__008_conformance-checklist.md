@@ -6,12 +6,12 @@ section_id: "A.6.C:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.C/A.6.C__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.C — Contract Unpacking for Boundaries"
   - "A.6.C:7 — Conformance Checklist"
-line_start: 15738
-line_end: 15766
+line_start: 16301
+line_end: 16341
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -34,7 +34,7 @@ dependencies:
   - "U.SpeechAct"
   - "U.Work"
 keywords:
-  - "A.6.B separately classifies the actual claim"
+  - "A.6.B separately classifies the claim"
   - "MVPK no-new-semantics"
   - "OPTIONAL or authority-looking wording is ambiguous"
   - "atomic L/A/D/E rows"
@@ -62,17 +62,23 @@ A boundary description conforms to A.6.C iff it satisfies all items below:
    When contract-like wording leaves a consequential ambiguity, the text **SHALL** answer only the applicable four-question branches with atomic claims. Each asserted object and its subject predicate **SHALL** remain separately recoverable. Classify each claim through A.6.B and identify the defining pattern when its rules govern that claim.
 
 2. **CC‑A.6.C‑2 (No agency to epistemes).**
-   When a dated act or individual commitment is claimed, the text **MUST** identify its capable actual participant and **MUST NOT** substitute an API/interface label, description, publication carrier, kind, or assignment for that participant's basis. Ordinary metonymy may remain when its participant and relation are locally recoverable. A generic prescription **SHALL** name its exact normative source and applicable content without inventing an individual bearer. An individual duty or commitment **SHALL** name its actual bearer and exact separately obtaining `U.Commitment`; an assignment may appear only as an instituting rule's applicability ground.
+   When a dated act or individual commitment is claimed, the text **MUST** identify its capable actual participant and **MUST NOT** substitute an API/interface label, description, publication carrier, kind, or assignment for that participant's basis. Ordinary metonymy may remain when its participant and relation are locally recoverable.
+
+   A generic prescription **SHALL** name its normative source and applicable content without inventing an individual bearer.
+
+   An individual duty or commitment **SHALL** name its actual bearer and separately obtaining `U.Commitment`; an assignment may appear only as an instituting rule's applicability ground.
 
 3. **CC‑A.6.C‑3 (Classify contract-language statements via A.6.B).**
    When contract-language leaves a consequential ambiguity, its unpacked statements **SHALL** be atomic L/A/D/E claims. In that unpacking, permission-looking wording **SHALL** select one A.6 `A6-AW-*` row; A.2.8.PER membership alone **MUST NOT** set the quadrant.
 
 4. **CC‑A.6.C‑4 (Promise content ≠ Work discipline).**
-   A statement about one particular dated Work **SHALL** name the A.15.1 occurrence. A result, production, change, delivery/transfer, evidence or acceptance statement **SHALL** use its own direct object and shall not be inferred merely from Work. Promise-content language remains about `U.PromiseContent`.
-   When *service* or access-like wording occurs in a relied-on boundary claim, recommendation, decision, gate, assurance, publication, or reuse and hides the concrete subject, participant, predicate, kind, permission, Work occurrence, or next subject question, the text **SHALL** recover that hidden choice through E.10 **L-SERV** and **A.6.P:4.11a**, then state the exact assertion under the recovered predicate with its pattern locator. Quoted, historical, illustrative, and harmless ordinary wording remains outside this recovery rule; an actual `U.PromiseContent` referent still uses the head phrase **promise content**, not bare *service*.
+   A statement about one dated Work **SHALL** name the A.15.1 occurrence. A result, production, change, delivery/transfer, evidence or acceptance statement **SHALL** use its own direct object and shall not be inferred merely from Work. Promise-content language remains about `U.PromiseContent`.
+   When *service* or access-like wording occurs in a relied-on boundary claim, recommendation, decision, gate, assurance, publication, or reuse and hides the concrete subject, participant, predicate, kind, permission, Work occurrence, or next subject question, the text **SHALL** recover that hidden choice through E.10 **L-SERV** and **A.6.P:4.11a**, then state the assertion under the recovered predicate with its pattern locator. Quoted, historical, illustrative, and harmless ordinary wording remains outside this recovery rule; an actual `U.PromiseContent` referent still uses the head phrase **promise content**, not bare *service*.
 
 5. **CC‑A.6.C‑5 (Evidence hook for operational guarantees).**
-   When a “guarantee” expresses an operational claim, the text **SHALL** state the **E** claim’s exact predicate, object, relevant scope or window, and what establishes it or remains missing. Name Work, evaluation or observation when the claim depends on it. If required grounds are missing, retain the claim as unresolved; report a negative result only when the grounds establish it. For evidence use, the text **SHALL** keep the grounds required by receiving reliance recoverable under §4.1, question 4; use A.10 when a replayable account is needed and identify carriers or observation conditions when they affect the claim or use.
+   When a “guarantee” expresses an operational claim, the text **SHALL** state the **E** claim’s predicate, object, relevant scope or window, and what establishes it or remains missing. Name Work, evaluation or observation when the claim depends on it. If required grounds are missing, retain the claim as unresolved; report a negative result only when the grounds establish it.
+
+   For evidence use, the text **SHALL** keep the grounds required by receiving reliance recoverable under §4.1, question 4; use A.10 when a replayable account is needed and identify carriers or observation conditions when they affect the claim or use.
 
 6. **CC‑A.6.C‑6 (No second contracts via faces).**
    MVPK faces **MUST NOT** add new boundary claims; they publish only the existing canonical L/A/D/E claims under E.17. Informative commentary may explain those claims without adding boundary semantics. An asserted `U.View` separately requires E.17.0 conformance.
@@ -81,5 +87,11 @@ A boundary description conforms to A.6.C iff it satisfies all items below:
    Each MVPK face sentence containing a BCP-14 keyword **MUST** cite its classified claim ID or canonical location, direct object, and selected `A6-AW-*` row when permission-looking. Only norm/grant claims cite D; gate claims cite A; exercise and evaluated findings cite E.
 
 8. **CC‑A.6.C‑8 (Obtaining is not representation).**
-   A `Publish` or `Approve` utterance, a document, carrier, or record does not by itself institute or prove a `U.Commitment` or `GrantedPermissionRelation@Context`. The exact obtaining predicate and cited context policy decide whether the relation obtains. A Claim Register row may assert or support reliance on it only when the row names the exact occurrence, predicate, `SubjectPatternLocator`, participants, scope/window, and current evidence required by that use. For a commitment, the row cites its rule-required actual instituting basis and policy; for a strong grant, it cites the actual instituting speech act and policy. The row alone does not create the relation. When the grant occurrence is the row's direct object, `directObjectDesignation` **SHALL** be a `U.RelationRef` constrained to `GrantedPermissionRelation@Context`; an entity reference, `ClaimAddress`, display label, or arbitrary identifier cannot fill that branch.
+   A `Publish` or `Approve` utterance, a document, carrier, or record does not by itself institute or prove a `U.Commitment` or `GrantedPermissionRelation@Context`. The obtaining predicate and cited context policy decide whether the relation obtains.
+
+   A Claim Register row may assert or support reliance on it only when the row names the occurrence, predicate, `SubjectPatternLocator`, participants, scope/window, and current evidence required by that use.
+
+   For a commitment, the row cites its rule-required actual instituting basis and policy; for a strong grant, it cites the actual instituting speech act and policy. The row alone does not create the relation.
+
+   When the grant occurrence is the row's direct object, `directObjectDesignation` **SHALL** be a `U.RelationRef` constrained to `GrantedPermissionRelation@Context`; an entity reference, `ClaimAddress`, display label, or arbitrary identifier cannot fill that branch.
 

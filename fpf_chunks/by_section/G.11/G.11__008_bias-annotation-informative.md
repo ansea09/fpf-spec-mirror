@@ -6,12 +6,12 @@ section_id: "G.11:6"
 section_title: "Bias-Annotation (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.11/G.11__008_bias-annotation-informative.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.11 — Decide Whether and How to Refresh SoTA Packs and Related Results (Telemetry and Decay)"
   - "G.11:6 — Bias-Annotation (informative)"
-line_start: 132433
-line_end: 132440
+line_start: 140556
+line_end: 140563
 dependencies:
   - "A.10.1"
   - "A.6.RCD"
@@ -49,8 +49,8 @@ keywords:
 ### G.11:6 - Bias-Annotation (informative)
 
 * **Arch bias (toward explicit wiring).** Risk: authors feel “over-pinned.” Mitigation: keep the minimum pin set small; push scheduling sophistication into extensions and policies.
-* **Gov bias (toward audit over speed).** Risk: refresh becomes bureaucratic. Mitigation: create queue, plan and report content only for the corresponding need; retain applicable support without an omission certificate, while preserving warnings a later receiver needs.
-* **Onto and Epist bias (toward one governing definition semantics).** Risk: teams try to localize trigger meaning for convenience. Mitigation: alias docking is allowed, but semantics stay in `G.Core`.
-* **Prag bias (toward minimal recomputation).** Risk: the first affected slice is mistaken for complete reach. Mitigation: follow the shared basis to every actual dependent use under §4.3.2 and preserve the coverage limits.
+* **Gov bias (toward audit over speed).** Requiring a queue, plan or report for every unchanged result adds paperwork. To avoid it, create queue, plan and report content only for the corresponding need; retain applicable support without an omission certificate, while preserving warnings a later receiver needs.
+* **Onto and Epist bias (toward one governing definition for trigger meaning).** Risk: teams try to localize trigger meaning for convenience. Mitigation: alias docking is allowed, but semantics stay in `G.Core`.
+* **Prag bias (toward minimal recomputation).** Risk: the first affected slice is mistaken for complete reach. Mitigation: follow the shared basis to every dependent use under §4.3.2 and preserve the coverage limits.
 * **Did bias (toward readable, reusable artefacts).** Risk: an example can hide a condition that matters for another use. Mitigation: recover the receiving question and qualifications of that use before applying the example.
 

@@ -6,12 +6,12 @@ section_id: "C.3.A:7"
 section_title: "Decision trees (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.A/C.3.A__008_decision-trees-informative.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.3.A — Typed Guard Macros for Kinds + USM (Annex)"
   - "C.3.A:7 — Decision trees (informative)"
-line_start: 56385
-line_end: 56415
+line_start: 58697
+line_end: 58727
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -53,7 +53,7 @@ keywords:
 1. Pin source and target declarations.
 2. Recover declaration compatibility through identity, the required subkind relation, or an obtaining KindBridge with its separate assertion; recover Scope Bridge separately when Scope translation is required.
 3. Check the serial or translated scope.
-4. If an actual output/candidate is current, check admissibility and evaluate it under the target declaration only when admissible.
+4. For a candidate-bearing receiving use, check admissibility of the output or other candidate and evaluate it under the target declaration only when admissible.
 5. Apply R consequences and decide separately.
 
 **D4 — Publish a union.**

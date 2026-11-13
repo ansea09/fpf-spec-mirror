@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.5.EA"
-pattern_title: "Articulate a Working Distinction from Experience"
+pattern_title: "Articulate a Distinction from Experience"
 section_id: "B.5.EA:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.EA/B.5.EA__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "B.5.EA — Articulate a Working Distinction from Experience"
+  - "B.5.EA — Articulate a Distinction from Experience"
   - "B.5.EA:1 — Problem frame"
-line_start: 46608
-line_end: 46615
+line_start: 48550
+line_end: 48557
 dependencies:
   - "B.5"
   - "B.5.4"
@@ -27,5 +27,5 @@ Use this pattern when a participant recognizes something consequential in their 
 
 The result is a provisional distinction, relation or question with enough explanation to continue the work. The method can be used alone or with a listener. A listener, including an AI assistant, needs access to the participant's corrections; generating a fluent account cannot supply those corrections.
 
-Use an already adequate answer directly. If the relevant contrast is expressible and a model is needed, B.5.FM can develop it. If you understand an available concept but cannot yet connect it to the situation, B.5.4 helps construct that correspondence. Articulation is useful while it can reveal a consequential part of the question.
+Use an adequate answer. If the relevant contrast is expressible and a model is needed, B.5.FM can develop it. If you understand an available concept but cannot yet connect it to the situation, B.5.4 helps construct that correspondence. Articulation is useful while it can reveal a consequential part of the question.
 

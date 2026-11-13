@@ -6,12 +6,12 @@ section_id: "C.2.4:16"
 section_title: "Articulation Publication Package Discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.4/C.2.4__017_articulation-publication-package-discipline.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.2.4 — Articulation Explicitness — How Explicit Is an Episteme's Meaning for Its Use?"
   - "C.2.4:16 — Articulation Publication Package Discipline"
-line_start: 53843
-line_end: 53862
+line_start: 56078
+line_end: 56097
 dependencies:
   - "A.13"
   - "A.15"
@@ -50,7 +50,7 @@ keywords:
 #### C.2.4:16.1 - Minimal articulation package
 An `AE` claim that changes routing or use should be published with more than a level token. State:
 
-- the exact episteme publication being judged;
+- the episteme publication being judged;
 - the stable cue, question, or contrast;
 - the candidate anchors, participants, actions, fields, or meanings relevant to the current branch;
 - the branch-appropriate structure already recoverable and any decision-relevant gap;

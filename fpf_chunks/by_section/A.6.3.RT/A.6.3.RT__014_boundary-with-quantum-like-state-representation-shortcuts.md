@@ -6,12 +6,12 @@ section_id: "A.6.3.RT:12a"
 section_title: "Boundary with quantum-like state-representation shortcuts"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT/A.6.3.RT__014_boundary-with-quantum-like-state-representation-shortcuts.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.3.RT — Representation-Scheme Transition: Change Representation of the Same EntityOfConcern"
   - "A.6.3.RT:12a — Boundary with quantum-like state-representation shortcuts"
-line_start: 18991
-line_end: 19012
+line_start: 19850
+line_end: 19871
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -57,7 +57,7 @@ Add the following only when the shortcut's claim requires it:
 2. representation-factor, reasoning-medium, salience, topology, actionability, calibration, or interaction delta that matters;
 3. decoding relation and recovery evidence;
 4. causal- or approximate-causal-abstraction mapping when action, intervention, manipulation, or cross-abstraction structure is claimed; and
-5. the exact C.26 cue and bounded use when a quantum-like state-representation claim is actually current.
+5. the C.26 cue and bounded use when a quantum-like state-representation claim is current.
 
 | Ordinary shortcut note | Question |
 | --- | --- |

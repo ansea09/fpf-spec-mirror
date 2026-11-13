@@ -6,12 +6,12 @@ section_id: "E.4:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4/E.4__010_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.4 — FPF Ecosystem Architecture: Framework Families, Products and DPF Suites"
   - "E.4:9 — Consequences"
-line_start: 93471
-line_end: 93476
+line_start: 98035
+line_end: 98040
 dependencies:
   - "C.20"
   - "C.33"
@@ -49,5 +49,5 @@ keywords:
 
 This pattern makes FPF ecosystem work slower at the beginning because a framework author must name family membership, dependency direction, selected structures, and the patterns needed for neighbouring claims. The gain is that later work can evolve without hidden Core changes, hidden publication substitutions, or hidden source loss.
 
-It also makes some attractive names and short labels provisional until `F.18` settles them. That cost is intentional: short names are useful only after the value being named, its source-local meaning, and its intended use are explicit.
+It also makes some attractive names and short labels provisional until `F.18` settles them. The delay is deliberate because short names are useful only after the value being named, its source-local meaning and its intended use have been stated.
 

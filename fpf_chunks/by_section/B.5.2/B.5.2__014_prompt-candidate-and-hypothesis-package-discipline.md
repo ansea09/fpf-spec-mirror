@@ -6,12 +6,12 @@ section_id: "B.5.2:13"
 section_title: "Prompt, Candidate, and Hypothesis Package Discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2/B.5.2__014_prompt-candidate-and-hypothesis-package-discipline.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.5.2 — Generate and Compare Candidate Explanations (Abductive Loop)"
   - "B.5.2:13 — Prompt, Candidate, and Hypothesis Package Discipline"
-line_start: 49744
-line_end: 49784
+line_start: 51806
+line_end: 51846
 dependencies:
   - "A.10"
   - "A.16"
@@ -39,11 +39,11 @@ A conforming prompt package should make explicit:
 - the **witnesses or provenance cues** that made the prompt worth preserving,
 - and any **limitation of an existing explanation or model** that motivates the question.
 
-Use the applicable wording-restoration pattern when the explanatory question, its scope or its intended meanings remain unclear: `A.6.P` for a relation, `A.6.A` for action-first wording, or `C.16.Q` for an evaluative term. Use an already adequate question account directly under `B.5.2.0`'s entry conditions.
+Use the wording-restoration pattern when the explanatory question, its scope or its intended meanings remain unclear: `A.6.P` for a relation, `A.6.A` for action-first wording, or `C.16.Q` for an evaluative term. Use an adequate question account under `B.5.2.0`'s entry conditions.
 
 #### B.5.2:13.2 - Candidate-set note
 
-A candidate-set note preserves the candidates actually considered and the comparison they support. Make visible:
+A candidate-set note preserves the candidates considered and the comparison they support. Make visible:
 
 - candidate identifiers or short names,
 - the differentiating claim each candidate adds,
@@ -51,7 +51,7 @@ A candidate-set note preserves the candidates actually considered and the compar
 - whether the candidate remains live, is deferred, or is rejected,
 - and the interpretable implications, deductions or possible discriminating contrasts relevant to the comparison, with an availability limitation when it changes the receiving use.
 
-Keep the serious alternatives actually considered and the limits of the comparison recoverable, including when no preference is warranted.
+Keep the serious alternatives considered and the limits of the comparison recoverable, including when no preference is warranted.
 
 #### B.5.2:13.3 - Prime-hypothesis record
 
@@ -62,7 +62,7 @@ For a selected prime hypothesis, make these contents recoverable:
 - the **criteria and grounds** supporting its preference, with the limits of that comparison,
 - the **scope** within which it is being advanced,
 - the **allowed downstream use or next question**, which may concern deduction, a possible probe, a separately justified action or reconsideration; include availability limits when they change that use,
-- and any **known fragilities** already visible at selection time.
+- and any **known fragilities** visible at selection time.
 
 These terms let the recipient choose a permitted continuation from the conjecture.
 

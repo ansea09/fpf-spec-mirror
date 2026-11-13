@@ -6,12 +6,12 @@ section_id: "C.2.P.DR:5"
 section_title: "Worked slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P.DR/C.2.P.DR__007_worked-slices.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.2.P.DR — Repair Claims Based on Declarative Form Alone (Declarative Representation Precision Restoration)"
   - "C.2.P.DR:5 — Worked slices"
-line_start: 54922
-line_end: 55010
+line_start: 57192
+line_end: 57286
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -75,7 +75,9 @@ Repair: name the claim or bounded use and recover its grounds under the direct s
 
 Wording: "The query plan calls the production work sequence."
 
-Repair: recover whether the query plan represents optimizer choices, expresses claims about an exact method, presents a formal substrate, supplies a source cue or evidence relation, states a work plan, or records an actual query run. If it only represents query-evaluation choices, stop at the representation. Use A.3.1 for a reusable semantic way-of-doing claim. Use A.3.2 when MethodDescription membership or a use of the method claims is the question; apply the test in 4.4 and retain its positive, negative or unresolved membership result. Use A.15.1 for a performed query run, together with the exact evidence or source-use relation when that later claim is current.
+Repair: recover whether the query plan represents optimizer choices, expresses claims about an exact method, presents a formal substrate, supplies a source cue or evidence relation, states a work plan, or records an actual query run. If it only represents query-evaluation choices, stop at the representation.
+
+Use A.3.1 for a reusable semantic way-of-doing claim. Use A.3.2 when MethodDescription membership or a use of the method claims is the question; apply the test in 4.4 and retain its positive, negative or unresolved membership result. Use A.15.1 for a performed query run, together with the exact evidence or source-use relation when that later claim is current.
 
 #### C.2.P.DR:5.4 - Dashboard predicate
 
@@ -87,13 +89,17 @@ Repair: recover dashboard face, source relation, status or state bearer, value f
 
 Wording: "This pattern exits to A.10."
 
-Repair: if the current relation is "use `A.10` when the source-to-use account must remain replayable", write that declarative boundary. Keep ordinary ownership or navigation wording when its relation and participants are clear. Use exit, receiver, route, owner, home, dispatch, or call language to assert action or control only when the pattern is actually about an action occurrence, work plan, control mechanism, or communication relation that has those semantics.
+Repair: if the current relation is "use `A.10` when the source-to-use account must remain replayable", write that declarative boundary. Keep ordinary ownership or navigation wording when its relation and participants are clear. Use exit, receiver, route, owner, home, dispatch, or call language to assert action or control only when the pattern is about an action occurrence, work plan, control mechanism, or communication relation that has those semantics.
 
 #### C.2.P.DR:5.6 - Solver algorithm
 
 Wording: "The solver algorithm is the mechanism."
 
-Repair: first identify the direct object or relation, any representation use, and which claim is current. A solver configuration may represent claims carried by a separately identified episteme; apply A.3.2 when MethodDescription membership is the question. File form or executability alone does not establish that membership. The reusable semantic way of solving may be `U.Method`; the MILP formulation may expose a formal substrate; a declaration episteme for a reusable operation family, with its required laws and applicability, may qualify as `U.Mechanism` under A.6.1; a solver run may be `U.Work`; and a run result may support another claim through its direct evidence relation. Use A.6.1 to recover and test the proposed declaration. Use E.20 when an FPF introduction or revision triggers its protocol.
+Repair: first identify the direct object or relation, any representation use, and which claim is current. A solver configuration may represent claims carried by a separately identified episteme; apply A.3.2 when MethodDescription membership is the question. File form or executability alone does not establish that membership.
+
+The reusable semantic way of solving may be `U.Method`; the MILP formulation may expose a formal substrate; a declaration episteme for a reusable operation family, with its required laws and applicability, may qualify as `U.Mechanism` under A.6.1; a solver run may be `U.Work`; and a run result may support another claim through its direct evidence relation.
+
+Use A.6.1 to recover and test the proposed declaration. Use E.20 when an FPF introduction or revision triggers its protocol.
 
 #### C.2.P.DR:5.7 - Reactor-cooling flow graph
 
@@ -105,7 +111,7 @@ Repair:
 DeclarativeRepresentationRepair:
   VisibleExpressionOrArtifact: reactor-cooling heat-flow graph with one highlighted preserved path
   CurrentDirectObjectOrRelation: exact E.18 heat-flow path or `PathSlice`; keep boundary conditions and any flow valuation under their subject patterns
-  RepresentationOrCorrespondenceUse: the rendering identifies the selected E.18 path; a proposed inference from its edges to physical heat flow still lacks its correspondence and boundary conditions
+  RepresentationOrCorrespondenceUse: the rendering identifies the selected E.18 path; a proposed inference from its edges to physical heat flow lacks its correspondence and boundary conditions
   SourceOrPublicationRelation: none
   TemptingStrongerActionClaim: graph path authorizes physical valve-change work
   RecoveredGoverningPattern: E.18 for graph inspection; C.29 for the unresolved mathematical transfer; A.10 when its source-to-use account must remain replayable; A.21, A.15.2 or A.15.1 only for a current gate, work-plan or dated-Work question

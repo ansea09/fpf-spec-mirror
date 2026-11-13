@@ -6,12 +6,12 @@ section_id: "A.6.C:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.C/A.6.C__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.C — Contract Unpacking for Boundaries"
   - "A.6.C:4 — Solution"
-line_start: 15530
-line_end: 15633
+line_start: 16041
+line_end: 16166
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -34,7 +34,7 @@ dependencies:
   - "U.SpeechAct"
   - "U.Work"
 keywords:
-  - "A.6.B separately classifies the actual claim"
+  - "A.6.B separately classifies the claim"
   - "MVPK no-new-semantics"
   - "OPTIONAL or authority-looking wording is ambiguous"
   - "atomic L/A/D/E rows"
@@ -56,7 +56,7 @@ keywords:
 
 ### A.6.C:4 — Solution
 
-Use the four questions to recover the claims actually made, then classify them through A.6.B. The answers connect the promised content, any actual institution, the applicable conditions and the observed result only where the passage asserts those relations.
+Use the four questions to recover the claims made, then classify them through A.6.B. The answers connect the promised content, any actual institution, the applicable conditions and the observed result only where the passage asserts those relations.
 
 #### A.6.C:4.1 — Four questions for contract-like boundary wording
 
@@ -66,36 +66,52 @@ When “contract”, “guarantee”, “promise”, “SLA”, or “interface 
 
    * The promised value or effect (the promise *content*) in the intended scope.
    * In FPF terms (A.2.3), **`U.PromiseContent` is promise content**, distinct from an execution event or an obtaining individual commitment.
-   * **Prose head rule (normative).** When referring to `U.PromiseContent` in normative prose, authors SHALL use the head phrase **promise content** (or **service offering clause** or **service promise clause**) and SHALL NOT rely on the bare head noun *service*. If the surrounding text also talks about endpoints, systems, and operations, apply **A.6.P:4.11a** only when the current relied-on use still hides which concrete subject or relation is meant; examples include a service access point, service delivery system, or service-delivery Work occurrence. Mere proximity to those words creates no additional claim or recovery duty.
+   * **Prose head rule (normative).** When referring to `U.PromiseContent` in normative prose, authors SHALL use the head phrase **promise content** (or **service offering clause** or **service promise clause**) and SHALL NOT rely on the bare head noun *service*. If the surrounding text also talks about endpoints, systems, and operations, apply **A.6.P:4.11a** only when the current relied-on use hides which concrete subject or relation is meant; examples include a service access point, service delivery system, or service-delivery Work occurrence. Mere proximity to those words creates no additional claim or recovery duty.
    * **Recommendation:** when commitments, gates, evidence, or MVPK faces need stable citation of the promise content, give it a stable local ID (e.g., `SVC-*`) to prevent paraphrase drift.
-   * **Claim-classification discipline:** keep meanings and definitions of the promised behavior in **L**. A generic prescription about that behavior is a separate **D** claim about its exact normative source and applicable rule content. If an actual System or separately governed party has that duty, state a separate **D** claim about the exact `U.Commitment`, plus any `A-*` and `E-*` references needed by that claim.
+   * **Claim-classification discipline:** keep meanings and definitions of the promised behavior in **L**. A generic prescription about that behavior is a separate **D** claim about its normative source and applicable rule content. If an actual System or separately governed party has that duty, state a separate **D** claim about the `U.Commitment`, plus any `A-*` and `E-*` references needed by that claim.
 
 2. **What was said, published, or instituted?**
 
    * **Speech-act Work:** when the passage asserts a particular communicative act, apply A.2.9 to establish its `U.SpeechAct <: U.Work` occurrence. An ordinary source attribution or publication reference can suffice when no such occurrence claim is needed.
    * **Description/publication:** identify the utterance episteme and any publication occurrence, form, rendering or carrier whose identity changes the current claim or use.
-   * A speech act **may** institute or update a commitment or strong grant only when the exact context policy recognizes that act type and the subject pattern's obtaining conditions are met.
+   * A speech act **may** institute or update a commitment or strong grant only when the context policy recognizes that act type and the subject pattern's obtaining conditions are met.
    * Published utterance descriptions can carry L/A/D/E-classified claims. Identify any actual speech act and institutional effect separately under their subject rules.
-   * **World-side obtaining rule (normative).** The predicates defined in A.2.8 and the cited context policy decide whether a commitment obtains; the predicate defined in A.2.8.PER together with that policy decides whether a strong grant obtains. For a commitment, use the actual instituting basis required by its constitutive rule: the current A.2.9 path uses an actual `U.SpeechAct`; another basis requires a subject pattern that admits it and gives its occurrence rule. A strong grant requires the actual instituting speech act under A.2.8.PER. Preserve the participants, scope/window, current policy, and any revocation or supersession conditions. A Claim Register row, utterance description, publication, carrier, or identifier creates or proves neither relation by itself. For a commitment, a cited fact is constitutive only when the identified rule makes that fact current and the pattern for that subject supplies its test. Publication or approval may establish a publication/status relation only through that relation's exact predicate and obtaining facts.
-   * **Representation and reliance rule (normative).** The model **MAY assert or rely on** a commitment or grant only through a separate atomic claim that identifies the exact `U.Commitment` or `GrantedPermissionRelation@Context` occurrence and cites its exact predicate, `SubjectPatternLocator`, participants, scope/window, and the currentness or evidence required by that use. For a commitment, cite the rule-required actual instituting basis and policy; for a strong grant, cite the actual instituting speech act and policy. Never infer the relation from `Publish`/`Approve` wording, a document, carrier, or completed-looking record alone.
+   * **World-side obtaining rule (normative).** The predicates defined in A.2.8 and the cited context policy decide whether a commitment obtains; the predicate defined in A.2.8.PER together with that policy decides whether a strong grant obtains.
+
+     For a commitment, use the actual instituting basis required by its constitutive rule: the current A.2.9 path uses an actual `U.SpeechAct`; another basis requires a subject pattern that admits it and gives its occurrence rule. A strong grant requires the actual instituting speech act under A.2.8.PER.
+
+     Preserve the participants, scope/window, current policy, and any revocation or supersession conditions. A Claim Register row, utterance description, publication, carrier, or identifier creates or proves neither relation by itself.
+
+     For a commitment, a cited fact is constitutive only when the identified rule makes that fact current and the pattern for that subject supplies its test. Publication or approval may establish a publication/status relation only through that relation's predicate and obtaining facts.
+   * **Representation and reliance rule (normative).** The model **MAY assert or rely on** a commitment or grant only through a separate atomic claim that identifies the `U.Commitment` or `GrantedPermissionRelation@Context` occurrence and cites its predicate, `SubjectPatternLocator`, participants, scope/window, and the currentness or evidence required by that use.
+
+     For a commitment, cite the rule-required actual instituting basis and policy; for a strong grant, cite the actual instituting speech act and policy.
+
+     Never infer the relation from `Publish`/`Approve` wording, a document, carrier, or completed-looking record alone.
 
 3. **What governance or permission-looking claim exists?**
 
-   * A generic prescription states what one exact policy or other normative episteme requires; it does not create an individual duty bearer or commitment occurrence. A claim that one actual System or separately governed party has that duty instead cites one separately obtaining A.2.8 `U.Commitment`. Here the normative episteme may be a contract, SLA, protocol, or policy, and the generic claim also states where its rule applies.
-   * When the model asserts or relies on an individual obligation, recommendation-as-duty, or prohibition, write a separate atomic D claim whose direct object is that exact separately obtaining `U.Commitment`.
+   * A generic prescription states what one policy or other normative episteme requires; it does not create an individual duty bearer or commitment occurrence.
+
+     A claim that one actual System or separately governed party has that duty instead cites one separately obtaining A.2.8 `U.Commitment`. Here the normative episteme may be a contract, SLA, protocol, or policy, and the generic claim also states where its rule applies.
+   * When the model asserts or relies on an individual obligation, recommendation-as-duty, or prohibition, write a separate atomic D claim whose direct object is that separately obtaining `U.Commitment`.
    * For permission-looking wording, select one A.6 `A6-AW-*` row. Only `A6-AW-NORM-GRANT` enters D. Within `A6-AW-GATE`, an admission predicate for a named action or application enters A and an actual A.21 `GateDecisionResult` enters E; split them into separate atomic claims when both are present. Exercise, weak evaluation, conflict, and observed-source claims enter E when their closing facts are present. Classification under A.2.8.PER alone selects no quadrant.
    * **Individual-commitment checklist (use only for the individual branch):**
-     * identify one exact `U.Commitment` occurrence and the separate D-claim or `CommitmentAssertion` about it;
+     * identify one `U.Commitment` occurrence and the separate D-claim or `CommitmentAssertion` about it;
      * select exactly one actual bearer branch: an admitted `U.System` or separately governed party;
-     * name non-empty exact duty referents, any actual counterparties, normalized modality, scope, and validity window;
-     * cite the exact current constitutive policy, its individualizing rule, and the actual instituting basis required by that rule;
+     * name non-empty duty referents, any actual counterparties, normalized modality, scope, and validity window;
+     * cite the current constitutive policy, its individualizing rule, and the actual instituting basis required by that rule;
      * cite a system-role assignment only when that rule uses the assignment as an applicability ground—the assignment is neither bearer nor duty; and
      * add evidence-claim or carrier references only when the receiving reliance or adjudication needs them.
-   * **Permission-branch pointer:** cite the selected `A6-AW-*` row, its exact A.2.8.PER object when applicable, and that atomic claim's quadrant. Preserve the object's own schema, participants, and references; do not reuse the commitment checklist.
+   * **Permission-branch pointer:** cite the selected `A6-AW-*` row, its A.2.8.PER object when applicable, and that atomic claim's quadrant. Preserve the object's own schema, participants, and references; do not reuse the commitment checklist.
    * A commitment is not “the spec text”: an utterance description carries the statement, while `U.Commitment` is the separately obtaining relation described by that statement (A.7 and A.2.8).
 4. **What happened, what followed, and what supports reliance?**
 
-   * **Work:** For one exact dated `W : U.Work`, recover each exact actual performer through A.13 and let A.15.1 independently admit the occurrence from that performer, enacted Method, extent, and containing System. Add an exact A.2.1 assignment reference and F.6 only when this account or a receiving use expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment; F.6 identifies neither the assignment nor the performer. Missing or failed F.6 alone leaves independently admitted Work intact. If the same finding questions a premise consumed by A.13 or A.15.1 admission, recheck that premise and its dependent claims.
+   * **Work:** For one dated `W : U.Work`, recover each actual performer through A.13 and let A.15.1 independently admit the occurrence from that performer, enacted Method, extent, and containing System.
+
+     Add an A.2.1 assignment reference and F.6 only when this account or a receiving use expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment; F.6 identifies neither the assignment nor the performer.
+
+     Missing or failed F.6 alone leaves independently admitted Work intact. If the same finding questions a premise consumed by A.13 or A.15.1 admission, recheck that premise and its dependent claims.
    * **Result or consequence:** only when the sentence asks for one, select the matching `A.15.1:4.6` row—an A.6.1 application/result binding or independently obtaining `WorkResultRelation`, A.15.PROD production branch, A.3.4 change, evaluation result, subject-specific delivery/transfer relation, or acceptance relation. An absent row stays absent.
    * **Evidence:** for a current evidence-use claim, name the supporting episteme, target claim and conditions required by its direct rule; use A.2.4 for first-use classification. Make the grounds required by any receiving reliance recoverable. Use A.10 when source recovery, provenance, currentness or bounded reliance must remain replayable; identify carriers and observation conditions when they affect the claim or its use.
 
@@ -103,23 +119,23 @@ When “contract”, “guarantee”, “promise”, “SLA”, or “interface 
 
 After unpacking, classify each **atomic** statement using the Boundary Norm Square as defined normatively in **A.6.B** (quadrant semantics + form constraints + cross‑quadrant reference discipline). A.6.C does not redefine `L/A/D/E`; it applies them to contract-language as follows:
 
-* **Promise content and conditions → classify by the actual claim.**
+* **Promise content and conditions → classify by the claim.**
   * Put meanings, invariants, and metric definitions for what is promised in **L** (`L-*` in signature laws and definitions).
   * Recover what “eligible”, “covered” or “valid iff” means. A definition or declared scope remains L; an admission predicate for a named action or application is A; a finding that a particular case meets the conditions is E. A duty concerning those conditions is a separate D claim.
 * **Governance and permission-looking claims → claim-specific quadrant.**
-  * Put a generic contract, SLA, protocol, or policy prescription in **D** as a claim about its exact normative source and applicable rule content. Put an individual-duty claim in **D** only when it cites an exact separately obtaining `U.Commitment` under A.2.8; do not use a completed record as the relation.
-  * For authority-looking wording, select one A.6 `A6-AW-*` row: norm/grant → **D**, admission predicate → **A**, and an actual A.21 `GateDecisionResult`, exercise, evaluated finding/conflict, or source observation → **E**. Split a predicate and an actual gate result into separate atomic claims. Cite the exact A.2.8.PER object only where that row requires it; the selected subject pattern or kind of direct object does not choose the sentence's quadrant.
+  * Put a generic contract, SLA, protocol, or policy prescription in **D** as a claim about its normative source and applicable rule content. Put an individual-duty claim in **D** only when it cites a separately obtaining `U.Commitment` under A.2.8; do not use a completed record as the relation.
+  * For authority-looking wording, select one A.6 `A6-AW-*` row: norm/grant → **D**, admission predicate → **A**, and an actual A.21 `GateDecisionResult`, exercise, evaluated finding/conflict, or source observation → **E**. Split a predicate and an actual gate result into separate atomic claims. Cite the A.2.8.PER object only where that row requires it; the selected subject pattern or kind of direct object does not choose the sentence's quadrant.
   * If a generic prescription or individual duty requires satisfying or enforcing a gate, its `D-*` claim **MUST** reference the relevant `A-*` claim by ID or canonical location (D→A).
   * If reliance on either D branch needs evidence, cite the relevant `E-*` claim or evidence-use relation (D→E); for the individual branch, a `CommitmentAssertion` may carry that reference.
 * **Performed Work → E (did it happen?).**
-  * Name the exact A.15.1 Work occurrence and its performer, Method, extent, and containing System. Add an assignment reference and F.6 only when the claim or a receiving use consumes precise assignment-bound attribution; do not add an output or delivery field.
+  * Name the A.15.1 Work occurrence and its performer, Method, extent, and containing System. Add an assignment reference and F.6 only when the claim or a receiving use consumes precise assignment-bound attribution; do not add an output or delivery field.
 * **Result or consequence → E when current (what else happened?).**
-  * Use the one applicable `A.15.1:4.6` predicate and exact subject assertion for the returned value, production, change, evaluation result, delivery/transfer, or acceptance claim; cite the pattern that defines or constrains that claim.
+  * Use the one applicable `A.15.1:4.6` predicate and subject assertion for the returned value, production, change, evaluation result, delivery/transfer, or acceptance claim; cite the pattern that defines or constrains that claim.
 * **Evidence → E when relied on (how can the claim be used?).**
   * State the target claim and the independently established evidence-use or other direct support relation, including its polarity and limits. Use A.2.4 for first-use classification and A.10 when a replayable source-to-use account is needed. Keep the grounds required by the receiving use; identify carriers and observation conditions when they affect that claim or use.
 
 **Keyword placement rule (canonical claim set).**
-Within the canonical L-, A-, D- or E-classified claim set, BCP-14 keywords are statement operators. Classify the actual claim through A.6.B: a generic prescription or an independently instituted duty, recommendation-as-duty or prohibition enters D. When `MAY`, `OPTIONAL` or authority-looking wording is ambiguous, use the A.6 `A6-AW-*` branch. If its object or meaning remains unresolved, retain it as bounded source wording with that uncertainty; marking it informative does not settle the claim.
+Within the canonical L-, A-, D- or E-classified claim set, BCP-14 keywords are statement operators. Classify the claim through A.6.B: a generic prescription or an independently instituted duty, recommendation-as-duty or prohibition enters D. When `MAY`, `OPTIONAL` or authority-looking wording is ambiguous, use the A.6 `A6-AW-*` branch. If its object or meaning remains unresolved, retain it as bounded source wording with that uncertainty; marking it informative does not settle the claim.
 
 #### A.6.C:4.3 — “Guarantee” disambiguation
 
@@ -130,31 +146,37 @@ When “guarantee” leaves a consequential ambiguity, use the applicable distin
 * **Governance guarantee** → **D** (“provider commits or implementer must”).
 * **Operational claim** → **E** (an actual occurrence, condition or result under its subject predicate). Name Work, evaluation or observation when the claim depends on it. Retain an unresolved claim when required grounds are missing; report a negative result only when the grounds establish it. Qualify evidence support for the receiving use under §4.1, question 4.
 
-If none fits, recover the remaining meaning before classifying it. Mark an aspiration as such only when that is what the source actually expresses; otherwise keep the unresolved wording and the missing meaning visible.
+If none fits, recover the remaining meaning before classifying it. Mark an aspiration as such only when that is what the source expresses; otherwise keep the unresolved wording and the missing meaning visible.
 
 #### A.6.C:4.4 — MVPK faces are not second contracts
 
 The atomic claims for one boundary use have one canonical source; use the A.6.B Claim Register when §4.5 calls for it. Publication faces present those claims for a bounded reader and use under E.17:
 
-* Faces may **select, summarize, and render** claims for audiences. A selected episteme's `U.View` membership separately requires E.17.0 conformance to an exact viewpoint.
+* Faces may **select, summarize, and render** claims for audiences. A selected episteme's `U.View` membership separately requires E.17.0 conformance to a viewpoint.
 * Faces must not add a new boundary claim; they project the existing classified claims.
 * Any face-level decision-relevant or normative-looking statement **SHOULD** cite the underlying claim ID(s) or canonical location(s). A new boundary claim **MUST** be added to its canonical source before publication on a face. Informative commentary may explain source claims without adding boundary semantics.
 
 **Keyword rule (faces).**
-Each face sentence containing a BCP-14 keyword MUST cite its existing classified claim ID or canonical location and direct object. Duty/recommendation/prohibition and current-grant projections cite their D claim; a gate projection cites its A claim; exercise or evaluated-finding projections cite their E claim. Use the selected A.6 `A6-AW-*` row for permission-looking wording. A face-level keyword manufactures no object or quadrant. If the boundary claim is not traceable, put it in its canonical source before publishing it on the face; informative commentary is limited to explanation that adds no boundary semantics.
+Each face sentence containing a BCP-14 keyword MUST cite its existing classified claim ID or canonical location and direct object. Duty/recommendation/prohibition and current-grant projections cite their D claim; a gate projection cites its A claim; exercise or evaluated-finding projections cite their E claim. Use the selected A.6 `A6-AW-*` row for permission-looking wording.
+
+A face-level keyword creates no object or quadrant. If the boundary claim is not traceable, put it in its canonical source before publishing it on the face; informative commentary is limited to explanation that adds no boundary semantics.
 To avoid keyword-evasion, equivalent deontic phrasings (e.g., “is required to…”, “is prohibited from…”) SHOULD follow the same claim-reference discipline even when no BCP-14 keyword is present.
 
 Projection may be paraphrased for audience fit, but it **MUST NOT** change the deontic or semantic claim; if exactness is critical or disputed, use verbatim.
 
 #### A.6.C:4.5 — A.6.B Claim Register additions (recommended)
 
-When stable reuse, decision, audit, dispute, or cross-face projection needs a record, use the **A.6.B Claim Register** (IDs, statements, quadrant, and canonical location). A one-off local repair ends with the repaired atomic prose. When the register is needed, add only the current A.6.C fields below without minting another record or ontology kind:
+When stable reuse, decision, audit, dispute, or cross-face projection needs a record, use the **A.6.B Claim Register** (IDs, statements, quadrant, and canonical location). A one-off local repair ends with the repaired atomic prose. When the register is needed, add only the current A.6.C fields below without creating another record or ontology kind:
 
 * `bundleId` (optional local ID grouping atomic claims discussed together)
 * `questionRef` (optional pointer `Q1`, `Q2`, `Q3`, or `Q4` to the four questions above; it selects no kind, subject predicate, or quadrant)
-* `directObjectDesignation` (use `U.RelationRef` constrained to the exact relation family for a relation occurrence, the applicable `U.EpistemeRef` for a whole episteme, or the admitted reference kind for another independently identified entity. When one claim inside an episteme is the direct object, use `C.2.1 ClaimAddress`: exact episteme-edition reference plus intrinsic claim identity declared by that edition's ClaimGraph. The entity-reference branches designate independently identified objects; the claim branch designates content inside the named edition. Neither carries the designated content.)
-* `directObjectPatternLocator` (the exact pattern-description locator for the ClaimGraph that defines or constrains that direct object; it asserts no ownership relation)
+* `directObjectDesignation`: use `U.RelationRef` constrained to the relation family for a relation occurrence, the applicable `U.EpistemeRef` for a whole episteme, or the admitted reference kind for another independently identified entity.
+
+     When one claim inside an episteme is the direct object, use `C.2.1 ClaimAddress`: episteme-edition reference plus intrinsic claim identity declared by that edition's ClaimGraph.
+
+     The entity-reference branches designate independently identified objects; the claim branch designates content inside the named edition. Neither carries the designated content.
+* `directObjectPatternLocator` (the pattern-description locator for the ClaimGraph that defines or constrains that direct object; it asserts no ownership relation)
 * `faceRefs` (optional mapping from `PlainView`, `TechCard`, `InteropCard`, or `AssuranceLane` to where this same claim is rendered)
 
-Each row still uses the A.6.B fields for one exact statement, claim ID, quadrant, and canonical location. Do not create a second boundary-language record or a `Permission`, `Utterance`, `WorkEvidence`, or result-or-evidence umbrella kind.
+Each row uses the A.6.B fields for one statement, claim ID, quadrant, and canonical location. Do not create a second boundary-language record or a `Permission`, `Utterance`, `WorkEvidence`, or result-or-evidence umbrella kind.
 

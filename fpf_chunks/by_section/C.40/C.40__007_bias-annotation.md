@@ -6,12 +6,12 @@ section_id: "C.40:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40/C.40__007_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.40 — Develop Branching Search from Reusable Material"
   - "C.40:6 — Bias-Annotation"
-line_start: 85548
-line_end: 85551
+line_start: 89780
+line_end: 89783
 dependencies:
   - "C.11"
   - "C.18"
@@ -23,5 +23,5 @@ keywords:
 
 ### C.40:6 - Bias-Annotation
 
-A strong incumbent can suppress useful intermediates, while novelty can attract effort without a receiving use. Examine what each variation actually permits next and include retention and opportunity costs. Keep the target's own conditions visible when enthusiasm for a source success would otherwise decide the transfer.
+A strong incumbent can suppress useful intermediates, while novelty can attract effort without a receiving use. Examine what each variation permits next and include retention and opportunity costs. Keep the target's own conditions visible when enthusiasm for a source success would otherwise decide the transfer.
 

@@ -6,12 +6,12 @@ section_id: "A.15.8:10"
 section_title: "SoTA-echoing source effects"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.8/A.15.8__011_sota-echoing-source-effects.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.15.8 — Work-Performance Configuration and Recovery Testing"
   - "A.15.8:10 — SoTA-echoing source effects"
-line_start: 31911
-line_end: 31925
+line_start: 33160
+line_end: 33174
 dependencies:
   - "A.1"
   - "A.10"
@@ -50,7 +50,7 @@ Use these source contributions to identify relations and select probes while ret
 | Hollnagel and Woods, [cognitive systems engineering](https://doi.org/10.1006/ijhc.1982.0313), and Fern, [NASA HMI study](https://ntrs.nasa.gov/citations/20160012462) (2016) | Retain human-factors and cognitive-systems-engineering lineage plus the 2016 NASA application; adapt only coordination/recovery search and stress-scenario use. | Add coordination, synchronization, interface, and recovery relations and use stress scenarios instead of component lists alone. | “Joint cognitive system” remains a source-local stance and supplies no general whole identity, authority, safety, or evidence rule. |
 | NASA, [Objective Function Allocation Method](https://techport.nasa.gov/projects/95457), page updated 2024 | Adapt the cited official project record as a scoped systems-engineering and human-factors allocation example. | Compare alternative human, automation, and robotic allocations as performance configurations rather than by static stereotypes. | Allocation quantities and trade-offs remain systems-engineering and human-factors Methods. |
 | ISO [6385:2016](https://www.iso.org/standard/63785.html) and ISO/IEC [CD 25589](https://www.iso.org/standard/90831.html) | Use the cited ergonomic standard as a scoped inventory reference and the cited committee-draft edition as a specialist contrast. | Make workers, equipment, space, environment, interaction, and current human-machine-teaming questions visible in the inventory. | One is ergonomic and human-centred; the cited edition of the other is a specialist draft. Neither creates a transdisciplinary `WorkSystem` or team kind. |
-| Hodgetts and Jones, [interruption recovery](https://pubmed.ncbi.nlm.nih.gov/16938050/) (2006); Ratwani and Trafton, [cue association](https://pubmed.ncbi.nlm.nih.gov/21077561/) (2010); Ülkü et al., [resumption timing](https://pubmed.ncbi.nlm.nih.gov/39994973/) (2025) | Retain the 2006/2010 human-task studies as empirical lineage and adapt the 2025 study as a bounded probe source. | Make actual return cues and resumption conditions testable rather than inferred from perfect-run performance. | Bounded human laboratory tasks establish no universal cue, delay, mechanism, threshold, or transfer to unlike Work. |
-| Chandy and Lamport, [distributed snapshots](https://doi.org/10.1145/214451.214456) (1985), and Marinho et al., [workflow provenance](https://doi.org/10.1016/j.datak.2021.101877) (2021) | Retain mature distributed-systems lineage and adapt the 2021 provenance result as a non-human recovery stress test. | Supply the decisive non-human contrast: recovery may require consistent process, channel, control-flow, and provenance state. | Snapshot and provenance techniques are direct computing Methods, not universal FPF algorithms or proof that every Work needs a checkpoint. |
+| Hodgetts and Jones, [interruption recovery](https://pubmed.ncbi.nlm.nih.gov/16938050/) (2006); Ratwani and Trafton, [cue association](https://pubmed.ncbi.nlm.nih.gov/21077561/) (2010); Ülkü et al., [resumption timing](https://pubmed.ncbi.nlm.nih.gov/39994973/) (2025) | Retain the 2006/2010 human-task studies as empirical lineage and adapt the 2025 study as a bounded probe source. | Make return cues and resumption conditions testable rather than inferred from perfect-run performance. | Bounded human laboratory tasks establish no universal cue, delay, mechanism, threshold, or transfer to unlike Work. |
+| Chandy and Lamport, [distributed snapshots](https://doi.org/10.1145/214451.214456) (1985), and Marinho et al., [workflow provenance](https://doi.org/10.1016/j.datak.2021.101877) (2021) | Retain mature distributed-systems lineage and adapt the 2021 provenance result as a non-human recovery stress test. | Supply the non-human contrast: recovery may require consistent process, channel, control-flow, and provenance state. | Snapshot and provenance techniques are computing Methods, not universal FPF algorithms or proof that every Work needs a checkpoint. |
 | Hu, Wang, and McAuley, [MemoryAgentBench](https://arxiv.org/abs/2507.05257) (ICLR 2026), and Liu and Gabriel, [PM-Bench](https://arxiv.org/abs/2607.12385) (COLM 2026) | Adapt these cited benchmarks only for their configuration-specific probe distinctions. | Separate retrieval, updating, long-range use, forgetting, deferred-intention execution, and environment monitoring into configuration-specific probes. | Benchmark labels are not FPF kinds or capability holders; the reported results do not transfer outside tested agent configurations without evidence. |
 

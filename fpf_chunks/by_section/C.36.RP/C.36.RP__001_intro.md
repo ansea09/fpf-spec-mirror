@@ -6,12 +6,12 @@ section_id: "C.36.RP:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.RP/C.36.RP__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.36.RP — Sustain and Renew Shared Ways of Working"
   - "C.36.RP:intro — Intro"
-line_start: 90886
-line_end: 90893
+line_start: 95366
+line_end: 95373
 dependencies:
   - "B.5.MPC"
   - "B.5.RA"

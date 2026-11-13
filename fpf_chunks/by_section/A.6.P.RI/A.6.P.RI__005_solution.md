@@ -6,12 +6,12 @@ section_id: "A.6.P.RI:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P.RI/A.6.P.RI__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.P.RI — Recover Agent-Relative References for Action"
   - "A.6.P.RI:4 — Solution"
-line_start: 20573
-line_end: 20631
+line_start: 21446
+line_end: 21504
 dependencies:
   - "A.6.3.RT"
   - "A.6.4"
@@ -27,7 +27,7 @@ Recover the source reference, establish the receiving purpose, then derive only 
 
 #### A.6.P.RI:4.1 - Find the expression whose reference matters
 
-Start with the actual statement and the work it is meant to support. Identify a word or omitted participant whose interpretation changes the result: for example, whose account, whose left side, which location or which time.
+Start with the statement and the work it is meant to support. Identify a word or omitted participant whose interpretation changes the result: for example, whose account, whose left side, which location or which time.
 
 Use A.6.P to recover the relevant participants and relation. Read a quotation relative to its attributed speaker until the use calls for another interpretation. An imperative may leave the intended actor implicit; distinguish that actor from the person relaying the message.
 
@@ -50,7 +50,7 @@ Ask what the recipient is being asked to do with the source. For example:
 - obtain the same external result through the recipient's own action; or
 - apply the same relative rule afresh to the recipient.
 
-Recover the actual purpose from the assignment or working agreement.
+Recover the purpose from the assignment or working agreement.
 
 For example, “move the crate one metre to my left” can identify a direction from the speaker's orientation. A second performer preserving that displacement may need to move to their own right. “Repeat the movement to your own left” instead applies the relative rule to the second performer and can produce a different displacement.
 

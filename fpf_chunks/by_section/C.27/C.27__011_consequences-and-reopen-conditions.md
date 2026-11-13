@@ -6,12 +6,12 @@ section_id: "C.27:9"
 section_title: "Consequences and Reopen Conditions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__011_consequences-and-reopen-conditions.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Change"
   - "C.27:9 — Consequences and Reopen Conditions"
-line_start: 67344
-line_end: 67366
+line_start: 70402
+line_end: 70424
 dependencies:
   - "A.10"
   - "A.3.3"
@@ -50,7 +50,7 @@ keywords:
 
 ### C.27:9 - Consequences and Reopen Conditions
 
-C.27 makes intervention-sensitive temporal claims inspectable. An adequate state or rate reading can remain sufficient; a stronger forecast needs its actual temporal and effect grounds.
+C.27 makes intervention-sensitive temporal claims inspectable. An adequate state or rate reading can remain sufficient; a stronger forecast needs its temporal and effect grounds.
 
 Refresh follows the receiving use:
 

@@ -6,12 +6,12 @@ section_id: "C.32.ACS:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACS/C.32.ACS__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.32.ACS — Architecture Characteristic Criteria Set"
   - "C.32.ACS:intro — Intro"
-line_start: 77494
-line_end: 77499
+line_start: 81323
+line_end: 81328
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -51,5 +51,5 @@ keywords:
 
 > **Type:** Architecture characterization pattern under C.32
 > **Status:** Stable
-> **Normativity:** Normative unless explicitly marked informative
+> **Normativity:** Normative unless marked informative
 

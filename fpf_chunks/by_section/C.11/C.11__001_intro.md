@@ -6,12 +6,12 @@ section_id: "C.11:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11/C.11__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.11 — Decision Theory (Decsn-CAL)"
   - "C.11:intro — Intro"
-line_start: 56721
-line_end: 56730
+line_start: 59047
+line_end: 59056
 dependencies:
   - "A.10"
   - "A.13"
@@ -56,7 +56,7 @@ keywords:
 > **Status:** Stable
 > **Normativity:** Normative unless marked informative
 
-**At a glance.** `C.11` is the choice-calculus pattern for the moment when options already exist and the working question is which option to choose, including whether another probe is worth its cost before commitment.
+**At a glance.** `C.11` is the choice-calculus pattern for the moment when options exist and the working question is which option to choose, including whether another probe is worth its cost before commitment.
 
 This is a bounded choice use of decision theory, not a claim that all decision problems have one level, a fixed purpose or discrete alternatives. **C.43** connects such a choice to construction of alternatives, conditional future responses, realization and revision in ongoing control. One option here may itself be a policy or trajectory whose construction and qualification belong to the relevant Method.
 

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.18"
-pattern_title: "Minimal CSLC in Kernel (Characteristic ⟷ Scale ⟷ Level ⟷ Coordinate) (A.CSLC‑KERNEL)"
+pattern_title: "CSLC in Kernel (Characteristic ⟷ Scale ⟷ Level ⟷ Coordinate) (A.CSLC‑KERNEL)"
 section_id: "A.18:5"
 section_title: "Archetypal Grounding (System & Episteme Examples)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.18/A.18__006_archetypal-grounding-system-episteme-examples.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.18 — Minimal CSLC in Kernel (Characteristic ⟷ Scale ⟷ Level ⟷ Coordinate) (A.CSLC‑KERNEL)"
+  - "A.18 — CSLC in Kernel (Characteristic ⟷ Scale ⟷ Level ⟷ Coordinate) (A.CSLC‑KERNEL)"
   - "A.18:5 — Archetypal Grounding (System & Episteme Examples)"
-line_start: 34514
-line_end: 34523
+line_start: 35994
+line_end: 36003
 dependencies:
   - "A.17"
   - "A.19"
@@ -39,7 +39,7 @@ keywords:
 
 **In a physical scenario (`U.System`):** Consider an athlete’s long jump. We define a Characteristic **Jump Distance** with a Scale “meters (m)” ranging from 0 upward (ratio scale with meters as the unit). When the athlete jumps and lands at 7.45 m, we record a **Coordinate** of _7.45 m_ for the Jump Distance Characteristic. This ratio Scale permits interpreting a 1.5 m distance difference between comparable jumps.
 
-For another physical measurement, consider **Battery Health** of a device, which might be categorized qualitatively. We could define an ordinal Scale with Levels like _Good, Fair, Poor_ for the Battery Health Characteristic. If a particular device is rated “Poor”, that is a Coordinate on the Battery Health scale (with _Poor_ as the Level name). No arithmetic is done on these labels, but we can order devices by health (Good > Fair > Poor).
+For another physical measurement, consider **Battery Health** of a device, which might be categorized qualitatively. We could define an ordinal Scale with Levels like _Good, Fair, Poor_ for the Battery Health Characteristic. If a device is rated “Poor”, that is a Coordinate on the Battery Health scale (with _Poor_ as the Level name). No arithmetic is done on these labels, but we can order devices by health (Good > Fair > Poor).
 
 **In knowledge-related assessment:** A person's expertise may be assessed on a declared ordinal Scale _Novice < Competent < Expert_. Alice is assessed as Expert in software engineering and Bob as Competent. Their Coordinates are ordered by that rubric; numerical labels alone supply no mean expertise. The bearer here is the person, not the description of the assessment.
 

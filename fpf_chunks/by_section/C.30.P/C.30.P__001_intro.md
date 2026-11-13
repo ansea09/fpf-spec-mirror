@@ -6,12 +6,12 @@ section_id: "C.30.P:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.P/C.30.P__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.30.P — Clarify Architecture and Structure Wording (Precision Restoration)"
   - "C.30.P:intro — Intro"
-line_start: 72757
-line_end: 72775
+line_start: 75875
+line_end: 75893
 dependencies:
   - "A.10"
   - "A.15"
@@ -62,14 +62,14 @@ keywords:
 
 > **Type:** Architectural pattern
 > **Status:** Stable
-> **Normativity:** Normative unless explicitly marked informative
+> **Normativity:** Normative unless marked informative
 
 **Plain-name.** Architecture-structure wording repair.
 
 **Intent.**
 Recover architecture or structure wording whose selected structure, architecture relation, architecture-description use, structural-view use, source-return relation, or named C.30 subcase is hidden before a reader applies `A.22`, `C.30`, `C.30.ASV`, or a named `C.30.*` pattern.
 
-This pattern does not mint `U.Architecture`, does not fuse architecture and structure into one kind, and does not replace grounded architecture adequacy or structural-view adequacy. It repairs overloaded wording so the architecture, structure, description, view, publication, source, relation, characteristic, mathematical-lens, evidence, assurance, gate, work, decision, causal-use, release, or ordinary-prose use becomes recoverable by value.
+This pattern repairs overloaded wording so the architecture, structure, description, view, publication, source, relation, characteristic, mathematical-lens, evidence, assurance, gate, work, decision, causal-use, release, or ordinary-prose use becomes recoverable by value. It does not mint `U.Architecture`, does not fuse architecture and structure into one kind, and does not replace grounded architecture adequacy or structural-view adequacy.
 
 **Builds on.** `E.10`, `E.10.ARCH`, `A.22`, `C.30`, `C.30.ASV`, `C.2.P`, `A.6.P`, `A.6.F`, `C.29`, `C.16.P`, `C.16`, `C.25`, `E.17`, and `E.8`.
 

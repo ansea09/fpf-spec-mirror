@@ -6,12 +6,12 @@ section_id: "E.4.PFIP:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFIP/E.4.PFIP__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.4.PFIP — Principle-Framework Publication Integration and Preservation"
   - "E.4.PFIP:2 — Problem"
-line_start: 96098
-line_end: 96113
+line_start: 101248
+line_end: 101263
 dependencies:
   - "C.2.1"
   - "C.33"
@@ -31,7 +31,7 @@ keywords:
 
 Framework integration has two independent failure modes.
 
-First, an accepted source contribution may never reach the candidate, or it may reach the wrong public entry or consumer. Second, the candidate may contain every accepted addition while silently losing useful predecessor content that no accepted decision changed. The source-to-candidate comparison can detect the first failure and cannot answer the second.
+An accepted source contribution may never reach the candidate, or it may reach the wrong public entry or consumer. A candidate may also contain every accepted addition while losing useful predecessor content unnoticed, without any accepted decision to change it. The source-to-candidate comparison can detect the first failure and cannot answer the second.
 
 Publication plurality makes the second failure harder to see:
 
@@ -41,5 +41,5 @@ Publication plurality makes the second failure harder to see:
 - splitting or merging forms can make a predecessor form disappear even though its content still needs a disposition; and
 - a carrier can remain byte-identical while its selected edition, bounded use, or expression relation changes.
 
-The recurring mistake is to use one visible proxy — source parity, build success, carrier continuity, heading coverage, or textual similarity — as proof that the complete predecessor publication survived.
+The recurring mistake is to use a proxy such as source parity, build success, carrier continuity, heading coverage, or textual similarity as proof that the complete predecessor publication survived.
 

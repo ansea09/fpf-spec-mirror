@@ -6,12 +6,12 @@ section_id: "E.11.PUR:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUR/E.11.PUR__012_sota-echoing.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.11.PUR — Pattern-Use Applicability, Recommendation, and Coordination"
   - "E.11.PUR:11 — SoTA-Echoing"
-line_start: 104273
-line_end: 104286
+line_start: 110403
+line_end: 110420
 dependencies:
   - "A.10"
   - "A.15"
@@ -44,5 +44,9 @@ keywords:
 
 Que et al. is the current decision-bearing recommender source in this narrow use; Nunes and Jannach supplies lineage. The 2026 navigation preprint supplies bounded reconsideration, while current FPF NQD, OEE, A.19, C.2.1, A.10, and G.11 supply the transdisciplinary candidate, comparison, result-identity, reliance, and currentness basis.
 
-Reopen the score-proxy adaptation when stronger evaluation evidence shows that the relied-on score tracks current expected-result and receiving-use fit without the identified exposure or rationale loss. Reopen the wrong-turn adaptation when peer review, replication, or use evidence changes the value of reconsideration. Use `G.11` to manage source and telemetry currentness, then revise the affected PUR fit, rationale, recommendation, or return relation.
+Reopen the score-proxy adaptation when stronger evaluation evidence shows that the relied-on score tracks current expected-result and receiving-use fit without the identified exposure or rationale loss.
+
+Reopen the wrong-turn adaptation when peer review, replication, or use evidence changes the value of reconsideration.
+
+Use `G.11` to manage source and telemetry currentness, then revise the affected PUR fit, rationale, recommendation, or return relation.
 

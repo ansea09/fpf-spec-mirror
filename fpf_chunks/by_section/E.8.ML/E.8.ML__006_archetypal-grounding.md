@@ -6,12 +6,12 @@ section_id: "E.8.ML:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8.ML/E.8.ML__006_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.8.ML — Construct a Pattern Language for Connected Methods"
   - "E.8.ML:5 — Archetypal Grounding"
-line_start: 97802
-line_end: 97825
+line_start: 103321
+line_end: 103348
 dependencies:
   - "A.3.2.DE"
   - "B.1.5"
@@ -28,9 +28,11 @@ keywords:
 
 #### E.8.ML:5.1 - From a review paragraph to three independent questions
 
-This is a constructed case. An engineer has an admitted Method for checking a Method-description claim against its source and qualification basis. A use-bounded A.3.2.DE description of that Method already explains the checking action. The new language must additionally help recurring users decide how unlike source contributions were allocated and what to revisit after a source change.
+This is a constructed case. An engineer has an admitted Method for checking a Method-description claim against its source and qualification basis. A use-bounded A.3.2.DE description of that Method already explains the checking action.
 
-The proposed arrangement is:
+The new language must also help recurring users find out how different source contributions were allocated and decide what to revisit after a source change.
+
+The proposed arrangement gives users three entries.
 
 | Reader's question | Contribution | Material connection |
 | --- | --- | --- |
@@ -40,11 +42,13 @@ The proposed arrangement is:
 
 These are independently useful entries. Their colocation does not make these pattern subjects parts of one review Method. The A.3.2.DE description retains its one-Method subject; the profile explanation concerns the broader arrangement.
 
-For a user who already has the needed allocation and only one contradictory claim, direct A.3.1.CC use is enough. A user investigating an unexplained coverage loss starts with F.0.2.RC. The language is useful because the first result and return are visible at either entry, not because all three rows are traversed.
+For a user who already has the needed allocation and only one contradictory claim, direct A.3.1.CC use is enough. A user investigating an unexplained coverage loss starts with F.0.2.RC.
+
+The language is useful because the first result and return are visible at either entry, not because all three rows are traversed.
 
 #### E.8.ML:5.2 - A source-change return
 
-The allocation relied on an argument now unavailable for a required new recheck. The earlier answer remains preserved, but the dependent current-use claim has no recoverable basis. The reader returns only that claim and its source relation. A separately supported allocation and review remain usable.
+The allocation relied on an argument now unavailable for a required new recheck. The earlier answer is preserved, but the dependent claim about current use has no recoverable basis. The reader returns only that claim and its source relation. A separately supported allocation and review remain usable.
 
 If the user's question changes from reviewing the description to authorizing publication, it is another receiving use. The language points to the applicable publication result; a completed review is not that authorization.
 

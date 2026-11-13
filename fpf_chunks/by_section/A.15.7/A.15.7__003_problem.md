@@ -6,12 +6,12 @@ section_id: "A.15.7:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.7/A.15.7__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.15.7 — Situation-Responsive Work Steering and Next-Action Selection"
   - "A.15.7:2 — Problem"
-line_start: 31556
-line_end: 31561
+line_start: 32741
+line_end: 32746
 dependencies:
   - "A.10"
   - "A.13"
@@ -35,5 +35,5 @@ keywords:
 
 Situation-responsive Work needs more than permission to vary. A practitioner must notice which facts can change the continuation, remain within the applicable domain Method, distinguish choosing from performing, and know when to stop or reconsider. `C.11` compares an already formed `OptionSet` for a known chooser. Steering selects a next continuation from current Work facts; planning records or revises intended-work content before or during performance. Tool-call planning begins after the underlying action has been fixed.
 
-Without a direct Method, teams oscillate between two errors. They follow an obsolete plan as though nothing changed, or they call unconstrained variation improvisation and lose reviewability. In both cases the current fact, relevant Method limits, chooser, performer, and return condition disappear.
+Without a steering Method, teams oscillate between two errors. They follow an obsolete plan as though nothing changed, or they call unconstrained variation improvisation and lose reviewability. In both cases the current fact, relevant Method limits, chooser, performer, and return condition disappear.
 

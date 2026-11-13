@@ -6,12 +6,12 @@ section_id: "B.4.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4.1/B.4.1__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.4.1 — Publish Candidate Routes for a Stabilized Cue (RoutedCueSet)"
   - "B.4.1:intro — Intro"
-line_start: 45976
-line_end: 45983
+line_start: 47872
+line_end: 47879
 dependencies:
   - "A.15"
   - "A.16"

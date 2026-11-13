@@ -6,12 +6,12 @@ section_id: "A.16.1:13"
 section_title: "Worked Examples and Invalid Publications"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__014_worked-examples-and-invalid-publications.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.16.1 — PreArticulationCuePack: Preserve an Early Cue Before Choosing Its Use"
   - "A.16.1:13 — Worked Examples and Invalid Publications"
-line_start: 34020
-line_end: 34036
+line_start: 35500
+line_end: 35516
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -44,7 +44,7 @@ The nucleus can emerge from arranging the available material. Put the T17 events
 
 An ordinary incident note can keep that line with the question and the reason for preservation: the different outcomes need to remain visible while their cause and next route are open. T17 is the primary witness. The note preserves this cue without selecting a route or publishing a causal conclusion.
 
-If an existing incident note already carries this content and the source return, use it directly. On separate hand-off, keep the meaning of the cue in the note. A reference can supply further details when the recipient can access the exact source content and interpret it; otherwise include the details needed for the next use.
+If an existing incident note already carries this content and the source return, use it directly. On separate hand-off, keep the meaning of the cue in the note. A reference can supply further details when the recipient can access the source content and interpret it; otherwise include the details needed for the next use.
 
 
 #### A.16.1:13.2 - Inquiry cue pack

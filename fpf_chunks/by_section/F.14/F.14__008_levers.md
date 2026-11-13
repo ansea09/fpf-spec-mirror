@@ -6,12 +6,12 @@ section_id: "F.14:7"
 section_title: "Levers"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__008_levers.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.14 — Anti-Explosion Control for System-Role and Status Name Families"
   - "F.14:7 — Levers"
-line_start: 123184
-line_end: 123217
+line_start: 130984
+line_end: 131021
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -64,11 +64,15 @@ keywords:
 
 #### F.14:7.2 - Reuse before minting
 
-Reuse only when the exact recovered value, kind, direct pattern, proposed use and admitted naming scope match. Before creating a card, cell, row, policy id or new U-kind candidate, establish the receiving need that adequate ordinary wording or an existing designation would not meet. Reuse available grounds for that decision. Local-sense reuse does not imply sameness with another local sense; row reuse does not widen the row's admitted use.
+Reuse only when the exact recovered value, kind, direct pattern, proposed use and admitted naming scope match. Before creating a card, cell, row, policy id or new U-kind candidate, establish the receiving need that adequate ordinary wording or an existing designation would not meet. Reuse available grounds for that decision.
+
+Local-sense reuse does not imply sameness with another local sense; row reuse does not widen the row's admitted use.
 
 #### F.14:7.3 - Use relations among system-role kinds before hybrid kinds
 
-If two system-role kinds travel together, recover the exact A.2.7 bundle or qualification relation. If they must stay apart, recover the exact A.2.7 incompatibility. Use A.2.1 and any applicable A.2.5 currentness condition to identify the assignment occurrences. Use F.6 only when the receiving claim separately says that dated Work was performed under one of those assignments. If one kind can satisfy another requirement, recover exact substitution. The relation expression assigns no system and does not become a new kind by name.
+If the use requires assignments to several kinds together, recover the A.2.7 bundle condition and its holder-allocation rule. If one kind requires a separately established qualification, recover that relation. If they must stay apart, recover the exact A.2.7 incompatibility.
+
+When checking actual assignments against one of these rules, identify their occurrences under A.2.1 and any applicable A.2.5 currentness condition. Use F.6 only when the receiving claim separately says that dated Work was performed under one of those assignments. If one kind can satisfy another requirement, recover exact substitution. The relation expression assigns no system and does not become a new kind by name.
 
 #### F.14:7.4 - Use a status window before multiplying status families
 
@@ -80,5 +84,5 @@ Time, location, object type, seniority, permission, Method, capability, evidence
 
 #### F.14:7.6 - Stop before a naming-object cascade
 
-A candidate can justify one object without justifying all later objects. A durable local expression needs no cell; a stable local sense may need a cell but no NameCard; a durable naming settlement may need a NameCard but no public row; a row may exist without a current publication occurrence; publication availability creates neither row truth nor governed-value truth. Apply the next gate only when its own use is current.
+A candidate can justify one object without justifying all later objects. A durable local expression needs no cell. A stable local sense may need a cell but no NameCard. A durable naming settlement may need a NameCard but no public row. A row may exist without a current publication occurrence. Publication availability creates neither row truth nor governed-value truth. Apply the next gate only when its own use is current.
 

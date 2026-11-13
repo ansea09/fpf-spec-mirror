@@ -6,12 +6,12 @@ section_id: "E.24:5.6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24/E.24__008_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.24 — U.Ontic and Ontic Introduction Discipline"
   - "E.24:5.6 — Bias-Annotation"
-line_start: 116472
-line_end: 116486
+line_start: 123904
+line_end: 123918
 dependencies:
   - "A.19.ECS"
   - "A.6.0"
@@ -45,7 +45,7 @@ keywords:
 
 Scope: the authoring decision about one candidate ontology unit. It selects durable `U.Ontic`, direct subject-assertion use, bounded local `U.Episteme`, or unresolved stop as the ontology disposition; when source wording is current, it separately records quote-only, reduced use, or selected stronger source use. The scope does not include the subject matter defined or constrained by the resulting `ClaimGraph`.
 
-This pattern intentionally biases toward explicit identity, direct relation rules, reusable declarations where needed, and subject-pattern reuse. It resists five recurring distortions:
+This pattern favors explicit identity, direct relation rules, reusable declarations where needed, and subject-pattern reuse. It resists five recurring distortions:
 
 - **shadow-kind bias:** repeated use of one bounded local episteme is mistaken for evidence that a new durable ontic exists;
 - **placement bias:** a pattern nest or draft ToC row is mistaken for the governed subject kind or governing text;
@@ -53,5 +53,5 @@ This pattern intentionally biases toward explicit identity, direct relation rule
 - **semio-bias:** discussion of description epistemes, publication occurrences, forms, carriers, or review evidence displaces the ontic or subject matter being introduced;
 - **process-bias:** development-state, publication-state, evaluation-state, or process evidence status is copied into ontic or subject-matter content.
 
-The mitigation is the same in each case: recover the primary governed subject kind, exact identity or constitution rule, minimal governed relation set, any identity-bearing direct relation actually selected, any required RelationSignature, and subject-pattern reuse before naming, placement, dependent-pattern reliance, or publication form starts governing the decision.
+The mitigation is the same in each case: recover the primary governed subject kind, exact identity or constitution rule, minimal governed relation set, any identity-bearing direct relation selected, any required RelationSignature, and subject-pattern reuse before naming, placement, dependent-pattern reliance, or publication form starts governing the decision.
 

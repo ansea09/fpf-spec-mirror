@@ -6,12 +6,12 @@ section_id: "A.3.1.WT:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.WT/A.3.1.WT__002_use-this-when.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.3.1.WT — Design and Interpret a Method Work Trial"
   - "A.3.1.WT:0 — Use This When"
-line_start: 10407
-line_end: 10429
+line_start: 10808
+line_end: 10830
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -25,7 +25,7 @@ keywords:
 
 Use this pattern when a Method or candidate Method account is ready for a trial in actual Work and the next decisions need observations from named situations. Begin with one trial question: what must be learned from actual Work for a later coherence, fit, transfer, or worth decision?
 
-The first useful result is an account of the selected trial Work and observations. It names the subject and its status, the situation-selection reason, the task and any available plan, the Work that actually occurred, actual performers and enacted admitted Methods, relied-on Systems and capabilities, observations, gaps, and the later decision that may use them. A result that returns `missing-performed-work` is useful when the trial remains only planned.
+The first useful result is an account of the selected trial Work and observations. It names the subject and its status, the situation-selection reason, the task and any available plan, the Work that occurred, its performers and enacted admitted Methods, relied-on Systems and capabilities, observations, gaps, and the later decision that may use them. A result that returns `missing-performed-work` is useful when the trial remains only planned.
 
 Here *trial* is Plain practice wording for intentionally selected Work and observation. It is not a new subtype of `U.Work`, a Method admission, an evaluation result, or a claim that the situation statistically represents a population.
 
@@ -39,8 +39,8 @@ Do not use this pattern to declare description coherence, situational fit, trans
 | representative situation | A situation selected because stated characteristics match the named current-use question. | The word does not imply random sampling, population coverage, or transfer. |
 | discriminating situation | A situation selected because one changed condition can expose a claimed limit, burden, or failure. | Difference alone is insufficient; state which claim the changed condition can test. |
 | WorkPlan | Intended performers, tasks, Methods, situations, observations, and stops. | A plan, script, simulation description, or scheduled demonstration is not performed Work. |
-| admitted Work | One dated Work occurrence admitted under `A.15.1` from its actual performers, action history, enacted Method, temporal extent, and required containing-System relation. | A report, trace, attendance record, or output can support the claim but does not create the occurrence. |
-| candidate-account trial branch | Actual Work is admitted separately while claims in a candidate Method account are compared with observations. | The candidate whole is not said to have been enacted. Name each independently admitted Method actually followed and its grounded `enactsMethod` relation. |
+| admitted Work | One dated Work occurrence admitted under `A.15.1` from its performers, action history, enacted Method, temporal extent, and required containing-System relation. | A report, trace, attendance record, or output can support the claim but does not create the occurrence. |
+| candidate-account trial branch | Actual Work is admitted separately while claims in a candidate Method account are compared with observations. | The candidate whole is not said to have been enacted. Name each independently admitted Method followed and its grounded `enactsMethod` relation. |
 | capability input | A claim about a holder System, Work family or result class, operating envelope, measures, qualification or currentness window, and evidence used for reliance. | Training, availability, assignment, permission, authority, or one success does not substitute for it. |
 | trial evidence | Occurrence-level observations, source relations, burdens, adaptations, results, and gaps qualified for named later uses. | It is not itself coherence, fit, transfer, worth, contribution, or causal proof. |
 

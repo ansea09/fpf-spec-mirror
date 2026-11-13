@@ -6,12 +6,12 @@ section_id: "C.22.1:13"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.1/C.22.1__014_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.22.1 — Task-family adaptation signature"
   - "C.22.1:13 — Relations"
-line_start: 63336
-line_end: 63352
+line_start: 65977
+line_end: 65994
 dependencies:
   - "A.15"
   - "C.19.1"
@@ -43,11 +43,12 @@ keywords:
 
 - C.27 may flag: a claim that a holder, dyad, team, explicitly scoped specialist portfolio, or agent acquires usable specialization faster on one declared `TaskFamilyRef` or `TaskSignature`. A method may be selected, refined, or retired as part of that story.
 - This pattern keeps: threshold target, time-to-threshold, budget-to-threshold, prior exposure, transfer, retention, downside, corridor-entry evidence, and adaptation-signature fields.
-- Generic "learns faster" wording without a task-family anchor leaves the adaptation claim incomplete. Faster threshold crossing alone does not establish durable specialization; retention needs its own window and evidence, and any additional transfer, downside or corridor-entry claim needs its stated grounds.
+- "learns faster" wording without a task-family anchor leaves the adaptation claim incomplete. Faster threshold crossing alone does not establish durable specialization; retention needs its own window and evidence, and any additional transfer, downside or corridor-entry claim needs its stated grounds.
 
 - Next-question boundary: classify the claim as Dyn1 when only a trend is live; use C.24 for call planning after the action or option is fixed; use the C.22.1 adaptation signature when specialization is the live adaptation question.
 
 **Builds on:** `C.22` TaskSignature anchoring, `C.19.1` `BLP` compatibility, `A.15` system-role-kind and assignment, Method, WorkPlan, and Work-occurrence separation, `C.24` call planning and `CheckpointReturn` semantics after the action or option is fixed, `E.16` budget enforcement.
+
 **Coordinates with:** `G.5` selector specialization profiles, `G.9` adaptation parity, `G.11` later telemetry/refresh reuse.
 
 **Coordinates with:** `E.23` when repeated object improvement includes a claim of durable task-family specialization. C.22.1 supplies the adaptation account for that claim; E.23 governs the improvement loop.

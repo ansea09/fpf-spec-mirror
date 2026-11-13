@@ -6,12 +6,12 @@ section_id: "B.5.RC:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.RC/B.5.RC__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.5.RC — Recover a Construction from Its Description"
   - "B.5.RC:7 — Conformance Checklist"
-line_start: 47849
-line_end: 47862
+line_start: 49853
+line_end: 49866
 dependencies:
   - "A.6.3.RT"
   - "B.5"
@@ -34,5 +34,5 @@ For the construction being recovered:
 6. The property claimed of that result has the support its use requires; a broader claim retains its broader support question.
 7. An invented addition is identifiable as an addition, and the next collaborator can use the result or act on the gap.
 
-Apply these questions to the work already done. Write a separate account only when its recipient needs one.
+Apply these questions to the work done. Write a separate account only when its recipient needs one.
 

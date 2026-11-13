@@ -6,12 +6,12 @@ section_id: "C.34:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.34/C.34__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.34 — Assess Structural Correspondence for Architecture Use (Equivalence and Morphisms)"
   - "C.34:1 — Problem frame"
-line_start: 80880
-line_end: 80932
+line_start: 84721
+line_end: 84773
 dependencies:
   - "A.22"
   - "A.6.3.NAR"
@@ -46,14 +46,14 @@ keywords:
 
 ### C.34:1 - Problem frame
 
-Use this pattern when two descriptions, views, models, generated outputs, or realized observations that carry or describe selected structure are being treated as the same enough for architecture work and the practitioner must say what selected structure is preserved, what is lost, and which use the correspondence licenses.
+Use this pattern when two descriptions, views, models, generated outputs, or realized observations that carry or describe selected structure are being treated as same enough for architecture work and the practitioner must say what selected structure is preserved, what is lost, and which use the correspondence licenses.
 
 Primary working reader: an architect, reviewer, or model-assisted practitioner comparing views, descriptions, source models, generated graphs, candidate architectures, realized structures, abstraction levels, coarsened models, or transformed models.
 
 Typical entry phrases:
 
 ```text
-"These two diagrams look equivalent; what relation is actually preserved?"
+"These two diagrams look equivalent; what relation is preserved?"
 "The model query and the architecture view should correspond; what was lost in projection?"
 "The generated graph matches the module graph; is the semantic relation the same?"
 "This candidate preserves dataflow but changes control authority."
@@ -91,9 +91,9 @@ StructuralPreservationAdequacyNote@Context:
 
 After using C.34, another practitioner can recover the claimed correspondence, preserved structure, direction and scope, any loss or uncertainty that limits reliance, and the use it supports.
 
-What C.34 buys in practice: the practitioner can say "same enough for this use" without smuggling in stronger equivalence. The pattern makes sameness conditional on preserved relation, declared loss, and receiving use.
+What C.34 buys in practice: the practitioner can say "same enough for this use" without implying stronger equivalence. The pattern makes sameness conditional on preserved relation, declared loss, and receiving use.
 
 Ordinary working move: put the source and target structures side by side, circle the relation or constraint that must survive, name any relation that does not survive, and choose a warranted mapping that supports the next use without seeking a stronger result unless needed.
 
-Not this pattern when the current claim is only mathematical-lens use, generic bridge translation, measurement, structural view adequacy, architecture-description correspondence, candidate synthesis, decision, evidence, assurance, gate, release, or work authorization. Use the pattern that defines or tests that current claim and keep C.34 only for the architecture-specific preservation claim.
+For a current claim limited to mathematical-lens use, generic bridge translation, measurement, structural view adequacy, architecture-description correspondence, candidate synthesis, decision, evidence, assurance, gate, release, or work authorization, use the pattern that defines or tests it. Use C.34 only for the architecture-specific preservation claim.
 

@@ -6,12 +6,12 @@ section_id: "C.28:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__014_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.28 — CausalUse-CAL: Causal-Use Questions, Identification, and Realizability"
   - "C.28:12 — Relations"
-line_start: 68459
-line_end: 68479
+line_start: 71532
+line_end: 71552
 dependencies:
   - "A.10"
   - "A.15"
@@ -66,7 +66,7 @@ keywords:
 
 #### C.28:12.1 - C.29 mathematical-lens relation
 
-`C.29` may describe a mapping as abstraction-like, quotient-like, coarse-graining-like, simulation-like, or macro-model-like. It does not decide causal support. When intervention, policy, counterfactual, causal explanation, or causal decision use is current, apply C.28; otherwise record no causal-use claim or the exact blocker.
+`C.29` may describe a mapping as abstraction-like, quotient-like, coarse-graining-like, simulation-like, or macro-model-like. It does not decide causal support. When intervention, policy, counterfactual, causal explanation, or causal decision use is current, apply C.28; otherwise record no causal-use claim or the blocker.
 
 [fpf-f0-2-5-5-ref]: https://github.com/ailev/FPF/blob/main/FPF-Spec.md#f0255---compare-causal-accounts-on-one-sensor-case
 

@@ -6,12 +6,12 @@ section_id: "E.17.ID.CR:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.ID.CR/E.17.ID.CR__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.17.ID.CR — Compare Sources Within a Shared Review Frame (ComparativeReviewUnit)"
   - "E.17.ID.CR:7 — Conformance Checklist"
-line_start: 109126
-line_end: 109166
+line_start: 115840
+line_end: 115884
 dependencies:
   - "A.15"
   - "A.15.2"
@@ -43,31 +43,35 @@ keywords:
 
 A conformance check is retained only if it changes the next bounded use of the comparative review unit, blocks a concrete overclaim, or preserves a source reference or reopen condition needed for the declared bounded use.
 
-Use ID.CR-Core for ordinary comparison notes. Conditional rows apply only when the note touches neighboring-pattern relation, bridge declaration, or reader-fit fields. For fuller mixed-case read, read this checklist together with the neighboring pattern discipline and the boundary conditions gathered in this section.
+Use ID.CR-Core for ordinary comparison notes. Conditional rows apply only when the note touches neighboring-pattern relation, bridge declaration, or reader-fit fields. For a fuller reading of a mixed case, use this checklist with the applicable neighboring pattern and the boundary conditions below.
 
 #### E.17.ID.CR:7.1 - ID.CR-Core ordinary checks
 
 1. **CC-ID-1 - Bounded comparative review unit is explicit.**
    The pattern distinguishes the bounded comparative review unit from the surrounding review or decision work.
 2. **CC-ID-2 - Source references and comparison criterion are explicit.**
-   A reviewer can see what already-fixed source episteme or source publication is being interpreted and what declared comparison criterion or contrast is carrying the lift.
+   A reviewer can see which fixed source episteme or source publication is being interpreted and which declared criterion or contrast supports the comparison.
 3. **CC-ID-3 - The lift stays bounded.**
    The unit or its immediate review context keeps the supported contrast, comparison basis and material conditions recoverable. State a blocked use or reopen condition when it changes this comparison’s interpretation or receiving use.
 4. **CC-ID-6 - Neighboring-pattern boundaries stay visible.**
    When the boundary trigger fires, the neighboring FPF pattern carries that prompt, ontology, action, gate, authority, or downstream claim instead of leaving it hidden inside comparative prose.
 5. **CC-ID-8 - The review unit does not over-claim authority.**
-   Any stronger authority claim requires its actual governing basis. Require an explicit review-only or non-executive limit when the unit’s wording, arrangement or receiving use could otherwise imply that authority.
+   Any stronger authority claim requires its governing basis. Require an explicit review-only or non-executive limit when the unit’s wording, arrangement or receiving use could otherwise imply that authority.
 
 #### E.17.ID.CR:7.2 - ID.CR-Conditional checks
 
 1. **CC-ID-4 - Base-case governing-pattern relation is explicit.**
-   A reviewer can tell why the case does not really belong to `A.6.3.*`, an F.9 Bridge or bounded-use branch, an F.9.1 stance-note branch, `E.17.EFP`, `B.5.2(.0)`, `OntologicalReframing`, or `A.6.4`.
+   A reviewer can tell why the case does not belong to `A.6.3.*`, an F.9 Bridge or bounded-use branch, an F.9.1 stance-note branch, `E.17.EFP`, `B.5.2(.0)`, `OntologicalReframing`, or `A.6.4`.
 2. **CC-ID-5 - Bridge declaration does not hide.**
-   If the case depends on bridge-mediated comparison, `bridgeOccurrenceRef` and `boundedUseClaimRef` are required. The latter resolves a claim whose `EntityOfConcern` is that Bridge and whose use/direction/rule/loss/polarity tuple matches the comparative unit. Positive use requires affirmative polarity and, when A.10 or B.3 is triggered, current reliance for that exact use; degraded reliance narrows it, while a negative, abstaining, reopened, evidence-needed, blocked, or mismatched result stops it. Authorization and actual comparative-review Work remain separate. Optional `bridgeCardRef` remains packaging; optional `bridgeStanceRef` resolves a separate F.9.1 episteme whose `EntityOfConcern` is that claim.
+   If the case depends on bridge-mediated comparison, `bridgeOccurrenceRef` and `boundedUseClaimRef` are required. The latter resolves a claim whose `EntityOfConcern` is that Bridge and whose use/direction/rule/loss/polarity tuple matches the comparative unit.
+
+   Positive use requires affirmative polarity and, when A.10 or B.3 is triggered, current reliance for that use; degraded reliance narrows it, while a negative, abstaining, reopened, evidence-needed, blocked, or mismatched result stops it.
+
+   Authorization and the occurrence of comparative-review Work remain separate. Optional `bridgeCardRef` remains packaging; optional `bridgeStanceRef` resolves a separate F.9.1 episteme whose `EntityOfConcern` is that claim.
 3. **CC-ID-7 - Reader-fit stays bounded.**
    `targetUserModel`, `interactionMode`, `contrastiveQuestion`, `boundedComparativeUse`, and `overreadRisk` are visible when needed, but they do not create an authority claim that the unit does not carry.
 
-**Checklist recovery map.** If an assurance-side reader wants to recover one checklist row by value, use the nearest ordinary card row and worked recovery below before treating the checklist as self-sufficient:
+**Checklist recovery map.** To recover a checklist row by value for assurance, use its ordinary card row and worked example below. Consult these sources before relying on the checklist alone:
 
 | Checklist row | Recover through first | Nearest worked or practical recovery |
 | --- | --- | --- |

@@ -6,12 +6,12 @@ section_id: "A.15.8.MS:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.8.MS/A.15.8.MS__003_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.15.8.MS — Configure Methodological Support for Work"
   - "A.15.8.MS:1 — Problem Frame"
-line_start: 31970
-line_end: 31975
+line_start: 33224
+line_end: 33229
 dependencies:
   - "A.15.8"
   - "A.19"
@@ -24,5 +24,5 @@ keywords:
 
 Method descriptions and representations do not reach practice by their existence alone. A user may find an obsolete edition, miss candidate status, choose the wrong branch, expose confidential material to a provider, or accept a tool suggestion beyond their authority. The material can be correct while the surrounding user task fails.
 
-The practical question is therefore specific: which named users need which Method-related tasks, under what conditions, which criteria and stops are mandatory for the bounded use, and what smallest supported change would cover them or expose an unresolved choice? Repositories, search, prompts, automation, training, provider access, permissions, and feedback matter only through their contribution to those tasks and their own governed relations.
+The practical question is therefore: which named users need which Method-related tasks, under what conditions, which criteria and stops are mandatory for the bounded use, and what smallest supported change would cover them or expose an unresolved choice? Repositories, search, prompts, automation, training, provider access, permissions, and feedback matter only through their contribution to those tasks and their own governed relations.
 

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.19.CPM"
-pattern_title: "Compare Admitted Profiles under a Declared Comparator (CPM)"
+pattern_title: "Compare Admitted Profiles under a Declared Comparator"
 section_id: "A.19.CPM:5"
 section_title: "Archetypal Grounding — informative"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CPM/A.19.CPM__007_archetypal-grounding-informative.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.19.CPM — Compare Admitted Profiles under a Declared Comparator (CPM)"
+  - "A.19.CPM — Compare Admitted Profiles under a Declared Comparator"
   - "A.19.CPM:5 — Archetypal Grounding — informative"
-line_start: 38986
-line_end: 39018
+line_start: 40541
+line_end: 40573
 dependencies:
 keywords:
   - "ComparatorSet"
@@ -20,7 +20,7 @@ keywords:
   - "comparison"
   - "partial order"
   - "set-valued comparison outcome"
-  - "tri-state admissibility (pass"
+  - "tri-state admissibility (pass\\"
 ---
 
 ### A.19.CPM:5 - Archetypal Grounding — informative
@@ -36,11 +36,11 @@ CPM returns the comparison relation; candidate selection and work authorization 
 
 #### A.19.CPM:5.2 - Show (U.System) — comparing two supplier options without faking a total order
 
-A program manager compares Supplier‑A vs Supplier‑B for a safety‑critical component. The team tracks a profile of measures (cost, lead time, defect rate, assurance, sustainability), but not all measures are strictly comparable across regions (different reporting regimes, different units).
+A program manager compares Supplier‑A vs Supplier‑B for a safety‑critical component. The team tracks a profile of measures (cost, lead time, defect rate, assurance, sustainability), but not all measures are comparable across regions (different reporting regimes, different units).
 
 * The project has a declared `CN‑Spec` (admission and comparability declarations) and a declared `CG‑Spec` that lists admissible comparators in `ComparatorSet` and evidence rules in `MinimalEvidence`.
 * The comparator is `ParetoDominanceComparatorSpecRef@edition`, declared in `CG-Spec.ComparatorSet`.
-* The actual application binds the two supplier profiles; the claim scope `supplier options for the named component and procurement decision`; its selected regulatory and reporting `U.ContextSlice` members under A.2.6; `ComparisonPredicate = none` because Pareto dominance is supplied by the comparator; the stated procurement reference plane; and the explicit comparison interval.
+* The application binds the two supplier profiles; the claim scope `supplier options for the named component and procurement decision`; its selected regulatory and reporting `U.ContextSlice` members under A.2.6; `ComparisonPredicate = none` because Pareto dominance is supplied by the comparator; the stated procurement reference plane; and the explicit comparison interval.
 * CPM runs `Compare(...)`; a changed component, scope member, comparator, plane, or interval is another comparison rather than an update to the same output.
 
   * Supplier-A is better in cost but worse in defect rate, while assurance evidence is missing. The known cost/defect trade-off can justify Pareto incomparability if the declared comparator and partial-evidence policy admit that inference. Missing assurance evidence alone establishes no incomparability relation.
@@ -54,5 +54,5 @@ A research lead compares two proposed methods for a system component. Both metho
 * `USCM` produces score profiles that are interval‑valued (or otherwise uncertainty‑annotated) rather than point estimates.
 * The chosen comparator is uncertainty‑aware and declared as a `ComparatorSpec` (edition‑pinned) in `CG‑Spec.ComparatorSet`.
 * `CompareEligibility` returns its guard value separately. If comparison proceeds, CPM returns justified relation tokens such as `not worse` or `incomparable`; if it abstains, no `abstain` token is smuggled into `ComparisonResultSlot`.
-* The actual comparison or eligibility application, its effective comparator and evidence policy, and its returned value or explicit absence make the outcome recoverable. Use A.10 when the bounded source-to-use account must remain replayable. A dated Work account is additional only when asserted and independently grounded under §4.1.
+* The comparison or eligibility application, its effective comparator and evidence policy, and its returned value or explicit absence make the outcome recoverable. Use A.10 when the bounded source-to-use account must remain replayable. A dated Work account is additional only when asserted and independently grounded under §4.1.
 

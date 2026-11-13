@@ -6,12 +6,12 @@ section_id: "C.33:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.33/C.33__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.33 — Assess Structural Information for Architecture Use"
   - "C.33:1 — Problem frame"
-line_start: 80675
-line_end: 80740
+line_start: 84504
+line_end: 84571
 dependencies:
   - "A.22"
   - "A.6.3.NAR"
@@ -52,20 +52,22 @@ keywords:
 
 ### C.33:1 - Problem frame
 
-Use this pattern when an architect has a description, view, decision record, ADR-like projection, eval report, method handoff, generated relation graph, source model, or realized holon observation that carries or describes selected architecture-relevant structure and needs to know which selected structure is actually recoverable for the next architecture use.
+Use this pattern when an architect has a description, view, decision record, ADR-like projection, eval report, method handoff, generated relation graph, source model, or realized holon observation that carries or describes selected architecture-relevant structure and needs to know which selected structure is recoverable for the next architecture use.
 
-Use the same pattern when the carrier is a narrative rendering or principle-framework publication for architecture work: the carrier may preserve a problem-to-structure ordering, problem-situation architecture, solution-move architecture, candidate trade-off, decision rationale, or missing-structure cue, but it may also hide selected structures that the next architecture use still needs. In architecture-mediated rendering, inspect the chain from carrier to architecture description or view, then to the described holon and its architecture-relevant selected structures in context, then to wider selected source structures, because each relation may have captured and lost different structure.
+Use the same pattern when the carrier is a narrative rendering or principle-framework publication for architecture work: the carrier may preserve a problem-to-structure ordering, problem-situation architecture, solution-move architecture, candidate trade-off, decision rationale, or missing-structure cue, but it may also hide selected structures that the next architecture use still needs.
+
+In architecture-mediated rendering, inspect the chain from carrier to architecture description or view, then to the described holon and its architecture-relevant selected structures in context, then to wider selected source structures, because each relation may have captured and lost different structure.
 
 Primary working reader: an architect, architecture reviewer, method steward, or AI-assisted architecture worker who must use one carrier or observation without letting it stand for the whole architecture, the project decision, evidence sufficiency, or realized structure.
 
 Typical entry phrases:
 
 ```text
-"This view is useful, but what structure does it actually capture?"
+"This view is useful, but what structure does it capture?"
 "The ADR says what was decided; which selected structures and hidden losses does it leave behind?"
 "The code-agent map found dependencies and invariants; can we rely on them for architecture work?"
 "The neural-network architecture review names attention, cache, router, and pruning; what FPF structures are recoverable?"
-"The operation observation shows the real system diverged; what actual structure is visible enough to return to synthesis?"
+"The operation observation shows the system diverged; what structure is visible enough to return to synthesis?"
 ```
 
 The first useful result states which captured structure supports the intended architecture use and which missing structure would limit it. An ordinary explanation can suffice; `StructuralInformationAdequacyNote@Context` is an optional working form. A measurement, assurance conclusion, project decision or architecture description has its own requirements. If an existing account already answers the question for this use, use it directly.
@@ -108,11 +110,11 @@ StructuralInformationAdequacyNote@Context:
 
 After using C.33, another practitioner can recover the captured structure and the use it supports. State missing structure, excluded uses and the question or test needed to recover it when they affect that use or a plausible continuation. Record a stable reference only when that next use must travel independently.
 
-What C.33 buys in practice: the practitioner can use a partial carrier without pretending it is complete. The pattern turns "this diagram, ADR, graph, report, or observation is useful" into a reviewable statement about captured structure, missing structure, missing-structure return, and the next claim or test that needs that structure.
+What C.33 buys in practice: the practitioner can use a partial carrier within its limits. The pattern turns "this diagram, ADR, graph, report, or observation is useful" into a reviewable statement about captured structure, missing structure, missing-structure return, and the next claim or test that needs that structure.
 
 Ordinary working move: identify the sentence, diagram, graph edges or observation being relied on; explain the structure it captures and any omission that matters; then state the use it supports.
 
-For a reader-relative comparison of structural amount in an expressed account, use `C.2.8` with the relevant preparation, access and budget. State a qualitative comparison directly in the note, or cite an existing measurement or evaluation through `measurementOrEvalRefs?` when that separate result is needed. Then judge whether the captured structure is sufficient for the declared architecture use. The note retains its capture-and-return purpose when it uses a characteristic result.
+For a reader-relative comparison of structural amount in an expressed account, use `C.2.8` with the reader's preparation, access and budget. State a qualitative comparison directly in the note, or cite an existing measurement or evaluation through `measurementOrEvalRefs?` when that separate result is needed. Then judge whether the captured structure is sufficient for the declared architecture use. The note retains its capture-and-return purpose when it uses a characteristic result.
 
 When the current question concerns architecture, record, lens, reading, decision, authorization, or publication admissibility beyond structure-capture adequacy, use the pattern that defines or tests that object and question. Use C.33 for the captured and missing structural content on which that use depends.
 

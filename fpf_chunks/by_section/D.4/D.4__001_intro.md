@@ -6,12 +6,12 @@ section_id: "D.4:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.4/D.4__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "D.4 — Ethical Mediation and Decision Use"
   - "D.4:intro — Intro"
-line_start: 92038
-line_end: 92051
+line_start: 96561
+line_end: 96574
 dependencies:
   - "A.1.CSD"
   - "A.10"
@@ -38,9 +38,9 @@ keywords:
 > **Status:** Stable
 
 
-**Use this when.** Use this pattern when you need to develop and assess ways of responding to a described ethical conflict.
+**Use this when.** You need to develop and assess ways of responding to a described ethical conflict.
 
-**Not this pattern when.** If the conflict has not yet been described, use `D.3`. If the issue is only value plurality, use `D.1`. If the issue is only entry recognition, use `D.2`. If the current work is bias, fairness, impact audit, causal-fairness audit consumption, or ethical assurance, use `D.5`.
+**Not this pattern when.** If the conflict has not been described, use `D.3`. If the issue is only value plurality, use `D.1`. If the issue is only entry recognition, use `D.2`. If the work is bias, fairness, impact audit, causal-fairness audit consumption, or ethical assurance, use `D.5`.
 
 **What goes wrong if missed.** Naming the conflict or filling in a decision record replaces the work of developing options and judging what each would require or change.
 

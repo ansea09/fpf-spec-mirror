@@ -6,19 +6,18 @@ section_id: "C.31.ASAP:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.ASAP/C.31.ASAP__006_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.31.ASAP — Which Architecture Is Preferable Under Scale? (Scale Amenability)"
   - "C.31.ASAP:5 — Archetypal Grounding"
-line_start: 76064
-line_end: 76107
+line_start: 79592
+line_end: 79635
 dependencies:
   - "A.1.1"
   - "A.10"
   - "A.17"
   - "A.18"
   - "A.19"
-  - "A.19.CPM"
   - "A.2.6"
   - "A.6.M"
   - "B.3"
@@ -34,12 +33,7 @@ dependencies:
   - "C.31"
   - "C.31.RSA"
   - "C.32"
-  - "C.32.ACS"
-  - "C.32.P2S"
   - "C.32.PAD"
-  - "C.33"
-  - "C.34"
-  - "C.35"
   - "G.5"
   - "G.6"
   - "G.9"
@@ -81,7 +75,7 @@ ScaleClaimTriage:
   exceptionGrowthRisk: jurisdiction-specific clauses and side-channel integrations may grow faster than sites
   sourceReturnCondition: return to exception register, interface variant log and deployment evidence when a wider window or stronger use needs distinctions omitted from this account
   relatedClaimGovernanceIfClaimed: C.31 for the characteristic; C.31.RSA for reusable-structure share; C.16 for measurement; A.19.CPM for comparison; G.5 for selected-set declaration; G.9 for parity; C.11 for local decision; A.10 for source recovery and bounded reliance; G.6 for addressable provenance; B.3 for a named assurance claim
-  stopCondition: retain the supported local guidance and the untested-window hypothesis; establish comparison, evidence-validity or decision grounds for that particular further use
+  stopCondition: retain the supported local guidance and the untested-window hypothesis; establish comparison, evidence-validity or decision grounds for that further use
 ```
 
 Admissible move: use the supported local comparison to consider the platform and its interface-grammar repair. The six-deployment probe alone does not establish the whole 5–40-site window. Retain the wider preference as a hypothesis until a warranted extrapolation or further probe supports it; if exceptions accelerate, narrow or split the window and revise the preference. A separate selected-set, evidence, assurance, gate or decision use retains its own grounds.
@@ -94,7 +88,7 @@ Lowering replay:
 
 - The platform label is a source cue, not scale-preference evidence; recover variability slots, extension rules, exception curve, and source-return condition first.
 - The 82 percent reusable-structure share stays report-only under C.31.RSA until the scale variable, scale window, accounting basis, comparator admission, and admissible comparison relation are declared.
-- An RG-like phrase alone supplies no mathematical correspondence or scale-preference evidence. Recover the actual model and its relevant preservation and loss; use C.29 if representation choice, transfer or reliance remains unresolved.
+- An RG-like phrase alone supplies no mathematical correspondence or scale-preference evidence. Recover the model and its relevant preservation and loss; use C.29 if representation choice, transfer or reliance remains unresolved.
 - The "bespoke debt" label is lowered to waiver review when safety, law-domain, mission, assurance, or scale-probe overturn reasons may justify the local variant.
 
 Stop the dependent C.31.ASAP use when its scale window, probe evidence or no-probe reason, required comparator admission, or action-changing source-return condition is absent. Reopen it only after the fields required by that use are recoverable and the platform-label, share, lens, and waiver claims have their governing patterns.

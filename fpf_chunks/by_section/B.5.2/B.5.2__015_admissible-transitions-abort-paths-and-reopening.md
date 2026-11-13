@@ -6,12 +6,12 @@ section_id: "B.5.2:14"
 section_title: "Admissible Transitions, Abort Paths, and Reopening"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2/B.5.2__015_admissible-transitions-abort-paths-and-reopening.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.5.2 — Generate and Compare Candidate Explanations (Abductive Loop)"
   - "B.5.2:14 — Admissible Transitions, Abort Paths, and Reopening"
-line_start: 49785
-line_end: 49820
+line_start: 51847
+line_end: 51882
 dependencies:
   - "A.10"
   - "A.16"
@@ -31,18 +31,18 @@ The abductive loop keeps its outcomes distinct so the recipient can tell whether
 
 #### B.5.2:14.1 - Relation to `B.4.1` and `A.16`
 
-`B.4.1` and `A.16` can help preserve and clarify an initiating publication until it supplies an abductive prompt. `B.5.2` begins only once the current publication is ready to function as an abductive prompt. This boundary matters because it prevents two opposite errors:
+`B.4.1` and `A.16` can help preserve and clarify an initiating publication until it supplies an abductive prompt. `B.5.2` begins only once the publication is ready to function as an abductive prompt. This boundary matters because it prevents two opposite errors:
 
 - **premature abduction**, where a cue is used to begin rival comparison before its question account meets B.5.2.0's entry conditions;
-- **delayed abduction**, where an admissible prompt still needs candidate comparison for the receiving question but remains in early cue form without that contribution.
+- **delayed abduction**, where an admissible prompt needs candidate comparison for the receiving question but remains in early cue form without that contribution.
 
 #### B.5.2:14.2 - Abort, defer, and split cases
 
 Not every abductive run should end in a prime hypothesis. Three non-selection outcomes are admissible:
 
 1. **Abort.** The prompt dissolves because the initiating anomaly or opportunity was misread, duplicated, or already answered elsewhere.
-2. **Defer.** The available candidates or grounds do not yet support a qualified conjecture or a warranted preference. Preserve any supported candidates and the unresolved explanatory or comparison question. A separately warranted present action may still proceed under C.11.
-3. **Split.** When distinct questions require separate explanatory comparisons, distinguish those questions and their entry grounds. Continue the needed questions under their own prompt-entry conditions.
+2. **Defer.** The available candidates or grounds do not support a qualified conjecture or a warranted preference. Preserve any supported candidates and the unresolved explanatory or comparison question. A separately warranted present action may proceed under C.11.
+3. **Split.** When distinct questions require separate explanatory comparisons, distinguish those questions and their entry grounds. Continue the needed questions under their prompt-entry conditions.
 
 
 #### B.5.2:14.3 - Reopening and rival reinstatement
@@ -54,10 +54,10 @@ A conforming reopening note should identify:
 - which prior prime hypothesis is being reopened,
 - whether a stored rival is being reinstated or a new candidate is entering,
 - what change in evidence, scope, or internal contradiction triggered the reopening,
-- and whether the explanatory question, its prompt account, or only the candidate ranking has changed. Apply `B.5.2.0:4.2.1–4.2.2`: a revised account may still concern the same question; a changed question needs its own entry grounds.
+- and whether the explanatory question, its prompt account, or only the candidate ranking has changed. Apply `B.5.2.0:4.2.1–4.2.2`: a revised account may concern the same question; a changed question needs its entry grounds.
 
 
 #### B.5.2:14.4 - Scope discipline during iteration
 
-Abductive drift often comes from silent scope expansion. A conjecture first framed for one target slice quietly becomes a universal explanation. `B.5.2` therefore expects scope discipline to remain explicit during iteration. If a candidate requires a broader or narrower scope than the prompt originally declared, state that change before using the candidate at the new scope.
+Abductive drift often comes from silent scope expansion. A conjecture first framed for one target slice becomes a universal explanation. `B.5.2` therefore expects scope discipline to remain explicit during iteration. If a candidate requires a broader or narrower scope than the prompt originally declared, state that change before using the candidate at the new scope.
 

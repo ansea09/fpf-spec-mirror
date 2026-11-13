@@ -6,12 +6,12 @@ section_id: "E.10.INT:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.INT/E.10.INT__010_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.10.INT — Recovering What Interest or Curiosity Means Here"
   - "E.10.INT:9 — Consequences"
-line_start: 100949
-line_end: 100954
+line_start: 106603
+line_end: 106608
 dependencies:
   - "C.11"
   - "C.16"

@@ -6,12 +6,12 @@ section_id: "C.20:7.1"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.20/C.20__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.20 — Composition of U.Discipline (Discipline-CAL)"
   - "C.20:7.1 — Common Anti-Patterns and How to Avoid Them"
-line_start: 62508
-line_end: 62525
+line_start: 65038
+line_end: 65055
 dependencies:
   - "A.1"
   - "A.14"
@@ -29,13 +29,7 @@ dependencies:
   - "C.2.1"
   - "C.20"
   - "C.21"
-  - "C.22"
-  - "C.23"
-  - "C.3"
-  - "E.10"
   - "E.24.UK"
-  - "F.17"
-  - "F.18"
   - "F.9"
   - "G.5"
 keywords:
@@ -62,7 +56,7 @@ keywords:
 | "Every method used in the field is a part." | Identify the Method under A.3.1 and test whether the current assembly makes its contribution constitutive; registry membership and use alone are insufficient. |
 | "The Bridge set assembles a transdiscipline." | Keep each Bridge and bounded-use proposition direct; apply a declared breadth criterion or rerun the full construction test for a new candidate. |
 | "The selected model-use structure is the discipline context." | Keep the optional A.22 Structure attached only to the named use; it is neither whole nor part by selection. |
-| "Three viewpoints make the field multidisciplinary." | State a project-local breadth predicate over exact disciplines and contributions; viewpoint or structure count proves nothing. |
+| "Three viewpoints make the field multidisciplinary." | State a project-local breadth predicate over exact disciplines and contributions; viewpoint or structure count does not establish that classification. |
 | "The journal, card, or dashboard carries the discipline." | Separate discipline, description episteme, publication occurrence, form, carrier, and health reading. |
 | "A maturity drop created a new discipline edition." | Keep the C.21 result separate and apply the C.20 reidentification rule to actual construction changes. |
 | "A later canon edition is the later discipline." | Apply C.2.1 to the canon and C.20 to the field; historical continuation and discipline continuity are separate claims. |

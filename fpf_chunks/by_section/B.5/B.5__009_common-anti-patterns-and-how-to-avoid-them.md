@@ -6,12 +6,12 @@ section_id: "B.5:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5/B.5__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.5 — Choose the Next Reasoning Contribution (Canonical Reasoning Cycle)"
   - "B.5:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 46546
-line_end: 46555
+line_start: 48486
+line_end: 48495
 dependencies:
   - "A.10"
   - "B.5.1"
@@ -30,5 +30,5 @@ keywords:
 | Treat exploratory regularities as if they were independently predicted and tested. | Preserve their origin and use a design and inference that account for the selection and dependence. |
 | Produce an argument whose receiver cannot identify what the crucial step establishes. | Work backward from the needed conclusion and recover the decisive transition and its premises. If a premise changes, follow its effect through the argument. |
 | Demand a useful future branch before supplying any way to discover one. | Examine available material, recover a subject relation and derive a consequence or revealing contrast through §4.1.2; appraise further inquiry on the basis obtained. |
-| Generate more answers after the important question has changed. | State the changed formulation and which prior results still answer it before selecting further production. |
+| Generate more answers after the important question has changed. | State the changed formulation and which prior results answer it before selecting further production. |
 

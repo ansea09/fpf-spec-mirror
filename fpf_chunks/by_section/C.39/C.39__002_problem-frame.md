@@ -6,12 +6,12 @@ section_id: "C.39:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39/C.39__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.39 — Find and Develop a Way to Obtain a Result"
   - "C.39:1 — Problem frame"
-line_start: 82668
-line_end: 82681
+line_start: 86700
+line_end: 86713
 dependencies:
   - "A.22.CGUS"
   - "A.3.1"
@@ -37,7 +37,7 @@ Use this when you know what result is needed but cannot yet explain an adequate 
 
 The working reader is anyone developing a way of acting for a practical use. No framework-author role or pattern format is required. The subject is the obtaining way and the connections needed for that use: how actions, inputs, conditions and support make the result possible. Developing a Method is one use; explaining the relations among independently usable Methods is another. They need not form one composite Method.
 
-Begin with the sought change and what would distinguish its attainment. Reuse an adequate Method or result where one is available. Otherwise recover actual operations from relevant practice or theory, follow them on target material, construct the missing connection, and explain enough for the intended use. When that use includes later application or adaptation, keep the reasons, conditions and conditional returns available as well as the actions.
+Begin with the sought change and what would distinguish its attainment. Reuse an adequate Method or result where one is available. Otherwise recover operations from relevant practice or theory, follow them on target material, construct the missing connection, and explain enough for the intended use. When that use includes later application or adaptation, keep the reasons, conditions and conditional returns available as well as the actions.
 
 Selecting, adapting and connecting ways of acting performs methodological synthesis. Semantic synthesis in F.0.2 addresses a different question: which claims and distinctions can be supported by comparing source accounts. Constructing a way can reveal a missing distinction, and a clarified distinction can change the way. Neither requires finishing an entire ontology or methodology before a useful local action.
 

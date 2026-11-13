@@ -6,12 +6,12 @@ section_id: "E.10.DEV:11"
 section_title: "SoTA Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.DEV/E.10.DEV__012_sota-echoing.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.10.DEV — Recovering What Development or Evolution Means in the Current Claim"
   - "E.10.DEV:11 — SoTA Echoing"
-line_start: 101175
-line_end: 101196
+line_start: 106841
+line_end: 106862
 dependencies:
   - "A.15"
   - "A.2.2"
@@ -40,7 +40,7 @@ keywords:
 
 | Available approach | When it fits | Practical effect and effort |
 | --- | --- | --- |
-| Subject-first recovery | The subject, continuity or membership, posture, or value basis remains unclear. | Ask only the missing questions needed to state the claim and choose its direct pattern. Stop with the named missing information or architecture gap if it cannot be recovered. |
+| Subject-first recovery | The subject, continuity or membership, posture, or value basis remains unclear. | Ask only what is still needed to state the claim and choose its direct pattern. Stop with the named missing information or architecture gap if it cannot be recovered. |
 | Transformation-first interpretation | Actual change of one continuing entity has already been established. | Use the applicable transformation or change pattern in :4.2 directly. |
 | Learning or cultural-evolution branch | A remaining wording ambiguity concerns learning or cultural evolution. | Use E.10.LRN for the learning wording or C.36.P for the cultural-evolution wording. |
 

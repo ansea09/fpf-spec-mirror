@@ -6,12 +6,12 @@ section_id: "C.32:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32/C.32__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.32 — Architecture Candidate Synthesis"
   - "C.32:7 — Conformance Checklist"
-line_start: 76434
-line_end: 76446
+line_start: 80052
+line_end: 80064
 dependencies:
   - "A.10"
   - "A.15"
@@ -29,7 +29,6 @@ dependencies:
   - "C.19"
   - "C.19.1"
   - "C.25"
-  - "C.29"
   - "C.30"
   - "C.30.ASV"
   - "C.30.ILC"
@@ -48,9 +47,6 @@ dependencies:
   - "C.32.MWA"
   - "C.32.P2S"
   - "C.32.PAD"
-  - "C.33"
-  - "C.34"
-  - "C.35"
   - "E.18"
   - "E.22"
   - "E.23"
@@ -78,5 +74,5 @@ keywords:
 | `CC-C32-5` | Compressed, generated or view-derived candidates carry a source-return condition when omitted distinctions change their receiving use. | Keeps dependent source-use or decision claims tied to recoverable grounds. |
 | `CC-C32-6` | Archive, front, pool-treatment, G.5 result declaration, publication availability, local choice, and decision uses have named patterns for the next questions. | Keeps synthesis separate from downstream receiving claims. |
 | `CC-C32-7` | Each configuration explains how its selected structures work together toward the required result and which dependencies constrain it. | Makes the synthesis usable beyond a list of parts. |
-| `CC-C32-8` | If an independently typed source constrains transformed-side architecture content for a changed referent, `C.32.CONWAY` is opened before Conway, mirroring, or inverse-Conway language is used as guidance; the source kind, its exact obtaining direct relation or precise provisional disposition, and both exact C.30 architecture sides or modal claims are named without inferring acting, Work, or transformation facts. | Keeps influence-source and transformed-side content distinct while making correspondence synthesis constructive. |
+| `CC-C32-8` | If an independently typed source constrains transformed-side architecture content for a changed referent, `C.32.CONWAY` is opened before Conway, mirroring, or inverse-Conway language is used as guidance; the source kind, its obtaining direct relation or precise provisional disposition, and both C.30 architecture sides or modal claims are named without inferring acting, Work, or transformation facts. | Keeps influence-source and transformed-side content distinct while making correspondence synthesis constructive. |
 

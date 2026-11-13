@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.18"
-pattern_title: "Minimal CSLC in Kernel (Characteristic ⟷ Scale ⟷ Level ⟷ Coordinate) (A.CSLC‑KERNEL)"
+pattern_title: "CSLC in Kernel (Characteristic ⟷ Scale ⟷ Level ⟷ Coordinate) (A.CSLC‑KERNEL)"
 section_id: "A.18:End"
 section_title: "A.18:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.18/A.18__012_a-18-end.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.18 — Minimal CSLC in Kernel (Characteristic ⟷ Scale ⟷ Level ⟷ Coordinate) (A.CSLC‑KERNEL)"
+  - "A.18 — CSLC in Kernel (Characteristic ⟷ Scale ⟷ Level ⟷ Coordinate) (A.CSLC‑KERNEL)"
   - "A.18:End — A.18:End"
-line_start: 34595
-line_end: 34598
+line_start: 36075
+line_end: 36078
 dependencies:
   - "A.17"
   - "A.19"

@@ -6,12 +6,12 @@ section_id: "F.8:12"
 section_title: "SoTA-Echoing - Source-Use"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__015_sota-echoing-source-use.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision for a Name"
   - "F.8:12 — SoTA-Echoing - Source-Use"
-line_start: 121136
-line_end: 121156
+line_start: 128806
+line_end: 128826
 dependencies:
   - "A.11"
   - "A.15"
@@ -62,7 +62,7 @@ keywords:
 
 ### F.8:12 - SoTA-Echoing - Source-Use
 
-**Source selection.** The sources below address the named F.8 questions. ISO 704 and SKOS are current standards or durable lineage, not claimed as research frontiers. The gUFO–OBO row combines a current formal comparator with an operational ontology-maintenance practice. The Cedar row is a current research-and-practice comparator. A source belongs here because it changes an F.8 disposition or boundary, not because it is official, popular, or easy to find.
+**Source selection.** ISO 704 and SKOS are current standards or durable lineage, not claimed as research frontiers. The gUFO–OBO row combines a current formal comparator with an operational ontology-maintenance practice. The Cedar row is a current research-and-practice comparator. A source belongs here because it changes an F.8 disposition or boundary, not because it is official, popular, or easy to find.
 
 | Source, status, and question | Decision for F.8 | What F.8 uses and rejects | Affected loci and smallest source-driven revisit |
 | --- | --- | --- | --- |
@@ -71,7 +71,7 @@ keywords:
 | Almeida, Guizzardi, Sales, and Fonseca, [gUFO](https://arxiv.org/abs/2603.20948), 2026 preprint, read with the current [OBO Foundry principles](https://obofoundry.org/principles/fp-000-summary.html) and its [term-stability rule](https://obofoundry.org/principles/fp-019-term-stability.html) — combined comparison for the new-kind question. gUFO supplies a current typology-of-types and relational-aspect comparator; OBO supplies operational scope, reuse, identifier, relation-reuse, and stable-referent pressure. Together they cover formal category discipline and maintained-vocabulary cost better than either alone. | **Adapt the category/label separation and reuse pressure.** | A spelling or source class does not establish an FPF kind. Test existing values, relations, scopes, and stable meanings before proposing another kind. Reject gUFO's hierarchy, OWL commitments, OBO's biomedical scope and IRI rules, and any external source as FPF admission authority. | The pre-admission stop in §§0 and 4.1–4.2, case 7.5, invariants 3 and 8, and checks 05 and 12. Revisit if gUFO's type distinctions or the cited OBO scope, reuse, or stability principles change materially, or a better account reduces admission burden without losing these distinctions. |
 | Cutler et al., [Cedar](https://arxiv.org/abs/2403.04651), 2024, with Cedar 4 and [Verified Permissions policy-name and policy-id practice](https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/terminology.html) — current research-and-operation comparator for policy references. Question: how should policy content, a name or identifier, request evaluation, and enforcement stay separate? Its formally analysed policy language and operational use supply a comparison of those distinctions. | **Adapt only the separation of policy reference, policy content, evaluation, and effect.** | Keep a policy identifier resolvable to its specification and keep any decision occurrence, result, Work, or enforcement separate. Reject Cedar and AWS types, stores, API identifiers, and authorization semantics as FPF ontology; reject any inference that an identifier grants permission or makes a policy claim true. | The policy target and step 10, case 7.4, §8.1, and checks 10 and 13. Revisit if the cited line changes the separation among policy name or identifier, policy content, and decision, or a more general current source preserves it with less domain-specific machinery. |
 
-**Internal FPF basis, not external SoTA.**
+**Internal FPF basis.**
 
 - F.14, F.5, F.17, and F.18 supply the local-phrase, designation, alias, row-use, and durable-naming ladder.
 - A.2, C.3, and F.4 keep designation `L`, local system-role kind `K`, and optional description `D` distinct; A.2.1 governs assignment `A`. For precise performed Work, A.13 recovers each exact actual performer and A.15.1 independently admits the dated occurrence; F.6 is a later separate relation only when precise assignment-bound attribution is expressly consumed.

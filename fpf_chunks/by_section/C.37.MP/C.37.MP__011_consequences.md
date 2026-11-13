@@ -6,12 +6,12 @@ section_id: "C.37.MP:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37.MP/C.37.MP__011_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.37.MP — Maintain a Method Representation Profile"
   - "C.37.MP:9 — Consequences"
-line_start: 82190
-line_end: 82195
+line_start: 86205
+line_end: 86210
 dependencies:
   - "A.10"
   - "A.3.1"
@@ -24,7 +24,7 @@ keywords:
 
 ### C.37.MP:9 - Consequences
 
-Method material becomes usable for unlike actions without multiplying Methods or hiding the source edition. A practitioner can recover why each row is selected, declined, or unresolved, what exact claim it carries, what it omits, and which change requires return. The profile adds the Method-specific cross-use account without copying the common representation-selection move.
+Method material becomes usable for unlike actions without multiplying Methods or hiding the source edition. A practitioner can recover why each row is selected, declined, or unresolved, what claim it carries, what it omits, and which change requires return. The profile adds the Method-specific cross-use account without copying the common representation-selection move.
 
-The cost is maintaining the rows and profile relations actually needed by later use. Some attractive artifacts remain lower epistemes or fail a direct view, lens, publication, reliance, receiving-result or structure rule. Another action has another selection boundary, not automatically another stored record. A changed Method claim may reopen A.3.2.DE or its source edition instead of being patched independently in several representations.
+The cost is maintaining the rows and profile relations needed by later use. Some attractive artifacts remain lower epistemes or fail a direct view, lens, publication, reliance, receiving-result or structure rule. Another action has another selection boundary, not automatically another stored record. A changed Method claim may reopen A.3.2.DE or its source edition instead of being patched independently in several representations.
 

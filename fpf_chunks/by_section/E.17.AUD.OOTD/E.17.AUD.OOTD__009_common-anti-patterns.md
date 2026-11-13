@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.17.AUD.OOTD"
-pattern_title: "PublicationUnit Stability Discipline and PublicationUnit Primary-Subject Discipline - publication-unit stability over one primary subject"
+pattern_title: "Clarify the Primary Subject of a Publication Unit (PublicationUnit Primary-Subject Discipline)"
 section_id: "E.17.AUD.OOTD:8"
 section_title: "Common Anti-Patterns"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.OOTD/E.17.AUD.OOTD__009_common-anti-patterns.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "E.17.AUD.OOTD — PublicationUnit Stability Discipline and PublicationUnit Primary-Subject Discipline - publication-unit stability over one primary subject"
+  - "E.17.AUD.OOTD — Clarify the Primary Subject of a Publication Unit (PublicationUnit Primary-Subject Discipline)"
   - "E.17.AUD.OOTD:8 — Common Anti-Patterns"
-line_start: 110141
-line_end: 110148
+line_start: 116892
+line_end: 116899
 dependencies:
   - "A.10"
   - "A.15"
@@ -41,7 +41,7 @@ keywords:
 
 ### E.17.AUD.OOTD:8 - Common Anti-Patterns
 
-- **Local-repair inflation.** Opening publication-unit discipline when one overloaded local lexical head or qualifier is still the real defect.
+- **Local-repair inflation.** Opening publication-unit discipline when one overloaded local lexical head or qualifier is the defect that remains.
 - **`EntityOfConcern` inflation.** Calling every topic, kind, interpretation, question, or writing transition an `EntityOfConcern` or `EntityOfConcern` change.
 - **Work-process smuggling.** Letting a note begin as architecture, incident review, or comparison work and end as rollout, approval, or execution guidance without naming the transition.
 - **Admissibility-pattern replacement.** Treating this pattern as if it replaced view, face, or carrier architecture, entityOfConcernRef-preserving transform rules, explanation-face rules, bridge rules, or downstream decision texts.

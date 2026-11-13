@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.19.ULSAM"
-pattern_title: "Unified Lawful Scale Aggregation Mechanism (ULSAM)"
+pattern_title: "Unified Lawful Scale Aggregation Mechanism"
 section_id: "A.19.ULSAM:3"
 section_title: "Forces (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ULSAM/A.19.ULSAM__005_forces-normative.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.19.ULSAM — Unified Lawful Scale Aggregation Mechanism (ULSAM)"
+  - "A.19.ULSAM — Unified Lawful Scale Aggregation Mechanism"
   - "A.19.ULSAM:3 — Forces (normative)"
-line_start: 38540
-line_end: 38550
+line_start: 40077
+line_end: 40087
 dependencies:
   - "A.19.CPM"
   - "A.19.SelectorMechanism"
@@ -25,7 +25,7 @@ keywords:
   - "fold_Γ?"
   - "lawful aggregation"
   - "scale-lawful fold"
-  - "tri-state guard (pass"
+  - "tri-state guard (pass\\"
   - "ΓFoldRef"
 ---
 
@@ -33,10 +33,10 @@ keywords:
 
 - **Lawfulness vs convenience.** The most “convenient” aggregation (e.g., weighted sums) is often illegal across scales/units; lawful folds require explicit constraints.
 - **Explicitness vs brevity.** A single scalar is short to discuss, but expensive in hidden assumptions.
-- **Stable declaration vs method variation.** Different realizers can use the same operation declaration while preserving its argument meanings, fold law and guard. Changing that content requires explicit selection of the changed declaration.
+- **Stable declaration vs method variation.** Different realizers can use the same operation declaration while preserving its argument meanings, fold law and guard. Changing that content requires selection of the changed declaration.
 - **Evidence gating vs “always return a number.”** The mechanism must support abstain/degrade rather than coercion.
 - **Optional stage vs pipeline clarity.** `fold_Γ?` is optional in CHR protocols; optionality must be explicit (not implicit “sometimes scoring folds”).
 - **Auditability vs minimal overhead.** Recording contributor sets and effective pins adds overhead but prevents semantic drift.
-- **Declared-set locality vs reuse.** A fold is valid for one admitted measure set, grouping or membership basis, policy editions, scope and window, evidence basis, contributors, and intended result; a later use must recheck those premises and cite any relation it actually relies on.
+- **Declared-set locality vs reuse.** A fold is valid for one admitted measure set, grouping or membership basis, policy editions, scope and window, evidence basis, contributors, and intended result; a later use must recheck those premises and cite any relation it relies on.
 - **P2W separation and gate/guard separation.** ULSAM must expose eligibility and audit pins without turning into (i) a WorkPlanning baseline binder or (ii) an admissibility gate: planned slot fillings belong to WorkPlanning plan items, while GateDecision/GateLog live in gate patterns / WorkEnactment (suite protocols remain mechanism-steps only).
 

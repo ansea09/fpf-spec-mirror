@@ -6,12 +6,12 @@ section_id: "F.8:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__003_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision for a Name"
   - "F.8:1 — Problem Frame"
-line_start: 120775
-line_end: 120780
+line_start: 128429
+line_end: 128434
 dependencies:
   - "A.11"
   - "A.15"
@@ -62,7 +62,7 @@ keywords:
 
 ### F.8:1 - Problem Frame
 
-Name pressure often reveals an unresolved subject. One word may be offered for different things—for example, a designation, local system-role kind, optional description of that kind, assignment occurrence, status value, policy identifier, or Work label. Shared spelling proves none of these identities.
+Name pressure often reveals an unresolved subject. For example, one word may be proposed for a designation, local system-role kind, optional description of that kind, assignment occurrence, status value, policy identifier, or Work label. Shared spelling proves none of these identities.
 
-F.8 therefore asks what the expression will designate and for which use before judging the wording. It is the gate from a local expression to a stronger naming treatment. It neither defines the governed value nor performs the later naming work.
+F.8 therefore asks what the expression will designate and for which use before judging the wording. The decision determines whether the local expression needs a stronger naming treatment. It neither defines the governed value nor performs the later naming work.
 

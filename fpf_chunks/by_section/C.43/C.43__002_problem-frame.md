@@ -6,12 +6,12 @@ section_id: "C.43:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.43/C.43__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.43 — Connect Observation, Choice and Action in Control"
   - "C.43:1 — Problem frame"
-line_start: 90289
-line_end: 90304
+line_start: 94669
+line_end: 94686
 dependencies:
   - "A.12"
   - "C.11"
@@ -27,15 +27,17 @@ keywords:
 
 Use this pattern when observations, rules for influencing a system, performed actions and their consequences have to be connected to answer a question about control, but the separate accounts do not yet provide that answer. You may need to explain what an existing arrangement does, including why it works badly, or decide how to continue and what to change. The connections matter in both uses; the required results differ.
 
-A researcher can reproduce a recorded response with two different mechanisms and still not know which observation would distinguish them. In practical work, a forecast can be sound while its proposed response arrives too late. A profitable change can consume the capacity needed for another commitment. A useful measurement can arrive when the action it would have changed is no longer available.
+A researcher can reproduce a recorded response with two different mechanisms and not know which observation would distinguish them. In practical work, a forecast can be sound while its proposed response arrives too late. A profitable change can consume the capacity needed for another commitment. A useful measurement can arrive when the action it would have changed is no longer available.
 
-**First useful move.** Identify the consequential change or maintained condition and recover how the available arrangement influences it. Ask what information reaches which rule or participant, what action follows, how it affects the system and what can be observed afterward. Keep an unsupported connection as a question to resolve. For explanation, work the proposed relations through to a consequence that could distinguish competing accounts. For a practical continuation, take the next consequential choice: explain what is currently known, what can still be done, what each continuation could change and what would change the choice. Follow the unresolved necessary connection far enough to supply the receiving answer or identify the condition that prevents it.
+**First useful move.** Identify the consequential change or maintained condition and recover how the available arrangement influences it. Ask what information reaches which rule or participant, what action follows, how it affects the system and what can be observed afterward. Keep an unsupported connection as a question to resolve.
+
+For explanation, work the proposed relations through to a consequence that could distinguish competing accounts. For a practical continuation, take the next consequential choice: explain what is currently known, what can be done, what each continuation could change and what would change the choice. Follow the unresolved necessary connection far enough to supply the receiving answer or identify the condition that prevents it.
 
 **What this buys.** An explanatory use returns supported control relations, their consequences under stated conditions and any unresolved alternative. That can explain an unsuitable response without prescribing a redesign. A practical use returns what to do, why it is a suitable continuation, how it can take effect and how later information will change it. It can justify continuing an existing practice, taking a bounded action under uncertainty, obtaining information, or changing the goal, model, method or control architecture. Neither use requires a new document when the working explanation is already available.
 
-The intended reader is a practitioner or researcher who can obtain the subject knowledge required by the question. The common Method organizes that knowledge; a claim about a particular machine, organization or organism still needs the relevant subject explanation and evidence.
+The intended reader is a practitioner or researcher who can obtain the subject knowledge required by the question. The common Method organizes that knowledge; a claim about a machine, organization or organism needs the relevant subject explanation and evidence.
 
-Use an adequate controller, plan or established response directly when it already supplies the needed connections. Apply **A.15.7** to select the next action within an understood working Method. Apply **C.32.LCA** when the unresolved result is the construction or alteration of the control arrangement itself. Here the arrangement may remain unchanged: the missing result is a coherent continuation through its observations, choices and actions.
+Use an adequate controller, plan or established response when it already supplies the needed connections. Apply **A.15.7** to select the next action within an understood working Method. Apply **C.32.LCA** when the unresolved result is the construction or alteration of the control arrangement. Here the arrangement may remain unchanged: the missing result is a coherent continuation through its observations, choices and actions.
 
 When explaining observed control, an attributed goal or internal model is a hypothesis to test, not an instruction addressed to the observed system. Explaining how a person, animal or organization acts and deciding what it ought to do are different receiving questions.
 

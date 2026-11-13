@@ -6,12 +6,12 @@ section_id: "C.41.TF:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.TF/C.41.TF__007_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.41.TF — Construct a Checklist Template That Preserves Its Questions"
   - "C.41.TF:6 — Bias-Annotation"
-line_start: 89333
-line_end: 89338
+line_start: 93601
+line_end: 93606
 dependencies:
   - "C.37"
   - "C.41"
@@ -24,5 +24,5 @@ keywords:
 
 A form convenient for its author may be difficult on a phone, inaccessible to a participant or opaque to an AI tool. Colour can supplement but cannot carry the only answer distinction. Specialist abbreviations and apparently obvious dates deserve testing with intended users.
 
-Recorded evidence privileges what can be captured. Allow a relevant conversation or observation to contribute without pretending that an empty attachment field invalidates it.
+Recorded evidence privileges what can be captured. Allow a relevant conversation or observation to contribute. An empty attachment field does not invalidate that contribution.
 

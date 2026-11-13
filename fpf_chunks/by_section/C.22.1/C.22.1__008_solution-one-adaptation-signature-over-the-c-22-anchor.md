@@ -6,12 +6,12 @@ section_id: "C.22.1:7"
 section_title: "Solution — one adaptation signature over the C.22 anchor"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.1/C.22.1__008_solution-one-adaptation-signature-over-the-c-22-anchor.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.22.1 — Task-family adaptation signature"
   - "C.22.1:7 — Solution — one adaptation signature over the C.22 anchor"
-line_start: 63261
-line_end: 63280
+line_start: 65894
+line_end: 65913
 dependencies:
   - "A.15"
   - "C.19.1"
@@ -55,5 +55,5 @@ keywords:
   - `corridorEntryEvidence?`
   - `steppingStoneEvidence?`
 - Anchor these fields to the same work target and work-measure threshold semantics declared by `C.22`. State the time origin, budget boundary and threshold-observation rule. If the threshold was not reached or the available history cannot establish its first crossing, say so and retain the observed limit; do not invent a crossing time or cost.
-- `C.22` continues to carry the declared task-family anchor, task typing, and baseline `TaskSignature`. `C.22.1` narrows the adaptation-signature question to threshold timing, reuse, downside, and corridor-entry disclosure over that existing anchor.
+- `C.22` carries the declared task-family anchor, task typing, and baseline `TaskSignature`. `C.22.1` narrows the adaptation-signature question to threshold timing, reuse, downside, and corridor-entry disclosure over that existing anchor.
 

@@ -6,12 +6,12 @@ section_id: "B.4.1:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4.1/B.4.1__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.4.1 — Publish Candidate Routes for a Stabilized Cue (RoutedCueSet)"
   - "B.4.1:2 — Problem"
-line_start: 45989
-line_end: 45991
+line_start: 47885
+line_end: 47887
 dependencies:
   - "A.15"
   - "A.16"
@@ -34,5 +34,5 @@ keywords:
 ---
 
 ### B.4.1:2 - Problem
-A cue publication can lose its useful continuations when it is forced prematurely into a late form such as `AnomalyStatement`, `Characteristic`, or `ActionOption`. A route choice can also remain hidden in cue-pack prose, leaving the reader without its grounds or the applicable subject pattern.
+A cue publication can lose its useful continuations when it is forced prematurely into a late form such as `AnomalyStatement`, `Characteristic`, or `ActionOption`. A route choice can also remain hidden in cue-pack prose, leaving the reader without its grounds or the subject pattern.
 

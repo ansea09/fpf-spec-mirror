@@ -6,12 +6,12 @@ section_id: "A.6.C:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.C/A.6.C__011_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.C — Contract Unpacking for Boundaries"
   - "A.6.C:10 — Rationale"
-line_start: 15793
-line_end: 15798
+line_start: 16368
+line_end: 16373
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -34,7 +34,7 @@ dependencies:
   - "U.SpeechAct"
   - "U.Work"
 keywords:
-  - "A.6.B separately classifies the actual claim"
+  - "A.6.B separately classifies the claim"
   - "MVPK no-new-semantics"
   - "OPTIONAL or authority-looking wording is ambiguous"
   - "atomic L/A/D/E rows"
@@ -56,7 +56,7 @@ keywords:
 
 ### A.6.C:10 — Rationale
 
-FPF already distinguishes signatures, mechanisms, dated Work, separately identified results or consequences, and evidence use. When contract-language collapses them, the author asks what happened, what separate result or delivery is claimed, and what evidence supports the exact reliance use.
+FPF already distinguishes signatures, mechanisms, dated Work, separately identified results or consequences, and evidence use. When contract-language collapses them, the author asks what happened, what separate result or delivery is claimed, and what evidence supports the reliance use.
 
 F.18 may supply durable names for recovered terms, but it does not provide the ontology. A.6.C keeps promise content, speech act, commitment or grant, dated Work, application/result binding, production, change, delivery/transfer, evidence, and acceptance distinct and independently optional. This keeps contract language classifiable under A.6.B without turning A.15.1 into a semantic source of result or delivery.
 

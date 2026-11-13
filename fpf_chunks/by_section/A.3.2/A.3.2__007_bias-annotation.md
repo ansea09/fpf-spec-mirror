@@ -6,12 +6,12 @@ section_id: "A.3.2:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2/A.3.2__007_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.3.2 — U.MethodDescription: Description Episteme for a Way of Doing"
   - "A.3.2:6 — Bias-Annotation"
-line_start: 11678
-line_end: 11690
+line_start: 12089
+line_end: 12101
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -60,8 +60,8 @@ The following biases obscure method-description membership:
 * **description-as-method bias**: the representation is treated as the way of doing itself;
 * **description-as-work bias**: executable or operational-looking representation is treated as dated work;
 * **approval-as-proof bias**: accepted, approved, or regulated descriptions are treated as evidence, gate passage, or safe execution;
-* **notation-prestige bias**: code, formal notation, or solver files are treated as more authoritative than procedures, diagrams, or guidelines. Compare the actual method claims; representation form supplies no priority;
+* **notation-prestige bias**: code, formal notation, or solver files are treated as more authoritative than procedures, diagrams, or guidelines. Compare the method claims; representation form supplies no priority;
 * **imperative-metaphor bias**: graph, query, predicate, or process-model representation is treated as an ordered work-control claim.
 
-First identify the claim-bearing episteme, the claim it makes, and the Method it concerns. When the use needs them, keep its representation, publication occurrence, publication form, and presentation carrier separate under §4.2. State each additional plan, Work, evidence, gate, authority, mechanism, formal, or mathematical claim under its exact predicate or constraint with an optional subject-pattern locator.
+First identify the claim-bearing episteme, the claim it makes, and the Method it concerns. When the use needs them, keep its representation, publication occurrence, publication form, and presentation carrier separate under §4.2. State each additional plan, Work, evidence, gate, authority, mechanism, formal, or mathematical claim under its predicate or constraint with an optional subject-pattern locator.
 

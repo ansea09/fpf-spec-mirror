@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.14"
-pattern_title: "Advanced Mereology: Components, Portions, Aspects & Phases"
+pattern_title: "Mereology: Components, Portions, Aspects & Phases"
 section_id: "A.14:10"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.14/A.14__011_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.14 — Advanced Mereology: Components, Portions, Aspects & Phases"
+  - "A.14 — Mereology: Components, Portions, Aspects & Phases"
   - "A.14:10 — Common Anti-Patterns and How to Avoid Them"
-line_start: 28643
-line_end: 28652
+line_start: 29707
+line_end: 29716
 dependencies:
   - "A.1"
   - "A.15"
@@ -55,7 +55,7 @@ keywords:
 ### A.14:10 - Common Anti-Patterns and How to Avoid Them
 
 - **Member as component.** A person, team, document, or object belongs to a collection and is then counted as structurally integrated.
-- **Aspect by label.** A Characteristic, concern, viewpoint, view, projection, partition, heading, dashboard slice, or time window is called an aspect and entered into a part tree. Recover the actual claim; require the full AspectOf occurrence when structural parthood is intended.
+- **Aspect by label.** A Characteristic, concern, viewpoint, view, projection, partition, heading, dashboard slice, or time window is called an aspect and entered into a part tree. Recover the claim; require the full AspectOf occurrence when structural parthood is intended.
 - **System-role expression as part.** A local kind, assignment, or relation position is put into a part tree instead of using its direct pattern.
 - **Method as part.** A Method, recipe, or algorithm is treated as a structural component instead of using Method, MethodDescription, Work, or transformation patterns.
 - **Portion without measure.** Some fuel, data, time, or text is named as a portion without measure kind, unit, boundary, and additivity conditions.

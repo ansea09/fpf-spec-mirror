@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.6"
-pattern_title: "Base Declaration Discipline: Say Exactly What Something Depends On"
+pattern_title: "Base Declaration Discipline: Say What Something Depends On"
 section_id: "A.6.6:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.6.6 — Base Declaration Discipline: Say Exactly What Something Depends On"
+  - "A.6.6 — Base Declaration Discipline: Say What Something Depends On"
   - "A.6.6:1 — Problem frame"
-line_start: 23628
-line_end: 23657
+line_start: 24549
+line_end: 24578
 dependencies:
   - "A.10"
   - "A.14"
@@ -43,7 +43,7 @@ keywords:
 
 FPF repeatedly needs to express a family of situations of the form:
 
-> **The use, admissibility, or interpretation at issue depends on an explicit relation between the actual dependent and its base.**
+> **The use, admissibility, or interpretation at issue depends on an explicit relation between the dependent and its base.**
 
 Examples occur across several disciplines:
 
@@ -53,19 +53,19 @@ Examples occur across several disciplines:
 * admissibility/assurance (claims linked to evidence, checks, or proofs),
 * publication discipline (what a statement is fit to be used for, where, and when).
 
-An umbrella metaphor such as anchor can leave different relations and operations indistinguishable. When it hides the actual relation, recover that relation so its direction, invariants and applicable rules are clear.
+An umbrella metaphor such as anchor can leave different relations and operations indistinguishable. When it hides the relation, recover that relation so its direction, invariants and applicable rules are clear.
 
 This family can expose a typing mismatch: the named dependent or base may not satisfy the participant kind required by the direct relation, or its designation may not satisfy the receiving declaration's reference mode. Resolve the mismatch under the applicable rule; renaming participants or reversing direction does not fix it. Add SlotSpecs only when a reusable declaration needs them.
 
 Every ordinary basedness assertion first needs only:
 
-1. the actual **dependent**;
-2. the actual **base**; and
+1. the **dependent**;
+2. the **base**; and
 3. the direct relation and its obtaining test.
 
 Scope, time, evidence, continuity, or a reusable declaration is added only when the direct predicate or one named receiving use depends on it. Until the direct relation is named, umbrella words such as *anchor*, *ground*, *attach*, *support*, or *based on* usually mean only:
 
 > “There is an under-described relation here.”
 
-The repair is therefore progressive: recover and test the direct relation, stop if the assertion is enough, and materialize declaration or assertion machinery only for a concrete later use.
+The repair is therefore progressive: recover and test the direct relation, stop if the assertion is enough, and materialize declaration or assertion machinery only for a later use.
 

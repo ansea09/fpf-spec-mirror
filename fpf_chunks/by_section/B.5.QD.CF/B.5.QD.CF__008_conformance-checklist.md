@@ -6,12 +6,12 @@ section_id: "B.5.QD.CF:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.QD.CF/B.5.QD.CF__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.5.QD.CF — Reformulate a Problem by Examining Its Conflicting Assumptions"
   - "B.5.QD.CF:7 — Conformance Checklist"
-line_start: 49466
-line_end: 49475
+line_start: 51516
+line_end: 51525
 dependencies:
   - "B.1.5.EW"
   - "B.5.FM"

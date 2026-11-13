@@ -6,12 +6,12 @@ section_id: "C.16.P:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.P/C.16.P__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.16.P — Restore Precision to Characteristic and Scale Wording"
   - "C.16.P:intro — Intro"
-line_start: 59618
-line_end: 59627
+line_start: 62003
+line_end: 62012
 dependencies:
   - "A.17"
   - "A.18"

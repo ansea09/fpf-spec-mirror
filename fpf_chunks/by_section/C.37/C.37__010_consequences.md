@@ -6,12 +6,12 @@ section_id: "C.37:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37/C.37__010_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.37 — Select and Use Representations for One Action"
   - "C.37:9 — Consequences"
-line_start: 81955
-line_end: 81960
+line_start: 85956
+line_end: 85961
 dependencies:
   - "A.10"
   - "A.2.4"
@@ -38,7 +38,7 @@ keywords:
 
 ### C.37:9 - Consequences
 
-The gain is a small, repeatable bridge from heterogeneous results to one practical action. A practitioner sees exactly why each candidate may be used, what it cannot support, and where the decision must return when sources, conditions, or reliance change. Domain results remain authoritative and can embed the claim group without duplicating it.
+The gain is a small, repeatable bridge from heterogeneous results to one practical action. A practitioner sees why each candidate may be used, what it cannot support, and where the decision must return when sources, conditions, or reliance change. Domain results remain authoritative and can embed the claim group without duplicating it.
 
-The cost is disciplined incompleteness: some attractive candidates remain declined or unresolved because publication, provenance, classification, or visual form cannot supply a missing direct result. That cost is preferable to an account that looks integrated while borrowing warrant across incompatible layers.
+The cost is that some attractive candidates remain declined or unresolved because publication, provenance, classification, or visual form cannot supply a missing required result. That cost is preferable to an account that looks integrated while borrowing warrant across incompatible layers.
 

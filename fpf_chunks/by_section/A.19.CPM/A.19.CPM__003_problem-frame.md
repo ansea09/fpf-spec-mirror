@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.19.CPM"
-pattern_title: "Compare Admitted Profiles under a Declared Comparator (CPM)"
+pattern_title: "Compare Admitted Profiles under a Declared Comparator"
 section_id: "A.19.CPM:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CPM/A.19.CPM__003_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.19.CPM — Compare Admitted Profiles under a Declared Comparator (CPM)"
+  - "A.19.CPM — Compare Admitted Profiles under a Declared Comparator"
   - "A.19.CPM:1 — Problem frame"
-line_start: 38814
-line_end: 38823
+line_start: 40351
+line_end: 40360
 dependencies:
 keywords:
   - "ComparatorSet"
@@ -20,7 +20,7 @@ keywords:
   - "comparison"
   - "partial order"
   - "set-valued comparison outcome"
-  - "tri-state admissibility (pass"
+  - "tri-state admissibility (pass\\"
 ---
 
 ### A.19.CPM:1 - Problem frame

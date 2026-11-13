@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.5.WN"
-pattern_title: "Develop Lines of Thought with Working Notes"
+pattern_title: "Develop Lines of Thought with Notes"
 section_id: "B.5.WN:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.WN/B.5.WN__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "B.5.WN — Develop Lines of Thought with Working Notes"
+  - "B.5.WN — Develop Lines of Thought with Notes"
   - "B.5.WN:7 — Conformance Checklist"
-line_start: 46968
-line_end: 46978
+line_start: 48920
+line_end: 48930
 dependencies:
   - "A.15.10"
   - "A.15.11"
@@ -30,8 +30,8 @@ keywords:
 - **CC-WN-2 — Source and continuation.** Source meaning, observation and own inference remain distinguishable where reliance depends on them.
 - **CC-WN-3 — Consequential connection.** A connection supplies a reason, contrast, counterexample, transfer question or other stated contribution to reasoning.
 - **CC-WN-4 — Appropriate unit.** Separation supports independent use without losing a required inference.
-- **CC-WN-5 — Available return.** A relevant future occasion can find and interpret the retained contribution under its actual access conditions.
-- **CC-WN-6 — Changed condition.** Contrary evidence or a changed question revises affected reasoning while preserving still-valid observations and results.
+- **CC-WN-5 — Available return.** A relevant future occasion can find and interpret the retained contribution under its access conditions.
+- **CC-WN-6 — Changed condition.** Contrary evidence or a changed question revises affected reasoning while preserving valid observations and results.
 - **CC-WN-7 — Use-relative closure.** Deferral, a completed argument and a blocked reliance retain their distinct requirements.
 - **CC-WN-8 — Proportionate support.** Capture, connection and maintenance contribute enough to the intended use to warrant their burden.
 

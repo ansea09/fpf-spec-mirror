@@ -6,12 +6,12 @@ section_id: "A.6.2:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.2/A.6.2__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.2 — Effect-Free Episteme Morphing: Laws for Mathematical Relations Between Epistemes"
   - "A.6.2:intro — Intro"
-line_start: 17165
-line_end: 17188
+line_start: 17964
+line_end: 17993
 dependencies:
   - "A.6.0"
   - "A.6.1"
@@ -35,23 +35,29 @@ keywords:
 > **Status:** Stable
 > **Type:** Definitional pattern
 
-**One-line summary.** Effect-free episteme morphing (EFEM) is a local mathematical discipline for law-constrained arrows between exact epistemes. It compares what the source and receiving epistemes say, what they concern, and the schemes that make their claims interpretable, then states the allowed ClaimGraph difference. If its rule needs grounding, representation, conformance, or another separately obtaining relation, it names and reads that occurrence without changing it. The declaration, arrow, use claim, operation application, and performed Work remain distinct.
+**One-line summary.** Effect-free episteme morphing (EFEM) is a local mathematical discipline for law-constrained arrows between epistemes. It compares what the source and receiving epistemes say, what they concern, and the schemes that make their claims interpretable, then states the allowed ClaimGraph difference. If its rule needs grounding, representation, conformance, or another separately obtaining relation, it names and reads that occurrence without changing it. The declaration, arrow, use claim, operation application, and performed Work remain distinct.
 
-**Use this pattern when** a project needs to state and reuse a law-constrained mathematical relation between two exact epistemes while keeping that arrow distinct from a claim that it suits one use, an operation application, publication, and performed Work.
+**Use this pattern when** a project needs to state and reuse a law-constrained mathematical relation between two epistemes while keeping that arrow distinct from a claim that it suits one use, an operation application, publication, and performed Work.
 
-**First useful move.** Identify the two exact epistemes, compare their claim content, EntitiesOfConcern and effective schemes, then state the arrow rule and laws required by the receiving use. A direct wording comparison or publication rendering can remain under its own pattern when no such mathematical relation is needed.
+**First useful move.** Identify the two endpoint epistemes, compare their claim content, EntitiesOfConcern and effective schemes, then state the arrow rule and laws required by the receiving use. A direct wording comparison or publication rendering can remain under its own pattern when no such mathematical relation is needed.
 
 **What goes wrong if missed.** A view, retargeting, refinement, representation change, publication rendering, mechanism application, or work occurrence is treated as the same operation, so the project can no longer tell whether the EntityOfConcern changed or only the episteme changed.
 
-**What this buys.** EFEM gives one law-constrained episteme-to-episteme morphism discipline with explicit preserve/retarget mode, clear boundaries among actual values, declaration-local participant meanings, and references, plus conservativity and composition conditions.
+**What this buys.** EFEM gives one law-constrained episteme-to-episteme morphism discipline with explicit preserve/retarget mode, boundaries among actual values, declaration-local participant meanings, and references, plus conservativity and composition conditions.
 
 **Builds on.**
-A.6.0 `U.Signature` for subject, vocabulary, laws, and applicability; A.6.1 `U.Mechanism`; A.6.5 for declaration-local SlotSpecs; C.2.1 for `U.Episteme` identity and direct constitution, empirical-grounding, and edition relations; E.10.D2 for the EntityOfConcern, Description-episteme, describing-use, and specification-use boundary; and C.3 plus F.9 for kind-level and exact cross-local reasoning.
+
+* A.6.0 `U.Signature` for subject, vocabulary, laws, and applicability.
+* A.6.1 `U.Mechanism`.
+* A.6.5 for declaration-local SlotSpecs.
+* C.2.1 for `U.Episteme` identity and direct constitution, empirical-grounding, and edition relations.
+* E.10.D2 for the EntityOfConcern, Description-episteme, describing-use, and specification-use boundary.
+* C.3 plus F.9 for kind-level and cross-local reasoning.
 
 **Used by.**
 A.6.3 epistemic viewing; A.6.4 EntityOfConcern retargeting; E.17.0 multi-view describing; E.17 (MVPK); and E.18 structural reinterpretation over transformation-flow structure.
 
-**EntityOfConcern change-mode discipline.** EFEM classifies each arrow as `preserve` or `retarget` by comparing the exact C.2.1 EntitiesOfConcern resolved from its endpoint references.
+**EntityOfConcern change-mode discipline.** EFEM classifies each arrow as `preserve` or `retarget` by comparing the C.2.1 EntitiesOfConcern resolved from its endpoint references.
 
 **Object settlement.** EFEM and `EpMorphism` are local mathematical classes defined here in the selected formal substrate, not admitted durable U-kinds. `U.Episteme` is reused from C.2.1. An A.6.0 FormalSubstrate signature that declares EFEM vocabulary and laws is a separate episteme; one arrow, one use-specific assertion about that arrow, any operation application, performed Work, and publication remain separate objects under their direct governors.
 

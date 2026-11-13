@@ -6,12 +6,12 @@ section_id: "F.14:13"
 section_title: "Regression checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__014_regression-checks.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.14 — Anti-Explosion Control for System-Role and Status Name Families"
   - "F.14:13 — Regression checks"
-line_start: 123353
-line_end: 123356
+line_start: 131163
+line_end: 131166
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -50,5 +50,5 @@ keywords:
 
 ### F.14:13 - Regression checks
 
-Reopen only the affected naming use when candidate expressions grow faster than recovered values; a name starts carrying assignment, capability, method, Work, evidence, status, source, publication, equivalence, or authority; a row is reused beyond its admitted use; local wording is silently globalized; or one naming object begins to imply the next. A changed spelling alone does not require a new governed value or full family replay.
+Reopen only the affected naming use when candidate expressions grow faster than recovered values, when a name starts carrying assignment, capability, method, Work, evidence, status, source, publication, equivalence, or authority, when a row is reused beyond its admitted use, when local wording is silently globalized, or when one naming object begins to imply the next. A changed spelling alone does not require a new governed value or full family replay.
 

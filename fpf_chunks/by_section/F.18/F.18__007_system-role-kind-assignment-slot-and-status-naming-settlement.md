@@ -6,12 +6,12 @@ section_id: "F.18:5"
 section_title: "System-Role-Kind, Assignment, Slot, and Status Naming Settlement"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__007_system-role-kind-assignment-slot-and-status-naming-settlement.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
   - "F.18:5 — System-Role-Kind, Assignment, Slot, and Status Naming Settlement"
-line_start: 125682
-line_end: 125792
+line_start: 133639
+line_end: 133768
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -50,7 +50,9 @@ This settlement keeps naming aligned with the object already recovered. Bare *ro
 
 #### F.18:5.1 - System-Role-Kind Names
 
-A durable system-role-kind name designates one exact local kind admitted through C.3 and A.2. Recover that kind through its candidate domain, operative membership condition, intended member/non-member boundary, and continuity rule. A practice or source reference can locate the definition or signal that two definitions should be compared; it does not identify the kind. Candidates are entities already admitted under A.1 as `U.System`. The Tech designation normally ends in `...SystemRole`, for example `ReviewerSystemRole`. `SystemRole` is compound morphology, not a universal governed value. The name creates no system admission, kind membership, assignment, agency, capability, or Work.
+A durable system-role-kind name designates one exact local kind admitted through C.3 and A.2. Recover that kind through its candidate domain, operative membership condition, intended member/non-member boundary, and continuity rule. A practice or source reference can locate the definition or signal that two definitions should be compared; it does not identify the kind. Candidates are entities already admitted under A.1 as `U.System`.
+
+The Tech designation normally ends in `...SystemRole`, for example `ReviewerSystemRole`. `SystemRole` is compound morphology, not a universal governed value. The name creates no system admission, kind membership, assignment, agency, capability, or Work.
 
 A system-role-kind name preserves the distinctions in its operative membership condition. Keep a current holder, particular assignment or Work occurrence, temporary status, and current evidence or assurance claim separate from the kind name. A skill, Method-family or other qualifier belongs in the label when the admitted kind's definition makes that distinction necessary, under §6.
 
@@ -58,7 +60,11 @@ If a phrase such as `SeniorReviewer`, `NightOperator`, or source wording such as
 
 #### F.18:5.2 - System-Role-Assignment Names
 
-A system-role-assignment name designates one already recoverable obtaining occurrence of an exact direct species under `U.SystemRoleAssignment` and A.2.1; the system-role-kind name does not identify that occurrence. Recover the admitted holder system, the exact assigned local system-role kind, and only additional participants needed to distinguish that direct species. A taxonomy, reference scheme, description, display, or generic context episteme is not a mandatory assignment participant. Assignment extent follows uninterrupted predicate truth; an assertion or occurrence-description episteme may state a known interval separately. A durable assignment name uses a `NameCard` whose `GovernedValueRef` resolves to that occurrence. If public or cross-context reuse is needed, apply section 4.4; until it passes, retain the card locally and mark the row pending. Neither a name, card, row, nor publication occurrence makes the assignment obtain.
+A system-role-assignment name designates one already recoverable obtaining occurrence of an exact direct species under `U.SystemRoleAssignment` and A.2.1; the system-role-kind name does not identify that occurrence. Recover the admitted holder system, the exact assigned local system-role kind, and only additional participants needed to distinguish that direct species. A taxonomy, reference scheme, description, display, or generic context episteme is not a mandatory assignment participant.
+
+Assignment extent follows uninterrupted predicate truth; an assertion or occurrence-description episteme may state a known interval separately.
+
+A durable assignment name uses a `NameCard` whose `GovernedValueRef` resolves to that occurrence. If public or cross-context reuse is needed, apply section 4.4; until it passes, retain the card locally and mark the row pending. Neither a name, card, row, nor publication occurrence makes the assignment obtain.
 
 `Holder#Role:Context@Window` is source notation only. Recover the holder System, local system-role kind, assignment occurrence and its declared species when one exists, and any separately applicable context, schedule, interpretation, or Work relation. The source token is neither a Tech name nor proof of assignment, capability, or performed Work.
 
@@ -71,16 +77,27 @@ Keep these separate:
 - `ShipbuildingMethod` names a method or method family;
 - `HullAssemblyWork` names a work family or planning-level work label until an exact performed occurrence is current.
 
-A role-derived or role-method-coupled expression is only a naming cue. First recover the exact value it refers to. If that value is an exact Method or Method family under A.3.1, choose a Method name. If it is an exact `U.MethodDescription`, `U.WorkPlan`, or dated `U.Work` occurrence, name that description episteme, plan episteme, or occurrence separately under A.3.2, A.15.2, or A.15.1; those names are not Method names. If the expression refers to another value, use the rule that defines or tests that value. Only then use F.18 to choose a durable name. An exact relation involving a system-role kind or assignment may constrain who may use a Method or perform Work; it neither creates nor names the Method, description, plan, or Work occurrence.
+A role-derived or role-method-coupled expression is only a naming cue. First recover the exact value it refers to. If that value is an exact Method or Method family under A.3.1, choose a Method name. If it is an exact `U.MethodDescription`, `U.WorkPlan`, or dated `U.Work` occurrence, name that description episteme, plan episteme, or occurrence separately under A.3.2, A.15.2, or A.15.1; those names are not Method names. If the expression refers to another value, use the rule that defines or tests that value.
 
-Treat an action nominal such as `testing` as a morphology cue, not a governed kind. Placement in function- or flow-structure prose identifies no `U.Function`. If the function-like use remains claim-bearing while its exact object or relation is hidden, apply `A.6.F`; if it is already recoverable, name that value under the rule that defines or tests it. Only then use F.18 to choose a durable name. A WBS element, activity, or Work Package remains plan- or assignment-episteme content about intended work; none of these uses identifies a performed Work occurrence admitted under `U.Work`.
+After identifying the value, use F.18 if a durable name is needed. An exact relation involving a system-role kind or assignment may constrain who may use a Method or perform Work; it neither creates nor names the Method, description, plan, or Work occurrence.
+
+Treat an action nominal such as `testing` as a morphology cue, not a governed kind. Placement in function- or flow-structure prose identifies no `U.Function`. If the function-like use remains claim-bearing while its exact object or relation is hidden, apply `A.6.F`; if it is already recoverable, name that value under the rule that defines or tests it. Only then use F.18 to choose a durable name.
+
+In a plan or assignment, a WBS element, activity or Work Package can identify intended work. To identify a performed occurrence, recover its A.15.1 basis.
 
 A durable name for performed Work points to one dated occurrence already grounded under `A.15.1`. An action word, plan row, local work-family label, or `U.WorkPlan` does not create that occurrence or an assignment.
 
-Every System claimed as an actual performer must already have its A.13 core, including the obtaining assignment for the exact action and any scope, situation and window required by the receiving use. A.15.1 independently admits the dated Work from its Method, temporal extent, containing System and other required direct facts. Add F.6 only when the naming account or receiving use needs precise attribution through that same assignment; the assignment must cover the Work interval, have the recovered performer as holder and retain every participant required by its declared species. Missing or failed F.6 attribution alone leaves independently admitted Work and its durable name intact; if the same finding invalidates a consumed A.13 or A.15.1 premise, recheck that premise and its dependent conclusions. A compact naming account cites only the identities its receiving use needs. Add a continuity policy only when interruption, retry, a changed Method or binding, or competing designators make occurrence identity material.
+Every System claimed as an actual performer must already have its A.13 core, including the obtaining assignment for the exact action and any scope, situation and window required by the receiving use. A.15.1 independently admits the dated Work from its Method, temporal extent, containing System and other required direct facts.
+
+Add F.6 only when the naming account or receiving use needs precise attribution through that same assignment; the assignment must cover the Work interval, have the recovered performer as holder and retain every participant required by its declared species. Missing or failed F.6 attribution alone leaves independently admitted Work and its durable name intact; if the same finding invalidates a consumed A.13 or A.15.1 premise, recheck that premise and its dependent conclusions.
+
+A compact naming account cites only the identities its receiving use needs. Add a continuity policy only when interruption, retry, a changed Method or binding, or competing designators make occurrence identity material.
 
 Name any other result separately under its subject pattern, such as `A.15.PROD` for a production claim or `C.11` for a decision.
-When the underlying boundary wording still hides the relation, apply `A.6.P.WMR`. Use `F.18` only after an exact governed value and its use are recovered through a direct subject relation, an exact `A.6.1` application binding, or an exact local `A.15.PROD`/`A.6.RCD` claim. An exact non-assertability result retains its reason under `A.6.P.WMR:4.3`; it does not authorize durable naming of the attempted relation. A missing subject rule may identify a future pattern or declaration need; unavailable constructor semantics retain their separate derivation question. This section selects and tests a name. It does not define a second work-occurrence or work-result recovery algorithm.
+
+When the underlying boundary wording still hides the relation, apply `A.6.P.WMR`. Use `F.18` only after an exact governed value and its use are recovered through a direct subject relation, an exact `A.6.1` application binding, or an exact local `A.15.PROD`/`A.6.RCD` claim.
+
+An exact non-assertability result retains its reason under `A.6.P.WMR:4.3`; it does not authorize durable naming of the attempted relation. A missing subject rule may identify a future pattern or declaration need; unavailable constructor semantics retain their separate derivation question. This section selects and tests a name. It does not define a second work-occurrence or work-result recovery algorithm.
 
 For a method-relation or method-composition name, first decide whether the phrase names a Method, relations among Methods, a selected structure, or an episteme describing one of those objects.
 
@@ -123,7 +140,7 @@ Status-like and evidence-like wording must go to direct patterns:
 - availability of one selected edition through a particular expression and carrier, with reusable form conformance and form-mediated claims when current: `E.24.PUB`;
 - gate or admission result: the relevant gate, decision, or assurance pattern.
 
-Do not name these as system-role kinds or assignments unless that separate work-facing classification or direct assignment occurrence is actually current. “This standard plays the role of evidence” is repaired to the appropriate evidence-use, source-use, or status-use relation; it is not an assignment of the standard.
+Do not name these as system-role kinds or assignments unless that separate work-facing classification or direct assignment occurrence is current. “This standard plays the role of evidence” is repaired to the appropriate evidence-use, source-use, or status-use relation; it is not an assignment of the standard.
 
 #### F.18:5.6 - Relation, Slot, Interface, Port, and Signature Names
 
@@ -144,7 +161,7 @@ Before naming a relation-facing object, keep these settlements distinct:
 | --- | --- |
 | reusable predicate-definition episteme | An `A.6.RCD` result records a reusable definition and `C.2.1` gives it one truthful exact `EntityOfConcern`; the name denotes the definition, not a relation kind |
 | derived or primitive relation kind | `A.6.RCD`, `E.24`, and `E.24.UK` have admitted the kind and its direct subject pattern states obtaining, applicability, and occurrence identity |
-| one obtaining relation occurrence | the subject pattern establishes obtaining and `A.6.REL` applies the admitted kind's identity rule |
+| one obtaining relation occurrence | the case facts or constituting history satisfy the subject pattern’s predicate, and `A.6.REL` applies the admitted kind’s occurrence-identity rule |
 | formula, query, path, graph, diagram, or other representation element | The domain identifies the representation element and the correspondence needed by the receiving use; use C.29 when mathematical representation choice, transfer or reliance remains unresolved. Name the represented relation separately when that is the intended subject. |
 | designator or reference | the exact designation or reference relation resolves to the already settled object under its reference scheme |
 
@@ -152,5 +169,7 @@ One token may be reused only where the reference scheme and local sense preserve
 
 `F.18` can settle a durable name for the recovered value. It does not decide which value the interface word names, create a public row, or make that row available.
 
-Words such as *member*, *membership*, *belongs to*, and *in* do not by themselves identify one reusable relation. First use `E.10` to recover whether the sentence concerns mathematical inclusion, kind classification, relation participation, collection belonging, or constructive parthood. For a collection, an ordinary sentence such as “this edition belongs to this product series” is enough unless another use needs a reusable relation name. Name a reusable predicate only under the pattern that states who or what may belong, what makes belonging begin and end, and how recurrence and past belonging are handled. Do not create a `NameCard` or public name for generic `MemberOf` merely to abbreviate the ordinary sentence.
+Words such as *member*, *membership*, *belongs to*, and *in* do not by themselves identify one reusable relation. First use `E.10` to recover whether the sentence concerns mathematical inclusion, kind classification, relation participation, collection belonging, or constructive parthood.
+
+For a collection, an ordinary sentence such as “this edition belongs to this product series” is enough unless another use needs a reusable relation name. Name a reusable predicate only under the pattern that states who or what may belong, what makes belonging begin and end, and how recurrence and past belonging are handled. Do not create a `NameCard` or public name for generic `MemberOf` merely to abbreviate the ordinary sentence.
 

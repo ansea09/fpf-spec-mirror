@@ -6,12 +6,12 @@ section_id: "G.1:6"
 section_title: "Bias‑Annotation (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.1/G.1__007_bias-annotation-informative.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.1 — Author a Reusable CG-Frame Generator and Selector Kit"
   - "G.1:6 — Bias‑Annotation (informative)"
-line_start: 127608
-line_end: 127615
+line_start: 135658
+line_end: 135665
 dependencies:
   - "A.10"
   - "A.15.2"
@@ -54,7 +54,7 @@ keywords:
 
 ### G.1:6 - Bias‑Annotation (informative)
 
-* **Recency bias:** “newest paper wins” (mitigate with explicit inclusion criteria and update cadence in `G.2` wiring).
+* **Recency bias.** To counter “newest paper wins”, apply the stated inclusion criteria under `G.2` and follow any update cadence the review requires.
 * **Novelty bias:** over‑rewarding novelty at the expense of legality/assurance (mitigate by making acceptance and assurance pins explicit and governed).
 * **Algorithmic favoritism:** baking a preferred generator into “the chassis” (mitigate by keeping M3 method‑agnostic and putting method‑specific wiring into Extensions).
 * **Scalarisation bias:** collapsing selected sets or partial orders into a single score (mitigate by set‑return discipline pinned through `G.Core`).

@@ -6,12 +6,12 @@ section_id: "F.2:15"
 section_title: "Acceptance tests"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.2/F.2__016_acceptance-tests.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.2 — Source-Local Term Harvesting & Normalisation"
   - "F.2:15 — Acceptance tests"
-line_start: 119231
-line_end: 119249
+line_start: 126830
+line_end: 126848
 dependencies:
   - "A.11"
   - "A.7"
@@ -48,5 +48,5 @@ keywords:
 * **RSCR-F2-E02 (normaliser stability).** LNF edits do not silently widen or narrow the claim.
 * **RSCR-F2-E03 (language honesty).** Translation does not create unproved sameness.
 * **RSCR-F2-E04 (no stealth relation).** New notes still contain no cross-source identity or use claim.
-* **RSCR-F2-E05 (head-term focus).** The working set remains small and tied to actual downstream questions.
+* **RSCR-F2-E05 (head-term focus).** The working set remains small and tied to the downstream questions it must answer.
 

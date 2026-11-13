@@ -6,12 +6,12 @@ section_id: "A.19:5"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19/A.19__007_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.19 — CharacteristicSpace: Coordinates, State Predicates and Dynamics Hook (A.CHR‑SPACE)"
   - "A.19:5 — Solution"
-line_start: 34681
-line_end: 34906
+line_start: 36161
+line_end: 36386
 dependencies:
   - "A.10"
   - "A.15"
@@ -60,13 +60,13 @@ Each slot `i` names one Characteristic and one chosen `Scale`:
 
 The Characteristic supplies its subject/input signature: the entity kinds and roles required when it is assigned a value. For a relation Characteristic the signature also gives the role order, or states that the relation is symmetric. A use of the slot binds that participant tuple separately. The tuple is not the Coordinate; the Coordinate is a value on the chosen Scale. C.16 uses the same separation between measurand or subject tuple and measured Coordinate.
 
-The **CharacteristicSpace** is the Cartesian product of the slots' genuine Scale value sets:
+The **CharacteristicSpace** is the Cartesian product of the slots' Scale value sets:
 
 > `CS = product_i ValueSet(Scale_i)`.
 
 A point `x` in `CS` supplies one Coordinate `x(i)` from `ValueSet(Scale_i)` for every slot. Using that point for a subject separately binds a conforming subject/input tuple `b_i` and states or evaluates the characteristic assignment between `b_i` and `x(i)`. For example, the distance Characteristic may bind `(Machine-A, Machine-B)` while its Coordinate is `3.5 m`.
 
-A complete state is total over the selected basis. An observation or evaluation input may instead be partial: it supplies Coordinates only for a subset of slots and records `missing`, `censored`, `unknown`, or another observation status separately. A consumer applies its own applicability and tri-state or error rule before treating such input as a state. `not-applicable` is normally an applicability fact, not a Scale value; a domain may use it as a genuine value only when the Scale explicitly defines that meaning.
+A complete state is total over the selected basis. An observation or evaluation input may instead be partial: it supplies Coordinates only for a subset of slots and records `missing`, `censored`, `unknown`, or another observation status separately. A consumer applies its own applicability and tri-state or error rule before treating such input as a state. `not-applicable` is normally an applicability fact, not a Scale value; a domain may use it as a value only when the Scale explicitly defines that meaning.
 
 Any `U.Dynamics.stateSpace` refers to a declared `CharacteristicSpace`. The dynamics model states the constraints selecting its admitted states within that product, and its trajectories use points satisfying the applicable state constraints. A.3.3.CC constructs the configuration description; A.3.3 supplies additional state information, the dynamic law, time base, observation relation and prediction-use conditions.
 
@@ -80,9 +80,9 @@ The space satisfies A.1's entity criterion through this individuation and the id
 
 A `CharacteristicSpaceRef` resolves to exactly one such space under its declared effective reference scheme. Any version or temporal qualifier that selects the target is part of the reference's designation, not an ambient setting that may change its referent. Selecting another space requires an explicit new reference value; a path's current contents never silently retarget the old one. A returned document may help recover the space it describes, but cannot replace that space. After resolution, check the receiver's required basis positions, Scale semantics, projection and other operation conditions. Membership alone does not make two spaces interchangeable.
 
-When the use depends on one exact defining or describing episteme, carry `characteristicSpaceDescriptionRef: U.EpistemeRef` separately. Its referent is that exact C.2.1 episteme; neither the space nor `CharacteristicSpaceRef` has an edition property. Resolve both references and establish that the relied-on defining components describe the same selected space. Missing or multiple targets, unavailable resolution grounds, or a mismatch between that description and the selected space leave the dependent use unresolved; do not choose an implicit latest description or substitute a document for the space. A description reference is required only by a use that relies on it, including the explicit pin requirements of UNM and UINDM. Ordinary use of an exact space construction requires no additional description record.
+When the use depends on one defining or describing episteme, carry `characteristicSpaceDescriptionRef: U.EpistemeRef` separately. Its referent is that C.2.1 episteme; neither the space nor `CharacteristicSpaceRef` has an edition property. Resolve both references and establish that the relied-on defining components describe the same selected space. Missing or multiple targets, unavailable resolution grounds, or a mismatch between that description and the selected space leave the dependent use unresolved; do not choose an implicit latest description or substitute a document for the space. A description reference is required only by a use that relies on it, including the explicit pin requirements of UNM and UINDM. Ordinary use of a space construction requires no additional description record.
 
-An exact construction can be used directly without a separate classification declaration. When replacing a space, preserve the previous space, its selected description and the results obtained on that basis. Identify what changed, resolve the new positions, and establish the correspondence or re-obtain the affected observations and predicates required by the receiving use; a retained number alone cannot establish the new position meaning. For example, adding a substantive explanatory claim can give another description episteme of the same Celsius/kelvin space. Reversing its ordered positions instead gives another space, as in A.19.UINDM:5.4. Changing only the displayed layout establishes neither change. Keep C.16's measurement grounds and A.6.1's actual bindings available for the uses that need them.
+A construction can be used without a separate classification declaration. When replacing a space, preserve the previous space, its selected description and the results obtained on that basis. Identify what changed, resolve the new positions, and establish the correspondence or re-obtain the affected observations and predicates required by the receiving use; a retained number alone cannot establish the new position meaning. For example, adding a substantive explanatory claim can give another description episteme of the same Celsius/kelvin space. Reversing its ordered positions instead gives another space, as in A.19.UINDM:5.4. Changing only the displayed layout establishes neither change. Keep C.16's measurement grounds and A.6.1's bindings available for the uses that need them.
 
 ##### A.19:5.1.2 - Slot discipline (invariants)
 
@@ -103,15 +103,15 @@ To ensure consistency and comparability, a CharacteristicSpace must obey the fol
 
 ##### A.19:5.1.3 - Minimal structure hooks (optional overlays)
 
-A CharacteristicSpace has no default order, topology, or distance. Declare only the structure that a real use needs:
+A CharacteristicSpace has no default order, topology, or distance. Declare only the structure that a use needs:
 
 - **Order overlay.** `OrderOverlay = (D, preceq, laws, applicability)`, where `D` is a stated subset of `CS`, `preceq` is a typed binary relation on `D`, and `laws` say whether it is a preorder, partial order, or another named order. The declaration explains how the relation respects each participating Scale.
 - **Topology overlay.** `TopologyOverlay = (D, tau, construction, applicability)`, where `tau` is a topology on `D`. The construction may cite a product topology or give another basis; the name alone supplies no continuity claim.
 - **Distance overlay.** `DistanceOverlay = (D, d, distanceLaws, parameters, applicability)`, where `d : D x D -> nonnegative values`. `distanceLaws` states exactly which separation, symmetry, direction, and triangle conditions hold; parameters include any weights, units, normalization basis, and validity conditions.
 
-The declaration of every overlay is optional. Once a consumer relies on one, however, it names the exact overlay and stays within its domain and applicability conditions; any claimed order preservation, continuity, convergence, sensitivity, robustness, or stability must satisfy the laws of that overlay. An overlay adds analysis structure and cannot redefine a slot's Characteristic, Scale, admissible operations, or Coordinate meaning.
+The declaration of every overlay is optional. Once a consumer relies on one, however, it names the overlay and stays within its domain and applicability conditions; any claimed order preservation, continuity, convergence, sensitivity, robustness, or stability must satisfy the laws of that overlay. An overlay adds analysis structure and cannot redefine a slot's Characteristic, Scale, admissible operations, or Coordinate meaning.
 
-Here **distance** means a mathematical distance function, not a performance measure or a C.16 measurement method. Use a measurement specification under C.16:5.2 for the measurement definition and its `DHCMethodRef` for exact reference resolution.
+Here **distance** means a mathematical distance function, not a performance measure or a C.16 measurement method. Use a measurement specification under C.16:5.2 for the measurement definition and its `DHCMethodRef` for reference resolution.
 
 ##### A.19:5.1.4 - Dynamics hook (typing only)
 
@@ -123,11 +123,11 @@ Use **Characteristic**, **Scale**, **Level**, **Coordinate**, **CharacteristicSp
 
 ##### A.19:5.1.6 - Normalized values, classes and representative choice
 
-**Subject-pattern note.** A.19.UNM governs the directed transformation, optional equality-of-output relation `≡_UNM` and `NormalizationFix`. Cite the selected method instance, actual domain, target, preservation/loss basis and validity conditions when state-space reasoning uses that result.
+**Subject-pattern note.** A.19.UNM governs the directed transformation, optional equality-of-output relation `≡_UNM` and `NormalizationFix`. Cite the selected method instance, domain, target, preservation/loss basis and validity conditions when state-space reasoning uses that result.
 
 For an equality, join, acceptance predicate or comparison, state which distinctions its answer requires. A directed normalization suffices when its declared preservation basis supports that answer. A many-to-one normalization requires the receiving query to be constant on its classes; otherwise retain the original distinction, refine the normalization or return the missing basis. Forming the set of classes does not prove an operation on them well defined.
 
-If a state-space operation is inherited by classes, require compatible outputs and, for a partial operation, representative-independent availability under A.19.UNM. Cite a `NormalizationFix` only when an established class use needs a representative; choosing one does not restore the actual original state. Keep equality of labels separate from the claimed state or value equality.
+If a state-space operation is inherited by classes, require compatible outputs and, for a partial operation, representative-independent availability under A.19.UNM. Cite a `NormalizationFix` only when an established class use needs a representative; choosing one does not restore the original state. Keep equality of labels separate from the claimed state or value equality.
 
 ##### A.19:5.1.7 - Overlay use, sensitivity, and calibration (Normative)
 
@@ -135,12 +135,12 @@ Use the weakest declared overlay that the argument needs. Declaring an order or 
 
 When a consumer makes a sensitivity, robustness, continuity, stability, or prediction-use claim, that consumer states:
 
-1. the exact function, predicate evaluation, or transition map and the overlay it uses;
+1. the function, predicate evaluation, or transition map and the overlay it uses;
 2. the domain, codomain, applicability conditions, and claimed property;
 3. any bound, margin, approximation, uncertainty, or error allowance required by the consumer's policy; and
 4. the evidence or argument needed for that use.
 
-A useful bound need not be `Lipschitz <= 1`; its admissible value comes from the named use and policy. Claim isotonicity only when the use depends on order preservation. Claim commutation with normalization only when that exact composition matters. C.16 governs relied-on measurement and calibration claims. A.3.3 governs prediction error, horizon, and model applicability; A.20, A.21, G.4, and the direct authority pattern govern their own constraint, gate, criterion, and decision consequences. Non-expansiveness or commutation alone grants no gate, release, assurance, or work authority.
+A useful bound need not be `Lipschitz <= 1`; its admissible value comes from the named use and policy. Claim isotonicity only when the use depends on order preservation. Claim commutation with normalization only when that composition matters. C.16 governs relied-on measurement and calibration claims. A.3.3 governs prediction error, horizon, and model applicability; A.20, A.21, G.4, and the authority pattern govern their own constraint, gate, criterion, and decision consequences. Non-expansiveness or commutation alone grants no gate, release, assurance, or work authority.
 
 ##### A.19:5.1.8 - `CharacteristicSpacePredicate` (by-value)
 
@@ -150,17 +150,17 @@ A `CharacteristicSpacePredicate` is a typed unary predicate over one declared sp
 
 Its input variable denotes one state. The predicate declares which coordinates it reads and any projection used to obtain them. Its complete by-value meaning contains:
 
-- the exact `CharacteristicSpace`, input variable and domain;
+- the `CharacteristicSpace`, input variable and domain;
 - each read Coordinate's Scale and value interpretation;
-- any exact coordinate projection or A.19.UNM normalization instance used to obtain those inputs;
+- any coordinate projection or A.19.UNM normalization instance used to obtain those inputs;
 - the operators, cuts, bands, regions, or unary subpredicates used in its Boolean expression; and
 - the polarity that says which outcome satisfies the predicate.
 
-Conditions defined by thresholds, bands, and regions are unary predicates of this kind. Compose predicates with logical operators only after their input bindings and domains are aligned; otherwise give the composition an explicit binding that makes the conversion visible. A dominance or other comparison between two states is instead a typed binary comparison relation such as `R : D_left x D_right -> Boolean`, governed by A.19.CPM or another direct comparison pattern. Its comparator application and result are not components of a unary `CharacteristicSpacePredicate`. Use a genuinely n-ary predicate only when its full variable roles, domains, projections, and result type are declared.
+Conditions defined by thresholds, bands, and regions are unary predicates of this kind. Compose predicates with logical operators only after their input bindings and domains are aligned; otherwise give the composition an explicit binding that makes the conversion visible. A dominance or other comparison between two states is instead a typed binary comparison relation such as `R : D_left x D_right -> Boolean`, governed by A.19.CPM or another comparison pattern. Its comparator application and result are not components of a unary `CharacteristicSpacePredicate`. Use an n-ary predicate only when its full variable roles, domains, projections, and result type are declared.
 
-An arbitrary condition relation is not automatically a state or Coordinate. A use binds either a direct characteristic assignment or an explicit governed projection from its subject/input tuple to the predicate input. When the affected entity differs from the condition participants, the consumer also states that direct relation. An F.9 Bridge relates two exact local senses; it is not this subject-to-input binding.
+An arbitrary condition relation is not automatically a state or Coordinate. A use binds either a direct characteristic assignment or an explicit governed projection from its subject/input tuple to the predicate input. When the affected entity differs from the condition participants, the consumer also states that relation. An F.9 Bridge relates two local senses; it is not this subject-to-input binding.
 
-The predicate carries no applicability, assessment, observation, evidence, or evaluation window. A consumer separately identifies the available input and any evaluation operation and result it claims, with the exact `U.ClaimScope`, relevant `U.ContextSlice` membership, effective reference scheme and plane, application or evaluation window, and partial-input conditions required by that use. An evaluation may return `unknown`, `not-applicable`, or `error` when input or applicability is unresolved; those consumer results do not enlarge the predicate's Boolean codomain or the space's Scale value sets. When asserting a particular performed evaluation as `U.Work`, establish its A.13 basis and then its independent A.15.1 admission; keep its operation application and result separate from the predicate.
+The predicate carries no applicability, assessment, observation, evidence, or evaluation window. A consumer separately identifies the available input and any evaluation operation and result it claims, with the `U.ClaimScope`, relevant `U.ContextSlice` membership, effective reference scheme and plane, application or evaluation window, and partial-input conditions required by that use. An evaluation may return `unknown`, `not-applicable`, or `error` when input or applicability is unresolved; those consumer results do not enlarge the predicate's Boolean codomain or the space's Scale value sets. When asserting a performed evaluation as `U.Work`, establish its A.13 basis and then its independent A.15.1 admission; keep its operation application and result separate from the predicate.
 
 Predicate identity changes when one of these semantic components changes. Wording, notation, carrier, publication, identifier, or description-edition changes alone do not create another predicate. A consumer may evaluate the same predicate in another scope or window, but may not silently change its space, projection, Scale, normalization, expression, cut, band, composition, or polarity. An obtaining semantic Bridge or plane relation may be cited by one consumer use without becoming part of predicate identity.
 
@@ -168,15 +168,15 @@ Predicate identity changes when one of these semantic components changes. Wordin
 
 #### A.19:5.2 - State Spaces & Comparability
 
-> **Memory hook:** Compare only values already in the same declared space or carried into one common space through an exact coordinate mapping. Reusing a predicate also requires the same semantic predicate. If the use also claims a relation between two exact F.17 local senses, cite an F.9 Bridge only after its predicate obtains and state the bounded-use claim and reliance separately. If the ReferencePlane changes, cite the applicable plane relation. Scope and window remain separate in either case.
+> **Memory hook:** Compare only values already in the same declared space or carried into one common space through an exact coordinate mapping. Reusing a predicate also requires the same semantic predicate. If the use also claims a relation between two F.17 local senses, cite an F.9 Bridge only after its predicate obtains and state the bounded-use claim and reliance separately. If the ReferencePlane changes, cite the applicable plane relation. Scope and window remain separate in either case.
 
 This section supplies space projection, embedding, product, and two coordinate-comparability regimes. It does not perform a CPM comparison or a SelectorMechanism selection. A consumer that names a state or category cites the declared space and any predicate required by that use, then keeps its own scope, evaluation, result, evidence, and work relations.
 
-A CharacteristicSpace may be written abstractly as `CS = ⟨I, basis⟩`, where `I` indexes slots and `basis` is the ordered set of `(Characteristic, Scale)` bindings. A consumer-specific label for a space does not create another A.19 kind; the consumer instead states the exact use or relation position, entity and any predicate required by that use, with the claim scope, context-slice membership, effective reference scheme and plane required by that use.
+A CharacteristicSpace may be written abstractly as `CS = ⟨I, basis⟩`, where `I` indexes slots and `basis` is the ordered set of `(Characteristic, Scale)` bindings. A consumer-specific label for a space does not create another A.19 kind; the consumer instead states the use or relation position, entity and any predicate required by that use, with the claim scope, context-slice membership, effective reference scheme and plane required by that use.
 
 ##### A.19:5.2.1 - CS Operators (notation-neutral, reference-scheme-local)
 
-To enable model composition, define operations on CharacteristicSpaces independently of notation. State any effective reference scheme or reference plane on which interpretation or use of the operation depends. Those values locate the operation but create no correspondence. When a use relates two exact F.17 local senses, test the direct F.9 predicate and cite the Bridge only when it obtains; state the bounded-use claim and any reliance separately. A ReferencePlane crossing cites its applicable plane relation. A scheme or plane difference alone establishes neither relation.
+To enable model composition, define operations on CharacteristicSpaces independently of notation. State any effective reference scheme or reference plane on which interpretation or use of the operation depends. Those values locate the operation but create no correspondence. When a use relates two F.17 local senses, test the F.9 predicate and cite the Bridge only when it obtains; state the bounded-use claim and any reliance separately. A ReferencePlane crossing cites its applicable plane relation. A scheme or plane difference alone establishes neither relation.
 
 ###### A.19:5.2.1.1 - Subspace — projection
 
@@ -186,7 +186,7 @@ For a space `CS_I` with basis `I` and a subset `S`, the projection `pi_S^I : CS_
 
 An embedding `iota : CS_1 -> CS_2` is point-injective and preserves every structure named by its declaration. It gives an injective slot correspondence and an injective value map for each corresponding slot. Identity maps and exact, reversible unit conversions can support an embedding when they preserve the declared Scale meaning. The declaration states its domain, image, preserved structures, and any A.19.UNM instances used.
 
-A mapping that loses distinctions on its declared domain is not an embedding. State the preserved and lost distinctions, and let each consumer decide whether that loss is admissible for its comparison, prediction, gate, or assurance use. Dropping a Coordinate is a projection; on a restricted domain it may still be point-injective if the retained Coordinates determine the dropped value. An embedding claim additionally requires the declared slot correspondence and preservation of every named structure. When the use relates two exact F.17 local senses and the F.9 predicate obtains, cite that Bridge and a separate bounded-use claim. A ReferencePlane change instead cites its applicable plane relation. The coordinate mapping, semantic relation, plane relation, and C.16 calibration or measurement backing remain separate.
+A mapping that loses distinctions on its declared domain is not an embedding. State the preserved and lost distinctions, and let each consumer decide whether that loss is admissible for its comparison, prediction, gate, or assurance use. Dropping a Coordinate is a projection; on a restricted domain it may still be point-injective if the retained Coordinates determine the dropped value. An embedding claim additionally requires the declared slot correspondence and preservation of every named structure. When the use relates two F.17 local senses and the F.9 predicate obtains, cite that Bridge and a separate bounded-use claim. A ReferencePlane change instead cites its applicable plane relation. The coordinate mapping, semantic relation, plane relation, and C.16 calibration or measurement backing remain separate.
 
 ###### A.19:5.2.1.3 - Product – **Combination** `CS₁ ⊗ CS₂ = CS⊗`.
 
@@ -198,13 +198,13 @@ A label such as `Ready`, `Authorized`, or `Degraded` is a consumer-side category
 
 ###### A.19:5.2.2.1 - Coordinatewise comparability (`≼_coord`)
 
-Two states can be compared **coordinatewise** only under strict conditions. Essentially, we require the states to be expressed in the **same measurement space**, with the **same applicable units and scales**, and using the **same state definitions**. Formally, coordinatewise comparison is allowed **only if all of the following hold**:
+Two states can be compared **coordinatewise** only under the conditions below. Essentially, we require the states to be expressed in the **same measurement space**, with the **same applicable units and scales**, and using the **same state definitions**. Formally, coordinatewise comparison is allowed **only if all of the following hold**:
 
 -   **Same space.** Both coordinate values lie in the same `CharacteristicSpace` by value. Similar names, shared storage, or a common model-use label are insufficient.
 
 -   **Scale congruence.** For each slot being compared, the scale type, any applicable unit, and polarity orientation are **identical**. For example, if comparing temperature values, both must be on the same scale (say, °C on an interval scale with “higher = hotter” orientation). No unit mismatches or differing interpretations can be present.
 
--   **Predicate and use congruence.** When comparison depends on a category predicate, both values use the same `CharacteristicSpacePredicate` by value. CPM still states the exact comparison scope, comparator, reference plane, and evaluation window; A.19 does not infer them from matching labels.
+-   **Predicate and use congruence.** When comparison depends on a category predicate, both values use the same `CharacteristicSpacePredicate` by value. CPM still states the comparison scope, comparator, reference plane, and evaluation window; A.19 does not infer them from matching labels.
 
 When these conditions are met, one can define a **coordinatewise preorder** over states. Common patterns include:
 
@@ -216,13 +216,13 @@ By default, **no comparability** is assumed unless proven. If any of the above c
 
 ###### A.19:5.2.2.2 - Normalization‑based comparability (`≼_normalization`)
 
-When two state vectors do not meet the strict conditions for coordinatewise comparison (e.g. they come from different spaces, or the “same” Characteristics are measured on different scales or units), the only sanctioned way to compare them is: **normalize, then compare**.
+When two state vectors do not meet the conditions for coordinatewise comparison (e.g. they come from different spaces, or the “same” Characteristics are measured on different scales or units), the only sanctioned way to compare them is: **normalize, then compare**.
 
 Concretely: if we have state _x_ in CS₁ and state _y_ in CS₂, a normalization‑based comparison is permitted only if the model can cite a set of `NormalizationMethodInstanceId`(s) under a chosen **UNM** (per **A.19.UNM**) that lands the relevant coordinates of _x_ into CS₂ (or lands both into a declared common target space). The base results are **NCVs** with their preserved/lost distinctions. Use an `≡_UNM` class only when the receiving query is recoverable from that class; an inherited operation needs its separate compatibility and availability argument under A.19.UNM.
 
 **Comparability rule (normalize-then-compare).** We say _x_ $≼_{\mathrm{normalization}}$ _y_ only if, after applying the cited normalization instances to produce a representation of _x_ in CS₂ (or a common target), the mapped state can be compared **coordinatewise** under `≼_coord`. In other words, we never compare raw _x_ and _y_; we compare *after mapping into a common, well-typed space*.
 
-If a normalization use also spans different reference schemes or planes, keep the decisions separate. The A.19.UNM instance supplies the coordinate mapping. Cite an F.9 Bridge only when the use relates two exact F.17 local senses and its direct predicate obtains; state the bounded-use claim and reliance separately, with `CL` only as optional evidence shorthand. A ReferencePlane crossing cites its applicable plane relation. CPM supplies the comparison scope and evaluation window, and B.3 enters only for an actual assurance use. None of these relations or consequences follows from the scheme or plane difference alone.
+If a normalization use also spans different reference schemes or planes, keep the decisions separate. The A.19.UNM instance supplies the coordinate mapping. Cite an F.9 Bridge only when the use relates two F.17 local senses and its predicate obtains; state the bounded-use claim and reliance separately, with `CL` only as optional evidence shorthand. A ReferencePlane crossing cites its applicable plane relation. CPM supplies the comparison scope and evaluation window, and B.3 enters only for an assurance use. None of these relations or consequences follows from the scheme or plane difference alone.
 
 **Inspectability.** Each normalization instance used for comparison is recoverable through its A.19.UNM declaration. C.16 governs measurement and calibration backing. When values differ in scale, reference scheme, or plane, keep the normalization, any independently obtaining semantic Bridge with its separate use claim, any applicable plane relation, and their limitations explicit.
 
@@ -232,19 +232,19 @@ If a normalization use also spans different reference schemes or planes, keep th
 
 A.19 defines the space and `CharacteristicSpacePredicate`; it does not define a state assertion, applicability relation, dated evaluation work, gate, evidence relation, assurance result, or permission to act.
 
-A consumer use recovers the exact subject or input, any direct characteristic assignment or projection from that subject, the A.19 space, and any predicate required by that use. It supplies the set-valued `U.ClaimScope`, relevant A.2.6 `U.ContextSlice` membership, effective reference scheme and reference plane, and application or evaluation window required for interpretation, applicability or reliance, or by the receiving pattern. When the use needs an obtaining F.9 Bridge, identify it with its separate bounded-use claim and reliance; identify any applicable plane relation separately. When an evaluation is claimed, identify the exact evaluation-operation application and its typed result under the applicable evaluation or assertion rule. A.10 provenance, G.11 currentness, measurement backing, assurance, and receiving-work disposition remain separate.
+A consumer use recovers the subject or input, any direct characteristic assignment or projection from that subject, the A.19 space, and any predicate required by that use. It supplies the set-valued `U.ClaimScope`, relevant A.2.6 `U.ContextSlice` membership, effective reference scheme and reference plane, and application or evaluation window required for interpretation, applicability or reliance, or by the receiving pattern. When the use needs an obtaining F.9 Bridge, identify it with its separate bounded-use claim and reliance; identify any applicable plane relation separately. When an evaluation is claimed, identify the evaluation-operation application and its typed result under the applicable evaluation or assertion rule. A.10 provenance, G.11 currentness, measurement backing, assurance, and receiving-work disposition remain separate.
 
-For a `Ready` claim requiring temperature below a cut and pressure above a cut, A.19 supplies the two declared coordinates, scales, normalization or coordinate-mapping basis, operators, cuts, polarity, and conjunction. The actual state assertion binds the pump, inputs and result, with the scope, slice, evaluation interval and evidence use required to interpret or support that assertion. Any semantic Bridge or plane relation needed by that use remains separate. Changing the evaluation interval does not change the predicate; changing either cut does.
+For a `Ready` claim requiring temperature below a cut and pressure above a cut, A.19 supplies the two declared coordinates, scales, normalization or coordinate-mapping basis, operators, cuts, polarity, and conjunction. The state assertion binds the pump, inputs and result, with the scope, slice, evaluation interval and evidence use required to interpret or support that assertion. Any semantic Bridge or plane relation needed by that use remains separate. Changing the evaluation interval does not change the predicate; changing either cut does.
 
-Transporting a predicate into another space or transporting an assertion across spaces requires the exact Coordinate correspondence. Use an embedding only for point-injective structure-preserving transport; use a declared lossy mapping or projection when normalization discards distinctions. If the use relates two exact F.17 local senses and the F.9 predicate obtains, cite that Bridge and its separate bounded-use claim. If the ReferencePlane changes, cite the applicable plane relation. A scheme or plane difference alone establishes neither relation. If the required correspondence is absent, return the unsupported comparison or evaluation with its missing basis. Approximate use needs its own stated relation, tolerances and warrant.
+Transporting a predicate into another space or transporting an assertion across spaces requires the exact Coordinate correspondence. Use an embedding only for point-injective structure-preserving transport; use a declared lossy mapping or projection when normalization discards distinctions. If the use relates two F.17 local senses and the F.9 predicate obtains, cite that Bridge and its separate bounded-use claim. If the ReferencePlane changes, cite the applicable plane relation. A scheme or plane difference alone establishes neither relation. If the required correspondence is absent, return the unsupported comparison or evaluation with its missing basis. Approximate use needs its own stated relation, tolerances and warrant.
 
 ##### A.19:5.2.4 - Cross-reference-scheme and cross-plane comparability
 
-A comparison across reference schemes or planes follows the relations the case actually needs. When it relates two exact F.17 local senses and the F.9 predicate obtains, cite that Bridge and a separate bounded-use claim; `CL` is optional evidence shorthand. A plane crossing cites its applicable plane relation. Keep the coordinate mapping and A.19.UNM instances explicit. A context, scheme, or plane difference alone establishes no Bridge or comparison admissibility, and a reverse comparison needs its own justified direction.
+A comparison across reference schemes or planes follows the relations the case needs. When it relates two F.17 local senses and the F.9 predicate obtains, cite that Bridge and a separate bounded-use claim; `CL` is optional evidence shorthand. A plane crossing cites its applicable plane relation. Keep the coordinate mapping and A.19.UNM instances explicit. A context, scheme, or plane difference alone establishes no Bridge or comparison admissibility, and a reverse comparison needs its own justified direction.
 
-A comparison may reuse a predicate only when its complete by-value meaning is unchanged. When a coordinate mapping is needed, it must preserve every predicate component required by this use. If the reuse also relates two exact local senses through an obtaining Bridge, a separate bounded-use claim states that semantic use and any required reliance passes. CPM separately binds comparison scope, comparator, input values, effective reference plane, and evaluation window. The Bridge alone copies neither predicate content, scope, nor time, and a common label establishes none of them.
+A comparison may reuse a predicate only when its complete by-value meaning is unchanged. When a coordinate mapping is needed, it must preserve every predicate component required by this use. If the reuse also relates two local senses through an obtaining Bridge, a separate bounded-use claim states that semantic use and any required reliance passes. CPM separately binds comparison scope, comparator, input values, effective reference plane, and evaluation window. The Bridge alone copies neither predicate content, scope, nor time, and a common label establishes none of them.
 
-C.16 governs measurement uncertainty and calibration limits; A.3.3 governs prediction error and model applicability. Use B.3 or the direct assurance pattern when the use makes an assurance claim. Return the comparison as unsupported for the intended use when a critical coordinate lacks an admissible normalization or coordinate mapping; a separately needed semantic Bridge, bounded-use claim or plane relation is absent; required reliance does not pass; or the required predicate, plane, scope or window cannot be held fixed. Keep that missing basis distinct from comparator-established incomparability.
+C.16 governs measurement uncertainty and calibration limits; A.3.3 governs prediction error and model applicability. Use B.3 or the assurance pattern when the use makes an assurance claim. Return the comparison as unsupported for the intended use when a critical coordinate lacks an admissible normalization or coordinate mapping; a separately needed semantic Bridge, bounded-use claim or plane relation is absent; required reliance does not pass; or the required predicate, plane, scope or window cannot be held fixed. Keep that missing basis distinct from comparator-established incomparability.
 
 ##### A.19:5.2.5 - Characteristic-Space Reference Chain
 
@@ -252,25 +252,25 @@ When evaluating a checklist, StateAssertion, gate, assurance argument, or decisi
 
 `declared Coordinates -> [normalization or quotient, when used] -> [indicator choice, when used] -> [order, topology, or distance overlay, when used] -> neighboring predicate evaluation, assertion, gate, assurance, or decision claim`
 
-Only the branches actually used are present. A.19 supplies the declared space and any named mapping, quotient, or overlay; the consumer supplies applicability, operation, result, and consequence. Co-implementation in software or records does not collapse these values.
+Only the branches used are present. A.19 supplies the declared space and any named mapping, quotient, or overlay; the consumer supplies applicability, operation, result, and consequence. Co-implementation in software or records does not collapse these values.
 
 #### A.19:5.3 - Operator library (notation‑neutral)
 
 **Space operations:** `Sub` (projection), `Emb` (embedding), `Prod` (product), `Quot` (quotient by declared equivalence). **Representative choice:** `NormalizationFix` chooses a representative for an established normalization-class use under A.19.UNM.
 
-**Predicate and assertion transport:** `Pull` transports a predicate through a declared embedding or lossy mapping; `Push` transports an assertion only with the support and conditions required by its subject pattern; a permitted narrower use states its changed or lost meaning. **Indicatorization and aggregation:** `Indicatorize` applies an `IndicatorChoicePolicy`; `Fold_Gamma` performs admissible aggregation under its subject pattern. **Semantic-relation mnemonic:** `Align_B` is not a space operator: when retained as a consumer mnemonic, it names only an already obtaining F.9 Bridge between two exact F.17 local senses. A ReferencePlane relation remains separate.
+**Predicate and assertion transport:** `Pull` transports a predicate through a declared embedding or lossy mapping; `Push` transports an assertion only with the support and conditions required by its subject pattern; a permitted narrower use states its changed or lost meaning. **Indicatorization and aggregation:** `Indicatorize` applies an `IndicatorChoicePolicy`; `Fold_Gamma` performs admissible aggregation under its subject pattern. **Semantic-relation mnemonic:** `Align_B` is not a space operator: when retained as a consumer mnemonic, it names only an already obtaining F.9 Bridge between two F.17 local senses. A ReferencePlane relation remains separate.
 
-**OP-1 (Normative).** Use `Align_B` only after the direct F.9 predicate obtains. The consumer cites that exact Bridge, a separate bounded-use claim, and the reliance required for the named gate, comparison, or assurance use; `CL` remains optional evidence shorthand. A ReferencePlane crossing cites its applicable plane relation and does not use `Align_B` unless an independently obtaining semantic Bridge is also current. The consumer separately binds scope, evaluation window, and result; any assurance consequence requires a separately current B.3 assurance result.
+**OP-1 (Normative).** Use `Align_B` only after the F.9 predicate obtains. The consumer cites that Bridge, a separate bounded-use claim, and the reliance required for the named gate, comparison, or assurance use; `CL` remains optional evidence shorthand. A ReferencePlane crossing cites its applicable plane relation and does not use `Align_B` unless an independently obtaining semantic Bridge is also current. The consumer separately binds scope, evaluation window, and result; any assurance consequence requires a separately current B.3 assurance result.
 
 #### A.19:5.4 - Set-view, comparison, and selection boundary
 
-A view, comparison result, selection, portfolio, distance-based neighborhood, or transition-sensitive interpretation is a consumer value. It may cite an A.19 space, predicate, order, distance, or transition relation, but its identity and result remain with the direct view, comparison, selection, or transition pattern.
+A view, comparison result, selection, portfolio, distance-based neighborhood, or transition-sensitive interpretation is a consumer value. It may cite an A.19 space, predicate, order, distance, or transition relation, but its identity and result remain with the view, comparison, selection, or transition pattern.
 
 #### A.19:5.5 - Further worked uses
 
-**More coordinates.** A pump condition may add vibration or calibration Coordinates to the two-slot example. Add each slot only with its Characteristic, subject/input signature, Scale, and genuine value domain; then extend the predicate explicitly.
+**More coordinates.** A pump condition may add vibration or calibration Coordinates to the two-slot example. Add each slot only with its Characteristic, subject/input signature, Scale, and value domain; then extend the predicate explicitly.
 
 **Episteme evaluation.** A method-description review uses clarity, evidence recoverability, source currentness, and relation precision coordinates. A.19 supplies the declared characteristic space; the evaluation pattern contains the defining content for the stop condition, rating interpretation, and improvement decision.
 
-**Cross-scheme comparison.** A built-asset team compares readiness values expressed under different measurement conventions. It first names an admissible normalization into one declared target space. If the use also relates two exact F.17 local senses, it tests the direct F.9 predicate and cites the Bridge only when it obtains, with a separate bounded-use claim and reliance. If the ReferencePlane changes, it cites the applicable plane relation. A separate A.19.CPM application then binds the compared states, comparator, scope, window, and result.
+**Cross-scheme comparison.** A built-asset team compares readiness values expressed under different measurement conventions. It first names an admissible normalization into one declared target space. If the use also relates two F.17 local senses, it tests the F.9 predicate and cites the Bridge only when it obtains, with a separate bounded-use claim and reliance. If the ReferencePlane changes, it cites the applicable plane relation. A separate A.19.CPM application then binds the compared states, comparator, scope, window, and result.
 

@@ -6,12 +6,12 @@ section_id: "E.24.UK:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.UK/E.24.UK__006_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.24.UK — U-kind Admission and Ontic Settlement"
   - "E.24.UK:4 — Solution"
-line_start: 117336
-line_end: 117581
+line_start: 124859
+line_end: 125137
 dependencies:
   - "A.1.1"
   - "A.11"
@@ -43,9 +43,11 @@ keywords:
 
 ### E.24.UK:4 - Solution
 
-Treat durable U-kind admission as a claim-bearing decision about one identified entity, not as a relation between a public name and a settlement and not as a bundle of future members, rules, boundaries, and uses. Select the decision's EntityOfConcern by the entry rule above; keep the proposed kind criterion, extent, spelling, and use-enabling claims in its ClaimGraph. Record the decision in a DRR or another claim-bearing episteme under `E.9`; the decision creates no project-side `U.Relation` occurrence.
+Durable U-kind admission is a claim-bearing decision about one identified entity. The decision is neither a relation between a public name and a settlement nor a bundle of future members, rules, boundaries and uses. Select the decision's EntityOfConcern by the entry rule above; keep the proposed kind criterion, extent, spelling, and use-enabling claims in its ClaimGraph.
 
-Use the one `E24FamilySettlementDecision` in `E.24:4.0a`. The table below locates its U-kind fields; it supplies no separate decision and changes none of the shared decision's requirements.
+Record the decision in a DRR or another claim-bearing episteme under `E.9`; the decision creates no project-side `U.Relation` occurrence.
+
+Use the one `E24FamilySettlementDecision` in `E.24:4.0a`. The table locates its U-kind fields. They belong to that decision and follow all its requirements.
 
 | Practitioner question | Exact place in the shared decision |
 | --- | --- |
@@ -55,12 +57,14 @@ Use the one `E24FamilySettlementDecision` in `E.24:4.0a`. The table below locate
 | What durable kind is proposed? | `ProposedDurableUKindIfAny`, including governed individuals, membership rule and scheme, intended extent and nearest non-members, plus the root-inclusion or exact identity-dependence rule when that branch needs one |
 | What public spelling is proposed, if any? | `CandidatePublicSpellingIfAny`; it remains naming pressure, not admission evidence |
 | What existing rule already covers the need? | `ExistingGovernorAndNonDuplicationResult` |
-| Which relations and declarations does the receiving use actually consume? | `MinimalGovernedRelationSet`, `IdentityBearingDirectRelationIfSelected`, and `ReusableDeclarationsActuallyConsumed`; inactive entries are omitted only from the display, never from the underlying decision when they are required |
+| Which relations and declarations does the receiving use consume? | `MinimalGovernedRelationSet`, `IdentityBearingDirectRelationIfSelected`, and `ReusableDeclarationsActuallyConsumed`; inactive entries are omitted only from the display, never from the underlying decision when they are required |
 | Who will rely on the result, and where does it stop? | `NamedDependentPatternReliance`, `NonUseBoundary`, and `ReopenCondition` |
 | What was decided? | `Outputs.UKindAdmissionResult`, including the result reference, one of the six dispositions, subject-pattern locator, positive membership-and-extent result when current, branch-specific result, and non-use/reopen boundary |
-| Is additional durable ontic coordination needed? | `Outputs.OntologyDispositionResult` records direct use, bounded coordination or a genuinely needed durable ontic. `U-kind-only` may cite a needed accepted ontic or explicitly conclude that no additional ontic is needed; `atomic ontic-plus-U-kind` creates sibling outputs only when both are independently needed. |
+| Is additional durable ontic coordination needed? | `Outputs.OntologyDispositionResult` records direct use, bounded coordination, a durable ontic that the use needs, or an unresolved stop with its reason and missing grounds. `U-kind-only` may cite a needed accepted ontic or explicitly conclude that no additional ontic is needed; `atomic ontic-plus-U-kind` creates sibling outputs only when both are independently needed. |
 
-A short view is therefore valid only when every displayed answer resolves back to that one shared decision. An inactive field may disappear from the view; a required field may not disappear from the decision. The `UKindAdmissionResultRef` identifies the result, not the decision episteme. In an atomic decision, the ontic and admission results remain provisional together and neither is evidence for the other.
+A short view is valid only when every displayed answer resolves back to that one shared decision. An inactive field may disappear from the view; a required field may not disappear from the decision.
+
+The `UKindAdmissionResultRef` identifies the result, not the decision episteme. In an atomic decision, both results remain provisional while a required branch is unresolved. Neither supplies evidence for the other.
 
 The shared decision selects exactly one positive form—`root`, `same-individual-dependent`, or `identity-dependent`—or one non-admission exit—`reuse`, `local-kind`, or `reject`. Every positive result cites its durable membership rule and scheme. Same-individual dependence also states the root and the implication to root membership for the same individual. Identity dependence instead cites an already governed relation to a distinct root-kind individual plus every discriminator. The three non-admission exits cite the exact reused kind, local C.3.2 declaration, or recovered non-kind object.
 
@@ -76,10 +80,14 @@ Test a proposed new durable U-kind against these eight conditions. It may receiv
 4. **Action-facing need.** FPF users need to state, compare, constrain, transform, or otherwise reason about those individuals under this kind; a wording preference alone does not qualify.
 5. **Non-duplication.** Existing U-kinds, direct relations, declaration SlotKinds, local C.3 kinds, and selected structures cannot preserve the needed distinction without this durable kind.
 6. **Defining locus.** One primary rule passage or accepted governed source set states the kind's identity or membership, intended extent, admissible use, and non-use boundary.
-7. **Shared E.24-family settlement.** Fill `E.24:4.0a` with the subject kind and identity rule, the smallest governed relation set needed by the named use, any identity-bearing relation selected by the current settlement decision, declarations actually reused, direct defining or testing rules, receiving use, and non-use and reopen boundaries. Also cite the durable-membership rule and scheme, the same-individual inclusion law or identity-dependence relation when applicable, and the exact result references. Record whether an additional durable ontic is actually needed. If direct rules suffice, return the direct-use or bounded-coordination disposition and no new ontic result. Only when both new outputs are independently needed does an atomic co-decision return separate provisional outputs without circular premises.
+7. **Shared E.24-family settlement.** Fill `E.24:4.0a` with the subject kind and identity rule, the smallest governed relation set needed by the named use, any direct relation that the subject’s identity predicate selects as identity-bearing (including its defined participants and occurrence-identity rule), the declarations the receiving use reuses, direct defining or testing rules, receiving use, and non-use and reopen boundaries. Also cite the durable-membership rule and scheme, the same-individual inclusion law or identity-dependence relation when applicable, and the exact result references. Record whether the receiving use needs an additional durable ontic.
+
+   If direct rules suffice, return the direct-use or bounded-coordination disposition and no new ontic result. Only when both new outputs are independently needed does an atomic co-decision return separate outputs on independent grounds. Both remain provisional while a required branch is unresolved.
 8. **By-value dependence.** Current or selected downstream uses cite the kind by value rather than only repeating its label.
 
-An unestablished required condition leaves positive admission unresolved. When the available basis establishes a non-admission exit, select `reuse` if an admitted durable kind already covers the distinction, `local-kind` if bounded C.3.2 classification is sufficient, or `reject` if no classification result is needed for the receiving use. A failed positive test alone supplies none of those results. Recover the exact direct relation, declaration component, selected structure, episteme, publication form, representation element, or source wording that carries the current claim. Only after disposition is settled may an author apply F.8, F.5, and F.18 naming criteria and constitute any public F.17 row.
+An unestablished required condition leaves positive admission unresolved. When the available basis establishes a non-admission exit, select `reuse` if an admitted durable kind already covers the distinction, `local-kind` if bounded C.3.2 classification is sufficient, or `reject` if no classification result is needed for the receiving use.
+
+A failed positive test alone supplies none of those results. Recover the direct relation, declaration component, selected structure, episteme, publication form, representation element, or source wording that carries the current claim. Only after disposition is settled may an author apply F.8, F.5, and F.18 naming criteria and constitute any public F.17 row.
 
 #### E.24.UK:4.2 - Six Admission Dispositions
 
@@ -88,8 +96,8 @@ The typed `AdmissionDisposition` has exactly six values:
 1. **`root`.** The candidate classifies individuals identified by one cited identity or membership rule whose extent and recognition conditions are explicit.
 2. **`same-individual-dependent`.** The candidate classifies individuals already admitted under one root U-kind. The root pattern keeps individual identity; the dependent pattern adds a stable membership condition and an action-facing use. The accepted settlement also states the implication: if that same individual satisfies the dependent condition, it is a member of the named root kind.
 3. **`identity-dependent`.** The candidate classifies a distinct individual whose identity cannot be stated without one named root-kind individual. The exact dependence relation between those two individuals and every additional discriminator must already have a defining rule. A holder or root reference without that relation does not close admission.
-4. **`reuse`.** The needed individuals and distinction are already covered by one admitted durable U-kind. Reuse that exact kind and its cited identity or membership rule; do not admit a duplicate root or dependent kind.
-5. **`local-kind`.** Record this non-admission exit only with one exact current C.3.2 declaration through `LocalKindDeclarationRef`. The distinction remains local under the C.3 family and does not become a root or dependent durable U-kind; E.24.UK does not restate the declaration's internal mechanics.
+4. **`reuse`.** The needed individuals and distinction are already covered by one admitted durable U-kind. Reuse that kind and its cited identity or membership rule; do not admit a duplicate root or dependent kind.
+5. **`local-kind`.** Record this non-admission exit only with one current C.3.2 declaration through `LocalKindDeclarationRef`. The distinction remains local under the C.3 family and does not become a root or dependent durable U-kind; E.24.UK does not restate the declaration's internal mechanics.
 6. **`reject`.** The receiving use requires no durable or local classification result. Keep the exact relation, declaration component, selected structure, episteme, publication object, representation element, or source wording that carries the claim. When the receiving use needs only a statement of participation, use Plain relation-defined wording. When it needs classification by that participation, test the C.3.2 local-kind route before considering durable admission.
 
 Only `root`, `same-individual-dependent`, and `identity-dependent` admit the candidate as a durable U-kind. `reuse`, `local-kind`, and `reject` are distinct exits, not weakened dependent admissions.
@@ -107,16 +115,23 @@ When the contrast is kind versus instance, say **kind**, **individual**, **insta
 
 Durable U-kind membership and C.3 classification remain distinct; C.3 relies on an admitted meta-kind. `E24UK-AR-UKIND-R5-01` admits `U.Kind`; its individuals are reusable intensional classification distinctions recovered through candidate domain, operative membership condition, intended member/non-member boundary, and continuity rule. A `KindSignature`, source or practice label, scheme, extension, assertion, or publication is not that kind individual.
 
-For an independently identified candidate `x`, membership in an admitted durable subject kind `K` still follows the direct predicate `M_K` under the accepted settlement. A C.3 `U.Kind` individual may declare or reuse that predicate for typed reasoning without admitting another public `U.*` kind. A row, spelling, record, or unresolved evaluation changes neither the direct predicate nor the world-side extent.
+For an independently identified candidate `x`, membership in an admitted durable subject kind `K` follows the direct predicate `M_K` under the accepted settlement. A C.3 `U.Kind` individual may declare or reuse that predicate for typed reasoning without admitting another public `U.*` kind. A row, spelling, record, or unresolved evaluation changes neither the direct predicate nor the world-side extent.
 
-`E24UK-AR-USUBKINDOF-R5-01` separately admits `U.SubkindOf` as a same-individual dependent kind under `U.Relation`. Its individuals are the same relation occurrences already admitted under `U.Relation` whose exact ordered kind participants satisfy C.3.1's criterion-entailment branch or exhaustive deliberately closed-domain branch within declared applicability. Scheme and signature editions qualify the obtaining test and assertion; they are not participants or occurrence-identity discriminators.
+`E24UK-AR-USUBKINDOF-R5-01` separately admits `U.SubkindOf` as a same-individual dependent kind under `U.Relation`. Its individuals are the same relation occurrences already admitted under `U.Relation` whose exact ordered kind participants satisfy C.3.1's criterion-entailment branch or exhaustive deliberately closed-domain branch within declared applicability.
+
+Scheme and signature editions qualify the obtaining test and assertion; they are not participants or occurrence-identity discriminators.
 
 For any other `same-individual-dependent` admission, the settlement states `M_Kd(x) -> M_Kr(x)` and the same individual keeps root identity. For `identity-dependent`, the cited rule defines or constrains a two-place dependence relation from the distinct dependent individual to one exact root-kind individual and supplies every additional discriminator. A root reference alone closes neither form.
 
 The recovered A.2.2 capability need takes the `reject` exit in section 4.2c: ordinary holder-ability claims remain usable without a second kind or an invented dependence relation.
+
 `U.Structure` follows the accepted A.22 architecture instead. A.22 identifies one context-independent selected organization from four and only four discriminators: exact independently identified constituents, exact selected obtaining relation occurrences, exact constraints as applied, and one named selection-use frame. `E24UK-AR-USTRUCTURE-R12-01` records the root admission.
 
-`BoundedModelUseStructure` and A.22's conditional crossing-analysis specialization are same-individual dependent predicates over already identified `U.Structure` individuals. The same structure individual keeps its A.22 identity; satisfying the corresponding A.22:4.1c condition adds the specialization and implies `U.Structure` membership. The bounded-model-use name has a current F.17 row. The crossing-analysis condition is strictly conditional on independently governed exact obtaining crossing occurrences plus all four A.22 base discriminators; because no positive member exists, its NameCard label remains local and pending and is not consumed here as public vocabulary. An A.2.6 claim-scope value or membership fact affects the selection only when an exact applied constraint refers to it; that applied constraint, not the bare scope or membership outcome, occupies the third discriminator.
+`BoundedModelUseStructure` and A.22's conditional crossing-analysis specialization are same-individual dependent predicates over already identified `U.Structure` individuals. The same structure individual keeps its A.22 identity; satisfying the corresponding A.22:4.1c condition adds the specialization and implies `U.Structure` membership. The bounded-model-use name has a current F.17 row.
+
+The crossing-analysis condition requires independently governed exact obtaining crossing occurrences plus all four A.22 base discriminators. Because no positive member exists, its NameCard label remains local and pending and is not consumed here as public vocabulary.
+
+An A.2.6 claim-scope value or membership fact affects the selection only when an exact applied constraint refers to it; that applied constraint, not the bare scope or membership outcome, occupies the third discriminator.
 
 The three A.1.1 relation-kind designations consumed by the bounded-model-use test are current through `UTS.ModelApplicabilityRelation.FPFCore.2026-07-25`, `UTS.ModelUseRelation.FPFCore.2026-07-25`, and `UTS.ModelExpressionCoherenceRelation.FPFCore.2026-07-25`. Those F.17 rows publish only the names. A.1.1 defines each relation; the corresponding passage states its predicate, participants, obtaining condition, and occurrence-identity rule. A row, NameCard, matching token, or appearance in this registry makes no occurrence obtain and grants no `BoundedModelUseStructure` membership.
 
@@ -125,11 +140,15 @@ A project that needs bounded quantification may use an admitted `U.Kind` individ
 
 ##### E.24.UK:4.2b - Accepted Admission-Result Registry
 
-Each `E24UK-AR-*` reference identifies one accepted `UKindAdmissionResult`, not the decision episteme that produced it. The registry is a navigation index. The two R5 admission references resolve to their exact membership results in sections 4.2.2 and 4.2.3; the U.Kind ontology disposition is separate from its retained root admission; the bootstrap resolves to `E24-CO-UONTIC-BOOT-01` and sibling result `E24-OS-UONTIC-BOOT-01`. A row marked `RG` is a reconstructed by-value result whose exact subject-pattern passage and this row together state the disposition, membership test, reliance, and boundary; it does not pretend that a new shared decision was run. No result reference gains a second result by appending a suffix.
+Each `E24UK-AR-*` reference identifies one accepted `UKindAdmissionResult`, not the decision episteme that produced it. The registry indexes these results. The two R5 admission references resolve to their exact membership results in sections 4.2.2 and 4.2.3. The U.Kind ontology disposition is separate from its retained root admission. The bootstrap resolves to `E24-CO-UONTIC-BOOT-01` and sibling result `E24-OS-UONTIC-BOOT-01`.
+
+A row marked `RG` is a reconstructed by-value result whose exact subject-pattern passage and this row together state the disposition, membership test, reliance, and boundary. It records a reconstruction, without claiming that a new shared decision was made. No result reference gains a second result by appending a suffix.
 
 Each R5 or bootstrap result is a C.2.1 episteme about the pre-judgment subject construct. Its own ClaimGraph states the exact shared decision reference, disposition, membership or identity basis, subject-pattern locator, branch result, reliance, and non-use/reopen boundary under `FPFCoreReferenceScheme`. An `RG` result instead uses the reconstructed basis stated above and carries no fabricated shared-decision or sibling-output reference. The decision episteme has its own ClaimGraph and identity. A consumer relies on the result reference and follows it to the decision when it needs common inputs or decision mode.
 
-`RG` means reconstructed and grandfathered. The exact result reference, not the row wording, is the reliance point. Every row reopens if its direct membership or identity predicate, intended extent or named reliance, nearest non-use boundary, or shared E.24 settlement law changes; carrier, layout, and spelling changes alone do not reopen it.
+`RG` means reconstructed and grandfathered. Rely on the result identified by the reference. The row wording alone cannot support that reliance.
+
+Reopen a row if its direct membership or identity predicate, intended extent or named reliance, nearest non-use boundary, or shared E.24 settlement law changes; carrier, layout, and spelling changes alone do not reopen it.
 
 `E24-CO-UONTIC-BOOT-01` takes the E.24 source construct, shared settlement rule, receiving use, and non-use boundary without presupposing `U.Ontic`. It returns `E24-OS-UONTIC-BOOT-01` and `E24UK-AR-UONTIC-BOOT-01`; neither the schema, pattern, decision, nor kind thereby becomes an ontology-unit individual.
 
@@ -152,13 +171,17 @@ Each R5 or bootstrap result is a C.2.1 episteme about the pre-judgment subject c
 | `E24UK-AR-UABDUCTIVEPROMPT-QI-01` | `U.AbductivePrompt`; `same-individual-dependent` under `U.Episteme` | `B.5.2.0:4.2.1–4.2.2`; the same C.2.1 episteme concerns one recoverable explanatory question and records species, scope and motivating provenance while leaving rival answers open; membership implies `U.Episteme` for that individual. Decision `E24-CO-UABDUCTIVEPROMPT-QI-01` retains direct subject-pattern use without an additional ontic. | B.5.2 entry and return, A.16 next-use admission, and A.16.0 trajectory references; an unfilled form, unstable cue or settled-answer account fails membership. Historical membership supplies no current entry permission. |
 | `E24UK-AR-UWORKPLAN-RG-01` | `U.WorkPlan`; `same-individual-dependent` under `U.Episteme`, RG | `A.15.2:4`; intended-work membership plus root inclusion | planning and readiness; a calendar image, possible work, method description, or performed Work is not a WorkPlan |
 | `E24UK-AR-USYSTEMROLEASSIGNMENT-RPR-01` | `U.SystemRoleAssignment`; `same-individual-dependent` under `U.Relation`, RPR | `A.2.1:4`; the same identified relation occurrence has family membership through one declared assignment species. That species declares `HolderSystemSlot`, a declaration-local assigned-kind slot limited to one local system-role kind, its own predicate and applicability, maximal uninterrupted occurrence identity, and every commission, position, installation, or other participant on which its identity depends. Membership implies `U.Relation` for that same occurrence. | attribution and work-facing assignment use; the family has no permissive binary root signature, and a stronger species is not a generic holder-kind occurrence plus another occurrence. A holder-kind pair, interval, assertion, responsibility claim, or generic `U.Kind` domain is not an assignment occurrence. |
-| `E24UK-AR-UMETHODDESCRIPTION-RG-01` | `U.MethodDescription`; `same-individual-dependent` under `U.Episteme`, RG | `A.3.2:4`; substantive claims about one admitted method | method use and planning; mention, metadata, approval, publication, or representation is not membership |
+| `E24UK-AR-UMETHODDESCRIPTION-RG-01` | `U.MethodDescription`; `same-individual-dependent` under `U.Episteme`, RG | `A.3.2:4`; one admitted `U.Method` is the EntityOfConcern and at least one substantive claim concerns that method as a way of doing | method use and planning; mention, metadata, approval, publication, or representation is not membership |
 | `E24UK-AR-UVIEWPOINT-RG-01` | `U.Viewpoint`; `same-individual-dependent` under `U.Episteme`, RG | `E.17.0:4`; fixed viewpoint-convention membership claims | E.17.0; an identifier, reference, describing use, selected viewpoint, carrier, or structure does not grant membership |
 | `E24UK-AR-UVIEW-RG-01` | `U.View`; `same-individual-dependent` under `U.Episteme`, RG | `E.17.0:4`; `EpistemeViewpointConformanceRelation(E,P)` obtains | E.17.0 and A.6.3; authoring, rendering, query execution, or publication does not grant membership |
 
 ##### E.24.UK:4.2c - Open Prerequisites, Blocked Candidates, and Non-admission Results
 
-The shared decision can also encounter public kind names that do not yet have a resolvable accepted admission result. They remain explicit prerequisites rather than being smuggled into the accepted registry. C.2.1:4.1.1 supplies the practical route for obtaining claim content in writing, recovering its effective interpretation, and comparing exact values. Such use can remain sufficient without a classification of all possible constituents. C.2.1:4.1.2 supplies the positive C.3 declarations `EpistemeInterpretationScheme` and `NonemptyClaimContent` for the receiving ranges stated there. C.2.1:4.2.6 supplies exact constituent designations and their resolution without admitting another RefKind. A receiver needing a different membership or substitution distinction must state its candidate domain and criterion under C.3.2; a reusable typed relation declaration must supply the independently governed ValueKinds required by A.6.5. ByValue is a designation mode, not an exemption from those conditions. No new admission may cite an unsettled public kind as already accepted.
+When the shared decision encounters a public kind name without a resolvable accepted admission result, record the name as an open prerequisite. A new admission cannot assume that the named kind has already been accepted.
+
+C.2.1:4.1.1 explains how to obtain claim content in writing, recover its effective interpretation and compare exact values. That may suffice without classifying all possible constituents. For the receiving ranges stated there, C.2.1:4.1.2 supplies the positive C.3 declarations `EpistemeInterpretationScheme` and `NonemptyClaimContent`. C.2.1:4.2.6 supplies exact constituent designations and their resolution without admitting another RefKind.
+
+A receiver needing a different membership or substitution distinction must state its candidate domain and criterion under C.3.2. A reusable typed relation declaration must supply the independently governed ValueKinds required by A.6.5. ByValue is a designation mode. It does not waive either condition when that condition applies to the use.
 
 | Exact result or blocker reference | Current disposition | Exact missing or closing basis |
 | --- | --- | --- |
@@ -171,17 +194,19 @@ The shared decision can also encounter public kind names that do not yet have a 
 | `E24UK-NAR-AIPR-01` | `U.ActionInvitationPrecisionRestoration`; `reject` | A.6.A governs a precision-restoration move; the title admits no further kind, and any exact relation claim still needs its direct obtaining predicate and identity rule |
 | `E24UK-NAR-EPUB-01` | `U.EpistemePublication`; `reject` | for the availability-only use in section 5.0, C.2.1 identity and the exact E.24.PUB participation claim suffice; no additional classification is needed. A receiving classification use is assessed separately under C.3.2 and the admission tree. |
 
-E.24 may coordinate exact constitution and dependent relation rules in `EpistemeOntic` while these two constituent admissions remain open. Its positive basis is the shared identity and the named cross-pattern dependencies, subject to E.24's participant-identification and predicate tests. That coordination admits neither proposed constituent kind and does not complete a typed interface whose required range is missing.
+E.24 may coordinate exact constitution and dependent relation rules in `EpistemeOntic` while the two constituent-kind proposals, `U.ReferenceScheme` and `U.ClaimGraph`, remain open. Its positive basis is the shared identity and the named cross-pattern dependencies, subject to E.24's participant-identification and predicate tests. That coordination admits neither proposed constituent kind and does not complete a typed interface whose required range is missing.
 
-Generic `reuse` and `local-kind` are decision exits, not accepted example results. Close `reuse` only with an exact `ReusedUKindRef` that resolves to this registry; close `local-kind` only with one exact current C.3.2 `LocalKindDeclarationRef`. If either reference is absent, keep the candidate unsettled.
+Generic `reuse` and `local-kind` are decision exits, not accepted example results. Close `reuse` only with a `ReusedUKindRef` that resolves to this registry; close `local-kind` only with one current C.3.2 `LocalKindDeclarationRef`. If either reference is absent, keep the candidate unsettled.
 
-Consumer repair follows the disposition, not one replacement word. Method-description claims retain `U.MethodDescription`; exact viewpoint and view claims retain `U.Viewpoint` and `U.View` only under E.17.0 membership. For the availability-only use rejected by `E24UK-NAR-EPUB-01`, recover the selected `U.Episteme`, obtaining `EpistemePublicationRelation` occurrence, particular expression, optional reusable form or independently identified carrier that the claim concerns. When a source use instead requires classification by publication participation, preserve that need and follow the admission tree in section 4.3.
+Use the disposition to decide how to repair each use of the name. Method-description claims retain `U.MethodDescription`; exact viewpoint and view claims retain `U.Viewpoint` and `U.View` only under E.17.0 membership.
 
-Thus `dependent` describes an admission and identity architecture. It is not a shorthand for every object named in a record, every participant of a relation, or every qualifier used to interpret an episteme.
+For the availability-only use rejected by `E24UK-NAR-EPUB-01`, recover the selected `U.Episteme`, obtaining `EpistemePublicationRelation` occurrence, particular expression, optional reusable form or independently identified carrier that the claim concerns. When a source use instead requires classification by publication participation, preserve that need and follow the admission tree in section 4.3.
+
+Here `dependent` describes how admission and identity are related. It does not apply merely because something is named in a record, participates in a relation, or qualifies the interpretation of an episteme.
 
 ##### E.24.UK:4.2.1 - Accepted Root Settlement For `U.Relation`
 
-FPF has already admitted `U.Relation`; project users do not repeat this ontology decision. The root kind classifies individuable obtaining relation occurrences. A direct relation can obtain before a system explicitly individuates, names, describes, or references one occurrence, but admission under this root requires the direct relation pattern to supply an occurrence-identity rule.
+FPF has already admitted `U.Relation`; project users do not repeat this ontology decision. The root kind classifies individuable obtaining relation occurrences. A direct relation can obtain before a system individuates, names, describes, or references one occurrence, but admission under this root requires the direct relation pattern to supply an occurrence-identity rule.
 
 | Admission condition | `U.Relation` settlement by value |
 |---|---|
@@ -191,14 +216,16 @@ FPF has already admitted `U.Relation`; project users do not repeat this ontology
 | action-facing need | comparisons, qualifications, change claims, nested relations, and receiving direct relations can depend on one occurrence being distinguishable from another |
 | non-duplication | relation-kind-specific assertions do not provide one common kind for a relation occurrence used as the EntityOfConcern of an episteme or as a participant of another direct relation |
 | direct governing locus | `A.6.REL` governs the root occurrence distinction and progressive individuation; each direct relation pattern defines or constrains whether its relation obtains and how its occurrences are identified |
-| shared E.24-family settlement | `E24UK-AR-URELATION-R11-01` is the accepted reconstructed root result. This by-value settlement records primary subject kind `U.Relation`, A.6.REL plus each needed direct relation pattern as the minimal rule set, named receiving reliance, and the non-use boundary below. `IdentityBearingDirectRelationIfSelected = none`: admission invents no relation among the `U.Relation` kind, a relation kind, or another relation occurrence. Because this result predates separate output identifiers, the registry does not fabricate an `OnticSettlementResult` suffix; reopen it into the current shared schema if a receiving use requires a separately identified ontic output. |
+| shared E.24-family settlement | `E24UK-AR-URELATION-R11-01` is the accepted reconstructed root result. This by-value settlement records primary subject kind `U.Relation`, A.6.REL plus each needed direct relation pattern as the minimal rule set, named receiving reliance, and the non-use boundary below. `IdentityBearingDirectRelationIfSelected = none`: admission invents no relation among the `U.Relation` kind, a relation kind, or another relation occurrence. Because this result predates separate output identifiers, the registry does not fabricate an `OnticSettlementResult` suffix. Reopen it using the current shared schema if a receiving use requires a separately identified ontic output. |
 | by-value dependence | A.1 part-relation admission, relation-occurrence descriptions, and direct relations whose participant kind admits `U.Relation` rely on this root by value |
 
 The admission does not force explicit materialization of every obtaining relation. Ordinary engineering prose can stop at the direct relation sentence. A system performs explicit-individuation work only when a named receiving episteme, direct relation, or operation-application assertion depends on occurrence identity. The accepted Tech label `U.Relation` is governed separately through its F.18 NameCard; the label does not establish the extent.
 
-Apply the positive extent rule before classifying a nearby object. Predicate content is a rule; an assertion or occurrence description is a C.2.1 episteme; a designator or reference stays under F.18; a reusable form stays under E.24.PUB; and a row, graph edge or diagram element retains its interpretation under the applicable subject-description or representation rule. Use C.29 for an unresolved mathematical representation, transfer or reliance question and A.6.3.RT for a representation-scheme transition. None is the obtaining occurrence. Connect it to the occurrence only through its explicit assertion, description, designation, reference, publication, or representation relation.
+Apply the positive extent rule before classifying a nearby object. Predicate content is a rule. An assertion or occurrence description is a C.2.1 episteme. F.18 governs a designator or reference, and E.24.PUB governs a reusable form. A row, graph edge or diagram element retains its interpretation under the applicable subject-description or representation rule.
 
-The rule is not lexical. An individuable publication-relation occurrence is itself a `U.Relation` when E.24.PUB defines that relation and states its obtaining and identity conditions. A row that represents the occurrence remains a representation element. Reidentify the current object by the rule that defines or tests it instead of inferring membership from words such as relation, edge, link, record, or reference.
+Use C.29 for an unresolved mathematical representation, transfer or reliance question and A.6.3.RT for a representation-scheme transition. The rule, episteme, designator, reference, form and representation remain distinct from the obtaining occurrence. Connect the object under consideration to the occurrence only through its explicit assertion, description, designation, reference, publication, or representation relation.
+
+An individuable publication-relation occurrence is a `U.Relation` when E.24.PUB defines that relation and states its obtaining and identity conditions. A row that represents the occurrence remains a representation element. Reidentify the current object by the rule that defines or tests it instead of inferring membership from words such as relation, edge, link, record, or reference.
 
 ##### E.24.UK:4.2.2 - Accepted Root Settlement for `U.Kind`
 
@@ -208,13 +235,13 @@ The root membership result is sufficient for recognizing such kind individuals. 
 
 For these receiving uses, `E24-CO-UKIND-R19-01` selects `subject-pattern-use`: apply the direct rules above without an additional durable ontic.
 
-For example, C.3.1 can establish `CoolingPumpKind` as a subkind of `PumpKind` when the aligned cooling-pump criterion entails the pump criterion. An extension sample alone cannot do so. C.3.2 can classify an admissible Pump #14 under its actual declaration and slice; a missing required cooling-performance fact yields `unknown`, while an out-of-domain request is `not-applicable` before classification. Neither result needs a new ontology unit. A project-specific kind remains an individual of `U.Kind` without gaining its own durable public `U.*` name.
+For example, C.3.1 can establish `CoolingPumpKind` as a subkind of `PumpKind` when the aligned cooling-pump criterion entails the pump criterion. An extension sample alone cannot do so. C.3.2 can classify an admissible Pump #14 under its declaration and slice; a missing required cooling-performance fact yields `unknown`, while an out-of-domain request is `not-applicable` before classification. Neither result needs a new ontology unit. A project-specific kind remains an individual of `U.Kind` without gaining its own durable public `U.*` name.
 
 Reopen the additional-ontic question when a named dependent use requires persistent nonduplicative coordination beyond those direct rules and supplies a stable subject and positive contribution. Neither admitting the root nor adding `SubkindOf` merely because it is nearby establishes that need. E.24's positive `EpistemeOntic` case retains its independently justified constitution and neighboring-relation coordination.
 
 ##### E.24.UK:4.2.3 - Accepted Same-individual Dependent Settlement for `U.SubkindOf`
 
-At the decision's entry, its subject was the unsettled C.3.1 proposal for an ordered kind-participant relation; `U.SubkindOf` was not assumed in advance. The accepted relation occurrence keeps its `U.Relation` identity and gains the dependent membership only when C.3.1's obtaining rule holds.
+At the decision's entry, its subject was the unsettled C.3.1 proposal for an ordered kind-participant relation. The decision did not presuppose `U.SubkindOf`. The accepted relation occurrence keeps its `U.Relation` identity and gains the dependent membership only when C.3.1's obtaining rule holds.
 
 | Shared field | Exact value |
 | --- | --- |
@@ -235,18 +262,22 @@ The decision and its two outputs are three distinct C.2.1 epistemes. Each output
 
 #### E.24.UK:4.3 - Practitioner-first Admission Tree
 
-1. **Recover the candidates and criterion.** Identify the decision subject, candidate individuals, stable membership or identity rule, intended extent, nearest non-member, and named action-facing use. For a relation kind, use the rule that defines its participant meanings, obtaining, applicability, and occurrence identity, and cite the PatternID that locates that rule; an `A.6.RCD` application may record a derived or primitive candidate only with a proposed direct subject settlement. If no subject or criterion is recoverable, keep the inquiry open.
-2. **Try an admitted durable kind.** If one accepted result already preserves those individuals, the criterion, extent, boundary, and use, record `reuse` through that exact result and stop.
-3. **Try bounded classification.** If one project or context needs only typed membership or quantification, record `local-kind` through one exact C.3.2 declaration and stop.
-4. **Test the need for a new durable kind.** Continue only when repeated cross-pattern use needs one stable membership law that existing durable kinds and direct relations cannot preserve. Run the eight tests and name each downstream question, its defining or testing rule, and the PatternID that locates that rule.
-5. **Choose the positive form.** Use `root` for independently identified individuals, `same-individual-dependent` when one root individual gains an additional stable membership predicate and inclusion law, or `identity-dependent` when a distinct individual has an already governed dependence relation to one root individual plus all discriminators. Fill the shared E.24-family decision and separately test the need for additional durable coordination. Direct-rule sufficiency permits positive kind admission with an explicit no-additional-ontic conclusion; use atomic co-decision only when both new outputs are needed. Apply A.11 and A.8 when kernel status is claimed. A fresh kernel proposal supplies A.8 with the independent candidate inputs of the shared decision; its projection finding contributes to that decision before step 6. An already admitted kind uses its applicable accepted result when its kernel placement is reconsidered.
+1. **Recover the candidates and criterion.** Identify the decision subject and the named action-facing use. When the use needs classification, identify the candidate individuals, stable membership or identity rule, intended extent and nearest non-member. For a relation kind, use the rule that defines its participant meanings, obtaining, applicability, and occurrence identity, and cite the PatternID that locates that rule; an `A.6.RCD` application may record a derived or primitive candidate only with a proposed direct subject settlement. If the decision subject cannot be identified, keep the inquiry open. If classification is needed but its criterion is missing, the inquiry also stays open. A positively identified use that needs no classification can instead support `reject` under step 6.
+2. **Try an admitted durable kind.** If one accepted result already preserves those individuals, the criterion, extent, boundary, and use, record `reuse` through that result and stop.
+3. **Try bounded classification.** If one project or context needs only typed membership or quantification, record `local-kind` through one C.3.2 declaration and stop.
+4. **Test the need for a new durable kind.** Proceed to positive admission only when repeated cross-pattern use needs one stable membership law that existing durable kinds and direct relations cannot preserve. Run the eight tests and name each downstream question, its defining or testing rule, and the PatternID that locates that rule.
+5. **Choose the positive form.** Use `root` for independently identified individuals, `same-individual-dependent` when one root individual gains an additional stable membership predicate and inclusion law, or `identity-dependent` when a distinct individual has an already governed dependence relation to one root individual plus all discriminators.
+
+   Fill the shared E.24-family decision and separately test the need for additional durable coordination. Direct-rule sufficiency permits positive kind admission with an explicit no-additional-ontic conclusion; use atomic co-decision only when both new outputs are needed.
+
+   Apply A.11 and A.8 when kernel status is claimed. A fresh kernel proposal supplies A.8 with the independent candidate inputs of the shared decision; its projection finding contributes to that decision before step 6. An already admitted kind uses its applicable accepted result when its kernel placement is reconsidered.
 6. **Close or leave unresolved, then name.** Record the positive admission when the selected form passes every condition. A missing branch law or fact leaves admission unresolved. Use `reject` only when no classification result is needed for the receiving use, and recover the non-kind object under the rule that defines or tests it. Only after one disposition and governed object are stable may F.8, F.5, F.18, or F.17 expose a public name.
 
-The PatternID locates the applicable rule content: C.3 states the membership and continuity rules for kinds; A.6.REL states the common relation-occurrence discipline; each direct relation pattern states participant meanings, obtaining, applicability, and occurrence identity; A.6.0/A.6.5 define reusable declarations; E.24 defines ontic-settlement predicates; and F.8/F.5/F.18/F.17 constrain names after ontology is settled.
+The PatternID locates the applicable rule content. C.3 states the membership and continuity rules for kinds. A.6.REL states the common relation-occurrence discipline. Each direct relation pattern states participant meanings, obtaining, applicability, and occurrence identity. A.6.0/A.6.5 define reusable declarations. E.24 defines ontic-settlement predicates. F.8/F.5/F.18/F.17 constrain names after ontology is settled.
 
 #### E.24.UK:4.4 - Source Ontology Conversion Guide
 
-Use this short conversion guide when a source ontology, schema, standard, class hierarchy, or top-level ontology uses words such as type, class, category, object type, entity type, kind, or subtype. BFO-style, ISO-style, OWL/RDF, database-schema, programming-language, and discipline-local type systems are source ontologies or representation regimes; they do not become FPF `U.*` names by translation.
+Use this conversion guide when a source ontology, schema, standard, class hierarchy, or top-level ontology uses words such as type, class, category, object type, entity type, kind, or subtype. BFO-style, ISO-style, OWL/RDF, database-schema, programming-language, and discipline-local type systems are source ontologies or representation regimes; they do not become FPF `U.*` names by translation.
 
 First recover the source construct by value:
 
@@ -271,7 +302,7 @@ A source "type" may become an FPF kind and may require an ontic, but only after 
 
 #### E.24.UK:4.5 - Structural Location Rule
 
-A `U.*` spelling in a pattern title, host filename, monolith heading, or ToC row is stronger than a prose occurrence. Structural locations orient readers to the governed object.
+In a pattern title, host filename, monolith heading, or ToC row, readers use a `U.*` name to identify the governed object. The spelling there carries more weight than the same spelling in ordinary prose.
 
 Use this rule:
 
@@ -283,7 +314,9 @@ Use this rule:
 
 Do not keep a false `U.*` structural name for memory or search convenience. Use a Plain label, local heading, Name Card, Concept-Set row, relation name, record field, or quoted source wording when that is the actual object.
 
-#### E.24.UK:4.6 - Failed U-kind Admission Dispatch
+#### E.24.UK:4.6 - When positive U-kind admission fails
 
-When positive admission fails, select a non-admission exit only when its own basis holds: `reuse` with one accepted result, `local-kind` with one C.3.2 declaration, or `reject` when no classification result is needed for the receiving use and the actual object is recovered under its defining or testing rule. If a missing law or fact prevents a truthful result, keep admission unresolved. A participating entity keeps its intrinsic kind; a declaration component stays an A.6.5 SlotSpec; a designation or claim field stays in its episteme; a structure stays under A.22, a publication form under E.24.PUB, and a representation under its applicable subject-description or representation rule, with C.29 supplying unresolved mathematical representation, transfer or reliance work; and a measure or source expression stays with its measurement or wording-use rule. Public naming waits until that recovery is complete.
+When positive admission fails, select a non-admission exit only when its own basis holds: `reuse` with one accepted result, `local-kind` with one C.3.2 declaration, or `reject` when no classification result is needed for the receiving use and the actual object is recovered under its defining or testing rule. If a missing law or fact prevents a truthful result, keep admission unresolved.
+
+A participating entity keeps its intrinsic kind. A declaration component stays an A.6.5 SlotSpec. A designation or claim field stays in its episteme. A structure stays under A.22, and a publication form stays under E.24.PUB. A representation stays under its applicable subject-description or representation rule, with C.29 supplying unresolved mathematical representation, transfer or reliance work. A measure or source expression stays with its measurement or wording-use rule. Public naming waits until that recovery is complete.
 

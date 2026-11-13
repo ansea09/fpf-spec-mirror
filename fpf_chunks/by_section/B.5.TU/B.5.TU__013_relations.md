@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.5.TU"
-pattern_title: "Construct a Working Use of an Unfamiliar Theory"
+pattern_title: "Construct a Use of an Unfamiliar Theory"
 section_id: "B.5.TU:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.TU/B.5.TU__013_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "B.5.TU — Construct a Working Use of an Unfamiliar Theory"
+  - "B.5.TU — Construct a Use of an Unfamiliar Theory"
   - "B.5.TU:12 — Relations"
-line_start: 48896
-line_end: 48905
+line_start: 50936
+line_end: 50945
 dependencies:
   - "A.15.9"
   - "A.6.3.RT"

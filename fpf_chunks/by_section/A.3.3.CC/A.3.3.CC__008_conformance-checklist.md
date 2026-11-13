@@ -6,12 +6,12 @@ section_id: "A.3.3.CC:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3.CC/A.3.3.CC__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.3.3.CC — Construct a Configuration Description under Constraints"
   - "A.3.3.CC:7 — Conformance Checklist"
-line_start: 12447
-line_end: 12457
+line_start: 12878
+line_end: 12888
 dependencies:
   - "A.17"
   - "A.18"
@@ -32,7 +32,7 @@ keywords:
 - Do the constraints state which combinations are admitted and why those conditions apply to this model or use?
 - If a parametrization or reduced description is used, does it cover the required cases and preserve the distinctions used in the answer?
 - Can the receiving operation obtain its required tuple, set, range or conditional impossibility from the description? Is an unfinished search reported as unfinished?
-- Are restrictions on configurations distinguished from any rate or transition conditions actually used?
+- Are restrictions on configurations distinguished from any rate or transition conditions used?
 - When the question changes, are newly relevant quantities, identities or order retained?
-- Is support for physical reliance supplied to the extent that the particular decision needs, with further inquiry chosen by its possible effect on that decision?
+- Is support for physical reliance supplied to the extent that the decision needs, with further inquiry chosen by its possible effect on that decision?
 

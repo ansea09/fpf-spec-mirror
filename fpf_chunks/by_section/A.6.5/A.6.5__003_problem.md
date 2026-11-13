@@ -6,12 +6,12 @@ section_id: "A.6.5:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.5/A.6.5__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.5 — Relation-Declaration Slot Discipline - SlotKind, ValueKind, RefKind, and participant-designation discipline"
   - "A.6.5:2 — Problem"
-line_start: 23291
-line_end: 23296
+line_start: 24212
+line_end: 24217
 dependencies:
   - "A.15.3"
   - "A.6.0"
@@ -30,5 +30,5 @@ keywords:
 
 The engineering problem appears when the same relation declaration is used in another claim, substitution, or comparison. A ValueKind that covers participants for which the predicate has different meanings makes typed reuse unsound. A reference value leaves its referent kind unstated. A designator for an actual participant is promoted into a U-kind. A role value is confused with the system that holds it. A verb-shaped predicate is read as proof that the relation is work, a method, a transformation, or an acting holon.
 
-These errors do more than blur terminology. They change which substitutions are valid, which object a later claim may reference, what makes the relation obtain, and which definition or constraint the repair must preserve.
+These errors change which substitutions are valid, which object a later claim may reference, what makes the relation obtain, and which definition or constraint the repair must preserve.
 

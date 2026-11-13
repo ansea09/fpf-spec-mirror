@@ -6,12 +6,12 @@ section_id: "A.6.S:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.S/A.6.S__012_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.S — TargetSignature and optional ConstructorSignature - demand-driven signature engineering"
   - "A.6.S:10 — Rationale"
-line_start: 25110
-line_end: 25117
+line_start: 26031
+line_end: 26038
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -42,7 +42,7 @@ keywords:
 
 Stable boundaries sometimes benefit from a reusable description of how they are revised. That is the useful two-signature technique: one `U.Signature` is the current target declaration, and another `U.Signature` declares constructor operations for a named reuse. It is not a universal architecture for editing and does not require a third pair object.
 
-A.6.5, A.6.6, A.6.2-A.6.4, and E.17 supply distinct optional moves. Treating all of them as mandatory constructor primitives would recreate the ambiguity and overhead those patterns are meant to remove. The direct move comes first; the reusable ConstructorSignature packages only the operation language that has an actual receiver.
+A.6.5, A.6.6, A.6.2-A.6.4, and E.17 supply distinct optional moves. Treating all of them as mandatory constructor primitives would recreate the ambiguity and overhead those patterns are meant to remove. The direct move comes first; the reusable ConstructorSignature packages only the operation language that has a receiver.
 
-The result keeps viewing, declaration edits, episteme succession, reference retargeting, EntityOfConcern retargeting, application and Work distinct. A.6.B separately recovers the actual law, admissibility, deontic or observation claim hidden by contract wording.
+The result keeps viewing, declaration edits, episteme succession, reference retargeting, EntityOfConcern retargeting, application and Work distinct. A.6.B separately recovers the law, admissibility, deontic or observation claim hidden by contract wording.
 

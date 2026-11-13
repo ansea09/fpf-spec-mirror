@@ -6,12 +6,12 @@ section_id: "C.32.MWA:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA/C.32.MWA__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.32.MWA — Synthesize an Architecture Account of Methods and Their Use"
   - "C.32.MWA:7 — Conformance Checklist"
-line_start: 78827
-line_end: 78842
+line_start: 82656
+line_end: 82671
 dependencies:
   - "A.13"
   - "A.15.1"
@@ -40,7 +40,7 @@ keywords:
 | Check | Passing observation |
 | --- | --- |
 | **CC-MWA-1 — Recognizable use** | The opening names a current decision that needs one answer across several structures, plus an ordinary non-use boundary. |
-| **CC-MWA-2 — Truthful entry** | The synthesis states whether it concerns an obtaining or possible-future organization of Method use. An obtaining claim has representative performed Work and the basis for each relied-on relation; a prospective claim has an intended-use or plan anchor, realization condition and later-test condition. Actual and proposed claims retain separate status in one account. |
+| **CC-MWA-2 — Entry status** | The synthesis states whether it concerns an obtaining or possible-future organization of Method use. An obtaining claim has representative performed Work and the basis for each relied-on relation; a prospective claim has an intended-use or plan anchor, realization condition and later-test condition. Actual and proposed claims retain separate status in one account. |
 | **CC-MWA-3 — Subject before layout** | The Methods under consideration and the Work, Systems or other objects needed to explain their performance, support and development are identified before source rows are interpreted. Practice may name the same reusable way as Method; neither that synonym nor the connected account introduces an encompassing Practice object. |
 | **CC-MWA-4 — Candidate difference** | The synthesis distinguishes competing accounts of an arrangement from proposed changes to it. Alternatives differ by decision use or unlike-case failure, not merely labels or picture layout; a better account alone establishes no world-side change. When NQD is current, novelty, use-value and diversity remain distinct. |
 | **CC-MWA-5 — Relation recovery** | Every relation used in the answer is stated by value and supported through its defining or constraining pattern when material. Order is not overlap; overlap is not parthood; co-use is not Method composition. |

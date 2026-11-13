@@ -6,12 +6,12 @@ section_id: "G.1:5"
 section_title: "Archetypal Grounding — Tell–Show–Show (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.1/G.1__006_archetypal-grounding-tell-show-show-informative.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.1 — Author a Reusable CG-Frame Generator and Selector Kit"
   - "G.1:5 — Archetypal Grounding — Tell–Show–Show (informative)"
-line_start: 127587
-line_end: 127607
+line_start: 135637
+line_end: 135657
 dependencies:
   - "A.10"
   - "A.15.2"
@@ -54,7 +54,7 @@ keywords:
 
 ### G.1:5 - Archetypal Grounding — Tell–Show–Show (informative)
 
-**Tell.** Use the six‑card chassis to make a CG‑Frame authoring effort reproducible: a scoped SoTA set, a traceable candidate pool, a set‑return shortlist, a publishable library index, and refresh readiness—without redefining spec-legality/selection/refresh governing definitions.
+**Tell.** Use the six cards to reconstruct the frame, sources and candidate pool used for a selected set, the artefacts indexed for publication and the changes that can trigger refresh. The manifest identifies the cards in that kit edition.
 
 **Show A (R&D multi‑criteria decisions).**
 
@@ -70,6 +70,6 @@ keywords:
 * **M1:** scope a CG‑Frame around dose adjustment decisions; pin legality and evidence minima explicitly.
 * **M2:** harvest SoTA models and safety constraints as a reconstructible set (governed by `G.2`).
 * **M3:** generate policy‑constrained candidate protocols; emitter trace and evidence pins are mandatory.
-* **M4:** shortlist remains a set; “choose one” remains an explicit policy decision, not silently baked into the generator.
+* **M4:** return the shortlisted protocols as a set, which may have one member. Choosing one from a shortlist of several requires an explicit decision policy.
 * **M5/M6:** publish and wire refresh (decay events, policy changes, and evidence updates retrigger along the P2W path).
 

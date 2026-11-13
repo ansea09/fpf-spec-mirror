@@ -6,12 +6,12 @@ section_id: "C.16.MR:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.MR/C.16.MR__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.16.MR — Construct a Measurement Relation"
   - "C.16.MR:2 — Problem"
-line_start: 58967
-line_end: 58974
+line_start: 61352
+line_end: 61359
 dependencies:
   - "A.3.3"
   - "B.5.FM"
@@ -29,5 +29,5 @@ An instrument display, test outcome or log value is produced by a procedure. Its
 
 A correction copied from another arrangement can also fail. Its sign, magnitude and uncertainty depend on the relation that produced it. Unknown influences can leave multiple compatible values even when the displayed number is stable.
 
-The working difficulty is to construct enough of that relation to interpret the indication for the intended use, without modeling every possible influence or assuming that a familiar formula applies unchanged.
+The working difficulty is to construct the relation at the level of detail needed to interpret the indication for the intended use. This requires selecting consequential influences and checking whether familiar formulas apply to the stated conditions.
 

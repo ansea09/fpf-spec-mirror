@@ -6,12 +6,12 @@ section_id: "A.3:5"
 section_title: "Solution — The Transformer Quartet"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3/A.3__006_solution-the-transformer-quartet.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.3 — Transformer Quartet: Distinguish Work, Performer, Method and Method Description"
   - "A.3:5 — Solution — The Transformer Quartet"
-line_start: 9201
-line_end: 9253
+line_start: 9574
+line_end: 9630
 dependencies:
   - "A.10"
   - "A.12-A.15"
@@ -36,20 +36,24 @@ For work enactment, A.3 distinguishes four objects: the performer System with it
 
 #### A.3:5.1 - The four anchors (terms & types)
 
-1. **Acting side:** for actual Work, use A.13 to recover each performer System and its obtaining assignment, then let A.15.1 admit the dated occurrence independently. If the current use also claims under which assignment the Work was performed, use F.6 `performedUnderAssignment(W, RA)` with that same assignment and its holder System. For another actor-side claim, its direct owner grounds the participants and decides whether a work-facing role assignment is current. *Canonical phrase when that assignment is grounded:* **system assigned to the locally defined `TransformerRole@Context` kind**. *Local shorthand:* after explicit binding in the **same subsection**, you MAY write **Transformer** for that same system; re-bind on context change and do not use the shorthand where the domain already has a conflicting transformer term. The shorthand neither identifies an actual transformation nor upgrades causal participation or broad physical agentivity into Work.
+1. **Acting side:** for actual Work, use A.13 to recover each performer System and its obtaining assignment, then let A.15.1 admit the dated occurrence independently. If the current use also claims under which assignment the Work was performed, use F.6 `performedUnderAssignment(W, RA)` with that same assignment and its holder System. For another actor-side claim, its direct owner grounds the participants and decides whether a work-facing role assignment is current.
+
+   *Canonical phrase when that assignment is grounded:* **system assigned to the locally defined `TransformerRole@Context` kind**. *Local shorthand:* after explicit binding in the **same subsection**, you MAY write **Transformer** for that same system; re-bind on context change and do not use the shorthand where the domain already has a conflicting transformer term. The shorthand neither identifies an actual transformation nor upgrades causal participation or broad physical agentivity into Work.
 
 2. **MethodDescription (description episteme, when relied on):** an SOP, program, protocol, script, diagram, or other source is a `U.MethodDescription` only when it meets A.3.2 membership for the exact Method. Its exact edition is cited only when the receiving claim about Work, assurance, gate, audit, or another use depends on that description.
 
 3. **Method (run-independent semantic way of doing):** the exact `U.Method` that Work may enact. It is neither an occurrence nor a MethodDescription, role assignment, or holder capability. Order-sensitive composition belongs to B.1.5 only when that composition claim is current.
 
-4. **Work (world-side dated occurrence holon):** `U.Work` is the admitted kind; one Work individual is admitted under A.15.1 from independently grounded performance history, each performer System's A.13 basis, actual `enactsMethod` relations, its temporal extent, and at least one obtaining locally declared Work-to-System relation whose stated boundary contains the complete occurrence. Add F.6 `performedUnderAssignment`, affected-referent, binding, and resource-use relations only when their own facts obtain and the current use relies on them. A `U.Episteme` may assert or describe those facts and designate the occurrence; a ticket, log row, record, or carrier is not the Work. The occurrence neither requires one universal MethodDescription edition nor establishes an actual change, result, production, delivery, acceptance, or aggregate merely by occurring.
+4. **Work (world-side dated occurrence holon):** `U.Work` is the admitted kind; one Work individual is admitted under A.15.1 from independently grounded performance history, each performer System's A.13 basis, actual `enactsMethod` relations, its temporal extent, and at least one obtaining locally declared Work-to-System relation whose stated boundary contains the complete occurrence. Add F.6 `performedUnderAssignment`, affected-referent, binding, and resource-use relations only when their own facts obtain and the current use relies on them.
+
+   A `U.Episteme` may assert or describe those facts and designate the occurrence; a ticket, log row, record, or carrier is not the Work. The occurrence neither requires one universal MethodDescription edition nor establishes an actual change, result, production, delivery, acceptance, or aggregate merely by occurring.
 
 > **Memory line:** *A MethodDescription may describe a Method; one dated world-side Work occurrence may enact that Method; a Work assertion may designate that occurrence.* The description, occurrence, and assertion are different holons, and none of these relations alone establishes actual change or result.
 > A local system-role kind and an obtaining assignment are distinct (A.2/A.2.1); a Method is a reusable way of doing; a Work individual is the performed behaviour occurrence.
 
 #### A.3:5.2 - System-role assignment (`U.SystemRoleAssignment`) for actor-side enactment
 
-When a performed-work claim relies on an assignment, identify its directly declared species under `U.SystemRoleAssignment`, the participant meanings and predicate that species defines, and the actual participant values that satisfy that predicate. Preserve the holder System, the assigned local system-role kind, and any real additional participant, such as a commission or position, required by that species. Use A.2.1 for its declaration and occurrence identity.
+When a performed-work claim relies on an assignment, identify its directly declared species under `U.SystemRoleAssignment`, the participant meanings and predicate that species defines, and the actual participant values that satisfy that predicate. Preserve the holder System, the assigned local system-role kind, and any additional participant, such as a commission or position, required by that species. Use A.2.1 for its declaration and occurrence identity.
 
 * An assignment assertion or occurrence description may state `assignmentInterval` for the currently known temporal extent. That description does not make the predicate obtain or add a generic assignment participant.
 * Cite a taxonomy episteme and effective ReferenceScheme when they matter to interpretation. They, a generic `U.BoundedContext`, and a selected `BoundedModelUseStructure` are not generic assignment participants. When a receiving claim about Work depends on a selected interpretation structure, designate it through that receiving use's relation.

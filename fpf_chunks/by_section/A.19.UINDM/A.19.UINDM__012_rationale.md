@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.19.UINDM"
-pattern_title: "Indicatorization (UINDM): Select Indicators Under a Declared Policy"
+pattern_title: "Indicatorization: Select Indicators Under a Declared Policy"
 section_id: "A.19.UINDM:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UINDM/A.19.UINDM__012_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.19.UINDM — Indicatorization (UINDM): Select Indicators Under a Declared Policy"
+  - "A.19.UINDM — Indicatorization: Select Indicators Under a Declared Policy"
   - "A.19.UINDM:10 — Rationale"
-line_start: 38107
-line_end: 38115
+line_start: 39640
+line_end: 39648
 dependencies:
 keywords:
   - "CHR suite stage indicatorize"
@@ -19,7 +19,7 @@ keywords:
   - "IndicatorChoicePolicy"
   - "indicator set"
   - "indicatorization"
-  - "tri-state admissibility (pass"
+  - "tri-state admissibility (pass\\"
 ---
 
 ### A.19.UINDM:10 - Rationale
@@ -29,5 +29,5 @@ Indicatorization is separated because it answers a different question from scori
 * Indicatorization determines **which coordinates may be used** under the indicator-selection policy.
 * Scoring, aggregation, and comparison determine **how** those coordinates are transformed, combined, or ordered under their admissibility conditions.
 
-By making indicatorization selection‑only, UINDM avoids “semantic alchemy” (changing meanings while claiming to merely “pick indicators”) and supports the CHR suite’s broader discipline: explicit specification references, any actually used crossing relations, and explicit handling of uncertainty via tri‑state guards.
+By making indicatorization selection‑only, UINDM avoids “semantic alchemy” (changing meanings while claiming to merely “pick indicators”) and supports the CHR suite’s broader discipline: explicit specification references, any used crossing relations, and explicit handling of uncertainty via tri‑state guards.
 

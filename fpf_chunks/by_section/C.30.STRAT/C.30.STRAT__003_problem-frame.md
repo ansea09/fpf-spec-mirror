@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__003_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.30.STRAT — Clarify Stratification and Architecture Source Labels"
   - "C.30.STRAT:1 — Problem frame"
-line_start: 73017
-line_end: 73024
+line_start: 76139
+line_end: 76146
 dependencies:
   - "A.10"
   - "A.15"
@@ -68,5 +68,5 @@ Architecture and engineering sources use compact labels because they work in loc
 
 These words are good recognition cues but poor stand-alone kinds. The same label can point to a selected structure, module relation, control relation, transformation-flow element, characteristic or scale, publication grouping, state, evidence claim, decision, or nothing beyond ordinary prose.
 
-The repair question is simple: what does the label name in this sentence, what use does the recovered claim support, and which existing pattern supplies the needed definition, constraint, or test?
+The repair question is: what does the label name in this sentence, what use does the recovered claim support, and which existing pattern supplies the needed definition, constraint, or test?
 

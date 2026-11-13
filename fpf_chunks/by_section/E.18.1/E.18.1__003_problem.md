@@ -6,12 +6,12 @@ section_id: "E.18.1:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.18.1 — P2W Problem-to-Work Carry-Through"
   - "E.18.1:2 — Problem"
-line_start: 110920
-line_end: 110925
+line_start: 117790
+line_end: 117799
 dependencies:
   - "A.15"
   - "A.15.PROD"
@@ -54,7 +54,11 @@ keywords:
 
 ### E.18.1:2 - Problem
 
-An accepted problem-side distinction becomes useful when it is ready to guide downstream work or work-planning use. The accepted problem card may expose an invariant, mathematical lens, unresolved *functional role* cue, mechanism-position candidate, method candidate family, planning constraint, result cue, or changed measurement assumption. Route unresolved role wording through E.10.ROLE before it affects a continuation; the recovered local system-role kind, classification, assignment occurrence, direct participation or functioning relation, ordinary non-use, or exact missing governor remains with its own pattern. Without P2W, that useful distinction is either overcompressed into "we have a solution" or scattered across several related FPF patterns before the working distinction is preserved.
+An accepted problem-side distinction becomes useful when it is ready to guide downstream work or work-planning use. The accepted problem card may expose an invariant, mathematical lens, unresolved *functional role* cue, mechanism-position candidate, method candidate family, planning constraint, result cue, or changed measurement assumption.
 
-P2W solves a carry-through problem. First say which accepted claim must affect which decision or use. Then write one ordinary relation-specific question, name its participants, apply the pattern that answers it, and keep that pattern's result or stop. Add a compact note only when another person or later action must replay the path. P2W succeeds when the accepted claim, receiving use, concrete question, applicable pattern contribution, and result remain inspectable without turning their use-specific connection into a relation kind or treating a note, diagram, plan, trace, or publication as the subject entity or as proof that work occurred.
+Route unresolved role wording through E.10.ROLE before it affects a continuation; the recovered local system-role kind, classification, assignment occurrence, direct participation or functioning relation, ordinary non-use, or missing governor remains with its own pattern. Without P2W, the team either reduces the accepted problem-side distinction to "we have a solution" or scatters it across several related FPF patterns before preserving it.
+
+First say which accepted claim must affect which decision or use. Then write one ordinary relation-specific question, name its participants, apply the pattern that answers it, and keep that pattern's result or stop. Add a compact note only when another person or later action must replay the path.
+
+P2W succeeds when the accepted claim, receiving use, concrete question, applicable pattern contribution, and result remain inspectable without turning their use-specific connection into a relation kind or treating a note, diagram, plan, trace, or publication as the subject entity or as proof that work occurred.
 

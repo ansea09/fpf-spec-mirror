@@ -6,12 +6,12 @@ section_id: "F.12:4"
 section_title: "Core idea (didactic)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.12/F.12__005_core-idea-didactic.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.12 — Evaluate Promise Fulfilment from Work Evidence (Service Acceptance)"
   - "F.12:4 — Core idea (didactic)"
-line_start: 122554
-line_end: 122569
+line_start: 130305
+line_end: 130324
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -49,7 +49,7 @@ keywords:
 
 ### F.12:4 - Core idea (didactic)
 
-Recover the following content needed to justify the result. An ordinary evaluation may stop with the delivery facts, adequate observations, rule and supported result; the separate performance history is needed when it is claimed or consumed:
+For an ordinary evaluation, the delivery facts, adequate observations, acceptance rule and supported result may suffice. Recover the evaluation’s performance history when it is claimed or used. Recover the following content as needed to justify the result:
 
 1. the exact **`U.PromiseContent` claim** being evaluated;
 2. the actual **Work occurrence or defined Work population** whose delivery is in question;
@@ -58,8 +58,12 @@ Recover the following content needed to justify the result. An ordinary evaluati
 5. the explicit **window** and population boundary;
 6. the evaluation Method and, when its performance history is claimed or consumed, the independently admitted dated evaluation Work that enacts it;
 7. the selected evaluation inputs, applied rule and result; recover the exact A.6.1 application and result binding when that identity is claimed or required by the governing rule;
-8. the acceptance rule and declared result scale, such as a Boolean, trichotomous, graded, `N/A`, or `Inconclusive`-including scale when that scale is actually declared; and
-9. the PromiseContentUse, delivery, fulfilment, measurement, evidence-use, any separately defined indicator or proxy, reliance, and status relations that actually connect these claims.
+8. the acceptance rule and the result scale it declares; examples include Boolean, trichotomous, graded, `N/A`, and `Inconclusive`-including scales; and
+9. the PromiseContentUse, delivery, fulfilment, measurement, evidence-use, any separately defined indicator or proxy, reliance, and status relations that connect these claims.
 
-The operation's result value comes first. A RequirementStatus assertion of `Satisfied` or `Violated` is available only through the exact acceptance result and its F.10 rule. Insufficient evidence can support `EvidenceStatus=Inconclusive` and leave `RequirementStatus=Pending`, or it can yield a locally declared result such as `Inconclusive` when the acceptance scale says so; it never silently creates a mixed universal scale. A plain summary may say **met**, **not met**, or **cannot judge** while retaining that exact distinction. A SchemeSenseCell addresses a local meaning; the evaluation still concerns the exact promise, Work, observations, values, result and status-use relation. A comparison table may display the argument; display alone does not establish those claims.
+The operation's result value comes first. A RequirementStatus assertion of `Satisfied` or `Violated` is available only through the exact acceptance result and its F.10 rule. Insufficient evidence can support `EvidenceStatus=Inconclusive` and leave `RequirementStatus=Pending`, or it can yield a locally declared result such as `Inconclusive` when the acceptance scale says so; it never silently creates a mixed universal scale.
+
+A plain summary may say **met**, **not met**, or **cannot judge** while distinguishing the result on its declared scale, the standing of the evidence and the status of the requirement.
+
+A SchemeSenseCell addresses a local meaning; the evaluation still concerns the exact promise, Work, observations, values, result and status-use relation. A comparison table may display the argument; display alone does not establish those claims.
 

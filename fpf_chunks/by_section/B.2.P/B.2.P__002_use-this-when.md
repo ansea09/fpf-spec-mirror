@@ -6,12 +6,12 @@ section_id: "B.2.P:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.P/B.2.P__002_use-this-when.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.2.P — Clarify Emergence and Meta-Holon Transition (MHT) Claims"
   - "B.2.P:0 — Use This When"
-line_start: 43717
-line_end: 43741
+line_start: 45477
+line_end: 45501
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -61,12 +61,12 @@ B.2.P is selected only when the source wording hides one of these recurring ques
 
 **What goes wrong if missed.** A word like "emergent" becomes a shortcut to a new U-kind, a collection receives agency by name, a metric jump becomes MHT, or source title mnemonics survive as if they were current pattern authority.
 
-**What this buys.** The practitioner can replace ambiguous emergence wording with the actual claim and the pattern that supplies its grounds. Whole reidentification stays distinguishable from the neighboring claims in :4.2.
+**What this buys.** The practitioner can replace ambiguous emergence wording with the claim and the pattern that supplies its grounds. Whole reidentification stays distinguishable from the neighboring claims in :4.2.
 
 **Not this pattern when.**
 
-- If the text already names the subject pattern and object by value, use that pattern directly.
-- If the question is ordinary collection admission without emergence, synergy, MHT, metric mirage, or whole-reidentification wording, use `A.14`, `C.13`, `B.3.5`, `A.1`, `A.15`, A.2 patterns, or `C.16` directly.
+- If the text already names the subject pattern and object by value, use that pattern.
+- If the question is ordinary collection admission without emergence, synergy, MHT, metric mirage, or whole-reidentification wording, use `A.14`, `C.13`, `B.3.5`, `A.1`, `A.15`, A.2 patterns, or `C.16`.
 - If whole-span `F.19` reading settles the wording without a remaining emergence-specific FPF question, stop there.
 - If the question is general wording-use architecture, use `E.10` and `E.10.ARCH`.
 

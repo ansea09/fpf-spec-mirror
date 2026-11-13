@@ -6,12 +6,12 @@ section_id: "C.2.LS:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.LS/C.2.LS__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.2.LS — Language-State Facet Profile: Publish Readings and Use Conditions Together"
   - "C.2.LS:intro — Intro"
-line_start: 53396
-line_end: 53413
+line_start: 55621
+line_end: 55638
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -56,7 +56,7 @@ keywords:
 
 **Sufficient result and non-use.** The profile can point to existing readings and include only the facets needed together. If ordinary wording, one direct facet reading or an applicable existing profile already serves the receiving use, use it without constructing another bundle.
 
-**What goes wrong if missed.** Teams replace the facet profile with a maturity adjective such as `ready`, `raw`, or `stable`, then use that label to choose routes, decide whether to reopen, interpret Bridges, or make publication decisions. The label hides the actual facet values.
+**What goes wrong if missed.** Teams replace the facet profile with a maturity adjective such as `ready`, `raw`, or `stable`, then use that label to choose routes, decide whether to reopen, interpret Bridges, or make publication decisions. The label hides the facet values.
 
 **What this buys.** A decomposable profile bundle: each facet keeps the definition and tests supplied by its own pattern, while the profile gives authors, assurance readers, and integrators one place to publish selected readings and the conditions on their joint use.
 

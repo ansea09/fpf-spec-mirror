@@ -6,12 +6,12 @@ section_id: "E.16:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.16/E.16__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.16 — RoC‑Autonomy Budget & Enforcement"
   - "E.16:1 — Problem Frame"
-line_start: 105844
-line_end: 105847
+line_start: 112311
+line_end: 112314
 dependencies:
   - "A.10"
   - "A.13"
@@ -51,5 +51,5 @@ keywords:
 
 ### E.16:1 - Problem Frame
 
-A System that performs Work without continuous human direction must stay within declared safety, risk, resource, and remit limits and yield through the stated override path. The same need can be declared prospectively for a Method or Service before a particular performer or Work item exists. Without a uniform rule, an autonomy claim drifts into tacit norms, cannot be benchmarked or audited, and undermines selection (Part G) and publication (Part F).
+A System that performs Work without continuous human direction must stay within declared safety, risk, resource, and remit limits and yield through the stated override path. The same need can be declared prospectively for a Method or Service before a performer or Work item exists. Without a uniform rule, an autonomy claim drifts into tacit norms, cannot be benchmarked or audited, and undermines selection (Part G) and publication (Part F).
 

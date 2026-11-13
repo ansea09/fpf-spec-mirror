@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.18"
-pattern_title: "Minimal CSLC in Kernel (Characteristic ⟷ Scale ⟷ Level ⟷ Coordinate) (A.CSLC‑KERNEL)"
+pattern_title: "CSLC in Kernel (Characteristic ⟷ Scale ⟷ Level ⟷ Coordinate) (A.CSLC‑KERNEL)"
 section_id: "A.18:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.18/A.18__009_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.18 — Minimal CSLC in Kernel (Characteristic ⟷ Scale ⟷ Level ⟷ Coordinate) (A.CSLC‑KERNEL)"
+  - "A.18 — CSLC in Kernel (Characteristic ⟷ Scale ⟷ Level ⟷ Coordinate) (A.CSLC‑KERNEL)"
   - "A.18:8 — Consequences"
-line_start: 34549
-line_end: 34568
+line_start: 36029
+line_end: 36048
 dependencies:
   - "A.17"
   - "A.19"
@@ -37,15 +37,15 @@ keywords:
 
 ### A.18:8 - Consequences
 
-Adopting the minimal CSLC Standard in the kernel yields a number of benefits:
+Adopting the CSLC Standard in the kernel yields these benefits:
 
 - **Recoverable value meaning:** Each reported value names or resolves its Characteristic and Scale, with Unit and Level when applicable. C.16 supplies the measurement model, conditions and uncertainty needed to interpret a performed reading.
 
-- **Interpretable comparison and calculation:** A magnitude comparison retains the Characteristic, Scale and measurement conditions that make the values comparable. A valid unit conversion preserves that basis across presentations. A derived quantity uses its measurement model; a composite Score adds the evaluation rule. Readers can therefore question a scoring choice separately from the measurement it uses.
+- **Interpretable comparison and calculation:** A magnitude comparison retains the Characteristic, Scale and measurement conditions that make the values comparable. A unit conversion preserves that basis across presentations. A derived quantity uses its measurement model; a composite Score adds the evaluation rule. Readers can therefore question a scoring choice separately from the measurement it uses.
 
 - **Reuse across domains:** temperature, length, code complexity and satisfaction assessments can expose their Characteristic, Scale and Coordinate through the same structure. Their methods and interpretation still need the applicable domain rules.
 
-- **Explicit Scale limits:** categorical assessments and quantitative measurements retain the operations their Scales allow. Named Levels can expose categories without pretending that their numerical labels measure equal distances.
+- **Scale limits:** categorical assessments and quantitative measurements retain the operations their Scales allow. Named Levels can expose categories without pretending that their numerical labels measure equal distances.
 
 - **Interpretable multi-factor scoring:** A ScoringMethod exposes how its input Coordinates contribute to the Score. Its preference, score order and declared output range allow the reader to examine the weighting or formula and judge whether it represents the intended evaluation.
 

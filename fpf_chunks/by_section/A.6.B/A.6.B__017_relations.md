@@ -6,12 +6,12 @@ section_id: "A.6.B:15"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__017_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:15 — Relations"
-line_start: 15406
-line_end: 15415
+line_start: 15917
+line_end: 15926
 dependencies:
   - "A.10"
   - "A.2.3"
@@ -48,7 +48,7 @@ keywords:
   - "The key words MUST"
   - "accountable norms and grants"
   - "actual exercise"
-  - "an individual-duty D- claim MUST name its actual bearer and exact separately obtaining U.Commitment"
+  - "an individual-duty D- claim MUST name its actual bearer and separately obtaining U.Commitment"
   - "and SHALL have their RFC 2119/8174 meanings only when capitalized as shown"
   - "and evaluated results distinct"
   - "as if it were an agent obligation"
@@ -76,11 +76,11 @@ keywords:
 
 ### A.6.B:15 — Relations
 
-* **Used by A.6 and A.6.C:** supplies the canonical matrix and cross-quadrant link discipline. Both consumers classify each exact atomic claim by predicate and adjudication, keep the claim episteme separate from its EntityOfConcern, and use the §8.4.1 branch only when permission wording is live.
+* **Used by A.6 and A.6.C:** supplies the canonical matrix and cross-quadrant link discipline. Both consumers classify each atomic claim by predicate and adjudication, keep the claim episteme separate from its EntityOfConcern, and use the §8.4.1 branch only when permission wording is live.
 * **Constrains A.6.0 (`U.Signature`):** enforces that `L-*` laws are truth‑conditional and do not include admissibility predicates.
 * **Constrains A.6.1 (`U.Mechanism`):** places admissibility in `AdmissibilityConditions` (`A-*`) and classifies actual results and evidence claims as `E-*`, adding carrier references when their use requires them.
 * **Requires A.7:** identifies each claim's EntityOfConcern separately from the
   episteme carrying it. The concern may itself be a Description episteme or
   publication carrier.
-* **Interacts with MVPK/E.17:** faces are projections that cite L/A/D/E-classified claims and mint no new semantics. When the permission-word branch is selected, its row names the subject pattern and obtaining or failure test; A.6.B only classifies the statement, and wording or a carrier alone does not make the referenced object obtain.
+* **Interacts with MVPK/E.17:** faces are projections that cite L/A/D/E-classified claims and introduce no new semantics. When the permission-word branch is selected, its row names the subject pattern and obtaining or failure test; A.6.B only classifies the statement, and wording or a carrier alone does not make the referenced object obtain.
 

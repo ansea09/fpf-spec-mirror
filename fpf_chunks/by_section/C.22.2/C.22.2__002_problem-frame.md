@@ -6,12 +6,12 @@ section_id: "C.22.2:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:1 — Problem Frame"
-line_start: 63720
-line_end: 63729
+line_start: 66431
+line_end: 66446
 dependencies:
   - "A.10"
   - "A.15"
@@ -58,11 +58,17 @@ keywords:
 
 ### C.22.2:1 - Problem Frame
 
-A working team can begin with symptoms, anomalies, stakeholder signals, constraints, risks, old solution evidence, comparison ideas, solution temptations, underused capabilities, new environments, opportunity-like cues, or members of a retained set. Opportunity-like signals still need an exact EntityOfConcern, effective ReferenceScheme, ClaimScope, claim family, not-wish reason, improvement or acceptance probe when the next use needs one, and honest next use; they do not turn this pattern into an ideation pattern.
+A working team can begin with symptoms, anomalies, stakeholder signals, constraints, risks, old solution evidence, comparison ideas, solution temptations, underused capabilities, new environments, opportunity-like cues, or members of a retained set. Opportunity-like signals still need an exact EntityOfConcern, effective ReferenceScheme, ClaimScope, claim family, not-wish reason, improvement or acceptance probe when the next use needs one, and next use.
 
-Problematization becomes useful here when it produces claim content a practitioner can inspect. The card distinguishes the observed signal from the claim family being considered; the one joint EntityOfConcern from nearby affected entities; the effective scheme and scope from generic setting words; actual-PFR assertions from forecasts and solvability claims; and problem-side readiness from method, Work, gate, or evidence conclusions.
+Problematization becomes useful here when it produces claim content a practitioner can inspect. The card distinguishes:
+
+- the observed signal from the claim family being considered;
+- the one joint EntityOfConcern from nearby affected entities;
+- the effective scheme and scope from generic setting words;
+- actual-PFR assertions from forecasts and solvability claims; and
+- problem-side readiness from method, Work, gate, or evidence conclusions.
 
 The first-minute question is:
 
-> Can I state one exact concern, claim family, scheme, scope, improvement or acceptance probe when the next use needs one, and honest next use without turning a signal, card field, setting label, evidence result, or proposed method into the actual Problem?
+> Can I state one concern, claim family, scheme, scope, improvement or acceptance probe when the next use needs one, and next use without turning a signal, card field, setting label, evidence result, or proposed method into the actual Problem?
 

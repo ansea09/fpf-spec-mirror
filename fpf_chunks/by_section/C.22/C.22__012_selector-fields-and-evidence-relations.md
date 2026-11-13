@@ -6,12 +6,12 @@ section_id: "C.22:10"
 section_title: "Selector Fields And Evidence Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22/C.22__012_selector-fields-and-evidence-relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.22 — Task Typing and TaskSignature Assignment (Problem-CHR)"
   - "C.22:10 — Selector Fields And Evidence Relations"
-line_start: 63172
-line_end: 63177
+line_start: 65794
+line_end: 65810
 dependencies:
   - "A.6.0"
   - "C.16"
@@ -32,7 +32,18 @@ keywords:
 
 ### C.22:10 - Selector Fields And Evidence Relations
 
-*Inputs.* One stabilized problem-side episteme and CG-Spec ids; a `ProblemProfile` (...Description) only when C.22:5.0b's replay need is current; the supporting evidence-use or provenance relation when relied on, with an A.10 account only when replay of that basis needs it; D.CTX only when that separate context relation is current; the QD values or references named by CharacteristicSpaceRef, ArchiveConfig, and EmitterPolicyRef only when QD is live; GeneratorIntent only when OEE is live.
-*Produces.* Declare one `TaskSignature` episteme as the `U.Signature` species specified in C.22:5.2. When that signature is actually adopted for the problem-side episteme and receiving use, one separate `TaskSignatureAssignmentRelation` obtains among that signature, the exact problem-side episteme, and exact receiving-use episteme under C.22:5.2. TaskSignature is neither a new root U-kind nor a record kind: its A.6.0/C.2.1 identity tuple and declaration content determine episteme identity; signature membership and edition continuity follow C.22:5.2, while publication, carrier, and serialization remain outside identity. Optional QD, archive, generator, `PortfolioMode`, and telemetry vocabulary appears only when current.
+*Inputs.*
+
+- One stabilized problem-side episteme and CG-Spec ids;
+- a `ProblemProfile` (...Description) only when C.22:5.0b's replay need is current;
+- the supporting evidence-use or provenance relation when relied on, with an A.10 account only when replay of that basis needs it;
+- D.CTX only when that separate context relation is current;
+- the QD values or references named by CharacteristicSpaceRef, ArchiveConfig, and EmitterPolicyRef only when QD is live;
+- GeneratorIntent only when OEE is live.
+
+*Produces.* Declare one `TaskSignature` episteme as the `U.Signature` species specified in C.22:5.2. When that signature is adopted for the problem-side episteme and receiving use, one separate `TaskSignatureAssignmentRelation` obtains among that signature, the exact problem-side episteme, and exact receiving-use episteme under C.22:5.2.
+
+TaskSignature is neither a new root U-kind nor a record kind: its A.6.0/C.2.1 identity tuple and declaration content determine episteme identity; signature membership and edition continuity follow C.22:5.2, while publication, carrier, and serialization remain outside identity. Optional QD, archive, generator, `PortfolioMode`, and telemetry vocabulary appears only when current.
+
 *Used by.* **G.5** (Eligibility and Selection kernel), **G.4** (Acceptance and Evidence), **C.23** (admit, degrade, and abstain rules and method-family maturity checks).
 

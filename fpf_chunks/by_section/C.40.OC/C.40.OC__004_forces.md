@@ -6,12 +6,12 @@ section_id: "C.40.OC:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OC/C.40.OC__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.40.OC — Characterize a Subject for a Possible Change"
   - "C.40.OC:3 — Forces"
-line_start: 86749
-line_end: 86760
+line_start: 90983
+line_end: 90994
 dependencies:
   - "C.11.CRC"
   - "C.16"
@@ -31,6 +31,6 @@ keywords:
 | Readability | A few ordinary claims should guide action, but scales, polarity, uncertainty, and time stance cannot disappear when relied on. |
 | Direction | Intended change needs an orientation, while *development* and *maturity* do not establish that higher is better. |
 | Multiple coordinates | Comparison needs a complete decision-relevant set without forcing all coordinates onto one scale. |
-| Current evidence | A provisional inquiry may proceed with unknowns, while stronger reachability or advice must not launder them into facts. |
+| Current evidence | A provisional inquiry may proceed with unknowns, while stronger reachability or advice must not present them as facts. |
 | Recognition and assurance | A well-formed characterization can still rely on weak measurement, transfer, or source evidence. |
 

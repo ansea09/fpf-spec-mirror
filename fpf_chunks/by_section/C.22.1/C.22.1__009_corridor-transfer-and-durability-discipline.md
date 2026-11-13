@@ -6,12 +6,12 @@ section_id: "C.22.1:8"
 section_title: "Corridor, transfer, and durability discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.1/C.22.1__009_corridor-transfer-and-durability-discipline.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.22.1 — Task-family adaptation signature"
   - "C.22.1:8 — Corridor, transfer, and durability discipline"
-line_start: 63281
-line_end: 63292
+line_start: 65914
+line_end: 65925
 dependencies:
   - "A.15"
   - "C.19.1"
@@ -41,11 +41,11 @@ keywords:
 
 - If the adaptation claim depends on entering a new solution corridor, publish the `corridorEntryBaseline` first: the prior repertoire, baseline set, or comparison family relative to which corridor entry is being claimed.
 - State `corridorEntryEvidence` that supports the claimed difference from that baseline, such as a reproducible solution class, a stable descriptor shift or a supported stepping-stone sequence. Name what distinguishes the corridor; an unfamiliar sample alone does not establish entry.
-- If a stepping stone mattered, publish the stepping-stone evidence as part of the adaptation signature rather than treating it as retrospective color.
-- Corridor or stepping-stone notes do not replace the work-measure threshold account; they explain why the adaptation path matters, not whether the threshold was actually reached.
+- If a stepping stone mattered, publish the stepping-stone evidence as part of the adaptation signature.
+- Corridor or stepping-stone notes do not replace the work-measure threshold account; they explain why the adaptation path matters, not whether the threshold was reached.
 - A fast threshold result is not yet enough to claim durable specialization.
-- If transfer to a neighboring task family is claimed, name the transfer target and the observed gain explicitly.
-- If retention is claimed, name the reuse or retention window rather than letting durability hide inside one isolated run.
-- If specialization harms neighboring task families, narrows reusable competence, or creates de-specialization cost, publish that in `downsideEffect?` rather than telling only the upside story.
-- If post-threshold performance matters to later exploitation, publish `postThresholdEfficiency?` so the claim is not trapped at the threshold-crossing moment only.
+- If transfer to a neighboring task family is claimed, name the transfer target and the observed gain.
+- If retention is claimed, name the reuse or retention window rather than implying durability from one isolated run.
+- If specialization harms neighboring task families, narrows reusable competence, or creates de-specialization cost, publish that in `downsideEffect?`.
+- If post-threshold performance matters to later exploitation, publish `postThresholdEfficiency?` to show performance after threshold crossing.
 

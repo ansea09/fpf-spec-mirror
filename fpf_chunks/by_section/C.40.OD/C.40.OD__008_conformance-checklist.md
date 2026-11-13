@@ -6,12 +6,12 @@ section_id: "C.40.OD:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OD/C.40.OD__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.40.OD — Construct and Continue Open-Ended Development"
   - "C.40.OD:7 — Conformance Checklist"
-line_start: 88543
-line_end: 88555
+line_start: 92801
+line_end: 92813
 dependencies:
   - "C.32.MWA.PP"
   - "C.40.CD"
@@ -31,7 +31,7 @@ keywords:
 - Does the next transition arise from the changed subject's position, with a bounded attainable contribution rather than a compulsory endless workload?
 - Can another carrier obtain and adapt the relevant Methods without the unpublished invention of the first organizer?
 - Does the claimed growth concern knowledge, understanding, Methods or the means of obtaining further development, with ordinary output and acquisition of an existing Method separately described?
-- Is a further attainable question connected to the changed position without a promise of endless success?
+- Which problem has become attainable, for whom, and what supports the first attempt? If an independent continuation is already under way, who chose the problem and started the work?
 
-Use the questions needed by the actual claim; they are not a demand to complete every branch.
+Use the questions needed by the claim; they are not a demand to complete every branch.
 

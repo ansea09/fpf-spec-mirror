@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.2.2"
-pattern_title: "Meta-System Transition: Test the Proposed New Whole as a System"
+pattern_title: "Test the Proposed New Whole as a System"
 section_id: "B.2.2:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.2/B.2.2__004_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "B.2.2 — Meta-System Transition: Test the Proposed New Whole as a System"
+  - "B.2.2 — Test the Proposed New Whole as a System"
   - "B.2.2:2 — Problem"
-line_start: 43993
-line_end: 44002
+line_start: 45769
+line_end: 45778
 dependencies:
   - "A.1"
   - "A.10"
@@ -45,8 +45,8 @@ keywords:
 When system recognition and the claims about the new whole are conflated:
 
 1. **System identity stays on old parts.** The project keeps component assurance, component responsibilities, and component interfaces after the operating whole has changed.
-2. **System claims become rhetoric.** A collective name is used in place of System-recognition grounds or of the additional facts that the particular claim needs, such as an objective, coordination relation, or capability envelope.
-3. **Supervision is overread.** A coordination mechanism is treated as a containing whole, safety warrant, or complete system recognition without the corresponding direct facts.
+2. **System claims become rhetoric.** A collective name is used in place of System-recognition grounds or of the additional facts that the claim needs, such as an objective, coordination relation, or capability envelope.
+3. **Supervision is overread.** A coordination mechanism is treated as a containing whole, safety warrant, or system recognition without the corresponding facts.
 4. **Transformation is confused with containment.** One system changing another holon is treated as part-whole construction instead of transformation and work.
 5. **Architecture description replaces architecture.** Dashboards, diagrams, simulations, bills, and digital twins are treated as the operating system rather than descriptions of it.
 

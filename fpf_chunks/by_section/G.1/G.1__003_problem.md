@@ -6,12 +6,12 @@ section_id: "G.1:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.1/G.1__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.1 — Author a Reusable CG-Frame Generator and Selector Kit"
   - "G.1:2 — Problem"
-line_start: 127241
-line_end: 127251
+line_start: 135291
+line_end: 135301
 dependencies:
   - "A.10"
   - "A.15.2"
@@ -56,10 +56,10 @@ keywords:
 
 Without the connections supplied by the chassis, a CG-Frame kit can have the following gaps:
 
-* **SoTA is not locally scoped**: inputs are “in the air”, not a reconstructible set.
+* **Unscoped SoTA inputs.** A reader cannot reconstruct which sources belong to the local set.
 * **Generation is ad‑hoc**: variant candidates are emitted without a stable trace of why/when/how.
 * **Selection is opaque**: eligibility/acceptance and assurance are not pinned to explicit surfaces.
-* **Outputs don’t land in reusable surfaces**: no clean hand‑off into UTS / RoleDescription / Concept‑Sets / RSCR.
+* **Outputs are hard to reuse.** The kit lacks the bindings needed to hand them on to UTS, RoleDescription, Concept‑Sets or RSCR.
 * **No kit‑level snapshot**: the scaffold lacks a versioned manifest, so downstream can’t reliably cite “which chassis edition” was used.
 * **Refresh is unplanned**: there is no canonical wiring from edits/telemetry/decay to RSCR causes along the P2W path.
 

@@ -6,12 +6,12 @@ section_id: "A.3.1.QM:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.QM/A.3.1.QM__014_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.3.1.QM — Qualify a Method for Its Intended Contribution"
   - "A.3.1.QM:12 — Relations"
-line_start: 10391
-line_end: 10399
+line_start: 10792
+line_end: 10800
 dependencies:
   - "A.3.1"
   - "A.3.1.CC"
@@ -29,6 +29,6 @@ keywords:
 - `A.3.1` alone governs Method identification. A.3.1.QM does not admit Methods.
 - C.32.MWA.PP receives retained subjects only when combined Method, Work, allocation, support, description, subject, or cultural structures change the decision.
 - B.1.5.CM resolves a proposed whole; A.3.1.QM qualification supplies no whole identity, compatibility, or `methodPartOf` fact.
-- `C.11` or the applicable domain decision Method consumes the bounded individual results when a choice is live.
+- `C.11` or the applicable domain decision Method consumes the bounded individual results when a choice is needed.
 - C.18 supplies candidate generation when needed; G.5 supplies bounded Method-family and selector results.
 

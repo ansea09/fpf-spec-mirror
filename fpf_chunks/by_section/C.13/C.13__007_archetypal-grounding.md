@@ -6,12 +6,12 @@ section_id: "C.13:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.13/C.13__007_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.13 — Constructional Mereology (Compose‑CAL)"
   - "C.13:5 — Archetypal Grounding"
-line_start: 58435
-line_end: 58468
+line_start: 60806
+line_end: 60839
 dependencies:
   - "A.1"
   - "A.14"
@@ -31,11 +31,11 @@ keywords:
 
 #### C.13:5.1 - Pump Skid: Integrated Assembly, Not A Parts List
 
-PumpSkid #7 is assembled from exact Pump, Motor, Baseframe, Manifold, enclosure, pipe, cable, and connector entities. The direct mechanical, electrical, and fluid part-relation patterns identify the exact fastening, coupling, enclosure, terminal, flange, and seal occurrences. The skid assembly method or rule states how those facts form the candidate, and the skid reidentification rule says which replacements preserve PumpSkid #7.
+PumpSkid #7 is assembled from identified Pump, Motor, Baseframe, Manifold, enclosure, pipe, cable, and connector entities. The direct mechanical, electrical, and fluid part-relation patterns identify the fastening, coupling, enclosure, terminal, flange, and seal occurrences. The skid assembly method or rule states how those facts form the candidate, and the skid reidentification rule says which replacements preserve PumpSkid #7.
 
 The shorthand `Γ_m.sum{Pump, Motor, Baseframe, Manifold, ...}` is truthful only with those facts beside it. It records an integrated-assembly construction; it does not make the relations obtain. The composition sustains skid-level boundary, interface, load-envelope, and operating characteristics not attributable to one constituent alone.
 
-The same parts unconnected on a pallet do not form the skid. A bill of materials and drawing are epistemes about intended or possible assembly. They do not substitute for actual part relations, assembly, or identity. The same part set connected under a different governed assembly may constitute another whole.
+The same parts unconnected on a pallet do not form the skid. A bill of materials and drawing are epistemes about intended or possible assembly. They do not substitute for actual part relations, assembly, or identity. The same part set connected in a different assembly may constitute another whole.
 
 #### C.13:5.2 - Collection And Aspect
 
@@ -45,19 +45,19 @@ Reuse the filled Reactor-7 case in `A.14:5.3`: `Γ_m.slice(Reactor-7, thermal-bo
 
 #### C.13:5.3 - Episteme, Method, Work, And Discipline Holons
 
-A theory episteme may use C.13 only after C.2.1 identifies the episteme and an exact direct episteme-part or claim-composition pattern identifies the constituent entities, the part relations that obtain, and the assembly and reidentification rule. C.2.1 claim-graph content helps constitute the episteme but does not thereby supply a C.13 part predicate. For example, a definition, diagram or evidence item enters a `sum` trace only when a direct part predicate independently obtains; stating, showing or supporting the theory alone is insufficient. The trace then reports the claim-bearing assembly rather than creating it.
+A theory episteme may use C.13 only after C.2.1 identifies the episteme and a direct episteme-part or claim-composition pattern identifies the constituent entities, the part relations that obtain, and the assembly and reidentification rule. C.2.1 claim-graph content helps constitute the episteme but does not thereby supply a C.13 part predicate. For example, a definition, diagram or evidence item enters a `sum` trace only when a direct part predicate independently obtains; stating, showing or supporting the theory alone is insufficient. The trace then reports the claim-bearing assembly rather than creating it.
 
-A composite method may use C.13 after B.1.5 or another direct method-composition pattern identifies exact submethods, whole-forming relations, constraints, and the whole-method reidentification rule. A dated work occurrence may use C.13 only after the direct work-mereology owner identifies exact work parts and whole-forming relations. Step labels, a recipe, work-plan items, a WBS, co-occurrence, or common performer do not supply those facts.
+A composite method may use C.13 after B.1.5 or another direct method-composition pattern identifies submethods, whole-forming relations, constraints, and the whole-method reidentification rule. A dated work occurrence may use C.13 only after the direct work-mereology owner identifies work parts and whole-forming relations. Step labels, a recipe, work-plan items, a WBS, co-occurrence, or common performer do not supply those facts.
 
-A discipline may use C.13 only after C.20 and its direct relation owners identify whatever constituent entities the case actually requires, the whole-forming relations that obtain among them, and the discipline identity or reidentification rule. Do not infer parts from C.20 card positions or from objects merely associated with the discipline. For example, a practice, organization or canon item enters a `sum` trace only when a direct part predicate independently obtains.
+A discipline may use C.13 only after C.20 and its direct relation owners identify the constituent entities required by the case, the whole-forming relations that obtain among them, and the discipline identity or reidentification rule. Do not infer parts from C.20 card positions or from objects merely associated with the discipline. For example, a practice, organization or canon item enters a `sum` trace only when a direct part predicate independently obtains.
 
 #### C.13:5.4 - Selected Structure And Transformation Stops
 
-A selected `BoundedModelUseStructure` organizes exact model-use relations for a use. Selection does not by itself establish constructive parthood, agency, holonhood, or an MHT. C.13 can discuss construction of an underlying system, episteme, method, or work whole when its direct facts are available; it does not turn the selected relation organization into that whole.
+A selected `BoundedModelUseStructure` organizes identified model-use relations for a use. Selection does not by itself establish constructive parthood, agency, holonhood, or an MHT. C.13 can discuss construction of an underlying system, episteme, method, or work whole when its direct facts are available; it does not turn the selected relation organization into that whole.
 
-Mounting, wiring, fluid-connection, and configuration changes may each be independently identified `U.Transformation` occurrences. A skid entity-construction trace does not make those changes constituents of one composite transformation. If a use requires transformation contribution, parthood, composite identity, or holonhood and no direct governor supplies the relevant compatibility and reidentification law, retain the separate changes and the exact blocker. Missing composition facts establish neither composition nor indivisibility.
+Mounting, wiring, fluid-connection, and configuration changes may each be independently identified `U.Transformation` occurrences. A skid entity-construction trace does not make those changes constituents of one composite transformation. If a use requires transformation contribution, parthood, composite identity, or holonhood and no direct governor supplies the relevant compatibility and reidentification law, retain the separate changes and the blocker. Missing composition facts establish neither composition nor indivisibility.
 
 #### C.13:5.5 - Scope Justification
 
-The same three forms work across mechanical, biological, informational, Method, Work, and Discipline cases: `sum` reports integrated assembly, `set` collection belonging, and `slice` either an aspect or a measured portion under its distinct profile. Using them does not replace the patterns that define the particular entities and relations. Order and timing remain with Method and temporal patterns; evidence and warrant remain with assurance patterns; public kind admission remains with E.24.UK; the direct identity rule decides whether the existing whole continues or a new whole must be identified, with B.2 used when reidentification is current.
+The same three forms work across mechanical, biological, informational, Method, Work, and Discipline cases: `sum` reports integrated assembly, `set` collection belonging, and `slice` either an aspect or a measured portion under its distinct profile. Using them does not replace the patterns that define the particular entities and relations. Order and timing remain with Method and temporal patterns; evidence and warrant remain with assurance patterns; public kind admission remains with E.24.UK; the direct identity rule decides whether the existing whole continues or a new whole must be identified, with B.2 used when reidentification is at issue.
 

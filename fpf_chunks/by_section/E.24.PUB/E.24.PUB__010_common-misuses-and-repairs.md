@@ -6,12 +6,12 @@ section_id: "E.24.PUB:8"
 section_title: "Common Misuses and Repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__010_common-misuses-and-repairs.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.24.PUB — Episteme Publication: Availability, Form and Carrier"
   - "E.24.PUB:8 — Common Misuses and Repairs"
-line_start: 117202
-line_end: 117213
+line_start: 124715
+line_end: 124726
 dependencies:
   - "A.6.3"
   - "A.6.3.RT"
@@ -38,7 +38,7 @@ keywords:
 
 ### E.24.PUB:8 - Common Misuses and Repairs
 
-| Misuse | What actually failed | Repair move |
+| Misuse | What failed | Repair move |
 | --- | --- | --- |
 | File equals episteme | Carrier continuity is used as claim-content identity. | Recover the C.2.1 episteme identity and the carrier's direct identity separately. |
 | Diagram equals view | Graphical form or construction history is used as the `U.View` membership criterion. | Recover exact candidate episteme E, exact viewpoint episteme P, and E.17.0 conformance; keep any A.6.3 construction, selected use, form, and representation separate. |

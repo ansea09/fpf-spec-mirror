@@ -6,12 +6,12 @@ section_id: "C.2.LS:18"
 section_title: "Review Matrix and Migration Tests"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.LS/C.2.LS__019_review-matrix-and-migration-tests.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.2.LS — Language-State Facet Profile: Publish Readings and Use Conditions Together"
   - "C.2.LS:18 — Review Matrix and Migration Tests"
-line_start: 53656
-line_end: 53673
+line_start: 55889
+line_end: 55906
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -48,15 +48,15 @@ keywords:
 An assurance reader should ask:
 
 - does each published facet keep the definition and test supplied by its own pattern rather than by surrogate prose;
-- does any overlay smuggle a hidden scalar or gate decision;
-- are threshold claims tied to the facet that really bears them;
-- do cited moves in `A.16`, `A.16.1`, `A.16.2`, `B.4.1`, or `B.5.2.0` actually match the facet bundle;
+- does any overlay introduce a hidden scalar or gate decision;
+- are threshold claims tied to the facet that bears them;
+- do cited moves in `A.16`, `A.16.1`, `A.16.2`, `B.4.1`, or `B.5.2.0` match the facet bundle;
 - if reuse depends on distinct local meanings, were their exact senses recovered and the F.9 predicate tested, preserving a false or unresolved result; if a Bridge obtains, does its separate bounded-use claim support the proposed reuse under F.9:4.2, with any optional loss account or F.9.1 stance note kept separate from the facets;
 - if viewpoint conformance is claimed, was it tested under `E.17.0`?
 
 #### C.2.LS:18.2 - Migration test for source prose
-When a receiving use depends on a source phrase such as "still immature" or "already stable enough", recover the claimed reading or relation, its grounds, any threshold or route consequence, and the cited rule that warrants that consequence. Add an external `authoritySourceRef` only when an external authority actually supplies the rule.
+When a receiving use depends on a source phrase such as "still immature" or "already stable enough", recover the claimed reading or relation, its grounds, any threshold or route consequence, and the cited rule that warrants that consequence. Add an external `authoritySourceRef` only when an external authority supplies the rule.
 
 #### C.2.LS:18.3 - Comparative profile use
-Compare profiles on the named facets. A missing reading leaves that facet's comparison unresolved. A reporting aggregate needs a declared local model and operations admissible for the actual Scales under A.18/A.19; publishing an aggregation rule alone does not establish that basis. The receiving rule determines whether the aggregate supplies a sufficient input. Keep component readings or an accessible return to them whenever that rule, interpretation or reliance needs their distinctions or grounds.
+Compare profiles on the named facets. A missing reading leaves that facet's comparison unresolved. A reporting aggregate needs a declared local model and operations admissible for the Scales under A.18/A.19; publishing an aggregation rule alone does not establish that basis. The receiving rule determines whether the aggregate supplies a sufficient input. Keep component readings or an accessible return to them whenever that rule, interpretation or reliance needs their distinctions or grounds.
 

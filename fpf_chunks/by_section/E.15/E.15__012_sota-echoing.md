@@ -6,12 +6,12 @@ section_id: "E.15:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.15/E.15__012_sota-echoing.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.15 — Pattern Change, Edition Continuity, and Impact Analysis"
   - "E.15:11 — SoTA-Echoing"
-line_start: 105799
-line_end: 105811
+line_start: 112266
+line_end: 112278
 dependencies:
   - "C.18"
   - "C.19"
@@ -39,7 +39,7 @@ The selected method combines exact edition comparison with dependency-aware incr
 | [Git diff documentation](https://git-scm.com/docs/git-diff), current official documentation | **Adopt:** compare exact endpoints and keep historical values recoverable. | A textual or blob diff locates change but does not prove semantic preservation or actual consumer impact. | Exact predecessor/candidate recovery is mandatory; semantic probes remain separate. |
 | [Semantic Versioning 2.0.0](https://semver.org/) | **Adapt as established release practice:** immutable released contents and explicit compatibility communication are useful. | SemVer depends on a declared public API and its labels do not decide FPF semantic continuity. It is not the current method for impact analysis. | Version syntax is optional and follows, rather than supplies, the Delta-Class decision. |
 | [Current Bazel action-graph and incremental-build practice](https://bazel.build/about/intro) and its [actual-versus-declared dependency distinction](https://bazel.build/concepts/dependencies) | **Adapt:** trace changed inputs through actual dependencies and reuse unaffected work. This advances the effort-to-reliability frontier over full reruns when change is local. | A build graph is not an ontology of pattern meaning, and declared references can miss or overstate semantic dependence. | Inspect actual and declared consumers; reopen only affected conclusions. |
-| Li, Chen, Huang, and Ding, [“Change-aware model checking for evolving concurrent programs based on Program Dependence Net”](https://doi.org/10.1002/smr.2626), 2024 | **Adopt the current research move by analogy:** use prior verified results and property-relevant dependency slices rather than rechecking an entire changed system. | Software paths and LTL properties do not transfer as FPF kinds or sufficient evidence for prose semantics. | Result reuse requires an unchanged conclusion and a justified outside-impact dependency. |
+| Li, Chen, Huang, and Ding, [“Change-aware model checking for evolving concurrent programs based on Program Dependence Net”](https://doi.org/10.1002/smr.2626), 2024 | **Adopt the current research move by analogy:** use prior verified results and property-relevant dependency slices rather than rechecking an entire changed system. | Software paths and LTL properties do not transfer as FPF kinds or sufficient evidence for prose semantics. | Reuse a result only when its conclusion is unchanged and its dependencies show why the changed premise cannot affect it. |
 | MAP-Elites and quality-diversity search, with current FPF C.18/C.19 machinery | **Retain as optional lineage and method family:** useful when several materially different candidates and diversity itself matter. | Candidate multiplicity and archive coverage do not improve an understood local repair and do not select a winner across heterogeneous qualities. | Alternative generation is conditional; E.21/E.22 and intended use decide among non-dominated candidates. |
-| Full rerun of every authoring, source, assurance, and review activity | **Reject as the default rival:** broad reruns can be appropriate after a genuinely broad Δ-3 change. | At comparable correctness, they spend more effort on unaffected premises and encourage ceremonial records. | Scope verification from actual change and dependencies, while preserving the explicit broad-change branch. |
+| Full rerun of every authoring, source, assurance, and review activity | **Reject as the default rival:** broad reruns can be appropriate after a broad Δ-3 change. | At comparable correctness, they spend more effort on unaffected premises and encourage ceremonial records. | Scope verification from actual change and dependencies, while preserving the explicit broad-change branch. |
 

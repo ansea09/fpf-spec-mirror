@@ -6,12 +6,12 @@ section_id: "C.40.NP:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.NP/C.40.NP__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.40.NP — Continue from a Result to New Attainable Problems"
   - "C.40.NP:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 88959
-line_end: 88968
+line_start: 93227
+line_end: 93236
 dependencies:
   - "C.18"
   - "C.19"
@@ -30,9 +30,9 @@ keywords:
 
 | Failure | Repair |
 | --- | --- |
-| Repeat the successful exercise regardless of the next premise | Recover what the next case actually needs. |
+| Repeat the successful exercise regardless of the next premise | Recover what the next case needs. |
 | Call a larger backlog open-ended development | Identify the new understanding or construction and the possibilities it opens. |
-| Treat publication as another carrier’s competence | Obtain an actual reconstruction and receiving-use result. |
+| Treat publication as another carrier’s competence | Obtain a reconstruction and receiving-use result. |
 | Change the metric and claim the subject improved | Preserve the former comparison and explain the new criterion. |
-| Promise rollback for human or organizational change | Use the subject’s actual recovery and transition mechanisms. |
+| Promise rollback for human or organizational change | Use the subject’s recovery and transition mechanisms. |
 

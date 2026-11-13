@@ -6,12 +6,12 @@ section_id: "F.9:15"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__017_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.9 — Relate Local Meanings across Contexts (Alignment and Bridge)"
   - "F.9:15 — Relations"
-line_start: 121600
-line_end: 121619
+line_start: 129300
+line_end: 129319
 dependencies:
   - "A.10"
   - "A.13"
@@ -63,7 +63,7 @@ keywords:
 
 * **A.10.** Use it for the descriptive evidence-provenance path, the independently established direct relations it cites, and local `RelianceDisposition` for ordinary bounded evidence use.
 * **B.3.** Use B.3 only after an actual named assurance claim is current; it states the bounded `AssuranceResult` or non-positive disposition and does not create the claim, authorization, or use.
-* **E.10.ROLE, A.2, C.3, F.4, F.5, A.13, A.15.1, A.2.1, and F.6.** Use E.10.ROLE first when source wording leaves *role* ambiguous. Use A.2 and C.3 for the local system-role kind and any separate System-classification judgment. Use F.4 only when a description of that kind is current, and F.5 only when its durable naming is current. Recover each exact actual performer through A.13 and admit dated Work independently through A.15.1. A.2.1 governs the assignment species and obtaining occurrence already required by the A.13 core. Add F.6 only when the receiving Bridge use expressly consumes precise assignment-bound attribution through that same assignment. A Bridge establishes none of these facts.
+* **E.10.ROLE, A.2, C.3, F.4, F.5, A.13, A.15.1, A.2.1, and F.6.** When source wording leaves *role* ambiguous, use E.10.ROLE first. Use A.2 and C.3 for the local system-role kind and any separate System-classification judgment. Use F.4 only when a description of that kind is current, and F.5 only when its durable naming is current. Recover each exact actual performer through A.13 and admit dated Work independently through A.15.1. A.2.1 governs the assignment species and obtaining occurrence already required by the A.13 core. Add F.6 only when the receiving Bridge use explicitly relies on precise assignment-bound attribution through that same assignment. A Bridge establishes none of these facts.
 * **F.8.** A mint-or-reuse decision may consume an obtaining Bridge plus a separately warranted bounded-use claim; it does not strengthen either.
 * **A.2.6.** Scope translation may use an obtaining Bridge only together with an affirmative claim naming the exact direction, scope-correspondence rule, and loss tolerance. Use A.2.6 for the translated scope and membership.
 * **A.6.1.** Use it to identify any actual operation application. The `u` designation in a Bridge claim names a proposed use and is not an application binding.

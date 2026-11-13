@@ -6,12 +6,12 @@ section_id: "A.15:12e"
 section_title: "P2W Integration as System-Role Assignment and Work Feasibility"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__018_p2w-integration-as-system-role-assignment-and-work-feasibility.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.15 — System-Role–Method–Work Alignment"
   - "A.15:12e — P2W Integration as System-Role Assignment and Work Feasibility"
-line_start: 29107
-line_end: 29112
+line_start: 30173
+line_end: 30178
 dependencies:
   - "A.10"
   - "A.13"
@@ -65,7 +65,7 @@ keywords:
 
 ### A.15:12e - P2W Integration as System-Role Assignment and Work Feasibility
 
-When E.18.1 uses *integration* to ask whether an admitted system can hold an exact local system-role kind and perform Work under interface constraints, name the system-role kind, the direct `U.SystemRoleAssignment` species and occurrence when assignment is claimed, the Method or MethodDescription, the relevant WorkPlan or Work occurrence, and the interface constraints defined by the architecture or module-interface pattern.
+When E.18.1 uses *integration* to ask whether an admitted system can hold a local system-role kind and perform Work under interface constraints, name the system-role kind, the direct `U.SystemRoleAssignment` species and occurrence when assignment is claimed, the Method or MethodDescription, the relevant WorkPlan or Work occurrence, and the interface constraints defined by the architecture or module-interface pattern.
 
 Classification, assignment, capability fit, interface satisfaction, authority, responsibility, Method selection, planning, and performed Work remain separate claims. Other connected values, for example artifacts, telemetry, acceptance records, diagrams, selected structures, checks, gates, evidence, and provenance, also keep their direct relations.
 

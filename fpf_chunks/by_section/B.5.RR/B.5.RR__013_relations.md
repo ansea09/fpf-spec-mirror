@@ -6,12 +6,12 @@ section_id: "B.5.RR:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.RR/B.5.RR__013_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.5.RR — Revise Reasoning After a Premise or Question Changes"
   - "B.5.RR:12 — Relations"
-line_start: 48452
-line_end: 48459
+line_start: 50476
+line_end: 50483
 dependencies:
   - "B.5"
   - "B.5.MPC.R"

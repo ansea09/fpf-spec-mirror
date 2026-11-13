@@ -6,12 +6,12 @@ section_id: "F.7:11"
 section_title: "Worked example and application sketches"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.7/F.7__012_worked-example-and-application-sketches.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.7 — Display Source-Local Comparisons in a Concept-Set Table"
   - "F.7:11 — Worked example and application sketches"
-line_start: 120644
-line_end: 120675
+line_start: 128298
+line_end: 128329
 dependencies:
   - "A.6.9"
   - "B.3"
@@ -51,7 +51,7 @@ Section 11.1 supplies exact source bases for one contrast row. Sections 11.2–1
 
 | Comparison or use | Exact entries | Relation | Boundary | Basis | Conclusion |
 | --- | --- | --- | --- | --- | --- |
-| Report selected PLC task runs as provenance activities | IEC task-execution claim; PROV Activity claim | A stated source-local semantic or representation relation, direction IEC → PROV, when actually established | PROV omits scan-cycle and scheduling semantics | F.9 or the direct representation pattern plus evidence | Report only the covered occurrence facts; do not infer that every PROV Activity is an IEC task run. |
+| Report selected PLC task runs as provenance activities | IEC task-execution claim; PROV Activity claim | A stated source-local semantic or representation relation, direction IEC → PROV, when established for those entries | PROV omits scan-cycle and scheduling semantics | F.9 or the direct representation pattern plus evidence | Report only the covered occurrence facts; do not infer that every PROV Activity is an IEC task run. |
 
 Performed-Work attribution remains an A.15.1 and F.6 claim about actual Work and system-role assignment. The table supplies neither.
 
@@ -67,5 +67,5 @@ A contrast row may show OWL class inclusion, FPF `U.SubkindOf`, and FCA concept 
 
 #### F.7:11.5 - *Role* trigger word
 
-Show NIST RBAC **role** as a permission grouping and a local system-role-kind claim as a kind whose instances are Systems. Mark them **distinct subjects**. Use E.10.ROLE to recover other uses such as relation participation or signature position; do not assign them one `senseFamily` merely because the spelling matches.
+Show NIST RBAC **role** as a permission grouping. Beside it, show the local claim that identifies a system-role kind whose members are Systems. Mark them **distinct subjects**. Use E.10.ROLE to recover other uses such as relation participation or signature position. Shared spelling alone gives no basis for assigning one `senseFamily`.
 

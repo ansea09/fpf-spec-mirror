@@ -6,12 +6,12 @@ section_id: "B.5.QD.CF:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.QD.CF/B.5.QD.CF__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.5.QD.CF — Reformulate a Problem by Examining Its Conflicting Assumptions"
   - "B.5.QD.CF:4 — Solution"
-line_start: 49356
-line_end: 49417
+line_start: 51406
+line_end: 51467
 dependencies:
   - "B.1.5.EW"
   - "B.5.FM"
@@ -27,7 +27,7 @@ keywords:
 
 **Recover the need and the conflict → expose the premises producing it → examine an assumed necessity or shared condition → construct another question or way → return to the retained requirements.**
 
-Enter at the unresolved step. A short explanation beside the working model can carry the result.
+Enter at the unresolved step. A short explanation beside the model can carry the result.
 
 #### B.5.QD.CF:4.1 - State what must be obtained and where the conflict arises
 
@@ -53,7 +53,7 @@ Choose a premise whose change could matter and whose status is open to examinati
 
 - **An assumed necessary means creates the conflict.** What operation could obtain the needed outcome without that means? Follow the result that the means supplied; use C.39 to find or develop a replacement operation.
 - **One value is imposed across different conditions.** Do the requirements concern distinguishable participants, times or situations? If so, what construction permits the required values in those conditions? If they concern the same participant and condition, a second name supplies no new possibility.
-- **A restriction belongs to the present representation or construction.** What relation must a different representation or construction preserve, and how could it satisfy the retained requirements? B.5.FM constructs the relation; B.5.RR carries its change through the affected reasoning.
+- **A restriction belongs to the representation or construction.** What relation must a different representation or construction preserve, and how could it satisfy the retained requirements? B.5.FM constructs the relation; B.5.RR carries its change through the affected reasoning.
 
 These are common entries. State what would answer the selected question: an alternative operation, a condition-dependent construction, a counterexample to necessity, or a derivation of impossibility.
 
@@ -61,21 +61,21 @@ A tentative assumption change lets you explore that question. Keep the conclusio
 
 #### B.5.QD.CF:4.4 - Construct a small answer and return it to the whole need
 
-Perform the relevant reasoning or operation on a case that includes the changed condition. Show how the candidate obtains the needed result, or locate the contribution still unavailable. A formal witness answers a question about its model. A physical or organizational proposal also needs the means to produce the corresponding result in its intended setting.
+Perform the relevant reasoning or operation on a case that includes the changed condition. Show how the candidate obtains the needed result, or locate the contribution unavailable. A formal witness answers a question about its model. A physical or organizational proposal also needs the means to produce the corresponding result in its intended setting.
 
 Reapply every retained requirement that the proposed change can affect, including those outside the small set used to locate the conflict. A separate operating setting may require a transition that is too slow. An archived input may reproduce a calculation while violating a retained deletion requirement. Either consequence changes what the candidate can answer.
 
-Keep three facts distinguishable: the revised statements are compatible; an operation is proposed that would supply their values; that operation has produced or otherwise established the result required for this use. Use the strongest available fact the current question needs. An inquiry about what to design next may be answered by a conditional construction; deploying it can require further work.
+Keep three facts distinguishable: the revised statements are compatible; an operation is proposed that would supply their values; that operation has produced or otherwise established the result required for this use. Use the strongest available fact the question needs. An inquiry about what to design next may be answered by a conditional construction; deploying it can require further work.
 
 If the conditions remain incompatible, state that result under the premises that support it. The next question can ask which requirement may change, whether another model is warranted, or whether the work should stop. A proof of impossibility can settle a construction request without finding a replacement.
 
 #### B.5.QD.CF:4.5 - Continue at the missing contribution, or use the answer
 
-Use a sufficient answer. Otherwise say which part of the original need remains and what the next attainable result would change. B.5.QD develops that question; C.40.CD connects it with development of a way to answer it. A theoretical result can be worth pursuing because it makes further constructions or explanations possible, even before a particular application is known.
+Use a sufficient answer. Otherwise say which part of the original need remains and what the next attainable result would change. B.5.QD develops that question; C.40.CD connects it with development of a way to answer it. A theoretical result can be worth pursuing because it makes further constructions or explanations possible, even before an application is known.
 
-Compare the likely contribution of further work with its burden, including obtaining a capability or resource and the work displaced. Start with available arguments, results and specialist contributions. C.11.DUA applies when the worth of another information-gathering step is unsettled. The pattern requires no experiment merely to acknowledge that a proposal remains conditional.
+Compare the likely contribution of further work with its burden, including obtaining a capability or resource and the work displaced. Start with available arguments, results and specialist contributions. C.11.DUA applies when the worth of another information-gathering step is unsettled. The pattern requires no experiment to acknowledge that a proposal remains conditional.
 
-Several contributors can divide this work by the result needed next: one recovers the disputed necessity, another constructs a replacement, and another interprets its consequences for the original work. They need the retained requirements and the meaning of each returned result. When this reasoning is a constituent of design or research, its local success must support the encompassing method's result; compatibility alone may be insufficient for that result. Constituent and encompassing methods can be enacted during the same work under B.1.5.
+Several contributors can divide this work by the result needed next: one recovers the disputed necessity, another constructs a replacement, and another interprets its consequences for the original work. They need the retained requirements and the meaning of each returned result. When this reasoning is a constituent of design or research, its local success must support the encompassing method's result; compatibility may be insufficient for that result. Constituent and encompassing methods can be enacted during the same work under B.1.5.
 
 #### B.5.QD.CF:4.6 - Separate recognition from assurance
 

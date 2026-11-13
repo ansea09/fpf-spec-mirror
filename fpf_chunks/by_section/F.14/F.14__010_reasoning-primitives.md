@@ -6,12 +6,12 @@ section_id: "F.14:9"
 section_title: "Reasoning primitives"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__010_reasoning-primitives.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.14 — Anti-Explosion Control for System-Role and Status Name Families"
   - "F.14:9 — Reasoning primitives"
-line_start: 123231
-line_end: 123258
+line_start: 131035
+line_end: 131062
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -69,10 +69,10 @@ statusVariant(S, windowOrValue)
 
 ```text
 differentLocalSenseProjections(c1, c2)
-  -> test F.9 only for a named correspondence use; not(Bridge(c1,c2)) by difference alone.
+  -> test F.9 when a named use needs a correspondence. Different projections alone leave the Bridge claim undecided.
 ```
 
-The presence of a naming object establishes neither that its governed value exists nor that another naming object is required. Recover the value independently and test the next object's own receiving-use condition.
+The presence of a naming object establishes neither that its governed value exists nor that another naming object is required. Recover the value independently and test the receiving-use condition for the next object.
 
 These are stopping and dispatch rules. They create no values or relation occurrences.
 

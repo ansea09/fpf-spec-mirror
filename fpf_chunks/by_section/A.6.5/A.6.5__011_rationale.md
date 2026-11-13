@@ -6,12 +6,12 @@ section_id: "A.6.5:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.5/A.6.5__011_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.5 — Relation-Declaration Slot Discipline - SlotKind, ValueKind, RefKind, and participant-designation discipline"
   - "A.6.5:10 — Rationale"
-line_start: 23577
-line_end: 23584
+line_start: 24498
+line_end: 24505
 dependencies:
   - "A.15.3"
   - "A.6.0"
@@ -28,7 +28,7 @@ keywords:
 
 ### A.6.5:10 - Rationale
 
-SlotKind, ValueKind, and `refMode` answer three different engineering questions about one `RelationSignature`: **which participant meaning does this declaration distinguish**, **what kind must an entity designated under that meaning have**, and **how does a receiving assertion or description episteme designate that participant**. When `refMode` selects reference designation, RefKind names the exact reference kind. Keeping the answers separate is enough to support typed substitution and honest reference use without adding a universal relation record.
+SlotKind, ValueKind, and `refMode` answer three different engineering questions about one `RelationSignature`: **which participant meaning does this declaration distinguish**, **what kind must an entity designated under that meaning have**, and **how does a receiving assertion or description episteme designate that participant**. When `refMode` selects reference designation, RefKind names the reference kind. Keeping the answers separate is enough to support typed substitution and reference use without adding a universal relation record.
 
 The direct-relation definition remains essential. A pair of typed participants does not say whether the relation obtains or whether repeated occurrences with the same participants are identical. Constructive ontology therefore combines logical slot discipline with grounding and domain identity rather than treating a schema as the world.
 

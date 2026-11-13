@@ -6,12 +6,12 @@ section_id: "C.2.6:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.6/C.2.6__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.2.6 — Sources, Evidence and Conditions for Using an Episteme"
   - "C.2.6:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 54196
-line_end: 54201
+line_start: 56435
+line_end: 56440
 dependencies:
   - "A.10"
   - "A.16"
@@ -46,5 +46,5 @@ keywords:
 - **Text-only illusion.** Treating a written report as a sufficient account of the observation or interaction that its use needs. Recover the relevant claim and its basis.
 - **Representation capture.** Using symbolic/distributed labels to conceal a source or use condition. State that condition separately.
 - **Embodiment mystification.** Treating bodily or operator-loop cues as beyond explicit publication. Publish the relevant observation or action account and the limits of its recovery.
-- **Common-word classification.** Grouping provenance, evidence and interaction as alternative values because each has been called "anchoring". Establish the actual predicate before choosing a Scale.
+- **Common-word classification.** Grouping provenance, evidence and interaction as alternative values because each has been called "anchoring". Establish the predicate before choosing a Scale.
 

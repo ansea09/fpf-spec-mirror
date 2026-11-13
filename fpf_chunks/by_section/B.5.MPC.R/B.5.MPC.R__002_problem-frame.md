@@ -6,12 +6,12 @@ section_id: "B.5.MPC.R:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.MPC.R/B.5.MPC.R__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.5.MPC.R — Repair a Physical-Mathematical-Computational Connection"
   - "B.5.MPC.R:1 — Problem frame"
-line_start: 47474
-line_end: 47483
+line_start: 49472
+line_end: 49481
 dependencies:
   - "A.15.9"
   - "A.3.3"
@@ -30,9 +30,9 @@ keywords:
 
 Use this pattern when a physical question has an attempted answer, but the physical account, mathematical reasoning, computation or observed execution no longer fit together. A requested result may have changed, a command may produce an unexpected motion, or an observation may fail to distinguish the physical possibilities that the answer assumes.
 
-**First useful move:** state the difference that now matters and compare the two contributions at the point where their meanings or results disagree. For a delayed robot stop, compare the duration used in the distance calculation with the duration for which the motor remained active.
+**First useful move:** state the difference that matters and compare the two contributions at the point where their meanings or results disagree. For a delayed robot stop, compare the duration used in the distance calculation with the duration for which the motor remained active.
 
-The useful result is a repaired connection and its consequence for the physical question, or a located incompatibility that directs the next contribution. The method specializes B.5's reasoning revision for the joint work described by B.5.MPC. B.5.RR supplies the general treatment of affected reasoning, shared prerequisites and sufficient alternatives.
+The result is a repaired connection and its consequence for the physical question, or a located incompatibility that directs the next contribution. The method specializes B.5's reasoning revision for the joint work described by B.5.MPC. B.5.RR supplies the general treatment of affected reasoning, shared prerequisites and sufficient alternatives.
 
-The practitioner needs the subject knowledge required to interpret the contributions, or access to that help. Use a known adequate correction directly when its conditions fit. Use B.5.MPC when the joint account has yet to be constructed. A fault already located within one discipline can proceed through that discipline's diagnostic or repair method.
+The practitioner needs the subject knowledge required to interpret the contributions, or access to that help. Use a known adequate correction when its conditions fit. Use B.5.MPC when the joint account has yet to be constructed. A fault located within one discipline can proceed through that discipline's diagnostic or repair method.
 

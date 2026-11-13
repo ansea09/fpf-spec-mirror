@@ -6,12 +6,12 @@ section_id: "A.3:7"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3/A.3__008_conformance-checklist-normative.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.3 — Transformer Quartet: Distinguish Work, Performer, Method and Method Description"
   - "A.3:7 — Conformance Checklist (normative)"
-line_start: 9271
-line_end: 9305
+line_start: 9648
+line_end: 9684
 dependencies:
   - "A.10"
   - "A.12-A.15"
@@ -33,7 +33,9 @@ keywords:
 ### A.3:7 - Conformance Checklist (normative)
 
 **CC‑A3‑0 - Performer basis and conditional assignment-bound attribution.**
-For actual Work, each performer System MUST have the A.13 core, including classification under a local agential system-role kind and an obtaining assignment of that kind. A.15.1 admits the Work independently. The assignment's declared `U.SystemRoleAssignment` species determines its predicate, holder, assigned-kind domain, any additional participants, and occurrence identity under A.2.1. State the currently known extent separately as `assignmentInterval` when needed; taxonomy, scheme, and context references are not generic participants. If the receiving use also claims under which assignment the Work was performed, that attribution MUST pass F.6 `performedUnderAssignment(W, RA)` with the same assignment; an unresolved attribution leaves the admitted Work intact. A conforming assertion or description designates the Work and the basis its claim uses. For a non-Work actor-side claim, use its direct governor and introduce a work-facing assignment only when that relation is independently current.
+For actual Work, each performer System MUST have the A.13 core, including classification under a local agential system-role kind and an obtaining assignment of that kind. A.15.1 admits the Work independently. The assignment's declared `U.SystemRoleAssignment` species determines its predicate, holder, assigned-kind domain, any additional participants, and occurrence identity under A.2.1. State the currently known extent separately as `assignmentInterval` when needed; taxonomy, scheme, and context references are not generic participants.
+
+If the receiving use also claims under which assignment the Work was performed, that attribution MUST pass F.6 `performedUnderAssignment(W, RA)` with the same assignment; an unresolved attribution leaves the admitted Work intact. A conforming assertion or description designates the Work and the basis its claim uses. For a non-Work actor-side claim, use its direct governor and introduce a work-facing assignment only when that relation is independently current.
 
 **CC‑A3‑1 - Acting-side distinction.**
 When an asymmetric actor-side claim is current, its directly governed acting and changed positions MUST be distinct for that claim. When performed Work is current, recover each actual performer and its obtaining assignment through A.13; add F.6 attribution through that same assignment only when the receiving use needs it. In reflexive Work the acting and changed positions MAY be grounded subholons or positions inside one containing holon; the containing holon need not be reidentified. Do not force this split or a role assignment onto a natural, joint, relational, non-separable, or formal change merely to satisfy A.3. This preserves acting-side externalization without fictive actors.
@@ -48,7 +50,7 @@ A conforming actor-side or work-to-change assertion MUST designate the exact dir
 Every Work individual admitted under `U.Work` stands in an exact actual `enactsMethod` relation to the `U.Method` it enacts; the assertion or description used by a receiving claim MUST designate both sides and that relation. Cite an exact `U.MethodDescription` edition only when the receiving claim depends on that edition to identify, constrain, or justify the Method. If actual enactment departs from a cited description, state the description-selection, override, exception, or deviation claim under its direct owner and apply the Work continuity policy to the actual occurrence facts. Absence of a description reliance claim is not silent drift.
 
 **CC‑A3‑5 - Episteme as object-under-change.**
-When Work on an episteme or its carrier is claimed, the performer is still a System; episteme identity, carrier continuity, edition succession, publication, and any actual carrier change remain under their direct owners. Do not infer a performer from the episteme change itself. See C.2.1, E.24.PUB, A.14's mereology firewalls, and direct epistemic aggregation owners when current.
+When Work on an episteme or its carrier is claimed, the performer is a System; episteme identity, carrier continuity, edition succession, publication, and any actual carrier change remain under their direct owners. Do not infer a performer from the episteme change itself. See C.2.1, E.24.PUB, A.14's mereology firewalls, and direct epistemic aggregation owners when current.
 
 **CC‑A3‑6 - Units and measures for performed resource use.**
 Every performed resource-use fact relied on for a claim about Work MUST state its measure and units. A percentage that enters a resource aggregation must be grounded in the exact PortionOf measure needed by that use. Totals, allocation, overlap handling, deduplication, and optional `Gamma_work` notation belong to a separately recovered B.1.6 aggregation, not to Work identity.

@@ -6,12 +6,12 @@ section_id: "A.15.1:15"
 section_title: "Didactic quick cards"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__019_didactic-quick-cards.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.15.1 — U.Work: Dated Performed Work Occurrence"
   - "A.15.1:15 — Didactic quick cards"
-line_start: 29733
-line_end: 29741
+line_start: 30811
+line_end: 30819
 dependencies:
   - "A.1"
   - "A.10"
@@ -60,6 +60,6 @@ keywords:
 * **Performer chain:** Who performs? **An admitted System with an A.13 agency basis at this grain.** Did dated performance occur? **A.15.1 independently admits Work.** When precise assignment-bound attribution is current, under which assignment? **The same obtaining A.13 assignment later tested by F.6; otherwise stop at admitted Work.** Can? **Capability.** How? **Method.** Intended? **WorkPlan.**
 * **Three-question result check:** Did the Work occur? What separate result or consequence is claimed? Who judged or accepted what, by which criterion and evidence? Use section 4.6 and stop after the last current question.
 * **Passive stop:** Containing equipment, affected subjects, causal participants, actor-like labels, and assignments do not perform by implication.
-* **Roll-ups:** A.15.1 supplies exact Work references, intervals, parts, and performed resource-use facts; cite B.1.4 for temporal aggregates and B.1.6 for resource ledgers, each with its declared policy.
+* **Roll-ups:** A.15.1 supplies Work references, intervals, parts, and performed resource-use facts; cite B.1.4 for temporal aggregates and B.1.6 for resource ledgers, each with its declared policy.
 * **Episodes vs retries:** record end, interruption, resumption, and later work-entry facts first; add a continuity policy only when a named use still has more than one defensible grouping.
 

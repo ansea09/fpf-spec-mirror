@@ -6,12 +6,12 @@ section_id: "B.1.2:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.2/B.1.2__005_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.1.2 — Coordinate Decisions About System Aggregation and Delimitation"
   - "B.1.2:3 — Forces"
-line_start: 41481
-line_end: 41491
+line_start: 43093
+line_end: 43103
 dependencies:
   - "A.1"
   - "A.10"
@@ -43,9 +43,9 @@ keywords:
 | Force | Tension |
 | --- | --- |
 | Engineering concreteness vs broad FPF holon scope | System aggregation must be practical for systems without making all holons systems. |
-| Delimitation vs external dependency | A named use needs an exact system boundary while critical relations can cross it and remain external. |
+| Delimitation vs external dependency | A named use needs a system boundary while critical relations can cross it and remain external. |
 | Component structure vs functional structure | Physical or organizational bearers may realize several functions, and one function may require several bearers. |
 | Conservative roll-up vs redundancy | Weakest-link and conservation checks are useful, but redundancy or substitution may require B.2 whole reidentification. |
 | Description vs described system | A description must preserve the distinctions needed for the decision while remaining distinguishable from the system it describes. |
-| Coordination vs ownership | One decision may need many direct facts, but the coordinating pattern must not become the source of all those relations. |
+| Coordination vs ownership | One decision may need many facts, but the coordinating pattern must not become the source of all those relations. |
 

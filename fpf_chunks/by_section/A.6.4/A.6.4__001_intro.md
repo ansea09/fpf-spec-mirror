@@ -6,12 +6,12 @@ section_id: "A.6.4:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.4 — EntityOfConcern Retargeting: Judge a Bounded Use Across Different Entities"
   - "A.6.4:intro — Intro"
-line_start: 19724
-line_end: 19741
+line_start: 20597
+line_end: 20614
 dependencies:
   - "A.10"
   - "A.15"
@@ -41,15 +41,15 @@ keywords:
 
 **One-line summary.** Use EntityOfConcern retargeting to classify an arrow between epistemes about different entities. A claimed receiving use needs a separate bounded-use assertion; a current-case judgement compares that assertion with the relevant facts.
 
-**Retargeting in plain terms.** The two epistemes concern different things. One named receiving use is admitted only when exact facts establish the stated invariant and show that the visible loss remains acceptable under named conditions.
+**Retargeting in plain terms.** The two epistemes concern different things. One named receiving use is admitted only when facts establish the stated invariant and show that the visible loss remains acceptable under named conditions.
 
-**Use this when.** Use this pattern only after C.2.1 identifies the two epistemes and shows that their exact EntitiesOfConcern differ. A changed model kind, ontology frame, predicate set, coordinate system, or notation is a cue to repeat that identity test, not proof of retargeting.
+**Use this when.** Use this pattern only after C.2.1 identifies the two epistemes and shows that their EntitiesOfConcern differ. A changed model kind, ontology frame, predicate set, coordinate system, or notation is a cue to repeat that identity test, not proof of retargeting.
 
 **What goes wrong if missed.** A changed EntityOfConcern is treated as “the same thing in another form”, so claims, evidence, gate results, work authority, or currentness are carried forward without their own direct predicates or current results. The opposite error is to demand a semantic Bridge or reversible mapping when the case needs neither.
 
-**First useful move.** Identify r by its exact endpoint epistemes, arrow rule or designator, and the selected formal substrate's equivalence criterion. Name both EntitiesOfConcern. For a claimed receiving use, state the invariant, visible loss, named use and conditions in a separate bounded-use assertion q. When judging a current case, compare its exact facts with q.
+**First useful move.** Identify r by its endpoint epistemes, arrow rule or designator, and the selected formal substrate's equivalence criterion. Name both EntitiesOfConcern. For a claimed receiving use, state the invariant, visible loss, named use and conditions in a separate bounded-use assertion q. When judging a current case, compare its facts with q.
 
 **What this buys.** The reader can decide one receiving use from the bounded-use assertion q and current facts; source-claim survival, performed Work, and EntityOfConcern identity retain their separate bases.
 
-**Not this pattern when.** If the EntityOfConcern is preserved, use the pattern for the change that actually occurred: A.6.3.CR for wording, A.6.3.RT for representation scheme or reasoning medium, A.6.3.CSC for controlled coarsening, or E.17.EFP for explanation mode. A normal time-to-frequency description of the same signal is an A.6.3.RT case. Use C.29 when a separate mathematical representation or transfer question remains; bring its correspondence and limits back to that representation change. Use F.9 only for a separately claimed Bridge between two exact local senses. Keep every other independently current claim under its direct pattern; the Relations section names the main neighboring owners once.
+**Not this pattern when.** If the EntityOfConcern is preserved, use the pattern for the change that occurred: A.6.3.CR for wording, A.6.3.RT for representation scheme or reasoning medium, A.6.3.CSC for controlled coarsening, or E.17.EFP for explanation mode. A normal time-to-frequency description of the same signal is an A.6.3.RT case. Use C.29 when a separate mathematical representation or transfer question remains; bring its correspondence and limits back to that representation change. Use F.9 only for a separately claimed Bridge between two local senses. Keep every other independently current claim under its direct pattern; the Relations section names the main neighboring owners once.
 

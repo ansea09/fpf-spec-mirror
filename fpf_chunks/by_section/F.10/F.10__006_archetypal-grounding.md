@@ -6,12 +6,12 @@ section_id: "F.10:5"
 section_title: "Archetypal grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__006_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.10 — Apply and Interpret Evidence, Standard and Requirement Statuses"
   - "F.10:5 — Archetypal grounding"
-line_start: 122185
-line_end: 122206
+line_start: 129909
+line_end: 129934
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -47,7 +47,9 @@ keywords:
 
 July uptime is first recovered as an exact C.16 measurement result, stated by a distinct C.2.1 episteme. A.2.4 classifies that episteme for the uptime claim, and F.10 may assert `EvidenceStatus=Measured` for that exact claim, scheme, scope, and July window.
 
-The SLO clause and service target are independently recovered. Dated evaluation work applies the SLO rule to the measurement result through exact bindings and produces a requirement-evaluation result claim. Only that basis can support a separate `RequirementStatus=Satisfied` occurrence. If monitoring and service-management senses differ, an F.9 Bridge handles the cells and a `StatusInterpretationRelation` handles the admitted explanatory/evaluation use. The measurement, evidence status, bridge, interpretation, evaluation work/result, requirement status, dashboard display, gate, assurance, and release decision remain distinct.
+The SLO clause and service target are independently recovered. Dated evaluation work applies the SLO rule to the measurement result through exact bindings and produces a requirement-evaluation result claim. A separate `RequirementStatus=Satisfied` claim for this clause and window needs a result that meets the clause’s evaluation rule. Here the dated evaluation Work supplies that result.
+
+If the comparison relies on a semantic correspondence between the monitoring and service-management senses, test the F.9 Bridge and the bounded use. If the evaluation draws on the `Measured` status itself, use `StatusInterpretationRelation` to check whether the rule admits that status for the clause question. The measurement, evidence status, bridge, interpretation, evaluation work/result, requirement status, dashboard display, gate, assurance, and release decision remain distinct.
 
 #### F.10:5.2 - Approved method description
 
@@ -57,7 +59,9 @@ For a controller run independently admitted as `U.Work` under A.15.1, keep that 
 
 #### F.10:5.3 - Model card and fairness requirement
 
-A model card reports high cross-validation AUC. Recover the exact predictive-performance result and claim episteme first; distinguish that claim from the card's publication or display. F.10 may assert an `EvidenceStatus` for that predictive claim under its validation scheme and window. It cannot decide the different policy clause “demographic parity delta ≤ 0.1”. That branch needs production-window fairness measurement, its result episteme/evidence use, the policy clause, the exact policy rule application and its result, and its own requirement-status assertion. Recover dated evaluation Work when that performance history is claimed or consumed by the receiving use.
+A model card reports high cross-validation AUC. Recover the exact predictive-performance result and claim episteme first; distinguish that claim from the card's publication or display. F.10 may assert an `EvidenceStatus` for that predictive claim under its validation scheme and window.
+
+Neither this AUC result nor its evidence status settles the policy clause “demographic parity delta ≤ 0.1”. That branch needs production-window fairness measurement, its result episteme/evidence use, the policy clause, the exact policy rule application and its result, and its own requirement-status assertion. Recover dated evaluation Work when that performance history is claimed or consumed by the receiving use.
 
 #### F.10:5.4 - Status display cue
 

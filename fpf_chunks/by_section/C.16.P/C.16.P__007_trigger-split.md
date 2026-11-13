@@ -6,12 +6,12 @@ section_id: "C.16.P:5"
 section_title: "Trigger split"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.P/C.16.P__007_trigger-split.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.16.P — Restore Precision to Characteristic and Scale Wording"
   - "C.16.P:5 — Trigger split"
-line_start: 59705
-line_end: 59719
+line_start: 62090
+line_end: 62104
 dependencies:
   - "A.17"
   - "A.18"
@@ -39,8 +39,8 @@ keywords:
 | `feature` or `property` | Is this an observed feature, characteristic, model feature, entity property, relation property, or ordinary prose? | `Feature` or `property` as automatic characteristic. |
 | `strong` or `weak` | Does it state a degree of a characteristic or another claim? For a degree, on which scale and under which comparison reference or comparator set? | A degree of a characteristic without its scale. |
 | `robust` | Robust to what perturbation, under which scale, comparison, loss, or preserved-structure and lost-structure? | Robust as general praise. |
-| `level` | Level on which declared scale or abstraction, not a free hierarchy. | Level as undefined scale or maturity status. |
+| `level` | Level on which declared scale or abstraction? | Level as undefined scale or maturity status. |
 | `indicator` | Indicator of what characteristic or claim, through which direct relation? If it is a proxy, what is the proxy relation and distortion risk? | Indicator as the indicated property. |
-| `threshold` | Predicate over which characteristic space coordinates, with the applicable comparison operator, cut value, band, region, or dominance condition, scalarization policy if any, comparison reference or comparator set, any gate or acceptance relation used by the claim, and necessary applicability or stop conditions? Add an explanatory non-use guard only under F.19:4. | Threshold as characteristic, measure, scalar score, decision, or proof by itself. |
+| `threshold` | What predicate is applied to which characteristic space coordinates? Identify the applicable comparison operator, cut value, band, region or dominance condition; any scalarization policy; the comparison reference or comparator set; any gate or acceptance relation used by the claim; and necessary applicability or stop conditions. Add an explanatory non-use guard only under F.19:4. | Threshold as characteristic, measure, scalar score, decision, or proof by itself. |
 | `benchmark` | Benchmark for which characteristic, comparison set, front, archive, or harness? | Benchmark result as proof or release. |
 

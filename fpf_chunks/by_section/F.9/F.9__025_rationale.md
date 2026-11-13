@@ -6,12 +6,12 @@ section_id: "F.9:23"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__025_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.9 — Relate Local Meanings across Contexts (Alignment and Bridge)"
   - "F.9:23 — Rationale"
-line_start: 121728
-line_end: 121733
+line_start: 129428
+line_end: 129433
 dependencies:
   - "A.10"
   - "A.13"
@@ -57,7 +57,7 @@ keywords:
 
 ### F.9:23 - Rationale
 
-Cross-context comparison is unavoidable, but the truth of a semantic relation and the suitability of one action are different claims. Putting direction, a use rule, and tolerated loss into `BridgePredicateProfile` would reidentify the relation whenever the proposed use changed. Putting them in a separate C.2.1 claim lets one Bridge remain fixed while several uses are affirmed, rejected, narrowed, or reopened independently.
+Cross-context comparison is unavoidable, but the truth of a semantic relation and the suitability of one action are different claims. Putting a proposed use's direction, rule and tolerated loss into `BridgePredicateProfile` would reidentify the relation whenever the proposed use changed. Putting them in a separate C.2.1 claim lets one Bridge remain fixed while several uses are affirmed, rejected, narrowed, or reopened independently.
 
 A.10 or B.3 can reopen reliance without erasing the relation. A card can travel without becoming the relation. A proposed use can be warranted without being authorized or performed. These boundaries preserve practical reuse and make each failure local and repairable.
 

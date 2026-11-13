@@ -6,12 +6,12 @@ section_id: "F.14:8"
 section_title: "Invariants"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__009_invariants.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.14 — Anti-Explosion Control for System-Role and Status Name Families"
   - "F.14:8 — Invariants"
-line_start: 123218
-line_end: 123230
+line_start: 131022
+line_end: 131034
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -58,6 +58,6 @@ keywords:
 6. **No capability or authority by label.** System-role-kind and status names prove no capability, skill, permission, assurance, evidence use, Method validity, or publication authority.
 7. **Local senses do not globalize.** Same spelling and different local-sense projections establish neither governed-value identity nor an F.9 Bridge.
 8. **Naming objects remain optional and distinct.** Expression, designation, alias, cell, NameCard, row, identifier, publication occurrence, form, and carrier neither imply nor replace one another.
-9. **Selected structure is conditional.** A `BoundedModelUseStructure` is cited only when its organization changes the exact naming use and never becomes a locality slot or naming identity field.
+9. **Selected structure is conditional.** A `BoundedModelUseStructure` is cited only when its organization changes the naming use under consideration and never becomes a locality slot or naming identity field.
 10. **Lineage is not ontology.** Historical spelling may be recorded as lineage without carrying its former fused commitments forward.
 

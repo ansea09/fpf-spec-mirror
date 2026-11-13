@@ -6,12 +6,12 @@ section_id: "A.15.9:7"
 section_title: "Conformance and practical checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.9/A.15.9__008_conformance-and-practical-checks.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.15.9 — Use or Request a Bounded Result from Another Practice"
   - "A.15.9:7 — Conformance and practical checks"
-line_start: 32383
-line_end: 32401
+line_start: 33705
+line_end: 33723
 dependencies:
   - "A.10"
   - "A.13"
@@ -35,16 +35,16 @@ A use conforms only when the checks needed by its claimed result pass:
 
 1. The receiving decision or Work, receiver, and action that can change are recognizable to a cold reader.
 2. An already-available result is inspected before new supplier Work is requested, unless none can reasonably be found at the required cost.
-3. The first result gives the useful supported answer and its material limit or exact blocker. Any new request is selected for its obtainable contribution against the whole acquisition burden under `C.11.DUA`; a limitation alone requires neither a request nor a separate no-request explanation.
+3. The first result gives the useful supported answer and its material limit or blocker. Any new request is selected for its obtainable contribution against the whole acquisition burden under `C.11.DUA`; a limitation alone requires neither a request nor a separate no-request explanation.
 4. Subject, configuration or situation, interval, assumptions, intended use, and non-use boundary are present at the grain that can change the answer.
 5. The supplying practice keeps its Method, evidence standards, qualification, and domain authority; the receiver keeps its own decision authority unless a separate relation says otherwise.
 6. Request, WorkPlan, assignment, communicative Work, dated Work, result, evidence, delivery, acceptance, reliance, authority, and receiving decision are not collapsed.
-7. A performer, capability, assignment, authority, or Work claim appears only when its direct basis is current. Actual performer recovery follows `A.13`, independent Work admission follows `A.15.1`, and `F.6` applies after that admission when the receiving claim requires precise assignment-bound attribution.
+7. A performer, capability, assignment, authority, or Work claim appears only when its basis is current. Performer recovery follows `A.13`, independent Work admission follows `A.15.1`, and `F.6` applies after that admission when the receiving claim requires assignment-bound attribution.
 8. `A.10` governs evidence, provenance, currentness, and bounded reliance rather than being copied here.
-9. A supported result, bounded objection, and honest blocker are all usable returns; an approval-looking label cannot erase a blocker.
+9. A supported result, bounded objection, and blocker are all usable returns; an approval-looking label cannot erase a blocker.
 10. The reopen condition names the smallest changed fact that can alter this use, not a ritual periodic review.
 
-**Recognition check.** Give a reader a department-, document-, approval-, or tool-shaped request. The reader should be able to name the receiving decision, return the supported answer or exact blocker, and select further acquisition only when worthwhile, without designing an organization.
+**Recognition check.** Give a reader a department-, document-, approval-, or tool-shaped request. The reader should be able to name the receiving decision, return the supported answer or blocker, and select further acquisition only when worthwhile, without designing an organization.
 
-**Assurance check.** For consequential reliance, ask which direct domain Method, evidence, source edition, independence or conflict condition, authority, acceptance rule, applicability window, and stop are required. Missing assurance narrows or blocks reliance; it does not erase a separately identified source or result.
+**Assurance check.** For consequential reliance, ask which domain Method, evidence, source edition, independence or conflict condition, authority, acceptance rule, applicability window, and stop are required. Missing assurance narrows or blocks reliance; it does not erase a separately identified source or result.
 

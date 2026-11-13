@@ -6,12 +6,12 @@ section_id: "A.6.4:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.4 — EntityOfConcern Retargeting: Judge a Bounded Use Across Different Entities"
   - "A.6.4:3 — Forces"
-line_start: 19766
-line_end: 19773
+line_start: 20639
+line_end: 20646
 dependencies:
   - "A.10"
   - "A.15"
@@ -39,7 +39,7 @@ keywords:
 
 * **Different subject versus unsupported claim.** The endpoint EntityOfConcern may change while every receiving assertion remains subject to A.6.2 P2. A separate q states which invariant and loss support one receiving use.
 * **Useful loss versus hidden loss.** Retargeting may discard information, but the loss boundary and the use that tolerates it must be visible.
-* **Direct case versus universal apparatus.** Use a domain relation, mathematical map, semantic Bridge, or diagram as current-case basis only when its own governor establishes the needed claim. Identify r from its endpoints, arrow rule or designator, and formal equivalence; judge q separately from exact current facts.
+* **Direct case versus universal apparatus.** Use a domain relation, mathematical map, semantic Bridge, or diagram as current-case basis only when its own governor establishes the needed claim. Identify r from its endpoints, arrow rule or designator, and formal equivalence; judge q separately from current facts.
 * **Composition versus accidental equivalence.** Compatible retargetings may compose. Equality of two evaluation routes, reversibility, idempotency, or semantic correspondence requires its own stated conditions; it does not follow from the word *retargeting*.
 * **Modularity.** The retargeting arrow relates two epistemes, q states one bounded-use proposition, and a separate current-case judgement says whether the facts satisfy it, fail it, or leave it undecidable. Grounding, publication, Work, evidence, assurance, gate, flow structure, and cross-local-sense correspondence remain separate.
 

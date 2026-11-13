@@ -6,18 +6,17 @@ section_id: "C.18.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18.1/C.18.1__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.18.1 — Scaling‑Law Lens Binding (SLL)"
   - "C.18.1:intro — Intro"
-line_start: 61308
-line_end: 61323
+line_start: 63759
+line_end: 63774
 dependencies:
   - "C.16"
   - "C.17"
   - "C.18"
   - "C.19"
-  - "C.24"
   - "G.10"
   - "G.5"
   - "G.9"
@@ -50,7 +49,7 @@ keywords:
 
 **What goes wrong if missed.** Teams compare unequal budgets, call coverage telemetry an objective, claim a knee without probe evidence, or assume more scale means linear improvement across a window where the behavior has already changed.
 
-**What this buys.** A compact scale-law lens: declare the scale variables, ScaleWindow, probe points, elasticity class, parity notes, and policy thresholds before treating an empirical scale claim as usable in selection, parity, refresh, shipping, or mathematical-lens work.
+**What this buys.** A scale-law lens: declare the scale variables, ScaleWindow, probe points, elasticity class, parity notes, and policy thresholds before treating an empirical scale claim as usable in selection, parity, refresh, shipping, or mathematical-lens work.
 
 **Purpose.** Declare which scale variables change, the ScaleWindow and the supported behavior class. Numeric fits remain domain work. G.9 governs parity, and a selector policy must admit any decision use of illumination.
 

@@ -6,12 +6,12 @@ section_id: "A.2.2:3"
 section_title: "Positive Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__004_positive-solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.2.2 — System Capability: Conditions, Measures and Fit"
   - "A.2.2:3 — Positive Solution"
-line_start: 5309
-line_end: 5344
+line_start: 5489
+line_end: 5524
 dependencies:
   - "A.1"
   - "A.15"
@@ -38,7 +38,7 @@ keywords:
 3. **Recover sufficient support.** Reuse or obtain the evidence and source-use relations required by the receiving claim. Assess their currency under the applicable qualification policy. When sampled measurements support a bound, retain the uncertainty needed for the receiving decision; a point estimate close to its limit may leave the comparison unresolved. Missing support leaves reliance unresolved; it is not proof of inability.
 4. **Compare with the receiving demand.** Under A.2.6, test whether the declared WorkScope covers the intended `JobSlice`, whether the claimed attained bounds meet the required bounds, and whether qualification holds at the evaluation time. If a necessary condition or translation is missing, name it instead of returning a positive fit.
 5. **Apply the remaining entry conditions only when required.** Authority, assignment and assignment state, resources, interfaces, Method-side conditions and assurance retain their direct governors. Passing the capability comparison supplies only its part of the receiving decision.
-6. **Return the bounded answer.** State the supported ability and fit, the mismatch, or the exact unresolved premise. Stop when that answer suffices. A described check does not assert that Work occurred or that a proposed intervention achieved its target.
+6. **Return the bounded answer.** State the supported ability and fit, the mismatch, or the unresolved premise. Stop when that answer suffices. A described check does not assert that Work occurred or that a proposed intervention achieved its target.
 
 One possible statement-and-use record is shown below. It is a way to preserve the claims needed by this use, not a mandatory new entity or classification.
 

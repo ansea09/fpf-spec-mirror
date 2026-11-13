@@ -6,12 +6,12 @@ section_id: "A.15.8:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.8/A.15.8__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.15.8 — Work-Performance Configuration and Recovery Testing"
   - "A.15.8:3 — Forces"
-line_start: 31754
-line_end: 31765
+line_start: 32975
+line_end: 32986
 dependencies:
   - "A.1"
   - "A.10"
@@ -45,7 +45,7 @@ keywords:
 | --- | --- |
 | Useful whole versus justified whole | A coupled arrangement can be a useful unit of analysis without being one admitted `U.System`, performer, Agent, or capability holder. |
 | Actual versus prospective | Actual Work permits obtaining performer and support claims; a present WorkPlan permits only current claims about plan content and a proposed configuration. |
-| Compact result versus exact ownership | A reader needs one short result, while System identity, Work, capability, representation, evidence, architecture, and choice remain independently governed. |
+| Compact result versus separate ownership | A reader needs one short result, while System identity, Work, capability, representation, evidence, architecture, and choice remain independently governed. |
 | Perfect-run success versus recoverability | Success in one live configuration does not establish recovery after interruption, handoff, staleness, or degraded support. |
 | Transferable skeleton versus domain mechanism | Many domains share the configuration-and-probe move, but their checkpoints, cues, thresholds, safety conditions, and recovery mechanisms differ. |
 | Recognition versus assurance | One credible failure can open the pattern; consequential use may require much stronger evidence, authority, and stop rules. |

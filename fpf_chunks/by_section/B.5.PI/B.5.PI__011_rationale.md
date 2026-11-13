@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.5.PI"
-pattern_title: "Initiate Inquiry from Ongoing Work"
+pattern_title: "Initiate Inquiry from Work"
 section_id: "B.5.PI:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.PI/B.5.PI__011_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "B.5.PI — Initiate Inquiry from Ongoing Work"
+  - "B.5.PI — Initiate Inquiry from Work"
   - "B.5.PI:10 — Rationale"
-line_start: 50706
-line_end: 50711
+line_start: 52804
+line_end: 52809
 dependencies:
   - "A.1.STM"
   - "A.15.11"

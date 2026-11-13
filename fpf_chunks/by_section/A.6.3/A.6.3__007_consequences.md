@@ -6,12 +6,12 @@ section_id: "A.6.3:6"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3/A.6.3__007_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.3 — Episteme viewing - EntityOfConcern-preserving episteme construction"
   - "A.6.3:6 — Consequences"
-line_start: 17778
-line_end: 17787
+line_start: 18607
+line_end: 18616
 dependencies:
   - "A.13"
   - "A.15.1"
@@ -36,7 +36,7 @@ keywords:
 |---|---|
 | The source-to-result construction is inspectable without defining view membership. | X and Y must be independently identified before the construction is asserted. |
 | Direct authoring and generated epistemes coexist. | A generated result needs a separate E.17.0 test before it can be called a view. |
-| Correspondence-mediated constructions can use exact domain relations. | A graph or trace table must supply the relevant claims and grounds; its presence alone does not establish the relation. |
+| Correspondence-mediated constructions can use domain relations. | A graph or trace table must supply the relevant claims and grounds; its presence alone does not establish the relation. |
 | Work and publication stay outside the mathematical construction. | Tool execution and availability require their own patterns when current. |
 | Composition and any declared deterministic replay can be checked. | Composition needs matching endpoints and admitted laws. Uncontrolled state that can change Y prevents the corresponding repeatability claim for the construction operation; undeclared material loss prevents the corresponding receiving-use claim. |
 

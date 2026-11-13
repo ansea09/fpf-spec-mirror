@@ -6,12 +6,12 @@ section_id: "B.5.2.0:13"
 section_title: "Worked Prompt Species"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.0/B.5.2.0__015_worked-prompt-species.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.5.2.0 — Question Form for Entering Abduction (U.AbductivePrompt)"
   - "B.5.2.0:13 — Worked Prompt Species"
-line_start: 50029
-line_end: 50050
+line_start: 52095
+line_end: 52118
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -46,7 +46,7 @@ In a constructed service case, latency rises from 8 ms to 40 ms under the same d
 An opportunity cue may raise an explanatory question about an indicated advantage without a failure. For example, an unexpectedly stable response in one operating range invites rival explanations of that stability. Whether to exploit the opportunity is a separate action choice.
 
 #### B.5.2.0:13.3 - Probe-style prompt
-A probe-related observation may prompt an explanatory question: which rival explanations predict the measured contrast under the stated perturbation? If the question is instead which available probe is cheapest or most discriminating for the current purpose, use C.11. The probe choice does not require an abductive prompt merely to acquire that input form.
+A probe-related observation may prompt an explanatory question: which rival explanations predict the measured contrast under the stated perturbation? If the question is instead which available probe is cheapest or most discriminating for the purpose, use C.11. The probe choice does not require an abductive prompt merely to acquire that input form.
 
 #### B.5.2.0:13.4 - Specialization-sensitive prompt set
 Use a specialization-sensitive species for its explanatory question in §4.1.1. For example, a measured performance contrast can prompt rival explanations tied to a declared task family and budget. Acquiring a specialist Method or competence bundle instead requires the applicable option or alternative-development decision. Retain task family, threshold, budget and cue provenance in whichever receiving use needs them; prompt publication does not select the acquisition.
@@ -55,7 +55,9 @@ Use a specialization-sensitive species for its explanatory question in §4.1.1. 
 
 Continue the constructed service case in §13.1. The question asks what explains the rise from 8 ms to 40 ms for the named service, workload and time window. A paragraph and a table preserve the same question when both retain that contrast and scope. If the table also preserves the account's claims and effective scheme, C.2.1 identifies the same account; E.24.PUB separately governs its new expression and availability. If the table omits the workload, restore that condition before treating its shortened question as equivalent.
 
-New contention logs can support one rival more strongly while the latency question stays unchanged. An assertion about that new support can belong to a revised account, or to a separate evidence account linked to the unchanged prompt. Determine which content actually changed. If corrected measurements establish that latency stayed at 8 ms, the current attempt to explain an actual rise loses its initiating ground. Asking why the monitor reported 40 ms is a different question about the report; its answer need not explain a real slowdown.
+New contention logs can support one rival more strongly while the latency question stays unchanged. An assertion about that new support can belong to a revised account, or to a separate evidence account linked to the unchanged prompt. Determine which content changed.
 
-The same `AnomalyStatement` layout can express that reporting question and a question about a real slowdown in another service. Its shared columns do not identify one common question. Record each subject, contrast and scope so that the two accounts and their rivals remain distinguishable; they may occupy two rows of one note. One hypothesis that happens to answer both questions would still not make the questions identical.
+If corrected measurements establish that latency stayed at 8 ms, the current attempt to explain an actual rise loses its initiating ground. Asking why the monitor reported 40 ms is a different question about the report; its answer need not explain a real slowdown.
+
+The same `AnomalyStatement` layout can express that reporting question and a question about a real slowdown in another service. Its shared columns do not identify one common question. Record each subject, contrast and scope so that the two accounts and their rivals remain distinguishable; they may occupy two rows of one note. One hypothesis that answers both questions would not make the questions identical.
 

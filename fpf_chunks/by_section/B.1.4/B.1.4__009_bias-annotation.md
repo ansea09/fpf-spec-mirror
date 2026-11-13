@@ -6,12 +6,12 @@ section_id: "B.1.4:5.1"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.4/B.1.4__009_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.1.4 — Specify Order-Sensitive or Temporal Aggregation (Γ_ctx, Γ_time)"
   - "B.1.4:5.1 — Bias-Annotation"
-line_start: 42091
-line_end: 42099
+line_start: 43748
+line_end: 43756
 dependencies:
   - "A.1.1"
   - "A.14"
@@ -39,7 +39,7 @@ keywords:
 | Bias risk | Failure | Mitigation |
 | --- | --- | --- |
 | Notation becomes ontology | `Gamma_ctx`, `Gamma_time`, graph, or algebra wording is treated as the in-life object or relation. | Recover the ordered or temporal relation first, then treat notation as a selected expression. |
-| Sequence becomes work | A method order, plan order, document order, or performed-work history is treated as the same thing. | Name the exact claim and use the applicable method, description, work-plan, dated-Work, or evidence pattern. |
-| Phase becomes level | A phase label is used as a new system level or a new whole. | Recover the exact subject first: C.2.1 identity/edition law for an episteme, A.15.1 for Work, or the carrier's direct identity rule and proper `PhaseOf` for another enduring individual. Open whole reidentification only when that question remains current. |
+| Sequence becomes work | A method order, plan order, document order, or performed-work history is treated as the same thing. | Name the claim and use the applicable method, description, work-plan, dated-Work, or evidence pattern. |
+| Phase becomes level | A phase label is used as a new system level or a new whole. | Recover the subject first: C.2.1 identity/edition law for an episteme, A.15.1 for Work, or the carrier's identity rule and proper `PhaseOf` for another enduring individual. Open whole reidentification only when that question remains current. |
 | Coverage becomes authority | A complete-looking timeline is treated as sufficient evidence or currentness. | Use the applicable evidence, source-currentness, and temporal-adequacy patterns when those claims are current. |
 

@@ -6,12 +6,12 @@ section_id: "C.32:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32/C.32__011_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.32 — Architecture Candidate Synthesis"
   - "C.32:10 — Rationale"
-line_start: 76485
-line_end: 76494
+line_start: 80103
+line_end: 80112
 dependencies:
   - "A.10"
   - "A.15"
@@ -29,7 +29,6 @@ dependencies:
   - "C.19"
   - "C.19.1"
   - "C.25"
-  - "C.29"
   - "C.30"
   - "C.30.ASV"
   - "C.30.ILC"
@@ -48,9 +47,6 @@ dependencies:
   - "C.32.MWA"
   - "C.32.P2S"
   - "C.32.PAD"
-  - "C.33"
-  - "C.34"
-  - "C.35"
   - "E.18"
   - "E.22"
   - "E.23"
@@ -69,11 +65,11 @@ keywords:
 
 ### C.32:10 - Rationale
 
-Architecture practice needs a method between a grounded architecture question and an architecture decision. Use `C.30` to ground the question over selected structures of a described holon. Use `C.30.ASV`, `A.6.F`, `A.6.M`, `C.30.LCA`, `C.30.TFS-REL`, `C.25`, and `C.31` to recover the particular structures and characteristics. Later, use `C.18` or `C.19` for front, archive, or pool treatment, `G.5` for selected-set result declaration, `E.17` and `E.24.PUB` for their distinct publication jobs, `C.11` for local choice, and the applicable decision pattern for a project decision.
+Architecture practice needs a method between a grounded architecture question and an architecture decision. Use `C.30` to ground the question over selected structures of a described holon. Use `C.30.ASV`, `A.6.F`, `A.6.M`, `C.30.LCA`, `C.30.TFS-REL`, `C.25`, and `C.31` to recover the structures and characteristics. Later, use `C.18` or `C.19` for front, archive, or pool treatment, `G.5` for selected-set result declaration, `E.17` and `E.24.PUB` for their distinct publication jobs, `C.11` for local choice, and the applicable decision pattern for a project decision.
 
 Use C.32 for the constructive middle: building a small set of candidate architecture configurations whose selected structures, allocations, characteristic trade-offs, known losses, source-return conditions, and patterns for the next questions are explicit.
 
 The same middle repeats during improvement. A later criteria-row change, scale-row change, C.16 reading, C.25 or C.31 pressure change, C.31.ASAP scale-preference change, or C.18 or C.19 front, archive, or retained-alternative relation can reopen C.32 when it changes the architecture-characteristic pressure, the selected structures under stress, or the acceptable loss profile. The practitioner then synthesizes another candidate palette; the trigger does not decide the architecture.
 
-The work is to make synthesis real enough that architecture content is available for a later front, comparison, selected-set result declaration, actual publication, or decision.
+The work is to make architecture content available for a later front, comparison, selected-set result declaration, publication, or decision.
 

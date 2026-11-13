@@ -6,12 +6,12 @@ section_id: "C.3.4:End"
 section_title: "C.3.4:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__015_c-3-4-end.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.3.4 — KindUseAdaptationDeclaration — Tailor the Use of an Existing Kind"
   - "C.3.4:End — C.3.4:End"
-line_start: 56037
-line_end: 56038
+line_start: 58341
+line_end: 58342
 dependencies:
   - "A.2.6"
   - "C.2.1"

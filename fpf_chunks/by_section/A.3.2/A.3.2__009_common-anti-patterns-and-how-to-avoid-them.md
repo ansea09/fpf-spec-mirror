@@ -6,12 +6,12 @@ section_id: "A.3.2:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2/A.3.2__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.3.2 — U.MethodDescription: Description Episteme for a Way of Doing"
   - "A.3.2:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 11723
-line_end: 11735
+line_start: 12140
+line_end: 12152
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -56,7 +56,7 @@ keywords:
 
 | Anti-pattern | Repair |
 | --- | --- |
-| Treating executable text as sufficient Method identity. | Identify the reusable way under A.3.1. When method-description membership is claimed, identify the episteme and apply §4.1. Use §4.2 for representation and publication, and A.15.1 for a run that actually happened. |
+| Treating executable text as sufficient Method identity. | Identify the reusable way under A.3.1. When method-description membership is claimed, identify the episteme and apply §4.1. Use §4.2 for representation and publication, and A.15.1 for a run that happened. |
 | Treating a Work log as a method description solely because it records a sequence. | The log is an episteme about dated Work, not the Work or a method description by being recorded. Identify the occurrence under A.15.1; cite or write a separate method description only when its claims pass the membership rule. |
 | Inferring safe use solely from protocol approval. | Separate method description, approval or gate claim, safety evidence, work plan, and work occurrence. |
 | Leaving the optimization-model claim unresolved. | Ask whether the episteme says how a scheduling Method works or instead states variables, constraints, and an objective for a formal model. Keep the solver run as Work and any selector mechanism under A.6.1/E.20. |

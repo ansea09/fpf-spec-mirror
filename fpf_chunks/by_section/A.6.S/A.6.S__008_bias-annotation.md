@@ -6,12 +6,12 @@ section_id: "A.6.S:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.S/A.6.S__008_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.S — TargetSignature and optional ConstructorSignature - demand-driven signature engineering"
   - "A.6.S:6 — Bias-Annotation"
-line_start: 25063
-line_end: 25074
+line_start: 25984
+line_end: 25995
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -45,7 +45,7 @@ Scope: signature-engineering uses that meet the entry condition; ordinary one-of
 * **Architecture bias (Arch):** a reusable ConstructorSignature can improve repeated work but can also turn one edit into a framework.
   *Mitigation:* require a named receiver for the reusable vocabulary and laws; otherwise use the direct move and stop.
 * **Onto/Epist bias (Onto/Epist):** treating “editing the signature” as harmless can hide semantic change.
-  *Mitigation:* distinguish a direct edit or new same-EntityOfConcern edition from an A.6.4 retargeting. A changed C.2.1 discriminator identifies another episteme; A.6.4 opens only when the exact EntityOfConcern changes.
+  *Mitigation:* distinguish a direct edit or new same-EntityOfConcern edition from an A.6.4 retargeting. A changed C.2.1 discriminator identifies another episteme; A.6.4 opens only when the EntityOfConcern changes.
 
 * **Pragmatic bias (Prag):** repeatable operation declarations cost authoring effort.
   *Mitigation:* introduce them only when a named receiver would otherwise reconstruct the same vocabulary or law.

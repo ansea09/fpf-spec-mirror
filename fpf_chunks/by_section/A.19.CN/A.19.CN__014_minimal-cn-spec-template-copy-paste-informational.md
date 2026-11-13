@@ -6,12 +6,12 @@ section_id: "A.19.CN:13"
 section_title: "Minimal CN‑Spec template (copy/paste, informational)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CN/A.19.CN__014_minimal-cn-spec-template-copy-paste-informational.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.19.CN — CN-frame: Specify and Maintain Comparability and Normalization"
   - "A.19.CN:13 — Minimal CN‑Spec template (copy/paste, informational)"
-line_start: 36767
-line_end: 36812
+line_start: 38273
+line_end: 38318
 dependencies:
   - "A.19"
   - "A.6.1"
@@ -39,7 +39,7 @@ keywords:
 
 ### A.19.CN:13 - Minimal CN‑Spec template (copy/paste, informational)
 
-**Template note.** This example arranges the information needed to specify the comparison basis. A.19.UNM defines normalization terms; A.19.UINDM defines indicatorization; C.16 governs measurement and evidence backing; G.0 supplies the applicable admission conditions.
+This example arranges the information needed to specify the comparison basis. A.19.UNM defines normalization terms; A.19.UINDM defines indicatorization; C.16 governs measurement and evidence backing; G.0 supplies the applicable admission conditions.
 
 ```
 CN‑frame: <Name>      Edition: <edition>      Bearer: <bearer ref>
@@ -81,5 +81,5 @@ MaintenanceAndDeprecation (for a maintained edition):
   deprecation_plan: <short note>
 ```
 
-
+When producing a `StateAssertion`, an implementation should be able to cite the CN-Spec edition and evidence anchors used, along with any normalization instance and Bridge on which the assertion depends.
 

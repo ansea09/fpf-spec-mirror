@@ -6,12 +6,12 @@ section_id: "F.11:11"
 section_title: "Worked examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__012_worked-examples.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.11 — Distinguish Method, MethodDescription, Work and Outputs"
   - "F.11:11 — Worked examples"
-line_start: 122425
-line_end: 122455
+line_start: 130170
+line_end: 130200
 dependencies:
   - "A.13"
   - "A.15"
@@ -51,10 +51,10 @@ keywords:
 * **MethodDescription:** the versioned canary plan with traffic slices and rollback rules.
 * **Work:** two dated canary deployment occurrences.
 * **Outputs:** traffic-shifting commands, if material to the claim.
-* **Agency:** the deploying System and its A.13 core, including the exact local agential kind, classification and obtaining assignment, are part of the independent Work-admission premise. Add F.6 only for a precise attribution through that same assignment; any responsibility claim keeps its own governor.
+* **Agency:** the deploying System and its A.13 core, including the exact local agential kind, classification and obtaining assignment, are part of the independent Work-admission premise. Add F.6 only for a precise attribution through that same assignment. Any responsibility claim keeps its own governor.
 * **Evidence:** latency and error-rate observations about the Work; the plan’s approval is separate.
 
-The example does not infer SLO satisfaction from the plan. F.12 evaluates the promise from Work outcomes in the stated window.
+The plan does not establish SLO satisfaction. F.12 evaluates the promise from Work outcomes in the stated window.
 
 #### F.11:11.2 - Industrial furnace control
 
@@ -68,7 +68,7 @@ If the IEC task expression and a PROV Activity expression are related for report
 
 #### F.11:11.3 - Clinical assay
 
-The Method is ELISA; the MethodDescription is kit IFU v7; the Work is batch B217; robot commands are optional output detail; absorbance observations support the quality verdict. Any deviation from the IFU is an explicit description-use or conformance claim, not a property inferred from the four-question layout.
+The Method is ELISA, its MethodDescription is kit IFU v7, and the Work is the assay run on batch B217. Robot commands are optional output detail. Absorbance observations support the quality verdict. Any deviation from the IFU is an explicit description-use or conformance claim, not a property inferred from the four-question layout.
 
 #### F.11:11.4 - Incident response
 

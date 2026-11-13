@@ -6,12 +6,12 @@ section_id: "G.12:1"
 section_title: "Intent"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.12/G.12__003_intent.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.12 — DHC Dashboards (Discipline-Health Time Series and Views)"
   - "G.12:1 — Intent"
-line_start: 132551
-line_end: 132560
+line_start: 140676
+line_end: 140685
 dependencies:
   - "A.19"
   - "A.2.6"
@@ -54,7 +54,7 @@ keywords:
 Produce a reproducible discipline-health series and view while keeping these objects separate:
 
 1. C.16 measurement results and their C.2.1 coordinate-result epistemes;
-2. one optional C.2.1 `DHCSeries` episteme that orders exact result refs by window;
+2. one optional C.2.1 `DHCSeries` episteme that orders the coordinate-result refs by window;
 3. rows and slices that represent those results or series;
 4. any E.24.PUB publication occurrence, form, carrier, audience, and availability interval; and
 5. any measurement, series-assembly, rendering, upload, or refresh Work.

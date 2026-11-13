@@ -6,12 +6,12 @@ section_id: "F.0.2.MA:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2.MA/F.0.2.MA__006_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.0.2.MA — Synthesize and Allocate Method Contributions"
   - "F.0.2.MA:5 — Archetypal Grounding"
-line_start: 118304
-line_end: 118332
+line_start: 125894
+line_end: 125922
 dependencies:
   - "A.3.1.DR"
   - "A.3.1.MR"
@@ -27,7 +27,7 @@ keywords:
 
 #### F.0.2.MA:5.1 - One review action, two conditions and a candidate shortcut
 
-This is a constructed case. A Method engineer is preparing guidance for reusing an earlier review of a Method description.
+In this constructed case, a Method engineer is preparing guidance for reusing an earlier review of a Method description.
 
 - Handbook H, edition 3, §4, says to reuse the earlier review when only the description's display changes.
 - Paper L, edition 1, §2, says that reuse also depends on the same reviewed claims, question and qualification window.
@@ -44,11 +44,11 @@ The engineer's allocation is:
 | Shortening the warning | Retain W's rival accounts and the missing comparison. Do not create an admitted “shortcut Method” from one reported occurrence. |
 | Layout instructions for the handbook's publishing tool | Keep them in H. They do not belong in the reusable Method claim. |
 
-The first useful result is the conditional reuse answer. A description author can now state the condition and the return to A.3.1.CC.
+The first useful result is the conditional reuse answer. A description author can state the condition and the return to A.3.1.CC.
 
 #### F.0.2.MA:5.2 - A changed source does not erase a former result
 
-Later, H is available only as excerpts. The retained dossier contains merely a locator for the argument used by the allocation, and a new receiving use requires checking that argument. Return that recheck as unavailable and lower the dependent use. Preserve the earlier result with its historical basis, L's independently supported condition and unrelated allocations. Reopen only what relied on the missing argument.
+Later, only excerpts of H are available. Neither they nor the retained dossier contain the argument needed for the new use; the dossier gives its locator. Report that the argument cannot be rechecked and limit the dependent use to what the available evidence supports. Preserve the earlier result with its historical basis, L's independently supported condition and unrelated allocations. Reopen only what relied on the missing argument.
 
 If the complete argument had already been preserved with a suitable basis, loss of current website access alone would not establish that the earlier claim was wrong.
 

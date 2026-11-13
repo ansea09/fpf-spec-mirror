@@ -6,12 +6,12 @@ section_id: "F.2:9"
 section_title: "Didactic heuristics (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.2/F.2__010_didactic-heuristics-informative.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.2 — Source-Local Term Harvesting & Normalisation"
   - "F.2:9 — Didactic heuristics (informative)"
-line_start: 119142
-line_end: 119149
+line_start: 126741
+line_end: 126748
 dependencies:
   - "A.11"
   - "A.7"
@@ -37,5 +37,5 @@ keywords:
 * Prefer the source’s head noun and meaningful modifier: do not shorten *service-level objective* to *objective*.
 * Preserve spelling or case when it carries source signal.
 * Compress from attested use, not from a neighbouring theory.
-* When *role*, *function*, *process*, or another trigger word appears, recover the actual subject before choosing a label.
+* When *role*, *function*, *process*, or another trigger word appears, identify what the source passage is about before choosing a label.
 

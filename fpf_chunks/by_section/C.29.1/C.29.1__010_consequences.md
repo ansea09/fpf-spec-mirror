@@ -6,12 +6,12 @@ section_id: "C.29.1:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29.1/C.29.1__010_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.29.1 — Mathematical Result Transfer"
   - "C.29.1:9 — Consequences"
-line_start: 70290
-line_end: 70299
+line_start: 73383
+line_end: 73392
 dependencies:
   - "A.3.3"
   - "A.6.3.RT"
@@ -23,7 +23,7 @@ keywords:
 
 ### C.29.1:9 - Consequences
 
-**Useful consequences.** A transferred result comes with the correspondence that makes it usable. A failed transfer becomes a specific mathematical finding: two merged cases disagree, an operation lacks a counterpart, a domain is uncovered, or a bound is insufficient. Each finding suggests a repair that is narrower than discarding the whole account.
+**Useful consequences.** A transferred result comes with the correspondence that makes it usable. A failed transfer becomes a mathematical finding: two merged cases disagree, an operation lacks a counterpart, a domain is uncovered, or a bound is insufficient. Each finding suggests a repair that is narrower than discarding the whole account.
 
 The method also makes productive simplification possible. Available stock omits separate totals while preserving reservation behavior. A route relaxation omits compatibility while providing a lower bound. Mean and contrast simplify a thermal update, and a bounded contrast suffices for a later threshold decision.
 

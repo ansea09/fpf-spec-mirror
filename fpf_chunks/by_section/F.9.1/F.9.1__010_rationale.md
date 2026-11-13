@@ -6,12 +6,12 @@ section_id: "F.9.1:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9.1/F.9.1__010_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.9.1 — Bridge Stance Note — Clarify a Bounded Use"
   - "F.9.1:9 — Rationale"
-line_start: 121954
-line_end: 121957
+line_start: 129662
+line_end: 129667
 dependencies:
   - "A.10"
   - "A.6.3.CSC"
@@ -36,5 +36,7 @@ keywords:
 
 ### F.9.1:9 - Rationale
 
-The stance vocabulary is useful because practitioners already write short interpretive glosses. The ontology stays small by treating each gloss as ordinary claim-bearing content rather than a new relation kind or universal classification. Making the bounded-use claim the EntityOfConcern also keeps a Card as optional publication packaging rather than the subject or source of the relation and use claims. One primary stance per claim is a readability default, not a new cardinality law. The real criterion is whether the note makes the claim easier to understand without hiding a materially different reading; when one ordinary sentence does that better, the sentence wins.
+The stance vocabulary is useful because practitioners already write short interpretive glosses. The ontology stays small by treating each gloss as ordinary claim-bearing content rather than a new relation kind or universal classification. Making the bounded-use claim the EntityOfConcern also keeps a Card as optional publication packaging rather than the subject or source of the relation and use claims.
+
+One primary stance per claim is a readability default, not a new cardinality law. The criterion is whether the note makes the claim easier to understand without hiding a materially different reading; when one ordinary sentence does that better, use the sentence.
 

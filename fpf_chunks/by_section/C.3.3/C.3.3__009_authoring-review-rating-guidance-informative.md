@@ -6,12 +6,12 @@ section_id: "C.3.3:8"
 section_title: "Authoring, Review & Rating Guidance (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.3/C.3.3__009_authoring-review-rating-guidance-informative.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.3.3 — KindBridge and CL^k — Correspondence between Distinct Kinds"
   - "C.3.3:8 — Authoring, Review & Rating Guidance (informative)"
-line_start: 55756
-line_end: 55781
+line_start: 58050
+line_end: 58075
 dependencies:
   - "A.2.6"
   - "A.6.REL"
@@ -28,7 +28,7 @@ keywords:
 #### C.3.3:8.1 - Authoring a KindBridge assertion
 
 * **Compare identity before authoring a bridge.** For a changed locality, source, team, spelling, or scheme, first repeat the kind-definition comparison under C.3.1. Stop without a bridge when the same kind continues.
-* **Start narrow and honest.** For two distinct kinds, declare only the directional correspondence and subkind facts the receiving use actually relies on; mark any required but unsettled order result unknown.
+* **Declare the needed correspondence and order facts.** For two distinct kinds, declare only the directional correspondence and subkind facts the receiving use relies on; mark any required but unsettled order result unknown.
 * **Prefer an existing suitable target kind.** If the target already has a suitable kind and declaration edition, relate that kind directly. If a new target declaration is required, author it separately before asserting bridge obtaining; list what the mapping predicate preserves, relaxes, or drops.
 * **Write loss notes in plain language.** Example: “EV vs ICE subkinds collapsed; battery‑health invariants dropped.”
 * **Fix the definedness area.** Bind to target Standards/versions and any environment selectors essential to classification.
@@ -37,7 +37,7 @@ keywords:
 #### C.3.3:8.2 - Review prompts
 
 1. **Identity checked first?** Same kind reused without a bridge, or two distinct kinds and the obtaining correspondence shown? Add Scope or F.9 relations only when the receiving use consumes them.
-2. **Order claims honest?** Any `⊑` inversions? Collapses disclosed?
+2. **Check the order claims.** Any `⊑` inversions? Collapses disclosed?
 3. **When `CL^k` is used, is it plausible?** Based on preserved properties, not name similarity?
 4. **Loss consequences clear?** Do they change the justified inference, require more basis or leave the intended use adequate?
 5. **Definedness area clear?** Outside it, does the guard decline this bridge use while preserving the independent classification result?

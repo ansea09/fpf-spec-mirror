@@ -6,12 +6,12 @@ section_id: "C.20:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.20/C.20__005_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.20 — Composition of U.Discipline (Discipline-CAL)"
   - "C.20:3 — Forces"
-line_start: 62253
-line_end: 62263
+line_start: 64759
+line_end: 64769
 dependencies:
   - "A.1"
   - "A.14"
@@ -29,13 +29,7 @@ dependencies:
   - "C.2.1"
   - "C.20"
   - "C.21"
-  - "C.22"
-  - "C.23"
-  - "C.3"
-  - "E.10"
   - "E.24.UK"
-  - "F.17"
-  - "F.18"
   - "F.9"
   - "G.5"
 keywords:
@@ -53,8 +47,8 @@ keywords:
 
 | Force | Tension |
 | --- | --- |
-| **Pluralism vs cohesion** | Rival claims and practices can remain visible while the exact assembly must still sustain one field-level whole. |
-| **Continuity vs genuine reidentification** | Parts and relations can change while the same discipline continues, but a name must not hide a changed assembly or boundary. |
+| **Pluralism vs cohesion** | Rival claims and practices can remain visible while the assembly must sustain one field-level whole. |
+| **Continuity vs reidentification** | Parts and relations can change while the same discipline continues, but a name must not hide a changed assembly or boundary. |
 | **Readable minimum vs constructive assurance** | Ordinary work needs a short part-and-assembly account; reliance-bearing work may need a C.13 trace, evidence, currentness, and assurance. |
 | **Local meaning vs cross-field reuse** | A practice or term can be reused through an exact bridge without the bridge becoming a discipline part or merging its endpoints. |
 | **Rigor vs agility** | Exact parts and identity are required, while comparison, publication, health, and registry apparatus are added only for a named receiving use. |

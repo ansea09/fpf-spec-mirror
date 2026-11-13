@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.19.ECS"
-pattern_title: "Evaluation CharacteristicSpace Construction: Define What Counts as Better"
+pattern_title: "CharacteristicSpace Construction: Define What Counts as Better"
 section_id: "A.19.ECS:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ECS/A.19.ECS__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.19.ECS — Evaluation CharacteristicSpace Construction: Define What Counts as Better"
+  - "A.19.ECS — CharacteristicSpace Construction: Define What Counts as Better"
   - "A.19.ECS:4 — Solution"
-line_start: 35069
-line_end: 35168
+line_start: 36557
+line_end: 36666
 dependencies:
   - "A.17-A.19"
   - "C.16"
@@ -38,7 +38,7 @@ Construct an evaluation specification that declares an A.19 `CharacteristicSpace
 | Local name | Use | Non-use boundary |
 |---|---|---|
 | `EvaluationCharacteristicSpaceSpec` | Local specification for constructing one evaluation `CharacteristicSpace`. | Declaring an evaluation alone establishes neither a value for the evaluated object nor permission to act. |
-| `EvaluatedObjectKindRef` | Exact kind of object the evaluation evaluates. | — |
+| `EvaluatedObjectKindRef` | Kind of object being evaluated. | — |
 | `DeclaredUseScope` | Use for which the evaluated object is being judged or improved. | Not all possible uses. |
 | `DiscriminatingCaseSet` | Positive, below-floor, and outside-declared-object-kind boundary cases used to test whether the characteristic space distinguishes the evaluated object kind and use. | Not a substitute for the coordinate set. |
 | `ObjectKindFitRule` | Rule for admissible evaluated object, below-floor evaluated object, and outside-declared-object-kind boundary case. | Not permission to omit declared coordinates after an evaluation has been invoked. |
@@ -53,7 +53,7 @@ Construct an evaluation specification that declares an A.19 `CharacteristicSpace
 | `CalibrationPointSet` | Reusable cases and reference values for common disagreements, including 3/4/5 or equivalent adjacent values when the Scale has them. | Calibration uses the declared Scale and supplies no second score system. |
 | `CoordinateSpecificEvidencePayloadRule` | Extra payload that a coordinate needs when a category label can fake discharge: comparator plus selected ingredient plus current locus, source plus adopted payload plus currentness window, projection locus plus retrieval cue, or another payload named by value. | Not the evaluated object's method, and not live evaluated-object text unless the evaluated object itself is an evaluation result or projection carrier. |
 | `ProtectedTradeoffSet` | Qualities or neighbour claims that must be checked when visible coordinates improve. | Not a hidden veto without a declared evaluation pattern or value meaning. |
-| `PrecisionRepairKindRule` | Rule for checking pre-repair and post-repair evaluated object kind, characteristic kind, relation or claim kind, current ontic slot, relation position, use relation, admissible use, and scope when coordinate or evaluation wording is repaired; cite another pattern's definition or constraint when it governs that meaning; name an exact ClaimGraph only when its identity or edition changes the use. | Not permission to change object kind or slot, relation position, use relation, or claim kind by cleaner wording. |
+| `PrecisionRepairKindRule` | Rule for checking pre-repair and post-repair evaluated object kind, characteristic kind, relation or claim kind, ontic slot, relation position, use relation, admissible use, and scope when coordinate or evaluation wording is repaired; cite another pattern's definition or constraint when it governs that meaning; name a ClaimGraph only when its identity or edition changes the use. | Not permission to change object kind or slot, relation position, use relation, or claim kind by cleaner wording. |
 | `StatusValueSet` | Local admissible-use result values for the evaluation. | Not release state, gate status, or evaluator praise. |
 | `E23StartCondition` | Minimum condition for using this evaluation inside `E.23`. | — |
 
@@ -64,20 +64,22 @@ These names are local to this pattern.
 Use these moves when constructing or repairing an evaluation. They are not a mandatory work sequence; each move is a required content question whose answer must be recoverable before the evaluation is used for improvement.
 
 1. **Name the evaluated object kind and use.** Say what object kind is being evaluated and for which declared use. If the evaluated object kind is not recoverable, stop before choosing coordinates.
-2. **Build the discriminating cases.** Include at least one evaluated object that should pass, one object of the same general family that should fail the floor, and one different object kind that should return to evaluation selection before opening or receive an explicit object-kind-fit defect/value if this evaluation has already been invoked.
-3. **Choose candidate characteristics.** Draw candidates from the object kind's real failure modes, first-principles structure, user or operator harms, domain tradition, current `SoTA`, existing evaluations, and FPF neighbouring patterns named by value.
-4. **Bind each slot.** For each candidate, state the characteristic, chosen scale, value set, admissible domain, missingness semantics, and whether the value is a measurement claim or a content evaluation. Keep the property value, object-kind fit, and missing observation distinct. An observed absence of required support can justify a low value; an unperformed check cannot establish that absence. A local diagnostic code such as `0` may represent missing basis only when explicitly declared as a code, without the arithmetic or comparison rights of a measured zero. Preserve already supported values while leaving dependent conclusions open.
-5. **Remove false coordinates.** Drop coordinates that do not change admissible action, do not discriminate the evaluated object, duplicate another coordinate without a different repair action, or belong to another exact evaluation.
+2. **Build the discriminating cases.** Include at least one evaluated object that should pass, one object of the same general family that should fail the floor, and one different object kind that should return to evaluation selection before opening or receive an object-kind-fit defect/value if this evaluation has already been invoked.
+3. **Choose candidate characteristics.** Draw candidates from the object kind's failure modes, first-principles structure, user or operator harms, domain tradition, current `SoTA`, existing evaluations, and FPF neighbouring patterns named by value.
+4. **Bind each slot.** For each candidate, state the characteristic, chosen scale, value set, admissible domain, missingness semantics, and whether the value is a measurement claim or a content evaluation. Keep the property value, object-kind fit, and missing observation distinct. An observed absence of required support can justify a low value; an unperformed check cannot establish that absence. A local diagnostic code such as `0` may represent missing basis only when declared as a code, without the arithmetic or comparison rights of a measured zero. Preserve supported values while leaving dependent conclusions open.
+5. **Remove false coordinates.** Drop coordinates that do not change admissible action, do not discriminate the evaluated object, duplicate another coordinate without a different repair action, or belong to another evaluation.
 6. **Split compound coordinates.** If a coordinate mixes two repair actions, two object kinds, or two incompatible scales, split it or assign one part to the neighboring pattern that governs that claim.
 7. **State preferred movement and trade-offs.** For each declared coordinate, state the preferred direction or explain why no simple direction exists. Name the protected trade-offs that must be checked when the coordinate improves.
 8. **Define result form, evidence basis, and calibration.** State the required result content, evidence basis, Scale-appropriate rationale rule, calibration cases for common disagreements, and any coordinate-specific payload needed for high or floor-reaching values.
 9. **Define floor, exceptional, status, and stop.** State the viable-for-use floor, exceptional-for-use meaning, status values, and local stop or reopen condition.
-10. **Recover dependent claims and their rules.** When a coordinate depends on a separate evidence, assurance, gate, Work, decision, publication, naming, measurement, quality-bundle, OEE/NQD or mathematical-lens claim, identify its subject, relation and the rule that defines or constrains it. An ordinary pattern citation can locate that content. Identify a particular ClaimGraph only when its identity or edition affects the use; the citation itself establishes no subject fact.
-11. **Start `E.23` with a usable evaluation basis.** A repeated improvement loop can start only when the evaluated object version, evidence basis, result form, and evaluation are recoverable enough for re-evaluation.
+10. **Recover dependent claims and their rules.** When a coordinate depends on a separate evidence, assurance, gate, Work, decision, publication, naming, measurement, quality-bundle, OEE/NQD or mathematical-lens claim, identify its subject, relation and the rule that defines or constrains it. An ordinary pattern citation can locate that content. Identify a ClaimGraph only when its identity or edition affects the use; the citation itself establishes no subject fact.
+11. **Start `E.23` with a usable evaluation basis.** A repeated improvement loop can start only when the evaluated object version, evidence basis, result form, and evaluation are recoverable for re-evaluation.
 
 #### A.19.ECS:4.3 - Evaluation specification minimum
 
-A.19.ECS does not prescribe a publication or record form. It states which evaluation characteristic-space elements must be recoverable before an evaluation characteristic space is reusable for judgement or improvement. The selected publication or record form may be an FPF pattern, local engineering standard, rubric, table, review form, model card section, protocol note, or project rule, but that form is not governed here. The evaluation characteristic-space specification must make these items recoverable by value:
+A.19.ECS does not prescribe a publication or record form. It states which evaluation characteristic-space elements must be recoverable before an evaluation characteristic space is reusable for judgement or improvement. The selected publication or record form may be an FPF pattern, local engineering standard, rubric, table, review form, model card section, protocol note, or project rule, but that form is not governed here.
+
+The evaluation characteristic-space specification must make these items recoverable by value:
 
 | Specification item | Required content |
 |---|---|
@@ -97,7 +99,9 @@ A.19.ECS does not prescribe a publication or record form. It states which evalua
 
 This minimum is a content requirement, not a file-format requirement. For an FPF pattern publication form, `E.8` still governs the authoring form. `A.19.ECS` only states what the evaluation must make recoverable so that `E.22` can frame an improvement-oriented quality evaluation and `E.23` can run a repeated improvement loop.
 
-When construction or repair changes coordinate wording or evaluation wording, compare the pre-repair and post-repair evaluated object kind, characteristic kind, relation or claim kind, current ontic slot, relation position, use relation, admissible use, and scope. Cite another pattern's definition or constraint when it governs the repaired meaning. Identify its exact ClaimGraph only when identity or edition matters to the repaired use. A cleaner phrase that changes those items, treats a coordinate position as an object kind, or loses the value's slot, relation position, use relation, or claim kind is a changed evaluation decision, not a wording repair.
+When construction or repair changes coordinate wording or evaluation wording, compare the pre-repair and post-repair evaluated object kind, characteristic kind, relation or claim kind, ontic slot, relation position, use relation, admissible use, and scope. Cite another pattern's definition or constraint when it governs the repaired meaning. Identify its ClaimGraph only when identity or edition matters to the repaired use.
+
+A cleaner phrase that changes those items, treats a coordinate position as an object kind, or loses the value's slot, relation position, use relation, or claim kind is a changed evaluation decision, not a wording repair.
 
 #### A.19.ECS:4.4 - Discriminating-case test
 
@@ -107,7 +111,11 @@ An evaluation is not ready if it cannot distinguish these three outcomes:
 2. **Below-floor evaluated object.** The object is of the evaluated object kind or a declared comparable family, but fails one or more floors.
 3. **Outside-declared-object-kind boundary case.** Before the evaluation is opened, the object should return to evaluation selection or construction rather than be treated as the evaluated object kind. If the evaluation has already been invoked for that object, the result identifies the object-kind-fit defect or repair status and marks the affected coordinates inapplicable under the declared rule. It does not assign weak property values to an object outside their domain.
 
-Example: for a nuclear-plant adequacy evaluation, a nuclear plant can vary along safety, output, maintenance, regulatory, thermal, waste-handling, grid, and resilience coordinates. A coal plant may be a power-generation alternative only when the declared use explicitly compares power-generation options across plant kinds. A chair or FPF pattern is outside the nuclear-plant evaluated-object kind: before opening the evaluation it returns to a suitable evaluation; after a forced invocation, the result records the kind mismatch and explains why the plant-specific coordinates do not apply to the chair.
+Example: for a nuclear-plant adequacy evaluation, a nuclear plant can vary along safety, output, maintenance, regulatory, thermal, waste-handling, grid, and resilience coordinates.
+
+A coal plant may be a power-generation alternative only when the declared use compares power-generation options across plant kinds.
+
+A chair or FPF pattern is outside the nuclear-plant evaluated-object kind: before opening the evaluation it returns to a suitable evaluation; after a forced invocation, the result records the kind mismatch and explains why the plant-specific coordinates do not apply to the chair.
 #### A.19.ECS:4.5 - Scale-set improvement
 
 Improve an evaluation when its use misses a consequential defect, rejects an admissible object, recommends a harmful repair, fails on a new use, or demands more work than its decision value justifies. First distinguish a defect in the evaluation from a failure to perform it, unavailable inputs, or reliance beyond its scope. A better-written specification and more agreement among evaluators do not by themselves establish better decisions.
@@ -123,7 +131,9 @@ Use the following comparison to decide whether to adopt a change:
 
 This comparison checks the evaluation's practical contribution. Use `E.21` separately when the specification is an FPF pattern whose quality is in question; `E.9.DA` for the decision record selecting it; `E.2.DA` for FPF-level Pillar adequacy; `F.18` for naming; and `C.16`, `A.17`, `A.18`, or `A.19` for measurement, scale or characteristic-space admissibility. Their results answer those questions and can supply premises here. Use `E.23` when repeated improvement of the evaluation is needed.
 
-An independent subject basis and a bounded adoption comparison can settle the current choice without creating an endless sequence of numeric meta-evaluations. If a decisive premise remains unknown, retain the corresponding limit or trial disposition; another score does not supply that premise.
+An independent subject basis and a bounded adoption comparison can settle the choice without creating an endless sequence of numeric meta-evaluations. If a decisive premise remains unknown, retain the corresponding limit or trial disposition; another score does not supply that premise.
 
-**Worked comparison.** A team proposes replacing a review criterion that counts source links with one that checks whether a required claim is actually supported. A known defective text has many links but omits the dependent claim; a difficult admissible text uses one sufficient source and a different valid explanation. The new criterion detects the omission and preserves the admissible explanation. A proposed repair that copies every source paragraph would make ordinary use harder, so the comparison also checks the repaired text. These are development results on known cases. Adoption still needs an independently grounded new case and an affordable way to obtain the supporting judgement. If the new criterion merely produces more objections or requires whole-corpus reading for every local use, revise it or retain the adequate earlier procedure in its supported scope.
+**Worked comparison.** A team proposes replacing a review criterion that counts source links with one that checks whether a required claim is supported. A known defective text has many links but omits the dependent claim; a difficult admissible text uses one sufficient source and a different valid explanation. The new criterion detects the omission and preserves the admissible explanation. A proposed repair that copies every source paragraph would make ordinary use harder, so the comparison also checks the repaired text.
+
+These are development results on known cases. Adoption still needs an independently grounded new case and an affordable way to obtain the supporting judgement. If the new criterion merely produces more objections or requires whole-corpus reading for every local use, revise it or retain the adequate earlier procedure in its supported scope.
 

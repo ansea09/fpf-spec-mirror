@@ -6,12 +6,12 @@ section_id: "C.3.4:8"
 section_title: "Interactions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__010_interactions.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.3.4 — KindUseAdaptationDeclaration — Tailor the Use of an Existing Kind"
   - "C.3.4:8 — Interactions"
-line_start: 55952
-line_end: 55972
+line_start: 58250
+line_end: 58270
 dependencies:
   - "A.2.6"
   - "C.2.1"
@@ -33,7 +33,7 @@ Use an adaptation declaration for procedural tailoring. If the receiving uses ne
 
 - The base `KindSignature` episteme supplies the kind criterion and its own F.
 - The separate adaptation declaration supplies additional candidate-feature constraints or vocabulary bindings and may have its own F.
-- The exact `KindUseAdaptationJudgment` pins both editions and preserves `unknown`; neither formality assessment belongs to the kind, candidate, or truth value.
+- The `KindUseAdaptationJudgment` pins both editions and preserves `unknown`; neither formality assessment belongs to the kind, candidate, or truth value.
 - An optional extension-like result remains only a pinned-edition representation of true adaptation judgments.
 
 #### C.3.4:8.3 - With KindBridge
@@ -42,5 +42,5 @@ A locality change first prompts kind-identity comparison. When the same base kin
 
 #### C.3.4:8.4 - With Guards
 
-`Guard_KindUseAdaptation` designates exact adaptation and base-signature editions, checks admissibility, evaluates an admissible candidate, checks Scope separately, and keeps `not-applicable`, `unknown`, and refusal distinct. For distinct-kind cross-local use, it composes with the C.3.3 guard only after the bridge and receiving declarations are recoverable. For same-kind reuse, it performs the fresh receiving evaluation without inventing a bridge.
+`Guard_KindUseAdaptation` designates exact adaptation and base-signature editions, checks admissibility, evaluates an admissible candidate, checks Scope separately, and keeps `not-applicable`, `unknown`, and refusal distinct. For distinct-kind cross-local use, it composes with the C.3.3 guard only after the bridge and receiving declarations are recoverable. For same-kind reuse, it performs the fresh receiving evaluation without a bridge.
 

@@ -6,12 +6,12 @@ section_id: "E.17.0:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.0/E.17.0__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.17.0 — Viewpoint and View Recognition for Multi-View Describing"
   - "E.17.0:1 — Problem frame"
-line_start: 106115
-line_end: 106132
+line_start: 112602
+line_end: 112619
 dependencies:
   - "A.22"
   - "A.6.3"
@@ -32,13 +32,13 @@ keywords:
 
 ### E.17.0:1 - Problem frame
 
-An engineer may have several claim-bearing epistemes about one system, method, structure, work occurrence, or another exact entity. A functional description, safety description, maintenance description, and allocation description may serve different concerns. One episteme may also be constructed from another by a query or projection, rendered in several forms, published several times, or compared with another view.
+An engineer may have several claim-bearing epistemes about one system, method, structure, work occurrence, or another identified entity. A functional description, safety description, maintenance description, and allocation description may serve different concerns. One episteme may also be constructed from another by a query or projection, rendered in several forms, published several times, or compared with another view.
 
 Those uses involve different objects and relations:
 
-1. the exact EntityOfConcern of each episteme;
+1. the EntityOfConcern of each episteme;
 2. the episteme itself, identified under C.2.1;
-3. an exact `U.Viewpoint` episteme carrying fixed concerns and conformance rules;
+3. a `U.Viewpoint` episteme carrying fixed concerns and conformance rules;
 4. an obtaining `EpistemeViewpointConformanceRelation` occurrence;
 5. dependent `U.View` membership of the same episteme individual;
 6. an optional A.6.3 viewing relation recording how one episteme was constructed from another;
@@ -46,5 +46,5 @@ Those uses involve different objects and relations:
 8. exact correspondence relations and epistemes that assert or describe them;
 9. publication occurrences, forms, carriers, and representations.
 
-The list is an orientation, not a form to fill. Ordinary positive recognition needs items 1 through 5; a negative test stops without an obtaining conformance occurrence or `U.View` membership. Construction, selection, correspondence, and publication stay outside unless the receiving use calls for them.
+Use the list to choose the distinctions your task needs. Ordinary positive recognition needs items 1 through 5; a negative test stops without an obtaining conformance occurrence or `U.View` membership. Construction, selection, correspondence, and publication stay outside unless the receiving use calls for them.
 

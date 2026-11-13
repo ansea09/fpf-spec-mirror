@@ -6,12 +6,12 @@ section_id: "E.18.2:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.2/E.18.2__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.18.2 — Transformation Flow Mathematical Description"
   - "E.18.2:3 — Forces"
-line_start: 111499
-line_end: 111508
+line_start: 118465
+line_end: 118474
 dependencies:
   - "A.10"
   - "A.15"
@@ -42,7 +42,7 @@ keywords:
 |---|---|---|
 | Mathematical usefulness | Graphs, categories, tuples, algebra, morphisms, paths, slices, quotients, folds, refinements, factorizations, and wiring can expose structure that prose misses. | Mathematical form can look stronger than the claim it can carry. |
 | EoC separation | The selected E.18 TFS or E.18.NET network, its E.18.2 mathematical description, its E.17 publication, and its C.29 lens-use adequacy are different values. | One visible source or publication face may present all of them at once. |
-| Composition and decomposition | One TFS and recursive TFS networks need reviewable composition, factorization, slice, fold, and refinement claims. | The expression can hide which exact E.18 TFS, E.18.NET network, or independently identified part is being described. |
+| Composition and decomposition | One TFS and recursive TFS networks need reviewable composition, factorization, slice, fold, and refinement claims. | The expression can hide which E.18 TFS, E.18.NET network, or independently identified part is being described. |
 | Publication usability | Readers need diagrams, tables, equations, and views. | A publication face can be mistaken for evidence, gate passage, or performed work. |
-| Related-claim economy | Apply E.18 to select one exact flow structure, A.3.4 to identify one actual bounded change, E.17 to publish a face, A.20 or A.21 to obtain validity or gate results, A.15 to identify plans or Work, and C.30 to state an architecture claim. | Repeating those patterns' boundary doctrine inside E.18.2 creates fanout. |
+| Related-claim economy | Apply E.18 to select one flow structure, A.3.4 to identify one actual bounded change, E.17 to publish a face, A.20 or A.21 to obtain validity or gate results, A.15 to identify plans or Work, and C.30 to state an architecture claim. | Restating those rules in E.18.2 would leave readers with several accounts of the same boundaries. |
 

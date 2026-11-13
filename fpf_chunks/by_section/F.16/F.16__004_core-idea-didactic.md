@@ -6,12 +6,12 @@ section_id: "F.16:3"
 section_title: "Core idea (didactic)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.16/F.16__004_core-idea-didactic.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.16 — Worked-Example Template (Cross-Domain)"
   - "F.16:3 — Core idea (didactic)"
-line_start: 123889
-line_end: 123903
+line_start: 131732
+line_end: 131746
 dependencies:
   - "A.10"
   - "A.15"
@@ -60,7 +60,7 @@ A useful worked example is a compact case with nine visible parts:
 * **Direct patterns** — the patterns that define, constrain, or test each substantive value or relation.
 * **Source basis** — exact sources and editions and the passages or interpretation schemes that matter.
 * **Obtaining relations** — each named directly, with participants, direction, and limits.
-* **Evidence, result, and reliance** — what supports the claim, what evaluation actually returned when one occurred, and what remains uncertain.
+* **Evidence, result, and reliance** — what supports the claim, what the evaluation returned, if one occurred, and what remains uncertain.
 * **Optional aids** — F.17 cells when a local meaning needs a stable address and an F.7 table when comparison needs a display; their presence establishes no fact.
 * **Boundary and checks** — where the example stops and the few checks a reader can replay.
 

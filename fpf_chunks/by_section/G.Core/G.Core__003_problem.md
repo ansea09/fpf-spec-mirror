@@ -6,12 +6,12 @@ section_id: "G.Core:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.Core/G.Core__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.Core — Discipline SoTA Kit Invariants, Defaults and Refresh Triggers (Part G)"
   - "G.Core:2 — Problem"
-line_start: 126434
-line_end: 126446
+line_start: 134484
+line_end: 134496
 dependencies:
   - "A.15.3"
   - "A.19"
@@ -39,7 +39,7 @@ Restating shared invariants in several Part G patterns can produce the following
 1. **Shadow governing specs** emerge: downstream patterns restate CN‑Spec / CG‑Spec constraints, accidentally creating “local specs” that can diverge from the canonical governing definitions.
 2. **Crossing discipline becomes inconsistent**: “crossing events” and “crossing visibility” are described differently across `G.x`, causing ambiguity about what must be pinned (UTS/Path/policy‑ids/editions) and what triggers refresh/regression.
 3. **Guard semantics drift**: tri‑state eligibility and “unknown handling” can be reinterpreted in local prose, producing hidden fourth statuses or implicit coercions.
-4. **Hidden scalarization appears**: partial orders are silently collapsed into scalars, or totalization is introduced implicitly through numeric summaries.
+4. **Hidden scalarization.** A pattern may leave a change undeclared when it collapses a partial order into a scalar or introduces a total order through a numeric summary.
 5. **Suite/kit/pack mixing blurs governing-definition assignment**: downstream patterns drift into “governing” what should remain governed by the suite boundary (`A.6.7` and `A.19.CHR`), kit surfaces (each `G.x`), or shipping (`G.10`).
 6. **Refactoring breaks public IDs**: CC items and trigger labels become hard to evolve because removing duplicates risks breaking external references.
 

@@ -6,12 +6,12 @@ section_id: "E.22:6"
 section_title: "Bias annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.22/E.22__007_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.22 — Improvement-Oriented Quality Evaluation Question Framing"
   - "E.22:6 — Bias annotation"
-line_start: 114682
-line_end: 114687
+line_start: 121945
+line_end: 121950
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -30,7 +30,7 @@ keywords:
 
 ### E.22:6 - Bias annotation
 
-This pattern biases FPF toward asking the quality question by value. The bias is useful because unframed review requests often produce plausible but wrong answers.
+E.22 favors naming the intended quality question and what would answer it. Without that information, reviewers often give a plausible answer to the wrong question.
 
-The bias is bounded. `E.22` does not supply quality values, run repeated improvement, publish selected sets, decide work, or certify project claims.
+The quality values, repeated improvement, publication of a selected set, decision about work and certification of a project claim each require the operation that produces them.
 

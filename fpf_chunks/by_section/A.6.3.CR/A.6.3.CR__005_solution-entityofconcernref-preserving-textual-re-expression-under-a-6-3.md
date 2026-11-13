@@ -6,12 +6,12 @@ section_id: "A.6.3.CR:4"
 section_title: "Solution — entityOfConcernRef-preserving textual re-expression under A.6.3"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CR/A.6.3.CR__005_solution-entityofconcernref-preserving-textual-re-expression-under-a-6-3.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.3.CR — ConservativeRetextualization: EntityOfConcern-Preserving Textual Re-Expression"
   - "A.6.3.CR:4 — Solution — entityOfConcernRef-preserving textual re-expression under A.6.3"
-line_start: 18208
-line_end: 18357
+line_start: 19049
+line_end: 19206
 dependencies:
   - "A.15"
   - "A.6.2"
@@ -38,9 +38,9 @@ keywords:
 
 > `ConservativeRetextualization` specializes A.6.3 viewing for textual re-expression about the same EntityOfConcern.
 >
-> It preserves the exact EntityOfConcern resolved by each side's `entityOfConcernRef` under that side's effective ReferenceScheme, keeps the transform effect-free, and allows only claim-preserving or explicitly loss-declared rewriting of already available content.
+> It preserves the EntityOfConcern resolved by each side's `entityOfConcernRef` under that side's effective ReferenceScheme, keeps the transform effect-free, and allows only claim-preserving or explicitly loss-declared rewriting of already available content.
 >
-> It may change register, ordering, textual density, language, emphasis or local wording. Its receiving assertions remain subject to A.6.3 conservativity. Separately asserted Bridge, reliance, authorization, Work, evidence or decision claims need their own grounds; fluent rewriting supplies none by itself.
+> It may change register, ordering, textual density, language, emphasis or local wording. Its receiving assertions remain subject to A.6.3 conservativity. Separately asserted Bridge, reliance, authorization, Work, evidence or decision claims need their own grounds.
 
 Here, **entityOfConcernRef-preserving** means that resolved-entity equality, not identical reference spelling. Keep a material reference or scheme change explicit under `A.6.3:4.3`.
 
@@ -52,9 +52,11 @@ Use these local terms when distinguishing the source and rendering:
 - **Ordinary case** = a reviewable same-entity rewrite where a short account keeps the source tether, omission notes, and neighboring-pattern conditions readable.
 - **Case needing fuller review** = a case whose material preservation, correspondence or intended-use question requires more support than the short account supplies.
 
-`sourceSlice` and `publishedSlice` are local review labels for the source textual slice and resulting textual rendering in one rewrite case. A `publishedSlice` remains a rendering label. When one exact selected `U.Episteme` is made available, E.24.PUB identifies its audience and bounded-use declarations, the particular expression and carrier, and the obtaining `EpistemePublicationRelation`. When a reusable publication form is selected, establish that expression's conformance to its rules. Form-mediated expression and bearing claims use the same expression as witness. The slice label establishes neither a publication kind nor another episteme identity.
+`sourceSlice` and `publishedSlice` are local review labels for the source textual slice and resulting textual rendering in one rewrite case. A `publishedSlice` remains a rendering label.
 
-For example, a short restatement shared in a text file can identify the receiving episteme, audience, use, actual text and file without choosing a reusable form. If the receiving use requires a specified report form, the text must also satisfy that form's rules. The source tether, omission notes and conservative-rewrite conditions apply in both cases.
+When one selected `U.Episteme` is made available, E.24.PUB identifies its audience and bounded-use declarations, the expression and carrier, and the obtaining `EpistemePublicationRelation`. When a reusable publication form is selected, establish that expression's conformance to its rules. Form-mediated expression and bearing claims use the same expression as witness. The slice label establishes neither a publication kind nor another episteme identity.
+
+For example, a short restatement shared in a text file can identify the receiving episteme, audience, use, text and file without choosing a reusable form. If the receiving use requires a specified report form, the text must also satisfy that form's rules. The source tether, omission notes and conservative-rewrite conditions apply in both cases.
 
 These local review labels follow the `E.17:5.1e` local-field rule.
 
@@ -88,11 +90,13 @@ Start with the preservation question:
 3. Can the reader see what was omitted, softened, or foregrounded?
 4. If several sources or correspondence claims contribute, can each receiving claim be traced to those sources and the rule that licenses it?
 5. Is the source merely pointed at, was it actually used, are the rewritten claims recoverable from it, and is the result admissible for the intended use?
-6. If any answer is doubtful, is the problem a missing source or condition, a repairable preservation defect, or an actual changed claim needing another pattern?
+6. If any answer is doubtful, is the problem a missing source or condition, a repairable preservation defect, or a changed claim needing another pattern?
 
 If omissions, softening, or filtering are admissible only because the published result is coarsened, tied to narrower admissible use, non-admissible for downstream use, and tied to source-bearing return, the case has crossed out of ordinary conservative retextualization even if the prose still looks like a summary. Use `A.6.3.CSC Controlled Semantic Coarsening` for that source-to-rendering relation.
 
-Here, **source-bearing return** means returning to the source-bearing content. First identify any missing source or condition and repair and recheck a preservation defect within CR when the intended restatement can be restored. A **changed-claim exit** applies when the attempted claim really becomes explanation, representation shift, retargeting, gate, evidence, Work, assurance, or Bridge use: name that claim and use the pattern that defines, constrains, or tests it. Resolve the exact predicate or defining `ClaimGraph` only when the current claim or a named later use depends on that rule edition. A coarsened textual slice may need both source-bearing return and a changed-claim exit.
+Here, **source-bearing return** means returning to the source-bearing content. First identify any missing source or condition and repair and recheck a preservation defect within CR when the intended restatement can be restored.
+
+A **changed-claim exit** applies when the attempted claim becomes explanation, representation shift, retargeting, gate, evidence, Work, assurance, or Bridge use: name that claim and use the pattern that defines, constrains, or tests it. Resolve the predicate or defining `ClaimGraph` only when the current claim or a named later use depends on that rule edition. A coarsened textual slice may need both source-bearing return and a changed-claim exit.
 
 Only after these questions are answered does a fuller review record usually become worth writing.
 
@@ -105,7 +109,7 @@ Follow **E.14’s working-model-first discipline**: an ordinary report, summary,
 - that the EntityOfConcern resolved by each side's `entityOfConcernRef` remains the same;
 - whether the case is direct or correspondence-mediated when that is not obvious;
 - what omissions or source-loss modes matter for the reader;
-- any changed claim needing another pattern, when that question actually arises.
+- any changed claim needing another pattern, when that question arises.
 
 **Explicit review record (when fuller review is needed).** Include or inherit the fields needed to inspect the material preservation, correspondence, source-use or downstream-use question. Assurance, policy and cross-context cases often make such questions consequential. The record may inherit pattern ids and pinned metadata instead of restating them inline. Select only the applicable groups:
 - transform relation (`patternSpecializationRef = A.6.3 specialization`, `relationFunctionClaimRef`, `sourcePublicationOrRecordForm`, `targetPublicationOrRecordForm`, `changeTargetRef`);
@@ -137,13 +141,13 @@ Default admissibility for ordinary entityOfConcernRef-preserving textual cases:
 - identify those relations and the supporting claims; when a reference to their describing episteme is needed, local `CorrespondenceModelRef` designates that episteme under A.6.3:4.5, without introducing a U-kind;
 - every receiving assertion remains supported by the named sources and admitted correspondence claims, with the same EntityOfConcern and declared material loss.
 
-Cross-language translation is not automatically direct. If the translation depends on declared correspondence, reference-scheme mediation, or bounded equivalence notes, it must be treated as correspondence-mediated rather than disguised direct rewriting.
+Cross-language translation is not automatically direct. If the translation depends on declared correspondence, reference-scheme mediation, or bounded equivalence notes, it must be treated as correspondence-mediated.
 
 #### A.6.3.CR:4.4.a - Recurring same-entity textual moves
 
 Examples of textual moves that can preserve the same EntityOfConcern include:
 - **Register shift** — a technical statement is rewritten into plainer engineer-manager prose without changing what is being said about the same entity.
-- **Summary or filtered restatement** — a source note is shortened or focused on one declared slice, with omissions stated rather than hidden.
+- **Summary or filtered restatement** — a source note is shortened or focused on one declared slice, with omissions stated.
 - **Cross-language restatement** — the same source claim is restated in another natural language while the same source tether and same-entity line remain explicit.
 - **Correspondence-mediated textual synthesis** — one text combines supported claims through identified relations among the sources; any separate Bridge or substitution claim keeps its own conditions.
 
@@ -161,7 +165,11 @@ State omissions, foregrounding and source-loss modes that affect interpretation 
 
 ##### A.6.3.CR:4.5.c. - Authority and changed-claim boundary
 
-A case reviewed under this pattern stays about the same entity and remains an episteme-to-episteme textual rewrite. It does not establish explanation faithfulness, an F.9 Bridge or bounded-use suitability, retargeting, current reliance, authorization, or actual receiving use. If the rewrite becomes explanatory, Bridge-bearing, gate-bearing, or world-facing, state the attempted claim and use the pattern that defines, constrains, or tests it. Use F.9 for a semantic Bridge between two exact F.17 local senses or a proposed bounded use of that Bridge. Take a current reliance question to triggered A.10 or B.3 and authorization to the pattern that directly constrains the receiving act. For an asserted occurrence, first recover the actual object or occurrence under its direct obtaining or admission rule, then cite the evidence on which the assertion relies. A precise dated Work claim needs A.13 and independent A.15.1 admission; add F.6 only for precise assignment-bound attribution. Do not create those records when their branches are not live.
+A case reviewed under this pattern stays about the same entity and remains an episteme-to-episteme textual rewrite. It does not establish explanation faithfulness, an F.9 Bridge or bounded-use suitability, retargeting, current reliance, authorization, or actual receiving use. If the rewrite becomes explanatory, Bridge-bearing, gate-bearing, or world-facing, state the attempted claim and use the pattern that defines, constrains, or tests it.
+
+Use F.9 for a semantic Bridge between two F.17 local senses or a proposed bounded use of that Bridge. Take a current reliance question to triggered A.10 or B.3 and authorization to the pattern that directly constrains the receiving act.
+
+For an asserted occurrence, first recover the object or occurrence under its direct obtaining or admission rule, then cite the evidence on which the assertion relies. A dated Work claim needs A.13 and independent A.15.1 admission; add F.6 only for precise assignment-bound attribution. Do not create those records when their branches are not live.
 
 ##### A.6.3.CR:4.5.d. - Composition and reopen rule
 
@@ -173,11 +181,11 @@ A correspondence claim used by the rewrite and a claim that the result suits a r
 
 ##### A.6.3.CR:4.5.f. - Local conservativity witness for borderline textual cases
 
-For borderline textual rewrites, the user treats the case as conservative only while each point below remains visibly preserved or its loss is declared and admissible for the stated use. A missing basis or repairable defect follows the repair route in §4.2.b; an actual changed claim or use follows the pattern that defines, constrains, or tests it.
+For borderline textual rewrites, the user treats the case as conservative only while each point below remains visibly preserved or its loss is declared and admissible for the stated use. A missing basis or repairable defect follows the repair route in §4.2.b; a changed claim or use follows the pattern that defines, constrains, or tests it.
 - **Modality and force.** A rewrite may not silently turn possibility, uncertainty, permission, obligation, recommendation, decision status, bounded scope, temporal window, or hypothesis language into a wider commitment.
 - **Caveats and qualifications.** A rewrite may not quietly remove conditions, exception notes, uncertainty markers, or temporal qualifiers that still matter for interpreting the same source.
 - **Reliability assessment.** Cleaner prose, better ordering, or manager-facing polish may not silently raise confidence, warrant claim, or readiness for action.
-- **Bridge and receiving-use boundary.** Same-entity textual fluency may not establish a semantic Bridge between local senses, bounded-use suitability, current reliance, authorization, or a comparative-review occurrence. Open only the F.9, A.10 or B.3, authorization, or occurrence branch that the actual later use needs; recover an asserted occurrence under its direct obtaining or admission rule.
+- **Bridge and receiving-use boundary.** Same-entity textual fluency may not establish a semantic Bridge between local senses, bounded-use suitability, current reliance, authorization, or a comparative-review occurrence. Open only the F.9, A.10 or B.3, authorization, or occurrence branch that the later use needs; recover an asserted occurrence under its direct obtaining or admission rule.
 - **Alternative preservation.** A rewrite may not collapse open alternatives, rival hypotheses, or declared plurality into one apparently settled interpretation unless the loss is stated and still admissible under this pattern.
 
 This witness is local to `ConservativeRetextualization`. It does not replace the broader conservativity invariants of `A.6.3`; it makes them inspectable for textual rewrites where fluent prose can otherwise hide strengthening.

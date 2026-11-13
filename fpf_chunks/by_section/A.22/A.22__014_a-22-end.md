@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.22"
-pattern_title: "Structure and Structural Views (STRUCT-CAL)"
+pattern_title: "Structure and Structural Views"
 section_id: "A.22:End"
 section_title: "A.22:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__014_a-22-end.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.22 — Structure and Structural Views (STRUCT-CAL)"
+  - "A.22 — Structure and Structural Views"
   - "A.22:End — A.22:End"
-line_start: 40611
-line_end: 40612
+line_start: 42219
+line_end: 42220
 dependencies:
   - "A.1"
   - "A.1.1"

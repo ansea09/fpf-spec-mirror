@@ -6,12 +6,12 @@ section_id: "A.2.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__007_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.2.5 — SystemRoleAssignmentStateRelation - Assignment-State Recognition for Work Admission"
   - "A.2.5:4 — Solution"
-line_start: 6406
-line_end: 6503
+line_start: 6702
+line_end: 6805
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -49,15 +49,17 @@ This pattern defines the `RelationSignature` for `SystemRoleAssignmentStateRelat
 | `SystemRoleAssignmentSlot` | `U.SystemRoleAssignment` | `U.RelationRef` constrained to `U.SystemRoleAssignment` | The exact assignment occurrence being evaluated; its declared species remains recoverable. |
 | `StatePredicateSlot` | `SystemRoleAssignmentStatePredicate` | `ByValue` | The exact predicate value identified under section 0.1. |
 
-These are the only two generic participants. `SystemRoleAssignmentStateRelation` obtains exactly while the assignment obtains and the fixed by-value predicate is true under its temporal reading. Its actual extent is the maximal continuous interval of that obtaining. An affirmative assertion or occurrence description may state the known extent as `systemRoleAssignmentStateExtent` only for an independently established occurrence; a receiving evaluation may state a separate `declaredSystemRoleAssignmentStateEvaluationWindow`. Neither temporal value, assertion polarity, reliance posture, taxonomy episteme, reference scheme, bridge, nor model-use structure is another relation participant.
+These are the only two generic participants. `SystemRoleAssignmentStateRelation` obtains exactly while the assignment obtains and the fixed by-value predicate is true under its temporal reading. Its actual extent is the maximal continuous interval of that obtaining.
 
-A relied-on assertion uses a direct evidence-use relation. Another world-side occurrence affects predicate truth only when an exact truth-condition clause cites that occurrence through its subject pattern.
+An affirmative assertion or occurrence description may state the known extent as `systemRoleAssignmentStateExtent` only for an independently established occurrence; a receiving evaluation may state a separate `declaredSystemRoleAssignmentStateEvaluationWindow`. Neither temporal value, assertion polarity, reliance posture, taxonomy episteme, reference scheme, bridge, nor model-use structure is another relation participant.
+
+A relied-on assertion uses a direct evidence-use relation. Another world-side occurrence affects predicate truth only when a truth-condition clause cites that occurrence through its subject pattern.
 
 #### A.2.5:4.2 - Predicate Meaning and Semantic Basis
 
 One `SystemRoleAssignmentStatePredicate` value names:
 
-- the exact local system-role kind for whose assignment species the predicate is defined;
+- the local system-role kind for whose assignment species the predicate is defined;
 - normalized truth-condition ClaimGraph clauses, each naming its governed quality or relation, actual participants, and subject pattern;
 - the temporal reading, such as truth at an instant, throughout a receiving-use window, or for a declared tolerated portion of that window;
 - applicability conditions; and
@@ -65,9 +67,9 @@ One `SystemRoleAssignmentStatePredicate` value names:
 
 This content defines one predicate value. The direct qualities and relations keep their own kinds and subject patterns.
 
-Predicates need not be mutually exclusive. `Calibrated`, `Synchronized`, and `InRange` can hold simultaneously; `InspectionReady` may be a conjunction over them. Use an exclusive state configuration only when the subject-domain model actually needs one.
+Predicates need not be mutually exclusive. `Calibrated`, `Synchronized`, and `InRange` can hold simultaneously; `InspectionReady` may be a conjunction over them. Use an exclusive state configuration only when the subject-domain model needs one.
 
-A shared label does not establish shared meaning. Cross-context reuse needs the same predicate identity or an explicit comparison or bridge stating which truth and admission effects are preserved. A bridge or scheme enters the predicate's semantic basis only when the predicate clauses really depend on it.
+A shared label does not establish shared meaning. Cross-context reuse needs the same predicate identity or an explicit comparison or bridge stating which truth and admission effects are preserved. A bridge or scheme enters the predicate's semantic basis only when the predicate clauses depend on it.
 
 #### A.2.5:4.3 - Occurrence Identity and Repeated Episodes
 
@@ -88,7 +90,11 @@ For a relied-on state claim, keep this order:
 5. use `A.2.4` to state the evidence-use relation. When bounded reliance needs a judgement, obtain or reuse it under `A.10` or the directly governing evaluation pattern; add fuller source/provenance detail only when the use requires it.
 6. let the direct consumer apply the supported assertion under its own subject pattern.
 
-When the account makes a claim about a particular dated evaluation Work, recover the evaluator System through A.13 and let A.15.1 independently admit that evaluation `W_eval : U.Work`. Add F.6 `performedUnderAssignment(W_eval, RA_eval)` through the same obtaining A.13 assignment only when this account or its receiving use expressly consumes precise assignment-bound attribution; F.6 identifies neither assignment nor performer, and missing or failed attribution alone leaves independently admitted evaluation Work intact. Recheck any admission premise invalidated by the same finding and its dependent conclusions under A.15.1. A separately constituted evaluation result is a `C.2.1` episteme whose ClaimGraph states the judgment about the assignment or established occurrence. The evaluation and receiving use add no participants to the state relation: its participants remain the tested assignment and its predicate, and occurrence identity still follows §4.3.
+When the account makes a claim about a particular dated evaluation Work, recover the evaluator System through A.13 and let A.15.1 independently admit that evaluation `W_eval : U.Work`.
+
+Add F.6 `performedUnderAssignment(W_eval, RA_eval)` through the same obtaining A.13 assignment only when this account or its receiving use expressly consumes precise assignment-bound attribution; F.6 identifies neither assignment nor performer, and missing or failed attribution alone leaves independently admitted evaluation Work intact. Recheck any admission premise invalidated by the same finding and its dependent conclusions under A.15.1.
+
+A separately constituted evaluation result is a `C.2.1` episteme whose ClaimGraph states the judgment about the assignment or established occurrence. The evaluation and receiving use add no participants to the state relation: its participants remain the tested assignment and its predicate, and occurrence identity still follows §4.3.
 
 The actual state extent, target evaluation window, and evidence-relevance interval answer different questions. When evidence no longer supports the receiving use, reconsider reliance without retroactively rewriting an earlier world-side occurrence.
 
@@ -122,11 +128,11 @@ Use statecharts or state machines when mutually exclusive configurations, orthog
 
 A change arrow represents a proposed or observed change in predicate truth; it is not the world-side change by form. Recover the exact changed object or relation, then use the direct pattern governing that change. Use the Method description for any prescribed Method order.
 
-When the model needs continuous coordinates rather than discrete labels, use `A.19` for the characteristic space and let the by-value state predicate select a region, band, ordering condition, or other exact condition. Measurement and evaluation stay with `C.16` and their direct patterns.
+When the model needs continuous coordinates rather than discrete labels, use `A.19` for the characteristic space and let the by-value state predicate select a region, band, ordering condition, or other condition. Measurement and evaluation stay with `C.16` and their direct patterns.
 
 #### A.2.5:4.8 - Semantic Basis and Receiving-Use Qualification
 
 Use directly governed truth-condition clauses when they suffice for the state claim.
 
-When a `KindSignature`, reference scheme, bridge, or `BoundedModelUseStructure` changes the meaning of a predicate clause, include its exact edition in `SystemRoleAssignmentStatePredicate` semantic basis and therefore in predicate identity. When it changes only how a separate receiving assertion, comparison, or Work use presents or consumes an unchanged predicate, cite it in that receiving use instead. The generic relation signature remains the two-participant declaration in §4.1.
+When a `KindSignature`, reference scheme, bridge, or `BoundedModelUseStructure` changes the meaning of a predicate clause, include its edition in `SystemRoleAssignmentStatePredicate` semantic basis and therefore in predicate identity. When it changes only how a separate receiving assertion, comparison, or Work use presents or consumes an unchanged predicate, cite it in that receiving use instead. The generic relation signature remains the two-participant declaration in §4.1.
 

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.10.MOVE"
-pattern_title: "Move, Readiness and Trajectory Wording Precision Restoration"
+pattern_title: "Clarify Wording About Moves, Readiness and Trajectories"
 section_id: "E.10.MOVE:End"
 section_title: "E.10.MOVE:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.MOVE/E.10.MOVE__014_e-10-move-end.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "E.10.MOVE — Move, Readiness and Trajectory Wording Precision Restoration"
+  - "E.10.MOVE — Clarify Wording About Moves, Readiness and Trajectories"
   - "E.10.MOVE:End — E.10.MOVE:End"
-line_start: 101544
-line_end: 101545
+line_start: 107255
+line_end: 107256
 dependencies:
   - "A.1.STM"
   - "A.10"

@@ -6,12 +6,12 @@ section_id: "G.4:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.4/G.4__007_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.4 — CAL Authoring for a CG-Frame: Operators, Acceptance Clauses, Evidence Wiring"
   - "G.4:6 — Bias-Annotation"
-line_start: 129005
-line_end: 129015
+line_start: 137057
+line_end: 137067
 dependencies:
   - "A.10"
   - "A.13"
@@ -58,12 +58,12 @@ keywords:
 
 ### G.4:6 - Bias-Annotation
 
-CAL is where “what counts as acceptable” is encoded. Typical bias vectors include:
+CAL clauses define what counts as acceptable. The choices below can bias that judgement:
 
 * threshold‑selection bias (arbitrary floors masquerading as natural laws),
 * measurement bias amplified by illegitimate arithmetic or hidden scalarization,
 * survivorship bias in Worked‑Examples and probe telemetry,
 * Goodhart pressures when report‑only telemetry is accidentally treated as dominance.
 
-The pattern mitigates these by requiring typed acceptance clauses, explicit policy pins, and an auditable ledger of proofs and justifications, while keeping cross-sense and ReferencePlane reuse explicit and placing penalties only in the explicit assurance lane.
+The pattern mitigates these by requiring typed acceptance clauses, explicit policy pins, and an auditable ledger of proofs and justifications, while identifying cross-sense and ReferencePlane reuse. For a numerical assurance penalty, the model for the receiving use determines which results it affects.
 

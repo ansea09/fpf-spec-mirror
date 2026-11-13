@@ -6,12 +6,12 @@ section_id: "E.17.ID.CR:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.ID.CR/E.17.ID.CR__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.17.ID.CR — Compare Sources Within a Shared Review Frame (ComparativeReviewUnit)"
   - "E.17.ID.CR:intro — Intro"
-line_start: 108521
-line_end: 108557
+line_start: 115202
+line_end: 115238
 dependencies:
   - "A.15"
   - "A.15.2"
@@ -45,11 +45,11 @@ keywords:
 
 **Plain-name.** Bounded source comparison under a shared review frame.
 
-**Use this when.** Use this pattern when a team needs one small comparison note, comparison sheet, or guided review aid over already available source epistemes or source publications. The unit should make one bounded contrast or a small set of contrast rows inspectable while the shared review frame stays visible and downstream claim or effect remains outside.
+**Use this when.** A team needs a small note, comparison sheet, or guided aid to compare available source epistemes or source publications. The unit should make one bounded contrast or a small set of contrast rows available for inspection, keep their shared review frame visible, and leave downstream claims and effects to the work that establishes them.
 
-**First-minute working moment.** A team has two or more source-pinned notes, sheets, views, or review aids on the table. They need one honest comparison unit: two design options for one release, two methods for one task family, two vendor bulletins for one control scope, two research syntheses for one uncertainty question, or two programme strategies for one initiative. The job is not yet action selection, approval, ontology repair, or wider work-process control. It is to compare without pretending that the comparison note already became a decision.
+**First-minute working moment.** A team has two or more source-pinned notes, sheets, views, or review aids on the table. They need one comparison unit for their review: two design options for one release, two methods for one task family, two vendor bulletins for one control scope, two research syntheses for one uncertainty question, or two programme strategies for one initiative. The note compares the sources. Action selection, approval, ontology repair and wider control of the work remain separate. A comparison alone cannot decide among the options.
 
-**First output.** One bounded comparison whose ordinary minimum is recoverable in the unit or its immediate review context. A source-linked paragraph or small comparison table may suffice. The card below is a recovery aid, not an additional required publication; include a blocked-use or boundary field only when it changes this comparison’s interpretation or use:
+**First output.** One bounded comparison whose minimum content for ordinary use can be recovered in the unit or its immediate review context. A source-linked paragraph or small comparison table may suffice. The card below helps recover that content. The card can stay in the review context unless a receiving contract requires its separate publication. Include a blocked-use or boundary field only when it changes this comparison’s interpretation or use:
 
 ```text
 ComparativeReviewUnit:
@@ -64,13 +64,13 @@ ComparativeReviewUnit:
 
 **What goes wrong if missed.** A comparison unit is either dismissed as harmless prose or overread as equivalence, action selection, gate pressure, release approval, work or reliance guidance, or adjudication authority. The team then argues about hidden authority instead of inspecting the bounded contrast.
 
-**What this buys in practice.** The team can compare already available sources, inspect one bounded contrast or a small comparison sheet, and use the boundary trigger to name any crossed claim and the pattern that governs that claim.
+**What this buys in practice.** The team can compare the available sources, inspect one bounded contrast or a small comparison sheet, and identify a claim that goes beyond the comparison and the pattern that governs it when the boundary trigger fires.
 
 **Not this pattern when.** If the primary question is no longer the bounded comparison unit or its shared review frame, name the crossed claim and apply the governing pattern for that claim: source transformation, bridge, explanation face, prompt or action selection, ontology or `EntityOfConcern` change, decision, work or reliance, gate, assurance, adjudication, or reduced-use source rendering.
 
 **Quick working-fit check.**
-1. Am I working over the comparative review unit itself?
-2. Does the shared review frame stay preserved, with compared alternatives still distinct when they are distinct?
+1. Is the comparative review unit my work object?
+2. Does the comparison preserve the shared review frame and keep distinct alternatives separate?
 3. Is one bounded contrast or small row set being made visible?
 4. Is the downstream claim or effect still outside?
 

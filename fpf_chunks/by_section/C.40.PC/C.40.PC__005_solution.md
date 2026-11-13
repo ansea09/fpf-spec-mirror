@@ -6,12 +6,12 @@ section_id: "C.40.PC:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.PC/C.40.PC__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.40.PC — Construct a Worthwhile Problem and Proposed Contribution"
   - "C.40.PC:4 — Solution"
-line_start: 87239
-line_end: 87305
+line_start: 91473
+line_end: 91539
 dependencies:
   - "A.15.9"
   - "A.2.3"
@@ -44,7 +44,7 @@ For example:
 
 - **Problem:** an acceptance engineer cannot recover which submitted claims lack a sufficient evidence basis before the handoff review.
 - **Proposed contribution:** an inspectable claim-to-evidence account that identifies supported claims, missing premises, and qualification limits in the permitted source set.
-- **Acceptance expectation:** the receiver can trace each entry to its source and identify unresolved claims under the applicable review criteria.
+- **Acceptance expectation:** the receiver can trace each entry to its source and identify unresolved claims under the review criteria.
 
 Faster approval is a different benefit claim; automatic approval is a different contribution and authority question. Preserve those differences if they become live rather than silently extending the proposal.
 
@@ -60,26 +60,26 @@ Return the strongest supported statement:
 
 - a worthwhile problem for this receiving use under stated conditions;
 - an attributed or contested value claim requiring a named resolution;
-- an unconfirmed problem hypothesis with the exact confirming question; or
+- an unconfirmed problem hypothesis with the confirming question; or
 - rejection or revision of the lead because no worthwhile problem is supported at the chosen scale.
 
-A receiver's desire alone does not defeat a binding protection. Conversely, missing feasibility does not disprove the problem: retain the worthwhile problem and name the unresolved way of addressing it. For a comparative claim such as “worth the transition cost,” obtain the applicable comparison rather than treating this inquiry as its proof.
+A receiver's desire alone does not defeat a binding protection. Conversely, missing feasibility does not disprove the problem: retain the worthwhile problem and name the unresolved way of addressing it. For a comparative claim such as “worth the transition cost,” obtain the comparison rather than treating this inquiry as its proof.
 
 #### C.40.PC:4.4 - State the proposed contribution and its acceptance expectation
 
-Say what could be supplied, for which receiving use, under what conditions, with what exclusions, and what the receiver could inspect to determine whether that contribution was supplied as proposed. Keep the proposed result, the acceptance criterion, and any actual acceptance separate.
+Say what could be supplied, for which receiving use, under what conditions, with what exclusions, and what the receiver could inspect to determine whether that contribution was supplied as proposed. Keep the proposed result, the acceptance criterion, and any acceptance separate.
 
-Use [A.2.3](https://github.com/ailev/FPF/blob/main/FPF-Spec.md) when a promise's content must be identified or relied on. Read an existing provider promise from its actual source; mark a newly constructed promise as proposed. Neither description establishes a provider commitment, capability, access, provision, fulfilment, or achieved benefit.
+Use [A.2.3](https://github.com/ailev/FPF/blob/main/FPF-Spec.md) when a promise's content must be identified or relied on. Read an existing provider promise from its source; mark a newly constructed promise as proposed. Neither description establishes a provider commitment, capability, access, provision, fulfilment, or achieved benefit.
 
-A research contribution can be a criticism, discriminating experiment, reproducible comparison, or clarification of an unresolved claim. It need not be sold, but its intended epistemic result and evidence standard must still be inspectable. Do not impose a commercial service model on that use.
+A research contribution can be a criticism, discriminating experiment, reproducible comparison, or clarification of an unresolved claim. It need not be sold, but its intended epistemic result and evidence standard must be inspectable. Do not impose a commercial service model on that use.
 
 #### C.40.PC:4.5 - Link the contribution to the problem without assuming success
 
 Explain why the proposed result could address the missing receiving result. Mark that connection as supported, conditional, disputed, or hypothetical according to its evidence. Identify what a plausible contrary answer would change.
 
-When a consequential uncertainty remains, ask a discriminating question whose attainable answer warrants the inquiry. “Does the reviewer need a source-traceable account of unsupported claims, or is the delay actually caused by unavailable acceptance authority?” can redirect the contribution. “Would you like better AI?” cannot distinguish the problem from the preferred solution.
+When a consequential uncertainty remains, ask a discriminating question whose attainable answer warrants the inquiry. “Does the reviewer need a source-traceable account of unsupported claims, or is the delay caused by unavailable acceptance authority?” can redirect the contribution. “Would you like better AI?” cannot distinguish the problem from the preferred solution.
 
-Use existing adequate results before requesting new Work. When another practice must supply an answer, use [A.15.9](https://github.com/ailev/FPF/blob/main/FPF-Spec.md) for the bounded result request and reliance boundary. The supplying practice answers its own substantive question. A proposed interview, measurement, or experiment still needs the permissions and conditions applicable to that activity.
+Use existing adequate results before requesting new Work. When another practice must supply an answer, use [A.15.9](https://github.com/ailev/FPF/blob/main/FPF-Spec.md) for the bounded result request and reliance boundary. The supplying practice answers its own substantive question. A proposed interview, measurement, or experiment needs the permissions and conditions applicable to that activity.
 
 #### C.40.PC:4.6 - Return the account at the strength it supports
 
@@ -87,7 +87,7 @@ Ordinary prose is enough when the receiver can recover the situation, worthwhile
 
 > The case's acceptance engineer reports that unsupported claims cannot be recovered reliably from the incoming package, and the stipulated review records support that concern. We propose a source-traceable claim-to-evidence account, not approval; the next question is whether the available records and review criteria cover a representative package without breaching confidentiality.
 
-Use `C.40.DC` when the contribution premise is adequate and materially different directions need construction. Return to `C.40.NU` when the lead must change. Stop with a problem hypothesis or rejection when that is the truthful result. If an adequate direction already exists, proceed directly to the missing reachability, comparison, or advising result; no mandatory cycle through earlier PatternIDs follows.
+Use `C.40.DC` when the contribution premise is adequate and materially different directions need construction. Return to `C.40.NU` when the lead must change. Stop when the result is a problem hypothesis or rejection. If an adequate direction already exists, proceed to the missing reachability, comparison, or advising result; no mandatory cycle through earlier PatternIDs follows.
 
 Reopen the affected problem or contribution under `C.40.RQ` when the receiving use, value evidence, acceptance expectation, source, horizon, or protected condition changes. A narrower permitted source set can narrow one proposed contribution while leaving the receiver's problem and another direction intact.
 

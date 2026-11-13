@@ -6,12 +6,12 @@ section_id: "B.5.1:3"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.1/B.5.1__004_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.5.1 — Coordinate Development States: Explore → Shape → Evidence → Operate"
   - "B.5.1:3 — Solution"
-line_start: 49533
-line_end: 49553
+line_start: 51589
+line_end: 51611
 dependencies:
   - "B.3.3"
   - "B.4"
@@ -22,7 +22,7 @@ keywords:
 
 ### B.5.1:3 - **Solution**
 
-Use the four development states to name the current focus for the episteme or system under development. For an intended transition, identify the design, evidence and operational conditions that actually need to hold. The Canonical Reasoning Cycle (B.5) can supply the relevant reasoning contributions; the state names do not prescribe an assurance ladder.
+Use the four development states to name the current focus for the episteme or system under development. For an intended transition, identify the design, evidence and operational conditions that need to hold. The Canonical Reasoning Cycle (B.5) can supply the reasoning contributions; the state names do not prescribe an assurance ladder.
 
 **The Four Development States:**
 
@@ -30,14 +30,16 @@ Use the four development states to name the current focus for the episteme or sy
 | :--- | :--- | :--- | :--- | :--- |
 | **1. Exploration** | **Generating possibilities.** Frame the problem and compare candidate explanations or designs. | "We are looking for a plausible direction and keeping the serious alternatives visible." | **Candidate construction; abduction for explanatory conjectures** (B.5.2) | A qualified conjecture may be sufficient for the present question. |
 | **2. Shaping** | **Defining a coherent form.** Develop the selected direction and derive its relevant consequences. | "We are making the design and its implications clear enough for the next intended use." | **Construction and deduction** | Logical support concerns the consequence under its premises. A coherent design alone does not establish actual performance. |
-| **3. Evidence** | **Evaluating the relevant claims.** Use applicable empirical or formal results and obtain missing evidence when it is required and feasible. | "We are deciding whether the needed claims are supported in the intended conditions." | **Empirical evaluation and applicable formal reasoning** | Relevant existing support can be sufficient. |
-| **4. Operation** | **Using in a live environment.** Begin or continue the intended operation and monitor what its actual conditions require. | "The system or episteme is in use, with the required operational conditions in place." | **Reasoning about operating observations and needed changes** | Readiness and continuing use depend on the actual qualification, protective and authority conditions. |
+| **3. Evidence** | **Evaluating the relevant claims.** Use applicable empirical or formal results and obtain missing evidence when it is required and feasible. | "We are deciding whether the needed claims are supported in the intended conditions." | **Empirical evaluation and formal reasoning** | Existing support can be sufficient. |
+| **4. Operation** | **Using in a live environment.** Begin or continue the intended operation and monitor what its conditions require. | "The system or episteme is in use, with the required operational conditions in place." | **Reasoning about operating observations and needed changes** | Readiness and continuing use depend on the qualification, protective and authority conditions. |
 
-B.3.3 governs any assurance conclusion about the particular claim and receiving use. Retain an applicable domain profile, proof obligation or validation requirement where that use requires it. Existing results count only when they cover the present conditions; a missing required result can block the intended transition. A proposal to improve an excessive requirement does not waive a currently binding condition.
+B.3.3 governs any assurance conclusion about the claim and receiving use. Retain a domain profile, proof obligation or validation requirement where that use requires it. Existing results count only when they cover the conditions; a missing required result can block the intended transition. A proposal to improve an excessive requirement does not waive a binding condition.
 
-> **Didactic Note for Managers: Aligning States with Your Project Plan**
+> **For Managers: Aligning States with Your Project Plan**
 >
 > Exploration can describe discovery, Shaping design, Evidence evaluation, and Operation live use and maintenance. Name the subject and the intended transition so that the team can tell what remains to be done. Completing a useful answer during Exploration does not mean that the developed system has entered Operation, nor that the answer must wait for every later project state.
 
-**Worked case.** A service team completes B.5.2's latency-spike inquiry with a qualified backup-interaction conjecture and live rivals. The possible causal probe is unavailable, so the explanatory result remains limited. An existing operational qualification separately supports a permitted diversion to a spare instance for this traffic and interval. The team can use that basis for the diversion without declaring the explanation validated or advancing a new design through Evidence. If the team instead proposes a new deployment whose required load test is missing, that deployment remains blocked; the useful conjecture does not supply the missing qualification.
+**Worked case.** A service team completes B.5.2's latency-spike inquiry with a qualified backup-interaction conjecture and live rivals. The possible causal probe is unavailable, so the explanatory result remains limited. An existing operational qualification supports a permitted diversion to a spare instance for this traffic and interval. The team can use that basis for the diversion without declaring the explanation validated or advancing a new design through Evidence.
+
+If the team instead proposes a new deployment whose required load test is missing, that deployment remains blocked; the useful conjecture does not supply the missing qualification.
 

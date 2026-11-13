@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.14"
-pattern_title: "Advanced Mereology: Components, Portions, Aspects & Phases"
+pattern_title: "Mereology: Components, Portions, Aspects & Phases"
 section_id: "A.14:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.14/A.14__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.14 — Advanced Mereology: Components, Portions, Aspects & Phases"
+  - "A.14 — Mereology: Components, Portions, Aspects & Phases"
   - "A.14:intro — Intro"
-line_start: 28357
-line_end: 28370
+line_start: 29415
+line_end: 29428
 dependencies:
   - "A.1"
   - "A.15"
@@ -52,7 +52,7 @@ keywords:
   - "portion"
 ---
 
-## A.14 - Advanced Mereology: Components, Portions, Aspects & Phases
+## A.14 - Mereology: Components, Portions, Aspects & Phases
 > **Type:** Kernel mereology and part-whole relation discipline pattern
 > **Status:** Stable
 

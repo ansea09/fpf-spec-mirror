@@ -6,12 +6,12 @@ section_id: "C.32.MLAO:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MLAO/C.32.MLAO__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.32.MLAO — Architecture Candidates to Reduce Cross-Scope Residuals"
   - "C.32.MLAO:3 — Forces"
-line_start: 78538
-line_end: 78547
+line_start: 82367
+line_end: 82376
 dependencies:
   - "A.10"
   - "A.19.CPM"
@@ -57,7 +57,7 @@ keywords:
 |---|---|
 | Local fit | A candidate may help one scope while harming another. |
 | Optimization language | Objective, residual, front, and matrix language sounds decisive before the claim is typed. |
-| Level and scope recognition | Name the affected scopes clearly. Use declared refs when the receiving claim requires them and `C.30.STRAT` when ordinary wording leaves the relevant distinction unresolved. |
+| Level and scope recognition | Name the affected scopes. Use declared refs when the receiving claim requires them and `C.30.STRAT` when ordinary wording leaves the relevant distinction unresolved. |
 | Candidate action | When performing repair work, the practitioner must use the residual triage to prepare candidate changes. |
 | New burden | A residual-reducing candidate can create another cost or loss; inspect the affected scopes rather than presuming either losslessness or a positive new burden. |
 

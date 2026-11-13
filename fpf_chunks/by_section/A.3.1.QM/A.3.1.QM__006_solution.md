@@ -6,12 +6,12 @@ section_id: "A.3.1.QM:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.QM/A.3.1.QM__006_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.3.1.QM — Qualify a Method for Its Intended Contribution"
   - "A.3.1.QM:4 — Solution"
-line_start: 10290
-line_end: 10320
+line_start: 10691
+line_end: 10721
 dependencies:
   - "A.3.1"
   - "A.3.1.CC"
@@ -27,7 +27,7 @@ keywords:
 
 A.3.1 decides Method identity. This Method uses that result, or an explicitly unresolved candidate, to qualify one contribution for a receiving use. It does not repeat Method admission or infer the adequacy of a combined arrangement from the qualification of its participants.
 
-Qualify one subject at a time against the bounded receiving use. Preserve status, expose unsupported conditions, and route only genuinely combined questions to C.32.MWA.PP.
+Qualify one subject at a time against the bounded receiving use. Preserve status, expose unsupported conditions, and route only combined questions to C.32.MWA.PP.
 
 #### A.3.1.QM:4.1 - Pattern-Use Unfolding
 
@@ -36,7 +36,7 @@ Qualify one subject at a time against the bounded receiving use. Preserve status
 3. **Recover the individual contribution.** Name the input, result or preserved condition, procedure or invariant as far as known, applicability, and important source meaning. Do not credit the subject with another Method's result.
 4. **Check attributable conditions.** Inspect the conditions relevant to this contribution: timing and burden attributable to this subject; performer capability; support and provider access; authority or responsibility; evidence; and source or transfer limits.
 5. **Test local connections only.** Check an input/result handoff, schema correspondence, or adapter feasibility when it can be assessed independently of a whole synthesis. Record its scope and any known failure condition relevant to the receiving use.
-6. **Return the truthful branch.** An identified Method is qualified or not qualified for the bounded use. For a not-qualified result, distinguish a failed criterion from an insufficient basis to judge it. A candidate account is retained or excluded *as an account*, with unresolved identification conditions unchanged. A local connection is supported, unsupported, or unresolved.
+6. **Return the result.** An identified Method is qualified or not qualified for the bounded use. For a not-qualified result, distinguish a failed criterion from an insufficient basis to judge it. A candidate account is retained or excluded *as an account*, with unresolved identification conditions unchanged. A local connection is supported, unsupported, or unresolved.
 7. **Choose the stop.** Stop when the individual qualification or local-connection result is sufficient for the receiving decision and no whole question remains. Enter C.32.MWA.PP only when a several-structure choice can change the decision.
 
 #### A.3.1.QM:4.2 - Record the Result
@@ -52,5 +52,5 @@ Qualify one subject at a time against the bounded receiving use. Preserve status
 
 #### A.3.1.QM:4.3 - What Changes in Practice
 
-Teams can use individual qualifications without treating them as a verdict on the whole arrangement. They can reject one Method, retain a promising account without admitting it, and prove one schema mapping without calling the whole arrangement compatible. C.32.MWA.PP then receives only the genuinely combined timing, allocation, support, authority, or composition questions.
+Teams can use individual qualifications without treating them as a verdict on the whole arrangement. They can reject one Method, retain a promising account without admitting it, and prove one schema mapping without calling the whole arrangement compatible. C.32.MWA.PP then receives only the combined timing, allocation, support, authority, or composition questions.
 

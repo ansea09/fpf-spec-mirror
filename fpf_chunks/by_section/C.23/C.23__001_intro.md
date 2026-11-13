@@ -6,12 +6,12 @@ section_id: "C.23:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.23/C.23__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.23 — MethodFamily Evidence & Maturity (Method‑SoS‑LOG)"
   - "C.23:intro — Intro"
-line_start: 64350
-line_end: 64358
+line_start: 67107
+line_end: 67116
 dependencies:
   - "A.10"
   - "B.3"
@@ -43,7 +43,8 @@ keywords:
 > **Status:** Stable
 
 *LOG (logic) for deductive shells for admissibility*
-*First use expansion:* **SoS‑LOG = Science‑of‑Science LOG** (LEX short‑form discipline applied).
+
+**SoS‑LOG** means **Science‑of‑Science LOG**.
 
 **Registration boundary.** A `MethodFamily` is registered by one exact G.5 registry row and registry edition. That record names the family, its admitted A.3.1 Method members and grouping basis, and intended selector use. Establish evidence, claim scope, validity, and the decision result under their respective rules.
 

@@ -6,12 +6,12 @@ section_id: "A.6.0:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.0/A.6.0__011_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.0 — U.Signature - Reusable Law-Governed Declaration Episteme"
   - "A.6.0:10 — Rationale"
-line_start: 16616
-line_end: 16625
+line_start: 17321
+line_end: 17336
 dependencies:
   - "A.15.1"
   - "A.17"
@@ -45,7 +45,13 @@ keywords:
 
 The ontic is needed because the same reusable declaration is cited across work occurrences, publication occurrences, and representations. Treating it as only a table-shaped publication form loses identity; treating it as the declared world-side object collapses episteme and EntityOfConcern.
 
-The declaration components answer four different engineering questions. `SubjectKind`, `RangedValueKind`, and optional `ResultKind` identify the declared subject and value or result range. When slice-dependent membership is current, `SliceSet` names the addressable context slices and `ExtentRule` says how the members of the same declared kind are determined at one slice. Vocabulary supplies reusable names and, for a RelationSignature, named participant SlotSpecs; A.6.1 supplies operation arguments and results for a mechanism declaration. Laws state the reusable regularities. Applicability states where those regularities are used. Their conceptual separation is stable even when publication layout changes.
+The declaration components answer four different engineering questions. `SubjectKind`, `RangedValueKind`, and optional `ResultKind` identify the declared subject and value or result range.
+
+When slice-dependent membership is current, `SliceSet` names the addressable context slices and `ExtentRule` says how the members of the same declared kind are determined at one slice.
+
+Vocabulary supplies reusable names and, for a RelationSignature, named participant SlotSpecs; A.6.1 supplies operation arguments and results for a mechanism declaration.
+
+Laws state the reusable regularities. Applicability states where those regularities are used. Their conceptual separation is stable even when publication layout changes.
 
 `RelationSignature` is a use of `U.Signature` because it has the same episteme identity and content duties. Introducing a second root kind would duplicate those duties while leaving obtaining and occurrence identity with direct relation patterns anyway.
 

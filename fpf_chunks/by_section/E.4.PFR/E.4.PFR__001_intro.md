@@ -6,12 +6,12 @@ section_id: "E.4.PFR:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFR/E.4.PFR__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.4.PFR — Pattern-Framework Relation and Edition Discipline"
   - "E.4.PFR:intro — Intro"
-line_start: 95715
-line_end: 95732
+line_start: 100760
+line_end: 100785
 dependencies:
   - "A.10"
   - "A.6.0"
@@ -52,15 +52,23 @@ keywords:
 > **Status:** Stable
 > **Normativity:** Normative unless marked informative.
 
-**Use this when.** Use E.4.PFR when a named framework-maintenance, edition-impact, comparison, publication/dependency-repair, or refresh task needs a stable relation-specific row across patterns, framework editions, publication or access carriers, source packs, decisions, generated carriers, or quality results.
+**Use this when** a named framework-maintenance, edition-impact, comparison, publication/dependency-repair, or refresh task needs a stable row for a specific relation across patterns, framework editions, publication or access carriers, source packs, decisions, generated carriers, or quality results.
 
-**First useful move.** State the exact subject assertion in ordinary C.2.1 form: name the subject or claim, exact relation function, exact defining or constraining ClaimGraph, polarity, and the current fact or condition. Stop there unless an identified maintainer or tool consumes standardized relation form.
+**Begin with the assertion.** State the subject assertion in ordinary C.2.1 form. Name the subject or claim, identify the relation function and the ClaimGraph that defines or constrains it, and give the polarity and current fact or condition. Stop there unless an identified maintainer or tool consumes standardized relation form.
 
-**Primary working object.** One already identified subject assertion, optionally represented by one `PatternFrameworkRelationRecord@Context` for a named framework-maintenance use. The assertion, relation row, pattern description, relation kind or occurrence, framework edition, publication occurrence, form, carrier, access route, source use, Work, evidence, assurance, and currentness result remain distinct.
+**Primary object.** One already identified subject assertion, optionally represented by one `PatternFrameworkRelationRecord@Context` for a named framework-maintenance use.
 
-**Primary working reader.** A framework author or maintainer who must state one relation or edition claim now and decide whether a named maintenance use justifies a reusable row. A tool may consume that row; this alone does not make it an actor in the represented subject claim.
+The assertion, relation row, pattern description, relation kind or occurrence, framework edition, publication occurrence, form, carrier, access route, source use, Work, evidence, assurance, and currentness result remain distinct.
 
-**What this buys.** Ordinary authoring stays light, while real edition and framework-maintenance consumers can still compare relation functions, inspect compatibility and dependency effects, preserve blocked stronger readings, and reopen only affected uses.
+**Primary reader.** A framework author or maintainer who must state one relation or edition claim now and decide whether a named maintenance use justifies a reusable row. A tool may consume the row. That fact alone does not make the tool an actor in the subject claim represented by the row.
 
-**Not this pattern when.** If a readable subject assertion closes the task, use C.2.1 and stop. Use E.11.PUR for pattern-use recommendations, E.17 and E.24.PUB for publication, C.33 and C.34 for selected-structure capture and preservation, C.35 for exact-result admission to an intended architecture use, and the exact subject pattern for the direct relation. For direct source reliance or bounded source selection and synthesis, use the source route in E.4.DPF:4; use G.2 only for a broad, refreshable CG-Frame pack. E.4.PFR does not define a generic governance relation, pattern owner, mandatory relation-record layer, workflow, runtime route, API call, build dependency, or performed Work.
+Ordinary authoring stays light. Edition and framework-maintenance consumers can compare relation functions, inspect compatibility and dependency effects, preserve blocked stronger readings, and reopen only affected uses.
+
+**When to stop or use another method.** If a readable subject assertion closes the task, use C.2.1 and stop.
+
+Use E.11.PUR for pattern-use recommendations, E.17 and E.24.PUB for publication, C.33 and C.34 for selected-structure capture and preservation, C.35 for exact-result admission to an intended architecture use, and the exact subject pattern for the direct relation.
+
+For direct source reliance or bounded source selection and synthesis, use the source route in E.4.DPF:4. Use G.2 only for a broad, refreshable CG-Frame pack.
+
+E.4.PFR does not define a generic governance relation, pattern owner, mandatory relation-record layer, workflow, runtime route, API call, build dependency, or performed Work.
 

@@ -6,12 +6,12 @@ section_id: "C.40.OI:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OI/C.40.OI__011_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.40.OI — Bound an Opportunity Inquiry"
   - "C.40.OI:10 — Rationale"
-line_start: 86673
-line_end: 86678
+line_start: 90907
+line_end: 90912
 dependencies:
   - "A.15.9"
   - "B.5.PI"
@@ -27,5 +27,5 @@ keywords:
 
 The earliest reusable contribution is not generic goal setting or decision-support engagement. Opportunity construction often begins before a decision, option set, or separate adviser exists. Yet a fully unbounded discovery activity cannot distinguish useful exploration from fashion following.
 
-The selected boundary is therefore intentionally small: enough identity, use, horizon, protection, posture, and effort to choose one missing result. Characterization, opportunity search, problem construction, support configuration, reachability, portfolio retention, advising, and refresh remain separable because each changes the practitioner's action and can be entered or stopped independently.
+The selected boundary is therefore small: enough identity, use, horizon, protection, posture, and effort to choose one missing result. Characterization, opportunity search, problem construction, support configuration, reachability, portfolio retention, advising, and refresh remain separable because each changes the practitioner's action and can be entered or stopped independently.
 

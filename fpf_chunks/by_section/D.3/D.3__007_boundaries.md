@@ -6,12 +6,12 @@ section_id: "D.3:4"
 section_title: "Boundaries"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.3/D.3__007_boundaries.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "D.3 — Describe an Ethical Conflict Across Levels or Scopes"
   - "D.3:4 — Boundaries"
-line_start: 91933
-line_end: 91943
+line_start: 96427
+line_end: 96437
 dependencies:
   - "A.1"
   - "A.10"
@@ -43,7 +43,7 @@ keywords:
 | Derive the declared levels and scopes from the case. | Impose a fixed moral ladder. |
 | Connect every side's claim, affected entity, scope, value frame, consequence, and horizon. | Present flat bags of entities, values, evidence, and relations as if their connections were obvious. |
 | Keep the conflict description, the situation it describes, and its narrative, table, graph, form, carrier, and publication separate. | Treat a file or diagram as the conflict, or treat description content as proof that a direct relation obtains. |
-| Add Method, Work, assignment, classification, evidence use, agency, responsibility, publication, assurance, causal, or architecture detail only when current. | Require assurance-like apparatus before the first useful map exists. |
+| Add Method, Work, assignment, classification, evidence use, agency, responsibility, publication, assurance, causal, or architecture detail only when current. | Require assurance-like apparatus before the first map exists. |
 | Stop at an inspectable tension and next-use question. | Choose the compromise, refusal, override, or accepted residual; those are D.4 uses. |
 | Use `C.30.ILC` when an architecture residual is also current. | Route every cross-scope architecture problem to ethics. |
 

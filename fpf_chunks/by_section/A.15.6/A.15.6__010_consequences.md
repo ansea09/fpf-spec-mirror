@@ -6,12 +6,12 @@ section_id: "A.15.6:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.6/A.15.6__010_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.15.6 — Recover What Project, Process, or Case Wording Refers To"
   - "A.15.6:9 — Consequences"
-line_start: 31456
-line_end: 31465
+line_start: 32629
+line_end: 32638
 dependencies:
   - "A.1"
   - "A.1.STM"
@@ -41,11 +41,11 @@ keywords:
 
 ### A.15.6:9 - Consequences
 
-**Benefits.** Cost and completion claims can refer to one actual composite Work occurrence through their direct predicates. A responsibility assertion separately names its predicate and participants, then applies an existing or sufficient local rule; an absent required rule yields `missing-governor`. The project system-of-interest, selected project-relevant network, case subjects, system-role classifications and assignments, changed referents, produced entities, evaluations, deliveries, acceptance decisions, and downstream uses retain their own facts.
+**Benefits.** Cost and completion claims can refer to one actual composite Work occurrence through their predicates. A responsibility assertion separately names its predicate and participants, then applies an existing or sufficient local rule; an absent required rule yields `missing-governor`. The project system-of-interest, selected project-relevant network, case subjects, system-role classifications and assignments, changed referents, produced entities, evaluations, deliveries, acceptance decisions, and downstream uses retain their own facts.
 
 A team can name the temporary work, its local subject and intended result, the performing organization and the common product-use purpose without treating them as one object. It can also tell when a described System is only intended. Process evaluation can use Work observations whose A.15.1 relation states which Method was enacted, or operation-application observations supported by a declared A.6.1 operation and typed binding, without turning observed Work into a Method or structure. Case Work can close around a continuing entity, episteme edition, characteristic inquiry, relation, decision, or result while keeping any relevant downstream use outside closure.
 
 **Costs.** Practitioners must distinguish intended from performed work and recover a continuity policy when an identity ambiguity requires it. A legacy `@Project` reference may need its actual relation made explicit; descriptions with different EntitiesOfConcern need separate identities rather than one project label.
 
-**Limits.** This pattern does not supply project-management, process-management, or case-management methods. It does not decide success, acceptance, evidence strength, authority, or result semantics. It only recovers the direct FPF subject and relations those methods operate on.
+**Limits.** This pattern does not supply project-management, process-management, or case-management methods. It does not decide success, acceptance, evidence strength, authority, or result semantics. It only recovers the FPF subject and relations those methods operate on.
 

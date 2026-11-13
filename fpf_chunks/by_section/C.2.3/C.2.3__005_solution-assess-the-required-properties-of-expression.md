@@ -6,12 +6,12 @@ section_id: "C.2.3:4"
 section_title: "Solution - Assess the required properties of expression"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.3/C.2.3__005_solution-assess-the-required-properties-of-expression.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.2.3 — Formality of an Episteme"
   - "C.2.3:4 — Solution - Assess the required properties of expression"
-line_start: 53110
-line_end: 53157
+line_start: 55329
+line_end: 55382
 dependencies:
   - "A.16"
   - "A.18"
@@ -37,7 +37,7 @@ keywords:
 
 ### C.2.3:4 - Solution - Assess the required properties of expression
 
-Formality is assessed on a named expression of an episteme's content. Establish what its next use requires, recover the relevant interpretation and inferential relations, and inspect the actual expression against those requirements. Keep independent properties distinct. A shared profile makes their combination visible; a local summary is useful only when its declared criteria preserve the distinctions the receiving use needs.
+Formality is assessed on a named expression of an episteme's content. Establish what its next use requires, recover the relevant interpretation and inferential relations, and inspect the expression against those requirements. Keep independent properties distinct. A shared profile makes their combination visible; a local summary is useful only when its declared criteria preserve the distinctions the receiving use needs.
 
 #### C.2.3:4.1 - Subject and representation of the assessment
 
@@ -63,7 +63,13 @@ Compare profiles only after aligning the assessed properties, their meanings and
 
 When an order is useful, declare its domain and comparison rule. For a fixed compatible basis of independently established requirements, an expression that satisfies all requirements satisfied by another and some additional ones can dominate it under that declared rule. This does not rank the entire languages or establish a preference for every use. Preserve incomparability when different requirements are satisfied; unresolved assessment is a separate result. Use A.19:5.1.3 for an order overlay when a CharacteristicSpace is involved.
 
-A local ordinal summary is possible when its levels have nested criteria. For example, one team's specification-expression scale can require: named objects and stable terms; those conditions plus explicit acceptance predicates and their interpretation; those conditions plus expressed derivations for a specified set of obligations. The last level includes the earlier criteria by declaration. Its proof-checking evidence is still assessed separately. State the exact scale, mapping from the profile, domain and conditions before using its levels or a threshold. Another team's levels are not comparable merely because they use the same numbers.
+A local ordinal summary is possible when its levels have nested criteria. For example, one team's specification-expression scale can require:
+
+- named objects and stable terms;
+- those conditions plus explicit acceptance predicates and their interpretation;
+- those conditions plus expressed derivations for a specified set of obligations.
+
+The last level includes the earlier criteria by declaration. Its proof-checking evidence is still assessed separately. State the exact scale, mapping from the profile, domain and conditions before using its levels or a threshold. Another team's levels are not comparable merely because they use the same numbers.
 
 Arithmetic, averages and numerical differences are not licensed by an ordinal scale. Where a change is described as an increase in formality, identify the strengthened property or the established order that makes that claim meaningful. A new logic, extra subsystem or larger toolchain is not such a property by itself.
 
@@ -71,15 +77,15 @@ Arithmetic, averages and numerical differences are not licensed by an ordinal sc
 
 Express a formality requirement through what the recipient needs to do. “The invariant has explicit types and semantics, and every inference needed for this proof is expressed in the selected calculus” is a recoverable condition. If checked validity is also required, name that separate evidence requirement. A local ordinal threshold can abbreviate the expression condition only when its named scale captures the required criteria.
 
-Normative content must make the expression conditions needed for its intended use recoverable. A suitable ordinary explanation can do this without a separate score, profile document or formal proof. A richer assessment is required when a comparison, assurance argument or automated consumer actually relies on it. Neither a satisfactory formality assessment nor a threshold result grants permission to act.
+Normative content must make the expression conditions needed for its intended use recoverable. A suitable ordinary explanation can do this without a separate score, profile document or formal proof. A richer assessment is required when a comparison, assurance argument or automated consumer relies on it. Neither a satisfactory formality assessment nor a threshold result grants permission to act.
 
-Improving an expression can change its assessed properties while preserving the episteme's claim content. Correcting an erroneous assessment can leave the expression unchanged. When the receiving requirement changes, return to the property, formal apparatus, derivation or external support it actually needs; do not automatically raise every part of the expression.
+Improving an expression can change its assessed properties while preserving the episteme's claim content. Correcting an erroneous assessment can leave the expression unchanged. When the receiving requirement changes, return to the property, formal apparatus, derivation or external support it needs; do not automatically raise every part of the expression.
 
 #### C.2.3:4.5 - Assess and improve an expression
 
 1. Identify the exact claim or argument and the next operation: interpretation, execution, combination or checking. Name the required result and any applicable binding requirement.
 2. Recover the terms, domains, variable bindings, constraints, operation meanings and inferential connections needed for that operation. Section 13 supplies common distinctions, not a mandatory assessment form.
 3. Inspect the expression. State which needed properties it provides and where interpretation, an operation or an inference remains unspecified. Keep a proposed derivation separate from the result of checking it.
-4. Test the receiving condition. A sufficient expression ends this inquiry. If a missing property prevents the use, repair that part or obtain a suitable expression. Use C.19.2 to choose and configure formal apparatus when that is the actual question; use C.39 when a way to obtain the needed result still has to be developed.
+4. Test the receiving condition. A sufficient expression ends this inquiry. If a missing property prevents the use, repair that part or obtain a suitable expression. Use C.19.2 to choose and configure formal apparatus when that is the question; use C.39 when a way to obtain the needed result still has to be developed.
 5. After the change, repeat the affected use, including any connecting inference. Preserve unchanged scope and support assessments unless their own grounds changed. If the repaired expression reveals a different claim or assumption, assess that change explicitly rather than calling it a purely notational improvement.
 

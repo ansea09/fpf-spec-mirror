@@ -6,12 +6,12 @@ section_id: "C.22.1:11"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.1/C.22.1__012_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.22.1 — Task-family adaptation signature"
   - "C.22.1:11 — Rationale"
-line_start: 63309
-line_end: 63312
+line_start: 65942
+line_end: 65949
 dependencies:
   - "A.15"
   - "C.19.1"
@@ -39,5 +39,9 @@ keywords:
 
 ### C.22.1:11 - Rationale
 
-The reader needs one place where the adaptation claim stays whole. `C.22` keeps the task family and work target explicit. `A.15` distinguishes probe plans from performed Work. A claim about a particular dated Work occurrence needs A.13 and independent A.15.1 admission; precise assignment-bound attribution additionally uses F.6. `C.24` defines call-planning `CheckpointReturn` records after an action or option is fixed; `E.16` governs budget, guard, and ledger enforcement for autonomy claims. Probe results, checkpoint records, and budget records may supply evidence for the adaptation claim. `G.5` and `G.9` later compare several candidates or parity runs. `C.22.1` keeps the specialization story readable across those neighbouring pattern applications by connecting threshold timing to the claimed reuse, downside and corridor-entry evidence.
+The reader needs one place where the adaptation claim stays whole. `C.22` keeps the task family and work target explicit.
+
+`A.15` distinguishes probe plans from performed Work. A claim about a particular dated Work occurrence needs A.13 and independent A.15.1 admission; precise assignment-bound attribution additionally uses F.6. `C.24` defines call-planning `CheckpointReturn` records after an action or option is fixed; `E.16` governs budget, guard, and ledger enforcement for autonomy claims. Probe results, checkpoint records, and budget records may supply evidence for the adaptation claim.
+
+`G.5` and `G.9` later compare several candidates or parity runs. `C.22.1` keeps the specialization story readable across those neighbouring pattern applications by connecting threshold timing to the claimed reuse, downside and corridor-entry evidence.
 

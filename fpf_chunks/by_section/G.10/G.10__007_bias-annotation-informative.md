@@ -6,12 +6,12 @@ section_id: "G.10:6"
 section_title: "Bias‑Annotation (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.10/G.10__007_bias-annotation-informative.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.10 — SoTA Pack Shipping"
   - "G.10:6 — Bias‑Annotation (informative)"
-line_start: 132014
-line_end: 132025
+line_start: 140095
+line_end: 140106
 dependencies:
   - "A.10"
   - "A.15.3"
@@ -59,9 +59,9 @@ keywords:
 * **Format bias (Arch/Prag).** A popular export format is tempting to treat as “the pack”.
   *Mitigation:* keep Core surfaces conceptual (E.5.2); move serialisation recipes to Annex/Interop; keep conformance on semantics.
 * **Centralisation bias (Gov).** A single pattern governing shipping semantics can become a bottleneck.
-  *Mitigation:* keep shipping as one explicit governing-pattern responsibility, but push mode/method specifics into explicit `G.10:Ext.*` extension blocks and cite governing patterns.
+  *Mitigation:* keep shipping under one governing pattern, but place mode- and method-specific requirements in `G.10:Ext.*` extension blocks and cite governing patterns.
 * **Telemetry→dominance bias (Onto/Prag).** Promoting telemetry proxies (illumination/coverage) into ranking changes the interpretation of the shipped result.
-  *Mitigation:* preserve the telemetry/order separation and require explicit CAL policy‑id for any promotion; record the policy‑id in audit pins/telemetry.
+  *Mitigation:* preserve the telemetry/order separation and require a CAL policy‑id for any promotion; record the policy‑id in audit pins/telemetry.
 * **Interop authority bias (Onto/Epist).** External indexes can silently override local legality/typing.
   *Mitigation:* `G.10‑7` ingests interop only as cited notes (editions + mapping policy refs), never as a replacement governing spec ref.
 

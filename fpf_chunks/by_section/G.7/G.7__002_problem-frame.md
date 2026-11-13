@@ -6,12 +6,12 @@ section_id: "G.7:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.7/G.7__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.7 — Cross‑Tradition Bridge Calibration Kit (BridgeMatrix → BridgeCards + BCT/Sentinels)"
   - "G.7:1 — Problem frame"
-line_start: 130253
-line_end: 130263
+line_start: 138309
+line_end: 138319
 dependencies:
   - "A.21"
   - "B.3"
@@ -55,12 +55,12 @@ keywords:
 
 ### G.7:1 - Problem frame
 
-SoTA synthesis (**G.2**) can legitimately preserve pluralism by exporting a **BridgeMatrix**: a Tradition×Tradition inventory of “comparable constructs” with preliminary notes (candidate correspondences, likely losses, tentative levels). When the receiving use requires calibrated cross‑Context reuse, downstream patterns (CHR/CAL/selector/logging/shipping) must ensure that the reuse is:
+SoTA synthesis (**G.2**) can preserve pluralism by exporting a **BridgeMatrix**: a Tradition×Tradition inventory of “comparable constructs” with preliminary notes (candidate correspondences, likely losses, tentative levels). When the receiving use requires calibrated cross‑Context reuse, downstream patterns (CHR/CAL/selector/logging/shipping) must ensure that the reuse is:
 
 * **recoverable** through the actual correspondence and its source basis, including BridgeCards for F.9 rows,
 * **calibrated** with a small procedure whose evidence and conditions are inspectable,
 * **published** with the anchors required by the receiving use; UTS and E.18/A.21 harnesses apply to their actual public names and flow/gate crossings,
 * **refreshable** through the uses that depend on changed calibration, with path-scoped RSCR where paths are used.
 
-`G.7` packages this into a kit: `BCT` + applicable correspondence references + `RegressionSet`/`SentinelSet` wiring, so that later patterns can satisfy core invariants without re‑inventing cross‑Tradition machinery.
+The kit links BCT rows to their correspondence references, regression probes and sentinels for the uses that consume those rows. Later patterns can use it to satisfy the core invariants for cross‑Tradition reuse.
 

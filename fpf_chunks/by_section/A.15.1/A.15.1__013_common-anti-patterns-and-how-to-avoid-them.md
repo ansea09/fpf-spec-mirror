@@ -6,12 +6,12 @@ section_id: "A.15.1:11"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__013_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.15.1 — U.Work: Dated Performed Work Occurrence"
   - "A.15.1:11 — Common Anti-Patterns and How to Avoid Them"
-line_start: 29674
-line_end: 29689
+line_start: 30752
+line_end: 30767
 dependencies:
   - "A.1"
   - "A.10"
@@ -67,6 +67,6 @@ keywords:
 * **Episode-as-new-work by habit.** A pause, retune, or interruption is always recorded as either a new occurrence or the same one -> Preserve the boundary events first. Use direct facts when they settle the grouping. If a named use still has more than one defensible grouping, apply its `workContinuityPolicyRef`; without the needed criterion, leave that segmentation unresolved.
 * **Method-factor-as-work-part by label.** A step, stroke, receiver component, graph node, or method-description section is treated as a work part or submethod by name -> Identify the actual object and any claimed Method-factor or Work-part relation, including the relation's participants; use the pattern that defines that relation.
 * **Granularity inflation.** Every interval or trace row receives a durable Work-part name -> admit the Work part independently and name it only when the receiving use needs a distinct reference under §5.1.
-* **Union-hull confusion.** Changing KPI coverage silently between reports -> recover the exact `B.1.4` temporal aggregation and cite its policy per KPI.
-* **Double-count in overlaps.** Summing child and parent resource facts as one ledger -> recover the `B.1.6` aggregation claim and apply its exact overlap or deduplication policy.
+* **Union-hull confusion.** Changing KPI coverage silently between reports -> recover the `B.1.4` temporal aggregation and cite its policy per KPI.
+* **Double-count in overlaps.** Summing child and parent resource facts as one ledger -> recover the `B.1.6` aggregation claim and apply its overlap or deduplication policy.
 

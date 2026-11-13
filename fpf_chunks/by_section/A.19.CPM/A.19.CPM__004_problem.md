@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.19.CPM"
-pattern_title: "Compare Admitted Profiles under a Declared Comparator (CPM)"
+pattern_title: "Compare Admitted Profiles under a Declared Comparator"
 section_id: "A.19.CPM:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CPM/A.19.CPM__004_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.19.CPM — Compare Admitted Profiles under a Declared Comparator (CPM)"
+  - "A.19.CPM — Compare Admitted Profiles under a Declared Comparator"
   - "A.19.CPM:2 — Problem"
-line_start: 38824
-line_end: 38837
+line_start: 40361
+line_end: 40374
 dependencies:
 keywords:
   - "ComparatorSet"
@@ -20,12 +20,12 @@ keywords:
   - "comparison"
   - "partial order"
   - "set-valued comparison outcome"
-  - "tri-state admissibility (pass"
+  - "tri-state admissibility (pass\\"
 ---
 
 ### A.19.CPM:2 - Problem
 
-Engineering teams frequently need to compare two options (designs, methods, vendors, trajectories, hypotheses, etc.) across multiple measures and under incomplete evidence. Without a canonical comparison mechanism, teams predictably fall into one or more of these failure modes:
+Engineering teams frequently need to compare two options (designs, methods, vendors, trajectories, hypotheses, etc.) across multiple measures and under incomplete evidence. Without a comparison mechanism, teams fall into one or more of these failure modes:
 
 * **Hidden scalarization:** forcing a single number (or a single winner) from multi‑criteria reality, erasing incomparability and ties.
 * **Silent totalization:** inventing an implied total order by convenience tie‑breakers or implicit thresholds, even when only a partial order is warranted.
@@ -33,7 +33,7 @@ Engineering teams frequently need to compare two options (designs, methods, vend
 * **Comparator drift:** the comparison rule or selected edition is unresolved, so teams can use different rules for the same profiles. Explicit prose or code can supply the rule when its meaning and edition are recoverable.
 * **Unknown coercion:** missing or unknown evidence is coerced into an outcome (e.g., `missing = equal`), producing comparisons that look decisive but are epistemically unsafe.
 * **Comparison-boundary drift:** the same result label is reused after the profile pair, comparator, A.19 predicate, claim scope, selected context slices, reference plane, or evaluation window changed.
-* **Cross-scheme or cross-plane leakage:** a comparison relies on a semantic relation between two exact F.17 `SchemeSenseCell` values without an obtaining F.9 `Bridge` and its separate bounded-use claim, or crosses exact ReferencePlanes without the applicable plane relation and policy. The relation or policy needed by the comparison is then unrecoverable.
+* **Cross-scheme or cross-plane leakage:** a comparison relies on a semantic relation between two F.17 `SchemeSenseCell` values without an obtaining F.9 `Bridge` and its separate bounded-use claim, or crosses ReferencePlanes without the plane relation and policy. The relation or policy needed by the comparison is then unrecoverable.
 
 CPM exists to make comparison explicit, admissibility-gated, set-valued, and replayable, so downstream selection can remain a separate policy-bound step.
 

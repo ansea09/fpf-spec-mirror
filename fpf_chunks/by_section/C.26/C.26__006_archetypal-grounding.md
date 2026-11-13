@@ -6,12 +6,12 @@ section_id: "C.26:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26/C.26__006_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.26 — Quantum-Like Modeling Lens"
   - "C.26:5 — Archetypal Grounding"
-line_start: 65787
-line_end: 65825
+line_start: 68767
+line_end: 68805
 dependencies:
   - "A.10"
   - "A.15"
@@ -58,7 +58,7 @@ Show, System side: the delivery system, teams, dashboard, incident-handling cycl
 
 Show, Episteme side: the ordinary account uses C.16 and A.15 for the metric and changed work, A.10 for evidence use, and B.3 only if the release-assurance question is current. Its useful result is to treat the dashboard as evidence affected by publication and behavior, not as a passive readiness read. No surviving contextual-model obstruction is supplied, so this case returns without QL wording.
 
-Second ordinary-pattern return: a large state-space model is too expensive for triage, so the team uses four typed operational states. Use the direct modeling and state-abstraction method to establish the retained distinctions, loss, bounded use, and reopen trigger. Mere reduction to four states does not activate C.26; a named residual contextual-model obstruction would be a separate premise.
+Second ordinary-pattern return: a large state-space model is too expensive for triage, so the team uses four typed operational states. Use the direct modeling and state-abstraction method to establish the retained distinctions, loss, bounded use, and reopen trigger. Reduction to four states does not activate C.26; a named residual contextual-model obstruction would be a separate premise.
 
 #### C.26:5.1 - Matching local distributions can still block a joint model
 

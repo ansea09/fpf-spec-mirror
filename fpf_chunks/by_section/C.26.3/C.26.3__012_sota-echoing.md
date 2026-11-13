@@ -6,12 +6,12 @@ section_id: "C.26.3:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.3/C.26.3__012_sota-echoing.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.26.3 — Viability-Envelope Boundary Regulation"
   - "C.26.3:11 — SoTA-Echoing"
-line_start: 66924
-line_end: 66942
+line_start: 69976
+line_end: 69994
 dependencies:
   - "A.10"
   - "A.15"
@@ -43,17 +43,17 @@ keywords:
 
 | Pattern claim | Practice source | Pattern implication | Adoption stance |
 | --- | --- | --- | --- |
-| Viability maintenance is not fixed-value homeostasis only; stability can be relational, variational, dynamic, allostatic, metastable, and resilient. | [Conceptual foundations of physiological regulation incorporating the free energy principle and self-organized criticality](https://www.sciencedirect.com/science/article/pii/S0149763423004281). | Use viability envelopes and stability-through-change; reject one-scalar optimization and "all architecture is homeostasis." | Adapt as architecture-facing envelope discipline. |
-| Action and perception are coupled under partial observability and cost. | [Active inference as a theory of sentient behavior](https://www.sciencedirect.com/science/article/pii/S0301051123002612). | Treat sensors, probes, dashboards, and source-labelled actuators as relevant to the envelope claim when they change behavior or viability; recover each candidate intervention as its exact FPF object before relying on it. | Adapt for measurement-as-action and planning cost. |
-| Active-inference engineering already appears in energy/building control under privacy, partial observability, evolving conditions, and abrupt changes. | [Active Inference for Energy Control and Planning in Smart Buildings and Communities](https://arxiv.org/abs/2503.18161). | Use engineering examples cautiously: they show the kind of control problem, not settled FPF doctrine. | Use as emerging engineering anchor. |
+| Viability maintenance is not fixed-value homeostasis only; stability can be relational, variational, dynamic, allostatic, metastable, and resilient. | [Conceptual foundations of physiological regulation incorporating the free energy principle and self-organized criticality](https://www.sciencedirect.com/science/article/pii/S0149763423004281). | Use viability envelopes and stability-through-change. | Adapt as architecture-facing envelope discipline. |
+| Action and perception are coupled under partial observability and cost. | [Active inference as a theory of sentient behavior](https://www.sciencedirect.com/science/article/pii/S0301051123002612). | Treat sensors, probes, dashboards, and source-labelled actuators as relevant to the envelope claim when they change behavior or viability; recover each candidate intervention as its FPF object before relying on it. | Adapt for measurement-as-action and planning cost. |
+| Active-inference engineering already appears in energy/building control under privacy, partial observability, evolving conditions, and abrupt changes. | [Active Inference for Energy Control and Planning in Smart Buildings and Communities](https://arxiv.org/abs/2503.18161). | Use engineering examples to show the kind of control problem. | Use as emerging engineering anchor. |
 | Boundaries can be statistical or computational descriptions of what a system can measure, model, and affect. | [The Computational Boundary of a Self](https://philpapers.org/rec/LEVTCB-3) and [The Markov blankets of life](https://philarchive.org/rec/KIRTMB). | Name boundary conditions and information constraints without reifying a boundary substance. | Adapt with map-territory caution. |
 | Excess Bayesian / active-embodied inference shows the cost of moving sensor, body, instrument, or access point to obtain a discriminating observation. | [Connecting the free energy principle with quantum cognition](https://www.frontiersin.org/articles/10.3389/fnbot.2022.910161/full). | Treat probe placement, access placement, and observation cost as part of viability-envelope work when they change the decision. | Adapt for probe/action cost, not as a replacement for ordinary Bayesian or active-inference routes. |
 | Platform and software engineering already treats many quality concerns as trade-off bundles. | Reliability, incident, platform, compliance, energy, support, operator-load practice, and [Google SRE SLO / error-budget practice](https://sre.google/workbook/implementing-slos/), coordinated with `C.25`. | Make the quality bundle explicit, recover each candidate intervention as its direct object, and state applicable authority, latency, adaptation cost, and failure mode. | Adopt through FPF quality-bundle routes. |
 
-Worked-slice discipline from these rows:
+Apply these source contributions:
 
 - state the envelope before importing source terminology;
-- use a source analogy only through the subject claim and relations it actually supports;
+- use a source analogy only through the subject claim and relations it supports;
 - keep sensors, probes, metrics, candidate interventions, and every recovered direct object distinct;
 - state adaptation cost and failure mode;
 - apply ordinary quality and measurement patterns to one-scalar quality concerns.

@@ -6,12 +6,12 @@ section_id: "A.6.F:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.F/A.6.F__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.F — Function and Functional Precision Restoration (RPR-FUNCTION)"
   - "A.6.F:2 — Problem"
-line_start: 22480
-line_end: 22495
+line_start: 23369
+line_end: 23384
 dependencies:
   - "A.10"
   - "A.15"
@@ -81,5 +81,5 @@ FPF texts repeatedly use function-like wording for different FPF kinds and relat
 - module allocation or interface relation;
 - functional architecture shorthand.
 
-These uses are all legitimate in ordinary engineering speech. They are not the same FPF object or claim. If the text does not name the exact entity, value, claim, or claim-bearing episteme and its subject pattern, subsequent reasoning cannot tell whether the sentence is about architecture, behavior, work, a system-role kind or assignment, participation, actual functioning, responsibility, mathematics, module structure, quality, evidence, or decision. When a separate direct relation, reusable declaration, assertion or specification, selected view, or representation is current, identify it as that separate object.
+These uses are all legitimate in ordinary engineering speech. They are not the same FPF object or claim. If the text does not name the entity, value, claim, or claim-bearing episteme and its subject pattern, subsequent reasoning cannot tell whether the sentence is about architecture, behavior, work, a system-role kind or assignment, participation, actual functioning, responsibility, mathematics, module structure, quality, evidence, or decision. When a separate direct relation, reusable declaration, assertion or specification, selected view, or representation is current, identify it as that separate object.
 

@@ -6,12 +6,12 @@ section_id: "E.9.DA:5"
 section_title: "Worked slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9.DA/E.9.DA__006_worked-slices.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.9.DA — Evaluate a DRR for Its Declared Authoring Use (Decision-Adequacy CharacteristicSpace)"
   - "E.9.DA:5 — Worked slices"
-line_start: 98833
-line_end: 98850
+line_start: 104375
+line_end: 104394
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -27,17 +27,19 @@ keywords:
 
 ### E.9.DA:5 - Worked slices
 
-**Filled ordinary case — an overbroad wording DRR.** Exact DRR `DRR-ROLE-TRIGGER-03@2` selects this answer for an E.10 amendment and its named consumers: “replace every bare *role* with *system role*.” The required use is authoring input for that amendment; the review request supplies the use, and the E.9.DA default floor is `3`. Before assigning coordinates, the evaluator checks the wording problem, system-role practice, the strongest meaning-recovery alternative, misuse and recovery cases, and the actual predecessor `A.6.5` consumer. `A.6.5:1` and `A.6.5:4.1` expose the omitted question: does each occurrence denote a local system-role kind, or does it denote a relation-participant meaning, a declaration-local slot, an assignment, or an ordinary non-terminological use? That question changes the selected answer.
+**Ordinary case — an overbroad wording DRR.** `DRR-ROLE-TRIGGER-03@2` selects this answer for an E.10 amendment and its named consumers: “replace every bare *role* with *system role*.” The review request fixes the use as authoring input for that amendment. The E.9.DA default floor is `3`.
 
-The ordinary result is `repairBeforeDrafting`. The blanket replacement would turn several distinct objects and uses into one term. First repair the DRR so it selects meaning recovery: write *system role* where the text denotes the local kind, and name an assignment, participant meaning, SlotKind, or ordinary use where that is the actual subject. Reopen when the revised DRR distinguishes those uses, names its true consumers, and the actual-host replay preserves precision and readability. This ordinary result uses the compact branch.
+Before assigning coordinates, the evaluator checks the wording problem, system-role practice, the strongest meaning-recovery alternative, misuse and recovery cases, and the predecessor text of the affected `A.6.5` consumer. `A.6.5:1` and `A.6.5:4.1` expose the omitted question. Does each occurrence denote a local system-role kind, or does it denote a relation-participant meaning, a declaration-local slot, an assignment, or an ordinary non-terminological use? The answer changes the proposed rule.
 
-**Small reliance-bearing extension.** Suppose a named later comparison needs one stable result episteme, `E9DA-Result-ROLE-03@1`, but no Method, application, or Work identity. The complete result would still cover every coordinate; the following one-row excerpt shows the required grain and the near-floor distinction:
+Return `repairBeforeDrafting`. The blanket replacement collapses distinct objects and uses into one term. First repair the DRR so it selects recovery of the intended meaning. Write *system role* for the local kind. Where the text denotes an assignment, participant meaning, SlotKind, or ordinary use, name that meaning. Reopen when the revised DRR distinguishes those uses, names the consumers that depend on the change, and the actual-host replay preserves precision and readability. The compact result suffices here.
+
+**Reliance-bearing extension.** Suppose a named later comparison needs one stable result episteme, `E9DA-Result-ROLE-03@1`, but no Method, application, or Work identity. The complete result would still cover every coordinate; the following one-row excerpt shows the level of detail and why this value falls below the floor:
 
 | Coordinate | Value | ShortRationale | EvidenceLocus |
 |---|---:|---|---|
 | `LexicalAndNamingClosure` | 2 | Value `1` would understate the DRR because it names the target word and selected E.10 amendment. Value `3` would overstate it because the answer still conflates a system-role kind with the assignment, relation-participant meaning, SlotKind, and ordinary word uses exposed by the actual host. | `DRR-ROLE-TRIGGER-03@2`, selected-answer row; `A.6.5:1`; `A.6.5:4.1` |
 
-The effective floor is `3`, so this row contributes to `repairBeforeDrafting`; another high coordinate cannot compensate. The result's bounded search basis names the wording problem, actual host, strongest meaning-recovery alternative, and the omitted question above. No unused Method, application, Work, witness, or evidence-use reference is added.
+The effective floor is `3`, so this row contributes to `repairBeforeDrafting`; another high coordinate cannot compensate. The result's bounded search basis names the wording problem, actual host, strongest meaning-recovery alternative, and the omitted question above. This comparison needs no Method, application, or Work reference. Include witness and evidence-use references only if it relies on them.
 
 **Adequate multi-locus DRR.** The DRR selects the precision-restoration move, assigns positive responsibilities to selected loci, states the first drafting action, carries source payload into examples and conformance, and closes only the alternatives needed to explain the answer. The reviewer can judge it from that content and the actual-host replay. A reliance-bearing evaluation may additionally publish coordinate values and an aggregate result, but the ordinary judgement does not wait for that apparatus.
 

@@ -6,12 +6,12 @@ section_id: "A.3.1.DR:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.DR/A.3.1.DR__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.3.1.DR — Recover Method Contributions from Documentary Sources"
   - "A.3.1.DR:1 — Problem Frame"
-line_start: 10042
-line_end: 10069
+line_start: 10439
+line_end: 10468
 dependencies:
   - "A.3.1.MR"
   - "A.3.1.QM"
@@ -26,9 +26,11 @@ keywords:
 
 Begin with one receiving decision and the exact source edition or snapshot. For several sources, keep each source's role and recovery scope visible. Recover only contributions and dependency slices that can change the decision; completeness is relative to this boundary.
 
-The first useful result is a source-traceable Method-recovery dossier. Identified Methods and individually scoped candidate accounts can proceed to A.3.1.QM with their support and evidence limits. A proposed whole proceeds to B.1.5.CM when its identity and relations are the question. Tools, descriptions, capability, authority, and other useful contributions remain available under their actual kinds.
+The first useful result is a source-traceable Method-recovery dossier. Identified Methods and individually scoped candidate accounts can proceed to A.3.1.QM with their support and evidence limits. A proposed whole proceeds to B.1.5.CM when its identity and relations are the question. Tools, descriptions, capability, authority, and other useful contributions remain available under their kinds.
 
-**Ordinary non-use.** Do not decompose an already precise Method to populate a library or inventory material whose presence cannot change the receiving decision. If records, interviews, traces, or observations are offered as evidence from which a reusable way must be reconstructed, use A.3.1.MR; enter specialist RMP.10 only when its additional evidence programme is needed. A document can contain both prescribed guidance and testimony about performance: route the selected contribution by its use, not by its file extension.
+**Ordinary non-use.** Do not decompose an already precise Method to populate a library or inventory material whose presence cannot change the receiving decision. If records, interviews, traces, or observations are offered as evidence from which a reusable way must be reconstructed, use A.3.1.MR; enter specialist RMP.10 only when its additional evidence programme is needed.
+
+A document can contain both prescribed guidance and testimony about performance: route the selected contribution by its use, not by its file extension.
 
 #### A.3.1.DR:1.1 - Working Distinctions
 
@@ -46,5 +48,5 @@ The first useful result is a source-traceable Method-recovery dossier. Identifie
 
 Heavyweight packages connect concerns through publication, pedagogy, institutional history, tools, or viewpoints. Their visible organization may differ from Method, Work, subject, description, capability/provider/support, allocation, or cultural structures.
 
-Method Content Theory and design-Method element research contribute questions about goal, procedure, rationale, framing, mindset, representation, intended use, and tools. Keep the answers with the Method, candidate account, description, capability, support relation, cultural claim, or other subject they actually concern. Several sources can ask similar questions without giving the same answer.
+Method Content Theory and design-Method element research contribute questions about goal, procedure, rationale, framing, mindset, representation, intended use, and tools. Keep the answers with the Method, candidate account, description, capability, support relation, cultural claim, or other subject they concern. Several sources can ask similar questions without giving the same answer.
 

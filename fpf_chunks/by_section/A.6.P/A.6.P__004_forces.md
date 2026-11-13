@@ -6,12 +6,12 @@ section_id: "A.6.P:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.P — Relational Precision Restoration - Recovering Direct Relations from Under-Specified Claims"
   - "A.6.P:3 — Forces"
-line_start: 20023
-line_end: 20034
+line_start: 20896
+line_end: 20907
 dependencies:
   - "A.1.SCR"
   - "A.1.STM"
@@ -40,9 +40,9 @@ keywords:
 
 | Force | Tension |
 |---|---|
-| Readability and precision | Ordinary work benefits from short relation sentences, while reuse may need exact participant typing and identity. |
+| Readability and precision | Ordinary work benefits from short relation sentences, while reuse may need participant typing and identity. |
 | Relation realism and epistemic access | A relation may obtain independently of its assertion, yet engineering work reaches it through observations, epistemes, descriptions, publications, and representations. |
-| Generality and grounding | The method applies across domains, while every repaired relation needs domain-grounded participants and an exact obtaining condition. |
+| Generality and grounding | The method applies across domains, while every repaired relation needs domain-grounded participants and an obtaining condition. |
 | Minimal explicitness and later claims | Premature declarations and records create burden; insufficient detail makes a named later comparison, substitution, change, or reference unreliable. |
 | Natural-language direction and relation polarity | Inverse wording can aid readers, while silent participant reversal can change the predicate. |
 | Stable world-side facts and evolving epistemes | The relation kind can stay stable while assertions, declarations, evidence, descriptions, publications, and representations change independently. |

@@ -6,12 +6,12 @@ section_id: "C.30.P:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.P/C.30.P__006_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.30.P — Clarify Architecture and Structure Wording (Precision Restoration)"
   - "C.30.P:4 — Solution"
-line_start: 72835
-line_end: 72883
+line_start: 75953
+line_end: 76001
 dependencies:
   - "A.10"
   - "A.15"
@@ -60,7 +60,7 @@ keywords:
 
 ### C.30.P:4 - Solution
 
-Repair architecture or structure wording by producing an `architecture-structure repair note` or an equivalent local rewrite.
+Repair architecture or structure wording with a local rewrite or an `architecture-structure repair note`.
 
 An optional note can organize the following information; include only what the repair needs:
 
@@ -86,7 +86,7 @@ ArchitectureOrStructureRepairNote:
   disposition:
 ```
 
-Use the note only when the repair must remain inspectable. A direct local rewrite is enough when one sentence clearly names the selected-structure claim being made, architecture relation, architecture-description use, structural-view use, source-return relation, or subject pattern.
+Use the note only when the repair must remain inspectable. A local rewrite is enough when one sentence clearly names the selected-structure claim being made, architecture relation, architecture-description use, structural-view use, source-return relation, or subject pattern.
 
 #### C.30.P:4.1 - Recovery sequence
 

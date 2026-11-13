@@ -6,12 +6,12 @@ section_id: "A.15.7:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.7/A.15.7__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.15.7 — Situation-Responsive Work Steering and Next-Action Selection"
   - "A.15.7:intro — Intro"
-line_start: 31510
-line_end: 31519
+line_start: 32695
+line_end: 32704
 dependencies:
   - "A.10"
   - "A.13"
@@ -39,5 +39,5 @@ keywords:
 
 **Plain name.** Choose the next action while Work is under way and current facts matter.
 
-**Primary reader.** A person, team, robot, AI system, organization, or other deciding System that must choose what should happen next during ongoing Work, or someone supporting that choice.
+**Reader.** A person, team, robot, AI system, organization, or other deciding System that must choose what should happen next during ongoing Work, or someone supporting that choice.
 

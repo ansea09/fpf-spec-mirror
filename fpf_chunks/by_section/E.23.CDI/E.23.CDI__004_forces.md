@@ -6,12 +6,12 @@ section_id: "E.23.CDI:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23.CDI/E.23.CDI__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.23.CDI — Developing Capability for a Named Work Family"
   - "E.23.CDI:3 — Forces"
-line_start: 115431
-line_end: 115441
+line_start: 122749
+line_end: 122759
 dependencies:
   - "A.15.1"
   - "A.2.2"
@@ -29,7 +29,7 @@ keywords:
 | Force | Tension |
 | --- | --- |
 | Target-Work relevance | Exercises can be cheap and controlled, while the capability must hold in representative Work. |
-| Holder precision | A group label is convenient, while capability belongs to the exact admitted System whose ability is claimed. |
+| Holder precision | A group label is convenient, while capability belongs to the admitted System whose ability is claimed. |
 | Shared Method versus domain filling | The development move recurs across domains, while Methods, measures, evidence, and constraints remain domain-specific. |
 | Provider leverage | Coaching, tooling, infrastructure, or another provider contribution may matter, while provider success is not holder capability. |
 | Focus versus protected conditions | One limiting contribution needs attention, while safety, autonomy, continuity, service, cost, or another protected condition must not be sacrificed. |

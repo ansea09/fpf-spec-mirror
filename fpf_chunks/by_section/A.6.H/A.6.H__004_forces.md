@@ -6,12 +6,12 @@ section_id: "A.6.H:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.H/A.6.H__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.H — Wholeness Language Unpacking — RPR-WHOLE"
   - "A.6.H:3 — Forces"
-line_start: 25209
-line_end: 25219
+line_start: 26130
+line_end: 26140
 dependencies:
   - "A.1"
   - "A.10"
@@ -64,7 +64,7 @@ keywords:
 
 | Force | Tension |
 | --- | --- |
-| Conversational economy vs. recoverability | Ordinary prose needs compact words, while a load-bearing use needs exact objects and relations. |
+| Conversational economy vs. recoverability | Ordinary prose needs compact words, while a load-bearing use needs identifiable objects and relations. |
 | Whole recognition vs. relation truth | Recognizing one candidate whole does not establish its parts, structure, integrity, or completion. |
 | Stable identity vs. change | A useful history needs continuity, while changed epistemes, Work occurrences, and replaced carriers must not be collapsed. |
 | Structural description vs. performed reality | Method descriptions, plans, diagrams, and evidence can guide work without becoming the performed occurrence or its parts. |

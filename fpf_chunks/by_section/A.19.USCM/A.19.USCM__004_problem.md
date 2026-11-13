@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.19.USCM"
-pattern_title: "Unified Scoring Mechanism, USCM"
+pattern_title: "Scoring Mechanism"
 section_id: "A.19.USCM:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.USCM/A.19.USCM__004_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.19.USCM — Unified Scoring Mechanism, USCM"
+  - "A.19.USCM — Scoring Mechanism"
   - "A.19.USCM:2 — Problem"
-line_start: 38181
-line_end: 38190
+line_start: 39714
+line_end: 39723
 dependencies:
 keywords:
   - "CG-Spec.MinimalEvidence"
@@ -20,7 +20,7 @@ keywords:
   - "ScoringMethodDescription"
   - "score profile"
   - "scoring"
-  - "tri-state admissibility (pass"
+  - "tri-state admissibility (pass\\"
 ---
 
 ### A.19.USCM:2 - Problem

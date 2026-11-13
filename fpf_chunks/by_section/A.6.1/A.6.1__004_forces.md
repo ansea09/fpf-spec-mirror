@@ -6,12 +6,12 @@ section_id: "A.6.1:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.1/A.6.1__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.1 — U.Mechanism - Reusable Law-Governed Operation Declaration"
   - "A.6.1:3 — Forces"
-line_start: 16700
-line_end: 16711
+line_start: 17419
+line_end: 17430
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -57,7 +57,7 @@ keywords:
 | Reuse and semantic locality | Reusers need stable operation meaning, while every use has an effective `ReferenceScheme` and bounded Applicability. |
 | Law and admission | Laws state reusable regularities; admission predicates decide whether one proposed operation use is admissible. |
 | Declaration and realization | A declaration can have several realizers; changing one realizer does not by itself change declaration identity. |
-| Light use and typed reuse | One readable operation sentence is often enough, while repeated use may need exact argument and result declarations; a receiving claim about one use may additionally need a particular application and its bindings. |
+| Light use and typed reuse | One readable operation sentence is often enough, while repeated use may need argument and result declarations; a receiving claim about one use may additionally need a particular application and its bindings. |
 | Domain breadth and kind precision | The same form serves physical engineering, medicine, learning, and software without treating code or documents as the default object. |
 | Mathematical precision and ontology | Algebraic notation can expose preservation claims, but a mathematical lens does not decide the FPF kind by form. |
 | Recall and conditional structure | A short mantra helps a reader remember the distinctions; use A.22.CGUS when available continuations and their conditions need clarification. |

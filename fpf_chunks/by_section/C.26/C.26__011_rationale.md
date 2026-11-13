@@ -6,12 +6,12 @@ section_id: "C.26:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26/C.26__011_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.26 — Quantum-Like Modeling Lens"
   - "C.26:10 — Rationale"
-line_start: 65928
-line_end: 65935
+line_start: 68908
+line_end: 68917
 dependencies:
   - "A.10"
   - "A.15"
@@ -56,5 +56,7 @@ The common lens relates a contextual-model obstruction to the inference it const
 
 The lens earns its use when a named contextual-model obstruction changes the admissible inference or action. The inherited non-quantum boundary keeps that mathematical contribution separate from a physical claim.
 
-Literature supports the modeling move; local evidence supports the local state, export, or probe claim. A source anchor can justify why order effects, contextual probability, instrument-like readings, or open-system modeling are legitimate modeling patterns. It does not prove that this dashboard changed this team's state, that this workshop changed a boundary, or that this export lost the live coordination. That proof or evidence still belongs under `A.10`, `C.16`, `A.15`, `B.3`, and the ordinary pattern for the local claim.
+Literature supports the modeling move; local evidence supports the local state, export, or probe claim. A source anchor can justify why order effects, contextual probability, instrument-like readings, or open-system modeling are legitimate modeling patterns.
+
+Claims that this dashboard changed this team's state, this workshop changed a boundary, or this export lost the live coordination need their own proof or evidence under `A.10`, `C.16`, `A.15`, `B.3`, and the ordinary pattern for the local claim.
 

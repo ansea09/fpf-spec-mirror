@@ -6,12 +6,12 @@ section_id: "E.8:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__005_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:3 — Forces"
-line_start: 96988
-line_end: 96995
+line_start: 102263
+line_end: 102270
 dependencies:
   - "E.10"
   - "E.10.MOVE"
@@ -60,7 +60,7 @@ keywords:
 
 | Force | Tension |
 |-------|---------|
-| **Uniformity vs Expressiveness** | Consistent template ↔ freedom for diverse domains. |
-| **Rigor vs Readability** | Formal precision ↔ engaging prose. |
-| **Brevity vs Completeness** | Concise patterns ↔ mandated safety subsections. |
+| **Uniformity vs Expressiveness** | How can a consistent template leave authors in different domains free to express their subject? |
+| **Rigor vs Readability** | How can engaging prose retain formal precision? |
+| **Brevity vs Completeness** | Patterns need to stay concise while including the required safety subsections. |
 

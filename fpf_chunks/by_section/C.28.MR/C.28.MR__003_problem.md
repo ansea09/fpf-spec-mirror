@@ -6,12 +6,12 @@ section_id: "C.28.MR:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28.MR/C.28.MR__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.28.MR — Derive an Intervention Consequence by Mechanism Replacement"
   - "C.28.MR:2 — Problem"
-line_start: 68728
-line_end: 68735
+line_start: 71801
+line_end: 71808
 dependencies:
   - "A.3.3.TR"
   - "B.5.MPC"
@@ -27,5 +27,5 @@ An observed value tells us something about how the existing mechanisms operated.
 
 A second difficulty appears when a mathematical or software operation has an unclear physical interpretation. Assigning a value to an indicator, replacing a controller and forcing a physical quantity can change different mechanisms. Reusing the same variable name hides that difference.
 
-Even a clearly specified replacement can change the solvability of a model or its subsequent dynamics. The useful result requires both the model transformation and a derivation for the question actually asked.
+Even a clearly specified replacement can change the solvability of a model or its subsequent dynamics. The useful result requires both the model transformation and a derivation for the question asked.
 

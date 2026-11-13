@@ -6,12 +6,12 @@ section_id: "A.3.1:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1/A.3.1__006_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.3.1 — U.Method: Reusable Way of Doing with Explicit Applicability"
   - "A.3.1:5 — Archetypal Grounding"
-line_start: 9666
-line_end: 9725
+line_start: 10053
+line_end: 10112
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -87,7 +87,7 @@ Recover the claim-bearing episteme expressed by a textbook explanation, proof-as
 
 #### A.3.1:5.4 - Graph or query overread
 
-A graph path, SQL query, checklist predicate, or dashboard table may itself be the current direct object or may represent a relation, state, evidence structure, provenance structure, or publication face. It supports a method identification only when the project can state the reusable action, admissible inputs, intended result, and any branch or stop condition that changes that identification. A query text that returns rows is still a description or executable representation until that semantic way is stated.
+A graph path, SQL query, checklist predicate, or dashboard table may itself be the current direct object or may represent a relation, state, evidence structure, provenance structure, or publication face. It supports a method identification only when the project can state the reusable action, admissible inputs, intended result, and any branch or stop condition that changes that identification. A query text that returns rows is a description or executable representation until that semantic way is stated.
 
 Ordinary wording such as a graph “routes” or a query “calls” is usable when the operation and its participants are recoverable. Apply C.2.P.DR when a representation's form or layout is treated as sufficient to establish method order, dated Work, gate passage, or authority.
 

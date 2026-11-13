@@ -6,12 +6,12 @@ section_id: "F.13:9"
 section_title: "Micro‑examples (illustrative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.13/F.13__010_micro-examples-illustrative.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.13 — Lexical Continuity & Deprecation"
   - "F.13:9 — Micro‑examples (illustrative)"
-line_start: 122880
-line_end: 122914
+line_start: 130660
+line_end: 130694
 dependencies:
   - "F.1"
   - "F.17"
@@ -64,6 +64,6 @@ Suppose the two Concept-Set rows labelled **“DBaaS”** and **“Database-Serv
 
 *Contexts:* **BPMN (design graph)** vs **PROV‑O (run activity)**.
 Temptation: “Let’s rename *process* to *activity*.”
-**Diagnosis:** Cross‑context; **different SenseCells**.
-**Action:** Keep the labels and their exact meanings. If a semantic correspondence is needed, establish its F.9 relation and a separate bounded-use claim with current reliance. A design-to-run or production relation belongs under its direct subject rule.
+**Diagnosis:** A design graph and a run occurrence have different local meanings. A rename requires the same meaning and use.
+**Action:** Keep the labels and their exact meanings. If a semantic correspondence matters, test the relation under F.9. If a proposed use relies on it, assess that use and its current grounds separately. A design-to-run or production relation belongs under the rule for that relation.
 

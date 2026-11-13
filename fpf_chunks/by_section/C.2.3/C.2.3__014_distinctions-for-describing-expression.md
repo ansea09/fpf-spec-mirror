@@ -6,12 +6,12 @@ section_id: "C.2.3:13"
 section_title: "Distinctions for describing expression"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.3/C.2.3__014_distinctions-for-describing-expression.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.2.3 — Formality of an Episteme"
   - "C.2.3:13 — Distinctions for describing expression"
-line_start: 53233
-line_end: 53280
+line_start: 55458
+line_end: 55505
 dependencies:
   - "A.16"
   - "A.18"
@@ -49,7 +49,7 @@ A note can identify its topic and use terms consistently while leaving criteria 
 
 #### C.2.3:13.3 - Structured outline
 
-A coherent section structure helps readers find claims and their grounds. Placeholder criteria can remain inside a complete outline. Editorial organization is useful, but inspect what the filled content actually defines.
+A coherent section structure helps readers find claims and their grounds. Placeholder criteria can remain inside a complete outline. Editorial organization is useful, but inspect what the filled content defines.
 
 #### C.2.3:13.4 - Controlled narrative
 

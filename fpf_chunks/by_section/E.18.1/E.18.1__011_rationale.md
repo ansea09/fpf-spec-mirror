@@ -6,12 +6,12 @@ section_id: "E.18.1:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__011_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.18.1 — P2W Problem-to-Work Carry-Through"
   - "E.18.1:10 — Rationale"
-line_start: 111386
-line_end: 111389
+line_start: 118338
+line_end: 118343
 dependencies:
   - "A.15"
   - "A.15.PROD"
@@ -54,5 +54,7 @@ keywords:
 
 ### E.18.1:10 - Rationale
 
-`E.18.1` is a child of `E.18` because a P2W use may need transformation-flow structure when the accepted claim spans several slices, typed positions, or returns. It does not define graph semantics or prescribe performed-work order. It helps a practitioner keep the accepted claim visible while selecting the pattern whose Solution answers the next question. P2W preserves the carried claim; the practitioner or another capable system obtains or amends the downstream result by applying the neighbouring guidance.
+`E.18.1` is a child of `E.18` because a P2W use may need transformation-flow structure when the accepted claim spans several slices, typed positions, or returns. It does not define graph semantics or prescribe performed-work order.
+
+It helps a practitioner keep the accepted claim visible while selecting the pattern whose Solution answers the next question. P2W preserves the carried claim; the practitioner or another capable system obtains or amends the downstream result by applying the neighbouring guidance.
 

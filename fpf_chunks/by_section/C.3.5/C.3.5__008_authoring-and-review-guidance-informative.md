@@ -6,12 +6,12 @@ section_id: "C.3.5:7"
 section_title: "Authoring and review guidance (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.5/C.3.5__008_authoring-and-review-guidance-informative.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.3.5 — KindAT — Intentional Abstraction Facet for Kinds (K0…K3)"
   - "C.3.5:7 — Authoring and review guidance (informative)"
-line_start: 56151
-line_end: 56167
+line_start: 58455
+line_end: 58471
 dependencies:
   - "A.2.6"
   - "C.2.2"
@@ -41,9 +41,9 @@ keywords:
 
 #### C.3.5:7.2 - Review questions
 
-1. Is the tagged object the exact local kind rather than its signature, card, candidate, claim, or extension?
+1. Is the tagged object the local kind rather than its signature, card, candidate, claim, or extension?
 2. Does the anchor describe the kind's intentional stance rather than the current number of candidates?
-3. Are proposed F and R changes stated as planning decisions over their actual owners rather than effects of KindAT?
+3. Are proposed F and R changes stated as planning decisions over their owners rather than effects of KindAT?
 4. Does a stable distinction expressed in an adaptation declaration require a separately identified kind and independently obtaining subkind relation?
-5. When cross-context use relies on a KindBridge, does it recover the exact occurrence and separate bridge assertion instead of inferring congruence from the tag?
+5. When cross-context use relies on a KindBridge, does it recover the occurrence and separate bridge assertion instead of inferring congruence from the tag?
 

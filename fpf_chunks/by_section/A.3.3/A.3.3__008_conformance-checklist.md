@@ -6,12 +6,12 @@ section_id: "A.3.3:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3/A.3.3__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.3.3 — U.Dynamics: State-Space and Transition-Law Episteme"
   - "A.3.3:7 — Conformance Checklist"
-line_start: 12211
-line_end: 12240
+line_start: 12640
+line_end: 12669
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -47,7 +47,7 @@ keywords:
 
 ### A.3.3:7 - Conformance Checklist
 
-**CC-A3.3-1 (Membership and identity).** A.3.3 judges one already identified `U.Episteme`. That same individual is `U.Dynamics` only when its exact C.2.1 `EntityOfConcern` is the changing subject and its ClaimGraph, under its effective reference scheme, declares both a state space and a transition law. A.3.3 adds no second identity.
+**CC-A3.3-1 (Membership and identity).** A.3.3 judges one already identified `U.Episteme`. That same individual is `U.Dynamics` only when its C.2.1 `EntityOfConcern` is the changing subject and its ClaimGraph, under its effective reference scheme, declares both a state space and a transition law. A.3.3 adds no second identity.
 
 **CC-A3.3-2 (Local meanings and applicability).** Interpret characteristic names under the effective reference scheme. State the units, operating region, time base, approximation regime, claim scope, qualification window and source-currentness conditions needed to interpret or rely on the model, as claim content or their separately governed values.
 
@@ -57,7 +57,7 @@ keywords:
 
 **CC-A3.3-5 (Transition law).** The law states a relation, map, kernel, equation, rule, learned predictor or simulation rule for the declared time base. Its permitted alternatives, conditions selecting among them and any supplied probability law remain recoverable under :4.4.1.
 
-**CC-A3.3-6 (Observation relation).** Evidence use states how exact Work-side facts when present and separately identified work records, telemetry, measurements, observation records, or source records become observed coordinates. Direct observation is declared rather than assumed.
+**CC-A3.3-6 (Observation relation).** Evidence use states how Work-side facts when present and separately identified work records, telemetry, measurements, observation records, or source records become observed coordinates. Direct observation is declared rather than assumed.
 
 **CC-A3.3-7 (Constraints and applicability).** Before prediction or gate use, state the constraints, invariants, operating region, approximation regime, parameter range, horizon and scale window on which that use depends.
 
@@ -65,7 +65,7 @@ keywords:
 
 **CC-A3.3-9 (Observed facts and calibration).** Attach resource actuals, timestamps and observations to the Work, measurement or source they describe. Relate them to the dynamics through :4.5. Apply its C.2.1 identity and edition conditions when calibration changes the model.
 
-**CC-A3.3-10 (Prediction use).** Predicted Coordinates used for comparison or gating state the exact model edition, domain, horizon, currentness, error or uncertainty, and every observation, validation, sensitivity, stability, or normalization-composition condition required by that consumer's policy. No universal non-expansiveness or commutation test substitutes for the direct decision rule.
+**CC-A3.3-10 (Prediction use).** Predicted Coordinates used for comparison or gating state the model edition, domain, horizon, currentness, error or uncertainty, and every observation, validation, sensitivity, stability, or normalization-composition condition required by that consumer's policy. No universal non-expansiveness or commutation test substitutes for the direct decision rule.
 
 **CC-A3.3-11 (Temporal use).** State temporal aspects through C.27.TA and establish the adequacy required of an authored temporal claim through C.27, as specified in :4.3.
 

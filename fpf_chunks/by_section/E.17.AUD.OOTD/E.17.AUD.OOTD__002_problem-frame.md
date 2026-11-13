@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.17.AUD.OOTD"
-pattern_title: "PublicationUnit Stability Discipline and PublicationUnit Primary-Subject Discipline - publication-unit stability over one primary subject"
+pattern_title: "Clarify the Primary Subject of a Publication Unit (PublicationUnit Primary-Subject Discipline)"
 section_id: "E.17.AUD.OOTD:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.OOTD/E.17.AUD.OOTD__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "E.17.AUD.OOTD — PublicationUnit Stability Discipline and PublicationUnit Primary-Subject Discipline - publication-unit stability over one primary subject"
+  - "E.17.AUD.OOTD — Clarify the Primary Subject of a Publication Unit (PublicationUnit Primary-Subject Discipline)"
   - "E.17.AUD.OOTD:1 — Problem frame"
-line_start: 109863
-line_end: 109878
+line_start: 116616
+line_end: 116631
 dependencies:
   - "A.10"
   - "A.15"
@@ -41,17 +41,17 @@ keywords:
 
 ### E.17.AUD.OOTD:1 - Problem frame
 
-**Use the examples as alternatives.** The quick checks, ordinary declaration, optional diagnostic, heavier extension, and worked slices are alternative aids for one publication unit, not a required sequence. One case may stop after the declaration; another may reopen when outside observations change the honest concern, claim, or downstream use; another may use the neighboring pattern whose instructions fit once approval, work, reliance, or another question becomes primary.
+**Use the examples as alternatives.** The quick checks, ordinary declaration, optional diagnostic, heavier extension, and worked slices are alternative aids for one publication unit, not a required sequence. One case may stop after the declaration; another may reopen when outside observations change the concern, claim, or downstream use the unit can support; another may use the applicable neighboring pattern once approval, work, reliance, or another question becomes primary.
 
 Teams repeatedly write one publication unit that begins with one primary subject and ends with another subject, concern, carried move, or downstream use while still sounding like one unchanged text.
 
 Typical moments include:
 - an architecture note that starts about a system boundary and ends by directing rollout work;
 - an operations review note that starts about an incident episode and ends as an action approval;
-- a requirements or policy note that starts about an exact entity and ends about its carrier or document status;
+- a requirements or policy note that starts about an identified entity and ends about its carrier or document status;
 - an episteme-publication-heavy note that starts about one pattern section or publication form and ends about wider architecture strategy;
-- a comparison sheet that starts about one subject and quietly shifts into engineering-process, approval, work, or reliance pressure.
+- a comparison sheet that starts about one subject and shifts without warning into engineering-process, approval, work, or reliance pressure.
 
 That interpretation instability is usually not caused by one bad sentence alone.
-It is caused by one whole publication unit no longer holding a stable answer to what it is about, which concern it foregrounds, what move it carries, how readers may use it, and what wider work still stays outside.
+It arises because the unit as a whole no longer gives a stable answer to what it is about, which concern it foregrounds, what move it carries, how readers may use it, and what wider work remains outside.
 

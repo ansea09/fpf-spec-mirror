@@ -6,12 +6,12 @@ section_id: "E.8.ECSPF:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8.ECSPF/E.8.ECSPF__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.8.ECSPF — Author an FPF Pattern from an Accepted Evaluation CharacteristicSpace Specification"
   - "E.8.ECSPF:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 98050
-line_end: 98066
+line_start: 103607
+line_end: 103623
 dependencies:
   - "A.19.ECS"
   - "C.25"
@@ -31,7 +31,7 @@ keywords:
 | Anti-pattern | Symptom | Repair |
 |---|---|---|
 | **Score-sheet pattern.** | The pattern is mostly a table of values. | Move evaluated object kind, use, first evaluation use, FPF-publication boundary, and practical consequence into recognition text before the table. |
-| **Checklist-as-solution.** | Users are told only what must be checked. | Put the actual evaluation method and record shape in `Solution`; let checklist rows verify it. |
+| **Checklist-as-solution.** | Users are told only what must be checked. | Put the evaluation method and record shape in `Solution`; let checklist rows check that both are present and usable. |
 | **Publication-form/content collapse.** | The accepted specification, its `CharacteristicSpace`, the pattern, the evaluated object, the later evaluation, and its result are treated as one thing. | State what each is and show that the pattern teaches the accepted specification; none of the other objects becomes the pattern. |
 | **Positive-only case bank.** | Every example passes. | Add below-floor and outside-declared-object-kind boundary cases. |
 | **Undeclared total.** | Ordinal coordinate values are added, averaged, or collapsed into an “overall score”. | Keep the coordinates visible; if a bounded scalarization is separately admitted, name its method, use, any information loss, applicability, and stop or return condition. |
@@ -41,5 +41,5 @@ keywords:
 | **Frozen evaluation publication form.** | The evaluated EntityOfConcern kind, use, use of a cited source, source adoption/adaptation/rejection decision, or coordinate meanings change, but the pattern keeps the old values as if still current. | Reopen A.19.ECS for the changed evaluation specification. Establish whether earlier results remain comparable under the declared basis, need a justified transformation or new evaluation, or no longer support this use. Assert an F.9 Bridge only when its own two-sense relation is needed and obtains. |
 | **Result without required grounds.** | The pattern names coordinates but leaves required values, rationales, evidence basis, or triggered payload unrecoverable in the result. | Restore that content in the result form, preserving the accepted `ResultRowShape` and any serialization required by the receiving use. |
 | **Pattern-quality report as evaluation pattern.** | `E.21` status, all-`4` or all-`5` posture, corpus projection, retrieval evidence, README, ToC, E.11 alignment, monolith parity, landing readiness, or author or reviewer turn correspondence appears anywhere in the pattern as if it were the evaluation method. | Move that evidence to the quality, review, projection, or release carrier and keep the pattern body focused on the evaluation for the declared evaluated object kind. |
-| **Apparatus-overwrapped publication form.** | The evaluation relation is written through ambiguous role, carrier, locus, flow, status, or package words that add no evaluated object kind, coordinate meaning, evidence rule, user-facing action, or exact flow position. | Apply `F.19`; if remaining content still hides a word, head, or use, apply `E.10`, `E.10.ARCH`, `F.18`, or the pattern that defines the affected object or relation. |
+| **Apparatus-overwrapped publication form.** | The evaluation relation is written through ambiguous role, carrier, locus, flow, status, or package words that add no evaluated object kind, coordinate meaning, evidence rule, user-facing action, or exact flow position. | Apply `F.19`. If the meaning of a word or head, or the intended use, remains unclear, apply `E.10`, `E.10.ARCH`, `F.18`, or the pattern that defines the affected object or relation. |
 

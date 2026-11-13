@@ -6,12 +6,12 @@ section_id: "F.0.2.MA:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2.MA/F.0.2.MA__012_sota-echoing.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.0.2.MA — Synthesize and Allocate Method Contributions"
   - "F.0.2.MA:11 — SoTA-Echoing"
-line_start: 118371
-line_end: 118378
+line_start: 125961
+line_end: 125970
 dependencies:
   - "A.3.1.DR"
   - "A.3.1.MR"
@@ -25,7 +25,9 @@ keywords:
 
 ### F.0.2.MA:11 - SoTA-Echoing
 
-For the allocation question, combine source-local conceptual comparison with Method-content and use analysis. F.0.2 supplies the former; A.3.1.DR, A.3.1.QM, A.3.2.DE and the other direct Method-development results supply their respective subjects. In the H/L/W case, this allocation preserves a usable conditional review answer, rejects an unsupported shortcut-Method identification and leaves tool instructions at their source. A generic synthesis note is sufficient when it already supplies those destinations and returns; allocation is useful when one of them remains missing.
+For the allocation question, combine source-local conceptual comparison with Method-content and use analysis. F.0.2 supplies the former; A.3.1.DR, A.3.1.QM, A.3.2.DE and the other direct Method-development results supply their respective subjects.
+
+In the H/L/W case, this allocation preserves a usable conditional review answer, rejects an unsupported shortcut-Method identification and leaves tool instructions at their source. A generic synthesis note is sufficient when it already supplies those destinations and returns; allocation is useful when one of them remains missing.
 
 [Daalhuizen and Cash's Method Content Theory (2021)](https://doi.org/10.1016/j.destud.2021.101018) supplies questions about goal, procedure, rationale, framing and mindset. [Stacey et al. (2025)](https://doi.org/10.1017/dsj.2025.9) reinforces the need to retain the knowledge and use conditions around procedural guidance. Adopt these as source questions; do not turn their different models into a universal field schema or FPF parthood test.
 

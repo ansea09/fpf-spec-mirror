@@ -6,12 +6,12 @@ section_id: "C.41.SR:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.SR/C.41.SR__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.41.SR — Reconcile Checklist Results Across Shared Work"
   - "C.41.SR:2 — Problem"
-line_start: 89679
-line_end: 89684
+line_start: 93947
+line_end: 93952
 dependencies:
   - "A.10"
   - "B.1.5"
@@ -22,7 +22,7 @@ keywords:
 
 ### C.41.SR:2 - Problem
 
-Local summaries compress away the subject, time, description or evidence that another participant needs. A missing assignment is reported as if it were an unknown subject state. A whole-result pass is inferred from constituent passes without examining their actual connection.
+Local summaries compress away the subject, time, description or evidence that another participant needs. A missing assignment is reported as if it were an unknown subject state. A whole-result pass is inferred from constituent passes without examining their connection.
 
 The reconciliation problem is to recover those connections at useful granularity. Recover only the claims and relations needed for that shared use.
 

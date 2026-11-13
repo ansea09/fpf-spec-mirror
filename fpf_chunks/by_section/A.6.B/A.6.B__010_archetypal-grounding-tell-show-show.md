@@ -6,12 +6,12 @@ section_id: "A.6.B:8"
 section_title: "Archetypal Grounding (Tell–Show–Show)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__010_archetypal-grounding-tell-show-show.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:8 — Archetypal Grounding (Tell–Show–Show)"
-line_start: 14992
-line_end: 15352
+line_start: 15465
+line_end: 15863
 dependencies:
   - "A.10"
   - "A.2.3"
@@ -48,7 +48,7 @@ keywords:
   - "The key words MUST"
   - "accountable norms and grants"
   - "actual exercise"
-  - "an individual-duty D- claim MUST name its actual bearer and exact separately obtaining U.Commitment"
+  - "an individual-duty D- claim MUST name its actual bearer and separately obtaining U.Commitment"
   - "and SHALL have their RFC 2119/8174 meanings only when capitalized as shown"
   - "and evaluated results distinct"
   - "as if it were an agent obligation"
@@ -98,12 +98,14 @@ The square prevents accidentally writing handler obligations as laws or treating
 
 #### A.6.B:8.3 - Show #2: ML evaluation protocol boundary (reproducibility discipline)
 
-A published “evaluation protocol” boundary (common in modern ML governance) benefits from strict classification:
+A published “evaluation protocol” boundary (common in modern ML governance) benefits from classification:
 
 * **L:** metric definitions and invariants (e.g., what counts as AUROC; data partition invariants).
 * **A:** admissibility gates (dataset usage-term constraints; pinned environment constraints; seed policy).
 * **D:** checker and author duties (publish required faces; use declared dataset version; retention duties for run evidence carriers).
-* **E:** admitted system `EvaluationRunner-A` performed `MLProtocolEvaluation-T1 : U.Work` over `Model-M1`, `Dataset-D7`, the pinned environment and seed policy, and evaluation window `T`; the application of the AUROC metric defined by the L claim returned `AUROCResult-T1` with `measuredAUROC=0.91`. When a checker, gate, or audit decision needs a replayable source-to-use account for that result, an A.10 evidence-provenance path links it to exact carriers `RunLog-T1`, `DatasetHash-D7`, `EvaluationReport-R1`, and `TraceSet-T1`.
+* **E:** admitted system `EvaluationRunner-A` performed `MLProtocolEvaluation-T1 : U.Work` over `Model-M1`, `Dataset-D7`, the pinned environment and seed policy, and evaluation window `T`; the application of the AUROC metric defined by the L claim returned `AUROCResult-T1` with `measuredAUROC=0.91`.
+
+  When a checker, gate, or audit decision needs a replayable source-to-use account for that result, an A.10 evidence-provenance path links it to carriers `RunLog-T1`, `DatasetHash-D7`, `EvaluationReport-R1`, and `TraceSet-T1`.
 
 The square keeps “must use dataset vX” (D) separate from “evaluation is admissible iff dataset usage terms match” (A), and both separate from “`MLProtocolEvaluation-T1` returned `AUROCResult-T1(measuredAUROC=0.91)`” (E). The report and log carriers may support reliance on that result; producing a carrier is not the measured result.
 
@@ -132,12 +134,12 @@ Use this procedure to recover and express the claims selected through §4.4. The
 * **A** if it declares a **gate predicate**: when a named action or application is admitted under its governing rule (“admissible iff …”). State the condition as a predicate; a duty to satisfy or enforce it is a separate D claim.
   **Guardrails:** `A-*` SHOULD be written in predicate form and MUST NOT (i) use RFC deontic keywords as if it were an agent obligation, (ii) claim that evidence carriers exist (that is `E-*`), or (iii) assign responsibility or enforcement (that is `D-*`).
   *(Do not confuse this with `Signature.Applicability`: applicability scopes intended meaning and intended use; it is not a runtime entry gate.)*
-* **D** if the exact atomic statement states either a generic prescription or an individual duty, recommendation-as-duty, prohibition, or commitment. A permissive sentence enters D only through the **Grant or norm** row below.
-  **Guardrails:** a generic claim names the exact normative episteme and applicable rule content without inventing an individual relation. An individual-duty claim names its actual bearer and exact separately obtaining A.2.8 commitment. A grant claim instead follows the participant and ground test in the **Grant or norm** row. A system-role kind or assignment may be a rule ground but is neither bearer nor deontic relation. Writing a claim alone does not make its object obtain.
+* **D** if the atomic statement states either a generic prescription or an individual duty, recommendation-as-duty, prohibition, or commitment. A permissive sentence enters D only through the **Grant or norm** row below.
+  **Guardrails:** a generic claim names the normative episteme and applicable rule content without inventing an individual relation. An individual-duty claim names its actual bearer and separately obtaining A.2.8 commitment. A grant claim instead follows the participant and ground test in the **Grant or norm** row. A system-role kind or assignment may be a rule ground but is neither bearer nor deontic relation. Writing a claim alone does not make its object obtain.
 * **E** if it reports an actual occurrence, evaluated finding, observed condition or evidence support under §5.4. A claim stating the normative content or obtaining duty or grant itself follows D; an evaluation or occurrence concerning it has its separate E claim.
-  **Predicate-specific minimum:** name the exact `E-*` predicate and object, then the actual work, evaluation, or observation, scope/window, comparison frame, and other settling conditions that this predicate needs. Add an evidence or source-use relation when the receiving use needs that support; identify a carrier, schema, viewpoint or consumer only when that particular item matters to the use.
+  **Predicate-specific minimum:** name the `E-*` predicate and object, then the actual work, evaluation, or observation, scope/window, comparison frame, and other settling conditions that this predicate needs. Add an evidence or source-use relation when the receiving use needs that support; identify a carrier, schema, viewpoint or consumer only when that item matters to the use.
   **Guardrails:** `E-*` SHOULD NOT use RFC deontic keywords and MUST NOT hide a gate predicate (that is `A-*`). A reference to `D-*` follows §6.4: identify the evidence target or normative evaluation input, then establish the E result under its own predicate.
-  *(If the source sentence is “Role SHALL measure, retain, or expose …”, first decide whether it is a generic prescription about an exact system-role kind or a claim about one actual bearer. Classify either as **D**, but assert an individual commitment only on the second route.)*
+  *(If the source sentence is “Role SHALL measure, retain, or expose …”, first decide whether it is a generic prescription about a system-role kind or a claim about one actual bearer. Classify either as **D**, but assert an individual commitment only on the second route.)*
 
 **Step 3 — Triangle decomposition.** Recover the observability clause's predicate
 and modality under §6.3. Use the A/D/E triangle only when the source states an
@@ -145,7 +147,7 @@ entry condition, a generic prescription or individual duty, and an actual
 observation or result:
 
 * **A**: the condition for the named action or application to be admitted,
-* **D → A**: which exact policy prescribes keeping or enforcing the predicate, or which actual bearer has that separately instituted duty; any responsibility relation is stated separately under its direct domain predicate
+* **D → A**: which policy prescribes keeping or enforcing the predicate, or which actual bearer has that separately instituted duty; any responsibility relation is stated separately under its direct domain predicate
 * **E → A**: the actual observation or result and, when needed, the evidence or
   traces used to adjudicate the predicate.
 
@@ -156,19 +158,21 @@ or plan without inventing an actual E result.
 
 | Branch | Ask this plain question | Square result | Subject pattern and what closes the row |
 |---|---|---|---|
-| **Grant or norm** | Does the sentence state a generic prescription, claim that one actual bearer has an individual duty, or tell a named beneficiary which action is permitted and under what conditions? | **D** | Use `A.2.8` for the generic-prescription or individual-duty route; only the individual route cites one separately obtaining commitment. For a grant use `A.2.8.PER`: name the exact grant occurrence, beneficiary, action, scope/window, and policy-valid A.2.9 act with its performer and assignment; confirm current policy conditions and absence of valid revocation or supersession; cite evidence needed before reliance. |
-| **Gate predicate or result** | Does the sentence state the condition for entry, or claim one actual `A.21` decision for a bounded action? | **A** for the entry predicate; **E** for the actual decision result | Keep the entry predicate as its own `A-*` claim. For an actual decision, use one separate `E-*` claim naming the exact `GateDecisionResult`, bounded action, applicable profile application, complete required `GateCheckApplicationResult` set, scope/window, `decisionValue`, action consequence, and recheck condition. A grant, finding, or conflict is only an input; neither the predicate nor the result creates or resolves it. |
+| **Grant or norm** | Does the sentence state a generic prescription, claim that one actual bearer has an individual duty, or tell a named beneficiary which action is permitted and under what conditions? | **D** | Use `A.2.8` for the generic-prescription or individual-duty route; only the individual route cites one separately obtaining commitment. For a grant use `A.2.8.PER`: name the grant occurrence, beneficiary, action, scope/window, and policy-valid A.2.9 act with its performer and assignment; confirm current policy conditions and absence of valid revocation or supersession; cite evidence needed before reliance. |
+| **Gate predicate or result** | Does the sentence state the condition for entry, or claim one actual `A.21` decision for a bounded action? | **A** for the entry predicate; **E** for the actual decision result | Keep the entry predicate as its own `A-*` claim. For an actual decision, use one separate `E-*` claim naming the `GateDecisionResult`, bounded action, applicable profile application, complete required `GateCheckApplicationResult` set, scope/window, `decisionValue`, action consequence, and recheck condition. A grant, finding, or conflict is only an input; neither the predicate nor the result creates or resolves it. |
 | **Actual exercise** | Did this dated Work match the named grant's action and beneficiary while that grant was in force? | **E** | Use `A.2.8.PER PermissionExerciseRelation@Context`: name the Work, grant occurrence, performer and the beneficiary-matching ground, scope and interval. Cite an assignment or on-behalf-of relation when that match depends on it. A failed match means that exercise relation does not obtain. |
 | **Weak evaluation or non-violation** | Did an evaluation of a current, sufficiently complete normative frame find no applicable prohibition before action, or no violation in the actual Work? | **E** | Use `NonProhibitionFinding@Context` or `NonViolationFinding@Context`, its frame, subject/action or actual Work, scope and window. Name a separate evaluation Work only when a dated evaluation occurrence is claimed or required by the receiving use. A stale or incomplete frame returns `unresolved`. |
-| **Conflict** | Do a current grant and norm cover the same case, and has a rule or authorized decision actually selected the outcome? | **E** | Use `A.2.8.PER PermissionNormConflictFinding@Context`. Cite the applicable selecting rule or the admitted system's authorized dated decision Work and current resolution result; otherwise keep the finding `unresolved`. |
+| **Conflict** | Do a current grant and norm cover the same case, and has a rule or authorized decision selected the outcome? | **E** | Use `A.2.8.PER PermissionNormConflictFinding@Context`. Cite the applicable selecting rule or the admitted system's authorized dated decision Work and current resolution result; otherwise keep the finding `unresolved`. |
 | **Source or display only** | Does the sentence only say that a permit, badge, registry entry, message, or carrier exists, displays, or evidences something? | **E** for an observed carrier/evidence claim; **L** for its definition | Use §5.4's evidence-use route and the applicable publication or carrier pattern for the relation being claimed. Visibility or publication alone establishes no grant, exercise, finding or resolution. |
 
 Choose one row. If one sentence answers two questions, split it before classification. If the sentence is not permission-like, do not use this branch. The branch classifies claims and selects existing subject patterns; it creates no `permission result` umbrella. Use the filled case in §8.4.5.4 when a concrete model is needed; point back to that case rather than adding another pattern list.
 
-**Guideline.** Keep the gate predicate separate from the observations and results used to evaluate it. Write the predicate in `A-*`; state an actual observation or result in `E-*` and reference the gate when the result concerns its application (`E → A`). An `A-*` predicate may consume a separately established result under §5.2; express a material dependency by reference under §6.1. That reference does not establish the result or a gate decision.
+**Guideline.** Keep the gate predicate separate from the observations and results used to evaluate it. Write the predicate in `A-*`; state an actual observation or result in `E-*` and reference the gate when the result concerns its application (`E → A`).
+
+An `A-*` predicate may consume a separately established result under §5.2; express a material dependency by reference under §6.1. That reference does not establish the result or a gate decision.
 
 **Step 4 — Link by ID or canonical location.** Apply the
-cross-quadrant restrictions in §6.4, including its explicitly informative-note
+cross-quadrant restrictions in §6.4, including its informative-note
 exception for L references to A/D/E. Same-quadrant references remain available.
 
 **Common link motifs (informative).** Boundary rewrites use `D→A`, `E→A`, `D→E`, `A/E→L`, and `D→L`; `A→D/E` supplies a stated gate input, while `E→D` identifies an evidence target or normative evaluation input under §6.4.
@@ -176,8 +180,12 @@ exception for L references to A/D/E. Same-quadrant references remain available.
 **Step 5 — Bind references (minimal A.7 discipline).**
 
 * Place **L** claims in `Signature.Laws` (and mechanism-local semantic laws if present). Keep **A** claims in the canonical source of their governing admission rule: mechanism applications use `Mechanism.AdmissibilityConditions`; A.21 gates use the applicable profile rule.
-* Bind a generic **D** claim to its exact normative episteme and applicable rule content. Bind an individual-duty **D** claim to its actual duty-bearing System or separately governed party and exact `U.Commitment`; cite an assignment only when the constitutive rule uses it as a ground. State responsibility and authority, when claimed, through their own admitted direct relations or exact missing governors. Prefer ID or canonical-location references rather than restating `L-*` or `A-*` content.
-* Bind each **E** claim first to its exact predicate/object and to the actual work, evaluation, observation, scope/window, comparison frame, and other conditions that settle that predicate. Add a carrier/schema, evidence or source-use relation, viewpoint, and consumer only when a receiving reliance decision depends on them; a claim about a carrier's own existence or condition names the carrier as its object.
+* Bind a generic **D** claim to its normative episteme and applicable rule content.
+
+  Bind an individual-duty **D** claim to its actual duty-bearing System or separately governed party and `U.Commitment`; cite an assignment only when the constitutive rule uses it as a ground.
+
+  State responsibility and authority, when claimed, through their own admitted direct relations or missing governors. Prefer ID or canonical-location references rather than restating `L-*` or `A-*` content.
+* Bind each **E** claim first to its predicate/object and to the actual work, evaluation, observation, scope/window, comparison frame, and other conditions that settle that predicate. Add a carrier/schema, evidence or source-use relation, viewpoint, and consumer only when a receiving reliance decision depends on them; a claim about a carrier's own existence or condition names the carrier as its object.
 
 **Optional drift-control.** Add each L/A/D/E-classified claim verbatim to a Claim Register row (A.6.B:7) with its canonical location and references when this helps maintain faithful faces.
 
@@ -216,7 +224,9 @@ teaching aid.
 
 ###### A.6.B:8.4.3.2 - Atomize + Classify (L/A/D/E)
 
-The draft leaves open whether *guarantees* states a target, an obtaining duty or an observed result. The author first recovers the receiving question: the service reader wants to know what the dated evaluation established about latency. Recover the measurement definition, admitted operating envelope, actual evaluation and evidence support from the named sources. These are additional premises of this constructed case; the draft alone leaves them unresolved.
+The draft leaves open whether *guarantees* states a target, an obtaining duty or an observed result. The author first recovers the receiving question: the service reader wants to know what the dated evaluation established about latency.
+
+Recover the measurement definition, admitted operating envelope, actual evaluation and evidence support from the named sources. These are additional premises of this constructed case; the draft alone leaves them unresolved.
 
 **Explain the dated measurement.** Under steps 2–3 of §4.4, the observed value requires its computation meaning, operating conditions and actual basis. The author therefore selects these claims:
 
@@ -230,14 +240,16 @@ In this expanded case, the evaluation mechanism admits assessment of “p95 < 20
 *(References L-API-01 for definition.)*
 
 **E-API-01 (Evidence / carriers).**
-For `LatencyEvaluation-T1` over `Γ_time=[t1..t2]`, actual carriers `TraceBatch-T1`, `Histogram-H1`, `DashboardSnapshot-D1`, and `SamplingConfiguration-S1` were produced or observed under the operating and sampling conditions in `A-API-01`, using the metric and computation definition in `L-API-01`. An A.10 evidence-provenance path links those exact carriers to `LatencyEvaluation-T1` and its `LatencyResult-T1`.
+For `LatencyEvaluation-T1` over `Γ_time=[t1..t2]`, carriers `TraceBatch-T1`, `Histogram-H1`, `DashboardSnapshot-D1`, and `SamplingConfiguration-S1` were produced or observed under the operating and sampling conditions in `A-API-01`, using the metric and computation definition in `L-API-01`. An A.10 evidence-provenance path links those carriers to `LatencyEvaluation-T1` and its `LatencyResult-T1`.
 *(References `A-API-01` and `L-API-01` for the operating conditions and metric definition.)*
 
 **E-API-02 (Observed value claim).**
 For interval `Γ_time = [t1..t2]` under conditions pinned to `A-API-01` and using carriers in `E-API-01`, `LatencyEvaluation-T1` produced `LatencyResult-T1` with observed `p95_latency = 173ms` (computed per `L-API-01`).
 *(References A-API-01, L-API-01 and E-API-01.)*
 
-**Return to the measurement question.** The author writes: “During `[t1..t2]`, the observed p95 latency was `173ms` under the operating and sampling conditions in **A-API-01**, using the definition in **L-API-01** and the evaluation evidence in **E-API-01** (**E-API-02**).” This connects the value to the conditions under which the reader can interpret it. The endpoint declaration and duty bearers do not change this bounded measurement answer. If the reader asks about another region or sampling method, return to the applicability of **A-API-01** and the basis of the corresponding evaluation.
+**Return to the measurement question.** The author writes: “During `[t1..t2]`, the observed p95 latency was `173ms` under the operating and sampling conditions in **A-API-01**, using the definition in **L-API-01** and the evaluation evidence in **E-API-01** (**E-API-02**).”
+
+This connects the value to the conditions under which the reader can interpret it. The endpoint declaration and duty bearers do not change this bounded measurement answer. If the reader asks about another region or sampling method, return to the applicability of **A-API-01** and the basis of the corresponding evaluation.
 
 **Changed question: explain the service assurance arrangement.** The reader now needs the interface being covered, who owes the latency performance, who must publish incident notes and how the supporting evidence remains available. The author recovers the declared interface and the separately obtaining commitments. Those premises select the following additional claims; their inclusion follows the new question:
 
@@ -246,20 +258,20 @@ The API endpoints and parameters are as declared (including parameter passing di
 *(Signature-level structure.)*
 
 **D-API-01 (Commitment).**
-Admitted service-maintaining system `ServiceOperations-A` is the actual duty bearer of separately obtaining `LatencyCommitment-API-01 : U.Commitment`; under that commitment it SHALL meet `p95_latency < 200ms` when `A-API-01` holds, adjudicated per `L-API-01` using the carriers and observation conditions in `E-API-01`.
+Admitted service-maintaining system `ServiceOperations-A` is the duty bearer of separately obtaining `LatencyCommitment-API-01 : U.Commitment`; under that commitment it SHALL meet `p95_latency < 200ms` when `A-API-01` holds, adjudicated per `L-API-01` using the carriers and observation conditions in `E-API-01`.
 *(References L-API-01 and A-API-01 by ID; does not restate them.)*
 
 **D-API-02 (Operational duty).**
-Admitted operations system `SRE-A` is the actual duty bearer of separately obtaining `IncidentNoteCommitment-API-02 : U.Commitment`; it SHALL publish incident notes when `LatencyCommitment-API-01` is violated and SHALL avoid claiming compliance outside `A-API-01`.
+Admitted operations system `SRE-A` is the duty bearer of separately obtaining `IncidentNoteCommitment-API-02 : U.Commitment`; it SHALL publish incident notes when `LatencyCommitment-API-01` is violated and SHALL avoid claiming compliance outside `A-API-01`.
 *(References D-API-01 and A-API-01 by ID.)*
 
 **D-API-03 (Duty-to-evidence linkage).**
-Admitted telemetry-maintaining system `TelemetryOperations-A` is the actual duty bearer of separately obtaining `TelemetryRetentionCommitment-API-03 : U.Commitment`; it SHALL retain or expose the actual carriers referenced in `E-API-01` for the audit window required by policy.
+Admitted telemetry-maintaining system `TelemetryOperations-A` is the duty bearer of separately obtaining `TelemetryRetentionCommitment-API-03 : U.Commitment`; it SHALL retain or expose the carriers referenced in `E-API-01` for the audit window required by policy.
 *(References E-API-01 by ID.)*
 
-###### A.6.B:8.4.3.3 - Triangle decomposition (explicit)
+###### A.6.B:8.4.3.3 - Triangle decomposition
 
-For that assurance question, the author uses §6 to connect the declared condition, the duties and the actual observations. Each link explains one dependency of the assurance account:
+For that assurance question, the author uses §6 to connect the declared condition, the duties and the observations. Each link explains one dependency of the assurance account:
 
 * **A-API-01** is “the predicate”.
 * **D-API-01 → A-API-01** states the commitment under the gate or envelope.
@@ -311,23 +323,25 @@ In this expanded case, the evaluation mechanism admits assessment of the coaxial
 *(Gate predicate; can be checked using evidence, but is not itself evidence.)*
 
 **E-FIT-01 (Evidence carriers).**
-For `CoaxialityEvaluation-L123` over lot `L123` and `Γ_time=[t1..t2]`, actual carriers `CMMReport-L123`, `CalibrationCertificate-C7`, `AssemblyLog-L123`, `TemperatureTrace-L123`, and `DatumSchemePin-D4` were produced or observed. An A.10 evidence-provenance path links those exact carriers to `CoaxialityEvaluation-L123` and its `CoaxialityResult-L123`.
+For `CoaxialityEvaluation-L123` over lot `L123` and `Γ_time=[t1..t2]`, carriers `CMMReport-L123`, `CalibrationCertificate-C7`, `AssemblyLog-L123`, `TemperatureTrace-L123`, and `DatumSchemePin-D4` were produced or observed. An A.10 evidence-provenance path links those carriers to `CoaxialityEvaluation-L123` and its `CoaxialityResult-L123`.
 *(References `A-FIT-01` and `L-FIT-01`; avoids RFC deontics.)*
 
 **E-FIT-02 (Observed).**
 For lot `L123` and window `Γ_time=[t1..t2]`, under conditions pinned to `A-FIT-01` and using carriers in `E-FIT-01`, `CoaxialityEvaluation-L123` produced `CoaxialityResult-L123`: measured coaxiality was within tolerance zone `T` (interpreted per `L-FIT-01`).
 *(References A-FIT-01, L-FIT-01, and E-FIT-01.)*
 
-The resulting account states: “For lot `L123` during `[t1..t2]`, the evaluation under **A-FIT-01** found coaxiality within tolerance zone `T`, interpreted through **L-FIT-01** and supported by the carriers in **E-FIT-01** (**E-FIT-02**).” If the datum scheme changes, the author reopens the interpretation and fitness of the measurement for that scheme. The earlier finding retains its stated datum and conditions.
+The resulting account states: “For lot `L123` during `[t1..t2]`, the evaluation under **A-FIT-01** found coaxiality within tolerance zone `T`, interpreted through **L-FIT-01** and supported by the carriers in **E-FIT-01** (**E-FIT-02**).”
+
+If the datum scheme changes, the author reopens the interpretation and fitness of the measurement for that scheme. The earlier finding retains its stated datum and conditions.
 
 **Further question: explain the production and evidence duties.** A reader arranging release and later reliance also needs to know who is bound to maintain the process envelope and retain its evidence. Recovering the separately obtaining commitments supplies these additional claims:
 
 **D-FIT-01 (Duty).**
-Admitted production-engineering system `ProcessEngineer-A` is the actual duty bearer of separately obtaining `ProcessEnvelopeCommitment-FIT-01 : U.Commitment`; it SHALL ensure `A-FIT-01` holds for the production lot and SHALL not release the lot for use when `A-FIT-01` is false.
+Admitted production-engineering system `ProcessEngineer-A` is the duty bearer of separately obtaining `ProcessEnvelopeCommitment-FIT-01 : U.Commitment`; it SHALL ensure `A-FIT-01` holds for the production lot and SHALL not release the lot for use when `A-FIT-01` is false.
 *(References A-FIT-01.)*
 
 **D-FIT-02 (Duty-to-evidence linkage).**
-Admitted quality-engineering system `QualityEngineer-A` is the actual duty bearer of separately obtaining `FitEvidenceRetentionCommitment-02 : U.Commitment`; it SHALL retain or expose the carriers referenced in `E-FIT-01` for the production lot.
+Admitted quality-engineering system `QualityEngineer-A` is the duty bearer of separately obtaining `FitEvidenceRetentionCommitment-02 : U.Commitment`; it SHALL retain or expose the carriers referenced in `E-FIT-01` for the production lot.
 *(References E-FIT-01 by ID.)*
 
 ###### A.6.B:8.4.4.3 - Readable recomposition
@@ -353,30 +367,40 @@ For this broader question the author connects the definition, admissibility, dut
 
 ###### A.6.B:8.4.5.2 - Atomize + Classify
 
-With only the draft, ask which approval is claimed and which subsequent action the reader needs to decide. Here the question is whether the project may start execution. Recover the sponsor-approval definition, entry predicate, four actual check-application results and evidence path from the named sources. These additional premises let the author connect the prerequisite meanings to a current entry decision. The separately obtaining coordinator duty is needed for the broader question of who is bound to maintain this arrangement; it is also supplied in the constructed case below.
+With only the draft, ask which approval is claimed and which subsequent action the reader needs to decide. Here the question is whether the project may start execution. Recover the sponsor-approval definition, entry predicate, four actual check-application results and evidence path from the named sources. These additional premises let the author connect the prerequisite meanings to a current entry decision.
+
+The separately obtaining coordinator duty is needed for the broader question of who is bound to maintain this arrangement; it is also supplied in the constructed case below.
 
 **L-PRJ-01 (Definition).**
 For this case, the project-entry policy defines `RequiredProjectApproval(project)` as sponsor sign-off on the identified project. Risk-review completion, budget availability and staffing are separate prerequisites.
 
 **A-PRJ-01 (Gate predicate: stage entry).**
 For starting execution work, `ExecutionAdmissible(project)` holds iff `RequiredProjectApproval(project)` and the required prerequisites are satisfied: risk review completed, budget line exists and key roles staffed.
-*(This is the real “may start work” entry predicate; it references L-PRJ-01 for what counts as approvals. If “approved” is meant as permission rather than gate evidence, use the permission-word branch in §8.4.1. An approval registry entry or evidence carrier alone remains source/display evidence and is not a grant.)*
+*(This is the “may start work” entry predicate; it references L-PRJ-01 for what counts as approvals. If “approved” is meant as permission rather than gate evidence, use the permission-word branch in §8.4.1. An approval registry entry or evidence carrier alone remains source/display evidence and is not a grant.)*
 
 **D-PRJ-01 (Duty).**
-Admitted project-coordination system `ProjectCoordinator-A` is the actual duty bearer of separately obtaining `ProjectEntryCommitment-PRJ-01 : U.Commitment`; it SHALL not initiate execution unless `A-PRJ-01` holds, SHALL keep the approval registry current, and SHALL retain or expose the evidence carriers referenced in `E-PRJ-02`.
+Admitted project-coordination system `ProjectCoordinator-A` is the duty bearer of separately obtaining `ProjectEntryCommitment-PRJ-01 : U.Commitment`; it SHALL not initiate execution unless `A-PRJ-01` holds, SHALL keep the approval registry current, and SHALL retain or expose the evidence carriers referenced in `E-PRJ-02`.
 *(References A-PRJ-01 and E-PRJ-02 by ID.)*
 
 **E-PRJ-01 (Gate decision result).**
-At `Γ_time=snapshot(t)`, `ProjectEntryGateResult-P-t : GateDecisionResult` has `gateRef=ProjectEntryGate-P`, `decisionSubjectRef=ProjectEntryClaim-P-t`, `boundedActionRef=StartExecution-P`, and `profileApplicationRef=ProjectEntryProfileApplication-P-t`. That application of `ProjectEntryProfile-v3` uses the complete required set `{ApprovalCheck-P-t, RiskReviewCheck-P-t, BudgetCheck-P-t, StaffingCheck-P-t} : GateCheckApplicationResult[]`; each exact application reports its checked subject and criterion, has `sourceOutcome=satisfied`, and maps to `pass`. The result records `decisionValue=pass`, action consequence “start `StartExecution-P` within the admitted project-entry window”, the project-entry scope and window, and recheck on any changed approval, risk-review, budget, staffing, profile, scope, or window.
-*(This actual `E-*` result applies the inputs named by `A-PRJ-01`; it is neither the `A-*` predicate nor performed execution Work.)*
+At `Γ_time=snapshot(t)`, `ProjectEntryGateResult-P-t : GateDecisionResult` has `gateRef=ProjectEntryGate-P`, `decisionSubjectRef=ProjectEntryClaim-P-t`, `boundedActionRef=StartExecution-P`, and `profileApplicationRef=ProjectEntryProfileApplication-P-t`.
+
+That application of `ProjectEntryProfile-v3` uses the complete required set `{ApprovalCheck-P-t, RiskReviewCheck-P-t, BudgetCheck-P-t, StaffingCheck-P-t} : GateCheckApplicationResult[]`; each application reports its checked subject and criterion, has `sourceOutcome=satisfied`, and maps to `pass`.
+
+The result records `decisionValue=pass`, action consequence “start `StartExecution-P` within the admitted project-entry window”, the project-entry scope and window, and recheck on any changed approval, risk-review, budget, staffing, profile, scope, or window.
+*(This `E-*` result applies the inputs named by `A-PRJ-01`; it is neither the `A-*` predicate nor performed execution Work.)*
 
 **E-PRJ-02 (Evidence for reliance).**
-For reliance on `E-PRJ-01`, the exact observed carrier set is `{DecisionRecord-R7, MeetingMinutes-M3, BudgetLine-B4, StaffingAssignments-S2, GateChecklistSnapshot-G9}`. An A.10 evidence-provenance path links those carriers to the four exact `GateCheckApplicationResult` values and `ProjectEntryGateResult-P-t`. `GateChecklistSnapshot-G9` displays the result; its presence alone establishes neither a check result nor the gate decision.
+For reliance on `E-PRJ-01`, the observed carrier set is `{DecisionRecord-R7, MeetingMinutes-M3, BudgetLine-B4, StaffingAssignments-S2, GateChecklistSnapshot-G9}`. An A.10 evidence-provenance path links those carriers to the four `GateCheckApplicationResult` values and `ProjectEntryGateResult-P-t`. `GateChecklistSnapshot-G9` displays the result; its presence alone establishes neither a check result nor the gate decision.
 *(References `A-PRJ-01` and `E-PRJ-01`; avoids RFC deontics.)*
 
 ###### A.6.B:8.4.5.3 - Readable recomposition
 
-**Answer the entry question.** The author uses **L-PRJ-01** and **A-PRJ-01** to interpret the prerequisites, **E-PRJ-01** for the actual decision and **E-PRJ-02** for the support needed before reliance. The answer is: “At snapshot `t`, the project-entry decision is `pass`, allowing `StartExecution-P` within the stated window (**E-PRJ-01**, supported by **E-PRJ-02**). Recheck when a prerequisite or the decision's profile, scope or window changes.” A changed budget check returns the reader to the affected admission decision. The definition of sponsor approval remains usable.
+**Answer the entry question.** The author uses **L-PRJ-01** and **A-PRJ-01** to interpret the prerequisites, **E-PRJ-01** for the decision and **E-PRJ-02** for the support needed before reliance.
+
+The answer is: “At snapshot `t`, the project-entry decision is `pass`, allowing `StartExecution-P` within the stated window (**E-PRJ-01**, supported by **E-PRJ-02**). Recheck when a prerequisite or the decision's profile, scope or window changes.”
+
+A changed budget check returns the reader to the affected admission decision. The definition of sponsor approval remains usable.
 
 **Explain the wider arrangement when requested.** Adding **D-PRJ-01** answers who has the project-entry and registry-maintenance duties. The following recomposition addresses that wider question:
 
@@ -385,7 +409,7 @@ For reliance on `E-PRJ-01`, the exact observed carrier set is `{DecisionRecord-R
 * The required sponsor approval is defined by `L-PRJ-01`; risk review, budget and staffing remain separate prerequisites.
 * “May start execution” is a gate predicate: `A-PRJ-01`.
 * `ProjectCoordinator-A`'s project-entry duty: `D-PRJ-01`.
-* The actual A.21 gate result is `E-PRJ-01`; its bounded A.10 evidence support is `E-PRJ-02`.
+* The A.21 gate result is `E-PRJ-01`; its bounded A.10 evidence support is `E-PRJ-02`.
 
 **Plain paragraph:**
 “In this expanded case, the required sponsor approval has the meaning defined in **L-PRJ-01**. Together with the separate risk-review, budget and staffing prerequisites, it supplies the inputs to the entry predicate **A-PRJ-01**. `ProjectCoordinator-A` has the project-entry and registry-maintenance duties stated in **D-PRJ-01**. At snapshot `t`, the current A.21 profile application maps every required check-application result to `pass`; **E-PRJ-01** records `decisionValue=pass` with the action consequence ‘start `StartExecution-P` within the stated window’, and **E-PRJ-02** supplies the evidence path for reliance on that result.”
@@ -394,27 +418,41 @@ For reliance on `E-PRJ-01`, the exact observed carrier set is `{DecisionRecord-R
 
 Apply §4.4 to each receiving question in this case. To explain the current grant, connect its instituting basis **E-CAL-01** to **D-CAL-01**. For an entry decision, also recover the entry predicate and the actual decision with its applicable inputs. A question about whether the technician used the grant selects **E-CAL-02–03**; later compliance and renewed entry require their own findings below. The detailed permission branch in §8.4.1 explains these selections. Preserve the distinct claims so a later question can use its own grounds.
 
-**E-CAL-01 (Instituting communicative Work).** Admitted system `MaintenanceCoordinator-A` performed dated `CalibrationGrantAct-17 : U.SpeechAct` under `MaintenanceCoordinator-A@DayShift`; that obtaining assignment has the system as holder and covers the act. In this filled case, `CalibrationGrantPolicy-v4` does not require a separate authority relation, so none is asserted. The assignment supplies no authority and performs no act. `CalibrationGrantAct-17` satisfies the policy in `PlantCalibrationContext` and is the actual instituting Work. A policy variant that does require grant authority must cite one exact obtaining authority relation under its direct predicate or stop at `missing-governor[grant authority]`.
+**E-CAL-01 (Instituting communicative Work).** Admitted system `MaintenanceCoordinator-A` performed dated `CalibrationGrantAct-17 : U.SpeechAct` under `MaintenanceCoordinator-A@DayShift`; that obtaining assignment has the system as holder and covers the act. In this filled case, `CalibrationGrantPolicy-v4` does not require a separate authority relation, so none is asserted. The assignment supplies no authority and performs no act. `CalibrationGrantAct-17` satisfies the policy in `PlantCalibrationContext` and is the instituting Work.
 
-**D-CAL-01 (Grant position).** `MaintenanceCalibrationGrant-17 : GrantedPermissionRelation@Context`, instituted by `CalibrationGrantAct-17`—the actual speech act stated in `E-CAL-01`—permits beneficiary `MaintenanceTechnicianSystemRole` to run `CalibrationProcedure-v3` in Zone 8 during `ServiceWindow-17`. `CalibrationGrantPolicy-v4` remains current, the grant still covers that system-role kind, procedure, zone, and window, and no valid revocation or supersession has ended this occurrence; this `D-*` claim records the grant but does not institute it.
+A policy variant that does require grant authority must cite one obtaining authority relation under its direct predicate or stop at `missing-governor[grant authority]`.
+
+**D-CAL-01 (Grant position).** `MaintenanceCalibrationGrant-17 : GrantedPermissionRelation@Context`, instituted by `CalibrationGrantAct-17`—the speech act stated in `E-CAL-01`—permits beneficiary `MaintenanceTechnicianSystemRole` to run `CalibrationProcedure-v3` in Zone 8 during `ServiceWindow-17`. `CalibrationGrantPolicy-v4` remains current, the grant covers that system-role kind, procedure, zone, and window, and no valid revocation or supersession has ended this occurrence; this `D-*` claim records the grant but does not institute it.
 
 **A-CAL-01 (Gate predicate).** `CalibrationEntryAdmissible(plan, checkTime)` holds only if `MaintenanceCalibrationGrant-17` is current for the plan's beneficiary, action, zone, and time and no applicable permission/norm conflict finding is `unresolved`. The predicate takes those inputs; it creates neither the grant, a conflict result, nor an actual gate decision.
 
-**E-CAL-02 (Actual Work and actor).** Through its A.13 core, admitted system `Tech-17` is the exact actual performer for this case under obtaining assignment `Tech-17@Shift-B`, whose holder is `Tech-17` and whose extent covers the early part of `ServiceWindow-17`. A.15.1 independently admits dated `CalibrationWork-17B : U.Work` from that performer, its Method, extent, and containing-System facts. Because this filled case expressly claims precise assignment-bound attribution, F.6 separately relates `CalibrationWork-17B` to that same assignment. The assignment neither acts nor identifies the performer. If F.6 is not established, the under-assignment claim remains unresolved; if the relation is shown not to obtain, that claim is refuted. Neither alone overturns the independently admitted Work. If the attribution finding questions a premise consumed by Work admission, recheck that premise and the dependent claims.
+**E-CAL-02 (Actual Work and actor).** Through its A.13 core, admitted system `Tech-17` is the performer for this case under obtaining assignment `Tech-17@Shift-B`, whose holder is `Tech-17` and whose extent covers the early part of `ServiceWindow-17`. A.15.1 independently admits dated `CalibrationWork-17B : U.Work` from that performer, its Method, extent, and containing-System facts.
+
+Because this filled case expressly claims precise assignment-bound attribution, F.6 separately relates `CalibrationWork-17B` to that same assignment. The assignment neither acts nor identifies the performer.
+
+If F.6 is not established, the under-assignment claim remains unresolved; if the relation is shown not to obtain, that claim is refuted. Neither alone overturns the independently admitted Work. If the attribution finding questions a premise consumed by Work admission, recheck that premise and the dependent claims.
 
 **E-CAL-03 (Optional exercise claim).** Because this case asks whether the grant was used, `CalibrationExercise-17B : PermissionExerciseRelation@Context` connects `CalibrationWork-17B` to `MaintenanceCalibrationGrant-17`: the Work instantiates `CalibrationProcedure-v3`; `Tech-17@Shift-B` is an assignment occurrence whose declared species uses `MaintenanceTechnicianSystemRoleKindDomain` as its assigned-kind domain, and the occurrence supplies `MaintenanceTechnicianSystemRole` as the value admitted by that domain; and the Work occurs in Zone 8 within `ServiceWindow-17` while the grant is current. If the action or beneficiary test failed, this exercise relation would not obtain.
 
-**D-CAL-02 (Exercise non-use boundary).** The authoring rule says to add `E-CAL-03` only when the reader needs to know whether the grant was exercised; otherwise stop with the separately named grant and Work. This is a generic prescription for boundary text, not a claim that one particular author bears an individual `U.Commitment`.
+**D-CAL-02 (Exercise non-use boundary).** The authoring rule says to add `E-CAL-03` only when the reader needs to know whether the grant was exercised; otherwise stop with the separately named grant and Work. This is a generic prescription for boundary text, not a claim that one author bears an individual `U.Commitment`.
 
-**E-CAL-04 (Later non-violation finding).** Through its A.13 core, admitted system `ComplianceEvaluator-4` is the exact actual performer under obtaining assignment `ComplianceEvaluator-4@QualityShift`. A.15.1 independently admits dated `CalibrationComplianceEvaluation-17B : U.Work`; because this finding expressly preserves precise assignment-bound attribution, F.6 separately relates that Work to the same assignment. The Work checked `CalibrationWork-17B` against current `PlantCalibrationNormativeFrame-17`, explicitly complete enough for this technician, procedure, zone, and evaluation window, and returned `CalibrationNonViolation-17B : NonViolationFinding@Context(result=nonViolating)`. A stale or insufficient frame would return `unresolved`. If F.6 is not established, the attribution remains unresolved; if the relation is shown not to obtain, that attribution claim is refuted. Missing or failed attribution alone does not overturn independently admitted Work or an independently established evaluation result. If the attribution finding questions a premise used for Work admission or the evaluation, recheck that premise and the dependent claims.
+**E-CAL-04 (Later non-violation finding).** Through its A.13 core, admitted system `ComplianceEvaluator-4` is the performer under obtaining assignment `ComplianceEvaluator-4@QualityShift`. A.15.1 independently admits dated `CalibrationComplianceEvaluation-17B : U.Work`; because this finding expressly preserves precise assignment-bound attribution, F.6 separately relates that Work to the same assignment.
 
-**E-CAL-05 (Evidence for reliance).** An A.10 evidence-provenance path links the exact `CalibrationNonViolation-17B` finding to `CalibrationComplianceEvaluation-17B`, `ComplianceEvaluator-4@QualityShift`, `CalibrationRunLog-17B`, the log's source and currentness relations, and the bounded audit context. The path supports reliance on the finding; the log, assignment, and path do not perform the evaluation or create its result.
+The Work checked `CalibrationWork-17B` against current `PlantCalibrationNormativeFrame-17`, complete enough for this technician, procedure, zone, and evaluation window, and returned `CalibrationNonViolation-17B : NonViolationFinding@Context(result=nonViolating)`. A stale or insufficient frame would return `unresolved`.
+
+If F.6 is not established, the attribution remains unresolved; if the relation is shown not to obtain, that attribution claim is refuted. Missing or failed attribution alone does not overturn independently admitted Work or an independently established evaluation result. If the attribution finding questions a premise used for Work admission or the evaluation, recheck that premise and the dependent claims.
+
+**E-CAL-05 (Evidence for reliance).** An A.10 evidence-provenance path links the `CalibrationNonViolation-17B` finding to `CalibrationComplianceEvaluation-17B`, `ComplianceEvaluator-4@QualityShift`, `CalibrationRunLog-17B`, the log's source and currentness relations, and the bounded audit context. The path supports reliance on the finding; the log, assignment, and path do not perform the evaluation or create its result.
 
 **E-CAL-06 (Unresolved conflict).** After `CalibrationWork-17B` and its evaluation, `Zone8EntryProhibition-17` becomes current for the same beneficiary, action, zone, and the remaining service window, including the calibration action specified by `CalibrationWorkPlan-17C`; no applicable rule selects an outcome and no authorized dated decision Work with a current resolution result exists. `CalibrationConflict-17 : PermissionNormConflictFinding@Context` therefore remains `unresolved`.
 
 **E-CAL-07 (Source/display fact).** `SignedGrantRecord-17` and `GreenPermitTile-17` are visible carriers in this case; their presence is an observed source/display claim only.
 
-**E-CAL-08 (Gate decision result).** At the later entry check, `CalibrationEntryResult-17C : GateDecisionResult` has `gateRef=CalibrationEntryGate-17`, `decisionSubjectRef=CalibrationWorkPlan-17C`, `boundedActionRef=StartCalibrationProcedure-v3-in-Zone8-17C`, and `profileApplicationRef=CalibrationEntryProfileApplication-17C`. The current profile application uses the complete required set `{CalibrationGrantCurrentCheck-17C, CalibrationConflictResolvedCheck-17C} : GateCheckApplicationResult[]`: the current-grant application maps to `pass`, while the exact `CalibrationConflict-17=unresolved` source outcome maps to `block`. The result records `decisionValue=block`, action consequence “hold `CalibrationWorkPlan-17C` outside entry”, the remaining Zone 8 service scope and window, and recheck when the grant, conflict result, profile, scope, or window changes. It neither resolves the conflict nor revokes `MaintenanceCalibrationGrant-17`.
+**E-CAL-08 (Gate decision result).** At the later entry check, `CalibrationEntryResult-17C : GateDecisionResult` has `gateRef=CalibrationEntryGate-17`, `decisionSubjectRef=CalibrationWorkPlan-17C`, `boundedActionRef=StartCalibrationProcedure-v3-in-Zone8-17C`, and `profileApplicationRef=CalibrationEntryProfileApplication-17C`.
+
+The current profile application uses the complete required set `{CalibrationGrantCurrentCheck-17C, CalibrationConflictResolvedCheck-17C} : GateCheckApplicationResult[]`: the current-grant application maps to `pass`, while the `CalibrationConflict-17=unresolved` source outcome maps to `block`.
+
+The result records `decisionValue=block`, action consequence “hold `CalibrationWorkPlan-17C` outside entry”, the remaining Zone 8 service scope and window, and recheck when the grant, conflict result, profile, scope, or window changes. It neither resolves the conflict nor revokes `MaintenanceCalibrationGrant-17`.
 
 **L-CAL-01 (Tempting wrong classification, rejected).** “The visible permit is D, so the grant exists, the Work exercised it, and the Work was non-violating” is not one atomic claim and is false as a classification shortcut. The carrier observation is `E-CAL-07`; the grant, exercise, evaluation finding, and `E-CAL-08` gate result remain the separately classified claims above.
 
@@ -429,7 +467,7 @@ Use separate Tech and Plain forms when their readers need them.
 
 ###### A.6.B:8.4.6.1 - Tech register
 
-> “This boundary claim is defined by **L-…** and applies only under **A-…**. **D-…** states either the exact generic prescription or the separately instituted duty of **[actual bearer]**. **E-…** states the observed or evaluated result for `Γ_time=…`; add its evidence support when the receiving use needs it.”
+> “This boundary claim is defined by **L-…** and applies only under **A-…**. **D-…** states either the generic prescription or the separately instituted duty of **[actual bearer]**. **E-…** states the observed or evaluated result for `Γ_time=…`; add its evidence support when the receiving use needs it.”
 
 ###### A.6.B:8.4.6.2 - Plain register
 

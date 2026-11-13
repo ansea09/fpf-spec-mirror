@@ -6,12 +6,12 @@ section_id: "C.32.FAIL:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.FAIL/C.32.FAIL__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.32.FAIL — Architecture Failure Recognition and Repair"
   - "C.32.FAIL:intro — Intro"
-line_start: 79555
-line_end: 79560
+line_start: 83384
+line_end: 83389
 dependencies:
   - "A.10"
   - "A.13"
@@ -66,5 +66,5 @@ keywords:
 
 > **Type:** Architectural subpattern under C.32
 > **Status:** Stable
-> **Normativity:** Normative unless explicitly marked informative
+> **Normativity:** Normative unless marked informative
 

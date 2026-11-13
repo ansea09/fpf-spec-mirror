@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.10.ARCH"
-pattern_title: "Wording-Use Ontological Precision Restoration Architecture"
+pattern_title: "Architecture for Recovering Ontological Meaning in Wording"
 section_id: "E.10.ARCH:7"
-section_title: "Subject-pattern thin-pointer rule"
+section_title: "First-use references in subject patterns"
 source_path: "FPF-Spec.md"
-output_path: "by_section/E.10.ARCH/E.10.ARCH__013_subject-pattern-thin-pointer-rule.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+output_path: "by_section/E.10.ARCH/E.10.ARCH__013_first-use-references-in-subject-patterns.md"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
-  - "E.10.ARCH:7 — Subject-pattern thin-pointer rule"
-line_start: 101779
-line_end: 101796
+  - "E.10.ARCH — Architecture for Recovering Ontological Meaning in Wording"
+  - "E.10.ARCH:7 — First-use references in subject patterns"
+line_start: 107517
+line_end: 107534
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -63,7 +63,7 @@ dependencies:
 keywords:
 ---
 
-### E.10.ARCH:7 - Subject-pattern thin-pointer rule
+### E.10.ARCH:7 - First-use references in subject patterns
 
 Subject patterns keep the minimum local first-use cues needed to resolve independent hidden questions about the EntityOfConcern, relation, claim, or field, then name the selected precision-restoration pattern through ordinary references or `Relations`. They do not turn that reference into local reference boilerplate, and they do not copy:
 
@@ -73,7 +73,7 @@ Subject patterns keep the minimum local first-use cues needed to resolve indepen
 - broad false-friend lists whose only job is first-stage repair;
 - past placement or repair history written in place of current architecture prose.
 
-A thin pointer is acceptable when it helps the working reader choose the right first move. Illustrative cases:
+A thin pointer is acceptable when it helps the working reader choose the right first move. For example, subject patterns can give these directions.
 
 - Use `E.10.ROLE` while bare claim-bearing *role* hides its work-facing or use-facing object; return to the object's rule once it is clear.
 - Use `C.30.STRAT` while a stratification source label hides the FPF kind, relation, or claim-use; return the recovered claim to its defining or testing rule.

@@ -6,12 +6,12 @@ section_id: "C.39.RO:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.RO/C.39.RO__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.39.RO — Turn a Construction into a Reusable Operation"
   - "C.39.RO:1 — Problem frame"
-line_start: 83449
-line_end: 83460
+line_start: 87502
+line_end: 87513
 dependencies:
   - "A.3.1"
   - "A.3.2"
@@ -26,13 +26,13 @@ keywords:
 
 ### C.39.RO:1 - Problem frame
 
-Use this pattern when a worked way of obtaining a result should become available for changed inputs, another case or combination with other operations, and its reusable part is still unclear. A correction works for three timing markers but its numbers have been copied into the next recording. A partition has been found for one set of conflicts, while the next project has different participants. A physical action succeeds once, while the conditions for repeating it remain implicit.
+Use this pattern when a worked way of obtaining a result should become available for changed inputs, another case or combination with other operations, and its reusable part is unclear. A correction works for three timing markers but its numbers have been copied into the next recording. A partition has been found for one set of conflicts, while the next project has different participants. A physical action succeeds once, while the conditions for repeating it remain implicit.
 
 The subject is the obtaining operation being developed: what it takes, what it does, what it returns and the conditions under which that result follows. Start from a construction whose useful steps can be recovered. B.5.RC and B.5.RA help when those steps or their reasons are missing.
 
-**First useful move.** Choose one foreseeable change of input. Identify which values belonged to the earlier case and which relations made its construction work. For a timing correction, the particular offsets can change while the operation remains “center the smallest and largest offsets.”
+**First useful move.** Choose one foreseeable change of input. Identify which values belonged to the earlier case and which relations made its construction work. For a timing correction, the offsets can change while the operation remains “center the smallest and largest offsets.”
 
 The result is an operation that another use can instantiate, together with its meaningful inputs, result and application conditions. A formula, procedure, diagram or demonstrated action can express the needed contribution. Select the expression that the receiving practitioner can use.
 
-Use an existing adequate operation directly. Develop only the part whose reuse is missing. When the question is what happened in several observed performances, A.3.1.MR supplies Method recovery. When a formal U.Method or MethodDescription claim is needed, A.3.1 and A.3.2 govern that claim after the obtaining operation has been made clear.
+Use an existing adequate operation. Develop only the part whose reuse is missing. When the question is what happened in several observed performances, A.3.1.MR supplies Method recovery. When a formal U.Method or MethodDescription claim is needed, A.3.1 and A.3.2 govern that claim after the obtaining operation has been made clear.
 

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.30"
-pattern_title: "Grounded Architecture and Selected-Structure Adequacy"
+pattern_title: "Architecture and Selected-Structure Adequacy"
 section_id: "C.30:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30/C.30__007_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "C.30 — Grounded Architecture and Selected-Structure Adequacy"
+  - "C.30 — Architecture and Selected-Structure Adequacy"
   - "C.30:6 — Bias-Annotation"
-line_start: 71942
-line_end: 71955
+line_start: 75035
+line_end: 75048
 dependencies:
   - "A.1"
   - "A.10"
@@ -81,8 +81,8 @@ Lenses: **Arch**, **Onto**, **Epist**, **Prag**, **Did**, **Gov**. Scope: FPF ar
 | Bias risk | Mitigation |
 | --- | --- |
 | Module-diagram bias | Keep module structure and interface relation as one structure family among several; use `C.30.ASV` and the module-and-interface repair pattern when a module or interface claim is being made. |
-| Tool-model bias | Treat notation, tool model, generated relation graph, diagram, and dashboard as description, specification-use, or publication forms unless an exact direct relation gives the source material a more specific use. |
-| Check-only bias | Return a concrete architecture action with its needed basis; a clear ordinary account can supply it. |
+| Tool-model bias | Treat notation, tool model, generated relation graph, diagram, and dashboard as description, specification-use, or publication forms unless a direct relation gives the source material a more specific use. |
+| Check-only bias | Return an architecture action with its needed basis; a clear ordinary account can supply it. |
 | Assurance or gate bias | Architecture descriptions do not certify safety, evidence sufficiency, release, or gate passage; use the applicable pattern for each such claim. |
 | Didactic-thinning risk | The practitioner situation, payoff, stop condition, and first architecture move explain why the distinctions matter. |
 

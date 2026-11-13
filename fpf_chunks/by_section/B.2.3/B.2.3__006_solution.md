@@ -6,12 +6,12 @@ section_id: "B.2.3:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.3/B.2.3__006_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.2.3 — Meta-Holon Transition With Episteme Result"
   - "B.2.3:4 — Solution"
-line_start: 44238
-line_end: 44284
+line_start: 46026
+line_end: 46076
 dependencies:
   - "A.1"
   - "A.10"
@@ -36,30 +36,34 @@ keywords:
 
 ### B.2.3:4 - Solution
 
-Use B.2.3 as the `U.Episteme` specialization of B.2. Reuse its existing whole, candidate new whole, direct construction facts, and any optional C.2.1 records needed for this use.
+Use B.2.3 as the `U.Episteme` specialization of B.2. Reuse its existing whole, candidate new whole, construction facts, and any optional C.2.1 records needed for this use.
 
 #### B.2.3:4.1 - Reuse The B.2 Candidate And Complete Episteme Recognition
 
-Start with B.2's candidate designated as an exact `U.Entity`, proposed for the already admitted `U.Episteme` kind. Execute the complete A.1 criterion over that candidate, including the larger-assembly applicability and compatibility condition. Apply C.2.1 to the same individual:
+Start with B.2's candidate designated as a `U.Entity`, proposed for the already admitted `U.Episteme` kind. Execute the A.1 criterion over that candidate, including the larger-assembly applicability and compatibility condition. Apply C.2.1 to that individual:
 
-1. identify its complete interpreted claim content, including the semantic relations among its claims, under C.2.1:4.1.1;
-2. identify the exact independently governed `U.Entity` that those claims concern;
+1. identify its interpreted claim content, including the semantic relations among its claims, under C.2.1:4.1.1;
+2. identify the independently governed `U.Entity` that those claims concern;
 3. identify the effective reference scheme: the designation and interpretation rules under which those claims are read about that entity; and
-4. test whether the direct `EpistemeConstitutionRelation` among those participants obtains and yields one interpretable claim-bearing whole.
+4. test whether the `EpistemeConstitutionRelation` among those participants obtains and yields one interpretable claim-bearing whole.
 
-The candidate and its constitution relation are distinct, even though C.2.1 reidentifies them from the same participant triple. A reference or representation alone does not establish that the constitution relation obtains. If A.1 or C.2.1 fails, do not identify the candidate as the episteme result; if a required dependency cannot be evaluated, return `unknown`. For an established episteme result, B.2's `resultHolonRef` designates that individual and `resultHolonKindRef` resolves to `U.Episteme`. Preserve a preliminary or unresolved judgment in an optional C.2.1 assertion only when a receiving use needs it; B.2:4.4 governs that distinction.
+The candidate and its constitution relation are distinct, even though C.2.1 reidentifies them from the participant triple. A reference or representation alone does not establish that the constitution relation obtains. If A.1 or C.2.1 fails, do not identify the candidate as the episteme result; if a required dependency cannot be evaluated, return `unknown`.
+
+For an established episteme result, B.2's `resultHolonRef` designates that individual and `resultHolonKindRef` resolves to `U.Episteme`. Preserve a preliminary or unresolved judgment in an optional C.2.1 assertion only when a receiving use needs it; B.2:4.4 governs that distinction.
 
 #### B.2.3:4.2 - Keep Constitution And Neighboring Relations Separate
 
-The exact ClaimGraph, EntityOfConcern, and effective ReferenceScheme are the three participants of C.2.1's `EpistemeConstitutionRelation`. C.2.1:4.1 identifies the ClaimGraph and ReferenceScheme as epistemic constituents of the interpretable claim-bearing whole. Establish that constitution for the candidate, and recover any further claimed part or composition relation under its direct pattern. The EntityOfConcern remains an independently governed entity related through aboutness and reference. Keep all other current questions in their direct relations:
+The ClaimGraph, EntityOfConcern, and effective ReferenceScheme are the three participants of C.2.1's `EpistemeConstitutionRelation`. C.2.1:4.1 identifies the ClaimGraph and ReferenceScheme as epistemic constituents of the interpretable claim-bearing whole. Establish that constitution for the candidate, and recover any further claimed part or composition relation under its pattern.
 
-- empirical grounding uses `EpistemeEmpiricalGroundingRelation` only when designated empirical claims have current claim-to-world mappings involving the exact grounding holon;
-- viewpoint selection for a describing use follows `E.10.D2`; `U.View` recognition requires `E.17.0` conformance of the exact episteme to an exact viewpoint;
+The EntityOfConcern remains an independently governed entity related through aboutness and reference. Keep all other questions in their relations:
+
+- empirical grounding uses `EpistemeEmpiricalGroundingRelation` only when designated empirical claims have current claim-to-world mappings involving the grounding holon;
+- viewpoint selection for a describing use follows `E.10.D2`; `U.View` recognition requires `E.17.0` conformance of the episteme to a viewpoint;
 - publication occurrence, publication form, carrier, source use, and C.29 representation remain distinct from the episteme and its constitution;
-- an exact acting System first has the A.13 core and A.15.1 independently admits its synthesis Work under a Method; F.6 enters only if the receiving transition account also consumes precise assignment-bound attribution through the same obtaining A.13 assignment, while any actual transformation remains a separate claim; and
+- an acting System first has the A.13 core and A.15.1 independently admits its synthesis Work under a Method; F.6 enters only if the receiving transition account also consumes precise assignment-bound attribution through the obtaining A.13 assignment, while any transformation remains a separate claim; and
 - evidence and assurance support or challenge the claims being made, including claims about constitution; they add no identity discriminator to C.2.1's ClaimGraph/EntityOfConcern/ReferenceScheme triple.
 
-Add only the neighboring object or relation required by the receiving use. Establish each such relation under its own predicate and participants; keep it separate from the episteme's identity positions.
+Add only the neighboring object or relation required by the receiving use. Establish each such relation under its predicate and participants; keep it separate from the episteme's identity positions.
 
 #### B.2.3:4.3 - Episteme Trigger Interpretation
 
@@ -67,15 +71,15 @@ When a receiving use has materialized B.2's optional `MHTTriggerProfile`, interp
 
 | Cue recorded in `MHTTriggerProfile` | Episteme-case reading | Subject pattern kept visible |
 | --- | --- | --- |
-| Delimitation change | Recover what changed in claim content, EntityOfConcern or effective ReferenceScheme. Identify a claim scope when the current claim requires one. | `C.2.1`, `A.7`, source-use patterns |
+| Delimitation change | Recover what changed in claim content, EntityOfConcern or effective ReferenceScheme. Identify a claim scope when the claim requires one. | `C.2.1`, `A.7`, source-use patterns |
 | Objective or evaluation change | The result episteme contains an answer or evaluation claim for a question that the collection did not answer as one claim-bearing whole. | `C.2.1`, `C.16`, `E.21` or relevant evaluation pattern |
-| Supervision or coordination change | Recover an actual supervision or coordination relation under its defining pattern. Principles, axioms, invariants, reference schemes, and claim-graph constraints instead organize claim interpretation; inspect that change as a constitution or claim-composition claim rather than filling a relation-occurrence field with it. | `C.2.1`, `A.6.0`, `A.6.1`, `C.29` when formal lens is current |
+| Supervision or coordination change | Recover a supervision or coordination relation under its defining pattern. Principles, axioms, invariants, reference schemes, and claim-graph constraints instead organize claim interpretation; inspect that change as a constitution or claim-composition claim rather than filling a relation-occurrence field with it. | `C.2.1`, `A.6.0`, `A.6.1`, `C.29` when formal lens is current |
 | Capability or closure claim | The candidate episteme supports a new explanatory, predictive, specification, or coordination use; evidence for that claim remains separate. | `C.2.1`, `C.16`, the pattern for that use; `A.10` for a needed replayable source-to-use account |
-| Agency threshold | The episteme remains non-agentive. For an agency-characteristic claim, recover the exact System and characteristic predicate, with any scope and window required by the receiving use, and test the characteristic independently; that characteristic claim does not require an assignment. A precise agency claim requires the separate A.13 core. If dated Work is also claimed, recover each exact performer through A.13 and let A.15.1 independently admit the Work. Add F.6 only when the receiving claim expressly consumes precise assignment-bound attribution; missing or failed F.6 alone leaves independently admitted Work intact. If the same finding also invalidates a premise actually consumed by the A.13 or A.15.1 admission, recheck that premise and its dependent conclusions. | `A.12`, `A.2.1`, `A.13`, `A.19`, `C.16`, `A.15.1`, `F.6` |
+| Agency threshold | The episteme remains non-agentive. For an agency-characteristic claim, recover the System and characteristic predicate, with any scope and window required by the receiving use, and test the characteristic independently; that characteristic claim does not require an assignment. A precise agency claim requires the separate A.13 core. If dated Work is also claimed, recover each performer through A.13 and let A.15.1 independently admit the Work. Add F.6 only when the receiving claim consumes precise assignment-bound attribution; missing or failed F.6 alone leaves independently admitted Work intact. If the same finding also invalidates a premise consumed by the A.13 or A.15.1 admission, recheck that premise and its dependent conclusions. | `A.12`, `A.2.1`, `A.13`, `A.19`, `C.16`, `A.15.1`, `F.6` |
 | Temporal consolidation | A chronology or source-currentness change prompts inspection of the knowledge body. Test any changed ClaimGraph, EntityOfConcern or effective ReferenceScheme under C.2.1; currentness alone changes none of those identity values. | `C.2.1`, `C.27`, `G.11`, `E.17`, and source-use patterns |
 | Context reframe | New terms, reference schemes, or EntityOfConcern mapping reframe the knowledge body. | `C.2.1`, `A.6.3`, `A.6.4`, `F.18` |
 
-These cues identify claims and relations to inspect. They neither constitute the candidate episteme nor select B.2; the direct facts, complete A.1 criterion, C.2.1 constitution test, and B.2 existing-whole/new-whole comparison decide the result.
+These cues identify claims and relations to inspect. They neither constitute the candidate episteme nor select B.2; the facts, A.1 criterion, C.2.1 constitution test, and B.2 existing-whole/new-whole comparison decide the result.
 
 #### B.2.3:4.4 - Blocked Readings
 

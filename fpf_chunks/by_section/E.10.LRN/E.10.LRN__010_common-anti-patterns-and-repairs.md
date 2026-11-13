@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.10.LRN"
-pattern_title: "Recovering What “Learning” Means in the Current Claim"
+pattern_title: "Recover What “Learning” Means in This Claim"
 section_id: "E.10.LRN:8"
 section_title: "Common Anti-Patterns and Repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.LRN/E.10.LRN__010_common-anti-patterns-and-repairs.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "E.10.LRN — Recovering What “Learning” Means in the Current Claim"
+  - "E.10.LRN — Recover What “Learning” Means in This Claim"
   - "E.10.LRN:8 — Common Anti-Patterns and Repairs"
-line_start: 100774
-line_end: 100785
+line_start: 106422
+line_end: 106433
 dependencies:
   - "A.10"
   - "A.15"

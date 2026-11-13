@@ -6,12 +6,12 @@ section_id: "E.10.D2:11"
 section_title: "Worked examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__012_worked-examples.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:11 — Worked examples"
-line_start: 102578
-line_end: 102635
+line_start: 108364
+line_end: 108429
 dependencies:
   - "A.7"
   - "C.2.1"
@@ -36,7 +36,7 @@ keywords:
 
 ### E.10.D2:11 - Worked examples
 
-Each example begins with a receiving use and stops after the smallest sufficient recovery. It adds no generic description record.
+Each example begins with a receiving use and stops after the smallest sufficient recovery. The examples require no generic description record.
 
 #### E.10.D2:11.1 - Description of a system-role kind
 
@@ -50,19 +50,27 @@ The receiving use needs recognizability, not specification force, so the practit
 
 A team wants to teach `BacklogRefinement`, an independently admitted `U.Method`. `BacklogRefinementMethodDescription` is one C.2.1 episteme about that exact method. A.3.2 admits the same episteme as `U.MethodDescription` only when its claims make a substantive statement about the method as a way of doing—for example its applicability, preconditions, effects, bounds, enactment concern, or internal composition.
 
-The organized claims expressed by a practice card may constitute that episteme. Its filled expression X can follow reusable form F and be borne by sheet or file C; any representation correspondence is established separately. Classify a calendar session, chat thread, or ticket update from its actual facts as a Work occurrence, assertion or record, publication-side object, or another object whose kind and applicable relation are already known; medium and label do not decide. An assertion or work record whose claim depends on the exact method-description edition may cite that edition through the exact premise, typed reference, or A.6.1 operation-argument binding required by the receiving claim. Separately, A.15.1 states the exact relation by which an actual dated Work occurrence enacts the admitted Method; the method-description episteme is not a participant of that relation. Bibliographic metadata, approval, or a method label alone grants neither method-description membership nor specification force.
+The organized claims expressed by a practice card may constitute that episteme. Its filled expression X can follow reusable form F and be borne by sheet or file C; any representation correspondence is established separately.
+
+Classify a calendar session, chat thread, or ticket update from its actual facts as a Work occurrence, assertion or record, publication-side object, or another object whose kind and applicable relation are already known; medium and label do not decide. An assertion or work record whose claim depends on the exact method-description edition may cite that edition through the exact premise, typed reference, or A.6.1 operation-argument binding required by the receiving claim.
+
+A.15.1 separately states the exact relation by which an actual dated Work occurrence enacts the admitted Method; the method-description episteme is not a participant of that relation. Bibliographic metadata, approval, or a method label alone grants neither method-description membership nor specification force.
 
 #### E.10.D2:11.3 - Architecture description and view
 
 An architecture review asks how `PaymentService` is organized for the operations concern. The architecture-description episteme has that exact holon as its EntityOfConcern; its claims identify the selected structure and state whether C.30's `ArchitectureRelation` obtains. The named review use selects the exact operations viewpoint because that concern changes which claims it reads and checks. If it did not change the reading, checking, or permitted conclusion, the use would remain named and the viewpoint selection would be omitted.
 
-The episteme is a `U.View` only if the E.17.0 conformance relation to an exact viewpoint obtains. Distinguish asserted structure in G, a graph expression X representing that structure, and reusable formation rules F. Use an adequate mathematical result with its interpretation and subject-side grounds. C.29 applies when a separate choice, transfer or reliance question about that mathematical representation remains. An ADR or dashboard creates no permission, assurance, or work relevance without the corresponding direct claim. If work uses the description, state the exact premise, reference, decision-use, or operation-argument relation through which the performed work actually consumes it.
+The episteme is a `U.View` only if the E.17.0 conformance relation to an exact viewpoint obtains. Distinguish asserted structure in G, a graph expression X representing that structure, and reusable formation rules F. Use an adequate mathematical result with its interpretation and subject-side grounds. C.29 applies when a separate choice, transfer or reliance question about that mathematical representation remains. An ADR or dashboard creates no permission, assurance, or work relevance without the corresponding direct claim.
+
+If work uses the description, state the exact premise, reference, decision-use, or operation-argument relation through which the performed work consumes it.
 
 #### E.10.D2:11.4 - Specification use
 
 An integration team needs to decide whether a service-interface description is fit to drive a conformance test. The exact interface is the EntityOfConcern of `PaymentInterfaceDescription`; its ClaimGraph states message, ordering, error, and tolerance claims under the effective interface scheme. Name the current integration-test use. Record an exact integration viewpoint only if it changes which interface claims are read or checked or what the team may conclude from the test; otherwise omit viewpoint selection.
 
-The team may call the episteme `PaymentInterfaceSpec` for this use only after the relevant claims are checkable and the exact conformance harness or validation relation is named. If viewpoint selection affects reliance, the named describing use and its exact selected viewpoint are preserved or explicitly updated. Formal notation or an approval signature can help interpret or constrain a neighboring claim, but neither substitutes for those conditions. A changed test result changes the result or reliance claim; it does not reidentify the interface or the episteme.
+The team may call the episteme `PaymentInterfaceSpec` for this use only after the relevant claims are checkable and the exact conformance harness or validation relation is named. If viewpoint selection affects reliance, the named describing use and its exact selected viewpoint are preserved or explicitly updated.
+
+Formal notation or an approval signature can help interpret or constrain a neighboring claim, but neither substitutes for those conditions. A changed test result changes the result or reliance claim; it does not reidentify the interface or the episteme.
 
 #### E.10.D2:11.5 - Publication form and carrier
 
@@ -90,5 +98,5 @@ A project note says, “The architecture dashboard approves the deployment role.
 * no checkable-claims-plus-harness basis has been named, so specification force is not admitted;
 * no gate verdict, permission relation, acting system, system-role assignment, or performed deployment work has been established.
 
-If the exact E.24.PUB objects are recoverable, the admissible next sentence is that one publication occurrence makes the selected architecture-description edition available for operations discussion through a dashboard publication form borne by an exact display or file carrier. “Approves” and “deployment role” remain non-assertable until their direct governors and case facts are named. The practitioner stops there instead of replacing the original sentence with another overloaded noun.
+If the operations audience can obtain the selected edition for its discussion from a dashboard expression on the identified display or file, and that same expression follows the dashboard form, state that this publication occurrence makes the edition available for that use. “Approves” and “deployment role” remain non-assertable until their direct governors and case facts are named. The practitioner stops there instead of replacing the original sentence with another overloaded noun.
 

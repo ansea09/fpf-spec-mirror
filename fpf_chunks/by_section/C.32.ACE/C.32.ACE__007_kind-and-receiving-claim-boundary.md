@@ -6,12 +6,12 @@ section_id: "C.32.ACE:6"
 section_title: "Kind and Receiving-Claim Boundary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACE/C.32.ACE__007_kind-and-receiving-claim-boundary.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.32.ACE — Architecture Characteristic Eval Programs"
   - "C.32.ACE:6 — Kind and Receiving-Claim Boundary"
-line_start: 77924
-line_end: 77927
+line_start: 81753
+line_end: 81756
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -51,5 +51,5 @@ keywords:
 
 ### C.32.ACE:6 - Kind and Receiving-Claim Boundary
 
-Use C.32.ACE to frame the architecture evaluation, using its local record when useful, and to keep criterion, reusable evaluation Method, MethodDescription episteme, intended operation family, planned evaluation, actual dated evaluation Work, actual operation application, typed result, comparison input, selection input, and decision input distinct. The local record admits no new U-kind. Use A.3.1, A.3.2, A.15.2, A.15.1, and A.6.1 for their respective objects and relations; use the pattern that defines and tests each actual result. C.32.ACE does not define starter characteristic selection, ACS scale-row construction, measurement validity, Q-Bundle normal form, candidate synthesis, comparison policy, final selection, local choice, G.5 selected-set result declaration, publication, or an architecture decision. When those claims are current, use `C.32.HCS`, `C.32.ACS`, `C.16`, `C.25`, `C.32`, `A.19.CPM`, `A.19.SelectorMechanism`, `C.11`, `G.5`, or `C.32.PAD` as applicable. For publication, use E.24.PUB for the occurrence, form, carrier, audience, bounded use and availability, and E.17 when a source-backed face and source return are needed.
+Use C.32.ACE to frame the architecture evaluation, using its local record when useful, and to keep criterion, reusable evaluation Method, MethodDescription episteme, intended operation family, planned evaluation, dated evaluation Work, operation application, typed result, comparison input, selection input, and decision input distinct. The local record admits no new U-kind. Use A.3.1, A.3.2, A.15.2, A.15.1, and A.6.1 for their respective objects and relations; use the pattern that defines and tests each result. C.32.ACE does not define starter characteristic selection, ACS scale-row construction, measurement validity, Q-Bundle normal form, candidate synthesis, comparison policy, final selection, local choice, G.5 selected-set result declaration, publication, or an architecture decision. When those claims are current, use `C.32.HCS`, `C.32.ACS`, `C.16`, `C.25`, `C.32`, `A.19.CPM`, `A.19.SelectorMechanism`, `C.11`, `G.5`, or `C.32.PAD` as applicable. For publication, use E.24.PUB for the occurrence, form, carrier, audience, bounded use and availability, and E.17 when a source-backed face and source return are needed.
 

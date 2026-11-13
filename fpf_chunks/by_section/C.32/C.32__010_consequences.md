@@ -6,12 +6,12 @@ section_id: "C.32:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32/C.32__010_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.32 — Architecture Candidate Synthesis"
   - "C.32:9 — Consequences"
-line_start: 76472
-line_end: 76484
+line_start: 80090
+line_end: 80102
 dependencies:
   - "A.10"
   - "A.15"
@@ -29,7 +29,6 @@ dependencies:
   - "C.19"
   - "C.19.1"
   - "C.25"
-  - "C.29"
   - "C.30"
   - "C.30.ASV"
   - "C.30.ILC"
@@ -48,9 +47,6 @@ dependencies:
   - "C.32.MWA"
   - "C.32.P2S"
   - "C.32.PAD"
-  - "C.33"
-  - "C.34"
-  - "C.35"
   - "E.18"
   - "E.22"
   - "E.23"
@@ -74,7 +70,7 @@ keywords:
 | Candidate architecture configurations are visible before local choice or decision. | Losses and constraint fits must be named earlier. |
 | Architecture-characteristic improvement can reopen synthesis when needed. | A warranted next iteration identifies changed pressure, affected structures and usable feedback; a sufficient palette can finish the current question. |
 | Multi-structure synthesis is reviewable. | The practitioner must keep functional, module, placement, control, Work, evidence, and other selected structures distinct when they matter. |
-| Architecture characteristics and quality bundles are recorded as comparison inputs for the pattern for the next question. | The palette may need characteristic repair through `C.25`, `C.31`, `C.16`, or later comparison, local-choice, selection, or selected-set result-declaration work through `A.19.CPM`, `C.11`, `A.19.SelectorMechanism`, or `G.5`, respectively, when those claims are being made. |
+| Architecture characteristics and quality bundles are recorded as comparison inputs for the receiving pattern. | The palette may need characteristic repair through `C.25`, `C.31`, `C.16`, or later comparison, local-choice, selection, or selected-set result-declaration work through `A.19.CPM`, `C.11`, `A.19.SelectorMechanism`, or `G.5`, respectively, when those claims are being made. |
 | Holonic architecture breadth is preserved. | Examples and candidates must name the described holon and selected structures instead of using domain defaults as unstated selected structures. |
 | Source cues can inform architecture work without importing source-domain ontology. | Source-side expressions require recovery of referent, selected structure, architecture-change kind, and source-return condition. |
 | Downstream G.5 result declaration and architecture-decision work stay cleaner. | The team must open the pattern for the next question when it wants to declare a selected-set result, publish it to an audience, make a local choice, or decide the project architecture. |

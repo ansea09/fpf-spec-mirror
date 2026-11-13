@@ -6,12 +6,12 @@ section_id: "E.18:15a"
 section_title: "E.18.1 P2W Child-Pattern Relation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__018_e-18-1-p2w-child-pattern-relation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:15a — E.18.1 P2W Child-Pattern Relation"
-line_start: 110856
-line_end: 110859
+line_start: 117710
+line_end: 117717
 dependencies:
   - "A.15.1"
   - "A.15.PROD"
@@ -39,5 +39,9 @@ keywords:
 
 ### E.18:15a - E.18.1 P2W Child-Pattern Relation
 
-`E.18.1` is a child pattern for problem-to-work carry-through. It describes the practitioner carry-through practice and, when durable replay is needed, defines its optional C.2.1 note or stop-description claim content. It introduces no local P2W relation kind or occurrence. Each next method, plan, dated Work, transformation, evaluation, decision, entity, or relation occurrence keeps its independent identity and uses the pattern that defines or constrains the current claim about it. A P2W application consumes this pattern's selected-structure discipline only when a named receiving decision or use relies on an explicit `TransformationFlowStructure`, path, flow valuation, selected relation occurrence, resolved connection position, crossing or gate position; when branches, joins, guards, or positions for the patterns that define or test their claims must be recoverable, `E.18.3` defines that fuller structure. In this split, `E.18.1` carries the accepted problem-side claim and local continuation, while `E.18` carries selected transformation-flow structure without making it mandatory for ordinary P2W use.
+`E.18.1` is a child pattern for problem-to-work carry-through. It describes the practitioner carry-through practice and, when durable replay is needed, defines its optional C.2.1 note or stop-description claim content. It introduces no local P2W relation kind or occurrence.
+
+Each next method, plan, dated Work, transformation, evaluation, decision, entity, or relation occurrence keeps its independent identity and uses the pattern that defines or constrains the current claim about it. A P2W application consumes this pattern's selected-structure discipline only when a named receiving decision or use relies on an explicit `TransformationFlowStructure`, path, flow valuation, selected relation occurrence, resolved connection position, crossing or gate position; when branches, joins, guards, or positions for the patterns that define or test their claims must be recoverable, `E.18.3` defines that fuller structure.
+
+Under this division of work, `E.18.1` carries the accepted problem-side claim and local continuation, while `E.18` carries selected transformation-flow structure without making it mandatory for ordinary P2W use.
 

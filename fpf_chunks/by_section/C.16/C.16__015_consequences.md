@@ -6,12 +6,12 @@ section_id: "C.16:13"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__015_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:13 — Consequences"
-line_start: 58856
-line_end: 58863
+line_start: 61240
+line_end: 61247
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -55,7 +55,7 @@ keywords:
 
 ### C.16:13 - Consequences
 
-**Benefits.** Measurement results become interpretable and reusable without pretending to be raw reality or later judgment. A practitioner can inspect the measurand, Scale, method, model, calibration, work, uncertainty, episteme, and provenance, then enter the smallest pattern for the next question—comparison, diagnosis, acceptance, assurance, causality, or decision.
+**Benefits.** Measurement results become interpretable and reusable while remaining distinct from subject states and later judgments. A practitioner can inspect the measurand, Scale, method, model, calibration, work, uncertainty, episteme, and provenance, then enter the smallest pattern for the next question—comparison, diagnosis, acceptance, assurance, causality, or decision.
 
 **Trade-offs.** The chain is longer than a dashboard field. Model assumptions, calibration status, and uncertainty can make a formerly crisp number conditional or set-valued. That cost is the information needed to avoid false precision and hidden result substitution.
 

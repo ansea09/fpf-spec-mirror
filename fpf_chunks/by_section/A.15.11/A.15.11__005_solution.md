@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.15.11"
-pattern_title: "Make Applicable Methods Noticeable in Work"
+pattern_title: "Make Methods Noticeable in Work"
 section_id: "A.15.11:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.11/A.15.11__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.15.11 — Make Applicable Methods Noticeable in Work"
+  - "A.15.11 — Make Methods Noticeable in Work"
   - "A.15.11:4 — Solution"
-line_start: 32676
-line_end: 32747
+line_start: 34014
+line_end: 34097
 dependencies:
   - "A.15"
   - "A.15.7"
@@ -34,7 +34,7 @@ Use what is already known before spending effort on the arrangement. Stop when t
 
 #### A.15.11:4.1 - Choose the work and the possible contribution
 
-Start from work someone actually does. State what could improve: a choice, a result, the range of situations the performer can handle, or the effort required. Identify who can arrange the opportunity and who would encounter it. The same person can prepare a cue for their own future work.
+Start from work someone does. State what could improve: a choice, a result, the range of situations the performer can handle, or the effort required. Identify who can arrange the opportunity and who would encounter it. The same person can prepare a cue for their own future work.
 
 Identify how the selected action contributes to the encompassing work. When the proposed improvement depends on cooperating methods, recover the larger method and the constituent methods that make the action possible; they may be performed together in the same action. Use B.1.5.EW when that connection is unclear. Judge the improvement under the conditions of the encompassing work, including any missing capabilities or resources on which it depends.
 
@@ -42,7 +42,7 @@ When no question has yet been raised, B.5.PI uses an ordinary work occasion to c
 
 When the useful contribution is uncertain, examine a small, permitted sample of the work with a relevant practitioner or source. Ask what an available alternative could make possible. C.40 and C.40.CD supply constructive inquiry where the question or method itself needs development. Do not install a standing prompt merely because a topic sounds relevant.
 
-#### A.15.11:4.2 - Make the relevance relation explicit
+#### A.15.11:4.2 - Explain the relevance relation
 
 Read the candidate method's operative instructions. Recover the result it can obtain, the inputs and capabilities it needs, and the conditions that limit its use. Connect that result to the receiving task.
 
@@ -52,7 +52,9 @@ A useful cue can take this form:
 
 Use the language of the work. For example: “Before estimating the extra report, compare what decision it would improve with the report we already have.” Naming a pattern can provide access after this relation has become clear.
 
-When a plausible false match could change the suggestion, use a nearby case in which the method should not be suggested. Matching existing observations can supply this comparison. If the same cue recommends the method there, refine the relation or leave the recommendation tentative. Shared terminology is a lead for investigation; applicability depends on what the operation would do under the actual conditions.
+When a plausible false match could change the suggestion, use a nearby case in which the method should not be suggested. Matching existing observations can supply this comparison. If the same cue recommends the method there, refine the relation or leave the recommendation tentative.
+
+Shared terminology is a lead for investigation; applicability depends on what the operation would do under the conditions.
 
 #### A.15.11:4.3 - Place the cue where it can be encountered
 
@@ -60,9 +62,13 @@ Choose an existing occasion: preparing a plan, receiving a result, changing a to
 
 Select the means according to the performer. A visible comparison can help a human notice a relation. An organization's existing review meeting can bring a specialist into the choice. A tool can provide relevant instructions to an AI agent when an existing software event occurs. These arrangements share a functional purpose without requiring the same internal mechanism.
 
-A short execution checklist is one possible cue. Give it a real occasion and user, express each check as something that user can inspect, and say what to do when a condition is unmet or cannot be determined. Distinguish checking a known condition from discovering whether the chosen method and its result fit the work. A pattern's Conformance Checklist can supply content, but copying it does not automatically produce a usable execution aid.
+A short execution checklist is one possible cue. Give it an occasion and user, express each check as something that user can inspect, and say what to do when a condition is unmet or cannot be determined. Distinguish checking a known condition from discovering whether the chosen method and its result fit the work.
 
-For example, before using a calculated amount in a quotation, a check can ask whether the amount is defined for these inputs and means what the quotation requires. An unresolved item leads to examination of that case, not a forced tick. Keep a way to raise a consequential concern that none of the listed checks expresses; use B.5.PI to develop the question and B.5.EA when a participant cannot yet put the difference into words. Passing the listed checks establishes only what those checks support.
+A pattern's Conformance Checklist can supply content, but copying it does not automatically produce a usable execution aid.
+
+For example, before using a calculated amount in a quotation, a check can ask whether the amount is defined for these inputs and means what the quotation requires. An unresolved item leads to examination of that case, not a forced tick.
+
+Keep a way to raise a consequential concern that none of the listed checks expresses; use B.5.PI to develop the question and B.5.EA when a participant cannot yet put the difference into words. Passing the listed checks establishes only what those checks support.
 
 Choose timing that preserves the work. An explanation during a difficult movement can disrupt the action it is intended to help; an agreed pause may be the useful occasion. A quiet pointer may suffice where interruption would cost more. Use only observation and access already authorized for this purpose.
 
@@ -72,13 +78,17 @@ Ensure that the recipient can interpret the cue and reach enough instruction to 
 
 When the relation is not yet discernible to a person, obtain a suitable learning method and practice. When the relation is understood but execution is unavailable, identify the missing capability, resource or supporting participant. E.23.CDI frames capability development; obtain a teaching or training method suitable for the practice being learned.
 
-Keep the action proportionate to the present need. Sometimes a colleague's direct answer is enough. Sometimes the recipient needs a reusable method or practice across changed conditions. Introducing a method does not by itself choose between those purposes.
+Keep the action proportionate to the present need. Sometimes a colleague's answer is enough. Sometimes the recipient needs a reusable method or practice across changed conditions. Introducing a method does not by itself choose between those purposes.
 
 #### A.15.11:4.5 - Try the intended arrangement
 
-When a trial can change the arrangement decision and its result is not already available, use a safe instance of the receiving work. Establish whether the cue is actually encountered, whether its relevance can be recovered, and what the participant then does. Include a condition that defeats the proposed match when a plausible false recommendation could change the outcome.
+When a trial can change the arrangement decision and its result is not already available, use a safe instance of the receiving work. Establish whether the cue is encountered, whether its relevance can be recovered, and what the participant then does.
 
-Keep the intended aids available. If a coach adds an explanation during the trial, that explanation becomes part of what enabled the result. If an AI assistant receives additional context, its success applies to that context. To claim use without those aids, examine that different configuration separately.
+Include a condition that defeats the proposed match when a plausible false recommendation could change the outcome.
+
+Keep the intended aids available. If a coach adds an explanation during the trial, that explanation becomes part of what enabled the result. If an AI assistant receives additional context, its success applies to that context.
+
+To claim use without those aids, examine that different configuration separately.
 
 Use E.23.CAE when distinguishing recognition, access, adaptation and capability change would alter the remedy. A bounded practical repair can proceed without a complete causal diagnosis. If the arrangement fails, locate the failure: no encounter, unclear relation, unavailable instruction, missing capability, inappropriate method or excessive burden.
 
@@ -90,7 +100,9 @@ C.11.CRC compares a finite change with the current configuration. C.11.DUA exami
 
 Compare at the level where the gain is needed. A better component result may leave the whole task unchanged. A small preparatory improvement may enable several larger methods at once. Recognition, correct application and worthwhile use are separate outcomes.
 
-Keep, revise or remove the arrangement accordingly. A recipient can dismiss an inapplicable suggestion or one not worth its burden without producing a refusal record. Where a real accountability requirement applies, use its existing record rather than inventing one for every cue.
+Keep, revise or remove the arrangement accordingly. A recipient can dismiss an inapplicable suggestion or one not worth its burden without producing a refusal record.
+
+Where an accountability requirement applies, use its existing record rather than inventing one for every cue.
 
 #### A.15.11:4.7 - Adjust after use
 

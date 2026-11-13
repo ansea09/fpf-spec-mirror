@@ -6,12 +6,12 @@ section_id: "G.11:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.11/G.11__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.11 — Decide Whether and How to Refresh SoTA Packs and Related Results (Telemetry and Decay)"
   - "G.11:intro — Intro"
-line_start: 132079
-line_end: 132093
+line_start: 140162
+line_end: 140179
 dependencies:
   - "A.10.1"
   - "A.6.RCD"
@@ -49,15 +49,18 @@ keywords:
 ## G.11 - Decide Whether and How to Refresh SoTA Packs and Related Results (Telemetry and Decay)
 
 **Tag.** Architectural pattern (notation-independent)
+
 > **Status:** Stable
-**Normativity.** Normative (unless explicitly marked informative)
+
+**Normativity.** Normative (unless marked informative)
 
 **Stage.** run-time and maintenance-time (selective re-computation, republication, and controlled deprecation)
 
-**Primary outputs, when their use calls for them.** `RefreshQueue`, `RefreshPlan@Context` (a local application name for one exact `U.WorkPlan`, not a new kind), `RefreshReport@Context` (record of refresh Work or its audit), `DeprecationNotice@Context`, and `EditionBumpLog@Context`. Continued reliance on an already applicable result requires none of these solely to prove that refresh was omitted.
+**Primary outputs, when their use calls for them.** `RefreshQueue`, `RefreshPlan@Context` (a local application name for one `U.WorkPlan`, not a new kind), `RefreshReport@Context` (record of refresh Work or its audit), `DeprecationNotice@Context`, and `EditionBumpLog@Context`. Continued reliance on an already applicable result requires none of these just to certify that refresh was omitted.
 
 **Primary hooks.** `G.Core` (RSCR trigger catalogue, alias docking, and Default Governing Definition Index), `G.6` (EvidenceGraph; `PathId` and `PathSliceId`), `G.7` (Bridge Sentinels; CL, Φ, and plane policy pins), `G.5` (set-returning selection and dispatch), `G.8` (SoS-LOGBundle telemetry hooks), `G.9` (parity reruns), `G.10` (shipping hooks and pack-level telemetry pins), `G.12` (dashboard telemetry pins), `B.3.4` (freshness and decay), `E.18` (GateCrossing and CrossingBundle visibility), `C.18` and `C.19` archive, front, and live-pool policy pins, `C.23` (SoS-LOG branches and maturity ladders), `C.28` (causal-use support results whose SoTA-sensitive fields can change downstream causal-use results).
 
 `G.11` cites `G.Core` for RSCR trigger-kind meaning, CN and CG admissibility, tri-state guards, penalties, set-return semantics, shipping or harvesting delegation, `RSCRTriggerKindId` values, and default governing definitions.
-Refresh plans and reports cite those governed definitions; they do not create local trigger meanings or default definitions inside the refresh record.
+
+Refresh plans and reports cite the trigger meanings in `G.Core` and the governing definitions named in its Default Governing Definition Index.
 

@@ -6,12 +6,12 @@ section_id: "C.26.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.1/C.26.1__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.26.1 — Probe-Coupled Boundary Interaction"
   - "C.26.1:4 — Solution"
-line_start: 66032
-line_end: 66187
+line_start: 69020
+line_end: 69183
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -94,15 +94,15 @@ The pattern emits one of these results:
 | Redesign bridge/export | Preserve the state, timing and use conditions lost by the attempted export; state confidence or a return-to-source condition when the receiving use needs it. |
 | Split/merge/orchestrate differently | Boundary structure changes because the interaction changes the phenomenon. |
 | Apply `F.9` | Only bridge and loss remain live. |
-| Apply `C.16` | The probe is really a standard measurement with declared scale, method, evidence, and result. |
-| Apply `A.15` | The hard part is work enactment rather than probe-coupled reading. |
+| Apply `C.16` | The probe is a standard measurement with declared scale, method, evidence, and result. |
+| Apply `A.15` | The question concerns work enactment rather than probe-coupled reading. |
 | Apply `C.26.3` | Viability-envelope regulation is primary. |
 
 #### C.26.1:4.3 - Probe-coupled context-cut worked use slice
 
 The following constructed case shows a DDD workshop that changes the meaning and use of its own result.
 
-Ask: was the bounded-context cut merely discovered, or did the workshop, dashboard, API extraction, bridge, split, merge, or orchestration change alignment, ownership, vocabulary, export validity, or viability?
+Ask whether the bounded-context cut was only discovered or whether the interaction changed alignment, ownership, vocabulary, export validity, or viability. Examine the workshop, dashboard use, API extraction, bridge use, split, merge, or orchestration involved.
 
 | Slice field | Example content |
 | --- | --- |
@@ -118,18 +118,20 @@ Ask: was the bounded-context cut merely discovered, or did the workshop, dashboa
 
 The boundary interaction under concern is used as evidence, export, comparison input or architecture decision input. Identify the concrete operation, any instrument or channel it uses, and the output being interpreted.
 
-The useful result is a supported reading of that output, a corrected use, or the exact unresolved premise. A redesign is a further result only when it is needed and justified.
+The useful result is a supported reading of that output, a corrected use, or the unresolved premise. A redesign is a further result only when it is needed and justified.
 
 Operational sequence:
 
-1. State the quantity or condition the receiving decision needs, its bearer and relevant time. Locate the actual output in the procedure, interface description, question sequence or available trace.
+1. State the quantity or condition the receiving decision needs, its bearer and relevant time. Locate the output in the procedure, interface description, question sequence or available trace.
 2. Reconstruct the order of operations that can affect that quantity: preparation, sampling or questioning, state changes, output construction and later use. Read interface contracts, query definitions, timestamps, question wording or observed actions for those steps. Keep an unavailable step explicit rather than filling it with an assumed passive read.
-3. Trace a plausible effect from the operation to the reported quantity. For example, a query may populate a cache, publishing a score may change what people report, or discussion may change the agreement later summarized. Use existing mechanism or causal grounds; `C.28.CM` can develop an unresolved causal account. Mere temporal succession does not establish the effect.
+3. Trace a plausible effect from the operation to the reported quantity. For example, a query may populate a cache, publishing a score may change what people report, or discussion may change the agreement later summarized. Use existing mechanism or causal grounds; `C.28.CM` can develop an unresolved causal account. Temporal succession alone does not establish the effect.
 4. Determine whether the output concerns the state before, during or after that effect. Compare the intended interpretation with the procedure and observations. An operation that changes later state does not automatically invalidate an earlier reading. Distinguish an actual change in the subject from a changed label, carrier or interpretation.
 5. Retain only effects, export losses, order, memory or frame conditions that change the current use. If material alternatives remain, seek the existing trace or procedural fact that distinguishes them. A new comparison or probe is warranted only when its attainable result could change the receiving action enough to justify its cost. If the needed distinction cannot be made, state the unresolved interpretation and its consequence.
 6. Return the supported reading and choose any needed continuation: qualify the output, redesign the probe or export, change the boundary arrangement, or use the subject method for the remaining question. A sufficient reading finishes here.
 
-For example, suppose an API request measures a cold-cache response and then fills the cache. The first response time can still support a cold-cache claim; a later response time cannot be used as that same cold-cache observation without further grounds. Recover the cache initialization, write point and measured interval from the procedure or trace. When those are unavailable, the unresolved point is which cache regime the timing represents, not a proven failure of all measurements.
+For example, suppose an API request measures a cold-cache response and then fills the cache. The first response time can still support a cold-cache claim; a later response time cannot be used as that same cold-cache observation without further grounds.
+
+Recover the cache initialization, write point and measured interval from the procedure or trace. When those are unavailable, the unresolved point is which cache regime the timing represents.
 
 #### C.26.1:4.5 - Well-formed probe-coupled boundary state
 
@@ -137,11 +139,17 @@ A positive probe-coupled claim identifies the interaction, the relevant state or
 
 A useful result remains incomplete when the receiving use still depends on an unexplained output-producing step, an unsupported effect or a lost condition. State that specific gap. Evidence, command, measurement and semantic correspondence retain their distinct relations when more than one is used.
 
-A minimal supported result may be: "this dashboard value evidences readiness behavior while the displayed score is used to allocate staffing"; "the workshop changed agreement, so its closing note is evidence of the resulting alignment"; or "this API response contains the value sampled before the write." Add a limit or further route only for a live unsupported use.
+A minimal supported result may be:
+
+- "this dashboard value evidences readiness behavior while the displayed score is used to allocate staffing";
+- "the workshop changed agreement, so its closing note is evidence of the resulting alignment";
+- "this API response contains the value sampled before the write."
+
+Add a limit or further route only for a live unsupported use.
 
 #### C.26.1:4.6 - Probe, observable, output, and carrier split
 
-Do not identify what is being read with the method used to read it, the resulting output, or the output carrier.
+Distinguish what is being read from the method used to read it, the resulting output, and the output carrier.
 
 | Role | Boundary-facing question |
 | --- | --- |
@@ -177,9 +185,9 @@ Use the direct relation pattern when the relation and participants are known, `A
 | Survey order | Asking "who owns incidents?" before "which context owns payment failure?" changes the resulting context map and escalation plan. | If different answers merely reveal unresolved meanings, use `F.9` / `A.6.P` first. |
 | Event-storming workshop | The workshop produces a map and also changes team alignment, local vocabulary, and backlog priority. | If it only documents known differences, use ordinary DDD and bridge fields. |
 | Service split | Splitting Checkout and Payment changes recovery paths and support load, so the split is part of the phenomenon being evaluated. | If the split only reduces deployment coupling with no probe/export effect, use ordinary boundary and quality patterns. |
-| Incident metric | Publishing "cache failover is the primary risk" shifts attention, staffing, and reproduction work. | If the metric is only a report of already-carried evidence, use `A.10` for any source-recovery or bounded-reliance question, and `B.3` only for an actual named assurance claim. |
+| Incident metric | Publishing "cache failover is the primary risk" shifts attention, staffing, and reproduction work. | If the metric is only a report of already-carried evidence, use `A.10` for any source-recovery or bounded-reliance question, and `B.3` only for a named assurance claim. |
 
-The positive examples establish probe-coupled interaction readings. Use those results without QL wording when the ordinary subject patterns carry the case, as CC-C26.1.4 permits. Retain QL only when the additional C.26 activation test establishes one named contextual-model obstruction that survives those patterns and changes the admissible inference or action.
+The positive examples establish probe-coupled interaction readings. Use those results without QL wording when the ordinary subject patterns carry the case. Retain QL only when the additional C.26 activation test establishes one named contextual-model obstruction that survives those patterns and changes the admissible inference or action.
 
 #### C.26.1:4.9 - Evidence posture for probe-coupled claims
 
@@ -192,5 +200,5 @@ Use the least-committing evidence posture that still supports the intended use.
 | `QLP-2` decision-bearing use | Use a probe-coupled reading for a named boundary, probe, export, or other decision whose answer needs more than the current local account. | The action-changing rival explanations, declared loss and receiving-use limits, and observations or comparisons that this decision consumes; reuse adequate existing contributions. |
 | `QLP-3` assurance use | Answer a named assurance question about the probe-coupled claim, its empirical adequacy, or comparative advantage. | The applicable A.10 and B.3 support for that conclusion, with C.16 measurement or a Bridge/loss account only where the conclusion relies on it; retain adequate existing support and its limits. |
 
-Do not make `QLP-3` the ordinary entry cost. Recognition or local working use may remain at `QLP-0` or `QLP-1` when its account is sufficient. Select additional support from the receiving conclusion under C.26:12b; publication, reuse, or formal wording alone does not require escalation or recollection of adequate evidence.
+Recognition or local working use may remain at `QLP-0` or `QLP-1` when its account is sufficient. Select additional support from the receiving conclusion under C.26:12b; publication, reuse, or formal wording alone does not require escalation or recollection of adequate evidence.
 

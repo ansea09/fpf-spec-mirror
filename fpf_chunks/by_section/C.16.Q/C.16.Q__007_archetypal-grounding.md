@@ -6,25 +6,20 @@ section_id: "C.16.Q:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.Q/C.16.Q__007_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
   - "C.16.Q:5 — Archetypal Grounding"
-line_start: 60248
-line_end: 60442
+line_start: 62639
+line_end: 62841
 dependencies:
   - "A.10"
   - "A.16"
-  - "A.16.0"
-  - "A.16.1"
-  - "A.16.2"
   - "A.17"
   - "A.18"
   - "A.19"
-  - "A.19.CPM"
   - "A.2.6"
   - "A.6.A"
-  - "A.6.B"
   - "A.6.P"
   - "A.7"
   - "B.3"
@@ -32,31 +27,15 @@ dependencies:
   - "B.5.2.0"
   - "C.16"
   - "C.16.P"
-  - "C.17"
-  - "C.18"
-  - "C.19"
   - "C.2.1"
-  - "C.2.2a"
-  - "C.2.4"
-  - "C.2.5"
-  - "C.2.6"
-  - "C.2.7"
-  - "C.2.LS"
   - "C.25"
-  - "C.30.AD"
-  - "C.30.ASV"
   - "E.10"
   - "E.10.ARCH"
-  - "E.17.0"
-  - "E.17.2"
   - "E.21"
   - "E.8"
   - "F.18"
   - "F.9"
   - "F.9.1"
-  - "U.ClaimScope"
-  - "U.ContextSlice"
-  - "U.ViewpointRef"
 keywords:
 ---
 
@@ -71,7 +50,11 @@ A conforming rewrite publishes either the form for one known endpoint or one exp
 
 #### C.16.Q:5.2 - Show (Latent fit and control adequacy)
 
-The following pairs make alternative interpretations of each draft inspectable. Use these transitional ascriptions only while selecting the intended reading; once it is known, publish its endpoint form directly. The examples stipulate the named objects and source relations. The identifiers below denote distinct objects. Each `comparisonFrameRef` resolves its exact A.19.CPM configuration; each non-`none` `viewpointRef` resolves one E.17.0 viewpoint episteme. A named result claim is not assessment work, witness refs do not establish an A.10 evidence-provenance path, and neither witnesses nor a result label establish the grounding relation cited beside them. In the model and architecture improvement examples, the cited result claim asserts the improvement under its named comparison frame; the ascription record refers to that claim.
+The following pairs make alternative interpretations of each draft inspectable. Use these transitional ascriptions only while selecting the intended reading; once it is known, publish its endpoint form directly.
+
+The examples stipulate the named objects and source relations. The identifiers below denote distinct objects. Each `comparisonFrameRef` resolves its exact A.19.CPM configuration; each non-`none` `viewpointRef` resolves one E.17.0 viewpoint episteme.
+
+A named result claim is not assessment work, witness refs do not establish an A.10 evidence-provenance path, and neither witnesses nor a result label establish the grounding relation cited beside them. In the model and architecture improvement examples, the cited result claim asserts the improvement under its named comparison frame; the ascription record refers to that claim.
 
 **Draft:** “The model quality improved.”
 
@@ -225,7 +208,11 @@ qualityTermAscription(
 )
 ```
 
-`ArchitectureDescriptionProbeFrame_AD12` is one project-local probe frame: it may cite `DecisionQuestionSet_DQ7`, an architecture-description result under `C.30.AD`, structural-view adequacy under `C.30.ASV`, and the retained `U.ViewpointRef` members resolved from a constituted E.17.1 catalogue. It is neither a viewpoint-family value nor a substitute for the selected viewpoint. `DescriptionFitnessDefinitionSource_AD12` cites the supplied definition of the description-side Bundle, including decision-question coverage and correspondence soundness. C.25 supplies a Q-Bundle only when its engineering-quality conditions apply; the architecture-description and viewpoint patterns supply their own checks. The shared evaluator does not collapse the two repairs: their bearers, schemes, probe/model frames, scopes, viewpoint references, result claims, and evidence paths differ.
+`ArchitectureDescriptionProbeFrame_AD12` is one project-local probe frame: it may cite `DecisionQuestionSet_DQ7`, an architecture-description result under `C.30.AD`, structural-view adequacy under `C.30.ASV`, and the retained `U.ViewpointRef` members resolved from a constituted E.17.1 catalogue. It is neither a viewpoint-family value nor a substitute for the selected viewpoint.
+
+`DescriptionFitnessDefinitionSource_AD12` cites the supplied definition of the description-side Bundle, including decision-question coverage and correspondence soundness. C.25 supplies a Q-Bundle only when its engineering-quality conditions apply; the architecture-description and viewpoint patterns supply their own checks.
+
+The shared evaluator does not collapse the two repairs: their bearers, schemes, probe/model frames, scopes, viewpoint references, result claims, and evidence paths differ.
 
 #### C.16.Q:5.4 - Show (QD or selector lane)
 

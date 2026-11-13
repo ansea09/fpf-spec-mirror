@@ -6,12 +6,12 @@ section_id: "E.17:6"
 section_title: "Rules and Invariants (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__007_rules-and-invariants-normative.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:6 — Rules and Invariants (normative)"
-line_start: 107787
-line_end: 107818
+line_start: 114429
+line_end: 114460
 dependencies:
   - "A.10"
   - "A.15.4"
@@ -52,24 +52,24 @@ keywords:
 2. `composition witness`: the face for `g o f` matches the composition of the faces for f and g, or is marked non-compositional or explanatory-only;
 3. `no-new-claim diff`: comparison with the selected source episteme shows only formatting, indexing, pinning, or conservative construction;
 4. `monotone promotion`: a richer face adds fields, pins, or typing without retracting or strengthening the source claim;
-5. `scope non-widening`: `U.PublicationScope` stays within the exact claim or work scope used by the selected description.
+5. `scope non-widening`: `U.PublicationScope` stays within the claim or work scope used by the selected description.
 
-For composable arrows `X -f-> Y -g-> Z` and exact `s,t` in `F_face`:
+For composable arrows `X -f-> Y -g-> Z` and `s,t` in `F_face`:
 
 1. **Functoriality and typing per face.**
    * `Emit_s(id_X) = id_{FaceObj_s(X)}`.
    * `Emit_s(g o f) = Emit_s(g) o Emit_s(f)` only when the face carries the local witness.
-   * If `f : X -> Y`, then `Emit_s(f) : FaceObj_s(X) -> FaceObj_s(Y)` is total in the selected formal substrate. An ill-typed composite blocks that formal claim; it is not repaired by weakening conformance.
+   * If `f : X -> Y`, then `Emit_s(f) : FaceObj_s(X) -> FaceObj_s(Y)` is total in the selected formal substrate. An ill-typed composite blocks that formal claim. Weakening conformance does not repair it.
 2. **Face-promotion coherence.**
    * If `s <= t`, the t-face is a more explicit publication form for the same selected source claims.
    * `PromoteFace[s->t]_X : FaceObj_s(X) -> FaceObj_t(X)` is natural in X.
    * Identity and composition of `PromoteFace` follow the selected formal substrate. `AssuranceLane` is outside the default formality chain.
 3. **Source episteme and construction.**
-   * Every `Emit_s` use names the exact source episteme edition. It resolves an exact `publicationViewpointRef` only when the selected episteme is claimed as a `U.View` or the formal operation's definition actually depends on that viewpoint.
-   * When another episteme is actually constructed from the source, use A.6.3 to identify that source-to-receiving construction relation. The face constructor is not a species of `U.EpistemicViewing`, and A.6.3 does not establish `U.View` membership.
+   * Every `Emit_s` use names the source episteme edition. It resolves a `publicationViewpointRef` only when the selected episteme is claimed as a `U.View` or the formal operation's definition depends on that viewpoint.
+   * When another episteme is constructed from the source, use A.6.3 to identify that source-to-receiving construction relation. The face constructor is not a species of `U.EpistemicViewing`, and A.6.3 does not establish `U.View` membership.
    * Changed claim content, EntityOfConcern, or effective reference scheme identifies another episteme under C.2.1. Changed form, carrier, or publication occurrence does not by itself.
 4. **Pin discipline.** Numeric or comparable claims used from a face retain the unit, scale, reference-plane, and edition pins required by the applicable characteristic and measurement patterns.
-5. **Publication is not work.** Build, rendering, upload, or delivery is `U.Work` only when each exact actual performer has its A.13 core and A.15.1 independently admits the dated occurrence. F.6 enters only when the publication account also consumes precise assignment-bound attribution through the same obtaining A.13 assignment; missing or failed F.6 alone leaves independently admitted Work intact.
+5. **Publication is not work.** Build, rendering, upload, or delivery is `U.Work` only when each performer has its A.13 core and A.15.1 independently admits the dated occurrence. F.6 enters only when the publication account also consumes precise assignment-bound attribution through the same obtaining A.13 assignment; missing or failed F.6 alone leaves independently admitted Work intact.
 6. **Publication and carrier separation.** E.24.PUB identifies the selected episteme edition, publication occurrence, expression, reusable form and carrier separately. A.10 supplies the evidence/provenance source-to-use path, G.6 supplies addressable path citation, slicing, and local refresh, and B.3 supplies any assurance claim.
 7. **Cross-context and reference-plane use.** For a semantic crossing, recover the F.17 endpoint senses, F.9 Bridge, and separate bounded-use claim. For a plane-dependent value, retain the characteristic, selected `ReferencePlane`, and applicable transfer or comparison rule. Add A.10 or B.3 only when reliance is current; an optional F.9 `CL` summarizes evidence strength and never grants use. Visual juxtaposition and scheme difference alone establish none of these claims.
 8. **PublicationScope discipline.** For a face use v selecting episteme E, `PublicationScope(v)` does not exceed the claim scope on which that publication relies. A capability description may also cite a work scope, but the publication scope does not grant work admissibility. `PromoteFace` does not widen either scope.

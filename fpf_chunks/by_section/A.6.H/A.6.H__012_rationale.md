@@ -6,12 +6,12 @@ section_id: "A.6.H:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.H/A.6.H__012_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.H — Wholeness Language Unpacking — RPR-WHOLE"
   - "A.6.H:10 — Rationale"
-line_start: 25438
-line_end: 25445
+line_start: 26359
+line_end: 26366
 dependencies:
   - "A.1"
   - "A.10"
@@ -64,7 +64,7 @@ keywords:
 
 Wholeness language is useful because it compresses boundary, identity, relation, construction, coverage, and assurance into ordinary speech. The same compression becomes dangerous only when downstream work relies on one particular reading.
 
-The minimal repair is an exact-object sequence that starts with the working decision, recovers only the objects that decision consumes, and applies another rule only for a still-current concrete question. This preserves conversational economy while preventing a representation, record, label, or adjective from replacing an in-world object or relation.
+The minimal repair starts with the working decision, recovers only the objects that decision consumes, and applies another rule only for a still-current question. This preserves conversational economy while preventing a representation, record, label, or adjective from replacing an in-world object or relation.
 
 The sequence also preserves two positive uses. `PhaseOf` can state a proper restriction of one unchanged enduring individual, including an unchanged episteme, when A.14 and the subject's direct rule admit it; fixed episteme identity alone does not establish the restriction. Ordinary whole recognition remains useful when a candidate entity, boundary, parts, relations, and direct identity rule are current.
 

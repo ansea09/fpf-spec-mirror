@@ -6,12 +6,12 @@ section_id: "A.3.3.TR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3.TR/A.3.3.TR__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.3.3.TR — Construct a Rule for State Change"
   - "A.3.3.TR:4 — Solution"
-line_start: 12545
-line_end: 12620
+line_start: 12976
+line_end: 13051
 dependencies:
   - "A.22.CGUS"
   - "A.3.3"
@@ -31,7 +31,7 @@ Construct the rule around the change that matters to the question. Recover the r
 
 #### A.3.3.TR:4.1 - Choose the state, step and inputs
 
-Name what changes and the result needed from that change. Recover the admitted states, using A.3.3.CC when their compatibility is still unresolved. Separate changing values, parameters held fixed and inputs supplied from outside the model.
+Name what changes and the result needed from that change. Recover the admitted states, using A.3.3.CC when their compatibility is unresolved. Separate changing values, parameters held fixed and inputs supplied from outside the model.
 
 Choose what counts as one step. A step can be one instruction, one transaction, an event, an observation interval or an interval of physical evolution. Say which intermediate effects the model retains. Declaring a read-and-write pair atomic is a substantive assumption about interference, as :5.1 shows.
 

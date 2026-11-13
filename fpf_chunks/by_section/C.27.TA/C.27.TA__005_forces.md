@@ -6,12 +6,12 @@ section_id: "C.27.TA:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27.TA/C.27.TA__005_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.27.TA — Temporal Aspect: Time Windows, Rhythm, Cadence, and Currentness"
   - "C.27.TA:3 — Forces"
-line_start: 67487
-line_end: 67496
+line_start: 70547
+line_end: 70556
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -48,7 +48,7 @@ keywords:
 | Force | Tension |
 | --- | --- |
 | Positive temporal subject vs claim adequacy | Some temporal aspects merely need to be named; others become authored temporal claims whose adequacy must be judged by C.27. |
-| Bearer and interval | A rhythm, latency, recovery time, or validity window means little without a bearer and temporal reference. |
+| Bearer and interval | Interpreting a rhythm, latency, recovery time, or validity window requires its bearer and temporal reference. |
 | Local timing vs durable use | A local work note may need one interval; a public claim, benchmark, source use, or assurance relation may need currentness and refresh discipline elsewhere. |
 | Transformation and dynamics pressure | A temporal aspect can time a transformation or dynamics model without becoming the transformation or the dynamics episteme. |
 | Measurement pressure | Some temporal aspects require measurement construction; others only need a named temporal reference. |

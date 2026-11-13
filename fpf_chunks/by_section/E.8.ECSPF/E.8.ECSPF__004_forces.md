@@ -6,12 +6,12 @@ section_id: "E.8.ECSPF:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8.ECSPF/E.8.ECSPF__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.8.ECSPF — Author an FPF Pattern from an Accepted Evaluation CharacteristicSpace Specification"
   - "E.8.ECSPF:3 — Forces"
-line_start: 97924
-line_end: 97934
+line_start: 103461
+line_end: 103471
 dependencies:
   - "A.19.ECS"
   - "C.25"
@@ -30,10 +30,10 @@ keywords:
 
 | Force | Tension |
 |---|---|
-| **Recognition first vs coordinate completeness** | Coordinate meanings and required result content must be inspectable, but the reader must first see the working situation and first evaluation use. |
+| **Recognition first vs coordinate completeness** | Coordinate meanings and required result content must be inspectable, but the reader must see the working situation and first evaluation use before those details. |
 | **Generic E.8 form vs evaluation content** | The canonical pattern skeleton stays fixed, but the evaluation has special content fields from `A.19.ECS`. |
 | **Reusable FPF pattern vs local evaluation** | FPF publication is useful only when the evaluation is durable and reusable beyond one local project. |
-| **Values named by value vs checklist feel** | Values and statuses must be named by value without making the pattern feel like an administrative form. |
+| **Value meanings vs checklist burden** | Give the selected values and statuses and explain what they mean while keeping the pattern readable as practitioner guidance. |
 | **Related-pattern statements vs second ontology** | For each outside claim, the pattern must state the concrete contribution it uses from neighbouring content, without forcing every contribution into one verb list or becoming a directory of possibly related patterns. |
 | **Evaluation of object vs evaluation of FPF pattern version** | The evaluation judges its evaluated object; `E.21` may separately evaluate whether the authored FPF pattern publication form is good enough. |
 

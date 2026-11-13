@@ -6,12 +6,12 @@ section_id: "E.2.DA:9"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.2.DA/E.2.DA__010_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.2.DA — Evaluate How FPF Realizes Its Pillars (Pillar-Adequacy CharacteristicSpace)"
   - "E.2.DA:9 — Relations"
-line_start: 92919
-line_end: 92937
+line_start: 97452
+line_end: 97470
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -32,7 +32,7 @@ keywords:
 |---|---|
 | `E.2` | Supplies Pillar names and meanings. |
 | `A.19.ECS` | Supplies construction discipline for object-under-improvement evaluation characteristic spaces. |
-| `E.4.FPF` | Identifies FPF itself as a first-principles framework edition and defines its form and publication or access-carrier assembly; `E.2.DA` supplies the resulting whole-FPF Pillar-adequacy questions. |
+| `E.4.FPF` | Identifies FPF as a first-principles framework edition and defines its form and publication or access-carrier assembly; `E.2.DA` supplies the resulting whole-FPF Pillar-adequacy questions. |
 | `E.21` | Evaluates one pattern version; may supply evidence loci. |
 | `E.9.DA` | Evaluates one `DRR`; may supply evidence loci. |
 | `E.24`, `E.24.CD`, `E.24.PUB` | Govern ontic concept introduction, candidate detection, ontic-description and publication discipline, and publication-boundary repairs whose FPF-level Pillar effect may be evaluated here. |

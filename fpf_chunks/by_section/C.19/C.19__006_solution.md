@@ -6,12 +6,12 @@ section_id: "C.19:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__006_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:4 — Solution"
-line_start: 61517
-line_end: 61784
+line_start: 63970
+line_end: 64257
 dependencies:
   - "A.10"
   - "A.19.CPM"
@@ -22,13 +22,7 @@ dependencies:
   - "C.16"
   - "C.17"
   - "C.18"
-  - "C.19"
-  - "C.22.PFR"
   - "C.24"
-  - "C.28"
-  - "C.32"
-  - "C.32.P2S"
-  - "C.35"
   - "E.10.LRN"
   - "E.17"
   - "E.24.PUB"
@@ -63,9 +57,9 @@ Use an adequate policy, analysis or professional subject Method directly. When t
 
 1. **Follow what the candidate could enable.** Inspect how an existing artifact or source example takes an input to a result, then how that result could be used. For a failed attempt, find where the observed trace first departs from the expected operation. Use the subject Method, a worked application or a competent contributor to explain what that difference could change. A research line may instead aim to explain an obstruction, develop a model or make a new question answerable; name that attainable kind of contribution at its research horizon.
 2. **Derive a condition or question from that relation.** Follow the proposed effect forward and work back to the inputs and contributions it requires. Inspect the corresponding interface, assumption, observation or arrangement in the available material. Where the relation suggests a revealing contrast, examine a case with and without that premise, or make a small trial that can distinguish them. Keep the established consequence separate from an untested interpretation. If the relation itself cannot yet be explained, use B.5:4.1.2 to construct a smaller case or obtain the specific subject assistance needed; the useful first result may be a better question.
-3. **Make the proposed continuation attainable.** Walk the remaining performance from available input to needed output. For an operation that can change feasibility, use its Method to determine the preparation, material, competence and duration it requires. Place those demands in the available time windows and compare overlapping demands on the same people, setup or access with ongoing work and other live lines. Read the allocations or agreements supporting those commitments, or obtain the responsible participant's answer. This identifies displaced work and unresolved dependencies. An earlier valid account can supply these facts.
-4. **Compare the commitment with the contribution.** Apply C.11.DUA:4.2 and 4.2.1 to active inquiry, continuing on the present basis, lower-burden retention and other serious available continuations. Include the work of obtaining and adapting the Method, the execution and retention demands recovered above, and consequential waiting or checking. Use qualitative or ordinal comparison when it suffices. An exploratory attempt can earn a bounded allocation through the understanding or possibility it could develop, before a particular discovery is known.
-5. **Return to the treatment decision.** Bring the supported contribution, its conditions, the feasible commitment and the comparison back to the pool policy. Use them to justify a treatment or to preserve the precise dependent judgement still open. When an unknown condition matters, identify the observation, source, agreement or construction that could settle it and whether obtaining it is worthwhile. When no useful continuation can yet be described, identify the missing relation or subject contribution and compare a bounded attempt to obtain it with retention, deferral or ending the live commitment.
+3. **Make the proposed continuation attainable.** Walk the remaining performance from available input to needed output. For an operation that can change feasibility, use its Method to determine the preparation, material, competence and duration it requires. Place those demands in the available time windows and compare overlapping demands on the same people, setup or access with ongoing work and other live lines. Read the allocations or agreements supporting those commitments, or obtain the responsible participant's answer. This identifies displaced work and unresolved dependencies. An earlier account can supply these facts.
+4. **Compare the commitment with the contribution.** Apply C.11.DUA:4.2 and 4.2.1 to active inquiry, continuing on the present basis, lower-burden retention and other available continuations. Include the work of obtaining and adapting the Method, the execution and retention demands recovered above, and consequential waiting or checking. Use qualitative or ordinal comparison when it suffices. An exploratory attempt can earn a bounded allocation through the understanding or possibility it could develop, before a particular discovery is known.
+5. **Return to the treatment decision.** Bring the supported contribution, its conditions, the feasible commitment and the comparison back to the pool policy. Use them to justify a treatment or to preserve the dependent judgement still open. When an unknown condition matters, identify the observation, source, agreement or construction that could settle it and whether obtaining it is worthwhile. When no useful continuation can yet be described, identify the missing relation or subject contribution and compare a bounded attempt to obtain it with retention, deferral or ending the live commitment.
 
 #### C.19:4.1a - Causal data and causal-policy exploration hook
 
@@ -92,19 +86,23 @@ Omit this tail when the pool treatment makes no causal claim and consumes no cau
 **Policy fields.** `EmitterPolicy` is a context-local, versioned policy with canonical fields:
 `{ emitterPolicyId, name?, regimeKey ∈ {UCB, Thompson, BO-EI, GP-UCB, PES, InformationGain, …}, params, explore_share∈[0,1], temperature τ≥0, rebalance_period, wild_bet_quota≥0, graduationConditionRef?, assuranceResultRef?, epsilon_dominance ε, cell_capacity K, insertionPolicyRef, dedupThreshold, deduplicationBasisRef, deduplicationUnit }`.
 
-`graduationConditionRef` cites the direct domain or policy condition for moving a line into exploitation or extending an already supported use. `assuranceResultRef` is present only when satisfying that condition relies on one exact B.3 result for a named assurance use and bounded scope. Neither field is an assurance level. The pool policy separately states why active exploration or retention is worthwhile, what continuing commitments it needs, and what would defeat that basis. An exploration horizon may extend beyond the next local decision; it still needs a defensible prospective contribution and obtainable resources. `emitterPolicyId` is cited as `emitterPolicyRef`; the profile is not a U-kind, generation operator, staffing instruction, budget approval, or Work record.
+`graduationConditionRef` cites the direct domain or policy condition for moving a line into exploitation or extending an already supported use. `assuranceResultRef` is present only when satisfying that condition relies on one exact B.3 result for a named assurance use and bounded scope. Neither field is an assurance level.
+
+The pool policy separately states why active exploration or retention is worthwhile, what continuing commitments it needs, and what would defeat that basis. An exploration horizon may extend beyond the next local decision; it still needs a defensible prospective contribution and obtainable resources.
+
+`emitterPolicyId` is cited as `emitterPolicyRef`; the profile is not a U-kind, generation operator, staffing instruction, budget approval, or Work record.
 
 **Decision-subject clarification.** Attribute any later choice to one declared `DecisionSubject` at explicit `DecisionSubjectGranularity`. Record measurement spaces and admissible policies in the semantic-frame epistemes that state them. Use LOG to describe lenses and policies; that description does not enact a choice.
 
 **EmitterPolicy use.** A C.18 generation or archive account cites this profile only when pool treatment, insertion or deduplication uses it.
 
-Use the ordinary default tokens defined in `G.Core` and `G.5`. The rules below explain their pool-policy consequences without defining a rival default family.
+Use the ordinary default tokens defined in `G.Core` and `G.5`. The rules below explain their pool-policy consequences.
 
 **Decision-theory bridge.** Use `C.11` for theory-side choice among already-available options and for the meaning of `ProbeBudget`, `ValueOfInformation`, and `ValueOfComputation`. A pool-policy record may use those outputs as inputs to its treatment judgement. A probe's lack of value for the next local choice does not by itself settle the value of longer-horizon exploration; that prospective contribution and its opportunity cost belong to the pool policy. A worthwhile research line need not become a prerequisite for the present decision.
 
 **Ordinary default references (if policy is unspecified):**
 - **Dominance:** consume `DefaultId.DominanceRegime` from `G.Core` and `G.5`; in ordinary Q-front use this means `{Q components}` with `ConstraintFit=pass` as **eligibility gate**.
-- **Tie-breakers:** the current policy may use a Novelty coordinate, `DeltaDiversity_P`/`ΔDiversity_P`, Surprise, or Illumination only when it names that tie-breaker. It need not fabricate results for optional tie-breakers it does not use.
+- **Tie-breakers:** the current policy may use a Novelty coordinate, `DeltaDiversity_P`/`ΔDiversity_P`, Surprise, or Illumination only when it names that tie-breaker. Unused optional tie-breakers need no result.
   - For Novelty, cite each bearer's coordinate-result episteme: a complete C.16 measurement result for a measured value, or a C.2.1 ascription when the declared rule permits that reading. Before comparing bearers, confirm compatible Novelty Characteristic and Scale editions, corpus/reference set and inclusion rule, similarity Method and encoder/model editions, ClaimScope, and the window, uncertainty and support required by the construction and comparison.
   - For Surprise, cite the coordinate result and its generative-model and training-basis editions, Scale, ClaimScope, and the window, uncertainty and support required by its construction and comparison.
   - For `DeltaDiversity_P`, cite the retained set, candidate, calculation or measurement rule and Scale editions, descriptor or distance basis, resulting marginal reading, and the window and support required by the use.
@@ -117,7 +115,7 @@ Use the ordinary default tokens defined in `G.Core` and `G.5`. The rules below e
 **Use-value and declared-Q boundary.** `C.16.Q` is the pattern for the selector-context meaning of use-value and its `Objective` form. When use-value participates in the current `Q`, declare `QS.UseValue` as an objective head in that exact `Q` and cite the current Q/comparator basis. When it does not participate in the current `Q`, keep the use-value criterion explicitly outside `Q` as a declared side condition or tie-breaker. A pool-policy record may use either declared position but cannot silently promote use-value into `Q` or construct the Q model.
 
 **Scalarization lenses (policy‑level).** A lens `J_ℓ` declares: (a) hard eligibility conditions (e.g., ConstraintFit=pass), (b) soft aggregation (weights or curves), (c) trust policy (how any applicable assurance result and any declared CL discount enter).
-**Conformance.** A pool-policy record MUST name the lens used to pick from a frontier; scalarized rankings MUST NOT be presented as “the frontier”; the **`lens id MUST be recorded in provenance of each selection`**.
+**Conformance.** A pool-policy record MUST name the lens used to pick from a frontier; scalarized rankings MUST NOT be presented as “the frontier”; the **lens id MUST be recorded in the provenance of each selection**.
 
 **Promotion rules (policy).**
 - **Tie-breaks.** Use only the constituted and compatible results named by the current policy. Promotion of Surprise or Illumination into the dominance set MUST be declared by lens or policy id and captured in provenance.
@@ -127,21 +125,21 @@ Use the ordinary default tokens defined in `G.Core` and `G.5`. The rules below e
 
 **Pool-policy pass (per `rebalance_period`).**
 1) Identify the live pool. Read any C.18 archive/front account on which the treatment depends and retain its replay boundary; front or archive recomputation remains a C.18 question.
-2) Recover the governing lens and the continuation basis; use §4.0 when that basis still needs construction. Record the policy values actually used, such as `explore_share`, emitter-profile preference, `wild_bet_quota`, or an admitted heterogeneity constraint.
+2) Recover the governing lens and the continuation basis; use §4.0 when that basis still needs construction. Record the policy values used, such as `explore_share`, emitter-profile preference, `wild_bet_quota`, or an admitted heterogeneity constraint.
 3) Apply the conditions for the proposed treatment. For exploitation or a wider supported use, apply eligibility and `graduationConditionRef`, citing the bounded B.3 result when assurance is needed. For exploration or retention, assess the continuation basis and the whole pool's competing commitments. Return the supported `currentTreatment` from `widen | keep_frontier | narrow_to_subset | sunset_line` and state whether a retained line warrants active probing or only lower-burden retention. If a needed premise is unresolved, retain the supported account and identify the dependent treatment judgement that remains open.
-4) If that judgement requires fresh candidates, a changed emitter mix or temperature, archive insertion, or front recomputation, set `nextQuestionPatternLocator = C.18` and pass only the desired emitter profile, quota or constraint, and the exact generation/archive/front reason. Use §4.4 to obtain the needed generation, archive or front result.
+4) If that judgement requires fresh candidates, a changed emitter mix or temperature, archive insertion, or front recomputation, set `nextQuestionPatternLocator = C.18` and pass only the desired emitter profile, quota or constraint, and the generation/archive/front reason. Use §4.4 to obtain the needed generation, archive or front result.
 5) If carrying out the treatment requires dated implementation, planning, staffing, or budget use, pass the policy record to the A.15 family; the policy record itself grants none of them.
 6) State the supported conclusion or the dependent question left open. When a reusable account of a settled treatment is needed, use `PoolPolicyResult` with `livePool`, `governingLens`, `currentTreatment`, `changeTrigger`, and the inputs required by the next subject pattern. A qualified open question is not recorded as a settled treatment.
 
-**Named lenses (heuristics; policy‑level, not norms)**
-The following **lens profiles** are **illustrative heuristics**. Practitioners MAY reuse or modify them; they are **not** normative.
+**Named lenses (policy‑level)**
+The following **lens profiles** are **illustrative heuristics, not norms**. Practitioners MAY reuse or modify them.
 - **Frontier‑sweeper** — maintain attention on the full front; promote only when the direct graduation condition holds.
 - **Barbell** — enforce `explore_share ≥ θ` with a `wild_bet_quota`; otherwise exploit top‑trust region.
 - **Spike‑first** — pick highest **Use‑Value** subject to `ConstraintFit=pass` and a small **Cost‑to‑Probe** cap.
 - **Safety‑first** — minimize **SafetyRisk** subject to `Use‑Value ≥ θ` and `ConstraintFit=pass`.
 - **Platform‑option** — maximize **Option‑Value** under probe cost bounds.
 - **Pilot-then-scale** — optimize **Use-Value** on the declared pilot scope. Set `currentTreatment = widen` only when `assuranceResultRef` cites the exact B.3 assurance result whose supported scope includes the proposed wider pool, and `changeTrigger` names the satisfied assurance condition and that newly supported scope; otherwise keep the pilot scope.
-- **Heterogeneity-first (illustrative profile).** Use only when the applicable policy already admits a heterogeneity constraint or sampler policy. The applicable policy may declare a `FamilyCoverage` or `MinInterFamilyDistance` gate, a family or subfamily quota, or a diversity-promoting sampler; no universal `k`, `δ_family`, quota vector, sampler class, DPP rule, or max-min rule is supplied here. Record only the admitted policy values and ids actually used.
+- **Heterogeneity-first (illustrative profile).** Use only when the applicable policy already admits a heterogeneity constraint or sampler policy. The applicable policy may declare a `FamilyCoverage` or `MinInterFamilyDistance` gate, a family or subfamily quota, or a diversity-promoting sampler. Use that policy's thresholds, quotas and sampler rules, and record only the policy values and IDs used.
 
 **Conformance (lens recording).** A pool-policy record that uses a lens **MUST** record its **lens id**. Include `emitterPolicyRef` when the current treatment uses that profile.
 
@@ -153,12 +151,12 @@ At the end of a C.19 use, make the treatment and its grounds explicit. A record 
 
 That result should state:
 
-- the still-live pool, frontier, or family scope under governance now;
+- the live pool, frontier, or family scope under governance;
 - the governing lens id or policy state;
 - `currentTreatment`, chosen from `widen | keep_frontier | narrow_to_subset | sunset_line`;
 - the event or threshold that would justify changing that treatment next.
 
-A compact result may therefore state, for example:
+A result may therefore state, for example:
 
 - `livePool = frontier_F`
 - `governingLens = barbell_policy_v2`
@@ -180,7 +178,7 @@ A supported pool-treatment conclusion identifies the pool and its next treatment
 
 - Close as `widen` when wider exploration is warranted under the pool's contribution, horizon and resource conditions. If widening also asserts a wider supported use, satisfy that use's graduation and assurance conditions.
 - Close as `keep_frontier` when keeping the live lines is warranted under the current policy. A line retained for later reconsideration need not receive a new probe.
-- Close as `narrow_to_subset` when the continuation basis warrants a smaller internal live set, without pretending that one scalar winner has already been chosen.
+- Close as `narrow_to_subset` when the continuation basis warrants a smaller internal live set, without implying that one scalar winner has already been chosen.
 - Close as `sunset_line` when a line's prospective contribution, feasible continuation or retention no longer warrants its burden under the pool policy. Failure to graduate is not enough. Its archived result may still be retained under C.18 when that separate retention remains useful.
 
 When the question has stopped being pool policy, carry the established result or qualified open question into the applicable handoff in `C.19:4.4`; the next pattern is recorded outside `currentTreatment`.
@@ -205,7 +203,7 @@ The smallest useful `C.19` record usually states:
 - `assuranceResultRef? = ...` when graduation, scaling, or widening relies on one exact B.3 assurance result and its bounded supported scope
 - `whyNotLocalChoice = ...` when the result might otherwise be mistaken for `C.11`
 
-An admissible short record may therefore read:
+A record may therefore read:
 
 ```text
 livePool = frontier_F
@@ -215,9 +213,13 @@ changeTrigger = graduation_condition_v3 is satisfied for one retained line
 whyNotLocalChoice = several family regions remain live
 ```
 
-When `currentTreatment = narrow_to_subset`, `livePool` still names one internal retained subset or one live pool subset. It does not yet mint one public `Shortlist`, one public `RankedShortlist`, or one `ShortlistId`. If selector-facing result declaration is now required, the admissible `C.19` record leaves `currentTreatment` as the last pool treatment and fills `nextQuestionPatternLocator = G.5`, with the reason that result declaration rather than pool policy is now current.
+When `currentTreatment = narrow_to_subset`, `livePool` still names one internal retained subset or one live pool subset. Retaining the subset does not declare a public `Shortlist` or `RankedShortlist` or assign a `ShortlistId`. If selector-facing result declaration is now required, the `C.19` record leaves `currentTreatment` as the last pool treatment and fills `nextQuestionPatternLocator = G.5`, with the reason that the next question concerns result declaration rather than pool policy.
 
-Goal and task space growth is one pool-policy doctrine over the archive or curriculum side. When autotelic or capability-discovery pressure is active, cite `goalSpaceExpansionPolicyRef` only for an independently declared policy. Retain every supporting information-acquisition, capability, novelty, objective, articulated-endpoint, or other result or claim through its native direct-owner reference and kind. Add `a10RelianceRef` when the needed evidence or source basis requires a replayable A.10 account. Use `competenceModelRef` only for one exact model episteme, never as an alternative name for the capability, result, or reliance account. These inputs may support `widen`, `keep_frontier`, `narrow_to_subset`, or `sunset_line`; none becomes a generic signal or cue, default `Q`, dominance coordinate, probe choice, or selector-facing shortlist by entering the record.
+Goal and task space growth is one pool-policy doctrine over the archive or curriculum side. When autotelic or capability-discovery pressure is active, cite `goalSpaceExpansionPolicyRef` only for an independently declared policy.
+
+Retain every supporting information-acquisition, capability, novelty, objective, articulated-endpoint, or other result or claim through its native direct-owner reference and kind. Add `a10RelianceRef` when the needed evidence or source basis requires a replayable A.10 account. Use `competenceModelRef` only for one exact model episteme, never as an alternative name for the capability, result, or reliance account.
+
+These inputs may support `widen`, `keep_frontier`, `narrow_to_subset`, or `sunset_line`; none becomes a generic signal or cue, default `Q`, dominance coordinate, probe choice, or selector-facing shortlist by entering the record.
 
 If a needed value is unknown, preserve the supported account and leave only the dependent treatment judgement open.
 
@@ -236,7 +238,7 @@ changeTrigger = one retained line satisfies graduation_condition_v3
 whyNotLocalChoice = three family regions remain live
 ```
 
-**An exact capability claim supports pool treatment.**
+**A capability claim supports pool treatment.**
 An A.2.2 statement about holder `diagnostic_agent_v4` supports its qualified ability in task region `alpha`; it does not establish transfer into region `beta`. In this constructed case, a declared curriculum-expansion policy warrants keeping both regions live while beta's prospective contribution and retention burden remain acceptable. That policy does not establish transfer. In this case, the curriculum review needs a replayable account of the capability statement's support and bounded use, so the record cites its A.10 reliance account:
 
 ```text
@@ -275,9 +277,15 @@ changeTrigger = a feasible beta route or changed prospective contribution warran
 whyNotLocalChoice = other regions still remain live under the same pool policy
 ```
 
-**Obtaining an initially missing beta basis.** Start with the alpha and beta configuration artifacts, their code and input definitions, a beta trial log, a saved input capture and one shared test window. Read the beta output and the receiving analysis: the output has elapsed time and scores, while the receiving analysis joins scores to equipment events by event identifier. The failed trial reports unmatched rows. Following the producer code shows that its projection after sorting omits the identifier. This yields a specific question: can the identifier be preserved through that operation so the receiving analysis can use the scores? The capture still contains the identifiers, and the replay Method works on that saved capture. A small replay can examine the mapping before using the shared setup.
+**Obtaining an initially missing beta basis.** Start with the alpha and beta configuration artifacts, their code and input definitions, a beta trial log, a saved input capture and one shared test window. Read the beta output and the receiving analysis: the output has elapsed time and scores, while the receiving analysis joins scores to equipment events by event identifier. The failed trial reports unmatched rows.
 
-Ask the receiving team which comparison would consume the joined data and read the corresponding protocol. That use supplies the reason to investigate the mapping; the diagnostic value of beta's scores remains to be established by the comparison. Recover the remaining replay work from its Method and compare its demands with the actual allocations. If replay fits available analysis time while the shared setup is committed to alpha, compare the limited beta inquiry with cheap retention; a full beta trial remains conditional on obtaining a suitable window. If no receiving comparison is yet established, retain that specific question and use the bounded examination in §4.0 when it is worth its burden. The result may be a supported use for further comparison or a reason to end that attempt. These obtained facts and remaining conditions supply the pool-treatment comparison above; a changed allocation or receiving operation reopens the affected judgement.
+Following the producer code shows that its projection after sorting omits the identifier. This yields a question: can the identifier be preserved through that operation so the receiving analysis can use the scores? The capture still contains the identifiers, and the replay Method works on that saved capture. A small replay can examine the mapping before using the shared setup.
+
+Ask the receiving team which comparison would consume the joined data and read the corresponding protocol. That use supplies the reason to investigate the mapping; the diagnostic value of beta's scores remains to be established by the comparison.
+
+Recover the remaining replay work from its Method and compare its demands with the actual allocations. If replay fits available analysis time while the shared setup is committed to alpha, compare the limited beta inquiry with cheap retention; a full beta trial remains conditional on obtaining a suitable window. If no receiving comparison is yet established, retain that specific question and use the bounded examination in §4.0 when it is worth its burden.
+
+The result may be a supported use for further comparison or a reason to end that attempt. These obtained facts and remaining conditions supply the pool-treatment comparison above; a changed allocation or receiving operation reopens the affected judgement.
 
 **The pool has already been narrowed and the next question is selector-facing result declaration.**
 When one internal retained subset is already explicit and the next question is to declare it for downstream use, close the pool-policy question by naming the applicable pattern instead of presenting that subset as though it were already one selector result:
@@ -293,7 +301,7 @@ whyNotLocalChoice = the next use needs declaration of the retained set, not a ch
 
 #### C.19:4.3b - Cultural and style live pools
 
-For a cultural or style live pool, state how the variants remain live under one policy. The pool might contain style, tradition, Method-family, Work-family, canon, scene or technique variants; use the actual local kind. The same minimal record can preserve that account.
+For a cultural or style live pool, state how the variants remain live under one policy. The pool might contain style, tradition, Method-family, Work-family, canon, scene or technique variants; use the local kind. The same minimal record can preserve that account.
 
 ```text
 PoolPolicyResult:
@@ -305,17 +313,23 @@ PoolPolicyResult:
   nextQuestionPatternLocator?:
 ```
 
-When source labels need disambiguation, use F.17 to identify their local senses. Use F.18 when a durable new name is needed. Source-local labels can retain their cited meanings. Include `termBridgeRefs` only for an independently established F.9 relation between identified sense cells. That reference identifies the relation; a pool-treatment claim relying on it must also establish the named use, direction, correspondence rule and tolerated loss, with A.10/B.3 reliance when required. An existing adequate claim episteme can carry this account. If the question becomes the cultural-evolution case, use C.36. Result declaration, publication availability and currentness use §4.4.
+When source labels need disambiguation, use F.17 to identify their local senses. Use F.18 when a durable new name is needed. Source-local labels can retain their cited meanings.
+
+Include `termBridgeRefs` only for an independently established F.9 relation between identified sense cells. That reference identifies the relation; a pool-treatment claim relying on it must also establish the named use, direction, correspondence rule and tolerated loss, with A.10/B.3 reliance when required. An existing adequate claim episteme can carry this account.
+
+If the question becomes the cultural-evolution case, use C.36. Result declaration, publication availability and currentness use §4.4.
 
 #### C.19:4.4 - Exit from pool treatment
 
-When fresh candidates, a changed emitter mix or temperature, archive insertion or front recomputation are needed, use C.18 with the desired policy values and the pool-policy reason. C.18 keeps the generation, archive and front claims distinct. If obtaining the variants requires construction or change of usable material, use the actual generation Method, with C.40 when that development is the missing contribution; a generation record does not perform it. When one evaluation suffices to answer whether one bearer or version should improve, use the applicable object evaluation, with `E.22` when its framing is needed. When the object version will be improved through repeated passes under a declared evaluation, use `E.23`. For either exit, pass the exact bearer or version, objective or criterion, evidence, and pool-policy reason that made improvement current. A C.19 treatment is neither a generation operation nor an improvement result.
+When fresh candidates, a changed emitter mix or temperature, archive insertion or front recomputation are needed, use C.18 with the desired policy values and the pool-policy reason. C.18 keeps the generation, archive and front claims distinct. If obtaining the variants requires construction or change of usable material, use the generation Method, with C.40 when that development is the missing contribution; a generation record does not perform it.
+
+When one evaluation suffices to answer whether one bearer or version should improve, use the applicable object evaluation, with `E.22` when its framing is needed. When the object version will be improved through repeated passes under a declared evaluation, use `E.23`. For either exit, pass the exact bearer or version, objective or criterion, evidence, and pool-policy reason that made improvement current. A C.19 treatment is neither a generation operation nor an improvement result.
 
 An internal subset retained by `narrow_to_subset` is still the live pool named by one C.19 policy record. It is not a public `Shortlist`, `RankedShortlist`, or `ShortlistId`-bearing selector artefact, and no public selector artefact is emitted by this pool-policy use. `Front` and `Archive` retain their C.18 meanings; a scalarized pick does not rename either one.
 
-When the retained set must be declared for downstream comparison, registry use, or another selector-facing use, pass `G.5` the exact declared source set, lens or policy id, eligibility conditions, dominance set, tie-breakers, promotion policy, and provenance pins. Use `G.5` to declare the selected-set result and any stable public shortlist identity required by a named use. The C.19 account retains the preceding treatment or qualified open question and the reason result declaration is now current. If actual audience availability is also current, use `E.17` for a source-backed publication face and return to source and `E.24.PUB` for the publication occurrence and availability.
+When the retained set must be declared for downstream comparison, registry use, or another selector-facing use, pass `G.5` the exact declared source set, lens or policy id, eligibility conditions, dominance set, tie-breakers, promotion policy, and provenance pins. Use `G.5` to declare the selected-set result and any stable public shortlist identity required by a named use. The C.19 account retains the preceding treatment or qualified open question and the reason for declaring the result. If the question also concerns audience availability, use `E.17` for a source-backed publication face and return to source and `E.24.PUB` for the publication occurrence and availability.
 
-When the live question becomes which option to choose, pass the fixed option set and comparison basis to `C.11`. For planning or performed work, use the applicable A.15 pattern. Use `C.24` after the action or option is fixed and tool or service calls must be planned. When edition, source, descriptor, policy or evidence currentness becomes the live question, use `G.11`. Retain the established pool-policy result or the qualified open question in each handoff.
+When the question is which option to choose, pass the fixed option set and comparison basis to `C.11`. For planning or performed work, use the applicable A.15 pattern. Use `C.24` after the action or option is fixed and tool or service calls must be planned. When the question concerns edition, source, descriptor, policy or evidence currentness, use `G.11`. Retain the established pool-policy result or the qualified open question in each handoff.
 
-The practical handoff is therefore small: preserve the exact C.18 archive or front reference, the C.19 live-pool treatment and change trigger, and the evidence needed by the named next pattern. Do not duplicate selector-result declaration, publication availability, choice, work, or refresh semantics inside C.19.
+For the handoff, preserve the exact C.18 archive or front reference, the C.19 live-pool treatment and change trigger, and the evidence needed by the named next pattern. Do not duplicate selector-result declaration, publication availability, choice, work, or refresh semantics inside C.19.
 

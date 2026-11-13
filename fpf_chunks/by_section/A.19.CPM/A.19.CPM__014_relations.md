@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.19.CPM"
-pattern_title: "Compare Admitted Profiles under a Declared Comparator (CPM)"
+pattern_title: "Compare Admitted Profiles under a Declared Comparator"
 section_id: "A.19.CPM:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CPM/A.19.CPM__014_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.19.CPM — Compare Admitted Profiles under a Declared Comparator (CPM)"
+  - "A.19.CPM — Compare Admitted Profiles under a Declared Comparator"
   - "A.19.CPM:12 — Relations"
-line_start: 39124
-line_end: 39149
+line_start: 40679
+line_end: 40704
 dependencies:
 keywords:
   - "ComparatorSet"
@@ -20,19 +20,19 @@ keywords:
   - "comparison"
   - "partial order"
   - "set-valued comparison outcome"
-  - "tri-state admissibility (pass"
+  - "tri-state admissibility (pass\\"
 ---
 
 ### A.19.CPM:12 - Relations
 
 **Builds on and cites (non‑exhaustive):**
 
-* `A.6.1` (operation declarations and actual application/binding rules)
+* `A.6.1` (operation declarations and application/binding rules)
 * `A.6.1 §4.2` (operation-local argument/result meanings and binding rules; SlotIndex projects those declarations)
 * `A.19.CHR` (suite membership + obligations + `suite_protocols`; CHR SlotKind lexicon)
 * `A.15.2` for the edition/policy baseline on P2W paths; `A.15.3` plus `A.19.CHR:4.7.2` for typed filling of independently declared positions.
 * `A.19` for `CharacteristicSpace` and the optional by-value `CharacteristicSpacePredicate` used by one comparison
-* `A.2.6` for `U.ClaimScope` identity and exact `U.ContextSlice` membership
+* `A.2.6` for `U.ClaimScope` identity and `U.ContextSlice` membership
 * `A.19.CN` for CN-Spec comparability plus acceptance and admission declarations
 * `G.0` (CG‑Spec: `ComparatorSet`, `SCP`, `MinimalEvidence`, CL and ReferencePlane framing)
 * `A.18` (CSLC scale admissibility)

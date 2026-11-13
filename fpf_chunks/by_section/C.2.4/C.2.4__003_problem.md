@@ -6,12 +6,12 @@ section_id: "C.2.4:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.4/C.2.4__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.2.4 — Articulation Explicitness — How Explicit Is an Episteme's Meaning for Its Use?"
   - "C.2.4:2 — Problem"
-line_start: 53693
-line_end: 53695
+line_start: 55926
+line_end: 55928
 dependencies:
   - "A.13"
   - "A.15"
@@ -46,5 +46,5 @@ keywords:
 ---
 
 ### C.2.4:2 - Problem
-When articulation explicitness stays implicit, authors either overstate readiness for a receiving pattern or hide useful early structure. Reusing `F` for this judgement creates a category error: formality assesses the expression properties needed by a use, while articulation concerns whether the meaning needed by the actual receiving use is explicit. A relation-shaped ladder creates a second error by scoring other well-formed claim kinds as immature merely because they are not relations.
+When articulation explicitness stays implicit, authors either overstate readiness for a receiving pattern or hide useful early structure. Reusing `F` for this judgement creates a category error: formality assesses the expression properties needed by a use, while articulation concerns whether the meaning needed by the receiving use is explicit. A relation-shaped ladder creates a second error by scoring other well-formed claim kinds as immature merely because they are not relations.
 

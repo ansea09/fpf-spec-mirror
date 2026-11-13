@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.5.FM"
-pattern_title: "Construct a First Model for the Working Question"
+pattern_title: "Construct a Model for the Question"
 section_id: "B.5.FM:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.FM/B.5.FM__007_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "B.5.FM — Construct a First Model for the Working Question"
+  - "B.5.FM — Construct a Model for the Question"
   - "B.5.FM:6 — Bias-Annotation"
-line_start: 48642
-line_end: 48647
+line_start: 50670
+line_end: 50675
 dependencies:
   - "A.3.3"
   - "A.6.3.RT"
@@ -26,7 +26,7 @@ keywords:
 
 ### B.5.FM:6 - Bias-Annotation
 
-The examples use small explicit accounts so that the reader can inspect the construction. Complex systems can require learned representations, instruments and multiple specialist contributions. Their suitability depends on the inference and available means.
+The examples use small accounts so that the reader can inspect the construction. Complex systems can require learned representations, instruments and multiple specialist contributions. Their suitability depends on the inference and available means.
 
 Source studies of human scientific work motivate some construction moves. Their transfer to AI agents concerns the work to perform and the result to supply; it does not assert identical cognitive mechanisms or learning requirements.
 

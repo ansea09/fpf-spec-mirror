@@ -6,12 +6,12 @@ section_id: "A.1:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1/A.1__011_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.1 — Recognize a Whole with Parts (U.Holon and Admitted Holon Kinds)"
   - "A.1:9 — Consequences"
-line_start: 2844
-line_end: 2859
+line_start: 2888
+line_end: 2903
 dependencies:
   - "A.1.1"
   - "A.1.STM"
@@ -46,7 +46,7 @@ Positive consequences:
 
 Costs:
 
-- Practitioners pay the cost of replacing umbrella uses of "system", "boundary", "interaction", "level", "emergence", and "collection" with exact governed claims.
-- A reviewable holon-recognition claim states the exact constituents, construction, reidentification, larger-assembly compatibility, whole-level characteristic, admitted kind, and subject pattern on which it relies.
+- Practitioners pay the cost of replacing umbrella uses of "system", "boundary", "interaction", "level", "emergence", and "collection" with governed claims.
+- A reviewable holon-recognition claim states the constituents, construction, reidentification, larger-assembly compatibility, whole-level characteristic, admitted kind, and subject pattern on which it relies.
 - Some familiar sentences need repair: "the document decided" becomes a claim about the deciding `U.System`, the direct decision relation or admitted Work, and an episteme or publication. A Work claim requires the A.13 performer core even when a short account leaves it recoverable rather than restating it; an ordinary direct decision or change account stays with its subject pattern.
 

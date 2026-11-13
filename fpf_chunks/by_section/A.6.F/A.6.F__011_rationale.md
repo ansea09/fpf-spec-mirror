@@ -6,12 +6,12 @@ section_id: "A.6.F:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.F/A.6.F__011_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.F — Function and Functional Precision Restoration (RPR-FUNCTION)"
   - "A.6.F:10 — Rationale"
-line_start: 22834
-line_end: 22841
+line_start: 23733
+line_end: 23740
 dependencies:
   - "A.10"
   - "A.15"
@@ -69,7 +69,7 @@ keywords:
 
 ### A.6.F:10 - Rationale
 
-Function-like wording is too useful to ban and too overloaded to leave unresolved. The smallest useful repair is not a new ontology or a generic record. Name the exact entity, value, claim, or claim-bearing episteme, apply its subject pattern, and state the remaining use. Add an explanatory rejected reading only under the full F.19:4 test.
+Preserve useful function-like wording and clarify unresolved meanings. The smallest useful repair is not a new ontology or a generic record. Name the entity, value, claim, or claim-bearing episteme, apply its subject pattern, and state the remaining use. Add an explanatory rejected reading only under the full F.19:4 test.
 
 This follows A.6.P: recover the direct predicate and participants when a relation question is current; add a reusable `RelationSignature` and declaration-local `SlotSpec`s only when typed use needs them; distinguish assertion, specification and view epistemes; and interpret a representation under its applicable correspondence. Use C.29 only for a remaining mathematical representation, transfer or inference question. Under C.30, functional architecture concerns selected structure for a described holon. A selected transformation-flow structure or mathematical graph description requires its own basis.
 

@@ -6,12 +6,12 @@ section_id: "B.1.2:7"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.2/B.1.2__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.1.2 — Coordinate Decisions About System Aggregation and Delimitation"
   - "B.1.2:7 — Common Anti-Patterns and How to Avoid Them"
-line_start: 41590
-line_end: 41599
+line_start: 43204
+line_end: 43213
 dependencies:
   - "A.1"
   - "A.10"
@@ -42,9 +42,9 @@ keywords:
 
 | Anti-pattern | Symptom | Repair |
 | --- | --- | --- |
-| Box as boundary | A diagram rectangle determines system membership. | Recover system identity and every obtaining part and crossing relation; stop if those facts answer the question. If a distinct use-relative boundary choice remains, name the applicable C.11 `ChoiceResult`, C.32.PAD `ArchitectureDecisionRelation@Project`, or another explicitly admitted direct result; otherwise stop with the missing-governor blocker. Add a C.2.1 episteme only when that claim must persist; use an A.22 selected structure only when its four discriminators are independently grounded. |
-| Supplier as component | External supplier or grid is treated as part of the system. | Recover the exact supply, commitment, evidence, source-use, or other crossing relation under its subject pattern; infer no parthood. |
-| Function block as module | A functional block is treated as a physical component. | Recover the exact functional element, proposed bearer, allocation or correspondence, and any obtaining part relation separately. |
-| Digital twin as part | A model or dashboard appears inside the system aggregate. | Recover the description relation; add parthood only if its direct predicate independently obtains. Follow :4.1 for a further question about relying on or publishing the description. |
+| Box as boundary | A diagram rectangle determines system membership. | Recover system identity and every obtaining part and crossing relation; stop if those facts answer the question. If a distinct use-relative boundary choice remains, name the applicable C.11 `ChoiceResult`, C.32.PAD `ArchitectureDecisionRelation@Project`, or another admitted result; otherwise stop with the missing-governor blocker. Add a C.2.1 episteme only when that claim must persist; use an A.22 selected structure only when its four discriminators are independently grounded. |
+| Supplier as component | External supplier or grid is treated as part of the system. | Recover the supply, commitment, evidence, source-use, or other crossing relation under its subject pattern; infer no parthood. |
+| Function block as module | A functional block is treated as a physical component. | Recover the functional element, proposed bearer, allocation or correspondence, and any obtaining part relation separately. |
+| Digital twin as part | A model or dashboard appears inside the system aggregate. | Recover the description relation; add parthood only if its predicate independently obtains. Follow :4.1 for a further question about relying on or publishing the description. |
 | Redundancy as arithmetic | Redundancy is averaged into a better system score. | Check the characteristic scale and applicable existing-whole explanations; use B.2 when the decision still depends on whether the existing whole is sufficient. |
 

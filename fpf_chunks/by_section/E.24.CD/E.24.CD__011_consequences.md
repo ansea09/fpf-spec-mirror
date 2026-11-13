@@ -6,12 +6,12 @@ section_id: "E.24.CD:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.CD/E.24.CD__011_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.24.CD — Ontic Candidate Detection and First-Use Disposition"
   - "E.24.CD:9 — Consequences"
-line_start: 116871
-line_end: 116886
+line_start: 124338
+line_end: 124353
 dependencies:
   - "A.1"
   - "A.14"
@@ -65,7 +65,7 @@ Positive consequences:
 
 Costs:
 
-- the author must recover the subject and needed claim before choosing a subject pattern or unresolved stop;
+- choosing a subject pattern requires identifying the subject and needed claim; an unresolved stop identifies what is missing;
 - some attractive names are lowered to local kinds, source wording, epistemes, publication forms, or representations;
-- a genuine durable candidate still requires the full E.24 decision and, when current, a separate E.24.UK admission result.
+- a proposal for a durable ontic requires the full E.24 decision and, when current, a separate E.24.UK admission result.
 

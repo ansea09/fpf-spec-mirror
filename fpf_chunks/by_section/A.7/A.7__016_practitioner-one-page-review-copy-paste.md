@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.7"
-pattern_title: "Strict Distinction: Repair Conflations of FPF Objects (Clarity Lattice)"
+pattern_title: "Distinction: Repair Conflations of FPF Objects (Clarity Lattice)"
 section_id: "A.7:14"
 section_title: "Practitioner one-page review (copy-paste)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__016_practitioner-one-page-review-copy-paste.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.7 — Strict Distinction: Repair Conflations of FPF Objects (Clarity Lattice)"
+  - "A.7 — Distinction: Repair Conflations of FPF Objects (Clarity Lattice)"
   - "A.7:14 — Practitioner one-page review (copy-paste)"
-line_start: 25808
-line_end: 25834
+line_start: 26729
+line_end: 26755
 dependencies:
   - "A.1"
   - "A.10"
@@ -59,7 +59,7 @@ Keep the sentence this short when the receiving use needs no stronger distinctio
 **Six checks**
 
 1. **Acting subject:** Is the acting System recoverable? If assignment identity is not used, do not invent it.
-2. **Current distinctions:** Are Method, Capability, Work, assignment, local kind, and MethodDescription named only for claims that actually use them?
+2. **Current distinctions:** Are Method, Capability, Work, assignment, local kind, and MethodDescription named only for claims that use them?
 3. **Description boundary:** Is each Description episteme independently identified by claim content, EntityOfConcern, and effective scheme, with any authoring, measurement, source-use, representation, or refinement relation stated separately?
 4. **Method and Work:** Use B.1.5 to judge Method composition; use A.15.1 and B.1.6 for the Work occurrence and its resource actuals, and B.1.4 when already established temporal relations need aggregation.
 5. **Episteme and carrier:** Does the episteme remain non-acting and distinct from its publication form and carrier?
@@ -69,5 +69,5 @@ Keep the sentence this short when the receiving use needs no stronger distinctio
 
 * `process` in source language may mean Method, Work, transformation, mechanism, or another direct object; recover the live claim.
 * A system-role-kind column lists local classifications, not behaviour.
-* A behaviour column states the actual behaviour claim under its direct rule; it need not display a full assignment chain.
+* A behaviour column states the behaviour claim under its direct rule; it need not display a full assignment chain.
 

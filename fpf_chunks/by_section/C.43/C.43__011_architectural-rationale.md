@@ -6,12 +6,12 @@ section_id: "C.43:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.43/C.43__011_architectural-rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.43 — Connect Observation, Choice and Action in Control"
   - "C.43:10 — Architectural Rationale"
-line_start: 90672
-line_end: 90679
+line_start: 95150
+line_end: 95157
 dependencies:
   - "A.12"
   - "C.11"
@@ -27,7 +27,7 @@ keywords:
 
 The recurring work is constructing and revising a connected control account. It has a selectable problem and result even when every component Method already exists. **C.11.CRC** supplies a finite contribution comparison; **A.15.7** selects an action within current work; **C.11.DBR** reopens a changed decision basis; **C.32.LCA** constructs a control arrangement. None is required to change its independent purpose to explain this encompassing use.
 
-The common construction belongs at the transdisciplinary level because its relations survive across different controlled systems and implementations. Their mathematical, economic, organizational and biological fillings retain their own Methods and warranted conclusions.
+The common construction belongs at the transdisciplinary level because its relations survive across different controlled systems and implementations. Their mathematical, economic, organizational and biological fillings retain their Methods and warranted conclusions.
 
-The mantra makes the developed relations easier to retain while each operation remains usable at its actual point of need. A sufficient existing continuation can be kept; a changed dependency reopens the contribution that relied on it. The general explanation supports that selective use across the different subject constructions.
+The mantra makes the developed relations easier to retain while each operation remains usable at its point of need. A sufficient existing continuation can be kept; a changed dependency reopens the contribution that relied on it. The general explanation supports that selective use across the different subject constructions.
 

@@ -6,12 +6,12 @@ section_id: "C.3.A:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.A/C.3.A__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.3.A — Typed Guard Macros for Kinds + USM (Annex)"
   - "C.3.A:intro — Intro"
-line_start: 56195
-line_end: 56215
+line_start: 58499
+line_end: 58519
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -33,7 +33,7 @@ keywords:
 
 ## C.3.A - Typed Guard Macros for Kinds + USM (Annex)
 
-> **Summary.** These guard macros combine C.3 declaration compatibility, the exact C.3.2 candidate judgment when an actual candidate is current, RoleMask and KindBridge declarations/relations, and A.2.6 Scope without collapsing them. A claim quantified over a kind can be checked at declaration level; applying that claim or a capability to one candidate additionally requires an admissibility check and, for an admissible request, `J(candidate, kind, signatureEdition, slice)`. `true`, `false`, and `unknown` remain classification values, while allow/refuse remains a separate guard disposition. KindAT never appears in a guard.
+> **Summary.** These guard macros combine C.3 declaration compatibility, C.3.2 judgment for candidate-bearing use, RoleMask and KindBridge declarations/relations, and A.2.6 Scope without collapsing them. A claim quantified over a kind can be checked at declaration level; applying that claim or a capability to one candidate additionally requires an admissibility check and, for an admissible request, `J(candidate, kind, signatureEdition, slice)`. `true`, `false`, and `unknown` remain classification values, while allow/refuse remains a separate guard disposition. KindAT never appears in a guard.
 
 **Normativity:** Normative for macro obligations, evaluation order, three-valued/fail-closed discipline, and the conformance checklist; informative for decision trees, examples, and implementation-like skeletons.
 
@@ -43,12 +43,12 @@ keywords:
 
 **Depends on.**
 
-- **A.2.6 USM:** exact `U.ContextSlice`, Claim/Work scope, `Gamma_time`, scope bridges, and SpanUnion.
-- **C.3/C.3.1:** exact local kinds and obtaining `U.SubkindOf` relations.
+- **A.2.6 USM:** `U.ContextSlice`, Claim/Work scope, `Gamma_time`, scope bridges, and SpanUnion.
+- **C.3/C.3.1:** local kinds and obtaining `U.SubkindOf` relations.
 - **C.3.2:** `KindSignature` declaration epistemes, candidate/slice admissibility, `J(candidate, kind, signatureEdition, slice)`, `true`/`false`/`unknown`, and optional extension representations.
 - **C.3.3:** obtaining `KindBridge` relations and separate bridge-assertion epistemes carrying loss, evidence, definedness, admitted use, and any `CL^k` required by the consumed assurance or calibration account.
 - **C.3.4:** `KindUseAdaptationDeclaration`, `KindUseAdaptationCorrespondenceDeclaration`, and `J_kindUse`. This annex abbreviates them as `RoleMask`, `MaskAdapter`, and `J_mask`, respectively; `roleMaskEdition` names the adaptation-declaration edition. Thus `J_mask(candidate, kind, kindSignatureEdition, roleMaskEdition, slice)` retains C.3.4's five inputs.
 - **C.3.5:** KindAT as an editorial facet forbidden in guards.
 - **C.2.2/C.2.3 and Part B:** F–G–R, formality on the owning episteme, bridge consequences, and scope congruence.
-- **A.15/A.15.1:** the separation of capability, plan, exact actual Work occurrence, and every episteme about it.
+- **A.15/A.15.1:** the separation of capability, plan, actual Work occurrence, and every episteme about it.
 

@@ -6,24 +6,20 @@ section_id: "A.2:6"
 section_title: "Bias Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2/A.2__008_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.2 — System-Role Kinds and Assignments"
   - "A.2:6 — Bias Annotation"
-line_start: 4764
-line_end: 4778
+line_start: 4916
+line_end: 4930
 dependencies:
   - "A.1"
-  - "A.1.1"
   - "A.15"
   - "A.2.1"
   - "A.2.5"
   - "A.2.7"
-  - "A.6.0"
-  - "A.6.5"
   - "A.6.REL"
   - "A.6.RSIR"
-  - "C.2.1"
   - "C.3"
   - "C.3.1"
   - "C.3.2"

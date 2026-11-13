@@ -6,12 +6,12 @@ section_id: "A.6.RSIR:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIR/A.6.RSIR__002_use-this-when.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.RSIR — Relation, Signature, Interface, Role, and Slot Precision Restoration"
   - "A.6.RSIR:0 — Use This When"
-line_start: 21610
-line_end: 21627
+line_start: 22483
+line_end: 22502
 dependencies:
   - "A.10"
   - "A.15"
@@ -59,17 +59,19 @@ keywords:
 
 **Plain name.** Relation-signature-interface-role-slot recovery.
 
-Use this pattern when engineering wording such as *role*, *interface*, *signature*, *slot* or *parameter* hides the object or claim needed by the task. For bare claim-bearing *role*, apply E.10.ROLE once. If it identifies the direct object and rule or settles ordinary use, proceed with that result. Use RSIR only for a remaining question about direct participation, a reusable declaration, an interface, an operation declaration or binding, or a representation position.
+Use this pattern when engineering wording such as *role*, *interface*, *signature*, *slot* or *parameter* hides the object or claim needed by the task. For bare claim-bearing *role*, apply E.10.ROLE once. If it identifies the object and rule or settles ordinary use, proceed with that result. Use RSIR only for a remaining question about direct participation, a reusable declaration, an interface, an operation declaration or binding, or a representation position.
 
-**Primary EntityOfConcern.** The EntityOfConcern is one encountered use of an ambiguous engineering phrase together with the claim that this use is intended to carry. RSIR recovers the direct governed object, direct relation and participant meaning, actual participant, declaration-local `SlotSpec` or operation declaration, exact operation application and binding, assertion- or description-side designation, representation position and correspondence, or claim before selecting its subject pattern. The phrase remains wording in an episteme or in speech; it is not the world-side object, occurrence, value, or relation named by the recovered claim.
+**Primary EntityOfConcern.** The EntityOfConcern is one encountered use of an ambiguous engineering phrase together with the claim that this use is intended to carry.
+
+RSIR recovers the object, direct relation and participant meaning, actual participant, declaration-local `SlotSpec` or operation declaration, operation application and binding, assertion- or description-side designation, representation position and correspondence, or claim before selecting its subject pattern. The phrase remains wording in an episteme or in speech; it is not the world-side object, occurrence, value, or relation named by the recovered claim.
 
 The intended reader is an FPF practitioner, author or reviewer repairing an engineering phrase so that its next user can recover the object, rule and action it concerns.
 
-**First useful move.** Recover the project concern first, then recover the current governed EntityOfConcern or claim kind. As soon as the applicable definition, constraint, or test is clear, apply that rule and stop the RSIR repair. Keep a reduced-use source label only when no governed value is being asserted.
+**First useful move.** Recover the project concern first, then recover the EntityOfConcern or claim kind. As soon as the applicable definition, constraint, or test is clear, apply that rule and stop the RSIR repair. Keep a reduced-use source label only when no governed value is being asserted.
 
-**What goes wrong if missed.** The same word is used for differently defined objects without saying which claim is current. For example, `interface` may denote an API description, reusable signature, functional port, compatibility claim, or module-boundary relation. Bare *role* may point to a system-role kind, one assignment, direct-relation participation, a declaration-local `SlotKind`, a representation position, use of an episteme, another object, or ordinary wording. A later reader then cannot recover which relation obtains, which participant is meant, which declaration is current, whether an exact operation application binds an actual value, or which representation correspondence is intended.
+**What goes wrong if missed.** The same word is used for differently defined objects without saying which claim is meant. For example, `interface` may denote an API description, reusable signature, functional port, compatibility claim, or module-boundary relation. Bare *role* may point to a system-role kind, one assignment, direct-relation participation, a declaration-local `SlotKind`, a representation position, use of an episteme, another object, or ordinary wording. A later reader then cannot recover which relation obtains, which participant is meant, which declaration is current, whether an operation application binds an actual value, or which representation correspondence is intended.
 
-**What this buys.** The reader gets one small recovery move before the direct pattern is applied. The repair preserves useful engineering words while preventing a lexical cue from minting a new root kind or collapsing direct participation, reusable declaration, assertion or description, exact operation application and binding, and representation correspondence.
+**What this buys.** The reader gets one recovery move before the subject pattern is applied. The repair preserves useful engineering words while preventing a lexical cue from minting a new root kind or collapsing direct participation, reusable declaration, assertion or description, operation application and binding, and representation correspondence.
 
 **Not this pattern when.** Do not use `A.6.RSIR` after the subject pattern is already clear. Do not use it for general relation repair after `A.6.P` is selected, for slot discipline after `A.6.5` is selected, for function-like repair after `A.6.F` is selected, for module-interface repair after `A.6.M` is selected, for transformation wording after `A.3.4.P` is selected, or for publication and description repair after `E.17`, `C.2.1`, or `C.2.P.DR` is selected.
 

@@ -6,12 +6,12 @@ section_id: "C.40.PC:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.PC/C.40.PC__013_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.40.PC — Construct a Worthwhile Problem and Proposed Contribution"
   - "C.40.PC:12 — Relations"
-line_start: 87388
-line_end: 87398
+line_start: 91622
+line_end: 91632
 dependencies:
   - "A.15.9"
   - "A.2.3"
@@ -32,6 +32,6 @@ keywords:
 - **Uses A.2.3:** identity and conditions of relied-on promise content, distinct from commitment and provision.
 - **Uses A.15.9:** the needed bounded outside-practice result and its reliance boundary, without performing the supplier's Method.
 - **Supplies C.40.DC:** worthwhile problem/proposed-contribution accounts, including explicit hypotheses and acceptance expectations.
-- **Supplies C.40.JF:** the value and contribution claims whose necessary transitions still need qualification; a worthwhile problem is not a reachability verdict.
+- **Supplies C.40.JF:** the value and contribution claims whose necessary transitions need qualification; a worthwhile problem is not a reachability verdict.
 - **Uses C.40.RQ:** local requalification when receiving need, source, acceptance, protection, or horizon changes.
 

@@ -6,12 +6,12 @@ section_id: "A.6:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6/A.6__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6 — Signature Stack: Classify and Place Boundary Claims"
   - "A.6:1 — Problem frame"
-line_start: 13789
-line_end: 13810
+line_start: 14234
+line_end: 14255
 dependencies:
   - "A.10"
   - "A.15"
@@ -57,14 +57,14 @@ keywords:
 
 ### A.6:1 - Problem frame
 
-At an API, protocol, hardware connector, organizational interface or published model, a reader needs to distinguish the declaration from the conditions of use and what actually occurred. FPF supplies these contributions:
+At an API, protocol, hardware connector, organizational interface or published model, a reader needs to distinguish the declaration from the conditions of use and what occurred. FPF supplies these contributions:
 
 * `U.Signature` as a *public, law‑governed declaration* (with Vocabulary, Laws, Applicability).
 * `U.Mechanism` as a reusable operation declaration with OperationAlgebra, LawSet, AdmissibilityConditions and Applicability.
 * Multi-view describing through E.17.0 `MultiViewDescribing`, plus separate E.17 publication discipline for selected epistemes, face uses, forms, and carriers.
 * Recover each claim's **EntityOfConcern** separately from its claim-bearing **Description episteme** and any **publication carrier**. The concern may itself be an episteme or carrier; its position does not establish agency, Work, evidence, or a decision.
 
-A boundary account can blend these claims into one contract paragraph. Then a signature can acquire an unstated entry gate, a mathematical invariant can be read as a duty, or an effect can be asserted without its actual basis.
+A boundary account can blend these claims into one contract paragraph. Then a signature can acquire an unstated entry gate, a mathematical invariant can be read as a duty, or an effect can be asserted without its basis.
 
 Connect the contributions in two steps:
 

@@ -6,12 +6,12 @@ section_id: "C.2.8:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.8/C.2.8__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.2.8 — ExtractableStructuralInformation — Structure This Reader Can Recover"
   - "C.2.8:3 — Forces"
-line_start: 54510
-line_end: 54519
+line_start: 56759
+line_end: 56768
 dependencies:
   - "A.17"
   - "A.18"
@@ -42,5 +42,5 @@ keywords:
 | Explicit articulation and bounded extraction | A complete semantic form can still demand more reconstruction than the reader's budget allows. |
 | Preparation and attribution | Prior knowledge enables decoding and inference, but it can also repair a defective account independently. |
 | Structural gain and practical choice | More selected structure is the positive direction of this characteristic; the extra recovery may still cost more than the task warrants. |
-| Comparable values and honest limits | Numbers help a declared comparison, while a changed denominator, unvalidated estimator or absent observation can make them misleading. |
+| Comparable values and limits | Numbers help a declared comparison, while a changed denominator, unvalidated estimator or absent observation can make them misleading. |
 

@@ -6,12 +6,12 @@ section_id: "E.17.0:6"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.0/E.17.0__007_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.17.0 — Viewpoint and View Recognition for Multi-View Describing"
   - "E.17.0:6 — Consequences"
-line_start: 106558
-line_end: 106569
+line_start: 113079
+line_end: 113090
 dependencies:
   - "A.22"
   - "A.6.3"
@@ -40,5 +40,5 @@ keywords:
 | Multi-view structures and correspondences become inspectable. | A package or graph cannot substitute for collection, structure, or direct-relation recovery. |
 | Publication and rendering can evolve independently of view identity. | Publication users must name the exact occurrence, form, and carrier when those distinctions affect work. |
 
-Reopen the pattern when either conformance participant kind changes, the fixed predicate changes, or a proposed condition makes occurrence identity depend on an object other than E and P. Reopen a particular use when the candidate episteme, viewpoint edition, selected describing use, direct correspondence, or publication occurrence changes.
+Reopen the pattern when either conformance participant kind changes, the fixed predicate changes, or a proposed condition makes occurrence identity depend on an object other than E and P. Reopen the affected use when its candidate episteme, viewpoint edition, selected describing use, direct correspondence, or publication occurrence changes.
 

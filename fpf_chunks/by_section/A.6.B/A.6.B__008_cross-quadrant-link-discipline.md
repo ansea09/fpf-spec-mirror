@@ -6,12 +6,12 @@ section_id: "A.6.B:6"
 section_title: "Cross‑quadrant link discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__008_cross-quadrant-link-discipline.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:6 — Cross‑quadrant link discipline"
-line_start: 14876
-line_end: 14970
+line_start: 15345
+line_end: 15443
 dependencies:
   - "A.10"
   - "A.2.3"
@@ -48,7 +48,7 @@ keywords:
   - "The key words MUST"
   - "accountable norms and grants"
   - "actual exercise"
-  - "an individual-duty D- claim MUST name its actual bearer and exact separately obtaining U.Commitment"
+  - "an individual-duty D- claim MUST name its actual bearer and separately obtaining U.Commitment"
   - "and SHALL have their RFC 2119/8174 meanings only when capitalized as shown"
   - "and evaluated results distinct"
   - "as if it were an agent obligation"
@@ -95,7 +95,7 @@ When governance says that a gate must be satisfied or enforced:
 * generic `D-*`: “`Policy-P` requires covered subjects to satisfy or enforce `A-*`”; or
 * individual `D-*`: “Actual bearer `S` has commitment `C` to satisfy or enforce `A-*`.”
 
-This separates **what is admissible** (A) from generic normative content and any separately instituted individual duty (D). If responsibility is also claimed, state its admitted direct domain predicate or exact missing governor rather than inferring it from the duty.
+This separates **what is admissible** (A) from generic normative content and any separately instituted individual duty (D). If responsibility is also claimed, state its admitted direct domain predicate or missing governor rather than inferring it from the duty.
 
 ##### A.6.B:6.2.2 - (E → A) Evidence-for-gate linkage
 
@@ -135,12 +135,12 @@ This keeps governance text from accidentally redefining semantics in prose.
 
 ##### A.6.B:6.2.6 - (A → D/E) Normative or evaluated input to a gate
 
-When entry depends on a current grant or a separately established finding, reference that exact D or E claim and state how its subject enters the predicate. For example, `A-CAL-01` in §8.4.5.4 requires the grant stated by `D-CAL-01` to cover the plan and time, together with the required conflict finding. The grant, finding and entry decision retain their own obtaining conditions. A changed input reopens the admission evaluation that consumed it.
+When entry depends on a current grant or a separately established finding, reference that D or E claim and state how its subject enters the predicate. For example, `A-CAL-01` in §8.4.5.4 requires the grant stated by `D-CAL-01` to cover the plan and time, together with the required conflict finding. The grant, finding and entry decision retain their own obtaining conditions. A changed input reopens the admission evaluation that consumed it.
 
 #### A.6.B:6.3 — The “triangle decomposition” for mixed sentences
 
 **Normative rule (decomposition).** A conforming boundary text **SHALL** decompose
-any mixed sentence into its actual claim jobs. Recover the predicate and modality
+any mixed sentence into its claim jobs. Recover the predicate and modality
 of an observability clause before assigning its quadrant. The triangle applies
 when the source states all three:
 
@@ -151,7 +151,7 @@ when the source states all three:
 Keep a prescription or individually instituted duty to produce evidence in D.
 Preserve an expectation or plan as such; leave the actual E result absent until
 its basis exists. This repairs mixed validity, authorization, compliance, audit,
-and security claims without manufacturing a third claim.
+and security claims without adding an unsupported third claim.
 
 #### A.6.B:6.4 — Ground each dependency
 
@@ -162,10 +162,14 @@ references, such as `L-* → L-*` or `E-* → E-*`.
 
 **Normative rule (dependency grounds).**
 
-* `L-*` claims **MUST NOT** depend on or reference `A-*`, `D-*`, or `E-*` claims (except for purely informative notes explicitly marked informative).
-* An `A-*` claim **MAY** reference a `D-*` claim for the normative content, duty or grant used by its entry predicate, and an `E-*` claim for a separately established finding or observation. It **MUST** identify the actual input and required scope or currentness under §5.2; deciding that entry is permitted still requires the predicate to be satisfied. `A-*` may reference `L-*` for defined terms or invariants.
-* An `E-*` claim **MAY** reference a `D-*` claim as its evidence target or to identify the norm, duty, or grant used by its evaluation. The `E-*` result **MUST** still satisfy its own predicate and the actual-work, evaluation, or observation requirements of §5.4; the `D-*` claim alone establishes no result or compliance. (`E-*` may also reference `A-*` for conditioning and `L-*` for metric or term meanings.)
+* `L-*` claims **MUST NOT** depend on or reference `A-*`, `D-*`, or `E-*` claims (except for purely informative notes marked informative).
+* An `A-*` claim **MAY** reference a `D-*` claim for the normative content, duty or grant used by its entry predicate, and an `E-*` claim for a separately established finding or observation. It **MUST** identify the input and required scope or currentness under §5.2; deciding that entry is permitted requires the predicate to be satisfied. `A-*` may reference `L-*` for defined terms or invariants.
+* An `E-*` claim **MAY** reference a `D-*` claim as its evidence target or to identify the norm, duty, or grant used by its evaluation. The `E-*` result **MUST** satisfy its own predicate and the actual-work, evaluation, or observation requirements of §5.4; the `D-*` claim alone establishes no result or compliance. (`E-*` may also reference `A-*` for conditioning and `L-*` for metric or term meanings.)
 * `D-*` claims **MAY** reference `L-*`, `A-*`, and `E-*` claims when needed, and **SHOULD** do so by ID or canonical location rather than restating content.
 
-**Rationale (informative).** The L restriction keeps the reusable definition or law independent of a particular gate application, deontic claim or observation. Expose a varying policy or state as a declared parameter; bind it where the particular condition or claim uses it. A and D may refer to one another for different reasons: a duty can require enforcing a gate, while that gate consumes a separately obtaining grant. Examine those reasons rather than treating every reference as one ordering relation. A grant justified only by a gate result that itself assumes that grant would leave both claims ungrounded. Evidence and results may report on normative claims or evaluate conduct against them under their own predicates.
+**Rationale (informative).** The L restriction keeps the reusable definition or law independent of a particular gate application, deontic claim or observation. Expose a varying policy or state as a declared parameter; bind it where the condition or claim uses it.
+
+A and D may refer to one another for different reasons: a duty can require enforcing a gate, while that gate consumes a separately obtaining grant. Examine those reasons rather than treating every reference as one ordering relation. A grant justified only by a gate result that itself assumes that grant would leave both claims ungrounded.
+
+Evidence and results may report on normative claims or evaluate conduct against them under their own predicates.
 

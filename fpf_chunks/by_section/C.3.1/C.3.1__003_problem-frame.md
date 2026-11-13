@@ -6,12 +6,12 @@ section_id: "C.3.1:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__003_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.3.1 — Kind Identity and Subkind Relations (U.Kind and U.SubkindOf)"
   - "C.3.1:1 — Problem Frame"
-line_start: 55254
-line_end: 55259
+line_start: 57536
+line_end: 57541
 dependencies:
   - "A.1"
   - "A.11"
@@ -44,7 +44,7 @@ keywords:
 
 ### C.3.1:1 - Problem Frame
 
-A practice/source boundary is provenance and a comparison cue. It affects the continuity decision only when comparison exposes a real difference in the candidate domain or membership distinction.
+A practice/source boundary is provenance and a comparison cue. It affects the continuity decision only when comparison exposes a difference in the candidate domain or membership distinction.
 
-`U.SubkindOf` is a same-individual dependent kind under `U.Relation`. Its participants are an exact narrower kind and broader kind. An effective reference scheme and aligned `KindSignature` editions make the criteria interpretable and qualify applicability; they are not relation participants or occurrence-identity discriminators. Candidate state, context slice, declaration edition, kind identity, and one obtaining subkind relation can therefore change for different reasons.
+`U.SubkindOf` is a same-individual dependent kind under `U.Relation`. Its participants are a narrower kind and broader kind. An effective reference scheme and aligned `KindSignature` editions make the criteria interpretable and qualify applicability; they are not relation participants or occurrence-identity discriminators. Candidate state, context slice, declaration edition, kind identity, and one obtaining subkind relation can therefore change for different reasons.
 

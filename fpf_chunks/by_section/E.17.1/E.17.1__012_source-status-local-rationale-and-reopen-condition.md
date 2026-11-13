@@ -6,12 +6,12 @@ section_id: "E.17.1:11"
 section_title: "Source status, local rationale, and reopen condition"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__012_source-status-local-rationale-and-reopen-condition.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.17.1 — Viewpoint Bundle Library - Reusable Viewpoint Reference Bundles"
   - "E.17.1:11 — Source status, local rationale, and reopen condition"
-line_start: 106827
-line_end: 106834
+line_start: 113360
+line_end: 113369
 dependencies:
   - "A.16.0"
   - "A.22"
@@ -39,7 +39,9 @@ keywords:
 
 ISO 42010 is retained only as historical vocabulary lineage for the words *view* and *viewpoint*. It is not current architecting SoTA, does not supply FPF identity or conformance laws, and does not justify this catalogue architecture. No current external problem-solving source or reusable source comparison is claimed by this E.17.1 edition.
 
-The present architecture is therefore an explicit local FPF rationale. The concrete problem is repeated use of the same exact E.17.0 viewpoint episteme editions: users need to resolve exact references, preserve source catalogue and omission provenance, and avoid reidentifying P or turning a family label into membership. One C.2.1 catalogue ClaimGraph with local declaration claim blocks is the least additional object that answers those actions while reusing C.2.1 identity, E.17.0 membership, C.13 collection, F.9 comparison, and E.24.PUB publication boundaries.
+This design has a local FPF rationale. The problem is repeated use of the same E.17.0 viewpoint episteme editions. Users need to resolve references, preserve source catalogue and omission provenance, and avoid reidentifying P or turning a family label into membership.
 
-Reopen the local architecture if an exact current source or exercised project catalogue demonstrates a simpler way to preserve reference resolution, exact P identity, subsets, omissions, provenance, and cross-context comparison without losing any of those practitioner actions; or if project replay shows that one catalogue ClaimGraph with local declarations adds apparatus without changing a practitioner action. Until then, describe this as provisional local design, not source-established SoTA.
+One C.2.1 catalogue ClaimGraph with local declaration claim blocks is the least additional object that answers those actions while reusing C.2.1 identity, E.17.0 membership, C.13 collection, F.9 comparison, and E.24.PUB publication boundaries.
+
+Reopen the local architecture if a current source or exercised project catalogue demonstrates a simpler way to preserve reference resolution, P identity, subsets, omissions, provenance, and cross-context comparison without losing any of those practitioner actions, or if project replay shows that one catalogue ClaimGraph with local declarations adds apparatus without changing a practitioner action. Until then, describe this as provisional local design, not source-established SoTA.
 

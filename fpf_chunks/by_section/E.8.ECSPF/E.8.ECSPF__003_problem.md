@@ -6,12 +6,12 @@ section_id: "E.8.ECSPF:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8.ECSPF/E.8.ECSPF__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.8.ECSPF — Author an FPF Pattern from an Accepted Evaluation CharacteristicSpace Specification"
   - "E.8.ECSPF:2 — Problem"
-line_start: 97909
-line_end: 97923
+line_start: 103444
+line_end: 103460
 dependencies:
   - "A.19.ECS"
   - "C.25"
@@ -28,7 +28,9 @@ keywords:
 
 ### E.8.ECSPF:2 - Problem
 
-An author can use `A.19.ECS` to produce a good evaluation characteristic-space specification without yet having guidance on publishing that specification as an FPF pattern. The author can use `E.8` to produce a good generic FPF pattern without yet having guidance on where to place a coordinate set, object-kind-fit rule, evidence basis, result-row shape, calibration points, status set, and stop condition when they are the pattern's main content.
+An author can use `A.19.ECS` to produce a good evaluation characteristic-space specification and still lack guidance on publishing it as an FPF pattern.
+
+The author can use `E.8` to produce a good generic FPF pattern and still lack guidance on where to place a coordinate set, object-kind-fit rule, evidence basis, result-row shape, calibration points, status set and stop condition when they are the pattern's main content.
 
 Recurring failures:
 

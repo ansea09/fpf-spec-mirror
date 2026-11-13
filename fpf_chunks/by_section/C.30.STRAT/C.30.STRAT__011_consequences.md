@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__011_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.30.STRAT — Clarify Stratification and Architecture Source Labels"
   - "C.30.STRAT:9 — Consequences"
-line_start: 73210
-line_end: 73216
+line_start: 76340
+line_end: 76346
 dependencies:
   - "A.10"
   - "A.15"
@@ -67,5 +67,5 @@ keywords:
 | Benefit | Trade-off or mitigation |
 | --- | --- |
 | Local labels remain usable without becoming root kinds. | The reader pays a recovery cost only when the word carries a technical claim; ordinary prose closes immediately. |
-| A compressed sentence no longer smuggles several claims under one word. | The repair may name several applicable patterns, but only for branches that the sentence actually contains. |
+| A compressed sentence no longer hides several claims under one word. | The repair may name several applicable patterns, but only for branches that the sentence contains. |
 

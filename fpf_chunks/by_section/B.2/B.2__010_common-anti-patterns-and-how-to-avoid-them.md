@@ -6,12 +6,12 @@ section_id: "B.2:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2/B.2__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.2 — Meta-Holon Transition - Whole Reidentification"
   - "B.2:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 43659
-line_end: 43670
+line_start: 45417
+line_end: 45428
 dependencies:
   - "A.1"
   - "A.10"
@@ -52,9 +52,9 @@ keywords:
 | --- | --- | --- |
 | Emergence by adjective | A capability or property is called emergent without reidentifying the whole. | Use `B.2.P` to recover claim kind, then B.2 only if whole reidentification is current. |
 | Record as ontology | Trigger profile, result field, or record name is treated as a world-side kind. | Keep the trigger profile, optional explanation result, and reidentification record as `U.Episteme` values; keep the ordinary comparison as an action. Let `E.24.UK` handle the candidate new whole's public kind and A.1 recognize that candidate. |
-| Content field as relation slot | A reference field inside a profile or record is treated as a participant SlotKind or as evidence that the referenced relation obtains. | Keep the field in episteme content, resolve its reference to the direct occurrence, and use that occurrence's subject pattern for obtaining and identity. |
-| KPI jump as MHT | A metric improves and MHT is declared. | Perform the ordinary existing-whole comparison; use the direct measurement, characteristic, Method, Work, or architecture pattern when it explains the change. |
-| Agency shortcut | Agency threshold crossing creates a new root kind. | Use the direct characteristic-space and threshold patterns; apply B.2 when the crossing raises a whole-reidentification question about closure, supervision, objective, or identity. |
+| Content field as relation slot | A reference field inside a profile or record is treated as a participant SlotKind or as evidence that the referenced relation obtains. | Keep the field in episteme content, resolve its reference to the occurrence, and use that occurrence's subject pattern for obtaining and identity. |
+| KPI jump as MHT | A metric improves and MHT is declared. | Perform the ordinary existing-whole comparison; use the measurement, characteristic, Method, Work, or architecture pattern when it explains the change. |
+| Agency shortcut | Agency threshold crossing creates a new root kind. | Use the characteristic-space and threshold patterns; apply B.2 when the crossing raises a whole-reidentification question about closure, supervision, objective, or identity. |
 | Math result as MHT | Graph, RG-like, MSPD, or benchmark expression declares new whole. | Recover the holon identity claim and its grounds; use `C.29` for a remaining representation-choice, transfer or reliance question. Use B.2 for the whole-reidentification question. |
-| Transformation as containment | A system changes another holon and is treated as its part or containing whole without a separately obtaining part-whole relation. | Use A.12, A.3.4, A.15.1, and the direct crossing relation pattern; use parthood only when an exact grounded part relation independently obtains. |
+| Transformation as containment | A system changes another holon and is treated as its part or containing whole without a separately obtaining part-whole relation. | Use A.12, A.3.4, A.15.1, and the crossing relation pattern; use parthood only when a grounded part relation independently obtains. |
 

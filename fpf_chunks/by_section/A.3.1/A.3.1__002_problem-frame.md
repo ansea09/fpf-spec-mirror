@@ -6,12 +6,12 @@ section_id: "A.3.1:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1/A.3.1__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.3.1 — U.Method: Reusable Way of Doing with Explicit Applicability"
   - "A.3.1:1 — Problem frame"
-line_start: 9380
-line_end: 9406
+line_start: 9759
+line_end: 9787
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -41,7 +41,7 @@ keywords:
 
 Use this pattern when a project needs to say **how something is done in principle**.
 
-When observed performances or evidence about performances may show a reusable way that still needs recovery, use `A.3.1.MR` first. It returns one source-traceable provisional account per candidate, a record-only result, or a named blocker. Include a distinguishing question only when it changes recovery or the receiving use.
+When observed performances or evidence about performances may show a reusable way that needs recovery, use `A.3.1.MR` first. It returns one source-traceable provisional account per candidate, a record-only result, or a named blocker. Include a distinguishing question only when it changes recovery or the receiving use.
 
 For reusable-way claims proposed or described in documentary guidance, use `A.3.1.DR` when their source meaning or status needs recovery. Choose by the source's role in the question: a document can contain both guidance and performance evidence.
 
@@ -54,7 +54,9 @@ Typical moments:
 * two descriptions look different but may describe the same way of doing;
 * a graph, query, table, dashboard, checklist predicate, or mathematical representation is being interpreted as if it were an instruction sequence;
 
-**Primary EntityOfConcern.** The `EntityOfConcern` is the `U.Method`: one reusable semantic way of doing under stated participant meanings, applicability, preconditions, intended effects or preserved conditions, and bounds. Cite an exact effective reference scheme and local senses only when their variation changes that method meaning. `U.Method` is a non-agentive holon kind: methods can have submethods, compose into whole methods, and participate as submethods of larger methods. A step label or step description is not a method part unless the recovered object is itself a `U.Method`.
+**Primary EntityOfConcern.** The `EntityOfConcern` is the `U.Method`: one reusable semantic way of doing under stated participant meanings, applicability, preconditions, intended effects or preserved conditions, and bounds. Cite an exact effective reference scheme and local senses only when their variation changes that method meaning.
+
+`U.Method` is a non-agentive holon kind: methods can have submethods, compose into whole methods, and participate as submethods of larger methods. A step label or step description is not a method part unless the recovered object is itself a `U.Method`.
 
 **First useful move.** Name the reusable way of doing, its generic participant meanings, applicability, preconditions, intended effect or preserved condition, and the concern it addresses. If local terminology changes that answer, cite the effective reference scheme and local senses.
 
@@ -62,5 +64,5 @@ Typical moments:
 
 **What this buys.** The project can reuse, compare, describe, plan, enact, and audit a way of doing without confusing the method with its descriptions, runs, mechanisms, mathematical substrates, evidence relations, gates, or authority claims.
 
-**Not this pattern when.** If the sentence is about a document or representation that describes a method, schedules work, reports dated Work, declares a mechanism, presents a mathematical lens, cites evidence, decides a gate, asserts authority, or publishes a view, use the pattern that defines or tests that claim. When method-description membership is in question, apply A.3.2's same-individual test to the already identified claim-bearing episteme; a carrier or representation is not thereby linked directly to the Method. State any planning, enactment, realization, evidence, gate, authority, publication, or representation relation only under its subject pattern when it actually obtains.
+**Not this pattern when.** If the sentence is about a document or representation that describes a method, schedules work, reports dated Work, declares a mechanism, presents a mathematical lens, cites evidence, decides a gate, asserts authority, or publishes a view, use the pattern that defines or tests that claim. When method-description membership is in question, apply A.3.2's same-individual test to the already identified claim-bearing episteme; a carrier or representation is not thereby linked directly to the Method. State any planning, enactment, realization, evidence, gate, authority, publication, or representation relation only under its subject pattern when it obtains.
 

@@ -6,12 +6,12 @@ section_id: "C.30.ASV:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ASV/C.30.ASV__010_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
   - "C.30.ASV:9 — Consequences"
-line_start: 74058
-line_end: 74066
+line_start: 77245
+line_end: 77253
 dependencies:
   - "A.1"
   - "A.10"
@@ -67,8 +67,8 @@ keywords:
 
 | Benefit | Cost or trade-off |
 | --- | --- |
-| Architecture views become exact description epistemes over selected structures, not diagrams by appearance. | A conforming use states C.2.1 identity, selected structure, structure kind, exact viewpoint, obtaining conformance relation, and admissible use. |
-| Project-local TEVB reference reuse does not enlarge either template. | Architecture-specific structure-kind bindings add one explicit record when their coverage matters; every reused viewpoint reference retains its exact materialized catalogue and member provenance and grants no view membership. |
+| Architecture views are description epistemes over selected structures; a diagram's appearance does not establish view membership. | A conforming use states C.2.1 identity, selected structure, structure kind, viewpoint, obtaining conformance relation, and admissible use. |
+| Project-local TEVB reference reuse does not enlarge either template. | Architecture-specific structure-kind bindings add one record when their coverage matters; every reused viewpoint reference retains its materialized catalogue and member provenance and grants no view membership. |
 | Functional, flow, control, module-interface, placement, information, runtime, work, evidence, scale, material, and logical structures can be separated. | Some familiar names require triage before they can carry FPF claim kinds. |
 | Failed checks produce repair actions rather than only classification objections. | The checklist is longer than a pure taxonomy, but it is more useful for action. |
 

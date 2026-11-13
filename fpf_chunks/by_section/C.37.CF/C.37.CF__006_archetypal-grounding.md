@@ -6,12 +6,12 @@ section_id: "C.37.CF:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37.CF/C.37.CF__006_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.37.CF — Compare Content and Form Changes"
   - "C.37.CF:5 — Archetypal Grounding"
-line_start: 82319
-line_end: 82402
+line_start: 86340
+line_end: 86423
 dependencies:
   - "A.3.2.DE"
   - "C.2.8"
@@ -23,7 +23,7 @@ keywords:
 
 #### C.37.CF:5.1 - Added stop information versus a table
 
-This is a constructed comparison, with explicit text rather than an assumed reader study.
+This constructed comparison uses the texts below; it reports no reader study.
 
 The receiving action is deciding whether an earlier review may support a current description revision.
 
@@ -41,9 +41,9 @@ The receiving action is deciding whether an earlier review may support a current
 
 Initially, the facts say that the change is display-only, the claims and question are unchanged, and the qualification window is current. All variants can support reuse. The later condition says that a new recheck needs an argument outside the available excerpts and that the retained dossier contains only its locator.
 
-B and C explicitly support the local stop and preservation answer; A does not contain that distinction. This establishes a content-coverage difference in the constructed texts. It does not show that an actual reader preferred or used C more effectively than B. A reader comparison would still be needed for that form claim.
+B and C state the local stop and preservation instructions; A does not contain that distinction. This establishes a content-coverage difference in the constructed texts. It does not show that an actual reader preferred or used C more effectively than B. A reader comparison would still be needed for that form claim.
 
-The useful authoring decision is to retain the missing stop information and withhold the table-superiority claim.
+For the revision, retain the missing stop information and withhold the table-superiority claim.
 
 #### C.37.CF:5.2 - A graph that adds a claim
 
@@ -87,10 +87,10 @@ presentation difference. The full E.8.ML account remains available for condition
 selected explanation.
 
 For the stated task, the answer must preserve the reason for separate entries and select the first missing
-result. With an adequate allocation and one contradictory maintained claim, direct A.3.1.CC use is enough.
+result. With an adequate allocation and one contradictory maintained claim, A.3.1.CC use is enough.
 In a changed case, an argument needed for a new recheck becomes unavailable. Return the affected current-use
 claim and source relation, preserving the earlier answer and independently supported contributions. If the
-question becomes publication authorization, obtain that separately applicable result.
+question becomes publication authorization, obtain that result separately.
 
 A reading comparison would keep the engineer's preparation, task, source access, tools and permitted help
 comparable and retain the initial answer before giving a corrective cue. Record reading or source-return

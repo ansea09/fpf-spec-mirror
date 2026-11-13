@@ -6,12 +6,12 @@ section_id: "A.6.3.CR:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CR/A.6.3.CR__006_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.3.CR — ConservativeRetextualization: EntityOfConcern-Preserving Textual Re-Expression"
   - "A.6.3.CR:5 — Archetypal Grounding"
-line_start: 18358
-line_end: 18443
+line_start: 19207
+line_end: 19296
 dependencies:
   - "A.15"
   - "A.6.2"
@@ -39,7 +39,7 @@ keywords:
 
 **Published report slice.** `Evening-batch latency for Service S exceeded the threshold. Source pins: Trace T-44, Dashboard D-17. Low-confidence hypotheses are omitted here and remain in the pinned source note.`
 
-This is an admissible direct `ConservativeRetextualization` because the EntityOfConcern stays fixed, the report remains textual, and the omission is stated rather than hidden. In ordinary internal use, this often needs only source pins plus visible omission notes rather than a full explicit review record.
+This is an admissible direct `ConservativeRetextualization` because the EntityOfConcern stays fixed, the report remains textual, and the omission is stated. In ordinary internal use, this often needs only source pins plus visible omission notes rather than a full explicit review record.
 
 #### A.6.3.CR:5.1.a - Ordinary inherited-pin summary
 **Pinned source cluster.** `In this example, N-14 is the source note in §5.1; N-14, trace T-44, and dashboard card D-17 are already published together under one incident review bundle.`
@@ -61,7 +61,11 @@ This stays ordinary `ConservativeRetextualization` because the omission is decla
 
 **Published summary slice.** `For small-batch mixing, choose method family MF-2 when material X remains below T. Selected method M-2 still requires work plan WP-17 and result measurement RM-4.`
 
-This remains `ConservativeRetextualization` because it restates the source's selection rule and preserves its planning and measurement requirements. The summary supports interpretation and source-finding. Keep WP-17 and RM-4 recoverable whenever they affect the stated interpretation, decision or performance; actual use must satisfy the applicable requirements. A shorter summary used only to select a method family may omit requirements for performing the selected method when that omission does not mislead the reader about the summary's scope or make M-2 appear ready for execution. If material loss is admissible only with a narrower use and return to the source, use `A.6.3.CSC Controlled Semantic Coarsening` with that narrower admissible use, forbidden stronger use, and source-bearing return. For stronger use, apply the exact governing requirement to the current facts; the CSC label or a reference alone does not satisfy it.
+This remains `ConservativeRetextualization` because it restates the source's selection rule and preserves its planning and measurement requirements. The summary supports interpretation and source-finding. Keep WP-17 and RM-4 recoverable whenever they affect the stated interpretation, decision or performance; actual use must satisfy the applicable requirements.
+
+A shorter summary used only to select a method family may omit requirements for performing the selected method when that omission does not mislead the reader about the summary's scope or make M-2 appear ready for execution.
+
+If material loss is admissible only with a narrower use and return to the source, use `A.6.3.CSC Controlled Semantic Coarsening` with that narrower admissible use, forbidden stronger use, and source-bearing return. For stronger use, apply the governing requirement to the current facts; the CSC label or a reference alone does not satisfy it.
 
 #### A.6.3.CR:5.1.d - Generated-summary source-relation variant
 
@@ -81,7 +85,7 @@ When the generated-summary case needs shared vocabulary, use only the `E.17:5.1b
 
 The summary may expose or cite the source slice it restates. It does not become that source slice by fluency, brevity, translation, layout, generated form, or reuse. If the needed source content, governing requirement, or case relation is missing, a repair request or source-gap note is only prospective: it neither establishes earlier source use nor supplies the missing claim support or use condition.
 
-If the generated summary is source-pointer-only, merely plausible, claim-widened, or carrying added linkage, do not treat it as a conservative source-equivalent summary. For source-finding or orientation, retain only the justified pointer and separate any unsupported or new proposition from the source-backed account. Repair the claim against the source, or apply A.6.3.CSC, ExplanationFaithfulnessProfile, RepresentationSchemeTransition, E.17.ID.CR, A.15, A.10, or another pattern that defines, constrains, or tests the actual claim. An orientation or coarsening label alone does not make an unsupported claim source-faithful.
+If the generated summary is source-pointer-only, merely plausible, claim-widened, or carrying added linkage, do not treat it as a conservative source-equivalent summary. For source-finding or orientation, retain only the justified pointer and separate any unsupported or new proposition from the source-backed account. Repair the claim against the source, or apply A.6.3.CSC, ExplanationFaithfulnessProfile, RepresentationSchemeTransition, E.17.ID.CR, A.15, A.10, or another pattern that defines, constrains, or tests the claim. An orientation or coarsening label alone does not make an unsupported claim source-faithful.
 
 #### A.6.3.CR:5.2 - Same-EntityOfConcern rewrite via declared correspondence
 
@@ -109,7 +113,7 @@ This remains in `ConservativeRetextualization` only if the translation is tether
 
 **Published coarsened slice.** `Pressure drift above 2.5% is a warning condition in the bulletin. Check the pinned bulletin and annex before treating the note as rollback guidance.`
 
-This does **not** remain ordinary `ConservativeRetextualization`. The coarsened slice drops equipment-specific exceptions and remains only an orientation warning: it is not an executable rollback command. It can stay honest only through narrower admissible use, non-admissible downstream use, and source-bearing return to the source-bearing bulletin. Once that narrower-use boundary becomes primary, the case leaves ordinary same-entity rewrite and must use `A.6.3.CSC Controlled Semantic Coarsening` rather than being treated as a harmless summary.
+This does **not** remain ordinary `ConservativeRetextualization`. The coarsened slice drops equipment-specific exceptions and remains only an orientation warning: it is not an executable rollback command. It is admissible only through narrower admissible use, non-admissible downstream use, and source-bearing return to the bulletin. Once that narrower-use boundary becomes primary, the case leaves ordinary same-entity rewrite and must use `A.6.3.CSC Controlled Semantic Coarsening`.
 
 #### A.6.3.CR:5.3 - Boundary to explanation-facing renderings
 

@@ -6,12 +6,12 @@ section_id: "C.2.7:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.7/C.2.7__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.2.7 — LanguageStateRepresentationFactorBundle — How Is the Representation Organized?"
   - "C.2.7:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 54381
-line_end: 54385
+line_start: 56630
+line_end: 56634
 dependencies:
   - "A.16"
   - "A.16.0"

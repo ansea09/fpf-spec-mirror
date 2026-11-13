@@ -6,12 +6,12 @@ section_id: "F.13:8"
 section_title: "Self‑checks (mental, not procedural)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.13/F.13__009_self-checks-mental-not-procedural.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.13 — Lexical Continuity & Deprecation"
   - "F.13:8 — Self‑checks (mental, not procedural)"
-line_start: 122872
-line_end: 122879
+line_start: 130652
+line_end: 130659
 dependencies:
   - "F.1"
   - "F.17"
@@ -36,7 +36,7 @@ keywords:
 
 * **Same-sense test.** Do the effective scheme, local-sense claim, intended use and any governed value stay the same? Then a rename or alias may be justified, with distinct cells when expressions differ. If meaning or the target changes, first recover that change under its subject rule.
 * **Context test.** Are the semantic projections different, and is a current correspondence needed? If both hold, open F.9. Different context names alone establish no relation.
-* **Reader test.** Which legacy strings will readers actually encounter, and under which meanings and editions? Preserve the read-paths they need while keeping the preferred current designation clear.
+* **Reader test.** Which legacy strings will readers encounter, and under which meanings and editions? Preserve the read-paths they need while keeping the preferred current designation clear.
 * **History test.** Does your “continuity” require editing old claims? If yes, you’re attempting a **retroactive rewrite**—stop.
 * **Didactic test.** Can the intended reader recover what changed and how to interpret the old label? If not, clarify that account or name the unresolved subject decision; sentence length alone diagnoses neither sameness nor change.
 

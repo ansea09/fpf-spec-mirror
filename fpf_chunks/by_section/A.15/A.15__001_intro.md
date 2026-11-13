@@ -6,12 +6,12 @@ section_id: "A.15:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.15 — System-Role–Method–Work Alignment"
   - "A.15:intro — Intro"
-line_start: 28731
-line_end: 28781
+line_start: 29797
+line_end: 29847
 dependencies:
   - "A.10"
   - "A.13"
@@ -71,7 +71,7 @@ keywords:
 
 **At a glance.** Use this pattern when a team must say which System performed which Work, under which assignment, which Method the Work enacted, and which plan applied without confusing any of those values with a description, capability, record, or result. A precise actual-performer branch first reuses A.13's core, then A.15.1 independently admits the dated Work, and only afterward F.6 uses the same obtaining assignment when precise assignment-bound attribution is current; an agency characteristic profile remains conditional on its receiving use.
 
-**Use this when.** Use A.15 when a receiving decision needs to connect classification or assignment, Method, capability, planning and performed Work while keeping the particular claims distinct. Recover only the values and relations that decision consumes.
+**Use this when.** Use A.15 when a receiving decision needs to connect classification or assignment, Method, capability, planning and performed Work while keeping the claims distinct. Recover only the values and relations that decision consumes.
 
 **Start here when.** The team is mixing system classification or assignment with recipe, schedule, capability, or performed Work, often under an ambiguous source word such as *role*, *process*, *workflow*, or *activity*.
 
@@ -79,7 +79,7 @@ keywords:
 
 
 
-**Minimum sufficient use.** Recover only the values and relations needed by the receiving use. Ordinary orientation can stop at one clear sentence. A reliance-bearing claim may also need exact occurrence identity and extent, the selected source and its currentness, a capability-fit claim, and the evidence or assurance claim actually relied on.
+**Minimum sufficient use.** Recover only the values and relations needed by the receiving use. Ordinary orientation can stop at one clear sentence. A reliance-bearing claim may also need occurrence identity and extent, the selected source and its currentness, a capability-fit claim, and the evidence or assurance claim relied on.
 
 **Recovered-reference sufficiency condition.** Proceed when every value and relation consumed by the claim is recoverable with the meaning, identity and conditions that use needs. Otherwise narrow the claim or recover the missing basis. A bounded reversible probe is one option when its attainable contribution justifies its burden under C.11.DUA. Record a repair or decision request, prospective plan entry or source gap only when the continuation needs it.
 
@@ -103,13 +103,13 @@ keywords:
 
 **Not this pattern when.** Use `A.15.1` for one dated Work occurrence, `A.15.2` for planning or schedule baselines, `A.15.5` for work-entry readiness, `A.16` or `A.16.1` for a cue that has not become an alignment question, `A.6` or `A.6.B` for boundary or policy wording, `E.10.ROLE` when *role* is still unresolved, and `A.15.4` when a visible item is being relied on by appearance.
 
-**Related pattern contributions.** Use `A.2` and C.3 to identify exact local system-role kinds, `A.2.1` for direct `U.SystemRoleAssignment` species, A.13 for the precise local agency core and any conditionally consumed profile, `F.6` for performed-Work attribution through that same assignment, `A.15.1` for dated Work, `A.15.2` for WorkPlan epistemes, `A.15.3` for declaration-local planned-filling content inside a WorkPlan, `A.15.4` for work-relevant reliance by appearance, `A.15.5` for work-entry readiness, `F.11` to align Method and Work vocabulary across contexts, and `F.17` for the human-facing term sheet.
+**Related pattern contributions.** Use `A.2` and C.3 to identify local system-role kinds, `A.2.1` for direct `U.SystemRoleAssignment` species, A.13 for the local agency core and any conditionally consumed profile, `F.6` for performed-Work attribution through that same assignment, `A.15.1` for dated Work, `A.15.2` for WorkPlan epistemes, `A.15.3` for declaration-local planned-filling content inside a WorkPlan, `A.15.4` for work-relevant reliance by appearance, `A.15.5` for work-entry readiness, `F.11` to align Method and Work vocabulary across contexts, and `F.17` for the human-facing term sheet.
 
 **Causal-use work boundary.** Causal inquiry can use the Method, plan, performer and Work distinctions when those claims are needed. `C.28` separately governs the causal-use question, rung, estimand, identification, estimate, sampling and simulation contributions, and supported or unsupported uses. Alignment alone does not establish causal admissibility.
 
-**Related-record mistakes.** A cue, publication, plan, record, result, evidence item, or approval can help locate a value without becoming that value. Recover the dated Work under `A.15.1`. State a subject-specific production or result relation only under its direct pattern; for a production-work, entity-inception, or production-completion question, A.15.PROD may instead return one local claim or exact blocker. Use `A.15.4` only when reliance on an encountered appearance is the problem.
+**Related-record mistakes.** A cue, publication, plan, record, result, evidence item, or approval can help locate a value without becoming that value. Recover the dated Work under `A.15.1`. State a subject-specific production or result relation only under its direct pattern; for a production-work, entity-inception, or production-completion question, A.15.PROD may instead return one local claim or blocker. Use `A.15.4` only when reliance on an encountered appearance is the problem.
 
-**Boundary to coarsened renderings.** A briefing, summary, redacted note, or coarsened rendering may orient work. Rely on it for an execution, approval, gate, or evidence question only when the exact sources and relations required by that use remain explicit and reopenable. Use `A.6.3.CSC` when coarsening itself changes what may be relied on.
+**Boundary to coarsened renderings.** A briefing, summary, redacted note, or coarsened rendering may orient work. Rely on it for an execution, approval, gate, or evidence question only when the sources and relations required by that use remain explicit and reopenable. Use `A.6.3.CSC` when coarsening itself changes what may be relied on.
 
 
 **Outside-practice result boundary.** When one receiving decision or piece of Work needs a bounded result governed by another practice, use `A.15.9` to inspect an already-available result before requesting anything new, ask only for the remaining gap, and preserve supplier Method and authority separately from the receiving decision. A.15 keeps the underlying Method, Work, performer, assignment, communication, result, and record distinctions unchanged.

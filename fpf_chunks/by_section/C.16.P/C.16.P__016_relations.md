@@ -6,12 +6,12 @@ section_id: "C.16.P:13"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.P/C.16.P__016_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.16.P — Restore Precision to Characteristic and Scale Wording"
   - "C.16.P:13 — Relations"
-line_start: 59808
-line_end: 59819
+line_start: 62193
+line_end: 62204
 dependencies:
   - "A.17"
   - "A.18"
@@ -39,5 +39,5 @@ keywords:
 - `C.16.Q` governs quality-term or evaluative characterization wording.
 - `E.21` governs pattern-quality evaluation characteristic spaces.
 - `C.29` governs mathematical-lens use.
-- Exact evidence, assurance, gate, work, decision, causal-use, release, benchmark, and publication patterns define or constrain their own claims.
+- Evidence, assurance, gate, work, decision, causal-use, release, benchmark, and publication patterns define or constrain their own claims.
 

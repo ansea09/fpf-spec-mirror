@@ -6,12 +6,12 @@ section_id: "C.3.A:8"
 section_title: "Guard anti-patterns and remedies (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.A/C.3.A__009_guard-anti-patterns-and-remedies-informative.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.3.A — Typed Guard Macros for Kinds + USM (Annex)"
   - "C.3.A:8 — Guard anti-patterns and remedies (informative)"
-line_start: 56416
-line_end: 56427
+line_start: 58728
+line_end: 58739
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -40,6 +40,6 @@ keywords:
 | Treating unavailable support as `false` | turns non-settlement into world-side failure | retain `unknown`; let the guard refuse separately |
 | Treating a mask label as a kind | hides the declaration and constraints | designate the exact RoleMask edition and evaluate `J_mask` |
 | Copying source classification through a bridge | bridge evidence is not target truth | recover the target declaration and evaluate the target candidate afresh |
-| Gating on KindAT | the facet is not a guard Characteristic | use the actual declaration, judgment, scope, evidence, and policy predicates |
+| Gating on KindAT | the facet is not a guard Characteristic | use the declaration, judgment, scope, evidence, and policy predicates |
 | Calling a plan, row, or JobSlice “the work” | erases the world/episteme boundary | identify the independently grounded dated Work occurrence when Work is current |
 

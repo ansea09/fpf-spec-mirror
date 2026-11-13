@@ -6,12 +6,12 @@ section_id: "A.3.1.FT:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.FT/A.3.1.FT__006_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.3.1.FT — Qualify Method Fit and Transfer"
   - "A.3.1.FT:4 — Solution"
-line_start: 10861
-line_end: 10913
+line_start: 11262
+line_end: 11314
 dependencies:
   - "A.3.1"
   - "A.3.1.QM"
@@ -22,7 +22,7 @@ keywords:
 
 ### A.3.1.FT:4 - Solution
 
-Method identity under A.3.1 does not establish fit for a particular use. Assess the required result against relevant actual Work and the conditions under which it occurred. A local fit result can be sufficient for the named decision. To claim transfer or a broader applicability boundary, recover the additional situation evidence and comparison on which that claim depends.
+Method identity under A.3.1 does not establish fit for a use. Assess the required result against relevant Work and the conditions under which it occurred. A local fit result can be sufficient for the named decision. To claim transfer or a broader applicability boundary, recover the additional situation evidence and comparison on which that claim depends.
 
 Preserve Method semantics and status throughout. Compare source and receiving conditions when carrying a claim between them; use a situation capable of testing the asserted limit when qualifying an applicability boundary. Return the supported result at that scope, or the specific missing basis.
 
@@ -57,7 +57,7 @@ Keep the distinctions needed for the selected decision in the assessment and its
 
 #### A.3.1.FT:4.3 - What Changes in Practice
 
-Practitioners can use a sufficient local fit result without arranging an unrelated comparison. When they transfer a claim or qualify an applicability boundary, they can show the relevant source and receiving conditions, actual Work, semantic continuity, discriminating evidence, and the exact claim that survived or failed.
+Practitioners can use a sufficient local fit result without arranging an unrelated comparison. When they transfer a claim or qualify an applicability boundary, they can show the relevant source and receiving conditions, actual Work, semantic continuity, discriminating evidence, and the claim that survived or failed.
 
 A narrow result such as “Fits this decision for this holder and support window; transfer untested” can support a decision to use the Method now while protecting later teams from a universal claim.
 

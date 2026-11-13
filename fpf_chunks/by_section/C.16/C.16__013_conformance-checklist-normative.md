@@ -6,12 +6,12 @@ section_id: "C.16:10"
 section_title: "Conformance Checklist (Normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__013_conformance-checklist-normative.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:10 — Conformance Checklist (Normative)"
-line_start: 58831
-line_end: 58845
+line_start: 61215
+line_end: 61229
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -57,14 +57,14 @@ keywords:
 
 For a proposed model, apply the subject, scale, model and applicable calibration checks. Apply work and result checks when asserting a performed measurement, and later-use checks when making that later claim.
 
-1. **Subject:** one exact measurand or measurement subject is named, with correct entity or relation arity.
+1. **Subject:** one measurand or measurement subject is named, with correct entity or relation arity.
 2. **CSLC:** Characteristic, Scale, Level or Coordinate, applicable Unit and time stance are interpretable. Add a preference rule only for a use that judges which values are preferable.
 3. **Method/model:** the method, model version, inputs, output quantity, assumptions and validity domain are recoverable. When the relation had to be constructed, §5.3.1 explains how the procedure produces the indication and what sought values it can distinguish. Keep a proposed model separate from a claim of performed measurement.
 4. **Calibration:** applicable calibration work/result, reference basis, coefficients or corrections, validity interval, and uncertainty contribution are cited when required.
-5. **Work:** every actual performer has the A.13 core; the dated `U.Work` is independently admitted under A.15.1; F.6 is added afterward only when precise assignment-bound attribution is current. The exact measurand relation or A.6.1 binding is present; further enacted Methods, resources, or participant bindings are present only when the measurement claim uses them.
+5. **Work:** every actual performer has the A.13 core; the dated `U.Work` is independently admitted under A.15.1; F.6 is added afterward only when precise assignment-bound attribution is needed. The measurand relation or A.6.1 binding is present; further enacted Methods, resources, or participant bindings are present only when the measurement claim uses them.
 6. **Result:** one C.16 measurement result attributes value or values to the measurand with uncertainty and relevant information; one C.2.1 episteme states it.
 7. **Separation:** raw output, indication, actual subject state, result, result episteme, diagnosis, verdict, and decision are not collapsed.
-8. **Comparability:** direct or transformed comparison names its exact basis and does not upgrade the Scale or mint a common scale.
+8. **Comparability:** direct or transformed comparison names its basis and does not upgrade the Scale or mint a common scale.
 9. **Provenance/use:** A.10/G.6 provenance, G.11 currentness, bounded reliance, assurance, and later work remain under their subject patterns.
 10. **Boundary:** no method description, plan, signature, carrier, ledger row, evidence edge, or stored reference is used to infer actual participation, work, or result identity.
 

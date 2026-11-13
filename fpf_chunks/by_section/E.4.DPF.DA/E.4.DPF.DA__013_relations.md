@@ -6,12 +6,12 @@ section_id: "E.4.DPF.DA:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF.DA/E.4.DPF.DA__013_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.4.DPF.DA — Evaluate a DPF or LPF Package for Its Declared Use (Package-Adequacy CharacteristicSpace)"
   - "E.4.DPF.DA:12 — Relations"
-line_start: 95700
-line_end: 95712
+line_start: 100745
+line_end: 100757
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -62,8 +62,8 @@ keywords:
 
 - **Builds on:** `A.19.ECS` for evaluation characteristic-space construction.
 - **Specializes by object:** `E.2.DA` supplies the adjacent form for complete multi-coordinate adequacy evaluation, but this pattern changes the evaluated object from FPF-level object to DPF package edition.
-- **Coordinates with:** `E.4` for framework family; the exact E.4.DPF authoring `U.Method` and MethodDescription; `E.4.PFAD` for architecture decisions; `E.4.PFR` for relation records and edition dependencies; and the separate package architecture. Their coordination list and document order identify neither the authoring Method nor the evaluation Method.
-- **Coordinates with:** `C.2.1` for framework and result episteme identity and the effective ReferenceScheme; `A.2.6` for ClaimScope; `A.1.1` and `A.22` only for an interpretation-changing selected model-use structure; `A.3.1` and `A.3.2` for the semantic evaluation Method and its description; `A.13` for the exact actual evaluator and `A.15.1` for one independently valid Work account when dated assessment Work is asserted; `A.2.1` and `F.6` only when the result expressly represents precise assignment-bound attribution through that same obtaining A.13 assignment; `A.6.1` only for an actual application of an operation declared by a separately admitted Mechanism and its bindings; `A.10` for evidence use; and `G.2` and `G.11` for source packs, source currentness, and refresh.
+- **Coordinates with:** `E.4` for framework family; the E.4.DPF authoring `U.Method` and MethodDescription; `E.4.PFAD` for architecture decisions; `E.4.PFR` for relation records and edition dependencies; and the separate package architecture. Their coordination list and document order identify neither the authoring Method nor the evaluation Method.
+- **Coordinates with:** `C.2.1` for framework and result episteme identity and the effective ReferenceScheme; `A.2.6` for ClaimScope; `A.1.1` and `A.22` only for an interpretation-changing selected model-use structure; `A.3.1` and `A.3.2` for the semantic evaluation Method and its description; `A.13` for the actual evaluator and `A.15.1` for one independently valid Work account when dated assessment Work is asserted; `A.2.1` and `F.6` only when the result expressly represents precise assignment-bound attribution through that same obtaining A.13 assignment; `A.6.1` only for an actual application of an operation declared by a separately admitted Mechanism and its bindings; `A.10` for evidence use; and `G.2` and `G.11` for source packs, source currentness, and refresh.
 - **Coordinates with:** `E.21`, `E.19`, `E.22`, and `E.23` for individual pattern quality, admission review, evaluation framing, and repeated improvement.
 - **Uses:** `F.19` for precise plain-language checks and ordinary wording repair; `E.10` for cues and unresolved meaning routes.
 - **Coordinates with:** `E.24.PUB` for publication occurrence, form, and presentation carrier; `E.11.PFP` for the common framework publication form; `E.4.PFIP` only for a separate accepted-source integration or predecessor-continuity conclusion; and `E.11`, `E.17`, `F.18`, `C.33`, `C.34`, and `C.35` for first entry, publication or access use, naming, preservation, correspondence, and generated- or discovered-result admission to an intended architecture use.

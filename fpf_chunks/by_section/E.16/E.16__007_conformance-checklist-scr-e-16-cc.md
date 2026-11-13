@@ -6,12 +6,12 @@ section_id: "E.16:6"
 section_title: "Conformance Checklist (SCR - E.16-CC)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.16/E.16__007_conformance-checklist-scr-e-16-cc.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.16 — RoC‑Autonomy Budget & Enforcement"
   - "E.16:6 — Conformance Checklist (SCR - E.16-CC)"
-line_start: 106028
-line_end: 106039
+line_start: 112511
+line_end: 112522
 dependencies:
   - "A.10"
   - "A.13"
@@ -53,9 +53,9 @@ keywords:
 
 | ID            | Requirement |
 | ------------- | ----------- |
-| **E.16-CC-1** | Each autonomy claim cites a named/versioned budget with claim, consumer kind, situation, policy, scope/window, limits, override rule and exact A.2.7 species. Prospective budgets may omit actions/assignments; action-bound permission resolves the proposed action and real allocation/authority; enactment-bound adds independently admitted actual Work. |
+| **E.16-CC-1** | Each autonomy claim cites a named/versioned budget with claim, consumer kind, situation, policy, scope/window, limits, override rule and exact A.2.7 species. Prospective budgets may omit actions/assignments; action-bound permission resolves the proposed action and real allocation/authority; enactment-bound adds independently admitted Work. |
 | **E.16-CC-2** | Green-Gate decides the A.21 prospective work-entry claim and bounded action, resolving its identity/continuation, real holder/assignment/state, authority, scope/window, remaining budget, incompatibility and guards. Changed permission-relevant windows require recheck; request respelling does not create another action. |
-| **E.16-CC-3** | Work admitted under autonomy **MUST** have an `AutonomyLedgerEntry` that identifies the Work, performer System, exact assignment, budget edition, deltas, and references to the guard check-application results. |
+| **E.16-CC-3** | Work admitted under autonomy **MUST** have an `AutonomyLedgerEntry` that identifies the Work, performer System, assignment, budget edition, deltas, and references to the guard check-application results. |
 | **E.16-CC-4** | A proposed override passes its applicable A.2.7 species and independent authority check before performance. An existing target Work is distinct from that proposal. Only a performed, A.15.1-admitted override is recorded as overrideWork with the applicable delta and policy-supported match to prior permission. |
 | **E.16-CC-5** | Depletion **MUST** block ordinary autonomy-gated continuation until `ResumeAutonomy` passes the actual-assignment separation-of-duties check, independent authority check, and ordinary guards. A policy-permitted exception requires its exact bounded-action condition, current authority and remaining guards under S2; it does not resume other actions. |
 | **E.16-CC-6** | A UTS autonomy row carries the budget edition/state, guard policy, override protocol, scope/window, action/allocation refs when action-bound and actual Work refs when enactment-bound. |

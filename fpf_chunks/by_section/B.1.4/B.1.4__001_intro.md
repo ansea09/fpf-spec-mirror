@@ -6,12 +6,12 @@ section_id: "B.1.4:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.4/B.1.4__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.1.4 — Specify Order-Sensitive or Temporal Aggregation (Γ_ctx, Γ_time)"
   - "B.1.4:intro — Intro"
-line_start: 41920
-line_end: 41933
+line_start: 43567
+line_end: 43580
 dependencies:
   - "A.1.1"
   - "A.14"
@@ -38,13 +38,13 @@ keywords:
 
 > **Type:** B-family aggregation pattern
 > **Status:** Stable
-> **Normativity:** Normative unless explicitly marked informative
+> **Normativity:** Normative unless marked informative
 
-**Use this when.** Use this pattern when the current claim aggregates already recovered relations over an exact set of ordered positions, phases, or a time window, and the question is not just ordinary part-whole construction. Typical cues are ordered steps, order-sensitive argument chains, asset histories, proper temporal restrictions of one enduring carrier, rolling windows, use-bounded roll-ups, time-sliced evidence, or a bounded chronology over exact C.2.1 episteme identities and already obtaining edition relations.
+**Use this when.** Use this pattern when the claim aggregates already recovered relations over a set of ordered positions, phases, or a time window, and the question is not just ordinary part-whole construction. Typical cues are ordered steps, order-sensitive argument chains, asset histories, proper temporal restrictions of one enduring carrier, rolling windows, use-bounded roll-ups, time-sliced evidence, or a bounded chronology over C.2.1 episteme identities and already obtaining edition relations.
 
 **Not this pattern when.** If the question is ordinary part-whole or collection admission, use `B.1`, `A.14`, and `C.13`. If it is episteme identity or historical edition continuity, use `C.2.1` before any aggregation. If the question is the method as such, method description, work plan, dated work occurrence, or Work temporal part or episode, use `A.3.1`, `A.3.2`, `A.15.2`, or `A.15.1`. If the question is work-resource accounting, use `B.1.6`. If the question is changed identity, use the pattern that defines the subject's identity or change; for a clear whole-reidentification question, use `B.2` directly to test whether the existing whole suffices or a new whole must be reidentified. Use `B.2.P` first only when emergence-family wording hides the claim kind. If the question is temporal adequacy of a claim, use `C.27`.
 
 **What goes wrong if missed.** A reader may mistake an ordering for parthood, a planned sequence for performed work, a phase for a new whole, or temporal coverage for evidence currentness.
 
-**What this buys.** The practitioner can specify or compute the order-sensitive or temporal aggregate needed by a receiving use, with its actual combining rule and limits. Method, Work, transformation, work-resource, temporal-adequacy and MHT claims retain the patterns that define or test them.
+**What this buys.** The practitioner can specify or compute the order-sensitive or temporal aggregate needed by a receiving use, with its combining rule and limits. Method, Work, transformation, work-resource, temporal-adequacy and MHT claims retain the patterns that define or test them.
 

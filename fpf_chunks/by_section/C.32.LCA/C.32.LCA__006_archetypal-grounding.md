@@ -6,12 +6,12 @@ section_id: "C.32.LCA:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.LCA/C.32.LCA__006_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.32.LCA — Construct and Compare a Control Architecture"
   - "C.32.LCA:5 — Archetypal Grounding"
-line_start: 76774
-line_end: 76843
+line_start: 80443
+line_end: 80514
 dependencies:
   - "A.3.3.PI"
   - "B.2.5"
@@ -48,11 +48,13 @@ u_k=\tfrac12\operatorname{clip}(g_k-x_k,-0.12,0.12).
 \]
 Thus the actuator condition holds. The next state lies between \(x_k\) and \(g_k\), so an initial state in \([-1,1]\) stays there. This establishes the stated discrete constraints for this model. It does not establish intersample physical safety or a prescribed arrival time.
 
-For the constant goal \(0.7\), the first three applied targets are \(0.62,0.68,0.7\); the corresponding inputs are \(0.06,0.06,0.04\), and the resulting states are \(0.56,0.62,0.66\). The limiter uses the loop's remaining action capability and returns a different progress forecast to the planner. It is a simple state-dependent governor construction, not a reason to add a new tracking layer.
+For the constant goal \(0.7\), the first three applied targets are \(0.62,0.68,0.7\); the corresponding inputs are \(0.06,0.06,0.04\), and the resulting states are \(0.56,0.62,0.66\). The limiter uses the loop's remaining action capability and returns a different progress forecast to the planner. It is a state-dependent governor construction, not a reason to add a new tracking layer.
 
 Now request \(x_2\geq0.68\) from \(x_0=0.5\). Under the actuator bound, even an arbitrary control law can increase the state by at most \(2(0.06)=0.12\), giving \(x_2\leq0.62\). That requirement is impossible under the stated model and limit. The next choice concerns the deadline, attained position or available actuation; faster planning alone cannot obtain it. The participant authorized to change the demanded result must receive this bound.
 
-Change the governor's observation condition instead. Suppose the governor receives only \(\hat x_k\), with a qualified current bound \(|x_k-\hat x_k|\leq0.02\), while the local tracker retains the original state-based feedback law. Limiting \(|r_k-\hat x_k|\) to \(0.12\) would allow \(|r_k-x_k|=0.14\) and input \(0.07\). A sufficient repair is to limit \(|r_k-\hat x_k|\leq0.10\) and require \(r_k\in[-1,1]\). Then \(|r_k-x_k|\leq0.12\), while the original convex update preserves the state interval. The set of targets satisfying both conditions must be nonempty; it is nonempty here when the state lies in the interval and the stated estimate bound holds.
+Change the governor's observation condition instead. Suppose the governor receives only \(\hat x_k\), with a qualified current bound \(|x_k-\hat x_k|\leq0.02\), while the local tracker retains the original state-based feedback law. Limiting \(|r_k-\hat x_k|\) to \(0.12\) would allow \(|r_k-x_k|=0.14\) and input \(0.07\). A sufficient repair is to limit \(|r_k-\hat x_k|\leq0.10\) and require \(r_k\in[-1,1]\). Then \(|r_k-x_k|\leq0.12\), while the original convex update preserves the state interval.
+
+The set of targets satisfying both conditions must be nonempty; it is nonempty here when the state lies in the interval and the stated estimate bound holds.
 
 The error bound must describe the current state. A bound for a stale measurement cannot be reused without accounting for intervening motion. If the tracker also loses its state measurement, its response equation and the convexity argument need reconsideration. Replacing it with a learned policy likewise reopens the calculation: the old response equation no longer supplies its proof.
 
@@ -81,7 +83,7 @@ Compare three changes to the arrangement.
 
 A forecast of a likely change can allow reversible preparation before approval. Establish which materials or capacity may be reserved, what another job loses, and how the reservation is released if the forecast changes. Printing an unapproved final panel is a different action with different consequences.
 
-The control mechanism is now explicit: a dated observation changes a decision made within actual authority, that decision supplies a usable input to an available performer, and the resulting installation or failure returns to the responsible participants. One person may perform several contributions, provided their demands still fit. No three-level management hierarchy follows from the four duration bounds.
+The control mechanism is now explicit: a dated observation changes a decision made within authority, that decision supplies a usable input to an available performer, and the resulting installation or failure returns to the responsible participants. One person may perform several contributions, provided their demands still fit. No three-level management hierarchy follows from the four duration bounds.
 
 The timing implication is mathematical under its premises. The premises about people, authority, resources and duration need organizational support and observation; they are not supplied by the equation. In actual use, distinguish a committed service bound, an empirical estimate and a planning assumption.
 

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.7"
-pattern_title: "Strict Distinction: Repair Conflations of FPF Objects (Clarity Lattice)"
+pattern_title: "Distinction: Repair Conflations of FPF Objects (Clarity Lattice)"
 section_id: "A.7:3"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__005_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.7 — Strict Distinction: Repair Conflations of FPF Objects (Clarity Lattice)"
+  - "A.7 — Distinction: Repair Conflations of FPF Objects (Clarity Lattice)"
   - "A.7:3 — Problem"
-line_start: 25512
-line_end: 25519
+line_start: 26433
+line_end: 26440
 dependencies:
   - "A.1"
   - "A.10"

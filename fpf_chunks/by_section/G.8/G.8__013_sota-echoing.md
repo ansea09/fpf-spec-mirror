@@ -6,12 +6,12 @@ section_id: "G.8:12"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.8/G.8__013_sota-echoing.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.8 — Package Method-Family Admissibility Rules and Maturity Ladders (SoS-LOG)"
   - "G.8:12 — SoTA-Echoing"
-line_start: 131080
-line_end: 131090
+line_start: 139148
+line_end: 139158
 dependencies:
   - "A.10"
   - "A.21"
@@ -38,17 +38,17 @@ keywords:
   - "SoS-LOG"
   - "admissibility ledger"
   - "rule ids"
-  - "tri-state {pass"
+  - "tri-state {pass\\"
 ---
 
 ### G.8:12 - SoTA-Echoing
 
-The kit connects decision rules, acceptance thresholds, provenance and set-valued outputs in these uses:
+These examples illustrate how applications connect decision rules, acceptance thresholds, provenance and set-valued outputs under their respective governing rules:
 
 * **Set-valued selection** retains alternatives when multi-objective or uncertainty conditions do not justify one scalar winner.
-* **Quality-Diversity and archive-based evaluation** use pinned descriptors, distances and archive policies so a telemetry change can be interpreted against its evaluation basis.
+* **Quality-Diversity and archive-based evaluation** retain the descriptor, distance and archive-policy editions their evaluation uses, so a telemetry change can be interpreted against that basis. An archive kept solely to preserve evidence needs no QD pins.
 * **Open-endedness / curriculum generation** use explicit transfer rules and applicable degrade branches, with telemetry available to refresh orchestration.
 * **Reproducible publication** keeps identifiers, editions, policies and traces recoverable for a later application or audit.
 
-*(Examples are illustrative; they do not introduce new Part‑G‑wide norms.)*
+
 

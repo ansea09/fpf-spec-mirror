@@ -6,35 +6,24 @@ section_id: "C.18:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18/C.18__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.18 — Open-Ended Search Archive and Front Stewardship"
   - "C.18:intro — Intro"
-line_start: 60991
-line_end: 60999
+line_start: 63421
+line_end: 63429
 dependencies:
   - "A.15"
   - "A.19"
   - "A.19.CPM"
   - "A.19.SelectorMechanism"
-  - "C.11"
-  - "C.11.CRC"
   - "C.16"
   - "C.19"
-  - "C.28"
   - "C.30"
-  - "C.32"
-  - "C.32.P2S"
-  - "C.35"
   - "C.36"
-  - "E.17"
   - "E.18"
   - "E.18.1"
   - "E.23"
-  - "E.24.PUB"
-  - "F.17"
-  - "F.18"
-  - "F.9"
   - "G.11"
   - "G.5"
   - "G.9"
@@ -58,5 +47,5 @@ keywords:
 > **Type:** C-pattern
 > **Status:** Stable
 > **Normativity:** Normative unless explicitly marked informative
-> **Purpose:** retain candidates for stated exploration purposes and report the non-dominated set under a declared comparison, while preserving the basis needed to interpret either return.
+> **Purpose:** retain candidates for exploration purposes and report the non-dominated set under a declared comparison, while preserving the basis needed to interpret either return.
 

@@ -6,12 +6,12 @@ section_id: "C.2.4:17"
 section_title: "Threshold Crossing and Split Handling"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.4/C.2.4__018_threshold-crossing-and-split-handling.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.2.4 — Articulation Explicitness — How Explicit Is an Episteme's Meaning for Its Use?"
   - "C.2.4:17 — Threshold Crossing and Split Handling"
-line_start: 53863
-line_end: 53884
+line_start: 56098
+line_end: 56119
 dependencies:
   - "A.13"
   - "A.15"
@@ -50,12 +50,12 @@ keywords:
 #### C.2.4:17.1 - Branch-aware high-articulation exits
 At `AE3+`, use the local threshold of the direct branch rather than one universal destination:
 
-- for an actual relation claim, restore precision through `A.6.P` when needed, then use its direct relation pattern;
+- for a relation claim, restore precision through `A.6.P` when needed, then use the pattern that governs that relation;
 - for a plan or intended activity, use `A.15`;
 - for a Method, use `A.3.1`; use `A.3.2` to test a `C.2.1` episteme's membership as a MethodDescription;
 - for a dated Work-occurrence claim, recover the performer under `A.13` and independently test Work admission under `A.15.1`; use `F.6` only when precise assignment-bound attribution is needed;
-- for a representation claim, use the represented subject's rule and the representation's correspondence; use `C.29` when choosing or transferring a mathematical representation or relying on it beyond its supported correspondence leaves a separate question. Use `C.2.P.DR` when declarative form is being overread, adding `A.6.3.RT` only when a representation transition is current;
-- for an abductive prompt or explicit open question, use `B.5.2.0` or the direct question pattern;
+- for a representation claim, use the represented subject's rule and the representation's correspondence; use `C.29` when choosing or transferring a mathematical representation or relying on it beyond its supported correspondence leaves a separate question. Use `C.2.P.DR` when declarative form is being overread, adding `A.6.3.RT` only when a representation transition is at issue;
+- for an abductive prompt or explicit open question, use `B.5.2.0` or the pattern that governs the question;
 - for a Characteristic or Scale claim, use `A.17` and `A.18`, with `C.16.P` when its scalar wording hides the construction;
 - for an ordinary domain claim, use the domain pattern that governs its subject; use `C.2.1` when episteme identity is needed.
 
@@ -65,5 +65,5 @@ If the branch or threshold is unresolved, preserve the episteme through `B.4.1` 
 A note may reach `AE4+` while remaining low or mid in `CD`. In such cases state that articulation is sufficient for precise handling while closure still leaves rival routes or frames live.
 
 #### C.2.4:17.3 - Articulation claims for separate fragments
-Scope each fragment's articulation claim to its receiving use; do not assign one averaged level that hides the actual route structure. The fragments may remain in the same note or publication when their scopes are clear.
+Scope each fragment's articulation claim to its receiving use; do not assign one averaged level that hides the route structure. The fragments may remain in the same note or publication when their scopes are clear.
 

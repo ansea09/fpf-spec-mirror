@@ -6,12 +6,12 @@ section_id: "E.4.DPF.DA:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF.DA/E.4.DPF.DA__006_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.4.DPF.DA — Evaluate a DPF or LPF Package for Its Declared Use (Package-Adequacy CharacteristicSpace)"
   - "E.4.DPF.DA:5 — Archetypal Grounding"
-line_start: 95569
-line_end: 95611
+line_start: 100586
+line_end: 100654
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -59,44 +59,70 @@ keywords:
 
 ### E.4.DPF.DA:5 - Archetypal Grounding
 
-A personal-development DPF is generated in one short run. It may have useful principles and pattern seeds. The evaluator can make an ordinary package-adequacy judgement without asserting `U.Work`. If a dated evaluation is instead admitted as Work, recover the exact actual evaluator System through A.13 and cite one independently valid A.15.1 Work account. Add the same obtaining A.13 assignment and applicable F.6 relation occurrences only when this result expressly represents precise assignment-bound attribution; F.6 identifies neither assignment nor performer, and missing or failed F.6 alone leaves independent Work admission intact. Separately cite an A.6.1 application only if the evaluation actually uses one exact operation declared by a separately admitted Mechanism and the result depends on its bindings; Work admission does not supply that application. The aggregate C.2.1 result can then state local status `seedOnly`, with high coordinate claims for first-entry utility and low claims for source currentness, heterogeneous probes, relation records, or refresh. The prompt output, evaluator action, any Work, any attribution, any Mechanism-operation application, result episteme, and local status remain distinct. That status is an honest package-use result and next repair route; it does not itself admit the package.
+A personal-development DPF is generated in one short run. It may have useful principles and pattern seeds. The evaluator can make an ordinary package-adequacy judgement without asserting `U.Work`.
 
-A domain DPF all-in-one publication carrier contains domain patterns, a source-use map, a Core-bridge map, relation records, and heterogeneous acceptance cases for several user situations. `E.4.DPF.DA` asks whether those cases actually force the pattern set to solve different domain problems, whether source rows changed pattern obligations, whether maps are reachable during work, and whether the package's local evaluation pattern can feed `E.22` and `E.23` without becoming a hidden Core dependency.
+If a dated evaluation is instead admitted as Work, recover the actual evaluator System through A.13 and cite one independently valid A.15.1 Work account. Add the same obtaining A.13 assignment and applicable F.6 relation occurrences only when this result expressly represents precise assignment-bound attribution; F.6 identifies neither assignment nor performer, and missing or failed F.6 alone leaves independent Work admission intact.
 
-A proposed systems-management DPF promises help with service launch, cross-team coordination, incident response, and feedback-based improvement. `D12` checks whether the selected pattern sets and their actual relations serve all four problem families, whether one service-launch case needs patterns from more than one set, what remains omitted, and where later authors return to the sources. One source describes a genuine first-then incident flow; another describes monitoring, coordination, and resource provision contributing at the same time. The evaluation preserves both readings. A completed `C.32.MWA` result may supply that evidence, but the evaluator neither repeats the Method's actions nor treats use of its result as an edition dependency. The named first use must include every required pattern from this DPF. For each relied-on external result, the assessment names its actual kind and supplying product, the receiving use and discovery route, material currentness or availability, and the fact that it remains external. `PFM11` then checks whether the carrier tells readers what it exposes and omits. `PFM1` checks practitioner entry and navigation; `PFM12` checks only the remaining common-form and edition-projection agreement. A shared observation and repair are recorded once. None of these form checks substitutes for `D12`.
+Separately cite an A.6.1 application only if the evaluation uses one exact operation declared by a separately admitted Mechanism and the result depends on its bindings; Work admission does not supply that application.
+
+The aggregate C.2.1 result can then state local status `seedOnly`, with high coordinate claims for first-entry utility and low claims for source currentness, heterogeneous probes, relation records, or refresh. The prompt output, evaluator action, any Work, any attribution, any Mechanism-operation application, result episteme, and local status remain distinct. The status gives the package-use result and points to the next repair. It does not itself admit the package.
+
+A domain DPF all-in-one publication carrier contains domain patterns, a source-use map, a Core-bridge map, relation records, and heterogeneous acceptance cases for several user situations. `E.4.DPF.DA` asks whether those cases require the pattern set to solve different domain problems, whether source rows changed pattern obligations, whether maps are reachable during work, and whether the package's local evaluation pattern can feed `E.22` and `E.23` without becoming a hidden Core dependency.
+
+A proposed systems-management DPF promises help with service launch, cross-team coordination, incident response, and feedback-based improvement. `D12` checks whether the selected pattern sets and their actual relations serve all four problem families, whether one service-launch case needs patterns from more than one set, what remains omitted, and where later authors return to the sources.
+
+One source describes an incident flow in which one operation follows another. Another describes monitoring, coordination, and resource provision contributing at the same time. The evaluation preserves both readings. A completed `C.32.MWA` result may supply that evidence, but the evaluator neither repeats the Method's actions nor treats use of its result as an edition dependency.
+
+The named first use must include every required pattern from this DPF. For each relied-on external result, the assessment names its actual kind and supplying product, the receiving use and discovery route, material currentness or availability, and the fact that it remains external.
+
+`PFM11` then checks whether the carrier tells readers what it exposes and omits. `PFM1` checks practitioner entry and navigation; `PFM12` checks only the remaining common-form and edition-projection agreement. A shared observation and repair are recorded once. None of these form checks substitutes for `D12`.
 
 A hydroponic-cucumber DPF has excellent crop-control sources but no relation records and no first-entry carrier. `E.21` may find that individual crop patterns are good, while `D2DidacticEntryAndAdoptionAdequacy` stays below floor until a usable first-entry route exists. `D5PackageFormLayeringAndRelationAdequacy` falls only when the needed relations cannot be recovered or a named maintenance use needs the missing records; direct assertions can otherwise supply those relations.
 
-Near miss: A DPF all-in-one publication carrier puts a huge lookup map before the pattern bodies. The map is correct but cold readers do not know when to open it. Place the lookup material after the bodies and reach it from a real work trigger in pattern relations, low-value repair actions or first-entry text. A full architectural reference explaining the Methods, shared conditions, sources and worked connections has a different job: it remains in the front matter and may include the figures needed for that explanation. `PFM2` distinguishes those functions rather than rejecting the account for its length.
+Near miss: A DPF all-in-one publication carrier puts a large lookup map before the pattern bodies. The map is correct but cold readers do not know when to open it. Place the lookup material after the bodies. Link to it from pattern relations, low-value repair actions or first-entry text at the point where readers need it.
 
-Near miss: A DPF has polished Readme and architectural-reference prose, but neither says what selected domain structure the publication/access expression exposes, what it deliberately coarsens or abstracts, or where a reader returns for fuller source and pattern detail. If the carrier is based on an architecture description, view, model, or graph, it also hides the fact that the intermediate source already selected and coarsened structure on the route `source structures -> architecture -> architecture description or view -> publication/access expression`. `D1`, `D2`, `D5`, `D7`, `D8`, and `D11` fall because the carrier may be pleasant but its structure-capture claim is not inspectable.
+A full architectural reference explaining the Methods, shared conditions, sources and worked connections has a different job: it remains in the front matter and may include the figures needed for that explanation. `PFM2` distinguishes those functions rather than rejecting the account for its length.
+
+Near miss: A DPF has polished Readme and architectural-reference prose, but neither says what selected domain structure the publication/access expression exposes, what it deliberately coarsens or abstracts, or where a reader returns for fuller source and pattern detail.
+
+If the carrier is based on an architecture description, view, model, or graph, it also hides the fact that the intermediate source already selected and coarsened structure on the route `source structures -> architecture -> architecture description or view -> publication/access expression`. `D1`, `D2`, `D5`, `D7`, `D8`, and `D11` fall because the carrier may be pleasant but its structure-capture claim is not inspectable.
 
 #### E.4.DPF.DA:5.1 - Whole-account calibration: missing condition, false relation, and expert recovery
 
 A constructed observation-planning profile offers three contributions: P observes current representative performance, U examines adaptation to unfamiliar work, and D examines delayed performance under recorded practice and support conditions. They answer different questions. A qualified earlier observation may supply an input to another question, but the three contributions are not mandatory stages.
 
-The promised first use is to select a supported observation set under the actual common resource condition, explain how the contributions relate, and find a direct return for a narrower question. Each activity requires seven observer-hours that cannot be shared. Individual and pair feasibility is stipulated. The task denominator comes from that promised planning result, including the common resource limit; it is not the list of headings in the profile account.
+The promised first use is to select a supported observation set under the actual common resource condition, explain how the contributions relate, and find a direct return for a narrower question. Each activity requires seven observer-hours that cannot be shared. Individual and pair feasibility is stipulated.
+
+The promised planning result, including the common resource limit, determines what the assessment must cover. The profile’s headings do not set that scope.
 
 Three accounts present the same substantive headings and direct source returns. A is compact but omits the common resource limit. B supplies the eighteen-hour limit and explains its whole-combination consequence. C is more expansive but retains A's omission. The useful comparison concerns what the reader can decide from the available account.
 
 | Account condition | Supported first result | What the evaluator learns |
 | --- | --- | --- |
-| A or C: the common limit is absent | All three require 21 hours, but the reader must obtain the missing common condition before promising them. Individual or narrower uses remain available on their own qualified basis. | The account supports an honest gap and direct entry, not its stronger promised whole-set planning result. Requesting the absent fact is a correct reader response. More prose has not supplied it. |
+| A or C: the common limit is absent | All three require 21 hours, but the reader must obtain the missing common condition before promising them. Individual or narrower uses remain available on their own qualified basis. | The account lets the reader identify the missing condition and use direct entries. It cannot support the promised plan for the whole set. Requesting the absent fact is a correct reader response. More prose has not supplied it. |
 | B: eighteen hours and the joint consequence are supplied | A task-relevant pair requires 14 hours and leaves four; all three require three additional hours. No preferred pair follows without the receiving evidence question. | A concise account can supply the complete relation needed here. Its precise public returns are useful inherited support, not automatically missing explanation. |
 | Changed condition: thirteen hours, with no sharing | At most one seven-hour activity fits, leaving six. A pair needs one more hour; all three need eight more. Earlier meanings and compatible performance evidence remain, but earlier pair feasibility does not establish current feasibility. | A meaningful change tests whether the reader can revise the whole-set consequence while preserving unaffected contributions and evidence. |
 
-Separate prepared-agent readers of A, B, and C, without the authors' private context, returned these first and changed-condition results without an intervening corrective hint. They contributed arithmetic and ordinary logic from their own preparation and found the public source returns. A/C readers did not fail to understand a supplied relation: the decisive common fact was absent. The bounded result therefore supports the omission diagnosis, useful direct entries, and changed-condition planning. It supplies no human learning, reading-time, or cognitive-load comparison.
+Separate prepared-agent readers of A, B, and C, without the authors' private context, returned these first and changed-condition results without an intervening corrective hint. They contributed arithmetic and ordinary logic from their preparation and found the public source returns.
 
-A separate contrast holds the facts fixed: eighteen available hours, seven non-shareable hours per activity, and individual and pair feasibility. Two defective accounts now state that feasible pairs suffice to promise all three. This is a false relation rather than a missing fact. The adequate B account stays unchanged.
+A/C readers did not fail to understand a supplied relation: the decisive common fact was absent. The bounded result therefore supports the omission diagnosis, useful direct entries, and changed-condition planning. It supplies no human learning, reading-time, or cognitive-load comparison.
 
-Fresh prepared readers rejected the false conclusion and returned 21 > 18 and 14 ≤ 18, explicitly supplying the correcting inference from prior knowledge. Their numerical answers match the adequate-account reader's answer, but the material contributions differ: B supplies the valid whole-set relation; the defective accounts supply a relation their readers must correct. Inspecting the answer alone would hide that defect. The reader's source-use explanation, checked against the actual account, makes it visible. This is expert recovery despite a false explanation, not evidence that the explanation is adequate for a less-prepared audience.
+A separate contrast holds the facts fixed: eighteen available hours, seven non-shareable hours per activity, and individual and pair feasibility. Two defective accounts now state that feasible pairs suffice to promise all three. The facts are available here. The claim about combining the three activities is false. The adequate B account stays unchanged.
 
-Use this calibration with the existing questions by value:
+Fresh prepared readers rejected the false conclusion and returned 21 > 18 and 14 ≤ 18. They explained how they supplied the correction from prior knowledge.
+
+Their numerical answers match the adequate-account reader's answer, but the material contributions differ: B supplies the valid whole-set relation; the defective accounts supply a relation their readers must correct. Inspecting the answer alone would hide that defect.
+
+The reader's source-use explanation, checked against the actual account, makes it visible. This is expert recovery despite a false explanation, not evidence that the explanation is adequate for a less-prepared audience.
+
+Use the example to answer the existing coordinate questions:
 
 - D2 asks whether the reader can reach the promised first result from the public account and its usable returns.
 - D7 asks whether the account changes the actual planning decision or yields the precise missing input or repair.
 - D8 asks what the changed condition and contrasting failures reveal within the tested breadth.
-- D12 asks whether the selected contributions really work together for the public promise, including common constraints and important omissions.
+- D12 asks whether the selected contributions work together for the public promise, including common constraints and important omissions.
 
-These are bounded diagnostic contributions, not a complete D1–D12 evaluation or a local package status. A complete evaluation still follows this pattern's specification. The example neither adds a coordinate nor fixes a universal number of accounts, tasks, or readers. Its professional reference use requires a usable explanation of the combination; it does not require the framework to become an instructional course or depend on the particular domain profile used to illustrate it.
+These are bounded diagnostic contributions, not a complete D1–D12 evaluation or a local package status. A complete evaluation follows this pattern's specification. The example neither adds a coordinate nor fixes a universal number of accounts, tasks, or readers.
+
+For the planning use in this example, a professional reference requires a usable explanation of how the contributions combine. It does not require the framework to become an instructional course or depend on the domain profile used to illustrate that combination.
 

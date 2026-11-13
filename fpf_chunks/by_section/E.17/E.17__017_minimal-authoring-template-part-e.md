@@ -6,12 +6,12 @@ section_id: "E.17:14"
 section_title: "Minimal authoring template (Part E)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__017_minimal-authoring-template-part-e.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:14 — Minimal authoring template (Part E)"
-line_start: 107946
-line_end: 107961
+line_start: 114588
+line_end: 114603
 dependencies:
   - "A.10"
   - "A.15.4"
@@ -56,7 +56,7 @@ keywords:
 * **Return to source:** `<where the reader checks or reopens the source>`
 * **Stop:** `<why no additional face or apparatus changes this use>`
 
-**Add only when triggered:** exact `publicationViewpointRef` and E.17.0 conformance for a material `U.View` claim; exact `U.PublicationScope`; E.24.PUB occurrence/expression/form/carrier identities; pins; F.9 Bridge and bounded-use claim; selected `ReferencePlane` and applicable transfer or comparison rule; provenance, evidence, gate, release, or assurance references for the concrete receiving use.
+**Add only when triggered:** `publicationViewpointRef` and E.17.0 conformance for a material `U.View` claim; `U.PublicationScope`; E.24.PUB occurrence/expression/form/carrier identities; pins; F.9 Bridge and bounded-use claim; selected `ReferencePlane` and applicable transfer or comparison rule; provenance, evidence, gate, release, or assurance references for the concrete receiving use.
 
-**Optional morphism profile:** declare `F_face` and the exact source morphism; use `Emit_s` and `PromoteFace` witnesses only for faces that claim compositional publication.
+**Optional morphism profile:** declare `F_face` and the source morphism; use `Emit_s` and `PromoteFace` witnesses only for faces that claim compositional publication.
 

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.17.AUD.LHR"
-pattern_title: "PublicationUnit Stability Discipline and Local Head Restoration - repair the overloaded local lexical head before the publication unit inherits it"
+pattern_title: "Restore the Local Meaning of an Overloaded Word or Phrase (Local Head Restoration)"
 section_id: "E.17.AUD.LHR:8"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.LHR/E.17.AUD.LHR__009_sota-echoing.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "E.17.AUD.LHR — PublicationUnit Stability Discipline and Local Head Restoration - repair the overloaded local lexical head before the publication unit inherits it"
+  - "E.17.AUD.LHR — Restore the Local Meaning of an Overloaded Word or Phrase (Local Head Restoration)"
   - "E.17.AUD.LHR:8 — SoTA-Echoing"
-line_start: 109799
-line_end: 109809
+line_start: 116552
+line_end: 116562
 dependencies:
   - "A.10"
   - "A.15"
@@ -43,6 +43,6 @@ keywords:
 | One local lexical head should not be repaired by synonym taste alone. | Terminology work separates designation, concept, definition, and term-formation practice. | ISO 704:2022 and ISO 1087:2019 | In `E.17.AUD.LHR:5.1` and `E.17.AUD.LHR:5.3`, repair the local head by naming the FPF kind or locally declared head it designates here, without importing an ISO concept system as FPF ontology. | Reject synonym substitution, dictionary taste, and global vocabulary rows as local head restoration. | `E.17.AUD.LHR:3.2 Rows 1-3`; `E.17.AUD.LHR:5.1`; `E.17.AUD.LHR:5.3` | **Adapt lightly.** Use designation discipline, not a new global vocabulary. |
 | The common sense of a word is not enough when the local context points to a rarer or narrower reading. | Word-sense disambiguation practice treats sense recovery as context-sensitive; long-tail WSD work shows why common-sense defaulting fails. | Blevins and Zettlemoyer (2020); Blevins et al. (2021); source maturity = analogy-only source use | In `E.17.AUD.LHR:5.2` and `E.17.AUD.LHR:5.4`, do not assume that `review`, `interpretation`, `text`, or `document` has its common local reading when the FPF context selects a narrower kind or neighboring pattern. | Reject common-usage defaulting as proof that the local FPF sense has been recovered. | `E.17.AUD.LHR:3.2 Row 2`; `E.17.AUD.LHR:5.2`; `E.17.AUD.LHR:5.4` | **Adapt as analogy.** Do not import machine-learning benchmarks as authoring rules. |
 | Human-readable local heads should improve comprehension rather than merely sound tidy. | Identifier and label clarity practice treats names as comprehension aids whose bad choices can mislead readers. | Hofmeister et al. (2017), identifier-name comprehension study; source maturity = empirical analogy only | In `E.17.AUD.LHR:5.1` and `E.17.AUD.LHR:5.6`, choose the lightest local head that lets the reader recover kind, active local reading, active primary entity or relation, action, and outside work. | Reject a nicer label when it changes kind, scope, authority, or downstream use. | `E.17.AUD.LHR:3.2`; `E.17.AUD.LHR:5.1`; `E.17.AUD.LHR:5.6` | **Adapt lightly.** Use clarity to aid local repair, not to justify renaming stable FPF heads. |
-| A working pattern should make the first useful move teachable and critique-ready, not merely correct in hindsight. | Pattern-writing practice emphasizes clear template usage, concrete consequences, and critique-ready worked guidance. | Iba (2021), [How to Write Patterns](https://hillside.net/plop/2021/plopourri/PLoP21_PLOPOURRI_Iba_Methodology4.pdf) (PLoP 2021) | The ordinary card and worked slices are here so a practitioner can repair one overloaded local lexical head in `E.17.AUD.LHR:5.1` or `E.17.AUD.LHR:5.4` without opening publication-unit discipline too early. | Reject a skeleton-only pattern that leaves the actual local repair action to reviewer intuition. | `E.17.AUD.LHR:3.2`; `E.17.AUD.LHR:5.1`; `E.17.AUD.LHR:5.4` | **Adopt.** Keep the move teachable through one small card plus concrete slices. |
+| A working pattern should make the first useful move teachable and critique-ready, not merely correct in hindsight. | Pattern-writing practice emphasizes clear template usage, concrete consequences, and critique-ready worked guidance. | Iba (2021), [How to Write Patterns](https://hillside.net/plop/2021/plopourri/PLoP21_PLOPOURRI_Iba_Methodology4.pdf) (PLoP 2021) | The ordinary card and worked slices are here so a practitioner can repair one overloaded local lexical head in `E.17.AUD.LHR:5.1` or `E.17.AUD.LHR:5.4` without opening publication-unit discipline too early. | Reject a skeleton-only pattern that leaves the local repair action to reviewer intuition. | `E.17.AUD.LHR:3.2`; `E.17.AUD.LHR:5.1`; `E.17.AUD.LHR:5.4` | **Adopt.** Keep the move teachable through one small card plus concrete slices. |
 | Review quality improves when criteria are explicit instead of left to taste. | Pattern-validation practice pushes toward explicit criteria and documented review checks. | Riehle, Harutyunyan, and Barcomb (2025), [Pattern Discovery and Validation Using Scientific Research Methods](https://doi.org/10.1007/978-3-662-70810-1_6), with the [authors' 2021 preprint](https://arxiv.org/abs/2107.06065). | The local-repair threshold and the three repair dispositions keep review from collapsing into style debate: see `E.17.AUD.LHR:5.2` for stay-local, `E.17.AUD.LHR:5.4` for bounded-comparison disposition, and `E.17.AUD.LHR:5.5` for governing-pattern application. | Reject style-debate closure when the repair disposition is still not named. | local-repair threshold; `E.17.AUD.LHR:3.2 Row 5`; `E.17.AUD.LHR:5.2`; `E.17.AUD.LHR:5.4`; `E.17.AUD.LHR:5.5`; `E.17.AUD.LHR:5.6` | **Adopt.** Keep the criteria lightweight but explicit. |
 

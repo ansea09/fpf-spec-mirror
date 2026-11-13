@@ -6,36 +6,27 @@ section_id: "A.1.STM:8"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.STM/A.1.STM__010_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.1.STM — Connect Project Reasoning (System-Thinking Long Mantra)"
   - "A.1.STM:8 — Conformance checklist"
-line_start: 4381
-line_end: 4398
+line_start: 4511
+line_end: 4528
 dependencies:
   - "A.1"
-  - "A.1.CSD"
   - "A.1.SCR"
   - "A.10"
-  - "A.12"
-  - "A.14"
   - "A.15"
-  - "A.15.5"
   - "A.15.6"
-  - "A.15.PROD"
   - "A.2"
   - "A.2.1"
-  - "A.21"
   - "A.22.CGUS"
   - "A.3"
-  - "A.3.1"
-  - "A.3.4"
   - "B.3"
   - "B.5.PI"
   - "C.22.2"
   - "C.28"
   - "C.30"
-  - "C.30.STRAT"
   - "C.32.P2S"
   - "E.18"
   - "E.18.NET"
@@ -47,7 +38,7 @@ keywords:
 | ID | Check |
 | --- | --- |
 | `CC-A1-STM-1` | Participants can recover the product SoI or SoIs, useful uses and working agreement that give the relevant cooperation its common purpose. Local project subjects and results retain their identities and acceptance bases. In the narrower gap-finding mode, the result needed now and first unsupported dependency are readable without a technical record. |
-| `CC-A1-STM-2` | Receiving use, its operating time and relevant encompassing functioning supply the basis for inward construction and backward creation/provision reasoning. Transformation-flow and part–whole directions stay distinct. A proposed future use retains its assumptions; actual changes and participation require their own grounds. |
+| `CC-A1-STM-2` | At the operating time, reasoning moves from the system boundary upward to the larger functioning whole and the joint action of its parts, through the levels and supported inclusions that affect the decision. This account grounds the required function before inward construction and backward creation/provision reasoning. An unknown whole remains an inquiry; adequate earlier reasoning can be reused. Transformation-flow and part–whole directions stay distinct. A proposed future use retains its assumptions; actual changes and participation require their own grounds. |
 | `CC-A1-STM-3` | Project SoI, current subject, required behaviour, system named by its function, selected construction and proposed or actual system remain distinguishable where they change the decision. Functional classification alone does not establish an A.2 system-role kind or an assignment. Creator contributions and the fit of concrete performers are considered separately. |
 | `CC-A1-STM-4` | Project Work, an admitted project-level network selection or Plain provisional map, and one minimal case placement retain their own identities. |
 | `CC-A1-STM-5` | The point where attention starts is connected to the order of project justification. A noticed difficulty and proactive use of the mantra can reach the same consequential question; an independent non-project inquiry keeps its own scope. Inquiry returns, Work order and obtaining subject relations retain their different meanings. |

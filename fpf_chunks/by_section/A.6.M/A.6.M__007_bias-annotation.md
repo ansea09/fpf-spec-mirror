@@ -6,12 +6,12 @@ section_id: "A.6.M:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.M/A.6.M__007_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.M — Module and Interface Claim Repair"
   - "A.6.M:6 — Bias-Annotation"
-line_start: 23152
-line_end: 23163
+line_start: 24071
+line_end: 24082
 dependencies:
   - "A.10"
   - "A.20"
@@ -51,8 +51,8 @@ keywords:
 | Box bias | Do not treat a diagram box as a module. Recover holon, whole, boundary, and interface specification. |
 | Open-label bias | Do not treat "open" as substitutability. Recover standards, conformance expectations, data or access constraints, and change policy when those conditions are part of the claim being made. |
 | Component bias | Do not treat every part as a module. Apply A.14 to component wording unless a module-interface relation is being claimed. |
-| Interface-label bias | Do not treat API, port, endpoint, or signature labels as implemented compatibility. Recover the independently identified `InterfaceSpecification` episteme and a governed reference that resolves it, or record an exact specification gap. |
-| Team-boundary bias | A team boundary or responsibility label does not establish a module boundary. Recover only the team, Work, system-role or responsibility claims actually needed, each under its rule and facts. Then assess the module-interface correspondence and specification. |
+| Interface-label bias | Do not treat API, port, endpoint, or signature labels as implemented compatibility. Recover the independently identified `InterfaceSpecification` episteme and a governed reference that resolves it, or record a specification gap. |
+| Team-boundary bias | A team boundary or responsibility label does not establish a module boundary. Recover only the team, Work, system-role or responsibility claims needed, each under its rule and facts. Then assess the module-interface correspondence and specification. |
 | Parallelism bias | Do not treat decomposition into more modules, teams, services, or transformation-flow paths as performance or evolvability improvement. Recover serial work, synchronization, communication overhead, shared resources, and bottleneck claims through `E.18`, `C.30.TFS-REL`, C.29, C.31, or neighboring characteristic patterns when those claims are being made. |
 | Platform bias | Do not treat a platform name as architecture quality. Recover platform grammar and the claim named by value it can substantiate. |
 

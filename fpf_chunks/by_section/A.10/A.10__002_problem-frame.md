@@ -6,12 +6,12 @@ section_id: "A.10:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10/A.10__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.10 — Evidence Graph Referring: Claim-Bound Evidence and Provenance Graph"
   - "A.10:1 — Problem frame"
-line_start: 26696
-line_end: 26713
+line_start: 27690
+line_end: 27709
 dependencies:
   - "A.10"
   - "A.13"
@@ -54,15 +54,17 @@ keywords:
 
 Use this pattern when a source, carrier, result episteme, credential, dashboard, provenance label, generated explanation, model card, or review note is being relied on for a named claim or bounded action and the source-to-use account is still implicit.
 
-**Primary EntityOfConcern.** The live object is the exact relied-on claim and bounded use. A.10 builds a descriptive evidence-provenance path that represents the independently established sources, carriers, work, result epistemes, provenance relations, currentness, and later-use relations needed to judge that use. The path is not a new world-side relation and its edges establish none of the facts they cite.
+**Primary EntityOfConcern.** The relied-on claim and bounded use. A.10 builds a descriptive evidence-provenance path that represents the independently established sources, carriers, work, result epistemes, provenance relations, currentness, and later-use relations needed to judge that use. The path is not a new world-side relation and its edges establish none of the facts they cite.
 
-**First useful move.** Name the selected claim `C` in episteme `E` and its bounded use `U`. Recover the cited sources, carriers, and direct relations `S`, and currentness `T` when it affects that use. Use §4.5 to determine the bounded A.10 disposition `D`, or name what is missing for that classification. When `C` states a local result `R`, retain the rule that defines or tests `R` and the episteme stating it. Add a dated `U.Work` occurrence only when that Work is itself a current claim. If the account says that Work returned, produced, or obtained a value, name the exact A.6.1 application binding, one local A.15.PROD claim, or a direct subject relation under its own pattern; otherwise keep the Work and value as separate facts. Mark any missing rule or relation as a gap.
+**First useful move.** Name the selected claim `C` in episteme `E` and its bounded use `U`. Recover the cited sources, carriers, and direct relations `S`, and currentness `T` when it affects that use. Use §4.5 to determine the bounded A.10 disposition `D`, or name what is missing for that classification.
+
+When `C` states a local result `R`, retain the rule that defines or tests `R` and the episteme stating it. Add a dated `U.Work` occurrence only when that Work is itself a current claim. If the account says that Work returned, produced, or obtained a value, name the A.6.1 application binding, one local A.15.PROD claim, or a direct subject relation under its own pattern; otherwise keep the Work and value as separate facts. Mark any missing rule or relation as a gap.
 
 **What goes wrong if missed.** Carrier presence becomes truth, provenance becomes approval, a result record becomes performed work, MethodDescription becomes a run trace, a graph edge becomes an obtaining relation, and a currentness or assurance decision is inferred from display styling.
 
 **What this buys.** A source-to-use account that can be replayed, contested, refreshed, narrowed, or handed to the pattern that defines or tests an additional claim, while keeping the claim, carrier, performed work, local result, result episteme, provenance, currentness, reliance, assurance, and action distinct.
 
-**Not this pattern when.** A.10 does not establish measurement, formal, causal, diagnostic, conformance, comparison, selection, acceptance, gate, permission, commitment, Work, or decision results. It does not establish representation correspondences. Use the pattern that defines or tests each result, A.15.1 and A.6.1 for performed Work and actual bindings, C.2.1 for the result episteme, G.11 for currentness, and B.3 only when an actual named assurance claim is current. Use A.6.3.RT for a same-EntityOfConcern representation transition, or the applicable direct transition pattern for another transition. Use C.29 only for an unresolved mathematical-lens choice, transfer or reliance question.
+**Not this pattern when.** A.10 does not establish measurement, formal, causal, diagnostic, conformance, comparison, selection, acceptance, gate, permission, commitment, Work, or decision results. It does not establish representation correspondences. Use the pattern that defines or tests each result, A.15.1 and A.6.1 for performed Work and actual bindings, C.2.1 for the result episteme, G.11 for currentness, and B.3 only when a named assurance claim is current. Use A.6.3.RT for a same-EntityOfConcern representation transition, or the applicable transition pattern for another transition. Use C.29 only for an unresolved mathematical-lens choice, transfer or reliance question.
 
 Use A.2.4 first when only the first evidence-use or status-use classification of an episteme is at issue. Enter A.10 when carrier identity, source recovery, provenance, currentness, rival explanations, or bounded reliance must remain replayable.
 

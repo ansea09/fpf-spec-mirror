@@ -6,12 +6,12 @@ section_id: "F.4:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__002_use-this-when.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.4 — SystemRoleKindDescription — Describing an Exact System-Role Kind"
   - "F.4:0 — Use This When"
-line_start: 119519
-line_end: 119554
+line_start: 127118
+line_end: 127155
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -58,15 +58,17 @@ Typical moments:
 - a kind name is starting to carry assignment, capability, Method, Work, permission, responsibility, evidence, publication, or status claims that belong elsewhere; or
 - source prose says that a report, standard, dataset, theorem, dashboard, publication, or requirement has a “role”, and the writer must recover whether that wording denotes a system-role kind at all.
 
-**Primary EntityOfConcern.** A `SystemRoleKindDescription` is one `U.Episteme` constituted under C.2.1. Its exact EntityOfConcern is one local system-role kind. Its ClaimGraph makes the C.3 recovery basis readable: the candidate domain, operative membership condition, intended member/non-member boundary, and continuity rule. It also names the current `KindSignature` edition, the description's effective reference scheme, useful source or practice provenance, and only the neighboring relations needed by the described use. Provenance helps readers locate and compare the definition; it does not identify the kind. The description is not the kind, a classification judgment, assignment occurrence, holder system, capability, MethodDescription, performed Work, status-use relation, or publication form.
+**Primary EntityOfConcern.** A `SystemRoleKindDescription` is one `U.Episteme` constituted under C.2.1. Its exact EntityOfConcern is one local system-role kind. Its ClaimGraph makes the C.3 recovery basis readable: the candidate domain, operative membership condition, intended member/non-member boundary, and continuity rule.
 
-**Primary working reader.** The first reader is an engineer-manager, analyst, Method author, or pattern author who must help people recognize the kind while keeping kind, candidate classification, assignment, capability, Method, Work, evidence use, status use, and publication use distinct.
+The description also names the current `KindSignature` edition, the description's effective reference scheme, useful source or practice provenance, and only the neighboring relations needed by the described use. Provenance helps readers locate and compare the definition; it does not identify the kind. The description is not the kind, a classification judgment, assignment occurrence, holder system, capability, MethodDescription, performed Work, status-use relation, or publication form.
+
+**Primary working reader.** This description is for an engineer-manager, analyst, Method author or pattern author who needs to help people recognize the kind while keeping kind, candidate classification, assignment, capability, Method, Work, evidence use, status use, and publication use distinct.
 
 **First useful move.** Name the exact local system-role kind, say in ordinary words which systems can count and what separates a member from a relevant non-member, cite the current `KindSignature`, and state the change that would make it another kind. Add source or practice provenance only to help readers find and compare the definition. Keep the recognition explanation no longer than the next classification, assignment, Method, Work, naming, or cross-local claim needs.
 
 **What goes wrong if missed.** A description card becomes a hidden procedure, staffing record, access policy, permission badge, responsibility claim, evidence relation, status assertion, or Work log. The system-role kind then becomes confused with claims about its holders and with uses of epistemes or representations.
 
-**What this buys.** A project gets a compact, readable description while operational claims remain at their direct loci. The kind stays recognizable; classification and assignment stay checkable; capability, Method, Work, evidence, status, responsibility, and publication claims stay inspectable instead of being smuggled into the name.
+**What this buys.** A project gets a compact, readable description while each operational claim remains with the pattern that governs it. The kind stays recognizable; classification and assignment stay checkable; capability, Method, Work, evidence, status, responsibility, and publication claims stay inspectable instead of being smuggled into the name.
 
 **Not this pattern when.**
 

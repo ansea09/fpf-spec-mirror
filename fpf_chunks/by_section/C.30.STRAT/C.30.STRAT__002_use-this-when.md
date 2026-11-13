@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__002_use-this-when.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.30.STRAT — Clarify Stratification and Architecture Source Labels"
   - "C.30.STRAT:0 — Use this when"
-line_start: 73003
-line_end: 73016
+line_start: 76125
+line_end: 76138
 dependencies:
   - "A.10"
   - "A.15"
@@ -68,11 +68,11 @@ Use this pattern when a source uses a compact architecture or stratification lab
 
 Typical labels are `layer`, `level`, `tier`, `stack`, `ladder`, `rung`, structural uses of `vertical` or `horizontal`, and architecture-operation words such as `block`, `expert`, `cache`, `router`, and `gate`.
 
-**What goes wrong if missed.** A useful local label starts acting as ontology. A `layer` is assumed to be a holon level, control layer, publication layer, scale window, or module boundary without deciding which. A `stack` becomes architecture by name; a `block` becomes a module; an `expert` becomes a system-role kind or performer; a `cache` becomes a state or memory relation; a `router` becomes a decision policy; a `gate` becomes a gate decision. Word shape establishes none of these.
+**What goes wrong if missed.** A useful local label is treated as ontology. A `layer` is assumed to be a holon level, control layer, publication layer, scale window, or module boundary without deciding which. A `stack` is treated as architecture; a `block` as a module; an `expert` as a system-role kind or performer; a `cache` as a state or memory relation; a `router` as a decision policy; a `gate` as a gate decision. Word shape establishes none of these.
 
-**What this buys.** The reader can keep the source word while making its actual meaning and safe use explicit. Once the object, relation, or claim is clear, use the pattern that defines, constrains, or tests it.
+**What this buys.** The reader can keep the source word while making its meaning and safe use explicit. Once the object, relation, or claim is clear, use the pattern that defines, constrains, or tests it.
 
-**First useful move.** Read the sentence in context and ask: “What does this label name here, what may I infer from it, and what must I do next?” If it is ordinary wording, keep it and stop. If the answer is already clear, use the applicable pattern directly. Otherwise write one line: `label -> recovered meaning and useful conclusion; any needed next action or return condition`. Include a blocked overread only when it passes F.19's plausible-reader test.
+**First useful move.** Read the sentence in context and ask: “What does this label name here, what may I infer from it, and what must I do next?” If it is ordinary wording, keep it and stop. If the answer is already clear, use the applicable pattern directly. Otherwise write one line: `label -> recovered meaning and useful conclusion; any needed next action or return condition`.
 
 **Not this pattern when.** Do not detour through C.30.STRAT when the object, relation, or claim is already clear. Do not use it merely because a familiar word appears. Ordinary source prose with no FPF claim remains ordinary prose or a quotation.
 

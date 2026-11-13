@@ -6,12 +6,12 @@ section_id: "E.10.DEV:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.DEV/E.10.DEV__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.10.DEV — Recovering What Development or Evolution Means in the Current Claim"
   - "E.10.DEV:3 — Forces"
-line_start: 101021
-line_end: 101031
+line_start: 106677
+line_end: 106687
 dependencies:
   - "A.15"
   - "A.2.2"

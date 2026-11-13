@@ -6,12 +6,12 @@ section_id: "C.32.MWA:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA/C.32.MWA__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.32.MWA — Synthesize an Architecture Account of Methods and Their Use"
   - "C.32.MWA:1 — Problem frame"
-line_start: 78700
-line_end: 78727
+line_start: 82529
+line_end: 82556
 dependencies:
   - "A.13"
   - "A.15.1"
@@ -39,7 +39,7 @@ keywords:
 
 Use this pattern when a decision about related methods and their use depends on several structures that do not line up one-for-one: how methods are composed, how work is performed, what supports it, and how methods are developed or retained. The question may involve different wholes and relations even when one source shows them in aligned rows.
 
-The subject is one or several related Methods considered together with their performance, support and development. Identify the relevant Methods, performed or planned Work, participating or supporting Systems, descriptions and models, capabilities and providers, and cultural relations separately. Select only what can change the decision. The account can include relations beyond a Method's constituents: using a platform to perform a Method does not make that platform part of the Method. Each precise C.30 architecture claim still names its own holon and selected structure.
+The subject is one or several related Methods considered together with their performance, support and development. Identify the relevant Methods, performed or planned Work, participating or supporting Systems, descriptions and models, capabilities and providers, and cultural relations separately. Select only what can change the decision. The account can include relations beyond a Method's constituents: using a platform to perform a Method does not make that platform part of the Method. Each precise C.30 architecture claim names its own holon and selected structure.
 
 Here **method** is the main name for a reusable way of doing. **Practice** can name the same way, often emphasizing its established use, as E.10:0.2c.21a explains. A claim about performed Work, a community or a description requires those separately identified objects; the wording itself introduces no broader Practice whole.
 
@@ -53,7 +53,7 @@ The primary working reader is an architect, methodologist, practice designer, or
 
 **Not this pattern when.**
 
-- Use the direct Method, Work, subject, description, capability, provider, or cultural-change pattern when only one such claim is unclear.
+- Use the Method, Work, subject, description, capability, provider, or cultural-change pattern when only one such claim is unclear.
 - Use base `C.32` when the need is a palette of architecture candidates for one already grounded architecture question, rather than one coherent answer about Methods and their use from several non-isomorphic structures.
 - Use `C.30.ILC` and `C.32.MLAO` when an already recovered cross-scope conflict or residual is the main subject.
 - Do not use this pattern for one clear Method decomposition, one procedure order, a carrier index, a universal level stack, a mandatory record schema, domain filling, product-roster generation, or lifecycle design.

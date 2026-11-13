@@ -6,12 +6,12 @@ section_id: "A.15.2:9"
 section_title: "Launch-value and actual-use boundary for P2W"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__015_launch-value-and-actual-use-boundary-for-p2w.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.15.2 — U.WorkPlan: Plan Content for Coordinating Future Work"
   - "A.15.2:9 — Launch-value and actual-use boundary for P2W"
-line_start: 30042
-line_end: 30049
+line_start: 31124
+line_end: 31131
 dependencies:
   - "A.10"
   - "A.15"
@@ -58,9 +58,9 @@ keywords:
 
 ### A.15.2:9 - Launch-value and actual-use boundary for P2W
 
-For P2W use, `U.WorkPlan` may state intended performer Systems and local system-role-kind conditions, planned values, exact A.15.3 fillings, constraints, reservations, commitments, and evidence-reference notes. A.15.5 may later publish one C.2.1 work-entry readiness result whose exact EntityOfConcern is this WorkPlan; its ClaimGraph may designate the relevant declaration-local PlanItem content used by the readiness criterion. An A.21 `GateDecision` separately selects, narrows, blocks, or passes its declared crossing under one current `GateProfile`. Neither result institutes permission.
+For P2W use, `U.WorkPlan` may state intended performer Systems and local system-role-kind conditions, planned values, A.15.3 fillings, constraints, reservations, commitments, and evidence-reference notes. A.15.5 may later publish one C.2.1 work-entry readiness result whose EntityOfConcern is this WorkPlan; its ClaimGraph may designate the relevant declaration-local PlanItem content used by the readiness criterion. An A.21 `GateDecision` separately selects, narrows, blocks, or passes its declared crossing under one current `GateProfile`. Neither result institutes permission.
 
 When the entry criterion consumes permission material, keep the current A.2.8.PER values distinct. A `GrantedPermissionRelation@Context` occurrence is strong permission only for its exact beneficiary, action specification, `U.ClaimScope`, and `validityWindow`. A `NonProhibitionFinding@Context` reports only its frame-relative result for its `evaluationWindow`; it is not a grant. A `PermissionNormConflictFinding@Context` exposes overlap for its `overlapWindow`, and a current resolution result is usable only when the A.2.8.PER resolution predicate obtains and the result names its `effectiveWindow`; an unresolved conflict stops or degrades the proposed use. `PermissionExerciseRelation@Context` and `NonViolationFinding@Context` require already dated actual Work and therefore cannot be prospective proof that the intended performance may start. When the governing entry policy requires a grant, absence or unavailability of that exact current grant permits no authorization claim; readiness, gate passage, or non-prohibition cannot stand in for it.
 
-At performed-work entry, identify one exact Work occurrence as an individual admitted under `U.Work` by A.15.1. For an actual relation participant or another world-side value, name the direct relation and its obtaining predicate. For an operation argument or returned result, use A.6.1 only after the exact application and its declaration-local binding predicate obtain.
+At performed-work entry, identify one Work occurrence as an individual admitted under `U.Work` by A.15.1. For an actual relation participant or another world-side value, name the direct relation and its obtaining predicate. For an operation argument or returned result, use A.6.1 only after the application and its declaration-local binding predicate obtain.
 

@@ -6,12 +6,12 @@ section_id: "C.40.OI:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OI/C.40.OI__013_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.40.OI — Bound an Opportunity Inquiry"
   - "C.40.OI:12 — Relations"
-line_start: 86693
-line_end: 86703
+line_start: 90927
+line_end: 90937
 dependencies:
   - "A.15.9"
   - "B.5.PI"
@@ -25,7 +25,7 @@ keywords:
 
 ### C.40.OI:12 - Relations
 
-- **Uses:** `E.10.DEV` to recover the subject, posture, and direct owner when development wording changes the next action.
+- **Uses:** `E.10.DEV` to recover the subject, posture, and owner when development wording changes the next action.
 - **Uses:** `C.11.DUA` to compare attainable inquiry with its receiving value and whole burden; `A.15.9` to reuse or obtain and qualify an outside-practice result.
 - **Prepares:** `C.40.OC` when selected characteristics and current, intended, protected, or unknown readings are the first missing result.
 - **Prepares:** `C.40.NU` or `C.40.PC` when the inquiry needs materially different leads or a worthwhile problem and proposed contribution.

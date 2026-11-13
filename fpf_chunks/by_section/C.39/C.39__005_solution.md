@@ -6,12 +6,12 @@ section_id: "C.39:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39/C.39__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.39 — Find and Develop a Way to Obtain a Result"
   - "C.39:4 — Solution"
-line_start: 82698
-line_end: 82818
+line_start: 86730
+line_end: 86860
 dependencies:
   - "A.22.CGUS"
   - "A.3.1"
@@ -41,7 +41,7 @@ Say what should change or become available, for whom or for which use, and which
 
 **Establish what would make the answer sufficient before narrowing the work to a familiar operation.** Follow the intended receiving work far enough to explain what someone needs to obtain, distinguish or do next, what makes that difficult, and how the proposed contribution would help. Use the available material and an actual or stated case. A conceptual distinction can be the needed contribution: show which interpretation, inference or choice it changes. A description of a situation without that difference does not yet explain its usefulness.
 
-Look first for an applicable Method or an already available result that supplies this continuation. Inspect the operation and its qualifications, not just its title. A familiar adequate way can be used directly: this comparison need not become a separate document, experiment or narrated preliminary stage. An available partial result may also let the work stop. If only the next inquiry must be chosen, do not demand the explanation needed for full deployment.
+Look first for an applicable Method or an available result that supplies this continuation. Inspect the operation and its qualifications, not just its title. A familiar adequate way can be used directly: this comparison need not become a separate document, experiment or narrated preliminary stage. An available partial result may also let the work stop. If only the next inquiry must be chosen, do not demand the explanation needed for full deployment.
 
 Keep this receiving use as the basis of sufficiency while selecting a smaller operation, asking another contributor, or revising an example. The local question says which contribution is wanted; it does not silently replace what that contribution must make possible. A legitimate change of purpose changes this basis explicitly. Before concluding from the returned contribution, follow it into the receiving continuation: what can now be done, and does an indispensable transformation, distinction, coordination or ground still have to be invented? This is a way to discover the missing question, not only a check after someone has already named a defect.
 
@@ -60,7 +60,7 @@ When the source offers a connected proposal, recover what the connection contrib
 
 Keep three things distinguishable during this recovery: what the source proposes, what supports the proposal's use under its own conditions, and what the receiving situation additionally needs. A source can supply a useful way to generate or revise a proposal without supplying enough grounds to enact it. Conversely, a limitation in one inference can leave its constructive operations useful. F.0.1 recovers an action-changing source meaning; F.0.2 is needed only when comparing accounts can change the answer. Apply the direct reliance or subject method to a relied-on claim. Do not turn every extraction into a new synthesis, assurance study or framework.
 
-Follow the described operations on one available piece of target material, by inspection or an appropriately permitted small application. Stop at the first needed input, operation, relation or result that the account does not supply. An inspected trace is not a performed application.
+Follow the described operations on one available piece of target material, by inspection or a permitted small application. Stop at the first needed input, operation, relation or result that the account does not supply. An inspected trace is not a performed application.
 
 For example, a fault-investigation Method can compare error and non-error cases under comparable conditions. On the target records, “compare cases” may fail before comparison begins because the inspection cases cannot yet be connected to their setups. That missing connection is more useful to pursue than the broad request “find a diagnostic technology”.
 
@@ -68,7 +68,7 @@ For example, a fault-investigation Method can compare error and non-error cases 
 
 Start from the recovered operation and locate what prevents the receiving result: an unavailable input, a case-specific choice, an incompatible intermediate result or a failed condition. B.5.RC helps recover a described construction; B.5.TU helps construct a calculation, prediction or other operation using an available theory.
 
-**Work backward from the needed result, then forward through a proposed way.** Say what the receiving action must obtain and why. Follow that requirement back to what an available operation can actually supply. Where the two do not match, construct a transformation of the input or result, replace the failing operation, or change the arrangement. For example, a temperature result in Fahrenheit does not yet supply a Celsius threshold check: recover the units and use a justified conversion before applying the threshold. If the unit is unknown, arithmetic cannot repair the missing fact. If two records refer to different objects or intervals, unit conversion alone cannot join them.
+**Work backward from the needed result, then forward through a proposed way.** Say what the receiving action must obtain and why. Follow that requirement back to what an available operation can supply. Where the two do not match, construct a transformation of the input or result, replace the failing operation, or change the arrangement. For example, a temperature result in Fahrenheit does not yet supply a Celsius threshold check: recover the units and use a justified conversion before applying the threshold. If the unit is unknown, arithmetic cannot repair the missing fact. If two records refer to different objects or intervals, unit conversion alone cannot join them.
 
 Follow the proposed way forward on concrete material. At each consequential join identify what arrives, how its meaning, scope, units, state, precision and conditions are interpreted, what the receiving action does with it, and what permits that action. Explain the transformation where it is missing. A qualified supplied operation can remain intact when the practitioner can obtain its result under the required conditions. Compatible data types alone do not establish that two versions, intervals, assumptions or resource demands fit together.
 
@@ -76,9 +76,11 @@ Keep source-supported operations, proposed correspondences and new inferences di
 
 When several cases suggest a common way, compare the roles, relations and difficulty that explain their outcomes, rather than the words or objects they share. Propose the common operation and work it back into the cases: which means realize each role, which conditions are retained, and which difference requires a branch or defeats the correspondence? Remove a distinction only when doing so preserves the consequential actions and results; retain different concepts or methods when their differences change the work. A further unlike case can challenge the proposed generality. F.0.2 supports semantic synthesis when reconciling accounts is itself needed; C.39.RO develops a reusable operation from retained premises and variable inputs.
 
-A faithful source extraction can finish without containing this generalization. When the receiving work asks for the general way, its construction remains authoring work; do not wait for a source to state the finished answer or present a proposed synthesis as that source's claim. Explain the common difficulty, the operation that addresses it, and the cases that support or restrict its use. When learning is also required, derive practice from what the performer must coordinate, distinguish or control and the errors that defeat the result. Similar learning arrangements follow only as far as those demands are shared. Training is neither a substitute for explaining the way to act nor a compulsory addition to every method description.
+A faithful source extraction can finish without containing this generalization. When the receiving work asks for the general way, its construction remains authoring work; do not wait for a source to state the finished answer or present a proposed synthesis as that source's claim. Explain the common difficulty, the operation that addresses it, and the cases that support or restrict its use.
 
-##### C.39:4.3.1 - Give the connection its actual relation
+When learning is also required, derive practice from what the performer must coordinate, distinguish or control and the errors that defeat the result. Similar learning arrangements follow only as far as those demands are shared. Training is neither a substitute for explaining the way to act nor a compulsory addition to every method description.
+
+##### C.39:4.3.1 - Identify the connection's relation
 
 Select only the structures whose relations change the use; C.30.ASV:4.5a develops that selection. An ordinary explanation can suffice. Use A.22 when a stronger structure claim is needed.
 
@@ -91,7 +93,7 @@ These relations can intersect. A calculation may constitute part of preparation 
 
 ##### C.39:4.3.2 - Repair the difficulty the case exposes
 
-The following remedies concern recurring failures of construction or connection. Select the actual question, follow its dependencies, and stop at the sufficient result; this is neither a complete taxonomy nor a compulsory traversal.
+The following remedies concern recurring failures of construction or connection. Select the question that fits the difficulty, follow its dependencies, and stop at the sufficient result; this is neither a complete taxonomy nor a compulsory traversal.
 
 | Recognizable difficulty | Constructive move and useful result | Developed supplier when needed |
 | --- | --- | --- |
@@ -102,7 +104,7 @@ The following remedies concern recurring failures of construction or connection.
 | A replacement helps one use and breaks another | Compare it under each affected use and joint conditions; retain, restrict, adapt or reject it accordingly. | B.1.5.RS:4 |
 | Basic operations and purpose are known, but intermediate coordination cannot be performed | Distinguish a missing explanation from unavailable acquisition, access or support. Construct the former; develop or obtain the latter at the scale of the gap. | B.1.5.EW:4; E.23.CDI for capability development; C.36.RP:4 for continuing availability |
 | A branch returns a result but leaves the next action unclear | State whether the result shows the next action's condition to hold or fail, or leaves it unknown. Name the next action or the earlier operation to revisit, or explain the narrower use or justified stop. | C.40.CD:4.4–4.6; C.40 for material retention and continuation |
-| The same words hide different objects or relations | Recover the actual input, output and claim; repair the distinction whose consequences decide the join. An indication needs an interpreting relation before it can support a judgement. | A.7.1; B.1.5 for the resulting composition |
+| The same words hide different objects or relations | Recover the input, output and claim behind the shared words; repair the distinction whose consequences decide the join. An indication needs an interpreting relation before it can support a judgement. | A.7.1; B.1.5 for the resulting composition |
 | A chain hides alternatives or imposes an unwarranted order | Recover the possible continuations and their conditions; prescribe order only where the Method or a dependency requires it. | A.22.CGUS; B.1.5 for order-sensitive composition |
 | A successful reconstruction remains private | Explain its reusable actions, reasons, limits and a changed use for the intended next practitioner, choosing a suitable description form. | C.39:4.5–4.6 |
 
@@ -124,7 +126,7 @@ For a small use, a few sentences can state the candidate way, its supported and 
 
 When another occasion or performer must use the way, choose the needed explanation by that use: performing an operation, learning it, comparing it, combining it, or changing it can require different detail. State the preparation and domain knowledge that the reader may bring. Explain the new action or inference that the account promises to supply; do not silently make the reader invent it as a prerequisite.
 
-Connect the needed input to its source and the resulting action to its reason, expected result and continuation condition. Where “analyse” or “coordinate” leaves a consequential step unknown, recover that step backward from the required result and follow it forward on the case, as in section 4.3. Retain an adequate supplier when the reader can actually obtain and use it. Stop elaborating when the declared reader can do the intended work under the stated conditions; the explanation need not teach all professional competence.
+Connect the needed input to its source and the resulting action to its reason, expected result and continuation condition. Where “analyse” or “coordinate” leaves a consequential step unknown, recover that step backward from the required result and follow it forward on the case, as in section 4.3. Retain an adequate supplier when the reader can obtain and use it. Stop elaborating when the declared reader can do the intended work under the stated conditions; the explanation need not teach all professional competence.
 
 For several independently usable Methods, explain where results pass between them, which conditions are shared, which uses can proceed independently and what a failed or changed condition returns to. Preserve each Method's direct use. An account of those relations need not assert a new Method or make the reader perform every described activity. A repertoire's selection guidance and compatibility can matter even when no composition is proposed.
 
@@ -134,7 +136,15 @@ Work one complete case from inputs to the useful result or precise gap. Include 
 
 Keep three questions separate: whether the construction and its joins are coherent under their assumptions; whether it fits the intended result and situation; and whether its benefit warrants the effort, learning, support and change it requires. A derivation, a worked example, a prototype and an actual-use study support different claims. Select the needed evidence; these questions do not mandate three separate studies. A stipulated example explains a conditional construction, not empirical effectiveness or successful practitioner transfer.
 
-Make the grounds recoverable in the same explanation: whose need is being addressed and on what basis; whether the proposal concerns a Method, a relation among Methods, a description or support; why consequential development choices were made; which actions and conditions the reader actually receives; and what supports each claimed consequence. A final successful calculation cannot supply a missing reason for choosing the arrangement. Follow a gap back to the affected need, choice, instruction or claim and repair it or narrow that claim. This adds no compulsory record or fixed development sequence.
+Make the grounds recoverable in the same explanation:
+
+- whose need is being addressed and on what basis;
+- whether the proposal concerns a Method, a relation among Methods, a description or support;
+- why consequential development choices were made;
+- which actions and conditions the reader receives; and
+- what supports each claimed consequence.
+
+A final successful calculation cannot supply a missing reason for choosing the arrangement. Follow a gap back to the affected need, choice, instruction or claim and repair it or narrow that claim. This adds no compulsory record or fixed development sequence.
 
 Include necessary training, equipment, assistance, access and recurring burden in the arrangement being considered. A tool can perform an operation without supplying a missing rule. Success with expert help does not establish unassisted use. Obtain missing support, develop the capability or restrict the promised use where necessary.
 
@@ -150,5 +160,5 @@ Construct the missing adaptation through section 4.3, or use a qualified alterna
 
 Follow the proposed change through a complete affected use. Reuse a calculation, observation or earlier judgement only while its inputs, meanings, conditions and claim remain applicable. A numerical bound may remain valid while a tighter requirement makes the receiving use fail. Retain independently usable branches whose conditions still hold; neither reject them with the failed branch nor infer that every branch survives.
 
-Update the explanation that later work actually uses: the changed action or relation, the reason, its supported conditions and what calls for another return. A reader should be able to reconstruct the changed case from that account. If no adequate replacement is available, return the precise unresolved operation, a useful narrower result or a justified stop. Development can finish with that answer; it does not guarantee invention.
+Update the explanation that later work uses: the changed action or relation, the reason, its supported conditions and what calls for another return. A reader should be able to reconstruct the changed case from that account. If no adequate replacement is available, name the unresolved operation, return a useful narrower result or justify stopping. Development can finish with that answer; it does not guarantee invention.
 

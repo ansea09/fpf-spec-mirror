@@ -6,12 +6,12 @@ section_id: "C.16.P:8"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.P/C.16.P__010_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.16.P — Restore Precision to Characteristic and Scale Wording"
   - "C.16.P:8 — Bias-Annotation"
-line_start: 59756
-line_end: 59763
+line_start: 62141
+line_end: 62148
 dependencies:
   - "A.17"
   - "A.18"
@@ -35,5 +35,5 @@ keywords:
 | --- | --- | --- |
 | Scalar verdict bias | `strong`, `weak`, `robust`, or `high` is used as a verdict without characteristic, scale, and comparison reference. | Recover the intended construction and its basis, state a supported narrower gain, or leave the characterization unresolved. |
 | Proxy promotion bias | An indicator, metric, score, or benchmark result is treated as the thing indicated. | Name the direct indicator relation, any proxy relation and distortion risk used by the claim, admissible use, and subject pattern for any wider claim. |
-| Gate-by-number bias | A threshold or score is treated as release, readiness, proof, or decision authority. | Recover the threshold rule and cite the gate, assurance, decision, or release pattern that actually governs the use. |
+| Gate-by-number bias | A threshold or score is treated as release, readiness, proof, or decision authority. | Recover the threshold rule and cite the gate, assurance, decision, or release pattern that governs the use. |
 

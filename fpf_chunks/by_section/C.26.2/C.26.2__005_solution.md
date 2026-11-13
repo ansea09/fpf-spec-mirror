@@ -6,12 +6,12 @@ section_id: "C.26.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.2/C.26.2__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.26.2 — Enacted Distributed State Evidence"
   - "C.26.2:4 — Solution"
-line_start: 66316
-line_end: 66529
+line_start: 69312
+line_end: 69529
 dependencies:
   - "A.10"
   - "A.15"
@@ -37,7 +37,7 @@ keywords:
 
 ### C.26.2:4 - Solution
 
-Model the claim as evidence-bound `U.Episteme` over a declared collective `U.System`. Do not make the distributed state a bearer-independent thing. Do not treat a survey, dashboard, report, or API response as the state itself.
+Model the claim as evidence-bound `U.Episteme` over a declared collective `U.System`. Distinguish the collective's distributed state from the surveys, dashboards, reports, and API responses used to examine it.
 
 If the proposed bearer is a market slice or service mesh, declare whether it is a collective `U.System`, delivery system, trace population, or evidence set. Continue with EDSE only when a collective `U.System` bearer is established; otherwise retain any supported trace-population or evidence-set claim. Do not infer systemhood from coordinated-looking traces alone.
 
@@ -103,7 +103,7 @@ Finish with one of these results:
 | Minimal evidence-bound state assertion | State the collective bearer, the supported pattern of work or behavior, its observations or records and time window; add uncertainty, live alternatives and export limits when they affect the claim or use. |
 | Export-loss repair | Keep the state reading minimal and add a bridge or publication note about what the attempted report, survey, API response, dashboard, or policy sentence lost. |
 | Probe-coupled neighboring-pattern handoff | Apply `C.26.1` when the survey work, dashboard publication or use, interview, API operation, or publication act changed the state being evidenced while its output is being used as a passive read. |
-| Measurement or evidence neighboring-pattern handoff | Route the main support requirement to `C.16` for a measurement's scale and method, `A.10` for evidence provenance and bounded reliance, or `B.3` for an actual named assurance claim; keep audit requirements under their direct domain pattern. |
+| Measurement or evidence neighboring-pattern handoff | Route the main support requirement to `C.16` for a measurement's scale and method, `A.10` for evidence provenance and bounded reliance, or `B.3` for a named assurance claim; keep audit requirements under their direct domain pattern. |
 | Work or authority question | Use the relevant work or authority pattern when the unresolved question concerns a command, routine, incentive or playbook. An adequate such account may already explain the enacted state. |
 | State claim not established | Retain the supported observations and identify the missing bearer, relation, timing or evidence basis. Do not assert the distributed state that those inputs fail to establish. |
 
@@ -117,8 +117,8 @@ Consider these alternatives when they change the proposed claim. Explaining obse
 | Shared incentive or common external stimulus | The evidence may establish only parallel responses. Retain a collective coordination claim only when the needed relations among responses are supported. |
 | Routine, habit, script or playbook | An observed routine can establish the current operating pattern. Its presence alone does not establish a new shared intention or durable culture. |
 | Dashboard-following, metric gaming or social desirability | Determine whether the output evidences the claimed state or behavior induced by the reporting arrangement. Use `C.26.1` for the unresolved probe question. |
-| Copied artifact, template, policy sentence or API response | Copying the statement does not establish its enactment. Locate the observed actions and any export loss. Use `F.9` only for an actual cross-context sense correspondence, and the publication pattern only for a current publication question. |
-| Diffusion, contagion, media amplification or signaling | Keep the observed pattern and qualify the proposed mechanism or expectation claim according to its actual grounds. |
+| Copied artifact, template, policy sentence or API response | Copying the statement does not establish its enactment. Locate the observed actions and any export loss. Use `F.9` only for a cross-context sense correspondence, and the publication pattern only for a publication question. |
+| Diffusion, contagion, media amplification or signaling | Keep the observed pattern and qualify the proposed mechanism or expectation claim according to its grounds. |
 
 #### C.26.2:4.4 - Export-loss discipline
 
@@ -138,7 +138,7 @@ When the reading depends on relations among parts, recover that organization exp
 | --- | --- |
 | Whole system | Which collective `U.System` is being read, and under what boundary? |
 | Subsystems | Which locally readable Systems participate as subsystems? Use teams, roles, services, markets, routines, artifacts, or work lanes to locate them while retaining each clue's own kind. |
-| Local state readings | What can be said about each part without inventing a shared inner representation? |
+| Local state readings | What state reading does the evidence support for each part? |
 | Correlation or coordination evidence | Which traces, timing, work transfers, commitments, artifact uses, or role-work alignments show coordination? |
 | Explanatory basis | Which routine, policy, stimulus, incentive or other mechanism is supported, and what part of the current claim does it explain? |
 | Collective pattern | Which relations among the observed activities support the proposed state reading? What remains unresolved? |
@@ -147,32 +147,36 @@ When the reading depends on relations among parts, recover that organization exp
 
 #### C.26.2:4.6 - Evidence-bound state reading and claim floor
 
-The evidence-bound state reading is an evidence-bound `U.Episteme` reading over coordinated work, behavior, or trace patterns by a declared collective `U.System`. The pattern does not govern an inner group entity, a culture substance, a market mind, a hidden service intelligence, or a reusable kernel state kind.
+The evidence-bound state reading is a `U.Episteme` reading over coordinated work, behavior, or trace patterns by a declared collective `U.System`. The pattern does not govern an inner group entity, a culture substance, a market mind, a hidden service intelligence, or a reusable kernel state kind.
 
 The useful state claim retains the collective bearer and boundary, the observed pattern, the evidence supporting it and its time window. Include persistence, probe or export conditions, serious alternatives and further subject work only when the receiving claim depends on them.
 
-This pattern is useful because many real work states are enacted before they are articulable. A team may behave as if a release freeze exists before any single person states it cleanly. A service mesh may exhibit one routing posture before any one dashboard carries the whole situation. A market may shift expectations before any one survey faithfully exports the shift. The pattern lets FPF say that much, and no more, without pretending that one carrier is the state.
+This pattern is useful because many work states are enacted before they are articulable. For example:
+
+- A team may behave as if a release freeze exists before any single person states it cleanly.
+- A service mesh may exhibit one routing posture before any one dashboard carries the whole situation.
+- A market may shift expectations before any one survey faithfully exports the shift.
+
+These enacted patterns can support bounded state claims. The carrier remains distinct from the state.
 
 #### C.26.2:4.7 - Operational evidence sequence
 
-Operational evidence sequence:
-
 1. Name the collective bearer as a declared `U.System` and state its boundary; a bare social label does not establish that System.
 2. Name the coordinated work, behavior, or trace pattern being read: actions, routines, commitments, role-work, service behavior, market participant traces, artifacts, or timing. For a particular dated Work claim, use the `A.15` alignment route through `A.13` and independent `A.15.1` admission; add `F.6` only when the receiving use needs precise assignment-bound attribution through the same obtaining assignment.
-3. Identify the observations or records and what each supports. Use `A.10` when a replayable source-to-use account is needed; the current empirical claim always retains its required support.
-4. State the time window and any serious alternative that changes the reading. Add persistence support, decay/refresh conditions and reprobe cost only when they affect the claim or receiving action, following :4.11.
+3. Identify the observations or records and what each supports. Use `A.10` when a replayable source-to-use account is needed; the empirical claim always retains its required support.
+4. State the time window and any serious alternative that changes the reading. Add persistence support, decay/refresh conditions and reprobe cost only when they affect the claim or receiving action, following :4.11. When considering another observation, weigh what it could add against its effects on participants and on the evidence. For example, a quick follow-up in a small team could reveal who gave a response or change what participants report next.
 5. Connect the observed actions under the declared bearer and formulate the smallest supported collective-state claim. Keep its causal explanation distinct; a supported routine or command may explain that state.
-6. When an attempted export carries the claim, state its fidelity criterion and loss. Otherwise retain the supported local reading without inventing an export attempt.
+6. When an attempted export carries the claim, state its fidelity criterion and loss. Otherwise retain the supported local reading.
 7. State the supported use and any material limitation. Name another subject question only when it remains needed.
-8. Add `B.3` assurance only when an actual named assurance claim is current; `QLP-3` requires that claim and a `B.3` assurance result for the target claim and receiving use. Consequence level, audit, release, or accountability use may also impose a direct domain requirement for that claim.
+8. Add `B.3` assurance only when a named assurance claim is current; `QLP-3` requires that claim and a `B.3` assurance result for the target claim and receiving use. Consequence level, audit, release, or accountability use may also impose a direct domain requirement for that claim.
 
-Return the supported distributed-state reading and its necessary qualifications, or the exact gap that prevents it. A useful result may preserve only observations or a narrower trace-population claim when collective-system identity or coordinated organization remains unestablished.
+Return the supported distributed-state reading and its necessary qualifications, or the gap that prevents it. A useful result may preserve only observations or a narrower trace-population claim when collective-system identity or coordinated organization remains unestablished.
 
 For an adequately supported positive case:
 
 > During incident window W, the incident-response organization acted consistently with rollback-readiness posture P, evidenced by deployment queue changes, escalation messages, rollback artifacts, and support-routing changes; this reading is not faithfully exported by survey S because S loses timing, role-work, and trace linkage.
 
-That sentence is narrower than "the organization decided", but it is much more useful. It supports adjusting incident communication and release-triage posture during window W; it does not support a durable culture claim or release-readiness assurance claim.
+That sentence is narrower than "the organization decided". It supports adjusting incident communication and release-triage posture during window W; it does not support a durable culture claim or release-readiness assurance claim.
 
 #### C.26.2:4.8 - Well-formed EDSE record
 
@@ -204,7 +208,7 @@ Well-formedness constraints:
 - `collectiveBearer` is a declared collective system, not a metaphorical subject.
 - `evidenceCarriers` make the relevant work inspectable through observations, traces, logs, commitment records or other work-result records; the claimed occurrence is not identified with its record.
 - `timeWindow` bounds the claim; persistence beyond that window needs its own support.
-- `ordinaryRivals`, when needed, contain serious alternatives that change the current reading; do not invent an alternative to complete a record.
+- `ordinaryRivals`, when needed, contain serious alternatives that change the current reading.
 - `minimalSupportedClaim` states the collective pattern established by the observations and relations. A causal explanation is an additional claim with its own grounds.
 - `unsupportedUse`, when needed, identifies a live use that exceeds those grounds.
 
@@ -214,12 +218,12 @@ The pattern keeps four objects separate:
 
 | Object | Role in the claim |
 | --- | --- |
-| Enacted work | What people, service-providing systems, or market participants actually did in coordination, including routine enactment and artifact use. |
+| Enacted work | What people, service-providing systems, or market participants did in coordination, including routine enactment and artifact use. |
 | Evidence carrier | The log, trace, ticket, meeting note, deployment record, dashboard export, report, API response, or policy text that makes some part of the work inspectable. |
 | Probe / approximation | The survey, dashboard query, interview, trace query, report request, metric, or publication act that frames the state reading. |
 | Distributed-state reading | The minimal `U.Episteme` claim inferred from coordinated work or behavior under carriers, window, rivals, and export limits. |
 
-A survey operation probes; its response records carry outputs. A policy claim can explain an observed routine, while a publication of that policy carries its text. A dashboard can display evidence and act as an instrument in a behavior-changing probe. In each case, recover the operation, content and carrier actually used; none is automatically a faithful representation of the collective state.
+A survey operation probes; its response records carry outputs. A policy claim can explain an observed routine, while a publication of that policy carries its text. A dashboard can display evidence and act as an instrument in a behavior-changing probe. In each case, recover the operation, content and carrier used; none is automatically a faithful representation of the collective state.
 
 #### C.26.2:4.10 - Case bank and near misses
 
@@ -247,5 +251,5 @@ Publication or reuse under unchanged assumptions does not by itself raise the ev
 
 For a momentary claim, name the bearer, observations or carriers, window and minimal supported reading. Add the temporal, alternative or export detail that changes the receiving action; local use, reuse or a fuller form alone does not create that need.
 
-The ordinary EDSE claim is minimal but actionable. It says: "this coordinated work or behavior supports this bounded reading for this use." It does not say: "the collective has one hidden durable state that a report can copy."
+The ordinary EDSE claim is minimal but actionable. It says: "this coordinated work or behavior supports this bounded reading for this use."
 

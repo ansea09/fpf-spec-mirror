@@ -6,12 +6,12 @@ section_id: "D.1:5"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.1/D.1__009_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "D.1 — Clarify an Ethical Claim's Value Basis (Value Plurality)"
   - "D.1:5 — Conformance Checklist"
-line_start: 91604
-line_end: 91612
+line_start: 96088
+line_end: 96096
 dependencies:
   - "A.1"
   - "A.1.CSD"
@@ -38,7 +38,7 @@ keywords:
 | ID | Requirement | Purpose |
 | --- | --- | --- |
 | CC-D1-1 | The ethical claim or question, affected EntityOfConcern, value concern, and intended use are named. Relied-on evidence and material uncertainty qualify the answer. Value-frame editions, ClaimScope, qualification window, affected Systems, and direct responsibility relations are added when they change the claim or its warranted use. | Keeps "ethical" from becoming a label without content or a generic context premise. |
-| CC-D1-2 | A judgement of ethical admissibility states its warranted use and any limitation that changes it. A separate frame or stronger-source return serves a particular reasoning or receiving need. | Prevents value wording from authorizing action by itself. |
+| CC-D1-2 | A judgement of ethical admissibility states its warranted use and any limitation that changes it. A separate frame or stronger-source return serves a reasoning or receiving need. | Prevents value wording from authorizing action by itself. |
 | CC-D1-3 | Ethical theory, tradition, or project-specific value frame is named when it changes the claim. A conditional judgement preserves its value premises, relevant facts and inference; a contested premise remains identifiable. | Keeps plural value frames inspectable and reasoning recoverable. |
 | CC-D1-4 | Multilevel conflict, mediation, bias or fairness audit, causal use, evidence, assurance, and architecture residuals use their subject patterns. | Keeps D.1 as boundary pattern rather than universal ethics owner. |
 

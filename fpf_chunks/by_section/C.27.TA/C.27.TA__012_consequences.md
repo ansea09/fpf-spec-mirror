@@ -6,12 +6,12 @@ section_id: "C.27.TA:10"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27.TA/C.27.TA__012_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.27.TA — Temporal Aspect: Time Windows, Rhythm, Cadence, and Currentness"
   - "C.27.TA:10 — Consequences"
-line_start: 67696
-line_end: 67703
+line_start: 70756
+line_end: 70763
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -46,8 +46,8 @@ keywords:
 ### C.27.TA:10 - Consequences
 
 - C.27 addresses adequacy and supported use of authored temporal claims.
-- A.3.4 identifies the actual transformation; C.27.TA states its temporal aspect.
+- A.3.4 identifies the transformation; C.27.TA states its temporal aspect.
 - A.3.3 stays the dynamics episteme pattern.
 - Use the direct patterns for work planning, actual work, source currentness, benchmark parity, and evidence use.
-- Users gain one positive temporal-aspect claim before heavier adequacy, dynamics, causal, benchmark, or assurance patterns are needed.
+- Users gain one positive temporal-aspect claim before adequacy, dynamics, causal, benchmark, or assurance patterns are needed.
 

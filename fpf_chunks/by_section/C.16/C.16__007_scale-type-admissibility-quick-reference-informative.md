@@ -6,12 +6,12 @@ section_id: "C.16:6"
 section_title: "Scale-type admissibility quick reference (Informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__007_scale-type-admissibility-quick-reference-informative.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:6 — Scale-type admissibility quick reference (Informative)"
-line_start: 58741
-line_end: 58759
+line_start: 61124
+line_end: 61143
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -65,10 +65,11 @@ A.18 governs operation admissibility by Scale type; CG-frame admissibility profi
 | **Ratio**    | <, =, >        | mean location     | Δ meaningful       | ratios meaningful        | arithmetic/geometric means, cv, growth rates          | adding heterogeneous units; log on nonpositive values               |
 
 **Reminders (informative; see A.18 for normative rules).**
-G‑1 (Order). Ordinal transforms preserve the declared order and distinctions.
-G‑2 (Differences). On interval or ratio, **Δ** is meaningful; on ordinal or nominal, it is undefined.
-G‑3 (Ratios). Ratios of raw values require a ratio Scale. Ratios of derived differences require their own quantity interpretation and model conditions.
-G‑4 (Unit coherence). Interval or ratio arithmetic presumes compatible units (or a declared conversion).
-G‑5 (Target polarity). If polarity is targeted, comparisons use distance‑from‑target semantics as declared by the relevant subject pattern, template, and cited method or mechanism.
+
+- G‑1 (Order). Ordinal transforms preserve the declared order and distinctions.
+- G‑2 (Differences). On interval or ratio, **Δ** is meaningful; on ordinal or nominal, it is undefined.
+- G‑3 (Ratios). Ratios of raw values require a ratio Scale. Ratios of derived differences require their own quantity interpretation and model conditions.
+- G‑4 (Unit coherence). Interval or ratio arithmetic presumes compatible units (or a declared conversion).
+- G‑5 (Target polarity). If polarity is targeted, comparisons use distance‑from‑target semantics as declared by the relevant subject pattern, template, and cited method or mechanism.
 
 

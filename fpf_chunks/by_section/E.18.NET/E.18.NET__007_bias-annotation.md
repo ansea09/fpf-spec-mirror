@@ -6,12 +6,12 @@ section_id: "E.18.NET:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.NET/E.18.NET__007_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.18.NET — Network of Transformation-Flow Structures"
   - "E.18.NET:6 — Bias-Annotation"
-line_start: 112473
-line_end: 112484
+line_start: 119626
+line_end: 119637
 dependencies:
   - "A.1.STM"
   - "A.12"
@@ -39,13 +39,13 @@ keywords:
 
 ### E.18.NET:6 - Bias-Annotation
 
-Bias risks considered: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: **Universal** for uses of this pattern.
+These five bias risks apply across uses of this pattern: **Gov**, **Arch**, **Onto/Epist**, **Prag**, and **Did**. The table gives a mitigation for each.
 
 | Bias risk | Mitigation in this pattern |
 | --- | --- |
-| **Gov:** demanding a fully reusable relation occurrence can hide the cheaper local decision. | The first result permits a proposed description and one exact result from the pattern governing the relation claim, or one separate missing-discriminator blocker; it invents no common status kind or generic relation. |
+| **Gov:** demanding a fully reusable relation occurrence can hide the cheaper local decision. | The first result permits a proposed description and the result from the pattern governing the relation claim, or one separate missing-discriminator blocker; it invents no common status kind or generic relation. |
 | **Arch:** a network-shaped case can tempt the reader to invent a containing holon or an obtaining architecture relation. | C.30.TFS-REL distinguishes actual containing-holon, bounded single-holon claim, and explicit inter-holon uses while retaining independent network selection. |
 | **Onto/Epist:** a graph, record, or demonstrative slice can be mistaken for the selected network. | The four A.22 identity discriminators ground a claimed selected network. A provisional description may precede that qualification. |
-| **Prag:** exact member, relation, endpoint, and constraint apparatus can crowd out first use. | The practitioner first produces one small network result or one exact stop; the durable record remains optional. |
-| **Did:** the coffee and build-the-builder cases can be over-read as a closed domain ontology or a universal edge vocabulary. | The cases demonstrate boundary choices only; each cross-flow relation still needs an admitted kind, its applicable predicate, and exact participants. |
+| **Prag:** exact member, relation, endpoint, and constraint apparatus can crowd out first use. | The practitioner first produces a network result or a stop that identifies the relation-claim result or the missing network discriminator; the durable record remains optional. |
+| **Did:** the coffee and build-the-builder cases can be over-read as a closed domain ontology or a universal edge vocabulary. | The cases demonstrate boundary choices only; each cross-flow relation still needs an admitted kind, its applicable predicate, and its participants in predicate order. |
 

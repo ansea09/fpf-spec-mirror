@@ -6,12 +6,12 @@ section_id: "C.36.P:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.P/C.36.P__002_use-this-when.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.36.P — Clarify Cultural-Evolution Wording for a Claim or Action"
   - "C.36.P:0 — Use This When"
-line_start: 90723
-line_end: 90765
+line_start: 95203
+line_end: 95245
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -60,13 +60,13 @@ keywords:
 
 Use this pattern when source or project prose uses cultural-evolution wording and a current claim or action depends on what that wording means here. If the word is only ordinary or quoted language and no FPF claim relies on it, leave it alone.
 
-When generic *development*, *evolution*, or *lineage* wording still hides the changed or represented subject, continuity or membership, posture, direction or value basis, or direct owner, use `E.10.DEV` first. Continue here only when that recovery exposes a cultural-population, discipline, style, tradition, recognition, selection, transmission, retention, or mediation question whose wording is still unclear. Use `E.10.MOVE` only for a separately relied-on trajectory or path ambiguity.
+When generic *development*, *evolution*, or *lineage* wording hides the changed or represented subject, continuity or membership, posture, direction or value basis, or direct owner, use `E.10.DEV` first. Continue here only when that recovery exposes a cultural-population, discipline, style, tradition, recognition, selection, transmission, retention, or mediation question whose wording is unclear. Use `E.10.MOVE` only for a separately relied-on trajectory or path ambiguity.
 
 Trigger expressions include, for example, culture, cultural evolution, style, tradition, genre, scene, technique, practice, platform, platform regime, measurement regime, attractor, developmental machinery, cultural lineage, canon, and school. They are recognition cues.
 
 #### C.36.P:0.1 - What Goes Wrong If Missed
 
-The repair becomes a synonym swap. `Style` becomes `method`, `platform regime` becomes `context`, `practice` becomes a generic process label, or `attractor` becomes `dynamics` before the sentence says which object, relation, or claim is current. The result looks cleaner but still carries an accidental ontology.
+The repair becomes a synonym swap. `Style` becomes `method`, `platform regime` becomes `context`, `practice` becomes a generic process label, or `attractor` becomes `dynamics` before the sentence says which object, relation, or claim is current. The result looks cleaner but carries an accidental ontology.
 
 #### C.36.P:0.2 - What This Buys
 

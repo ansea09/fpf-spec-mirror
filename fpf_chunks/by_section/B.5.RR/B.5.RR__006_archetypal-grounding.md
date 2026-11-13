@@ -6,12 +6,12 @@ section_id: "B.5.RR:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.RR/B.5.RR__006_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.5.RR — Revise Reasoning After a Premise or Question Changes"
   - "B.5.RR:5 — Archetypal Grounding"
-line_start: 48367
-line_end: 48400
+line_start: 50391
+line_end: 50424
 dependencies:
   - "B.5"
   - "B.5.MPC.R"
@@ -41,17 +41,17 @@ For the next use, retain four terms and the increment 2, but require their sum t
 
 A team needs to read revision 17 of a report. Its established account has two ways to obtain that revision's bytes: decrypt the local backup using its available key and decryptor, or obtain an unencrypted remote copy. An available viewer then displays the report.
 
-The key becomes unavailable. Following that change removes the local decryption route. The remote copy and viewer still supply the requested reading, so the team can proceed through them. The missing key need not be recovered for this use.
+The key becomes unavailable. Following that change removes the local decryption route. The remote copy and viewer supply the requested reading, so the team can proceed through them. The missing key need not be recovered for this use.
 
-Now consider a different finding: the supposed remote alternative is encrypted with the same key. Both routes need that key, so neither supplied route obtains the bytes. The next contribution is the key, another usable copy or a different way to obtain the report. A second storage location had concealed a shared prerequisite.
+Now consider a different finding: the supposed remote alternative is encrypted with the key. Both routes need that key, so neither supplied route obtains the bytes. The next contribution is the key, another usable copy or a different way to obtain the report. A second storage location had concealed a shared prerequisite.
 
-If instead the viewer becomes unavailable, either route may still provide the bytes. Reading now needs a suitable viewer or format conversion. This repair preserves the obtained result and locates the different operation that the receiving use requires.
+If instead the viewer becomes unavailable, either route may provide the bytes. Reading needs a suitable viewer or format conversion. This repair preserves the obtained result and locates the different operation that the receiving use requires.
 
 #### B.5.RR:5.3 - A repeated conclusion loses its starting support
 
 An analysis establishes claim A from an observation O, derives B from A and uses B in a further argument for A. A corrected interpretation of O removes its support for A.
 
-The second occurrence of A does not preserve that support: its offered reason B was itself obtained from A. Reopen both uses and look for an argument grounded in retained premises. The conclusion may be true, but this circular route no longer establishes it.
+The second occurrence of A does not preserve that support: its offered reason B was obtained from A. Reopen both uses and look for an argument grounded in retained premises. The conclusion may be true, but this circular route no longer establishes it.
 
 Contrast this with an induction argument whose base case remains established and whose step derives the next case from the preceding one. Its recurrence has a grounded way to obtain each finite case. The relevant inference, rather than the visual presence of a cycle or repeated letter, decides what can be retained.
 

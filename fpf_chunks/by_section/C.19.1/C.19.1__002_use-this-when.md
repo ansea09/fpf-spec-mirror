@@ -6,12 +6,12 @@ section_id: "C.19.1:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.1/C.19.1__002_use-this-when.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.19.1 — Bitter‑Lesson Preference (BLP)"
   - "C.19.1:0 — Use This When"
-line_start: 61876
-line_end: 61905
+line_start: 64362
+line_end: 64391
 dependencies:
   - "A.0"
   - "A.10"
@@ -43,15 +43,15 @@ keywords:
 ---
 
 ### C.19.1:0 - Use This When
-Use `C.19.1` when a current choice or policy makes a scale claim or invokes a declared generality preference: a narrower special-purpose approach is preferred over a general alternative, or a general approach is preferred because its measured performance is expected to improve across a declared scale window. For search, learning, planning, and agent substrates, the empirical Bitter Lesson can supply the motivating line. For a module relation, platform, organization design, evidence-bearing episteme or work arrangement, or selected structure, state explicitly that the move is a local analogy or policy rather than an empirical Bitter-Lesson result.
+Use `C.19.1` when a current choice or policy makes a scale claim or invokes a declared generality preference: a narrower special-purpose approach is preferred over a general alternative, or a general approach is preferred because its measured performance is expected to improve across a declared scale window. For search, learning, planning, and agent substrates, the empirical Bitter Lesson can supply the motivating line. For a module relation, platform, organization design, evidence-bearing episteme or work arrangement, or selected structure, state that the move is a local analogy or policy rather than an empirical Bitter-Lesson result.
 
-The pattern governs only that scale-based comparison, preference, or waiver. It neither proves architecture adequacy nor turns a bearer label into a holon kind. If the project is merely using a bounded specialization and makes no scale advantage or durable generality claim, keep the use local under the bearer's direct pattern and stop here.
+The pattern governs only that scale-based comparison, preference, or waiver. It neither proves architecture adequacy nor turns a bearer label into a holon kind. If the project is using a bounded specialization and makes no scale advantage or durable generality claim, keep the use local under the bearer's direct pattern and stop here.
 
 When comparing a general adaptive loop with a specialized cycle or direct repair for an `E.23` use, use `C.19.1` only if the decision relies on scale advantage or a declared generality policy. The `E.23` loop still names the object under improvement, evaluation, cost and risk account, protected trade-offs, and stop or switch condition.
 
 #### C.19.1:0.1 - What Goes Wrong If Missed
 
-A team treats "more agentic", "more automated", "more specialized", or "works on this benchmark" as proof that one bearer should displace a more general scale-amenable bearer. Another team repeats the opposite error: it invokes the Bitter Lesson as permission to ignore safety, cost, task-family fit, or a narrow heuristic that actually wins inside the declared scale window. In both cases, the selector loses parity, waiver, and scale-window discipline.
+A team treats "more agentic", "more automated", "more specialized", or "works on this benchmark" as proof that one bearer should displace a more general scale-amenable bearer. Another team repeats the opposite error: it invokes the Bitter Lesson as permission to ignore safety, cost, task-family fit, or a narrow heuristic that wins inside the declared scale window. In both cases, the selector loses parity, waiver, and scale-window discipline.
 
 #### C.19.1:0.2 - What This Buys
 
@@ -70,5 +70,5 @@ First examine the scale claim and its available basis before selecting a `Scale-
 - `bounded scale comparison`: state the smallest parity and uncertainty method adequate for this use;
 - `full Scale-Audit selected`: state why the claim, stakes, feasible evidence, and receiving use justify the added work.
 
-A `BLP-waiver` is needed only when an actual declared generality preference would otherwise decide the use.
+A `BLP-waiver` is needed only when a declared generality preference would otherwise decide the use.
 

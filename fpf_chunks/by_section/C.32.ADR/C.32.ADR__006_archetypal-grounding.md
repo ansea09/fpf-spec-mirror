@@ -6,12 +6,12 @@ section_id: "C.32.ADR:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ADR/C.32.ADR__006_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.32.ADR — Architecture Decision Record Projection"
   - "C.32.ADR:5 — Archetypal Grounding"
-line_start: 80278
-line_end: 80287
+line_start: 84107
+line_end: 84116
 dependencies:
   - "A.10"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "B.2:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2/B.2__003_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.2 — Meta-Holon Transition - Whole Reidentification"
   - "B.2:1 — Problem Frame"
-line_start: 43381
-line_end: 43386
+line_start: 45107
+line_end: 45112
 dependencies:
   - "A.1"
   - "A.10"
@@ -48,7 +48,7 @@ keywords:
 
 ### B.2:1 - Problem Frame
 
-A Meta-Holon Transition is a whole-reidentification claim about a holon recognized through A.1 construction, identity, part relations, whole-level characteristics, and a direct kind-specific pattern.
+A Meta-Holon Transition is a whole-reidentification claim about a holon recognized through A.1 construction, identity, part relations, whole-level characteristics, and a kind-specific pattern.
 
-The B.2 comparison determines whether the receiving use can continue with the old whole or requires a newly identified whole; retain the old whole when its identity rule accommodates the change and it meets that use. The candidate new whole can be recognized as a `U.System`, `U.Episteme`, `U.Method`, `U.Work`, `U.Discipline`, or another holon kind only after `E.24.UK` has admitted that public kind and the exact candidate satisfies A.1 plus the direct kind-specific criterion.
+The B.2 comparison determines whether the receiving use can continue with the old whole or requires a newly identified whole; retain the old whole when its identity rule accommodates the change and it meets that use. The candidate new whole can be recognized as a `U.System`, `U.Episteme`, `U.Method`, `U.Work`, `U.Discipline`, or another holon kind only after `E.24.UK` has admitted that public kind and the candidate satisfies A.1 plus the kind-specific criterion.
 

@@ -6,12 +6,12 @@ section_id: "E.10.D2:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:1 — Problem frame"
-line_start: 102349
-line_end: 102374
+line_start: 108121
+line_end: 108146
 dependencies:
   - "A.7"
   - "C.2.1"
@@ -36,7 +36,7 @@ keywords:
 
 ### E.10.D2:1 - Problem frame
 
-Use this pattern when one passage names an exact entity and also speaks of a description, specification, view, diagram, publication, file, dashboard, model, evidence item, assurance result, gate result, or decision around it. The recognizable failure is that the wording makes one of those neighboring objects stand in for the entity, the episteme, or the authority for the next action.
+Use this pattern when one passage names an exact entity and also speaks of a description, specification, view, diagram, publication, file, dashboard, model, evidence item, assurance result, gate result, or decision around it. The wording fails when it makes one of those neighboring objects stand in for the entity, the episteme, or the authority for the next action.
 
 Begin with the receiving use:
 
@@ -58,5 +58,5 @@ The working distinctions are:
 * **specification use** is a checkable use of a description episteme, not a third peer ontology class;
 * viewpoint, view, claim scope, model-use structure, grounding, evidence, edition, publication, carrier, and representation remain neighboring objects and relations.
 
-The first result is that the reader can say what is described, which claim-bearing episteme is being used, what the receiving use needs next, and where any additional claim is governed. A formal-looking file, card, suffix, approval, or diagram gains no ontological or practical authority by appearance.
+The reader can now say what is described, which claim-bearing episteme is being used, what the receiving use needs next, and where any additional claim is governed. A formal-looking file, card, suffix, approval, or diagram gains no ontological or practical authority by appearance.
 

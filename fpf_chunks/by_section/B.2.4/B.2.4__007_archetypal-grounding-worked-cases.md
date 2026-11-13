@@ -6,12 +6,12 @@ section_id: "B.2.4:5"
 section_title: "Archetypal Grounding (Worked Cases)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.4/B.2.4__007_archetypal-grounding-worked-cases.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.2.4 — Do Capability or Functioning Changes Require Whole Reidentification?"
   - "B.2.4:5 — Archetypal Grounding (Worked Cases)"
-line_start: 44528
-line_end: 44545
+line_start: 46338
+line_end: 46357
 dependencies:
   - "A.10"
   - "A.15"
@@ -45,11 +45,13 @@ Use A.6.F for unresolved function-like wording, A.3.4 for transformations, E.18 
 
 #### B.2.4:5.2 - CI/CD Capability
 
-A team may have methods for coding, testing, and releasing. That does not by itself create a new whole. Use the direct Method and Work patterns for the method relations and performed release work.
+A team may have methods for coding, testing, and releasing. That does not by itself create a new whole. Use the Method and Work patterns for the method relations and performed release work.
 
-B.2.4 becomes current when exact capability, coordination, commitment, and work facts raise a consequential question about whether the existing team or platform still carries the receiving claim. Evidence may support that claim; an automated delivery label or score does not decide the ontology.
+B.2.4 becomes current when capability, coordination, commitment, and work facts raise a consequential question about whether the existing team or platform carries the receiving claim. Evidence may support that claim; an automated delivery label or score does not decide the ontology.
 
 #### B.2.4:5.3 - Theory Explains New Phenomena
 
-A new theory may explain phenomena that the source portfolio did not explain. Use B.2.4 to bring the exact explanatory-use facts into B.2's ordinary existing-whole comparison, while evidence separately supports or challenges the claim about that use. This does not assign an A.2.2 capability to the episteme. B.2.3 tests the exact candidate under `U.Episteme`; C.2.1 defines its constitution; use C.29 for an unresolved representation-choice, transfer or reliance question.
+A new theory may explain phenomena that the source portfolio did not explain. Use B.2.4 to bring the explanatory-use facts into B.2's ordinary existing-whole comparison, while evidence separately supports or challenges the claim about that use.
+
+This does not assign an A.2.2 capability to the episteme. B.2.3 tests the candidate under `U.Episteme`; C.2.1 defines its constitution; use C.29 for an unresolved representation-choice, transfer or reliance question.
 

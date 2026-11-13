@@ -6,12 +6,12 @@ section_id: "E.17.ID.CR:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.ID.CR/E.17.ID.CR__010_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.17.ID.CR — Compare Sources Within a Shared Review Frame (ComparativeReviewUnit)"
   - "E.17.ID.CR:9 — Consequences"
-line_start: 109180
-line_end: 109187
+line_start: 115898
+line_end: 115905
 dependencies:
   - "A.15"
   - "A.15.2"
@@ -43,7 +43,7 @@ keywords:
 
 - The middle band between a short F.9.1 stance note about an existing bounded-use claim and prompt-bearing abduction becomes reviewable rather than rhetorical.
 - Reviewers get a cleaner way to distinguish comparative interpretation from the first crossed claim that would make another governing pattern primary.
-- Authors pay a small extra declaration weight, but the gain is fewer hidden neighboring-pattern boundary mistakes and less comparison-unit instability.
-- Guided comparative review units become easier to prepare honestly because bounded use, overread risk, and world-contact limits can be declared without pretending that the unit already carries a broader guidance claim than it really does.
+- Authors have a little more to declare. The comparison unit is more stable, and fewer mistakes at the boundaries with neighboring patterns go unnoticed.
+- Guided comparative review units become easier to prepare: authors can state bounded use, overread risk and world-contact limits without implying a broader guidance claim.
 - Users get a bounded way to keep comparative review units modest while the boundary trigger remains below the first crossed claim.
 

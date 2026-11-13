@@ -6,12 +6,12 @@ section_id: "C.19.1:5"
 section_title: "Archetypal grounding (post-2015; informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.1/C.19.1__007_archetypal-grounding-post-2015-informative.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.19.1 — Bitter‑Lesson Preference (BLP)"
   - "C.19.1:5 — Archetypal grounding (post-2015; informative)"
-line_start: 61977
-line_end: 61997
+line_start: 64468
+line_end: 64488
 dependencies:
   - "A.0"
   - "A.10"
@@ -44,7 +44,7 @@ keywords:
 
 ### C.19.1:5 - Archetypal grounding (post-2015; informative)
 
-These computational examples illustrate where a scale comparison may be useful; they supply no empirical conclusion for another bearer family. Each actual comparison still needs its task family, comparator, budget and safety basis, uncertainty, applicable alpha/delta tolerances and any source-currentness condition required by its receiving use.
+These computational examples illustrate where a scale comparison may be useful; they supply no empirical conclusion for another bearer family. Each comparison needs its task family, comparator, budget and safety basis, uncertainty, applicable alpha/delta tolerances and any source-currentness condition required by its receiving use.
 
 * **LLMs:** prompt programs, **retrieval-augmented** policies, and **MoE** policies compared with narrow task-specific pipelines; set-returning selection across editions and budgets.
 * **RL and planning:** model-based optimization and general agents compared with hand-coded controllers, subject to alpha and delta tolerances and safety.
@@ -61,5 +61,5 @@ These computational examples illustrate where a scale comparison may be useful; 
 
 The specialist wins at the first probed budget, while the general method wins at the other two even after allowing for the supplied uncertainty. Neither response dominates across all three probed budgets. Return `no scale-based preference` for that whole comparison; the word general does not reverse it. The result supports the stated comparisons at those points, not an interpolated law between them or a claim outside the window.
 
-If the receiving choice is confined to 100 CPU-seconds, the specialist's bounded advantage can be used under that question's comparison rule. A separately declared prefer-general policy, if applicable, still needs its own tie-break or waiver treatment. No such policy is stipulated here, so no waiver or debt entry is created merely to report these results. Changing the task family, hardware-cost account or budget window reopens the dependent comparison. This is a constructed application, not a new benchmark finding.
+If the receiving choice is confined to 100 CPU-seconds, the specialist's bounded advantage can be used under that question's comparison rule. A separately declared prefer-general policy, if applicable, needs its own tie-break or waiver treatment. No such policy is stipulated here, so no waiver or debt entry is created merely to report these results. Changing the task family, hardware-cost account or budget window reopens the dependent comparison. This is a constructed application, not a new benchmark finding.
 

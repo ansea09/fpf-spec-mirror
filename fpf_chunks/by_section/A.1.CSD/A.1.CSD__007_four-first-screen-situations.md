@@ -6,12 +6,12 @@ section_id: "A.1.CSD:5"
 section_title: "Four First-Screen Situations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.CSD/A.1.CSD__007_four-first-screen-situations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.1.CSD — Discovering Systems That May Bear Consequences"
   - "A.1.CSD:5 — Four First-Screen Situations"
-line_start: 3950
-line_end: 3983
+line_start: 4050
+line_end: 4089
 dependencies:
   - "A.1"
   - "A.1.SCR"
@@ -51,7 +51,9 @@ The same discovery action changes all four situations. Their domain Methods, qua
 
 In this constructed case, `FeedPulsePlan-FP4` proposes a larger nutrient pulse for `BioreactorOperatingSystem-BR7`. The receiving investigation is `ProbeDecision-PD4`: decide whether and which further observations are worthwhile before changing the feed setting for the next 48 hours. The plan is the account's one exact focus EntityOfConcern; the ClaimGraph examines the possible feed-operation occurrence it specifies rather than treating the plan as a physical cause. The probe decision is the account's neighboring use.
 
-Baseline instrumentation supports one obtaining substrate-transfer occurrence from `FeedLine-F2` into the reactor medium and one obtaining effluent-flow occurrence from `BR7` to `TreatmentTrain-TT2`. Take a complete A.1 recognition basis for the individual bacterial Systems as a case input. For `BiofilmPatch-BP3`, microscopy and persistence observations support matrix-linked constituents and their obtaining part relations, persistent assembly under the same-matrix continuity rule, and whole-level nutrient-processing and shear-resistance characteristics. The case's governed biofilm-integration rule admits the patch as a constituent of `BR7`'s carrier assembly when its matrix attaches to `Carrier-C3`, its extent fits the available carrier surface, and it retains its matrix-connected identity at the declared operating flow. The case supplies those attachment, fit and continuity facts. Together with its physical organization and causal participation in nutrient transformation, these facts supply the A.1 recognition basis for the patch. Keep the constituent relations under their part-whole governors.
+Baseline instrumentation supports one obtaining substrate-transfer occurrence from `FeedLine-F2` into the reactor medium and one obtaining effluent-flow occurrence from `BR7` to `TreatmentTrain-TT2`. Take a complete A.1 recognition basis for the individual bacterial Systems as a case input.
+
+For `BiofilmPatch-BP3`, microscopy and persistence observations support matrix-linked constituents and their obtaining part relations, persistent assembly under the same-matrix continuity rule, and whole-level nutrient-processing and shear-resistance characteristics. The case's governed biofilm-integration rule admits the patch as a constituent of `BR7`'s carrier assembly when its matrix attaches to `Carrier-C3`, its extent fits the available carrier surface, and it retains its matrix-connected identity at the declared operating flow. The case supplies those attachment, fit and continuity facts. Together with its physical organization and causal participation in nutrient transformation, these facts supply the A.1 recognition basis for the patch. Keep the constituent relations under their part-whole governors.
 
 The proposed larger pulse has not occurred. The account therefore keeps four paths modal:
 
@@ -62,7 +64,11 @@ The proposed larger pulse has not occurred. The account therefore keeps four pat
 | `BioreactorOperatingSystem-BR7` | Changed patch coverage and local transfer -> changed transfer efficiency and pressure drop. | Baseline pressure and transfer measurements obtain; the coupling under the larger pulse remains modal. | Preserve the pressure/transfer constraint; a trace during a selected trial could test the proposed coupling. |
 | `TreatmentTrain-TT2` | Changed reactor effluent composition -> changed incoming load and treatment performance. | The effluent connection obtains; the proposed composition and downstream response are unmeasured. | Keep the downstream-load limit visible; an effluent observation could change whether a tested pulse may continue. |
 
-The account keeps bacterial, biofilm, reactor, and treatment-train characteristics separate. It does not average them into one score. Its discovery residual names an observed unattached aggregate outside `BiofilmPatch-BP3`. Current evidence supports treating the observed members as a collection; whether that collection also forms a whole/System remains `unknown` because assembly, persistence, and the kind-specific A.1 facts are unsupported. The aggregate's whole identity does not alter this receiving decision in the case, so it remains an explicit unknown. If later reliance needs that identity, the relevant A.1/C.13 evidence would concern stable assembly, persistence, and whole-level behavior across observations; acquiring it still needs a worthwhile receiving contribution. Recover those facts before classifying it; only supported failure of a required A.1 component or condition warrants a negative System result.
+The account keeps bacterial, biofilm, reactor, and treatment-train characteristics separate. It does not average them into one score.
+
+Its discovery residual names an observed unattached aggregate outside `BiofilmPatch-BP3`. Current evidence supports treating the observed members as a collection; whether that collection also forms a whole/System remains `unknown` because assembly, persistence, and the kind-specific A.1 facts are unsupported. The aggregate's whole identity does not alter this receiving decision in the case, so it remains an explicit unknown.
+
+If later reliance needs that identity, the relevant A.1/C.13 evidence would concern stable assembly, persistence, and whole-level behavior across observations; acquiring it still needs a worthwhile receiving contribution. Recover those facts before classifying it; only supported failure of a required A.1 component or condition warrants a negative System result.
 
 The current pulse remains available while the larger pulse's consequences are modal. For the inquiry choice, suppose the domain investigation supplies these attainable contributions and full efforts, including preparation, any required trial operation, observation, and individual interpretation: spatial sampling can distinguish local exposure within 48 hours for one staff-hour; a pressure trace can qualify the transfer constraint for one hour; and an effluent observation can address downstream load for one and a half hours. Those answers could change the admissible pulse comparison. A two-hour imaging series would not discriminate the growth response in this window. These are illustrative planning premises, not biological thresholds or observed effects.
 

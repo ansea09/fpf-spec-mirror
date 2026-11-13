@@ -6,12 +6,12 @@ section_id: "A.15.PROD:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.PROD/A.15.PROD__011_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.15.PROD — Production Work, Entity-Identity Inception, and Production Completion Recovery"
   - "A.15.PROD:10 — Rationale"
-line_start: 33299
-line_end: 33306
+line_start: 34763
+line_end: 34770
 dependencies:
   - "A.1"
   - "A.10"
@@ -37,9 +37,9 @@ keywords:
 
 ### A.15.PROD:10 - Rationale
 
-Production-work participation, first existence and completion can concern different entities, predicates and boundaries. A branch-local claim connects the declared predicates and obtaining case facts needed by one receiving question. The bases differ across manufacturing, construction, biology, software and epistemic production; keeping those bases explicit preserves the domain distinctions and locates a missing predicate. A subject-specific use requiring another relation follows A.6.RCD.
+Production-work participation, first existence and completion can concern different entities, predicates and boundaries. A branch-local claim connects the declared predicates and obtaining case facts needed by one receiving question. The bases differ across manufacturing, construction, biology, software and epistemic production; naming those bases preserves the domain distinctions and locates a missing predicate. A subject-specific use requiring another relation follows A.6.RCD.
 
 Use A.6.RCD when a named use needs reusable participant meanings or relation-occurrence identity. Predicate reuse alone stops at a reusable predicate-definition episteme. A derived-kind candidate additionally states obtaining, applicability, base dependencies and stable occurrence identity, with recurrence, cessation and continuation when relevant. A primitive candidate additionally requires failed lossless derivation, one action-facing distinction lost by every accepted derivation, and independent receiving uses. This pattern neither forbids nor admits a subject-specific derived or primitive relation kind.
 
-The three-question split also preserves time correctly. Work may begin before an entity exists and continue after it first exists. Completion may occur at inception or later. Delivery, acceptance, release, publication, and availability may occur later still. Keeping each boundary and criterion separate gives practitioners useful historical claims without treating every neighboring event as part of production identity.
+The three-question split also preserves temporal distinctions. Work may begin before an entity exists and continue after it first exists. Completion may occur at inception or later. Delivery, acceptance, release, publication, and availability may occur later still. Keeping each boundary and criterion separate gives practitioners useful historical claims without treating every neighboring event as part of production identity.
 

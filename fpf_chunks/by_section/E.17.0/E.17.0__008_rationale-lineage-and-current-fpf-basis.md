@@ -6,12 +6,12 @@ section_id: "E.17.0:7"
 section_title: "Rationale, lineage, and current FPF basis"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.0/E.17.0__008_rationale-lineage-and-current-fpf-basis.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.17.0 — Viewpoint and View Recognition for Multi-View Describing"
   - "E.17.0:7 — Rationale, lineage, and current FPF basis"
-line_start: 106570
-line_end: 106580
+line_start: 113091
+line_end: 113101
 dependencies:
   - "A.22"
   - "A.6.3"
@@ -32,12 +32,12 @@ keywords:
 
 ### E.17.0:7 - Rationale, lineage, and current FPF basis
 
-ISO 42010 supplies vocabulary lineage. The remaining rows state FPF design rationale using its construction, representation, relation, evaluation and work rules.
+ISO 42010 supplies vocabulary lineage. The remaining rows explain FPF design choices using its construction, representation, relation, evaluation and work rules. They supply no external state-of-the-art evidence for those choices.
 
 | Source or practice line | Adopted move | Rejected overread | Practical effect |
 |---|---|---|---|
 | Architecture-description viewpoint practice, including `ISO/IEC/IEEE 42010:2022`, used as established practice lineage rather than current architecting SoTA | Separate concern-bearing viewpoint, view, described entity, correspondence, and publication. | A standards vocabulary does not supply FPF identity, obtaining, or work methods. | Readers can recover familiar distinctions while using FPF direct relations and dependent-kind criteria. |
-| **Local design rationale, not external SoTA evidence:** current `C.2.1` identifies source and receiving epistemes; use `A.6.3` for any actual source-to-receiving construction, `A.15.1` for performed query or projection work, A.6.3.RT/A.6.3.RT.OE for expression construction and correspondence, and `C.29` for a mathematical lens. | Treat a query or projection as one possible construction route between separately identified epistemes. | Query execution, a query definition, or a projected form does not grant `U.View` membership or prove claim preservation. | Directly authored and query-produced candidates use the same independent E/P conformance test; construction history is opened only when consumed. |
-| **Local design rationale, not external SoTA evidence:** current direct-relation patterns define and test correspondence predicates; A.6.3.RT/A.6.3.RT.OE govern expression construction and correspondence, `C.29` adds mathematical-lens conditions, `F.9` defines an exact Bridge between distinct F.17 cells when its predicate obtains, evaluation patterns test consistency, and `A.15.1` identifies repair work. | Keep correspondence, consistency evaluation, and performed repair distinct. | A trace link, graph edge, correspondence episteme, or repair result does not make the subject relation obtain. | Inconsistency and repair can be stated and acted on without collapsing world-side relation, epistemic judgment, representation, and work. |
-| **Local design rationale, not external SoTA evidence:** current FPF constructive-relation and episteme architecture | Identify E and P independently; identify selected S and convention-dependency occurrences only in the action-changing structured branch; derive `U.View` membership from obtaining E/P conformance. | Do not materialize a universal family record, mandatory convention structure, context slot bundle, or correspondence-model kind. | Ordinary authoring can stop at self-contained P, while shared-convention maintenance remains replayable when it actually exists. |
+| **FPF design rationale:** `C.2.1` identifies source and receiving epistemes; use `A.6.3` for any source-to-receiving construction, `A.15.1` for performed query or projection work, A.6.3.RT/A.6.3.RT.OE for expression construction and correspondence, and `C.29` for a mathematical lens. | Treat a query or projection as one possible construction route between separately identified epistemes. | Query execution, a query definition, or a projected form does not grant `U.View` membership or prove claim preservation. | Directly authored and query-produced candidates use the same independent E/P conformance test; construction history is opened only when consumed. |
+| **FPF design rationale:** direct-relation patterns define and test correspondence predicates; A.6.3.RT/A.6.3.RT.OE govern expression construction and correspondence, `C.29` adds mathematical-lens conditions, `F.9` defines an exact Bridge between distinct F.17 cells when its predicate obtains, evaluation patterns test consistency, and `A.15.1` identifies repair work. | Keep correspondence, consistency evaluation, and performed repair distinct. | A trace link, graph edge, correspondence episteme, or repair result does not make the subject relation obtain. | Inconsistency and repair can be stated and acted on without collapsing world-side relation, epistemic judgment, representation, and work. |
+| **FPF design rationale:** FPF constructive-relation and episteme architecture | Identify E and P independently; identify selected S and convention-dependency occurrences only in the action-changing structured branch; derive `U.View` membership from obtaining E/P conformance. | Do not materialize a universal family record, mandatory convention structure, context slot bundle, or correspondence-model kind. | Ordinary authoring can stop at self-contained P, while work on shared conventions can be replayed when that maintenance is undertaken. |
 

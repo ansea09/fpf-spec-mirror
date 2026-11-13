@@ -6,12 +6,12 @@ section_id: "E.13:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.13/E.13__003_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.13 — Pragmatic Utility and Proxy-to-Value Alignment"
   - "E.13:1 — Problem Frame"
-line_start: 105079
-line_end: 105086
+line_start: 111417
+line_end: 111426
 dependencies:
   - "A.10"
   - "A.21"
@@ -40,9 +40,11 @@ keywords:
 
 ### E.13:1 - Problem Frame
 
-Practical work often needs visible measures. Teams use scores, dashboards, quality coordinates, tests, evidence counts, source freshness rows, release checks, and worked examples because invisible value is hard to steer directly.
+Practical work often needs visible measures. Teams use scores, dashboards, quality coordinates, tests, evidence counts, source freshness rows, release checks, and worked examples because practical value can be hard to observe and steer directly.
 
-The danger starts when the visible measure becomes the object being optimized. A proxy can be useful as a signal and harmful as a target. A pattern can become easier to defend while harder to use. A safety dashboard can look better while unmeasured hazards increase. A review result can look more complete while the decision it was meant to support becomes less decisive.
+The danger starts when the visible measure becomes the object being optimized. A proxy can be useful as a signal and harmful as a target.
+
+A pattern can become easier to defend while harder to use. A safety dashboard can look better while unmeasured hazards increase. A review result can look more complete while the decision it was meant to support becomes less decisive.
 
 `E.13` governs the proxy-to-value repair. It asks whether the visible measure still serves the intended value in the declared use, and what became worse when the measure improved.
 

@@ -6,12 +6,12 @@ section_id: "C.3.3:3"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.3/C.3.3__004_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.3.3 — KindBridge and CL^k — Correspondence between Distinct Kinds"
   - "C.3.3:3 — Problem"
-line_start: 55657
-line_end: 55665
+line_start: 57947
+line_end: 57955
 dependencies:
   - "A.2.6"
   - "A.6.REL"
@@ -26,7 +26,7 @@ keywords:
 ### C.3.3:3 - Problem
 
 1. **False splitting.** A locality change creates two apparent kinds and a bridge even though the membership distinction is unchanged.
-2. **Semantic drift.** A genuinely different receiving kind is treated as the source kind because names or extensions look alike.
+2. **Semantic drift.** A different receiving kind is treated as the source kind because names or extensions look alike.
 3. **Hidden order loss.** Subkind facts collapse, invert, or become unsettled without being reported.
 4. **Entangled channels.** Scope, sense, and kind correspondence are bundled into one score or record.
 5. **Classification transfer.** A source judgment is copied as receiving truth without checking receiving admissibility and criterion satisfaction.

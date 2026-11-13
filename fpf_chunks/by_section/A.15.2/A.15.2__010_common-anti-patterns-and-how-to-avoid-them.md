@@ -6,12 +6,12 @@ section_id: "A.15.2:7b"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.15.2 — U.WorkPlan: Plan Content for Coordinating Future Work"
   - "A.15.2:7b — Common Anti-Patterns and How to Avoid Them"
-line_start: 29994
-line_end: 30007
+line_start: 31076
+line_end: 31089
 dependencies:
   - "A.10"
   - "A.15"
@@ -59,14 +59,14 @@ keywords:
 ### A.15.2:7b - Common Anti-Patterns and How to Avoid Them
 
 - **Future-work-as-entity.** Do not use a possible future performance or PlanItem designator as C.2.1's already identified EntityOfConcern or as a dated Work occurrence; keep it in plan claim content until an exact direct entity or occurrence exists.
-- **Plan-as-actual.** Do not treat a Gantt bar, Kanban ticket, shift rota, or calendar booking as performed work; identify or cite an exact Work occurrence admitted under `U.Work` only when A.15.1's occurrence basis is present.
+- **Plan-as-actual.** Do not treat a Gantt bar, Kanban ticket, shift rota, or calendar booking as performed work; identify or cite a Work occurrence admitted under `U.Work` only when A.15.1's occurrence basis is present.
 - **Workflow-as-schedule.** Do not infer a plan from a MethodDescription or flowchart; recognize a `U.WorkPlan` only when the claims state a present subject, intended-performance designator, horizon, window, constraints, the System intended to perform the Work or its local system-role-kind conditions, and any baseline needed for the current coordination decision.
 - **Assignment-or-capability-by-plan.** Do not treat an intended performer System, local system-role kind, proposed holder-and-kind pair, threshold, or capability reference as an obtaining `U.SystemRoleAssignment`, actual holder ability, or fit result for later Work; apply A.2.1/A.2.2 at the exact interval and use.
-- **Budget-as-cost.** Do not book planned budgets as performed resource use; establish performed facts on exact A.15.1 Work and any aggregate ledger or allocation under B.1.6.
+- **Budget-as-cost.** Do not book planned budgets as performed resource use; establish performed facts on A.15.1 Work and any aggregate ledger or allocation under B.1.6.
 - **Plan-shape overreach.** Do not force performed Work to match plan decomposition, infer non-fulfilment from a missing link or unavailable facts, or mint a fulfilment relation from a local comparison. Stop at a positive or governed-negative local compound assertion when it suffices; use a predicate-definition episteme when a stable definition is needed without occurrence identity; open relation-kind admission only for a named occurrence-facing need.
 - **Context-bridge overreach.** Do not bridge contexts as wholes or use F.9 to convert planned values, commitments, criteria, or verdicts. F.9 relates exact `SchemeSenseCell` values; apply checklist item 7 when a proposed plan use depends on that cross-context semantic correspondence.
 - **Evidence-note-as-claim.** Do not infer that referenced support is available or that a requested result was obtained merely because the plan contains a reference or request.
 - **Readiness-or-gate-as-permission.** A ready result reports entry conditions and an A.21 gate decision governs its declared crossing; neither institutes permission or performed Work. Recover an exact current A.2.8.PER grant when permission is required.
-- **Description-as-planned-filling.** Do not turn a method-description word such as input or output into a planned slot. Use A.15.3 only when one exact declaration member already states what the value means and what later counts as actual use. Otherwise keep the choice as ordinary plan content or return `missing-governor` when typed reuse is required.
+- **Description-as-planned-filling.** Do not turn a method-description word such as input or output into a planned slot. Use A.15.3 only when one declaration member already states what the value means and what later counts as actual use. Otherwise keep the choice as ordinary plan content or return `missing-governor` when typed reuse is required.
 - **Expected-as-actual.** Do not treat a desired filling, expected effect, output, result, outcome, deliverable, or handoff as an actual participant, change, returned value, produced entity, delivery, acceptance, or downstream effect.
 

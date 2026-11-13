@@ -6,12 +6,12 @@ section_id: "B.2.P:7"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.P/B.2.P__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.2.P — Clarify Emergence and Meta-Holon Transition (MHT) Claims"
   - "B.2.P:7 — Common Anti-Patterns and How to Avoid Them"
-line_start: 43913
-line_end: 43925
+line_start: 45683
+line_end: 45695
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -52,9 +52,9 @@ keywords:
 | Emergence as root kind | The sentence needs a new named thing called emergence. | Recover claim kind; use B.2, C.16, C.29, C.30, A.2.2, A.6.F, A.10, or source-use pattern. |
 | Collection receives agency by wording | A community, pool, fleet, or base acts because the noun is collective. | Recover membership, collection-as-whole, acting collective system, whole-level characteristic, or MHT separately. |
 | Metric jump as new whole | Benchmark improvement is declared as emergence. | Establish what characteristic or benchmark changed under its measurement or evaluation rule, preserving the grounds needed for that inference. Use B.2 when whole identity remains the question. |
-| Title mnemonic as authority | MET or MFT is used as if the acronym named the thing or claim under discussion. | Recover an episteme-whole reidentification claim, capability or functioning facts, their direct episteme or function pattern, or source-only wording. |
-| Description as in-life whole | A model, dashboard, report, or twin is treated as the system because it depicts the system. | Use episteme, publication, architecture-description, source-use, or digital-twin description patterns for the description; independently recover any in-life holon under its direct pattern. |
+| Title mnemonic as authority | MET or MFT is used as if the acronym named the thing or claim under discussion. | Recover an episteme-whole reidentification claim, capability or functioning facts, their episteme or function pattern, or source-only wording. |
+| Description as in-life whole | A model, dashboard, report, or twin is treated as the system because it depicts the system. | Use episteme, publication, architecture-description, source-use, or digital-twin description patterns for the description; independently recover any in-life holon under its pattern. |
 | Evidence decides ontology | Missing or stale evidence is taken to end a whole, while a current record is taken to create one. | Keep construction and reidentification world-side; evaluate support, currentness, and reliance separately. |
-| Selected structure as new whole | A bounded model-use structure or Context Map is called a meta-system. | Keep dependent `U.Structure` under A.1.1 and A.22, and identify any actual candidate new system independently. |
+| Selected structure as new whole | A bounded model-use structure or Context Map is called a meta-system. | Keep dependent `U.Structure` under A.1.1 and A.22, and identify any candidate new system independently. |
 
 

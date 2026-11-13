@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.RCD"
-pattern_title: "Needed Relation Claim Derivation and Relation-Kind Admission"
+pattern_title: "Relation Claim Derivation and Relation-Kind Admission"
 section_id: "A.6.RCD:12"
 section_title: "Reopen Conditions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RCD/A.6.RCD__014_reopen-conditions.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.6.RCD — Needed Relation Claim Derivation and Relation-Kind Admission"
+  - "A.6.RCD — Relation Claim Derivation and Relation-Kind Admission"
   - "A.6.RCD:12 — Reopen Conditions"
-line_start: 21582
-line_end: 21594
+line_start: 22455
+line_end: 22467
 dependencies:
   - "A.11"
   - "A.6.0"
@@ -33,7 +33,7 @@ keywords:
 
 ### A.6.RCD:12 - Reopen Conditions
 
-Reopen the exact affected disposition, not the whole relation foundation, when:
+Reopen the affected disposition, not the whole relation foundation, when:
 
 - a base relation definition, participant meaning, obtaining law, or applicability changes;
 - a substrate edition changes a constructor used by the claim;

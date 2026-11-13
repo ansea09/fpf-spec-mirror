@@ -6,12 +6,12 @@ section_id: "F.0.1:4"
 section_title: "Solution — recover locally, strengthen only for use"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.1/F.0.1__005_solution-recover-locally-strengthen-only-for-use.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.0.1 — Source-Local Meaning Recovery"
   - "F.0.1:4 — Solution — recover locally, strengthen only for use"
-line_start: 117776
-line_end: 117839
+line_start: 125364
+line_end: 125427
 dependencies:
   - "E.10"
   - "E.10.D1"
@@ -45,7 +45,7 @@ The source, edition, expression, passage, and plain meaning are the ordinary min
 
 Create one F.17 `SchemeSenseCell <ReferenceScheme, LocalExpression, LocalSenseClaim>` only when stable reuse, a later claim, a named receiver, or an actual relation to another local sense needs an exact address. The effective ReferenceScheme keeps the source and edition recoverable; the LocalSenseClaim states the meaning rather than hiding it in a label.
 
-State an obtaining `LocalSenseBasisRelation` only when the support relation from an exact basis episteme to that cell is itself current and supported. Identifying a source, stating that support relation, relying on it in a later use, and assuring that reliance are four different claims. Use A.10 and B.3 only for the latter questions.
+State an obtaining `LocalSenseBasisRelation` only when the support relation from an exact basis episteme to that cell is current and supported. Identifying a source, stating that support relation, relying on it in a later use, and assuring that reliance are four different claims. Use A.10 and B.3 only for the latter questions.
 
 When a source fixes a designed-versus-performed distinction or another time stance, put it in the local sense claim or its exact basis. Do not make an edition label or separate container stand in for the distinction.
 
@@ -53,13 +53,13 @@ When a source fixes a designed-versus-performed distinction or another time stan
 
 A shared label, close paraphrase, common superclass, table row, embedding score, or family membership does not establish identity or another relation. First recover each source-local meaning separately. Then use F.9 when a receiving use needs an actual relation between the two F.17 cells.
 
-The F.9 result states which two cells are related, what kind of relation obtains, how its endpoints are oriented, and what relation profile makes it true. When a receiving use is current, state a separate C.2.1 claim: what action is proposed, in which direction, under which correspondence rule, how much loss it tolerates, and whether the Bridge is suitable for that use. Changing this use claim does not change the Bridge. Neither the relation nor the claim by itself permits translation, substitution, or row membership, establishes reliance or authorization, or shows that the action occurred. A chain of relations does not silently create a direct endpoint relation.
+The F.9 result states which two cells are related, what kind of relation obtains, how its endpoints are oriented, and what relation profile makes it true. When a receiving use is current, state a separate C.2.1 claim: what action is proposed, in which direction, under which correspondence rule, how much loss it tolerates, and whether the Bridge is suitable for that use. Changing this use claim does not change the Bridge. Neither the relation nor the claim by itself permits translation, substitution, or row membership, establishes reliance or authorization, or shows that the action occurred. A chain alone does not establish a direct relation between its endpoints.
 
 #### F.0.1:4.4 - Recover old Context-shaped artifacts only for a current reliance
 
-An old Context Card or two-part SenseCell remains an historical episteme or representation under its original edition. Do not relabel it as a current F.17 cell.
+An old Context Card or two-part SenseCell remains a historical episteme or representation under its original edition. Do not relabel it as a current F.17 cell.
 
-When a current claim or action actually relies on it, recover only the values that use needs: for example, the exact source and edition, expression, source-local claim, passage, effective scheme, claim scope, or obtaining relation. If a needed value cannot be recovered, return the exact unresolved value and reopen only the dependent claim or action. Mere archival presence does not start a migration.
+When a current claim or action relies on it, recover only the values that use needs: for example, the exact source and edition, expression, source-local claim, passage, effective scheme, claim scope, or obtaining relation. If a needed value cannot be recovered, return the exact unresolved value and reopen only the dependent claim or action. Keeping an artifact in an archive does not require migration.
 
 #### F.0.1:4.5 - Minimal conceptual objects
 
@@ -77,7 +77,7 @@ When a current claim or action actually relies on it, recover only the values th
 2. A plain source-backed statement may be the complete result.
 3. A `SchemeSenseCell` is created only for a named durable use and keeps scheme, expression, and claim distinct.
 4. A basis relation is stated only when it obtains; reliance and assurance remain separate.
-5. Different local meanings remain distinct unless an exact relation between them is established.
+5. Keep the local meanings separately identifiable. An established relation supports only the correspondence its profile specifies.
 6. Designed and performed readings do not become identical through shared wording.
 7. A changed edition, passage, or relation reopens only claims and uses that relied on the changed premise.
 8. Historical artifacts remain historical; current recovery does not require corpus-wide relabelling.

@@ -6,12 +6,12 @@ section_id: "G.11:1"
 section_title: "Problem frame — Keeping shipped SoTA current without global rebuilds"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.11/G.11__003_problem-frame-keeping-shipped-sota-current-without-global-rebuilds.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.11 — Decide Whether and How to Refresh SoTA Packs and Related Results (Telemetry and Decay)"
   - "G.11:1 — Problem frame — Keeping shipped SoTA current without global rebuilds"
-line_start: 132116
-line_end: 132126
+line_start: 140210
+line_end: 140220
 dependencies:
   - "A.10.1"
   - "A.6.RCD"
@@ -48,7 +48,7 @@ keywords:
 
 ### G.11:1 - Problem frame — Keeping shipped SoTA current without global rebuilds
 
-Part G produces shipped, selector-ready publication units and records: packs, bundles, evidence graphs, parity reports, and dashboards. Once shipped, they are exposed to:
+Part G produces selector-ready publications and records for shipment: packs, bundles, evidence graphs, parity reports, and dashboards. Once shipped, they are exposed to:
 
 * **telemetry** (illumination and archive changes, parity outcomes, dashboard deltas),
 * **currentness conditions** (a relied-on premise changes, a justified review becomes due, or an actual qualification or use window ends),

@@ -6,12 +6,12 @@ section_id: "F.0.2:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2/F.0.2__006_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.0.2 — Semantic Synthesis across Source Ontologies"
   - "F.0.2:5 — Archetypal Grounding"
-line_start: 118091
-line_end: 118141
+line_start: 125681
+line_end: 125731
 dependencies:
   - "A.2.4"
   - "C.2.1"
@@ -73,13 +73,13 @@ An engineer consults a handbook and its later edition only to recover the curren
 #### F.0.2:5.5 - Compare causal accounts on one sensor case
 
 
-An author is deciding whether an explanation may treat inference about a hidden condition and changing an observed output as the same operation. Recover the source-local operations first. [Parr and Pezzulo (2021), Introduction and The Generative Model](https://www.frontiersin.org/journals/systems-neuroscience/articles/10.3389/fnsys.2021.772641/full), describes hidden-state inference together with policy-conditioned transitions and preferred outcomes. [Pearl, Glymour and Jewell's corrected primer, p.55](https://bayes.cs.ucla.edu/PRIMER/mueller-edits-questions-pearl-etal-2016-primer-errata-pages-august2019.pdf), supplies intervention by replacement of a generating mechanism.
+An author is deciding whether an explanation may treat inference about a hidden condition and changing an observed output as the same operation. Recover the source-local operations first. In the Introduction and “The Generative Model”, [Parr and Pezzulo (2021)](https://www.frontiersin.org/journals/systems-neuroscience/articles/10.3389/fnsys.2021.772641/full) describe hidden-state inference together with policy-conditioned transitions and preferred outcomes. [Pearl, Glymour and Jewell's corrected primer, p.55](https://bayes.cs.ucla.edu/PRIMER/mueller-edits-questions-pearl-etal-2016-primer-errata-pages-august2019.pdf) describes intervention as replacing a generating mechanism.
 
 Use the [binary load/alarm case in C.28:4.4][fpf-c28-4-4-ref]. Under exact inference from the same stipulated joint distribution, either account obtains a high-load probability of 0.9 after an alarm and 0.1 after an ordinary low reading. In the separately specified intervention model, setting the alarm output low leaves the load mechanism unchanged, so the high-load probability is 0.5.
 
 An active-inference action can be compared with that intervention after its state-transition and observation consequences are specified. An action that changes only the output agrees on this load prediction. An action that initiates cooling requires the later load transition and its time order in both models. Comparing which action to select also needs the objectives or preferences used in selection.
 
-The comparison establishes this contrast: the same joint distribution supplies the stated observational inference, while agreement about an action requires a correspondence between the specified mechanisms.
+Both accounts give the stated observational inference from the same joint distribution. Agreement about an action requires a correspondence between the specified mechanisms.
 
 The receiving explanation decision can adopt this contrast and keep the two questions explicit. Reopen the comparison when the receiving question, source account, inference approximation or action mechanism changes.
 

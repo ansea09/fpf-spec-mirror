@@ -6,12 +6,12 @@ section_id: "G.0:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.0/G.0__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.0 — Define Admissible Comparison and Aggregation for a Frame (CG-Spec)"
   - "G.0:intro — Intro"
-line_start: 126843
-line_end: 126852
+line_start: 134893
+line_end: 134902
 dependencies:
   - "A.10"
   - "A.17"
@@ -57,8 +57,8 @@ keywords:
 > **Status:** Stable
 
 **Tag.** Architectural pattern (foundational Standard; constrains G.1–G.5)
-**Stage.** *design-time* legality gate (establishes comparison legality & evidence minima; constrains run-time gates)
-**Primary output.** `CG‑Spec` — a notation-independent legality gate for a `CG‑Frame`, published to UTS (with explicit edition pins for downstream reproducibility and RSCR).
+**Stage.** *Design time.* Define the admissible comparisons and evidence minima that run-time checks will use.
+**Primary output.** `CG‑Spec` specifies which comparisons and aggregations a `CG‑Frame` permits, independently of notation. Publish the specification and its edition pins in UTS for downstream reproducibility and RSCR.
 **Primary hooks.** `USM.ScopeSlice(G)`, `entityOfConcern`, `SCP`, `MinimalEvidence`, `CNSpecRef`, `Γ‑fold`, `Φ(CL)` / `Φ_plane` policy pins, `UTS` publication (Name Cards + edition pins).
 
 

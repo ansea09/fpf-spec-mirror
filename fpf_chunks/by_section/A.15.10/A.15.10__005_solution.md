@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.15.10"
-pattern_title: "Resume Interrupted Work"
+pattern_title: "Resume Work"
 section_id: "A.15.10:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.10/A.15.10__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.15.10 — Resume Interrupted Work"
+  - "A.15.10 — Resume Work"
   - "A.15.10:4 — Solution"
-line_start: 32475
-line_end: 32540
+line_start: 33797
+line_end: 33870
 dependencies:
   - "A.15"
   - "A.15.5"
@@ -51,21 +51,25 @@ Preserve the contributions that are at risk:
 
 Keep these in the working material when possible. A short comment beside a calculation may do more than a separate summary. A pointer to a method is useful only if the returning performer can reach and interpret the needed instructions.
 
-Arrange the return cue where it will be encountered: on reopening the work, at the relevant event, or through an agreed reminder. A saved file that the performer will not know to open does not supply that cue. Use a time reminder only when time is the relevant trigger. Avoid copying sensitive material into a reminder when an accessible protected source can supply it.
+Arrange the return cue where it will be encountered: on reopening the work, at the relevant event, or through an agreed reminder. A saved file that the performer will not know to open does not supply that cue.
+
+Use a time reminder only when time is the relevant trigger. Avoid copying sensitive material into a reminder when an accessible protected source can supply it.
 
 Choose a pause point with a recoverable distinction between established and unfinished work when circumstances allow. Do not assume that every subtask boundary is equally easy to resume, and do not delay a necessary interruption merely to complete a record.
 
 #### A.15.10:4.3 - Reconstruct the working question and method
 
-On return, recover why this work was undertaken and whether that purpose still applies. Read the relevant working material, including the operative part of the method when the summary or bookmark does not preserve it.
+On return, recover why this work was undertaken and whether that purpose applies. Read the relevant working material, including the operative part of the method when the summary or bookmark does not preserve it.
 
 For an uncertain continuation, try stating:
 
-> We are trying to obtain this result. This is the question still open. These rules govern the next operation. This contribution is established; this other part has not yet been completed.
+> We are trying to obtain this result. This is the open question. These rules govern the next operation. This contribution is established; this other part has not yet been completed.
 
 This can be an internal or spoken reconstruction. It is not a required written formula.
 
-If you cannot recover a decisive relation, use its source rather than filling the gap with a plausible story. Reconstruct a small missing calculation or argument, ask for the unavailable contribution, or return to the last reliable point. B.5.RA helps recover an argument; B.5.RC helps reconstruct a construction. Repeat the whole task only when the needed contribution cannot be recovered adequately through a smaller safe operation under the applicable rules.
+If you cannot recover a decisive relation, use its source rather than filling the gap with a plausible story. Reconstruct a small missing calculation or argument, ask for the unavailable contribution, or return to the last reliable point. B.5.RA helps recover an argument; B.5.RC helps reconstruct a construction.
+
+Repeat the whole task only when the needed contribution cannot be recovered adequately through a smaller safe operation under the applicable rules.
 
 A remembered intention, a selected next step and a performed operation remain different. When the completion of an important step is uncertain, inspect its result or repeat the smallest safe operation that settles the uncertainty. Do not repeat an irreversible action merely because its record is missing.
 
@@ -73,13 +77,15 @@ A remembered intention, a selected next step and a performed operation remain di
 
 Compare the recovered account with conditions that can change the continuation: the question, inputs, material state, definitions, decision criterion, available tools, access or responsible performer. Inspect only the dependencies that matter to the intended use.
 
-A retained record says what was known or intended when it was made. Assess whether its claims still apply to the physical state, access or permission needed now; continued availability of the record alone establishes none of those conditions. If a changed premise affects a result, revise the affected reasoning; B.5.RR supplies that operation. If a support dependency is missing or its recovery is in question, use A.15.8. When the working basis is usable but entry conditions remain unresolved, A.15.5 supplies the readiness question.
+A retained record says what was known or intended when it was made. Assess whether its claims apply to the physical state, access or permission needed now; continued availability of the record alone establishes none of those conditions.
 
-Retain a result whose conditions still hold. Reopen a result whose changed condition matters. Set aside a continuation that no longer serves the current purpose. Do not require a complete recheck merely because time has passed.
+If a changed premise affects a result, revise the affected reasoning; B.5.RR supplies that operation. If a support dependency is missing or its recovery is in question, use A.15.8. When the working basis is usable but entry conditions remain unresolved, A.15.5 supplies the readiness question.
+
+Retain a result whose conditions hold. Reopen a result whose changed condition matters. Set aside a continuation that no longer serves the purpose. Do not require a complete recheck merely because time has passed.
 
 #### A.15.10:4.5 - Continue far enough to use the recovered basis
 
-Perform a bounded, useful next operation under the recovered method. For example, finish the pending comparison, derive the next consequence, or use the recovered observation to select the next action. A.15.7 helps if that action is still open.
+Perform a bounded, useful next operation under the recovered method. For example, finish the pending comparison, derive the next consequence, or use the recovered observation to select the next action. A.15.7 helps if that action is open.
 
 Let the operation expose a consequential missing link. If it does, recover that link rather than treating the difficulty as proof that all previous work is unusable. Stop or obtain help when access, capability or a protected operating condition is missing.
 
@@ -89,7 +95,9 @@ Update the working result in its normal place. Correct a misleading return cue o
 
 When someone else continues, supply what they need to act, not a transcript of everything the previous performer did. Preserve the purpose, governing method, established and unfinished contributions, relevant conditions and accessible source material.
 
-The recipient reconstructs and uses those contributions. Where misunderstanding would change the work, a brief explanation of the intended next operation or a small actual continuation can expose the mismatch. Do not demand a ceremonial read-back when shared material and ordinary performance already make it clear.
+The recipient reconstructs and uses those contributions. Where misunderstanding would change the work, a brief explanation of the intended next operation or a small continuation can expose the mismatch. Do not demand a ceremonial read-back when shared material and ordinary performance already make it clear.
 
-A handoff does not itself supply the recipient's capability, access or authority. Obtain a missing contribution through its direct owner; A.15.9 can help frame a bounded request. If responsibility must change, make that change through the applicable arrangement rather than inferring it from receipt of a message.
+A handoff does not itself supply the recipient's capability, access or authority. Obtain a missing contribution through its owner; A.15.9 can help frame a bounded request.
+
+If responsibility must change, make that change through the applicable arrangement rather than inferring it from receipt of a message.
 

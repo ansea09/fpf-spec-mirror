@@ -6,12 +6,12 @@ section_id: "C.2.P:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P/C.2.P__013_sota-echoing.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.2.P — Clarify Episteme, Publication, and Source Wording (Epistemic Precision Restoration)"
   - "C.2.P:11 — SoTA-Echoing"
-line_start: 52440
-line_end: 52503
+line_start: 54631
+line_end: 54694
 dependencies:
   - "A.10"
   - "A.15"
@@ -56,7 +56,7 @@ keywords:
 
 The question is when ordinary contextual interpretation is sufficient to repair an episteme-publication claim, and when its intended use requires further recovery of the actual participants, relation or governing condition. Sections :4.0a–:4.1.3 select progressive recovery: understand the sentence in its context, recover only the unresolved distinction needed for the receiving use, and stop when that use is clear under its direct pattern. This is an FPF synthesis whose benefit and cost depend on what remains unresolved.
 
-A serious alternative is a competent reader’s contextual explanation. It can recover the whole intended claim with less effort than an explicit record. In :5.0.1, understanding “supports” as helping the reader find a section is enough to write the direct sentence and finish. In :5.0.2, the meaning of “approves” can be understood while the particular decision and its scope still need to be recovered. The useful extra work is locating that decision under A.21; repeating a definition of approval would leave the receiving launch decision unsupported. These cases support the conditional choice in :4.1.2, not a claim that contextual readers generally fail.
+An alternative is a competent reader’s contextual explanation. It can recover the whole intended claim with less effort than an explicit record. In :5.0.1, understanding “supports” as helping the reader find a section is enough to write the direct sentence and finish. In :5.0.2, the meaning of “approves” can be understood while the particular decision and its scope still need to be recovered. The useful extra work is locating that decision under A.21; repeating a definition of approval would leave the receiving launch decision unsupported. These cases support the conditional choice in :4.1.2, not a claim that contextual readers generally fail.
 
 The comparisons below retain designation, contextual explanation and explicit-constraint contributions for these different questions. They do not supply the local FPF relations themselves.
 
@@ -64,7 +64,7 @@ The comparisons below retain designation, contextual explanation and explicit-co
 | --- | --- | --- | --- |
 | ISO 704:2022 and ISO 1087:2019 terminology work distinguishes the entity under discussion, the concept used in a terminology system, the definition, the designation, and term-formation practice. | Recover the FPF kind, relation, and sentence function before accepting a rewritten phrase. Use external terminology work only as external corroboration for careful designation and definition practice. | Do not replace FPF episteme and publication ontology with an ISO concept system, a dictionary substitution, or a global class row. | `C.2.P:4.1`, `C.2.P:4.4`, and `C.2.P:10` |
 | [SHACL validation](https://www.w3.org/TR/shacl/#validation) checks a data graph against constraints in a shapes graph and reports conformance and validation results. | Use the explicit-constraint analogy: if the required FPF kind, relation, or declared use boundary cannot be recovered, keep that use unresolved or blocked under its direct rule. | The validation report supplies no FPF ontology or authority. Here, fail-closed means withholding the unrecovered FPF-governed wording use; the direct subject rule governs further action. | `C.2.P:4.0a`, `C.2.P:4.2`, and `C.2.P:8` |
-| [Meconi et al., *Do Large Language Models Understand Word Senses?*](https://aclanthology.org/2025.emnlp-main.1720/) (2025, §§3–4, 6) compares sense selection with contextual generation. Its free-form explanation results make contextual interpretation a serious alternative to requiring a predefined sense label. | **Adopt** contextual explanation as a sufficient starting point when it recovers the intended claim. The direct sentence in :5.0.1 needs no additional repair record. **Adapt** the question from word sense to whatever claim remains unresolved for the receiving FPF use. | The English tasks and tested models do not establish recovery of a particular FPF relation, actual participant or permission. Reject transfer of their scores to that broader conclusion. | `C.2.P:4.1.2`, `C.2.P:4.4`, `C.2.P:5.0.1` |
+| [Meconi et al., *Do Large Language Models Understand Word Senses?*](https://aclanthology.org/2025.emnlp-main.1720/) (2025, §§3–4, 6) compares sense selection with contextual generation. Its free-form explanation results make contextual interpretation an alternative to requiring a predefined sense label. | **Adopt** contextual explanation as a sufficient starting point when it recovers the intended claim. The direct sentence in :5.0.1 needs no additional repair record. **Adapt** the question from word sense to whatever claim remains unresolved for the receiving FPF use. | The English tasks and tested models do not establish recovery of a particular FPF relation, actual participant or permission. Reject transfer of their scores to that broader conclusion. | `C.2.P:4.1.2`, `C.2.P:4.4`, `C.2.P:5.0.1` |
 | [Suri et al., *Structured Uncertainty guided Clarification for LLM Agents*](https://aclanthology.org/2026.findings-acl.2028/) (2026, §4, §10) selects clarification using unresolved tool parameters and their domains, balancing a question’s disambiguation value against its cost. | **Adapt** the question-selection idea: identify the missing participant, relation or condition and ask only what can change the receiving use. This supports :4.1.2’s progression to explicit recovery when context alone leaves a consequential gap. | Its known tool schemas and simulated benchmark do not supply an open FPF ontology or validate this Method. Reject a universal parameter form, its formal cost model, or benchmark gains as requirements or guarantees for human and AI readers. | `C.2.P:4.1.2`, `C.2.P:5.0.2` |
 
 The selected line accepts the cost of consulting a direct pattern or recovering a source fact when that contribution is needed to settle the receiving claim. The ISO row constrains designation work; the SHACL row makes the explicit-constraint analogy and its limit inspectable; the two contextual-recovery comparisons explain why a full record is conditional. This is a reasoned choice for the cases and conditions above, not a measured advantage over every capable reader. Reopen the comparison when a cheaper explanation preserves the same receiving use, an actual repair loses a necessary distinction, or the governing claim or source changes.
@@ -77,7 +77,7 @@ The current FPF corpus already has patterns that contribute to this discipline:
 - `E.10` supplies word/head, morphology, register, and naming cues and routes within the connected `F.19` reading.
 - `E.10.D2` gives the "thing vs words vs rules" discipline and the carrier humility rule.
 - `F.18` gives the local-first naming protocol: governed value and kind; the pattern and contribution that define or constrain them; by-value scheme; local-sense claim; intended use; candidate comparison; and any separately obtaining relation.
-- `A.6.P` restores an ordinary sentence with the direct predicate, actual participants, and defining pattern. It adds a candidate note, reusable declaration, occurrence identity, or representation only when unresolved meaning or the receiving use needs that detail.
+- `A.6.P` restores an ordinary sentence with the direct predicate, participants, and defining pattern. It adds a candidate note, reusable declaration, occurrence identity, or representation only when unresolved meaning or the receiving use needs that detail.
 - `C.2.1` gives episteme identity through exact claim content, EntityOfConcern, and effective ReferenceScheme and keeps empirical grounding and edition continuity as distinct direct relations.
 - `A.7` keeps EntityOfConcern, Description episteme, and publication carrier distinct.
 - `E.17.0` tests view conformance to a viewpoint; `E.17` governs reader-facing publication forms for an accepted account; `E.24.PUB` distinguishes publication occurrence, form, and carrier.
@@ -95,7 +95,7 @@ These internal FPF patterns remain primary:
 | --- | --- | --- | --- |
 | Head-kind discipline | `E.10` | Use head-kind recovery before accepting a phrase. | Adopt. |
 | Stable naming | `F.18` | Run a name card when a reusable head is being minted. | Adopt. |
-| Relation precision | `A.6.P` | Recover the predicate, actual participants, and defining pattern. Add typed declaration, occurrence identity, qualifications, or representation only when the receiving use needs them. | Adopt. |
+| Relation precision | `A.6.P` | Recover the predicate, participants, and defining pattern. Add typed declaration, occurrence identity, qualifications, or representation only when the receiving use needs them. | Adopt. |
 | Carrier and EntityOfConcern-description humility | `A.7` | Keep EntityOfConcern, Description episteme, and carrier apart before treating a publication as evidence, work, gate, or authority. | Adopt. |
 | Episteme and publication ontology | `C.2.1`, `E.17.0`, `E.17`, MVPK, `E.24.PUB` | Separate episteme, publication, view, generic publication face, MVPK face under E.17 constraints, publication unit, carrier, and rendering. | Adopt. |
 | Project-side downstream use | `A.6.A`, `A.10`, `A.15`, `A.15.4`, `B.3`, `A.20`, `A.21`, `C.11` | When a publication, display, cue, or explanation is treated as evidence, gate, decision, work permission, method, assurance, or engineering justification, name the applicable FPF pattern and the project-side FPF kind and reference. | Adopt. |

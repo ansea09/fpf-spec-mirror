@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.2.2"
-pattern_title: "Meta-System Transition: Test the Proposed New Whole as a System"
+pattern_title: "Test the Proposed New Whole as a System"
 section_id: "B.2.2:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.2/B.2.2__012_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "B.2.2 — Meta-System Transition: Test the Proposed New Whole as a System"
+  - "B.2.2 — Test the Proposed New Whole as a System"
   - "B.2.2:9 — Rationale"
-line_start: 44159
-line_end: 44164
+line_start: 45941
+line_end: 45946
 dependencies:
   - "A.1"
   - "A.10"
@@ -44,5 +44,5 @@ keywords:
 
 Valentin Turchin's meta-system transition remains a useful intuition for the system case: components can become a higher operating whole when coordination and control create a new object of management and assurance. FPF generalizes that intuition in B.2, then uses B.2.2 to keep the classical system case precise.
 
-Recognizing the candidate requires actual construction and acting eligibility under A.1 and the `U.System` criterion. A description or coordination claim supplies only its own contribution; every additional claim about the recognized system needs its subject-specific grounds.
+Recognizing the candidate requires construction and acting eligibility under A.1 and the `U.System` criterion. A description or coordination claim supplies only its contribution; every additional claim about the recognized system needs its subject-specific grounds.
 

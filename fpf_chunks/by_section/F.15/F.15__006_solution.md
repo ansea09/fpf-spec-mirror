@@ -6,12 +6,12 @@ section_id: "F.15:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__006_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Naming and Semantic Unification"
   - "F.15:4 — Solution"
-line_start: 123454
-line_end: 123466
+line_start: 131272
+line_end: 131286
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -64,7 +64,9 @@ The harness has two rule families:
 
 Both families are F.15-local check declarations over already defined objects. A practitioner may apply their questions and obtain a local result without naming the checking activity as Tech `U.Work`. An exact rule application, when its identity is needed, uses A.6.1.
 
-If a replayable result or example asserts dated assessment `U.Work`, recover each actual performer's A.13 core and independently admit the Work under A.15.1. Add F.6 afterward only when the result also needs precise assignment-bound attribution. A short record may omit an assignment identifier unused by its receiving claim only when every relation it consumes remains recoverable. Name the A.6.1 application and bindings when that application is also asserted.
+If a replayable result or example asserts dated assessment `U.Work`, recover each actual performer's A.13 core and independently admit the Work under A.15.1. Add F.6 afterward only when the result also needs precise assignment-bound attribution.
 
-C.2.1 separately constitutes the result claims and optional conformance-record episteme. A.10 and B.3 supply evidence-reliance and assurance rules; E.24.PUB supplies publication rules; G.11 supplies currentness rules.
+A short record may omit an assignment identifier unused by its receiving claim only when every relation it consumes remains recoverable. Name the A.6.1 application and bindings when that application is also asserted.
+
+C.2.1 separately constitutes the result claims and optional conformance-record episteme. A.10 and B.3 supply evidence-reliance and assurance rules. E.24.PUB governs publication, and G.11 governs currentness.
 

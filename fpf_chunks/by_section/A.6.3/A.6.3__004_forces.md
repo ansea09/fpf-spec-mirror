@@ -6,12 +6,12 @@ section_id: "A.6.3:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3/A.6.3__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.3 — Episteme viewing - EntityOfConcern-preserving episteme construction"
   - "A.6.3:3 — Forces"
-line_start: 17634
-line_end: 17644
+line_start: 18459
+line_end: 18469
 dependencies:
   - "A.13"
   - "A.15.1"
@@ -35,9 +35,9 @@ keywords:
 | Force | Tension |
 |---|---|
 | Conservativity vs usefulness | A receiving episteme may reorganize, summarize, or omit claims while adding no unsupported commitment about the EntityOfConcern. |
-| Same concern vs changed expression | X and Y share one exact EntityOfConcern, while claim content or effective reference scheme may differ and therefore identify another episteme. |
+| Same concern vs changed expression | X and Y share one EntityOfConcern, while claim content or effective reference scheme may differ and therefore identify another episteme. |
 | Algebraic composition vs actual work | Viewings should compose and replay as mathematical constructions, while systems and work occurrences remain separate. |
-| Direct source vs several-source correspondence | Some constructions use X alone; others depend on exact relations among several source epistemes. |
+| Direct source vs several-source correspondence | Some constructions use X alone; others depend on relations among several source epistemes. |
 | Viewing construction vs stable kind membership | Viewpoint conformance depends on Y and the viewpoint, independently of any source-to-Y viewing claim. |
-| Lightweight assertion vs assurance | A readable source-to-receiving statement often suffices; disputed loss or correspondence requires exact declarations and evidence. |
+| Lightweight assertion vs assurance | A readable source-to-receiving statement often suffices; disputed loss or correspondence requires declarations and evidence. |
 

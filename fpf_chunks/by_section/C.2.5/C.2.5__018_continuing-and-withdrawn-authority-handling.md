@@ -6,12 +6,12 @@ section_id: "C.2.5:17"
 section_title: "Continuing and Withdrawn Authority Handling"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.5/C.2.5__018_continuing-and-withdrawn-authority-handling.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.2.5 — Language-State Closure Degree — How Fixed Is the Current Candidate Space?"
   - "C.2.5:17 — Continuing and Withdrawn Authority Handling"
-line_start: 54072
-line_end: 54089
+line_start: 56309
+line_end: 56326
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -36,7 +36,7 @@ keywords:
 ### C.2.5:17 - Continuing and Withdrawn Authority Handling
 
 #### C.2.5:17.1 - Authority retention rule
-If higher `CD` carried endpoint expectations, guard claims, or route commitments, a closure drop must say which consequences remain and which are withdrawn. Treat any actual authority-relation change separately under its direct pattern, as required by `A.16.2`.
+If higher `CD` carried endpoint expectations, guard claims, or route commitments, a closure drop must say which consequences remain and which are withdrawn. Treat any authority-relation change separately under the pattern that governs that authority relation, as required by `A.16.2`.
 
 #### C.2.5:17.2 - Admissible retreat record
 An admissible retreat through `reopen`, `sketchBackoff`, or `respecify` should retain:

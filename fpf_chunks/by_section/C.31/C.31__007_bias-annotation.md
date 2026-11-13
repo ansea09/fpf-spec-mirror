@@ -6,12 +6,12 @@ section_id: "C.31:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31/C.31__007_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.31 — Modularity and Reusable Structure Characteristics"
   - "C.31:6 — Bias-Annotation"
-line_start: 75355
-line_end: 75365
+line_start: 78800
+line_end: 78810
 dependencies:
   - "A.10"
   - "A.17"
@@ -48,7 +48,7 @@ keywords:
 | Bias risk | C.31 repair |
 | --- | --- |
 | Scalar bias | Refuse one modularity score unless scoring method and comparability basis are declared. |
-| Measure-first bias | Identify the useful characteristic question and warranted repair; use measurement when its result can answer that question. |
+| Measure-first bias | Identify the characteristic question and warranted repair; use measurement when its result can answer that question. |
 | Interface-publication bias | Treat public interfaces as only one possible basis for substantiating substitutability. |
 | Proxy bias | Identify and check the divergence that matters when a decision relies on a proxy. |
 | Complexity umbrella bias | Keep residual heads claim-scoped and apply scale, RG, or lens subject patterns when those uses are being made. |

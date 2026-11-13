@@ -6,12 +6,12 @@ section_id: "C.16.IR:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.IR/C.16.IR__006_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.16.IR — Determine What a Measurement Indication Can Resolve"
   - "C.16.IR:5 — Archetypal Grounding"
-line_start: 59264
-line_end: 59315
+line_start: 61649
+line_end: 61700
 dependencies:
   - "A.3.3.PI"
   - "B.5.MPC.R"
@@ -49,7 +49,7 @@ Hence, when the denominator is nonzero,
 
 The supplied readings give Rs = 1 MΩ and E = 10 V. Substitution recovers both 5 V and 7.5 V. The answer to E ≤ 8 V is now no.
 
-The shared-source condition does work here. If E changes between readings, replacing it with E1 and E2 leaves the original inference unsupported. A second number is useful through the relation connecting its measurement to the first.
+The inference depends on the shared-source condition. If E changes between readings, replacing it with E1 and E2 leaves the original inference unsupported. A second number is useful through the relation connecting its measurement to the first.
 
 For two zero readings under the same model, E = 0 follows while Rs can be any finite nonnegative value. A zero denominator in the derived formula is a reason to return to the original equations. Full recovery of Rs is unnecessary for this voltage result.
 
@@ -71,7 +71,7 @@ A device starts at zero, increments once per event and stores N modulo 16. No re
 
 These six values come from `N = 5 + 16*k` with an integer k in the range allowed by the bound. They all satisfy the original operation. The reading settles N < 90, while N < 30 remains unresolved; 21 and 37 are witnesses.
 
-Suppose a second counter starts at the same event boundary, sees every same event, and stores N modulo 17. It reports 4. Test the six candidates against this second relation: only N = 21 remains. The physical event correspondence and initialization make the mathematical intersection appropriate.
+Suppose a second counter starts at the same event boundary, counts the same events, and stores N modulo 17. It reports 4. Test the six candidates against this second relation: only N = 21 remains. The physical event correspondence and initialization make the mathematical intersection appropriate.
 
 If the supplied bound is relaxed to N < 300, both 21 and 293 satisfy the two remainders. The earlier uniqueness conclusion therefore depended on the bound. If the counters cover different event intervals, use separate counts and recover the relation between them before combining their readings.
 

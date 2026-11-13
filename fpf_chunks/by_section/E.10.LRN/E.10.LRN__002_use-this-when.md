@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.10.LRN"
-pattern_title: "Recovering What “Learning” Means in the Current Claim"
+pattern_title: "Recover What “Learning” Means in This Claim"
 section_id: "E.10.LRN:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.LRN/E.10.LRN__002_use-this-when.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "E.10.LRN — Recovering What “Learning” Means in the Current Claim"
+  - "E.10.LRN — Recover What “Learning” Means in This Claim"
   - "E.10.LRN:0 — Use This When"
-line_start: 100619
-line_end: 100630
+line_start: 106261
+line_end: 106272
 dependencies:
   - "A.10"
   - "A.15"
@@ -53,7 +53,7 @@ Use this pattern when claim-bearing wording says *learn*, *learning*, *learned*,
 
 **Cheap exit.** Keep ordinary wording when no FPF inference or action depends on which sense is meant. If the changed subject, operation, result, evidence, and direct pattern are already explicit, use that pattern directly.
 
-**Not this pattern when.** Do not use this pattern to choose a teaching or training Method, assess a capability, fit a statistical model, design an experiment, perform inference, measure a result, or decide what to do next. It only restores the claim that those practices must govern.
+**Not this pattern when.** Use the relevant subject practice to choose a teaching or training Method, assess a capability, fit a statistical model, design an experiment, perform inference, measure a result, or decide what to do next. Use `E.10.LRN` to identify the claim that calls for that practice.
 
 `LRN` remains in this PatternID because the ambiguous source wording opens the recovery. It is not a Tech designation for one governed process or value and is not a UTS-row precedent.
 

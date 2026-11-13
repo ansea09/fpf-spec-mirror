@@ -6,12 +6,12 @@ section_id: "A.20:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__002_use-this-when.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.20 — Constraint Validity for Transformation Steps"
   - "A.20:0 — Use this when"
-line_start: 39569
-line_end: 39589
+line_start: 41147
+line_end: 41167
 dependencies:
   - "A.10"
   - "A.15"
@@ -31,14 +31,14 @@ keywords:
 
 ### A.20:0 - Use this when
 
-Use A.20 when one transformation or one operation application is current in a transformation-flow structure and the question is whether that subject satisfies one named internal constraint for one stated case. It also applies when an A.6.4 bounded-use assertion q is current there and q's exact proposition is the named internal constraint. A.6.4 retains the separate current-case judgement.
+Use A.20 when one transformation or one operation application is current in a transformation-flow structure and the question is whether that subject satisfies one named internal constraint for one stated case. It also applies when an A.6.4 bounded-use assertion q is current there and q's proposition is the named internal constraint. A.6.4 retains the separate current-case judgement.
 
 **First useful move.** Recover the subject, constraint and case from the existing description. Determine applicability; if it remains unresolved, state the missing fact and deciding rule. Once applicability is established, report its value, the evaluation state and any test outcome, with the evaluation window and witness or reason.
 
 **Quick worked case.** `TemperatureConversion-7` must add 273.15 to a Celsius input and must not return a value below 0 K. For input 25 °C, the test returns 298.15 K, so both required conditions are `satisfied`; the witness records the formula edition, input, output, and test result for this evaluation window. The practitioner may reuse this result for that case and window, or pass it to a current gate or assurance use; changed input, formula edition, assumptions, or window requires reassessing affected grounds and establishing whether this result still covers the receiving case and use. If the output were 297.15 K, the formula condition would be `violated`; if no output could be recovered, it would be `unknown`; if the test had not run, its evaluation state would be `notRun`.
 
 Stop after that result unless a gate, assurance argument, publication, or another named task needs it. Path and crossing structure, refresh, gate decisions, evidence, assurance, Work, and semantic bridges keep their own patterns.
-**What goes wrong if missed.** A class label or green status replaces the actual constraint and test. An unknown or unrun required check disappears inside `pass`. A failed local constraint makes unrelated gate-fit facts look inapplicable. Copying the surrounding flow architecture into this result obscures the local finding.
+**What goes wrong if missed.** A class label or green status replaces the constraint and test. An unknown or unrun required check disappears inside `pass`. A failed local constraint makes unrelated gate-fit facts look inapplicable. Copying the surrounding flow architecture into this result obscures the local finding.
 
 **What this buys.** A practitioner can see which constraint was tested, why it applied, what case was used, what the result means, and which later decision may consume it.
 
@@ -48,5 +48,5 @@ Stop after that result unless a gate, assurance argument, publication, or anothe
 - Use `E.18` for transformation-flow positions, paths, crossings, valuations, or `PathSlice` identity.
 - Use `E.17` for publication forms and faces, `G.11` for refresh work, and `C.27` for temporal-claim adequacy.
 - Use `A.6.4` for retargeting semantics and `F.9` only for a separately claimed semantic correspondence.
-- A `Signature`, WorkPlan, dated Work, or gate check does not enter A.20 merely because it occupies an E.18 position; use the pattern that defines the actual claim.
+- A `Signature`, WorkPlan, dated Work, or gate check does not enter A.20 merely because it occupies an E.18 position; use the pattern that defines the claim.
 

@@ -6,12 +6,12 @@ section_id: "A.19:6"
 section_title: "Conformance checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19/A.19__009_conformance-checks.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.19 — CharacteristicSpace: Coordinates, State Predicates and Dynamics Hook (A.CHR‑SPACE)"
   - "A.19:6 — Conformance checks"
-line_start: 34913
-line_end: 34944
+line_start: 36393
+line_end: 36424
 dependencies:
   - "A.10"
   - "A.15"
@@ -50,12 +50,12 @@ keywords:
 
 ### A.19:6 - Conformance checks
 
-Start with the base declaration. If the current job is only to declare a local space, or that space plus one predicate, stop after these checks.
+Start with the base declaration. If the job is only to declare a local space, or that space plus one predicate, stop after these checks.
 
 **Base declaration**
 
 1. The ordered basis names every slot's Characteristic, Scale, admissible value set, position, and subject/input signature.
-2. A complete point contains one genuine Coordinate from each Scale. Missing, censored, unknown, and inapplicable inputs remain separate observation or evaluation statuses.
+2. A complete point contains one Coordinate from each Scale. Missing, censored, unknown, and inapplicable inputs remain separate observation or evaluation statuses.
 3. No order, topology, distance, normalization, indicator, aggregation, or comparison is implied. Any one that is present is named explicitly.
 4. When a `CharacteristicSpacePredicate` is present, its input variable, domain, Coordinate projection, Boolean expression, cut or band, composition, and polarity are recoverable. A binary comparison remains separate.
 5. The declaration contains no hidden evaluation result, gate decision, evidence relation, publication object, or permission to act.
@@ -67,16 +67,16 @@ Apply a row only when its trigger is present.
 | Trigger | Additional check |
 | --- | --- |
 | Subspace or product | List the carried slots and Scale meanings. Projection uses the type-correct composition law; a product performs no aggregation. |
-| Embedding or lossy mapping | An embedding is point-injective and preserves every named structure. State actual loss for a many-to-one mapping or coarse-graining. A dropped Coordinate is a projection and may remain point-injective on a stated restricted domain; any embedding claim still meets all its slot and structure conditions. |
+| Embedding or lossy mapping | An embedding is point-injective and preserves every named structure. State loss for a many-to-one mapping or coarse-graining. A dropped Coordinate is a projection and may remain point-injective on a stated restricted domain; any embedding claim still meets all its slot and structure conditions. |
 | Normalization, quotient, equality, or join across spaces | Cite the admissible A.19.UNM instance, Scale conditions, domain, and validity window. Compare in one declared target space. Check preservation of the equality/join question; a class-level use needs query constancy and any inherited operation needs compatibility. Retain lost inputs, refine the transformation or return the unsupported comparison. |
 | Same-space state comparison | Compare Coordinates directly only when both states use the same declared space, slot meanings, Scale metadata, and state definition. A.19.CPM separately binds the comparator, scope, plane, window, application, and result. |
 | Indicator use | Cite the `IndicatorChoicePolicy`; a normalized value is not automatically an indicator. |
-| Cross-reference-scheme or cross-plane use | Cite an F.9 Bridge only for two exact F.17 local senses when its predicate obtains, and state the bounded-use claim separately; `CL` is optional. Cite the applicable plane relation separately. Name matching, context/scheme/plane difference, and an expired mapping establish neither relation nor admissibility. |
-| Predicate evaluation or state assertion | Bind the actual subject/input tuple and available Coordinates or governed projection. The consumer identifies any evaluation operation and typed result it claims, together with the scope, relevant slice, reference scheme and plane, applicability or evaluation window, and partial-input rule required to interpret or support the use or required by the receiving pattern. |
+| Cross-reference-scheme or cross-plane use | Cite an F.9 Bridge only for two F.17 local senses when its predicate obtains, and state the bounded-use claim separately; `CL` is optional. Cite the applicable plane relation separately. Name matching, context/scheme/plane difference, and an expired mapping establish neither relation nor admissibility. |
+| Predicate evaluation or state assertion | Bind the subject/input tuple and available Coordinates or governed projection. The consumer identifies any evaluation operation and typed result it claims, together with the scope, relevant slice, reference scheme and plane, applicability or evaluation window, and partial-input rule required to interpret or support the use or required by the receiving pattern. |
 | Changed predicate, mapping, or overlay | Keep earlier assertions tied to the earlier values. A new declaration does not retroactively rewrite a historical assertion or result. |
-| Sensitivity, robustness, continuity, stability, or order-preservation claim | Name the exact function or predicate use, overlay, domain, assumptions, and bound or law required by the consumer's policy. Add C.16 uncertainty and calibration limits when measured Coordinates are relied on. |
-| Dynamics prediction used in comparison or gating | Apply A.3.3 and the direct consumer's policy for model edition, domain, horizon, currentness, error or uncertainty, observation, sensitivity, stability, and normalization-composition conditions. No one regularity property grants authority. |
-| Gate, permission, evidence, or assurance use | Use the direct gate, authority, evidence, and assurance patterns for their applications and results. A.19 contributes only the cited space, predicate, mapping, or overlay and requires no persistence identifier or log by itself. |
+| Sensitivity, robustness, continuity, stability, or order-preservation claim | Name the function or predicate use, overlay, domain, assumptions, and bound or law required by the consumer's policy. Add C.16 uncertainty and calibration limits when measured Coordinates are relied on. |
+| Dynamics prediction used in comparison or gating | Apply A.3.3 and the consumer's policy for model edition, domain, horizon, currentness, error or uncertainty, observation, sensitivity, stability, and normalization-composition conditions. No one regularity property grants authority. |
+| Gate, permission, evidence, or assurance use | Use the gate, authority, evidence, and assurance patterns for their applications and results. A.19 contributes only the cited space, predicate, mapping, or overlay and requires no persistence identifier or log by itself. |
 
-Choose the needed expression form through C.2.3. Automation or assurance can require more explicit identifiers and records under their direct patterns, but it does not enlarge the base A.19 declaration.
+Choose the needed expression form through C.2.3. Automation or assurance can require more explicit identifiers and records under their patterns, but it does not enlarge the base A.19 declaration.
 

@@ -6,12 +6,12 @@ section_id: "E.17.0:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.0/E.17.0__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.17.0 — Viewpoint and View Recognition for Multi-View Describing"
   - "E.17.0:intro — Intro"
-line_start: 106089
-line_end: 106114
+line_start: 112576
+line_end: 112601
 dependencies:
   - "A.22"
   - "A.6.3"
@@ -33,19 +33,19 @@ keywords:
 ## E.17.0 - Viewpoint and View Recognition for Multi-View Describing
 > **Status:** Stable
 
-**At a glance.** Use `E.17.0` to decide whether one exact engineering account is a view under one already defined viewpoint, without mistaking its label, layout, generation history, bundle position, or publication for conformance.
+**At a glance.** Use `E.17.0` to decide whether one identified engineering account is a view under the existing viewpoint you are testing. Test the viewpoint’s rules even when the account’s label, layout, generation history, bundle position or publication suggests it is a view.
 
 **Use this when.** A description, model slice, query result, diagram, or other claim-bearing episteme is being called a functional, safety, maintenance, architecture, or other view, and the next reading, comparison, construction, or publication depends on whether that claim is warranted.
 
 **What goes wrong if missed.** A `viewpointRef`, familiar face name, generated table, or readable diagram is accepted as a view without testing the viewpoint's concerns and rules. The opposite failure is to rebuild a viewpoint convention, bundle, evaluation package, and publication dossier before an ordinary reuse can proceed.
 
-**What this buys.** One stable test works for directly authored and derived epistemes: identify exact candidate E, resolve exact viewpoint edition P, and test P's fixed conformance predicate without changing either episteme's identity.
+**What this buys.** One stable test works for directly authored and derived epistemes. Identify the candidate E, resolve the viewpoint edition P, and test P's fixed conformance predicate. Both epistemes retain their identities.
 
-**First action.** Recover candidate E through C.2.1, resolve an existing `U.ViewpointRef` to exact P, and read the target, concern-coverage, semantic-form, completeness, consistency, and admitted-omission rules fixed by P. Do not author a new viewpoint or bundle merely to perform this test.
+**First action.** Recover candidate E through C.2.1, resolve an existing `U.ViewpointRef` to P, and read the target, concern-coverage, semantic-form, completeness, consistency, and admitted-omission rules fixed by P. Do not author a new viewpoint or bundle merely to perform this test.
 
-**First useful result.** State one readable direct judgment: either `episteme E conforms to viewpoint edition P`, in which case the same E is a `U.View`, or `E does not conform to P`, naming the failed fixed rule without inventing a negative relation occurrence. Keep exact E and P recoverable. If missing identity or interpretation prevents the fixed predicate from being evaluated, report that exact unresolved condition rather than manufacturing a negative result.
+**First useful result.** State one readable judgment: either `episteme E conforms to viewpoint edition P`, in which case the same E is a `U.View`, or `E does not conform to P`, naming the failed fixed rule without inventing a negative relation occurrence. Keep the identities of E and P recoverable. If missing identity or interpretation prevents the fixed predicate from being evaluated, report the unresolved condition rather than manufacturing a negative result.
 
-**Ordinary stop.** If the next work needs only view recognition, stop after that judgment. Do not add an occurrence designator, explicit result ValueKind, evaluation package, source-viewing relation, correspondence model, collection or structure, publication occurrence, form, or carrier. Add one of those only when a named receiving use depends on it.
+**Ordinary stop.** If the next work needs only view recognition, stop after that judgment. Add an occurrence designator, explicit result ValueKind, evaluation package, source-viewing relation, correspondence model, collection or structure, publication occurrence, form, or carrier only when a named receiving use depends on it.
 
 > **Tech-name:** `MultiViewDescribing`
 > **Plain-name:** recognizing viewpoints and views in multi-view describing

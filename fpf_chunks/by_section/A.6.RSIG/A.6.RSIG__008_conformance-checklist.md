@@ -6,12 +6,12 @@ section_id: "A.6.RSIG:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIG/A.6.RSIG__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.RSIG — Recognition Signatures: Find the Defining Episteme for a Description"
   - "A.6.RSIG:7 — Conformance checklist"
-line_start: 14568
-line_end: 14587
+line_start: 15023
+line_end: 15042
 dependencies:
   - "A.6"
   - "A.6.P"
@@ -26,8 +26,8 @@ keywords:
   right description, not the full semantics of that description.
 - **CC-RSIG-2 Carrier/definition-episteme split.** A conforming description-recognition signature
   distinguishes `description_seen`, encountered carrier or projection,
-  defining `U.Episteme`, and projection role when those distinctions are
-  load-bearing. The encountered carrier or projection may help recognition,
+  defining `U.Episteme`, and projection role when those distinctions affect
+  recognition or use. The encountered carrier or projection may help recognition,
   but it does not become authoritative merely by being encountered.
 - **CC-RSIG-3 Neighbor boundaries explicit.** The text states the conditions
   under which the recognition question calls for each relevant neighboring

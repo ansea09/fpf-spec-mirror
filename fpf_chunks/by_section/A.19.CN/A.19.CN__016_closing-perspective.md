@@ -6,12 +6,12 @@ section_id: "A.19.CN:Close"
 section_title: "Closing perspective"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CN/A.19.CN__016_closing-perspective.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.19.CN — CN-frame: Specify and Maintain Comparability and Normalization"
   - "A.19.CN:Close — Closing perspective"
-line_start: 36827
-line_end: 36831
+line_start: 38333
+line_end: 38337
 dependencies:
   - "A.19"
   - "A.6.1"
@@ -40,5 +40,5 @@ keywords:
 ### A.19.CN:Close - Closing perspective
 
 
-A CN-Spec keeps the comparison basis with the readings. Reuse it while that basis remains sufficient; revise it and the dependent conclusions when the Characteristic, chart, normalization or intended use changes. A registry supports maintained editions. Cross-local reuse retains the coordinate mapping, semantic relation or plane relation it actually needs, with any separate bounded-use claim and required reliance.
+A CN-Spec keeps the comparison basis with the readings. Reuse it while that basis remains sufficient; revise it and the dependent conclusions when the Characteristic, chart, normalization or intended use changes. A registry supports maintained editions. Cross-local reuse retains the coordinate mapping, semantic relation or plane relation it needs, with any separate bounded-use claim and required reliance.
 

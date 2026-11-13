@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.6"
-pattern_title: "Base Declaration Discipline: Say Exactly What Something Depends On"
+pattern_title: "Base Declaration Discipline: Say What Something Depends On"
 section_id: "A.6.6:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.6.6 — Base Declaration Discipline: Say Exactly What Something Depends On"
+  - "A.6.6 — Base Declaration Discipline: Say What Something Depends On"
   - "A.6.6:intro — Intro"
-line_start: 23612
-line_end: 23627
+line_start: 24533
+line_end: 24548
 dependencies:
   - "A.10"
   - "A.14"
@@ -39,15 +39,15 @@ dependencies:
 keywords:
 ---
 
-## A.6.6 - Base Declaration Discipline: Say Exactly What Something Depends On
+## A.6.6 - Base Declaration Discipline: Say What Something Depends On
 > **Status:** Stable
 > **Type:** Definitional relation-discipline pattern
 
-**Plain-name.** Saying exactly what something depends on.
+**Plain-name.** Saying what something depends on.
 
-**Use this pattern when** a sentence says that one thing is calibrated to, based on, attributable to, constrained by, or otherwise usable relative to another, and the actual relation is still hidden by words such as *anchor*, *support*, *ground*, or *based on*.
+**Use this pattern when** a sentence says that one thing is calibrated to, based on, attributable to, constrained by, or otherwise usable relative to another, and the relation is still hidden by words such as *anchor*, *support*, *ground*, or *based on*.
 
-**First useful move.** Name the actual dependent and base, state the direct relation in an ordinary sentence, and apply that relation's own predicate to the current facts. Stop when this readable assertion answers the receiving question.
+**First useful move.** Name the dependent and base, state the direct relation in an ordinary sentence, and apply that relation's own predicate to the current facts. Stop when this readable assertion answers the receiving question.
 
 **What goes wrong if missed.** An umbrella word hides the relation kind or reverses its participants. At the opposite extreme, a simple assertion is expanded into slots, witnesses, editions, and a new record even though no later use needs them.
 

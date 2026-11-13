@@ -6,12 +6,12 @@ section_id: "C.28:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.28 — CausalUse-CAL: Causal-Use Questions, Identification, and Realizability"
   - "C.28:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 68417
-line_end: 68433
+line_start: 71490
+line_end: 71506
 dependencies:
   - "A.10"
   - "A.15"
@@ -54,7 +54,7 @@ keywords:
 | Anti-pattern | Repair |
 | --- | --- |
 | Fill-all-cards default | Start with triage and add only the live profile. |
-| Rung label as validity proof | Run the common threat screen and cite the actual results. |
+| Rung label as validity proof | Run the common threat screen and cite the results. |
 | One support-basis enum | Keep data, identification, estimate, sampling, simulation, and transport separate. |
 | Estimate creates identification | Require an identification or design-based result first. |
 | Graph-only causality | Cite the model or diagram, assumptions, and replayable derivation or bound. |

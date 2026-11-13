@@ -6,12 +6,12 @@ section_id: "C.2.5:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.5/C.2.5__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.2.5 — Language-State Closure Degree — How Fixed Is the Current Candidate Space?"
   - "C.2.5:2 — Problem"
-line_start: 53922
-line_end: 53924
+line_start: 56157
+line_end: 56159
 dependencies:
   - "A.16"
   - "A.16.0"

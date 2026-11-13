@@ -6,12 +6,12 @@ section_id: "C.43:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.43/C.43__010_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.43 — Connect Observation, Choice and Action in Control"
   - "C.43:9 — Consequences"
-line_start: 90666
-line_end: 90671
+line_start: 95144
+line_end: 95149
 dependencies:
   - "A.12"
   - "C.11"
@@ -25,7 +25,7 @@ keywords:
 
 ### C.43:9 - Consequences
 
-The practitioner can combine independently useful contributions into a continuation whose assumptions agree, and can revise that continuation without discarding sound work. The account also exposes a specific unavailable contribution instead of hiding it in a plausible overall narrative.
+The practitioner can combine independently useful contributions into a continuation whose assumptions agree, and can revise that continuation without discarding sound work. The account also exposes an unavailable contribution instead of hiding it in a plausible overall narrative.
 
 The cost is attention to dependencies that a familiar routine can leave implicit. Apply the Method at the unresolved connection and reuse an adequate whole. More elaborate representations are worthwhile when their contribution to the receiving explanation, action or assurance justifies their burden.
 

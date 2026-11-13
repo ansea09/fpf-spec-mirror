@@ -6,12 +6,12 @@ section_id: "B.3.4:9"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.4/B.3.4__010_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.3.4 — Can Earlier Evidence Still Support This Use? — Evidence Decay and Epistemic Debt"
   - "B.3.4:9 — Relations"
-line_start: 45402
-line_end: 45410
+line_start: 47264
+line_end: 47272
 dependencies:
   - "A.10"
   - "B.3"
@@ -34,6 +34,6 @@ keywords:
 - **A.10 and C.27.TA:** supply evidence-use dependencies and qualified temporal claims.
 - **G.11:** schedules justified reconsideration or refresh over the affected dependency slice and conveys needed limitations to later recipients.
 - **C.11 and C.19.2:** support the choice of obtainable evidence work when its contribution can change the decision.
-- **B.4:** uses actual transition conditions; a debt indicator does not constitute its evolution gate.
+- **B.4:** uses transition conditions; a debt indicator does not constitute its evolution gate.
 - **Part D and applicable domain rules:** govern protected interests, authority and exceptions; an assurance status change does not decide them.
 

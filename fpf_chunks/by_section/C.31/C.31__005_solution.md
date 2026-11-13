@@ -6,12 +6,12 @@ section_id: "C.31:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31/C.31__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.31 — Modularity and Reusable Structure Characteristics"
   - "C.31:4 — Solution"
-line_start: 75130
-line_end: 75344
+line_start: 78555
+line_end: 78785
 dependencies:
   - "A.10"
   - "A.17"
@@ -75,7 +75,9 @@ ModularityVectorLite:
   stopCondition:
 ```
 
-The account is complete enough when it answers the architecture question or identifies the next warranted repair. State a blocked inference when a plausible intended reader could make it here and the distinction matters. `relatedClaimPatternLocatorsIfClaimed` locates a governing pattern; it supplies neither the claim nor its grounds. Further use needs the actual subject, assertion and applicable rule. Exact rule identity is required only under section 4.3. Architecture scale-preference claims use `C.31.ASAP`.
+The account is complete enough when it answers the architecture question or identifies the next warranted repair. State a blocked inference when a plausible intended reader could make it here and the distinction matters.
+
+`relatedClaimPatternLocatorsIfClaimed` locates a governing pattern; it supplies neither the claim nor its grounds. Further use needs the subject, assertion and applicable rule. Rule identity is required only under section 4.3. Architecture scale-preference claims use `C.31.ASAP`.
 
 #### C.31:4.1a - Filled `ModularityVectorLite`
 
@@ -106,7 +108,7 @@ ModularityVectorLite:
       claimUseClass: local repair cue with possible evidence-package use
       forbiddenOverread: reused evidence is not assurance sufficiency.
   observedProblem: the team says the platform is modular because interfaces are public and evidence is reusable, but field replacement and certification still create variant-specific work.
-  relatedClaimPatternLocatorsIfClaimed: A.6.M for the module-interface relation; C.31.RSA if report-only share becomes reusable-structure accounting; A.10 or B.3 only if an exact evidence-use or assurance-use assertion is being made.
+  relatedClaimPatternLocatorsIfClaimed: A.6.M for the module-interface relation; C.31.RSA if report-only share becomes reusable-structure accounting; A.10 or B.3 only if an evidence-use or assurance-use assertion is being made.
   stopCondition: stop at local repair until measurement basis, comparability basis, and any selection or assurance use are declared under their subject patterns.
 ```
 
@@ -119,8 +121,8 @@ Identify the classes that apply to the characteristic use. They distinguish requ
 | Class | Use | Boundary |
 | --- | --- | --- |
 | `DirectCharacteristic` | A C.16-governed characteristic can be named with subject, scale, unit or unitless interpretation, declared measurement basis, comparability basis, and repair action. | It is not automatically a score or decision selector. |
-| `CompositeCharacteristicDescription` | The head is a bundle or description with sub-slots, such as function-module alignment or flow-boundary alignment. | Do not pretend the bundle is one raw measure. |
-| `LensBackedCharacteristic` | The head depends on a model description or mathematical lens, such as compression or RG or coarsening lens. | Use C.29 when mathematical representation choice, transfer or reliance remains unresolved; use an adequate domain treatment directly. |
+| `CompositeCharacteristicDescription` | The head is a bundle or description with sub-slots, such as function-module alignment or flow-boundary alignment. | Do not treat the bundle as one raw measure. |
+| `LensBackedCharacteristic` | The head depends on a model description or mathematical lens, such as a compression, RG, or coarsening lens. | Use C.29 when mathematical representation choice, transfer or reliance remains unresolved; use an adequate domain treatment directly. |
 | `TemporalOrScaleCharacteristic` | The head depends on time window, repeated instance, scale variable, aggregation scope, or source-return condition. | Apply `C.31.ASAP` for architecture scale preference, `C.27` for temporal adequacy, and `C.18.1` or `C.19.1` when scale-law or general BLP preference claims are being made. |
 | `CausalUseSensitiveCharacteristic` | The interpretation is used to claim effect or intervention success. | Apply C.28 before relying on the claim causally. |
 | `ReportOnlyProxy` | The interpretation is only a local diagnostic or communication aid. | Preserve its stated scope and relevant limits; use the applicable subject rule before stronger reliance. |
@@ -147,15 +149,21 @@ MeasurementHeadMapping:
   commonFalseUse?:
   nonAdmissibleUse?:
   repairAction:
-  relationFunctionClaimRef?:     # only when this use depends on exact rule identity
+  relationFunctionClaimRef?:     # only when this use depends on rule identity
   authoritySourceRef?:           # only when a non-pattern source carries relevant authority
 ```
 
-Use an ordinary PatternID to locate the rule. Under E.10 L-EPI-PUB, relationFunctionClaimRef identifies the defining or constraining ClaimGraph only when interpretation, comparison, migration, publication or reuse depends on that exact rule identity. It is not a demand to establish a separate relation-function individual. When an external standard, policy or other non-pattern source carries the relevant authority, use authoritySourceRef for that source instead.
+Use an ordinary PatternID to locate the rule.
 
-For example, an ordinary InterfaceStandardizationShare account states its subject, the counted interface population, conformance specification, ratio Scale, source/test basis and limitations. It needs no extra rule-identity claim merely to describe that share. If a comparison combines two editions that count partial conformance differently, cite the exact defining predicates through relationFunctionClaimRef before treating their shares as comparable. The comparison still needs its actual measurement and evidence basis; citing the predicate supplies neither test results nor assurance.
+Under E.10 L-EPI-PUB, relationFunctionClaimRef identifies the defining or constraining ClaimGraph only when interpretation, comparison, migration, publication or reuse depends on that rule identity. It is not a demand to establish a separate relation-function individual.
 
-This mapping prepares a C.16-compatible measurement or a report-only interpretation; it does not supply observations or a measurement procedure. Recover the evidence or source relations that the actual claim relies on. Use `evidenceClaimAbsentBecause` only when the receiving use needs an explanation of that absence; a local cue needs no invented evidence claim. Sharing a bounded account preserves its existing qualification.
+When an external standard, policy or other non-pattern source carries the relevant authority, use authoritySourceRef for that source instead.
+
+For example, an ordinary InterfaceStandardizationShare account states its subject, the counted interface population, conformance specification, ratio Scale, source/test basis and limitations. It needs no extra rule-identity claim merely to describe that share.
+
+If a comparison combines two editions that count partial conformance differently, cite the defining predicates through relationFunctionClaimRef before treating their shares as comparable. The comparison still needs its measurement and evidence basis; citing the predicate supplies neither test results nor assurance.
+
+This mapping prepares a C.16-compatible measurement or a report-only interpretation; it does not supply observations or a measurement procedure. Recover the evidence or source relations that the claim relies on. Use `evidenceClaimAbsentBecause` only when the receiving use needs an explanation of that absence; a local cue needs no invented evidence claim. Sharing a bounded account preserves its existing qualification.
 
 #### C.31:4.4 - C.31 characteristic card
 
@@ -236,7 +244,7 @@ When a decision relies on a proxy, identify how it could diverge from the intend
 | --- | --- | --- |
 | `ExternalCouplingDensity` | Teams hide dependencies instead of reducing them. | Did integration failures or source-return events fall? |
 | `InterfaceStandardizationShare` | Premature standardization blocks useful variation. | Did exception slope or workarounds rise? |
-| `InterfacePublicness` | Open label without substitutability. | Are alternative implementations actually viable under declared conditions? |
+| `InterfacePublicness` | Open label without substitutability. | Are alternative implementations viable under declared conditions? |
 | `TemplateCompressionGain` | Compression erases safety, law-domain, or source distinctions. | Did source-return events or bounded exceptions rise? |
 | `EvidenceReuseShare` | Reused evidence becomes stale or mis-scoped. | Does evidence remain valid in the new context? |
 | `RGFlowStability` | Coarse-graining hides lower-scope hazards. | Are source-return conditions triggered? |
@@ -253,8 +261,16 @@ Lower or reopen a `ModularityVectorLite`, `ModularityCharacteristicCard`, or rep
 - measurement basis, comparability basis, scoring method, codomain, polarity, unit policy, or declared characteristic basis changes;
 - evidence relation, evidence-provenance relation, source relation, evidence-claim-absent reason, or source-return condition changes;
 - described holon, architecture question or intended use, ClaimScope or qualification window, architecture claim, structure kind, characteristic head, or repair direction changes;
-- a report-only proxy is used to support a stronger comparison, assurance, causal, selection or scale-preference claim; simply publishing its qualified local meaning does not create that stronger use;
+- a report-only proxy is used to support a stronger comparison, assurance, causal, selection or scale-preference claim; publishing its qualified local meaning does not create that stronger use;
 - `C.31.RSA`, `C.31.ASAP`, `C.16`, `C.25`, `C.29`, `C.30.STRAT`, `A.6.M`, `C.30`, `C.30.ASV`, `A.10`, `B.3`, `A.20`, `A.21`, `G.5`, or `C.11` changes the boundary for the neighboring claim being made.
 
-Admissible repair results are: keep the result report-only, split or rename the characteristic head, update basis or evidence fields, revise the repair direction, change `relatedClaimPatternLocatorsIfClaimed`, lower a score to a local proxy, or stop the unsupported use and establish the required subject claim under its applicable rule.
+Admissible repair results are:
+
+- keep the result report-only;
+- split or rename the characteristic head;
+- update basis or evidence fields;
+- revise the repair direction;
+- change `relatedClaimPatternLocatorsIfClaimed`;
+- lower a score to a local proxy; or
+- stop the unsupported use and establish the required subject claim under its applicable rule.
 

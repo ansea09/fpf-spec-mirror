@@ -6,12 +6,12 @@ section_id: "A.3.4:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4/A.3.4__009_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.3.4 — U.Transformation: Actual Bounded Change Under Conditions"
   - "A.3.4:7 — Conformance Checklist"
-line_start: 13256
-line_end: 13274
+line_start: 13701
+line_end: 13719
 dependencies:
   - "A.1"
   - "A.10"
@@ -60,7 +60,7 @@ keywords:
 | `CC-A34-2` | Actuality and transformation identity require the complete basis in 4.1, even when a method, plan, model, representation, or individual relation fact is available. |
 | `CC-A34-3` | Every subject fact uses the pattern that defines its relation or characteristic; no union-valued `transformationRelation` field is used. |
 | `CC-A34-4` | Any additional method, operation, work, flow, representation, evidence, evaluation or publication claim retains its own objects and relations. |
-| `CC-A34-5` | A transformation assertion is a C.2.1 episteme about the actual transformation or exact base facts. |
+| `CC-A34-5` | A transformation assertion is a C.2.1 episteme about the actual transformation or base facts. |
 | `CC-A34-6` | Use `C.27.TA` for temporal aspects and `C.27` when an unresolved adequacy question changes the receiving action; neither replaces transformation identity. |
 | `CC-A34-7` | Use E.18 for the selected flow structure and C.29 for mathematical representation; ground actual transformation and work claims separately through A.3.4 and A.15.1. |
 | `CC-A34-8` | Evidence, assurance, gate, acceptance, and decision authority are not inferred from the transformation or its description. |
@@ -69,5 +69,5 @@ keywords:
 | `CC-A34-11` | Every proposed component change and whole-configuration change is identified independently. Shared timing, referent, work, flow position, or representation establishes neither composition nor partlessness. |
 | `CC-A34-12` | A positive transformation-composition claim requires a governing rule; preserve the missing-governor or missing-substrate result from 4.2.1 when its required basis is absent. |
 | `CC-A34-13` | Test a transformation under A.1 only after an independently admitted construction supplies the candidate and all six required construction facts. Recognition, assertion, assurance and receiving-work disposition remain separate. |
-| `CC-A34-14` | When a production claim is current, test production-work participation, entity-identity inception, and production completion separately under `A.15.PROD`, using the exact work, work part, subject-identity facts, completion criterion, and direct effect facts. |
+| `CC-A34-14` | When a production claim is current, test production-work participation, entity-identity inception, and production completion separately under `A.15.PROD`, using the work, work part, subject-identity facts, completion criterion, and direct effect facts. |
 

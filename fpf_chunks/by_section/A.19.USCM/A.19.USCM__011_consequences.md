@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.19.USCM"
-pattern_title: "Unified Scoring Mechanism, USCM"
+pattern_title: "Scoring Mechanism"
 section_id: "A.19.USCM:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.USCM/A.19.USCM__011_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.19.USCM — Unified Scoring Mechanism, USCM"
+  - "A.19.USCM — Scoring Mechanism"
   - "A.19.USCM:9 — Consequences"
-line_start: 38415
-line_end: 38428
+line_start: 39952
+line_end: 39965
 dependencies:
 keywords:
   - "CG-Spec.MinimalEvidence"
@@ -20,7 +20,7 @@ keywords:
   - "ScoringMethodDescription"
   - "score profile"
   - "scoring"
-  - "tri-state admissibility (pass"
+  - "tri-state admissibility (pass\\"
 ---
 
 ### A.19.USCM:9 - Consequences
@@ -28,7 +28,7 @@ keywords:
 **Benefits**
 
 * Makes scoring a first‑class, admissibility‑gated CHR step, reducing illicit arithmetic and silent assumptions.
-* Improves auditability and reproducibility via explicit edition pins and explicit evidence policy selection (override vs default).
+* Improves auditability and reproducibility via edition pins and explicit evidence policy selection (override vs default).
 * Preserves evolvability: scoring method families can change via SoTA wiring without changing the USCM intension.
 * Makes uncertainty disposition explicit through the guard result and its effective failure policy.
 

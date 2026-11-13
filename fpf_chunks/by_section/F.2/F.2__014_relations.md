@@ -6,12 +6,12 @@ section_id: "F.2:13"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.2/F.2__014_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.2 — Source-Local Term Harvesting & Normalisation"
   - "F.2:13 — Relations"
-line_start: 119205
-line_end: 119221
+line_start: 126804
+line_end: 126820
 dependencies:
   - "A.11"
   - "A.7"
@@ -35,7 +35,7 @@ keywords:
 
 **Builds on:**
 
-- Use **F.1 Question-Relative Source Selection** to recover the exact sources, editions, answer-changing contributions, and receiving question.
+- Use the selected sources and editions, the receiving question and each source’s contribution to answering it. If the source cut still needs justification, use **F.1** for that comparison.
 - Use **F.0.1 Source-Local Meaning Recovery** to recover the exact source-local claim.
 - Use **E.10.D1** when vague *context* wording hides source, scheme, scope, situation, or use.
 - Use **F.17** for a durable `SchemeSenseCell` and basis relation only when later reuse needs that address.

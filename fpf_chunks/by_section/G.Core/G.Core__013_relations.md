@@ -6,12 +6,12 @@ section_id: "G.Core:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.Core/G.Core__013_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.Core — Discipline SoTA Kit Invariants, Defaults and Refresh Triggers (Part G)"
   - "G.Core:12 — Relations"
-line_start: 126816
-line_end: 126840
+line_start: 134866
+line_end: 134890
 dependencies:
   - "A.15.3"
   - "A.19"
@@ -51,7 +51,7 @@ keywords:
 
 * **Used by:**
 
-  * `G.0…G.13` patterns (each adds `Builds on: G.Core`, linkage section, CoreRef CC item)
+  * `G.0…G.13` patterns cite `G.Core` for the obligations they use (§4.2). A `Builds on: G.Core` entry can name that dependency. For checklist changes when a shared norm moves into `G.Core`, see §4.5.
 
 * **Constrains:**
 

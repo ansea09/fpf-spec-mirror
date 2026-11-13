@@ -6,12 +6,12 @@ section_id: "E.10.INT:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.INT/E.10.INT__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.10.INT — Recovering What Interest or Curiosity Means Here"
   - "E.10.INT:1 — Problem frame"
-line_start: 100829
-line_end: 100836
+line_start: 106477
+line_end: 106484
 dependencies:
   - "C.11"
   - "C.16"
@@ -27,7 +27,7 @@ keywords:
 
 ### E.10.INT:1 - Problem frame
 
-**Use this when** a claim that something is *interesting*, *in someone's interest* or *driven by curiosity* is being used to choose work, but leaves you unsure what to do. You may need to select an experiment, retain a promising construction, design an agent's exploration policy or understand why participants want different outcomes.
+**Use this when** a claim that something is *interesting*, *in someone's interest* or *driven by curiosity* guides a choice of work but leaves you unsure what to do. You may need to select an experiment, retain a promising construction, design an agent's exploration policy or understand why participants want different outcomes.
 
 Begin by saying whose interest is involved and what the sentence proposes. “This experiment is interesting” might mean that its result would distinguish two models, that a participant wants to try it, or that the resulting technique could support further experiments. Each meaning can guide useful work.
 

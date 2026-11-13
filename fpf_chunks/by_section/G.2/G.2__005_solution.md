@@ -6,12 +6,12 @@ section_id: "G.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.2/G.2__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.2 — Harvest and Synthesize SoTA for a CG-Frame"
   - "G.2:4 — Solution"
-line_start: 127727
-line_end: 128040
+line_start: 135777
+line_end: 136090
 dependencies:
   - "A.10"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
@@ -66,7 +66,7 @@ GCoreLinkageManifest := ⟨
     GCoreConformanceProfileId.PartG.UTSWhenPublicIdsMinted
   },
   RSCRTriggerSetIds := {GCoreTriggerSetId.SoTAHarvestSynthesis},
-  CorePinSetIds := {GCorePinSetId.PartG.CrossingVisibilityPins}, // expands only for actual channel/receiving-use conditions under G.Core:4.2.3; no crossing means no crossing pins
+  CorePinSetIds := {GCorePinSetId.PartG.CrossingVisibilityPins}, // expands only for actual channel/receiving-use conditions under G.Core:4.2.3
 
   CorePinsRequired := {
     // Scope pins (G.2‑specific)
@@ -100,7 +100,7 @@ GCoreLinkageManifest := ⟨
 
 *(RSCR payload pins: `ClaimSheetId[]`, `SoTA_SetId`, `SoTAPaletteDescriptionId`, `BridgeMatrixId?`, `GammaEpistSynthId[]?`, `UTSRowId[]?`, `DistanceDefRef.edition?`, `HarvestPolicyRef?`, `InclusionCriteriaId?`, `ScreeningRubricId?`, `PathId/PathSliceId?` when path‑citable evidence or a stable freshness window is pinned.)*
 
-**Pattern‑local default rules (governed by this pattern; not a Part‑G‑wide `DefaultId`).**
+**Pattern‑local default.** `G.2` defines this coverage threshold outside the Part‑G-wide `DefaultId` set.
 
 `FamilyCoverageFloorK := 3` *(unless explicitly overridden by `HarvestPolicyRef` and recorded in `FlowRecord`)*. This threshold supplies no counted population or same-family rule; those must be explicit before a coverage judgement. An undefined basis is unassessable, not a measured failure. Whenever coverage is judged, `HarvestPolicyRef` is required even when k uses this fallback; its applicability, receiving question, counted population/scope, grouping and same-family equivalence must be fixed before counting. An override changes k, not the unit or the independent pluralism duties.
 
@@ -115,8 +115,8 @@ A conforming `G.2` publication produces a **notation‑independent pack** whose 
 Each named component is addressable via a stable **pack‑local identifier** (e.g., `CorpusLedgerId`, `ClaimSheetId`, `FlowRecordId`) for citation and RSCR scoping. If any component is minted/evolved as a **public id**, it is published and cited via `UTSRowId[]` per `CC‑GCORE‑UTS‑1` (delegation).
 
 0. **`SoTA_Set@CG‑Frame`** *(export view; “M2 output” consumed downstream)*
-   A read‑optimised view over the harvested candidate set that downstream generator/selector work treats as the “harvester output set”.
-   **Constraint (normative):** `SoTA_Set@CG‑Frame` **MUST** be reconstructible from pack components by id (no “hidden extra set”). Its coverage result cites the pack's `CoverageJudgementRef`, including its fixed HarvestPolicy basis; the export view does not redefine family membership.
+   A read‑optimised view of the harvested candidate set for downstream generators and selectors.
+   **Constraint (normative):** `SoTA_Set@CG‑Frame` **MUST** be reconstructible from pack components by id. Its coverage result cites the pack's `CoverageJudgementRef`, including its fixed HarvestPolicy basis; the export view does not redefine family membership.
 
 1. **`G.2a CorpusLedger`**
    Ledger of candidate sources. Each row names the exact source and edition, claim region used, triage status (for example, include, park, or retire), evidence locator, and rationale for this CG-frame and receiving use.
@@ -129,7 +129,7 @@ Each named component is addressable via a stable **pack‑local identifier** (e.
    * the currentness basis relevant to the claim’s use, including any applicable freshness window and risk/trust cues (cite `B.3` when using trust/decay claims).
 
 3. **`G.2c OperatorAndObjectInventory`**
-   Inventory of candidate CHR terms (characteristics/scales/coordinates) and candidate CAL operators/flows *as stubs* for downstream authoring.
+   Inventory of candidate CHR terms (characteristics, scales and coordinates) and CAL operators or flows for downstream authoring. Cite the governing artefact and typing grounds for an entry already established as lawful. Mark the other candidates as stubs.
 
 4. **`G.2d BridgeMatrix`**
    A citable alignment/divergence surface across `Tradition`×`Tradition`, with explicit losses and row scopes.
@@ -162,7 +162,7 @@ Each named component is addressable via a stable **pack‑local identifier** (e.
     For example: QD/NQD annexes, discipline‑specific indicator annexes, interop forms.
 
 **SoTAPaletteDescription** *(export view; required downstream)*
-A view‑friendly description object (pack‑local `SoTAPaletteDescriptionId`) that binds together:
+Its pack-local `SoTAPaletteDescriptionId` identifies the view that binds these components.
 
 * the `SoTA_Set@CG‑Frame` view,
 * `ClaimSheetId[]`, `OperatorAndObjectInventory`, `BridgeMatrixId?`,
@@ -174,7 +174,7 @@ A view‑friendly description object (pack‑local `SoTAPaletteDescriptionId`) t
 `G.3/G.4/G.5` use this export view to find and cite the pack components.
 
 **Editorial template: 1‑page “SoTA Sheet” per Tradition (informative).**
-When authoring `ClaimSheets[Tradition]`, teams often benefit from a single‑page template: scope + claims + evidence anchors + validity region + failure modes + freshness window + cross‑Tradition reuse notes + pointers to micro‑examples.
+A one-page `ClaimSheets[Tradition]` template can collect the scope, claims, evidence anchors, validity region, failure modes, any applicable freshness window, cross‑Tradition reuse notes and pointers to micro‑examples.
 
 #### G.2:4.3 - Harvester loop (conceptual choreography; pattern-governed)
 
@@ -194,7 +194,7 @@ Apply the following operations to the declared source population. A conforming p
    For each `Tradition`, author a Claim Sheet that preserves internal commitments and cites evidence anchors. Do not fuse cross‑`Tradition` claims at this stage.
 
 4. **Inventory operators/objects for downstream authoring.**
-   Extract candidate measurement terms and operator stubs for later CHR/CAL authoring (without asserting legality or thresholds locally).
+   Identify candidate measurement terms and operators for downstream CHR/CAL authoring. Mark proposals as stubs. Cite an already governed CHR/CAL artefact and its grounds when reusing it. The inventory does not decide legality or set acceptance thresholds.
 
 5. **Build alignment/divergence surfaces.**
    Where reuse across `Tradition` is desired, record the obtaining correspondence and its exact basis in `BridgeMatrix`: F.9 for sense correspondence, C.3.3 for kind correspondence, or the direct rule for a plane relation, as actually used. State preserved distinctions and losses for the receiving question. Consolidation requires explicit alignment proof. Add bundle or gate anchors only for an independently applicable E.18 flow crossing or A.21 gate, under `CC‑GCORE‑CROSS‑1`.
@@ -212,7 +212,7 @@ Apply the following operations to the declared source population. A conforming p
 
    * record the failed criterion, count and basis in `FlowRecord`, with the relevant corpus entries recoverable;
    * identify a missing relevant lineage, venue or source region that could change the result, and judge whether the available search or repair is worth undertaking for the receiving use;
-   * if it is, perform that search or repair and recount under the declared policy. Pin any justified policy change and preserve the earlier judgement under its earlier basis;
+   * if it is, perform the search or repair and recount under the declared policy. Record what was done and the new result in `FlowRecord`, citing any affected `CorpusLedger` entries. Pin the new references for any justified change to the policy or criteria and keep the earlier judgement with its original basis;
    * otherwise return the scoped claims and failed or incomplete pack judgement, its receiving-use limit and any precise remaining inquiry. Preserve the failed gate rather than treating the partial result as a conforming pack.
 
    For example, an exhausted bounded population containing two method families fails a declared `k=3` method-only gate. A further report about either family does not change that count. A known unexamined source region may justify another search; without one, the count and coverage failure can be the completed bounded answer. Missing population or equivalence rules instead leave the count judgement unassessable.
@@ -232,7 +232,7 @@ Apply the following operations to the declared source population. A conforming p
 | Interface         | Consumes                                                      | Produces                                                                    |
 | ----------------- | ------------------------------------------------------------- | --------------------------------------------------------------------------- |
 | **G.2-1 Harvest** | exact CG-frame (the declared framing episteme) identified by `CGFrameId`, initial `Tradition[]`, source edition and claim-region boundary, EntityOfConcern, comparison basis, receiving use, `HarvestPolicyRef` whenever coverage is judged | `SoTA Synthesis Pack@CG-Frame` (G.2a-G.2l) |
-| **G.2‑2 Extend**  | existing Pack + new sources/anchors + updated policy pins     | updated Pack + RSCR‑relevant trigger emissions (canonical kinds)            |
+| **G.2‑2 Extend**  | existing Pack + new sources/anchors + the applicable policy pins, updated if the policy changed     | updated Pack + RSCR‑relevant trigger emissions (canonical kinds)            |
 | **G.2‑3 HandOff** | Pack                                                          | `CHR‑handoff` (to G.3), `CAL‑handoff` (to G.4), `Registry‑handoff` (to G.5) |
 
 *Note:* Orchestration of re‑runs is governed by `G.11`; this pattern only defines what a conforming (re)harvest produces and what pins it must expose.
@@ -287,7 +287,7 @@ Apply the following operations to the declared source population. A conforming p
 **PatternScopeId:** `G.2:Ext.DHCAlignmentHooks`
 **GPatternExtensionId:** `DHCAlignmentHooks`
 **GPatternExtensionKind:** `DisciplineSpecific`
-**GoverningPatternId:** `C.21` *(DHC semantics are governed by C.21)*
+**GoverningPatternId:** `C.21` *(DHC semantics)*
 **Uses:** `{C.21, G.6, G.7}` *(DHC series + evidence path citations + bridge/CL regimes when alignment density is claimed)*
 **⊑/⊑⁺:** `∅`
 **RequiredPins/EditionPins/PolicyPins (minimum):**
@@ -310,7 +310,7 @@ Apply the following operations to the declared source population. A conforming p
 **PatternScopeId:** `G.2:Ext.NQDAnnex`
 **GPatternExtensionId:** `NQDAnnex`
 **GPatternExtensionKind:** `MethodSpecific`
-**GoverningPatternId:** `C.18` *(NQD-CAL semantics are governed by C.18; explore/exploit logging is governed by C.19 when used)*
+**GoverningPatternId:** `C.18` *(NQD-CAL semantics)*. `C.19` governs explore/exploit logging when used.
 **Uses:** `{C.18, C.19}`
 **⊑/⊑⁺:** `∅`
 **RequiredPins/EditionPins/PolicyPins (minimum):**

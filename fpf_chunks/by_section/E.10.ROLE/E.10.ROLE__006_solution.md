@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.10.ROLE"
-pattern_title: "Recovering What “Role” Means in the Current Claim"
+pattern_title: "Recover What “Role” Means in This Claim"
 section_id: "E.10.ROLE:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ROLE/E.10.ROLE__006_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "E.10.ROLE — Recovering What “Role” Means in the Current Claim"
+  - "E.10.ROLE — Recover What “Role” Means in This Claim"
   - "E.10.ROLE:4 — Solution"
-line_start: 102016
-line_end: 102059
+line_start: 107762
+line_end: 107807
 dependencies:
   - "A.2"
   - "A.2.1"
@@ -41,9 +41,11 @@ Use the sentence's intended claim, not the trigger word, to select the result.
 2. Write the ordinary sentence the reader should understand, naming the recognizable object and action or relation.
 3. Select one branch below from that recovered claim. The examples are non-exhaustive; they illustrate result families and do not define a new role taxonomy.
 4. Apply the selected pattern only as far as the receiving claim needs. Add a Tech designation, occurrence identity, predicate, assertion, reference, evidence, or assurance only when omitting it would change truth, action, reuse, or reliance.
-5. For one recovered claim, stop when one exact object or relation and its pattern are selected, or return the exact `missing-governor`, missing-information, quote-only, or ordinary-non-use result.
+5. For one recovered claim, stop when you have selected its particular object or relation and the applicable pattern. Otherwise identify the claim that lacks a governing rule (`missing-governor`), state what information is missing, or return the quote-only or ordinary-non-use result.
 
-If recovery shows that the same bounded phrase carries several distinct claims at once, rewrite them as separate ordinary sentences and apply steps 3–5 to each sentence. Ambiguity by itself is not evidence of several claims. Use A.6.C **Contract Unpacking for Boundaries** only when its contract-like boundary-language trigger holds; otherwise apply the direct rule for each recovered claim. Do not create a multi-claim record or an umbrella role object.
+If recovery shows that the same bounded phrase carries several distinct claims at once, rewrite them as separate ordinary sentences and apply steps 3–5 to each sentence. Ambiguity by itself is not evidence of several claims.
+
+Use A.6.C **Contract Unpacking for Boundaries** only when its contract-like boundary-language trigger holds; otherwise apply the direct rule for each recovered claim. Do not create a multi-claim record or an umbrella role object.
 
 | Current claim recovered from the wording | Required result and next action |
 |---|---|
@@ -63,7 +65,7 @@ If recovery shows that the same bounded phrase carries several distinct claims a
 
 If the recovered claim leaves a direct-participation, reusable-declaration, interface, operation-declaration-or-binding, or representation-position question unanswered, apply `A.6.RSIR` to that question. If it recovers a system-role kind, assignment, capability, Work, deontic relation, evidence use, another direct object, or ordinary non-use, apply that object's direct rule and do not apply RSIR. Neither pattern duplicates the other's subject rules.
 
-#### E.10.ROLE:4.2 - Lightweight Result
+#### E.10.ROLE:4.2 - The Ordinary Wording as a Result
 
 Ordinary repaired wording is enough. This example assumes that the source establishes the stated evidence use. Include `blocked overread` only when independent local evidence makes that rejected reading plausible and the boundary changes the receiving use:
 

@@ -6,12 +6,12 @@ section_id: "F.17:2"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__003_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.17 — Make a Settled Naming Decision Recoverable for Reuse (Unified Term Sheet)"
   - "F.17:2 — Problem frame"
-line_start: 124149
-line_end: 124162
+line_start: 132024
+line_end: 132037
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -37,7 +37,6 @@ dependencies:
   - "F.10"
   - "F.14"
   - "F.15"
-  - "F.17"
   - "F.18"
   - "F.2"
   - "F.3"
@@ -47,13 +46,12 @@ dependencies:
   - "F.7"
   - "F.8"
   - "F.9"
-  - "G.11"
 keywords:
 ---
 
 ### F.17:2 - Problem frame
 
-Naming work often succeeds locally and then fails in reuse. A term looks stable, but the receiving reader cannot recover which value was named, which pattern defines or constrains it, which naming decision selected the expressions, which effective scheme and local-sense claim are current, or whether a cited Bridge actually obtains.
+Naming work often succeeds locally and then fails in reuse. A term looks stable, but the receiving reader cannot recover which value was named, which pattern defines or constrains it, which naming decision selected the expressions, which effective scheme and local-sense claim are current, or whether a cited Bridge obtains.
 
 Five shortcuts follow:
 

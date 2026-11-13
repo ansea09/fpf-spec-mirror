@@ -6,12 +6,12 @@ section_id: "E.11.PUR:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUR/E.11.PUR__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.11.PUR — Pattern-Use Applicability, Recommendation, and Coordination"
   - "E.11.PUR:3 — Forces"
-line_start: 103985
-line_end: 103996
+line_start: 110015
+line_end: 110026
 dependencies:
   - "A.10"
   - "A.15"
@@ -41,6 +41,6 @@ keywords:
 | Applicability versus recommendation | A fit finding does not select a candidate for current use. |
 | Plural coordination | Several candidates may be alternatives, complements, or partially ordered. |
 | Exact precedence | A prospective dependency names the exact required content and selected prerequisite use; current readiness separately needs the actual result and its basis. |
-| No work overread | Pattern-use coordination does not plan, authorize, or perform project work. |
+| Limits of coordination | Pattern-use coordination does not plan, authorize, or perform project work. |
 | Proxy resistance | Pattern familiarity, score, and publication order are not evidence of expected practical gain. |
 

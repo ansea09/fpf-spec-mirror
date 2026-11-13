@@ -6,12 +6,12 @@ section_id: "E.5.4:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5.4/E.5.4__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.5.4 — Cross‑Disciplinary Bias Audit"
   - "E.5.4:3 — Forces"
-line_start: 96678
-line_end: 96685
+line_start: 101915
+line_end: 101922
 dependencies:
   - "E.3"
   - "E.5"
@@ -22,7 +22,7 @@ keywords:
 
 | Force | Tension |
 |-------|---------|
-| **Shared meaning** | Cross-domain interpretation ↔ relatable domain examples. |
-| **Conciseness** | Audit guidance must be brief ↔ must cover multiple bias types. |
-| **Longevity** | Guidance must survive emergence of new domains. |
+| **Shared meaning** | How can an example be familiar to readers in its domain while keeping the pattern’s meaning clear to readers in other domains? |
+| **Conciseness** | Audit guidance must be brief and must cover several types of bias. |
+| **Longevity** | Guidance must remain usable as new domains emerge. |
 

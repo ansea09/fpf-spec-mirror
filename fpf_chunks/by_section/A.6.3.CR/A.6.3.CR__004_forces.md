@@ -6,12 +6,12 @@ section_id: "A.6.3.CR:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CR/A.6.3.CR__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.3.CR — ConservativeRetextualization: EntityOfConcern-Preserving Textual Re-Expression"
   - "A.6.3.CR:3 — Forces"
-line_start: 18200
-line_end: 18207
+line_start: 19041
+line_end: 19048
 dependencies:
   - "A.15"
   - "A.6.2"
@@ -38,5 +38,5 @@ keywords:
 - **Compression vs loss visibility.** Shorter or plainer forms are often useful, but omissions and source-loss modes that affect interpretation or intended use must stay visible.
 - **Direct vs correspondence-mediated rewrites.** Some rewrites use one source episteme; others depend on claims about relations among sources.
 - **Restatement vs another construction.** Explanation, a material representation change and retargeting need their own conditions even when their outputs include text.
-- **Publication discipline.** Admissible MVPK faces and publication renderings still matter even when the transform looks like "just a rewrite."
+- **Publication discipline.** Admissible MVPK faces and publication renderings matter for textual rewrites.
 

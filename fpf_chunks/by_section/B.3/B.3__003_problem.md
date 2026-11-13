@@ -6,12 +6,12 @@ section_id: "B.3:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.3 — Is This Claim Supported for This Use? — Trust and Assurance Calculus"
   - "B.3:2 — Problem"
-line_start: 44882
-line_end: 44891
+line_start: 46716
+line_end: 46725
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -42,6 +42,6 @@ Five failures recur:
 1. **Assurance by appearance.** A badge, dashboard, attestation, card, status, or publication is treated as the assurance conclusion.
 2. **One scale for unlike properties.** Formality, reliability, coverage, congruence, and evidence quality are placed in one tuple even though they have different bearers and scales.
 3. **Unsupported aggregation.** `min`, an average, a penalty, or another fold is called conservative without a dependency model and calibrated quantities.
-4. **Process burden by default.** Every result is required to name dated Work, Method, assignment, bindings, and a reusable record even when the claim's own basis closes the use.
+4. **Process burden by default.** Every result is required to name dated Work, Method, assignment, bindings, and a reusable record even when the claim's basis closes the use.
 5. **Domain obligations absorbed into assurance.** Safety, rights, access, responsibility, contest, redress, status, or controlled-action rules are replaced by a generic assurance record.
 

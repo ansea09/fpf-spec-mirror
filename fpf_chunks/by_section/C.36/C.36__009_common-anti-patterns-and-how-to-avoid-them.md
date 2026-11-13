@@ -6,12 +6,12 @@ section_id: "C.36:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36/C.36__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.36 — Cultural Evolution and Cultural-Evolution Engineering"
   - "C.36:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 81650
-line_end: 81662
+line_start: 85639
+line_end: 85651
 dependencies:
   - "A.1"
   - "A.10"
@@ -63,12 +63,12 @@ keywords:
 
 | Anti-pattern | Why it fails | Repair |
 |---|---|---|
-| **Project choice means population selection** | A bounded decision says what the project chose, not what a practice or population later recognized or retained. | Keep the project choice with `C.11` or its direct decision pattern and state separately the cultural relations supported by current evidence. Withhold an unsupported stronger claim; obtain new cultural evidence only when its receiving use warrants that inquiry. |
+| **Project choice means population selection** | A bounded decision says what the project chose, not what a practice or population later recognized or retained. | Keep the project choice with `C.11` or the decision pattern for that choice and state separately the cultural relations supported by current evidence. Withhold an unsupported stronger claim; obtain new cultural evidence only when its receiving use warrants that inquiry. |
 | **Performed intervention means success** | Work can occur without producing the intended transformation or effect. | Keep performed Work, actual change, Work-to-change relation, measurement, and effect claim separate. |
-| **Observed spread authorizes the intervention** | Popularity or persistence supplies neither authority nor a retrospective project decision. | State the observation and its limits; use the direct authority or decision pattern for any authorization claim. |
+| **Observed spread authorizes the intervention** | Popularity or persistence supplies neither authority nor a retrospective project decision. | State the observation and its limits; use the authority or decision pattern for any authorization claim. |
 | **One platform controls culture** | A mediating System can change visibility, transmission, or selection conditions without becoming the culture or proving control. | Identify the System, architecture, mediation relation, scope, and observed consequence separately. |
 | **Archive or front equals cultural selection** | Retention in an engineering set is not automatically social recognition, population selection, use, or canon formation. | Use `C.18`/`C.19` for archive, front, and pool treatment and C.36 only for separately supported cultural relations. |
 | **Popularity score equals value** | Visibility and feedback can amplify variants while measuring neither practitioner value nor effect. | Name the measurement and proxy relation; use `E.13` and the applicable value/evidence patterns when reliance is current. |
 | **Local label becomes a root kind** | *Style*, *school*, *tradition*, *technique*, or *regime* can hide different objects and relations across cases. | Recover the object or relation needed by the claim; retain clear local meaning and use F.17, F.18 or F.9 only for a needed durable term, naming or Bridge result. |
-| **Card as permission or proof** | A case or intervention card is a working episteme; a recorded Work or effect claim still needs its own grounds. | Use it only to keep exact claims together, then apply the direct pattern for each decision, Work, transformation, effect, or publication claim. |
+| **Card as permission or proof** | A case or intervention card is a working episteme; a recorded Work or effect claim still needs its own grounds. | Use it only to keep claims together, then apply the pattern for each decision, Work, transformation, effect, or publication claim. |
 

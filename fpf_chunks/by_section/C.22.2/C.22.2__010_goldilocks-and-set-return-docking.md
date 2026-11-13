@@ -6,12 +6,12 @@ section_id: "C.22.2:9"
 section_title: "Goldilocks and Set-Return Docking"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__010_goldilocks-and-set-return-docking.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:9 — Goldilocks and Set-Return Docking"
-line_start: 64004
-line_end: 64028
+line_start: 66737
+line_end: 66761
 dependencies:
   - "A.10"
   - "A.15"
@@ -79,5 +79,5 @@ The local `solvability band` label means a scheme-and-scope-qualified interpreta
 
 If the band cannot be tied to a characteristic, Q-bundle, comparison, retention, or capability relation and its qualification, treat Goldilocks wording as informal recognition only and bind any selection, set-return, or parity claim to its direct governor.
 
-The governing family is `C.18`, `C.19`, `G.5`, `G.9`, `G.11`, `A.6.P:7a` and `C.16.Q`, selected for the actual relation needed. C.22.2 can state this qualified problem-side fit before P2W. C.22:15 addresses difficulty targets only when a declared search or learning policy uses them; a TaskSignature includes the resulting trait only when it can change the receiving eligibility, acceptance or selection question.
+The governing family is `C.18`, `C.19`, `G.5`, `G.9`, `G.11`, `A.6.P:7a` and `C.16.Q`, selected for the relation needed. C.22.2 can state this qualified problem-side fit before P2W. C.22:15 addresses difficulty targets only when a declared search or learning policy uses them; a TaskSignature includes the resulting trait only when it can change the receiving eligibility, acceptance or selection question.
 

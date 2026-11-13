@@ -6,12 +6,12 @@ section_id: "A.6.3.RT.OE:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT.OE/A.6.3.RT.OE__012_sota-echoing.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.3.RT.OE — Construct an Operative Expression"
   - "A.6.3.RT.OE:11 — SoTA-Echoing"
-line_start: 19291
-line_end: 19310
+line_start: 20152
+line_end: 20175
 dependencies:
   - "A.6.3.RT"
   - "B.5.RA"
@@ -26,11 +26,11 @@ keywords:
 
 ### A.6.3.RT.OE:11 - SoTA-Echoing
 
-**Practice question and selected answer.** How can available content be made usable in a notation for a particular operation? Prepare the participating parts, their common relations and a workable reference; try the subject operation and repair the expression.
+**Practice question and selected answer.** How can available content be made usable in a notation for an operation? Prepare the participating parts, their common relations and a workable reference; try the subject operation and repair the expression.
 
 **A comparison for the phrase/cycle use.** Consider a performer who knows the syllable-duration and hand-cycle conventions of :5.3 but still needs to locate the cycle boundaries within this phrase. Pulse-labelled syllables and a joint phrase/cycle expression are both available under the same pulse, duration assignments and six-pulse preparation. The compact syllable notation preserves the phrase and its durations; the performer must derive where the cycle boundaries occur. The joint expression adds the three boundary cues developed in :5.3: hold the first group's `ki` at pulse 12, begin the second group's `ṭa` at 24 and complete the final syllable as the next cycle begins at 36.
 
-Choose those additional cues when locating that relation is the current difficulty. Their price is three more entries to prepare and follow; their gain is that the needed coordination can be read at its common reference instead of being reconstructed during this use. The compact notation remains sufficient when the performer already coordinates the phrase with the cycle. This deliberately exchanges a little preparation and notation for an explicit relation. Once that relation can be followed from the compact notation, the extra entries can be omitted.
+Choose those additional cues when locating that relation is the current difficulty. Their price is three more entries to prepare and follow; their gain is that the needed coordination can be read at its common reference instead of being reconstructed during this use. The compact notation remains sufficient when the performer already coordinates the phrase with the cycle. This exchanges a little preparation and notation for an explicit relation. Once that relation can be followed from the compact notation, the extra entries can be omitted.
 
 **Adapt** Nelson's comparison of verbal instructions, pulse annotations and joint phrase/tāḷa notation (printed p. 17). It supplies the preparation-sensitive choice, rather than a measured universal improvement. The comparison governs the shared-reference operation in :4.3, the interpretation check in :4.4, the boundary cues in :5.3 and the sufficient-stop rule in :4.6.
 
@@ -38,9 +38,13 @@ Choose those additional cues when locating that relation is the current difficul
 
 **Manipulation and interpretation.** Catarina Dutilh Novaes, *Formal Languages in Logic: A Philosophical and Cognitive Analysis* (2012), §§3.2, 5.2 and 6.1, especially pp. 201-203, examines writing used in reasoning and learned symbolic manipulation. **Adapt** the connection between available rules, recipient preparation and operative use. Her discussion makes abstraction from meaning neither necessary nor sufficient for a cognitive gain. This pattern therefore keeps both rule-governed manipulation and the interpretation required by the next use. The source's accounts of human cognition do not establish equal effects for all readers or AI agents.
 
-**Vocal and gestural construction.** David P. Nelson, *Solkattu Manual: An Introduction to the Rhythmic Language of South Indian Music* (2008), printed pp. 17 and 19, supplies the notation comparison above and exercise 7's duration assignments, continuing hand cycle and six-pulse preparation. **Adapt** their coordination in :5.3; the added boundary cues are derived from those durations. The rhythmic Method and learned conventions supply the subject operation. The source's teaching advice and the constructed alignment give bounded support for this use; performance remains subject to its actual execution.
+**Vocal and gestural construction.** David P. Nelson, *Solkattu Manual: An Introduction to the Rhythmic Language of South Indian Music* (2008), printed pp. 17 and 19, supplies the notation comparison above and exercise 7's duration assignments, continuing hand cycle and six-pulse preparation. **Adapt** their coordination in :5.3; the added boundary cues are derived from those durations. The rhythmic Method and learned conventions supply the subject operation. The source's teaching advice and the constructed alignment give bounded support for this use; performance remains subject to its execution.
 
-**Exploratory expressions.** The two-column duration comparison in :5.4 preserves the reported numbers but leaves their meanings unresolved. The event table adds source-supported endpoints and permits the waiting/occupation distinction. Its fixed row convention then fails for Q43, whose two attempts require a different unit. Retain useful constraints while revising the one that excludes the relevant history. David Kirsh's [analysis of external representations in problem solving](https://link.springer.com/article/10.1007/s00146-010-0272-8) supports making operations possible through external arrangements; Shipman and Marshall's [analysis of premature formality](https://people.engr.tamu.edu/shipman/formality-paper/harmful.html) supports allowing structure to develop with the work. These are conceptual and historical grounds for the construction, not comparative efficacy evidence for the particular tables. The sufficient existing log remains the lower-burden alternative when it already supports the same operation.
+**Exploratory expressions.** The two-column duration comparison in :5.4 preserves the reported numbers but leaves their meanings unresolved. The event table adds source-supported endpoints and permits the waiting/occupation distinction. Its fixed row convention then fails for Q43, whose two attempts require a different unit. Retain useful constraints while revising the one that excludes the relevant history.
+
+David Kirsh's [analysis of external representations in problem solving](https://link.springer.com/article/10.1007/s00146-010-0272-8) supports making operations possible through external arrangements; Shipman and Marshall's [analysis of premature formality](https://people.engr.tamu.edu/shipman/formality-paper/harmful.html) supports allowing structure to develop with the work. These are conceptual and historical grounds for the construction, not comparative efficacy evidence for the tables.
+
+The sufficient existing log remains the lower-burden alternative when it already supports the same operation.
 
 These are conceptual and practice-specific sources for the chosen construction, with the common sequence developed by synthesis. Reopen the choice when an available expression supports the same operation with less preparation, a local repair fails because notation rules are inadequate, or use reveals a consequential relation that the current expression hides.
 

@@ -6,12 +6,12 @@ section_id: "A.19.SPR:7"
 section_title: "Common mistakes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SPR/A.19.SPR__009_common-mistakes.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.19.SPR — Repair State and Status Wording"
   - "A.19.SPR:7 — Common mistakes"
-line_start: 35487
-line_end: 35496
+line_start: 36989
+line_end: 36998
 dependencies:
   - "A.10"
   - "A.16"
@@ -47,9 +47,9 @@ keywords:
 
 | Mistake | Symptom | Repair |
 | --- | --- | --- |
-| **Status word as cover** | `posture` or `status` hides a source relation, evidence result, assurance result, gate decision, or release claim. | Say what item has which value or relation under the direct rule. |
-| **One broad word replaces another** | `support` becomes `support posture`, `basis posture`, or `source posture`. | Recover the actual source, evidence, assurance, relation, characteristic, or reader-help claim before choosing words. |
+| **Status word as cover** | `posture` or `status` hides a source relation, evidence result, assurance result, gate decision, or release claim. | Say what item has which value or relation under the rule. |
+| **One broad word replaces another** | `support` becomes `support posture`, `basis posture`, or `source posture`. | Recover the source, evidence, assurance, relation, characteristic, or reader-help claim before choosing words. |
 | **Technical field without meaning** | A `...Status` or `...Posture` field has no object, possible values, or rule. | Complete those three facts or replace the field with an ordinary sentence. |
 | **Development status in pattern prose** | The framework-development project’s current review, dispatch, landing, release, or source-control state appears as user guidance. | Move that status to the project record; keep the reusable explanation and examples needed by the pattern user. |
-| **Everything becomes a source-language case** | Evidence, assurance, gate, Work, temporal, or lens-use claims are all sent to source or publication repair. | Use the direct pattern for the actual claim. |
+| **Everything becomes a source-language case** | Evidence, assurance, gate, Work, temporal, or lens-use claims are all sent to source or publication repair. | Use the pattern for the claim. |
 

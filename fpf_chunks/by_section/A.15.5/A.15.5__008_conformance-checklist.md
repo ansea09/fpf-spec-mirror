@@ -6,12 +6,12 @@ section_id: "A.15.5:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.5/A.15.5__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.15.5 — Work-Entry Readiness and Full-Kit Preparation"
   - "A.15.5:7 — Conformance Checklist"
-line_start: 31037
-line_end: 31050
+line_start: 32148
+line_end: 32161
 dependencies:
   - "A.10"
   - "A.15"
@@ -49,10 +49,10 @@ keywords:
 
 | ID | A conforming readiness use... | Check |
 | --- | --- | --- |
-| `CC-A15.5-1` | names the exact WorkPlan, PlanItem, intended performance, criterion, and evaluation time. | The readiness result cannot float free of the plan content and bounded entry question it judges. |
+| `CC-A15.5-1` | names the WorkPlan, PlanItem, intended performance, criterion, and evaluation time. | The readiness result cannot float free of the plan content and bounded entry question it judges. |
 | `CC-A15.5-2` | separates readiness from performed work. | No target `U.Work` occurrence is asserted unless dated work evidence is current. |
 | `CC-A15.5-3` | separates full-kit inputs, checking results and preparation/checking Work. | A readiness claim need not identify a separate checking Work. Every dated Work it does assert needs A.13 and independent A.15.1 admission; F.6 applies only to a consumed precise assignment-bound claim. |
-| `CC-A15.5-4` | cites planned baselines without rewriting them. | A.15.3 planned-filling rows remain declaration-local content inside the exact WorkPlan. |
+| `CC-A15.5-4` | cites planned baselines without rewriting them. | A.15.3 planned-filling rows remain declaration-local content inside the WorkPlan. |
 | `CC-A15.5-5` | keeps gate decisions in A.21. | When the use requires a gate result, establish it through the applicable A.21 profile application over its complete effective check set and mapping rules; readiness may supply one declared check input. |
 | `CC-A15.5-6` | keeps resource readiness and resource aggregation distinct. | Planned reservations and actual consumption are not merged. |
 | `CC-A15.5-7` | states stop, degraded-use, or recheck condition. | The reader can identify the next supported action; committing or launching still requires its separately satisfied conditions. |

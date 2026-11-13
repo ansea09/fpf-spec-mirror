@@ -6,12 +6,12 @@ section_id: "A.22.CGUS:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22.CGUS/A.22.CGUS__014_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.22.CGUS — Which Continuations Are Available? — Constraint-Governed Unfolding Structure (CGUS)"
   - "A.22.CGUS:12 — Relations"
-line_start: 40963
-line_end: 40974
+line_start: 42571
+line_end: 42582
 dependencies:
   - "A.10"
   - "A.15"
@@ -49,7 +49,7 @@ Specializes: one A.22 `U.Structure` whose local locus bindings, obtaining relati
 
 Specialized by: `E.18.3` when the same structure also satisfies its transformation-flow condition. Local applications include architecture, abduction, improvement, narrative, grounding, currentness, and first-entry uses only when their own constituents, relations, constraints, and use frames are recoverable.
 
-Coordinates with: `A.6.P` and A.6.5 for relation occurrence and reusable declaration precision; `E.18`, `E.18.NET`, and `E.18.3` for transformation-flow substrates; `A.3` and `A.15` for Method, plan, Work, and Transformation claims; `A.10` for claim-bound evidence reliance, `B.3` for an actual named assurance claim, `A.20` for internal-constraint validity, and `A.21` for gate decisions; `C.30` for architecture claims and C.32 for architecture-candidate synthesis; `E.23` for repeated quality improvement under a declared evaluation; `G.11` for currentness; `C.29` for mathematical-lens use; `C.33` for description loss that affects a declared architecture use; `E.11` for entry, `E.17` for a source-backed reader face, and `E.24.PUB` for publication occurrence, form, carrier, audience, bounded use, and availability; and `F.17`, `F.18`, and `F.9` for source-local sense, durable naming, and Bridge claims.
+Coordinates with: `A.6.P` and A.6.5 for relation occurrence and reusable declaration precision; `E.18`, `E.18.NET`, and `E.18.3` for transformation-flow substrates; `A.3` and `A.15` for Method, plan, Work, and Transformation claims; `A.10` for claim-bound evidence reliance, `B.3` for a named assurance claim, `A.20` for internal-constraint validity, and `A.21` for gate decisions; `C.30` for architecture claims and C.32 for architecture-candidate synthesis; `E.23` for repeated quality improvement under a declared evaluation; `G.11` for currentness; `C.29` for mathematical-lens use; `C.33` for description loss that affects a declared architecture use; `E.11` for entry, `E.17` for a source-backed reader face, and `E.24.PUB` for publication occurrence, form, carrier, audience, bounded use, and availability; and `F.17`, `F.18`, and `F.9` for source-local sense, durable naming, and Bridge claims.
 
 Does not replace any pattern that supplies the definition, constraint, test, method, evidence rule, or assurance rule for a neighboring claim.
 

@@ -6,21 +6,19 @@ section_id: "A.8:4"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.8/A.8__009_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.8 — Universal Core Principle: Test a U-Kind Across Domains"
   - "A.8:4 — Conformance Checklist"
-line_start: 26523
-line_end: 26533
+line_start: 27513
+line_end: 27523
 dependencies:
   - "A.11"
   - "C.3"
   - "C.3.1"
   - "E.24.UK"
-  - "F.17"
   - "F.18"
   - "F.8"
-  - "F.9"
 keywords:
   - "domain-agnostic"
   - "kernel-level U-kind admission"
@@ -32,7 +30,7 @@ keywords:
 
 | Check | Requirement |
 | --- | --- |
-| `CC-A8-1` | The test uses the applicable accepted E.24.UK result for an already admitted kind, or the independent shared-decision candidate inputs for a new proposal. `UKindAdmissionResultRef` identifies only an actual accepted result. A new proposal completes the other applicable admission conditions before admission. |
+| `CC-A8-1` | The test uses the applicable accepted E.24.UK result for an already admitted kind, or the independent shared-decision candidate inputs for a new proposal. `UKindAdmissionResultRef` identifies only an accepted result. A new proposal completes the other applicable admission conditions before admission. |
 | `CC-A8-2` | The A.8 claim is kernel-level universal-core admission, not C.3 typed reasoning. |
 | `CC-A8-3` | At least three domain-family projections are recorded. |
 | `CC-A8-4` | Each valid projection tests the same abstract contribution and contributes distinct evidence; repair a misidentified object or invalid projection before judging the candidate. Successful cases support the test rather than proving all future applications. |

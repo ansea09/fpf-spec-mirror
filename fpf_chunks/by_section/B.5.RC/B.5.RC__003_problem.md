@@ -6,12 +6,12 @@ section_id: "B.5.RC:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.RC/B.5.RC__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.5.RC — Recover a Construction from Its Description"
   - "B.5.RC:2 — Problem"
-line_start: 47735
-line_end: 47742
+line_start: 49739
+line_end: 49746
 dependencies:
   - "A.6.3.RT"
   - "B.5"
@@ -28,5 +28,5 @@ A reader can recognize the name of a result and repeat its desired properties wh
 
 Execution then fails at the first unprovided intermediate result. Guessing a plausible step can make the example work while changing the method being recovered. Repeating the requirement leaves the difficulty in place.
 
-The useful result is a recovered construction that can be performed for the intended case, or a localized missing contribution that makes the next source return, specialist request or method-development move possible.
+The result is a recovered construction that can be performed for the intended case, or a localized missing contribution that makes the next source return, specialist request or method-development move possible.
 

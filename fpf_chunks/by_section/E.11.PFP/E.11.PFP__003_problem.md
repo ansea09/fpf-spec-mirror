@@ -6,12 +6,12 @@ section_id: "E.11.PFP:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PFP/E.11.PFP__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.11.PFP — Framework Publication Form Profile for Markdown"
   - "E.11.PFP:2 — Problem"
-line_start: 104309
-line_end: 104316
+line_start: 110443
+line_end: 110450
 dependencies:
   - "A.3.2"
   - "C.29"
@@ -38,5 +38,5 @@ FPF-family publications can expose the same useful material through different he
 
 Even a navigable collection can leave readers unable to explain what its Methods accomplish together, why they are arranged that way, which assumptions and sources support several patterns, or how a narrower profile changes use. Those answers can be scattered through development notes and disappear when the pattern bodies are published.
 
-The opposite repair is also harmful. A rigid carrier template can put authorship, credits, dates, status, dependencies, build details, and maintainer records ahead of the reader's question whether or not those facts change the reader's choice. It can also force a catalogue, inquiry programme, guide, or other adjacent product to pretend that it is a framework edition. The common form must therefore be exact where shared recognition matters, practitioner-first in its opening, and explicitly limited to framework editions.
+A rigid carrier template can put authorship, credits, dates, status, dependencies, build details, and maintainer records ahead of the reader's question whether or not those facts change the reader's choice. It can also force a catalogue, inquiry programme, guide, or other adjacent product to pretend that it is a framework edition. The common form must be exact where shared recognition matters, put the practitioner's question first, and explicitly limit its scope to framework editions.
 

@@ -6,12 +6,12 @@ section_id: "A.11:4"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.11/A.11__008_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.11 — Ontological Parsimony"
   - "A.11:4 — Bias-Annotation"
-line_start: 27521
-line_end: 27526
+line_start: 28551
+line_end: 28556
 dependencies:
   - "A.6.P"
   - "A.6.RCD"

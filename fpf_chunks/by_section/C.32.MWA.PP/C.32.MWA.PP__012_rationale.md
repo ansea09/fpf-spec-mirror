@@ -6,12 +6,12 @@ section_id: "C.32.MWA.PP:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA.PP/C.32.MWA.PP__012_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.32.MWA.PP — Construct and Compare Method Performance and Provision Arrangements"
   - "C.32.MWA.PP:10 — Rationale"
-line_start: 79479
-line_end: 79498
+line_start: 83308
+line_end: 83327
 dependencies:
   - "A.3.1.MI"
   - "A.3.1.QM"
@@ -23,13 +23,13 @@ keywords:
 
 ### C.32.MWA.PP:10 - Rationale
 
-Method organization, dated Work, subject arrangement, allocation, descriptions, provider support and cultural continuation answer different questions. Treating them as isomorphic loses either useful simultaneous contribution or real dependency. Select the structures that can change the decision and compare their relations in the receiving case.
+Method organization, dated Work, subject arrangement, allocation, descriptions, provider support and cultural continuation answer different questions. Treating them as isomorphic loses either useful simultaneous contribution or dependency. Select the structures that can change the decision and compare their relations in the receiving case.
 
 Project, process and case views provide a practical test: when several views concern the same Work, their labels do not create architecture alternatives. The alternatives begin where proposed direct relations differ.
 
 **Begin with the work's subject and Method because allocation must preserve an obtaining way.** A staffing chart can name a performer for an operation nobody knows how to perform. A service catalogue can promise a result without explaining the transformation that obtains it. Recovering the supplied network first exposes this difference. It does not require a complete description of every Method before a simple available contribution is used.
 
-**Connect several structures because each can defeat the others.** A valid Method can have unavailable performers; competent performers can lack a usable interface; a reasonable local schedule can exhaust a shared expert; an authorized decision can still rest on an unsupported subject claim. C.32.MWA and C.30.ASV provide the governing distinction. The support question needs their connections made practical through exact receiving results, candidate assignments and joint demand.
+**Connect several structures because each can defeat the others.** A valid Method can have unavailable performers; competent performers can lack a usable interface; a reasonable local schedule can exhaust a shared expert; an authorized decision can rest on an unsupported subject claim. C.32.MWA and C.30.ASV provide the governing distinction. The support question needs their connections made practical through receiving results, candidate assignments and joint demand.
 
 **Generate by changing mechanisms because named forms are underdetermined.** A centralized office can perform cases, provide common tools or only maintain access. Each has different consequences. Conversely, the same operative allocation can exist in a formal office or ordinary roles. Specialization, proximity, decision placement, provider relations and common means are useful design variables only through the contributions they change.
 

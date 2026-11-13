@@ -6,24 +6,20 @@ section_id: "A.2:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2/A.2__007_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.2 — System-Role Kinds and Assignments"
   - "A.2:5 — Archetypal Grounding"
-line_start: 4671
-line_end: 4763
+line_start: 4819
+line_end: 4915
 dependencies:
   - "A.1"
-  - "A.1.1"
   - "A.15"
   - "A.2.1"
   - "A.2.5"
   - "A.2.7"
-  - "A.6.0"
-  - "A.6.5"
   - "A.6.REL"
   - "A.6.RSIR"
-  - "C.2.1"
   - "C.3"
   - "C.3.1"
   - "C.3.2"
@@ -117,16 +113,20 @@ An engineering team uses RFC 9110 while designing an HTTP service. Keep these cl
 1. `DesignTeam-2` independently counts under `ProtocolDesignerSystemRole` in the current slice when its signature criterion is satisfied.
 2. For this hypothetical assignment-bound case, suppose the practice has declared `ProtocolDesignSystemRoleAssignment` under `U.SystemRoleAssignment` according to A.2.1, and `DesignAssignment-1` is one obtaining occurrence with holder `DesignTeam-2` and assigned kind `ProtocolDesignerSystemRole`.
 3. The RFC's claim-bearing content is the source episteme in the direct source-use or external-rule relation selected by the design claim; any publication relation remains separate.
-4. In this hypothetical case, recover `DesignTeam-2` as the exact actual performer through A.13 with that same obtaining `DesignAssignment-1`, then let A.15.1 independently admit the dated design Work. Suppose this Work was performed under `DesignAssignment-1`; F.6 afterward establishes that relation to this same assignment. F.6 identifies neither assignment nor performer, and failed attribution would leave the Work intact. The Work may separately produce a MethodDescription or SystemDescription only through the applicable production claim.
+4. In this hypothetical case, recover `DesignTeam-2` as the actual performer through A.13 with that same obtaining `DesignAssignment-1`, then let A.15.1 independently admit the dated design Work.
+
+   Suppose this Work was performed under `DesignAssignment-1`; F.6 afterward establishes that relation to this same assignment. F.6 identifies neither assignment nor performer, and failed attribution would leave the Work intact. The Work may separately produce a MethodDescription or SystemDescription only through the applicable production claim.
 
 
 #### A.2:5.4 - The Same Label in Two Local Practices
 
-An editorial-review practice and a safety-assurance practice can each use `ReviewerSystemRole`. Compare their exact C.3 definitions before deciding whether one kind continues. In this case the safety-assurance condition admits a materially different contribution and member/non-member boundary, so two kinds are present. The practice names help locate those definitions; a shared label, vocabulary source, or reference-scheme spelling establishes neither sameness nor a Bridge.
+An editorial-review practice and a safety-assurance practice can each use `ReviewerSystemRole`. Compare their C.3 definitions before deciding whether one kind continues. In this case the safety-assurance condition admits a materially different contribution and member/non-member boundary, so two kinds are present. The practice names help locate those definitions; a shared label, vocabulary source, or reference-scheme spelling establishes neither sameness nor a Bridge.
 
-Suppose a staffing dashboard proposes `u-reviewer-display`: show assignments from both practices in one `Reviewer` column. First recover the two exact local kinds and any F.17 cells needed by the displayed expressions; then establish only the C.3.3 kind relation and F.9 local-sense relation that the display actually consumes. State a separate C.2.1 bounded-use assertion with direction `d-safety-to-editorial-display`, rule `r-preserve-reviewer-differences`, and tolerance `t-shared-label-only`, plus polarity and effective scheme. The rule keeps the practices' admission, independence, evidence, and completion fields separate and tolerates only the shared display label.
+Suppose a staffing dashboard proposes `u-reviewer-display`: show assignments from both practices in one `Reviewer` column. First recover the two local kinds and any F.17 cells needed by the displayed expressions; then establish only the C.3.3 kind relation and F.9 local-sense relation that the display actually consumes. State a separate C.2.1 bounded-use assertion with direction `d-safety-to-editorial-display`, rule `r-preserve-reviewer-differences`, and tolerance `t-shared-label-only`, plus polarity and effective scheme. The rule keeps the practices' admission, independence, evidence, and completion fields separate and tolerates only the shared display label.
 
-Current A.10 provenance and `RelianceDisposition=pass` can support that display use. They do not justify substitution between assignments or merge the two kinds. If an actual named assurance claim about that use is current, only its B.3 result can support that bounded assurance use; a non-positive disposition stops or narrows it. A Bridge Card can package the Bridge, bounded-use assertion, evidence, and disposition, but it grants no assignment, eligibility, capability, use suitability, or performed-Work inference. A selected `BoundedModelUseStructure` is cited only in the receiving use whose interpretation it changes.
+Current A.10 provenance and `RelianceDisposition=pass` can support that display use. They do not justify substitution between assignments or merge the two kinds. If a named assurance claim about that use is current, only its B.3 result can support that bounded assurance use; a non-positive disposition stops or narrows it.
+
+A Bridge Card can package the Bridge, bounded-use assertion, evidence, and disposition, but it grants no assignment, eligibility, capability, use suitability, or performed-Work inference. A selected `BoundedModelUseStructure` is cited only in the receiving use whose interpretation it changes.
 
 #### A.2:5.5 - A Relation Participant Slot Named `role`
 

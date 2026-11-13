@@ -6,12 +6,12 @@ section_id: "C.3:6"
 section_title: "Decision Split"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__008_decision-split.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.3 — Kinds, Intent and Extent, and Typed Reasoning"
   - "C.3:6 — Decision Split"
-line_start: 55137
-line_end: 55156
+line_start: 57417
+line_end: 57438
 dependencies:
   - "A.1"
   - "A.11"
@@ -60,7 +60,9 @@ keywords:
 | Is this kind proposed as another durable public FPF `U.*` kind? | `E.24.UK`, followed by applicable naming patterns |
 | Is a candidate, quality, relation, construction, episteme, status, publication occurrence, or Work being identified? | Its direct subject pattern; C.3 consumes that result and does not create it by classification notation |
 
-When a constructive trace or working model and a target kind or logical representation must be inspected together, explain their correspondence using the content in the following paragraph. `B.3.5:4.1` provides an optional block for recording that account. C.3 supplies the kind, admissibility, judgment, subkind and kind-correspondence content actually needed. Use A.22 when the receiving question needs a selected structure, and A.22.CGUS for a remaining question about potential continuations and their conditions; test any required formal qualification under that pattern. For general diagnostic recovery of a subject construction from an inadequate account, use `A.7.1`.
+When a constructive trace or working model and a target kind or logical representation must be inspected together, explain their correspondence.
 
-The account identifies the source and typed or logical target, what the passage preserves or loses, and the supported reuse with its substitution limits. Name an F.9 Bridge or C.3.3 kind correspondence when the use actually claims or consumes one. Supply `CL` or `CL^k` when the consumed assurance or calibration account requires it. Evidence and proof retain their own subject patterns; a changed slice or notation alone supplies no Bridge.
+The account identifies the source and typed or logical target, what the passage preserves or loses, and the supported reuse with its substitution limits. Name an F.9 Bridge or C.3.3 kind correspondence when the use claims or consumes one. Supply `CL` or `CL^k` when the consumed assurance or calibration account requires it. Evidence and proof retain their own subject patterns; a changed slice or notation alone supplies no Bridge.
+
+`B.3.5:4.1` provides an optional block for recording that account. C.3 supplies the kind, admissibility, judgment, subkind and kind-correspondence content needed. Use A.22 when the receiving question needs a selected structure, and A.22.CGUS for a remaining question about potential continuations and their conditions; test any required formal qualification under that pattern. For general diagnostic recovery of a subject construction from an inadequate account, use `A.7.1`.
 

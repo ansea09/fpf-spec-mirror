@@ -6,12 +6,12 @@ section_id: "C.39.MF:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.MF/C.39.MF__004_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.39.MF — Choose and Reopen a Method Development Focus"
   - "C.39.MF:2 — Problem"
-line_start: 83692
-line_end: 83697
+line_start: 87751
+line_end: 87756
 dependencies:
   - "A.15.6"
   - "A.3.1"
@@ -23,7 +23,7 @@ keywords:
 
 ### C.39.MF:2 - Problem
 
-A focus chosen too broadly turns every artifact and supporting System into a Method part. A focus chosen too narrowly optimizes one operation while the receiving result still depends on several Methods or a support relation. A familiar label can also turn a project-local shortlist into an alleged professional family.
+A focus chosen too broadly turns every artifact and supporting System into a Method part. A focus chosen too narrowly optimizes one operation while the receiving result depends on several Methods or a support relation. A familiar label can also turn a project-local shortlist into an alleged professional family.
 
 The project then asks the wrong downstream question. It builds a repertoire for a tool problem, qualifies a candidate account as though it were an identified Method, or compares “architectures” that are only differently drawn views of the same Work.
 

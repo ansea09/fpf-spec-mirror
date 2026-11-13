@@ -6,12 +6,12 @@ section_id: "C.3.1:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__002_use-this-when.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.3.1 — Kind Identity and Subkind Relations (U.Kind and U.SubkindOf)"
   - "C.3.1:0 — Use This When"
-line_start: 55240
-line_end: 55253
+line_start: 57522
+line_end: 57535
 dependencies:
   - "A.1"
   - "A.11"
@@ -50,9 +50,9 @@ Use this pattern when work must recover one reusable kind, decide whether one ki
 
 **What this buys.** The user gets an operational kind-continuity test, a replayable subkind test, and a preorder of subkind facts distinct from declaration identity, current extension, evidence, bridging, and public naming.
 
-**Primary EntityOfConcern.** One `U.Kind` individual recovered through its candidate domain, operative membership condition, intended member/non-member distinction, and continuity rule; or one proposed `U.SubkindOf` relation between exact kind participants within declared applicability.
+**Primary EntityOfConcern.** One `U.Kind` individual recovered through its candidate domain, operative membership condition, intended member/non-member distinction, and continuity rule; or one proposed `U.SubkindOf` relation between kind participants within declared applicability.
 
-**First useful move.** Write the ordinary claim first: `CoolingPumpKind is a subkind of PumpKind because every candidate that satisfies the declared cooling-pump condition also satisfies the pump condition.` Then name the exact criteria and applicability that make that statement true. Introduce an occurrence designator or formal equivalence grouping only when a receiver uses it.
+**First useful move.** Write the ordinary claim first: `CoolingPumpKind is a subkind of PumpKind because every candidate that satisfies the declared cooling-pump condition also satisfies the pump condition.` Then name the criteria and applicability that make that statement true. Introduce an occurrence designator or formal equivalence grouping only when a receiver uses it.
 
 **Not this pattern when.** Use C.3.2 for a declaration, admissibility result, candidate classification, or extension; C.3.3 only for a claimed correspondence between independently identified distinct kinds; and `E.24.UK` when admitting another durable public kind rather than using an already admitted `U.Kind` individual.
 

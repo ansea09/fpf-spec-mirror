@@ -6,12 +6,12 @@ section_id: "E.10.D2:8"
 section_title: "Neighboring use routing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__009_neighboring-use-routing.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:8 — Neighboring use routing"
-line_start: 102485
-line_end: 102552
+line_start: 108261
+line_end: 108338
 dependencies:
   - "A.7"
   - "C.2.1"
@@ -36,11 +36,11 @@ keywords:
 
 ### E.10.D2:8 - Neighboring use routing
 
-Open a neighboring object only after naming the receiving use and recovering the description episteme. The same episteme can participate in several of the uses below; each use retains its own subject pattern, participants, obtaining condition, and identity.
+Open a neighboring object only after naming the receiving use and recovering the description episteme. The same episteme can participate in several of the uses below. Each use retains its subject pattern, participants, obtaining condition, and identity.
 
 #### E.10.D2:8.1 - Describing use, viewpoint, and view
 
-For one named describing use, state that the use selects one exact `U.Viewpoint` episteme P when that selection changes what is read or checked. It says from which concern-bearing viewpoint the already identified episteme is being read for that use.
+For one named describing use, state that the use selects one exact `U.Viewpoint` episteme P when that selection changes what is read or checked. This selection says from which concern-bearing viewpoint the already identified episteme is being read for that use.
 
 That selection:
 
@@ -50,23 +50,31 @@ That selection:
 * selects no receiving view and performs no A.6.3 viewing construction;
 * may change between two describing uses while the episteme remains unchanged.
 
-Call the same episteme a `U.View` only when it conforms to at least one exact `U.Viewpoint` episteme under E.17.0's fixed membership rule. Direct authoring and A.6.3 source-to-receiving construction can produce an episteme but grant no view membership. A rendering, publication form, or carrier-borne display is not a view by appearance. If one use selects several viewpoints, keep each identified. Use C.13 only when that use depends on the plurality as a collection and A.22 only when it depends on their organization; do not overload one context qualification.
+Call the same episteme a `U.View` only when it conforms to at least one exact `U.Viewpoint` episteme under E.17.0's fixed membership rule. Direct authoring and A.6.3 source-to-receiving construction can produce an episteme but grant no view membership. A rendering, publication form, or carrier-borne display is not a view by appearance.
+
+If one use selects several viewpoints, keep each identified. Use C.13 only when that use depends on the plurality as a collection and A.22 only when it depends on their organization; do not overload one context qualification.
 
 #### E.10.D2:8.2 - Scope, model use, grounding, evidence, and currentness
 
 Use A.2.6 when the receiving use depends on the exact claim scope and its context-slice membership. Use A.1.1 when the receiving use depends on one exact `BoundedModelUseStructure`. Neither scope nor structure becomes a description constituent merely because a table displays it.
 
-Use C.2.1 empirical grounding only when claims must be mapped to exact observation, intervention, measurement, or test relations involving one grounding holon. Retain an adequate evidence-provenance basis; use A.10 when the source-to-use path is still implicit or a replayable account is needed; use B.3 when an assurance claim is made or its material-reliance threshold is met. Evidence, assurance, or an evaluation result can support an assertion about a description or its specification use; none makes the subject-side claim true, changes the EntityOfConcern, or mutates the description episteme. State the exact validity or reliance window when that receiving use depends on one.
+Use C.2.1 empirical grounding only when claims must be mapped to exact observation, intervention, measurement, or test relations involving one grounding holon.
+
+Retain an adequate evidence-provenance basis. Use A.10 when the source-to-use path is still implicit or a replayable account is needed. Use B.3 when an assurance claim is made or its material-reliance threshold is met.
+
+Evidence, assurance, or an evaluation result can support an assertion about a description or its specification use; none makes the subject-side claim true, changes the EntityOfConcern, or mutates the description episteme. State the exact validity or reliance window when that receiving use depends on one.
 
 Retain an adequate currentness basis for the description edition, evidence path, harness, viewpoint, publication or other neighbor. Use G.11 when a changed premise or condition may alter that basis and the receiving use needs a refresh decision. A currentness judgment applies to that exact object or relation.
 
-Where claims cross reference schemes, first recover the exact F.17 source and receiving senses and the obtaining F.9 Bridge needed by the direct use. A separate current C.2.1 claim states whether that Bridge is suitable for the named bounded use, direction, correspondence rule, and loss tolerance. For reliance on that claim, preserve the A.10 evidence-provenance path for that same use; ordinary evidence reliance requires the applicable local RelianceDisposition, while an actual named assurance claim requires its B.3 result for the same bounded assurance use. A Bridge, profile, card, or shared spelling is neither a licence nor proof that comparison, translation, or work occurred.
+Where claims cross reference schemes, first recover the exact F.17 source and receiving senses and the obtaining F.9 Bridge needed by the direct use. A separate current C.2.1 claim states whether that Bridge is suitable for the named bounded use, direction, correspondence rule, and loss tolerance.
+
+For reliance on that claim, preserve the A.10 evidence-provenance path for that same use. Ordinary evidence reliance requires the applicable local RelianceDisposition, while an actual named assurance claim requires its B.3 result for the same bounded assurance use. A Bridge, profile, card, or shared spelling is neither a licence nor proof that comparison, translation, or work occurred.
 
 #### E.10.D2:8.3 - Edition, publication, form, and carrier
 
 Changed ClaimGraph, EntityOfConcern, or effective ReferenceScheme identifies another episteme under C.2.1. When the receiving use also claims continuity between two epistemes, use the exact C.2.1 edition relation. A version label, file history, publication order, shared name, or collection membership establishes neither another episteme nor edition continuity.
 
-Use E.24.PUB to distinguish these actual publication-side objects and relations:
+Use E.24.PUB to distinguish these publication-side objects and relations:
 
 | Current object or relation | What it does | What it does not establish |
 |---|---|---|
@@ -78,7 +86,9 @@ Use E.24.PUB to distinguish these actual publication-side objects and relations:
 | independently identified carrier C | supplies an actual state or realization from which X can be recovered | episteme identity or truth of the expressed claims |
 | publication occurrence | makes the selected edition available to the declared audience for the declared bounded use | expression, bearing, access work, reading, or reliance |
 
-E.24.PUB defines `PublicationExpressionRelation(E,X,U)`, `PublicationExpressionBearingRelation(C,X)` and exact `EpistemePublicationRelation(E,A,U,X,C)`. A selected reusable F adds X/F conformance. Its form-mediated relations preserve their quantified uses with the same X as witness for availability. Rendering, printing, uploading, indexing or access-control Work remains separately governed. Plain “published episteme” names contingent participation in a publication occurrence.
+E.24.PUB defines `PublicationExpressionRelation(E,X,U)`, `PublicationExpressionBearingRelation(C,X)` and exact `EpistemePublicationRelation(E,A,U,X,C)`. A selected reusable F adds X/F conformance. Its form-mediated relations preserve their quantified uses with the same X as witness for availability.
+
+Rendering, printing, uploading, indexing or access-control Work remains separately governed. Plain “published episteme” names contingent participation in a publication occurrence.
 
 For an inspection card, distinguish the organized claims that constitute E, the filled expression X, reusable layout rules F and the sheet or file C. A publication occurrence can make E available through X and C to a maintenance team for one bounded use. Recover the object needed by the question and its actual predicate.
 

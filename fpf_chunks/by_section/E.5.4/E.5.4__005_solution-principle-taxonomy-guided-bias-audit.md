@@ -6,12 +6,12 @@ section_id: "E.5.4:4"
 section_title: "Solution — Principle‑Taxonomy‑Guided Bias Audit"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5.4/E.5.4__005_solution-principle-taxonomy-guided-bias-audit.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.5.4 — Cross‑Disciplinary Bias Audit"
   - "E.5.4:4 — Solution — Principle‑Taxonomy‑Guided Bias Audit"
-line_start: 96686
-line_end: 96708
+line_start: 101923
+line_end: 101945
 dependencies:
   - "E.3"
   - "E.5"
@@ -34,10 +34,10 @@ keywords:
 
 3. **Scope‑or‑Balance rule**
    * If an unjustified imbalance is found and universality is intended, revise the claims or explanation to correct the weighting or address the neglected concern.
-   * If imbalance is intentional (domain‑specific pattern), mark the
-     scope explicitly: *“Applies primarily to thermodynamic systems.”*
+   * If a domain‑specific pattern has an intentional imbalance, state its scope. For example, *“Applies primarily to thermodynamic systems.”*
 
 4. **Bias annotation**
-   The pattern carries a short **Bias-Annotation** stating the result of the five-lens examination: any material weighting, its justification, and the scope or correction needed for the intended use. Keep workflow checklists,
-   reviewer metadata and other data outside the Core, along with tips on data formats and data governance.
+   The pattern carries a short **Bias-Annotation** reporting the result of the five-lens examination, including any material weighting, its justification, and the scope or correction needed for the intended use.
+
+   Keep workflow checklists, reviewer metadata and other data outside the Core, along with tips on data formats and data governance.
 

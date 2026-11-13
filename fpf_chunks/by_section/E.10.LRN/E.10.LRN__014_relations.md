@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.10.LRN"
-pattern_title: "Recovering What “Learning” Means in the Current Claim"
+pattern_title: "Recover What “Learning” Means in This Claim"
 section_id: "E.10.LRN:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.LRN/E.10.LRN__014_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "E.10.LRN — Recovering What “Learning” Means in the Current Claim"
+  - "E.10.LRN — Recover What “Learning” Means in This Claim"
   - "E.10.LRN:12 — Relations"
-line_start: 100814
-line_end: 100820
+line_start: 106462
+line_end: 106468
 dependencies:
   - "A.10"
   - "A.15"

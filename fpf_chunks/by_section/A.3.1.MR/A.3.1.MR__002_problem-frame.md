@@ -6,12 +6,12 @@ section_id: "A.3.1.MR:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MR/A.3.1.MR__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.3.1.MR — Candidate-Method Recovery from Work Evidence"
   - "A.3.1.MR:1 — Problem frame"
-line_start: 9842
-line_end: 9866
+line_start: 10229
+line_end: 10253
 dependencies:
   - "A.10"
   - "A.13"
@@ -31,23 +31,23 @@ keywords:
 
 **Use this when.** Use this pattern when you have observations or records from several performances and want to understand what reusable way they may show, but the reusable way being recovered has not yet been admitted as a Method.
 
-**First useful result.** Return a traceable provisional explanation of the reusable way the material may show, its real rivals, important gaps and limits—or state that the material shows only what happened. A distinguishing question is included when it changes the intended recovery or downstream use; neither an answerable future test nor an investigation plan is required merely to finish the account.
+**First useful result.** Return a traceable provisional explanation of the reusable way the material may show, its rivals, important gaps and limits—or state that the material shows only what happened. A distinguishing question is included when it changes the intended recovery or downstream use; neither an answerable future test nor an investigation plan is required merely to finish the account.
 
 **Three recognition cases.**
 
 - Several maintenance visits have videos, logs, notes, and known performers. Most show one inspection order, while one changes order after a vibration cue. The question is whether the evidence supports a fixed-order way, a cue-responsive way, or only a local sequence.
-- Event data has been prepared and a discovery tool has produced a behavioural model. The question is what the selected data and modeling choices actually support, including what embodied, discretionary, or unrecorded contributions may be missing.
-- Several practitioners describe “the same practice,” but their accounts still differ in applicability, participant meanings, intended result, or stop. The question is whether one candidate reusable way, several candidates, or no reusable account can yet be distinguished.
+- Event data has been prepared and a discovery tool has produced a behavioural model. The question is what the selected data and modeling choices support, including what embodied, discretionary, or unrecorded contributions may be missing.
+- Several practitioners describe “the same practice,” but their accounts differ in applicability, participant meanings, intended result, or stop. The question is whether one candidate reusable way, several candidates, or no reusable account can yet be distinguished.
 
 **What goes wrong if missed.** One vivid occurrence is generalized into a Method. Repeated event order is treated as reusable applicability. Several rival candidate subjects are combined into one false EntityOfConcern. A mined model, executable diagram, or coherent account is called a MethodDescription before a Method has been admitted. Missing tacit or discretionary contributions disappear behind the record format.
 
-**What this buys.** A project can use imperfect evidence without overclaiming. Each positive candidate has a truthful subject, source-to-claim trace and important limits, with real rivals or unresolved ambiguity preserved. A useful distinguishing question remains separate from a commitment to investigate it. Weak evidence can return a useful record-only result; `RMP.10` follows only when its larger contribution is needed.
+**What this buys.** A project can use imperfect evidence without overclaiming. Each positive candidate has a truthful subject, source-to-claim trace and important limits, with rivals or unresolved ambiguity preserved. A useful distinguishing question remains separate from a commitment to investigate it. Weak evidence can return a useful record-only result; `RMP.10` follows only when its larger contribution is needed.
 
 **Not this pattern when.** Use the closest applicable pattern instead:
 
 - If the evidence no longer leaves rival candidate ways and the remaining question is whether the proposed way qualifies as the `U.Method` being identified—or which identity claim needs repair—use `A.3.1`.
 - If the Method is already identified and the question is whether an episteme is its MethodDescription, use `A.3.2`.
-- If wording still hides the object or relation being asserted, use `F.19`; follow an `E.10` route only for a remaining FPF word, kind, or relation question.
+- If wording hides the object or relation being asserted, use `F.19`; follow an `E.10` route only for a remaining FPF word, kind, or relation question.
 - If the question concerns one dated Work occurrence only, use `A.15.1`.
 - If the project needs prospective practice-architecture synthesis, use `C.32.MWA`.
 - If the domain needs a complete reconstruction programme, use `RMP.10`.

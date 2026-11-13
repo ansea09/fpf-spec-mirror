@@ -6,12 +6,12 @@ section_id: "E.17.1:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.17.1 — Viewpoint Bundle Library - Reusable Viewpoint Reference Bundles"
   - "E.17.1:3 — Forces"
-line_start: 106668
-line_end: 106677
+line_start: 113189
+line_end: 113198
 dependencies:
   - "A.16.0"
   - "A.22"
@@ -39,9 +39,9 @@ keywords:
 
 | Force | Tension |
 |---|---|
-| **Reuse vs local fit** | Authors want reusable viewpoint families, but a local project may still need a subset or a context-specific extension. |
-| **Stable identity vs evolution** | Bundles must stay stable enough for long-term reuse while still admitting editioned change. |
-| **EntityOfConcern clarity vs label convenience** | A bundle library is a catalogue episteme whose members reference exact viewpoint epistemes, yet teams often prefer one reader-facing label across viewpoint, view, publication form, and carrier. |
+| **Reuse vs local fit** | Authors want reusable viewpoint families, but a local project may need a subset or a context-specific extension. |
+| **Stable identity vs evolution** | Bundles must stay stable enough for long-term reuse while admitting editioned change. |
+| **EntityOfConcern clarity vs label convenience** | A bundle library is a catalogue episteme whose members reference viewpoint epistemes, yet teams often prefer one reader-facing label across viewpoint, view, publication form, and carrier. |
 | **Engineering vs publication discipline** | Engineering viewpoints and publication viewpoints both matter, but their reader-facing designators must not collapse into one lexical namespace. |
-| **Rich libraries vs cognitive economy** | A library should be rich enough for real reuse without becoming so large that authors cannot choose from it coherently. |
+| **Rich libraries vs cognitive economy** | A library should be rich enough for reuse without becoming so large that authors cannot choose from it coherently. |
 

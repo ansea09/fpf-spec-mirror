@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.19.UNM"
-pattern_title: "Normalize Coordinate Values under Declared Invariants (UNM)"
+pattern_title: "Normalize Coordinate Values under Declared Invariants"
 section_id: "A.19.UNM:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UNM/A.19.UNM__014_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.19.UNM — Normalize Coordinate Values under Declared Invariants (UNM)"
+  - "A.19.UNM — Normalize Coordinate Values under Declared Invariants"
   - "A.19.UNM:12 — Relations"
-line_start: 37829
-line_end: 37847
+line_start: 39356
+line_end: 39374
 dependencies:
 keywords:
   - "CV→NCV"
@@ -19,7 +19,7 @@ keywords:
   - "NormalizationInvariant[*]"
   - "NormalizationMethodId"
   - "NormalizationMethodInstanceId"
-  - "fail-closed tri-state guard (pass"
+  - "fail-closed tri-state guard (pass\\"
   - "normalization"
   - "validity window (no implicit “latest”)"
   - "≡_UNM"
@@ -39,7 +39,7 @@ keywords:
 - `G.0` (CG-frame admissibility gates used downstream)
 - `G.2` (SoTA synthesis packs as the method‑family ingress; wiring‑only integration)
 - `E.18` (when UNM is used in transformation-flow structures/graphs; P2W freshness/work routing)
-- `C.29` when the chosen function, equivalence or quotient leaves an unresolved representation or transfer question; use an adequate local calculation directly. `B.3` applies to an actual named assurance claim.
+- `C.29` when the chosen function, equivalence or quotient leaves an unresolved representation or transfer question; use an adequate local calculation. `B.3` applies to a named assurance claim.
 
 **Used by**
 - CHR suite protocols (normalize stage), when `comparability.mode` requires normalization-based comparability.

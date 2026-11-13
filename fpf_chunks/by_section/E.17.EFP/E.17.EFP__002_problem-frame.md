@@ -6,12 +6,12 @@ section_id: "E.17.EFP:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.EFP/E.17.EFP__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.17.EFP — ExplanationFaithfulnessProfile — explanation-use discipline over existing MVPK faces"
   - "E.17.EFP:1 — Problem frame"
-line_start: 108029
-line_end: 108038
+line_start: 114685
+line_end: 114695
 dependencies:
   - "A.10"
   - "A.15"
@@ -42,11 +42,12 @@ keywords:
 
 ### E.17.EFP:1 - Problem frame
 
-The exact source episteme may need more than one publication expression or representation. Explanation work may also produce changed claim content; identify the resulting target episteme under C.2.1 rather than treating its ClaimGraph as the whole episteme or hiding changed content inside the word `rendering`. Recurrent cases include:
+The exact source episteme may need more than one publication expression or representation. Explanation work may also produce changed claim content. Identify the resulting target episteme under C.2.1 rather than treating its ClaimGraph as the whole episteme or hiding changed content inside the word `rendering`. Recurrent cases include:
 
 - a manager-readable expression of the same technical ClaimGraph;
 - connective explanation that remains entailed by the source, or else belongs to an exactly related target episteme;
 - didactic use of a sufficient source expression, including a partial expression, or of a separately identified target with an obtaining rewrite or coarsening relation;
 - exploratory use of a publication expression of a separately constituted hypothesis episteme.
-FPF already has C.2.1 for episteme identity, A.6.3 and neighboring patterns for source-to-target relations, `E.17.0` for viewpoints and views, `E.17` for reusable publication-face rules, and E.24.PUB for exact expression, form conformance, bearing and publication availability. EFP supplies only the remaining bounded explanation-use classification of one particular expression of the already identified source or target episteme.
+
+FPF uses C.2.1 for episteme identity, A.6.3 and neighboring patterns for source-to-target relations, `E.17.0` for viewpoints and views, `E.17` for reusable publication-face rules, and E.24.PUB for exact expression, form conformance, bearing and publication availability. EFP supplies only the remaining bounded explanation-use classification of one expression of the already identified source or target episteme.
 

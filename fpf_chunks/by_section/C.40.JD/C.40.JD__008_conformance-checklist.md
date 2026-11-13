@@ -6,12 +6,12 @@ section_id: "C.40.JD:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.JD/C.40.JD__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.40.JD — Develop a Way, Its Holder and Its Provision Together"
   - "C.40.JD:7 — Conformance Checklist"
-line_start: 88803
-line_end: 88812
+line_start: 93065
+line_end: 93074
 dependencies:
   - "A.12"
   - "C.32.MWA.PP"
@@ -28,7 +28,7 @@ keywords:
 
 - The wanted result and any independent capability aim are explicit.
 - The way explains the operations and conditions needed by the holder.
-- The learning or change mechanism belongs to the actual subject.
+- The learning or change mechanism belongs to the subject.
 - Performance, holder development and provision return relevant results to one another.
 - Joint costs, authority, access and continuing work are feasible at the relied-on scope.
 - A changed connection has been followed through the affected whole.

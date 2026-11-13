@@ -6,12 +6,12 @@ section_id: "B.4:10.1"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4/B.4__012_sota-echoing.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.4 — Coordinate Repeated Adaptation (Canonical Evolution Loop)"
   - "B.4:10.1 — SoTA-Echoing"
-line_start: 45957
-line_end: 45962
+line_start: 47853
+line_end: 47858
 dependencies:
   - "A.12"
   - "A.15.1"
@@ -26,7 +26,7 @@ keywords:
 
 ### B.4:10.1 - **SoTA-Echoing**
 
-The phase rhythm has historical lineage in iterative cycles such as Plan-Do-Check-Act and Observe-Orient-Decide-Act. B.4 adapts that lineage rather than treating those labels as an ontology: it distinguishes design-time accounts from run-time use, applies a kind-specific identity rule, identifies relevant activities and results, admits internal acting-side splits, and keeps evidence, deployment, publication, acceptance, and renewed use separate.
+The phase rhythm has historical lineage in iterative cycles such as Plan-Do-Check-Act and Observe-Orient-Decide-Act. B.4 adapts that lineage rather than treating those labels as an ontology: it distinguishes design-time accounts from run-time use, applies a kind-specific identity rule, identifies activities and results, admits internal acting-side splits, and keeps evidence, deployment, publication, acceptance, and renewed use separate.
 
 Canonical means the four questions recur across repeated adaptation; it does not mean every subject or project follows one identical history.
 

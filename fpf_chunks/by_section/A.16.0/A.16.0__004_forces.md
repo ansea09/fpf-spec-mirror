@@ -6,12 +6,12 @@ section_id: "A.16.0:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.0/A.16.0__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.16.0 — Keep an Episteme's Language-State and Publication History Recoverable"
   - "A.16.0:3 — Forces"
-line_start: 33624
-line_end: 33632
+line_start: 35104
+line_end: 35112
 dependencies:
   - "A.16"
   - "A.16.1"
@@ -48,6 +48,6 @@ keywords:
 | **History value vs wrapper inflation** | Publish lineage only when it matters, without making trajectory accounts mandatory around every admissible move. |
 | **Lineage fidelity vs readable publication** | Trajectory history must stay branch-aware without becoming unreadable bookkeeping. |
 | **Seam usefulness vs endpoint discipline** | Upstream publications must be useful while remaining visibly upstream of endpoint admission. |
-| **Account clarity vs neighboring rules** | The trajectory account must explain heavy-history cases without taking over the position, move, publication, path, or endpoint rules. |
+| **Account clarity vs neighboring rules** | The trajectory account must explain cases that need history without taking over the position, move, publication, path, or endpoint rules. |
 | **Local move lineage vs bridge entry** | A trajectory may later cross viewpoint or context boundaries, but that crossing does not redefine its move or lineage semantics. |
 

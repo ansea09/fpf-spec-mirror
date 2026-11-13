@@ -6,12 +6,12 @@ section_id: "C.38:8"
 section_title: "Anti-patterns"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.38/C.38__009_anti-patterns.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.38 — Construct Comparable Ways to Obtain One Result"
   - "C.38:8 — Anti-patterns"
-line_start: 82616
-line_end: 82627
+line_start: 86648
+line_end: 86659
 dependencies:
   - "A.10"
   - "A.15.9"

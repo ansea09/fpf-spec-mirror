@@ -6,12 +6,12 @@ section_id: "A.21:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.21/A.21__006_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.21 — Gate Decisions from Independent Check Results"
   - "A.21:4 — Solution"
-line_start: 39873
-line_end: 40021
+line_start: 41451
+line_end: 41599
 dependencies:
   - "A.10"
   - "A.15.5"
@@ -60,7 +60,7 @@ GateDecisionResult:
 
 `decisionSubjectRef` names the proposal, transition, crossing, or prospective work-entry claim being decided. `boundedActionRef` names what the practitioner may do or must hold. Neither identifies a later Work occurrence.
 
-One result is identified by the tuple containing the gate, decision subject, bounded action, profile application, canonical required and optional check-application identity sets, the exact consumed check-application result refs, scope, and qualification window. A changed rule edition, checked subject, criterion, case, result, scope, or window requires another result. The decision value and rationale are the content derived for that fixed tuple; a contradictory value for the same tuple is an error, not another result to merge.
+One result is identified by the tuple containing the gate, decision subject, bounded action, profile application, canonical required and optional check-application identity sets, the consumed check-application result refs, scope, and qualification window. A changed rule edition, checked subject, criterion, case, result, scope, or window requires another result. The decision value and rationale are the content derived for that fixed tuple; a contradictory value for the same tuple is an error, not another result to merge.
 
 The rationale links every check-application result to its mapping rule and then to the aggregate and action consequence. A `GateDecisionExplanation` may restate the rationale and decision value in ordinary language. It is optional and creates no additional decision; the identified result remains the basis for its explanation.
 
@@ -142,7 +142,7 @@ An optional application affects the aggregate only when the cited profile rule s
 
 #### A.21:4.6 - Scope, composition, and change
 
-Compose check sets only through the exact profile applications that cover the decision subject and scope. A more specific application may add, replace, or remove a check only when its policy rule and applicability fact say so. Preserve parameterized identities such as regulator X and its rule edition.
+Compose check sets only through the profile applications that cover the decision subject and scope. A more specific application may add, replace, or remove a check only when its policy rule and applicability fact say so. Preserve parameterized identities such as regulator X and its rule edition.
 
 `lane`, `locus`, `subflow`, and `profile` may be used as scope values only when the selected structure or policy defines the corresponding boundary for this application. A scope label alone neither selects a profile nor merges check applications.
 Recompute the result when the decision subject, bounded action, profile application, required set, check application identity or result, scope, or window changes. A refresh, edition bump, expired evidence window, changed crossing, or changed path slice matters only when it changes one of those inputs under its own pattern.
@@ -151,13 +151,13 @@ Recompute the result when the decision subject, bounded action, profile applicat
 
 Use `LaunchGate` only when an A.21 gate decision is needed for one prospective `workEntryClaimRef`, WorkPlan or PlanItem entry question, and bounded attempted action. The gate refers to that prospective claim; it never targets a not-yet-existing Work individual.
 
-`A.15.5` remains the ordinary route for full-kit and work-entry readiness. Add a LaunchGate only when the selected transformation-flow structure actually contains that gate use. Freshness, design-run-tag consistency, A.20 ingress validity, structural crossing, and SquareLaw are checks only when their exact claims, rules, and defining patterns are current. No one of them is mandatory merely because the word “launch” appears.
+`A.15.5` remains the ordinary route for full-kit and work-entry readiness. Add a LaunchGate only when the selected transformation-flow structure contains that gate use. Freshness, design-run-tag consistency, A.20 ingress validity, structural crossing, and SquareLaw are checks only when their claims, rules, and defining patterns are current. No one of them is mandatory merely because the word “launch” appears.
 
 If a required ingress A.20 summary is not `satisfied` and the applied profile defines a pre-run barrier, the aggregate is `block`. Other available results remain visible; deferred checks remain `notRun`.
 
 #### A.21:4.8 - Crossing and semantic-Bridge boundary
 
-For a structural crossing, receive the exact changed-binding and crossing facts from E.18. Add a crossing check only when its criterion applies. SquareLaw is required only when the E.18 crossing rule for that case requires it.
+For a structural crossing, receive the changed-binding and crossing facts from E.18. Add a crossing check only when its criterion applies. SquareLaw is required only when the E.18 crossing rule for that case requires it.
 
 A structural crossing does not imply an F.9 semantic Bridge. Add an F.9 Bridge, bounded-use claim, reliance, optional Bridge Card, or optional `CL` only when the separate semantic-correspondence relation and downstream use obtain. A gate whose decision does not rely on semantic correspondence carries none of this apparatus. Do not encode absent Bridge material as mandatory fields with `none` values.
 
@@ -167,9 +167,9 @@ A guard event is not automatically a GateCheck. When a selected structure assign
 
 The following names are recognition aids, not a universal catalogue: freshness, design-run-tag consistency, reference-plane crossing, comparator constraints, evidence completeness, safety envelope, regulator conformance, system-role fit, channel fit, equivalence preservation, outflow audit, and snapshot consistency. Each application names its checked subject, criterion, rule edition, case, evaluation state, and any available source result.
 
-Use A.10 for claim-bound evidence reliance and B.3 when an actual named assurance claim is current. Use A.2 and C.3.2 for system-role classification, A.2.1 for exact assignments, and F.6 only for an expressly consumed assignment-bound Work attribution. A.2.6 answers whether a claim covers the selected slice; channel criteria remain with their domain pattern. Use E.18 for crossing claims within its applicable structure and the applicable comparison pattern for comparator claims.
+Use A.10 for claim-bound evidence reliance and B.3 when a named assurance claim is current. Use A.2 and C.3.2 for system-role classification, A.2.1 for assignments, and F.6 only for a consumed assignment-bound Work attribution. A.2.6 answers whether a claim covers the selected slice; channel criteria remain with their domain pattern. Use E.18 for crossing claims within its applicable structure and the applicable comparison pattern for comparator claims.
 
-If later Work is asserted, first establish its A.13 core: the performing System, exact local agential-role kind and membership criterion, and an obtaining assignment of its declared direct species for the relevant scope and time. A.15.1 independently admits that performance; F.6 applies afterward only for precise assignment-bound attribution.
+If later Work is asserted, first establish its A.13 core: the performing System, local agential-role kind and membership criterion, and an obtaining assignment of its declared direct species for the relevant scope and time. A.15.1 independently admits that performance; F.6 applies afterward only for assignment-bound attribution.
 
 #### A.21:4.10 - Publication, rationale, and reuse
 

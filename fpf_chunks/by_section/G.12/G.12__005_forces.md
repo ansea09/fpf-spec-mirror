@@ -6,12 +6,12 @@ section_id: "G.12:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.12/G.12__005_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.12 — DHC Dashboards (Discipline-Health Time Series and Views)"
   - "G.12:3 — Forces"
-line_start: 132574
-line_end: 132583
+line_start: 140699
+line_end: 140708
 dependencies:
   - "A.19"
   - "A.2.6"
@@ -56,6 +56,6 @@ keywords:
 | Readable view vs replay | A useful dashboard should be easy to read, while every relied-on coordinate must return to its exact definition and result. |
 | Stable history vs changed definitions | A new method or Scale edition may invalidate trend comparability without changing historical results. |
 | Optional publication vs local use | A local view may be enough; audience availability adds a separate publication relation. |
-| Selective refresh vs process burden | Refresh needs actionable pins, but a one-off view needs no telemetry framework. |
+| Selective refresh vs process burden | Refresh needs pins that identify the changed basis and the affected results, but a one-off view needs no telemetry framework. |
 | Set-valued results vs headline pressure | A view can summarize without manufacturing a scalar winner. |
 

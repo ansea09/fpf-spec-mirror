@@ -6,12 +6,12 @@ section_id: "E.18:3"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__004_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:3 — Problem"
-line_start: 110270
-line_end: 110276
+line_start: 117037
+line_end: 117043
 dependencies:
   - "A.15.1"
   - "A.15.PROD"
@@ -39,8 +39,8 @@ keywords:
 
 ### E.18:3 - Problem
 
-1. **Mathematical lens != selected structure.** A catalog of morphism-scoped, transformation-scoped, mechanism-scoped, work-scoped, or refresh-scoped patterns does not, by itself, explain **how the whole selected structure is built, constrained, and audited**.
+1. **Confusing a mathematical description with the selected structure.** A catalog of morphism-scoped, transformation-scoped, mechanism-scoped, work-scoped, or refresh-scoped patterns does not, by itself, explain **how the whole selected structure is built, constrained, and audited**.
 2. **Flow proliferation.** Multiple “reference flows” can be declared; practitioners need **one structure discipline** that keeps their flow relations typed and comparable **without privileging any single flow**.
 3. **Unsafe publication.** Faces re-list inputs and outputs, hide scalarization, omit edition and plane pins, or present a Bridge Card, `CL` value, UTS row, or policy id as if it made a GateCrossing or gate decision current.
-4. **Cycles without norms.** Selection↔Planning loops run without an explicit **budget (Γ_time)**, an exact stale-measurement finding and any separately identified refresh plan it triggers, or **slice-scoped** refresh; a pre-run gate decision is mistaken for actual launch bindings, or a `FinalizeLaunchValues` record is written before an exact Work occurrence and its independently obtaining bindings exist.
+4. **Cycles without norms.** Selection↔Planning loops run without an explicit **budget (Γ_time)**, an identified stale-measurement finding and any separately identified refresh plan it triggers, or **slice-scoped** refresh. A pre-run gate decision is mistaken for actual launch bindings, or a `FinalizeLaunchValues` record is written before a Work occurrence and its independently obtaining bindings exist.
 

@@ -6,12 +6,12 @@ section_id: "C.19.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.2/C.19.2__006_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.19.2 — Use-Bounded Apparatus Application"
   - "C.19.2:4 — Solution"
-line_start: 62074
-line_end: 62129
+line_start: 64565
+line_end: 64620
 dependencies:
   - "A.15.1"
   - "A.15.2"
@@ -38,7 +38,7 @@ keywords:
 
 #### C.19.2:4.1 - Keep the five positions separate
 
-Use this minimal lens before taking a branch:
+Use this lens before taking a branch:
 
 1. **Declared use:** the practical question, direct result kind, claimed guarantee, non-negotiable constraints, and horizon.
 2. **Selected or candidate direct-kind object:** the method description, model, ontology module, formal technique, or other governed object being considered.
@@ -48,9 +48,9 @@ Use this minimal lens before taking a branch:
 
 The intended reader may also be the person-system that performs the Work, but reader position and performer relation remain different.
 
-#### C.19.2:4.2 - Select the truthful application branch
+#### C.19.2:4.2 - Select the application branch
 
-**One current apparatus.** When one direct-kind apparatus is already selected and still has a credible path to the declared result and guarantee, create no `OptionSet` and no `ChoiceResult`. Compare the smallest next adaptation/configuration work with the useful-result threshold, plan when needed, perform the work, and inspect the result.
+**One current apparatus.** When one direct-kind apparatus is already selected and has a credible path to the declared result and guarantee, create no `OptionSet` and no `ChoiceResult`. Compare the smallest next adaptation/configuration work with the useful-result threshold, plan when needed, perform the work, and inspect the result.
 
 **Candidate generation or reframing.** If no adequate current object is available, use `C.39` to develop a missing explanation of how to obtain the result, or `C.40` to vary usable material and examine the difference. Use `C.18` when generation-account or archive/front claims are needed. The declared use and eligibility basis can guide that work.
 
@@ -62,14 +62,14 @@ The intended reader may also be the person-system that performs the Work, but re
 
 `UseBoundedApparatusCandidateEligibilityPredicate@Context` is a local eligibility predicate, not a U-kind, relation kind, or candidate-generation method. A candidate is eligible only when it has a credible adaptation path to the same declared use, direct result kind, claimed guarantee, scope and horizon, and non-negotiable constraints. A candidate that cannot meet one of those values stays outside the current option set rather than becoming a “weaker” member of it.
 
-When the claimed guarantee or requirement itself is disputed, use `C.11.DUA` to appraise its purpose, contribution, burden and current force. Keep apparatus eligibility under the current declaration separate from that appraisal. Resume application under a revised declaration only when the change is available through the authority or agreement that governs it.
+When the claimed guarantee or requirement is disputed, use `C.11.DUA` to appraise its purpose, contribution, burden and current force. Keep apparatus eligibility under the current declaration separate from that appraisal. Resume application under a revised declaration only when the change is available through the authority or agreement that governs it.
 
 When choice is current, preserve the exact `C.11` contract:
 
-- `choose now` names one selected option or an honestly retained tie-set;
+- `choose now` names one selected option or a retained tie-set;
 - `reject current set` returns to a named candidate-generation pattern or closes with no current application;
 - `probe again` retains one probe and its epistemic budget because it can still change the choice;
-- `reroute` names the actual neighboring question and its subject pattern.
+- `reroute` names the neighboring question and its subject pattern.
 
 These four dispositions form the complete current `C.11` result set. “Configure the rich basis”, “adapt again”, and “use a lighter method” are option or plan contents, not extra choice-result values. A tie is not a hidden winner.
 

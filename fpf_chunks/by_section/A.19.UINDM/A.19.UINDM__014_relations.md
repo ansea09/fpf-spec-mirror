@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.19.UINDM"
-pattern_title: "Indicatorization (UINDM): Select Indicators Under a Declared Policy"
+pattern_title: "Indicatorization: Select Indicators Under a Declared Policy"
 section_id: "A.19.UINDM:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UINDM/A.19.UINDM__014_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.19.UINDM — Indicatorization (UINDM): Select Indicators Under a Declared Policy"
+  - "A.19.UINDM — Indicatorization: Select Indicators Under a Declared Policy"
   - "A.19.UINDM:12 — Relations"
-line_start: 38128
-line_end: 38142
+line_start: 39661
+line_end: 39675
 dependencies:
 keywords:
   - "CHR suite stage indicatorize"
@@ -19,7 +19,7 @@ keywords:
   - "IndicatorChoicePolicy"
   - "indicator set"
   - "indicatorization"
-  - "tri-state admissibility (pass"
+  - "tri-state admissibility (pass\\"
 ---
 
 ### A.19.UINDM:12 - Relations
@@ -27,7 +27,7 @@ keywords:
 * **Builds on**
 
   * `A.19.CN` (CN‑Spec, specifically `indicator_policy`).
-  * `A.6.1 §4.2` for operation-local declarations and `§4.8` for the exact refinement, conservative-extension or equivalence comparison being claimed.
+  * `A.6.1 §4.2` for operation-local declarations and `§4.8` for the refinement, conservative-extension or equivalence comparison being claimed.
   * `A.19.CHR:4.2.1` (CHR SlotKind lexicon).
 * **Used by**
 

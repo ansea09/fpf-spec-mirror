@@ -6,12 +6,12 @@ section_id: "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:End"
 section_title: "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW/A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW__017_a-19-declared-substrate-interpretive-view-end.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW — Interpretive Views of Declared Source Sets and Search/Outcome Spaces"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:End — A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:End"
-line_start: 36398
-line_end: 36401
+line_start: 37900
+line_end: 37903
 dependencies:
   - "A.0"
   - "A.19"

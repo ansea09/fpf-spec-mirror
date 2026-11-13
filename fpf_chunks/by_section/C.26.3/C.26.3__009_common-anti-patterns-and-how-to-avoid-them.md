@@ -6,12 +6,12 @@ section_id: "C.26.3:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.3/C.26.3__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.26.3 — Viability-Envelope Boundary Regulation"
   - "C.26.3:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 66901
-line_end: 66911
+line_start: 69935
+line_end: 69963
 dependencies:
   - "A.10"
   - "A.15"
@@ -43,10 +43,28 @@ keywords:
 
 | Anti-pattern | Symptom | Repair |
 | --- | --- | --- |
-| One metric as viability | Availability, latency, or score stands for the whole envelope. | Add the exact object filling the local viability-bearer position and the pattern used to identify it, protected promise, other dimensions, and failure mode. |
+| One metric as viability | Availability, latency, or score stands for the whole envelope. | Add the viability bearer and the pattern used to identify it, protected promise, other dimensions, and failure mode. |
 | Fixed setpoint thinking | Stability means one variable must never move. | Ask whether allostasis preserves function by changing settings, environment, boundary, or regime. |
 | Passive sensor assumption | A dashboard is treated as neutral even after it changes behavior. | Use `C.26.1` when the false passive reading changes the architecture decision; use evidence patterns for its support. |
 | Candidate intervention without a recovered object, predicate, or applicable authority | The text recommends a change without recovering its proposal-side Method, description, setting proposal, WorkPlan, access or permission claim, or Bridge proposal or description; fails to identify separately any dated Work, actual transformation, obtaining relation occurrence, or resulting state on which it relies; or claims Work no system can perform in time. | Recover the proposal-side object first; identify every actuality separately under its subject pattern; state authority and latency only for the applicable Work, change, or relation. |
 | Biological proof jump | Homeostasis or FEP language is used as proof for software or organizations. | Treat it as modeling discipline and apply existing FPF patterns to claims. |
-| Markov-blanket collapse | A statistical separation, physical interface, interface module, functional element, component, boundary description, and agency threshold are all called the Markov blanket. | Split the source phrase through `A.6.RSIR`: use `C.29` or `C.26` for lens use; use `A.1` plus the direct relation pattern for holon delimitation or boundary crossing; use `A.6.P`, `A.6.0`, and `A.6.5` for relation, signature, or slot claims; use `A.6.M` for module-interface claims; use `A.6.F` for functional claims; use `A.14`, `C.13`, or `B.3.5` for component claims; use `C.2.1` for description content, `C.30.AD` for architecture descriptions, `E.24.PUB` for a publication occurrence or form, and `E.17` when multi-view publication is current; use `A.13` for agency criteria, `C.16` for measurement construction, and `A.19` for a `CharacteristicSpace` or reusable `CharacteristicSpacePredicate` over it. |
+| Markov-blanket collapse | A statistical separation, physical interface, interface module, functional element, component, boundary description, and agency threshold are all called the Markov blanket. | Split the source phrase through `A.6.RSIR` using the routes below. |
+
+**Markov-blanket routes:**
+
+| Pattern | Claim or use |
+| --- | --- |
+| `C.29` or `C.26` | Lens use. |
+| `A.1` plus the direct relation pattern | Holon delimitation or boundary crossing. |
+| `A.6.P`, `A.6.0`, and `A.6.5` | Relation, signature, or slot claims. |
+| `A.6.M` | Module-interface claims. |
+| `A.6.F` | Functional claims. |
+| `A.14`, `C.13`, or `B.3.5` | Component claims. |
+| `C.2.1` | Description content. |
+| `C.30.AD` | Architecture descriptions. |
+| `E.24.PUB` | A publication occurrence or form. |
+| `E.17` | Multi-view publication when it is current. |
+| `A.13` | Agency criteria. |
+| `C.16` | Measurement construction. |
+| `A.19` | A `CharacteristicSpace` or reusable `CharacteristicSpacePredicate` over it. |
 

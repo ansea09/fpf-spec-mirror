@@ -6,12 +6,12 @@ section_id: "B.2.3:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.3/B.2.3__009_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.2.3 — Meta-Holon Transition With Episteme Result"
   - "B.2.3:6 — Conformance Checklist"
-line_start: 44357
-line_end: 44368
+line_start: 46159
+line_end: 46170
 dependencies:
   - "A.1"
   - "A.10"
@@ -39,10 +39,10 @@ keywords:
 | Check | Requirement |
 | --- | --- |
 | `CC-B2.3-1` | B.2 has left a whole-reidentification question before B.2.3 is used. |
-| `CC-B2.3-2` | A positive episteme-result claim requires B.2's exact candidate new whole to pass the complete A.1 criterion and current C.2.1 constitution under the already admitted `U.Episteme` kind. Failed or unresolved recognition follows :4.1. |
+| `CC-B2.3-2` | A positive episteme-result claim requires B.2's candidate new whole to pass the A.1 criterion and C.2.1 constitution under the already admitted `U.Episteme` kind. Failed or unresolved recognition follows :4.1. |
 | `CC-B2.3-3` | Retain B.2's candidate and established-result references. C.2.1's ClaimGraph, EntityOfConcern and effective ReferenceScheme remain the identity discriminators; neighboring relations and any optional durable account stay separate. |
-| `CC-B2.3-4` | Use C.2.1 for constitution and the direct patterns in :4.2 for current neighboring claims. Use E.24.PUB for publication availability, form or carrier distinctions and E.17 for a needed reader face of an accepted account. Use C.2.P for unresolved source-expression or source-to-use wording, and C.2.P.DR for claims inferred from declarative form alone. |
-| `CC-B2.3-5` | The episteme is non-agentive. Acting Systems first satisfy A.13, and synthesis or enforcement Work is independently admitted through A.15.1. F.6 enters only for an expressly consumed precise assignment-bound attribution; missing or failed F.6 alone leaves independently admitted Work intact. If the same finding also invalidates a premise actually consumed by the A.13 or A.15.1 admission, recheck that premise and its dependent conclusions. Agency-characteristic evaluation remains independent of assignment. |
+| `CC-B2.3-4` | Use C.2.1 for constitution and the patterns in :4.2 for neighboring claims. Use E.24.PUB for publication availability, form or carrier distinctions and E.17 for a needed reader face of an accepted account. Use C.2.P for unresolved source-expression or source-to-use wording, and C.2.P.DR for claims inferred from declarative form alone. |
+| `CC-B2.3-5` | The episteme is non-agentive. Acting Systems first satisfy A.13, and synthesis or enforcement Work is independently admitted through A.15.1. F.6 enters only when the receiving use consumes precise assignment-bound attribution; missing or failed F.6 alone leaves independently admitted Work intact. If the same finding also invalidates a premise consumed by the A.13 or A.15.1 admission, recheck that premise and its dependent conclusions. Agency-characteristic evaluation remains independent of assignment. |
 | `CC-B2.3-6` | Assurance for the result episteme is not silently inherited from constituent epistemes or publications. |
 | `CC-B2.3-7` | Effect-free morphing, viewing, retargeting, and controlled coarsening are not treated as B.2.3 unless whole reidentification is current. |
 

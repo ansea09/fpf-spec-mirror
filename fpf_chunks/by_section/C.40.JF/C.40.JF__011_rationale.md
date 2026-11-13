@@ -6,12 +6,12 @@ section_id: "C.40.JF:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.JF/C.40.JF__011_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.40.JF — Qualify Dependencies and Joint Reachability"
   - "C.40.JF:10 — Rationale"
-line_start: 87834
-line_end: 87839
+line_start: 92068
+line_end: 92073
 dependencies:
   - "A.10"
   - "A.15.9"
@@ -27,5 +27,5 @@ keywords:
 
 Reachability depends on conditions holding together, not merely being individually conceivable. Binding the claim first makes both rejection and retention more precise: evidence can defeat one combination without defeating every use of the contribution.
 
-Separating the qualification of each premise from the joint test also makes work reusable. A current access, capability, or support result can serve several candidates, while each candidate still needs its own compatible combination and transition basis.
+Separating the qualification of each premise from the joint test also makes work reusable. A current access, capability, or support result can serve several candidates, while each candidate needs its own compatible combination and transition basis.
 

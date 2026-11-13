@@ -6,12 +6,12 @@ section_id: "C.22.2:13"
 section_title: "Representation and Wording-Use Relation Continuity"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__014_representation-and-wording-use-relation-continuity.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:13 — Representation and Wording-Use Relation Continuity"
-line_start: 64102
-line_end: 64117
+line_start: 66842
+line_end: 66861
 dependencies:
   - "A.10"
   - "A.15"
@@ -60,7 +60,11 @@ keywords:
 
 `C.22.2` names `A.6.3.RT`, `A.6.4`, `E.17`, `F.9`, `E.18`, and `E.10` only when changed problem formulations, diagrams, functional descriptions, transformation-flow paths, wording, or `PathSlice` examples carry a current representation, bridge, retargeting, structural-reinterpretation, or wording-use claim. The card may preserve the local cue, reference, or problem-formulation follow-up reason, but it does not prove continuity or use-boundary inheritance by wording similarity.
 
-Framing is not wording repair. A framing change applies when EntityOfConcern, effective ReferenceScheme, ClaimScope, viewpoint qualification, comparison relation, use-boundary inheritance, or honest next use changes. Wording-use repair is current only when wording, diagram, functional description, transformation-flow path, Bridge, retargeting, or another representation change alters the carried problem-side representation, EntityOfConcern, effective ReferenceScheme, ClaimScope, viewpoint qualification, comparison relation, governed next use, or subject-pattern cue. Ordinary wording cleanup triggers no representation-continuity relation and does not block a Thin `ProblemCard`.
+Framing is not wording repair. A framing change applies when EntityOfConcern, effective ReferenceScheme, ClaimScope, viewpoint qualification, comparison relation, use-boundary inheritance, or next use changes.
+
+Wording-use repair is current only when wording, diagram, functional description, transformation-flow path, Bridge, retargeting, or another representation change alters the carried problem-side representation, EntityOfConcern, effective ReferenceScheme, ClaimScope, viewpoint qualification, comparison relation, governed next use, or subject-pattern cue.
+
+Ordinary wording cleanup triggers no representation-continuity relation and does not block a Thin `ProblemCard`.
 
 | Pattern or pattern family | When it matters for the card | `C.22.2` use |
 |---|---|---|

@@ -6,12 +6,12 @@ section_id: "B.1.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.1/B.1.1__006_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.1.1 — Dependency Structure and Relation Grounding"
   - "B.1.1:4 — Solution"
-line_start: 41266
-line_end: 41336
+line_start: 42878
+line_end: 42948
 dependencies:
   - "A.1"
   - "A.10"
@@ -58,7 +58,7 @@ DependencyStructure@Context:
   definingOrTestingPatternRefs:
 ```
 
-This frame records independently grounded relation claims and their participants. It is not itself a `U.Structure`. When the receiving use needs one selected dependency structure, recover all four A.22 identity discriminators: exact constituents, obtaining relation occurrences, applied constraints and named selection/use frame. The record refers to that structure and to the patterns defining its relations.
+This frame records independently grounded relation claims and their participants. It is not a `U.Structure`. When the receiving use needs one selected dependency structure, recover all four A.22 identity discriminators: constituents, obtaining relation occurrences, applied constraints and named selection/use frame. The record refers to that structure and to the patterns defining its relations.
 
 #### B.1.1:4.2 - Graph Representation
 
@@ -81,11 +81,11 @@ Use the graph to examine properties such as acyclicity, reachability, cutsets, w
 | If the edge means... | Recover... | Pattern that defines or tests the claim |
 | --- | --- | --- |
 | part of the whole | part-whole relation over admitted holons | `A.14`, `C.13`, `B.1` |
-| an entity belongs to a world-side collection | the collection's own belongs-to occurrence, or a separately grounded collection-as-whole claim | `A.14`, `C.13`, `C.16`, and the pattern that defines that collection's rule |
+| an entity belongs to a world-side collection | the collection's belongs-to occurrence, or a separately grounded collection-as-whole claim | `A.14`, `C.13`, `C.16`, and the pattern that defines that collection's rule |
 | phase of the same carrier | temporal phase relation | the carrier's identity and phase rules and `A.14`; `B.1.4` when the claim aggregates temporal phases |
 | ordered step or branch | method, process-view, Work, or order relation | `A.3.1`, `A.3.2`, `A.15.1`, or the pattern that defines the order relation; `B.1.4` for an order-sensitive or temporal aggregation claim; `C.29` when a mathematical representation-choice, transfer or reliance question remains unresolved |
 | performed work part | work occurrence relation with evidence and timing | `A.15.1` |
-| external influence, signal, supply, measurement, or control | the exact obtaining relation and its participants, with the support required by the receiving claim | `A.3.4` for an actual transformation, `C.16` for measurement, and the defining pattern for the particular supply or control relation; `A.10` when the claim needs an explicit source-to-use account for provenance or bounded reliance |
+| external influence, signal, supply, measurement, or control | the obtaining relation and its participants, with the support required by the receiving claim | `A.3.4` for an actual transformation, `C.16` for measurement, and the defining pattern for the supply or control relation; `A.10` when the claim needs a source-to-use account for provenance or bounded reliance |
 | representation, dashboard, digital twin, or architecture description | description or representation relation, not parthood | `C.2.1`, `E.17`, `C.30.AD`, `C.30.AD.BA` |
 
 #### B.1.1:4.4 - Graph Checks Are Conditional
@@ -98,5 +98,5 @@ Do not infer:
 - independence from graph separation without a rule that makes the selected relation support that inference;
 - performed work from a planned step graph;
 - whole reidentification from a graph property without B.2;
-- architecture from a graph without an exact described holon, selected structure, and architecture relation or claim.
+- architecture from a graph without a described holon, selected structure, and architecture relation or claim.
 

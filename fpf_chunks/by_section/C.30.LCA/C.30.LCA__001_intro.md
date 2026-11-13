@@ -6,12 +6,12 @@ section_id: "C.30.LCA:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.LCA/C.30.LCA__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.30.LCA — Control Structure View Adequacy (LCA)"
   - "C.30.LCA:intro — Intro"
-line_start: 74098
-line_end: 74103
+line_start: 77321
+line_end: 77326
 dependencies:
   - "A.10"
   - "A.20"
@@ -49,5 +49,5 @@ keywords:
 
 > **Type:** Architectural subpattern under `C.30`
 > **Status:** Stable
-> **Normativity:** Normative unless explicitly marked informative
+> **Normativity:** Normative unless marked informative
 

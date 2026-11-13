@@ -6,12 +6,12 @@ section_id: "A.2.9:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.9/A.2.9__012_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.2.9 — U.SpeechAct — Communicative Work and Its Intended Use"
   - "A.2.9:9 — Consequences"
-line_start: 9119
-line_end: 9133
+line_start: 9492
+line_end: 9506
 dependencies:
   - "A.10"
   - "A.13"

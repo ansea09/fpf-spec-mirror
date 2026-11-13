@@ -6,12 +6,12 @@ section_id: "A.6.RSIG:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIG/A.6.RSIG__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.RSIG — Recognition Signatures: Find the Defining Episteme for a Description"
   - "A.6.RSIG:4 — Solution"
-line_start: 14345
-line_end: 14469
+line_start: 14802
+line_end: 14924
 dependencies:
   - "A.6"
   - "A.6.P"
@@ -117,8 +117,6 @@ The same recognition question occurs in several settings:
 
 #### A.6.RSIG:4.4 - Neighbor boundaries
 
-Neighbor boundaries remain explicit:
-
 - use `A.6.B` when the reader needs to classify the boundary claims as `L/A/D/E`;
 - `E.17.0` tests viewpoint/view membership; `E.17` publishes reader-facing forms of an already accepted engineering account;
   use `E.24.PUB` when publication occurrence, form, or carrier identity affects the recognition use;
@@ -135,7 +133,7 @@ The four-part split for pattern-local recognition is:
 | --- | --- | --- |
 | Generic first-contact description recognition | `A.6.RSIG` | The neutral cue shape: description, carrier or projection, definitionEpistemeRef, exclusions, and a false neighbor when §4.1's grounded-guard condition holds. |
 | Local placement and form | `E.8` | How the pattern's `Problem frame` carries the first-reading role. |
-| Actual local semantics | The pattern itself | The pattern's governed object, solution, consequences, and conformance law. |
+| Local semantics | The pattern itself | The pattern's governed object, solution, consequences, and conformance law. |
 | Cross-pattern comparison | `E.11` | Candidate patterns, tempting wrong patterns, reclassification of the reader's question, and expanded entry-disambiguation cases. |
 
 #### A.6.RSIG:4.5 - When a neighboring pattern is needed

@@ -6,12 +6,12 @@ section_id: "E.8.ML:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8.ML/E.8.ML__007_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.8.ML — Construct a Pattern Language for Connected Methods"
   - "E.8.ML:6 — Bias-Annotation"
-line_start: 97826
-line_end: 97831
+line_start: 103349
+line_end: 103354
 dependencies:
   - "A.3.2.DE"
   - "B.1.5"
@@ -26,7 +26,7 @@ keywords:
 
 ### E.8.ML:6 - Bias-Annotation
 
-A procedure-shaped source encourages a fixed workflow; a graph tool encourages graph-shaped explanations. Start with the actual questions and their result dependencies before choosing either form.
+A procedure-shaped source encourages a fixed workflow; a graph tool encourages graph-shaped explanations. Start with the questions users bring and the results each answer depends on before choosing either form.
 
 The worked arrangement demonstrates language and identity distinctions. It is not evidence that every Method engineer benefits from the same grouping or that the resulting profile is an enacted composite Method.
 

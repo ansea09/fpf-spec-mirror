@@ -6,14 +6,13 @@ section_id: "A.2.1:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.1/A.2.1__007_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.2.1 — U.SystemRoleAssignment - Contextual System-Role Assignment"
   - "A.2.1:5 — Archetypal Grounding"
-line_start: 5082
-line_end: 5126
+line_start: 5254
+line_end: 5300
 dependencies:
-  - "A.1.1"
   - "A.15"
   - "A.15.1"
   - "A.2"
@@ -22,14 +21,9 @@ dependencies:
   - "A.2.7"
   - "A.3"
   - "A.6.5"
-  - "A.6.9"
   - "A.6.REL"
   - "C.2.1"
-  - "C.27"
-  - "C.27.TA"
-  - "C.3.3"
   - "F.6"
-  - "F.9"
 keywords:
   - "assignment predicate"
   - "direct assignment species"
@@ -73,7 +67,7 @@ The separate claim “Motor-M1 drives PumpAssembly-A during PumpRun-17” is not
 
 Two software contexts each use `ApproverSystemRole`. `ApprovalService-2` can hold an assignment that obtains in the fulfilment context; name both the occurrence and its declared species. A receiving interpretation use can cite both the assignment-occurrence reference and `Orders-Fulfilment-ModelUseStructure` when the selected structure changes that use.
 
-The structure was independently recovered under A.1.1. It qualifies the receiving interpretation and is not a generic assignment participant. A future species that truly depends on it must declare the structure as a required participant and state the stronger predicate and identity law.
+The structure was independently recovered under A.1.1. It qualifies the receiving interpretation and is not a generic assignment participant. A future species that depends on it must declare the structure as a required participant and state the stronger predicate and identity law.
 
 #### A.2.1:5.5 - Two Review Commissions
 
@@ -83,5 +77,7 @@ Alice is independently admitted as `U.System`. `Commission-A` and `Commission-B`
 
 #### A.2.1:5.6 - Reviewer and Review Report
 
-A.13 first recovers `ReviewService-4` as the exact actual performer through its obtaining review assignment, and A.15.1 independently admits `ReviewWork-82`. Because this example expressly distinguishes which assignment covered the review, F.6 afterward establishes that Work-assignment relation through the same assignment. F.6 identifies neither assignment nor performer. Failed attribution alone leaves independently admitted Work intact; recheck an admission premise only when the same finding questions it. `ReviewReport-82` is a separately identified `U.Episteme`. When the Work first constitutes that episteme and the inception claim matters, A.15.PROD recovers one local entity-inception claim from the exact Work, change, and identity bases. The report can later participate in an evidence relation.
+A.13 first recovers `ReviewService-4` as the actual performer through its obtaining review assignment, and A.15.1 independently admits `ReviewWork-82`. Because this example expressly distinguishes which assignment covered the review, F.6 afterward establishes that Work-assignment relation through the same assignment. F.6 identifies neither assignment nor performer. Failed attribution alone leaves independently admitted Work intact; recheck an admission premise only when the same finding questions it.
+
+`ReviewReport-82` is a separately identified `U.Episteme`. When the Work first constitutes that episteme and the inception claim matters, A.15.PROD recovers one local entity-inception claim from the exact Work, change, and identity bases. The report can later participate in an evidence relation.
 

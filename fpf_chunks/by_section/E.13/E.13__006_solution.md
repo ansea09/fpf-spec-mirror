@@ -6,12 +6,12 @@ section_id: "E.13:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.13/E.13__006_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.13 — Pragmatic Utility and Proxy-to-Value Alignment"
   - "E.13:4 — Solution"
-line_start: 105107
-line_end: 105171
+line_start: 111447
+line_end: 111519
 dependencies:
   - "A.10"
   - "A.21"
@@ -40,7 +40,9 @@ keywords:
 
 ### E.13:4 - Solution
 
-Use `ProxyToValueAlignment` to recover the intended value, the proxy's current use, the value at risk, and the justified repair or stop. A short answer or local repair is enough when it settles the case. When later review, reuse, or reliance needs a note, use the fields below that change the conclusion.
+Use `ProxyToValueAlignment` to recover the intended value, the proxy's current use, the value at risk, and the justified repair or stop. A short answer or local repair is enough when it settles the case.
+
+When later review, reuse, or reliance needs a note, use the fields below that change the conclusion.
 
 ```text
 ProxyToValueAlignment:
@@ -60,15 +62,15 @@ ProxyToValueAlignment:
   ReopenCondition:
 ```
 
-Keep any note as small as the case allows. Its fields help explain how the proxy serves the intended value; fill only those needed for the current conclusion, repair, stop, or later reliance.
+Record only the fields needed for the current conclusion, repair, stop, or later reliance. Use them to explain the relationship between the proxy and the intended value.
 
 #### E.13:4.1 - Name the Value Before the Proxy
 
-Name the intended value, objective, or practical payoff in terms of the work it is supposed to improve. If only the proxy can be named, lower the claim: the project has a measure, not a demonstrated value relation.
+Name the intended value, objective, or practical payoff in terms of the work it is supposed to improve. If only the proxy can be named, report that the project has a measure. Its connection to the intended value has yet to be shown.
 
 #### E.13:4.2 - Type the Proxy Use
 
-A proxy can be harmless as an orientation cue and dangerous as a target. State the current proxy use explicitly.
+A proxy can be harmless as an orientation cue and dangerous as a target. State how the proxy is being used.
 
 | Proxy use | Admissible use | Danger |
 | --- | --- | --- |
@@ -83,21 +85,27 @@ A proxy can be harmless as an orientation cue and dangerous as a target. State t
 
 #### E.13:4.3 - Ask What Got Worse
 
-Whenever a proxy improves under optimization pressure, ask what became worse or more fragile. Check at least usability, affordability, safety or harm boundary, maintainability, domain fit, source preservation, decision quality, learning, and neighboring-pattern fit when they are live in the case.
+Whenever a proxy improves under optimization pressure, ask what became worse or more fragile.
 
-If nothing worsened, say which loci were checked. If no loci were checked, do not claim value alignment.
+Check at least usability, affordability, safety or harm boundary, maintainability, domain fit, source preservation, decision quality, learning, and neighboring-pattern fit when they are live in the case.
+
+If nothing worsened, identify what was checked. If nothing was checked, do not claim value alignment.
 
 #### E.13:4.4 - Require a Minimally Viable Value Slice
 
-Require a minimally viable value slice: one compact case, worked slice, observation, trial, user/operator moment, or decision replay where the intended value is visible enough for the declared use. State whether the slice is an illustration, desk replay, or observed use, and what conclusion it supports.
+Require a minimally viable value slice: one compact case, worked slice, observation, trial, user/operator moment, or decision replay where the intended value is visible enough for the declared use.
 
-The value slice may be small. It must show the intended value rather than merely the proxy. A worked illustration can explain how a proposed repair would serve that value; it does not by itself establish an observed gain. Keep any claim about actual improvement within the comparison and evidence that support it.
+State whether the slice is an illustration, desk replay, or observed use, and what conclusion it supports.
+
+The slice may be small. It must show the intended value for the declared use. A proxy reading alone is insufficient.
+
+A worked illustration can explain how a proposed repair would serve that value; it does not by itself establish an observed gain. Keep any claim about actual improvement within the comparison and evidence that support it.
 
 #### E.13:4.5 - Repair by Value Movement
 
-When the proxy has displaced the value, choose a repair, combining these moves when needed:
+When the proxy has displaced the value, choose one or more of these repairs:
 
-- where the governing rule permits it, change the proxy use from target/gate/incentive to orientation or bounded measure; if a binding requirement must change, propose the amendment under its authority and keep the current requirement in force until that amendment takes effect;
+- where the governing rule permits it, change the proxy use from target/gate/incentive to orientation or bounded measure. If a binding requirement must change, propose the amendment under its authority and keep the current requirement in force until that amendment takes effect;
 - add a protected quality or counter-metric that names the value at risk;
 - change the work or design so the value slice improves, not only the proxy;
 - split the claim: one measure report, one value claim, one assurance or gate claim if needed;

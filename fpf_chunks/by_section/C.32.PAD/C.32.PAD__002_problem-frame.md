@@ -6,12 +6,12 @@ section_id: "C.32.PAD:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.PAD/C.32.PAD__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.32.PAD — Project Architecture Decision After Candidate Synthesis"
   - "C.32.PAD:1 — Problem frame"
-line_start: 79786
-line_end: 79905
+line_start: 83615
+line_end: 83734
 dependencies:
   - "A.1.STM"
   - "A.10"
@@ -90,9 +90,9 @@ When this decision designates a **project system-of-interest**, `projectSystemOf
 
 When the decision uses a transformation-flow network, `transformationFlowStructureNetworkRef?` names only an independently selected E.18.NET `TransformationFlowStructureNetwork@Context <: U.Structure`; `projectNetworkSelectionResultRef?` may cite the separate C.2.1 judgment about why that network answers the project question, and `architectureTransformationFlowStructureRelationRef?` cites C.30.TFS-REL when architecture use is current. A network record, a C.32.CONWAY frame or exact pair row, and this decision create no network member, cross-flow occurrence, architecture-influence occurrence, architecture relation, or other world-side fact.
 
-What goes wrong if C.32.PAD is missed: a team writes an architecture record, diagram, shortlist, ranking, or local choice without a recoverable architecture decision relation to exact project work. Later workers cannot tell which architecture configuration is selected, which structures are affected, which method they must use, which losses were accepted, or when the decision must be reopened.
+A team writes an architecture record, diagram, shortlist, ranking, or local choice without a recoverable architecture decision relation to exact project work. Later workers cannot tell which architecture configuration is selected, which structures are affected, which method they must use, which losses were accepted, or when the decision must be reopened.
 
-What C.32.PAD buys in practice: practitioners performing the project work can turn a candidate palette into one governed decision relation that is strong enough to guide work, publish an ADR-like record, support review, and reopen under architecture evolution.
+Practitioners performing the project work can turn a candidate palette into one governed decision relation that can guide work, be described in an ADR-like record, support review, and be reconsidered as the architecture evolves.
 
 Ordinary working move: recover the live decision question, cite the candidate basis, select the architecture option or bounded exception, record the trade-off over declared architecture characteristics, then bind the decision to method-use expectations, work split, source-return, and reopen conditions.
 
@@ -111,7 +111,7 @@ ArchitectureDecisionRelation@Project:
   systemOfInterestKindRef?: U.KindRef resolving to one exact local system-role kind
   systemOfInterestClassificationRef?: U.RelationRef resolving to the exact classification judgment for projectSystemOfInterestRef under systemOfInterestKindRef
   systemOfInterestAssignmentSpeciesRef?: U.RelationKindRef constrained under U.SystemRoleAssignment
-  systemOfInterestAssignmentOccurrenceRef?: U.RelationRef constrained to an obtaining occurrence of systemOfInterestAssignmentSpeciesRef, with actual participants, applicability, extent, and projectSystemOfInterestRef as holder recoverable
+  systemOfInterestAssignmentOccurrenceRef?: U.RelationRef constrained to an obtaining occurrence of systemOfInterestAssignmentSpeciesRef, with participants, applicability, extent, and projectSystemOfInterestRef as holder recoverable
   decisionSubjectRef:
   describedHolonRef:
   decisionQuestion:
@@ -150,10 +150,10 @@ ArchitectureDecisionRelation@Project:
       intendedPerformerKindRef?: U.KindRef
       intendedPerformerClassificationRef?: U.RelationRef resolving to an exact classification judgment
       currentPerformerAssignmentSpeciesRef?: U.RelationKindRef constrained under U.SystemRoleAssignment
-      currentPerformerAssignmentOccurrenceRef?: U.RelationRef constrained to an obtaining occurrence of currentPerformerAssignmentSpeciesRef, with actual participants, applicability, extent, and intendedPerformerSystemRef as holder recoverable
+      currentPerformerAssignmentOccurrenceRef?: U.RelationRef constrained to an obtaining occurrence of currentPerformerAssignmentSpeciesRef, with participants, applicability, extent, and intendedPerformerSystemRef as holder recoverable
       intendedAssignmentRequirementRef?: plan, policy, or decision-content ref stating a prospective assignment requirement; does not assert an assignment, commitment, or permission occurrence
       actualImplementationWorkRef?: U.EntityRef constrained to U.Work
-      actualImplementationWorkAttributionRef?: U.RelationRef constrained to one obtaining F.6 performedUnderAssignment relation, only when the instruction expressly represents attribution
+      actualImplementationWorkAttributionRef?: U.RelationRef constrained to one obtaining F.6 performedUnderAssignment relation, only when the instruction represents attribution
       responsibilityRelationRef?: U.RelationRef resolving to an independently obtaining admitted domain relation
       responsibilityMissingGovernor?: exact A.6.RCD result when responsibility is required but no predicate is admitted
       authorityRelationRef?: U.RelationRef resolving to an independently obtaining admitted domain relation
@@ -180,5 +180,5 @@ The decision result must make its selected option, affected structures, criteria
 
 The field names in this first-output form are publication-friendly filled-reference fields. Durable relation positions must be expressible through `A.6.5` SlotSpecs: each position has a local `SlotKind`, an admitted `ValueKind`, and a by-value or concrete `RefKind` filling mode. A field name such as `decisionSubjectRef` is not a SlotKind, not a U-kind, and not an ADR heading; it is the filled-reference field by which this relation record points to the value governed by the slot-bearing relation.
 
-When an instruction cites actual implementation Work, recover each exact actual performer through A.13 and let `actualImplementationWorkRef` name the `U.Work` occurrence independently admitted through A.15.1. Assignment species and occurrence fields remain optional neighboring claims. Add `actualImplementationWorkAttributionRef` only when the instruction or receiving use expressly represents precise assignment-bound attribution through the same obtaining A.13 assignment; missing or failed F.6 attribution alone leaves the Work ref intact while the referenced Work's independent A.13/A.15.1 grounds still hold. The decision record creates none of these facts.
+When an instruction cites actual implementation Work, recover each performer through A.13 and let `actualImplementationWorkRef` name the `U.Work` occurrence independently admitted through A.15.1. Assignment species and occurrence fields remain optional neighboring claims. Add `actualImplementationWorkAttributionRef` only when the instruction or receiving use represents precise assignment-bound attribution through the same obtaining A.13 assignment; missing or failed F.6 attribution alone leaves the Work ref intact while the referenced Work's independent A.13/A.15.1 grounds hold. The decision record creates none of these facts.
 

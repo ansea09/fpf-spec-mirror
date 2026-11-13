@@ -6,12 +6,12 @@ section_id: "A.15.7:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.7/A.15.7__013_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.15.7 — Situation-Responsive Work Steering and Next-Action Selection"
   - "A.15.7:12 — Relations"
-line_start: 31707
-line_end: 31712
+line_start: 32924
+line_end: 32929
 dependencies:
   - "A.10"
   - "A.13"
@@ -34,6 +34,6 @@ keywords:
 ### A.15.7:12 - Relations
 
 - **Builds on:** `A.3.1` for domain and steering Method identity; A.13 for each actual performer; `A.15.1` for independently admitted current Work and each separately obtaining enactment; F.6 when the result must also identify the assignment under which that Work was performed; and `A.10` when a source-to-use account must remain replayable.
-- **Coordinates with:** `A.15` for SystemRole–Method–Work alignment before next-action selection; `A.15.6` for recovery of the direct subject from project, process, or case wording before live Work steering; `A.15.2` for intended-work content and a separate WorkPlan change; `A.15.5` for work-entry readiness; `B.1.5` for admitted Method composition; `C.11` for comparison among a current `OptionSet`; `A.19` only for a current comparison or selector result; `C.18` only for an actual open-ended candidate archive/front; `C.24` for tool-call planning after the action is fixed; and `G.11` for scoped refresh.
+- **Coordinates with:** `A.15` for SystemRole–Method–Work alignment before next-action selection; `A.15.6` for recovery of the subject from project, process, or case wording before live Work steering; `A.15.2` for intended-work content and a separate WorkPlan change; `A.15.5` for work-entry readiness; `B.1.5` for admitted Method composition; `C.11` for comparison among a current `OptionSet`; `A.19` only for a comparison or selector result; `C.18` only for an open-ended candidate archive/front; `C.24` for tool-call planning after the action is fixed; and `G.11` for scoped refresh.
 - **Keeps separate:** chooser, intended performer, authority, capability, MethodDescription, plan, recommendation, performed action, result, and later Method or description change.
 

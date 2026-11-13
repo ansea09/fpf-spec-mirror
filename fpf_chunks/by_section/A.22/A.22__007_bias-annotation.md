@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.22"
-pattern_title: "Structure and Structural Views (STRUCT-CAL)"
+pattern_title: "Structure and Structural Views"
 section_id: "A.22:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__007_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.22 — Structure and Structural Views (STRUCT-CAL)"
+  - "A.22 — Structure and Structural Views"
   - "A.22:6 — Bias-Annotation"
-line_start: 40526
-line_end: 40536
+line_start: 42134
+line_end: 42144
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -76,5 +76,5 @@ keywords:
 | Diagram bias | A useful diagram or generated relation graph is attractive enough to be mistaken for the structure. Description, specification-use, and publication boundaries stay explicit. |
 | Review-only bias | A check returns the supported recognition, conclusion or action needed for the receiving use. Repair a defect when the check exposes one. |
 
-Use the checklist to inspect the selected structure claim and only the neighboring claims actually made.
+Use the checklist to inspect the selected structure claim and only the neighboring claims made.
 

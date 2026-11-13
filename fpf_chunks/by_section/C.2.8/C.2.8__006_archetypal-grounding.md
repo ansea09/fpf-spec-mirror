@@ -6,12 +6,12 @@ section_id: "C.2.8:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.8/C.2.8__006_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.2.8 — ExtractableStructuralInformation — Structure This Reader Can Recover"
   - "C.2.8:5 — Archetypal Grounding"
-line_start: 54614
-line_end: 54654
+line_start: 56865
+line_end: 56912
 dependencies:
   - "A.17"
   - "A.18"
@@ -49,7 +49,14 @@ API --write--> Store --update--> Replica --read by--> Reports
 API <--durable-write confirmation-- Store
 ```
 
-The reader is an engineer familiar with durable writes and replicas. Select the acknowledgment dependency, report-source/lag relation, rejected alternative with its reason, and reconsideration condition. Both expressions expose the same claims; the described architecture is unchanged. Compare recovery with the same three-minute budget and source access. The diagram's presence alone establishes no advantage.
+The reader is an engineer familiar with durable writes and replicas. Select these four relations:
+
+- the acknowledgment dependency;
+- the report-source/lag relation;
+- the rejected alternative with its reason;
+- the reconsideration condition.
+
+Both expressions expose the same claims; the described architecture is unchanged. Compare recovery with the same three-minute budget and source access. The diagram's presence alone establishes no advantage.
 
 Suppose a reading trial recovers three selected relations from the prose and all four from the combined expression. Report that bounded observed difference and identify the additional relation. If a source paragraph was supplied only before the second reading, the comparison also changed assistance. If the same reader encountered both forms, previous reading may contribute. These conditions prevent attributing the whole difference to form alone.
 

@@ -6,12 +6,12 @@ section_id: "A.7.CP:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.CP/A.7.CP__012_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.7.CP — Constructive-Premise Compact and Reasoning-Basis Use"
   - "A.7.CP:10 — Rationale"
-line_start: 26376
-line_end: 26381
+line_start: 27362
+line_end: 27367
 dependencies:
   - "A.7"
   - "A.7.1"
@@ -27,7 +27,7 @@ keywords:
 
 ### A.7.CP:10 - Rationale
 
-Claim content and reasoning posture vary independently. One source for the content and a separate relation for its actual use let readers recover both without treating premise and assumption as different claim kinds. The System performs the reasoning Work; the episteme supplies the claim on which that Work relies.
+Claim content and reasoning posture vary independently. One source for the content and a separate relation for its use let readers recover both without treating premise and assumption as different claim kinds. The System performs the reasoning Work; the episteme supplies the claim on which that Work relies.
 
-**Use only the premise the work actually relies on.**
+**Use only the premise the work relies on.**
 

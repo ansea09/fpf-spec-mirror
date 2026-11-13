@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.10.ROLE"
-pattern_title: "Recovering What “Role” Means in the Current Claim"
+pattern_title: "Recover What “Role” Means in This Claim"
 section_id: "E.10.ROLE:8"
 section_title: "Common Anti-Patterns and How to Avoid Them — Role-Word Repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ROLE/E.10.ROLE__010_common-anti-patterns-and-how-to-avoid-them-role-word-repairs.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "E.10.ROLE — Recovering What “Role” Means in the Current Claim"
+  - "E.10.ROLE — Recover What “Role” Means in This Claim"
   - "E.10.ROLE:8 — Common Anti-Patterns and How to Avoid Them — Role-Word Repairs"
-line_start: 102095
-line_end: 102105
+line_start: 107857
+line_end: 107867
 dependencies:
   - "A.2"
   - "A.2.1"

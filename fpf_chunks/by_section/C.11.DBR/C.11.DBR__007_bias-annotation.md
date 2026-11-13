@@ -6,12 +6,12 @@ section_id: "C.11.DBR:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.DBR/C.11.DBR__007_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.11.DBR — Reconsider a Decision When Its Relied-on Basis Changes"
   - "C.11.DBR:6 — Bias-Annotation"
-line_start: 57758
-line_end: 57761
+line_start: 60098
+line_end: 60104
 dependencies:
   - "A.10"
   - "A.10.1"
@@ -27,5 +27,8 @@ keywords:
 
 ### C.11.DBR:6 - Bias-Annotation
 
-**Hindsight:** an outcome makes a convenient old rationale seem obvious. Recover actual reliance, including a genuine gap. **Recency:** later information is treated as stronger without checking its conditions. Compare qualified claims. **Escalation and sunk effort:** completed work is used to defend a failed premise, or failure is used to erase history. Keep both facts. **Selective preservation:** only convenient dependencies are inspected. State the bounded receiving question and unresolved branches.
+- **Hindsight:** an outcome makes a convenient old rationale seem obvious. Recover actual reliance and state what cannot be recovered.
+- **Recency:** later information is treated as stronger without checking its conditions. Compare qualified claims.
+- **Escalation and sunk effort:** completed work is used to defend a failed premise, or failure is used to erase history. Keep both facts.
+- **Selective preservation:** only convenient dependencies are inspected. State the bounded receiving question and unresolved branches.
 

@@ -6,12 +6,12 @@ section_id: "E.17.1:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__007_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.17.1 — Viewpoint Bundle Library - Reusable Viewpoint Reference Bundles"
   - "E.17.1:6 — Bias-Annotation"
-line_start: 106788
-line_end: 106791
+line_start: 113319
+line_end: 113322
 dependencies:
   - "A.16.0"
   - "A.22"
@@ -37,5 +37,5 @@ keywords:
 
 ### E.17.1:6 - Bias-Annotation
 
-After a recurring family-level use is established, the pattern biases FPF toward catalogue reuse and against silently re-inventing that same family under local labels. For a one-off selection, keep the exact references local: the catalogue cost is justified only when reuse, comparison, or maintenance changes a named practitioner action.
+After a recurring family-level use is established, the pattern favours reusing the catalogue and discourages teams from silently recreating the same family under local labels. For a one-off selection, keep the references local. The catalogue cost is justified only when reuse, comparison, or maintenance changes a named practitioner action.
 

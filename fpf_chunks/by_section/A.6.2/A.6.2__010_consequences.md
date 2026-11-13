@@ -6,12 +6,12 @@ section_id: "A.6.2:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.2/A.6.2__010_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.2 — Effect-Free Episteme Morphing: Laws for Mathematical Relations Between Epistemes"
   - "A.6.2:9 — Consequences"
-line_start: 17530
-line_end: 17545
+line_start: 18355
+line_end: 18370
 dependencies:
   - "A.6.0"
   - "A.6.1"
@@ -34,16 +34,16 @@ keywords:
 ### A.6.2:9 - Consequences
 
 * **Single place for episteme‑to‑episteme laws.**
-  Effect-free arrow families used across KD‑CAL, MVPK, E.18, and discipline packs can reuse one local law set instead of re-inventing it. Each actual application and use claim remains separate.
+  Effect-free arrow families used across KD‑CAL, MVPK, E.18, and discipline packs can reuse one local law set instead of re-inventing it. Each application and use claim remains separate.
 
-* **Clear separation from mechanisms & work.**
+* **Separation from mechanisms & work.**
   For actual measurement, execution, or simulation, identify the capable system, any A.6.1 application whose declaration applies, and any independently admitted `U.Work`; identify any resulting episteme and obtaining production relation separately. EFEM remains effect-free and compositional. Any semantic correspondence, temporal qualification, evidence, or reliance claim remains under its own pattern.
 
 * **Stable backbone for Viewing & Retargeting.**
   A.6.3 and A.6.4 do not need to repeat P0–P5; they specialise EFEM with additional constraints (preserve/retarget). Other patterns (e.g. MultiViewDescribing, MVPK, E.18 structural reinterpretation) can depend on EFEM as a stable base.
 
 * **Value-and-relation clarity.**
-  By requiring each EFEM species to compare the three C.2.1 identity values and name the exact separately obtaining relations its rule reads, the pattern keeps an EntityOfConcern, a declaration-local SlotKind, and a reference to the entity distinct. Equal or different endpoint relation facts are a comparison result, not an effect of the arrow.
+  By requiring each EFEM species to compare the three C.2.1 identity values and name the separately obtaining relations its rule reads, the pattern keeps an EntityOfConcern, a declaration-local SlotKind, and a reference to the entity distinct. Equal or different endpoint relation facts are a comparison result, not an effect of the arrow.
 * **Didactic projection.**
-  When a didactic expression–meaning–subject triangle is useful, use the C.2.1:5 projection: expression maps to selected representation elements and any publication carrier; meaning is the ClaimGraph interpreted under its effective ReferenceScheme; subject is the exact EntityOfConcern. Keep any material empirical grounding, representation correspondence, reference, and viewpoint selection for a named describing use separately identified, rather than adding triangle slots.
+  When a didactic expression–meaning–subject triangle is useful, use the C.2.1:5 projection: expression maps to selected representation elements and any publication carrier; meaning is the ClaimGraph interpreted under its effective ReferenceScheme; subject is the EntityOfConcern. Keep any material empirical grounding, representation correspondence, reference, and viewpoint selection for a named describing use separately identified, rather than adding triangle slots.
 

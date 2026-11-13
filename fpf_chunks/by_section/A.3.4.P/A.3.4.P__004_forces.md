@@ -6,12 +6,12 @@ section_id: "A.3.4.P:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4.P/A.3.4.P__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.3.4.P — Transformation Wording Repair: Recover Objects and Claims"
   - "A.3.4.P:3 — Forces"
-line_start: 13366
-line_end: 13375
+line_start: 13811
+line_end: 13820
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -62,7 +62,7 @@ keywords:
 | --- | --- |
 | Recognition and precision | Source labels help readers recognize a situation; an unresolved FPF claim needs its kind, participants, governing relation and applicable conditions recovered. |
 | One actual transformation and selected flow structure | `U.Transformation` identifies one independently grounded actual bounded change and establishes neither transformation parthood nor partlessness at the current resolution. `TransformationFlowStructure` positions, relates, or locates transformation loci and adjacent governed values; common structure membership establishes no transformation composition. |
-| Acting System and influence source | An assignment occurrence alone does not prove performance, and generic transformation participation does not prove action. Any Work-to-change relation required by the claim remains separate. A non-Work actor needs its exact direct actor-side relation. Every influence source keeps its own kind and exact relation. |
+| Acting System and influence source | An assignment occurrence alone does not prove performance, and generic transformation participation does not prove action. Any Work-to-change relation required by the claim remains separate. A non-Work actor needs its actor-side relation. Every influence source keeps its own kind and relation. |
 | Formal and project-world change | A formal construction may be a transformation over a formal object, or it may be a mathematical description of project-world structure; the current object decides. |
 | Repair and readability | Recover enough ontology for the current use. Record a repair note only when the receiving use needs inspectable detail. |
 

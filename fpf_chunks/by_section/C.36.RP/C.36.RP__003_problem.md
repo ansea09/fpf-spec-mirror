@@ -6,12 +6,12 @@ section_id: "C.36.RP:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.RP/C.36.RP__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.36.RP — Sustain and Renew Shared Ways of Working"
   - "C.36.RP:2 — Problem"
-line_start: 90906
-line_end: 90913
+line_start: 95386
+line_end: 95393
 dependencies:
   - "B.5.MPC"
   - "B.5.RA"
@@ -33,5 +33,5 @@ A result and a way of obtaining and applying it have different uses. A stored eq
 
 Changes in the practice expose these differences. A departing colleague may take away an interpretive skill. A replacement tool may produce the same output through different assumptions. An AI may introduce a useful method whose operations are unfamiliar to the receiving participants.
 
-Preservation also involves choices. Requiring every participant to learn every operation can consume the resources needed for the actual work. Keeping an obsolete procedure can prevent improvement. A practice needs to retain or replace the means of obtaining useful contributions, while leaving room for methods whose later uses are still being discovered.
+Preservation also involves choices. Requiring every participant to learn every operation can consume the resources needed for the work. Keeping an obsolete procedure can prevent improvement. A practice needs to retain or replace the means of obtaining useful contributions, while leaving room for methods whose later uses are being discovered.
 

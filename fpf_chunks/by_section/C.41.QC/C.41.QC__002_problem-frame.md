@@ -6,12 +6,12 @@ section_id: "C.41.QC:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.QC/C.41.QC__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.41.QC — Qualify Checklist Criteria and Checking Means"
   - "C.41.QC:1 — Problem frame"
-line_start: 89851
-line_end: 89858
+line_start: 94119
+line_end: 94126
 dependencies:
   - "A.10"
   - "C.41"
@@ -26,5 +26,5 @@ keywords:
 
 This Method establishes a bounded basis for using a criterion and its checking means, or returns a counterexample or unresolved qualification question. Start with one claim the proposed check is supposed to support and one plausible case where it could be wrong.
 
-Reuse an applicable qualification when available. A second agent, a formal experiment or a broad benchmark is useful only when it answers a live uncertainty at worthwhile cost.
+Reuse an applicable qualification when available. A second agent, a formal experiment or a broad benchmark is useful only when it answers an uncertainty at worthwhile cost.
 

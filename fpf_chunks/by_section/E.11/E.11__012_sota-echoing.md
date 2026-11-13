@@ -6,12 +6,12 @@ section_id: "E.11:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__012_sota-echoing.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:11 — SoTA-Echoing"
-line_start: 103356
-line_end: 103377
+line_start: 109269
+line_end: 109300
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"
@@ -36,9 +36,13 @@ keywords:
 
 **Navigation question.** How can a reader choose a useful first pattern without inspecting the whole corpus, and recover when the first cue was misleading? The best-known line for this use is sequential, bounded inspection with an explicit return: compare the result or blocker offered by a few plausible entries, open one direct pattern, and stop or backtrack when its boundary rules it out.
 
-The alternative is familiar-title or ranked-result lookup with a short topical snippet. It is cheap and remains sufficient when the direct pattern is already known. For an ambiguous question, however, the same small reading budget can be spent on a situation, first-result difference, and return instead of another topical label. This deliberately trades some snippet brevity for a recoverable wrong-turn decision; it does not promise fewer clicks or faster task completion. **Adapt:** `E.11:4.1`, `4.1.2`, `4.4`, `4.6`, and `4.7` keep that bounded inspection and cheap exit; case `5.5` rejects a better first-click metric when the reader reaches the wrong use. Section `4.6.2` and cases `5.7–5.14` unfold the discriminating fact, direct result and return when a compact cue still leaves an ambiguity; they retain the cheaper sufficient-cue exit.
+The alternative is familiar-title or ranked-result lookup with a short topical snippet. It is cheap and remains sufficient when the direct pattern is already known. For an ambiguous question, however, the same small reading budget can be spent on a situation, first-result difference, and return instead of another topical label. This choice trades some snippet brevity for a recoverable wrong-turn decision; it does not promise fewer clicks or faster task completion.
 
-[Jin, Bai, and Oulasvirta, *Modeling Trial-and-Error Navigation With a Sequential Decision Model of Information Scent*, arXiv:2603.11759v1](https://arxiv.org/html/2603.11759v1), supplies a best-known-line candidate and counterexample to treating navigation as fully informed, one-shot selection. Its model reproduces partial inspection, premature choices, and backtracking; it does not test FPF entries or require the reader to run a navigation model. The first-result comparison and reliance-conditioned history are FPF adaptations. Reopen this choice if a same-budget title/snippet or other entry preserves result discrimination and wrong-turn recovery with less burden, or if reader evidence shows that the added return cues distract from the first useful choice.
+**Adapt:** `E.11:4.1`, `4.1.2`, `4.4`, `4.6`, and `4.7` keep that bounded inspection and cheap exit; case `5.5` rejects a better first-click metric when the reader reaches the wrong use. Section `4.6.2` and cases `5.7–5.14` unfold the discriminating fact, direct result and return when a compact cue still leaves an ambiguity; they retain the cheaper sufficient-cue exit.
+
+[Jin, Bai, and Oulasvirta, *Modeling Trial-and-Error Navigation With a Sequential Decision Model of Information Scent*, arXiv:2603.11759v1](https://arxiv.org/html/2603.11759v1), supplies a best-known-line candidate and counterexample to treating navigation as fully informed, one-shot selection. Its model reproduces partial inspection, premature choices, and backtracking; it does not test FPF entries or require the reader to run a navigation model.
+
+The first-result comparison and reliance-conditioned history are FPF adaptations. Reopen this choice if a same-budget title/snippet or other entry preserves result discrimination and wrong-turn recovery with less burden, or if reader evidence shows that the added return cues distract from the first useful choice.
 
 **Mnemonic question.** When is a repeatable formula worth the extra space in a cross-pattern entry? The selected line is conditional mnemonic support tested against the same truthful content without the mantra, not an acronym or repetition by default.
 
@@ -48,9 +52,15 @@ The alternative is familiar-title or ranked-result lookup with a short topical s
 
 **Cue question.** When a reader's familiar wording or language hides another useful target, should the entry merely translate the same label, show more results, or explain the choice nearby? The selected line is the smallest situation-and-result cue that lets this reader distinguish the targets, with an expansion only for a distinction that cannot fit truthfully. The alternative is a concise translated title or ordinary search snippet. Keep that alternative when it already distinguishes the use; otherwise prefer a short explanation of what the reader can obtain over extra synonyms. This trades a little reading space for a visible choice, without requiring full translation, a multilingual interface, or another public scenario.
 
-[Zhu, Reinecke, and Mitra, *Language Scent: Exploring Cross-Language Information Navigation*, arXiv:2604.03604v2](https://arxiv.org/html/2604.03604v2), supplies bounded evidence for considering such proximal cues: its multilingual system exposes information value and interpretation cues, and its lab study involved 16 English–Chinese speakers. It does not compare FPF names or establish that two labels have the same referent. **Adapt as a local probe:** `E.11:4.1.1`, `4.1.2`, and `4.5.1` test recognizable wording against the direct result; `E11-9/10/11` keep cue, entry, and direct content distinct. Reopen if a shorter label works equally well for the actual readers, if the cue invites the wrong result, or if stronger evidence changes the transfer from multilingual navigation. No universal benefit from contextual wording is inferred.
+[Zhu, Reinecke, and Mitra, *Language Scent: Exploring Cross-Language Information Navigation*, arXiv:2604.03604v2](https://arxiv.org/html/2604.03604v2), supplies bounded evidence for considering such proximal cues: its multilingual system exposes information value and interpretation cues, and its lab study involved 16 English–Chinese speakers. It does not compare FPF names or establish that two labels have the same referent.
+
+**Adapt as a local probe:** `E.11:4.1.1`, `4.1.2`, and `4.5.1` test recognizable wording against the direct result; `E11-9/10/11` keep cue, entry, and direct content distinct. Reopen if a shorter label works equally well for the actual readers, if the cue invites the wrong result, or if stronger evidence changes the transfer from multilingual navigation. No universal benefit from contextual wording is inferred.
 
 For a cross-DPF entry, `E.11.DSG` supplies the four-return, full-source and known-DPF-bypass rules used in `E.11:4` and `E11-13`. The Suite's disciplinary and framework composition follows C.20 and E.4:4.2; the entry's actual contributions can also come from external suppliers. E.8, E.17, F.17, F.18 and E.11.PUA retain their direct authoring, publication, naming and use functions. Reopen the affected entry when its supplying contribution or conditions change; use G.11 when currentness or telemetry is the actual question.
 
-**Retrieval-exposure question.** Which part of a publication can help an assistant find the needed pattern? The selected line makes the actual indexed and returned context explicit. A title-only change cannot repair a passage whose retrieval representation omits that title. **Adapt:** §4.6.1 separates heading, row, body-window and fragment comparisons. [Anthropic's Contextual Retrieval](https://www.anthropic.com/engineering/contextual-retrieval) (2024) supplies a concrete context-enrichment alternative; [Conti et al., Context is Gold to find the Gold Passage](https://aclanthology.org/2025.emnlp-main.1150/) (EMNLP 2025) supplies context-dependent retrieval evaluation and contextual embedding training. These interventions differ from title revision and provide no effect estimate for it. Keep the cheaper existing cue when it suffices; reopen when the consuming system changes its fields, chunking or context, or when the changed cue repeatedly selects the wrong body.
+**Retrieval-exposure question.** Which part of a publication can help an assistant find the needed pattern? The selected line makes the actual indexed and returned context explicit. A title-only change cannot repair a passage whose retrieval representation omits that title.
+
+**Adapt:** §4.6.1 separates heading, row, body-window and fragment comparisons. [Anthropic's Contextual Retrieval](https://www.anthropic.com/engineering/contextual-retrieval) (2024) supplies a concrete context-enrichment alternative; [Conti et al., Context is Gold to find the Gold Passage](https://aclanthology.org/2025.emnlp-main.1150/) (EMNLP 2025) supplies context-dependent retrieval evaluation and contextual embedding training.
+
+These interventions differ from title revision and provide no effect estimate for it. Keep the cheaper existing cue when it suffices; reopen when the consuming system changes its fields, chunking or context, or when the changed cue repeatedly selects the wrong body.
 

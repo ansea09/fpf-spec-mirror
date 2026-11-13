@@ -6,12 +6,12 @@ section_id: "F.11:6"
 section_title: "Solution — four questions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__007_solution-four-questions.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.11 — Distinguish Method, MethodDescription, Work and Outputs"
   - "F.11:6 — Solution — four questions"
-line_start: 122355
-line_end: 122376
+line_start: 130094
+line_end: 130121
 dependencies:
   - "A.13"
   - "A.15"
@@ -51,15 +51,21 @@ Name the Method and its relevant boundary. Do not identify it merely by a file n
 
 #### F.11:6.2 - Which description?
 
-Name the already identified episteme and the one admitted Method that is its exact `EntityOfConcern`. State edition or version when it matters. Several epistemes may each concern the same Method. One episteme may concern one admitted composite Method, while a document or publication may present several separately identified epistemes; one MethodDescription episteme never has several Methods as its `EntityOfConcern`. Saying that it *describes* the Method is only A.3.2's plain shorthand. Approval remains a separate claim and is not evidence that Work occurred or succeeded.
+Name the already identified episteme and the one admitted Method that is its exact `EntityOfConcern`. State edition or version when it matters.
 
-#### F.11:6.3 - Which Work actually occurred?
+Several epistemes may each concern the same Method. One episteme may concern one admitted composite Method, while a document or publication may present several separately identified epistemes; one MethodDescription episteme never has several Methods as its `EntityOfConcern`.
 
-For every claimed actual performer, recover the A.13 core: the admitted System, local agential system-role kind and classification, obtaining assignment, and the scope, situation, window and evidence needed by the claim. A.15.1 then independently admits the dated Work. Use F.6 only when this account needs precise assignment-bound attribution through that same assignment; a missing attribution alone leaves independently admitted Work intact. Recheck a consumed admission premise and its dependent conclusions if the same finding invalidates it, as F.6:4.2 requires. Do not replace these objects with a behavioural “mask” or a `System-in-Role` pseudo-object.
+Saying that the episteme *describes* the Method is A.3.2's plain shorthand for this membership judgement. Approval remains a separate claim and is not evidence that Work occurred or succeeded.
+
+#### F.11:6.3 - Which Work occurred?
+
+For every claimed actual performer, recover the A.13 core: the admitted System, local agential system-role kind and classification, obtaining assignment, and the scope, situation, window and evidence needed by the claim. A.15.1 then independently admits the dated Work.
+
+Use F.6 only when this account needs precise assignment-bound attribution through that same assignment; a missing attribution alone leaves independently admitted Work intact. Recheck a consumed admission premise and its dependent conclusions if the same finding invalidates it, as F.6:4.2 requires. Do not replace these objects with a behavioural “mask” or a `System-in-Role` pseudo-object.
 
 #### F.11:6.4 - Which output matters, if any?
 
-Name the actual signal, command, setpoint, transformation output, or resulting value. State how it relates to the Work under the direct control or transformation pattern. Some Work has no control output; the fourth question does not require a universal output kind.
+Name the signal, command, setpoint, transformation output, or resulting value the Work produced. State how it relates to the Work under the direct control or transformation pattern. Some Work has no control output; the fourth question does not require a universal output kind.
 
 #### F.11:6.5 - Which evidence and status claim?
 

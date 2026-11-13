@@ -6,12 +6,12 @@ section_id: "E.4.FPF:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.FPF/E.4.FPF__006_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.4.FPF — FPF Edition Assembly: Publication Forms, Carriers and Access Routes"
   - "E.4.FPF:5 — Archetypal Grounding"
-line_start: 94126
-line_end: 94164
+line_start: 98791
+line_end: 98831
 dependencies:
   - "C.33"
   - "C.34"
@@ -39,19 +39,21 @@ keywords:
 
 ### E.4.FPF:5 - Archetypal Grounding
 
-**Edition revision.** A later FPF edition updates its public front, Readme, Architectural Reference, ToC, and several pattern bodies. The FPF edition rebuildability record names one scoped edition, lists its Core pattern set, publication units and forms, exact presentation carriers, and access routes, records which entry text is only a projection, and points to `E.2.DA` for whole-FPF adequacy. It records Readme and Architectural Reference as publication units and names a presentation carrier only under an exact `PublicationExpressionBearingRelation`; when the expression conforms to the selected form, it also witnesses `PublicationFormBearingRelation`.
+**Edition revision.** A later FPF edition updates its public front, Readme, Architectural Reference, ToC, and several pattern bodies. The FPF edition rebuildability record names one scoped edition, lists its Core pattern set, publication units and forms, exact presentation carriers, and access routes, records which entry text is only a projection, and points to `E.2.DA` for whole-FPF adequacy. It records Readme and Architectural Reference as publication units. Naming a presentation carrier requires the `PublicationExpressionBearingRelation` to its expression. When that expression conforms to the selected form, it also witnesses `PublicationFormBearingRelation`.
 
-**Domain framework.** A domain principle framework for one practice depends on FPF Core and may cite architecture, representation, precision, and improvement patterns from FPF. Its publication units, forms, exact presentation carriers, and access routes belong to that DPF edition. Its package adequacy uses `E.4.DPF.DA`; FPF Core retains its transdisciplinary scope and its own amendment route.
+**Domain framework.** A domain principle framework for one practice depends on FPF Core and may cite architecture, representation, precision, and improvement patterns from FPF. Its publication units, forms, exact presentation carriers, and access routes belong to that DPF edition. Use `E.4.DPF.DA` to assess that package. FPF Core retains its transdisciplinary scope and its own amendment route.
 
-**Skill-pack access.** An FPF skill pack exposes pattern lookup, first-entry guidance, and short-use prompts. A versioned skill-pack bundle can supply an access-facing carrier when its independently identified actual state or realization yields the selected expression; the service, endpoint, or assistant integration that returns it is an access route. Their descriptions name the FPF edition they expose and its refresh condition. Authority claims return to the named subject pattern and edition.
+**Skill-pack access.** An FPF skill pack exposes pattern lookup, first-entry guidance, and short-use prompts. A versioned skill-pack bundle can supply an access-facing carrier when its independently identified actual state or realization yields the selected expression. The service, endpoint, or assistant integration that returns it is an access route. Their descriptions name the FPF edition they expose and its refresh condition. Authority claims return to the named subject pattern and edition.
 
 #### E.4.FPF:5.1 - Rebuild an edition and catch a boundary error
 
 A steward is preparing **Cedar 2**, a fictional FPF edition for engineers who start from a working question. **Cedar 1** is its frozen predecessor. The example follows three changed bodies inside the full edition; all other bodies must carry forward unchanged.
 
-The accepted complete sources are **DUA-2** for `C.11.DUA`, **PUR-2** for `E.11.PUR`, and **Ways-1** for `C.39`. DUA-2 replaces DUA-1 and includes continuing without optional advice; PUR-2 replaces PUR-1 and distinguishes applicability from recommendation. Ways-1 adds the method-development contribution between the existing `C.38` and `C.40` bodies. **Readme R2** adds their practical entry. **Architectural Reference P1** remains unchanged.
+The accepted complete sources are **DUA-2** for `C.11.DUA`, **PUR-2** for `E.11.PUR`, and **Ways-1** for `C.39`. DUA-2 replaces DUA-1 and includes continuing without optional advice. PUR-2 replaces PUR-1 and distinguishes applicability from recommendation. Ways-1 adds the method-development contribution between the existing `C.38` and `C.40` bodies.
 
-The first useful result is rebuildability record **RC2**, which gives the assembler these particular inputs and boundaries:
+**Readme R2** adds their practical entry. **Architectural Reference P1** remains unchanged.
+
+The first useful result is rebuildability record **RC2**, which gives the assembler the following inputs and boundaries:
 
 | Record content | Filled value |
 |---|---|
@@ -66,13 +68,13 @@ The first useful result is rebuildability record **RC2**, which gives the assemb
 | Source and adequacy results | Q-DUA-2, Q-PUR-2 and Q-Ways-1 cover the three accepted source editions. Cedar 1's whole-edition assessment A1 does not assess Cedar 2 |
 | Reconsideration condition | A selected source, predecessor span, declared form or receiving use changes |
 
-Each carrier's actual state yields its named expression; each expression follows the corresponding reusable arrangement rules and expresses the selected content. Neither file is the edition itself. The standalone HTML expresses R2 without becoming another independently authored Readme. No access service has been selected.
+Each carrier's actual state yields its named expression. Each expression follows the corresponding reusable arrangement rules and expresses the selected content. Neither file is the edition itself. The standalone HTML expresses R2 without becoming another independently authored Readme. No access service has been selected.
 
-Assembly replaces the two bounded bodies, inserts Ways-1, and derives I2 from that same membership. I2 must contain one row each for C.11.DUA, E.11.PUR and C.39, with no duplicate C.39 row. The full body inventory gains exactly C.39; all other membership and order stay as in Cedar 1.
+Assembly replaces the two bounded bodies, inserts Ways-1, and derives I2 from that same membership. I2 must contain one row each for C.11.DUA, E.11.PUR and C.39, with no duplicate C.39 row. C.39 is the only addition to the body inventory. All other membership and order stay as in Cedar 1.
 
-A first candidate has exact copies of DUA-2, PUR-2 and Ways-1 and the expected index. It still fails. The Readme replacement ended two sentences inside P1 instead of at its boundary. The lost predecessor text was: “Start from your working question. Stop when the answer is sufficient; the entry list is not a required sequence.” The candidate has lost useful stopping guidance although every selected body matches its source.
+A first candidate has exact copies of DUA-2, PUR-2 and Ways-1 and the expected index, yet fails the predecessor comparison. The Readme replacement ended two sentences inside P1 instead of at its boundary. The lost predecessor text was: “Start from your working question. Stop when the answer is sufficient; the entry list is not a required sequence.” The candidate has lost useful stopping guidance although every selected body matches its source.
 
-The complete predecessor comparison exposes that unselected deletion. Stop the assembly at this failed preservation condition. Correct the Readme boundary and restore both sentences from frozen P1; do not rewrite the accepted pattern bodies. Rebuild and repeat source correspondence, the full inventory and the complete publication comparison.
+The complete predecessor comparison exposes that unselected deletion. Stop the assembly at this failed preservation condition. Correct the Readme boundary and restore both sentences from frozen P1. Do not rewrite the accepted pattern bodies. Rebuild and repeat source correspondence, the full inventory and the complete publication comparison.
 
-In the repaired candidate, DUA-2, PUR-2 and Ways-1 still match their selected sources, I2 and K2 agree, R2 appears in both selected carriers, and P1 and every other unselected predecessor span are unchanged. The remaining differences are the two declared body replacements, one insertion and index row, R2 and its opening references. That is a completed construction with a stated preservation result under `E.4.PFIP`. Acceptance, publication and whole-FPF adequacy still require their own conclusions.
+In the repaired candidate, DUA-2, PUR-2 and Ways-1 match their selected sources, I2 and K2 agree, R2 appears in both selected carriers, and P1 and every other unselected predecessor span are unchanged. The remaining differences are the two declared body replacements, one insertion and index row, R2 and its opening references. That is a completed construction with a stated preservation result under `E.4.PFIP`. Acceptance, publication and whole-FPF adequacy require their own conclusions.
 

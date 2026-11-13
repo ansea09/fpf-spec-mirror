@@ -6,12 +6,12 @@ section_id: "F.15:11"
 section_title: "Regression and stability rules"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__013_regression-and-stability-rules.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Naming and Semantic Unification"
   - "F.15:11 — Regression and stability rules"
-line_start: 123617
-line_end: 123673
+line_start: 131445
+line_end: 131503
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -65,7 +65,7 @@ The RSCR family compares exact earlier and later refs for each changed member an
 For each changed member, resolve exact `@t0` and `@t1` refs and versions. A changed effective ReferenceScheme changes interpretation-bearing content; an unchanged label or shared designator does not prove continuity. State the exact identity, continuity, split, retirement, or replacement claim and cite the rule that defines or tests it.
 
 **RSCR-F15-E2 (Known confusion check).**
-Recheck or explicitly retire every prior confusion, blocked use, and nearest counterexample affected by the change. A new edition does not erase an old trap.
+For each prior confusion, blocked use, and nearest counterexample affected by the change, recheck it or explicitly retire it. A new edition does not erase an old trap.
 
 #### F.15:11.2 - Local senses and SchemeSenseCells
 
@@ -89,7 +89,9 @@ When a changed value, sense, or use alters row support, preserve the exact earli
 Compare exact F.4 description epistemes and the described kinds' candidate domains, operative membership conditions, intended member/non-member boundaries, continuity rules, current `KindSignature` editions, effective schemes, and claim content. Source or practice provenance is a cue to compare those definitions, not an identity key. A label-only change cannot prove that the described kind or description episteme stayed the same.
 
 **RSCR-F15-E8 (Alias for expression change; direct recovery for meaning change).**
-If only a selected expression changes while the exact value, scheme, sense and use are preserved, F.13 and F.18 may record an alias or rename. When a described kind, candidate domain, membership distinction, boundary, continuity rule, scheme, local sense or description claim changes, recover the affected object or episteme under its subject rule. Reopen the naming settlement when that change affects the named value, interpretation or receiving use; reuse an unaffected settlement. A practice or source change by itself triggers comparison and proves neither continuity nor a split.
+If only a selected expression changes while the exact value, scheme, sense and use are preserved, F.13 and F.18 may record an alias or rename.
+
+When a described kind, candidate domain, membership distinction, boundary, continuity rule, scheme, local sense or description claim changes, recover the affected object or episteme under its subject rule. Reopen the naming settlement when that change affects the named value, interpretation or receiving use; reuse an unaffected settlement. A practice or source change by itself triggers comparison and proves neither continuity nor a split.
 
 #### F.15:11.5 - Bridges and bounded uses
 

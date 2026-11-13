@@ -6,12 +6,12 @@ section_id: "C.29.1:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29.1/C.29.1__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.29.1 — Mathematical Result Transfer"
   - "C.29.1:2 — Problem"
-line_start: 69951
-line_end: 69960
+line_start: 73044
+line_end: 73053
 dependencies:
   - "A.3.3"
   - "A.6.3.RT"
@@ -29,5 +29,5 @@ Agreement on object names or on a few numerical examples does not establish agre
 
 To reuse the result, the practitioner constructs the correspondence, recovers the result's dependencies, and compares the operations in the direction of use. When exact transfer fails, the same work should reveal whether an added distinction, a smaller domain or a weaker conclusion is sufficient.
 
-The central question is: **what can be concluded in the receiving account, and returned to the working question, from the correspondence that has actually been established?**
+The central question is: **what can be concluded in the receiving account, and returned to the working question, from the correspondence that has been established?**
 

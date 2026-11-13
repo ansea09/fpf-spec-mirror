@@ -6,12 +6,12 @@ section_id: "A.3.4:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4/A.3.4__012_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.3.4 — U.Transformation: Actual Bounded Change Under Conditions"
   - "A.3.4:10 — Rationale"
-line_start: 13299
-line_end: 13308
+line_start: 13744
+line_end: 13753
 dependencies:
   - "A.1"
   - "A.10"
@@ -56,7 +56,7 @@ keywords:
 
 `U.Transformation` identifies one actual bounded change through the continuing subject, extent, boundary conditions, before/during/after facts, and continuity or reidentification rule. A description, planned operation or performed Work answers a different question and keeps its own identity.
 
-An independently identified configuration transformation is not made into a whole with transformation parts merely because separately identified changes occur in the same episode or concern referents selected into that configuration. A positive composition claim still needs its governing rule and, for a compound claim, admitted derivation semantics.
+An independently identified configuration transformation is not made into a whole with transformation parts merely because separately identified changes occur in the same episode or concern referents selected into that configuration. A positive composition claim needs its governing rule and, for a compound claim, admitted derivation semantics.
 
 A.1 remains an independent test of the proposed whole and its construction facts. A whole or composite label and a trace supply no missing construction basis.
 

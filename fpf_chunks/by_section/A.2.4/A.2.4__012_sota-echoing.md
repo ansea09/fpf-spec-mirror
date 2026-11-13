@@ -6,12 +6,12 @@ section_id: "A.2.4:10.1"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.4/A.2.4__012_sota-echoing.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.2.4 — Episteme Evidence-Use and Status-Use Relations"
   - "A.2.4:10.1 — SoTA-Echoing"
-line_start: 6295
-line_end: 6304
+line_start: 6574
+line_end: 6583
 dependencies:
   - "A.10"
   - "A.2"
@@ -20,13 +20,7 @@ dependencies:
   - "A.6.RSIR"
   - "B.3"
   - "C.2.1"
-  - "C.28"
-  - "E.10.D2"
   - "E.10.ROLE"
-  - "E.17"
-  - "F.10"
-  - "G.11"
-  - "G.6"
   - "U.SystemRoleAssignment"
 keywords:
   - "claim"

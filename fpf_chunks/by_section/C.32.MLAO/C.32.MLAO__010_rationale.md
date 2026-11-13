@@ -6,12 +6,12 @@ section_id: "C.32.MLAO:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MLAO/C.32.MLAO__010_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.32.MLAO — Architecture Candidates to Reduce Cross-Scope Residuals"
   - "C.32.MLAO:10 — Rationale"
-line_start: 78655
-line_end: 78662
+line_start: 82484
+line_end: 82491
 dependencies:
   - "A.10"
   - "A.19.CPM"
@@ -55,7 +55,7 @@ keywords:
 
 `C.30.ILC` names cross-scope residuals and first architecture repair directions. `C.32` creates candidate palettes. C.32.MLAO is needed when the constructive candidate work is specifically about reducing a residual across declared holon-level refs or declared scope refs.
 
-The nontrivial work is to prepare candidate architecture changes for later comparison by naming residual reduced and burden created, not by using an optimizer phrase, scalar output, or locally improved structure as the candidate frame.
+The work is to prepare candidate architecture changes for later comparison by naming residual reduced and burden created, not by using an optimizer phrase, scalar output, or locally improved structure as the candidate frame.
 
 Multilevel learning, frustration, RG-like, DSM and Pareto material can suggest candidate changes. Recover the source contribution and its applicable meaning before use; a source cue does not itself establish an architecture claim. A comparison or stronger conclusion needs the relevant structures, scopes, criteria and loss conditions under its own rules.
 

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.5.EA"
-pattern_title: "Articulate a Working Distinction from Experience"
+pattern_title: "Articulate a Distinction from Experience"
 section_id: "B.5.EA:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.EA/B.5.EA__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "B.5.EA — Articulate a Working Distinction from Experience"
+  - "B.5.EA — Articulate a Distinction from Experience"
   - "B.5.EA:2 — Problem"
-line_start: 46616
-line_end: 46621
+line_start: 48558
+line_end: 48563
 dependencies:
   - "B.5"
   - "B.5.4"

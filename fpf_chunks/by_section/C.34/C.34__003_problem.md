@@ -6,12 +6,12 @@ section_id: "C.34:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.34/C.34__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.34 — Assess Structural Correspondence for Architecture Use (Equivalence and Morphisms)"
   - "C.34:2 — Problem"
-line_start: 80933
-line_end: 80940
+line_start: 84774
+line_end: 84781
 dependencies:
   - "A.22"
   - "A.6.3.NAR"
@@ -48,7 +48,7 @@ keywords:
 
 Architecture work often needs "same enough" claims. A view should correspond to a description. A generated graph should preserve selected dependencies. A candidate should preserve required interfaces while changing placement. A realized structure should match an expected selected structure enough for an evaluation or decision repair. A neural-network substitution should preserve dataflow or routing while changing memory and compute trade-offs.
 
-The dangerous shortcut is to accept visual similarity, label sameness, graph isomorphism, or formal vocabulary as adequacy. An edge-isomorphic graph can lose relation semantics. A projection can preserve module names while dropping control authority. A category-theoretic morphism can be useful as a C.29 lens without proving architecture equivalence. A DSM cluster can preserve co-change pressure while losing functional bearer semantics.
+Visual similarity, label sameness, graph isomorphism, or formal vocabulary does not by itself establish architecture adequacy. An edge-isomorphic graph can lose relation semantics. A projection can preserve module names while dropping control authority. A category-theoretic morphism can be useful as a C.29 lens without proving architecture equivalence. A DSM cluster can preserve co-change pressure while losing functional bearer semantics.
 
 C.34 makes the preservation claim explicit before the result is used.
 

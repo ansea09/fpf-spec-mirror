@@ -6,12 +6,12 @@ section_id: "A.12:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.12/A.12__006_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.12 — Acting-Side Externalization and Reflexive Split: Identify Who Acts on What"
   - "A.12:4 — Solution"
-line_start: 27899
-line_end: 28004
+line_start: 28933
+line_end: 29046
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -78,14 +78,20 @@ For another condition, state the condition or relation and apply its defining or
 Use:
 
 - `A.3.4` when `transformationRef` becomes current;
-- `A.3.1` for Method identity, `A.3.2` for MethodDescription admission, `A.15.2` for a WorkPlan, and `A.15.1` for a dated Work claim; `A.15` connects these distinct claims, and an actual Work occurrence follows the performer/admission/attribution order below;
+- `A.3.1` for Method identity, `A.3.2` for MethodDescription admission, `A.15.2` for a WorkPlan, and `A.15.1` for a dated Work claim; `A.15` connects these distinct claims, and a Work occurrence follows the performer/admission/attribution order below;
 - `A.2.1` when an exact assignment occurrence becomes current, and `A.2.7` only when a relation among exact local system-role kinds becomes current;
 - `A.10` when evidence or source independence becomes current;
 - `A.1`, `A.14`, and `C.13` when holon identity, part-whole, or constructive grounding becomes current.
 
-For a dated Work claim, first establish each actual performer’s A.13 core: an admitted System, a local agential system-role kind and criterion it satisfies, an obtaining assignment, and the scope, situation and window the use needs, supported by evidence. Add an agency-characteristic profile only for a consumed Grade/autonomy/profile claim, a characteristic-dependent local criterion, or an assurance use that requires it. Then admit the occurrence independently under A.15.1 from its performance history, enacted Method, temporal extent and obtaining containing-System relation. Only if precise assignment-bound attribution is also claimed does F.6 relate that admitted Work to the same obtaining assignment. A Work-only account stops after admission.
+For a dated Work claim, first establish each actual performer’s A.13 core: an admitted System, a local agential system-role kind and criterion it satisfies, an obtaining assignment, and the scope, situation and window the use needs, supported by evidence. Add an agency-characteristic profile only for a consumed Grade/autonomy/profile claim, a characteristic-dependent local criterion, or an assurance use that requires it.
 
-When the receiving question also asks how that Work changed the subject, use A.3.4:4.2.4. Recover the actual action performed within the Work, the property changed and the subject grounds connecting them. A.6.RCD permits an ordinary compound claim when its base facts and constructor semantics suffice. A physical account may need the interacting participants, an applicable response law and preparation under A.3.3.TR; a boundary-exchange question additionally selects the quantity, boundary and interval under C.29.BB. Develop only the connection the receiving question consumes. Section 5.3 shows a local contribution claim and the separate question of a durable crossing reference.
+Then admit the occurrence independently under A.15.1 from its performance history, enacted Method, temporal extent and obtaining containing-System relation.
+
+Only if precise assignment-bound attribution is also claimed does F.6 relate that admitted Work to the same obtaining assignment. A Work-only account stops after admission.
+
+When the receiving question also asks how that Work changed the subject, use A.3.4:4.2.4. Recover the action performed within the Work, the property changed and the subject grounds connecting them. A.6.RCD permits an ordinary compound claim when its base facts and constructor semantics suffice.
+
+A physical account may need the interacting participants, an applicable response law and preparation under A.3.3.TR; a boundary-exchange question additionally selects the quantity, boundary and interval under C.29.BB. Develop only the connection the receiving question consumes. Section 5.3 shows a local contribution claim and the separate question of a durable crossing reference.
 
 #### A.12:4.2 - Reflexive Split
 
@@ -107,7 +113,7 @@ ReflexiveSplit@Context:
 
 `ReflexiveSplit@Context` carries no system-recognition position. Its two part-or-subsystem fields identify exact entities, not phases, assignments, relation occurrences, or generic structures. Each filled entity position needs an independently obtaining parthood or subsystem relation to `containingHolonRef` under A.14 and the direct part-relation specialization.
 
-When the acting-position entity must also be evaluated as a system, state its A.1 recognition result or blocker alongside the part relations. An optional companion `ActingSideExternalization@Context` can carry that result or blocker: its `actingEntityRef` identifies that exact `U.Entity`; its disposition or blocker remains explicit before recognition; and its optional `actingSystemRef` may identify the same entity only after A.1 recognition. Do not insert `actingSystemRef` or an A.1 disposition into `ReflexiveSplit@Context`.
+When the acting-position entity must also be evaluated as a system, state its A.1 recognition result or blocker alongside the part relations. An optional companion `ActingSideExternalization@Context` can carry that result or blocker: its `actingEntityRef` identifies that `U.Entity`; its disposition or blocker remains explicit before recognition; and its optional `actingSystemRef` may identify the same entity only after A.1 recognition. Do not insert `actingSystemRef` or an A.1 disposition into `ReflexiveSplit@Context`.
 
 A temporal phase, system-role assignment, parthood occurrence, software-module description, or selected structure remains a separate object under the identity and relation rules that define it. A software component fills a part-or-subsystem field only when it is itself the exact entity and its direct part relation obtains. If a source supplies only unlike positions such as phases or assignments, state those direct relations and do not force them into this frame.
 
@@ -119,7 +125,9 @@ actingPartOrSubsystemRef != changedPartOrSubsystemRef
 
 for the current change-bearing claim.
 
-For controlled self-change, this split supplies the internal acting and changed participants. Connect their action to the rule or intended result that selects the intervention, its effect on later operation and the consequences used to revise it. **C.43:4.1.2** develops that account. An updater installing a poor setting can satisfy Reflexive Split; whether the update is suitably controlled and improves the result are further questions. If only roles or successive states are established, retain the supported acting-side account without inventing internal entity parts.
+For controlled self-change, this split supplies the internal acting and changed participants. Connect their action to the rule or intended result that selects the intervention, its effect on later operation and the consequences used to revise it. **C.43:4.1.2** develops that account.
+
+An updater installing a poor setting can satisfy Reflexive Split; whether the update is suitably controlled and improves the result are further questions. If only roles or successive states are established, retain the supported acting-side account without inventing internal entity parts.
 
 #### A.12:4.3 - Episteme And Publication Cases
 
@@ -135,7 +143,7 @@ Choose the reading before filling a singular field; carriers, epistemes and rela
 
 Treat the interaction and part-whole claims separately. A system changing another holon does not thereby become its part or the larger whole containing it.
 
-For a part-whole claim, use A.14 or the rule defining the exact part-whole predicate to test parthood independently of the interaction claim.
+For a part-whole claim, use A.14 or the rule defining the part-whole predicate to test parthood independently of the interaction claim.
 
 #### A.12:4.5 - No Self-Evidence Shortcut
 

@@ -6,12 +6,12 @@ section_id: "C.2.LS:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.LS/C.2.LS__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.2.LS — Language-State Facet Profile: Publish Readings and Use Conditions Together"
   - "C.2.LS:4 — Solution"
-line_start: 53427
-line_end: 53486
+line_start: 55652
+line_end: 55717
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -59,13 +59,19 @@ A language-state facet profile records selected readings and use conditions abou
 
 The optional `LanguageStateFacetProfile` form expresses an ordinary C.2.1 assessment account. The episteme edition being assessed is its EntityOfConcern. Its claims give the selected readings and their grounds within the assessment scope, using a declared chart when the receiving use needs one, together with any required source or use conditions and any thresholds used in the assessment. C.2.1 governs the account's identity; E.24.PUB governs its expression and publication. No additional profile individual or dependent U-kind is needed for this use.
 
-Distinguish the **selection of facets** from the **filled assessment**. A selection identifies the Characteristics and Scales needed by the receiving use and any separate C.2.6 questions. If a chart is needed, bind those Characteristics and Scales in its A.19 basis. The same selection can be used for several assessments, just as the same record form can express them. A filled assessment states readings about its identified episteme edition and scope; changing a reading or a stated relation changes that claim content even if every definition reference stays the same. An A.19 `CharacteristicSpacePredicate` has its own by-value identity under A.19:5.1.8. Reusing readings with a different predicate requires a new evaluation of that predicate, while the readings can remain unchanged.
+Distinguish the **selection of facets** from the **filled assessment**. A selection identifies the Characteristics and Scales needed by the receiving use and any separate C.2.6 questions. If a chart is needed, bind those Characteristics and Scales in its A.19 basis. The same selection can be used for several assessments, just as the same record form can express them.
+
+A filled assessment states readings about its identified episteme edition and scope; changing a reading or a stated relation changes that claim content even if every definition reference stays the same.
+
+An A.19 `CharacteristicSpacePredicate` has its own by-value identity under A.19:5.1.8. Reusing readings with a different predicate requires a new evaluation of that predicate, while the readings can remain unchanged.
 
 For reuse, recover the assessed edition, facet meanings, any chart basis needed by the use, scope, readings and relied-on grounds from the profile or its applicable cited source. Recover a threshold or a separate source or action condition and its receiving use when the conclusion relies on it. Saying which of the selection, readings, threshold or whole assessment is being reused prevents an unchanged label from concealing changed content. Rearranging the same claims in a dashboard or table leaves their meanings available under the same account-identity rule.
 
 **Choose direct readings or a shared profile.**
 
-Use direct facet readings when they already provide the inputs for the receiving judgement. A shared profile is useful when several readings and their conditions must be interpreted, compared or reused together: recover their joint scope and how each contributes to that judgement. When readings concern different expressions or components, keep that distinction visible. Identify which readings or relation claims each receiving condition uses, including any local threshold, and report that condition as met, not met or unresolved as its grounds warrant. This saves reassembling dispersed references. The profile adds no stronger warrant to the readings. Keep it partial when the task needs only part of the facet family, and reuse an existing applicable assessment rather than writing another.
+Use direct facet readings when they already provide the inputs for the receiving judgement. A shared profile is useful when several readings and their conditions must be interpreted, compared or reused together: recover their joint scope and how each contributes to that judgement.
+
+When readings concern different expressions or components, keep that distinction visible. Identify which readings or relation claims each receiving condition uses, including any local threshold, and report that condition as met, not met or unresolved as its grounds warrant. This saves reassembling dispersed references. The profile adds no stronger warrant to the readings. Keep it partial when the task needs only part of the facet family, and reuse an existing applicable assessment rather than writing another.
 
 #### C.2.LS:4.1 - Contribution boundary
 `C.2.LS` defines only profile composition and requires the language-state facets to remain explicit and non-collapsed. It does **not**:
@@ -77,7 +83,7 @@ Use direct facet readings when they already provide the inputs for the receiving
 - define endpoint classification or bridge kinds.
 
 #### C.2.LS:4.2 - Threshold publication discipline
-When the receiving use relies on a threshold, make its condition and input readings recoverable from the profile or an applicable cited source. Do not describe hidden sub-levels of `F` when the real issue is articulation, closure, a source or use condition, or the representation-factor bundle. Test a required relation under its direct predicate. An A.19 `CharacteristicSpacePredicate` retains its declared space, Characteristic and Scale bindings, domain and test under A.19:5.1.8; only declared Characteristic readings supply its slot values.
+When the receiving use relies on a threshold, make its condition and input readings recoverable from the profile or an applicable cited source. Do not describe hidden sub-levels of `F` when the issue is articulation, closure, a source or use condition, or the representation-factor bundle. Test a required relation under its direct predicate. An A.19 `CharacteristicSpacePredicate` retains its declared space, Characteristic and Scale bindings, domain and test under A.19:5.1.8; only declared Characteristic readings supply its slot values.
 
 #### C.2.LS:4.2.a - Local profile-reading witness
 For this pattern, a published facet profile is reviewable when:

@@ -6,12 +6,12 @@ section_id: "C.40.JF:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.JF/C.40.JF__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.40.JF — Qualify Dependencies and Joint Reachability"
   - "C.40.JF:2 — Problem"
-line_start: 87670
-line_end: 87677
+line_start: 91904
+line_end: 91911
 dependencies:
   - "A.10"
   - "A.15.9"
@@ -27,7 +27,7 @@ keywords:
 
 Necessary conditions can be credible separately and incompatible together. Two directions consume the same scarce specialist hours. Access exists for one environment but not the proposed receiving use. A later step requires a capability that an earlier step merely hopes to develop. A nominally reversible trial creates an irreversible disclosure or leaves continuing maintenance.
 
-A checklist of obtained premises can therefore give false confidence. It can also cause needless exclusion: one unavailable route is mistaken for an impossible contribution, or one missing premise makes an otherwise independent direction disappear.
+A checklist of obtained premises can therefore give false confidence. It can also cause needless exclusion: one unavailable route is mistaken for an impossible contribution, or one missing premise causes an otherwise independent direction to be discarded.
 
-The practitioner needs to determine which combination is supported, which claim remains conditional, and exactly where new evidence or a revised configuration would change the answer.
+The practitioner needs to determine which combination is supported, which claim remains conditional, and where new evidence or a revised configuration would change the answer.
 

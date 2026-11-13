@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.10.MOVE"
-pattern_title: "Move, Readiness and Trajectory Wording Precision Restoration"
+pattern_title: "Clarify Wording About Moves, Readiness and Trajectories"
 section_id: "E.10.MOVE:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.MOVE/E.10.MOVE__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "E.10.MOVE — Move, Readiness and Trajectory Wording Precision Restoration"
+  - "E.10.MOVE — Clarify Wording About Moves, Readiness and Trajectories"
   - "E.10.MOVE:intro — Intro"
-line_start: 101206
-line_end: 101219
+line_start: 106872
+line_end: 106887
 dependencies:
   - "A.1.STM"
   - "A.10"
@@ -51,17 +51,19 @@ dependencies:
 keywords:
 ---
 
-## E.10.MOVE - Move, Readiness and Trajectory Wording Precision Restoration
+## E.10.MOVE - Clarify Wording About Moves, Readiness and Trajectories
 
 > **Type:** Part E precision-restoration pattern
 > **Status:** Stable
 > **Normativity:** Normative for move-like, movement-like, readiness-like, route-like, path-like, and trajectory-like wording-use restoration.
 
-**Use this when.** After the normal `F.19` reading and compact `E.10` routing, use this pattern only while move-like, movement-like, readiness-like, route-like, path-like, or trajectory-like wording still hides the governed claim—for example, a demonstrated continuation, a prediction, readiness for a named Work, or an actual, planned, or modelled trajectory.
+**Use this when.** After the `F.19` reading and compact `E.10` routing, use this pattern only while move-like, movement-like, readiness-like, route-like, path-like, or trajectory-like wording hides the governed claim—for example, a demonstrated continuation, a prediction, readiness for a named Work, or an actual, planned, or modelled trajectory.
 
 **Primary EntityOfConcern.** One bounded wording-use restoration within the scope above.
 
-**First output.** Repaired wording, a truthful split, or a blocker. When later replay relies on the repair, use the temporary `MoveAndReadinessWordingRepairNote` in §4.1.
+**First output.** Repaired wording, a truthful split, or a blocker. When later replay relies on the repair, retain its wording and interpretation basis in an existing account or use the temporary `MoveAndReadinessWordingRepairNote` in §4.1.
 
-**Not this pattern when.** Use `A.3.4.P` first when the wording is primarily about a transformation or change situation. Use `E.10.DEV` first when *development* or *evolution* still hides the changed subject, continuity or membership, or direction or value claim; continue here only if an independent trajectory, route, ordering, posture, or representation ambiguity remains. Use `F.19` and the direct subject pattern immediately when the current object is already known. Generic *process*, *workflow*, *loop*, or *flow* wording stays outside unless it independently carries one of the governed move, readiness, route, path, or trajectory claims.
+**Not this pattern when.** Use `A.3.4.P` first when the wording is primarily about a transformation or change situation. Use `E.10.DEV` first when *development* or *evolution* still hides the changed subject, continuity or membership, or direction or value claim; continue here only if an independent trajectory, route, ordering, posture, or representation ambiguity remains.
+
+Use `F.19` and the direct subject pattern when the current object is already known. Generic *process*, *workflow*, *loop*, or *flow* wording stays outside unless it independently carries one of the governed move, readiness, route, path, or trajectory claims.
 

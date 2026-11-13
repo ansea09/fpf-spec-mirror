@@ -6,12 +6,12 @@ section_id: "F.17:8"
 section_title: "Optional block plan"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__010_optional-block-plan.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.17 — Make a Settled Naming Decision Recoverable for Reuse (Unified Term Sheet)"
   - "F.17:8 — Optional block plan"
-line_start: 124325
-line_end: 124340
+line_start: 132216
+line_end: 132231
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -37,7 +37,6 @@ dependencies:
   - "F.10"
   - "F.14"
   - "F.15"
-  - "F.17"
   - "F.18"
   - "F.2"
   - "F.3"
@@ -47,7 +46,6 @@ dependencies:
   - "F.7"
   - "F.8"
   - "F.9"
-  - "G.11"
 keywords:
 ---
 

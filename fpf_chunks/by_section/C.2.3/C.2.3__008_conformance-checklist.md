@@ -6,12 +6,12 @@ section_id: "C.2.3:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.3/C.2.3__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.2.3 — Formality of an Episteme"
   - "C.2.3:7 — Conformance Checklist"
-line_start: 53170
-line_end: 53187
+line_start: 55395
+line_end: 55412
 dependencies:
   - "A.16"
   - "A.18"
@@ -47,9 +47,9 @@ keywords:
 - `CC-F-8` Changes in G, R or CL **SHALL NOT** change an expression assessment unless its own grounds change.
 - `CC-F-9` Transport **SHALL** preserve a formality assessment only when its relied-on properties and interpretation are preserved. A receiving rewrite that changes claim content, EntityOfConcern or the effective reference scheme has its own episteme identity under C.2.1.
 - `CC-F-10` Translation and bridge limitations **SHALL** remain explicit for the receiving use. Assess assurance effects under their governing models.
-- `CC-F-11` Assigned properties **SHALL** be supported by the actual terms, predicates, semantics, derivations or other assessed content. A claimed checking result needs its own evidence.
+- `CC-F-11` Assigned properties **SHALL** be supported by the terms, predicates, semantics, derivations or other assessed content. A claimed checking result needs its own evidence.
 - `CC-F-12` A named notation, prover, calculus or execution harness **SHALL NOT** by itself establish the required expression property or a successful check.
 - `CC-F-13` Publication and approval status **MUST NOT** substitute for formality.
 - `CC-F-14` A policy consuming formality **SHALL** state the required properties, or a justified threshold on a named local scale, and keep separate assurance and authority conditions explicit.
-- `CC-F-15` Language-state facets **MUST NOT** be hidden inside a formality rank. Each actual Characteristic used in a space retains its own Scale and slot.
+- `CC-F-15` Language-state facets **MUST NOT** be hidden inside a formality rank. Each Characteristic used in a space retains its own Scale and slot.
 

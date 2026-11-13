@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.17.AUD.LHR"
-pattern_title: "PublicationUnit Stability Discipline and Local Head Restoration - repair the overloaded local lexical head before the publication unit inherits it"
+pattern_title: "Restore the Local Meaning of an Overloaded Word or Phrase (Local Head Restoration)"
 section_id: "E.17.AUD.LHR:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.LHR/E.17.AUD.LHR__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "E.17.AUD.LHR — PublicationUnit Stability Discipline and Local Head Restoration - repair the overloaded local lexical head before the publication unit inherits it"
+  - "E.17.AUD.LHR — Restore the Local Meaning of an Overloaded Word or Phrase (Local Head Restoration)"
   - "E.17.AUD.LHR:2 — Problem"
-line_start: 109541
-line_end: 109549
+line_start: 116291
+line_end: 116299
 dependencies:
   - "A.10"
   - "A.15"
@@ -41,6 +41,6 @@ Without a named local restoration move:
 1. teams keep asking qualifiers to rescue an unstable local lexical head;
 2. one sentence names one FPF kind or locally declared head while the next sentence names the move over it;
 3. readers over-infer publication-unit meaning from one under-restored broad-family word;
-4. later publication-unit discipline is opened too early for a problem that was still local;
-5. or the opposite happens: a publication-unit reading-stability defect is hidden because nobody repaired the local lexical-head overload first.
+4. teams begin a publication-unit review too early for a problem that is still local;
+5. or an unresolved local head hides an unstable reading of the whole publication unit.
 

@@ -6,12 +6,12 @@ section_id: "A.3.2:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2/A.3.2__010_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.3.2 — U.MethodDescription: Description Episteme for a Way of Doing"
   - "A.3.2:9 — Consequences"
-line_start: 11736
-line_end: 11745
+line_start: 12153
+line_end: 12162
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -60,5 +60,5 @@ keywords:
 | Audits can distinguish description, plan, work, evidence, and authority. | The first repair is to identify the claim-bearing episteme, its Method, and one substantive method claim; replacing vocabulary is not enough. |
 | Software, lab, industrial, organizational, and proof-centered descriptions can be compared under one FPF kind. | Some files contain several current claims and must be split into several subject-pattern statements. |
 | Equivalent descriptions can be declared without forcing identical notation. | Equivalence and refinement need local criteria. |
-| Declarative representations can be used without being turned into ordered work-control claims. | An order inferred solely from form or layout needs `C.2.P.DR`; a supported order needs its subject assertion with its actual ordering and conditions. |
+| Declarative representations can be used without being turned into ordered work-control claims. | An order inferred solely from form or layout needs `C.2.P.DR`; a supported order needs its subject assertion with its ordering and conditions. |
 

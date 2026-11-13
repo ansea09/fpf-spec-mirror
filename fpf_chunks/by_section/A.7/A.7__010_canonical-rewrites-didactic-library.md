@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.7"
-pattern_title: "Strict Distinction: Repair Conflations of FPF Objects (Clarity Lattice)"
+pattern_title: "Distinction: Repair Conflations of FPF Objects (Clarity Lattice)"
 section_id: "A.7:8"
 section_title: "Canonical rewrites (didactic library)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__010_canonical-rewrites-didactic-library.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.7 — Strict Distinction: Repair Conflations of FPF Objects (Clarity Lattice)"
+  - "A.7 — Distinction: Repair Conflations of FPF Objects (Clarity Lattice)"
   - "A.7:8 — Canonical rewrites (didactic library)"
-line_start: 25711
-line_end: 25725
+line_start: 26632
+line_end: 26646
 dependencies:
   - "A.1"
   - "A.10"
@@ -53,9 +53,9 @@ The middle column stipulates facts for each teaching case, including its named S
 | “The process enforced the rule.” | `Control system CS-4 enforced Rule R during Run 12.` | If dated Work is current, recover the actual performer and its A.13 core, then admit the occurrence independently through A.15.1 with the :2 basis, including at least one Method actually followed. If the account must also identify the assignment under which the Work was performed, check it separately through F.6. Add another Method or further evidence detail only when the receiving claim needs it. |
 | “The specification decided to tighten limits.” | `Design-control team D changed the limit in Specification-e4.` | The successor episteme, authoring Work, carrier and publication relations when current. The specification never acts. |
 | “Our role is pump; the role circulates coolant.” | `Pump P-12 circulates coolant in loop L.` | The local system-role kind for a classification claim; the assignment occurrence only for assignment or attribution; Capability, Method, and Work only for their respective claims. |
-| “We followed the blueprint, so it is done.” | `Team T used Method M; completion requires evidence that the stated Work or result conditions, or both, hold.` | The blueprint label identifies neither a Method nor a MethodDescription. Cite a MethodDescription only after A.3.2 membership is established and its exact claims are used; keep the blueprint carrier, Work and evidence relations separate. |
+| “We followed the blueprint, so it is done.” | `Team T used Method M; completion requires evidence that the stated Work or result conditions, or both, hold.` | The blueprint label identifies neither a Method nor a MethodDescription. Cite a MethodDescription only after A.3.2 membership is established and its claims are used; keep the blueprint carrier, Work and evidence relations separate. |
 | “Team = set of members; it repaired the pump.” | `Team T repaired pump P-12` only after T is recoverable as a collective System under all six `A.1` matters. | State any world-side belongs-to rule separately; add coordination Method, Work, local kind, assignment, or constructive part relation only when that stronger claim is current. |
 | “Method composition establishes the cost of the work.” | `Method composition follows B.1.5; Work cost requires the actual resource and time relations used by B.1.6.` | Admit the Work under A.15.1 and recover the resource measurements, accounting boundary and aggregation policy required for that cost claim. |
-| “Holon has TransformerRole.” | `System S counts under the kind currently named TransformerSystemRole for the ValveSelection use.` | Recover the C.3 kind independently. Add the exact assignment occurrence and species only when an assignment claim is current; the use label is not part of kind identity. |
+| “Holon has TransformerRole.” | `System S counts under the kind currently named TransformerSystemRole for the ValveSelection use.` | Recover the C.3 kind independently. Add the assignment occurrence and species only when an assignment claim is current; the use label is not part of kind identity. |
 | “The publication relation is a special mechanism.” | `Publication makes Description episteme E available through form F on carrier C.` | State the publication occurrence, view or conformance, carrier, and publishing Work under their direct patterns. |
 

@@ -6,12 +6,12 @@ section_id: "C.38:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.38/C.38__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.38 — Construct Comparable Ways to Obtain One Result"
   - "C.38:1 — Problem frame"
-line_start: 82466
-line_end: 82481
+line_start: 86487
+line_end: 86511
 dependencies:
   - "A.10"
   - "A.15.9"
@@ -35,13 +35,22 @@ keywords:
 
 **Use this when.** A person, team, organization, or other deciding System must choose how one named result will become available, but its candidate list mixes relations, performers, Systems, Methods, commercial labels, and enabling branches. The rows do not yet seek the same result or expose the same burdens, so sending them directly to `C.11` would create a false choice.
 
-**Primary reader.** The practitioner preparing decision-ready alternatives for one receiver. The pattern forms candidates; it neither chooses for the receiver nor realizes a retained way.
+**Reader.** The practitioner preparing decision-ready alternatives for one receiver. The pattern forms candidates; it neither chooses for the receiver nor realizes a retained way.
 
-**First useful result.** A finite same-result comparison containing at least two materially different complete-enough possible-future ways, one shared parity basis, explicit supported/proposed/unknown premises and gaps, and the truthful next handoff. When choice is current, hand the resulting `OptionSet` to `C.11`; its `ChoiceResult` is separate. For a retained way, name any first unsupported realization branch; if none remains, use the direct realization Method.
+**First useful result.** A finite same-result comparison containing at least two materially different complete-enough possible-future ways, one shared parity basis, explicit supported/proposed/unknown premises and gaps, and the next handoff. When choice is current, hand the resulting `OptionSet` to `C.11`; its `ChoiceResult` is separate. For a retained way, name any first unsupported realization branch; if none remains, use the direct realization Method.
 
 **What changes in practice.** Instead of comparing *buy* against *AI* or *internal* as if the labels were peer kinds, the practitioner asks how each whole way could make the same accepted result available. Duplicate labels merge, materially different ways under one label split, and omitted integration, evidence, support, capability, custody, resource, consequence, and exit burdens become visible before commitment.
 
-**Cheap non-use.** Stop if a direct domain Method already returns the complete useful comparison for this result and use, if one mandatory path leaves no real comparison decision, or if a complete `OptionSet` already exists and only `C.11` is needed.
+**When to stop.** Stop if a direct domain Method already returns the complete useful comparison for this result and use, if one mandatory path leaves no real comparison decision, or if a complete `OptionSet` already exists and only `C.11` is needed.
 
-**Not this pattern when.** Use `A.15.9` for one missing or unqualified bounded result from another practice; `C.39` for a missing obtaining explanation; `C.40` for developing and examining material, including its coupled entry when problems and ways must change together; `C.18` for archive, front or possibility-space claims; `C.19` for live-pool exploration policy; `C.32` for architecture-candidate synthesis; `A.15.8` for one actual-Work or present-WorkPlan support configuration; and the direct domain Method for realization, production, provision, contracting, acceptance, or use.
+**Use another pattern for these questions:**
+
+- `A.15.9` for one missing or unqualified bounded result from another practice;
+- `C.39` for a missing obtaining explanation;
+- `C.40` for developing and examining material, including its coupled entry when problems and ways must change together;
+- `C.18` for archive, front or possibility-space claims;
+- `C.19` for live-pool exploration policy;
+- `C.32` for architecture-candidate synthesis;
+- `A.15.8` for one actual-Work or present-WorkPlan support configuration; and
+- the direct domain Method for realization, production, provision, contracting, acceptance, or use.
 

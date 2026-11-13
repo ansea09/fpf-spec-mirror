@@ -6,12 +6,12 @@ section_id: "A.6.2:End"
 section_title: "A.6.2:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.2/A.6.2__014_a-6-2-end.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.2 — Effect-Free Episteme Morphing: Laws for Mathematical Relations Between Epistemes"
   - "A.6.2:End — A.6.2:End"
-line_start: 17591
-line_end: 17592
+line_start: 18416
+line_end: 18417
 dependencies:
   - "A.6.0"
   - "A.6.1"

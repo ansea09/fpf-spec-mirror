@@ -6,12 +6,12 @@ section_id: "C.40.CD:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.CD/C.40.CD__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.40.CD — Develop Problems and Ways of Solving Them Together"
   - "C.40.CD:intro — Intro"
-line_start: 85662
-line_end: 85667
+line_start: 89894
+line_end: 89899
 dependencies:
   - "B.5.MPC"
   - "B.5.MPC.R"

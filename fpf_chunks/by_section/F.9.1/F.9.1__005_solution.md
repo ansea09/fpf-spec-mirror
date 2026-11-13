@@ -6,12 +6,12 @@ section_id: "F.9.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9.1/F.9.1__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.9.1 — Bridge Stance Note — Clarify a Bounded Use"
   - "F.9.1:4 — Solution"
-line_start: 121833
-line_end: 121889
+line_start: 129537
+line_end: 129595
 dependencies:
   - "A.10"
   - "A.6.3.CSC"
@@ -63,8 +63,8 @@ The stance note may cite evidence or a current A.10 or B.3 reliance result, but 
 
 | Stance | Plain reading | Nearest overread to reject |
 | --- | --- | --- |
-| `localRename` | For this use, the receiving expression is being read as a near-renaming within the stated local boundary. | Cross-local identity or unrestricted replacement. |
-| `operationalizes` | For this use, the receiving expression gives a procedural, observable, or measurable reading of the source. | Enactment, implementation, work authority, permission, or type-structure equivalence. |
+| `localRename` | For this use, read the receiving expression as a near-renaming within the stated local boundary. | Cross-local identity or unrestricted replacement. |
+| `operationalizes` | Name the expression that gives a procedural, observable or measurable reading of the other, and the aspect it makes observable in this use. | Enactment, implementation, work authority, permission, or type-structure equivalence. |
 | `partialAnalogy` | For this use, the two senses share one stated explanatory pattern and differ elsewhere. | Admissible substitution or equivalence. |
 | `projection` | For this use, the receiving expression keeps one stated aspect and drops others. | Completeness, reversibility, recoverability, or permission to ignore the dropped distinctions. |
 | `nonEquivalent` | For this use, read the comparison as an explicit warning against equivalence. | A claim of disjointness, a negative Bridge claim, or a general ban beyond the stated use. |
@@ -81,7 +81,9 @@ A stance word carries no direction by itself. Direction belongs to the bounded-u
 - The stance note says how to read that one claim.
 - A claim that a comparison, translation, publication, Work occurrence or other downstream act occurred uses that object's subject pattern and evidence. When authorization is needed, recover it under the pattern that defines the permission or authority claim. The stance note establishes neither.
 
-A Bridge Card is optional claim-bearing packaging. A Card may package the Bridge description, bounded-use claim, evidence references, reliance result, and stance note together, but the Card is not a prerequisite for any of them. The Card's layout and edition, and any publication occurrence or file carrying it, remain separate from the objects it brings together.
+A Bridge Card is optional claim-bearing packaging. A Card may package the Bridge description, bounded-use claim, evidence references, reliance result, and stance note together, but the Card is not a prerequisite for any of them.
+
+The Card's layout and edition, and any publication occurrence or file carrying it, remain separate from the objects it brings together.
 
 `CL` is optional F.9 shorthand for evidence strength about a stated correspondence. It is not a substitution threshold and does not rank the stance. A stance note establishes neither suitability nor permission from `CL`, a loss note, or the gloss itself.
 
@@ -89,5 +91,5 @@ A Bridge Card is optional claim-bearing packaging. A Card may package the Bridge
 
 A `projection` or `nonEquivalent` stance can highlight loss, but it does not provide the source tether, narrower admissible use, blocked downstream use, or return trigger required for controlled coarsening. When those duties are live, use A.6.3.CSC and keep the stance note only if it still helps explain an independently established bounded-use claim.
 
-Publication does not cure a missing source. If a reader must return to a source episteme or source publication before the Bridge or bounded-use claim can be checked, perform that return first.
+When checking the Bridge or bounded-use claim requires the source episteme or source publication, return to that source first. Publication cannot substitute for the missing source.
 

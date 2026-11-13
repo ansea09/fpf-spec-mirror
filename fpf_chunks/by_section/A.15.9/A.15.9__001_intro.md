@@ -6,12 +6,12 @@ section_id: "A.15.9:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.9/A.15.9__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.15.9 — Use or Request a Bounded Result from Another Practice"
   - "A.15.9:intro — Intro"
-line_start: 32264
-line_end: 32269
+line_start: 33572
+line_end: 33577
 dependencies:
   - "A.10"
   - "A.13"
@@ -33,5 +33,5 @@ keywords:
 
 > **Type:** Method pattern
 > **Status:** Stable
-> **Normativity:** Normative unless explicitly marked informative
+> **Normativity:** Normative unless marked informative
 

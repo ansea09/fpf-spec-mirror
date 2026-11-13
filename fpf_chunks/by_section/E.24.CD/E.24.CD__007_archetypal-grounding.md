@@ -6,12 +6,12 @@ section_id: "E.24.CD:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.CD/E.24.CD__007_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.24.CD — Ontic Candidate Detection and First-Use Disposition"
   - "E.24.CD:5 — Archetypal Grounding"
-line_start: 116723
-line_end: 116819
+line_start: 124168
+line_end: 124286
 dependencies:
   - "A.1"
   - "A.14"
@@ -55,11 +55,13 @@ keywords:
 
 ### E.24.CD:5 - Archetypal Grounding
 
-#### E.24.CD:5.1 - A candidate that genuinely opens E.24
+#### E.24.CD:5.1 - A candidate that opens E.24
 
 Consider a library under development in which “description”, “view”, “claim set”, and “publication” repeatedly point to a claim-bearing object used across many patterns. The named consumers need stable claim identity across description, evaluation, reference, and publication work, but their current rules leave conflicting identity claims. No obvious direct-pattern route closes that gap.
 
-Those facts open E.24 to test the proposed shared identity and relation set. FPF's episteme ontology illustrates the resulting division of responsibility: C.2.1 governs `U.Episteme`; E.17.0, E.24.PUB, F.18, and the applicable subject-description or representation pattern keep viewpoint conformance, publication, naming and representation separate. In current FPF, use those established rules directly when they close the case. Cards and files do not become the episteme.
+Those facts open E.24 to test the proposed shared identity and relation set.
+
+FPF's episteme ontology illustrates the resulting division of responsibility: C.2.1 governs `U.Episteme`; E.17.0, E.24.PUB, F.18, and the applicable subject-description or representation pattern keep viewpoint conformance, publication, naming and representation separate. In current FPF, use those established rules directly when they close the case. Cards and files do not become the episteme.
 
 #### E.24.CD:5.2 - Local cooling-pump classification
 
@@ -71,9 +73,15 @@ Apply C.3.2. A `KindSignature` may declare the criterion for repeated use; the j
 
 A `ProblemCard@Context` under `C.22.2` is a problem-side episteme. It may carry a signal, hypothesis, forecast, scenario, anticipated-condition claim, affected-entity reference, evidence cue, constraint, proposed direction, assignment cue, source reference, or gate cue without creating an actual Problem.
 
-An actual Problem is one obtaining `ProblematicForRelation` under `C.22.PFR`. A card may assert that exact predicate, but it may designate a current Problem occurrence only after C.22.PFR independently establishes the actual-condition relation, criterion-applicability relation, adverse truth, and occurrence identity. Signals, hypotheses, forecasts, scenarios, anticipated conditions, and reviewable formulations remain under `C.22.2` or their exact forecast, scenario, temporal, or causal governor.
+An actual Problem is one obtaining `ProblematicForRelation` under `C.22.PFR`. A card may assert that predicate, but it may designate a current Problem occurrence only after C.22.PFR independently establishes the actual-condition relation, criterion-applicability relation, adverse truth, and occurrence identity.
 
-For a repair decision, keep the affected entity, evidence-use relation, any current local system-role kind and classification judgment, any exact obtaining system-role assignment, any separately governed responsibility relation, source-use relation, and gate or decision claim under their subject patterns. Apply `E.18.1`, `E.23`, and the exact Work, search, evaluation, or continuation pattern when repeated problematization or later action is current. Neither the card nor its acceptance or publication creates or ends an actual Problem. Open `E.24` only if a different reusable subject-identity or relation gap remains after these direct claims are recovered; do not rediscover the actual Problem as a new ontic.
+Signals, hypotheses, forecasts, scenarios, anticipated conditions, and reviewable formulations remain under `C.22.2` or their exact forecast, scenario, temporal, or causal governor.
+
+For a repair decision, keep the affected entity, evidence-use relation, any current local system-role kind and classification judgment, any exact obtaining system-role assignment, any separately governed responsibility relation, source-use relation, and gate or decision claim under their subject patterns.
+
+Apply `E.18.1`, `E.23`, and the exact Work, search, evaluation, or continuation pattern when repeated problematization or later action is current. Neither the card nor its acceptance or publication creates or ends an actual Problem.
+
+Open `E.24` only if a different reusable subject-identity or relation gap remains after these direct claims are recovered; do not rediscover the actual Problem as a new ontic.
 
 #### E.24.CD:5.4 - Record-shaped false candidate
 
@@ -91,38 +99,48 @@ ChangeItem:
   source:
 ```
 
-Treat the schema as source material, not as an ontology. A proposal episteme, method, mechanism declaration, work plan, intended-work claim, performed-work occurrence, holder system, state claim, evidence item, result, affected referent, and source remain different objects. Recover only those that the meeting actually uses:
+Use the schema as source material. Its fields do not establish an ontology. A proposal episteme, method, mechanism declaration, work plan, intended-work claim, performed-work occurrence, holder system, state claim, evidence item, result, affected referent, and source remain different objects. Recover only those that the meeting uses:
 
 | Field cue | Object and relation to recover |
 | --- | --- |
-| `owner` | Apply E.10's bounded `owner` recovery, then name the exact recovered relation and participants, ordinary or quoted non-use, or blocker. An established architectural owner—for example, the module designated for one functional-architecture object—keeps that direct architecture relation. Organizational, policy, source-maintenance or stewardship, legal ownership, responsibility, authority, and commitment uses keep their own recovered relations. Only a claim actually recovered as work-facing local classification or assignment proceeds through E.10.ROLE to A.2 or A.2.1. The field alone creates no System, kind, assignment, ownership occurrence, responsibility, or authority. |
+| `owner` | Apply E.10's bounded `owner` recovery, then name the recovered relation and participants, ordinary or quoted non-use, or blocker. An established architectural owner—for example, the module designated for one functional-architecture object—keeps that direct architecture relation. Organizational, policy, source-maintenance or stewardship, legal ownership, responsibility, authority, and commitment uses keep their own recovered relations. Only a claim recovered as work-facing local classification or assignment proceeds through E.10.ROLE to A.2 or A.2.1. The field alone creates no System, kind, assignment, ownership occurrence, responsibility, or authority. |
 | `status` | Name the exact bearer and the governed state or status value, claim, gate disposition, decision result, or other current relation. Field presence implies no readiness, validity, gate passage, work authorization, or release. |
 | `method` and `mechanism` | Keep an admitted `U.Method` and any qualifying `U.MethodDescription` distinct from the A.6.1 `U.Mechanism` declaration episteme and its declared operation family. If the field concerns one use, identify the exact operation application and only its declaration-local argument or result bindings that obtain. If it concerns realization, identify the realizing entity and the obtaining mechanism-realization relation. Apply `A.6.1` when the row does not yet distinguish these readings. Shared wording identifies none of them. |
 | plan, intended work, and actual work | Keep a `U.WorkPlan` or intended-work claim under `A.15.2`. Add a `U.Work` under `A.15.1` only for an independently grounded performed occurrence, whether ongoing with an open end or completed. A proposal, row, trace, or completion label does not make work occur. |
 | `evidence` | First identify what the field points to; do not rename it to fit a pattern. Keep its direct kind: an episteme or evidence record, a carrier, the work that produced or interpreted evidence, a currentness relation, or a provenance relation. If it is an episteme and the meeting asks only about its bounded evidence-use or status-use for the claim, use `A.2.4` first. Use `A.10` when the source-to-use account remains implicit or must be retraceable; include only the record, carrier, work, currentness relation, and provenance relation needed for this claim. Use `B.3` only when a separate assurance claim is current. The field proves neither the claim nor the row's status. |
-| `result` | Identify the result entity, value, or result episteme independently, then state the exact production, measurement, evaluation, decision, delivery, acceptance, or other result relation actually claimed. A result label creates no generic result object or relation. |
+| `result` | Identify the result entity, value, or result episteme independently, then state the production, measurement, evaluation, decision, delivery, acceptance, or other result relation claimed. A result label creates no generic result object or relation. |
 | `target` | Identify the affected referent and state an exact work-to-referent, change, effect, or other subject relation only when current. The field does not make the referent a work participant or changed entity. |
 | `source` | Identify the source episteme or expression and the exact source-use relation. Source presence is not evidence, authority, or currentness by itself. |
 
-Not every row has every listed object, not every filled field is claim-bearing, and co-presence in one row does not constitute a larger subject. The filled row is one C.2.1 episteme only when one exact ClaimGraph forms a claim-bearing whole about one truthful exact EntityOfConcern under one effective ReferenceScheme. Otherwise keep the epistemes separate and state only the exact collection, publication, representation, or meeting-use relation that actually obtains.
+Not every row has every listed object, not every filled field is claim-bearing, and co-presence in one row does not constitute a larger subject. The filled row is one C.2.1 episteme only when one exact ClaimGraph forms a claim-bearing whole about one exact EntityOfConcern under one effective ReferenceScheme.
 
-The column arrangement is a publication form only when selected to express an identified episteme for the meeting. The form is not a `U.ChangeItem`, and its columns are not ontic slots. If the project later needs a local kind of records for a query, `C.3.2` may classify those records as records. If a later blocked use has an independently recoverable inquiry subject, named consumers and concrete cross-pattern duplication or disagreement that one obvious direct route cannot close, open `E.24` to test the proposed shared subject. The schema's shape supplies none of those facts.
+Otherwise keep the epistemes separate and state only the exact collection, publication, representation, or meeting-use relation that obtains.
+
+The column arrangement is a publication form only when selected to express an identified episteme for the meeting. The form is not a `U.ChangeItem`, and its columns are not ontic slots. If the project later needs a local kind of records for a query, `C.3.2` may classify those records as records.
+
+If a later blocked use has an independently recoverable inquiry subject, named consumers and concrete cross-pattern duplication or disagreement that one obvious direct route cannot close, open `E.24` to test the proposed shared subject. The schema's shape supplies none of those facts.
 
 #### E.24.CD:5.5 - Current configuration around a holon
 
 A maintenance review asks about “the current configuration around Pump #14.” Identify Pump #14 under its system governor, then recover only the characteristic or state claims, actual part relations, temporal phase, and other direct relations that the maintenance decision uses. If the work compares a possible configuration, identify the possible-state episteme and its direct state or configuration claims rather than asserting current actuality.
 
-A separate C.2.1 description episteme may provide claim-bearing orientation. Its exact EntityOfConcern and any grounding holon in a separately current `EpistemeEmpiricalGroundingRelation` neither identify Pump #14 nor turn the surrounding claims into one world-side object. The holon and those current relations answer the question; their conjunction is not `U.Situation`.
+A separate C.2.1 description episteme may provide claim-bearing orientation. Its EntityOfConcern and any grounding holon in a separately current `EpistemeEmpiricalGroundingRelation` neither identify Pump #14 nor turn the surrounding claims into one world-side object. The holon and those current relations answer the question; their conjunction is not `U.Situation`.
 
 #### E.24.CD:5.6 - Operating pump with connected parts
 
-Pump #14 is operating while a sensor, valve, and controller are connected. `Operating` first cues a governed state claim; it does not establish `U.Work` or `U.Transformation`. Connectedness does not establish parthood. Identify the pump and connected entities, state the exact connection relations, and use `A.14` only for part relations whose predicates actually obtain.
+Pump #14 is operating while a sensor, valve, and controller are connected. `Operating` first cues a governed state claim; it does not establish `U.Work` or `U.Transformation`. Connectedness does not establish parthood. Identify the pump and connected entities, state the exact connection relations, and use `A.14` only for part relations whose predicates obtain.
 
-Add dated maintenance or control `U.Work` only after every precise performer has an A.13 core and A.15.1 independently identifies the Work's performance history, Method, time, containing System, and performers. Add F.6 only when the recovered situation account also needs precise assignment-bound attribution. A local system-role kind and its classification remain separate. A short situation-recovery sentence may omit identifiers its receiving use does not need. If maintenance or control is merely intended, keep it as an A.15.2 WorkPlan or other modal claim; it creates neither Work nor assignment. Add an actual bounded change under `A.3.4` only when its changed referent, boundary, conditions, and change facts obtain. No bundle of system, state, connection, work, and change becomes a situation entity.
+Add dated maintenance or control `U.Work` only after every precise performer has an A.13 core and A.15.1 independently identifies the Work's performance history, Method, time, containing System, and performers. Add F.6 only when the recovered situation account also needs precise assignment-bound attribution. A local system-role kind and its classification remain separate. A short situation-recovery sentence may omit identifiers its receiving use does not need.
+
+If maintenance or control is merely intended, keep it as an A.15.2 WorkPlan or other modal claim; it creates neither Work nor assignment. Add an actual bounded change under `A.3.4` only when its changed referent, boundary, conditions, and change facts obtain. No bundle of system, state, connection, work, and change becomes a situation entity.
 
 #### E.24.CD:5.7 - Multi-party emergency
 
-An emergency report mentions a leaking vessel, an overheated subsystem, a suppression system, and response teams. Recover each participating System and each actual change separately. For every dated response claimed as `U.Work`, recover each precise performer's A.13 core and independently admit the occurrence under A.15.1 as stated in `E.24.CD:5.6`; add F.6 only when the current account also needs exact assignment-bound attribution. Keep any local system-role classification separate. Keep an intended response as a plan or other modal content until it occurs. State temporal relations through their temporal patterns and a causal relation through `C.28` only when that claim is current and supported.
+An emergency report mentions a leaking vessel, an overheated subsystem, a suppression system, and response teams. Recover each participating System and each actual change separately.
+
+For every dated response claimed as `U.Work`, recover each precise performer's A.13 core and independently admit the occurrence under A.15.1 as stated in `E.24.CD:5.6`; add F.6 only when the current account also needs exact assignment-bound attribution. Keep any local system-role classification separate.
+
+Keep an intended response as a plan or other modal content until it occurs. State temporal relations through their temporal patterns and a causal relation through `C.28` only when that claim is current and supported.
 
 Use a C.2.1 emergency-description episteme only when the receiving work needs claim-bearing orientation across those objects. The emergency word, the record, and the co-presence of several systems and works identify neither `U.IncidentSituation` nor another bundled whole. Stop decomposition once the response decision has the exact subjects and relations it needs.
 
@@ -130,17 +148,21 @@ Use a C.2.1 emergency-description episteme only when the receiving work needs cl
 
 Two specification epistemes state constraints that cannot both hold under one declared `FormalSubstrate` and applicability. Identify the exact claims or epistemes, name that formal substrate, and state the exact inconsistency or consequence relation under its direct formal governor. Use `C.29` when using the formalism as a mathematical lens leaves a representation, transfer or reliance question unresolved.
 
-The formal relation may guide a later decision or repair-work occurrence, but it establishes no project-world event, work, transformation, causal relation, adverse episode, actual Problem, or situation entity. Formal consequence is not causation. Inconsistent descriptions do not make their world-side subjects inconsistent without a separately governed bridge claim. If the exact relation or substrate cannot be named, leave the formal claim unresolved rather than letting the word `inconsistency` stand for it.
+The formal relation may guide a later decision or repair-work occurrence, but it establishes no project-world event, work, transformation, causal relation, adverse episode, actual Problem, or situation entity. Formal consequence is not causation.
+
+Inconsistent descriptions do not make their world-side subjects inconsistent without a separately governed bridge claim. If the exact relation or substrate cannot be named, leave the formal claim unresolved rather than letting the word `inconsistency` stand for it.
 
 #### E.24.CD:5.9 - Architecture diagram
 
-An architecture diagram may carry claims about selected structures of one holon. If the diagram is selected as one claim-bearing whole, C.2.1 identifies that episteme. The same episteme has `U.View` membership only when E.17.0 conformance obtains; its publication form and carrier use E.24.PUB; C.30.AD governs its architecture-description adequacy and correspondence to the independently recovered subject. Use A.6.3.RT if a representation-scheme transition is claimed, and C.29 for an unresolved mathematical representation, transfer or reliance question.
+An architecture diagram may carry claims about selected structures of one holon. If the diagram is selected as one claim-bearing whole, C.2.1 identifies that episteme.
 
-The diagram does not become the architecture, structure, or ontic by being visible. If the current work is simply to correct one architectural claim, apply the architecture and structure patterns directly.
+The same episteme has `U.View` membership only when E.17.0 conformance obtains; its publication form and carrier use E.24.PUB; C.30.AD governs its architecture-description adequacy and correspondence to the independently recovered subject. Use A.6.3.RT if a representation-scheme transition is claimed, and C.29 for an unresolved mathematical representation, transfer or reliance question.
+
+The diagram does not become the architecture, structure, or ontic by being visible. If the current work is to correct one architectural claim, apply the architecture and structure patterns directly.
 
 #### E.24.CD:5.10 - Broad source word
 
-A source says that a method “supports” production. If the author can recover a specific required-effect, method-use, work-enactment, capability, evidence-use, or other direct claim, apply its subject pattern. If the source word still compresses several claims, use E.10 and E.10.ARCH to retain it only with its bounded meaning or in quote-only or reduced use.
+A source says that a method “supports” production. If the author can recover a required-effect, method-use, work-enactment, capability, evidence-use, or other direct claim, apply its subject pattern. If the source word still compresses several claims, use E.10 and E.10.ARCH to retain it only with its bounded meaning or in quote-only or reduced use.
 
 Do not open E.24 merely because `support` recurs, and do not invent `SupportRelation` as the candidate.
 

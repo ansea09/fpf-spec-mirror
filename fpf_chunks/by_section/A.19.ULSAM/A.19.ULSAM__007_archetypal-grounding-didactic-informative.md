@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.19.ULSAM"
-pattern_title: "Unified Lawful Scale Aggregation Mechanism (ULSAM)"
+pattern_title: "Unified Lawful Scale Aggregation Mechanism"
 section_id: "A.19.ULSAM:5"
 section_title: "Archetypal grounding (didactic, informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ULSAM/A.19.ULSAM__007_archetypal-grounding-didactic-informative.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.19.ULSAM — Unified Lawful Scale Aggregation Mechanism (ULSAM)"
+  - "A.19.ULSAM — Unified Lawful Scale Aggregation Mechanism"
   - "A.19.ULSAM:5 — Archetypal grounding (didactic, informative)"
-line_start: 38654
-line_end: 38679
+line_start: 40191
+line_end: 40216
 dependencies:
   - "A.19.CPM"
   - "A.19.SelectorMechanism"
@@ -25,7 +25,7 @@ keywords:
   - "fold_Γ?"
   - "lawful aggregation"
   - "scale-lawful fold"
-  - "tri-state guard (pass"
+  - "tri-state guard (pass\\"
   - "ΓFoldRef"
 ---
 
@@ -34,8 +34,8 @@ keywords:
 #### A.19.ULSAM:5.1 - Tell
 
 - In CHR, ULSAM exists to keep the stage `fold_Γ?` **explicit**: if a pipeline wants folding, it invokes `ULSAM.Fold_Γ`; otherwise it skips the stage. Folding MUST NOT be smuggled into `USCM.Score`, `CPM.Compare`, or `SelectorMechanism.Select`.
-- For a `U.System` decision: ULSAM explicitly folds the admitted measures about the named System, under the declared grouping or membership basis and CG-Spec fold policy, only when that aggregate result is actually needed.
-- For a `U.Episteme` assessment: ULSAM explicitly folds the admitted evidential or measurement set about that episteme into an aggregate coordinate, using an aggregation model justified for that exact quantity and support dependence; reliability-like wording alone supplies no weakest-link law.
+- For a `U.System` decision: ULSAM folds the admitted measures about the named System, under the declared grouping or membership basis and CG-Spec fold policy, only when that aggregate result is needed.
+- For a `U.Episteme` assessment: ULSAM folds the admitted evidential or measurement set about that episteme into an aggregate coordinate, using an aggregation model justified for that quantity and support dependence; reliability-like wording alone supplies no weakest-link law.
 
 #### A.19.ULSAM:5.2 - Show
 
@@ -44,14 +44,14 @@ keywords:
    `MeasureSetSlot = {m₁, m₂, …, m_k}`.
 2. The team wants a single “readiness” measure `m_ready` to be used as an input to later comparison/selection.
    Define the question this aggregate would answer and its acceptance or comparison use; a readiness label supplies no aggregation law.
-3. ULSAM forces three explicit questions before folding:
+3. ULSAM forces three questions before folding:
    - **Admissibility:** Is the fold admissible under `CGSpecSlot.SCP` (units/scale) and `CGSpecSlot.Γ_fold` (declared fold kinds)?
    - **Evidence:** Is the evidence posture sufficient under `MinimalEvidence`? If not, do we `degrade` or `abstain`?
    - **Policy identity:** What is the identity of the fold (which ΓFoldRef, which edition)?
 4. When those conditions hold, the application computes:
    `Fold_Γ(MeasureSetSlot, CNSpecSlot, CGSpecSlot, GammaFoldSlot, MinimalEvidenceSlot?) → (AggregatedMeasureSlot, ContributorSetSlot?)`.
-   The audit records ΓFoldRef and makes the actual contributors recoverable, with the optional contributor output when needed. If no justified fold answers the readiness question, retain the separate measures and their direct criteria.
+   The audit records ΓFoldRef and makes the actual contributors recoverable, with the optional contributor output when needed. If no justified fold answers the readiness question, retain the separate measures and their criteria.
 
 **Scenario B (engineer-facing): proposed aggregation across different bases.**
-- A project tries to fold measures with different bearers, membership rules, scales, comparison bases, or reference planes. ULSAM first checks whether one admitted set and lawful fold can be stated. If the conclusion relies on an F.9 Bridge, kind relation, aggregation or membership relation, or plane relation, the project cites that exact obtaining relation and its loss. If a required relation is absent or unresolved, keep independently supported folds separate or abstain from the dependent fold.
+- A project tries to fold measures with different bearers, membership rules, scales, comparison bases, or reference planes. ULSAM first checks whether one admitted set and lawful fold can be stated. If the conclusion relies on an F.9 Bridge, kind relation, aggregation or membership relation, or plane relation, the project cites that obtaining relation and its loss. If a required relation is absent or unresolved, keep independently supported folds separate or abstain from the dependent fold.
 

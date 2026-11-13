@@ -6,12 +6,12 @@ section_id: "C.40.CD:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.CD/C.40.CD__010_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.40.CD — Develop Problems and Ways of Solving Them Together"
   - "C.40.CD:9 — Consequences"
-line_start: 85836
-line_end: 85839
+line_start: 90068
+line_end: 90071
 dependencies:
   - "B.5.MPC"
   - "B.5.MPC.R"

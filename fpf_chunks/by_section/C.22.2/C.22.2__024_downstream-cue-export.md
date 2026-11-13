@@ -6,12 +6,12 @@ section_id: "C.22.2:23"
 section_title: "Downstream Cue Export"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__024_downstream-cue-export.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:23 — Downstream Cue Export"
-line_start: 64307
-line_end: 64323
+line_start: 67057
+line_end: 67080
 dependencies:
   - "A.10"
   - "A.15"
@@ -64,12 +64,19 @@ The compact export contains:
 
 - problem signal and exact signal reference;
 - one joint EntityOfConcern, effective ReferenceScheme, and ClaimScope;
-- exact claim family and polarity: actual-PFR assertion, anticipated-condition claim, method-availability or solvability claim, or another named direct claim;
+- claim family and polarity: actual-PFR assertion, anticipated-condition claim, method-availability or solvability claim, or another named direct claim;
 - the observation, need or constraint that warrants addressing the concern independently of a proposed solution;
 - improvement check or acceptance probe when needed, or the gap that prevents P2W-ready use;
-- one honest next use and its disposition: reviewable-only, `P2W-ready`, `abstainOrNoChange`, refresh, retire, archive, or subject-pattern cue;
+- one next use and its disposition: reviewable-only, `P2W-ready`, `abstainOrNoChange`, refresh, retire, archive, or subject-pattern cue;
 - current qualification window, exact PFR, source-set, A.15.6 composite or component Work, or representation reference only when independently governed and relied on; and
 - problem-formulation follow-up reason, validation boundary, freshness condition, and stop only when the receiving use relies on them.
 
-For P2W carry-through, use E.18.1 with the accepted problem-side distinctions. For TaskSignature constitution and assignment, use C.22. For selector-facing selected-set use, apply G.5 when that relation is current. When the missing contribution is development of reusable material through feasible variations, use C.40; use C.18 to preserve the generation or archive account when needed. For intended or performed Work, use A.15 only after its exact object is current; when the question is whether intended Work may enter its boundary, A.15.5 governs `WorkEntryReadiness@Context`. For evidence, gate, autonomy, or any other claim, apply the direct pattern; the whole card never carries that claim by itself.
+Choose the next pattern by the receiving question:
+
+- For P2W carry-through, use E.18.1 with the accepted problem-side distinctions.
+- For TaskSignature constitution and assignment, use C.22.
+- For selector-facing selected-set use, apply G.5 when that relation is current.
+- When the missing contribution is development of reusable material through feasible variations, use C.40; use C.18 to preserve the generation or archive account when needed.
+- For intended or performed Work, use A.15 only after its object is current; when the question is whether intended Work may enter its boundary, A.15.5 governs `WorkEntryReadiness@Context`.
+- For evidence, gate, autonomy, or any other claim, apply the direct pattern; the whole card never carries that claim by itself.
 

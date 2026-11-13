@@ -6,12 +6,12 @@ section_id: "F.0.2.MA:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2.MA/F.0.2.MA__010_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.0.2.MA — Synthesize and Allocate Method Contributions"
   - "F.0.2.MA:9 — Consequences"
-line_start: 118359
-line_end: 118364
+line_start: 125949
+line_end: 125954
 dependencies:
   - "A.3.1.DR"
   - "A.3.1.MR"
@@ -25,7 +25,7 @@ keywords:
 
 ### F.0.2.MA:9 - Consequences
 
-The engineer gains a language or description whose source decisions can be challenged and repaired locally. Reuse is more selective: some material disappears from the new body because a current supplier already answers it, while useful differences survive instead of being averaged away.
+The engineer gains a language or description whose source decisions can be challenged and repaired locally. Reuse becomes more selective. The new body omits material that a current supplier already provides and preserves differences that matter to the receiving use.
 
 The cost is retaining the few source and dependency facts needed for later reconsideration. For a one-off question that F.0.2 or a direct source already closes, another allocation account adds no value.
 

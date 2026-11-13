@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.10.ARCH"
-pattern_title: "Wording-Use Ontological Precision Restoration Architecture"
+pattern_title: "Architecture for Recovering Ontological Meaning in Wording"
 section_id: "E.10.ARCH:6"
 section_title: "Admission and extraction criterion"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__012_admission-and-extraction-criterion.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
+  - "E.10.ARCH — Architecture for Recovering Ontological Meaning in Wording"
   - "E.10.ARCH:6 — Admission and extraction criterion"
-line_start: 101762
-line_end: 101778
+line_start: 107500
+line_end: 107516
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -65,18 +65,18 @@ keywords:
 
 ### E.10.ARCH:6 - Admission and extraction criterion
 
-Add or retain a `WordingUseRestorationApplicabilityRow` when all of the following are true:
+Add or retain a `WordingUseRestorationApplicabilityRow` when it meets all these conditions.
 
 - the wording recurs across FPF-governed texts or project text deliberately using FPF-governed terms, pattern references, relation names, or conformance claims;
 - the hidden primary-EntityOfConcern use field set is stable;
 - the recovery apparatus or field set is stable enough to teach;
 - repeated in-place repair distracts from the subject pattern's primary EntityOfConcern and first useful move;
 - a useful remaining reader use survives the repair and the row helps recover it;
-- no existing subject pattern already carries the row without duplicating repair-only doctrine inside subject patterns.
+- no existing subject pattern carries the row without duplicating repair-only doctrine inside subject patterns.
 
 Use an existing subject pattern when it already supplies the rule and practical guidance needed for the recovered object or claim. Record its PatternID as `subjectPatternLocator` and state what the rule defines, constrains or tests.
 
-Extract repair-only material from a subject pattern when the material is only wording-recognition lists, false-friend rows, anti-umbrella prose, or repair fields that must run before the subject pattern can state its own invariant. Leave a narrow first-use cue or subject-pattern relation in the subject pattern.
+Extract material from a subject pattern when it consists solely of wording-recognition lists, false-friend rows, anti-umbrella prose, or repair fields that must run before the subject pattern can state its own invariant. Leave a narrow first-use cue or subject-pattern relation in the subject pattern.
 
 Keep material in the subject pattern when it states the subject pattern's own invariant, worked case, conformance condition, characteristic construction, structural construction, mathematical lens, source-return condition, or user action.
 

@@ -6,12 +6,12 @@ section_id: "A.6.4:12"
 section_title: "Mini-checklist (for use)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__013_mini-checklist-for-use.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.4 — EntityOfConcern Retargeting: Judge a Bounded Use Across Different Entities"
   - "A.6.4:12 — Mini-checklist (for use)"
-line_start: 19959
-line_end: 19970
+line_start: 20832
+line_end: 20843
 dependencies:
   - "A.10"
   - "A.15"
@@ -40,10 +40,10 @@ keywords:
 Start with questions 1–2 to classify the arrow. Questions 3–4 concern a claimed receiving use; question 5 concerns its evaluation in a current case. Questions 6–7 apply when those additional claims are current.
 
 1. **Does the EntityOfConcern change?** If no, use A.6.3 or another preserving pattern.
-2. **Which exact arrow, endpoint epistemes and EntitiesOfConcern are involved?** Name them before naming a mapping technology.
-3. **Which invariant does q state?** Name its exact proposition and case assumptions.
+2. **Which arrow, endpoint epistemes and EntitiesOfConcern are involved?** Name them before naming a mapping technology.
+3. **Which invariant does q state?** Name its proposition and case assumptions.
 4. **What is lost, and which receiving use tolerates that loss?** A broad "same meaning" answer is insufficient.
 5. **What witnesses the invariant and loss judgement?** If the witness is missing or contradicted, stop or reopen.
 6. **Is a relation between two local senses also claimed?** Only then test F.9 separately; no Bridge follows merely from retargeting.
-7. **Was computation or another activity performed?** When an A.6.1 operation declaration is current, identify the exact application and its argument and result bindings. Identify any performed Work separately from r and q.
+7. **Was computation or another activity performed?** When an A.6.1 operation declaration is current, identify the application and its argument and result bindings. Identify any performed Work separately from r and q.
 

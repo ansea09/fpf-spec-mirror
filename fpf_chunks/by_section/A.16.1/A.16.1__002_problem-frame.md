@@ -6,12 +6,12 @@ section_id: "A.16.1:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.16.1 — PreArticulationCuePack: Preserve an Early Cue Before Choosing Its Use"
   - "A.16.1:1 — Problem frame"
-line_start: 33908
-line_end: 33912
+line_start: 35388
+line_end: 35392
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -39,5 +39,5 @@ keywords:
 ### A.16.1:1 - Problem frame
 Some `U.Episteme` content is worth preserving before it is ready for route or prompt publication, relation or evaluative repair, wording recovery under `A.6.A` and the resulting subject-specific use, method or work use, or endpoint admission. `PreArticulationCuePack` therefore exists as an early publication form for such pre-threshold cue content. Keep it accessible for as long as the receiving use needs it.
 
-The cue pack is deliberately earlier than `RoutedCueSet`. It may carry early directional hints, but it does not yet contain a selected route, route-selection status, or route rationale.
+The cue pack is earlier than `RoutedCueSet`. It may carry early directional hints, but it does not yet contain a selected route, route-selection status, or route rationale.
 

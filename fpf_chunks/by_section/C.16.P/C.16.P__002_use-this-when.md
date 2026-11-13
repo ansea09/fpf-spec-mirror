@@ -6,12 +6,12 @@ section_id: "C.16.P:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.P/C.16.P__002_use-this-when.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.16.P — Restore Precision to Characteristic and Scale Wording"
   - "C.16.P:0 — Use this when"
-line_start: 59628
-line_end: 59635
+line_start: 62013
+line_end: 62020
 dependencies:
   - "A.17"
   - "A.18"

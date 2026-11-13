@@ -6,12 +6,12 @@ section_id: "B.1.5.CM:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5.CM/B.1.5.CM__002_use-this-when.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.1.5.CM — Construct and Qualify a Composite Method"
   - "B.1.5.CM:0 — Use This When"
-line_start: 42913
-line_end: 42934
+line_start: 44627
+line_end: 44648
 dependencies:
   - "A.3.1"
   - "B.1.5"
@@ -27,7 +27,7 @@ Use this pattern when a proposal names an intended Method whole, such as a metho
 
 Begin with the proposal's intended result, participants and relation claims. Recover the available whole semantics and the guards, burdens, unresolved conditions and selection reason that matter for the receiving use. Test the identity and relation grounds required for the conclusion sought.
 
-The first useful result is deliberately two-branched. If the whole and participant Methods are identified and the required relations are shown to obtain, record the bounded composition result. Otherwise return the prospective account or partial claim supported by the evidence. That account can finish a present design comparison while whole identity or relation truth remains unresolved. Select later realization or testing only when its obtainable contribution warrants the full burden and is feasible.
+The first useful result is two-branched. If the whole and participant Methods are identified and the required relations are shown to obtain, record the bounded composition result. Otherwise return the prospective account or partial claim supported by the evidence. That account can finish a present design comparison while whole identity or relation truth remains unresolved. Select later realization or testing only when its obtainable contribution warrants the full burden and is feasible.
 
 Do not require prior performance of C.32.MWA.PP when equivalent proposal content is already available. Do not treat a coherent description, selected architecture, WorkPlan, tool implementation, or successful first trial as Method construction or identification by itself.
 

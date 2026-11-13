@@ -6,12 +6,12 @@ section_id: "C.39.RO:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.RO/C.39.RO__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.39.RO — Turn a Construction into a Reusable Operation"
   - "C.39.RO:4 — Solution"
-line_start: 83478
-line_end: 83535
+line_start: 87531
+line_end: 87588
 dependencies:
   - "A.3.1"
   - "A.3.2"
@@ -34,7 +34,7 @@ Recover the working construction, choose the intended variation, expose an opera
 
 Follow how the existing case obtained its result. Identify the material or values used, the operations performed, their dependencies and the reason the result answered the question.
 
-Select a receiving use that needs more than the original answer. It may need the same transformation on another input, an intermediate result for another operation, or a way to adjust the construction. If the original result itself suffices, use it and stop.
+Select a receiving use that needs more than the original answer. It may need the same transformation on another input, an intermediate result for another operation, or a way to adjust the construction. If the original result suffices, use it and stop.
 
 A trace can reveal that the apparent reusable step depended on an unreported contribution. Recover that contribution through B.5.RC or the relevant subject Method before building on it.
 
@@ -44,7 +44,7 @@ Choose which parts should vary in the receiving use. Give each variable part a m
 
 Identify the conditions that stay in force: a common time reference, symmetric pairwise conflicts, an allowed constant correction, or a physical rate over the relevant interval. A case value becomes a parameter only when the proposed operation explains how it uses different admissible values.
 
-Examine a simple boundary of the proposed input. A procedure that takes a minimum and maximum needs a nonempty set. A partition procedure needs the conflict relation that it actually handles. State a useful failure result when an input can be understood but the requested outcome is impossible.
+Examine a boundary of the proposed input. A procedure that takes a minimum and maximum needs a nonempty set. A partition procedure needs the conflict relation that it handles. State a useful failure result when an input can be understood but the requested outcome is impossible.
 
 #### C.39.RO:4.3 - Construct the reusable operation
 
@@ -54,9 +54,9 @@ Three common constructions can help:
 
 - **Parameterize a choice.** Replace “subtract 42.5 milliseconds” with “subtract the midpoint of the smallest and largest observed offsets.”
 - **Compose available operations.** Convert the receiving data into a form an existing operation accepts, perform that operation, and interpret its result for the receiving use. Check the intermediate meaning at each connection.
-- **Replace a constituent operation.** When the intended variation invalidates one step, find a substitute that supplies the result its successor needs. Retain the other steps whose conditions still hold.
+- **Replace a constituent operation.** When the intended variation invalidates one step, find a substitute that supplies the result its successor needs. Retain the other steps whose conditions hold.
 
-Use the subject practice to construct a genuinely missing constituent. C.39 helps find such a way; B.5.TU helps make an available theory operative. If the desired result is still unsupported, name the unresolved step and the smaller result already obtainable.
+Use the subject practice to construct a missing constituent. C.39 helps find such a way; B.5.TU helps make an available theory operative. If the desired result is unsupported, name the unresolved step and the smaller result already obtainable.
 
 #### C.39.RO:4.4 - Explain what the operation supports
 
@@ -74,7 +74,7 @@ Instantiate the operation on the selected changed input. Perform its steps and i
 
 Compare the obtained result with the receiving question. If the operation returns a failure witness, use it to change the proposed action or question. If an assumption fails, repair the dependent part or narrow the application conditions.
 
-A worked changed case can expose a defect in the proposed operation. The scope of a general conclusion still comes from its argument or empirical basis. B.5.RR supplies local revision of that reasoning; B.5.QD develops a new question when the result calls for one.
+A worked changed case can expose a defect in the proposed operation. The scope of a general conclusion comes from its argument or empirical basis. B.5.RR supplies local revision of that reasoning; B.5.QD develops a new question when the result calls for one.
 
 #### C.39.RO:4.6 - Make the operation usable at the receiving point
 

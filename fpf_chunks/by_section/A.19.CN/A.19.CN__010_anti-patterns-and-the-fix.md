@@ -6,12 +6,12 @@ section_id: "A.19.CN:9"
 section_title: "Anti‑patterns (and the fix)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CN/A.19.CN__010_anti-patterns-and-the-fix.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.19.CN — CN-frame: Specify and Maintain Comparability and Normalization"
   - "A.19.CN:9 — Anti‑patterns (and the fix)"
-line_start: 36713
-line_end: 36723
+line_start: 38219
+line_end: 38229
 dependencies:
   - "A.19"
   - "A.6.1"
@@ -44,7 +44,7 @@ keywords:
 | **Chartless number**    | “Latency = 120”                           | No unit/vantage → untestable | Fill `cs_basis` + `chart`                          |
 | **Normalization smuggling**     | Quiet “per‑unit” normalisation mid‑stream | Trend reversal               | Declare UNM normalization references (`NormalizationMethodId` / `NormalizationMethodInstanceId`) + named invariants (see A.19.UNM)        |
 | **Bridge-by-name** | Reusing equal labels under different schemes | False comparability | Test the needed F.9 predicate; cite a Bridge only when it obtains, then ground the separate receiving-use claim and reliance. An unsupported required correspondence blocks that use. |
-| **Free-hand averaging** | An arithmetic mean is used without a model for the intended risk result | The number can answer the wrong question | Use A.9 to select a justified law, bound or separate-input result; declare an actual `Γ_fold` only for the selected fold |
+| **Free-hand averaging** | An arithmetic mean is used without a model for the intended risk result | The number can answer the wrong question | Use A.9 to select a justified law, bound or separate-input result; declare a `Γ_fold` only for the selected fold |
 | **CN‑frame sprawl** | Overlapping definitions obscure which comparison basis to use | Avoidable reconstruction and maintenance | Reuse a sufficient basis and retain differences that change the use. A registry supports maintained editions; use E.9 when a consequential decision needs a DRR. |
-| **Self-certification hidden by assignments** | A holder authors the basis and later certifies it under a new role | A required independent check still examines that holder's own basis | Apply §4.2 to actual participation in the exact edition; separate authority and examination, and keep uncertified use explicit when certification is not required |
+| **Self-certification hidden by assignments** | A holder authors the basis and later certifies it under a new role | A required independent check still examines that holder's own basis | Apply §4.2 to participation in the edition; separate authority and examination, and keep uncertified use explicit when certification is not required |
 

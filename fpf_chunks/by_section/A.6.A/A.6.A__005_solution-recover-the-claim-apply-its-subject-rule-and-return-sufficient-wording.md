@@ -6,12 +6,12 @@ section_id: "A.6.A:4"
 section_title: "Solution - Recover the claim, apply its subject rule and return sufficient wording"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.A/A.6.A__005_solution-recover-the-claim-apply-its-subject-rule-and-return-sufficient-wording.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.A — Affordance and Action-Invitation Precision Restoration (ACT-INV)"
   - "A.6.A:4 — Solution - Recover the claim, apply its subject rule and return sufficient wording"
-line_start: 21949
-line_end: 22241
+line_start: 22828
+line_end: 23128
 dependencies:
   - "A.15"
   - "A.16"
@@ -64,8 +64,8 @@ Use A.6.A when the intended claim or question remains unclear for the receiving 
 1. **Recover the statement and receiving use.** Read the sentence with its source context. State which interpretation, decision or action the reader needs it for.
 2. **Compare the live interpretations.** Consider a physical opportunity, its detection, an operator prompt, a social response, a candidate inquiry, a proposed clarification, a learned policy tendency or a control option. Also consider an actual evaluation, ability, commitment or Work claim when the sentence supports that reading. Use §4.3 as a menu, not a required classification.
 3. **Select what the grounds support.** State the intended interpretation and why a consequential rival is excluded. If the grounds do not choose, preserve the rival meanings and return the fact or question that would distinguish them. A short note is useful when a later decision needs those grounds; it is not a prerequisite to every repair.
-4. **Recover the subject and relevant conditions.** Name the actual site, would-be actor, action and other participants only to the extent that they determine the claim. For an obtaining relation, recover its direct predicate and any needed occurrence identity under A.6.REL. For an inquiry, state the question and what an answer would resolve. A menu label supplies neither result.
-5. **Express the first useful result.** Return a sufficient ordinary sentence, supported bounded claim, explicit question or exact missing basis. Use one of §4.5's optional forms only when the receiving use needs it. Separate a detector, viewpoint, source or representation when that distinction changes the result.
+4. **Recover the subject and relevant conditions.** Name the site, would-be actor, action and other participants only to the extent that they determine the claim. For an obtaining relation, recover its direct predicate and any needed occurrence identity under A.6.REL. For an inquiry, state the question and what an answer would resolve. A menu label supplies neither result.
+5. **Express the first useful result.** Return a sufficient ordinary sentence, supported bounded claim, explicit question or missing basis. Use one of §4.5's optional forms only when the receiving use needs it. Separate a detector, viewpoint, source or representation when that distinction changes the result.
 6. **Continue from that result.** Apply the subject pattern for a needed evaluation, Method selection, WorkPlan, actual Work, authority, gate or evidence claim. Use A.6.B for the actual boundary-bearing claim. Stop when the receiving question is answered; wording recovery creates no extra invitation occurrence to establish first.
 
 #### A.6.A:4.1 - Recognition and assurance answer different questions
@@ -85,18 +85,22 @@ trigger and source context
 recovered statement or question
 receiving use
 participants and conditions that determine the result
-subject rule and supporting sources, or the exact missing basis
+subject rule and supporting sources, or the missing basis
 material rival interpretations and their disposition, when needed
 detector, viewpoint, representation and publication details, when relevant
 next subject result or return, when one is needed
 ```
 
-This form expresses the result without defining a common relation kind. For an actual relation claim, its participants, direction, applicability, evidence conditions and identity rule come from the direct governor. Use A.6.5 for a reference-backed designation only when a compatible declared SlotSpec is current; ordinary note wording needs no invented relation declaration.
+This form expresses the result without defining a common relation kind. For a relation claim, its participants, direction, applicability, evidence conditions and identity rule come from the direct governor. Use A.6.5 for a reference-backed designation only when a compatible declared SlotSpec is current; ordinary note wording needs no invented relation declaration.
 
 Omit fields that do not change interpretation or use. A sufficient sentence remains a complete result. A particular receiving publication can require more structure under its own conditions; that requirement does not become a universal prerequisite to wording recovery.
 
 **Viewpoint and view discipline.**
-When `viewpointRef` is present, `effectiveReferenceScheme` is also explicit and the reference resolves under that scheme to one exact independently admitted `U.Viewpoint` episteme. `view` is a separate optional value: it names one independently identified C.2.1 episteme that already has `U.View` membership only because exact E.17.0 `EpistemeViewpointConformanceRelation(view, viewpoint)` obtains for at least one admitted viewpoint. The selected `viewpointRef` need not be the viewpoint to which an optional view conforms unless the record explicitly claims that relation. Including `viewpointRef` or `view` in a recovery note establishes neither `U.Viewpoint` nor `U.View` dependent-kind membership; it only cites already established objects. Detector, viewpoint selection, view membership, viewing construction and publication remain separate.
+When `viewpointRef` is present, `effectiveReferenceScheme` is also explicit and the reference resolves under that scheme to one independently admitted `U.Viewpoint` episteme.
+
+`view` is a separate optional value: it names one independently identified C.2.1 episteme that already has `U.View` membership only because E.17.0 `EpistemeViewpointConformanceRelation(view, viewpoint)` obtains for at least one admitted viewpoint. The selected `viewpointRef` need not be the viewpoint to which an optional view conforms unless the record explicitly claims that relation.
+
+Including `viewpointRef` or `view` in a recovery note establishes neither `U.Viewpoint` nor `U.View` dependent-kind membership; it only cites already established objects. Detector, viewpoint selection, view membership, viewing construction and publication remain separate.
 
 A sentence such as “X affords Y” needs repair when its intended action, participants or basis remain hidden for the receiving use. For a recovered relation claim, apply A.6.REL; for a recovered question, preserve the question. Earlier cue content may remain a cue pack, RoutedCueSet or another appropriate expression.
 
@@ -128,7 +132,7 @@ If a local practice needs a named interpretation profile, it may specify applica
 
 A recovery note may carry `articulationHint` as a **local articulation-cue field** when the receiving use needs it.
 
-This field is deliberately **not** a new formality progression, **not** a maturity scale, and **not** a surrogate for **F**. Its only job is to preserve local articulation and closure cues until they can be related to `A.16` move logic and the explicit `C.2.4` and `C.2.5` governing facets.
+This field is **not** a new formality progression, **not** a maturity scale, and **not** a surrogate for **F**. Its only job is to preserve local articulation and closure cues until they can be related to `A.16` move logic and the explicit `C.2.4` and `C.2.5` governing facets.
 
 Local `articulationHint` tokens SHALL be related to `A.16` move logic and to the explicit `C.2.4` and `C.2.5` governing facets one-for-one, and A.6.A SHALL treat them as local publication cues only.
 Until then, local hints SHALL NOT be thresholded, aggregated, or compared across Contexts.
@@ -165,17 +169,17 @@ Use the following questions where their answer changes the recovered meaning or 
    Which System, including a qualified collective system, would act; an assignment may help identify its holder when that attribution matters.
 
 3. **Candidate action tuple.**
-   What action or inquiry the phrase concerns. If the result selects a Method for enactment, identify its exact `U.Method`; keep any MethodDescription, WorkPlan and actual Work separate under their direct rules.
+   What action or inquiry the phrase concerns. If the result selects a Method for enactment, identify its `U.Method`; keep any MethodDescription, WorkPlan and actual Work separate under their direct rules.
 
 4. **Intended meaning.**
    Which interpretation the context supports, and which consequential rival remains or is excluded. An `AIS.*` label is optional.
 
 5. **Coupling frame.**
-   The actual conditions and, where applicable, coupling relation on which the recovered claim depends; recover their rule rather than treating their names as proof.
+   The conditions and, where applicable, coupling relation on which the recovered claim depends; recover their rule rather than treating their names as proof.
    Examples: reach envelope, interface state, incident horizon, control horizon, probe pack, open issue set.
 
 6. **Detector, viewpoint reference, and independent view.**
-   Who or what detected the cue; which exact viewpoint episteme `viewpointRef` resolves to under the effective reference scheme when a viewpoint is selected; and, independently, which already-conforming `view : U.View` is cited when a view itself participates. None follows from another.
+   Who or what detected the cue; which viewpoint episteme `viewpointRef` resolves to under the effective reference scheme when a viewpoint is selected; and, independently, which already-conforming `view : U.View` is cited when a view itself participates. None follows from another.
 
 7. **Normal form and `articulationHint`.**
    Whether a particular expression form or articulation cue changes what the receiver can recover or do.
@@ -214,10 +218,10 @@ Use when one candidate action tuple is explicit.
 A conforming `ActionOption` publishes:
 
 * one candidate action tuple,
-* the would-be acting System and any assignment that the receiving claim actually needs,
+* the would-be acting System and any assignment that the receiving claim needs,
 * local guard sketch,
 * expected near-field effect,
-* an exact `U.Method` ref when the option selects that Method for enactment, plus a separate optional `U.MethodDescription` ref or `U.WorkPlan` ref only when that independently existing object is current,
+* a `U.Method` ref when the option selects that Method for enactment, plus a separate optional `U.MethodDescription` ref or `U.WorkPlan` ref only when that independently existing object is current,
 * any separately established selection, duty or execution state needed by the receiving use. If such a state is unknown, the option form supplies no negative state either.
 
 **ANF-3 — `OptionSet`.**
@@ -236,7 +240,7 @@ A conforming `PolicyHook` publishes:
 
 * references to the existing policy, Method, gate or protocol content governing this use, resolved under the applicable reference scheme,
 * applicable guard or trigger conditions,
-* the acting or maintaining System when the receiving use needs that identity, plus the responsibility or authority basis and any assignment actually claimed; a missing responsibility rule blocks only the dependent attribution,
+* the acting or maintaining System when the receiving use needs that identity, plus the responsibility or authority basis and any assignment claimed; a missing responsibility rule blocks only the dependent attribution,
 * escalation or override references when relevant,
 * enough source content to recover the applicable rule; publication of the hook alone establishes no individual commitment, admission decision or Work occurrence.
 
@@ -246,7 +250,7 @@ A.6.A SHALL prevent the collapse of action invitation language into neighbouring
 
 * A statement about **better, worse, fit, or merit** belongs to **C.16.Q**.
 * A statement about **what a system can do in general** belongs to capability wording, method wording, or method-description wording under **A.6.F** and the subject pattern for the asserted capability, method, or method-description claim.
-* For **what must or may be done**, distinguish a generic prescription, an individual duty, a grant and admission of a named action or application. A.6.B distinguishes their boundary claims; the normative source, A.2.8 commitment rule, A.2.8.PER permission rule or admission rule supplies the actual basis.
+* For **what must or may be done**, distinguish a generic prescription, an individual duty, a grant and admission of a named action or application. A.6.B distinguishes their boundary claims; the normative source, A.2.8 commitment rule, A.2.8.PER permission rule or admission rule supplies the basis.
 * Ordinary statements of **what someone did** may remain ordinary. A deliberately asserted dated U.Work follows A.13 and independent A.15.1 admission with its enactsMethod relation; precise assignment-bound attribution additionally uses F.6.
 * A result that selects a Method identifies that Method without becoming a plan or occurrence; any `methodDescriptionRef` remains auxiliary. A proposed action can remain a proposal without inventing its Method. A Description episteme never acts and is never what Work enacts.
 * When a sentence carries both evaluative and action-oriented content, make the two claims and their respective grounds distinguishable. Use linked records only when the receiving use needs them.
@@ -256,13 +260,17 @@ Two clear clauses or sentences may suffice.
 Examples:
 
 * “This scene is good for grasping” can combine a physical-opportunity claim with an evaluation under a particular criterion. Recover each claim and its rule.
-* “This alarm requires rollback” needs the actual gate or duty rule, if that is the intended claim.
+* “This alarm requires rollback” needs the gate or duty rule, if that is the intended claim.
 * “The robot can grasp this handle” can concern ability under conditions or a situated physical opportunity. Recover which result the reader needs and apply its rule.
 * “The operator clicked rollback” reports an action rather than offering one. It needs no extra formal Work identity unless that identity is material to the receiving claim.
 
 #### A.6.A:4.7 - Bridge discipline across traditions
 
-Whenever two traditions are compared using action-first language, first ask whether the comparison asserts or relies on semantic correspondence between exact senses in different semantic contexts. If it does, resolve those senses and test F.9; cite an obtaining Bridge only when its direct predicate is true, and state a separate bounded-use claim only when a proposed use is live. That claim carries the use, direction, correspondence rule, tolerated loss, and polarity. If the comparison does not assert or rely on that correspondence, use E.17.ID.CR for bounded comparative review or the exact direct relation that supplies the contrast, then stop. Add an F.9.1 stance note only as optional reader help for an already constituted bounded-use claim.
+Whenever two traditions are compared using action-first language, first ask whether the comparison asserts or relies on semantic correspondence between exact senses in different semantic contexts. If it does, resolve those senses and test F.9; cite an obtaining Bridge only when its direct predicate is true, and state a separate bounded-use claim only when a proposed use is live. That claim carries the use, direction, correspondence rule, tolerated loss, and polarity.
+
+If the comparison does not assert or rely on that correspondence, use E.17.ID.CR for bounded comparative review or the direct relation that supplies the contrast, then stop.
+
+Add an F.9.1 stance note only as optional reader help for an already constituted bounded-use claim.
 
 Useful stance labels include, for example:
 
@@ -274,9 +282,9 @@ Useful stance labels include, for example:
 
 Examples:
 
-* A named comparison between `AIS.PhysicalAffordance` and `AIS.InterfaceAffordance` may remain a direct bounded contrast under E.17.ID.CR or another exact direct relation. If it asserts cross-context semantic correspondence, any bounded partial analogy needs an obtaining F.9 Bridge and a matching use claim. An optional `partialAnalogy` note helps reject identity; the label alone establishes nothing.
-* AIS.EpistemicProbe and AIS.ClosureAdvance use the direct progression or other relation actually claimed. Apply F.9 only if the statement asserts or relies on semantic correspondence between exact senses with different interpretation bases; a change of domain label alone does not open that branch.
-* A named use from `AIS.LatentPolicyCue` toward `AIS.ControlOpportunity` needs F.9 only when it relies on cross-context semantic correspondence; then any operationalization or projection reading follows the obtaining Bridge and the use claim's direction, rule, and tolerated loss. Otherwise the exact direct relation must supply the proposed contrast or use.
+* A named comparison between `AIS.PhysicalAffordance` and `AIS.InterfaceAffordance` may remain a direct bounded contrast under E.17.ID.CR or another direct relation. If it asserts cross-context semantic correspondence, any bounded partial analogy needs an obtaining F.9 Bridge and a matching use claim. An optional `partialAnalogy` note helps reject identity; the label alone establishes nothing.
+* AIS.EpistemicProbe and AIS.ClosureAdvance use the direct progression or other relation claimed. Apply F.9 only if the statement asserts or relies on semantic correspondence between exact senses with different interpretation bases; a change of domain label alone does not open that branch.
+* A named use from `AIS.LatentPolicyCue` toward `AIS.ControlOpportunity` needs F.9 only when it relies on cross-context semantic correspondence; then any operationalization or projection reading follows the obtaining Bridge and the use claim's direction, rule, and tolerated loss. Otherwise the direct relation must supply the proposed contrast or use.
 * A robotics comparison from `AIS.PhysicalAffordance` toward `PolicyHook` may remain a direct contrast. If it relies on cross-context semantic correspondence, a projection reading requires the obtaining F.9 Bridge and a matching bounded-use claim under the controller frame; an F.9.1 note only explains that existing claim.
 * Action invitation and quality ascription may co-occur, but co-occurrence is **not** identity.
 
@@ -298,7 +306,7 @@ When a recovery note changes, state what changed. The following verbs are useful
 * **`rescope(...)`** — change `U.Scope`.
 * **`retime(...)`** — change `Γ_time`.
 * **`refreshWitnesses(...)`** — refresh witness bindings.
-* **`changeRelationKind(...)`** — use only when an actual relation-kind claim changes under its direct governor. A different interpretation of wording need not be a change of relation kind.
+* **`changeRelationKind(...)`** — use only when a relation-kind claim changes under its direct governor. A different interpretation of wording need not be a change of relation kind.
 
 These verbs describe changes to an account or its publication. Changed claim content, EntityOfConcern or effective reference scheme identifies a different episteme under C.2.1; an edition or other continuity relation needs its own basis. A change in the actual opportunity follows its direct obtaining and identity rule. Changing wording, its availability or its detector alone supplies no such world-side change. Invitation, commitment, capability and Work claims retain their separate predicates.
 
@@ -307,7 +315,7 @@ The technical retargeting forms apply only when a compatible declared SlotSpec m
 
 #### A.6.A:4.8a - Classify the recovered boundary-bearing claim
 
-When the recovered claim is boundary-bearing, use its actual A.6.B classification:
+When the recovered claim is boundary-bearing, use its A.6.B classification:
 
 * **L** — the rule that defines or constrains the recovered subject, including an actual relation predicate when that is the claim; applicable enactor/site discipline and the F.9/F.9.1 boundary retain their direct governors.
 * **A** — the admission predicate for a named action or application under the applicable rule. An actual satisfaction or admission-decision result is a separate E claim. A statement of allowable claim use or general scope does not qualify by itself.
@@ -334,9 +342,9 @@ Apply these rules when the wording carries a consequential claim:
 
 Start with the recovered statement or question. Add participants, conditions, supporting sources, rival interpretations and expression structure only when the next use needs them. If further inquiry changes the interpretation, reopen it; elaboration is not a compulsory progression from cue to option to policy.
 
-A move from a cue to a proposed action, from alternatives to a selection, or from a description to a Method, WorkPlan or Work claim requires that receiving subject's grounds. State the result of that move rather than silently upgrading the wording. Use §4.7 for a consequential comparison across traditions and A.6.B for an actual boundary-bearing claim.
+A move from a cue to a proposed action, from alternatives to a selection, or from a description to a Method, WorkPlan or Work claim requires that receiving subject's grounds. State the result of that move rather than silently upgrading the wording. Use §4.7 for a consequential comparison across traditions and A.6.B for a boundary-bearing claim.
 
 #### A.6.A:4.10a - Continue from the recovered subject
 
-Once the result identifies an actual authority, relation, Method, WorkPlan, Work, gate or inquiry question, continue through its direct pattern if further work is needed. A declaration-local planned-filling row is addressed through its WorkPlan. Preserve a separate recovery note only when a reader needs the interpretation or grounds; there is no common invitation occurrence to establish before continuing.
+Once the result identifies an authority, relation, Method, WorkPlan, Work, gate or inquiry question, continue through its direct pattern if further work is needed. A declaration-local planned-filling row is addressed through its WorkPlan. Preserve a separate recovery note only when a reader needs the interpretation or grounds; there is no common invitation occurrence to establish before continuing.
 

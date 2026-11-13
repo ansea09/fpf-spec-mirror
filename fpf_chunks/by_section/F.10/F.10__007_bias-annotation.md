@@ -6,12 +6,12 @@ section_id: "F.10:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__007_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.10 — Apply and Interpret Evidence, Standard and Requirement Statuses"
   - "F.10:6 — Bias-Annotation"
-line_start: 122207
-line_end: 122218
+line_start: 129935
+line_end: 129948
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -51,5 +51,7 @@ F.10 addresses five recurring biases:
 * **family/bridge explanation bias:** a family edge, shared spelling, row, Card, or Bridge replaces the exact interpretation relation and rule; and
 * **system-role drift:** an evidence, status, standard, or requirement use is treated as proof that its bearer is a `U.System`, has a local system-role classification, or holds a system-role assignment.
 
-The repair is to recover target and direct result first, then the exact local value, relation occurrence, assertion, evaluation basis, display, and receiving use. None of those use facts establishes System admission, a local system-role classification, or an assignment. Recover System admission and any local system-role classification separately. If an assignment is claimed, identify its obtaining occurrence and declared species, with the independently admitted System as holder.
+The repair is to recover target and direct result first, then the exact local value, relation occurrence, assertion, evaluation basis, display, and receiving use.
+
+None of those use facts establishes System admission, a local system-role classification, or an assignment. Recover System admission and any local system-role classification separately. If an assignment is claimed, identify its obtaining occurrence and declared species, with the independently admitted System as holder.
 

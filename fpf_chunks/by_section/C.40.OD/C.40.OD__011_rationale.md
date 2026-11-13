@@ -6,12 +6,12 @@ section_id: "C.40.OD:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OD/C.40.OD__011_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.40.OD — Construct and Continue Open-Ended Development"
   - "C.40.OD:10 — Rationale"
-line_start: 88578
-line_end: 88583
+line_start: 92836
+line_end: 92841
 dependencies:
   - "C.32.MWA.PP"
   - "C.40.CD"
@@ -26,5 +26,5 @@ keywords:
 
 The recurring difficulty is a failure of the connected whole, not necessarily the absence of an elementary operation. Existing FPF and DPF Methods already provide problem formation, construction, realization, capability development, organization design and cultural continuation. This Method makes their receiving relations and returns explicit for continuing development.
 
-A connected description and a worked case can support understanding and prospective construction. Qualification of concrete outcomes remains with the actual subject, work and evidence. This distinction lets a typical network guide a future arrangement without asserting that its work has already occurred.
+A connected description and a worked case can support understanding and prospective construction. Qualification of concrete outcomes remains with the subject, work and evidence. This distinction lets a typical network guide a future arrangement without asserting that its work has already occurred.
 

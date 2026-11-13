@@ -6,12 +6,12 @@ section_id: "B.5:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5/B.5__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.5 — Choose the Next Reasoning Contribution (Canonical Reasoning Cycle)"
   - "B.5:7 — Conformance Checklist"
-line_start: 46535
-line_end: 46545
+line_start: 48475
+line_end: 48485
 dependencies:
   - "A.10"
   - "B.5.1"
@@ -27,9 +27,9 @@ keywords:
 
 - **CC-B5.1 — Question and contribution.** The practitioner SHALL identify the question, intended useful result and selected reasoning contribution. A conjecture SHALL retain its grounds, rivals and limits; a construction and its asserted properties SHALL remain distinguishable.
 - **CC-B5.2 — Interpretable hypothesis-led testing.** Before claiming empirical corroboration, the practitioner SHALL derive the consequences needed to interpret the test and account for how the tested hypothesis was obtained.
-- **CC-B5.3 — Claim-specific support.** A support claim SHALL identify the actual argument or result, its relevance, scope and limitations. An assurance level, when needed, SHALL follow B.3.3 and the applicable domain criteria.
-- **CC-B5.4 — Result and continuation.** For a performed empirical test, the practitioner SHALL keep its actual outcome, including a failed or inconclusive result, recoverable through A.10. A further inquiry SHALL use the actual result with its limitations and name the remaining question; a sufficient answer may finish the use.
-- **CC-B5.5 — Development-state use.** When B.5.1 is used, an actual transition SHALL meet its project and domain conditions. A reasoning result alone does not establish a development-state transition.
+- **CC-B5.3 — Claim-specific support.** A support claim SHALL identify the argument or result, its relevance, scope and limitations. An assurance level, when needed, SHALL follow B.3.3 and the applicable domain criteria.
+- **CC-B5.4 — Result and continuation.** For a performed empirical test, the practitioner SHALL keep its outcome, including a failed or inconclusive result, recoverable through A.10. A further inquiry SHALL use the result with its limitations and name the remaining question; a sufficient answer may finish the use.
+- **CC-B5.5 — Development-state use.** When B.5.1 is used, a transition SHALL meet its project and domain conditions. A reasoning result alone does not establish a development-state transition.
 - **CC-B5.6 — Application and change.** The practitioner SHALL distinguish a mathematical result from its physical application and a change of answer, question, Method or capability when that distinction changes the intended use.
-- **CC-B5.7 - Recoverability for the receiving use.** When recovering a construction or argument, the practitioner SHALL identify the required inputs and the operations or inferences needed by that use. A missing rule or unsupported transition SHALL remain explicit. A conclusion reused after a premise changes SHALL state which argument or construction still supports it.
+- **CC-B5.7 - Recoverability for the receiving use.** When recovering a construction or argument, the practitioner SHALL identify the required inputs and the operations or inferences needed by that use. A missing rule or unsupported transition SHALL be stated. A conclusion reused after a premise changes SHALL state which argument or construction supports it.
 

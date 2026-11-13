@@ -6,24 +6,20 @@ section_id: "A.2:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2/A.2__002_use-this-when.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.2 — System-Role Kinds and Assignments"
   - "A.2:0 — Use This When"
-line_start: 4462
-line_end: 4500
+line_start: 4606
+line_end: 4644
 dependencies:
   - "A.1"
-  - "A.1.1"
   - "A.15"
   - "A.2.1"
   - "A.2.5"
   - "A.2.7"
-  - "A.6.0"
-  - "A.6.5"
   - "A.6.REL"
   - "A.6.RSIR"
-  - "C.2.1"
   - "C.3"
   - "C.3.1"
   - "C.3.2"
@@ -45,7 +41,7 @@ keywords:
 
 Use this pattern when one admitted `U.System` can contribute to different work or functioning without becoming a different system, and the current claim must say either:
 
-- which exact work-facing kind the system counts under now; or
+- which work-facing kind the system counts under now; or
 - which system-role assignment actually obtains.
 
 A system here is an individual independently recognized as a `U.System` under A.1. It can be a person, team, organization, deployed service system, organism, or non-human technical object. The `SystemRole` head in a name such as `ReviewerSystemRole` says that candidates are systems.
@@ -58,15 +54,15 @@ Typical moments:
 - ordinary wording says that a publication, method, capability, or relation participant “plays a role”, although the direct relation is still hidden;
 - a proposed “part of a role” may instead be another kind, a relation among kinds, an assignment-state predicate, a capability condition, a responsibility or commitment relation, or a method or Work structure.
 
-**Primary EntityOfConcern.** One exact local `U.Kind` whose candidates are `U.System` individuals and whose operative membership condition distinguishes a stable, assignable, work-facing contribution. C.3 recovers the kind through that candidate domain and condition, a useful member/non-member boundary, and a continuity rule. A practice or source reference may locate the definition or prompt comparison; it does not identify the kind. Such a kind is called a **system-role kind**. Assignment is a neighboring direct relation, not part of the kind.
+**Primary EntityOfConcern.** One local `U.Kind` whose candidates are `U.System` individuals and whose operative membership condition distinguishes a stable, assignable, work-facing contribution. C.3 recovers the kind through that candidate domain and condition, a useful member/non-member boundary, and a continuity rule. A practice or source reference may locate the definition or prompt comparison; it does not identify the kind. Such a kind is called a **system-role kind**. Assignment is a neighboring direct relation, not part of the kind.
 
 **Working reader.** A practitioner who needs to preserve system identity while making a classification or assignment inspectable.
 
-**First useful move.** Start with the ordinary conclusion: “Alice counts as a reviewer for this submission” or “PumpUnit-3 is assigned as cooling circulator for this operating episode.” For classification, name the local system-role kind and evaluate the candidate with one `KindSignature` under C.3.2. Add a `U.SystemRoleAssignment` occurrence only when holding or assignment identity is actually claimed.
+**First useful move.** Start with the ordinary conclusion: “Alice counts as a reviewer for this submission” or “PumpUnit-3 is assigned as cooling circulator for this operating episode.” For classification, name the local system-role kind and evaluate the candidate with one `KindSignature` under C.3.2. Add a `U.SystemRoleAssignment` occurrence only when holding or assignment identity is claimed.
 
 **What goes wrong if missed.** One label absorbs kind identity, classification, holder, assignment, capability, responsibility, and Work. Or every contribution is forced into a system role even when the real claim concerns evidence use, a relation participant, a declaration slot, or ordinary wording. In both cases readers cannot tell what exists, what merely describes it, and what actually happened.
 
-**What this buys.** Systems retain their identities while work-facing classifications and assignments change. Membership is testable from the system features named by the membership rule rather than labels or circular hierarchy edges. Practices and sources may reuse one kind or define different kinds; comparing their exact distinctions decides which. Ordinary contribution wording can stay readable without manufacturing an ontology.
+**What this buys.** Systems retain their identities while work-facing classifications and assignments change. Membership is testable from the system features named by the membership rule rather than labels or circular hierarchy edges. Practices and sources may reuse one kind or define different kinds; comparing their distinctions decides which. Ordinary contribution wording can stay readable without manufacturing an ontology.
 
 **Not this pattern when.**
 

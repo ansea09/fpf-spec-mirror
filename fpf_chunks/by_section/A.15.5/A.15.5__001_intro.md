@@ -6,12 +6,12 @@ section_id: "A.15.5:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.5/A.15.5__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.15.5 — Work-Entry Readiness and Full-Kit Preparation"
   - "A.15.5:intro — Intro"
-line_start: 30869
-line_end: 30890
+line_start: 31976
+line_end: 31997
 dependencies:
   - "A.10"
   - "A.15"
@@ -63,7 +63,7 @@ keywords:
 
 When degraded support, handoff, or continuation-state evidence can change work entry, use the present-WorkPlan branch of `A.15.8` to test the proposed performer, support, and state configuration, then return here with its bounded result. Ordinary full-kit checking does not require `A.15.8`.
 
-**What this buys.** A team can decide the next bounded move—start no work yet, prepare an exact missing input, recheck, or submit declared checks to a gate—under the criterion and the entry conditions actually required.
+**What this buys.** A team can decide the next bounded move—start no work yet, prepare a missing input, recheck, or submit declared checks to a gate—under the criterion and the entry conditions required.
 
 **Not this pattern when.** Use `A.15.2` for the work plan itself, `A.15.3` for planned slot fillers, `A.15.1` for dated performed work, `A.21` for gate decisions, `A.15.4` only when a reliance appearance is already being used as a reason for work or reliance before the subject pattern slot, relation, or project-side reference is named, `B.1.6` for resource aggregation after work, `E.18` for transformation-flow structure, and `E.18.1` for P2W carry-through from accepted problem-side material.
 

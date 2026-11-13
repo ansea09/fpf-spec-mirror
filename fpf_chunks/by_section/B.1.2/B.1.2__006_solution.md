@@ -6,12 +6,12 @@ section_id: "B.1.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.2/B.1.2__006_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.1.2 — Coordinate Decisions About System Aggregation and Delimitation"
   - "B.1.2:4 — Solution"
-line_start: 41492
-line_end: 41540
+line_start: 43104
+line_end: 43154
 dependencies:
   - "A.1"
   - "A.10"
@@ -40,37 +40,39 @@ keywords:
 
 ### B.1.2:4 - Solution
 
-Coordinate one named system-aggregation or delimitation decision using the independently grounded results below. A record can bring those results together; establishing any further relation requires its own grounds.
+Coordinate one named system-aggregation or delimitation decision using the independently grounded results below. A record can bring those results together; establishing any further relation requires grounds.
 
-#### B.1.2:4.1 - Recover Each Direct Result Or Blocker
+#### B.1.2:4.1 - Recover Each Result Or Blocker
 
-| Working question | Subject pattern | Exact result or stop |
+| Working question | Subject pattern | Result or stop |
 | --- | --- | --- |
-| Which exact whole is being considered? | `A.1` and the kind-specific recognition pattern | One exact entity recognized under the already admitted `U.System` kind; or the exact entity, six constructive components, kind-specific condition, and `true | false | unknown` evaluation needed for recognition; otherwise the missing recognition basis. |
-| Which constituents are parts, portions, phases, or members, and how do they assemble? | `A.14`, the exact part-relation specialization, and `C.13` for constructive assembly grounding | Exact obtaining part-relation occurrences and the assembly they support; otherwise the missing direct governor, participant identity, obtaining fact, or assembly basis. |
-| Which facts and selected boundary-use claim delimit the system for this decision? | `A.1` for system identity; `A.14`, the exact part-relation specialization, and `C.13` for parthood and assembly; every exact crossing-relation pattern for external participants; `C.11` for a local choice among already available boundary readings; `C.32.PAD` for a post-synthesis architecture decision concerning exact project Work; `C.2.1` only for a separately persistent claim | First return exact identity, obtaining parthood and assembly, and crossing facts. If those facts answer the question, stop. If the named use additionally selects a boundary reading, return the C.11 `ChoiceResult` or C.32.PAD `ArchitectureDecisionRelation@Project` that makes its inclusion, exclusion, identity-preservation, and use claim current. Another choice branch passes only after its admitted direct decision predicate, source, and result are named; otherwise return the exact missing predicate or defining pattern, participant, obtaining fact, decision governor, or information blocker. When durable reliance is needed, one separate C.2.1 episteme states that claim and cites its basis; it creates none of the world facts. A selected `U.Structure` remains a separate B.1.2:4.2 branch. |
-| Which relation crosses the selected boundary? | The direct source, supply, flow, coupling, control, measurement, evidence, publication, transformation, commitment, or other relation pattern; `F.9` only for a needed semantic correspondence or difference between two exact F.17 local senses from different semantic contexts | One exact obtaining relation occurrence with its participant bindings and direct predicate; otherwise the missing governor, endpoint, binding, or obtaining fact. |
-| Which function is realized by which bearer? | The direct behavior, realization, allocation or parthood pattern; `A.6.F` or `A.6.M` only for unresolved wording; `C.30.ASV` only for architecture-view qualification | Recover the functional claim, admitted bearer and independently obtaining realization or allocation relation. Establish parthood separately when it is claimed. If a relation required by the claim cannot be established, identify the missing predicate, participant or defining source. |
+| Which whole is being considered? | `A.1` and the kind-specific recognition pattern | One entity recognized under the already admitted `U.System` kind; or the entity, six constructive components, kind-specific condition, and `true | false | unknown` evaluation needed for recognition; otherwise the missing recognition basis. |
+| Which constituents are parts, portions, phases, or members, and how do they assemble? | `A.14`, the part-relation specialization, and `C.13` for constructive assembly grounding | Obtaining part-relation occurrences and the assembly they support; otherwise the missing governor, participant identity, obtaining fact, or assembly basis. |
+| Which facts and selected boundary-use claim delimit the system for this decision? | `A.1` for system identity; `A.14`, the part-relation specialization, and `C.13` for parthood and assembly; every crossing-relation pattern for external participants; `C.11` for a local choice among already available boundary readings; `C.32.PAD` for a post-synthesis architecture decision concerning project Work; `C.2.1` only for a separately persistent claim | First return identity, obtaining parthood and assembly, and crossing facts. If those facts answer the question, stop. If the named use additionally selects a boundary reading, return the C.11 `ChoiceResult` or C.32.PAD `ArchitectureDecisionRelation@Project` that makes its inclusion, exclusion, identity-preservation, and use claim current. Another choice branch passes only after its admitted decision predicate, source, and result are named; otherwise return the missing predicate or defining pattern, participant, obtaining fact, decision governor, or information blocker. When durable reliance is needed, one separate C.2.1 episteme states that claim and cites its basis; it creates none of the world facts. A selected `U.Structure` remains a separate B.1.2:4.2 branch. |
+| Which relation crosses the selected boundary? | The source, supply, flow, coupling, control, measurement, evidence, publication, transformation, commitment, or other relation pattern; `F.9` only for a needed semantic correspondence or difference between two F.17 local senses from different semantic contexts | One obtaining relation occurrence with its participant bindings and predicate; otherwise the missing governor, endpoint, binding, or obtaining fact. |
+| Which function is realized by which bearer? | The behavior, realization, allocation or parthood pattern; `A.6.F` or `A.6.M` only for unresolved wording; `C.30.ASV` only for architecture-view qualification | Recover the functional claim, admitted bearer and independently obtaining realization or allocation relation. Establish parthood separately when it is claimed. If a relation required by the claim cannot be established, identify the missing predicate, participant or defining source. |
 | Which whole-level characteristic is claimed? | `C.16` and `A.19`; `C.29` when a mathematical representation-choice, transfer or reliance question remains unresolved | Recover the bearer, characteristic, assignment or value, and scale, together with any threshold, aggregation or inference rule, and lens-use boundary required by the claim; identify any missing basis needed for that claim. |
-| Which evidence, description, representation, or publication supports inspection? | `C.2.1` for the account; `A.2.4` for evidence-use or status-use classification. Use `A.10` for an unresolved source-to-use account, `B.3` for a requested assurance claim, `C.29` for an unresolved mathematical-lens question, or `E.17` for a needed publication face; use the applicable source or architecture-description pattern when that relation is the question | The exact episteme and exact evidence, assurance, description, representation, source-use, or publication relation; otherwise the missing identity, relation, applicability, or reliance basis. |
+| Which evidence, description, representation, or publication supports inspection? | `C.2.1` for the account; `A.2.4` for evidence-use or status-use classification. Use `A.10` for an unresolved source-to-use account, `B.3` for a requested assurance claim, `C.29` for an unresolved mathematical-lens question, or `E.17` for a needed publication face; use the applicable source or architecture-description pattern when that relation is the question | The episteme and evidence, assurance, description, representation, source-use, or publication relation; otherwise the missing identity, relation, applicability, or reliance basis. |
 
-Stop when a missing direct result prevents the named decision, and identify that missing result. Collecting the available results does not supply it.
+Stop when a missing result prevents the named decision, and identify that missing result. Collecting the available results does not supply it.
 
 #### B.1.2:4.2 - Select A Structure Only When The Joint Organization Matters
 
-If the joint organization of several exact results itself changes the named decision, select one ordinary `U.Structure` under `A.22`. Recover all four identity discriminators: exact independently identified constituents, exact selected obtaining relation occurrences, exact constraints as applied, and one named selection-use frame with its admissible action or stop.
+If the joint organization of several results changes the named decision, select one ordinary `U.Structure` under `A.22`. Recover all four identity discriminators: independently identified constituents, selected obtaining relation occurrences, constraints as applied, and one named selection-use frame with its admissible action or stop.
 
-The selected structure is non-agentive. Selecting it does not itself establish systemhood or the relations being selected. A diagram or other representation can express the selected organization; its form alone supplies none of the four discriminators.
+The selected structure is non-agentive. Selecting it does not establish systemhood or the relations being selected. A diagram or other representation can express the selected organization; its form alone supplies none of the four discriminators.
 
-#### B.1.2:4.3 - Make Interface Choices About Exact Crossing Relations
+#### B.1.2:4.3 - Make Interface Choices About Crossing Relations
 
 When choosing an interface arrangement, identify the crossing-relation occurrence and the use affected by the choice. Options include exposing the crossing, assigning it a namespace, internalizing it, excluding it, or leaving its treatment with its subject pattern. These are ordinary decision options.
 
-Name the direct world facts, affected endpoints, exact crossing predicate and occurrence, preserved obligation or information, evidence if relied on, and the C.11 `ChoiceResult` or C.32.PAD `ArchitectureDecisionRelation@Project` that chooses among the ordinary interface options when its exact predicate applies. A different choice passes only after its exact subject assertion, predicate, and result are named; otherwise stop with the established `missing-governor` blocker, whose content identifies the absent exact predicate source. If a later use must inspect the choice, identify a separate C.2.1 episteme whose claim content describes it and cites that direct result; the episteme does not make the crossing, parthood, compatibility, or decision fact obtain. This account lets the practitioner check whether an interface change loses an external obligation or leaves an endpoint unmanaged.
+Name the world facts, affected endpoints, crossing predicate and occurrence, preserved obligation or information, evidence if relied on, and the C.11 `ChoiceResult` or C.32.PAD `ArchitectureDecisionRelation@Project` that chooses among the ordinary interface options when its predicate applies. A different choice passes only after its subject assertion, predicate, and result are named; otherwise stop with the established `missing-governor` blocker, whose content identifies the absent predicate source.
+
+If a later use must inspect the choice, identify a separate C.2.1 episteme whose claim content describes it and cites that result; the episteme does not make the crossing, parthood, compatibility, or decision fact obtain. This account lets the practitioner check whether an interface change loses an external obligation or leaves an endpoint unmanaged.
 
 #### B.1.2:4.4 - Whole-Level Characteristics
 
-Roll up system-level characteristics only after the exact bearer, characteristic relation or assignment, scale, and aggregation or inference rule are selected under their subject patterns.
+Roll up system-level characteristics only after the bearer, characteristic relation or assignment, scale, and aggregation or inference rule are selected under their subject patterns.
 
 Useful families include:
 
@@ -83,7 +85,7 @@ Use `C.16` and `A.19` for the characteristic, scale and aggregation rule. Retain
 
 #### B.1.2:4.5 - Functional Elements And Bearers
 
-A functional element in a functional view is not automatically a system part. Recover the functional claim and its intended behavior, the exact bearer under its own kind and identity rule, the independently established realization or allocation relation, and any obtaining parthood relation. C.2.1 identifies a claim episteme when one must be cited; C.30.ASV qualifies an architecture structural view when that is the use.
+A functional element in a functional view is not automatically a system part. Recover the functional claim and its intended behavior, the bearer under its kind and identity rule, the independently established realization or allocation relation, and any obtaining parthood relation. C.2.1 identifies a claim episteme when one must be cited; C.30.ASV qualifies an architecture structural view when that is the use.
 
-Use A.6.F only to resolve an unclear function expression and A.6.M only to resolve module or interface wording. Neither pattern admits the bearer or establishes allocation or parthood. One bearer can realize several functions and one function can require several bearers when the direct domain relations support those claims.
+Use A.6.F only to resolve an unclear function expression and A.6.M only to resolve module or interface wording. Neither pattern admits the bearer or establishes allocation or parthood. One bearer can realize several functions and one function can require several bearers when the domain relations support those claims.
 

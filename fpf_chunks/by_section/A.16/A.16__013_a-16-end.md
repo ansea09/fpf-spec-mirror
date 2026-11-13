@@ -6,12 +6,12 @@ section_id: "A.16:End"
 section_title: "A.16:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__013_a-16-end.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.16 — Language-State Moves: Choose the Next Publication and Use of a Cue or Claim"
   - "A.16:End — A.16:End"
-line_start: 33586
-line_end: 33587
+line_start: 35066
+line_end: 35067
 dependencies:
   - "A.13"
   - "A.15.1"

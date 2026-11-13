@@ -6,12 +6,12 @@ section_id: "C.40.DC:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.DC/C.40.DC__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.40.DC — Construct Directions with Support Configurations"
   - "C.40.DC:3 — Forces"
-line_start: 87427
-line_end: 87438
+line_start: 91661
+line_end: 91672
 dependencies:
   - "A.3.1"
   - "A.3.2"

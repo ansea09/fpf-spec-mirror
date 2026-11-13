@@ -6,12 +6,12 @@ section_id: "D.3:5.1"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.3/D.3__009_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "D.3 — Describe an Ethical Conflict Across Levels or Scopes"
   - "D.3:5.1 — Bias-Annotation"
-line_start: 91971
-line_end: 91980
+line_start: 96469
+line_end: 96478
 dependencies:
   - "A.1"
   - "A.10"
@@ -41,8 +41,8 @@ keywords:
 | Bias risk | Failure | Mitigation |
 | --- | --- | --- |
 | Debate replaces a connected account | The team argues about values before connecting each claim to an affected entity, scope, frame, consequence, and horizon. | Write the side rows and tension statement before mediation. |
-| Description becomes conflict | A diagram, matrix, or narrative is treated as the ethical conflict itself. | Identify the description as a C.2.1 episteme and keep its EntityOfConcern and presentation form separate. |
-| Collection name becomes responsibility | Organization, society, public, market, or AI is treated as responsible by label. | Recover the subject and the responsibility predicate used, then establish its case basis or the precise unresolved question. Add membership, participation, assignment and agency claims only when that inference needs them. |
-| Formal completeness displaces use | A large record is filled even though two sides and one tension already answer the current question. | Stop at the first adequate description and add only detail consumed by the next use. |
+| Description becomes conflict | A diagram, matrix, or narrative is treated as the ethical conflict. | Identify the description as a C.2.1 episteme and keep its EntityOfConcern and presentation form separate. |
+| Collection name becomes responsibility | Organization, society, public, market, or AI is treated as responsible by label. | Recover the subject and the responsibility predicate used, then establish its case basis or the unresolved question. Add membership, participation, assignment and agency claims only when that inference needs them. |
+| Formal completeness displaces use | A large record is filled even though two sides and one tension already answer the question. | Stop at the first adequate description and add only detail consumed by the next use. |
 | Architecture absorbs ethics | Cross-scope residual wording hides value, harm, responsibility, or admissible sacrifice. | Use the applicable architecture pattern for the residual and use D.3 with D.4 for the ethical conflict and its use. |
 

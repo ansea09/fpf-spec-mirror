@@ -6,12 +6,12 @@ section_id: "C.26:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26/C.26__012_sota-echoing.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.26 — Quantum-Like Modeling Lens"
   - "C.26:11 — SoTA-Echoing"
-line_start: 65936
-line_end: 65960
+line_start: 68918
+line_end: 68942
 dependencies:
   - "A.10"
   - "A.15"
@@ -72,6 +72,6 @@ The following anchors support the pattern's operational modeling moves.
 | Same-content-looking measurements under different probe or measurement frames should not be silently treated as the same random variable or as jointly distributed. | [Contextuality-by-Default](https://www.sciencedirect.com/science/article/abs/pii/S0022249616300207). | Use C.26 only when the exact frames change variable identity, joint availability, or admissible comparison and a named obstruction survives ordinary measurement and Bridge patterns; otherwise keep those ordinary subject patterns. |
 | Viability and active sensing often mix reading and acting, but ordinary control and measurement patterns remain primary. | [Free-energy and quantum-cognition link](https://www.frontiersin.org/articles/10.3389/fnbot.2022.910161/full), [physiological regulation and FEP](https://www.sciencedirect.com/science/article/pii/S0149763423004281), [active inference behavior](https://www.sciencedirect.com/science/article/pii/S0301051123002612), and [smart-building active inference](https://arxiv.org/abs/2503.18161). | Recover the envelope and observation/action account first; retain QL only for a further named contextual-model obstruction. |
 | Boundary and DDD-locality questions are already disciplined by ordinary architecture practice. | [Computational boundary of a self](https://philpapers.org/rec/LEVTCB-3), [Markov blankets of life](https://philarchive.org/rec/KIRTMB), [Azure domain analysis](https://learn.microsoft.com/en-us/azure/architecture/microservices/model/domain-analysis), and [DDD 2025 SLR](https://www.sciencedirect.com/science/article/pii/S0164121225002055). | Apply direct boundary, local-sense, work, model-use, interface, and Bridge subject patterns first. If Markov-blanket wording is present, recover its exact claim and subject pattern; retain C.26 only where a named probe, order, comparison, export, or state-reading obstruction remains load-bearing. |
-| Low-bit, tokenized, compressed, geometric, or neural representations may be useful shortcuts without being QL activation. | [1-bit LLMs](https://arxiv.org/abs/2402.17764), [implicit continuity in language models](https://arxiv.org/abs/2504.03933), [emergent quantumness in neural networks](https://arxiv.org/abs/2012.05082), and [covariant gradient descent](https://arxiv.org/abs/2504.05279). | Keep the actual geometry, compression and implementation claim under its subject account; QL additionally needs the :4 result. |
+| Low-bit, tokenized, compressed, geometric, or neural representations may be useful shortcuts without being QL activation. | [1-bit LLMs](https://arxiv.org/abs/2402.17764), [implicit continuity in language models](https://arxiv.org/abs/2504.03933), [emergent quantumness in neural networks](https://arxiv.org/abs/2012.05082), and [covariant gradient descent](https://arxiv.org/abs/2504.05279). | Keep the geometry, compression and implementation claim under its subject account; QL additionally needs the :4 result. |
 | Unknown alternatives and regime movement are search/generation problems, not QL claim authority. | [Open-endedness](https://arxiv.org/abs/2406.04268) and [quality-diversity through AI feedback](https://openreview.net/forum?id=owokKCrGYr). | Use search or regime methods to construct alternatives; a suspect frame alone does not establish a QL contribution. |
 

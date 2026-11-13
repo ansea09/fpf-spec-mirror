@@ -6,12 +6,12 @@ section_id: "C.32.MWA:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA/C.32.MWA__010_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.32.MWA — Synthesize an Architecture Account of Methods and Their Use"
   - "C.32.MWA:9 — Consequences"
-line_start: 78858
-line_end: 78865
+line_start: 82687
+line_end: 82694
 dependencies:
   - "A.13"
   - "A.15.1"
@@ -41,5 +41,5 @@ The Method preserves useful differences among Method, Work, subject, description
 
 The cost is a small amount of relation recovery and, when needed, alternative construction before a clean diagram can be accepted. Some attractive source organizations will remain unresolved or will be retained only as descriptions. That cost is proportional: the first result is short, structures that cannot change the decision are omitted, and formal assurance is optional.
 
-Receiving domains still supply their own Methods, institutions, evidence, constraints, providers, cases, and maintenance conditions. Reuse of this Method does not move those fillings into FPF.
+Receiving domains supply their own Methods, institutions, evidence, constraints, providers, cases, and maintenance conditions. Reuse of this Method does not move those fillings into FPF.
 

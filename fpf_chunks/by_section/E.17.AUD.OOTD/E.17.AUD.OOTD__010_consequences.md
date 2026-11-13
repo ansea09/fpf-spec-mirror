@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.17.AUD.OOTD"
-pattern_title: "PublicationUnit Stability Discipline and PublicationUnit Primary-Subject Discipline - publication-unit stability over one primary subject"
+pattern_title: "Clarify the Primary Subject of a Publication Unit (PublicationUnit Primary-Subject Discipline)"
 section_id: "E.17.AUD.OOTD:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.OOTD/E.17.AUD.OOTD__010_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "E.17.AUD.OOTD — PublicationUnit Stability Discipline and PublicationUnit Primary-Subject Discipline - publication-unit stability over one primary subject"
+  - "E.17.AUD.OOTD — Clarify the Primary Subject of a Publication Unit (PublicationUnit Primary-Subject Discipline)"
   - "E.17.AUD.OOTD:9 — Consequences"
-line_start: 110149
-line_end: 110158
+line_start: 116900
+line_end: 116909
 dependencies:
   - "A.10"
   - "A.15"
@@ -41,11 +41,11 @@ keywords:
 
 ### E.17.AUD.OOTD:9 - Consequences
 
-Used well, this section buys three main gains:
+Using the pattern well has three main benefits:
 - authors stop smuggling wider work into one unit by accident;
 - reviewers can name whether subject, concern, carried move, or downstream use changed instead of only arguing about wording;
 - neighboring patterns and downstream decision texts stop getting blamed for confusion created one layer earlier.
 
-The cost is that some notes must become shorter, split earlier, or reopen more honestly when their subject, concern, carried move, or downstream use really changes.
+The cost is that some notes must become shorter, split earlier, or reopen with the change stated when their subject, concern, carried move, or downstream use changes.
 
 

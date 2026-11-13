@@ -6,12 +6,12 @@ section_id: "C.39.RQ:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.RQ/C.39.RQ__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.39.RQ — Construct Situated Method Requirements"
   - "C.39.RQ:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 84504
-line_end: 84513
+line_start: 88707
+line_end: 88716
 dependencies:
   - "A.3.1"
   - "C.11"
@@ -25,9 +25,9 @@ keywords:
 
 | Anti-pattern | Repair |
 | --- | --- |
-| “Our five Method Content Theory fields are the Method requirements.” | Use the five fields as source questions, then place each answer with its actual subject. |
+| “Our five Method Content Theory fields are the Method requirements.” | Use the five fields as source questions, then place each answer with its subject. |
 | “The product requirement proves this Method fits.” | Keep the receiving-result condition separate and evaluate the Method contribution later. |
-| “The team is experienced, so assignment, authority, and access are covered.” | Record capability, responsibility, provider access, covering assignment, permission, direct decision authority, performed Work, and decision result as separate conditions with evidence. |
+| “The team is experienced, so assignment, authority, and access are covered.” | Record capability, responsibility, provider access, covering assignment, permission, decision authority, performed Work, and decision result as separate conditions with evidence. |
 | “Candidate A satisfies more criteria, so it wins.” | Preserve non-negotiable failures, unknowns, and trade-offs; use the applicable decision Method after qualification. |
 | “Each Method stays within its burden, so the architecture fits.” | Compare combined peak demand, overlap, and transferred burden in C.32.MWA.PP. |
 

@@ -6,12 +6,12 @@ section_id: "E.5.1:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5.1/E.5.1__007_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.5.1 — DevOps Lexical Firewall"
   - "E.5.1:6 — Conformance Checklist"
-line_start: 96470
-line_end: 96477
+line_start: 101675
+line_end: 101682
 dependencies:
   - "E.5"
 keywords:
@@ -22,6 +22,6 @@ keywords:
 | ID | Requirement |
 |----|-------------|
 | **CC‑LFW.1** | A Core pattern excludes incidental implementation dependence. Exact syntax is allowed only when necessary for the conformance condition of its named publication form, protocol or grammar, under a stated edition/use boundary. |
-| **CC‑LFW.2** | Executable illustrations are cited by conceptual name and kept in their teaching/Tooling source. A necessary subject-defining syntax fragment follows §4 item 2; it is not replaced by an alias that loses the condition. |
-| **CC‑LFW.3** | Core pedagogical examples may describe behavior; runnable teaching code remains outside Core. Mathematical expressions retain E.5.2 interpretation/operation duties. A label such as “example” alone grants no syntax exception. |
+| **CC‑LFW.2** | Executable illustrations are cited by conceptual name and kept in their teaching/Tooling source. A necessary subject-defining syntax fragment follows §4 item 2. Keep it when an alias would lose the condition. |
+| **CC‑LFW.3** | Core pedagogical examples may describe behavior. Runnable teaching code remains outside Core. Mathematical expressions retain E.5.2 interpretation/operation duties. A label such as “example” alone grants no syntax exception. |
 

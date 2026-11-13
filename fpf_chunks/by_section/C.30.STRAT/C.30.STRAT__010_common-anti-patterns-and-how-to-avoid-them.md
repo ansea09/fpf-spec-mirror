@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.30.STRAT — Clarify Stratification and Architecture Source Labels"
   - "C.30.STRAT:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 73198
-line_end: 73209
+line_start: 76328
+line_end: 76339
 dependencies:
   - "A.10"
   - "A.15"
@@ -66,11 +66,11 @@ keywords:
 
 | Anti-pattern | Symptom | Repair |
 | --- | --- | --- |
-| Source label as ontology | `layer`, `block`, `expert`, `cache`, or `gate` is treated as a kind by name. | Recover the actual object or relation, or keep ordinary source wording. |
-| C.30 takeover | Every structure-like word is treated as an architecture claim. | Choose from the recovered meaning; use the rule for the actual control, module, flow, scale, publication, state, evidence, work, or decision claim. |
+| Source label as ontology | `layer`, `block`, `expert`, `cache`, or `gate` is treated as a kind by name. | Recover the object or relation, or keep ordinary source wording. |
+| C.30 takeover | Every structure-like word is treated as an architecture claim. | Choose from the recovered meaning; use the rule for the control, module, flow, scale, publication, state, evidence, work, or decision claim. |
 | Standard-label overreach | A standard or popular model uses `layer` or `level`, so its local convention is treated as a universal subject structure. | Preserve the convention inside its declared source use; state and test any wider object, relation, mapping, or architecture claim separately. |
-| Controlled-language purge | A preferred-word rule deletes a clear domain term or replaces it with formal apparatus although no reader action was at risk. | Keep the term; repair only the ambiguity that changes use, using the shortest direct sentence. |
+| Controlled-language purge | A preferred-word rule deletes a clear domain term or replaces it with formal apparatus although no reader action was at risk. | Keep the term; repair only the ambiguity that changes use, using the shortest sentence. |
 | Level by layout | A list, vertical diagram, first-then flow, carrier section, curriculum, scale label, stage sequence, or coarse-grained description is treated as a subject stratification. | Keep the wording local, or name the subject, say what is being ordered, compared, grouped, or mapped and how, state when the claim applies, and mark it as asserted, proposed, assumed, or illustrative; then use the pattern that defines or tests that claim. |
-| Expert-as-role false positive | `expert` in mixture-of-experts prose becomes a system-role kind, assignment, performer, Work, responsibility, or authority by word alone. | First test submodel, transformation, path selection, candidate selection, or ordinary non-use. If a claim-bearing use of *role* remains, use E.10.ROLE; identify each claimed system-role kind, classification judgment, assignment occurrence, performer System, or Work occurrence under its direct pattern; assert a responsibility, authority, or other relation only when its defining predicate independently obtains. |
-| Gate-as-decision false positive | A gating function, UI label, or source word becomes gate passage. | Use A.20 or A.21 only for actual constraint-validity or gate-decision claims; otherwise use the applicable function, flow, publication, or ordinary-label result. |
+| Expert-as-role false positive | `expert` in mixture-of-experts prose is treated as a system-role kind, assignment, performer, Work, responsibility, or authority by word alone. | First test submodel, transformation, path selection, candidate selection, or ordinary non-use. If a claim-bearing use of *role* remains, use E.10.ROLE; identify each claimed system-role kind, classification judgment, assignment occurrence, performer System, or Work occurrence under its pattern; assert a responsibility, authority, or other relation only when its defining predicate independently obtains. |
+| Gate-as-decision false positive | A gating function, UI label, or source word is treated as gate passage. | Use A.20 or A.21 only for constraint-validity or gate-decision claims; otherwise use the applicable function, flow, publication, or ordinary-label result. |
 

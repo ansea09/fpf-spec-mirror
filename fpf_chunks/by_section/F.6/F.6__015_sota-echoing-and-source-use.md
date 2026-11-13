@@ -6,12 +6,12 @@ section_id: "F.6:13"
 section_title: "SoTA-Echoing and Source Use"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__015_sota-echoing-and-source-use.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.6 — SystemRoleAssignment and Performed-Work Attribution Check"
   - "F.6:13 — SoTA-Echoing and Source Use"
-line_start: 120467
-line_end: 120480
+line_start: 128116
+line_end: 128129
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -49,7 +49,7 @@ keywords:
 
 ### F.6:13 - SoTA-Echoing and Source Use
 
-**Internal basis, not an external SoTA claim.** A.2.1 and A.6.5 supply the declaration-local slot, domain, and participant-value discipline. A.2.5 keeps assignment state distinct from the assignment occurrence. A.6.REL supplies relation obtaining and occurrence identity. A.13 supplies the actual-performer basis; A.15.1 independently admits dated Work using that basis. F.6 uses these as its governing FPF neighbours; they do not replace comparison with external work.
+**Internal basis.** A.2.1 and A.6.5 supply the declaration-local slot, domain, and participant-value discipline. A.2.5 keeps assignment state distinct from the assignment occurrence. A.6.REL supplies relation obtaining and occurrence identity. A.13 supplies the actual-performer basis; A.15.1 independently admits dated Work using that basis. F.6 uses these as its governing FPF neighbours; they do not replace comparison with external work.
 
 | Source and status | Decision for F.6 | What F.6 uses and does not import | Affected loci and smallest source-driven revisit |
 | --- | --- | --- | --- |
@@ -59,5 +59,5 @@ keywords:
 
 gUFO is the current comparator because it directly addresses the classification–relational-aspect–occurrence separation at issue; PROV-O and OCEL answer narrower representation and logging questions and therefore serve as lineage and stress tests. A new edition number, publication status, or harmless wording change does not reopen the comparison. A material change to a distinction used above, or a competitor that offers a better direct Work–assignment attribution solution with at least the same exactness, readability, and use cost, reopens only the affected row and F.6 loci.
 
-**Refresh by meaning, not by publication.** If A.2.1 or A.6.5 changes how an assignment species declares slot domains or how an occurrence supplies participant values, revisit §§4.3, 5, 7.1, and 9. If A.6.REL changes relation obtaining or occurrence identity, revisit §§4.1–4.2, 5, 7, and 9. If A.13 changes the actual-performer or obtaining-assignment basis, or A.15.1 changes Work admission, revisit the affected attribution conditions, examples, and checks. If a better direct Work–assignment solution changes the source decision, revisit §13 and only the solution or examples that depend on it. Wording or publication changes that leave these meanings intact require no refresh.
+**When to revisit the comparison.** If A.2.1 or A.6.5 changes how an assignment species declares slot domains or how an occurrence supplies participant values, revisit §§4.3, 5, 7.1, and 9. If A.6.REL changes relation obtaining or occurrence identity, revisit §§4.1–4.2, 5, 7, and 9. If A.13 changes the actual-performer or obtaining-assignment basis, or A.15.1 changes Work admission, revisit the affected attribution conditions, examples, and checks. If a better direct Work–assignment solution changes the source decision, revisit §13 and only the solution or examples that depend on it. Wording or publication changes that leave these meanings intact require no refresh.
 

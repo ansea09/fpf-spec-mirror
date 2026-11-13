@@ -6,12 +6,12 @@ section_id: "C.39.RP:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.RP/C.39.RP__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.39.RP — Organize a Repertoire for Method Development"
   - "C.39.RP:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 84282
-line_end: 84291
+line_start: 88455
+line_end: 88464
 dependencies:
   - "A.3.1.DR"
   - "A.3.1.MR"
@@ -26,9 +26,9 @@ keywords:
 
 | Anti-pattern | Repair |
 | --- | --- |
-| “The repository contains 40 Methods.” | Reclassify exact entries; count only Methods already identified under `A.3.1`. |
+| “The repository contains 40 Methods.” | Reclassify entries; count only Methods already identified under `A.3.1`. |
 | “These practices share a history, so they form one family.” | Separate the supported lineage relation from the independently governed family question. |
-| “Version 3 supersedes version 2, so it is better.” | Record edition succession and compare the decision-bearing contribution under its own evidence. |
+| “Version 3 supersedes version 2, so it is better.” | Record edition succession and compare the decision-bearing contribution under its evidence. |
 | “We observed the procedure, so the Method belongs in the repertoire.” | Keep the observation as occurrence evidence or a candidate account until Method identification. |
 | “A blank row makes the repertoire incomplete and unusable.” | Name the missing position and whether it blocks, weakens, or does not affect the receiving use. |
 

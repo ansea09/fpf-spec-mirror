@@ -6,12 +6,12 @@ section_id: "A.3.1.MR:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MR/A.3.1.MR__007_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.3.1.MR — Candidate-Method Recovery from Work Evidence"
   - "A.3.1.MR:6 — Bias-Annotation"
-line_start: 9966
-line_end: 9974
+line_start: 10363
+line_end: 10371
 dependencies:
   - "A.10"
   - "A.13"
@@ -31,7 +31,7 @@ keywords:
 
 - **Automation bias:** admitting a Method from a mined or executable model without testing the reusable way under A.3.1.
 - **Frequency bias:** repeated order is evidence to examine, not a reusable Method part by count alone.
-- **Success bias:** favorable outcomes without failed or atypical cases may hide the real limits of the reusable way.
+- **Success bias:** favorable outcomes without failed or atypical cases may hide the limits of the reusable way.
 - **Record bias:** unrecorded perceptual, embodied, conversational, and discretionary contributions remain possible gaps.
 - **Single-tradition bias:** check whether the selected approach supplies what the receiving reconstruction needs; obtain another contribution only for a material remaining gap.
 - **Template-completion bias:** unsupported account positions remain unknown rather than being completed from familiar practice.

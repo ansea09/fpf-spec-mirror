@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.1.5.RS"
-pattern_title: "Evaluate a Constituent Method Replacement in Its Encompassing Uses"
+pattern_title: "Evaluate a Method Replacement in Its Encompassing Uses"
 section_id: "B.1.5.RS:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5.RS/B.1.5.RS__010_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "B.1.5.RS — Evaluate a Constituent Method Replacement in Its Encompassing Uses"
+  - "B.1.5.RS — Evaluate a Method Replacement in Its Encompassing Uses"
   - "B.1.5.RS:9 — Consequences"
-line_start: 42873
-line_end: 42878
+line_start: 44581
+line_end: 44586
 dependencies:
   - "A.3.1"
   - "B.1.5"

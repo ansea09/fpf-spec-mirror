@@ -6,12 +6,12 @@ section_id: "E.11.PFP:section-006"
 section_title: "Practical-Use Cards"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PFP/E.11.PFP__007_practical-use-cards.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.11.PFP — Framework Publication Form Profile for Markdown"
   - "E.11.PFP:section-006 — Practical-Use Cards"
-line_start: 104410
-line_end: 104521
+line_start: 110568
+line_end: 110703
 dependencies:
   - "A.3.2"
   - "C.29"
@@ -50,11 +50,17 @@ keywords:
 <optional explanation only>
 ```
 
-`### Practical-Use Cards` is a group inside the one `Practical entries` set, not another front door or selectable key. Omit the group when the product selects no cards. The card's canonical structural field is `Mantra`; its value begins directly with the repeatable wording and needs no `Local`/`Long` prefix. A local reminder for one direct pattern or bounded result may remain in that pattern, an ordinary entry, or other teaching material, but it does not by itself select the richer card form. `E.11` owns this content decision.
+`### Practical-Use Cards` is a group inside the one `Practical entries` set, not another front door or selectable key. Omit the group when the product selects no cards.
 
-Every selectable ordinary entry and card shares one product-wide semantic-key namespace. The product declaration assigns each key one form, so a key cannot occur as both H3 and H4. An H5 expansion repeats its enclosing card key only to attach optional explanation; it is not another selectable occurrence. A card has zero or one expansion. Its compact portion ends after `Stop or return`; the expansion ends at the next H4-or-higher heading or the end of the group. The expansion may explain branch choices, examples, or exact result support, but cannot contain another H4 card or H5 expansion.
+The card's canonical structural field is `Mantra`; its value begins directly with the repeatable wording and needs no `Local`/`Long` prefix. A local reminder for one direct pattern or bounded result may remain in that pattern, an ordinary entry, or other teaching material, but it does not by itself select the richer card form. `E.11` owns this content decision.
 
-The product-language application declares one deterministic reading-burden measure and two maxima: one for the mantra and one for the complete compact card. The measure must suit the publication language; whitespace counting is suitable only where it meaningfully measures reading burden. The maxima protect scanability and recall. They are not targets, proof of reader value, a fixed card count, or authority to delete a choice-changing distinction. Content that a compact card cannot carry truthfully returns to the direct patterns or, only when first choice needs it, the same-key expansion.
+Every selectable ordinary entry and card shares one product-wide semantic-key namespace. The product declaration assigns each key one form, so a key cannot occur as both H3 and H4. An H5 expansion repeats its enclosing card key only to attach optional explanation; it is not another selectable occurrence.
+
+A card has zero or one expansion. Its compact portion ends after `Stop or return`; the expansion ends at the next H4-or-higher heading or the end of the group. The expansion may explain branch choices, examples, or exact result support, but cannot contain another H4 card or H5 expansion.
+
+The product-language application declares one deterministic reading-burden measure and two maxima: one for the mantra and one for the complete compact card. The measure must suit the publication language; whitespace counting is suitable only where it meaningfully measures reading burden.
+
+The maxima protect scanability and recall. They are not targets, proof of reader value, a fixed card count, or authority to delete a choice-changing distinction. Content that a compact card cannot carry truthfully returns to the direct patterns or, only when first choice needs it, the same-key expansion.
 
 Applying this grammar does not select a card, prove that the examples cover the product, or show that every cited pattern is needed in a particular case. `E.11` defines the direct-entry/card comparison, cross-pattern mnemonic-gain test, and non-exhaustive discoverability purpose. The product-specific E.4 pattern declares its selected example keys, forms, reading-burden measure, and two limits. A validator consumes those values and checks structure; it does not decide content value.
 
@@ -86,7 +92,7 @@ The deterministic part of the form check handles recoverable syntax and projecti
 - one correctly addressed, content-free architectural-reference end heading at the boundary of that unit;
 - authoritative index segments, aggregate current-pattern row/body bijection, distinct future-facing `PlannedCatalogEntry` rows, duplicates, and reserved support-index grammar;
 - the Readme's one practical-entry set; the product's declaration of example keys and forms; exactly one H3 ordinary entry or H4 card per declared key; five ordered ordinary-entry fields; a non-empty card-group explanation; six ordered card fields; the shared reading-burden measure and mantra/card limits; and zero or one same-key H5 expansion with the declared boundary; and
-- equality and source agreement of every optional public cue that is actually projected.
+- equality and source agreement of every optional public cue that is projected.
 
 Check Markdown grouping with a focused source-hazard scan and a parser-backed render of the same candidate. Inspect the rendered heading outline and the block, list, table, code and link structure together. Reuse matching unchanged results. A clean mechanical result supports but does not replace the reader-visible judgement.
 
@@ -105,9 +111,17 @@ Develop the practical way and its explanation for the receiving use through C.39
 
 Use all twelve substantive E.8 functions as authoring questions for the whole framework and each substantive profile selected by its architecture. Answer them at the scope the publication promises. A framework may describe one composite Method through many patterns, several related Methods, or a repertoire used in different combinations. Where an exact MethodDescription claim matters, use `A.3.1` to identify the admitted Method and `A.3.2` to test the description episteme's MethodDescription membership. The number of patterns, mantras, files, or description media does not settle that identity.
 
-The whole account connects the answers that individual pattern bodies supply. Write the shared answer once and give exact returns to inherited content. Determine those answers from the language's promised work before committing to an illustrative route. E.8:4.2.1.3 governs the choice and continuation of examples: a connected account need not follow one project, and a successful route through one case does not establish the account's completeness. Keep explanations of significant alternatives and limits even when they require leaving that case. At a narrower scope, state what changes in the situation, contribution, combination, evidence, result, or boundary. When an answer is missing, say which question remains open, which promised use it limits, and what remains usable.
+The whole account connects the answers that individual pattern bodies supply. Write the shared answer once and give exact returns to inherited content. Determine those answers from the language's promised work before committing to an illustrative route.
 
-Develop a missing instruction in the underlying account through E.8:4.2.1.1 before choosing how to present it. Then follow the promised use through the resulting publication, including any return to a supplying explanation. The reader must still obtain the input meanings, necessary operation, intermediate result and action-changing conditions that make the continuation possible. A short entry may rely on its reachable developed destination; it must keep any condition needed before taking its first action. A full explanation elsewhere does not close a gap if the reader cannot find or use it under the declared access conditions. Restore missing content at its source or repair its presentation and return, then revalidate the affected connected reading under F.19. A sound file structure or resolved link alone does not establish that the instruction survived.
+E.8:4.2.1.3 governs the choice and continuation of examples: a connected account need not follow one project, and a successful route through one case does not establish the account's completeness. Keep explanations of significant alternatives and limits even when they require leaving that case.
+
+At a narrower scope, state what changes in the situation, contribution, combination, evidence, result, or boundary. When an answer is missing, say which question remains open, which promised use it limits, and what remains usable.
+
+Develop a missing instruction in the underlying account through E.8:4.2.1.1 before choosing how to present it. Then follow the promised use through the resulting publication, including any return to a supplying explanation. The reader must still obtain the input meanings, necessary operation, intermediate result and action-changing conditions that make the continuation possible.
+
+A short entry may rely on its reachable developed destination; it must keep any condition needed before taking its first action. A full explanation elsewhere does not close a gap if the reader cannot find or use it under the declared access conditions.
+
+Restore missing content at its source or repair its presentation and return, then revalidate the affected connected reading under F.19. A sound file structure or resolved link alone does not establish that the instruction survived.
 
 | E.8 function | Question the whole or profile account answers |
 | --- | --- |
@@ -126,17 +140,27 @@ Develop a missing instruction in the underlying account through E.8:4.2.1.1 befo
 
 When a condition governs a whole combination of Methods, give it one public statement at the scope where that combination is used. State the quantities, assumptions, or other conditions needed to apply it, and return to that statement from affected profiles and patterns. Pairwise relations remain useful, but a condition on the whole set may require a different decision. A change to that condition reopens the combinations that rely on it; unchanged local contributions remain available.
 
-Also explain the relevant Method-composition structure and how its constituents are enacted in ongoing Work. A selected action can constitute part of a larger work that is being performed at that same moment. Give a representative example in which a condition of the whole changes the constituent action; show where a missing intermediate capability or incompatible resource demand prevents the combination. B.1.5.EW recovers that connection and B.1.5.RS examines a constituent replacement. A DPF can describe only some of the needed constituent–whole connections: state the preparation, support and coordinating performance needed beyond its own descriptions. Reuse clear existing explanations and stop decomposition when further detail cannot change the use. Genuine earlier-result dependencies remain part of the account.
+Also explain the relevant Method-composition structure and how its constituents are enacted in ongoing Work. A selected action can constitute part of a larger work that is being performed at that same moment. Give a representative example in which a condition of the whole changes the constituent action; show where a missing intermediate capability or incompatible resource demand prevents the combination. B.1.5.EW recovers that connection and B.1.5.RS examines a constituent replacement.
 
-Publish the connected account as `<framework name> Architectural Reference`, the framework-level application of E.4's architectural-reference function. An all-in-one publication embeds the unit in its front matter; a multi-file framework gives it a discoverable place in that framework's assembly. Readme explains how to enter it. E.11.DSG governs the account and its useful question-led entries; this profile governs the framework's form. Use `Reference` as this unit's address key, identifying its explanatory function. The qualified title, unit key, file and edition identity remain distinct; a preface with a different introductory function does not replace the architectural account.
+A DPF can describe only some of the needed constituent–whole connections: state the preparation, support and coordinating performance needed beyond its own descriptions. Reuse clear existing explanations and stop decomposition when further detail cannot change the use. Keep dependencies on earlier results where later work relies on them.
+
+Publish the connected account as `<framework name> Architectural Reference`, the framework-level application of E.4's architectural-reference function. An all-in-one publication embeds the unit in its front matter; a multi-file framework gives it a discoverable place in that framework's assembly. Readme explains how to enter it. E.11.DSG governs the account and its useful question-led entries; this profile governs the framework's form.
+
+Use `Reference` as this unit's address key, identifying its explanatory function. The qualified title, unit key, file and edition identity remain distinct; a preface with a different introductory function does not replace the architectural account.
 
 At a wider language-assembly level, the corresponding Suite or FPF Library Architectural Reference explains the connections added there and returns to the framework's account. A separate source host, downloadable copy or site page is not another assembly level. Preserve enough rationale, source synthesis, alternatives, and worked detail for the intended reader to understand and adapt the language without its development intake or DRR. An exact inherited answer can satisfy a question; merely naming a pattern or listing source titles cannot supply missing explanation.
 
 These are twelve content functions, not twelve compulsory new H1 sections. Each full pattern body retains its address and E.8 form. The outer Solution explains how to use the contributions together and returns to the bodies in the existing collection. It does not nest them under a new parent heading or require reading the whole account before a direct pattern use. If the public account uses the canonical function labels, prefer `Architectural Rationale`; `Rationale` remains the accepted alias defined by E.8.
 
-There is no fixed number of generality scales. For example, a reader can move from FPF's general treatment of Methods to its Method-development family, a pattern-language construction specialization, a narrower literature-based extension profile, and a pattern that recovers one candidate Method from source and Work evidence. Further useful scales can be introduced. Explain the relation at each move: a profile is a bounded-use projection; specialization carries inherited content plus a delta; composition connects Method contributions; reuse makes one contribution available in several settings; a chapter or Part groups publication text. A substantive narrowing must pass `E.8:4.1.3`'s same-situation usefulness comparison.
+There is no fixed number of generality scales. For example, a reader can move from FPF's general treatment of Methods to its Method-development family, a pattern-language construction specialization, a narrower literature-based extension profile, and a pattern that recovers one candidate Method from source and Work evidence. Further useful scales can be introduced.
 
-A pattern can participate in several profiles, and a profile can draw on several contributions. Describe this structure through the relations that hold. For a mathematical view, select the elements and relation being modeled and use the applicable mathematics. Use `C.29` only when a separate question about choosing, transferring, or relying on that mathematical representation remains. A partial order needs its order properties; a lattice additionally needs the required bounds for every relevant pair. Multiple parentage or overlapping membership alone establishes neither. Keep that mathematical representation distinct from the Methods and their subject-side relations.
+Explain the relation at each move: a profile is a bounded-use projection; specialization carries inherited content plus a delta; composition connects Method contributions; reuse makes one contribution available in several settings; a chapter or Part groups publication text. A substantive narrowing must pass `E.8:4.1.3`'s same-situation usefulness comparison.
+
+A pattern can participate in several profiles, and a profile can draw on several contributions. Describe this structure through the relations that hold.
+
+For a mathematical view, select the elements and relation being modeled and use the applicable mathematics. Use `C.29` only when a separate question about choosing, transferring, or relying on that mathematical representation remains.
+
+A partial order needs its order properties; a lattice additionally needs the required bounds for every relevant pair. Multiple parentage or overlapping membership alone establishes neither. Keep that mathematical representation distinct from the Methods and their subject-side relations.
 
 ##### E.11.PFP:4.7.1 - Make an architectural-reference section recognizable on its own
 

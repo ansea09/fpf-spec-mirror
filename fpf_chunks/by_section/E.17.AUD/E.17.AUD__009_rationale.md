@@ -1,27 +1,20 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.17.AUD"
-pattern_title: "PublicationUnit Stability Discipline - keep one publication unit stable enough to read honestly"
+pattern_title: "Keep a Publication Unit Stable (PublicationUnit Stability Discipline)"
 section_id: "E.17.AUD:8"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD/E.17.AUD__009_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "E.17.AUD — PublicationUnit Stability Discipline - keep one publication unit stable enough to read honestly"
+  - "E.17.AUD — Keep a Publication Unit Stable (PublicationUnit Stability Discipline)"
   - "E.17.AUD:8 — Rationale"
-line_start: 109425
-line_end: 109430
+line_start: 116161
+line_end: 116166
 dependencies:
-  - "A.10"
-  - "A.15"
-  - "A.15.4"
   - "A.16.0"
-  - "A.20"
-  - "A.21"
   - "A.7"
-  - "B.3"
-  - "C.11"
   - "C.2.1"
   - "C.2.2a"
   - "E.10"
@@ -40,7 +33,7 @@ keywords:
 
 ### E.17.AUD:8 - Rationale
 
-`PublicationUnit Stability Discipline` is worth stating explicitly because local lexical-head repair and whole-unit primary-subject stabilization are both already real problem situations, but authors and reviewers still need one stabilization check that says when the case is local, when it is whole-unit, when it is already bounded comparison, and when it has left the publication-unit stability family entirely.
+Local lexical-head repair and whole-unit primary-subject stabilization address different problems. Authors and reviewers need one check that distinguishes those cases, recognizes a bounded comparison, and shows when the work has moved outside the publication-unit stability family.
 
-The pattern stays intentionally narrow. It does not turn every publication-unit problem into publication design or downstream decision, gate, work, or reliance work. Its job is to keep one publication unit honest enough that readers can still tell what it is mainly about, which carried publication move it makes, and which downstream `U.Work`, work planning, decision, gate, or reliance claim remains outside.
+The pattern has a narrow scope. It does not turn every publication-unit problem into publication design or downstream decision, gate, work, or reliance work. It helps readers identify the publication unit’s primary subject, the move it makes about that subject, and which downstream `U.Work`, work planning, decision, gate, or reliance claim remains outside.
 

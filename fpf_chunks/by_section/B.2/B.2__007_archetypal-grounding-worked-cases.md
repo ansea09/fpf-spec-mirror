@@ -6,12 +6,12 @@ section_id: "B.2:5"
 section_title: "Archetypal Grounding (Worked Cases)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2/B.2__007_archetypal-grounding-worked-cases.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.2 — Meta-Holon Transition - Whole Reidentification"
   - "B.2:5 — Archetypal Grounding (Worked Cases)"
-line_start: 43553
-line_end: 43631
+line_start: 45295
+line_end: 45389
 dependencies:
   - "A.1"
   - "A.10"
@@ -52,7 +52,11 @@ keywords:
 
 Parts: plant, sensor, controller, actuator.
 
-Existing-whole repair may be enough if only a sensor improved or a controller parameter changed. When feedback and supervision around an objective change, use B.2 if the receiving claim leaves a consequential question about retaining or reidentifying the existing whole. A positive new-whole claim requires exact constructive relations and a governed assembly, with its boundary, external commitments, and capability envelope no longer sufficiently explained as changes of the existing whole. Designate that proposed whole and test it under the already admitted `U.System` kind. It can satisfy A.1 only if its actual boundary, interfaces, relevant characteristics, and identity-preservation conditions also satisfy at least one applicable governed larger-assembly construction method or rule—for example, a rule under which the regulated system can remain one constituent of a larger plant or production system. If that compatibility condition does not hold, the proposed whole fails A.1; if the needed evidence or dependency is unavailable, evaluation remains `unknown`.
+Existing-whole repair may be enough if only a sensor improved or a controller parameter changed. When feedback and supervision around an objective change, use B.2 if the receiving claim leaves a consequential question about retaining or reidentifying the existing whole.
+
+A positive new-whole claim requires constructive relations and a governed assembly, with its boundary, external commitments, and capability envelope no longer sufficiently explained as changes of the existing whole. Designate that proposed whole and test it under the already admitted `U.System` kind.
+
+It can satisfy A.1 only if its boundary, interfaces, relevant characteristics, and identity-preservation conditions also satisfy at least one applicable governed larger-assembly construction method or rule—for example, a rule under which the regulated system can remain one constituent of a larger plant or production system. If that compatibility condition does not hold, the proposed whole fails A.1; if the needed evidence or dependency is unavailable, evaluation remains `unknown`.
 
 The optional accounts below apply when the plant-plus-devices configuration is already an established holon under its identity rule and the regulated system has passed the comparison and recognition tests. If this is the first constitution of a whole from a collection of devices, use the A.1 construction-and-recognition route in :4 instead.
 
@@ -77,7 +81,9 @@ HolonReidentificationRecord@Control : U.Episteme
     changedClaimPatternLocators: A.1, B.1.2, B.2.2, C.30.LCA, A.2.2
 ```
 
-The exact EntityOfConcern is an actual participant in the C.2.1 `EpistemeConstitutionRelation`; `EntityOfConcernSlot` is only the corresponding declaration-local participant meaning inside `EpistemeConstitutionRelationSignature`. The `entityOfConcernRef` field and indented content fields carry participant or claim designations in each episteme; they are not SlotKinds or participants of a new MHT relation. The feedback assertion keeps its observation and return-influence relations and its coupling grounds under B.2.5. Any supervision or capability relations retain their direct identities, while the optional classification assertion retains its own C.2.1 identity and does not establish world-side holonhood.
+The EntityOfConcern is a participant in the C.2.1 `EpistemeConstitutionRelation`; `EntityOfConcernSlot` is only the corresponding declaration-local participant meaning inside `EpistemeConstitutionRelationSignature`. The `entityOfConcernRef` field and indented content fields carry participant or claim designations in each episteme; they are not SlotKinds or participants of a new MHT relation.
+
+The feedback assertion keeps its observation and return-influence relations and its coupling grounds under B.2.5. Any supervision or capability relations retain their identities, while the optional classification assertion retains its C.2.1 identity and does not establish world-side holonhood.
 
 #### B.2:5.2 - Compendium Becomes Theory
 
@@ -85,43 +91,53 @@ A collection of results can remain a catalogue. For a first episteme constitutio
 
 B.2.3:5.1 shows a complete constructed comparison: an existing episteme supports a narrower deployment claim, while the required conclusion needs a changed ClaimGraph and ReferenceScheme and hence a different episteme under C.2.1. The prior episteme remains usable for its narrower claim.
 
-`B.2.3` specializes this case when the exact candidate new holon is to be tested under the already admitted `U.Episteme` kind. C.2.1 defines episteme constitution and identity. Use E.24.PUB when publication availability, form or carrier matters, and E.17 when a reader needs a publication face of the accepted account. Use C.2.P for unresolved source-expression or source-to-use distinctions and A.10 when a source-to-use account is needed for bounded reliance. Use G.6 when a later user must cite or replay a provenance chain, retaining the established facts, direct relations and their governors.
+`B.2.3` specializes this case when the candidate new holon is to be tested under the already admitted `U.Episteme` kind. C.2.1 defines episteme constitution and identity. Use E.24.PUB when publication availability, form or carrier matters, and E.17 when a reader needs a publication face of the accepted account. Use C.2.P for unresolved source-expression or source-to-use distinctions and A.10 when a source-to-use account is needed for bounded reliance. Use G.6 when a later user must cite or replay a provenance chain, retaining the established facts, direct relations and their governors.
 
 #### B.2:5.3 - Capability Envelope Appears
 
-Several systems, methods, and work occurrences align and a new capability envelope appears. Establish the capability claim and the contributing facts under their direct patterns.
+Several systems, methods, and work occurrences align and a new capability envelope appears. Establish the capability claim and the contributing facts under their patterns.
 
 Use `B.2.4` when capability or functioning changes raise a whole-reidentification question. Evidence supports the claim about those changes; the B.2 identity comparison determines whether the existing whole still suffices.
 
 #### B.2:5.4 - Lathe And Workpiece
 
-A lathe transforms a workpiece. That is transformation and work, not MHT and not parthood. B.2 becomes current when changes in the manufacturing arrangement raise a consequential question about retaining or reidentifying the existing whole. If the comparison establishes that a new whole is needed, recover the proposed candidate—for example, a production cell with exact constituents, obtaining coordination and supervision relations, a governed assembly, an objective, a whole-level capability, and its reidentification rule—and show why the earlier arrangement cannot meet the receiving use while retaining its identity. A.1 recognition additionally requires the cell's actual boundary, interfaces, relevant characteristics, and identity-preservation conditions to fit at least one applicable governed construction method or rule under which the cell can remain a constituent of a larger production system.
+A lathe transforms a workpiece. That is transformation and work, not MHT and not parthood. B.2 becomes current when changes in the manufacturing arrangement raise a consequential question about retaining or reidentifying the existing whole.
+
+If the comparison establishes that a new whole is needed, recover the proposed candidate—for example, a production cell with constituents, obtaining coordination and supervision relations, a governed assembly, an objective, a whole-level capability, and its reidentification rule—and show why the earlier arrangement cannot meet the receiving use while retaining its identity.
+
+A.1 recognition additionally requires the cell's boundary, interfaces, relevant characteristics, and identity-preservation conditions to fit at least one applicable governed construction method or rule under which the cell can remain a constituent of a larger production system.
 
 #### B.2:5.5 - Same Whole, New Whole, And Lost Evidence
 
-Replacing Pump #37's seal is an ordinary constituent change when the pump's reidentification rule admits that maintenance phase. The same pump remains the EntityOfConcern; use the direct maintenance, part-relation, work, transformation, and characteristic patterns and stop B.2.
+Replacing Pump #37's seal is an ordinary constituent change when the pump's reidentification rule admits that maintenance phase. The same pump remains the EntityOfConcern; use the maintenance, part-relation, work, transformation, and characteristic patterns and stop B.2.
 
-Closing a controller-sensor-actuator loop can yield a new regulated-system whole only when the exact candidate assembly, supervision and coordination relations, boundary, objective, whole-level capability, admitted `U.System` kind, and reidentification rule satisfy A.1 and the system criterion. Its actual boundary, interfaces, relevant characteristics, and identity-preservation conditions must also satisfy at least one applicable governed larger-assembly construction method or rule under which the regulated system can remain a constituent. If that condition fails, the candidate fails A.1; if the needed evidence or dependency is unavailable, evaluation returns `unknown`.
+Closing a controller-sensor-actuator loop can yield a new regulated-system whole only when the candidate assembly, supervision and coordination relations, boundary, objective, whole-level capability, admitted `U.System` kind, and reidentification rule satisfy A.1 and the system criterion.
 
-If the support for the reidentification assertion is present and its edition is current, a person or system performing receiving work may rely on it. If the same evidence is unavailable, evaluation can return `unknown`; use G.11 to test whether the edition is current for this use; and the actor may decline, defer, or reopen. None of those branches changes whether the regulated-system whole actually exists or whether the prior configuration remains the same whole.
+Its boundary, interfaces, relevant characteristics, and identity-preservation conditions must also satisfy at least one applicable governed larger-assembly construction method or rule under which the regulated system can remain a constituent. If that condition fails, the candidate fails A.1; if the needed evidence or dependency is unavailable, evaluation returns `unknown`.
+
+If the support for the reidentification assertion is present and its edition is current, a person or system performing receiving work may rely on it. If the same evidence is unavailable, evaluation can return `unknown`; use G.11 to test whether the edition is current for this use; and the actor may decline, defer, or reopen. None of those branches changes whether the regulated-system whole exists or whether the prior configuration remains the same whole.
 
 #### B.2:5.6 - Selected Structure And Transformation Stops
 
-A selected `BoundedModelUseStructure` organizes exact model-use relations. It is not the new holon named by an MHT claim and gains no parts, agency, or whole identity from selection, naming, or a Context Map.
+A selected `BoundedModelUseStructure` organizes model-use relations. It is not the new holon named by an MHT claim and gains no parts, agency, or whole identity from selection, naming, or a Context Map.
 
-Several actual changes during assembly may each be exact `U.Transformation` occurrences. B.2 does not treat them as constituents of one composite transformation. If whole reidentification would require positive transformation composition, transformation parthood, or composite-transformation identity and no direct governor supplies contribution, compatibility, boundary, interfaces, and reidentification, retain the exact blocker and the independently identified changes. The missing composition facts do not show that any change is atomic.
+Several changes during assembly may each be `U.Transformation` occurrences. B.2 does not treat them as constituents of one composite transformation.
+
+If whole reidentification would require positive transformation composition, transformation parthood, or composite-transformation identity and no governor supplies contribution, compatibility, boundary, interfaces, and reidentification, retain the blocker and the independently identified changes. The missing composition facts do not show that any change is atomic.
 
 #### B.2:5.7 - Obtain a criterion before judging a production-cell change
 
 In this constructed case, a maintenance engineer must decide whether replacing a robot and transferring supervision continues the commissioned production cell or requires identifying another whole. Three proposed accounts track the listed components, the achieved output and the installed organization. The receiving question concerns the maintained installation; scheduling separately needs the resources currently assigned to an order.
 
-The available engineering material provides grounds for comparison. The design makes the robot exchangeable through specified mechanical, safety and control connections to the retained base, guards and fixtures. The maintenance procedure isolates the installation, replaces that module and tests those connections before return to service. The control arrangement permits supervision to be reassigned through the same interface. Separately commissioning another installation gives it its own construction and maintenance history. The practitioner must turn these commitments and the actual construction facts into a continuity rule for the installation.
+The available engineering material provides grounds for comparison. The design makes the robot exchangeable through specified mechanical, safety and control connections to the retained base, guards and fixtures. The maintenance procedure isolates the installation, replaces that module and tests those connections before return to service. The control arrangement permits supervision to be reassigned through the same interface. Separately commissioning another installation gives it its construction and maintenance history. The practitioner must turn these commitments and the construction facts into a continuity rule for the installation.
 
-Apply B.5.TC to the three proposals. Requiring the same component individuals throughout conflicts with the design's exchangeable-module construction: it would terminate the cell's identity at the very substitution that the maintenance operation performs within the retained organization. Preserved output is also inadequate as an identity criterion. The isolated cell temporarily produces nothing, and a second independently assembled cell can produce the same output at the same time. A named supervisor identifies a control participant; the design permits that participant to change while retaining the installation and its control interface.
+Apply B.5.TC to the three proposals. Requiring the same component individuals throughout conflicts with the design's exchangeable-module construction: it would terminate the cell's identity at the substitution that the maintenance operation performs within the retained organization. Preserved output is also inadequate as an identity criterion. The isolated cell temporarily produces nothing, and a second independently assembled cell can produce the same output at the same time. A named supervisor identifies a control participant; the design permits that participant to change while retaining the installation and its control interface.
 
 The supported criterion therefore follows continuity of the installed assembly and its organizing connections, allowing the component substitutions those connections and the maintenance practice support. Its grounds are the design's organization and the lifecycle operations on that organization. Component serial numbers, production measurements and supervisor assignments supply different facts needed by that account; none of the three alone identifies the continuing installation.
 
 Now inspect the change. The base, guards and fixtures remain; the replacement robot fits the specified connections; the required connection checks pass; supervision transfers through the retained interface. Under the recovered criterion, the replacement is an admitted constituent change of the same cell. In :4.2, that supported maintenance explanation is sufficient, so keep the cell and update the changed component and responsibility claims under their subject patterns. The scheduling account can separately change its resource membership.
 
-Change the conditions. If the commissioned installation is dismantled and an independently assembled cell supplies the same output elsewhere, output recovery leaves the earlier installation's continuity unestablished. Recover the new assembly and its identity grounds under A.1 before claiming a new whole. If only output logs are available and the construction and maintenance grounds cannot be recovered, state the missing connection: whether the actual change preserves the installed organization under an applicable lifecycle rule. Retain the conditional identity alternatives. The logs can still support their bounded production claims.
+Change the conditions. If the commissioned installation is dismantled and an independently assembled cell supplies the same output elsewhere, output recovery leaves the earlier installation's continuity unestablished. Recover the new assembly and its identity grounds under A.1 before claiming a new whole.
+
+If only output logs are available and the construction and maintenance grounds cannot be recovered, state the missing connection: whether the change preserves the installed organization under an applicable lifecycle rule. Retain the conditional identity alternatives. The logs can still support their bounded production claims.
 

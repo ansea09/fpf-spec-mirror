@@ -6,12 +6,12 @@ section_id: "C.2.7:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.7/C.2.7__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.2.7 — LanguageStateRepresentationFactorBundle — How Is the Representation Organized?"
   - "C.2.7:2 — Problem"
-line_start: 54312
-line_end: 54314
+line_start: 56555
+line_end: 56557
 dependencies:
   - "A.16"
   - "A.16.0"

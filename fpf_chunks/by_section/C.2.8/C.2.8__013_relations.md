@@ -6,12 +6,12 @@ section_id: "C.2.8:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.8/C.2.8__013_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.2.8 — ExtractableStructuralInformation — Structure This Reader Can Recover"
   - "C.2.8:12 — Relations"
-line_start: 54719
-line_end: 54730
+line_start: 56977
+line_end: 56988
 dependencies:
   - "A.17"
   - "A.18"
@@ -36,8 +36,8 @@ keywords:
 
 ### C.2.8:12 - Relations
 
-- **A.17/A.18 and C.16:** arity, characteristic/scale legality and the measurement chain for an actual measurement claim.
-- **C.2.1 and E.24.PUB:** identity of the expressed episteme and the distinctions among its particular expression, reusable publication form and presentation carrier.
+- **A.17/A.18 and C.16:** arity, characteristic/scale legality and the measurement chain for a measurement claim.
+- **C.2.1 and E.24.PUB:** identity of the expressed episteme and the distinctions among its expression, reusable publication form and presentation carrier.
 - **C.2.4:** degree of explicit articulation and its receiving-use thresholds.
 - **C.29:** choosing or transferring a mathematical representation, or resolving reliance beyond its supported correspondence, when that question remains for a formal structural-information estimate.
 - **A.2.2:2.1 and E.23.CDI:4.2.1:** Method-relative capability and the acquisition or provision choice that can consume a recovered Method structure.

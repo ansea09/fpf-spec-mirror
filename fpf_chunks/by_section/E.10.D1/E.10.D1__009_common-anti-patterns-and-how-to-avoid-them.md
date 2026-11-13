@@ -6,12 +6,12 @@ section_id: "E.10.D1:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D1/E.10.D1__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.10.D1 — Recovering What “Context” Means in Use"
   - "E.10.D1:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 102290
-line_end: 102300
+line_start: 108060
+line_end: 108070
 dependencies:
   - "A.1.1"
   - "A.2.6"
@@ -40,7 +40,7 @@ keywords:
 | Anti-pattern | What fails | Repair |
 | --- | --- | --- |
 | Universal Context proxy | One entity stands for source scheme, scope, situation, architecture, and model-use boundary. | Select the branch and name the direct value or relation. |
-| Context field as participant | A `ContextId` or `...ContextRef` field silently becomes a relation participant or identity discriminator. | Resolve the field to the subject-pattern value; otherwise keep it as a designator and state the blocker. |
+| Context field as participant | A `ContextId` or `...ContextRef` field is treated as a relation participant or identity discriminator without establishing that use. | Resolve the field to the subject-pattern value; otherwise keep it as a designator and state the blocker. |
 | Automatic bounded-context structure | The phrase *bounded context* selects A.1.1 even when one direct relation answers the decision. | Begin with applicability, actual use, or coherence and stop at the first sufficient result. |
 | Context map as relation truth | A diagram or table is treated as an obtaining Bridge, `ArchitectureRelation`, or model-use crossing. | Recover the represented objects, correspondence, and direct relation under their subject patterns. Use an `ArchitectureClaim` when architecture remains negative, unresolved, candidate, or expected. |
 | Blanket word ban | Every occurrence of *context* or *anchor* is deleted, including precise source terms and established designations. | Preserve the defined source or subject-pattern use; rewrite only wording that hides content needed by the FPF claim. |

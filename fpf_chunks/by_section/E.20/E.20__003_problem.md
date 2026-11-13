@@ -6,12 +6,12 @@ section_id: "E.20:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.20/E.20__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.20 — Mechanism Introduction Protocol: Introduce or Revise FPF Mechanisms"
   - "E.20:2 — Problem"
-line_start: 113415
-line_end: 113424
+line_start: 120561
+line_end: 120570
 dependencies:
   - "A.15.3"
   - "A.6.1"
@@ -42,11 +42,11 @@ keywords:
 
 ### E.20:2 - Problem
 
-When a new mechanism (or mechanism family) is introduced without an explicit authoring protocol:
+Without an explicit authoring protocol, introducing a mechanism or mechanism family can cause five problems:
 
 1. **Governing-definition ambiguity** causes partial changes: a suite enumerates a new `MechanismDefinitionRef`, but that designator has no resolvable A.6.1 `U.Mechanism` episteme or resolves only to a card-shaped placeholder without mechanism identity and content.
 2. **Boundary erosion** occurs: suite descriptions start to define mechanism semantics; method wiring starts to redefine kernel meaning; publication/telemetry becomes a hidden tail.
 3. **Plan/enactment confusion** appears: planned slot fillings start to carry launch values, witnesses, or gate decisions.
 4. **Terminology drift** breaks citations: renames happen silently; tokens fragment across registers; downstream references become unstable.
-5. **Review becomes non‑local**: every introduction is a bespoke scavenger hunt across patterns, making training, review, and refresh unreliable.
+5. **Review becomes non‑local**: reviewers must piece together each introduction across several patterns, making training, review, and refresh unreliable.
 

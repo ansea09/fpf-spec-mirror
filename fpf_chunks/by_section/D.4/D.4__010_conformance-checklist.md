@@ -6,12 +6,12 @@ section_id: "D.4:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.4/D.4__010_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "D.4 — Ethical Mediation and Decision Use"
   - "D.4:6 — Conformance Checklist"
-line_start: 92201
-line_end: 92209
+line_start: 96724
+line_end: 96732
 dependencies:
   - "A.1.CSD"
   - "A.10"
@@ -36,8 +36,8 @@ keywords:
 
 | ID | Requirement | Purpose |
 | --- | --- | --- |
-| CC-D4-1 | The conflict and its sides are recoverable through D.3; add a stable conflict-description reference when the receiving use needs to cite or revise it. | Keeps the decision connected to the actual tension without requiring a separate record for a short answer. |
+| CC-D4-1 | The conflict and its sides are recoverable through D.3; add a stable conflict-description reference when the receiving use needs to cite or revise it. | Keeps the decision connected to the tension without requiring a separate record for a short answer. |
 | CC-D4-2 | The recommendation or decision connects the affected concerns, value premises, feasible alternatives and comparison to its intended use. Retain differing orderings and residuals when they change the conclusion; add scope, qualification window and reference detail when that use needs them. | Makes the chosen continuation follow from its basis instead of merely listing decision fields. |
 | CC-D4-3 | Evidence, causality, assurance, architecture, and decision claims use their subject patterns. | Prevents D.4 from becoming universal decision authority. |
-| CC-D4-4 | When proceeding under residual harm, keep the consequential residual, affected parties and justified decision basis recoverable. Add local kinds, classification assertions, plans, assignment requirements and relation identities only where their distinctions change this use. Every responsibility, authority, permission or commitment claim retains its own predicate, polarity or modality and factual basis or precise unresolved condition; an affirmative occurrence claim requires its obtaining basis. Every actual Work row first recovers each precise performer's A.13 core and independently admits the Work under A.15.1; it adds F.6 only when precise assignment-bound attribution is also current. | Keeps bounded decision use reviewable without deriving responsibility or performance from an assignment or decision. |
+| CC-D4-4 | When proceeding under residual harm, keep the consequential residual, affected parties and justified decision basis recoverable. Add local kinds, classification assertions, plans, assignment requirements and relation identities only where their distinctions change this use. Every responsibility, authority, permission or commitment claim retains its predicate, polarity or modality and factual basis or unresolved condition; an affirmative occurrence claim requires its obtaining basis. Every Work row first recovers each performer's A.13 core and independently admits the Work under A.15.1; it adds F.6 only when assignment-bound attribution is also current. | Keeps bounded decision use reviewable without deriving responsibility or performance from an assignment or decision. |
 

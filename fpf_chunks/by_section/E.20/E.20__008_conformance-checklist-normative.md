@@ -6,12 +6,12 @@ section_id: "E.20:7"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.20/E.20__008_conformance-checklist-normative.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.20 — Mechanism Introduction Protocol: Introduce or Revise FPF Mechanisms"
   - "E.20:7 — Conformance Checklist (normative)"
-line_start: 113680
-line_end: 113700
+line_start: 120831
+line_end: 120851
 dependencies:
   - "A.15.3"
   - "A.6.1"
@@ -42,9 +42,9 @@ keywords:
 
 ### E.20:7 - Conformance Checklist (normative)
 
-**Conformance use.** This checklist tests the governing-definition assignment guidance already stated in the Solution. It is not the first entry text for ordinary use or a mandatory full-corpus check; an item is applied only when its corresponding trigger triage, manifest, declaration target, suite, planning, wiring, lexical, RSCR, PQG, or deprecation move is present. Before applying any item, name the Solution guidance it tests; if no such reader use is present, treat the item as orientation-only or not applicable rather than expanding the applied assurance material.
+**Conformance use.** This checklist tests the governing-definition assignment guidance already stated in the Solution. It is not the first entry text for ordinary use or a mandatory full-corpus check; an item is applied only when its corresponding trigger triage, manifest, declaration target, suite, planning, wiring, lexical, RSCR, PQG, or deprecation move is present. Before applying an item, name the Solution guidance it tests. When that use is absent, treat the item as orientation only or as inapplicable.
 
-**Conformance groups.** Ordinary E.20 use starts with trigger triage and stops at the current governing locus when no denotation or mechanism-meaning change is present. Manifest-core items apply only when a MIP-run is actually triggered. Publication and assurance items apply only when citeability, reference-reservation stubs, alias docking, RSCR, PQG, or deprecation continuity is part of the current claim. Crossing, launch, and work-enactment checks are not governed by E.20; if those claims become present, use the gate, planning, or work loci and keep E.20 to governing-definition assignment.
+**Conformance groups.** Ordinary E.20 use starts with trigger triage and stops at the current governing locus when no denotation or mechanism-meaning change is present. Manifest-core items apply only when a MIP-run is triggered. Publication and assurance items apply only when citeability, reference-reservation stubs, alias docking, RSCR, PQG, or deprecation continuity is part of the current claim. When a claim concerns crossing, launch or work enactment, use the gate, planning, or work loci and keep E.20 to governing-definition assignment.
 
 | ID | Requirement | Purpose |
 |---|---|---|
@@ -52,7 +52,7 @@ keywords:
 | **CC-E20-1 (Governing-definition assignment declared).** | Every MIP-run **SHALL** provide a MIP-run manifest that lists each changed item, exactly one governing definition, and the canonical location; each changed item **SHALL** be written in that canonical location. | Prevents “floating commitments” and semantic placement errors. |
 | **CC-E20-2 (Resolvable mechanism target).** | Every `MechanismDefinitionRef` resolves either to an explicitly non-mechanism reservation stub or to an introduced A.6.1 `U.Mechanism` episteme. Only the latter fills admitted mechanism positions. | Eliminates dangling references and card-form semio-bias. |
 | **CC‑E20‑3 (Suite discipline preserved).** | If a suite is edited, it **SHALL** preserve: membership set semantics, protocol closure, no hidden tails, no gate decisions/logs, no publication records. | Prevents suite-as-gate and suite-as-mechanism drift. |
-| **CC-E20-4 (Shared operation-member vocabulary preserves declaration locality).** | If a suite or family claims shared operation, argument, or result vocabulary, one citeable shared locus **SHALL** name its exact member declarations, and every member **SHALL** still define its own A.6.1 operation members and binding semantics. Equal spelling or a shared-term citation imports no declaration member or actual binding. | Prevents vocabulary drift without collapsing declaration-local semantics into a suite lexicon. |
+| **CC-E20-4 (Shared operation-member vocabulary preserves declaration locality).** | If a suite or family claims shared operation, argument, or result vocabulary, one citeable shared locus **SHALL** name its exact member declarations, and every member **SHALL** define its own A.6.1 operation members and binding semantics. Equal spelling or a shared-term citation imports no declaration member or actual binding. | Prevents vocabulary drift without collapsing declaration-local semantics into a suite lexicon. |
 | **CC-E20-5 (P2W planning-to-work boundary preserved).** | If a planned baseline uses `SlotFillingsPlanItem` rows, they **SHALL** remain declaration-local content inside one exact `U.WorkPlan`, state planned values or designations for existing declaration members under A.15.3, and include time only when it affects applicability or selection. They **SHALL NOT** assert actual applications or bindings, or contain enactment witnesses, launch values, or gate decisions. No row has an independent identity or edition. | Keeps planning and enactment distinct and replayable. |
 | **CC‑E20‑6 (Kernel stability handled).** | If a kernel suite would gain a new required stage, the change **SHOULD** be expressed as a suite variant; if mutation occurs, it **SHALL** include continuity measures (alias docking and explicit delta). | Minimizes E.15 impact radius of kernel edits. |
 | **CC‑E20‑7 (Source-supported choice and semantic owner).** | Retain the sources and editions supporting a method/comparator choice. Use SoTA packs, WorkPlan pins and wiring modules when their receiving synthesis, planning or binding/dispatch use requires them. A mechanism-meaning change belongs in the mechanism-subject pattern under A.6.1. | Preserves source support and prevents silent semantic shifts through wiring. |

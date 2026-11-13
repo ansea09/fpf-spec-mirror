@@ -6,12 +6,12 @@ section_id: "C.30.ILC:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ILC/C.30.ILC__011_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.30.ILC — Cross-Scope Architecture Residual Triage"
   - "C.30.ILC:10 — Rationale"
-line_start: 74637
-line_end: 74644
+line_start: 77954
+line_end: 77961
 dependencies:
   - "A.10"
   - "A.22"
@@ -43,7 +43,7 @@ keywords:
 
 ### C.30.ILC:10 - Rationale
 
-Interlevel conflict and frustration are useful Plain entry labels because they point to a recurrent architecture failure: local repair in one declared holon level or declared scope leaves a residual in another. They are dangerous as generic labels because they can hide which level, scope, level-bearing structure, relation, conflict carrier, or source-return condition bears the residual.
+Interlevel conflict and frustration serve as Plain entry labels by pointing to a recurrent architecture failure: local repair in one declared holon level or declared scope leaves a residual in another. Used as generic labels, they can hide which level, scope, level-bearing structure, relation, conflict carrier, or source-return condition bears the residual.
 
 A local optimum or successful local repair is therefore not treated as whole-architecture adequacy. It becomes relevant to C.30.ILC triage only when the residual-bearing locus is recoverable and the next architecture use can be named.
 

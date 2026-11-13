@@ -6,12 +6,12 @@ section_id: "F.5:8"
 section_title: "Common Anti-Patterns and Repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__010_common-anti-patterns-and-repairs.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.5 — Name U-kinds, Local System-Role Kinds and SystemRoleKindDescriptions"
   - "F.5:8 — Common Anti-Patterns and Repairs"
-line_start: 120062
-line_end: 120075
+line_start: 127689
+line_end: 127702
 dependencies:
   - "A.10"
   - "A.15"
@@ -56,7 +56,7 @@ keywords:
 | Anti-pattern | Symptom | Repair |
 | --- | --- | --- |
 | Interpretation tag in label | `Participant-BPMN`, `Task-IEC61131`, `ReviewerSystemRole-SchemeA` | Put source, edition, local boundary, and scheme in the direct declaration, description, or NameCard. |
-| Witness capture | `Observation` chosen because one standard uses it | Recover the exact value and admission; use comparison evidence only as evidence, then choose a neutral head when witnesses diverge. |
+| Witness capture | `Observation` chosen because one standard uses it | Recover the exact value and admission; use the comparison as evidence for naming, then choose a neutral head when witnesses diverge. |
 | System role and status fusion | `ApprovedReviewerSystemRole` or `AccessRole` treated as a work-facing kind | Separate the local kind from status, policy, permission, and access relations. |
 | Evidence role revival | `EvidenceRole` retained as durable ontology | Recover and, if needed, name the evidence-use relation. |
 | Verbified system role | `Reviewing` used as a kind label | Use a concrete kind noun; use Method or Work patterns for action or occurrence. |

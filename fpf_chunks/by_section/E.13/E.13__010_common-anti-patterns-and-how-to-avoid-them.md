@@ -6,12 +6,12 @@ section_id: "E.13:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.13/E.13__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.13 — Pragmatic Utility and Proxy-to-Value Alignment"
   - "E.13:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 105198
-line_end: 105208
+line_start: 111548
+line_end: 111558
 dependencies:
   - "A.10"
   - "A.21"
@@ -43,8 +43,8 @@ keywords:
 | Anti-pattern | Symptom | Repair |
 | --- | --- | --- |
 | Score as value | A higher score is reported as practical improvement. | Name intended value, proxy use, and value slice. |
-| All-`5` targeting | A pattern or DRR is rewritten to make every coordinate defensible as `5`. | Use the evaluation as measurement; repair content movement and protected trade-offs. |
-| Source-count proof | More citations or source rows are treated as better decision quality. | Ask which decision payload changed. |
+| All-`5` targeting | A pattern or DRR is rewritten to make every coordinate defensible as `5`. | Use the evaluation as measurement; improve the content and address the trade-offs for protected qualities. |
+| Source-count proof | More citations or source rows are treated as better decision quality. | Ask what changed in the substance of the decision. |
 | Dashboard myopia | A visible dashboard metric improves while unmeasured harm rises. | Add protected qualities and split measure from value. |
 | Proxy as gate authority | A proxy is treated as authority for release or gate passage without satisfying the rule that governs that decision. | Apply the governing release rule for release, `A.21` for gate passage, and `B.3` for an assurance claim; keep proxy use bounded. |
 | Value slice missing | Practical payoff is asserted but never shown in a case. | Add a minimally viable value slice or lower the payoff claim. |

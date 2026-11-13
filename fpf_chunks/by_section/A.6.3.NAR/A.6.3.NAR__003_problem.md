@@ -6,12 +6,12 @@ section_id: "A.6.3.NAR:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.NAR/A.6.3.NAR__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.3.NAR — Structure-to-Narrative Rendering"
   - "A.6.3.NAR:2 — Problem"
-line_start: 19366
-line_end: 19379
+line_start: 20233
+line_end: 20246
 dependencies:
   - "A.10"
   - "A.22.CGUS"
@@ -47,7 +47,7 @@ Projects often need narrative because selected source structures are too tangled
 
 Without `A.6.3.NAR`:
 
-1. narrative is treated as style polish after the real work is done;
+1. narrative is treated as a final style-polishing step;
 2. narrative is treated as mere lossy summary even when sequence-making is the main representational move;
 3. selected structure, ordering decisions, event models, and lost relations disappear behind fluent prose;
 4. engagement is allowed to raise confidence, authority, ethical permission, or policy force without the current evidence relation, assurance result, ethical basis, or policy basis required for that stronger claim;

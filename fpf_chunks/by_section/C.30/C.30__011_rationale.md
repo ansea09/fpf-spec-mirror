@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.30"
-pattern_title: "Grounded Architecture and Selected-Structure Adequacy"
+pattern_title: "Architecture and Selected-Structure Adequacy"
 section_id: "C.30:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30/C.30__011_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "C.30 — Grounded Architecture and Selected-Structure Adequacy"
+  - "C.30 — Architecture and Selected-Structure Adequacy"
   - "C.30:10 — Rationale"
-line_start: 71995
-line_end: 72004
+line_start: 75088
+line_end: 75097
 dependencies:
   - "A.1"
   - "A.10"
@@ -76,11 +76,11 @@ keywords:
 
 ### C.30:10 - Rationale
 
-An architecture question concerns how a holon is organized and what a proposed change would affect. `ArchitectureRelation` connects the holon to an actually selected structure; `ArchitectureClaim` can assert, deny, leave unresolved or propose that organization. Keeping these separate lets a candidate guide work before realization, and lets an actual change be distinguished from a new description of the same organization.
+An architecture question concerns how a holon is organized and what a proposed change would affect. `ArchitectureRelation` connects the holon to a selected structure; `ArchitectureClaim` can assert, deny, leave unresolved or propose that organization. Keeping these separate lets a candidate guide work before realization, and lets an actual change be distinguished from a new description of the same organization.
 
-C.30 and C.30.ASV establish an FPF architecture kernel: actual subject relations first; exact selected A.22 structure; direct `ArchitectureRelation` to the described holon; separately constituted claim, description, viewpoint, and view epistemes; structure-kind discipline; correspondence and source-return boundaries; and characteristic-claim applications. They do not by themselves provide full measurement, synthesis, decision, causal proof, safety proof, or assurance.
+C.30 and C.30.ASV establish an FPF architecture kernel: actual subject relations first; selected A.22 structure; `ArchitectureRelation` to the described holon; separately constituted claim, description, viewpoint, and view epistemes; structure-kind discipline; correspondence and source-return boundaries; and characteristic-claim applications. They do not by themselves provide full measurement, synthesis, decision, causal proof, safety proof, or assurance.
 
-The small first move is deliberate. Architecture discussions often need one immediate result: name the holon, choose the structure kind under consideration, recover the exact use of inspected material, identify the pattern for any separate evidence or assurance claim, or stop. One or two ordinary sentences can suffice, including for retention or handoff. A fuller description earns its cost when the receiving action needs subject, correspondence, view or use conditions that the short account does not supply.
+Architecture discussions often need one immediate result: name the holon, choose the structure kind under consideration, recover the use of inspected material, identify the pattern for any separate evidence or assurance claim, or stop. One or two ordinary sentences can suffice, including for retention or handoff. A fuller description earns its cost when the receiving action needs subject, correspondence, view or use conditions that the short account does not supply.
 
-Exact episteme identity and direct view conformance also preserve plurality. The same holon, architecture-relation occurrence, or selected structure may be described by several independently identified epistemes; one episteme may conform to several exact viewpoints through distinct occurrences; several publications may render one description. C.30 keeps those variants usable without turning any publication form into architecture or any bundle or list into view membership.
+Episteme identity and direct view conformance also preserve plurality. The same holon, architecture-relation occurrence, or selected structure may be described by several independently identified epistemes; one episteme may conform to several viewpoints through distinct occurrences; several publications may render one description. C.30 keeps those variants usable without turning any publication form into architecture or any bundle or list into view membership.
 

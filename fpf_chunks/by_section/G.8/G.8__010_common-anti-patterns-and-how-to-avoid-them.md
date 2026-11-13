@@ -6,12 +6,12 @@ section_id: "G.8:9"
 section_title: "Common Anti‑Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.8/G.8__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.8 — Package Method-Family Admissibility Rules and Maturity Ladders (SoS-LOG)"
   - "G.8:9 — Common Anti‑Patterns and How to Avoid Them"
-line_start: 131051
-line_end: 131067
+line_start: 139119
+line_end: 139135
 dependencies:
   - "A.10"
   - "A.21"
@@ -38,7 +38,7 @@ keywords:
   - "SoS-LOG"
   - "admissibility ledger"
   - "rule ids"
-  - "tri-state {pass"
+  - "tri-state {pass\\"
 ---
 
 ### G.8:9 - Common Anti‑Patterns and How to Avoid Them

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.5.WN"
-pattern_title: "Develop Lines of Thought with Working Notes"
+pattern_title: "Develop Lines of Thought with Notes"
 section_id: "B.5.WN:End"
 section_title: "B.5.WN:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.WN/B.5.WN__014_b-5-wn-end.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "B.5.WN — Develop Lines of Thought with Working Notes"
+  - "B.5.WN — Develop Lines of Thought with Notes"
   - "B.5.WN:End — B.5.WN:End"
-line_start: 47029
-line_end: 47030
+line_start: 48985
+line_end: 48986
 dependencies:
   - "A.15.10"
   - "A.15.11"

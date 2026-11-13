@@ -6,12 +6,12 @@ section_id: "E.18.3:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.3/E.18.3__011_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.18.3 — Constraint-Governed Transformation-Flow Unfolding Structure"
   - "E.18.3:9 — Consequences"
-line_start: 112112
-line_end: 112119
+line_start: 119191
+line_end: 119202
 dependencies:
   - "A.10"
   - "A.15"
@@ -41,9 +41,13 @@ keywords:
 
 ### E.18.3:9 - Consequences
 
-This profile lets E.18 keep its strength without swallowing every route-shaped pattern. P2W, P2S, agent-loop, gate, evidence, architecture, and currentness cases may use the same selected A.22 structure and exact transformation-flow relations. Each stronger neighboring claim obtains only when current facts or evidence satisfy its applicable definition, constraint, predicate, test, evidence rule, or assurance rule. A Method may contribute a reusable way of doing and its applicability or bounds, but any claim that using it produces, supports, evaluates, evidences, or assures a result remains separately testable under its own rule and current basis.
+E.18 can describe a transformation-flow use without classifying every route-shaped pattern as a transformation flow. P2W, P2S, agent-loop, gate, evidence, architecture, and currentness cases may use the same selected A.22 structure and exact transformation-flow relations.
 
-The cost is explicit recovery only when qualification, comparison, publication, or stronger reliance requires it. A selected CGUS qualifies for E.18.3 through its E.18 substrate case, subjects, locus-to-flow mappings, and obtaining occurrences. Current continuation judgements, description loss, publication, and stronger claims remain separate results or uses. An ordinary card can stop after naming the subject, alternatives, conditions, and missing fact or rule.
+Each stronger neighboring claim obtains only when current facts or evidence satisfy its applicable definition, constraint, predicate, test, evidence rule, or assurance rule. A Method may contribute a reusable way of doing and its applicability or bounds, but any claim that using it produces, supports, evaluates, evidences, or assures a result remains separately testable under its own rule and current basis.
+
+Identifying the structure, establishing its qualification and recovering the values for a named use all take work. Undertake that work only when qualification, comparison, publication, or stronger reliance requires it. A selected CGUS qualifies for E.18.3 through its E.18 substrate case, subjects, locus-to-flow mappings, and obtaining occurrences. Current continuation judgements, description loss, publication, and stronger claims remain separate results or uses.
+
+An ordinary card can stop after naming the subject, alternatives, conditions, and missing fact or rule.
 
 The benefit is change locality. A changed demonstration, valuation, path slice or tag usually changes only that use; it does not reidentify the selected structure. A changed selected constituent, occurrence, applied constraint or named selection-use frame changes an A.22 discriminator and therefore requires a different structure selection.
 

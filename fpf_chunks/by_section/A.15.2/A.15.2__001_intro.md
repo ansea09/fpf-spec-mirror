@@ -6,12 +6,12 @@ section_id: "A.15.2:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.15.2 — U.WorkPlan: Plan Content for Coordinating Future Work"
   - "A.15.2:intro — Intro"
-line_start: 29756
-line_end: 29785
+line_start: 30834
+line_end: 30863
 dependencies:
   - "A.10"
   - "A.15"

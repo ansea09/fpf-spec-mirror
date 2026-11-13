@@ -6,12 +6,12 @@ section_id: "C.40:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40/C.40__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.40 — Develop Branching Search from Reusable Material"
   - "C.40:1 — Problem frame"
-line_start: 84755
-line_end: 84764
+line_start: 88976
+line_end: 88996
 dependencies:
   - "C.11"
   - "C.18"
@@ -27,7 +27,18 @@ Use this when you have something that can be developed and need to learn what a 
 
 The primary concern is the material being developed and the warranted continuation from an examined change. Material can be an editable construction, a working Method with its inputs, or a retained intermediate result.
 
-Change something feasible, examine the resulting difference, and keep the actual material and conditions needed for a useful continuation. The first result is an examined variation with a justified continuation or stop. This transdisciplinary guidance relies on the professional operation that actually changes and examines the material.
+Change something feasible, examine the resulting difference, and keep the material and conditions needed for a useful continuation. The first result is an examined variation with a justified continuation or stop. This transdisciplinary guidance relies on the professional operation that changes and examines the material.
 
-Sections 4.5–4.12 develop conditional uses: opponents that respond to a candidate, a set of challenges whose selection changes as candidate ways improve, ways compared through the results of their application, policies developed through models of their consequences, development guided by pairwise comparisons, human contributions that change the continuing development, representations built together with their useful changes, and materially different continuations made available for further development or use. None is required for an ordinary material variation. Use C.40.CD, also reached from section 4.3, when problems and ways need development together. Ordinary variation does not require inventing a new problem. Reuse a sufficient existing result or way without entering a search. If the missing operation is how to obtain a local result at all, C.39 supplies that constructive explanation; a settled ultimate goal is not the discriminator.
+Sections 4.5–4.12 develop conditional uses:
+
+- opponents that respond to a candidate;
+- a set of challenges whose selection changes as candidate ways improve;
+- ways compared through the results of their application;
+- policies developed through models of their consequences;
+- development guided by pairwise comparisons;
+- human contributions that change the continuing development;
+- representations built together with their useful changes; and
+- materially different continuations made available for further development or use.
+
+None is required for an ordinary material variation. Use C.40.CD, also reached from section 4.3, when problems and ways need development together. Ordinary variation does not require inventing a new problem. Reuse a sufficient existing result or way without entering a search. If the missing operation is how to obtain a local result at all, C.39 supplies that constructive explanation; a settled ultimate goal is not the discriminator.
 

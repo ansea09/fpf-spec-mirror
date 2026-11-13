@@ -6,12 +6,12 @@ section_id: "E.2.DA:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.2.DA/E.2.DA__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.2.DA — Evaluate How FPF Realizes Its Pillars (Pillar-Adequacy CharacteristicSpace)"
   - "E.2.DA:1 — Problem frame"
-line_start: 92693
-line_end: 92706
+line_start: 97226
+line_end: 97239
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -30,13 +30,13 @@ keywords:
 
 Use `E.2.DA` when the object under improvement is an FPF-level object and the question is whether it realizes the `E.2` Pillars adequately for a declared use. The object may be an FPF edition or release candidate, a pattern family or selected host set, a set of projections, a public-entry change (README, Architectural Reference or ToC), or an access route such as a skill or MCP-backed service.
 
-Use it after a broad cleanup, new pattern family, projection repair, source-use repair, FPF-form change under `E.4.FPF`, or corpus-level improvement when local pattern quality is not enough. A set of good local patterns can still harm FPF entry, naming, layering, source use, projection integrity, or open-ended evolution.
+Use it after a broad cleanup, new pattern family, projection repair, source-use repair, FPF-form change under `E.4.FPF`, or corpus-level improvement when local pattern quality is not enough. A set of good local patterns can harm FPF entry, naming, layering, source use, projection integrity, or open-ended evolution.
 
-Not this pattern when the evaluated object is one authored pattern version, one `DRR`, one local wording repair, or one pattern-use entry problem. Use `E.21`, `E.9.DA`, `F.19`, or `E.11` respectively. Open `E.10` or a precision-restoration neighbor for an unresolved FPF-specific wording question.
+Use the local method in place of `E.2.DA` for one authored pattern version (`E.21`), one `DRR` (`E.9.DA`), one local wording repair (`F.19`), or one pattern-use entry problem (`E.11`). Open `E.10` or a precision-restoration neighbor for an unresolved FPF-specific wording question.
 
 First useful move: name the FPF object under improvement by value, declared use, reader family, and qualification window; then evaluate all eleven Pillar coordinates. If a Pillar seems unaffected, give it a value and a short rationale saying what is preserved.
 
 What goes wrong if missed: FPF can become locally polished but globally worse. Readers may find fewer useful entry points, precision repairs may erase the working move, source rows can turn decorative, or several patterns can grow local variants of the same doctrine.
 
-Primary EntityOfConcern in plain terms: the scoped FPF object under improvement as an `E.2` Pillar-realizing language object.
+Primary EntityOfConcern: the scoped FPF object under improvement as an `E.2` Pillar-realizing language object.
 

@@ -6,21 +6,19 @@ section_id: "A.8:3"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.8/A.8__006_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.8 — Universal Core Principle: Test a U-Kind Across Domains"
   - "A.8:3 — Solution"
-line_start: 26457
-line_end: 26490
+line_start: 27443
+line_end: 27478
 dependencies:
   - "A.11"
   - "C.3"
   - "C.3.1"
   - "E.24.UK"
-  - "F.17"
   - "F.18"
   - "F.8"
-  - "F.9"
 keywords:
   - "domain-agnostic"
   - "kernel-level U-kind admission"
@@ -33,7 +31,9 @@ keywords:
 Recover the basis for the three-domain falsification test through `E.24.UK`:
 
 - **Already admitted kind.** Use its applicable accepted admission result and the candidate facts it establishes. Reconsider kernel placement at the claimed scope; an unchanged, still-applicable admission does not need to be repeated.
-- **New admission proposal.** Use the independent candidate inputs of the shared decision in `E.24:4.0a`: governed individuals, proposed membership or identity rule, intended extent, nearest non-member and receiving use. Complete the A.8 test alongside the other applicable admission tests, before E.24.UK closes the decision. The projections provide evidence for the core-placement claim; the complete E.24.UK test decides admission.
+- **New admission proposal.** Use the independent candidate inputs of the shared decision in `E.24:4.0a`: governed individuals, proposed membership or identity rule, intended extent, nearest non-member and receiving use.
+
+  Complete the A.8 test alongside the other applicable admission tests, before E.24.UK closes the decision. The projections provide evidence for the core-placement claim; the complete E.24.UK test decides admission.
 
 In either case, the candidate description and the domain evidence must support the comparison independently of the conclusion being sought.
 
@@ -49,7 +49,7 @@ Use the following fields to make each projection inspectable. Equivalent prose o
 ```text
 UniversalCoreProjection:
   CandidateUKind:
-  UKindAdmissionResultRef: exact accepted E.24.UK output, when available; follow it to the shared decision only when common inputs or decision mode are needed.
+  UKindAdmissionResultRef: accepted E.24.UK output, when available; follow it to the shared decision only when common inputs or decision mode are needed.
   DomainFamily:
   DomainTerm:
   LocalEoC:

@@ -6,12 +6,12 @@ section_id: "C.19:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__002_use-this-when.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:0 — Use this when"
-line_start: 61460
-line_end: 61496
+line_start: 63913
+line_end: 63949
 dependencies:
   - "A.10"
   - "A.19.CPM"
@@ -22,13 +22,7 @@ dependencies:
   - "C.16"
   - "C.17"
   - "C.18"
-  - "C.19"
-  - "C.22.PFR"
   - "C.24"
-  - "C.28"
-  - "C.32"
-  - "C.32.P2S"
-  - "C.35"
   - "E.10.LRN"
   - "E.17"
   - "E.24.PUB"
@@ -56,7 +50,7 @@ keywords:
 Use C.19 when several candidate lines, family regions or frontier segments remain live and the question is how to treat that pool: widen exploration, keep the frontier, narrow to a subset or sunset a line. Name the governing policy and what would justify changing the treatment. Use C.11 when the remaining question is a local choice among fixed options.
 
 
-If a proposed pool-policy premise is expressed as *learning progress*, information gain, novelty, or an articulated former cue, recover its exact result owner first. Use `E.10.LRN` only while learning wording hides that result, `A.10` when the needed evidence or source basis requires a replayable account, `C.17` or `C.18` only when characterization or possibility-space change is current, `C.11.CRC` only when a finite configuration-relative comparison is missing, and `C.11` for local option or probe choice. Stop before C.19 unless the remaining question is policy over a still-live pool.
+If a proposed pool-policy premise is expressed as *learning progress*, information gain, novelty, or an articulated former cue, recover its result owner first. Use `E.10.LRN` only while learning wording hides that result, `A.10` when the needed evidence or source basis requires a replayable account, `C.17` or `C.18` only when the question concerns characterization or possibility-space change, `C.11.CRC` only when a finite configuration-relative comparison is missing, and `C.11` for local option or probe choice. Stop before C.19 unless the remaining question is policy over a live pool.
 
 #### C.19:0.1 - What goes wrong if missed
 
@@ -72,19 +66,19 @@ If a proposed pool-policy premise is expressed as *learning progress*, informati
 
 #### C.19:0.3 - First-minute questions
 
-- Which still-live pool, frontier segment, or family region is actually under governance now?
+- Which live pool, frontier segment, or family region is under governance?
 - Which lens or policy state is governing it?
 - Is the next admissible pool treatment to widen, keep the frontier, narrow to a subset, or sunset a line?
-- If none of those treatments is current, which subject pattern now applies, and why is the question no longer pool policy?
+- If the question concerns none of those treatments, which subject pattern applies, and why is it no longer pool policy?
 - What justifies active exploration or cheaper retention now, and what change would end that justification? Readiness for exploitation is a separate question.
 
 #### C.19:0.4 - First output
 
-For loop-engineering practice, use this first output only when the live question is pool policy over still-live candidates such as loops, harnesses, workflows, method families, or framework seeds. A `C.19` record may say that the pool should widen, keep its frontier, narrow to an internal subset, or sunset a line under a declared lens. If the question leaves pool policy, retain the established result or qualified open question and use the handoff in `C.19:4.4`.
+For loop-engineering practice, use this first output only when the question is pool policy over live candidates such as loops, harnesses, workflows, method families, or framework seeds. A `C.19` record may say that the pool should widen, keep its frontier, narrow to an internal subset, or sunset a line under a declared lens. If the question leaves pool policy, retain the established result or qualified open question and use the handoff in `C.19:4.4`.
 
 The first useful output states the live pool, governing lens or policy, treatment and the event that would justify changing it. A sufficient ordinary explanation can complete that result. When recording it for reuse, use `governingLens` and one `currentTreatment` token from the closed set `widen | keep_frontier | narrow_to_subset | sunset_line`. If another question has become current, set `nextQuestionPatternLocator` from `C.19:4.4` instead of inventing another `currentTreatment`.
 
 A claim-bearing account of the pool treatment is an episteme under `C.2.1`; identify its EntityOfConcern and claim content when that identity matters. An existing adequate account can supply it.
 
-Use `C.19:4.4` when the next question leaves pool treatment. If the account cannot identify the pool, policy, treatment and relevant change trigger, state the missing basis; that pool-policy question remains open.
+If the account cannot identify the pool, policy, treatment and relevant change trigger, state the missing basis; that pool-policy question remains open.
 

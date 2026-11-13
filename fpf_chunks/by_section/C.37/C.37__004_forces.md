@@ -6,12 +6,12 @@ section_id: "C.37:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37/C.37__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.37 — Select and Use Representations for One Action"
   - "C.37:3 — Forces"
-line_start: 81745
-line_end: 81755
+line_start: 85736
+line_end: 85746
 dependencies:
   - "A.10"
   - "A.2.4"
@@ -42,7 +42,7 @@ keywords:
 | --- | --- |
 | Useful foregrounding vs visible loss | A representation helps by emphasizing some distinctions, but the same emphasis can hide uncertainty, conditions, or alternative readings. |
 | Cross-kind comparison vs direct authority | Candidate results may be diagrams, plans, records, views, or mathematical objects, while each keeps a different identity and obtaining rule. |
-| Cheap orientation vs bounded reliance | Reversible inspection may need only a direct result and limit; consequential use may require an exact A.10 path and disposition. |
+| Cheap orientation vs bounded reliance | Reversible inspection may need only a direct result and limit; consequential use may require an A.10 path and disposition. |
 | Co-use vs invented whole | Several candidates may be needed for one action without forming a collection, structure, composite view, or unified world account. |
 | Stable source vs changing action | The same candidate can be selected for one action and declined for another because the relied-on claim and tolerated loss differ. |
 | Clear decision support vs borrowed authority | The account must help a decision without becoming the choice, gate, permission, authorization, assurance, or domain result. |

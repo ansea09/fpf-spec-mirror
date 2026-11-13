@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.9"
-pattern_title: "Cross-Context Sameness Disambiguation - Restoring the concrete claim behind \"same\", \"equivalent\", and \"align\" (RPR-XCTX)"
+pattern_title: "Cross-Context Sameness Disambiguation - Restoring the claim behind \"same\", \"equivalent\", and \"align\" (RPR-XCTX)"
 section_id: "A.6.9:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.9/A.6.9__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.6.9 — Cross-Context Sameness Disambiguation - Restoring the concrete claim behind \"same\", \"equivalent\", and \"align\" (RPR-XCTX)"
+  - "A.6.9 — Cross-Context Sameness Disambiguation - Restoring the claim behind \"same\", \"equivalent\", and \"align\" (RPR-XCTX)"
   - "A.6.9:1 — Problem frame"
-line_start: 24519
-line_end: 24537
+line_start: 25440
+line_end: 25458
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -59,11 +59,11 @@ keywords:
 
 Cross-context prose routinely compresses a multi-part claim into one adjective: *same*, *equivalent*, *align*, *map*, *matches*, or *corresponds*.
 
-First decide whether this is a Bridge situation at all. A positive F.9 case has two exact F.17 `SchemeSenseCell` endpoints whose `<ReferenceScheme, LocalSenseClaim>` projections differ, plus an applicable relation-semantic profile whose predicate is true for those cells. Labels, identifiers, systems, mapping implementations, selected structures, cards, and publications may help identify endpoints or support the predicate; none by itself supplies a resolved endpoint or makes the profile predicate true.
+First decide whether this is a Bridge situation at all. A positive F.9 case has two F.17 `SchemeSenseCell` endpoints whose `<ReferenceScheme, LocalSenseClaim>` projections differ, plus an applicable relation-semantic profile whose predicate is true for those cells. Labels, identifiers, systems, mapping implementations, selected structures, cards, and publications may help identify endpoints or support the predicate; none by itself supplies a resolved endpoint or makes the profile predicate true.
 
 If a Bridge obtains, several questions still remain independent:
 
-* what concrete comparison, substitution, translation, explanation, publication, or other use is proposed;
+* what comparison, substitution, translation, explanation, publication, or other use is proposed;
 * the direction of that use;
 * the use-specific correspondence rule;
 * the semantic-loss tolerance for that use;
@@ -72,5 +72,5 @@ If a Bridge obtains, several questions still remain independent:
 * whether separate authorization is required; and
 * whether any Work, assertion, publication, relation, operation application, or other receiving object actually occurred.
 
-A.6.9 makes that dispatch visible. It prevents an explanation, mapping witness, score, or polished card from becoming global identity, authorization, or proof of performance.
+A.6.9 makes that dispatch visible. It prevents an explanation, mapping witness, score, or card from becoming global identity, authorization, or proof of performance.
 

@@ -6,12 +6,12 @@ section_id: "B.5.2:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2/B.5.2__010_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.5.2 — Generate and Compare Candidate Explanations (Abductive Loop)"
   - "B.5.2:9 — Consequences"
-line_start: 49713
-line_end: 49721
+line_start: 51775
+line_end: 51783
 dependencies:
   - "A.10"
   - "A.16"
@@ -29,8 +29,8 @@ keywords:
 
 | Benefit | Trade-off / Mitigation |
 |---|---|
-| **Disciplined generativity.** Abduction stays inventive without collapsing into formless conjecturing. | Requires explicit prompt and filter publication; mitigation: the required record can remain lightweight. |
+| **Disciplined generativity.** Abduction stays inventive without collapsing into formless conjecturing. | Requires prompt and filter publication; mitigation: the required record can remain lightweight. |
 | **Traceable hypothesis origin.** Later review can reconstruct why a conjecture entered the reasoning cycle. | Adds a small provenance-support load; mitigation: reuse prompt and candidate-set notes from adjacent patterns. |
-| **Cleaner downstream use.** A hypothesis-bearing episteme gives the receiving question its scope, rivals, support and limitations. | A candidate can remain useful without being confirmed or receiving a universal level; a stronger claim still needs its own evidence. |
-| **Admissible reopening.** Rival candidates can be revisited when later work undermines the selected prime hypothesis. | Demands editorial discipline so that abandoned rivals remain legible rather than silently vanishing. |
+| **Downstream use.** A hypothesis-bearing episteme gives the receiving question its scope, rivals, support and limitations. | A candidate can remain useful without being confirmed or receiving a universal level; a stronger claim needs its evidence. |
+| **Admissible reopening.** Rival candidates can be revisited when later work undermines the selected prime hypothesis. | Demands editorial discipline so that abandoned rivals remain legible rather than vanishing. |
 

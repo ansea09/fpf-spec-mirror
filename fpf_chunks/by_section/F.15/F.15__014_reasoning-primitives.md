@@ -6,12 +6,12 @@ section_id: "F.15:12"
 section_title: "Reasoning primitives"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__014_reasoning-primitives.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Naming and Semantic Unification"
   - "F.15:12 — Reasoning primitives"
-line_start: 123674
-line_end: 123704
+line_start: 131504
+line_end: 131536
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -69,7 +69,9 @@ changedMemberResult(priorRef, laterRef, rscrRef, continuityOrChangeClaim, losses
   = one exact C.2.1 result claim after the rule application and its evidence are recoverable.
 ```
 
-`changedSliceOK(...)` may summarize only exact current changed-member results that pass for the named receiving use; `fail` or `undetermined` leaves the affected use unadmitted. Unchanged members reuse prior results after a direct contradiction check; one changed member does not trigger a full-slice rerun unless its dependencies invalidate the other results.
+`changedSliceOK(...)` may summarize only exact current changed-member results that pass for the named receiving use; `fail` or `undetermined` leaves the affected use unadmitted.
+
+Reuse prior results for unchanged members after a direct contradiction check. One changed member does not trigger a full-slice rerun unless its dependencies invalidate the other results.
 
 ```text
 failedRule(ruleRef, subjectClaimRef)

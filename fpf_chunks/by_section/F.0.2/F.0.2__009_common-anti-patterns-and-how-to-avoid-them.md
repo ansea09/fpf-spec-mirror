@@ -6,12 +6,12 @@ section_id: "F.0.2:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2/F.0.2__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.0.2 — Semantic Synthesis across Source Ontologies"
   - "F.0.2:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 118169
-line_end: 118179
+line_start: 125759
+line_end: 125769
 dependencies:
   - "A.2.4"
   - "C.2.1"
@@ -37,7 +37,7 @@ keywords:
 | Anti-pattern | What fails | Repair |
 | --- | --- | --- |
 | Crosswalk as synthesis | Candidate correspondences are presented without a receiving claim or practical action. | State the receiving question, compare action-changing differences, and write one of the three result claims. |
-| Similar words as one concept | Lexical resemblance hides different entities, relations, or explanatory roles. | Restore source-local claims through `F.0.1`; add an `F.9` Bridge only for the relation actually asserted. |
+| Similar words as one concept | Lexical resemblance hides different entities, relations, or explanatory roles. | Restore source-local claims through `F.0.1`; add an `F.9` Bridge only for a relation the comparison asserts. |
 | Literature narrative without a move | Sources are summarized but no authoring decision changes. | State the proposed practitioner action and first result, or close with a contrast or unresolved inquiry. |
 | Framework fit as assurance | Material is forced into the receiving ontology and fit is treated as truth. | Keep non-fit visible and separate authoring proposal, evidence use, admission, and reliance. |
 | Missing source as falsity | An unavailable or weak source is used to reject the disputed claim. | Make the bounded inquiry state the EntityOfConcern and name the source action that may close it. |

@@ -6,12 +6,12 @@ section_id: "C.39.WI:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.WI/C.39.WI__013_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.39.WI — Discover Worthwhile Method Improvements"
   - "C.39.WI:12 — Relations"
-line_start: 84132
-line_end: 84141
+line_start: 88287
+line_end: 88296
 dependencies:
   - "C.11.DUA"
   - "C.11.MV"

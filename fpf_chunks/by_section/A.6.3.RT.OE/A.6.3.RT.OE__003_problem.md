@@ -6,12 +6,12 @@ section_id: "A.6.3.RT.OE:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT.OE/A.6.3.RT.OE__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.3.RT.OE — Construct an Operative Expression"
   - "A.6.3.RT.OE:2 — Problem"
-line_start: 19037
-line_end: 19044
+line_start: 19896
+line_end: 19903
 dependencies:
   - "A.6.3.RT"
   - "B.5.RA"
@@ -30,5 +30,5 @@ Content can be present while its useful relations remain difficult to recover. A
 
 Making the expression visually tidy can preserve that difficulty. Changing its arrangement can also suggest a relation that the source never supplied: equality through aligned marks, precedence through left-to-right position, or simultaneous action through matching rows.
 
-The task is to prepare the expression so that the needed operation can be carried out under its actual conventions, while retaining the content and qualifications that the operation uses.
+The task is to prepare the expression so that the needed operation can be carried out under its conventions, while retaining the content and qualifications that the operation uses.
 

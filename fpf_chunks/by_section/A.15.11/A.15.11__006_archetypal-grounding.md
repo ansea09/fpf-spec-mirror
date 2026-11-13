@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.15.11"
-pattern_title: "Make Applicable Methods Noticeable in Work"
+pattern_title: "Make Methods Noticeable in Work"
 section_id: "A.15.11:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.11/A.15.11__006_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.15.11 — Make Applicable Methods Noticeable in Work"
+  - "A.15.11 — Make Methods Noticeable in Work"
   - "A.15.11:5 — Archetypal Grounding"
-line_start: 32748
-line_end: 32787
+line_start: 34098
+line_end: 34145
 dependencies:
   - "A.15"
   - "A.15.7"
@@ -46,9 +46,11 @@ Now change the report case: the new report is needed for an already accepted con
 
 An organization has an instruction for examining how data were recorded. Its assistant usually starts fitting a model as soon as a table arrives. The column label “measurement” does not reveal that some entries are selected or censored.
 
-At the existing model-review step, the organization makes a question available: “What procedure produced each kind of record, including values omitted or reported only as bounds?” In this example the data documentation says that an entry “below 5” records any value under the instrument's reporting threshold. The assistant obtains the relevant modeling instruction. For that record, it evaluates the proposed model's probability of a value below 5 instead of treating 5 as an observed value.
+At the existing model-review step, the organization makes a question available: “What procedure produced each kind of record, including values omitted or reported only as bounds?” In this example the data documentation says that an entry “below 5” records any value under the instrument's reporting threshold.
 
-If the documentation instead says that values below 5 are absent from the dataset, the receiving calculation changes. The cue has exposed a condition to investigate; the modeling method determines the calculation. If documentation is unavailable, the result is a specific missing fact, not a guessed observation procedure.
+The assistant obtains the relevant modeling instruction. For that record, it evaluates the proposed model's probability of a value below 5 instead of treating 5 as an observed value.
+
+If the documentation instead says that values below 5 are absent from the dataset, the receiving calculation changes. The cue has exposed a condition to investigate; the modeling method determines the calculation. If documentation is unavailable, the result is a missing fact, not a guessed observation procedure.
 
 The assistant's access to this question is part of the configured work. This case establishes neither parameter learning nor recognition without the provided question.
 
@@ -56,13 +58,19 @@ The assistant's access to this question is part of the configured work. This cas
 
 During a familiar dance figure, a learner remembers the sequence and follows the rhythm in a simpler version, but loses balance during a turn. At an agreed pause, the teacher asks the learner to compare the two versions and identify where continuing the figure becomes difficult.
 
-The cue makes a coordination question available. It does not establish the cause of the loss or supply the bodily method that would repair it. The teacher now needs a movement-practice method for examining the loss of balance and choosing a suitable exercise within the learner's limits. After practice, the relevant return is to the figure with its rhythm, balance and partner relations occurring together.
+The cue makes a coordination question available. It does not establish the cause of the loss or supply the bodily method that would repair it.
 
-Repeating “notice your balance” is unhelpful once the learner already recognizes the difficulty. The next contribution lies in acquisition or execution, not in making the question more prominent. For an artificial performer, the corresponding next contribution must be selected from its own sensing, control and learning methods; a human first-person instruction is not automatically an executable robot instruction.
+The teacher now needs a movement-practice method for examining the loss of balance and choosing a suitable exercise within the learner's limits. After practice, the relevant return is to the figure with its rhythm, balance and partner relations occurring together.
+
+Repeating “notice your balance” is unhelpful once the learner already recognizes the difficulty. The next contribution lies in acquisition or execution, not in making the question more prominent.
+
+For an artificial performer, the corresponding next contribution must be selected from its sensing, control and learning methods; a human first-person instruction is not automatically an executable robot instruction.
 
 #### A.15.11:5.4 - A checklist supports a handover without claiming completeness
 
 A laboratory's existing handover requires the recipient to know which sample each result concerns. A short execution check asks the producer to compare the identifiers on the result and the specimen record before transfer. The action for an unresolved match is to recover that correspondence before using the result; a tick without that comparison supplies no assurance.
 
-The identifier check can pass while the recipient still cannot use the result because its unit or measurement condition is unclear. The handover therefore leaves room to name a concern outside the listed checks and obtain the relevant explanation. B.5.PI helps develop the question if neither person can yet state it. The checklist remains useful for its selected condition; it is not enlarged into a claim that every possible problem has been excluded.
+The identifier check can pass while the recipient cannot use the result because its unit or measurement condition is unclear. The handover therefore leaves room to name a concern outside the listed checks and obtain the relevant explanation. B.5.PI helps develop the question if neither person can yet state it.
+
+The checklist remains useful for its selected condition; it is not enlarged into a claim that every possible problem has been excluded.
 

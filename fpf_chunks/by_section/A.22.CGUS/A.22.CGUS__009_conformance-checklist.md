@@ -6,12 +6,12 @@ section_id: "A.22.CGUS:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22.CGUS/A.22.CGUS__009_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.22.CGUS — Which Continuations Are Available? — Constraint-Governed Unfolding Structure (CGUS)"
   - "A.22.CGUS:7 — Conformance Checklist"
-line_start: 40918
-line_end: 40929
+line_start: 42526
+line_end: 42537
 dependencies:
   - "A.10"
   - "A.15"
@@ -49,7 +49,7 @@ keywords:
 | --- | --- | --- |
 | **CC-CGUS-1 Identity and profile.** | The four A.22 discriminators identify one `U.Structure`; local locus bindings, relations, and constraints define at least two potential continuations across allowed cases. | Recover the missing value or keep the artifact as an explanation. |
 | **CC-CGUS-2 Local loci and relation participants.** | Every `CGUSLocusBinding` uses a locus declared inside this CGUS and binds one constituent for a stated meaning. A needed relation participant retains its definition, occurrence, order, and binding; `RelationSignature` and `SlotSpec` appear together only for declaration-level replay. | Restore the locus or complete relation-participant basis. Never use a free-standing `SlotSpec` as a structure position. |
-| **CC-CGUS-3 Explanation and description separation.** | An ordinary or persisted provisional explanation concerns the actual subject of its claims; this may be an already identified A.22 structure whose CGUS membership remains unresolved. Post-qualification descriptions and slices concern the CGUS. None is the structure or a membership condition. | Restore the right `EntityOfConcern` or keep the explanation ordinary. |
+| **CC-CGUS-3 Explanation and description separation.** | An ordinary or persisted provisional explanation concerns the subject of its claims; this may be an already identified A.22 structure whose CGUS membership remains unresolved. Post-qualification descriptions and slices concern the CGUS. None is the structure or a membership condition. | Restore the right `EntityOfConcern` or keep the explanation ordinary. |
 | **CC-CGUS-4 Current continuation result.** | Each judgement retains its basis rows with the values required by each applicable condition-evaluation or obtaining-relation branch in `4.2`, the relevant case inputs and facts or evidence, dependent occurrences, window, continuation result, and reason. The enabled set may contain zero, one, or several alternatives. | Apply the candidate’s condition logic; mark it unknown only when the missing value prevents deciding the result, and retain evaluation errors separately. |
 | **CC-CGUS-5 Separate decisions.** | Identity and membership, case result, description adequacy, and each neighboring claim are judged separately. | Reopen only the affected decision. |
 | **CC-CGUS-6 Work-order boundary.** | The selected structure and display expose branches and conditions. | Put any prescribed or performed Work order under the Method, work-plan, or Work pattern that establishes it. |

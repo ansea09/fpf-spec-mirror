@@ -6,12 +6,12 @@ section_id: "C.31.RSA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.RSA/C.31.RSA__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.31.RSA — Reusable Structure Accounting"
   - "C.31.RSA:4 — Solution"
-line_start: 75522
-line_end: 75658
+line_start: 78979
+line_end: 79121
 dependencies:
   - "A.10"
   - "A.19"
@@ -50,7 +50,7 @@ Begin with the result for which reuse matters: for example, delivering another p
 2. **Explain the differences that matter.** For each consequential difference, find the requirement, input, environmental condition or arrangement that it responds to. Inspect a contrasting instance and the relevant instruction or requirement; ask its provider what would fail if the difference were removed. If that answer is unknown, name the document, participant, observation or justified bounded replay that could distinguish the possibilities. Keep the dependent part unresolved while using the supported common parts.
 3. **State the reusable rule and its permitted variation.** Identify what can remain the same, which values or steps change, and under which conditions the resulting instance still supplies the required result. A necessary customer-specific approval or local adaptation may remain bespoke. A repeated workaround may instead expose a missing parameter, interface condition or Method step. Actual substitution, evidence validity and assurance claims retain their subject rules; resemblance between instances does not establish those claims.
 4. **Choose the next sufficient result.** The common rule, its reusable locus, necessary exceptions and any unresolved dependency may finish a qualitative account. If a repair is needed, use :4.5 to consider where to place the common structure, then follow the affected instance through to its receiving result to check the change and any new burden. A proposed refactoring is a C.32 candidate; the account can also support retaining the present arrangement.
-5. **Count only when the question needs a share.** Select the population, unit and reuse test from that question, then apply :4.1–:4.4. A count of template uses, a claim of valid evidence reuse and a claim that whole deliveries can share a Method answer different questions. Preserve the conditions and uncertainty of the one actually counted.
+5. **Count only when the question needs a share.** Select the population, unit and reuse test from that question, then apply :4.1–:4.4. A count of template uses, a claim of valid evidence reuse and a claim that whole deliveries can share a Method answer different questions. Preserve the conditions and uncertainty of the one counted.
 
 #### C.31.RSA:4.1 - Typed accounting description
 
@@ -109,7 +109,11 @@ HiddenOrResidualShare:
   report-only uncertainty or residue interpretation under accountingBasisRef
 ```
 
-Every numeric share needs its accounting rule, counted population and scale or unitless-value interpretation, with a unit when relevant. A comparison or ranking additionally needs aligned bases, preference direction when relevant, and its applicable comparator, such as `CG-Spec`, `ComparatorSetRef` or a governing comparator reference. A gate or decision needs that comparator only if its rule relies on such a comparison; it retains its own other requirements. A share with an established counting basis can remain a bounded local report when stronger reliance lacks grounds.
+Every numeric share needs its accounting rule, counted population and scale or unitless-value interpretation, with a unit when relevant.
+
+A comparison or ranking additionally needs aligned bases, preference direction when relevant, and its applicable comparator, such as `CG-Spec`, `ComparatorSetRef` or a governing comparator reference. A gate or decision needs that comparator only if its rule relies on such a comparison; it retains its own other requirements.
+
+A share with an established counting basis can remain a bounded local report when stronger reliance lacks grounds.
 
 #### C.31.RSA:4.4 - Pseudo-sum boundary
 
@@ -122,7 +126,7 @@ total-described-structure under accountingBasisRef:
   hidden or residual uncertainty slots
 ```
 
-This is a readable decomposition of one declared accounting description, not an equation defining an architecture amount. If the slots do not share a declared accounting basis and comparability rule, they cannot be summed or ranked.
+This is a decomposition of one declared accounting description, not an equation defining an architecture amount. If the slots do not share a declared accounting basis and comparability rule, they cannot be summed or ranked.
 
 #### C.31.RSA:4.5 - Structure-relocation actions
 
@@ -162,7 +166,7 @@ Develop the accounting rule and structure references when the question depends o
 
 #### C.31.RSA:4.7 - Reopen and lowering conditions
 
-An RSA result retains its declared scope, structure edition and accounting basis, together with source-return and comparator conditions on which its use actually depends. Reopen the triage or lower the admissible use when any of the following changes:
+An RSA result retains its declared scope, structure edition and accounting basis, together with source-return and comparator conditions on which its use depends. Reopen the triage or lower the admissible use when any of the following changes:
 
 - a hidden source distinction becomes action-relevant;
 - the accounting basis changes or proves heterogeneous;
@@ -173,5 +177,7 @@ An RSA result retains its declared scope, structure edition and accounting basis
 - recurrence changes a bounded exception's cost, conditions or justification;
 - a reuse move improves one locus while worsening interface cost, variation loss, evidence decay, assurance work, source-return cost, or hidden bespoke residue.
 
-Block the dependent comparison or ranking when its required comparator or aligned basis is missing; preserve a valid bounded report. For another gate or decision, recover the particular missing premise under its own rule. If the accounting basis is unknown, retain only the qualitative or source-only meaning actually supported. If reuse and residue cannot be distinguished at one locus, mark that part unresolved while preserving independently established parts.
+Block the dependent comparison or ranking when its required comparator or aligned basis is missing; preserve a valid bounded report. For another gate or decision, recover the missing premise under its own rule.
+
+If the accounting basis is unknown, retain only the qualitative or source-only meaning supported. If reuse and residue cannot be distinguished at one locus, mark that part unresolved while preserving independently established parts.
 

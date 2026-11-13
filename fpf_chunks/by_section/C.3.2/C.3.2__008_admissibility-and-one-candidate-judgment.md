@@ -6,12 +6,12 @@ section_id: "C.3.2:6"
 section_title: "Admissibility and One Candidate Judgment"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__008_admissibility-and-one-candidate-judgment.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.3.2 — Kind Intent, Membership Judgment, and Extension"
   - "C.3.2:6 — Admissibility and One Candidate Judgment"
-line_start: 55462
-line_end: 55485
+line_start: 57750
+line_end: 57773
 dependencies:
   - "A.14"
   - "A.2.6"
@@ -47,7 +47,7 @@ These are local result notations, not newly admitted kinds, A.14 membership occu
 6. **Distinguish condition from evidentiary use.** A measurement result, source episteme, certification, registration, publication occurrence, legal-status relation, or record may itself be a criterion condition only when the signature says so and that condition obtains under its direct pattern. Its mere use as evidence for some other condition creates neither that condition nor membership.
 7. **Separate guard disposition.** A guard checks admissibility, scope coverage, and any judgment as separate predicates. It may decline use on `not-applicable` or `unknown` without converting either to `false`.
 
-When a separate claim-bearing classification assertion is current, it is a C.2.1 episteme. Its content designates the candidate, kind, signature edition, slice, admissibility, any judgment, and relied-on support. Its exact `EntityOfConcern` is the governed entity about which classification matters; a value classification may stay in another claim's content rather than fabricating a value-shaped entity. The assertion creates neither candidate nor kind.
+When a separate claim-bearing classification assertion is current, it is a C.2.1 episteme. Its content designates the candidate, kind, signature edition, slice, admissibility, any judgment, and relied-on support. Its `EntityOfConcern` is the governed entity about which classification matters; a value classification may stay in another claim's content rather than fabricating a value-shaped entity. The assertion creates neither candidate nor kind.
 
-A domain that genuinely needs a durable classification-relation occurrence must supply a separate direct pattern with exact participants, obtaining condition, identity, and relation to these results. C.3.2 does not mint that occurrence.
+A domain that needs a durable classification-relation occurrence must supply a separate direct pattern with exact participants, obtaining condition, identity, and relation to these results. C.3.2 does not mint that occurrence.
 

@@ -6,12 +6,12 @@ section_id: "C.22.PFR:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.PFR/C.22.PFR__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.22.PFR — Problematic-For Relation"
   - "C.22.PFR:2 — Problem"
-line_start: 63391
-line_end: 63396
+line_start: 66041
+line_end: 66046
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -30,7 +30,7 @@ keywords:
 
 ### C.22.PFR:2 - Problem
 
-An actual Problem is neither a record nor a free-standing quality label. It depends on an actual condition and on a criterion that applies to one exact entity, scope, and interval. The relation obtains when the condition is on the adverse side of that applicable predicate.
+An actual Problem depends on an actual condition and on a criterion that applies to one entity, scope, and interval. It is neither a record nor a free-standing quality label. The relation obtains when the condition is on the adverse side of that applicable predicate.
 
-FPF needs one identity for this dependent evaluative relation without copying values defined by `ProblemCriterionApplicabilityRelation` into additional writable PFR slots. It also needs to distinguish continuous adverse episodes from repeated episodes while refusing to infer a recovery from missing observations or evidence.
+FPF needs one identity for this dependent evaluative relation without copying values defined by `ProblemCriterionApplicabilityRelation` into additional writable PFR slots. It also needs to distinguish continuous adverse episodes from repeated episodes without inferring a recovery from missing observations or evidence.
 

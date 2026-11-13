@@ -6,12 +6,12 @@ section_id: "B.5.2:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2/B.5.2__011_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.5.2 — Generate and Compare Candidate Explanations (Abductive Loop)"
   - "B.5.2:10 — Rationale"
-line_start: 49722
-line_end: 49725
+line_start: 51784
+line_end: 51787
 dependencies:
   - "A.10"
   - "A.16"

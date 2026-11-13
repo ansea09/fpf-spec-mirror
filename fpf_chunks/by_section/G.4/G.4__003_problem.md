@@ -6,12 +6,12 @@ section_id: "G.4:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.4/G.4__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.4 — CAL Authoring for a CG-Frame: Operators, Acceptance Clauses, Evidence Wiring"
   - "G.4:2 — Problem"
-line_start: 128686
-line_end: 128695
+line_start: 136737
+line_end: 136746
 dependencies:
   - "A.10"
   - "A.13"
@@ -60,7 +60,7 @@ keywords:
 
 A CAL Pack connects typed measurements to later selection and evaluation. Drift or ambiguity in that connection can produce:
 
-* **Illicit operations** slip in (implicit cardinalization, unit laundering, ordinal arithmetic).
+* **Illicit operations** include treating an encoding as cardinal without grounds, using incompatible units as if they agreed, and applying arithmetic that assumes intervals to ordinal values.
 * **Acceptance is scattered** (thresholds embedded in code or in CHR prose; predicates not typed; unknown handling inconsistent).
 * **Evidence wiring is underspecified** (which provenance anchors matter, what policy ids are in force, what is plane‑scoped, what changes must trigger refresh).
 * **Cross-sense or cross-plane imports are silent** (hidden reuse across distinct source-local meanings, ReferencePlanes, or editions without the obtaining relation, required crossing records, and loss accounting).

@@ -6,12 +6,12 @@ section_id: "G.13:8"
 section_title: "Conformance Checklist (CC‑G13; applies when G.13 surfaces are used)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.13/G.13__009_conformance-checklist-cc-g13-applies-when-g-13-surfaces-are-used.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.13 — External Interop Hooks for SoTA Discipline Packs (conceptual)"
   - "G.13:8 — Conformance Checklist (CC‑G13; applies when G.13 surfaces are used)"
-line_start: 133081
-line_end: 133113
+line_start: 141220
+line_end: 141254
 dependencies:
   - "A.18"
   - "A.19"
@@ -48,10 +48,10 @@ keywords:
 
 1. **CC‑G13‑CoreRef.** *(normative)* `G.13` implementations **MUST** satisfy the *effective* `G.Core` obligations declared by `G.13:4.1` (`GCoreLinkageManifest`), including trigger typing, Default Governing Definition Index citation, and crossing‑visibility pin discipline.
 
-2. **CC‑G13‑InteropIsNotASpecRefSurface.** *(delegated)* Interop surfaces cite the CN‑Spec/CG‑Spec/CHR/CAL definitions and pins applicable to their actual transformation and receiving use; they do not introduce shadow legality/comparability gates.
+2. **CC‑G13‑InteropIsNotASpecRefSurface.** *(delegated)* Interop surfaces cite the CN‑Spec/CG‑Spec/CHR/CAL definitions and pins applicable to their transformation and receiving use. They MUST NOT introduce separate legality or comparability gates.
    → delegate to `CC‑GCORE‑CN‑CG‑1`.
 
-3. **CC‑G13‑CrossingsAreExplicitWhenInteropTouchesPlanesOrContexts.** *(delegated)* Any cross‑plane/context reuse implied by alignment **MUST** be made explicit through the crossing visibility discipline.
+3. **CC‑G13‑CrossingsAreExplicitWhenInteropTouchesPlanesOrContexts.** *(delegated)* For reuse across planes or contexts, the alignment **MUST** identify the obtaining relation and the receiving-use and reliance grounds required by its governor. An independently applicable E.18 flow crossing or A.21 gate **MUST** retain its required visibility anchors.
    → delegate to `CC‑GCORE‑CROSS‑1`.
 
 4. **CC-G13-PlanePenaltyPoliciesArePinned.** *(local; governing-definition citing)* When a receiving use applies a numerical plane loss, interop surfaces **MUST** publish the relevant model and policy-id pins under the crossing-visibility discipline, and those policies **MUST** satisfy the constraints governed by `CG-Spec` (cite `CC-G0-Φ`). A `PlaneMapRef` alone supplies no loss model or penalty. Interop surfaces **MUST NOT** define interop-local penalty functions.
@@ -64,11 +64,11 @@ keywords:
 
 7. **CC‑G13‑EditionDisciplineForInteropCards.** *(local)* `ExternalIndexCard@Context` and `ClaimMapperCard@Context` **MUST** expose edition pins (`ExternalIndexRef.edition`, `ClaimMapperRef.edition`). Any interop surface published to UTS **MUST** cite the relevant `…Ref.edition` values (incl. `PlaneMapRef.edition?`, `ScaleEmbeddingSpecRef.edition?`) when present.
    FPF edition keys **MUST** appear only on `…Ref.edition` pins when a reference is present. Provider snapshot labels (e.g., `ExternalEdition` on `ExternalIndexCard@Context`) may exist on the source card, but **MUST NOT** be copied into downstream artefacts as free‑floating “edition fields”; downstream artefacts cite the corresponding `…Ref.edition` pins instead.
-   In particular, interop transforms **MUST NOT** perform illicit arithmetic on ordinal/compare‑only scales (e.g., averaging or subtraction); any aggregation must be via lawful CAL operators with explicit scale legality (cite `A.18` / `CC‑G0‑CSLC`).
+
 
 8. **CC‑G13‑SoSFeaturesAreCHRTypedAndLegal.** *(local; governing-definition citing)* If `SoSFeatureTransform@Context` is used, produced SoS features **MUST** be CHR‑typed via `FeatureTypingRefs{CharacteristicId/ScaleId/CoordinateId}` (governed by `G.3`) and any legality/units obligations must be satisfied via CSLC/CG governing definitions (cite `A.18` / `G.0` / `G.4`; do not invent interop‑local legality gates). When those features serve as DHC measurements, the use **MUST** consume C.16 measurement results; every persisted, compared, aggregated, or published coordinate **MUST** make its active C.21 `DHCReplayBasis` recoverable.
 
-9. **CC‑G13‑TelemetryEmitsCanonicalTriggerKinds.** *(delegated)* Interop‑driven changes (external edition bumps, mapping policy changes, plane‑map edits, embedding‑spec edits) **MUST** emit canonical `RSCRTriggerKindId` causes with explicit scope and payload pins.
+9. **CC‑G13‑TelemetryEmitsCanonicalTriggerKinds.** *(delegated)* Interop‑driven changes (external edition bumps, mapping policy changes, plane‑map edits, embedding‑spec edits) **MUST** emit canonical `RSCRTriggerKindId` causes with scope and payload pins.
    → delegate to `CC‑GCORE‑TRIG‑1`, `CC‑GCORE‑TRIG‑2`, `CC‑GCORE‑TRIG‑3`, `CC‑GCORE‑TRIG‑4`.
 
 10. **CC‑G13‑IDContinuityForExternallySourcedIdentifiers.** *(delegated)* Interop publication **MUST** follow Δ‑discipline: no “renaming by meaning”; use aliases/deprecations as required.
@@ -76,4 +76,6 @@ keywords:
 
 11. **CC‑G13‑NotationIndependence.** *(local)* Conformance is judged on the conceptual objects in `G.13:4.2`. Any serialisation is non‑normative and must not redefine semantics.
    *(Cites `E.5.2` for notation independence.)*
+
+Interop transforms **MUST NOT** perform illicit arithmetic on ordinal/compare‑only scales (e.g., averaging or subtraction); any aggregation must be via lawful CAL operators with explicit scale legality (cite `A.18` / `CC‑G0‑CSLC`).
 

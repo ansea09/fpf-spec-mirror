@@ -6,12 +6,12 @@ section_id: "F.12:11"
 section_title: "Extended worked examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.12/F.12__012_extended-worked-examples.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.12 — Evaluate Promise Fulfilment from Work Evidence (Service Acceptance)"
   - "F.12:11 — Extended worked examples"
-line_start: 122692
-line_end: 122709
+line_start: 130457
+line_end: 130480
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -51,15 +51,21 @@ keywords:
 
 #### F.12:11.1 - CDN latency by region
 
-Promise content: p95 end-user latency ≤ 200 ms per region per month. Delivery Work population: delivery occurrences per region in that month. Evidence: response-time observations tagged by region and path. If probes measure the promised characteristic directly, use C.16 and A.10 without a proxy. If they indicate a distinct user-experience characteristic, name the exact probe-to-user relation, its defining or testing pattern, and last-mile loss. Evaluation Work returns one result per region on the declared scale. A global all-regions statement is a separate logical aggregation of those results or statuses, not a property of a table row.
+Promise content: p95 end-user latency ≤ 200 ms per region per month. Delivery Work population: delivery occurrences per region in that month. Evidence: response-time observations tagged by region and path. If probes measure the promised characteristic directly, use C.16 and A.10 without a proxy. If they indicate a distinct user-experience characteristic, name the exact probe-to-user relation, its defining or testing pattern, and last-mile loss.
+
+Evaluation Work returns one result per region on the declared scale. A global all-regions statement is a separate logical aggregation of those results or statuses, not a property of a table row.
 
 #### F.12:11.2 - Stroke care door-to-needle
 
-Promise content: at least 90% of in-scope ischemic-stroke episodes achieve door-to-needle ≤ 30 minutes in the quarter. Delivery Work population: patient-episode care occurrences. Evidence: observations of defined door and needle events. Evaluation Work binds those events, counts qualifying episodes, divides by the eligible population, and returns the declared result. Missing triage tags or event ambiguity may support `EvidenceStatus=Inconclusive` and leave `RequirementStatus=Pending`, or produce the exact local result declared by the acceptance scale.
+Promise content: at least 90% of in-scope ischemic-stroke episodes achieve door-to-needle ≤ 30 minutes in the quarter. Delivery Work population: patient-episode care occurrences. Evidence: observations of defined door and needle events. Evaluation Work binds those events, counts qualifying episodes, divides by the eligible population, and returns the declared result.
+
+Missing triage tags or event ambiguity may support `EvidenceStatus=Inconclusive` and leave `RequirementStatus=Pending`, or produce the exact local result declared by the acceptance scale.
 
 #### F.12:11.3 - Cold-chain warehouse
 
-Promise content: product temperature remains in `[2,8] °C` for at least 99.5% of each day. Delivery Work: the daily storage occurrence or defined population. Evidence: calibrated thermistor observations. First ask whether the measurement model directly concerns product exposure. If sensor position indicates another characteristic, name the exact indicator relation and its stratification loss or stop at `missing-governor`. Evaluation Work returns in-band covered time divided by in-scope time on the declared scale. Any result assertion, RequirementStatus, evidence use, and material reliance statement retain the indicator limit separately.
+Promise content: product temperature remains in `[2,8] °C` for at least 99.5% of each day. Delivery Work: the daily storage occurrence or defined population. Evidence: calibrated thermistor observations. First ask whether the measurement model directly concerns product exposure. If the measurement concerns another characteristic, such as air temperature at the sensor, establish its indicator relation to product temperature and account for stratification loss. Return `missing-governor` if no rule defines or tests that relation. Otherwise apply the rule with the available coverage.
+
+For each day, apply the coverage rule and divide the covered in-band time by the in-scope time. Compare that fraction with the 99.5% requirement and report the result on the declared acceptance scale. If an indicator was used, retain its limit separately in any result assertion, RequirementStatus, evidence use and material reliance statement.
 
 #### F.12:11.4 - SaaS incident restoration duration
 

@@ -6,12 +6,12 @@ section_id: "A.19.SPR:8"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SPR/A.19.SPR__010_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.19.SPR — Repair State and Status Wording"
   - "A.19.SPR:8 — Relations"
-line_start: 35497
-line_end: 35512
+line_start: 36999
+line_end: 37014
 dependencies:
   - "A.10"
   - "A.16"
@@ -48,11 +48,11 @@ keywords:
 | Pattern | Contribution |
 | --- | --- |
 | `E.10`, `E.10.ARCH` | Recognize the wording problem and keep one shared restoration architecture. |
-| `E.10.MOVE` | Resolves ambiguous readiness-like wording before it exits to A.19.SPR or a direct pattern. |
+| `E.10.MOVE` | Resolves ambiguous readiness-like wording before it exits to A.19.SPR or the pattern governing the recovered claim. |
 | `A.2.5`, `A.15.5` | Distinguish assignment-state predicate, world-side relation, assertion episteme, and the separate work-entry readiness result. |
-| `A.19`, `A.3.3`, `C.16.P` | Define characteristic-space, dynamics, and characteristic or scale claims when those are the actual subject. |
+| `A.19`, `A.3.3`, `C.16.P` | Define characteristic-space, dynamics, and characteristic or scale claims when those are the subject. |
 | `C.2.P`, `C.2.2a`, `A.16.*`, `E.17`, `E.24.PUB` | Define source, language-state and publication claims, including the separate publication-availability occurrence. |
-| `A.10`, `B.3` | `A.10` recovers provenance and bounded reliance; `B.3` governs assurance claims. Each support relation retains its direct defining pattern. |
+| `A.10`, `B.3` | `A.10` recovers provenance and bounded reliance; `B.3` governs assurance claims. Each support relation retains its defining pattern. |
 | `A.20`, `A.21` | Define constraint or adjudication results and distinct gate decisions. |
 | `C.27`, `C.29` | Define temporal-claim and mathematical-lens uses, including their local fields. |
 | `E.9.DA`, `E.21`, `E.19` | Define DRR adequacy, pattern-quality results, and review or admission profiles. |

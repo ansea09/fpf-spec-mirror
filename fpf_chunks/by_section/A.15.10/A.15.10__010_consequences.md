@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.15.10"
-pattern_title: "Resume Interrupted Work"
+pattern_title: "Resume Work"
 section_id: "A.15.10:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.10/A.15.10__010_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.15.10 — Resume Interrupted Work"
+  - "A.15.10 — Resume Work"
   - "A.15.10:9 — Consequences"
-line_start: 32595
-line_end: 32600
+line_start: 33927
+line_end: 33932
 dependencies:
   - "A.15"
   - "A.15.5"

@@ -6,12 +6,12 @@ section_id: "F.11:1"
 section_title: "Intent & applicability"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__002_intent-applicability.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.11 — Distinguish Method, MethodDescription, Work and Outputs"
   - "F.11:1 — Intent & applicability"
-line_start: 122299
-line_end: 122313
+line_start: 130034
+line_end: 130048
 dependencies:
   - "A.13"
   - "A.15"
@@ -49,7 +49,7 @@ keywords:
 
 1. What **`U.Method`**, the way of doing, is meant?
 2. What **`U.MethodDescription`**, the episteme whose one exact `EntityOfConcern` is that Method, is being used?
-3. What dated **`U.Work`** actually occurred?
+3. What dated **`U.Work`** occurred?
 4. Did that Work produce a domain-specific output that matters to this claim?
 
 These questions are a reading aid, not a universal four-kind ontology. The fourth answer is whatever value and relation its direct control or transformation pattern defines; F.11 does not mint a universal `U.Actuation` kind.

@@ -6,12 +6,12 @@ section_id: "A.1:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1/A.1__012_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.1 — Recognize a Whole with Parts (U.Holon and Admitted Holon Kinds)"
   - "A.1:10 — Rationale"
-line_start: 2860
-line_end: 2869
+line_start: 2904
+line_end: 2913
 dependencies:
   - "A.1.1"
   - "A.1.STM"
@@ -36,11 +36,11 @@ keywords:
 
 ### A.1:10 - Rationale
 
-A.1 prevents category errors by separating individuation, constructive part-whole recognition, acting eligibility, and claim-bearing. `U.Entity` gives the minimal referenceable object. `U.Holon` adds six separately recoverable constructive components: exact candidate, exact constituents, exact part relations and assembly, reidentification, a composition-grounded whole-level characteristic, and compatible possible participation in a governed larger assembly. `U.System` adds acting eligibility. `U.Episteme` adds claim-bearing structure without agentivity. `U.Work` and `U.Discipline` are holon-kind examples only through their subject patterns; `BoundedModelUseStructure` is selected `U.Structure`, not another holon kind.
+A.1 prevents category errors by separating individuation, constructive part-whole recognition, acting eligibility, and claim-bearing. `U.Entity` gives the minimal referenceable object. `U.Holon` adds six separately recoverable constructive components: candidate, constituents, part-relation occurrences and assembly, reidentification, a composition-grounded whole-level characteristic, and compatible possible participation in a governed larger assembly. `U.System` adds acting eligibility. `U.Episteme` adds claim-bearing structure without agentivity. `U.Work` and `U.Discipline` are holon-kind examples only through their subject patterns; `BoundedModelUseStructure` is selected `U.Structure`, not another holon kind.
 
-The recognition base cannot depend on a prior context object without recursion. It begins with the exact candidate and world-side construction facts. Public-kind admission is the separate one-time `E.24.UK` decision. Classification work evaluates what its available inputs establish about those facts and may return `true`, `false`, or `unknown`; the evaluation and its record remain distinct from the construction and identity being judged.
+The recognition base cannot depend on a prior context object without recursion. It begins with the candidate and world-side construction facts. Public-kind admission is the separate one-time `E.24.UK` decision. Classification work evaluates what its available inputs establish about those facts and may return `true`, `false`, or `unknown`; the evaluation and its record remain distinct from the construction and identity being judged.
 
-This also prevents ontology duplication. A theory under concern, a theory description, a publication of that description, and the system that edits the publication can all be named without turning the filling of one participant slot into a new kind. Architecture likewise starts from the exact holon recognized under an admitted kind whose selected structures matter; diagrams and structure descriptions remain epistemes.
+This also prevents ontology duplication. A theory under concern, a theory description, a publication of that description, and the system that edits the publication can all be named without turning the filling of one participant slot into a new kind. Architecture likewise starts from the holon recognized under an admitted kind whose selected structures matter; diagrams and structure descriptions remain epistemes.
 
 The constructional stance is conservative: FPF avoids unrestricted composition and uses A.14 and C.13 before a part-whole claim is relied on for another claim or work occurrence; B.3.5 is added only when a named assurance use elects its profile. This keeps holonic thinking useful without letting every collection, expression, graph, selected structure, or source label become a holon.
 

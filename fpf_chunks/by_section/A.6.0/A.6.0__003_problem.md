@@ -6,12 +6,12 @@ section_id: "A.6.0:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.0/A.6.0__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.0 — U.Signature - Reusable Law-Governed Declaration Episteme"
   - "A.6.0:2 — Problem"
-line_start: 16247
-line_end: 16258
+line_start: 16866
+line_end: 16877
 dependencies:
   - "A.15.1"
   - "A.17"
@@ -43,7 +43,7 @@ keywords:
 
 ### A.6.0:2 - Problem
 
-FPF uses a signature when the episteme itself performs the reusable declaration job above: it identifies the declared subject and value or result range, supplies terms and laws another use may rely on, and says where those laws apply. Current non-exhaustive declaration families include theory or `A.3.3 U.Dynamics` epistemes, mechanism or `A.19.SelectorMechanism` declarations, method-kind declarations, formal substrates, and direct relation-kind declarations. Without one precise ontic:
+FPF uses a signature when the episteme itself performs the reusable declaration job above: it identifies the declared subject and value or result range, supplies terms and laws another use may rely on, and says where those laws apply. Current non-exhaustive declaration families include theory or `A.3.3 U.Dynamics` epistemes, mechanism or `A.19.SelectorMechanism` declarations, method-kind declarations, formal substrates, and direct relation-kind declarations. Without an ontic definition of the declaration episteme:
 
 1. the signature is confused with the entity it describes;
 2. a relation declaration is confused with an obtaining relation occurrence;

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.RCD"
-pattern_title: "Needed Relation Claim Derivation and Relation-Kind Admission"
+pattern_title: "Relation Claim Derivation and Relation-Kind Admission"
 section_id: "A.6.RCD:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RCD/A.6.RCD__012_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.6.RCD — Needed Relation Claim Derivation and Relation-Kind Admission"
+  - "A.6.RCD — Relation Claim Derivation and Relation-Kind Admission"
   - "A.6.RCD:10 — Rationale"
-line_start: 21563
-line_end: 21568
+line_start: 22436
+line_end: 22441
 dependencies:
   - "A.11"
   - "A.6.0"
@@ -33,7 +33,7 @@ keywords:
 
 ### A.6.RCD:10 - Rationale
 
-Claim composition and relation-kind admission answer different engineering questions. A claim asks whether an exact predicate, possibly built from admitted base predicates, is satisfied for named referents. A relation kind classifies obtaining occurrences and therefore needs a rule for reidentifying those occurrences. Repetition of the first question can justify publication of the predicate rule; it does not answer the second.
+Claim composition and relation-kind admission answer different engineering questions. A claim asks whether a predicate, possibly built from admitted base predicates, is satisfied for named referents. A relation kind classifies obtaining occurrences and therefore needs a rule for reidentifying those occurrences. Repetition of the first question can justify publication of the predicate rule; it does not answer the second.
 
-The demand-first order is deliberately asymmetric. An adequate existing direct predicate avoids a new derivation because its definition already supplies the needed meaning. Local compound claims preserve expressive reach without public ontology cost. Predicate-definition epistemes prevent repeated derivations from drifting. Derived relation kinds add occurrence semantics only where named uses consume them. Primitive relation kinds remain available for irreducible distinctions rather than being prohibited by abstract minimalism.
+The demand-first order is asymmetric. An adequate existing direct predicate avoids a new derivation because its definition already supplies the needed meaning. Local compound claims preserve expressive reach without public ontology cost. Predicate-definition epistemes prevent repeated derivations from drifting. Derived relation kinds add occurrence semantics only where named uses consume them. Primitive relation kinds remain available for irreducible distinctions rather than being prohibited by abstract minimalism.
 

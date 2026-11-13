@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.19.CHR"
-pattern_title: "CHRMechanismSuite: Shared Rules for Characterization and Selection"
+pattern_title: "Shared Rules for Characterization and Selection"
 section_id: "A.19.CHR:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CHR/A.19.CHR__010_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.19.CHR — CHRMechanismSuite: Shared Rules for Characterization and Selection"
+  - "A.19.CHR — Shared Rules for Characterization and Selection"
   - "A.19.CHR:9 — Consequences"
-line_start: 37347
-line_end: 37355
+line_start: 38857
+line_end: 38865
 dependencies:
   - "A.15.2"
   - "A.15.3"
@@ -52,7 +52,7 @@ keywords:
 | Consequence | Upside | Cost / risk | Mitigation |
 |---|---|---|---|
 | Shared CHR contracts across uses | A later comparison can recover the same member declarations and joint conditions | Resolving the declarations and their editions takes effort | Reuse the baseline while its contracts and intended use remain applicable; keep method-specific choices in their governing descriptions |
-| Explicit P2W planned baseline | Makes planned editions, time selectors and applicable crossing references recoverable | Adds the baseline content needed by that path | Reuse adequate A.15.2 content; add a typed item only for an independently declared position |
-| Tri-state guard semantics | Avoids false precision and prevents unknown from silently passing | More conservative behavior can yield larger selected sets or more abstentions | Use explicit SoS‑LOG degrade branches for probe-only exploration while preserving traceability |
-| Spec pins, not copied spec content | Reduces drift and keeps CN‑Spec/CG‑Spec as real centers of gravity | Requires discipline in authoring and review | Enforce “refs-only” at suite/plan level and use conformance items CC‑A67CHR‑3 and CC‑A67CHR‑13 to keep the surface clean |
+| P2W planned baseline | Makes planned editions, time selectors and applicable crossing references recoverable | Adds the baseline content needed by that path | Reuse adequate A.15.2 content; add a typed item only for an independently declared position |
+| Tri-state guard semantics | Avoids false precision and prevents unknown from silently passing | More conservative behavior can yield larger selected sets or more abstentions | Use SoS‑LOG degrade branches for probe-only exploration while preserving traceability |
+| Spec pins, not copied spec content | Reduces drift and keeps CN‑Spec/CG‑Spec as the governing specifications | Requires discipline in authoring and review | Enforce “refs-only” at suite/plan level and use conformance items CC‑A67CHR‑3 and CC‑A67CHR‑13 to prevent copied specifications |
 

@@ -6,12 +6,12 @@ section_id: "C.22.PFR:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.PFR/C.22.PFR__013_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.22.PFR — Problematic-For Relation"
   - "C.22.PFR:12 — Relations"
-line_start: 63684
-line_end: 63697
+line_start: 66387
+line_end: 66400
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -36,7 +36,7 @@ keywords:
 - `A.19` governs the characteristic space used by `CharacteristicSpacePredicate`; the selected direct consumer governs its condition-to-input rule and comparator semantics, `A.19.CPM` governs comparison when that is the consumer, and `G.4` governs typed acceptance clauses when acceptance is the consumer.
 - `C.16`, `A.18`, and direct condition or measurement patterns define or constrain characteristics, scales, actual characteristic assignments or state relations, and measurements. F.9 governs any semantic Bridge named by the input rule; none of these adds a PFR participant.
 - `C.22` governs selector-facing task typing and TaskSignature assignment after a problem-side episteme is usable.
-- `C.22.2` governs ProblemCard claims, signals, forecasts, scenarios, anticipated-condition cues, descriptions, next use, and publication without creating PFR; the exact direct claim pattern defines or constrains each claim carried there.
+- `C.22.2` governs ProblemCard claims, signals, forecasts, scenarios, anticipated-condition cues, descriptions, next use, and publication without creating PFR; the direct claim pattern defines or constrains each claim carried there.
 - `A.15.1` and `A.3.4` govern repair work and changes to the actual-condition relation.
 - `E.18.1`, `E.23`, and direct NQD and OEE patterns define or constrain repeated problematization, method search, work, evaluation, and continuation; relations locating or ordering those occurrences in a transformation-flow structure do not enter PFR identity.
 - `C.27.TA` governs temporal aspect statements when interval publication or temporal adequacy is current.

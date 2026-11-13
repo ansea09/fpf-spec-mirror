@@ -6,12 +6,12 @@ section_id: "E.10.D1:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D1/E.10.D1__013_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.10.D1 — Recovering What “Context” Means in Use"
   - "E.10.D1:12 — Relations"
-line_start: 102328
-line_end: 102341
+line_start: 108100
+line_end: 108113
 dependencies:
   - "A.1.1"
   - "A.2.6"
@@ -47,5 +47,5 @@ keywords:
 - `C.30` defines the obtaining `ArchitectureRelation` and the separate `ArchitectureClaim` form. Use the actual relation only when its predicate holds; use claim content for a negative, unresolved, candidate, or expected architecture statement.
 - `E.17.0` defines viewpoint identity, the direct `EpistemeViewpointConformanceRelation`, its readable positive, negative, and unresolved results, and the resulting same-episteme `U.View` membership.
 - For environment, operating-region, and operating-condition wording, use the pattern that defines or constrains the subject claim. When the affecting fact or condition cannot be recovered, keep the wording result unresolved rather than inferring architecture or viewpoint content.
-- Apply `F.19` for the normal connected reading and final plain rewrite. Use `E.10.D1` only for a consequential context ambiguity that remains; apply `F.18` only when the repair creates a durable reusable designation.
+- Apply `F.19` for the connected reading and final plain rewrite. Use `E.10.D1` only for a consequential context ambiguity that remains. Apply `F.18` only when the repair creates a durable reusable designation.
 

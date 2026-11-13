@@ -6,12 +6,12 @@ section_id: "A.2.4:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.4/A.2.4__006_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.2.4 — Episteme Evidence-Use and Status-Use Relations"
   - "A.2.4:5 — Archetypal Grounding"
-line_start: 6234
-line_end: 6251
+line_start: 6509
+line_end: 6530
 dependencies:
   - "A.10"
   - "A.2"
@@ -20,13 +20,7 @@ dependencies:
   - "A.6.RSIR"
   - "B.3"
   - "C.2.1"
-  - "C.28"
-  - "E.10.D2"
   - "E.10.ROLE"
-  - "E.17"
-  - "F.10"
-  - "G.11"
-  - "G.6"
   - "U.SystemRoleAssignment"
 keywords:
   - "claim"
@@ -43,15 +37,19 @@ keywords:
 
 #### A.2.4:5.1 - Proof result used as evidence
 
-`ProofResult-12` is a C.2.1 episteme stating an entailment under `GraphTheory_v3.1`. Dated checker work, its method, theory and proof bindings, and the formal entailment result are recovered under their subject patterns. A.2.4 classifies the episteme as supporting `Theorem-12` inside the theory-version fence. A.10 records source/provenance; in later review work, a reviewer uses the episteme through an exact premise relation. Timeout or checker failure would remain distinct from refutation.
+`ProofResult-12` is a C.2.1 episteme stating an entailment under `GraphTheory_v3.1`. Dated checker work, its method, theory and proof bindings, and the formal entailment result are recovered under their subject patterns. A.2.4 classifies the episteme as supporting `Theorem-12` inside the theory-version fence. A.10 records source/provenance; in later review work, a reviewer uses the episteme through a premise relation. Timeout or checker failure would remain distinct from refutation.
 
 #### A.2.4:5.2 - Measurement result used in acceptance
 
-`PressureResult-E` is the C.16 measurement-result episteme for gas pressure at port P. It states the measurand, Characteristic, Scale, value, uncertainty, model, calibration basis, time stance, and dated measurement work. A.2.4 classifies it as evidence used for the exact pressure-limit claim. In separate evaluation work, an evaluator applies the G.4 clause through A.6.1 bindings and obtains `unknown`; a different C.2.1 episteme states that verdict. A.10/G.6 preserve provenance, G.11 currentness, and in later C.11 decision work, a decision-maker relies on the verdict episteme. Raw detector output, indication, pressure state, measurement result, verdict, and decision remain distinct.
+`PressureResult-E` is the C.16 measurement-result episteme for gas pressure at port P. It states the measurand, Characteristic, Scale, value, uncertainty, model, calibration basis, time stance, and dated measurement work. A.2.4 classifies it as evidence used for the pressure-limit claim.
+
+In separate evaluation work, an evaluator applies the G.4 clause through A.6.1 bindings and obtains `unknown`; a different C.2.1 episteme states that verdict. A.10/G.6 preserve provenance, G.11 currentness, and in later C.11 decision work, a decision-maker relies on the verdict episteme. Raw detector output, indication, pressure state, measurement result, verdict, and decision remain distinct.
 
 #### A.2.4:5.3 - Dashboard status cell
 
-A release dashboard displays `Ready`. Recover the claim-bearing content of the cell and classify its episteme's status use separately from the display carrier. The source register, scope, window, status value, G.11 currentness, and provenance must be recoverable. A.21 governs any gate decision, C.11 any release decision, A.2.8.PER any permission, A.15.1 any performed Work, and B.3 any assurance claim. The cell's presence alone establishes none of them; its content may contribute to the argument under the applicable rule.
+A release dashboard displays `Ready`. Recover the claim-bearing content of the cell and classify its episteme's status use separately from the display carrier. The source register, scope, window, status value, G.11 currentness, and provenance must be recoverable.
+
+A.21 governs any gate decision, C.11 any release decision, A.2.8.PER any permission, A.15.1 any performed Work, and B.3 any assurance claim. The cell's presence alone establishes none of them; its content may contribute to the argument under the applicable rule.
 
 #### A.2.4:5.4 - Simulation-only output
 

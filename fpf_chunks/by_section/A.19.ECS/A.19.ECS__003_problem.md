@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.19.ECS"
-pattern_title: "Evaluation CharacteristicSpace Construction: Define What Counts as Better"
+pattern_title: "CharacteristicSpace Construction: Define What Counts as Better"
 section_id: "A.19.ECS:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ECS/A.19.ECS__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.19.ECS — Evaluation CharacteristicSpace Construction: Define What Counts as Better"
+  - "A.19.ECS — CharacteristicSpace Construction: Define What Counts as Better"
   - "A.19.ECS:2 — Problem"
-line_start: 35039
-line_end: 35056
+line_start: 36527
+line_end: 36544
 dependencies:
   - "A.17-A.19"
   - "C.16"
@@ -34,7 +34,7 @@ FPF already has named patterns for single characteristics, scales, coordinate va
 Recurring failures:
 
 1. **Scale set from air.** An evaluation lists coordinates because they are familiar, not because they discriminate the evaluated object kind or use.
-2. **Wrong-kind comparison.** Objects outside the declared kind are scored as if they were weak objects under improvement, or are silently skipped, instead of being returned to evaluation selection before opening or handled by an explicit object-kind-fit defect/value after opening.
+2. **Wrong-kind comparison.** Objects outside the declared kind are scored as if they were weak objects under improvement, or are silently skipped, instead of being returned to evaluation selection before opening or handled by an object-kind-fit defect/value after opening.
 3. **One-score collapse.** Several independent characteristics are averaged into one score, hiding object-kind-fit defects and trade-offs.
 4. **Unstated polarity.** Readers cannot tell which direction is preferred or when a value has no preferred direction.
 5. **No floor or exceptional meaning.** Values are recorded, but nobody can say what is viable, exceptional, or still inadmissible for the declared use.

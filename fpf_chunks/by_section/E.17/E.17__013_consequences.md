@@ -6,12 +6,12 @@ section_id: "E.17:11"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__013_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:11 — Consequences"
-line_start: 107912
-line_end: 107920
+line_start: 114554
+line_end: 114562
 dependencies:
   - "A.10"
   - "A.15.4"
@@ -49,7 +49,7 @@ keywords:
 | Benefit | Why it matters | Trade-off and mitigation |
 | --- | --- | --- |
 | **Arrow traceability.** | Composition preserved across faces enables chain‑of‑evidence on pipelines. | Slight authoring overhead → MVPK templates. |
-| **Review-ready faces.** | Pins plus CHR references make numeric claims verifiable. | Apply the declared publication checks to MVPK claims; project gates stay with the relevant `OperationalGate(profile)` or `GateDecision` source when the gate claim is present. |
+| **Review-ready faces.** | Pins plus CHR references make numeric claims verifiable. | Apply the declared publication checks to MVPK claims. Project gates stay with the relevant `OperationalGate(profile)` or `GateDecision` source when the gate claim is present. |
 | **Terminology hygiene.** | Clear View vs Viewpoint, Publication vs Presentation. | Check the published face designators against the stated naming rule. |
 | **Notation independence.** | Viewpoints talk concerns, not tools. | Provide adapters to local publication toolchains. |
 

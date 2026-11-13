@@ -6,12 +6,12 @@ section_id: "C.39.WA:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.WA/C.39.WA__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.39.WA — Develop an Account of the Whole Subject"
   - "C.39.WA:7 — Conformance Checklist"
-line_start: 83381
-line_end: 83393
+line_start: 87434
+line_end: 87446
 dependencies:
   - "C.20"
   - "C.39.QR"
@@ -22,14 +22,14 @@ keywords:
 
 ### C.39.WA:7 - Conformance Checklist
 
-At a claim about the whole account, answer the following from the actual content and grounds:
+At a claim about the whole account, answer the following from the account's content and grounds:
 
 1. What was the original subject and required use?
 2. Which constructions and relations organize that subject at the required scope?
 3. What relation supports each consequential transition between kinds, parts, levels, representations and claims? What general construction do the examples ground, which significant variations do they reveal, and what warrants any generalization?
-4. How do the common grounds govern the parts, and how do particular findings revise the common account?
-5. What does the candidate actually supply, and what remains missing or unexamined?
+4. How do the common grounds govern the parts, and how do findings revise the common account?
+5. What does the candidate supply, and what remains missing or unexamined?
 6. Which result of appraisal or repair permits the proposed use of the whole account?
 
-Arrange these questions at the work occasions in section 4.6. Preserve an unresolved answer and its continuation instead of manufacturing a positive one.
+Arrange these questions at the work occasions in section 4.6. Preserve an unresolved answer and its continuation without presenting it as a positive one.
 

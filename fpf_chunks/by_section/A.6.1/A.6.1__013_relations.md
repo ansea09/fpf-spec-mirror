@@ -6,12 +6,12 @@ section_id: "A.6.1:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.1/A.6.1__013_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.1 — U.Mechanism - Reusable Law-Governed Operation Declaration"
   - "A.6.1:12 — Relations"
-line_start: 17134
-line_end: 17162
+line_start: 17929
+line_end: 17961
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -53,28 +53,32 @@ keywords:
 ### A.6.1:12 - Relations
 
 - **Builds on:** A.6.0, C.2.1, and A.2.6.
-- **Governs:** reusable `U.Mechanism` declaration epistemes, their mechanism-specific content, declaration-local application and binding semantics, exact particular operation applications and bindings when current, and direct realization claims.
+- **Governs:** reusable `U.Mechanism` declaration epistemes, their mechanism-specific content, declaration-local application and binding semantics, operation applications and bindings when current, and direct realization claims.
 - **Coordinates with:** A.6.REL for occurrence identity; A.6.RCD for compound comparison claims and missing-relation stops; A.6.5 for RelationSignature SlotSpec discipline; C.3 for operation ValueKinds; A.1 for recognition criteria; A.3.1 and A.3.2 for Method and Method description; A.15.2 and A.15.1 for planned and performed Work; C.2.1 for mechanism epistemes, editions, result epistemes, and bounded Bridge-use claims; A.19 for comparison; F.9 for cross-scheme sense correspondence; A.10 for ordinary reliance; B.3 only for an actual named assurance claim; CHR for selected reference planes; A.1.1 and A.22 for selected model-use structure; C.29 for mathematical-lens use; E.20 for introduction; E.24.PUB for publication; A.22.CGUS for potential-continuation structure and case results; and G.11 for currentness.
 - **Described and published through:** C.2.1, A.6.3, A.6.3.RT, and E.24.PUB.
 - **Uses for precision restoration:** E.10, E.10.ARCH, and F.18 after the current object and relation positions have been recovered.
 
 #### A.6.1:12.1 - Transformation-flow use
 
-When an E.18.1 question concerns a mechanism, use A.6.1 to obtain the needed declaration, application, binding or realization result, or its exact stop. Return that result or stop to the receiving decision or use; select any further question from what remains needed there. Method selection, performed Work, evaluation and evidence, and gate passage retain their direct governors.
+When an E.18.1 question concerns a mechanism, use A.6.1 to obtain the needed declaration, application, binding or realization result, or its stop. Return that result or stop to the receiving decision or use; select any further question from what remains needed there. Method selection, performed Work, evaluation and evidence, and gate passage retain their direct governors.
 
-When selected relations and applied constraints connect signature, mechanism, method, Work, and evaluation constituents into one independently identified A.22 structure with local loci and at least two potential continuations, apply A.22.CGUS to that structure. A presentation of one traversal through a qualified CGUS is a separate demonstrative slice. The local mechanism mantra remains Plain mnemonic wording unless that wider structure actually qualifies and the later presentation is about it.
+When selected relations and applied constraints connect signature, mechanism, method, Work, and evaluation constituents into one independently identified A.22 structure with local loci and at least two potential continuations, apply A.22.CGUS to that structure. A presentation of one traversal through a qualified CGUS is a separate demonstrative slice. The local mechanism mantra remains Plain mnemonic wording unless that wider structure qualifies and the later presentation is about it.
 
 #### A.6.1:12.2 - Claim dispositions and return conditions
 
-For a `U.Mechanism` identification, state that its defining predicate is not satisfied when a required condition is known false; leave the identification unresolved when the text cannot recover an exact declared operation family, typed argument and result meanings, application rules, laws, admission conditions, and Applicability. For an actual application or binding, retain the §4.5 missing-governor blocker when a required declaration-local predicate, extent rule, or identity rule is absent. When those rules are present, state any known predicate failure or the missing participants and case facts that leave the claim unresolved. A realization does not obtain when the entity fails to preserve a declared law for admitted use; leave the realization claim unresolved when its required scope, interval, or case facts cannot be recovered.
+For a `U.Mechanism` identification, state that its defining predicate is not satisfied when a required condition is known false; leave the identification unresolved when the text cannot recover a declared operation family, typed argument and result meanings, application rules, laws, admission conditions, and Applicability.
+
+For an actual application or binding, retain the §4.5 missing-governor blocker when a required declaration-local predicate, extent rule, or identity rule is absent. When those rules are present, state any known predicate failure or the missing participants and case facts that leave the claim unresolved.
+
+A realization does not obtain when the entity fails to preserve a declared law for admitted use; leave the realization claim unresolved when its required scope, interval, or case facts cannot be recovered.
 
 Return to the smallest changed object:
 
 - changed content, EntityOfConcern or effective reference scheme identifies another C.2.1 episteme; judge its mechanism membership from the new content and historical continuation through the separate edition predicate. Missing continuity facts leave that claim unresolved, while assessment of the declaration can proceed independently;
-- exact cross-context `SchemeSenseCell` correspondence requires F.9; a selected `CHR:ReferencePlane` change requires CHR, and a model-use-structure change requires A.1.1/A.22. An asserted transition or use relation must name its predicate and participants or stop; none becomes a generic mechanism-transport claim;
-- a particular application or binding returns to its exact declaration-local predicate, extent, and identity rules; if a required rule is absent for the claimed actual use at its required granularity, retain the exact missing-governor blocker rather than widen A.6.1 into a universal work-participant relation;
+- cross-context `SchemeSenseCell` correspondence requires F.9; a selected `CHR:ReferencePlane` change requires CHR, and a model-use-structure change requires A.1.1/A.22. An asserted transition or use relation must name its predicate and participants or stop; none becomes a generic mechanism-transport claim;
+- an application or binding returns to its declaration-local predicate, extent, and identity rules; if a required rule is absent for the claimed actual use at its required granularity, retain the missing-governor blocker rather than widen A.6.1 into a universal work-participant relation;
 - realizer capability or realization scope returns to the direct realization relation;
-- evaluation and evidence currentness require their exact predicates and G.11 when currentness is the claim;
+- evaluation and evidence currentness require their predicates and G.11 when currentness is the claim;
 - method and work changes require A.3.1, A.15.2, or A.15.1;
 - representation and publication changes require A.6.3, A.6.3.RT, or E.24.PUB;
 - a changed governing-definition assignment requires E.20.

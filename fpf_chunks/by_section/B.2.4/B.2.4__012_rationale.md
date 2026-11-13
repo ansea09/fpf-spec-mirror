@@ -6,12 +6,12 @@ section_id: "B.2.4:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.4/B.2.4__012_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.2.4 — Do Capability or Functioning Changes Require Whole Reidentification?"
   - "B.2.4:9 — Rationale"
-line_start: 44591
-line_end: 44596
+line_start: 46403
+line_end: 46408
 dependencies:
   - "A.10"
   - "A.15"
@@ -37,7 +37,7 @@ keywords:
 
 ### B.2.4:9 - Rationale
 
-Capabilities and functioning relations are often where a new-whole question first becomes visible. Their direct facts, not the availability of supporting evidence, determine whether the existing-whole explanation still works.
+Capabilities and functioning relations are often where a new-whole question first becomes visible. Their facts, not the availability of supporting evidence, determine whether the existing-whole explanation still works.
 
-B.2.4 asks whether the capability and functioning facts can be explained while retaining the existing whole. Use B.2 for the whole-identity question that remains, including a deciding ground that is still missing. This keeps local capability improvement available without overlooking a change of whole.
+B.2.4 asks whether the capability and functioning facts can be explained while retaining the existing whole. Use B.2 for the whole-identity question that remains, including a deciding ground that is missing. This keeps local capability improvement available without overlooking a change of whole.
 

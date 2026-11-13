@@ -6,12 +6,12 @@ section_id: "C.2.2a:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2a/C.2.2a__011_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.2.2a — Language-State Chart over U.CharacteristicSpace"
   - "C.2.2a:9 — Consequences"
-line_start: 52999
-line_end: 53001
+line_start: 55216
+line_end: 55218
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -45,5 +45,5 @@ keywords:
 ---
 
 ### C.2.2a:9 - Consequences
-Practitioners can state the language-state readings of a governed `U.Episteme` and their grounds without hiding them inside one maturity adjective. Where the receiving use needs a chart position, the publication must make its relevant slots, grounds and any relied-on threshold recoverable.
+Practitioners can state the language-state readings of a `U.Episteme` and their grounds without hiding them inside one maturity adjective. Where the receiving use needs a chart position, the publication must make its relevant slots, grounds and any relied-on threshold recoverable.
 

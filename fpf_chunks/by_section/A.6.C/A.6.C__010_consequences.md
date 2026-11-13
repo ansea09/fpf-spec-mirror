@@ -6,12 +6,12 @@ section_id: "A.6.C:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.C/A.6.C__010_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.C — Contract Unpacking for Boundaries"
   - "A.6.C:9 — Consequences"
-line_start: 15780
-line_end: 15792
+line_start: 16355
+line_end: 16367
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -34,7 +34,7 @@ dependencies:
   - "U.SpeechAct"
   - "U.Work"
 keywords:
-  - "A.6.B separately classifies the actual claim"
+  - "A.6.B separately classifies the claim"
   - "MVPK no-new-semantics"
   - "OPTIONAL or authority-looking wording is ambiguous"
   - "atomic L/A/D/E rows"
@@ -58,7 +58,7 @@ keywords:
 
 **Benefits**
 
-* Category mistakes (“contract soup”) become systematically repairable.
+* Category mistakes become systematically repairable.
 * Generic prescriptions remain usable without invented occurrences, while individual commitments remain distinguishable and adjudicable through their actual bearer, rule, instituting basis, scope, validity, and any evidence needed for reliance.
 * Boundaries remain evolvable: laws, gates, governance, and evidence can evolve with controlled coupling.
 

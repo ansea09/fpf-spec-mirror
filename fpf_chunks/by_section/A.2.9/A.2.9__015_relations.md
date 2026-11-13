@@ -6,12 +6,12 @@ section_id: "A.2.9:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.9/A.2.9__015_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.2.9 — U.SpeechAct — Communicative Work and Its Intended Use"
   - "A.2.9:12 — Relations"
-line_start: 9147
-line_end: 9161
+line_start: 9520
+line_end: 9534
 dependencies:
   - "A.10"
   - "A.13"
@@ -48,7 +48,7 @@ keywords:
 **Uses / builds on**
 
 * Uses **A.13** for the actual performer's agency basis and **A.15.1 (`U.Work`)** for independent admission of the communicative occurrence. Uses **F.6** only afterward for a needed precise `performedUnderAssignment` claim through the same obtaining assignment. Uses a separate optional `methodDescriptionRef` only when the receiving claim needs that episteme.
-* Uses **A.7** for the strict actual-act≠record/description≠carrier split.
+* Uses **A.7** for the actual-act≠record/description≠carrier split.
 * Coordinates with **A.2.6** for scope/window discipline.
 * **F.18** can serve as a **lexical entry point** for naming `U.SpeechAct` and “utterance” in the promise/utterance/commitment triad.
 

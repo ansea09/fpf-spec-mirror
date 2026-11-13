@@ -6,12 +6,12 @@ section_id: "A.1.RI:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.RI/A.1.RI__013_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.1.RI — Reidentifying an Object across Observations"
   - "A.1.RI:12 — Relations"
-line_start: 3086
-line_end: 3096
+line_start: 3130
+line_end: 3140
 dependencies:
   - "A.1"
   - "A.3.3.PI"
@@ -35,5 +35,5 @@ keywords:
 - **B.5.TU and B.5.TC** construct a working theory use and compare accounts when the identifying premises need that work.
 - **B.5.RR** revises reasoning affected by a changed observation or premise.
 - **C.11.DUA** selects worthwhile information work for the receiving decision.
-- **A.6.REL** supplies occurrence individuation when a later use specifically needs a designated identifying relation.
+- **A.6.REL** supplies occurrence individuation when a later use needs a designated identifying relation.
 

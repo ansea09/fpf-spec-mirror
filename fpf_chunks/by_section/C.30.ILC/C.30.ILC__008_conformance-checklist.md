@@ -6,12 +6,12 @@ section_id: "C.30.ILC:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ILC/C.30.ILC__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.30.ILC — Cross-Scope Architecture Residual Triage"
   - "C.30.ILC:7 — Conformance Checklist"
-line_start: 74601
-line_end: 74614
+line_start: 77918
+line_end: 77931
 dependencies:
   - "A.10"
   - "A.22"
@@ -45,7 +45,7 @@ keywords:
 
 | ID | Check | Why it matters |
 |---|---|---|
-| CC-ILC-1 | A conforming use names `describedHolonRef`, the architecture concern, intended use, ClaimScope or qualification window when each changes the result, and any independently selected bounded model-use structure actually relied on. | Keeps the triage grounded without narrowing architecture to systems or making a generic context field supply locality. |
+| CC-ILC-1 | A conforming use names `describedHolonRef`, the architecture concern, intended use, ClaimScope or qualification window when each changes the result, and any independently selected bounded model-use structure relied on. | Keeps the triage grounded without narrowing architecture to systems or making a generic context field supply locality. |
 | CC-ILC-2 | A conforming use names declared holon levels or declared scopes, not only `level`, `layer`, `scope`, or `scale` prose. | Prevents pseudo-level and pseudo-scope reasoning. |
 | CC-ILC-3 | A conforming use names the selected structure or structure kind that carries, separates, or relates the declared levels or scopes affected by the residual. | Distinguishes a cross-level or cross-scope residual from a conflict confined to the same level and scope or one whose relevant assignment is unknown. |
 | CC-ILC-4 | A conforming use identifies the conflict carriers. For a claimed frustration residual, it states any attempted local repair and its insufficiency, or the reason that such repair would leave the loss unresolved. | Prevents premature synthesis and repeated local fixes. |

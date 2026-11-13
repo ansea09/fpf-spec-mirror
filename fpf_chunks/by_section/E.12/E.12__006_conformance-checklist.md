@@ -6,12 +6,12 @@ section_id: "E.12:5"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.12/E.12__006_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.12 — Didactic Primacy & Cognitive Ergonomics"
   - "E.12:5 — Conformance Checklist"
-line_start: 104996
-line_end: 105002
+line_start: 111314
+line_end: 111320
 dependencies:
   - "C.11.DUA"
   - "E.13"

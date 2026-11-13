@@ -6,12 +6,12 @@ section_id: "C.27.TA:8"
 section_title: "Common Anti-Patterns"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27.TA/C.27.TA__010_common-anti-patterns.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.27.TA — Temporal Aspect: Time Windows, Rhythm, Cadence, and Currentness"
   - "C.27.TA:8 — Common Anti-Patterns"
-line_start: 67676
-line_end: 67685
+line_start: 70736
+line_end: 70745
 dependencies:
   - "A.10"
   - "A.15.1"

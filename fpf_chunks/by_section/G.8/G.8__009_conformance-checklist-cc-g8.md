@@ -6,12 +6,12 @@ section_id: "G.8:8"
 section_title: "Conformance Checklist (CC‑G8)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.8/G.8__009_conformance-checklist-cc-g8.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.8 — Package Method-Family Admissibility Rules and Maturity Ladders (SoS-LOG)"
   - "G.8:8 — Conformance Checklist (CC‑G8)"
-line_start: 131009
-line_end: 131050
+line_start: 139077
+line_end: 139118
 dependencies:
   - "A.10"
   - "A.21"
@@ -38,7 +38,7 @@ keywords:
   - "SoS-LOG"
   - "admissibility ledger"
   - "rule ids"
-  - "tri-state {pass"
+  - "tri-state {pass\\"
 ---
 
 ### G.8:8 - Conformance Checklist (CC‑G8)
@@ -54,7 +54,7 @@ keywords:
   Any sandbox/probe‑only behaviour SHALL be represented as an explicit `C.23` branch and MUST pin (and record) the controlling policy id (typically an E/E‑LOG policy id via `C.19`), rather than inventing a fourth status or silently coercing unknowns.
 
 * **CC‑G8‑3 (Path citation when evidence is path‑addressable).**
-  When `G.6` is in use (or resolvable), every recorded `pass/degrade/abstain` outcome in the `AdmissibilityLedger` MUST cite `PathId/PathSliceId` (run‑time). At packaging time, the bundle/ledger SHALL at minimum provide resolvable evidence refs (e.g., `EvidenceGraphId?` + anchor refs).
+  For each recorded `pass/degrade/abstain` outcome whose evidence is path-addressable under `G.6`, the run-time `AdmissibilityLedger` MUST cite that `PathId/PathSliceId`. At packaging time, the bundle/ledger SHALL at minimum provide resolvable evidence refs (e.g., `EvidenceGraphId?` + anchor refs).
 
 * **CC‑G8‑4 (Crossing visibility and penalty routing; delegated).**
   Any cross-Context or cross-plane reuse asserted by the bundle/ledger SHALL satisfy the core crossing visibility and penalty routing invariants (delegation to `CC‑GCORE‑CROSS‑1` and `CC‑GCORE‑PEN‑1`).
@@ -72,13 +72,13 @@ keywords:
   Rung transitions, when asserted, MUST be justifiable by citable evidence paths (when available).
 
 * **CC‑G8‑8 (Spaces ≠ Maps).**
-  `CharacteristicSpace` and `DescriptorMap` SHALL remain strictly distinct kinds; naming and twin‑register discipline must be respected.
+  `CharacteristicSpace` and `DescriptorMap` SHALL remain distinct kinds; naming and twin‑register discipline must be respected.
 
 * **CC‑G8‑9 (Notational independence).**
   The bundle, ledger, and maturity card SHALL remain notation‑independent (per `E.5.2`); any serialization choice is non‑normative and belongs outside Part‑G core.
 
 * **CC‑G8‑10 (MOO cross‑reference).**
-  When a LOG bundle is used to drive or justify a produced selected-set outcome, the record of the producing Work, or the audit artefact, SHOULD cite the controlling mechanism ids (e.g., parity/shipping/refresh artefact ids) and relevant policy pins; no “black box” provenance.
+  When a LOG bundle is used to drive or justify a produced selected-set outcome, the record of the producing Work, or the audit artefact, SHOULD cite the controlling mechanism ids (e.g., parity/shipping/refresh artefact ids) and relevant policy pins.
 
 * **CC‑G8‑11 (SoTA‑of‑description trace).**
   If authoring methods (e.g., discovery, clustering, summarisation) materially shaped rule text or rung definitions, the bundle/card SHOULD cite their method description refs (edition‑pinned) to support cross‑stance traceability.

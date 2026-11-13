@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.19.CHR"
-pattern_title: "CHRMechanismSuite: Shared Rules for Characterization and Selection"
+pattern_title: "Shared Rules for Characterization and Selection"
 section_id: "A.19.CHR:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CHR/A.19.CHR__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.19.CHR — CHRMechanismSuite: Shared Rules for Characterization and Selection"
+  - "A.19.CHR — Shared Rules for Characterization and Selection"
   - "A.19.CHR:2 — Problem"
-line_start: 36853
-line_end: 36856
+line_start: 38359
+line_end: 38362
 dependencies:
   - "A.15.2"
   - "A.15.3"

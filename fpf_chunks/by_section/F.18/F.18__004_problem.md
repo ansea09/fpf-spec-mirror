@@ -6,12 +6,12 @@ section_id: "F.18:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__004_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
   - "F.18:2 — Problem"
-line_start: 125217
-line_end: 125229
+line_start: 133140
+line_end: 133152
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -48,7 +48,7 @@ keywords:
 FPF texts fail when names are treated as if they carried ontology by themselves.
 
 1. A short label appears in another context and gets treated as the same value although no obtaining Bridge establishes the exact sense relation, no separate claim says that Bridge suits this reuse, and no current reliance supports that claim.
-2. A role-looking name quietly bundles a system-role kind, assignment occurrence, capability, method fit, work evidence, or authorization.
+2. A role-looking name bundles a system-role kind, assignment occurrence, capability, method fit, work evidence, or authorization.
 3. A status-like or evidence-like phrase becomes a fake role or fake type because the row says "evidence role", "status role", or similar wording.
 4. A relation, declaration-local slot, interface, port, or signature name hides the exact governed object, relation-participant meaning, or rules that define or constrain the claim.
 5. A term chosen for convenience becomes a permanent Core-facing name without candidate comparison, rejected alternatives, or lineage.

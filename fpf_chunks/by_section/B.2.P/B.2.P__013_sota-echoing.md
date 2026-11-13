@@ -6,12 +6,12 @@ section_id: "B.2.P:10"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.P/B.2.P__013_sota-echoing.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.2.P — Clarify Emergence and Meta-Holon Transition (MHT) Claims"
   - "B.2.P:10 — SoTA-Echoing"
-line_start: 43944
-line_end: 43949
+line_start: 45714
+line_end: 45721
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -49,5 +49,7 @@ keywords:
 
 FPF uses claim-kind recovery (B.2.P:4.1–4.4) to keep whole reidentification with `B.2` and ordinary characteristic, capability, evidence, and measurement claims with their subject patterns. Membership, a constructed whole, an acting collective system, a whole-level characteristic bearer, and a candidate new holon named by an MHT claim must be identified separately. Publication, source-use, model, dashboard, and architecture-description claims remain separate from the in-life whole-reidentification claim.
 
-A historical comparison shows why the distinction matters for mathematical emergence. [Hoel, Albantakis, and Tononi (2013), Abstract and Fig. 2](https://pubmed.ncbi.nlm.nih.gov/24248356/) compare effective information at micro and macro scales in systems whose micro mechanisms are fixed; a macro model can have greater effective information. FPF adapts this comparison by keeping that mathematical result separate from an MHT claim, which needs the `B.2` identity account. Mathematical and statistical treatments of scale, coarse-graining, graphs, morphisms, and benchmarks can clarify a claim without replacing the ontology: keep the in-life EntityOfConcern and direct subject rule identified, using `C.29` for a remaining representation, correspondence, transfer or reliance question (B.2.P:4.2 and B.2.P:5.2).
+A historical comparison shows why the distinction matters for mathematical emergence. [Hoel, Albantakis, and Tononi (2013), Abstract and Fig. 2](https://pubmed.ncbi.nlm.nih.gov/24248356/) compare effective information at micro and macro scales in systems whose micro mechanisms are fixed; a macro model can have greater effective information.
+
+FPF adapts this comparison by keeping that mathematical result separate from an MHT claim, which needs the `B.2` identity account. Mathematical and statistical treatments of scale, coarse-graining, graphs, morphisms, and benchmarks can clarify a claim without replacing the ontology: keep the in-life EntityOfConcern and subject rule identified, using `C.29` for a remaining representation, correspondence, transfer or reliance question (B.2.P:4.2 and B.2.P:5.2).
 

@@ -6,12 +6,12 @@ section_id: "C.40:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40/C.40__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.40 — Develop Branching Search from Reusable Material"
   - "C.40:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 85575
-line_end: 85586
+line_start: 89807
+line_end: 89818
 dependencies:
   - "C.11"
   - "C.18"
@@ -26,10 +26,10 @@ keywords:
 | Misuse | Repair |
 | --- | --- |
 | Cataloguing possibilities is called generation. | Perform the feasible material change and examine its result, or state the missing operation. |
-| Every search must invent a new goal. | Develop material for the selected contribution when that is the actual use. |
+| Every search must invent a new goal. | Develop material for the selected contribution when that is the use. |
 | Only today's winner is retained. | Keep a lesser intermediate when a specific attainable continuation warrants its burden. |
-| Everything novel is retained. | Compare further use, cheap retention and stopping against actual costs and displaced work. |
-| A source success certifies a target. | Apply and examine the way under target conditions; retain the actual failed or mixed result. |
+| Everything novel is retained. | Compare further use, cheap retention and stopping against costs and displaced work. |
+| A source success certifies a target. | Apply and examine the way under target conditions; retain the failed or mixed result. |
 | A file transfer is called a capability transfer. | Recover the receiving participant's means, skill and permission separately. |
 | Diverse descendants are called useful adaptability. | Examine which differences and acceptable outcomes occur together, then return the result to the tested basis and continuation conditions. |
 

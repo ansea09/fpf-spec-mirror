@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.5.TU"
-pattern_title: "Construct a Working Use of an Unfamiliar Theory"
+pattern_title: "Construct a Use of an Unfamiliar Theory"
 section_id: "B.5.TU:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.TU/B.5.TU__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "B.5.TU — Construct a Working Use of an Unfamiliar Theory"
+  - "B.5.TU — Construct a Use of an Unfamiliar Theory"
   - "B.5.TU:7 — Conformance Checklist"
-line_start: 48849
-line_end: 48859
+line_start: 50885
+line_end: 50895
 dependencies:
   - "A.15.9"
   - "A.6.3.RT"
@@ -25,9 +25,9 @@ keywords:
 
 ### B.5.TU:7 - Conformance Checklist
 
-- The application has a working question and a useful result to obtain or interpret.
+- The application has a question and a useful result to obtain or interpret.
 - The theory's objects, operations and premises needed for that application are recoverable.
-- The construction connects supplied inputs to required outputs; a missing operation remains a specific gap.
+- The construction connects supplied inputs to required outputs; a missing operation remains a gap.
 - A source-supported application and a newly proposed adaptation retain their respective grounds.
 - The worked consequence states what its construction, argument or computation establishes.
 - The receiving use preserves consequential conditions, including any difference between an attainable result and a bound.

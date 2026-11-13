@@ -6,12 +6,12 @@ section_id: "C.16.P:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.P/C.16.P__005_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.16.P — Restore Precision to Characteristic and Scale Wording"
   - "C.16.P:3 — Forces"
-line_start: 59650
-line_end: 59660
+line_start: 62035
+line_end: 62045
 dependencies:
   - "A.17"
   - "A.18"
@@ -34,7 +34,7 @@ keywords:
 | Force | Tension |
 | --- | --- |
 | Compact comparison vs recoverable construction | Readers want quick words such as strong, weak, metric, score, and level; FPF needs characteristic, scale, value, and use boundaries. |
-| Measurement discipline vs ordinary evaluation | Some words are informal cues, some are real measurement claims, and some are quality-term or evaluative characterization. |
+| Measurement discipline vs ordinary evaluation | Some words are informal cues, some are measurement claims, and some are quality-term or evaluative characterization. |
 | Proxy usefulness vs proxy overread | Indicators and scores can be useful proxies but can also hide distortion, threshold choice, and non-comparability. |
 | Characteristic-space breadth vs gate discipline | A characteristic space can guide comparison without becoming a gate, decision, or release authority. |
 | Mathematical-lens use vs scalar shortcut | A mathematical lens may expose structure, but `C.29` lens-use result is not repaired by score wording alone. |

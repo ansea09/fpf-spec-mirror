@@ -6,12 +6,12 @@ section_id: "A.15.6:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.6/A.15.6__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.15.6 — Recover What Project, Process, or Case Wording Refers To"
   - "A.15.6:1 — Problem frame"
-line_start: 31108
-line_end: 31145
+line_start: 32217
+line_end: 32254
 dependencies:
   - "A.1"
   - "A.1.STM"
@@ -50,9 +50,9 @@ Use it also when **project system-of-interest** wording leaves unclear whether t
 
 A claim of locality to one actual project requires a direct relation to its performed project Work, as section 4.5 states; an `@Project` name supplies only a label.
 
-**First useful move.** If the project focus itself is unresolved, state the sought outside difference, relying use, comparison-and-acceptance conditions and receiving decision. Include any conflicting interests, evidence horizon or uncertainty that can change the choice or qualify its use. Compare candidate project subjects and materially different solution forms before designating a project system-of-interest or Method-of-interest.
+**First useful move.** If the project focus is unresolved, state the sought outside difference, relying use, comparison-and-acceptance conditions and receiving decision. Include any conflicting interests, evidence horizon or uncertainty that can change the choice or qualify its use. Compare candidate project subjects and materially different solution forms before designating a project system-of-interest or Method-of-interest.
 
-Otherwise ask what the next decision is about: the Work that happened, the reusable way of doing, the organization of particular Method-side objects and relations, a TransformationFlowStructure, the referent being changed, or the System whose change or later use organizes the project.
+Otherwise ask what the next decision is about: the Work that happened, the reusable way of doing, the organization of Method-side objects and relations, a TransformationFlowStructure, the referent being changed, or the System whose change or later use organizes the project.
 
 
 In the process branch, identify whether the question concerns `U.Method`, a `U.Structure` selected under `A.22`, or `TransformationFlowStructure`. Then choose any representation needed for that question.
@@ -62,18 +62,18 @@ In the system branch, distinguish the project's system-of-interest from the curr
 **Three short recognition cases.** Use these before the full pump example.
 
 - **Project:** a plan designates `PumpUnit-3` for an upgrade. While work is only intended, use A.15.2 for the `U.WorkPlan` and stop there. After performance, use A.15.1 to identify the composite project `U.Work`; add a work-to-pump or work-to-change relation only under its own predicate. Stop when the current plan or Work question is answered—the plan, Work, and pump are not one project object.
-- **Process:** several inspections use `BearingInspectionMethod-4`. Use A.3.1 for that reusable `U.Method` and stop when the way-of-doing question is answered. Open A.22 only when the organization of identified method-side objects and obtaining relations changes the next action, and E.18 only when transformation flow is the question. One inspection Work merely enacts the Method.
+- **Process:** several inspections use `BearingInspectionMethod-4`. Use A.3.1 for that reusable `U.Method` and stop when the way-of-doing question is answered. Open A.22 only when the organization of identified method-side objects and obtaining relations changes the next action, and E.18 only when transformation flow is the question. One inspection Work enacts the Method.
 - **Case:** a failed pressure test opens a closure question about `PumpUnit-3` or about one readiness or acceptance claim. Use A.15.5 when the question is whether an intended performance in a `U.WorkPlan` or PlanItem can enter under its work-entry conditions. For equipment condition, product readiness or acceptance, use the predicate that defines that claim. Stop when the closure answer and its basis are known. Name later release or pumping use, when relevant, as outside the case closure.
 
 **What goes wrong if missed.** A plan is counted as performed work, a temporary organization is identified with its project, one work occurrence is mistaken for a repeatable process, or a case record replaces the named subject or claim whose bounded closure is being managed. Parallel `@Project`, `@Process`, and `@Case` names then create apparent kinds without identity rules.
 
-**What this buys.** Project Work receives one occurrence identity under A.15.1. Process improvement can select one reusable `U.Method`, one A.22 `U.Structure`, or one `TransformationFlowStructure` without collapsing them. Case Work stays oriented to the subject its claims actually concern.
+**What this buys.** Project Work receives one occurrence identity under A.15.1. Process improvement can select one reusable `U.Method`, one A.22 `U.Structure`, or one `TransformationFlowStructure` without collapsing them. Case Work stays oriented to the subject its claims concern.
 
 Plans, organizations, Transformations, descriptions, publications, results, and evidence can then be related through the claims the decision needs. A responsibility assertion needs its own predicate and participants. Use an applicable existing rule or a sufficient local claim under A.6.RCD; return `missing-governor` only when a governing predicate, applicability condition, necessary occurrence rule or other required rule is absent.
 
-**Not this pattern when.** Use `A.15.1` directly when the subject is already known to be performed work, `A.3.1` when it is already a reusable method, `A.3.4` when it is already a bounded transformation, or `E.18` when it is already a selected transformation-flow structure. This pattern recovers the direct subject from management wording; it does not replace those ontics or domain management methods.
+**Not this pattern when.** Use `A.15.1` when the subject is already known to be performed work, `A.3.1` when it is already a reusable method, `A.3.4` when it is already a bounded transformation, or `E.18` when it is already a selected transformation-flow structure. This pattern recovers the subject from management wording; it does not replace those ontics or domain management methods.
 
 **Recover the subject from management wording.** Project, process, case, program, initiative, and situation are useful Plain cues. Section 4 explains the positive recovery: an actual project may be composite `U.Work`; a process concern may select `U.Method`, an A.22-selected `U.Structure`, or `TransformationFlowStructure`; a case concern follows the named subject or claim to its closure. Plans, organizations, changes, descriptions, results, and evidence keep their own identities and relations.
 
-A method-side structure may be called `MethodRelationStructure` locally after A.22 selects it for one question and use. Its identity comes from that selection, including its constituents, obtaining relations, constraints and use frame. For another needed claim, recover the actual participants and the rule that defines or tests it. A local claim can suffice without a dedicated pattern or relation kind. If its governor is absent, name the missing rule and use A.6.RCD's lightest sufficient branch.
+A method-side structure may be called `MethodRelationStructure` locally after A.22 selects it for one question and use. Its identity comes from that selection, including its constituents, obtaining relations, constraints and use frame. For another needed claim, recover the participants and the rule that defines or tests it. A local claim can suffice without a dedicated pattern or relation kind. If its governor is absent, name the missing rule and use A.6.RCD's lightest sufficient branch.
 

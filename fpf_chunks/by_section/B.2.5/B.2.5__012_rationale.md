@@ -6,12 +6,12 @@ section_id: "B.2.5:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.5/B.2.5__012_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.2.5 — Supervisor-Subholon Feedback Relation"
   - "B.2.5:9 — Rationale"
-line_start: 44821
-line_end: 44826
+line_start: 46647
+line_end: 46652
 dependencies:
   - "A.1"
   - "A.10"
@@ -45,5 +45,5 @@ keywords:
 
 Supervisor-subholon feedback is a recurring relation in control, organization, architecture, and epistemic revision. It becomes precise only when separated from part-whole composition, control-structure views, publication and source-use relations, and stronger assurance claims.
 
-The compound assertion supplies the present description use. A reusable feedback predicate or a dedicated relation kind is a further choice under A.6.RCD when a receiver needs it and the additional semantics are available. A mathematical loop remains a separately selected lens or structure.
+The compound assertion supplies the description use. A reusable feedback predicate or a dedicated relation kind is a further choice under A.6.RCD when a receiver needs it and the additional semantics are available. A mathematical loop remains a separately selected lens or structure.
 

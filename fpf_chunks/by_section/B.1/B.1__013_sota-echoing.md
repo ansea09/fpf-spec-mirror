@@ -6,12 +6,12 @@ section_id: "B.1:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1/B.1__013_sota-echoing.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.1 — Holon Aggregation and Part-Whole Construction"
   - "B.1:11 — SoTA-Echoing"
-line_start: 41194
-line_end: 41201
+line_start: 42806
+line_end: 42813
 dependencies:
   - "A.1"
   - "A.14"
@@ -35,5 +35,5 @@ For the question "does a collection-level calculation warrant treating the colle
 
 The corpus in B.1:5.2 makes the comparison concrete. Its coverage or diversity can be assessed under the collection's inclusion and characteristic rules while constructive part relations and assembly remain unestablished. Those same collection facts remain insufficient for a holon claim under A.1, even if the aggregate value is correct. B.1:4.1–4.2 therefore preserve the collection result and require the six constructive components and kind-specific conditions for the stronger holon claim. In the pump-skid case, independently grounded component relations and assembly supply the corresponding part-whole basis.
 
-This conceptual comparison settles which account these FPF claims require, with the additional construction and recognition burden made explicit for a holon claim. It does not rank external ontology or engineering methods. Reopen the choice of account when the receiving claim, construction facts or applicable identity criterion changes.
+This conceptual comparison settles which account these FPF claims require and states the additional construction and recognition burden for a holon claim. It does not rank external ontology or engineering methods. Reopen the choice of account when the receiving claim, construction facts or applicable identity criterion changes.
 

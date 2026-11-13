@@ -6,12 +6,12 @@ section_id: "A.15.2:7d"
 section_title: "SoTA Alignment"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__012_sota-alignment.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.15.2 — U.WorkPlan: Plan Content for Coordinating Future Work"
   - "A.15.2:7d — SoTA Alignment"
-line_start: 30017
-line_end: 30027
+line_start: 31099
+line_end: 31109
 dependencies:
   - "A.10"
   - "A.15"
@@ -63,7 +63,7 @@ keywords:
 | ISO 21502:2020 project-management guidance and PMBOK Guide Eighth Edition (2025), cited for planning practice | A plan declares its horizon and intended Method or Method family, adding only the baseline, dependencies, resource expectations and acceptance targets needed for current coordination. Compare planned and performed values when the receiving question needs that result. | Treating a schedule, ticket, or baseline as evidence that the Work already occurred. |
 | ISO 55000:2024 asset-management practice | Asset reservations, maintenance windows, lifecycle objectives, risk, and value expectations belong in planning until A.15.1 identifies the performed Work and the applicable change and resource-use predicates are satisfied. | Treating planned asset availability or reserved capacity as actual asset intervention or actual resource consumption. |
 | [ISO 9001:2015](https://www.iso.org/standard/62085.html) with Amendment 1:2024, a quality-planning source | Preserve planned quality objectives, acceptance targets and performance-evaluation criteria so actual results can be compared with that baseline. | Rewriting the plan after the fact so that quality, cost or schedule variance disappears. |
-| Mature adaptive-work representation practice such as OMG CMMN 1.1 (2016) | Weakly structured or ad hoc Work can still be compared with identified plan content through a local assertion, or through a direct relation when one is actually defined. | Forcing every emergency, adaptive, or consolidated Work occurrence into the original plan shape; or minting a universal fulfilment relation from one comparison. |
+| Mature adaptive-work representation practice such as OMG CMMN 1.1 (2016) | Weakly structured or ad hoc Work can still be compared with identified plan content through a local assertion, or through a direct relation when one is defined. | Forcing every emergency, adaptive, or consolidated Work occurrence into the original plan shape; or minting a universal fulfilment relation from one comparison. |
 
 
 

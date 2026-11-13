@@ -6,12 +6,12 @@ section_id: "A.3.1.MR:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MR/A.3.1.MR__006_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.3.1.MR — Candidate-Method Recovery from Work Evidence"
   - "A.3.1.MR:5 — Archetypal Grounding"
-line_start: 9938
-line_end: 9965
+line_start: 10333
+line_end: 10362
 dependencies:
   - "A.10"
   - "A.13"
@@ -53,5 +53,7 @@ Three timestamped records show that one operator checked A before B on three shi
 
 In a constructed continuation of the pump-inspection case, the supervisor needs only to compare the two candidate explanations against the four existing records before deciding how to organize the instruction material. The fixed-order and cue-responsive accounts, their separate subjects, source support and missing tactile contribution are enough for that limited comparison. Both remain provisional. No new question, fifth visit or research plan is needed to complete the requested account.
 
-If the receiving use changes to deciding whether to retain the fixed inspection order when a vibration cue is present, the cue response becomes a load-bearing distinction. State the question and preserve the unresolved boundary even when a fifth visit is unavailable. Select an actual investigation only if a suitable performer, source access, permission and window make useful discrimination worth its whole burden. Neither the useful question nor an available plan admits a Method or supplies an observed answer.
+If the receiving use changes to deciding whether to retain the fixed inspection order when a vibration cue is present, the cue response becomes a load-bearing distinction. State the question and preserve the unresolved boundary even when a fifth visit is unavailable.
+
+Select an investigation only if a suitable performer, source access, permission and window make useful discrimination worth its whole burden. Neither the useful question nor an available plan admits a Method or supplies an observed answer.
 

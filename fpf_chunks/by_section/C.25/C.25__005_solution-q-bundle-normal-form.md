@@ -6,33 +6,21 @@ section_id: "C.25:4"
 section_title: "Solution - Q-Bundle normal form"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.25/C.25__005_solution-q-bundle-normal-form.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.25 — Q-Bundle: Express a Quality Claim as One Characteristic or a Structured Bundle"
   - "C.25:4 — Solution - Q-Bundle normal form"
-line_start: 65017
-line_end: 65059
+line_start: 67925
+line_end: 67969
 dependencies:
-  - "A.10"
   - "A.15"
-  - "A.16.0"
   - "A.18"
   - "A.2.6"
   - "A.6.1"
   - "B.3"
   - "C.16"
-  - "C.16.P"
   - "C.16.Q"
-  - "C.17"
-  - "C.18"
-  - "C.19"
-  - "C.2.2a"
   - "C.26.3"
-  - "C.33"
-  - "C.34"
-  - "C.35"
-  - "F.9"
-  - "F.9.1"
 keywords:
   - "admissible quality-family use"
   - "characteristic plus scope"
@@ -65,16 +53,18 @@ The full escalation form is:
 
 `Q-Bundle := <Name, QualityBearer, ClaimScope?, WorkScope?, Measures[CHR], QualificationWindow?, Mechanisms?, Status?, Evidence?>`
 
-`Q-Bundle` names a C.25-local record-shaped portion of one episteme's exact claim content. It is not a new Kernel kind, an independently identified world object, or a second identity beside the enclosing episteme. That episteme supplies the exact claim content, one independently identified `QualityBearer` as its EntityOfConcern, and the effective reference scheme under which the quality claim is read.
+`Q-Bundle` names a C.25-local record-shaped portion of one episteme's claim content. It is not a new Kernel kind, an independently identified world object, or a second identity beside the enclosing episteme. That episteme supplies the claim content, one independently identified `QualityBearer` as its EntityOfConcern, and the effective reference scheme under which the quality claim is read.
 
-The `?` is operative: omit any optional slot unless changing it could change the current claim or receiving action. A bundle may therefore contain only Name, QualityBearer, Measures, and one load-bearing scope or window. The full tuple is an escalation aid, not a form every author must fill.
+The `?` marks an optional slot: omit that slot unless changing it could change the current claim or receiving action. A bundle may therefore contain only Name, QualityBearer, Measures, and one load-bearing scope or window. The full tuple is an escalation aid, not a form every author must fill.
 
-Changing any bundle content that changes the quality claim changes the ClaimGraph and therefore identifies another episteme under `C.2.1`. A changed layout, form, publication occurrence, or carrier can leave that episteme unchanged. A gate, publication, proxy, comparison, or roll-up cites the exact episteme or one exact `C.2.1 ClaimAddress`, meaning the exact edition plus an intrinsic claim identity declared by that edition's ClaimGraph. Later `ClaimAddress` uses in C.25 mean that same value; a field list or raw record reference is not enough.
+Changing any bundle content that changes the quality claim changes the ClaimGraph and therefore identifies another episteme under `C.2.1`. A changed layout, form, publication occurrence, or carrier can leave that episteme unchanged.
+
+A gate, publication, proxy, comparison, or roll-up cites the exact episteme or one exact `C.2.1 ClaimAddress`, meaning the exact edition plus an intrinsic claim identity declared by that edition's ClaimGraph. Later `ClaimAddress` uses in C.25 mean that same value; a field list or raw record reference is not enough.
 
 #### C.25:4.3 - Field meanings
 
 - **Name.** The engineering quality family label inside the claim content, such as `Availability`, `Resilience`, or `Security`; it is not an identity key.
-- **QualityBearer.** The one independently identified EntityOfConcern of the enclosing claim episteme. It may be an exact `U.System`, `U.PromiseContent`, `U.Episteme`, or another exact entity under its direct identity pattern. When selected organization is the subject, use one `A.22` `U.Structure` with exact constituents, selected obtaining relations, applied constraints, and one selection-use frame. A list of local system-role kinds and assignment occurrences does not by itself identify a bearer.
+- **QualityBearer.** The one independently identified EntityOfConcern of the enclosing claim episteme. It may be a `U.System`, `U.PromiseContent`, `U.Episteme`, or another entity under its direct identity pattern. When selected organization is the subject, use one `A.22` `U.Structure` with exact constituents, selected obtaining relations, applied constraints, and one selection-use frame. A list of local system-role kinds and assignment occurrences does not by itself identify a bearer.
 - **ClaimScope / WorkScope.** USM sets over `U.ContextSlice` describing where the claim holds or where the capability's deliverability claim may be evaluated. These are **set-valued scope objects**, not characteristics.
 - **Measures[CHR].** One or more admissible CHR characteristics, each bound to one declared scale.
 - **QualificationWindow.** The temporal policy under which the quality claim is judged.
@@ -83,9 +73,9 @@ Changing any bundle content that changes the quality claim changes the ClaimGrap
 
 #### C.25:4.4 - Guard reading
 
-A quality guard is conjunctive only over the truth conditions that the current claim actually declares. For example:
+A quality guard is conjunctive only over the truth conditions that the current claim declares. For example:
 
 `declared scope covers TargetSlice AND declared measures satisfy their own laws AND each other declared prerequisite holds`
 
-An absent optional slot contributes no condition. Each measure keeps its own Scale and comparison law; a trade-off, alternative, weighted combination, or partial order must be stated under the pattern that defines it rather than being smuggled into `AND`. If this typed decomposition cannot express what makes the claim true, do not force the family into C.25.
+An absent optional slot contributes no condition. Each measure keeps its own Scale and comparison law; a trade-off, alternative, weighted combination, or partial order must be stated under the pattern that defines it rather than hidden in `AND`. If this typed decomposition cannot express what makes the claim true, do not force the family into C.25.
 

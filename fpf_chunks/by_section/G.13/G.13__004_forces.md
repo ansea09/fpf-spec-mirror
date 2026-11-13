@@ -6,12 +6,12 @@ section_id: "G.13:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.13/G.13__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.13 — External Interop Hooks for SoTA Discipline Packs (conceptual)"
   - "G.13:3 — Forces"
-line_start: 132846
-line_end: 132856
+line_start: 140969
+line_end: 140979
 dependencies:
   - "A.18"
   - "A.19"
@@ -50,7 +50,7 @@ keywords:
 | ------------------------------- | ------------------------------------------------------------------------------------------------------ |
 | **Notation independence**       | Useful serialisations vs the requirement that conformance is judged on **conceptual** surfaces.        |
 | **Pluralism vs parity**         | Diverse scholarly traditions and indexes vs lawful, edition‑aware comparability and reproducibility.   |
-| **Interop as generation input** | Interop should speed SoTA authoring, not merely decorate audit reports.                                |
+| **Interop as generation input** | Interop should speed SoTA authoring. Using it only to illustrate an audit report misses that use.                                |
 | **Planes & bridges**            | Cross‑plane/context reuse must remain explicit and auditable rather than implicit in “aligners”.       |
 | **Telemetry vs dominance**      | External telemetry should inform exploration and refresh without silently changing selector semantics. |
 | **Operational drift**           | Source editions change; typed causes and payload pins must identify the affected inputs and receiving uses.  |

@@ -6,12 +6,12 @@ section_id: "C.40.OCN:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OCN/C.40.OCN__012_sota-echoing.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.40.OCN — Construct a Bounded Opportunity"
   - "C.40.OCN:11 — SoTA-Echoing"
-line_start: 86425
-line_end: 86436
+line_start: 90659
+line_end: 90670
 dependencies:
   - "A.15.9"
   - "C.11"
@@ -34,7 +34,7 @@ The working question is how to construct a useful possibility before the target 
 
 Keeney's older generation anchor informs explicit value questions; the human career framework informs that branch's alternatives and information qualification. C.18 governs any archive/front and possibility-space claim. These contributions are not interchangeable and do not, separately or together, prove practical reachability for an actual holder.
 
-The prospective construction connects neighboring-use search, a worthwhile problem and proposed contribution, support dependencies, bounded reachability and a discriminating return. An archive-only approach preserves candidates but still needs a generator and domain facts. A same-result arrangement Method is powerful after its result premise is stable; it cannot substitute for this earlier question. Conversely, once the opportunity question is settled, this Method should stop and let the exact next owner work.
+The prospective construction connects neighboring-use search, a worthwhile problem and proposed contribution, support dependencies, bounded reachability and a discriminating return. An archive-only approach preserves candidates but needs a generator and domain facts. A same-result arrangement Method is powerful after its result premise is stable; it cannot substitute for this earlier question. Conversely, once the opportunity question is settled, this Method should stop and let the next owner work.
 
 What changes in practice is concrete: “we should develop in this promising area” becomes a candidate contribution whose value, dependencies and next question can be inspected. The account can preserve a worthwhile possibility while refusing an unsupported reachability or advice claim.
 

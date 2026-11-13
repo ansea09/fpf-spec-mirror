@@ -6,12 +6,12 @@ section_id: "F.17:10"
 section_title: "Static conformance rules for a UTS"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__012_static-conformance-rules-for-a-uts.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.17 — Make a Settled Naming Decision Recoverable for Reuse (Unified Term Sheet)"
   - "F.17:10 — Static conformance rules for a UTS"
-line_start: 124359
-line_end: 124380
+line_start: 132250
+line_end: 132271
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -37,7 +37,6 @@ dependencies:
   - "F.10"
   - "F.14"
   - "F.15"
-  - "F.17"
   - "F.18"
   - "F.2"
   - "F.3"
@@ -47,7 +46,6 @@ dependencies:
   - "F.7"
   - "F.8"
   - "F.9"
-  - "G.11"
 keywords:
 ---
 
@@ -63,7 +61,7 @@ Use these checks before citing a row outside its immediate sheet.
 | UTS-SCR-04 | Each current card, cell and row meets a receiving need under F.14. Adequate ordinary wording or existing naming is reused where it supplies that result. |
 | UTS-SCR-05 | The Tech designation and any Plain designation agree with the exact current F.18 NameCard without becoming the governed value; aliases and rejected candidates remain separate. |
 | UTS-SCR-06 | Any cited `LocalSenseBasisRelation` has only its exact cell and basis episteme as participants; source-unit and publication facts remain qualifiers or neighboring objects. |
-| UTS-SCR-07 | Apply all four Bridge probes: same scheme plus same `LocalSenseClaim` plus another expression is a designation question and adds no Bridge; for the same scheme plus a different claim, use F.9 and, only for a named row use, the separate use-claim/reliance branch; a different scheme opens only the Bridge question and establishes none; no current correspondence use creates no Bridge or use claim regardless of scheme count. |
+| UTS-SCR-07 | With the same scheme and sense claim, another expression raises a designation question. Different sense claims within one scheme, or different schemes, warrant an F.9 test when the row needs a semantic correspondence. If the proposed use relies on a Bridge, check that it obtains and assess the separate use claim and reliance. Without that correspondence question, no Bridge or use claim need be added. |
 | UTS-SCR-08 | Any cited F.9 Bridge has exact endpoint cells and editions, an applicable relation-semantic profile, a true kind-defined predicate, and every required dependency. The separate affirmative C.2.1 use claim states direction, correspondence rule, and loss tolerance, with current A.10 or B.3 reliance. A negative use claim rejects that exact row use; non-passing reliance stops or narrows it; neither negates or reidentifies an otherwise obtaining Bridge. |
 | UTS-SCR-09 | A system-role-kind row does not identify `SystemRoleKindDescription`, `SystemRoleAssignment`, capability, Method, or Work with the governed kind; a status row does not turn a status family, value, or window into a system-role kind. |
 | UTS-SCR-10 | Evidence, assurance, source, publication, description, relation, slot, interface, authority, and equivalence claims use the patterns that define, constrain, or test them rather than becoming row truth. |

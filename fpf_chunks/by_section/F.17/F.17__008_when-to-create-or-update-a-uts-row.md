@@ -6,12 +6,12 @@ section_id: "F.17:6"
 section_title: "When to create or update a UTS row"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__008_when-to-create-or-update-a-uts-row.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.17 — Make a Settled Naming Decision Recoverable for Reuse (Unified Term Sheet)"
   - "F.17:6 — When to create or update a UTS row"
-line_start: 124283
-line_end: 124294
+line_start: 132172
+line_end: 132183
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -37,7 +37,6 @@ dependencies:
   - "F.10"
   - "F.14"
   - "F.15"
-  - "F.17"
   - "F.18"
   - "F.2"
   - "F.3"
@@ -47,7 +46,6 @@ dependencies:
   - "F.7"
   - "F.8"
   - "F.9"
-  - "G.11"
 keywords:
 ---
 
@@ -59,7 +57,7 @@ Create or revise one row only when all entry objects are exact and at least one 
 - durable reuse outside the immediate local repair;
 - cross-local reuse whose exact cells, any actual Bridge, separate use claim, and reliance are recoverable;
 - stable citation from examples, checks, dashboards, training material, a project standard, or a tool interface;
-- a change to the rules that define or constrain this value, or an F.18 change, that alters this exact row's value, name, sense, admitted use, or blocked use.
+- a change to the rules that define or constrain this value, or an F.18 change, that alters this row's value, name, sense, admitted use, or blocked use.
 
 Before the row, apply F.14 again. A noticed word, accepted designation, stable local sense, NameCard, Bridge description, source publication, or desire for a tidy table does not by itself meet the gate. A durable local NameCard can remain local; a cell can remain a cell; an existing row can be reused only within its admitted use.
 

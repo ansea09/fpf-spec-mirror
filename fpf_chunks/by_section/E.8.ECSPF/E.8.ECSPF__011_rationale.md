@@ -6,12 +6,12 @@ section_id: "E.8.ECSPF:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8.ECSPF/E.8.ECSPF__011_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.8.ECSPF — Author an FPF Pattern from an Accepted Evaluation CharacteristicSpace Specification"
   - "E.8.ECSPF:10 — Rationale"
-line_start: 98073
-line_end: 98076
+line_start: 103632
+line_end: 103637
 dependencies:
   - "A.19.ECS"
   - "C.25"
@@ -28,5 +28,7 @@ keywords:
 
 ### E.8.ECSPF:10 - Rationale
 
-The split between `A.19.ECS` and `E.8.ECSPF` preserves the distinction between an evaluation characteristic-space specification, the pattern that teaches its use, a later evaluation, and the resulting record. `A.19.ECS` says what the specification must contain. `E.8.ECSPF` says how to carry that accepted content into an FPF pattern when durable publication is selected. This prevents two symmetric mistakes: stuffing FPF pattern-format requirements into a general characteristic-space construction method, and publishing guidance whose accepted coordinate set is not recoverable by value.
+The split between `A.19.ECS` and `E.8.ECSPF` preserves the distinction between an evaluation characteristic-space specification, the pattern that teaches its use, a later evaluation, and the resulting record. `A.19.ECS` says what the specification must contain. `E.8.ECSPF` says how to carry that accepted content into an FPF pattern when durable publication is selected.
+
+This prevents two symmetric mistakes: stuffing FPF pattern-format requirements into a general characteristic-space construction method, and publishing guidance whose accepted coordinate set is not recoverable by value.
 

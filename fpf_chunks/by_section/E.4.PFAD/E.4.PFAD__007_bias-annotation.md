@@ -6,12 +6,12 @@ section_id: "E.4.PFAD:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFAD/E.4.PFAD__007_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.4.PFAD — Principle-Framework Architecture Decision"
   - "E.4.PFAD:6 — Bias-Annotation"
-line_start: 94545
-line_end: 94566
+line_start: 99332
+line_end: 99353
 dependencies:
   - "A.15.1"
   - "A.22"
@@ -53,17 +53,17 @@ keywords:
 
 ### E.4.PFAD:6 - Bias-Annotation
 
-**Scope: limited.** This profile decides a later-used architecture boundary for an FPF-grounded framework, adjacent result or service, thinner route, existing-framework contribution, or stop. It does not provide a universal product ontology, a service-design Method, a publication taxonomy, or a mandatory decision form for exploration.
+**Scope.** This profile decides a later-used architecture boundary for an FPF-grounded framework, adjacent result or service, thinner route, existing-framework contribution, or stop. It does not provide a universal product ontology, a service-design Method, a publication taxonomy, or a mandatory decision form for exploration.
 
-The first drift is form-first decision making: a team starts from a schema, row, ADR heading, or status field and assumes that filling it has settled the architecture. Start from the reader's problem, alternatives, later-used boundary, and practical consequence instead.
+A team can mistake form for a decision when it starts from a schema, row, ADR heading, or status field and assumes that filling it has settled the architecture. Start from the reader's problem, alternatives, later-used boundary, and practical consequence.
 
-The second drift is machinery-first entry: proposal, dependency, quality, naming, and publication apparatus appears before the reader knows whether a framework decision is needed. Keep that apparatus conditional on its own receiving use.
+Proposal, dependency, quality, naming, and publication material can appear before the reader knows whether a framework decision is needed. Include each item when a named use calls for it.
 
-The third drift is slice-as-product: the small set currently being authored receives a broad DPF name before its field promise, several problem families, representative first use, omissions, and refresh boundary have been tested. Treat the slice as a seed or existing-framework contribution until the field-boundary assessment supports a DPF.
+A small set of patterns under development can receive a broad DPF name before its field promise, several problem families, representative first use, omissions, and refresh boundary have been tested. Treat the slice as a seed or existing-framework contribution until the field-boundary assessment supports a DPF.
 
-The fourth drift is architecture-by-layout: source rows, levels, chapters, or diagrams become the product structure. Recover the Methods, Work, subjects, descriptions, capabilities, providers, cultural change, and their actual relations first; use `C.32.MWA` when several structures must be reconciled.
+Authors can mistake source rows, levels, chapters, or diagrams for the product structure. Recover the Methods, Work, subjects, descriptions, capabilities, providers, cultural change, and their actual relations first. Use `C.32.MWA` when several structures must be reconciled.
 
-The fifth drift is relation-by-representation: a table row or reference list is treated as the relation it records. State the relation directly; add a representation only when a named maintenance or checking use needs it.
+Authors can mistake a table row or reference list for the relation it records. State which relation holds. Add a representation only when a named maintenance or checking use needs it.
 
 | Lens | Declared bias and counter-check |
 | --- | --- |

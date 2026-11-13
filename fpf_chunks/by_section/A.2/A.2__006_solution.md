@@ -6,24 +6,20 @@ section_id: "A.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2/A.2__006_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.2 — System-Role Kinds and Assignments"
   - "A.2:4 — Solution"
-line_start: 4533
-line_end: 4670
+line_start: 4679
+line_end: 4818
 dependencies:
   - "A.1"
-  - "A.1.1"
   - "A.15"
   - "A.2.1"
   - "A.2.5"
   - "A.2.7"
-  - "A.6.0"
-  - "A.6.5"
   - "A.6.REL"
   - "A.6.RSIR"
-  - "C.2.1"
   - "C.3"
   - "C.3.1"
   - "C.3.2"
@@ -41,7 +37,7 @@ keywords:
 
 ### A.2:4 - Solution
 
-Use an exact local `U.Kind` when `U.System` candidates need one stable, assignable, work-facing membership distinction. Recover the kind through the candidate domain, operative condition, useful member/non-member boundary, and continuity rule. Keep practice or source provenance as a locator and comparison cue. Give a live technical name the `SystemRole` head, such as `ReviewerSystemRole` or `CoolingCirculatorSystemRole`. Do not introduce `U.SystemRole`; the concrete value is already a local `U.Kind` under C.3.
+Use a local `U.Kind` when `U.System` candidates need one stable, assignable, work-facing membership distinction. Recover the kind through the candidate domain, operative condition, useful member/non-member boundary, and continuity rule. Keep practice or source provenance as a locator and comparison cue. Give a live technical name the `SystemRole` head, such as `ReviewerSystemRole` or `CoolingCirculatorSystemRole`. Do not introduce `U.SystemRole`; the concrete value is already a local `U.Kind` under C.3.
 
 Then keep four moves separate:
 
@@ -84,7 +80,9 @@ Every `U.SubkindOf` proposal evaluates the aligned narrower and broader signatur
 
 The system-role kind is not its `KindSignature`, taxonomy episteme, reference scheme, classification judgment, or `KindExtension`. Same-kind continuity across declaration editions requires the C.3.1 comparison of candidate domain, operative membership distinction, member/non-member boundary, and continuity rule. A compatible criterion or scheme edition can preserve the kind while later judgments cite the edition actually used. A changed source or practice triggers that comparison but does not decide it.
 
-An old role taxonomy or scheme can help recover the candidate domain, membership distinction, boundary probes, continuity rule, or provenance of the current definition. Its label or identifier does not decide sameness. A selected `BoundedModelUseStructure` can qualify one receiving interpretation when that independently established organization matters; it is designated in the receiving assertion or use and is stored neither on the kind nor as an optional participant of a generic assignment or kind relation. A genuinely structure-dependent relation species instead declares the structure as a required participant, uses the stronger predicate, and states the resulting occurrence-identity law.
+An old role taxonomy or scheme can help recover the candidate domain, membership distinction, boundary probes, continuity rule, or provenance of the current definition. Its label or identifier does not decide sameness.
+
+A selected `BoundedModelUseStructure` can qualify one receiving interpretation when that independently established organization matters; it is designated in the receiving assertion or use and is stored neither on the kind nor as an optional participant of a generic assignment or kind relation. A structure-dependent relation species instead declares the structure as a required participant, uses the stronger predicate, and states the resulting occurrence-identity law.
 
 Use `A.1.1` before citing that structure. Select `BoundedModelUseStructure` only when exact model applicability, actual model use in assigned Work, fixed-content expression coherence, exact applied constraints, and one named selection-use frame jointly change the receiving decision. If the direct kind, relation, assertion, or Bridge already answers the question, stop there; neither a model-use label nor a wish for more background selects the structure.
 
@@ -128,13 +126,13 @@ Assignment does not prove classification unless the kind's signature uses that i
 | Capability | `A.2.2` | holder, qualified ability claim, work conditions, attained bounds, currentness and fit predicate |
 | Relations among system-role kinds | `A.2.7`, `C.3.1` | exact kind participants and substitution, incompatibility, bundle, or monotonic qualification relation |
 | Description and naming | `F.4`, `F.5`, `F.18` | kind, `SystemRoleKindDescription`, names, and publication or access carrier |
-| Method and Work | `A.3`, `A.13`, `A.15.1`, `F.6` | Method and MethodDescription; exact actual performer recovered through A.13; independently admitted Work occurrence; assignment and F.6 attribution only when precise assignment-bound attribution is expressly consumed |
+| Method and Work | `A.3`, `A.13`, `A.15.1`, `F.6` | Method and MethodDescription; actual performer recovered through A.13; independently admitted Work occurrence; assignment and F.6 attribution only when precise assignment-bound attribution is expressly consumed |
 | Responsibility, commitment, permission, or authority | direct domain pattern, `A.2.8`, `A.2.8.PER`, or `missing-governor` | actual bearer, exact relation participants, predicate, and instituting or permission basis |
 | Evidence, reliance, or publication | `A.10`, `A.15.4`, `B.3`, `C.2.1`, `E.17`, `F.10` | episteme, evidenced claim, reliance, provenance, currentness, and publication relation |
 
 Select only the objects needed by the current claim. None of these values is a “part of the role”.
 
-`SystemRoleKindDescription` is an F.4 description episteme whose exact EntityOfConcern is one system-role kind. An episteme about an assignment or a relation among kinds has that assignment or relation as its EntityOfConcern instead.
+`SystemRoleKindDescription` is an F.4 description episteme whose EntityOfConcern is one system-role kind. An episteme about an assignment or a relation among kinds has that assignment or relation as its EntityOfConcern instead.
 
 #### A.2:4.7 - Recover Contribution Wording before Formalizing It
 

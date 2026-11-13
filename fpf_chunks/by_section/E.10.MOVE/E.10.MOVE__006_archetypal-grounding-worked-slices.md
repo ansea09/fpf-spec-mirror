@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.10.MOVE"
-pattern_title: "Move, Readiness and Trajectory Wording Precision Restoration"
+pattern_title: "Clarify Wording About Moves, Readiness and Trajectories"
 section_id: "E.10.MOVE:5"
 section_title: "Archetypal Grounding - Worked Slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.MOVE/E.10.MOVE__006_archetypal-grounding-worked-slices.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "E.10.MOVE — Move, Readiness and Trajectory Wording Precision Restoration"
+  - "E.10.MOVE — Clarify Wording About Moves, Readiness and Trajectories"
   - "E.10.MOVE:5 — Archetypal Grounding - Worked Slices"
-line_start: 101378
-line_end: 101460
+line_start: 107064
+line_end: 107164
 dependencies:
   - "A.1.STM"
   - "A.10"
@@ -57,7 +57,7 @@ keywords:
 
 Source sentence: "The next mantra move is to compare the two patterns."
 
-For the post-qualification demonstrative case, recover one E.11.PUA practice-continuation description inside a named post-qualification demonstrative slice. The description states its proposed use, expected result and kind, direct PatternID and name, current condition, and continuation disposition. That PatternID locates the applicable pattern. If the pattern choice is unresolved, the description may point to a separate nested selection question.
+For the demonstrative case, recover one E.11.PUA practice-continuation description inside a named post-qualification demonstrative slice. The description states its proposed use, expected result and kind, direct PatternID and name, current condition, and continuation disposition. That PatternID locates the applicable pattern. If the pattern choice is unresolved, the description may point to a separate nested selection question.
 
 Selected fields of an optional note; include `BlockedOverread` only for an observed or independently grounded misreading:
 
@@ -78,13 +78,19 @@ ReopenCondition: the enclosing structure or slice boundary changes, the E.11.PUA
 
 Source sentence: "The repair should create an upward evaluation movement."
 
-If the claim predicts a later evaluation result, restore the evaluation pattern, coordinate, scale, current result, one expected scale value, range, or closed direction, candidate proposal basis, and protected tradeoffs. Keep an ordinary prediction description when it is sufficient; use `ExpectedEvaluationResultChange@Context` only when E.23's conditional account is needed for the receiving use. If those positions are unavailable, keep a provisional prediction description or use E.22 and E.23 to obtain the missing prediction basis.
+If the claim predicts a later evaluation result, restore the evaluation pattern, coordinate, scale, current result, one expected scale value, range, or closed direction, candidate proposal basis, and protected tradeoffs. Keep an ordinary prediction description when it is sufficient; use `ExpectedEvaluationResultChange@Context` only when E.23's conditional account is needed for the receiving use.
+
+If those positions are unavailable, keep a provisional prediction description or use E.22 and E.23 to obtain the missing prediction basis.
 
 #### E.10.MOVE:5.3 - Next FPF use
 
 Source sentence: "The next FPF move is to check architecture."
 
-If this is a project-local recommendation, recover its applicability, expected result, worth and boundary under E.11.PUR, and identify the architecture pattern being recommended. Materialize PatternUseRecommendation@Context only when a named later use needs the recommendation addressable. With this sentence alone, the architecture, check question, and expected result remain unspecified. Return the blocker: "Specify which architecture is to be checked, which question the check must answer, and which result is required." Once those are known, the recommendation may say "next useful pattern use" and name the operation on that architecture and its expected result.
+If this is a project-local recommendation, recover its applicability, expected result, worth and boundary under E.11.PUR, and identify the architecture pattern being recommended. Materialize PatternUseRecommendation@Context only when a named later use needs the recommendation addressable.
+
+With this sentence alone, the architecture, check question, and expected result remain unspecified. Return the blocker: "Specify which architecture is to be checked, which question the check must answer, and which result is required."
+
+Once those are known, the recommendation may say "next useful pattern use" and name the operation on that architecture and its expected result.
 
 #### E.10.MOVE:5.4 - TameFlow `MOVE`
 
@@ -110,7 +116,11 @@ Use A.10 to recover the selected claim, exact sources, independently established
 
 Source sentence: "The next move is to heat-treat the shaft."
 
-If this names the reusable way of changing the shaft, recover the Method under A.3.1; use A.3.2 only if the claim depends on a particular episteme's MethodDescription membership. If it places a heat-treatment operation in intended work, recover the WorkPlan or PlanItem under A.15.2. If heat treatment has occurred, recover the dated A.15.1 Work occurrence, affected shaft, method enactment, and result. If the question is whether that intended work can start, recover A.15.5 work-entry readiness. If the receiving context does not select among them, return the blocker: "Specify whether this describes the heat-treatment method, plans the work, reports completed heat treatment, or asks whether the planned work can start."
+If this names the reusable way of changing the shaft, recover the Method under A.3.1; use A.3.2 only if the claim depends on a particular episteme's MethodDescription membership. If it places a heat-treatment operation in intended work, recover the WorkPlan or PlanItem under A.15.2.
+
+If heat treatment has occurred, recover the dated A.15.1 Work occurrence, affected shaft, method enactment, and result. If the question is whether that intended work can start, recover A.15.5 work-entry readiness.
+
+If the receiving context does not select among them, return the blocker: "Specify whether this describes the heat-treatment method, plans the work, reports completed heat treatment, or asks whether the planned work can start."
 
 #### E.10.MOVE:5.8 - Clinical readiness
 
@@ -124,13 +134,21 @@ Initial sentence: "The next mantra move is: name the thing."
 
 An initial repair classified the phrase as `boundedDemonstratedContinuation`. Inspection then shows that the enclosing text is A.6.P's local RPR mantra: a short rendering of the A.6.P Solution. It has no qualifying wider `ConstraintGovernedUnfoldingStructure@Context`, no post-qualification slice of an independently qualified CGUS, and no E.11.PUA practice-continuation description with the required proposed use, expected result, pattern, condition, and disposition.
 
-That evidence overturns the initial disposition. Remove the demonstrated-continuation claim, retain the local RPR mantra as Plain didactic wording, use the A.6.P Solution and its direct relation-recovery guidance, and write: "Apply the first clause of the local RPR mantra: name the thing; then recover the relation or comparison." The `A.6.P` locator and Solution establish neither a `U.Method` nor a `U.MethodDescription`. Establish a separate `U.Method`, a qualifying `U.MethodDescription` episteme, and any Method-use relation only if A.3.1 and A.3.2 independently admit them and the receiving claim depends on those identities. Reopen the demonstrative-slice question only if a later qualified structure and slice actually show a complete E.11.PUA practice-continuation description.
+That evidence overturns the initial disposition. Remove the demonstrated-continuation claim, retain the local RPR mantra as Plain didactic wording, use the A.6.P Solution and its direct relation-recovery guidance, and write: "Apply the first clause of the local RPR mantra: name the thing; then recover the relation or comparison."
+
+The `A.6.P` locator and Solution establish neither a `U.Method` nor a `U.MethodDescription`. Establish a separate `U.Method`, a qualifying `U.MethodDescription` episteme, and any Method-use relation only if A.3.1 and A.3.2 independently admit them and the receiving claim depends on those identities.
+
+Reopen the demonstrative-slice question only if a later qualified structure and slice actually show a complete E.11.PUA practice-continuation description.
 
 #### E.10.MOVE:5.10 - Trajectory under changing constraints
 
 Constructed wording for repair: `Our architecture follows a trajectory under changing constraints.`
 
-Read the sentence through `F.19` first. If it means only that the team expects to revise the architecture as constraints change, state that proposed action directly. When an FPF inference relies on the trajectory claim, recover the exact architecture or system subject, the changing constraints and reference window, whether the sentence concerns actual changes to the architecture, editions of its description, a proposed evolution policy, or a modelled sequence, and the direct architecture, transformation, or model owner. For a C.29 curve or ordered rendering, name its correspondence to the architecture and the losses allowed by that use; establish transformation and evidence claims under their direct owners.
+Read the sentence through `F.19` first. If it means only that the team expects to revise the architecture as constraints change, state that proposed action directly.
+
+When an FPF inference relies on the trajectory claim, recover the exact architecture or system subject, the changing constraints and reference window, whether the sentence concerns actual changes to the architecture, editions of its description, a proposed evolution policy, or a modelled sequence, and the direct architecture, transformation, or model owner.
+
+For a C.29 curve or ordered rendering, name its correspondence to the architecture and the losses allowed by that use; establish transformation and evidence claims under their direct owners.
 
 Overlap example: `The development trajectory improved.` Start with `E.10.DEV` to recover the developed subject and the basis of *improved*. Open this branch only when a separately relied-on ordered path, model, plan, or representation remains. Stop when the recovered direct claim answers the question.
 

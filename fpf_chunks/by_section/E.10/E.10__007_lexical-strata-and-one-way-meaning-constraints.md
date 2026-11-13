@@ -6,12 +6,12 @@ section_id: "E.10:5"
 section_title: "Lexical strata and one-way meaning constraints"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__007_lexical-strata-and-one-way-meaning-constraints.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:5 — Lexical strata and one-way meaning constraints"
-line_start: 99733
-line_end: 99749
+line_start: 105300
+line_end: 105316
 dependencies:
   - "A.10"
   - "A.15"
@@ -64,14 +64,14 @@ keywords:
 
 1. **Kernel** — admitted `U.*` names, core relation kinds, and invariants (for example `U.Holon`, `U.SystemRoleAssignment`, `U.Method`, `U.Work`, and `U.PromiseContent`).
 2. **Extension patterns** — CAL, LOG, and CHR exports (e.g., **Sys‑CAL**, **KD‑CAL**, **Agency‑CHR**) that **extend** but do not override Kernel.
-3. **Local use** — the exact source or practice boundary, effective scheme, local meaning statements, aliases, local kind distinctions and classification rules that the use actually needs; cite an F.9 Bridge only when an exact relation between distinct local senses obtains.
+3. **Local use** — the exact source or practice boundary, effective scheme, local meaning statements, aliases, local kind distinctions and classification rules that the use needs; cite an F.9 Bridge only when an exact relation between distinct local senses obtains.
 4. **Instance** — concrete identifiers for admitted holder Systems, exact `U.SystemRoleAssignment` occurrences, Work occurrences, and carriers.
 
 **V‑1 (Unidirectional meaning).** The relation between these lexical strata is a constraint on meaning in the direction Kernel → extension patterns → local use → Instance. Each arrow says that the preceding stratum constrains the next; it does not describe their position on a page. A local source, practice, or scheme may add a narrower designation or distinction, but it does not silently redefine a constraining stratum's term; any actual relation between distinct local senses is stated separately.
 
 **V‑2 (Strata and authoring stances).** The four lexical strata above constrain **tokens**. They are independent of a claim-bearing unit's **stance** (its `CtxState` pins such as `DesignRunTag`, `ReferencePlane`, and `Locus`). Strata answer “what words mean here”; stance answers “where this claim is situated” and which evidence-lane expectations apply.
 
-**V-3 (Citation style).** When a local Tech designation changes interpretation or action, its first use names the source or practice provenance and effective scheme needed to read that use—for example, `ReviewerSystemRole` under the JournalReview-2026 definition. Reuse under another local meaning first compares the exact governed values; use F.9 only if a direct Bridge between distinct exact cells actually obtains. A suffix may serve as a locator, but it establishes neither kind identity, admission, nor assignment.
+**V-3 (Citation style).** When a local Tech designation changes interpretation or action, its first use names the source or practice provenance and effective scheme needed to read that use—for example, `ReviewerSystemRole` under the JournalReview-2026 definition. Reuse under another local meaning first compares the exact governed values; use F.9 only if a direct Bridge between distinct exact cells obtains. A suffix may serve as a locator, but it establishes neither kind identity, admission, nor assignment.
 
 **V-4 (Firewall).** Abstract Core definitions exclude incidental implementation idioms under E.5.1. Exact concrete syntax may remain when a rule governs that publication form, protocol or grammar and the syntax is necessary for its conformance condition; name the subject and edition/use boundary. Runnable teaching programs remain in Pedagogy/Tooling, with conceptual references and Tech anchors as applicable. Mathematical expressions retain E.5.2 interpretation, operative-use and mapping duties.
 

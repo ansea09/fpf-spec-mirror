@@ -6,12 +6,12 @@ section_id: "B.2.3:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.3/B.2.3__004_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.2.3 — Meta-Holon Transition With Episteme Result"
   - "B.2.3:2 — Problem"
-line_start: 44217
-line_end: 44227
+line_start: 46005
+line_end: 46015
 dependencies:
   - "A.1"
   - "A.10"
@@ -43,5 +43,5 @@ Confusing the episteme with its collection, representation, or publication can p
 3. **Episteme receives agency.** The theory, standard, or doctrine is described as if it performs work or enforces behavior by itself.
 4. **Morphing becomes MHT.** A view, retargeting, coarsening, translation, or model transformation is treated as establishing B.2 whole reidentification by itself.
 5. **Assurance is inherited silently.** Trust in constituent sources is treated as trust in the reidentified episteme whole.
-6. **Generic emergence replaces claim structure.** "Emergent theory" hides the actual claim graph, reference scheme, and grounding relation.
+6. **Generic emergence replaces claim structure.** "Emergent theory" hides the claim graph, reference scheme, and grounding relation.
 

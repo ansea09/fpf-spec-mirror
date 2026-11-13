@@ -6,12 +6,12 @@ section_id: "C.2.4:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.4/C.2.4__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.2.4 — Articulation Explicitness — How Explicit Is an Episteme's Meaning for Its Use?"
   - "C.2.4:7 — Conformance Checklist"
-line_start: 53768
-line_end: 53774
+line_start: 56001
+line_end: 56007
 dependencies:
   - "A.13"
   - "A.15"
@@ -50,5 +50,5 @@ keywords:
 - `CC-C.2.4-2` A route change **SHOULD** require the local articulation threshold declared for that receiving branch; `A.6.P` applies only to a current relational branch.
 - `CC-C.2.4-3` `AE` judgements that drive routing or use **SHALL** cite the anchors, participants, actions, conditions, bounds, or other branch-appropriate structure that justifies the chosen level.
 - `CC-C.2.4-4` Raising `AE` **SHALL NOT** be described as if it automatically settled closure, truth, trust, authority, or admissibility.
-- `CC-C.2.4-5` Relation-shaped notation **SHALL NOT** raise the level or select `A.6.P` when the actual claim belongs to another branch.
+- `CC-C.2.4-5` Relation-shaped notation **SHALL NOT** raise the level or select `A.6.P` when the claim belongs to another branch.
 

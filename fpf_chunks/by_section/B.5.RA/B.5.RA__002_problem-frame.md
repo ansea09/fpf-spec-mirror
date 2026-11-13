@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.5.RA"
-pattern_title: "Recover an Argument for Its Next Use"
+pattern_title: "Recover an Argument for Use"
 section_id: "B.5.RA:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.RA/B.5.RA__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "B.5.RA — Recover an Argument for Its Next Use"
+  - "B.5.RA — Recover an Argument for Use"
   - "B.5.RA:1 — Problem frame"
-line_start: 47915
-line_end: 47924
+line_start: 49921
+line_end: 49930
 dependencies:
   - "B.5"
   - "B.5.MPC"
@@ -25,11 +25,11 @@ keywords:
 
 ### B.5.RA:1 - Problem frame
 
-Use this pattern when you have an argument or a reported result but cannot yet understand why it supports the conclusion you want to use. Ordinary prose or dialogue may leave the argument itself uncertain: which claims are being made, which reasons work together and what the speaker is trying to establish. You may need to apply the result, criticize it, explain its decisive step or decide which part survives a proposed change.
+Use this pattern when you have an argument or a reported result but cannot understand why it supports the conclusion you want to use. Ordinary prose or dialogue may leave the argument uncertain: which claims are being made, which reasons work together and what the speaker is trying to establish. You may need to apply the result, criticize it, explain its decisive step or decide which part survives a proposed change.
 
 The **argument** is the reasoning that connects premises to a conclusion. It may use a mathematical construction, a calculation or a subject inference from observations. The relevant practice supplies the permitted inference and the grounds for its premises.
 
 **First useful move:** state what you want to do with the conclusion, then recover the main reason offered for it. Follow the needed intermediate claims until you can explain the decisive transition and its conditions.
 
-The reader needs the subject preparation assumed by the source, or access to the missing explanation. Use an adequately understood result directly when its conditions already fit the task. A request to understand the argument can stop before re-proving every established result it uses. A separate obligation to validate the entire proof or underlying observations selects the corresponding checking work.
+The reader needs the subject preparation assumed by the source, or access to the missing explanation. Use an adequately understood result when its conditions fit the task. A request to understand the argument can stop before re-proving every established result it uses. A separate obligation to validate the entire proof or underlying observations selects the corresponding checking work.
 

@@ -6,12 +6,12 @@ section_id: "C.2.3:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.3/C.2.3__010_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.2.3 — Formality of an Episteme"
   - "C.2.3:9 — Consequences"
-line_start: 53199
-line_end: 53207
+line_start: 55424
+line_end: 55432
 dependencies:
   - "A.16"
   - "A.18"
@@ -40,7 +40,7 @@ keywords:
 | Benefit | Trade-off and response |
 | --- | --- |
 | Adequate expressions remain usable across different formal traditions. | Comparison needs shared property meanings, not only matching numbers. |
-| Formalization work targets the actual obstacle. | The recipient must state the operation and result that matter. |
+| Formalization work targets the obstacle. | The recipient must state the operation and result that matter. |
 | Composite arguments expose missing connections. | The assessment must include the relevant whole and its essential inferences. |
 | Expression, scope and support remain distinct. | A concise assessment sometimes needs more than one sentence; it need not become a universal form. |
 

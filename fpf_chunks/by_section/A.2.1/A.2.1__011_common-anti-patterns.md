@@ -6,14 +6,13 @@ section_id: "A.2.1:9"
 section_title: "Common Anti-Patterns"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.1/A.2.1__011_common-anti-patterns.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.2.1 — U.SystemRoleAssignment - Contextual System-Role Assignment"
   - "A.2.1:9 — Common Anti-Patterns"
-line_start: 5171
-line_end: 5183
+line_start: 5345
+line_end: 5357
 dependencies:
-  - "A.1.1"
   - "A.15"
   - "A.15.1"
   - "A.2"
@@ -22,14 +21,9 @@ dependencies:
   - "A.2.7"
   - "A.3"
   - "A.6.5"
-  - "A.6.9"
   - "A.6.REL"
   - "C.2.1"
-  - "C.27"
-  - "C.27.TA"
-  - "C.3.3"
   - "F.6"
-  - "F.9"
 keywords:
   - "assignment predicate"
   - "direct assignment species"
@@ -51,5 +45,5 @@ keywords:
 | Assignment proves Work | Holding is confused with dated performance. | Use A.13 to identify each actual performer and A.15.1 to admit the Work independently. Add F.6 only if the current use also needs the exact assignment under which that Work was performed; a missing or failed check leaves the Work intact. |
 | Durable `RoleEnactment` object | It duplicates Work and attribution. | Use A.13 to identify the actual performer and A.15.1 to admit the dated Work independently. Add the exact assignment and F.6 only if the current use must also say under which assignment the Work was performed; do not mint a duplicate occurrence. |
 | Report holds a system-role assignment | An episteme is made a holder by usefulness. | Use its direct evidence, result, source-use, or publication relation. |
-| Optional `ContextSlot` everywhere | Unrelated locality, scope, structure, and locus meanings collapse. | Recover the denoted object and declare it only when a direct species truly depends on it. |
+| Optional `ContextSlot` everywhere | Unrelated locality, scope, structure, and locus meanings collapse. | Recover the denoted object and declare it only when a direct species depends on it. |
 

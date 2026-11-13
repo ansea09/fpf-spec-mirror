@@ -6,12 +6,12 @@ section_id: "A.6.C:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.C/A.6.C__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.C — Contract Unpacking for Boundaries"
   - "A.6.C:2 — Problem"
-line_start: 15510
-line_end: 15518
+line_start: 16021
+line_end: 16029
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -34,7 +34,7 @@ dependencies:
   - "U.SpeechAct"
   - "U.Work"
 keywords:
-  - "A.6.B separately classifies the actual claim"
+  - "A.6.B separately classifies the claim"
   - "MVPK no-new-semantics"
   - "OPTIONAL or authority-looking wording is ambiguous"
   - "atomic L/A/D/E rows"
@@ -60,6 +60,6 @@ How can an author write (or repair) contract-language so that:
 
 1. **Act and commitment claims name compatible participants**, without mistaking an interface description for the actual interface or its bearer,
 2. **Governance claims** are distinguishable from permission-looking gate, exercise, evaluation, conflict, and source claims by the job of each atomic statement rather than by A.2.8.PER membership,
-3. **Operational “guarantees”** become adjudicable by recovering the exact claim, the facts its predicate requires, and the grounds for any receiving reliance; the answer may be a supported result or an unresolved claim with its missing basis,
-4. **Multi-view publication** (MVPK faces) does not create a parallel contract object or rival canonical claim set by paraphrase drift?
+3. **Operational “guarantees”** become adjudicable by recovering the claim, the facts its predicate requires, and the grounds for any receiving reliance; the answer may be a supported result or an unresolved claim with its missing basis,
+4. **Multi-view publication** (MVPK faces) does not create a parallel contract object or another canonical claim set by paraphrase drift?
 

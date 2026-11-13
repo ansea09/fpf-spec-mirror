@@ -6,12 +6,12 @@ section_id: "A.2.2:10"
 section_title: "Anti-Patterns and Repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__011_anti-patterns-and-repairs.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.2.2 — System Capability: Conditions, Measures and Fit"
   - "A.2.2:10 — Anti-Patterns and Repairs"
-line_start: 5485
-line_end: 5501
+line_start: 5675
+line_end: 5691
 dependencies:
   - "A.1"
   - "A.15"
@@ -38,7 +38,7 @@ keywords:
 | System-role-kind-as-capability | “The inspector role can detect this defect.” | Treat bare *role* through E.10.ROLE; retain the exact local system-role kind and any independently obtaining assignment, then state capability for the holder System only when the bounded capability claim and current support justify it. |
 | Assignment-as-capability | "Assigned, therefore able." | Use A.2.1 for assignment and A.2.2 for the qualified holder ability. |
 | Capability attributed to a procedure | "The procedure has capability" | Keep capability with the holder system. |
-| Unjustified `U.MethodDescription` admission | Treating "the solver has the algorithm" as sufficient for `U.MethodDescription` admission. | Treat procedure or algorithm wording as a cue to one candidate episteme only when that is the actual object; admit it as `U.MethodDescription` through A.3.2 only after its exact `EntityOfConcern` is an admitted Method and a substantive claim says how that Method is done. |
+| Unjustified `U.MethodDescription` admission | Treating "the solver has the algorithm" as sufficient for `U.MethodDescription` admission. | Treat procedure or algorithm wording as a cue to one candidate episteme only when that is the object; admit it as `U.MethodDescription` through A.3.2 only after its exact `EntityOfConcern` is an admitted Method and a substantive claim says how that Method is done. |
 | Work-as-capability | "We did it once, so we can." | Keep the work occurrence; add a separate capability claim only when envelope, measures, and currentness are justified. |
 | Promise-as-capability | "The SLA is our capability." | Use promise content or commitment for what is offered; capability is the internal measured ability that makes the promise credible. |
 | Episteme-as-holder | "The report has assessment capability." | Use evidence, source, status, or assessment relation for the episteme; capability holder remains a system. |

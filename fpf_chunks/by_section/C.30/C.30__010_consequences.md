@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.30"
-pattern_title: "Grounded Architecture and Selected-Structure Adequacy"
+pattern_title: "Architecture and Selected-Structure Adequacy"
 section_id: "C.30:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30/C.30__010_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "C.30 — Grounded Architecture and Selected-Structure Adequacy"
+  - "C.30 — Architecture and Selected-Structure Adequacy"
   - "C.30:9 — Consequences"
-line_start: 71986
-line_end: 71994
+line_start: 75079
+line_end: 75087
 dependencies:
   - "A.1"
   - "A.10"
@@ -78,7 +78,7 @@ keywords:
 
 | Benefit | Cost or trade-off |
 | --- | --- |
-| Actual architecture relations and modal architecture claims become separable from diagrams, publications, generated relation graphs, ADRs, module lists, and decisions. | A conforming use recovers actual subject relations, selected A.22 structure, direct-relation disposition, exact claim EntityOfConcern and effective reference scheme, and the exact inspected-material use when relevant. |
+| Actual architecture relations and modal architecture claims become separable from diagrams, publications, generated relation graphs, ADRs, module lists, and decisions. | A conforming use recovers actual subject relations, selected A.22 structure, direct-relation disposition, claim EntityOfConcern and effective reference scheme, and the inspected-material use when relevant. |
 | The pattern enables first-principles architecture reasoning without forcing full measurement, synthesis, assurance, or decision machinery. | Some familiar architecture phrases become triggers for quick recovery rather than accepted claims. |
 | Functional, flow, control, module structure, interface relation, information structure, placement structure, scale structure, work structure, evidence relation, and declared logical structures can coexist without one structure kind swallowing the rest. | Use `C.30.ASV` to test structural-view adequacy when an explicit view application is needed. |
 | C.29, E.18, LCA, module-and-interface repair, evidence, assurance, and gate patterns can define or test source and reliance claims used in architecture work without adding them to architecture ontology. | Name the applicable pattern and the source or reliance relation whenever the use goes beyond C.30 architecture-claim, selected-structure, or conditional description-use scope. |

@@ -6,12 +6,12 @@ section_id: "C.40.JD:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.JD/C.40.JD__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.40.JD — Develop a Way, Its Holder and Its Provision Together"
   - "C.40.JD:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 88813
-line_end: 88822
+line_start: 93075
+line_end: 93084
 dependencies:
   - "A.12"
   - "C.32.MWA.PP"
@@ -30,7 +30,7 @@ keywords:
 | --- | --- |
 | Train everyone after a tool removed the operation | Recover whether independent mastery remains an intended result. |
 | Claim recipient capability from the adviser’s result | Examine the recipient’s consequential operation under declared support. |
-| Treat a department name as the arrangement | Recover actual work, capability, access and authority. |
+| Treat a department name as the arrangement | Recover work, capability, access and authority. |
 | Require the target judgement to acquire itself | Supply an attainable prior operation or qualified external contribution. |
-| Treat a role or later version as an internal part | Establish actual part relations only when Reflexive Split is used. |
+| Treat a role or later version as an internal part | Establish part relations only when Reflexive Split is used. |
 

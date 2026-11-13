@@ -6,12 +6,12 @@ section_id: "G.5:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__002_use-this-when.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.5 — Method-Family Registry, Dispatch and Selected-Set Result Declaration"
   - "G.5:0 — Use this when"
-line_start: 129125
-line_end: 129234
+line_start: 137177
+line_end: 137286
 dependencies:
   - "C.11"
   - "C.18"
@@ -59,37 +59,37 @@ Use `G.5` to declare a selector-facing result when several already identified ca
 
 Use `Shortlist` or `RankedShortlist` for alternatives retained for later choice. Use `JointUseSet` only when every named member is included for one bounded use. This joint-use branch consumes exact member identities under their own rules; it does not require `MethodRef`, a method-family registry row, or Method classification for framework editions or other non-Method values.
 
-When an earlier choice or other current inclusion basis has already fixed the exact members, use `G.5-6 DeclareSetResult` with those member refs, the named use, inclusion conditions, ordering, and sufficient basis pins. This branch declares selector-facing result content without running method-family registration or `G.5-3 Select`. A `JointUseSet` over non-Method members uses this declaration branch and does not pass through `RegisterFamily` or `G.5-3 Select` (CC-G5.46).
+When an earlier choice or another current inclusion basis has fixed the members, use `G.5-6 DeclareSetResult`. Supply their exact refs, named use, inclusion conditions, ordering and sufficient basis pins. Declaring the set neither registers method families nor runs `G.5-3 Select`. For a `JointUseSet` over non-Method members, it is the required branch (CC-G5.46).
 
-For ordinary method-family dispatch, open `G.5` when two or more already admitted Methods are live under grounded selector rows for the same declared task and the current question is the selector-facing set result: which candidates remain admissible, whether the emitted result may truthfully order them, or whether it must be a shortlist, narrowed handoff, abstain, or escalation. If the live question is still one local choice among available options, first constitute the exact C.11 choice assertion under its predicate. Reuse already grounded method-family rows when they exist; do not rebuild a registry on every run. Create a new reusable row only when the grouping itself must recur, carry family-level policy, be versioned, or be published. Crossing, evidence/reliance, assurance, stable public identity, and actual publication are conditional branches, not an entry fee.
+For ordinary method-family dispatch, open `G.5` when two or more already admitted Methods are live under grounded selector rows for the same declared task and the current question is the selector-facing set result: which candidates remain admissible, whether the admitted comparison orders them, and whether the result must be a shortlist, narrowed handoff, abstention, or escalation. If the live question is still one local choice among available options, first constitute the exact C.11 choice assertion under its predicate. Reuse existing grounded method-family rows. Create a new reusable row only when the grouping itself must recur, carry family-level policy, be versioned, or be published. Use the crossing, evidence/reliance, assurance, stable public identity and publication branches when their conditions apply.
 
 
-For Method dispatch, resolve each exact A.3.1 Method and the row's independent grouping basis under S1 (§4.2). For generator dispatch, resolve each generator under its subject pattern and the row's grouping basis and signature under S1′. An unresolved member or grouping basis blocks its row. If the claim concerns actual selection, use S3's application and Work-admission conditions; a result declaration alone supplies no such occurrence. S5 governs any separately needed result episteme, public identity and publication claim.
+For Method dispatch, resolve each exact A.3.1 Method and the row's independent grouping basis under S1 (§4.2). For generator dispatch, resolve each generator under its subject pattern and the row's grouping basis and signature under S1′. An unresolved member or grouping basis blocks its row. For actual selection, use S3 to recover the application and its bindings. Apply its Work-admission conditions when the account asserts dated Work or the receiving contract requires it. A result declaration alone establishes neither occurrence. S5 governs any separately needed result episteme, public identity and publication claim.
 
 
 
 #### G.5:0.1 - What goes wrong if missed
 
 - rival families are compared under silent comparator drift, hidden baseline changes, or unspoken crossing costs
-- the selector hides one dogmatic winner even when only a partial order is admissible
-- selector-facing result content stays hidden inside `C.11`, `C.19`, or `C.24`, so the G.5 result no longer states which upstream choice, pool treatment, or enactment result it consumes and what set result it declares
-- exploration, open-ended, or specialization pressure leaks in as one architecture convenience rather than one explicit policy-bound choice
+- the selector hides its choice of a single winner even when only a partial order is admissible
+- an upstream record in `C.11`, `C.19`, or `C.24` leaves the selector result implicit: downstream users cannot tell which upstream choice, pool treatment, or enactment result G.5 consumes or which set it declares
+- a selector adopts an exploration, open-ended, or specialization policy for architectural convenience without declaring that choice
 
 #### G.5:0.2 - What this buys
 
 - one registry that keeps rival method families distinguishable and dispatchable
 - one selector result form that uses the closed `SelectorOutcomeKind` rules in §4.4b and the closed `SetResultFamily` set when the result is set-shaped
-- one trace addressable by DRR and SCR records with explicit basis pins instead of one hidden selector rationale
-- one explicit selected-set result that states the outcome kind, applicable public label, retained members or keyed joint-use entries, ordering, named use where required, handoff content, and basis pins instead of leaving them implicit upstream
+- a trace with basis pins that DRR and SCR records can address, making the selection rationale recoverable
+- one declared selector outcome with its kind, applicable public label, ordering and basis pins. Give the members or keyed entries for a set, the named use for joint inclusion, the content of a handoff, or the condition for abstention or escalation.
 
-Registry and dispatch remain the primary selector question here; the explicit selected-set result closes that question without replacing registry or dispatch.
+Registry and dispatch remain the primary concern. A set declaration can communicate their outcome or identify already established members for downstream use. The declaration neither registers families nor dispatches them.
 
 #### G.5:0.3 - First-minute questions
 
 - Which exact members and grouping or inclusion basis are already established?
 - Are they alternatives for later choice or members all included for one named use?
 - Does the declared comparison justify ordering them?
-- Which eligibility, evidence or other receiving-use conditions actually apply?
+- Which eligibility, evidence or other receiving-use conditions apply?
 - What result can be handed over, and what prevents a complete result?
 - Does the current question additionally claim actual selection, composition, a relation between meanings, public identity or publication? Open only the applicable branch in §4.2.
 

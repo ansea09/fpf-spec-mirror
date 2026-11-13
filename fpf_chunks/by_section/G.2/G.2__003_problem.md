@@ -6,12 +6,12 @@ section_id: "G.2:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.2/G.2__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.2 — Harvest and Synthesize SoTA for a CG-Frame"
   - "G.2:2 — Problem"
-line_start: 127710
-line_end: 127718
+line_start: 135760
+line_end: 135768
 dependencies:
   - "A.10"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
@@ -57,5 +57,5 @@ How can we systematically assemble a SoTA view that is:
 1. **pluralist but comparable** (preserve plurality and establish the correspondence and comparison basis required for the intended use),
 2. **evidence‑addressable** (claims cite auditable evidence surfaces and anchors),
 3. **actionable** (supplies source-qualified claims and candidate inventories for G.3, G.4 and G.5),
-4. **refreshable** (editions/policies/windows are pinned so RSCR/refresh can re‑audit and re‑run without semantic drift)?
+4. **refreshable** (the editions, policies and any applicable windows are pinned so RSCR/refresh can re‑audit and re‑run without semantic drift)?
 

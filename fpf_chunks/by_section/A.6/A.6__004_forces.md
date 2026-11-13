@@ -6,12 +6,12 @@ section_id: "A.6:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6/A.6__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6 — Signature Stack: Classify and Place Boundary Claims"
   - "A.6:3 — Forces"
-line_start: 13826
-line_end: 13837
+line_start: 14271
+line_end: 14282
 dependencies:
   - "A.10"
   - "A.15"
@@ -63,7 +63,7 @@ keywords:
 | **Truth condition vs governance content** | Whether the sentence states what is true or observed, or states a prescription, individual duty, prohibition, commitment, or grant; visible RFC words and the selected subject pattern do not decide this axis. |
 | **Declared conditions and actual facts** | Some claims are settled from definitions; others require actual observations or evaluations under their subject predicates. |
 | **View, viewpoint, and construction discipline** | A view is an episteme satisfying exact viewpoint conformance; a viewpoint is an exact convention-bearing episteme; optional A.6.3 construction and publication remain different relations. Losing any distinction makes omissions and provenance uninterpretable. |
-| **Local meaning vs cross‑context reuse** | Boundaries keep meaning local ↔ cross-context reuse needs its actual correspondence and bounded-use basis. Use an F.9 Bridge only for two exact local senses when its predicate obtains; `CL` is optional evidence shorthand. |
+| **Local meaning vs cross‑context reuse** | Boundaries keep meaning local ↔ cross-context reuse needs its correspondence and bounded-use basis. Use an F.9 Bridge only for two exact local senses when its predicate obtains; `CL` is optional evidence shorthand. |
 | **Evolvability vs auditability**             | Auditors require stable evidence trails across interface revisions.                                                                                      |
 | **Human readability vs formal precision**    | Plain explanations vs tech‑register constraints; both must remain aligned.                                                                                         |
 

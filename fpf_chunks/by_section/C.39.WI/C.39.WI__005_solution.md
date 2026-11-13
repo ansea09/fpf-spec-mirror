@@ -6,12 +6,12 @@ section_id: "C.39.WI:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.WI/C.39.WI__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.39.WI — Discover Worthwhile Method Improvements"
   - "C.39.WI:4 — Solution"
-line_start: 83860
-line_end: 83987
+line_start: 87927
+line_end: 88104
 dependencies:
   - "C.11.DUA"
   - "C.11.MV"
@@ -45,12 +45,14 @@ Keep distinct:
 
 - human effort, including learning, oversight and work displaced elsewhere;
 - elapsed delay and its effect on a commitment or opportunity;
-- actual payments, receipts and investment;
+- payments, receipts and investment;
 - usable capacity released, including when and for whom it becomes available;
 - accepted output, reliability, exposure and other consequential results;
 - the future capability or reusable means acquired.
 
-Count each burden once. The same hour may appear under a goal review, coordination and capability development; these are overlapping descriptions, not three hours. Do not add an opportunity-cost deduction when the comparison already includes the foregone contribution. Distinguish gross work from work added by the change: a new conversation may replace an older meeting.
+Count each burden once. The same hour may appear under a goal review, coordination and capability development; these are overlapping descriptions, not three hours.
+
+Do not add an opportunity-cost deduction when the comparison already includes the foregone contribution. Distinguish gross work from work added by the change: a new conversation may replace an older meeting.
 
 Trace every claimed gain to its consequence. Released salaried time is not an avoided payment merely because it has a labor rate. It may enable another useful result, protect recovery time or remain unused. Reduced per-use charges or a contract not renewed can change cash even if throughput stays the same. A less burdensome method can be valuable on human grounds without fabricating a monetary return.
 
@@ -58,21 +60,25 @@ Use C.11.DUA for the value and burden of further inquiry and C.11.MV for a conse
 
 #### C.39.WI:4.3 - Relate local savings to the encompassing work
 
-Identify the whole result whose accepted output, completion time or conditions might change. Ask whether the proposed remedy acts on a currently limiting relation, changes the load reaching it, protects it from rework, or only changes another contribution. The operating constraint for sustained output, the conditions determining a particular deadline and the resource-constrained critical chain of a project need not select the same action.
+Identify the whole result whose accepted output, completion time or conditions might change. Ask whether the proposed remedy acts on a currently limiting relation, changes the load reaching it, protects it from rework, or only changes another contribution.
+
+The operating constraint for sustained output, the conditions determining a deadline and the resource-constrained critical chain of a project need not select the same action.
 
 When accepted demand and a limiting relation are adequately supported, compare the useful effect of relieving it. A faster nonlimiting operation does not by itself increase the whole's output. Do not count extra intermediate products as accepted throughput or remove protective capacity solely because it is not fully occupied.
 
 Also compare consequences that do not require more output: avoided variable charges, a smaller future resource commitment, less rework, safer conditions, lower fatigue-producing load, or a reusable means that makes later change attainable. Obtain the appropriate basis for those consequences. A claim of safer conditions needs its professional grounds; a cost calculation supplies none.
 
-Include what improvement itself takes from the whole: scarce professional attention, interruption, transition failures, review, qualification, support and displaced delivery. A useful nonconstraint improvement can be postponed, performed by another capable participant or made smaller when its current implementation would displace a more valuable contribution at the constraint. Conversely, an independently attainable saving need not wait for every constraint initiative to finish.
+Include what improvement takes from the whole: scarce professional attention, interruption, transition failures, review, qualification, support and displaced delivery. A useful nonconstraint improvement can be postponed, performed by another capable participant or made smaller when its current implementation would displace a more valuable contribution at the constraint. Conversely, an independently attainable saving need not wait for every constraint initiative to finish.
 
 Use OPS.9 when the operating limiting relation is disputed, B.1.5.EW for the relevant encompassing Work, and C.32.MWA.PP when changing the arrangement across performance, provision and development is the live question. Do not impose a throughput model on every purpose. Binding service, authority and protection conditions retain their force even when a proposed alternative has an attractive economic comparison.
 
 #### C.39.WI:4.4 - Distinguish the missing way from missing means and failed use
 
-Before investing in a better way to perform the work, recover why the receiving result needs it. If a simpler contribution could suffice, compare removing or reducing the work or changing the demand that creates it. Preserve the actual acceptance conditions and obligations; changing a requirement needs its responsible authority. If the work remains necessary, examine its way and support.
+Before investing in a better way to perform the work, recover why the receiving result needs it. If a simpler contribution could suffice, compare removing or reducing the work or changing the demand that creates it. Preserve the acceptance conditions and obligations; changing a requirement needs its responsible authority.
 
-Follow a representative difficulty using the complete available Method and its actual support. Preserve what the practitioner or agent must bring, obtain elsewhere or invent. A plausible description is not performed work; an observed success with expert assistance is not unassisted capability.
+If the work remains necessary, examine its way and support.
+
+Follow a representative difficulty using the complete available Method and the support available there. Preserve what the practitioner or agent must bring, obtain elsewhere or invent. A plausible description is not performed work; an observed success with expert assistance is not unassisted capability.
 
 Use the distinction that changes the remedy:
 
@@ -82,54 +88,98 @@ Use the distinction that changes the remedy:
 | A way is known, but its description does not supply the promised selection, adaptation, joins or reasons | Develop its explanation, preserving a usable whole and direct constituent uses. |
 | Adequate content is available but cannot be found or recovered in the receiving conditions | Repair entry, access, representation or retention. |
 | The intended performer lacks relevant capability, tools, information, time, assistance or authority | Obtain or change that provision; do not infer a Method defect from its absence. |
-| Adequate guidance and means were available, but the action departed from them | Examine the actual selection and execution conditions, including attention, incentives and competing obligations; repair the supported cause. |
+| Adequate guidance and means were available, but the action departed from them | Examine the selection and execution conditions, including attention, incentives and competing obligations; repair the supported cause. |
 | The result is adequate but a newly feasible way offers a better combination of consequences and burden | Compare the current and new arrangements without first manufacturing a failure. |
 
-Several rows can apply. For example, an agent may recover a correct rule yet select another action because its task directs it toward a narrower result. Repairing retrieval alone will not change that action. Conversely, a newly available agent can make a professional result obtainable without teaching every recipient its production Method. Preserve an explicitly intended human mastery result when that is what the undertaking promises.
+Several rows can apply. For example, an agent may recover a correct rule yet select another action because its task directs it toward a narrower result. Repairing retrieval alone will not change that action.
 
-For a source or framework adequacy question, recover the source's substantive difficulties, remedies, conditions and constructive organization before distributing them among familiar owners. Compare those contributions with the actual available explanations and intended reader preparation. Derive distinguishing cases from that recovered scope. A few successful cases support those cases; they cannot establish that an assigned field or source repertoire is covered. Known constituent Methods also do not settle whether a new domain framework or a better organized explanation would improve use.
+Conversely, a newly available agent can make a professional result obtainable without teaching every recipient its production Method. Preserve an intended human mastery result when that is what the undertaking promises.
+
+For a source or framework adequacy question, recover the source's substantive difficulties, remedies, conditions and constructive organization before distributing them among familiar owners. Compare those contributions with the available explanations and intended reader preparation. Derive distinguishing cases from that recovered scope.
+
+A few successful cases support those cases; they cannot establish that an assigned field or source repertoire is covered. Known constituent Methods also do not settle whether a new domain framework or a better organized explanation would improve use.
 
 C.39.MF resolves the focus when the subject remains ambiguous. Do not turn the table into an obligation to investigate every possible cause. Return the supported remedy or precise unresolved distinction, and preserve unaffected results.
 
 ##### C.39.WI:4.4.1 - Repair a failure that survives correction
 
-Use this branch when a consequential failure survives a correction, several results suggest a shared failure of method use, or an earlier repair leaves dependent work relying on a rejected basis. Restore the receiving work by changing the conditions that reproduce the failure and revising the affected results. A known sufficient correction can proceed directly. Protect a recipient who needs an immediate correction while resolving the remaining question.
+Use this branch when a consequential failure survives a correction, several results suggest a shared failure of method use, or an earlier repair leaves dependent work relying on a rejected basis. Restore the receiving work by changing the conditions that reproduce the failure and revising the affected results. A known sufficient correction can proceed. Protect a recipient who needs an immediate correction while resolving the remaining question.
 
-The failed use identifies what needs restoration. Evidence about how it was produced, checked and previously repaired selects the intervention. Dependence on the changed basis determines which earlier results need reconsideration. What happens after the intervention can reopen the explanation or the repair's reach. These connections let a repair finish with a usable result while retaining causal uncertainty that does not change the action.
+The failed use identifies what needs restoration. Evidence about how it was produced, checked and previously repaired selects the intervention. Dependence on the changed basis determines which earlier results need reconsideration.
+
+What happens after the intervention can reopen the explanation or the repair's reach. These connections let a repair finish with a usable result while retaining causal uncertainty that does not change the action.
 
 **Recover the episode and the result it had to supply.** Start with what the next participant needed to decide or do, the applicable Method and the condition that was not met. Establish that condition on the receiving practice's grounds. A useful result can be rejected by a mistaken local check; the checking criterion then needs examination.
 
-Follow available evidence from the input and its interpretation through the consequential choice and action to the result and its use. Recover the actual assignment, material and edition, available support and relevant constraints. A connected account from the performer can locate a missed transition; compare it with the passage, action or result that bears on the claim. Distinguish an observed operation, a participant's account and an inferred cause. Opening a document establishes access; a retrospective account from an AI agent does not expose its hidden reasoning. Keep unavailable history unknown and obtain a comparable present observation when it can distinguish the remedies.
+Follow available evidence from the input and its interpretation through the consequential choice and action to the result and its use. Recover the assignment, material and edition, available support and relevant constraints. A connected account from the performer can locate a missed transition; compare it with the passage, action or result that bears on the claim.
 
-Locate the earliest supported loss while preserving later contributions that remain valid on their own grounds. A correct comparison can use an incorrectly narrowed assignment. Repairing the final comparison alone would leave that narrowing in place. When the assignment or acceptance criterion is itself disputed, recover how it was selected and what supported that choice.
+Distinguish an observed operation, a participant's account and an inferred cause.
 
-**Find what directed production, checking and the earlier correction.** Compare the governing operation with the instructions, examples, tool behavior and criteria available at the consequential decision. Trace a contributing input to its maintained source and to the working form actually used. A source that permits the wrong move and evidence that this source directed the observed move support different claims; retain that distinction in the diagnosis.
+Opening a document establishes access; a retrospective account from an AI agent does not expose its hidden reasoning.
 
-If the result passed a check or returned after repair, include those interactions. Recover what the checker or previous repairer had to establish, the information and feedback they received, the criterion they applied and the relevant condition they changed. A shared mistaken criterion can direct both production and checking. A corrected source may never reach the working template. A previous intervention may reach its user yet address a different cause. Ask what would have interrupted the failed transition and whether the earlier correction could provide it under the observed conditions.
+Keep unavailable history unknown and obtain a comparable present observation when it can distinguish the remedies.
 
-When repeated authoring and checking share a disputed interpretation, obtain a separately formed account of the original question and relevant subject grounds before supplying that interpretation as the answer. This can reveal an omitted operation or an unjustified criterion. Verification of a proposed repair then uses the diagnosis and its evidence. Select the needed independence and reader preparation for the judgement being made; a second participant using the same unsupported basis supplies no independent ground.
+Locate the earliest supported loss while preserving later contributions that remain valid on their own grounds. A correct comparison can use an incorrectly narrowed assignment. Repairing the final comparison alone would leave that narrowing in place. When the assignment or acceptance criterion is disputed, recover how it was selected and what supported that choice.
+
+**Find what directed production, checking and the earlier correction.** Compare the governing operation with the instructions, examples, tool behavior and criteria available at the consequential decision. Trace a contributing input to its maintained source and to the working form used.
+
+A source that permits the wrong move and evidence that this source directed the observed move support different claims; retain that distinction in the diagnosis.
+
+If the result passed a check or returned after repair, include those interactions. Recover what the checker or previous repairer had to establish, the information and feedback they received, the criterion they applied and the relevant condition they changed.
+
+A shared mistaken criterion can direct both production and checking. A corrected source may never reach the working template. A previous intervention may reach its user yet address a different cause.
+
+Ask what would have interrupted the failed transition and whether the earlier correction could provide it under the observed conditions.
+
+When repeated authoring and checking share a disputed interpretation, obtain a separately formed account of the original question and relevant subject grounds before supplying that interpretation as the answer. This can reveal an omitted operation or an unjustified criterion.
+
+Verification of a proposed repair then uses the diagnosis and its evidence. Select the needed independence and reader preparation for the judgement being made; a second participant using the same unsupported basis supplies no independent ground.
 
 **Distinguish explanations when their difference changes the repair.** Use C.28.CM to construct or challenge an unresolved causal account: state the outcome contrast, proposed relations and serious alternatives, then derive what would differ in available evidence or an obtainable case. A missing operation, an unavailable current edition, a contrary criterion and a resource conflict can produce similar omissions while requiring different interventions. Several causes may contribute.
 
-Select further inquiry through C.11.DUA. Existing evidence may settle the choice. A contradiction between an operative criterion and its governing rule can be corrected on substantive grounds while its contribution to past recurrence remains uncertain. If the surviving accounts support the same sufficient repair, preserve that uncertainty and proceed. If they require incompatible actions, obtain the discriminating contribution or state which choice remains unsupported. The recurrence makes the earlier repair a matter to explain; it does not require a survey of every possible cause.
+Select further inquiry through C.11.DUA. Existing evidence may settle the choice. A contradiction between an operative criterion and its governing rule can be corrected on substantive grounds while its contribution to past recurrence remains uncertain.
 
-**Change the contributing condition and make the change usable.** Choose the object of repair from the supported account. Use C.39 for a missing way or explanation; A.15.8.MS for method-use support; and the responsible provider for missing capability, inputs, resources or authority. A.15.10 helps restore lost continuation meaning, and A.15.11 brings an applicable Method into consideration. Use an already sufficient contribution directly.
+If the surviving accounts support the same sufficient repair, preserve that uncertainty and proceed.
 
-Correct a wrong criterion where it is maintained and in the working forms that supply it at the decision. Remove the obsolete instruction when leaving it alongside a reminder would preserve the conflict. A correct criterion that cannot be performed may instead need different provision. Preserve the useful operation while changing its support. When the remedy changes the Method, identify and qualify that change. A.3.1.MI connects introduction with the comparison of delivery, mechanism and context; IS.2 and IS.3 supply diagnosis and strategy within a helping undertaking. Their adequate results can enter this repair without repeating their work.
+If they require incompatible actions, obtain the discriminating contribution or state which choice remains unsupported. The recurrence makes the earlier repair a matter to explain; it does not require a survey of every possible cause.
 
-Choose how to obtain the needed contribution. Qualified provision can supply an immediate result. When human mastery is promised, preserve the learner's own required operation and use the applicable HCD practice, feedback and assessment. For an AI system, distinguish changes to instructions, retrieval, external state, tools, an evaluation criterion and model parameters, and obtain the corresponding technical method. E.10.LRN explains why those changes support different learning claims.
+**Change the contributing condition and make the change usable.** Choose the object of repair from the supported account. Use C.39 for a missing way or explanation; A.15.8.MS for method-use support; and the responsible provider for missing capability, inputs, resources or authority. A.15.10 helps restore lost continuation meaning, and A.15.11 brings an applicable Method into consideration. Use an already sufficient contribution.
 
-Make the corrected contribution obtainable at the relevant occasion, with its needed means and authority. Select verification that can expose the remaining failure: does the corrected criterion reach the user, is the intended operation performed, or does the proposed cause still defeat it? A changed condition is useful when it tests the relation being repaired. Reuse checks whose grounds still apply. Include diagnosis, transition, verification and continuing support in sections 4.2–4.5's comparison.
+Correct a wrong criterion where it is maintained and in the working forms that supply it at the decision. Remove the obsolete instruction when leaving it alongside a reminder would preserve the conflict.
 
-**Restore dependent work and return what happened.** Establish the affected set from actual reliance on the changed basis: instructions derived from it, conclusions using it and results consumed later. Use existing source and use records, the work itself and relevant participants to establish this reach. Shared wording can locate candidates; their dependence determines inclusion. A sampled failure can expose a cause while leaving the affected population unknown.
+A correct criterion that cannot be performed may instead need different provision. Preserve the useful operation while changing its support.
 
-Use B.5.RR to revise the affected reasoning. A conclusion may survive on independent grounds, need a weaker or conditional form, or require withdrawal or reconstruction. Carry each changed result into its receiving use. Correcting a review criterion can require revising both the verdict and the published instruction altered to satisfy it. Restore every result in the established affected set and identify any unresolved boundary. A newly discovered dependence extends that set; several successful repairs do not settle its unexamined remainder.
+When the remedy changes the Method, identify and qualify that change. A.3.1.MI connects introduction with the comparison of delivery, mechanism and context; IS.2 and IS.3 supply diagnosis and strategy within a helping undertaking. Their adequate results can enter this repair without repeating their work.
 
-Keep source correction, restored outputs, changed ordinary performance and worthwhile effect distinguishable. An actual use establishes the supported performance under its stated conditions. A claim that the intervention reduced recurrence or improved the encompassing work needs evidence about that consequence, including relevant changes in demand, other causes and added burden. Obtain that evidence when the intended decision or claim requires it. If use contradicts the proposed explanation, return to the affected relation and preserve repairs and findings whose grounds still hold. A sufficient receiving result can close the bounded repair while a further effectiveness question remains open.
+Choose how to obtain the needed contribution. Qualified provision can supply an immediate result. When human mastery is promised, preserve the learner's own required operation and use the applicable HCD practice, feedback and assessment.
+
+For an AI system, distinguish changes to instructions, retrieval, external state, tools, an evaluation criterion and model parameters, and obtain the corresponding technical method. E.10.LRN explains why those changes support different learning claims.
+
+Make the corrected contribution obtainable at the relevant occasion, with its needed means and authority.
+
+Select verification that can expose the remaining failure: does the corrected criterion reach the user, is the intended operation performed, or does the proposed cause defeat it? A changed condition is useful when it tests the relation being repaired.
+
+Reuse checks whose grounds apply. Include diagnosis, transition, verification and continuing support in sections 4.2–4.5's comparison.
+
+**Restore dependent work and return what happened.** Establish the affected set from reliance on the changed basis: instructions derived from it, conclusions using it and results consumed later. Use existing source and use records, the work and relevant participants to establish this reach.
+
+Shared wording can locate candidates; their dependence determines inclusion. A sampled failure can expose a cause while leaving the affected population unknown.
+
+Use B.5.RR to revise the affected reasoning. A conclusion may survive on independent grounds, need a weaker or conditional form, or require withdrawal or reconstruction.
+
+Carry each changed result into its receiving use. Correcting a review criterion can require revising both the verdict and the published instruction altered to satisfy it.
+
+Restore every result in the established affected set and identify any unresolved boundary. A newly discovered dependence extends that set; several successful repairs do not settle its unexamined remainder.
+
+Keep source correction, restored outputs, changed ordinary performance and worthwhile effect distinguishable. An actual use establishes the supported performance under its stated conditions.
+
+A claim that the intervention reduced recurrence or improved the encompassing work needs evidence about that consequence, including relevant changes in demand, other causes and added burden. Obtain that evidence when the intended decision or claim requires it.
+
+If use contradicts the proposed explanation, return to the affected relation and preserve repairs and findings whose grounds hold. A sufficient receiving result can close the bounded repair while a further effectiveness question remains open.
 
 #### C.39.WI:4.5 - Choose a worthwhile and attainable contribution
 
-Compare materially different remedies for the same receiving need. Include continuing current practice where admissible; removing or reducing work that the receiving result does not require; a direct repair or better use of existing means; developing a missing explanation or Method; changing the performance/provision arrangement; and deferral where timing changes the comparison. Include only real alternatives.
+Compare materially different remedies for the same receiving need. Include continuing current practice where admissible; removing or reducing work that the receiving result does not require; a repair or better use of existing means; developing a missing explanation or Method; changing the performance/provision arrangement; and deferral where timing changes the comparison. Include only real alternatives.
 
 Estimate the whole burden of reaching and sustaining the useful result: discovery, source recovery, construction, qualification, introduction, learning, coordination, publication where needed, recurring support and later refresh. The relevant unit is a usable change with its coupled dependencies. Two lines can require a costly release; a large coherent explanation can remove repeated reconstruction. Text size settles neither value nor the release boundary.
 
@@ -139,7 +189,7 @@ Select a contribution whose obtaining conditions can be supplied now. State what
 
 #### C.39.WI:4.6 - Follow the change into use and renew the search
 
-Develop, introduce and qualify the chosen contribution through its actual subject Methods. Keep three conclusions separate: the recipient can recognize the applicable Method; the recipient or provider can perform it under the intended conditions; and the receiving work obtains a worthwhile effect. A readable publication or completed training can support the first two without establishing the third.
+Develop, introduce and qualify the chosen contribution through the Methods governing its subject. Keep three conclusions separate: the recipient can recognize the applicable Method; the recipient or provider can perform it under the intended conditions; and the receiving work obtains a worthwhile effect. A readable publication or completed training can support the first two without establishing the third.
 
 Observe the effect at the promised scope, including new burdens and displaced problems. Reuse existing service or work observations where adequate. Do not require another study merely to repeat a known result, and do not declare success from a proxy that improved while the receiving result deteriorated.
 

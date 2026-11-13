@@ -6,12 +6,12 @@ section_id: "E.1:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.1/E.1__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.1 — Vision & Mission"
   - "E.1:3 — Forces"
-line_start: 92453
-line_end: 92470
+line_start: 96986
+line_end: 97003
 dependencies:
   - "E.2"
 keywords:
@@ -32,7 +32,7 @@ keywords:
 | ------------------------------- | ----------------------------------------------------------------------- |
 | **Conceptual Unity**            | Freedom to evolve ↔ invariant principles that prevent vocabulary drift. |
 | **Rigor vs Agility**            | Formal verifiability ↔ rapid, iterative exploration.                    |
-| **Universality vs Specificity** | Shared conceptual grounds ↔ methods suited to a particular problem. |
+| **Universality vs Specificity** | Shared conceptual grounds ↔ methods suited to a problem. |
 | **Didactic Clarity**            | Human comprehension ↔ abstract purity and density.                      |
 | **Physical Grounding** | Proposed material realization or physical intervention ↔ a feasibility basis for that action under its resource and physical constraints. |
 

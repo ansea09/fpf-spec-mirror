@@ -6,12 +6,12 @@ section_id: "E.19:5"
 section_title: "Archetypal Grounding — perform the selected review"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__007_archetypal-grounding-perform-the-selected-review.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:5 — Archetypal Grounding — perform the selected review"
-line_start: 113195
-line_end: 113222
+line_start: 120333
+line_end: 120360
 dependencies:
   - "A.15.1"
   - "A.6.P"
@@ -40,7 +40,7 @@ The situations in section 0.2 help a reviewer recognize which questions to selec
 
 E.21:5.0 supplies the complete compact pattern `EX.1@source-pin-1`. It asks the user to record a source edition, the rule used and its effect on a decision, then concludes: "Reopen the decision whenever the source publishes any new edition." The present E.19 question is a bounded refresh review of that last instruction, read with the whole quoted pattern. The relying use is to keep a decision connected to its source grounds.
 
-The reviewer selects PCP-BASE and PCP-REFRESH. The edition-change instruction can repeatedly create work and can also determine which decisions receive attention; its semantic condition therefore needs examination. The small scope permits inspect-repair-verify within the reviewer's authority.
+The reviewer selects PCP-BASE and PCP-REFRESH. The edition-change instruction can repeatedly create work and can determine which decisions receive attention. The reviewer therefore examines the trigger condition. The small scope permits inspect-repair-verify within the reviewer's authority.
 
 The reviewer compares the trigger with the reliance described earlier in the pattern. In one constructed new edition the title changes while the used rule, applicability and limitations remain the same. The instruction reopens a decision whose stated ground is unchanged. In another edition the relied-on maximum inspection interval becomes shorter, affecting the chosen interval. Here reconsideration is needed. The difference identifies the defect: publication of an edition is being used in place of a material change to the decision's basis.
 

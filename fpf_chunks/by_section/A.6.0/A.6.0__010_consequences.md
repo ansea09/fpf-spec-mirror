@@ -6,12 +6,12 @@ section_id: "A.6.0:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.0/A.6.0__010_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.0 — U.Signature - Reusable Law-Governed Declaration Episteme"
   - "A.6.0:9 — Consequences"
-line_start: 16597
-line_end: 16615
+line_start: 17302
+line_end: 17320
 dependencies:
   - "A.15.1"
   - "A.17"
@@ -47,7 +47,7 @@ keywords:
 
 - Reusable declarations receive one stable episteme identity.
 - `RelationSignature` epistemes can expose named typed SlotSpecs without forcing every relation occurrence into a record.
-- Meaning becomes inspectable through the exact reference scheme; applicability becomes inspectable through the exact claim scope plus any current time interval, selected `CHR:ReferencePlane`, or selected model-use structure.
+- Meaning becomes inspectable through the reference scheme; applicability becomes inspectable through the claim scope plus any current time interval, selected `CHR:ReferencePlane`, or selected model-use structure.
 - In physical-modeling practice, an author can reuse one connector-equation FormalSubstrate while keeping a modeled connection assertion, generated equations, and a diagram separate from that declaration.
 - In clinical practice, an author can write the bounded patient-episode, intervention, and outcome assertion now, relate an assay-result episteme to that claim through A.2.4/A.10, and defer a `RelationSignature` until a direct clinical relation governor exists.
 - A changed realization, observation, evidence-use relation, or publication can be repaired independently when the declaration's own claim content, EntityOfConcern, and effective reference scheme remain unchanged.
@@ -55,8 +55,8 @@ keywords:
 **Costs and trade-offs.**
 
 - Before choosing a form, determine which result the receiving use needs: a direct assertion, reusable declaration or explicit occurrence identity. These are different contributions; a second consumer or repeated episode is not a universal prerequisite.
-- Authors must recover the exact declared subject and effective reference scheme; a familiar label is not enough.
-- A `RelationSignature` case also requires an already admitted relation kind, direct governor and predicate, participant meanings, Applicability, occurrence-identity rule, and an ordinary assertion. Without that settlement, the author keeps a local claim, predicate definition, or exact missing-governor blocker instead of inventing SlotSpecs.
-- Typed reuse adds authoring effort for A.6.5 relation SlotSpecs or A.6.1 operation declarations, plus A.6.0 dependency declarations only when another signature actually relies on named terms or laws.
-- A change to exact claim content, EntityOfConcern, or effective reference scheme identifies another episteme even when the publication looks identical; authors must separately judge `U.Signature` membership and any claimed edition, refinement, or supersession relation.
+- Authors must recover the declared subject and effective reference scheme; a familiar label is not enough.
+- A `RelationSignature` case also requires an already admitted relation kind, direct governor and predicate, participant meanings, Applicability, occurrence-identity rule, and an ordinary assertion. Without that settlement, the author keeps a local claim, predicate definition, or missing-governor blocker instead of inventing SlotSpecs.
+- Typed reuse adds authoring effort for A.6.5 relation SlotSpecs or A.6.1 operation declarations, plus A.6.0 dependency declarations only when another signature relies on named terms or laws.
+- A change to claim content, EntityOfConcern, or effective reference scheme identifies another episteme even when the publication looks identical; authors must separately judge `U.Signature` membership and any claimed edition, refinement, or supersession relation.
 

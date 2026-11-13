@@ -6,12 +6,12 @@ section_id: "A.6.B:15a"
 section_title: "Probe-coupled boundary claim classification"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__018_probe-coupled-boundary-claim-classification.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:15a — Probe-coupled boundary claim classification"
-line_start: 15416
-line_end: 15467
+line_start: 15927
+line_end: 15978
 dependencies:
   - "A.10"
   - "A.2.3"
@@ -48,7 +48,7 @@ keywords:
   - "The key words MUST"
   - "accountable norms and grants"
   - "actual exercise"
-  - "an individual-duty D- claim MUST name its actual bearer and exact separately obtaining U.Commitment"
+  - "an individual-duty D- claim MUST name its actual bearer and separately obtaining U.Commitment"
   - "and SHALL have their RFC 2119/8174 meanings only when capitalized as shown"
   - "and evaluated results distinct"
   - "as if it were an agent obligation"
@@ -108,8 +108,8 @@ set must survive reuse or dispute.
 | --- | --- | --- |
 | The term, variable, state, frame, or relation being defined | `L-*` law or definition claim | Definition or invariant, without agent obligation language |
 | The admission condition for using a probe, metric, question, or bridge at the decision point; declaration-level intended-use scope remains in `Signature.Applicability` | `A-*` runtime-admissibility claim | Entry predicate and its required inputs; include failure behavior or a neighboring-pattern continuation when the declared rule or receiving use requires it |
-| What exact policy prescribes about applying, retaining, exposing, or avoiding overuse of the probe result; or which actual bearer has that individually instituted duty or which grant currently permits the action; and, if separately claimed, who bears responsibility | generic `D-*` prescription or individual `D-*` duty or grant claim; separate direct responsibility claim or missing governor | Exact normative source and rule content for the generic branch; actual duty bearer and `U.Commitment` for an individual duty; the grant occurrence, beneficiary, action and conditions under §8.4.1 for a grant; L/A/E claim IDs or canonical locations for material dependencies; responsibility predicate and participants only when that relation independently obtains |
-| The actual work effect or observed before-state or after-state, plus any separate evidence relation or carrier used for reliance | `E-*` work-effect or evaluated-result claim; separate evidence-support claim when current | Exact predicate and object, actual Work, evaluation, or observation, conditions and window, and result; add evidence support under §5.4 when the receiving use needs it |
+| What policy prescribes about applying, retaining, exposing, or avoiding overuse of the probe result; or which actual bearer has that individually instituted duty or which grant currently permits the action; and, if separately claimed, who bears responsibility | generic `D-*` prescription or individual `D-*` duty or grant claim; separate direct responsibility claim or missing governor | Normative source and rule content for the generic branch; actual duty bearer and `U.Commitment` for an individual duty; the grant occurrence, beneficiary, action and conditions under §8.4.1 for a grant; L/A/E claim IDs or canonical locations for material dependencies; responsibility predicate and participants only when that relation independently obtains |
+| The actual work effect or observed before-state or after-state, plus any separate evidence relation or carrier used for reliance | `E-*` work-effect or evaluated-result claim; separate evidence-support claim when current | Predicate and object, actual Work, evaluation, or observation, conditions and window, and result; add evidence support under §5.4 when the receiving use needs it |
 
 Useful outputs:
 

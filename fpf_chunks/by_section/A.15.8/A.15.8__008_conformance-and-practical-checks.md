@@ -6,12 +6,12 @@ section_id: "A.15.8:7"
 section_title: "Conformance and practical checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.8/A.15.8__008_conformance-and-practical-checks.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.15.8 — Work-Performance Configuration and Recovery Testing"
   - "A.15.8:7 — Conformance and practical checks"
-line_start: 31870
-line_end: 31888
+line_start: 33119
+line_end: 33137
 dependencies:
   - "A.1"
   - "A.10"
@@ -44,11 +44,11 @@ keywords:
 A use conforms to this pattern only when it passes the checks that its claimed result needs:
 
 1. A cold reader can obtain the first result without deciding whether cognition or mind is extended.
-2. The selected focus is exactly one admitted actual `U.Work` occurrence or one exact present `U.WorkPlan`; intended performance remains declaration-local plan content.
-3. Actual performers, intended performers, supports, values, and environmental conditions remain distinct. Every attempted relation claim names exact participants and the receiving use, applies a current direct governor when one exists, and preserves its `factually unsupported`, `missing-information`, inapplicable, negative, or other direct result; `missing-governor` is used only when no rule can state or test that claim.
+2. The selected focus is one admitted actual `U.Work` occurrence or one present `U.WorkPlan`; intended performance remains declaration-local plan content.
+3. Actual performers, intended performers, supports, values, and environmental conditions remain distinct. Every attempted relation claim names participants and the receiving use, applies a current governor when one exists, and preserves its `factually unsupported`, `missing-information`, inapplicable, negative, or other result; `missing-governor` is used only when no rule can state or test that claim.
 4. No arrangement becomes a System, performer, Agent, capability holder, Structure, architecture, or evidence merely by inclusion or wording.
 5. Continuation-critical state names its concern, bearer or carrier, update and use relations, currentness or consistency condition, and return condition when each matters.
-6. The probe uses the least burdensome representative condition that can change the receiving decision; its mechanism, thresholds, safety rules, and evidence rules come from an applicable direct domain Method. For any dated probe Work, recover the exact actual performer through A.13 and let A.15.1 independently admit the occurrence; add F.6 only for an expressly consumed precise assignment-bound attribution, whose failure alone preserves independent Work admission unless the finding also questions an admission premise.
+6. The probe uses the least burdensome representative condition that can change the receiving decision; its mechanism, thresholds, safety rules, and evidence rules come from an applicable domain Method. For any dated probe Work, recover the actual performer through A.13 and let A.15.1 independently admit the occurrence; add F.6 only for a consumed assignment-bound attribution, whose failure alone preserves independent Work admission unless the finding also questions an admission premise.
 7. A distinct test or later-performance Work asserted by the account has its own A.13 and A.15.1 basis; ordinary observations may stay within the current Work grain. A proposed condition remains a plan or probe claim.
 8. The result states what the available evidence establishes for the selected condition and window, any unsupported dependency and its reason, and the warranted next action or stop.
 9. A relied-on account has one truthful C.2.1 focus and effective ReferenceScheme; incompatible focuses split instead of forming a plural EntityOfConcern.

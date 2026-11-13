@@ -6,12 +6,12 @@ section_id: "A.2.2:6"
 section_title: "Worked Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__007_worked-cases.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.2.2 — System Capability: Conditions, Measures and Fit"
   - "A.2.2:6 — Worked Cases"
-line_start: 5382
-line_end: 5434
+line_start: 5564
+line_end: 5624
 dependencies:
   - "A.1"
   - "A.15"
@@ -50,7 +50,9 @@ SupportAndUseBasis:
   evidenceOrSourceUse: latest welding test report and calibration source relation
 ```
 
-`WeldingShiftAssignment` is a declared species under `U.SystemRoleAssignment`. Under A.2.1 its signature defines the holder and assigned-kind participant meanings and uses `WelderSystemRoleKindDomain` as the local assigned-kind domain; it adds another participant only if that participant changes the assignment predicate or occurrence identity. One occurrence has `RobotArm_A` as holder, `WelderSystemRole` as the assigned-kind value admitted by that domain, and an extent lasting while the predicate obtains without interruption for the same participants. The assertion has exact claim content, EntityOfConcern, and effective ReferenceScheme; a ClaimScope, selected slice, interval, or qualification window is stated separately when it changes interpretation or validity. None of those values is another assignment participant. A separate Work or system-locus relation may place intended or performed welding at `AssemblyLine_2026` when that relation obtains.
+`WeldingShiftAssignment` is a declared species under `U.SystemRoleAssignment`. Under A.2.1 its signature defines the holder and assigned-kind participant meanings and uses `WelderSystemRoleKindDomain` as the local assigned-kind domain; it adds another participant only if that participant changes the assignment predicate or occurrence identity. One occurrence has `RobotArm_A` as holder, `WelderSystemRole` as the assigned-kind value admitted by that domain, and an extent lasting while the predicate obtains without interruption for the same participants.
+
+The assertion has exact claim content, EntityOfConcern, and effective ReferenceScheme; a ClaimScope, selected slice, interval, or qualification window is stated separately when it changes interpretation or validity. None of those values is another assignment participant. A separate Work or system-locus relation may place intended or performed welding at `AssemblyLine_2026` when that relation obtains.
 
 If a Method step requires an obtaining `WeldingShiftAssignment` whose local kind is `WelderSystemRole` and bead-width tolerance below 0.2 mm, the assignment and capability are both checked. The declared ±0.2 mm bound does not establish the stricter tolerance, so this capability statement alone cannot support admission of the step.
 
@@ -60,7 +62,9 @@ If a Method step requires an obtaining `WeldingShiftAssignment` whose local kind
 
 Dispatch the phrase by claim: use A.2.2 only for the bounded ability; A.3.1 for the Method; a deployed-software or possession relation when that is the claim; and A.3.2 for candidate episteme `TurbineInspectionProcedure-v3` only after its `EntityOfConcern` resolves to that Method and one substantive claim says how it is done.
 
-Assignment and capability still do not prove execution. If `InspectionWork-17` actually occurs, A.13 first recovers `Robot-7` as the exact actual performer through obtaining `InspectionAssignment-17`, and A.15.1 independently admits the Work. Because this example expressly states assignment-bound attribution, F.6 afterward establishes `performedUnderAssignment(InspectionWork-17, InspectionAssignment-17)` through that same assignment; F.6 identifies neither assignment nor performer, and failed attribution leaves the Work intact. The Work occurrence separately stands in `enactsMethod(InspectionWork-17, TurbineInspection@Maintenance-2026)`.
+Assignment and capability still do not prove execution. If `InspectionWork-17` occurs, A.13 first recovers `Robot-7` as the actual performer through obtaining `InspectionAssignment-17`, and A.15.1 independently admits the Work.
+
+Because this example expressly states assignment-bound attribution, F.6 afterward establishes `performedUnderAssignment(InspectionWork-17, InspectionAssignment-17)` through that same assignment; F.6 identifies neither assignment nor performer, and failed attribution leaves the Work intact. The Work occurrence separately stands in `enactsMethod(InspectionWork-17, TurbineInspection@Maintenance-2026)`.
 
 #### A.2.2:6.2 - Software Service as Deployed System
 
@@ -82,5 +86,9 @@ The monthly-close service promise is a promise-content claim. The actual close f
 
 Consider a constructed rhythmic case with eight pulses and audible attacks at pulses 0, 3 and 6. One Method alternates left and right on audible attacks; another alternates on every pulse, including silent ones. Both yield L,R,L in the first cycle. In the next cycle, attack-wise alternation yields R,L,R, while pulse-wise alternation yields L,R,L again. The first cycle therefore cannot distinguish control of these two state-update rules.
 
-Suppose a performer draws both traces correctly and performs the second rule while following a teacher, but reverts to attack-wise alternation without that demonstration. The comparison preserves the correct explanation as a recovery result. Its capability conclusion concerns execution with the demonstration; independent control of the silent-pulse transition remains unsupported. A pulse reference may remain if the receiving performance normally provides it. If the receiving work still needs a way to obtain correct execution of the pulse-wise rule, use E.23.CDI to decide how to develop the holder's ability, supply the missing contribution through another arrangement, or combine the two. A digital controller can be compared on the same selected relation using its input/output traces, but that comparison supplies neither a human learning mechanism nor evidence that either holder acquired the rule through training.
+Suppose a performer draws both traces correctly and performs the second rule while following a teacher, but reverts to attack-wise alternation without that demonstration. The comparison preserves the correct explanation as a recovery result. Its capability conclusion concerns execution with the demonstration; independent control of the silent-pulse transition remains unsupported. A pulse reference may remain if the receiving performance normally provides it.
+
+If the receiving work still needs a way to obtain correct execution of the pulse-wise rule, use E.23.CDI to decide how to develop the holder's ability, supply the missing contribution through another arrangement, or combine the two.
+
+A digital controller can be compared on the same selected relation using its input/output traces, but that comparison supplies neither a human learning mechanism nor evidence that either holder acquired the rule through training.
 

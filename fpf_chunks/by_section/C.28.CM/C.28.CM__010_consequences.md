@@ -6,12 +6,12 @@ section_id: "C.28.CM:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28.CM/C.28.CM__010_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.28.CM — Construct and Challenge a Causal Model"
   - "C.28.CM:9 — Consequences"
-line_start: 68677
-line_end: 68682
+line_start: 71750
+line_end: 71755
 dependencies:
   - "A.15.9"
   - "B.5.2"
@@ -27,7 +27,7 @@ keywords:
 
 ### C.28.CM:9 - Consequences
 
-The practitioner obtains explicit alternatives, a usable conditional consequence and a concrete return when a premise is missing. This can prevent spending effort on an intervention that changes only a record or on a study that cannot distinguish the live accounts.
+The practitioner obtains explicit alternatives, a usable conditional consequence and, when a premise is missing, a statement of that premise. This can prevent spending effort on an intervention that changes only a record or on a study that cannot distinguish the live accounts.
 
 The cost is recovering mechanisms, meaningful variables and competing assumptions. Limit that cost to distinctions that can change the question's answer or a consequential use. Some questions remain unidentified or underdetermined; a clearer statement of that limit is a useful result.
 

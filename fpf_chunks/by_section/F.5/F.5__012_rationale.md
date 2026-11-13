@@ -6,12 +6,12 @@ section_id: "F.5:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__012_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.5 — Name U-kinds, Local System-Role Kinds and SystemRoleKindDescriptions"
   - "F.5:10 — Rationale"
-line_start: 120096
-line_end: 120103
+line_start: 127723
+line_end: 127730
 dependencies:
   - "A.10"
   - "A.15"
@@ -55,7 +55,7 @@ keywords:
 
 Recover the object before naming it. Durable names become references used in reasoning, search, publications, and pattern relations. A wrong name makes later readers inherit a false kind claim.
 
-The design choice is to split naming by meaning source rather than source spelling. Bare *role* can point to many different objects or uses—for example, a local system-role kind, assignment, policy term, status, evidence use, relation position, representation position, or ordinary English. Do not decide by suffix. Use E.10.ROLE and the direct patterns to recover the object, then F.5 to name it.
+Names follow the source of the meaning. The spelling alone cannot settle which object to name. Bare *role* can point to many different objects or uses—for example, a local system-role kind, assignment, policy term, status, evidence use, relation position, representation position, or ordinary English. Do not decide by suffix. Use E.10.ROLE and the direct patterns to recover the object, then F.5 to name it.
 
 F.5 remains narrower than F.18. Use F.18 for the full local-first protocol, NameCards, candidate comparison, lineage, and public naming. F.5 supplies the special discipline needed by U-kind names, concrete system-role-kind names, and `SystemRoleKindDescription` labels.
 

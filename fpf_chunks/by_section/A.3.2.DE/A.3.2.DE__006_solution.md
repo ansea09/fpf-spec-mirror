@@ -6,12 +6,12 @@ section_id: "A.3.2.DE:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2.DE/A.3.2.DE__006_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.3.2.DE — Describe a Method for Its Intended Use"
   - "A.3.2.DE:4 — Solution"
-line_start: 11820
-line_end: 11853
+line_start: 12237
+line_end: 12270
 dependencies:
   - "A.3.2"
   - "C.37"
@@ -22,7 +22,7 @@ keywords:
 
 ### A.3.2.DE:4 - Solution
 
-A.3.2 distinguishes description membership from adequacy for use. C.39:4.3–4.5 supplies construction of a missing action or join. Here the author develops the explanation for the declared reader: recover the actual operations, reasons, conditions and changed case that the reader must be able to follow, retaining an unresolved candidate as such.
+A.3.2 distinguishes description membership from adequacy for use. C.39:4.3–4.5 supplies construction of a missing action or join. Here the author develops the explanation for the declared reader: recover the operations, reasons, conditions and changed case that the reader must be able to follow, retaining an unresolved candidate as such.
 
 Author claims for named uses while preserving the described Method's identity or the account's candidate status. Return gaps instead of filling them with neighboring objects.
 
@@ -32,7 +32,7 @@ Author claims for named uses while preserving the described Method's identity or
 2. **Establish the subject branch.** Name the admitted `U.Method` and the effective reference scheme for the description, including the rules that resolve its Method designation. If admission is absent, keep the subject as a candidate account and author only improved candidate content.
 3. **Select the needed Method claims.** For the named use, consider the transformation or enactment concern, generic participant meanings, applicability, preconditions, intended effects or preserved conditions, bounds, parameters, variation, internal composition, evaluation conditions, and stops. Include only positions that change the use. For enactment or learning, recover the operations the performer must carry out and where their inputs come from.
 4. **Separate neighboring claims.** Keep planned assignments and dates in a `U.WorkPlan`; actual performers, temporal extent, participation, and results with dated `U.Work`; operation declarations with `A.6.1`; evidence reliance with `A.10`; capability with `A.2.2`; approval, permission, and authority with the patterns that define those claims. Cite them when the use depends on them without absorbing them into Method semantics.
-5. **Write the explanation or instruction.** For enactment or learning, connect each needed action to its inputs, the operation performed, the result and the condition for continuing or stopping. Explain why a connection or ordering matters when the reader needs that reason to apply or adapt it. For a Method that depends on professional judgment, explain which observations bear on the decision, how they change the proposed action, and which unresolved conflict needs another contribution or a stop. Naming a mindset without showing that effect leaves the explanation incomplete. Unfold a constituent operation until the intended performer can carry it out, or identify the missing know-how or contribution; do not invent an operation to fill a heading. Retain alternatives and genuine dependencies without imposing one order on independent actions. In the admitted-Method branch, identify the episteme by its claim content, Method as `EntityOfConcern`, and effective scheme. In the candidate branch, retain the account's proposed content and unresolved Method-identification conditions. State which claims were added, retained, narrowed, or removed when another edition is being revised.
+5. **Write the explanation or instruction.** For enactment or learning, connect each needed action to its inputs, the operation performed, the result and the condition for continuing or stopping. Explain why a connection or ordering matters when the reader needs that reason to apply or adapt it. For a Method that depends on professional judgment, explain which observations bear on the decision, how they change the proposed action, and which unresolved conflict needs another contribution or a stop. Naming a mindset without showing that effect leaves the explanation incomplete. Unfold a constituent operation until the intended performer can carry it out, or identify the missing know-how or contribution; do not invent an operation to fill a heading. Retain alternatives and dependencies without imposing one order on independent actions. In the admitted-Method branch, identify the episteme by its claim content, Method as `EntityOfConcern`, and effective scheme. In the candidate branch, retain the account's proposed content and unresolved Method-identification conditions. State which claims were added, retained, narrowed, or removed when another edition is being revised.
 6. **Record use coverage and omissions.** For each named use, list the claims exposed, claims deliberately omitted, unresolved claims, and the return condition. An omission is acceptable when the receiver does not rely on it; otherwise it is a gap.
 7. **Choose expression and publication separately.** Select text, code, diagrams, a mathematical lens, publication form, and carrier only after the claims are stable enough for the use. For one representation-use action, use C.37 or its direct governing pattern. When different named Method-related actions require complementary governed representations of the current MethodDescription or candidate account, C.37.MP returns a complete Method representation profile: one complete C.37 claim group per action, together with cross-use correspondences, conflicting omissions, edition relations, decisions to keep representations separate, and conditions that require reconsidering several selections. Use the FPF pattern governing any other represented entity.
 8. **Try the receiving use from the description.** Recover the claims, conditions and omissions needed by the receiving use. For enactment or learning, work through a small case: recover the first action and its inputs, follow its result to the next needed action or stop, and expose any instruction supplied only from the author's memory. Return a description or candidate-account correction, or identify the missing input, know-how or other result needed by the use. This checks the description at that use; it does not establish the Method's effectiveness or a learner's acquired capability.
@@ -52,5 +52,5 @@ These positions can be stated in prose or in an existing description account; th
 
 #### A.3.2.DE:4.3 - What Changes in Practice
 
-Authors stop treating “the method document” as one undifferentiated object. They can issue a small edition for one use, explain why it is enough, and name the exact gap when it is not. Readers can distinguish a claim about a reusable way of doing from a plan, an observed occurrence, a tool presentation, or an approval fact.
+Authors stop treating “the method document” as one undifferentiated object. They can issue a small edition for one use, explain why it is enough, and name the gap when it is not. Readers can distinguish a claim about a reusable way of doing from a plan, an observed occurrence, a tool presentation, or an approval fact.
 

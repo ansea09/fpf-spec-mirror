@@ -6,12 +6,12 @@ section_id: "A.6.H:6"
 section_title: "Recognition and assurance stay separate"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.H/A.6.H__007_recognition-and-assurance-stay-separate.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.H — Wholeness Language Unpacking — RPR-WHOLE"
   - "A.6.H:6 — Recognition and assurance stay separate"
-line_start: 25366
-line_end: 25384
+line_start: 26287
+line_end: 26305
 dependencies:
   - "A.1"
   - "A.10"
@@ -77,5 +77,5 @@ keywords:
 - What scope, limitation, time stance, and relying use apply?
 - What judgement about recognition, relation truth, measurement, completion, or another claim does the evidence warrant?
 
-Apply B.3 only when an actual named assurance claim and assurance use are current. Evidence can make an assertion inspectable without becoming constitutive of the whole or relation.
+Apply B.3 only when a named assurance claim and assurance use are current. Evidence can make an assertion inspectable without becoming constitutive of the whole or relation.
 

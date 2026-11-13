@@ -6,12 +6,12 @@ section_id: "F.10:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.10 — Apply and Interpret Evidence, Standard and Requirement Statuses"
   - "F.10:3 — Forces"
-line_start: 122022
-line_end: 122033
+line_start: 129736
+line_end: 129747
 dependencies:
   - "A.10"
   - "A.15.1"

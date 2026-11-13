@@ -6,12 +6,12 @@ section_id: "D.5:3"
 section_title: "Bias and Fairness Recognition"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.5/D.5__006_bias-and-fairness-recognition.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "D.5 — Bias Audit and Ethical Assurance"
   - "D.5:3 — Bias and Fairness Recognition"
-line_start: 92316
-line_end: 92364
+line_start: 96847
+line_end: 96895
 dependencies:
   - "A.10"
   - "B.3"
@@ -30,7 +30,7 @@ keywords:
 
 ### D.5:3 - Bias and Fairness Recognition
 
-| Current claim | What D.5 requires | Neighboring owner |
+| Claim | What D.5 requires | Neighboring owner |
 | --- | --- | --- |
 | "This metric shows the system is fair." | Distinguish metric disparity, proxy choice, subgroup impact, and intended use. | `C.16` for metric construction |
 | "This intervention makes outcomes fair." | Declare the causal fairness use, C.28 support components and causal-use support result. | `C.28` |
@@ -59,13 +59,13 @@ BiasRegister@Context:
 
 Choose depth from the claim and consequence that the recipient needs to judge. A bounded finding, corrected metric statement, or identified conflict can complete the present use, including when it concerns an affected group or appears in a publication. Retain the limitation that prevents that result from being read as a wider fairness or assurance claim.
 
-Use a fuller `BiasAuditReport@Context` when the receiving decision needs to inspect the combined evidence, mitigations, and residuals behind an audit or assurance conclusion. A consequential or reusable causal-fairness audit retains this report and the C.28 support it consumes. A release that relies on a particular protective claim needs the evidence and audit account required to support that claim. Reuse a matching existing account; after a material change, reopen the claims whose basis or use changed. The report is a Description episteme or publication-use object, with scope and depth set by that reliance.
+Use a fuller `BiasAuditReport@Context` when the receiving decision needs to inspect the combined evidence, mitigations, and residuals behind an audit or assurance conclusion. A consequential or reusable causal-fairness audit retains this report and the C.28 support it consumes. A release that relies on a protective claim needs the evidence and audit account required to support that claim. Reuse a matching existing account; after a material change, reopen the claims whose basis or use changed. The report is a Description episteme or publication-use object, with scope and depth set by that reliance.
 
 A concrete indication of harm, a missing basis for an intended claim, or an applicable assurance requirement can make further investigation necessary before that use. Name what its result could change, who can obtain it, and whether its contribution warrants its full cost and delay; use `C.11.DUA` when this appraisal is unresolved. If the needed basis remains unavailable, state which intended claim remains unsupported and give any feasible narrower use, mitigation, or stop with its conditions.
 
-Exposure, repetition, automation, publication, and changed populations are cues to examine the actual use and consequence. They do not by themselves prescribe a full audit. When a protective or documentation requirement is disputed, use `C.11.DUA` to examine its hazard, threshold basis, protective contribution, feasibility, and distributed burden, while keeping its current force and amendment authority explicit.
+Exposure, repetition, automation, publication, and changed populations are cues to examine the use and consequence. They do not by themselves prescribe a full audit. When a protective or documentation requirement is disputed, use `C.11.DUA` to examine its hazard, threshold basis, protective contribution, feasibility, and distributed burden, while keeping its current force and amendment authority explicit.
 
-#### D.5:3.2 - Compact Bias Concern Taxonomy
+#### D.5:3.2 - Bias Concern Taxonomy
 
 | Code | Concern | Typical question |
 | --- | --- | --- |

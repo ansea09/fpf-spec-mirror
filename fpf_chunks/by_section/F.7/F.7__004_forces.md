@@ -6,12 +6,12 @@ section_id: "F.7:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.7/F.7__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.7 — Display Source-Local Comparisons in a Concept-Set Table"
   - "F.7:3 — Forces"
-line_start: 120527
-line_end: 120535
+line_start: 128179
+line_end: 128187
 dependencies:
   - "A.6.9"
   - "B.3"
@@ -43,6 +43,6 @@ keywords:
 | --- | --- |
 | **Locality vs comparison** | Each meaning remains source-local, yet the reader must compare them. |
 | **Didactics vs fidelity** | A compact row must not hide direction, loss, evidence, or a missing relation. |
-| **Simplicity vs completeness** | The page should be memorable without pretending that the table contains the full proof. |
+| **Simplicity vs completeness** | The page should be memorable while making clear when the full proof lies elsewhere. |
 | **Similarity vs relation** | Entries may look alike while no identity, hierarchy, or substitution relation obtains. |
 

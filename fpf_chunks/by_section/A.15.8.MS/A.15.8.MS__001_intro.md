@@ -6,12 +6,12 @@ section_id: "A.15.8.MS:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.8.MS/A.15.8.MS__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.15.8.MS — Configure Methodological Support for Work"
   - "A.15.8.MS:intro — Intro"
-line_start: 31940
-line_end: 31946
+line_start: 33194
+line_end: 33200
 dependencies:
   - "A.15.8"
   - "A.19"
@@ -25,5 +25,5 @@ keywords:
 > **Type:** Method pattern
 > **Status:** Stable
 
-> **Primary working result:** a tested configuration that covers a bounded set of named-user tasks, or a truthful lower result: several retained candidates, a stated split boundary, or a missing priority or test. Method material, user Systems, participating Systems, relations, Work, results, and gaps remain separate. An A.22 selected structure is returned only when its four identity discriminators obtain for the named use. A claim of dated selection Work needs its own performance basis.
+> **Working result:** a tested configuration that covers a bounded set of named-user tasks, or a lower result: several retained candidates, a stated split boundary, or a missing priority or test. Method material, user Systems, participating Systems, relations, Work, results, and gaps remain separate. An A.22 selected structure is returned only when its four identity discriminators obtain for the named use. A claim of dated selection Work needs its own performance basis.
 

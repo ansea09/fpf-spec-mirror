@@ -6,12 +6,12 @@ section_id: "C.40.OC:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OC/C.40.OC__012_sota-echoing.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.40.OC — Characterize a Subject for a Possible Change"
   - "C.40.OC:11 — SoTA-Echoing"
-line_start: 86973
-line_end: 86986
+line_start: 91207
+line_end: 91220
 dependencies:
   - "C.11.CRC"
   - "C.16"
@@ -26,13 +26,13 @@ keywords:
 
 **Practice question.** How should practitioners replace a development maturity label or isolated score with a characterization that can guide a finite opportunity decision without inventing one universal scale?
 
-**Contributing Methods.** FPF [`C.16`](https://github.com/ailev/FPF/blob/main/FPF-Spec.md) supplies the measurement chain: exact measurand or subject, Characteristic, Scale, method, model, calibration, dated Work, attributed result, uncertainty, and bounded later use. [`C.11.CRC`](https://github.com/ailev/FPF/blob/main/FPF-Spec.md) supplies the finite-change orientation: actual `S0`, finite `Δ`, realizable `S1`, complete result/resource/affected-System/distributional/protected coordinates, interactions, transition basis, uncertainty, and option effects. This pattern **adapts** those lines at `C.40.OC:4.2`–`4.7` by selecting only characteristics that can change one opportunity inquiry and by returning holder-specific meaning and evidence outward.
+**Contributing Methods.** FPF [`C.16`](https://github.com/ailev/FPF/blob/main/FPF-Spec.md) supplies the measurement chain: measurand or subject, Characteristic, Scale, method, model, calibration, dated Work, attributed result, uncertainty, and bounded later use. [`C.11.CRC`](https://github.com/ailev/FPF/blob/main/FPF-Spec.md) supplies the finite-change orientation: actual `S0`, finite `Δ`, realizable `S1`, complete result/resource/affected-System/distributional/protected coordinates, interactions, transition basis, uncertainty, and option effects. This pattern **adapts** those lines at `C.40.OC:4.2`–`4.7` by selecting only characteristics that can change one opportunity inquiry and by returning holder-specific meaning and evidence outward.
 
-**Serious alternative or default.** A maturity model or composite readiness score can provide a compact summary when its construct, scale, weighting, evidence, and decision use are already qualified. When such a summary hides a distinction that can change the present inquiry—scale legality, trade-offs, protected coordinates or transfer—retain the separate coordinates. They keep those distinctions inspectable, at the cost of a less compact headline and a possible indeterminate result.
+**Alternative or default.** A maturity model or composite readiness score can provide a compact summary when its construct, scale, weighting, evidence, and decision use are already qualified. When such a summary hides a distinction that can change the present inquiry—scale legality, trade-offs, protected coordinates or transfer—retain the separate coordinates. They keep those distinctions inspectable, at the cost of a less compact headline and a possible indeterminate result.
 
 For organization and campaign cases, [ISO 56008:2024](https://www.iso.org/standard/78485.html) is a current opportunity/innovation measurement source and supports explicit measurement and portfolio review. It is an organization-scope comparator, not a universal person, AI, or engineered-system characterization Method and not effectiveness evidence.
 
-**Source roles and limits.** `C.16` and `C.11.CRC` supply measurement and finite contribution comparison. ISO 56008 is a bounded normative comparator. Holder, domain, safety, professional, legal, and evidence practices supply the actual characteristic meanings and results; this pattern does not outrank them.
+**Source roles and limits.** `C.16` and `C.11.CRC` supply measurement and finite contribution comparison. ISO 56008 is a bounded normative comparator. Holder, domain, safety, professional, legal, and evidence practices supply the characteristic meanings and results; this pattern does not outrank them.
 
 **Reopen condition.** Reopen this stance if a current alternative demonstrates a lower-burden characterization that preserves subject/configuration identity, scale and uncertainty, the complete coordinate set, protected conditions, holder-specific ownership, and local reopenability, or if a relied-on measurement or finite-comparison pattern changes those obligations.
 

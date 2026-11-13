@@ -6,12 +6,12 @@ section_id: "B.3.3:4"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.3/B.3.3__005_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.3.3 — Assurance Subtypes & Levels"
   - "B.3.3:4 — Conformance Checklist"
-line_start: 45239
-line_end: 45250
+line_start: 47093
+line_end: 47104
 dependencies:
   - "A.10"
   - "B.3"
@@ -31,10 +31,10 @@ keywords:
 
 A Target of Assurance (ToA) denotes the claim being assessed for the named use, not an undifferentiated score for its whole system.
 
-- **CC-B3.3.1 (Relevant support):** A positive assurance conclusion MUST identify the relied-on claim and use and explain how the cited basis supports it. A `verifiedBy` or `validatedBy` link alone is insufficient.
+- **CC-B3.3.1 (Relevant support):** A positive assurance conclusion MUST identify the relied-on claim and use and explain how the cited basis supports it. A `verifiedBy` or `validatedBy` link is insufficient.
 - **CC-B3.3.2 (Needed correspondence):** Where differing terms or participants can change the argument, the assessor MUST resolve the load-bearing correspondence through the applicable bridge. Other judgements have no general term-mapping prerequisite.
-- **CC-B3.3.3 (Qualified levels and thresholds):** A published level MUST have an applicable profile, interpreted criteria and a supported assignment. Formal, empirical and constructive evidence requirements MUST follow the specific claim and receiving use. A generic score threshold or positive validation score cannot substitute for the required protective argument.
-- **CC-B3.3.4 (Bridge scope):** A required bridge MUST cover the differences on which the conclusion depends. It SHALL NOT demand mapping every mechanism term to FPF as the price of an otherwise sufficient ordinary judgement.
+- **CC-B3.3.3 (Qualified levels and thresholds):** A published level MUST have an applicable profile, interpreted criteria and a supported assignment. Formal, empirical and constructive evidence requirements MUST follow the claim and receiving use. A generic score threshold or positive validation score cannot substitute for the required protective argument.
+- **CC-B3.3.4 (Bridge scope):** A required bridge MUST cover the differences on which the conclusion depends. It SHALL NOT demand mapping every mechanism term to FPF as the price of a sufficient ordinary judgement.
 - **CC-B3.3.5 (Scope separation):** Design-time and run-time assurance claims MUST retain their distinct subjects, evidence and conditions. A design result alone SHALL NOT establish that the corresponding Work performed successfully.
 - **CC-B3.3.6 (CT2R-LOG grounding):** When B.3.5's profile is elected, the structural and collection branches MUST retain their distinct current construction traces and declared modes. A level assignment SHALL NOT replace the required grounding or impose the profile on unrelated claims.
 - **CC-B3.3.7 (Downward-only dependence):** Assurance publications or records SHALL NOT impose vocabulary or layout back onto the Working-Model surface.

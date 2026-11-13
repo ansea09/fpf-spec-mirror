@@ -6,12 +6,12 @@ section_id: "C.38:7"
 section_title: "Conformance and practical checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.38/C.38__008_conformance-and-practical-checks.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.38 — Construct Comparable Ways to Obtain One Result"
   - "C.38:7 — Conformance and practical checks"
-line_start: 82597
-line_end: 82615
+line_start: 86629
+line_end: 86647
 dependencies:
   - "A.10"
   - "A.15.9"
@@ -38,7 +38,7 @@ A use conforms only when the checks needed by its claimed comparison pass:
 3. Every decision-bearing premise is visibly supported now, proposed, or unknown; proposed or unknown premises establish no actual capability, authority, Work, provision, delivery, acceptance, availability, or use.
 4. The same decision-changing parity questions are applied to every way; an omitted group is justified by irrelevance to this choice.
 5. A decision-reversing unknown remains a gap or probe. Protected conditions are not hidden inside one unexplained scalar.
-6. `A.19.CPM` or `A.19.SelectorMechanism` is used only when its evidence-gating, incomparability, abstention, or set-return contribution is actually needed.
+6. `A.19.CPM` or `A.19.SelectorMechanism` is used only when its evidence-gating, incomparability, abstention, or set-return contribution is needed.
 7. Only complete-enough whole ways enter the finite `OptionSet`; `C.11` alone makes the local choice and emits the `ChoiceResult`.
 8. The rule for retaining the comparison prevents a duplicate episteme when an owning domain result already carries the complete comparison.
 9. A retained way names any first unsupported realization branch or the direct Method that can proceed; the comparison itself claims no realization or later Work.

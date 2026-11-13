@@ -6,12 +6,12 @@ section_id: "B.1.5:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5/B.1.5__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.1.5 — Gamma_method - Order-Sensitive Method Composition and Work Enactment"
   - "B.1.5:1 — Problem Frame"
-line_start: 42155
-line_end: 42200
+line_start: 43814
+line_end: 43859
 dependencies:
   - "A.1"
   - "A.15"
@@ -70,32 +70,32 @@ Typical moments:
 - assurance needs to know which joins, adapters, cutsets, or exposed interfaces make the composite method reliable enough to enact.
 - a source presents Methods as a first–then list even though representative Work may also require several of them to contribute at the same time.
 
-**Primary EntityOfConcern.** The EntityOfConcern is one exact candidate or composite `U.Method`, already identified under A.3.1. The proposition that exact part Methods and whole-forming facts qualify it as composite is separately governed claim content. A separately identified C.2.1 episteme may carry that proposition in its ClaimGraph; the episteme then has the exact candidate Method as its EntityOfConcern under its effective ReferenceScheme.
+**Primary EntityOfConcern.** The EntityOfConcern is one candidate or composite `U.Method`, already identified under A.3.1. The proposition that part Methods and whole-forming facts qualify it as composite is separately governed claim content. A separately identified C.2.1 episteme may carry that proposition in its ClaimGraph; the episteme then has the candidate Method as its EntityOfConcern under its effective ReferenceScheme.
 
 **First useful move.** For each apparent step or branch, recover the governed object before composing anything: `U.Method`, `U.MethodDescription`, `U.WorkPlan`, dated `U.Work`, an A.22-selected `U.Structure`, method-family registry or selector outcome, mathematical lens, mechanism, formal substrate, or quoted wording that does not yet carry a method claim.
 
 **What goes wrong if missed.** A flowchart becomes the method, a plan item becomes a submethod, an event log becomes proof that a method was enacted, an order edge becomes a part, or a registry of alternatives is treated as one composed method. Then work starts from a description or label whose method identity, joins, interfaces, and failure conditions were never recovered.
 
-**What this buys.** The project can test whether an already identified candidate `U.Method` is composite and state the part, order, join, interface, and identity facts needed for that claim. If qualification fails, another useful result may remain, such as a description, plan, selected structure, or selector result, under its own pattern. Use `A.15.4` when the failed qualification reveals reliance on appearance.
+**What this buys.** The project can test whether an already identified candidate `U.Method` is composite and state the part, order, join, interface, and identity facts needed for that claim. If qualification fails, another useful result may remain, such as a description, plan, selected structure, or selector result, under its pattern. Use `A.15.4` when the failed qualification reveals reliance on appearance.
 
 **Not this pattern when.**
 
-- If the current claim is one semantic way of doing with no order-sensitive composition question, use `A.3.1`.
-- If the current claim is a claim-bearing episteme that describes a method or relations among methods, use `A.3.2` and `C.2.1`.
-- If the current claim is intended work, use `A.15.2`.
-- If the current claim is a dated occurrence, use `A.15.1`.
-- If the current claim is structural component parthood, use `A.14`; use `C.13` for a needed construction account and `B.3.5` only when its additional assurance profile is elected.
-- If the current claim is only a method-family registry, selector, fallback relation, or useful organization of already identified methods without one whole-method construction, use `G.5` or select a `U.Structure` under `A.22`.
+- If the claim is one semantic way of doing with no order-sensitive composition question, use `A.3.1`.
+- If the claim is a claim-bearing episteme that describes a method or relations among methods, use `A.3.2` and `C.2.1`.
+- If the claim is intended work, use `A.15.2`.
+- If the claim is a dated occurrence, use `A.15.1`.
+- If the claim is structural component parthood, use `A.14`; use `C.13` for a needed construction account and `B.3.5` only when its additional assurance profile is elected.
+- If the claim is only a method-family registry, selector, fallback relation, or useful organization of already identified methods without one whole-method construction, use `G.5` or select a `U.Structure` under `A.22`.
 
 #### B.1.5:1.1 - Composition Question And Object Boundaries
 
 `U.Method` is a non-agentive method holon kind. A method can have submethods and can participate as a submethod in a larger method. This does not mean every step-looking node, document section, file module, graph edge, work-plan item, or work occurrence is a method part.
 
-Order-sensitive method composition is a narrow constructive question:
+Order-sensitive method composition asks:
 
 ```text
 Given independently recovered U.Method parts,
-which methodPartOf occurrences, exact whole-forming claims, and constraints qualify one already identified candidate as composite,
+which methodPartOf occurrences, whole-forming claims, and constraints qualify one already identified candidate as composite,
 and what whole-level commitments let a practitioner identify, reidentify, and enact that method?
 ```
 

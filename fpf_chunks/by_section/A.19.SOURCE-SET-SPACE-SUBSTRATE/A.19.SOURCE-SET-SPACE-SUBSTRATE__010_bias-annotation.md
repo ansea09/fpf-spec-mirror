@@ -6,12 +6,12 @@ section_id: "A.19.SOURCE-SET-SPACE-SUBSTRATE:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SOURCE-SET-SPACE-SUBSTRATE/A.19.SOURCE-SET-SPACE-SUBSTRATE__010_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE — Source-Set and Search/Outcome-Space Substrate"
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE:6 — Bias-Annotation"
-line_start: 35896
-line_end: 35902
+line_start: 37398
+line_end: 37404
 dependencies:
   - "A.0"
   - "A.17"
@@ -40,6 +40,6 @@ keywords:
 
 - **Gov bias.** The pattern prefers explicit declaration over convenient shorthand.
 - **Arch bias.** The pattern keeps substrate, interpretive view, and publication consumers separated even when one merged story would read more smoothly.
-- **Prag bias.** The pattern prefers a short explicit substrate declaration that can be reused across search, synthesis, and publication-adjacent lines.
+- **Prag bias.** The pattern prefers a short substrate declaration that can be reused across search, synthesis, and publication-adjacent lines.
 - **Qualification bias.** Learned or adaptive relations need their applicable uncertainty and model limits. A metric or transition model is added only when the claim uses it.
 

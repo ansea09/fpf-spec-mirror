@@ -6,12 +6,12 @@ section_id: "E.11.PFP:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PFP/E.11.PFP__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.11.PFP — Framework Publication Form Profile for Markdown"
   - "E.11.PFP:4 — Solution"
-line_start: 104331
-line_end: 104397
+line_start: 110465
+line_end: 110555
 dependencies:
   - "A.3.2"
   - "C.29"
@@ -47,17 +47,29 @@ For an all-in-one Markdown publication, preserve the product-declared compact op
 5. the pattern bodies or pattern collection in the order selected by that edition; and
 6. reference and maintenance material under headings declared by the product pattern.
 
-The title and Readme H1 are separate product declarations. A checker receives both exact strings; it does not derive the Readme H1 by concatenating `Readme` to a longer carrier title. The common profile does not insert a metadata block, edition record, warning, or other lines into a compact predecessor opening merely to make products look alike. A product-specific builder may pin a compact front shape, including the line at which the ToC begins, when that shape protects an established reader entry.
+The title and Readme H1 are separate product declarations. A checker receives both exact strings; it does not derive the Readme H1 by concatenating `Readme` to a longer carrier title.
 
-Between the title and ToC, retain only the shortest public cues already justified by product use. An exact edition designation or locator belongs there only when its possible values change the reader's next use, reliance, return, language, dependency, or access choice. When such a cue is present, project it from one product-owned edition or relation record; do not maintain a second editable copy. Add authorship, credit, date, dependency, language, access, or a product-declared maintenance status, support window, or currentness window only under the same next-working-move test. A date is a cue, not edition identity, and a visible status or window is not evidence of acceptance, currentness, maintenance, availability, access, or authorization.
+The common profile does not insert a metadata block, edition record, warning, or other lines into a compact predecessor opening merely to make products look alike. A product-specific builder may pin a compact front shape, including the line at which the ToC begins, when that shape protects an established reader entry.
 
-When readers copy, adapt, translate or redistribute a framework publication, its copyright-license notice tells them what permission the rights holder grants. Identify the covered material, rights holder and chosen license, and make the license text reachable from a standalone copy. Project a compact notice from the product's chosen licensing terms; retain applicable attribution and mark any third-party or differently licensed material. The author of an independently created DPF or LPF chooses its license. Where copyright permission is needed, reuse of another framework's protected expression is governed by that material's terms; applicable copyright exceptions remain available. Adopting its methods or publication form does not impose that framework's license on the new work.
+Between the title and ToC, retain only the shortest public cues already justified by product use. An exact edition designation or locator belongs there only when its possible values change the reader's next use, reliance, return, language, dependency, or access choice.
+
+When such a cue is present, project it from one product-owned edition or relation record; do not maintain a second editable copy. Add authorship, credit, date, dependency, language, access, or a product-declared maintenance status, support window, or currentness window only under the same next-working-move test.
+
+A date is a cue, not edition identity, and a visible status or window is not evidence of acceptance, currentness, maintenance, availability, access, or authorization.
+
+When readers copy, adapt, translate or redistribute a framework publication, its copyright-license notice tells them what permission the rights holder grants. Identify the covered material, rights holder and chosen license, and make the license text reachable from a standalone copy. Project a compact notice from the product's chosen licensing terms; retain applicable attribution and mark any third-party or differently licensed material.
+
+The author of an independently created DPF or LPF chooses its license. Where copyright permission is needed, reuse of another framework's protected expression is governed by that material's terms; applicable copyright exceptions remain available. Adopting its methods or publication form does not impose that framework's license on the new work.
 
 Reader front matter extends from the opening title through the Readme and architectural reference up to the first pattern-body collection H1. It must not contain campaign keys; candidate, review, or result identifiers; local disk or repository paths; source or candidate digests; Git commits or blobs; generated comments; build commands; machine warnings; or "do not edit" instructions. Detailed edition, provenance, rebuildability, and maintenance records remain adjacent maintainer evidence or product-declared reference-tail material unless a separately selected public use justifies a reader-facing projection.
 
 #### E.11.PFP:4.2 - Put public units into the established Table of Contents
 
-Immediately after the single `# Table of Contents` H1, continue the product's established ToC grammar. Represent the exact Readme and architectural-reference unit before the logical pattern index using the same kind of labelled segment and rows already used for non-pattern units in that product. When an established ToC already represents the whole-account unit and pattern groups, add Readme there; do not invent a generic `Publication route`, a second mini-menu, or a new table shape. A non-pattern publication unit receives no fabricated PatternID. Its product-declared entry remains mechanically recognizable and, when the carrier supports links, resolves to the exact unit. The unit's public title follows E.4's `<name of the explained whole> Architectural Reference` rule; its declared section key is a separate address choice.
+Immediately after the single `# Table of Contents` H1, continue the product's established ToC grammar. Represent the exact Readme and architectural-reference unit before the logical pattern index using the same kind of labelled segment and rows already used for non-pattern units in that product.
+
+When an established ToC already represents the whole-account unit and pattern groups, add Readme there; do not invent a generic `Publication route`, a second mini-menu, or a new table shape.
+
+A non-pattern publication unit receives no fabricated PatternID. Its product-declared entry remains mechanically recognizable and, when the carrier supports links, resolves to the exact unit. The unit's public title follows E.4's `<name of the explained whole> Architectural Reference` rule; its declared section key is a separate address choice.
 
 Place the one authoritative logical pattern index after those public-unit entries. It may be one table or several ordered, uniquely labelled Part or placement segments. Every authoritative segment uses:
 
@@ -65,13 +77,23 @@ Place the one authoritative logical pattern index after those public-unit entrie
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 ```
 
-Across all segments, every published pattern body has exactly one row, every current `PatternRef` row resolves to exactly one complete body, and no PatternID or reserved locator appears twice. Explicit `PlannedCatalogEntry` rows reserve future locators under E.8 H-10; they are outside the current-pattern row/body bijection and supply no available pattern or current dependency. A Part label groups rows for navigation; it is not a pattern row, a semantic parent, or another index.
+Across all segments, every published pattern body has exactly one row, every current `PatternRef` row resolves to exactly one complete body, and no PatternID or reserved locator appears twice.
+
+Explicit `PlannedCatalogEntry` rows reserve future locators under E.8 H-10; they are outside the current-pattern row/body bijection and supply no available pattern or current dependency. A Part label groups rows for navigation; it is not a pattern row, a semantic parent, or another index.
 
 PatternID, title, Part, and `§` position remain separate even when one row displays them together. PatternID supplies the stable public address within the named framework; the title explains the pattern; Part and `§` show where the current edition places it. Within each Part, the ToC rows and pattern bodies follow the same order. That order need not ascend by PatternID, and moving or retitling a pattern does not by itself change its PatternID.
 
-For a portable reference, apply `E.8` H-10 to retain the complete PatternID or SectionRef and enough context to recover the publication set and document. Add a qualifier only where that identification is not already unambiguous. A publication may declare a short `DocID` beside its full document title. State the publication set in which the declaration is unambiguous. The declaration identifies the whole document, not its embedded Readme, Architectural Reference or pattern collection. A framework's existing reference code may be declared as that DocID without changing any PatternID; a standalone Architectural Reference may declare its own document qualifier. A document without a DocID remains referable by its full title within the named set.
+For a portable reference, apply `E.8` H-10 to retain the complete PatternID or SectionRef and enough context to recover the publication set and document. Add a qualifier only where that identification is not already unambiguous.
 
-Keep the document, the framework it publishes, the selected edition, its publication units and its carrier distinct. Several units can share one document; one framework can have several edition documents or carriers. A reference to an exact edition names that edition separately. A current-carrier catalogue derives its document identities from their declarations and full titles; it does not confer framework membership, pattern identity or authority. Keep document identity recoverable from cross-document link labels and their accompanying context; add a qualifier when the complete address does not already supply it. The hyperlink may still provide a convenient carrier. An extracted passage retains the complete local address and any identifying context it needs. For a DPF, `E.4.DPF:4.0.3` supplies the reference-code, local-locator and continuity decisions; this profile makes the selected distinctions visible.
+A publication may declare a short `DocID` beside its full document title. State the publication set in which the declaration is unambiguous. The declaration identifies the whole document, not its embedded Readme, Architectural Reference or pattern collection.
+
+A framework's existing reference code may be declared as that DocID without changing any PatternID; a standalone Architectural Reference may declare its own document qualifier. A document without a DocID remains referable by its full title within the named set.
+
+Keep the document, the framework it publishes, the selected edition, its publication units and its carrier distinct. Several units can share one document; one framework can have several edition documents or carriers. A reference to an exact edition names that edition separately. A current-carrier catalogue derives its document identities from their declarations and full titles; it does not confer framework membership, pattern identity or authority.
+
+Keep document identity recoverable from cross-document link labels and their accompanying context; add a qualifier when the complete address does not already supply it. The hyperlink may still provide a convenient carrier. An extracted passage retains the complete local address and any identifying context it needs.
+
+For a DPF, `E.4.DPF:4.0.3` supplies the reference-code, local-locator and continuity decisions; this profile makes the selected distinctions visible.
 
 Use E.8:4.2.2.2 to distinguish a source citation from an invitation to apply another contribution. Keep that purpose and any use-changing condition clear in ordinary prose. If an extract loses the heading that supplied this meaning, retain it in the extract; preserving the address alone does not preserve the intended reading. No repeated labels are needed when the wording is already clear.
 
@@ -87,7 +109,9 @@ Ordinary relation, source-return, maintenance, and reference tables may cite Pat
 
 Start the Readme body with `## Practical entries`. The product maintains one declaration for every selectable example and assigns each key exactly one public form: ordinary practical entry or Practical-Use Card. Each declared key occurs once, at H3 for an ordinary entry or at H4 for a card. A compact locator may precede or follow these examples, but it is a finding aid rather than another editable entry set.
 
-The Readme explains what its selected examples help the reader do. Use F.19:4.4 to decide whether a catalogue or coverage-boundary reading also needs an explicit correction. It tells the reader to bring the actual question and to use the product's index, direct patterns, or another finding aid when no example fits. Tell readers that they can ask an assisting agent for explanations and comments in ordinary language, without the framework's specialist vocabulary. For example: “Explain this and give me your comments in ordinary language, without framework jargon.” Clear wording is the default under `F.19`; the request helps the assistant adapt its wording to the reader.
+The Readme explains what its selected examples help the reader do. Use F.19:4.4 to decide whether a catalogue or coverage-boundary reading also needs an explicit correction. The Readme tells the reader to bring the actual question and to use the product's index, direct patterns, or another finding aid when no example fits.
+
+Tell readers that they can ask an assisting agent for explanations and comments in ordinary language, without the framework's specialist vocabulary. For example: “Explain this and give me your comments in ordinary language, without framework jargon.” Clear wording is the default under `F.19`; the request helps the assistant adapt its wording to the reader.
 
 The selected examples should make two uses visible without implying that every question belongs to either displayed case:
 

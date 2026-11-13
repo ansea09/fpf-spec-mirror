@@ -6,49 +6,28 @@ section_id: "C.2.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:intro — Intro"
-line_start: 51053
-line_end: 51076
+line_start: 53182
+line_end: 53205
 dependencies:
   - "A.1"
-  - "A.1.1"
   - "A.10"
-  - "A.14"
-  - "A.2.6"
-  - "A.22"
-  - "A.3.1"
-  - "A.3.2"
-  - "A.3.4"
   - "A.6.0"
-  - "A.6.1"
-  - "A.6.2"
-  - "A.6.3"
-  - "A.6.3.RT"
-  - "A.6.4"
   - "A.6.5"
   - "A.6.REL"
   - "A.7"
   - "B.3"
-  - "C.13"
-  - "C.2.1"
-  - "C.2.P"
   - "C.29"
   - "C.3.2"
-  - "E.10.D2"
-  - "E.13"
-  - "E.17"
   - "E.17.0"
   - "E.24.PUB"
   - "E.24.UK"
-  - "F.9"
   - "G.11"
   - "U.Episteme"
-  - "U.MethodDescription"
   - "U.Signature"
-  - "U.View"
 keywords:
 ---
 
@@ -62,7 +41,7 @@ keywords:
 
 **Use this pattern when.** You are developing, using or changing an account and need to recover what it says, how its claims can guide work, or what a change affects. Use the common method in :4.0, then the identity, grounding or edition branch needed for the question. A pump specification with a changed pressure threshold carries different claims. Publishing the same claims about the same pump under the same interpretation in another file preserves the episteme.
 
-**First useful move.** Establish what the account must help its recipient understand or do. Recover the relevant claims, their subject and interpretation; write or draw what is understood when the account is still developing. A corrected sentence, an interpretable table or a justified answer about a changed dependency can finish the task. Section :4.0 connects these moves; :4.1.1 gives the exact identity comparison when needed.
+**First useful move.** Establish what the account must help its recipient understand or do. Recover the relevant claims, their subject and interpretation; write or draw what is understood when the account is still developing. A corrected sentence, an interpretable table or a justified answer about a changed dependency can finish the task. Section :4.0 connects these moves; :4.1.1 gives the identity comparison when needed.
 
 **One-line summary.** A `U.Episteme` is a claim-bearing holon identified by exact claim content, one exact EntityOfConcern, and the effective `ReferenceScheme` that makes the claims interpretable about that entity. Changing any of these three discriminators identifies another episteme.
 

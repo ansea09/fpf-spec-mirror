@@ -6,12 +6,12 @@ section_id: "F.15:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Naming and Semantic Unification"
   - "F.15:intro — Intro"
-line_start: 123384
-line_end: 123397
+line_start: 131196
+line_end: 131209
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -63,7 +63,7 @@ keywords:
 
 **Type:** Architectural pattern.
 **Normativity:** Normative.
-**Builds on:** F.17 for exact `SchemeSenseCell`, local-sense basis, and row epistemes; F.18 for naming-settlement `NameCard` epistemes and selected designation expressions; F.14 and F.8 for anti-explosion and mint-or-reuse decisions; F.13 for lineage; F.9 for actual cross-local Bridge occurrences and separate bounded-use claims; F.4 for system-role-kind-description epistemes; F.10 or the current pattern that defines the status values and windows; C.2.1 for exact claim and record epistemes; A.2.6 for ClaimScope; A.1.1 and A.22 only when a selected bounded-model-use Structure actually changes the checked use; and E.24.PUB for publication.
+**Builds on:** F.17 for exact `SchemeSenseCell`, local-sense basis, and row epistemes; F.18 for naming-settlement `NameCard` epistemes and selected designation expressions; F.14 and F.8 for anti-explosion and mint-or-reuse decisions; F.13 for lineage; F.9 for actual cross-local Bridge occurrences and separate bounded-use claims; F.4 for system-role-kind-description epistemes; F.10 or the current pattern that defines the status values and windows; C.2.1 for exact claim and record epistemes; A.2.6 for ClaimScope; A.1.1 and A.22 only when a selected bounded-model-use Structure changes the checked use; and E.24.PUB for publication.
 
 **Coordinates with:** A.6.1 for exact check-application bindings; A.13 for every precise performer's local core, A.15.1 for independent dated assessment-Work admission, and F.6 only for a current precise assignment-bound attribution; A.10 and B.3 for evidence reliance and assurance; G.11 for currentness; A.2, A.2.1, A.2.5, and A.2.7 for system-role kinds, assignments, assignment-state predicates and direct state relations, and relations among system-role kinds; E.17 and E.10.D2 for view, description, and source-use claims; A.6.5 for relation declaration; and the pattern that defines each non-naming object included in the selected slice.
 

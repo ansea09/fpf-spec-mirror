@@ -6,12 +6,12 @@ section_id: "C.2.5:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.5/C.2.5__007_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.2.5 — Language-State Closure Degree — How Fixed Is the Current Candidate Space?"
   - "C.2.5:6 — Bias-Annotation"
-line_start: 53988
-line_end: 53990
+line_start: 56225
+line_end: 56227
 dependencies:
   - "A.16"
   - "A.16.0"

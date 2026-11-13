@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.22"
-pattern_title: "Structure and Structural Views (STRUCT-CAL)"
+pattern_title: "Structure and Structural Views"
 section_id: "A.22:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.22 — Structure and Structural Views (STRUCT-CAL)"
+  - "A.22 — Structure and Structural Views"
   - "A.22:2 — Problem"
-line_start: 40165
-line_end: 40184
+line_start: 41743
+line_end: 41762
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -69,7 +69,7 @@ keywords:
 
 ### A.22:2 - Problem
 
-FPF needs a selected-structure EntityOfConcern that is usable across domain ontologies, mathematical formalisms, architecture notations, and publication forms. Working projects often notice that "the structure" is doing real work:
+FPF needs a selected-structure EntityOfConcern that is usable across domain ontologies, mathematical formalisms, architecture notations, and publication forms. Working projects often notice that "the structure" is doing work:
 
 - dependencies repeat across cases;
 - a method or work description hides an invariant relation;

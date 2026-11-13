@@ -6,12 +6,12 @@ section_id: "A.3.1.MV:5"
 section_title: "Archetypal Grounding - Adaptation and Recombination"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MV/A.3.1.MV__007_archetypal-grounding-adaptation-and-recombination.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.3.1.MV — Construct and Maintain a Method Variant"
   - "A.3.1.MV:5 — Archetypal Grounding - Adaptation and Recombination"
-line_start: 11109
-line_end: 11136
+line_start: 11510
+line_end: 11537
 dependencies:
   - "A.3.1"
   - "A.3.1.MI"
@@ -23,7 +23,7 @@ keywords:
 
 ### A.3.1.MV:5 - Archetypal Grounding - Adaptation and Recombination
 
-The Halogen design-practice case reports conscious cyclic evolution and adaptation of Methods across safety-critical projects, practitioner skill sets, and organization of design activity. Use the evidence to recover proposed semantic changes, local Work deviations, situation conditions, and lineage candidates. The source concerns one 52-person multidisciplinary firm and does not supply a universal variant family or automatic Method admission.
+The Halogen design-practice case reports conscious cyclic evolution and adaptation of Methods across safety-critical projects, practitioner skill sets, and organization of design activity. Use the evidence to recover proposed semantic changes, local Work deviations, situation conditions, and lineage candidates. The source concerns one 52-person multidisciplinary firm.
 
 When reusable semantics can be recovered and a Method is independently admitted, maintain the variant with its derivation and applicability. When the recovered change is only a local Work departure, retain the Work evidence and return the non-variant disposition. When the material leaves it unresolved whether Method semantics or support, capability, or organization changed, maintain a candidate lineage only if the proposed reusable semantic differences and derivation can be stated; otherwise return the missing semantic basis.
 
@@ -45,7 +45,7 @@ The parent includes people with the approval or supply roles needed to arrange r
 
 Keep the parent admitted under its existing basis and maintain the child as a candidate derived from it. The child entry names the preserved operations, changed inclusion and completion rules, intended handover-review use, access to the needed work accounts, and unresolved evidence about its usefulness. The inherited canvas remains a representation choice; contact access and facilitator preparation remain separate conditions. Retaining the proposal for a future choice can finish this maintenance task without admitting the child or commissioning a trial.
 
-Evidence is transferred claim by claim. Suppose a parent observation established that the day lead's name and the IT contact details were correct in a stated window. Those exact facts may still serve the child if current; the original observation and its scope remain unchanged. A parent observation of rapid approval coordination does not establish that the child covers receiving work, finds missing handover contributions, or improves the handover. The constructed replay in A.3.2.DE supplies an intelligibility check, not those performance claims. Missing access to the night or relief operator's working account leaves that coverage claim open.
+Evidence is transferred claim by claim. Suppose a parent observation established that the day lead's name and the IT contact details were correct in a stated window. Those facts may serve the child if current; the original observation and its scope remain unchanged. A parent observation of rapid approval coordination does not establish that the child covers receiving work, finds missing handover contributions, or improves the handover. The constructed replay in A.3.2.DE supplies an intelligibility check, not those performance claims. Missing access to the night or relief operator's working account leaves that coverage claim open.
 
 A later change to the canvas alone returns to its representation owner. A change to the working-dependency inclusion rule or the unresolved-dependency stop reopens the affected child semantics, description and selection claims. If the handover use is retired while approval-contact planning remains useful, retire that use of the child entry and preserve the parent and historical derivation. A common name or graphical form does not collapse those dispositions.
 

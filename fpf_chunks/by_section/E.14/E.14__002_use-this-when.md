@@ -6,12 +6,12 @@ section_id: "E.14:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__002_use-this-when.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.14 — Human-Centric Working-Model: Readable Claims and Recoverable Assurance"
   - "E.14:0 — Use This When"
-line_start: 105247
-line_end: 105258
+line_start: 111597
+line_end: 111612
 dependencies:
   - "B.3.5"
   - "C.13"
@@ -26,11 +26,15 @@ keywords:
 
 Use this pattern when FPF text needs to stay readable as one human working model while heavier mapping, logical, constructive, or empirical assurance remains recoverable underneath it.
 
-**What goes wrong if missed.** The working text either drifts into local jargon and slash labels or calcifies into proof machinery that practitioners cannot use in ordinary design, review, or management work.
+**What goes wrong if missed.** The working text can slip into local jargon and slash labels, or expose so much proof machinery that practitioners cannot use it in ordinary design, review, or management work.
 
 **What this buys.** A working reader sees one small model first, while assurance readers can still recover mapping, logical, constructive, and empirical grounding without forcing that machinery back into the Working-Model vocabulary.
 
-**Ordinary route.** Write the shortest practitioner sentence that says what the claim is about, what it claims, and what use it supports. If no assurance-bearing reliance question is current, let the reader stop there. When one is current, place only the needed Mapping, Logical, Constructive, or Empirical support underneath that sentence and cite the pattern that defines or tests each supporting claim.
+**Ordinary route.** Write the shortest practitioner sentence that says what the claim is about, what it claims, and what use it supports. If no assurance-bearing reliance question is current, let the reader stop there.
 
-**Not this pattern when.** Do not use E.14 to decide whether a relation obtains, Work occurred, a result was constituted, evidence or assurance passes, a method applies, work is ready, a gate passed, or permission is current. Use the pattern that defines or tests that claim. Use E.14 for the human-first publication order and the recoverability of support; it supplies none of those domain results.
+When an assurance-bearing reliance question is current, place only the needed Mapping, Logical, Constructive, or Empirical support underneath that sentence and cite the pattern that defines or tests each supporting claim.
+
+**Not this pattern when.** Do not use E.14 to decide whether a relation obtains, Work occurred, a result was constituted, evidence or assurance passes, a method applies, work is ready, a gate passed, or permission is current. Use the pattern that defines or tests that claim.
+
+Use E.14 for the human-first publication order and the recoverability of support; it supplies none of those domain results.
 

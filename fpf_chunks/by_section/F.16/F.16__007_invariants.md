@@ -6,12 +6,12 @@ section_id: "F.16:6"
 section_title: "Invariants"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.16/F.16__007_invariants.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.16 — Worked-Example Template (Cross-Domain)"
   - "F.16:6 — Invariants"
-line_start: 123941
-line_end: 123952
+line_start: 131790
+line_end: 131801
 dependencies:
   - "A.10"
   - "A.15"

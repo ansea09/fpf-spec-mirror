@@ -6,12 +6,12 @@ section_id: "A.6.S:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.S/A.6.S__014_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.S — TargetSignature and optional ConstructorSignature - demand-driven signature engineering"
   - "A.6.S:12 — Relations"
-line_start: 25132
-line_end: 25155
+line_start: 26053
+line_end: 26076
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -48,7 +48,7 @@ keywords:
   * A.6.0 — `U.Signature`
   * A.6.2 — effect-free episteme-arrow discipline, only when a constructor operation uses a mathematical arrow; endpoint facts are read or compared, not changed by the arrow
   * A.1, A.13, and A.15.1 — System admission, the complete actual-performer core including local-kind classification and an obtaining A.2.1 assignment, and independent dated-Work admission; F.6 follows only for precise attribution through that same assignment
-  * C.2.1 — episteme identity through claim content, exact EntityOfConcern, and effective ReferenceScheme, with empirical grounding and edition continuity kept as separate direct relations
+  * C.2.1 — episteme identity through claim content, EntityOfConcern, and effective ReferenceScheme, with empirical grounding and edition continuity kept as separate direct relations
   * (optional) E.18 — TransformationFlowStructure, when signature-construction work is represented as a transformation-flow structure
   * E.10 and LEX discipline — if the publication uses Plain twins (“SoI”) or shorthands, keep their exact Tech readings recoverable and keep Plain twins out of normative register
   * A.6.3 — Episteme viewing — EntityOfConcern-preserving episteme construction

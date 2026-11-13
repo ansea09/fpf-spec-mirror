@@ -6,12 +6,12 @@ section_id: "C.39.RO:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.RO/C.39.RO__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.39.RO — Turn a Construction into a Reusable Operation"
   - "C.39.RO:2 — Problem"
-line_start: 83461
-line_end: 83466
+line_start: 87514
+line_end: 87519
 dependencies:
   - "A.3.1"
   - "A.3.2"
@@ -26,7 +26,7 @@ keywords:
 
 ### C.39.RO:2 - Problem
 
-A successful case mixes reusable relations with its particular values, available resources and incidental choices. Copying the whole case can fail when any of those particulars changes. Replacing all its nouns with variables can fail as well: the result may have depended on a fixed geometry, an allowed operation or a physical condition that the generalized description has erased.
+A successful case mixes reusable relations with its values, available resources and incidental choices. Copying the whole case can fail when any of those particulars changes. Replacing all its nouns with variables can fail as well: the result may have depended on a fixed geometry, an allowed operation or a physical condition that the generalized description has erased.
 
 The practitioner needs to expose what another use may vary while retaining how the result is obtained. This work can also reveal a useful limit: the generalized operation may return an obstruction or an unattainable tolerance for some inputs.
 

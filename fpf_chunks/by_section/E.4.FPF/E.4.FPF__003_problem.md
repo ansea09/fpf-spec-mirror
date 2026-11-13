@@ -6,12 +6,12 @@ section_id: "E.4.FPF:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.FPF/E.4.FPF__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.4.FPF — FPF Edition Assembly: Publication Forms, Carriers and Access Routes"
   - "E.4.FPF:2 — Problem"
-line_start: 93967
-line_end: 93980
+line_start: 98593
+line_end: 98606
 dependencies:
   - "C.33"
   - "C.34"
@@ -39,7 +39,7 @@ keywords:
 
 ### E.4.FPF:2 - Problem
 
-After DPF and local-framework publication forms become explicit, FPF itself can fall into the opposite omission: DPF packages get careful publication-unit, form, carrier, relation, naming, quality, and refresh rules, while FPF is treated as if its form were self-evident because it is "the main spec".
+DPF and local-framework packages can have detailed rules for publication units, forms, carriers, relations, naming, quality, and refresh while authors leave FPF's form unstated because they consider it "the main spec".
 
 That creates several failures:
 

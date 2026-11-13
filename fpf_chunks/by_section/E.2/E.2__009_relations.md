@@ -6,12 +6,12 @@ section_id: "E.2:8"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.2/E.2__009_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.2 — FPF's Eleven Pillars and Bitter-Lesson Preference (BLP)"
   - "E.2:8 — Relations"
-line_start: 92652
-line_end: 92656
+line_start: 97185
+line_end: 97189
 dependencies:
   - "A.10"
   - "A.15.1"

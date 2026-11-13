@@ -6,12 +6,12 @@ section_id: "C.31:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31/C.31__010_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.31 — Modularity and Reusable Structure Characteristics"
   - "C.31:9 — Consequences"
-line_start: 75394
-line_end: 75408
+line_start: 78839
+line_end: 78853
 dependencies:
   - "A.10"
   - "A.17"
@@ -55,6 +55,6 @@ Benefits:
 Costs:
 
 - Familiar score language often has to be downgraded to report-only use.
-- Cross-case comparison needs the applicable measurement and comparison grounds, with quality, source, evidence or decision work when that particular claim requires it.
-- Some attractive "complexity" statements need an exact characteristic, a lens-backed interpretation, or a residual cue.
+- Cross-case comparison needs the applicable measurement and comparison grounds, with quality, source, evidence or decision work when that claim requires it.
+- Some "complexity" statements need a characteristic, a lens-backed interpretation, or a residual cue.
 

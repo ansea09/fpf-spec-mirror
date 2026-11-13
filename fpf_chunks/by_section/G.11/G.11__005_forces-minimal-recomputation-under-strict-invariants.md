@@ -6,12 +6,12 @@ section_id: "G.11:3"
 section_title: "Forces — Minimal recomputation under strict invariants"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.11/G.11__005_forces-minimal-recomputation-under-strict-invariants.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.11 — Decide Whether and How to Refresh SoTA Packs and Related Results (Telemetry and Decay)"
   - "G.11:3 — Forces — Minimal recomputation under strict invariants"
-line_start: 132137
-line_end: 132144
+line_start: 140231
+line_end: 140238
 dependencies:
   - "A.10.1"
   - "A.6.RCD"
@@ -48,9 +48,9 @@ keywords:
 
 ### G.11:3 - Forces — Minimal recomputation under strict invariants
 
-* **Minimal scope vs. completeness.** Include every actual dependent use that can change, while excluding unrelated work. The resulting closure can contain several slices.
+* **Minimal scope vs. completeness.** Include every dependent use that can change, while excluding unrelated work. The resulting closure can contain several slices.
 * **Operational urgency vs. auditability.** Actual refresh Work must remain inspectable through the needed pins, references and paths. A currentness decision or an unchanged use must not become a fictitious Work occurrence.
-* **Alias stability vs. semantic unification.** Existing trigger labels must remain usable, but their meaning must be one governing definition and id-based.
+* **Alias stability vs. semantic unification.** Existing trigger labels must remain usable, but each must resolve by id to its governing trigger definition.
 * **Modularity vs. orchestration power.** `G.11` must coordinate harvesting, parity, and shipping without re-implementing them or importing discipline-specific method semantics into core.
 * **Policy-bound behavior vs. “smart defaults.”** Ordering, priority and budget handling must follow their declared policies rather than hidden universal rules.
 

@@ -6,12 +6,12 @@ section_id: "A.17:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.17/A.17__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.17 — Canonical “Characteristic” (A.CHR-NORM): Name What Is Measured"
   - "A.17:2 — Problem"
-line_start: 34300
-line_end: 34309
+line_start: 35780
+line_end: 35789
 dependencies:
   - "A.17"
   - "A.18"
@@ -41,9 +41,9 @@ keywords:
 
 ### A.17:2 - Problem
 
-When measurement concepts are not kept rigorously distinct, several issues arise:
+When measurement concepts are not kept distinct, several issues arise:
 
--   **Polysemy at the anchor.** Teams say “dimension” or “feature” but mean slightly different things, so the very trait being measured is ambiguous.
+-   **Polysemy at the anchor.** Teams say “dimension” or “feature” but mean slightly different things, so the trait being measured is ambiguous.
 
 -   **Arity mistakes.** A relational quality (e.g. similarity between two items) might be treated as if it were an intrinsic property of one item, or vice versa, leading to logical errors.
 

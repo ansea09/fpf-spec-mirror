@@ -6,12 +6,12 @@ section_id: "A.11.OP:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.11.OP/A.11.OP__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.11.OP — Decision-Relevant Least Action and Operational Parsimony: Test a Proposed Requirement"
   - "A.11.OP:4 — Solution"
-line_start: 27644
-line_end: 27707
+line_start: 28674
+line_end: 28737
 dependencies:
   - "A.10"
   - "A.11"
@@ -57,9 +57,9 @@ The nearest substantive horizon is not necessarily the next event. It may includ
 | **Selected realization** | The action performs a required part of an already selected transformation or obtains the required subject result. A deterministic step needs no fabricated rival outcomes. | This branch establishes the action's contribution to the selected result; it presupposes selection and leaves feasibility, authorization, actual Work, and result status to their direct owners. |
 | **Assurance or recoverability preservation** | Removing the action changes a named assurance or recoverability condition on which the declared use relies. | This branch preserves that condition; its required level and evidential basis come from the direct assurance or recovery owner. |
 
-Compare the concrete situation with and without the requirement. A passing branch removes the objection that the work contributes nothing. Retain it only as far as its direct basis justifies requiring it. An already selected transformation or established reliance can supply that basis without another comparison.
+Compare the situation with and without the requirement. A passing branch removes the objection that the work contributes nothing. Retain it only as far as its direct basis justifies requiring it. An already selected transformation or established reliance can supply that basis without another comparison.
 
-When a proposed inquiry could matter but its worth remains open, apply `C.11.DUA` to the actual demand and receiving question. Identify the attainable observation, what it could change, and its whole cost within the receiving horizon. Compare available continuations through `C.11` when a local choice is needed. A useful possible result can still arrive too late, require unavailable means, or cost more than its contribution. Keep the presently supported answer or select a feasible alternative under its actual limits. Do not invent an OptionSet or an inquiry merely to certify that none is needed.
+When a proposed inquiry could matter but its worth remains open, apply `C.11.DUA` to the demand and receiving question. Identify the attainable observation, what it could change, and its whole cost within the receiving horizon. Compare available continuations through `C.11` when a local choice is needed. A useful possible result can still arrive too late, require unavailable means, or cost more than its contribution. Keep the presently supported answer or select a feasible alternative under its limits. Do not invent an OptionSet or an inquiry merely to certify that none is needed.
 
 If no branch passes, remove the requirement or leave it as an optional convenience. Convenience and prior investment do not supply the missing receiving difference.
 
@@ -67,7 +67,7 @@ If no branch passes, remove the requirement or leave it as an optional convenien
 
 *Materially plausible* means more than logical possibility and less than certainty. The direct owner of the claimed consequence supplies its standard of evidence. A low-probability result can remain material when its consequence changes exposure or the admissible policy. A large information volume is material only when some possible result changes a named receiving use.
 
-When the branches cannot be distinguished, name the exact claim and missing basis and return them to that claim's direct owner. Keep the qualified answer already supported. A bounded experiment is one possible continuation only when an attainable result and worthwhile contribution justify its whole burden under §4.2. Unresolved usefulness alone does not select an experiment or create permanent mandatory status.
+When the branches cannot be distinguished, name the claim and missing basis and return them to that claim's direct owner. Keep the qualified answer already supported. A bounded experiment is one possible continuation only when an attainable result and worthwhile contribution justify its whole burden under §4.2. Unresolved usefulness alone does not select an experiment or create permanent mandatory status.
 
 #### A.11.OP:4.4 - Return authority and claims to their direct owners
 

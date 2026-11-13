@@ -6,12 +6,12 @@ section_id: "B.2.4:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.4/B.2.4__004_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.2.4 — Do Capability or Functioning Changes Require Whole Reidentification?"
   - "B.2.4:2 — Problem"
-line_start: 44449
-line_end: 44459
+line_start: 46257
+line_end: 46267
 dependencies:
   - "A.10"
   - "A.15"
@@ -44,5 +44,5 @@ Confusing capability and whole identity produces these errors:
 3. **Method and work collapse.** The way of doing, description of doing, planned work, and performed work are compressed into one vague operational claim.
 4. **Module allocation becomes functional truth.** A module label is treated as evidence for the required behavior or selected structure.
 5. **Transformation-flow description replaces in-life structure.** A graph, diagram, or publication of a flow is treated as the flow structure or whole.
-6. **Whole reidentification is missed.** A real result whole is left as "just a better capability".
+6. **Whole reidentification is missed.** A result whole is left as "just a better capability".
 

@@ -6,12 +6,12 @@ section_id: "E.10:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__002_use-this-when.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:0 — Use this when"
-line_start: 98960
-line_end: 99692
+line_start: 104506
+line_end: 105259
 dependencies:
   - "A.10"
   - "A.15"
@@ -77,7 +77,7 @@ A cue is neither a ban nor a verdict. Its absence is not semantic clearance, and
 1. Read one complete sentence, row, paragraph, list, or small coherent section rather than classifying a word in isolation.
 2. Apply the connected `F.19` reading. If ordinary meaning settles the issue, write the repaired text and reread the changed sentence with only its meaning-dependent neighbors.
 3. If an FPF wording question remains, name that one question: head or kind, register, morphology, durable name, direct relation and participant, reusable declaration, claim or report, representation, source or publication use, or another exact governed object.
-4. Use the applicable subject pattern directly when the object and claim are already recoverable. Use the detailed `E.10` rows only for the selected lexical question. Open `E.10.ARCH` when the distinction among a world-side fact, reusable declaration, claim or report, and representation is itself unresolved.
+4. Use the applicable subject pattern directly when the object and claim are already recoverable. Use the detailed `E.10` rows only for the selected lexical question. Open `E.10.ARCH` when the distinction among a world-side fact, reusable declaration, claim or report, and representation is unresolved.
 5. Check the replacement for another umbrella head, an unintended kind or scope change, and a newly introduced relation. If one remains unresolved, state the blocker instead of filling the sentence with possible interpretations.
 
 A complete reading can preserve clear conversational wording or an exact locally defined meaning. Where something remains unresolved, distinguish a sentence repair under an existing rule, a needed distinction or relation for which the defining rule is absent, and facts still missing to decide the meaning or claim. Unavailable facts do not establish an ontology gap. An applicable pattern supplies its stated rule; its presence does not prove that every encountered case is covered.
@@ -86,13 +86,13 @@ The ordinary result is retained or repaired text, or a specific blocker. `E.10` 
 
 Common prose can often remain ordinary after the relation is stated: `Test T is evidence for claim C`; `Index I helps readers find section S`; `Column C bears roof R's load`. These sentences reach different subject patterns and do not need a common `SupportRelation`.
 
-Local patterns may cite a useful recognition row. They do not copy the trigger inventory or create a local lexical registry unless a stable local vocabulary is itself the governed product. Self-application remains bounded: use `E.21` for pattern-quality evaluation and the exact subject pattern for any non-lexical claim.
+Local patterns may cite a useful recognition row. They do not copy the trigger inventory or create a local lexical registry unless a stable local vocabulary is the governed product. Self-application remains bounded: use `E.21` for pattern-quality evaluation and the exact subject pattern for any non-lexical claim.
 
 #### E.10:0.1 - Scope split
 
 `E.10` applies to lexical conformance in FPF pattern text, extracted pattern hosts, `FPF-Spec` monolith text, FPF governing documents, accepted `DRR` text, and any project, product, research, engineering, or review text that deliberately uses FPF terms, pattern references, FPF relation names, FPF kind claims, FPF admissibility claims, or claims FPF conformance.
 
-For ordinary source text, intake notes, seminar transcripts, external reviews, project documents, source publications, tool outputs, or other text that does not itself claim FPF-governed use, use `C.2.P` source-expression unpacking mode. That use may borrow tests or rules from `E.10`, `A.6.P`, `A.6.6`, `F.18`, or another relevant pattern, but it does not judge the source text as failed FPF wording.
+For ordinary source text, intake notes, seminar transcripts, external reviews, project documents, source publications, tool outputs, or other text that does not claim FPF-governed use, use `C.2.P` source-expression unpacking mode. That use may borrow tests or rules from `E.10`, `A.6.P`, `A.6.6`, `F.18`, or another relevant pattern, but it does not judge the source text as failed FPF wording.
 
 #### E.10:0.2 - Compact cue and routing surface
 
@@ -100,10 +100,11 @@ Keep these cues available while applying `F.19`. They help find candidate spans;
 
 | Cue family | Inspect in the complete natural span | Continue beyond `F.19` only when |
 | --- | --- | --- |
-| Broad or overloaded heads such as `support`, `basis`, `context`, `role`, `process`, `method`, `route`, `record`, `result`, or `status` | What recognizable object, relation, source, use, or state does the sentence actually mean? | An FPF kind, register, relation, source use, or governed value remains unclear. |
+| Broad or overloaded heads such as `support`, `basis`, `context`, `role`, `process`, `method`, `route`, `record`, `result`, or `status` | What recognizable object, relation, source, use, or state does the sentence mean? | An FPF kind, register, relation, source use, or governed value remains unclear. |
 | Development- or evolution-family wording such as `development`, `evolution`, `progress`, `growth`, `adaptation`, or `lineage` | What changed or is represented, what continuity or membership matters, what posture or value claim is current, and which direct owner receives it? | Those values remain action-changing and unresolved; use `E.10.DEV`, then `E.10.MOVE` only for a separate remaining path or trajectory ambiguity. |
 | Control- and management-family wording such as `control`, `management`, `regulation`, `governance` or `steering` | Does this name a discipline, people, an influencing arrangement, observation, a decision right or a particular intervention? Recover what changes or is maintained and how. | The distinction changes the claim or next action; use `E.10:9.8` and the applicable subject rule. |
-| Agentive or causal predicates attached to evidence, documents, patterns, representations, methods, or other doubtful subjects | Can the grammatical subject bear the asserted predicate under the intended literal or ordinary metonymic reading? Check inside negation, modality, and examples. | Precise systemhood, agency, Work, attribution, evidence, or causal use is itself part of the claim. |
+| Agentive or causal predicates attached to evidence, documents, patterns, representations, methods, or other doubtful subjects | Can the grammatical subject bear the asserted predicate under the intended literal or ordinary metonymic reading? Check inside negation, modality, and examples. | Precise systemhood, agency, Work, attribution, evidence, or causal use is part of the claim. |
+| A general claim ties a role or a capability to a person, or leaves the relevant system unclear | Which system does the work, holds the decision or gains the capability? Would changing that system change the evidence needed or what it may do? | Use `E.8:4.2.3` for the authoring choice, `A.13` for a precise agency claim and `E.10.LRN` for learning or capability attribution. |
 | Negative and contrastive forms such as `not`, `rather than`, `does not mean`, `does not turn`, warnings, and non-use guards | Does a plausible intended reader have an independent local reason to construct the rejected reading, and does the distinction change truth, understanding, or use? | The guard carries an exact FPF admissibility, safety, source-use, or claim boundary. |
 | Verbs with uncertain objects or destinations; relational nouns such as `bearer`, `boundary`, `basis`, `readiness`, or `condition`; vague pronouns and demonstratives | Can one intended operand, other participant, or referent be recovered cheaply and uniquely? | The missing value is an exact FPF participant, relation position, state bearer, or source reference. |
 | Grouping marks, repeated coordination at several grammatical levels, comma or semicolon chains, nested lists, stacked modifiers before the governing clause, and coverage heads such as examples, variants, forms, activities, or continuations | Does the reader need a series at all? If so, what proposition it serves, what its membership semantics are, and which members change use? | A closed FPF value set, kind, declaration, relation set, or representation remains unresolved. |
@@ -119,7 +120,7 @@ Item count is only a cue. Two coordinated members may already form a needless ca
 
 `exact` is not a general precision marker. Keep it for literal or bounded source identity, or when it distinguishes a live alternative that changes truth, action, publication, reuse, or reliance. An ordinary PatternID citation needs no formal expansion merely because it is exact.
 
-#### E.10:0.2a - Exact routing boundary
+#### E.10:0.2a - Routing boundary
 
 If the applicable pattern and the current object, direct relation and participants, declaration, claim-bearing episteme, representation and correspondence, or source use are already recoverable, use that pattern directly and state its concrete contribution—for example, a definition, constraint, test, method, or lookup.
 
@@ -139,11 +140,11 @@ The result is the repaired wording, the concrete result of the selected pattern,
 
 #### E.10:0.2b - Optional trigger index
 
-The compact surface above is the normal entry. The detailed rules in `E.10:0.2c` and the L-rules in section 9 are optional references after one cue has selected a real FPF wording problem.
+The compact surface above is the normal entry. The detailed rules in `E.10:0.2c` and the L-rules in section 9 are optional references after the F.19 reading leaves an FPF wording question unresolved and a cue identifies the relevant rule.
 
 Frequent search terms include broad heads (`support`, `basis`, `context`, `role`, `method`, `process`, `result`, `record`), state and authority-looking words (`current`, `ready`, `valid`, `approved`, `required`), source and representation words (`source`, `publication`, `carrier`, `field`, `map`, `dashboard`), and grouping or coverage language (`and`, `plus`, slashes, `examples`, `variants`, `forms`). They are examples, not a closed lexicon. Search can increase recall; only the natural-span reading can decide whether a defect exists.
 
-Use a detailed row only when its exact distinction changes the repair. Otherwise write the ordinary sentence and return to the domain task.
+Use a detailed row only when its distinction changes the repair. Otherwise write the ordinary sentence and return to the domain task.
 
 ##### E.10:0.2b.1 - `requirement` and `required` recovery
 
@@ -151,7 +152,7 @@ Treat `requirement` and `required` as cues, not as a shared engineering kind or 
 
 When the wording still carries an FPF-governed claim, recover the bearer, the exact claim or relation kind, the governing pattern when its identity changes use, and the practical consequence. Write that construction directly and reread the changed sentence. The result is the repaired text or a blocker, not a separate record.
 
-| Current claim behind the wording | Exact recovery and practical consequence |
+| Current claim behind the wording | Recovery and practical consequence |
 | --- | --- |
 | An accountable subject undertakes a duty, accepts a recommendation-as-duty, or is prohibited under an issuing or authority relation. | `A.2.8 -> U.Commitment`; the commitment changes the accountable subject's declared duty, recommendation-as-duty, or prohibition stance for the stated scope and validity window. |
 | A valid grant permits a beneficiary, no prohibition is found in a current sufficiently complete frame, dated work exercises a grant, actual dated work is found not to violate any applicable prohibition in a current sufficiently complete frame, or a same-scope permission conflict is found. | `A.2.8.PER` -> the exact `GrantedPermissionRelation@Context`, `NonProhibitionFinding@Context`, `PermissionExerciseRelation@Context`, `NonViolationFinding@Context`, or `PermissionNormConflictFinding@Context`; do not route it through `U.Commitment`. |
@@ -163,13 +164,19 @@ When the wording still carries an FPF-governed claim, recover the bearer, the ex
 | A framework-authoring dependency is absent or not current for the next use. | E.4.DPF separates availability from relevance; only a missing dependency carries an acquisition-condition description, and only `missing + currentForNextAuthoringUse` blocks the next authoring use. |
 | A candidate framework organization must cover declared relation families for a stated use. | One E.4.DPF constraint claim node with covered family ref-kind pairs, admitted-use description, and coverage-criterion description; any WorkPlan acceptance target remains separate basis. |
 
-Name admission precedes slot verification. `CandidatePatternUseBasisRelation@Context` is admissible because the head exposes the basis relation and its two sides; `CandidatePatternUseBinding` is not repaired by kind-correct fields because `Binding` hides that subject relation. Likewise, `BoundaryConditionKindSlot` names a slot whose values classify boundary conditions; `BoundaryRoleSlot` would falsely suggest a role value. Apply F.18 only when a durable name is actually being minted.
+Name admission precedes slot verification. `CandidatePatternUseBasisRelation@Context` is admissible because the head exposes the basis relation and its two sides; `CandidatePatternUseBinding` is not repaired by kind-correct fields because `Binding` hides that subject relation. Likewise, `BoundaryConditionKindSlot` names a slot whose values classify boundary conditions; `BoundaryRoleSlot` would falsely suggest a role value. Apply F.18 only when a durable name is being minted.
 
 ##### E.10:0.2b.2 - External holon and graph-expression source wording
 
 **Cue.** External holon-class or Holon Graph Architecture (HGA) graph-expression wording such as `AgentHolon`, `OrganisationHolon`, `DataHolon`, `ProcessHolon`, `Portal`, `Projection`, event envelope, provenance, target holon, projection envelope, projected content, envelope, payload, RDF graph, node, edge, traversal, or boundary-governed payload whose FPF object is hidden.
 
-Recover the claim before importing the source label. Use `A.1` for admitted system or holon claims; `C.2.1`, `E.17`, architecture-description, publication, source-relation, or evidence patterns for data, document, projected content, description, publication, view, or evidence claims; `A.10`, source-relation, evidence-relation, dated-work, or publication patterns for event and provenance claims; and `A.3.4.P`, method, work-plan, or Work patterns for process-like wording. Portal, access, traversal, service-access, protocol, and agreement-like words do not select peer routers. While their object remains hidden, use `A.6.RSIR`; after recovery, use `E.17` or the pattern for the publication claim, the pattern for the representation and correspondence, with `C.29` added only for mathematical-lens use, `A.6.0` plus `A.6.5` for a reusable signature and its slots, `A.6.M` for a module-interface claim, the pattern for the policy claim, and `A.10` or the pattern for the evidence claim. Use `A.6.P:4.11a` only when a relied-on service or access phrase hides its concrete subject or direct relation; use `A.6.C` only when recovered service-term, SLA, protocol, or agreement-like wording bundles promise, utterance or publication, governance, Work or consequence, or evidence claims; use general `A.6.P` only for another under-specified direct relation. For graph, RDF, node, edge, or traversal expression claims, use the pattern for the recovered subject, representation, source or publication relation; `A.22`, `C.30.ASV`, `C.30.AD`, and `E.17` retain their own questions, and `C.29` applies when mathematical correspondence or returned inference is claimed; use `A.6.B` only for L, A, D, or E statement classification inside a boundary package.
+Recover the claim before importing the source label. Use `A.1` for admitted system or holon claims; `C.2.1`, `E.17`, architecture-description, publication, source-relation, or evidence patterns for data, document, projected content, description, publication, view, or evidence claims; `A.10`, source-relation, evidence-relation, dated-work, or publication patterns for event and provenance claims; and `A.3.4.P`, method, work-plan, or Work patterns for process-like wording.
+
+Portal, access, traversal, service-access, protocol, and agreement-like words do not select peer routers. While their object remains hidden, use `A.6.RSIR`; after recovery, use `E.17` or the pattern for the publication claim, the pattern for the representation and correspondence, with `C.29` added only for mathematical-lens use, `A.6.0` plus `A.6.5` for a reusable signature and its slots, `A.6.M` for a module-interface claim, the pattern for the policy claim, and `A.10` or the pattern for the evidence claim.
+
+Use `A.6.P:4.11a` only when a relied-on service or access phrase hides its concrete subject or direct relation; use `A.6.C` only when recovered service-term, SLA, protocol, or agreement-like wording bundles promise, utterance or publication, governance, Work or consequence, or evidence claims; use general `A.6.P` only for another under-specified direct relation.
+
+For graph, RDF, node, edge, or traversal expression claims, use the pattern for the recovered subject, representation, source or publication relation; `A.22`, `C.30.ASV`, `C.30.AD`, and `E.17` retain their questions, and `C.29` applies when mathematical correspondence or returned inference is claimed; use `A.6.B` only for L, A, D, or E statement classification inside a boundary package.
 
 W3C Community Group Holon Graph Architecture (HGA) vocabulary is retained as a source-finding cue or comparison term only after the recovered FPF object is named and differences from FPF are explicit. Do not mint source-class U-kinds such as `U.AgentHolon`, `U.DataHolon`, `U.ProcessHolon`, `U.Portal`, `U.Projection`, `U.Envelope`, or `U.Payload`; do not turn semantic-web class names or graph-expression vocabulary into FPF ontology.
 
@@ -191,7 +198,7 @@ Classify the sentence first.
 | a local table or paragraph topic with no claim-bearing episteme, C.2.1 participant, current declaration, or reference use | `topic`, `subject`, or direct noun |
 | a project-side episteme, publication, record, carrier, or activity under work | project episteme, view, or publication named by value, independently established evidence-use relation under its direct rule, with A.10 when its source-to-use account needs recovery or replay, typed evidence record, `A.20` constraint or adjudication decision record, A.21 `GateDecisionResult`, an optional A.21 `DecisionLog`, `B.3` assurance or engineering-justification record, typed status record whose FPF status pattern is named, `A.2.8 U.Commitment`, exact `A.2.8.PER` permission result, `C.11 ChoiceResult`, `C.11` decision record, `A.6.A` action invitation, one `A.15.1` dated Work occurrence admitted under `U.Work`, a separate episteme about that occurrence, `A.15.2 U.WorkPlan`, `U.Method`, `U.MethodDescription`, carrier relation, or front-end relation |
 
-Use the selected row only when the EntityOfConcern distinction changes the sentence. State the recovered participant, publication-unit use, review target, or ordinary topic directly; preserve any claim-bearing episteme, declaration, representation, source wording, and reader use that actually remains current. The ordinary result is the repaired sentence or a blocker, followed by the local `F.19` reread.
+Use the selected row only when the EntityOfConcern distinction changes the sentence. State the recovered participant, publication-unit use, review target, or ordinary topic directly; preserve any claim-bearing episteme, declaration, representation, source wording, and reader use that remains current. The ordinary result is the repaired sentence or a blocker, followed by the local `F.19` reread.
 
 ##### E.10:0.2c.2 - publication-unit wording that implies authoring or interpretation work
 
@@ -200,7 +207,7 @@ When a phrase makes the bounded unit sound like authoring work or interpretation
 | If local wording meant… | Rewrite as… |
 | --- | --- |
 | bounded human-inspected unit inside a publication | `PublicationUnit` |
-| the act of writing or editing | ordinary authoring or editing. Name dated Work only when one occurrence is asserted; use a planning cue or content inside an admitted `U.WorkPlan` when intended work and its planning claims are current. An exact episteme is `U.WorkPlan` only after A.15.2 recovers one present EntityOfConcern, one horizon, at least one `PlanItem`, and substantive coordination claims about possible future performed work. When the sentence instead concerns the authored object, use a separately identified claim-bearing episteme under its own exact kind. Any production or change relation between the Work and that episteme needs its own defining rule or pattern. The authored episteme is `U.MethodDescription` only if its exact EntityOfConcern is one admitted `U.Method` and its claims independently pass A.3.2; the writing or editing act is never the MethodDescription. |
+| the act of writing or editing | ordinary authoring or editing. Name dated Work only when one occurrence is asserted; use a planning cue or content inside an admitted `U.WorkPlan` when intended work and its planning claims are current. An exact episteme is `U.WorkPlan` only after A.15.2 recovers one present EntityOfConcern, one horizon, at least one `PlanItem`, and substantive coordination claims about possible future performed work. When the sentence instead concerns the authored object, use a separately identified claim-bearing episteme under its own exact kind. Any production or change relation between the Work and that episteme needs its own defining rule or pattern. The authored episteme is `U.MethodDescription` only if its EntityOfConcern is one admitted `U.Method` and its claims independently pass A.3.2; the writing or editing act is never the MethodDescription. |
 | a pattern body or section | FPF pattern body, pattern section, or `PublicationUnit` of that pattern |
 | a file or rendered medium | carrier, front-end, rendering, or document with named source-basis, evidence-basis, architecture-basis, or review-basis relation or use |
 | a publication form | publication form |
@@ -264,9 +271,13 @@ Recover the relation or use that makes something a `source`; common cases includ
 
 Recover the relation or use that makes something a `target`; common cases include an EntityOfConcern, target `U.Episteme`, review target, FPF rule being applied, project target, work target, target publication form, project-side FPF kind and reference named by value, target frame, target-side situation or model-use boundary only when its defining rule is current, the actual target-side participant of an obtaining named relation, or the target-side A.6.5 `SlotSpec` only when a reusable relation declaration is current.
 
-Generic `object` and `target` are not final recovered kinds. Keep them only when the sentence explicitly declares a named field or participant designation inside a current episteme, such as `ObjectKindUnderImprovement`, `ObjectVersionUnderImprovement`, or `ObjectVersionUnderQualityEvaluation`; names a `review target`; or states one direct-relation participant meaning whose actual-participant kind is supplied by value nearby. If a reusable relation declaration is current, name its A.6.5 `SlotSpec` separately. When the governed kind is known, write that kind by value: FPF pattern version, `DRR`, FPF corpus slice, publication form, `PublicationUnit`, file carrier, system carrier, exact changed referent, exact entity or value bound as the result of one particular `A.6.1` operation application, candidate proposal, evidence or provenance relation, gate decision, work plan, method description, object-under-improvement evaluation, or another named FPF kind.
+Generic `object` and `target` are not final recovered kinds. Keep them only when the sentence explicitly declares a named field or participant designation inside a current episteme, such as `ObjectKindUnderImprovement`, `ObjectVersionUnderImprovement`, or `ObjectVersionUnderQualityEvaluation`; names a `review target`; or states one direct-relation participant meaning whose actual-participant kind is supplied by value nearby. If a reusable relation declaration is current, name its A.6.5 `SlotSpec` separately.
 
-Do not recover an FPF pattern, publication form, `PublicationUnit`, pattern body, or view as a `carrier` merely from its label. Under E.17 and E.24.PUB, identify the physical or digital carrier independently under its domain identity rule and establish that its actual state or realization yields the particular expression. The reusable publication form supplies rules that expression follows; it is not the filled expression or its carrier. Ordinary carrier wording elsewhere names its actual bearer relation to a system, medium, file, rendering, front end or transport object. If the text means the FPF pattern publication form, write `FPF pattern publication form`; if it means the file, rendered, front-end or transport side, name that exact carrier or relation.
+When the governed kind is known, write that kind by value: FPF pattern version, `DRR`, FPF corpus slice, publication form, `PublicationUnit`, file carrier, system carrier, exact changed referent, exact entity or value bound as the result of one `A.6.1` operation application, candidate proposal, evidence or provenance relation, gate decision, work plan, method description, object-under-improvement evaluation, or another named FPF kind.
+
+Do not recover an FPF pattern, publication form, `PublicationUnit`, pattern body, or view as a `carrier` merely from its label. Under E.17 and E.24.PUB, identify the physical or digital carrier independently under its domain identity rule and establish that its actual state or realization yields the particular expression. The reusable publication form supplies rules that expression follows; it is not the filled expression or its carrier.
+
+Ordinary carrier wording elsewhere names its actual bearer relation to a system, medium, file, rendering, front end or transport object. If the text means the FPF pattern publication form, write `FPF pattern publication form`; if it means the file, rendered, front-end or transport side, name that exact carrier or relation.
 
 Common repair examples:
 
@@ -283,11 +294,17 @@ Do not publish "source and target" if the selected relation needs the actual FPF
 
 These source words depend on the relation in the sentence; they do not identify a final kind or one result family. First name the exact entity and the exact object relative to which the word is being used. For epistemic `source data` or `source material`, close the exact source expression, episteme or publication, and source-to-use relation under `C.2.P` first. For physical raw material, name the relevant constituent, affected-referent, resource-use, supply, transfer, or transformation relation and use the pattern that defines it.
 
-When the remaining current claim is relative to a method, plan, dated work, transformation, evaluation, delivery, transfer, or receiving use, apply `A.6.P.WMR`. Recover claim subject, modality and exact temporal extent, polarity, and recovery/support state independently. Closure is exactly one of four truthful families: an exact direct subject-relation claim, positive or governed negative; an exact `A.6.1` operation-application binding; an exact local `A.15.PROD` or `A.6.RCD` claim; or an exact non-assertability result with the reason and continuation defined in `A.6.P.WMR:4.3`. Failed tests, unavailable facts and known inapplicability retain their governing rule. A missing subject rule and missing constructor semantics keep their different repair questions; a future pattern or declaration need is named only when identifiable. Classification, a generic `result relation`, a method-description field, planned filling, a designation that merely type-checks against an A.6.5 `SlotSpec`, or a polarity inference is not closure.
+When the remaining current claim is relative to a method, plan, dated work, transformation, evaluation, delivery, transfer, or receiving use, apply `A.6.P.WMR`. Recover claim subject, modality and exact temporal extent, polarity, and recovery/support state independently. For closure, give the precise result and select exactly one of four families: a direct subject-relation claim, positive or governed negative; an `A.6.1` operation-application binding; a local `A.15.PROD` or `A.6.RCD` claim; or a non-assertability result with the reason and continuation defined in `A.6.P.WMR:4.3`.
 
-Before opening that branch, test whether the phrase already names an independently identified `U.Episteme`; `U.View` or `U.EpistemeView`; publication form; publication face, including a declared MVPK face; `PublicationUnit`; carrier, front-end, or rendering relation; project-side FPF kind and reference named by value; evidence carrier or evidence relation; document under a named source-basis, evidence-basis, architecture-basis, or review-basis relation or use; review target; `C.11` `ChoiceResult`; measurement-result episteme; evaluation result; diagnostic finding; decision; or another project object whose record kind and defining rule are named by value. Retain ordinary `input`, `output`, `result`, `outcome`, or `deliverable` only while the exact defining relation rule remains recoverable. If no governor closes the selected WMR claim, return the bounded blocker. If the missing item is instead a non-WMR kind, retain an architecture-first candidate disposition under the pattern that defines that candidate. Do not invent either one inside pattern prose or replace it with a universal kind or relation.
+Failed tests, unavailable facts and known inapplicability retain their governing rule. A missing subject rule and missing constructor semantics keep their different repair questions; a future pattern or declaration need is named only when identifiable.
 
-For *work product*, name the thing and the claim being made about it: a corrected recording, a report's content, an assembled device, or another particular entity. A.15.PROD distinguishes participation in production, the first satisfaction of an entity's identity rule, and completion under a criterion. Apply only the question actually raised. A document can describe a wanted change without being that change; a publication occurrence, delivery and acceptance each need their own basis. A.15.2:4.2 keeps an expected output or delivery target in the plan from asserting its existence or completion.
+Classification, a generic `result relation`, a method-description field, planned filling, a designation that merely type-checks against an A.6.5 `SlotSpec`, or a polarity inference is not closure.
+
+Before opening that branch, test whether the phrase already names an independently identified `U.Episteme`; `U.View` or `U.EpistemeView`; publication form; publication face, including a declared MVPK face; `PublicationUnit`; carrier, front-end, or rendering relation; project-side FPF kind and reference named by value; evidence carrier or evidence relation; document under a named source-basis, evidence-basis, architecture-basis, or review-basis relation or use; review target; `C.11` `ChoiceResult`; measurement-result episteme; evaluation result; diagnostic finding; decision; or another project object whose record kind and defining rule are named by value.
+
+Retain ordinary `input`, `output`, `result`, `outcome`, or `deliverable` only while the exact defining relation rule remains recoverable. If no governor closes the selected WMR claim, return the bounded blocker. If the missing item is instead a non-WMR kind, retain an architecture-first candidate disposition under the pattern that defines that candidate. Do not invent either one inside pattern prose or replace it with a universal kind or relation.
+
+For *work product*, name the thing and the claim being made about it: a corrected recording, a report's content, an assembled device, or another entity. A.15.PROD distinguishes participation in production, the first satisfaction of an entity's identity rule, and completion under a criterion. Apply only the question raised. A document can describe a wanted change without being that change; a publication occurrence, delivery and acceptance each need their own basis. A.15.2:4.2 keeps an expected output or delivery target in the plan from asserting its existence or completion.
 
 For a recurring *result of Work* or *result of a project*, reuse the established meaning and obtain the facts for the new participants. A.6.P.WMR:4.7 explains that reuse, including production across entity kinds, preservation of a condition, joint Work and later use; :5.7 develops the authoring case and a missing-fact return. Different participant kinds do not by themselves require different result meanings, and the common word does not make those different relations one. A.15.6 supplies the actual-project and whole/part grounds when that claim is current.
 
@@ -315,7 +332,11 @@ Use `record` only when an FPF pattern or project practice defines the record kin
 - `E.19` review run record or another named review record whose review target and review relation are explicit;
 - process run record in process documents.
 
-Do not let `record` mean "any file that remembers something", "the missing source", or "the thing to create when support is absent". If a named support relation cannot be asserted because a required actual participant or value is absent, name that exact missing participant or value. If a reusable declaration is incomplete, name its missing `SlotSpec` or other missing declaration content and repair that declaration. If a receiving assertion or relation-occurrence-description episteme lacks a participant designation, name the missing designation under that episteme. If a `U.WorkPlan` lacks a planned participant designation or planned value, name that missing plan content under the WorkPlan. Create a prospective repair request, future decision request, prospective work-plan entry, or explicit missing-source-relation note as applicable; none backdates support, establishes actual participation, or makes the direct relation obtain.
+Do not let `record` mean "any file that remembers something", "the missing source", or "the thing to create when support is absent". If a named support relation cannot be asserted because a required actual participant or value is absent, name that missing participant or value.
+
+If a reusable declaration is incomplete, name its missing `SlotSpec` or other missing declaration content and repair that declaration. If a receiving assertion or relation-occurrence-description episteme lacks a participant designation, name the missing designation under that episteme. If a `U.WorkPlan` lacks a planned participant designation or planned value, name that missing plan content under the WorkPlan.
+
+Create a prospective repair request, future decision request, prospective work-plan entry, or explicit missing-source-relation note as applicable; none backdates support, establishes actual participation, or makes the direct relation obtain.
 
 ##### E.10:0.2c.9 - `model`, `diagram`, `screen`, `dashboard`, `table`, `note`, `memo`, `summary`, `explanation`
 
@@ -325,7 +346,7 @@ For unresolved `model` or `explanation` wording, recover the subject at issue an
 
 When `model` hides the question, state what answer is sought from it. For example, a model of stated axioms is a structure satisfying those axioms; modeling an observed process may seek relations from which to derive predictions or compare interventions. The same mathematical construction can serve several modeling uses. Retain the subject's vocabulary and notation when they already make that use clear.
 
-For an unclear request to "run" or "execute" a model, recover how the model is interpreted for this question, how the answer is obtained, and who or what performs that operation. The operation may be reasoning with a diagram, solving constraints, running a simulation or experimenting with a physical analogue. A diagram's reader can supply premises and an inference method that are absent from the drawing; recover the missing premise or inference operation when it changes the answer or another agent must reproduce the reasoning. `B.5.FM` helps construct the model, `A.6.3.RT.OE` makes an expression usable in the intended operation, and `C.29.2` develops a computational formulation when computation is required. Use `C.2.P.DR` when the wording attributes an unsupported action to the representation itself.
+For an unclear request to "run" or "execute" a model, recover how the model is interpreted for this question, how the answer is obtained, and who or what performs that operation. The operation may be reasoning with a diagram, solving constraints, running a simulation or experimenting with a physical analogue. A diagram's reader can supply premises and an inference method that are absent from the drawing; recover the missing premise or inference operation when it changes the answer or another agent must reproduce the reasoning. `B.5.FM` helps construct the model, `A.6.3.RT.OE` makes an expression usable in the intended operation, and `C.29.2` develops a computational formulation when computation is required. Use `C.2.P.DR` when the wording attributes an unsupported action to the representation.
 
 A performance claim states what the agent does or can do. A claim that it uses a particular internal representation concerns how that performance is obtained. Use `C.2.1` when the content and identity of an episteme are at issue; use the applicable subject method to establish a claimed physical or computational representation. Use `E.17.EFP` when ambiguity about source faithfulness changes how an expressed account may be used, and `C.2.8` when recoverability by a recipient is the question.
 
@@ -366,7 +387,7 @@ If a text says "reader-facing" or "review-facing", it also names what is facing 
 
 Keep *owner* as ordinary architectural, organizational, policy, source-maintenance, or stewardship wording when the sentence already makes the precise ownership or responsibility relation and its participants clear. Otherwise name that direct relation. *Owner* does not mean a system-role kind, `U.SystemRoleAssignment`, authority, or Work by default, and it is not a substitute for `pattern`, `DRR`, selected `U.Episteme`, exact `EpistemePublicationRelation` occurrence, publication form, publication unit, file carrier, or project record.
 
-Split the actual claim into the smallest applicable value:
+Split the claim into the smallest applicable value:
 - exact architectural, organizational, policy, source-maintenance, stewardship, ownership, or responsibility relation and participants;
 - relation to an FPF pattern or an authority-reference relation;
 - named source set used as authority for the claim;
@@ -392,7 +413,7 @@ Recover the movement, control, and temporal relation set before using these word
 - `E.18` graph path or `PathSlice` expression;
 - `A.6.3`, `A.6.4` episteme morphism or retargeting.
 
-When `handoff` instead names an entity, package, result, delivery, transfer, acceptance, or receiving-use boundary, apply `A.6.P.WMR` to that exact relation-bearing claim. Use `E.10.MOVE` for a process-baton or project-move case only when that movement itself is current; a handoff record or package remains an episteme or another entity, not the transfer.
+When `handoff` instead names an entity, package, result, delivery, transfer, acceptance, or receiving-use boundary, apply `A.6.P.WMR` to that exact relation-bearing claim. Use `E.10.MOVE` for a process-baton or project-move case only when that movement is current; a handoff record or package remains an episteme or another entity, not the transfer.
 
 If no movement, control, and temporal relation is being made, keep the word ordinary and non-authorizing.
 
@@ -402,7 +423,7 @@ These words are cues when the sentence hides who or what uses what, for which cl
 
 For a bounded or supported-use claim, name the admissible action and its basis. State an excluded adjacent or stronger use only when it satisfies the grounded-guard test in `F.19:4`. Do not turn a document into a generic capability or replace the sentence with an inventory of every nearby FPF kind.
 
-Use `C.2.P` when a source or publication use remains hidden, `A.6.P` when a direct predicate or participant remains unclear, and `E.10.ARCH` when fact, declaration, report, and representation are still confused. Name `relationClaimSlice` or `projectSideFPFRef` only when the receiving claim actually consumes that identity.
+Use `C.2.P` when a source or publication use remains hidden, `A.6.P` when a direct predicate or participant remains unclear, and `E.10.ARCH` when fact, declaration, report, and representation are still confused. Name `relationClaimSlice` or `projectSideFPFRef` only when the receiving claim consumes that identity.
 
 ##### E.10:0.2c.13a - `contribution`, `contributes`, `what it adds`
 
@@ -418,7 +439,7 @@ Use these words when the sentence makes clear **what participates or is used, in
 
 A supplied recording, its use by an analyst, a claimed causal effect and a comparison of two configurations need different statements. Use A.6.P when a predicate or participant remains hidden, C.2.P for an unresolved source/content/use distinction, and C.28 for a causal claim. C.11.CRC does not replace a comparison of source content with no realizable configuration change.
 
-Stop with a clear ordinary sentence when that answers the question. A.6.REL and A.6.RSIR apply only when relation occurrence or declaration distinctions matter; E.24 applies to an actual admission question. Replacing *contribution* with *input*, *result* or *support* while leaving the same uncertainty is no repair.
+Stop with a clear ordinary sentence when that answers the question. A.6.REL and A.6.RSIR apply only when relation occurrence or declaration distinctions matter; E.24 applies to an admission question. Replacing *contribution* with *input*, *result* or *support* while leaving the same uncertainty is no repair.
 
 ##### E.10:0.2c.14 - `sign`, `concept`, `denotat`, and school-semiotic labels
 
@@ -436,7 +457,7 @@ Possible recoveries include:
 - FPF pattern, pattern section, accepted `DRR`, FPF publication, or FPF view when the object is on the FPF side.
 
 Use `concept` only where current `FPF` already has the relevant concept-set, UTS, local-meaning, or Part F machinery available.
-Otherwise recover the claim-bearing episteme; the obtaining direct relation and actual participants; the current A.6.5 declaration, participant designation, or representation and explicit correspondence under their applicable pattern when one of those is actually present; or the record kind and defining rule named by value.
+Otherwise recover the claim-bearing episteme; the obtaining direct relation and actual participants; the current A.6.5 declaration, participant designation, or representation and explicit correspondence under their applicable pattern when one of those is present; or the record kind and defining rule named by value.
 
 A representation need not use a mathematical lens. Recover its represented subject and correspondence under the direct pattern or domain rule. Use C.29 when choosing, transferring or relying on a mathematical representation leaves a separate correspondence or inference question; use A.6.3.RT for a claimed representation transition, E.24.PUB for expression and publication, and C.37 only when one receiving action needs a selection or co-use account.
 
@@ -478,7 +499,7 @@ When a series is needed and its FPF meaning remains unresolved, distinguish the 
 
 If it declares reusable relation shapes, name each `RelationSignature` and A.6.5 `SlotSpec` value and do not infer that any relation obtains. If it is a tuple or other representation, name the representation elements, represented objects, and explicit correspondences under its applicable rule, using C.29 when mathematical-lens use is current; if the same material is also a reusable relation declaration, name its `RelationSignature` and A.6.5 `SlotSpec` values separately.
 
-If none fits, leave the ontology or architecture question blocking instead of making the list itself a new kind. Even when one case fits, keep only members whose distinction changes the receiving use.
+If none fits, leave the ontology or architecture question blocking instead of making the list a new kind. Even when one case fits, keep only members whose distinction changes the receiving use.
 
 ##### E.10:0.2c.18 - `strong`, `stronger`, `weak`, `weaker`, `support`
 
@@ -489,13 +510,13 @@ Use strength wording only when the sentence makes the comparison dimension clear
 
 A named scale, evidence class, threshold, or `CharacteristicSpace` supplies the comparison when that is the dimension used.
 
-Treat `support` as a cue to write the concrete subject, predicate, object, and use. If that sentence states a clear direct relation, use the pattern that defines or constrains it. If the predicate or a participant remains unclear, use `A.6.P`; if both are clear and no current pattern supplies the rule, use `A.6.RCD`. Use `A.6.6` when the claim is specifically basedness.
+Treat `support` as a cue to write the concrete subject, predicate, object, and use. If that sentence states a clear direct relation, use the pattern that defines or constrains it. If the predicate or a participant remains unclear, use `A.6.P`; if both are clear and no current pattern supplies the rule, use `A.6.RCD`. Use `A.6.6` when the claim concerns basedness.
 
 When the phrase carries a bounded-use claim, state the admissible action. Add a stronger or adjacent non-use only when it satisfies the grounded-guard test in `F.19:4`. A support-headed durable name reaches `F.18` only after the governed object and use are settled; otherwise replace the head locally or leave the meaning blocked.
 
 ##### E.10:0.2c.19 - Applying patterns versus procedural calls
 
-FPF patterns provide reusable guidance for recognizable problem situations. In ordinary prose, `apply pattern P` is acceptable metonymy for a person or system using the method, rule, test, constraint, or lookup described by P; the pattern itself does not perform the project action.
+FPF patterns provide reusable guidance for recognizable problem situations. In ordinary prose, `apply pattern P` is acceptable metonymy for a person or system using the method, rule, test, constraint, or lookup described by P; the pattern does not perform the project action.
 
 **Ordinary application.** Name the recognizable problem, state which rule, test or method the reader uses from the pattern, and state the resulting action or judgement. An ordinary PatternID citation is enough when the reader only needs to find that explanation. Do not require an ontology, conformance claim or section, exact assertion, `ClaimGraph`, or formal application record merely to use the guidance.
 
@@ -503,7 +524,7 @@ FPF patterns provide reusable guidance for recognizable problem situations. In o
 
 Use `apply pattern`, `use the pattern guidance`, `the pattern applies to this problem situation`, or `the case falls under this pattern` for the ordinary FPF-side use. These expressions do not assert that the pattern acts.
 
-For ordinary project-side activity, say who does what and which result or judgement follows. When the current claim depends on a formal kind or relation, recover that value under its direct pattern and preserve its membership or obtaining conditions. Apply §0.2a only while that selection remains unresolved.
+For ordinary project-side activity, say who does what and which result or judgement follows. When the current claim or a named receiving use depends on a formal kind or relation, recover that value under its direct pattern and preserve its membership or obtaining conditions. Apply §0.2a only while that selection remains unresolved.
 
 Keep `route`, `path`, `branch`, `handoff`, `trajectory`, `move`, or `flow` as ordinary navigation wording when no FPF movement, control, or temporal claim depends on it. When such a claim is current, name the relevant movement, control, and temporal relations and use the pattern that defines them.
 
@@ -531,7 +552,7 @@ A reusable name for performed work goes to `F.18` only after A.13 and A.15.1 ind
 
 **Preferred explanatory name.** Use **method** as the main Plain word for a reusable way of doing something. It makes the question “Which method are you using?” easier to distinguish from a question about the work currently being performed. Use `U.Method` when the technical kind matters, under A.3.1. This naming preference applies to explanations; it preserves clear professional terminology and does not change the ontology.
 
-*Way*, *practice*, *pattern* or *template of work*, *workflow*, *culture*, *style*, *technology*, *strategy*, a *kind of labour*, *activity* or *engineering*, and sometimes *function* can refer to a method in a particular sentence. They are contextual synonyms with useful nuances, not global identities. For example, *style* may foreground how a way is performed, and *practice* may foreground its established professional use. Recover the actual claim through A.3.1 before deciding whether another kind is meant.
+*Way*, *practice*, *pattern* or *template of work*, *workflow*, *culture*, *style*, *technology*, *strategy*, a *kind of labour*, *activity* or *engineering*, and sometimes *function* can refer to a method in a sentence. They are contextual synonyms with useful nuances, not global identities. For example, *style* may foreground how a way is performed, and *practice* may foreground its established professional use. Recover the claim through A.3.1 before deciding whether another kind is meant.
 
 | Ordinary wording | Meaning to preserve in the explanation |
 | --- | --- |
@@ -541,9 +562,9 @@ A reusable name for performed work goes to `F.18` only after A.13 and A.15.1 ind
 | “A community of practice maintains this method.” | Retain the established expression. The community and the maintained method are distinct because of what the sentence asserts, not because *practice* is a different Method kind. |
 | “This methodology is the subject of the guide.” | Establish whether the guide concerns a method of thinking, an applied method or the discipline studying methods. The noun alone does not settle it. |
 
-Retain *practice/practise* in professional expressions and in ordinary accounts of practising to acquire capability. A concrete Work occurrence, community, discipline, transmitted tradition, tool or description keeps its actual kind. Neither a synonym list nor a preferred word turns it into a Method. Conversely, writing *practice*, *culture* and *method* in one account supplies no basis for inventing three distinct entities.
+Retain *practice/practise* in professional expressions and in ordinary accounts of practising to acquire capability. A concrete Work occurrence, community, discipline, transmitted tradition, tool or description keeps its kind. Neither a synonym list nor a preferred word turns it into a Method. Conversely, writing *practice*, *culture* and *method* in one account supplies no basis for inventing three distinct entities.
 
-Apply this preference when authoring or repairing the explanation, with F.19's whole-span reading. Ordinary synonyms do not each require a registered Plain Twin. E.10.ARCH supplies a deeper route only when the actual kind or relation remains unresolved.
+Apply this preference when authoring or repairing the explanation, with F.19's whole-span reading. Ordinary synonyms do not each require a registered Plain Twin. E.10.ARCH supplies a deeper route only when the kind or relation remains unresolved.
 
 ##### E.10:0.2c.22 - Whole-corpus trigger use
 
@@ -557,18 +578,18 @@ Use `F.19` to decide whether the text needs several cases, whether each changes 
 
 If the word also carries an exact FPF use, name that use directly—for example a project situation, worked example, pilot, negative control, evidence case, comparison case, or source example—and apply its subject pattern. Do not reproduce this menu in the repaired prose.
 
-A case may illustrate or test a pattern. It becomes evidence, a decision basis, a source basis, or another governed object only through the relation and rule that establish that use, not through the label `case` itself.
+A case may illustrate or test a pattern. It becomes evidence, a decision basis, a source basis, or another governed object only through the relation and rule that establish that use, not through the label `case`.
 
 ##### E.10:0.2c.24 - `basis`, `context`, `scope`, `frame`
 
 These words can hide different subject questions; they do not name one common kind.
 
-- For *basis*, name the source or direct relation actually used by the sentence—for example, a decision, evidence, comparison, threshold, grounding, or admissibility relation.
+- For *basis*, name the source or direct relation used by the sentence—for example, a decision, evidence, comparison, threshold, grounding, or admissibility relation.
 - For *context*, apply `E.10.D1` and recover the subject-defined content that changes the action—for example, a scheme, scope, model-use structure, situation, design-time or run-time referent, architecture, environment, domain subject, or local-practice use.
 - For *scope*, use `A.2.6` when an actual claim scope and its slice-membership facts are current; otherwise use the subject pattern for the stated extent or boundary.
 - For *frame*, say what the word refers to—for example, a viewpoint, reference frame, comparison frame, state frame, or ordinary narrative framing.
 
-If a basis changes what may be done, state the admissible use. State a relation claim or project-side FPF reference only when the sentence actually makes that claim. If *context* hides the EntityOfConcern, recover that entity and the subject relation before any Bridge, parity, or identity claim.
+If a basis changes what may be done, state the admissible use. State a relation claim or project-side FPF reference only when the sentence makes that claim. If *context* hides the EntityOfConcern, recover that entity and the subject relation before any Bridge, parity, or identity claim.
 
 ##### E.10:0.2c.24a - translation and multilingual heads
 
@@ -586,12 +607,12 @@ For other state-family wording, use the direct pattern when the exact object and
 
 `live`, `current`, `active`, `open`, `pending`, and similar status-like modifiers are trigger wording when they attach to `pattern`, `record`, `object`, `field`, `operation`, `route`, `locus`, `move`, `text`, `claim`, `question`, `use`, or `relation` without saying which exact bearer and state or currentness value, temporal qualifier of an obtaining direct relation or assertion, source or use relation, or claim function the modifier adds.
 
-First recover whether the modifier expresses a real FPF value:
+First recover whether the modifier expresses an FPF value:
 
 - If `readiness` or `ready` still hides which governed value is meant, use `E.10.MOVE`; use `A.19.SPR` only if that recovery leaves a hidden bearer and state frame. For source currentness, another state or status, publication-use disposition, quality result, admission state, campaign state, or process state, use `C.2.P`, `E.9.DA`, `E.21`, `E.19`, the release or process carrier, `A.19.SPR` while its object or state frame remains hidden, or the direct pattern for the recovered value.
 - If it means a claim, question, use, or relation is currently asserted, relied on, or action-bearing in the described situation, keep the modifier only when the sentence also names the claim or claim-bearing episteme, obtaining relation or source/use relation, admissible use, and—when needed—the pattern that defines it, or says why ordinary prose is enough.
 - If it only points to "the thing under discussion", treat it as phrase-level apparatus and apply `F.19`: write `the pattern`, `pattern of concern`, record kind named by value, affected field, operation claim, relation claim, or other object named by value instead of `live X`.
-- If it is development, review, projection, landing, or current-campaign state about an FPF pattern version, keep it in the process, quality, projection, release, or campaign carrier rather than in the pattern unless that state is the pattern's own primary `EntityOfConcern`.
+- If it is development, review, projection, landing, or current-campaign state about an FPF pattern version, keep it in the process, quality, projection, release, or campaign carrier rather than in the pattern unless that state is the pattern's primary `EntityOfConcern`.
 
 Deleting `live` or replacing it with another status word is useful only when the changed sentence now states the ordinary bearer and claim. Otherwise recover the governed state, currentness, temporal, source-use, or relation value, or leave the meaning blocked; then rerun the local `F.19` reading.
 
@@ -622,13 +643,13 @@ If evidence is being read as engineering justification, gate passage, deontic pe
 Use this entry when the recovered claim concerns a duty, permission, approval, or authority relation. The word alone does not establish that claim. For `commit`, `committed`, or `commitment` used for a decision, model choice, or version-control operation, recover that operation under its own rule. Use `E.10.MOVE` only while a route or work-entry transition remains unclear.
 
 Recover the values required by that claim:
-- the beneficiary System or reference required by the selected predicate; if source wording says *role*, apply `E.10.ROLE` and cite a local system-role kind and classification or an obtaining `U.SystemRoleAssignment` occurrence only when that permission or authority predicate actually uses it;
+- the beneficiary System or reference required by the selected predicate; if source wording says *role*, apply `E.10.ROLE` and cite a local system-role kind and classification or an obtaining `U.SystemRoleAssignment` occurrence only when that permission or authority predicate uses it;
 - speech act or issuing act;
 - individual duty under `A.2.8` for obligation, recommendation-as-duty, or prohibition: its actual bearer, duty content, modality, scope and time, constitutive rule, and required instituting facts; keep any assertion or record about the duty separate from that relation;
 - exact `A.2.8.PER` strong grant, weak non-prohibition/non-violation finding, exercise relation, or permission-conflict finding;
 - policy claim and policy/currentness frame;
 - authority relation;
-- entry predicate or gate record or decision record when that is the actual claim;
+- entry predicate or gate record or decision record when that is the claim;
 - authority-changing decision;
 - wording such as `delegated permission`: recover the `A.2.9` granting or delegating speech-act occurrence and, only when the current policy validly institutes one, the resulting `A.2.8.PER GrantedPermissionRelation@Context`. Keep the grantor System, any grantor `U.SystemRoleAssignment` occurrence used by the predicate, the beneficiary System or reference, policy and currentness basis, scope and window, and any separate on-behalf-of or Work relation distinct. The cue mints neither `DelegatedPermissionRelation` nor another generic delegation or authorization kind; if the pattern that defines the permission claim cannot be recovered, block operative use of the wording rather than naming a relation without a governor;
 - contestability, revocation, scope, window, and expiry condition.
@@ -638,7 +659,7 @@ They do not carry authority unless the authority act, authority record, authorit
 
 ##### E.10:0.2c.28 - `profile`, `harness`, `catalog`, `registry`, `index`, `map`
 
-These usually point to a review profile, review harness, registry record, catalog publication, navigation index, map, publication form, companion publication, publication-companion relation, or relation between one companion publication and the publication unit or project record it helps readers inspect or use. Choose that kind named by value before writing; do not leave `support record` as the recovered head unless the named FPF pattern really defines that record kind.
+These usually point to a review profile, review harness, registry record, catalog publication, navigation index, map, publication form, companion publication, publication-companion relation, or relation between one companion publication and the publication unit or project record it helps readers inspect or use. Choose that kind named by value before writing; do not leave `support record` as the recovered head unless the named FPF pattern defines that record kind.
 Treat one as an FPF pattern body, accepted campaign `DRR`, named current architecture document, or relation to one of them only when the named FPF pattern, accepted `DRR`, or architecture document and the obtaining direct relation with its actual participants are given by value; keep any row, index entry, or map element as its own claim-bearing episteme or representation under its direct pattern.
 
 Split:
@@ -775,7 +796,7 @@ Closure is the repaired text, the concrete result of the one selected subject pa
 
 After any wording or syntax change, rerun `F.19` on the changed sentence and only the neighboring text needed to settle its meaning. Check that the replacement preserves the intended kind, relation, scope, and action without introducing another umbrella or unsupported branch.
 
-When the positive sentence settles the use, close with that sentence and return to the domain task. Additional evidence belongs only to a receiving review or decision that actually needs it.
+When the positive sentence settles the use, close with that sentence and return to the domain task. Additional evidence belongs only to a receiving review or decision that needs it.
 
 #### E.10:0.5 - Optional wording-repair note
 
@@ -787,7 +808,7 @@ Use these fields only when a receiving review or decision needs an inspectable w
 4. `FinalWordingOrBlocker`: the accepted local wording, the result returned by the selected repair or pattern, or the blocker that remains.
 5. `StopBackToSubstance`: once the final wording or blocker is written, return to the domain question that made the phrase matter. Further lexical classification is non-use unless another phrase still hides an FPF-governed claim.
 
-`SelectedInterpretation` retains that closed value set. If none of its classifications fits the current subject-specific repair, use the selected subject pattern's own result instead of silently extending the lexical form.
+`SelectedInterpretation` retains that closed value set. If none of its classifications fits the current subject-specific repair, use the selected subject pattern's result instead of silently extending the lexical form.
 
 When a wording-repair note needs formal fields, record one `plainIntent` before the technical fields. Use `E.10.ARCH` for the fact, declaration, report, or representation branch only while that distinction remains unresolved. Keep `triggerSpan`, `boundedTextSpan`, `selectedInterpretation`, `LEX.TokenClass?`, `register`, `USM.Scope?`, `EntityOfConcern and Description-episteme boundary and specification use?`, `patternRef?`, and `finalWordingOrBlocker`; add `patternRef` only when pattern identity changes the result. Add an exact assertion, predicate, or `ClaimGraph` only when the current claim or a named later use depends on that identity. Otherwise name the concrete object and the ordinary claim. Do not use `slotOrUsePosition` as a union field for actual participants, A.6.5 `SlotSpec` values, participant designations, or representation places.
 

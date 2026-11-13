@@ -6,12 +6,12 @@ section_id: "E.10.D1:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D1/E.10.D1__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.10.D1 — Recovering What “Context” Means in Use"
   - "E.10.D1:2 — Problem"
-line_start: 102191
-line_end: 102196
+line_start: 107955
+line_end: 107962
 dependencies:
   - "A.1.1"
   - "A.2.6"
@@ -37,7 +37,9 @@ keywords:
 
 ### E.10.D1:2 - Problem
 
-The word *context* is useful because it points toward locality, but it does not say which locality matters. Terminology work uses source schemes and local senses. Domain-driven design uses a model boundary and relations among model uses. Claims use scopes and qualification windows. Architecture work distinguishes a described holon, actual subject relations, a selected structure, an obtaining `ArchitectureRelation`, and an `ArchitectureClaim`; viewpoint, environment, and operating-condition claims introduce further distinctions. A pattern's Problem frame describes a recognizable situation. A DPF has a domain subject, audience, source basis, and local qualification conditions.
+The word *context* is useful because it points toward locality, but it does not say which locality matters. Terminology work uses source schemes and local senses. Domain-driven design uses a model boundary and relations among model uses. Claims use scopes and qualification windows.
+
+Architecture work distinguishes a described holon, actual subject relations, a selected structure, an obtaining `ArchitectureRelation`, and an `ArchitectureClaim`; viewpoint, environment, and operating-condition claims introduce further distinctions. A pattern's Problem frame describes a recognizable situation. A DPF has a domain subject, audience, source basis, and local qualification conditions.
 
 Treating these uses as one `Context` participant, `ContextId`, or two-part `SenseCell(Context, LocalSense)` hides the distinctions supplied by `A.1.1`, `A.2.6`, `C.2.1`, `F.0.1`, `F.17`, and `F.9`. Replacing that proxy with another universal container preserves the failure under a new name.
 

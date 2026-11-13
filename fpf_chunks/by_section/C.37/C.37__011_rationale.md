@@ -6,12 +6,12 @@ section_id: "C.37:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37/C.37__011_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.37 — Select and Use Representations for One Action"
   - "C.37:10 — Rationale"
-line_start: 81961
-line_end: 81966
+line_start: 85962
+line_end: 85967
 dependencies:
   - "A.10"
   - "A.2.4"
@@ -38,7 +38,7 @@ keywords:
 
 ### C.37:10 - Rationale
 
-The receiving use is the smallest stable boundary shared across domains. Representation kinds, correspondence relations, view predicates, plan claims, Work records, mathematical objects, and decision results do not converge on one ontology, but practitioners repeatedly need the same action sequence over them: recover the direct result, state the relied-on claim and loss, establish its warranted use and required entry conditions, and select, decline, or stop. Selected inputs contribute to the receiving operation; its direct Method obtains the action result.
+The receiving use is the smallest stable boundary shared across domains. Representation kinds, correspondence relations, view predicates, plan claims, Work records, mathematical objects, and decision results do not converge on one ontology, but practitioners repeatedly need the same action sequence over them: recover the direct result, state the relied-on claim and loss, establish its warranted use and required entry conditions, and select, decline, or stop. Selected inputs contribute to the receiving operation; obtain its action result through the receiving Method.
 
 `Co-use` is chosen instead of *composition* because the rows need not form a new whole. The same receiver may use them together while every candidate and relation retains its own identity, predicate, and return condition.
 

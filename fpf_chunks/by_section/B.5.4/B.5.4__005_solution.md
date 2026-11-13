@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.5.4"
-pattern_title: "Recognize a Reusable Concept in a Concrete Situation"
+pattern_title: "Recognize a Concept in a Situation"
 section_id: "B.5.4:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.4/B.5.4__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "B.5.4 — Recognize a Reusable Concept in a Concrete Situation"
+  - "B.5.4 — Recognize a Concept in a Situation"
   - "B.5.4:4 — Solution"
-line_start: 50426
-line_end: 50438
+line_start: 52506
+line_end: 52518
 dependencies:
   - "A.7.1"
   - "B.5"
@@ -27,7 +27,7 @@ keywords:
 3. **Recover the candidate concept through its relations.** Consult its explanation, examples and conditions. Identify its participants, how they are related, and the consequences relevant to the question. When a live alternative would change the answer, identify a consequence that distinguishes them. Use the domain account to supply knowledge omitted by a short definition.
 4. **Construct the correspondence.** Point to what supplies each participant here and explain the relations between them. Use a sketch, gesture, annotated observation or short account. If mathematics helps, connect each variable or mathematical object to its interpretation and identify consequential simplifications.
 5. **Derive and examine a consequence.** Work out what should follow in this situation and compare it with relevant available observations or constraints. When an unresolved correspondence or condition can change the needed answer, examine it through a variation, counterexample or feasible trial, or retain it as unresolved. Where competing interpretations support the same sufficient action, keep that bounded answer.
-6. **Return to the question.** Give the explanation, construction, action or next observation now supported. When a consequence fails, revisit the object boundary, relation, condition, representation or candidate concept that produced it. Identify the missing domain contribution if the available account cannot resolve the question.
+6. **Return to the question.** Give the explanation, construction, action or next observation supported. When a consequence fails, revisit the object boundary, relation, condition, representation or candidate concept that produced it. Identify the missing domain contribution if the available account cannot resolve the question.
 
 The result can be an interpreted sketch and a next action. Record the reasoning when another participant or later use needs to recover it.
 

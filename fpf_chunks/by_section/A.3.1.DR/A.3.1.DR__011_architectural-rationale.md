@@ -6,12 +6,12 @@ section_id: "A.3.1.DR:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.DR/A.3.1.DR__011_architectural-rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.3.1.DR — Recover Method Contributions from Documentary Sources"
   - "A.3.1.DR:10 — Architectural Rationale"
-line_start: 10214
-line_end: 10219
+line_start: 10615
+line_end: 10620
 dependencies:
   - "A.3.1.MR"
   - "A.3.1.QM"
@@ -24,5 +24,5 @@ keywords:
 
 A heavyweight package is a publication and practice carrier, not evidence that its visible organization is a Method structure. Preserving unlike kinds lets several useful representations coexist without forcing one-to-one correspondence among Method, Work, subject, description, capability/provider/support, allocation, and cultural structures.
 
-The dossier is deliberately open. Its value lies in tracing source contributions to the receiving decision and retaining their dependency slices, not in a fixed number of sections or a universal element taxonomy.
+The dossier is open. Its value lies in tracing source contributions to the receiving decision and retaining their dependency slices, not in a fixed number of sections or a universal element taxonomy.
 

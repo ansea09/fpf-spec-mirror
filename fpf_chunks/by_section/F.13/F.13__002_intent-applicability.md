@@ -6,12 +6,12 @@ section_id: "F.13:1"
 section_title: "Intent & applicability"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.13/F.13__002_intent-applicability.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.13 — Lexical Continuity & Deprecation"
   - "F.13:1 — Intent & applicability"
-line_start: 122785
-line_end: 122794
+line_start: 130559
+line_end: 130568
 dependencies:
   - "F.1"
   - "F.17"
@@ -38,7 +38,7 @@ keywords:
 
 * new names **clarify** without erasing what earlier texts meant;
 * aliases remain **local to Contexts**;
-* a changed meaning is recovered under its defining rule and receives an explicit revision, replacement, split, merge or retirement disposition; a rename cannot supply that decision.
+* a changed meaning is recovered under its defining rule and requires a stated decision to revise, replace, split, merge or retire it. A rename cannot supply that decision.
 
 **Applicability.** Use this when changing a source-local expression, an external label or address of a SchemeSenseCell, a Concept-Set row label, or the name of a governed value or description. First say which of these is changing; their identity rules differ.
 

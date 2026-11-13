@@ -6,12 +6,12 @@ section_id: "F.3:17"
 section_title: "Didactic close"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.3/F.3__018_didactic-close.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.3 — Source-Local Sense Clustering"
   - "F.3:17 — Didactic close"
-line_start: 119507
-line_end: 119510
+line_start: 127106
+line_end: 127109
 dependencies:
   - "A.11"
   - "A.7"
@@ -34,5 +34,5 @@ keywords:
 
 ### F.3:17 - Didactic close
 
-> “Start with one explicit source and interpretation basis. Merge aliases only when the source uses them interchangeably and no relevant conclusion changes. Split uses when their participants, entailments, or time stance differ. Add labels when a naming or didactic use needs them, preserving the same claim, and a short counterexample when a boundary test is needed. Use an F.17 cell only when the receiving work needs the address. Nothing in this clustering makes two sources the same; test that separately in F.9.”
+> “Start with one explicit source and interpretation basis. Merge aliases only when the source uses them interchangeably and no relevant conclusion changes. Split uses when their participants, entailments, or time stance differ. Add labels when a naming or didactic use needs them, preserving the same claim, and a short counterexample when a boundary test is needed. Use an F.17 cell only when the receiving work needs the address. To test a proposed relation between meanings from different sources, use F.9.”
 

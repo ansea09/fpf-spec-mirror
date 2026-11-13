@@ -6,12 +6,12 @@ section_id: "C.2.P:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P/C.2.P__011_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.2.P — Clarify Episteme, Publication, and Source Wording (Epistemic Precision Restoration)"
   - "C.2.P:9 — Consequences"
-line_start: 52409
-line_end: 52430
+line_start: 54600
+line_end: 54621
 dependencies:
   - "A.10"
   - "A.15"
@@ -58,7 +58,7 @@ keywords:
 | --- | --- |
 | Prevents parallel episteme and publication ontology from entering FPF-governed wording. | Adds a small recovery step before apparently simple rewrites; mitigate by using the smallest sufficient mode. |
 | Preserves accepted glossary and rules without turning source-related statements into accidental pattern authority. | Requires a clear separation between pattern guidance and source-related statements. |
-| Makes unclear meaning fail closed. | Some attractive phrases will not be accepted until their kind or relation is actually recovered. |
+| Makes unclear meaning fail closed. | Some attractive phrases will not be accepted until their kind or relation is recovered. |
 | Improves DRR and pattern drafting discipline. | Authors must resist convenient lists and umbrellas when one kind named by value or relation is needed. |
 
 #### C.2.P:9.1 - Operating consequence

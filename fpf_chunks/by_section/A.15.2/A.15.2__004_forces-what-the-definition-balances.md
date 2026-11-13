@@ -6,12 +6,12 @@ section_id: "A.15.2:3"
 section_title: "Forces (what the definition balances)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__004_forces-what-the-definition-balances.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.15.2 — U.WorkPlan: Plan Content for Coordinating Future Work"
   - "A.15.2:3 — Forces (what the definition balances)"
-line_start: 29808
-line_end: 29817
+line_start: 30886
+line_end: 30895
 dependencies:
   - "A.10"
   - "A.15"
@@ -63,6 +63,6 @@ keywords:
 | **Universality vs. domain idioms** | One plan concept that fits hospitals, fabs, data centers, and research labs—while honoring local terms. |
 | **Commitment vs. flexibility**     | Plans need enough firmness to coordinate, while remaining easy to update as reality changes.                         |
 | **Intended performer vs. performed-work assignee** | Plans may name intended performers; the assignment used for performed work is still checked for the work interval. |
-| **Budgets vs. performed resource use** | Plans state targets and reservations; A.15.1 and the exact resource-use or ledger pattern govern performed resource-use facts. |
+| **Budgets vs. performed resource use** | Plans state targets and reservations; A.15.1 and the resource-use or ledger pattern govern performed resource-use facts. |
 | **Decomposition vs. fulfilment**  | Plan tasks decompose conveniently; they do not force a shape on performed Work occurrences.                       |
 

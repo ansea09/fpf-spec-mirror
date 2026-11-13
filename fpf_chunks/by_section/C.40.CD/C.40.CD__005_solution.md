@@ -6,12 +6,12 @@ section_id: "C.40.CD:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.CD/C.40.CD__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.40.CD — Develop Problems and Ways of Solving Them Together"
   - "C.40.CD:4 — Solution"
-line_start: 85694
-line_end: 85758
+line_start: 89926
+line_end: 89990
 dependencies:
   - "B.5.MPC"
   - "B.5.MPC.R"
@@ -81,7 +81,7 @@ Use a sufficient result and stop this development. Otherwise follow the part of 
 
 For each continuation, state what it would permit and which earlier requirement it answers, changes or leaves open. A problem constructed for exploration can be retained for a later possible use without claiming present demand. Its interest lies in the further reasoning or action it may enable.
 
-Retain the actual material and explanation needed to continue. Compare the prospective gain with the cost of the attempt, adaptation and retention, including displaced work. C.11.DUA helps when the value of further information work is unsettled. Close an unwarranted branch without discarding an earlier qualified use of its source method.
+Retain the material and explanation needed to continue. Compare the prospective gain with the cost of the attempt, adaptation and retention, including displaced work. C.11.DUA helps when the value of further information work is unsettled. Close an unwarranted branch without discarding an earlier qualified use of its source method.
 
 #### C.40.CD:4.6 - Coordinate several attempts only when their results warrant it
 

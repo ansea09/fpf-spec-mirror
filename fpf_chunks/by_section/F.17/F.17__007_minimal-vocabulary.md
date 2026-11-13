@@ -6,12 +6,12 @@ section_id: "F.17:5"
 section_title: "Minimal vocabulary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__007_minimal-vocabulary.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.17 — Make a Settled Naming Decision Recoverable for Reuse (Unified Term Sheet)"
   - "F.17:5 — Minimal vocabulary"
-line_start: 124193
-line_end: 124282
+line_start: 132068
+line_end: 132171
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -37,7 +37,6 @@ dependencies:
   - "F.10"
   - "F.14"
   - "F.15"
-  - "F.17"
   - "F.18"
   - "F.2"
   - "F.3"
@@ -47,7 +46,6 @@ dependencies:
   - "F.7"
   - "F.8"
   - "F.9"
-  - "G.11"
 keywords:
 ---
 
@@ -78,7 +76,7 @@ SlotSpecs:
     Field: basisEpistemeRef
 Direction: basisEpistemeRef -> localSenseCellRef
 Obtaining: the exact basis episteme supports the cell's exact LocalSenseClaim under its by-value ReferenceScheme for the stated admitted use
-NonObtaining: shared spelling, accepted name, card, source title, file, carrier, publication availability, or completed fields
+NonObtaining: the basis episteme does not support this cell’s sense claim under its scheme for the stated use. Shared spelling, an accepted name, a card, a source title, a file, a carrier, publication availability or completed fields alone do not decide this.
 Identity: <localSenseCellRef, basisEpistemeRef>
 OccurrenceIdentity: participant-determined; another exact cell or basis-episteme edition identifies another occurrence
 
@@ -119,17 +117,31 @@ UnifiedTermRow <: U.Episteme:
 
 Resolve each reference in the source edition selected for that use. The enclosing publication can supply this selection; retain it when transferring the reference. A pattern locator such as `E.17.0` supplies an exact basis only when the selected edition and cited claims recover one episteme. If they do not, leave the reference unresolved instead of substituting the currently available edition.
 
-The basis relation has exactly two participants. `basisEpistemeRef` resolves the exact selected basis-episteme edition; its exact kind is derived from that referent and is not copied as another participant. A relation reference resolves the exact `LocalSenseBasisRelation` occurrence rather than its description or designator. `basisPublicationUnitRef`, when present, is a provenance qualifier that narrows the supporting episteme; it neither participates in nor identifies the relation. A source publication occurrence, its form, and its carrier remain separate E.24.PUB objects.
+The basis relation has exactly two participants. `basisEpistemeRef` resolves the exact selected basis-episteme edition; its exact kind is derived from that referent and is not copied as another participant.
 
-The relation says only that this basis episteme supports this cell's exact sense claim for the admitted use. Its description states the supported uses, any grounded blocked-use claim, and any exact source-unit qualifier. A changed NameCard reopens the selected expression. A changed scheme, expression, sense claim, or basis-episteme edition identifies another cell or basis-relation participant pair. A changed source-unit or supported-use claim creates another relation-description episteme without silently changing the basis relation.
+A relation reference resolves the exact `LocalSenseBasisRelation` occurrence rather than its description or designator.
+
+`basisPublicationUnitRef`, when present, is a provenance qualifier that narrows the supporting episteme; it neither participates in nor identifies the relation. A source publication occurrence, its form, and its carrier remain separate E.24.PUB objects.
+
+The relation says only that this basis episteme supports this cell's exact sense claim for the admitted use. Its description states the supported uses, any grounded blocked-use claim, and any exact source-unit qualifier.
+
+A changed NameCard reopens the selected expression. A changed scheme, expression, sense claim, or basis-episteme edition identifies another cell or basis-relation participant pair. A changed source-unit or supported-use claim creates another relation-description episteme without silently changing the basis relation.
 
 Any description of a `SchemeSenseCell` is a separate C.2.1 episteme whose EntityOfConcern is that exact cell. The cell's identifier, description, source publication, NameCard, and basis relation neither replace nor identify the cell.
 
-`UnifiedTermRow` is another C.2.1 episteme, not a root U-kind, value container, or publication occurrence. Its EntityOfConcern is the exact governed value. Its displayed identity-bearing row claims jointly constitute the complete ClaimContent; a scalar graph-ref line need not be repeated in the readable fixture when that graph is recoverable from them. The claim graph cites the separate NameCard and the governed value's kind, locates the rules that define or constrain that value, and projects the selected designation expressions. The row, card, designations, governed value, external row reference, and `UTSRowId` designator remain distinct; `UnificationThreadId`, `Block`, and `RowEditionId` are navigation or edition designators rather than additional identity discriminators.
+`UnifiedTermRow` is another C.2.1 episteme, not a root U-kind, value container, or publication occurrence. Its EntityOfConcern is the exact governed value. Its displayed identity-bearing row claims jointly constitute the complete ClaimContent; a scalar graph-ref line need not be repeated in the readable fixture when that graph is recoverable from them.
+
+The claim graph cites the separate NameCard and the governed value's kind, locates the rules that define or constrain that value, and projects the selected designation expressions.
+
+The row, card, designations, governed value, external row reference, and `UTSRowId` designator remain distinct; `UnificationThreadId`, `Block`, and `RowEditionId` are navigation or edition designators rather than additional identity discriminators.
 
 If a later row episteme revises, refines, or supersedes an earlier one, an independently obtaining C.2.1 `EpistemeEditionRelation(earlierRowEpisteme, laterRowEpisteme)` carries historical continuation. Stable row spelling, id, table position, shared carrier, or later publication establishes no such relation. A `CurrentnessCondition` is row claim content; it is not the edition relation and does not make itself true.
 
-When a selected row edition must be made available, E.24.PUB supplies `PublicationExpressionRelation(selectedRowEdition, expression, boundedUseDeclaration)`, `PublicationExpressionBearingRelation(carrier, expression)` and `EpistemePublicationRelation(selectedRowEdition, audienceDeclaration, boundedUseDeclaration, expression, carrier)`. A selected reusable form constrains that expression through form conformance. Form-mediated availability uses the same expression as witness for expression, bearing and conformance; broader availability retains its permitted alternatives. The row is the claim-bearing episteme, X is its particular expression and C is independently identified under its carrier-domain rule. Any asserted rendering or upload Work has its separately established performer and occurrence.
+When a selected row edition must be made available, E.24.PUB supplies `PublicationExpressionRelation(selectedRowEdition, expression, boundedUseDeclaration)`, `PublicationExpressionBearingRelation(carrier, expression)` and `EpistemePublicationRelation(selectedRowEdition, audienceDeclaration, boundedUseDeclaration, expression, carrier)`.
+
+A selected reusable form constrains that expression through form conformance. Form-mediated availability uses the same expression as witness for expression, bearing and conformance; broader availability retains its permitted alternatives.
+
+The row is the claim-bearing episteme, X is its particular expression and C is independently identified under its carrier-domain rule. Any asserted rendering or upload Work has its separately established performer and occurrence.
 
 `GovernedValueRef` and `GovernedValueKindRef` are separate. A kind token has kind `U.Kind`. An exact local system-role kind, obtaining system-role-assignment or other relation occurrence, status value, slot kind, representation position, or local concept retains its own kind; the row points to the pattern that defines or constrains that value. A row or card cannot admit a U-kind or make a direct relation obtain.
 

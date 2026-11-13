@@ -6,12 +6,12 @@ section_id: "G.5:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__004_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.5 — Method-Family Registry, Dispatch and Selected-Set Result Declaration"
   - "G.5:2 — Problem"
-line_start: 129249
-line_end: 129263
+line_start: 137301
+line_end: 137315
 dependencies:
   - "C.11"
   - "C.18"
@@ -63,7 +63,7 @@ How to design a **general, auditable dispatcher** that:
 * when expressions carry distinct F.17 source-local meanings, requires the complete crossing path—exact local senses, an obtaining F.9 Bridge, a separate bounded-use proposition, and the appropriate reliance or assurance branch—while treating pins as audit references rather than as the crossing facts;
 
 * produces **set-valued outcomes** when only partial orders are admissible or when every named member is included for one bounded use, without confusing those meanings; when exact non-Method members already have a current inclusion basis, it declares that result without routing them through method-family selection;
-* cleanly separates:
+* distinguishes:
 
   * **selector object set and components** (registry, selector boundary, and result-declaration records),
   * **universal Part‑G invariants** (carried by `G.Core`),

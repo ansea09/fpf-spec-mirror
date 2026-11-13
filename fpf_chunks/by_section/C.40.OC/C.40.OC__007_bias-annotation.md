@@ -6,12 +6,12 @@ section_id: "C.40.OC:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OC/C.40.OC__007_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.40.OC — Characterize a Subject for a Possible Change"
   - "C.40.OC:6 — Bias-Annotation"
-line_start: 86917
-line_end: 86927
+line_start: 91151
+line_end: 91161
 dependencies:
   - "C.11.CRC"
   - "C.16"
@@ -31,5 +31,5 @@ keywords:
 - **Available-data bias:** easily measured coordinates can crowd out protected or distributional consequences that matter more.
 - **Benefit-only selection:** desired result coordinates can hide resources, affected Systems, transition burdens, and option losses.
 - **Unknown-to-zero bias:** missing evidence is neither absence nor a favorable baseline.
-- **Form completion bias:** a full table does not supply qualified measurements or direct-owner conclusions.
+- **Form completion bias:** a full table does not supply qualified measurements or owner conclusions.
 

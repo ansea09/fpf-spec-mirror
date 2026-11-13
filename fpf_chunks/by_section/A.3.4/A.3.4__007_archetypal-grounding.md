@@ -6,12 +6,12 @@ section_id: "A.3.4:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4/A.3.4__007_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.3.4 — U.Transformation: Actual Bounded Change Under Conditions"
   - "A.3.4:5 — Archetypal Grounding"
-line_start: 13204
-line_end: 13251
+line_start: 13647
+line_end: 13696
 dependencies:
   - "A.1"
   - "A.10"
@@ -60,7 +60,7 @@ A nuclear-plant team says that a revised operating method stabilized a temperatu
 
 #### A.3.4:5.2 - Biological editing
 
-A CRISPR project says that an editing protocol changed a DNA target while keeping off-target risk under a bound. **Result:** identify the biological transformation from the continuing DNA referent, edit interval, boundary conditions, and sequence facts. Keep the protocol description, biochemical mechanism, lab `U.Work`, sequence measurement, risk evaluation, acceptance verdict, and publication separate. This sketch names neither a lab-work/transformation pair nor a matching predicate, so it asserts no connection between them; apply `4.2.4` only if that later claim is needed. For phrases such as *edited sequence*, *lab output*, or *accepted result*, name the exact participant and relation needed by the receiving claim.
+A CRISPR project says that an editing protocol changed a DNA target while keeping off-target risk under a bound. **Result:** identify the biological transformation from the continuing DNA referent, edit interval, boundary conditions, and sequence facts. Keep the protocol description, biochemical mechanism, lab `U.Work`, sequence measurement, risk evaluation, acceptance verdict, and publication separate. This sketch names neither a lab-work/transformation pair nor a matching predicate, so it asserts no connection between them; apply `4.2.4` only if that later claim is needed. For phrases such as *edited sequence*, *lab output*, or *accepted result*, name the participant and relation needed by the receiving claim.
 
 **Spontaneous non-agentive case — result:** `SeedlingFirstLeafUnfolding-B17 : U.Transformation` is an actual first-leaf unfolding without an actor, method, or work claim. The continuing subject is the already existing `Seedling-B17`. Its boundary runs from unfolding onset `t0` to the first stable full-expansion state `t1`; leaf-configuration and exposed-surface facts before, during, and after distinguish the episode under the stated growth conditions. The same-seedling rule permits ordinary cellular turnover and growth but excludes division, grafting, death, or replacement.
 
@@ -70,7 +70,9 @@ At this resolution the case asserts neither finer transformation parts nor partl
 
 A safety specification is revised so that an emergency-stop boundary no longer permits two incompatible readings. **First result:** `EmergencyStopSpec-E1` and `EmergencyStopSpec-E2` are different C.2.1 epistemes because their claim content differs. `EpistemeEditionRelation(EmergencyStopSpec-E1, EmergencyStopSpec-E2)` may relate them when its historical-continuation predicate holds; neither is one continuing changed episteme.
 
-A.3.4 may instead identify a change of `EmergencyStopSpec-Carrier-17 : U.Entity` if its physical or digital domain identifies the same carrier across the editing interval and the before/during/after expression-bearing facts under `E.24.PUB` plus the carrier-continuity rule are present. If the carrier identity, facts, or rule are missing, no carrier transformation follows. If editing `U.Work` first constituted `EmergencyStopSpec-E2`, name that work and the transformation by which the later identity closed. Apply `4.2.4` to the work-to-change pair, then apply `A.15.PROD` to the change-to-identity pair. Each connection needs a matching predicate or valid local compound basis; preserve the applicable `A.6.RCD` stop for either pair that lacks its required basis. The repair method, ambiguity-removal assertion, review result, and publication of the later episteme remain separate.
+A.3.4 may instead identify a change of `EmergencyStopSpec-Carrier-17 : U.Entity` if its physical or digital domain identifies the same carrier across the editing interval and the before/during/after expression-bearing facts under `E.24.PUB` plus the carrier-continuity rule are present. If the carrier identity, facts, or rule are missing, no carrier transformation follows.
+
+If editing `U.Work` first constituted `EmergencyStopSpec-E2`, name that work and the transformation by which the later identity closed. Apply `4.2.4` to the work-to-change pair, then apply `A.15.PROD` to the change-to-identity pair. Each connection needs a matching predicate or valid local compound basis; preserve the applicable `A.6.RCD` stop for either pair that lacks its required basis. The repair method, ambiguity-removal assertion, review result, and publication of the later episteme remain separate.
 
 #### A.3.4:5.4 - Formal construction
 
@@ -98,5 +100,5 @@ The mounting transformation changes the frame-to-pump and frame-to-motor attachm
 
 No current FPF relation in this case says that the mounting, wiring, fluid-connection, and configuration changes compose one transformation. Keep all four changes and stop before a part or whole-transformation claim. The result from `4.2.1` is `missing transformation-composition governor`; a proposed local compound claim also lacks an admitted derivation substrate.
 
-Positive A.1 classification on that basis stops as well, because no accepted composition result supplies an exact whole candidate and all six constructive components required by A.1. The point at which a separate PumpSkid 7 identity rule first becomes true remains an entity-identity inception question; production completion, commissioning work, evidence, acceptance, and any B.2 whole-reidentification claim also remain separate.
+Positive A.1 classification on that basis stops as well, because no accepted composition result supplies a whole candidate and all six constructive components required by A.1. The point at which a separate PumpSkid 7 identity rule first becomes true remains an entity-identity inception question; production completion, commissioning work, evidence, acceptance, and any B.2 whole-reidentification claim also remain separate.
 

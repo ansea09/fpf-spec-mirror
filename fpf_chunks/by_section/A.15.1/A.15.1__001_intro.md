@@ -6,12 +6,12 @@ section_id: "A.15.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.15.1 — U.Work: Dated Performed Work Occurrence"
   - "A.15.1:intro — Intro"
-line_start: 29123
-line_end: 29161
+line_start: 30189
+line_end: 30231
 dependencies:
   - "A.1"
   - "A.10"
@@ -71,7 +71,7 @@ keywords:
 Use the following route:
 
 1. Recover the direct subject first. If the question is only about a Method, plan, capability, result, change, resource, evidence item, or publication, use that subject's pattern and stop.
-2. Identify the candidate performer as an exact System under A.1 without using the candidate Work to prove systemhood.
+2. Identify the candidate performer as a System under A.1 without using the candidate Work to prove systemhood.
 3. For every precise Agent claim, recover the A.13 core in §4.0 under independently stated criteria. Observed behavior may supply evidence; assuming that the candidate is already Work may not supply the proof. Open the characteristic-profile branch only under its stated receiving-use condition.
 4. Apply the full §4.1 test, including the occurrence's A.1:4.2 construction and its Work-specific factual premises. Follow its candidate-facts-to-claims explanation to admit `W : U.Work` and then assert its obtaining typed relations.
 5. Only after admission, and only when precise assignment-bound attribution is current, use F.6 with the same obtaining A.13 assignment for each performer.
@@ -79,9 +79,13 @@ Use the following route:
 
 **Compact positive example.** On 27 July 2026, Robot-7 performed the 09:00–09:20 inspection in InspectionService-A, following TurbineInspectionMethod under InspectionAssignment-17.
 
-**Basis of this example.** Before inspection, `Robot-7` is independently admitted as a System. `InspectionControllerSystemRole` has a declared A.2 membership criterion for goal-directed, condition-sensitive regulation of the inspection action; evidence shows that Robot-7 satisfies it. `InspectionAssignment-17` is an obtaining direct assignment of that kind for the service scope, working situation, and window. The same candidate inspection occurrence satisfies the six common constructive components in A.1:4.2. Together with the established construction and performer bases, the exact 09:00–09:20 inspection history on 2026-07-27, `TurbineInspectionMethod`, and the declared containment within `InspectionService-A` satisfy the A.15.1 occurrence test, so first admit `InspectionWork-17 : U.Work`. Then separately use the direct case fact for the pair to establish F.6 `performedUnderAssignment(InspectionWork-17, InspectionAssignment-17)` and say: `Robot-7 performed InspectionWork-17 under InspectionAssignment-17`. A separate assurance use can evaluate obstacle response, policy choice, persistence or operational closure under its declared criteria. Cite A.13 characteristic-profile values only when that use actually consumes those characteristics; the core Work claim needs no profile here.
+**Basis of this example.** Before inspection, `Robot-7` is independently admitted as a System. `InspectionControllerSystemRole` has a declared A.2 membership criterion for goal-directed, condition-sensitive regulation of the inspection action; evidence shows that Robot-7 satisfies it. `InspectionAssignment-17` is an obtaining direct assignment of that kind for the service scope, working situation, and window. The same candidate inspection occurrence satisfies the six common constructive components in A.1:4.2. Together with the established construction and performer bases, the 09:00–09:20 inspection history on 2026-07-27, `TurbineInspectionMethod`, and the declared containment within `InspectionService-A` satisfy the A.15.1 occurrence test, so first admit `InspectionWork-17 : U.Work`.
 
-**Nearest non-use example.** A dashboard says *inspection complete* but exposes only a schedule row and a copied log. Keep the schedule as WorkPlan content and the log as possible evidence. Inspect the log for the particular facts it supports; leave Work admission unresolved until the A.13 performer basis and all occurrence premises can be recovered.
+Then separately use the direct case fact for the pair to establish F.6 `performedUnderAssignment(InspectionWork-17, InspectionAssignment-17)` and say: `Robot-7 performed InspectionWork-17 under InspectionAssignment-17`.
+
+A separate assurance use can evaluate obstacle response, policy choice, persistence or operational closure under its declared criteria. Cite A.13 characteristic-profile values only when that use consumes those characteristics; the core Work claim needs no profile here.
+
+**Nearest non-use example.** A dashboard says *inspection complete* but exposes only a schedule row and a copied log. Keep the schedule as WorkPlan content and the log as possible evidence. Inspect the log for the facts it supports; leave Work admission unresolved until the A.13 performer basis and all occurrence premises can be recovered.
 
 **Recognition check.** Can the team recover the full §4.1 basis for one dated occurrence? When precise assignment-bound attribution is needed, can it also establish the separate F.6 relation under the conditions stated there?
 

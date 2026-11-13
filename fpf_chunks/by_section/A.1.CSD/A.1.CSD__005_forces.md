@@ -6,12 +6,12 @@ section_id: "A.1.CSD:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.CSD/A.1.CSD__005_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.1.CSD — Discovering Systems That May Bear Consequences"
   - "A.1.CSD:3 — Forces"
-line_start: 3881
-line_end: 3891
+line_start: 3977
+line_end: 3987
 dependencies:
   - "A.1"
   - "A.1.SCR"
@@ -42,7 +42,7 @@ keywords:
 | --- | --- |
 | Reach vs support | Consequences can travel far, while evidence for distant paths is often weak. |
 | Early action vs false actuality | A plausible path can change a constraint or justify a worthwhile obtainable probe, while remaining insufficient to assert that the relation obtains. |
-| Breadth vs ontology | More candidate bearers improve discovery only while each keeps its exact kind or honest blocker. |
+| Breadth vs ontology | More candidate bearers improve discovery only while each keeps its exact kind or blocker. |
 | Several scales vs one decision | Several holons may change differently, while the receiver still needs a bounded next move. |
 | Reuse vs domain authority | A common discovery action is transferable; domain quantities, thresholds, evidence Methods, and decisions are not. |
 | Proportionality vs completeness | A bounded investigation can leave paths unexamined; its material residual must remain visible to the receiver. |

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.10.ARCH"
-pattern_title: "Wording-Use Ontological Precision Restoration Architecture"
+pattern_title: "Architecture for Recovering Ontological Meaning in Wording"
 section_id: "E.10.ARCH:10"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__018_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
+  - "E.10.ARCH — Architecture for Recovering Ontological Meaning in Wording"
   - "E.10.ARCH:10 — Conformance Checklist"
-line_start: 101844
-line_end: 101872
+line_start: 107582
+line_end: 107614
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -67,7 +67,11 @@ keywords:
 
 Selecting a recovery pattern selects guidance. Kind admission, the truth of an exact claim, performed Work, and attribution are established under their direct rules. The checks below apply that shared condition to particular recovery families.
 
-**Relation-use recovery rule.** When wording hides a positive or explicitly restricted direct-relation claim, first name the direct predicate, its actual participants and the claim's polarity under the rule that defines it. Establish obtaining separately when the claim affirms that the relation obtains. Individuate one `U.Relation` occurrence only when a named receiving use needs to distinguish it. Add a reusable `RelationSignature` and A.6.5 `SlotSpec` values only when reusable typed declaration is current. Add participant designations only inside a current assertion or relation-occurrence-description episteme; the designations do not replace the actual participants. A filled project row that states the claim is a claim-bearing episteme. A field, edge, diagram element, or table cell remains a publication form or C.29 representation element unless a defining rule establishes another object and an explicit correspondence. Use an E.24 `onticSlotRelation` only after durable ontic settlement makes that direct relation current. A mathematical tuple or argument position stays representation-side until an explicit correspondence relates it to a declared `SlotSpec`. Using `E.10.ARCH` creates none of those objects; the author returns to the rules that define, constrain, or test them, with the PatternIDs serving only as locators.
+**Relation-use recovery rule.** When wording hides a positive or explicitly restricted direct-relation claim, first name the direct predicate, its actual participants and the claim's polarity under the rule that defines it. Establish obtaining separately when the claim affirms that the relation obtains. Individuate one `U.Relation` occurrence only when a named receiving use needs to distinguish it. Add a reusable `RelationSignature` and A.6.5 `SlotSpec` values only when reusable typed declaration is current. Add participant designations only inside a current assertion or relation-occurrence-description episteme; the designations do not replace the actual participants.
+
+A filled project row that states the claim is a claim-bearing episteme. A field, edge, diagram element, or table cell remains a publication form or C.29 representation element unless a defining rule establishes another object and an explicit correspondence. Use an E.24 `onticSlotRelation` only after durable ontic settlement makes that direct relation current. A mathematical tuple or argument position stays representation-side until an explicit correspondence relates it to a declared `SlotSpec`.
+
+Using `E.10.ARCH` creates none of those objects; the author returns to the rules that define, constrain, or test them, with the PatternIDs serving only as locators.
 
 | Check | Observable conformance condition |
 | --- | --- |
@@ -90,5 +94,5 @@ Selecting a recovery pattern selects guidance. Kind admission, the truth of an e
 | `CC-E10ARCH-8` | `semanticArea`, `ontologicalNeighborhood`, and `pattern nest` follow `E.8` placement discipline: `semanticArea` is the Part-F semantic unit, `ontologicalNeighborhood` is its applicability neighborhood, and `pattern nest` is placement. |
 | `CC-E10ARCH-9` | Repair preserves one useful admissible reader use and states it positively. Add a negative boundary only when the `F.19` plausible-intended-reader test warrants it. Type-correct but inert wording is not recovered by value. |
 | `CC-E10ARCH-10` | Validation covers duplicate recognition tables, broad placeholder heads, declaration/participant collapse, representation-as-obtaining, one-description/many-object collapse, optional apparatus without a receiver, practitioner-row bureaucracy, shadow restoration apparatus, and entry or index drift. |
-| `CC-E10ARCH-11` | A DPF-local entry begins only from a demonstrated recurring wording problem and identifies the DPF claim, DPF edition, defining or constraining rule, and the PatternID that locates that rule. The entry stays beside the claim whose wording it restores; `F.19` supplies the final rewrite. A separate profile is a claim-bearing episteme with a named receiving use and edition, and exists only when several entries are maintained together; any table that publishes it remains a publication form. No domain trigger is copied into the FPF-wide table, and wording repair does not establish or revise domain doctrine. |
+| `CC-E10ARCH-11` | A DPF-local entry begins only from a demonstrated recurring wording problem and identifies the DPF claim, DPF edition, defining or constraining rule, and the PatternID that locates that rule. The entry stays beside the claim whose wording it restores; `F.19` supplies the final rewrite. A separate profile is a claim-bearing episteme with a named receiving use and edition, and exists only when several entries are maintained together. The profile can be published as a table. No domain trigger is copied into the FPF-wide table, and wording repair does not establish or revise domain doctrine. |
 

@@ -6,12 +6,12 @@ section_id: "G.Core:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.Core/G.Core__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.Core — Discipline SoTA Kit Invariants, Defaults and Refresh Triggers (Part G)"
   - "G.Core:intro — Intro"
-line_start: 126409
-line_end: 126423
+line_start: 134459
+line_end: 134473
 dependencies:
   - "A.15.3"
   - "A.19"
@@ -45,5 +45,5 @@ keywords:
 
 **Purpose.** Keep Part G invariants tied to their governing definitions, with stable references for defaults and refresh triggers. Use the **RSCR trigger kind catalogue** and **Default Governing Definition Index** below when authoring or changing Part G patterns.
 
-**Pattern placement.** New Part‑G `PatternId`s are permitted when (i) they introduce a new **kit/pack class** (typically in `G.2–G.5`), or (ii) they are required to preserve **one governing pattern per wiring extension** and wiring-only separation. Method/discipline/generator specifics SHOULD still default to `GPatternExtension` modules under `G.x:Extensions` (scoped by `PatternScopeId = G.x:Ext.*` and `GoverningPatternId`), rather than adding new Part‑G patterns.
+**Pattern placement.** New Part‑G `PatternId`s are permitted when (i) they introduce a new **kit/pack class** (typically in `G.2–G.5`), or (ii) they are required to preserve **one governing pattern per wiring extension** and wiring-only separation. Method/discipline/generator specifics SHOULD default to `GPatternExtension` modules under `G.x:Extensions` (scoped by `PatternScopeId = G.x:Ext.*` and `GoverningPatternId`), rather than adding new Part‑G patterns.
 

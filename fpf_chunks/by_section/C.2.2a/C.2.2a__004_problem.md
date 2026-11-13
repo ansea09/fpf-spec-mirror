@@ -6,12 +6,12 @@ section_id: "C.2.2a:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2a/C.2.2a__004_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.2.2a — Language-State Chart over U.CharacteristicSpace"
   - "C.2.2a:2 — Problem"
-line_start: 52873
-line_end: 52881
+line_start: 55088
+line_end: 55096
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -50,6 +50,6 @@ When relevant facets and use conditions remain implicit:
 1. teams collapse several facets into one maturity story;
 2. `F` is silently misused as a surrogate for articulation, closure, source and use conditions, and representation factors;
 3. thresholds are published as vague readiness statements instead of explicit facet conditions;
-4. source phenomena, governed epistemes, publication forms, publication faces, and carriers are conflated;
+4. source phenomena, epistemes, publication forms, publication faces, and carriers are conflated;
 5. bridge and endpoint work inherit under-described upstream states.
 

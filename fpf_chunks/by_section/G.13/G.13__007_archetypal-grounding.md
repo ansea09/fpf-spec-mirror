@@ -6,12 +6,12 @@ section_id: "G.13:6"
 section_title: "Archetypal grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.13/G.13__007_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.13 — External Interop Hooks for SoTA Discipline Packs (conceptual)"
   - "G.13:6 — Archetypal grounding"
-line_start: 133063
-line_end: 133073
+line_start: 141202
+line_end: 141212
 dependencies:
   - "A.18"
   - "A.19"
@@ -53,5 +53,5 @@ Register an external scholarly index edition for “software architecture” con
 Align external claim graphs (replication, standardisation, disruption-style proxies) into CHR-typed features. For the selected DHC coordinates, establish or reuse C.16 measurement results and recover their active C.21 `DHCReplayBasis`. Use those result refs in the DHC series and its dashboard slice. Publish the selected series episteme through the dashboard form, citing `ExternalIndexRef.edition`, `ClaimMapperRef.edition`, and `MappingPolicyRef`; emit refresh triggers when the external edition updates.
 
 **OEE/QD.** *Open‑ended environment generation.*
-Register external environment/task taxonomies as index cards. Align them into generator‑family registries (as cited publications or records), keeping coverage/regret strictly as telemetry inputs. When the taxonomy edition changes, use G.11 to assess the mappings and downstream uses that depend on it; realign those whose basis no longer suffices.
+Register external environment/task taxonomies as index cards. Align them into generator‑family registries (as cited publications or records), using coverage and regret only as telemetry in this example. When the taxonomy edition changes, use G.11 to assess the mappings and downstream uses that depend on it; realign those whose basis no longer suffices.
 

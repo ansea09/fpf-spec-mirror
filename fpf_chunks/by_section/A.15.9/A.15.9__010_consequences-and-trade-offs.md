@@ -6,12 +6,12 @@ section_id: "A.15.9:9"
 section_title: "Consequences and trade-offs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.9/A.15.9__010_consequences-and-trade-offs.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.15.9 — Use or Request a Bounded Result from Another Practice"
   - "A.15.9:9 — Consequences and trade-offs"
-line_start: 32413
-line_end: 32424
+line_start: 33735
+line_end: 33746
 dependencies:
   - "A.10"
   - "A.13"
@@ -38,6 +38,6 @@ keywords:
 | Preserved authority | Supplier judgement and receiver decision stay independently reviewable. |
 | Better failure information | Missing Method, capability, access, authority, evidence, or current source limits the affected claim without automatically commissioning its replacement. |
 | Cross-domain reuse | Engineering, administration, finance, governance, science, medicine, law, safety, and other practices can share the boundary without sharing one domain Method. |
-| Additional precision cost | Consequential cases require exact subject, conditions, evidence, authority, and use instead of a familiar approval label. |
+| Additional precision cost | Consequential cases require subject, conditions, evidence, authority, and use instead of a familiar approval label. |
 | Bounded conclusion | The result supports only the named receiving use and limits; broader transfer needs another check. |
 

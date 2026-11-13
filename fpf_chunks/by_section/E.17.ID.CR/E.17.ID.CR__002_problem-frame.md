@@ -6,12 +6,12 @@ section_id: "E.17.ID.CR:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.ID.CR/E.17.ID.CR__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.17.ID.CR — Compare Sources Within a Shared Review Frame (ComparativeReviewUnit)"
   - "E.17.ID.CR:1 — Problem frame"
-line_start: 108558
-line_end: 108569
+line_start: 115239
+line_end: 115250
 dependencies:
   - "A.15"
   - "A.15.2"
@@ -40,7 +40,7 @@ keywords:
 ---
 
 ### E.17.ID.CR:1 - Problem frame
-Engineer-managers, programme leads, and research or cultural reviewers repeatedly need to prepare or share a small comparative review unit that helps a team read two already available source epistemes or source publications together without overstating what downstream claim or effect that unit now carries.
+Engineer-managers, programme leads, and research or cultural reviewers often need to prepare or share a small unit that helps a team read two available source epistemes or source publications together. The aim is to compare them without overstating the downstream claim or effect the unit carries.
 Typical moments include:
 - a design-review note that says one already available option write-up foregrounds coupling risk more than another;
 - a release or compliance comparison that says an internal control sheet and a vendor bulletin are not yet equivalent even though they speak to the same review task;
@@ -48,6 +48,6 @@ Typical moments include:
 - a research-review note that says one available synthesis foregrounds measurement uncertainty more than another without yet declaring a better method;
 - a program or cultural review note that says one available brief foregrounds participation continuity more than another without yet deciding funding, curation, or program direction.
 
-These review units are useful precisely because they make the next review discussion more precise.
-They become dangerous when a reader starts treating them as if they already established equivalence, root cause, redesign priority, action selection, program choice, or approval.
+These comparison units make the next review discussion more precise.
+Their risk is that a reader may treat a comparison as establishing equivalence, root cause, redesign priority, action selection, program choice, or approval.
 

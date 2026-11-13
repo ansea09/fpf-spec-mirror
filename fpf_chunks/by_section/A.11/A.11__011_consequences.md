@@ -6,12 +6,12 @@ section_id: "A.11:6"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.11/A.11__011_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.11 — Ontological Parsimony"
   - "A.11:6 — Consequences"
-line_start: 27547
-line_end: 27554
+line_start: 28577
+line_end: 28584
 dependencies:
   - "A.6.P"
   - "A.6.RCD"
@@ -31,5 +31,5 @@ keywords:
 | --- | --- | --- |
 | Smaller durable vocabulary | Reusing adequate expressions reduces the number of U-kinds that readers must learn and relate across domains. | The comparison must show the best existing expression by value. Keep it recoverable when later use depends on it. |
 | Better U-kind admissions | Complete admission requires the parsimony evidence: material loss, non-redundancy, action-facing contribution, boundary test, and reopen condition; these do not replace the other admission conditions. | Some attractive names remain local or dependent even when they are common in source traditions. |
-| Clearer neighboring-pattern use | Readers know when to use E.24.UK, A.8, C.3, Part F naming, or a direct subject pattern. | The pattern supplies the parsimony finding; the governing admission test decides admission and Part F chooses the public name. |
+| Clearer neighboring-pattern use | Readers know when to use E.24.UK, A.8, C.3, Part F naming, or a subject pattern. | The pattern supplies the parsimony finding; the governing admission test decides admission and Part F chooses the public name. |
 

@@ -6,12 +6,12 @@ section_id: "A.10.1:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10.1/A.10.1__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.10.1 — Revalidate Affected Uses When a Relied-on Source Changes"
   - "A.10.1:2 — Problem"
-line_start: 27115
-line_end: 27128
+line_start: 28137
+line_end: 28150
 dependencies:
   - "A.10"
   - "A.10.1"
@@ -26,7 +26,7 @@ keywords:
 
 ### A.10.1:2 - Problem
 
-Source-change impact is difficult precisely when the receiving uses are partly unknown. A source register may know the source but not every later premise. A receiving decision may use an equivalent claim without retaining the same citation. A dependency graph may include declared edges that do no current work and omit an informal premise that does.
+Source-change impact is difficult when the receiving uses are partly unknown. A source register may know the source but not every later premise. A receiving decision may use an equivalent claim without retaining the same citation. A dependency graph may include declared edges that do no current work and omit an informal premise that does.
 
 The cheapest apparent boundaries are therefore unreliable:
 

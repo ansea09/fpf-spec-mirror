@@ -6,12 +6,12 @@ section_id: "C.39.RP:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.RP/C.39.RP__004_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.39.RP — Organize a Repertoire for Method Development"
   - "C.39.RP:2 — Problem"
-line_start: 84182
-line_end: 84187
+line_start: 88337
+line_end: 88342
 dependencies:
   - "A.3.1.DR"
   - "A.3.1.MR"
@@ -24,7 +24,7 @@ keywords:
 
 ### C.39.RP:2 - Problem
 
-Three shortcuts make a repertoire unusable. First, every package item is called a Method. Second, co-listing or a common ancestor is called an established Method family. Third, the newest source edition silently replaces older evidence even when the current use still relies on an earlier claim or the changed edition has not been checked.
+Three shortcuts make a repertoire unusable. First, every package item is called a Method. Second, co-listing or a common ancestor is called an established Method family. Third, the newest source edition replaces older evidence even when the current use relies on an earlier claim or the changed edition has not been checked.
 
 The resulting list appears complete but cannot answer which alternatives are identified Methods, which are only accounts, why a relation is believed, what changed between editions, or which missing position blocks the next decision.
 

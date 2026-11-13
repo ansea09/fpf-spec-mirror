@@ -6,12 +6,12 @@ section_id: "A.6.3:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3/A.6.3__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.3 — Episteme viewing - EntityOfConcern-preserving episteme construction"
   - "A.6.3:2 — Problem"
-line_start: 17626
-line_end: 17633
+line_start: 18451
+line_end: 18458
 dependencies:
   - "A.13"
   - "A.15.1"
@@ -36,5 +36,5 @@ How can a project state how X and any additional named sources or admitted facts
 
 Keep that construction separate from the work that produced Y, any publication of Y, and any separate check that Y qualifies as a `U.View`.
 
-Without this distinction, a query execution is treated as view membership, a generated file is treated as the episteme, a new claim is hidden as harmless formatting, or an EntityOfConcern change is smuggled into a same-entity projection.
+Without this distinction, a query execution is treated as view membership, a generated file is treated as the episteme, a new claim is treated as a formatting change, or an EntityOfConcern change is treated as a same-entity projection.
 

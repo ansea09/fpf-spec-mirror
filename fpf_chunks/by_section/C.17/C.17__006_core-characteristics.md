@@ -6,28 +6,22 @@ section_id: "C.17:4"
 section_title: "Core characteristics"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__006_core-characteristics.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.17 — Characterising Generative Novelty and Value"
   - "C.17:4 — Core characteristics"
-line_start: 60701
-line_end: 60751
+line_start: 63113
+line_end: 63163
 dependencies:
-  - "A.0"
   - "A.1.1"
   - "A.10"
-  - "A.13"
   - "A.15.1"
-  - "A.15.2"
   - "A.17"
   - "A.18"
   - "A.19"
   - "A.19.ECS"
-  - "A.2.1"
   - "A.3.1"
   - "A.3.2"
-  - "A.6.1"
-  - "B.1.6"
   - "B.3"
   - "B.4"
   - "C.11"
@@ -66,10 +60,10 @@ Novelty describes supported difference from a finite comparison corpus under one
 
 A declared normalization to `[0,1]` may be part of the Method; state its source Scale and transformation. If the Method uses another similarity or distance Scale, state the lawful coordinate construction and resulting Scale instead of reusing this formula. Subtracting an unrestricted result from one does not make it bounded.
 
-When the Method compares representations or observations rather than the evaluated bearers themselves, name each bearer and the value actually compared, together with the describing, projection, measurement, or other stated relation that lets the comparison support the bearer-level claim. Use a compatible basis for corpus members, or state the mapping and relevant loss. A direct like-for-like comparison of epistemes needs no extra representation relation.
+When the Method compares representations or observations rather than the evaluated bearers themselves, name each bearer and the value compared, together with the describing, projection, measurement, or other stated relation that lets the comparison support the bearer-level claim. Use a compatible basis for corpus members, or state the mapping and relevant loss. A direct like-for-like comparison of epistemes needs no extra representation relation.
 
 A robust top-k variant is allowed when declared. The result identifies the Novelty Characteristic and Scale editions, corpus and inclusion rule, source editions, comparison window, Method, model or encoder edition, distance definition, invariances, calibration, uncertainty, ClaimScope, evidence, and intended use. Changing any load-bearing element creates a different comparison basis or result edition.
-Those identifiers make the result reproducible; they do not by themselves show that the value is robust. When the value materially affects a comparison or pool treatment, use diagnostics suited to the claim. For example, inspect the nearest corpus members and their distances, repeat the reading with a plausible alternative corpus or similarity Method and report the sensitivity, and remove a claimed invariance to see whether it materially changes the result. These are bounded diagnostic examples, not one mandatory algorithm. If no robustness check was performed, report the supported value and uncertainty without calling it robust.
+Those identifiers make the result reproducible; they do not by themselves show that the value is robust. When the value materially affects a comparison or pool treatment, use diagnostics suited to the claim. For example, inspect the nearest corpus members and their distances, repeat the reading with a plausible alternative corpus or similarity Method and report the sensitivity, and remove a claimed invariance to see whether it materially changes the result. If no robustness check was performed, report the supported value and uncertainty without calling it robust.
 
 Novelty is neither timeless originality nor a property detached from its comparison basis. A label such as `Novelty@context` is not an executable input and must not substitute for the result chain.
 
@@ -79,7 +73,7 @@ Use-Value, historically also called `ValueGain`, reports the bearer's supported 
 
 When the result claims an improvement or gain, identify both the baseline and the comparison or counterfactual Method that makes the difference meaningful. One bounded measured construction is `ValueGain = metric_after - metric_before` under a fixed metric and window. An A/B comparison, back-test, or causal-inference Method may provide the comparison when it fits the claim. Cite the before and after measurements and the Work or other evidence on which they rely. A predicted gain identifies its model, error, baseline, and intended later update. Without a baseline and an appropriate comparison Method, say what usefulness is supported; do not report an observed gain.
 
-Use-Value may be one member of a declared Q-set, but it is not the whole Q-set by default. If it stays outside Q, name its actual use as a side condition or tie-breaker. Do not silently promote Novelty, Surprise, `DeltaDiversity_P`, or Illumination into dominance.
+Use-Value may be one member of a declared Q-set, but it is not the whole Q-set by default. If it stays outside Q, name its use as a side condition or tie-breaker. Do not silently promote Novelty, Surprise, `DeltaDiversity_P`, or Illumination into dominance.
 
 #### C.17:4.3 - Surprise: unexpected under which model?
 
@@ -89,7 +83,7 @@ Novelty and Surprise answer different questions. A bearer may be unlike the sele
 
 #### C.17:4.4 - ConstraintFit: which must-criteria hold?
 
-ConstraintFit reports satisfaction of the declared must-constraints under their predicates and source epistemes. Use `E.5`, `D.1`-`D.5`, or a service-acceptance pattern only when it supplies the actual predicate or source for the current must-criterion. A ratio such as `passed declared must-constraints / all declared must-constraints` is allowed when the applicable set is nonempty and any criticality weights are explicit. If no must-constraint applies, omit the ratio and state that fact when the receiving use needs it; other eligibility conditions remain to be satisfied.
+ConstraintFit reports satisfaction of the declared must-constraints under their predicates and source epistemes. Use `E.5`, `D.1`-`D.5`, or a service-acceptance pattern only when it supplies the predicate or source for the current must-criterion. A ratio such as `passed declared must-constraints / all declared must-constraints` is allowed when the applicable set is nonempty and any criticality weights are explicit. If no must-constraint applies, omit the ratio and state that fact when the receiving use needs it; other eligibility conditions remain to be satisfied.
 
 A failing must-constraint makes the bearer ineligible for the affected use unless the receiving constraint or decision pattern recognizes an independently obtaining exception or waiver effect. A waiver speech act alone does not change eligibility. If no pattern defines the needed effect, return the missing relation rather than treating communication as authorization.
 

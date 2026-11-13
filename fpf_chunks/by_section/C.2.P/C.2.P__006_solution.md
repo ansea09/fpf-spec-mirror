@@ -6,12 +6,12 @@ section_id: "C.2.P:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P/C.2.P__006_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.2.P — Clarify Episteme, Publication, and Source Wording (Epistemic Precision Restoration)"
   - "C.2.P:4 — Solution"
-line_start: 52078
-line_end: 52322
+line_start: 54258
+line_end: 54513
 dependencies:
   - "A.10"
   - "A.15"
@@ -63,7 +63,13 @@ A successful rewrite satisfies these field-validity constraints:
 3. a relation, comparison, dependency, support, sameness, grounding, mapping, or endpoint claim has `A.6.P` relation precision, with use-boundary and project-side reliance questions split into their own fields;
 4. a claim-bearing episteme has a recoverable `C.2.1` identity; dependent-kind membership, such as `U.View`, uses its defining pattern. A project-side object or relation keeps its own kind, applicable reference, and declared use;
 5. publication, view, face, and carrier distinctions satisfy the applicable `E.17.0` view-conformance, `E.17`/MVPK publication-face, and `E.24.PUB` publication-occurrence, form, and carrier rules;
-6. the repaired text satisfies `E.2` Pillars, especially `P-2 Didactic Primacy`, by preserving or restoring one remaining reader use: a usable action, a recognition reason that tells the working reader why the distinction matters, or a named FPF pattern application that carries the claim being made; when both Tech and Plain registers are current, the Plain or didactic line maps back to the recovered Tech kind, relation, or FPF pattern application under `E.10:6.2`; ordinary Plain wording and intentional didactic metaphor stay light when they carry no FPF-governed use, but ontological, evidence, causal, assurance, bridge, gate, work, decision, or use-boundary claim in a more expressive Plain line must be recoverable through the repaired Tech fields; FPF-governed Problem frames, Problem sections, recognition texts, examples, and worked slices must still show the broad working situation and first useful move, or the rewrite is incomplete;
+6. the repaired text satisfies `E.2` Pillars, especially `P-2 Didactic Primacy`, by preserving or restoring one remaining reader use: a usable action, a recognition reason that tells the working reader why the distinction matters, or a named FPF pattern application that carries the claim.
+
+   When both Tech and Plain registers are current, the Plain or didactic line maps back to the recovered Tech kind, relation, or FPF pattern application under `E.10:6.2`.
+
+   Ordinary Plain wording and intentional didactic metaphor stay light when they carry no FPF-governed use, but ontological, evidence, causal, assurance, bridge, gate, work, decision, or use-boundary claim in a more expressive Plain line must be recoverable through the repaired Tech fields.
+
+   FPF-governed Problem frames, Problem sections, recognition texts, examples, and worked slices must still show the broad working situation and first useful move, or the rewrite is incomplete.
 7. the final phrase preserves the distinction without adding another claim;
 8. unrecoverable meaning, kind, register mapping, or remaining reader use fails closed.
 
@@ -84,9 +90,9 @@ Compact epistemic precision-restoration row:
   remainingReaderUse:
 ```
 
-Add a source identity, publication occurrence, carrier relation, declared-use boundary, project-side reference, naming decision, evidence relation, or assurance reference only when that exact claim is live. Optional fields do not become a common schema.
+Add a source identity, publication occurrence, carrier relation, declared-use boundary, project-side reference, naming decision, evidence relation, or assurance reference only when that claim is live. Optional fields do not become a common schema.
 
-Use a full check only when several unresolved fields interact, the source-to-FPF use is contested, or a reusable ontological or naming decision is being made. Record the original sentence, its function, the selected kinds and relations, the exact neighboring-pattern contributions, selected wording, remaining reader use, and reopen condition. Record competing interpretations or rejected overreads only when they are independently grounded, plausible for the intended reader, and consequential under F.19. Omit unused fields.
+Use a full check only when several unresolved fields interact, the source-to-FPF use is contested, or a reusable ontological or naming decision is being made. Record the original sentence, its function, the selected kinds and relations, the neighboring-pattern contributions, selected wording, remaining reader use, and reopen condition. Record competing interpretations or rejected overreads only when they are independently grounded, plausible for the intended reader, and consequential under F.19. Omit unused fields.
 
 When the wording exposes a field defined elsewhere, name the `contributingPattern` and the concrete definition, constraint, or test it supplies.
 
@@ -108,9 +114,9 @@ In conventional abbreviations, source titles, mathematical notations, standards,
 Before leaving a slash expression in current prose, classify the expression as one of these cases:
 - accepted notation or conventional designation: keep established names, mathematical and unit notation, file paths, URLs, and quoted source tokens whose slash belongs to the designation or carrier syntax. Examples include `ISO/IEC`, `ISO/IEC/IEEE`, and `1/2`;
 - a plain-language synonym pair with no ontology, authority, evidence, or use-boundary claim;
-- a lazy `and/or`-style join that must be split or recovered before FPF-governed use;
+- an unresolved `and/or`-style join that must be split or recovered before FPF-governed use;
 - a proposed composite kind: establish its meaning under the kind’s subject pattern; use `F.18` only for a durable reusable name and `A.6.P` for an unresolved relation;
-- a relation claim: recover the direct predicate, its actual participants, and its defining pattern; use `A.6.P` only while one of these remains unclear, then use the direct subject pattern. Add declaration, occurrence-identity, qualification, or representation detail only when the receiving use needs it;
+- a relation claim: recover the direct predicate, its participants, and its defining pattern; use `A.6.P` only while one of these remains unclear, then use the direct subject pattern. Add declaration, occurrence-identity, qualification, or representation detail only when the receiving use needs it;
 - a tuple-like record: state the record’s purpose and component meanings; use `A.6.5` SlotSpecs only for a reusable typed declaration that needs them;
 - a failed ontology signal where the sentence lists unlike values because the FPF kind under repair, relation record, relation phrase, tuple-like record, alternative-case disposition, or not-triggered disposition has not yet been recovered.
 
@@ -125,10 +131,10 @@ Sometimes the problem is not a bad word but one of two different cases:
 
 Do not merge those cases.
 An unclear claim is not current architecture truth merely because deleting it feels risky, and it must not be rewritten by guessing a likely author intention.
-An understandable uncovered claim may be retained as a candidate `FPF` extension when the problem situation, current FPF gap, and first user action that would improve are stated. State a tempting overread or rejected use only when it has the independent ground and practical consequence required by F.19.
+An understandable uncovered claim may be retained as a candidate `FPF` extension when the problem situation, current FPF gap, and first user action that would improve are stated. State an overread or rejected use only when it has the independent ground and practical consequence required by F.19.
 
 Classify the case explicitly:
-- **recovered by value:** the sentence names the actual object or relation, its defining or constraining pattern, and the declared use. When it uses `projectSideFPFRef`, recover the exact project-side kind and reference described in :4.2.1. Stop at the selected value and the relation needed for that use;
+- **recovered by value:** the sentence names the object or relation, its defining or constraining pattern, and the declared use. When it uses `projectSideFPFRef`, recover the exact project-side kind and reference described in :4.2.1. Stop at the selected value and the relation needed for that use;
 - **understandable FPF extension candidate:** the thought is clear enough to state as a candidate new or amended FPF kind, pattern, relation record, method guidance, accepted `DRR` content decision, or campaign-scoped content question, but it does not carry current authority, evidence, or use-boundary claim until an accepted architecture decision, accepted `DRR`, or accepted FPF pattern supplies that authority;
 - **source wording without FPF-governed use:** the phrase has no current authority, evidence, or use-boundary claim;
 - **reduced-use cue:** the phrase is kept only as a recognition cue or anti-case, not as a claim-bearing architecture decision;
@@ -147,11 +153,11 @@ In particular, "seems to mean", "probably about", a cleaner paraphrase, or a bro
 
 When `source data` or `source material` is epistemic, identify the source expression and selected source episteme. Add a publication occurrence only when availability matters. Then name the relation or path that carries the source into the current use.
 
-Treat `source-use` as a cue, not as a relation name. Do not call an endpoint `value` unless the direct pattern actually declares a value slot.
+Treat `source-use` as a cue, not as a relation name. Do not call an endpoint `value` unless the direct pattern declares a value slot.
 
 If the wording also makes a claim about a Method, Work, transformation, evaluation, transfer, or receiving use, use its direct pattern. Use `A.6.P.WMR` only while the work-side relation or what is being claimed about it remains hidden. Physical raw material stays with its constituent, resource-use, supply, transfer, or transformation relation.
 
-Use `source-return` only for a reverse or escalation move from a derivative, coarsened, extracted, compressed, rendered, or reused object to a named source. Such a move is current when a stronger use, dispute, freshness change, hidden loss, or missing distinction requires the source again. For ordinary movement from a source into current use, say `source-to-use path` or name the actual relation. Name a rule-bearing ClaimGraph only when later comparison or reuse depends on the identity of that rule.
+Use `source-return` only for a reverse or escalation move from a derivative, coarsened, extracted, compressed, rendered, or reused object to a named source. Such a move is current when a stronger use, dispute, freshness change, hidden loss, or missing distinction requires the source again. For ordinary movement from a source into current use, say `source-to-use path` or name the relation. Name a rule-bearing ClaimGraph only when later comparison or reuse depends on the identity of that rule.
 
 C.2.P does not decide whether Work may proceed. Use `A.15.4` only after the wording repair shows that a publication, display, or other appearance is being relied on as a reason for intended Work and the exact project-side object or relation is still unresolved. If the direct pattern is already known, use it without an intermediate reliance-repair branch.
 
@@ -163,13 +169,13 @@ Once the remaining question is clear, stop C.2.P and choose the direct branch:
 - `C.16.P` or `C.16.Q` for a hidden characteristic, scale, or evaluative-quality distinction;
 - the applicable episteme or publication pattern for an already identified episteme or publication question.
 
-These are alternatives, not a mandatory sequence. C.2.P may expose a naming or authority question, but it neither renames an accepted FPF pattern nor admits a reusable head; use `F.18` and the applicable accepted decision source for that change.
+These branches are alternatives. C.2.P may expose a naming or authority question, but it neither renames an accepted FPF pattern nor admits a reusable head; use `F.18` and the applicable accepted decision source for that change.
 
 Carrier-like words are only recognition cues. Once the category is clear, use one row below and stop C.2.P as soon as that contribution closes the question.
 
 | Recovered category | Use the contribution that answers the remaining question |
 | --- | --- |
-| Publication occurrence, form, face, presentation carrier, rendering, or availability | Use `E.17` to select a source-backed face of an already accepted account for a named reader and use; use `E.24.PUB` when publication-occurrence identity, form, carrier, audience, bounded use, or availability matters. If the claim is that access actually occurred, use the pattern for that exact access relation; availability alone does not establish access. |
+| Publication occurrence, form, face, presentation carrier, rendering, or availability | Use `E.17` to select a source-backed face of an already accepted account for a named reader and use; use `E.24.PUB` when publication-occurrence identity, form, carrier, audience, bounded use, or availability matters. If the claim is that access actually occurred, use the pattern for that access relation; availability alone does not establish access. |
 | Evidence, provenance, or currentness | Use `A.10` for one claim-bound evidence-provenance path and bounded reliance. Use `G.6` only when later citation or replay needs an addressable path through several already established objects and relations. Use `G.11` when staleness or refresh of a source, edition, evidence set, dashboard, or carrier is the live question. |
 | Generated or discovered result reached through a carrier | Use `C.35` to decide whether the exact result may seed architecture work. Use `E.24.PUB` for its publication occurrence and carrier, and `E.17` when publishing reader-facing forms of the accepted account. C.35 admits or rejects the result, not a generic "generated carrier". |
 | FPF, DPF, or LPF edition, package carrier, or access carrier | Use `E.4.FPF` for FPF form and publication- or access-carrier assembly and `E.4.DPF` for DPF or LPF authoring and publication- or access-carrier assembly. Use `E.4.PFIP` only for accepted-source integration or predecessor-publication preservation, `E.4.PFR` only for a relation or edition maintenance claim, and `E.4.DPF.DA` only for whole-package adequacy. |
@@ -184,7 +190,8 @@ Carrier-like words are only recognition cues. Once the category is clear, use on
 These fields are current episteme-publication precision vocabulary for `DRR`, architecture, and pattern-drafting work.
 They exist to prevent one sentence from mixing FPF-side use-boundary, project-side records, actual work or action, method selection, carrier access, and authority records.
 They are local recovery aids, not FPF kinds, not record kinds, and not a universal record ontology.
-Each field closes only by naming the FPF kind named by value, relation record, relation phrase, project-side FPF kind and reference named by value, or explicit non-use disposition that is current in the sentence.
+Close each field only by naming the FPF kind by value, relation record, relation phrase, project-side FPF kind and reference by value, or explicit non-use disposition at issue in the sentence.
+
 The same local-aid rule applies to neighboring field names such as `sourceRelationClass`, `explanationSourceRelationClass`, `comparativeRelationClass`, `representationValidityUseBoundaryValue`, `allowedUse`, `misuseRisk`, and `worldContactPolicy`: they help record a local recovery or reader-use boundary, but they do not become kinds. These local fields do not instantiate evidence, gate, assurance, work, commitment, speech act, decision, release, authority, representation kind, world-contact kind, or policy kind. Read `allowedUse` as a local reader-fit field under `declaredUseBoundary`, not as permission, evidence relation, or authority.
 
 | Term | Current interpretation | Must not mean |
@@ -193,7 +200,7 @@ The same local-aid rule applies to neighboring field names such as `sourceRelati
 | FPF pattern | A named pattern episteme that gives reusable action guidance for a problem situation. A practitioner applies its content in that situation. | A recurring arrangement, performed procedure, method call, cluster label, or document treated as a pattern merely from its name or appearance. |
 | pattern section | Either a part of the pattern episteme or a bounded `PublicationUnit` of that pattern publication, depending on sentence function. State which one matters when the distinction carries a claim. | Independent pattern, file location, generic locus, or record with named authority-reference relation. |
 | accepted campaign `DRR` | A campaign decision source that states accepted content decisions for one campaign. | A pattern, current-authority summary, open-ended plan, review log, or replacement for pattern text. |
-| `relationClaimSlice` | An optional local note for a sentence whose direct predicate or participants still need `A.6.P` recovery. Name that problem, then recover the predicate, actual participants, and defining pattern. Add declaration, occurrence identity, qualifications, or representation detail only when the receiving use needs it. | A generic record-shaped relation, an invented umbrella kind, or a token or list used instead of the actual predicate and participants. |
+| `relationClaimSlice` | An optional local note for a sentence whose direct predicate or participants still need `A.6.P` recovery. Name that problem, then recover the predicate, participants, and defining pattern. Add declaration, occurrence identity, qualifications, or representation detail only when the receiving use needs it. | A generic record-shaped relation, an invented umbrella kind, or a token or list used instead of the predicate and participants. |
 | `declaredUseBoundary` | The use for which the statement or result is offered, with any excluded or unsupported use whose distinction changes interpretation or action. State a blocked use only when its governing rule blocks it. Use A.6.B when the boundary claim needs L-, A-, D-, and E-claim separation. | Permission inferred from the declaration, a display, or readability alone. |
 | `projectSideFPFRef` | The project-side FPF kind and reference named by value when a publication, display, cue, or explanation is treated as a project-side source for work, evidence, gate, constraint, adjudication, decision, commitment, method, action invitation, assurance, or engineering justification. The field points to that kind and reference; use the relevant FPF pattern for the relation and its checks. | One slot accepting records, actions, methods, carriers, evidence, gates, decisions, assurance, and engineering justification interchangeably. |
 | `rejectedOverread` | An optional local note naming an independently grounded reading that a plausible intended reader could take and that changes truth, selection, reliance, or action. State the recovered relation or subject-specific source, scheme, scope, practice, or use that rules it out; apply F.19’s contribution test. | A mandatory invented foil, risk slogan, review-finding kind, moralized defect class, or reusable FPF kind. |
@@ -205,7 +212,7 @@ The same local-aid rule applies to neighboring field names such as `sourceRelati
 | --- | --- | --- |
 | `U.Episteme` | A claim-bearing holon identified under C.2.1. A dependent episteme kind has its own membership condition for that same individual. Use this head when the selected object is the knowledge that can be described, viewed, grounded, revised, published, or relied on. | A file, display, or process state treated as knowledge merely from appearance. For a paragraph or status note, identify the claim-bearing whole it carries. |
 | C.2.1 episteme constitution and neighboring relations | An exact episteme is identified through claim content, one exact EntityOfConcern, and one effective ReferenceScheme under `EpistemeConstitutionRelation`. Empirical grounding is a separate `EpistemeEmpiricalGroundingRelation`; describing-use viewpoint selection, E.17.0 conformance and same-individual `U.View` membership, representation and its explicit correspondence under the applicable pattern, with C.29 governing mathematical-lens use, and publication or carrier relations are also separate. SlotKinds occur only inside the exact reusable `RelationSignature` that declares their participant meanings. | One universal episteme-slot tuple, card, field family, or context container. |
-| `EntityOfConcern`, `EntityOfConcernRef` | The EntityOfConcern participant under `C.2.1` and its applicable reference for a claim-bearing episteme or episteme-lane `U.View`. The participant may be an entity, relation, FPF pattern, FPF publication, project episteme, project publication, a project-side entity identified by its FPF kind and reference, work or action when that work or action is itself the entity of concern, or another explicitly typed EntityOfConcern referent. Use this when the text is really about what the episteme is about. In publication-unit work, `EntityOfConcernRef` is used only through a claim-bearing episteme or episteme-lane `U.View`; it does not float as a free field on the unit. | Generic topic, local table subject, file title, reviewed publication, review packet, or review record, required project-side work, decision, action invitation, authoring work, or anything someone happens to talk about by default; the episteme's constitution must identify the exact entity as its EntityOfConcern before this reference is used. |
+| `EntityOfConcern`, `EntityOfConcernRef` | The EntityOfConcern participant under `C.2.1` and its applicable reference for a claim-bearing episteme or episteme-lane `U.View`. The participant may be an entity, relation, FPF pattern, FPF publication, project episteme, project publication, a project-side entity identified by its FPF kind and reference, work or action when that work or action is itself the entity of concern, or another explicitly typed EntityOfConcern referent. Use this when the text is about what the episteme is about. In publication-unit work, `EntityOfConcernRef` is used only through a claim-bearing episteme or episteme-lane `U.View`; it does not float as a free field on the unit. | Generic topic, local table subject, file title, reviewed publication, review packet, or review record, required project-side work, decision, action invitation, authoring work, or anything someone happens to talk about by default; the episteme's constitution must identify the exact entity as its EntityOfConcern before this reference is used. |
 | wording such as `describedEntity`, `DescribedEntityRef`, `primary described entity` | Use the exact EntityOfConcern participant and its applicable reference under C.2.1 when a claim-bearing episteme is current. Use `publicationUnitPrimaryEntityOfConcern` when one bounded `PublicationUnit` carries or exposes a claim-bearing episteme or same-individual `U.View` and the primary entity of concern must be named. | A second C.2.1 slot family, a free publication-unit field, a generic topic, a second current name, or a new ontology beside `EntityOfConcern`. |
 | `publicationUnitPrimaryEntityOfConcern` | The primary entity of concern, non-claim-bearing kind named by value, topic, or subject that one bounded `PublicationUnit` is mainly about for the current use. When a claim-bearing episteme or episteme-lane `U.View` is current, this must be recoverable from the selected `EntityOfConcernRef`; otherwise name the non-claim-bearing kind named by value or keep topic and subject as plain explanatory prose. | `EntityOfConcernRef` created without a claim-bearing episteme or episteme-lane view, publication-unit title by default, authoring process, carrier identity, or reader interest. |
 | `GroundingHolon`, empirical-grounding relation | The exact grounding holon and obtaining C.2.1 `EpistemeEmpiricalGroundingRelation` that maps named empirical claims of one exact episteme to the required direct observation, intervention, measurement, or test relations. | A constituent of episteme identity, a convenient source citation, an untyped entity mention, or the declaration-local `GroundingHolonSlot` used as the world-side value. |
@@ -227,7 +234,7 @@ The same local-aid rule applies to neighboring field names such as `sourceRelati
 
 For FPF-governed wording, use `E.10:0.2`, `E.10:0.2a`, `E.10:0.2b`, `E.10:0.2c`, and `E.10:0.2d` for lexical cues within the connected `F.19` reading and for selection of an already known applicable pattern.
 
-This pattern is applicable only when one C.2.P-specific source-expression, episteme, publication, carrier, source-to-use, or use-disposition distinction is still needed to select or safely use the direct receiving pattern. When the exact pattern and current field are already recoverable, apply it directly.
+This pattern is applicable only when one C.2.P-specific source-expression, episteme, publication, carrier, source-to-use, or use-disposition distinction is still needed to select or safely use the direct receiving pattern. When the pattern and field at issue are already recoverable, apply it directly.
 
 When this pattern is applicable, do not restart from word taste. Keep any `E.10` cue or routing result as input and recover source-expression clarification, FPF-governed use, current episteme-publication relation set, use disposition, and remaining reader use.
 
@@ -240,7 +247,11 @@ When the current entity is a bounded unit inside a publication, use `Publication
 
 Use `EntityOfConcern` and its applicable `EntityOfConcernRef` when local wording names the participant of a claim-bearing episteme or episteme-lane view. `publicationUnitPrimaryEntityOfConcern` has the union meaning defined in `C.2.P:4.2.1` and used by `E.17.AUD`: the carried EntityOfConcern or the non-claim-bearing kind, topic, or subject value. For `E.17.AUD.OOTD`'s separate primary-subject question, use its local `publicationUnitPrimarySubject`; the two fields are not aliases.
 
-For `describedEntity`, `DescribedEntityRef`, `primary described entity`, `EntityOfInterest`, or `EoIClass`, use the exact EntityOfConcern participant, its applicable `entityOfConcernRef` or `EntityOfConcernRef`, `EntityOfConcernChangeMode`, `EntityOfConcernClass`, `publicationUnitPrimaryEntityOfConcern`, or the local FPF kind named by value. Use `EntityOfConcernSlot` only while inspecting the exact reusable C.2.1 constitution `RelationSignature`; it is not an episteme field. If no claim-bearing episteme or same-individual `U.View` is current, use a non-claim-bearing kind named by value or plain `topic` or `subject` instead of inventing an `EntityOfConcernRef`. When the use is `E.17.AUD.OOTD`'s primary-subject question, recover its local `publicationUnitPrimarySubject`; apply the EntityOfConcern projection only when that pattern's equality condition holds.
+For `describedEntity`, `DescribedEntityRef`, `primary described entity`, `EntityOfInterest`, or `EoIClass`, use the exact EntityOfConcern participant, its applicable `entityOfConcernRef` or `EntityOfConcernRef`, `EntityOfConcernChangeMode`, `EntityOfConcernClass`, `publicationUnitPrimaryEntityOfConcern`, or the local FPF kind named by value.
+
+Use `EntityOfConcernSlot` only while inspecting the exact reusable C.2.1 constitution `RelationSignature`; it is not an episteme field. If no claim-bearing episteme or same-individual `U.View` is current, use a non-claim-bearing kind named by value or plain `topic` or `subject` instead of inventing an `EntityOfConcernRef`.
+
+When the use is `E.17.AUD.OOTD`'s primary-subject question, recover its local `publicationUnitPrimarySubject`; apply the EntityOfConcern projection only when that pattern's equality condition holds.
 
 Use ordinary `topic`, `subject`, or `local referent` when those words preserve the distinction needed by the receiving use; use the defined technical designation when episteme constitution or another direct subject rule depends on it. Preserve the applicable register requirements of E.10.
 
@@ -256,7 +267,7 @@ The bounded unit may carry or expose claim-bearing content, but it is not identi
 
 #### C.2.P:4.4 - Epistemic Precision Restoration After E.10
 
-Keep any E.10 cue or routing result as input. Apply C.2.P only while a source-expression, episteme, publication, carrier, or use-disposition distinction is still needed to select or safely use the direct receiving pattern. If the exact pattern and field are already known, apply them directly.
+Keep any E.10 cue or routing result as input. Apply C.2.P only while a source-expression, episteme, publication, carrier, or use-disposition distinction is still needed to select or safely use the direct receiving pattern. If the pattern and field are already known, apply them directly.
 
 #### C.2.P:4.5 - Rewrite execution modes
 
@@ -290,7 +301,7 @@ The application is complete when the smallest selected product:
 
 1. preserves any E.10 cue or routing result rather than restarting from word taste;
 2. names the recovered kind, relation, or non-use disposition;
-3. hands any remaining relation, naming, publication, evidence, work, decision, or assurance claim to its exact pattern;
+3. hands any remaining relation, naming, publication, evidence, work, decision, or assurance claim to the applicable pattern;
 4. leaves the reader a clear action or stop condition.
 
 Reopen when a replacement head hides another umbrella, a later use adds a material field, the direct receiving pattern changes, or the repair becomes technically exact but hard to use.

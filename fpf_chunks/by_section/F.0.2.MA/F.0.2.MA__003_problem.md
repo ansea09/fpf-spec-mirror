@@ -6,12 +6,12 @@ section_id: "F.0.2.MA:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2.MA/F.0.2.MA__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.0.2.MA — Synthesize and Allocate Method Contributions"
   - "F.0.2.MA:2 — Problem"
-line_start: 118247
-line_end: 118252
+line_start: 125837
+line_end: 125842
 dependencies:
   - "A.3.1.DR"
   - "A.3.1.MR"

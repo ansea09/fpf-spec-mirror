@@ -6,12 +6,12 @@ section_id: "A.6.3.RT.OE:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT.OE/A.6.3.RT.OE__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.3.RT.OE — Construct an Operative Expression"
   - "A.6.3.RT.OE:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 19266
-line_end: 19276
+line_start: 20127
+line_end: 20137
 dependencies:
   - "A.6.3.RT"
   - "B.5.RA"

@@ -6,12 +6,12 @@ section_id: "F.18:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__013_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
   - "F.18:11 — Relations"
-line_start: 126026
-line_end: 126046
+line_start: 134024
+line_end: 134044
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -55,7 +55,7 @@ Coordinates with:
 - `A.2.4` or another direct subject pattern for evidence-use relations; `A.10` for their descriptive provenance and bounded reliance; `B.3` for an actual named assurance claim; `F.10`, `E.10.D2`, and `C.2.1` for status-use, source-use, and description-episteme names;
 - `E.17` for multi-view publication-face and publication-form use;
 - `F.17` only after its current entry accepts the exact F.18 value, kind, card, and sense result and, for reuse between different semantic-context projections, the separate obtaining Bridge, affirmative C.2.1 use claim, and current A.10 or B.3 reliance; otherwise the local NameCard remains sufficient and the public row stays pending;
-- `E.24.PUB` for the separate occurrence, form, carrier, audience, bounded-use, and currentness objects needed when an exact row-episteme edition is actually made available;
+- `E.24.PUB` for the separate occurrence, form, carrier, audience, bounded-use, and currentness objects needed when an exact row-episteme edition is made available;
 - `C.16`, `C.18`, and Part G search patterns when candidate comparison uses Pareto or quality-diversity vocabulary.
 
 Constrained non-use:

@@ -6,12 +6,12 @@ section_id: "C.16:15"
 section_title: "Relations - Placement (Informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__018_relations-placement-informative.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:15 — Relations - Placement (Informative)"
-line_start: 58886
-line_end: 58915
+line_start: 61270
+line_end: 61300
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -63,9 +63,10 @@ keywords:
 
 **Architecture measurement boundary.** `C.32.P2S`, `C.32.PAD`, and `C.32.ADA` may cite C.16 readings only after the characteristic, bearer, scale, coordinate, value, unit when relevant, and admissible use are declared. C.16 readings do not become architecture characteristics, decision criteria, eval programs, evidence, gates, or decision authority by themselves.
 
-**Structural-information measurement boundary.** `C.33`, `C.34`, and `C.35` may name captured structure, lost structure, similarity, preservation, entropy, epiplexity estimate, compression, generated-carrier adequacy, or search-output context. When a claim about any of those uses a value, score, coordinate, threshold, dashboard reading, or eval result, state the measurement construction and admissible-use assertions under the exact C.16 and evaluation/criteria predicates, with their subject patterns used as locators.
+**Structural-information measurement boundary.** `C.33`, `C.34`, and `C.35` may name captured structure, lost structure, similarity, preservation, entropy, epiplexity estimate, compression, generated-carrier adequacy, or search-output context. When a claim about any of those uses a value, score, coordinate, threshold, dashboard reading, or eval result, state the measurement construction and admissible-use assertions under the C.16 and evaluation/criteria predicates, with their subject patterns used as locators.
 
 **Precision-restoration relation.** `C.16.P` is the first-stage wording-use restoration pattern for characteristic, scale, coordinate, score, metric, axis, dimension, and related characterization wording when the measurement object is not yet recoverable. Once the wording is resolved, use C.16 for the measurement-chain question or the pattern for the recovered non-measurement claim.
+
 **C.27 temporal-claim relation.**
 
 - C.27 may flag: a rate/rate-change reading whose admissible use depends on admissible measurement construction, evidence, sampling window, or finite-difference method.
@@ -75,7 +76,7 @@ keywords:
 
 **C.28 causal-use relation.** C.16 governs measurement construction, result interpretation, uncertainty, and direct comparability. C.28 governs the causal-use relation when the same result episteme is used to claim effect, intervention success, causal fairness, policy optimality, counterfactual comparison, off-policy causal evaluation, causal-RL evaluation, or causal method superiority. A C.16-admissible measurement result is therefore not by itself admissible for causal use under C.28.
 
-**Evidence, currentness, and assurance.** Use A.10 and G.6 for source recovery and provenance for the exact method, model, calibration, Work, inputs, result episteme, and later use. Use G.11 for currentness and B.3 when an actual named assurance claim is current. Evidence, provenance, currentness, and assurance do not by themselves establish the C.16 measurement result.
+**Evidence, currentness, and assurance.** Use A.10 and G.6 for source recovery and provenance for the method, model, calibration, Work, inputs, result episteme, and later use. Use G.11 for currentness and B.3 when a named assurance claim is at issue. Evidence, provenance, currentness, and assurance do not by themselves establish the C.16 measurement result.
 
 **Kernel.** MM‑CHR *imports* the canonical Characteristic vocabulary and the CSLC discipline fixed by A.17 and A.18; it does not redefine them. CharacteristicSpace reasoning (for change) lives in the patterns that consume MM‑CHR readings.
 

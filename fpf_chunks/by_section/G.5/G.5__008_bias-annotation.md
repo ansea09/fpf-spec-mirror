@@ -6,12 +6,12 @@ section_id: "G.5:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__008_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.5 — Method-Family Registry, Dispatch and Selected-Set Result Declaration"
   - "G.5:6 — Bias-Annotation"
-line_start: 129748
-line_end: 129758
+line_start: 137800
+line_end: 137810
 dependencies:
   - "C.11"
   - "C.18"
@@ -56,9 +56,9 @@ keywords:
 
 ### G.5:6 - Bias-Annotation
 
-Potential biases and failure modes this pattern explicitly guards against:
+These biases can affect dispatch:
 
-* **Monoculture bias (single Tradition dominance by default).** Mitigation: rows retain an explicit eligibility basis and conditional assurance expectations; public registration adds its stronger records; selection is set‑returning under partial orders; method‑specific policies stay explicit pins rather than hard-coded defaults.
+* **Monoculture bias (single Tradition dominance by default).** Mitigation: rows retain an explicit eligibility basis and conditional assurance expectations; public registration adds its stronger records; selection is set‑returning under partial orders; identify method-specific policies by their pins instead of hard-coding them as defaults.
 * **Hidden scalarisation bias.** Mitigation: set-return semantics is pinned through `G.Core`; dominance regimes are explicit and each default cites one declared governing definition.
 * **“Tool equals method” bias.** Mitigation: notation independence and prohibition of tool keywords in core registry and eligibility fields; tool choices are outside the core.
 * **Cross-sense leakage bias.** Mitigation: when expressions have distinct source-local meanings, require exact F.17 endpoint senses, an obtaining F.9 Bridge, a separate C.2.1 bounded-use proposition, and the matching A.10 or B.3 reliance branch; keep loss and CL visible where material. Crossing pins and bundles remain audit or publication references and cannot make an implicit crossing admissible.

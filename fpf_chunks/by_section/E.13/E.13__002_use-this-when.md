@@ -6,12 +6,12 @@ section_id: "E.13:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.13/E.13__002_use-this-when.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.13 — Pragmatic Utility and Proxy-to-Value Alignment"
   - "E.13:0 — Use This When"
-line_start: 105053
-line_end: 105078
+line_start: 111391
+line_end: 111416
 dependencies:
   - "A.10"
   - "A.21"
@@ -42,7 +42,7 @@ keywords:
 
 Use this pattern when a project treats a visible measure, score, proxy, benchmark, dashboard, quality value, review result, release posture, or evidence volume as if it were the practical value or objective itself.
 
-Typical moments:
+Look for situations such as these:
 
 - a metric improves, but the team cannot say what intended value improved;
 - a quality score, all-`5` posture, assurance level, citation count, source count, or review pass becomes the target;
@@ -50,7 +50,7 @@ Typical moments:
 - a model, method, pattern, or system is formally better while users or operators are worse off, or safety, maintainability, learning, or decision quality worsens;
 - an evaluation loop adds apparatus to satisfy the evaluator instead of improving the object of concern.
 
-**First useful move.** Name the intended value or objective, name the proxy or visible measure, and state how that proxy is being used now: measure, target, incentive, gate, release argument, decision driver, reputation signal, repair target, or orientation cue.
+**First useful move.** Name the intended value or objective and the proxy or visible measure. State how the proxy is used now: measure, target, incentive, gate, release argument, decision driver, reputation signal, repair target, or orientation cue.
 
 **What goes wrong if missed.** The team optimizes the proxy and loses the value. It can produce a better score, cleaner review proof, larger source packet, or more complete record while practical utility gets worse.
 

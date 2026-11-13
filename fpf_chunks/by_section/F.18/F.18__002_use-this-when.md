@@ -6,12 +6,12 @@ section_id: "F.18:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__002_use-this-when.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
   - "F.18:0 — Use This When"
-line_start: 125178
-line_end: 125196
+line_start: 133097
+line_end: 133117
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -56,9 +56,11 @@ Use `F.18` when a name must become stable, public, Core-facing, reusable under m
 
 1. Recover the exact value and the pattern containing its defining or testing rule.
 2. Decide whether ordinary local wording is enough or later use needs a durable name.
-3. If a durable name is needed, compare the plausible names and record the Tech label, any Plain designation needed for a stated didactic use, the selection reason and reopen condition in a `NameCard`.
+3. For a durable name, reuse a current naming settlement that already covers this value and use. Otherwise compare the plausible names and record the Tech label, any Plain designation needed for a stated didactic use, the selection reason and the condition for reconsidering the choice in a `NameCard`.
 
 If bare claim-bearing *role* still hides the object, use `E.10.ROLE`; if relation, slot, interface, port, or signature wording hides it, use section 5.6. Open section 4.4 only for a public, Core-facing, durable-across-context, or cross-context use. A public row is a later result, never part of the first naming move.
 
-For one-off wording repair, use `F.19`. Return to `E.10`, `E.10.ARCH`, `A.6.P`, `A.6.RSIR`, `C.2.P`, or the subject pattern only if the object or claim remains unresolved. Use `F.18` when a reusable name is needed. In particular, say in ordinary words whether one exact Bridge is suitable for one named use; do not create a `NameCard`, public claim kind, or durable CamelCase head merely to abbreviate that C.2.1 claim. Reopen F.18 for that claim only when an independent later use actually needs a reusable name beyond the local statement.
+For one-off wording repair, use `F.19`. Return to `E.10`, `E.10.ARCH`, `A.6.P`, `A.6.RSIR`, `C.2.P`, or the subject pattern only if the object or claim remains unresolved. Use `F.18` when a reusable name is needed.
+
+For example, say in ordinary words whether one exact Bridge is suitable for one named use; do not create a `NameCard`, public claim kind, or durable CamelCase head merely to abbreviate that C.2.1 claim. Reopen F.18 for that claim only when an independent later use needs a reusable name beyond the local statement.
 

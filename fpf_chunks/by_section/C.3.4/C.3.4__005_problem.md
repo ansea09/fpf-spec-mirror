@@ -6,12 +6,12 @@ section_id: "C.3.4:3"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__005_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.3.4 — KindUseAdaptationDeclaration — Tailor the Use of an Existing Kind"
   - "C.3.4:3 — Problem"
-line_start: 55869
-line_end: 55876
+line_start: 58167
+line_end: 58174
 dependencies:
   - "A.2.6"
   - "C.2.1"
@@ -27,7 +27,7 @@ keywords:
 
 1. **Kind sprawl.** Teams mint near-duplicates for every procedure.
 2. **Hidden constraints.** Informal acceptance rules leak into prose and cannot be replayed.
-3. **Scope conflation.** Jurisdiction, API version, or another scope condition is smuggled into kind identity.
+3. **Scope conflation.** Jurisdiction, API version, or another scope condition is treated as part of kind identity.
 4. **Automatic bridge pressure.** A changed source or team is treated as proof of another kind and a bridge.
 5. **Collapsed outcomes.** A non-applicable candidate, unsettled admissible candidate, and guard refusal are reported as one `unknown` or `false` result.
 

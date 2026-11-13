@@ -6,12 +6,12 @@ section_id: "E.18.1:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.18.1 — P2W Problem-to-Work Carry-Through"
   - "E.18.1:1 — Problem frame"
-line_start: 110885
-line_end: 110919
+line_start: 117747
+line_end: 117789
 dependencies:
   - "A.15"
   - "A.15.PROD"
@@ -54,36 +54,44 @@ keywords:
 
 ### E.18.1:1 - Problem frame
 
-Use this pattern when an accepted `ProblemCard@Context` is ready enough to guide work, but the next FPF use is unsettled. Ask which accepted distinction should shape the next question, which relation and participants that question asserts, and what result or stop is needed before the next action.
+Use this pattern when an accepted `ProblemCard@Context` can guide work, but the next FPF use is unsettled. Ask which accepted distinction should shape the next question, which relation and participants that question asserts, and what result or stop is needed before the next action.
 
-Method selection, planning, dated work, actual change, result interpretation, and return remain separate continuations. For each current question, apply the pattern that answers it and carry its result or honest stop.
+Method selection, planning, dated work, actual change, result interpretation, and return remain separate continuations. For each current question, apply the pattern that answers it and carry the result it returns or the reason work on that question must stop.
 
-Keep three objects separate. The **accepted ProblemCard** is the `EntityOfConcern` of a materialized P2W note. The note is identified under `C.2.1` by its ClaimGraph, the accepted card, and its effective reference scheme; its ClaimGraph names the receiving use and designates a separately identified viewpoint or model-use structure only when the claim uses that object and its organization changes how the receiving claim is interpreted. Each cited PatternID locates the Solution passage needed for the question about its **subject EntityOfConcern**. A practitioner or another capable system applies that guidance to the project entity or relation—for example, a System, episteme, Method, Work occurrence, or direct relation. When source wording says *role*, apply E.10.ROLE before treating it as a local system-role kind, separate System-classification judgment, assignment occurrence, participation or functioning relation, ordinary non-use, or missing-governor case. The **compact note, diagram, plan, trace, and publication** are epistemes or publication-side values that describe, constrain, or make those claims inspectable. Later method enactment or dated work can change or preserve a subject EntityOfConcern; improving a P2W note or completing its fields does not establish that subject change, work occurrence, evidence, acceptance, or result.
+Distinguish the accepted ProblemCard, the subjects of the questions answered by the cited patterns, and the materials that describe those claims. The **accepted ProblemCard** is the `EntityOfConcern` of a materialized P2W note. The note is identified under `C.2.1` by its ClaimGraph, the accepted card, and its effective reference scheme; its ClaimGraph names the receiving use and designates a separately identified viewpoint or model-use structure only when the claim uses that object and its organization changes how the receiving claim is interpreted.
 
-**So-what adoption test.** Use P2W only when keeping the accepted distinction changes which relation you assert, what result you write, or whether you continue, split, stop, or return. If the relation and result are already settled and P2W would add only another note, skip P2W and apply the pattern whose Solution answers the current question.
+Each cited PatternID locates the Solution passage needed for the question about its **subject EntityOfConcern**. A practitioner or another capable system applies that guidance to the project entity or relation—for example, a System, episteme, Method, Work occurrence, or direct relation. When source wording says *role*, apply E.10.ROLE before treating it as a local system-role kind, separate System-classification judgment, assignment occurrence, participation or functioning relation, ordinary non-use, or missing-governor case.
 
-E.11.PUA covers a smaller use and may begin without `ProblemCard@Context`: use one selected pattern for one current practical question and reach the smallest useful result that truthfully answers it, or an honest stop. That ordinary use may stop there; name a receiving use only when the enclosing P2W continuation or another actual later use is current. E.18.1 begins only when the wider work-facing continuation depends on preserving accepted problem-side material. PUA may support one pattern inspection inside a P2W flow, but it does not replace the accepted-problem carry-through.
+The **compact note, diagram, plan, trace, and publication** are epistemes or publication-side values that describe, constrain, or make those claims inspectable. Later method enactment or dated work can change or preserve a subject EntityOfConcern; improving a P2W note or completing its fields does not establish that subject change, work occurrence, evidence, acceptance, or result.
+
+**When P2W helps.** Use P2W only when keeping the accepted distinction changes which relation you assert, what result you write, or whether you continue, split, stop, or return. If the relation and result are already settled and another P2W note would add nothing to the decision, apply the pattern whose Solution answers the current question.
+
+E.11.PUA covers a smaller use and may begin without `ProblemCard@Context`: use one selected pattern for one current practical question. Obtain the smallest useful result that answers the question or state why work on it must stop. That ordinary use may stop there; name a receiving use only when the enclosing P2W continuation or another later use is current.
+
+E.18.1 begins only when the wider work-facing continuation depends on preserving accepted problem-side material. PUA may support one pattern inspection inside a P2W flow, but it does not replace the accepted-problem carry-through.
 
 
 #### E.18.1:1.1 - Use this when
 
-- an accepted `ProblemCard@Context` names a working problem and the team needs a disciplined next FPF use toward method, planning, performed work, or result interpretation;
+- an accepted `ProblemCard@Context` names a working problem and the team needs a way to choose its next use of FPF toward method, planning, performed work, or result interpretation;
 - an invariant, `U.Signature(profile=FormalSubstrate)`, `PrincipleFrame`, mechanism-position, method-position, `A.15.2 U.WorkPlan` or plan-item wording cue, performed-work, result-record, or source-currentness cue is present, but the FPF kind or relation to use next is still unsettled;
 - a transformation-flow structure, mathematical path relation in a graph-shaped description, flow diagram, principle scheme, scenario, functional description, or source publication helps the team think, while the next FPF use still lacks an FPF kind or relation named by value;
 - a result artifact, telemetry line, acceptance record, quality-evaluation record, done-state update, feedback pin, or integration claim needs to be unpacked before it can guide the next FPF use.
 
 #### E.18.1:1.2 - What goes wrong if missed
 
-The team jumps from a convincing problem-side formulation into downstream language without naming the FPF relation being used. The work then looks responsive to the accepted problem, but the next record is unclear, the result phrase becomes too broad, and measurement or source-currentness changes have no honest return relation.
+The team jumps from a convincing problem-side formulation into downstream language without naming the FPF relation being used. The work then looks responsive to the accepted problem, but the next record is unclear, the result phrase becomes too broad, and the team has no basis for deciding which earlier uses to reopen when a measurement or source currentness changes.
 
 #### E.18.1:1.3 - What this buys
 
-The practitioner gets one concrete next move: keep the accepted claim in view, state the question and participants, apply the pattern that answers it, and use the result it returns. Split several relation claims before applying their patterns. If the relation or needed facts are missing, keep the cue and stop. If a relied-on result changes, reopen only the continuation that used it. Add the compact note only when another person or later action must replay that path. The accepted problem-side distinction remains useful without becoming hidden permission to start work.
+The practitioner gets one concrete next move: keep the accepted claim in view, state the question and participants, apply the pattern that answers it, and use the result it returns. Split several relation claims before applying their patterns. If the relation or needed facts are missing, keep the cue and stop. If a relied-on result changes, reopen only the continuation that used it.
+
+Add the compact note only when another person or later action must replay that path. The accepted problem-side distinction remains useful without becoming hidden permission to start work.
 
 #### E.18.1:1.4 - Not this pattern when
 
 - there is no accepted problem-side record; use `C.22.2` or the problem-side pattern named by value first;
-- the FPF kind under repair, relation, and record to write are already settled; use that pattern directly and do not add a P2W layer;
+- the FPF kind under repair, relation, and record to write are already settled; use the applicable pattern directly;
 - the requested output is a local project procedure, schedule, or work-management method; use the relevant work, planning, method, gate, or operational-management pattern;
-- the requested record or claim is an evidence case, assurance case, gate record, decision record, architecture description, publication-use claim, or wording-use repair; recover the relation and apply the pattern whose Solution answers that exact evidence, assurance, gate, decision, description, publication-use, or wording question.
+- the requested record or claim is an evidence case, assurance case, gate record, decision record, architecture description, publication-use claim, or wording-use repair; recover the relation and apply the pattern whose Solution answers that evidence, assurance, gate, decision, description, publication-use, or wording question.
 

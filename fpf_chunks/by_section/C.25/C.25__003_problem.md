@@ -6,33 +6,21 @@ section_id: "C.25:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.25/C.25__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.25 — Q-Bundle: Express a Quality Claim as One Characteristic or a Structured Bundle"
   - "C.25:2 — Problem"
-line_start: 64993
-line_end: 65007
+line_start: 67901
+line_end: 67915
 dependencies:
-  - "A.10"
   - "A.15"
-  - "A.16.0"
   - "A.18"
   - "A.2.6"
   - "A.6.1"
   - "B.3"
   - "C.16"
-  - "C.16.P"
   - "C.16.Q"
-  - "C.17"
-  - "C.18"
-  - "C.19"
-  - "C.2.2a"
   - "C.26.3"
-  - "C.33"
-  - "C.34"
-  - "C.35"
-  - "F.9"
-  - "F.9.1"
 keywords:
   - "admissible quality-family use"
   - "characteristic plus scope"
@@ -58,6 +46,6 @@ Without a normal form for engineering quality families:
    Presence of redundancy, certification, or audit controls is described as if it were itself a measurement value.
 4. **Guards become unstable.**
    Admission checks silently mix scope coverage, numerical thresholds, mechanism presence, and evidence freshness in one phrase.
-5. **Evaluative governing-pattern selection remains underspecified.**
+5. **The governing pattern for the quality claim remains unclear.**
    After `C.16.Q` repairs a bare quality term, or `C.16.P` repairs characteristic, scale, score, metric, or proxy wording inside that term, the admissible endpoint is unclear unless FPF distinguishes single-CHR cases from bundle-shaped quality families.
 

@@ -6,12 +6,12 @@ section_id: "C.40.DC:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.DC/C.40.DC__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.40.DC — Construct Directions with Support Configurations"
   - "C.40.DC:7 — Conformance Checklist"
-line_start: 87583
-line_end: 87598
+line_start: 91817
+line_end: 91832
 dependencies:
   - "A.3.1"
   - "A.3.2"
@@ -32,10 +32,10 @@ A conforming direction/support account:
 3. **MUST** preserve established Method/MethodDescription relations when relied on and must not infer them from a title or publication alone.
 4. **MUST** state what makes retained directions materially different and whether their contribution premises are the same or different.
 5. **MUST** identify the finite change, candidate configuration, material supports, prerequisites, constraints, interactions, and transition basis.
-6. **MUST** preserve result, resource, affected-System/distributional, and explicitly protected coordinate families for finite comparison, with each coordinate's declared scale and polarity under a common comparison basis.
+6. **MUST** preserve result, resource, affected-System/distributional, and protected coordinate families for finite comparison, with each coordinate's declared scale and polarity under a common comparison basis.
 7. **MUST** state transition burden, reversibility, and supported or conditional option effects; a later compared step must use its own starting configuration.
 8. **MUST** keep unknown support and ruled-out support different and return the missing owner-qualified result before asserting realizability or joint reachability.
 9. **MUST NOT** claim Pareto improvement when any coordinate in the complete set worsens or its necessary qualification is absent.
 10. **MUST** distinguish a direction or path from a recommendation, choice, programme, Guide, performed Work, or observed effect.
-11. **SHOULD** retain a serious baseline, smaller repair, or no-change alternative and stop when the next missing result belongs elsewhere.
+11. **SHOULD** retain a baseline, smaller repair, or no-change alternative when it answers the inquiry, and stop when the next missing result belongs elsewhere.
 

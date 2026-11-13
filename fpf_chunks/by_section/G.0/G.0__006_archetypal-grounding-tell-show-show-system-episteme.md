@@ -6,12 +6,12 @@ section_id: "G.0:5"
 section_title: "Archetypal Grounding — Tell–Show–Show; System / Episteme"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.0/G.0__006_archetypal-grounding-tell-show-show-system-episteme.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.0 — Define Admissible Comparison and Aggregation for a Frame (CG-Spec)"
   - "G.0:5 — Archetypal Grounding — Tell–Show–Show; System / Episteme"
-line_start: 127101
-line_end: 127129
+line_start: 135151
+line_end: 135179
 dependencies:
   - "A.10"
   - "A.17"
@@ -63,7 +63,7 @@ keywords:
 **Show (repair with CG‑Spec).** A conformant `CG‑Spec`:
 
 * pins the lawful comparator(s) (e.g., unit-aligned ratio comparisons only; ordinal comparisons are order-only),
-* declares `MinimalEvidence` lanes/carriers and freshness windows per characteristic,
+* declares the `MinimalEvidence` lanes and carriers for each characteristic, together with the freshness windows used in this lab comparison,
 * declares explicit failure behavior wiring (tri-state semantics delegated to `G.Core`),
 * exposes Bridge and bounded-use pins when reuse projects between different local meanings under A.19.CN/F.9; unit conversion within the declared comparison basis follows CN-Spec and SCP,
 * publishes the pinned editions so parity/refresh can detect drift.

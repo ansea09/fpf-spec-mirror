@@ -6,12 +6,12 @@ section_id: "B.2.5:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.5/B.2.5__005_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.2.5 — Supervisor-Subholon Feedback Relation"
   - "B.2.5:3 — Forces"
-line_start: 44663
-line_end: 44672
+line_start: 46475
+line_end: 46484
 dependencies:
   - "A.1"
   - "A.10"

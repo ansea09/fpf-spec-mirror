@@ -6,12 +6,12 @@ section_id: "B.4:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4/B.4__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.4 — Coordinate Repeated Adaptation (Canonical Evolution Loop)"
   - "B.4:1 — Problem Frame"
-line_start: 45806
-line_end: 45809
+line_start: 47694
+line_end: 47697
 dependencies:
   - "A.12"
   - "A.15.1"
@@ -26,5 +26,5 @@ keywords:
 
 ### B.4:1 - **Problem Frame**
 
-The FPF is built on the **Principle of Open-Ended Evolution (P-10)**: continued use can reveal reasons to adapt a System, an episteme, a Method, or a description. The useful commonality is a repeated move from use through an observed basis and an explicit change back to use. The identity question is not common. The same subject may continue through a change, a successor may be identified, or later dated Work may be a distinct occurrence rather than a revision of earlier Work. Use the relevant subject pattern to settle that distinction or retain the open continuity question while coordinating the next needed contribution.
+The FPF is built on the **Principle of Open-Ended Evolution (P-10)**: continued use can reveal reasons to adapt a System, an episteme, a Method, or a description. The useful commonality is a repeated move from use through an observed basis and an explicit change back to use. The identity question is not common. The same subject may continue through a change, a successor may be identified, or later dated Work may be a distinct occurrence rather than a revision of earlier Work. Use the subject pattern to settle that distinction or retain the open continuity question while coordinating the next needed contribution.
 

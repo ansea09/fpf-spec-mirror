@@ -6,12 +6,12 @@ section_id: "B.1.5.EW:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5.EW/B.1.5.EW__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.1.5.EW — Recover How Constituent Actions Enact Encompassing Work"
   - "B.1.5.EW:1 — Problem frame"
-line_start: 42568
-line_end: 42577
+line_start: 44274
+line_end: 44283
 dependencies:
   - "A.15.1"
   - "A.22.CGUS"
@@ -30,5 +30,5 @@ Start with one action and ask: **“What am I doing through this action now, and
 
 The first useful result is an explanation you can use: the selected action, its relevant constituents and encompassing work, the connections that make the whole possible, and any difference that requires changing the action or its organization. A short demonstration can supply this result. A retained diagram or record is useful only when someone needs it later.
 
-Use an already understood connection directly. This pattern does not require reanalysing every familiar act or finding the smallest possible action and largest conceivable whole. Stop where further detail would not change the present performance, learning, division of work or correction. Use B.1.5 when the separate question is whether identified Methods qualify as one composite Method; use C.32.MWA when several structures need to be synthesized into a practice architecture.
+Use an already understood connection. This pattern does not require reanalysing every familiar act or finding the smallest possible action and largest conceivable whole. Stop where further detail would not change the present performance, learning, division of work or correction. Use B.1.5 when the separate question is whether identified Methods qualify as one composite Method; use C.32.MWA when several structures need to be synthesized into a practice architecture.
 

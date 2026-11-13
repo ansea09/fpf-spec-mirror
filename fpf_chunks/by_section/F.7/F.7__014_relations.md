@@ -6,12 +6,12 @@ section_id: "F.7:13"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.7/F.7__014_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.7 — Display Source-Local Comparisons in a Concept-Set Table"
   - "F.7:13 — Relations"
-line_start: 120687
-line_end: 120702
+line_start: 128341
+line_end: 128356
 dependencies:
   - "A.6.9"
   - "B.3"
@@ -44,7 +44,7 @@ keywords:
 - Use **F.1** for the exact source cut and receiving question, and use **F.2** and **F.3** for exact expressions and source-local claims.
 - Use **F.17** only when durable local-meaning addresses are needed.
 - Use **F.5** for selected designations without making them the values being named.
-- Use **F.9** to define and test a relation between exact local meanings and to state the separate bounded-use claim when that is the actual relation family. A table creates none of these facts.
+- When the relation is between distinct source-local meanings, use **F.9** to define and test it for those meanings and to state the separate bounded-use claim. A table creates none of these facts.
 
 **Constrains:**
 

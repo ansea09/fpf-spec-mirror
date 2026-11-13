@@ -6,12 +6,12 @@ section_id: "B.5.2:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2/B.5.2__013_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.5.2 — Generate and Compare Candidate Explanations (Abductive Loop)"
   - "B.5.2:12 — Relations"
-line_start: 49730
-line_end: 49743
+line_start: 51792
+line_end: 51805
 dependencies:
   - "A.10"
   - "A.16"
@@ -30,12 +30,12 @@ keywords:
 - **Supplies explanation-led abduction within:** B.5's hypothesis-led empirical inquiry, before deduction and induction.
 - **Typically operates during:** `B.5.1 Exploration`.
 - **Consumes:** `U.AbductivePrompt` publications from `B.5.2.0`, often reached through `B.4.1` and `A.16`.
-- **Returns:** a hypothesis-bearing `U.Episteme` with explicit conjectural content, supports, fragilities and allowed use when a conjecture is selected; otherwise the justified abort, defer or split outcome.
+- **Returns:** a hypothesis-bearing `U.Episteme` with conjectural content, supports, fragilities and allowed use when a conjecture is selected; otherwise the justified abort, defer or split outcome.
 - **Provides inputs for:** deduction, probe design and evidence synthesis when those questions are live. C.11 governs a separate feasible-action or acquisition choice; C.28 supplies needed causal-use support. Naming a possible experiment does not by itself fund or schedule its performance.
 - **Uses:** C.28.CM when causal mechanisms and alternatives must be constructed before their implications can inform the plausibility comparison.
 - **Coordinates with:** `A.22.CGUS` when the abductive prompt, `B.4.1` cue publication, rival hypotheses, plausibility constraints, evidence-return loci, and downstream tests must be inspected as an `AbductiveSearchUnfoldingStructure`.
 
 #### B.5.2:12.1 - Prompt-entry broadening via `U.AbductivePrompt`
 
-`B.5.2` accepts `U.AbductivePrompt`. `AnomalyStatement` is one canonical species alongside cue-derived prompt species such as `ProblemCuePrompt`, `OpportunityCuePrompt`, and `ProbeCuePrompt`.
+`B.5.2` accepts `U.AbductivePrompt`. `AnomalyStatement` is one species alongside cue-derived prompt species such as `ProblemCuePrompt`, `OpportunityCuePrompt`, and `ProbeCuePrompt`.
 

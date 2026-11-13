@@ -6,12 +6,12 @@ section_id: "F.2:2"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.2/F.2__003_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.2 — Source-Local Term Harvesting & Normalisation"
   - "F.2:2 — Problem Frame"
-line_start: 119063
-line_end: 119072
+line_start: 126662
+line_end: 126671
 dependencies:
   - "A.11"
   - "A.7"
@@ -37,7 +37,7 @@ Three mistakes recur even after the right sources are selected:
 
 1. **Word-centrism.** A string such as *process*, *role*, or *service* is treated as though it carried one meaning everywhere.
 2. **Over-normalisation.** Spelling or morphology is forced into a house style and source-specific cues disappear.
-3. **Premature structure.** A short lexical note quietly acquires behavioural, deontic, measurement, or kind claims that the source passage does not establish.
+3. **Premature structure.** A short lexical note acquires behavioural, deontic, measurement, or kind claims that the source passage does not establish.
 
 F.2 prevents these mistakes by tying each expression and local-sense claim to the exact source basis that supports it.
 

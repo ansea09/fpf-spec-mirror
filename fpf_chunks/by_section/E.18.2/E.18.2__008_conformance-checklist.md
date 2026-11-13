@@ -6,12 +6,12 @@ section_id: "E.18.2:5"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.2/E.18.2__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.18.2 — Transformation Flow Mathematical Description"
   - "E.18.2:5 — Conformance checklist"
-line_start: 111623
-line_end: 111635
+line_start: 118607
+line_end: 118619
 dependencies:
   - "A.10"
   - "A.15"
@@ -43,9 +43,9 @@ keywords:
 - `CC-E18.2-3` The mathematical expression family is named without minting a new U-kind.
 - `CC-E18.2-4` Preserved structure, lost structure, declared use, and boundary stop are named when the expression is claim-bearing.
 - `CC-E18.2-5` C.29 is used when mathematical-lens adequacy, payoff, obstruction, preserved/lost structure, or stop condition is being evaluated beyond the local description relation.
-- `CC-E18.2-6` Graph, path, slice, morphism, algebra, category, tuple, quotient, fold, refinement, factorization, wiring, and network-expression language stays mathematical-description language unless the practitioner has independently selected the ontic subject by applying E.18 or E.18.NET.
+- `CC-E18.2-6` Graph, path, slice, morphism, algebra, category, tuple, quotient, fold, refinement, factorization, wiring, and network-expression language can describe the selected subject mathematically. To assert which ontic structure or network is selected, identify it independently using E.18 or E.18.NET.
 - `CC-E18.2-7` No mathematical expression proves work occurrence, authorizes action, passes a gate, settles evidence, or establishes architecture adequacy by itself.
 - `CC-E18.2-8` A rendered graph, table, equation, diagram, or other publication face remains separate from the mathematical description and is handled through `E.17`; changing it alone reidentifies neither the description nor its selected TFS or network subject.
-- `CC-E18.2-9` When selected TFS, selected network, work, method, mechanism, signature, evidence, gate, decision, architecture, function, module-interface, or reusable-structure claims are current, apply the exact contribution named for that claim in §4.4 and keep the result it returns. E.18.2 records only the mathematical-description relation for one already selected ontic subject.
+- `CC-E18.2-9` When selected TFS, selected network, work, method, mechanism, signature, evidence, gate, decision, architecture, function, module-interface, or reusable-structure claims are current, apply the contribution named for that claim in §4.4 and keep the result it returns. E.18.2 records only the mathematical-description relation for one already selected ontic subject.
 - `CC-E18.2-10` Distinguish the claims carried by a source expression or publication face by their current EntityOfConcern and relation position. Keep separate records when the receiving use needs their independent identity or reconstruction.
 

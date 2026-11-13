@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.10.LRN"
-pattern_title: "Recovering What “Learning” Means in the Current Claim"
+pattern_title: "Recover What “Learning” Means in This Claim"
 section_id: "E.10.LRN:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.LRN/E.10.LRN__012_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "E.10.LRN — Recovering What “Learning” Means in the Current Claim"
+  - "E.10.LRN — Recover What “Learning” Means in This Claim"
   - "E.10.LRN:10 — Rationale"
-line_start: 100794
-line_end: 100799
+line_start: 106442
+line_end: 106447
 dependencies:
   - "A.10"
   - "A.15"
@@ -49,5 +49,5 @@ keywords:
 
 The recurring transdisciplinary problem is lexical recovery, not a common learning substance. The same bounded action applies across these cases: recover who or what changed, separate Work and Method from result, state evidence and any action-changing transfer boundary, split unlike claims, and route each claim to its owner. That action changes practice while leaving every substantive ontology and Method with its direct pattern.
 
-This also explains the UTS decision. Familiar spelling is insufficient for one `UnifiedTermRow`. A durable public row is considered only for an independently governed value after its own naming and use tests; the umbrella word creates neither that value nor a Bridge among the branches.
+Familiar spelling is insufficient for one `UnifiedTermRow`. A durable public row is considered only for an independently governed value after its own naming and use tests. The umbrella word creates neither that value nor a Bridge among the branches.
 

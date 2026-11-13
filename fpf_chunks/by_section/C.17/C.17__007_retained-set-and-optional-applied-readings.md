@@ -6,28 +6,22 @@ section_id: "C.17:5"
 section_title: "Retained-set and optional applied readings"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__007_retained-set-and-optional-applied-readings.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.17 — Characterising Generative Novelty and Value"
   - "C.17:5 — Retained-set and optional applied readings"
-line_start: 60752
-line_end: 60798
+line_start: 63164
+line_end: 63210
 dependencies:
-  - "A.0"
   - "A.1.1"
   - "A.10"
-  - "A.13"
   - "A.15.1"
-  - "A.15.2"
   - "A.17"
   - "A.18"
   - "A.19"
   - "A.19.ECS"
-  - "A.2.1"
   - "A.3.1"
   - "A.3.2"
-  - "A.6.1"
-  - "B.1.6"
   - "B.3"
   - "B.4"
   - "C.11"
@@ -63,7 +57,7 @@ keywords:
 - take the average pairwise distance among the admitted members under one declared descriptor map, distance Method, and Scale; or
 - report how much of a declared feature partition is covered, using a stated covering radius or k-cover rule.
 
-Neither construction is universal. The result identifies the retained set and membership rule, measurement-policy and Scale editions, descriptor or feature source editions, distance or covering definition, comparison window, and evidence. A distance matrix or coverage map can show the calculation. When sensitivity to the kernel, distance definition, covering threshold or admitted-member set can change the receiving decision, use an adequate existing analysis or make the needed comparison and report its consequence. Keep a result on a fixed basis qualified by that basis; claim robustness only with grounds for it.
+The result identifies the retained set and membership rule, measurement-policy and Scale editions, descriptor or feature source editions, distance or covering definition, comparison window, and evidence. A distance matrix or coverage map can show the calculation. When sensitivity to the kernel, distance definition, covering threshold or admitted-member set can change the receiving decision, use an adequate existing analysis or make the needed comparison and report its consequence. Keep a result on a fixed basis qualified by that basis; claim robustness only with grounds for it.
 
 For a candidate `h` and retained set `S`, the same local policy may use the marginal reading `DeltaDiversity_P`, also written `ΔDiversity_P`:
 
@@ -78,26 +72,26 @@ Optional retained-set readings include:
 - `AliasRisk`: a near-duplicate or alias diagnostic with collision policy, descriptor source edition, and Scale;
 - `DescriptorVector`: an optional descriptor payload whose dimensions and interpretation the same local policy declares.
 
-These readings characterize the named set. They do not admit sources, select members, establish universality, or widen applicability. For naming candidate sets, apply `F.18`'s head-term-family anti-inflation rule rather than restating that lexical rule here.
+These readings characterize the named set. They do not admit sources, select members, or widen applicability. For naming candidate sets, apply `F.18`'s head-term-family anti-inflation rule.
 
 #### C.17:5.2 - Optional applied characteristics
 
-The following are executable local examples, not required universal templates. Use one only when the receiving question needs it and identify its bearer, rule, Scale, and evidence.
+The following are executable local examples. Use one only when the receiving question needs it and identify its bearer, rule, Scale, and evidence.
 
 - **`ReframeDelta`.** The bearer is an ordered pair of problem-frame epistemes. One local rule compares the earlier and later frame on an ordinal Scale such as `None | Local | BoundaryShift | Systemic`; a boundary or scope diff and a changed causal map support the reading. The frame change does not by itself prove improvement, so state Use-Value separately.
 - **`Compositionality`.** The bearer is the design or episteme being assessed. One local rule requires reuse of at least a declared number of components and evidence of at least one new relation among them; it may return a boolean plus a separately defined structure reading. Cite the component graph and component provenance.
-- **`Transferability`.** The bearer is the design, result, or episteme whose use is tested in one named receiving setting. One local ordinal Scale is `not supported | supported with stated loss | supported for the stated use`. Cite receiving-use pilot evidence and the preserved and lost meaning; use an F.9 Bridge only when a relation between different reference-scheme senses actually obtains.
+- **`Transferability`.** The bearer is the design, result, or episteme whose use is tested in one named receiving setting. One local ordinal Scale is `not supported | supported with stated loss | supported for the stated use`. Cite receiving-use pilot evidence and the preserved and lost meaning; use an F.9 Bridge only when a relation between different reference-scheme senses obtains.
 - **`DiversityOfSearch`.** The bearer is a finite set of dated Work attempts. Count distinct approach classes under a declared local typology, optionally as a rate over a stated time window, and cite the tagged Work and typology. Cosmetic variants do not create new classes.
 - **`Time-to-First-Viable`.** The bearer is one Work episode. Measure elapsed time from a declared start to the first dated result that passes the stated viability criterion; cite the timestamps and passing evidence. If no result passed, report `not yet obtained` or a right-censored duration rather than the time to the first runnable output.
 - **`Risk-BudgetedExperimentation`.** Compare the applicable WorkPlan with the resulting dated Work set. One local rule reports planned exploratory resource use divided by the allowed risk budget and the realized ratio separately, with any overrun visible. Cite the WorkPlan, actual Work, and resource evidence; the reading does not grant the budget or authorize the Work.
 
-These examples do not create another universal characteristic family. Readings about actual attempts, elapsed time, or realized experimentation depend on dated Work; planned experimentation depends on a WorkPlan.
+Readings about actual attempts, elapsed time, or realized experimentation depend on dated Work; planned experimentation depends on a WorkPlan.
 
 #### C.17:5.3 - Other domain characteristics
 
 The six applied readings above are examples, not the extension boundary. A configuration may select other Characteristics already established for the current use—for example, time or cost to probe, evidence sufficiency, safety or ethical risk, option value, or regret risk. Keep each selected Characteristic's bearer, Scale, polarity, defining source, Method, and evidence. A safety or ethical must remains an eligibility condition through ConstraintFit; evidence sufficiency does not become creativity; and scope does not become another coordinate merely because every claim needs one.
 
-When one comparison covers several components, attempts, or Work occurrences, identify the lawful aggregation separately for each Characteristic. For example, compatible costs may sum, all declared must-constraints may have to pass, a domain risk rule may use its own conservative combination, and evidence may be combined for a named assurance claim under `B.3`. These are examples, not C.17 defaults. If no declared aggregation supports the combined reading, keep the component results separate.
+When one comparison covers several components, attempts, or Work occurrences, identify the lawful aggregation separately for each Characteristic. For example, compatible costs may sum, all declared must-constraints may have to pass, a domain risk rule may use its own conservative combination, and evidence may be combined for a named assurance claim under `B.3`. If no declared aggregation supports the combined reading, keep the component results separate.
 
-Any prior or default used for Novelty, evidence, risk, or another selected reading remains a separately supported model or policy claim with its source and edition. C.17 does not publish domain priors merely because a reusable configuration is convenient.
+Any prior or default used for Novelty, evidence, risk, or another selected reading remains a separately supported model or policy claim with its source and edition.
 

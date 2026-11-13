@@ -6,12 +6,12 @@ section_id: "E.18.2:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.2/E.18.2__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.18.2 — Transformation Flow Mathematical Description"
   - "E.18.2:2 — Problem"
-line_start: 111491
-line_end: 111498
+line_start: 118457
+line_end: 118464
 dependencies:
   - "A.10"
   - "A.15"
@@ -38,9 +38,9 @@ keywords:
 
 ### E.18.2:2 - Problem
 
-Transformation-flow structures are often easiest to inspect through mathematics. A graph can expose dependency and reachability, a category can expose composition, a quotient can expose coarser structure, a fold can expose aggregation, a refinement can expose lost detail, a wiring expression can expose interface placement, and a tuple can make slot positions explicit.
+Transformation-flow structures are often easiest to inspect through mathematics. A graph can show dependency and reachability, a category can show composition, and a quotient can show coarser structure. A fold can reveal aggregation and a refinement can reveal lost detail. A wiring expression can show interface placement, and a tuple can make slot positions explicit.
 
-Those expressions are useful because they preserve selected structure while ignoring other structure. That same usefulness creates risk. If the expression is treated as the structure itself, the project may believe that a path in a graph proves a possible performed-work order, that a commutative square proves a real bridge, that a fold proves safe aggregation, or that a wiring diagram proves integration readiness.
+Those expressions are useful because they preserve selected structure while ignoring other structure. If the expression is treated as the structure itself, the project may believe that a path in a graph proves a possible performed-work order, that a commutative square proves a real bridge, that a fold proves safe aggregation, or that a wiring diagram proves integration readiness.
 
-E.18.2 solves the description problem: it records a mathematical expression over one already selected E.18 TFS or E.18.NET network and says what that expression may be used for. It does not select or reidentify that world-side subject, decide an atomic transformation, establish a work occurrence, pass a gate, settle an evidence case, or establish an architecture claim.
+Use E.18.2 to record a mathematical expression over one already selected E.18 TFS or E.18.NET network and state what that expression may be used for. This description does not select or reidentify that world-side subject, decide an atomic transformation, establish a work occurrence, pass a gate, settle an evidence case, or establish an architecture claim.
 

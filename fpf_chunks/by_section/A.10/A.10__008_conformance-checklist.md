@@ -6,12 +6,12 @@ section_id: "A.10:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10/A.10__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.10 — Evidence Graph Referring: Claim-Bound Evidence and Provenance Graph"
   - "A.10:6 — Conformance Checklist"
-line_start: 26997
-line_end: 27009
+line_start: 28019
+line_end: 28031
 dependencies:
   - "A.10"
   - "A.13"
@@ -60,6 +60,6 @@ keywords:
 6. **Result boundary:** domain result, result episteme, carrier, provenance entry, outcome, and later action remain distinct.
 7. **Graph boundary:** every asserted edge names an independently established direct relation; no edge establishes work, participation, production, result, currentness, reliance, or representation by graph membership.
 8. **Time/currentness:** edition, window, supersession, revocation, source order, and G.11 result are explicit when they affect use.
-9. **Reliance:** bounded use and local `RelianceDisposition` are present. A live rival and stop/reopen condition are included when they affect reliance; any unsupported-use guard satisfies §4.4's full F.19 test. B.3 opens only for an actual named assurance claim.
+9. **Reliance:** bounded use and local `RelianceDisposition` are present. A live rival and stop/reopen condition are included when they affect reliance; any unsupported-use guard satisfies §4.4's full F.19 test. B.3 opens only for a named assurance claim.
 10. **Contest/privacy:** the affected party can challenge the claim and disposition, while sensitive carrier access is minimized without erasing recoverability.
 

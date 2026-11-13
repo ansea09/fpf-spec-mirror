@@ -6,12 +6,12 @@ section_id: "F.8:14"
 section_title: "Didactic Memory"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__017_didactic-memory.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision for a Name"
   - "F.8:14 — Didactic Memory"
-line_start: 121174
-line_end: 121177
+line_start: 128844
+line_end: 128847
 dependencies:
   - "A.11"
   - "A.15"
@@ -62,5 +62,5 @@ keywords:
 
 ### F.8:14 - Didactic Memory
 
-Name the subject and use before judging the word. Try the light naming ladder and stop at the first sufficient result. An unsettled U-kind goes to E.24.UK before naming; an accountable decision opens §4.5 only when the decision occurrence itself must be used. A name, card, row, identifier, publication, or record creates neither the subject nor any relation or authority it mentions.
+Name the subject and use before judging the word. Use the lightest treatment justified for the use. Compare alternatives when their adequacy could change that choice. An unsettled U-kind goes to E.24.UK before naming; an accountable decision opens §4.5 only when the decision occurrence itself must be used. A name, card, row, identifier, publication, or record creates neither the subject nor any relation or authority it mentions.
 

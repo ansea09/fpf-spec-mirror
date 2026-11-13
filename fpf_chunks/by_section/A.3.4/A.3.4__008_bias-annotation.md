@@ -6,12 +6,12 @@ section_id: "A.3.4:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4/A.3.4__008_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.3.4 — U.Transformation: Actual Bounded Change Under Conditions"
   - "A.3.4:6 — Bias-Annotation"
-line_start: 13252
-line_end: 13255
+line_start: 13697
+line_end: 13700
 dependencies:
   - "A.1"
   - "A.10"

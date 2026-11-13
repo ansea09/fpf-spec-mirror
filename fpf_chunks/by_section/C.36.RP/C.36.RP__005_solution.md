@@ -6,12 +6,12 @@ section_id: "C.36.RP:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.RP/C.36.RP__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.36.RP — Sustain and Renew Shared Ways of Working"
   - "C.36.RP:4 — Solution"
-line_start: 90924
-line_end: 90994
+line_start: 95404
+line_end: 95474
 dependencies:
   - "B.5.MPC"
   - "B.5.RA"
@@ -39,7 +39,7 @@ These are dependencies of the work. An available demonstration, tool or newly di
 
 Name a situation in which participants need to obtain or apply knowledge, make something, intervene, decide or investigate. Identify what has changed or what discovery could open useful work. Take an existing example, a recent failure or an intended variation that makes the need concrete.
 
-For a continuing activity, recover which result must still be obtainable and what the receiver must be able to do with it. For development, identify the promising construction or operation and an attainable way to explore it. A present clue can justify retaining a method before its eventual application is known.
+For a continuing activity, recover which result must be obtainable and what the receiver must be able to do with it. For development, identify the promising construction or operation and an attainable way to explore it. A present clue can justify retaining a method before its eventual application is known.
 
 Bound the effort by this use. If the existing arrangement already supplies the needed contribution, use it and stop. A suspected limitation matters here when it can change the receiving work or a selected development opportunity.
 
@@ -86,13 +86,13 @@ If an action requires another participant's agreement or access to a controlled 
 
 Perform the receiving work when implementation is part of the assignment. Have the receiver interpret and use the contribution under the conditions that matter there. A changed device, requested result or available resource can reveal whether the method supports the intended adaptation.
 
-Compare the result with the question that led to this work. If the result is usable, continue the activity it enables. If it fails, locate the missing operation, interpretation, access or capability and repair that part. Reuse contributions whose conditions still hold.
+Compare the result with the question that led to this work. If the result is usable, continue the activity it enables. If it fails, locate the missing operation, interpretation, access or capability and repair that part. Reuse contributions whose conditions hold.
 
 A proposal can finish by explaining the selected arrangement and what remains to be carried out. Report an achieved transfer from the receiving use that occurred. For a claim that the method persisted across participants or over time, C.36 supplies the corresponding cultural-relation question and the observations that support it.
 
 #### C.36.RP:4.6 - Keep the means of renewal available
 
-Retain a way for later participants to obtain the method and its useful explanation. This can be through colleagues, teaching, a maintained tool, accessible source material or a combination. The choice follows the actual continuity problem.
+Retain a way for later participants to obtain the method and its useful explanation. This can be through colleagues, teaching, a maintained tool, accessible source material or a combination. The choice follows the continuity problem.
 
 When development is wanted, use a consequential variation to open the next question. Change a premise, recipient, constraint or operation; examine the result through C.40. Preserve useful material and the means of further variation. C.18 supports an exploration archive; C.19 helps choose which directions in an active search pool to continue, retain or stop.
 

@@ -6,12 +6,12 @@ section_id: "F.8:9"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__012_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision for a Name"
   - "F.8:9 — Common Anti-Patterns and How to Avoid Them"
-line_start: 121082
-line_end: 121097
+line_start: 128752
+line_end: 128767
 dependencies:
   - "A.11"
   - "A.15"
@@ -71,8 +71,8 @@ keywords:
 | Alias with payload | An alias changes kind, scope, occurrence identity, use, or authority. | Treat it as a different decision; use `F.5`, `F.13`, and `F.18`. |
 | Source prestige minting | A standard or framework term becomes the selected FPF name by prestige. | Keep it as source wording, evidence for a local sense, or an alias until the subject and naming use are recovered and a designation is selected. |
 | Review label as context | `PatternReview_2026` is used as context, Work, system-role assignment, evidence, or authority. | Recover the dated Work, plan or edition, decision-use claim, or naming ReferenceScheme needed by the assertion. |
-| Decision identifier or record as decision | An identifier or filled record is treated as the decision occurrence or as creating its result. | Recover the occurrence through the decision or choice pattern, predicate, actual participants, applicability, and identity rule that establish it. If none is available, return `missing-governor`; constitute a separate C.2.1 result episteme only when needed. |
-| Naming-object cascade | One expression automatically gets a cell, NameCard, row, identifier, and publication. | Apply F.14 at every gate and create only the next object whose receiving use pays for it. |
+| Decision identifier or record as decision | An identifier or filled record is treated as the decision occurrence or as creating its result. | Recover the occurrence through the decision or choice pattern, predicate, actual participants, applicability, and identity rule that establish it. If the occurrence cannot be established, give the applicable outcome under §4.5. Constitute a separate C.2.1 result episteme only when needed. |
+| Naming-object cascade | One expression automatically gets a cell, NameCard, row, identifier, and publication. | Use an already justified treatment. When the choice is unsettled, compare alternatives under F.14 and create a further naming object only if its use warrants it. |
 | U-kind comfort minting | A new U-kind is proposed because existing names feel awkward, and F.8 is asked to name or admit it. | Return `blockOrLowerUse`; recover the object through E.24.CD when needed, let E.24.UK settle admission, and reopen naming only for the object named by that stable result. |
-| Policy identifier as magic word | An identifier is used without a separately resolvable specification, or its mint history is called accountable, cited, replayable, normative, or reusable across the local boundary without an occurrence basis. | Supply the specification for every identifier. For the stronger history claim, supply its direct occurrence basis or return `missing-governor`; a merely local non-accountable identifier does not manufacture one. |
+| Policy identifier as magic word | An identifier is used without a separately resolvable specification, or its mint history is called accountable, cited, replayable, normative, or reusable across the local boundary without an occurrence basis. | Supply the specification for every identifier. For the stronger history claim, supply its direct occurrence basis or give the applicable §4.5 outcome. Ordinary local use requires the specification and local scope. |
 

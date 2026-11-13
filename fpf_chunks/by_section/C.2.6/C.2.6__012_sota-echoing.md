@@ -6,12 +6,12 @@ section_id: "C.2.6:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.6/C.2.6__012_sota-echoing.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.2.6 — Sources, Evidence and Conditions for Using an Episteme"
   - "C.2.6:11 — SoTA-Echoing"
-line_start: 54208
-line_end: 54217
+line_start: 56449
+line_end: 56458
 dependencies:
   - "A.10"
   - "A.16"
@@ -47,7 +47,7 @@ The following sources contribute particular distinctions and alternatives for th
 
 | Source and status | Contribution and boundary |
 |---|---|
-| [Hutchins, *How a Cockpit Remembers Its Speeds* (1995)](https://pages.ucsd.edu/~c8johnson/COGS102B/Hutchins95.pdf), historical account, pp.13–16 | Coordinated instrument settings, spoken reports and pilot actions show why the actual working connections matter. This supports recovery of operator interaction and its conditions. |
+| [Hutchins, *How a Cockpit Remembers Its Speeds* (1995)](https://pages.ucsd.edu/~c8johnson/COGS102B/Hutchins95.pdf), historical account, pp.13–16 | Coordinated instrument settings, spoken reports and pilot actions show why the working connections matter. This supports recovery of operator interaction and its conditions. |
 | [W3C PROV-DM (2013)](https://www.w3.org/TR/prov-dm/#term-Derivation), §§2.2.1.2 and 5.2.1, stable provenance comparator | Derivation exposes the entities, activity, usage and generation involved. Such explicit relations preserve the dependency needed to inspect where a result came from. |
 | [Fraser-Taliente et al., *Natural Language Autoencoders* (2026)](https://transformer-circuits.pub/2026/nla/index.html), Method and Discussion | Activation verbalization distinguishes model-state input from its textual explanation. Reported confabulations require a separate basis for the explanation's claims; identification of the input establishes the source connection only. |
 | [Denamganaï (October 2026)](https://arxiv.org/html/2610.18727v1), §§6.2–7, exploratory preprint | In limited transcript-level tests, activation identification and true-account discrimination differ. This reinforces the boundary between recovering a source connection and warranting an interpretation; processing-level claims remain untested. |

@@ -6,12 +6,12 @@ section_id: "A.16.1:15"
 section_title: "Migration and Extension Notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__016_migration-and-extension-notes.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.16.1 — PreArticulationCuePack: Preserve an Early Cue Before Choosing Its Use"
   - "A.16.1:15 — Migration and Extension Notes"
-line_start: 34058
-line_end: 34065
+line_start: 35538
+line_end: 35545
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -39,8 +39,8 @@ keywords:
 ### A.16.1:15 - Migration and Extension Notes
 
 #### A.16.1:15.1 - Migration from vague cue or signal language
-Source prose often says merely "there is a signal" or "something suggests possible work". A conforming migration first asks whether the source is truly signal-like in the narrow telemetry or trace sense, or whether the load-bearing phenomenon is a broader cue nucleus, work-possibility hint, reliance-possibility hint, contrast, or figure-against-background shift. It then makes the cue nucleus and its grounds explicit, naming a primary witness or anchor when one carries the preservation need. Include route-candidate hints only when already visible.
+Source prose often says merely "there is a signal" or "something suggests possible work". A conforming migration first asks whether the source is signal-like in the narrow telemetry or trace sense, or whether the load-bearing phenomenon is a broader cue nucleus, work-possibility hint, reliance-possibility hint, contrast, or figure-against-background shift. It then makes the cue nucleus and its grounds explicit, naming a primary witness or anchor when one carries the preservation need. Include route-candidate hints only when already visible.
 
 #### A.16.1:15.2 - Local extension rule
-Contexts may add local cue-pack fields only if they remain preservation aids rather than covert route-decision or endpoint semantics.
+Contexts may add local cue-pack fields only if they remain preservation aids rather than route-decision or endpoint semantics.
 

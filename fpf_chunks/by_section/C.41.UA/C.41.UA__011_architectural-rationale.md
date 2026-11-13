@@ -6,12 +6,12 @@ section_id: "C.41.UA:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.UA/C.41.UA__011_architectural-rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.41.UA — Use a Checklist to Answer Questions and Act on the Results"
   - "C.41.UA:10 — Architectural Rationale"
-line_start: 89641
-line_end: 89646
+line_start: 93909
+line_end: 93914
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -24,7 +24,7 @@ keywords:
 
 ### C.41.UA:10 - Architectural Rationale
 
-Question selection and checker qualification happen at different scopes from an actual answer. Repeating them in every use wastes effort; omitting them when their premises fail produces unsupported certainty. This Method uses adequate supplied criteria and checking means; when either proves inadequate, return the affected question to C.41 or C.41.QC.
+Question selection and checker qualification happen at different scopes from an answer. Repeating them in every use wastes effort; omitting them when their premises fail produces unsupported certainty. This Method uses adequate supplied criteria and checking means; when either proves inadequate, return the affected question to C.41 or C.41.QC.
 
 Keeping decision and corrective work separate preserves the user's choice to revise a mistaken description.
 

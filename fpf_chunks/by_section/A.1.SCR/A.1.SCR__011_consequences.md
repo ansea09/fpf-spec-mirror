@@ -6,12 +6,12 @@ section_id: "A.1.SCR:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.SCR/A.1.SCR__011_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.1.SCR — Finding the Acting or Changed System"
   - "A.1.SCR:9 — Consequences"
-line_start: 3776
-line_end: 3779
+line_start: 3872
+line_end: 3875
 dependencies:
   - "A.1"
   - "A.1.CSD"

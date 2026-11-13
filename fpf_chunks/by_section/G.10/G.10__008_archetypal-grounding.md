@@ -6,12 +6,12 @@ section_id: "G.10:7"
 section_title: "Archetypal grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.10/G.10__008_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.10 — SoTA Pack Shipping"
   - "G.10:7 — Archetypal grounding"
-line_start: 132026
-line_end: 132033
+line_start: 140107
+line_end: 140114
 dependencies:
   - "A.10"
   - "A.15.3"
@@ -59,5 +59,5 @@ keywords:
 A team working within a CG-Frame ships QD archive results (for example, from MAP-Elites-class or CMA-ME-class methods), a declared selector outcome derived from them, and generator-family results (for example, from POET-class environment generation). The shipped `SoTA‑Pack(Core)` cites the CHR/CAL packs and records the QD/OEE extension-required pins through the extension blocks so downstream parity and refresh can locate the affected `PathSliceId`s and reconsider their dependent uses.
 
 **Episteme‑plane (synthesis shipping).**
-A team working within a CG‑Frame ships a pluralistic set of admissible methods supported by a literature review and synthesis pack. The shipped pack carries explicit CN/CG spec refs, evidence path citations, and method‑of‑obtaining‑output disclosure; downstream selection uses set‑valued outcomes, and refresh can be scheduled when the synthesis pack or key pins change.
+A team working within a CG‑Frame ships a pluralistic set of admissible methods supported by a literature review and synthesis pack. The shipped pack carries CN/CG spec refs, evidence path citations, and method‑of‑obtaining‑output disclosure; downstream selection uses set‑valued outcomes, and refresh can be scheduled when the synthesis pack or key pins change.
 

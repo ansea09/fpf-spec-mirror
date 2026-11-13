@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.10.ARCH"
-pattern_title: "Wording-Use Ontological Precision Restoration Architecture"
+pattern_title: "Architecture for Recovering Ontological Meaning in Wording"
 section_id: "E.10.ARCH:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__002_use-this-when.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
+  - "E.10.ARCH — Architecture for Recovering Ontological Meaning in Wording"
   - "E.10.ARCH:0 — Use This When"
-line_start: 101556
-line_end: 101573
+line_start: 107267
+line_end: 107284
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -65,7 +65,7 @@ keywords:
 
 ### E.10.ARCH:0 - Use This When
 
-Use this pattern when a recurring FPF-governed wording problem survives the normal `F.19` reading and compact `E.10` routing, and a shared recovery rule is needed for the hidden object, relation or use. In DPF authoring, enter through `E.4.DPF` only when recurring domain wording obstructs a named reader use. The shared method remains in FPF; the domain entry stays with its DPF claim.
+Use this pattern when a recurring FPF-governed wording problem survives the `F.19` reading and compact `E.10` routing, and a shared recovery rule is needed for the hidden object, relation or use. In DPF authoring, enter through `E.4.DPF` only when recurring domain wording obstructs a named reader use. The shared method remains in FPF; the domain entry stays with its DPF claim.
 
 **Failure to recognize.** Subject patterns repeat local wording-recognition tables and teach repair doctrine instead of their own governed object, invariant and first useful move. Readers then lack one stable recovery rule.
 
@@ -73,7 +73,7 @@ Use this pattern when a recurring FPF-governed wording problem survives the norm
 
 | Wording | Applicable result | Grounded distinction in this near-miss |
 | --- | --- | --- |
-| `MethodDescription_NormalizeCustomer`, which describes one exact `U.Method` `NormalizeCustomer`, says “input x is CustomerRow_17” beside the worked formula `normalize(x)`. | The current use is already clear: preserve the argument's representation relation and bypass further restoration. Use C.29 only for a separate question about choosing, transferring or relying on the mathematical representation. Keep `Arg_x` as the representation element and state the explicit correspondence from `Arg_x` to the described value `CustomerRow_17`. The repaired practitioner sentence is: “In the worked formula `normalize(x)`, argument `x` represents `CustomerRow_17`.” | The worked formula's argument place and the value it represents. |
+| `MethodDescription_NormalizeCustomer`, which describes one exact `U.Method` `NormalizeCustomer`, says “input x is CustomerRow_17” beside the worked formula `normalize(x)`. | The use is clear. Preserve the argument's representation relation and bypass further restoration. Use C.29 only for a separate question about choosing, transferring or relying on the mathematical representation. Keep `Arg_x` as the representation element and state the explicit correspondence from `Arg_x` to the described value `CustomerRow_17`. Write “In the worked formula `normalize(x)`, argument `x` represents `CustomerRow_17`.” | The worked formula's argument place and the value it represents. |
 
 **Not this pattern when.**
 

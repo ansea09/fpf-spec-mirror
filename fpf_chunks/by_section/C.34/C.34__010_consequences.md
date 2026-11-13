@@ -6,12 +6,12 @@ section_id: "C.34:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.34/C.34__010_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.34 — Assess Structural Correspondence for Architecture Use (Equivalence and Morphisms)"
   - "C.34:9 — Consequences"
-line_start: 81017
-line_end: 81031
+line_start: 84882
+line_end: 84896
 dependencies:
   - "A.22"
   - "A.6.3.NAR"
@@ -48,9 +48,9 @@ keywords:
 
 Positive consequences:
 
-- Architects can use partial sameness without pretending to have identity. This keeps comparison, projection, generated-output admission, realization checks, and decision repair usable.
-- Formal methods become useful at the right locus: graph matching, category-theoretic morphisms, entropy, and simulation relations can support the mapping without becoming architecture ontology.
-- Cross-context and source-tradition risks are visible early because directionality, scope, bridge loss, and the applicable conformance rules are named.
+- Architects can use partial sameness without asserting identity. This keeps comparison, projection, generated-output admission, realization checks, and decision repair usable.
+- Formal methods can support the mapping without becoming architecture ontology. Examples include graph matching, category-theoretic morphisms, entropy, and simulation relations.
+- Cross-context and source-tradition risks are visible early because directionality, scope, bridge loss, and the conformance rules for the receiving use are named.
 - Later decisions can be repaired locally: the preservation note says which relation failed, which structure was lost, and which claim or check must be reopened.
 
 Costs and trade-offs:

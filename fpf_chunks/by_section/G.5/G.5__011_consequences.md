@@ -6,12 +6,12 @@ section_id: "G.5:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__011_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.5 — Method-Family Registry, Dispatch and Selected-Set Result Declaration"
   - "G.5:9 — Consequences"
-line_start: 129850
-line_end: 129857
+line_start: 137902
+line_end: 137909
 dependencies:
   - "C.11"
   - "C.18"
@@ -60,5 +60,5 @@ keywords:
 * **Core stability.** Universal invariants are pinned through `G.Core`; method innovation and generator innovation do not churn the selector head.
 * **Evolvability.** Registries allow growth, retirement, and refresh with typed RSCR causes and explicit payload pins.
 * **Composability.** Strategy templates and fallbacks remain admissibility-checked and portable across implementations.
-* **Recoverable result content.** Selected-set results can travel downstream as explicit shortlist-family, joint-use, handoff, abstain, or escalation results rather than one hidden implication inside upstream reasoning.
+* **Recoverable result content.** A downstream reader can distinguish a shortlist or joint-use set from a handoff, abstention or escalation, and recover the grounds for the declared outcome.
 

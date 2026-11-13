@@ -6,12 +6,12 @@ section_id: "F.0.2.RC:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2.RC/F.0.2.RC__011_architectural-rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.0.2.RC — Test Constructive Coverage and Refresh Dependent Explanations"
   - "F.0.2.RC:10 — Architectural Rationale"
-line_start: 118539
-line_end: 118544
+line_start: 126133
+line_end: 126138
 dependencies:
   - "A.10.1"
   - "A.3.1.CC"
@@ -26,5 +26,5 @@ keywords:
 
 A.3.1.CC begins with a potentially contradicted claim and locates its owner. This pattern can start earlier: a promised source contribution is missing, and the language may not yet expose the claim or relation that should own it. Reconstruction finds that loss and supplies the repair question.
 
-Combining falsification with affected refresh keeps the original promise and its change history connected. A.3.1.MV still decides whether reusable Method semantics changed; a missing description condition is not automatically a new Method variant.
+Combining falsification with affected refresh keeps the original promise and its change history connected. A.3.1.MV decides whether reusable Method semantics changed; a missing description condition is not automatically a new Method variant.
 

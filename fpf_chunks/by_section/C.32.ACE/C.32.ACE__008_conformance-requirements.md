@@ -6,12 +6,12 @@ section_id: "C.32.ACE:7"
 section_title: "Conformance requirements"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACE/C.32.ACE__008_conformance-requirements.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.32.ACE — Architecture Characteristic Eval Programs"
   - "C.32.ACE:7 — Conformance requirements"
-line_start: 77928
-line_end: 77943
+line_start: 81757
+line_end: 81772
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -58,10 +58,10 @@ keywords:
 | `CC-ACE-3` | Purpose, scope, eval operation, trigger mode, result form and run conditions are recoverable; parity is established when the receiving inference depends on it. |
 | `CC-ACE-4` | Measurement claims require `C.16`; composite quality claims require `C.25`. |
 | `CC-ACE-5` | Before receiving work relies on an eval result, its missing-data treatment and material proxy risks are understood, with relevant constraints and counter-characteristics protected. |
-| `CC-ACE-6` | Source-side "fitness function" wording retains its source meaning; any FPF object or claim is identified by the operation, expression or relation actually meant. |
+| `CC-ACE-6` | Source-side "fitness function" wording retains its source meaning; any FPF object or claim is identified by the operation, expression or relation meant. |
 | `CC-ACE-7` | A check or test is admitted only as one eval operation when an expectation or hard constraint is being inspected. |
 | `CC-ACE-8` | The eval result does not select, decide, certify, or carry an architecture-adequacy claim by itself. |
 | `CC-ACE-9` | A project-local program names both `projectWorkOccurrenceRef` and `architectureEvalProgramProjectUseRelationRef`; the suffix or either reference alone asserts no locality. |
-| `CC-ACE-10` | The record separately identifies any reusable Method, MethodDescription, planned evaluation, dated evaluation Work, actual operation application, and typed result that the use needs; `evalOperation` or `resultForm` supplies none of those occurrences or identities. |
+| `CC-ACE-10` | The record separately identifies any reusable Method, MethodDescription, planned evaluation, dated evaluation Work, operation application, and typed result that the use needs; `evalOperation` or `resultForm` supplies none of those occurrences or identities. |
 | `CC-ACE-11` | Each evaluation binds its exact claim scope, relevant context slices and reference scheme, with every declared selector and all interpretation, time, projection and parity conditions required by its operation or receiving inference. Labels such as `evalScope` and `runContext` do not supply those bindings. |
 

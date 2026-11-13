@@ -6,12 +6,12 @@ section_id: "E.4.PFR:4"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFR/E.4.PFR__006_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.4.PFR — Pattern-Framework Relation and Edition Discipline"
   - "E.4.PFR:4 — Archetypal Grounding"
-line_start: 95908
-line_end: 95980
+line_start: 101038
+line_end: 101122
 dependencies:
   - "A.10"
   - "A.6.0"
@@ -50,13 +50,15 @@ keywords:
 
 #### E.4.PFR:4.1 - Ordinary subject assertion without PFR
 
-In one CGUS position, `selectedConstituentRef` designates `result-42`. The exact C.11 `ChoiceResult` definition classifies that record from its stated disposition, selected option, comparison basis, rule, and stop-probing reason; A.22.CGUS constrains the position locator and selected-constituent reference. That sentence is the first useful output. It adds no owner field, PFR row, actual-use predicate, or basis analysis.
+In one CGUS position, `selectedConstituentRef` designates `result-42`. The exact C.11 `ChoiceResult` definition classifies that record from its stated disposition, selected option, comparison basis, rule, and stop-probing reason. A.22.CGUS constrains the position locator and selected-constituent reference.
 
-If a later Core relation-function maintenance replay must enumerate every CGUS position whose constituent-kind assertion cites a defining ClaimGraph, add one compact row for this position with the governed use, subject assertion ref, and exact C.11 definition ClaimGraph ref. That named receiver—not the importance of the relation—opens PFR.
+The assertion about `result-42` is the first useful output. It adds no owner field, PFR row, actual-use predicate, or basis analysis.
+
+If a later Core relation-function maintenance replay must enumerate every CGUS position whose constituent-kind assertion cites a defining ClaimGraph, add one compact row for this position with the governed use, subject assertion ref, and exact C.11 definition ClaimGraph ref. The named replay receiver needs a PFR row. The importance of the relation alone does not require one.
 
 #### E.4.PFR:4.2 - Framework edition dependency
 
-Start with the readable dependency assertion. The edition labels below are illustrative; `FPF@C1` contains the cited Core claims:
+Start with the readable dependency assertion. The edition labels below are illustrative. `FPF@C1` contains the cited Core claims:
 
 > `CodexProcessFramework@L1` depends on `FPF@C1` for local process authoring: its revision guidance applies E.8:4.1.2, item 6, which requires repair of stale direct consumers in the same authoring increment; its evaluation guidance applies E.21:4.3's rule for an adjacent-value rationale in each coordinate result. Removing or materially changing either claim reopens the corresponding local guidance. Changing the selected FPF edition also requires checking these dependencies.
 
@@ -76,9 +78,15 @@ FrameworkEditionDependencyRecord@CodexProcessFramework:
   refreshConditionRefs: [FPF_edition_change_or_material_change_to_either_relied_on_claim_as_stated_above]
 ```
 
-If one named cross-relation receiver also needs the generic view, add one `PatternFrameworkRelationRecord`, give both forms the same `subjectAssertionRef`, and set the dependency record's `genericRelationRecordRef` to that row. In the generic row, `relationFunctionClaimRef` points to the E.4.PFR:3.4 dependency predicate, `dependencyOrEditionEffect` states the E.5.3-constrained direction, and `refreshOrSupersessionCondition` cites the G.11 refresh condition. Derive their shared endpoints, use, direction/effect, and refresh condition from the subject assertion. A change to that assertion refreshes both views together; neither carries an independently maintained copy of the dependency fact.
+If one named cross-relation receiver also needs the generic view, add one `PatternFrameworkRelationRecord`, give both forms the same `subjectAssertionRef`, and set the dependency record's `genericRelationRecordRef` to that row.
 
-If this same pair also has a supported compatibility result for an overlapping use, state that C.2.1 assertion separately. Add its ref to `compatibilityClaimRefs` only when the named edition-impact receiver must traverse from this dependency record to that claim. The dependency record proves neither dependency nor compatibility, and E.5.3 does not own either edition.
+In the generic row, `relationFunctionClaimRef` points to the E.4.PFR:3.4 dependency predicate, `dependencyOrEditionEffect` states the E.5.3-constrained direction, and `refreshOrSupersessionCondition` cites the G.11 refresh condition.
+
+Derive the two records’ shared endpoints, use, direction/effect, and refresh condition from the subject assertion. A change to that assertion refreshes both views together. Neither carries an independently maintained copy of the dependency fact.
+
+If this same pair also has a supported compatibility result for an overlapping use, state that C.2.1 assertion separately. Add its ref to `compatibilityClaimRefs` only when the named edition-impact receiver must traverse from this dependency record to that claim.
+
+The dependency record proves neither dependency nor compatibility, and E.5.3 does not own either edition.
 
 #### E.4.PFR:4.3 - Source and decision reuse
 
@@ -101,21 +109,25 @@ A hydroponic framework may separately carry a dependency on Core content in an F
 
 #### E.4.PFR:4.4 - Genuine overlap conflict
 
-A named automated replay receiver whose contract requires acceptance and witness has two exact, accepted, witnessed, independently sufficient bases for the same subject, use, scope, and time cell, and their consequences conflict. Lane 1 can state the conflict but cannot give that receiver a stable closed family-plus-pairwise result. The basis analysis retains both alternatives, records the exact pairwise conflict, returns `established-conflict`, and leaves unrelated work available. It selects no winner, grants no permission, and changes no actual-use fact.
+A named automated replay receiver whose contract requires acceptance and witness has two exact, accepted, witnessed, independently sufficient bases for the same subject, use, scope, and time cell, and their consequences conflict. Lane 1 can state the conflict but cannot give that receiver a stable closed family-plus-pairwise result.
+
+The basis analysis retains both alternatives, records the exact pairwise conflict, returns `established-conflict`, and leaves unrelated work available. It selects no winner, grants no permission, and changes no actual-use fact.
 
 #### E.4.PFR:4.5 - Establishment, minimality and a total answer
 
-For a receiving derivation of p under ordinary premise introduction, both {p} and {p,q} are sufficient without any undeclared premise. Both can be established when their required axes are true; only {p} is inclusion-minimal among their sub-bases. If the receiver requires a minimal family and that additional search is incomplete, the minimal-family answer stays qualified while establishment of these two bases survives.
+For a receiving derivation of p under ordinary premise introduction, both `{p}` and `{p,q}` are sufficient without any undeclared premise. Both can be established when their required axes are true. Only `{p}` is inclusion-minimal among their sub-bases. If the receiver requires a minimal family and that additional search is incomplete, the minimal-family answer stays qualified while establishment of these two bases survives.
 
 | Bounded cell case | Exactly one disposition and retained distinction |
 | --- | --- |
 | Closed universe {{p},{p,q}}, required axes true, both yield p and their required pair is compatible | `established-compatible`; optional minimality can remain unknown without changing that result. |
 | Closed universe with one otherwise sufficient candidate and an unknown witness required by this receiver | `open-no-established`; the missing witness leaves the conjunction unresolved. |
-| Closed universe with one candidate whose exactness is false and required witness unknown | `closed-insufficient`; false exactness decisively defeats it. |
+| Closed universe with one candidate whose exactness is false and required witness unknown | `closed-insufficient`. False exactness defeats the candidate. |
 | One established candidate in an open universe | `established-with-open-candidates`; retain the candidate while admitting further alternatives may matter. |
 | Two independently sufficient, established bases with known incompatible consequences for the same overlapping use | `established-conflict`, even if another candidate is unresolved; neither established basis is deleted. |
 | Closed empty universe and an exact supported absent-needed-content claim | `missing-candidates`. |
 | Closed empty universe with no supported claim that content is needed | `closed-empty-unresolved-need`. |
 
-In evaluate mode, criterion “value ≥ 80” and an applicable exact value 70 suffice to obtain `fail` under that evaluation rule. With the other required axes true, the candidate is established even though the evaluated object fails. The criterion/value set's sufficiency says nothing about whether a particular evaluation actually selected and used it; Lane 3's actual-use predicates still need their own facts.
+In evaluate mode, criterion “value ≥ 80” and an applicable exact value 70 suffice to obtain `fail` under that evaluation rule. With the other required axes true, the candidate is established even though the evaluated object fails.
+
+The criterion/value set's sufficiency says nothing about whether a particular evaluation selected and used it. Lane 3's actual-use predicates need their own facts.
 

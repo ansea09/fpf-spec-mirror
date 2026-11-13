@@ -6,12 +6,12 @@ section_id: "A.6.H:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.H/A.6.H__006_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.H — Wholeness Language Unpacking — RPR-WHOLE"
   - "A.6.H:5 — Archetypal Grounding"
-line_start: 25321
-line_end: 25365
+line_start: 26242
+line_end: 26286
 dependencies:
   - "A.1"
   - "A.10"
@@ -68,10 +68,10 @@ Source sentence: “After seal replacement, the assembled pump remains an integr
 
 1. The subject is `PumpUnit-37`, not the maintenance record, drawing, or seal-replacement Work.
 2. The pump's direct identity rule decides whether the same individual continued.
-3. The current use names the pump boundary, impeller, casing, replacement seal, and the exact assembly or parthood relations on which operation depends.
+3. The current use names the pump boundary, impeller, casing, replacement seal, and the assembly or parthood relations on which operation depends.
 4. If the decision consumes one selected organization of those relations, A.22 governs that structure; if it consumes a construction account, C.13 reports already recovered facts.
-5. A.1 recognizes the candidate whole; B.2 opens only if the replacement leaves a genuine whole-reidentification question.
-6. For an actual calibration, seal-replacement or inspection Work claim, use the basis in §4.2. State any claimed change separately under the rule for the changed object.
+5. A.1 recognizes the candidate whole; B.2 opens only if the replacement leaves a whole-reidentification question.
+6. For a calibration, seal-replacement or inspection Work claim, use the basis in §4.2. State any claimed change separately under the rule for the changed object.
 
 #### A.6.H:5.2 - Laboratory pipeline
 
@@ -79,10 +79,10 @@ Source sentence: “The whole chromatography pipeline is turnkey, and the chemis
 
 The repair separates the following claims and unresolved questions; `turnkey` and `owns` still need the receiving decision and discriminating facts:
 
-- the reusable procedure is one exact Method or composite Method under A.3.1/B.1.5, with exact joins and exposed interactions;
-- identify its procedure document as a separate episteme under C.2.1. It is a `U.MethodDescription` under A.3.2 only if its exact EntityOfConcern is an admitted Method and it makes a substantive claim about that Method as a way of doing;
-- “turnkey” becomes the exact specification, capability, Work, or evidence coverage claim needed by the receiving use;
-- treat *owns* as a local wording cue. First state the decision that depends on it and the exact proposed sentence. Candidate readings include, for example, property or title, possession or custody, operational control, decision authority, stewardship or responsibility, assignment, commitment, and permission; they have different participants and predicates. Apply the direct rule when one exists, or return A.6.RCD `missing-governor[...]` naming the participants, proposed predicate, affected use, and absent definition; and
+- the reusable procedure is one Method or composite Method under A.3.1/B.1.5, with joins and exposed interactions;
+- identify its procedure document as a separate episteme under C.2.1. It is a `U.MethodDescription` under A.3.2 only if its EntityOfConcern is an admitted Method and it makes a substantive claim about that Method as a way of doing;
+- “turnkey” becomes the specification, capability, Work, or evidence coverage claim needed by the receiving use;
+- treat *owns* as a local wording cue. First state the decision that depends on it and the proposed sentence. Candidate readings include, for example, property or title, possession or custody, operational control, decision authority, stewardship or responsibility, assignment, commitment, and permission; they have different participants and predicates. Apply the direct rule when one exists, or return A.6.RCD `missing-governor[...]` naming the participants, proposed predicate, affected use, and absent definition; and
 - identify any asserted dated laboratory run as Work using §4.2.
 
 Thus “the laboratory owns the instrument,” “the chemist has custody during the run,” “the chemist may authorize disposal,” and “the chemist is responsible for calibration” are four different claims. None follows from belonging to the team, classification, assignment, commitment, or permission merely by form.
@@ -95,7 +95,7 @@ Source sentence: “Section 3 is part of the proof, and v2 is part of v1.”
 
 - Recover whether Section 3 is a constituent of the paper episteme, a publication-unit constituent, or a described proof step. Keep those subjects separate.
 - Recover argument order under its subject pattern rather than as physical containment.
-- Compare the exact C.2.1 triples for the two labelled epistemes. Changed claim content identifies two epistemes. Assert `EpistemeEditionRelation(E_v1,E_v2)` only when its historical-continuation predicate obtains.
+- Compare the C.2.1 triples for the two labelled epistemes. Changed claim content identifies two epistemes. Assert `EpistemeEditionRelation(E_v1,E_v2)` only when its historical-continuation predicate obtains.
 - If the subject rule and A.14 admit a proper temporal restriction of one unchanged episteme, `PhaseOf(E@τ,E)` may state that restriction. Needing or using the episteme only during an interval states a use or applicability condition; it does not by itself identify a temporal part. Neither claim connects v1 to v2.
 - Keep any drafting, review, or publication Work separate from publication occurrences and from the two epistemes that participate in `EpistemeEditionRelation`.
 

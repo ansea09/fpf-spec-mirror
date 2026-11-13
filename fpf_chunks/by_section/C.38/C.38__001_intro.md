@@ -6,12 +6,12 @@ section_id: "C.38:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.38/C.38__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.38 — Construct Comparable Ways to Obtain One Result"
   - "C.38:intro — Intro"
-line_start: 82460
-line_end: 82465
+line_start: 86481
+line_end: 86486
 dependencies:
   - "A.10"
   - "A.15.9"
@@ -33,5 +33,5 @@ keywords:
 
 > **Type:** Method pattern
 > **Status:** Stable
-> **Normativity:** Normative unless explicitly marked informative
+> **Normativity:** Normative unless marked informative
 

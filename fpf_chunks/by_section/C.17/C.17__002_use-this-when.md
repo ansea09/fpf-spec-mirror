@@ -6,28 +6,22 @@ section_id: "C.17:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__002_use-this-when.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.17 — Characterising Generative Novelty and Value"
   - "C.17:0 — Use this when"
-line_start: 60609
-line_end: 60630
+line_start: 63021
+line_end: 63042
 dependencies:
-  - "A.0"
   - "A.1.1"
   - "A.10"
-  - "A.13"
   - "A.15.1"
-  - "A.15.2"
   - "A.17"
   - "A.18"
   - "A.19"
   - "A.19.ECS"
-  - "A.2.1"
   - "A.3.1"
   - "A.3.2"
-  - "A.6.1"
-  - "B.1.6"
   - "B.3"
   - "B.4"
   - "C.11"
@@ -58,7 +52,7 @@ keywords:
 
 Use C.17 when someone must say whether a design, code change, theory, policy proposal, dated Work occurrence, or finite candidate set—the bearer being discussed—is new relative to a named comparison basis and useful for a stated objective or must-criterion.
 
-If the claim arrives as *learning progress*, *learned novelty*, or information gain described as *learning*, and the bearer or result is still hidden, apply `E.10.LRN` and the direct result owner first. Enter C.17 only after the bearer and the novelty, use, surprise, creativity, or other characterization question are exact. Stop at the direct result when no such characterization is current.
+If the claim arrives as *learning progress*, *learned novelty*, or information gain described as *learning*, and the bearer or result is still hidden, apply `E.10.LRN` and the direct result owner first. Enter C.17 only after identifying the bearer and the novelty, use, surprise, creativity, or other characterization question. Stop at the direct result when there is no characterization question to answer.
 
 Begin with the smallest useful answer:
 1. identify the bearer being discussed;
@@ -68,11 +62,11 @@ Begin with the smallest useful answer:
 
 Stop there when a qualitative answer is enough. A discussion does not need a score, profile, reusable record, or dated assessment merely because it uses the words *novel*, *useful*, or *creative*.
 
-Open the stronger branch only when the receiving use needs a quantified coordinate, a comparison-ready result, later reliance, or an audit trail. Then every coordinate must follow its truthful measurement or ascription route before the coordinate claims can support a bounded aggregate result.
+Open the stronger branch only when the receiving use needs a quantified coordinate, a comparison-ready result, later reliance, or an audit trail. Then every coordinate must follow its measurement or ascription route before the coordinate claims can support a bounded aggregate result.
 
 **What changes in practice.** A team can replace an unqualified creativity label with the comparison basis, practical criterion, supported difference, consequence, uncertainty, and stopping point. When numbers matter, it can also reproduce the complete result chain.
 
 **Not this pattern when.** Use `C.18` to generate candidates or maintain an Archive or Front, `C.19` to change pool treatment, `G.5` to declare selector-facing set results, `C.11` to make a choice, and `A.13` to characterize agency or autonomy. Use C.17 to report characteristics and bounded conclusions, not to generate, retain, rank, approve, fund, enact, make a service promise, classify a person as creative, measure a person's creative capacity, organize a team, or prescribe a workflow.
 
-Do not infer a person's or System's creative capacity from a C.17 result. Strong agency can still yield a weak result, while useful scaffolding can help produce a strong result; C.17 characterizes the bearer and evidence named in the current claim.
+Do not infer a person's or System's creative capacity from a C.17 result. Strong agency can still yield a weak result, while useful scaffolding can help produce a strong result; C.17 characterizes the bearer and evidence named in the claim.
 

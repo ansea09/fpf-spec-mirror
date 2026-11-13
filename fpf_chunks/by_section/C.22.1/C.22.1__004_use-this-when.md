@@ -6,12 +6,12 @@ section_id: "C.22.1:3"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.1/C.22.1__004_use-this-when.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.22.1 — Task-family adaptation signature"
   - "C.22.1:3 — Use this when"
-line_start: 63234
-line_end: 63239
+line_start: 65867
+line_end: 65872
 dependencies:
   - "A.15"
   - "C.19.1"
@@ -40,6 +40,6 @@ keywords:
 ### C.22.1:3 - Use this when
 
 - the live task-family adaptation claim is not only that a holder or dyad solved a task, but how fast it acquired usable specialization on a declared task family
-- comparison must stay honest about the work-measure threshold target, prior exposure, adaptation budget, transfer field, and reuse window
-- movement into a new solution corridor or stepping-stone family is part of the real novelty claim
+- comparison must account for the work-measure threshold target, prior exposure, adaptation budget, transfer field, and reuse window
+- movement into a new solution corridor or stepping-stone family is part of the novelty claim
 

@@ -6,12 +6,12 @@ section_id: "C.31:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31/C.31__006_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.31 — Modularity and Reusable Structure Characteristics"
   - "C.31:5 — Archetypal Grounding"
-line_start: 75345
-line_end: 75354
+line_start: 78786
+line_end: 78799
 dependencies:
   - "A.10"
   - "A.17"
@@ -51,5 +51,9 @@ A product architecture can have high interface standardization and still poor su
 
 A DSM or dependency graph can substantiate a modularity interpretation, but the graph does not by itself say which dependency kind matters, what scale applies, whether the interpretation is comparable, or what action follows.
 
-Holon and episteme: C.31 characterizes selected module-interface and other architecture-relevant structures of described holons for named architecture questions and uses; the described holon may be an admitted system, organization-as-system, episteme, work occurrence, discipline, or another admitted holon kind. Publication-family material uses the episteme and publication patterns. A MethodDescription is an episteme; a Method uses A.3.1, and any relation asserted for it uses the pattern that defines that relation. C.31 heads, cards, vectors, and report-only proxies are characteristic records, declared-measurement-basis records, comparability-basis records, or report-only records about those structures.
+Holon and episteme: C.31 characterizes selected module-interface and other architecture-relevant structures of described holons for named architecture questions and uses; the described holon may be an admitted system, organization-as-system, episteme, work occurrence, discipline, or another admitted holon kind.
+
+Publication-family material uses the episteme and publication patterns. A MethodDescription is an episteme; a Method uses A.3.1, and any relation asserted for it uses the pattern that defines that relation.
+
+C.31 heads, cards, vectors, and report-only proxies are characteristic records, declared-measurement-basis records, comparability-basis records, or report-only records about those structures.
 

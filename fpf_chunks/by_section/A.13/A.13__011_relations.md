@@ -6,12 +6,12 @@ section_id: "A.13:9"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.13/A.13__011_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.13 — The Agential Role & Agency Spectrum"
   - "A.13:9 — Relations"
-line_start: 28344
-line_end: 28354
+line_start: 29402
+line_end: 29412
 dependencies:
   - "A.10"
   - "A.12"

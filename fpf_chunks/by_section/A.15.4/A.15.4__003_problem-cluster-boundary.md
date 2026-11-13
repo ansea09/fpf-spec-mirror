@@ -6,12 +6,12 @@ section_id: "A.15.4:2"
 section_title: "Problem - Cluster Boundary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__003_problem-cluster-boundary.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.15.4 — Work-Relevant Appearance-Based Reliance Repair"
   - "A.15.4:2 — Problem - Cluster Boundary"
-line_start: 30461
-line_end: 30464
+line_start: 31552
+line_end: 31555
 dependencies:
   - "A.10"
   - "A.13"
@@ -54,5 +54,5 @@ keywords:
 
 ### A.15.4:2 - Problem - Cluster Boundary
 
-A.15 remains the kernel for separating an acting System, exact local system-role kind, classification judgment, direct `U.SystemRoleAssignment` species, `U.Method`, `U.MethodDescription`, `U.WorkPlan`, and dated `U.Work`. A.15.4 starts only when a reliance appearance begins to justify a work or reliance claim and the team still needs to recover the required relation or result and the rule or test that applies. Recover a project-side reference when that rule or use needs one. If the question and its rule are already known, use them directly.
+A.15 remains the kernel for separating an acting System, local system-role kind, classification judgment, direct `U.SystemRoleAssignment` species, `U.Method`, `U.MethodDescription`, `U.WorkPlan`, and dated `U.Work`. A.15.4 starts only when a reliance appearance begins to justify a work or reliance claim and the team still needs to recover the required relation or result and the rule or test that applies. Recover a project-side reference when that rule or use needs one. If the question and its rule are already known, use them directly.
 

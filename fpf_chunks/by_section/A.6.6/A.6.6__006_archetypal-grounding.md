@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.6"
-pattern_title: "Base Declaration Discipline: Say Exactly What Something Depends On"
+pattern_title: "Base Declaration Discipline: Say What Something Depends On"
 section_id: "A.6.6:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__006_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.6.6 — Base Declaration Discipline: Say Exactly What Something Depends On"
+  - "A.6.6 — Base Declaration Discipline: Say What Something Depends On"
   - "A.6.6:5 — Archetypal Grounding"
-line_start: 23879
-line_end: 23928
+line_start: 24800
+line_end: 24849
 dependencies:
   - "A.10"
   - "A.14"
@@ -45,7 +45,7 @@ keywords:
 
 **Tell.** A lab instrument channel `TC‑17` is described as “anchored to ITS‑90”. Later, the reference standard is swapped, the phrase “still anchored” is kept, and the applicability window silently expands. Downstream work disagrees and nobody can reconstruct what changed.
 
-**Show.** First state the direct assertion: `TC-17 is calibrated to ITS-90 for rig R3 over 0–200 °C during the stated calibration interval.` Apply the calibration predicate and stop there if this answers the use. When a later publication or comparison needs the exact assertion edition, show the same claim in an optional scoped record:
+**Show.** First state the direct assertion: `TC-17 is calibrated to ITS-90 for rig R3 over 0–200 °C during the stated calibration interval.` Apply the calibration predicate and stop there if this answers the use. When a later publication or comparison needs the assertion edition, show the same claim in an optional scoped record:
 
 ```
 BD#Calib_TC17_v5 :=
@@ -57,7 +57,7 @@ scope        = WorkScope{rig=R3, range=[0..200]°C},
 gammaTime          = interval[2025-09-01, 2026-03-01] 〉
 ```
 
-When a later decision relies on this assertion, identify the calibration-certificate episteme and its A.2.4 evidence-use relation to the assertion. Use A.10 when the decision needs a bounded-reliance judgment or the producing Work, operation result, carrier, provenance or currentness path. Distinguish changes by what actually changed:
+When a later decision relies on this assertion, identify the calibration-certificate episteme and its A.2.4 evidence-use relation to the assertion. Use A.10 when the decision needs a bounded-reliance judgment or the producing Work, operation result, carrier, provenance or currentness path. Distinguish changes by what changed:
 
 * New standard ⇒ **rebase**; establish the evidence-use relation required for the new assertion, reusing suitable witnesses or refreshing them when needed.
 * Wider applicability window ⇒ **retime** and likely **refreshWitnesses**.
@@ -67,7 +67,7 @@ When a later decision relies on this assertion, identify the calibration-certifi
 
 **Tell.** A report says that model M improved accuracy by 4%. The team points to `EvalRun-2025-10-12`, but that Work occurrence is neither the claim nor an evidence relation, and its log carrier does not become evidence merely by being attached.
 
-**Show.** First recover the accuracy measure, reference condition or population, and percentage convention from the reported comparison. If those operands cannot be recovered, the exact 4% comparison claim remains unidentified; stop before relying on that numerical target. Once they are recovered, identify the result episteme that states the measured comparison and the target claim about the 4% improvement. State the exact A.2.4 evidence-use relation between that episteme and claim, including the relevant ClaimScope, polarity, window, and receiving use. If the decision also needs replayable source, carrier, provenance, currentness, or bounded-reliance information, use A.10 to cite the evaluation Work, its actual operation-result binding, the result episteme, the log carrier, and their independently obtaining direct relations.
+**Show.** First recover the accuracy measure, reference condition or population, and percentage convention from the reported comparison. If those operands cannot be recovered, the 4% comparison claim remains unidentified; stop before relying on that numerical target. Once they are recovered, identify the result episteme that states the measured comparison and the target claim about the 4% improvement. State the A.2.4 evidence-use relation between that episteme and claim, including the ClaimScope, polarity, window, and receiving use. If the decision also needs replayable source, carrier, provenance, currentness, or bounded-reliance information, use A.10 to cite the evaluation Work, its operation-result binding, the result episteme, the log carrier, and their independently obtaining direct relations.
 
 Stop with the short evidence-use statement when it answers the question. No `validatedBy(claim, Work)` edge or scoped base-declaration record is required. If a project later needs a reusable evidence-relation declaration, that direct relation must first have its own participant meanings, predicate, applicability, and occurrence-identity rule.
 
@@ -87,5 +87,5 @@ scope        = PublicationScope{view=WMCardLite, system=S, line=L3},
 gammaTime          = snapshot(2025-11-02) 〉
 ```
 
-The printed trace reference names the intended constructor trace; its presence does not establish the trace or the grounding relation. If another use relies on the assertion that the grounding relation obtains, cite its exact evidence-use and provenance relations separately. This example shows why “grounding” must be disambiguated: here it is a declared constructive relation with an explicit base (trace), not a vague claim of “stability”.
+The printed trace reference names the intended constructor trace; its presence does not establish the trace or the grounding relation. If another use relies on the assertion that the grounding relation obtains, cite its evidence-use and provenance relations separately. This example shows why “grounding” must be disambiguated: here it is a declared constructive relation with an explicit base (trace).
 

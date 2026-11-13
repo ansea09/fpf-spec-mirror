@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.10.ARCH"
-pattern_title: "Wording-Use Ontological Precision Restoration Architecture"
+pattern_title: "Architecture for Recovering Ontological Meaning in Wording"
 section_id: "E.10.ARCH:13"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__021_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
+  - "E.10.ARCH — Architecture for Recovering Ontological Meaning in Wording"
   - "E.10.ARCH:13 — Rationale"
-line_start: 101903
-line_end: 101932
+line_start: 107645
+line_end: 107678
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -69,7 +69,7 @@ Repair-only trigger prose migrates into subject patterns and begins to compete w
 
 A warranted guard may still be misplaced. Keep it with the rule for publication pragmatics, description pragmatics, admissible use, or the neighboring subject claim it qualifies. The subject pattern's Solution remains about its own `EntityOfConcern` and first useful move.
 
-The workable split is a normal whole-span repair in `F.19`, compact recognition and routing in `E.10`, shared ontological recovery here only when needed, and local realization only where a named `semanticArea` has stable row identity, a stable field set, an `ontologicalNeighborhood`, and a useful remaining reader use.
+The workable split is whole-span repair in `F.19`, compact recognition and routing in `E.10`, shared ontological recovery here only when needed, and local realization only where a named `semanticArea` has stable row identity, a stable field set, an `ontologicalNeighborhood`, and a useful remaining reader use.
 
 
 #### E.10.ARCH:13.1 - SoTA-Echoing
@@ -80,9 +80,13 @@ The workable split is a normal whole-span repair in `F.19`, compact recognition 
 
 **Alternative or default.** A central preferred-word list makes labels consistent but cannot establish obtaining relations, actual participants, claim-bearing epistemes, or direct rule ownership. Copied local warning tables stay close to each subject but duplicate recognition, drift independently, and displace the subject pattern's working problem. The selected line keeps the useful locality of direct owners and the reuse of one shared entry.
 
-**Bounded comparison and accepted trade-off.** Take the section 0 case in which `MethodDescription_NormalizeCustomer` says “input x is CustomerRow_17” beside `normalize(x)`. Give each distribution the same source sentence, formula, and one applicable recovery entry. A preferred-word list can standardize the label `input`, but that alone leaves open whether it names an argument representation or a declared participant slot. Both a correct subject-local table and the shared architecture can recover `Arg_x` and its correspondence to `CustomerRow_17`, then state the recovered representation relation. They yield the same sentence: “In the worked formula `normalize(x)`, argument `x` represents `CustomerRow_17`.” Because that use is already clear here, both correct approaches can stop at the sentence; C.29 is needed only if a separate mathematical representation or transfer question remains.
+**Bounded comparison and accepted trade-off.** Take the section 0 case in which `MethodDescription_NormalizeCustomer` says “input x is CustomerRow_17” beside `normalize(x)`. Give each distribution the same source sentence, formula, and one applicable recovery entry. A preferred-word list can standardize the label `input`, but that alone leaves open whether it names an argument representation or a declared participant slot. Both a correct subject-local table and the shared architecture can recover `Arg_x` and its correspondence to `CustomerRow_17`, then state the recovered representation relation.
 
-For an unresolved recurrence, a local table offers a nearby lookup; the shared entry may require a cross-reference. In return, the shared distribution keeps the recognition and recovery rule in one maintained place, while copied tables require their copies to be kept consistent. **Adopt the shared entry with direct-known-rule bypass**, accepting that possible extra lookup to avoid duplicated rule maintenance. Preserve a local realization when its stable field set and remaining use justify it. This qualitative comparison establishes the distribution choice for the stated recurring case; it claims neither measured speed nor a benefit from centralizing the subject rules themselves.
+They yield the same sentence: “In the worked formula `normalize(x)`, argument `x` represents `CustomerRow_17`.” Because that use is already clear here, both approaches can stop at the sentence; C.29 is needed only if a separate mathematical representation or transfer question remains.
+
+For an unresolved recurrence, a local table offers a nearby lookup; the shared entry may require a cross-reference. In return, the shared distribution keeps the recognition and recovery rule in one maintained place, while copied tables require their copies to be kept consistent.
+
+**Adopt the shared entry with direct-known-rule bypass**, accepting that possible extra lookup to avoid duplicated rule maintenance. Preserve a local realization when its stable field set and remaining use justify it. This qualitative comparison establishes the distribution choice for the stated recurring case; it claims neither measured speed nor a benefit from centralizing the subject rules themselves.
 
 | Source or practice line | Source role and contribution used | Limit | Smallest reopen condition |
 | --- | --- | --- | --- |

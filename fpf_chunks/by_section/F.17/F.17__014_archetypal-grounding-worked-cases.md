@@ -6,12 +6,12 @@ section_id: "F.17:12"
 section_title: "Archetypal Grounding - worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__014_archetypal-grounding-worked-cases.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.17 — Make a Settled Naming Decision Recoverable for Reuse (Unified Term Sheet)"
   - "F.17:12 — Archetypal Grounding - worked cases"
-line_start: 124394
-line_end: 125080
+line_start: 132285
+line_end: 132987
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -37,7 +37,6 @@ dependencies:
   - "F.10"
   - "F.14"
   - "F.15"
-  - "F.17"
   - "F.18"
   - "F.2"
   - "F.3"
@@ -47,7 +46,6 @@ dependencies:
   - "F.7"
   - "F.8"
   - "F.9"
-  - "G.11"
 keywords:
 ---
 
@@ -75,21 +73,31 @@ An architecture pattern needs public names for `interfaceSlot`, `providedPort`, 
 
 #### F.17:12.4 - Misleading evidence-role row
 
-A sheet has a row labelled `Evidence role`. Recover the governed object before choosing a name. For an episteme's evidence use, establish the direct relation under A.2.4 or its other subject rule; A.10 describes the evidence-provenance path and classifies the bounded reliance, and B.3 enters only for an actual named assurance claim. For dated evidence-producing Work, recover each precise performer's A.13 core, including the same obtaining assignment, and independently admit the Work under A.15.1. Add F.6 only when the row or receiving use needs precise assignment-bound attribution. A separately needed local-kind claim uses A.2 with C.3. The UTS may expose selected names for these distinct values; it does not admit a generic evidence-role row that fuses them.
+A sheet has a row labelled `Evidence role`. Recover the governed object before choosing a name. For an episteme's evidence use, establish the direct relation under A.2.4 or its other subject rule; A.10 describes the evidence-provenance path and classifies the bounded reliance, and B.3 enters only for an actual named assurance claim.
+
+For dated evidence-producing Work, recover each precise performer's A.13 core, including the same obtaining assignment, and independently admit the Work under A.15.1. Add F.6 only when the row or receiving use needs precise assignment-bound attribution. A separately needed local-kind claim uses A.2 with C.3.
+
+The UTS may expose selected names for these distinct values; it does not admit a generic evidence-role row that fuses them.
 
 #### F.17:12.4a - Manufacturing batch across material and planning contexts
 
-A furnace team uses `batch` for one physically handled set of shafts that shares a heat-treatment run and traceability basis. A planning dashboard uses `batch` for a grouping of intended PlanItems. Spelling does not make these one governed value. Recover the physical batch under the material or production DPF pattern that supplies its identity and part-whole rules when the proposed comparison relies on either; recover the planning grouping and its relation to intended PlanItems under A.15.2. When the row gate is met, record separate rows for the distinct governed values. A needed semantic comparison may cite an obtaining F.9 Bridge and a separate affirmative C.2.1 claim stating direction, correspondence rule and tolerated loss with current reliance; those facts do not combine the values into one row. If either selected row edition must be made available, apply E.24.PUB separately. A `batch` row cannot turn a PlanItem grouping into a physical holon or make the physical batch a WorkPlan.
+A furnace team uses `batch` for one physically handled set of shafts that shares a heat-treatment run and traceability basis. A planning dashboard uses `batch` for a grouping of intended PlanItems. Spelling does not make these one governed value. Recover the physical batch under the material or production DPF pattern that supplies its identity and part-whole rules when the proposed comparison relies on either; recover the planning grouping and its relation to intended PlanItems under A.15.2.
+
+When the row gate is met, record separate rows for the distinct governed values. A needed semantic comparison may cite an obtaining F.9 Bridge and a separate affirmative C.2.1 claim stating direction, correspondence rule and tolerated loss with current reliance; those facts do not combine the values into one row.
+
+If either selected row edition must be made available, apply E.24.PUB separately. A `batch` row cannot turn a PlanItem grouping into a physical holon or make the physical batch a WorkPlan.
 
 #### F.17:12.4b - Clinical discharge wording
 
-A clinical publication proposes one row for `discharge` and `discharge-ready`. First separate the governed values. A patient-state classification uses A.19.SPR plus the clinical DPF pattern for its bearer, state frame, evidence, qualification window, and use. An accountable discharge decision remains a decision relation under the pattern that defines or tests that decision. A completed discharge is dated Work under A.15.1. Record distinct rows and connect them only through relations that actually obtain in the clinical use. A later publication operation uses E.24.PUB for each row edition that must be made available. One familiar label does not make state, decision, and Work interchangeable.
+A clinical publication proposes one row for `discharge` and `discharge-ready`. First separate the governed values. A patient-state classification uses A.19.SPR plus the clinical DPF pattern for its bearer, state frame, evidence, qualification window, and use. An accountable discharge decision remains a decision relation under the pattern that defines or tests that decision. A completed discharge is dated Work under A.15.1.
+
+If the naming use needs a row for a patient state, discharge decision or completed discharge, record that value separately. Connect rows only through relations established for the clinical use. A later publication operation uses E.24.PUB for each row edition that must be made available. One familiar label does not make state, decision, and Work interchangeable.
 
 #### F.17:12.4c - Demonstrative walkthrough and bounded mantra
 
 A.22.CGUS:4.4 permits a separate C.2.1 episteme that shows one traversal through an already qualified CGUS for a declared teaching or comparison use. It does not define a demonstrative-slice `U.Kind`, and the token `DemonstrativeUnfoldingSlice@Context` does not identify one exact slice. A proposed seminar reference-scheme name must also resolve to an effective by-value scheme. These labels alone therefore supply no basis for a demonstrative-slice row, seminar SenseCell, Bridge or bounded-use claim.
 
-Use *demonstrative walkthrough* as ordinary readable wording for a shown traversal when the sentence makes the exact slice clear. Keep *mantra* as bounded seminar or pattern-local recall wording when repetition and attention are the point. Neither expression creates a kind, episteme, scheme, cell, Bridge, row, or publication occurrence. `mantra move` remains E.10.MOVE Plain wording for an E.11.PUA practice-continuation description when such a description is actually shown; ordinary long and local mantras receive no F.17 row.
+Use *demonstrative walkthrough* as ordinary readable wording for a shown traversal when the sentence makes the exact slice clear. Keep *mantra* as bounded seminar or pattern-local recall wording when repetition and attention are the point. Neither expression creates a kind, episteme, scheme, cell, Bridge, row, or publication occurrence. `mantra move` remains E.10.MOVE Plain wording for an E.11.PUA practice-continuation description when such a description is shown; ordinary long and local mantras receive no F.17 row.
 
 If a later use needs a durable public name, first recover one exact slice episteme under C.2.1 from its claim content, the qualified CGUS it concerns, and its effective scheme. F.18 may then record one naming settlement and F.17 may record one row after the ordinary gate. A second cell and F.9 Bridge are justified only when another exact scheme-and-sense projection and a named current correspondence use both exist. Availability of any selected row edition still requires a separate exact E.24.PUB publication package.
 
@@ -286,7 +294,9 @@ Do not create a public F.17 row for `ModelExpressionCoherencePredicate`: that la
 
 #### F.17:12.4f - Viewpoint, view, and conformance-relation public rows
 
-Use three separate rows for the different receiver needs below. E.24.UK admits `U.Viewpoint` and `U.View` as same-individual dependent kinds under `U.Episteme`; E.17.0 defines their positive membership predicates and `EpistemeViewpointConformanceRelation`. Stable Core citation and typed-reference use justify the rows. Retain the existing Tech designations under F.14 rather than creating a synonym family; establish membership, relation obtaining and publication through their separate governing rules.
+Use three separate rows for the different receiver needs below. E.24.UK admits `U.Viewpoint` and `U.View` as same-individual dependent kinds under `U.Episteme`; E.17.0 defines their positive membership predicates and `EpistemeViewpointConformanceRelation`.
+
+Stable Core citation and typed-reference use justify the rows. Retain the existing Tech designations under F.14 rather than creating a synonym family; establish membership, relation obtaining and publication through their separate governing rules.
 
 The two existing dependent-kind designations use the following F.18 naming-settlement epistemes. They remain distinct from the E.24.UK admission results, the governed kinds, their members, every reference or designator, and the F.17 rows that cite them.
 
@@ -489,7 +499,9 @@ Each row retains its C.2.1 episteme identity and refers separately to the govern
 
 #### F.17:12.4g - Make a settled row available only through a separate publication operation
 
-Do not perform an E.24.PUB publication operation on a placeholder. First require the governed value, its lexical classification, the reference scheme's selected name and permitted scope, and the intended reader use to pass F.18 and the ordinary F.17 row gate. If any input is unresolved, keep it as naming work rather than representing it as a current row. When availability is current, state how the selected row edition is available to its audience for the bounded use through an expression and carrier. E.24.PUB governs that claim at its required granularity; name reusable-form conformance only when it matters.
+Do not perform an E.24.PUB publication operation on a placeholder. First require the governed value, its lexical classification, the reference scheme's selected name and permitted scope, and the intended reader use to pass F.18 and the ordinary F.17 row gate. If any input is unresolved, keep it as naming work rather than representing it as a current row.
+
+When availability is current, state how the selected row edition is available to its audience for the bounded use through an expression and carrier. E.24.PUB governs that claim at its required granularity; name reusable-form conformance only when it matters.
 
 A NameCard, scheme-sense cell, basis relation, row reference, or E.24.PUB occurrence substitutes for none of those decisions. Keep predicate definition, actual use, basis analysis, naming settlement, row admission, and downstream availability separate.
 
@@ -706,7 +718,9 @@ SenseCell.SystemRoleKindRelationStructure.FPFCore.2026-08-09:
 
 #### F.17:12.4i - Architectural Reference term row
 
-This row makes the F.18:4.2e settlement reusable for the architectural-reference form already governed by E.4, E.11.PFP and E.11.DSG. The governed value is the functional publication-unit form, not a newly minted root kind. A single row is useful because the same function is cited across these rules and applied at framework, Suite and Library levels. The row identifies that function without identifying all its instances as one publication.
+This row makes the F.18:4.2e settlement reusable for the architectural-reference form already governed by E.4, E.11.PFP and E.11.DSG. The governed value is the functional publication-unit form, not a newly minted root kind.
+
+A single row is useful because the same function is cited across these rules and applied at framework, Suite and Library levels. The row identifies that function without identifying all its instances as one publication.
 
 ```text
 UTSRowId: UTS.ArchitecturalReference.FPFCore.2026-10-12
@@ -736,5 +750,5 @@ SenseCell.ArchitecturalReference.FPFCore.2026-10-12:
   NameCardRef: NC-ARCHITECTURAL-REFERENCE
 ```
 
-For example, *FPF Library Architectural Reference* and *Engineering Suite Architectural Reference* identify different explained wholes. An embedded *Method Engineering Principle Framework Architectural Reference* performs the same function for that framework. The account's actual use and change boundary decides whether it is independently managed; its title alone does not. The row makes the designation recoverable, while E.24.PUB separately governs any publication of this row or a particular architectural reference.
+For example, *FPF Library Architectural Reference* and *Engineering Suite Architectural Reference* identify different explained wholes. An embedded *Method Engineering Principle Framework Architectural Reference* performs the same function for that framework. Whether the account is independently managed depends on its use and change boundary. Its title alone does not decide this. The row makes the designation recoverable, while E.24.PUB separately governs any publication of this row or a particular architectural reference.
 

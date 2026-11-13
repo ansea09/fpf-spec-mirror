@@ -6,12 +6,12 @@ section_id: "A.2.6:2"
 section_title: "Context"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__003_context.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Test Scope Membership and Combine Scopes"
   - "A.2.6:2 — Context"
-line_start: 6721
-line_end: 6747
+line_start: 7023
+line_end: 7049
 dependencies:
   - "A.1.1"
   - "A.15.1"
@@ -40,13 +40,13 @@ A project may combine formal specifications, data-driven models, safety cases an
 * Standards and specs often say *applicability* or *scope*.
 * Modeling communities say *envelope*.
 * Safety and performance documents speak about *capability envelope*.
-* Knowledge patterns have used *generality* (G) as if it were “more abstract,” when we actually need “**where the statement holds**.”
+* Knowledge patterns have used *generality* (G) as if it were “more abstract,” when we need “**where the statement holds**.”
 
 #### A.2.6:2.2 - Slice-bounded reasoning
 
 `U.ContextSlice` is an addressable value identified by its exact declared selector schema and selector values under the effective reference scheme: for example local senses, named standard editions, environmental values, platform or cohort selectors, and a time selector when that selector belongs to the declared schema. One scope predicate may inspect only a projection of those selectors, but that projection does not reidentify the slice.
 
-The practical question is therefore concrete: *does this exact slice belong to this exact scope?* A phrase such as “inside the current context,” a project label, or a selected `U.Structure` does not answer it.
+The practical question is therefore concrete: *does this slice belong to this scope?* A phrase such as “inside the current context,” a project label, or a selected `U.Structure` does not answer it.
 
 #### A.2.6:2.3 - Minimal, composable trust math
 
@@ -56,5 +56,5 @@ In **F–G–R**:
 * **G** must be “**where it holds**,” not “how abstract it sounds.”
 * **R** describes how strongly the claim is warranted by its evidence under the declared scope and use conditions (C.2.2). Observed semantic mismatch or loss may be evidence about a proposed translation, while the permitted-loss tolerance belongs to the separate C.2.1 claim about that use.
 
-When **G** is a **set‑valued scope**, composition becomes precise: serial dependencies **intersect** scopes; parallel, independently supported lines can publish a **SpanUnion**—but only where each line is supported.
+When **G** is a **set‑valued scope**, serial dependencies **intersect** scopes; parallel, independently supported lines can publish a **SpanUnion** over their supported areas.
 

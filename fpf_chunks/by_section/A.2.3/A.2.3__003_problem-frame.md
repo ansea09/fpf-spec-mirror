@@ -6,43 +6,19 @@ section_id: "A.2.3:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__003_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.2.3 — U.PromiseContent — Promised Outcomes and Acceptance Criteria"
   - "A.2.3:1 — Problem frame"
-line_start: 5590
-line_end: 5603
+line_start: 5780
+line_end: 5795
 dependencies:
-  - "A.1.1"
-  - "A.10"
-  - "A.15.1"
-  - "A.15.2"
-  - "A.15.PROD"
-  - "A.2"
-  - "A.2.1"
   - "A.2.2"
-  - "A.2.6"
   - "A.2.8"
-  - "A.2.9"
-  - "A.3.1"
-  - "A.3.2"
-  - "A.6.1"
   - "A.6.C"
   - "A.6.P"
-  - "A.7"
-  - "B.3"
-  - "C.2.1"
   - "E.10"
   - "F.12"
-  - "F.9"
-  - "U.ClaimScope"
-  - "U.Episteme"
-  - "U.Method"
-  - "U.MethodDescription"
-  - "U.SystemRoleAssignment"
-  - "U.Work"
-  - "U.WorkPlan"
-  - "U.WorkScope"
 keywords:
   - "SLA"
   - "SLO"
@@ -59,9 +35,11 @@ keywords:
 
 Across domains the word **service** is used for many different things: a server or **provider**, an **API**, a **procedure**, a **run**, a **department**, even a **product bundle**. Such polysemy is productive in everyday speech. In a normative model, the current claim must identify which referent is meant.
 
-FPF therefore reserves **`U.PromiseContent`** for one kernel meaning: a consumer-facing **promise content** clause. When *service* denotes something else, use **A.6.P:4.11a** to recover whether it denotes code or another episteme, a Method, a Work occurrence or ordinary run, provider participation, an exact bearer or access-providing arrangement, permission, status, or a direct relation. A product label chooses none of these readings, and bare *service* has no default system reading. After recovery, name the referent or relation. Apply A.1 or A.1.SCR only when the recovered referent is an entity and the claim depends on its being a system.
+FPF therefore reserves **`U.PromiseContent`** for one kernel meaning: a consumer-facing **promise content** clause. When *service* denotes something else, use **A.6.P:4.11a** to recover whether it denotes code or another episteme, a Method, a Work occurrence or ordinary run, provider participation, a bearer or access-providing arrangement, permission, status, or a direct relation. A product label chooses none of these readings, and bare *service* has no default system reading. After recovery, name the referent or relation. Apply A.1 or A.1.SCR only when the recovered referent is an entity and the claim depends on its being a system.
 
-**Plain reading.** A promise content says what a consumer may rely on. A provider System can be classified under a local provider system-role kind. When a claim needs exact delivery Work, use A.13 to identify the System that actually did it. A.15.1 then admits the dated occurrence as Work from its Method, history, extent, and containing System, without relying on F.6. If the current use also needs to say exactly under which assignment that Work was performed, F.6 checks the separate relation against the same assignment used by A.13. A `U.MethodDescription` describes the Method.
+**Plain reading.** A promise content says what a consumer may rely on. A provider System can be classified under a local provider system-role kind. When a claim needs exact delivery Work, use A.13 to identify the System that did it. A.15.1 then admits the dated occurrence as Work from its Method, history, extent, and containing System, without relying on F.6.
+
+If the current use also needs to say exactly under which assignment that Work was performed, F.6 checks the separate relation against the same assignment used by A.13. A `U.MethodDescription` describes the Method.
 
 `PromiseContentUse` obtains between the delivery-work occurrence and the selected promise-content edition during the named interval. Work-participation, affected-referent, change, delivery, and acceptance relations state what happened.
 

@@ -3,15 +3,15 @@ chunk_kind: "child"
 pattern_id: "E.14"
 pattern_title: "Human-Centric Working-Model: Readable Claims and Recoverable Assurance"
 section_id: "E.14:8"
-section_title: "Conformance Checklist (normative; author‑facing duties for thought and prose)"
+section_title: "Conformance Checklist (normative author duties in reasoning and writing)"
 source_path: "FPF-Spec.md"
-output_path: "by_section/E.14/E.14__011_conformance-checklist-normative-author-facing-duties-for-thought-and-prose.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+output_path: "by_section/E.14/E.14__011_conformance-checklist-normative-author-duties-in-reasoning-and-writing.md"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.14 — Human-Centric Working-Model: Readable Claims and Recoverable Assurance"
-  - "E.14:8 — Conformance Checklist (normative; author‑facing duties for thought and prose)"
-line_start: 105468
-line_end: 105526
+  - "E.14:8 — Conformance Checklist (normative author duties in reasoning and writing)"
+line_start: 111907
+line_end: 111977
 dependencies:
   - "B.3.5"
   - "C.13"
@@ -22,7 +22,7 @@ dependencies:
 keywords:
 ---
 
-### E.14:8 - Conformance Checklist *(normative; author‑facing duties for thought and prose)*
+### E.14:8 - Conformance Checklist *(normative author duties in reasoning and writing)*
 
 | ID                                         | Requirement                                                                                                                                                                      | Purpose                                                       |
 | ------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- |
@@ -34,7 +34,7 @@ keywords:
 | **CC‑E14‑6 (Notational independence).**    | Core meaning **MUST** remain recoverable independently of one specific notation. Illustrative expressions **SHALL** be marked informative. An expression carrying a reasoning or construction step **SHALL** explain its operation and prerequisites or cite their subject guidance; comparisons and substitutions retain the E.5.2 semantic-mapping duty.                                                          | Ensure longevity and cross‑discipline portability.            |
 | **CC‑E14‑7 (Layer direction).**            | Authors **SHALL** avoid back-defining Working-Model terms by their assurance publications or records; dependence is one‑way (Working‑Model → Assurance).                                       | Preserve unidirectional dependence of layers.                 |
 | **CC‑E14‑8 (Template compliance).**        | Sections **SHALL** follow the canonical pattern order; *Archetypal Grounding* is mandatory for architectural patterns.                                                                            | Keep patterns comparable and auditable by reading.            |
-| **CC-E14-9 (Purpose-selected assurance).** | Authors **SHOULD** select the support needed by the current claim and use. The `postulate`, `inferential`, and `axiomatic` modes are permitted justification postures under their applicable profile, not an ordered ladder of confidence or rigor. Use **Empirical Validation** when observation addresses the actual assurance question. | Preserve branch-specific obligations without demanding promotion through mode labels. |
+| **CC-E14-9 (Purpose-selected assurance).** | Authors **SHOULD** select the support needed by the current claim and use. The `postulate`, `inferential`, and `axiomatic` modes are permitted justification postures under their applicable profile, not an ordered ladder of confidence or rigor. Use **Empirical Validation** when observation addresses the assurance question for this use. | Preserve branch-specific obligations without demanding promotion through mode labels. |
 | **CC-E14-10 (Structural grounding handshake).** | When a publication elects `B.3.5` for a structural parthood or collection-belonging assertion, the author **SHALL** keep the readable claim first, declare `validationMode=axiomatic`, and link through `tv:groundedBy` to exactly one current C.2.1 construction-trace episteme in the applicable C.13 form: `sum` or `slice` for structural parthood, or `set` for collection belonging. Another named current assurance requirement governs its own obligations. Outside those conditions, a direct structural claim has no E.14 mode, link, or trace obligation. In every case, the direct relation pattern and the candidate's identity or reidentification rule decide occurrence and continuity; a trace and mode create neither. | Makes selected construction assurance inspectable while keeping ordinary use, ontology, identity, and currentness separate. |
 | **CC‑E14‑11 (Postulate and empirical-result bindings).** | Authors **SHALL** retain the elected profile's actual support obligations. A permitted B.3.5 `postulate` states scope, links an admissible evidence object and gives empirical challenge cues. Reliance on an evaluation or measurement result **SHALL** preserve its necessary subject, result, scope, interpretation and source grounds. Where consumed, dated Work has its A.13 performer basis and independent A.15.1 admission, enacted Method and applicable bindings; F.6 supplies assignment-bound attribution. MethodDescription, classification, result-episteme identity and temporal qualification are retained when required by the claim or profile. Use A.10 when the source-to-use account needs explicit recovery or replay and B.3 for a current assurance claim. | Keeps empirical support and selected obligations recoverable without creating unused identities or a universal provenance route. |
 | **CC-E14-12 (F-declaration).**             | Normative Working-Model epistemes **SHALL** make the expression conditions needed for their intended use recoverable under C.2.3. Use stable terms and explicit conditions where ambiguity would change that use; a separate profile or local score is needed only when a receiving comparison or check consumes it. Readability remains a separate Working-Model duty. Any composite-F cap applies to the assessed expression and its essential content or inference under C.2.3, not automatically to external evidence. An assurance use consumes F only when its own argument needs it. | Makes required expression properties recoverable without a universal formality rank. |
@@ -46,13 +46,25 @@ keywords:
 **E — Worked examples**
 
 1. **Exact skid assembly -> “Component Of”**
-   For PumpSkid 7, recover the pump, frame, reservoir, valve set, and other constituents; the direct fastening, coupling, enclosure, terminal, flange, and seal occurrences that obtain; the applicable skid assembly rule; and the skid reidentification rule. The team may publish each truthful **Component Of** claim and stop there. If the publication elects `B.3.5`, keep that readable claim first, link it to one current C.2.1 `sum` trace that reports the basis, and declare `validationMode=axiomatic`. The same parts unconnected or assembled differently do not thereby form PumpSkid 7. A permitted pump replacement may preserve PumpSkid 7. The direct relations and reidentification rule decide; the trace and posture do not.
+   For PumpSkid 7, recover the pump, frame, reservoir, valve set, and other constituents; the direct fastening, coupling, enclosure, terminal, flange, and seal occurrences that obtain; the applicable skid assembly rule; and the skid reidentification rule.
+
+   The team may publish each truthful **Component Of** claim and stop there. If the publication elects `B.3.5`, keep that readable claim first, link it to one current C.2.1 `sum` trace that reports the basis, and declare `validationMode=axiomatic`.
+
+   The same parts unconnected or assembled differently do not thereby form PumpSkid 7. A permitted pump replacement may preserve PumpSkid 7. The direct relations and reidentification rule decide; the trace and posture do not.
 
 2. **Cartridges that belong to a bank under its collection rule**
-   For a four-cartridge bank, identify the bank and its collection-identity rule, then state which cartridge belongs to it and what makes that belonging begin and end. A C.13 `set` trace can report the collection for assurance. Parallel use, physical proximity, a list, or an author's gathering act does not establish that a cartridge belongs to the bank, does not imply **Component Of**, and does not make the bank an acting system.
+   For a four-cartridge bank, identify the bank and its collection-identity rule, then state which cartridge belongs to it and what makes that belonging begin and end.
+
+   A C.13 `set` trace can report the collection for assurance.
+
+   Parallel use, physical proximity, a list, or an author's gathering act does not establish that a cartridge belongs to the bank, does not imply **Component Of**, and does not make the bank an acting system.
 
 3. **Bearer, facet rule, and aspect -> “Aspect Of”**
-   For the thermal envelope of one reactor, identify the reactor bearer, the thermal-envelope aspect, the thermal-facet rule, the **Aspect Of** occurrence, and the aspect's identity rule. A C.13 `slice` trace can report those facts. Selecting a view, naming a facet, carving a diagram, or choosing a time window creates no aspect occurrence and no independent system.
+   For the thermal envelope of one reactor, identify the reactor bearer, the thermal-envelope aspect, the thermal-facet rule, the **Aspect Of** occurrence, and the aspect's identity rule.
+
+   A C.13 `slice` trace can report those facts.
+
+   Selecting a view, naming a facet, carving a diagram, or choosing a time window creates no aspect occurrence and no independent system.
 
 > **Notes across the examples**
 > • Keep the ordinary working statement first: **Component Of** or **Aspect Of** where that direct relation is admitted, and a subject-specific sentence such as “this cartridge belongs to this bank under the bank's rule” for collection belonging. When an assurance profile calls for a construction account, the linked trace makes that basis inspectable.
@@ -62,19 +74,19 @@ keywords:
 
 **What improves**
 
-* **One readable structural vocabulary.** Teams can ask which claim obtains—component parthood, belonging under the collection's own rule, aspect, or another direct relation—without exposing assurance machinery in ordinary work. When a profile calls for support, assurance readers can also recover the participants, direct relation facts, construction rule, and identity conditions behind the published assertion.
+* **One readable structural vocabulary.** In ordinary work, teams can ask whether a stated relation obtains. Examples include component parthood, belonging under a collection's own rule and the relation of an aspect to its bearer. When a profile calls for support, assurance readers can also recover the participants, direct relation facts, construction rule, and identity conditions behind the published assertion.
 * **Explicit identity tests.** Input lists and traces do not decide identity. Different assembly relations can make the same listed inputs another whole; an admitted replacement can preserve one whole. Collections use their own identity rule and belongs-to occurrences; aspects use the bearer, facet, direct relation, and aspect identity.
-* **Layer harmony.** Engineer-facing labels live at the same level as other relation names, while their warrants and construction accounts live one step below, keeping human language clean and the claim basis auditable.
+* **Relation labels and their grounds.** Engineers use the labels alongside other relation names. Their warrants and construction accounts stay below the working text, so the labels remain readable and the claims can be audited.
 
 **What to watch**
 
-* **Discipline for structural relation kinds.** A published structural assertion is unsafe when its direct relation basis or identity test is missing, even if a trace or `axiomatic` flag exists. Conversely, forcing epistemic links to pretend they are structural over-physicalises knowledge claims; for those, a direct logical or evidence relation is the right currency.
+* **Discipline for structural relation kinds.** A published structural assertion is unsafe when its direct relation basis or identity test is missing, even if a trace or `axiomatic` flag exists. A knowledge relation such as RepresentationOf or UsageOf does not by itself establish structural parthood. Use the direct logical or evidence relation appropriate to the claim.
 * **Author workload follows the required support.** Day-to-day model authors use working labels; specification authors recover the direct relation occurrence and identity test and keep a current construction account when the publication policy requires it. That account adds authoring and maintenance work where needed. It supports review but does not repair missing world-side facts.
 
 **Invariants you must preserve**
 
 * **Parsimony of construction accounts.** Use `sum` to report integrated assembly, `set` to report a collection, and `slice` to report an aspect. Do not treat them as generative acts or add forms for parallelism or time-slicing; order and time remain with their own patterns.
-* **Relation-kind-specific justification.** A direct structural claim needs grounded relation occurrences and its applicable identity test. It needs an inspectable construction account only when an elected profile or named current requirement calls for one. Epistemic claims use the logical or evidence relations they actually need. No assurance route changes the relation kind being claimed.
+* **Relation-kind-specific justification.** A direct structural claim needs grounded relation occurrences and its applicable identity test. It needs an inspectable construction account only when an elected profile or named current requirement calls for one. Epistemic claims use the logical or evidence relations they need. No assurance route changes the relation kind being claimed.
 
 **Known consequences**
 

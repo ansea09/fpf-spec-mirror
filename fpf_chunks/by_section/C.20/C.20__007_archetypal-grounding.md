@@ -6,12 +6,12 @@ section_id: "C.20:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.20/C.20__007_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.20 — Composition of U.Discipline (Discipline-CAL)"
   - "C.20:5 — Archetypal Grounding"
-line_start: 62411
-line_end: 62462
+line_start: 64935
+line_end: 64992
 dependencies:
   - "A.1"
   - "A.14"
@@ -29,13 +29,7 @@ dependencies:
   - "C.2.1"
   - "C.20"
   - "C.21"
-  - "C.22"
-  - "C.23"
-  - "C.3"
-  - "E.10"
   - "E.24.UK"
-  - "F.17"
-  - "F.18"
   - "F.9"
   - "G.5"
 keywords:
@@ -51,7 +45,7 @@ keywords:
 
 ### C.20:5 - Archetypal Grounding
 
-#### C.20:5.0 - Keep the System/Episteme contrast without making the table a constructor
+#### C.20:5.0 - System/Episteme contrast
 
 The examples distinguish the field candidate from a system, episteme and the relations used to describe its construction. Each cell retains its own subject pattern; the table is not an assembly rule.
 
@@ -73,13 +67,19 @@ The field assembly makes these exact contributions current:
 - `HazardAnalysisMethod-v4` supplies the reusable analysis practice by which those meanings constrain identification and treatment of hazards;
 - `IncidentLearningMethod-v2` supplies the reusable practice by which separately governed incident and evaluation results can challenge or refine the canon claims.
 
-The three exact relation occurrences are `disciplinePartOf(HazardCausalityCanon-v5, SafetyEngineering-SE)@I-SE-core-1`, `disciplinePartOf(HazardAnalysisMethod-v4, SafetyEngineering-SE)@I-SE-core-1`, and `disciplinePartOf(IncidentLearningMethod-v2, SafetyEngineering-SE)@I-SE-core-1`. They share the explicitly identified maximal current continuous obtaining interval `I-SE-core-1 = [2024-04-01T09:00Z, open)`: its left boundary is the dated field-assembly activation at which all three contributions first became jointly required. At the continuation check `2026-07-31T23:59Z`, each contribution remains required, the canon meanings remain connected to method preconditions and result meanings as stated by the exact whole-forming claims, the same candidate and reidentification rule continue, and no cessation boundary has occurred; therefore the right boundary remains open. If any contribution ceases and later resumes, that part's interval ends at cessation and a new `disciplinePartOf` occurrence begins at resumption. The actual field assembly requires those contributions, and the reidentification rule admits them as current parts. The local A.17 Characteristic `PracticeKnowledgeCouplingReplayability` has the exact subject `SafetyEngineering-SE` and the ordinal A.18 Scale `broken < partial < replayable`: its criterion asks whether the named canon-to-Method constraints and result-to-canon revision routes remain executable across the declared safety-work classes. No constituent can have that whole value alone. If a current use needs a measured value, C.16 requires the exact measurement subject, method, model, Scale, dated measurement Work, uncertainty, and result episteme; the label alone supplies no reading.
+The three exact relation occurrences are `disciplinePartOf(HazardCausalityCanon-v5, SafetyEngineering-SE)@I-SE-core-1`, `disciplinePartOf(HazardAnalysisMethod-v4, SafetyEngineering-SE)@I-SE-core-1`, and `disciplinePartOf(IncidentLearningMethod-v2, SafetyEngineering-SE)@I-SE-core-1`. They share the maximal current continuous obtaining interval `I-SE-core-1 = [2024-04-01T09:00Z, open)`: its left boundary is the dated field-assembly activation at which all three contributions first became jointly required.
+
+At the continuation check `2026-07-31T23:59Z`, each contribution remains required, the canon meanings remain connected to method preconditions and result meanings as stated by the exact whole-forming claims, the same candidate and reidentification rule continue, and no cessation boundary has occurred; therefore the right boundary remains open. If any contribution ceases and later resumes, that part's interval ends at cessation and a new `disciplinePartOf` occurrence begins at resumption. The field assembly requires those contributions, and the reidentification rule admits them as current parts.
+
+The local A.17 Characteristic `PracticeKnowledgeCouplingReplayability` has the exact subject `SafetyEngineering-SE` and the ordinal A.18 Scale `broken < partial < replayable`: its criterion asks whether the named canon-to-Method constraints and result-to-canon revision routes remain executable across the declared safety-work classes. No constituent can have that whole value alone.
+
+If a current use needs a measured value, C.16 requires the exact measurement subject, method, model, Scale, dated measurement Work, uncertainty, and result episteme; the label alone supplies no reading.
 
 The reidentification rule permits a compatible canon revision or replacement Method only when the field boundary, causal and argument meanings, practice-knowledge feedback, and whole characteristic remain within declared continuity conditions. Removing the feedback route, changing the governing safety concern and field boundary, or replacing the assembly by unrelated document and method lists falls outside the rule.
 
 `Safety Journal`, a standards committee, a university curriculum, a laboratory, a bridge to resilience-engineering terminology, a comparison CG-Spec, and a published discipline card remain separately governed. This example establishes no C.20 part predicate for them, so their parthood remains unresolved. A positive or negative part claim needs the corresponding C.20 grounds.
 
-For A.1's larger-assembly test, the separately identified rule episteme `EngineeringFieldAssemblyRule-v3` describes a governed larger-field construction whose applicability requires one constituent field to expose stable hazard-constraint meanings, analysis-result meanings, and identity-preserving interfaces to design and verification practices. `SafetyEngineering-SE` has those actual interfaces and its reidentification rule preserves them, so it is compatible with that possible assembly while remaining the same candidate. The rule episteme does not create the compatibility facts, and this result asserts no actual `disciplinePartOf(SafetyEngineering-SE, Engineering-E)` occurrence.
+For A.1's larger-assembly test, the separately identified rule episteme `EngineeringFieldAssemblyRule-v3` describes a governed larger-field construction whose applicability requires one constituent field to expose stable hazard-constraint meanings, analysis-result meanings, and identity-preserving interfaces to design and verification practices. `SafetyEngineering-SE` has those interfaces and its reidentification rule preserves them, so it is compatible with that possible assembly while remaining the same candidate. The rule episteme does not create the compatibility facts, and this result asserts no actual `disciplinePartOf(SafetyEngineering-SE, Engineering-E)` occurrence.
 
 A C.13 `Gamma_m.sum` trace may report the candidate, three parts, three part-relation occurrences, whole-forming claims, assembly, reidentification rule, and whole characteristic. Writing or publishing that trace does not construct `SafetyEngineering-SE`.
 
@@ -87,11 +87,11 @@ A C.13 `Gamma_m.sum` trace may report the candidate, three parts, three part-rel
 
 `Safety Department A` performs research and teaching Work. Its repository contains standards and papers, and its registry lists analysis Methods. Those facts identify the organization, its research and teaching Work, the standards and papers, and registry membership under their subject patterns. Any publication occurrence additionally needs its own audience-availability basis under E.24.PUB.
 
-They leave the field constituents, `disciplinePartOf` occurrences, practice-knowledge assembly, whole characteristic and reidentification rule unresolved. The discipline classification is therefore unknown on these facts. The recovered collection and work organization may suffice for the current question; do not fill missing card positions to manufacture a positive classification.
+They leave the field constituents, `disciplinePartOf` occurrences, practice-knowledge assembly, whole characteristic and reidentification rule unresolved. The discipline classification is therefore unknown on these facts. The recovered collection and work organization may suffice for the current question; do not treat filled card positions as grounds for a positive classification.
 
 #### C.20:5.3 - Cross-field reuse does not create a transdiscipline
 
-A safety-engineering team proposes to reuse one resilience-engineering term. F.17 resolves the two exact `SchemeSenseCell` values, and their semantic-context projections differ. The stated directed `BridgePredicateProfile` applies to those endpoint readings at its stated as-of basis; the current endpoint meanings satisfy its relation-kind-specific semantic condition and Boolean truth condition; and all required dependencies are present. F.9 therefore identifies an obtaining directed Bridge. A separate bounded-use proposition states the direction, mapping rule, tolerated loss, and polarity for this hazard-review use. Exact review Work may rely on that proposition through A.10, and a comparison may apply A.19.CPM.
+A safety-engineering team proposes to reuse one resilience-engineering term. F.17 resolves the two exact `SchemeSenseCell` values, and their semantic-context projections differ. The stated directed `BridgePredicateProfile` applies to those endpoint readings at its stated as-of basis; the current endpoint meanings satisfy its relation-kind-specific semantic condition and Boolean truth condition; and all required dependencies are present. F.9 therefore identifies an obtaining directed Bridge. A separate bounded-use proposition states the direction, mapping rule, tolerated loss, and polarity for this hazard-review use. Review Work may rely on that proposition through A.10, and a comparison may apply A.19.CPM.
 
 These facts establish no `disciplinePartOf` occurrence and no new discipline. Calling the work transdisciplinary requires a declared classification criterion. Claiming one new integrated discipline requires another exact candidate and all six C.20 construction components; one Bridge, two labels, or two selected structures cannot supply them.
 

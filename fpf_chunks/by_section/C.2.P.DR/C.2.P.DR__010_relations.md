@@ -6,12 +6,12 @@ section_id: "C.2.P.DR:8"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P.DR/C.2.P.DR__010_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.2.P.DR — Repair Claims Based on Declarative Form Alone (Declarative Representation Precision Restoration)"
   - "C.2.P.DR:8 — Relations"
-line_start: 55038
-line_end: 55044
+line_start: 57314
+line_end: 57320
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -47,7 +47,7 @@ keywords:
 ### C.2.P.DR:8 - Relations
 
 - **Builds on:** `E.10`, `E.10.ARCH`, `C.2.P`, `A.7`, `E.17`, `E.8`, and `F.19`.
-- **Coordinates with:** `E.18`, `E.18.1`, `A.2.4`, `A.10`, `A.19.SPR`, `A.3.1`, `A.3.2`, `A.6.0`, `C.29`, `A.6.1`, `E.20`, `A.15.2`, `A.15.1`, `A.15.4`, `A.20`, `A.21`, `B.3`, and direct publication, gate, authority, release, evidence, method, work, and assurance patterns when those claims are being made.
+- **Coordinates with:** `E.18`, `E.18.1`, `A.2.4`, `A.10`, `A.19.SPR`, `A.3.1`, `A.3.2`, `A.6.0`, `C.29`, `A.6.1`, `E.20`, `A.15.2`, `A.15.1`, `A.15.4`, `A.20`, `A.21`, `B.3`, and direct publication, gate, authority, release, evidence, method, work, and assurance patterns when those claims are made.
 - **Specializes:** `C.2.P` for one recurring case: declarative representation and imperative-metaphor overread.
 - **Used by:** `E.10.ARCH` applicability-row distribution and full-pattern text precision restoration when route, path, workflow, call, or dispatch wording hides representation use.
 

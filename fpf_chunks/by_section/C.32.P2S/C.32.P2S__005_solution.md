@@ -6,43 +6,27 @@ section_id: "C.32.P2S:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.P2S/C.32.P2S__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.32.P2S — Problem-to-Structure Architecturing Unfolding"
   - "C.32.P2S:4 — Solution"
-line_start: 77077
-line_end: 77184
+line_start: 80780
+line_end: 80927
 dependencies:
   - "A.1"
   - "A.1.SCR"
   - "A.1.STM"
   - "A.15.6"
   - "A.22"
-  - "A.22.CGUS"
-  - "A.3.4"
-  - "B.2"
   - "C.22.2"
   - "C.25"
   - "C.29"
   - "C.30"
-  - "C.30.AD"
-  - "C.30.ASV"
-  - "C.30.ILC"
-  - "C.30.TFS-REL"
   - "C.31"
   - "C.32"
-  - "C.32.ACE"
-  - "C.32.ACS"
-  - "C.32.CONWAY"
-  - "C.32.FAIL"
-  - "C.32.HCS"
-  - "C.32.MLAO"
   - "C.33"
-  - "C.34"
   - "C.35"
   - "E.17"
-  - "E.18"
-  - "E.18.3"
   - "E.24.PUB"
 keywords:
 ---
@@ -51,35 +35,63 @@ keywords:
 
 Apply the smallest useful part of the action sequence below. Create or update `ProblemToStructureArchitecturingFlowCard@Project` only when its record is useful for that work. The numbered presentation guides attention; it is not by itself a claim about the order, identity, or occurrence of project Work or actual transformations. When the applicable rule in another pattern fully answers the current question, use that pattern and stop there. Continue P2S only while the connected project-local architecturing flow remains the object of the question.
 
-Before selecting internal structure, state the expected receiving change, the beneficiary or relying use, its operating time and relevant encompassing functioning, and the hypothesis by which the proposed result could support that use. In a systemic product account, recover the common SoI and its actual or intended boundary. Move toward use and upward through relevant part–whole relations before moving inward to construction or backward to creation. A creator, owner or larger project is not a containing System by that fact. A merely intended system stays in plan or description content. A.1 and A.1.SCR govern actual-system recognition; A.15.6 recovers the project Work, designation and local subject.
+Before selecting internal structure, state the expected receiving change, the beneficiary or relying use, its operating time and relevant encompassing functioning, and the hypothesis by which the proposed result could support that use. In a systemic product account, recover the common SoI and its actual or intended boundary. Move toward use and upward through the relevant part–whole relations. Explain how the parts of the encompassing whole function together and derive the system's required contribution before moving inward to construction or backward to creation.
 
-The architectural subject can be the product, a component or a creator being developed. For the creator, state the product uses that justify its capability, then investigate the organization's own structures and the finite local result to be accepted under A.1.STM:4.1.1. Here the organization is the system-in-hand; the product remains the SoI. A distinct usable machine or component supply can have its own product SoI under A.1.STM:4.1; changing a contract or assigning the same organizational work to an external provider leaves its product-use basis in place. Several products can constrain one creator decision. Preserve the relevant demands, shared capacity and authorized limits instead of choosing whichever product makes the preferred option look best.
+A creator, owner or larger project is not a containing System by that fact. A merely intended system stays in plan or description content. A.1 and A.1.SCR govern actual-system recognition; A.15.6 recovers the project Work, designation and local subject.
 
-Compare creator-architecture alternatives by the capability they can provide under those conditions, including the required Methods, people, means, access, cooperation and authority. Carry material gains and losses through to C.32.PAD and to the acceptance of the promised local result. For example, acquiring equipment, preparing its operators and establishing a workshop's production capability have different completion grounds. Suitable evidence can establish a bounded capability before every future product is used; uncertainty about the later product effect remains explicit. Research may instead finish with a supported answer or a reason to stop the proposed development.
+The architectural subject can be the product, a component or a creator being developed. For the creator, state the product uses that justify its capability, then investigate the organization's own structures and the finite local result to be accepted under A.1.STM:4.1.1. Here the organization is the system-in-hand; the product remains the SoI.
 
-Use A.1.STM:4.1–4.3 when the common use basis or the local subject's contribution remains unclear. Preserve an adequate shared account and independently useful local answers. When only a particular dependency is unsupported, A.1.STM:4.4 locates that gap. A known local architecture question does not require repeating the whole account; a missing purpose prevents only a choice that depends on that purpose from being justified.
+A distinct usable machine or component supply can have its own product SoI under A.1.STM:4.1; changing a contract or assigning the same organizational work to an external provider leaves its product-use basis in place.
 
-Use the analogy with `E.18.1` P2W narrowly. A P2W use carries an accepted problem-side record or exact accepted C.22.2 `ProblemCard` episteme plus the carried distinction into the next FPF use. A C.32.P2S use carries architecture-relevant pressure and structural uncertainty into candidate structures, selected structures, project architecture decision, realization work, and actual-structure feedback. The practitioner then uses the pattern for the next question. The analogy ends when that question is method, work, telemetry, publication, or improvement-loop use; use its pattern rather than stretching P2S into generic process management.
+Several products can constrain one creator decision. Preserve the relevant demands, shared capacity and authorized limits instead of choosing whichever product makes the preferred option look best.
 
-1. Recover the problem pressure or architecture concern together with its receiving-use basis. B.5.PI can expose it before a complaint or actual Problem. Name the expected environmental or relying-use change, beneficiary or user, operating time and relevant encompassing relations, common product SoI and boundary hypothesis where a systemic product account is current, required functioning, pressure signals, source-use records, affected holon, and first pattern to use. If the pressure is still only a cue, use C.22.2 and cite the resulting `ProblemCard` episteme when it becomes the accepted input. If an actual Problem is claimed, cite an independently obtaining C.22.PFR `ProblematicForRelation`; the card and its fields create no such occurrence. If the outside-use or system basis is absent, recover the missing contribution before continuing with P2S: use A.1.STM:4.1–4.3 for an unsettled common SoI and the local subject's connection to its use, and the applicable recognition or problem pattern for its own question. Preserve an adequate shared basis and the independently useful local answers.
+Compare creator-architecture alternatives by the capability they can provide under those conditions, including the required Methods, people, means, access, cooperation and authority. Carry material gains and losses through to C.32.PAD and to the acceptance of the promised local result.
+
+For example, acquiring equipment, preparing its operators and establishing a workshop's production capability have different completion grounds. Suitable evidence can establish a bounded capability before every future product is used; uncertainty about the later product effect remains explicit. Research may instead finish with a supported answer or a reason to stop the proposed development.
+
+Use A.1.STM:4.1–4.3 when the common use basis or the local subject's contribution remains unclear. Preserve an adequate shared account and independently useful local answers. When only a dependency is unsupported, A.1.STM:4.4 locates that gap. A known local architecture question does not require repeating the whole account; a missing purpose prevents only a choice that depends on that purpose from being justified.
+
+Use the analogy with `E.18.1` P2W narrowly. A P2W use carries an accepted problem-side record or accepted C.22.2 `ProblemCard` episteme plus the carried distinction into the next FPF use. A C.32.P2S use carries architecture-relevant pressure and structural uncertainty into candidate structures, selected structures, project architecture decision, realization work, and actual-structure feedback. The practitioner then uses the pattern for the next question. The analogy ends when that question is method, work, telemetry, publication, or improvement-loop use; use its pattern rather than stretching P2S into generic process management.
+
+1. Recover the problem pressure or architecture concern together with its receiving-use basis. B.5.PI can expose it before a complaint or actual Problem. Name the expected environmental or relying-use change, beneficiary or user, operating time and relevant encompassing relations, common product SoI and boundary hypothesis where a systemic product account is current, required functioning, pressure signals, source-use records, affected holon, and first pattern to use. For the systemic product account, derive required functioning from how the system contributes with the other parts of its encompassing whole.
+
+   If the pressure is still only a cue, use C.22.2 and cite the resulting `ProblemCard` episteme when it becomes the accepted input. If an actual Problem is claimed, cite an independently obtaining C.22.PFR `ProblematicForRelation`; the card and its fields create no such occurrence.
+
+   If the outside-use or system basis is absent, recover the missing contribution before continuing with P2S: use A.1.STM:4.1–4.3 for an unsettled common SoI and the local subject's connection to its use, and the applicable recognition or problem pattern for its own question. Preserve an adequate shared basis and the independently useful local answers.
 2. Recover the described holon after the outside-use and boundary hypotheses are visible. State the architecture question and intended use, plus ClaimScope or qualification window when either changes the answer. Then recover candidate or selected structure kinds, selected structures when available, and architecture characteristics. Use C.30 for the grounded architecture claim, C.32.HCS for starter characteristic heads, C.32.ACS for project criteria rows, and C.25 when a composite quality family is current.
-3. Represent the structural uncertainty that can change the next action. Identify the relevant unknown structure kinds, internal composition, bearers, interfaces, allocations, variation points or constraints, and distinguish them from expected structures. Explain which information is available or lost at the receiving use. Add a return to stronger inspection when an omitted distinction can change that use.
+3. Represent the structural uncertainty that can change the next action. Identify the unknown structure kinds, internal composition, bearers, interfaces, allocations, variation points or constraints, and distinguish them from expected structures. Explain which information is available or lost at the receiving use. Add a return to stronger inspection when an omitted distinction can change that use.
 4. Generate architecture ideas, principles, constraints, and candidate structure changes from the recovered pressure and outside-use basis. A problem account or source contribution can help reveal a missing structure as well as change an identified one. State the affected or still unknown structure, relevant characteristic, intended gain, known loss and receiving claim; resolve remaining uncertainty through candidate construction and comparison.
 5. Synthesize candidate architecture configurations and candidate sets through `C.32`. Keep function-bearing feasibility, ordinary work organization or actual Work, and candidate-relevant selected structures visible when they change the candidate. Such structures include constructive-module, placement, control, transformation-flow, information, evidence, and scale structures. Route every unresolved claim-bearing *role* cue through `E.10.ROLE`; carry the recovered local system-role kind, separate System-classification judgment, assignment, direct-relation position, function claim, organization or representation position, or ordinary wording rather than a generic role structure.
-6. Compare, retain, declare a selected-set result, publish it, or return alternatives only under the exact predicate that defines or constrains that relation. Use `A.19.CPM` for explicit comparison, `A.19.SelectorMechanism` for set-returning selection, `C.18` and `C.19` for archive, front, and pool policy, `G.5` for selected-set result declaration, and `C.11` for a fixed local choice. For publication, use `E.24.PUB` for the publication occurrence and audience availability, and `E.17` when a source-backed face and source return are needed.
+6. Compare, retain, declare a selected-set result, publish it, or return alternatives only under the predicate that defines or constrains that relation. Use `A.19.CPM` for comparison, `A.19.SelectorMechanism` for set-returning selection, `C.18` and `C.19` for archive, front, and pool policy, `G.5` for selected-set result declaration, and `C.11` for a fixed local choice. For publication, use `E.24.PUB` for the publication occurrence and audience availability, and `E.17` when a source-backed face and source return are needed.
 7. Make a project architecture decision through `C.32.PAD` when implementation commitment is current. The decision relation names the selected architecture option, affected structures, trade-off, accepted losses, method and work consequences, return for action-changing structural loss, and decision repair or supersession condition. For a shared creator, carry the product demands affected by the choice and the actual provision and decision rights on which the capability depends.
-8. Publish descriptions, views, ADR-like records, narrative renderings, or other records only as descriptions, structure-to-narrative renderings, or publication forms of claims about structures, decision relations, method expectations, description or view loss repair, and reader use. Use `C.30.AD`, `C.30.ASV`, `C.32.ADR`, `A.6.3.NAR`, `E.17`, and `E.24.PUB` as applicable.
-9. Name the intended architecting or realizing Systems first, then make the needed Method descriptions, constraints, readiness expectations, work expectations, and structure-use return conditions available to them under their own access or use relations. If the claim is that a System holds an assignment, identify that separately obtaining assignment; assignment does not establish classification. Assess the System's capability and fit through A.2.2 independently. Keep availability or access, local kind, separate classification, assignment, readiness, permission, authority, responsibility, and plan or commitment independent. When performance is claimed, recover each exact actual performer through A.13 and let A.15.1 independently admit the `U.Work`. Add `performedWorkAttributionRefs` only when the flow or receiving use expressly represents precise assignment-bound attribution. Add a Work-to-change relation only when that direct predicate obtains. Return the exact missing governor for an unsupported direct claim.
-10. Realize selected structures in the transformed holon through domain work without treating the selected or expected structure, decision, method, `MethodDescription`, `WorkPlan`, model, description, evaluation result, publication, or transfer as the actual structure or as an actual transformation. Use `A.15.1` for each dated work occurrence and `A.3.4` for each independently identified actual bounded change. If work is said to cause or realize a change, name the Work-to-change relation and use the cited pattern to check the applicable rule. If no reusable relation is available, cite a local claim selected under `A.6.RCD` disposition 2. Use separate local `A.15.PROD` claims only when production-work participation, entity-identity inception, or historically indexed production completion is current. The P2S card records refs to the independently established Work occurrences, transformations, Work-to-change relations, and local production claims.
-11. Observe, inspect, measure, and evaluate subject-side `U.Structure` values whose declared substrate and selected relation organization are recovered under `A.22` from relation occurrences, applied constraints, invariants, or other facts that actually obtain. Include architecture-characteristic results and functional-characteristic or capability implications in operation or use. Ask whether those actual structures enable or block the functions and effects they were meant to bear, and ask what selected structure, accepted loss, counter-characteristic, or functional implication got worse when a visible metric improved. A description, measurement, evaluation result, publication, or resemblance to the selected structure does not itself make a structure actual or establish conformance. Use `C.30` to name an obtaining `ArchitectureRelation` only when its exact holon, selected-structure participant, and predicate are satisfied; keep candidate, required, desired, expected, negative, or unresolved architecture content in an exact `ArchitectureClaim`. Use `C.30.AD` or `C.30.ASV` for actual-structure descriptions or views, `C.32.ACE` for eval programs and eval results, `C.16` for measurement, and `C.25` for Q-bundles. Use `E.23` when repeated improvement method is current, `G.11` when currentness, telemetry, edition, freshness, or decay orchestration is current, `E.18` for transformation-flow slice-local refresh, `C.18` or `C.19` for archive, front, and pool updates, `C.32.PAD` or `C.32.ADA` for decision repair or supersession, `C.32` for new synthesis, and `C.30.AD` or `C.30.ASV` for architecture-description or structural-view loss repair. Use the pattern for the next question to select the return or repair action from actual-structure divergence, eval results, functional implications, freshness loss, description or view loss, and new constraints.
+8. Publish descriptions, views, ADR-like records, narrative renderings, or other records only as descriptions, structure-to-narrative renderings, or publication forms of claims. Those claims concern structures, decision relations, method expectations, description or view loss repair, and reader use. Use `C.30.AD`, `C.30.ASV`, `C.32.ADR`, `A.6.3.NAR`, `E.17`, and `E.24.PUB` as applicable.
+9. Name the intended architecting or realizing Systems first, then make the needed Method descriptions, constraints, readiness expectations, work expectations, and structure-use return conditions available to them under their own access or use relations. If the claim is that a System holds an assignment, identify that separately obtaining assignment; assignment does not establish classification. Assess the System's capability and fit through A.2.2 independently. Keep availability or access, local kind, separate classification, assignment, readiness, permission, authority, responsibility, and plan or commitment independent.
 
-At the realization boundary, keep selected structure, expected structure, actual subject-side structure, exact dated work, independently identified actual transformations, local production claims, actual-structure description, and evaluation result as different objects. Shared assembly work, temporal adjacency, common affected referents, one flow, or one selected configuration establishes neither one composite transformation nor absence of finer transformation parts. If a receiving claim requires transformation composition, return the exact missing-governor blocker; do not use that blocker to stop independent work, inception, completion, actual-structure, description, evaluation, or return claims.
+   When performance is claimed, recover each performer through A.13 and let A.15.1 independently admit the `U.Work`. Add `performedWorkAttributionRefs` only when the flow or receiving use expressly represents precise assignment-bound attribution. Add a Work-to-change relation only when that direct predicate obtains. Return the missing governor for an unsupported direct claim.
+10. Realize selected structures in the transformed holon through domain work without treating the selected or expected structure, decision, method, `MethodDescription`, `WorkPlan`, model, description, evaluation result, publication, or transfer as the actual structure or as an actual transformation. Use `A.15.1` for each dated work occurrence and `A.3.4` for each independently identified actual bounded change.
 
-When architecture-influence correspondence constrains the candidate set, add the C.32.CONWAY branch before synthesis becomes narrow. Name the changed referent and any independently grounded A.3.4 transformation separately. Name every influence source by exact kind. Put only asserted influence facts with an exact obtaining direct relation in `influenceSourceRows[]`; otherwise keep the pressure synthesis-local in the C.32.CONWAY frame with its `missing-governor`, unresolved-grounding, or false-predicate disposition. For each actual architecture side, name the exact C.30 holon, obtaining `ArchitectureRelation`, and selected `U.Structure`; keep modal content in an exact `ArchitectureClaim`. Then frame candidate families that change the influence-source side, the transformed side, both, or declare a bounded mismatch with the named correspondence or decision-repair return condition.
+    If work is said to cause or realize a change, name the Work-to-change relation and use the cited pattern to check the applicable rule. If no reusable relation is available, cite a local claim selected under `A.6.RCD` disposition 2.
+
+    Use separate local `A.15.PROD` claims only when production-work participation, entity-identity inception, or historically indexed production completion is current. The P2S card records refs to the independently established Work occurrences, transformations, Work-to-change relations, and local production claims.
+11. Observe, inspect, measure, and evaluate subject-side `U.Structure` values whose declared substrate and selected relation organization are recovered under `A.22` from relation occurrences, applied constraints, invariants, or other facts that obtain. Include architecture-characteristic results and functional-characteristic or capability implications in operation or use. Ask whether those actual structures enable or block the functions and effects they were meant to bear, and ask what selected structure, accepted loss, counter-characteristic, or functional implication got worse when a visible metric improved.
+
+    A description, measurement, evaluation result, publication, or resemblance to the selected structure does not itself make a structure actual or establish conformance. Use `C.30` to name an obtaining `ArchitectureRelation` only when its holon, selected-structure participant, and predicate are satisfied; keep candidate, required, desired, expected, negative, or unresolved architecture content in an `ArchitectureClaim`.
+
+    Use `C.30.AD` or `C.30.ASV` for actual-structure descriptions or views, `C.32.ACE` for eval programs and eval results, `C.16` for measurement, and `C.25` for Q-bundles.
+
+    Use `E.23` when repeated improvement method is current, `G.11` when currentness, telemetry, edition, freshness, or decay orchestration is current, `E.18` for transformation-flow slice-local refresh, `C.18` or `C.19` for archive, front, and pool updates, `C.32.PAD` or `C.32.ADA` for decision repair or supersession, `C.32` for new synthesis, and `C.30.AD` or `C.30.ASV` for architecture-description or structural-view loss repair. Use the pattern for the next question to select the return or repair action from actual-structure divergence, eval results, functional implications, freshness loss, description or view loss, and new constraints.
+
+At the realization boundary, keep selected structure, expected structure, actual subject-side structure, dated work, independently identified actual transformations, local production claims, actual-structure description, and evaluation result as different objects. Shared assembly work, temporal adjacency, common affected referents, one flow, or one selected configuration establishes neither one composite transformation nor absence of finer transformation parts. If a receiving claim requires transformation composition, return the missing-governor blocker; do not use that blocker to stop independent work, inception, completion, actual-structure, description, evaluation, or return claims.
+
+When architecture-influence correspondence constrains the candidate set, add the C.32.CONWAY branch before synthesis becomes narrow. Name the changed referent and any independently grounded A.3.4 transformation separately. Name every influence source by kind. Put only asserted influence facts with an obtaining direct relation in `influenceSourceRows[]`; otherwise keep the pressure synthesis-local in the C.32.CONWAY frame with its `missing-governor`, unresolved-grounding, or false-predicate disposition.
+
+For each actual architecture side, name the C.30 holon, obtaining `ArchitectureRelation`, and selected `U.Structure`; keep modal content in an `ArchitectureClaim`. Then frame candidate families that change the influence-source side, the transformed side, both, or declare a bounded mismatch with the named correspondence or decision-repair return condition.
 
 #### C.32.P2S:4.1 - P2S Unfolding Structure Block
 
-Use this local block when the architecture question requires the connections among pressure, structure, decision, work and feedback to be represented as one constraint-governed unfolding structure. `P2SUnfoldingStructureBlock` is an architecture-facing local `A.22.CGUS` `U.Structure` specialization block defined here for problem-to-structure architecturing use. That `U.Structure`, the project-local P2S architecturing transformation flow, the P2S method, and the flow-card episteme remain distinct. A pre-admission `ProvisionalUnfoldingDemonstrationDescription` or post-admission `DemonstrativeUnfoldingSlice` is a separate episteme whose displayed order is not the CGUS, flow, method, or Work. The block is not a root U-kind, not an architecture decision, not an ADR, not an architecture description, and not a work plan by itself.
+Use this local block when the architecture question requires the connections among pressure, structure, decision, work and feedback to be represented as one constraint-governed unfolding structure. `P2SUnfoldingStructureBlock` is an architecture-facing local `A.22.CGUS` `U.Structure` specialization block defined here for problem-to-structure architecturing use. That `U.Structure`, the project-local P2S architecturing transformation flow, the P2S method, and the flow-card episteme remain distinct.
+
+A pre-admission `ProvisionalUnfoldingDemonstrationDescription` or post-admission `DemonstrativeUnfoldingSlice` is a separate episteme whose displayed order is not the CGUS, flow, method, or Work. The block is not a root U-kind, not an architecture decision, not an ADR, not an architecture description, and not a work plan by itself.
 
 ```text
 P2SUnfoldingStructureBlock:
@@ -92,7 +104,7 @@ P2SUnfoldingStructureBlock:
   decisionLinkageRef?:
   realizationWorkLinkageRef?:
   actualTransformationRefs[]?:
-  workToChangeRelationRefs[]?: Work-to-change relations that actually obtain
+  workToChangeRelationRefs[]?: Work-to-change relations that obtain
   workToChangeRuleRefs[]?: refs to applicable rules in the cited patterns, or to local claims selected under A.6.RCD disposition 2
   productionWorkClaimRefs[]?:
   entityIdentityInceptionClaimRefs[]?:
@@ -102,10 +114,16 @@ P2SUnfoldingStructureBlock:
   descriptionRefs[]?:
   nextReceivingAction: next action supported by the problem-to-structure result; apply a decision, description, Work, transformation, production, or feedback pattern when its claim is current
   stopOrReturnCondition: reopen when the problem, constraints, candidate structure, or actual feedback changes
-  blockedOverread?: include only when F.19's plausible-reader test justifies this exact blocked reading
+  blockedOverread?: include only when F.19's plausible-reader test justifies this blocked reading
 ```
 
-The block is useful when the architecture work has to show how problem pressure constrains candidate, selected, expected, or actual structures without hiding the rule for the next claim or the pattern that contains it. `unfoldingStructureRef` names the selected CGUS or local architecture-facing `U.Structure` block. When a narrower-specialization relation is needed, name and test it under the pattern that defines its predicate; use A.6.RCD if that predicate is missing. `decisionLinkageRef` names the project architecture decision relation defined in `C.32.PAD` only when that decision is current. For the claims associated with `descriptionRefs[]`, use `C.30.AD`, `C.30.ASV`, `C.32.ADR`, `A.6.3.NAR`, or publication patterns only when a description, view, ADR projection, narrative rendering, or publication claim is current. `realizationWorkLinkageRef` points to the A.15-family work relation; use `A.3.4` for actual transformations. The Work-to-change fields keep the obtaining relation separate from the cited pattern or local claim used to check it. The three production-ref groups point only to separate local `A.15.PROD` claims. Establish any Work-authorization, performed-Work, or selected/expected-to-actual claim through its direct pattern. Otherwise stop with the problem-to-structure result, next receiving action, and stop or return condition.
+The block is useful when the architecture work has to show how problem pressure constrains candidate, selected, expected, or actual structures without hiding the rule for the next claim or the pattern that contains it. `unfoldingStructureRef` names the selected CGUS or local architecture-facing `U.Structure` block. When a narrower-specialization relation is needed, name and test it under the pattern that defines its predicate; use A.6.RCD if that predicate is missing.
+
+`decisionLinkageRef` names the project architecture decision relation defined in `C.32.PAD` only when that decision is current. For the claims associated with `descriptionRefs[]`, use `C.30.AD`, `C.30.ASV`, `C.32.ADR`, `A.6.3.NAR`, or publication patterns only when a description, view, ADR projection, narrative rendering, or publication claim is current.
+
+`realizationWorkLinkageRef` points to the A.15-family work relation; use `A.3.4` for actual transformations. The Work-to-change fields keep the obtaining relation separate from the cited pattern or local claim used to check it. The three production-ref groups point only to separate local `A.15.PROD` claims.
+
+Establish any Work-authorization, performed-Work, or selected/expected-to-actual claim through its direct pattern. Otherwise stop with the problem-to-structure result, next receiving action, and stop or return condition.
 
 `groundedArtifactConfusion?` is an alias for the same optional `blockedOverread?` value.
 
@@ -118,11 +136,11 @@ Use `ArchitectureUnfoldingStructureUse@Project` when a named constraint-governed
 ```text
 ArchitectureUnfoldingStructureUse@Project:
   kind: dependent architecture-use relation record under C.32.P2S, C.30, and adjacent architecture patterns
-  projectWorkOccurrenceRef: U.EntityRef constrained to the exact composite U.Work that is an explicit participant in this use relation
-  architectureQuestionCardRef?: U.EpistemeRef resolving to one exact C.30 ArchitectureQuestionCard@Project
-  architectureBearingHolonRef: U.EntityRef resolving to the exact described holon
-  architectureRelationRefs[]?: exact obtaining C.30 ArchitectureRelation refs
-  architectureClaimRefs[]?: exact C.30 ArchitectureClaimRefs for affirmative, negative, unresolved, candidate, required, desired, or expected content
+  projectWorkOccurrenceRef: U.EntityRef constrained to the composite U.Work that is a participant in this use relation
+  architectureQuestionCardRef?: U.EpistemeRef resolving to one C.30 ArchitectureQuestionCard@Project
+  architectureBearingHolonRef: U.EntityRef resolving to the described holon
+  architectureRelationRefs[]?: obtaining C.30 ArchitectureRelation refs
+  architectureClaimRefs[]?: C.30 ArchitectureClaimRefs for affirmative, negative, unresolved, candidate, required, desired, or expected content
   unfoldingStructureRef:
   architectureStructureUseKind:
     transformationFlow |
@@ -143,7 +161,13 @@ ArchitectureUnfoldingStructureUse@Project:
   repairOrSupersessionCondition:
 ```
 
-For `ArchitectureUnfoldingStructureUse@Project`, the suffix remains a compatibility and retrieval cue until an exact use is asserted. Every asserted occurrence includes `projectWorkOccurrenceRef` as the exact composite `U.Work` participant; without that Work, keep only the retrieval cue and do not assert the use relation. `architectureQuestionCardRef` may cite the exact C.30 triage episteme, while `architectureBearingHolonRef` names its independently identified subject. `architectureRelationRefs[]` contain only independently obtaining C.30 occurrences; modal architecture content stays in `architectureClaimRefs[]`. `unfoldingStructureRef` names the admitted CGUS or local block being used. `affectedSelectedStructures[]`, `architectureCharacteristicRefs[]`, and `acceptedLosses[]` state why the unfolding structure matters for architecture rather than for a generic route. Method and work refs point to the A.15 family only as realization or feedback linkage. For decisions, descriptions, ADR-like projections, measurements, evals, evidence, gates, publication, and performed work, use the exact subject predicates, consulting their pattern explanations when needed to interpret or apply them.
+For `ArchitectureUnfoldingStructureUse@Project`, the suffix remains a compatibility and retrieval cue until a use is asserted. Every asserted occurrence includes `projectWorkOccurrenceRef` as the composite `U.Work` participant; without that Work, keep only the retrieval cue and do not assert the use relation.
+
+`architectureQuestionCardRef` may cite the C.30 triage episteme, while `architectureBearingHolonRef` names its independently identified subject. `architectureRelationRefs[]` contain only independently obtaining C.30 occurrences; modal architecture content stays in `architectureClaimRefs[]`. `unfoldingStructureRef` names the admitted CGUS or local block being used.
+
+`affectedSelectedStructures[]`, `architectureCharacteristicRefs[]`, and `acceptedLosses[]` state why the unfolding structure matters for architecture rather than for a generic route. Method and work refs point to the A.15 family only as realization or feedback linkage.
+
+For decisions, descriptions, ADR-like projections, measurements, evals, evidence, gates, publication, and performed work, use the subject predicates, consulting their pattern explanations when needed to interpret or apply them.
 
 Stop conditions:
 

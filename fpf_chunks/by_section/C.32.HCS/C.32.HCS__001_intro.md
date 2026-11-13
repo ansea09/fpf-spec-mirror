@@ -6,12 +6,12 @@ section_id: "C.32.HCS:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.HCS/C.32.HCS__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.32.HCS — Architecture-Bearing Family Characteristic Starter Packs"
   - "C.32.HCS:intro — Intro"
-line_start: 77286
-line_end: 77291
+line_start: 81115
+line_end: 81120
 dependencies:
   - "A.19"
   - "C.11"
@@ -40,5 +40,5 @@ keywords:
 
 > **Type:** Architectural characterization subpattern under C.32
 > **Status:** Stable
-> **Normativity:** Normative unless explicitly marked informative
+> **Normativity:** Normative unless marked informative
 

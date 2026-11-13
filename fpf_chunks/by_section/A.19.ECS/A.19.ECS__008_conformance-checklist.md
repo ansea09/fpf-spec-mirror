@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.19.ECS"
-pattern_title: "Evaluation CharacteristicSpace Construction: Define What Counts as Better"
+pattern_title: "CharacteristicSpace Construction: Define What Counts as Better"
 section_id: "A.19.ECS:6"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ECS/A.19.ECS__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.19.ECS — Evaluation CharacteristicSpace Construction: Define What Counts as Better"
+  - "A.19.ECS — CharacteristicSpace Construction: Define What Counts as Better"
   - "A.19.ECS:6 — Conformance checklist"
-line_start: 35187
-line_end: 35208
+line_start: 36685
+line_end: 36706
 dependencies:
   - "A.17-A.19"
   - "C.16"
@@ -41,11 +41,11 @@ keywords:
 | `CC-A19ECS-8` | Wrong-kind objects SHALL return to evaluation selection before opening. After invocation, report the kind mismatch and the declared inapplicability of dependent coordinates instead of assigning low property values outside their domain. | Preserves declared coverage and distinguishes object fit from property quality. |
 | `CC-A19ECS-9` | If made reusable beyond one local use, the evaluation characteristic-space specification SHALL make the minimum items in `A.19.ECS:4.3` recoverable by value. If the selected publication form is an FPF pattern, `E.8` also applies to that publication form. | Prevents underspecified evaluations. |
 | `CC-A19ECS-10` | If the evaluation itself changes, justify its adoption or trial through §4.5 and name the comparability effect on earlier results. Keep known-case development, independent adoption evidence and full cost distinguishable. | Prevents silent value drift and improvement claims based only on the new evaluator. |
-| `CC-A19ECS-11` | The evaluation characteristic-space specification SHALL state any evidence, assurance, gate, work, decision, publication, naming, measurement, Q-Bundle, OEE/NQD, mathematical-lens, or related claim as an exact subject assertion or named relation by value when that claim is being made. The coordinate Solution carries the evaluation construction itself; a subject-pattern locator, reference boilerplate, architecture-placement rationale, and neighboring content stay in relations, rationale, source-basis, or decision-rationale material unless they change a coordinate. | Prevents an evaluation from becoming a second ontology or reference boilerplate. |
+| `CC-A19ECS-11` | The evaluation characteristic-space specification SHALL state any evidence, assurance, gate, work, decision, publication, naming, measurement, Q-Bundle, OEE/NQD, mathematical-lens, or related claim as a subject assertion or named relation by value when that claim is being made. The coordinate Solution carries the evaluation construction itself; a subject-pattern locator, reference boilerplate, architecture-placement rationale, and neighboring content stay in relations, rationale, source-basis, or decision-rationale material unless they change a coordinate. | Prevents an evaluation from becoming a second ontology or reference boilerplate. |
 | `CC-A19ECS-12` | A reusable evaluation characteristic-space specification SHALL state what would lower, reopen, or retire the evaluation: missing contrast case, changed use, changed source-use relation or source-currentness status, hidden trade-off loss, or corrected neighbouring-pattern claim assignment. | Makes high-value evaluation claims falsifiable instead of permanent praise. |
 | `CC-A19ECS-13` | A reusable evaluation specification SHALL define the required result content and require a short rationale for every coordinate value, in a sufficient prose or table form. | Makes the value and its basis recoverable. |
 | `CC-A19ECS-14` | It SHALL define the evaluation evidence basis and any coordinate-specific evidence payload needed for source-currentness, comparator, corpus-projection, worked-case, retrieval, or external-currentness claims. Apply the declared missingness rule when evidence is missing or unchecked. Lower a value for that absence only when the coordinate's value rule evaluates evidence adequacy or otherwise makes that absence a lower value; do not infer a low property value merely from an unknown value. | Makes values replayable while preserving missingness and the declared coordinate coverage. |
 | `CC-A19ECS-15` | When different evaluators will reuse it, the specification SHALL provide calibration cases for common disagreements: adjacent-value cases where the Scale has them, or the applicable reference values, resolution and uncertainty for continuous readings. | Keeps calibration compatible with the Scale. |
 | `CC-A19ECS-16` | It SHALL declare where result evidence, corpus-projection evidence, retrieval evidence, comparator evidence, currentness evidence, and quality-status evidence live. These payloads SHALL stay in the evaluation result, evidence basis, projection carrier, or selected publication carrier unless the evaluated object itself is that carrier. If the payload implies a user-facing action for another evaluated object, publish that move or boundary, not the carrier proof. This is an evaluation-payload placement rule, not a lexical ban: evidence-use payloads do not enter live evaluated-object text merely because they are true or useful to authors or evaluators. | Prevents evaluation evidence from leaking into the evaluated object's method or live text. |
-| `CC-A19ECS-17` | If construction or repair changes coordinate wording or evaluation wording, perform a pre/post check of evaluated object kind, characteristic kind, relation or claim kind, current ontic slot, relation position, use relation, admissible use, and scope. Use the relevant definition or constraint from another pattern when it governs the repaired meaning; identify an exact ClaimGraph only when its identity or edition affects use. | Prevents coordinate cleanup from changing what the evaluation evaluates. |
+| `CC-A19ECS-17` | If construction or repair changes coordinate wording or evaluation wording, perform a pre/post check of evaluated object kind, characteristic kind, relation or claim kind, ontic slot, relation position, use relation, admissible use, and scope. Use the relevant definition or constraint from another pattern when it governs the repaired meaning; identify a ClaimGraph only when its identity or edition affects use. | Prevents coordinate cleanup from changing what the evaluation evaluates. |
 

@@ -6,12 +6,12 @@ section_id: "D.1:1.1"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.1/D.1__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "D.1 — Clarify an Ethical Claim's Value Basis (Value Plurality)"
   - "D.1:1.1 — Forces"
-line_start: 91463
-line_end: 91472
+line_start: 95943
+line_end: 95952
 dependencies:
   - "A.1"
   - "A.1.CSD"
@@ -37,7 +37,7 @@ keywords:
 
 | Force | Tension |
 | --- | --- |
-| Value plurality vs. shared use | FPF must work across ethical traditions, but the current claim still needs an inspectable value frame. |
+| Value plurality vs. shared use | FPF must work across ethical traditions, but the claim still needs an inspectable value frame. |
 | Technical adequacy vs. ethical force | Evidence, assurance, method, architecture, or work quality may be strong while the value concern remains implicit. |
 | Local usefulness vs. overreach | A bounded ethical claim can guide work, but it must not become universal moral permission. |
 | Plain language vs. hidden doctrine | Words such as responsible, safe, fair, aligned, or humane are useful only after the valued object and affected parties are named. |

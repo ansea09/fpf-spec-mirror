@@ -6,12 +6,12 @@ section_id: "E.21:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.21/E.21__013_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
   - "E.21:11 — Relations"
-line_start: 114346
-line_end: 114368
+line_start: 121565
+line_end: 121587
 dependencies:
   - "A.17-A.19"
   - "A.19.ECS"
@@ -42,7 +42,7 @@ keywords:
 | `E.8.ECSPF` | Guides an author in carrying an accepted evaluation characteristic-space specification into practitioner-facing FPF pattern content. It keeps the specification, its `CharacteristicSpace`, the authored pattern, a later evaluation, and its result distinct. |
 | `F.19` | Governs whole-span precise-language reading, repair, and local revalidation. E.21 consumes its compact quality effect through `PrecisionRestorationProfile` and lowers the affected existing coordinates. `E.10` supplies cues and unresolved word or kind routes. |
 | `E.8` | Governs authoring of the pattern body whose exact edition E.21 assessment work evaluates and owns the canonical SoTA definition and positive comparison contract. E.21 consumes one completed `E.8:11` comparison when it assigns `SoTABindingAndCurrentness = 4` or `5`; it does not redefine that contract. |
-| `A.13`, `A.15.1`, `A.3.1`, `F.6`, `A.2`, and `A.2.1` | Define or constrain the dated-assessment-Work account in E.21:4. A.13 supplies every precise evaluator-performer's core and same obtaining assignment; A.15.1 independently admits the Work from its performance history, temporal extent, enacted Method, and obtaining containing-System relation under the exact boundary and qualification window; F.6 adds only a current precise assignment-bound attribution. A compact account may omit an unused identifier only when every consumed relation remains recoverable. The Work, any returned value or direct evaluation-result relation, and the C.2.1 result episteme stay distinct. An E.21 claim connects them only through an exact A.6.1 result binding or a separately declared direct evaluation-result relation that actually obtains. An evaluator may ordinarily apply the questions without asserting dated Work. Route unresolved source *role* through `E.10.ROLE`. |
+| `A.13`, `A.15.1`, `A.3.1`, `F.6`, `A.2`, and `A.2.1` | Define or constrain the dated-assessment-Work account in E.21:4. A.13 supplies every precise evaluator-performer's core and same obtaining assignment; A.15.1 independently admits the Work from its performance history, temporal extent, enacted Method, and obtaining containing-System relation under the exact boundary and qualification window; F.6 adds only a current precise assignment-bound attribution. A compact account may omit an unused identifier only when every consumed relation remains recoverable. The Work, any returned value or direct evaluation-result relation, and the C.2.1 result episteme stay distinct. An E.21 claim connects them only through an exact A.6.1 result binding or a separately declared direct evaluation-result relation that obtains. An evaluator may ordinarily apply the questions without asserting dated Work. Route unresolved source *role* through `E.10.ROLE`. |
 | `A.6.1` | Constrains only the exact declared-operation application admitted under the compact conditional rule in E.21:4. |
 | `C.2.1` | Governs the constitution of the checked pattern episteme/version reference, per-coordinate result claims, aggregate pattern-quality-result episteme, and optional evaluation-record episteme independently. |
 | `A.10` and `B.3` | A.10 supplies an implicit or required-replayable source-to-use account for reliance on the result; B.3 governs an actual named assurance claim about it. Witness presence and a favorable value create neither relation. |

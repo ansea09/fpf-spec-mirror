@@ -6,12 +6,12 @@ section_id: "C.36:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36/C.36__010_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.36 — Cultural Evolution and Cultural-Evolution Engineering"
   - "C.36:9 — Consequences"
-line_start: 81663
-line_end: 81677
+line_start: 85652
+line_end: 85666
 dependencies:
   - "A.1"
   - "A.10"
@@ -65,7 +65,7 @@ Positive consequences:
 
 - practitioners can identify the cultural-evolution question and finish a qualified current account or warranted continuation, selecting a new inquiry only when it contributes enough to the receiving use;
 - style, tradition, practice, platform, regime, and technique labels remain usable without becoming root kinds;
-- engineering development loops, cultural-evolution cases, archive and front relations, selected-set result declaration, publication, and refresh stay distinct, with the definition and test for each current claim applied;
+- engineering development loops, cultural-evolution cases, archive and front relations, selected-set result declaration, publication, and refresh stay distinct; practitioners apply the definition and test for each claim they make;
 - music, dance, science, medicine, pedagogy, organization, product-family, and AI-agent cases can share one FPF modeling line.
 
 Costs:

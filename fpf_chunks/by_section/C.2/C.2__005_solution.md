@@ -6,12 +6,12 @@ section_id: "C.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2/C.2__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.2 — Epistemic holon composition (KD-CAL)"
   - "C.2:4 — Solution"
-line_start: 50967
-line_end: 51008
+line_start: 53085
+line_end: 53137
 dependencies:
   - "A.1"
   - "A.10"
@@ -44,28 +44,39 @@ keywords:
 
 #### C.2:4.1 - Coordinates, constitution, and neighboring relations
 
-**KD-CAL assessments for one exact episteme and use.**
+**KD-CAL assessments for one episteme and use.**
 
 * **Formality F.** The relevant properties of the expressed claim or argument: terms, predicates, semantics and inferences. Litmus: *does this expression supply what the receiving interpretation, execution or check needs?* An expressed derivation and evidence that it passed a checker remain distinguishable.
 * **Claim scope (G).** Set-valued applicability over `U.ContextSlice`, with ∩/SpanUnion/translate algebra. Litmus: *where is the claim asserted to apply, and under which assumptions?* An applicable C.2.2 warrant model routes congruence-loss penalties to R; formality and scope changes use their own operations.
-* **Reliability R.** Warrant for this exact claim and receiving use. Litmus: *what supports this conclusion, under which assumptions, and what limits it?* **R-claims MUST identify the grounds that support the claim for the receiving use.** A numerical R requires the B.3/C.2.2 meaning, scale, and model; otherwise retain separate support and a bounded reasoned conclusion. A proof under axioms needs no empirical score, and F cannot be substituted for R. Relevance windows and B.3.4 currentness rules apply where the relied-on support consumes them.
+* **Reliability R.** Warrant for this claim and receiving use. Litmus: *what supports this conclusion, under which assumptions, and what limits it?* **R-claims MUST identify the grounds that support the claim for the receiving use.** A numerical R requires the B.3/C.2.2 meaning, scale, and model; otherwise retain separate support and a bounded reasoned conclusion. A proof under axioms needs no empirical score, and F cannot be substituted for R. Relevance windows and B.3.4 currentness rules apply where the relied-on support consumes them.
 
  **Congruence Level (CL), pairwise ladder.**
- `CL‑0` **Opposed/Disjoint** (contrastive; no substitution); `CL‑1` **Comparable / Naming‑only** (label similarity; no substitution); `CL‑2` **Translatable** (structure‑preserving correspondence in a declared fragment with **stated loss**); `CL‑3` **Near‑identity** (the declared invariants match). *CL is a characteristic of a relation between two epistemes; it is not a fourth member of the F–G–R assurance tuple and it is not a characteristic space of its own.* **KD-CAL substitution constraint:** plane preservation and **CL ≥ 2** are necessary for a substitution under this calculus; substituting **type‑structure** additionally requires **CL = 3**. These conditions do not establish suitability for the proposed use. State the exact substitution, direction, correspondence rule, and tolerated loss under the direct receiving pattern, and establish reliance separately. When local meanings cross semantic contexts, first test the F.9 Bridge predicate on exact F.17 cells; keep the obtaining Bridge, bounded-use claim, and reliance result distinct. A CL value establishes no local system-role-kind membership or assignment.
+- `CL‑0` **Opposed/Disjoint** (contrastive; no substitution).
+- `CL‑1` **Comparable / Naming‑only** (label similarity; no substitution).
+- `CL‑2` **Translatable** (structure‑preserving correspondence in a declared fragment with **stated loss**).
+- `CL‑3` **Near‑identity** (the declared invariants match).
 
-**Constitution and neighboring relations.** For a KD-CAL F–G–R assessment, recover F, G, and R for one exact claim and use of one C.2.1 episteme. The episteme's exact claim content, EntityOfConcern, and effective reference scheme identify the episteme through `EpistemeConstitutionRelation`. F characterizes the claim's form; G is the separate `U.ClaimScope`; R relies on exact evaluation, evidence-use, and assurance relations. Empirical grounding and edition remain separate C.2.1 relations. Viewpoint selection and view conformance remain under E.17.0; expression construction and scheme changes use A.6.3.RT.OE/A.6.3.RT. Use C.29 when a question about choosing, transferring, or relying on a mathematical representation remains unresolved. Publication occurrence, form, and carrier remain under E.17/E.24.PUB. When reasoning between notations, establish their correspondence and the preservation or loss that the inference depends on. Apply C.2.2's R-only penalty rule when its warrant model applies; changes to formality or scope use their own governing operations.
+*CL is a characteristic of a relation between two epistemes; it is not a fourth member of the F–G–R assurance tuple and it is not a characteristic space of its own.*
+
+**KD-CAL substitution constraint:** plane preservation and **CL ≥ 2** are necessary for a substitution under this calculus; substituting **type‑structure** additionally requires **CL = 3**. These conditions do not establish suitability for the proposed use.
+
+State the substitution, direction, correspondence rule, and tolerated loss under the pattern governing the proposed use, and establish reliance separately.
+
+When local meanings cross semantic contexts, first test the F.9 Bridge predicate on the F.17 cells for those local meanings; keep the obtaining Bridge, bounded-use claim, and reliance result distinct. A CL value establishes no local system-role-kind membership or assignment.
+
+**Constitution and neighboring relations.** For a KD-CAL F–G–R assessment, recover F, G, and R for one claim and use of one C.2.1 episteme. The episteme's claim content, EntityOfConcern, and effective reference scheme identify the episteme through `EpistemeConstitutionRelation`. F characterizes the claim's form; G is the separate `U.ClaimScope`; R relies on evaluation, evidence-use, and assurance relations. Empirical grounding and edition remain separate C.2.1 relations. Viewpoint selection and view conformance remain under E.17.0; expression construction and scheme changes use A.6.3.RT.OE/A.6.3.RT. Use C.29 when a question about choosing, transferring, or relying on a mathematical representation remains unresolved. Publication occurrence, form, and carrier remain under E.17/E.24.PUB. When reasoning between notations, establish their correspondence and the preservation or loss that the inference depends on. Apply C.2.2's R-only penalty rule when its warrant model applies; changes to formality or scope use their own governing operations.
 
 #### C.2:4.2 - Four Δ‑moves (epistemic motion)
 
 * **ΔF — Formalise.** Make the expression property needed by the receiving use explicit or stricter: resolve terms, supply a predicate or semantics, or express a required derivation. Name the changed property; a different calculus alone establishes no increase.
 * **ΔG — Generalise / Specialise.** Widen or narrow the **claim scope** (assumptions & scope). Changes to decomposition granularity are an **orthogonal view** and do not change **G** unless they alter the envelope.
-* **ΔR — Calibrate / Validate.** Revise warrant through support that actually bears on the claim: proof or reasoning, calibration, severe tests, or monitoring as applicable. State what the contribution changes. A formalization alone is ΔF, not an R increase; choosing new inquiry is a separate decision.
+* **ΔR — Calibrate / Validate.** Revise warrant through support that bears on the claim: proof or reasoning, calibration, severe tests, or monitoring as applicable. State what the contribution changes. A formalization alone is ΔF, not an R increase; choosing new inquiry is a separate decision.
 * **ΔCL — Congrue.** Establish or revise the congruence relation between **two** epistemes and state its warranted level (CL 0…3) under the declared correspondence rule.
   Moves compose into **paths**. A CL chain minimum retains only the ordered congruence meaning justified by the relation family; it is not a numerical reliability loss.
 
 #### C.2:4.3 - Composition (Γ_epist) and propagation
 
-Let **Γ_epist** compose exact epistemes `{Eᵢ}` for one declared claim and use. B.1.3 supplies the synthesis/compilation Method; B.3 and C.2.2 govern warrant and scale discipline.
+Let **Γ_epist** compose epistemes `{Eᵢ}` for one declared claim and use. B.1.3 supplies the synthesis/compilation Method; B.3 and C.2.2 govern warrant and scale discipline.
 
 * **R (Reliability).** First distinguish indispensable premises, alternative sufficient arguments, complementary evidence, different scope slices, and counterevidence. Identify duplicated data and shared assumptions or bias. A numerical fold requires warranted input meanings, compatible scales, dependencies, and a receiving model. Neither series nor parallel syntax supplies a default minimum or maximum, and there is no universal cap at the best support line. Where no common model is justified, retain separate contributions and limitations in a bounded reasoned synthesis.
 * **F (Formality).** Assess the expression properties needed from the essential constituents and their connecting inferences under C.2.3:15.1. The composition must preserve the claimed properties. A minimum is only a conditional bound on a shared local ordered scale with an established composition rule, not a universal value for the whole. Formalization changes its stated properties; neither an axiomatic mode nor a `line=formal` tag converts them into empirical warrant.

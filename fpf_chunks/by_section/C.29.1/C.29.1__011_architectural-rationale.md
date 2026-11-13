@@ -6,12 +6,12 @@ section_id: "C.29.1:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29.1/C.29.1__011_architectural-rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.29.1 — Mathematical Result Transfer"
   - "C.29.1:10 — Architectural Rationale"
-line_start: 70300
-line_end: 70333
+line_start: 73393
+line_end: 73426
 dependencies:
   - "A.3.3"
   - "A.6.3.RT"
@@ -25,7 +25,7 @@ keywords:
 
 #### C.29.1:10.1 - Why operations, conditions and questions are considered together
 
-A result is produced by a particular construction under particular premises. Mapping the named objects alone leaves open what happens to that construction. Comparing the two orders exposes the mathematical obligation at the point where it matters.
+A result comes from a construction and the premises it uses. Mapping the named objects alone leaves open what happens to that construction. Comparing the two orders identifies the requirements for transfer.
 
 Operation conditions belong to this comparison because partial operations are common in practice. A reservation consumes availability. A route continuation consumes or requires permission. Removing the condition can enlarge the receiving problem even while preserving the arithmetic of every allowed source step.
 

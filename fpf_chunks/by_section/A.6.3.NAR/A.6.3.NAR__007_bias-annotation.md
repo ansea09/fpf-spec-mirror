@@ -6,12 +6,12 @@ section_id: "A.6.3.NAR:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.NAR/A.6.3.NAR__007_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.3.NAR — Structure-to-Narrative Rendering"
   - "A.6.3.NAR:6 — Bias-Annotation"
-line_start: 19622
-line_end: 19633
+line_start: 20495
+line_end: 20506
 dependencies:
   - "A.10"
   - "A.22.CGUS"
@@ -49,7 +49,7 @@ keywords:
 | Formality-first bias | Produces a useful narrative and source comparison without opening an exact identity record that the receiving use does not need. |
 | Engagement-authority bias | Treats engagement as a bounded use claim; evidence, assurance, ethics, and policy force remain with the patterns that define those claims. |
 | Sequence-naturalization bias | Makes the ordering and connective account explicit instead of letting a fluent order look inevitable or source-given. |
-| Carrier-serialization bias | Keeps file export, stream order, OCR, and layout changes outside NAR unless selected source structure is actually ordered into a narrative path. |
+| Carrier-serialization bias | Keeps file export, stream order, OCR, and layout changes outside NAR unless selected source structure is ordered into a narrative path. |
 | Generated-fluency bias | Keeps generated output as candidate material until source comparison and any independently required admission pass. |
 | Narratology-import bias | Keeps narratology and storycraft detail in domain practice instead of creating automatic FPF Core kinds. |
 

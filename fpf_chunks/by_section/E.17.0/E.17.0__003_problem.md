@@ -6,12 +6,12 @@ section_id: "E.17.0:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.0/E.17.0__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.17.0 — Viewpoint and View Recognition for Multi-View Describing"
   - "E.17.0:2 — Problem"
-line_start: 106133
-line_end: 106138
+line_start: 112620
+line_end: 112625
 dependencies:
   - "A.22"
   - "A.6.3"
@@ -34,5 +34,5 @@ keywords:
 
 How can an engineer recognize and use views under explicit viewpoints while preserving exact episteme identity and direct relation semantics, without treating a selected viewpoint, a query result, a diagram, a family label, or a publication as what makes an episteme a view?
 
-The common practical failure is not merely loose wording. The wrong object is used to justify the next action. A generated table is accepted as a view because it was generated; a published diagram is accepted because it is readable; a `viewpointRef` is treated as proof of conformance; or several documents are put in one package and called a multi-view model without recovering any cross-view relation.
+A common error is using the wrong object to justify the next action. For example, an engineer may accept a table as a view because it was generated, accept a published diagram because it is readable, or treat a `viewpointRef` as proof of conformance. Calling a package of documents a multi-view model without recovering a cross-view relation makes the same mistake.
 

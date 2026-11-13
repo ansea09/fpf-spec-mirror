@@ -6,12 +6,12 @@ section_id: "G.1:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.1/G.1__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.1 — Author a Reusable CG-Frame Generator and Selector Kit"
   - "G.1:3 — Forces"
-line_start: 127252
-line_end: 127260
+line_start: 135302
+line_end: 135310
 dependencies:
   - "A.10"
   - "A.15.2"

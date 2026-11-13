@@ -6,12 +6,12 @@ section_id: "C.16.RM:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.RM/C.16.RM__011_architectural-rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.16.RM — Repair a Measurement Model or Arrangement"
   - "C.16.RM:10 — Architectural Rationale"
-line_start: 59587
-line_end: 59594
+line_start: 61972
+line_end: 61979
 dependencies:
   - "B.5.MPC.R"
   - "B.5.RR"
@@ -26,7 +26,7 @@ keywords:
 
 ### C.16.RM:10 - Architectural Rationale
 
-Measurement joins a subject, an interaction, a mathematical relation and a calculation used to interpret an indication. The same unwanted effect can be addressed by representing it, reducing it in the arrangement or changing how the indication distinguishes the target. Keeping these alternatives together helps avoid repairing the most familiar component merely because it is familiar.
+Measurement joins a subject, an interaction, a mathematical relation and a calculation used to interpret an indication. The same unwanted effect can be addressed by representing it, reducing it in the arrangement or changing how the indication distinguishes the target. Keeping these alternatives together helps choose a repair by its effect on the wanted result.
 
 C.16.MR constructs a relation and C.16.IR determines what it resolves. This Method begins when that existing use is inadequate and chooses what to change. B.5.MPC.R supplies the wider repair across physical, mathematical and computational contributions. Here the distinction between subject and instrument, cancellation conditions, loading reduction and reinterpretation of retained observations makes that repair actionable for measurement.
 

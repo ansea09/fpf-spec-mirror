@@ -6,12 +6,12 @@ section_id: "C.2.2a:14"
 section_title: "Position Publication Package Discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2a/C.2.2a__016_position-publication-package-discipline.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.2.2a — Language-State Chart over U.CharacteristicSpace"
   - "C.2.2a:14 — Position Publication Package Discipline"
-line_start: 53055
-line_end: 53066
+line_start: 55274
+line_end: 55285
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -46,7 +46,7 @@ keywords:
 
 ### C.2.2a:14 - Position Publication Package Discipline
 
-An account of a chart position identifies the exact episteme publication, the decision-relevant facet readings or intervals, their grounds, and any local threshold used by the named next action. Add form, face, carrier, freshness, or inherited pins only when the receiving use relies on them.
+An account of a chart position identifies the episteme publication, the decision-relevant facet readings or intervals, their grounds, and any local threshold used by the named next action. Add form, face, carrier, freshness, or inherited pins only when the receiving use relies on them.
 
 Minimum self-check:
 

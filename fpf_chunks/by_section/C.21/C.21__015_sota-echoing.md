@@ -6,12 +6,12 @@ section_id: "C.21:12.1"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__015_sota-echoing.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:12.1 — SoTA-Echoing"
-line_start: 62790
-line_end: 62799
+line_start: 65343
+line_end: 65352
 dependencies:
   - "A.10"
   - "A.17-A.18"
@@ -48,7 +48,7 @@ keywords:
 
 ### C.21:12.1 - SoTA-Echoing
 
-| SoTA or practice anchor | Contribution used here | Non-overread |
+| SoTA or practice anchor | Contribution used here | Use boundary |
 | --- | --- | --- |
 | Open Science Collaboration (2015), Munafò et al. (2017), and current reproducibility and metascience practice | Reproducibility, claim resolution, support visibility, freshness, and population definition remain separate coordinates and bases. | A field-level rate does not certify one claim as true. |
 | Fortunato et al. (2018) and Wu, Wang, and Evans (2019) disruption-index work | Citation-based disruption and consolidation distinguish kinds of contribution within a declared corpus and method. Any preferred target band is a separate choice for the receiving use. | Disruption is not quality, truth, safety, or usefulness by itself. |

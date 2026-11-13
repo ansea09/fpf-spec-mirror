@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.19.SelectorMechanism"
-pattern_title: "Unified Selection Kernel, SelectorMechanism"
+pattern_title: "Selection Kernel"
 section_id: "A.19.SelectorMechanism:5"
 section_title: "Archetypal Grounding — informative"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SelectorMechanism/A.19.SelectorMechanism__007_archetypal-grounding-informative.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.19.SelectorMechanism — Unified Selection Kernel, SelectorMechanism"
+  - "A.19.SelectorMechanism — Selection Kernel"
   - "A.19.SelectorMechanism:5 — Archetypal Grounding — informative"
-line_start: 39386
-line_end: 39432
+line_start: 40964
+line_end: 41010
 dependencies:
   - "A.19.CHR"
   - "A.19.CN"
@@ -50,26 +50,26 @@ When comparisons are partial or set-valued, selection must not pretend there is 
 * `CriteriaSlot` requires Pareto selection over the three unordered pairs `{A,B}`, `{A,C}`, and `{B,C}`, returns all non-dominated admissible candidates, and preserves the full selected set unless an explicit current criterion requires a singleton.
 * The finite upstream comparison-application basis covers all three required pairs:
 
-  * exact `Compare(OptionA, OptionB, ...)` has `GuardDecision = pass`: OptionB is strictly better than OptionA on latency, while OptionA is strictly better than OptionB on cost under the declared comparator. Its `ComparisonResultSlot` records those strict opposite wins, so neither dominates the other;
-  * exact `Compare(OptionA, OptionC, ...)` has `GuardDecision = degrade` because OptionC lacks the required risk attestation. In this constructed case, the admitted comparator and partial-evidence policy explicitly define the empty token set as the lawful output for this restricted use; its output binding contributes no relation token about OptionC; and
-  * exact `Compare(OptionB, OptionC, ...)` has the same explicit `degrade` basis and likewise contributes no relation token about OptionC.
+  * `Compare(OptionA, OptionB, ...)` has `GuardDecision = pass`: OptionB is strictly better than OptionA on latency, while OptionA is strictly better than OptionB on cost under the declared comparator. Its `ComparisonResultSlot` records those strict opposite wins, so neither dominates the other;
+  * `Compare(OptionA, OptionC, ...)` has `GuardDecision = degrade` because OptionC lacks the required risk attestation. In this constructed case, the admitted comparator and partial-evidence policy define the empty token set as the lawful output for this restricted use; its output binding contributes no relation token about OptionC; and
+  * `Compare(OptionB, OptionC, ...)` has the same `degrade` basis and likewise contributes no relation token about OptionC.
 
-  The Selector's `ComparisonResultSlot` argument is exactly the union of those justified member outputs, so its two tokens both trace to the `{A,B}` CPM application. No equality, worse-than, or `abstain` token is fabricated for OptionC.
+  The Selector's `ComparisonResultSlot` argument is the union of those justified member outputs, so its two tokens both trace to the `{A,B}` CPM application. No equality, worse-than, or `abstain` token is fabricated for OptionC.
 * `MinimalEvidenceSlot?` is absent, so evidence is evaluated against `CGSpecSlot.MinimalEvidence`.
-* The actual selection binds the three exact CPM applications and their pair, eligibility, and output bindings; the required-pair coverage and token trace; the deployment-option claim scope and selected regulatory `U.ContextSlice` members; the same predicate basis or explicit `none`; the reference plane and evaluation interval; and a `degrade` policy that permits exclusion of OptionC.
+* The selection application binds the three CPM applications and their pair, eligibility, and output bindings; the required-pair coverage and token trace; the deployment-option claim scope and selected regulatory `U.ContextSlice` members; the same predicate basis or explicit `none`; the reference plane and evaluation interval; and a `degrade` policy that permits exclusion of OptionC.
 
 **Outcome.**
 
-* Under that explicitly bound `degrade` policy, `SelectEligibility` returns `degrade`, excludes OptionC without coercing unknown evidence, and `SelectionSlot` returns `{OptionA, OptionB}`.
+* Under that bound `degrade` policy, `SelectEligibility` returns `degrade`, excludes OptionC without coercing unknown evidence, and `SelectionSlot` returns `{OptionA, OptionB}`.
 * If either required comparison involving OptionC instead had `GuardDecision = abstain`, that basis member would have no output binding, `SelectEligibility` would return `abstain`, and no selected-set value would be created. Neither guard value is a member of `ComparisonResultSlot` or `SelectionSlot`.
-* The actual selection or eligibility application, finite CPM application basis, policies and returned value or explicit absence preserve the branch taken. An A.10 provenance account is added for the bounded reliance at issue; any dated Work claim requires the independent grounds in §4.1.
+* The selection or eligibility application, finite CPM application basis, policies and returned value or explicit absence preserve the branch taken. An A.10 provenance account is added for the bounded reliance at issue; any dated Work claim requires the independent grounds in §4.1.
 
 #### A.19.SelectorMechanism:5.3 - Analysis-method families
 
 **Scenario.** A methods group selects a declared set of analysis-method families for a task. Candidates are refs to those families. The group wants diversity in the selected set, but does not want diversity metrics to silently become dominance criteria.
 
 * `CandidateSetSlot` = `{Family1, Family2, Family3, Family4}`
-* The selection conditions declare which binary method-family comparisons are required. A finite basis identifies every relied-on CPM application, its exact pair, eligibility value, and own output binding; the Selector's `ComparisonResultSlot` argument is their exact justified-token union.
+* The selection conditions declare which binary method-family comparisons are required. A finite basis identifies every relied-on CPM application, its pair, eligibility value, and own output binding; the Selector's `ComparisonResultSlot` argument is their justified-token union.
 * `TaskSignatureSlot` is present and is the single policy-default slot or ref:
 
   * `PortfolioMode` and dominance regime,
@@ -79,7 +79,7 @@ When comparisons are partial or set-valued, selection must not pretend there is 
 **Outcome.**
 
 * `SelectionSlot` returns a selected set of those families; any archive‑style behavior is a specialization and policy choice, not a hidden kernel default.
-* The actual `Select` application retains its `TaskSignatureRef.edition`, effective criteria and `SelectionSlot` bindings for later explanation. Add provenance and dated Work only under their independent grounds in §4.1.
+* The `Select` application retains its `TaskSignatureRef.edition`, effective criteria and `SelectionSlot` bindings for later explanation. Add provenance and dated Work only under their independent grounds in §4.1.
 
 ---
 

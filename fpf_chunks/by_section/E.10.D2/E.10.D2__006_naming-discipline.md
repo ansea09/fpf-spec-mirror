@@ -6,12 +6,12 @@ section_id: "E.10.D2:5"
 section_title: "Naming discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__006_naming-discipline.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:5 — Naming discipline"
-line_start: 102441
-line_end: 102452
+line_start: 108213
+line_end: 108228
 dependencies:
   - "A.7"
   - "C.2.1"
@@ -40,9 +40,13 @@ keywords:
 
 **Reserved suffix.** Use `...Spec` only when the specification-use conditions above obtain. Do not use it as a synonym for detailed, official, approved, formal-looking, or stored in a schema.
 
-**Entity names.** Name the EntityOfConcern by its independently governed kind and identity: one exact local system-role kind, `Method`, `System`, `ArchitectureRelation`, `Characteristic`, `PromiseContent`, `Work`, `Episteme`, or another exact kind. Append `Description`, `Spec`, `View`, `Publication`, `Form`, `Carrier`, or `Representation` only when that neighboring object is what the name actually designates.
+**Entity names.** Name the EntityOfConcern by its independently governed kind and identity: one exact local system-role kind, `Method`, `System`, `ArchitectureRelation`, `Characteristic`, `PromiseContent`, `Work`, `Episteme`, or another exact kind. Append `Description`, `Spec`, `View`, `Publication`, `Form`, `Carrier`, or `Representation` only when that neighboring object is what the name designates.
 
 **Relation language.** Prefer the direct governing verb: a description carries claims about an entity; a publication occurrence makes an edition available; a carrier bears a form; a representation corresponds under a scheme; evidence supports an assertion; an admitted system performs work. Do not turn those verbs into one generic description link.
 
-**Ambiguous role language.** When source wording says that a description, source, standard, requirement, evidence item, publication, dashboard, or view “has a role,” recover its exact evidence-use, source-use, standard-use, requirement-use, publication-use, assurance-use, or gate-use relation. For a claimed Work use, name the exact premise, governed reference, decision-use relation, or A.6.1 operation-argument binding and its actual participants. If the claimed use needs another relation and no direct governor supplies its predicate and participants, return the exact `missing-governor` result rather than inferring a universal description-to-Work or episteme-to-Work relation. Open one exact occurrence of a directly declared `U.SystemRoleAssignment` species only when an independently admitted `U.System` is assigned to one exact local system-role kind for the bounded work; an acting holon is eligible only after that exact entity has independently passed `U.System` admission for this claim.
+**Ambiguous role language.** When source wording says that a description, source, standard, requirement, evidence item, publication, dashboard, or view “has a role,” recover its exact evidence-use, source-use, standard-use, requirement-use, publication-use, assurance-use, or gate-use relation. For a claimed Work use, name the exact premise, governed reference, decision-use relation, or A.6.1 operation-argument binding and its actual participants.
+
+If the claimed use needs another relation and no direct governor supplies its predicate and participants, return `missing-governor` rather than inferring a universal description-to-Work or episteme-to-Work relation.
+
+Open one exact occurrence of a directly declared `U.SystemRoleAssignment` species only when an independently admitted `U.System` is assigned to one exact local system-role kind for the bounded work; an acting holon is eligible only after that exact entity has independently passed `U.System` admission for this claim.
 

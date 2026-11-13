@@ -6,12 +6,12 @@ section_id: "C.43:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.43/C.43__013_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.43 — Connect Observation, Choice and Action in Control"
   - "C.43:12 — Relations"
-line_start: 90698
-line_end: 90709
+line_start: 95178
+line_end: 95189
 dependencies:
   - "A.12"
   - "C.11"
@@ -27,7 +27,7 @@ keywords:
 
 - Apply **C.11.CRC** to construct the contribution of a finite configuration change and **C.11** to choose among warranted alternatives.
 - Apply **C.11.DUA** to decide whether further advice, observation or computation can improve the receiving choice enough to justify its burden.
-- Apply **A.15.7** for the immediate action within an understood working Method; use this pattern when its connected control basis is still unresolved.
+- Apply **A.15.7** for the immediate action within an understood working Method; use this pattern when its connected control basis is unresolved.
 - Apply **C.11.DBR** when subsequent evidence changes a relied-on decision premise.
 - Apply **C.30.LCA** to recover a control structure and **C.32.LCA** to construct or change it. Those results can supply the arrangement used here.
 - Apply **C.39** when a needed way to obtain a contribution is missing, **C.28** for a causal question and **C.29** when a mathematical representation's choice, transfer or supported use remains unresolved.

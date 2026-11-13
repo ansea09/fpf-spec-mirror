@@ -6,12 +6,12 @@ section_id: "A.1:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1/A.1__014_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.1 — Recognize a Whole with Parts (U.Holon and Admitted Holon Kinds)"
   - "A.1:12 — Relations"
-line_start: 2885
-line_end: 2894
+line_start: 2929
+line_end: 2938
 dependencies:
   - "A.1.1"
   - "A.1.STM"
@@ -38,9 +38,9 @@ keywords:
 
 - **A.1.RI** develops reidentification across observations and supplies a supported identifying result or the alternatives still relevant to use.
 
-- **Builds on:** `E.24.UK` for one-time public U-kind admission, `A.14` and `C.13` for exact part relations and constructive assembly, and `B.3.5` when Working-Model assurance grounding is current.
+- **Builds on:** `E.24.UK` for one-time public U-kind admission, `A.14` and `C.13` for part relations and constructive assembly, and `B.3.5` when Working-Model assurance grounding is current.
 - **Coordinates with:** `A.1.STM` after recognition when the System's intended use, required functioning and construction, and work of its creators still need to be connected; `A.15.1` for dated classification work; `A.6.1` for a current typed evaluation operation and actual bindings; `C.2.1` for classification-assertion or evaluation-result episteme identity; `A.10` and `B.3` for evidence and warrant; `G.11` for assertion-edition currentness; `B.2` for the separate whole-reidentification question; `A.1.1` for bounded model-use structure; `A.22` for selected structure; `C.30` for architecture; `A.3.4` for transformation; `C.20` for discipline; and `E.10.ARCH` for wording-use restoration.
-- **Applied by:** Use `A.1.SCR` when a practitioner must find the exact acting or changed System for a decision that depends on systemhood. After an exact proposed or observed focus is current, use `A.1.CSD` when the next question is which other Systems may undergo relevant changes. Use `A.1.STM` when the practitioner still needs to connect the recognized System's intended use, required functioning and construction, and the work of its creators. For a direct Work, Method, capability, structure, episteme, or relation question, apply the pattern that defines or tests that claim instead of invoking this complete criterion.
-- **Used by:** patterns that need an exact recognized holon, an already admitted holon kind, an acting system, a non-agentive episteme, a grounded part-whole claim, a collection-versus-collective distinction, a delimitation relation, or a boundary-crossing relation.
+- **Applied by:** Use `A.1.SCR` when a practitioner must find the acting or changed System for a decision that depends on systemhood. After a proposed or observed focus is current, use `A.1.CSD` when the next question is which other Systems may undergo relevant changes. Use `A.1.STM` when the practitioner still needs to connect the recognized System's intended use, required functioning and construction, and the work of its creators. For a direct Work, Method, capability, structure, episteme, or relation question, apply the pattern that defines or tests that claim instead of invoking this complete criterion.
+- **Used by:** patterns that need a recognized holon, an already admitted holon kind, an acting system, a non-agentive episteme, a grounded part-whole claim, a collection-versus-collective distinction, a delimitation relation, or a boundary-crossing relation.
 
 

@@ -6,12 +6,12 @@ section_id: "E.24.CD:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.CD/E.24.CD__006_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.24.CD — Ontic Candidate Detection and First-Use Disposition"
   - "E.24.CD:4 — Solution"
-line_start: 116652
-line_end: 116722
+line_start: 124093
+line_end: 124167
 dependencies:
   - "A.1"
   - "A.14"
@@ -62,18 +62,18 @@ Ask these four questions in order:
 1. **What must the next person do or decide?** Name the comparison, classification, publication, repair, decision, or other practical use.
 2. **What is that use about?** Name the subject, claim, or source expression without treating its card, row, filename, diagram, or field bundle as the answer.
 3. **Which current pattern already governs the needed claim?** Name the predicate or judgment that would let the work proceed.
-4. **If that pattern does not close the case, what is actually missing?** State one applicable pattern or one precise unresolved stop below.
+4. **If that pattern does not close the case, what is missing?** State one applicable pattern or one precise unresolved stop below.
 
-#### E.24.CD:4.1 - Apply the first truthful disposition
+#### E.24.CD:4.1 - Apply the first disposition that fits the case
 
-Plain `situation`, `incident`, `current configuration`, `operating <system>`, and `emergency` are recognition cues, not kind names. Recover only the subjects, claims, and relations that the receiving work actually needs.
+Plain `situation`, `incident`, `current configuration`, `operating <system>`, and `emergency` are recognition cues, not kind names. Recover only the subjects, claims, and relations that the receiving work needs.
 
 | Current need | Next use | Stop that follows |
 | --- | --- | --- |
-| One current subject pattern already states the needed claim or action. | Apply that subject pattern. If the missing piece is a relation-bearing claim that no current direct predicate closes, apply `A.6.RCD` before proposing a relation kind. | Do not create an ontic, kind, candidate note, or disposition record. A local compound claim or predicate-definition episteme is neither a relation kind nor an occurrence; only a separately justified kind candidate proceeds through `E.24` and `E.24.UK`. |
-| One exact ClaimGraph forms one claim-bearing whole about one truthful exact EntityOfConcern under one effective ReferenceScheme. | Use `C.2.1` to identify that episteme. Other independently governed objects may be designated inside its claims without becoming extra EntityOfConcern fields or ontic slots. | If one truthful EntityOfConcern or one identity-bearing ClaimGraph cannot be recovered, keep the epistemes separate. State a collection, publication, representation, or other use relation only when its own predicate obtains; common use or co-publication does not identify one episteme. |
+| The receiving use needs a governed claim or action. An existing pattern states it, or the remaining gap is a relation-bearing claim no current direct predicate closes. | Apply the existing subject pattern when it suffices. For the unresolved relation-bearing claim, apply `A.6.RCD` before proposing a relation kind. | Do not create an ontic, kind, candidate note, or disposition record. A local compound claim or predicate-definition episteme is neither a relation kind nor an occurrence; only a separately justified kind candidate proceeds through `E.24` and `E.24.UK`. |
+| One exact ClaimGraph forms one claim-bearing whole about one exact EntityOfConcern under one effective ReferenceScheme. | Use `C.2.1` to identify that episteme. Other independently governed objects may be designated inside its claims without becoming extra EntityOfConcern fields or ontic slots. | If one EntityOfConcern for the whole ClaimGraph or one identity-bearing ClaimGraph cannot be recovered, keep the epistemes separate. State a collection, publication, representation, or other use relation only when its own predicate obtains; common use or co-publication does not identify one episteme. |
 | Wording such as `situation`, `incident`, `current configuration`, `operating <system>`, or `emergency` groups several cues. | Recover the exact systems or holons, characteristic or state claims, actual part relations, and only the temporal or causal relations needed by the current use. Add actual `U.Transformation` or `U.Work` only when independently grounded under `A.3.4` or `A.15.1`. Use a possible-state episteme when possibility is the subject, and a separate C.2.1 description episteme only when claim-bearing orientation is current. | Their conjunction is neither `U.Situation` nor `U.IncidentSituation`. An episteme's EntityOfConcern and any grounding holon in a separately current `EpistemeEmpiricalGroundingRelation` neither identify the world-side subject nor become mandatory fields. Stop decomposition once the action-facing distinction needed by the receiving use is recovered. |
-| A proposed subject exists only as an arbitrary fusion, co-presence, connected set, or chosen boundary. | Reject the bundle without forcing it through a construction record. If a constructed object survives as the current subject, apply `B.1`, `A.14`, and `C.13`, and apply `B.2` only when whole reidentification is current; recover its exact construction inputs, whole-forming relations, and identity rule. | Fusion, co-presence, connectedness, and a selected boundary alone form no durable whole. The no-mint result does not block a genuinely irreducible subject later shown to have its own identity and obtaining laws. |
+| A proposed subject exists only as an arbitrary fusion, co-presence, connected set, or chosen boundary. | Reject the bundle without forcing it through a construction record. If a constructed object survives as the current subject, apply `B.1`, `A.14`, and `C.13`, and apply `B.2` only when whole reidentification is current; recover its exact construction inputs, whole-forming relations, and identity rule. | Fusion, co-presence, connectedness, and a selected boundary alone form no durable whole. The no-mint result does not block an irreducible subject later shown to have its own identity and obtaining laws. |
 | Repeated typed reasoning needs a local criterion, candidate judgment, or true-candidate set for one context slice. | Use `C.3`, `C.3.1`, and `C.3.2`. | The local kind, `KindSignature`, judgment, and optional extension stay distinct; neither a public `U.*` kind nor a classification-relation occurrence follows. |
 | A card, record, table, diagram, file, or schema carries claims, is used as a description, conforms to a viewpoint, expresses an edition, represents something, or bears a form. | Use `C.2.1` to identify an episteme only when its constitution test passes. If it describes a method, structure, relation occurrence, or another subject, apply that subject's description pattern. Use `E.17.0` for actual view membership, `E.24.PUB` for publication, the subject-description pattern for its representation correspondence, `A.6.3.RT` for a representation-scheme transition, and `C.29` for an unresolved mathematical representation, transfer or reliance question. Several patterns can apply because they govern different objects or relations. | Visible shape does not identify the described subject or make any neighboring relation obtain. |
 | A path, table, dashboard, schema, or other declarative form seems to authorize, dispatch, prove, prescribe, or perform something by its shape. | Use `C.2.P.DR` to name the visible expression, recover the direct object or relation, state its representation or correspondence use—or `none`—and block the unsupported action claim. | A declarative form does not itself authorize or dispatch work, perform an action, or grant authority. |
@@ -108,9 +108,11 @@ Open E.24 when these detection facts are recoverable:
 - the named consumers that make shared coordination plausible; and
 - why one obvious direct-pattern route does not already close the blocked use.
 
-Transfer those facts to E.24. E.24—not E.24.CD—tests the complete identity or constitution rule, minimal direct-relation set, dependent reliance, non-duplication, practical gain, declared use, and its applicability limits. A missing settlement condition may lead to E.24's unresolved result; a missing detection fact instead leaves the E.24.CD inquiry open. Detection therefore does not require the author to settle the candidate before opening the settlement pattern.
+Transfer those facts to E.24. E.24 tests the complete identity or constitution rule, minimal direct-relation set, dependent reliance, non-duplication, practical gain, declared use, and its applicability limits.
 
-A plainly direct case still stops at its subject pattern. Repeated words, several source forms, copied fields, or a useful schema can prompt inspection, but without a blocked use, an independently recoverable inquiry subject, concrete cross-pattern pressure, named consumers, and failure of an obvious direct route, they do not open E.24.
+A missing settlement condition may lead to E.24's unresolved result; a missing detection fact instead leaves the E.24.CD inquiry open. Detection therefore does not require the author to settle the candidate before opening the settlement pattern.
+
+When the subject pattern clearly closes the case, stop there. Repeated words, several source forms, copied fields, or a useful schema can prompt inspection, but without a blocked use, an independently recoverable inquiry subject, concrete cross-pattern pressure, named consumers, and failure of an obvious direct route, they do not open E.24.
 
 #### E.24.CD:4.4 - State one result and stop
 
@@ -118,9 +120,11 @@ Most cases need only one sentence:
 
 > For `<work or decision>`, apply `<subject pattern>` to `<exact subject or claim>` because `<decisive fact>`; next, `<action or stop>`.
 
-When no pattern can yet apply truthfully, say:
+When the available facts do not yet justify applying a pattern, say:
 
 > For `<work or decision>`, leave `<exact subject or claim question>` unresolved because `<missing subject, predicate, or subject pattern>`; return when `<missing fact becomes recoverable>`.
 
-Any denied reading must pass `F.19`'s grounded-contribution test. Use a longer explanation only when another author must understand a disputed disposition. Do not create an `OnticCandidateCluster`, candidate registry, scorecard, or mandatory disposition form. Continue at the applicable pattern or unresolved return; reopen E.24.CD only if the recovered subject or practical use changes.
+Any denied reading must pass `F.19`'s grounded-contribution test. Use a longer explanation only when another author must understand a disputed disposition.
+
+Do not create an `OnticCandidateCluster`, candidate registry, scorecard, or mandatory disposition form. Continue at the applicable pattern or unresolved return; return to E.24.CD when the subject or practical use changes, or when a missing detection fact becomes available for the same inquiry.
 

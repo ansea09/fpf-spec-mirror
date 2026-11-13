@@ -6,12 +6,12 @@ section_id: "A.15.8:8"
 section_title: "Anti-patterns"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.8/A.15.8__009_anti-patterns.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.15.8 — Work-Performance Configuration and Recovery Testing"
   - "A.15.8:8 — Anti-patterns"
-line_start: 31889
-line_end: 31899
+line_start: 33138
+line_end: 33148
 dependencies:
   - "A.1"
   - "A.10"
@@ -43,10 +43,10 @@ keywords:
 
 - **Composite by coupling.** Treating person, device, service, records, and environment as one performer because they jointly matter.
 - **Future Work from a plan.** Giving intended performance, intended performers, or proposed relations actual Work identity or obtaining attribution.
-- **Umbrella slots.** Adding universal attention, memory, cue, or Work-state fields instead of recovering exact objects and relations.
+- **Umbrella slots.** Adding universal attention, memory, cue, or Work-state fields instead of recovering objects and relations.
 - **Carrier equals state.** Treating a note, trace, checkpoint, model context, or file as identical to the world state or claim it carries.
 - **Perfect-run readiness.** Generalizing one successful live configuration to interruption, handoff, support loss, or changed conditions.
 - **Probe as assurance.** Treating success under one probe as universal capability, safety, permission, release, or certification.
 - **FPF as domain algorithm.** Inventing a universal timeout, checkpoint, cue, redundancy, practice, or recovery procedure in this pattern.
-- **Configuration as architecture by default.** Naming a support list a Structure or ArchitectureRelation without the direct admission and selection rules.
+- **Configuration as architecture by default.** Naming a support list a Structure or ArchitectureRelation without the admission and selection rules.
 

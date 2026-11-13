@@ -6,12 +6,12 @@ section_id: "G.13:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.13/G.13__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.13 — External Interop Hooks for SoTA Discipline Packs (conceptual)"
   - "G.13:1 — Problem frame"
-line_start: 132828
-line_end: 132835
+line_start: 140949
+line_end: 140958
 dependencies:
   - "A.18"
   - "A.19"
@@ -48,7 +48,9 @@ keywords:
 
 External scholarly indexes and discipline repositories supply inputs for SoTA authoring. Examples include concept or dataset registries, paper/claim graphs, taxonomy stores and science-of-science indicator feeds. Their values must retain their source meaning and limits when used in FPF characterization, comparison, selection or reporting.
 
-A mapping with unstated assumptions can change the receiving claim: edition drift becomes invisible, cross‑plane/context reuse becomes implicit, and external signals quietly start acting like a shadow governing spec ref.
+If the mapping assumptions are unstated, a receiver can miss an edition change or a cross-plane or cross-context use. A receiver may also take an external signal as the governing specification for the receiving claim.
 
-`G.13` provides **registration, alignment and telemetry hooks** for whichever Part-G use needs those sources. A source may supply G.2 synthesis, G.3 characterization, G.5 selection, G.9 comparison or G.12 reporting inputs. G.10 carries an interop surface when shipping is needed; G.11 reconsiders dependent uses after a relevant change. These are connected uses, not a compulsory pipeline.
+`G.13` provides **registration, alignment and telemetry hooks** for whichever Part-G use needs those sources.
+
+A source may supply G.2 synthesis, G.3 characterization, G.5 selection, G.9 comparison or G.12 reporting inputs. G.10 carries an interop surface when shipping is needed; G.11 reconsiders dependent uses after a relevant change. Choose the uses the receiving task requires.
 

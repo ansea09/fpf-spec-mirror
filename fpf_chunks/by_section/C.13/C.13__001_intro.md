@@ -6,12 +6,12 @@ section_id: "C.13:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.13/C.13__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.13 — Constructional Mereology (Compose‑CAL)"
   - "C.13:intro — Intro"
-line_start: 58322
-line_end: 58337
+line_start: 60689
+line_end: 60704
 dependencies:
   - "A.1"
   - "A.14"
@@ -31,7 +31,7 @@ keywords:
 > **Status:** Stable
 > **Type:** Pattern
 
-**At a glance.** Use C.13 when a practitioner must show how identified entities and relations that obtain form one whole, collection, aspect, or measured portion. The account names the relations and conditions on which that construction or delimitation depends.
+**At a glance.** Use C.13 when a practitioner must show how entities and relations that obtain form one whole, collection, aspect, or measured portion. The account names the relations and conditions on which that construction or delimitation depends.
 
 **Use this when.** Use this pattern after the direct relation patterns have identified the participants and relations that obtain, when you need a compact, inspectable account of how they assemble a whole, form a collection, distinguish an aspect, or delimit a measured portion. Reuse an existing ordinary account when it already supplies those facts and their construction rule; the notation is optional.
 

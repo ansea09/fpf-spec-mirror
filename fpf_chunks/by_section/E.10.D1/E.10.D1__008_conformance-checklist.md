@@ -6,12 +6,12 @@ section_id: "E.10.D1:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D1/E.10.D1__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.10.D1 — Recovering What “Context” Means in Use"
   - "E.10.D1:7 — Conformance Checklist"
-line_start: 102273
-line_end: 102289
+line_start: 108043
+line_end: 108059
 dependencies:
   - "A.1.1"
   - "A.2.6"
@@ -37,7 +37,7 @@ keywords:
 
 ### E.10.D1:7 - Conformance Checklist
 
-A use of `E.10.D1` conforms when:
+A use of `E.10.D1` conforms when it meets these conditions.
 
 1. the sentence and the action-changing ambiguity are named;
 2. one recovery branch supplies the smallest sufficient content;

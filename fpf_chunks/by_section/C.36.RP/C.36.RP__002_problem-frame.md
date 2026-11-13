@@ -6,12 +6,12 @@ section_id: "C.36.RP:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.RP/C.36.RP__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.36.RP — Sustain and Renew Shared Ways of Working"
   - "C.36.RP:1 — Problem frame"
-line_start: 90894
-line_end: 90905
+line_start: 95374
+line_end: 95385
 dependencies:
   - "B.5.MPC"
   - "B.5.RA"
@@ -29,7 +29,7 @@ keywords:
 
 ### C.36.RP:1 - Problem frame
 
-**Use this when** changing participants, tools or questions puts a shared way of working out of reach, or when a useful discovery needs to become available to other participants. A team may still receive correct answers while losing the ability to apply the method under changed conditions. A researcher may discover a construction that colleagues cannot yet use. An ensemble may preserve a recording while newcomers cannot vary the phrase.
+**Use this when** changing participants, tools or questions puts a shared way of working out of reach, or when a useful discovery needs to become available to other participants. A team may receive correct answers while losing the ability to apply the method under changed conditions. A researcher may discover a construction that colleagues cannot yet use. An ensemble may preserve a recording while newcomers cannot vary the phrase.
 
 Begin with the work participants need to perform or develop. Follow one available result back to the contributions that make it usable, and locate the contribution they cannot obtain. Restore access, arrange a capable contributor, support acquisition or develop a better way, according to the difficulty found.
 

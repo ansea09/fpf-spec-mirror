@@ -6,12 +6,12 @@ section_id: "C.32.ACS:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACS/C.32.ACS__010_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.32.ACS — Architecture Characteristic Criteria Set"
   - "C.32.ACS:9 — Consequences"
-line_start: 77734
-line_end: 77743
+line_start: 81563
+line_end: 81572
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -54,6 +54,6 @@ keywords:
 | Architecture optimization gets declared criteria. | C.32 and C.32.MLAO can use multi-criteria language without unnamed criteria. | A synthesis or optimization claim that relies on a criterion needs its admitted binding; candidate exploration can help resolve an incomplete draft. |
 | The 300-to-3 problem is handled by staged admission. | Broad catalogues inform the project without serving as the project criteria set. | Some familiar qualities must be guardrails or context rows. |
 | Anti-Goodhart guardrails are explicit. | Optimization can protect functional adequacy and other architecture concerns. | A single convenient score cannot govern choice by itself. |
-| Measurement and eval stay clean. | C.16 and ACE keep readings, eval programs, and eval results separate from criteria. | Some eval programs require additional receiving-pattern work before they can drive action. |
-| Q-Bundle structure stays clean. | Composite quality families keep their C.25 structure. | ACS cannot shortcut a composite family into one scalar row. |
+| Measurement and eval remain distinct from criteria. | C.16 and ACE keep readings, eval programs, and eval results separate from criteria. | Some eval programs require additional receiving-pattern work before they can drive action. |
+| Q-Bundle structure is preserved. | Composite quality families keep their C.25 structure. | ACS cannot shortcut a composite family into one scalar row. |
 

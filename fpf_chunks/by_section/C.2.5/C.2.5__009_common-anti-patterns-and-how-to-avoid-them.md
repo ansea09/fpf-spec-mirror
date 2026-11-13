@@ -6,12 +6,12 @@ section_id: "C.2.5:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.5/C.2.5__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.2.5 — Language-State Closure Degree — How Fixed Is the Current Candidate Space?"
   - "C.2.5:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 53997
-line_end: 54001
+line_start: 56234
+line_end: 56238
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -34,7 +34,7 @@ keywords:
 ---
 
 ### C.2.5:8 - Common Anti-Patterns and How to Avoid Them
-- **Closure by mood.** A sentence sounds decisive, so teams assume high closure. State the actual fixation and its grounds; add a `CD` reading when the receiving use needs that scale.
+- **Closure by mood.** A sentence sounds decisive, so teams assume high closure. State the fixation and its grounds; add a `CD` reading when the receiving use needs that scale.
 - **Irreversible drift.** Closure rises informally but no reopening condition exists. State what would justify reopening; use `A.16.2` when a published framing, route or use claim must be revised.
 - **Authority smuggling.** High closure is treated as if it were automatically a gate or obligation. Check the applicable gate condition for a gate claim; use `A.2.8` to check whether the claimed obligation obtains.
 

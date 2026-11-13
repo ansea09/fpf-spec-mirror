@@ -6,12 +6,12 @@ section_id: "G.12:11"
 section_title: "Worked Micro-examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.12/G.12__013_worked-micro-examples.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.12 — DHC Dashboards (Discipline-Health Time Series and Views)"
   - "G.12:11 — Worked Micro-examples"
-line_start: 132808
-line_end: 132813
+line_start: 140928
+line_end: 140933
 dependencies:
   - "A.19"
   - "A.2.6"
@@ -53,5 +53,5 @@ keywords:
 
 **Decision-making dashboard.** A local view shows exact `ReproducibilityRate`, `FormalRecognitionStatus`, `PracticeAdoptionRate`, `AlignmentDensity`, `TraditionShareEntropy`, and `TraditionShareConcentration` result refs. Entropy and HHI occupy separate rows with their directions visible. A portfolio panel preserves the G.5 selected set. No audience publication is claimed.
 
-**Evolutionary architecture dashboard.** A `DHCSeries` episteme orders exact reproducibility and DisruptionBalance results over declared windows. An optional open-ended panel shows transfer events as telemetry. A later E.24.PUB occurrence makes one selected dashboard form available to a named audience; that occurrence neither changes the series content nor turns the rendering Work into the health result.
+**Evolutionary architecture dashboard.** A `DHCSeries` episteme orders exact reproducibility and DisruptionBalance results over declared windows. An optional open-ended panel shows transfer events as telemetry. A later E.24.PUB occurrence makes the selected series edition available to a named audience in dashboard form; that occurrence neither changes the series content nor turns the rendering Work into the health result.
 

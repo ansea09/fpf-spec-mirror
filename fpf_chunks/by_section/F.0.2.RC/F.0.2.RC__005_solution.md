@@ -6,12 +6,12 @@ section_id: "F.0.2.RC:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2.RC/F.0.2.RC__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.0.2.RC — Test Constructive Coverage and Refresh Dependent Explanations"
   - "F.0.2.RC:4 — Solution"
-line_start: 118420
-line_end: 118476
+line_start: 126012
+line_end: 126070
 dependencies:
   - "A.10.1"
   - "A.3.1.CC"
@@ -24,9 +24,9 @@ keywords:
 
 ### F.0.2.RC:4 - Solution
 
-F.0.1/F.0.2 recover and reconcile source meaning, while A.10.1 revalidates an affected reliance after a source change. The reconstruction test below asks the distinct constructive question: can the promised action, condition, join and return actually be recovered from the receiving explanation? A source citation or unchanged bytes alone does not answer it.
+F.0.1/F.0.2 recover and reconcile source meaning, while A.10.1 revalidates an affected reliance after a source change. Test whether the reader can recover the promised action, condition, join and return from the receiving explanation. A source citation or unchanged bytes alone cannot establish that the reader can make that recovery.
 
-Attempt the promised reconstruction, retain the exact loss or success at its tested scope, and follow changed premises to the claims and uses that depend on them.
+Attempt the promised reconstruction, state what was lost or recovered in the tested scope, and follow changed premises to the claims and uses that depend on them.
 
 #### F.0.2.RC:4.1 - Make the coverage claim testable
 
@@ -44,7 +44,9 @@ From a promised language answer, return to its supporting sources and allocation
 
 One direction may settle the question. Use both when the language claims source coverage and the risk includes unsupported additions. A held-out passage or a source condition omitted from the authoring route can expose a loss that the destination map misses.
 
-For a promise about performing a composite Method, also recover a constituent action within its ongoing whole and the conditions that make that combination possible. Change an encompassing requirement and ask what must change in the action. A reader who can repeat the steps but cannot recover that dependence has not yet recovered this promised use. Likewise, available lower-level skills and a known whole procedure can conceal a missing intermediate coordination. A promised actionable account must expose that gap or give a usable return to the contribution that closes it. Retain genuine earlier-result dependencies; a list of simultaneous activities alone does not explain constitution.
+For a promise about performing a composite Method, also recover a constituent action within its ongoing whole and the conditions that make that combination possible. Change an encompassing requirement and ask what must change in the action. A reader who can repeat the steps but cannot recover that dependence has not yet recovered this promised use.
+
+Available lower-level skills and a known whole procedure can conceal a missing intermediate coordination. A promised actionable account must expose that gap or give a usable return to the contribution that closes it. Retain genuine earlier-result dependencies; a list of simultaneous activities alone does not explain constitution.
 
 #### F.0.2.RC:4.3 - State the reconstruction result
 
@@ -67,7 +69,7 @@ A positive reconstruction concerns the inspected claim and use. It does not esta
 
 1. **Name the changed source or use fact.** Distinguish changed content, changed qualification window, unavailable access, defeated evidence and a different receiving question.
 2. **Recover what relied on it.** Identify the allocation, Method/candidate claim, description, pattern relation or reader use that consumed the changed premise.
-3. **Classify the resulting change at its owner.** F.0.2.MA handles allocation; A.3.2.DE description content; A.3.1.CC a contradicted maintained claim; A.3.1.MV a reusable Method variant or a non-variant change; E.8.ML the language arrangement. Use the direct source, evidence or access result where that is the actual question.
+3. **Classify the resulting change at its owner.** F.0.2.MA handles allocation; A.3.2.DE description content; A.3.1.CC a contradicted maintained claim; A.3.1.MV a reusable Method variant or a non-variant change; E.8.ML the language arrangement. Use the direct source, evidence or access result when the question concerns the source, its evidence or access to it.
 4. **Retain independent results.** State why an unaffected result's relied-on basis still holds. A different file or nearby paragraph alone does not establish independence.
 5. **Repeat the affected reconstruction.** Compare the repaired action, condition, result and source return with the same promised use. If the promise itself changes, identify the narrowed or different use rather than report the original test passed.
 

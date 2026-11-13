@@ -6,12 +6,12 @@ section_id: "E.10:7"
 section_title: "Minimal Generality and Domain Anchoring (MG-DA) — names neither parochial nor vacuous"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__009_minimal-generality-and-domain-anchoring-mg-da-names-neither-parochial-nor-vacuous.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:7 — Minimal Generality and Domain Anchoring (MG-DA) — names neither parochial nor vacuous"
-line_start: 99919
-line_end: 100015
+line_start: 105500
+line_end: 105625
 dependencies:
   - "A.10"
   - "A.15"
@@ -60,7 +60,7 @@ keywords:
 
 ### E.10:7 - Minimal Generality and Domain Anchoring (MG-DA) — names neither parochial nor vacuous
 
-> **Principle (MG-DA).** A minted name is **as general as necessary and no more**, and its **head noun is anchored to the FPF kind being named**. First classify the **NameToken** itself using **`LEX.TokenClass`**, then apply the guardrails corresponding to that class: kernel tokens unify **across domains**; discriminator tokens and existing `ContextToken` values make one recovered local source, practice, scheme, subject, or use legible from the name itself. `ContextToken` is the existing token-class identifier; it denotes no Context object. Names too general to have an obvious domain fail MG-DA.
+> **Principle (MG-DA).** A minted name is **as general as necessary and no more**, and its **head noun is anchored to the FPF kind being named**. First classify the **NameToken** using **`LEX.TokenClass`**, then apply the guardrails corresponding to that class: kernel tokens unify **across domains**; discriminator tokens and existing `ContextToken` values make one recovered local source, practice, scheme, subject, or use legible from the name itself. `ContextToken` is the existing token-class identifier; it denotes no Context object. Names too general to have an obvious domain fail MG-DA.
 
 #### E.10:7.1 - `LEX.TokenClass` (meta‑lexical; not a USM Scope)
 **Definition.** `LEX.TokenClass : NameToken → {KernelToken | ContextToken | DiscriminatorToken}`.
@@ -69,28 +69,46 @@ It is **not** a USM scope and carries **no** truth or validity semantics.
 
 #### E.10:7.2 - `KernelToken` — Minimal Generality (MG‑K)
 **MG-K1 (Tri-domain witness).** A DRR note or Glossary note provides at least three heterogeneous arenas where the invariants hold, for example manufacturing, healthcare, and cloud operations. Otherwise reject or narrow the `KernelToken` candidate and recover each word or qualifier under the object and rule that define it. Use a `ContextToken` only after the exact local source, practice, scheme, meaning, and receiving use are recovered. Use an A.19 `CharacteristicSpace` only when one named `U.Characteristic`, one declared CSLC scale, and the exact receiving use make that construction current; an assignment-state relation remains under A.2.5.
+
 **MG-K2 (No parochial nouns).** Kernel names contain no domain nouns such as *Ticket, Microservice, Patient,* or *Developer*. Domain-looking wording is a recovery trigger, not a destination: it may denote a C.3 local kind, exact system-role kind, system-role assignment, system or architecture object, episteme or record kind, declared Characteristic and scale, source wording, ordinary qualifier, recovered local-use `ContextToken`, or another value whose kind and use are already defined. Bare *role* has no default Tech reading. `SystemRole` appears only inside a concrete local kind designation admitted through C.3 and A.2; lexical shape alone creates neither that kind nor an assignment.
+
 **MG-K3 (No vacuity).** Avoid vacuous heads such as *Thing, Event, Process,* or *Resource*. Use existing U-kind heads such as `U.Holon`, `U.Work`, and `U.Method`.
+
 **MG-K4 (Intent after recovery).** U-kind names and labels for an exact local system-role kind or its F.4 `SystemRoleKindDescription` encode recovered semantic intent rather than notation, implementation, or local-realizer accidents. Algorithm, hardware-form, and recipe-flavor wording is a recovery trigger, not one ontological family: name one `U.Method`, qualifying `U.MethodDescription`, qualified holder-ability claim under A.2.2, `U.Mechanism`, system or architecture object, A.19 `CharacteristicSpace`, A.2.5 `SystemRoleAssignmentStateRelation`, representation under its direct pattern, formal substrate, source wording, or another value only when the predicate for that value is satisfied. Do not use Capability, CharacteristicSpace, assignment-state relation, or mechanism as disposal bins for unlike cases.
+
 **MG‑K5 (Notation independence, SHOULD).** The EntityOfConcern-side kind criterion is separable from any one notation or toolchain.
+
 **MG-K6 (Refactoring safety).** If a name fails MG, record a DRR and apply F.13 **Lexical Continuity and Deprecation** rather than mutating it silently.
 
 #### E.10:7.3 - `DiscriminatorToken` and local-use `ContextToken` — Domain Anchoring (DA-D)
 **DA-D1 (kind anchoring).** The head noun names the **FPF kind or exact local construction being classified**—for example *Sense*, *Bridge*, *Characteristic*, *SystemRole*, or another subject-specific head. A concrete local system-role-kind designation may use the `SystemRole` compound, for example `ReviewerSystemRole`; bare *Role* fails this test because it does not reveal whether the claim concerns classification, assignment, participation, declaration, representation, episteme use, or ordinary wording. Readers can answer “**X of what?**” without relying on an unstated container.
+
 **DA-D2 (Enumeration rule, not axis).** An enumerated property is a CHR construction only when one named `U.Characteristic` is bound to one declared CSLC scale in a `CharacteristicSpace`. Otherwise recover the closed value set, classified kind, local classifier, state/status frame, source wording, representation under its direct pattern, example or alternative set, or another construction defined for that value. Avoid spatial metaphors (*axis, dimension, plane, lane, tier, layer*) unless the metaphor is a pattern-defined primitive in this spec.
+
 **DA-D3 (Enum clarity).** If the term denotes an enumeration, the value set is **small and closed**, membership criteria are obvious from the definition, and the **kind being classified** is explicit in the name (e.g., `SenseFamily`, not bare *Family*, *RowPlane* or overly general *Facet*).
-**DA-D4 (Anti-recipe).** Do not bake *how-to* or local methods into discriminator names. The way of doing belongs in one exact `U.Method`; a claim-bearing episteme belongs in `U.MethodDescription` only when that method is its exact EntityOfConcern and A.3.2's positive threshold is met. Use A.2.2 when the recovered claim concerns a holder's ability under stated conditions and bounds; that claim alone calls for no additional kind.
+
+**DA-D4 (Anti-recipe).** Do not bake *how-to* or local methods into discriminator names. The way of doing belongs in one exact `U.Method`; a claim-bearing episteme belongs in `U.MethodDescription` only when that method is its EntityOfConcern and A.3.2's positive threshold is met. Use A.2.2 when the recovered claim concerns a holder's ability under stated conditions and bounds; that claim alone calls for no additional kind.
+
 **DA-D5 (Mapping discipline).** A cross-local relation is not inferred from similar labels or token classes. Use F.9 only when its direct Bridge predicate obtains between exact distinct cells; discriminator names do not suggest global identity.
+
 **DA-D6 (Register discipline).** Keep normative tokens stable; synonyms belong in the **Plain** register only and stay outside constraints and tests.
+
 **DA-D7 (Ban generic combinators).** Reject vague composites like *NameUseMode*, *NamingScope*, `RowFacet`, `RowPlane`, or `RowLane`. Each candidate passes **DA-D1** and **DA-D3** for a kind-anchored head, explicit classified kind, and closed-value interpretation under its classification rule. Require a `CharacteristicSpace` only when one named `U.Characteristic` and its CSLC scale have independently been declared.
 
 #### E.10:7.4  - Global tests (apply after 7.2 and 7.3)
 **MG-DA-T1 (Three-arena witness).** A **`LEX.TokenClass`(t)=KernelToken** candidate includes the tri-domain witnesses from MG-K1. Other token classes document at least one contrasting arena.
-**MG-DA‑T2 (Object‑of‑talk).** The head noun uniquely signals the subject area; avoid free-floating metaphors. **MG-DA‑T3 (Implementation-word recovery).** Do not relocate mechanism- or implementation-looking wording by lexical category. First recover the object and rule; remove accidental implementation wording from the candidate token only after that recovery. Use `U.Method`, qualifying `U.MethodDescription`, qualified holder-ability claim under A.2.2, `U.Mechanism`, a system or architecture object, A.19 `CharacteristicSpace`, A.2.5 `SystemRoleAssignmentStateRelation`, representation under its direct pattern, formal substrate, source wording, or another value only when its predicate is satisfied.
+
+**MG-DA‑T2 (Object‑of‑talk).** The head noun uniquely signals the subject area; avoid free-floating metaphors.
+
+**MG-DA‑T3 (Implementation-word recovery).** Do not relocate mechanism- or implementation-looking wording by lexical category. First recover the object and rule; remove accidental implementation wording from the candidate token only after that recovery. Use `U.Method`, qualifying `U.MethodDescription`, qualified holder-ability claim under A.2.2, `U.Mechanism`, a system or architecture object, A.19 `CharacteristicSpace`, A.2.5 `SystemRoleAssignmentStateRelation`, representation under its direct pattern, formal substrate, source wording, or another value only when its predicate is satisfied.
+
 **MG-DA‑T4 (Enum clarity).** For an enumeration, list the closed value set, the kind being classified, and the rule that classifies it. Add a `CharacteristicSpace` only when the enumeration is one declared CSLC scale for a named `U.Characteristic`; list shape alone does not establish CHR membership.
+
 **MG-DA-T5 (Collision and uniqueness).** Before merge, perform a **full-text search** over the corpus and the **Reserved-Names registry**. A candidate colliding with an existing token used in another FPF sense is not admitted; rename it or raise a DRR to deprecate the prior token.
+
 **MG-DA‑T6 (Teaching swap).** In the stated didactic use under §6.2, the term can be swapped in **without caveats**.
-**MG-DA-T7 (EntityOfConcern ground).** The definition card states the EntityOfConcern-side kind criterion for membership explicitly; reviewers can check membership without consulting external narrative.
+
+**MG-DA-T7 (EntityOfConcern ground).** The definition card states the EntityOfConcern-side kind criterion for membership; reviewers can check membership without consulting external narrative.
 
 #### E.10:7.5 - Compatibility with USM (how tokens and scopes meet)
 **USM applies to acts, not tokens.** Mint, rename, and use are **LexicalActs** that carry a USM scope. `LEX.TokenClass` constrains **where** a token may be used via an **AllowedScopes** policy:
@@ -123,7 +141,7 @@ The eight selected names below are `KernelToken` values under `FPFCoreReferenceS
 | `SystemRoleAssignmentStatePredicate` | `KernelToken` | A.2.5 predicate-value family | exact Core definition, directly declared predicate use or typed constraint, conformance check, worked case for the same family, F.18 NameCard, or F.17 row |
 | `SystemRoleKindRelationStructure` | `KernelToken` | A.2.7 selected-structure construction | exact Core definition, typed structure use or constraint, conformance check, worked case for the same construction, F.18 NameCard, or F.17 row |
 
-For all eight names, Plain wording that silently turns the token into a neighboring object is prohibited. Reuse under another local practice, source, scheme, or meaning uses that value's own identity and designation rules; when two exact cells are compared, any Bridge and use claim remain separately admitted. A change to the named value, TokenClass classification, or stable allowed-use rule reopens only the affected NameCard and row. A collision or conformance result for one dated corpus or candidate is evidence for its publication decision; it is not a reusable lexical rule or a currentness participant in the public pattern.
+For all eight names, Plain wording that silently turns the token into a neighboring object is prohibited. Reuse under another local practice, source, scheme, or meaning uses that value's identity and designation rules; when two exact cells are compared, any Bridge and use claim remain separately admitted. A change to the named value, TokenClass classification, or stable allowed-use rule reopens only the affected NameCard and row. A collision or conformance result for one dated corpus or candidate is evidence for its publication decision; it is not a reusable lexical rule or a currentness participant in the public pattern.
 
 `SystemRole` alone is not a universal token with its own FPF kind or a NameCard subject. It is common morphology inside a concrete local designation such as `ReviewerSystemRole`. C.3 and A.2 recover that kind through its system-candidate domain, operative work-facing membership condition, intended member/non-member boundary, and continuity rule; practice or source provenance only locates or prompts comparison of the definition. `AssignedSystemRoleKindSlot`, `SystemRoleAssignmentSlot`, and fields ending in `...SystemRoleKindRef` or `...SystemRoleAssignmentRef` remain declaration-local `ContextToken` uses; the token-class name adds no Context object, and the fields are typed by existing `U.KindRef` or `U.RelationRef`, not by newly minted RefKinds. `J_kindUse` remains local notation. None receives a public row merely because the spelling recurs.
 
@@ -136,7 +154,9 @@ Prefer **object‑anchored heads** to metaphors. If a metaphor is unavoidable, e
 
 #### E.10:7.7 - Short‑form and acronym discipline
 **SF-1 (First expansion).** On first use, expand the term and place the short form in parentheses (e.g., “Minimal Generality and Domain Anchoring (**MG-DA**)”).
+
 **SF-2 (Uniqueness).** Register short forms in the **Reserved-Names** list and perform the collision check (MG-DA-T5).
+
 **SF‑3 (Form, SHOULD).** Prefer typographic separators (**MG-DA**) to fused acronyms (**MGDA**). Use the fused form only in code or identifiers where punctuation is disallowed, and only after registration.
 
 #### E.10:7.8 - Examples (illustrative, canonical)
@@ -145,13 +165,22 @@ Do **not** mint *ETLService* at kernel level. Recover the ETL claim first: the w
 
 #### E.10:7.9 - Acceptance and regression checks (LEX and USM)
 **SCR‑LEX‑S01 (TokenClass declaration).** Every normative token has a declared `LEX.TokenClass`.
+
 **SCR‑LEX‑S02 (Collision and uniqueness).** Full‑text + Reserved‑Names check passes (no other meaning in FPF).
+
 **SCR‑LEX‑S03 (kind anchoring).** Heads name the FPF kind classified (DA‑D1).
+
 **SCR‑LEX‑S04 (Enumeration rule gate).** Every enumeration names its closed value set, classified kind, and classification rule. Require a `CharacteristicSpace` only when one named `U.Characteristic` is bound to one declared CSLC scale; otherwise retain the local classifier, state/status value set, source wording or representation under its direct pattern, example or alternative set, local kind, or another construction defined for that classification.
+
 **SCR‑LEX‑S05 (USM compatibility).** For each LexicalAct, `USM.Scope ∈ AllowedScopes(LEX.TokenClass)`.
+
 **SCR‑LEX‑S06 (Slot and Ref suffix discipline).** A token ending in **`…Slot`** names the declaration-local **SlotKind** inside one exact A.6.5 `SlotSpec` of one reusable `RelationSignature`. A token ending in **`…Ref`** names either a RefKind admitted by its direct reference pattern or a receiving-episteme field explicitly typed by that RefKind; the field remains designation or reference apparatus and does not become the participant or SlotSpec. No ValueKind or representation field may acquire either suffix by shape alone.
-**SCR-LEX-S07 (Manifest `provides` follows exact signature claims).** If a `SignatureManifest` is present, its `provides` entry is used only when that signature's exact claim content G under C.2.1 states that the signature introduces public names for dependent use. The entry carries that claim content or visibly represents it; list membership alone establishes neither provision nor a consumer dependency. Include only names actually introduced by this signature under the patterns that define them, such as its own A.6.5 relation-participant SlotKinds and RefKinds whose direct reference patterns admit them. A RefKind defined elsewhere remains defined there, and membership in an A.6.1 operation-argument or result declaration list does not transfer its definition to the manifest. A mathematical operand, table column, tuple place, or other representation element becomes no provided SlotKind by shape; any reuse still needs its independently governed declaration and explicit correspondence.
+
+**SCR-LEX-S07 (Manifest `provides` follows exact signature claims).** If a `SignatureManifest` is present, its `provides` entry is used only when that signature's exact claim content G under C.2.1 states that the signature introduces public names for dependent use. The entry carries that claim content or visibly represents it; list membership alone establishes neither provision nor a consumer dependency. Include only names introduced by this signature under the patterns that define them, such as its own A.6.5 relation-participant SlotKinds and RefKinds whose direct reference patterns admit them. A RefKind defined elsewhere remains defined there, and membership in an A.6.1 operation-argument or result declaration list does not transfer its definition to the manifest. A mathematical operand, table column, tuple place, or other representation element becomes no provided SlotKind by shape; any reuse still needs its independently governed declaration and explicit correspondence.
+
 **RSCR‑LEX‑E01 (Banned generics).** Reject tokens matching the banned combinators list (DA‑D7).
+
 **RSCR‑LEX‑E02 (Metaphor hygiene).** If a metaphor is used, show the pattern that defines it; otherwise rename.
-**RSCR‑LEX‑E03 (Strategy token minting).** Reject new Kernel tokens named **Strategy** or **Policy** as kinds. Recover the subject first: use a **lens**, **flow**, or **composition** inside **G.5** when that is the actual construction, or use a subject-specific **…Description** or **…Spec** under the exact project profile and effective scheme when that construction's own admission gate passes. (Prevents kernel overloading; aligns with C.22 “no minted Strategy head”.)
+
+**RSCR‑LEX‑E03 (Strategy token minting).** Reject new Kernel tokens named **Strategy** or **Policy** as kinds. Recover the subject first: use a **lens**, **flow**, or **composition** inside **G.5** when that is the construction, or use a subject-specific **…Description** or **…Spec** under the exact project profile and effective scheme when that construction's admission gate passes. (Prevents kernel overloading; aligns with C.22 “no minted Strategy head”.)
 

@@ -6,12 +6,12 @@ section_id: "B.4.1:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4.1/B.4.1__006_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.4.1 — Publish Candidate Routes for a Stabilized Cue (RoutedCueSet)"
   - "B.4.1:5 — Archetypal Grounding"
-line_start: 46078
-line_end: 46084
+line_start: 47984
+line_end: 47990
 dependencies:
   - "A.15"
   - "A.16"
@@ -34,7 +34,7 @@ keywords:
 ---
 
 ### B.4.1:5 - Archetypal Grounding
-**Tell.** Route publication requires a stabilized cue and an explicit candidate route set.
+**Tell.** Route publication requires a stabilized cue and a stated candidate route set.
 
 **Show (System).** An operator alarm may support routes toward intervention, rollback, or anomaly investigation.
 

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.5.FM"
-pattern_title: "Construct a First Model for the Working Question"
+pattern_title: "Construct a Model for the Question"
 section_id: "B.5.FM:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.FM/B.5.FM__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "B.5.FM — Construct a First Model for the Working Question"
+  - "B.5.FM — Construct a Model for the Question"
   - "B.5.FM:3 — Forces"
-line_start: 48484
-line_end: 48493
+line_start: 50508
+line_end: 50517
 dependencies:
   - "A.3.3"
   - "A.6.3.RT"

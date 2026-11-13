@@ -6,12 +6,12 @@ section_id: "B.1:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1/B.1__008_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.1 — Holon Aggregation and Part-Whole Construction"
   - "B.1:6 — Bias-Annotation"
-line_start: 41142
-line_end: 41150
+line_start: 42754
+line_end: 42762
 dependencies:
   - "A.1"
   - "A.14"
@@ -34,7 +34,7 @@ keywords:
 | Bias risk | Failure | Mitigation |
 | --- | --- | --- |
 | Apparatus as ontology | A user infers the object kind from the form of a graph or other representation. | Recover the holon, relation, selected structure, and mathematical-lens use separately. |
-| Decomposition as parthood | Source “role” factors, method steps, phases, or work episodes are treated as holonic parts by label. | Use `E.10.ROLE` when the role wording is unresolved, then the direct pattern for the recovered relation; use the Method, temporal, Work, or part-whole pattern for the other claims. |
-| Collection as acting whole | A set, list, batch, fleet, or community receives agency or responsibility by plural naming. | Recover who or what belongs under the collection's own rule and the collection account, or admit the actual collective System under A.1. State responsibility separately by naming its predicate, participants, applicability, and occurrence identity; if no pattern or rule defines the needed claim, return that gap. |
+| Decomposition as parthood | Source “role” factors, method steps, phases, or work episodes are treated as holonic parts by label. | Use `E.10.ROLE` when the role wording is unresolved, then the pattern for the recovered relation; use the Method, temporal, Work, or part-whole pattern for the other claims. |
+| Collection as acting whole | A set, list, batch, fleet, or community receives agency or responsibility by plural naming. | Recover who or what belongs under the collection's own rule and the collection account, or admit the collective System under A.1. State responsibility separately by naming its predicate, participants, applicability, and occurrence identity; if no pattern or rule defines the needed claim, return that gap. |
 | Emergence rhetoric | "More than the sum" replaces existing-whole explanation. | Check applicable existing-whole explanations; use B.2 only for a consequential question that remains about keeping or reidentifying that whole. |
 

@@ -6,12 +6,12 @@ section_id: "B.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1/B.1__006_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.1 — Holon Aggregation and Part-Whole Construction"
   - "B.1:4 — Solution"
-line_start: 41036
-line_end: 41121
+line_start: 42644
+line_end: 42729
 dependencies:
   - "A.1"
   - "A.14"
@@ -64,26 +64,26 @@ Use:
 - `C.16` when the current output is a whole-level characteristic;
 - `A.1` and `A.15` when the whole is claimed to be an acting collective system.
 
-#### B.1:4.2 - Didactic Firewall
+#### B.1:4.2 - Distinguish part-whole claims from other claims
 
 | Source claim | Ontology-side recovery | Subject pattern |
 | --- | --- | --- |
-| "This object is made of these parts." | Identify the candidate whole and constituents and establish the part relations and construction rule. When holonhood is claimed, apply all six A.1 components and the direct kind-specific conditions. | `A.1` for holon recognition, `A.14`, `C.13`; `B.3.5` when a publication choice or named current requirement elects its assurance profile. |
+| "This object is made of these parts." | Identify the candidate whole and constituents and establish the part relations and construction rule. When holonhood is claimed, apply all six A.1 components and the kind-specific conditions. | `A.1` for holon recognition, `A.14`, `C.13`; `B.3.5` when a publication choice or named current requirement elects its assurance profile. |
 | "These items belong to this collection." | The collection's own belongs-to rule or collection-as-whole grounding; no `ComponentOf` inference. | `A.14`, `C.13`, `C.16` for a collection-level or whole-level characteristic. |
-| “This role is combined from role factors.” | Unresolved source wording. It may mean an exact relation among local system-role kinds, a classification or assignment, a direct participation relation, a naming question, or ordinary prose; none is holonic parthood by default. | `E.10.ROLE` first; then `A.2.7` only for the exact relation among local system-role kinds, or the direct pattern for the recovered classification, assignment, participation, or naming claim; use `C.29` when a separate mathematical representation-choice, transfer or reliance question remains unresolved. |
+| “This role is combined from role factors.” | Unresolved source wording. It may mean a relation among local system-role kinds, a classification or assignment, a participation relation, a naming question, or ordinary prose; none is holonic parthood by default. | `E.10.ROLE` first; then `A.2.7` only for the relation among local system-role kinds, or the pattern for the recovered classification, assignment, participation, or naming claim; use `C.29` when a separate mathematical representation-choice, transfer or reliance question remains unresolved. |
 | "This method has steps, parameters, guards, or variants." | Method relation structure, method family, method description, or work plan; not performed work by default. | `A.15`, Method patterns, `C.29` when a separate mathematical representation-choice, transfer or reliance question remains unresolved. |
 | "This run contained episodes or concurrent sub-runs." | Work occurrence holarchy with timing, evidence, occurrence identity, and work-part relation. | `A.15.1`, temporal pattern, evidence-use pattern. |
 | "This graph or algebraic notation represents the structure." | Mathematical or representation description of a selected structure. | `A.22` and the applicable architecture or description pattern; `C.29` when a separate mathematical representation-choice, transfer or reliance question remains unresolved. |
-| "The whole shows emergence." | Check applicable explanations within the existing whole first. Use B.2 when changed facts leave a consequential question about whether that whole remains sufficient or a new whole is required. | `B.2`, `B.2.P`, or the direct characteristic, measurement, architecture, capability, or Work pattern. |
+| "The whole shows emergence." | Check applicable explanations within the existing whole first. Use B.2 when changed facts leave a consequential question about whether that whole remains sufficient or a new whole is required. | `B.2`, `B.2.P`, or the characteristic, measurement, architecture, capability, or Work pattern. |
 
 #### B.1:4.3 - Work Occurrence Holarchy
 
 A Method's composition and the parts of a performed Work require different grounds.
 
-A dated Work may have independently admitted temporal or operational parts under `A.15.1`. C.27 governs temporal claims, and B.1.4 aggregates recovered order or temporal relations when that is the question. Resource roll-ups use B.1.6; composing effects needs the direct relation and composition rule for those effects. Neither kind of calculation establishes Work parthood or makes a Method or role expression a holonic part.
+A dated Work may have independently admitted temporal or operational parts under `A.15.1`. C.27 governs temporal claims, and B.1.4 aggregates recovered order or temporal relations when that is the question. Resource roll-ups use B.1.6; composing effects needs the relation and composition rule for those effects. Neither kind of calculation establishes Work parthood or makes a Method or role expression a holonic part.
 
 
-#### B.1:4.4 - Mathematical And Representation Apparatus
+#### B.1:4.4 - Use mathematical and other representations
 
 Before using Γ notation or another aggregation representation, name the object and selected relation.
 
@@ -101,7 +101,7 @@ Blocked uses:
 - source notation as a new U-kind;
 - one fold rule as a universal replacement for the subject pattern.
 
-#### B.1:4.5 - Existing-Whole Before MHT
+#### B.1:4.5 - Consider explanations within the existing whole
 
 To assess whether changed facts require a different whole for the receiving use, first consider applicable explanations within the existing whole, such as:
 

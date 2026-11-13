@@ -6,12 +6,12 @@ section_id: "C.3.5:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.5/C.3.5__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.3.5 — KindAT — Intentional Abstraction Facet for Kinds (K0…K3)"
   - "C.3.5:intro — Intro"
-line_start: 56039
-line_end: 56056
+line_start: 58343
+line_end: 58360
 dependencies:
   - "A.2.6"
   - "C.2.2"
@@ -43,8 +43,8 @@ keywords:
 **Depends on.**
 
 - **C.3/C.3.1:** kind identity by candidate domain and membership distinction, obtaining `U.SubkindOf` relations, and kind continuity.
-- **C.3.2:** the separate `KindSignature` declaration episteme, exact four-input classification judgment, and optional pinned-edition extension representation.
+- **C.3.2:** the separate `KindSignature` declaration episteme, four-input classification judgment, and optional pinned-edition extension representation.
 - **C.3.3:** the obtaining `KindBridge` relation and its separate bridge-assertion episteme carrying loss, evidence, admitted use, and any `CL^k` required by the consumed assurance or calibration account.
-- **C.3.4:** the `KindUseAdaptationDeclaration` episteme and exact `KindUseAdaptationJudgment`.
+- **C.3.4:** the `KindUseAdaptationDeclaration` episteme and `KindUseAdaptationJudgment`.
 - **A.2.6, C.2.2, and C.2.3:** Claim/Work scope, F–G–R, and formality assessed on the episteme that owns the expression.
 

@@ -6,12 +6,12 @@ section_id: "A.11.OP:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.11.OP/A.11.OP__010_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.11.OP — Decision-Relevant Least Action and Operational Parsimony: Test a Proposed Requirement"
   - "A.11.OP:9 — Consequences"
-line_start: 27797
-line_end: 27808
+line_start: 28833
+line_end: 28844
 dependencies:
   - "A.10"
   - "A.11"
@@ -43,5 +43,5 @@ The pattern changes practice before a requirement is installed. A designer names
 | Immediate and delayed value are distinguished without a universal calculation. | Material plausibility still depends on the applicable subject, evidence, risk, or assurance basis. |
 | Ordinary application stays conversational. | Consequential or disputed use may need an existing claim-bearing episteme for its relying consumer. |
 | Direct owners remain intact. | The screen decides only whether the requirement is non-ceremonial for the declared use and horizon. |
-| Local closures can remove speculative work and still reopen. | A changed horizon, duty, result, reliance, or alternative can legitimately reverse the earlier disposition. |
+| Local closures can remove speculative work and still reopen. | A changed horizon, duty, result, reliance, or alternative can reverse the earlier disposition. |
 

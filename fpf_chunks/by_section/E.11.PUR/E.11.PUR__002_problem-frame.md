@@ -6,12 +6,12 @@ section_id: "E.11.PUR:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUR/E.11.PUR__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.11.PUR — Pattern-Use Applicability, Recommendation, and Coordination"
   - "E.11.PUR:1 — Problem frame"
-line_start: 103963
-line_end: 103978
+line_start: 109989
+line_end: 110006
 dependencies:
   - "A.10"
   - "A.15"
@@ -36,13 +36,15 @@ keywords:
 
 #### E.11.PUR:1.1 - Use this when
 
-Use `E.11.PUR` after one or more candidate pattern uses have been inspected and a person or assisting agent needs to decide whether each use fits, which use to recommend, how several uses should be coordinated, or whether an earlier result already answers the current concern. The candidates may remain conversational in ordinary bounded use; addressable `CandidatePatternUse@Context` values are required only when a named later reliance needs them.
+Use `E.11.PUR` after one or more candidate pattern uses have been inspected and a person or assisting agent needs to decide whether each use fits, which use to recommend, how several uses should be coordinated, or whether an earlier result already answers the current concern.
+
+The candidates may remain conversational in ordinary bounded use; addressable `CandidatePatternUse@Context` values are required only when a named later reliance needs them.
 
 **Primary EntityOfConcern.** One current applicability, recommendation, or coordination judgement over already inspected candidate pattern uses. When that judgement must remain addressable, it may be represented by `PatternUseApplicabilityFinding@Context`, `PatternUseRecommendation@Context`, or `PatternUseCoordination@Context`; a `PatternUseOrderingRelation@Context` exists only inside the coordination it qualifies.
 
 The `@Context` suffix on these compatibility support names is retrieval wording only. It names no bounded-context entity, generic situation, project container, relation participant, or identity field; every episteme follows C.2.1 identity, and an ordering relation follows its own participant, condition, obtaining, and occurrence rules.
 
-**What this buys.** Applicability no longer silently becomes recommendation, presentation order no longer silently becomes workflow order, and a result that still answers the concern can end a repeated pattern use. A project can preserve exact reasons for a consequential recommendation without burdening ordinary bounded use with five separate forms or copying one result under another stage name.
+**What this buys.** A team distinguishes applicability from recommendation and presentation order from workflow order. A result that still answers the concern can end a repeated pattern use. A project can preserve exact reasons for a consequential recommendation without burdening ordinary bounded use with five separate forms or copying one result under another stage name.
 
 **Not this pattern when.** Use `E.11` while public entries are still being compared. Use `E.11.PUA` to use one selected pattern and obtain its first result. Use A.15 for work planning or performed work, A.21 for a gate decision, and the direct decision or authorization pattern when those claims are current.
 

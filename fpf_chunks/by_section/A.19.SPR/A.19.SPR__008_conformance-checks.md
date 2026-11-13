@@ -6,12 +6,12 @@ section_id: "A.19.SPR:6"
 section_title: "Conformance checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SPR/A.19.SPR__008_conformance-checks.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.19.SPR — Repair State and Status Wording"
   - "A.19.SPR:6 — Conformance checks"
-line_start: 35472
-line_end: 35486
+line_start: 36974
+line_end: 36988
 dependencies:
   - "A.10"
   - "A.16"
@@ -47,12 +47,12 @@ keywords:
 
 | Check | Requirement |
 | --- | --- |
-| `CC-A19SPR-1` | The final sentence names the exact item and what is claimed or valued, or explicitly keeps the wording ordinary, quoted, navigation-only, narrowed, or blocked. |
-| `CC-A19SPR-2` | The direct rule or criterion is recoverable whenever the claim is not understandable or usable without it. |
-| `CC-A19SPR-3` | A predicate appears only when the direct pattern defines or needs one; relations, assertions, results, decisions, and record fields keep their own forms. |
+| `CC-A19SPR-1` | The final sentence names the item and what is claimed or valued, or keeps the wording ordinary, quoted, navigation-only, narrowed, or blocked. |
+| `CC-A19SPR-2` | The rule or criterion is recoverable whenever the claim is not understandable or usable without it. |
+| `CC-A19SPR-3` | A predicate appears only when the pattern defines or needs one; relations, assertions, results, decisions, and record fields keep their own forms. |
 | `CC-A19SPR-4` | An allowed-use clause changes the receiving action. A blocked-inference clause passes §4's independent-ground, plausible-reader and contribution test. |
 | `CC-A19SPR-5` | A time window, expiry rule or recheck condition appears when change could alter the claim or action during the intended use. |
-| `CC-A19SPR-6` | Source, evidence, assurance, publication, assignment state, work entry, gates, decisions, release or admission, and project records use the patterns or records that define or test those exact claims. |
+| `CC-A19SPR-6` | Source, evidence, assurance, publication, assignment state, work entry, gates, decisions, release or admission, and project records use the patterns or records that define or test those claims. |
 | `CC-A19SPR-7` | Source and publication patterns are not used as a general home for evidence, assurance, gate, Work, temporal, mathematical-lens, or project status. |
 | `CC-A19SPR-8` | A retained technical field names its item, possible values, and rule; it adds use, time, evidence, and blocked-inference fields only under their triggers. |
 | `CC-A19SPR-9` | A cold reader can say what the sentence is about, what it claims, and what to do or check next. Type-correct but opaque wording fails. |

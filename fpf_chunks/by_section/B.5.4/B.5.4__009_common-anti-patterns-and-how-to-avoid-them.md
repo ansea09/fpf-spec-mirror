@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.5.4"
-pattern_title: "Recognize a Reusable Concept in a Concrete Situation"
+pattern_title: "Recognize a Concept in a Situation"
 section_id: "B.5.4:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.4/B.5.4__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "B.5.4 — Recognize a Reusable Concept in a Concrete Situation"
+  - "B.5.4 — Recognize a Concept in a Situation"
   - "B.5.4:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 50472
-line_end: 50479
+line_start: 52554
+line_end: 52561
 dependencies:
   - "A.7.1"
   - "B.5"

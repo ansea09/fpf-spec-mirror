@@ -6,12 +6,12 @@ section_id: "C.32.PAD:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.PAD/C.32.PAD__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.32.PAD — Project Architecture Decision After Candidate Synthesis"
   - "C.32.PAD:intro — Intro"
-line_start: 79780
-line_end: 79785
+line_start: 83609
+line_end: 83614
 dependencies:
   - "A.1.STM"
   - "A.10"
@@ -66,5 +66,5 @@ keywords:
 
 > **Type:** Architecture decision pattern under C.32
 > **Status:** Stable
-> **Normativity:** Normative unless explicitly marked informative
+> **Normativity:** Normative unless marked informative
 

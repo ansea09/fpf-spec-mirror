@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.6"
-pattern_title: "Base Declaration Discipline: Say Exactly What Something Depends On"
+pattern_title: "Base Declaration Discipline: Say What Something Depends On"
 section_id: "A.6.6:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__013_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.6.6 — Base Declaration Discipline: Say Exactly What Something Depends On"
+  - "A.6.6 — Base Declaration Discipline: Say What Something Depends On"
   - "A.6.6:12 — Relations"
-line_start: 24026
-line_end: 24049
+line_start: 24947
+line_end: 24970
 dependencies:
   - "A.10"
   - "A.14"
@@ -41,25 +41,25 @@ keywords:
 
 ### A.6.6:12 - Relations
 
-**Specialises A.6.P Relational Precision Restoration.** A.6.6 handles basedness wording by recovering the actual dependent, base, and direct relation, then stopping or opening only the additional object required by a named use.
+**Specialises A.6.P Relational Precision Restoration.** A.6.6 handles basedness wording by recovering the dependent, base, and direct relation, then stopping or opening only the additional object required by a named use.
 
 **Builds on A.6.REL and `A.6.0`.** The direct pattern supplies relation obtaining and occurrence identity. A reusable `RelationSignature` is justified only for an already admitted relation kind and shared declaration content; the declaration form alone establishes no occurrence.
 
 **Builds on A.6.5 only when reusable declaration content is current.** A SlotSpec declares a participant meaning, ValueKind and designation mode inside one RelationSignature. An ordinary assertion needs no SlotSpec record unless its receiving use requires that declaration.
 
-**Coordinates with A.2.4 and A.10.** A.2.4 states the exact evidence-use relation. A.10 represents the independently established sources, Work, result epistemes, carriers, provenance, currentness, and later-use relations needed for bounded reliance. Neither pattern admits generic `verifiedBy` or `validatedBy` edges, and Work is not an evidence carrier.
+**Coordinates with A.2.4 and A.10.** A.2.4 states the evidence-use relation. A.10 represents the independently established sources, Work, result epistemes, carriers, provenance, currentness, and later-use relations needed for bounded reliance. Neither pattern admits generic `verifiedBy` or `validatedBy` edges, and Work is not an evidence carrier.
 
-**Coordinates with A.14 and C.2.1.** Constructive grounding and empirical grounding retain their exact direct predicates and participants. Their assertion epistemes and evidence remain separate from the world-side relations.
+**Coordinates with A.14 and C.2.1.** Constructive grounding and empirical grounding retain their direct predicates and participants. Their assertion epistemes and evidence remain separate from the world-side relations.
 
-**Coordinates with A.6.3 and `A.6.4`.** A.6.3's viewing construction separately identifies the source and receiving endpoints with the same exact EntityOfConcern; the endpoints may identify the same episteme in identity viewing. A.6.4 retargets between different exact EntitiesOfConcern; its retargeting arrow `r`, bounded-use assertion `q`, current-case judgement, operation application, and Work remain distinct. Ordinary aboutness alone selects neither construction. A.6.6 adds no second arrow or universal relative-to object.
+**Coordinates with A.6.3 and `A.6.4`.** A.6.3's viewing construction separately identifies the source and receiving endpoints with the same EntityOfConcern; the endpoints may identify the same episteme in identity viewing. A.6.4 retargets between different EntitiesOfConcern; its retargeting arrow `r`, bounded-use assertion `q`, current-case judgement, operation application, and Work remain distinct. Ordinary aboutness alone selects neither construction. A.6.6 adds no second arrow or universal relative-to object.
 
-**Coordinates with F.9 and ReferencePlane rules conditionally.** F.9 applies only to an obtaining Bridge between two exact F.17 cells and keeps its bounded-use claim separate. A ReferencePlane crossing uses its applicable plane relation. If both are current, state both; if only one is current, introduce no object from the other branch.
+**Coordinates with F.9 and ReferencePlane rules conditionally.** F.9 applies only to an obtaining Bridge between two F.17 cells and keeps its bounded-use claim separate. A ReferencePlane crossing uses its plane relation. If both are current, state both; if only one is current, introduce no object from the other branch.
 
 **Coordinates with A.2.6, A.7, and E.24.UK:** A.2.6 governs scope and Γ_time when the assertion or receiving use depends on them. A.7 distinguishes EntityOfConcern, description, specification and publication uses. E.24.UK supplies the U-kind admission boundary; an optional local record form admits no new kind.
 
-**Coordinates with C.3.3 and E.18.** C.3.3 supplies `U.KindBridge` only for an independently established cross-local kind correspondence, with its exact kinds, direction, declared `CL^k`, and use/loss conditions; different participant kinds alone establish no KindBridge or silent re-typing. E.18 retains the meanings and subject resolution of its assurance operations on connection(q), including `CalibrateTo`, `CiteEvidence`, `AttributeTo`, and `ConstrainTo`; A.6.6's declaration-change labels do not replace them.
+**Coordinates with C.3.3 and E.18.** C.3.3 supplies `U.KindBridge` only for an independently established cross-local kind correspondence, with its kinds, direction, declared `CL^k`, and use/loss conditions; different participant kinds alone establish no KindBridge or silent re-typing. E.18 retains the meanings and subject resolution of its assurance operations on connection(q), including `CalibrateTo`, `CiteEvidence`, `AttributeTo`, and `ConstrainTo`; A.6.6's declaration-change labels do not replace them.
 
-**Coordinates with E.8, F.0.1, F.15, and F.17:** E.8 governs pattern-authoring order and SoTA discipline. F.0.1 recovers exact source-local meaning; F.17 supplies an optional durable sense address or basis relation. F.15 supplies the carrier/source-currentness, provenance, and refresh validation harness when that validation is current.
+**Coordinates with E.8, F.0.1, F.15, and F.17:** E.8 governs pattern-authoring order and SoTA discipline. F.0.1 recovers source-local meaning; F.17 supplies an optional durable sense address or basis relation. F.15 supplies the carrier/source-currentness, provenance, and refresh validation harness when that validation is current.
 
 **Feeds E.10, E.10.D1, and F.18 lexical governance.** Umbrella words trigger recovery of the direct relation. Ordinary relation-specific prose remains valid; notation and durable public names are added only for a named use.
 

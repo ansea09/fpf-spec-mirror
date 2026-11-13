@@ -6,12 +6,12 @@ section_id: "C.40.DC:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.DC/C.40.DC__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.40.DC — Construct Directions with Support Configurations"
   - "C.40.DC:4 — Solution"
-line_start: 87439
-line_end: 87514
+line_start: 91673
+line_end: 91748
 dependencies:
   - "A.3.1"
   - "A.3.2"
@@ -41,7 +41,7 @@ For every serious proposal, explain what the subject or supported arrangement co
 
 When a pattern is the proposed address, cite its complete current body and recover the action-bearing contribution from it. Do not substitute its title, PatternID, a summary card, or a list of topics for that contribution. Keep the body's relevant applicability, assurance, and stopping conditions; the direction need not copy the entire source.
 
-If the receiving claim depends on a Method or MethodDescription, preserve its established relation under [A.3.1](https://github.com/ailev/FPF/blob/main/FPF-Spec.md) and [A.3.2](https://github.com/ailev/FPF/blob/main/FPF-Spec.md). A pattern is a MethodDescription only after A.3.2 establishes an already admitted Method as its exact EntityOfConcern and at least one substantive claim about that Method as a way of doing. Otherwise use its content as pattern guidance and leave that stronger relation unasserted. In neither case does reading or publishing the description establish the subject's capability.
+If the receiving claim depends on a Method or MethodDescription, preserve its established relation under [A.3.1](https://github.com/ailev/FPF/blob/main/FPF-Spec.md) and [A.3.2](https://github.com/ailev/FPF/blob/main/FPF-Spec.md). A pattern is a MethodDescription only after A.3.2 establishes an already admitted Method as its EntityOfConcern and at least one substantive claim about that Method as a way of doing. Otherwise use its content as pattern guidance and leave that stronger relation unasserted. In neither case does reading or publishing the description establish the subject's capability.
 
 For a person, connect the contribution to representative later Work. “Use A.15.9 to formulate and rely on a bounded outside-practice result in evidence review” can specify a contribution; “finish A.15.9” cannot specify capability or transfer. A capability or transfer claim needs qualified evidence about this person, the later Work and permitted support; obtain that result from the relevant capability and subject practice before relying on it.
 
@@ -54,9 +54,9 @@ Distinguish two questions:
 - **Different contribution premises:** directions address different worthwhile problems, results, uses, or acceptance expectations. Preserve those differences for the receiving comparison.
 - **Different ways of obtaining one contribution:** candidates hold the result premise stable but vary the supporting arrangement. For organization-change decisions, use an applicable organizational comparison Method when that whole same-result question is current.
 
-For a separately selected decision-design inquiry, an applicable alternative-generation Method can develop an explicit set of decision alternatives from the directions returned here. That Method can retain alternatives for different live formulations; same-result parity is not its universal entry condition.
+For a separately selected decision-design inquiry, an applicable alternative-generation Method can develop a set of decision alternatives from the directions returned here. That Method can retain alternatives for different live formulations; same-result parity is not its universal entry condition.
 
-Retain the actual baseline, a smaller repair, a staged direction, or no new development when each answers the inquiry. No change still carries continuing Work, resource use, and exposure. A missing alternative is an honest return; do not invent a weak candidate to make a preferred one win.
+Retain the actual baseline, a smaller repair, a staged direction, or no new development when each answers the inquiry. No change still carries continuing Work, resource use, and exposure. State when an alternative is missing; do not invent a weak candidate to make a preferred one win.
 
 #### C.40.DC:4.4 - Specify the finite change and support configuration
 
@@ -77,7 +77,7 @@ Use direct holder, engineering, operations, organization, provider, safety, and 
 
 When making a finite contribution comparison, use [C.11.CRC](https://github.com/ailev/FPF/blob/main/FPF-Spec.md). Compare actual or relied-on `S0`, finite `Delta`, and realizable candidate `S1` under one system boundary, receiving decision, horizon, scenarios, constraints, interactions, transition basis, uncertainty, and evidence window.
 
-Keep four coordinate families visible: useful results; consumed resources; consequences for affected Systems and the distribution of gains and burdens; and explicitly protected conditions. Retain each characteristic's scale and polarity. Do not hide one family in another or average incompatible scales.
+Keep four coordinate families visible: useful results; consumed resources; consequences for affected Systems and the distribution of gains and burdens; and protected conditions. Retain each characteristic's scale and polarity. Do not hide one family in another or average incompatible scales.
 
 For a Pareto-improvement claim, no coordinate in the declared complete set may worsen and at least one must improve under that same basis. Otherwise state only the supported relation, such as beneficial under a stated value judgement, harmful, dominated, non-dominated, or indeterminate. A direction with a possible gain and an unresolved protected condition is not thereby a Pareto improvement or a selected option.
 
@@ -85,7 +85,7 @@ If reachability or another necessary premise is missing, give the conditional co
 
 For a later step, use its stage-specific `S_i`, finite `Delta_i`, and candidate `S_i+1`, not the original baseline by default. `C.40.OP` maintains the resulting finite path or branch account, including each step's burden, reversibility, option effects, and reopen condition. Neither the path nor its separate comparisons select a programme.
 
-#### C.40.DC:4.6 - Return a usable candidate or the exact gap
+#### C.40.DC:4.6 - Return a usable candidate or identify what is missing
 
 An ordinary direction account can say:
 

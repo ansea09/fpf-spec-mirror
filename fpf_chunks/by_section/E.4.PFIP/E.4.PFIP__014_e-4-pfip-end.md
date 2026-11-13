@@ -6,12 +6,12 @@ section_id: "E.4.PFIP:End"
 section_title: "E.4.PFIP:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFIP/E.4.PFIP__014_e-4-pfip-end.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.4.PFIP — Principle-Framework Publication Integration and Preservation"
   - "E.4.PFIP:End — E.4.PFIP:End"
-line_start: 96327
-line_end: 96328
+line_start: 101523
+line_end: 101524
 dependencies:
   - "C.2.1"
   - "C.33"

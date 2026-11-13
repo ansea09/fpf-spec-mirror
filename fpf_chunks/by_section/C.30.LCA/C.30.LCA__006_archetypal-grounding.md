@@ -6,12 +6,12 @@ section_id: "C.30.LCA:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.LCA/C.30.LCA__006_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.30.LCA — Control Structure View Adequacy (LCA)"
   - "C.30.LCA:5 — Archetypal Grounding"
-line_start: 74341
-line_end: 74347
+line_start: 77593
+line_end: 77599
 dependencies:
   - "A.10"
   - "A.20"
@@ -49,6 +49,6 @@ keywords:
 
 | Archetype | Without C.30.LCA | With C.30.LCA |
 |---|---|---|
-| System | A plant, controller, or supervisor diagram is treated as if the drawing itself established the controlled system's behavior. | The controlled system, controller, observer, planner, supervisor, boundaries, rate bands, actual control relations, and selected control structure remain separately recoverable. |
-| Episteme | A control-description publication is read as structure, `U.View`, or proof because it uses familiar control labels. | The exact description episteme has one selected-structure EntityOfConcern; it is a view only through exact E.17.0 conformance. Representation, publication, and proof-like claims stay separate. |
+| System | A plant, controller, or supervisor diagram is treated as if the drawing itself established the controlled system's behavior. | The controlled system, controller, observer, planner, supervisor, boundaries, rate bands, control relations, and selected control structure remain separately recoverable. |
+| Episteme | A control-description publication is read as structure, `U.View`, or proof because it uses familiar control labels. | The description episteme has one selected-structure EntityOfConcern; it is a view only through E.17.0 conformance. Representation, publication, and proof-like claims stay separate. |
 

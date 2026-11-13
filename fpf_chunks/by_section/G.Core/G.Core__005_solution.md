@@ -6,12 +6,12 @@ section_id: "G.Core:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.Core/G.Core__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.Core — Discipline SoTA Kit Invariants, Defaults and Refresh Triggers (Part G)"
   - "G.Core:4 — Solution"
-line_start: 126457
-line_end: 126721
+line_start: 134507
+line_end: 134771
 dependencies:
   - "A.15.3"
   - "A.19"
@@ -47,14 +47,14 @@ For each Part G invariant already defined elsewhere, `G.Core`:
 
 | Obligation handle | Canonical governing definition(s) | Part‑G note |
 | --- | --- | --- |
-| `transport_declarative_only` + `cg_spec_cite_required_for_numeric_ops` | A.6.7 + A.19.CN (CN‑Spec) + G.0 (CG‑Spec) + A.19.CHR | Cite CN‑Spec and CG‑Spec through *pins* rather than copying their definitions. No embedded/shadow governing specs. |
+| `transport_declarative_only` + `cg_spec_cite_required_for_numeric_ops` | A.6.7 + A.19.CN (CN‑Spec) + G.0 (CG‑Spec) + A.19.CHR | Cite the pinned edition of each specification that governs this use (CN‑Spec, CG‑Spec or both). Keep its definition in the governing pattern. |
 | `semantic_correspondence_requirements` | A.6.7 + F.9 + C.3.3 + E.18 | A claimed semantic correspondence between different local interpretation bases uses F.9; a kind correspondence uses C.3.3; a plane relation keeps its own predicate. The receiving use, reliance and any authorization remain separate. G.7 calibrates these claims; no CL minimum grants the use. |
 | `crossing_visibility_required` | E.18 (CrossingBundle) + A.6.7 | When a named downstream use requires durable E.18 crossing evidence, publish the required **CrossingBundle**. `edition_key` changes on **crossing‑relevant artefacts** (Bridge/CL surfaces, BridgeCards, CrossingBundle registries, and UTS rows for crossing artefacts) are treated as crossing-bundle edits. If the bundle required by that use is missing/non‑conformant, downstream consumers MUST **abstain** from that cross-Context or cross-plane use (no silent crossings). |
 | `independent_correspondence_requirements` | A.6.7 + C.3.3 | When a use actually relies on correspondence between distinct kinds, cite the obtaining KindBridge and separately check receiving admissibility and classification. A changed entity alone establishes no kind or semantic Bridge. |
 | `guard_decision_tristate(pass|degrade|abstain)` + `unknown_never_coerces_to_pass` | A.6.7 + C.23 | `GuardDecision := {pass|degrade|abstain}` only; `unknown` maps to `degrade`/`abstain` via explicit SoS‑LOG branch/policy pins. |
 | `penalties_route_to_r_eff_only` | A.6.7:4.2(2) | Model-bound penalty condition: apply the named model's result meaning and applicability; loss assessment and numerical assurance penalties follow that governing clause. |
-| `no_silent_scalarisation_of_partial_orders` + `no_silent_totalisation` | A.6.7 | Partial-order results stay set‑valued; no silent scalar ranks or “helpful” totalisation. |
-| `planned_filling_in_workplan` + `actual_launch_facts_and_witness` + `gate_decision_separation` | A.15.2 + A.15.3 + A.19.CHR + A.6.7 + E.18:5.6 | A baseline adopted as planned work is A.15.2 WorkPlan content; A.15.3 applies only to independently declared members. Preserve the planned values. An actual launch claim requires independently admitted Work and obtaining direct relations or exact application bindings; any FinalizeLaunchValues witness is a separate episteme. GateDecision/DecisionLog semantics remain with their gate governor. |
+| `no_silent_scalarisation_of_partial_orders` + `no_silent_totalisation` | A.6.7 | Return the set of results under the partial order. Identify any scalar ranking or extension to a total order. A scalar summary is report-only unless declared as an admissible comparator for this use (CC‑GCORE‑SET‑1). |
+| `planned_filling_in_workplan` + `actual_launch_facts_and_witness` + `gate_decision_separation` | A.15.2 + A.15.3 + A.19.CHR + A.6.7 + E.18:5.6 | A baseline adopted as planned work is A.15.2 WorkPlan content; A.15.3 applies only to typed planned filling of an independently declared argument or relation position. Preserve the planned values. An actual launch claim requires independently admitted Work and obtaining direct relations or exact application bindings; any FinalizeLaunchValues witness is a separate episteme. GateDecision/DecisionLog semantics remain with their gate governor. |
 | `DefaultGoverningDefinitionIndex.single_governing_definition_per_DefaultId` | this pattern | Any default names exactly one governing definition; `G.Core.DefaultGoverningDefinitionIndex` is an index, not a second spec. |
 
 This pattern also governs four pieces of Part‑G‑wide infrastructure that are **not** already governed elsewhere:
@@ -100,7 +100,7 @@ A `G.x` MAY render this linkage as prose, a table, or structured notation. Its a
 
 ##### G.Core:4.2.2 - `GCoreConformanceProfileId` catalogue (compression primitive)
 
-A `GCoreConformanceProfileId` is a stable identifier for a named set of `CC‑GCORE‑*` items. It exists solely to reduce repetition in `G.x` linkage sections (no new semantics).
+A `GCoreConformanceProfileId` is a stable identifier for a named set of `CC‑GCORE‑*` items. Citing it in a `G.x` linkage section is shorthand for listing those items.
 
 | GCoreConformanceProfileId | Expands to `CC‑GCORE‑*` (set) | Notes |
 | --- | --- | --- |
@@ -111,7 +111,7 @@ A `GCoreConformanceProfileId` is a stable identifier for a named set of `CC‑GC
 
 ##### G.Core:4.2.3 - `GCorePinSetId` catalogue (compression primitive)
 
-A `GCorePinSetId` is a stable identifier for a named set of commonly recurring **pin obligations** used in Part‑G kits. It exists solely to reduce repetition in `G.x` linkage sections (no new semantics).
+A `GCorePinSetId` is a stable identifier for a named set of **pin obligations** that recur in Part‑G kits. Citing it in a `G.x` linkage section is shorthand for listing the member obligations.
 
 **Conditional pins (normative).** A pin marked with `?` is required when the pattern’s actual object or receiving use calls for that surface; otherwise it may be omitted. An independently selected kit or receiving contract can require a pin explicitly. Selection of a shared pin set preserves those conditions; it does not create a CG-Frame, comparison specification, WorkPlan or crossing.
 
@@ -158,7 +158,7 @@ When more than one channel is used, retain every channel's independently require
   ⟩
   ```
 
-  Where `payloadPins` contains any edition pins, policy-ids, Bridge ids, evidence pins, regression-set ids, etc., required to make the trigger actionable.
+  Include in `payloadPins` the pins needed to act on the trigger, such as edition pins, policy IDs, Bridge IDs, evidence pins, and regression-set IDs.
 
 ##### G.Core:4.3.2 - Governing-definition model
 
@@ -169,7 +169,7 @@ When more than one channel is used, retain every channel's independently require
 ##### G.Core:4.3.3 - Authoring rules
 
 * **No implicit triggers:**
-  Any RSCR/SCR/refresh artefact that *records reasons* MUST record canonical `RSCRTriggerKindId`. Aliases may be recorded as labels, but must not be the only reason code.
+  Any RSCR/SCR/refresh artefact that *records reasons* MUST identify them by their canonical `RSCRTriggerKindId` values. It may also record aliases as labels.
 
 * **No implicit overloading:**
   A local token string (e.g., `T4`) SHALL NOT silently change meaning across patterns; namespace is part of the alias (`G.11:T4` ≠ `A.20:T4`).
@@ -198,12 +198,12 @@ Each `RSCRTriggerKindId` SHALL have a short, stable definition in `G.Core` (sing
 | `RSCRTriggerKindId.EditionPinChange` | Any pinned edition relevant to downstream artifacts changed (including **`CNSpecRef.edition`**, `CGSpecRef.edition`, comparator/method/descriptor/distance/etc.). Crossing‑artefact edition_key changes are additionally classified as `CrossingBundleEdit` per multi‑cause discipline. | changed `*.edition` pins, affected `PathSliceId`s |
 | `RSCRTriggerKindId.TokenizationOrNameChange` | A published tokenization / naming / alias surface changed in a way that can affect docking, citations, or dispatch (e.g., UTS Name Cards, twin labels, alias maps). | affected `UTSRowId[]`, `NameCardId[]`, alias ids / maps |
 | `RSCRTriggerKindId.PolicyPinChange` | A policy-id pin used by characterization changed (selection, insertion, emission, routing, refresh policy, etc.). | policy ids (and other non-edition configuration pins when they are explicitly pinned) |
-| `RSCRTriggerKindId.TelemetryDelta` | Telemetry inputs that influence refresh/selection changed (not merely display-only). | telemetry ids/refs, `Audit`-published pins |
+| `RSCRTriggerKindId.TelemetryDelta` | A telemetry input that influences a refresh or selection decision changed. Display-only updates fall outside this trigger kind. | telemetry ids/refs, `Audit`-published pins |
 | `RSCRTriggerKindId.FreshnessOrDecayEvent` | Time/freshness/decay conditions affecting validity changed (window shift, decay thresholds, freshness policy edits). | freshness window refs/ids, decay/freshness policy ids |
 | `RSCRTriggerKindId.EvidenceSurfaceEdit` | Evidence graph / evidence surface changed in ways that affect admissibility/acceptance/comparison. | evidence pins, `EvidenceGraph` refs, affected `PathId`s |
 | `RSCRTriggerKindId.MaturityRungChange` | Maturity rung/ladder state changed for relevant artifacts or paths. | maturity rung ids, affected scopes |
 | `RSCRTriggerKindId.BaselineBindingEdit` | Selected baseline references or applicable typed fillings changed, opening the affected P2W-use question. | Exact WorkPlan and baseline locator; declared-position row designators only when typed filling applies; changed pins and relevant variance |
-| `RSCRTriggerKindId.DefaultGoverningDefinitionChange` | The governing definition of a `DefaultId` (as recorded in `G.Core.DefaultGoverningDefinitionIndex`) changed, or a default row was added/deprecated. | affected `DefaultId.*`, old governing definition ref, new governing definition ref |
+| `RSCRTriggerKindId.DefaultGoverningDefinitionChange` | The governing definition of a `DefaultId` (as recorded in `G.Core.DefaultGoverningDefinitionIndex`) changed, or a default row was added, deprecated or removed. | affected `DefaultId.*`, previous and new governing definition references where each exists |
 
 ###### G.Core:4.3.4.2 - Canonical trigger sets (compression primitive)
 
@@ -273,7 +273,7 @@ The index below identifies **one governing definition** per `DefaultId`: a CC it
 | `DefaultId.DominanceRegime`     | `CC‑G5.28`                                                | Existing governing definition; other mentions delegate to it. |
 | `DefaultId.GammaFoldForR_eff` | `CC‑G5.4` | Model-qualified support composition under B.3/C.2.2; no universal numeric fold. Keep separate support when no common model is justified. |
 
-To add a default, name its governing definition. Use `G.Core` as that definition only for a Part G default not governed elsewhere. Any change in a row (add/remove/change governing definition) SHALL be treated as a refresh‑sensitive edit and recorded as `RSCRTriggerKindId.DefaultGoverningDefinitionChange` (payload: affected `DefaultId.*`, old governing definition ref, new governing definition ref).
+To add a default, name its governing definition. Use `G.Core` as that definition only for a Part G default not governed elsewhere. Any change in a row (addition, deprecation, removal or a change of governing definition) SHALL be treated as a refresh‑sensitive edit and recorded as `RSCRTriggerKindId.DefaultGoverningDefinitionChange` (payload: the affected `DefaultId.*` and the previous and new governing definition references where each exists).
 
 #### G.Core:4.5 - ID continuity protocol (Δ‑discipline)
 
@@ -285,7 +285,7 @@ When moving universal norms out of `G.x` into `G.Core`:
 
 Deprecated trigger labels (e.g., `G.11:T*`, `G.6:H3:*`) are preserved as aliases and MUST map to canonical trigger kinds.
 
-Non-CC public identifiers (e.g., `UTSRowId`, `RSCRTriggerAliasId`, deprecation notices, edition bumps) MUST obey the same Δ-discipline: preserve old ids; represent drift via alias/deprecation/edition evolution (see `F.17 (UTS)`); and emit canonical trigger kinds (`RSCRTriggerKindId.TokenizationOrNameChange`, `RSCRTriggerKindId.EditionPinChange`) when downstream impact is possible.
+The same Δ-discipline applies to every non-CC public identifier, including `UTSRowId` and `RSCRTriggerAliasId`. Publications MUST preserve earlier ids. Use aliases, deprecation notices and edition changes to express drift (see `F.17 (UTS)`). When downstream use may be affected, emit the applicable canonical trigger kinds (`RSCRTriggerKindId.TokenizationOrNameChange`, `RSCRTriggerKindId.EditionPinChange`).
 
 #### G.Core:4.6 - Explicit non-goals
 

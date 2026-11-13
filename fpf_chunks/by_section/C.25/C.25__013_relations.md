@@ -6,33 +6,21 @@ section_id: "C.25:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.25/C.25__013_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.25 — Q-Bundle: Express a Quality Claim as One Characteristic or a Structured Bundle"
   - "C.25:12 — Relations"
-line_start: 65119
-line_end: 65137
+line_start: 68042
+line_end: 68070
 dependencies:
-  - "A.10"
   - "A.15"
-  - "A.16.0"
   - "A.18"
   - "A.2.6"
   - "A.6.1"
   - "B.3"
   - "C.16"
-  - "C.16.P"
   - "C.16.Q"
-  - "C.17"
-  - "C.18"
-  - "C.19"
-  - "C.2.2a"
   - "C.26.3"
-  - "C.33"
-  - "C.34"
-  - "C.35"
-  - "F.9"
-  - "F.9.1"
 keywords:
   - "admissible quality-family use"
   - "characteristic plus scope"
@@ -57,8 +45,18 @@ keywords:
 - Non-admissible use: temporal adequacy alone does not establish quality adequacy; speed, recovery, or rhythm becomes quality content only when it contributes to a declared quality-family claim. Include scope, mechanism/status slots, evidence, and failure mode only when the claim or receiving action depends on them.
 - Coordinate with C.27 only when a temporal claim is being used to change action; do not make every quality bundle carry dynamic slots.
 
+**Other relations.**
+
 - **Builds on:** `A.2.6` for scope algebra, `A.6.1` for operation-declaration references when current, and `C.16 / A.18` for CHR legality.
-- **Coordinates with:** `C.2.2a`, `A.16.0`, `A.10` for ordinary reliance on a bounded cross-context use, `B.3` only when an actual named assurance claim is current, `A.15` for gate use, `C.16.P` for unresolved characteristic, scale, score, metric, or proxy wording inside a quality-family statement, `C.16.Q` for overloaded quality or evaluative-characterization wording, `C.33`, `C.34`, and `C.35` when captured structure, lost structure, preservation, or generated-result adequacy becomes part of a composite architecture quality family, `C.17`, `C.18`, and `C.19` for adjacent quality-family measures, and `F.9` when bundle comparison needs semantic correspondence between local senses with different interpretation bases, or `F.9.1` when Bridge stance annotation is required.
+- **Coordinates with:**
+  - `C.2.2a`, `A.16.0`, `A.10` for ordinary reliance on a bounded cross-context use;
+  - `B.3` only when a named assurance claim is current;
+  - `A.15` for gate use;
+  - `C.16.P` for unresolved characteristic, scale, score, metric, or proxy wording inside a quality-family statement;
+  - `C.16.Q` for overloaded quality or evaluative-characterization wording;
+  - `C.33`, `C.34`, and `C.35` when captured structure, lost structure, preservation, or generated-result adequacy becomes part of a composite architecture quality family;
+  - `C.17`, `C.18`, and `C.19` for adjacent quality-family measures;
+  - `F.9` when bundle comparison needs semantic correspondence between local senses with different interpretation bases, or `F.9.1` when Bridge stance annotation is required.
 - **Constrains:** engineering quality authoring whenever a quality term would otherwise drift between single-CHR and composite-bundle readings.
 
 #### C.25:12.1 - Endpoint function in evaluative classification

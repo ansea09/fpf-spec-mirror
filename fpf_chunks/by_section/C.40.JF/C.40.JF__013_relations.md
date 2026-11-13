@@ -6,12 +6,12 @@ section_id: "C.40.JF:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.JF/C.40.JF__013_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.40.JF — Qualify Dependencies and Joint Reachability"
   - "C.40.JF:12 — Relations"
-line_start: 87852
-line_end: 87861
+line_start: 92086
+line_end: 92095
 dependencies:
   - "A.10"
   - "A.15.9"
@@ -29,7 +29,7 @@ keywords:
 - **Uses A.15.9:** the single method for obtaining and qualifying a bounded external result. Use A.10 when the source-to-use account remains implicit or must be replayable.
 - **Uses C.11.CRC:** finite configuration-relative contribution, complete coordinates, constraints, interactions, transition burden, reversibility, and option effects.
 - **Returns to holder and domain practices:** capability, access, support, transfer, feasibility, safety, authority, allocation, and realization results.
-- **Supplies C.40.OP:** bounded reachability, conditional or rejected combinations, and the exact gaps that change retained paths.
+- **Supplies C.40.OP:** bounded reachability, conditional or rejected combinations, and the gaps that change retained paths.
 - **Supplies bounded advising and decision support:** qualified premises or localized blockers for a bounded advising engagement and its decision-support question.
 - **Uses C.40.RQ:** affected requalification when a relied-on condition changes.
 

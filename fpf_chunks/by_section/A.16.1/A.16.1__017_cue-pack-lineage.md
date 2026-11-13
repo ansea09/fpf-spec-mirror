@@ -6,12 +6,12 @@ section_id: "A.16.1:17"
 section_title: "Cue-Pack Lineage"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__017_cue-pack-lineage.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.16.1 — PreArticulationCuePack: Preserve an Early Cue Before Choosing Its Use"
   - "A.16.1:17 — Cue-Pack Lineage"
-line_start: 34066
-line_end: 34075
+line_start: 35546
+line_end: 35555
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -41,8 +41,8 @@ keywords:
 #### A.16.1:17.3 - Multi-direction state versus lineage fork
 Several lane candidates or several low-articulation route-candidate hints may live inside one cue pack. That is still one cue-pack publication.
 
-A fork claim requires distinct successor epistemes or project records and actual facts satisfying the applicable lineage predicate. Identify those members, the obtaining links and relevant preserved or lost content; neither identification nor disclosure creates the fork. Making those epistemes available through the forms to an audience for a bounded use is a separate E.24.PUB claim. Practitioners should not treat pre-route plurality inside one cue pack as if it were already a forked lineage.
+A fork claim requires distinct successor epistemes or project records and facts satisfying the applicable lineage predicate. Identify those members, the obtaining links and relevant preserved or lost content; neither identification nor disclosure creates the fork. Making those epistemes available through the forms to an audience for a bounded use is a separate E.24.PUB claim. Practitioners should not treat pre-route plurality inside one cue pack as if it were already a forked lineage.
 
 #### A.16.1:17.4 - Split and merge cases
-One cue pack may later split into several route-bearing continuations if its preserved cue nucleus actually contains several tensions. Several cue packs may also merge if later stabilization reveals that they were fragments of one more coherent cue complex. Establish each claimed split, merge or continuation under its applicable predicate and show relevant preserved and lost content. Record successor publication separately when availability matters; disclosure alone establishes neither lineage nor continuity.
+One cue pack may later split into several route-bearing continuations if its preserved cue nucleus contains several tensions. Several cue packs may also merge if later stabilization reveals that they were fragments of one more coherent cue complex. Establish each claimed split, merge or continuation under its applicable predicate and show relevant preserved and lost content. Record successor publication separately when availability matters; disclosure alone establishes neither lineage nor continuity.
 

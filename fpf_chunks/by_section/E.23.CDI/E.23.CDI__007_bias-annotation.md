@@ -6,12 +6,12 @@ section_id: "E.23.CDI:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23.CDI/E.23.CDI__007_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.23.CDI — Developing Capability for a Named Work Family"
   - "E.23.CDI:6 — Bias-Annotation"
-line_start: 115525
-line_end: 115536
+line_start: 122861
+line_end: 122872
 dependencies:
   - "A.15.1"
   - "A.2.2"
@@ -26,12 +26,12 @@ keywords:
 
 ### E.23.CDI:6 - Bias-Annotation
 
-**Scope: limited.** This pattern offers one cross-domain capability-development Method for a named holder and Work family. It does not supply a universal curriculum, capability scale, intervention catalogue, provider architecture, population model, or cultural-evolution account. The receiving domain or DPF supplies the actual Methods, measures, evidence, intervention, and representative Work.
+**Scope: limited.** This pattern offers one cross-domain capability-development Method for a named holder and Work family. It does not supply a universal curriculum, capability scale, intervention catalogue, provider architecture, population model, or cultural-evolution account. The receiving domain or DPF supplies the Methods, measures, evidence, intervention, and representative Work.
 
 | Lens | Declared bias and counter-check |
 | --- | --- |
 | **Gov** | Favors a declared baseline, target, protected conditions, and reopen rule before money or authority is committed to an intervention. Counter-risk: the result becomes an approval form. Keep only values that can change the development decision; use the separate decision or authorization pattern when that claim is current. |
-| **Arch** | Favors one exact holder boundary and keeps provider Systems, development Work, transfer Work, population assessment, and cultural propagation separate. Counter-risk: one domain architecture is projected onto every holder. Rebuild the domain filling while retaining only the common Method. |
+| **Arch** | Favors identifying the boundary of the holder System and keeps provider Systems, development Work, transfer Work, population assessment, and cultural propagation separate. Counter-risk: one domain architecture is projected onto every holder. Rebuild the domain filling while retaining only the common Method. |
 | **Onto-Epist** | Favors separation of the holder's actual ability, desired result, plan, performed Work, evidence, capability statements, comparison, and any actual Transformation. Counter-risk: technical names replace ordinary explanation. Keep the compact entry and expose identifiers only when a receiving claim uses them. |
 | **Prag** | Favors objective, representative transfer evidence and protected trade-offs over attendance, provider delivery, or self-report alone. Counter-risk: a small development need inherits an expensive programme. Use the smallest representative check that can decide the stated target. |
 | **Did** | Favors a human-team case and an unlike technical-system case so that training language is not mistaken for the universal Method. Counter-risk: readers copy the examples as an intervention menu. Return to the limiting contribution and domain Method account before choosing an intervention. |

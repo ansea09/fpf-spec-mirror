@@ -6,12 +6,12 @@ section_id: "A.22.CGUS:8"
 section_title: "Common Anti-Patterns And Repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22.CGUS/A.22.CGUS__010_common-anti-patterns-and-repairs.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.22.CGUS — Which Continuations Are Available? — Constraint-Governed Unfolding Structure (CGUS)"
   - "A.22.CGUS:8 — Common Anti-Patterns And Repairs"
-line_start: 40930
-line_end: 40940
+line_start: 42538
+line_end: 42548
 dependencies:
   - "A.10"
   - "A.15"
@@ -51,6 +51,6 @@ keywords:
 | **Condition label as result** | A label or claim reference is treated as proof that a continuation is enabled. | Apply the test or recover the obtaining relation and facts; otherwise return `unknown`. |
 | **One enabled branch as one-branch structure** | The present result erases other potential continuations. | Keep potential topology and the case result separate. |
 | **Formal package or field count first** | A simple correction requires replay fields, or authors add references merely to raise schema completion. | Use the ordinary branch and stop when it answers the question. In formal use, retain only fields consumed by qualification or replay and test whether readers recover the right alternatives and smallest repair. |
-| **Displayed order as Work** | A teaching slice becomes a project procedure or authorization. | Use the applicable Method, work-plan, or Work pattern for work order, A.21 for an actual gate decision, and the direct permission or authority rule for authorization, only when that claim is actually made. |
-| **Consumer architecture copied inward** | CGUS repeats transformation-flow locators, naming procedures, or catalogs of neighboring claims. | Keep the local structural rule and exit directly to the pattern that defines or tests the other claim. |
+| **Displayed order as Work** | A teaching slice becomes a project procedure or authorization. | Use the applicable Method, work-plan, or Work pattern for work order, A.21 for a gate decision, and the permission or authority rule for authorization, only when that claim is made. |
+| **Consumer architecture copied inward** | CGUS repeats transformation-flow locators, naming procedures, or catalogs of neighboring claims. | Keep the local structural rule and exit to the pattern that defines or tests the other claim. |
 

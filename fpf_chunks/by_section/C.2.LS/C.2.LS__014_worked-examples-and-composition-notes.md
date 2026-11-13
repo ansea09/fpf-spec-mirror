@@ -6,12 +6,12 @@ section_id: "C.2.LS:13"
 section_title: "Worked Examples and Composition Notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.LS/C.2.LS__014_worked-examples-and-composition-notes.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.2.LS — Language-State Facet Profile: Publish Readings and Use Conditions Together"
   - "C.2.LS:13 — Worked Examples and Composition Notes"
-line_start: 53534
-line_end: 53586
+line_start: 55765
+line_end: 55819
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -93,5 +93,7 @@ Two notes may supply the same required expression properties and still differ sh
 
 In :13.1, the facet definitions and record form remain available after the reference-gauge reading arrives. The closure assessment changes from `CD1` to `CD2`; retain the assessed alert edition and the new grounds in the updated assessment. This is reuse of the facet selection with changed claim content, not reuse of the earlier closure reading.
 
-Now consider two stipulated receiving rules for that same assessment. A diagnostic-comparison meeting requires an explicit question and contrasting alternatives; it can use the available `AE4` reading. An action-selection rule additionally requires a selected diagnostic route. `CD2` still leaves two alternatives live, so that rule's condition is not met. The same readings support these different conclusions because the receiving conditions differ. If both assessments publish their threshold conditions, their full contents differ; the common readings may be cited once. Neither rule changes what `AE4` or `CD2` means, and each applies only to the stated receiving use.
+Now consider two stipulated receiving rules for that same assessment. A diagnostic-comparison meeting requires an explicit question and contrasting alternatives; it can use the available `AE4` reading. An action-selection rule additionally requires a selected diagnostic route. `CD2` still leaves two alternatives live, so that rule's condition is not met.
+
+The same readings support these different conclusions because the receiving conditions differ. If both assessments publish their threshold conditions, their full contents differ; the common readings may be cited once. Neither rule changes what `AE4` or `CD2` means, and each applies only to the stated receiving use.
 

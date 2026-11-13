@@ -6,12 +6,12 @@ section_id: "G.5:7"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__009_conformance-checklist-normative.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.5 — Method-Family Registry, Dispatch and Selected-Set Result Declaration"
   - "G.5:7 — Conformance Checklist (normative)"
-line_start: 129759
-line_end: 129814
+line_start: 137811
+line_end: 137866
 dependencies:
   - "C.11"
   - "C.18"
@@ -91,7 +91,7 @@ keywords:
 | `CC‑G5.28`      | **Default rule for** `DefaultId.DominanceRegime`. `DominanceRegime` **SHALL** default to `ParetoOnly`. Any inclusion of additional telemetry dimensions into dominance (e.g., illumination) requires an explicitly pinned acceptance or policy record and must be recorded in audit pins. **Parity‑run publication (CC‑G5.23a) remains mandatory** irrespective of dominance policy. |
 | `CC-G5.29`      | **Conditional (QD and Open-Ended).** Any telemetry event that materially changes an archive state or retained-set state **MUST** identify the exact changed state and affected-use scope, log `PathSliceId` when graph-scoped or independently required by the receiving contract, and retain the active policy id and active editions of the relevant definition pins (`DescriptorMapRef.edition`, `DistanceDefRef.edition`, and `TransferRulesRef.edition` when applicable) and expose them to RSCR triggers. |
 | `CC‑G5.30`      | **No Strategy minting.** Within `G.5`, “strategy” is a policy‑bound composition template; the pattern **SHALL NOT** mint a durable U-kind named `Strategy` (E.10 and E.24.UK discipline). If a stable reference is needed, publish composition and policy ids (e.g., UTS entries) rather than minting a universal kind. |
-| `CC‑G5.31` | **Blocked or empty selection.** Retain the actual failed or unknown conditions and their basis. Abstention has no actual Select application or SelectionSlot binding; an actual Select may return an empty set only under its declared criteria. An `ActionHint` names a justified continuation when one is available and needed. When no further action is warranted, return the stop with its scope and grounds. Carry the editions and policy pins that the selected continuation actually uses. |
+| `CC‑G5.31` | **Blocked or empty selection.** Retain the failed or unknown conditions and their basis. Abstention has no actual Select application or SelectionSlot binding; an actual Select may return an empty set only under its declared criteria. An `ActionHint` names a justified continuation when one is available and needed. When no further action is warranted, return the stop with its scope and grounds. Carry the editions and policy pins that the selected continuation uses. |
 | `CC‑G5.32`      | **Parity‑run publication and admissible roll-ups.** If parity harness is in use, parity publication is required per `CC‑G5.23a` (ID‑continuity). Any scalar roll-up or summary view **MUST** be admissible under **CG‑Spec** (no mixed‑scale sums), and published views must preserve set‑return semantics (no single‑score leaderboards as authoritative outputs without an explicit, admissible comparator publication). |
 | `CC‑G5.33`      | **Conditional (bounded specialization).** When the selection question is acquisition of usable specialization on a declared `TaskFamilyRef` or `TaskSignature`, selector outputs **SHALL** either emit `TaskFamilySpecializationProfile@Context` or cite equivalent pins carrying the `C.22.1` adaptation-signature fields needed for comparison: work-measure threshold target, prior exposure declaration, time-to-threshold, budget-to-threshold, post-threshold efficiency when relevant, and any declared transfer, retention, downside, or specialization-entry notes. |
 | `CC‑G5.34`      | **Selected-set result kind.** When `SelectorOutcomeKind = SetResultOutcome`, the public result kind **MUST** be explicit. Use `Shortlist` for unordered alternatives retained for later choice, `RankedShortlist` only when the result orders those alternatives, and `JointUseSet` only when every named member is included for one named use. `ChoiceSet` **MUST NOT** silently replace the public result kind. |

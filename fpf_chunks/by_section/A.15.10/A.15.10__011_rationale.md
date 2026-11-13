@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.15.10"
-pattern_title: "Resume Interrupted Work"
+pattern_title: "Resume Work"
 section_id: "A.15.10:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.10/A.15.10__011_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.15.10 — Resume Interrupted Work"
+  - "A.15.10 — Resume Work"
   - "A.15.10:10 — Rationale"
-line_start: 32601
-line_end: 32610
+line_start: 33933
+line_end: 33944
 dependencies:
   - "A.15"
   - "A.15.5"
@@ -31,9 +31,11 @@ keywords:
 
 A continuation depends on more than a position. Purpose selects what matters, the method determines what the next operation means, and prior results constrain what can be used. Retaining any one of these while losing another can produce plausible work toward the wrong result.
 
-Preparing a cue and resuming later are temporally related contributions. During continuation, applying the subject method and regulating the return can contribute simultaneously to the encompassing work. Their occurrence does not by itself establish Method parthood; use B.1.5 when that relation matters. A longer interruption and a higher method level are also different distinctions.
+Preparing a cue and resuming later are temporally related contributions. During continuation, applying the subject method and regulating the return can contribute simultaneously to the encompassing work.
+
+Their occurrence does not by itself establish Method parthood; use B.1.5 when that relation matters. A longer interruption and a higher method level are also different distinctions.
 
 Configuration recovery testing asks whether a dependency withstands a condition; this method supplies the ordinary preparation and reconstruction that can be performed or tested. A configuration test is not a mandatory predecessor of every return.
 
-The smallest useful support is receiver-relative. A familiar short cue can work for the original performer while a colleague needs the rule behind it. Conversely, a full narrative can obscure the two lines the colleague needs. Existing material plus a bounded reconstruction is a serious alternative to writing a new account.
+The smallest useful support is receiver-relative. A familiar short cue can work for the original performer while a colleague needs the rule behind it. Conversely, a full narrative can obscure the two lines the colleague needs. Existing material plus a bounded reconstruction is an alternative to writing a new account.
 

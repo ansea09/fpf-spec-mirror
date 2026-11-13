@@ -6,12 +6,12 @@ section_id: "E.8:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__008_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:6 — Bias-Annotation"
-line_start: 97557
-line_end: 97560
+line_start: 103034
+line_end: 103037
 dependencies:
   - "E.10"
   - "E.10.MOVE"
@@ -58,5 +58,5 @@ keywords:
 
 ### E.8:6 - Bias-Annotation
 Lenses: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: **Universal** for the authoring conventions in this pattern.
-This guidance biases toward **Did** (readability, narrative flow) and **Arch** (template regularity) by design; the mitigation is content-bearing reduced sections and justification through the smallest grounding, misuse, boundary, or reduced-case statement, not omission placeholders.
+This guidance biases toward **Did** (readability, narrative flow) and **Arch** (template regularity) by design. Mitigate this bias by giving each reduced section the smallest content-bearing statement that justifies the reduction: a grounding, misuse, boundary, or reduced case. An omission placeholder cannot do that.
 

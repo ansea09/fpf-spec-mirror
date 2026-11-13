@@ -6,12 +6,12 @@ section_id: "A.6.S:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.S/A.6.S__011_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.S — TargetSignature and optional ConstructorSignature - demand-driven signature engineering"
   - "A.6.S:9 — Consequences"
-line_start: 25102
-line_end: 25109
+line_start: 26023
+line_end: 26030
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -44,5 +44,5 @@ keywords:
 
 **Costs.** A project must decide whether reusable constructor content is needed by a named receiving use instead of opening a standard package automatically. When it is needed, maintaining another signature costs attention. The mitigation is the named-receiver test and a declaration containing only the vocabulary and laws that receiver reuses.
 
-**Adoption test (informative).** Ask three questions in order: What actual signature claim or change is current? Does that direct account answer the use? Which named receiver, if any, needs reusable constructor vocabulary and laws? A valid adoption result may contain one TargetSignature and one ordinary revision sentence, with no ConstructorSignature.
+**Adoption test (informative).** Ask three questions in order: What signature claim or change is current? Does that direct account answer the use? Which named receiver, if any, needs reusable constructor vocabulary and laws? A valid adoption result may contain one TargetSignature and one ordinary revision sentence, with no ConstructorSignature.
 

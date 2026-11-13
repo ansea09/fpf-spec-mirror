@@ -6,12 +6,12 @@ section_id: "E.21:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.21/E.21__010_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
   - "E.21:8 — Consequences"
-line_start: 114317
-line_end: 114326
+line_start: 121534
+line_end: 121543
 dependencies:
   - "A.17-A.19"
   - "A.19.ECS"
@@ -39,7 +39,7 @@ keywords:
 | Benefit | Trade-off or mitigation |
 |---|---|
 | Pattern quality becomes inspectable without a fake score. | Authors must name scope and all coordinate values. |
-| Compact evidence remains possible. | The coordinate table is still complete. |
+| Compact evidence remains possible. | The coordinate table must cover every coordinate. |
 | Maturity claims become harder to fake. | Mature-pattern comparison adds cost where maturity or corpus-facing use is claimed. |
 | Semio-bias becomes visible. | Semio distinctions remain auxiliary unless they are the pattern's own `EntityOfConcern`. |
 | Stop decisions become less taste-based. | Open-ended improvement remains possible through `E.23` when a stronger aim is requested. |

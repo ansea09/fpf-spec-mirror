@@ -6,12 +6,12 @@ section_id: "C.30.AD:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__011_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:8 — Consequences"
-line_start: 72441
-line_end: 72456
+line_start: 75534
+line_end: 75549
 dependencies:
   - "A.1"
   - "A.10"
@@ -78,15 +78,15 @@ keywords:
 
 Positive consequences:
 
-- Architecture descriptions become reusable without pretending to be the architecture, an obtaining relation, or selected structure.
-- Multi-view work can keep each episteme identity, exact viewpoint conformance, selected structures, cross-view correspondence, source-to-use paths, applicable source-return conditions, freshness, representation, publication, and specification use inspectable.
+- Architecture descriptions become reusable while remaining distinct from the architecture, obtaining relation, or selected structure they describe.
+- Multi-view work can keep each episteme identity, viewpoint conformance, selected structures, cross-view correspondence, source-to-use paths, source-return conditions, freshness, representation, publication, and specification use inspectable.
 - Separate non-description claims remain identifiable and receive the tests needed for their own use.
 - Architecture decisions can use descriptions whose purpose, correspondence and limits are recoverable.
 
 Costs:
 
 - A useful architecture document must make its description epistemes, EntitiesOfConcern, effective schemes, selected structures, and admissible use recoverable. Ordinary wording or existing links can do this.
-- A claimed view additionally needs the exact viewpoint episteme and independently obtaining E.17.0 conformance relation.
-- Reused or regulated descriptions may need correspondence refs, source-to-use paths, source and structure editions, applicable source-return conditions, and freshness claims before they can be relied on.
-- Familiar diagrams, files, and publication forms lose implicit authority; establish grounding, evidence, assurance, gate, decision, and release claims through their relevant patterns.
+- A claimed view additionally needs the viewpoint episteme and independently obtaining E.17.0 conformance relation.
+- Reused or regulated descriptions may need correspondence refs, source-to-use paths, source and structure editions, source-return conditions, and freshness claims before they can be relied on.
+- Familiar diagrams, files, and publication forms lose implicit authority; establish grounding, evidence, assurance, gate, decision, and release claims through their patterns.
 

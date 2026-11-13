@@ -6,12 +6,12 @@ section_id: "F.15:6"
 section_title: "Objects under check"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__008_objects-under-check.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Naming and Semantic Unification"
   - "F.15:6 — Objects under check"
-line_start: 123479
-line_end: 123495
+line_start: 131299
+line_end: 131315
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -57,7 +57,7 @@ keywords:
 
 ### F.15:6 - Objects under check
 
-A practitioner applying F.15 may check these exact objects together but redefines none:
+F.15 lets a practitioner check the following objects together. Each keeps its own definition:
 
 1. effective reference scheme values and exact prior/later editions;
 2. independently governed local-sense claims and F.17 `SchemeSenseCell` coordinates;

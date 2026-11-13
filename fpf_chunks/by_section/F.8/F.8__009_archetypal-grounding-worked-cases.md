@@ -6,12 +6,12 @@ section_id: "F.8:7"
 section_title: "Archetypal Grounding - worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__009_archetypal-grounding-worked-cases.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision for a Name"
   - "F.8:7 — Archetypal Grounding - worked cases"
-line_start: 121010
-line_end: 121058
+line_start: 128672
+line_end: 128728
 dependencies:
   - "A.11"
   - "A.15"
@@ -64,7 +64,7 @@ keywords:
 
 #### F.8:7.1 - `ReviewerRole` Expression vs Review Report
 
-The source label `PatternReview_2026` is not a context object. Classify the actual claim before using it:
+The source label `PatternReview_2026` is not a context object. Before using the label, identify what it denotes in the claim:
 
 - `ReviewWork-82` can be one dated `U.Work` occurrence under `A.15.1`;
 - `ReviewPlan-2026-v3` can be a separately constituted plan episteme or edition under its subject pattern;
@@ -89,13 +89,17 @@ Otherwise any needed durable designation belongs to the access, policy, status, 
 
 #### F.8:7.4 - Policy Identifier
 
-A gate profile proposes `Aut-Guard-2026`. F.8 treats this as a policy-identifier question only after the policy specification is recovered. Ordinary reuse resolves the identifier and specification. Recover the mint decision or choice occurrence only when reuse relies on that history for citation, replay, accountability, supersession, or another named relation. If a new introduction makes that stronger claim without an occurrence basis, return `missing-governor`. Any C.11 result, decision-making Work, result episteme, or record stays separate.
+A gate profile proposes `Aut-Guard-2026`. F.8 treats this as a policy-identifier question only after the policy specification is recovered. Ordinary reuse resolves the identifier and specification.
+
+Recover the mint decision or choice occurrence only when reuse relies on that history for citation, replay, accountability, supersession, or another named relation. If the case does not establish that history, use §4.5 for the outstanding claim. Any C.11 result, decision-making Work, result episteme, or record stays separate.
 
 The identifier is not the specification, local system-role kind, Method, gate result, evidence value, permission, or source authority. It is a reference used by the pattern that defines or constrains the governed policy claim.
 
 #### F.8:7.5 - New U-kind Candidate
 
-A team proposes `U.InfluenceEdge` because many documents use "influence". At F.8 entry there is no recovered governed value with a stable admission disposition, so F.8 returns `blockOrLowerUse` and stops naming. If the expression still hides the governed object—for example, whether it is a causal relation or a characteristic—E.24.CD recovers that object or the unresolved proposal. A recovered governed object returns to its subject pattern; a surviving U-kind proposal goes to E.24.UK for `root`, `same-individual-dependent`, `identity-dependent`, `reuse`, `local-kind`, or `reject`. Only after that result is stable may F.8 reopen for a name of the admitted or reused kind, bounded local kind, or recovered non-kind object. F.8 creates neither the proposal object nor a public spelling and admits no kind.
+A team proposes `U.InfluenceEdge` because many documents use "influence". At F.8 entry there is no recovered governed value with a stable admission disposition, so F.8 returns `blockOrLowerUse` and stops naming.
+
+If the expression still hides the governed object—for example, whether it is a causal relation or a characteristic—E.24.CD recovers that object or the unresolved proposal. A recovered governed object returns to its subject pattern; a surviving U-kind proposal goes to E.24.UK for `root`, `same-individual-dependent`, `identity-dependent`, `reuse`, `local-kind`, or `reject`. Only after that result is stable may F.8 reopen for a name of the admitted or reused kind, bounded local kind, or recovered non-kind object. F.8 creates neither the proposal object nor a public spelling and admits no kind.
 
 #### F.8:7.6 - Readable Disposition and Explicit Stops
 
@@ -103,9 +107,13 @@ The `ReviewerRole` case closes with one readable result. The recovered kind is a
 
 > Under `PatternReviewReferenceScheme-2026`, use `ReviewerRole` as the Plain designation of `ReviewerSystemRole` for local review-method prose. No existing designation or alias supports that use, so select `openDurableNamingSettlement`: A.2 and C.3 continue to govern the kind, F.5 governs its designation, and F.18 supplies the durable settlement. Reopen it if the proposed use becomes evidential, status-bearing, access-related, source-facing, published, or cross-local, or if another change of use or audience exceeds this local settlement's scope.
 
-That sentence is the F.8 result. It needs no decision occurrence or result episteme. If a later claim must cite, replay, or assign accountability to the decision, use §4.5. No naming-decision governor is available in this case, so that branch returns `missing-governor` rather than inventing `ReviewerSystemRoleNamingDecision-2026-07-31`. C.11 applies only to a genuine local choice among available options. For any precise decision-making Work, A.13 first recovers the exact actual performer and A.15.1 independently admits the dated Work; F.6 follows only when the later claim expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment.
+This naming result needs no decision occurrence or result episteme. If a later claim must cite, replay, or assign accountability to the decision, use §4.5. No naming-decision governor is available in this case, so that branch returns `missing-governor` rather than inventing `ReviewerSystemRoleNamingDecision-2026-07-31`.
 
-`EvidenceRole` stops earlier and does not enter F.8. The known subject is `ReviewReport-82 : U.Episteme`, proposed for evidence use concerning an adequacy claim. Still missing are the target claim and polarity, the evidence-use relation and relation kind, the provenance and any assurance or reliance use, including a validity window when that use depends on it, and one subject pattern that defines the relation. Apply that pattern and keep the wording local until those facts are recovered. `PatternReviewReferenceScheme-2026` may interpret the source wording, but the review label creates no evidence relation, system-role kind, description, assignment, authority, or publication. No `SchemeSenseCell`, `LocalSenseBasisRelation`, or selected Structure is needed merely to record this stop.
+C.11 applies only to a genuine local choice among available options. For any precise decision-making Work, A.13 first recovers the exact actual performer and A.15.1 independently admits the dated Work; F.6 follows only when the later claim expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment.
+
+`EvidenceRole` stops earlier and does not enter F.8. The known subject is `ReviewReport-82 : U.Episteme`, proposed for evidence use concerning an adequacy claim. Still missing are the target claim and polarity, the evidence-use relation and relation kind, the provenance and any assurance or reliance use, including a validity window when that use depends on it, and one subject pattern that defines the relation. Apply that pattern and keep the wording local until those facts are recovered.
+
+`PatternReviewReferenceScheme-2026` may interpret the source wording, but the review label creates no evidence relation, system-role kind, description, assignment, authority, or publication. No `SchemeSenseCell`, `LocalSenseBasisRelation`, or selected Structure is needed merely to record this stop.
 
 Re-enter F.8 only after one governed relation, its kind, its subject pattern, and the proposed naming use are available. If the target claim, polarity, provenance, assurance or reliance use, or a required validity window changes, reopen the subject claim rather than the name.
 

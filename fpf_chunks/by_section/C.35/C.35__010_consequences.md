@@ -6,21 +6,15 @@ section_id: "C.35:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.35/C.35__010_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.35 — Assess Generated or Discovered Results for Architecture Use"
   - "C.35:9 — Consequences"
-line_start: 81261
-line_end: 81275
+line_start: 85179
+line_end: 85194
 dependencies:
-  - "A.13"
-  - "A.15.1"
-  - "A.15.PROD"
-  - "A.2.1"
   - "A.22"
-  - "A.3.4"
   - "A.6.M"
-  - "A.6.RCD"
   - "C.16"
   - "C.18"
   - "C.19"
@@ -41,9 +35,7 @@ dependencies:
   - "C.32.PAD"
   - "C.33"
   - "C.34"
-  - "C.36"
   - "E.18"
-  - "F.6"
   - "G.5"
 keywords:
   - "DSM"
@@ -62,13 +54,14 @@ keywords:
 Positive consequences:
 
 - Generated or discovered results can enter architecture work without becoming authority. Ordinary use can stop with a sufficient account; additional detail appears only for a receiving dependency.
-- C.35 keeps the result-use return visible. If the exact result cannot support the next architecture claim, repair returns to that result, the organization it concerns and any unresolved or refuted claim about it, the missing condition, and the required rule or test; the return never turns the proposal into an A.22 member.
+- C.35 keeps the result-use return visible. If the result cannot support the next architecture claim, repair returns to that result, the organization it concerns and any unresolved or refuted claim about it, the missing condition, and the required rule or test; the return never turns the proposal into an A.22 member.
 - C.32 continues to define candidate-palette admission. C.35 supplies the result-use boundary that C.32 may need.
 - Search, query, transformation, and AI-assisted results become auditable without conflating claim-bearing content, represented objects, representations, publication items, and carriers.
-- Reusable generator governance stays outside C.35 until explicitly opened, which prevents one-case result review from becoming a hidden method or mechanism-suite pattern.
+- Reusable generator governance stays outside C.35 until opened, which prevents one-case result review from becoming a hidden method or mechanism-suite pattern.
+
 Costs and trade-offs:
 
 - Assessing a result takes attention. Reuse a sufficient account; obtain further detail when it can change the warranted next use.
-- Some outputs will be useful but not yet admissible. The repair is not to discard them or fill irrelevant preservation rows; it is to supply the missing branch-specific basis, bearer boundary, validation, or next claim plus its required rule.
-- The pattern is intentionally narrow. It does not choose among alternatives, manage archives, define eval programs, or authorize work.
+- Some outputs will be useful but not yet admissible. Supply the missing branch-specific basis, bearer boundary, validation, or next claim plus its required rule; keep useful outputs and leave irrelevant preservation rows empty.
+- The pattern is narrow. It does not choose among alternatives, manage archives, define eval programs, or authorize work.
 

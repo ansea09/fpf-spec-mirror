@@ -6,12 +6,12 @@ section_id: "A.22.CGUS:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22.CGUS/A.22.CGUS__008_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.22.CGUS — Which Continuations Are Available? — Constraint-Governed Unfolding Structure (CGUS)"
   - "A.22.CGUS:6 — Bias-Annotation"
-line_start: 40908
-line_end: 40917
+line_start: 42516
+line_end: 42525
 dependencies:
   - "A.10"
   - "A.15"
@@ -47,9 +47,9 @@ keywords:
 
 | Bias risk | Mitigation |
 | --- | --- |
-| Workflow bias | Ask about alternatives and conditions; use work and method patterns only for actual work-order or way-of-doing claims. |
+| Workflow bias | Ask about alternatives and conditions; use work and method patterns only for work-order or way-of-doing claims. |
 | Display bias | Treat cards, graphs, tables, narratives, and entry lines as explanations or descriptions, not as the structure. |
 | Formality bias | Start with the ordinary decision answer and open formal qualification only for a named later use. |
-| Consumer bias | Keep transformation-flow, architecture, improvement, currentness, evidence, and publication details in their direct patterns. |
+| Consumer bias | Keep transformation-flow, architecture, improvement, currentness, evidence, and publication details in their patterns. |
 | Lexical bias | Words such as *route*, *path*, *loop*, *workflow*, *graph*, or *sequence* establish no CGUS by themselves. |
 

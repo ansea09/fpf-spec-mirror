@@ -6,26 +6,23 @@ section_id: "C.24:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__002_use-this-when.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.24 — Plan Tool or Service Calls for a Fixed Action (C.Agent-Tools-CAL)"
   - "C.24:0 — Use this when"
-line_start: 64584
-line_end: 64677
+line_start: 67428
+line_end: 67529
 dependencies:
   - "A.10"
   - "A.15"
   - "A.15.1"
   - "A.15.2"
-  - "A.15.7"
   - "B.1.6"
   - "B.3"
   - "C.11"
   - "C.16"
   - "C.18"
   - "C.19"
-  - "C.19.1"
-  - "C.2.1"
   - "C.28"
   - "C.5"
   - "E.17"
@@ -58,8 +55,8 @@ Do not use it to generate candidates, keep a live pool, choose among unresolved 
 
 #### C.24:0.1 - What goes wrong if missed
 
-- a route is scheduled by an opaque heuristic, so nobody can see which budget is being burned or what should stop it;
-- unresolved choice or pool-policy work is smuggled into a plan;
+- a route is scheduled by an opaque heuristic, so its budget use and stop conditions are hidden;
+- unresolved choice or pool-policy work is hidden in a plan;
 - a route description is mistaken for a Method, a plan for performed Work, or a successful probe for a decision to adopt and execute the route; and
 - replanning loses the basis that fixed the action and its conditions.
 
@@ -72,7 +69,11 @@ Do not use it to generate candidates, keep a live pool, choose among unresolved 
 
 **Primary working object.** One `ATC.CallPlan : U.WorkPlan`. Each step selects a `U.Method`. A route description may help locate or constrain that Method, but remains a separate `U.MethodDescription`. Actual calls are dated `U.Work` and remain outside this planning result.
 
-**First useful move.** Recover the action and completion conditions fixed by the domain prescription, A.15.7 decision or C.11 choose-now result. Reuse an adequate known route. Otherwise, work backwards from the required result to admitted Methods and their needed inputs, then follow the proposed route forwards from the available inputs as in section 4.1. Return the supported ordered calls, applicable budget and stop or replan conditions, or the particular missing contribution or condition. Add route-description refs where they are needed to understand or qualify the route.
+**First useful move.** Recover the action and completion conditions fixed by the domain prescription, A.15.7 decision or C.11 choose-now result. Reuse an adequate known route.
+
+Otherwise, work backwards from the required result to admitted Methods and their needed inputs, then follow the proposed route forwards from the available inputs as in section 4.1.
+
+Return the supported ordered calls, applicable budget and stop or replan conditions, or the particular missing contribution or condition. Add route-description refs where they are needed to understand or qualify the route.
 
 **Not this pattern when.** Use `C.11` while fixed-option choice is unresolved, `C.19` while treatment of a live pool is unresolved, `G.5` when the current task is selector-facing result declaration, `A.15.5` for work-entry readiness, and `A.15.1` when the question is what Work actually occurred or which Method it enacted.
 
@@ -132,7 +133,11 @@ CheckpointReturn:
 ```
 
 
-`nextPlannedAction` and `recommendedNextAction` are local fields, not claims that Work has occurred. Exactly one action-basis branch is present. Add one of the branch-specific refs in C.24:4.4 only when that constraint still affects the plan. A plan with no current policy branch needs no policy placeholder. If neither output can cite its accepted action basis and state what happens next, the C.24 work is unfinished.
+`nextPlannedAction` and `recommendedNextAction` are local fields. Exactly one action-basis branch is present.
+
+Add one of the branch-specific refs in C.24:4.4 only when that constraint still affects the plan. A plan with no current policy branch needs no policy placeholder.
+
+If neither output can cite its accepted action basis and state what happens next, the C.24 work is unfinished.
 
 If the domain prescription, its applicability or the action it requires changes, reopen that domain basis before revising the plan. If the A.15.7 decision changes, is withdrawn, or no longer fixes the action, reopen the plan and return to A.15.7. If the C.11 `ChoiceResult` changes or no longer says `choose now`, return to C.11. A changed live-pool branch returns separately to C.19. Do not revise the call plan as though its action basis were still settled.
 

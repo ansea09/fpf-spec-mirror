@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.15.10"
-pattern_title: "Resume Interrupted Work"
+pattern_title: "Resume Work"
 section_id: "A.15.10:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.10/A.15.10__006_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.15.10 — Resume Interrupted Work"
+  - "A.15.10 — Resume Work"
   - "A.15.10:5 — Archetypal Grounding"
-line_start: 32541
-line_end: 32566
+line_start: 33871
+line_end: 33898
 dependencies:
   - "A.15"
   - "A.15.5"
@@ -41,13 +41,15 @@ The return recovered both the position and the method. It did not require review
 
 A colleague takes over a comparison of two providers. The working sheet says “A costs 600; B costs 680; choose A”. The underlying calculation includes a 100-unit reuse credit for A. The next task is to confirm the choice for the revised specification.
 
-The recipient recovers the price comparison method and the condition for the credit. The revised specification makes the credit inapplicable. Retaining the unchanged quoted costs, the recipient recalculates A as 700 and compares it with B at 680. With the other selection conditions unchanged, B is now the cheaper option. If another criterion would change the selection, price alone would not settle it.
+The recipient recovers the price comparison method and the condition for the credit. The revised specification makes the credit inapplicable. Retaining the unchanged quoted costs, the recipient recalculates A as 700 and compares it with B at 680.
+
+With the other selection conditions unchanged, B is now the cheaper option. If another criterion would change the selection, price alone would not settle it.
 
 The handoff did not justify accepting the old choice or rerunning every part of the procurement study. Recovering one condition identified the reasoning that needed revision.
 
 #### A.15.10:5.3 - An ordinary pause needs no checkpoint
 
-A designer stops to answer a short question. The drawing remains open at the unresolved joint, the two alternatives and their load condition are visible, and the designer can still explain the pending comparison. They continue the comparison directly.
+A designer stops to answer a short question. The drawing remains open at the unresolved joint, the two alternatives and their load condition are visible, and the designer can explain the pending comparison. They continue the comparison.
 
 If the drawing is later transferred to a colleague, the same visible marks may be insufficient: the colleague may not know which load condition governs the comparison. A short annotation at that point can supply the missing contribution. The useful support depends on the receiver and the work, not on a universal note format.
 

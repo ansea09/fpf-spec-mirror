@@ -6,12 +6,12 @@ section_id: "E.17:2"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__003_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:2 — Problem frame"
-line_start: 107431
-line_end: 107439
+line_start: 114026
+line_end: 114036
 dependencies:
   - "A.10"
   - "A.15.4"
@@ -46,10 +46,12 @@ keywords:
 
 ### E.17:2 - Problem frame
 
-* Different readers often need different slices or presentations of the same accepted account, but a current task may need only one or two faces rather than the full quartet.
-* Informal renderings can drift semantics, hide omissions, or sever source return; composite morphisms can also lose traceability when their publication claims are used compositionally.
+* Different readers often need different parts or presentations of the same accepted account. One or two faces can suffice for a current task.
+* Informal renderings can change the meaning, hide omissions, or sever the return to source. Composite morphisms can also lose traceability when their publication claims are used compositionally.
 * `PlainView`, `AssuranceLane`, and a packaged `viewpointRef` are easy to overread as `U.View` membership, assurance, or conformance even though none establishes those claims by itself.
-* Exact publication identity, pins, carrier relations, and evidence references matter for some receiving uses, but putting all of them before the first readable face makes ordinary publication unnecessarily hard.
+* Publication identity, pins, carrier relations, and evidence references matter for some receiving uses, but putting all of them before the first readable face makes ordinary publication unnecessarily hard.
 
-**MVPK** therefore starts from the current source, reader/use, and minimum useful face set. It then adds viewpoint conformance, E.24.PUB occurrence/expression/form/carrier identity, pins, bridge records, evidence, or assurance only when a named use depends on those distinctions. The optional morphism profile retains the functorial publication discipline for epistemes used as descriptions, including those admitted for specification use. **Part E is conceptual:** no machine-exchange formats are specified here.
+**MVPK** therefore starts from the current source, reader/use, and minimum useful face set. It then adds viewpoint conformance, E.24.PUB occurrence/expression/form/carrier identity, pins, bridge records, evidence, or assurance only when a named use depends on those distinctions.
+
+The optional morphism profile retains the functorial publication discipline for epistemes used as descriptions, including those admitted for specification use. **Part E is conceptual:** no machine-exchange formats are specified here.
 

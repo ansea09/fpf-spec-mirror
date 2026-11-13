@@ -6,12 +6,12 @@ section_id: "E.15:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.15/E.15__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.15 — Pattern Change, Edition Continuity, and Impact Analysis"
   - "E.15:3 — Forces"
-line_start: 105619
-line_end: 105629
+line_start: 112080
+line_end: 112090
 dependencies:
   - "C.18"
   - "C.19"
@@ -37,7 +37,7 @@ keywords:
 | Fast repair vs continuity | A local correction should stay cheap, while material predecessor functions and dependent uses must not disappear. |
 | Exact comparison vs semantic change | A textual diff locates changed words; it does not decide whether an idea, action, or result changed. |
 | Reuse vs reverification | Unaffected results should be reused, but only after the dependency that made them unaffected is understood. |
-| One good repair vs useful alternatives | Extra candidates help when a real choice remains; they are waste when one bounded non-dominated repair is already understood. |
+| One good repair vs useful alternatives | Extra candidates help when there are plausible repairs to choose among. They add unnecessary work when one bounded non-dominated repair is already understood. |
 | Precision vs working language | Ontological repair may need sharper distinctions, but the resulting whole pattern must remain readable and usable in a project. |
-| Stable history vs current use | Old editions remain exact historical sources, while current reliance must name the edition it actually uses. |
+| Stable history vs current use | Old editions remain exact historical sources, while current reliance must name the edition it uses. |
 

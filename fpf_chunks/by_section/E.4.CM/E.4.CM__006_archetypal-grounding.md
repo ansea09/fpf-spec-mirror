@@ -6,12 +6,12 @@ section_id: "E.4.CM:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.CM/E.4.CM__006_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.4.CM — Develop Connected Methods as Framework Contributions"
   - "E.4.CM:5 — Archetypal Grounding"
-line_start: 93792
-line_end: 93863
+line_start: 98402
+line_end: 98477
 dependencies:
   - "A.3.1"
   - "B.1.5"
@@ -39,9 +39,9 @@ A team has two public operations: grouping records and comparing paired observat
 
 The available data are T1=(error, S1, warm), T2=(acceptable, S1, cool), T3=(error, S2, warm), T4=(acceptable, S2, warm). Grouping by setup offers T1–T2 and T3–T4. Only the latter satisfies the comparison's precondition.
 
-The author locates a composition difficulty: the producer's grouping key is weaker than the receiver's eligibility rule. The repair groups by setup and temperature, returns T3–T4 as eligible and makes the missing S1 comparison explicit. Comparison then uses the eligible pair; it cannot claim a result for S1. A request for another record is warranted only if that unresolved use matters.
+The author locates a composition difficulty: the producer's grouping key is weaker than the receiver's eligibility rule. The repair groups by setup and temperature, returns T3–T4 as eligible and states that no S1 comparison is available. Comparison then uses the eligible pair; it cannot claim a result for S1. A request for another record is warranted only if that unresolved use matters.
 
-This is already developed in C.40.CD:5.1. E.4.CM therefore selects reuse of that explanation rather than another pattern for these same operations. If a proposed card merely lists grouping and comparison, it should point to the available construction instead of asking the reader to invent the missing key.
+C.40.CD:5.1 develops this comparison. E.4.CM therefore selects reuse of that explanation rather than another pattern for these same operations. If a proposed card merely lists grouping and comparison, it should point to the available construction instead of asking the reader to invent the missing key.
 
 Now change the receiving rule to require a shared instrument revision too. Temperature matching alone no longer answers eligibility. If revisions are present, extend the key; if absent, return the unavailable comparison rather than treating omission as a match. This change illustrates what the public explanation must teach: derive the joining rule from the receiving condition and preserve partial results. It does not establish causality from one matched pair.
 
@@ -77,7 +77,9 @@ Under that basis, one prepared recording meets analysis at 3 ms and viewing at 8
 
 **Decide what the framework adds.** The author compares a smaller alternative: links to the existing four method bodies. Those links allow an expert to reconstruct the joins but leave the interval basis, distinct receiving tolerances and selective return unexplained. A shared public account would supply that missing explanation. Its useful difference lies in those relations, not in a new primitive operation or a claim that the four Methods constitute one whole.
 
-Prepare that account for publication in the DPF's Architectural Reference, with direct returns from the affected patterns and a short Readme entry. Keep the arithmetic and general change explanation with C.39:5.3/C.39.RO:5.1 and the actual professional operations with their qualified suppliers. Explain the domain interpretation and receiving conditions in the DPF. For example, its practical instruction can say: “Obtain the recording's interval qualification; compare its bound separately with each receiving use; pass it to a use only when that use's tolerance is met; develop another preparation for an unmet requirement and retain qualified uses.” The earlier preparation explanation supplies how the qualification is obtained; this paragraph supplies how the receivers use it.
+Prepare that account for publication in the DPF's Architectural Reference, with direct returns from the affected patterns and a short Readme entry. Keep the arithmetic and general change explanation with C.39:5.3/C.39.RO:5.1 and the professional operations with their qualified suppliers. Explain the domain interpretation and receiving conditions in the DPF.
+
+For example, its practical instruction can say: “Obtain the recording's interval qualification; compare its bound separately with each receiving use; pass it to a use only when that use's tolerance is met; develop another preparation for an unmet requirement and retain qualified uses.” The earlier preparation explanation supplies how the qualification is obtained; this paragraph supplies how the receivers use it.
 
 **Apply the content functions rather than infer a Method from a template.** The construction supplies much of the explanation; applying E.8 and E.11.PFP also exposes a domain-source question that it cannot answer:
 
@@ -95,9 +97,11 @@ Prepare that account for publication in the DPF's Architectural Reference, with 
 | SoTA-Echoing | Open: which current synchronization and timing-validation method should this studio use for the stated receiving tolerances? Domain sources and a serious alternative to constant post-recording correction have not been compared. The local comparison of joins does not answer this question. |
 | Relations | Distinguish composition within preparation, its enactment in Work, result use by independent Methods and development that changes later preparation. |
 
-To complete the SoTA function, obtain current domain sources for acquisition and synchronization, timing-error validation, and the movement-analysis requirements behind the receiving tolerances. Compare a serious alternative for the same receiving task, equipment and access constraints, and error measures; distinguish supported bounds from stipulated values. Under E.8:11, state the best-known line, the alternative's action-changing defect or the deliberate trade-off, and each source's role and limits. Show how the comparison retains, narrows or changes the preparation, qualification or receiving rule, including the 2 ms return to development. Reopen if a changed source, requirement or observed failure defeats that choice. E.4.CM:11's method-engineering sources do not supply these domain claims.
+To complete the SoTA function, obtain current domain sources for acquisition and synchronization, timing-error validation, and the movement-analysis requirements behind the receiving tolerances. Compare a serious alternative for the same receiving task, equipment and access constraints, and error measures; distinguish supported bounds from stipulated values.
 
-The supplied answers can occupy ordinary connected prose with exact returns. They do not require twelve new headings in the Architectural Reference. If a separately recognizable recurring difficulty really needs a new Method pattern, that pattern uses E.8's canonical body form and receives its own developed Solution and limits. Here the shared account and existing suppliers answer the missing-joins question; pattern creation is not forced by the number of Methods.
+Under E.8:11, state the best-known line, the alternative's action-changing defect or the deliberate trade-off, and each source's role and limits. Show how the comparison retains, narrows or changes the preparation, qualification or receiving rule, including the 2 ms return to development. Reopen if a changed source, requirement or observed failure defeats that choice. E.4.CM:11's method-engineering sources do not supply these domain claims.
+
+The answers can use connected prose with references to the passages that supply each answer. They do not require twelve new headings in the Architectural Reference. If a separately recognizable recurring difficulty needs a new Method pattern, that pattern uses E.8's canonical body form and receives its own developed Solution and limits. Here the shared account and existing suppliers answer the missing-joins question; pattern creation is not forced by the number of Methods.
 
 A short reminder can say: “Recover the receiving uses; construct and qualify preparation; apply each use's conditions; return the failed connection to development and preserve qualified branches.” In the resulting publication it returns to the full explanation, including the domain comparison and its limits. Reading the reminder in order requires neither development during every use nor a sequence between the independent receivers.
 

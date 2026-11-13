@@ -6,12 +6,12 @@ section_id: "A.6.A:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.A/A.6.A__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.A — Affordance and Action-Invitation Precision Restoration (ACT-INV)"
   - "A.6.A:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 22374
-line_end: 22387
+line_start: 23263
+line_end: 23276
 dependencies:
   - "A.15"
   - "A.16"
@@ -52,9 +52,9 @@ keywords:
 | Anti-pattern                   | Symptom                                                                                     | Why it fails                                           | How to avoid or repair                                           |
 | ------------------------------ | ------------------------------------------------------------------------------------------- | ------------------------------------------------------ | --------------------------------------------------------------- |
 | **Site-participant-property affordance** | "The site participant is actionable" with no enactor or coupling frame | collapses relationality into monadic property language | publish site, enactor, action, and coupling frame |
-| **Invitation-as-obligation**   | "This calls for rollback" is treated as if rollback is already required                     | hides A-classified or D-classified claim status and accountability | recover the actual claim and apply its duty or gate rule through A.6.B |
+| **Invitation-as-obligation**   | "This calls for rollback" is treated as if rollback is already required                     | hides A-classified or D-classified claim status and accountability | recover the claim and apply its duty or gate rule through A.6.B |
 | **Invitation-as-work**         | “The system reacted” is used where only a cue or option exists                              | confuses offer with execution                          | keep invitation separate from A.15 and `U.Work`                   |
-| **MethodDescription as invited Method** | `Enact(methodDescriptionRef=Runbook)` treats the description as the Method to enact | makes a C.2.1 episteme the world-side way of doing | identify the exact `U.Method` intended for enactment; keep its description separate |
+| **MethodDescription as invited Method** | `Enact(methodDescriptionRef=Runbook)` treats the description as the Method to enact | makes a C.2.1 episteme the world-side way of doing | identify the `U.Method` intended for enactment; keep its description separate |
 | **Viewpoint or view by record inclusion** | a field name or bundle row is treated as proof of `U.Viewpoint` or `U.View` | bypasses reference resolution and E.17.0 dependent-kind rules | resolve `viewpointRef` under the effective scheme and establish any view's conformance independently |
 | **Capability-as-invitation**   | “The robot can do X” stands in for a situated affordance                                    | destroys local enactor and site conditions             | separate capability description from action invitation          |
 | **Latent cue as explanation**  | a model tendency is narrated as if it were already an explicit rationale                    | overstates articulation and evidence                   | state the supported model tendency; use a cue pack or option set only when that form helps the receiving use     |

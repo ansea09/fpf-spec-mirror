@@ -6,12 +6,12 @@ section_id: "C.13:9"
 section_title: "Rationale (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.13/C.13__012_rationale-informative.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.13 — Constructional Mereology (Compose‑CAL)"
   - "C.13:9 — Rationale (informative)"
-line_start: 58530
-line_end: 58545
+line_start: 60901
+line_end: 60916
 dependencies:
   - "A.1"
   - "A.14"
@@ -33,7 +33,7 @@ keywords:
 
 `sum`, `set`, and `slice` keep three recurring practitioner questions apart:
 
-- `sum` asks how exact constituents and constructive relations assemble an integrated whole;
+- `sum` asks how identified constituents and constructive relations assemble an integrated whole;
 - `set` asks which entities belong to a collection under that collection's identity and belongs-to rule;
 - `slice` asks which aspect is distinguished under a facet rule, or which measured portion is delimited under a boundary rule. These profiles keep their different relation conditions.
 

@@ -6,12 +6,12 @@ section_id: "A.19.SPR:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SPR/A.19.SPR__011_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.19.SPR — Repair State and Status Wording"
   - "A.19.SPR:9 — Rationale"
-line_start: 35513
-line_end: 35518
+line_start: 37015
+line_end: 37020
 dependencies:
   - "A.10"
   - "A.16"
@@ -47,5 +47,5 @@ keywords:
 
 Recover the item and the value, relation, result or claim being stated; name the rule or criterion when the reader needs it to understand or act. These facts let practitioners use short engineering language while retaining each claim’s kind and conditions.
 
-A local field such as `LensUseBoundaryValue` remains useful when its object, possible values, and rule are clear. Broad phrases such as `source posture`, `evidence posture`, or `release posture` should instead become the direct sentence or project record the reader actually needs.
+A local field such as `LensUseBoundaryValue` remains useful when its object, possible values, and rule are clear. Broad phrases such as `source posture`, `evidence posture`, or `release posture` should instead become the sentence or project record the reader needs.
 

@@ -6,12 +6,12 @@ section_id: "B.2.P:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.P/B.2.P__005_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.2.P — Clarify Emergence and Meta-Holon Transition (MHT) Claims"
   - "B.2.P:3 — Forces"
-line_start: 43759
-line_end: 43768
+line_start: 45519
+line_end: 45528
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -49,9 +49,9 @@ keywords:
 
 | Force | Tension |
 | --- | --- |
-| Useful recognition vs false kind | Emergence wording often marks a real modeling concern, but it does not name a selected root kind. |
+| Useful recognition vs false kind | Emergence wording often marks a modeling concern, but it does not name a selected root kind. |
 | Whole reidentification vs property change | Some cases need B.2; many cases need only characteristic, capability, function, architecture, evidence-use, or mathematical-lens patterns. |
 | Collection language vs collective system | Collection words can name membership, a constructed whole, an acting system, or a characteristic bearer. |
 | Source mnemonics vs current authority | Short labels help recognition but can preserve rejected ontology. |
-| Mathematical expression vs ontology replacement | Formal or statistical expressions can bear on a claim only after the concrete thing or claim and its direct pattern are identified. |
+| Mathematical expression vs ontology replacement | Formal or statistical expressions can bear on a claim only after the thing or claim and its pattern are identified. |
 

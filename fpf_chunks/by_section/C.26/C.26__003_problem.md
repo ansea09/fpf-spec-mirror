@@ -6,12 +6,12 @@ section_id: "C.26:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26/C.26__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.26 — Quantum-Like Modeling Lens"
   - "C.26:2 — Problem"
-line_start: 65454
-line_end: 65461
+line_start: 68402
+line_end: 68418
 dependencies:
   - "A.10"
   - "A.15"
@@ -52,9 +52,18 @@ keywords:
 
 ### C.26:2 - Problem
 
-Teams make five recurring representational mistakes that this lens addresses.
+Teams make five recurring representational mistakes that this lens addresses:
 
-They treat a probe as a neutral read when the probe changes later answers or behavior. They combine two posterior-looking outputs as if both came from one shared sample space. They export a team state, dashboard value, or context-map result as if it were a faithful-enough export for the intended use. They compress a large state representation for speed and then reuse the shortcut outside its admissible-use scope. They let words such as `quantum`, `entanglement`, `collapse`, or `field` import ontology that the model never earned.
+- They treat a probe as a neutral read when the probe changes later answers or behavior.
+- They combine two posterior-looking outputs as if both came from one shared sample space.
+- They export a team state, dashboard value, or context-map result as if it were a faithful-enough export for the intended use.
+- They compress a large state representation for speed and then reuse the shortcut outside its admissible-use scope.
+- They let words such as `quantum`, `entanglement`, `collapse`, or `field` import ontology that the model never earned.
 
-The team may approve a release from a dashboard whose publication and operational use changed the work it was supposed to report, average results produced in incompatible local algebras, reuse a local decision under a different effective reference scheme after the admitted bridge lost load-bearing meaning, or claim a speed gain because the representation was low-bit, linear, symbolic, or compressed without naming the loss.
+For example, the team may:
+
+- approve a release from a dashboard whose publication and operational use changed the work it was supposed to report;
+- average results produced in incompatible local algebras;
+- reuse a local decision under a different effective reference scheme after the admitted bridge lost load-bearing meaning;
+- claim a speed gain because the representation was low-bit, linear, symbolic, or compressed without naming the loss.
 

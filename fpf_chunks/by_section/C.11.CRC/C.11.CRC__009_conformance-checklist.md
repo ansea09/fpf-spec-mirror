@@ -6,12 +6,12 @@ section_id: "C.11.CRC:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.CRC/C.11.CRC__009_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.11.CRC — Configuration-Relative Contribution Comparison"
   - "C.11.CRC:7 — Conformance Checklist"
-line_start: 57577
-line_end: 57590
+line_start: 59913
+line_end: 59926
 dependencies:
   - "A.1.CSD"
   - "A.10"
@@ -52,7 +52,7 @@ keywords:
 6. Are constraints, interactions, overlap, thresholds, congestion, and downstream effects considered where material?
 7. Are future option effects distinguished from realized results?
 8. Are evidence, uncertainty, sensitivity/robustness, transfer limits, and unsupported overreads visible?
-9. Is each derivative, sensitivity, shadow-price, functional-variation, variational-inference, or evolutionary-variation result used only for its exact question?
+9. Is each derivative, sensitivity, shadow-price, functional-variation, variational-inference, or evolutionary-variation result used only for its question?
 10. Does the output remain a comparison claim returned to its named use, with `C.11` retaining any `ChoiceResult` sought under that calculus?
 11. Is the smallest reopen condition stated?
 

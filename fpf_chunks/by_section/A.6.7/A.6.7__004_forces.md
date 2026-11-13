@@ -6,12 +6,12 @@ section_id: "A.6.7:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.7/A.6.7__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.7 — MechSuiteDescription — Shared Conditions for Joint Use of Distinct Mechanisms"
   - "A.6.7:3 — Forces"
-line_start: 24110
-line_end: 24131
+line_start: 25031
+line_end: 25052
 dependencies:
   - "A.21"
   - "A.6.1"
@@ -45,7 +45,7 @@ keywords:
 
 2. **Minimal specificity + kind suffix discipline (E.10).**
    The token name should encode only what is essential: it is a description, it is about mechanisms, it is a suite.
-   It must not capture a particular domain (e.g., CHR) in the Kernel name.
+   It must not capture a domain (e.g., CHR) in the Kernel name.
 
 3. **Governing spec ref centrality (CN‑Spec and CG‑Spec).**
    Suites must cite governing spec refs as pins, not duplicate their internals, otherwise multiple competing admissibility centers arise.

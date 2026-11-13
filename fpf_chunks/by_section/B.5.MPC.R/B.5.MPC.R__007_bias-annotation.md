@@ -6,12 +6,12 @@ section_id: "B.5.MPC.R:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.MPC.R/B.5.MPC.R__007_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.5.MPC.R — Repair a Physical-Mathematical-Computational Connection"
   - "B.5.MPC.R:6 — Bias-Annotation"
-line_start: 47656
-line_end: 47661
+line_start: 49656
+line_end: 49661
 dependencies:
   - "A.15.9"
   - "A.3.3"
@@ -28,7 +28,7 @@ keywords:
 
 ### B.5.MPC.R:6 - Bias-Annotation
 
-The cases use elementary models so the connection can be worked explicitly. Nonlinear dynamics, statistical observations or coupled physical computations can require more demanding subject contributions. Preserve their interaction and uncertainty conditions when applying the same repair method.
+The cases use elementary models so the connection can be worked. Nonlinear dynamics, statistical observations or coupled physical computations can require more demanding subject contributions. Preserve their interaction and uncertainty conditions when applying the same repair method.
 
 A visible software failure can attract attention even when the computation is correct and its physical interpretation is wrong. Compare the meaning of the input and output before choosing a programming repair.
 

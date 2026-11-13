@@ -6,12 +6,12 @@ section_id: "B.5.MPC.R:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.MPC.R/B.5.MPC.R__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.5.MPC.R — Repair a Physical-Mathematical-Computational Connection"
   - "B.5.MPC.R:7 — Conformance Checklist"
-line_start: 47662
-line_end: 47671
+line_start: 49662
+line_end: 49671
 dependencies:
   - "A.15.9"
   - "A.3.3"
@@ -34,5 +34,5 @@ keywords:
 - Shared premises remain visible across calculations, simulations and observations.
 - The repair changes the responsible relation, procedure, realization or requested result.
 - Its dependent consequences are reworked and returned at the supported scope.
-- The receiver can perform the next action or identify the contribution still needed.
+- The receiver can perform the next action or identify the contribution needed.
 

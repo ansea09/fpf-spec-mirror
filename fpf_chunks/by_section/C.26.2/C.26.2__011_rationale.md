@@ -6,12 +6,12 @@ section_id: "C.26.2:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.2/C.26.2__011_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.26.2 — Enacted Distributed State Evidence"
   - "C.26.2:10 — Rationale"
-line_start: 66579
-line_end: 66582
+line_start: 69583
+line_end: 69586
 dependencies:
   - "A.10"
   - "A.15"
@@ -37,5 +37,5 @@ keywords:
 
 ### C.26.2:10 - Rationale
 
-Existing FPF patterns can carry parts of the support requirement, but no single ordinary pattern makes the combined minimal distributed-state claim easy to write. `A.15` carries Work alignment, `A.10` carries source-to-use evidence accounts, `B.3` carries actual named assurance claims, `F.9` carries cross-context semantic Bridge loss, and `C.16` carries formal measurement. C.26.2 coordinates those neighboring-pattern applications for the specific case where coordinated work evidences a non-articulated state.
+Existing FPF patterns can carry parts of the support requirement, but no single ordinary pattern makes the combined minimal distributed-state claim easy to write. `A.15` carries Work alignment, `A.10` carries source-to-use evidence accounts, `B.3` carries named assurance claims, `F.9` carries cross-context semantic Bridge loss, and `C.16` carries formal measurement. C.26.2 coordinates those neighboring-pattern applications for the specific case where coordinated work evidences a non-articulated state.
 

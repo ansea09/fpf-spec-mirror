@@ -6,12 +6,12 @@ section_id: "B.5.RC:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.RC/B.5.RC__012_sota-echoing.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.5.RC — Recover a Construction from Its Description"
   - "B.5.RC:11 — SoTA-Echoing"
-line_start: 47889
-line_end: 47896
+line_start: 49893
+line_end: 49902
 dependencies:
   - "A.6.3.RT"
   - "B.5"
@@ -24,9 +24,11 @@ keywords:
 
 ### B.5.RC:11 - SoTA-Echoing
 
-**Constructive and propositional accounts.** Rodin's [One Mathematic(s) or Many? Foundations of Mathematics in Today's Mathematical Practice](https://arxiv.org/html/2301.08131v1), especially its discussion of Euclid's operations and problems, treats object-forming procedures and reasoning about their properties as connected contributions to mathematical practice. This pattern adopts that connection in :4.2–:4.5. It leaves the choice of mathematical foundations to the account being used. A propositional existence result remains sufficient when that is the required result; obtaining a particular instance calls for the corresponding construction.
+**Constructive and propositional accounts.** Rodin's [One Mathematic(s) or Many? Foundations of Mathematics in Today's Mathematical Practice](https://arxiv.org/html/2301.08131v1), especially its discussion of Euclid's operations and problems, treats object-forming procedures and reasoning about their properties as connected contributions to mathematical practice. This pattern adopts that connection in :4.2–:4.5. It leaves the choice of mathematical foundations to the account being used. A propositional existence result remains sufficient when that is the required result; obtaining an instance calls for the corresponding construction.
 
 **Problem reduction.** Rodin's [Kolmogorov's Calculus of Problems and Its Legacy](https://philomatica.org/wp-content/uploads/2023/07/kolmoeng.pdf), in the 2023 author manuscript's discussion of reductions among problems, supplies an earlier account of solving one problem through solutions to others. The present method uses that idea for prerequisite recovery, including joint and alternative contributions. It does not require the reader to adopt intuitionistic logic for every subject.
 
-**Bounded method choice.** For a compressed construction whose result is needed now, compare a linear paraphrase of the source with backward prerequisite recovery followed by a small forward construction. The triangle case requires two circles together; the stand case exposes the unmatched fitting before a complete display exists. The second method is selected because it makes those dependencies actionable. If the source already provides an executable construction understood by the reader, direct use is cheaper. The recovered procedure and the stand example are the present synthesis. Reconsider the backward-then-forward approach when, for the same unfamiliar construction and reader preparation, another recovery method supplies the missing operation more reliably at comparable effort.
+**Bounded method choice.** For a compressed construction whose result is needed, compare a linear paraphrase of the source with backward prerequisite recovery followed by a small forward construction. The triangle case requires two circles together; the stand case exposes the unmatched fitting before a complete display exists. The second method is selected because it makes those dependencies actionable. If the source provides an executable construction understood by the reader, direct use is cheaper.
+
+The recovered procedure and the stand example are the present synthesis. Reconsider the backward-then-forward approach when, for the same unfamiliar construction and reader preparation, another recovery method supplies the missing operation more reliably at comparable effort.
 

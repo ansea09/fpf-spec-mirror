@@ -6,12 +6,12 @@ section_id: "F.7:10"
 section_title: "Anti-patterns & remedies"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.7/F.7__011_anti-patterns-remedies.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.7 — Display Source-Local Comparisons in a Concept-Set Table"
   - "F.7:10 — Anti-patterns & remedies"
-line_start: 120629
-line_end: 120643
+line_start: 128283
+line_end: 128297
 dependencies:
   - "A.6.9"
   - "B.3"
@@ -41,7 +41,7 @@ keywords:
 
 | # | Anti-pattern | Symptom | Why harmful | Remedy |
 | --- | --- | --- | --- | --- |
-| **AP-1** | Row-created sameness | Entries are called “the same” because they share a row. | Layout is mistaken for evidence. | State the actual relation or mark a contrast. |
+| **AP-1** | Row-created sameness | Entries are called “the same” because they share a row. | Layout is mistaken for evidence. | State the established relation or mark a contrast. |
 | **AP-2** | Scope label as licence | “Naming-only” or another row label is treated as permission. | The receiving-use claim and its evidence disappear. | Write the use conclusion separately. |
 | **AP-3** | `senseFamily` typing | One broad label is used instead of explaining the comparison. | Hidden kinds and relations remain unnamed. | State the intensional comparison and direct relation. |
 | **AP-4** | Temporal blur | Design descriptions and Work occurrences are treated as interchangeable. | MethodDescription and Work collapse. | Show the distinction and any actual relation through F.11, A.3, and A.15. |

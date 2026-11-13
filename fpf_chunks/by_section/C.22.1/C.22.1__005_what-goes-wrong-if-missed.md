@@ -6,12 +6,12 @@ section_id: "C.22.1:4"
 section_title: "What goes wrong if missed"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.1/C.22.1__005_what-goes-wrong-if-missed.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.22.1 — Task-family adaptation signature"
   - "C.22.1:4 — What goes wrong if missed"
-line_start: 63240
-line_end: 63245
+line_start: 65873
+line_end: 65878
 dependencies:
   - "A.15"
   - "C.19.1"
@@ -41,5 +41,5 @@ keywords:
 
 - adaptation claims collapse into vague `got better` language with no declared work-measure threshold target or budget-to-threshold account
 - parity later compares outcomes that were reached under different prior exposure, different work-measure threshold targets, or different reuse windows
-- nonhuman or unfamiliar solution corridors are either romanticized as novelty or dismissed as noise because the corridor entry was never typed
+- nonhuman or unfamiliar solution corridors are either treated as novelty or dismissed as noise because the corridor entry was never typed
 

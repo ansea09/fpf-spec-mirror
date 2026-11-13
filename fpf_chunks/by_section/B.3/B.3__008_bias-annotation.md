@@ -6,12 +6,12 @@ section_id: "B.3:6.5"
 section_title: "Bias annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__008_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.3 — Is This Claim Supported for This Use? — Trust and Assurance Calculus"
   - "B.3:6.5 — Bias annotation"
-line_start: 45091
-line_end: 45100
+line_start: 46943
+line_end: 46952
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -41,7 +41,7 @@ keywords:
 | --- | --- |
 | Formal prestige | Ask what uncertainty or verification need the formalization closes. |
 | One-number preference | Keep unlike characteristics separate unless an applicable model combines them. |
-| Visible-authority bias | Resolve the exact claim and property established by the artifact. |
+| Visible-authority bias | Resolve the claim and property established by the artifact. |
 | Record completion bias | Add only fields the named use consumes. |
-| Consequence inflation | Use direct domain rules; consequence alone creates no assurance claim. |
+| Consequence inflation | Use domain rules; consequence alone creates no assurance claim. |
 

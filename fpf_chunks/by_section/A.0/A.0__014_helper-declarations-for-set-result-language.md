@@ -6,12 +6,12 @@ section_id: "A.0:QF.1a"
 section_title: "Helper declarations for set-result language"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.0/A.0__014_helper-declarations-for-set-result-language.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.0 — Generative Search Onboarding Glossary (NQD & E/E‑LOG)"
   - "A.0:QF.1a — Helper declarations for set-result language"
-line_start: 2439
-line_end: 2454
+line_start: 2475
+line_end: 2490
 dependencies:
   - "A.19"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
@@ -60,14 +60,14 @@ keywords:
 - Ordinary public set-result family heads are `Palette`, `TraditionPalette`, `Front`, `Q-Front`, `Archive`, `ExplorationArchive`, `Shortlist`, `RankedShortlist`, and `JointUseSet`; the applicable pattern fixes which families its operation may return.
 - `SteppingStoneSet` is one narrow retained-subset head only when that subset itself is the visible published surface; do not treat it as the ordinary public head for retained exploration.
 - `SetResultFamily` is a declaration field naming which public set-result family is being emitted; it is not another public head.
-- `SourceSetFamily` is a declaration field naming the immediate source-set family acted on by a lens, such as `Q-Front`, `ExplorationArchive`, `Front`, `Archive`, or `TraditionPalette`; it does not carry derivation, composition, or object-id load, and it does not rename the emitted result.
-- `SourceSetComposition` is an optional declaration field for a composition of several declared source sets, including different sets of the same family. Identify each contributing set and its family, and state how its members contribute, such as `Front+Archive` through a union when that is the actual construction. It is not itself a kind.
+- `SourceSetFamily` is a declaration field naming the immediate source-set family acted on by a lens, such as `Q-Front`, `ExplorationArchive`, `Front`, `Archive`, or `TraditionPalette`; it does not specify derivation, composition, or object identifiers, and it does not rename the emitted result.
+- `SourceSetComposition` is an optional declaration field for a composition of several declared source sets, including different sets of the same family. Identify each contributing set and its family, and state how its members contribute, such as `Front+Archive` through a union when that is the construction. It is not itself a kind.
 - `SubjectKind` is a declaration field naming what the members are, such as traditions, methods, hypotheses, environment-method pairs, candidate explanations, or other subject-kinded alternatives.
 - `EligibilitySet`, `DominanceSet`, `TieBreakerSet`, and `TelemetrySet` are the comparison-bundle sets behind the published set result, not rival publication heads: `EligibilitySet` says what may enter, `DominanceSet` says what counts for current non-domination, `TieBreakerSet` says what may order or choose among survivors, and `TelemetrySet` says what may be reported without changing dominance.
 - `PromotionPolicy` is the policy pin that authorizes one tie-breaker or telemetry signal to move into dominance. Without that pin, novelty, diversity, surprise, illumination, or similar signals remain outside the current `DominanceSet`.
 - `DerivedViewKind` is an optional declaration field for a derived view, such as one tradition view used for interpretation or publication. It must leave the base `SourceSetFamily`, `SetResultFamily`, and emitted shortlist family recoverable.
 - `BasePaletteRef` is an optional cited id/ref for the base palette when one derived tradition view or shortlist depends on that palette; it is a ref, not a kind.
 - Stable values for `SetResultFamily`, `SourceSetFamily`, `SourceSetComposition`, `SubjectKind`, and `DerivedViewKind` should come from controlled tokens, cited ids, or already-declared head labels; do not let one ad hoc local prose label become a de facto field value.
-- When the upstream object is `SoTAPaletteDescription` and its members are traditions, `TraditionPalette` may be used as the reader-facing tradition-only palette head for that same palette declaration. It is an aliasing head over the same palette declaration, not a separate palette declaration. When the members are not traditions, keep `SoTAPaletteDescription` or `Palette + SubjectKind` explicit instead of widening `TraditionPalette`.
-- `RetentionIntent=steppingStone` is a field value on retained archive membership when the purpose is future frontier reach; it is not the same publication move as publishing a `SteppingStoneSet`, which names a narrower retained subset only when that subset itself is the published set result being discussed and not the default archive head.
+- When the upstream object is `SoTAPaletteDescription` and its members are traditions, `TraditionPalette` may be used as the reader-facing tradition-only alias for that same palette declaration. When the members are not traditions, keep `SoTAPaletteDescription` or `Palette + SubjectKind` explicit instead of widening `TraditionPalette`.
+- `RetentionIntent=steppingStone` is a field value on retained archive membership intended for future frontier reach. A `SteppingStoneSet` names a narrower retained subset only when that subset itself is the published set result being discussed; the ordinary archive head names the whole archive.
 

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.10.ROLE"
-pattern_title: "Recovering What “Role” Means in the Current Claim"
+pattern_title: "Recover What “Role” Means in This Claim"
 section_id: "E.10.ROLE:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ROLE/E.10.ROLE__003_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "E.10.ROLE — Recovering What “Role” Means in the Current Claim"
+  - "E.10.ROLE — Recover What “Role” Means in This Claim"
   - "E.10.ROLE:1 — Problem Frame"
-line_start: 101991
-line_end: 101996
+line_start: 107737
+line_end: 107742
 dependencies:
   - "A.2"
   - "A.2.1"
@@ -37,5 +37,5 @@ keywords:
 
 Readers meet *role* in organizational, engineering, mathematical, software, documentary, and ordinary language. The same spelling may point to a local classification of systems, one assignment occurrence, participation in a relation, a declaration slot, a position in a representation or organization, functioning, capability, Work, authority, responsibility, use of an episteme, or no technical claim at all.
 
-One remote definition cannot make the word safe in every sentence. Replacing every occurrence with `SystemRole` is also wrong: it would turn unrelated participation, slot, representation, evidence, and ordinary-language claims into a new ontology.
+A definition given elsewhere cannot determine what *role* means in every sentence. Replacing every occurrence with `SystemRole` would turn unrelated participation, slot, representation, evidence, and ordinary-language claims into a new ontology.
 

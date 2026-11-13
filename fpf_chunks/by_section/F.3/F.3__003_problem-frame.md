@@ -6,12 +6,12 @@ section_id: "F.3:2"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.3/F.3__003_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.3 — Source-Local Sense Clustering"
   - "F.3:2 — Problem Frame"
-line_start: 119274
-line_end: 119284
+line_start: 126873
+line_end: 126883
 dependencies:
   - "A.11"
   - "A.7"
@@ -41,5 +41,5 @@ Source-local lexical notes often over- or under-differentiate meaning:
 3. **Source drift:** different chapters, editions, or translations are blended without checking whether the interpretation basis changed.
 4. **Didactic drift:** the Tech and Plain labels begin to teach different things.
 
-F.3 repairs this by testing usage under the exact source basis rather than by counting strings.
+Test how each expression is used under the exact source basis. Counting strings cannot distinguish these cases.
 

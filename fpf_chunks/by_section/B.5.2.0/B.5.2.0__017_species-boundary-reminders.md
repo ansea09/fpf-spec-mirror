@@ -6,12 +6,12 @@ section_id: "B.5.2.0:15"
 section_title: "Species boundary reminders"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.0/B.5.2.0__017_species-boundary-reminders.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.5.2.0 — Question Form for Entering Abduction (U.AbductivePrompt)"
   - "B.5.2.0:15 — Species boundary reminders"
-line_start: 50081
-line_end: 50088
+line_start: 52149
+line_end: 52156
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -41,7 +41,7 @@ keywords:
 
 Use anomaly species for an explanatory question arising from a failure, contradiction or surprising departure from the current model. Use opportunity species for an explanatory question arising from an indicated advantage. Use probe species for rival explanations of an observation or predicted contrast associated with a stated probe.
 
-For the four specialization-sensitive species, use the explanatory questions and conditions in §4.1.1. Questions asking which option to acquire, which probe to perform or which substrate to try follow the direct choice routes in §4.3.
+For the four specialization-sensitive species, use the explanatory questions and conditions in §4.1.1. Questions asking which option to acquire, which probe to perform or which substrate to try follow the choice routes in §4.3.
 
 Name each cue-derived entry as a prompt species, preserving the explanatory question it introduces.
 

@@ -6,12 +6,12 @@ section_id: "B.2.3:5.4"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.3/B.2.3__008_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.2.3 — Meta-Holon Transition With Episteme Result"
   - "B.2.3:5.4 — Bias-Annotation"
-line_start: 44347
-line_end: 44356
+line_start: 46149
+line_end: 46158
 dependencies:
   - "A.1"
   - "A.10"
@@ -40,7 +40,7 @@ keywords:
 | --- | --- | --- |
 | Library as MHT | A repository, dashboard, or reading list is taken as sufficient for an episteme-result MHT. | Recover the candidate's claims and constitution under A.1/C.2.1, then test the B.2 whole-reidentification claim. Ordinary episteme constitution alone does not establish that claim. |
 | Publication as episteme | A publication form or carrier is treated as the claim-bearing episteme. | Keep the episteme, publication form and carrier distinct under C.2.1 and E.24.PUB. |
-| Episteme agency | A theory, standard, or doctrine is described as performing Work or enforcement. | Recover every exact acting System through A.13 and let A.15.1 independently admit the Work. Add F.6 only when the receiving account expressly consumes precise assignment-bound attribution; a missing or failed attribution alone leaves independently admitted Work intact. For an admission premise invalidated by the same finding, apply `CC-B2.3-5`. |
-| Morphing as MHT | View, translation, coarsening, or retargeting is taken as sufficient for B.2 whole reidentification. | Use the direct A.6 operation; C.2.1 decides whether its source and target are different epistemes. Use B.2 when the whole-reidentification question remains. |
+| Episteme agency | A theory, standard, or doctrine is described as performing Work or enforcement. | Recover every acting System through A.13 and let A.15.1 independently admit the Work. Add F.6 only when the receiving account consumes precise assignment-bound attribution; a missing or failed attribution alone leaves independently admitted Work intact. For an admission premise invalidated by the same finding, apply `CC-B2.3-5`. |
+| Morphing as MHT | View, translation, coarsening, or retargeting is taken as sufficient for B.2 whole reidentification. | Use the A.6 operation; C.2.1 decides whether its source and target are different epistemes. Use B.2 when the whole-reidentification question remains. |
 | Source trust transfer | Trust in constituent sources becomes assurance for the result episteme. | Assess the support and source-use relations against that result claim; reuse a matching current applicability judgment and retain only support that applies. |
 

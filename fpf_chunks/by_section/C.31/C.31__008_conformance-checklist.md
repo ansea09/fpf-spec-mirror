@@ -6,12 +6,12 @@ section_id: "C.31:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31/C.31__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.31 — Modularity and Reusable Structure Characteristics"
   - "C.31:7 — Conformance Checklist"
-line_start: 75366
-line_end: 75382
+line_start: 78811
+line_end: 78827
 dependencies:
   - "A.10"
   - "A.17"
@@ -49,7 +49,7 @@ keywords:
 | --- | --- |
 | `CC-C31-1` | The first diagnostic pass identifies the relevant characteristics, observed problem and next warranted repair. An adequate ordinary account can finish; extend it when another distinction changes the receiving use. |
 | `CC-C31-2` | Each characteristic head under evaluation is classified as `DirectCharacteristic`, `CompositeCharacteristicDescription`, `LensBackedCharacteristic`, `TemporalOrScaleCharacteristic`, `CausalUseSensitiveCharacteristic`, or `ReportOnlyProxy`. |
-| `CC-C31-3` | A measurement or comparison has the C.16 meaning, operations and supporting basis required by its actual use. Recover an unresolved measurement head through section 4.3; an adequate existing account needs no new form. Exact rule-identity dependence requires relationFunctionClaimRef; an ordinary locator does not. Non-pattern authority uses authoritySourceRef under E.10. |
+| `CC-C31-3` | A measurement or comparison has the C.16 meaning, operations and supporting basis required by its use. Recover an unresolved measurement head through section 4.3; an adequate existing account needs no new form. Rule-identity dependence requires relationFunctionClaimRef; an ordinary locator does not. Non-pattern authority uses authoritySourceRef under E.10. |
 | `CC-C31-4` | Each selected characteristic contributes to the architecture answer or a warranted repair. Any further claim retains its subject and governing rule. |
 | `CC-C31-5` | Report-only proxies retain their scope and action-changing limits. Stronger reliance requires its own grounds; publishing the bounded report does not enlarge them. |
 | `CC-C31-6` | A decision that relies on a proxy addresses the relevant divergence risk and how it is checked. |

@@ -6,12 +6,12 @@ section_id: "E.17.0:5"
 section_title: "Worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.0/E.17.0__006_worked-cases.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.17.0 — Viewpoint and View Recognition for Multi-View Describing"
   - "E.17.0:5 — Worked cases"
-line_start: 106528
-line_end: 106557
+line_start: 113049
+line_end: 113078
 dependencies:
   - "A.22"
   - "A.6.3"
@@ -34,15 +34,15 @@ keywords:
 
 #### E.17.0:5.1 - Directly authored architecture view
 
-Architecture episteme E concerns exact system T. Maintainability viewpoint episteme P concerns its selected viewpoint-convention structure and states the target-kind, concern, admitted-kind, coverage, and semantic-form rules. E satisfies those fixed rules, so `EpistemeViewpointConformanceRelation(E,P)` obtains and the same E is a `U.View`. No source episteme or A.6.3 viewing is required.
+Architecture episteme E concerns system T. Maintainability viewpoint episteme P concerns its selected viewpoint-convention structure and states the target-kind, concern, admitted-kind, coverage, and semantic-form rules. E satisfies those fixed rules, so `EpistemeViewpointConformanceRelation(E,P)` obtains and the same E is a `U.View`. No source episteme or A.6.3 viewing is required.
 
 #### E.17.0:5.2 - Query output that is not yet a view
 
-A query over source episteme X constructs episteme Y, and A.6.3 records the source-to-Y viewing relation. Y omits a concern component that exact viewpoint P requires. The construction relation obtains, but conformance does not; Y is not a `U.View` under P. A later repair may create Y2 with different claim content and a new C.2.1 identity.
+A query over source episteme X constructs episteme Y, and A.6.3 records the source-to-Y viewing relation. Y omits a concern component that viewpoint P requires. The construction relation obtains, but conformance does not; Y is not a `U.View` under P. A later repair may create Y2 with different claim content and a new C.2.1 identity.
 
 #### E.17.0:5.3 - One episteme, two viewpoints, one selected use
 
-Unchanged episteme E conforms to safety viewpoint P1 and maintenance viewpoint P2. Two participant-determined conformance occurrences obtain, while the named current review use selects only P1 through one singular `viewpointRef`. E remains one `U.View`; the selection neither creates the P1 conformance nor removes the P2 conformance.
+Unchanged episteme E conforms to safety viewpoint P1 and maintenance viewpoint P2. Two participant-determined conformance occurrences obtain, while the named current review use selects only P1 through one `viewpointRef`. E remains one `U.View`; the selection neither creates the P1 conformance nor removes the P2 conformance.
 
 #### E.17.0:5.4 - Viewpoint revision and library repackaging
 
@@ -50,13 +50,13 @@ Adding a reference to unchanged viewpoint episteme P to another E.17.1 local fam
 
 #### E.17.0:5.5 - Two publications of one view
 
-View episteme E conforms to P. A web publication uses exact expression X1 following reusable form F1, borne by carrier K1; a printed publication uses X2, F2 and K2. Expression, bearing and selected form conformance obtain for each. Two exact publications make the same E available under their own audience, bounded-use and maximal availability intervals. E remains one view episteme. Broader availability of E can continue when an alternative expression or carrier replaces one of these exact publications.
+View episteme E conforms to P. A web publication uses expression X1 following reusable form F1, borne by carrier K1; a printed publication uses X2, F2 and K2. Expression, bearing and selected form conformance obtain for each. Two exact publications make the same E available under their own audience, bounded-use and maximal availability intervals. E remains one view episteme. Broader availability of E can continue when an alternative expression or carrier replaces one of these exact publications.
 
 #### E.17.0:5.6 - Cross-view correspondence
 
-A functional view names transformation F and a structural view names module M. A project claim says M realizes F. The shared system EntityOfConcern and aligned diagram positions do not establish realization. Recover exact F and M, apply the direct realization-relation pattern, then identify an assertion episteme about that occurrence if review needs it. A traceability matrix may represent the assertion and occurrence through an explicit correspondence; C.29 applies when that use requires a mathematical lens. Its cell is not the realization relation.
+A functional view names transformation F and a structural view names module M. A project claim says M realizes F. The shared system EntityOfConcern and aligned diagram positions do not establish realization. Identify F and M, apply the direct realization-relation pattern, then identify an assertion episteme about that occurrence if review needs it. A traceability matrix may represent the assertion and occurrence through an explicit correspondence; C.29 applies when that use requires a mathematical lens. Its cell is not the realization relation.
 
 #### E.17.0:5.7 - Procedural view is not a method description
 
-A TEVB procedural view E concerns exact holon H and carries claims about methods, order, state, concurrency, and recovery through their exact relations to H. E may conform to procedural viewpoint P and therefore be a `U.View`, but it is not a `U.MethodDescription` because its exact EntityOfConcern is H rather than one admitted method. A true method-description view retargets to the method and uses a viewpoint whose target-kind criterion admits methods.
+A TEVB procedural view E concerns holon H and carries claims about methods, order, state, concurrency, and recovery through their exact relations to H. E may conform to procedural viewpoint P and therefore be a `U.View`, but it is not a `U.MethodDescription` because its EntityOfConcern is H rather than one admitted method. A method-description view retargets to the method and uses a viewpoint whose target-kind criterion admits methods.
 

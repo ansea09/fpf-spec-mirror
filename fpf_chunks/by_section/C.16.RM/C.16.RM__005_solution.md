@@ -6,12 +6,12 @@ section_id: "C.16.RM:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.RM/C.16.RM__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.16.RM — Repair a Measurement Model or Arrangement"
   - "C.16.RM:4 — Solution"
-line_start: 59416
-line_end: 59483
+line_start: 61801
+line_end: 61868
 dependencies:
   - "B.5.MPC.R"
   - "B.5.RR"
@@ -58,7 +58,7 @@ For a suspected computational fault, run a supplied or constructed input whose a
 
 #### C.16.RM:4.3 - Compare changes by their predicted contribution
 
-For each serious available repair, change the corresponding part of the relation and determine what would become knowable. An added parameter can represent a missing effect while introducing an unknown that one reading cannot determine. A physical change can remove the effect or make its influence small enough to bound.
+For each available repair, change the corresponding part of the relation and determine what would become knowable. An added parameter can represent a missing effect while introducing an unknown that one reading cannot determine. A physical change can remove the effect or make its influence small enough to bound.
 
 A difference measurement is useful when the target changes between two observations in a known way while the influences being cancelled remain sufficiently stable. A larger input resistance is useful when the loading relation shows how much it reduces the consequential error. Repeating an unchanged observation needs its own error or dynamics account to support a narrower conclusion.
 
@@ -70,13 +70,13 @@ The needed conclusion sets the reach of diagnosis. Replacing a defective assembl
 
 Keep the target and receiving question fixed while revising the selected contribution. If an alternative target or operating condition is acceptable, make that change part of the receiving decision and derive the relation for the new use.
 
-For a model repair, include the consequential influence and obtain its value, range or relation from available information. An added correction term earns its use through that basis. Carry any remaining uncertainty into the sought result.
+For a model repair, include the consequential influence and obtain its value, range or relation from available information. An added correction term needs that basis. Carry any remaining uncertainty into the sought result.
 
 For a computation repair, correct the operation and recalculate the affected results from retained inputs. Reuse observations whose meaning and conditions still fit. Identify outputs that depended on the incorrect operation so that subsequent comparisons use the repaired result.
 
 For an arrangement change, derive how preparation, interaction, indication and calibration are affected. An attenuator can move a detector out of saturation while introducing an attenuation factor and its uncertainty. A shield can remove ambient light while changing alignment. Retain the conditions that make the new relation appropriate.
 
-A planned change supports a conditional result. Once performed, use the resulting observations and conditions to interpret that measurement. Older observations can still answer their original question or be reinterpreted through a supported revised relation; changing a model now does not supply a new past observation.
+A planned change supports a conditional result. Once performed, use the resulting observations and conditions to interpret that measurement. Older observations can still answer their original question or be reinterpreted through a supported revised relation.
 
 #### C.16.RM:4.5 - Test the repaired contribution at the needed scope
 

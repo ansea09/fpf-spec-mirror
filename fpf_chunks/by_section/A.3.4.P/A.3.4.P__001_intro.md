@@ -6,12 +6,12 @@ section_id: "A.3.4.P:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4.P/A.3.4.P__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.3.4.P — Transformation Wording Repair: Recover Objects and Claims"
   - "A.3.4.P:intro — Intro"
-line_start: 13327
-line_end: 13346
+line_start: 13772
+line_end: 13791
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -62,9 +62,9 @@ keywords:
 > **Status:** Stable
 > **Normativity:** Normative unless a section is explicitly informative
 
-**Intent.** Restore precision when wording about change hides the object or claim under concern. Distinguish a bounded transformation and its changed referent from acting-System and influence claims, then identify the neighboring objects and their relations before rewriting.
+**Intent.** Restore precision when wording about change hides the object or claim. Distinguish a bounded transformation and its changed referent from acting-System and influence claims, then identify the neighboring objects and their relations before rewriting.
 
-**Use this when.** Use `A.3.4.P` when source or FPF-governed wording such as "pipeline", "dataflow", "flow", "network", "circuit", "path", "slice", "workflow", "process", "operation", "transformation", or "change" seems to name the thing under concern, but the text has not yet recovered what kind of FPF value is actually current.
+**Use this when.** Use `A.3.4.P` when source or FPF-governed wording such as "pipeline", "dataflow", "flow", "network", "circuit", "path", "slice", "workflow", "process", "operation", "transformation", or "change" seems to name the thing under concern, but the kind of object or claim meant by the passage remains unclear.
 
 **First useful move.** State what the passage claims and about which subject. Recover the meaning of the ambiguous word and the conditions that change its use. Test an actual-change claim under A.3.4; open actor, influence and other neighboring questions only when the passage makes those claims. Then rewrite the affected wording, preserving its useful content. Keep a `TransformationWordingRepair` note only when the receiving use needs inspectable detail.
 

@@ -6,12 +6,12 @@ section_id: "C.32.MWA:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA/C.32.MWA__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.32.MWA — Synthesize an Architecture Account of Methods and Their Use"
   - "C.32.MWA:3 — Forces"
-line_start: 78740
-line_end: 78751
+line_start: 82569
+line_end: 82580
 dependencies:
   - "A.13"
   - "A.15.1"
@@ -40,10 +40,10 @@ keywords:
 | Force | Tension to hold |
 | --- | --- |
 | **One answer vs several structures** | The decision needs a coherent account, while the useful structures may remain non-isomorphic. |
-| **Actual use vs prospective design** | Obtaining Work offers dated evidence; proposed Method use needs a truthful realization and later-test account instead. |
+| **Actual use vs prospective design** | Obtaining Work offers dated evidence; proposed Method use needs a realization and later-test account instead. |
 | **Precision vs readable entry** | Exact kinds and relations prevent false claims; notation-first prose can make the Method unusable to the practitioner who needs it. |
 | **Candidate breadth vs proportional effort** | The first source layout is rarely enough; an unlimited candidate search can delay the decision without changing it. |
 | **Local gain vs moved burden** | One structure can improve while another inherits cost, delay, evidence burden, loss of control, or unresolved residual. |
 | **Project choice vs cultural change** | A project can deliberately choose or change an arrangement; distributed generation, transmission, selection, retention, and loss are different claims. |
-| **Reusable Method vs domain filling** | The action sequence transfers across domains; actual domain Methods, institutions, evidence, constraints, and cases remain with the receiving domain. |
+| **Reusable Method vs domain filling** | The action sequence transfers across domains; domain Methods, institutions, evidence, constraints, and cases remain with the receiving domain. |
 

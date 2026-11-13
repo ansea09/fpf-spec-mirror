@@ -6,12 +6,12 @@ section_id: "E.4.FPF:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.FPF/E.4.FPF__010_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.4.FPF — FPF Edition Assembly: Publication Forms, Carriers and Access Routes"
   - "E.4.FPF:9 — Consequences"
-line_start: 94211
-line_end: 94216
+line_start: 98878
+line_end: 98883
 dependencies:
   - "C.33"
   - "C.34"
@@ -41,5 +41,5 @@ keywords:
 
 Authors can reproduce an FPF publication by building its Readme, Architectural Reference, ToC and pattern-body units, arranging them in all-in-one or split forms, and publishing them through identified files, sites, volumes or bundles. Skill, MCP, search or retrieval access can expose that publication while keeping edition, publication and access claims distinct. The same declaration keeps FPF's few direct and cross-pattern examples, their forms, and the two reading-burden limits aligned across authoring, assembly, and validation. The selected examples show how to use the pattern language, while the unmatched-question return keeps further discovery available.
 
-The cost is one extra distinction for stewards: whole-FPF form is not the same problem as DPF authoring, package adequacy, individual pattern quality, or first-entry publication. That cost is acceptable because those problems have different evidence and failure modes.
+Stewards face an extra distinction: whole-FPF form differs from DPF authoring, package adequacy, individual pattern quality, and first-entry publication. The extra work is justified because those problems require different evidence and can fail in different ways.
 

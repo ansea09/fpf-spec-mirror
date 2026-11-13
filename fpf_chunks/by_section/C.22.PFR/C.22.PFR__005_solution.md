@@ -6,12 +6,12 @@ section_id: "C.22.PFR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.PFR/C.22.PFR__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.22.PFR — Problematic-For Relation"
   - "C.22.PFR:4 — Solution"
-line_start: 63410
-line_end: 63586
+line_start: 66060
+line_end: 66264
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -32,11 +32,13 @@ keywords:
 
 Model an actual Problem as one obtaining `ProblematicForRelation`, a dependent evaluative `U.Relation` between exactly two relation occurrences: the actual condition and the applicability of a characteristic-space predicate.
 
-#### C.22.PFR:4.1 - Use one exact criterion-applicability relation
+#### C.22.PFR:4.1 - Use one criterion-applicability relation
 
-`CharacteristicSpacePredicate` is a by-value predicate used by an A.19 comparison, acceptance, state, gate, or other direct consumer. It is not a new U-kind, publication record, description edition, or comparison result. Its meaning is recoverable from the declared characteristic-space coordinates, scales, normalization or bridge values, operator, cut or band, polarity, and the selected direct consumer's governed comparator, admissibility, and predicate-use semantics. A separately performed evaluation remains `U.Work`; its result episteme and evidential-support relations remain separately governed, and none of these constitutes predicate meaning.
+`CharacteristicSpacePredicate` is a by-value predicate used by an A.19 comparison, acceptance, state, gate, or other direct consumer. It is not a new U-kind, publication record, description edition, or comparison result. Its meaning is recoverable from the declared characteristic-space coordinates, scales, normalization or bridge values, operator, cut or band, polarity, and the selected direct consumer's governed comparator, admissibility, and predicate-use semantics.
 
-Before testing adversity, answer three plain questions: **what exact point or value does this condition supply, how is that point obtained, and why is it the input for this problem-for entity and use?** The by-value predicate therefore carries one `ConditionToPredicateInputRule` as part of its own semantics, not as another PFR participant:
+A performed evaluation remains `U.Work`; its result episteme and evidential-support relations remain separately governed, and none of these constitutes predicate meaning.
+
+Before testing adversity, answer three plain questions: **what point or value does this condition supply, how is that point obtained, and why is it the input for this problem-for entity and use?** The by-value predicate therefore carries one `ConditionToPredicateInputRule` as part of its own semantics, not as another PFR participant:
 
 - **Direct input:** the actual-condition participant is already a governed characteristic-assignment or state relation whose subject pattern exposes the exact characteristic-space coordinate, scale, and value used by the predicate.
 - **Projected input:** when that relation does not itself expose the needed point, the rule cites one exact governed projection or bridge, its source relation kind and participant positions, target characteristic space, coordinate and scale, and the direct relation or predicate connecting that input to the problem-for entity and receiving use.
@@ -72,9 +74,15 @@ ProblemCriterionApplicabilityRelation:
   DeclaredCriterionApplicabilityWindowSlot: DeclaredCriterionApplicabilityWindow, byValue; use an explicit unbounded value when no finite bound is intended
 ```
 
-This relation states that one exact predicate currently governs one exact entity and claim scope under one declared criterion-applicability window. Its direct applicability predicate is satisfied while that criterion remains selected and governing for that entity, scope, and window; it does not ask whether any actual condition is presently on the adverse side. The applicability occurrence can therefore continue across adverse, non-adverse, and later adverse condition intervals. It ceases when the criterion is withdrawn or replaced for that use, the entity or claim scope changes, the declared window no longer covers the use, or another direct applicability condition fails. One occurrence is identified by the four fixed participants plus the maximal continuous period of actual applicability. Changing a participant yields another occurrence; actual loss and later restoration of applicability yields distinct occurrences even when all four participants stay fixed. A coextensional description edition or carrier change does not change either the predicate participant or the occurrence. Assessment windows, evidence-relevance intervals, description editions, claim-currentness windows, and adverse-truth intervals remain with their own claims and relations.
+This relation states that one exact predicate currently governs one exact entity and claim scope under one declared criterion-applicability window. Its direct applicability predicate is satisfied while that criterion remains selected and governing for that entity, scope, and window; it does not ask whether any actual condition is presently on the adverse side. The applicability occurrence can therefore continue across adverse, non-adverse, and later adverse condition intervals.
 
-A semantic predicate change selects a different predicate participant; it is not an edition-only repair. If the new predicate replaces the old predicate for the same use and the old applicability therefore ceases, the old applicability occurrence ends and a new occurrence begins only if the new predicate actually applies. The PFR dependent on the old occurrence can then end, and another PFR can begin under the new occurrence when adverse truth obtains. If both predicates remain applicable, two applicability occurrences may coexist; a new criterion description alone does not prove replacement or cessation.
+It ceases when the criterion is withdrawn or replaced for that use, the entity or claim scope changes, the declared window no longer covers the use, or another direct applicability condition fails. One occurrence is identified by the four fixed participants plus the maximal continuous period of actual applicability. Changing a participant yields another occurrence; actual loss and later restoration of applicability yields distinct occurrences even when all four participants stay fixed.
+
+A coextensional description edition or carrier change does not change either the predicate participant or the occurrence. Assessment windows, evidence-relevance intervals, description editions, claim-currentness windows, and adverse-truth intervals remain with their own claims and relations.
+
+A semantic predicate change selects a different predicate participant; it is not an edition-only repair. If the new predicate replaces the old predicate for the same use and the old applicability therefore ceases, the old applicability occurrence ends and a new occurrence begins only if the new predicate applies. The PFR dependent on the old occurrence can then end, and another PFR can begin under the new occurrence when adverse truth obtains.
+
+If both predicates remain applicable, two applicability occurrences may coexist; a new criterion description alone does not prove replacement or cessation.
 
 #### C.22.PFR:4.2 - Keep the PFR signature reduced to two participants
 
@@ -138,7 +146,13 @@ The selected direct consumer supplies the governed input projection or consumes 
 
 A Problem can therefore obtain unnoticed. Later detection can involve work, evidence, and claims about the already obtaining relation; it does not create retroactive actuality.
 
-When an account asserts a particular dated evaluation `U.Work`, recover its actual performer `U.System` through A.13, independently admit the Work under A.15.1, and name the `U.Method` actually followed. Name any declared A.6.1 operation application separately when its returned-value binding is claimed. Add F.6 only when the evaluation account or a receiving use expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment; missing or failed F.6 attribution alone leaves the evaluation Work intact while its independent A.13/A.15.1 grounds still hold. A short PFR explanation may omit an assignment identifier that no later claim uses. That Work may return the separate evaluation result `true`, `false`, or `unknown` defined by the selected evaluation pattern; a C.2.1 assertion may state the result. Establish support for reliance under the assertion's direct subject rule; use A.10 when the evidence, provenance or bounded reliance needs a replayable account. B.3 governs any named assurance claim, and G.11 may qualify the assertion's current edition. The practitioner may rely on the assertion for the receiving Work, decline or defer that reliance, or reopen its basis. `unknown` is an evaluation result, never a world-side PFR value; test PFR obtaining through the three conditions in §4.3.
+When an account asserts a particular dated evaluation `U.Work`, recover its actual performer `U.System` through A.13, independently admit the Work under A.15.1, and name the `U.Method` actually followed. Name any declared A.6.1 operation application separately when its returned-value binding is claimed.
+
+Add F.6 only when the evaluation account or a receiving use expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment; missing or failed F.6 attribution alone leaves the evaluation Work intact while its independent A.13/A.15.1 grounds still hold. A short PFR explanation may omit an assignment identifier that no later claim uses.
+
+That Work may return the separate evaluation result `true`, `false`, or `unknown` defined by the selected evaluation pattern; a C.2.1 assertion may state the result.
+
+Establish support for reliance under the assertion's direct subject rule; use A.10 when the evidence, provenance or bounded reliance needs a replayable account. B.3 governs any named assurance claim, and G.11 may qualify the assertion's current edition. The practitioner may rely on the assertion for the receiving Work, decline or defer that reliance, or reopen its basis. `unknown` is an evaluation result, never a world-side PFR value; test PFR obtaining through the three conditions in §4.3.
 
 
 #### C.22.PFR:4.4 - Identify repeated adverse episodes from world-side continuity
@@ -153,7 +167,11 @@ Use this world-side identity basis:
  adverseEpisodeStart>
 ```
 
-`adverseEpisodeStart` is the episode's actual inception under the declared temporal reference, not the first observation or report time. When admitted time grain cannot distinguish co-inceptions, or when a receiving history must keep one reference while a claim about inception remains revisable, explicitly individuate the occurrence under A.6.REL and assign a stable `pfrOccurrenceId` that designates it. The resolution record may carry the current boundary claim, but neither its asserted start nor its asserted end becomes a mutable identifier field. The PFR's `actualAdverseExtent` is derived from the world-side episode: its end becomes fixed when the episode actually ceases, and a later claim may recover or correct that boundary. The recovered end and completed extent describe the occurrence; they do not replace it or change its assigned reference. This applies A.6.REL's participant-plus-episode rule without making a currently known boundary constitutive.
+`adverseEpisodeStart` is the episode's actual inception under the declared temporal reference, not the first observation or report time.
+
+When admitted time grain cannot distinguish co-inceptions, or when a receiving history must keep one reference while a claim about inception remains revisable, individuate the occurrence under A.6.REL and assign a stable `pfrOccurrenceId` that designates it. The resolution record may carry the current boundary claim, but neither its asserted start nor its asserted end becomes a mutable identifier field.
+
+The PFR's `actualAdverseExtent` is derived from the world-side episode: its end becomes fixed when the episode actually ceases, and a later claim may recover or correct that boundary. The recovered end and completed extent describe the occurrence; they do not replace it or change its assigned reference. This applies A.6.REL's participant-plus-episode rule without making a currently known boundary constitutive.
 
 Participant references alone remain insufficient because the same participants can enter adverse, non-adverse, and later adverse episodes. A universal evaluation reference is also insufficient because an unnoticed PFR can obtain and several assessments can support one occurrence.
 
@@ -179,11 +197,21 @@ Evidence that supports A, B, and C warrants the corresponding two-occurrence ass
 
 #### C.22.PFR:4.6 - Keep assertions, reliance, anticipated conditions, solvability, and cards separate
 
-An assertion about the exact PFR obtaining predicate has affirmative or negative claim polarity. An affirmative assertion may designate an independently established occurrence; a negative assertion denies predicate satisfaction for the named participants and qualification but does not erase or reidentify an earlier occurrence. Judge support for that assertion under its obtaining predicate and the applicable subject rule. Use A.2.4 for a question about an episteme's evidence-use or status-use relation, and A.10 when evidence, provenance or bounded reliance needs a replayable account; B.3 applies only when a named assurance claim is current. Assertion polarity, support, and reliance therefore answer different questions.
+An assertion about the PFR obtaining predicate has affirmative or negative claim polarity. An affirmative assertion may designate an independently established occurrence; a negative assertion denies predicate satisfaction for the named participants and qualification but does not erase or reidentify an earlier occurrence. Judge support for that assertion under the PFR obtaining predicate and the applicable subject rule.
 
-A possible or anticipated problem remains an exact forecast, scenario, counterfactual, or anticipated-condition claim in `ProblemCard` or another episteme until an actual-condition relation, an applicability relation, and adverse predicate truth all obtain. `C.2.1` governs its assertion identity and polarity. Use `C.27` when a rate, rhythm, recovery, or regime claim is being used to change action and `C.28` when causal support is at issue. The exact direct claim pattern defines or constrains assumptions, horizon, and non-actual semantics. None of those claim-side facts establishes a current PFR.
+Use A.2.4 for a question about an episteme's evidence-use or status-use relation, and A.10 when evidence, provenance or bounded reliance needs a replayable account; B.3 applies only when a named assurance claim is current. Assertion polarity, support, and reliance therefore answer different questions.
 
-A `ProblemCard` is one C.2.1 episteme with one exact ClaimGraph, one independently identified `EntityOfConcern`, and one effective reference scheme. It may carry claims designating several PFR occurrences only when those claims are jointly about that one EntityOfConcern under the direct pattern that identifies it. When two PFR references lack such a joint concern, split the ClaimGraph and card. Conversely, several cards may designate the same PFR through different ClaimGraphs, schemes, viewpoints, or receiving uses. Card count, merge or split, currentness, assessment window, publication, carrier, and edition change neither PFR actuality nor identity. C.22.2:20.1b replays all three branches with exact objects: two Robot-7 PFR episodes share one A.1-identified `Robot-7` and one card; Robot-7 and Robot-8 PFRs have no direct joint EntityOfConcern and force two ClaimGraphs and cards; and two differently qualified cards retain the unchanged `PFR-InspectionAssignment-17` reference.
+A possible or anticipated problem remains a forecast, scenario, counterfactual, or anticipated-condition claim in `ProblemCard` or another episteme until an actual-condition relation, an applicability relation, and adverse predicate truth all obtain. `C.2.1` governs its assertion identity and polarity. Use `C.27` when a rate, rhythm, recovery, or regime claim is being used to change action and `C.28` when causal support is at issue. The direct claim pattern defines or constrains assumptions, horizon, and non-actual semantics. None of those claim-side facts establishes a current PFR.
+
+A `ProblemCard` is one C.2.1 episteme with one exact ClaimGraph, one independently identified `EntityOfConcern`, and one effective reference scheme. It may carry claims designating several PFR occurrences only when those claims are jointly about that one EntityOfConcern under the direct pattern that identifies it. When two PFR references lack such a joint concern, split the ClaimGraph and card.
+
+Conversely, several cards may designate the same PFR through different ClaimGraphs, schemes, viewpoints, or receiving uses. Card count, merge or split, currentness, assessment window, publication, carrier, and edition change neither PFR actuality nor identity.
+
+C.22.2:20.1b illustrates all three branches:
+
+- Two Robot-7 PFR episodes share one A.1-identified `Robot-7` and one card;
+- Robot-7 and Robot-8 PFRs have no direct joint EntityOfConcern and force two ClaimGraphs and cards;
+- Two differently qualified cards retain the unchanged `PFR-InspectionAssignment-17` reference.
 
 A claim that no supported method is currently available concerns the admitted method set, evidence, constraints, and intended use. Selecting or discovering a method changes current solvability; it does not end PFR while the actual condition remains adverse. Performed repair work can end PFR only when an independently recovered actual change makes a participant cease or moves the selected condition point to the non-adverse side.
 

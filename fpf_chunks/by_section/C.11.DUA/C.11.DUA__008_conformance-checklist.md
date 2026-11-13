@@ -6,12 +6,12 @@ section_id: "C.11.DUA:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.DUA/C.11.DUA__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.11.DUA — Make Advice and Evidence Demands Worth Their Burden"
   - "C.11.DUA:7 — Conformance Checklist"
-line_start: 58011
-line_end: 58025
+line_start: 60358
+line_end: 60372
 dependencies:
   - "A.10"
   - "C.11"
@@ -28,7 +28,7 @@ keywords:
 
 ### C.11.DUA:7 - Conformance Checklist
 
-The following conditions concern the advice actually given. They require no separately completed checklist.
+The following conditions concern the advice being composed or examined. They require no separately completed checklist.
 
 | ID | Condition |
 | --- | --- |
@@ -38,6 +38,6 @@ The following conditions concern the advice actually given. They require no sepa
 | CC-C11DUA.4 | When a requirement's merits are disputed, the appraisal addresses its governed quantity or activity, purpose, contribution and burden while keeping present force separate. |
 | CC-C11DUA.5 | The result reaches the first useful completion for this recipient. Its decision and useful basis remain; inactive inquiry adds no placeholder, waiver or omission account. |
 | CC-C11DUA.6 | Any reason or limitation needed by the decision or a later recipient remains in the same result. Changed use can make previously unnecessary inquiry worthwhile. |
-| CC-C11DUA.7 | The stated continuation is feasible under obtaining conditions, or the answer identifies the actual impasse. Future authorization or evidence is not treated as obtained. |
+| CC-C11DUA.7 | The stated continuation is feasible under the current conditions, or the answer identifies the impasse. Future authorization or evidence is not treated as obtained. |
 | CC-C11DUA.8 | Domain inference, choice, ethical and assurance claims retain their direct methods. Explanatory and future-option gains are judged at their receiving horizon. |
 

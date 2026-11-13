@@ -6,12 +6,12 @@ section_id: "G.7:11"
 section_title: "SoTA-Echoing — calibrate a correspondence for its receiving use"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.7/G.7__012_sota-echoing-calibrate-a-correspondence-for-its-receiving-use.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.7 — Cross‑Tradition Bridge Calibration Kit (BridgeMatrix → BridgeCards + BCT/Sentinels)"
   - "G.7:11 — SoTA-Echoing — calibrate a correspondence for its receiving use"
-line_start: 130620
-line_end: 130631
+line_start: 138680
+line_end: 138691
 dependencies:
   - "A.21"
   - "B.3"
@@ -63,5 +63,5 @@ The [OAEI 2025 Conference evaluation](https://oaei.ontologymatching.org/2025/res
 
 **Adapt** the mapping-and-justification line in §4.2.1 and procedure steps 2/6: retain direction, scope and losses, and use a small regression pair whose required distinction changes. In §4.5, VehicleTransportOrder can retain passenger/transport order while losing battery information. The same calibrated relation can therefore support the stated transport comparison and fail the battery-health question. Keeping that distinction prevents a concrete erroneous use that a single favourable summary cannot detect.
 
-At comparable effort, both alternatives start with the same relation row and existing calibration evidence. The selected line adds one named use condition and the smallest counterexample or regression pair that can change the answer. That is extra effort deliberately accepted for reuse across task boundaries; ordinary one-off correspondence handling remains with its direct sense, kind or plane rule when a calibration kit adds no value. SSSOM and OAEI provide the compared technical approaches, not empirical validation of this kit. Reopen when a new receiver needs a distinction outside the row's stated preservation/loss basis, or when a cheaper rule can distinguish those same allowed and failed uses with equivalent support.
+At comparable effort, both alternatives start with the same relation row and existing calibration evidence. The selected line adds one named use condition and the smallest counterexample or regression pair that can change the answer. That is extra effort accepted for reuse across task boundaries; ordinary one-off correspondence handling remains with its direct sense, kind or plane rule when a calibration kit adds no value. SSSOM and OAEI provide the compared technical approaches, not empirical validation of this kit. Reopen when a new receiver needs a distinction outside the row's stated preservation/loss basis, or when a cheaper rule can distinguish those same allowed and failed uses with equivalent support.
 

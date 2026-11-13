@@ -6,12 +6,12 @@ section_id: "C.40.RQ:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.RQ/C.40.RQ__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.40.RQ — Requalify Changed Opportunities"
   - "C.40.RQ:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 88263
-line_end: 88275
+line_start: 92497
+line_end: 92509
 dependencies:
   - "A.10"
   - "A.10.1"
@@ -28,10 +28,10 @@ keywords:
 | --- | --- | --- |
 | New version means redo everything | Identity or formatting substitutes for changed meaning. | Compare the relevant claim and take the cheap stop when its use is unchanged. |
 | The world stayed the same, so the correction is irrelevant | A changed claim can remove warranted support for the same world. | Requalify the receiving assertion that used it. |
-| Follow every link | Citation and adjacency substitute for actual dependence. | Use the direct receiving claim and bounded discovery coverage. |
+| Follow every link | Citation and adjacency substitute for dependence. | Use the receiving claim and bounded discovery coverage. |
 | Not found means unaffected | Inaccessible or unsearched receivers disappear from the conclusion. | Preserve the coverage gap and localize the result. |
 | Narrow the label, keep the old estimate | A whole-use result is silently transferred to a different case mix or configuration. | Use the narrowed candidate's qualified comparison before relying on it; otherwise retain the narrower candidate as conditional. |
 | Correct the advice by rewriting its history | The earlier return can no longer be recovered. | Preserve it and identify the later correction and current reliance limit. |
 | No new observation means no change | Failed observation is treated as a favourable result. | Return the missing evidence and its effect on current reliance. |
-| Updated advice changes the operation | Recommendation is mistaken for an authorized decision or control rule. | Return the question to the actual choice or protection owner. |
+| Updated advice changes the operation | Recommendation is mistaken for an authorized decision or control rule. | Return the question to the choice or protection owner. |
 

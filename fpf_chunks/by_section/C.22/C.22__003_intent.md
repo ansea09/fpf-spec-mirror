@@ -6,12 +6,12 @@ section_id: "C.22:1"
 section_title: "Intent"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22/C.22__003_intent.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.22 — Task Typing and TaskSignature Assignment (Problem-CHR)"
   - "C.22:1 — Intent"
-line_start: 62852
-line_end: 62887
+line_start: 65409
+line_end: 65444
 dependencies:
   - "A.6.0"
   - "C.16"
@@ -38,7 +38,7 @@ Make the task distinctions relevant to a selector decision explicit in a typed `
 
 - `TaskSignature` assignment means one obtaining `TaskSignatureAssignmentRelation` among an exact problem-side episteme, exact TaskSignature, and exact receiving-use episteme; it does not pre-bind a method.
 - `ScopeSlice(G)` means the exact A.2.6 `U.ClaimScope` value used by this declaration; it is not an evidence-path slice, baseline-set slice, container, or assignment participant.
-- `threshold` is not one undifferentiated family here:
+- `threshold` has three distinct uses here:
   - articulation and closure thresholds stay with cue or prompt subject patterns such as `B.4.1` and `B.5.2.0`;
   - acceptance-gate thresholds stay with `G.4`;
   - a work-measure threshold target used in a specialization claim is only the declared success mark for that task family or work target.
@@ -49,7 +49,7 @@ Make the task distinctions relevant to a selector decision explicit in a typed `
 | --- | --- | --- |
 | `TaskSignature` | C.2.1 episteme and species of `U.Signature`; this pattern's primary EntityOfConcern | C.22 governs its A.6.0 direct fields, Vocabulary, Laws, and Applicability; C.2.1 governs constitution; E.17 supplies reader-facing publication forms, and E.24.PUB governs publication and carrier relations. |
 | `ProblemSideEpistemeRef` and `ReceivingUseEpistemeRef` | Participant designations in an assertion or description of `TaskSignatureAssignmentRelation`, not content or identity positions of TaskSignature | C.22.2 or the direct problem-side pattern defines or constrains the first episteme; the receiving-use episteme states the use but does not prove that an assignment obtains. |
-| `TaskKind` | TaskSignature position filled by one exact C.3 `U.Kind` value that types the current task or work target | C.3 governs the kind value; the field does not mint `U.Task`. |
+| `TaskKind` | TaskSignature position filled by one exact C.3 `U.Kind` value that types the current task or work target | C.3 governs the kind value; the field does not introduce `U.Task`. |
 | `TaskFamilyRef` | Optional reference position for the comparison-relevant task family | C.22 and C.22.1 govern task-family anchoring; the reference is not the family or a selected method. |
 | `ProblemProfile` | C.2.1-conformant `U.Episteme` that describes the stabilized problem and may reference the TaskSignature assignment | TaskSignature membership requires its A.6.0 declaration content; the assignment is a separate obtaining relation. One episteme may serve both descriptive uses only when their content and C.2.1 constitution conditions hold. |
 | `ScopeSlice(G)` | Local position whose filler is the exact A.2.6 `U.ClaimScope` value that bounds claims about the exact `EntityOfConcernRef` | A.2.6 governs membership; the position is not an E.18 path slice or a new slice kind. |
@@ -62,7 +62,7 @@ Make the task distinctions relevant to a selector decision explicit in a typed `
 
 A ProblemCard can prepare `TaskKind`, scope, and characteristic bindings for a candidate TaskSignature. Assignment obtains only when one signature is adequate for the named receiving use. If several signatures remain plausible, keep them as candidates under the selection or problem-framing pattern rather than asserting one assignment occurrence.
 
-`TaskSignatureAssignmentRelation` moves no card claim into the TaskSignature. The signature keeps only its A.6.0 declaration content; the card remains the reviewable problem-side episteme that explains why this problem can proceed to characterization, comparison, search, refresh, retirement, or another subject pattern.
+Assigning a TaskSignature does not transfer the card's claims into it. The signature keeps only its A.6.0 declaration content; the card remains the reviewable problem-side episteme that explains why this problem can proceed to characterization, comparison, search, refresh, retirement, or another subject pattern.
 
 The corresponding claims remain with their named subject patterns.
 

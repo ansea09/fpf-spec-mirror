@@ -6,12 +6,12 @@ section_id: "A.17:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.17/A.17__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.17 — Canonical “Characteristic” (A.CHR-NORM): Name What Is Measured"
   - "A.17:4 — Solution"
-line_start: 34324
-line_end: 34359
+line_start: 35804
+line_end: 35839
 dependencies:
   - "A.17"
   - "A.18"
@@ -41,7 +41,7 @@ keywords:
 
 ### A.17:4 - Solution
 
-**Establish “Characteristic” as the one canonical construct for “what is measured.”** In every FPF context, the _aspect or trait_ being measured MUST be referred to as a **Characteristic**. This term replaces “axis” or “dimension” when they are used as names for the measured aspect; Plain aliases must keep that mapping clear. By fixing a single name and schema, we cleanly separate a **Characteristic** from its **Scale** (and **Unit**), and from any observed **Value/Level** on that scale. The solution also differentiates single-entity vs multi-entity cases and binds all measurements to the standard CSLC sequence.
+**Establish “Characteristic” as the one canonical construct for “what is measured.”** In every FPF context, the _aspect or trait_ being measured MUST be referred to as a **Characteristic**. This term replaces “axis” or “dimension” when they are used as names for the measured aspect; Plain aliases must keep that mapping clear. By fixing a single name and schema, we separate a **Characteristic** from its **Scale** (and **Unit**), and from any observed **Value/Level** on that scale. The solution also differentiates single-entity vs multi-entity cases and binds all measurements to the standard CSLC sequence.
 
 **Recover the same aspect.** Identify a Characteristic by the aspect it distinguishes, the domain and arity of its possible subjects, the roles of an ordered subject tuple when relevant, and the conditions constitutive of that aspect. A changed reading, bearer, observation window or description does not by itself define a new Characteristic. A different Scale can express the same aspect through a justified conversion. Conversely, an unchanged name does not preserve the Characteristic if it now distinguishes another aspect or changes the subject roles. Preserve the original definition and establish the correspondence needed by the receiving comparison; unresolved equivalence is not identity. A content evaluation and a physical observation can both use this rule without being the same measurement practice.
 
@@ -71,7 +71,7 @@ To enforce this solution, the following rules apply:
 
 **R17 - State-space use.** When a change model uses a CharacteristicSpace, declare its Characteristics, Scales, any applicable units and admitted combinations under A.19. Add topology, distance or another structure when the inference relies on it.
 
-**R18 - Allowed changes and state recognition.** For a model of change, state the allowed continuations and their conditions through A.3.3. Use a state predicate or checklist when the receiving use needs to recognize a condition. A.2.5 governs the particular case of a condition on an assignment to a system role; a gate or assurance use supplies its own required support.
+**R18 - Allowed changes and state recognition.** For a model of change, state the allowed continuations and their conditions through A.3.3. Use a state predicate or checklist when the receiving use needs to recognize a condition. A.2.5 governs the case of a condition on an assignment to a system role; a gate or assurance use supplies its own required support.
 
 **I7 — Vector interpretation.** A vector may collect multiple Scale-specific Coordinates for multi‑Characteristic reasoning; composition into a single Score, if desired, requires an explicitly identified applicable **ScoringMethod 𝒢** on that vector.
 

@@ -6,21 +6,19 @@ section_id: "A.8:5"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.8/A.8__014_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.8 — Universal Core Principle: Test a U-Kind Across Domains"
   - "A.8:5 — Relations"
-line_start: 26555
-line_end: 26560
+line_start: 27545
+line_end: 27552
 dependencies:
   - "A.11"
   - "C.3"
   - "C.3.1"
   - "E.24.UK"
-  - "F.17"
   - "F.18"
   - "F.8"
-  - "F.9"
 keywords:
   - "domain-agnostic"
   - "kernel-level U-kind admission"
@@ -31,6 +29,8 @@ keywords:
 ### A.8:5 - Relations
 
 - **Builds on:** `E.24.UK`, `A.11`, `C.3`, `C.3.1`, `F.8`, and `F.18`.
-- **Coordinates with:** Concept-Set and F.18 for naming domain-family projections after the ontic question is settled. Use F.9 only for a cross-local semantic-correspondence claim in comparison, naming or translation: resolve two exact F.17 `SchemeSenseCell` values with different semantic-context projections and test the F.9 predicate under its profile, applicability and dependency conditions. State any proposed use of an obtaining Bridge in a separate bounded-use claim. Ordinary designation or an already shared meaning follows its direct rule.
+- **Coordinates with:** Concept-Set and F.18 for naming domain-family projections after the ontic question is settled.
+
+  Use F.9 only for a cross-local semantic-correspondence claim in comparison, naming or translation: resolve two F.17 `SchemeSenseCell` values with different semantic-context projections and test the F.9 predicate under its profile, applicability and dependency conditions. State any proposed use of an obtaining Bridge in a separate bounded-use claim. Ordinary designation or an already shared meaning follows its direct rule.
 - **Does not replace:** `E.24.UK` for U-kind admission, `A.11` for parsimony, or `C.3` for typed claim quantification.
 

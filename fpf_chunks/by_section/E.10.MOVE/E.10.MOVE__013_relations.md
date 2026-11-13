@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.10.MOVE"
-pattern_title: "Move, Readiness and Trajectory Wording Precision Restoration"
+pattern_title: "Clarify Wording About Moves, Readiness and Trajectories"
 section_id: "E.10.MOVE:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.MOVE/E.10.MOVE__013_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "E.10.MOVE — Move, Readiness and Trajectory Wording Precision Restoration"
+  - "E.10.MOVE — Clarify Wording About Moves, Readiness and Trajectories"
   - "E.10.MOVE:12 — Relations"
-line_start: 101538
-line_end: 101543
+line_start: 107249
+line_end: 107254
 dependencies:
   - "A.1.STM"
   - "A.10"
@@ -55,5 +55,5 @@ keywords:
 
 - **Builds on:** `F.19`, `E.10`, `E.10.ARCH`, `A.3.4.P`, `A.22.CGUS`, `E.11.PUA`, `E.11.PUR`, `E.23`, `A.15.5`, and `E.24`.
 - **Coordinates with:** `E.11.PUA` for the `PatternUsePracticeContinuationDescription@Context` shown by a qualified practice continuation; `E.11.PUR` for `PatternUseCoordination@Context`, one `PatternUseOrderingRelation@Context`, or the bounded total-order `PatternUseSequence@Context`; `E.10.DEV` when development or evolution wording and trajectory wording carry independent ambiguities; `A.1.STM` for connected system-thinking project reasoning and its long-mantra reminder; `A.3.3`, `A.3.4`, `A.3.4.P`, `B.4`, `C.27.TA`, `C.29`, `C.17`–`C.19`, `C.22.2`, `C.11`, A.15.2, `C.36`, and `A.16.0` for trajectory exits; and `E.18`, `E.18.1`, `A.15`, `A.21`, `C.24`, `C.30`, `E.17`, `F.17`, `F.18`, `G.11`, A.10, and each recovered value's direct subject pattern. `F.18` governs a durable-name decision; `G.11` governs refresh orchestration only when currentness, edition, telemetry, freshness, or decay is the actual claim.
-- **Selected by:** E.10 compact routing when move, readiness, route, path, or trajectory wording still has an unresolved FPF-governed use after the `F.19` reading and no direct subject pattern has already resolved it.
+- **Selected by:** E.10 compact routing when move, readiness, route, path, or trajectory wording still has an unresolved FPF-governed use after the `F.19` reading and no direct subject pattern has resolved it.
 

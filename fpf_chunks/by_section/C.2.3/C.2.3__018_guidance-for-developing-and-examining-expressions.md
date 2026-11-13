@@ -6,12 +6,12 @@ section_id: "C.2.3:17"
 section_title: "Guidance for developing and examining expressions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.3/C.2.3__018_guidance-for-developing-and-examining-expressions.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.2.3 — Formality of an Episteme"
   - "C.2.3:17 — Guidance for developing and examining expressions"
-line_start: 53357
-line_end: 53370
+line_start: 55582
+line_end: 55595
 dependencies:
   - "A.16"
   - "A.18"
@@ -43,9 +43,9 @@ Make the expression sufficient for its intended use. State a remaining ambiguity
 
 #### C.2.3:17.2 - For reviewers
 
-Read the assessed claim or argument and its actual expression. Check its terms, predicates, semantics and required inferences, including essential connections. Recover the basis for any claimed checking result. Keep missing expression, missing proof, weak empirical support and inadequate readability distinct, because they call for different repairs. A complete template or named tool answers none of those questions alone.
+Read the assessed claim or argument and its expression. Check its terms, predicates, semantics and required inferences, including essential connections. Recover the basis for any claimed checking result. Keep missing expression, missing proof, weak empirical support and inadequate readability distinct, because they call for different repairs. A complete template or named tool answers none of those questions alone.
 
 #### C.2.3:17.3 - For integrators and assurance leads
 
-State the expression properties a receiving operation consumes. For a composition or transfer, establish their preservation through its actual connections. Reuse a declared local scale when it captures those needs; retain the underlying meaning when several participants use different scales. Apply separate scope, evidence, authority and language-state conditions where they matter.
+State the expression properties a receiving operation consumes. For a composition or transfer, establish their preservation through its connections. Reuse a declared local scale when it captures those needs; retain the underlying meaning when several participants use different scales. Apply separate scope, evidence, authority and language-state conditions where they matter.
 

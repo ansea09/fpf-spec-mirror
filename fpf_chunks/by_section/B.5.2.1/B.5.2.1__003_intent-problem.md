@@ -6,12 +6,12 @@ section_id: "B.5.2.1:2"
 section_title: "Intent & Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.1/B.5.2.1__003_intent-problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.5.2.1 — Instrument Abductive Hypothesis Generation with Novelty–Quality–Diversity (NQD)"
   - "B.5.2.1:2 — Intent & Problem"
-line_start: 50133
-line_end: 50138
+line_start: 52201
+line_end: 52206
 dependencies:
   - "A.17"
   - "A.18"
@@ -28,7 +28,7 @@ keywords:
 
 ### B.5.2.1:2 - Intent & Problem
 
-**Intent.** Use this pattern when the explanatory question needs explicit, instrumented exploration of candidate quality and variety. Declare the generation Method, comparison Characteristics and exploration policy; construct candidates and identify those worth pursuing. A declared equivalent generator may supply the construction. Use B.5.2 directly when ordinary generation and plausibility comparison suffice.
+**Intent.** Use this pattern when the explanatory question needs instrumented exploration of candidate quality and variety. Declare the generation Method, comparison Characteristics and exploration policy; construct candidates and identify those worth pursuing. A declared equivalent generator may supply the construction. Use B.5.2 directly when ordinary generation and plausibility comparison suffice.
 
 **Problem.** Candidate generation can produce too little variety to expose meaningful rivals, or candidates without interpretable implications. **B.5.2** addresses these failures; this method makes candidate construction and comparison explicit through declared operations and Characteristics.
 

@@ -6,12 +6,12 @@ section_id: "E.23.CAE:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23.CAE/E.23.CAE__010_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.23.CAE — Capability Access and Expression Differential Probe"
   - "E.23.CAE:9 — Consequences"
-line_start: 115829
-line_end: 115843
+line_start: 123182
+line_end: 123196
 dependencies:
   - "A.15.7"
   - "A.15.8"
@@ -26,7 +26,7 @@ keywords:
 
 ### E.23.CAE:9 - Consequences
 
-The pattern reduces premature retraining, redesign, procedure rewrite, and parameter updating by making still-available responses observable before a capability claim is revised. It also returns smaller questions: configuration recovery, applicability selection, access or activation, adaptation, enactment, development, claim revision, or honest uncertainty.
+The pattern reduces premature retraining, redesign, procedure rewrite, and parameter updating by making still-available responses observable before a capability claim is revised. It also returns smaller questions: configuration recovery, applicability selection, access or activation, adaptation, enactment, development, claim revision, or the uncertainty the available evidence leaves unresolved.
 
 The cost is a qualified reference basis, controlled contrast, explicit claim boundary, and possible protected replay or simulation. Context dimensions can be coupled, reference evidence can be stale, and the probe can change the holder. A narrow unresolved result is therefore a successful outcome when the available evidence cannot support a stronger distinction.
 

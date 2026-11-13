@@ -6,12 +6,12 @@ section_id: "G.7:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.7/G.7__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.7 — Cross‑Tradition Bridge Calibration Kit (BridgeMatrix → BridgeCards + BCT/Sentinels)"
   - "G.7:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 130593
-line_end: 130607
+line_start: 138653
+line_end: 138667
 dependencies:
   - "A.21"
   - "B.3"
@@ -62,7 +62,7 @@ keywords:
 * **Plane blindness (“concept = world”).**
   **Avoid:** identify the actual plane relation, its rule and evidence; record policy pins when that use consumes them, keeping plane effects separate from CL/CL^k semantics.
 * **CL smoothing / averaging.**
-  **Avoid:** establish the common scale and calibration question before taking a minimum; retain actual counterexamples and losses, and keep the receiving decision separate.
+  **Avoid:** establish the common scale and calibration question before taking a minimum; retain the counterexamples and losses, and keep the receiving decision separate.
 * **Pack‑wide refresh on a local bridge edit.**
   **Avoid:** register sentinels for the watched path or pattern scopes and emit typed RSCR triggers with the changed basis and affected-use scope. G.11 follows the actual dependencies.
 * **QD metric drift by unpinned artefacts.**

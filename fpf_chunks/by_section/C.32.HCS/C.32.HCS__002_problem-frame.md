@@ -6,12 +6,12 @@ section_id: "C.32.HCS:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.HCS/C.32.HCS__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.32.HCS — Architecture-Bearing Family Characteristic Starter Packs"
   - "C.32.HCS:1 — Problem frame"
-line_start: 77292
-line_end: 77351
+line_start: 81121
+line_end: 81180
 dependencies:
   - "A.19"
   - "C.11"
@@ -40,13 +40,13 @@ keywords:
 
 Use this pattern when a practitioner must choose a few architecture-characteristic starter heads for a described holon or for method, system-role-assignment, work, evidence, or cultural-evolution structures recovered from a source label, and the available catalogues are too broad to choose the first project criteria rows.
 
-Primary working reader: an architect or architecture-responsible practitioner choosing a small first set of architecture-characteristic heads for an admitted holon family or another recovered architecture-bearing family, after naming the described holon or source-bearing episteme or publication context and any recovery patterns actually used.
+Primary working reader: an architect or architecture-responsible practitioner choosing a small first set of architecture-characteristic heads for an admitted holon family or another recovered architecture-bearing family, after naming the described holon or source-bearing episteme or publication context and any recovery patterns used.
 
 Typical entry phrases:
 
 ```text
 "The source catalogue has hundreds of quality names; which few heads should we inspect first?"
-"The source calls this a review practice or method; what described holon, method-side structure, work family, and system-role side are actually under pressure?"
+"The source calls this a review practice or method; what described holon, method-side structure, work family, and system-role side are under pressure?"
 "A system-role assignment, organization, built asset, or evidence workflow has reliability-like pressure, but the bearer and scale are unclear."
 ```
 
@@ -76,7 +76,7 @@ ArchitectureBearingFamilyCharacteristicStarterPack@FPF:
   criteriaRowPatternRef: C.32.ACS
 ```
 
-Use `describedHolonRef` when the starter heads concern an exact holon. Use `presentationCarrierRef` only when the carrier itself changes how the starter pack is presented or used; do not fill it as a substitute for the described holon.
+Use `describedHolonRef` when the starter heads concern a particular holon. Use `presentationCarrierRef` only when the carrier itself changes how the starter pack is presented or used; do not fill it as a substitute for the described holon.
 
 A copied quality catalogue can hide what bears the characteristic, especially when software-module names are applied to a Method, organization, built asset or evidence workflow. Recover that object before narrowing the heads.
 

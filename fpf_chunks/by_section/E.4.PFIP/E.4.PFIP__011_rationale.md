@@ -6,12 +6,12 @@ section_id: "E.4.PFIP:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFIP/E.4.PFIP__011_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.4.PFIP — Principle-Framework Publication Integration and Preservation"
   - "E.4.PFIP:10 — Rationale"
-line_start: 96297
-line_end: 96304
+line_start: 101491
+line_end: 101498
 dependencies:
   - "C.2.1"
   - "C.33"
@@ -29,9 +29,9 @@ keywords:
 
 ### E.4.PFIP:10 - Rationale
 
-FPF, DPF, and LPF publications share the same integration problem. Accepted source carry-through and predecessor preservation answer different questions; when both are claimed, neither implies the other.
+FPF, DPF, and LPF publications share the same integration problem. Accepted source carry-through and predecessor preservation answer different questions. When both are claimed, neither implies the other.
 
-`E.24.PUB` distinguishes edition, expression, form, carrier, audience, use, and publication occurrence. `E.17` supplies the method for reader-facing plurality. `C.33` and `C.34` define captured, lost, and corresponding selected structure. Independently redefining those distinctions here would create a second publication ontology. The integration method uses these existing distinctions together.
+`E.24.PUB` distinguishes edition, expression, form, carrier, audience, use, and publication occurrence. `E.17` explains how to provide several reader-facing forms. `C.33` and `C.34` define captured, lost, and corresponding selected structure. Redefining those distinctions here would create a second publication ontology. The integration method uses these existing distinctions together.
 
 The one-to-one and allocation branches remain separate because they answer different correspondence questions. A pair compares two expressions. An allocation traverses several named expressions without inventing a collective expression or treating a form decision as a content decision.
 

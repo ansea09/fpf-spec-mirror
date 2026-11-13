@@ -6,12 +6,12 @@ section_id: "F.9:6"
 section_title: "Bridge kinds"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__008_bridge-kinds.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.9 — Relate Local Meanings across Contexts (Alignment and Bridge)"
   - "F.9:6 — Bridge kinds"
-line_start: 121333
-line_end: 121355
+line_start: 129013
+line_end: 129035
 dependencies:
   - "A.10"
   - "A.13"
@@ -67,7 +67,7 @@ A Bridge kind classifies the direct semantic relation tested by a profile. It sa
 4. **Partial-overlap** - the senses have a non-empty intersection, while each has cases excluded by the other. The relation is symmetric.
 5. **Disjoint** - the senses have no common admissible case under the stated readings. The relation is symmetric.
 
-For inclusion, a narrower-to-broader proposed use is usually easier to justify than the reverse, but neither direction follows from the relation alone. A broader-to-narrower proposal normally needs refined endpoint cells and a separately tested Bridge plus a separately warranted bounded-use claim.
+For inclusion, a narrower-to-broader proposed use is usually easier to justify than the reverse, but neither direction follows from the relation alone. State and warrant the bounded-use claim for a proposed broader-to-narrower use separately. If it needs narrower endpoint meanings to succeed, refine the cells and test the resulting Bridge. A reverse use can also be ruled out on the existing Bridge.
 
 #### F.9:6.2 - Cross-family relation kinds
 

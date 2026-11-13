@@ -6,12 +6,12 @@ section_id: "C.39:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39/C.39__012_sota-echoing.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.39 — Find and Develop a Way to Obtain a Result"
   - "C.39:11 — SoTA-Echoing"
-line_start: 82932
-line_end: 82944
+line_start: 86974
+line_end: 86986
 dependencies:
   - "A.22.CGUS"
   - "A.3.1"
@@ -32,7 +32,7 @@ keywords:
 ---
 
 ### C.39:11 - SoTA-Echoing
-For construction and connection beyond retrieval, compare actual operations and assumptions. [Stacey et al. (2025), §§2.4 and 4.4](https://doi.org/10.1017/dsj.2025.9) explain method knowledge as explicit how-to knowledge that connects inputs, reasoning and outputs while relying on its users and context. **Adapt** that connected explanation in §§4.3 and 4.5; keep the FPF distinctions among Method, description and Work. The source's situated method-in-use terminology is not adopted as an identification of these objects.
+For construction and connection beyond retrieval, compare operations and assumptions. [Stacey et al. (2025), §§2.4 and 4.4](https://doi.org/10.1017/dsj.2025.9) explain method knowledge as explicit how-to knowledge that connects inputs, reasoning and outputs while relying on its users and context. **Adapt** that connected explanation in §§4.3 and 4.5; keep the FPF distinctions among Method, description and Work. The source's situated method-in-use terminology is not adopted as an identification of these objects.
 
 [OMG Essence 2.0 beta2](https://www.omg.org/spec/Essence/2.0/Beta2/PDF) is a concrete alternative when practices represented in its language can be composed using its common elements and merging rules. **Use** such qualified domain machinery where it answers the receiving problem. The general branch here also permits independently sourced operations and ordinary descriptions; their shared words or source units do not establish valid Method composition.
 

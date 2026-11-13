@@ -6,12 +6,12 @@ section_id: "A.6.B:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__005_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:3 — Forces"
-line_start: 14701
-line_end: 14709
+line_start: 15156
+line_end: 15164
 dependencies:
   - "A.10"
   - "A.2.3"
@@ -48,7 +48,7 @@ keywords:
   - "The key words MUST"
   - "accountable norms and grants"
   - "actual exercise"
-  - "an individual-duty D- claim MUST name its actual bearer and exact separately obtaining U.Commitment"
+  - "an individual-duty D- claim MUST name its actual bearer and separately obtaining U.Commitment"
   - "and SHALL have their RFC 2119/8174 meanings only when capitalized as shown"
   - "and evaluated results distinct"
   - "as if it were an agent obligation"
@@ -79,7 +79,7 @@ keywords:
 | Force                              | Tension                                                                                        |
 | ---------------------------------- | ---------------------------------------------------------------------------------------------- |
 | **Precision vs readability**       | Predicate‑style constraints reduce ambiguity; narrative helps adoption.                        |
-| **Evolvability vs enforceability** | Stable laws should not embed volatile runtime gates; governance still needs enforcement hooks. |
+| **Evolvability vs enforceability** | Stable laws should not embed volatile runtime gates; governance needs enforcement hooks. |
 | **Auditability vs simplicity**     | Evidence makes claims adjudicable; evidence also introduces operational design obligations.    |
 | **Local meaning vs reuse**         | Boundaries must be local; reuse must be explicit via IDs and references, not duplicated prose. |
 

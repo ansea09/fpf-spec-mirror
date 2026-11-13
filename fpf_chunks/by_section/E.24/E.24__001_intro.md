@@ -6,12 +6,12 @@ section_id: "E.24:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24/E.24__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.24 — U.Ontic and Ontic Introduction Discipline"
   - "E.24:intro — Intro"
-line_start: 115885
-line_end: 115890
+line_start: 123240
+line_end: 123245
 dependencies:
   - "A.19.ECS"
   - "A.6.0"
@@ -44,5 +44,5 @@ keywords:
 
 > **Type:** Part E FPF authoring discipline pattern
 > **Status:** Stable
-> **Normativity:** Normative unless a section is explicitly informative
+> **Normativity:** Normative unless a section is marked informative
 

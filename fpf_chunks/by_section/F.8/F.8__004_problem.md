@@ -6,12 +6,12 @@ section_id: "F.8:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__004_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision for a Name"
   - "F.8:2 — Problem"
-line_start: 120781
-line_end: 120791
+line_start: 128435
+line_end: 128445
 dependencies:
   - "A.11"
   - "A.15"
@@ -62,7 +62,7 @@ keywords:
 
 ### F.8:2 - Problem
 
-Without this pattern:
+When a project skips that decision, these errors can arise.
 
 1. **Local or source wording becomes durable ontology.** A temporary phrase or familiar standard term survives without a recovered subject and use.
 2. **Role-like wording collapses different objects.** A local system-role kind, its optional F.4 description, an A.2.1 assignment, performed Work, or another governed relation receives one misleading label.

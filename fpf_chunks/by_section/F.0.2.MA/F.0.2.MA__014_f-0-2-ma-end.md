@@ -6,12 +6,12 @@ section_id: "F.0.2.MA:End"
 section_title: "F.0.2.MA:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2.MA/F.0.2.MA__014_f-0-2-ma-end.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.0.2.MA — Synthesize and Allocate Method Contributions"
   - "F.0.2.MA:End — F.0.2.MA:End"
-line_start: 118388
-line_end: 118389
+line_start: 125980
+line_end: 125981
 dependencies:
   - "A.3.1.DR"
   - "A.3.1.MR"

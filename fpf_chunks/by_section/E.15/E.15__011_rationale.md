@@ -6,12 +6,12 @@ section_id: "E.15:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.15/E.15__011_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.15 — Pattern Change, Edition Continuity, and Impact Analysis"
   - "E.15:10 — Rationale"
-line_start: 105791
-line_end: 105798
+line_start: 112258
+line_end: 112265
 dependencies:
   - "C.18"
   - "C.19"
@@ -32,9 +32,9 @@ keywords:
 
 ### E.15:10 - Rationale
 
-The architecture is deliberately asymmetric. The common case receives a short path because extra alternatives and records cannot improve an already understood bounded repair. The strong branch remains because architecture, ontology, and current-source decisions sometimes have several non-dominated answers.
+The two routes are asymmetric. The common case receives a short path because extra alternatives and records cannot improve an already understood bounded repair. The strong branch remains because architecture, ontology, and current-source decisions sometimes have several non-dominated answers.
 
 Exact predecessor comparison and affected-reach analysis work together. The predecessor prevents history from being rewritten; actual dependency prevents an edition label from reopening everything. Independent preservation probes answer a different question from an author's change explanation: they test what the explanation may have omitted.
 
-Delta-Class stays useful as a compact impact signal, but only after the real change is known. E.21/E.22 own pattern quality, E.9 owns content decisions, E.19 owns review, and lifecycle patterns own publication and landing. E.15 connects these results without duplicating them.
+Delta-Class stays useful as a compact impact signal, but only after the change is established. E.21/E.22 own pattern quality, E.9 owns content decisions, E.19 owns review, and lifecycle patterns own publication and landing. E.15 connects these results without duplicating them.
 

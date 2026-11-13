@@ -6,12 +6,12 @@ section_id: "A.21:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.21/A.21__005_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.21 — Gate Decisions from Independent Check Results"
   - "A.21:3 — Forces"
-line_start: 39863
-line_end: 39872
+line_start: 41441
+line_end: 41450
 dependencies:
   - "A.10"
   - "A.15.5"
@@ -39,6 +39,6 @@ keywords:
 | One usable decision | The practitioner needs one action, while every contributing result must remain recoverable. |
 | Order independence | Evaluation order should not change the decision, but early failure may justify deferring expensive work. |
 | Policy flexibility | Different profiles may react differently, but no implicit default or path boundary may supply policy authority. |
-| Plain entry | “Worst result wins” is easy to use, while exact result and rule identities are needed for replay. |
+| Plain entry | “Worst result wins” is easy to use, while result and rule identities are needed for replay. |
 | Conditional assurance | Crossing, publication, regulation, safety, and reuse can need more evidence, but ordinary local use should stop earlier. |
 

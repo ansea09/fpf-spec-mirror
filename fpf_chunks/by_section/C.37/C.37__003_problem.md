@@ -6,12 +6,12 @@ section_id: "C.37:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37/C.37__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.37 — Select and Use Representations for One Action"
   - "C.37:2 — Problem"
-line_start: 81731
-line_end: 81744
+line_start: 85722
+line_end: 85735
 dependencies:
   - "A.10"
   - "A.2.4"
@@ -40,9 +40,9 @@ keywords:
 
 Representations are useful because they foreground different things. A workflow diagram may expose order while hiding effort. A work plan may expose intended timing while saying nothing about actual performance. A work record may expose an observed breakdown while saying nothing about whether a proposed change will repair it. A graph may support traversal or calculation while omitting distinctions needed by a receiving decision.
 
-The practical question is therefore not “which representation is best?” It is “which exact candidate result may this receiver use for this action, for which claim, under which limits, and what direct result makes that use available?”
+The practical question is therefore not “which representation is best?” It is “which candidate result may this receiver use for this action, for which claim, under which limits, and what result makes that use available?”
 
-Five recurrent shortcuts make the answer unsafe:
+Five recurrent shortcuts substitute other facts for the grounds the use requires:
 
 1. **Object shortcut.** A label such as *diagram*, *view*, *model*, *graph*, or *record* substitutes for the direct result that identifies the candidate and its subject-side claim.
 2. **Classification shortcut.** An A.2.4 intended first evidence-use classification is treated as evidence sufficiency or permission.

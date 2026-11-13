@@ -6,12 +6,12 @@ section_id: "F.13:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.13/F.13__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.13 — Lexical Continuity & Deprecation"
   - "F.13:intro — Intro"
-line_start: 122775
-line_end: 122784
+line_start: 130548
+line_end: 130558
 dependencies:
   - "F.1"
   - "F.17"
@@ -38,6 +38,7 @@ keywords:
 **Type:** Architectural pattern.
 
 > **Status:** Stable
+
 **Builds on:** F.1 **Question-Relative Source Selection**; F.2 **source-local term harvesting**; F.3 **source-local sense clustering**; F.5 **naming discipline**; F.7 **Concept-Set comparison displays**; F.8 **mint-or-reuse for a name**; F.9 **sense relations and bounded uses**; F.17 **exact cell and row identity**; F.18 **naming settlement and lineage**.
 **Coordinates with.** Part C CALs when canon editions change (Sys/KD/Type/Method/LCA).
 **Boundary.** Shared names establish no Cross-context equivalence. Preserve the wording of earlier texts.

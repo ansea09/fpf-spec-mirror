@@ -6,12 +6,12 @@ section_id: "B.1.6:3"
 section_title: "Optional Gamma_work Notation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__006_optional-gamma-work-notation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.1.6 — Work-Resource Aggregation"
   - "B.1.6:3 — Optional Gamma_work Notation"
-line_start: 43207
-line_end: 43217
+line_start: 44927
+line_end: 44937
 dependencies:
   - "A.1"
   - "A.10"
@@ -49,5 +49,5 @@ Gamma_work(workResourceAggregationRecord, resourceBasis, aggregationPolicy)
   -> aggregationResultRef [, aggregationResultEpistemeRef when required by the receiving claim or use]
 ```
 
-The notation summarizes an aggregation whose required basis has been recovered: resource Characteristics and input-value grounds; included accounting subjects and any Work-part, temporal-overlap, resource-use or stock relations used by the account; a non-Work carrier phase's identity and `PhaseOf` grounds when that phase is included; accounting scope, time basis and operative rules; and the typed result with its qualifications. Any deliberately asserted measurement or aggregation Work keeps its independent occurrence grounds. The notation adds none of those facts.
+The notation summarizes an aggregation whose required basis has been recovered: resource Characteristics and input-value grounds; included accounting subjects and any Work-part, temporal-overlap, resource-use or stock relations used by the account; a non-Work carrier phase's identity and `PhaseOf` grounds when that phase is included; accounting scope, time basis and operative rules; and the typed result with its qualifications. Any asserted measurement or aggregation Work keeps its independent occurrence grounds. The notation adds none of those facts.
 

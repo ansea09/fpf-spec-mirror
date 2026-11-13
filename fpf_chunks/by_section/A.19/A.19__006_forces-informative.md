@@ -6,12 +6,12 @@ section_id: "A.19:4"
 section_title: "Forces (Informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19/A.19__006_forces-informative.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.19 — CharacteristicSpace: Coordinates, State Predicates and Dynamics Hook (A.CHR‑SPACE)"
   - "A.19:4 — Forces (Informative)"
-line_start: 34672
-line_end: 34680
+line_start: 36152
+line_end: 36160
 dependencies:
   - "A.10"
   - "A.15"
@@ -54,6 +54,6 @@ keywords:
 - **F2 - Transdisciplinarity with lexical clarity.** Quantitative, qualitative, intrinsic, and relational characteristics must compose without replacing the canonical A.17-A.18 vocabulary.
 - **F3 - Minimal core with explicit overlays.** Order, topology, distance, normalization, scalarization, and aggregation are available only when declared under their subject patterns.
 - **F4 - Predicate reuse without consumer collapse.** One semantic predicate should be reusable across state, comparison, acceptance, selection, and improvement uses, while each use retains the scope, slice, plane, window, evaluation, result and evidence relations that it requires.
-- **F5 - Safe composition.** Projection, embedding, product, and declared coordinate transport must preserve exact coordinate and scale meaning and make losses explicit. Any semantic Bridge or plane relation remains separate from coordinate transport and is cited only by a consumer that needs it.
+- **F5 - Composition.** Projection, embedding, product, and declared coordinate transport must preserve coordinate and scale meaning and make losses explicit. Any semantic Bridge or plane relation remains separate from coordinate transport and is cited only by a consumer that needs it.
 - **F6 - Ordinary usability.** An engineer should be able to state a space and criterion without first creating a publication record, evaluation occurrence, or generic result relation.
 

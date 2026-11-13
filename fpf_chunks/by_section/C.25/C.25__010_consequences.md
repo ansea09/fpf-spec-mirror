@@ -6,33 +6,21 @@ section_id: "C.25:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.25/C.25__010_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.25 — Q-Bundle: Express a Quality Claim as One Characteristic or a Structured Bundle"
   - "C.25:9 — Consequences"
-line_start: 65091
-line_end: 65099
+line_start: 68009
+line_end: 68017
 dependencies:
-  - "A.10"
   - "A.15"
-  - "A.16.0"
   - "A.18"
   - "A.2.6"
   - "A.6.1"
   - "B.3"
   - "C.16"
-  - "C.16.P"
   - "C.16.Q"
-  - "C.17"
-  - "C.18"
-  - "C.19"
-  - "C.2.2a"
   - "C.26.3"
-  - "C.33"
-  - "C.34"
-  - "C.35"
-  - "F.9"
-  - "F.9.1"
 keywords:
   - "admissible quality-family use"
   - "characteristic plus scope"
@@ -50,8 +38,8 @@ keywords:
 
 | Benefit | Trade-off / Mitigation |
 |---|---|
-| **Category hygiene.** Scope, measurement, mechanism, and status no longer collapse into one term. | Slightly heavier authoring structure; mitigation: only composite cases need a bundle, and immaterial optional slots remain absent. |
+| **Category distinctions.** Scope, measurement, mechanism, and status no longer collapse into one term. | Slightly heavier authoring structure; mitigation: only composite cases need a bundle, and immaterial optional slots remain absent. |
 | **Portable comparison.** CHR measures compare legally, while scope remains governed by USM set algebra. | Authors must declare scales and scope explicitly. |
-| **Cleaner gating.** Method/work guards can read the same structure without hidden semantics. | Requires discipline in separating guard factors. |
-| **Better endpoint classification.** `C.16.Q` can terminate in either one characteristic or one Q-Bundle with a clear endpoint pattern. | Requires a first-pass endpoint decision during authoring. |
+| **Shared guard structure.** Method/work guards can read the same structure without hidden semantics. | Requires discipline in separating guard factors. |
+| **Endpoint classification.** `C.16.Q` can terminate in either one characteristic or one Q-Bundle with a clear endpoint pattern. | Requires a first-pass endpoint decision during authoring. |
 

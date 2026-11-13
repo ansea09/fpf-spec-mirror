@@ -6,12 +6,12 @@ section_id: "C.22.2:6"
 section_title: "Characterization, Indicators, and Comparability"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__007_characterization-indicators-and-comparability.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:6 — Characterization, Indicators, and Comparability"
-line_start: 63949
-line_end: 63966
+line_start: 66681
+line_end: 66698
 dependencies:
   - "A.10"
   - "A.15"
@@ -60,7 +60,7 @@ keywords:
 
 State the characterization and comparison basis when the formulation or next use depends on it. A card that only preserves a signal or proposes an inquiry can finish without a measurement or parity account.
 
-The heavy content stays with existing FPF patterns:
+These FPF patterns supply the relevant subject content:
 
 - `C.16` carries measurement characterization, backing, and comparability discipline;
 - `A.19` carries characteristic, scale, unit, polarity, and indicator-use discipline;
@@ -72,5 +72,5 @@ The heavy content stays with existing FPF patterns:
 
 Missing characterization or parity relation is a current disposition. When that relation is current, apply the characterization, parity, search, or pool pattern before treating the problem as ready for P2W.
 
-The `C.22.2` candidate acceptance criterion separates functional check, constraint compliance, risk or safety boundary, parity or comparison relation, and freshness window when those relations are current. Comparison frame, CG-Spec, or comparability governance is governed by `G.0`. Acceptance clauses and acceptance threshold predicates apply `G.4`; `C.22.2` may name only the needed relation, cue, or reference. Passing a test, improving one observed indicator value, or naming an acceptance phrase is not by itself sufficient for P2W use.
+The `C.22.2` candidate acceptance criterion separates functional check, constraint compliance, risk or safety boundary, parity or comparison relation, and freshness window when those relations are current. Apply `G.0` for the comparison frame, CG-Spec, or comparability governance. Acceptance clauses and acceptance threshold predicates apply `G.4`; `C.22.2` may name only the needed relation, cue, or reference. Passing a test, improving one observed indicator value, or naming an acceptance phrase is not by itself sufficient for P2W use.
 

@@ -6,12 +6,12 @@ section_id: "C.39:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39/C.39__013_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.39 — Find and Develop a Way to Obtain a Result"
   - "C.39:12 — Relations"
-line_start: 82945
-line_end: 82962
+line_start: 86987
+line_end: 87004
 dependencies:
   - "A.22.CGUS"
   - "A.3.1"
@@ -46,6 +46,6 @@ C.39.MC continues a connected Method-development question after a result or chan
 - E.4.CM applies this general Method construction, connected explanation and change to authoring framework content. E.8 governs the pattern form used in that application; neither is required for an ordinary practical description.
 - C.30.ASV selects the relevant structural views; C.32.MWA relates Methods, performance, support and development for a practical architecture decision.
 - B.1.5 qualifies Method composition; B.1.5.EW and B.1.5.RS develop enactment and replacement. A.22.CGUS develops the currently available continuations and their conditions.
-- A.10 governs a stronger evidence or reliance claim. A.3.1 and A.3.2 distinguish a Method from its description when that distinction is current.
+- A.10 governs a stronger evidence or reliance claim. A.3.1 and A.3.2 distinguish a Method from its description when that distinction is at issue.
 - C.11 supports a local choice about the next inquiry or use. The direct professional Method supplies realization and its subject-specific checks.
 

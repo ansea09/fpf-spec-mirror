@@ -6,12 +6,12 @@ section_id: "D.2:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.2/D.2__013_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "D.2 — Recognize Ethical Concerns Across Levels and Scopes (Multilevel Ethics)"
   - "D.2:9 — Rationale"
-line_start: 91789
-line_end: 91792
+line_start: 96281
+line_end: 96284
 dependencies:
   - "A.1"
   - "A.15"

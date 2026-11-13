@@ -6,12 +6,12 @@ section_id: "C.22.2:22"
 section_title: "First Practical Entry Aid"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__023_first-practical-entry-aid.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:22 — First Practical Entry Aid"
-line_start: 64281
-line_end: 64306
+line_start: 67029
+line_end: 67056
 dependencies:
   - "A.10"
   - "A.15"
@@ -80,5 +80,7 @@ Direct-entry cues that are not `C.22.2`:
 
 First-use Thin-card test:
 
-Aim for a Thin card that fits on one page when only the core content is needed. Use `2.1` to recover: signal; one joint EntityOfConcern, effective ReferenceScheme, and ClaimScope; exact claim family; not-wish or not-preselected-Work reason; improvement check or acceptance probe when needed; and one honest governed next use. That use may be `P2W-ready`, characterize, compare or parity, search or pool, refresh, retire, `abstainOrNoChange`, or apply the FPF pattern that defines or constrains the claim, relation, or boundary outside the card.
+Aim for a Thin card that fits on one page when only the core content is needed. Use `2.1` to recover: signal; one joint EntityOfConcern, effective ReferenceScheme, and ClaimScope; claim family; not-wish or not-preselected-Work reason; improvement check or acceptance probe when needed; and one governed next use.
+
+That use may be `P2W-ready`, characterize, compare or parity, search or pool, refresh, retire, `abstainOrNoChange`, or apply the FPF pattern that defines or constrains the claim, relation, or boundary outside the card.
 

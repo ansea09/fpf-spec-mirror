@@ -6,12 +6,12 @@ section_id: "A.16.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.16.1 — PreArticulationCuePack: Preserve an Early Cue Before Choosing Its Use"
   - "A.16.1:4 — Solution"
-line_start: 33924
-line_end: 33980
+line_start: 35404
+line_end: 35460
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -37,13 +37,13 @@ keywords:
 ---
 
 ### A.16.1:4 - Solution
-`PreArticulationCuePack` is a publication form for preserving a cue while its interpretation and next use remain open. A filled account can state what was observed and why it merits preservation. That content does not by itself establish a causal explanation, evaluative result, selected route, Method or Work occurrence. When rendered, the form appears on an ordinary MVPK face; it defines no rival face kind.
+`PreArticulationCuePack` is a publication form for preserving a cue while its interpretation and next use remain open. A filled account can state what was observed and why it merits preservation. That content does not by itself establish a causal explanation, evaluative result, selected route, Method or Work occurrence. When rendered, the form appears on an ordinary MVPK face; it defines no face kind.
 
 A cue pack may exist before any route is selected and even before route-candidate hints can yet be named clearly. When route plurality or selection becomes explicit enough to publish, use `B.4.1` to state it and publish the next form as a `RoutedCueSet`.
 
 #### A.16.1:4.0a - Publication form and filled account
 
-PreArticulationCuePack names the publication form defined here; it is not an admitted U-kind. A filled claim-bearing preservation account is an episteme only when its claim content, exact EntityOfConcern and effective ReferenceScheme satisfy C.2.1. The form, that episteme, its cue and witnesses, its carrier and any E.24.PUB publication occurrence remain distinct.
+PreArticulationCuePack names the publication form defined here; it is not an admitted U-kind. A filled claim-bearing preservation account is an episteme only when its claim content, EntityOfConcern and effective ReferenceScheme satisfy C.2.1. The form, that episteme, its cue and witnesses, its carrier and any E.24.PUB publication occurrence remain distinct.
 
 #### A.16.1:4.1 - Core shape
 `cueNucleus` is required. Fields marked `?` are optional and selected for the receiving use:
@@ -86,7 +86,7 @@ The cue pack preserves the nucleus, its grounds and any visible directional hint
 If the content already contains a route decision or an endpoint result, apply its governing pattern and use the corresponding publication form. Choosing the cue-pack form does not establish that the later test has passed.
 
 #### A.16.1:4.3 - Transition discipline
-A cue pack may admissibly feed:
+A cue pack may feed:
 
 - `B.4.1` once route plurality or route selection deserves explicit publication;
 - `B.5.2.0` to constitute and check a cue-derived abductive prompt;

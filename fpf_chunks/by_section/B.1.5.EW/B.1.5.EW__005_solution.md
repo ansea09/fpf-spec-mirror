@@ -6,12 +6,12 @@ section_id: "B.1.5.EW:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5.EW/B.1.5.EW__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.1.5.EW — Recover How Constituent Actions Enact Encompassing Work"
   - "B.1.5.EW:4 — Solution"
-line_start: 42595
-line_end: 42653
+line_start: 44301
+line_end: 44359
 dependencies:
   - "A.15.1"
   - "A.22.CGUS"
@@ -24,13 +24,13 @@ keywords:
 
 ### B.1.5.EW:4 - Solution
 
-Recover the connection in both directions: **what larger work is being performed through this action, and what constituent actions make it performable?** Keep genuine before-and-after dependencies alongside these connections.
+Recover the connection in both directions: **what larger work is being performed through this action, and what constituent actions make it performable?** Keep before-and-after dependencies alongside these connections.
 
 #### B.1.5.EW:4.1 - Choose an action and the work being explained
 
 Name an action in a recognizable situation and the moment or interval under consideration. State whether you are explaining observed Work or proposing how future work could be done. Identify what is being attempted and what a useful result would be.
 
-Use ordinary verbs first: adjusting a step, comparing a measurement, adding a value, questioning an assumption. If the description supplies only a noun such as “coordination”, recover what the participant actually does.
+Use ordinary verbs first: adjusting a step, comparing a measurement, adding a value, questioning an assumption. If the description supplies only a noun such as “coordination”, recover what the participant does.
 
 #### B.1.5.EW:4.2 - Recover an encompassing performance
 
@@ -54,7 +54,7 @@ Continue through the constituent–whole connections in the selected Method or W
 
 Then ask what you must be able to do, or obtain from another participant, to perform the selected action. If a described construction remains unclear, use B.5.RC to recover its inputs, operations, conditions and a small execution. If you lack the domain know-how, obtain an explanation or demonstration. If you understand the operation but cannot perform it in the combination, practise with the encompassing conditions, obtain support or use another qualified contributor. Stop a branch at an understood operation or an available contribution sufficient for this use.
 
-These moves need not end in one tree. Nor does following several connections establish an unrestricted transitive parthood rule. Carry the actual conditions through the intervening wholes. A move from an action to its enabling tool, or from a Method to a more general Method, changes the relation; describe it accordingly.
+These moves need not end in one tree. Nor does following several connections establish an unrestricted transitive parthood rule. Carry the conditions through the intervening wholes. A move from an action to its enabling tool, or from a Method to a more general Method, changes the relation; describe it accordingly.
 
 #### B.1.5.EW:4.4 - Examine the combination at a revealing moment
 

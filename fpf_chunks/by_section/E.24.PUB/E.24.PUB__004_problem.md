@@ -6,12 +6,12 @@ section_id: "E.24.PUB:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__004_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.24.PUB — Episteme Publication: Availability, Form and Carrier"
   - "E.24.PUB:2 — Problem"
-line_start: 116952
-line_end: 116963
+line_start: 124431
+line_end: 124442
 dependencies:
   - "A.6.3"
   - "A.6.3.RT"
@@ -38,7 +38,7 @@ keywords:
 
 ### E.24.PUB:2 - Problem
 
-The practical problem is change localization. When a reader sees only “the diagram was updated” or “the model was published”, five materially different changes are hidden:
+When a reader sees only “the diagram was updated” or “the model was published”, it is hard to tell what changed. Five different changes may be hidden:
 
 1. the selected episteme edition may have changed because its claim content, EntityOfConcern, or effective reference scheme changed;
 2. another episteme edition may have been constructed, or the exact episteme may conform to a different viewpoint edition;

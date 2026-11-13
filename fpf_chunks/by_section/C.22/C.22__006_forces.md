@@ -6,12 +6,12 @@ section_id: "C.22:4"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22/C.22__006_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.22 — Task Typing and TaskSignature Assignment (Problem-CHR)"
   - "C.22:4 — Forces"
-line_start: 62900
-line_end: 62908
+line_start: 65470
+line_end: 65478
 dependencies:
   - "A.6.0"
   - "C.16"
@@ -34,7 +34,7 @@ keywords:
 
 | Force                        | Tension                                                                                                                           |
 | ---------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| **Parsimony vs sufficiency** | Fewer fields to avoid ceremony **vs** enough to drive admissible gating.                                                              |
+| **Parsimony vs sufficiency** | Fewer fields to limit declaration work **vs** enough to drive admissible gating.                                                              |
 | **Unknowns**                 | Many traits are **unknown** in the initial problem record → tri-state semantics propagate to Acceptance without silent coercions.                |
 | **CHR admissibility**             | **No mean on ordinals; no unit mixing**; aggregation is admissible only after polarity and scale type are declared.                             |
 | **Locality vs portability** | The declaration is use-bounded. Cross-semantic reuse first resolves two exact local senses and tests whether an F.9 Bridge obtains; the proposed use and any evidence reliance or assurance remain separate claims. |

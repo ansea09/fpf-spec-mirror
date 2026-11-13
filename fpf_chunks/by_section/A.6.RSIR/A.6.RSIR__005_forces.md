@@ -6,12 +6,12 @@ section_id: "A.6.RSIR:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIR/A.6.RSIR__005_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.RSIR — Relation, Signature, Interface, Role, and Slot Precision Restoration"
   - "A.6.RSIR:3 — Forces"
-line_start: 21652
-line_end: 21662
+line_start: 22527
+line_end: 22537
 dependencies:
   - "A.10"
   - "A.15"
@@ -61,7 +61,7 @@ keywords:
 |---|---|
 | Recognition vs ontology | Engineering words are useful entry cues, but FPF use needs the governed object or claim kind. |
 | First-level repair vs overreach | The pattern must recover enough to choose the direct pattern without becoming a second ontology for relation, role, interface, capability, method, function, evidence, or status. |
-| Declaration and binding precision vs system-role ontology | One exact direct participant or bound value may itself be a system-role kind, assignment, system, or another entity. A compatible `SlotSpec` or A.6.1 declaration may type the reusable use, but participant, declaration content, exact application, binding occurrence, designation, and representation position remain distinct. |
+| Declaration and binding precision vs system-role ontology | One direct participant or bound value may itself be a system-role kind, assignment, system, or another entity. A compatible `SlotSpec` or A.6.1 declaration may type the reusable use, but participant, declaration content, application, binding occurrence, designation, and representation position remain distinct. |
 | Interface usefulness vs interface-as-kind collapse | Interface words are often useful, but they may point to several different subject patterns. |
 | Minimal rewrite vs precision | Ordinary prose can remain ordinary; claim-bearing prose must name the governed object, direct relation use, declaration, or representation correspondence on which it relies. |
 | Source label preservation vs misuse | A source label can remain quote-only or reduced-use, but it cannot silently make work, evidence, assurance, gate, publication, or architecture claims admissible. |

@@ -6,12 +6,12 @@ section_id: "A.6.3.CR:11"
 section_title: "Source contributions and limits"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CR/A.6.3.CR__012_source-contributions-and-limits.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.3.CR — ConservativeRetextualization: EntityOfConcern-Preserving Textual Re-Expression"
   - "A.6.3.CR:11 — Source contributions and limits"
-line_start: 18488
-line_end: 18500
+line_start: 19341
+line_end: 19353
 dependencies:
   - "A.15"
   - "A.6.2"

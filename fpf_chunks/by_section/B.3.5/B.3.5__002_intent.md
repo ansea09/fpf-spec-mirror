@@ -6,12 +6,12 @@ section_id: "B.3.5:1"
 section_title: "Intent"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.5/B.3.5__002_intent.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.3.5 — Assurance Grounding for Working-Model Relation Claims (CT2R-LOG)"
   - "B.3.5:1 — Intent"
-line_start: 45430
-line_end: 45444
+line_start: 47292
+line_end: 47306
 dependencies:
   - "B.3"
   - "C.13"
@@ -24,7 +24,7 @@ keywords:
 *Keep **Working-Model** relations readable and, when this profile is elected, connect each covered assertion to inspectable grounding and a declared validation posture.*
 
 **What you get (manager/engineer view).**
- The same relations you already know (e.g., **ComponentOf**) remain the **public relation vocabulary**.
+ The same relations (e.g., **ComponentOf**) remain the **public relation vocabulary**.
 
 **What changes when the profile is elected (auditor/ontologist view).**
 * Each covered published edge carries two additional commitments:
@@ -32,5 +32,5 @@ keywords:
   1. **`tv:groundedBy`** → points to the support required by the relation's branch: the applicable `sum` or `slice` trace for structural parthood, one current `C.13 set` trace for the collection's belongs-to relation, or an admissible argument or evidence object for another permitted claim.
   2. **`validationMode ∈ {axiomatic, inferential, postulate}`** → declares how the author justifies the assertion.
 
-The pattern that defines the relation still decides when it obtains. CT2R-LOG records the branch-specific support link and declared assurance posture. An optional `tv:AliasOf` declaration resolves a local relation label to its accepted Tech designation under E.10 and Lang-CHR.
+The pattern that defines the relation decides when it obtains. CT2R-LOG records the branch-specific support link and declared assurance posture. An optional `tv:AliasOf` declaration resolves a local relation label to its accepted Tech designation under E.10 and Lang-CHR.
 

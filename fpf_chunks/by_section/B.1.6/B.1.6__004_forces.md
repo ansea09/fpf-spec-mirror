@@ -6,12 +6,12 @@ section_id: "B.1.6:1.1"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.1.6 — Work-Resource Aggregation"
   - "B.1.6:1.1 — Forces"
-line_start: 43127
-line_end: 43136
+line_start: 44847
+line_end: 44856
 dependencies:
   - "A.1"
   - "A.10"
@@ -46,7 +46,7 @@ keywords:
 | --- | --- |
 | Measured work vs. planned work | Expected yield, duration, or resource use helps planning, but cannot prove performed-work resource use. |
 | Typed resources vs. convenient totals | Energy, mass, time, cost, data volume and attention need compatible accounting bases and any conversion required for the proposed comparison. |
-| Boundary accounting vs. local convenience | Resource values need an explicit accounting scope and time basis, together with any holon-delimitation, boundary-crossing or stock relations on which that account depends. |
+| Boundary accounting vs. local convenience | Resource values need an accounting scope and time basis, together with any holon-delimitation, boundary-crossing or stock relations on which that account depends. |
 | Additivity vs. shared contributions | Disjoint resource contributions can be added; repeated inclusion of the same use, stock portion or contribution requires a justified allocation or deduplication rule. |
 | Efficiency vs. whole reidentification | Apparent free gain may be measurement, changed accounting basis, substitution, or a new whole; B.1.6 cannot decide that by resource wording alone. |
 

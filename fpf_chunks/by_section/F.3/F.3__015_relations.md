@@ -6,12 +6,12 @@ section_id: "F.3:14"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.3/F.3__015_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.3 — Source-Local Sense Clustering"
   - "F.3:14 — Relations"
-line_start: 119461
-line_end: 119478
+line_start: 127060
+line_end: 127077
 dependencies:
   - "A.11"
   - "A.7"
@@ -48,5 +48,5 @@ keywords:
 - **F.8** compares proposed wording with exact existing designations and claims without treating either as the value being named.
 - **F.9** tests a relation only between exact local meanings whose interpretation bases differ. F.3 establishes no Bridge, cross-source sameness, substitution, or use licence.
 
-**Used by.** Part C patterns may cite a local-sense claim under its exact source and scheme; the direct pattern still defines or constrains the substantive value or relation in the example.
+**Used by.** Part C patterns may cite a local-sense claim under its exact source and scheme; the direct pattern defines or constrains the substantive value or relation in the example.
 

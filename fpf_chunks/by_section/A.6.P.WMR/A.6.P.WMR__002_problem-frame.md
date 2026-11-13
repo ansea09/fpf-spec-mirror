@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.P.WMR"
-pattern_title: "Exact Relation Recovery for Method and Work Claims"
+pattern_title: "Relation Recovery for Method and Work Claims"
 section_id: "A.6.P.WMR:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P.WMR/A.6.P.WMR__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.6.P.WMR — Exact Relation Recovery for Method and Work Claims"
+  - "A.6.P.WMR — Relation Recovery for Method and Work Claims"
   - "A.6.P.WMR:1 — Problem Frame"
-line_start: 20743
-line_end: 20768
+line_start: 21616
+line_end: 21641
 dependencies:
   - "A.15.1"
   - "A.15.1-A.15.3"
@@ -40,19 +40,19 @@ The primary EntityOfConcern is one relation-bearing claim in an episteme. The tr
 
 The practical question is which relation can be stated for the receiving use. `SubjectPatternLocator` identifies the pattern description containing the defining or constraining ClaimGraph; case facts determine whether the relation obtains.
 
-**First useful result.** Start at the boundary-word sentence and answer three ordinary questions: what exact thing is being named, relative to what exact method, plan, work, operation application, transformation, delivery, or receiving use, and what direct verb can safely be said now—or why can it not yet be said.
+**First useful result.** Start at the boundary-word sentence and answer three ordinary questions: what thing is being named, relative to what method, plan, work, operation application, transformation, delivery, or receiving use, and what direct verb can safely be said now—or why can it not yet be said.
 
-For example, a note says, `inspection report R-17 is the result of inspection`. `R-17` is an exact report episteme. If the current related object is independently identified inspection application `P-17` and its declaration-local result-binding predicate actually holds, write: `Inspection application P-17 returned report R-17.` Then stop unless the current use separately asks about report inception, inspection Work, evidence, publication, delivery, or acceptance.
+For example, a note says, `inspection report R-17 is the result of inspection`. `R-17` is a report episteme. If the current related object is independently identified inspection application `P-17` and its declaration-local result-binding predicate holds, write: `Inspection application P-17 returned report R-17.` Then stop unless the current use separately asks about report inception, inspection Work, evidence, publication, delivery, or acceptance.
 
 The nearest three failures keep the same thing and related object while changing only the deciding deficit:
 
 - if the binding governor is known and the case facts fail its positive predicate, the proposed positive binding is `factually unsupported`;
 - if the governor is known but the fact needed to decide whether P-17 returned R-17 is unavailable, return `missing-information`;
-- if no current result-binding predicate or direct report relation governs that pair, return `missing-governor` and name the exact participants, proposed predicate, affected use, and absent definition; name a future pattern or declaration need only when one is actually identifiable.
+- if no current result-binding predicate or direct report relation governs that pair, return `missing-governor` and name the participants, proposed predicate, affected use, and absent definition; name a future pattern or declaration need only when one is identifiable.
 
 Only when another reading could change the answer should the practitioner make the formal distinctions explicit: reusable declaration versus intended, committed, current, or historical subject relation; exact extent; polarity; and whether the claim is assertable. A direct relation additionally names its exact `RelationKind` and resolving direct pattern or relation-declaration episteme. An operation binding or local claim instead names its declaration-local or admitted predicate and defining declaration. These assurance details check the ordinary answer; they are not prerequisites for understanding a simple positive past-tense sentence.
 
-**What changes in practice.** The engineer stops debating which broad word is correct. They name the thing, the exact object it is relative to, and the direct verb they can safely say now; if the attempted claim is not assertable, they state the reason-specific stop under section 4.3. Formal claim dimensions and assurance apparatus appear only when they can change or check that answer. Planning, actual participation, production, evaluation, delivery, acceptance, and transfer no longer inherit one another through vocabulary.
+**What changes in practice.** The engineer stops debating which broad word is correct. They name the thing, the object it is relative to, and the direct verb they can safely say now; if the attempted claim is not assertable, they state the reason-specific stop under section 4.3. Formal claim dimensions and assurance apparatus appear only when they can change or check that answer. Planning, actual participation, production, evaluation, delivery, acceptance, and transfer no longer inherit one another through vocabulary.
 
 **What goes wrong if missed.** A plan is read as actual participation; a method description is treated as a work occurrence; an operation result binding is mistaken for a produced entity; a changed continuing entity becomes a new output; a delivery or handoff package is treated as the transfer; or a convenient missing relation is replaced by a new universal kind.
 

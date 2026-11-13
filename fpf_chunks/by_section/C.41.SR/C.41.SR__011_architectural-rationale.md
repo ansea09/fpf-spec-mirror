@@ -6,12 +6,12 @@ section_id: "C.41.SR:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.SR/C.41.SR__011_architectural-rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.41.SR — Reconcile Checklist Results Across Shared Work"
   - "C.41.SR:10 — Architectural Rationale"
-line_start: 89821
-line_end: 89826
+line_start: 94089
+line_end: 94094
 dependencies:
   - "A.10"
   - "B.1.5"
@@ -24,5 +24,5 @@ keywords:
 
 Local checking and shared reconciliation solve different problems. Sound local answers can still concern incompatible occasions or omit a combining condition.
 
-The selected arrangement preserves local usefulness and adds only the shared claims with real consumers. A single shared checklist remains a valid simpler alternative when all participants can interpret and maintain it at low cost.
+The selected arrangement preserves local usefulness and adds only the shared claims with consumers. A single shared checklist remains a valid simpler alternative when all participants can interpret and maintain it at low cost.
 

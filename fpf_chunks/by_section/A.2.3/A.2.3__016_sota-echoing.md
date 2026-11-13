@@ -6,43 +6,19 @@ section_id: "A.2.3:10.3"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__016_sota-echoing.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.2.3 — U.PromiseContent — Promised Outcomes and Acceptance Criteria"
   - "A.2.3:10.3 — SoTA-Echoing"
-line_start: 6027
-line_end: 6039
+line_start: 6258
+line_end: 6272
 dependencies:
-  - "A.1.1"
-  - "A.10"
-  - "A.15.1"
-  - "A.15.2"
-  - "A.15.PROD"
-  - "A.2"
-  - "A.2.1"
   - "A.2.2"
-  - "A.2.6"
   - "A.2.8"
-  - "A.2.9"
-  - "A.3.1"
-  - "A.3.2"
-  - "A.6.1"
   - "A.6.C"
   - "A.6.P"
-  - "A.7"
-  - "B.3"
-  - "C.2.1"
   - "E.10"
   - "F.12"
-  - "F.9"
-  - "U.ClaimScope"
-  - "U.Episteme"
-  - "U.Method"
-  - "U.MethodDescription"
-  - "U.SystemRoleAssignment"
-  - "U.Work"
-  - "U.WorkPlan"
-  - "U.WorkScope"
 keywords:
   - "SLA"
   - "SLO"
@@ -65,6 +41,8 @@ A fuller alternative organizes the service account around commitments throughout
 
 Cloud storage makes the distinction consequential. Amazon’s S3 technical documentation states an annual durability design claim, while its SLA dated 28 November 2023 defines monthly availability using five-minute error rates, with account and storage-class scope, exclusions and credit conditions. These statements supply different criteria and grounds. A month of successful requests does not by itself establish the annual durability design claim. Likewise, a fulfilment judgement and eligibility for a service credit answer different questions. [S3 data protection](https://docs.aws.amazon.com/AmazonS3/latest/userguide/DataDurability.html); [S3 SLA, “Service Commitment”, “Credit Request and Payment Procedures” and “Definitions”](https://aws.amazon.com/s3/sla/).
 
-In §5, the illustrative percentages therefore require their own declared characteristics, populations, windows and evaluation methods. C.16 supplies the measurement interpretation; A.10 carries the claim-specific grounds. If the promise concerns end-to-end retrieval but observations cover only requests reaching the backend, retain that coverage limitation when judging fulfilment. If an actual obligation is claimed, establish its bearer and instituting basis under A.2.8. The cost of this separation is establishing those connections when the receiving use needs them. Revisit the source-based criteria when governing terms, measurement coverage or the intended use changes; a task whose primary result is agreement formation, amendment or remedy requires the corresponding fuller account.
+In §5, the illustrative percentages therefore require their own declared characteristics, populations, windows and evaluation methods. C.16 supplies the measurement interpretation; A.10 carries the claim-specific grounds. If the promise concerns end-to-end retrieval but observations cover only requests reaching the backend, retain that coverage limitation when judging fulfilment.
+
+If an actual obligation is claimed, establish its bearer and instituting basis under A.2.8. The cost of this separation is establishing those connections when the receiving use needs them. Revisit the source-based criteria when governing terms, measurement coverage or the intended use changes; a task whose primary result is agreement formation, amendment or remedy requires the corresponding fuller account.
 
 

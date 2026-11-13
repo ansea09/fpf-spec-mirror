@@ -6,12 +6,12 @@ section_id: "G.3:6"
 section_title: "Bias‑Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.3/G.3__007_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.3 — CHR Authoring for a CG‑Frame: Characteristics, Scales, Levels, Coordinates"
   - "G.3:6 — Bias‑Annotation"
-line_start: 128582
-line_end: 128591
+line_start: 136633
+line_end: 136642
 dependencies:
   - "A.10"
   - "A.15.2"
@@ -63,7 +63,7 @@ keywords:
 CHR authoring is where many biases become “baked in” as measurement choices. Typical risks:
 
 * **Proxy bias:** a convenient observable substitutes for the intended construct. Mitigation: require `ObservableOf` + ReferencePlane + micro‑examples; force explicit “what is being measured” rather than relying on labels.
-* **Population and protocol shift:** a change in sampling or protocol can alter the interpretation or applicability of a reported value, or the characteristic’s meaning when that procedure is part of its definition. Retain the population, protocol edition and use conditions; reconsider dependent claims when those change, including any applicable validity or freshness window.
+* **Population and protocol shift:** a change in sampling or protocol can alter the interpretation or applicability of a reported value, or the characteristic’s meaning when that procedure is part of its definition. Retain the population, protocol edition and use conditions, including any applicable validity or freshness window. Reconsider dependent claims when those conditions change. Use the corresponding RSCR trigger for a freshness/decay event or a change to the supporting evidence.
 * **Ordinal misuse bias:** ordinal ratings treated as interval/ratio by convenience. Mitigation: publish scale type + admissible transforms; legality matrix + guard macros; reject coordinate upgrades without proof hooks.
 * **Cross-tradition meaning bias:** an imported expression erases its source-local meaning or makes a changed bearer, scope, window, reference plane, evidence basis, or intended use disappear. Mitigation: name those values, cite exact `F.17` cells and an `F.9` relation only when it obtains, and keep any downstream bounded-use claim explicit under `C.2.1` and `F.9`, with evidence-bearing reliance governed by `A.10` and any applicable `B.3` assurance requirement. Retain any mapping limitation and any justified penalty under the applicable `G.Core` rule.
 * **Metric gaming bias (QD and evaluation):** changing descriptors/distances changes what “diverse” means. Mitigation: edition‑pin metric definitions and make role declarations explicit (wiring via `C.18 and C.19`).

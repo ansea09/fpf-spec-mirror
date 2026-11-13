@@ -6,12 +6,12 @@ section_id: "G.10:8.2"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.10/G.10__011_sota-echoing.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.10 — SoTA Pack Shipping"
   - "G.10:8.2 — SoTA-Echoing"
-line_start: 132063
-line_end: 132068
+line_start: 140144
+line_end: 140149
 dependencies:
   - "A.10"
   - "A.15.3"
@@ -56,6 +56,6 @@ keywords:
 ### G.10:8.2 - SoTA-Echoing
 
 * **Research‑object packaging & provenance.** Research-object and RO-Crate approaches package outputs with provenance and version information. G.10 uses that packaging idea as a citation surface for independently governed outputs.
-* **Reproducibility regimes in ML/AI.** Reproducibility checklists, artifact evaluation and benchmark reporting motivate explicit version pins, explicit method disclosure, and separating telemetry summaries from decision criteria unless policy‑promoted.
+* **Reproducibility regimes in ML/AI.** Reproducibility checklists, artifact evaluation and benchmark reporting motivate version pins, method disclosure, and separating telemetry summaries from decision criteria unless policy‑promoted.
 * **Scholarly KG interoperability.** For external mappings from systems such as ORKG or OpenAlex, `G.10-7` and `G.10:Ext.InteropCitation` retain index editions and mapping policies as cited notes. FPF legality and typing keep their own governing definitions.
 

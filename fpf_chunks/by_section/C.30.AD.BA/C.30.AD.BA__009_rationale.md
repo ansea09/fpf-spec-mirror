@@ -6,12 +6,12 @@ section_id: "C.30.AD.BA:6"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD.BA/C.30.AD.BA__009_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.30.AD.BA — Built-Asset Architecture Description and Reference Designation"
   - "C.30.AD.BA:6 — Rationale"
-line_start: 72726
-line_end: 72731
+line_start: 75844
+line_end: 75849
 dependencies:
   - "A.1"
   - "A.10"
@@ -54,7 +54,7 @@ keywords:
 
 ### C.30.AD.BA:6 - Rationale
 
-Built-asset practice is unusually exposed to semio-bias because one information environment often spans geometry, equipment, Work, sensor state, and maintenance history. The repair is a constructive chain from the physical asset and independently obtaining subject relations to exact selected A.22 structures, any actual `ArchitectureRelation`, bounded architecture claims, exact C.2.1 description epistemes, independently conforming views, and the source, representation, publication, designation, grounding, currentness, Work, and project-use relations that make those descriptions usable.
+Built-asset practice is exposed to semio-bias because one information environment often spans geometry, equipment, Work, sensor state, and maintenance history. The repair is a constructive chain from the physical asset and independently obtaining subject relations to selected A.22 structures, any actual `ArchitectureRelation`, bounded architecture claims, C.2.1 description epistemes, independently conforming views, and the source, representation, publication, designation, grounding, currentness, Work, and project-use relations that make those descriptions usable.
 
-Reference designation demonstrates why this chain matters. Its engineering value is retrieval across heterogeneous descriptions. That value depends on the scheme, selected aspect structure, referent, qualification window, and exact direct-relation disposition being explicit. Treating the code as universal identity would remove precisely the aspect discipline that makes the designation useful.
+Reference designation demonstrates why this chain matters. Its engineering value is retrieval across heterogeneous descriptions. That value depends on the scheme, selected aspect structure, referent, qualification window, and direct-relation disposition being explicit. Treating the code as universal identity would remove the aspect discipline that makes the designation useful.
 

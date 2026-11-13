@@ -6,12 +6,12 @@ section_id: "A.1:5"
 section_title: "Archetypal Grounding (Worked Cases)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1/A.1__007_archetypal-grounding-worked-cases.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.1 — Recognize a Whole with Parts (U.Holon and Admitted Holon Kinds)"
   - "A.1:5 — Archetypal Grounding (Worked Cases)"
-line_start: 2735
-line_end: 2798
+line_start: 2775
+line_end: 2842
 dependencies:
   - "A.1.1"
   - "A.1.STM"
@@ -61,26 +61,30 @@ The candidate-side facts and the available evaluation inputs remain distinct. If
 
 If the intact candidate instead has a mass of 45 kg, CW-Install-1 cannot supply the sixth component because its support limit is 40 kg. A coupling, load-envelope, or boundary-interface violation likewise defeats that installation rule even when the drawing and rule-description episteme are current. Failure of this one rule does not settle the existential larger-assembly condition: the candidate fails that component only if none of the governed larger-assembly constructions has conditions satisfied by its actual facts. Evaluation returns `false` when its inputs determine that failure, and `unknown` when the searched methods or available facts do not settle it. Renaming or republishing the cited criterion pattern does not change Pump #37 or those facts; any change to the episteme's designation, edition, or currentness remains separately governed.
 
-Separate direct relations then state that Pump #37 fills the holder-system slot of its cooling-water circulation `U.SystemRoleAssignment`, has a flow-rate capability envelope, and participates in the water-moving transformation. A separate inspection account may identify `WO-1842 : U.Work`, but the cooling-water assignment does not make Pump #37 its performer: the exact inspector System must have its own A.13 core, the Work must be independently admitted under A.15.1, and F.6 is added only if that account needs precise assignment-bound attribution through the inspector's same obtaining assignment. Pump #37 remains the inspected or participating subject unless another direct performer basis establishes otherwise. No omnibus participation or candidate-classification relation is added. The pump can have selected structures; its maintenance model may participate in a separately selected `BoundedModelUseStructure`, but that structure neither identifies the pump nor makes it a holon.
+Separate direct relations then state that Pump #37 fills the holder-system slot of its cooling-water circulation `U.SystemRoleAssignment`, has a flow-rate capability envelope, and participates in the water-moving transformation.
+
+A separate inspection account may identify `WO-1842 : U.Work`, but the cooling-water assignment does not make Pump #37 its performer: the inspector System must have its own A.13 core, the Work must be independently admitted under A.15.1, and F.6 is added only if that account needs precise assignment-bound attribution through the inspector's same obtaining assignment. Pump #37 remains the inspected or participating subject unless another direct performer basis establishes otherwise.
+
+No omnibus participation or candidate-classification relation is added. The pump can have selected structures; its maintenance model may participate in a separately selected `BoundedModelUseStructure`, but that structure neither identifies the pump nor makes it a holon.
 
 #### A.1:5.2 - Scientific Theory As Episteme Holon
 
-This schematic illustration concerns Newtonian gravitation in one exact selected edition, first identified as a C.2.1 `U.Episteme` candidate. Its actual claim-bearing constitution can satisfy the A.1 criterion for the already admitted `U.Episteme` kind when the following facts obtain:
+This schematic illustration concerns Newtonian gravitation in one selected edition, first identified as a C.2.1 `U.Episteme` candidate. Its actual claim-bearing constitution can satisfy the A.1 criterion for the already admitted `U.Episteme` kind when the following facts obtain:
 
-- exact law, definition, derivation, diagram, exercise, and evidence-relation epistemes are the candidate constituents;
-- exact claim-composition and episteme part relations organize those constituents as one governed claim-bearing whole;
-- C.2.1 identifies this theory episteme by its exact claim content, EntityOfConcern, and effective ReferenceScheme; a change to any of these identifies another episteme. Historical continuation between the earlier and later epistemes requires a separate `EpistemeEditionRelation` under an applicable edition-continuity rule;
+- law, definition, derivation, diagram, exercise, and evidence-relation epistemes are the candidate constituents;
+- claim-composition and episteme part relations organize those constituents as one governed claim-bearing whole;
+- C.2.1 identifies this theory episteme by its claim content, EntityOfConcern, and effective ReferenceScheme; a change to any of these identifies another episteme. Historical continuation between the earlier and later epistemes requires a separate `EpistemeEditionRelation` under an applicable edition-continuity rule;
 - inferential and explanatory characteristics arise from the organized claim-bearing whole rather than from one constituent;
 - its actual inferential interfaces, effective reference scheme, applicability conditions, and identity-preservation conditions satisfy the applicability and compatibility conditions of at least one governed method for composing it as a constituent of a larger explanatory or educational episteme;
 - `U.Episteme` is already an admitted public U-kind in FPF; `E.24.UK` governs admission of public U-kinds, while C.2.1 supplies the kind-specific constitution condition.
 
-For a particular theory, supply the constituent identities and an independently obtaining direct episteme-part or claim-composition predicate before drawing the recognition conclusion (C.13:5.3). A textbook publication can make this edition available, but the publication form and the episteme that describes the composition method do not create the theory's compatibility or holonhood. Classification work may evaluate the criterion and a separate C.2.1 assertion may state the result; evidence, warrant, edition currentness, receiving reliance, and any B.2 whole-reidentification question remain separately governed.
+For a theory, supply the constituent identities and an independently obtaining direct episteme-part or claim-composition predicate before drawing the recognition conclusion (C.13:5.3). A textbook publication can make this edition available, but the publication form and the episteme that describes the composition method do not create the theory's compatibility or holonhood. Classification work may evaluate the criterion and a separate C.2.1 assertion may state the result; evidence, warrant, edition currentness, receiving reliance, and any B.2 whole-reidentification question remain separately governed.
 
-A system under an exact `U.SystemRoleAssignment` may explain, publish, compare, or use this episteme through separately governed Work and relation occurrences; the assignment alone establishes none of those acts. Revision Work yields another episteme, with any edition relation tested separately.
+A system under a `U.SystemRoleAssignment` may explain, publish, compare, or use this episteme through separately governed Work and relation occurrences; the assignment alone establishes none of those acts. Revision Work yields another episteme, with any edition relation tested separately.
 
 #### A.1:5.3 - Fleet As Collection Or Acting Collective
 
-A fleet register supports the claim that a vehicle belongs to the fleet only under its registration rule. In the register-only case the fleet is not thereby established as a holon: no vehicle-to-whole assembly or composition-grounded characteristic is claimed. Fleet availability is a separate collection characteristic. A fleet-coordination organization that coordinates vehicles, drivers, rules, and Work can be an acting collective `U.System` only after all six A.1 matters, including its constructive relations and assembly, have been recovered.
+A fleet register supports the claim that a vehicle belongs to the fleet only under its registration rule. In the register-only case the fleet is not thereby established as a holon: no vehicle-to-whole assembly or composition-grounded characteristic is claimed. Fleet availability is a separate collection characteristic. A fleet-coordination organization that coordinates vehicles, drivers, rules, and Work can be an acting collective `U.System` only after all six A.1 components, including its constructive relations and assembly, have been recovered.
 
 If a source says "the fleet responded", determine whether it reports actions of individual vehicles, Work by the fleet-coordination System, or a collection-level characteristic; identify the actual performers when Work is claimed.
 
@@ -88,13 +92,13 @@ If a source says "the fleet responded", determine whether it reports actions of 
 
 A lathe can change a workpiece during manufacturing without thereby becoming a part of the workpiece or the larger whole containing it.
 
-Use `A.3.4` to identify the bounded transformation from the exact changed referent, extent, boundary conditions, actual change facts, and continuity rule. Use the direct subject patterns for the lathe's participation, method, dated work, work-to-change facts, and evidence. Use A.14 or C.13 for part-whole only when an exact grounded part relation independently obtains.
+Use `A.3.4` to identify the bounded transformation from the changed referent, extent, boundary conditions, actual change facts, and continuity rule. Use the direct subject patterns for the lathe's participation, method, dated work, work-to-change facts, and evidence. Use A.14 or C.13 for part-whole only when a grounded part relation independently obtains.
 
 #### A.1:5.5 - Stop Before A Whole Is Constructed
 
-A pallet holding an unconnected pump, motor, baseframe, and manifold is a collection of exact entities. The list and physical proximity do not supply the fastening, coupling, enclosure, connection, assembly, or reidentification facts needed to recognize a skid holon. A construction drawing is an episteme about a possible assembly.
+A pallet holding an unconnected pump, motor, baseframe, and manifold is a collection of entities. The list and physical proximity do not supply the fastening, coupling, enclosure, connection, assembly, or reidentification facts needed to recognize a skid holon. A construction drawing is an episteme about a possible assembly.
 
 A selected `BoundedModelUseStructure` may organize model-applicability, delimitation, maintenance, and crossing relations for an engineering use. It remains dependent `U.Structure`; selecting it, naming it, or drawing it supplies no part relations, whole-level characteristic, acting eligibility, or B.2 whole reidentification.
 
-Mounting, wiring, and fluid-connection changes may each be exact `U.Transformation` occurrences. Their participation in one work episode or one flow description does not identify a composite transformation. Without a direct transformation-composition governor, retain the separate changes and stop before transformation parthood, composite identity, or A.1 holon recognition. This stop does not say that the changes are atomic or have no finer parts.
+Mounting, wiring, and fluid-connection changes may each be `U.Transformation` occurrences. Their participation in one work episode or one flow description does not identify a composite transformation. Without a direct transformation-composition governor, retain the separate changes and stop before transformation parthood, composite identity, or A.1 holon recognition. This stop does not say that the changes are atomic or have no finer parts.
 

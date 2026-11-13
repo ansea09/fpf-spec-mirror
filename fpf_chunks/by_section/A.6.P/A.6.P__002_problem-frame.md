@@ -6,12 +6,12 @@ section_id: "A.6.P:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.P — Relational Precision Restoration - Recovering Direct Relations from Under-Specified Claims"
   - "A.6.P:1 — Problem frame"
-line_start: 19987
-line_end: 20008
+line_start: 20860
+line_end: 20881
 dependencies:
   - "A.1.SCR"
   - "A.1.STM"
@@ -38,21 +38,21 @@ keywords:
 
 ### A.6.P:1 - Problem frame
 
-**Use this when.** Use this pattern when a claim contains a relation-bearing phrase, but the phrase does not yet determine the direct relation, exact participants, direction, or detail needed by a later engineering claim or operation. Common recognition moments include a broad predicate such as "linked", "aligned", or "supports"; a participant named by metonymy; a qualifier that sounds precise while leaving the head kind unknown; service, server, provider, delivery, access, or bare *role* wording that leaves the promise, interface, System, system-role kind or assignment, direct participation, Method, Work, or evidence object unclear; whole, part, complete, turnkey, or end-to-end wording that leaves a candidate whole, boundary, parthood, composition, coverage, or Work claim unresolved; and `integrity` wording that still leaves open whether the sentence is about a structural whole, a characteristic or measurement, or evidence or assurance. When bare *role* is the trigger, use E.10.ROLE to recover the intended branch before applying A.6.P to a direct relation claim.
+**Use this when.** Use this pattern when a claim contains a relation-bearing phrase, but the phrase does not yet determine the direct relation, participants, direction, or detail needed by a later engineering claim or operation. Common recognition moments include a broad predicate such as "linked", "aligned", or "supports"; a participant named by metonymy; a qualifier that sounds precise while leaving the head kind unknown; service, server, provider, delivery, access, or bare *role* wording that leaves the promise, interface, System, system-role kind or assignment, direct participation, Method, Work, or evidence object unclear; whole, part, complete, turnkey, or end-to-end wording that leaves a candidate whole, boundary, parthood, composition, coverage, or Work claim unresolved; and `integrity` wording that still leaves open whether the sentence is about a structural whole, a characteristic or measurement, or evidence or assurance. When bare *role* is the trigger, use E.10.ROLE to recover the intended branch before applying A.6.P to a direct relation claim.
 
 Quoted, external, or ordinary source prose may remain as written. Use A.6.P only when an FPF statement will use the phrase to guide action, justify a decision or gate, support assurance or reliance, publish a claim, or reuse it in another named source, practice, or model-use setting. Repair that receiving FPF statement; preserve the source wording as a quotation or source expression instead of rewriting it as though the source had made the repaired claim.
 
-**Primary working reader, viewpoint, and concern.** The working reader is an engineer viewing the sentence as input to a later claim or operation. The concern is that another person can find the same world-side or episteme-side objects, find the same pattern that defines the relation or constrains the operation, and know which additional declaration, assertion, occurrence, designation, or representation detail that later use actually needs.
+**Primary working reader, viewpoint, and concern.** The working reader is an engineer viewing the sentence as input to a later claim or operation. The concern is that another person can find the same world-side or episteme-side objects, find the same pattern that defines the relation or constrains the operation, and know which additional declaration, assertion, occurrence, designation, or representation detail that later use needs.
 
 **Primary EntityOfConcern.** One relation-bearing claim in an episteme whose current expression leaves the direct relation kind or one or more actual participants unresolved, or leaves unclear whether a later claim or operation needs reusable declaration, explicit occurrence identity, designation, or representation.
 
-**First useful move.** Replace the broad phrase with one readable sentence that names the exact participants and the direct relation believed to obtain. Name the rule defining its participants and obtaining condition; recover occurrence identity when the receiving use needs it. If either the participants or the relation remain genuinely ambiguous, keep a small working candidate note and resolve that ambiguity before adding a reusable declaration, assigning a designator, or choosing a representation.
+**First useful move.** Replace the broad phrase with one readable sentence that names the participants and the direct relation believed to obtain. Name the rule defining its participants and obtaining condition; recover occurrence identity when the receiving use needs it. If either the participants or the relation remain ambiguous, keep a small working candidate note and resolve that ambiguity before adding a reusable declaration, assigning a designator, or choosing a representation.
 
 **First-minute result.** The draft `Bearing_B is linked to Pump_P` becomes `Bearing_B is part of Pump_P during Interval_T` after inspection establishes the intended parthood claim under the applicable A.14 rule. The ordinary repair stops there. If a later maintenance claim must distinguish installation episodes, §5.1 returns the missing installed-part predicate and occurrence-identity rule; a `RelationSignature`, occurrence reference or graph representation cannot supply them.
 
 **What goes wrong if missed.** A lexical replacement can make the sentence sound technical while preserving the same ambiguity. At the opposite extreme, an engineer can turn every relation phrase into a record-shaped episteme and then confuse that episteme, a declaration, or an identifier with the relation that obtains. Both failures obscure what is true, which object changes, and which pattern defines or constrains the needed claim or operation.
 
-**What this buys.** The repaired claim remains readable. Load-bearing uses gain exact relation kinds, participant meanings, reusable typed declarations, occurrence identity, designations, and representations only where those distinctions change the later claim or operation.
+**What this buys.** The repaired claim remains readable. Load-bearing uses gain relation kinds, participant meanings, reusable typed declarations, occurrence identity, designations, and representations only where those distinctions change the later claim or operation.
 
 **Not this pattern when.** Use the direct relation pattern when the relation and participants are already clear. Use `A.6.5` when only reusable `SlotSpec`s are needed, `A.6.REL` when one obtaining occurrence needs explicit identity, `C.2.1` when the issue is assertion or description identity, and `F.18` when the object and relation are known and only designation remains unresolved.
 

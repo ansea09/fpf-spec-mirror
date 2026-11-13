@@ -6,12 +6,12 @@ section_id: "A.12:5"
 section_title: "Archetypal Grounding (Worked Cases)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.12/A.12__007_archetypal-grounding-worked-cases.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.12 — Acting-Side Externalization and Reflexive Split: Identify Who Acts on What"
   - "A.12:5 — Archetypal Grounding (Worked Cases)"
-line_start: 28005
-line_end: 28082
+line_start: 29047
+line_end: 29134
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -70,7 +70,9 @@ Source wording: "the document updates its cross-references."
 
 BuildRunner-4 updates the cross-references in PublicationFile-17. BuildScriptEpisteme-9 has the already admitted CrossReferenceUpdateMethod-3 as its exact EntityOfConcern and describes how that Method updates links, satisfying A.3.2. The script is its MethodDescription; BuildRunner-4 is the acting participant. This case follows the publication carrier through the update.
 
-The bounded case-local continuity rule treats PublicationFile-17 as the same carrier only if the file object opened for the build still exists when the build closes, every write asserted to update PublicationFile-17 targets that same open object, and the build neither deletes and recreates that file, atomically replaces it, nor substitutes another carrier. E.24.PUB states which independently identified expression the carrier's actual state yields; it does not supply this case-local identity rule. If a continuity fact fails, identify the replacement carrier rather than asserting a transformation of one continuing file. If carrier identity is unresolved, stop before asserting that change. A changed C.2.1 episteme discriminator selects the separate episteme-edition reading.
+The bounded case-local continuity rule treats PublicationFile-17 as the same carrier only if the file object opened for the build still exists when the build closes, every write asserted to update PublicationFile-17 targets that same open object, and the build neither deletes and recreates that file, atomically replaces it, nor substitutes another carrier. E.24.PUB states which independently identified expression the carrier's actual state yields; it does not supply this case-local identity rule.
+
+If a continuity fact fails, identify the replacement carrier rather than asserting a transformation of one continuing file. If carrier identity is unresolved, stop before asserting that change. A changed C.2.1 episteme discriminator selects the separate episteme-edition reading.
 
 ```text
 ActingSideExternalization@DocumentBuild:
@@ -88,7 +90,11 @@ ActingSideExternalization@DocumentBuild:
 
 A.10 governs source recovery and bounded reliance on the build log for the following carrier-history claims; A.7 keeps the carrier distinct from the episteme it presents.
 
-Before the boundary, exact `PublicationExpressionBearingRelation(PublicationFile-17, CrossReferenceExpression-26)` obtains. CrossReferenceExpression-26 is the independently identified ordered text containing the stale link addresses. During the boundary, the same open file object remains in place while its link-address state is rewritten; the build log records no replacement event. After the boundary, exact `PublicationExpressionBearingRelation(PublicationFile-17, CrossReferenceExpression-27)` obtains; the changed address strings identify another ordered-text expression. Both expressions can conform to the same reusable CrossReferencePublicationForm, so `PublicationFormBearingRelation(PublicationFile-17, CrossReferencePublicationForm)` can remain continuously true through the update when a conforming expression remains recoverable. Those facts, the build-open/build-close boundary, and the case-local continuity rule ground `PublicationCarrierChange-27` under A.3.4. They do not decide episteme identity: if claim content, EntityOfConcern, or the effective reference scheme changed, C.2.1 identifies another episteme and any historical continuation needs a separately governed edition relation.
+Before the boundary, `PublicationExpressionBearingRelation(PublicationFile-17, CrossReferenceExpression-26)` obtains. CrossReferenceExpression-26 is the independently identified ordered text containing the stale link addresses. During the boundary, the same open file object remains in place while its link-address state is rewritten; the build log records no replacement event. After the boundary, `PublicationExpressionBearingRelation(PublicationFile-17, CrossReferenceExpression-27)` obtains; the changed address strings identify another ordered-text expression.
+
+Both expressions can conform to the same reusable CrossReferencePublicationForm, so `PublicationFormBearingRelation(PublicationFile-17, CrossReferencePublicationForm)` can remain continuously true through the update when a conforming expression remains recoverable.
+
+Those facts, the build-open/build-close boundary, and the case-local continuity rule ground `PublicationCarrierChange-27` under A.3.4. They do not decide episteme identity: if claim content, EntityOfConcern, or the effective reference scheme changed, C.2.1 identifies another episteme and any historical continuation needs a separately governed edition relation.
 
 An episteme-edition case instead identifies predecessor and successor epistemes plus their edition relation. A reference-relation case identifies one relation occurrence and its defining rule. Keep those accounts separate from the carrier-change case; they are not alternative values for its singular fields.
 
@@ -111,7 +117,11 @@ ActingSideExternalization@Machining:
 
 `MachiningWork-8` and `MachiningTransformation-8` are independently identified. To explain their connection, extend this constructed case with the following supplied facts. During the named Work, Lathe-3 performed `TurningApplication-8` with CuttingTool-3 on the continuing Workpiece-8. The operation history identifies the actual engaged cutting pass, its tool and workpiece bindings, and its start/end interval. The supplied material-removal account establishes that this pass removed the outer layer of the selected cylindrical surface, reducing its radius from 10 mm to 9.5 mm. Before/after measurements under the same dimensional reference conditions identify the corresponding diameter change from 20 mm to 19 mm as `MachiningTransformation-8`.
 
-The useful result is the local assertion `MachiningContribution-8`: this Work included the actual cutting application whose material removal produced this diameter change. Under A.6.RCD disposition 2, its conjunction has these named base facts and their common workpiece and interval; it holds when all those facts hold for the same application and transformation. This supplies one C.2.1 compound claim. If the history records only a commanded feed and actual engagement is unknown, the connecting claim has `missing-information`; the independently observed diameter change remains available. Selecting a different physical regime reopens the material-removal account that the connection consumes.
+The useful result is the local assertion `MachiningContribution-8`: this Work included the actual cutting application whose material removal produced this diameter change. Under A.6.RCD disposition 2, its conjunction has these named base facts and their common workpiece and interval; it holds when all those facts hold for the same application and transformation. This supplies one C.2.1 compound claim.
 
-For an ordinary boundary explanation, select the tool-workpiece contact surface and interval. The contact force is the rate of the tool's momentum transfer to the workpiece across that surface; C.29.BB locates that contribution in a momentum balance. Predicting the workpiece's motion also needs the other consequential forces and applicable response conditions. This explanatory claim does not supply an occurrence identity for `holonBoundaryCrossingRelationRef`. If a further use needs that exact reference, it still needs the crossing predicate, applicability and occurrence-identity rule; their absence is the A.6.RCD `missing-governor` for that reference. The local contribution and boundary explanation remain usable, and parthood keeps its separate A.14 test.
+If the history records only a commanded feed and actual engagement is unknown, the connecting claim has `missing-information`; the independently observed diameter change remains available. Selecting a different physical regime reopens the material-removal account that the connection consumes.
+
+For an ordinary boundary explanation, select the tool-workpiece contact surface and interval. The contact force is the rate of the tool's momentum transfer to the workpiece across that surface; C.29.BB locates that contribution in a momentum balance. Predicting the workpiece's motion also needs the other consequential forces and applicable response conditions.
+
+This explanatory claim does not supply an occurrence identity for `holonBoundaryCrossingRelationRef`. If a further use needs that exact reference, it still needs the crossing predicate, applicability and occurrence-identity rule; their absence is the A.6.RCD `missing-governor` for that reference. The local contribution and boundary explanation remain usable, and parthood keeps its separate A.14 test.
 

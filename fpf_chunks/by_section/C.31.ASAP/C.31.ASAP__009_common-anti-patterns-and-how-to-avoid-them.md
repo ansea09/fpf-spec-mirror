@@ -6,19 +6,18 @@ section_id: "C.31.ASAP:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.ASAP/C.31.ASAP__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.31.ASAP — Which Architecture Is Preferable Under Scale? (Scale Amenability)"
   - "C.31.ASAP:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 76135
-line_end: 76144
+line_start: 79663
+line_end: 79672
 dependencies:
   - "A.1.1"
   - "A.10"
   - "A.17"
   - "A.18"
   - "A.19"
-  - "A.19.CPM"
   - "A.2.6"
   - "A.6.M"
   - "B.3"
@@ -34,12 +33,7 @@ dependencies:
   - "C.31"
   - "C.31.RSA"
   - "C.32"
-  - "C.32.ACS"
-  - "C.32.P2S"
   - "C.32.PAD"
-  - "C.33"
-  - "C.34"
-  - "C.35"
   - "G.5"
   - "G.6"
   - "G.9"
@@ -60,7 +54,7 @@ keywords:
 | Anti-pattern | Symptom | Repair |
 | --- | --- | --- |
 | `ModularThereforeScalable` | The text says modular or platform architecture scales without scale variable, window, slope evidence, or exception curve. | Add `ScaleClaimTriage` or downgrade to C.31 characteristic cue. |
-| `GenericScaleAudit` | Audit fields appear with no architecture alternative set or preference use. | Recover the actual architecture question and retain only the content needed to answer it. |
+| `GenericScaleAudit` | Audit fields appear with no architecture alternative set or preference use. | Recover the architecture question and retain only the content needed to answer it. |
 | `AllExceptionsAreDebt` | Any non-scale-amenable choice becomes debt. | Test waiver reasons and keep justified bounded exceptions out of `ArchitectureHeuristicDebt`. |
 | `RGAsScaleProof` | Coarse-graining or RG wording is used as a scale-preference claim. | Establish the mathematical grounds and C.31.ASAP preference conditions. Use C.29 for an unresolved representation or reliance question; retain source return when the inference depends on omitted distinctions. |
 | `ShareAsScalePreferenceEvidence` | `ReusableStructureShare` or `BespokeResidueShare` is used to prefer one alternative. | Keep the share report-only in C.31.RSA until scale variable, window, and admissible comparison are declared. |

@@ -6,12 +6,12 @@ section_id: "A.3.2.DE:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2.DE/A.3.2.DE__009_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.3.2.DE — Describe a Method for Its Intended Use"
   - "A.3.2.DE:7 — Conformance Checklist"
-line_start: 11908
-line_end: 11918
+line_start: 12325
+line_end: 12335
 dependencies:
   - "A.3.2"
   - "C.37"
@@ -22,7 +22,7 @@ keywords:
 
 ### A.3.2.DE:7 - Conformance Checklist
 
-- [ ] Each `U.MethodDescription` result names one `A.3.1`-admitted Method as its exact `EntityOfConcern`.
+- [ ] Each `U.MethodDescription` result names one `A.3.1`-admitted Method as its `EntityOfConcern`.
 - [ ] A candidate whole remains a candidate account when Method admission is absent.
 - [ ] Every named use has a receiver, action or decision, situation, qualification window, and stop.
 - [ ] Included claims say something substantive about the Method as a way of doing. An enactment or learning description lets the prepared reader recover the needed operations and their input/result connections, or exposes the missing contribution.

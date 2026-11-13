@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.10.LRN"
-pattern_title: "Recovering What “Learning” Means in the Current Claim"
+pattern_title: "Recover What “Learning” Means in This Claim"
 section_id: "E.10.LRN:5"
 section_title: "Worked Slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.LRN/E.10.LRN__007_worked-slices.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "E.10.LRN — Recovering What “Learning” Means in the Current Claim"
+  - "E.10.LRN — Recover What “Learning” Means in This Claim"
   - "E.10.LRN:5 — Worked Slices"
-line_start: 100727
-line_end: 100752
+line_start: 106369
+line_end: 106400
 dependencies:
   - "A.10"
   - "A.15"
@@ -49,7 +49,9 @@ keywords:
 
 #### E.10.LRN:5.1 - Taught to swim and learned to swim
 
-“A coach taught Lee to swim” opens a teaching-Work claim. Recover coach and Lee as Systems, the dated coaching and practice Work, enacted Method, conditions, and intended result. “Lee learned to swim” opens a holder-capability claim. Recover target swimming Work, support conditions, observed performance, transfer conditions, and evidence. The second sentence does not identify the causal route; the first does not prove the second. A later causal question uses `C.28`.
+“A coach taught Lee to swim” opens a teaching-Work claim. Recover coach and Lee as Systems, the dated coaching and practice Work, enacted Method, conditions, and intended result.
+
+“Lee learned to swim” opens a holder-capability claim. Recover target swimming Work, support conditions, observed performance, transfer conditions, and evidence. The capability claim leaves the causal route open. The teaching claim does not prove the capability claim. A later causal question uses `C.28`.
 
 #### E.10.LRN:5.2 - GAN training
 
@@ -65,9 +67,13 @@ An active-learning policy chooses a query or observation because its expected re
 
 #### E.10.LRN:5.5 - Public construction
 
-A participant builds and explains a working pump simulation. The artifact and explanation make some model choices inspectable. Assessment Work may use them as evidence for bounded claims. Independent diagnosis of a changed pump configuration is a different representative task. Use adequate existing performance evidence for that capability or transfer claim. If its relevant conditions remain untested, a warranted test under the declared support conditions can supply the missing evidence.
+A participant builds and explains a working pump simulation. The artifact and explanation make some model choices inspectable. Assessment Work may use them as evidence for bounded claims.
+
+Independent diagnosis of a changed pump configuration is a different representative task. Use adequate existing performance evidence for that capability or transfer claim. If its relevant conditions remain untested, a warranted test under the declared support conditions can supply the missing evidence.
 
 #### E.10.LRN:5.6 - Organizational learning
 
-An organization publishes a “lessons learned” report. This establishes an available episteme. A supported claim that a new variant entered an institutional memory may finish at that narrower result. A claim that people changed their practice needs the relevant Method, assignment and Work facts and evidence of the claimed change. Recover selection, retention or operating consequences only for the cultural claim that uses them; publication alone does not establish changed enacted practice.
+An organization publishes a “lessons learned” report. This establishes an available episteme. A supported claim that a new variant entered an institutional memory may finish at that narrower result.
+
+A claim that people changed their practice needs the relevant Method, assignment and Work facts and evidence of the claimed change. Recover selection, retention or operating consequences only for the cultural claim that uses them. Publication alone does not establish changed enacted practice.
 

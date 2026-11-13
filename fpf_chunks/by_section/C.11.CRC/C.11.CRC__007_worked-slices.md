@@ -6,12 +6,12 @@ section_id: "C.11.CRC:5"
 section_title: "Worked Slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.CRC/C.11.CRC__007_worked-slices.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.11.CRC — Configuration-Relative Contribution Comparison"
   - "C.11.CRC:5 — Worked Slices"
-line_start: 57550
-line_end: 57567
+line_start: 59882
+line_end: 59903
 dependencies:
   - "A.1.CSD"
   - "A.10"
@@ -46,7 +46,11 @@ keywords:
 
 #### C.11.CRC:5.1 - Flood-pump modernization
 
-The current station configuration `FPS7-C19` supports bounded discharge use. A candidate bearing-temperature sensor is not compared with “no pump” or by its isolated diagnostic accuracy. The finite comparison uses `FPS7-C19` as `S0`; sensor, placement, cabling, controller, maintenance access, calibration, and operating procedure changes as `Δ`; and the installed candidate as `S1`. Result coordinates include discharge continuity, failure detection, maintenance access, recoverability, and evidence continuity. Resource coordinates include outage time and maintenance burden plus the resource costs of installation work, calibration, and observation. The current result is indeterminate because placement and maintenance evidence are missing; another observed-load window can change the decision. The chooser may return `probe again` under `C.11` if that window supplies a feasible, worthwhile probe that could change the choice.
+The current station configuration `FPS7-C19` supports bounded discharge use. A candidate bearing-temperature sensor is not compared with “no pump” or by its isolated diagnostic accuracy. The finite comparison uses `FPS7-C19` as `S0`; sensor, placement, cabling, controller, maintenance access, calibration, and operating procedure changes as `Δ`; and the installed candidate as `S1`.
+
+Result coordinates include discharge continuity, failure detection, maintenance access, recoverability, and evidence continuity. Resource coordinates include outage time and maintenance burden plus the resource costs of installation work, calibration, and observation.
+
+The current result is indeterminate because placement and maintenance evidence are missing; another observed-load window can change the decision. The chooser may return `probe again` under `C.11` if that window supplies a feasible, worthwhile probe that could change the choice.
 
 #### C.11.CRC:5.2 - Capability-development programme
 

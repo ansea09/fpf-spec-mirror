@@ -6,12 +6,12 @@ section_id: "E.10:19"
 section_title: "E.10 regression cues (concept-only “diff” triggers)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__021_e-10-regression-cues-concept-only-diff-triggers.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:19 — E.10 regression cues (concept-only “diff” triggers)"
-line_start: 100563
-line_end: 100581
+line_start: 106205
+line_end: 106223
 dependencies:
   - "A.10"
   - "A.15"
@@ -62,18 +62,18 @@ keywords:
 
 Re-review your prose when any of these happen:
 
-* **A source edition, effective scheme, or local meaning changes** → re-affirm any Tech-and-Plain twin mapping and first-use gloss; recheck an F.9 Bridge, use claim, reliance claim, or acceptance wording only when that exact changed value participates.
+* **A source edition, effective scheme, or local meaning changes** → re-affirm any Tech-and-Plain twin mapping and first-use gloss; recheck an F.9 Bridge, use claim, reliance claim, or acceptance wording only when that changed value participates.
 * **A system-role-kind or other governed name grows through coordination** → use `F.19` to ask whether a series is needed, then apply MG-DA only if the name still hides one kind, alternatives, a relation, or a bundle. Two members may already be excessive; a long required designation may be sound. Bare *role* first uses `E.10.ROLE`.
 * **A slash, `and`, `plus`, `&`, repeated pair, nested list, or modifier chain appears in FPF-governed wording** → read the natural span through `F.19` before editing the mark. Retain conventional notation and required sets. If an FPF kind, alternative, direct relation, declaration, or representation remains hidden, use the selected E.10 or subject route; do not infer the defect from the character or item count alone.
 * **A `service` statement broadens scope** → use L-SERV and A.6.P:4.11a to recover the hidden subject, relation, and receiving use. Update only that recovered claim; do not apply a fixed reading list or rewrite every nearby service-related claim.
-* **Recipes gain or lose steps** -> first recover the exact `U.Method`, the claim-bearing episteme, and the changed claim. Update **`U.MethodDescription`** only when that episteme has the method as its exact EntityOfConcern and passes A.3.2; a code, diagram, recipe, procedure, or document-form change remains under the pattern for that representation or publication unless claim content actually changes. Never move the change into service labels or system-role-kind names.
+* **Recipes gain or lose steps** -> first recover the exact `U.Method`, the claim-bearing episteme, and the changed claim. Update **`U.MethodDescription`** only when that episteme has the method as its EntityOfConcern and passes A.3.2; a code, diagram, recipe, procedure, or document-form change remains under the pattern for that representation or publication unless claim content changes. Never move the change into service labels or system-role-kind names.
 * **An agentive or causal predicate is attached to a doubtful subject** → read the whole span through `F.19`, including negation and modality; retain established metonymy or state the capable participant or exact non-agentive relation positively.
-* **A verb or relational noun loses a needed participant** → restore the object, destination, source, bearer, or other operand when one value is not cheaply and uniquely recoverable; open a deeper FPF route only if that participant is itself governed.
+* **A verb or relational noun loses a needed participant** → restore the object, destination, source, bearer, or other operand when one value is not cheaply and uniquely recoverable; open a deeper FPF route only if that participant is governed.
 * **A generic head or support-headed compound acquires an FPF claim or bounded use** → restore the head kind first. If `support` still hides a direct predicate or participant, use the selected E.10 route; otherwise state the concrete sentence and apply its subject pattern.
 * **Wording about a way of doing or a neighboring object changes** → use the selected method-side rule in `E.10:0.2c` or section 9 to recover the exact object or relation. Do not replace one umbrella with `method`, `practice`, `mechanism`, `algorithm`, or `workflow`.
-* **A declarative representation starts to sound imperative** → recover the represented object and correspondence through `C.2.P.DR` or the exact subject pattern, with `C.29` for mathematical-lens use. Treat a path, table, dashboard, formula, or pattern relation as action only when an action claim is actually established.
+* **A declarative representation starts to sound imperative** → recover the represented object and correspondence through `C.2.P.DR` or the exact subject pattern, with `C.29` for mathematical-lens use. Treat a path, table, dashboard, formula, or pattern relation as action only when an action claim is established.
 * **New token minted** → ensure `LEX.TokenClass` is declared and perform collision checks. If an enumeration is current, name its closed value set, classified kind, and classification rule; add a `CharacteristicSpace` only when the enumeration is the declared CSLC scale of one named `U.Characteristic`.
 * **Suffix drift** (e.g., `…Work` on a plan) → fix via **LEX.Morph**.
-* **A label is reused across local sources, practices, or schemes** → recover each local meaning. Keep them distinct unless an F.9 Bridge actually obtains between exact cells; state any proposed use and reliance separately.
+* **A label is reused across local sources, practices, or schemes** → recover each local meaning. Keep them distinct unless an F.9 Bridge obtains between exact cells; state any proposed use and reliance separately.
 * **A guarded head needs a new label** → prefer a guarded-head note first; if no admissible existing token remains for one durable reusable name, settle the value and its use, record the applicable **F.8** decision, and use **F.18** plus an **F.17** row when public publication is current.
 

@@ -6,12 +6,12 @@ section_id: "C.38:5"
 section_title: "Worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.38/C.38__006_worked-cases.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.38 — Construct Comparable Ways to Obtain One Result"
   - "C.38:5 — Worked cases"
-line_start: 82561
-line_end: 82582
+line_start: 86591
+line_end: 86614
 dependencies:
   - "A.10"
   - "A.15.9"
@@ -43,11 +43,13 @@ The same parity questions expose plant interfaces, commissioning evidence, respo
 
 A music project intends one bounded Music Work occurrence and a recording through which a later learner can recover the required timing and spatial relation. Before production, the project compares a local live-capture way, a specialist mobile-team way, and a venue-service way for that same result and use.
 
-`C.38` makes the three proposed ways answer the same fidelity, access, rights, setup, performer-interference, evidence, support, resource, and recovery questions. The comparison remains one standalone ordinary episteme and its finite set goes to `C.11`; neither result says that performance or recording Work has occurred. After a way is retained, the performance-production Method integrates the selected production and presentation inputs, tests the load-bearing artistic or participatory relation, and records the actual performed Work, artifact, and unresolved limits separately. `C.38` absorbs none of that Work, artistic authority, publication, or rights decision.
+`C.38` makes the three proposed ways answer the same fidelity, access, rights, setup, performer-interference, evidence, support, resource, and recovery questions. The comparison remains one standalone ordinary episteme and its finite set goes to `C.11`; neither result says that performance or recording Work has occurred.
+
+After a way is retained, the performance-production Method integrates the selected production and presentation inputs, tests the load-bearing artistic or participatory relation, and records the performed Work, artifact, and unresolved limits separately. `C.38` absorbs none of that Work, artistic authority, publication, or rights decision.
 
 #### C.38:5.3 - Direct Method-base stop
 
 A Method Engineering team needs an enactment-support configuration for one bounded task set. Its direct Method already constructs candidate configurations on one basis, preserves evidence status and incomparability, tests retained routes, and returns a supported configuration, retained set, split, or gap.
 
-Use that direct Method. Adding a `C.38` account for the same decision would duplicate its action and result. Open `C.38` only if a different wider question appears—for example, several complete ways to make an independently named support result available to another receiver.
+Use that direct Method. Adding a `C.38` account for the same decision would duplicate its action and result. Open `C.38` only if a wider question appears—for example, several complete ways to make an independently named support result available to another receiver.
 

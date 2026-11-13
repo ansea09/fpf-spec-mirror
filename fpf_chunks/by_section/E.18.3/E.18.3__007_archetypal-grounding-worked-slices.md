@@ -6,12 +6,12 @@ section_id: "E.18.3:5"
 section_title: "Archetypal Grounding — Worked Slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.3/E.18.3__007_archetypal-grounding-worked-slices.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.18.3 — Constraint-Governed Transformation-Flow Unfolding Structure"
   - "E.18.3:5 — Archetypal Grounding — Worked Slices"
-line_start: 111905
-line_end: 112068
+line_start: 118955
+line_end: 119147
 dependencies:
   - "A.10"
   - "A.15"
@@ -41,15 +41,21 @@ keywords:
 
 ### E.18.3:5 - Archetypal Grounding — Worked Slices
 
-**Ordinary first use — heat-treatment card.** A practitioner reviewing the flow card for `GearBlank@Lot-14` marks “soak complete” and “quench candidate,” writes “quench remains an admissible continuation only when the measured soak state is within the allowed range,” and asks whether the card may show that continuation or which fact or constraint is missing. If the measured-state fact or range rule is unavailable, the useful result is a provisional explanation naming that gap. The team may use it to correct or discuss the card and stop; it authorizes no Work and asserts no C.2.1 episteme, A.22 structure, E.18 position, applied constraint claim, E.18 guard event, or relation occurrence. Continue to formal recovery only when the named use depends on the organization's identity and qualification as an E.18.3 structure.
+**Ordinary first use — heat-treatment card.** A practitioner reviewing the flow card for `GearBlank@Lot-14` marks “soak complete” and “quench candidate,” writes “quench remains an admissible continuation only when the measured soak state is within the allowed range,” and asks whether the card may show that continuation or which fact or constraint is missing.
 
-**Candidate-set replay entry.** When the team must determine whether the proposed candidate-set repair organization qualifies as an E.18.3 structure, name one proposed selected-structure use, `CandidateSetComparisonBasis@Review-2026-07` and its kind, then describe candidate `ReferenceEditionChangePosition` and `ComparisonRecalculationPosition` plus the proposed dependency `ComparisonDependsOnAdmittedEdition`. Because this use needs a replayable claim, constitute an ordinary C.2.1 provisional episteme whose EntityOfConcern is the qualification question about that proposed organization. Its ClaimContent names the G.11 currentness test and A.19.CPM comparison rule as needed contributions and states that the A.22 identity, exact E.18 bindings, and dependency occurrence remain unresolved. This prevents a stale-edition comparison from looking current without asserting a structure, typed position, or relation prematurely.
+If the measured-state fact or range rule is unavailable, the useful result is a provisional explanation naming that gap. The team may use it to correct or discuss the card and stop; it authorizes no Work and asserts no C.2.1 episteme, A.22 structure, E.18 position, applied constraint claim, E.18 guard event, or relation occurrence. Continue to formal recovery only when the named use depends on the organization's identity and qualification as an E.18.3 structure.
+
+**Candidate-set replay entry.** When the team must determine whether the proposed candidate-set repair organization qualifies as an E.18.3 structure, name one proposed selected-structure use, `CandidateSetComparisonBasis@Review-2026-07` and its kind, then describe candidate `ReferenceEditionChangePosition` and `ComparisonRecalculationPosition` plus the proposed dependency `ComparisonDependsOnAdmittedEdition`.
+
+Because this use needs a replayable claim, constitute an ordinary C.2.1 provisional episteme whose EntityOfConcern is the qualification question about that proposed organization. Its ClaimContent names the G.11 currentness test and A.19.CPM comparison rule as needed contributions and states that the A.22 identity, exact E.18 bindings, and dependency occurrence remain unresolved.
+
+This account keeps a comparison based on a stale edition from appearing current. It does not yet assert a structure, typed position, or relation.
 
 **P2W carry-through.** Accepted problem-side records may name distinctions, constraints and unresolved relation positions that guide later Method selection, planning, Work, interpretation and reconsideration. E.18.3 may organize independently current objects only after the selected A.22 structure, E.18 position bindings and direct relations are recovered. It does not authorize launch or performed Work, does not admit any MethodDescription from intended use, and does not replace E.18.1 carry-through.
 
 **Recursive build-the-builder demonstration.** After a network and its E.18.3 mappings are established, a slice follows one finite member path to an established leaf position. The network mapping points to the same included `CGUSLocusBinding`, and every cross-member row cites a relation-reference episteme with matching participant positions and bindings. The leaf path slice and tag stay in its member-local row. Before those facts are recovered, the graph remains an explanation rather than a network-aware slice.
 
-**Complete compact high-reliance case — edition-current comparison basis.** This replayable comparison has two potential continuations: recalculate with the admitted edition, or stop and replace the edition. The exact objects and occurrences below have already been identified.
+**Complete compact high-reliance case — edition-current comparison basis.** This replayable comparison has two potential continuations: recalculate with the admitted edition, or stop and replace the edition. The objects and occurrences named below have already been identified.
 
 ```text
 selectedCGUSRef: EditionComparisonUnfolding@Review-2026-08
@@ -134,8 +140,11 @@ stopCondition: stop recalculation if the currentness result, dependency occurren
 reconsiderationCondition: re-evaluate both candidates when the edition or currentness facts change
 ```
 
-The structure has two potential candidates; the present window enables recalculation and disables replacement, with no unknown or error result. The currentness claim remains a condition claim with a test, applicability, inputs, and facts; it is not inserted into `relationReferenceEpistemeRefs[]`. If those facts disappear, the recalculation candidate becomes unknown and the replacement candidate is judged under its own condition; the topology and structure do not change merely because the enabled set does.
-**Partial candidate-set recovery display.** The larger four-position account below preserves the broader teaching slice but intentionally leaves several exact values unresolved. It is a scaffold for recovery, not a worked conformance proof:
+The structure has two potential candidates; the present window enables recalculation and disables replacement, with no unknown or error result. The currentness claim remains a condition claim with a test, applicability, inputs, and facts; it is not inserted into `relationReferenceEpistemeRefs[]`.
+
+If those facts disappear, the recalculation candidate becomes unknown and the replacement candidate is judged under its own condition; the topology and structure do not change merely because the enabled set does.
+
+**Partial candidate-set recovery display.** The larger four-position account below shows a broader teaching slice with several values still unresolved. Use it to recover those values before claiming conformance:
 
 ```text
 selectedCGUSRef: CandidateSetRepairUnfoldingStructure@Review-2026-07
@@ -187,19 +196,39 @@ demonstrativeSliceRef:
   separate post-admission C.2.1 episteme for CandidateSetRepairTeaching
 ```
 
-The unresolved position refs and bindings, the full ClaimContents and current bases of both dependency references, the tests and current facts for both applied claims, and every neighboring-value row must be recovered before this larger account can pass the checklist. Neither applied claim belongs in `relationReferenceEpistemeRefs[]`. After those values and the omission and reconsideration conditions are recoverable, the demonstration ref may name a separate episteme about the same selected structure. Use C.33 for the omission account when carrier loss affects a declared architecture use.
+The unresolved position refs and bindings, the full ClaimContents and current bases of both dependency references, the tests and current facts for both applied claims, and every neighboring-value row must be recovered before this larger account can pass the checklist. Neither applied claim belongs in `relationReferenceEpistemeRefs[]`.
 
-**Local edition-relation repair.** After `ReferencePublicationEdition@v2` is admitted, use `G.11` to record the edition change; `ComparisonDependsOnAdmittedEdition` still references v1. Keep independently unchanged constituents, positions, path and path-slice identifiers, preserved structures, and reconsideration conditions. Re-evaluate the relation under its predicate definition and current facts, replace the selected occurrence only if the v2 predicate obtains, and then re-evaluate `EditionAdmissionGuard` explicitly as an applied constraint claim under its test and current facts. Reopen the A.19.CPM comparison use only if its basis changed, C.18 only if the comparison result changed, and C.32.PAD only if that retained-set change affects the current decision. If the selected occurrence changes, the A.22 relation discriminator changes and the selected structure must be reidentified; mere publication wording or a new relation-reference episteme does not do so.
+After those values and the omission and reconsideration conditions are recoverable, the demonstration ref may name a separate episteme about the same selected structure. Use C.33 for the omission account when carrier loss affects a declared architecture use.
 
-**Connected-box proxy failure.** A team reports that every flow-card box is connected and adds low-value edges until path coverage reaches its target. The relation count rises, condition labels no longer distinguish applied claims, E.18 guard events, and actual relation occurrences, stale dependencies remain unrepaired, and unsupported neighboring connections increase. Edge count, labels, and path coverage describe the expression only. Remove edges without exact occurrences and predicate definitions, recover each continuation's actual condition branch, evaluate whether practitioners select the correct continuation and smallest repair, and use `E.13` when display coverage substitutes for those outcomes.
+**Local edition-relation repair.** After `ReferencePublicationEdition@v2` is admitted, use `G.11` to record the edition change; `ComparisonDependsOnAdmittedEdition` still references v1. Keep independently unchanged constituents, positions, path and path-slice identifiers, preserved structures, and reconsideration conditions.
 
-**Architecture P2S projection.** A P2S flow card includes architecture-relevant problem pressure, unknown or selected structures, synthesis positions and actual-structure feedback. If one selected CGUS satisfies E.18.3, cite its exact E.18 positions and relations. `C.32.P2S` defines and constrains selected and expected epistemic structures and their exact use; realization Work and actual world-side structures remain separate. `C.30.TFS-REL` supplies the architecture-use rule and `C.32.PAD` supplies the architecture-decision test. One exact `C.32.CONWAY` correspondence may be one qualified E.18.NET row, never the whole network.
+Re-evaluate the relation under its predicate definition and current facts, replace the selected occurrence only if the v2 predicate obtains, and then re-evaluate `EditionAdmissionGuard` as an applied constraint claim under its test and current facts. Reopen the A.19.CPM comparison use only if its basis changed, C.18 only if the comparison result changed, and C.32.PAD only if that retained-set change affects the current decision.
 
-**Physical workpiece transformation.** A heat-treatment unfolding use concerns `GearBlank@Lot-14`, independently admitted as a project `U.Holon`, and selects exact E.18 positions for load, soak, quench, and hardness evaluation. `QuenchAdmittedAfterSoakRange` is an applied condition claim only when its range test and current measured-state facts are recoverable; it is not thereby a relation occurrence or E.18 guard event. If an exact `USM.CompareGuard` or `USM.LaunchGuard` failure is current, recover that event and its gate-assignment facts separately. Furnace loading and quenching must pass the applicable A.15 plan or dated-Work test; each actual heat-treatment change must pass A.3.4; production, inception, or completion uses the A.15.PROD tests; hardness uses the applicable measurement, evaluation, and evidence rules. A flow card can expose alternatives before execution without claiming that Work occurred.
+If the selected occurrence changes, the A.22 relation discriminator changes and the selected structure must be reidentified; mere publication wording or a new relation-reference episteme does not do so.
 
-**Clinical transformation planning.** A treatment-adjustment unfolding use concerns `Patient@Case-17`, independently admitted as a `U.System`, and selects assessment, intervention-candidate, contraindication, observed-state, and reconsideration positions. A contraindication condition remains an applied clinical claim with its test and current facts; a cited E.18 guard failure remains an event with its gate-assignment facts; and the one exact observed-state relation changes admissibility only when its independently defined kind and occurrence obtain. The selected structure does not authorize treatment, show that evidence is sufficient, replace clinical judgement, admit a MethodDescription, or show that an intervention occurred; those claims require the applicable clinical DPF, permission, Work, evidence, and gate definitions or tests plus the current facts or evidence that satisfy them.
+**Connected-box proxy failure.** A team reports that every flow-card box is connected and adds low-value edges until path coverage reaches its target. The relation count rises, condition labels no longer distinguish applied claims, E.18 guard events, and actual relation occurrences, stale dependencies remain unrepaired, and unsupported neighboring connections increase.
 
-**Formal flow-expression boundary.** A team expresses the candidate-set repair use as a directed graph or DCR model to ask whether `DecisionRepairPosition` is reachable after `EditionAdmissionGuard`. The expression may preserve the dependency topology and a condition label plus the queried path, but it does not decide whether that condition is an applied claim, an E.18 guard event, or an independently defined relation occurrence. It also loses neighboring claims already shown to obtain, their concrete contributions, description omissions (including C.33 omissions for a declared architecture use), and currentness semantics unless those are separately mapped. Use `E.18.2` for the mathematical description and `C.29` for its declared use, preserved/lost structure, and stop. Positive reachability alone shows neither the condition's ontic type, currentness, retained-set validity, decision repair, Work order, nor selected-structure identity.
+Edge count, labels, and path coverage describe the expression only. Remove edges without exact occurrences and predicate definitions, recover each continuation's actual condition branch, evaluate whether practitioners select the correct continuation and smallest repair, and use `E.13` when display coverage substitutes for those outcomes.
 
-**Reference-currentness repair.** A one-TFS path slice may depend on an admitted publication edition, a `G.2` source-use relation, a source pack or a telemetry window. E.18:5.13 supplies the complete actual dependency closure, addressed through all needed PathSlices. G.11 supplies the tests for source currentness, decay, edition shift, deprecation, reship and no-change claims. Connect these values only through exact obtaining occurrences and their predicate definitions, and reconsider every dependent continuation, including both branches of a shared dependency and their join; do not create a combined currentness-refresh value.
+**Architecture P2S projection.** A P2S flow card includes architecture-relevant problem pressure, unknown or selected structures, synthesis positions and actual-structure feedback. If one selected CGUS satisfies E.18.3, cite its exact E.18 positions and relations. `C.32.P2S` defines and constrains selected and expected epistemic structures and their exact use; realization Work and actual world-side structures remain separate.
+
+`C.30.TFS-REL` supplies the architecture-use rule and `C.32.PAD` supplies the architecture-decision test. One `C.32.CONWAY` correspondence may be one qualified E.18.NET row, never the whole network.
+
+**Physical workpiece transformation.** A heat-treatment unfolding use concerns `GearBlank@Lot-14`, independently admitted as a project `U.Holon`, and selects exact E.18 positions for load, soak, quench, and hardness evaluation. `QuenchAdmittedAfterSoakRange` is an applied condition claim only when its range test and current measured-state facts are recoverable; it is not thereby a relation occurrence or E.18 guard event. If an exact `USM.CompareGuard` or `USM.LaunchGuard` failure is current, recover that event and its gate-assignment facts separately.
+
+Furnace loading and quenching must pass the applicable A.15 plan or dated-Work test; each actual heat-treatment change must pass A.3.4; production, inception, or completion uses the A.15.PROD tests; hardness uses the applicable measurement, evaluation, and evidence rules. A flow card can expose alternatives before execution without claiming that Work occurred.
+
+**Clinical transformation planning.** A treatment-adjustment unfolding use concerns `Patient@Case-17`, independently admitted as a `U.System`, and selects assessment, intervention-candidate, contraindication, observed-state, and reconsideration positions. A contraindication condition remains an applied clinical claim with its test and current facts; a cited E.18 guard failure remains an event with its gate-assignment facts; and the observed-state relation changes admissibility only when its independently defined kind and occurrence obtain.
+
+The selected structure does not authorize treatment, show that evidence is sufficient, replace clinical judgement, admit a MethodDescription, or show that an intervention occurred; those claims require the applicable clinical DPF, permission, Work, evidence, and gate definitions or tests plus the current facts or evidence that satisfy them.
+
+**Formal flow-expression boundary.** A team expresses the candidate-set repair use as a directed graph or DCR model to ask whether `DecisionRepairPosition` is reachable after `EditionAdmissionGuard`. The expression may preserve the dependency topology and a condition label plus the queried path, but it does not decide whether that condition is an applied claim, an E.18 guard event, or an independently defined relation occurrence.
+
+It also loses neighboring claims already shown to obtain, their concrete contributions, description omissions (including C.33 omissions for a declared architecture use), and currentness semantics unless those are separately mapped.
+
+Use `E.18.2` for the mathematical description and `C.29` for its declared use, preserved/lost structure, and stop. Positive reachability alone shows neither the condition's ontic type, currentness, retained-set validity, decision repair, Work order, nor selected-structure identity.
+
+**Reference-currentness repair.** A one-TFS path slice may depend on an admitted publication edition, a `G.2` source-use relation, a source pack or a telemetry window. E.18:5.13 supplies the complete dependency closure, addressed through all needed PathSlices. G.11 supplies the tests for source currentness, decay, edition shift, deprecation, reship and no-change claims.
+
+Connect these values only through exact obtaining occurrences and their predicate definitions, and reconsider every dependent continuation, including both branches of a shared dependency and their join; do not create a combined currentness-refresh value.
 

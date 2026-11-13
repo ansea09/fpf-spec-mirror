@@ -6,12 +6,12 @@ section_id: "C.30.ASV:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ASV/C.30.ASV__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
   - "C.30.ASV:3 — Forces"
-line_start: 73311
-line_end: 73321
+line_start: 76447
+line_end: 76457
 dependencies:
   - "A.1"
   - "A.10"
@@ -68,8 +68,8 @@ keywords:
 | Force | Tension |
 | --- | --- |
 | View usefulness vs view overread | Views make architecture discussable, but a useful description episteme, diagram, or publication form can be mistaken for architecture, selected structure, view membership, proof, or decision. |
-| Structure kind vs viewpoint | A structure kind classifies selected structure; one exact viewpoint episteme states the rules under which the same candidate episteme is a view. They often appear together but are not the same object. |
-| TEVB template reuse vs architecture-specific structure | E.17.2 distinguishes four useful authoring positions but supplies no current family or viewpoint references. Only a materialized project-local family declaration supplies that family's exact reusable `U.ViewpointRef` members; architecture-specific structure kinds are defined beside them and alter neither the resolved P editions nor declaration membership. |
+| Structure kind vs viewpoint | A structure kind classifies selected structure; one viewpoint episteme states the rules under which the same candidate episteme is a view. They often appear together but are not the same object. |
+| TEVB template reuse vs architecture-specific structure | E.17.2 distinguishes four useful authoring positions but supplies no current family or viewpoint references. Only a materialized project-local family declaration supplies that family's reusable `U.ViewpointRef` members; architecture-specific structure kinds are defined beside them and alter neither the resolved P editions nor declaration membership. |
 | Small triage vs full view record | Many cases need only the structure kind under consideration and next architecture use; the full description-plus-conformance record is justified only when it changes action. |
 | Multi-view correspondence vs single-view shortcut | Architecture work often needs relations among functional, flow, control, module, information, work, evidence, scale, and placement views; one favored diagram cannot carry all claims. |
 | Hidden structure vs practical compression | A useful view can omit structure; an omission becomes a problem when the intended use needs the omitted distinction. |

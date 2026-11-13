@@ -6,12 +6,12 @@ section_id: "A.3.1.MI:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MI/A.3.1.MI__009_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.3.1.MI — Introduce a Method into Practice and Decide What to Keep or Change"
   - "A.3.1.MI:7 — Conformance Checklist"
-line_start: 11399
-line_end: 11414
+line_start: 11800
+line_end: 11815
 dependencies:
   - "A.3.1"
   - "A.3.1.FT"
@@ -24,7 +24,7 @@ keywords:
 ### A.3.1.MI:7 - Conformance Checklist
 
 - [ ] Claimed target subjects, the admitted introduction Method or candidate introduction account, any relied-on description, any separate WorkPlan, performed Work and relied-on relations are distinguished. A description is classified as `U.MethodDescription` only when A.3.2 establishes membership for an admitted Method.
-- [ ] Every organizational claim names the organizational System, selected structure, constituent organization, or relation organization actually relied on.
+- [ ] Every organizational claim names the organizational System, selected structure, constituent organization, or relation organization relied on.
 - [ ] For each decision-relevant observation, state what it supports and the next action or stop; name a maintained result, particular claim or edition, and receiving Agent or governing pattern when that return is current.
 - [ ] Introduction Work is stated as an attempt intended to establish named conditions, with any applicable authorization basis kept separate. A failed attempt remains recordable as Work.
 - [ ] Decision-relevant capability keeps its A.2.2 basis and currentness, or returns the missing basis. Adequate existing capability without a needed change requires no development result. Only a needed capability-change claim consumes a compatible development result or returns its missing/stale basis with a next governing action or stop; irrelevant capability detail is omitted.

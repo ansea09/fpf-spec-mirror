@@ -6,12 +6,12 @@ section_id: "A.6.C:End"
 section_title: "A.6.C:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.C/A.6.C__014_a-6-c-end.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.C — Contract Unpacking for Boundaries"
   - "A.6.C:End — A.6.C:End"
-line_start: 15825
-line_end: 15826
+line_start: 16400
+line_end: 16401
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -34,7 +34,7 @@ dependencies:
   - "U.SpeechAct"
   - "U.Work"
 keywords:
-  - "A.6.B separately classifies the actual claim"
+  - "A.6.B separately classifies the claim"
   - "MVPK no-new-semantics"
   - "OPTIONAL or authority-looking wording is ambiguous"
   - "atomic L/A/D/E rows"

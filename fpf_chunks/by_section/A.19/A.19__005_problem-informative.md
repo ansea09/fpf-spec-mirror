@@ -6,12 +6,12 @@ section_id: "A.19:3"
 section_title: "Problem (Informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19/A.19__005_problem-informative.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.19 — CharacteristicSpace: Coordinates, State Predicates and Dynamics Hook (A.CHR‑SPACE)"
   - "A.19:3 — Problem (Informative)"
-line_start: 34663
-line_end: 34671
+line_start: 36143
+line_end: 36151
 dependencies:
   - "A.10"
   - "A.15"
@@ -54,6 +54,6 @@ keywords:
 - **P2 - Hidden change conditions.** Stage labels can conceal the state differences and allowed returns needed by the current model. Declare those meanings and transitions when the use relies on them.
 - **P3 - Semantic-locality collapse.** Different claim scopes, context slices, reference schemes, or reference planes may use different coordinate sets or meanings. Treating one umbrella context label as their common identity makes projection and comparison unverifiable.
 - **P4 - Relational characteristics.** A multi-entity characteristic loses arity and direction when flattened into an intrinsic scalar.
-- **P5 - Hidden predicate semantics.** A threshold label or criterion-description edition can conceal the actual input variable, Coordinate projection, Scale, Boolean operator, cut, polarity, and normalization or coordinate-mapping basis.
+- **P5 - Hidden predicate semantics.** A threshold label or criterion-description edition can conceal the input variable, Coordinate projection, Scale, Boolean operator, cut, polarity, and normalization or coordinate-mapping basis.
 - **P6 - Geometry by implication.** An undeclared order, topology, distance, scalarization, or aggregation can silently decide a comparison or selection.
 

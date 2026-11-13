@@ -6,33 +6,21 @@ section_id: "C.25:20a"
 section_title: "Viability-envelope, quantum-like, and temporal-claim relation note"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.25/C.25__022_viability-envelope-quantum-like-and-temporal-claim-relation-note.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.25 — Q-Bundle: Express a Quality Claim as One Characteristic or a Structured Bundle"
   - "C.25:20a — Viability-envelope, quantum-like, and temporal-claim relation note"
-line_start: 65341
-line_end: 65366
+line_start: 68285
+line_end: 68310
 dependencies:
-  - "A.10"
   - "A.15"
-  - "A.16.0"
   - "A.18"
   - "A.2.6"
   - "A.6.1"
   - "B.3"
   - "C.16"
-  - "C.16.P"
   - "C.16.Q"
-  - "C.17"
-  - "C.18"
-  - "C.19"
-  - "C.2.2a"
   - "C.26.3"
-  - "C.33"
-  - "C.34"
-  - "C.35"
-  - "F.9"
-  - "F.9.1"
 keywords:
   - "admissible quality-family use"
   - "characteristic plus scope"
@@ -54,7 +42,7 @@ Practical reading:
 
 1. Decide whether one Characteristic answers the quality question; if it does, stop there.
 2. If several differently typed contributors are load-bearing, identify the bearer and include only those measures, scopes, windows, mechanisms, statuses, or evidence anchors.
-3. If one proxy or this proportional bundle answers the receiving question, stay in `C.25`.
+3. If one proxy or this bundle answers the receiving question, stay in `C.25`.
 4. Open `C.26.3` when several conditions must hold together under a disturbance and the question is whether the viable region is retained, violated or unresolved, or how a proposed change could restore it.
 5. Open `C.27` only when a temporal claim is being used to change action—for example, when rate-change, effort, window, resistance, recovery, or cadence changes that action.
 

@@ -6,12 +6,12 @@ section_id: "A.1:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1/A.1__002_use-this-when.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.1 — Recognize a Whole with Parts (U.Holon and Admitted Holon Kinds)"
   - "A.1:0 — Use This When"
-line_start: 2528
-line_end: 2566
+line_start: 2564
+line_end: 2602
 dependencies:
   - "A.1.1"
   - "A.1.STM"
@@ -46,17 +46,17 @@ Typical moments:
 - a collection is expected to act, but no acting system has been constructively recognized;
 - architecture or selected-structure claims need the holon whose structure is being selected.
 
-**Primary EntityOfConcern.** One exact `U.Entity` candidate whose actual construction may or may not satisfy the constructive recognition criterion for one already admitted holon kind.
+**Primary EntityOfConcern.** A `U.Entity` candidate whose actual construction may or may not satisfy the constructive recognition criterion for an already admitted holon kind.
 
-**Primary working reader.** A practitioner or modeler who must decide whether part-whole, acting-system, or claim-bearing-holon reasoning is admissible for the exact entity under concern before relying on neighboring work, architecture, evidence, or publication claims.
+**Primary working reader.** A practitioner or modeler who must decide whether part-whole, acting-system, or claim-bearing-holon reasoning is admissible for that entity before relying on neighboring work, architecture, evidence, or publication claims.
 
-**First useful move.** Name the exact `U.Entity` under concern. Then test whether its actual construction satisfies the A.1 holon-recognition criterion under an already admitted public holon kind. The kind is already admitted in the current FPF; `E.24.UK` governs the separate one-time decision to admit public U-kinds. The A.1 candidate test does not repeat that ontology decision.
+**First useful move.** Name the `U.Entity` under concern. Then test whether its actual construction satisfies the A.1 holon-recognition criterion under an already admitted public holon kind. The kind is already admitted in the current FPF; `E.24.UK` governs the separate one-time decision to admit public U-kinds. The A.1 candidate test does not repeat that ontology decision.
 
-When the next decision depends on which exact System acts, is intended to change, carries a capability, persists, or is being considered or designated as the project system-of-interest, use `A.1.SCR` to find that proposed subject. `A.1.SCR` first checks whether a non-system subject already answers the decision; apply the complete A.1 criterion only while the decision still depends on systemhood.
+When the next decision depends on which System acts, is intended to change, carries a capability, persists, or is being considered or designated as the project system-of-interest, use `A.1.SCR` to find that proposed subject. `A.1.SCR` first checks whether a non-system subject already answers the decision; apply the complete A.1 criterion only while the decision still depends on systemhood.
 
-Once the exact proposed or observed focus is current, use `A.1.CSD` when the next question is which other Systems may undergo relevant changes and omitting one could change a named decision or investigation. That branch discovers candidate bearers and qualified consequence claims; it does not repeat recognition of the focus or settle causality, evaluation, or choice.
+Once the proposed or observed focus is current, use `A.1.CSD` when the next question is which other Systems may undergo relevant changes and omitting one could change a named decision or investigation. That branch discovers candidate bearers and qualified consequence claims; it does not repeat recognition of the focus or settle causality, evaluation, or choice.
 
-After recognition, use `A.1.STM` when a connected project account is still needed to explain the System's intended use, the functioning and construction required for that use, and how capable creators can obtain that System. Otherwise apply the rule that defines or tests the next claim.
+After recognition, use `A.1.STM` when a connected project account is still needed to explain the System's intended use, the functioning and construction required for that use, and how capable creators can obtain that System, including how to obtain or change a creator the project needs. Otherwise apply the rule that defines or tests the next claim.
 
 
 **What goes wrong if missed.** A claim attributes revision Work to a document, gives a theory physical ports, or treats a list as an organization. A lathe that changes a workpiece is treated as its containing whole without an obtaining part-whole relation. An architecture claim lacks the holon whose structure is selected.

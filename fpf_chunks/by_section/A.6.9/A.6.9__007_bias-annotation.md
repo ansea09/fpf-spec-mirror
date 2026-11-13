@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.9"
-pattern_title: "Cross-Context Sameness Disambiguation - Restoring the concrete claim behind \"same\", \"equivalent\", and \"align\" (RPR-XCTX)"
+pattern_title: "Cross-Context Sameness Disambiguation - Restoring the claim behind \"same\", \"equivalent\", and \"align\" (RPR-XCTX)"
 section_id: "A.6.9:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.9/A.6.9__007_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.6.9 — Cross-Context Sameness Disambiguation - Restoring the concrete claim behind \"same\", \"equivalent\", and \"align\" (RPR-XCTX)"
+  - "A.6.9 — Cross-Context Sameness Disambiguation - Restoring the claim behind \"same\", \"equivalent\", and \"align\" (RPR-XCTX)"
   - "A.6.9:6 — Bias-Annotation"
-line_start: 24762
-line_end: 24772
+line_start: 25683
+line_end: 25693
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -61,7 +61,7 @@ This pattern is biased toward:
 
 * **Explicit action over fluent ambiguity.** It slows only sentences that would otherwise hide what someone will do.
 * **Relation-use separation.** One Bridge can support several independently tested uses without becoming a licence.
-* **Locality of meaning.** Exact scheme and local-sense claims provide the interpretation basis without a reified context bearer.
+* **Locality of meaning.** Scheme and local-sense claims provide the interpretation basis without a reified context bearer.
 * **Evidence humility.** Scores, counterexamples, and invariants inform claims and reliance but do not manufacture relation truth or permission.
 
 The dispatch stays cheap: same-context designation and other directly governed cases stop before F.9. Use the F.9 branch when the current question needs a cross-local semantic relation. A separate bounded-use claim is needed only when a use of an obtaining Bridge is proposed.

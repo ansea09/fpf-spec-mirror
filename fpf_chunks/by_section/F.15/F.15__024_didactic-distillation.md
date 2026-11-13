@@ -6,12 +6,12 @@ section_id: "F.15:18"
 section_title: "Didactic distillation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__024_didactic-distillation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Naming and Semantic Unification"
   - "F.15:18 — Didactic distillation"
-line_start: 123854
-line_end: 123857
+line_start: 131692
+line_end: 131697
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -57,5 +57,7 @@ keywords:
 
 ### F.15:18 - Didactic distillation
 
-Use F.15 as a small check over exact already-governed objects. First pin the finite scope, versions, rules, and receiving use. Then check locality and naming: schemes and cells are exact, the F.18 result records the selected names, an F.17 result records any admitted row, and actual Bridges remain separate from Cards and use claims. Next check execution and result: an application or dated Work is not its C.2.1 result, witnesses are not evidence use, and a record does not perform or publish anything. For change, compare exact prior/later refs and state continuity, loss, and use. When a rule fails, re-evaluate that subject claim under its defining or testing rule; do not patch the label or record field.
+Use F.15 as a small check over exact already-governed objects. First pin the finite scope, versions, rules, and receiving use. Then check locality and naming: schemes and cells are exact, the F.18 result records the selected names, an F.17 result records any admitted row, and actual Bridges remain separate from Cards and use claims. Next check execution and result: an application or dated Work is not its C.2.1 result, witnesses are not evidence use, and a record does not perform or publish anything.
+
+For change, compare exact prior/later refs and state continuity, loss, and use. When a rule fails, re-evaluate that subject claim under its defining or testing rule; do not patch the label or record field.
 

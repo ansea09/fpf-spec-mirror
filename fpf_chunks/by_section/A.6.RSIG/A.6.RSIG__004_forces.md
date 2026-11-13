@@ -6,12 +6,12 @@ section_id: "A.6.RSIG:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIG/A.6.RSIG__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.RSIG — Recognition Signatures: Find the Defining Episteme for a Description"
   - "A.6.RSIG:3 — Forces"
-line_start: 14334
-line_end: 14344
+line_start: 14791
+line_end: 14801
 dependencies:
   - "A.6"
   - "A.6.P"
@@ -28,6 +28,6 @@ keywords:
 | Neutral substrate vs local specialization | This pattern governs description-recognition signatures in general without absorbing pattern-entry discoverability, publication-face law, or boundary-claim routing. |
 | Recognition vs semantics | The cue helps the reader recover the right description and defining `U.Episteme`, not silently redefine the description's full semantics. |
 | Carrier/projection vs authority | An encountered carrier can help recognition without becoming the defining episteme. |
-| Local wording vs controlled lexemes | Real reader language remains usable without minting uncontrolled aliases or shadow names. |
+| Local wording vs controlled lexemes | Reader language remains usable without introducing uncontrolled aliases or shadow names. |
 | Readability vs auditability | The signature stays usable by readers while remaining crisp enough for later review and boundary checking. |
 

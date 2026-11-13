@@ -6,12 +6,12 @@ section_id: "E.24:7"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24/E.24__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.24 — U.Ontic and Ontic Introduction Discipline"
   - "E.24:7 — Common Anti-Patterns and How to Avoid Them"
-line_start: 116519
-line_end: 116531
+line_start: 123953
+line_end: 123965
 dependencies:
   - "A.19.ECS"
   - "A.6.0"
@@ -44,9 +44,9 @@ keywords:
 
 | Anti-pattern | Symptom | Repair |
 | --- | --- | --- |
-| Shadow-kind by repetition | The same claim-bearing episteme or reusable publication form appears in several patterns and starts being cited as an ontology object. | Apply E.24; either write a durable ontic pattern or keep the coordination in a bounded local episteme under C.2.1. |
+| Shadow-kind by repetition | The same claim-bearing episteme or reusable publication form appears in several patterns and starts being cited as an ontology object. | Apply the E.24 thresholds to the receiving use. A sufficient existing claim needs no new coordination. Introduce a bounded episteme or a durable ontic only when its threshold is met, and retain the inquiry if the evidence is insufficient. |
 | Draft ToC row as authority | A ToC row is cited as if it supplied current governing text. | Treat it as an investigation cue only; use current subject patterns until the pattern exists. |
-| Slot list without identity | A pattern lists record fields as if they were SlotSpecs but never states what identifies the proposed ontic. | Add the exact identity or constitution rule and the smallest direct-relation set required by named dependent use, or keep the claims and references in a bounded local episteme under C.2.1 without proposing a durable ontic. |
+| Slot list without identity | A pattern lists record fields as if they were SlotSpecs but never states what identifies the proposed ontic. | For a durable proposal, identify its identity or constitution rule and the smallest direct-relation set required by named dependent use. If that basis is missing, use an existing claim or bounded C.2.1 episteme when its threshold is met. Otherwise identify what is unresolved. |
 | Pattern nest as ontology | A numbering or placement group is treated as the governed subject. | Name the primary governed subject kind, exact identity or constitution rule, minimal governed relation set, and their subject patterns; keep the pattern nest as publication and specialization placement under E.8. |
 | New name as solution | The repair invents a smoother term while the typed values remain mixed. | Recover the primary governed subject kind, exact identity or constitution rule, minimal governed relation set, and direct governors first; name only after the ontology is settled. |
 | SlotKind label becomes participant kind | A declaration-local SlotKind is reused as the world-side participant's kind. | Keep the participant under its subject pattern and keep the SlotSpec inside the separate RelationSignature declaration. |

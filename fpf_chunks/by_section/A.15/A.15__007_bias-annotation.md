@@ -6,12 +6,12 @@ section_id: "A.15:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__007_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.15 — System-Role–Method–Work Alignment"
   - "A.15:6 — Bias-Annotation"
-line_start: 28971
-line_end: 28982
+line_start: 30037
+line_end: 30048
 dependencies:
   - "A.10"
   - "A.13"
@@ -71,7 +71,7 @@ Bias lenses: **Gov**, **Arch**, **Onto and Epist**, **Prag**, **Did**. Scope: **
 | --- | --- | --- |
 | Governance bias | A familiar system-role label, assignment row, approval display, or status is treated as proof that Work happened or responsibility obtains. | Keep classification, assignment, Work, responsibility, authority, and evidence in their direct relations. |
 | Architectural bias | A system-role kind, capability, fit condition, Method, or record is placed in structural decomposition. | Keep structure, classification, dependent capability, relations, epistemes, and dated Work distinct. |
-| Epistemic bias | A recipe, schedule, roster, or log is treated as its world-side referent. | Recover the exact Method, assignment, WorkPlan, Work, and obtaining relations; keep the source as an episteme. |
+| Epistemic bias | A recipe, schedule, roster, or log is treated as its world-side referent. | Recover the Method, assignment, WorkPlan, Work, and obtaining relations; keep the source as an episteme. |
 | Pragmatic bias | One overloaded *process* or *role* term is retained because it feels shorter. | Use `E.10.ARCH` or `E.10.ROLE`, then write the shortest sentence that names the recovered values. |
 | Didactic bias | The chef analogy hides direct-species and occurrence requirements. | Recover the concrete assignment species; add F.6 only for precise assignment-bound attribution. An ordinary explanation needs no complete schema. |
 

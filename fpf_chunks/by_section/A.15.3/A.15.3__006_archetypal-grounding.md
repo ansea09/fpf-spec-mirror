@@ -6,12 +6,12 @@ section_id: "A.15.3:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.3/A.15.3__006_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.15.3 — SlotFillingsPlanItem: Plan a Value for an Existing Declaration Member"
   - "A.15.3:5 — Archetypal Grounding"
-line_start: 30233
-line_end: 30297
+line_start: 31322
+line_end: 31388
 dependencies:
   - "A.15.1"
   - "A.15.2"
@@ -55,7 +55,9 @@ With that declaration available, the typed row points to its `HolderSystemSlot` 
 
 #### A.15.3:5.2 - Planned argument and expected result against A.6.1
 
-A team plans one Pump #37 recognition evaluation. It expects the application to use Pump #37 as `candidate` and return `true` if the cited criterion, construction facts, reidentification rule, interpretation basis, and required fastening-relation fact are available and determine satisfaction. The condition reference records that expectation; it makes none of those claims true. `Pump37-Classification-Plan-E1_Ref` identifies the WorkPlan, `HolonRecognitionMechanism-E1_Ref` identifies the cited A.6.1:5.7 mechanism episteme, and `Pump37-ExpectedTrue-Conditions-E1_Ref` identifies the separate condition claims. The WorkPlan concerns the already admitted Pump #37, uses `PumpMaintenanceEvaluationScheme-E1`, and coordinates intended `HolonRecognitionEvaluation@FPF` during 10:00–10:15 UTC on 2026-07-21 with intended performer `RecognitionEvaluator_A`. These are planning claims; the later application below is established separately.
+A team plans one Pump #37 recognition evaluation. It expects the application to use Pump #37 as `candidate` and return `true` if the cited criterion, construction facts, reidentification rule, interpretation basis, and required fastening-relation fact are available and determine satisfaction. The condition reference records that expectation; it makes none of those claims true. `Pump37-Classification-Plan-E1_Ref` identifies the WorkPlan, `HolonRecognitionMechanism-E1_Ref` identifies the cited A.6.1:5.7 mechanism episteme, and `Pump37-ExpectedTrue-Conditions-E1_Ref` identifies the separate condition claims.
+
+The WorkPlan concerns the already admitted Pump #37, uses `PumpMaintenanceEvaluationScheme-E1`, and coordinates intended `HolonRecognitionEvaluation@FPF` during 10:00–10:15 UTC on 2026-07-21 with intended performer `RecognitionEvaluator_A`. These are planning claims; the later application below is established separately.
 
 The WorkPlan carries this copyable planning content:
 

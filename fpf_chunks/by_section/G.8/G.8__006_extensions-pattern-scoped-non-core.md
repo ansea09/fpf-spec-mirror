@@ -6,12 +6,12 @@ section_id: "G.8:5"
 section_title: "Extensions (pattern‑scoped; non‑core)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.8/G.8__006_extensions-pattern-scoped-non-core.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.8 — Package Method-Family Admissibility Rules and Maturity Ladders (SoS-LOG)"
   - "G.8:5 — Extensions (pattern‑scoped; non‑core)"
-line_start: 130878
-line_end: 130993
+line_start: 138944
+line_end: 139059
 dependencies:
   - "A.10"
   - "A.21"
@@ -38,12 +38,12 @@ keywords:
   - "SoS-LOG"
   - "admissibility ledger"
   - "rule ids"
-  - "tri-state {pass"
+  - "tri-state {pass\\"
 ---
 
 ### G.8:5 - Extensions (pattern‑scoped; non‑core)
 
-`G.8` keeps method/generator specificity out of the core kit. Any such specificity appears as `GPatternExtension` blocks with stable **PatternScopeId**s.
+Publish method- or generator-specific requirements in `GPatternExtension` blocks with stable **PatternScopeId**s. The core kit is shared across methods and generators.
 
 #### G.8:5.1 - `G.8:Ext.SoSLOGWiring`
 
@@ -91,14 +91,14 @@ keywords:
 **⊑/⊑⁺:** `∅`
 **RequiredPins/EditionPins/PolicyPins (minimum; conditional on the stated use):**
 
-* `BridgeId/BridgeCardId` *(the obtaining Bridge actually used; a `BridgeCardId` is needed only when that Card is relied on)*
+* `BridgeId/BridgeCardId` *(the obtaining Bridge used; a `BridgeCardId` is needed only when that Card is relied on)*
 * `CL/CL^k/CL^plane` *(when cited; the applicable values are mandatory when required by the `G.7` calibration or named `B.3` assurance account)*
 * `Φ/Ψ/Φ_plane policy-ids` *(only the policy ids and editions required by the actual `G.7` calibration or named `B.3` assurance account; reference‑only and resolvable per `F.8:8.1`)*
 * `BridgeCalibrationTableId?`, `RegressionSetId?` *(both required when calibration evidence is cited, together with the row locator and active policy pins required by `G.7` `CC‑G7‑SCRLinkage‑1`)*
 
 **RSCRTriggerSetIds:** `{GCoreTriggerSetId.BridgeCalibrationKit}` *(only if the bundle/ledger explicitly binds calibration records by id)*
 **Notes (wiring‑only):**
-* Present when `SoS-LOGBundle@Context` actually uses an F.9 sense correspondence. A combined kind or plane use retains its separate relation and receiving conditions under G.Core:4.2.3.
+* Present when `SoS-LOGBundle@Context` uses an F.9 sense correspondence. A combined kind or plane use retains its separate relation and receiving conditions under G.Core:4.2.3.
 * The wiring MUST keep the obtaining Bridge reference, the separate bounded-use claim (use, direction, rule, and tolerated loss), and the `A.10` reliance basis citable. A separate named assurance use also cites its exact target claim, receiving use, and `B.3` assurance basis/result. Required CL values, policy editions, and evidence remain mandatory for that account; any numerical assurance penalty satisfies the model applicability and declared-result conditions of `CC‑GCORE‑PEN‑1`. Ordinary supported reuse does not require a CL shorthand, calibration record, loss-policy id, or assurance claim merely to fill the package.
 
 #### G.8:5.4 - `G.8:Ext.QDArchiveTelemetry`

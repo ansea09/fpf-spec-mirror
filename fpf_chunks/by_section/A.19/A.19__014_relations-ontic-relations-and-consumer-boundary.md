@@ -6,12 +6,12 @@ section_id: "A.19:13"
 section_title: "Relations - Ontic Relations and Consumer Boundary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19/A.19__014_relations-ontic-relations-and-consumer-boundary.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.19 — CharacteristicSpace: Coordinates, State Predicates and Dynamics Hook (A.CHR‑SPACE)"
   - "A.19:13 — Relations - Ontic Relations and Consumer Boundary"
-line_start: 34999
-line_end: 35008
+line_start: 36479
+line_end: 36488
 dependencies:
   - "A.10"
   - "A.15"
@@ -50,8 +50,8 @@ keywords:
 
 ### A.19:13 - Relations - Ontic Relations and Consumer Boundary
 
-- **Builds on:** `E.24` for ontic-head discipline, `A.17` and `A.18` for characteristic and scale discipline, `A.2.6` for `U.ClaimScope` membership over exact `U.ContextSlice` values, and `C.16` for measurement and coordinate claims.
-- **Coordinates with:** `A.19.CPM` for comparator and comparison scope; `A.19.SelectorMechanism` for explicit selection conditions; `G.4` and other direct consumers for typed predicate evaluation; `F.9` when a receiving use needs a semantic correspondence or difference between two exact F.17 local senses; the applicable plane pattern for a plane relation; `A.10` and G.11 for provenance and currentness; and `C.2.1` when a predicate description or evaluation assertion is itself an episteme.
+- **Builds on:** `E.24` for ontic-head discipline, `A.17` and `A.18` for characteristic and scale discipline, `A.2.6` for `U.ClaimScope` membership over `U.ContextSlice` values, and `C.16` for measurement and coordinate claims.
+- **Coordinates with:** `A.19.CPM` for comparator and comparison scope; `A.19.SelectorMechanism` for explicit selection conditions; `G.4` and other consumers for typed predicate evaluation; `F.9` when a receiving use needs a semantic correspondence or difference between two F.17 local senses; the applicable plane pattern for a plane relation; `A.10` and G.11 for provenance and currentness; and `C.2.1` when a predicate description or evaluation assertion is itself an episteme.
 - **Does not replace:** a consumer's evaluation, comparison, selection, evidence use, gate, assurance, view, or publication.
 
 #### A.19:12.1 - C.29 mathematical-lens use relation

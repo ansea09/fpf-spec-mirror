@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.42"
-pattern_title: "Reduce Avoidable Work While Preserving the Needed Result"
+pattern_title: "Reduce Work While Preserving the Needed Result"
 section_id: "C.42:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.42/C.42__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "C.42 — Reduce Avoidable Work While Preserving the Needed Result"
+  - "C.42 — Reduce Work While Preserving the Needed Result"
   - "C.42:3 — Forces"
-line_start: 90027
-line_end: 90038
+line_start: 94337
+line_end: 94348
 dependencies:
   - "A.11.OP"
   - "A.3.1.MI"

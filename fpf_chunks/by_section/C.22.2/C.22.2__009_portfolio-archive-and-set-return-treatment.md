@@ -6,12 +6,12 @@ section_id: "C.22.2:8"
 section_title: "Portfolio, Archive, and Set-Return Treatment"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__009_portfolio-archive-and-set-return-treatment.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:8 — Portfolio, Archive, and Set-Return Treatment"
-line_start: 63981
-line_end: 64003
+line_start: 66713
+line_end: 66736
 dependencies:
   - "A.10"
   - "A.15"
@@ -77,5 +77,6 @@ A singleton problem card is the degenerate case. If it came from a portfolio, fr
 `sourceSetRef` preserves the recoverable set-source relation when current: `Palette`, `Front`, `Archive`, `ExplorationArchive`, `Shortlist`, `RankedShortlist`, `SelectedSet`, `LivePool`, or another accepted source-set form. If the set-source relation is not recoverable, the card may keep a set-finding cue, but it does not claim selected-set readiness or archive-derived readiness.
 
 When multiple plausible problem formulations remain current, `C.22.2` does not bind one `TaskSignature` prematurely. Each optional `rivalProblemFormulationRef` states the rival formulation, EntityOfConcern, effective ReferenceScheme, ClaimScope, preserved concern, lost concern, reason not selected yet, and next discrimination action. It is not a `CG-Frame`, not the E.8 `Problem Frame`, and not a representation-frame kind.
+
 The next discrimination action may be to characterize, compare, retarget, reopen the source material or source relation, choose a local problem formulation, or apply the relation-bearing pattern. Reframing is triggered when EntityOfConcern, effective ReferenceScheme, ClaimScope, viewpoint qualification, or cause-theory cue changes the problem representation enough that readiness or use-boundary cannot be inherited by wording continuity.
 

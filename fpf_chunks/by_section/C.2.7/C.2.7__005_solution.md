@@ -6,12 +6,12 @@ section_id: "C.2.7:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.7/C.2.7__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.2.7 — LanguageStateRepresentationFactorBundle — How Is the Representation Organized?"
   - "C.2.7:4 — Solution"
-line_start: 54322
-line_end: 54364
+line_start: 56565
+line_end: 56613
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -64,7 +64,13 @@ When the list travels separately, supply the unit order and decoding rule needed
 
 ##### C.2.7:4.1.1 - Why begin with these factors?
 
-The starter set separates three questions that often change how a representation can be read or transferred. **LocalityDistribution** concerns whether one selected unit distinguishes a represented value or whether a combination is needed. **Sparsity** concerns how much of the declared unit set is active or used; its reading depends on what is counted and on the local comparison criterion. **Symbolicity** concerns the explicit tokens and structures available to the receiving interpretation, including the applicable decoding or composition rules. These questions can matter separately: locating a report, estimating the units used to express it and recovering its interpretation require different information.
+The starter set separates three questions that often change how a representation can be read or transferred.
+
+- **LocalityDistribution** concerns whether one selected unit distinguishes a represented value or whether a combination is needed.
+- **Sparsity** concerns how much of the declared unit set is active or used; its reading depends on what is counted and on the local comparison criterion.
+- **Symbolicity** concerns the explicit tokens and structures available to the receiving interpretation, including the applicable decoding or composition rules.
+
+These questions can matter separately: locating a report, estimating the units used to express it and recovering its interpretation require different information.
 
 The pair code in :4.1 explains why a count of active units cannot settle locality and why a compact inscription needs its decoder. The starter bundle keeps these distinctions available without requiring a complete model of the representation. Select only the factors that affect the receiving question, as :16.1 permits. Preserve the representation and unit basis for each reading; factors of a source model and factors of its explanation concern different representations.
 

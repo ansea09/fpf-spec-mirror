@@ -6,12 +6,12 @@ section_id: "A.6.B:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:intro — Intro"
-line_start: 14639
-line_end: 14655
+line_start: 15094
+line_end: 15110
 dependencies:
   - "A.10"
   - "A.2.3"
@@ -48,7 +48,7 @@ keywords:
   - "The key words MUST"
   - "accountable norms and grants"
   - "actual exercise"
-  - "an individual-duty D- claim MUST name its actual bearer and exact separately obtaining U.Commitment"
+  - "an individual-duty D- claim MUST name its actual bearer and separately obtaining U.Commitment"
   - "and SHALL have their RFC 2119/8174 meanings only when capitalized as shown"
   - "and evaluated results distinct"
   - "as if it were an agent obligation"
@@ -78,10 +78,10 @@ keywords:
 
 > **Type:** Architectural (A)
 > **Status:** Stable
-> **Normativity:** Normative (unless explicitly marked informative)
+> **Normativity:** Normative (unless marked informative)
 > **Placement:** Part A → A.6.B (matrix module; referenced by A.6 cluster overview)
 > **Builds on:** E.8 (authoring template), A.6.0 (`U.Signature`), A.6.1 (`U.Mechanism`), A.6.3 (EntityOfConcern-preserving episteme construction), E.17.0/E.17 (MVPK + “no new semantics” faces), A.7 (EntityOfConcern and Description-episteme boundary; specification-use and publication-carrier distinction), A.2.3 (promise content when contract language is current), A.2.8 (`U.Commitment`), A.2.8.PER (subject pattern selected by the permission-word branch), A.2.9 (`U.SpeechAct`), E.10.D2 (EntityOfConcern and Description-episteme boundary; specification-use and refinement discipline), E.10 publication face, form, unit, and carrier discipline
-> **Purpose (one line):** Provide a canonical four-way boundary-claim classification that classifies boundary statements (L/A/D/E), constrains how each quadrant is written, and defines explicit cross‑quadrant reference rules to support later boundary evolution and audit.
+> **Purpose (one line):** Provide a canonical four-way classification of boundary statements (L/A/D/E), rules for writing each quadrant, and rules for explicit cross‑quadrant references to support later boundary evolution and audit.
 
 **Use this when.** Use `A.6.B` when boundary wording mixes definitions, runtime entry conditions, generic prescriptions, individual duties or grants, actual work or evaluation results, and evidence.
 
@@ -89,5 +89,5 @@ keywords:
 
 **What changes in practice.** Laws, gates, governance, and work-and-evidence claims can change without silently changing one another; publication faces reuse the canonical claims instead of restating them.
 
-**Ordinary non-use boundary.** A one-off local sentence with one recoverable logical job still needs the correct quadrant, but it does not need a Claim Register or a separate publication form. Add those only when reuse, decision, audit, or cross-face citation needs them; §6.1 still requires any material dependency to name the claim by ID or canonical location.
+**Ordinary non-use boundary.** A one-off local sentence with one recoverable logical job needs the correct quadrant, but it does not need a Claim Register or a separate publication form. Add those only when reuse, decision, audit, or cross-face citation needs them; §6.1 requires any material dependency to name the claim by ID or canonical location.
 

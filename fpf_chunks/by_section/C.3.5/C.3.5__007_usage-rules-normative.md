@@ -6,12 +6,12 @@ section_id: "C.3.5:6"
 section_title: "Usage rules (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.5/C.3.5__007_usage-rules-normative.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.3.5 — KindAT — Intentional Abstraction Facet for Kinds (K0…K3)"
   - "C.3.5:6 — Usage rules (normative)"
-line_start: 56139
-line_end: 56150
+line_start: 58443
+line_end: 58454
 dependencies:
   - "A.2.6"
   - "C.2.2"
@@ -34,9 +34,9 @@ keywords:
 
 **AT-01 (Facet, not Characteristic).** KindAT SHALL be treated as the informative catalog and planning facet defined here. It has no algebra or threshold and MUST NOT appear in guard predicates or composition math.
 
-**AT-02 (Placement).** If recorded, KindAT SHALL characterize one exact local `U.Kind` under an effective reference scheme. A catalog row may represent that assignment. KindAT MUST NOT be attached to a claim, capability, `KindSignature` episteme, candidate, judgment, or extension as a substitute for its own governor.
+**AT-02 (Placement).** If recorded, KindAT SHALL characterize one local `U.Kind` under an effective reference scheme. A catalog row may represent that assignment. KindAT MUST NOT be attached to a claim, capability, `KindSignature` episteme, candidate, judgment, or extension as a substitute for its own governor.
 
-**AT-03 (No F–G–R effect).** Editors SHALL NOT imply that a higher KindAT widens G, raises the signature episteme's F, increases R, or changes a classification value. Any such sentence MUST name the actual declaration, scope, evidence, or receiving-use change.
+**AT-03 (No F–G–R effect).** Editors SHALL NOT imply that a higher KindAT widens G, raises the signature episteme's F, increases R, or changes a classification value. Any such sentence MUST name the declaration, scope, evidence, or receiving-use change.
 
 **AT-04 (Bridge neutrality).** Editors assign KindAT from the kind's intentional stance. The bridge-assertion episteme may record an informative anchor comparison, but `CL^k` remains a separate assessment of the admitted bridge use from demonstrated signature/order preservation and loss.
 

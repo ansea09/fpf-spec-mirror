@@ -6,12 +6,12 @@ section_id: "C.2.2a:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2a/C.2.2a__013_sota-echoing.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.2.2a — Language-State Chart over U.CharacteristicSpace"
   - "C.2.2a:11 — SoTA-Echoing"
-line_start: 53005
-line_end: 53019
+line_start: 55222
+line_end: 55236
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -57,5 +57,5 @@ The external comparisons below concern publication distinctions and scoped profi
 
 **Characteristic-space and profile discipline.** The multi-facet chart is grounded in FPF `A.19` and the Characteristics defined in `C.2.3`–`C.2.5` and `C.2.7`. The cited NIST profile method supplies the narrower comparison of tailoring an account to a specific use.
 
-**Local stance.** When the receiving use needs a chart position, use A.19 with the selected facets, any threshold actually used, and the publication distinctions that affect that use. The ISO and NIST contributions above are bounded comparisons; A.19 and the facet patterns govern this chart.
+**Local stance.** When the receiving use needs a chart position, use A.19 with the selected facets, any threshold used, and the publication distinctions that affect that use. The ISO and NIST contributions above are bounded comparisons; A.19 and the facet patterns govern this chart.
 

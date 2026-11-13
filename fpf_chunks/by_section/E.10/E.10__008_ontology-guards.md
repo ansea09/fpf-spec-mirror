@@ -6,12 +6,12 @@ section_id: "E.10:6"
 section_title: "Ontology Guards"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__008_ontology-guards.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:6 — Ontology Guards"
-line_start: 99750
-line_end: 99918
+line_start: 105317
+line_end: 105499
 dependencies:
   - "A.10"
   - "A.15"
@@ -71,19 +71,29 @@ keywords:
   * **Don’t:** `IncidentBoard`, `TDD Tradition`, `Production Process` (kernel), `Service Function` (kernel).
 
  **Onto2 — EntityOfConcern and Description-episteme boundary and specification-use morphology**  *(ref. E.10.D2)*
-* **Rule:** A term for the EntityOfConcern uses the bare head for the FPF kind under concern: `Method` or `Characteristic`. **`…Description`** may name an independently identified episteme in descriptive use under C.2.1 and E.10.D2. The suffix creates no generic Description kind; a specialized dependent kind additionally needs its own membership rule. In particular, a claim-bearing episteme is `U.MethodDescription` only when its exact EntityOfConcern is one admitted `U.Method` and it makes at least one substantive claim about that method as a way of doing. `Algorithm`, code, pseudo-code, recipe, procedure, diagram, or other expression form first remains source wording, a representation under its applicable pattern, or a publication expression; C.29 applies only when mathematical-lens use is current; none establishes that membership. A qualifying Description episteme appends **`...Spec`** only after a named specification-use gate grants that use. Thus `MethodSpec` is available only when the same episteme passes both A.3.2 membership and the E.10.D2 specification-use gate; formal language, pseudo-code, or bundled tests alone settle neither condition.
+* **Rule:** A term for the EntityOfConcern uses the bare head for the FPF kind under concern: `Method` or `Characteristic`. **`…Description`** may name an independently identified episteme in descriptive use under C.2.1 and E.10.D2. The suffix creates no generic Description kind; a specialized dependent kind additionally needs its own membership rule.
+
+  In particular, a claim-bearing episteme is `U.MethodDescription` only when its EntityOfConcern is one admitted `U.Method` and it makes at least one substantive claim about that method as a way of doing. `Algorithm`, code, pseudo-code, recipe, procedure, diagram, or other expression form first remains source wording, a representation under its applicable pattern, or a publication expression; C.29 applies only when mathematical-lens use is current; none establishes that membership.
+
+  A qualifying Description episteme appends **`...Spec`** only after a named specification-use gate grants that use. Thus `MethodSpec` is available only when the same episteme passes both A.3.2 membership and the E.10.D2 specification-use gate; formal language, pseudo-code, or bundled tests alone settle neither condition.
 * **Formal-description guard:** An episteme stating a formal mathematical or physical theorem, including a formal postulate theorem in physics, may also be admitted for a bounded specification use. Its formal language belongs to formality and publication-expression discipline; that use is admitted only under acceptance criteria, harness checks, normative invariants, measurable anchors, verification use, or another specification-granting condition named by value.
 * **Extension:** Apply the same morphology to non-method EntitiesOfConcern where appropriate: `TransformationFlowStructureDescription`, `TransformationFlowStructureSpec`, `SystemDescription`, and `SystemSpec`.
 * **Do:** `SamplingMethod` - `SamplingMethodDescription` - `SamplingMethodSpec`.
 * **Don’t:** `SamplingAlgorithm` (when it is just prose), `SamplingProcessSpec` (head not signalling kind).
+
 **Onto3 — System-role kinds, assignments, and carrier-relation separation** *(ref. E.10.ROLE, A.2, A.2.1, F.4, F.5, C.2.1, C.2.P, E.17, E.24.PUB, A.10, and C.35)*
 * **Positive distinction:** A system role is an exact local kind for entities already admitted under A.1 as `U.System`. C.3 recovers it through the candidate domain, operative work-facing membership condition, intended member/non-member boundary, and continuity rule. A practice or source reference locates the definition or signals a comparison; it does not identify the kind. Its Tech designation ends in `...SystemRole`, for example `ReviewerSystemRole`. The name creates no admission, assignment, agency, capability, or Work.
-* **Assignment rule:** A system-role assignment is an obtaining occurrence of one directly declared species under `U.SystemRoleAssignment`. The species declaration defines `HolderSystemSlot`, the exact local system-role-kind domain of `AssignedSystemRoleKindSlot`, any other participant meanings, its predicate, applicability, and occurrence-identity rule. The occurrence supplies the actual holder System, assigned-kind value, any other participant values, and extent. A source, interpretation, taxonomy, scheme, description, or display is not automatically an assignment participant; name it separately only when the assignment claim actually depends on it.
-* **Readable example:** `Under the JournalReview practice, TeamAlpha is classified under ReviewerSystemRole because it can supply the substantive review judgment required by that practice.` Add `ReviewAssignment-42` only when the assignment itself matters and both its directly declared species and obtaining occurrence are recoverable. If performed Work is current, point first to its independently complete A.15.1 occurrence basis. Add F.6 only for a separately claimed precise assignment-bound attribution. A short attribution sentence may omit only an assignment identifier unused by the receiving claim; it does not omit a performer, Method, time, containing System, assignment occurrence, or F.6 attribution from the recoverable attribution basis.
-* **Carrier rule:** **Carrier** is not a free holon or system kind. Recover the direct carrier relation: under E.17 and E.24.PUB, identify the physical or digital carrier independently and recover its actual `PublicationExpressionBearingRelation` to the particular expression; identify any reusable form and its expression-conformance relation separately. If a reusable carrier-relation declaration is separately current, `PresentationCarrierSlot` remains the declaration-local `SlotKind` of one A.6.5 `SlotSpec` and is not the carrier or relation. Other exits are a file, transport, rendering, front-end, or access-carrier relation under E.17; evidence or source-currentness carriage under A.10 or G.11; generated or produced carriage under C.35; or a named episteme-symbol carrier relation independent of any system-role assignment.
+* **Assignment rule:** A system-role assignment is an obtaining occurrence of one directly declared species under `U.SystemRoleAssignment`. The species declaration defines `HolderSystemSlot`, the exact local system-role-kind domain of `AssignedSystemRoleKindSlot`, any other participant meanings, its predicate, applicability, and occurrence-identity rule. The occurrence supplies the actual holder System, assigned-kind value, any other participant values, and extent. A source, interpretation, taxonomy, scheme, description, or display is not automatically an assignment participant; name it separately only when the assignment claim depends on it.
+* **Readable example:** `Under the JournalReview practice, TeamAlpha is classified under ReviewerSystemRole because it can supply the substantive review judgment required by that practice.` Add `ReviewAssignment-42` only when the assignment matters and both its directly declared species and obtaining occurrence are recoverable.
+
+  If performed Work is current, point first to its independently complete A.15.1 occurrence basis. Add F.6 only for a separately claimed precise assignment-bound attribution. A short attribution sentence may omit only an assignment identifier unused by the receiving claim; it does not omit a performer, Method, time, containing System, assignment occurrence, or F.6 attribution from the recoverable attribution basis.
+* **Carrier rule:** **Carrier** is not a free holon or system kind. Recover the direct carrier relation: under E.17 and E.24.PUB, identify the physical or digital carrier independently and recover its actual `PublicationExpressionBearingRelation` to the particular expression; identify any reusable form and its expression-conformance relation separately.
+
+  If a reusable carrier-relation declaration is separately current, `PresentationCarrierSlot` remains the declaration-local `SlotKind` of one A.6.5 `SlotSpec` and is not the carrier or relation. Other exits are a file, transport, rendering, front-end, or access-carrier relation under E.17; evidence or source-currentness carriage under A.10 or G.11; generated or produced carriage under C.35; or a named episteme-symbol carrier relation independent of any system-role assignment.
 * **Source-word rule:** Job titles such as *reviewer*, *owner*, and *lead* remain Plain or quoted wording until the current claim is recovered. Use `E.10.ROLE` for an ambiguous claim-bearing *role*. Use `...SystemRole` only for an exact local system-role kind, and preserve *owner* when an actual architectural, organizational, policy, source, or responsibility ownership relation is what the sentence states.
 * **Do:** `ReviewerSystemRole`; `ReviewAssignment-42 : U.SystemRoleAssignment`; `LeanTraditionCarrier` only when its direct episteme-symbol carrier relation is declared.
 * **Don’t:** `Reviewer` as a U-kind, `ReviewerCarrier` for an assigned system, an unqualified `...Role` Tech head, or `Carrier` as an unstated system kind.
+
 **Onto4 — Recover what *domain* means in this use**  *(ref. E.10.D1 and F.17)*
 * **Rule:** The word *domain* does not create a kernel kind, catalogue mark, family, bundle, or inheritance relation by spelling. Recover what *domain* names in the current claim—for example, a DPF subject, discipline, source-defined field, model domain, market, physical region, or policy extent—or keep it as ordinary prose when it carries no FPF-governed use.
 * **Local-meaning rule.** When a durable domain expression carries source-local meaning, identify its exact source edition, effective `ReferenceScheme`, local expression, local-sense claim, and any obtaining basis relation. Create an F.17 `SchemeSenseCell` only when a named receiver needs a stable address. Use F.9 only for an independently obtaining Bridge between distinct exact cells; state any proposed use separately.
@@ -107,7 +117,7 @@ keywords:
 * **Do:** `ReturnsTransformationFlowStructureDescription`; `LedgerTeam is classified under LedgerCustodianSystemRole`, with any exact assignment, responsibility, authority, source-maintenance, or interpretation relation stated separately when current.
 * **Don’t:** `Returns Process`, `TDD Tradition` (kernel), `Ledger Owner` (underspecified).
 
-**Worked mini-examples across arenas.** These names illustrate morphology only. Every `...MethodDescription` presupposes one claim-bearing episteme whose exact EntityOfConcern is one independently admitted `U.Method` and whose claims pass A.3.2; every `...Spec` also presupposes its subject-specific specification-use gate. The label establishes neither condition.
+**Worked mini-examples across arenas.** These names illustrate morphology only. Every `...MethodDescription` presupposes one claim-bearing episteme whose EntityOfConcern is one independently admitted `U.Method` and whose claims pass A.3.2; every `...Spec` also presupposes its subject-specific specification-use gate. The label establishes neither condition.
 
 The Onto3 block above is the one bounded distinction and assignment example. The twelve rows below are morphology cues, not classification or assignment assertions. Read each candidate System label and candidate local system-role-kind label separately. Before asserting classification, pass C.3 and A.2; before saying an assignment obtains, admit the holder System and establish both the A.2.1 occurrence and its declared species. A schedule, place, office, desk, title, source or practice cue, taxonomy, scheme, or interpretation episteme supplies none of those facts by wording.
 
@@ -135,7 +145,8 @@ The Onto3 block above is the one bounded distinction and assignment example. The
 * SCR-LEX rewrites checked for current system-role-kind, direct assignment-species, and carrier-relation separation (Onto6).
 > **Note on registers.** A technical designation first names a value admitted under its own subject pattern. A Plain twin then names that same value under §6.2. Tradition or lineage wording follows C.20's exact-subject and relation recovery; the words alone identify neither an episteme about epistemes nor a public kind.
 
-* **Onto‑Deon — Deontic lexicon guard (Core register)**
+**Onto‑Deon — Deontic lexicon guard (Core register)**
+
 **Rule.** Recover what **standard** names before choosing a Tech head: a normative document and its compliance use, a measurement reference, or another established subject. A speech act that institutes an obligation is a separate claim under its own pattern.
 
 For interface and boundary invariants concerning things such as holons, interfaces, and ports, name the exact invariant, compatibility condition, compliance profile, acceptance specification, or interoperability profile by value—for example `InterfaceCompatibilityCondition`, `ComplianceProfile`, `AcceptanceSpec`, or `InteropProfile`. State any promise or commitment separately; naming does not make it a property of the thing.
@@ -143,13 +154,15 @@ For interface and boundary invariants concerning things such as holons, interfac
 For a normative document, identify the episteme, the criteria it states and the compliance use that gives them force. A metrological measurement standard can instead be a measuring system, material measure or reference material used to realize a quantity with a stated value and uncertainty ([VIM3:5.1](https://jcgm.bipm.org/vim/en/5.1.html)).
 
 Rename a `…Standard` designation only when its head obscures the recovered subject or conflicts with the applicable naming rule. Keep that subject distinct from a description of it, any publication occurrence and any separately established duty.
- **Rewrite hints (Tech → Tech).**
+
+**Rewrite hints (Tech → Tech).**
  `publication Standard` → `publication standard`;
  `frame Standard` → `frame standard`;
  `measurement Standard` → `measurement standard`;
  `Method Interface Standard (MIC)` → `Method Interface Standard (MIS)`;
  `Boundary-Inheritance Standard (BIC)` → `Boundary-Inheritance Standard (BIS)`.
-**Rationale.** The same word can name a normative account, a measurement reference or another subject. Recover its actual kind and use before naming it. Analyse deontic acts through the Gov lens; `ReferencePlane` retains `{world | concept | episteme}`.
+
+**Rationale.** The same word can name a normative account, a measurement reference or another subject. Recover its kind and use before naming it. Analyse deontic acts through the Gov lens; `ReferencePlane` retains `{world | concept | episteme}`.
 
 #### E.10:6.2 - Twin‑Register Discipline (Tech and Plain)
 
@@ -165,14 +178,15 @@ Rename a `…Standard` designation only when its head obscures the recovered sub
 | `U.System`               | system, machine, team                        | Bare “service” is **never** a safe Plain twin for `U.System`. Apply L-SERV only when a relied-on use hides the concrete subject or next route, then use `A.6.P:4.11a`; quoted, historical, illustrative, and harmless ordinary wording stays outside. Avoid “service-instance”; after recovery use “system instance”, “service access point”, “service offering”, or another head phrase supplied by the pattern for the recovered claim. |
 | `U.Episteme`             | body of knowledge, document, dataset, model | The pair preserves the **Carrier and Content** distinction (A.7).                                              |
 | `U.Method`               | how‑to, procedure (abstract)                | Do **not** call this “process” (L‑PROC).                                                     |
-| `U.MethodDescription`    | account of how one identified method is done | `recipe`, `SOP`, `playbook`, `code`, and `spec-text` are recognition cues, not automatic twins. Use this pair only after the claim-bearing episteme has one admitted `U.Method` as its exact EntityOfConcern and passes A.3.2's substantive-description threshold; call out **Spec** separately only after the E.10.D2 gate. |
+| `U.MethodDescription`    | account of how one identified method is done | `recipe`, `SOP`, `playbook`, `code`, and `spec-text` are recognition cues, not automatic twins. Use this pair only after the claim-bearing episteme has one admitted `U.Method` as its EntityOfConcern and passes A.3.2's substantive-description threshold; call out **Spec** separately only after the E.10.D2 gate. |
 | `U.Work`                 | work (work kind)                           | This plain twin names the admitted kind only. A run, execution, activity, job, or case can name one Work individual only after A.15.1 grounds that occurrence; show an explicit occurrence name and the head **work occurrence** rather than reusing the kind twin. |
 | one exact local `...SystemRole` kind | reviewer (system role), maintainer (system role) | Local kind for entities independently admitted as `U.System`. On first use, say which systems can count, what work-facing condition separates members from relevant non-members, and what changes preserve that distinction. A practice or source reference may help readers find or compare the definition; it does not identify the kind. The Plain wording creates no system admission or assignment. |
 | `U.PromiseContent`              | promise, offering, service offering         | Never equate to provider system or API (L‑SERV).                                             |
 | Holder capability (A.2.2) | ability, capacity (within bounds) | The System's actual ability under stated work conditions and attained bounds. An account has that holder as its subject and states the ability proposition in its content. The assertion, its support and demand-fit remain separate; no additional capability kind is admitted. |
 | `U.Dynamics`             | law of change, model of evolution           | Not a capability or a method.                                                                |
 
-**R‑1 (Plain first-use).** At first use in a section, show the **Tech label** and, optionally, the Plain twin after its governing claim condition is established; for a kind label, establish membership first: *"…one `U.Method` (the **how-to**); and, when a separately identified claim-bearing episteme has that method as its exact EntityOfConcern and passes A.3.2, one `U.MethodDescription` (an **account of that how-to**, sometimes called a recipe)…"*
+**R‑1 (Plain first-use).** At first use in a section, show the **Tech label** and, optionally, the Plain twin after its governing claim condition is established; for a kind label, establish membership first: *"…one `U.Method` (the **how-to**); and, when a separately identified claim-bearing episteme has that method as its EntityOfConcern and passes A.3.2, one `U.MethodDescription` (an **account of that how-to**, sometimes called a recipe)…"*
+
 **R-2 (No unpaired Plain in CC).** Conformance Checklists use **Tech labels** only.
 
 A source or practice may use local aliases in its glossary. Each alias points to one Tech designation under an effective scheme and an explicit local meaning claim. Create a `SchemeSenseCell` only when a named receiver needs a stable address; use F.9 only when an actual relation between distinct exact cells is current.
@@ -182,7 +196,7 @@ A plain twin (reader-friendly label) preserves the named value, local meaning, s
 * **Tech name (tech)** — the canonical, kernel-conformant label used in **normative** clauses (for example `U.SystemRoleAssignment`, `TransformerSystemRole`).
 * **Plain twin (plain)** — a didactic **display alias** permitted in **expository** prose and UI display only for the stated local meaning and use.
 
-> **Principle:** *The Tech designation names the value; a Plain twin may not change that value or its stated local meaning.* Locality comes from the named source, practice, effective scheme, and use. A Bridge is added only when its own F.9 predicate obtains.
+> **Principle:** *The Tech designation names the value; a Plain twin may not change that value or its stated local meaning.* Locality comes from the named source, practice, effective scheme, and use. A Bridge is added only when its F.9 predicate obtains.
 
 ##### E.10:6.2.2 - Plain Twin Safety constraints (normative)
 
@@ -190,7 +204,7 @@ A plain twin (reader-friendly label) preserves the named value, local meaning, s
 Each Tech designation has **at most one** plain twin for one stated local meaning and didactic use; that plain twin points to at most one Tech designation in the same use.
 
 **CC‑TWIN‑2 - Sense‑equivalence proof.**
-A plain twin names the **same value under the same local meaning claim and effective scheme** as its Tech designation. When an F.17 `SchemeSenseCell` exists for that use, both expressions resolve to that exact cell. The registry notes include at least one counterexample showing how the twin could be misread and why the stated use still passes.
+A plain twin names the **same value under the same local meaning claim and effective scheme** as its Tech designation. When an F.17 `SchemeSenseCell` exists for that use, both expressions resolve to that cell. The registry notes include at least one counterexample showing how the twin could be misread and why the stated use still passes.
 
 **CC‑TWIN‑3 - Head‑term discipline (HND).**
 The plain twin preserves the **head term** of the Tech name or appends an explicit bracketed head on **first use**:
@@ -209,7 +223,7 @@ The following base nouns are **reserved** and are not admitted as unqualified pl
 They are allowed **only** with an explicit head per **CC‑TWIN‑3** and a **first-use local gloss** (CC-TWIN-7). *(This list may be extended in the registry.)*
 
 **CC‑TWIN‑6 - No cross-local relation by label.**
-Plain twins are **not portable by spelling**. Reuse under another local meaning first recovers that exact value, scheme, expression, and local-sense claim. Cite an F.9 Bridge only when its direct relation between distinct exact cells actually obtains; names alone carry no authority, equivalence, or substitution.
+Plain twins are **not portable by spelling**. Reuse under another local meaning first recovers that exact value, scheme, expression, and local-sense claim. Cite an F.9 Bridge only when its direct relation between distinct exact cells obtains; names alone carry no authority, equivalence, or substitution.
 
 **CC‑TWIN‑7 - First‑use gloss.**
 At first occurrence in a document or screen, show a plain twin as **“Plain twin [Tech designation] — local gloss”**, for example:

@@ -6,12 +6,12 @@ section_id: "F.6:5"
 section_title: "Invariants"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__007_invariants.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.6 — SystemRoleAssignment and Performed-Work Attribution Check"
   - "F.6:5 — Invariants"
-line_start: 120328
-line_end: 120346
+line_start: 127969
+line_end: 127987
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -64,5 +64,5 @@ keywords:
 13. An episteme does not fill `HolderSystemSlot` because it describes or supports Work.
 14. Cross-context correspondence changes neither assignment identity nor Work attribution.
 15. Reduced prose may omit only an assignment identifier unused by the receiving claim, and only after the complete Work–assignment basis remains recoverable.
-16. The Method enacted by W remains a separate fact; only the admitted holder System performs W.
+16. For each obtaining Work–assignment pair, the holder System is the performer identified by that attribution. Which Method the Work enacts is a separate fact.
 

@@ -6,12 +6,12 @@ section_id: "C.30.AD:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__005_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:3 — Forces"
-line_start: 72130
-line_end: 72141
+line_start: 75223
+line_end: 75234
 dependencies:
   - "A.1"
   - "A.10"
@@ -79,10 +79,10 @@ keywords:
 | Force | Tension |
 | --- | --- |
 | Useful description vs architecture overread | A good description guides architecture work, but it is not the architecture, an obtaining `ArchitectureRelation`, selected structure, decision claim, proof, or release authorization. |
-| Multi-view richness vs exact episteme identity | Several descriptions can be needed, but each keeps its exact claim graph, one EntityOfConcern, and effective `ReferenceScheme`; a description set does not blur those identities. |
+| Multi-view richness vs episteme identity | Several descriptions can be needed, but each keeps its exact claim graph, one EntityOfConcern, and effective `ReferenceScheme`; a description set does not blur those identities. |
 | Viewpoint utility vs automatic view membership | A viewpoint helps a practitioner or practice inspect an architecture, but only the independently obtaining E.17.0 conformance relation makes the same episteme a `U.View`; a viewpoint label or bundle does not. |
-| Viewpoint utility vs viewpoint-as-kind collapse | Viewpoints do not choose the selected structure kind. Use `C.30.ASV`, or the pattern for the particular structural view, to keep viewpoint conformance and structure-kind recovery separate. |
-| Reuse vs freshness | A reused architecture description names its source-to-use path and applicable source or structure edition. A source-return condition is added only when stronger use must return to a named source or the exact defining or constraining ClaimGraph. |
+| Viewpoint utility vs viewpoint-as-kind collapse | Viewpoints do not choose the selected structure kind. Use `C.30.ASV`, or the pattern for the structural view, to keep viewpoint conformance and structure-kind recovery separate. |
+| Reuse vs freshness | A reused architecture description names its source-to-use path and source or structure edition. A source-return condition is added only when stronger use must return to a named source or the exact defining or constraining ClaimGraph. |
 | Specification-use vs representation and publication | A description can be used as a specification, but specification use is a bounded use of an episteme or publication; it is not the diagram, publication occurrence, publication form, carrier, architecture, or project Work. |
 | Thin C.30 bridge vs full description mechanism | C.30 defines the obtaining architecture relation and bounded architecture claim; C.30.AD develops description use; its fuller account is optional when ordinary wording already preserves the needed distinctions. |
 

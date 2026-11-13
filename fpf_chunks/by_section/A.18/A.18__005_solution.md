@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.18"
-pattern_title: "Minimal CSLC in Kernel (Characteristic ⟷ Scale ⟷ Level ⟷ Coordinate) (A.CSLC‑KERNEL)"
+pattern_title: "CSLC in Kernel (Characteristic ⟷ Scale ⟷ Level ⟷ Coordinate) (A.CSLC‑KERNEL)"
 section_id: "A.18:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.18/A.18__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.18 — Minimal CSLC in Kernel (Characteristic ⟷ Scale ⟷ Level ⟷ Coordinate) (A.CSLC‑KERNEL)"
+  - "A.18 — CSLC in Kernel (Characteristic ⟷ Scale ⟷ Level ⟷ Coordinate) (A.CSLC‑KERNEL)"
   - "A.18:4 — Solution"
-line_start: 34472
-line_end: 34513
+line_start: 35952
+line_end: 35993
 dependencies:
   - "A.17"
   - "A.19"
@@ -37,17 +37,17 @@ keywords:
 
 ### A.18:4 - Solution
 
-**Bind each measurement template to one Characteristic and one Scale.** A Coordinate is one value on that Scale; a named Level is optional when the Scale supplies discrete categories or tiers. A performed measurement may attribute one value or a set of values, with uncertainty and measurement conditions under C.16. CSLC types those values; it does not require every observation to determine one exact Coordinate.
+**Bind each measurement template to one Characteristic and one Scale.** A Coordinate is one value on that Scale; a named Level is optional when the Scale supplies discrete categories or tiers. A performed measurement may attribute one value or a set of values, with uncertainty and measurement conditions under C.16. CSLC types those values; it does not require every observation to determine one Coordinate.
 
 > **Exactly one Characteristic + exactly one Scale; each reported Coordinate belongs to that Scale, with an optional named Level.**
 
-Concretely, the parts of this clause are defined as follows:
+The parts of this clause are defined as follows:
 
 - **Characteristic:** the aspect being measured, such as Distance, Temperature or a defined quality or reliability aspect. It answers “What are we measuring?”
 
 -   **Scale:** the organized set of possible values that the Characteristic can take, including the type of scale (_nominal_, _ordinal_, _interval_, or _ratio_), the measurement **Unit** (if applicable), and any bounds or structure. The Scale defines “_How are values represented, and which operations does the Scale permit?_” – e.g. “meters on a linear scale from 0 up to 1000” or “ratings 1 through 5 with ordering only”.
 
-- **Coordinate:** one value in the declared Scale's value domain, numeric or categorical. A measurement result may attribute one Coordinate or a set of admissible Coordinates to its subject; C.16 supplies the model, uncertainty and conditions for that attribution. Examples of individual Coordinates are 7.4 on a meter Scale or Expert on the declared expertise Scale.
+- **Coordinate:** one value in the declared Scale's value domain, numeric or categorical. A measurement result may attribute one Coordinate or a set of admissible Coordinates to its subject; C.16 supplies the model, uncertainty and conditions for that attribution. Examples of Coordinates are 7.4 on a meter Scale or Expert on the declared expertise Scale.
 
 - **Level (optional):** a named tier or category within a Scale, such as _Low, Medium, High_ on an ordinal Scale. When a continuous measurement is categorized, define the category boundaries; an uncategorized continuous Scale needs no Level labels.
 
@@ -57,7 +57,7 @@ Keep distinct reported Characteristics in separate templates. A quantity calcula
 
 #### A.18:4.1 - Characteristic-space support must stay declared
 
-When a comparison uses a declared space, make the subject kind and active CharacteristicSpace recoverable. Use `SpaceRef` when its identity matters. Different questions about the same subjects may use different spaces; a shared display or atlas label does not determine which one applies.
+When a comparison uses a declared space, make the subject kind and CharacteristicSpace recoverable. Use `SpaceRef` when its identity matters. Different questions about the same subjects may use different spaces; a shared display or atlas label does not determine which one applies.
 
 Keep outcome-side, representation-side and search-side spaces distinct when their difference affects the comparison. Use `OutcomeMapRef` only when the receiving use needs a declared map from a set result into an outcome or effect space. Identify that source result and target space together; the map supplements the view's interpretation rather than selecting a universal space for it.
 
@@ -71,9 +71,9 @@ For evaluative comparison or combination across different CSLC templates, the Sc
 
 #### A.18:4.3 - Preserve value meaning through change
 
-A Scale is identified by its interpreted values and their domain, the equality or order structure it supplies, and, where applicable, its unit, reference and origin. A label or numeral alone supplies none of these. A Level denotes a value or declared category within that Scale; changing its spelling can preserve the Level, while moving a category boundary changes what it denotes. A Coordinate is a value of that particular Scale, not an independently measured object or the content that attributes the value to a subject. Keep the declared Scale recoverable when writing, comparing or passing Coordinates.
+A Scale is identified by its interpreted values and their domain, the equality or order structure it supplies, and, where applicable, its unit, reference and origin. A label or numeral alone supplies none of these. A Level denotes a value or declared category within that Scale; changing its spelling can preserve the Level, while moving a category boundary changes what it denotes. A Coordinate is a value of that Scale, not an independently measured object or the content that attributes the value to a subject. Keep the declared Scale recoverable when writing, comparing or passing Coordinates.
 
 A measurement unit is an adopted reference for expressing quantities of the applicable kind. Its symbol is a representation of that reference. A change of unit can preserve the quantity through an established conversion while changing the Scale-specific Coordinate; an unchanged symbol does not establish that the unit, quantity kind or Scale is the same. A changed measurement model or calibration can change the attributed result without changing the Scale. Recover which interpretation or assertion changed before revising a dependent calculation.
 
-For a proposed replacement, establish the required correspondence of Characteristics and Scales, then apply the conversion or evaluation rule actually used by the receiver. Being a Coordinate on some Scale is insufficient for filling a position on another Scale. Where no classification decision is needed, this exact declaration and correspondence suffice; recurring typed receivers can use the content and space ranges in C.16:5.5.1 and A.19:5.1.1.1. Membership in those ranges does not establish comparability or authorize arithmetic.
+For a proposed replacement, establish the required correspondence of Characteristics and Scales, then apply the conversion or evaluation rule used by the receiver. Being a Coordinate on some Scale is insufficient for filling a position on another Scale. Where no classification decision is needed, this declaration and correspondence suffice; recurring typed receivers can use the content and space ranges in C.16:5.5.1 and A.19:5.1.1.1. Membership in those ranges does not establish comparability or authorize arithmetic.
 

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.19.UINDM"
-pattern_title: "Indicatorization (UINDM): Select Indicators Under a Declared Policy"
+pattern_title: "Indicatorization: Select Indicators Under a Declared Policy"
 section_id: "A.19.UINDM:8"
 section_title: "Common Anti‑Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UINDM/A.19.UINDM__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.19.UINDM — Indicatorization (UINDM): Select Indicators Under a Declared Policy"
+  - "A.19.UINDM — Indicatorization: Select Indicators Under a Declared Policy"
   - "A.19.UINDM:8 — Common Anti‑Patterns and How to Avoid Them"
-line_start: 38078
-line_end: 38093
+line_start: 39611
+line_end: 39626
 dependencies:
 keywords:
   - "CHR suite stage indicatorize"
@@ -19,7 +19,7 @@ keywords:
   - "IndicatorChoicePolicy"
   - "indicator set"
   - "indicatorization"
-  - "tri-state admissibility (pass"
+  - "tri-state admissibility (pass\\"
 ---
 
 ### A.19.UINDM:8 - Common Anti‑Patterns and How to Avoid Them
@@ -28,13 +28,13 @@ keywords:
 
 * **Indicatorization hidden in scoring.** A scoring method silently ignores some characteristics or introduces an implicit “feature selection” without an explicit indicator set.
 
-* **Characteristic reference substituted for a position.** Temperature occurs at Celsius and kelvin positions, but the returned set contains only TemperatureRef. Resolve the policy to the requested position or its explicitly selected all-matches set before returning S.
+* **Characteristic reference substituted for a position.** Temperature occurs at Celsius and kelvin positions, but the returned set contains only TemperatureRef. Resolve the policy to the requested position or its selected all-matches set before returning S.
 
 * **Silent emptying.** When evidence is insufficient, returning an empty indicator set (or treating missing evidence as “pass”) without a tri‑state guard decision.
 
-* **Reusing an indicator set after its basis or use changed.** Reusing it for another bearer, scope and window, evidence basis, reference plane, or intended use without a new eligibility decision; or naming Bridge or plane-relation pins without an actual obtaining relation.
+* **Reusing an indicator set after its basis or use changed.** Reusing it for another bearer, scope and window, evidence basis, reference plane, or intended use without a new eligibility decision; or naming Bridge or plane-relation pins without an obtaining relation.
 
-* **Confusing planning with an application.** A description of intended editions or planned fillings does not establish actual argument bindings or launch values. Keep the P2W baseline separate and record effective application references in Audit.
+* **Confusing planning with an application.** A description of intended editions or planned fillings does not establish argument bindings or launch values. Keep the P2W baseline separate and record effective application references in Audit.
 
 * **GateDecision leakage.** Emitting or implying GateDecision/GateLog as part of the `indicatorize` step (gate decisions are separated from suite steps; keep UINDM at guard+audit level).
 

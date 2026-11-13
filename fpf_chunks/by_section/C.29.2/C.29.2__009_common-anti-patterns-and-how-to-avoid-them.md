@@ -6,12 +6,12 @@ section_id: "C.29.2:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29.2/C.29.2__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.29.2 — Computational Formulation"
   - "C.29.2:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 70674
-line_end: 70687
+line_start: 73767
+line_end: 73780
 dependencies:
   - "A.10"
   - "A.3.1"
@@ -36,11 +36,11 @@ keywords:
 | Misuse | Repair |
 | --- | --- |
 | “Solve the constraints” is the algorithm | Supply an applicable solver or construct the search/update procedure, with its input class and result guarantee. |
-| Store only the current answer estimate | Recover the control position, bounds, pending work or other information the next operation actually needs. |
+| Store only the current answer estimate | Recover the control position, bounds, pending work or other information the next operation needs. |
 | A branch chooses an exactly known sign of an arbitrary real value | Explain how that sign is obtainable from the available representation; use a justified enclosure or return the unresolved comparison. |
-| The invariant holds, so the loop finishes | Supply the separate progress argument or state the continuing behavior actually intended. |
+| The invariant holds, so the loop finishes | Supply the separate progress argument or state the continuing behavior intended. |
 | A tiny equation residual proves a tiny answer error | Connect residual to output error under the applicable conditioning or other subject argument. |
-| One matrix operation costs one step | Expand the operation count and storage for the actual matrix dimensions and representation. |
+| One matrix operation costs one step | Expand the operation count and storage for the matrix dimensions and representation. |
 | The dense array fails, so no simulation is possible | Retain the dense-allocation rejection; examine the needed output and an applicable alternative algorithm. |
 | A smaller numeric type is an exact compression | State the changed precision and establish the error consequence. |
 | A reference simulator defines what the physical system did | Retain the computational result and use C.29.3 for preparation, execution and result-reading correspondence. |

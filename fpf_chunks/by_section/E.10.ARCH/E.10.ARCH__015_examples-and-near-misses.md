@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.10.ARCH"
-pattern_title: "Wording-Use Ontological Precision Restoration Architecture"
+pattern_title: "Architecture for Recovering Ontological Meaning in Wording"
 section_id: "E.10.ARCH:9"
 section_title: "Examples and near misses"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__015_examples-and-near-misses.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
+  - "E.10.ARCH — Architecture for Recovering Ontological Meaning in Wording"
   - "E.10.ARCH:9 — Examples and near misses"
-line_start: 101807
-line_end: 101830
+line_start: 107545
+line_end: 107568
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -65,14 +65,14 @@ keywords:
 
 ### E.10.ARCH:9 - Examples and near misses
 
-Read each wording with its stated use. Apply a route only while that FPF question remains unresolved; clear ordinary wording closes under `F.19`.
+Read each wording with its stated use. Apply a route only while that FPF question remains unresolved. Clear ordinary wording closes under `F.19`.
 
 | Wording | Applicable result | Grounded distinction in this near-miss |
 | --- | --- | --- |
 | `MaintenanceReport_42` says “Bearing_B is installed in Pump_P.” | The report's installation assertion is clear, so preserve it and bypass E.10.ARCH. It does not by itself establish an A.14 parthood claim. If current parthood is needed, select the applicable direct parthood rule and test the case facts separately. Current A.14 supplies no installed-part occurrence-identity rule; if a later use needs that distinction, return A.6.RCD `missing-governor` with the bearing, pump, relevant intervals and receiving claim. If the installation act is needed, independently identify its dated Work under A.15.1. Add an A.3.4 transformation and a Work-to-transformation relation only when each is claimed and its own defining predicate is available. | The report's installation assertion, any separately established parthood, and a separately requested installation Work or transformation. |
 | Graph edge `Edge_17(Bearing_B, Pump_P)` presents that assertion. | The representation use is already clear, so preserve it without further restoration. Use C.29 only if a separate mathematical representation or transfer question remains. Keep `Edge_17` as a representation element with an explicit correspondence to the represented assertion or direct-relation claim; the edge establishes neither the asserted installation nor a separate parthood relation or occurrence identity. | The graph element, the represented assertion, and any separately established world-side relation occurrence. |
-| A reusable `RelationSignature` declares `ParticipantSlot`, and a row shows `Bearing_B_Ref`. | The declaration use is clear, so bypass E.10.ARCH to A.6.5. `ParticipantSlot` names one declaration-local `SlotKind` inside a complete `SlotSpec`. In a current assertion, `Bearing_B_Ref` may designate `Bearing_B` under its declared reference rule. The declaration and designation do not establish that the bearing actually participates in the claimed relation; test that predicate separately. | The declaration-local SlotKind, its SlotSpec, the designated bearing and the independently established participation claim. |
-| Another source calls something `input`, but its exact object or use remains hidden. | Recover the exact source sentence and what `input` refers to. Use only the applicable source, Method/Work, transformation, result, or representation branch in section 3.1; return to the direct defining or testing rule once the object and predicate are clear. The repaired sentence states the exact direct relation or representation correspondence established by that predicate. Use `A.6.P.WMR` only while the Method/Work boundary relation remains hidden, and return its exact reason-specific result when a claim cannot be established. | The source word, its referent, and the particular relation or representation use that must be recovered. |
+| A reusable `RelationSignature` declares `ParticipantSlot`, and a row shows `Bearing_B_Ref`. | The declaration use is clear, so bypass E.10.ARCH to A.6.5. `ParticipantSlot` names one declaration-local `SlotKind` inside a complete `SlotSpec`. In a current assertion, `Bearing_B_Ref` may designate `Bearing_B` under its declared reference rule. The declaration and designation do not establish that the bearing participates in the claimed relation; test that predicate separately. | The declaration-local SlotKind, its SlotSpec, the designated bearing and the independently established participation claim. |
+| Another source calls something `input`, but its exact object or use remains hidden. | Recover the exact source sentence and what `input` refers to. Use only the applicable source, Method/Work, transformation, result, or representation branch in section 3.1; return to the direct defining or testing rule once the object and predicate are clear. The repaired sentence states the direct relation or representation correspondence established by that predicate. Use `A.6.P.WMR` only while the Method/Work boundary relation remains hidden, and return its exact reason-specific result when a claim cannot be established. | The source word, its referent, and the particular relation or representation use that must be recovered. |
 | "The architecture is the diagram." | Use `C.30.P` to recover whether the diagram is publication form, structure view, architecture description, source relation, or ordinary source-finding cue; then state a C.30 or C.30.ASV subject assertion only after the selected architecture or structural-view use is recovered. | The diagram's publication or representation use and the architecture claim about the holon and selected structure. |
 | "For PlantOps use U, selected structure S1 organizes holon H in the declared way; C.30 records the obtaining `ArchitectureRelation` and a separate `ArchitectureClaim` about it." | Direct `C.30`; no `C.30.P` unless another selected structure, architecture-description use, structural-view use, source relation, model relation, diagram relation, graph relation, dashboard relation, or ordinary prose remains hidden. | An already explicit `ArchitectureRelation` and its separate `ArchitectureClaim`. |
 | "The model has three layers." | Use `C.30.STRAT` to treat `layers` as a source label until the recovered FPF kind, relation, claim-use, or source-relation disposition is clear: control-layer relation, neural-network block sequence, publication relation set, mathematical scale or coarse-graining relation, or ordinary source wording. Then state the recovered subject assertion under its defining or constraining rule. | The source label `layer` and the particular structural, publication, or mathematical claim it carries. |

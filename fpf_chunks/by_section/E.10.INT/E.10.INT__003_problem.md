@@ -6,12 +6,12 @@ section_id: "E.10.INT:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.INT/E.10.INT__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.10.INT — Recovering What Interest or Curiosity Means Here"
   - "E.10.INT:2 — Problem"
-line_start: 100837
-line_end: 100842
+line_start: 106485
+line_end: 106490
 dependencies:
   - "C.11"
   - "C.16"
@@ -27,7 +27,7 @@ keywords:
 
 ### E.10.INT:2 - Problem
 
-The same word connects several different questions. An informative observation changes beliefs; a learning-progress signal compares what a learner can do; a promising stepping stone offers further possibilities; an affected participant has something to gain or lose. In a joint project these relations often coexist.
+The same word connects several different questions. An informative observation changes beliefs. A learning-progress signal compares what a learner can do. A promising stepping stone offers further possibilities, and an affected participant has something to gain or lose. In a joint project these relations often coexist.
 
 Their differences matter when a phrase becomes an instruction. Asking an agent to maximize “surprise” may reward unpredictable observations instead of observations that help it distinguish its hypotheses. Requiring a promising idea to demonstrate progress toward a distant goal may discard the very construction from which another goal could emerge. Selecting an “interesting rhythm” leaves the choice unresolved until the listener, performer or musical use is known.
 

@@ -6,12 +6,12 @@ section_id: "A.3.1.QM:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.QM/A.3.1.QM__009_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.3.1.QM — Qualify a Method for Its Intended Contribution"
   - "A.3.1.QM:7 — Conformance Checklist"
-line_start: 10350
-line_end: 10360
+line_start: 10751
+line_end: 10761
 dependencies:
   - "A.3.1"
   - "A.3.1.CC"

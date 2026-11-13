@@ -6,12 +6,12 @@ section_id: "C.39.QR:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.QR/C.39.QR__010_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.39.QR — Return Results to the Original Question"
   - "C.39.QR:9 — Consequences"
-line_start: 83147
-line_end: 83152
+line_start: 87196
+line_end: 87201
 dependencies:
   - "C.11.DUA"
   - "C.39"
@@ -24,5 +24,5 @@ keywords:
 
 The recipient obtains a qualified answer and a usable connection between the contributions and the encompassing result. The operation can expose missing content early enough to change authoring, assignment or acceptance.
 
-Its burden is recovery of the question, examination of the consequential relation and grounds, and any warranted construction. Keep an adequate direct connection and reuse valid results. The benefit and cost in repeated work depend on actual execution and should be observed at the receiving use.
+Its burden is recovery of the question, examination of the consequential relation and grounds, and any warranted construction. Keep an adequate direct connection and reuse valid results. The benefit and cost in repeated work depend on execution and should be observed at the receiving use.
 

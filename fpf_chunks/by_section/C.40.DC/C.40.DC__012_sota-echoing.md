@@ -6,12 +6,12 @@ section_id: "C.40.DC:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.DC/C.40.DC__012_sota-echoing.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.40.DC — Construct Directions with Support Configurations"
   - "C.40.DC:11 — SoTA-Echoing"
-line_start: 87625
-line_end: 87636
+line_start: 91859
+line_end: 91870
 dependencies:
   - "A.3.1"
   - "A.3.2"
@@ -29,9 +29,9 @@ keywords:
 
 **Best-known line for this use.** Construct the contribution and support together, then apply finite configuration-relative comparison. The applicable organizational Methods supply whole-arrangement construction and comparison when one organization result premise is stable. C.11.CRC supplies actual `S0`, finite change, realizable `S1`, complete coordinates, transition basis, and option effects. This pattern **adapts** their contributions in `:4.3`–`:4.6` for development inquiries that may still retain different contribution premises. Human-capability and other holder practices retain the change mechanisms and evidence.
 
-**Serious alternative and comparison.** A course or product catalogue is cheaper when the missing contribution and all material supports are already known. When they are not, it omits the difference between developing capability and making an existing capability usable. At the bounded effort of the Mira case, two contribution/support descriptions expose different evidence and provider needs; ranking two course brands would not do so. A direct organizational Method supplying the complete same-result arrangement comparison is the stronger alternative once that comparison is the whole question. Use it directly; no additional opportunity-construction pass is needed.
+**Alternative and comparison.** A course or product catalogue is cheaper when the missing contribution and all material supports are already known. When they are not, it omits the difference between developing capability and making an existing capability usable. At the bounded effort of the Mira case, two contribution/support descriptions expose different evidence and provider needs; ranking two course brands would not do so. A direct organizational Method supplying the complete same-result arrangement comparison is the stronger alternative once that comparison is the whole question. Use it directly; no additional opportunity-construction pass is needed.
 
-**Front-end boundary.** [ISO 56007:2023](https://www.iso.org/standard/75068.html) supplies normative guidance for opportunity/concept work before solution development and deployment. Here that boundary supports prospective configurations and truthful gaps; it supplies no missing support, implementation, or effect evidence. A complete cited pattern contribution similarly supplies guidance, not holder capability.
+**Front-end boundary.** [ISO 56007:2023](https://www.iso.org/standard/75068.html) supplies normative guidance for opportunity/concept work before solution development and deployment. Here that boundary supports prospective configurations and gaps; it supplies no missing support, implementation, or effect evidence. A complete cited pattern contribution similarly supplies guidance, not holder capability.
 
 **Trade-off, limits, and reopen.** Recovering the contribution and support takes work; compare that burden with using an adequate existing direction or obtaining the fuller implementation detail needed by the receiving use. The constructed cases demonstrate distinctions, not comparative effectiveness. Reopen the affected move if current holder or configuration practice preserves the contribution, complete consequences, and necessary support with less burden; if a relied-on comparison or source changes; or if a real use reveals a consequential omitted interaction or transition.
 

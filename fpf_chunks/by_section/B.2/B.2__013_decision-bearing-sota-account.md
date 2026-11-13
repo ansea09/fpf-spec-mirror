@@ -6,12 +6,12 @@ section_id: "B.2:11"
 section_title: "Decision-bearing SoTA account"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2/B.2__013_decision-bearing-sota-account.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.2 — Meta-Holon Transition - Whole Reidentification"
   - "B.2:11 — Decision-bearing SoTA account"
-line_start: 43690
-line_end: 43700
+line_start: 45448
+line_end: 45460
 dependencies:
   - "A.1"
   - "A.10"
@@ -48,12 +48,14 @@ keywords:
 
 ### B.2:11 - Decision-bearing SoTA account
 
-| Practical question | Exact primary source | Adopt, adapt, or reject in B.2 | Exact effect in this pattern |
+| Practical question | Primary source | Adopt, adapt, or reject in B.2 | Effect in this pattern |
 | --- | --- | --- | --- |
-| When may a configured production arrangement be treated as a distinct operating whole? | Bartels et al., [*Dependable Cyber-Physical Matrix Production Systems Utilizing Holonic Multi-agent Systems*](https://www.dfki.de/en/web/research/projects-and-publications/publication/16121) (2025), and Macherki et al., [*QHAR: Q-Holonic-Based Architecture for Self-Configuration of Cyber-Physical Production Systems*](https://www.mdpi.com/2076-3417/11/19/9013) (2021), with a production-system case illustrating how the architecture could support reconfiguration. | **Adopt** the practical need to recover exact entities, flows, coordination, dynamic interdependence, control organization, and reconfiguration purpose. **Reject** a named holonic architecture, control layer, or reconfiguration event as sufficient whole identity. | Section 4 requires the complete A.1 and applicable kind-specific criteria for a positive new-whole claim. Section 5.1 adds the objective, feedback and supervision grounds used by its regulated-system case. |
+| When may a configured production arrangement be treated as a distinct operating whole? | Bartels et al., [*Dependable Cyber-Physical Matrix Production Systems Utilizing Holonic Multi-agent Systems*](https://www.dfki.de/en/web/research/projects-and-publications/publication/16121) (2025), and Macherki et al., [*QHAR: Q-Holonic-Based Architecture for Self-Configuration of Cyber-Physical Production Systems*](https://www.mdpi.com/2076-3417/11/19/9013) (2021), with a production-system case illustrating how the architecture could support reconfiguration. | **Adopt** the practical need to recover entities, flows, coordination, dynamic interdependence, control organization, and reconfiguration purpose. **Reject** a named holonic architecture, control layer, or reconfiguration event as sufficient whole identity. | Section 4 requires the A.1 and applicable kind-specific criteria for a positive new-whole claim. Section 5.1 adds the objective, feedback and supervision grounds used by its regulated-system case. |
 | What separates inputs, construction, and the resulting whole? | Florio and Linnebo, [*Introduction to Constructional Ontology*](https://philarchive.org/rec/FLOITC-3) (2024), and Borgo and Righetti, [*Towards Applied Constructional Ontology*](https://doi.org/10.3233/FAIA250480) (2025). | **Adopt** the separation among accepted inputs, constitutive organization, and resulting identity. **Adapt** it to FPF's direct part relations, assembly, reidentification rule, and admitted holon kinds. **Reject** a trigger profile, record, tuple, or Method label as the constructor that makes the whole exist. | Sections 1, 4, 4.3, and 5 distinguish world-side construction from comparison and record epistemes. |
 | How should agency bear on whole reidentification? | Michael Levin, [*Technological Approach to Mind Everywhere*](https://www.frontiersin.org/journals/systems-neuroscience/articles/10.3389/fnsys.2022.768201/full) (2022). | **Adopt** non-binary, multi-characteristic, empirically tested agency and multi-scale competency as possible evidence about a system. **Reject** an agency label or threshold as a root kind or automatic new-whole result. | Section 4.5 treats an agency threshold as a possible trigger when it raises a consequential question about retaining or reidentifying the whole. |
-| What can a multiscale mathematical signal contribute? | Akhtyrchenko, Katsnelson, and Ustyuzhanin, [*Directing Open-Ended Evolution in Artificial Life via Multi-Scale Path Divergence*](https://arxiv.org/abs/2606.17091) (v2, 3 August 2026), defines MSPD over realized trajectories as a multiscale analytical and optimization measure. | **Adopt** MSPD as a possible exact analytical input when its trajectory assumptions match the case. **Reject** a high MSPD, RG-like score, graph pattern, or benchmark jump as whole reidentification. | Sections 0, 4.7, and 8 use C.29 for a remaining representation-choice, transfer or reliance question and retain the B.2 identity comparison. |
+| What can a multiscale mathematical signal contribute? | Akhtyrchenko, Katsnelson, and Ustyuzhanin, [*Directing Open-Ended Evolution in Artificial Life via Multi-Scale Path Divergence*](https://arxiv.org/abs/2606.17091) (v2, 3 August 2026), defines MSPD over realized trajectories as a multiscale analytical and optimization measure. | **Adopt** MSPD as a possible analytical input when its trajectory assumptions match the case. **Reject** a high MSPD, RG-like score, graph pattern, or benchmark jump as whole reidentification. | Sections 0, 4.7, and 8 use C.29 for a remaining representation-choice, transfer or reliance question and retain the B.2 identity comparison. |
 
-Constructional ontology makes the identity consequences of inputs and organizing relations inspectable. Its applied use depends on the intended ontology and domain commitments; those grounds determine which proposed construction answers the identity question. Section :4.0 connects their recovery with B.5.TC's comparison of competing accounts. The manufacturing studies contribute reasons for control organization and reconfiguration; a production or recovery result supports the corresponding behavioral claim. Identifying the continuing individual additionally needs its construction and continuity grounds. The case in :5.7 develops that connection under explicit engineering premises.
+Constructional ontology makes the identity consequences of inputs and organizing relations inspectable. Its applied use depends on the intended ontology and domain commitments; those grounds determine which proposed construction answers the identity question. Section :4.0 connects their recovery with B.5.TC's comparison of competing accounts.
+
+The manufacturing studies contribute reasons for control organization and reconfiguration; a production or recovery result supports the corresponding behavioral claim. Identifying the continuing individual additionally needs its construction and continuity grounds. The case in :5.7 develops that connection under engineering premises.
 

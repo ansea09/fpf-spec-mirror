@@ -6,17 +6,16 @@ section_id: "B.1.3:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.3/B.1.3__010_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.1.3 — Knowledge Aggregation (Γ_epist): Synthesis and Target-Scheme Compilation"
   - "B.1.3:9 — Consequences"
-line_start: 41887
-line_end: 41900
+line_start: 43532
+line_end: 43545
 dependencies:
   - "A.1"
   - "A.10"
   - "A.12"
-  - "A.13"
   - "A.14"
   - "A.15"
   - "A.15.1"
@@ -35,9 +34,7 @@ dependencies:
   - "C.2.1"
   - "E.17"
   - "E.24.PUB"
-  - "F.6"
   - "F.9"
-  - "U.Work"
 keywords:
 ---
 
@@ -48,10 +45,10 @@ keywords:
 * **Traceable composition.** Every retained claim remains tied to its sources; the **SCR** identifies the carriers needed to reconstruct the aggregate.
 * **Qualified synthesis.** Useful formal and complementary support is retained; dependency assumptions, contrary evidence, and mapping limitations constrain the resulting claim.
 * **Target-scheme results.** Compiled epistemes are aligned with one declared reference scheme; any release or publication remains separately governed.
-* **Didactic clarity.** Separates **semantic folding** (Γ\_epist) from **order** (Γ\_ctx), **time** (Γ\_time), **spend** (Γ\_work), and **emergence** (B.2).
+* **Separate composition questions.** Separates **semantic folding** (Γ\_epist) from **order** (Γ\_ctx), **time** (Γ\_time), **spend** (Γ\_work), and **emergence** (B.2).
 
 **Trade‑offs**
 
-* **Mapping overhead.** Establishing correspondences and their actual limitations costs time and makes interpretation differences inspectable.
-* **No forced single score.** Heterogeneous support may remain separate. This makes some comparisons less compact but avoids fictitious assurance and preserves a useful bounded conclusion. B.2 remains specific to a genuinely unresolved whole-reidentification question.
+* **Mapping overhead.** Establishing correspondences and their limitations costs time and makes interpretation differences inspectable.
+* **No forced single score.** Heterogeneous support may remain separate. This makes some comparisons less compact but avoids fictitious assurance and preserves a useful bounded conclusion. B.2 applies only to an unresolved whole-reidentification question.
 

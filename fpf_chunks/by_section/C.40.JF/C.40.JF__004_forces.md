@@ -6,12 +6,12 @@ section_id: "C.40.JF:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.JF/C.40.JF__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.40.JF — Qualify Dependencies and Joint Reachability"
   - "C.40.JF:3 — Forces"
-line_start: 87678
-line_end: 87688
+line_start: 91912
+line_end: 91922
 dependencies:
   - "A.10"
   - "A.15.9"

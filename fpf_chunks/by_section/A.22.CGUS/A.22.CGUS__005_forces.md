@@ -6,12 +6,12 @@ section_id: "A.22.CGUS:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22.CGUS/A.22.CGUS__005_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.22.CGUS — Which Continuations Are Available? — Constraint-Governed Unfolding Structure (CGUS)"
   - "A.22.CGUS:3 — Forces"
-line_start: 40645
-line_end: 40654
+line_start: 42253
+line_end: 42262
 dependencies:
   - "A.10"
   - "A.15"
@@ -47,9 +47,9 @@ keywords:
 
 | Force | Tension |
 | --- | --- |
-| Useful explanation vs workflow overread | A visible path helps a reader, but actual Work may be nonlinear, interrupted, iterative, or arranged by another Method or plan. |
+| Useful explanation vs workflow overread | A visible path helps a reader, but Work may be nonlinear, interrupted, iterative, or arranged by another Method or plan. |
 | Potential structure vs present result | The structure can retain several possible branches while the present case enables none, one, or several. |
 | Plain entry vs formal replay | An ordinary correction should be cheap; qualification and replay still need enough identity and relation detail to be checked later. |
 | Description vs described structure | A card, graph, table, or narrative can describe a structure without creating it. |
-| Reuse vs copied mini-patterns | CGUS needs direct exits to relation, transformation-flow, work, publication, and assurance patterns without copying their architectures. |
+| Reuse vs copied mini-patterns | CGUS needs exits to relation, transformation-flow, work, publication, and assurance patterns without copying their architectures. |
 

@@ -6,12 +6,12 @@ section_id: "A.2.5:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__002_use-this-when.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.2.5 — SystemRoleAssignmentStateRelation - Assignment-State Recognition for Work Admission"
   - "A.2.5:0 — Use This When"
-line_start: 6328
-line_end: 6353
+line_start: 6622
+line_end: 6647
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -36,9 +36,9 @@ keywords:
 
 **Plain designations.** Say “this assignment to a system role satisfies this state condition” for the relation and “state condition for an assignment to a system role” for the predicate.
 
-Use this pattern when one exact assignment to a system role already obtains, but a method step, Work occurrence, incompatibility check, or operational gate depends on that assignment satisfying a particular condition during a particular window.
+Use this pattern when one assignment to a system role already obtains, but a method step, Work occurrence, incompatibility check, or operational gate depends on that assignment satisfying a particular condition during a particular window.
 
-Start with the practical question: **Does this exact assignment satisfy this exact state condition throughout the window that matters now?** The first useful result identifies an obtaining `SystemRoleAssignmentStateRelation` occurrence or establishes its absence; if neither is established, keep that determination unresolved. Add an assertion and evidence-use relation only when a later decision must rely on that result.
+Start with the practical question: **Does this assignment satisfy this state condition throughout the window that matters now?** The first useful result identifies an obtaining `SystemRoleAssignmentStateRelation` occurrence or establishes its absence; if neither is established, keep that determination unresolved. Add an assertion and evidence-use relation only when a later decision must rely on that result.
 
 Typical working moments include these:
 
@@ -48,13 +48,13 @@ Typical working moments include these:
 - two assignments are incompatible only while both satisfy the conditions that make them work-admitting; and
 - a model-use structure, `KindSignature`, reference scheme, or bridge changes the meaning of one predicate clause and must therefore be included in that predicate's semantic basis.
 
-**Primary EntityOfConcern.** The EntityOfConcern is one obtaining occurrence of `SystemRoleAssignmentStateRelation`. This direct relation kind is admitted under `U.Relation`. The occurrence has two participants: one exact obtaining `U.SystemRoleAssignment` occurrence and one by-value `SystemRoleAssignmentStatePredicate`. Its maximal continuous temporal extent comes from uninterrupted predicate truth while that assignment obtains.
+**Primary EntityOfConcern.** The EntityOfConcern is one obtaining occurrence of `SystemRoleAssignmentStateRelation`. This direct relation kind is admitted under `U.Relation`. The occurrence has two participants: one obtaining `U.SystemRoleAssignment` occurrence and one by-value `SystemRoleAssignmentStatePredicate`. Its maximal continuous temporal extent comes from uninterrupted predicate truth while that assignment obtains.
 
 **Primary working reader.** The intended reader defines or checks the state conditions that the next operation requires of an assignment.
 
 **What goes wrong if missed.** A system-role label is treated as current readiness. A dashboard value is substituted for the world-side state relation. Missing evidence is read as proof that the predicate is false. Capability is mistaken for Work admission. A state-machine diagram is used as both the ontology and the method order.
 
-**What this buys.** The reader can identify repeated state episodes inside one continuing assignment, keep evidence and world-side obtaining distinct, combine simultaneous conditions, and pass the exact state claim to the direct pattern governing the next decision or Work use.
+**What this buys.** The reader can identify repeated state episodes inside one continuing assignment, keep evidence and world-side obtaining distinct, combine simultaneous conditions, and pass the state claim to the direct pattern governing the next decision or Work use.
 
-**Not this pattern when.** Use `A.2` and `C.3` for the exact local system-role kind, `A.2.1` for the assignment and its holder, `A.2.2` for capability and operating envelope, `A.2.7` for relations among system-role kinds, and `A.15.1` for Work that actually occurred. Use `A.2.4` or `A.10` when the current object is the evidence-use relation rather than the assignment-state relation. A displayed status, credential entry, gate decision, or organizational position keeps its own direct pattern.
+**Not this pattern when.** Use `A.2` and `C.3` for the local system-role kind, `A.2.1` for the assignment and its holder, `A.2.2` for capability and operating envelope, `A.2.7` for relations among system-role kinds, and `A.15.1` for Work that occurred. Use `A.2.4` or `A.10` when the current object is the evidence-use relation rather than the assignment-state relation. A displayed status, credential entry, gate decision, or organizational position keeps its own direct pattern.
 

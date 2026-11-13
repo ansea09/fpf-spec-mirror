@@ -6,12 +6,12 @@ section_id: "C.2.2a:0"
 section_title: "First useful chart"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2a/C.2.2a__002_first-useful-chart.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.2.2a — Language-State Chart over U.CharacteristicSpace"
   - "C.2.2a:0 — First useful chart"
-line_start: 52850
-line_end: 52865
+line_start: 55063
+line_end: 55078
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -48,8 +48,8 @@ keywords:
 
 When a chart position is needed, make the following content recoverable; a row is one possible form:
 
-- the exact episteme publication being positioned;
-- only the currently relevant facet values or supported sets of possible values; use intervals where the Scale admits them and mark a decision-relevant unknown as `unknown`;
+- the episteme publication being positioned;
+- only the facet values or supported sets of possible values relevant to the next action; use intervals where the Scale admits them and mark a decision-relevant unknown as `unknown`;
 - the grounds for those readings, with any source, evidence, access or action conditions on which the next use depends;
 - any local threshold used by the named next action and whether the readings meet it, fail it, or leave the result undecided;
 - publication form, face, or carrier only when that distinction changes interpretation, preservation, or the next action.

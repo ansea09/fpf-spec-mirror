@@ -6,12 +6,12 @@ section_id: "G.10:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.10/G.10__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.10 — SoTA Pack Shipping"
   - "G.10:3 — Forces"
-line_start: 131700
-line_end: 131710
+line_start: 139787
+line_end: 139797
 dependencies:
   - "A.10"
   - "A.15.3"
@@ -60,7 +60,7 @@ keywords:
 | **Notation independence**                          | Make packs portable across tools ↔ still make them concrete enough to be used.                   |
 | **Completeness vs minimality**                     | Ship enough to be selector‑ready ↔ avoid duplicating governing definition semantics.                            |
 | **Continuity vs evolvability**                     | Preserve public IDs across edition bumps ↔ allow legitimate upgrades and deprecations.           |
-| **Cross‑context reuse vs honesty**                 | Enable reuse across Traditions/contexts ↔ keep crossings explicit and auditable.                 |
+| **Cross‑context reuse vs the cost of documenting crossings**                 | Enable reuse across Traditions/contexts ↔ keep crossings explicit and auditable.                 |
 | **Telemetry usefulness vs semantic contamination** | Export useful signals ↔ avoid turning telemetry into dominance/acceptance without pinned policy. |
 | **Fast shipping vs refreshability**                | Ship quickly ↔ ensure RSCR triggers can be planned and scoped (P2W‑path aware).                  |
 

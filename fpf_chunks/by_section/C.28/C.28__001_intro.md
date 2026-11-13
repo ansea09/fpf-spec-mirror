@@ -6,12 +6,12 @@ section_id: "C.28:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.28 — CausalUse-CAL: Causal-Use Questions, Identification, and Realizability"
   - "C.28:intro — Intro"
-line_start: 67713
-line_end: 67726
+line_start: 70773
+line_end: 70786
 dependencies:
   - "A.10"
   - "A.15"
@@ -53,7 +53,7 @@ keywords:
 
 > **Type:** Calculus (C)
 > **Status:** Stable
-> **Normativity:** Normative unless explicitly marked informative
+> **Normativity:** Normative unless marked informative
 
 **Plain-name.** Causal-use calculus.
 

@@ -6,12 +6,12 @@ section_id: "D.5:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.5/D.5__014_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "D.5 — Bias Audit and Ethical Assurance"
   - "D.5:9 — Rationale"
-line_start: 92415
-line_end: 92420
+line_start: 96948
+line_end: 96953
 dependencies:
   - "A.10"
   - "B.3"
@@ -32,5 +32,5 @@ keywords:
 
 Technical accuracy alone does not establish fairness for affected groups. Connect the audit question with its object and intended use, then use the evidence appropriate to that claim. Measurement, causal support and ethical assurance answer different questions; interpret their results accordingly.
 
-Audit depth follows what a particular claim or decision needs from the result. A compact account can carry a useful finding; a stronger audit or assurance conclusion needs its supporting evidence and the record required for that reliance. Material changes reopen the affected basis, and a disputed requirement remains open to substantive appraisal without losing its present force.
+Audit depth follows what a claim or decision needs from the result. A compact account can carry a useful finding; a stronger audit or assurance conclusion needs its supporting evidence and the record required for that reliance. Material changes reopen the affected basis, and a disputed requirement remains open to substantive appraisal without losing its present force.
 

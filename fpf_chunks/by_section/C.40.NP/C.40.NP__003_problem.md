@@ -6,12 +6,12 @@ section_id: "C.40.NP:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.NP/C.40.NP__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.40.NP — Continue from a Result to New Attainable Problems"
   - "C.40.NP:2 — Problem"
-line_start: 88857
-line_end: 88860
+line_start: 93121
+line_end: 93124
 dependencies:
   - "C.18"
   - "C.19"
@@ -28,5 +28,5 @@ keywords:
 
 ### C.40.NP:2 - Problem
 
-Success is often treated either as final closure or as a reason to repeat the visible activity. The new knowledge or capability then remains disconnected from the harder question it makes attainable. Conversely, demanding continual novelty can consume useful practice and manufacture problems without value. The practitioner needs to select a warranted continuation from the changed position.
+Success can conceal a new limit or supply the means to overcome an old one. Treating it as final closure, or repeating the successful activity on schedule, can leave a more demanding problem undiscovered. Demanding novelty at every occasion can consume useful practice. The practitioner needs to decide what the changed position now warrants.
 

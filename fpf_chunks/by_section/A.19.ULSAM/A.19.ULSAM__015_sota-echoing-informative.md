@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.19.ULSAM"
-pattern_title: "Unified Lawful Scale Aggregation Mechanism (ULSAM)"
+pattern_title: "Unified Lawful Scale Aggregation Mechanism"
 section_id: "A.19.ULSAM:13"
 section_title: "SoTA-Echoing (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ULSAM/A.19.ULSAM__015_sota-echoing-informative.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.19.ULSAM — Unified Lawful Scale Aggregation Mechanism (ULSAM)"
+  - "A.19.ULSAM — Unified Lawful Scale Aggregation Mechanism"
   - "A.19.ULSAM:13 — SoTA-Echoing (informative)"
-line_start: 38758
-line_end: 38777
+line_start: 40295
+line_end: 40314
 dependencies:
   - "A.19.CPM"
   - "A.19.SelectorMechanism"
@@ -25,7 +25,7 @@ keywords:
   - "fold_Γ?"
   - "lawful aggregation"
   - "scale-lawful fold"
-  - "tri-state guard (pass"
+  - "tri-state guard (pass\\"
   - "ΓFoldRef"
 ---
 
@@ -40,9 +40,9 @@ These source lines inform candidate methods. Their use still requires the select
 | SoTA practice pointer (post‑2015+) | Primary source | Where it connects | Adoption status |
 |---|---|---|---|
 | Permutation‑invariant set aggregation as a *method family* (set → summary) | Zaheer et al., “Deep Sets” (2017) [A19ULSAM-1] | Candidate `ΓFold` families can include permutation‑invariant folds; ULSAM keeps them admissibility-gated and policy-pinned. | **Adapt** (keep admissibility/pins explicit; do not treat learned folds as implicit defaults). |
-| Attention-based permutation‑invariant set aggregation as a *method family* | Lee et al., “Set Transformer” (2019) [A19ULSAM-4] | Alternative learnable set folds (pooling by attention); still requires explicit policy binding and admissibility gating. | **Adapt** (publish as method family in SoTA pack; pin editions/policies; keep kernel unchanged). |
+| Attention-based permutation‑invariant set aggregation as a *method family* | Lee et al., “Set Transformer” (2019) [A19ULSAM-4] | Alternative learnable set folds (pooling by attention); still requires policy binding and admissibility gating. | **Adapt** (publish as method family in SoTA pack; pin editions/policies; keep kernel unchanged). |
 | Choosing a risk-aware objective under distributional uncertainty | Rahimian & Mehrotra, “Distributionally Robust Optimization: A Review” (2019) [A19ULSAM-2] | The optimization framework is not itself a fold over these measures. A receiving application identifies the particular risk quantity and operation, then establishes its aggregation law and conditions. | **Adapt** (policy‑bound and SCP/CSLC‑gated). |
-| Governing-pattern discipline for architectural statements | ISO/IEC/IEEE 42010:2022 [A19ULSAM-3] | FPF adapts architecture-description distinctions to explicit governing-pattern references; the one-pattern assignment is an FPF design choice. | **Adapt** (local FPF pattern assignment, not a rule attributed to the standard). |
+| Governing-pattern discipline for architectural statements | ISO/IEC/IEEE 42010:2022 [A19ULSAM-3] | FPF adapts architecture-description distinctions to governing-pattern references; the one-pattern assignment is an FPF design choice. | **Adapt** (local FPF pattern assignment, not a rule attributed to the standard). |
 
 [A19ULSAM-1]: https://arxiv.org/abs/1703.06114 "Zaheer et al., Deep Sets, 2017"
 [A19ULSAM-2]: https://arxiv.org/abs/1908.05659 "Rahimian & Mehrotra, Distributionally Robust Optimization: A Review, 2019"

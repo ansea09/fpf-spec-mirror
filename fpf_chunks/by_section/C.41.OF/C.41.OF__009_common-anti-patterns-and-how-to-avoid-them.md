@@ -6,12 +6,12 @@ section_id: "C.41.OF:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.OF/C.41.OF__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.41.OF — Fit a Checklist to Its Occasion of Use"
   - "C.41.OF:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 89485
-line_end: 89493
+line_start: 93753
+line_end: 93761
 dependencies:
   - "A.15.8"
   - "C.41"
@@ -23,7 +23,7 @@ keywords:
 
 | Failure | Repair |
 | --- | --- |
-| Training is repeated while the description or tool remains inaccessible. | Supply the missing access and then test the actual use. |
+| Training is repeated while the description or tool remains inaccessible. | Supply the missing access and then test the arrangement in use. |
 | A person fills the list before a shared conversation. | Put the question at the conversation and distinguish prior observations from the shared result. |
 | A new dashboard creates a neglected second workplace. | Use the existing work environment or supply a worthwhile, maintained connection. |
 | AI uncertainty is addressed only with stronger prompting. | Inspect criteria, tools, observations and retained context; repair the missing contribution. |

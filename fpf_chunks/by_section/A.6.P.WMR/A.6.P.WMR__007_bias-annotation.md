@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.P.WMR"
-pattern_title: "Exact Relation Recovery for Method and Work Claims"
+pattern_title: "Relation Recovery for Method and Work Claims"
 section_id: "A.6.P.WMR:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P.WMR/A.6.P.WMR__007_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.6.P.WMR — Exact Relation Recovery for Method and Work Claims"
+  - "A.6.P.WMR — Relation Recovery for Method and Work Claims"
   - "A.6.P.WMR:6 — Bias-Annotation"
-line_start: 21120
-line_end: 21130
+line_start: 21993
+line_end: 22003
 dependencies:
   - "A.15.1"
   - "A.15.1-A.15.3"
@@ -41,5 +41,5 @@ keywords:
 | Production bias | Work-caused change, entity-identity inception, and production completion remain separate claims. |
 | Data bias | Epistemic source-to-use and premise or reference relations remain explicit; a datum does not become an operation argument or work input by default. |
 | Evidence bias | A record's presence or an application binding alone establishes no truth, warrant, acceptance or downstream use. Examine the recorded claim and grounds for the particular inference. |
-| Ontology-growth bias | An exact blocker replaces any convenience move toward a broad new kind. |
+| Ontology-growth bias | A blocker replaces any convenience move toward a broad new kind. |
 

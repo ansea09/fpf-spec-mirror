@@ -6,12 +6,12 @@ section_id: "E.17.1:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__013_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.17.1 — Viewpoint Bundle Library - Reusable Viewpoint Reference Bundles"
   - "E.17.1:12 — Relations"
-line_start: 106835
-line_end: 106845
+line_start: 113370
+line_end: 113382
 dependencies:
   - "A.16.0"
   - "A.22"
@@ -37,12 +37,14 @@ keywords:
 
 ### E.17.1:12 - Relations
 
-- **Builds on:** `C.2.1` for library and member-episteme identity; `E.17.0` for exact P membership, reference resolution, singular use selection, and sole E/P view-membership rule; `C.13` for explicit imported collections; `A.22` for any separately selected organization; `A.6.2-A.6.4` for optional episteme-construction histories; `A.7`, `E.7`, and `E.10` for carrier, authoring, and naming discipline; `E.24.PUB` for publication; `A.6.3.RT`/`A.6.3.RT.OE` for expression construction and representation-scheme transition; and `C.29` for mathematical-lens use.
+- **Builds on:** `C.2.1` for library and member-episteme identity; `E.17.0` for P membership, reference resolution, singular use selection, and sole E/P view-membership rule; `C.13` for explicit imported collections; `A.22` for any separately selected organization; `A.6.2-A.6.4` for optional episteme-construction histories; `A.7`, `E.7`, and `E.10` for carrier, authoring, and naming discipline; `E.24.PUB` for publication; `A.6.3.RT`/`A.6.3.RT.OE` for expression construction and representation-scheme transition; and `C.29` for mathematical-lens use.
 - **Constrains:** E.17.0 consumers whenever they import a reusable family; an import narrows eligible references but neither selects one P for a use nor proves conformance.
 - **Coordinates with:** `C.2.2a`, `A.16.0`, `E.17`, `E.17.2`, `E.18:5.12`, `F.9`, `F.9.1`, and domain-specific families requiring stable reuse.
-- **Protects:** exact separation among catalogue triple `<G_L, K_L, R_L>`, catalogue episteme L, local declaration claim block, ordinary family designator, `U.ViewpointRef`, P designator, P, candidate/View E, any A.22 structure, form, carrier, publication occurrence, and their representations.
+- **Protects:** separation among catalogue triple `<G_L, K_L, R_L>`, catalogue episteme L, local declaration claim block, ordinary family designator, `U.ViewpointRef`, P designator, P, candidate/View E, any A.22 structure, form, carrier, publication occurrence, and their representations.
 
 #### E.17.1:12.1 - Resolvable annex references for thin bundles
 
-An ordinary project family designator may be accompanied by references that resolve under the applicable source or reference scheme to exact annex assets. Each reference states its local role—such as `lexical`, `bridge`, `movePublication`, `examples`, optional `sota`, or optional `pilotTrace`. Neither the field spelling nor the role value creates a new reference kind, manifest entity, or typed annex asset. This keeps the declaration claim block thin while allowing A.16 move-publication notes, lexical material, Bridge material, and examples to remain explicit rather than folded into the core family claim.
+An ordinary project family designator may be accompanied by references that resolve under the applicable source or reference scheme to annex assets. Each reference states its local role, such as `lexical`, `bridge`, `movePublication`, `examples`, optional `sota`, or optional `pilotTrace`. Neither the field spelling nor the role value creates a new reference kind, manifest entity, or typed annex asset.
+
+This keeps the declaration claim block thin while allowing A.16 move-publication notes, lexical material, Bridge material, and examples to remain explicit rather than folded into the core family claim.
 

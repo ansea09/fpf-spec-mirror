@@ -6,12 +6,12 @@ section_id: "C.39.RO:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.RO/C.39.RO__011_architectural-rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.39.RO — Turn a Construction into a Reusable Operation"
   - "C.39.RO:10 — Architectural Rationale"
-line_start: 83620
-line_end: 83629
+line_start: 87677
+line_end: 87686
 dependencies:
   - "A.3.1"
   - "A.3.2"
@@ -26,7 +26,7 @@ keywords:
 
 ### C.39.RO:10 - Architectural Rationale
 
-Case recovery and reusable-operation construction have different results. Recovery makes an existing construction available; this Method changes how it can be instantiated or combined. Keeping the receiving variation explicit prevents expansion into a general library-design task.
+Case recovery and reusable-operation construction have different results. Recovery makes an existing construction available; this Method changes how it can be instantiated or combined. Stating the receiving variation prevents expansion into a general library-design task.
 
 Meaningful inputs and conditions hold the proposed scope together. Parameterization exposes variation, composition connects available contributions, and replacement repairs a constituent that no longer serves the use. Their subject arguments explain why the resulting operation works.
 

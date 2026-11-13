@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.30"
-pattern_title: "Grounded Architecture and Selected-Structure Adequacy"
+pattern_title: "Architecture and Selected-Structure Adequacy"
 section_id: "C.30:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30/C.30__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "C.30 — Grounded Architecture and Selected-Structure Adequacy"
+  - "C.30 — Architecture and Selected-Structure Adequacy"
   - "C.30:intro — Intro"
-line_start: 71320
-line_end: 71325
+line_start: 74413
+line_end: 74418
 dependencies:
   - "A.1"
   - "A.10"
@@ -74,9 +74,9 @@ keywords:
   - "selected structure"
 ---
 
-## C.30 - Grounded Architecture and Selected-Structure Adequacy
+## C.30 - Architecture and Selected-Structure Adequacy
 
 > **Type:** Architectural pattern
 > **Status:** Stable
-> **Normativity:** Normative unless explicitly marked informative
+> **Normativity:** Normative unless marked informative
 

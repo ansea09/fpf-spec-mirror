@@ -6,12 +6,12 @@ section_id: "F.9.1:2"
 section_title: "Object and identity"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9.1/F.9.1__003_object-and-identity.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.9.1 — Bridge Stance Note — Clarify a Bounded Use"
   - "F.9.1:2 — Object and identity"
-line_start: 121810
-line_end: 121823
+line_start: 129514
+line_end: 129527
 dependencies:
   - "A.10"
   - "A.6.3.CSC"
@@ -36,9 +36,9 @@ keywords:
 
 ### F.9.1:2 - Object and identity
 
-A bridge stance note is an ordinary C.2.1 episteme. It is not a U-kind and it is not part of the Bridge occurrence.
+A bridge stance note is an ordinary C.2.1 episteme. It is neither a U-kind nor part of the Bridge occurrence.
 
-Its C.2.1 identity is settled as follows:
+Three values determine its C.2.1 identity:
 
 - its `EntityOfConcern` is one exact F.9 bounded-use claim;
 - its `ClaimGraph` states the selected stance, the ordinary-language reading that stance abbreviates, and any grounded overread it needs to reject;

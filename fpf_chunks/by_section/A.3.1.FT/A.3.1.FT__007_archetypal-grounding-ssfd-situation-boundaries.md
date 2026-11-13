@@ -6,12 +6,12 @@ section_id: "A.3.1.FT:5"
 section_title: "Archetypal Grounding - SSFD Situation Boundaries"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.FT/A.3.1.FT__007_archetypal-grounding-ssfd-situation-boundaries.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.3.1.FT — Qualify Method Fit and Transfer"
   - "A.3.1.FT:5 — Archetypal Grounding - SSFD Situation Boundaries"
-line_start: 10914
-line_end: 10935
+line_start: 11315
+line_end: 11336
 dependencies:
   - "A.3.1"
   - "A.3.1.QM"
@@ -26,7 +26,7 @@ The SSFD workplace evidence supplies varied actual-project reports and a decisio
 
 Use Project 11 as a source situation only after the SSFD Method or candidate status, relevant Work evidence, performer and capability facts, support conditions, and relied-on claim are recovered. Use Project 32 as a discriminating unlike situation because the closed-loop relation can challenge a representation or applicability claim. Do not infer that Project 11 preceded Project 32, that the same performers and capabilities were present, or that a difficulty establishes whole-Method failure.
 
-A defensible result may be narrow: Project 11 supplies bounded evidence for one functional-analysis situation; Project 32 raises a question about a broader representation claim. A.3.1.CC can determine whether correction is needed when the relevant claim and evidence are recoverable; a transfer conclusion still requires the receiving Work and comparison basis. The 41-report set broadens the evidence pool but does not establish transfer across every project stratum or causal contribution by SSFD alone.
+A result may be narrow: Project 11 supplies bounded evidence for one functional-analysis situation; Project 32 raises a question about a broader representation claim. A.3.1.CC can determine whether correction is needed when the relevant claim and evidence are recoverable; a transfer conclusion requires the receiving Work and comparison basis. The 41-report set broadens the evidence pool but does not establish transfer across every project stratum or causal contribution by SSFD alone.
 
 #### A.3.1.FT:5.1 - Unlike-Domain and Current-Alternative Probes
 

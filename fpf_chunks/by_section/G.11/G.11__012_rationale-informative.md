@@ -6,12 +6,12 @@ section_id: "G.11:10"
 section_title: "Rationale (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.11/G.11__012_rationale-informative.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.11 — Decide Whether and How to Refresh SoTA Packs and Related Results (Telemetry and Decay)"
   - "G.11:10 — Rationale (informative)"
-line_start: 132476
-line_end: 132483
+line_start: 140599
+line_end: 140606
 dependencies:
   - "A.10.1"
   - "A.6.RCD"
@@ -50,7 +50,7 @@ keywords:
 
 G.6 makes a cited basis and its paths recoverable; G.11 connects the affected reach to a supported continuation. A shared premise can require several local judgements, while independent results remain usable. The connection separates three concerns:
 
-* The refresh loop coordinates reruns and republishing; trigger semantics, invariants, and defaults are delegated to `G.Core`.
-* The kit is split across the **P2W planning-to-work boundary** so that the exact `U.WorkPlan` and its declaration-local planned-filling rows remain planning content while dated Work remains independently established.
+* The refresh loop coordinates reruns and republishing; `G.Core` governs trigger meanings and invariants and identifies the governing definition for each default.
+* The kit is split across the **P2W planning-to-work boundary** so that the `U.WorkPlan` and its declaration-local planned-filling rows remain planning content while dated Work remains independently established.
 * Alias stability is maintained by allowing trigger aliases (`T0…T7`) while prohibiting them from becoming semantic authorities.
 

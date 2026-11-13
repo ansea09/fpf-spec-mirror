@@ -6,12 +6,12 @@ section_id: "E.10.D2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:4 — Solution"
-line_start: 102394
-line_end: 102440
+line_start: 108166
+line_end: 108212
 dependencies:
   - "A.7"
   - "C.2.1"
@@ -44,7 +44,7 @@ For the current passage or artifact:
 4. **Open only a needed neighbor.** Add empirical grounding, viewpoint, view, claim scope, model-use structure, evidence, edition, specification evaluation, publication, form, carrier, currentness, or representation only when the named receiving use depends on its direct relation.
 5. **Stop at the smallest sufficient result.** Do not produce a universal description card. A readable sentence naming the receiving use, the recovered episteme, its EntityOfConcern, and the one needed neighboring relation is normally enough.
 
-The ordinary minimum is prose, not a mandatory record:
+A short statement usually suffices.
 
 > For `<receiving use>`, episteme `<E>` carries claims `<G>` about exact EntityOfConcern `<T>` under effective scheme `<R>`. `<One named neighboring relation>` is additionally current because `<the next action depends on it>`.
 
@@ -60,7 +60,7 @@ A ClaimGraph may designate several other entities as participants in relational,
 
 ##### E.10.D2:4.1.2 - Description episteme
 
-In “revise the description,” the word description can designate the same `U.Episteme` E identified under C.2.1: its claim content G states claims about its EntityOfConcern T under its effective ReferenceScheme R. The word description supplies no additional kind or identity criterion. Where the action concerns selected claims, wording, layout or describing work, recover that actual object instead. C.2.1:4.0.5 and :6 explain these readings and the specification-use boundary.
+In “revise the description,” the word description can designate the same `U.Episteme` E identified under C.2.1: its claim content G states claims about its EntityOfConcern T under its effective ReferenceScheme R. The word description supplies no additional kind or identity criterion. When the instruction concerns selected claims, wording, layout or describing work, identify the object of that action. C.2.1:4.0.5 and :6 explain these readings and the specification-use boundary.
 
 Descriptive claims may assign designations, characterize the entity, state criteria, or describe structure or behavior. A diagram may express those claims under the effective scheme and separately serve a representation use under §8.4. Their expression does not by itself establish parts or properties of the EntityOfConcern; recover those subject-side facts under their direct patterns.
 
@@ -75,7 +75,7 @@ Use a `...Spec` name only when the receiving use depends on specification force 
 
 A `BoundedModelUseStructure` is selected only when the receiving assertion, calculation, interpretation, comparison, or other use depends on the organization of admitted model-applicability, model-use, and coherence relations governed by A.1.1. The receiving use designates that exact structure through its direct relation. The structure is never a constituent of description-episteme identity merely because the episteme is used inside it.
 
-If a proposed dependent relation species genuinely requires one exact model-use structure as an identity-bearing participant, its own pattern must declare that participant and its obtaining and identity rules. E.10.D2 supplies no generic context relation as a shortcut.
+If a proposed dependent relation species requires one exact model-use structure as an identity-bearing participant, its own pattern must declare that participant and its obtaining and identity rules. E.10.D2 supplies no generic context relation as a shortcut.
 
 ##### E.10.D2:4.1.5 - Episteme about an episteme
 

@@ -6,12 +6,12 @@ section_id: "C.2.2a:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2a/C.2.2a__009_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.2.2a — Language-State Chart over U.CharacteristicSpace"
   - "C.2.2a:7 — Conformance Checklist"
-line_start: 52982
-line_end: 52990
+line_start: 55199
+line_end: 55207
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -45,11 +45,11 @@ keywords:
 ---
 
 ### C.2.2a:7 - Conformance Checklist
-- `CC-C.2.2a-1` The language-state chart **SHALL** be a declared `U.CharacteristicSpace` under A.19, not a rival kernel space or a disguised `F` progression.
+- `CC-C.2.2a-1` The language-state chart **SHALL** be a declared `U.CharacteristicSpace` under A.19, not a disguised `F` progression.
 - `CC-C.2.2a-2` Published positions **SHALL** cite explicit facet subject patterns when those positions matter for movement, routing, or endpoint entry.
 - `CC-C.2.2a-3` Position claims **SHALL** use slot-explicit values, supported sets of remaining possible values, or intervals admitted by the slot's Scale; uncertainty **SHALL NOT** be hidden inside stage words such as `ready`, `early`, or `mature`.
 - `CC-C.2.2a-4` A position claim in the chart **MUST NOT** be conflated with the current ground, witness, publication form (including an MVPK face), or carrier.
-- `CC-C.2.2a-5` Comparison or reuse that depends on distinct local meanings **SHALL** recover the two exact F.17 local senses and test the direct F.9 predicate. Cite a Bridge only when it obtains; keep the bounded-use claim, reliance, and any optional loss note separate. If it does not obtain, keep the local positions distinct and name the missing comparison or translation governor.
+- `CC-C.2.2a-5` Comparison or reuse that depends on distinct local meanings **SHALL** recover the two exact F.17 local senses and test the F.9 predicate. Cite a Bridge only when it obtains; keep the bounded-use claim, reliance, and any optional loss note separate. If it does not obtain, keep the local positions distinct and name the missing comparison or translation governor.
 - `CC-C.2.2a-6` Corridor and navigation notes **MUST NOT** be read as relocation of facet, seam, bridge, or downstream subject-pattern semantics into the chart subject-pattern set.
 - `CC-C.2.2a-7` If a position claim is used for routing, endpoint entry, or gate-adjacent reasoning, its relied-on threshold **SHALL** remain explicit or recoverable from the cited applicable upstream publication. The positioned episteme publication **SHALL** remain identifiable. Include form, MVPK face or carrier distinctions when they affect interpretation or the next action, as in :4.5.
 

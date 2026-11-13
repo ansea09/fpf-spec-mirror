@@ -6,12 +6,12 @@ section_id: "E.18.NET:1"
 section_title: "Problem frame — intent and first useful result"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.NET/E.18.NET__002_problem-frame-intent-and-first-useful-result.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.18.NET — Network of Transformation-Flow Structures"
   - "E.18.NET:1 — Problem frame — intent and first useful result"
-line_start: 112160
-line_end: 112206
+line_start: 119247
+line_end: 119299
 dependencies:
   - "A.1.STM"
   - "A.12"
@@ -39,17 +39,17 @@ keywords:
 
 ### E.18.NET:1 - Problem frame — intent and first useful result
 
-Use this pattern when one engineering question depends on two or more independently identified transformation-flow structures, or on nested networks of them, and at least one exact relation connects positions across their boundaries. Typical situations include a toolchain that builds another tool, a production system related to the product it helps produce, or an operating flow whose observation returns to a separate development flow.
+Use this pattern when one engineering question depends on two or more independently identified transformation-flow structures, or on nested networks of them, and at least one obtaining relation connects positions across their boundaries. Typical situations include a toolchain that builds another tool, a production system related to the product it helps produce, or an operating flow whose observation returns to a separate development flow.
 
-Start with the practical choice, not with a graph:
+Start with the three cases in step 1. Continue with steps 2–5 when the engineering question requires a network.
 
 1. decide whether the case is several valuations of one flow structure, an internal portion of one flow structure, or a network of independent flow structures;
 2. identify each candidate member independently;
-3. name the exact obtaining relation occurrences that connect positions in different members;
+3. name the obtaining relation occurrences that connect positions in different members;
 4. select only the members, relations, boundary exposures, and constraints needed for the current question; and
-5. return one exact network reference, or stop at the proposed description and name either the exact relation-claim result returned by its governing pattern or the separate missing network discriminator.
+5. return one network reference, or stop at the proposed description and name either the relation-claim result returned by its governing pattern or the separate missing network discriminator.
 
-The first useful result is therefore small. It is either:
+A successful selection returns a network reference and its basis.
 
 ```text
 selectedNetworkRef: one exact TransformationFlowStructureNetwork
@@ -64,7 +64,7 @@ forbiddenOverread?: an explanatory guard justified by F.19:4, outside networkUse
 returnCondition: the first member, relation, constraint, or use-frame change that reopens selection
 ```
 
-or an exact stop such as:
+If selection stops, return the proposed description and the reason. For example:
 
 ```text
 proposedNetworkDescriptionRef: current diagram or record
@@ -80,7 +80,13 @@ networkSelectionBlocker:
   missingEndpointOrPositionBinding: exact participant, member, position, or binding that is absent
 ```
 
-An unavailable fact yields the governing pattern's `missing-information` outcome; a sufficient case basis that fails its positive test yields `factually unsupported`. Neither outcome alone asserts a negative. Carry an inapplicable or negative result only when that pattern's applicable rule and case basis establish it. A missing member, applied constraint, or `networkUseFrame` remains its own network-selection blocker and never becomes a relation result. Keep `proposedNetworkDescriptionRef` until all four A.22 discriminators—members, selected obtaining relation occurrences, applied constraints, and use frame—are recoverable; only then assert `selectedNetworkRef`.
+If a fact needed to decide the relation claim is unavailable, carry the governing pattern's `missing-information` outcome; a sufficient case basis that fails its positive test yields `factually unsupported`. Neither outcome alone asserts a negative. Carry an inapplicable or negative result only when that pattern's applicable rule and case basis establish it.
 
-Do not use E.18.NET merely because one flow branches, contains a detailed portion, has several valuations, or is drawn as a network. Use E.18 for one selected `TransformationFlowStructure`, its valuations and selected internal obtaining relations; use E.18's `SubflowRef` for one parent-relative internal portion. Use E.18.2 when the current object is a graph, wiring diagram, tuple, category-theory expression, or another mathematical description. Use A.22.CGUS and E.18.3 when the current object is an admitted demonstrative traversal rather than the network itself.
+A missing member, applied constraint, or `networkUseFrame` remains its own network-selection blocker and never becomes a relation result.
+
+Keep `proposedNetworkDescriptionRef` until all four A.22 discriminators—members, selected obtaining relation occurrences, applied constraints, and use frame—are recoverable; only then assert `selectedNetworkRef`.
+
+Do not use E.18.NET merely because one flow branches, contains a detailed portion, has several valuations, or is drawn as a network. Use E.18 for one selected `TransformationFlowStructure`, its valuations and selected internal obtaining relations; use E.18's `SubflowRef` for one parent-relative internal portion.
+
+Use E.18.2 when the current object is a graph, wiring diagram, tuple, category-theory expression, or another mathematical description. Use A.22.CGUS and E.18.3 when the current object is an admitted demonstrative traversal rather than the network itself.
 

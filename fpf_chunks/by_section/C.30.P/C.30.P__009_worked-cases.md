@@ -6,12 +6,12 @@ section_id: "C.30.P:6"
 section_title: "Worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.P/C.30.P__009_worked-cases.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.30.P — Clarify Architecture and Structure Wording (Precision Restoration)"
   - "C.30.P:6 — Worked cases"
-line_start: 72920
-line_end: 72933
+line_start: 76038
+line_end: 76055
 dependencies:
   - "A.10"
   - "A.15"
@@ -70,5 +70,9 @@ keywords:
 | "Functional architecture improved maintainability." | Recover hidden function wording through `A.6.F`, structural-view use through `C.30.ASV`, and the maintainability claim through `C.16.P`, `C.16.Q`, `C.25`, or its domain rule as needed. If improvement is attributed causally to the changed arrangement, use `C.28` for that further claim. |
 | "The module layer supports the architecture." | Use `C.30.STRAT` if the source meaning of `layer` remains unclear. Use C.30.P only for the architecture or structure portion after recovery; use `A.6.M` only if a module-interface relation is recovered, `C.30.LCA` only if a control-layer relation is recovered, `C.2.P` if a publication-label or view-label distinction remains hidden, or `A.6.P` if a basedness, source-use, evidence, or reliance relation is being made; otherwise retain an ordinary source-label disposition. |
 
-**Worked repair.** A review says, “The new module layer improved maintainability.” The available results report 80 seconds for revision R1 and 50 seconds for R2 on regression fixture F; the word *layer* merely labels the changed source grouping. The sufficient rewrite is: “On fixture F, the reported regression-test runtime was 80 seconds for R1 and 50 seconds for R2.” It preserves the observed comparison without claiming a structural layer, general maintainability gain or causal effect from two measurements. If the receiving task only needs that runtime comparison and its measurement basis is adequate, stop. If it needs a maintainability conclusion, establish how the measured runtime bears on that characteristic under `C.25` and the domain method; if it needs a causal conclusion, recover the additional intervention and comparison basis under `C.28`. If the grouping itself must be changed, recover its actual constituents and relations before using `A.22` or `C.30`. The stronger question selects the missing work; it does not invalidate the narrower measured result.
+**Worked repair.** A review says, “The new module layer improved maintainability.” The available results report 80 seconds for revision R1 and 50 seconds for R2 on regression fixture F; the word *layer* merely labels the changed source grouping.
+
+The sufficient rewrite is: “On fixture F, the reported regression-test runtime was 80 seconds for R1 and 50 seconds for R2.” It preserves the observed comparison without claiming a structural layer, general maintainability gain or causal effect from two measurements.
+
+If the receiving task only needs that runtime comparison and its measurement basis is adequate, stop. If it needs a maintainability conclusion, establish how the measured runtime bears on that characteristic under `C.25` and the domain method; if it needs a causal conclusion, recover the additional intervention and comparison basis under `C.28`. If the grouping itself must be changed, recover its constituents and relations before using `A.22` or `C.30`. The stronger question selects the missing work; it does not invalidate the narrower measured result.
 

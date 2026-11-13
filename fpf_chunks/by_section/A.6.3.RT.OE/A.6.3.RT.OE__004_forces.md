@@ -6,12 +6,12 @@ section_id: "A.6.3.RT.OE:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT.OE/A.6.3.RT.OE__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.3.RT.OE — Construct an Operative Expression"
   - "A.6.3.RT.OE:3 — Forces"
-line_start: 19045
-line_end: 19055
+line_start: 19904
+line_end: 19914
 dependencies:
   - "A.6.3.RT"
   - "B.5.RA"

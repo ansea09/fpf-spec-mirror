@@ -6,12 +6,12 @@ section_id: "C.40.JF:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.JF/C.40.JF__006_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.40.JF — Qualify Dependencies and Joint Reachability"
   - "C.40.JF:5 — Archetypal Grounding"
-line_start: 87758
-line_end: 87797
+line_start: 91992
+line_end: 92031
 dependencies:
   - "A.10"
   - "A.15.9"
@@ -39,23 +39,23 @@ The relevant practice has qualified each direction separately for its own use. E
 | A followed by B | Both need eight weeks, so moving B after A does not fit the original eight-week horizon. A longer horizon would be a revised claim requiring its own availability and continuing-demand basis. |
 | Shared support for A and B | “The specialist can cover both at once” is an unqualified new configuration, not a consequence of the individual results. |
 
-The useful answer is not “development is impossible.” Both separate directions remain candidates. The organization can request the exact combined-work estimate for a shared-support configuration, examine another provider, or later consider a different horizon. Those possibilities require their own qualification. Choosing between A and B remains a separate decision.
+The useful answer is not “development is impossible.” Both separate directions remain candidates. The organization can request the combined-work estimate for a shared-support configuration, examine another provider, or later consider a different horizon. Those possibilities require their own qualification. Choosing between A and B remains a separate decision.
 
-#### C.40.JF:5.2 - Mira needs a transfer premise, not another label
+#### C.40.JF:5.2 - Mira needs a transfer premise
 
 In this constructed case, Mira, an engineer-manager, is exploring better review contributions over four months. A human-development result identifies what she can already do under specified support. A separate access inquiry finds that some representative examples are unavailable. A small recovery test shows improved performance with permitted examples and feedback.
 
-Those results answer different questions. A capability envelope bounds current performance conditions; an access/expression differential concerns whether a capability can be expressed under changed conditions; a particular recovery test concerns that tested recovery. None alone establishes learning transfer to later independent review or selects an intervention.
+Those results answer different questions. A capability envelope bounds current performance conditions; an access/expression differential concerns whether a capability can be expressed under changed conditions; a recovery test concerns that tested recovery. None alone establishes learning transfer to later independent review or selects an intervention.
 
 If the direction requires independent later review, retain it conditionally while the applicable human-capability Method supplies the result about feasible development, practice, feedback, and transfer for Mira's intended use. If a different direction requires continuing specialist support, qualify that arrangement on its own basis. Do not silently replace independent capability with supported performance.
 
-The exact return might be: “Supported review with the permitted examples is evidenced within the tested conditions. Independent transfer in the intended work remains unknown; this blocks the independent-review claim, not the supported route or the usefulness of the receiving problem.”
+The return might be: “Supported review with the permitted examples is evidenced within the tested conditions. Independent transfer in the intended work remains unknown; this blocks the independent-review claim, not the supported route or the usefulness of the receiving problem.”
 
 #### C.40.JF:5.3 - Data access does not complete an AI reachability claim
 
 In this constructed case, a team has a model benchmark result and permission to inspect a small data sample. Its proposed direction is a retrieval-assisted review arrangement using a different configuration and representative operational data.
 
-The benchmark does not establish the receiving configuration's performance. Sample inspection does not establish permission for operational processing, continuing data access, evaluation coverage, or adequate human oversight. Use the AI, data-governance, and operating practices' specific results through A.15.9. Until the required transfer and support results exist, retain the arrangement as conditional.
+The benchmark does not establish the receiving configuration's performance. Sample inspection does not establish permission for operational processing, continuing data access, evaluation coverage, or adequate human oversight. Use the AI, data-governance, and operating practices' results through A.15.9. Until the required transfer and support results exist, retain the arrangement as conditional.
 
 If the qualified data result excludes that operational use, reject the access-dependent route for that use. Preserve a permitted manual route when its evidence is independent. A population or lineage can likewise be the subject of a scientist's reachability hypothesis, but it is not thereby an advice recipient or authorized chooser; a proposed intervention remains the scientist's or organization's separately governed case.
 

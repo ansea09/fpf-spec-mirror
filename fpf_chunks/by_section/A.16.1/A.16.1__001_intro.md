@@ -6,12 +6,12 @@ section_id: "A.16.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.16.1 — PreArticulationCuePack: Preserve an Early Cue Before Choosing Its Use"
   - "A.16.1:intro — Intro"
-line_start: 33888
-line_end: 33907
+line_start: 35368
+line_end: 35387
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -44,15 +44,15 @@ keywords:
 
 **Plain-name.** Pre-articulation cue pack.
 
-**Use this when.** Use this pattern when the first honest publication is a preserve-worthy cue nucleus that should remain visible while its interpretation and next use remain open.
+**Use this when.** Use this pattern when the first supported publication is a preserve-worthy cue nucleus that should remain visible while its interpretation and next use remain open.
 
 **What goes wrong if missed.** Early cues either vanish, become vague "signals", or are cited prematurely as a route decision, supported explanation, evaluation, method, or Work record.
 
-**What this buys.** One admissible preservation form for low-articulation but meaningful cue content, with enough witness, anchor, and route-candidate discipline for later successor publication without pretending the endpoint already exists.
+**What this buys.** One admissible preservation form for low-articulation but meaningful cue content, with enough witness, anchor, and route-candidate discipline for later successor publication without treating the endpoint as established.
 
 **First output.** One `PreArticulationCuePack` with an explicit cue nucleus, preservation rationale, primary witness or anchor when one is load-bearing, and any early lane candidates or route-candidate hints that are already visible.
 
-**Typical next patterns.** Use `B.4.1` when route plurality or route selection becomes publishable; `B.5.2.0` for cue-derived abductive prompting; `A.6.P` when a relation-bearing claim needs repair for a named receiving use and you can name at least one grounded candidate relation, its participants, and a discriminating check; `A.6.A` to recover an unclear action-oriented claim or question and return it to its subject pattern; `C.16.Q` under its own entry conditions; and `A.16.2` when reopening or retirement becomes the truthful move. Use `C.2.4` for any additional local articulation threshold declared for a receiving branch.
+**Typical next patterns.** Use `B.4.1` when route plurality or route selection becomes publishable; `B.5.2.0` for cue-derived abductive prompting; `A.6.P` when a relation-bearing claim needs repair for a named receiving use and you can name at least one grounded candidate relation, its participants, and a discriminating check; `A.6.A` to recover an unclear action-oriented claim or question and return it to its subject pattern; `C.16.Q` under its own entry conditions; and `A.16.2` when reopening or retirement is warranted. Use `C.2.4` for any additional local articulation threshold declared for a receiving branch.
 
 **Common neighboring-pattern mistakes.** Do not publish a cue pack as a selected-route decision, anomaly statement, evaluative ascription, claim or question recovered through `A.6.A`, or Work record; if route selection is already explicit, use `B.4.1`; if endpoint semantics are already stable, use the applicable endpoint pattern to test them and publish the corresponding form; if backoff or retirement is the active problem, use `A.16.2`.
 

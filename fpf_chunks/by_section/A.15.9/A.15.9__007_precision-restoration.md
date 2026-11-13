@@ -6,12 +6,12 @@ section_id: "A.15.9:6"
 section_title: "Precision restoration"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.9/A.15.9__007_precision-restoration.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.15.9 — Use or Request a Bounded Result from Another Practice"
   - "A.15.9:6 — Precision restoration"
-line_start: 32369
-line_end: 32382
+line_start: 33691
+line_end: 33704
 dependencies:
   - "A.10"
   - "A.13"
@@ -33,11 +33,11 @@ keywords:
 
 | Source phrase | Recover before relying on it | Do not infer |
 | --- | --- | --- |
-| *professional result* or *specialist return* | The actual governed result kind, subject, conditions, supplier practice, and receiving use. | A new FPF result kind or universal profession ontology. |
+| *professional result* or *specialist return* | The governed result kind, subject, conditions, supplier practice, and receiving use. | A new FPF result kind or universal profession ontology. |
 | *ask legal / safety / architecture / finance* | The smallest result question and the decision it can change. | A department, title, or field name already identifies the answer. |
-| *review* | The reusable Method, planned Work, dated review Work, communication, and returned result that are actually claimed. | Scheduling or delivery proves Work, acceptance, or adequacy. |
-| *approved* or *signed off* | The exact result plus any separately supported authority, permission, acceptance, or gate relation. | A word, signature image, or provider status transfers decision authority. |
-| *specialist* | The practitioner or other supplying System relevant to the result. If a precise Agent claim is needed, recover its A.13 local-kind classification and obtaining assignment. Add capability, access, conflict and authority only when consumed by the use. | Title, credential, organization, species, or tool label establishes those relations. |
+| *review* | The reusable Method, planned Work, dated review Work, communication, and returned result that are claimed. | Scheduling or delivery proves Work, acceptance, or adequacy. |
+| *approved* or *signed off* | The result plus any separately supported authority, permission, acceptance, or gate relation. | A word, signature image, or provider status transfers decision authority. |
+| *specialist* | The practitioner or other supplying System relevant to the result. If an Agent claim is needed, recover its A.13 local-kind classification and obtaining assignment. Add capability, access, conflict and authority only when consumed by the use. | Title, credential, organization, species, or tool label establishes those relations. |
 | *AI review* or *tool check* | The source or result, actual performer if current, Method, dated Work, provenance, checks, evidence, and authority boundary needed by this use. | Fluency, automation, branding, or activity establishes truth, Work, permission, or acceptance. |
 | *received* or *delivered* | The communication or transfer that occurred, the independently identified result, and any separate acceptance and use. | Delivery is production, acceptance, reliance, or effect. |
 

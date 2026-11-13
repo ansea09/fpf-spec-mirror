@@ -6,12 +6,12 @@ section_id: "C.2.LS:14"
 section_title: "Authoring and Review Guidance"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.LS/C.2.LS__015_authoring-and-review-guidance.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.2.LS — Language-State Facet Profile: Publish Readings and Use Conditions Together"
   - "C.2.LS:14 — Authoring and Review Guidance"
-line_start: 53587
-line_end: 53603
+line_start: 55820
+line_end: 55836
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -48,7 +48,7 @@ keywords:
 When publishing a language-state facet profile:
 
 1. start from the local authoring problem rather than from a memorized progression;
-2. name the facet refs explicitly;
+2. name the facet refs;
 3. add threshold refs only when a threshold changes routing, repair, or another operative decision;
 4. when a label such as "mature", "raw", or "ready" carries an operational claim, make the relevant facet readings and conditions visible.
 

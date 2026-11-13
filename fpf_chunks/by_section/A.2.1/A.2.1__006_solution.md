@@ -6,14 +6,13 @@ section_id: "A.2.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.1/A.2.1__006_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.2.1 — U.SystemRoleAssignment - Contextual System-Role Assignment"
   - "A.2.1:4 — Solution"
-line_start: 4948
-line_end: 5081
+line_start: 5113
+line_end: 5253
 dependencies:
-  - "A.1.1"
   - "A.15"
   - "A.15.1"
   - "A.2"
@@ -22,14 +21,9 @@ dependencies:
   - "A.2.7"
   - "A.3"
   - "A.6.5"
-  - "A.6.9"
   - "A.6.REL"
   - "C.2.1"
-  - "C.27"
-  - "C.27.TA"
-  - "C.3.3"
   - "F.6"
-  - "F.9"
 keywords:
   - "assignment predicate"
   - "direct assignment species"
@@ -100,7 +94,9 @@ An occurrence of a declared species begins when that species' direct predicate s
 
 A reference field ending in `...SystemRoleAssignmentRef` uses `U.RelationRef constrained to U.SystemRoleAssignment` and resolves to the exact occurrence while keeping its declared species recoverable.
 
-An assignment assertion or occurrence description can state `assignmentInterval` with a temporal reference, start, end or explicit open end, and continuity claim. A later assertion may close an open interval while referring to the same world-side occurrence when obtaining was uninterrupted. Changed claim content is separately identified under C.2.1. When evidence is missing, whether the assignment obtained remains `unknown`; the evidence gap by itself establishes neither continuity nor a split. The occurrence ends when its predicate ceases to obtain; evidence of cessation supports a conclusion about when it ended.
+An assignment assertion or occurrence description can state `assignmentInterval` with a temporal reference, start, end or explicit open end, and continuity claim. A later assertion may close an open interval while referring to the same world-side occurrence when obtaining was uninterrupted. Changed claim content is separately identified under C.2.1.
+
+When evidence is missing, whether the assignment obtained remains `unknown`; the evidence gap by itself establishes neither continuity nor a split. The occurrence ends when its predicate ceases to obtain; evidence of cessation supports a conclusion about when it ended.
 
 Keep ordinary interval content here. When a positive temporal aspect itself becomes a relied-on object—its temporal reference, validity or currentness window, duration, cadence, rhythm, or interval structure—use `C.27.TA` for that aspect and keep the assignment occurrence separate. Use `C.27` only for the different question of whether a temporal claim is adequate.
 
@@ -163,14 +159,19 @@ performedUnderAssignment(W : U.Work, RA : U.SystemRoleAssignment)
 attributedPerformerSystem(W, RA) := RA.HolderSystemSlot
 ```
 
-A.13 first identifies the actual performer `S`, and A.15.1 independently admits `W : U.Work` from its performance history, enacted Method, temporal extent, and containing-System relation. F.6 is needed only for a **precise assignment-bound attribution**—when the current use must also say exactly under which assignment `W` was performed. It then establishes `performedUnderAssignment(W, RA)` against the same assignment already used by A.13 and requires `S = attributedPerformerSystem(W, RA) = RA.HolderSystemSlot`. The projection exposes the assignment holder only for comparison with `S`; it identifies neither assignment nor performer. A missing or failed F.6 check alone leaves independently admitted Work intact; recheck an admission premise only when the same finding questions it.
+A.13 first identifies the actual performer `S`, and A.15.1 independently admits `W : U.Work` from its performance history, enacted Method, temporal extent, and containing-System relation.
+
+F.6 is needed only for a **precise assignment-bound attribution**—when the current use must also say exactly under which assignment `W` was performed. It then establishes `performedUnderAssignment(W, RA)` against the same assignment already used by A.13 and requires `S = attributedPerformerSystem(W, RA) = RA.HolderSystemSlot`.
+
+The projection exposes the assignment holder only for comparison with `S`; it identifies neither assignment nor performer. A missing or failed F.6 check alone leaves independently admitted Work intact; recheck an admission premise only when the same finding questions it.
 
 `SystemRoleAssignmentSlot` in F.6 accepts any admitted assignment species because its `ValueKind` is the family `U.SystemRoleAssignment`. It is not a union of a generic relation and stronger non-assignment values. `ReviewWork-A` can be attributed to `ReviewAssignment-A`, and `ReviewWork-B` to `ReviewAssignment-B`, without creating generic duplicates.
+
 Assignment does not prove that Work occurred. Work and assignment have separate identity rules; whether performed Work ends an assignment depends on the species predicate. For source wording such as `RoleEnactment`, first use A.13 to identify the actual performer and A.15.1 to admit the dated Work independently. If the current use also needs to say exactly under which assignment the Work was performed, add that assignment and the separate F.6 `performedUnderAssignment` check. Do not create a duplicate run-time kind or occurrence.
 
 #### A.2.1:4.9 - Source Context Shorthand
 
 `Holder#Role:Context@Window` is source notation, not the assignment ontology. Apply E.10.ROLE to recover the system-role kind or another meaning. Recover the object denoted by `Context` and its direct relation separately. It can be an actual system or Work locus, a claim scope, or a selected `BoundedModelUseStructure`; these have different kinds and uses.
 
-If one assignment species genuinely depends on a structure or locus, its direct pattern declares that participant and stronger identity law. Otherwise keep the recovered object in the receiving assertion or use; never invent a generic context participant.
+If one assignment species depends on a structure or locus, its direct pattern declares that participant and stronger identity law. Otherwise keep the recovered object in the receiving assertion or use; never invent a generic context participant.
 

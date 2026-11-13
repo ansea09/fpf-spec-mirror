@@ -6,12 +6,12 @@ section_id: "E.9:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9/E.9__011_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.9 — Design-Rationale Record (DRR) for FPF Content Decisions"
   - "E.9:9 — Consequences"
-line_start: 98453
-line_end: 98461
+line_start: 103989
+line_end: 103997
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -41,7 +41,7 @@ keywords:
 | Benefits | Trade‑offs / Mitigations |
 |----------|-------------------------|
 | **Recoverable decision grounds** – each semantic normative change carries its selected answer and reasons. | Adds deliberate friction; mitigated by CC‑DRR.5 (Δ‑0/Δ‑1 lightweight) and CC‑DRR.1a (pointer‑based DRRs). |
-| **Inspectable decision** – the Pillar, alternatives, scenario and utility comparison makes its grounds and conflicts available for examination. | Authors must resolve the content decision before distribution so later drafting can use it. |
+| **Inspectable decision** – comparing Pillar effects, alternatives, scenarios, and usefulness exposes the grounds and conflicts. | Authors must resolve the content decision before distribution so later drafting can use it. |
 | **Institutional memory** – earlier reasons remain available when an alternative is reconsidered. | The growing DRR archive needs a usable index. |
 | **Executable downstream authoring** - selected loci, outside-boundary, reusable-content decisions, selected-answer stability, and remaining validation evidence obligation are explicit enough for later drafting/landing without semantic invention. | Richer DRRs need discipline to avoid becoming shadow specs or process briefs; mitigated by CC-DRR.1b, CC-DRR.4a, CC-DRR.4b, CC-DRR.4c, and CC-DRR.4d. |
 

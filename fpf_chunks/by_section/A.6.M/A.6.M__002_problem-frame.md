@@ -6,12 +6,12 @@ section_id: "A.6.M:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.M/A.6.M__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.M — Module and Interface Claim Repair"
   - "A.6.M:1 — Problem frame"
-line_start: 22868
-line_end: 22918
+line_start: 23767
+line_end: 23825
 dependencies:
   - "A.10"
   - "A.20"
@@ -61,7 +61,7 @@ ModuleRelationRepairNote:
   selectedDependencyStructureRef?: SelectedStructureReference
   boundaryRef:
   interfaceSpecificationRef?: U.EpistemeRef constrained to InterfaceSpecification
-  interfaceSpecificationGap?: exact missing-specification result
+  interfaceSpecificationGap?: missing-specification result
   admissibilityConditions:
   substitutabilityPolicyRef?:
   changePolicyRef?:
@@ -83,15 +83,23 @@ ModuleRelationRepairNote:
 ```
 In this note and the fuller form below, `effectiveReferenceScheme` carries a rule collection by value with the C.2.1:4.1.2 range `EpistemeInterpretationScheme`. It must supply the designation and interpretation rules used in the module-interface claim, including its holons, boundary, interface conditions and any asserted substitution or change policy.
 
-Exactly one of `interfaceSpecificationRef` and `interfaceSpecificationGap` is current. `noDirectRelationClaimed` leaves the direct-relation fields empty. `admittedPredicateClaim` names an already governed predicate, its participants and the affirmative, negative, modal or unresolved claim being made; it requires no invented obtaining occurrence. `admittedRelationAndOccurrence` additionally identifies one independently obtaining occurrence when its identity matters. `missingGovernor` names the participants, proposed predicate, affected use and missing rule. Missing case facts under an available rule leave a factual question, not a missing governor. A PatternID may locate the rule but cannot substitute for its predicate, participants or facts.
+Exactly one of `interfaceSpecificationRef` and `interfaceSpecificationGap` is current.
+
+`noDirectRelationClaimed` leaves the direct-relation fields empty. `admittedPredicateClaim` names an already governed predicate, its participants and the affirmative, negative, modal or unresolved claim being made; it requires no invented obtaining occurrence. `admittedRelationAndOccurrence` additionally identifies one independently obtaining occurrence when its identity matters. `missingGovernor` names the participants, proposed predicate, affected use and missing rule.
+
+Missing case facts under an available rule leave a factual question, not a missing governor. A PatternID may locate the rule but cannot substitute for its predicate, participants or facts.
 
 Ordinary use stops when the whole, candidate module, boundary, interface specification or explicit gap, relation disposition, and conditions needed by the selected claim are clear enough to choose the next architecture move. Recover substitution or change policy when replacement or separate change is claimed, and a neighboring subject pattern when another claim remains current. Use the fuller `ModuleInterfaceClaim` record only when substitutability, conformance, publication, evidence, assurance, change policy, repeated reuse, or cross-team coordination requires durable claim content.
 
-What goes wrong if A.6.M is missed: a functional link becomes a module interface; a signature becomes an implemented interface; a port label becomes proof of integration; "open" becomes a decoration; a platform label hides the actual extension rules; a stratification or architecture-operation source label bypasses `C.30.STRAT` and mints a false local kind; autonomy-like wording is confused with separate module change policy; and a module diagram starts being used for claims governed elsewhere.
+Misreadings to repair: a functional link becomes a module interface; a signature becomes an implemented interface; a port label becomes proof of integration; "open" becomes a decoration; a platform label hides the extension rules; a stratification or architecture-operation source label bypasses `C.30.STRAT` and mints a false local kind; autonomy-like wording is confused with separate module change policy; and a module diagram starts being used for claims governed elsewhere.
 
 What A.6.M buys in practice: the practitioner can repair one module or interface phrase into usable claim content, distinguish it from an independently admitted direct relation occurrence, see which FPF pattern defines or constrains any remaining non-module claim, and stop before full measurement, evidence, or mechanism-suite records are needed.
 
 Not this pattern when the question under repair is the general architecture claim, selected architecture structure kind, structural view, stratification wording or source-label recovery, function wording, procedural or work-package wording, role or enactor wording, autonomous operation, independent acting, unsupervised decision or action, measurement, modularity characterization, or reusable-structure residue. Use `C.30`, `C.30.ASV`, `C.30.STRAT`, `A.6.F`, `A.15`, `A.2`, `E.16`, `C.31`, `C.16`, or `C.31.RSA` as appropriate. For any other claim being made, apply the governing FPF pattern and keep A.6.M only for the module-relation and interface-specification portion.
 
-**E.10.ARCH relation.** A.6.M is the precision-restoration pattern for module-interface relation wording, interface-specification wording, platform-grammar wording, substitutability wording, change-policy wording, and open-architecture module-interface claims. `E.10`, `E.10.ARCH`, or `C.30.STRAT` applies A.6.M only after the recovered result is a module-interface relation, interface specification, platform grammar, substitutability policy, change policy, or open-architecture module-interface claim. If the source wording is still a stratification or architecture-operation source label covered by `C.30.STRAT`, apply `C.30.STRAT` first. If the claim being made is non-module work, role, evidence, assurance, gate, decision, characteristic, flow, autonomy, component, mechanism, or mathematical-lens use, apply the subject pattern named in `A.6.M:12` and keep A.6.M only for the module-interface slice when that module-interface relation remains the claim being made.
+**E.10.ARCH relation.** A.6.M is the precision-restoration pattern for module-interface relation wording, interface-specification wording, platform-grammar wording, substitutability wording, change-policy wording, and open-architecture module-interface claims. `E.10`, `E.10.ARCH`, or `C.30.STRAT` applies A.6.M only after the recovered result is a module-interface relation, interface specification, platform grammar, substitutability policy, change policy, or open-architecture module-interface claim.
+
+If the source wording is still a stratification or architecture-operation source label covered by `C.30.STRAT`, apply `C.30.STRAT` first.
+
+If the claim being made is non-module work, role, evidence, assurance, gate, decision, characteristic, flow, autonomy, component, mechanism, or mathematical-lens use, apply the subject pattern named in `A.6.M:12` and keep A.6.M only for the module-interface slice when that module-interface relation remains the claim being made.
 

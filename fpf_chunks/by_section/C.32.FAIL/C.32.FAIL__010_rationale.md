@@ -6,12 +6,12 @@ section_id: "C.32.FAIL:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.FAIL/C.32.FAIL__010_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.32.FAIL — Architecture Failure Recognition and Repair"
   - "C.32.FAIL:10 — Rationale"
-line_start: 79748
-line_end: 79753
+line_start: 83577
+line_end: 83582
 dependencies:
   - "A.10"
   - "A.13"
@@ -66,5 +66,5 @@ keywords:
 
 C.32 needs a failure-recognition subpattern because candidate architecture work repeatedly breaks at the repair-entry point. The useful work is to recover the architecture object under stress and make the next repair action reviewable.
 
-The pattern stays intentionally small. It does not establish failure, make a score-based risk finding, select a candidate, or authorize a release. It gives practitioners a disciplined way to go from "something is wrong here" to "this architecture object needs this repair, and this neighboring pattern defines or constrains the next claim if it is current."
+C.32.FAIL does not establish failure, make a score-based risk finding, select a candidate, or authorize a release. It gives practitioners a way to go from "something is wrong here" to "this architecture object needs this repair, and this neighboring pattern defines or constrains the next claim if it is current."
 

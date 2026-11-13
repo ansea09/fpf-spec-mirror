@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.5.TU"
-pattern_title: "Construct a Working Use of an Unfamiliar Theory"
+pattern_title: "Construct a Use of an Unfamiliar Theory"
 section_id: "B.5.TU:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.TU/B.5.TU__012_sota-echoing.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "B.5.TU — Construct a Working Use of an Unfamiliar Theory"
+  - "B.5.TU — Construct a Use of an Unfamiliar Theory"
   - "B.5.TU:11 — SoTA-Echoing"
-line_start: 48886
-line_end: 48895
+line_start: 50922
+line_end: 50935
 dependencies:
   - "A.15.9"
   - "A.6.3.RT"
@@ -25,9 +25,13 @@ keywords:
 
 ### B.5.TU:11 - SoTA-Echoing
 
-**How much theory must be reconstructed for a first use?** Adapt [van Oostrum, Langer and Ay (2025), Introduction and §§1–2, 4](https://arxiv.org/html/2406.07726v4): connect the operational question to stated model variables and inference, work an example, and recover deeper derivations when they are needed. The alternative is to use an interpreted supplied implementation. Retain that cheaper route when it suffices; reconstruct dependencies when adaptation or explanation requires them. Sections :4.1–:4.4 make that choice explicit. The source provides a discrete active-inference account and a minimal implementation.
+**How much theory must be reconstructed for a first use?** Adapt [van Oostrum, Langer and Ay (2025), Introduction and §§1–2, 4](https://arxiv.org/html/2406.07726v4): connect the operational question to stated model variables and inference, work an example, and recover deeper derivations when they are needed.
 
-**How can notation reveal what an application still lacks?** Adapt [SICM's Preface](https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/9579/sicm_edition_2.zip/preface001.html): recover function arguments, substitutions and composition where implicit conventions obscure the operation. A familiar conventional expression is cheaper when the reader can already use it reliably. Sections :4.2–:4.4 therefore call for operative reconstruction at the unresolved step; :5.2 supplies a case. The selected contribution is explicit operation recovery. Its source's strong requirement of automatic interpretability is appropriate for computational exposition; ordinary use may be settled by a clear hand-worked construction.
+The alternative is to use an interpreted supplied implementation. Retain that cheaper route when it suffices; reconstruct dependencies when adaptation or explanation requires them. Sections :4.1–:4.4 make that choice explicit. The source provides a discrete active-inference account and a minimal implementation.
+
+**How can notation reveal what an application lacks?** Adapt [SICM's Preface](https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/9579/sicm_edition_2.zip/preface001.html): recover function arguments, substitutions and composition where implicit conventions obscure the operation. A familiar conventional expression is cheaper when the reader can use it reliably. Sections :4.2–:4.4 therefore call for operative reconstruction at the unresolved step; :5.2 supplies a case.
+
+The selected contribution is operation recovery. Its source's requirement of automatic interpretability is appropriate for computational exposition; ordinary use may be settled by a clear hand-worked construction.
 
 **What does a theory's formal structure contribute to an application?** Adopt [Baez and Stay, §2.3](https://arxiv.org/html/0903.0340v3)'s constructive comparison of cartesian and monoidal operations. A familiar “parallel composition” description can leave input duplication unresolved. Section :5.1 obtains the required operation or the obstruction under stated rules, then asks whether the receiving practice can supply it. This pays the cost of recovering only the consequential structure. The broader cross-disciplinary correspondences in that paper do not establish the physical copying operation in our case.
 

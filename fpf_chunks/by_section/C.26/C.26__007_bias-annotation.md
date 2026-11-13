@@ -6,12 +6,12 @@ section_id: "C.26:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26/C.26__007_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.26 — Quantum-Like Modeling Lens"
   - "C.26:6 — Bias-Annotation"
-line_start: 65826
-line_end: 65833
+line_start: 68806
+line_end: 68813
 dependencies:
   - "A.10"
   - "A.15"
@@ -52,7 +52,7 @@ keywords:
 
 ### C.26:6 - Bias-Annotation
 
-This pattern intentionally biases authors toward ordinary FPF patterns before QL vocabulary. That bias prevents prestige use of the word `quantum-like` and keeps the mathematical lens focused on its declared representational payoff.
+This pattern biases authors toward ordinary FPF patterns before QL vocabulary. That bias prevents prestige use of the word `quantum-like` and keeps the mathematical lens focused on its declared representational payoff.
 
 It also biases authors toward minimal admissible outputs. In ordinary use, the right result is often "apply the neighboring FPF pattern", "do not merge these comparison frames", "mark this dashboard as an instrument", or "return to the source representation if the shortcut fails".
 

@@ -6,12 +6,12 @@ section_id: "A.2.6:19"
 section_title: "Annexes (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__020_annexes-informative.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Test Scope Membership and Combine Scopes"
   - "A.2.6:19 — Annexes (informative)"
-line_start: 7450
-line_end: 7496
+line_start: 7774
+line_end: 7821
 dependencies:
   - "A.1.1"
   - "A.15.1"
@@ -63,7 +63,8 @@ the exact audience, interface, availability, and other selectors that restrict p
 
 **Separate use-time guard:**
 work-measure targets, qualification windows, evidence freshness, and any decision threshold. These are not fields of the scope value.
-*(These are informative; the spec does not mandate a concrete serialization.)*
+
+The specification does not mandate a concrete serialization.
 
 #### A.2.6:19.3 - Pseudocode membership evaluation (illustrative)
 

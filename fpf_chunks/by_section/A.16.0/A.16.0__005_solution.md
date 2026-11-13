@@ -6,12 +6,12 @@ section_id: "A.16.0:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.0/A.16.0__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.16.0 — Keep an Episteme's Language-State and Publication History Recoverable"
   - "A.16.0:4 — Solution"
-line_start: 33633
-line_end: 33768
+line_start: 35113
+line_end: 35248
 dependencies:
   - "A.16"
   - "A.16.1"
@@ -52,14 +52,14 @@ It answers the question: `when the history matters, which episteme edition is cu
 #### A.16.0:4.0a - Identify the account and its expression
 
 1. **Apply the history threshold.** Keep the local A.16 publication content when it answers the receiving question. Use the fuller account only when branch, loss, lineage or an actual responsibility history changes a later use.
-2. **Identify the account's subject.** For a source-centred history, name the exact source episteme as EntityOfConcern and state the relevant edition and relation claims in the account's ClaimGraph. For a relation-centred account, identify the independently obtaining relation it concerns. A negative or unresolved lineage claim remains about an independently identified source or other subject; it creates no relation occurrence.
+2. **Identify the account's subject.** For a source-centred history, name the source episteme as EntityOfConcern and state the relevant edition and relation claims in the account's ClaimGraph. For a relation-centred account, identify the independently obtaining relation it concerns. A negative or unresolved lineage claim remains about an independently identified source or other subject; it creates no relation occurrence.
 3. **Recover the relevant history claims.** Distinguish the source editions, position claims, actual lineage, moves, losses and next use needed here. Use their direct rules below. Distinguish an unknown link from a no-successor result supported by an applicable negative criterion or complete closure basis. Neither result establishes continuity.
 4. **Choose an adequate expression.** The `LanguageStateMoveTrajectory` form can express that account. Under E.24.PUB, publication form is a relation-defined participant meaning over an independently identified entity; using the form admits no subtype or second account individual. Recover its expression relation, carrier and any availability occurrence only when the receiving claim needs those distinctions.
 5. **Return the history needed by the next use.** Make the relevant branch, loss, limit or responsibility fact recoverable. Stop when that use is supported; a further account of the account's own history is needed only if another receiving question requires it.
 
 The filled account has its own C.2.1 identity. Described source editions, position claims, loss notes and relation facts contribute to its content; they are not additional identity fields. A source-history event and the account acquiring knowledge of that event are different changes. Changed account content identifies another episteme, with edition continuity asserted only when its own relation obtains.
 
-Several unrelated sources displayed in one table do not become one history individual. A common carrier or form can support separately grounded accounts and expression claims. Each claimed E.24.PUB publication occurrence still concerns one exact selected episteme edition and one bounded use. Publishing a history account is also distinct from publishing each source edition that it describes.
+Several unrelated sources displayed in one table do not become one history individual. A common carrier or form can support separately grounded accounts and expression claims. Each claimed E.24.PUB publication occurrence still concerns one selected episteme edition and one bounded use. Publishing a history account is also distinct from publishing each source edition that it describes.
 
 #### A.16.0:4.1 - Keep the account positions distinct
 Keep the account's own identity and publication distinct from these values described in its history:
@@ -68,14 +68,14 @@ Keep the account's own identity and publication distinct from these values descr
 - **lineage links** - independently established derivation, supersession, fork, merge or retirement relations among the selected epistemes, each under its defining predicate; state a no-successor result when that is the supported account;
 - **grounds or witnesses** - disturbances, discrepancies, traces, model outputs, bodily tensions, contrasts, or exemplars that justify the history;
 - **publication form** - the reusable rules for a cue pack, routed cue set, prompt, typed route-bounded projection, partial normal form, or endpoint-bound record;
-- **publication expression** - the particular sign construction that follows the selected form and expresses enough of the selected edition for the bounded use;
+- **publication expression** - the sign construction that follows the selected form and expresses enough of the selected edition for the bounded use;
 - **publication occurrence** - an `EpistemePublicationRelation` occurrence only when availability to an audience for a bounded use matters;
 - **publication face** - the MVPK face on which a form is rendered when face typing matters;
 - **carrier** - the independently identified physical or digital entity whose actual state or realization yields that expression, such as a document file, physical card, or trace file.
 
-A form, face, carrier, or publication-occurrence change can leave the selected episteme unchanged. A changed C.2.1 discriminator identifies another episteme. Call it a continuing edition only when the exact C.2.1 EpistemeEditionRelation obtains; any other lineage claim requires its own defining predicate and obtaining facts. Publication alone creates neither the episteme nor a lineage link.
+A form, face, carrier, or publication-occurrence change can leave the selected episteme unchanged. A changed C.2.1 discriminator identifies another episteme. Call it a continuing edition only when the C.2.1 EpistemeEditionRelation obtains; any other lineage claim requires its own defining predicate and obtaining facts. Publication alone creates neither the episteme nor a lineage link.
 
-Several live routes for one selected edition are **not** yet a lineage fork. A fork claim requires independently identified successor epistemes and the obtaining lineage predicate under its direct rule. Disclose losses and any authority facts that the selected account or that rule actually needs; authority is not a universal extra fork participant. Publication of the successors is not a universal prerequisite, and two publications of the same edition create no fork.
+Several live routes for one selected edition are **not** yet a lineage fork. A fork claim requires independently identified successor epistemes and the obtaining lineage predicate under its direct rule. Disclose losses and any authority facts that the selected account or that rule needs; authority is not a universal extra fork participant. Publication of the successors is not a universal prerequisite, and two publications of the same edition create no fork.
 
 A trajectory step may reuse one edition in another form, add a successor episteme, or relate several epistemes through fork, merge, supersession, or retirement. It does **not** describe a trajectory of the source phenomenon.
 
@@ -128,7 +128,7 @@ These are not a rival publication-face sequence. They are typed publication form
 
 For a published `U.AbductivePrompt`, identify the question account under `B.5.2.0:4.2.1–4.2.2` and its selected form separately. When a trajectory returns to that entry, distinguish a changed account from a changed explanatory question.
 
-Untyped placeholders such as "route-bounded publication face" are non-conformant in a trajectory account unless the text also names the actual publication form and, separately, the MVPK face if face typing matters.
+Untyped placeholders such as "route-bounded publication face" are non-conformant in a trajectory account unless the text also names the publication form and, separately, the MVPK face if face typing matters.
 
 #### A.16.0:4.6 - Endpoint docking and next use
 A trajectory does not need to terminate to be useful. What matters is a visible docking milestone to the next pattern-based question or later use.
@@ -142,9 +142,9 @@ Typical next-use patterns include:
 - `A.15.2` for planning future Work, including its target Method;
 - `C.25` for quality-family decomposition and Q-Bundle structure.
 
-Name the next pattern and what its content defines, constrains, or tests. The account already identifies the selected episteme edition; add a project record, particular publication form, or publication occurrence only when that distinction changes the next use. This is next-use docking, not a transfer of responsibility, and a pattern reference alone does not prove endpoint admission.
+Name the next pattern and what its content defines, constrains, or tests. The account already identifies the selected episteme edition; add a project record, publication form, or publication occurrence only when that distinction changes the next use. This is next-use docking, not a transfer of responsibility, and a pattern reference alone does not prove endpoint admission.
 
-**Separate responsibility-handoff branch.** Open this branch only when responsibility, commitment, permission, or authority actually changes. Name the exact relation before and after the change under its applicable pattern, then the participants in that relation's own roles. Include giving and receiving admitted systems when its predicate requires them and, when their system-role classification matters, the exact system-role kinds and assignments through which they participate. State its governed object or action, scope, effective interval, and any assigning, instituting, revoking, or superseding act that the relation requires. The trajectory account cites that relation and its history; episteme lineage, publication form, publication occurrence, endpoint admission, and next-use docking neither create nor prove it.
+**Separate responsibility-handoff branch.** Open this branch only when responsibility, commitment, permission, or authority changes. Name the relation before and after the change under its applicable pattern, then the participants in that relation's own roles. Include giving and receiving admitted systems when its predicate requires them and, when their system-role classification matters, the system-role kinds and assignments through which they participate. State its governed object or action, scope, effective interval, and any assigning, instituting, revoking, or superseding act that the relation requires. The trajectory account cites that relation and its history; episteme lineage, publication form, publication occurrence, endpoint admission, and next-use docking neither create nor prove it.
 
 After docking to a next use, monitoring, maintenance, revisit, or later re-entry may continue through new lineage entries or later trajectories. Keep lineage continuity separate from the current endpoint use and from any separately established responsibility or authority relation.
 
@@ -153,7 +153,7 @@ Some `formalize` and `operationalize` steps re-express already available grounds
 
 Some steps additionally require new measurements, experiments, installation or use of instrumentation, or execution. Make that needed action and its reason visible; use the relevant measurement, experiment, gate, or endpoint pattern to describe or test it. A distinct Work identity is needed only when the receiving claim or reliance depends on that occurrence: establish the A.13 basis and independent A.15.1 admission, then apply F.6 if precise assignment-bound attribution is needed. An assertion or `ClaimGraph` identity is likewise conditional on its use.
 
-A work-boundary crossing does not by itself transfer responsibility or authority. If a separate actual responsibility handoff occurs, use the triggered branch in `A.16.0:4.6` and keep its relation distinct from the Work, episteme lineage, publication, and endpoint use.
+A work-boundary crossing does not by itself transfer responsibility or authority. If a separate responsibility handoff occurs, use the triggered branch in `A.16.0:4.6` and keep its relation distinct from the Work, episteme lineage, publication, and endpoint use.
 
 #### A.16.0:4.8 - Relation to `A.16` and `E.18`
 A language-state trajectory account does not by itself establish an E.18 TransformationFlowStructure, and A.16.0 does not define language-state move semantics.
@@ -164,14 +164,14 @@ A language-state trajectory account does not by itself establish an E.18 Transfo
 - endpoint patterns define, constrain, or test endpoint-local claims and uses;
 - `E.24.PUB` distinguishes the selected episteme edition, publication form, carrier, bounded use, and any publication occurrence that matters.
 
-`A.16.0` standardizes only the heavier history package for cases where that history is itself worth publication.
+`A.16.0` standardizes only the history account form for cases where that history is worth publication.
 
 Here `move` names a typed language-state publication transition under A.16. For an already clear project-action, work-entry, pattern-use or other question, use its subject pattern directly. Use E.10.MOVE only while the wording still hides the governed claim.
 
 #### A.16.0:4.9 - Bridge and viewpoint entry
 A trajectory may later cross a viewpoint or context boundary. When that happens:
 
-- the trajectory establishes neither an F.9 Bridge nor the suitability of any bounded cross-context use; exact relation and use claims remain with `F.9`;
+- the trajectory establishes neither an F.9 Bridge nor the suitability of any bounded cross-context use; relation and use claims remain with `F.9`;
 - stance notes remain with `F.9.1`;
 - viewpoint reuse remains with `E.17.1`;
 - endpoint-local semantics remain in the rules defined or tested by the named endpoint patterns; publication availability remains a separate `E.24.PUB` relation.

@@ -6,12 +6,12 @@ section_id: "F.1:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.1/F.1__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.1 — Find and Select Sources for a Current Question"
   - "F.1:7 — Conformance Checklist"
-line_start: 118925
-line_end: 118959
+line_start: 126524
+line_end: 126558
 dependencies:
   - "A.10"
   - "A.7"
@@ -37,7 +37,7 @@ keywords:
 #### F.1:7.1 - Static checks
 
 
-Checks that refer to a cut or `SourceCutNote` apply when source selection is current; ordinary finding needs no note identity.
+Checks that refer to a cut or `SourceCutNote` apply when the work calls for source selection; ordinary finding needs no note identity.
 
 - **SCR-F1-S01 (Question and use).** The receiving question is independently identified as the note's exact EntityOfConcern; the intended use and the source difference that can change the answer remain in its ClaimGraph.
 - **SCR-F1-S02 (Exact sources).** Every retained source and edition is recoverable.

@@ -6,12 +6,12 @@ section_id: "C.39.QR:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.QR/C.39.QR__011_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.39.QR — Return Results to the Original Question"
   - "C.39.QR:10 — Rationale"
-line_start: 83153
-line_end: 83158
+line_start: 87202
+line_end: 87207
 dependencies:
   - "C.11.DUA"
   - "C.39"
@@ -24,5 +24,5 @@ keywords:
 
 The Method separates two relations: the warranted use of a result to make a claim about a subject, and the adequacy of a work result for a question and intended use. Each can hold without settling the other. This separation permits retaining valid contributions while exposing the work still needed.
 
-The encompassing question constrains decomposition and the choice of representations. Their results can in turn revise the proposed understanding and obtaining way. Making that exchange explicit gives the procedure its constructive part: a failed return becomes a definite content, inference or support problem.
+The encompassing question constrains decomposition and the choice of representations. Their results can in turn revise the proposed understanding and obtaining way. Making that exchange explicit gives the procedure its constructive part: a failed return shows which content, inference or support needs work.
 

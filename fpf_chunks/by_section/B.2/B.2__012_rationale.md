@@ -6,12 +6,12 @@ section_id: "B.2:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2/B.2__012_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.2 — Meta-Holon Transition - Whole Reidentification"
   - "B.2:10 — Rationale"
-line_start: 43686
-line_end: 43689
+line_start: 45444
+line_end: 45447
 dependencies:
   - "A.1"
   - "A.10"
@@ -48,5 +48,5 @@ keywords:
 
 ### B.2:10 - Rationale
 
-Holonic work needs a way to recognize when the prior EntityOfConcern no longer carries the current claim. First test whether the existing identity rule accommodates the changed facts, including any sufficient repair under a subject pattern. Whole reidentification is needed only when the existing whole no longer supports the explanation. Part-whole, Work, transformation, characteristic, representation, and publication claims retain their own grounds throughout that comparison.
+Holonic work needs a way to recognize when the prior EntityOfConcern no longer carries the claim. First test whether the existing identity rule accommodates the changed facts, including any sufficient repair under a subject pattern. Whole reidentification is needed only when the existing whole no longer supports the explanation. Part-whole, Work, transformation, characteristic, representation, and publication claims retain their grounds throughout that comparison.
 

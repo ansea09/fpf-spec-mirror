@@ -6,12 +6,12 @@ section_id: "A.15.8:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.8/A.15.8__012_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.15.8 — Work-Performance Configuration and Recovery Testing"
   - "A.15.8:11 — Relations"
-line_start: 31926
-line_end: 31933
+line_start: 33175
+line_end: 33182
 dependencies:
   - "A.1"
   - "A.10"
@@ -41,9 +41,9 @@ keywords:
 
 ### A.15.8:11 - Relations
 
-A.15.8.MS constructs how methodological material is obtained and applied across the named tasks, including a Method Base only when its maintained shared selection earns its cost. It returns the exact actual-Work or WorkPlan continuation question here when interruption or support loss is material.
+A.15.8.MS constructs how methodological material is obtained and applied across the named tasks, including a Method Base only when its maintained shared selection earns its cost. It returns the actual-Work or WorkPlan continuation question here when interruption or support loss is material.
 
-- **Builds on:** `A.1` and `A.13` for admitted Systems and exact actual-performer cores; `A.15.1` for independent actual-Work admission; `A.2.1` and `F.6` only for an expressly consumed precise assignment-bound attribution; `A.15.2` for present WorkPlans and declaration-local intended-performance content; `A.6.REL` and direct relation patterns for obtaining relations; `A.6.RCD` for the exact `missing-governor`, `factually unsupported`, and `missing-information` split; and C.2.1 when a use needs an identified account episteme.
-- **Coordinates with:** `A.15.5` for work-entry readiness; `A.15.7` when the configuration is adequate and next-action selection during current Work remains open; `A.2.2`, `E.23.CAE`, and `E.23.CDI` for holder capability, the wider access/expression differential, and capability development; `A.22` and `C.30` for selected Structure and architecture; `C.27.TA` for temporal/currentness claims; `C.2.P.DR` and direct representation patterns for carriers and representations; `A.2.4` for first evidence-use classification and `A.10` for a needed replayable source-to-use account; `A.15.4` for appearance-based reliance repair; `C.11` for receiving decisions; direct domain patterns and Methods for probe mechanisms, thresholds, and safety rules; and direct subject patterns for authority and evidence. An `A.15.8` observation may support an `E.23.CAE` configuration disposition, while the exact Work/WorkPlan relation test remains here.
+- **Builds on:** `A.1` and `A.13` for admitted Systems and actual-performer cores; `A.15.1` for independent actual-Work admission; `A.2.1` and `F.6` only for a consumed assignment-bound attribution; `A.15.2` for present WorkPlans and declaration-local intended-performance content; `A.6.REL` and the patterns defining obtaining relations; `A.6.RCD` for the `missing-governor`, `factually unsupported`, and `missing-information` split; and C.2.1 when a use needs an identified account episteme.
+- **Coordinates with:** `A.15.5` for work-entry readiness; `A.15.7` when the configuration is adequate and next-action selection during current Work remains open; `A.2.2`, `E.23.CAE`, and `E.23.CDI` for holder capability, the wider access/expression differential, and capability development; `A.22` and `C.30` for selected Structure and architecture; `C.27.TA` for temporal/currentness claims; `C.2.P.DR` and the patterns governing carriers and representations; `A.2.4` for first evidence-use classification and `A.10` for a needed replayable source-to-use account; `A.15.4` for appearance-based reliance repair; `C.11` for receiving decisions; domain patterns and Methods for probe mechanisms, thresholds, and safety rules; and subject patterns for authority and evidence. An `A.15.8` observation may support an `E.23.CAE` configuration disposition, while the Work/WorkPlan relation test remains here.
 - **Informs:** domain patterns for equipped or joint performance, human capability development, organizational coordination, operations and service recovery, human factors, robotics, software and distributed systems, and biological Work when they retain their own quantities, mechanisms, evidence, and stops.
 

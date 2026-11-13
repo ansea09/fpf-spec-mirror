@@ -6,12 +6,12 @@ section_id: "D.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.1/D.1__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "D.1 — Clarify an Ethical Claim's Value Basis (Value Plurality)"
   - "D.1:intro — Intro"
-line_start: 91437
-line_end: 91452
+line_start: 95917
+line_end: 95932
 dependencies:
   - "A.1"
   - "A.1.CSD"
@@ -38,12 +38,12 @@ keywords:
 > **Type:** D-family ethical boundary pattern
 > **Status:** Stable
 
-**Use this when.** Use this pattern when the value basis of an ethical claim or proposed action is unclear.
+**Use this when.** The value basis of an ethical claim or proposed action is unclear.
 
-If that ethical claim is current but a possibly consequence-bearing System has not yet been identified, or the current affected-System set is not adequate, use `A.1.CSD` first. Return to D.1 with the bounded discovery account or the reason identification remains unresolved. Use that account to clarify the value concern.
+If that ethical claim is current but a possibly consequence-bearing System has not yet been identified, or the affected-System set is not adequate, use `A.1.CSD` first. Return to D.1 with the bounded discovery account or the reason identification remains unresolved. Use that account to clarify the value concern.
 
 
-**Not this pattern when.** If the current question is already a conflict across declared levels or scopes, use `D.3`. If the current question is how to mediate that conflict or use it in a decision, use `D.4`. If the current question is bias, fairness, human or group impact audit, causal-fairness audit consumption, or ethical assurance, use `D.5`.
+**Not this pattern when.** If the question is already a conflict across declared levels or scopes, use `D.3`. If the question is how to mediate that conflict or use it in a decision, use `D.4`. If the question is bias, fairness, human or group impact audit, causal-fairness audit consumption, or ethical assurance, use `D.5`.
 
 **What goes wrong if missed.** FPF looks ethically neutral because it names evidence, method, architecture, or work but leaves the value frame and affected EntityOfConcern implicit.
 

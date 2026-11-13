@@ -6,12 +6,12 @@ section_id: "F.2:1"
 section_title: "Intent & applicability"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.2/F.2__002_intent-applicability.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.2 — Source-Local Term Harvesting & Normalisation"
   - "F.2:1 — Intent & applicability"
-line_start: 119055
-line_end: 119062
+line_start: 126654
+line_end: 126661
 dependencies:
   - "A.11"
   - "A.7"
@@ -35,7 +35,7 @@ keywords:
 
 **Intent.** Turn usage in an exact source and edition into a small, auditable set of source-local expressions and meaning claims. Keep the source's idiom and the explanation the intended reader needs, while leaving cross-source conclusions to their own comparison.
 
-**Use this when.** F.1 has selected a source because it can change the receiving answer, and the reader needs the actual words that carry its contribution. Re-enter when the selected edition, passage, language, or interpretation basis changes enough to change meaning.
+**Use this when.** F.1 has selected a source because it can change the receiving answer, and the reader needs the source wording that carries its contribution. Re-enter when the selected edition, passage, language, or interpretation basis changes enough to change meaning.
 
 **Do not use this when.** The words are already recovered precisely enough for the receiving question, or the current task is to relate two local meanings; use F.9 for that relation. F.2 creates no global term, kind, assignment, behaviour, obligation, or storage scheme.
 

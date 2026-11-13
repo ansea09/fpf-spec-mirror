@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.19.SelectorMechanism"
-pattern_title: "Unified Selection Kernel, SelectorMechanism"
+pattern_title: "Selection Kernel"
 section_id: "A.19.SelectorMechanism:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SelectorMechanism/A.19.SelectorMechanism__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.19.SelectorMechanism — Unified Selection Kernel, SelectorMechanism"
+  - "A.19.SelectorMechanism — Selection Kernel"
   - "A.19.SelectorMechanism:intro — Intro"
-line_start: 39152
-line_end: 39158
+line_start: 40707
+line_end: 40713
 dependencies:
   - "A.19.CHR"
   - "A.19.CN"
@@ -36,10 +36,10 @@ keywords:
   - "selection kernel"
 ---
 
-## A.19.SelectorMechanism - Unified Selection Kernel, SelectorMechanism
+## A.19.SelectorMechanism - Selection Kernel
 
 > **Type:** Architectural (A)
 > **Status:** Stable
-> **Normativity:** Normative (unless explicitly marked informative)
-> This pattern declares Select and SelectEligibility under A.6.1. Actual applications and any separately asserted Work use the conditions in §4.1.
+> **Normativity:** Normative (unless marked informative)
+> This pattern declares Select and SelectEligibility under A.6.1. Applications and any separately asserted Work use the conditions in §4.1.
 

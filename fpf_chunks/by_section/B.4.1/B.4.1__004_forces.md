@@ -6,12 +6,12 @@ section_id: "B.4.1:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4.1/B.4.1__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.4.1 — Publish Candidate Routes for a Stabilized Cue (RoutedCueSet)"
   - "B.4.1:3 — Forces"
-line_start: 45992
-line_end: 45999
+line_start: 47888
+line_end: 47895
 dependencies:
   - "A.15"
   - "A.16"
@@ -37,7 +37,7 @@ keywords:
 | Force | Tension |
 |---|---|
 | **Early capture vs endpoint discipline** | Preserve low-articulation cues without collapsing route discipline. |
-| **Plural route set vs explicit selection** | Permit multiple candidate routes while still requiring an explicit selection record when selection occurs. |
+| **Plural route set vs recorded selection** | Permit multiple candidate routes while requiring a selection record when selection occurs. |
 | **Useful publication vs extra kinds** | Make routes inspectable without introducing a new publication kind for every case. |
 | **Form vs face precision** | Keep route-bearing publication form distinct from the MVPK face on which it is rendered. |
 

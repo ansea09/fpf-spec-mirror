@@ -6,12 +6,12 @@ section_id: "C.28.CM:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28.CM/C.28.CM__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.28.CM — Construct and Challenge a Causal Model"
   - "C.28.CM:7 — Conformance Checklist"
-line_start: 68654
-line_end: 68664
+line_start: 71727
+line_end: 71737
 dependencies:
   - "A.15.9"
   - "B.5.2"
@@ -32,7 +32,7 @@ keywords:
 - Important included and excluded influences have stated grounds or remain assumptions.
 - Material alternatives receive comparable questions, including coexisting causes where relevant.
 - The graph or equation class supports the rule used; DAG path inspection covers all relevant paths and conditioning, including selection.
-- A consequence follows from named premises, or the missing premise is returned precisely.
+- A consequence follows from named premises, or the missing premise is returned.
 - Compatibility, contradiction and absent discrimination retain different meanings.
 - The returned use distinguishes recognition, model consequence, evidential support and action choice.
 

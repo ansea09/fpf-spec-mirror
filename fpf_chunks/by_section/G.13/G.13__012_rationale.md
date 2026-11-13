@@ -6,12 +6,12 @@ section_id: "G.13:11"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.13/G.13__012_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.13 — External Interop Hooks for SoTA Discipline Packs (conceptual)"
   - "G.13:11 — Rationale"
-line_start: 133138
-line_end: 133143
+line_start: 141279
+line_end: 141284
 dependencies:
   - "A.18"
   - "A.19"
@@ -46,7 +46,7 @@ keywords:
 
 ### G.13:11 - Rationale
 
-An explicit interop kit lets authors use external scholarly sources while keeping comparisons, editions and transformations visible.
+An interop kit lets authors use external scholarly sources while keeping comparisons, editions and transformations visible.
 
 `G.13` connects source meanings and records to receiving inputs through :4.3, then makes the transformation and source editions citable. Its cards and surfaces retain the applicable provenance and refresh inputs. Extensions bind provider or method details used by that transformation.
 

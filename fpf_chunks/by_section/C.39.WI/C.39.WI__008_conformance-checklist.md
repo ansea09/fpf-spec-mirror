@@ -6,12 +6,12 @@ section_id: "C.39.WI:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.WI/C.39.WI__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.39.WI — Discover Worthwhile Method Improvements"
   - "C.39.WI:7 — Conformance Checklist"
-line_start: 84060
-line_end: 84072
+line_start: 88209
+line_end: 88221
 dependencies:
   - "C.11.DUA"
   - "C.11.MV"
@@ -29,7 +29,7 @@ keywords:
 - Overlapping effort and already counted foregone contributions are not added twice.
 - The remedy distinguishes a missing Method or connection, explanation, access, provision and execution as the evidence warrants.
 - When a failure survives correction, the repair addresses the supported conditions of production, checking and the earlier intervention, reaches the working forms, and restores the established dependent set while retaining independent grounds.
-- A source-based adequacy conclusion covers the assigned source and practitioner scope; successful examples do not silently redefine it.
+- A source-based adequacy conclusion covers the assigned source and practitioner scope; successful examples do not redefine it.
 - Selection includes the full change and continuing burden, feasible alternatives, an attainable next action and a reconsideration condition.
 - Recognition, execution and useful effect receive their own supported conclusions.
 - The search returns from changed conditions without manufacturing another mandatory intervention.

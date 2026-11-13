@@ -6,12 +6,12 @@ section_id: "E.18:12"
 section_title: "SoTA-Echoing (post-2015, multi-Tradition)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__015_sota-echoing-post-2015-multi-tradition.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:12 — SoTA-Echoing (post-2015, multi-Tradition)"
-line_start: 110791
-line_end: 110805
+line_start: 117641
+line_end: 117655
 dependencies:
   - "A.15.1"
   - "A.15.PROD"
@@ -39,7 +39,7 @@ keywords:
 
 ### E.18:12 - SoTA-Echoing (post-2015, multi-Tradition)
 
-> Each row states the source idea, the FPF invariant E.18 adopts, the practitioner implication, and the shortcut it rejects. Vendor, tool, and literature tokens are informative; the invariant and practitioner implication carry the pattern explanatory work.
+> Each row connects a source idea to an E.18 invariant, its practitioner implication, and the shortcut it rejects. Vendor, tool, and literature terms are informative. The invariant and its implication explain the pattern.
 
 | SoTA source idea | FPF invariant | Practitioner implication | Rejected shortcut |
 |---|---|---|---|
@@ -50,5 +50,5 @@ keywords:
 | **Reproducibility and content addressability** (Di Cosmo, Gruenpeter, Zacchiroli, *Referencing Source Code Artifacts: a Separate Concern in Software Citation*, arXiv [`2001.08647`](https://arxiv.org/abs/2001.08647)). | Stable identifiers become edition pins and entries in `E⃗`; they make references checkable but do not decide locus, gate, or mechanism meaning. | Pin the exact editions of code, comparator, transport registry, descriptor map, or distance definition used by a face or path. | Treating an identifier, hash, or content-addressed source ref as semantic authority. |
 | **TAMP, dynamic planning, and control practice** (Zhao et al., *A Survey of Optimization-based Task and Motion Planning*, arXiv [`2404.02817`](https://arxiv.org/abs/2404.02817); Shen et al., *Motion Planning in Dynamic Environments*, arXiv [`2606.02677`](https://arxiv.org/abs/2606.02677), as current dynamic-motion survey context). | Iteration is represented only as a budgeted Selection-Planning loop with freshness checks; a pre-run gate consumes an intended work-entry claim, and actual launch values obtain only through direct relations or bindings of a later exact Work occurrence. | Declare the loop budget, freshness-request boundary, next `PathSlice`, exact work-entry claim, and later Work occurrence plus any separate finalization witness. | Turning E.18 into an ordered work-method narrative, an unbounded loop, a future-Work target, or pre-Work actual-value claim. |
 | **Quality-Diversity and illumination search** (Mouret and Clune, *Illuminating search spaces by mapping elites*, arXiv [`1504.04909`](https://arxiv.org/abs/1504.04909), lineage; Chalumeau et al., *QDax*, arXiv [`2308.03665`](https://arxiv.org/abs/2308.03665); Ding et al., *QDHF*, arXiv [`2310.12103`](https://arxiv.org/abs/2310.12103); Bradley et al., *QDAIF*, arXiv [`2310.13032`](https://arxiv.org/abs/2310.13032) for feedback-guided cases). | Set and archive returns stay visible; E.18 treats covert scalarization to one winner as non-conformant while leaving selector, archive, dominance, and comparator semantics to the named definitions and tests. | Return the set or archive, pin comparator and descriptor or distance editions, and cite the selector and comparator definitions or tests for current cases. | Collapsing a partially ordered or archive-like result into a single best score. |
-| **Profunctor optics and modular projection practice** (Pickering, Gibbons, Wu, *Profunctor Optics: Modular Data Accessors*, arXiv [`1703.10857`](https://arxiv.org/abs/1703.10857); Clarke et al., *Profunctor Optics, a Categorical Update*, arXiv [`2001.07488`](https://arxiv.org/abs/2001.07488), as later refinement). | A particular expression may express a selected view episteme or mathematical description for one bounded use, follow reusable publication-form rules, and be borne by an independently identified carrier; neither becomes the view, selected structure, or represented object. | Publish the exact selected episteme through E.24.PUB expression, expression-bearing, and publication relations; retain selected form conformance and the same expression witness for combined form-mediated availability; use C.29 only for a separately obtaining mathematical-lens relation, while using their own definitions and tests for transformations and checks. | Treating a form, carrier, screen, representation, or explanation as a view, transformation, evidence result, or gate decision. |
+| **Profunctor optics and modular projection practice** (Pickering, Gibbons, Wu, *Profunctor Optics: Modular Data Accessors*, arXiv [`1703.10857`](https://arxiv.org/abs/1703.10857); Clarke et al., *Profunctor Optics, a Categorical Update*, arXiv [`2001.07488`](https://arxiv.org/abs/2001.07488), as later refinement). | A publication expression can convey a selected view episteme or mathematical description for one bounded use, follow reusable publication-form rules, and be borne by an independently identified carrier. Neither the expression nor the carrier is the view, selected structure, or represented object. | Publish the selected episteme through E.24.PUB expression, expression-bearing, and publication relations; retain selected form conformance and the same expression witness for combined form-mediated availability; use C.29 only for a separately obtaining mathematical-lens relation, while using their own definitions and tests for transformations and checks. | Treating a form, carrier, screen, representation, or explanation as a view, transformation, evidence result, or gate decision. |
 

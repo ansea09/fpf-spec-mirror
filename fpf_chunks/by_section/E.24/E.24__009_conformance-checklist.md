@@ -6,12 +6,12 @@ section_id: "E.24:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24/E.24__009_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.24 — U.Ontic and Ontic Introduction Discipline"
   - "E.24:6 — Conformance Checklist"
-line_start: 116487
-line_end: 116518
+line_start: 123919
+line_end: 123952
 dependencies:
   - "A.19.ECS"
   - "A.6.0"
@@ -42,7 +42,9 @@ keywords:
 
 ### E.24:6 - Conformance Checklist
 
-Activation rule: every candidate uses the cheap-card checks `CC-E24-1`, `CC-E24-1b`, `CC-E24-1c`, and `CC-E24-2`. `CC-E24-1a` activates only when a direct-relation or declaration-layer claim is recorded; `CC-E24-3` through `CC-E24-5` activate for a durable result; `CC-E24-7` activates for bounded coordination. The remaining rows activate only when their named object or claim is current. A direct result closes from its current assertion and direct pattern. An inactive row is omitted, not filled with blanks or `not current`.
+Activation rule: every candidate uses the cheap-card checks `CC-E24-1`, `CC-E24-1b`, `CC-E24-1c`, and `CC-E24-2`. `CC-E24-1a` activates only when a direct-relation or declaration-layer claim is recorded; `CC-E24-3` through `CC-E24-5` activate for a durable result; `CC-E24-7` activates for bounded coordination. The remaining rows activate only when their named object or claim is current.
+
+A direct result closes from its current assertion and direct pattern. An inactive row is omitted, not filled with blanks or `not current`.
 
 | Check | Observable conformance condition |
 | --- | --- |

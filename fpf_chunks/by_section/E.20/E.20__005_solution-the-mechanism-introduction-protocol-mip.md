@@ -6,12 +6,12 @@ section_id: "E.20:4"
 section_title: "Solution — the Mechanism Introduction Protocol (MIP)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.20/E.20__005_solution-the-mechanism-introduction-protocol-mip.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.20 — Mechanism Introduction Protocol: Introduce or Revise FPF Mechanisms"
   - "E.20:4 — Solution — the Mechanism Introduction Protocol (MIP)"
-line_start: 113435
-line_end: 113662
+line_start: 120581
+line_end: 120813
 dependencies:
   - "A.15.3"
   - "A.6.1"
@@ -44,23 +44,23 @@ keywords:
 
 #### E.20:4.0 - Terminology note (disambiguation)
 
-*This protocol and any MIP-run manifest are authoring-side semantic-governing-definition assignment maps.* A manifest is not an approval packet, gate, runtime decision, or pass/fail result. It names where mechanism meaning is governed and what must not be inferred from suites, plans, wiring, aliases, or gates.
+MIP maps authoring changes to their governing definitions. Its manifest records the assignment and, when a correction changes use, what must not be inferred from suites, plans, wiring, aliases or gates. A manifest is not an approval packet, gate, runtime decision or pass/fail result.
 
 MIP governs **how changes are assigned to their governing definitions**, not how systems execute.
 
-**MIP trigger triage.** Not every reference cleanup is a MIP-run. Classify the proposed edit before requiring a manifest:
+**MIP trigger triage.** Classify the proposed edit before requiring a manifest:
 
-* **MIP not triggered:** pure currentness, reference, typo, or old-label cleanup that changes no mechanism, suite, planned-baseline, wiring, governing-definition, or citeable-token semantics.
+* **MIP not triggered:** currentness, reference, typo or old-label cleanup that changes no mechanism, suite, planned-baseline, wiring, governing-definition, or citeable-token semantics.
 * **Local wording or alias-docking only:** wording clarifies an already-governed mechanism relation, or `F.18` alias docking preserves citeability of an old token without changing what the token denotes.
 * **MIP-run manifest required:** the edit changes mechanism meaning, suite denotation, suite closure, suite obligations, suite pins, suite protocol semantics, planned-baseline pins, wiring semantics, governing-definition assignment, or what a citeable token denotes.
 
-Only the third outcome uses the manifest in `E.20:4.2`. The first two still name the current governing locus or alias-docking relation when the text will be published. When the only current result is no denotation change, the published content should not carry MIP-run vocabulary except as a short non-trigger note.
+Only the third outcome uses the manifest in `E.20:4.2`. For the first two, name the current governing locus or alias-docking relation when the text will be published. When the only result is no denotation change, the published content should not carry MIP-run vocabulary except as a short non-trigger note.
 
 ##### E.20:4.0.1 - Mint vs reuse
 
 **Mints:**
 * **MIP** — Mechanism Introduction Protocol (this pattern).
-* **MIP-run** — an authoring event that applies this protocol to a concrete change set, captured as a short manifest (recorded as a DRR-linked change record or an equivalent, explicitly citeable change record).
+* **MIP-run** — an authoring event that applies this protocol to a change set, captured as a short manifest (recorded as a DRR-linked change record or an equivalent citeable change record).
 
 **Reuses:**
 * A.6.1 `U.Mechanism` epistemes, their `MechanismDefinitionRef` designators, non-mechanism reference-reservation stubs, suite descriptions (`MechSuiteDescription` and specializations), exact A.15.2 `U.WorkPlan` epistemes and their declaration-local A.15.3 planned-filling rows, alias docking (F.18), RSCR triggers (G.Core), and PQG profiles (E.19).
@@ -73,17 +73,20 @@ The author SHALL first classify the change, because different classes have diffe
 2. **New mechanism declaration or semantic edition.** One A.6.1 `U.Mechanism` episteme receives new identity-bearing content or a new effective reference scheme.
 3. **Neighboring mechanism-relation change.** A realization, refinement, conservative extension, equivalence, bridge, evaluation, evidence-use, or publication relation changes while the mechanism content does not.
 4. **Suite change** (membership, obligations, spec pins, or suite protocols).
-5. **Planned-baseline change** (new or revised declaration-local planned-filling rows inside one exact `U.WorkPlan`, or changes to their pins).
+5. **Planned-baseline change** (new or revised declaration-local planned-filling rows inside one `U.WorkPlan`, or changes to their pins).
 6. **Wiring change** (new or revised Part-G extension modules, SoTA method packs, or selectors).
 7. **Terminology migration** (renames, token splits or merges, or register changes).
 8. **Deprecation, supersession, or retirement** (status change, successor relation, and preserved citeability; apply E.20:4.9.1).
 
 **Mechanism-kind boundary.** `MechanismDefinitionRef` is a designator. Minting it neither creates a `U.Mechanism` episteme nor admits a new U-kind. A new U-kind claim requires E.24.UK; a new mechanism episteme must satisfy A.6.1 identity and content; a new transformation-flow structure requires E.18.
 
-**A.6.1 compatibility.** Mechanism identity is `<content, EntityOfConcernRef, effectiveReferenceScheme>`. Identity-bearing content comprises direct subject and range fields, `OperationAlgebra`, `LawSet`, `AdmissibilityConditions`, Applicability, and an optional `SignatureManifest` when dependency replay matters. An operation index may be derived from the declaration-local `operationDesignator` values; it is not another content group. Each operation's arguments and results remain A.6.1 `ArgumentDeclaration` and `ResultDeclaration` content. A.6.5 SlotSpecs remain exclusive to a `RelationSignature` for an already governed direct relation. Realization, refinement, extension, bridge, evaluation, evidence-use, and publication relations are governed separately.
+**A.6.1 compatibility.** Mechanism identity is `<content, EntityOfConcernRef, effectiveReferenceScheme>`. Identity-bearing content comprises direct subject and range fields, `OperationAlgebra`, `LawSet`, `AdmissibilityConditions`, Applicability, and an optional `SignatureManifest` when dependency replay matters.
 
-**New-declaration criterion.** Treat a change as a new declared operation family when `EntityOfConcernRef` changes. Treat changed mechanism content or effective reference scheme as a new semantic edition. A changed neighboring relation alone does not create a new mechanism identity, although it may reopen reliance on the current declaration.
-A single MIP-run MAY span multiple classes; the author SHALL assign each changed item to its governing definition below.
+An operation index may be derived from the declaration-local `operationDesignator` values; it is not another content group. Each operation's arguments and results remain A.6.1 `ArgumentDeclaration` and `ResultDeclaration` content. A.6.5 SlotSpecs remain exclusive to a `RelationSignature` for an already governed direct relation. Realization, refinement, extension, bridge, evaluation, evidence-use, and publication relations are governed separately.
+
+**New-declaration criterion.** Treat a change as a new declared operation family when `EntityOfConcernRef` changes. Treat changed mechanism content or effective reference scheme as a new semantic edition. A changed neighboring relation alone does not create a new mechanism identity. It may reopen reliance on the current declaration.
+
+One MIP-run MAY span several classes. The author SHALL assign each changed item to its governing definition below.
 
 #### E.20:4.2 - Step 2: Declare the governing-definition assignment map (mandatory)
 
@@ -102,7 +105,7 @@ Conditional manifest fields appear only when the corresponding claim is present:
 * intended RSCR trigger types when a refresh or regression-wiring claim is present, and
 * the PQG (E.19) profile set when the run crosses an E.19-governed review boundary.
 
-**Note (normative).** If the canonical location is a Part‑G wiring module, it SHALL be cited as a `PatternScopeId` (`G.x:Ext.*`) and the module SHALL declare `GoverningPatternId` (wiring is binding-only; meaning remains governed by its cited pattern).
+**Part-G wiring.** If the canonical location is a Part‑G wiring module, it SHALL be cited as a `PatternScopeId` (`G.x:Ext.*`) and the module SHALL declare `GoverningPatternId`. The module supplies only bindings. Its cited pattern governs meaning.
 
 **Canonical governing-definition map (normative):**
 
@@ -117,13 +120,13 @@ Conditional manifest fields appear only when the corresponding claim is present:
 | Change-cause taxonomy and regression triggers | **RSCR subject pattern** | `G.Core` | SHALL NOT invent ad hoc “reason kinds” scattered in patterns. |
 | Project specializations of a mechanism | **Project specialization pattern** | `P.*` patterns (using `⊑/⊑⁺`) | SHALL NOT mutate kernel membership to express project variants. |
 
-**Guard (normative).** Any proposed change that cannot name a governing definition from the table above SHALL be treated as a non-normative drafting note or candidate intake and SHALL NOT be relied upon as an FPF architectural commitment. Such material may exist only in an explicitly marked non-normative source note until assigned to its governing definition.
+**When a change has no named governing definition.** Any proposed change that cannot name a governing definition from the table above SHALL be treated as a non-normative drafting note or candidate intake and SHALL NOT be relied upon as an FPF architectural commitment. Such material may exist only in a source note marked non-normative until assigned to its governing definition.
 
 #### E.20:4.3 - Step 3: Resolve the designator before dependent use
 
-When a change introduces `MechanismDefinitionRef`, create one resolvable target at the subject-pattern locus before another declaration cites it. Distinguish two target states:
+When a change introduces a `MechanismDefinitionRef`, create one resolvable target at the subject-pattern locus before another declaration cites it. Distinguish two target states:
 
-1. **Reference-reservation stub.** This is a draft authoring episteme, not `U.Mechanism`. It reserves the designator, names the intended operation-family EntityOfConcern, cites the subject pattern, and lists the missing A.6.1 identity or content needed for introduction. A publication may expose the stub as a candidate. A suite may cite it only in an explicitly candidate-valued position; the stub cannot satisfy admitted suite membership, closure, planned-baseline, wiring, gate, reuse, or import claims.
+1. **Reference-reservation stub.** This is a draft authoring episteme, not `U.Mechanism`. It reserves the designator, names the intended operation-family EntityOfConcern, cites the subject pattern, and lists the missing A.6.1 identity or content needed for introduction. A publication may expose the stub as a candidate. A suite may cite it only in a position designated for candidates; the stub cannot satisfy admitted suite membership, closure, planned-baseline, wiring, gate, reuse, or import claims.
 2. **Introduced mechanism episteme.** `MechanismDefinitionRef` resolves to one A.6.1 `U.Mechanism` episteme with recoverable identity and sufficient content for the receiving use. Only this state can fill a position whose ValueKind is `U.Mechanism`.
 
 A card, table row, file, or register entry may publish either state. Its layout and publication identity do not determine which state obtains.
@@ -139,47 +142,49 @@ An introduced mechanism has the A.6.1 identity tuple:
 Its minimum semantic content for ordinary reuse names:
 
 * direct `SubjectKind` and `RangedValueKind`, with `ResultKind`, `SliceSet`, and `ExtentRule` only when current;
-* `OperationAlgebra` with one exact A.6.1 `OperationDeclaration` per reused operation and one declaration-local `ArgumentDeclaration` or `ResultDeclaration` for every typed argument or result position, including its meaning, exact ValueKind, binding designation rule, binding predicate, and any semantic cardinality;
+* `OperationAlgebra` with one A.6.1 `OperationDeclaration` per reused operation and one declaration-local `ArgumentDeclaration` or `ResultDeclaration` for every typed argument or result position, including its meaning, exact ValueKind, binding designation rule, binding predicate, and any semantic cardinality;
 * `LawSet`;
 * `AdmissibilityConditions`;
 * Applicability through exact claim scope, selected time, reference plane when current, and mechanism-specific conditions;
 * `SignatureManifest` only when actual imported or provided declaration content must replay.
 
-An operation index may be derived from the declaration-local operation designators for retrieval; it is not another content group. Argument and result declarations remain inside their exact A.6.1 operation declaration and never become A.6.5 SlotSpecs. Refinement, conservative extension, equivalence, bridge use, mechanism realization, evaluation, evidence use, method use, dated work, description, representation, and publication remain neighboring objects or relation occurrences. A MIP-run names their subject patterns instead of copying them into the mechanism declaration.
+An operation index may be derived from the declaration-local operation designators for retrieval; it is not another content group. Argument and result declarations remain inside their A.6.1 operation declaration and never become A.6.5 SlotSpecs.
 
-Create a new semantic edition when content, `EntityOfConcernRef`, or effective reference scheme changes. Keep the current edition when only a neighboring relation occurrence or publication changes. E.20 relies on the current numbered A.6.1 conformance checklist and does not maintain a second checklist-ID family.
+Refinement, conservative extension, equivalence, bridge use, mechanism realization, evaluation, evidence use, method use, dated work, description, representation, and publication remain neighboring objects or relation occurrences. A MIP-run names their subject patterns. It does not copy the neighboring objects or relations into the mechanism declaration.
+
+Create a new semantic edition when content, `EntityOfConcernRef`, or effective reference scheme changes. Keep the current edition when only a neighboring relation occurrence or publication changes. Use the current numbered A.6.1 conformance checklist. E.20 has no separate checklist-ID family.
 
 If a suite or family claims shared operation-member vocabulary across several mechanism declarations, apply E.20:4.5.
 
-#### E.20:4.5 - Step 5: Suite-scoped operation-member vocabulary discipline (prevent member-name drift)
+#### E.20:4.5 - Step 5: Keep operation-member names consistent across a suite
 
-Use this step only when a suite or family claims that several mechanism declarations intentionally share operation, argument, or result vocabulary. Repeated spelling by itself does not establish that claim.
+Use this step only when a suite or family claims that several mechanism declarations use a common vocabulary for operations, arguments or results by design. Repeated spelling by itself does not establish that claim.
 
-1. The suite-subject pattern SHALL name one citeable vocabulary locus and the exact member mechanism declarations to which the shared terms apply. That vocabulary coordinates names only; it creates no `OperationDeclaration`, `ArgumentDeclaration`, `ResultDeclaration`, ValueKind, binding predicate, or actual binding.
+1. The suite-subject pattern SHALL name one citeable vocabulary locus and the member mechanism declarations to which the shared terms apply. That vocabulary coordinates names only; it creates no `OperationDeclaration`, `ArgumentDeclaration`, `ResultDeclaration`, ValueKind, binding predicate, or actual binding.
 
-2. Each member mechanism SHALL still declare every current operation, argument, and result locally under A.6.1, including its exact meaning, ValueKind, designation rule, binding predicate, and cardinality. A cited shared term or equal spelling imports none of those semantics.
+2. Each member mechanism SHALL declare every current operation, argument, and result locally under A.6.1, including its exact meaning, ValueKind, designation rule, binding predicate, and cardinality. A cited shared term or equal spelling imports none of those semantics.
 3. When a public shared term is introduced, renamed, split, or merged, update the shared vocabulary locus and every affected declaration or alias route. When only one declaration changes meaning, keep the change local unless the intended shared denotation also changes. Apply E.20:4.9 whenever citeability changes.
 
-This step prevents one intended suite term from silently fragmenting while preserving the declaration-local semantics of every A.6.1 operation member. It supplies no operation position and no actual application binding.
+The shared vocabulary keeps the suite term consistent. Each A.6.1 operation member retains its declaration-local semantics. The vocabulary supplies neither an operation position nor an actual application binding.
 
 #### E.20:4.6 - Step 6: Suite integration (if the mechanism is a suite member)
 
 If the introduction changes a suite (`MechSuiteDescription` or specialization):
 
 1. **Membership set semantics (WF‑MS‑1).** `mechanisms` is a set: duplicates are nonconformant and list order carries no semantics.
-2. **Ordering is only in protocols.** If ordering matters, express it only in `suite_protocols`.
+2. **Ordering is only in protocols.** Express any order that matters in `suite_protocols`.
 3. **Protocol closure (WF‑MS‑2).** Apply A.6.7 WF-MS-2: every `ProtocolStep` in a supplied `SuiteProtocol` resolves to a selected member edition and a declaration-local operation in that edition. Membership alone does not resolve the step.
 4. **No hidden tails.** Required stages (e.g., normalization/aggregation/Γ‑fold) are explicit protocol steps; do not hide them inside other steps.
 5. **Guard/gate separation.** Suites and mechanisms SHALL NOT publish `GateDecision`/`DecisionLog`. `AdmissibilityConditions` and tri‑state `GuardDecision` remain governed by the mechanism definition; `OperationalGate(profile)` acceptance thresholds and pass/fail criteria remain gate/acceptance concerns.
 6. **Suite is descriptive only (WF-MS-3/4).** A suite states membership, obligations, pins, and suite protocols. It does not restate `U.Mechanism` identity-bearing content. Any publication or telemetry continuation remains outside the suite protocol and requires its own exact publication or flow assertion and predicate.
 
-**Kernel stability rule (recommended).** If the suite is a kernel suite, and the change adds a new required stage, prefer creating a **suite variant** rather than mutating the kernel membership. If mutation is unavoidable, pair it with terminology continuity (E.20:4.9) and RSCR triggers (E.20:4.10).
+**Kernel stability rule (recommended).** When a change would add a required stage to a kernel suite, prefer a **suite variant** to changing kernel membership. If mutation is unavoidable, pair it with terminology continuity (E.20:4.9) and RSCR triggers (E.20:4.10).
 
 #### E.20:4.7 - Step 7: Planned baseline & P2W planning-to-work boundary (if planning changes)
 
-If the mechanism introduction changes what one exact `U.WorkPlan` pins, such as selected comparator specifications, method descriptions, a time selector, or guard pins, the WorkPlan edition is the identifiable planning object.
+If the mechanism introduction changes what one `U.WorkPlan` pins, the WorkPlan edition is the identifiable planning object. Examples of pins that may change include selected comparator specifications, method descriptions, a time selector and guard pins.
 
-1. For a future use of an existing declaration member, introduce or revise `SlotFillingsPlanItem` rows as declaration-local ClaimGraph content inside that exact WorkPlan under A.15.3. Use ordinary A.15.2 plan content when only a method or suite choice is being stated.
+1. For a future use of an existing declaration member, introduce or revise `SlotFillingsPlanItem` rows as declaration-local ClaimGraph content inside that WorkPlan edition under A.15.3. Use ordinary A.15.2 plan content when only a method or suite choice is being stated.
 2. Give no row an independent kind, record identity, edition, specialization lineage, canonical target, or successor relation. Changing identity-bearing row content changes the WorkPlan's claim content and is handled as a WorkPlan-edition change under C.2.1 and A.15.2.
 3. Keep the declaration-local planned-filling content planning-only:
    * positive intentions for planned values or designations, using the selected member's ValueKind, designation rule and semantic cardinality under A.15.3;
@@ -188,19 +193,19 @@ If the mechanism introduction changes what one exact `U.WorkPlan` pins, such as 
    * no gate decisions or decision logs; and
    * conditions, including time, only when they change applicability or value selection, as specified in A.15.3:4.2; retain material edition pins under A.15.3:4.6 rather than implicit “latest” or “current” resolution.
 4. Resolve each row through the declaration edition and member selected under A.15.3:4.1–4.4. For an operation argument or expected result, cite the A.6.1 mechanism edition, operation designator and `ArgumentDeclaration` or `ResultDeclaration`; no Description wrapper is required. If the member's meaning or actual-use rule is undefined, return `missing-governor`.
-5. When a receiver needs one row, cite it only through the exact WorkPlan edition and a stable local-content locator. The locator does not make the row independently resolvable.
+5. When a receiver needs one row, cite it only through the WorkPlan edition and its stable local-content locator. The locator does not make the row independently resolvable.
 
-This step keeps the P2W planning-to-work boundary crisp: the WorkPlan states **planned fillers**; enactment witnesses **actual runs**.
+The WorkPlan states the planned fillers. Enactment supplies witnesses for the actual runs.
 
 #### E.20:4.8 - Step 8: Wiring & SoTA updates (keep method evolution out of kernel)
 
-For a method, comparator, selector or other SoTA-sensitive choice, retain the relevant source contributions and the editions actually used. A sufficient direct source reference can support the choice.
+For a method, comparator, selector or other SoTA-sensitive choice, retain the relevant source contributions and the editions used. A sufficient direct source reference can support the choice.
 
 1. Use a G.2 synthesis pack when the receiving synthesis or Part-G use needs that result. Its handoffs reach the subject definitions used for the choice: G.3 for CHR, G.4 for CAL and G.5 for registry/dispatch. The pack preserves grounds and references; those definitions and admission conditions remain applicable.
-2. If an actual WorkPlan changes, pin the chosen source or pack refs in that WorkPlan. Use declaration-local rows only for existing members under E.20:4.7; wiring consumes the selected planned values rather than silently overriding them.
+2. If a WorkPlan changes, pin the chosen source or pack refs in that WorkPlan. Use declaration-local rows only for existing members under E.20:4.7; wiring consumes the selected planned values. It must not override those values without making the change visible.
 3. When flow/task binding or dispatch is current, put that logic in wiring modules (`GPatternExtension`) with an explicit `PatternScopeId` and declared subject pattern.
-4. Wiring may bind, select, dispatch or cite method packs; it may not redefine the mechanism's identity-bearing A.6.1 content. A bridge, realization, evaluation, evidence-use or publication claim named by wiring remains governed by its direct pattern.
-5. If a source update changes the mechanism's signature or laws, change the mechanism-subject pattern under the A.6.1 definition template and emit the affected RSCR triggers under E.20:4.10.
+4. Wiring may bind, select, dispatch or cite method packs. It may not redefine the mechanism's identity-bearing A.6.1 content. When wiring names a bridge, realization, evaluation, evidence-use or publication claim, apply the pattern governing that relation.
+5. If a source update changes the mechanism's signature or laws, the author SHALL change the mechanism-subject pattern under the A.6.1 definition template and SHALL emit the affected RSCR triggers under E.20:4.10.
 
 #### E.20:4.9 - Step 9: Terminology continuity (alias docking)
 
@@ -208,21 +213,21 @@ If the introduction renames any public token or changes canonical naming:
 
 1. Use lexical alias docking (F.18) so old tokens remain citeable.
 2. Update registers and twin labels per lexical discipline.
-3. Avoid silent rewrites: the MIP-run manifest SHALL state the alias relation and successor relation explicitly.
+3. To avoid silent rewrites, the MIP-run manifest SHALL state the alias relation and the successor relation.
 
 ##### E.20:4.9.1 - Deprecation / supersession / retirement (preserve citeability)
 
 If the change class includes deprecation, supersession, or retirement (E.20:4.1 #8), the author SHALL preserve reference continuity and state the status change:
 
 1. **Preserve each identifiable target.** A deprecated `U.Mechanism` episteme, reference-reservation stub, suite description, exact WorkPlan edition, or wiring module SHALL remain resolvable at its canonical location. Deprecation MUST NOT remove it and break citations. A declaration-local planned-filling row is not another canonical target.
-2. **Keep the public token citeable.** A deprecated token such as a `MechanismDefinitionRef`, suite token, WorkPlan token, public local-content locator, or wiring token SHALL remain citeable. If a successor token or name is introduced, alias-dock the old token under F.18 (E.20:4.9). A local-content locator still resolves only through its exact WorkPlan edition and creates no independent row identity or edition.
+2. **Keep the public token citeable.** A deprecated token such as a `MechanismDefinitionRef`, suite token, WorkPlan token, public local-content locator, or wiring token SHALL remain citeable. If a successor token or name is introduced, alias-dock the old token under F.18 (E.20:4.9). A local-content locator still resolves only through its WorkPlan edition and creates no independent row identity or edition.
 3. **Declare a successor or state that none is current.** Apply that obligation to the deprecated mechanism episteme, reference-reservation stub, suite description, WorkPlan edition, wiring module, public locator, or alias under its direct supersession or deprecation pattern. A changed planned-filling row contributes to changed WorkPlan claim content; it has no separate successor relation.
-4. **Update the definition that owns each change.** Make each needed change to suite denotation, closure, obligation, pin, protocol semantics, WorkPlan content, or wiring semantics at its definition locus in E.20:4.2. Prefer a suite variant to silently swapping kernel membership.
+4. **Update the definition that owns each change.** Make each needed change to suite denotation, closure, obligation, pin, protocol semantics, WorkPlan content, or wiring semantics at its definition locus in E.20:4.2. Prefer a suite variant to an unannounced change in kernel membership.
 5. **Emit RSCR triggers.** Deprecation or supersession SHALL emit typed RSCR triggers and extend the regression envelope (E.20:4.10), including checks for dangling references and alias coverage.
 
 #### E.20:4.10 - Step 10: RSCR triggers + regression envelope
 
-The author SHALL emit typed RSCR triggers via the RSCR subject pattern when a MIP-run changes any of:
+The author SHALL emit typed RSCR triggers through the RSCR subject pattern when a MIP-run changes any of the following:
 
 
 * mechanism signatures,
@@ -239,9 +244,9 @@ The author SHALL extend the regression envelope over the affected uses:
 * guard/gate separation when that boundary changes; and
 * the P2W planning-to-work boundary when planned-baseline content changes.
 
-**Guard (normative).** Trigger kind identifiers (e.g., `RSCRTriggerKindId`) SHALL be selected from the RSCR trigger catalogue governed by `G.Core`. Authors SHALL NOT mint ad hoc trigger kinds (“reason kinds”) scattered in arbitrary patterns/modules.
+**Trigger identifiers.** Trigger kind identifiers (e.g., `RSCRTriggerKindId`) SHALL be selected from the RSCR trigger catalogue governed by `G.Core`. Authors SHALL NOT create ad hoc trigger kinds (“reason kinds”) in individual patterns or modules.
 
-**Manifest hook (recommended).** The MIP-run manifest SHOULD list emitted trigger types and the regression envelope deltas as checkable items.
+**Recommended manifest contents.** The MIP-run manifest SHOULD list emitted trigger types and changes to the regression envelope as checkable items.
 
 #### E.20:4.11 - Step 11: Apply PQG profiles (E.19) and close the run
 
@@ -263,8 +268,8 @@ Every MIP-run SHALL be reviewed using PQG (E.19) with:
 A reviewed MIP-run SHALL be closed as one of:
 
 1. **Proceed (single change set).**
-2. **Proceed via governing-definition split** (mandatory when semantics were placed under the wrong governing definition; the change is split into governing-definition-correct edits).
+2. **Proceed via governing-definition split** (mandatory when semantics were placed under the wrong governing definition; split the change so that each edit is made at its governing definition).
 3. **Proceed via suite variant** (preferred when kernel stability is threatened by adding new required stages).
-4. **Block with explicit missing condition** (insufficient semantics; stub exists but completion condition is DRR-tracked).
+4. **Block with explicit missing condition** (the mechanism semantics are insufficient, a reservation stub exists, and a DRR tracks the condition for completing the mechanism declaration).
 5. **Reject** (violates invariants such as suite-as-gate, plan-as-enactment, or governing-definition ambiguity).
 

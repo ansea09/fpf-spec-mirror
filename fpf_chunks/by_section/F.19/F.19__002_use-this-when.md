@@ -6,12 +6,12 @@ section_id: "F.19:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.19/F.19__002_use-this-when.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
   - "F.19:0 — Use this when"
-line_start: 126064
-line_end: 126097
+line_start: 134064
+line_end: 134101
 dependencies:
   - "A.19.SPR"
   - "A.6.P"
@@ -34,7 +34,9 @@ keywords:
 
 ### F.19:0 - Use this when
 
-Use `F.19` when a bounded piece of technical prose is harder to understand or use than its intended claim requires. The sentence may be grammatical and every isolated statement may be true, yet the reader still has to invent a missing operand, accept an implausible relation, guess what a pronoun or relational noun refers to, interpret a list with no stated purpose, or wait through caveats and ornament before reaching the governing message.
+Use `F.19` when a bounded piece of technical prose is harder to understand or use than its intended claim requires.
+
+The sentence may be grammatical and every isolated statement may be true, yet the reader still has to invent a missing operand, accept an implausible relation, guess what a pronoun or relational noun refers to, interpret a list with no stated purpose, or wait through caveats and ornament before reaching the governing message.
 
 Common signs are:
 
@@ -45,19 +47,21 @@ Common signs are:
 - examples presented as a classification, or a catalogue presented instead of a proposition; and
 - coordination repeated inside phrases and across clauses, or stacked modifiers, when one governing statement would do.
 
-Item count is only a cue. Two coordinated members can already be needless, while a long inventory can be exact and useful when its kind, membership rule, and closure matter. Matching kinds and individually relevant members do not by themselves justify a series: the reader must need to distinguish or retain the members together for the intended use.
+Item count is only a cue. Two coordinated members can already be needless, while a long inventory can be exact and useful when its kind, membership rule, and closure matter.
+
+Matching kinds and individually relevant members do not by themselves justify a series: the reader must need to distinguish or retain the members together for the intended use.
 
 Apply the same method to FPF pattern prose and to other technical prose whose accepted domain terms, relations, claim boundaries, or use conditions must survive simplification.
 
 **What goes wrong if missed.** The prose looks careful while introducing relations, alternatives, or branches that the work does not need. A later author or generator may then copy that shape as an acceptable technical style.
 
-**What this buys.** The reader reaches the supported object, claim, and action sooner. Required technical distinctions remain; invented foils, false agency, reference puzzles, and catalogue rhetoric do not.
+**What this buys.** The passage puts the supported object, claim, and action where the reader can find them without first working through unnecessary caveats. The rewrite preserves required technical distinctions and removes invented foils, false agency, reference puzzles, and catalogue rhetoric.
 
 **First useful move.** State in one plain sentence what the intended reader must recognize, understand, decide, or do. Then read the whole natural span against that sentence before changing individual words.
 
 **Not this pattern when.**
 
-- If only one already-visible FPF word or head has an unresolved technical use, take the exact `E.10` route for it.
+- If only one already-visible FPF word or head has an unresolved technical use, follow the `E.10` entry for that use.
 - If the question is a durable reusable name, use `F.18`.
 - If clear advice still demands work whose contribution, feasibility or requirement merits are unresolved, use `C.11.DUA` to repair that advice. Return here for any wording repair it needs.
 - If source prose is only being observed and not admitted into governed technical prose, keep the observation source-side.

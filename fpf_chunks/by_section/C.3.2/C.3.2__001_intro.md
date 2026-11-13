@@ -6,12 +6,12 @@ section_id: "C.3.2:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.3.2 — Kind Intent, Membership Judgment, and Extension"
   - "C.3.2:intro — Intro"
-line_start: 55392
-line_end: 55397
+line_start: 57678
+line_end: 57683
 dependencies:
   - "A.14"
   - "A.2.6"

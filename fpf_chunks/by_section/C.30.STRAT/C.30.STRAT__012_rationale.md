@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__012_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.30.STRAT — Clarify Stratification and Architecture Source Labels"
   - "C.30.STRAT:10 — Rationale"
-line_start: 73217
-line_end: 73220
+line_start: 76347
+line_end: 76350
 dependencies:
   - "A.10"
   - "A.15"
@@ -64,5 +64,5 @@ keywords:
 
 ### C.30.STRAT:10 - Rationale
 
-Stratification words compress local practice. That compression is useful for recognition and unsafe as a substitute for an object, relation, or claim. C.30.STRAT therefore keeps the source word, recovers what it means in the current sentence, and returns the reader to the applicable technical rule.
+Stratification words compress local practice. That compression is useful for recognition and unsafe as a substitute for an object, relation, or claim. C.30.STRAT therefore keeps the source word, recovers what it means in the sentence, and returns the reader to the technical rule.
 

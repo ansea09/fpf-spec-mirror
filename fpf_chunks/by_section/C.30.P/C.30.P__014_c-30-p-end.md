@@ -6,12 +6,12 @@ section_id: "C.30.P:End"
 section_title: "C.30.P:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.P/C.30.P__014_c-30-p-end.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.30.P — Clarify Architecture and Structure Wording (Precision Restoration)"
   - "C.30.P:End — C.30.P:End"
-line_start: 72985
-line_end: 72986
+line_start: 76107
+line_end: 76108
 dependencies:
   - "A.10"
   - "A.15"

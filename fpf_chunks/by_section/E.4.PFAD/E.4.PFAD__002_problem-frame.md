@@ -6,12 +6,12 @@ section_id: "E.4.PFAD:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFAD/E.4.PFAD__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.4.PFAD — Principle-Framework Architecture Decision"
   - "E.4.PFAD:1 — Problem frame"
-line_start: 94249
-line_end: 94263
+line_start: 98916
+line_end: 98936
 dependencies:
   - "A.15.1"
   - "A.22"
@@ -53,16 +53,22 @@ keywords:
 
 ### E.4.PFAD:1 - Problem frame
 
-Use this pattern when an author is choosing among a new or revised principle framework, a contribution to an existing framework, another product that is not a framework, a thinner publication or access route, and no new maintained product now, and that choice will settle an identity, edition, relation, intended-use, or publication decision that later work must use. The decision may concern the public field and first use, framework edition, dependencies, initial pattern placement or relations, the kind and identity or change rule of a non-framework product, or the publication or access consequence. Another author or reviewer must need the answer and its rationale for later action.
+Use this pattern when an author is choosing among a new or revised principle framework, a contribution to an existing framework, another product that is not a framework, a thinner publication or access route, and no new maintained product now. The choice must settle an identity, edition, relation, intended-use, or publication decision that later work must use.
 
-`E.4.DPF` may return this question before a public product name, PatternIDs, or pattern bodies exist. Open it when the preliminary contribution comparison leaves ownership unresolved, exposes a connected remainder, or identifies a material field, relation, source or refresh, publication, or access consequence that later work must use. Treat an incoming carrier or organizing cue—for example, a role account, MethodDescription, file, Card, mantra, shared topic, or missing authoring artefact—as evidence for that comparison. Decide the outcome from exact candidate contributions and the later-used consequence.
+The decision may concern the public field and first use, framework edition, dependencies, initial pattern placement or relations, the kind and identity or change rule of a non-framework product, or the publication or access consequence. Use it when another author or reviewer will need the answer and its rationale to act.
 
-Here *product* has the Plain management meaning declared in `E.4:4.1`; it is not a technical kind. When a non-framework product is selected, the answer names its direct subject, kind, and the identity, current-state, provision, publication, availability, or other relations used by the decision. Name a maintenance relation only when that stronger claim separately obtains and changes the answer. If a kind or relation that can change the answer is unresolved, keep it as an explicit decision question and do not invent `U.Product`.
+`E.4.DPF` may return this question before a public product name, PatternIDs, or pattern bodies exist. Open it when the preliminary contribution comparison leaves ownership unresolved, exposes a connected remainder, or identifies a material field, relation, source or refresh, publication, or access consequence that later work must use.
+
+Treat an incoming carrier or organizing cue—for example, a role account, MethodDescription, file, Card, mantra, shared topic, or missing authoring artefact—as evidence for that comparison. Decide from what each candidate contributes and the consequence on which later work depends.
+
+Here *product* has the Plain management meaning declared in `E.4:4.1`. It names no technical kind. When a non-framework product is selected, name the direct subject of each claim and its kind, and the identity, current-state, provision, publication, availability, or other relations used by the decision. Name a maintenance relation only when that stronger claim separately obtains and changes the answer. If a kind or relation that can change the answer is unresolved, state the unresolved decision question and do not invent `U.Product`.
 
 
-A proposed new or substantially revised DPF also needs an answer about its field boundary. That answer says who can first use the framework and for what, which connected problem families and useful results it covers, what the current FPF and admitted DPFs already provide, and what remains uncovered. It compares serious alternatives, tests one representative case that crosses problem families, states where the evidence runs out, and names the change that will require a refresh. Together these must support one independently usable pattern language. One pattern or a narrow authoring slice is not a DPF merely because it has a broad title or a coherent carrier.
+A proposed new or substantially revised DPF also needs an answer about its field boundary. That answer says who can first use the framework and for what, which connected problem families and useful results it covers, what the current FPF and admitted DPFs already provide, and what remains uncovered. It compares serious alternatives, tests one representative case that crosses problem families, states where the evidence runs out, and names the change that will require a refresh.
+
+The field account and comparison must support one independently usable pattern language. One pattern or a narrow authoring slice is not a DPF merely because it has a broad title or a coherent carrier.
 
 If a cheap search, curated reading route, useful contribution to an existing framework, suitable non-framework product, or stop answers the immediate need without settling such a boundary, use that result and stop. Reserve the framework-architecture DRR for a later-used boundary.
 
-When the architecture question is live, use `E.4.PFAD` to state the framework-specific content of one ordinary `E.9` DRR. The decision-maker selects the answer during decision Work; that DRR is its decision record. This practitioner-facing profile locates the questions and answer content inside the DRR, while acceptance remains a separate decision.
+When the architecture question is live, use `E.4.PFAD` to state the framework-specific content of one ordinary `E.9` DRR. The decision-maker selects the answer during decision Work. The DRR records it. Practitioners use this profile to find the framework questions and answer content in the DRR, while acceptance remains a separate decision.
 

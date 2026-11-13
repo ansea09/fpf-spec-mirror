@@ -6,12 +6,12 @@ section_id: "A.3.2.DE:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2.DE/A.3.2.DE__007_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.3.2.DE — Describe a Method for Its Intended Use"
   - "A.3.2.DE:5 — Archetypal Grounding"
-line_start: 11854
-line_end: 11897
+line_start: 12271
+line_end: 12314
 dependencies:
   - "A.3.2"
   - "C.37"
@@ -55,10 +55,10 @@ A stakeholder map can keep the same boxes and labels while the way of constructi
 
 The receiving use is a facilitator's preparation of a handover review. Available inputs are the proposed routine, the two-shift role roster, the information each role's holders supply or need, and the known limits of those accounts. The author writes the proposed instruction:
 
-1. Start from the handover information that must reach the next shift and identify the roles whose holders produce or use it in their work. Include a role because of that working dependency, even when its holder has little influence over rollout approval. Use actual supplied facts; mark an uncertain dependency for clarification.
-2. For each included role, obtain an account of the information its holders need, the action that information enables and a relevant missing-information case. Distinguish what a participant or work record actually supplies from the facilitator's assumption. A manager's approval does not supply another role's working account by itself.
+1. Start from the handover information that must reach the next shift and identify the roles whose holders produce or use it in their work. Include a role because of that working dependency, even when its holder has little influence over rollout approval. Use supplied facts; mark an uncertain dependency for clarification.
+2. For each included role, obtain an account of the information its holders need, the action that information enables and a relevant missing-information case. Distinguish what a participant or work record supplies from the facilitator's assumption. A manager's approval does not supply another role's working account by itself.
 3. Relate those needs to the proposed routine. Show which handover action supplies each needed result and which dependency remains uncovered or unknown. Influence can help arrange contact; it does not remove a required receiving role from this check.
-4. Return the map with the supported coverage and the particular missing account or handover contribution. Stop a claim of complete coverage when a material dependency remains unresolved. The result can guide a correction or a bounded trial; it does not itself authorize rollout or show that the routine works.
+4. Return the map with the supported coverage and the missing account or handover contribution. Stop a claim of complete coverage when a material dependency remains unresolved. The result can guide a correction or a bounded trial; it does not itself authorize rollout or show that the routine works.
 
 For a small worked case, suppose a day lead approves the trial, an IT maintainer supplies the display, and a night operator uses unresolved-item flags to resume work. The approval-contact map may correctly contain the first two roles. The proposed method also includes the night operator because the operator consumes a result needed for the handover. If the routine supplies a flag but no next action, the map exposes that missing contribution. If a relief operator's information need is unknown, add that unresolved dependency rather than treating a full roster of names as complete coverage.
 

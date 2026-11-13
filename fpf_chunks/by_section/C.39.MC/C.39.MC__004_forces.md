@@ -6,12 +6,12 @@ section_id: "C.39.MC:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.MC/C.39.MC__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.39.MC — Continue Method Development from Changed Conditions"
   - "C.39.MC:3 — Forces"
-line_start: 84575
-line_end: 84585
+line_start: 88782
+line_end: 88792
 dependencies:
   - "A.15.7"
   - "A.22.CGUS"
@@ -27,7 +27,7 @@ keywords:
 | Force | Tension |
 | --- | --- |
 | Useful entry | A narrow pattern gives an answer quickly, while a connected Method question may depend on another result's status. |
-| Continuity and change | Earlier results save work, while changed applicability, evidence, or authority can invalidate a particular use. |
+| Continuity and change | Earlier results save work, while changed applicability, evidence, or authority can invalidate a use. |
 | Method and representation | A language explains Methods and choices, while its grouping and reader order establish neither Method composition nor Work order. |
 | Potential and present | Several continuations may be meaningful across situations, while the present situation may allow only one or none. |
 | Knowledge and action | An assistant can retrieve or recommend guidance, while another System may choose, authorize, and perform the action. |

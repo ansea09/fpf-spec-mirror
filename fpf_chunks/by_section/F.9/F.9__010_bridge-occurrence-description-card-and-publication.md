@@ -6,12 +6,12 @@ section_id: "F.9:8"
 section_title: "Bridge occurrence, description, Card, and publication"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__010_bridge-occurrence-description-card-and-publication.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.9 — Relate Local Meanings across Contexts (Alignment and Bridge)"
   - "F.9:8 — Bridge occurrence, description, Card, and publication"
-line_start: 121370
-line_end: 121400
+line_start: 129054
+line_end: 129090
 dependencies:
   - "A.10"
   - "A.13"
@@ -59,9 +59,13 @@ keywords:
 
 Recover and, when needed, individuate the direct relation before describing it. A Bridge may obtain without any assertion, description, Card, registry row, or publication.
 
-A Bridge occurrence description is constituted independently under C.2.1 from its complete interpreted claim content, the already individuated occurrence as EntityOfConcern, and its effective interpretation rules (`ReferenceScheme`). Its content and rules satisfy the C.2.1:4.1.2 ranges; each endpoint cell retains its own scheme and exact local sense. A proposal may instead be a modal C.2.1 episteme whose EntityOfConcern is the admitted direct Bridge relation kind and whose ClaimGraph designates proposed endpoints and profile; it supplies no positive occurrence reference and makes no relation obtain.
+A Bridge occurrence description is constituted independently under C.2.1 from its complete interpreted claim content, the already individuated occurrence as EntityOfConcern, and its effective interpretation rules (`ReferenceScheme`). Its content and rules satisfy the C.2.1:4.1.2 ranges; each endpoint cell retains its own scheme and exact local sense.
 
-Use a Bridge Card only when durable reuse, delayed handoff, evidence review, audit, publication, or costly reversal makes reusable packaging worthwhile. A particular filled Card's claim-bearing account can be the description episteme when its C.2.1 identity supports that exact use. Identify its particular expression separately from the reusable layout rules. `PublicationExpressionRelation` states which claim content can be recovered from the expression for the bounded use, and `PublicationFormConformanceRelation` states whether it follows the selected Card form. That expression witnesses the form-mediated `PublicationFormExpressionRelation`; use the same expression for any carrier-bearing claim relied on for availability. When availability matters, publish one selected description/Card edition through E.24.PUB: its `EpistemePublicationRelation` occurrence, particular expression, reusable form, and independently identified physical or digital carrier remain distinct from the selected episteme and from the Bridge.
+A proposal may instead be a modal C.2.1 episteme whose EntityOfConcern is the admitted direct Bridge relation kind and whose ClaimGraph designates proposed endpoints and profile; it supplies no positive occurrence reference and makes no relation obtain.
+
+Use a Bridge Card only when durable reuse, delayed handoff, evidence review, audit, publication, or costly reversal makes reusable packaging worthwhile. A particular filled Card's claim-bearing account can be the description episteme when its C.2.1 identity supports that exact use. Identify its particular expression separately from the reusable layout rules. `PublicationExpressionRelation` states which claim content can be recovered from the expression for the bounded use, and `PublicationFormConformanceRelation` states whether it follows the selected Card form. That expression witnesses the form-mediated `PublicationFormExpressionRelation`; use the same expression for any carrier-bearing claim relied on for availability.
+
+When availability matters, publish one selected description/Card edition through E.24.PUB: its `EpistemePublicationRelation` occurrence, particular expression, reusable form, and independently identified physical or digital carrier remain distinct from the selected episteme and from the Bridge.
 
 ```text
 BridgeCard:
@@ -80,7 +84,9 @@ BridgeCard:
   CardReferenceScheme: EpistemeInterpretationScheme, byValue // rules interpreting this description/Card's complete claims
 ```
 
-For `ClaimMode: actual`, the description/Card episteme's exact EntityOfConcern is the already individuated Bridge occurrence. It may package the Bridge assertion, one or more bounded-use propositions, their evidence and polarity, the descriptive A.10 evidence-provenance path, the independently established direct relations it cites, and local disposition, or the exact B.3 `AssuranceResult` when an actual named assurance claim is current, plus currentness and nearest non-use. Its C.2.1 identity is not the occurrence identity.
+For `ClaimMode: actual`, the description/Card episteme's exact EntityOfConcern is the already individuated Bridge occurrence.
+
+In actual mode, the description/Card may package the Bridge assertion, one or more bounded-use propositions, their evidence and polarity, the descriptive A.10 evidence-provenance path, the independently established direct relations it cites, and local disposition, or the exact B.3 `AssuranceResult` when an actual named assurance claim is current, plus currentness and nearest non-use. Its C.2.1 identity is not the occurrence identity.
 
 For `ClaimMode: candidate` or `negative`, no positive occurrence reference exists. The modal description/Card episteme's EntityOfConcern is the admitted F.9 direct `Bridge` relation kind; its ClaimGraph designates the proposed endpoints and profile. `candidate` says the proposed Bridge may obtain; `negative` says its predicate does not obtain. Any bounded-use proposition in the same graph keeps its own polarity. Completing, approving, registering, or publishing the description/Card creates no Bridge.
 

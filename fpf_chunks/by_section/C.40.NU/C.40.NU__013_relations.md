@@ -6,12 +6,12 @@ section_id: "C.40.NU:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.NU/C.40.NU__013_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.40.NU — Search Neighboring Uses and Means"
   - "C.40.NU:12 — Relations"
-line_start: 87189
-line_end: 87199
+line_start: 91423
+line_end: 91433
 dependencies:
   - "C.17"
   - "C.18"
@@ -34,7 +34,7 @@ keywords:
 - **Supplies C.40.PC:** leads whose worthwhile problem and proposed contribution need inquiry.
 - **Supplies C.40.DC:** leads with an adequate contribution premise that need distinct support configurations.
 - **Returns to decision-alternative generation:** finite alternative generation when a bounded decision-support question is the receiving use; this is a conditional return, not the next numbered stage.
-- **Uses C.17, C.18, or C.19:** only for the actual novelty/value characterization, archive/front stewardship, or live-pool treatment policy each governs; local candidate/probe selection is a different question.
+- **Uses C.17, C.18, or C.19:** only for the novelty/value characterization, archive/front stewardship, or live-pool treatment policy each governs; local candidate/probe selection is a different question.
 - **Uses C.40.JF and C.40.RQ:** qualification of a material reachability premise and tracing of changed premises into retained uses.
 - **Returns to domain and holder practices:** local need, feasibility, capability, access, safety, and other substantive results that search cannot supply.
 

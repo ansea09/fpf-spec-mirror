@@ -6,28 +6,22 @@ section_id: "C.17:1"
 section_title: "The practitioner route"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__003_the-practitioner-route.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.17 — Characterising Generative Novelty and Value"
   - "C.17:1 — The practitioner route"
-line_start: 60631
-line_end: 60660
+line_start: 63043
+line_end: 63072
 dependencies:
-  - "A.0"
   - "A.1.1"
   - "A.10"
-  - "A.13"
   - "A.15.1"
-  - "A.15.2"
   - "A.17"
   - "A.18"
   - "A.19"
   - "A.19.ECS"
-  - "A.2.1"
   - "A.3.1"
   - "A.3.2"
-  - "A.6.1"
-  - "B.1.6"
   - "B.3"
   - "B.4"
   - "C.11"
@@ -62,7 +56,7 @@ Name the bearer, comparison set, practical objective or must-criterion, observed
 
 > Compared with the admitted five-year pump-design set, P-22's inspected split-clamp arrangement is a supported difference. The cited assembly evidence supports shorter assembly than the current shop design P-11, and the design must not require new tooling. The inspection does not support claims about other pump families.
 
-This is already a valid C.17 result for an ordinary design discussion. It does not imply a numerical Novelty value or an overall assessment occurrence.
+This is a C.17 result for an ordinary design discussion. It does not imply a numerical Novelty value or an overall assessment occurrence.
 
 #### C.17:1.2 - Quantified or reusable branch
 
@@ -70,7 +64,7 @@ When a quantified, comparison-ready, or reusable result is needed:
 
 1. select one A.19 CharacteristicSpace and its `A.19.ECS` specification;
 2. fix the finite comparison corpus, inclusion rule, source editions, scope, comparison window, and evidence;
-3. identify the objective, acceptance criterion, and must-constraints actually used;
+3. identify the objective, acceptance criterion, and must-constraints used;
 4. identify the similarity or measurement Method used and any model, encoder, distance definition, invariances, calibration, and uncertainty basis it needs;
 5. for each coordinate, cite an existing complete `C.16` measurement result, perform and constitute the missing C.16 measurement, or state a `C.2.1` non-measurement ascription under its declared rule;
 6. form only the aggregate conclusion needed by the receiving comparison;
@@ -82,5 +76,5 @@ Return only the missing premise that blocks the current coordinate or conclusion
 
 Use this branch when a statement deliberately asserts dated overall-assessment Work or the receiving use needs that occurrence established. Recover the evaluator System's A.13 core, including its obtaining A.2.1 assignment, and the admitted Method through A.3.1; then use A.15.1 to independently admit the dated Work that enacts that Method. Add F.6 only when the receiving use consumes precise assignment-bound attribution through that same assignment. A missing or failed F.6 attribution alone leaves independently admitted assessment Work intact; recheck any admission premise questioned by the same finding and the conclusions that depend on it. Only the evaluator System performs the Work. A separate MethodDescription may explain the reusable Method; it is not enacted. Coordinate-measurement Work remains its own `C.16` Work, and the aggregate result states claims.
 
-Do not infer an A.6.1 operation application from the Method, Work, configuration, or result. If a receiving claim separately asserts an exact operation application or binding, satisfy the current A.6.1 application account and cite that application. Otherwise retain only the C.17-local evaluator System, assignment, Method enactment, dated assessment Work, coordinate results, and aggregate result that the claim actually needs.
+Do not infer an A.6.1 operation application from the Method, Work, configuration, or result. If a receiving claim separately asserts an exact operation application or binding, satisfy the current A.6.1 application account and cite that application. Otherwise retain only the C.17-local evaluator System, assignment, Method enactment, dated assessment Work, coordinate results, and aggregate result that the claim needs.
 

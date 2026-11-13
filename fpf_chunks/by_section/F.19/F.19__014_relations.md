@@ -6,12 +6,12 @@ section_id: "F.19:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.19/F.19__014_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
   - "F.19:12 — Relations"
-line_start: 126388
-line_end: 126404
+line_start: 134438
+line_end: 134454
 dependencies:
   - "A.19.SPR"
   - "A.6.P"
@@ -37,7 +37,7 @@ keywords:
 | Related pattern | Relation |
 |---|---|
 | `E.8` | In FPF authoring, keep positive practitioner-facing content and pattern form there; use `F.19` for the shared sentence, coordination, list, and foregrounding repair rather than maintaining a second algorithm. |
-| `E.10` | Use its compact cues to notice likely candidates and its exact rows only for unresolved FPF wording. The final ordinary semantic disposition belongs to `F.19` or the subject pattern. |
+| `E.10` | Use its compact cues to find wording to examine. If an FPF use remains unresolved, follow the row for that use. The final ordinary semantic disposition belongs to `F.19` or the subject pattern. |
 | `E.10.ARCH` | Use the shared wording-use architecture only when subject, predicate, relation, representation, or another ontological value remains unresolved after ordinary reading. |
 | `E.10.ROLE` and `A.6.F` | Route an unresolved role- or function-shaped claim once; `F.19` keeps the capable-subject and metonymy boundary without copying either taxonomy. |
 | `F.18` | Use it for durable reusable names after kind and use are known. |

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.7"
-pattern_title: "Strict Distinction: Repair Conflations of FPF Objects (Clarity Lattice)"
+pattern_title: "Distinction: Repair Conflations of FPF Objects (Clarity Lattice)"
 section_id: "A.7:2"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__004_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.7 — Strict Distinction: Repair Conflations of FPF Objects (Clarity Lattice)"
+  - "A.7 — Distinction: Repair Conflations of FPF Objects (Clarity Lattice)"
   - "A.7:2 — Problem frame"
-line_start: 25501
-line_end: 25511
+line_start: 26422
+line_end: 26432
 dependencies:
   - "A.1"
   - "A.10"
@@ -49,9 +49,9 @@ keywords:
 * **Holons (A.1) and systems.** All holons are part-whole units; a System can act because its organization satisfies A.1. Add a local system-role-kind classification or assignment only when the receiving claim uses that stronger distinction.
 * **Transformation (A.3.4), Work, and optional attribution.** A claimed change names the affected entity and the direct transformation facts used by the claim. For a precise dated Work claim, first recover each actual performer System and its A.13 core: local agential kind and criterion, classification, obtaining assignment, scope, working situation, window, and supporting evidence. Then admit the occurrence independently under A.15.1 from its performance history, at least one Method actually followed, temporal extent, and at least one obtaining local containing-System relation. A short Work reference may leave these facts implicit only when they remain recoverable. If the current claim must also identify the assignment under which the Work was performed, name the same obtaining assignment and check that attribution separately through F.6. F.6 identifies neither performer nor assignment. A failed F.6 check alone leaves independently admitted Work intact; recheck an admission premise only when the same finding questions it.
 * **Method and Work backbone (A.3.1, A.3.2, A.15).** Keep MethodDescription, Method, Capability, WorkPlan, and Work distinct. Name only the values used by the current claim. A System acts; a local kind, assignment, Method, or episteme does not.
-* **Evidence (A.2.4, A.10).** Identify the exact episteme and the claim for which it is used as evidence. Add provenance, carrier, source-currentness, and reliance relations when the use requires them. Systems inspect or revise epistemes, publish or store their representations on carriers, and rely on their claims; those epistemes do not perform these actions.
+* **Evidence (A.2.4, A.10).** Identify the episteme and the claim for which it is used as evidence. Add provenance, carrier, source-currentness, and reliance relations when the use requires them. Systems inspect or revise epistemes, publish or store their representations on carriers, and rely on their claims; those epistemes do not perform these actions.
 
 Practitioner check: recover the intended referent and action in sentences such as “the document decided” or “the process executed itself”. Correct a literal or metonymic claim that assigns the action to a participant unable to perform it. Keep established shorthand when the capable System and its action are recoverable.
 
-Boundary for use from other patterns: A.7 restores the `EntityOfConcern`, the admissible describing relation, and the publication boundary; then use the defining or testing rule for the remaining claim, with its PatternID kept only as a locator. Do not let A.7 turn an architecture, structure, work, method, evidence, characterization, or decision question into a general discussion of descriptions. If the `EntityOfConcern` is itself a Description episteme or view, keep the pattern centered on that episteme as the item under concern; description-of-description or publication-force issues open only when they are the exact claim being made.
+Boundary for use from other patterns: A.7 restores the `EntityOfConcern`, the admissible describing relation, and the publication boundary; then use the defining or testing rule for the remaining claim, with its PatternID kept only as a locator. Do not let A.7 turn an architecture, structure, work, method, evidence, characterization, or decision question into a general discussion of descriptions. If the `EntityOfConcern` is itself a Description episteme or view, keep the pattern centered on that episteme as the item under concern; description-of-description or publication-force issues open only when they are the claim being made.
 

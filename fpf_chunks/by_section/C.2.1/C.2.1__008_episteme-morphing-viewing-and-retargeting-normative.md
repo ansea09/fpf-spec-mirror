@@ -6,49 +6,28 @@ section_id: "C.2.1:7"
 section_title: "Episteme morphing, viewing, and retargeting  (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__008_episteme-morphing-viewing-and-retargeting-normative.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:7 — Episteme morphing, viewing, and retargeting  (normative)"
-line_start: 51767
-line_end: 51804
+line_start: 53915
+line_end: 53952
 dependencies:
   - "A.1"
-  - "A.1.1"
   - "A.10"
-  - "A.14"
-  - "A.2.6"
-  - "A.22"
-  - "A.3.1"
-  - "A.3.2"
-  - "A.3.4"
   - "A.6.0"
-  - "A.6.1"
-  - "A.6.2"
-  - "A.6.3"
-  - "A.6.3.RT"
-  - "A.6.4"
   - "A.6.5"
   - "A.6.REL"
   - "A.7"
   - "B.3"
-  - "C.13"
-  - "C.2.1"
-  - "C.2.P"
   - "C.29"
   - "C.3.2"
-  - "E.10.D2"
-  - "E.13"
-  - "E.17"
   - "E.17.0"
   - "E.24.PUB"
   - "E.24.UK"
-  - "F.9"
   - "G.11"
   - "U.Episteme"
-  - "U.MethodDescription"
   - "U.Signature"
-  - "U.View"
 keywords:
 ---
 
@@ -84,9 +63,9 @@ Empirical grounding continues only while every mapped direct relation required b
 
 For one receiving use, q states one proposition with affirmative or negative polarity: whether r preserves the named invariant and makes the stated loss acceptable under named conditions. A separate current-case judgement compares exact current facts with that proposition and reports `satisfies`, `fails`, or `cannot decide`. The same r can have different q assertions and case results for different uses without changing arrow identity. A missing deciding fact yields `cannot decide`, names that fact, and states what would reopen the question; it does not create unresolved assertion polarity or require an assurance record.
 
-Use A.20 when the proposition is an internal constraint, A.10 when the evidence source-to-use account must remain replayable, and B.3 when an actual named assurance claim is current. The named predicate and applicable direct facts supply the case judgement. If the case also asserts a semantic relation between exact F.17 local senses, F.9 defines that separate Bridge and its bounded-use claim.
+Use A.20 when the proposition is an internal constraint, A.10 when the evidence source-to-use account must remain replayable, and B.3 when a named assurance claim is at issue. The named predicate and applicable direct facts supply the case judgement. If the case also asserts a semantic relation between exact F.17 local senses, F.9 defines that separate Bridge and its bounded-use claim.
 
-A system may perform exact retargeting work. Identify its enacted method, any exact A.6.1 operation application and binding, affected or newly constituted episteme, and actual change facts separately. The arrow itself performs no work, and the mathematical statement `r : X -> Y` infers no bare result or universal production relation.
+A system may perform retargeting work. Identify its enacted method, any exact A.6.1 operation application and binding, affected or newly constituted episteme, and actual change facts separately. The arrow itself performs no work, and the mathematical statement `r : X -> Y` infers no bare result or universal production relation.
 
-Examples include retargeting from an episteme about a physical cabinet to one about a selected functional `U.Structure`, or from observations to a learned model, when the independently identified source and receiving entities really differ. For `Cab-7` as the cabinet and `Route-A` as the selected functional structure, an independently stated behaviour-test result can supply q's current-case basis; the judgement is `satisfies` only when that result meets q's named conditions. The source expression `Realises(Cab-7, Route-A)` has no current direct relation governor here and therefore stops at A.6.RCD `missing-governor`; it contributes nothing to that judgement. For a Fourier representation change, identify the endpoint subjects under C.2.1. If the same signal remains the EntityOfConcern, use A.6.3.RT or the applicable representation-transition pattern. Use C.29 when a mathematical-lens choice, transfer or reliance question remains.
+Examples include retargeting from an episteme about a physical cabinet to one about a selected functional `U.Structure`, or from observations to a learned model, when the independently identified source and receiving entities differ. For `Cab-7` as the cabinet and `Route-A` as the selected functional structure, an independently stated behaviour-test result can supply q's current-case basis; the judgement is `satisfies` only when that result meets q's named conditions. The source expression `Realises(Cab-7, Route-A)` has no current direct relation governor here and therefore stops at A.6.RCD `missing-governor`; it contributes nothing to that judgement. For a Fourier representation change, identify the endpoint subjects under C.2.1. If the same signal remains the EntityOfConcern, use A.6.3.RT or the applicable representation-transition pattern. Use C.29 when a mathematical-lens choice, transfer or reliance question remains.
 

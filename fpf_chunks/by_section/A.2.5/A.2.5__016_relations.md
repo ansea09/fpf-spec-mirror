@@ -6,12 +6,12 @@ section_id: "A.2.5:13"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__016_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.2.5 — SystemRoleAssignmentStateRelation - Assignment-State Recognition for Work Admission"
   - "A.2.5:13 — Relations"
-line_start: 6655
-line_end: 6670
+line_start: 6957
+line_end: 6972
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -36,7 +36,7 @@ keywords:
 
 | Related pattern | Relation |
 |---|---|
-| `A.2` and `C.3` | Govern exact context-local system-role kinds and their `KindSignature`s; assignment-state predicates may name those kinds and signatures without making them relation participants. |
+| `A.2` and `C.3` | Govern context-local system-role kinds and their `KindSignature`s; assignment-state predicates may name those kinds and signatures without making them relation participants. |
 | `A.2.1` | Use for the declared `U.SystemRoleAssignment` species and the obtaining occurrence referenced by every state relation. |
 | `A.2.2` | Governs capability and operating-envelope claims that a state predicate may reference but does not replace. |
 | `A.2.4` and `A.10` | A.2.4 governs first-use evidence classification; A.10 governs source/provenance recovery and bounded reliance. |
@@ -45,6 +45,6 @@ keywords:
 | `A.6.5` | Governs SlotKind, ValueKind, and reference-mode discipline for the direct declaration. |
 | `A.19` and `C.16` | Govern characteristic spaces, predicates over measured coordinates, measurement, and comparability when used by a state predicate. |
 | `A.15`, `A.15.1`, `A.15.2`, and `A.21` | Govern Method participation, performed or planned Work, and gate outcomes that consume state claims. |
-| `A.1.1` | Use for any selected `BoundedModelUseStructure`; A.2.5 includes its exact edition in predicate identity only when meaning depends on it. |
+| `A.1.1` | Use for any selected `BoundedModelUseStructure`; A.2.5 includes its edition in predicate identity only when meaning depends on it. |
 | `C.27` and `G.11` | Govern temporal currentness, decay, and evidence refresh when those claims are current. |
 

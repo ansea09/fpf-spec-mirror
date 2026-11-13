@@ -6,12 +6,12 @@ section_id: "C.40.DC:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.DC/C.40.DC__007_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.40.DC — Construct Directions with Support Configurations"
   - "C.40.DC:6 — Bias-Annotation"
-line_start: 87573
-line_end: 87582
+line_start: 91807
+line_end: 91816
 dependencies:
   - "A.3.1"
   - "A.3.2"
@@ -25,11 +25,11 @@ keywords:
 
 ### C.40.DC:6 - Bias-Annotation
 
-- **Label concreteness:** naming a course, tool, person, or PatternID feels more specific than the contribution it actually describes.
+- **Label concreteness:** naming a course, tool, person, or PatternID feels more specific than the contribution it describes.
 - **Capability default:** an access or support limitation is treated as a need to develop the holder.
 - **Fragment parity:** a fully supported direction is compared with an advertised fragment.
 - **Benefit-only comparison:** transition, maintenance, distribution, or protected conditions disappear behind a desired gain.
 - **Combination optimism:** attractive components are presumed to work together despite shared capacity or incompatible premises.
-- **Baseline drift:** later steps are compared with the original situation instead of their actual assumed starting configurations.
+- **Baseline drift:** later steps are compared with the original situation instead of their assumed starting configurations.
 - **Learning-route projection:** a prospective contribution path is mistaken for a selected programme or a Guide.
 

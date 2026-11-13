@@ -6,12 +6,12 @@ section_id: "E.4.CM:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.CM/E.4.CM__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.4.CM — Develop Connected Methods as Framework Contributions"
   - "E.4.CM:7 — Conformance Checklist"
-line_start: 93868
-line_end: 93883
+line_start: 98482
+line_end: 98497
 dependencies:
   - "A.3.1"
   - "B.1.5"
@@ -34,12 +34,12 @@ keywords:
 ### E.4.CM:7 - Conformance Checklist
 
 - The public account names a recognizable recurring difficulty, useful result and applicability conditions, and distinguishes one composite Method from several connected Methods.
-- Every selected composition difficulty receives a constructive remedy or an explicit remaining gap.
+- For every selected composition difficulty, give a constructive remedy or state what is missing.
 - Connections explain meanings, dependencies and result use, including material branches and returns.
 - Composition, result use and continuation, Method variation or refinement, and the use of methods and knowledge from different domains remain distinct; their consequential interactions are explained through the relevant structures. An orientation cue names its represented structure and relation.
 - The selected objects and relations support the construction; source novelty or familiar component names do not settle it.
 - Whole conditions change constituent actions where required; Method scale is not reduced to sequence order.
-- Reused descriptions actually supply their claimed contributions.
+- Each reused description supplies the contribution claimed for it.
 - The same-situation comparison preserves a useful remainder without copying complete suppliers.
 - The public owner contains the explanation needed without private development material.
 - A complete case and a consequential changed condition show construction and adaptation.

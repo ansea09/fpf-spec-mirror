@@ -6,12 +6,12 @@ section_id: "A.2.6:3"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__004_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Test Scope Membership and Combine Scopes"
   - "A.2.6:3 — Problem"
-line_start: 6748
-line_end: 6755
+line_start: 7050
+line_end: 7057
 dependencies:
   - "A.1.1"
   - "A.15.1"

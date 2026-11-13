@@ -6,12 +6,12 @@ section_id: "A.16.2:21"
 section_title: "Comparative Retreat Rule"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.2/A.16.2__020_comparative-retreat-rule.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.16.2 — Reopen, SketchBackoff, Respecify, or Retire a Language-State Publication"
   - "A.16.2:21 — Comparative Retreat Rule"
-line_start: 34277
-line_end: 34287
+line_start: 35757
+line_end: 35767
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -36,10 +36,10 @@ keywords:
 ### A.16.2:21 - Comparative Retreat Rule
 
 #### A.16.2:21.1 - Retreat kinds are not interchangeable
-`reopen`, `sketchBackoff`, `respecify`, and `retire` solve different problems. Comparing them as if they all meant "we stepped back" erases the particular closure, framing, route, endpoint-use, publication, or current-use change each one makes.
+`reopen`, `sketchBackoff`, `respecify`, and `retire` solve different problems. Comparing them as if they all meant "we stepped back" erases the closure, framing, route, endpoint-use, publication, or current-use change each one makes.
 
 #### A.16.2:21.2 - Honest recovery over softening prose
-Authors in a context may prefer softening language such as "refined further" or "adjusted slightly" even when a real retreat or retirement occurred. `A.16.2` rejects that habit. If closure dropped, framing was withdrawn, route selection or endpoint use changed, or a branch was retired, name the move directly.
+Authors in a context may prefer softening language such as "refined further" or "adjusted slightly" even when a retreat or retirement occurred. `A.16.2` rejects that habit. If closure dropped, framing was withdrawn, route selection or endpoint use changed, or a branch was retired, name the move directly.
 
 #### A.16.2:21.3 - Boundary to silent editing
 For a reviewable retreat, keep the relevant earlier claim and the reason for its change recoverable. Existing version history or publication content can supply that account. A separate note is needed only when that material is insufficient; a continuity claim still requires its own relation.

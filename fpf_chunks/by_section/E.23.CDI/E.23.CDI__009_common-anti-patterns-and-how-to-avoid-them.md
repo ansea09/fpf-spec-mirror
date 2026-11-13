@@ -6,12 +6,12 @@ section_id: "E.23.CDI:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23.CDI/E.23.CDI__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.23.CDI — Developing Capability for a Named Work Family"
   - "E.23.CDI:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 115551
-line_end: 115562
+line_start: 122887
+line_end: 122898
 dependencies:
   - "A.15.1"
   - "A.2.2"
@@ -29,10 +29,10 @@ keywords:
 | Anti-pattern | Repair |
 | --- | --- |
 | Training completed, capability changed | Keep the training or exercise result, then check the admitted holder's capability and transfer in representative Work. |
-| Group label as holder | Identify the exact System whose capability is claimed; keep member capabilities separate unless the whole is admitted for that claim. |
+| Group label as holder | Identify the System whose capability is claimed; keep member capabilities separate unless the whole is admitted for that claim. |
 | Provider success as holder success | Record the provider contribution separately and test whether the holder can perform the named Work. |
 | Exercise as transfer | Assess what the exercise evidence supports under the receiving conditions. Reuse a sufficient representative-Work check; obtain the missing performance evidence when the exercise does not supply it. |
 | Balanced means equal scores | Name the limiting contribution and protected conditions; do not invent a universal scale or equal target. |
 | Cultural spread as capability | Use `C.36` for distributed cultural change and keep capability with the admitted holder System. |
-| Human training as the universal intervention. Practice, coaching, or credential language is copied into a technical, organizational, AI, collective, equipped, or hybrid case without identifying the actual limiting contribution. | Recover the holder-specific limitation and domain Methods, choose the intervention that addresses it, and test the declared target in representative Work. |
+| Human training as the universal intervention. Practice, coaching, or credential language is copied into a technical, organizational, AI, collective, equipped, or hybrid case without identifying which contribution limits the holder’s performance of the target Work. | Recover the holder-specific limitation and domain Methods, choose the intervention that addresses it, and test the declared target in representative Work. |
 

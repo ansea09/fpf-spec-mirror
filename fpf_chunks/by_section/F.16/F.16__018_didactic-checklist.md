@@ -6,12 +6,12 @@ section_id: "F.16:17"
 section_title: "Didactic checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.16/F.16__018_didactic-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.16 — Worked-Example Template (Cross-Domain)"
   - "F.16:17 — Didactic checklist"
-line_start: 124101
-line_end: 124112
+line_start: 131974
+line_end: 131985
 dependencies:
   - "A.10"
   - "A.15"
@@ -58,7 +58,7 @@ keywords:
 * Defining or testing pattern named for every substantive relation, with direct measurement checked before any proxy?
 * Exact sources and editions and evidence where material?
 * F.17 cell or F.7 table only if it lowers reading cost?
-* F.9 only for an actual local-meaning relation?
+* If the example tests a relation between local meanings with different interpretation bases, does it distinguish the F.9 test result from any asserted Bridge?
 * Evaluation Work, application result, declared scale, status family, optional verdict episteme, window, population, agency, loss, and uncertainty visible where they change the answer?
 * Plain language retained after ontological repair?
 

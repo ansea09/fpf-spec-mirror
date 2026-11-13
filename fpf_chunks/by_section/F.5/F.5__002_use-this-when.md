@@ -6,12 +6,12 @@ section_id: "F.5:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__002_use-this-when.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.5 — Name U-kinds, Local System-Role Kinds and SystemRoleKindDescriptions"
   - "F.5:0 — Use This When"
-line_start: 119849
-line_end: 119887
+line_start: 127462
+line_end: 127500
 dependencies:
   - "A.10"
   - "A.15"
@@ -67,13 +67,13 @@ Typical moments:
 - source wording with *role* must be named locally, but the project has not yet recovered its use—for example, a system-role kind, assignment, status or access relation, relation position, another object, or ordinary wording; or
 - similar names threaten to collapse independently governed objects—for example, a kind, assignment, status, Method, Work occurrence, and description episteme.
 
-**Primary EntityOfConcern.** The EntityOfConcern is the naming discipline for these name families. It relates a recovered meaning to a selected Tech designation and any Plain designation needed for a stated didactic use. It defines neither the named U-kind nor the local system-role kind, constitutes no description, classifies no candidate, creates no assignment, asserts no status or responsibility, supplies no evidence, and publishes no form.
+**Primary EntityOfConcern.** The EntityOfConcern is the naming discipline for these name families. It relates a recovered meaning to a selected Tech designation and any Plain designation needed for a stated didactic use. Naming gives no basis for defining the U-kind or local system-role kind, constituting a description, classifying a candidate, creating an assignment, asserting status or responsibility, supplying evidence, or publishing a form.
 
-**Primary working reader.** The first reader is a practitioner who has a candidate meaning and must choose a name that keeps the named value's kind and intended use recoverable.
+**Primary working reader.** Use this discipline when you have a candidate meaning and need a name that lets readers recover the value’s kind and intended use.
 
 **First useful move.** Recover the exact named value and its direct meaning source before choosing the label. For a U-kind, use its accepted E.24.UK admission result or its direct admission rule. For a local system-role kind, use its A.2 and C.3 identity and criterion; use F.4 for the separate description episteme. Then choose one Tech label that preserves the recovered meaning. Add a short Plain explanation when the intended reader needs it; its scope must not exceed that meaning.
 
-**Smallest useful result and stop.** Stop with one already identified value and one Tech label as soon as the value and its meaning resolve unambiguously for the named local use. Add a Plain explanation when that use needs one. Do not create a NameCard, public row, Bridge, description episteme, or new kind merely to complete a form. If the value or kind is unresolved, apply its direct recovery rule. Use F.18 or F.17 only for the durable or public use they address. Use C.3.3 only for an actual relation between exact local kinds and F.9 only for an actual relation between distinct F.17 cells. If the label starts carrying assignment, Work, result, provenance, assurance, responsibility, or publication claims, stop naming and recover those objects first.
+**Smallest useful result and stop.** Stop with one already identified value and one Tech label as soon as the value and its meaning resolve unambiguously for the named local use. Add a Plain explanation when that use needs one. Do not create a NameCard, public row, Bridge, description episteme, or new kind merely to complete a form. If the value or kind is unresolved, apply its direct recovery rule. Use F.18 or F.17 only for the durable or public use they address. Use C.3.3 only when there is a relation between specific local kinds, and F.9 only when there is a relation between distinct F.17 cells. If the label starts carrying assignment, Work, result, provenance, assurance, responsibility, or publication claims, stop naming and recover those objects first.
 
 **What goes wrong if missed.** Names become arguments. A system-role-kind label smuggles in neighboring claims—for example, assignment, permission, responsibility, or capability. A status phrase becomes a system-role kind. A U-kind name imports one practice's or source's private ontology. A shared word can hide disagreement among witnesses. Downstream patterns then repair semantics that naming already broke.
 
@@ -88,5 +88,5 @@ Typical moments:
 - If the question concerns kind admission, classification, assignment, assignment extent, or performed-Work attribution, use A.2 with C.3, A.2.1, or F.6.
 - If the current object is another governed value rather than a name—for example, a status, evidence use, source use, standard use, requirement use, publication use, assurance claim, gate result, or decision—use its direct pattern.
 - If *role* denotes a relation position, recover the position under A.6.RSIR and A.6.5.
-- If an actual cross-local relation is current, use C.3.3 for exact local kinds or F.9 for distinct F.17 cells.
+- If the naming use involves a cross-local relation, use C.3.3 for exact local kinds or F.9 for distinct F.17 cells.
 

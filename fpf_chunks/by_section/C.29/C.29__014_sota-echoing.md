@@ -6,12 +6,12 @@ section_id: "C.29:13"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__014_sota-echoing.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:13 — SoTA-Echoing"
-line_start: 69805
-line_end: 69863
+line_start: 72898
+line_end: 72956
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -80,7 +80,7 @@ The first action-changing difference from an output-first procedure is the depar
 
 [Mitchell et al., §4](https://arxiv.org/html/1810.03993v2) supplies tailored reporting for trained models, their context and stakeholders. Adapt intended use, evaluation conditions and limitations for actual model reliance. Reject a universal FullCard requirement inferred from model reporting: :4.4 allows the conditional explanation to remain small and strengthens the account when reliance changes.
 
-**Trade-off and reopening.** The selected line spends effort on the mathematical operation and only the application information needed by the receiving use. It gives up the uniform appearance of a full form for every example. Reopen the choice when an actual competing construction gives the needed result with lower effort or loss, when observations defeat a relied-on premise, or when the intended reliance changes.
+**Trade-off and reopening.** The selected line spends effort on the mathematical operation and only the application information needed by the receiving use. It gives up the uniform appearance of a full form for every example. Reopen the choice when a competing construction gives the needed result with lower effort or loss, when observations defeat a relied-on premise, or when the intended reliance changes.
 
 #### C.29:13.1 - Structural-sameness recognition examples
 
@@ -97,13 +97,13 @@ For that question, specify the trainable variables, update/loss model, covarianc
 
 #### C.29:13.3 - Plural mathematical structures
 
-[Rodin's plural-foundations discussion](https://arxiv.org/abs/2301.08131) supports considering several interpretable structural families rather than selecting by a foundational label. Its role here is a discovery prompt. The actual construction still has to preserve the law needed by the working question under :4.1.
+[Rodin's plural-foundations discussion](https://arxiv.org/abs/2301.08131) supports considering several interpretable structural families rather than selecting by a foundational label. Its role here is a discovery prompt. The construction still has to preserve the law needed by the working question under :4.1.
 
 When a mathematical equivalence, interpretation or homomorphism supports later formal work, name the exact objects, correspondence and preserved law. Use A.6.0 when a separate formal vocabulary/law declaration is needed, and E.18.1 when accepted problem-side material must be carried into later work. The object and receiving conditions are stated in :4.4.6.
 
 #### C.29:13.4 - Applied category theory
 
-Adopt the operation-preservation discipline explained by [Fong and Spivak, §3.3.2](https://arxiv.org/pdf/1803.05316): a functor maps objects and arrows while preserving identities and composition. C.29.1 makes the corresponding comparison available before a result is reused, including operation permissions, representative independence and weaker bounds. The authors' §2.5.3 also shows how composition and choice compute route costs; C.29.1:5.2 uses an authored case to expose when an omitted continuation condition defeats that reduction.
+Adopt the operation-preservation discipline explained by [Fong and Spivak, §3.3.2](https://arxiv.org/pdf/1803.05316): a functor maps objects and arrows while preserving identities and composition. C.29.1 makes the corresponding comparison available before a result is reused, including operation permissions, representative independence and weaker bounds. The authors' §2.5.3 also shows how composition and choice compute route costs; C.29.1:5.2 uses a constructed case to expose when an omitted continuation condition defeats that reduction.
 
 Applied category theory remains one organizer for composition, interfaces and transfer. The book's databases, electric circuits and dynamical systems provide source applications; adjoint functors, enriched categories and toposes provide further constructions to study when the question needs them. The trade-off is the work of defining the objects and operations and establishing their laws. When an ordinary domain calculation already provides the correspondence and consequence, use it directly. A failed comparison can instead identify the next required distinction or construction.
 

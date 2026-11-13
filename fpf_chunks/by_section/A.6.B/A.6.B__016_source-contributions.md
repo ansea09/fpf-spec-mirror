@@ -6,12 +6,12 @@ section_id: "A.6.B:14"
 section_title: "Source contributions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__016_source-contributions.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:14 — Source contributions"
-line_start: 15400
-line_end: 15405
+line_start: 15911
+line_end: 15916
 dependencies:
   - "A.10"
   - "A.2.3"
@@ -48,7 +48,7 @@ keywords:
   - "The key words MUST"
   - "accountable norms and grants"
   - "actual exercise"
-  - "an individual-duty D- claim MUST name its actual bearer and exact separately obtaining U.Commitment"
+  - "an individual-duty D- claim MUST name its actual bearer and separately obtaining U.Commitment"
   - "and SHALL have their RFC 2119/8174 meanings only when capitalized as shown"
   - "and evaluated results distinct"
   - "as if it were an agent obligation"
@@ -76,7 +76,7 @@ keywords:
 
 ### A.6.B:14 — Source contributions
 
-A.6:11 gives the exact source contributions and their limits. Effects and handlers distinguish declared operations from handler semantics; contract and behavioral-subtyping work supplies preservation questions; session types supply protocol-specific conditions. ISO/IEC/IEEE 42010 supports concern-oriented descriptions and correspondences. OpenTelemetry and SRE distinguish the observations available from the service property being examined; Cedar gives an explicit rule-evaluation and decision construction.
+A.6:11 gives the source contributions and their limits. Effects and handlers distinguish declared operations from handler semantics; contract and behavioral-subtyping work supplies preservation questions; session types supply protocol-specific conditions. ISO/IEC/IEEE 42010 supports concern-oriented descriptions and correspondences. OpenTelemetry and SRE distinguish the observations available from the service property being examined; Cedar gives an explicit rule-evaluation and decision construction.
 
 FPF uses these contributions to organize boundary claims. The four jobs, their FPF placements and §6.4's dependency rules are the construction explained here. In particular, provider duties require their governing normative source or individual instituting basis, and replayable evidence-provenance accounts use A.10. A source's typing or telemetry guarantees retain their own stated scope.
 

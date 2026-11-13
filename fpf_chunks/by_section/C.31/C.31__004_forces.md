@@ -6,12 +6,12 @@ section_id: "C.31:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31/C.31__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.31 — Modularity and Reusable Structure Characteristics"
   - "C.31:3 — Forces"
-line_start: 75119
-line_end: 75129
+line_start: 78544
+line_end: 78554
 dependencies:
   - "A.10"
   - "A.17"
@@ -51,6 +51,6 @@ keywords:
 | Characteristic plurality vs scalar pressure | Different modularity interpretations have different subjects, scales, evidence, declared measurement or comparison basis, subject-pattern needs, and risks; one score hides that plurality. |
 | Useful proxy vs proxy substitution | A cheap share, count, or graph interpretation can guide local repair, but it may become a false quality, evidence, or decision claim. |
 | Module-interface view vs broader structure | Modularity can involve functions, flows, control, work, evidence, data, placement, or scale, not only modules. |
-| Local repair vs cross-case use | A local diagnosis can stop at report-only use. Cross-case comparison needs the actual bearers, characteristic and comparison rule under C.16, with C.25 when a broader quality claim is made. G.5 governs a selected-set declaration and C.11 a local choice. E.24.PUB governs publication and audience availability; E.17 applies when a source-backed face and return are needed. |
+| Local repair vs cross-case use | A local diagnosis can stop at report-only use. Cross-case comparison needs the bearers, characteristic and comparison rule under C.16, with C.25 when a broader quality claim is made. G.5 governs a selected-set declaration and C.11 a local choice. E.24.PUB governs publication and audience availability; E.17 applies when a source-backed face and return are needed. |
 | Complexity pressure vs complexity ontology | Residual pressure and growth signals are useful, but complexity is not one commensurable architecture characteristic. |
 

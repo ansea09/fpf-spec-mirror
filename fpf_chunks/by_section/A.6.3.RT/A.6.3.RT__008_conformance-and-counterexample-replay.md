@@ -6,12 +6,12 @@ section_id: "A.6.3.RT:7"
 section_title: "Conformance and counterexample replay"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT/A.6.3.RT__008_conformance-and-counterexample-replay.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.3.RT — Representation-Scheme Transition: Change Representation of the Same EntityOfConcern"
   - "A.6.3.RT:7 — Conformance and counterexample replay"
-line_start: 18886
-line_end: 18922
+line_start: 19745
+line_end: 19781
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -57,9 +57,9 @@ keywords:
 4. **CC-RT-4 — Use and return.** The supported use is clear. Any excluded use or source-return requirement follows §4.1's grounded plausible-reader and consequence test.
 5. **CC-RT-5 — Progressive burden.** Detailed factors, semiotic mode, decode evidence, exact identities, Work, publication, evidence, and assurance appear only when each changes use or blocks a likely error.
 6. **CC-RT-6 — Exact endpoints when triggered.** `X` and `Y` are independently identified C.2.1 epistemes with the same EntityOfConcern and effective schemes. Their model, display, output or carrier labels alone do not establish those identities.
-7. **CC-RT-7 — Exact construction.** `v : X -> Y` states claim construction, endpoint-scheme relation, same exact EntityOfConcern, preservation, loss/recovery, prohibited strengthening, applicability, use, and return.
+7. **CC-RT-7 — Exact construction.** `v : X -> Y` states claim construction, endpoint-scheme relation, same EntityOfConcern, preservation, loss/recovery, prohibited strengthening, applicability, use, and return.
 8. **CC-RT-8 — Exact dependencies and neighbors.** Correspondence dependencies obtain independently; C.29 representation, E.17.0 View membership, grounding, publication, evidence, assurance, bridge, gate, and receiving Work remain separate.
-9. **CC-RT-9 — Later-specific occurrence only at its trigger.** A positive `RepresentationSchemeTransitionRelation@Context` has the exact A.1.1 model-use structure, preserved concern, `X`, `Y`, two exact scheme-description epistemes, and actual Work satisfying §4.1.b.
+9. **CC-RT-9 — Later-specific occurrence only at its trigger.** A positive `RepresentationSchemeTransitionRelation@Context` has the A.1.1 model-use structure, preserved concern, `X`, `Y`, two scheme-description epistemes, and Work satisfying §4.1.b.
 10. **CC-RT-10 — Occurrence, Work, and description stay distinct.** The participant tuple identifies the occurrence; Work and production claims remain separate; the transition-description episteme has the occurrence as EntityOfConcern and its own C.2.1 identity.
 11. **CC-RT-11 — Occurrence identity.** Only a changed participant reidentifies the occurrence; repeat Work, evidence, publication, layout, carrier, description edition, or C.29 output does not.
 12. **CC-RT-12 — Reuse is local.** When the source or target, delta, dependency, loss, use, evidence, or return changes, reopen only the affected part of the account.
@@ -80,7 +80,7 @@ keywords:
 | Work without conservativity | A system may produce `Y`, yet unsupported strengthening or hidden loss blocks the exact construction and occurrence. |
 | Grounded source, ungrounded receiver | Grounding of `X` does not transfer through `v`; `Y` has an `EpistemeEmpiricalGroundingRelation` only when its own covered claims and conditions make one obtain. |
 | Readable decode without recovery basis | Keep only the exploratory or report-only use supported by the remaining grounds. A stronger use requires the same-concern source, decoding or access relation and suitable recovery evidence. Identify any episteme endpoint by C.2.1; readable output or a probe score alone does not do so. |
-| Selected structure overread | The exact `BoundedModelUseStructure` is one participant only in the triggered occurrence; it is not transformer, viewpoint, `U.View`, representation, publication, or EntityOfConcern. |
+| Selected structure overread | The `BoundedModelUseStructure` is one participant only in the triggered occurrence; it is not transformer, viewpoint, `U.View`, representation, publication, or EntityOfConcern. |
 | Cross-scheme dependency | Scheme difference, similar content, a description or C.29 output does not establish the exact transition. If the use asserts an F.9 semantic correspondence between two local senses, establish that Bridge and its separately needed bounded-use claim. Crossing contexts alone does not supply either. |
-| Description or C.29 output | Editing the transition description or mathematical output does not change the occurrence unless an exact participant changes. |
+| Description or C.29 output | Editing the transition description or mathematical output does not change the occurrence unless a participant changes. |
 

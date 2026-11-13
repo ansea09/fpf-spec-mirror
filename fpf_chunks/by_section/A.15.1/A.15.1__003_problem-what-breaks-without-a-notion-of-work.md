@@ -3,15 +3,15 @@ chunk_kind: "child"
 pattern_id: "A.15.1"
 pattern_title: "U.Work: Dated Performed Work Occurrence"
 section_id: "A.15.1:2"
-section_title: "Problem (what breaks without a clean notion of Work)"
+section_title: "Problem (what breaks without a notion of Work)"
 source_path: "FPF-Spec.md"
-output_path: "by_section/A.15.1/A.15.1__003_problem-what-breaks-without-a-clean-notion-of-work.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+output_path: "by_section/A.15.1/A.15.1__003_problem-what-breaks-without-a-notion-of-work.md"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.15.1 — U.Work: Dated Performed Work Occurrence"
-  - "A.15.1:2 — Problem (what breaks without a clean notion of Work)"
-line_start: 29168
-line_end: 29175
+  - "A.15.1:2 — Problem (what breaks without a notion of Work)"
+line_start: 30238
+line_end: 30245
 dependencies:
   - "A.1"
   - "A.10"
@@ -54,7 +54,7 @@ keywords:
   - "world-side dated occurrence"
 ---
 
-### A.15.1:2 - Problem (what breaks without a clean notion of Work)
+### A.15.1:2 - Problem (what breaks without a notion of Work)
 
 1. **Plan and occurrence confusion.** Schedules and diagrams get mistaken for performed work, so audits and KPIs attach to plans or representations instead of dated occurrences.
 2. **Method-description and work conflation.** A method description, code artifact, or SOP is reported as if it were performed work; conversely, logs are treated as recipes.

@@ -6,12 +6,12 @@ section_id: "C.38:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.38/C.38__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.38 — Construct Comparable Ways to Obtain One Result"
   - "C.38:2 — Problem"
-line_start: 82482
-line_end: 82489
+line_start: 86512
+line_end: 86519
 dependencies:
   - "A.10"
   - "A.15.9"
@@ -35,5 +35,5 @@ Common option labels name unlike things. *Buy* may name a purchase relation, *pr
 
 The error is not merely missing detail. If candidate rows seek different results, use different acceptance bases, or silently switch situations and horizons, no amount of scoring restores comparability. If possible-future rows are written as facts, capability, authority, Work, provision, delivery, acceptance, and availability are asserted without their direct support.
 
-The needed move is to fix one result question, construct complete-enough materially different ways on one parity basis, keep premise modality visible, and freeze only truthful candidates for choice. It is smaller than a procurement or architecture programme and more complete than a make-or-buy label table.
+The needed move is to fix one result question, construct complete-enough materially different ways on one parity basis, keep premise modality visible, and freeze the candidates for choice. It is smaller than a procurement or architecture programme and more complete than a make-or-buy label table.
 

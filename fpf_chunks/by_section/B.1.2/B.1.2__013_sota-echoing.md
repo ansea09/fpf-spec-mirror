@@ -6,12 +6,12 @@ section_id: "B.1.2:10"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.2/B.1.2__013_sota-echoing.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.1.2 — Coordinate Decisions About System Aggregation and Delimitation"
   - "B.1.2:10 — SoTA-Echoing"
-line_start: 41619
-line_end: 41622
+line_start: 43233
+line_end: 43236
 dependencies:
   - "A.1"
   - "A.10"
@@ -40,5 +40,5 @@ keywords:
 
 ### B.1.2:10 - SoTA-Echoing
 
-The coordination method uses A.1 for system recognition, A.14 and C.13 for parts and assembly, and the applicable characteristic or relation method for each further claim. In the pump-skid case (:5.1), assigning membership from diagram placement can include the external grid and the description. Keeping the independently established relations yields the component inventory and exposes an unresolved component relation while retaining the established ones. This is the bounded comparison the case supports. A comparative claim against a named systems-engineering or reliability-engineering method requires that method's actual delimitation and inference rules, assessed on the same decision at comparable effort.
+The coordination method uses A.1 for system recognition, A.14 and C.13 for parts and assembly, and the applicable characteristic or relation method for each further claim. In the pump-skid case (:5.1), assigning membership from diagram placement can include the external grid and the description. Keeping the independently established relations yields the component inventory and exposes an unresolved component relation while retaining the established ones. This is the bounded comparison the case supports. A comparative claim against a named systems-engineering or reliability-engineering method requires that method's delimitation and inference rules, assessed on the same decision at comparable effort.
 

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.42"
-pattern_title: "Reduce Avoidable Work While Preserving the Needed Result"
+pattern_title: "Reduce Work While Preserving the Needed Result"
 section_id: "C.42:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.42/C.42__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "C.42 — Reduce Avoidable Work While Preserving the Needed Result"
+  - "C.42 — Reduce Work While Preserving the Needed Result"
   - "C.42:2 — Problem"
-line_start: 90019
-line_end: 90026
+line_start: 94329
+line_end: 94336
 dependencies:
   - "A.11.OP"
   - "A.3.1.MI"
@@ -28,5 +28,5 @@ A proposed saving can name a change at one place: fewer fields, fewer checks, fe
 
 The reverse mistake is to preserve every familiar action because it might have value. An obsolete output continues, a recurring error is corrected forever, and a capable person keeps performing an operation that could be removed or supplied more simply. Merely listing possible losses does not identify a change worth making.
 
-The needed answer joins diagnosis and construction. It explains which work is avoidable under the actual purpose and conditions, how a proposed intervention changes those conditions, what the complete alternative costs and preserves, and what subsequent performance establishes.
+The needed answer joins diagnosis and construction. It explains which work is avoidable under the purpose and conditions, how a proposed intervention changes those conditions, what the complete alternative costs and preserves, and what subsequent performance establishes.
 

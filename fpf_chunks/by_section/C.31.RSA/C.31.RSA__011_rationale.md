@@ -6,12 +6,12 @@ section_id: "C.31.RSA:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.RSA/C.31.RSA__011_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.31.RSA — Reusable Structure Accounting"
   - "C.31.RSA:10 — Rationale"
-line_start: 75810
-line_end: 75817
+line_start: 79287
+line_end: 79294
 dependencies:
   - "A.10"
   - "A.19"
@@ -42,7 +42,7 @@ keywords:
 
 C.31.RSA is separate from C.31 because accounting over reusable structure answers a different question from choosing modularity characteristics. C.31 asks which characteristic changes action. C.31.RSA asks where reusable structure and bespoke residue are located under a declared accounting basis.
 
-C.30 distinguishes an architecture relation from its selected structure. RSA does not define `StructureAmount`. A useful accounting description can still report shares, but only under declared structure refs, structural aspects, and an accounting basis.
+C.30 distinguishes an architecture relation from its selected structure. RSA does not define `StructureAmount`. An accounting description can still report shares, but only under declared structure refs, structural aspects, and an accounting basis.
 
 The pattern also keeps residue ethically and practically neutral until interpreted. Bespoke residue can be a defect, a local necessity, a safety boundary, a regulatory constraint, or a deliberately accepted exception. The repair is to name which one.
 

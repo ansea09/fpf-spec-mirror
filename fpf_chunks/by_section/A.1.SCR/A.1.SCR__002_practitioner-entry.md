@@ -6,12 +6,12 @@ section_id: "A.1.SCR:0"
 section_title: "Practitioner entry"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.SCR/A.1.SCR__002_practitioner-entry.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.1.SCR — Finding the Acting or Changed System"
   - "A.1.SCR:0 — Practitioner entry"
-line_start: 3555
-line_end: 3572
+line_start: 3645
+line_end: 3664
 dependencies:
   - "A.1"
   - "A.1.CSD"
@@ -26,19 +26,21 @@ keywords:
 
 ### A.1.SCR:0 - Practitioner entry
 
-**Use this when.** Use this pattern when a decision depends on which exact system acts, is intended to change, carries a capability, persists through a lifecycle, or is being considered for the project system-of-interest role or as a local subject—and the proposed subject is still unclear. Ask: **Which exact system acts or is intended to change here, and what decision depends on treating it as a system?**
+**Use this when.** Use this pattern when a decision depends on which system acts, is intended to change, carries a capability, persists through a lifecycle, or is being considered for the project system-of-interest role or as a local subject—and the proposed subject is still unclear. Ask: **Which system acts or is intended to change here, and what decision depends on treating it as a system?**
 
 **First useful move.** State the claim, the proposed actor or change bearer, and what you will decide differently if it is or is not a system. If the phrase already names Work, a Method, capability, transformation, episteme, structure, or a direct relation and your decision does not depend on systemhood, name that object and leave through its subject pattern. Apply the complete A.1 criterion only in the system-dependent branch.
 
 **Recognized case.** A maintenance decision asks whether `Pump #37` or the larger pumping assembly must be isolated before repair. A.1:5.1 supplies the pump's complete construction basis: constituents, part relations and assembly, reidentification through seal replacement, a composition-grounded pumping characteristic, compatibility with a governed larger assembly, and acting eligibility. The first result is: **`Pump #37` is the recognized `U.System` to which the repair is addressed.** Use the applicable isolation rule with its boundary and connections to decide which assembly must be isolated.
 
-**Subject-pattern and proposed-system readings.** “We develop the surgeon's mastery” ordinarily concerns the person and their actual ability, training Work or evaluation. Use A.2.2 for the ability under stated conditions; an account of it has that independently identified person as its subject. Training can change the ability while the report stays unchanged; editing the report alone changes no ability. Select the assertion episteme as subject only when the question concerns that assertion. If the source instead proposes the physically or operationally realized whole `SutureControl-M17`, identify that exact `U.Entity` and evaluate it—not a substituted surgeon or capability—under the already admitted `U.System` kind. Choose the reading on which the current decision depends.
+**Subject-pattern and proposed-system readings.** “We develop the surgeon's mastery” ordinarily concerns the person and their actual ability, training Work or evaluation. Use A.2.2 for the ability under stated conditions; an account of it has that independently identified person as its subject. Training can change the ability while the report stays unchanged; editing the report alone changes no ability. Select the assertion episteme as subject only when the question concerns that assertion.
+
+If the source instead proposes the physically or operationally realized whole `SutureControl-M17`, identify that `U.Entity` and evaluate it—not a substituted surgeon or capability—under the already admitted `U.System` kind. Choose the reading on which the current decision depends.
 
 **Near-identical non-system case.** `PumpKit-37` contains parts of the same types and carries the same product label, but its constituents are not assembled by the required part relations, it has no composition-grounded pumping characteristic, and it cannot participate in the plant installation while preserving pump identity. The first result is: **the kit is not the pump system; the current subjects are the material collection and its description.**
 
-**Honest unknown case.** `WorkshopController-9` is an exact boxed device, but the team cannot recover its internal assembly, reidentification rule, or operating boundary. The evaluation is **unknown** and names those missing inputs; the decision that assumes an acting controller remains blocked. The entity itself satisfies or fails the criterion independently of current knowledge.
+**Unknown case.** `WorkshopController-9` is a boxed device, but the team cannot recover its internal assembly, reidentification rule, or operating boundary. The evaluation is **unknown** and names those missing inputs; the decision that assumes an acting controller remains blocked. The entity itself satisfies or fails the criterion independently of current knowledge.
 
 **What this buys.** A real actor, change bearer, lifecycle subject, capability holder, or proposed project system of interest gets a tested identity and boundary. A direct Work, Method, capability, structure, episteme, or relation question leaves immediately without an unnecessary A.1 evaluation. Continue through A.1.STM when the shared project SoI and intended-use basis, or this result's connection to it, remains unresolved. Recognition alone does not require traversing the long map.
 
-**Not this pattern when.** If the subject and its admitted kind are already clear, use the subject pattern of the claim. If service or access wording hides a promise, participant, bearer, permission, Work occurrence, status, evidence, or direct relation, begin with A.6.P §4.11a. Enter A.1.SCR from that route only when the repaired claim itself depends on whether the exact entity recovered by A.6.P—an exact bearer or access-providing arrangement—is a system. If only a name for an already recoverable object is unclear, use F.18.
+**Not this pattern when.** If the subject and its admitted kind are already clear, use the subject pattern of the claim. If service or access wording hides a promise, participant, bearer, permission, Work occurrence, status, evidence, or direct relation, begin with A.6.P §4.11a. Enter A.1.SCR from that route only when the repaired claim itself depends on whether the entity recovered by A.6.P—a bearer or access-providing arrangement—is a system. If only a name for an already recoverable object is unclear, use F.18.
 

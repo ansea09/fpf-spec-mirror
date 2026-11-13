@@ -6,12 +6,12 @@ section_id: "E.17.1:20"
 section_title: "Review Matrix and Catalogue Maintenance"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__021_review-matrix-and-catalogue-maintenance.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.17.1 — Viewpoint Bundle Library - Reusable Viewpoint Reference Bundles"
   - "E.17.1:20 — Review Matrix and Catalogue Maintenance"
-line_start: 107037
-line_end: 107047
+line_start: 113578
+line_end: 113588
 dependencies:
   - "A.16.0"
   - "A.22"
@@ -40,9 +40,9 @@ keywords:
 A reviewer can test a viewpoint bundle library with five questions:
 
 1. **Do the member viewpoints still have explicit standalone meaning?**
-2. **Does the local declaration and its family designator describe one coherent recurring family rather than one convenience list?**
-3. **If a subset is imported, is the omitted remainder still visible as omission rather than silent deletion?**
-4. **If several bundles interact, is exact provenance preserved, and does each comparison use its subject method with F.9 added only for an actual semantic relation between distinct local senses?**
-5. **Has a publication face started impersonating the library itself?**
+2. **Does the declaration retrieved by the family designator describe one coherent recurring family rather than one convenience list?**
+3. **If a subset is imported, can the reviewer see which members were omitted?**
+4. **If several bundles interact, is provenance preserved, and does each comparison use its subject method with F.9 added only for a semantic relation between distinct local senses?**
+5. **Has a publication face started impersonating the library?**
 
-Prefer small, provenance-preserving declarations inside exact editioned catalogues over lexical mega-families that are easy to name but hard to reuse truthfully.
+Prefer small, provenance-preserving declarations inside editioned catalogues over lexical mega-families that are easy to name but hard to reuse truthfully.

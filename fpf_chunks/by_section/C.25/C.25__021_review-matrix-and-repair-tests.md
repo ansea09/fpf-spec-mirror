@@ -6,33 +6,21 @@ section_id: "C.25:20"
 section_title: "Review Matrix and Repair Tests"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.25/C.25__021_review-matrix-and-repair-tests.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.25 — Q-Bundle: Express a Quality Claim as One Characteristic or a Structured Bundle"
   - "C.25:20 — Review Matrix and Repair Tests"
-line_start: 65329
-line_end: 65340
+line_start: 68273
+line_end: 68284
 dependencies:
-  - "A.10"
   - "A.15"
-  - "A.16.0"
   - "A.18"
   - "A.2.6"
   - "A.6.1"
   - "B.3"
   - "C.16"
-  - "C.16.P"
   - "C.16.Q"
-  - "C.17"
-  - "C.18"
-  - "C.19"
-  - "C.2.2a"
   - "C.26.3"
-  - "C.33"
-  - "C.34"
-  - "C.35"
-  - "F.9"
-  - "F.9.1"
 keywords:
   - "admissible quality-family use"
   - "characteristic plus scope"
@@ -52,7 +40,7 @@ A checking reader can test a Q-Bundle with five questions:
 
 1. **Is the endpoint shape admissible?** One characteristic where one characteristic is live, one bundle where several typed contributors are load-bearing.
 2. **Are scope and mechanism slots kept distinct from measures?**
-3. **Is any summary number trying to replace the bundle?**
+3. **Is any summary number being used to replace the bundle?**
 4. **Would a gate still be auditable if the family label were removed?**
 5. **If comparison needs cross-context semantic correspondence, is the `F.9` Bridge predicate tested separately from the family bundle?**
 

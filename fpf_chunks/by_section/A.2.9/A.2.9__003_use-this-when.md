@@ -6,12 +6,12 @@ section_id: "A.2.9:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.9/A.2.9__003_use-this-when.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.2.9 — U.SpeechAct — Communicative Work and Its Intended Use"
   - "A.2.9:0 — Use This When"
-line_start: 8784
-line_end: 8809
+line_start: 9135
+line_end: 9164
 dependencies:
   - "A.10"
   - "A.13"
@@ -52,7 +52,7 @@ Use this pattern when one actual act of communicating matters because either:
 
 **What goes wrong if missed.** A response, silence, later action, or later change is treated as the meaning, achievement, or caused effect of the communication; or a document, interface, ticket, message, or log is treated as if it performed the act. Approval, wording, evidence carrier, commitment, receiving use, and performed Work then collapse into one phrase.
 
-**What this buys.** A practitioner can first judge what the communication should enable and what evidence or repair the use needs. Exact communicative Work occurrences remain available for modeling, audit, and reliance without collapsing them into a claim-bearing `SpeechActRecord`, an utterance description, or an evidence carrier.
+**What this buys.** A practitioner can first judge what the communication should enable and what evidence or repair the use needs. Communicative Work occurrences remain available for modeling, audit, and reliance without collapsing them into a claim-bearing `SpeechActRecord`, an utterance description, or an evidence carrier.
 
 Typical moments:
 
@@ -63,9 +63,13 @@ Typical moments:
 - a commitment must cite the act that instituted it, rather than only pointing at a document;
 - a message, ticket, signed record, or API call log is being mistaken for the act itself.
 
-**Primary EntityOfConcern.** The EntityOfConcern is one actual act of communicating, admitted as communicative Work under `U.SpeechAct`. For a receiving-use question, identify that Work only far enough to say who should understand or do what and to keep the act distinct from its wording, representation, medium, response, and later effect. When exact occurrence identity, institutional force, audit, or reliance is current, follow §4.1 and SA-C0/SA-C1: recover the A.13 performer core, independently admit the Work through A.15.1, and use F.6 afterward only for a needed precise assignment-bound claim through the same obtaining assignment. Also recover the recognition-taxonomy episteme, effective reference scheme, and any applicable policy or procedure. A `SpeechActRecord`, MethodDescription, utterance-description episteme, channel, and file, message, ticket, or log carrier remain separate objects.
+**Primary EntityOfConcern.** The EntityOfConcern is one actual act of communicating, admitted as communicative Work under `U.SpeechAct`. For a receiving-use question, identify that Work only far enough to say who should understand or do what and to keep the act distinct from its wording, representation, medium, response, and later effect.
 
-**First useful move.** State who should understand or do what because of the communication, including later self-use by its producer, and what evidence would be enough for the present judgement. Keep response, achievement, later action or change, causal contribution, authority, consent, permission, and admissibility separate. Repair the smallest blocker in the wording, representation, prerequisites, medium, interaction, or a future receiving use—or stop. Only when the named modeling, audit, institutional, or reliance use needs exact occurrence detail, follow the admission and conditional attribution route in §4.1 and SA-C0/SA-C1. Recover taxonomy, scheme, policy, optional channel, and any separate effect only when the use needs them. Create a `SpeechActRecord` only when a receiving use needs a persistent claim about the already admitted occurrence. Apply SA-C1 when a guard, gate, or claim needs exact assignment-bound attribution; otherwise the record may omit that attribution.
+When exact occurrence identity, institutional force, audit, or reliance is current, follow §4.1 and SA-C0/SA-C1: recover the A.13 performer core, independently admit the Work through A.15.1, and use F.6 afterward only for a needed precise assignment-bound claim through the same obtaining assignment. Also recover the recognition-taxonomy episteme, effective reference scheme, and any applicable policy or procedure. A `SpeechActRecord`, MethodDescription, utterance-description episteme, channel, and file, message, ticket, or log carrier remain separate objects.
+
+**First useful move.** State who should understand or do what because of the communication, including later self-use by its producer, and what evidence would be enough for the present judgement. Keep response, achievement, later action or change, causal contribution, authority, consent, permission, and admissibility separate. Repair the smallest blocker in the wording, representation, prerequisites, medium, interaction, or a future receiving use—or stop.
+
+Only when the named modeling, audit, institutional, or reliance use needs exact occurrence detail, follow the admission and conditional attribution route in §4.1 and SA-C0/SA-C1. Recover taxonomy, scheme, policy, optional channel, and any separate effect only when the use needs them. Create a `SpeechActRecord` only when a receiving use needs a persistent claim about the already admitted occurrence. Apply SA-C1 when a guard, gate, or claim needs exact assignment-bound attribution; otherwise the record may omit that attribution.
 
 **Not this pattern when.** If the question is only what a document says, use A.7/C.2/E.17. If the question is only evidentiary support for a later claim or whether the communication caused a later effect, use A.10 or C.28 after identifying that claim. For whether an actual system or party has a duty, use A.2.8. When the Work is not an act of communicating under §4.1, use A.15.1 directly.
 

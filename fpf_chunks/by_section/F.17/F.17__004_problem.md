@@ -6,12 +6,12 @@ section_id: "F.17:2.1"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__004_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.17 — Make a Settled Naming Decision Recoverable for Reuse (Unified Term Sheet)"
   - "F.17:2.1 — Problem"
-line_start: 124163
-line_end: 124166
+line_start: 132038
+line_end: 132041
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -37,7 +37,6 @@ dependencies:
   - "F.10"
   - "F.14"
   - "F.15"
-  - "F.17"
   - "F.18"
   - "F.2"
   - "F.3"
@@ -47,11 +46,10 @@ dependencies:
   - "F.7"
   - "F.8"
   - "F.9"
-  - "G.11"
 keywords:
 ---
 
 ### F.17:2.1 - Problem
 
-The practical problem is to make one durable naming decision recoverable without turning its row, representation, or availability into the named object. One row therefore carries one decision or splits; any stronger claim leaves the row and uses its own defining or constraining rule.
+The practical problem is to make one durable naming decision recoverable without turning its row, representation, or availability into the named object. If a row is needed, it carries one decision. Split a row that combines decisions. For any stronger claim, use the rule that defines or constrains it.
 

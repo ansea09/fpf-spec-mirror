@@ -6,12 +6,12 @@ section_id: "A.10.1:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10.1/A.10.1__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.10.1 — Revalidate Affected Uses When a Relied-on Source Changes"
   - "A.10.1:1 — Problem Frame"
-line_start: 27086
-line_end: 27114
+line_start: 28108
+line_end: 28136
 dependencies:
   - "A.10"
   - "A.10.1"
@@ -26,9 +26,9 @@ keywords:
 
 ### A.10.1:1 - Problem Frame
 
-Use this pattern when a claim-bearing source has been revised, replaced, refined, superseded, or challenged and the practical question is not merely whether the source is current, but which existing results or actions actually relied on the changed claim.
+Use this pattern when a claim-bearing source has been revised, replaced, refined, superseded, or challenged and the practical question is not merely whether the source is current, but which existing results or actions relied on the changed claim.
 
-The primary `EntityOfConcern` is the bounded source-to-use structure: the changed claim and the exact direct use relations through which receiving results, decisions, specifications, plans, or actions depended on it. The practitioner is not asked to know every receiving use in advance. The first move is to state the source comparison and the present decision that bounds where a receiving use would count.
+The primary `EntityOfConcern` is the bounded source-to-use structure: the changed claim and the direct use relations through which receiving results, decisions, specifications, plans, or actions depended on it. The practitioner is not asked to know every receiving use in advance. The first move is to state the source comparison and the present decision that bounds where a receiving use would count.
 
 **First useful move.** Compare source episteme `S0` with later or replacement episteme `S1` for the present question `Q`. Establish the action-relevant claim difference or name what prevents that comparison.
 
@@ -40,7 +40,7 @@ When a material change makes several receiving uses worth discovering, state:
 
 **What goes wrong if missed.** One team replays every analysis because a version changed. Another preserves every result because the represented world did not change. A third follows citations or graph edges and calls every reachable item affected while missing an undeclared use of the premise. All three replace actual reliance with a proxy.
 
-**What this buys.** The practitioner can finish with a repaired reference, a qualified subject result, or a scoped limit. When a common receiving question needs an affected-use account, it remains local, replayable, and honest about coverage. Inspected unaffected uses remain usable for their stated conditions; unresolved reliance and inaccessible surfaces bound the conclusion. Only `depends` branches enter the subject judgment, and reach stops at the last receiving action that can change.
+**What this buys.** The practitioner can finish with a repaired reference, a qualified subject result, or a scoped limit. When a common receiving question needs an affected-use account, it remains local, replayable, and bounded by its coverage. Inspected unaffected uses remain usable for their stated conditions; unresolved reliance and inaccessible surfaces bound the conclusion. Only `depends` branches enter the subject judgment, and reach stops at the last receiving action that can change.
 
 **Not this pattern when.**
 

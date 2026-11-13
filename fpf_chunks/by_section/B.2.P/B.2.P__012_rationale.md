@@ -6,12 +6,12 @@ section_id: "B.2.P:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.P/B.2.P__012_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.2.P — Clarify Emergence and Meta-Holon Transition (MHT) Claims"
   - "B.2.P:9 — Rationale"
-line_start: 43940
-line_end: 43943
+line_start: 45710
+line_end: 45713
 dependencies:
   - "A.1.1"
   - "A.10"

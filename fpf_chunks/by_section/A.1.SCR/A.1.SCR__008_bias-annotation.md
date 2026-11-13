@@ -6,12 +6,12 @@ section_id: "A.1.SCR:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.SCR/A.1.SCR__008_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.1.SCR — Finding the Acting or Changed System"
   - "A.1.SCR:6 — Bias-Annotation"
-line_start: 3735
-line_end: 3745
+line_start: 3831
+line_end: 3841
 dependencies:
   - "A.1"
   - "A.1.CSD"
@@ -29,8 +29,8 @@ keywords:
 | Bias pressure | Misreading | Correction |
 | --- | --- | --- |
 | Noun-induced systemhood | *Session*, *service*, *program*, or another familiar noun is treated as proof of a system. | State the decision and proposed subject; use the subject-pattern exit or apply A.1 only when systemhood matters. |
-| Classification ritual | Every unfamiliar phrase receives the complete A.1 test. | Stop after an exact Work, Method, capability, structure, episteme, or relation answers the decision. |
-| Temporary reading becomes ontology | Repeated testing creates a candidate kind or third ontic state. | Keep one exact `U.Entity`; evaluation does not create kind membership. |
+| Classification ritual | Every unfamiliar phrase receives the complete A.1 test. | Stop after a Work, Method, capability, structure, episteme, or relation answers the decision. |
+| Temporary reading becomes ontology | Repeated testing creates a candidate kind or third ontic state. | Keep one `U.Entity`; evaluation does not create kind membership. |
 | Physical-realization identity | Shared material or extent identifies system, local system-role kind or assignment, capability, Work, transformation, Method, plan, evidence, or description. | Apply each object's direct identity rule. |
 | Project-designation overread | A recognized or affected system is automatically called the project system-of-interest. | Recover the product-use and cooperation basis under section 4.7 and the plan or decision designation. Keep system identity, local system-role classification and assignment separate. |
 

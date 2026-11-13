@@ -6,12 +6,12 @@ section_id: "G.13:10"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.13/G.13__011_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.13 — External Interop Hooks for SoTA Discipline Packs (conceptual)"
   - "G.13:10 — Consequences"
-line_start: 133131
-line_end: 133137
+line_start: 141272
+line_end: 141278
 dependencies:
   - "A.18"
   - "A.19"
@@ -48,6 +48,6 @@ keywords:
 
 * **Changes become locatable.** External source changes produce typed RSCR causes with scope and payload pins for reconsidering dependent uses.
 * **External material supports construction.** External claims and features can support SoTA synthesis, candidate exploration and audit with their source basis recoverable.
-* **Conceptual hygiene improves.** Explicit cards + edition pins reduce semantic leakage from tools/formats/providers.
-* **Cross‑tradition reuse becomes auditable.** Plane/context reuse is surfaced as crossings rather than embedded assumptions.
+* **Recoverable source meaning.** Source and mapper cards, with their edition pins, help keep a provider, tool or format from changing how the result is interpreted.
+* **Cross‑tradition reuse becomes auditable.** The alignment exposes the relation used across planes or contexts and its receiving-use grounds. An independently applicable flow crossing or gate retains its required visibility anchors.
 

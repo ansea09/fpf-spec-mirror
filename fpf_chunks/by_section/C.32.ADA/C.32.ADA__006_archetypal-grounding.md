@@ -6,12 +6,12 @@ section_id: "C.32.ADA:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ADA/C.32.ADA__006_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.32.ADA — Architecture Decision Adequacy Scales"
   - "C.32.ADA:5 — Archetypal Grounding"
-line_start: 80577
-line_end: 80586
+line_start: 84406
+line_end: 84415
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -56,7 +56,7 @@ keywords:
 
 ### C.32.ADA:5 - Archetypal Grounding
 
-**Developer-work readiness.** A service architecture decision has strong candidate traceability and trade-off rationale, but the ADR only says "teams should use events". ADA gives `MethodAndWorkDockingAdequacy = 2 partiallyExpressedForDeclaredUse` because the acting Systems, MethodDescription, expected structure effect, and readiness condition are not recoverable from the instruction. In this case the ADR also expressly requires implementation to be attributed to an exact assignment, so the absent assignment species/current-occurrence refs and F.6 relation are additional attribution defects. A Work-only instruction need not contain those attribution refs, but still needs the obtaining A.13 assignment basis. Any responsibility claim must cite its direct domain predicate or exact missing governor.
+**Developer-work readiness.** A service architecture decision has strong candidate traceability and trade-off rationale, but the ADR only says "teams should use events". ADA gives `MethodAndWorkDockingAdequacy = 2 partiallyExpressedForDeclaredUse` because the acting Systems, MethodDescription, expected structure effect, and readiness condition are not recoverable from the instruction. In this case the ADR also requires implementation to be attributed to an exact assignment, so the absent assignment species/current-occurrence refs and F.6 relation are additional attribution defects. A Work-only instruction need not contain those attribution refs, but needs the obtaining A.13 assignment basis. Any responsibility claim must cite its direct domain predicate or missing governor.
 
 **ADR-publication readiness.** A manufacturing architecture decision is clear, but the trade-study memo omits status and supersession. ADA gives `PublicationProjectionAdequacy = 2 partiallyExpressedForDeclaredUse` and `EvolutionAndReopenConditionAdequacy = 3 sufficientlyExpressedForDeclaredUse`. The repair states the missing record-status and supersession assertions using C.32.ADR.
 

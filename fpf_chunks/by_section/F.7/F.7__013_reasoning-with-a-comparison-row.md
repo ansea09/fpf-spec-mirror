@@ -3,15 +3,15 @@ chunk_kind: "child"
 pattern_id: "F.7"
 pattern_title: "Display Source-Local Comparisons in a Concept-Set Table"
 section_id: "F.7:12"
-section_title: "Safe reasoning moves"
+section_title: "Reasoning with a comparison row"
 source_path: "FPF-Spec.md"
-output_path: "by_section/F.7/F.7__013_safe-reasoning-moves.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+output_path: "by_section/F.7/F.7__013_reasoning-with-a-comparison-row.md"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.7 — Display Source-Local Comparisons in a Concept-Set Table"
-  - "F.7:12 — Safe reasoning moves"
-line_start: 120676
-line_end: 120686
+  - "F.7:12 — Reasoning with a comparison row"
+line_start: 128330
+line_end: 128340
 dependencies:
   - "A.6.9"
   - "B.3"
@@ -37,7 +37,7 @@ keywords:
   - "receiving use"
 ---
 
-### F.7:12 - Safe reasoning moves
+### F.7:12 - Reasoning with a comparison row
 
 1. **Name the comparison.** What question or receiving use makes the row worth having?
 2. **Recover each entry.** Cite its exact source, scheme, expression, and local claim.
@@ -45,6 +45,6 @@ keywords:
 4. **Judge the use separately.** Explain what the named use may conclude and why.
 5. **Expose absence.** When no relation is established, say so and use a contrast row.
 6. **Resist closure.** Do not invent missing pairwise or transitive relations.
-7. **Extend cautiously.** Add a source only when its claim or relation changes the answer; re-evaluate the use conclusion.
+7. **Adding a source.** Include it only when its claim or relation changes the answer, then re-evaluate the conclusion for this use.
 8. **Keep evidence visible.** A table cell never replaces the evidence-use or reliance relation.
 

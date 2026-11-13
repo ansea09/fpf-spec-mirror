@@ -6,12 +6,12 @@ section_id: "D.4:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.4/D.4__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "D.4 — Ethical Mediation and Decision Use"
   - "D.4:1 — Problem Frame"
-line_start: 92052
-line_end: 92057
+line_start: 96575
+line_end: 96580
 dependencies:
   - "A.1.CSD"
   - "A.10"
@@ -36,5 +36,5 @@ keywords:
 
 Once an interlevel ethical conflict is visible, the next risk is premature closure. A team may declare a compromise before evidence is sufficient, turn an assurance input into ethical permission, use one level's value as a trump card, or hide a refusal behind technical language.
 
-From the current conflict account, ask which continuations can be justified and what remains to be established. Use the subject method for any missing basis.
+From the conflict account, ask which continuations can be justified and what remains to be established. Use the subject method for any missing basis.
 

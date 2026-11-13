@@ -6,12 +6,12 @@ section_id: "C.41.UA:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.UA/C.41.UA__010_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.41.UA — Use a Checklist to Answer Questions and Act on the Results"
   - "C.41.UA:9 — Consequences"
-line_start: 89637
-line_end: 89640
+line_start: 93905
+line_end: 93908
 dependencies:
   - "A.10"
   - "A.15.1"

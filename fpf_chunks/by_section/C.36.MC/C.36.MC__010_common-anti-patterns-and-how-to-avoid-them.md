@@ -6,12 +6,12 @@ section_id: "C.36.MC:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.MC/C.36.MC__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.36.MC — Qualify and Develop a Method Culture"
   - "C.36.MC:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 91371
-line_end: 91384
+line_start: 95851
+line_end: 95864
 dependencies:
   - "A.15.1"
   - "A.3.1"
@@ -32,7 +32,7 @@ keywords:
 | “The project designers may change practitioner choices.” | Name the assignment, permission, or authority predicate and the project subjects it permits them to change. |
 | “The later result proves our carrier change worked.” | Keep credible rival explanations and the claim's evidence limit. Select a discriminating inquiry only for a use that warrants it; use C.28 when a causal statement will be relied on. |
 | “Every continuation needs another experiment.” | Finish the supported bounded account or decision. Select a new observation or change for its feasible receiving contribution, not to fill a result field. |
-| “The security assessment is mandatory, so its burden is justified.” | Appraise the requirement's protective contribution and displaced risks separately from its present force. Revise it only through the actual authority or agreement. |
+| “The security assessment is mandatory, so its burden is justified.” | Appraise the requirement's protective contribution and displaced risks separately from its present force. Revise it only through the authority or agreement. |
 | “Successful practice has nothing to return until an earlier claim fails.” | Recover a useful new operation or support contribution and its receiving use; retain a qualified candidate without inventing a defect in the parent. |
 | “These cases show one adoption path.” | Keep every population, predicate, interval, intervention, and consequence separate. |
 

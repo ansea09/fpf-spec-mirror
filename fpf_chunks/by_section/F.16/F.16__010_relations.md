@@ -6,12 +6,12 @@ section_id: "F.16:9"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.16/F.16__010_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.16 — Worked-Example Template (Cross-Domain)"
   - "F.16:9 — Relations"
-line_start: 123996
-line_end: 124008
+line_start: 131863
+line_end: 131875
 dependencies:
   - "A.10"
   - "A.15"
@@ -54,8 +54,8 @@ keywords:
 
 **Builds on:**
 
-- Use **F.1** for the exact source cut and **F.0.1** and **F.17** for each local claim or durable address actually needed by the case.
-- Use **F.7** only for a readable comparison surface and **F.9** only for relations that actually obtain between exact local meanings, together with the separate bounded-use claim.
+- Use **F.1** for the exact source cut and **F.0.1** and **F.17** for each local claim or durable address needed by the case.
+- Use **F.7** only for a readable comparison surface and **F.9** only for relations that obtain between exact local meanings, together with the separate bounded-use claim.
 - Use **E.10.D1** to replace vague *context* wording with the source, scheme, scope, model use, working situation, comparison basis, or other value that changes the case.
 - Use **F.10** for status claims and their windows. Use each direct subject rule for the worked checks; add **F.15** only for the example's finite naming slice.
 

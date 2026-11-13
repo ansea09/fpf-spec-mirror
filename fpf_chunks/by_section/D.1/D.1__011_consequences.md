@@ -6,12 +6,12 @@ section_id: "D.1:6"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.1/D.1__011_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "D.1 — Clarify an Ethical Claim's Value Basis (Value Plurality)"
   - "D.1:6 — Consequences"
-line_start: 91622
-line_end: 91629
+line_start: 96106
+line_end: 96113
 dependencies:
   - "A.1"
   - "A.1.CSD"

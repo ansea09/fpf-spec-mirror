@@ -6,12 +6,12 @@ section_id: "B.2.4:5.4"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.4/B.2.4__008_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.2.4 — Do Capability or Functioning Changes Require Whole Reidentification?"
   - "B.2.4:5.4 — Bias-Annotation"
-line_start: 44546
-line_end: 44555
+line_start: 46358
+line_end: 46367
 dependencies:
   - "A.10"
   - "A.15"
@@ -39,9 +39,9 @@ keywords:
 
 | Bias risk | Failure | Mitigation |
 | --- | --- | --- |
-| Capability as emergence | A new capability label or supporting report declares a new whole. | Recover the exact capability facts and direct pattern, separate their evidence, and perform B.2's ordinary existing-whole comparison. |
+| Capability as emergence | A new capability label or supporting report declares a new whole. | Recover the capability facts and pattern, separate their evidence, and perform B.2's ordinary existing-whole comparison. |
 | Function as part | A function block or functioning relation becomes physical or organizational parthood. | Separate functioning relation, bearer allocation, selected structure, and part-whole claims. |
 | Method chain as whole | A sequence of methods or work stages is called a new holon. | Keep method, method description, work plan, and work occurrence with subject patterns. |
-| Diagram as flow structure | A diagram or graph is treated as the in-life transformation-flow structure. | Recover the described flow and distinguish it from its representation. Use description, publication or mathematical-lens guidance for a live question about those subjects; use E.18 for the selected structure and B.2 for a remaining whole-reidentification question. |
+| Diagram as flow structure | A diagram or graph is treated as the in-life transformation-flow structure. | Recover the described flow and distinguish it from its representation. Use description, publication or mathematical-lens guidance for a question about those subjects; use E.18 for the selected structure and B.2 for a remaining whole-reidentification question. |
 | Metric jump as MHT | A benchmark, KPI, robustness, or threshold gain declares whole reidentification. | Recover the characteristic/value claim and its grounds, then perform B.2's existing-whole comparison. Use A.10 when a replayable source-to-use account is needed. |
 

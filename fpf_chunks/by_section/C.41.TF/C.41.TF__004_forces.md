@@ -6,12 +6,12 @@ section_id: "C.41.TF:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.TF/C.41.TF__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.41.TF — Construct a Checklist Template That Preserves Its Questions"
   - "C.41.TF:3 — Forces"
-line_start: 89252
-line_end: 89261
+line_start: 93520
+line_end: 93529
 dependencies:
   - "C.37"
   - "C.41"
@@ -25,8 +25,8 @@ keywords:
 | Tension | Practical implication |
 | --- | --- |
 | Compact scanning and sufficient meaning | Put common references once, while preserving their reach to every answer. |
-| Reuse and particular subjects | Make the places for binding actual subjects and descriptions unambiguous. |
-| Simple answers and real uncertainty | Provide a way to express unresolved or inapplicable questions where they occur. |
+| Reuse and particular subjects | Make the places for binding subjects and descriptions unambiguous. |
+| Simple answers and uncertainty | Provide a way to express unresolved or inapplicable questions where they occur. |
 | Local convenience and shared interpretation | A split view retains the associations needed by another participant. |
 | Nearby help and reading burden | Explain a difficult distinction where it is used; avoid copying entire manuals. |
 

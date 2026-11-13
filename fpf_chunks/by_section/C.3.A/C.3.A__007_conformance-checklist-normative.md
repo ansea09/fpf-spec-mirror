@@ -6,12 +6,12 @@ section_id: "C.3.A:6"
 section_title: "Conformance checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.A/C.3.A__007_conformance-checklist-normative.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.3.A — Typed Guard Macros for Kinds + USM (Annex)"
   - "C.3.A:6 — Conformance checklist (normative)"
-line_start: 56364
-line_end: 56384
+line_start: 58676
+line_end: 58696
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -39,7 +39,7 @@ keywords:
 | **GC-02** | Every claim-to-candidate use pins candidate, claim kind, receiving kind, both needed signature editions, and slice; it checks admissibility before evaluating the target receiving judgment and consuming `true`/`false`/`unknown`. An inadmissible request retains `not-applicable` without a judgment. |
 | **GC-03** | `not-applicable`, `unknown`, and known `false` remain distinct from each other and from guard refusal. |
 | **GC-04** | RoleMask use recovers the declaration episteme and, when the use is candidate-bearing, the exact masked judgment; any MaskAdapter remains a separate declaration. |
-| **GC-05** | Cross-context use compares kind identity and recovers each bridge channel required by its own applicability, the exact target declaration, and a fresh target judgment when a candidate is current; penalties route to R only. |
+| **GC-05** | Cross-context use compares kind identity and recovers each bridge channel required by its own applicability, the exact target declaration, and a fresh target judgment when the receiving use is candidate-bearing; penalties route to R only. |
 | **GC-06** | Scope, `Gamma_time`, freshness, type compatibility, admissibility, classification, and disposition remain separate. |
 | **GC-07** | SpanUnion preserves one typed claim and line independence; candidate-specific evidence names exact candidates and judgments. |
 | **GC-08** | KindAT appears in no guard, and no plan, row, card, log, or slice substitutes for an actual candidate or Work occurrence. |

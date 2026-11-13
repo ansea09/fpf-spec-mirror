@@ -6,12 +6,12 @@ section_id: "C.40.OI:End"
 section_title: "C.40.OI:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OI/C.40.OI__014_c-40-oi-end.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.40.OI — Bound an Opportunity Inquiry"
   - "C.40.OI:End — C.40.OI:End"
-line_start: 86704
-line_end: 86705
+line_start: 90938
+line_end: 90939
 dependencies:
   - "A.15.9"
   - "B.5.PI"

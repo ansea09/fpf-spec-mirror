@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.10.ARCH"
-pattern_title: "Wording-Use Ontological Precision Restoration Architecture"
+pattern_title: "Architecture for Recovering Ontological Meaning in Wording"
 section_id: "E.10.ARCH:14"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__022_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
+  - "E.10.ARCH — Architecture for Recovering Ontological Meaning in Wording"
   - "E.10.ARCH:14 — Relations"
-line_start: 101933
-line_end: 101959
+line_start: 107679
+line_end: 107705
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -65,7 +65,7 @@ keywords:
 
 ### E.10.ARCH:14 - Relations
 
-- `E.4.DPF` defines the DPF entry condition and the placement rule: each domain entry remains beside the DPF claim whose wording it restores; a separate local profile exists only for a named maintained multi-entry use, and any table that publishes it remains a publication form.
+- `E.4.DPF` defines the DPF entry condition and the placement rule. Each domain entry remains beside the DPF claim whose wording it restores. A separate local profile exists only for a named maintained multi-entry use and can be published as a table.
 - Use `E.10` to recognize and close local wording issues or select the applicable row; use `E.10.LRN` only while claim-bearing learning wording hides the changed subject, Work, Method, result, evidence, or use; use `E.10.DEV` only while development or evolution wording hides the changed or represented subject, continuity or membership, posture, direction or value basis, direct owner, or receiving use; use `E.10.ROLE` for bare claim-bearing *role*, which has no default Tech reading.
 - `E.10.ROLE` provides the thin first entry from bare claim-bearing *role*. `A.6.RSIR` realizes first-level recovery for the narrower relation, signature, interface, assignment, declaration-slot, operation, and representation cluster only until the defining or testing rule for the recovered object is clear.
 - `A.6.P` realizes the shared algorithm for generic relation construction and retained relation specializations. An `A.6.P.WMR` application records exactly one result family for a current Work and Method boundary claim: an exact direct subject-relation claim, positive or governed negative; an exact `A.6.1` operation-application binding; a local `A.15.PROD` claim or another local relation-bearing claim selected under `A.6.RCD` disposition 2; or exact non-assertability with its reason and continuation under A.6.P.WMR:4.3. A missing subject rule may identify a needed future relation rule or declaration; missing constructor semantics retain their separate derivation question. Use `A.6.RCD` only for the residual needed-claim derivation and relation-kind admission question after exact participants are known and no lighter current rule closes the receiver.
@@ -85,7 +85,7 @@ keywords:
 - `E.10.MOVE` resolves ambiguous move-, readiness-, route-, path-, or trajectory-like wording and exits to the direct pattern; after `E.10.DEV`, it opens only for a remaining independent path ambiguity.
 - `A.19.SPR` realizes state-family wording recovery only while the exact object, state frame, value, or direct rule remains hidden.
 - Use `F.18` for durable reusable naming after the kind under repair or relation is known.
-- `F.19` owns the normal whole-span semantic and pragmatic reading and the final plain technical rewrite; deeper recovery opens only for the FPF question that remains unresolved.
+- `F.19` owns the whole-span semantic and pragmatic reading and the final plain technical rewrite; deeper recovery opens only for the FPF question that remains unresolved.
 - `E.8` states the pattern-form and placement rules.
 - `E.19` checks distribution preservation during review and refresh.
 - `E.11` states the entry-distribution rules for broad or old-term cases across README scenarios, ToC query cues, local Problem frames, and worked entry comparisons in `E.11`.

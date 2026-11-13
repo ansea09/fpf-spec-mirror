@@ -6,12 +6,12 @@ section_id: "C.26.2:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.2/C.26.2__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.26.2 — Enacted Distributed State Evidence"
   - "C.26.2:7 — Conformance Checklist"
-line_start: 66544
-line_end: 66562
+line_start: 69548
+line_end: 69566
 dependencies:
   - "A.10"
   - "A.15"
@@ -51,6 +51,6 @@ keywords:
 | CC-C26.2.10 | Probe / measurement approximation, attempted export, faithful-enough criterion, loss cause, and higher-fidelity export possibility are stated when export or measurement carries the claim. |
 | CC-C26.2.11 | Export loss is stated when the claim depends on export that is not faithful enough for the declared use. |
 | CC-C26.2.12 | The evidence and uncertainty qualifications needed by the receiving claim remain recoverable. |
-| CC-C26.2.13 | Formal measurement uses `C.16`; a needed replayable source-to-use account uses `A.10`; an actual named assurance claim uses `B.3`. `QLP-3` retains the B.3 result for that target claim and use. An actual cross-context sense Bridge uses `F.9`. |
+| CC-C26.2.13 | Formal measurement uses `C.16`; a needed replayable source-to-use account uses `A.10`; a named assurance claim uses `B.3`. `QLP-3` retains the B.3 result for that target claim and use. A cross-context sense Bridge uses `F.9`. |
 | CC-C26.2.14 | QL use inherits the separate C.26 activation condition and `QL-NQ`. |
 

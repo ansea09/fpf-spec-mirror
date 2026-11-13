@@ -6,12 +6,12 @@ section_id: "A.15.8.MS:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.8.MS/A.15.8.MS__008_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.15.8.MS — Configure Methodological Support for Work"
   - "A.15.8.MS:6 — Bias-Annotation"
-line_start: 32178
-line_end: 32190
+line_start: 33484
+line_end: 33496
 dependencies:
   - "A.15.8"
   - "A.19"
@@ -30,6 +30,6 @@ keywords:
 | repository bias | Uploading files is reported as a usable Method Base. | Test the declared task rows and retain the collection predicates separately. |
 | platform bias | Feature breadth replaces the failed task set. | Include an element only for a named criterion, stop, cross-task dependency, or directly supported relation. |
 | tool-authority bias | A recommendation or branch display becomes a decision or permission. | Keep tool interaction, user Work, permission, authority, and result separate. |
-| structure-selection bias | A complete proposal table becomes an A.22 selected structure. | Establish the four actual identity discriminators under A.22 for the named use. Add selecting-System, Method, Work and participation or binding grounds only for the corresponding dated-performance claims. |
+| structure-selection bias | A complete proposal table becomes an A.22 selected structure. | Establish the four identity discriminators under A.22 for the named use. Add selecting-System, Method, Work and participation or binding grounds only for the corresponding dated-performance claims. |
 | success inflation | One task pass becomes capability or Method-effectiveness evidence. | Bound the result to observed Work and return neighboring claims separately. |
 

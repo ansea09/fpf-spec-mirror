@@ -6,12 +6,12 @@ section_id: "C.2.4:13"
 section_title: "Worked Examples and Edge Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.4/C.2.4__014_worked-examples-and-edge-cases.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.2.4 — Articulation Explicitness — How Explicit Is an Episteme's Meaning for Its Use?"
   - "C.2.4:13 — Worked Examples and Edge Cases"
-line_start: 53794
-line_end: 53815
+line_start: 56027
+line_end: 56050
 dependencies:
   - "A.13"
   - "A.15"
@@ -48,10 +48,12 @@ keywords:
 ### C.2.4:13 - Worked Examples and Edge Cases
 
 #### C.2.4:13.1 - Precise syntax, unclear meaning
-A template may enforce precise syntax while leaving the meaning needed by the receiving use unclear. For example, a plan template can name a field without identifying the actual actor or the completion condition. A local system-role kind, classification, or assignment is selected only after evidence supports that branch. Formal-looking language does not make its semantic route recoverable.
+A template may enforce precise syntax while leaving the meaning needed by the receiving use unclear. For example, a plan template can name a field without identifying the actor or the completion condition. A local system-role kind, classification, or assignment is selected only after evidence supports that branch. Formal-looking language does not make its semantic route recoverable.
 
 #### C.2.4:13.2 - Plain plan, high articulation
-The note `At 14:00, Maintenance Team 2 will isolate Pump P-17, replace Seal S-4, and restore service only after Leak Test LT-9 passes` uses ordinary language and little formal notation. It can still reach `AE4`: the planned actor, affected entity, ordered actions, time, and completion condition are explicit enough for the planning branch. It routes to `A.15`; the note describes planned actions, while `A.15.1` governs any admitted Work occurrence. The note needs no relation repair merely to count as explicit.
+The note `At 14:00, Maintenance Team 2 will isolate Pump P-17, replace Seal S-4, and restore service only after Leak Test LT-9 passes` uses ordinary language and little formal notation. It can still reach `AE4`: the planned actor, affected entity, ordered actions, time, and completion condition are explicit enough for the planning branch.
+
+It routes to `A.15`; the note describes planned actions, while `A.15.1` governs any admitted Work occurrence. The note needs no relation repair merely to count as explicit.
 
 For a planning check whose required content is exactly those items, inspect them directly. Add the `AE4` reading only when a comparison, chart or declared threshold needs that Scale. The plan's explicitness still leaves the planned action and any authorization for it to their own tests.
 

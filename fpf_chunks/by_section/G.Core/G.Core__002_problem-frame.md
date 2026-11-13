@@ -6,12 +6,12 @@ section_id: "G.Core:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.Core/G.Core__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.Core — Discipline SoTA Kit Invariants, Defaults and Refresh Triggers (Part G)"
   - "G.Core:1 — Problem frame"
-line_start: 126424
-line_end: 126433
+line_start: 134474
+line_end: 134483
 dependencies:
   - "A.15.3"
   - "A.19"
@@ -39,6 +39,6 @@ Part G contains patterns for CG‑frame characterization and its downstream arte
 *Part‑G‑wide* invariants are governed by `G.Core` so every `G.x` can:
 
 * cite the core invariants rather than restating them, and
-* isolate pattern-scoped specifics as `Extensions` without turning each `G.x` into a mixed bag of universal rules, kit surfaces, and method/generator descriptions.
+* place pattern-scoped specifics in `Extensions`, keeping universal rules, kit surfaces, and descriptions of methods or generators separate.
 
 

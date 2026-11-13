@@ -6,12 +6,12 @@ section_id: "A.16.1:19"
 section_title: "Cue-Pack Continuation and Comparative Preservation Rule"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__019_cue-pack-continuation-and-comparative-preservation-rule.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.16.1 — PreArticulationCuePack: Preserve an Early Cue Before Choosing Its Use"
   - "A.16.1:19 — Cue-Pack Continuation and Comparative Preservation Rule"
-line_start: 34084
-line_end: 34094
+line_start: 35564
+line_end: 35574
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -39,7 +39,7 @@ keywords:
 ### A.16.1:19 - Cue-Pack Continuation and Comparative Preservation Rule
 
 #### A.16.1:19.1 - Continuation visibility
-A cue pack should make visible which continuations apply: keeping the cue open, later route publication, a split or merge of cue packs, or retirement of the exact cue, publication, or branch.
+A cue pack should make visible which continuations apply: keeping the cue open, later route publication, a split or merge of cue packs, or retirement of the cue, publication, or branch.
 
 #### A.16.1:19.2 - Preservation worthiness test
 Keep a cue pack only when its nucleus would likely be lost or distorted without it. If the same cue already lives stably in a later receiving form with more closure, a published route selection, and any needed endpoint-use disposition, the cue pack may have become redundant.

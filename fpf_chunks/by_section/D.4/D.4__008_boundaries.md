@@ -6,12 +6,12 @@ section_id: "D.4:5"
 section_title: "Boundaries"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.4/D.4__008_boundaries.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "D.4 — Ethical Mediation and Decision Use"
   - "D.4:5 — Boundaries"
-line_start: 92186
-line_end: 92191
+line_start: 96709
+line_end: 96714
 dependencies:
   - "A.1.CSD"
   - "A.10"

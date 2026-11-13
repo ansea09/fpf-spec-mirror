@@ -6,12 +6,12 @@ section_id: "E.4.PFR:1.1"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFR/E.4.PFR__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.4.PFR — Pattern-Framework Relation and Edition Discipline"
   - "E.4.PFR:1.1 — Problem"
-line_start: 95737
-line_end: 95740
+line_start: 100792
+line_end: 100795
 dependencies:
   - "A.10"
   - "A.6.0"
@@ -48,5 +48,5 @@ keywords:
 
 ### E.4.PFR:1.1 - Problem
 
-Two opposite failures are common. Flattening everything into "related patterns" or "dependency" hides relation function and change effect. Requiring a PFR row for every load-bearing relation turns a readable assertion into a record-first ontology and encourages a fictitious fact that one pattern contains the defining content for or governs the other content.
+Two opposite failures are common. Flattening everything into "related patterns" or "dependency" hides relation function and change effect. Requiring a PFR row for every load-bearing relation turns a readable assertion into a record-first ontology and encourages the mistaken claim that one pattern contains the defining content for the other content or governs it.
 

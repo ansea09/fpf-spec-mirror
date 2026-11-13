@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.30.STRAT — Clarify Stratification and Architecture Source Labels"
   - "C.30.STRAT:intro — Intro"
-line_start: 72987
-line_end: 73002
+line_start: 76109
+line_end: 76124
 dependencies:
   - "A.10"
   - "A.15"
@@ -66,11 +66,11 @@ keywords:
 
 > **Type:** Architectural precision-restoration subpattern under `C.30`
 > **Status:** Stable
-> **Normativity:** Normative unless explicitly marked informative
+> **Normativity:** Normative unless marked informative
 
 **Plain-name.** Stratification and architecture-operation source-label repair.
 
-**Intent.** Help a reader decide what a source label such as `layer`, `level`, `tier`, `stack`, `ladder`, `rung`, `block`, `expert`, `cache`, `router`, or `gate` means in one current sentence. Keep useful local language, but recover the actual object, relation, or claim before relying on it. This pattern introduces no universal kinds for these source labels or for stratification.
+**Intent.** Help a reader decide what a source label such as `layer`, `level`, `tier`, `stack`, `ladder`, `rung`, `block`, `expert`, `cache`, `router`, or `gate` means in one sentence. Keep useful local language, but recover the object, relation, or claim before relying on it. This pattern introduces no universal kinds for these source labels or for stratification.
 
 **Builds on.** `E.10`, `E.10.ARCH`, `E.8`, `F.19`, `F.18`, `C.30.P`, `A.22`, and `C.30`.
 

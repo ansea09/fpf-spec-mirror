@@ -6,12 +6,12 @@ section_id: "B.1:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1/B.1__002_use-this-when.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.1 — Holon Aggregation and Part-Whole Construction"
   - "B.1:0 — Use This When"
-line_start: 40985
-line_end: 41011
+line_start: 42593
+line_end: 42619
 dependencies:
   - "A.1"
   - "A.14"
@@ -52,7 +52,7 @@ Typical moments:
 - If the question is the local relation word, use `A.14`.
 - If the question is constructive part-whole grounding, use `C.13`.
 - If a publication choice or named current requirement elects the Working-Model assurance profile for the relation claim, use `B.3.5`.
-- If the question is an exact relation among local system-role kinds, use `A.2.7`; if it is classification, assignment, or a direct participation relation, state that fact through its own pattern and predicate. Send unresolved claim-bearing “role” wording through `E.10.ROLE`. Use the Method patterns for method relation structure and `C.29` when a separate mathematical representation-choice, transfer or reliance question remains unresolved.
+- If the question is a relation among local system-role kinds, use `A.2.7`; if it is classification, assignment, or a participation relation, state that fact through its own pattern and predicate. Send unresolved claim-bearing “role” wording through `E.10.ROLE`. Use the Method patterns for method relation structure and `C.29` when a separate mathematical representation-choice, transfer or reliance question remains unresolved.
 - If the question is performed-work occurrence parts, use `A.15.1`.
 - If the question is whole reidentification or emergence-family wording, use `B.2` or `B.2.P`.
 

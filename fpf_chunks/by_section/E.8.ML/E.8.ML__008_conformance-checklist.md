@@ -6,12 +6,12 @@ section_id: "E.8.ML:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8.ML/E.8.ML__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.8.ML — Construct a Pattern Language for Connected Methods"
   - "E.8.ML:7 — Conformance Checklist"
-line_start: 97832
-line_end: 97841
+line_start: 103355
+line_end: 103364
 dependencies:
   - "A.3.2.DE"
   - "B.1.5"
@@ -32,5 +32,5 @@ keywords:
 - Each material relation states what it changes in use and retains its own governing basis.
 - Direct descriptions and sufficient existing entries remain available.
 - The whole/profile account explains shared conditions and reasons without replacing the full bodies.
-- Reconstruction and changed-condition use can return a localized failure or an honest wider gap.
+- Reconstruction and changed-condition use can return a localized failure or a wider gap.
 

@@ -6,12 +6,12 @@ section_id: "G.10:8.1"
 section_title: "Anti‑patterns and remedies"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.10/G.10__010_anti-patterns-and-remedies.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.10 — SoTA Pack Shipping"
   - "G.10:8.1 — Anti‑patterns and remedies"
-line_start: 132052
-line_end: 132062
+line_start: 140133
+line_end: 140143
 dependencies:
   - "A.10"
   - "A.15.3"
@@ -62,5 +62,5 @@ keywords:
 * **AP-5 Missing required PathSlice key.** Remedy: enforce PathSlice‑keyed telemetry and path citations (`G.10‑5`, `G.10‑6`).
 * **AP‑6 Cross-context reuse without its required grounds or anchors.** Remedy: cite the actual relation and the receiving-use and reliance grounds required by its governor; include calibration and policy pins when that account requires them. For an independently applicable `E.18` flow crossing or `A.21` gate, expose its required bundle or gate anchors and fail on missing or non-conformant ones (`CC‑G10.7`, `CC‑GCORE‑CROSS‑1`).
 * **AP‑7 Interop ingestion rewrites semantics.** Remedy: ingest interop as cited notes only; semantics remain in `G.13` (`G.10‑7`, `G.10:Ext.InteropCitation`).
-* **AP‑8 Derived-view collapse.** Remedy: ship `sourceSetFamily`, `derivedViewKind`, `basePaletteRef`, and the declared `Q` or reachability basis with enough explicitness that one derived tradition view cannot masquerade as the default palette meaning.
+* **AP‑8 Derived-view collapse.** Remedy: ship `sourceSetFamily`, `derivedViewKind`, `basePaletteRef`, and the declared `Q` or reachability basis so the reader can distinguish the derived view from its base palette.
 

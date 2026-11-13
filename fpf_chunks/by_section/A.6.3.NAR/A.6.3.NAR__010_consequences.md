@@ -6,12 +6,12 @@ section_id: "A.6.3.NAR:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.NAR/A.6.3.NAR__010_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.3.NAR — Structure-to-Narrative Rendering"
   - "A.6.3.NAR:9 — Consequences"
-line_start: 19678
-line_end: 19694
+line_start: 20551
+line_end: 20567
 dependencies:
   - "A.10"
   - "A.22.CGUS"
@@ -48,7 +48,7 @@ Positive consequences:
 - A reader receives a usable sequence before formal identity work is required.
 - Selection, ordering, connective additions, loss, and return remain inspectable.
 - Exact episteme identity and source dependencies remain available when the receiving claim needs them.
-- Human-authored and generated narratives face the same source-comparison boundary without pretending that their production histories are the narrative relation.
+- Human-authored and generated narratives face the same source-comparison boundary; their production histories remain separate from the narrative relation.
 - Domain narrative conventions can be used without confusing them with FPF Core kinds.
 
 Costs and trade-offs:

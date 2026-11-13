@@ -6,12 +6,12 @@ section_id: "A.6.B:4"
 section_title: "Solution — the Boundary Norm Square"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__006_solution-the-boundary-norm-square.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:4 — Solution — the Boundary Norm Square"
-line_start: 14710
-line_end: 14763
+line_start: 15165
+line_end: 15218
 dependencies:
   - "A.10"
   - "A.2.3"
@@ -48,7 +48,7 @@ keywords:
   - "The key words MUST"
   - "accountable norms and grants"
   - "actual exercise"
-  - "an individual-duty D- claim MUST name its actual bearer and exact separately obtaining U.Commitment"
+  - "an individual-duty D- claim MUST name its actual bearer and separately obtaining U.Commitment"
   - "and SHALL have their RFC 2119/8174 meanings only when capitalized as shown"
   - "and evaluated results distinct"
   - "as if it were an agent obligation"
@@ -78,22 +78,22 @@ keywords:
 
 #### A.6.B:4.1 - Four claim jobs and their grounds
 
-The **Boundary Norm Square** distinguishes four jobs in a boundary account. A definition can remain fixed while a gate changes; a duty can obtain while its bearer fails to perform it. An earlier observation may still be valid evidence when a changed admission condition leads to refusal. Establish the observation’s fitness for the new check, then apply that condition to decide admission. Keeping those claims distinct makes their actual dependencies available for a change or audit decision.
+The **Boundary Norm Square** distinguishes four jobs in a boundary account. A definition can remain fixed while a gate changes; a duty can obtain while its bearer fails to perform it. An earlier observation may still be valid evidence when a changed admission condition leads to refusal. Establish the observation’s fitness for the new check, then apply that condition to decide admission. Keeping those claims distinct makes their dependencies available for a change or audit decision.
 
-Classify what the exact sentence asserts, then establish its grounds. For example, a declared entry predicate belongs in A and the result of applying it to one request belongs in E. A claim that a grant currently permits an action belongs in D; the instituting act, an evaluation of that grant and an actual exercise of it have their own E claims. The predicate definition and the individual claims remain description content, with different subjects and adjudication conditions.
+Classify what the sentence asserts, then establish its grounds. For example, a declared entry predicate belongs in A and the result of applying it to one request belongs in E. A claim that a grant currently permits an action belongs in D; the instituting act, an evaluation of that grant and an actual exercise of it have their own E claims. The predicate definition and the individual claims remain description content, with different subjects and adjudication conditions.
 
 #### A.6.B:4.2 — The square
 
 | Quadrant | Job of the claim | What settles it |
 | --- | --- | --- |
 | **L — Laws & Definitions** | Defines vocabulary, a semantic constraint, invariant or typing rule. | The declared definition or assumptions and the corresponding inspection, proof, type validation or model reasoning. |
-| **A — Admissibility & Gates** | Declares the condition for a named action or application to be admitted. | The exact admission rule and its input meanings. A particular satisfaction or admission-decision result is a separate E claim. |
-| **D — Deontics & Commitments** | States generic normative content or a claim about an individual duty or grant. | The exact normative source for generic content; the subject pattern's constitutive conditions and actual basis for an individual relation. |
+| **A — Admissibility & Gates** | Declares the condition for a named action or application to be admitted. | The admission rule and its input meanings. A particular satisfaction or admission-decision result is a separate E claim. |
+| **D — Deontics & Commitments** | States generic normative content or a claim about an individual duty or grant. | The normative source for generic content; the subject pattern's constitutive conditions and actual basis for an individual relation. |
 | **E — Work‑Effects & Evidence** | Reports an occurrence, evaluated finding, observed condition or evidence support. | The actual facts and subject-specific conditions for that claim, with evidence support when the receiving use requires it. |
 
 **Clarification (classify the claim by its job, not by its subject pattern).**
 
-* Classify the exact atomic claim by what its sentence states and by the conditions that let a reader decide it.
+* Classify the atomic claim by what its sentence states and by the conditions that let a reader decide it.
 * The pattern governing the referenced object supplies its predicate and obtaining conditions; it does not choose the claim's quadrant.
 * When permission wording is present, use the single permission-word branch in §8.4.1. It separates the possible jobs of that wording without inventing a common “permission result” kind.
 
@@ -120,11 +120,11 @@ Start with the boundary passage, its available sources and the reader's question
 
 **2. Establish the grounds of the answer.** Split independently asserted jobs and classify them through §§4.1–4.3. Use the detailed procedure and conditional permission-word branch in §8.4.1 where needed. Recover the definition for a meaning claim, the declared predicate for an entry condition, the normative or constitutive basis for a duty or grant, and the facts for an occurrence or finding. Preserve the source's conditions and qualifications. A missing ground requires a targeted return to the source or the responsible practice. If the work calls for a new rule or commitment, develop and establish it through its governing practice before treating it as current boundary content.
 
-**3. Select the claims and detail on which the reader's answer depends.** Work backward from that answer. A reported measurement needs its quantity, population, conditions and interpretation; judging fulfilment of a commitment additionally needs that commitment and its comparison rule. Follow such dependencies until the remaining premises are supplied by the text or by references the intended reader can obtain and understand. Use §6 for their actual relations. Include a detail when changing it could change the answer, when it explains why a step follows, or when the reader needs it to perform the stated use. A complete four-quadrant account is warranted when the question actually crosses all four jobs. Keep other valid claims in their canonical sources for their own uses.
+**3. Select the claims and detail on which the reader's answer depends.** Work backward from that answer. A reported measurement needs its quantity, population, conditions and interpretation; judging fulfilment of a commitment additionally needs that commitment and its comparison rule. Follow such dependencies until the remaining premises are supplied by the text or by references the intended reader can obtain and understand. Use §6 for their relations. Include a detail when changing it could change the answer, when it explains why a step follows, or when the reader needs it to perform the stated use. A complete four-quadrant account is warranted when the question crosses all four jobs. Keep other valid claims in their canonical sources for their own uses.
 
 **4. Compose the explanation around that reasoning.** State the answer in the reader's working terms, connect its supporting claims, and make the conditions that limit its use recoverable. Place a definition beside the claim that needs it and an observation beside the inference it supports. IDs or canonical locations preserve material dependencies under §6.1; the accompanying explanation supplies their meaning for this reader. Use a Claim Register or separate Tech and Plain forms when the reuse or publication conditions call for them. Selection and recomposition preserve the source claims; a new semantic constraint first needs its own canonical claim.
 
-**5. Return the text to the reader's work.** Follow the intended interpretation or decision using the explanation. Identify any consequential premise the reader would still have to invent, obtain that premise or state the precise unresolved question, and revise the affected connection. Consider a relevant change of condition: show which claim must be reconsidered and which grounds remain usable. Stop when the text supports the assigned understanding or decision with its actual limits. A later question can require a different selection from the same canonical claims.
+**5. Return the text to the reader's work.** Follow the intended interpretation or decision using the explanation. Identify any consequential premise the reader would have to invent, obtain that premise or state the precise unresolved question, and revise the affected connection. Consider a relevant change of condition: show which claim must be reconsidered and which grounds remain usable. Stop when the text supports the assigned understanding or decision with its limits. A later question can require a different selection from the same canonical claims.
 
 The cases in §8.4 show these authoring choices. Their claims about latency, coaxiality and project entry are the material being explained; the reusable operation is selecting and connecting that material for a reader's question.
 

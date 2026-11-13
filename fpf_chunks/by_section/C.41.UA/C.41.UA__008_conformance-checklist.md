@@ -6,12 +6,12 @@ section_id: "C.41.UA:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.UA/C.41.UA__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.41.UA — Use a Checklist to Answer Questions and Act on the Results"
   - "C.41.UA:7 — Conformance Checklist"
-line_start: 89618
-line_end: 89627
+line_start: 93886
+line_end: 93895
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -26,7 +26,7 @@ keywords:
 
 For the answers on this occasion, ask:
 
-- Is each answer bound to the actual subject, criterion and relevant conditions?
+- Is each answer bound to the subject, criterion and relevant conditions?
 - Do its grounds settle that question, including when an earlier result is reused?
 - Are No, unknown, not checked and inapplicability interpreted without changing the subject claim?
 - Are observation, entry, performed change and any decision kept distinguishable?

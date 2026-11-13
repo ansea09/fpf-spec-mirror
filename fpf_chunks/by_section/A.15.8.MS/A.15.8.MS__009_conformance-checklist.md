@@ -6,12 +6,12 @@ section_id: "A.15.8.MS:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.8.MS/A.15.8.MS__009_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.15.8.MS — Configure Methodological Support for Work"
   - "A.15.8.MS:7 — Conformance Checklist"
-line_start: 32191
-line_end: 32208
+line_start: 33497
+line_end: 33514
 dependencies:
   - "A.15.8"
   - "A.19"
@@ -23,18 +23,18 @@ keywords:
 ### A.15.8.MS:7 - Conformance Checklist
 
 - [ ] The bounded task set identifies each named user and action, material or aid, mandatory or optional criterion and needed observation; receiving Work or decision, use relation, time qualification and stop are included where they change the task or its admissible result.
-- [ ] Human, automated, biological, organizational, computational, and mixed users remain possible; performer, capability, permission, and authority claims use their direct governors.
-- [ ] In the direct branch, the complete one-result/one-use selection, material loss and direct receiving result remain usable. A later receiving need gets its complete basis once in the owner; an immediate answer needs no new C.37.MP row, standalone C.37 account or omission record.
-- [ ] In the profile branch, every consuming action recovers one complete row with its embedded C.37 claim group, required Method claims, direct governed result, applicable evidence/reliance layers, receiving result, exposure and loss, status boundary, disposition, and return.
+- [ ] Human, automated, biological, organizational, computational, and mixed users remain possible; performer, capability, permission, and authority claims use the patterns governing them.
+- [ ] In the direct branch, the complete one-result/one-use selection, material loss and receiving result remain usable. A later receiving need gets its complete basis once in the owner; an immediate answer needs no new C.37.MP row, standalone C.37 account or omission record.
+- [ ] In the profile branch, every consuming action recovers one complete row with its embedded C.37 claim group, required Method claims, governed result, applicable evidence/reliance layers, receiving result, exposure and loss, status boundary, disposition, and return.
 - [ ] The same branch also recovers one C.37.MP cross-use result that names the shared Method source, correspondences, conflicting omissions, edition relations, keep-separate decisions, and changes that reopen several rows. Row colocation is not that result.
 - [ ] Neither C.37, an action row, nor the C.37.MP cross-use result is treated as selecting the support configuration, admitting a Method, publishing material, establishing access, capability, authority, Work, or task success.
-- [ ] Every configuration actually compared is assessed against the same task set and applicable stops, burdens, risks, cross-task effects and evidence qualifications.
+- [ ] Every configuration compared is assessed against the same task set and applicable stops, burdens, risks, cross-task effects and evidence qualifications.
 - [ ] Observed pass, observed failure, untested, feature-level insufficiency, missing information, and an unresolved use-bounded row are not substituted for one another.
 - [ ] A sufficient direct route has supported mandatory task coverage, acceptable burden and respected stops; it makes no smallest-or-best claim. A comparative singleton has its declared comparison and selection basis; unresolved comparison preserves candidates, abstention, a split boundary, or a missing priority or test.
 - [ ] A simple task uses the cheap branch; configuration or recovery testing reuses A.15.8, and non-trivial comparison or selection reuses A.19 rather than copying their kernels.
-- [ ] Project, user, provider, repository, tool, and automation Systems and their access, assignment, permission, authority, capability, publication, direct-use, Work, and task-result facts remain separate.
+- [ ] Project, user, provider, repository, tool, and automation Systems and their access, assignment, permission, authority, capability, publication, direct System-use, Work, and task-result facts remain separate.
 - [ ] A curated collection has a project or namespace, purpose, current rule, identified membership predicates, edition policy, and return conditions.
-- [ ] An A.22 selected-structure result has all four actual identity discriminators for the named use; any unresolved required value retains its A.22-qualified result. A proposal may remain a proposal. A claimed dated selection Work has its separate performance basis.
-- [ ] Each positive task result rests on observed performance and the direct relations actually used. Any claimed dated Work has its independent A.13 and A.15.1 basis; assignment-bound attribution additionally uses F.6.
+- [ ] An A.22 selected-structure result has all four identity discriminators for the named use; any unresolved required value retains its A.22-qualified result. A proposal may remain a proposal. A claimed dated selection Work has its separate performance basis.
+- [ ] Each positive task result rests on observed performance and the relations used. Any claimed dated Work has its independent A.13 and A.15.1 basis; assignment-bound attribution additionally uses F.6.
 - [ ] Provider or AI use, review, feedback, capability, fit, effectiveness, transfer, and authority are claimed only when their own facts obtain.
 

@@ -6,12 +6,12 @@ section_id: "C.39.WA:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.WA/C.39.WA__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.39.WA — Develop an Account of the Whole Subject"
   - "C.39.WA:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 83394
-line_end: 83403
+line_start: 87447
+line_end: 87456
 dependencies:
   - "C.20"
   - "C.39.QR"
@@ -26,7 +26,7 @@ keywords:
 | --- | --- |
 | A correct example is accepted as the requested field account. | Restore the original subject, retain the example and develop the missing general construction. |
 | Author, reviewer and coordinator use the same reduced question. | Independently recover the expected subject before relying on the candidate's outline or verdict. |
-| A relation is inferred from a shared word such as “level” or “part.” | Recover the actual participants, direction and governing relation. |
+| A relation is inferred from a shared word such as “level” or “part.” | Recover the participants, direction and governing relation. |
 | The checklist is complete but its detected repair remains only proposed. | Perform the content repair and reconsider the affected conclusion. |
 | A reader supplies the missing explanation from expertise. | Identify that contribution and make it accessible under the promised reader conditions. |
 

@@ -6,12 +6,12 @@ section_id: "G.6:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.6/G.6__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.6 — Evidence Graph and Provenance Ledger: Citable Evidence-Provenance Paths"
   - "G.6:2 — Problem"
-line_start: 129935
-line_end: 129947
+line_start: 137987
+line_end: 137999
 dependencies:
   - "A.10"
   - "A.10.1"
@@ -59,7 +59,7 @@ keywords:
 
 ### G.6:2 - Problem
 
-Large projects often need to cite a chain that crosses measurement, evaluation, aggregation, production, publication, and later use. The chain becomes unsafe when the graph is allowed to supply facts missing from the governed objects.
+Large projects often need to cite a chain that crosses measurement, evaluation, aggregation, production, publication, and later use. Relying on the chain can lead to a wrong conclusion if a reader takes the graph as grounds for a fact that its subject rule has not established.
 
 The common failures are:
 

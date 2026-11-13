@@ -6,12 +6,12 @@ section_id: "A.16.1:14"
 section_title: "Authoring and Practitioner Checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__015_authoring-and-practitioner-checks.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.16.1 — PreArticulationCuePack: Preserve an Early Cue Before Choosing Its Use"
   - "A.16.1:14 — Authoring and Practitioner Checks"
-line_start: 34037
-line_end: 34057
+line_start: 35517
+line_end: 35537
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -41,10 +41,10 @@ keywords:
 #### A.16.1:14.1 - Author prompt
 A cue pack should answer four questions:
 
-- what exactly is being preserved?
+- what is being preserved?
 - why is it worth preserving now rather than losing it?
 - which witness or anchor carries the preservation need, or which grounds are jointly essential?
-- which downstream directions, if any, are already visible without pretending that a route has been selected?
+- which downstream directions, if any, are already visible without implying that a route has been selected?
 
 #### A.16.1:14.2 - Practitioner check
 A practitioner should check:

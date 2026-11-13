@@ -6,12 +6,12 @@ section_id: "C.11.DBR:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.DBR/C.11.DBR__006_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.11.DBR — Reconsider a Decision When Its Relied-on Basis Changes"
   - "C.11.DBR:5 — Archetypal Grounding"
-line_start: 57723
-line_end: 57757
+line_start: 60059
+line_end: 60097
 dependencies:
   - "A.10"
   - "A.10.1"
@@ -31,13 +31,17 @@ keywords:
 
 A team chose arrangement A for one recurring report. Its recorded comparison expected two hours of preparation instead of six under arrangement B, for the same report content and weekly volume. A also needs one hour of support per report; B needs none. A separate decision requires that the report still be delivered each Friday. The rollout of A was completed. The first later dashboard reports six hours of preparation for A, and somebody proposes reversing the whole change.
 
-Recovering the basis separates the expected saving from the Friday obligation and from the completed rollout. Inspecting the dashboard then reveals that it combines two reports; the earlier comparison concerned one. Six is not yet a comparable observation. The useful answer is the precise scope mismatch, with the delivery obligation and rollout history preserved. No causal or reversal conclusion follows.
+Recovering the basis separates the expected saving from the Friday obligation and from the completed rollout. Inspecting the dashboard then reveals that it combines two reports; the earlier comparison concerned one. Six is not yet a comparable observation. The useful answer is the scope mismatch, with the delivery obligation and rollout history preserved. No causal or reversal conclusion follows.
 
 **Change the evidence.** A corrected, qualified observation now establishes five hours for the same content and volume. The current decision rule requires at least two hours of total effort saving relative to B, including A's support burden; all other relevant conditions are stipulated unchanged. A now requires six hours in total and supplies no saving, so it fails that condition. This challenges continued reliance on the expected saving, but does not establish why the shortfall occurred.
 
-The reconsideration statement names that difference, preserves Friday delivery and the rollout history, and supplies the responsible manager with the available alternatives. Suppose a supported adjustment C is available at three preparation hours plus one support hour, and satisfies the unchanged delivery and quality constraints. Its total is four hours; A and B now each require six. Under the stipulated preference for lower total effort, C.11 can choose C without another study of A's cause. The manager's actual choice, any necessary plan revision and the later performance of C are separate results. If the manager has not decided, the analyst returns the comparison and recommendation, not an implemented change.
+The reconsideration statement names that difference, preserves Friday delivery and the rollout history, and supplies the responsible manager with the available alternatives. Suppose a supported adjustment C is available at three preparation hours plus one support hour, and satisfies the unchanged delivery and quality constraints. Its total is four hours; A and B now each require six. Under the stipulated preference for lower total effort, C.11 can choose C without another study of A's cause.
 
-**Change the observation instead.** Had the qualified observation been three preparation hours for A with its other conditions unchanged, its four total hours would provide the required two-hour saving. Preserve the earlier choice for this use; the fact that three differs from the original estimate of two does not require a new choice. If C was already a serious available improvement, comparing it would be a separate live opportunity, not proof that the original basis had failed.
+The manager's actual choice, any necessary plan revision and the later performance of C are separate results. If the manager has not decided, the analyst returns the comparison and recommendation, not an implemented change.
+
+**Change the observation instead.** Had the qualified observation been three preparation hours for A with its other conditions unchanged, its four total hours would provide the required two-hour saving. Preserve the earlier choice for this use; the fact that three differs from the original estimate of two does not require a new choice.
+
+If C was already an available improvement, comparing it would be a separate live opportunity, not proof that the original basis had failed.
 
 #### C.11.DBR:5.2 - A model remains valid for one use
 
@@ -51,10 +55,10 @@ The model file need not have changed. A.10.1 would be appropriate for a differen
 
 | Situation | Use of the common preparation and direct continuation |
 | --- | --- |
-| A market observation weakens a growth assumption but leaves a separately grounded commitment intact. | A strategic follow-up Method can localize the affected premise, preserve independently grounded commitments and connect the signal to a strategic continuation or reconsideration, using the actual choice or commitment and its required evidence and authority. An analyst's recommendation remains distinct from the Board's choice. Use this direct continuation when sufficient; a common overview can cite its results without repeating or replacing it. |
+| A market observation weakens a growth assumption but leaves a separately grounded commitment intact. | A strategic follow-up Method can localize the affected premise, preserve independently grounded commitments and connect the signal to a strategic continuation or reconsideration, using the choice or commitment and its required evidence and authority. An analyst's recommendation remains distinct from the Board's choice. Use this direct continuation when sufficient; a common overview can cite its results without repeating or replacing it. |
 | A retrofit is complete but the expected service outcome is absent. | Use the asset-management Method to compare the realized outcome with the asset-decision premises; the completed intervention remains history. For organization change, use the applicable Methods for the consequence account and any authorized revision. Use these direct Methods when they already supply the needed whole. |
 | Practice evidence changes an explanation of development or transfer. | Use the capability-development revision Method to obtain a bounded development hypothesis. A continuing-arrangement choice uses that input under its own Method; a hypothesis alone does not change the arrangement. |
-| A follow-up analyst recommends adjustment. | A decision-follow-up Method can supply the complete affordable return. Keep the absent authority-held decision explicit without wrapping its sufficient Method in a second account. |
+| A follow-up analyst recommends adjustment. | A decision-follow-up Method can supply the complete affordable return. Keep the absent authority-held decision explicit; the sufficient Method needs no second account. |
 | A current robotic-maintenance cue already determines the next-action question under the enacted Method. | Use A.15.7 directly. Reconstruct an older recommendation only if a distinct reliance question remains. |
 | A changed source has partly unknown engineering or finance consumers. | Use A.10.1 with the applicable engineering or finance Method to discover the affected consumers and reconsider their reliance. A sufficient subject result needs no further C.11.DBR pass. |
 

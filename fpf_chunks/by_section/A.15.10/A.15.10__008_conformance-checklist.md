@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.15.10"
-pattern_title: "Resume Interrupted Work"
+pattern_title: "Resume Work"
 section_id: "A.15.10:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.10/A.15.10__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.15.10 — Resume Interrupted Work"
+  - "A.15.10 — Resume Work"
   - "A.15.10:7 — Conformance Checklist"
-line_start: 32573
-line_end: 32583
+line_start: 33905
+line_end: 33915
 dependencies:
   - "A.15"
   - "A.15.5"
@@ -36,5 +36,5 @@ keywords:
 - Changed conditions reopen only affected reliance; an old record is not treated as a current observation.
 - Missing capability, access or authority remains a missing contribution.
 - Preparation and reporting are omitted when ordinary continuation already suffices.
-- The result is useful continuation, a warranted change of direction or a specific blocker.
+- The result is useful continuation, a warranted change of direction or a blocker.
 

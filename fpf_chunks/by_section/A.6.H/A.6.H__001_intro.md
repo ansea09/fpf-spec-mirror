@@ -6,12 +6,12 @@ section_id: "A.6.H:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.H/A.6.H__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.H — Wholeness Language Unpacking — RPR-WHOLE"
   - "A.6.H:intro — Intro"
-line_start: 25158
-line_end: 25175
+line_start: 26079
+line_end: 26096
 dependencies:
   - "A.1"
   - "A.10"
@@ -64,17 +64,17 @@ keywords:
 
 > **Type:** Relational-precision specialization
 > **Status:** Stable
-> **Normativity:** Normative unless explicitly marked informative
+> **Normativity:** Normative unless marked informative
 
-**At a glance.** Use A.6.H when words such as *whole*, *part*, *integrity*, *complete*, *turnkey*, or *end-to-end* hide the exact object or relation on which a decision depends.
+**At a glance.** Use A.6.H when words such as *whole*, *part*, *integrity*, *complete*, *turnkey*, or *end-to-end* hide the object or relation on which a decision depends.
 
-**Use this when.** Enter after A.6.P:4.11 has recovered the concrete candidate objects and the sentence needed by the receiving use, and that sentence genuinely asks about a whole, part, structure, integrity, coverage, or completion. A.6.H helps the practitioner expose the candidate whole or other bearer, its boundary when relevant, the independently identified parts or constituents, and the exact direct claim together with the rule that defines, constrains, or tests it.
+**Use this when.** Enter after A.6.P:4.11 has recovered the candidate objects and the sentence needed by the receiving use, and that sentence asks about a whole, part, structure, integrity, coverage, or completion. A.6.H helps the practitioner expose the candidate whole or other bearer, its boundary when relevant, the independently identified parts or constituents, and the direct claim together with the rule that defines, constrains, or tests it.
 
 **Not this pattern when.** Do not enter merely because a source contains a trigger word. Use `A.17` or the applicable subject rule for a Characteristic or constraint, `C.16` for a measurement, and `C.16.P` while characteristic or scale wording remains unresolved. Evidence-use and assurance questions follow §6. Use `C.2.1` for episteme identity or edition, `E.17`/`E.24.PUB` for publication, and the applicable A.3/A.15 rule for Method, WorkPlan, or Work. Keep using A.6.P when the candidate objects or the receiving sentence are still unknown.
 
 **What goes wrong if missed.** A situation record, diagram, bundle, adjective, phase label, or coverage slogan becomes the supposed whole or relation. Parts, members, portions, phases, method factors, Work parts, evidence, and measured characteristics are then silently treated as one generic “part of” claim.
 
-**What this buys.** A short identity-first repair from overloaded prose to one or more direct claims with exact participants and, when needed, PatternID locators for their definitions or tests—or to an explicit blocker when a needed predicate is absent.
+**What this buys.** A short identity-first repair from overloaded prose to one or more direct claims with participants and, when needed, PatternID locators for their definitions or tests—or to an explicit blocker when a needed predicate is absent.
 
 **What changes in practice.** The practitioner writes the few direct sentences the next decision consumes: which entity, which relation and participants, and which rule defines or tests the claim. Add a blocked-inference guard only when its rejected reading has an independent local ground, is plausible for the intended reader, and changes truth, understanding or use; use the smallest clear correction under F.19.
 

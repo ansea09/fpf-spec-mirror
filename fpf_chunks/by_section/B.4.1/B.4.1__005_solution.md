@@ -6,12 +6,12 @@ section_id: "B.4.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4.1/B.4.1__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.4.1 — Publish Candidate Routes for a Stabilized Cue (RoutedCueSet)"
   - "B.4.1:4 — Solution"
-line_start: 46000
-line_end: 46077
+line_start: 47896
+line_end: 47983
 dependencies:
   - "A.15"
   - "A.16"
@@ -34,7 +34,7 @@ keywords:
 ---
 
 ### B.4.1:4 - Solution
-After cue stabilization, make the candidate continuations and any selected route explicit. Keep downstream claims under their subject patterns. The optional route follows this sequence:
+After cue stabilization, state the candidate continuations and any selected route. Keep downstream claims under their subject patterns. The optional route follows this sequence:
 
 `Observe -> Notice -> Stabilize -> Route`
 
@@ -48,11 +48,11 @@ The route publication should identify:
 - the **selected route**, if any,
 - the **grounds for each live route**,
 - any **conditions that would change the candidate set or its selection**,
-- and any **typed downstream publication** already published.
+- and any published **typed downstream publication**.
 
-This keeps later handoff reviewable while leaving downstream claims and results under their applicable subject patterns.
+This keeps later handoff reviewable while leaving downstream claims and results under their subject patterns.
 
-For specialization-sensitive routes, make explicit the declared task family or utility target, any budget condition that qualifies the proposed continuation, any unresolved fact needed for its use or selection, and the downstream subject pattern with its entry conditions.
+For specialization-sensitive routes, state the declared task family or utility target, any budget condition that qualifies the proposed continuation, any unresolved fact needed for its use or selection, and the downstream subject pattern with its entry conditions.
 
 #### B.4.1:4.1 - `RoutedCueSet` shape
 A conforming routed cue set may publish:
@@ -70,18 +70,22 @@ A conforming routed cue set may publish:
 - `scope?`
 - `GammaTime?`
 
-`RoutedCueSet` is not itself the late endpoint. `articulationThresholdStatus` and `closureStatus` report guard state only; their governance remains with `C.2.4` and `C.2.5`, and route discrimination may additionally cite `C.2.6` or `C.2.7` when source or use conditions or representation-factor differences affect the route choice.
+`RoutedCueSet` is not the late endpoint. `articulationThresholdStatus` and `closureStatus` report guard state only; their governance remains with `C.2.4` and `C.2.5`, and route discrimination may cite `C.2.6` or `C.2.7` when source or use conditions or representation-factor differences affect the route choice.
 
-`candidateRouteSet` is the load-bearing core here. `routeDecision`, `selectedRoute`, `routeRationale`, and `routeSelectionStatus` belong here when route selection is explicit. They do **not** belong in `PreArticulationCuePack`. The status reports which candidate routes remain live and any selection made; endpoint admission, publication availability, current use or retirement, and any actual authority relation remain separate claims under A.16 and their direct patterns. Use `sourceCuePackRef` when the originating early form is a cue pack; otherwise identify the equivalent early form and the stabilized cue it preserves.
+`candidateRouteSet` is the core here. `routeDecision`, `selectedRoute`, `routeRationale`, and `routeSelectionStatus` belong here when route selection is stated. They do **not** belong in `PreArticulationCuePack`.
 
-`publicationFaceRefs` names MVPK faces only when face typing matters for publication or review. Faces are renderings of the routed cue set or of later typed projection publications; they are not the route-bearing form itself.
+The status reports which candidate routes remain live and any selection made; endpoint admission, publication availability, current use or retirement, and any authority relation remain separate claims under A.16 and their patterns.
 
-One `RoutedCueSet` can describe several candidate routes. A lineage fork requires distinct successor epistemes or project records under their applicable identity and lineage rules. Use `C.2.1` for episteme identity; publication availability remains separate under `E.24.PUB`.
+Use `sourceCuePackRef` when the originating early form is a cue pack; otherwise identify the equivalent early form and the stabilized cue it preserves.
+
+`publicationFaceRefs` names MVPK faces only when face typing matters for publication or review. Faces are renderings of the routed cue set or of later typed projection publications; they are not the route-bearing form.
+
+One `RoutedCueSet` can describe several candidate routes. A lineage fork requires distinct successor epistemes or project records under their identity and lineage rules. Use `C.2.1` for episteme identity; publication availability remains separate under `E.24.PUB`.
 
 #### B.4.1:4.2 - Starter route family and conditional extension species
 The candidate route set may contain, among others:
 
-- starter canonical routes:
+- starter routes:
   - `EvaluativeRoute`
   - `ActionInvitationRoute`
   - `ProblemAbductionRoute`
@@ -94,20 +98,26 @@ The candidate route set may contain, among others:
   - `SubstrateDiversificationRoute`
 
 ##### B.4.1:4.2.1 - Specialization-sensitive extension route family
-These four routes are not part of the starter canonical core. Use them only when the cue already carries explicit bounded-specialization pressure, corridor-entry pressure, or substrate-fit doubt that subject patterns must be able to recover by value.
+These four routes are not part of the starter core. Use them only when the cue carries explicit bounded-specialization pressure, corridor-entry pressure, or substrate-fit doubt that subject patterns must be able to recover by value.
 
-Use `TaskFamilySpecializationRoute` when the cue points toward acquiring one narrower higher-fit specialist lane for one declared task family under budget, where that lane may later resolve into one specialist method, portfolio, or competence bundle. Use `AdaptationProbeRoute` when the next question is whether threshold-reaching specialization is attainable under the current budget. Use `NonHumanUtilityRoute` when the cue suggests a promising utility target outside the current human-default solution corridor but still tied to one declared task family or utility target. Use `SubstrateDiversificationRoute` when the cue raises a question about whether the current method substrate, or a broader or different one, can meet the declared task or utility target.
+Use `TaskFamilySpecializationRoute` when the cue points toward acquiring one narrower higher-fit specialist lane for one declared task family under budget, where that lane may later resolve into one specialist method, portfolio, or competence bundle.
+
+Use `AdaptationProbeRoute` when the next question is whether threshold-reaching specialization is attainable under the current budget.
+
+Use `NonHumanUtilityRoute` when the cue suggests a promising utility target outside the current human-default solution corridor but tied to one declared task family or utility target.
+
+Use `SubstrateDiversificationRoute` when the cue raises a question about whether the current method substrate, or a broader or different one, can meet the declared task or utility target.
 
 Contexts may refine the route family locally, but they shall keep the distinction between early route publication and endpoint governance.
 
 #### B.4.1:4.3 - Projection discipline
-Here `projection` names route-bounded partialization. The resulting content must be published in a **typed publication form**, rendered, when needed, on an existing MVPK face. The applicable subject pattern governs the downstream claim.
+Here `projection` names route-bounded partialization. The resulting content must be published in a **typed publication form**, rendered, when needed, on an existing MVPK face. The subject pattern governs the downstream claim.
 
 A routed cue set may support these continuations:
 
 - publish `U.AbductivePrompt` under `B.5.2.0`,
-- apply `A.6.P`, `A.6.A`, or `C.16.Q` under its own entry conditions and produce the sentence, record, or other result that the selected pattern calls for,
+- apply `A.6.P`, `A.6.A`, or `C.16.Q` under its entry conditions and produce the sentence, record, or other result that the selected pattern calls for,
 - or publish another explicitly typed upstream projection.
 
-For a proposed downstream projection, if no applicable typed publication form can yet be identified, keep the content in `RoutedCueSet`; an MVPK face alone supplies no such form.
+For a proposed downstream projection, if no applicable typed publication form can be identified, keep the content in `RoutedCueSet`; an MVPK face supplies no such form.
 

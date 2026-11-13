@@ -6,12 +6,12 @@ section_id: "C.39.RP:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.RP/C.39.RP__003_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.39.RP — Organize a Repertoire for Method Development"
   - "C.39.RP:1 — Problem Frame"
-line_start: 84176
-line_end: 84181
+line_start: 88331
+line_end: 88336
 dependencies:
   - "A.3.1.DR"
   - "A.3.1.MR"
@@ -26,5 +26,5 @@ keywords:
 
 A project rarely receives a clean inventory of Methods. It receives old procedure editions, package sections, conference descriptions, local checklists, tool configurations, retrospective accounts, and claims that one practice “came from” another. The most familiar names can hide the best-supported contribution, while a well-stocked repository can hide a decisive gap.
 
-Method Engineering sources encourage reuse from method bases and situational construction. Engineering-design sources add intended use, representation, procedure, tool, and ecosystem questions. Those source lines improve search and recovery, but their local elements are not automatically FPF kinds. The repertoire must therefore preserve what each source actually contributes while keeping Method, account, description, Work, family, grouping, and lineage claims separate.
+Method Engineering sources encourage reuse from method bases and situational construction. Engineering-design sources add intended use, representation, procedure, tool, and ecosystem questions. Those source lines improve search and recovery, but their local elements are not automatically FPF kinds. The repertoire must therefore preserve what each source contributes while keeping Method, account, description, Work, family, grouping, and lineage claims separate.
 

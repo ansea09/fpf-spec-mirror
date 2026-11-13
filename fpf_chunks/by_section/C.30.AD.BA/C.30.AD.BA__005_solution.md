@@ -6,12 +6,12 @@ section_id: "C.30.AD.BA:2"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD.BA/C.30.AD.BA__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.30.AD.BA — Built-Asset Architecture Description and Reference Designation"
   - "C.30.AD.BA:2 — Solution"
-line_start: 72532
-line_end: 72682
+line_start: 75631
+line_end: 75796
 dependencies:
   - "A.1"
   - "A.10"
@@ -54,23 +54,23 @@ keywords:
 
 ### C.30.AD.BA:2 - Solution
 
-Start with one intended architecture use, not with the available tool outputs. Name the exact built asset and selected A.22 structures that matter. Recover subject-relation occurrences when making actual-relation claims; a proposed arrangement can remain candidate content. Cite an obtaining `ArchitectureRelation` only when its C.30 predicate holds; otherwise keep required, desired, expected, candidate, negative, or unresolved content in a bounded `ArchitectureClaim`.
+Start with one intended architecture use, not with the available tool outputs. Name the built asset and selected A.22 structures that matter. Recover subject-relation occurrences when making actual-relation claims; a proposed arrangement can remain candidate content. Cite an obtaining `ArchitectureRelation` only when its C.30 predicate holds; otherwise keep required, desired, expected, candidate, negative, or unresolved content in a bounded `ArchitectureClaim`.
 
-Constitute each architecture description under C.2.1 about exactly one EntityOfConcern: the built asset, one obtaining `ArchitectureRelation` occurrence, or one exact selected structure. Keep its exact ClaimGraph and effective reference scheme recoverable. The same episteme is a `U.View` only while a separately identified E.17.0 conformance relation to one exact viewpoint episteme obtains. Then recover reference designation, model exchange, source use, representation, publication, and currentness through their own objects and relations.
+Constitute each architecture description under C.2.1 about exactly one EntityOfConcern: the built asset, one obtaining `ArchitectureRelation` occurrence, or one selected structure. Keep its ClaimGraph and effective reference scheme recoverable. The same episteme is a `U.View` only while a separately identified E.17.0 conformance relation to one viewpoint episteme obtains. Then recover reference designation, model exchange, source use, representation, publication, and currentness through their own objects and relations.
 
 For a first use, make the relevant descriptions, structures, reference designations, sources and allowed use recoverable. Ordinary wording is sufficient when it answers the question; stop there. The following record can organize the references when that helps the receiving work:
 
 ```text
 BuiltAssetArchitectureDescriptionUse@Project:
   projectWorkOccurrenceRef?: U.EntityRef constrained to U.Work
-  builtAssetDescriptionProjectUseRelationRef?: U.RelationRef governed by the exact description-use or work-use pattern
+  builtAssetDescriptionProjectUseRelationRef?: U.RelationRef governed by the description-use or work-use pattern
   architectureDescriptionRef: U.EpistemeRef constrained to ArchitectureDescription
   descriptionContentDesignation: C.2.1 ClaimContentDesignation, selecting the whole content of architectureDescriptionRef
   descriptionEntityOfConcernRef:
     exactly one builtAssetRef |
       ArchitectureRelation occurrence ref |
       selected U.Structure ref
-  effectiveReferenceScheme: exact C.2.1 interpretation rules, byValue
+  effectiveReferenceScheme: C.2.1 interpretation rules, byValue
   builtAssetRef: U.HolonRef
   architectureRelationOccurrenceRefs?: FinSet(U.RelationRef)
   architectureClaimRefs?: FinSet(U.EpistemeRef)
@@ -98,13 +98,13 @@ BuiltAssetArchitectureDescriptionUse@Project:
   nonAdmissibleUse?:
 ```
 
-Resolve `descriptionContentDesignation` under C.2.1:4.2.6 to the whole content of the same exact episteme selected by `architectureDescriptionRef`. Its by-value effective scheme must be the rules governing that content, not the rules of a document that merely describes the scheme. A missing or conflicting resolution leaves this use record unresolved; it does not reidentify the asset or establish view conformance.
+Resolve `descriptionContentDesignation` under C.2.1:4.2.6 to the whole content of the same episteme selected by `architectureDescriptionRef`. Its by-value effective scheme must be the rules governing that content, not the rules of a document that merely describes the scheme. A missing or conflicting resolution leaves this use record unresolved; it does not reidentify the asset or establish view conformance.
 
-This is a project-side use record, not a description identity constructor or a new root kind. `@Project` is a compatibility and retrieval cue and establishes no project entity, Work occurrence, authority, context, viewpoint, parthood, or use relation. When the use is genuinely local to one actual project, `projectWorkOccurrenceRef` identifies the exact composite `U.Work`, and `builtAssetDescriptionProjectUseRelationRef` identifies the separately governed obtaining relation by which this description use concerns that Work. Otherwise both remain absent.
+This is a project-side use record, not a description identity constructor or a new root kind. `@Project` is a compatibility and retrieval cue and establishes no project entity, Work occurrence, authority, context, viewpoint, parthood, or use relation. When the use is local to one project, `projectWorkOccurrenceRef` identifies the composite `U.Work`, and `builtAssetDescriptionProjectUseRelationRef` identifies the separately governed obtaining relation by which this description use concerns that Work. Otherwise both remain absent.
 
-`architectureDescriptionRef` resolves to one exact C.2.1 episteme whose identity is the cited ClaimGraph, one exact `descriptionEntityOfConcernRef`, and effective reference scheme. If that EntityOfConcern is the built asset, it is exactly `builtAssetRef`. If it is an architecture-relation occurrence or selected structure, its exact participants or selection trace recover `builtAssetRef` without deriving identity from an optional architecture claim. `architectureClaimRefs` carry bounded claim content or trace only.
+`architectureDescriptionRef` resolves to one C.2.1 episteme whose identity is the cited ClaimGraph, one `descriptionEntityOfConcernRef`, and effective reference scheme. If that EntityOfConcern is the built asset, it is exactly `builtAssetRef`. If it is an architecture-relation occurrence or selected structure, its participants or selection trace recover `builtAssetRef` without deriving identity from an optional architecture claim. `architectureClaimRefs` carry bounded claim content or trace only.
 
-Every value in `architectureStructuralViewRefs` identifies an exact description episteme admitted as `U.View` only through an independently obtaining `EpistemeViewpointConformanceRelation` to one exact viewpoint. It can be the same episteme as `architectureDescriptionRef` only when that description's one EntityOfConcern is the selected structure required by C.30.ASV; otherwise it is a separately identified description episteme connected through an explicit description-set use or correspondence claim or independently obtaining relation. A multi-view use can cite several such description/view epistemes; the use record, collection, file, bundle, list order, or publication creates neither their identities nor their conformance.
+Every value in `architectureStructuralViewRefs` identifies a description episteme admitted as `U.View` only through an independently obtaining `EpistemeViewpointConformanceRelation` to one viewpoint. It can be the same episteme as `architectureDescriptionRef` only when that description's one EntityOfConcern is the selected structure required by C.30.ASV; otherwise it is a separately identified description episteme connected through an explicit description-set use or correspondence claim or independently obtaining relation. A multi-view use can cite several such description/view epistemes; the use record, collection, file, bundle, list order, or publication creates neither their identities nor their conformance.
 
 `claimScope`, architecture concern, empirical grounding, and `modelUseStructureRef` remain neighboring qualifiers or relations. A DDD-style bounded-model-use structure appears only when that independently selected structure changes interpretation or selection for this use. It replaces none of the asset, relation, structure, description, scheme, scope, grounding, viewpoint, Work, or project-use objects and is absent from base identity.
 
@@ -114,28 +114,28 @@ When ISO 19650 contributes to a use, cite the published part and edition and ide
 
 #### C.30.AD.BA:2.1 - Recover the selected structures before combining views
 
-For every included architecture structural view, state the exact candidate description episteme, its selected-structure EntityOfConcern, the architecture concern for which it is used, the exact viewpoint episteme, and the obtaining E.17.0 conformance occurrence. A geometry or coordination model can expose several structures, but the file boundary does not select one structure or grant view membership.
+For every included architecture structural view, state the candidate description episteme, its selected-structure EntityOfConcern, the architecture concern for which it is used, the viewpoint episteme, and the obtaining E.17.0 conformance occurrence. A geometry or coordination model can expose several structures, but the file boundary does not select one structure or grant view membership.
 
 | Encountered description | First recover | Architecture-description use |
 | --- | --- | --- |
-| Spatial model | Spatial containment, placement, access, or separation structure under its direct relation pattern. | Cite the exact description episteme, selected structure, viewpoint, and conformance occurrence for the exact built asset. |
+| Spatial model | Spatial containment, placement, access, or separation structure under its direct relation pattern. | Cite the description episteme, selected structure, viewpoint, and conformance occurrence for the built asset. |
 | Functional or flow model | Required or desired effect claims, functional structure, selected transformation-flow structure, ports, and interfaces under `A.6.F`, `E.18`, or `C.30.TFS-REL`; an actual transformation only under A.3.4. | Keep required content, selected flow organization, actual change, and the description/view use distinct; record correspondence or positive co-reference only when its direct predicate obtains. |
 | Product or equipment model | Module claim or admitted module relation, component, interface, allocation, or placement relations under `A.6.M` and their subject patterns. | Keep the physical asset parts distinct from the description elements, representations, and publications that refer to them. |
-| Control or operational model | Exact selected control structure under `C.30.LCA`, together with direct control, measurement, Work, and currentness relations. | Cite the control description/view without treating live values, a dashboard, or the LCA diagram as architecture adequacy or proof. |
-| Cost, schedule, operation, maintenance, sustainability, or energy view | The exact description episteme and selected structure; then any measurement-result episteme for a claimed Characteristic under `C.16`, operation or maintenance Work under `A.15.1`, positive temporal aspect under `C.27.TA` or action-guiding temporal claim under `C.27`, causal use of an intervention, maintenance action, simulation, telemetry change, or claimed effect under `C.28`, and evidence, reliance, or assurance under `A.10` or `B.3`. | Keep the description or view, measured Characteristic, Work, temporal aspect or claim, causal-use question and verdict, currentness boundary, evidence, and assurance distinct; cite its source-to-use path and `G.11` validity or reopen condition. |
+| Control or operational model | Selected control structure under `C.30.LCA`, together with direct control, measurement, Work, and currentness relations. | Cite the control description/view without treating live values, a dashboard, or the LCA diagram as architecture adequacy or proof. |
+| Cost, schedule, operation, maintenance, sustainability, or energy view | The description episteme and selected structure; then any measurement-result episteme for a claimed Characteristic under `C.16`, operation or maintenance Work under `A.15.1`, positive temporal aspect under `C.27.TA` or action-guiding temporal claim under `C.27`, causal use of an intervention, maintenance action, simulation, telemetry change, or claimed effect under `C.28`, and evidence, reliance, or assurance under `A.10` or `B.3`. | Keep the description or view, measured Characteristic, Work, temporal aspect or claim, causal-use question and verdict, currentness boundary, evidence, and assurance distinct; cite its source-to-use path and `G.11` validity or reopen condition. |
 
 The last row is a recognition branch, not a new auxiliary-view kind. An asserted architecture structural view must have the selected-structure EntityOfConcern, viewpoint and independently obtaining E.17.0 conformance required by `C.30.ASV`. Another `U.View` keeps its own EntityOfConcern and E.17.0 viewpoint conformance without thereby becoming an architecture structural view. Return each embedded claim to the applicable pattern named in the row.
 
-A single IFC publication may carry source descriptions for several rows. Conversely, one selected structure may be the EntityOfConcern of several descriptions and may be represented or published several times. `C.30.AD.BA` therefore keys each use to exact description identity, selected structure, view conformance, built-asset trace, and declared use rather than to a file, platform, package, or view count.
+A single IFC publication may carry source descriptions for several rows. Conversely, one selected structure may be the EntityOfConcern of several descriptions and may be represented or published several times. `C.30.AD.BA` therefore keys each use to description identity, selected structure, view conformance, built-asset trace, and declared use rather than to a file, platform, package, or view count.
 
 #### C.30.AD.BA:2.2 - Recover a reference designation as a relation
 
-A reference designation is useful because it makes information about an entity retrievable under an explicit structuring and designation scheme. First recover the exact designation or reference relation through its direct representation/reference/naming owner. `C.30.AD.BA` records only its built-asset architecture-description use; a code, field, repeated string, list row, or the record below neither admits a relation kind nor makes an occurrence obtain. If no current subject pattern supplies the needed relation, keep the designation use as bounded C.2.1 claim content; apply `A.6.RCD` only when a named repeated receiving use genuinely needs a reusable predicate definition or admitted direct relation.
+A reference designation is useful because it makes information about an entity retrievable under an explicit structuring and designation scheme. First recover the designation or reference relation through its direct representation/reference/naming owner. `C.30.AD.BA` records only its built-asset architecture-description use; a code, field, repeated string, list row, or the record below neither admits a relation kind nor makes an occurrence obtain. If no current subject pattern supplies the needed relation, keep the designation use as bounded C.2.1 claim content; apply `A.6.RCD` only when a named repeated receiving use needs a reusable predicate definition or admitted direct relation.
 
 ```text
 BuiltAssetReferenceDesignationUse:
   designationValue: local designation value, byValue
-  referenceDesignationScheme: exact designation rules and their domain, byValue
+  referenceDesignationScheme: designation rules and their domain, byValue
   designatedEntityRef: U.EntityRef
   selectedAspectStructureRef: SelectedStructureReference
   designationOrReferenceRelationRef?: U.RelationRef
@@ -146,24 +146,24 @@ BuiltAssetReferenceDesignationUse:
   nonAdmissibleUse?:
 ```
 
-`selectedAspectStructureRef` names the exact structure in which the designation is interpreted, such as a functional, product, location, or declared local structure. It is not a free aspect label. `designatedEntityRef` names the entity designated in that structure. Include `designationOrReferenceRelationRef` only when the designation or reference relation kind is admitted and the occurrence independently obtains. If a design object and a realized component both need to be retrieved, name the two entities and a bounded correspondence claim or independently obtaining correspondence relation rather than letting one code silently collapse them.
+`selectedAspectStructureRef` names the structure in which the designation is interpreted, such as a functional, product, location, or declared local structure. It is not a free aspect label. `designatedEntityRef` names the entity designated in that structure. Include `designationOrReferenceRelationRef` only when the designation or reference relation kind is admitted and the occurrence independently obtains. If a design object and a realized component both need to be retrieved, name the two entities and a bounded correspondence claim or independently obtaining correspondence relation rather than letting one code silently collapse them.
 
 The designation use permits retrieval and cross-description coordination. Part-whole, function, location, identity across aspects, and evidence claims still come from their direct relations or claim owners. Repeated appearance of the same designation expression is insufficient to merge referents when the scheme, selected structure, local sense, or qualification window differs.
 
 #### C.30.AD.BA:2.3 - Keep exchange checking distinct from architecture evaluation
 
-An IFC exchange or another machine-readable model is a representation and publication of one or more epistemes. Its schema relations can preserve valuable source structure. Before using it as architecture-description content:
+An IFC exchange or another machine-readable model is a representation and publication of one or more epistemes. Its schema relations can preserve source structure. Before using it as architecture-description content:
 
 1. identify every source episteme used, its representation, and the publication occurrence, form, and carrier;
-2. recover the A.22 selected structures and the status of the relation content being used; identify actual subject-relation occurrences only when asserting that those relations obtain;
-3. record the source-to-use path into the exact architecture description or view episteme;
+2. recover the A.22 selected structures and the status of the relation content being used; identify subject-relation occurrences only when asserting that those relations obtain;
+3. record the source-to-use path into the architecture description or view episteme;
 4. state the admissible architecture use and any lost, inferred, unknown, stale, or unavailable relation content.
 
 An exchange checker can use a computer-interpretable specification to evaluate whether declared information is present and shaped as specified. That evaluation concerns the exchange description or publication. It does not make schema relation data obtain in the built asset, constitute a selected structure, grant `U.View` membership, establish description truth, or show that the selected architecture is adequate for the asset's functions, constraints, or architectural characteristics. Apply the architecture, characteristic-evaluation, evidence, and assurance patterns for those claims.
 
 #### C.30.AD.BA:2.4 - Keep a digital-twin description coupled without merging its objects
 
-The phrase *digital twin* can cover a model episteme, software system, sensor systems, telemetry epistemes, simulation methods, operational Work, interfaces, representations, and publications. Recover each current object by its direct kind and relation. `C.30.AD.BA` uses only the exact descriptions and views that contribute to the built asset's architecture-description use.
+The phrase *digital twin* can cover a model episteme, software system, sensor systems, telemetry epistemes, simulation methods, operational Work, interfaces, representations, and publications. Recover each object by its kind and relation. `C.30.AD.BA` uses only the descriptions and views that contribute to the built asset's architecture-description use.
 
 When one architecture-description use crosses design-side and run-side material, identify the descriptions on each side and the correspondence needed for that use. Preserve an adequate existing explanation; the optional by-value `designRunSeparationUse` record can organize it:
 
@@ -186,9 +186,15 @@ BuiltAssetDesignRunSeparationUse:
   blockedMerge:
 ```
 
-This is a by-value classifier for one built-asset description use, not a new FPF kind, a generic tag, or a relation constructor. `designSideDescriptionRefs` cite exact epistemes used for intended, required, proposed, or design-state material; `runSideDescriptionRefs` cite exact as-built, observed, operating, inspection, or maintenance-state epistemes. The classification is local to the declared use, not intrinsic to an episteme. If one publication carries both, identify the exact description or ClaimGraph loci before classifying them.
+This is a by-value classifier for one built-asset description use, not a new FPF kind, a generic tag, or a relation constructor. `designSideDescriptionRefs` cite epistemes used for intended, required, proposed, or design-state material; `runSideDescriptionRefs` cite as-built, observed, operating, inspection, or maintenance-state epistemes. The classification is local to the declared use, not intrinsic to an episteme. If one publication carries both, identify the description or ClaimGraph loci before classifying them.
 
-Every referenced object and relation keeps its subject pattern. C.2.1 governs description identity; `A.15.1` governs each exact `U.Work`; `G.11` governs freshness, currentness, and decay; the exact source-use owner governs each source path; the direct correspondence or coupling owner governs an affirmative relation; and `A.10` or `B.3` governs reliance or assurance. `C.28` governs a causal use of telemetry, simulation, maintenance, or a claimed physical or energy change; `C.27` continues to govern the temporal adequacy of the change statement. A.3.4 governs an actual physical transformation only when the exact changed referent, boundary, conditions, before/during/after facts, and continuity or reidentification basis are complete. A required or desired effect, live value, simulation result, control-view row, or local design/run classification is not that actual transformation. The local classification states only which already identified references belong on each side of this one cross-lifecycle use. Its nested source and currentness refs must resolve to the same exact refs cited by the enclosing use record, not duplicate or replace them. When a required side identity, source path, claimed Work occurrence, currentness boundary, or direct relation cannot be recovered, state the gap and narrow or block the dependent cross-lifecycle use. Use `blockedMerge` for that gap when keeping this record.
+Every referenced object and relation keeps its subject pattern. C.2.1 governs description identity; `A.15.1` governs each `U.Work`; `G.11` governs freshness, currentness, and decay; the source-use owner governs each source path; the direct correspondence or coupling owner governs an affirmative relation; and `A.10` or `B.3` governs reliance or assurance.
+
+`C.28` governs a causal use of telemetry, simulation, maintenance, or a claimed physical or energy change; `C.27` continues to govern the temporal adequacy of the change statement. A.3.4 governs an actual physical transformation only when the changed referent, boundary, conditions, before/during/after facts, and continuity or reidentification basis are complete. A required or desired effect, live value, simulation result, control-view row, or local design/run classification is not that actual transformation.
+
+The local classification states only which already identified references belong on each side of this one cross-lifecycle use. Its nested source and currentness refs must resolve to the same refs cited by the enclosing use record, not duplicate or replace them.
+
+When a required side identity, source path, claimed Work occurrence, currentness boundary, or direct relation cannot be recovered, state the gap and narrow or block the dependent cross-lifecycle use. Use `blockedMerge` for that gap when keeping this record.
 
 | Local anti-pattern | Symptom | Repair |
 | --- | --- | --- |
@@ -197,9 +203,18 @@ Every referenced object and relation keeps its subject pattern. C.2.1 governs de
 
 The twin's coupling to the asset establishes neither parthood nor identity between the digital and physical objects. Connection, synchronization, rendering, bundling, and publication also establish neither architecture relation, selected structure, description truth, empirical grounding, view membership, evidence sufficiency, assurance, gate passage, Work, nor project-use relation.
 
-A green twin, dashboard, exchange result, or release screen is therefore a cue, not gate passage. Use `A.21` when a named gate must decide a bounded action or when its decision result is being relied on. Establish or recover the `GateDecisionResult` episteme, its applicable profile application and exact check-application results. Publication and the optional `DecisionLog` follow A.21:4.10 when publication, audit, or reuse is needed; an ordinary one-time decision can stop at its result and rationale. If no named gate decision is current, keep the display as a cue and handle any evidence, work-entry readiness, assurance, Work, or neighboring claim under `A.10`, `A.15.5`, `B.3`, `A.15.1`, or its exact direct governor. Even a `GateDecisionResult` with `decisionValue=pass` establishes neither release, readiness, permission, authorization, nor performed Work.
+A green twin, dashboard, exchange result, or release screen is therefore a cue, not gate passage. Use `A.21` when a named gate must decide a bounded action or when its decision result is being relied on. Establish or recover the `GateDecisionResult` episteme, its applicable profile application and check-application results. Publication and the optional `DecisionLog` follow A.21:4.10 when publication, audit, or reuse is needed; an ordinary one-time decision can stop at its result and rationale. If no named gate decision is current, keep the display as a cue and handle any evidence, work-entry readiness, assurance, Work, or neighboring claim under `A.10`, `A.15.5`, `B.3`, `A.15.1`, or its direct governor. Even a `GateDecisionResult` with `decisionValue=pass` establishes neither release, readiness, permission, authorization, nor performed Work.
 
-Recover the release-looking claim before routing it. An actual release action is one exact `A.15.1` `U.Work` occurrence. Use `A.15.5` for work-entry readiness, `A.2.8.PER` for a non-prohibition, granted permission, permission exercise, non-violation, or permission conflict, and `A.2.9` for an instituting or revoking grant act. A further claim that a subject was released needs its named subject predicate and participants. Keep the display as a cue while either is unresolved; return `A.6.RCD missing-governor` only when the predicate cannot be recovered, and state any missing participant information separately. No current model, source, gate result, dashboard, or the word *authorized* supplies one of these relations by appearance.
+Recover the release-looking claim before routing it. An actual release action is one `A.15.1` `U.Work` occurrence. Use `A.15.5` for work-entry readiness, `A.2.8.PER` for a non-prohibition, granted permission, permission exercise, non-violation, or permission conflict, and `A.2.9` for an instituting or revoking grant act. A further claim that a subject was released needs its named subject predicate and participants. Keep the display as a cue while either is unresolved; return `A.6.RCD missing-governor` only when the predicate cannot be recovered, and state any missing participant information separately. No current model, source, gate result, dashboard, or the word *authorized* supplies one of these relations by appearance.
 
-**Currentness and smallest reopen.** When a decisive input changes, reopen only the built-asset description-use locus and conclusion that depend on it. A changed asset or selected structure reopens the dependent description identity, built-asset trace, or structural-view use; changed view conformance reopens that one view admission; a changed designation scheme, referent, or qualification window reopens only its `BuiltAssetReferenceDesignationUse`; a changed source, model, publication, or telemetry edition or freshness/fidelity boundary reopens its exact source-to-use or currentness locus; changed design/run classification, cited Work, source/currentness ref, correspondence, coupling, or transformation reopens only the affected `BuiltAssetDesignRunSeparationUse` and dependent admissible cross-lifecycle use; and a changed project-use relation or direct governor reopens only that exact relation reference and dependent admissible-use conclusion. Update the affected description, designation, design/run, or currentness locus; when the required input cannot be recovered, narrow or block only that use while unrelated views, descriptions, designations, and uses stay closed.
+**Currentness and smallest reopen.** When a decisive input changes, reopen only the built-asset description-use locus and conclusion that depend on it:
+
+- A changed asset or selected structure reopens the dependent description identity, built-asset trace, or structural-view use.
+- Changed view conformance reopens that one view admission.
+- A changed designation scheme, referent, or qualification window reopens only its `BuiltAssetReferenceDesignationUse`.
+- A changed source, model, publication, or telemetry edition or freshness/fidelity boundary reopens its source-to-use or currentness locus.
+- Changed design/run classification, cited Work, source/currentness ref, correspondence, coupling, or transformation reopens only the affected `BuiltAssetDesignRunSeparationUse` and dependent admissible cross-lifecycle use.
+- A changed project-use relation or direct governor reopens only that relation reference and dependent admissible-use conclusion.
+
+Update the affected description, designation, design/run, or currentness locus; when the required input cannot be recovered, narrow or block only that use while unrelated views, descriptions, designations, and uses stay closed.
 

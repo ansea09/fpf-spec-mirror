@@ -6,12 +6,12 @@ section_id: "C.28:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__008_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.28 — CausalUse-CAL: Causal-Use Questions, Identification, and Realizability"
   - "C.28:6 — Bias-Annotation"
-line_start: 68392
-line_end: 68395
+line_start: 71454
+line_end: 71468
 dependencies:
   - "A.10"
   - "A.15"
@@ -51,5 +51,16 @@ keywords:
 
 ### C.28:6 - Bias-Annotation
 
-Watch for causal prestige, simulation laundering, metric proxy substitution, graph sufficiency, feasibility-as-performance, data-without-Work, support-label substitution, and benchmark scalarization. Recover the question, support components, live threats, supported statement, unsupported statement, and reopen condition in the shortest form that remains replayable.
+Watch for these errors:
+
+- using causal terminology as a substitute for support;
+- presenting simulation as realized or interventional evidence;
+- using a metric proxy in place of assessing the causal claim;
+- treating a graph as sufficient support;
+- treating feasibility as performed work;
+- citing data without the Work that produced it;
+- substituting a support label for its basis;
+- reducing a causal benchmark to one score despite material differences in its comparisons.
+
+Recover the question, support components, live threats, supported statement, unsupported statement, and reopen condition in the shortest form that remains replayable.
 

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.9"
-pattern_title: "Cross-Context Sameness Disambiguation - Restoring the concrete claim behind \"same\", \"equivalent\", and \"align\" (RPR-XCTX)"
+pattern_title: "Cross-Context Sameness Disambiguation - Restoring the claim behind \"same\", \"equivalent\", and \"align\" (RPR-XCTX)"
 section_id: "A.6.9:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.9/A.6.9__012_sota-echoing.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.6.9 — Cross-Context Sameness Disambiguation - Restoring the concrete claim behind \"same\", \"equivalent\", and \"align\" (RPR-XCTX)"
+  - "A.6.9 — Cross-Context Sameness Disambiguation - Restoring the claim behind \"same\", \"equivalent\", and \"align\" (RPR-XCTX)"
   - "A.6.9:11 — SoTA-Echoing"
-line_start: 24843
-line_end: 24855
+line_start: 25764
+line_end: 25776
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -64,7 +64,7 @@ keywords:
 | Correspondences between viewpoints | ISO/IEC/IEEE 42010:2022 | Correspondence is not identity and retains intent and constraints. | Separates the direct semantic relation from each proposed use and actual publication or view object. | **Adopt + specialise** |
 | Declarative validation shapes | W3C SHACL (2017) | Make implicit conditions testable. | Uses a profile for relation truth, a claim for bounded-use suitability, and a card only for packaging. | **Adapt** |
 | Scored entity alignment with error analysis | BootEA (Sun et al., 2018) | Alignment evidence is graded and fallible. | Keeps scores and counterexamples as evidence rather than relation identity or a use licence. | **Adapt** |
-| Textual entity matching | BERT-INT (Tang et al., 2020); Ditto (Li et al., 2021) | Matchers yield conditional, error-prone correspondences. | For a semantic-correspondence claim, resolves exact endpoint readings and tests the Bridge predicate; a proposed use receives its separate bounded-use claim. | **Adopt conceptually** |
+| Textual entity matching | BERT-INT (Tang et al., 2020); Ditto (Li et al., 2021) | Matchers yield conditional, error-prone correspondences. | For a semantic-correspondence claim, resolves endpoint readings and tests the Bridge predicate; a proposed use receives its separate bounded-use claim. | **Adopt conceptually** |
 | Heterogeneous schema matching | SMAT (Zhang et al., 2021) | “Match” covers several relation types. | Distinguishes relation kind, relation orientation, proposed-use direction, rule, and tolerance. | **Adapt** |
-| Deep learning for entity matching | Mudgal et al., [SIGMOD 2018](https://pages.cs.wisc.edu/~anhai/papers1/deepmatcher-sigmod18.pdf) | Benefits and limits of learned matching depend on the problem and data type. | Tests the exact semantic relation and any proposed bounded use under their own conditions; matcher performance alone establishes neither. | **Adapt** |
+| Deep learning for entity matching | Mudgal et al., [SIGMOD 2018](https://pages.cs.wisc.edu/~anhai/papers1/deepmatcher-sigmod18.pdf) | Benefits and limits of learned matching depend on the problem and data type. | Tests the semantic relation and any proposed bounded use under their own conditions; matcher performance alone establishes neither. | **Adapt** |
 

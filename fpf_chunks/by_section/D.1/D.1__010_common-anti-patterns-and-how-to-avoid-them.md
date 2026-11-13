@@ -6,12 +6,12 @@ section_id: "D.1:7"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.1/D.1__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "D.1 — Clarify an Ethical Claim's Value Basis (Value Plurality)"
   - "D.1:7 — Common Anti-Patterns and How to Avoid Them"
-line_start: 91613
-line_end: 91621
+line_start: 96097
+line_end: 96105
 dependencies:
   - "A.1"
   - "A.1.CSD"
@@ -37,7 +37,7 @@ keywords:
 
 | Anti-pattern | What goes wrong | Repair |
 | --- | --- | --- |
-| Neutrality theater | The work claims to avoid ethics by naming only technical evidence or method quality. | Recover the value concern or explicitly state that no ethical claim is being made. |
+| Neutrality theater | The work claims to avoid ethics by naming only technical evidence or method quality. | Recover the value concern or state that no ethical claim is being made. |
 | Slogan ethics | Responsible, safe, humane, aligned, fair, or beneficial is used without affected parties and warranted use. | Name the affected parties, value concern, and intended claim; qualify the basis relied on. |
 | Doctrine smuggling | A utilitarian, rights, duty, care, virtue, professional, or project-specific value frame is treated as obvious. | State the normative premise and how it supports the judgement; use D.3 when the disagreement forms an ethical conflict. |
 | Universal D.1 | D.1 is used to decide mediation, bias, causal fairness, or assurance. | Use D.3, D.4, D.5, C.28, A.10, B.3, or the subject pattern. |

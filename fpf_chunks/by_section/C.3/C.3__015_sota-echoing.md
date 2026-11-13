@@ -6,12 +6,12 @@ section_id: "C.3:13"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__015_sota-echoing.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.3 — Kinds, Intent and Extent, and Typed Reasoning"
   - "C.3:13 — SoTA-Echoing"
-line_start: 55208
-line_end: 55211
+line_start: 57490
+line_end: 57493
 dependencies:
   - "A.1"
   - "A.11"
@@ -46,5 +46,5 @@ keywords:
 
 ### C.3:13 - SoTA-Echoing
 
-For one supported classification, the ordinary conclusion in `C.3:5` can be sufficient. Creating a reusable declaration and an extension for every such answer adds products that the receiver may not consume. Keep the criterion, admissibility and needed support recoverable in the lighter answer. Add the corresponding declaration or extension when repeated interpretation or a set-consuming question needs it.
+For one supported classification, the ordinary conclusion in `C.3:0` can be sufficient. Creating a reusable declaration and an extension for every such answer adds products that the receiver may not consume. Keep the criterion, admissibility and needed support recoverable in the lighter answer. Add the corresponding declaration or extension when repeated interpretation or a set-consuming question needs it.
 

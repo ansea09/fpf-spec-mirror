@@ -6,12 +6,12 @@ section_id: "A.2.2:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.2.2 — System Capability: Conditions, Measures and Fit"
   - "A.2.2:intro — Intro"
-line_start: 5223
-line_end: 5252
+line_start: 5403
+line_end: 5432
 dependencies:
   - "A.1"
   - "A.15"
@@ -52,7 +52,7 @@ Capability is a System's ability to perform a work family or produce a result cl
 
 - If the current claim is which admitted System is assigned to an exact local system-role kind, use `A.2.1`.
 - If the current claim is whether that assignment is in an enactable state, use `A.2.5`.
-- If the current claim is a local system-role kind, its classification, description, designation, exact assignment, relation structure, or bundle, use `A.2`, `A.2.1`, `F.4`, `F.18`, or `A.2.7` for that exact object.
+- If the current claim is a local system-role kind, its classification, description, designation, exact assignment, relation structure, or bundle, use `A.2`, `A.2.1`, `F.4`, `F.18`, or `A.2.7` for that object.
 - If the current claim is a way of doing, use `A.3.1`; if it is an episteme describing that way, use `A.3.2`.
 - If the current claim is dated performed work or planned work, use `A.15`, `A.15.1`, or `A.15.2`.
 - If the current claim is a promise to others, use the promise-content and commitment patterns.

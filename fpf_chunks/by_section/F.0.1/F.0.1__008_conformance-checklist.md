@@ -6,12 +6,12 @@ section_id: "F.0.1:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.1/F.0.1__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.0.1 — Source-Local Meaning Recovery"
   - "F.0.1:7 — Conformance Checklist"
-line_start: 117922
-line_end: 117942
+line_start: 125510
+line_end: 125530
 dependencies:
   - "E.10"
   - "E.10.D1"
@@ -46,7 +46,7 @@ keywords:
 
 - **RSCR-F01 (Affected edition change).** A changed edition or passage reopens only local claims and later uses that relied on the changed content.
 - **RSCR-F02 (Endpoint change).** A changed cell claim or stance triggers recheck of relations and uses that cite that endpoint.
-- **RSCR-F03 (Composition guard).** A relation chain never silently becomes a direct relation or unrestricted substitution.
+- **RSCR-F03 (Composition guard).** A relation chain alone establishes neither a direct endpoint relation nor unrestricted substitution.
 - **RSCR-F04 (Source-cut relevance).** Reopen F.1 only when the receiving question or use, a relied source role, known rival, counterexample, or transfer limit changes.
 - **RSCR-F05 (Historical recovery).** An old Context-shaped artifact is recovered only for a current reliance; missing values return as exact unresolved inputs.
 

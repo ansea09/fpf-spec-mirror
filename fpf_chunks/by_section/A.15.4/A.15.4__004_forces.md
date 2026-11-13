@@ -6,12 +6,12 @@ section_id: "A.15.4:2.1"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.15.4 — Work-Relevant Appearance-Based Reliance Repair"
   - "A.15.4:2.1 — Forces"
-line_start: 30465
-line_end: 30474
+line_start: 31556
+line_end: 31565
 dependencies:
   - "A.10"
   - "A.13"
@@ -57,7 +57,7 @@ keywords:
 | Force | Tension |
 | --- | --- |
 | Work momentum vs. prerequisite recoverability | Teams need to keep work moving, but a reliance appearance can make the wrong claim look like work authorization while a required relation or result is still unnamed. |
-| Cheap first note vs. high-impact reliance | Routine source-finding should stay light, while release, safety, compliance, exact system-role-assignment, credential-status, assignment-state, and gate cases need the distinctions and evidence required by their direct rules. |
+| Cheap first note vs. high-impact reliance | Routine source-finding should stay light, while release, safety, compliance, system-role-assignment, credential-status, assignment-state, and gate cases need the distinctions and evidence required by their direct rules. |
 | Publication face vs. required value | The visible carrier may be useful for orientation, but the work or reliance claim belongs to the project-side FPF kind, relation or result, and reference named by value. |
 | Neighboring claims vs. local repair | A.15.4 can recover a missing prerequisite for the attempted work or reliance use, but evidence, gate, assurance, boundary, work-occurrence, and the permission/authority object selected by the §3 branch use the patterns and tests that define them. |
 | Repeated ambiguity vs. individual burden | Repeated ambiguity about a required claim, instituted effect, relation, result, or reference should become prerequisite-lookup or source-relation repair work, not repeated manual reconstruction by every acting practitioner. |

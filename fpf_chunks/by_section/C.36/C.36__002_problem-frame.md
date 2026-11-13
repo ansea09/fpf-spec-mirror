@@ -6,12 +6,12 @@ section_id: "C.36:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36/C.36__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.36 — Cultural Evolution and Cultural-Evolution Engineering"
   - "C.36:1 — Problem frame"
-line_start: 81313
-line_end: 81371
+line_start: 85244
+line_end: 85323
 dependencies:
   - "A.1"
   - "A.10"
@@ -61,7 +61,7 @@ keywords:
 
 ### C.36:1 - Problem frame
 
-Use this pattern when the current project question is about how a culture, style, tradition, discipline practice, method family, work family, canon, recognition regime, selection regime, or mediating system changes and can be deliberately influenced.
+Use this pattern when the project question is about how a culture, style, tradition, discipline practice, method family, work family, canon, recognition regime, selection regime, or mediating system changes and can be deliberately influenced.
 
 When changing participants, tools or questions puts a shared method out of reach, C.36.RP helps make its use and development obtainable: locate the missing contribution, arrange its use and retain the means of renewal.
 
@@ -78,7 +78,7 @@ The team treats culture as shared vocabulary, treats style as a genre tree, trea
 
 #### C.36:1.2 - What this buys
 
-The practitioner gets one small statement of the cultural relations now supported, what is changing or worth continuing, and the next action or stop. Add collective holons, local system-role kinds, classifications, assignments, Work and Method families, canon or memory epistemes, architectures, measurements, and refresh relations only when the current claim actually needs them.
+The practitioner gets one small statement of the cultural relations now supported, what is changing or worth continuing, and the next action or stop. Add collective holons, local system-role kinds, classifications, assignments, Work and Method families, canon or memory epistemes, architectures, measurements, and refresh relations only when the claim needs them.
 
 #### C.36:1.3 - First useful move
 
@@ -100,13 +100,32 @@ CulturalEvolutionCaseCard@Context:
   NextActionOrStop:
 ```
 
-`@Context` is part of the card's context-qualified retrieval name. `CaseScopeOrModelUseBoundary` names the actual project, discipline, scene, product-family, publication, or model-use boundary. This boundary stops a local trend from becoming the whole culture merely by wording. `PublicationRefs` is optional: when a publication distinction matters, name only the exact E.17 source-backed face or exact E.24.PUB publication occurrence, publication form, presentation carrier, audience-declaration episteme, bounded-use-declaration episteme, or availability claim needed by this case. The card does not require a complete publication record. Actual access, reliance, use, and Work stay outside this field unless their own direct relations or occurrences are separately current.
+`@Context` is part of the card's context-qualified retrieval name. `CaseScopeOrModelUseBoundary` names the project, discipline, scene, product-family, publication, or model-use boundary of this case. This boundary stops a local trend from becoming the whole culture merely by wording.
+
+`PublicationRefs` is optional: when a publication distinction matters, name only the E.17 source-backed face or E.24.PUB publication occurrence, publication form, presentation carrier, audience-declaration episteme, bounded-use-declaration episteme, or availability claim needed by this case. The card does not require a complete publication record.
+
+Actual access, reliance, use, and Work stay outside this field unless their own relations or occurrences are separately current.
 
 Variants may be generated, retained, inherited, or observed. An archive or front claim still uses C.18 or C.19.
 
-Expand the card only when later use needs more detail. Possible additions include direct participation or position relations; local system-role kinds, separate System-classification judgments, assignment species and obtaining occurrences; Work and Method families; Method relation structures and descriptions; canon or memory epistemes; recognition and selection regimes; mediation systems or architectures; characteristic spaces; style or tradition term rows; publication relations; measurement; and refresh. Each addition identifies its own object or obtaining relation; the card creates none of them.
+Expand the card only when later use needs more detail. Possible additions include:
 
-The card is optional and keeps the case's claims together; their definition and testing remain with the applicable patterns.
+- direct participation or position relations;
+- local system-role kinds, separate System-classification judgments, assignment species and obtaining occurrences;
+- Work and Method families;
+- Method relation structures and descriptions;
+- canon or memory epistemes;
+- recognition and selection regimes;
+- mediation systems or architectures;
+- characteristic spaces;
+- style or tradition term rows;
+- publication relations;
+- measurement; and
+- refresh.
+
+Each addition identifies its own object or obtaining relation; the card creates none of them.
+
+The card is optional and keeps the case's claims together; their definition and testing remain with the patterns for those claims.
 
 #### C.36:1.4 - Working scope
 
@@ -114,7 +133,9 @@ Many current projects no longer develop one isolated object. They shape, for exa
 
 Cultural evolution is current when the question is how a collective or discipline generates, transmits, recognizes, selects, retains, or changes variants. Memory or canon epistemes, recognition and selection relations, comparison, platform or algorithmic mediation, and changing Method families may all matter.
 
-When the case says that Work was performed, recover each exact actual performer through A.13 and let A.15.1 independently admit the dated Work occurrence and enacted Method. Include explicit A.2.1 assignment refs and F.6 when the case or receiving use represents precise assignment-bound attribution. The A.13 assignment basis remains required for actual Work even when those fields are omitted; missing or failed F.6 attribution alone leaves independently admitted Work intact while its independent A.13/A.15.1 grounds still hold. A local system-role kind, classification judgment, assignment species, assignment occurrence, Work occurrence, Method, effect claim, responsibility relation, and family description remain separate.
+When the case says that Work was performed, recover each performer through A.13 and let A.15.1 independently admit the dated Work occurrence and enacted Method.
+
+Include A.2.1 assignment refs and F.6 when the case or receiving use represents precise assignment-bound attribution. The A.13 assignment basis remains required for actual Work even when those fields are omitted; missing or failed F.6 attribution alone leaves independently admitted Work intact while its independent A.13/A.15.1 grounds still hold. A local system-role kind, classification judgment, assignment species, assignment occurrence, Work occurrence, Method, effect claim, responsibility relation, and family description remain separate.
 
 This pattern provides a first-use cultural-evolution case. The same pattern can serve engineering product families, scientific research programs, medical disciplines, pedagogy, music styles, dance styles, organizational cultures, and AI-agent framework evolution because it begins with existing FPF objects and relations rather than domain labels.
 

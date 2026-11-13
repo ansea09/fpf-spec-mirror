@@ -6,12 +6,12 @@ section_id: "A.15.4:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.15.4 — Work-Relevant Appearance-Based Reliance Repair"
   - "A.15.4:intro — Intro"
-line_start: 30385
-line_end: 30442
+line_start: 31476
+line_end: 31533
 dependencies:
   - "A.10"
   - "A.13"
@@ -99,8 +99,8 @@ These rows represent prerequisites defined by their subject patterns. When the a
 **Subject of the repair in plain terms.** The pattern handles one attempted-use question. The appearance, attempted use, direct prerequisites, safe current use, and blocked overread retain the kinds and relations supplied by their own patterns.
 
 **First repair checks.**
-1. Name the appearance by its actual kind without treating it as the required relation or result.
-2. Name the exact attempted use and the subject that use concerns.
+1. Name the appearance by its kind without treating it as the required relation or result.
+2. Name the attempted use and the subject that use concerns.
 3. Name the first missing prerequisite and the pattern that defines or tests it. A note stopping the unsupported use can finish there; a decision to proceed still requires every prerequisite consumed by that use.
 4. Keep each independently required claim, instituted effect, relation occurrence, result, decision, assignment, evidence relation, currentness relation, or plan separately recoverable. Choose typed rows when their arrangement helps comparison or inspection.
 5. Before allowing the attempted use, establish each required relation or result under its own criterion and match its applicable participants, scope, time and reliance basis to this case. Reuse an applicable established result; recheck what is changed, missing or expired.

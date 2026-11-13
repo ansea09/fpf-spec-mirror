@@ -6,12 +6,12 @@ section_id: "C.36:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36/C.36__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.36 — Cultural Evolution and Cultural-Evolution Engineering"
   - "C.36:3 — Forces"
-line_start: 81388
-line_end: 81398
+line_start: 85340
+line_end: 85350
 dependencies:
   - "A.1"
   - "A.10"
@@ -64,7 +64,7 @@ keywords:
 | Force | Tension |
 |---|---|
 | Domain recognizability | Music, dance, medicine, science, engineering, and organizations need familiar words such as style, tradition, technique, school, canon, platform, and regime. |
-| Ontological parsimony | Familiar domain words can express existing objects or relations. Resolve an ambiguity when it changes the current claim; do not infer a new root kind from the word alone. |
+| Ontological parsimony | Familiar domain words can express existing objects or relations. Resolve an ambiguity when it changes the claim; do not infer a new root kind from the word alone. |
 | Variant-set usefulness | Open-ended search, archives, fronts, pools, and selected sets help keep evolving alternatives visible. |
 | Cultural-evolution specificity | Variant generation and retention alone do not name transmission, recognition, memory, canon, system-role assignment, method-family evolution, or mediation. |
 | Continuation and intervention value | A project may keep a sufficiently supported practice or change an identified generation, transmission, recognition, selection, memory, Method, Work, mediation, measurement, or refresh relation. A proposed change must warrant its burden and displaced work. |

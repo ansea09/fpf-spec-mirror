@@ -6,12 +6,12 @@ section_id: "A.15.1:5"
 section_title: "Work mereology (how occurrences form holarchies)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__006_work-mereology-how-occurrences-form-holarchies.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.15.1 — U.Work: Dated Performed Work Occurrence"
   - "A.15.1:5 — Work mereology (how occurrences form holarchies)"
-line_start: 29335
-line_end: 29418
+line_start: 30411
+line_end: 30494
 dependencies:
   - "A.1"
   - "A.10"
@@ -56,7 +56,7 @@ keywords:
 
 ### A.15.1:5 - Work mereology (how occurrences form holarchies)
 
-Work identity is occurrence-grounded and 4D. Start from the actual performance history: work-entry and end events, occupied spatiotemporal extent, actual performer Systems with their A.13 bases, enacted Methods, the exact locally declared containing-system relations needed by the use, any direct work-to-referent relations, actual bindings, resource use, and exact work-part or temporal relations. A separately asserted F.6 relation relates the Work to the obtaining assignment under which it was performed; it neither admits nor reidentifies the Work.
+Work identity is occurrence-grounded and 4D. Start from the actual performance history: work-entry and end events, occupied spatiotemporal extent, actual performer Systems with their A.13 bases, enacted Methods, the locally declared containing-system relations needed by the use, any direct work-to-referent relations, actual bindings, resource use, and work-part or temporal relations. A separately asserted F.6 relation relates the Work to the obtaining assignment under which it was performed; it neither admits nor reidentifies the Work.
 
 #### A.15.1:5.1 - Parts and wholes of Work (occurrence facts)
 
@@ -93,7 +93,7 @@ Work identity is occurrence-grounded and 4D. Start from the actual performance h
 * **Temporal coverage.** When a receiving use needs utilization, elapsed time, phase coverage or another roll-up over Work intervals, apply `B.1.4` to those intervals and the selected combining rule. Preserve the temporal inputs, coverage and overlap conditions consumed by that rule. An adequate ordinary account can state the result; use a separate record or optional `Gamma_time` notation when the receiving use needs it. The Work intervals remain A.15.1 facts.
 * **Resource aggregation.** When a receiving use needs a total over performed resource values, apply `B.1.6` to the attributed inputs, included subjects, accounting scope, time basis and operative rule. Preserve the value-attribution grounds and any overlap, allocation or deduplication conditions used by that account. An adequate statement or existing ledger can convey the result; a separate record and optional `Gamma_work` notation are chosen by the receiving use. Each contributing performed resource-use relation obtains separately with its Work occurrence as a participant; an assertion about that relation remains distinct from the relation.
 
-**Manager's tip:** cite the exact `B.1.4` or `B.1.6` aggregation result and policy beside the KPI. A Work-part list, shared parent, or operator spelling supplies neither the aggregate nor its policy.
+**Manager's tip:** cite the `B.1.4` or `B.1.6` aggregation result and policy beside the KPI. A Work-part list, shared parent, or operator spelling supplies neither the aggregate nor its policy.
 
 #### A.15.1:5.3a - Before A Timetable Becomes Architecture Evidence
 
@@ -111,7 +111,7 @@ Two activities with similar names or one planned time window can still be distin
 Two descriptions, assertions, records, or traces resolve to the same Work occurrence only when they designate the same actual world-side performance history, not merely the same name, policy label, similar policy content, or later date. First compare the direct facts at the selected grain:
 
 * the same actual work-entry or start and compatible occupied spatiotemporal extent;
-* the same performance history, with each actual performer System's A.13 basis, enacted Method, and the locally declared containing-system relations used by the identity claim, plus every actually obtaining work-to-referent, binding, and resource-use fact used by that claim, placed at the interval where it obtains; any separately asserted F.6 relation remains an attribution fact rather than a Work-identity discriminator;
+* the same performance history, with each actual performer System's A.13 basis, enacted Method, and the locally declared containing-system relations used by the identity claim, plus every obtaining work-to-referent, binding, and resource-use fact used by that claim, placed at the interval where it obtains; any separately asserted F.6 relation remains an attribution fact rather than a Work-identity discriminator;
 * compatible work-part and temporal relations; and
 * no fact that already identifies distinct individuals: a proper part versus its parent, independently grounded concurrent performances, or a later work-entry after the first occurrence's established completion or termination.
 
@@ -126,7 +126,7 @@ When a named receiving use must decide whether the performance history stays ins
 * **Ambiguous interruption or resumption:** preserve the actual boundary events and facts. If a named use must decide same-parent versus separate-occurrence grouping, apply its exact `workContinuityPolicyRef`; without that criterion, return an unresolved segmentation rather than making the policy implicit.
 * **Performer, assignment, method, referent, binding, retune, or mode change:** state the actual change where it occurs. Split or retain the parent only when the direct facts already decide the boundary or a policy current to the named identity, episode, retry, resumption, or aggregation use supplies the criterion.
 * **Method-description episteme change:** record the newly selected description episteme separately. That selection neither splits nor preserves Work by itself; only an accompanying actual occurrence change enters the boundary judgment. Call the two descriptions editions only when their exact C.2.1 `EpistemeEditionRelation` obtains.
-* **Rework:** identify the later performance independently. Relate it as another occurrence, episode, or operational part only after the applicable direct predicate and any genuinely needed boundary policy are satisfied. Keep causal attribution with the governing causal-use pattern.
+* **Rework:** identify the later performance independently. Relate it as another occurrence, episode, or operational part only after the applicable direct predicate and any needed boundary policy are satisfied. Keep causal attribution with the governing causal-use pattern.
 
 These rules answer Work-occurrence identity and segmentation. When the current question is instead whether exact performer, support, and continuation-state relations let the admitted occurrence continue or recover under interruption, handoff, or degraded support, use the actual-Work branch of `A.15.8`. It neither splits nor preserves the Work occurrence; return every identity, retry, or resumption claim here.
 
@@ -134,7 +134,7 @@ Plans, costs, quality statistics, telemetry evidence, and method-reliance claims
 
 #### A.15.1:5.6 - Work mereology does not compose effects or transformations
 
-A parent Work can have exact work parts without having one composite effect or composite transformation. Any temporal aggregate uses `B.1.4`; any performed-resource aggregate uses `B.1.6`; each names its own concern, policy, evidence, and result. Identify every actual transformation independently under A.3.4. Connect one to Work only through a named domain predicate and exact participants, or a C.2.1 local compound claim under A.6.RCD disposition 2 with its constructor, governed bases, participants, and case facts recoverable; otherwise return `missing-governor[work-to-change]`.
+A parent Work can have work parts without having one composite effect or composite transformation. Any temporal aggregate uses `B.1.4`; any performed-resource aggregate uses `B.1.6`; each names its own concern, policy, evidence, and result. Identify every actual transformation independently under A.3.4. Connect one to Work only through a named domain predicate and exact participants, or a C.2.1 local compound claim under A.6.RCD disposition 2 with its constructor, governed bases, participants, and case facts recoverable; otherwise return `missing-governor[work-to-change]`.
 
-Work parthood, method parthood, temporal inclusion, a common affected referent, a list of changed characteristics, or adjacent plan items establishes neither transformation parthood nor a composite transformation. If a production or effect claim needs transformation composition, name the declared composition predicate, its participants, and the facts that make it obtain. If none is available, retain the exact Work and independently identified transformations and return `missing-governor[transformation-composition]`. A.15.PROD may still recover any independent production-work, entity-inception, or completion claim that does not depend on that missing composition.
+Work parthood, method parthood, temporal inclusion, a common affected referent, a list of changed characteristics, or adjacent plan items establishes neither transformation parthood nor a composite transformation. If a production or effect claim needs transformation composition, name the declared composition predicate, its participants, and the facts that make it obtain. If none is available, retain the Work and independently identified transformations and return `missing-governor[transformation-composition]`. A.15.PROD may still recover any independent production-work, entity-inception, or completion claim that does not depend on that missing composition.
 

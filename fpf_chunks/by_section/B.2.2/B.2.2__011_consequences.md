@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.2.2"
-pattern_title: "Meta-System Transition: Test the Proposed New Whole as a System"
+pattern_title: "Test the Proposed New Whole as a System"
 section_id: "B.2.2:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.2/B.2.2__011_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "B.2.2 — Meta-System Transition: Test the Proposed New Whole as a System"
+  - "B.2.2 — Test the Proposed New Whole as a System"
   - "B.2.2:8 — Consequences"
-line_start: 44145
-line_end: 44158
+line_start: 45927
+line_end: 45940
 dependencies:
   - "A.1"
   - "A.10"
@@ -45,12 +45,12 @@ keywords:
 Positive consequences:
 
 - Meta-system transition remains usable for engineering and organizational systems without making B.2 system-only.
-- A.1 and the `U.System` criterion apply to the same candidate; each additional system claim retains its own grounds.
+- A.1 and the `U.System` criterion apply to the candidate; each additional system claim retains its grounds.
 - Assurance, responsibility, architecture, work, and evidence claims are kept with their subject patterns.
 
 Costs:
 
 - A system-result MHT cannot be declared by name, diagram, dashboard, or metric jump alone.
 - Teams must separate old component evidence from result-system evidence.
-- Some apparent emergence claims return to ordinary system aggregation, capability, measurement, or architecture repair.
+- Some emergence claims return to ordinary system aggregation, capability, measurement, or architecture repair.
 

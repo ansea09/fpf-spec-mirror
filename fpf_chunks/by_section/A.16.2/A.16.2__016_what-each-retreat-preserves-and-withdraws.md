@@ -6,12 +6,12 @@ section_id: "A.16.2:17"
 section_title: "What each retreat preserves and withdraws"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.2/A.16.2__016_what-each-retreat-preserves-and-withdraws.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.16.2 — Reopen, SketchBackoff, Respecify, or Retire a Language-State Publication"
   - "A.16.2:17 — What each retreat preserves and withdraws"
-line_start: 34228
-line_end: 34241
+line_start: 35708
+line_end: 35721
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -45,5 +45,5 @@ keywords:
 `respecify` keeps the broad family but changes framing scaffold, route specification, or facet-profile reading. It is neither pure retreat nor silent edit: it retains the supported content while identifying any changed episteme under C.2.1. Assert continuity only when its relation obtains; apply governing patterns for semantic slot repair.
 
 #### A.16.2:17.4 - Retire
-`retire` ends current use of the exact cue, episteme, route-bearing publication, or branch while preserving its history. Report supported successor information or an unresolved successor question as §4.2 requires. Publication availability and any actual authority relation remain separate claims.
+`retire` ends current use of the cue, episteme, route-bearing publication, or branch while preserving its history. Report supported successor information or an unresolved successor question as §4.2 requires. Publication availability and any actual authority relation remain separate claims.
 

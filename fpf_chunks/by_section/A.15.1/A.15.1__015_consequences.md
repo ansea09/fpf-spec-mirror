@@ -6,12 +6,12 @@ section_id: "A.15.1:13"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__015_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.15.1 — U.Work: Dated Performed Work Occurrence"
   - "A.15.1:13 — Consequences"
-line_start: 29702
-line_end: 29710
+line_start: 30780
+line_end: 30788
 dependencies:
   - "A.1"
   - "A.10"
@@ -59,7 +59,7 @@ keywords:
 | Benefits                                                                                                                 | Trade-offs and mitigations                                                                 |
 | ------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------ |
 | **Auditable occurrence claims.** Cost, time and quality accounts can refer to independently identified Work through their governing relations. | Identify the occurrence separately from the assertion or description; record creation is not occurrence creation. |
-| **Sound roll-up inputs.** Exact Work refs, intervals, parts, and performed resource-use facts make temporal and resource aggregation replayable. | **Separate aggregation.** Recover temporal aggregation in `B.1.4` and work-resource aggregation in `B.1.6`; cite their policies and results rather than copying Gamma semantics into Work. |
-| **Cross-locality clarity.** Exact method-description, scheme, scope, criterion, evaluation, and acceptance relations prevent silent meaning drift. | **Bridge upkeep.** Maintain F.9 Bridges only for exact local-sense crossings that a receiving use actually needs. |
+| **Sound roll-up inputs.** Work refs, intervals, parts, and performed resource-use facts make temporal and resource aggregation replayable. | **Separate aggregation.** Recover temporal aggregation in `B.1.4` and work-resource aggregation in `B.1.6`; cite their policies and results rather than copying Gamma semantics into Work. |
+| **Cross-locality clarity.** Method-description, scheme, scope, criterion, evaluation, and acceptance relations prevent silent meaning drift. | **Bridge upkeep.** Maintain F.9 Bridges only for exact local-sense crossings that a receiving use actually needs. |
 | **Explicit occurrence identity.** Distinct parts, overlaps and retries provide the inputs needed to detect double-counting and identity errors. | Their correct use still requires the applicable identity, temporal and accounting rules. |
 

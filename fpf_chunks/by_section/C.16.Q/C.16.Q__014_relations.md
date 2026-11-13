@@ -6,25 +6,20 @@ section_id: "C.16.Q:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.Q/C.16.Q__014_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
   - "C.16.Q:12 — Relations"
-line_start: 60576
-line_end: 60600
+line_start: 62975
+line_end: 63012
 dependencies:
   - "A.10"
   - "A.16"
-  - "A.16.0"
-  - "A.16.1"
-  - "A.16.2"
   - "A.17"
   - "A.18"
   - "A.19"
-  - "A.19.CPM"
   - "A.2.6"
   - "A.6.A"
-  - "A.6.B"
   - "A.6.P"
   - "A.7"
   - "B.3"
@@ -32,31 +27,15 @@ dependencies:
   - "B.5.2.0"
   - "C.16"
   - "C.16.P"
-  - "C.17"
-  - "C.18"
-  - "C.19"
   - "C.2.1"
-  - "C.2.2a"
-  - "C.2.4"
-  - "C.2.5"
-  - "C.2.6"
-  - "C.2.7"
-  - "C.2.LS"
   - "C.25"
-  - "C.30.AD"
-  - "C.30.ASV"
   - "E.10"
   - "E.10.ARCH"
-  - "E.17.0"
-  - "E.17.2"
   - "E.21"
   - "E.8"
   - "F.18"
   - "F.9"
   - "F.9.1"
-  - "U.ClaimScope"
-  - "U.ContextSlice"
-  - "U.ViewpointRef"
 keywords:
 ---
 
@@ -64,8 +43,21 @@ keywords:
 
 * **Lives in:** **C.16** characterization pattern nest as the quality-term realization of **E.10.ARCH** and **C.16.P**.
 * **Builds on:** **E.10.ARCH** for shared wording-use restoration architecture; **C.16.P** for characteristic and scale exits; **A.2.6** for explicit scope and `Γ_time`; **A.17, A.18, and C.16** for admissible measurable characteristics; **C.25** for engineering `Q-Bundle` publication.
-* **Coordinates with:** **A.6.P** when recovered content is relation construction rather than evaluative characterization; **A.6.A** to recover an ambiguous action-oriented claim or question, then its subject pattern; **C.2.2a, A.16, A.16.1, A.16.2, B.4.1, and B.5.2.0** for language-state positions, early cues, next-use docking, and retreat or reopen; use **A.16.0** only when lineage, branch, loss, or an actual responsibility-handoff history itself must be published as an explicit trajectory account; **C.2.LS, C.2.4, C.2.5, C.2.6, and C.2.7** for language-state facets; **C.2.1** for effective ReferenceScheme, exact result-episteme identity, and optional `EpistemeEmpiricalGroundingRelation`; **A.2.6** for `U.ClaimScope` and `U.ContextSlice`; **A.19.CPM** for comparison; **A.10** for evidence-provenance and bounded reliance; **C.17, C.18, and C.19** for selector value, novelty, diversity, and policy; **E.17.0** and **E.17.2** for exact viewpoint epistemes and `U.ViewpointRef`; **C.30.AD** and **C.30.ASV** for architecture-description and structural-view use; **F.9** for exact cross-local Bridge occurrences and bounded-use claims; **F.9.1** only for separate optional stance notes about those claims; and **A.6.B** when repaired ascriptions become boundary-bearing.
-* **Further distinctions:** **C.3.3** governs any needed comparison or bridge between distinct endpoint kinds; **A.19.CN** governs comparability when that question is live; **C.2.P** recovers a hidden source or publication use. These questions arise from the actual claim, not from the shared quality label.
+* **Coordinates with:**
+
+  * **A.6.P** when recovered content is relation construction rather than evaluative characterization;
+  * **A.6.A** to recover an ambiguous action-oriented claim or question, then its subject pattern;
+  * **C.2.2a, A.16, A.16.1, A.16.2, B.4.1, and B.5.2.0** for language-state positions, early cues, next-use docking, and retreat or reopen; use **A.16.0** only when lineage, branch, loss, or an actual responsibility-handoff history itself must be published as an explicit trajectory account;
+  * **C.2.LS, C.2.4, C.2.5, C.2.6, and C.2.7** for language-state facets;
+  * **C.2.1** for effective ReferenceScheme, exact result-episteme identity, and optional `EpistemeEmpiricalGroundingRelation`;
+  * **A.2.6** for `U.ClaimScope` and `U.ContextSlice`;
+  * **A.19.CPM** for comparison;
+  * **A.10** for evidence-provenance and bounded reliance;
+  * **C.17, C.18, and C.19** for selector value, novelty, diversity, and policy;
+  * **E.17.0** and **E.17.2** for exact viewpoint epistemes and `U.ViewpointRef`; **C.30.AD** and **C.30.ASV** for architecture-description and structural-view use;
+  * **F.9** for exact cross-local Bridge occurrences and bounded-use claims; **F.9.1** only for separate optional stance notes about those claims;
+  * **A.6.B** when repaired ascriptions become boundary-bearing.
+* **Further distinctions:** **C.3.3** governs any needed comparison or bridge between distinct endpoint kinds; **A.19.CN** governs questions of comparability; **C.2.P** recovers a hidden source or publication use. These questions arise from the claim, not from the shared quality label.
 * **Publishes vocabulary through:** **E.10, F.17, and F.18** when the `qualityTermAscription` repair-form skeleton, the `QualitySense` starter set, and the red-flag rewrites become stable shared vocabulary.
 
 #### C.16.Q:12.1 - Endpoint-first use

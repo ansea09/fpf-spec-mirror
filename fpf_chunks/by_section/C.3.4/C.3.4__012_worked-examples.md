@@ -6,12 +6,12 @@ section_id: "C.3.4:10"
 section_title: "Worked Examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__012_worked-examples.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.3.4 — KindUseAdaptationDeclaration — Tailor the Use of an Existing Kind"
   - "C.3.4:10 — Worked Examples"
-line_start: 55984
-line_end: 55999
+line_start: 58282
+line_end: 58303
 dependencies:
   - "A.2.6"
   - "C.2.1"
@@ -27,15 +27,21 @@ keywords:
 
 #### C.3.4:10.1 - `Vehicle@ABSOnly` Constraint Use
 
-`VehicleABSUse-2026` designates `Vehicle`, pins its signature, and adds the governed candidate condition that the vehicle has ABS. For this example, the base signature's candidate domain is physical vehicles. A vehicle in the declared slice is admissible. With a `true` base judgment, the adaptation returns `true` if the vehicle is known to have ABS, `false` if it is known not to have ABS, and `unknown` if that condition is unresolved; a non-vehicle input is `not-applicable`. Surface, rig, and time conditions used only to bound the claim remain Scope. If ABS becomes a stable classification distinction, recover another kind and test its subkind relation separately.
+`VehicleABSUse-2026` designates `Vehicle`, pins its signature, and adds the governed candidate condition that the vehicle has ABS. For this example, the base signature's candidate domain is physical vehicles. A vehicle in the declared slice is admissible. With a `true` base judgment, the adaptation returns `true` if the vehicle is known to have ABS, `false` if it is known not to have ABS, and `unknown` if that condition is unresolved; a non-vehicle input is `not-applicable`.
+
+Surface, rig, and time conditions used only to bound the claim remain Scope. If ABS becomes a stable classification distinction, recover another kind and test its subkind relation separately.
 
 #### C.3.4:10.2 - `AuthenticatedRequest@Frontend` Vocabulary Use
 
-`FrontendAuthHeaderUse-2026` binds `authHeader` to local spelling `X-Auth` and adds no candidate condition. Its judgment therefore equals the admissible base judgment. Moving the same exact request kind to another team requires a fresh receiving evaluation when the receiving use applies the declaration to a request, but no `KindBridge` merely because the team or spelling changed. If two independently identified request kinds differ, establish any bridge separately.
+`FrontendAuthHeaderUse-2026` binds `authHeader` to local spelling `X-Auth` and adds no candidate condition. Its judgment therefore equals the admissible base judgment.
+
+Moving the same request kind to another team requires a fresh receiving evaluation when the receiving use applies the declaration to a request, but no `KindBridge` merely because the team or spelling changed. If two independently identified request kinds differ, establish any bridge separately.
 
 #### C.3.4:10.3 - `AdultPatient@Clinic` Composite Use
 
-`ClinicAdultPatientUse-2026` pins the base adult-patient signature. For this illustrative composite use, it binds local spelling `ClinicAdultPatient` to the base kind's `AdultPatient` designator and adds the candidate condition `ageAt(patient, slice) >= 21`, with age expressed in years; the chosen clinic and claim window remain separately governed scope/applicability values. At an applicable slice, a person in the declared candidate domain is admissible; with a `true` base judgment, unavailable birth-date information needed to decide the age condition yields `unknown`.
+`ClinicAdultPatientUse-2026` pins the base adult-patient signature. For this illustrative composite use, it binds local spelling `ClinicAdultPatient` to the base kind's `AdultPatient` designator and adds the candidate condition `ageAt(patient, slice) >= 21`, with age expressed in years; the chosen clinic and claim window remain separately governed scope/applicability values.
+
+At an applicable slice, a person in the declared candidate domain is admissible; with a `true` base judgment, unavailable birth-date information needed to decide the age condition yields `unknown`.
 
 In Jurisdiction Y, first compare the exact patient-kind membership distinctions. If the same kind continues, use the Y declaration and evaluate afresh without a bridge. If the threshold or interpretation makes a distinct target kind and a directional correspondence is relied on, establish the `KindBridge`. A separate adaptation-correspondence declaration may then state how the two exact use declarations differ. Neither object transfers source truth.
 

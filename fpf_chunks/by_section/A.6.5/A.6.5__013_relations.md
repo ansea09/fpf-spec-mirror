@@ -6,12 +6,12 @@ section_id: "A.6.5:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.5/A.6.5__013_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.5 — Relation-Declaration Slot Discipline - SlotKind, ValueKind, RefKind, and participant-designation discipline"
   - "A.6.5:12 — Relations"
-line_start: 23594
-line_end: 23609
+line_start: 24515
+line_end: 24530
 dependencies:
   - "A.15.3"
   - "A.6.0"
@@ -31,12 +31,12 @@ keywords:
 - `A.6.0` defines `U.Signature` and `RelationSignature`; A.6.5 supplies SlotSpec declaration discipline inside their vocabulary declarations.
 - `A.6.REL` defines explicit relation-occurrence individuation and the progressive threshold for stable reference.
 - `A.6.P` and `A.6.RSIR` recover the direct relation and its participants before slot typing begins.
-- Use `A.2.1` for the system-role-assignment family's discipline and continuity rule, the exact direct species definition for its predicate, applicability, participant meanings, and assigned-kind domain, and A.6.5 for the SlotSpec reading of that species' declaration.
+- Use `A.2.1` for the system-role-assignment family's discipline and continuity rule, the direct species definition for its predicate, applicability, participant meanings, and assigned-kind domain, and A.6.5 for the SlotSpec reading of that species' declaration.
 - `C.2.1` defines episteme identity, assertion and description content, and their semantic fields; A.6.5 §4.2 gives the declaration and representation correspondence routes by which such fields receive relation semantics while field, SlotSpec, designation, and actual participant remain distinct.
 - `C.3` and `C.3.1` define local participant kinds, subkind relations, and continuity when membership, substitution, typed quantification, or subkind use is current; `C.3.2` supplies the KindSignature, membership judgment, and optional extension.
-- `A.15.3` may cite an exact RelationSignature SlotSpec for a planned participant designation; A.15.2/A.15.3 define the planned claim, the direct-relation definition supplies the participant meaning and later actual-participation predicate, and A.6.5 supplies only SlotSpec declaration discipline. Operation arguments and results remain A.6.1 declarations.
+- `A.15.3` may cite a RelationSignature SlotSpec for a planned participant designation; A.15.2/A.15.3 define the planned claim, the direct-relation definition supplies the participant meaning and later actual-participation predicate, and A.6.5 supplies only SlotSpec declaration discipline. Operation arguments and results remain A.6.1 declarations.
 - `A.15.1` and `A.3.1` define the constructive holonhood and identity of Work and Methods; `A.3.4` defines the actual-bounded-change identity of transformations; `E.18` defines selected transformation-flow structures over those independently defined transformations and adjacent loci.
-- `A.1`, `A.2`, `A.2.1`, and `A.15` keep acting systems, exact local system-role kinds, system-role assignments, Methods, and performed Work distinct.
+- `A.1`, `A.2`, `A.2.1`, and `A.15` keep acting systems, local system-role kinds, system-role assignments, Methods, and performed Work distinct.
 - Use `A.2.4` for compact episteme evidence-use and status-use relation SlotSpecs, `A.10` for the full evidence-provenance path, and `F.10` for durable status semantics.
 - A named C.30 architecture-relation pattern supplies the rule for its relation. `A.6.M` repairs module-interface claims and specifications; it admits no general direct module relation. After A.6.RSIR recovery, a direct relation needs its own definition before A.6.5 declares its SlotSpecs.
 - `C.29` governs a declared mathematical-lens use of tuple, graph, database, or mathematical representations of a relation, assertion, signature, or occurrence description.

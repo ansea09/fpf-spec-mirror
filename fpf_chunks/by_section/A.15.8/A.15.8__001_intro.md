@@ -6,12 +6,12 @@ section_id: "A.15.8:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.8/A.15.8__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.15.8 — Work-Performance Configuration and Recovery Testing"
   - "A.15.8:intro — Intro"
-line_start: 31715
-line_end: 31724
+line_start: 32932
+line_end: 32941
 dependencies:
   - "A.1"
   - "A.10"
@@ -45,7 +45,7 @@ keywords:
 > **Status:** Stable
 > **Normativity:** Normative unless marked informative
 
-**Plain name.** Test whether the exact performer, support, and continuation-state configuration for Work can continue or recover when something important changes.
+**Plain name.** Test whether the performer, support, and continuation-state configuration for Work can continue or recover when something important changes.
 
-**Primary reader.** A practitioner preparing or performing human, automated, biological, organizational, computational, or mixed Work whose result may depend on several Systems, tools, records, resources, and environmental conditions.
+**Reader.** A practitioner preparing or performing human, automated, biological, organizational, computational, or mixed Work whose result may depend on several Systems, tools, records, resources, and environmental conditions.
 

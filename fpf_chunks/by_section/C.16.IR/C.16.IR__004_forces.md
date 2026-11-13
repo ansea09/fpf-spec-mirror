@@ -6,12 +6,12 @@ section_id: "C.16.IR:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.IR/C.16.IR__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.16.IR — Determine What a Measurement Indication Can Resolve"
   - "C.16.IR:3 — Forces"
-line_start: 59186
-line_end: 59196
+line_start: 61571
+line_end: 61581
 dependencies:
   - "A.3.3.PI"
   - "B.5.MPC.R"
@@ -29,7 +29,7 @@ keywords:
 | --- | --- |
 | Convenient answer and remaining alternatives | One number is easy to use; several values may fit the same reading. |
 | Target and influential quantities | Full parameter recovery can be costly; the sought quantity may already be determined. |
-| Exact data and uncertain data | An ideal relation may have one solution while the actual error range permits many. |
+| Exact data and uncertain data | An ideal relation may have one solution while the error range permits many. |
 | Complete computation and sufficient conclusion | Describing the entire compatible set can be expensive; a bound can answer the working question. |
 | Additional observation and changed subject | A second reading can distinguish alternatives only under the relations that connect the two measurement situations. |
 | Calculation and model revision | Inconsistent premises require diagnosis; forcing a numerical answer can conceal the conflict. |

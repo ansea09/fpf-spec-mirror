@@ -6,12 +6,12 @@ section_id: "C.29.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29.1/C.29.1__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.29.1 — Mathematical Result Transfer"
   - "C.29.1:4 — Solution"
-line_start: 69973
-line_end: 70113
+line_start: 73066
+line_end: 73206
 dependencies:
   - "A.3.3"
   - "A.6.3.RT"
@@ -23,7 +23,7 @@ keywords:
 
 ### C.29.1:4 - Solution
 
-**Recover the intended conclusion and its source → construct the correspondence → compare the relevant operations and their conditions → determine what merged cases can still answer → derive the exact or bounded consequence → return it, or repair the particular lost connection.**
+**Recover the intended conclusion and its source → construct the correspondence → compare the relevant operations and their conditions → determine what merged cases can still answer → derive the exact or bounded consequence → return it, or repair the lost connection.**
 
 The arrows show dependencies. An existing map or proof can supply several steps. A counterexample can send the work back to the choice of representation. A sufficient bound can end the inquiry before an exact answer is constructed.
 
@@ -48,7 +48,7 @@ Then name the direction of use. There are several common possibilities.
 | Choose a receiving solution and carry it back as an action | The selected receiving solution has an allowed source counterpart, and the returned counterpart has the claimed properties. |
 | Transfer a theorem to an entire receiving domain | The theorem's premises and inference steps survive, and the domain claimed in the conclusion is covered. |
 
-The last two uses are stronger than merely mapping source cases forward. Keeping the direction explicit prevents an answer about a relaxed problem from becoming an unsupported action recommendation.
+The last two uses are stronger than mapping source cases forward. Keeping the direction explicit prevents an answer about a relaxed problem from becoming an unsupported action recommendation.
 
 #### C.29.1:4.2 - Construct the correspondence from the required distinctions
 
@@ -58,7 +58,7 @@ A correspondence can use several maps. An operation may take one kind of input a
 
 Construct the correspondence by asking what the receiving question needs. Identify a candidate variable, relation or operation that carries that information. Compute its value on source cases. Determine which cases it combines. Try to express the receiving operation using only what remains. If the expression still depends on an omitted quantity, either retain that quantity or establish why it cancels for this use.
 
-For a change of coordinates, construct the inverse when returning a complete source state is intended. For a summary, identify the source cases compatible with each receiving value. A many-to-one map can answer a particular question exactly even though it cannot reconstruct the whole source state.
+For a change of coordinates, construct the inverse when returning a complete source state is intended. For a summary, identify the source cases compatible with each receiving value. A many-to-one map can answer a question exactly even though it cannot reconstruct the whole source state.
 
 Keep the domain visible. A division requires a nonzero denominator; a square-root substitution may impose a sign choice; a route may exist only for certain endpoints or histories. A map justified on one part of X supports conclusions on that part. A receiving value outside F(X), the set of represented source cases, needs a further argument before it is used as a source possibility.
 
@@ -81,7 +81,7 @@ Read this as an equality of the outcomes relevant to the question. The letters c
 
 Derive the equality from the definitions or use an applicable preservation theorem. Numerical examples can discover an error or make the relation understandable. For a general claim, establish the comparison throughout its declared domain. Exhaustive enumeration can establish a claim about a specified finite domain when every permitted case has been included.
 
-Also compare where each operation is available. For a forward representation of a source operation, every source step used by the claim has a defined receiving counterpart. If the receiving account is to decide whether a particular source step is allowed, its answer agrees with the source condition for the represented case. If a receiving action is to be returned to the source, construct an allowed source action with the required outcome.
+Also compare where each operation is available. For a forward representation of a source operation, every source step used by the claim has a defined receiving counterpart. If the receiving account is to decide whether a source step is allowed, its answer agrees with the source condition for the represented case. If a receiving action is to be returned to the source, construct an allowed source action with the required outcome.
 
 An equality on inputs where both sides happen to be defined leaves those availability questions open. This matters in reservations and in routes with restricted continuations.
 
@@ -113,7 +113,7 @@ Use this as a construction, not only as a test. First try to rewrite q in terms 
 
 For an update, ask whether cases sharing the current summary have the same required next summary. For a summary that is also to decide availability, compare the operation conditions across those cases. For a prediction after several steps, compare what the permitted continuations can do. The relevant comparison follows the requested result; it does not require preserving every property of the original object.
 
-Distinguish defining a value on a merged class from changing the question. “The cost of this route” requires the chosen route's cost. “The least cost among these routes” deliberately combines several costs by taking a minimum. The second is a new, potentially useful function; it does not make the first independent of its representative.
+Distinguish defining a value on a merged class from changing the question. “The cost of this route” requires the chosen route's cost. “The least cost among these routes” combines several costs by taking a minimum. The second is a new, potentially useful function; it does not make the first independent of its representative.
 
 #### C.29.1:4.5 - Derive the consequence in the strength that survives
 
@@ -141,7 +141,7 @@ min over T of receiving cost ≤ min over S of source cost.
 
 The reason is that the receiving search includes a cost-preserving image of every source option. Maximization gives an upper bound under the analogous assumptions. An optimal receiving solution that has no source counterpart still supports the bound; it does not supply a feasible source plan. A returned plan requires an allowed source witness.
 
-Where the comparison is approximate, derive the error relation for the needed operation and propagate it through later steps. For example, if a later scalar operation h satisfies |h(a) − h(b)| ≤ K|a − b|, with K ≥ 0, on the relevant interval, an input error at most ε contributes at most Kε at its output. Any additional error introduced by computing h is added to that contribution. Merely adding the errors of successive steps without accounting for amplification can understate the final error.
+Where the comparison is approximate, derive the error relation for the needed operation and propagate it through later steps. For example, if a later scalar operation h satisfies |h(a) − h(b)| ≤ K|a − b|, with K ≥ 0, on the relevant interval, an input error at most ε contributes at most Kε at its output. Any additional error introduced by computing h is added to that contribution. Adding the errors of successive steps without accounting for amplification can understate the final error.
 
 #### C.29.1:4.6 - Return a sufficient result or repair the failed correspondence
 

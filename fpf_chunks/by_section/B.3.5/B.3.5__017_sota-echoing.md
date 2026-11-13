@@ -6,12 +6,12 @@ section_id: "B.3.5:14.7"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.5/B.3.5__017_sota-echoing.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.3.5 — Assurance Grounding for Working-Model Relation Claims (CT2R-LOG)"
   - "B.3.5:14.7 — SoTA-Echoing"
-line_start: 45753
-line_end: 45767
+line_start: 47641
+line_end: 47655
 dependencies:
   - "B.3"
   - "C.13"
@@ -25,10 +25,10 @@ The assurance profile uses the following contributions. The W3C recommendations 
 
 | Source line | Contribution and boundary | Application in B.3.5 |
 | --- | --- | --- |
-| A.14's current constructional comparison | **Adopt** construction and identity before relation choice. **Reject** both a universal collection-membership predicate and any inference from belonging either to parthood or to the impossibility of parthood. | `S-3.d/e`, `CC-CT2R-3/5/5a`, and the Fleet North case keep collection belonging and a separately grounded part claim distinct. |
-| [ISO/IEC/IEEE 15026-2:2022, *Assurance case*](https://www.iso.org/standard/80625.html) | **Adapt** its separate, maintained assurance-case structure: an elected support account stays inspectable and current beside the claim it supports. **Reject** a mandatory full assurance case for every direct relation. The FPF-specific `validationMode` triad is only the author's declared posture; the standard is not cited as its source. | The Solution, `S-3`, B.3.4 currentness relation, and conformance rows require support only after profile election and keep claim, support, and posture separate. |
-| NIST's [Digital Thread for Manufacturing](https://www.nist.gov/programs-projects/digital-thread-manufacturing) programme | **Adapt** traceable model-based information, validation, and conformance across engineering, manufacturing, and quality. **Reject** a shared model, thread, exchange, or passing syntax check as proof of a world-side relation. | `tv:groundedBy`, the trace-family rule, and the two worked cases keep the support account versioned and inspectable while the direct relation and its own rule decide what obtains; a trace or evidence item creates neither the relation nor its identity. |
-| [SKOS / SKOS-XL (W3C, 2009)](https://www.w3.org/TR/skos-reference/#xl-label-relations) and [OWL 2 Direct Semantics (W3C, 2012)](https://www.w3.org/TR/owl2-direct-semantics/#Object_Property_Expression_Axioms) | **Adopt** the distinction between labels, relations between labels, and the relations they designate. OWL distinguishes equal property extensions from inverse properties with reversed participants. **Adapt** a directed local alias under E.10; neither a generic SKOS-XL label relation nor property equivalence supplies that declaration’s complete meaning. | :5 defines designation endpoints, local use and participant positions. The assembly-glossary case shows why changing the label’s meaning and changing the actual assembly require different reconsideration. |
+| A.14's constructional comparison | **Adopt** construction and identity before relation choice. **Reject** both a universal collection-membership predicate and any inference from belonging either to parthood or to the impossibility of parthood. | `S-3.d/e`, `CC-CT2R-3/5/5a`, and the Fleet North case keep collection belonging and a separately grounded part claim distinct. |
+| [ISO/IEC/IEEE 15026-2:2022, *Assurance case*](https://www.iso.org/standard/80625.html) | **Adapt** its separate, maintained assurance-case structure: an elected support account stays inspectable and current beside the claim it supports. **Reject** a mandatory full assurance case for every Working-Model relation. The FPF-specific `validationMode` triad is only the author's declared posture; the standard is not cited as its source. | The Solution, `S-3`, B.3.4 currentness relation, and conformance rows require support only after profile election and keep claim, support, and posture separate. |
+| NIST's [Digital Thread for Manufacturing](https://www.nist.gov/programs-projects/digital-thread-manufacturing) programme | **Adapt** traceable model-based information, validation, and conformance across engineering, manufacturing, and quality. **Reject** a shared model, thread, exchange, or passing syntax check as proof of a world-side relation. | `tv:groundedBy`, the trace-family rule, and the two worked cases keep the support account versioned and inspectable while the relation and its own rule decide what obtains; a trace or evidence item creates neither the relation nor its identity. |
+| [SKOS / SKOS-XL (W3C, 2009)](https://www.w3.org/TR/skos-reference/#xl-label-relations) and [OWL 2 Direct Semantics (W3C, 2012)](https://www.w3.org/TR/owl2-direct-semantics/#Object_Property_Expression_Axioms) | **Adopt** the distinction between labels, relations between labels, and the relations they designate. OWL distinguishes equal property extensions from inverse properties with reversed participants. **Adapt** a directed local alias under E.10; neither a generic SKOS-XL label relation nor property equivalence supplies that declaration’s complete meaning. | :5 defines designation endpoints, local use and participant positions. The assembly-glossary case shows why changing the label’s meaning and changing the assembly require different reconsideration. |
 
 B.3.5 starts with a readable relation and adds the branch-specific account when the publication elects the profile. Keep the assertion and its support current under their applicable relation and assurance rules.
 

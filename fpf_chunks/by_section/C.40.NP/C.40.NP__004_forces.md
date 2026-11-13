@@ -6,12 +6,12 @@ section_id: "C.40.NP:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.NP/C.40.NP__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.40.NP — Continue from a Result to New Attainable Problems"
   - "C.40.NP:3 — Forces"
-line_start: 88861
-line_end: 88870
+line_start: 93125
+line_end: 93134
 dependencies:
   - "C.18"
   - "C.19"
@@ -31,8 +31,8 @@ keywords:
 | Force | Tension |
 | --- | --- |
 | Consolidation and novelty | A reliable result deserves reuse; a new limit can justify a different construction. |
-| Possibility and attainability | A newly imaginable problem still needs means for a useful next move. |
+| Possibility and attainability | A newly imaginable problem needs means for a useful next move. |
 | Immediate and future value | Investment in further capability can temporarily consume current output. |
 | Independent carriers | Useful cultural continuation can occur outside the original provider’s control. |
-| Honest evidence | Finite transitions can qualify mechanisms and actual growth, not infinite future success. |
+| Evidence limits | Finite transitions can qualify mechanisms and growth, not infinite future success. |
 

@@ -6,12 +6,12 @@ section_id: "A.6.3.CSC:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CSC/A.6.3.CSC__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.3.CSC — Controlled Semantic Coarsening: Shorten an Account for a Bounded Use"
   - "A.6.3.CSC:intro — Intro"
-line_start: 17827
-line_end: 17837
+line_start: 18656
+line_end: 18666
 dependencies:
   - "A.15"
   - "A.20"
@@ -36,8 +36,8 @@ keywords:
 > **Status:** Stable
 > **Normativity:** Normative unless marked informative
 
-**Placement.** `Controlled Semantic Coarsening` helps a practitioner make and bound a shorter account. Its exact branch is a specialization under `A.6.3 U.EpistemicViewing` for construction `c : X -> Y`, where exact source episteme `X` and exact receiving coarsened episteme `Y` concern the same exact EntityOfConcern and `Y` is admissible only for a narrower use under declared loss and return.
+**Placement.** `Controlled Semantic Coarsening` helps a practitioner make and bound a shorter account. Its exact branch is a specialization under `A.6.3 U.EpistemicViewing` for construction `c : X -> Y`, where source episteme `X` and receiving coarsened episteme `Y` concern the same EntityOfConcern and `Y` is admissible only for a narrower use under declared loss and return.
 
-**Builds on.** `C.2.1` for exact episteme identity and `A.6.3` for the exact same-EntityOfConcern construction `c : X -> Y`.
+**Builds on.** `C.2.1` for episteme identity and `A.6.3` for the same-EntityOfConcern construction `c : X -> Y`.
 
 

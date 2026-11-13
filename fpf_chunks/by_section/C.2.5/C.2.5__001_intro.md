@@ -6,12 +6,12 @@ section_id: "C.2.5:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.5/C.2.5__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.2.5 — Language-State Closure Degree — How Fixed Is the Current Candidate Space?"
   - "C.2.5:intro — Intro"
-line_start: 53905
-line_end: 53918
+line_start: 56140
+line_end: 56153
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -41,7 +41,7 @@ keywords:
 
 **Plain-name.** Language-state closure degree.
 
-**Use this pattern when.** Use C.2.5 when a governed `U.Episteme` publication must say how fixed its candidate space, route space, or frame space has become before endpoint use, reopening, or retreat.
+**Use this pattern when.** Use C.2.5 when a `U.Episteme` publication must say how fixed its candidate space, route space, or frame space has become before endpoint use, reopening, or retreat.
 
 **What goes wrong if missed.** A confident tone is mistaken for closure, closure is mistaken for truth or gate authority, or a closure drop leaves readers unable to tell which endpoint uses and route commitments remain supported.
 

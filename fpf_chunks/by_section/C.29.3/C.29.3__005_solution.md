@@ -6,12 +6,12 @@ section_id: "C.29.3:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29.3/C.29.3__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.29.3 — Computational Realization"
   - "C.29.3:4 — Solution"
-line_start: 70790
-line_end: 70887
+line_start: 73883
+line_end: 73980
 dependencies:
   - "A.3.3"
   - "A.6.1"
@@ -37,7 +37,7 @@ The second route must supply the result relation needed by the receiving work. T
 
 **Recover the needed result → prepare a representable input → construct the executing actions → interpret the output or behavior → compare the routes → repair the failed connection → use the sufficient result.**
 
-Enter at an already available contribution. A known device behavior can guide a revised formulation; a settled implementation can supply an operation within a larger computation.
+Enter at an available contribution. A known device behavior can guide a revised formulation; a settled implementation can supply an operation within a larger computation.
 
 #### C.29.3:4.1 - Determine what the receiving work needs
 
@@ -67,17 +67,17 @@ For each operation whose realization is unresolved, identify what the system doe
 
 When one logical operation spans several physical actions, examine the intervening states. Reserving a card, crossing a room boundary and returning the card are separate events. A visitor can be outside while the card is unavailable. Either show that the intervening behavior preserves the needed result, or change the model or the arrangement.
 
-For shared operation, determine how the same resource or state is accessed. Exclusive possession means that each card can be held by only one participant at a time. Independent copies of an available-card count require a different coordination mechanism. The applicable engineering or administrative method supplies that mechanism.
+For shared operation, determine how the same resource or state is accessed. Exclusive possession means that each card can be held by only one participant at a time. Independent copies of an available-card count require a different coordination mechanism. The engineering or administrative method supplies that mechanism.
 
 For repeated or timed operation, include completion, reset and ordering where they affect the result. Two relative increments add only when both are executed under the intended rule. Repeating an absolute target ordinarily asks for the same target again. An ongoing physical process can require a temporal model rather than a sequence of instantaneous assignments.
 
 A physical evolution can itself perform the computation. Determine which initial preparation, controls and interval make its readout useful. A sampler may use a stationary law; a finite-time estimator may use a transient. Choose the evolution and reading rule for the requested result.
 
-A.3.3 supplies the construction of state and permitted continuations. A.6.1:4.6 supplies the realization relation when a reusable operation declaration needs it. Their contributions leave the particular circuit, physical interaction or operating procedure to its subject method.
+A.3.3 supplies the construction of state and permitted continuations. A.6.1:4.6 supplies the realization relation when a reusable operation declaration needs it. Their contributions leave the circuit, physical interaction or operating procedure to its subject method.
 
 #### C.29.3:4.4 - Construct result interpretation
 
-Identify the state or indication that the receiver can actually obtain, and explain how it yields the computational result. Give its scale, reference, timing and aggregation rule wherever those change the answer. When several observations yield an estimate, include their dependence in the sampling argument; the number of readings alone does not determine the estimate's uncertainty.
+Identify the state or indication that the receiver can obtain, and explain how it yields the computational result. Give its scale, reference, timing and aggregation rule wherever those change the answer. When several observations yield an estimate, include their dependence in the sampling argument; the number of readings alone does not determine the estimate's uncertainty.
 
 Derive this interpretation from the executing relation. An input scale need not be the output scale. In the analog example below, each input uses one volt for ten units, while the output uses one volt for twenty units.
 
@@ -89,11 +89,11 @@ Use C.16 when reading the result requires a measurement model. Instrument loadin
 
 Work a small input through both routes with its meanings intact. Then establish why the required relation holds over the input range or histories for which the result will be used.
 
-For a finite case, a complete case analysis can suffice. For an invariant, show it in the initial state and show how every permitted operation preserves it. For an approximate result, propagate the relevant losses to the quantity used by the receiver. For a sampler or statistical estimator, compare the relevant distributions or estimation properties. Use the mathematical, numerical or empirical method appropriate to that claim.
+For a finite case, a complete case analysis can suffice. For an invariant, show it in the initial state and show how every permitted operation preserves it. For an approximate result, propagate the losses to the quantity used by the receiver. For a sampler or statistical estimator, compare the distributions or estimation properties. Use the mathematical, numerical or empirical method appropriate to that claim.
 
 For example, a required binary sampler gives output 1 with probability 0.5. Suppose the device model gives probability p between 0.49 and 0.51 under the intended preparation. The absolute discrepancy in that probability is at most 0.01, so it meets a tolerance of 0.02. Comparing two individual draws cannot establish or refute that distributional result. Estimating p from a finite run requires the sampling assumptions and uncertainty calculation appropriate to those observations.
 
-When the requested result contains several random components, compare their joint behavior. Suppose the target is a pair of independent fair bits. Preparing one fair bit B and returning (B,B) gives the right distribution at each output separately. But the target assigns probability 1/2 to unequal outputs; this system assigns probability 0. Using two independent draws gives each of the four pairs probability 1/4 and restores the requested result. The realization must provide that joint sampling behavior. When its observations are dependent, use the actual joint law or change how the second component is obtained.
+When the requested result contains several random components, compare their joint behavior. Suppose the target is a pair of independent fair bits. Preparing one fair bit B and returning (B,B) gives the right distribution at each output separately. But the target assigns probability 1/2 to unequal outputs; this system assigns probability 0. Using two independent draws gives each of the four pairs probability 1/4 and restores the requested result. The realization must provide that joint sampling behavior. When its observations are dependent, use the joint law or change how the second component is obtained.
 
 Choose changed cases from consequential features of the arrangement: an endpoint of the command range, a different initial state, an overlapping action or a possible indication error. These cases help locate failures. A sampled success supports the tested case; the broader argument supplies the broader conclusion.
 
@@ -117,5 +117,5 @@ When adapting the formulation and the apparatus together could improve the resul
 
 Give the usable realization, input conditions, interpreted consequence and the change that would require reconsideration. Preserve the derivation or operating explanation at the depth needed by its receiver; a short calculation may be enough.
 
-A conditional design can finish before a device is built. An observed execution can establish a result for its actual conditions. An identified incompatibility can stop an unsuitable implementation and open another. Further information or assurance is obtained when the receiving use requires its contribution.
+A conditional design can finish before a device is built. An observed execution can establish a result under its conditions. An identified incompatibility can stop an unsuitable implementation and open another. Further information or assurance is obtained when the receiving use requires its contribution.
 

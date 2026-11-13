@@ -1,27 +1,20 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.17.AUD"
-pattern_title: "PublicationUnit Stability Discipline - keep one publication unit stable enough to read honestly"
+pattern_title: "Keep a Publication Unit Stable (PublicationUnit Stability Discipline)"
 section_id: "E.17.AUD:End"
 section_title: "E.17.AUD:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD/E.17.AUD__013_e-17-aud-end.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "E.17.AUD — PublicationUnit Stability Discipline - keep one publication unit stable enough to read honestly"
+  - "E.17.AUD — Keep a Publication Unit Stable (PublicationUnit Stability Discipline)"
   - "E.17.AUD:End — E.17.AUD:End"
-line_start: 109472
-line_end: 109473
+line_start: 116220
+line_end: 116221
 dependencies:
-  - "A.10"
-  - "A.15"
-  - "A.15.4"
   - "A.16.0"
-  - "A.20"
-  - "A.21"
   - "A.7"
-  - "B.3"
-  - "C.11"
   - "C.2.1"
   - "C.2.2a"
   - "E.10"

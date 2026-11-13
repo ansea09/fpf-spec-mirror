@@ -6,12 +6,12 @@ section_id: "E.4.PFR:End"
 section_title: "E.4.PFR:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFR/E.4.PFR__014_e-4-pfr-end.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.4.PFR — Pattern-Framework Relation and Edition Discipline"
   - "E.4.PFR:End — E.4.PFR:End"
-line_start: 96071
-line_end: 96072
+line_start: 101217
+line_end: 101218
 dependencies:
   - "A.10"
   - "A.6.0"

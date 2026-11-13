@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.19.ECS"
-pattern_title: "Evaluation CharacteristicSpace Construction: Define What Counts as Better"
+pattern_title: "CharacteristicSpace Construction: Define What Counts as Better"
 section_id: "A.19.ECS:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ECS/A.19.ECS__010_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.19.ECS — Evaluation CharacteristicSpace Construction: Define What Counts as Better"
+  - "A.19.ECS — CharacteristicSpace Construction: Define What Counts as Better"
   - "A.19.ECS:8 — Consequences"
-line_start: 35224
-line_end: 35229
+line_start: 36722
+line_end: 36729
 dependencies:
   - "A.17-A.19"
   - "C.16"
@@ -29,7 +29,9 @@ keywords:
 
 ### A.19.ECS:8 - Consequences
 
-A conforming `A.19.ECS` result lets `E.22` ask a useful improvement-oriented quality-evaluation question and lets `E.23` run a repeated improvement loop without inventing values during the loop. It also gives object-specific evaluation patterns such as `E.21`, `E.9.DA`, `E.2.DA`, and `F.18` a common construction shape: evaluated object kind, use, contrast cases, coordinates, value meanings, evidence basis, result-row shape, calibration points, coordinate-specific payloads, protected trade-offs, status meanings, and local stop or reopen condition.
+A conforming `A.19.ECS` result lets `E.22` ask a useful improvement-oriented quality-evaluation question and lets `E.23` run a repeated improvement loop without inventing values during the loop.
+
+It also gives object-specific evaluation patterns such as `E.21`, `E.9.DA`, `E.2.DA`, and `F.18` a common construction shape: evaluated object kind, use, contrast cases, coordinates, value meanings, evidence basis, result-row shape, calibration points, coordinate-specific payloads, protected trade-offs, status meanings, and local stop or reopen condition.
 
 Reuse may require additional explanation of the evaluation's applicability, value meanings, evidence requirements and limits. When a local rubric is enough, keep the rubric local. When reuse is needed, carry the evaluation by value.
 

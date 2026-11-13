@@ -6,43 +6,19 @@ section_id: "A.2.3:8"
 section_title: "Promise-content use, delivery, evaluation, and evidence"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__011_promise-content-use-delivery-evaluation-and-evidence.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.2.3 — U.PromiseContent — Promised Outcomes and Acceptance Criteria"
   - "A.2.3:8 — Promise-content use, delivery, evaluation, and evidence"
-line_start: 5935
-line_end: 5993
+line_start: 6154
+line_end: 6222
 dependencies:
-  - "A.1.1"
-  - "A.10"
-  - "A.15.1"
-  - "A.15.2"
-  - "A.15.PROD"
-  - "A.2"
-  - "A.2.1"
   - "A.2.2"
-  - "A.2.6"
   - "A.2.8"
-  - "A.2.9"
-  - "A.3.1"
-  - "A.3.2"
-  - "A.6.1"
   - "A.6.C"
   - "A.6.P"
-  - "A.7"
-  - "B.3"
-  - "C.2.1"
   - "E.10"
   - "F.12"
-  - "F.9"
-  - "U.ClaimScope"
-  - "U.Episteme"
-  - "U.Method"
-  - "U.MethodDescription"
-  - "U.SystemRoleAssignment"
-  - "U.Work"
-  - "U.WorkPlan"
-  - "U.WorkScope"
 keywords:
   - "SLA"
   - "SLO"
@@ -80,9 +56,13 @@ PromisedOutcomeDeliveryRelation : U.Relation
   PromisedOutcomeSpecificationSlot: U.Episteme, U.EpistemeRef constrained to A.2.3:4.1.1 OutcomeSpec
 ```
 
-The relation obtains only when one `PromiseContentUse` occurrence has the delivery Work and promise-content edition as participants, that edition resolves the same `OutcomeSpec`, and the mode-specific conditions hold. `workSpec` tests selected Work facts. `resultSpec` tests the exact affected referent and selected post-work state; any actual-change, production, delivery, acceptance, receiving-use, or optional Delta-lens claim remains separately governed. Its occurrence key is `<DeliveryWorkOccurrenceSlot, PromisedOutcomeSpecificationSlot>`. The readable predicate is `deliversPromisedOutcome(W, OS)`. An episteme may assert that this relation obtains and evidence may support the assertion; neither makes the underlying facts satisfy the specification.
+The relation obtains only when one `PromiseContentUse` occurrence has the delivery Work and promise-content edition as participants, that edition resolves the same `OutcomeSpec`, and the mode-specific conditions hold. `workSpec` tests selected Work facts. `resultSpec` tests the exact affected referent and selected post-work state; any actual-change, production, delivery, acceptance, receiving-use, or optional Delta-lens claim remains separately governed.
 
-**Acceptance evaluation result.** Follow the §4.3 performer-and-Work route before saying that the evaluation Work enacts the Method selected in `acceptanceSpec`. Add F.6 only if this result must also state under which assignment the evaluation was performed. A MethodDescription is cited only when its edition-specific claims are used. Keep the operation application, result binding, optional verdict episteme, any identity-inception claim and independently established evidence-use relations separate. A.10's descriptive evidence-provenance account cites the relevant facts and records reliance for the bounded assertion use; a passing disposition requires the evidence demanded by that claim and its direct acceptance rule. The account and verdict do not make fulfilment obtain.
+Its occurrence key is `<DeliveryWorkOccurrenceSlot, PromisedOutcomeSpecificationSlot>`. The readable predicate is `deliversPromisedOutcome(W, OS)`. An episteme may assert that this relation obtains and evidence may support the assertion; neither makes the underlying facts satisfy the specification.
+
+**Acceptance evaluation result.** Follow the §4.3 performer-and-Work route before saying that the evaluation Work enacts the Method selected in `acceptanceSpec`. Add F.6 only if this result must also state under which assignment the evaluation was performed. A MethodDescription is cited only when its edition-specific claims are used. Keep the operation application, result binding, optional verdict episteme, any identity-inception claim and independently established evidence-use relations separate.
+
+A.10's descriptive evidence-provenance account cites the relevant facts and records reliance for the bounded assertion use; a passing disposition requires the evidence demanded by that claim and its direct acceptance rule. The account and verdict do not make fulfilment obtain.
 
 **`PromiseContentFulfilmentRelation : U.Relation`.** This derived relation obtains between one delivery-work occurrence and one promise-content edition when the conditions below hold.
 
@@ -92,11 +72,14 @@ PromiseContentFulfilmentRelation : U.Relation
   FulfilledPromiseContentSlot: U.PromiseContent, U.EpistemeRef
 ```
 
-The semantic predicate for this relation is satisfied only when `PromiseContentUse` obtains for the same work and promise-content participants, `PromisedOutcomeDeliveryRelation` obtains for that work and the `OutcomeSpec` resolved from that promise content, and the acceptance predicate declared by `acceptanceSpec` is satisfied for the exact delivery-work facts, affected or delivered entities, post-work state, and any direct delivery or acceptance relation required by the criterion. `PromiseContentFulfilmentRelation` obtains for the declared participants when that semantic predicate is satisfied. Its occurrence key is `<FulfilmentWorkOccurrenceSlot, FulfilledPromiseContentSlot>`. The readable predicate is `fulfilsPromiseContent(W, SC)`. A later evaluation may change the supported assertion about whether the relation obtains; it does not change relation identity. When satisfaction of any required predicate is unresolved, no positive fulfilment assertion is available for reliance.
+The semantic predicate for this relation is satisfied only when `PromiseContentUse` obtains for the same work and promise-content participants, `PromisedOutcomeDeliveryRelation` obtains for that work and the `OutcomeSpec` resolved from that promise content, and the acceptance predicate declared by `acceptanceSpec` is satisfied for the exact delivery-work facts, affected or delivered entities, post-work state, and any direct delivery or acceptance relation required by the criterion. `PromiseContentFulfilmentRelation` obtains for the declared participants when that semantic predicate is satisfied. Its occurrence key is `<FulfilmentWorkOccurrenceSlot, FulfilledPromiseContentSlot>`. The readable predicate is `fulfilsPromiseContent(W, SC)`.
+
+A later evaluation may change the supported assertion about whether the relation obtains; it does not change relation identity. When satisfaction of any required predicate is unresolved, no positive fulfilment assertion is available for reliance.
 
 Expose a relation-occurrence reference only when a downstream relation or claim needs that identity, such as a unit-of-delivery selector or a fulfilment measure. Otherwise use the readable predicate.
 
 > **Invariant:** `fulfilsPromiseContent(W, SC)` implies that `PromiseContentUse(W, SC, T)` obtains for some declared interval `T`, that `deliversPromisedOutcome(W, resolve(SC.promisedOutcomeSpecRef))` obtains, and that the acceptance criteria declared in `SC.acceptanceSpec` are satisfied. An exact evaluation-result episteme may support the corresponding assertion through independently established evidence-use relations cited in A.10's descriptive account; neither that episteme nor the account becomes a fulfilment-relation participant.
+>
 > **Counting rule:** Separate per-promise counts may each use the default one-unit-per-fulfilment rule. When aggregating counts across promise contents for the same Work occurrence, each applicable counting rule must state its `dedupeKeyRef` or cite its counting-policy episteme so the resulting quantities are not silently double counted.
 
 #### A.2.3:8.2 - Promise-content delivery measures
@@ -112,5 +95,8 @@ Until the membership judgements required by the selected counting rule and repor
 * **Cost‑to‑serve:** sum of `Γ_work` over `W✓` per resource category (A.15.1).
 
 Each resulting measurement-result claim is derived from selected facts about `U.Work` occurrences through its C.16 measurement template and named A.10 evidence relations. Make the measurement Method explicit when it affects interpretation; cite a `U.MethodDescription` only when the result claim depends on that edition's claims. Resource and time actuals belong to the performed `U.Work` occurrences.
-Aggregation across time uses the `Gamma_time` policy referenced by the named C.16 measurement template or acceptance specification; an unqualified KPI label does not select that policy. When a measure needs a B.1.4 temporal-phase aggregation of one carrier, recover the selected policy—for example, union of covered intervals or their convex hull—together with carrier identity, time window, the coverage and overlap conditions consumed by that policy, and admissible use. An adequate ordinary account can state the result; use a separate `ContextTemporalAggregation@Context` record when the receiving use needs it. If those one-carrier conditions do not hold, this example is inapplicable; state the aggregation actually required and apply its defining rule. Union and convex hull are policy choices, not defaults; `Gamma_time` does not select either by itself.
+
+Aggregation across time uses the `Gamma_time` policy referenced by the named C.16 measurement template or acceptance specification; an unqualified KPI label does not select that policy.
+
+When a measure needs a B.1.4 temporal-phase aggregation of one carrier, recover the selected policy—for example, union of covered intervals or their convex hull—together with carrier identity, time window, the coverage and overlap conditions consumed by that policy, and admissible use. An adequate ordinary account can state the result; use a separate `ContextTemporalAggregation@Context` record when the receiving use needs it. If those one-carrier conditions do not hold, this example is inapplicable; state the aggregation required and apply its defining rule. Union and convex hull are policy choices, not defaults; `Gamma_time` does not select either by itself.
 

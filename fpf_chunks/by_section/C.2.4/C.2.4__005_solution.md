@@ -6,12 +6,12 @@ section_id: "C.2.4:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.4/C.2.4__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.2.4 — Articulation Explicitness — How Explicit Is an Episteme's Meaning for Its Use?"
   - "C.2.4:4 — Solution"
-line_start: 53703
-line_end: 53757
+line_start: 55936
+line_end: 55990
 dependencies:
   - "A.13"
   - "A.15"
@@ -84,7 +84,7 @@ Use `C.2.8` to compare how much selected structure a reader can correctly extrac
 | `AE0` | a cue is felt or observed but cannot yet be stated as a stable question or contrast | preserve the source or cue without claiming a route |
 | `AE1` | a stable cue, question, contrast, or disturbance is nameable | an early cue publication becomes useful |
 | `AE2` | candidate anchors, participants, actions, fields, or meanings are visible, but the branch or structure remains partial | route candidates and missing pieces can be stated |
-| `AE3` | the governed claim structure is recoverable enough to choose its direct semantic branch | the relevant repair or authoring pattern may receive it if the local threshold is met |
+| `AE3` | the claim structure is recoverable enough to choose its direct semantic branch | the relevant repair or authoring pattern may receive it if the local threshold is met |
 | `AE4` | a complete branch-appropriate form is publishable with the participants, conditions, and bounds needed by the current use | the direct subject pattern can check or use the publication |
 | `AE5` | the meaning remains stable in one named receiving use, and a later change can be reviewed without reconstructing it from the source | the receiving use is straightforward; the level alone does not settle truth, closure, trust, or use authorization |
 

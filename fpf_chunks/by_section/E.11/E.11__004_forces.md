@@ -6,12 +6,12 @@ section_id: "E.11:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:3 — Forces"
-line_start: 102771
-line_end: 102784
+line_start: 108565
+line_end: 108578
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"
@@ -44,5 +44,5 @@ keywords:
 | Durable reliance | Only a named later review, replay, audit, automation, or costly decision justifies addressable comparison history. |
 | No duplicate canon | README, architectural reference, ToC, retrieval, expanded cases, and local `Problem frame` sections keep different jobs. |
 | Didactic continuity | A public entry gives a readable example or walkthrough, not only a PatternID list. |
-| Corpus evolution | Repair the smallest affected entry and its true consumers when a direct pattern's result, boundary, or recognition condition changes. |
+| Corpus evolution | Repair the smallest affected entry and the publications or uses that depend on it when a direct pattern's result, boundary, or recognition condition changes. |
 

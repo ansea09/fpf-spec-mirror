@@ -6,12 +6,12 @@ section_id: "E.10.D2:10"
 section_title: "Anti-patterns and repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__011_anti-patterns-and-repairs.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:10 — Anti-patterns and repairs"
-line_start: 102563
-line_end: 102577
+line_start: 108349
+line_end: 108363
 dependencies:
   - "A.7"
   - "C.2.1"
@@ -47,5 +47,5 @@ keywords:
 | **Publication as authority** | Availability, an approval mark, card, dashboard, or file is treated as permission, evidence, assurance, gate result, decision, or work. | Recover the exact publication occurrence, then apply the direct governor for the stronger claim. |
 | **Carrier identity** | A file path, screen, sheet, or repository entry is treated as the episteme or EntityOfConcern. | Identify the exact carrier and bearing relation while keeping form, publication occurrence, episteme, and EntityOfConcern separate. |
 | **Status-state leakage** | Evidence, requirement, approval, or standard status becomes an assignment-state relation or runtime value. | Keep status claims on their exact epistemic or deontic subject; use A.2.5 only for one exact `U.SystemRoleAssignment` satisfying one `SystemRoleAssignmentStatePredicate`. |
-| **Episteme-role shortcut** | “The standard plays the compliance role”; “the evidence has the approval role”; “the source authorizes work.” | Recover the exact standard-use, evidence-use, source-use, assurance-use, gate-use, or publication-use relation. For a claimed Work use, name the exact premise, governed reference, decision-use relation, or A.6.1 operation-argument binding and its actual participants; if no direct governor supplies the needed predicate and participants, return the exact `missing-governor` result. Reserve `U.SystemRoleAssignment` for exact assignments of independently admitted systems to local system-role kinds. |
+| **Episteme-role shortcut** | “The standard plays the compliance role”; “the evidence has the approval role”; “the source authorizes work.” | Recover the exact standard-use, evidence-use, source-use, assurance-use, gate-use, or publication-use relation. For a claimed Work use, name the exact premise, governed reference, decision-use relation, or A.6.1 operation-argument binding and its actual participants; if no direct governor supplies the needed predicate and participants, return `missing-governor`. Reserve `U.SystemRoleAssignment` for exact assignments of independently admitted systems to local system-role kinds. |
 

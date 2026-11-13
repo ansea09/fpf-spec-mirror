@@ -6,12 +6,12 @@ section_id: "C.29.2:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29.2/C.29.2__013_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.29.2 — Computational Formulation"
   - "C.29.2:12 — Relations"
-line_start: 70738
-line_end: 70750
+line_start: 73831
+line_end: 73843
 dependencies:
   - "A.10"
   - "A.3.1"
@@ -40,7 +40,7 @@ keywords:
 - **Uses A.3.3:** constructs sufficient state and permitted continuations, including control and retained history when required.
 - **Uses A.6.3.RT:** constructs expressions under available notation rules and checks the content of a representation change. Notation- or language-design methods supply missing rules.
 - **Uses C.39 and C.40 by their entry conditions:** obtains a missing way, or develops branching search when a workable change-and-test operation is available.
-- **Uses subject Methods:** algorithm design, numerical analysis, symbolic computation and other computational disciplines supply their specific constructions, proofs and cost models. C.16 and physical-modeling methods supply measurement and empirical conditions when the requested result depends on them.
+- **Uses subject Methods:** algorithm design, numerical analysis, symbolic computation and other computational disciplines supply their constructions, proofs and cost models. C.16 and physical-modeling methods supply measurement and empirical conditions when the requested result depends on them.
 - **Coordinates with A.3.1, A.6.1, B.1.5 and B.1.6:** Method identity, an explicitly needed operation declaration, composition of identified Methods and resource accounting for performed Work remain under those patterns. A description of a procedure is not a claim that its execution occurred.
-- **Uses C.2.1, A.10 and B.3 for the corresponding claims:** C.2.1 governs episteme identity, A.10 governs evidence use, and B.3 governs assurance of the particular result and reliance being asserted.
+- **Uses C.2.1, A.10 and B.3 for the corresponding claims:** C.2.1 governs episteme identity, A.10 governs evidence use, and B.3 governs assurance of the result and reliance being asserted.
 

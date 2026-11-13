@@ -6,12 +6,12 @@ section_id: "E.24:5.8"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24/E.24__013_sota-echoing.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.24 — U.Ontic and Ontic Introduction Discipline"
   - "E.24:5.8 — SoTA-Echoing"
-line_start: 116550
-line_end: 116579
+line_start: 123991
+line_end: 124020
 dependencies:
   - "A.19.ECS"
   - "A.6.0"
@@ -52,9 +52,9 @@ E.24 does not claim to replace ontology engineering, OWL-style formal ontology, 
 | [Norouzi, Hertling, Waitelonis, and Sack 2025 process-representation ODP work](https://arxiv.org/abs/2509.23776). | Process ontologies and workflow ontologies often contain implicit design patterns; reuse suffers when those patterns are not explicit and accessible to domain experts. | Adopt as a caution for any process-like or temporal subject: a bounded local episteme carries only the claims and references needed for one use; reusable process, method, work, or temporal ontology stays explicit. If such material needs a durable ontic, state its direct relation kinds, participant meanings, obtaining and occurrence-identity rules, and subject patterns. |
 | [Almeida, Guizzardi, Sales, and Fonseca 2026 gUFO](https://arxiv.org/abs/2603.20948); UFO and OntoUML role, relator, situation, and high-order type practice. | Current foundational-ontology work uses type typology, reification of intrinsic and relational aspects, situations, and high-order types to avoid naive taxonomic flattening. | Use as a stress comparator without importing its taxonomy or assignment architecture: route bare *role* through E.10.ROLE, recover which object is current, and follow A.2/C.3.2, A.2.1, A.6.5, or F.6 for that object's own rule content. |
 
-For the working reader, these rows discipline named parts of the method. The SKOS and OWL baseline bounds taxonomy-only use in `E.24:4.1` and `E.24:5.4`; modular ontology patterns support the reusable ontic and subject-pattern move in `E.24:4.3` and `E.24:4.4`; interoperability work supports the stable-identity and currentness tests; process-representation work disciplines the workflow case in `E.24:5.2`; and gUFO supplies a stress comparator for recovering the exact object behind *role* without importing or repeating its ontology.
+The SKOS and OWL baseline bounds taxonomy-only use in `E.24:4.1` and `E.24:5.4`; modular ontology patterns support the reusable ontic and subject-pattern move in `E.24:4.3` and `E.24:4.4`; interoperability work supports the stable-identity and currentness tests; process-representation work disciplines the workflow case in `E.24:5.2`; and gUFO supplies a stress comparator for recovering the exact object behind *role* without importing or repeating its ontology.
 
-This SoTA echo justifies a bounded conclusion: FPF ontology can remain more compact than a taxonomy-only design when one governed subject needs stable identity, several coordinated direct relations, reusable declarations, and dependent patterns. It does not make every modular ontology pattern an FPF ontic. External source content changes an ontic-introduction decision only when an accepted source-use decision selects it for the subject under concern; current FPF use still depends on the resulting subject pattern.
+These comparisons support the conclusion that FPF ontology can remain more compact than a taxonomy-only design when one governed subject needs stable identity, several coordinated direct relations, reusable declarations, and dependent patterns. The comparisons do not establish that every modular ontology pattern is an FPF ontic. External source content changes an ontic-introduction decision only when an accepted source-use decision selects it for the subject under concern; current FPF use still depends on the resulting subject pattern.
 
 Use external sources when one ontic or subject matter itself depends on a source tradition. Put that source decision in the DRR and in the pattern description containing the exact rule content for that subject matter. Do not make E.24 contain a borrowed external theory of every durable ontic.
 

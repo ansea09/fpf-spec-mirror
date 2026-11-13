@@ -6,12 +6,12 @@ section_id: "B.5.MPC:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.MPC/B.5.MPC__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.5.MPC — Connect Physical, Mathematical and Computational Reasoning"
   - "B.5.MPC:2 — Problem"
-line_start: 47051
-line_end: 47058
+line_start: 49007
+line_end: 49014
 dependencies:
   - "A.15.9"
   - "A.3.3"
@@ -37,7 +37,7 @@ keywords:
 
 Individually correct contributions can fail to support a joint result. A physical model may concern accumulated wheel rotation, a mathematical variable may represent orientation modulo one turn, and a program may accept an absolute target. Each account can be consistent while their composition loses the displacement that the user requested.
 
-The same difficulty occurs without numerical approximation. A graph can correctly encode a chosen contact list, and a program can correctly colour that graph, while the contact list omits an actual mesh. A count invariant can be proved while the proposed admission procedure creates two independent stocks of cards. Improving the proof or the program leaves the missing physical correspondence untouched.
+The same difficulty occurs without numerical approximation. A graph can correctly encode a chosen contact list, and a program can correctly colour that graph, while the contact list omits a mesh. A count invariant can be proved while the proposed admission procedure creates two independent stocks of cards. Improving the proof or the program leaves the missing physical correspondence untouched.
 
-A simple division into “physics first, mathematics second, implementation last” also fails when a later contribution exposes an earlier omission. The interface may require initial state that the first model discarded. A measurement may distinguish fewer cases than the calculation assumes. A mathematical obstruction may make further computation unnecessary. The practitioner needs a way to construct the dependencies, use an available contribution at its point of need, and return a failure to the contribution that can change it.
+A division into “physics first, mathematics second, implementation last” also fails when a later contribution exposes an earlier omission. The interface may require initial state that the first model discarded. A measurement may distinguish fewer cases than the calculation assumes. A mathematical obstruction may make further computation unnecessary. The practitioner needs a way to construct the dependencies, use an available contribution at its point of need, and return a failure to the contribution that can change it.
 

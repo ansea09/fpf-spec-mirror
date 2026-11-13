@@ -6,12 +6,12 @@ section_id: "C.2.7:18"
 section_title: "Review Matrix and Extension Tests"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.7/C.2.7__019_review-matrix-and-extension-tests.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.2.7 — LanguageStateRepresentationFactorBundle — How Is the Representation Organized?"
   - "C.2.7:18 — Review Matrix and Extension Tests"
-line_start: 54463
-line_end: 54481
+line_start: 56712
+line_end: 56730
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -45,10 +45,10 @@ An assurance reader should ask:
 - has representation talk started to replace articulation, closure, or source and use claims.
 
 #### C.2.7:18.2 - Local extension test
-An additional factor is justified only if it captures a distinct representational question that cannot be reduced to locality, sparsity, or symbolicity. The extra factor should extend the bundle, not become a rival master factor.
+An additional factor is justified only if it captures a distinct representational question that cannot be reduced to locality, sparsity, or symbolicity. The extra factor should extend the bundle, not become a master factor.
 
 #### C.2.7:18.3 - Migration test for source terminology
-For a source term such as "symbolic", "distributed" or "encoding basis", retain its source-local meaning and scope. If an FPF comparison needs factor readings, establish which factors the source actually supports and leave the others unresolved. Mere citation of the source term needs no reconstruction into a complete bundle. Test any further cross-facet claim separately.
+For a source term such as "symbolic", "distributed" or "encoding basis", retain its source-local meaning and scope. If an FPF comparison needs factor readings, establish which factors the source supports and leave the others unresolved. Mere citation of the source term needs no reconstruction into a complete bundle. Test any further cross-facet claim separately.
 
 #### C.2.7:18.4 - Bundle-comparison reminder
 Representation bundles may be compared across contexts only after the compared factors are explicit. If one context uses a compact local alias and another publishes the full factor bundle, require explicit docking before treating the two descriptions as commensurable.

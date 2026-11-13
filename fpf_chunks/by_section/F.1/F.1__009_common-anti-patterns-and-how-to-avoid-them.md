@@ -6,12 +6,12 @@ section_id: "F.1:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.1/F.1__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.1 — Find and Select Sources for a Current Question"
   - "F.1:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 118960
-line_end: 118979
+line_start: 126559
+line_end: 126578
 dependencies:
   - "A.10"
   - "A.7"
@@ -46,7 +46,7 @@ keywords:
 | Designed-versus-performed collapse | A design description is treated as a performed occurrence. | State the source role and the time distinction it contributes. |
 | Search score as gate | Rank, distance, threshold, or model answer admits or excludes a source. | Use the reading to prioritize inspection; decide from the source's contribution. |
 | Variant becomes the question | A broader query drops a condition, and the returned passage answers that broader question instead. | Preserve the original concern and restore its conditions during candidate inspection. |
-| Locator becomes source | A title or excerpt is treated as inspection of the unavailable original. | Return what was actually inspected, its address and missing context; retain the original as an inaccessible lead. |
+| Locator becomes source | A title or excerpt is treated as inspection of the unavailable original. | Return the material inspected, its address and missing context; retain the original as an inaccessible lead. |
 | No hit becomes absence | One phrase or limited index finds nothing, so the whole repertoire is declared empty. | State the route's reach, repair a consequential blind spot if feasible, or return the scoped gap. |
 | Exhaustive pretense | A small cut is reported as complete literature coverage or saturation. | State its question-relative limits and use the domain review method when needed. |
 | Compact-note inflation | The one-screen representation grows into a second source analysis. | Keep the ClaimGraph concise and place detailed analysis with the receiving work. |

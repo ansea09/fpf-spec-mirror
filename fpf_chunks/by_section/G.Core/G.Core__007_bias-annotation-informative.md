@@ -6,12 +6,12 @@ section_id: "G.Core:6"
 section_title: "Bias-annotation (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.Core/G.Core__007_bias-annotation-informative.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.Core — Discipline SoTA Kit Invariants, Defaults and Refresh Triggers (Part G)"
   - "G.Core:6 — Bias-annotation (informative)"
-line_start: 126733
-line_end: 126744
+line_start: 134783
+line_end: 134794
 dependencies:
   - "A.15.3"
   - "A.19"
@@ -34,13 +34,13 @@ keywords:
 
 ### G.Core:6 - Bias-annotation (informative)
 
-* **Centralization bias:** One governing hub can become too thick. Mitigation: delegation-first citation; keep only true Part‑G invariants and typed indices here.
+* **Centralization bias:** One governing hub can become too thick. Mitigation: delegation-first citation; keep only Part‑G‑wide invariants and typed indices here.
 * **Over-typing bias:** A trigger catalogue can become overly granular. Mitigation: granularity discipline + scope notes; only add new kinds when planning/selection needs it.
 * **Refactor rigidity bias:** Preserving IDs can feel cumbersome. Mitigation: delegation items preserve IDs while enabling deduplication.
 * **Default absolutism bias:** Defaults may require conditional rules. Mitigation: Default Governing Definition Index allows conditional default rules with explicit applicability conditions.
 
 * **Pragmatic bias:** adds authoring overhead (linkage sections, alias maps).
-  *Mitigation:* one small mandatory bridge CC item per pattern (`CC‑Gx‑CoreRef`) and short linkage slices only.
+  *Mitigation:* For ordinary linkage, cite the obligations with their use conditions directly or use a short linkage section. When moving shared norms from a `G.x` into `G.Core`, put exactly one `CC‑Gx‑CoreRef` first in the affected checklist (§4.5).
 * **Didactic bias:** risks “glossy hub prose” that hides missing CC coverage.
   *Mitigation:* enforce CC/Solution coherence (E.19) and keep invariants checkable via `CC‑GCORE‑…`.
 

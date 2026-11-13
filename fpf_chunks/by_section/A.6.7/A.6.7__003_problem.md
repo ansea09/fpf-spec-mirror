@@ -6,12 +6,12 @@ section_id: "A.6.7:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.7/A.6.7__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.7 — MechSuiteDescription — Shared Conditions for Joint Use of Distinct Mechanisms"
   - "A.6.7:2 — Problem"
-line_start: 24096
-line_end: 24109
+line_start: 25017
+line_end: 25030
 dependencies:
   - "A.21"
   - "A.6.1"
@@ -45,7 +45,7 @@ The suite user needs one description that can:
 2. declare **shared obligations** that must hold across the set (e.g., crossing visibility, admissibility-citation discipline, guard decision format, penalty routing),
 3. provide **shared spec pins** (e.g., “this suite is governed by CN-Spec and CG-Spec”), without duplicating those spec contents,
 4. constrain **allowed protocols** of use (allowed pipelines / permitted ordering), without turning the suite into a mechanism, and
-5. preserve strict distinction among:
+5. preserve the distinction among:
 
    * a description of several distinct mechanism contracts (`MechSuiteDescription`),
    * a description of realizations of one contract (`MechFamilyDescription`),

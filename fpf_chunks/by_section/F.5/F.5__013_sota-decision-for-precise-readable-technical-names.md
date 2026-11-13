@@ -6,12 +6,12 @@ section_id: "F.5:11"
 section_title: "SoTA Decision for Precise, Readable Technical Names"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__013_sota-decision-for-precise-readable-technical-names.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.5 — Name U-kinds, Local System-Role Kinds and SystemRoleKindDescriptions"
   - "F.5:11 — SoTA Decision for Precise, Readable Technical Names"
-line_start: 120104
-line_end: 120119
+line_start: 127731
+line_end: 127746
 dependencies:
   - "A.10"
   - "A.15"
@@ -58,7 +58,7 @@ The bounded question is: **after the object is recovered, what is the smallest n
 | Current line | Strong contribution | Limit at comparable one-name effort | FPF decision and receiving locus |
 | --- | --- | --- | --- |
 | [ISO 704:2022](https://www.iso.org/standard/79077.html) and [ISO 1087:2019](https://www.iso.org/standard/62330.html) | Separate objects, concepts, definitions, and designations; make concept relations and term formation inspectable. | Terminology work does not itself admit the FPF object, decide a system-role kind, make an assignment obtain, or state the direct use and publication boundaries. | **Adopt** naming after meaning, minimal generality, and inspectable term formation in sections 4.1-4.3 and checks `CC-F5-1` to `CC-F5-4`. **Reject** a preferred term or definition as object admission. |
-| W3C Ontology-Lexica Community Group, [OntoLex-Lemon](https://www.w3.org/2016/04/ontolex/), 2016 Community Report | Separates lexical entry, written and morphological form, lexical sense, ontology reference, usage conditions, and sense relations. | A full lexical graph and syntax-semantics model is excessive for one local Tech/Plain pair, and its reference relation does not establish FPF object identity or reuse authority. | **Adapt** object-sensitive morphology and the separation of name, sense, and referent in sections 4.1-4.4. **Reject** mandatory full lexicon modeling; use F.18 only when durable naming actually needs a card. |
+| W3C Ontology-Lexica Community Group, [OntoLex-Lemon](https://www.w3.org/2016/04/ontolex/), 2016 Community Report | Separates lexical entry, written and morphological form, lexical sense, ontology reference, usage conditions, and sense relations. | A full lexical graph and syntax-semantics model is excessive for one local Tech/Plain pair, and its reference relation does not establish FPF object identity or reuse authority. | **Adapt** object-sensitive morphology and the separation of name, sense, and referent in sections 4.1-4.4. **Reject** mandatory full lexicon modeling; use F.18 only when durable naming needs a card. |
 | [ISO 24495-1:2023](https://www.iso.org/standard/78907.html), current published plain-language standard | Requires written information that intended readers can find, understand, and use; it explicitly applies to technical writing and controlled languages. | Plain-language quality does not settle ontology, reference, or term identity, and a shorter familiar word can still widen the meaning. | **Adopt** the reader-use check and, when that use needs it, one short Plain designation in section 4.2 and `CC-F5-4`. **Reject** simplification that changes the recovered value or removes a live distinction. |
 | W3C [SKOS Reference](https://www.w3.org/TR/skos-reference/), Recommendation 2009 | Keeps preferred and alternative labels, notes, concepts, collections, and mapping relations distinct. | It is useful lineage for labels and aliases but does not model enough morphology or decide FPF kind, assignment, Work, evidence, or publication claims. | **Retain as lineage** for aliases and cross-local caution in rules 8-9 and `CC-F5-6`/`CC-F5-9`; do not treat a shared label or generic mapping as a Bridge or common referent. |
 

@@ -6,12 +6,12 @@ section_id: "E.10:17"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__019_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:17 — Rationale"
-line_start: 100532
-line_end: 100540
+line_start: 106174
+line_end: 106182
 dependencies:
   - "A.10"
   - "A.15"
@@ -62,8 +62,8 @@ keywords:
 
 Wording mistakes in FPF usually matter because they hide an ontology choice, relation and participants, declaration slot, participant designation, representation correspondence, source-use relation, admissible-use boundary, or applicable pattern. A synonym replacement can make the sentence smoother while changing the claim. `E.10` therefore starts with the connected F.19 reading. Only an unresolved FPF wording question opens a cue and the smallest pattern contribution needed to recover it.
 
-The lexical rule content stays deliberately limited. It is not the ontology for evidence, assurance, work, gate, decision, publication, architecture, characteristic, temporal, role, method, mathematical-lens, or source-use claims. It only prevents wording from smuggling those claims in under broad heads. Once the recovered object or relation is visible, apply the relevant pattern or continue the ordinary task. Name an exact subject assertion or `ClaimGraph` only when truth, action, comparison, publication, reuse, or reliance depends on that identity; a PatternID may remain an ordinary citation. The fuller form `System S used Method M while performing Work W` remains correct when actor, Method, and Work identity are themselves part of the claim, but it is not the default paraphrase of `apply pattern P`.
+The lexical rule content stays limited. It is not the ontology for evidence, assurance, work, gate, decision, publication, architecture, characteristic, temporal, role, method, mathematical-lens, or source-use claims. It only prevents wording from smuggling those claims in under broad heads. Once the recovered object or relation is visible, apply the relevant pattern or continue the ordinary task. Name an exact subject assertion or `ClaimGraph` only when truth, action, comparison, publication, reuse, or reliance depends on that identity; a PatternID may remain an ordinary citation. The fuller form `System S used Method M while performing Work W` remains correct when actor, Method, and Work identity are part of the claim, but it is not the default paraphrase of `apply pattern P`.
 
-The conformance prompts are bounded so lexical governance does not become a corpus-wide purity ritual. A local repair should restore composability, reader action, and admissible use; when it cannot do that, the honest result is quote-only use, reduced-use cue, blocked use, or an incomplete rewrite rather than a more polished umbrella word.
+The conformance prompts are bounded so lexical governance does not become a corpus-wide purity ritual. A local repair should restore composability, reader action, and admissible use; when it cannot do that, the result is quote-only use, reduced-use cue, blocked use, or an incomplete rewrite rather than a more polished umbrella word.
 
 

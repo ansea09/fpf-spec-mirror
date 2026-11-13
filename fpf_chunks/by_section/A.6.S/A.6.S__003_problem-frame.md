@@ -6,12 +6,12 @@ section_id: "A.6.S:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.S/A.6.S__003_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.S — TargetSignature and optional ConstructorSignature - demand-driven signature engineering"
   - "A.6.S:1 — Problem frame"
-line_start: 24898
-line_end: 24915
+line_start: 25819
+line_end: 25836
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -44,8 +44,8 @@ Boundary descriptions often arrive as “half-signatures”: an n-ary relation i
 
 A.6.5, A.6.6, A.6.2-A.6.4, and E.17 already govern several different moves that may occur during that work. The missing discipline is not a universal engineering container. It is a proportional choice:
 
-1. state the actual edit, relation, arrow, application, Work, edition, or view and stop when that answers the use; or
-2. when a named receiver needs the same constructor vocabulary and laws again, identify a separate ConstructorSignature and state the exact dependency or use that connects it to the work.
+1. state the edit, relation, arrow, application, Work, edition, or view and stop when that answers the use; or
+2. when a named receiver needs the same constructor vocabulary and laws again, identify a separate ConstructorSignature and state the dependency or use that connects it to the work.
 
 Without that choice, four failures recur:
 

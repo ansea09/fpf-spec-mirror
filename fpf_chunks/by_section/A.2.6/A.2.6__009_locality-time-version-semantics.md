@@ -6,12 +6,12 @@ section_id: "A.2.6:8"
 section_title: "Locality, Time & Version Semantics"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__009_locality-time-version-semantics.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Test Scope Membership and Combine Scopes"
   - "A.2.6:8 — Locality, Time & Version Semantics"
-line_start: 7097
-line_end: 7120
+line_start: 7418
+line_end: 7441
 dependencies:
   - "A.1.1"
   - "A.15.1"
@@ -41,7 +41,7 @@ Do not assume that a similarly named selector elsewhere has the same sense. Use 
 
 #### A.2.6:8.2 - Time selector `Γ_time`
 
-When membership depends on time, the scope predicate and target slice name an exact `gammaTime` point, interval, or policy and state which boundary changes a slice from member to non-member or back. Implicit “latest” is forbidden. A time-independent predicate need not inspect `gammaTime`. Keep every selector already declared in the slice schema; do not invent a time selector merely to complete a new declaration. Evidence freshness remains a separate R-lane predicate.
+When membership depends on time, the scope predicate and target slice name an exact `gammaTime` point, interval, or policy and state which boundary changes a slice from member to non-member or back. Implicit “latest” is forbidden. A time-independent predicate need not inspect `gammaTime`. Keep every selector already declared in the slice schema; do not add a time selector merely to complete a new declaration. Evidence freshness remains a separate R-lane predicate.
 
 #### A.2.6:8.3 - Standards, versions & notations
 
@@ -49,7 +49,7 @@ When a standard, interface, or schema edition affects membership, name the exact
 
 #### A.2.6:8.4 - Determinism of evaluation
 
-For a fixed exact scope, exact slice, and available evaluation inputs, the evaluation method returns one reproducible result. `false` stops the attempted use. `unknown` also blocks admission but does not assert non-membership.
+For a fixed scope, slice, and available evaluation inputs, the evaluation method returns one reproducible result. `false` stops the attempted use. `unknown` also blocks admission but does not assert non-membership.
 
 #### A.2.6:8.5 - Interaction with R (freshness & decay)
 

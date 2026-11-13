@@ -6,12 +6,12 @@ section_id: "E.4.PFAD:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFAD/E.4.PFAD__013_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.4.PFAD — Principle-Framework Architecture Decision"
   - "E.4.PFAD:12 — Relations"
-line_start: 94635
-line_end: 94648
+line_start: 99424
+line_end: 99437
 dependencies:
   - "A.15.1"
   - "A.22"
@@ -54,14 +54,14 @@ keywords:
 ### E.4.PFAD:12 - Relations
 
 - **Uses:** `E.9` to record the one bounded answer selected by the decision-maker during decision Work.
-- **Uses:** `C.11.DUA`, `C.11.CRC` and `C.19.2` for worthwhile comparison and its burden; `C.2.8` for attainable structure; `C.31` for the modularity and reuse questions that matter.
+- **Uses:** `C.11.DUA`, `C.11.CRC` and `C.19.2` for worthwhile comparison and its burden, `C.2.8` for attainable structure, and `C.31` for the modularity and reuse questions that matter.
 - **Coordinates with:** `E.8:4.2.1.1`, `E.11` and `E.11.PFP` for method explanation, pedagogical companions and usable publication/access routes.
 - **Uses:** `E.4`, `E.4.DPF`, and `E.4.DPF.DA` for framework scale, authoring, field coverage, and package assurance; uses `E.4:4.2` when one decision selects a DPF Suite and `E.11.DSG` when that Suite has a problem-led DPF Suite Reference.
 
-- **Uses:** `C.32.MWA` when several practice structures need one readable synthesis; uses `E.23.CDI` only when capability development for a named Work family changes the answer.
-- **Uses:** `A.6.RCD`, `A.6.REL`, and the exact relation patterns for material relation assertions among initial patterns.
-- **Coordinates with:** `A.22`, `C.30.STRAT`, `B.1.5`, `A.15.1`, `C.30.AD`, and `C.36` for selected structures and exact architecture distinctions.
+- **Uses:** `C.32.MWA` when several practice structures need one readable synthesis. Use `E.23.CDI` only when capability development for a named Work family changes the answer.
+- **Uses:** `A.6.RCD`, `A.6.REL`, and the patterns that define those relations for material relation assertions among initial patterns.
+- **Coordinates with:** `A.22`, `C.30.STRAT`, `B.1.5`, `A.15.1`, `C.30.AD`, and `C.36` for selected structures and architecture distinctions.
 - **Coordinates with:** `E.4.PFR` for framework-edition dependency predicates and optional relation and edition maintenance representations.
-- **Coordinates with:** `C.32.PAD` for an exact project architecture decision, `C.32.ADR` for its ADR-like projection, and `E.17` with `E.24.PUB` for publication of an ordinary framework answer.
+- **Coordinates with:** `C.32.PAD` for a project architecture decision about a named composite project Work, `C.32.ADR` for its ADR-like projection, and `E.17` with `E.24.PUB` for publication of an ordinary framework answer.
 - **Coordinates with:** `F.18`, `G.2`, `G.11`, `E.21`, `E.23`, and `E.19` only when naming, source synthesis, refresh, improvement, or admission is current for the selected answer.
 

@@ -6,12 +6,12 @@ section_id: "C.3.A:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.A/C.3.A__011_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.3.A — Typed Guard Macros for Kinds + USM (Annex)"
   - "C.3.A:10 — Rationale"
-line_start: 56438
-line_end: 56718
+line_start: 58754
+line_end: 59044
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -33,7 +33,7 @@ keywords:
 
 ### C.3.A:10 - Rationale
 
-One final allow/refuse bit is operationally convenient but ontologically poor. Keeping declarations, candidate judgments, Scope, bridges, evidence, and disposition separate lets a reviewer see which repair is needed and prevents a guard from becoming a hidden relation, assertion, or evidence-to-truth converter.
+One final allow/refuse bit is operationally convenient but omits the distinctions behind the decision. Keeping declarations, candidate judgments, Scope, bridges, evidence, and disposition separate lets a reviewer see which repair is needed and prevents a guard from becoming a hidden relation, assertion, or evidence-to-truth converter.
 
 #### C.3.A:Annex A - Regulatory and compliance alignment [A/I]
 
@@ -53,7 +53,9 @@ Regulations name categories such as Adult person, Class II medical device, Perso
 
 **C-REG-2 (Kind correspondence).** Cross-context category use SHALL first compare authority and local kind definitions. If the receiving policy relies on a directional correspondence between distinct kinds, it SHALL recover an obtaining KindBridge relation between exact authority and local kinds plus a separate bridge assertion with mapping, pinned editions, preservation/loss, evidence, definedness, admitted use, and any `CL^k` required by the consumed assurance or calibration account.
 
-**C-REG-3 (Scope).** Jurisdiction, effective dates, grace periods, and other genuinely contextual applicability conditions SHALL be Claim scope over exact context slices with explicit `Gamma_time`. A product-family or platform distinction belongs in Scope only when it is genuinely a context-slice dimension of the claim; when it classifies the target entity, recover it as an exact kind and, for candidate-bearing use, an exact candidate judgment. A direct candidate feature remains with its own governor and SHALL NOT be smuggled into Scope.
+**C-REG-3 (Scope).** Jurisdiction, effective dates, grace periods, and other contextual applicability conditions SHALL be Claim scope over exact context slices with explicit `Gamma_time`.
+
+A product-family or platform distinction belongs in Scope only when it is a context-slice dimension of the claim; when it classifies the target entity, recover it as an exact kind and, for candidate-bearing use, an exact candidate judgment. A direct candidate feature remains with its own governor and SHALL NOT be treated as a Scope condition.
 
 **C-REG-4 (No synonym shortcut).** A legal label, translation row, or policy card SHALL NOT substitute for the KindBridge relation, its assertion, or the target declaration.
 
@@ -113,7 +115,7 @@ Regulations name categories such as Adult person, Class II medical device, Perso
 4. Rewrite candidate-bearing guards to pin candidate, local kind, signature edition, and slice.
 5. Preserve `unknown` and record refusal separately.
 6. Route Scope through USM and bridge consequences through R.
-7. Use RoleMask declarations for local procedural tailoring; separately establish a new kind/order relation only when the distinction truly becomes conceptual and stable.
+7. Use RoleMask declarations for local procedural tailoring; separately establish a new kind/order relation only when the distinction becomes conceptual and stable.
 
 
 
@@ -163,9 +165,9 @@ A matrix can make declarations and slices jointly inspectable. A sufficient ordi
 
 | Rows | Columns | Cell content |
 | --- | --- | --- |
-| exact kind/subkind signature editions or RoleMask declaration editions | exact context slices with all their declared selectors, including versions and `Gamma_time` when present | exact candidate(s) when current, judgment values, evidence units and support relations, freshness, bridge/assertion references, and receiving use |
+| exact kind/subkind signature editions or RoleMask declaration editions | exact context slices with all their declared selectors, including versions and `Gamma_time` when present | exact candidate(s) for candidate-bearing use, judgment values, evidence units and support relations, freshness, bridge/assertion references, and receiving use |
 
-Rows plan declared distinctions; they do not classify every candidate. A proof-only row may remain declaration-level when it genuinely proves a universal claim. A test or monitoring row becomes candidate-bearing and records exact judgments for the exercised candidates.
+Rows plan declared distinctions; they do not classify every candidate. A proof-only row may remain declaration-level when it proves a universal claim. A test or monitoring row becomes candidate-bearing and records exact judgments for the exercised candidates.
 
 
 
@@ -177,7 +179,7 @@ Rows plan declared distinctions; they do not classify every candidate. A proof-o
 - **VA-3.** Cross-context proof reliance SHALL recover the target declaration and any required bridge channels, with their loss and R consequences.
 - **VA-4.** Tool-kernel qualification belongs to TA and does not raise the declaration's F or candidate truth.
 
-Example: a proof over `PassengerCarSignature@v4` assumes a dry-road slice. Reuse at Plant-B requires kind-identity and scope settlement, with bridges only where required. Application to VIN-17 then uses the Plant-B target signature and exact target judgment.
+Example: a proof over `PassengerCarSignature@v4` assumes a dry-road slice. Reuse at Plant-B requires kind-identity and scope settlement, with bridges only where required. Application to VIN-17 then uses the Plant-B target signature and target judgment.
 
 
 
@@ -198,7 +200,7 @@ Example: rows `PassengerCar` and `LightTruck` use pinned signature editions; col
 
 Qualify provers, checkers, measurement pipelines, and classifiers separately. A classifier output can support an assertion about `J`; the tool neither becomes the candidate nor makes the governed criterion hold. Version drift may make the support unavailable and hence produce `unknown` for a candidate-bearing use.
 
-- **TA-1.** Every tool whose qualification is relied on by VA or LA SHALL identify its exact version and qualification status, and the receiving guard SHALL recover that declaration when the reliance is current.
+- **TA-1.** Every tool whose qualification is relied on by VA or LA SHALL identify its exact version and qualification status, and the receiving guard SHALL recover that declaration when the receiving use relies on that qualification.
 - **TA-2.** Missing or weaker tool qualification MUST NOT be hidden by lowering the owning episteme's F or widening G. The receiving policy may require additional independent support, reduce or condition R, or refuse the use while preserving the exact unavailable-support reason.
 
 
@@ -208,7 +210,7 @@ Qualify provers, checkers, measurement pipelines, and classifiers separately. A 
 
 **Guard_EvidencePlan_Typed** SHALL check the plan's exact declaration editions and context slices, its bridge/assertion needs, and the candidate-selection, freshness, independence, and TA conditions required by the planned use. These inputs may be supplied directly or through accessible exact returns. A planned classification does not count as a candidate judgment.
 
-**Guard_EvidenceAttach_Typed** SHALL make every evidence unit's binding to its exact claim/use, declaration edition, slice, candidate and judgment when current, support relation, freshness, and bridge consequences recoverable, directly or through accessible exact returns. It SHALL preserve `unknown` and the separate attach/refuse disposition.
+**Guard_EvidenceAttach_Typed** SHALL make every evidence unit's binding to its exact claim/use, declaration edition, slice, candidate and judgment for candidate-specific evidence or a candidate-bearing receiving use, support relation, freshness, and bridge consequences recoverable, directly or through accessible exact returns. It SHALL preserve `unknown` and the separate attach/refuse disposition.
 
 
 
@@ -228,7 +230,9 @@ Qualify provers, checkers, measurement pipelines, and classifiers separately. A 
 ##### C.3.A:B.9 - End-to-end example [I]
 
 
-A two-plant braking claim pins the `PassengerCar` declaration and Plant-A scope. VA proves the quantified claim over that declaration. LA tests exact VINs in dry/wet slices and records their judgments. TA identifies tool versions. Plant-B reuse recovers the target declaration and any required bridges with their loss and R consequences; each Plant-B candidate is evaluated afresh before evidence is attached.
+A two-plant braking claim pins the `PassengerCar` declaration and Plant-A scope. VA proves the quantified claim over that declaration. LA tests exact VINs in dry/wet slices and records their judgments. TA identifies tool versions.
+
+Plant-B reuse recovers the target declaration and any required bridges with their loss and R consequences; each Plant-B candidate is evaluated afresh before evidence is attached.
 
 #### C.3.A:Annex C - ESG and Method–Work guards
 
@@ -242,10 +246,10 @@ When a state transition publishes or relies on a claim quantified over kinds, th
 1. pin the claim, exact quantified claim kind, receiving kind, and both needed `KindSignature` editions;
 2. establish the correct subkind restriction direction or, for a required correspondence between distinct kinds, the exact source-claim to target-receiving KindBridge relation and separate assertion;
 3. check Claim scope against the exact slice with all its declared selectors, including any `Gamma_time` required by A.2.6;
-4. when one or more actual candidates are part of the transition, evaluate each exact four-input target receiving-kind judgment and preserve all three values;
+4. when one or more actual candidates are part of the transition, evaluate the four-input judgment for each candidate under the receiving kind and preserve all three values;
 5. when a RoleMask is used, recover its declaration edition and, when the transition is candidate-bearing, evaluate the exact masked judgment;
 6. apply justified bridge consequences to R only;
-7. check the policy-required expression properties and required freshness on their actual owners; and
+7. check the policy-required expression properties and required freshness on their owners; and
 8. return a separate state-transition disposition.
 
 ESG MUST NOT widen G to hide incompatibility, treat a label as a candidate judgment, or convert `unknown` to `false`.
@@ -255,21 +259,23 @@ ESG MUST NOT widen G to hide incompatibility, treat a label as a candidate judgm
 ##### C.3.A:C.2 - Method–Work obligations (normative)
 
 
-Open this Method–Work guard when capability, method and WorkPlan are part of the prospective or actual Work use. A transformation identified under A.3/A.3.4 may already be a sufficient result: natural, spontaneous or formal change, for example, needs no invented Work account. If a broader scale-free-agency or Work claim matters, apply A.13 and then independent A.15.1 admission. Reflexive cases require separately grounded acting and affected positions. Joint or non-separable cases keep their direct dynamics, interaction or causality governors without an arbitrary actor-target split.
+Open this Method–Work guard when capability, method and WorkPlan are part of the prospective or actual Work use. A transformation identified under A.3/A.3.4 may already be a sufficient result: natural, spontaneous or formal change, for example, can be described without claiming Work.
 
-When the Method–Work use is current, it has two different boundaries.
+If a broader scale-free-agency or Work claim matters, apply A.13 and then independent A.15.1 admission. Reflexive cases require separately grounded acting and affected positions. Joint or non-separable cases keep their direct dynamics, interaction or causality governors without an arbitrary actor-target split.
+
+Method–Work use has two different boundaries.
 
 **Prospective entry.** Before execution, a guard may decide that a holder capability, method, intended `U.WorkPlan`, JobSlice, and candidate inputs are sufficient to start. That decision SHALL NOT claim that Work already occurred. The holder's actual ability, ability statements or currentness assessments, fit predicates, WorkPlan, JobSlice, and entry record remain distinct.
 
-**Actual result or acceptance.** When performed Work is current, the guard SHALL identify exact `W : U.Work` as an independently grounded, world-side, dated 4D Work occurrence under A.15.1. Keep W distinct from the `U.Work` kind, JobSlice, capability and plan. A log, result record or assurance record about W remains a separate object; when it is a claim-bearing episteme, its content designates W.
+**Actual result or acceptance.** When the check concerns performed Work, the guard SHALL identify exact `W : U.Work` as an independently grounded, world-side, dated 4D Work occurrence under A.15.1. Keep W distinct from the `U.Work` kind, JobSlice, capability and plan. A log, result record or assurance record about W remains a separate object; when it is a claim-bearing episteme, its content designates W.
 
 A conforming Method–Work check SHALL:
 
 1. pin every expected input/output local kind and signature edition;
 2. for cross-context candidates, compare kind identity and recover target declarations and any required bridges;
 3. require the capability's governed Work scope to cover exact JobSlice with explicit time;
-4. for every actual input candidate and, after execution, every actual output candidate relied on, check admissibility and evaluate the exact four-input judgment under its pinned expected declaration only when admissible, preserving all three values;
-5. use exact RoleMask declarations and masked judgments when procedural tailoring is current;
+4. for every actual input candidate and, after execution, every actual output candidate relied on, check admissibility and evaluate the four-input judgment under its pinned expected declaration only when admissible, preserving all three values;
+5. use exact RoleMask declarations and masked judgments when procedural tailoring is used;
 6. apply any justified bridge consequence to R, then check capability measures, qualification/currentness, and fit as separately governed predicates before deciding entry or acceptance;
 7. before execution, return only an entry disposition and keep W absent;
 8. after execution, ground result or acceptance in the independently identified W;
@@ -281,7 +287,7 @@ A conforming Method–Work check SHALL:
 ##### C.3.A:C.3 - Ready-to-use skeletons
 
 
-**ESG_TypedGate(Claim, claimKind, claimSignatureEdition, receiveKind, receiveSignatureEdition, TargetSlice, candidates?).** When actual candidates are current, apply `Guard_CandidateUse` to each with both declaration editions; otherwise apply `Guard_TypedClaim` for declaration-only use. Reuse shared checks and bridge consequences under E-01, then return the separate transition disposition.
+**ESG_TypedGate(Claim, claimKind, claimSignatureEdition, receiveKind, receiveSignatureEdition, TargetSlice, candidates?).** When the transition is candidate-bearing, apply `Guard_CandidateUse` to each with both declaration editions; otherwise apply `Guard_TypedClaim` for declaration-only use. Reuse shared checks and bridge consequences under E-01, then return the separate transition disposition.
 
 **MethodWork_EntryGate(Capability, WorkPlanRef, JobSlice, inputCandidates, inputDeclarations).** Apply §C.2's prospective checks in E-01 order and check required freshness. Return “entry allowed/refused”. Do not create or identify W.
 
@@ -292,11 +298,15 @@ A conforming Method–Work check SHALL:
 ##### C.3.A:C.4 - Worked examples [I]
 
 
-**ESG braking policy.** The claim pins `VehicleSignature@v4` and the dry/wet TargetSlice. The consumer is restricted to `PassengerCar`, and `SubkindOfObtains(PassengerCar, Vehicle; plantVehicleScheme)` holds under the paired exact declaration editions. For VIN-17, evaluate `J(VIN-17, PassengerCar, passengerCarEdition, TargetSlice)=true`; C.3.1 monotonicity then supplies the Vehicle-side classification needed by the universal claim. An unavailable brake-configuration dependency would yield `unknown`, and the transition would refuse separately.
+**ESG braking policy.** The claim pins `VehicleSignature@v4` and the dry/wet TargetSlice. The consumer is restricted to `PassengerCar`, and `SubkindOfObtains(PassengerCar, Vehicle; plantVehicleScheme)` holds under the paired exact declaration editions.
 
-**Risk-score Work entry and occurrence.** `ComputeRiskScore` capability is considered for request `req-884` in JobSlice `api-v2.3/eu-west/t-204`. The entry guard evaluates the request under the pinned `AuthenticatedRequest` signature. If true, it may admit execution; no Work occurrence yet follows. After execution, actual `W = RiskScoreRun-2026-07-22T10:03Z-884 : U.Work` is independently grounded as the dated world-side occurrence. `RiskScoreRunLog-884` is a separate episteme designating W. The output score value is a separate candidate evaluated under its declared output kind and signature edition.
+For VIN-17, evaluate `J(VIN-17, PassengerCar, passengerCarEdition, TargetSlice)=true`; C.3.1 monotonicity then supplies the Vehicle-side classification needed by the universal claim. An unavailable brake-configuration dependency would yield `unknown`, and the transition would refuse separately.
 
-**Cross-context plant use.** The source claim and source kind cross via separate Scope and KindBridge channels. Plant-B recovers its own target declaration and evaluates exact TransportUnit candidate TU-9. Bridge assertions affect R; they do not classify TU-9 or create the later Work occurrence.
+**Risk-score Work entry and occurrence.** `ComputeRiskScore` capability is considered for request `req-884` in JobSlice `api-v2.3/eu-west/t-204`. The entry guard evaluates the request under the pinned `AuthenticatedRequest` signature. If true, it may admit execution; no Work occurrence yet follows.
+
+After execution, actual `W = RiskScoreRun-2026-07-22T10:03Z-884 : U.Work` is independently grounded as the dated world-side occurrence. `RiskScoreRunLog-884` is a separate episteme designating W. The output score value is a separate candidate evaluated under its declared output kind and signature edition.
+
+**Cross-context plant use.** The source claim and source kind cross via separate Scope and KindBridge channels. Plant-B recovers its own target declaration and evaluates TransportUnit candidate TU-9. Bridge assertions affect R; they do not classify TU-9 or create the later Work occurrence.
 
 
 

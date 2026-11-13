@@ -6,12 +6,12 @@ section_id: "A.16.0:13"
 section_title: "Worked trajectories"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.0/A.16.0__014_worked-trajectories.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.16.0 — Keep an Episteme's Language-State and Publication History Recoverable"
   - "A.16.0:13 — Worked trajectories"
-line_start: 33836
-line_end: 33858
+line_start: 35316
+line_end: 35338
 dependencies:
   - "A.16"
   - "A.16.1"
@@ -45,7 +45,7 @@ keywords:
 ### A.16.0:13 - Worked trajectories
 
 #### A.16.0:13.1 - Multi-route state before fork
-A routed operator cue may first keep intervention and inquiry routes live for one selected episteme edition in one `RoutedCueSet`. That is still a multi-route state. A lineage fork exists when independently identified distinct successor epistemes and the actual historical facts satisfy the selected fork predicate. Both successors may still be unpublished. Conversely, publishing the same edition twice creates two publication claims, not a fork.
+A routed operator cue may first keep intervention and inquiry routes live for one selected episteme edition in one `RoutedCueSet`. That is still a multi-route state. A lineage fork exists when independently identified distinct successor epistemes and the historical facts satisfy the selected fork predicate. Both successors may still be unpublished. Conversely, publishing the same edition twice creates two publication claims, not a fork.
 
 #### A.16.0:13.2 - Inquiry trajectory with fork
 An inquiry cue pack centered on a felt or trace-anchored discrepancy cue may first identify one selected episteme edition, then fork into:
@@ -53,7 +53,7 @@ An inquiry cue pack centered on a felt or trace-anchored discrepancy cue may fir
 - `notice -> stabilize -> route -> projection -> formalize`, with a cue-derived prompt form expressing the explanatory branch, and
 - `notice -> stabilize -> route -> projection -> operationalize`
 
-if one branch supports explanatory work while another supports immediate probe or control work. The account of that fork identifies the successor epistemes and obtaining lineage links, and discloses each branch's relevant losses and next-use conditions. These disclosures describe the fork; their publication does not create it. If responsibility actually changes, keep the separately established responsibility-handoff conditions distinct as well.
+if one branch supports explanatory work while another supports immediate probe or control work. The account of that fork identifies the successor epistemes and obtaining lineage links, and discloses each branch's relevant losses and next-use conditions. These disclosures describe the fork; their publication does not create it. If responsibility changes, keep the separately established responsibility-handoff conditions distinct as well.
 
 #### A.16.0:13.3 - Operator trajectory with retirement
 An operator alert note about a service disturbance may move:

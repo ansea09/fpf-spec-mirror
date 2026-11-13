@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.6"
-pattern_title: "Base Declaration Discipline: Say Exactly What Something Depends On"
+pattern_title: "Base Declaration Discipline: Say What Something Depends On"
 section_id: "A.6.6:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__011_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.6.6 — Base Declaration Discipline: Say Exactly What Something Depends On"
+  - "A.6.6 — Base Declaration Discipline: Say What Something Depends On"
   - "A.6.6:10 — Rationale"
-line_start: 23987
-line_end: 24003
+line_start: 24908
+line_end: 24924
 dependencies:
   - "A.10"
   - "A.14"
@@ -44,11 +44,11 @@ keywords:
 **Why focus on base declaration rather than a metaphor.**
 The recurring ambiguity is not “how to attach”, but which direct relation is being asserted between which participants. A readable relation-specific sentence exposes that answer; an optional declaration can then preserve it for a named reuse.
 
-**Why keep the direct relation, assertion, and evidence separate.** The relation's predicate determines whether the world-side fact obtains. A C.2.1 episteme may affirm or deny it under the applicable polarity test, and A.2.4/A.10 may support reliance on that assertion. Conflating these objects lets a record or carrier stand in for truth.
+**Why keep the direct relation, assertion, and evidence separate.** The relation's predicate determines whether the world-side fact obtains. A C.2.1 episteme may affirm or deny it under the polarity test, and A.2.4/A.10 may support reliance on that assertion. Conflating these objects lets a record or carrier stand in for truth.
 A base is a participant in the selected direct relation. Evidence or other supporting material justifies an assertion only through its own direct relations. Conflating the two makes both reasoning and audit unreliable.
 
 **Why add scope and `Gamma_time` conditionally.** They are required when the direct predicate or receiving use changes across extent or time. Adding them everywhere hides the ordinary relation behind a universal qualifier form.
-Recover applicable extent and time from the direct relation and the receiving use. An already clear interval or temporal rule needs no duplicate field; an implicit current or latest that leaves the intended case ambiguous does.
+Recover extent and time from the direct relation and the receiving use. An already clear interval or temporal rule needs no duplicate field; an implicit current or latest that leaves the intended case ambiguous does.
 
 **Why distinguish semantic revision from representation editing.**
 Changing the relation kind changes the assertion's meaning. Preserve the former episteme when history matters and establish any claimed continuity under C.2.1; a new wording or representation alone need not change identity.

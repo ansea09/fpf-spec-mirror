@@ -6,12 +6,12 @@ section_id: "C.2.P:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P/C.2.P__012_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.2.P — Clarify Episteme, Publication, and Source Wording (Epistemic Precision Restoration)"
   - "C.2.P:10 — Rationale"
-line_start: 52431
-line_end: 52439
+line_start: 54622
+line_end: 54630
 dependencies:
   - "A.10"
   - "A.15"

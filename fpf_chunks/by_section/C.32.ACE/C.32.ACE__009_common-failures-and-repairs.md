@@ -6,12 +6,12 @@ section_id: "C.32.ACE:8"
 section_title: "Common failures and repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACE/C.32.ACE__009_common-failures-and-repairs.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.32.ACE — Architecture Characteristic Eval Programs"
   - "C.32.ACE:8 — Common failures and repairs"
-line_start: 77944
-line_end: 77956
+line_start: 81773
+line_end: 81785
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -53,12 +53,12 @@ keywords:
 
 | Failure | Symptom | Repair |
 |---|---|---|
-| `SourceFitnessTermAsFPFObject` | The source label "fitness function" hides which operation, rule or expression is meant. | Recover that source meaning. Frame the needed architecture evaluation through ACE while retaining the actual function, test or monitor as its own contribution; an ordinary source-local label may remain. |
+| `SourceFitnessTermAsFPFObject` | The source label "fitness function" hides which operation, rule or expression is meant. | Recover that source meaning. Frame the needed architecture evaluation through ACE while retaining the function, test or monitor as its own contribution; an ordinary source-local label may remain. |
 | `EvalAsCriterion` | A benchmark, monitor, or test is named as the architecture characteristic. | Return to ACS; name the criterion, bearer, scale, proxy risk, and protected counter-characteristics before writing the eval. |
 | `TestModeAsEvalWhole` | The team only asks whether one candidate passes while the work question is variant comparison. | Keep the test for the hard constraint, then add eval result forms that compare candidates or expose the trade-off front. |
 | `UnfairComparison` | Candidates are compared under different budgets, evidence windows, environments, or missing-data rules. | Establish the comparison's required parity or withhold the unsupported comparative inference. Retain readings that remain usable under their own conditions. |
 | `ResultAsDecision` | A rank, score, pass, or dashboard reading selects the architecture. | Use the result only for a claim supported by its grounds and conditions. Use A.10 when a replayable evidence-provenance account is needed, or the result as comparison input when comparison is current. Use `A.19.CPM` for explicit comparison, `A.19.SelectorMechanism` for set-returning selection, `C.11` for local choice, `G.5` for selected-set result declaration, and `C.32.PAD` for a project architecture decision. For publication, use E.24.PUB for the occurrence and audience availability, and E.17 when a source-backed face and source return are needed. |
 | `SingleIndicatorGoodhart` | Work improves one optimized indicator while an unmeasured architecture concern worsens. | Limit optimized indicators, add protected counter-characteristics, and open `E.13` when proxy-to-value drift appears. |
 | `LosingVariantAsError` | A candidate that lost a planned eval is recorded as a mistake. | Record it as a variant result unless an expectation caused unplanned rework; keep useful learning in the variant archive. |
-| `ProgramAsRunOrResult` | The ACE record is said to execute, measure, evaluate, or produce the result, or one generic `resultRef` hides the result kind. | Recover each exact evaluator through A.13 and let A.15.1 independently admit the evaluation `U.Work`. Add an attribution ref only when the record expressly represents precise assignment-bound attribution; missing or failed F.6 attribution alone leaves the Work intact while its independent A.13/A.15.1 grounds still hold. Add an operation application only when it independently obtains, and identify the typed result under the applicable pattern; keep the ACE record as the evaluation framing record. |
+| `ProgramAsRunOrResult` | The ACE record is said to execute, measure, evaluate, or produce the result, or one generic `resultRef` hides the result kind. | Recover each evaluator through A.13 and let A.15.1 independently admit the evaluation `U.Work`. Add an attribution ref only when the record represents precise assignment-bound attribution; missing or failed F.6 attribution alone leaves the Work intact while its independent A.13/A.15.1 grounds hold. Add an operation application only when it independently obtains, and identify the typed result under the applicable pattern; keep the ACE record as the evaluation framing record. |
 

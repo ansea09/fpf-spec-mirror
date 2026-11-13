@@ -6,28 +6,22 @@ section_id: "C.17:2"
 section_title: "Keep the evaluation objects distinct"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__004_keep-the-evaluation-objects-distinct.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.17 — Characterising Generative Novelty and Value"
   - "C.17:2 — Keep the evaluation objects distinct"
-line_start: 60661
-line_end: 60683
+line_start: 63073
+line_end: 63095
 dependencies:
-  - "A.0"
   - "A.1.1"
   - "A.10"
-  - "A.13"
   - "A.15.1"
-  - "A.15.2"
   - "A.17"
   - "A.18"
   - "A.19"
   - "A.19.ECS"
-  - "A.2.1"
   - "A.3.1"
   - "A.3.2"
-  - "A.6.1"
-  - "B.1.6"
   - "B.3"
   - "B.4"
   - "C.11"
@@ -63,7 +57,7 @@ keywords:
 | Comparison basis | A finite corpus or reference set, with inclusion rule, source editions, coverage boundary, and comparison window. Use a separate source-selection episteme when the selection must persist. |
 | Similarity or measurement procedure | One `U.Method`, with a separate MethodDescription when needed. Identify the model, encoder, distance definition, invariances, calibration, and limits used by that Method. |
 | Generative expectation | One model episteme and its separately recoverable training basis: members or selection rule, source editions, training window, preprocessing, and evidence. |
-| Evaluated bearer | The design, episteme, System, dated Work, finite set, or change under its already established kind. *Creative outcome* may remain ordinary prose; it is not another kind. When a change or Work episode has no single result episteme, identify that actual bearer and cite the result-and-evidence bundle used by the claim instead of wrapping the bundle in a new outcome kind. |
+| Evaluated bearer | The design, episteme, System, dated Work, finite set, or change under its already established kind. *Creative outcome* may remain ordinary prose; it is not another kind. When a change or Work episode has no single result episteme, identify that bearer and cite the result-and-evidence bundle used by the claim instead of wrapping the bundle in a new outcome kind. |
 | Coordinate result | One claim about the bearer, characteristic, scale value, scope, use, window, method or probe, basis, rationale, uncertainty, and evidence. |
 | Aggregate result | One `CreativityEvaluationResult` episteme whose EntityOfConcern is the bearer and whose claims state only the bounded coordinate and comparison conclusion. |
 | Optional profile | `CreativityProfile` is a local, non-arithmetic payload containing selected coordinate-claim references, their declared arrangement, and any current frontier or incomparability annotation. |

@@ -6,12 +6,12 @@ section_id: "C.29.1:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29.1/C.29.1__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.29.1 — Mathematical Result Transfer"
   - "C.29.1:1 — Problem frame"
-line_start: 69935
-line_end: 69950
+line_start: 73028
+line_end: 73043
 dependencies:
   - "A.3.3"
   - "A.6.3.RT"
@@ -29,7 +29,7 @@ Mathematical Lens Use, C.29, covers choosing a mathematical account and returnin
 
 **What changes in practice.** Instead of accepting a familiar formula because the symbols look similar, you identify what its inputs represent and show why the intended conclusion follows after the change. The first useful result can be an equality, a sufficient bound, or two allowed cases that the representation merges although they require different answers. That last result tells you what to retain or which question to weaken.
 
-For example, one item on hand can be unreserved or already reserved. Both situations have stock total one, but only one permits another reservation. The pair immediately exposes why total stock cannot by itself decide availability. You can then construct available stock as on-hand stock minus reserved stock and compare the reservation updates in the two accounts.
+For example, one item on hand can be unreserved or already reserved. Both situations have stock total one, but only one permits another reservation. The pair exposes why total stock cannot by itself decide availability. You can then construct available stock as on-hand stock minus reserved stock and compare the reservation updates in the two accounts.
 
 **Ordinary non-use boundary.** Use a familiar result directly when the correspondence and its conditions are already established for the present use. A symbol rename or conversion under an established notation rule normally needs only A.6.3.RT. If the mathematical object or result is still missing, construct it in the relevant mathematical practice; C.29 helps choose the account and B.5 helps organize the missing reasoning. Transfer cannot provide an absent theorem by itself. If the mathematical relation is established but its physical interpretation or execution remains unresolved, use B.5.MPC to connect those contributions.
 

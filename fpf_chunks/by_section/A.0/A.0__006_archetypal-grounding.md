@@ -6,12 +6,12 @@ section_id: "A.0:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.0/A.0__006_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.0 — Generative Search Onboarding Glossary (NQD & E/E‑LOG)"
   - "A.0:5 — Archetypal Grounding"
-line_start: 2339
-line_end: 2357
+line_start: 2375
+line_end: 2393
 dependencies:
   - "A.19"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
@@ -61,7 +61,7 @@ keywords:
 **Show‑A - SRE capacity plan (selector returns a set).**
 *Frame.* We must raise service commitment headroom for Q4 without breaking latency SLOs.
 *Declared retained set.* `{cache‑expansion, read‑replicas, query‑shaping, circuit‑breaker tuning, schema‑denorm}`.
-*Glossary in action.* `U = latency@p95 & error‑rate`, `C = budget ≤ $X, risk ≤ R`, `N = dissimilarity to current playbook`, `Diversity_P = coverage of the declared retained set under the niche policy`, `DeltaDiversity_P = additional coverage from adding a candidate (e.g., “shifts load to edge” fills an empty niche)`. E/E‑LOG starts **Explore‑heavy**, flips **Exploit‑heavy** once ≥ K distinct niches are lit. *(Publish a UTS row only when **F.17**'s naming and reuse conditions hold; retain parity pins for an actual parity use; illumination stays report‑only telemetry.)*
+*Glossary in action.* `U = latency@p95 & error‑rate`, `C = budget ≤ $X, risk ≤ R`, `N = dissimilarity to current playbook`, `Diversity_P = coverage of the declared retained set under the niche policy`, `DeltaDiversity_P = additional coverage from adding a candidate (e.g., “shifts load to edge” fills an empty niche)`. E/E‑LOG starts **Explore‑heavy**, flips **Exploit‑heavy** once ≥ K distinct niches are lit. *(Publish a UTS row only when **F.17**'s naming and reuse conditions hold; retain parity pins for a parity use; illumination stays report‑only telemetry.)*
 
 **Show‑B - Policy search with QD archive (MAP‑Elites‑class).**
 *Frame.* Robotics team explores gaits that trade stability vs energy use.

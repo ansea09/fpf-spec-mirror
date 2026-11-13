@@ -6,12 +6,12 @@ section_id: "C.19:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:intro — Intro"
-line_start: 61447
-line_end: 61459
+line_start: 63902
+line_end: 63912
 dependencies:
   - "A.10"
   - "A.19.CPM"
@@ -22,13 +22,7 @@ dependencies:
   - "C.16"
   - "C.17"
   - "C.18"
-  - "C.19"
-  - "C.22.PFR"
   - "C.24"
-  - "C.28"
-  - "C.32"
-  - "C.32.P2S"
-  - "C.35"
   - "E.10.LRN"
   - "E.17"
   - "E.24.PUB"
@@ -59,8 +53,6 @@ keywords:
 
 **Plain-name.** Explore-exploit governor.
 
-**Intent.** State and test exploration and exploitation policy over still-live candidate pools so frontier treatment, graduation, narrowing, and sunset treatment stay explicit and auditable. A C.19 result governs pool treatment only; `C.19:4.4` routes a question that has moved to another operation or result.
-
-C.19 states policy over a live pool. It does not generate candidates; use §4.4 when the next result requires another operation.
+**Intent.** State and test exploration and exploitation policy over live candidate pools so frontier treatment, graduation, narrowing, and sunset treatment stay explicit and auditable. A C.19 result governs pool treatment only. C.19 does not generate candidates; use `C.19:4.4` when the next result requires another operation.
 
 

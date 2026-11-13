@@ -6,12 +6,12 @@ section_id: "G.6:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.6/G.6__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.6 — Evidence Graph and Provenance Ledger: Citable Evidence-Provenance Paths"
   - "G.6:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 130181
-line_end: 130193
+line_start: 138237
+line_end: 138249
 dependencies:
   - "A.10"
   - "A.10.1"
@@ -63,7 +63,7 @@ keywords:
 | --- | --- | --- |
 | Edge as fact | Drawing or storing an edge is mistaken for an obtaining relation. | Establish the exact direct relation under its governor, then cite it through a representation record. |
 | Universal evidence edge | `verifiedBy`, `validatedBy`, `measuredBy`, `producedByWork`, or `evidences` absorbs several relation families. | Replace the label with the exact formal, measurement, work, production, source, use, or other direct relation. |
-| MethodDescription as run trace | Generic declarations acquire actual participants, time, or results by graph membership. | Cite one independently admitted dated Work ref and its A.13-qualified actual performer refs through §4.1. Keep Method enactment, resources, direct participation, and A.6.1 bindings separate; expose an assignment occurrence and F.6 relation only when the path expressly consumes precise assignment-bound attribution. |
+| MethodDescription as run trace | Generic declarations acquire actual participants, time, or results by graph membership. | Cite one independently admitted dated Work ref and refs to its performers identified under A.13 through §4.1. Keep Method enactment, resources, direct participation, and A.6.1 bindings separate; expose an assignment occurrence and F.6 relation only when the path expressly relies on the claim that the Work was performed under a stated assignment. |
 | Generic result node | Measurement, evaluation, aggregation, episteme, outcome, and decision collapse. | Keep each local result under its domain governor and each durable assertion under C.2.1. |
 | Provenance as result or assurance | A path or ledger row is read as truth, currentness, safety, permission, or acceptance. | Use A.10, G.11, and B.3 under their entry conditions, and state the exact local result under its applicable predicate and pattern. |
 | Citation as actual use | A downstream record cites a path and is assumed to have used it. | Establish the exact premise, reference, argument, or decision-use relation; recover dated Work separately under §4.1 when the claim asserts that occurrence. |

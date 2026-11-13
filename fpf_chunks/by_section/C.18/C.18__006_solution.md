@@ -6,35 +6,24 @@ section_id: "C.18:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18/C.18__006_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.18 — Open-Ended Search Archive and Front Stewardship"
   - "C.18:4 — Solution"
-line_start: 61045
-line_end: 61222
+line_start: 63475
+line_end: 63658
 dependencies:
   - "A.15"
   - "A.19"
   - "A.19.CPM"
   - "A.19.SelectorMechanism"
-  - "C.11"
-  - "C.11.CRC"
   - "C.16"
   - "C.19"
-  - "C.28"
   - "C.30"
-  - "C.32"
-  - "C.32.P2S"
-  - "C.35"
   - "C.36"
-  - "E.17"
   - "E.18"
   - "E.18.1"
   - "E.23"
-  - "E.24.PUB"
-  - "F.17"
-  - "F.18"
-  - "F.9"
   - "G.11"
   - "G.5"
   - "G.9"
@@ -118,7 +107,7 @@ ExplorationArchiveRecord@Context:
   nextGoverningRelation: C.36
 ```
 
-For this example's current question, the field names `C.36` as the next applicable pattern. If one of the stated changes makes refresh current, `G.11` becomes the next applicable pattern instead; it is not a second simultaneous locator.
+For this example's current question, the field names `C.36` as the next applicable pattern. If one of the stated changes makes refresh current, `G.11` becomes the next applicable pattern instead.
 
 ```text
 FrontRecord@Context:
@@ -136,7 +125,7 @@ FrontRecord@Context:
   nextGoverningRelation: C.30
 ```
 
-For this example's current question, the field names `C.30` as the next applicable pattern. Omit `selectedSetResultRef?` until an exact G.5 result exists. If declaring a selector outcome later becomes current, start a separate `G.5` use; if the front's basis changes, start `G.11` refresh. Neither possible continuation belongs in the current locator.
+For this example's current question, the field names `C.30` as the next applicable pattern. Omit `selectedSetResultRef?` until an exact G.5 result exists. If declaring a selector outcome later becomes current, start a separate `G.5` use; if the front's basis changes, start `G.11` refresh.
 
 #### C.18:4.3 - Generation And Downstream-Use Record
 
@@ -175,9 +164,9 @@ OpenEndedVariantGenerationRecord@Project:
   nextGoverningRelation: applicable pattern locator | none when the current question is complete
 ```
 
-Across the archive, front, and generation records, `currentnessAsOf` names the replay date or window together with the relevant pinned editions; `currentStatus` states whether the recorded archive/front/generation relation is active, held, closed, or stale for its declared use; and `stopOrRefreshReason` names the condition that ended it or the exact trigger that would reopen its currentness. These fields record the boundary but do not perform refresh. When source, descriptor, comparator, policy, evidence, or edition currentness becomes the live question, `nextGoverningRelation` points to `G.11` and `refreshRef?` may cite the separately governed refresh record.
+Across the archive, front, and generation records, `currentnessAsOf` names the replay date or window together with the relevant pinned editions; `currentStatus` states whether the recorded archive/front/generation relation is active, held, closed, or stale for its declared use; and `stopOrRefreshReason` names the condition that ended it or the trigger that would reopen its currentness. These fields record the boundary but do not perform refresh. When source, descriptor, comparator, policy, evidence, or edition currentness becomes the question, `nextGoverningRelation` points to `G.11` and `refreshRef?` may cite the separately governed refresh record.
 
-Here `@Project` is a compatibility and retrieval cue, not a project kind or relation assertion. Fill `projectLocality?` only after both Work occurrences have been admitted independently and the cited relation actually obtains under its direct governor. `generationWorkOccurrenceRef` names the exact dated generation `U.Work`; `compositeProjectWorkOccurrenceRef` names the selected composite project `U.Work`; and `exactGenerationToProjectRelationRef` cites, rather than creates, the exact work-part, containing-work, decision-use, source-use, or other governed relation. Use work parthood only when the complete `A.15.1` basis holds. Otherwise omit `projectLocality?`: the `@Project` suffix remains retrieval-only and establishes no project Work, parthood, authority, context, or viewpoint.
+Here `@Project` is a compatibility and retrieval cue, not a project kind or relation assertion. Fill `projectLocality?` only after both Work occurrences have been admitted independently and the cited relation obtains under its direct governor. `generationWorkOccurrenceRef` names the exact dated generation `U.Work`; `compositeProjectWorkOccurrenceRef` names the selected composite project `U.Work`; and `exactGenerationToProjectRelationRef` cites, rather than creates, the exact work-part, containing-work, decision-use, source-use, or other governed relation. Use work parthood only when the complete `A.15.1` basis holds. Otherwise omit `projectLocality?`: the `@Project` suffix remains retrieval-only and establishes no project Work, parthood, authority, context, or viewpoint.
 
 For example, a completed harness-generation run may state:
 
@@ -189,13 +178,19 @@ projectLocality:
   exactGenerationToProjectRelationRef: OperationalPartOf_work(HarnessVariantGenerationRun-2026-07-31, AgentHarnessProjectWork-2026)
 ```
 
-Every optional field whose name ends in `Ref?` points to a separately identified object, claim, policy profile, or measurement basis. `dedupThreshold?` is not a reference: it carries one declared scalar threshold value. `deduplicationUnit?` carries its unit literal. Fill `emitterPolicyRef?` and `insertionPolicyRef?` only when the cited C.19 profile or insertion policy applies to the current pool treatment. When a threshold is inherited, the cited profile supplies `dedupThreshold`, `deduplicationBasisRef`, and `deduplicationUnit`; when it is not inherited, carry the scalar in `dedupThreshold?` and its basis and unit in `deduplicationBasisRef?` and `deduplicationUnit?`. These references and scalars do not give C.19 a generation operation or change the archive and front relations stated through C.18. In particular, `problemCardRef?` may cite a C.22.2 problem-side episteme but creates neither an actual Problem nor a `ProblematicForRelation` under `C.22.PFR`. Naming a generated variant, archive entry, front membership, telemetry value, or retained-exploration claim alone establishes neither an improvement-result nor a work-result identity and creates no relation from generation Work to a result. `nextGoverningRelation` locates the next applicable pattern when another question remains; use `none` when the current result is sufficient. The locator does not itself make a choice, declare a selected-set result, authorize work, perform refresh or make any relation obtain.
+Every optional field whose name ends in `Ref?` points to a separately identified object, claim, policy profile, or measurement basis. `dedupThreshold?` is not a reference: it carries one declared scalar threshold value. `deduplicationUnit?` carries its unit literal.
+
+Fill `emitterPolicyRef?` and `insertionPolicyRef?` only when the cited C.19 profile or insertion policy applies to the current pool treatment. When a threshold is inherited, the cited profile supplies `dedupThreshold`, `deduplicationBasisRef`, and `deduplicationUnit`; when it is not inherited, carry the scalar in `dedupThreshold?` and its basis and unit in `deduplicationBasisRef?` and `deduplicationUnit?`. These references and scalars do not give C.19 a generation operation or change the archive and front relations stated through C.18.
+
+In particular, `problemCardRef?` may cite a C.22.2 problem-side episteme but creates neither an actual Problem nor a `ProblematicForRelation` under `C.22.PFR`. Naming a generated variant, archive entry, front membership, telemetry value, or retained-exploration claim alone establishes neither an improvement-result nor a work-result identity and creates no relation from generation Work to a result.
+
+`nextGoverningRelation` locates the next applicable pattern when another question remains; use `none` when the current result is sufficient. The locator does not itself make a choice, declare a selected-set result, authorize work, perform refresh or make any relation obtain.
 
 Use this record when a generation account needs the retained references and history. For architecture moves involving candidates named in `architectureCandidateRefs`, use `C.30`, `C.30.ASV`, or `C.30.AD` as applicable. Use `C.36` for cultural-evolution cases involving variants named in `culturalVariantRefs`. Local choice uses `C.11`; work planning and performed work use the A.15 family; effect measurement uses its direct measurement and evaluation patterns; refresh uses `G.11`. P2W carry-through uses `E.18.1` when an accepted problem-side distinction must be preserved into the next relation.
 
 #### C.18:4.3a - Distinguish exploration inside a space from change to the space
 
-Apply this branch only when whether the effective possibility space changed can alter retention, comparison, generation, architecture, or the next decision. Start by declaring the current space through the candidate grammar or type boundary, generator and operators, available building blocks, evaluator or comparator, retention or reproduction rule, goals or actions, and environment that matter for this case. The declaration may be ordinary domain content or a cited description; it does not create a universal `PossibilitySpace` kind.
+Apply this branch only when whether the effective possibility space changed can alter retention, comparison, generation, architecture, or the next decision. Start by declaring the current space through the candidate grammar or type boundary, generator and operators, available building blocks, evaluator or comparator, retention or reproduction rule, goals or actions, and environment that matter for this case. The declaration may be ordinary domain content or a cited description.
 
 Then state the smallest supported mode:
 
@@ -205,7 +200,7 @@ Then state the smallest supported mode:
 | **expansive** | A new dimension, candidate type, operator, building block, goal/action, or reachable region becomes admissible while the higher-order generation/evaluation regime remains sufficiently comparable for the stated use. | A newly visited region is not expansion unless it was unavailable under the earlier effective space. |
 | **transformational** | The rule or representation that generates, admits, evaluates, retains, reproduces, or environmentally enables candidates changes so that what counts as a candidate, successor, or acceptable result changes. | Rewording, a new score, or one surprising candidate does not establish a changed regime. |
 
-The first result is one ordinary `C.2.1` claim naming the earlier and candidate space declarations, exact changed component, mode wording, counterfactual or trajectory evidence, uncertainty, blocked stronger claim, and next governing relation. Use `C.28` for a causal claim that the component change produced the new reachability. Use `C.11.CRC` when a finite space-changing intervention must be compared with the current configuration, and `C.11` for the later choice.
+The first result is one ordinary `C.2.1` claim naming the earlier and candidate space declarations, changed component, mode wording, counterfactual or trajectory evidence, uncertainty, blocked stronger claim, and next governing relation. Use `C.28` for a causal claim that the component change produced the new reachability. Use `C.11.CRC` when a finite space-changing intervention must be compared with the current configuration, and `C.11` for the later choice.
 
 Stop at ordinary same-space exploration when no action depends on the stronger mode. Reopen only when the candidate grammar, generator, operator set, evaluator, retention/reproduction rule, goals/actions, environment, evidence, or receiving decision changes.
 
@@ -217,7 +212,7 @@ Stop at ordinary same-space exploration when no action depends on the stronger m
 
 - Start from one declared candidate or eligibility set.
 - Return the non-dominated front from the relation-token set under the declared comparator or dominance set.
-- Return the exploration archive separately when retained exploration value, coverage, novelty, diversity, stepping-stone value, or future reachability is current.
+- Return the exploration archive separately when the question concerns retained exploration value, coverage, novelty, diversity, stepping-stone value, or future reachability.
 - Keep tie-breakers and telemetry explicit so diversity, illumination, or popularity signals do not rewrite front semantics.
 - Before promoting telemetry or a popularity-like signal into the comparator, dominance set, or selected-set criteria, check which intended archive/front uses or values become worse or more fragile when that signal improves. State the affected uses or values, or the checked loci when none worsened, and cite the policy or decision authority that admits the promotion and any trade-off. If this basis or authority is missing, keep the signal as telemetry. Use it as a bounded tie-breaker only when a separate applicable policy already admits that use.
 - Use `RetentionIntent=steppingStone` when retention exists for frontier expansion or later curriculum value rather than current dominance.
@@ -227,5 +222,5 @@ Stop at ordinary same-space exploration when no action depends on the stronger m
 
 For architecture-candidate generation, C.18 records generation, archive, front, descriptor, telemetry, and retained exploration value. C.30 governs the architecture claim: `ArchitectureOf@Context`, selected structure or structure kind, affected characteristic, and next architecture move.
 
-For cultural variants, C.18 records the generated or retained variant set and its descriptors, lineage, telemetry, and archive or front relation. Use C.36 for a cultural-evolution case when collective-holon or discipline-facing Method, Work, system-role kind or assignment, canon, memory, recognition, selection, mediation, style, tradition, or intervention relations are current. Use F.17 to identify local senses when needed, F.18 when a durable new name is required, and F.9 when a use depends on semantic correspondence between different local senses. Source-local labels such as style, tradition or genre can retain their cited meanings.
+For cultural variants, C.18 records the generated or retained variant set and its descriptors, lineage, telemetry, and archive or front relation. Use C.36 for a cultural-evolution case concerning collective-holon or discipline-facing Method, Work, system-role kind or assignment, canon, memory, recognition, selection, mediation, style, tradition, or intervention relations. Use F.17 to identify local senses when needed, F.18 when a durable new name is required, and F.9 when a use depends on semantic correspondence between different local senses. Source-local labels such as style, tradition or genre can retain their cited meanings.
 

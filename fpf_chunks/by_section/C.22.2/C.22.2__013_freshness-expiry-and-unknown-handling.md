@@ -6,12 +6,12 @@ section_id: "C.22.2:12"
 section_title: "Freshness, Expiry, and Unknown Handling"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__013_freshness-expiry-and-unknown-handling.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:12 — Freshness, Expiry, and Unknown Handling"
-line_start: 64072
-line_end: 64101
+line_start: 66805
+line_end: 66841
 dependencies:
   - "A.10"
   - "A.15"
@@ -72,7 +72,14 @@ keywords:
 | `archived` | The record is retained under the relevant archive, pool, front, or selected-set pattern without being current for P2W. |
 | `abstainOrNoChange` | No downstream receiving use is selected because the signal is stale, duplicate, already solved, already absorbed, unnecessary, or not worth current downstream Work. |
 
-Freshness names the exact affected locus: problem signal, effective ReferenceScheme, ClaimScope, characterization or parity relation, problem-formulation reason, source material, source relation, source-set reference, representation relation, or wording-use relation. For the problem signal, ask whether it is still present, recurring, solved, absorbed, duplicate, unnecessary, or no longer worth downstream work. For ReferenceScheme or ClaimScope, ask whether the applicable meaning, cut, assumptions, window, or receiving use changed enough to alter the formulation. For characterization or parity, ask whether measurement, comparison, and parity relations are current enough for the intended use. For the formulation reason, source material, or source relation, ask whether cited sources, provenance, reason references, and source references remain current. For a source set, ask whether archive, front, pool, shortlist, or selected-set membership and its selection or retention criterion remain current. For a representation or wording-use relation, ask whether wording, diagram, functional description, transformation-flow path, Bridge, retargeting, or other representation change alters the EntityOfConcern, effective ReferenceScheme, ClaimScope, viewpoint qualification, comparison relation, governed next use, or relation needed for inheritance.
+Freshness names the affected locus:
+
+- **Problem signal.** Ask whether it is still present, recurring, solved, absorbed, duplicate, unnecessary, or no longer worth downstream work.
+- **Effective ReferenceScheme or ClaimScope.** Ask whether the applicable meaning, cut, assumptions, window, or receiving use changed enough to alter the formulation.
+- **Characterization or parity relation.** Ask whether measurement, comparison, and parity relations are current enough for the intended use.
+- **Problem-formulation reason, source material, or source relation.** Ask whether cited sources, provenance, reason references, and source references remain current.
+- **Source-set reference.** Ask whether archive, front, pool, shortlist, or selected-set membership and its selection or retention criterion remain current.
+- **Representation or wording-use relation.** Ask whether wording, diagram, functional description, transformation-flow path, Bridge, retargeting, or other representation change alters the EntityOfConcern, effective ReferenceScheme, ClaimScope, viewpoint qualification, comparison relation, governed next use, or relation needed for inheritance.
 
 A stale source material, source relation, or evidence reference does not always retire the problem; it may require refresh while the problem remains reviewable. A stale problem signal may lead to refresh, retire, archive, abstain or no-change, or a subject-pattern cue for the claim, relation, or boundary that is checked.
 

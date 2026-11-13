@@ -6,12 +6,12 @@ section_id: "C.22:9"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22/C.22__010_conformance-checklist-normative.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.22 — Task Typing and TaskSignature Assignment (Problem-CHR)"
   - "C.22:9 — Conformance Checklist (normative)"
-line_start: 63134
-line_end: 63158
+line_start: 65755
+line_end: 65780
 dependencies:
   - "A.6.0"
   - "C.16"
@@ -32,8 +32,9 @@ keywords:
 
 ### C.22:9 - Conformance Checklist (normative)
 
-0. **Minimal A.6.0 declaration.** `TaskSignature` exposes exact `EntityOfConcernRef`, effective reference scheme, `SubjectKind`, `RangedValueKind`, optional `ResultKind`, `SliceSet`, and `ExtentRule`, plus Vocabulary, Laws, and Applicability. Add `SignatureManifest` only when dependency replay needs actual imports and provided names; it does not supply signature identity.
+0. **Minimal A.6.0 declaration.** `TaskSignature` exposes exact `EntityOfConcernRef`, effective reference scheme, `SubjectKind`, `RangedValueKind`, optional `ResultKind`, `SliceSet`, and `ExtentRule`, plus Vocabulary, Laws, and Applicability. Add `SignatureManifest` only when dependency replay needs imports and provided names; it does not supply signature identity.
 1. **Signature and assignment present.** Every exported selector-facing case names one TaskSignature identity and edition plus one `TaskSignatureAssignmentRelation` whose exact problem-side episteme, TaskSignature, receiving-use episteme, obtaining conditions, and occurrence extent are recoverable. No setting, carrier, or organization is added as a fourth participant. Current characteristic bindings are CHR-typed; a live unknown preserves `unknown`, while a non-current optional vocabulary item remains absent.
+
    1a. **Publication and designators do not define identity.** Two E.17 publications or serialized records that resolve to the same `<declaration content, EntityOfConcernRef, effectiveReferenceScheme>` identify the same TaskSignature episteme. Carrier, layout, serialization, `SignatureId`, or edition label alone does not create a new identity component.
 2. **CHR admissibility proven.** Any numeric comparison or aggregation **cites CG-Spec** by **Characteristic id** and proves **CSLC admissibility**; **no mean on ordinals; no unit mixing**.
 3. **Unknowns remain typed.** A live unknown remains `unknown`, cites the direct downstream policy, and is not coerced. The acceptance, eligibility, or selector pattern records its own governed result.
@@ -41,7 +42,7 @@ keywords:
 5. **Cross-semantic use is separated.** Declare `ReferencePlane` for a value or objective head when its interpretation or comparison needs it. A scheme or plane difference alone creates neither a Bridge nor a penalty. Resolve two exact F.17 local senses, test the F.9 predicate, and state any proposed use separately.
 6. **Acceptance thresholds live in CAL.** G.4 AcceptanceClauses govern acceptance-gate thresholds. Signatures and implementations reference those clauses instead of redefining them as CHR properties or hidden constants.
 7. **Selector-use support.** The TaskSignature exposes the scales, units, polarities, and admitted order relations needed by `G.5`; it carries no mixed-scale scalarization or local selector verdict. `G.5` governs the emitted outcome and its source under G.5:4.4b–4.4e, including retained alternatives drawn from a non-dominated front.
-8. **Bridge and use claims remain distinct.** For current cross-semantic reuse, cite the two exact local senses and an actual F.9 Bridge only when its predicate is true. State the action, direction, correspondence rule, tolerated loss, and polarity in a separate bounded-use claim; if the predicate is false, keep the local values separate.
+8. **Bridge and use claims remain distinct.** For current cross-semantic reuse, cite the two exact local senses and an F.9 Bridge only when its predicate is true. State the action, direction, correspondence rule, tolerated loss, and polarity in a separate bounded-use claim; if the predicate is false, keep the local values separate.
 9. **Packaging is conditional.** Create an F.9 card, terminology row, Name Card, or reusable package only when a named receiving pattern independently needs that artifact. Packaging describes an already tested relation and separate use claim; it establishes neither.
 10. **Structure and gates are conditional.** Apply E.18 crossing checks only when a selected transformation-flow structure and exact `GateCrossing` are current. Apply A.21 only when a named gate decision is current. Each pattern supplies its own result; neither a structure nor a gate makes F.9 obtain, and C.22 requires no crossing or gate package otherwise.
 11. **QD fields (when QD is in scope).** A TaskSignature for an active QD search is complete only when it carries CHR-typed **CharacteristicSpaceRef** with the dimension required by its declared descriptor and comparison rules, the separate **characteristicSpaceDescriptionRef** to its exact defining episteme, **ArchiveConfig** (topology, resolution, K, `InsertionPolicyRef`, `DistanceDefRef.edition`) and **EmitterPolicyRef**; each characteristic declares its ReferencePlane when interpretation or the receiving contract requires it. `PortfolioMode=Archive` or a set-valued selector outcome alone activates none of these fields.

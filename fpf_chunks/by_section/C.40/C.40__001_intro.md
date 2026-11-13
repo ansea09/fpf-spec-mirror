@@ -6,12 +6,12 @@ section_id: "C.40:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40/C.40__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.40 — Develop Branching Search from Reusable Material"
   - "C.40:intro — Intro"
-line_start: 84749
-line_end: 84754
+line_start: 88970
+line_end: 88975
 dependencies:
   - "C.11"
   - "C.18"
@@ -25,5 +25,5 @@ keywords:
 
 > **Type:** Method pattern
 > **Status:** Stable
-> **Normativity:** Normative unless explicitly marked informative.
+> **Normativity:** Normative unless marked informative.
 

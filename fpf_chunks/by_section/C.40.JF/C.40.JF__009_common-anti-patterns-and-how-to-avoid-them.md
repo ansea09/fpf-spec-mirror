@@ -6,12 +6,12 @@ section_id: "C.40.JF:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.JF/C.40.JF__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.40.JF — Qualify Dependencies and Joint Reachability"
   - "C.40.JF:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 87817
-line_end: 87827
+line_start: 92051
+line_end: 92061
 dependencies:
   - "A.10"
   - "A.15.9"
@@ -28,9 +28,9 @@ keywords:
 | Anti-pattern | Why it fails | Repair |
 | --- | --- | --- |
 | Every box is feasible, so the chain is feasible | Boxes may consume the same resource or fail to establish the next starting condition. | Qualify the joint transition on one timing and resource basis. |
-| Missing evidence means impossible | An unanswered premise is treated as a negative result. | Return the exact conditional claim and qualifying question. |
+| Missing evidence means impossible | An unanswered premise is treated as a negative result. | Return the conditional claim and qualifying question. |
 | Known conflict remains “conditional” | A ruled-out combination keeps circulating as if confirmation alone could rescue it. | Reject or revise the affected configuration explicitly. |
 | Delay one step and the conflict disappears | Earlier steps may leave continuing demands, and the original horizon may no longer fit. | Reconstruct the later starting configuration and joint limits. |
-| A test proves development | Supported recovery or benchmark success is treated as transferable capability. | Return to the holder practice for the exact development or transfer result. |
+| A test proves development | Supported recovery or benchmark success is treated as transferable capability. | Return to the holder practice for the development or transfer result. |
 | Reachable means authorized | Feasibility is used as permission or recommendation. | Keep the choice, mandate, probe exposure, and execution result separate. |
 

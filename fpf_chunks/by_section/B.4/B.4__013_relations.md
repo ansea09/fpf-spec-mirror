@@ -6,12 +6,12 @@ section_id: "B.4:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4/B.4__013_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.4 — Coordinate Repeated Adaptation (Canonical Evolution Loop)"
   - "B.4:11 — Relations"
-line_start: 45963
-line_end: 45973
+line_start: 47859
+line_end: 47869
 dependencies:
   - "A.12"
   - "A.15.1"
@@ -27,11 +27,11 @@ keywords:
 ### B.4:11 - **Relations**
 
 * **Operationalizes:** `P-10 Open-Ended Evolution`.
-* **Uses:** `A.4` when Observe needs a comparison of a System's intended design with its actual operating conditions; `A.12` for external or reflexively split acting sides; `A.15.1` for dated Work; and the direct subject patterns named in B.4:4.1 for identity and continuity.
+* **Uses:** `A.4` when Observe needs a comparison of a System's intended design with its actual operating conditions; `A.12` for external or reflexively split acting sides; `A.15.1` for dated Work; and the subject patterns named in B.4:4.1 for identity and continuity.
 * **Coordinates with:** `B.5 Choose the Next Reasoning Contribution (Canonical Reasoning Cycle)`, `B.5.1` development states, and `B.3 Is This Claim Supported for This Use? — Trust and Assurance Calculus`. B.4 does not implement the B.5.1 states one-for-one, and evidence is not a B.4 phase.
 * **Is detailed by:** `B.4.1 Publish Candidate Routes for a Stabilized Cue (RoutedCueSet)` for optional early cue routing. The subject patterns in B.4:4.1 supply each subject's identity and continuity rules.
 
 #### B.4:11.1 - Pre-abductive seam compatibility
 
-During Observe, use `A.16.1` when a cue needs publication while its interpretation remains open, and `B.4.1` when possible continuations or a justified route choice need publication. Keep multiple routes live while selection is unresolved. A selected route can enter Refine or another fitting pattern when the receiving work calls for that continuation and its entry conditions hold. The receiving operation can use the routed cue publication directly or an available later typed publication such as `U.AbductivePrompt`, as appropriate.
+During Observe, use `A.16.1` when a cue needs publication while its interpretation remains open, and `B.4.1` when possible continuations or a justified route choice need publication. Keep multiple routes live while selection is unresolved. A selected route can enter Refine or another pattern when the receiving work calls for that continuation and its entry conditions hold. The receiving operation can use the routed cue publication or an available later typed publication such as `U.AbductivePrompt`.
 

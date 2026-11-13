@@ -6,12 +6,12 @@ section_id: "A.9:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.9/A.9__012_sota-echoing.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.9 — Choose and Check an Aggregation Law for the Intended Result"
   - "A.9:11 — SoTA-Echoing"
-line_start: 26674
-line_end: 26687
+line_start: 27666
+line_end: 27681
 dependencies:
   - "A.19.CN"
   - "A.19.ULSAM"
@@ -32,9 +32,11 @@ keywords:
 
 **Practice question.** Which law, and which property check, preserve the intended result when dependence, order or numerical interpretation matters?
 
-The selected line separates the subject model from the permitted computation. For the reliability branch, the NIST/SEMATECH *e-Handbook*, [§8.1.8.2, series model](https://www.itl.nist.gov/div898/handbook/apr/section1/apr182.htm), and [§8.1.8.3, parallel model](https://www.itl.nist.gov/div898/handbook/apr/section1/apr183.htm), supply concrete competing laws with their independence and failure-event assumptions. **Adopt** that event-first choice in §4 steps 1–3 and §5's .72/.98 cases. With the same component data, neither a familiar product nor a minimum answers both questions. A minimum can still supply a bound where the intended event warrants it. These sources support those non-repairable or first-failure reliability models; they establish no law for every aggregate.
+The selected line separates the subject model from the permitted computation. For the reliability branch, the NIST/SEMATECH *e-Handbook*, [§8.1.8.2, series model](https://www.itl.nist.gov/div898/handbook/apr/section1/apr182.htm), and [§8.1.8.3, parallel model](https://www.itl.nist.gov/div898/handbook/apr/section1/apr183.htm), supply competing laws with their independence and failure-event assumptions.
 
-For computation, [MPI 5.0, §7.9.1, Reduce](https://www.mpi-forum.org/docs/mpi-5.0/mpi50-report/node132.htm), supplies the practical comparison. Its reduction contract permits regrouping under associativity and, where applicable, reordering under commutativity. It also recognizes that floating-point addition can change under those freedoms and advises enforcing an evaluation order when the application requires it. The source supplies both a serious parallel-reduction default and an explicit-order alternative, not proof that a caller's domain operation has the assumed properties.
+**Adopt** that event-first choice in §4 steps 1–3 and §5's .72/.98 cases. With the same component data, neither a familiar product nor a minimum answers both questions. A minimum can still supply a bound where the intended event warrants it. These sources support those non-repairable or first-failure reliability models; they establish no law for every aggregate.
+
+For computation, [MPI 5.0, §7.9.1, Reduce](https://www.mpi-forum.org/docs/mpi-5.0/mpi50-report/node132.htm), supplies the practical comparison. Its reduction contract permits regrouping under associativity and, where applicable, reordering under commutativity. It also recognizes that floating-point addition can change under those freedoms and advises enforcing an evaluation order when the application requires it. The source supplies both a parallel-reduction default and an explicit-order alternative, not proof that a caller's domain operation has the assumed properties.
 
 **Adapt** this contract distinction in §4 step 4 and the `LOC` question. Given the same operands and required result, first check only the property needed for the proposed rearrangement. A tree reduction is appropriate when that property or an adequate error bound holds. An explicit ordered fold is the stronger answer when a particular evaluation order is part of the required result. It preserves that result at the possible cost of parallelism; it does not become the most accurate summation algorithm merely by fixing order. **Reject** treating acceptance by a reduction interface as evidence that rearrangement is harmless.
 

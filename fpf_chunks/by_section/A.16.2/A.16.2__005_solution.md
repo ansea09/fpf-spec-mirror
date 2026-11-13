@@ -6,12 +6,12 @@ section_id: "A.16.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.2/A.16.2__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.16.2 — Reopen, SketchBackoff, Respecify, or Retire a Language-State Publication"
   - "A.16.2:4 — Solution"
-line_start: 34134
-line_end: 34163
+line_start: 35614
+line_end: 35643
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -44,7 +44,7 @@ This pattern defines the retreat, reframing, and retirement side of the `A.16` m
 | `respecify` | the family remains plausible, but the framing scaffold, route specification, or facet-profile reading is wrong | broad domain, witness base, and major family commitments | framing scaffold, route specification, facet-profile reading |
 | `retire` | a cue, route-bearing publication, episteme, or branch is no longer current or no longer worth preserving | recorded history and any cited witnesses that still matter | current-use or retirement status, successor information, and any separately established relation change |
 
-`respecify` is intentionally narrower than epistemic precision repair. Slot-explicit epistemic precision restoration, bearer repair, or endpoint-local lexical precision remains with governing patterns such as `A.6.P`, `C.16.Q`, and `A.6.A`.
+`respecify` is narrower than epistemic precision repair. Slot-explicit epistemic precision restoration, bearer repair, or endpoint-local lexical precision remains with governing patterns such as `A.6.P`, `C.16.Q`, and `A.6.A`.
 
 #### A.16.2:4.2 - Required publication content
 Make the following content recoverable for each retreat or retirement move; add a note only when the existing material is insufficient:
@@ -54,12 +54,12 @@ Make the following content recoverable for each retreat or retirement move; add 
 - trigger or counter-evidence,
 - target family or target publication form when there is one; a retired branch may have no successor,
 - retained witnesses,
-- withdrawn assumptions, route claims, endpoint-use or current-use claims, and any exact authority, responsibility, permission, or commitment relation that separately changes,
+- withdrawn assumptions, route claims, endpoint-use or current-use claims, and any authority, responsibility, permission, or commitment relation that separately changes,
 - required dependent updates under §20;
 - and successor information when the receiving use needs it. Identify a successor only under its applicable relation; distinguish a no-successor result supported by a negative criterion or complete closure basis from an unresolved successor question.
 
 #### A.16.2:4.3 - Status and relation discipline
-Reconsider each route selection, endpoint or gate conclusion, publication availability, current-use or retirement claim that depends on the changed basis. Revise those no longer supported and preserve unaffected claims. A past test result remains a historical fact; distinguish it from whether its conclusion still applies to the current use. The move does not by itself establish a change in authority, responsibility, permission, or commitment. If one of those relations changes, establish the change under its direct predicate, with its actual participants and the scope, interval, or instituting or ending act the rule requires.
+Reconsider each route selection, endpoint or gate conclusion, publication availability, current-use or retirement claim that depends on the changed basis. Revise those no longer supported and preserve unaffected claims. A past test result remains a historical fact; distinguish it from whether its conclusion still applies to the current use. The move does not by itself establish a change in authority, responsibility, permission, or commitment. If one of those relations changes, establish the change under its direct predicate, with its participants and the scope, interval, or instituting or ending act the rule requires.
 
-If only one route claim, scope assumption or operational use fails, retain the surviving content. Follow its actual dependencies under §20 instead of resetting the entire publication.
+If only one route claim, scope assumption or operational use fails, retain the surviving content. Follow its dependencies under §20 instead of resetting the entire publication.
 

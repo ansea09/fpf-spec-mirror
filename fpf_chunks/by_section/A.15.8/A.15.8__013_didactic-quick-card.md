@@ -6,12 +6,12 @@ section_id: "A.15.8:12"
 section_title: "Didactic quick card"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.8/A.15.8__013_didactic-quick-card.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.15.8 — Work-Performance Configuration and Recovery Testing"
   - "A.15.8:12 — Didactic quick card"
-line_start: 31934
-line_end: 31937
+line_start: 33183
+line_end: 33191
 dependencies:
   - "A.1"
   - "A.10"
@@ -41,5 +41,10 @@ keywords:
 
 ### A.15.8:12 - Didactic quick card
 
-**Which branch?** Actual dated Work, or a present WorkPlan with intended performance only as plan content. **Who performs?** Independently identified actual performer Systems; add assignment-bound attribution only when needed. Keep intended performers within plan content. **What supports?** Separately identified Systems and values through exact relations. **What must survive?** The minimum state and the bearer, carrier, update/use, currentness and return conditions needed for continuation. **What do we test?** Use an applicable direct domain Method to define one decision-changing loss, handoff, delay, or reconfiguration; identify a distinct dated probe Work only when the account needs that occurrence claim, with its A.13 and A.15.1 basis. **What comes back?** What is supported, failed or unresolved for the named configuration and window, and the warranted next action or stop.
+- **Which branch?** Actual dated Work, or a present WorkPlan with intended performance only as plan content.
+- **Who performs?** Independently identified actual performer Systems; add assignment-bound attribution only when needed. Keep intended performers within plan content.
+- **What supports?** Separately identified Systems and values through relations.
+- **What must survive?** The minimum state and the bearer, carrier, update/use, currentness and return conditions needed for continuation.
+- **What do we test?** Use an applicable domain Method to define one decision-changing loss, handoff, delay, or reconfiguration; identify a distinct dated probe Work only when the account needs that occurrence claim, with its A.13 and A.15.1 basis.
+- **What comes back?** What is supported, failed or unresolved for the named configuration and window, and the warranted next action or stop.
 

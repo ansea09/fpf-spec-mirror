@@ -6,12 +6,12 @@ section_id: "A.11:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.11/A.11__003_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.11 — Ontological Parsimony"
   - "A.11:1 — Problem Frame"
-line_start: 27443
-line_end: 27450
+line_start: 28473
+line_end: 28480
 dependencies:
   - "A.6.P"
   - "A.6.RCD"
@@ -31,5 +31,5 @@ FPF needs enough primitives to be useful, but every new primitive creates learni
 
 When source or draft wording proposes a candidate durable value in `U.*` form, treat that as a proposal requiring an admission decision. Apply A.11 after `E.24.UK` recovers the governed object and before naming patterns choose a public label.
 
-For a relation-kind candidate, first apply `A.6.P`. If the participants are exact but no current direct relation expresses the named receiving claim, apply `A.6.RCD`. Stop when it returns an existing exact predicate, a local compound claim, or subject-bounded or reusable predicate-definition content. A derived relation-kind candidate continues only when a named use needs stable occurrence semantics and supplies its proposed direct settlement; an irreducible primitive relation-kind candidate continues only under A.6.RCD disposition 4.
+For a relation-kind candidate, first apply `A.6.P`. If the participants are exact but no current direct relation expresses the named receiving claim, apply `A.6.RCD`. Stop when it returns an existing predicate, a local compound claim, or subject-bounded or reusable predicate-definition content. A derived relation-kind candidate continues only when a named use needs stable occurrence semantics and supplies its proposed settlement; an irreducible primitive relation-kind candidate continues only under A.6.RCD disposition 4.
 

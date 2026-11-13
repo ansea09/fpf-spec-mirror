@@ -6,12 +6,12 @@ section_id: "A.6.P:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__010_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.P — Relational Precision Restoration - Recovering Direct Relations from Under-Specified Claims"
   - "A.6.P:9 — Consequences"
-line_start: 20443
-line_end: 20458
+line_start: 21316
+line_end: 21331
 dependencies:
   - "A.1.SCR"
   - "A.1.STM"
@@ -44,7 +44,7 @@ keywords:
 - Hidden participants and kind collapses become repairable through one repeatable sequence.
 - Reusable declarations, occurrence identity, designations, and representations appear only for named receiving uses.
 - Assertion, declaration, occurrence, evidence, designation, publication, Bridge, and representation changes remain independently reviewable.
-- Neighboring claims remain separate subject assertions under their exact predicates rather than entering a generic container.
+- Neighboring claims remain separate subject assertions under their predicates rather than entering a generic container.
 
 **Costs and mitigations**
 

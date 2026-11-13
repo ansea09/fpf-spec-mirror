@@ -6,12 +6,12 @@ section_id: "E.8:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__012_architectural-rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:10 — Architectural Rationale"
-line_start: 97638
-line_end: 97650
+line_start: 103119
+line_end: 103131
 dependencies:
   - "E.10"
   - "E.10.MOVE"
@@ -65,7 +65,7 @@ The common structure and style principles serve:
 
 A unified template also improves retrieval: a chunk containing `A.2:<n> - Bias‑Annotation` remains self‑identifying even when parent headings are missing, and the required footer marker makes truncation detectable.
 
-The ASCII ` - ` separator in H-2 keeps heading entry inexpensive: authors can type it directly on ordinary keyboards, and readers can reuse the same characters in search and plain-text tools. Typographic dash variants require an extra input or conversion step while adding no information to the boundary between an identifier and its title. Where a prose dash is useful, `--` is a keyboard-accessible option; the identifier/title separator remains ` - `.
+The ASCII space-hyphen-space separator in H-2 keeps heading entry inexpensive: authors can type it directly on ordinary keyboards, and readers can reuse the same characters in search and plain-text tools. Typographic dash variants require an extra input or conversion step while adding no information to the boundary between an identifier and its title. Where a prose dash is useful, `--` is a keyboard-accessible option; the identifier/title separator remains the one shown in `<FullId> - <Title>`.
 
 The **Conformance Checklist** groups the criteria for judging a pattern that claims conformance.
 

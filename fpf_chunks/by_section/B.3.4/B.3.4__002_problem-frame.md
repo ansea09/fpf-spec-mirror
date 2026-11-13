@@ -6,12 +6,12 @@ section_id: "B.3.4:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.4/B.3.4__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.3.4 — Can Earlier Evidence Still Support This Use? — Evidence Decay and Epistemic Debt"
   - "B.3.4:1 — Problem Frame"
-line_start: 45287
-line_end: 45296
+line_start: 47141
+line_end: 47150
 dependencies:
   - "A.10"
   - "B.3"
@@ -36,5 +36,5 @@ A bridge's earlier assessment may remain applicable to its unchanged bounded use
 
 **Practical gain.** Reconsider the affected support in time to change the decision, while retaining useful results whose relevant premises still hold.
 
-**Ordinary boundary.** Do not open a new assurance procedure solely because a carrier is older. If available information already establishes applicability for the immediate use, continue on that basis without a renewal or skip-refresh certificate. A real licence deadline, calibration qualification or promised-use window remains a condition of the actual use.
+**Ordinary boundary.** Do not open a new assurance procedure solely because a carrier is older. If available information already establishes applicability for the immediate use, continue on that basis without a renewal or skip-refresh certificate. A licence deadline, calibration qualification or promised-use window remains a condition of the use.
 

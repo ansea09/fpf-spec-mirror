@@ -6,12 +6,12 @@ section_id: "A.6.M:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.M/A.6.M__010_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.M — Module and Interface Claim Repair"
   - "A.6.M:9 — Consequences"
-line_start: 23192
-line_end: 23206
+line_start: 24111
+line_end: 24125
 dependencies:
   - "A.10"
   - "A.20"
@@ -50,7 +50,7 @@ Benefits:
 
 - Module and interface talk becomes usable without minting false root kinds.
 - Practitioners get a cheap relation repair before measurement or evidence work.
-- MOSA and open-system claims become precise enough to make real substitution and change reasoning admissible.
+- MOSA and open-system claims become precise enough to make substitution and change reasoning admissible.
 - Functional, flow, control, mechanism, work, evidence, assurance, gate, decision, and causal claims stay with their subject patterns.
 
 Costs:

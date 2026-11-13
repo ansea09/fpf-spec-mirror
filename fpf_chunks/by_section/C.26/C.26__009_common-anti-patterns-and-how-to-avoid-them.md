@@ -6,12 +6,12 @@ section_id: "C.26:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26/C.26__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.26 — Quantum-Like Modeling Lens"
   - "C.26:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 65853
-line_end: 65919
+line_start: 68833
+line_end: 68899
 dependencies:
   - "A.10"
   - "A.15"
@@ -100,7 +100,7 @@ The ordinary accounts and any supported QL finding can inform design options to 
 | Problem | Design option to test |
 | --- | --- |
 | Dashboard changes behavior destructively. | Delay publication, split private and public metrics, add independent sampling, or publish confidence and loss boundaries. |
-| Workshop creates alignment but masquerades as discovery. | Record pre-workshop hypotheses, post-workshop commitments, and created boundary meaning separately. |
+| Workshop creates alignment but is reported as discovery. | Record pre-workshop hypotheses, post-workshop commitments, and created boundary meaning separately. |
 | API read disturbs state. | Add non-mutating read, shadow read, sampling window, idempotence declaration, or separate observation channel. |
 | Metrics in two contexts are not comparable. | Build a bridge or coupling record or stop comparison. |
 | Summary is overused as source. | Recover the omitted distinction needed by the receiving use, or retain the summary when its contents suffice. |
@@ -115,5 +115,5 @@ LLM-mediated work cycles can involve false passive reads, overused summaries, un
 | LLM summary of an architecture record | `A.6.3.CSC`, `A.6.3.RT`, and `A.10` as applicable; overuse of a summary alone does not activate QL coarsening. |
 | Prompted model evaluation changes model or prompt behavior | `C.16` / `B.3` first; `C.26.1` only if the eval output is treated as a passive model-state read. |
 | Agent work cycle "discovers" requirements | `A.15` / `A.10` / `A.6` first; `C.26.1` only if the interaction created the requirement framing. |
-| Synthetic personas "represent market state" | `A.10` / `B.3` first; `C.26.2` only if a low-recoverability state-reading claim is carefully bounded with non-admissible use visible. |
+| Synthetic personas "represent market state" | `A.10` / `B.3` first; `C.26.2` only if a low-recoverability state-reading claim is bounded with non-admissible use visible. |
 

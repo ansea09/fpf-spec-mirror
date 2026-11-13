@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.30"
-pattern_title: "Grounded Architecture and Selected-Structure Adequacy"
+pattern_title: "Architecture and Selected-Structure Adequacy"
 section_id: "C.30:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30/C.30__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "C.30 — Grounded Architecture and Selected-Structure Adequacy"
+  - "C.30 — Architecture and Selected-Structure Adequacy"
   - "C.30:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 71971
-line_end: 71985
+line_start: 75064
+line_end: 75078
 dependencies:
   - "A.1"
   - "A.10"
@@ -78,14 +78,14 @@ keywords:
 
 | Anti-pattern | Symptom | Repair |
 | --- | --- | --- |
-| **Architecture-as-document** | A document, diagram, table, generated relation graph, or dashboard is treated as the architecture or as what makes `ArchitectureRelation` obtain. | Recover the representation and publication objects, exact claim episteme, selected structure, and actual direct relation separately; a carrier creates none of their subject-side facts. |
-| **Publication-unit architecture drift** | One publication unit mixes architecture description, evidence claim, gate decision state, decision note, and work authorization under one architecture heading. | Name the exact `ArchitectureRelation` or modal `ArchitectureClaim` content, keep description, view, and publication objects separate, and use the applicable patterns for evidence, gate, decision, and work claims. The publication heading creates no selected structure or subject-side relation. |
+| **Architecture-as-document** | A document, diagram, table, generated relation graph, or dashboard is treated as the architecture or as what makes `ArchitectureRelation` obtain. | Recover the representation and publication objects, claim episteme, selected structure, and actual direct relation separately; a carrier creates none of their subject-side facts. |
+| **Publication-unit architecture drift** | One publication unit mixes architecture description, evidence claim, gate decision state, decision note, and work authorization under one architecture heading. | Name the `ArchitectureRelation` or modal `ArchitectureClaim` content, keep description, view, and publication objects separate, and use the applicable patterns for evidence, gate, decision, and work claims. |
 | **Module-diagram takeover** | Architecture is reduced to module structure or interface relation. | Recover the structure kind, use `C.30.ASV`, and use the module-and-interface repair pattern when the full module claim is current. |
 | **Tool-model lock-in** | A notation or tool model becomes the source of architecture truth. | Recover FPF architecture claim, structures, views, correspondence, and source-return condition. |
 | **Evidence laundering** | A published architecture description is used as evidence sufficiency. | Use `A.10` for source recovery and bounded reliance, and `G.6` for a citable evidence-provenance path; identify each represented relation through its defining pattern. C.30 keeps only the architecture claim, selected-structure, and conditional architecture-description-use boundary. |
-| **Assurance or safety overread** | Architecture description or LCA diagram is used as assurance or safety case. | Use `B.3`, `A.10`, `G.6`, `C.30.LCA`, or the exact safety or gate pattern according to the claim being made. |
-| **Risk color as architecture decision** | A risk color, matrix or maturity score decides the architecture move or resource priority by itself. | Recover the decision, affected structure and the rule connecting the color or score to that decision. Establish the relevant hazard or loss, comparison basis and evidence; add assurance or a gate result only when the receiving decision requires it. |
+| **Assurance or safety overread** | Architecture description or LCA diagram is used as assurance or safety case. | Use `B.3`, `A.10`, `G.6`, `C.30.LCA`, or the safety or gate pattern according to the claim being made. |
+| **Risk color as architecture decision** | A risk color, matrix or maturity score decides the architecture move or resource priority by itself. | Recover the decision, affected structure and the rule connecting the color or score to that decision. Establish the hazard or loss, comparison basis and evidence; add assurance or a gate result only when the receiving decision requires it. |
 | **Causal slogan** | Architecture property is said to cause a quality without a bounded claim or independently admitted relation grounding. | Start with `ArchitectureStructuralCharacteristicQBundleClaimLine`; apply C.28 or the applicable evidence, causal-use, or assurance pattern, or use `ArchitectureCharacteristicQBundleClaim` when a durable bounded claim is needed. Name a direct relation only after its defining pattern identifies the participants and its predicate is satisfied. |
-| **Architecture-operation overread** | Replacing a block, module, layer, protocol, cache, memory path or flow relation is treated as improvement by label alone. | Recover unclear source labels through C.30.STRAT, then establish the changed structure or relation and the characteristic comparison actually claimed. Retain preservation, loss, source or decision grounds when the use consumes them. |
-| **Sterile compliance rewrite** | The text becomes well typed but no longer helps the practitioner act. | Restore a concrete next architecture move, a retainable `ArchitectureQuestionCard@Project` when needed, or the applicable pattern for the separate claim. |
+| **Architecture-operation overread** | Replacing a block, module, layer, protocol, cache, memory path or flow relation is treated as improvement by label alone. | Recover unclear source labels through C.30.STRAT, then establish the changed structure or relation and the characteristic comparison claimed. Retain preservation, loss, source or decision grounds when the use consumes them. |
+| **Sterile compliance rewrite** | The text becomes well typed but no longer helps the practitioner act. | Restore a next architecture move, an `ArchitectureQuestionCard@Project` when needed, or the pattern for the separate claim. |
 

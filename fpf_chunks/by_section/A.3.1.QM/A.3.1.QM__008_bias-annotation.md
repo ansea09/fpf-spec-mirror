@@ -6,12 +6,12 @@ section_id: "A.3.1.QM:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.QM/A.3.1.QM__008_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.3.1.QM — Qualify a Method for Its Intended Contribution"
   - "A.3.1.QM:6 — Bias-Annotation"
-line_start: 10341
-line_end: 10349
+line_start: 10742
+line_end: 10750
 dependencies:
   - "A.3.1"
   - "A.3.1.CC"
@@ -27,7 +27,7 @@ keywords:
 
 | Bias | Likely drift | Repair |
 | --- | --- | --- |
-| fit-score bias | Unlike contribution, capability, authority, evidence, and burden claims collapse into one number. | Return the decision-changing conditions and truthful branch instead of an opaque total. |
+| fit-score bias | Unlike contribution, capability, authority, evidence, and burden claims collapse into one number. | Return the decision-changing conditions and qualification result instead of an opaque total. |
 | candidate-upgrade bias | “Qualified candidate” is read as identified Method. | Repeat the account status in the verdict and state the open `A.3.1` condition. |
 | compatibility bias | One feasible handoff or schema mapping becomes whole fit. | Call it a bounded local connection and route combined questions to C.32.MWA.PP. |
 | decomposition bias | Each support System, role, or evidence item is evaluated as a Method candidate. | Accept only identified Methods and candidate Method accounts as qualification subjects. |

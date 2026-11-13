@@ -6,12 +6,12 @@ section_id: "C.40.DC:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.DC/C.40.DC__013_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.40.DC — Construct Directions with Support Configurations"
   - "C.40.DC:12 — Relations"
-line_start: 87637
-line_end: 87649
+line_start: 91871
+line_end: 91883
 dependencies:
   - "A.3.1"
   - "A.3.2"
@@ -34,5 +34,5 @@ keywords:
 - **Supplies C.40.OP:** contribution-bearing finite steps and their stage-specific baselines for retention, paths, or branches.
 - **Returns to human-capability, organization, strategy, AI, engineering, operations, and other direct practices:** their interventions, mechanisms, capability, support, evidence, authority, and realization results.
 - **Returns human programme and Guide work:** The applicable programme-design Method composes and compares programmes; authorized participants choose; the applicable learning-material production Method realizes the selected programme and pattern contributions as a Guide.
-- **Uses C.40.RQ:** local requalification of changed directions or supports. A separately requested advising service retains its actual engagement conditions, established through the applicable professional Method.
+- **Uses C.40.RQ:** local requalification of changed directions or supports. A separately requested advising service retains its engagement conditions, established through the applicable professional Method.
 

@@ -6,12 +6,12 @@ section_id: "A.6.A:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.A/A.6.A__011_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.A — Affordance and Action-Invitation Precision Restoration (ACT-INV)"
   - "A.6.A:10 — Rationale"
-line_start: 22400
-line_end: 22407
+line_start: 23289
+line_end: 23296
 dependencies:
   - "A.15"
   - "A.16"
@@ -51,7 +51,7 @@ keywords:
 
 Physical opportunities, their detection, operator prompts and inquiry questions can share an action-oriented sentence shape while having different obtaining and identity conditions. Recovering their meaning is a reusable method; their common grammar does not supply a common relation kind.
 
-A universal invitation record would add an intermediate object whose truth conditions the menu cannot establish. A complete sum of independently specified relation kinds could serve a particular receiver, but it would require those actual predicates, identity rules and a receiving use. Wording recovery can usually stop earlier, at the supported subject claim or question. This reduces representation work while preserving consequential distinctions.
+A universal invitation record would add an intermediate object whose truth conditions the menu cannot establish. A complete sum of independently specified relation kinds could serve a particular receiver, but it would require those predicates, identity rules and a receiving use. Wording recovery can usually stop earlier, at the supported subject claim or question. This reduces representation work while preserving consequential distinctions.
 
-Use `C.16.Q` for an evaluative repair, `A.6.B` for the actual boundary-bearing claim, `A.15` for Method/Work distinctions and `A.16` for a needed account transition. `C.2.3` remains the direct governor of Formality F. A physical-opportunity statement, an open inquiry and a policy decision need not pass through the same intermediate relation.
+Use `C.16.Q` for an evaluative repair, `A.6.B` for the boundary-bearing claim, `A.15` for Method/Work distinctions and `A.16` for a needed account transition. `C.2.3` remains the direct governor of Formality F. A physical-opportunity statement, an open inquiry and a policy decision need not pass through the same intermediate relation.
 

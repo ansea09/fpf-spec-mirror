@@ -6,12 +6,12 @@ section_id: "E.5.2:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5.2/E.5.2__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.5.2 — Notational Independence"
   - "E.5.2:3 — Forces"
-line_start: 96511
-line_end: 96518
+line_start: 101718
+line_end: 101725
 dependencies:
   - "A.6.3.RT"
   - "A.6.3.RT.OE"
@@ -25,7 +25,7 @@ keywords:
 
 | Force | Tension |
 |-------|---------|
-| **Expressiveness** | An expression may support reasoning and construction; its meaning must remain recoverable in another suitable notation. |
+| **Expressiveness** | An expression may support reasoning and construction. Its meaning must remain recoverable in another suitable notation. |
 | **Continuity of use** | Framework claims need to remain recoverable as representation conventions and the tools used to read them change. |
 | **Reader preparation** | An expression can make an operation convenient for a reader trained in its conventions, while another reader needs more preparation or a different expression for that task. |
 

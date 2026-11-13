@@ -6,12 +6,12 @@ section_id: "E.8.ML:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8.ML/E.8.ML__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.8.ML — Construct a Pattern Language for Connected Methods"
   - "E.8.ML:1 — Problem frame"
-line_start: 97723
-line_end: 97730
+line_start: 103216
+line_end: 103225
 dependencies:
   - "A.3.2.DE"
   - "B.1.5"
@@ -26,9 +26,11 @@ keywords:
 
 ### E.8.ML:1 - Problem frame
 
-**Use this when.** The Method-related content has been recovered and allocated, but one linear description does not give recurring users the independent problem entries, neighboring decisions or source returns they need. You must decide which patterns and relations will make that content usable as a language.
+**Use this when.** The Method-related content has been recovered and allocated, but a linear description leaves recurring users without a way to start from their own problem, reach a neighboring decision or return to a source when they need to. You must decide which patterns and relations will make that content usable as a language.
 
 The working reader is a Method engineer or domain-framework author. Start with a user's question, such as “May I reuse this review after the source changed?”, and name the first useful result. Then identify the smallest body or cooperating set that can supply it.
 
-The first useful result is a small language-architecture answer: the user's problem entry, each needed contribution and its subject, the material relation between them, and the stop or return. One direct MethodDescription can be the correct answer. Use A.3.2.DE without a language when it already serves the use; use E.11.PFP alone when only public arrangement or navigation is missing.
+The first useful result is a brief account of how to organize the language. State the problem that brings the user to the language, each needed contribution and what it concerns, the relation between contributions that matters for this use, and where to stop or return.
+
+One direct MethodDescription can be the correct answer. Use A.3.2.DE without a language when it already serves the use. Use E.11.PFP alone when only public arrangement or navigation is missing.
 

@@ -6,12 +6,12 @@ section_id: "A.22.CGUS:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22.CGUS/A.22.CGUS__006_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.22.CGUS — Which Continuations Are Available? — Constraint-Governed Unfolding Structure (CGUS)"
   - "A.22.CGUS:4 — Solution"
-line_start: 40655
-line_end: 40819
+line_start: 42263
+line_end: 42427
 dependencies:
   - "A.10"
   - "A.15"
@@ -50,7 +50,7 @@ keywords:
 Write the smallest useful answer in domain language:
 
 1. name the decision or question;
-2. list the real alternatives;
+2. list the alternatives;
 3. state the condition for each alternative;
 4. state the facts known for this case;
 5. mark each alternative `available`, `blocked`, or `unknown` under its condition, and name any gap that prevents deciding it. If the evaluation itself failed, state that error rather than treating it as a domain fact.
@@ -100,7 +100,7 @@ A22IdentityBasis:
   selectedObtainingRelationOccurrenceRefs[]
   appliedConstraintClaimRefs[]
   namedSelectionUseFrame:
-    questionOrAction: exact selection question
+    questionOrAction: selection question
     admissibleAction
     stopOrReturnCondition
 forbiddenOverread?: optional explanation outside A22IdentityBasis
@@ -126,13 +126,13 @@ CGUSLocusBinding := <selectedCGUSRef, locusId, locusMeaning, selectedConstituent
 
 The constituent must already belong to the A.22 identity basis. A locus binding neither changes that constituent's kind nor creates a relation. Do not use an A.6.5 `SlotSpec` as a free-standing structure position.
 
-When replay must identify one participant in a relation occurrence, retain the direct relation definition, the occurrence, the participant order, and the participant binding:
+When replay must identify one participant in a relation occurrence, retain the relation definition, the occurrence, the participant order, and the participant binding:
 
 ```text
 RelationParticipantLocator := <relationDefinitionRef, relationOccurrenceRef, participantOrder, participantRef, relationSignatureRef?, slotSpecRef?>
 ```
 
-Add a `RelationSignature` and its declaration-local `SlotSpec` together only when an existing reusable declaration is itself needed for replay. Neither declaration value substitutes for the obtaining occurrence. The CGUS has no ambient context field.
+Add a `RelationSignature` and its declaration-local `SlotSpec` together only when an existing reusable declaration is needed for replay. Neither declaration value substitutes for the obtaining occurrence. The CGUS has no ambient context field.
 
 Judge each continuation separately. An immediate local use may keep the following values in the explanation; persistence or replay may place them in an ordinary C.2.1 result episteme.
 ```text
@@ -171,13 +171,13 @@ CurrentContinuationSetResult:
   recheckConditions[]
 ```
 
-A claim reference identifies the claim being applied; it does not show that the test applies or that its condition is satisfied. An obtaining relation is not a condition claim. Keep these two basis branches distinct and derive the case result only from completed judgements. Apply the candidate’s own condition logic: for example, one false required conjunct can establish `disabled` despite another unknown conjunct. Retain that unknown basis value; it is not thereby satisfied. An evaluation failure yields `error` under the applicable test, not an invented fact about the candidate.
+A claim reference identifies the claim being applied; it does not show that the test applies or that its condition is satisfied. An obtaining relation is not a condition claim. Keep these two basis branches distinct and derive the case result only from completed judgements. Apply the candidate’s condition logic: for example, one false required conjunct can establish `disabled` despite another unknown conjunct. Retain that unknown basis value; it is not thereby satisfied. An evaluation failure yields `error` under the applicable test, not an invented fact about the candidate.
 
 The membership test concerns potential topology. Changed facts, evidence, test outcomes, or time windows normally change a judgement and the current set, not the structure. Reidentify the A.22 structure when a constituent, selected obtaining relation occurrence, applied constraint, or named use frame changes. Reapply CGUS membership when a locus binding or potential-continuation row changes.
 
 #### A.22.CGUS:4.3 - Four separate decisions
 
-| Decision | Passing basis | Honest lower result |
+| Decision | Passing basis | Lower result |
 | --- | --- | --- |
 | A.22 identity and CGUS membership | The four A.22 discriminators identify one structure; its local loci, relations, and constraints define at least two potential continuations across allowed cases. | Name the missing discriminator, binding, relation, constraint, or candidate. Keep the artifact as an explanation. |
 | Continuation result for this case | Each candidate retains its condition-evaluation and obtaining-relation basis rows as applicable. A condition-evaluation row keeps the test, applicability, inputs, required polarity, and observed outcome; an obtaining-relation row keeps the definition, occurrence, and ordered participants. Keep the relevant facts or evidence, time window, and an `enabled`, `disabled`, `unknown`, or `error` result. | Mark the affected candidate unknown when the gap prevents deciding its condition; retain an independently established disabled result. Do not revoke an independently established structure. |
@@ -188,9 +188,9 @@ Potential branches and joins remain part of the structure even when the present 
 
 #### A.22.CGUS:4.4 - Explanations, descriptions, and the non-workflow boundary
 
-An ordinary explanation keeps the subject actually designated by its claims. When its episteme identity matters, recover that independently identified `EntityOfConcern` under C.2.1. It may already be an A.22 structure whose CGUS membership is unresolved. An assertion of CGUS membership still requires its qualification basis.
+An ordinary explanation keeps the subject designated by its claims. When its episteme identity matters, recover that independently identified `EntityOfConcern` under C.2.1. It may already be an A.22 structure whose CGUS membership is unresolved. An assertion of CGUS membership still requires its qualification basis.
 
-After qualification, a whole-structure description may describe loci, bindings, relations, constraints, potential branches, case results, and relevant omissions. A separate demonstrative slice may show one traversal for a declared teaching or comparison use. That slice is a C.2.1 episteme: its exact claim content, the qualified CGUS as `EntityOfConcern`, and its effective reference scheme jointly recover its identity. `DemonstrativeUnfoldingSlice@Context` is readable lineage for this possibility, not a `U.Kind` or an exact slice by itself. The slice neither creates nor reidentifies the structure. Use C.33 only when hidden or lost structure in its carrier matters to a declared architecture use within C.33's scope.
+After qualification, a whole-structure description may describe loci, bindings, relations, constraints, potential branches, case results, and relevant omissions. A separate demonstrative slice may show one traversal for a declared teaching or comparison use. That slice is a C.2.1 episteme: its claim content, the qualified CGUS as `EntityOfConcern`, and its effective reference scheme jointly recover its identity. `DemonstrativeUnfoldingSlice@Context` is readable lineage for this possibility, not a `U.Kind` or a slice by itself. The slice neither creates nor reidentifies the structure. Use C.33 only when hidden or lost structure in its carrier matters to a declared architecture use within C.33's scope.
 
 Where a slice shows one selected pattern use, it may recall the difficulty through the pattern's `Problem frame` or `Problem`, or recall the way of addressing it through the `Solution`. To show that same use in either form, preserve the selected pattern, working subject and question or proposed use, current conditions, expected result, stop or continuation, and relevant locus bindings. Changing between those formulations changes only the description when the selected pattern use and the qualified structure remain the same. A.22 structure identity still depends on its constituents, selected obtaining relations, applied constraints and named selection-use frame; CGUS membership additionally depends on its locus bindings and at least two potential continuations. Question or action labels establish neither.
 
@@ -198,7 +198,7 @@ Displayed words such as *move*, *next*, and *path* remain ordinary language unle
 
 For a transformation-flow use, apply `E.18.3`. It owns the choice among one TFS, one parent-relative `SubflowRef`, or an E.18.NET network and the corresponding position and demonstration locators. CGUS keeps only its local locus bindings and potential topology; it does not copy the network's members, positions, valuations, Work, transformations, or tags.
 
-Cite another pattern only when its content supplies a needed definition, constraint, test, method, evidence rule, or assurance rule. For example, use C.30 for an architecture claim and C.32 for architecture-candidate synthesis, E.23 for repeated quality improvement under a declared evaluation, G.11 for source currentness, C.29 for a mathematical-lens claim, A.10 when the source-to-use account is implicit or must remain replayable, or B.3 for an actual named assurance claim.
+Cite another pattern only when its content supplies a needed definition, constraint, test, method, evidence rule, or assurance rule. For example, use C.30 for an architecture claim and C.32 for architecture-candidate synthesis, E.23 for repeated quality improvement under a declared evaluation, G.11 for source currentness, C.29 for a mathematical-lens claim, A.10 when the source-to-use account is implicit or must remain replayable, or B.3 for a named assurance claim.
 
 If a durable name or a relation between local senses is the question, use F.17, F.18, or F.9 after the value has been recovered. Do not copy their naming or Bridge procedures into this pattern. Entry cards and publication faces remain under E.11 and E.17.
 

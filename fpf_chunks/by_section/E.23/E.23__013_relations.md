@@ -6,12 +6,12 @@ section_id: "E.23:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__013_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:12 — Relations"
-line_start: 115361
-line_end: 115395
+line_start: 122675
+line_end: 122709
 dependencies:
   - "A.19.ECS"
   - "A.22.CGUS"
@@ -37,12 +37,12 @@ keywords:
 | `C.40.CD` | Develops a next problem and its solving means together when an acquired operation opens work that the earlier question did not settle. |
 | `C.36.RP`, `C.36` | Supply the next participant's acquisition, adaptation and further development, and the separately current cultural-population question. |
 | `C.16.MR`, `C.16.IR`, `C.16.RM` | Construct the measurement relation, determine what it resolves and repair the arrangement. E.23:4.1.1 connects these contributions to the reported improvement claim and its no-change comparison. |
-| `E.22` | Resolves a missing or disputed evaluation question, preserves adequate direct requests, and supplies the conditional exact frame and use declaration plus finding/proposal forms. |
+| `E.22` | Resolves a missing or disputed evaluation question, preserves adequate direct requests, and supplies the conditional frame and use declaration plus finding/proposal forms. |
 | `E.21` | Defines the evaluation used to obtain pattern-quality values in pattern-improvement loops. |
 | `E.9.DA` | Defines the decision-adequacy evaluation used in `DRR` loops. |
 | `E.2.DA` | Defines the FPF Pillar-adequacy evaluation used in corpus-level loops. |
-| `A.22.CGUS` | Defines the current improvement unfolding structure predicate: exact constituents, already-obtaining relations, guards, admissible alternatives, selected continuation, stop, and subject-assertion reconsideration conditions. The structure, visible cycle, record, and slice perform no Work. |
-| `A.13`, `A.15.1`, `A.2`, `A.2.1`, `F.6`, `A.6.1`, `C.2.1`, `A.3.4`, `A.15.PROD` | Define or constrain exact actual performers, independently admitted evaluation or improvement Work, optional local classification and precise assignment-bound attribution, application and result binding, result episteme, actual Transformation, and any separately current production branch. E.23 mints no generic Work-result or Work-to-change relation. |
+| `A.22.CGUS` | Defines constraint-governed unfolding structures. E.23 specifies their improvement-loop specialization: exact constituents, already-obtaining relations, guards, admissible alternatives, selected continuation, stop, and subject-assertion reconsideration conditions. The structure, visible cycle, record, and slice perform no Work. |
+| `A.13`, `A.15.1`, `A.2`, `A.2.1`, `F.6`, `A.6.1`, `C.2.1`, `A.3.4`, `A.15.PROD` | Define or constrain actual performers, independently admitted evaluation or improvement Work, optional local classification and precise assignment-bound attribution, application and result binding, result episteme, actual Transformation, and any separately current production branch. E.23 mints no generic Work-result or Work-to-change relation. |
 | `C.22.PFR` | Governs an actual Problem occurrence when one is used by an improvement claim; a finding, floor miss, evaluation need, or loop record does not establish its actuality or temporal identity. |
 | `E.13` | Governs pragmatic utility and proxy-to-value alignment when loop targets, quality values, metrics, or review results become substitutes for the intended value. |
 | `G.2` | Supplies a broad, refreshable CG-Frame pack when that source-synthesis contribution is needed. Carry its adopted contributions and limits into the affected improvement claim; other source routes keep their own bounded basis. For a DPF seed, select the smallest sufficient source route through `E.4.DPF:4`; any evidence claim remains under its applicable evidence rule. |
@@ -51,7 +51,7 @@ keywords:
 | `C.19.1` | Governs BLP and cost and risk comparison for method-family choice. |
 | `C.22.1`, `C.24` | Govern durable task-family adaptation and tool-call planning when the loop makes those claims. |
 | `C.17`, `C.18`, `C.19`, `G.5`, `G.9`, `G.11` | Govern OEE and NQD candidate characteristics, archive, front, pool, selected set, parity, and refresh. |
-| `E.18`, `E.18.3` | When the exact selected A.22 improvement structure also satisfies transformation-flow membership and boundary conditions, recognize that same `U.Structure` as the current transformation-flow unfolding structure. A visible loop, method, record, or series of Work occurrences supplies neither membership nor a second TFS by shape. |
+| `E.18`, `E.18.3` | When the selected A.22 improvement structure also satisfies transformation-flow membership and boundary conditions, recognize that same `U.Structure` as the current transformation-flow unfolding structure. A visible loop, method, record, or series of Work occurrences supplies neither membership nor a second TFS by shape. |
 | `E.18.1` | Carries accepted problem-side records or generated seed records toward the next FPF relation, including DPF seed-to-hardening routes before a quality-improvement loop is ready. |
 | `E.4.DPF` | Governs DPF authoring routes and publication carriers when a fast local framework seed is the object being carried toward use or admission. |
 | `E.4.PFAD`, `E.4.PFR` | Govern framework architecture decisions and framework relation records; `E.23` may improve a declared artifact version but does not decide those framework slots. |

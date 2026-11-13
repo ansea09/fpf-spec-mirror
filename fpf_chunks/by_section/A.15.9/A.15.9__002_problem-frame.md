@@ -6,12 +6,12 @@ section_id: "A.15.9:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.9/A.15.9__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.15.9 — Use or Request a Bounded Result from Another Practice"
   - "A.15.9:1 — Problem frame"
-line_start: 32270
-line_end: 32287
+line_start: 33578
+line_end: 33595
 dependencies:
   - "A.10"
   - "A.13"
@@ -33,17 +33,17 @@ keywords:
 
 **Plain name.** Use the outside-practice result this decision can rely on; obtain a new contribution when it is worth the work.
 
-**Use this when.** One decision or piece of Work can change because of a legal interpretation, safety limit, tax consequence, privacy condition, calculation, objection, observation, or another result governed by a different practice. The available source or request instead names a department, title, document, meeting, approval, provider, or tool, so the receiver still cannot tell what result is needed or how it may be used.
+**Use this when.** One decision or piece of Work can change because of a legal interpretation, safety limit, tax consequence, privacy condition, calculation, objection, observation, or another result governed by a different practice. The available source or request instead names a department, title, document, meeting, approval, provider, or tool, so the receiver cannot tell what result is needed or how it may be used.
 
-**Primary reader.** The person, team, organization, or other deciding System that owns the receiving decision or Work. When acquisition is selected, seek a supplier able to return the needed result from the applicable practice; neither *supplier*, *specialist*, *profession*, nor *professional result* is a new FPF kind.
+**Reader.** The person, team, organization, or other deciding System that owns the receiving decision or Work. When acquisition is selected, seek a supplier able to return the needed result from the applicable practice; neither *supplier*, *specialist*, *profession*, nor *professional result* is a new FPF kind.
 
-**First useful result.** Give the useful answer the present basis supports, with the limitation that changes its receiving use. An answer can finish at a narrower action, conditional conclusion, retained alternative, or exact unsupported-use blocker.
+**First useful result.** Give the useful answer the present basis supports, with the limitation that changes its receiving use. An answer can finish at a narrower action, conditional conclusion, retained alternative, or unsupported-use blocker.
 
 A missing result for a stronger claim does not itself select acquisition. Request the smallest additional contribution only when it is obtainable and worth its whole burden for this question. A simple answer can remain two ordinary sentences without a separate acquisition disposition.
 
 **What changes in practice.** The receiver checks a result before commissioning more Work, asks for an answer rather than a department or document, and states where supplier judgement ends and the receiving decision begins. A usable existing answer can stop the work before any new request, assignment, meeting, delivery, or acceptance ceremony.
 
-**Cheap non-use.** Do not open this pattern merely because another practice originally produced a source. If the current result, its limits, and its permitted use are already clear and no cross-practice boundary changes the next action, use the result under its direct pattern and stop. Use `A.10` directly when the only open question is evidence, currentness, or bounded reliance. Use the `RESULT-TO-NEXT-MOVE` entry when a result already exists and only its next downstream question is open.
+**Cheap non-use.** Do not open this pattern merely because another practice originally produced a source. If the current result, its limits, and its permitted use are already clear and no cross-practice boundary changes the next action, use the result under the pattern governing it and stop. Use `A.10` directly when the only open question is evidence, currentness, or bounded reliance. Use the `RESULT-TO-NEXT-MOVE` entry when a result already exists and only its next downstream question is open.
 
 **Not this pattern when.** Use the supplier's domain Method for the specialist answer itself; `A.2.2` for capability; `A.13` for agency; `A.15.1` for dated Work; `A.2.9` for communication; `C.11` for a live choice among an existing `OptionSet`; and `C.38` only when the question has changed from one bounded contribution to several complete ways of obtaining the same receiving result.
 

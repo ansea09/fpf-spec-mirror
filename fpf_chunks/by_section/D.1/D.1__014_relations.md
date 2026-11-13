@@ -6,12 +6,12 @@ section_id: "D.1:10"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.1/D.1__014_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "D.1 — Clarify an Ethical Claim's Value Basis (Value Plurality)"
   - "D.1:10 — Relations"
-line_start: 91640
-line_end: 91651
+line_start: 96126
+line_end: 96137
 dependencies:
   - "A.1"
   - "A.1.CSD"

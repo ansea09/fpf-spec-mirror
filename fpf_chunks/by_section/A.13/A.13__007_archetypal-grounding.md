@@ -6,12 +6,12 @@ section_id: "A.13:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.13/A.13__007_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.13 — The Agential Role & Agency Spectrum"
   - "A.13:5 — Archetypal Grounding"
-line_start: 28267
-line_end: 28311
+line_start: 29319
+line_end: 29369
 dependencies:
   - "A.10"
   - "A.12"
@@ -40,7 +40,9 @@ keywords:
 
 ### A.13:5 - Archetypal Grounding
 
-Start with the controller: “Thermostat_Model_T800 holds T800-home-heating-assignment as HomeHeatingController for household-temperature control.” In this constructed case, Thermostat_Model_T800 identifies one installed unit, admitted as a System, in House-H1 from 08:00 to 12:00 on Day-D. The local HomeHeatingController criterion is the ability to read the household temperature and selected set-point, command heating below the set-point and stop heating at or above it. The stipulated device behavior satisfies that criterion at the selected 21 °C set-point. The directly declared HomeHeatingAssignment species assigns a qualifying System to that kind when the household controller designation and enabled control connection obtain; both hold for T800 in that household and window.
+Start with the controller: “Thermostat_Model_T800 holds T800-home-heating-assignment as HomeHeatingController for household-temperature control.” In this constructed case, Thermostat_Model_T800 identifies one installed unit, admitted as a System, in House-H1 from 08:00 to 12:00 on Day-D.
+
+The local HomeHeatingController criterion is the ability to read the household temperature and selected set-point, command heating below the set-point and stop heating at or above it. The stipulated device behavior satisfies that criterion at the selected 21 °C set-point. The directly declared HomeHeatingAssignment species assigns a qualifying System to that kind when the household controller designation and enabled control connection obtain; both hold for T800 in that household and window.
 
 The core result is that this System qualifies for HomeHeatingController and holds the obtaining assignment for the stated use. No Grade or autonomy measurement is needed for that result. If the household withdraws the designation while the device retains its capabilities, the assignment ceases under its rule; classification may remain true, and the precise agency claim must change. The table gives further schematic variations for individual and collective Systems, then a knowledge-artifact contrast. Its local kind names and profile/Grade assumptions are illustrative.
 
@@ -79,7 +81,11 @@ Starting at `b = 0`, the three committed offsets are 0.3, 0.45 and 0.525 °C. Th
 | PER: 0.95 for uniform selection from the stated finite population | The population is 20 fully examined scripted bench episodes with valid inputs. Successful execution means completing the required reads, checks and commits of OffsetUpdateMethod-3. Nineteen histories meet it; one records a failed commit. Under uniform selection of one of these episodes, the probability is 19/20. A production-population estimate would need its own sampling and inference basis. |
 | OC: one independently adjustable target pursued in this case | The local complexity criterion counts independently adjustable target quantities. Here the target quantity is residual temperature error; the three-minute budget and offset-update bounds are fixed conditions of this comparison. The calculation establishes pursuit of this objective in the stated regime. |
 
-For the C.22.1 adaptation question, the first successful minute checkpoint is at 180 seconds, with a budget of three reference/update cycles and the stated initial model. This threshold result uses the residual-error bound; MP reports the parameter-change rate. For a local didactic convention, assign Grade 3 within this controller family when BMC covers the named perturbation set, temporal PH is positive and error-driven MP is distinguishable from zero at the declared resolution. Leave other profiles unclassified. S7 receives that label; PER and OC remain explicit profile results outside what this partial mapping summarizes.
+For the C.22.1 adaptation question, the first successful minute checkpoint is at 180 seconds, with a budget of three reference/update cycles and the stated initial model. This threshold result uses the residual-error bound; MP reports the parameter-change rate.
 
-**Changed receiving condition.** Tighten the residual-error target to 0.05 °C while keeping the three-update budget. The profile values and local Grade remain supported, but the calibration result fails the new target: even the lower residual bound after three updates is 0.055 °C. Under the same model, five updates would give an upper residual bound of 0.03875 °C. The practitioner can compare a larger adaptation budget with another update Method. The changed tolerance reopens the adaptation decision.
+For a local didactic convention, assign Grade 3 within this controller family when BMC covers the named perturbation set, temporal PH is positive and error-driven MP is distinguishable from zero at the declared resolution. Leave other profiles unclassified. S7 receives that label; PER and OC remain explicit profile results outside what this partial mapping summarizes.
+
+**Changed receiving condition.** Tighten the residual-error target to 0.05 °C while keeping the three-update budget. The profile values and local Grade remain supported, but the calibration result fails the new target: even the lower residual bound after three updates is 0.055 °C.
+
+Under the same model, five updates would give an upper residual bound of 0.03875 °C. The practitioner can compare a larger adaptation budget with another update Method. The changed tolerance reopens the adaptation decision.
 

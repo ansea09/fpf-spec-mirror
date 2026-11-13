@@ -6,12 +6,12 @@ section_id: "C.32.ADA:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ADA/C.32.ADA__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.32.ADA — Architecture Decision Adequacy Scales"
   - "C.32.ADA:1 — Problem frame"
-line_start: 80374
-line_end: 80449
+line_start: 84203
+line_end: 84278
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -63,7 +63,7 @@ Primary working reader: an architect, reviewer, or architecture-responsible prac
 Typical entry phrases:
 
 ```text
-"The decision is written, but can developers actually use it?"
+"The decision is written, but can developers use it?"
 "The ADR looks complete; is the architecture decision itself adequate?"
 "Which part is weak: candidate basis, trade-off, method instruction, work split, or publication projection?"
 "We need a scale like E.21, but for architecture decisions rather than pattern quality."
@@ -76,9 +76,9 @@ The primary governed object is `ArchitectureDecisionAdequacyEvaluation@Project`:
 
 `ArchitectureDecisionAdequacyEvaluation@Project` is a local record form, not a new `U.*` kind, gate, evidence, assurance, pattern-quality evaluation, or replacement for `C.32.PAD`. Its coordinate table expresses the ADA result content; when that result must be a durable claim, one separately identified C.2.1 episteme states it. The dated evaluation remains separate `U.Work`, and any actual evaluation operation application remains with its subject pattern.
 
-What goes wrong if C.32.ADA is missed: a decision can appear complete because it has a record, rationale, or diagram, while it is unusable for the declared work. Weak candidate basis, hidden trade-offs, missing method instructions, absent source-return, and vague supersession conditions remain invisible until implementation or review fails.
+A decision can appear complete because it has a record, rationale, or diagram, while it is unusable for the declared work. Weak candidate basis, hidden trade-offs, missing method instructions, absent source-return, and vague supersession conditions remain invisible until implementation or review fails.
 
-What C.32.ADA buys in practice: the project can evaluate architecture decisions by complete coordinate set, keep kinds distinct, and repair the weakest live coordinates without turning adequacy into a single score.
+The project can evaluate architecture decisions by complete coordinate set, keep kinds distinct, and repair the weakest live coordinates without turning adequacy into a single score.
 
 Ordinary working move: declare the evaluation use, assess every coordinate under :4.2, and give each supported value its rationale. Retain a grounded `notTriggered` disposition or an unestablished dependent value when appropriate. State the needed repair or missing basis at its smallest useful source locus.
 
@@ -128,5 +128,5 @@ ArchitectureDecisionAdequacyEvaluation@Project:
   reevaluationTrigger:
 ```
 
-Here `@Project` is a compatibility and retrieval cue only. A project-local ADA record names both the composite `U.Work` in `projectWorkOccurrenceRef` and the obtaining record-use relation in `architectureDecisionEvaluationProjectUseRelationRef`; the evaluated decision's own project relation, the suffix, or either field alone is insufficient. `evaluatorSystemRoleKindRef` and `evaluatorSystemRoleClassificationJudgmentRef` remain optional and separate. When a particular dated evaluation Work occurrence is claimed, the evaluator first has its A.13 core and `evaluationWorkRef` names Work independently admitted under A.15.1. An ordinary evaluation retains the operation, material conditions and support needed for its result. Assignment species, occurrence, and `evaluationPerformedUnderAssignmentRef` are optional and appear only when the record or receiving use expressly represents precise assignment-bound attribution; any present F.6 ref uses the same obtaining A.13 assignment, and its absence or failure alone leaves independently admitted Work intact. If the finding questions a premise consumed by that admission, recheck it and dependent conclusions. Any operation application and result episteme remain separate. Kind, classification, assignment, Work, attribution, application, responsibility, and result do not substitute for one another.
+Here `@Project` is a compatibility and retrieval cue only. A project-local ADA record names both the composite `U.Work` in `projectWorkOccurrenceRef` and the obtaining record-use relation in `architectureDecisionEvaluationProjectUseRelationRef`; the evaluated decision's own project relation, the suffix, or either field alone is insufficient. `evaluatorSystemRoleKindRef` and `evaluatorSystemRoleClassificationJudgmentRef` remain optional and separate. When a particular dated evaluation Work occurrence is claimed, the evaluator first has its A.13 core and `evaluationWorkRef` names Work independently admitted under A.15.1. An ordinary evaluation retains the operation, material conditions and support needed for its result. Assignment species, occurrence, and `evaluationPerformedUnderAssignmentRef` are optional and appear only when the record or receiving use represents precise assignment-bound attribution; any present F.6 ref uses the same obtaining A.13 assignment, and its absence or failure alone leaves independently admitted Work intact. If the finding questions a premise consumed by that admission, recheck it and dependent conclusions. Any operation application and result episteme remain separate. Kind, classification, assignment, Work, attribution, application, responsibility, and result do not substitute for one another.
 

@@ -6,12 +6,12 @@ section_id: "F.11:7"
 section_title: "Source-local harmonisation map"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__008_source-local-harmonisation-map.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.11 — Distinguish Method, MethodDescription, Work and Outputs"
   - "F.11:7 — Source-local harmonisation map"
-line_start: 122377
-line_end: 122388
+line_start: 130122
+line_end: 130133
 dependencies:
   - "A.13"
   - "A.15"
@@ -45,13 +45,13 @@ keywords:
 
 ### F.11:7 - Source-local harmonisation map
 
-The following are prompts for recovering local meanings, not declarations of identity:
+Use the following examples as prompts for recovering local meanings. They do not declare identities.
 
 * **SPEM and ISO 24744:** inspect whether a selected *task definition*, *activity definition*, or process description denotes a Method, a MethodDescription, or another value in that exact passage.
 * **BPMN 2.0:** a process diagram is ordinarily a design description; do not call it the Work that later occurred.
 * **PROV-O:** an Activity is a time-bounded occurrence under the PROV scheme. Do not identify it with `U.Work` by label; when a report uses that source-local claim for a Work occurrence, state the exact semantic or representation relation established for the case.
 * **IEC 61131-3:** distinguish the runtime task execution, the program or program description, and output commands or setpoints.
-* **SOSA/SSN:** an Observation and its Result provide measurement structure; neither is the Work merely because it reports on the Work.
+* **SOSA/SSN:** an Observation and its Result provide measurement structure; reporting on the Work does not make either one the Work.
 
 Use F.17 only when these local meanings need stable addresses. Use F.9 only if an actual semantic relation between two exact local meanings must be stated. A relation between a description and Work, or between Work and an output, belongs to its direct pattern rather than to a generic Bridge.
 

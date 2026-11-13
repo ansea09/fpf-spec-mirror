@@ -6,12 +6,12 @@ section_id: "B.4.1:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4.1/B.4.1__013_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.4.1 — Publish Candidate Routes for a Stabilized Cue (RoutedCueSet)"
   - "B.4.1:12 — Relations"
-line_start: 46111
-line_end: 46115
+line_start: 48021
+line_end: 48025
 dependencies:
   - "A.15"
   - "A.16"

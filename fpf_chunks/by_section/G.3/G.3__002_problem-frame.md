@@ -6,12 +6,12 @@ section_id: "G.3:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.3/G.3__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.3 — CHR Authoring for a CG‑Frame: Characteristics, Scales, Levels, Coordinates"
   - "G.3:1 — Problem frame"
-line_start: 128207
-line_end: 128216
+line_start: 136257
+line_end: 136266
 dependencies:
   - "A.10"
   - "A.15.2"
@@ -60,7 +60,7 @@ keywords:
 
 ### G.3:1 - Problem frame
 
-A team is defining or evolving a `CG‑Frame` (via `G.1`) and has plural, competing SoTA traditions and constructs (via `G.2`). The team needs an *admissibility-ready CHR publication* that makes downstream work possible without hidden semantic drift:
+A team defining or revising a `CG‑Frame` (`G.1`) draws on competing SoTA traditions and constructs (`G.2`). Its CHR publication tells downstream users which measurements and operations the frame supports:
 
 * **CAL authoring (`G.4`)** needs typed, admissible operands and guard/legality surfaces to build admissibility and acceptance rules (thresholds and policy cut‑offs remain governed by CAL).
 * **Selector/dispatch (`G.5`)** needs CHR‑typed quantities and explicit provenance pins so selection can remain set-returning and auditable under admissible orders.

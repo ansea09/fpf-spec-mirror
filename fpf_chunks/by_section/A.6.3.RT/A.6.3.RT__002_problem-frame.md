@@ -6,12 +6,12 @@ section_id: "A.6.3.RT:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT/A.6.3.RT__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.3.RT — Representation-Scheme Transition: Change Representation of the Same EntityOfConcern"
   - "A.6.3.RT:1 — Problem frame"
-line_start: 18516
-line_end: 18549
+line_start: 19369
+line_end: 19402
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -65,7 +65,7 @@ Plain starting vocabulary:
 | `representation delta` | What changed in shape, notation, salience, topology, ordering, interaction, or another representation factor. |
 | `loss and recoverability` | What becomes harder to see or is omitted, and how the user can recover it when it matters. |
 | `use and return` | What the target supports, what it does not support, and when and where to return to source material. |
-| `representation worker` | The person, team or system doing the conversion. A particular dated Work claim follows A.13 and independent A.15.1 admission; use F.6 only when precise assignment-bound attribution matters. Doing the conversion grants no authority over the represented claims. |
+| `representation worker` | The person, team or system doing the conversion. A dated Work claim follows A.13 and independent A.15.1 admission; use F.6 only when precise assignment-bound attribution matters. Doing the conversion grants no authority over the represented claims. |
 
 **First useful move.** Name the content that must survive and the intended user action, choose the representation, make it, and compare it with the source. State the material preservation, loss and use conditions in a compact note. Add a rejected use or return condition only when it changes what the reader should do.
 
@@ -77,7 +77,7 @@ Plain starting vocabulary:
 
 **Exact claim identity.** Open the episteme-construction branch when a receiving use depends on exact claim identity or an explicit preservation construction. Independent citation, a consequential scheme crossing, disputed support or a decode-mediated claim can create that need. Recover source episteme `X`, receiving episteme `Y` and viewing construction `v : X -> Y`, together with the source claims and relations on which `v` depends, and the scheme relation, loss/recoverability or assurance needed by that use.
 
-**Later-specific occurrence.** Open `RepresentationSchemeTransitionRelation@Context` only when actual representation-transformation Work and the exact six participants defined in §4.1.b are themselves material. An exact `v : X -> Y` does not imply that occurrence.
+**Later-specific occurrence.** Open `RepresentationSchemeTransitionRelation@Context` only when actual representation-transformation Work and the six participants defined in §4.1.b are themselves material. An exact `v : X -> Y` does not imply that occurrence.
 
 **Not this pattern when.** Use A.6.3.CR for same-regime wording, A.6.3.NAR when reader-useful narrative ordering is primary, E.17.EFP when explanation adequacy is primary, A.6.4 when the EntityOfConcern changes, A.7 for carrier work or extraction that has not yet constituted a receiving episteme, and A.6.3.CSC when a narrower-use coarsened receiving episteme is primary.
 

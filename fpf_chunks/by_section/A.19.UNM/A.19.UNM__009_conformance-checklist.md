@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.19.UNM"
-pattern_title: "Normalize Coordinate Values under Declared Invariants (UNM)"
+pattern_title: "Normalize Coordinate Values under Declared Invariants"
 section_id: "A.19.UNM:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UNM/A.19.UNM__009_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.19.UNM — Normalize Coordinate Values under Declared Invariants (UNM)"
+  - "A.19.UNM — Normalize Coordinate Values under Declared Invariants"
   - "A.19.UNM:7 — Conformance Checklist"
-line_start: 37754
-line_end: 37768
+line_start: 39280
+line_end: 39294
 dependencies:
 keywords:
   - "CV→NCV"
@@ -19,7 +19,7 @@ keywords:
   - "NormalizationInvariant[*]"
   - "NormalizationMethodId"
   - "NormalizationMethodInstanceId"
-  - "fail-closed tri-state guard (pass"
+  - "fail-closed tri-state guard (pass\\"
   - "normalization"
   - "validity window (no implicit “latest”)"
   - "≡_UNM"
@@ -32,9 +32,9 @@ keywords:
 - [ ] **Fail-closed:** eligibility is tri-state and never coerces unknown to pass.
 - [ ] **Lawfulness classes declared:** method class is one of `{ratio:scale, interval:affine, ordinal:monotone, nominal:categorical, tabular:LUT(+uncertainty)}` and the instance's validity window is named.
 - [ ] **No indicator conflation:** does not treat NCV as automatically implying indicator status.
-- [ ] **Relation and reuse discipline:** recover each NCV's method and CN-Spec editions, bearer, basis, evidence, intended comparison and applicable qualifications. Any relied-on relation and its receiving use satisfy UNM-L5; an assurance penalty has a justified domain model.
-- [ ] **Result branch:** the actual domain, directed output and preserved/lost distinctions are explicit. An inverse is claimed only on its stated image. A set quotient uses equality of function outputs on that domain; an inherited operation also passes compatibility and partial-availability checks, and a recovered query is constant on each class. A required representative has a declared fix and is not treated as the lost original input.
-- [ ] **Auditability:** the actual inputs, method and specification editions, evidence, conditions, result or reason for abstaining, and any relied-on relation are recoverable under Audit in §4.1. A separate record is retained when required by the receiving use.
+- [ ] **Relation and reuse discipline:** recover each NCV's method and CN-Spec editions, bearer, basis, evidence, intended comparison and qualifications. Any relied-on relation and its receiving use satisfy UNM-L5; an assurance penalty has a justified domain model.
+- [ ] **Result branch:** the domain, directed output and preserved/lost distinctions are explicit. An inverse is claimed only on its stated image. A set quotient uses equality of function outputs on that domain; an inherited operation also passes compatibility and partial-availability checks, and a recovered query is constant on each class. A required representative has a declared fix and is not treated as the lost original input.
+- [ ] **Auditability:** the inputs, method and specification editions, evidence, conditions, result or reason for abstaining, and any relied-on relation are recoverable under Audit in §4.1. A separate record is retained when required by the receiving use.
 - [ ] **Source references:** downstream uses cite the method, basis and evidence editions they need, preserving the source definitions.
 - [ ] **Missing or stale inputs:** apply the declared abstain/degrade rule and name the gap. An undefined transformation input has no NCV. Reuse an adequate existing basis or plan a justified acquisition under its own method; normalization alone mandates no new Work.
 - [ ] **SlotKind discipline:** SlotKind tokens reuse the CHR SlotKind lexicon where applicable; UNM‑specific SlotKinds are docked into the suite lexicon before use (no ad‑hoc drift).

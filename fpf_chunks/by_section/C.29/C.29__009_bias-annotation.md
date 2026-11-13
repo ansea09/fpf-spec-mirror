@@ -6,12 +6,12 @@ section_id: "C.29:8"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__009_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:8 — Bias-Annotation"
-line_start: 69713
-line_end: 69725
+line_start: 72806
+line_end: 72818
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -65,11 +65,11 @@ keywords:
 | Bias risk | C.29 correction |
 |---|---|
 | **Mathematical prestige bias** | Require `CandidateMathObject`, `LensMappingMode`, `PreservedStructure`, `LostStructure`, `LensUseBoundaryValue`, and `StopCondition`. |
-| **Physics envy** | Physical source-domain ontology does not transfer without separate proof or evidence and subject pattern. |
-| **Category-theory monoculture** | Use category-theoretic material only when composition, interfaces, views, transformations, or transport structure matters to the stated use; otherwise choose the local lens family that exposes the working cue. |
-| **Speculation laundering** | Keep the metric/noise-coupling use in :13.2 conditional on its actual model assumptions and correspondence. |
+| **Unsupported physical ontology transfer** | Physical source-domain ontology does not transfer without separate proof or evidence and subject pattern. |
+| **Defaulting to category theory** | Use category-theoretic material only when composition, interfaces, views, transformations, or transport structure matters to the stated use; otherwise choose the local lens family that exposes the working cue. |
+| **Presenting a candidate as established** | Keep the metric/noise-coupling use in :13.2 conditional on its model assumptions and correspondence. |
 | **Over-formalization** | Apply :4.4's consequence/reliance rule; reusing or publishing a conditional explanation alone does not require a full empirical-model account. |
 | **Scale blindness** | State the relevant scale window when the claim depends on it; use C.18.1, C.19.1 or C.31.ASAP for the respective scale-law or preference claim. |
-| **Causal laundering** | If the lens licenses causal claims, apply `C.28`; MathLensUse cannot supply causal use by itself. |
-| **Assurance laundering** | Mathematical elegance does not raise `R`; evidence and assurance use apply `A.10`, `B.3`, and relevant G patterns. |
+| **Unsupported causal inference** | If the lens licenses causal claims, apply `C.28`; MathLensUse cannot supply causal use by itself. |
+| **Unsupported assurance inference** | Mathematical elegance does not raise `R`; evidence and assurance use apply `A.10`, `B.3`, and relevant G patterns. |
 

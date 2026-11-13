@@ -6,12 +6,12 @@ section_id: "C.32.MWA.PP:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA.PP/C.32.MWA.PP__014_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.32.MWA.PP — Construct and Compare Method Performance and Provision Arrangements"
   - "C.32.MWA.PP:12 — Relations"
-line_start: 79523
-line_end: 79552
+line_start: 83352
+line_end: 83381
 dependencies:
   - "A.3.1.MI"
   - "A.3.1.QM"
@@ -23,17 +23,17 @@ keywords:
 
 ### C.32.MWA.PP:12 - Relations
 
-The Core contributions below support the general construction. The domain entries describe possible separately selected work: obtain the particular result and conditions from the practice that actually governs the receiving case. A reference does not supply an unavailable performer, permission or professional judgement.
+The Core contributions below support the general construction. The domain entries describe possible separately selected work: obtain the particular result and conditions from the practice that governs the receiving case. A reference does not supply an unavailable performer, permission or professional judgement.
 
 | Related contribution | General construction or separate subject use |
 | --- | --- |
 | A.3.1.QM | Supplies individually qualified Methods/accounts and whole-independent local connections, not whole compatibility. Preserve their statuses. |
 | B.1.5 and B.1.5.CM | Establish Method composition or resolve a proposed whole. Co-use can remain plural; a relation-only clarification can finish without B.1.5.CM or a C.32.MWA.PP comparison. |
-| C.32.MWA, *Synthesize an Architecture Account of Methods and Their Use*, :4.1–4.4 | Provides truthful actual/prospective entry, separation of structures, comparison of changed arrangements and moved burden. C.32.MWA.PP supplies the Method-arrangement question, including performance and support, and returns the architecture consequence to the real decider. |
+| C.32.MWA, *Synthesize an Architecture Account of Methods and Their Use*, :4.1–4.4 | Provides actual/prospective entry, separation of structures, comparison of changed arrangements and moved burden. C.32.MWA.PP supplies the Method-arrangement question, including performance and support, and returns the architecture consequence to the decider. |
 | C.30.ASV, *Architecture Structural View Adequacy*, :4.5a | Distinguishes composition, result use, order, variation, replacement and separate performance/support structures. Use it when “method architecture” hides the relation being changed. |
 | E.18 and E.18.NET; C.30.TFS-REL:4.4–4.4a | Supply a qualified transformation-flow structure or network and its bounded architecture use. Retain member-local identities and relations; a network is neither the performer nor an automatic containing organization. |
 | A.3.4; A.13 and A.15.1 | Govern actual transformation, performer and Work claims when local enactment is asserted. A prospective configuration can be compared without inventing those actual occurrences. |
-| C.39; B.1.5.EW and B.1.5.RS | Supply missing-way construction and the constituent/encompassing-work or replacement questions. Return the actual missing operation or affected receiving use rather than expanding a task label. |
+| C.39; B.1.5.EW and B.1.5.RS | Supply missing-way construction and the constituent/encompassing-work or replacement questions. Return the missing operation or affected receiving use rather than expanding a task label. |
 | Strategic choice Methods | Construct strategic alternatives and explain contribution, sustaining conditions and joint dependencies. An unavailable local architecture can reopen remit, recipient, horizon or promise through that strategic choice. |
 | Organization design and performance-allocation Methods | Develop organizational mechanisms and compare complete same-result performance arrangements. The selected constraints return to the relevant organization realization and operating practice; comparison is not enactment. |
 | Systems Engineering Methods for needs and provider concepts | Connect concrete receiving use with a provider concept, including partner contributions, continuing Work and authority. Their engineering result does not prove demand, affordability or supplier commitment. |
@@ -43,7 +43,7 @@ The Core contributions below support the general construction. The domain entrie
 | Corporate assurance arrangement Methods | Obtain and receive the independent assurance contribution when a corporate decision needs it. Preserve professional scope, access, conflicts and reporting conditions; do not substitute learning assessment or ordinary monitoring. |
 | The applicable community, cultural, governance, operating and subject Methods | Supply participation, transmission, direct rights, continued service and professional adequacy where needed. Their results retain their own bearers, scope and evidence; an architecture proposal does not create them. |
 
-An applicable organization-change Method can realize the bounded organizational case illustrated in :4.9. A.15.8.MS supplies usable Method materials and support, and [A.3.1.MI](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a31mi---introduce-a-method-into-practice-and-decide-what-to-keep-or-change) the complete introduction/use/revision Method. Section :4.9 gives each its exact receiving requirement and reuses sufficient implementation.
+An applicable organization-change Method can realize the bounded organizational case illustrated in :4.9. A.15.8.MS supplies usable Method materials and support, and [A.3.1.MI](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a31mi---introduce-a-method-into-practice-and-decide-what-to-keep-or-change) the complete introduction/use/revision Method. Section :4.9 gives each its receiving requirement and reuses sufficient implementation.
 
 C.36 and C.36.RP supply the cultural-practice questions alongside the applicable Community Management Methods for actual community participation. A shared Method can continue among independent carriers without making them one community or organization. Their full Methods and evidence boundaries remain with those suppliers.
 

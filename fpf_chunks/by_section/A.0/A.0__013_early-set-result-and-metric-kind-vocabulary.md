@@ -6,12 +6,12 @@ section_id: "A.0:QF.1"
 section_title: "Early set-result and metric-kind vocabulary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.0/A.0__013_early-set-result-and-metric-kind-vocabulary.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.0 — Generative Search Onboarding Glossary (NQD & E/E‑LOG)"
   - "A.0:QF.1 — Early set-result and metric-kind vocabulary"
-line_start: 2410
-line_end: 2438
+line_start: 2446
+line_end: 2474
 dependencies:
   - "A.19"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
@@ -67,15 +67,15 @@ keywords:
 - Use `SteppingStoneSet` only for one narrower retained subset whose stated purpose is future frontier reach rather than the whole archive. It is not part of the ordinary first-pass public-head family for retained exploration.
 - Use `Shortlist` for the set chosen from one declared source set by one named lens.
 - Use `RankedShortlist` only when that shortlist is explicitly rank-ordered.
-- Use `JointUseSet` when every exact member is included for one named use; keep that use, keyed member entries, inclusion conditions, and basis pins under `G.5`.
+- Use `JointUseSet` when every member is included for one named use; keep that use, keyed member entries, inclusion conditions, and basis pins under `G.5`.
 - Use `ShortlistId` for the stable public token of one emitted shortlist; it is not the shortlist itself.
 - Use `ChoiceSet` only when the mathematical set object underlying one shortlist must be named explicitly; do not let it replace the public shortlist head.
 - Use `Q-set` for the declared current objective tuple that may ground the current `DominanceSet`.
 - For a result or claim used by a pool policy, retain its direct pattern's reference name and kind; for example, `A.2.2` supplies `capabilityHolderRef` and `capabilityStatementRef`. Use `C.19` for the resulting pool treatment. Citing an input does not add it to `Q` or dominance.
-- Use `competenceModelRef` under `C.19` only for one exact model episteme used by the policy; identify the capability and supporting results separately.
-- When the pool treatment relies on an evidence-bearing or source-bearing claim, use `a10RelianceRef` for the exact claim and bounded pool-treatment reliance under `A.10`.
+- Use `competenceModelRef` under `C.19` only for one model episteme used by the policy; identify the capability and supporting results separately.
+- When the pool treatment relies on an evidence-bearing or source-bearing claim, use `a10RelianceRef` for the claim and bounded pool-treatment reliance under `A.10`.
 - Use `goalSpaceExpansionPolicyRef` under `C.19` when an independently declared archive or curriculum expansion policy governs goal- or task-space growth; that policy does not place a candidate on a front or add a dominance coordinate.
-- When future reach depends on a transition or transfer relation, cite its direct rule and supporting result references together with any model episteme actually used. Keep their use in archive/pool policy separate from any explicitly authorized promotion into dominance.
+- When future reach depends on a transition or transfer relation, cite its direct rule and supporting result references together with any model episteme used. Keep their use in archive/pool policy separate from any explicitly authorized promotion into dominance.
 - If one front is meant to be current-`Q` by default, say so as `Q-Front` or as `Front over the declared Q components` rather than leaving the relation between `Q-set` and `DominanceSet` implicit.
 - `Use-Value` may be one member of the `Q-set` only when the current Context declares it there; it is not the whole `Q-set` or the default `Q-set` by itself.
 - Metric-kind doctrine: the `Q-set` is the candidate/front-facing objective tuple; `Novelty@context` is one context-relative candidate signal; `DeltaDiversity_P` is one set-relative marginal diversity contribution; `IlluminationSummary` is one report-only archive telemetry summary unless one explicit policy promotes it.

@@ -6,12 +6,12 @@ section_id: "G.9:9"
 section_title: "Cited Records (what this pattern publishes)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.9/G.9__011_cited-records-what-this-pattern-publishes.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.9 — Parity and Benchmark Harness"
   - "G.9:9 — Cited Records (what this pattern publishes)"
-line_start: 131630
-line_end: 131638
+line_start: 139714
+line_end: 139722
 dependencies:
   - "A.19"
   - "A.2.6"
@@ -50,8 +50,8 @@ keywords:
 
 **Exports (UTS‑publishable, edition‑pinned):**
 
-* `ParityPlan` and its exact `ParityPlanRef` (one `U.WorkPlan` episteme and immutable edition reference; any planned-filling rows remain declaration-local content)
-* `ParityReport` (UTS publication record carrying the exact plan and baseline-binding refs; work-result or audit-facing publication record only when the neighboring source relation is live)
+* `ParityPlan` and its `ParityPlanRef` (one `U.WorkPlan` episteme and immutable edition reference; any planned-filling rows remain declaration-local content)
+* `ParityReport` (UTS publication record carrying the plan and baseline-binding refs; work-result or audit-facing publication record only when the neighboring source relation is live)
 * DRR and SCR refs by id and, when applicable, `PortfolioPackRef?` and selector-output refs by id, for downstream consumption.
 * Telemetry pins and events by id, for refresh wiring (`G.11`) and RSCR harnesses (`F.15`).
 

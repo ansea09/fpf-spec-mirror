@@ -6,12 +6,12 @@ section_id: "A.3.1.CC:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.CC/A.3.1.CC__003_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.3.1.CC — Check the Coherence of a Method Claim"
   - "A.3.1.CC:1 — Problem Frame"
-line_start: 10635
-line_end: 10640
+line_start: 11036
+line_end: 11041
 dependencies:
   - "A.10"
   - "A.15.8.MS"
@@ -23,7 +23,7 @@ keywords:
 
 ### A.3.1.CC:1 - Problem Frame
 
-A Method can be internally plausible while its description omits a required stop, a representation hides a relation needed by its use, or a support route serves an obsolete edition. Trial Work can expose the mismatch, but the mismatch still has to be located. Otherwise every defect is blamed on “the Method”, or every observed failure is pushed into the document that happens to be easiest to edit.
+A Method can be internally plausible while its description omits a required stop, a representation hides a relation needed by its use, or a support route serves an obsolete edition. Trial Work can expose the mismatch, but the mismatch has to be located. Otherwise every defect is blamed on “the Method”, or every observed failure is pushed into the document that happens to be easiest to edit.
 
 The practical question is narrower: which claim was relied on, what should it agree with, what evidence bears on that agreement, and which maintained result owns the smallest correction?
 

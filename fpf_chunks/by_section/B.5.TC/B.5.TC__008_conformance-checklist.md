@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.5.TC"
-pattern_title: "Compare Theoretical Accounts for a Working Question"
+pattern_title: "Compare Theoretical Accounts for a Question"
 section_id: "B.5.TC:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.TC/B.5.TC__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "B.5.TC — Compare Theoretical Accounts for a Working Question"
+  - "B.5.TC — Compare Theoretical Accounts for a Question"
   - "B.5.TC:7 — Conformance Checklist"
-line_start: 49051
-line_end: 49061
+line_start: 51091
+line_end: 51101
 dependencies:
   - "B.5.RA"
   - "B.5.RR"
@@ -27,7 +27,7 @@ keywords:
 
 ### B.5.TC:7 - Conformance Checklist
 
-- The comparison names a working question and explains what its answer changes.
+- The comparison names a question and explains what its answer changes.
 - Each application has recoverable meanings, inputs, premises, decisive operations and an interpreted answer.
 - The shared case corresponds across accounts; a missing correspondence remains visible.
 - Agreement or disagreement is traced to the relevant question, premise, operation, inference, implementation or physical account.

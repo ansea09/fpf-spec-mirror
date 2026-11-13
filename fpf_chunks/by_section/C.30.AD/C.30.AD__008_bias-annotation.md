@@ -6,12 +6,12 @@ section_id: "C.30.AD:5.1"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__008_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:5.1 — Bias-Annotation"
-line_start: 72405
-line_end: 72414
+line_start: 75498
+line_end: 75507
 dependencies:
   - "A.1"
   - "A.10"
@@ -78,8 +78,8 @@ keywords:
 
 | Bias | How C.30.AD prevents it |
 | --- | --- |
-| Description-as-architecture bias | `ArchitectureDescription` is a C.2.1 episteme about one exact holon, architecture-relation occurrence, or selected structure; it does not become that object or create it. |
-| View-as-structure bias | The same description episteme is a `U.View` only through an E.17.0 conformance relation that actually holds. Use `C.30.ASV` to test selected-structure adequacy; C.30.AD records set use and correspondence without inventing membership. |
+| Description-as-architecture bias | `ArchitectureDescription` is a C.2.1 episteme about one holon, architecture-relation occurrence, or selected structure; it does not become that object or create it. |
+| View-as-structure bias | The same description episteme is a `U.View` only through an E.17.0 conformance relation that holds. Use `C.30.ASV` to test selected-structure adequacy; C.30.AD records set use and correspondence. |
 | Publication-as-authority bias | Representation, publication occurrence, publication form, carrier, dashboard polish, model-card form, or report label does not establish description truth, empirical grounding, evidence, assurance, gate, decision, work authorization, or release authorization. |
 | Freshness-as-evidence bias | A freshness claim bounds admissible use; it does not make the description evidence-sufficient or publication-current. |
 | Semio-bias in architecture work | Use `C.30` for obtaining architecture relations, selected structures, and architecture claims. Open C.30.AD only when work must create, inspect, or rely on a description episteme with its own ClaimGraph, EntityOfConcern, and reference scheme. |

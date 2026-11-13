@@ -6,12 +6,12 @@ section_id: "G.5:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__007_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.5 — Method-Family Registry, Dispatch and Selected-Set Result Declaration"
   - "G.5:5 — Archetypal Grounding"
-line_start: 129716
-line_end: 129747
+line_start: 137768
+line_end: 137799
 dependencies:
   - "C.11"
   - "C.18"
@@ -57,11 +57,11 @@ keywords:
 ### G.5:5 - Archetypal Grounding
 
 **Tell (archetype).**
-The selector-bearing **System** selects among rival families under the declared measurement, crossing and evidence conditions. The result **Episteme** keeps the comparison basis, audit pins, and refresh conditions recoverable. When the current result instead includes several already identified members together, the same result-content boundary must not disguise that all-member meaning as retained alternatives.
+The selector-bearing **System** selects among rival families under the declared measurement, crossing and evidence conditions. When a result **Episteme** is needed, it keeps the comparison basis, audit pins and refresh conditions recoverable. A joint-use declaration states that all its named members are included for its stated use. Describing them as alternatives would leave any one of them optional.
 
 **Show 1 (multi-Tradition dispatch; unordered shortlist).**
 A `CG-Frame` includes multiple decision-theoretic families with different admissibility assumptions. Evidence for some CHR traits is incomplete.
-System registers families (S1), then runs `Select` (S3) on a pinned `TaskSignatureRef`. Eligibility is tri-state; some families **receive abstain** due to missing minimal-evidence pins. Among remaining candidates, only a partial order is admissible, so the selector emits one `Shortlist` with explicit `basisPins` instead of inventing one scalar winner. No shadow acceptance logic appears in the selector; it consumes pinned acceptance and admissibility records.
+The selector-bearing System registers the families (S1), then runs `Select` (S3) on a pinned `TaskSignatureRef`. Eligibility is tri-state; missing minimal-evidence pins require abstention for some families. Among remaining candidates, only a partial order is admissible, so the selector emits one `Shortlist` with explicit `basisPins` instead of inventing one scalar winner. No shadow acceptance logic appears in the selector; it consumes pinned acceptance and admissibility records.
 
 **Show 2 (specialist handoff; ranked result).**
 A bounded-specialization comparison keeps two method families live under a pinned admissible comparator that orders them, and downstream handoff needs that ordering.
@@ -69,7 +69,7 @@ Declare one `RankedShortlist` with that ordering and comparator among its basis 
 
 **Show 3 (no admissible survivor; abstain or escalation).**
 In this frame, one admissibility gate and one minimal-evidence gate fail at the same time.
-The truthful `G.5` result is one abstain or escalation result that names the blocking pins and the next downstream use boundary, not one empty shortlist that leaves downstream users unsure whether selection silently failed or admissibly stopped.
+The failed gates block selection. Report the blocking pins and the next downstream-use boundary. Abstain, or escalate when a further inquiry or action is justified. An unexplained empty shortlist would hide the difference between this stop and an admitted selection that returned an empty set under its criteria.
 
 **Show 4 (complementary framework editions; unordered joint use).**
 A training cohort needs `FPF@C`, `Domain@D`, and `Local@L` together. The editions are already identified under their own edition rules; they are not Method candidates or registry rows. An accepted cohort decision supplies the exact members and basis. `G.5-6 DeclareSetResult` emits one unordered `JointUseSet` with one keyed entry per edition, the named cohort-review use, inclusion conditions, and sufficient top-level basis pins. Direct dependencies and pairwise compatibility claims remain with E.4.PFR; publication and access remain with E.17/E.24.PUB and the applicable access-carrier pattern. The G.5 result declares membership but does not perform the choice, make those neighboring claims obtain, or create a contribution relation.

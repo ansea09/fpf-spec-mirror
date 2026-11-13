@@ -6,12 +6,12 @@ section_id: "G.8:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.8/G.8__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.8 — Package Method-Family Admissibility Rules and Maturity Ladders (SoS-LOG)"
   - "G.8:2 — Problem"
-line_start: 130661
-line_end: 130668
+line_start: 138721
+line_end: 138728
 dependencies:
   - "A.10"
   - "A.21"
@@ -38,13 +38,13 @@ keywords:
   - "SoS-LOG"
   - "admissibility ledger"
   - "rule ids"
-  - "tri-state {pass"
+  - "tri-state {pass\\"
 ---
 
 ### G.8:2 - Problem
 
-1. **Selector needs a stable input artefact.** `G.5` cannot consume “maturity narratives” and scattered SoS‑LOG snippets without re‑authoring semantics or inventing implicit defaults.
-2. **Thresholds leak into LOG.** Numeric gates embedded directly into rule text or ladder rungs blur the boundary between LOG decisions (`C.23`) and Acceptance thresholds (`G.4`).
+1. **Selector needs a stable input artefact.** Maturity narratives and scattered SoS‑LOG excerpts leave `G.5` to reconstruct the rules or guess their defaults.
+2. **Thresholds leak into LOG.** Numeric gates embedded in rule text or ladder rungs blur the boundary between LOG decisions (`C.23`) and Acceptance thresholds (`G.4`).
 3. **Auditability is brittle.** Decisions (`pass/degrade/abstain`) lack stable, citable links to evidence paths (`G.6`) and crossing pins (Bridge/CL/Φ policy ids as required for the stated use), so later re‑checks and RSCR become ad‑hoc.
 4. **Telemetry contaminates decision semantics.** Undeclared use of QD/OEE/illumination signals in dominance, or a changed definition edition, can alter outcomes without making the new basis visible.
 5. **Refresh is under‑specified.** Bundle evolution (rules, ladders, pins, policies, editions) must be RSCR‑addressable via typed trigger kinds, not by free‑text “reasons”.

@@ -6,12 +6,12 @@ section_id: "A.9:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.9/A.9__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.9 — Choose and Check an Aggregation Law for the Intended Result"
   - "A.9:3 — Forces"
-line_start: 26584
-line_end: 26592
+line_start: 27576
+line_end: 27584
 dependencies:
   - "A.19.CN"
   - "A.19.ULSAM"
@@ -32,8 +32,8 @@ keywords:
 
 | Force | Tension |
 |---|---|
-| Simple operation, faithful meaning | A compact formula must still express the intended result under the actual subject model. |
-| Reuse, changed conditions | Retain a justified law while reopening the specific dependence or applicability premise that changed. |
+| Simple operation, faithful meaning | A compact formula must still express the intended result under the subject model. |
+| Reuse, changed conditions | Retain a justified law while reopening the dependence or applicability premise that changed. |
 | Local work, combined result | Parallel or separate computation helps only when its recombination preserves what the receiving use needs. |
 | Useful answer, incomplete basis | A bound or separate inputs can be a better answer than an unsupported scalar. |
 

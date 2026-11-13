@@ -6,12 +6,12 @@ section_id: "A.6.B:0"
 section_title: "Conventions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__002_conventions.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:0 — Conventions"
-line_start: 14656
-line_end: 14680
+line_start: 15111
+line_end: 15135
 dependencies:
   - "A.10"
   - "A.2.3"
@@ -48,7 +48,7 @@ keywords:
   - "The key words MUST"
   - "accountable norms and grants"
   - "actual exercise"
-  - "an individual-duty D- claim MUST name its actual bearer and exact separately obtaining U.Commitment"
+  - "an individual-duty D- claim MUST name its actual bearer and separately obtaining U.Commitment"
   - "and SHALL have their RFC 2119/8174 meanings only when capitalized as shown"
   - "and evaluated results distinct"
   - "as if it were an agent obligation"
@@ -93,9 +93,9 @@ These labels are **claim-classification labels for statements**, not MVPK face d
 
 **Atomic claim.** An **atomic claim** is a sentence (or bullet) that performs exactly one logical role and is classifiable under exactly one quadrant. If a sentence mixes roles, it is **not atomic** and **MUST** be split before it can be classified.
 
-**Claim job and adjudication basis.** A quadrant identifies what a boundary claim contributes. Its adjudication basis states how that claim can be settled. Definitions and declared entry predicates are both description content. Generic normative content is recovered from its exact source; an individual duty or grant requires its actual constitutive basis. An occurrence or evaluated-result claim requires the facts specified by its subject predicate.
+**Claim job and adjudication basis.** A quadrant identifies what a boundary claim contributes. Its adjudication basis states how that claim can be settled. Definitions and declared entry predicates are both description content. Generic normative content is recovered from its source; an individual duty or grant requires its actual constitutive basis. An occurrence or evaluated-result claim requires the facts specified by its subject predicate.
 
-**Deontic claims.** Writing a `D-*` claim records either generic normative content or a claim about an individual duty, commitment, or grant. When the wording is about permission, use the permission-word branch in §8.4.1 to recover the exact object, what makes it obtain, and the evidence needed before reliance. The instituting act and any compliance finding have their separate claims.
+**Deontic claims.** Writing a `D-*` claim records either generic normative content or a claim about an individual duty, commitment, or grant. When the wording is about permission, use the permission-word branch in §8.4.1 to recover the object, what makes it obtain, and the evidence needed before reliance. The instituting act and any compliance finding have their separate claims.
 
 **Modality.** Preserve whether a sentence defines, prescribes, permits, hypothesizes or reports. Use that meaning together with the claim's job under §4; a modal word alone leaves the classification unresolved.
 

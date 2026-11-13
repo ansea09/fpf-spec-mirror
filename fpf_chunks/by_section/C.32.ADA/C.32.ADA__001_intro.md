@@ -6,12 +6,12 @@ section_id: "C.32.ADA:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ADA/C.32.ADA__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.32.ADA — Architecture Decision Adequacy Scales"
   - "C.32.ADA:intro — Intro"
-line_start: 80368
-line_end: 80373
+line_start: 84197
+line_end: 84202
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -58,5 +58,5 @@ keywords:
 
 > **Type:** Architecture evaluation pattern under C.32
 > **Status:** Stable
-> **Normativity:** Normative unless explicitly marked informative
+> **Normativity:** Normative unless marked informative
 

@@ -6,12 +6,12 @@ section_id: "C.28.MR:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28.MR/C.28.MR__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.28.MR — Derive an Intervention Consequence by Mechanism Replacement"
   - "C.28.MR:7 — Conformance Checklist"
-line_start: 68854
-line_end: 68864
+line_start: 71927
+line_end: 71937
 dependencies:
   - "A.3.3.TR"
   - "B.5.MPC"
@@ -29,6 +29,6 @@ keywords:
 - The joint input law and common causes needed by the query survive the computation.
 - The transformed model determines the reported answer, or the result retains the relevant alternatives, bound or obstruction.
 - A comparison uses the required baseline and conditions; an intervention outcome alone is not reported as an estimated change.
-- The result's physical use connects the actual action to the modeled replacement and any consequential additional effect.
+- The result's physical use connects the action to the modeled replacement and any consequential additional effect.
 - The amount of calculation, recording and new evidence serves the receiving question.
 

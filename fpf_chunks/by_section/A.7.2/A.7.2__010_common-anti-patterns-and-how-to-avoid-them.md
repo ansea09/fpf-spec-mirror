@@ -6,12 +6,12 @@ section_id: "A.7.2:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.2/A.7.2__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.7.2 — FPF Ontology-Premise Reconciliation"
   - "A.7.2:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 26166
-line_end: 26176
+line_start: 27134
+line_end: 27144
 dependencies:
   - "A.10"
   - "A.7.1"
@@ -36,10 +36,10 @@ keywords:
 
 | Anti-pattern | Repair |
 |---|---|
-| Rank sources or traditions before naming the receiving claim. | Recover exact source content, use function, scope, currentness, and consequence. |
+| Rank sources or traditions before naming the receiving claim. | Recover source content, use function, scope, currentness, and consequence. |
 | Rewrite a premise list while dated applications keep yielding conflicting results. | Repair an established defect in the smallest affected method clause or subject-pattern decision, then check the application result. When the grounds warrant neither correction, use the non-convergence result under §4.2. |
 | Force one ontology because shared terminology looks desirable. | Permit `contextSplit` or `doNotCompose` when constructions or uses differ. |
-| Treat citation, publication, or a completed review dossier as an obtaining source-use relation. | Require actual consumption by dated decision work for one receiving claim; keep optional content-slice, model-use, currentness, evidence, and disposition records only when this reconciliation uses them. |
+| Treat citation, publication, or a completed review dossier as an obtaining source-use relation. | Require consumption by dated decision work for one receiving claim; keep optional content-slice, model-use, currentness, evidence, and disposition records only when this reconciliation uses them. |
 | Let a pattern, source, reader label, system-role kind, or assignment perform reconciliation. | Name the capable practitioner or System performing the reconciliation. For an asserted dated Work occurrence, use A.13 and independent A.15.1 admission, retaining the assignment species and obtaining occurrence required by A.13; add F.6 only if the result needs precise assignment-bound attribution. Neither the kind nor the assignment acts. |
-| Copy the common compact into this method. | Cite exact `A7CP-*` claims; keep `A.7.CP` as the authoritative source for the claim content and relation definition. |
+| Copy the common compact into this method. | Cite `A7CP-*` claims; keep `A.7.CP` as the authoritative source for the claim content and relation definition. |
 

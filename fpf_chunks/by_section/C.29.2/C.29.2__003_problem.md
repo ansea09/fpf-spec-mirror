@@ -6,12 +6,12 @@ section_id: "C.29.2:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29.2/C.29.2__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.29.2 — Computational Formulation"
   - "C.29.2:2 — Problem"
-line_start: 70385
-line_end: 70396
+line_start: 73478
+line_end: 73489
 dependencies:
   - "A.10"
   - "A.3.1"
@@ -38,8 +38,8 @@ Knowing a condition that the answer satisfies does not always tell a practitione
 Three failures make this gap expensive:
 
 - A representation identifies cases that require different answers. No later procedure using only that representation can recover the missing distinction without another input.
-- An operation such as “solve”, “update” or “sample” hides the very construction that is unavailable. Giving it a name does not make it elementary or obtainable.
+- An operation such as “solve”, “update” or “sample” hides the construction that is unavailable. Giving it a name does not make it elementary or obtainable.
 - A procedure is assessed under the wrong semantics or cost model. Exact integers, fixed-width words and rounded values have different operations; a single arithmetic instruction may manipulate a growing number of bits.
 
-The repair is to connect the requested answer to an actual construction, then follow the construction's meaning and costs. It need not start by writing software. A hand calculation, an invariant or a storage count can locate the decisive obstacle first.
+The repair is to connect the requested answer to a construction, then follow the construction's meaning and costs. It need not start by writing software. A hand calculation, an invariant or a storage count can locate the decisive obstacle first.
 

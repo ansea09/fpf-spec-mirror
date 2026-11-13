@@ -6,12 +6,12 @@ section_id: "E.7:4"
 section_title: "Solution — mandatory Archetypal Grounding subsection"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.7/E.7__005_solution-mandatory-archetypal-grounding-subsection.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.7 — Archetypal Grounding: Explain Rules of FPF Architectural Patterns through Cases"
   - "E.7:4 — Solution — mandatory Archetypal Grounding subsection"
-line_start: 96845
-line_end: 96859
+line_start: 102082
+line_end: 102098
 dependencies:
   - "E.5.4"
   - "E.6"
@@ -26,7 +26,9 @@ Every architectural pattern **SHALL** include a dedicated section titled **“Ar
 1. **`U.System`** — an acting physical or operational holon.
 2. **`U.Episteme`** — a non-agentive claim-bearing holon.
 
-When the rule applies across both, use the **Tell-Show-Show** sequence below. When it intentionally applies to only one substrate, supply that case and the scope justification required by CC-AG.3. The cases make application and limits inspectable; a wider universality claim needs its own proof or evidence.
+When the rule applies across both, use the **Tell-Show-Show** sequence below. When it intentionally applies to only one substrate, supply that case and the scope justification required by CC-AG.3.
+
+The cases make application and limits inspectable. A claim of wider applicability needs proof or evidence for that wider scope.
 
 | Stage | Content |
 |-------|---------|

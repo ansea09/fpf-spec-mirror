@@ -6,12 +6,12 @@ section_id: "C.30.ILC:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ILC/C.30.ILC__006_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.30.ILC — Cross-Scope Architecture Residual Triage"
   - "C.30.ILC:5 — Archetypal Grounding"
-line_start: 74581
-line_end: 74587
+line_start: 77898
+line_end: 77904
 dependencies:
   - "A.10"
   - "A.22"
@@ -46,5 +46,5 @@ keywords:
 | Archetype | Without C.30.ILC | With C.30.ILC |
 |---|---|---|
 | Holon levels | A residual across component, system, episteme, publication-use, control, environment, or product-line scopes is called generic complexity. | The affected declared holon levels or declared scopes, the level-bearing structure, the residual, and the first architecture move are named. |
-| Episteme as described holon | A diagram, measurement note, or conflict memo has its own structure, but a second description about it is interpreted as if it already selected a repair. | The episteme can be the described holon; the description of that episteme remains separate from decision, evidence, measurement, selection, or mediation and is governed by the subject pattern when those claims are being made. |
+| Episteme as described holon | A diagram, measurement note, or conflict memo has its own structure, but a second description about it is interpreted as if it selected a repair. | The episteme can be the described holon; the description of that episteme remains separate from decision, evidence, measurement, selection, or mediation and is governed by the subject pattern when those claims are being made. |
 

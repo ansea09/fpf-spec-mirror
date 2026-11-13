@@ -6,12 +6,12 @@ section_id: "D.3:5"
 section_title: "Archetypal Grounding (Worked Slices)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.3/D.3__008_archetypal-grounding-worked-slices.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "D.3 — Describe an Ethical Conflict Across Levels or Scopes"
   - "D.3:5 — Archetypal Grounding (Worked Slices)"
-line_start: 91944
-line_end: 91970
+line_start: 96438
+line_end: 96468
 dependencies:
   - "A.1"
   - "A.10"
@@ -53,13 +53,17 @@ Tension: performing the plan would advance Side A by enabling the harm named in 
 Next use: D.4 refusal or conditions; C.28 first if the harm claim needs causal support.
 ```
 
-This is enough to begin D.4 and does not decide who is responsible. If another reader must cite or revise the note, identify it as an `InterlevelEthicalConflictDescription` whose EntityOfConcern is the consulting-plan episteme. If consulting Work later occurs, use A.13 to identify its actual performer and A.15.1 to admit the dated occurrence independently. Add F.6 only if the note must also identify the assignment under which that Work was performed. Add agency or relation detail only when that claim changes the account, using its direct pattern and preserving its affirmative, negative, conditional or unresolved result.
+This is enough to begin D.4 and does not decide who is responsible. If another reader must cite or revise the note, identify it as an `InterlevelEthicalConflictDescription` whose EntityOfConcern is the consulting-plan episteme.
+
+If consulting Work later occurs, use A.13 to identify its performer and A.15.1 to admit the dated occurrence independently. Add F.6 only if the note must also identify the assignment under which that Work was performed. Add agency or relation detail only when that claim changes the account, using its pattern and preserving its affirmative, negative, conditional or unresolved result.
 
 If the consulting agreement explicitly excludes deployment decisions, it grants no authority for those decisions. If the agreement's scope is unavailable, leave that authority claim unresolved and identify the missing agreement. D.4 can use either result: a justified denial concerns this agreement, while an unavailable premise leaves a question to settle.
 
 **Joint incompatibility.** Three neighborhoods each claim at least one hour of a mobile clinic's service under a declared equal-access requirement. Only two service hours are available in the relevant window. Any pair of claims could be met; all three together cannot. Describe all three sides and the shared capacity condition before asking D.4 to examine continuations. No pairwise description captures this whole conflict.
 
-**Conditional collection record.** A fleet-wide maintenance change lowers cost but may raise failure risk for a small subfleet operating in harsh conditions. The description has a fleet-cost side and a harsh-service safety side, each with its affected entity, scope, value premise and any frame edition used, consequence, and horizon. Add the exact fleet-membership relation because it locates the subfleet. Identify the reliability evidence and its grounds for this safety claim; use A.10 if the source-to-use relation is implicit or needs a replayable account. Return the causal question to C.28 if the risk claim depends on the proposed change. None of those additions makes the fleet an acting or responsible whole; use A.1 for systemhood and the exact responsibility predicate for responsibility.
+**Conditional collection record.** A fleet-wide maintenance change lowers cost but may raise failure risk for a small subfleet operating in harsh conditions. The description has a fleet-cost side and a harsh-service safety side, each with its affected entity, scope, value premise and any frame edition used, consequence, and horizon. Add the exact fleet-membership relation because it locates the subfleet. Identify the reliability evidence and its grounds for this safety claim; use A.10 if the source-to-use relation is implicit or needs a replayable account. Return the causal question to C.28 if the risk claim depends on the proposed change.
+
+None of those additions makes the fleet an acting or responsible whole; use A.1 for systemhood and the responsibility predicate for responsibility.
 
 **Episteme record.** A published architecture description normalizes an interface assumption that excludes an alternative implementation. The EntityOfConcern of the D.3 description is the exact supplier-selection situation, not the architecture-description file. One side claims lower integration cost; the other claims unjust exclusion of affected suppliers under a named value-frame edition and horizon. Cite the architecture-description episteme and its publication or use only because that use carries the assumption into the decision. Use C.30.AD for description adequacy and E.24.PUB for the publication relation; D.3 records the ethical tension that remains.
 

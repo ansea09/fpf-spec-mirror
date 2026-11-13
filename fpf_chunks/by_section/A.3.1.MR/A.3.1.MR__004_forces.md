@@ -6,12 +6,12 @@ section_id: "A.3.1.MR:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MR/A.3.1.MR__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.3.1.MR — Candidate-Method Recovery from Work Evidence"
   - "A.3.1.MR:3 — Forces"
-line_start: 9873
-line_end: 9884
+line_start: 10260
+line_end: 10271
 dependencies:
   - "A.10"
   - "A.13"
@@ -37,5 +37,5 @@ keywords:
 | Useful grain versus false detail | The receiving use may need one broad reusable way or a safety-critical branch; the evidence should not force the wrong grain. |
 | Discovery power versus modeling choice | Process-mining tools can reveal patterns, but event extraction, naming, correlation, abstraction, and windows shape the result. |
 | Provisional identity versus Method admission | A candidate reusable way needs enough identity to be discussed, without being admitted prematurely as `U.Method`. |
-| Common minimum versus specialist burden | Every domain needs source-to-claim recovery and lowering; complete sampling, elicitation, integration, and trials belong to an empirical reconstruction programme. |
+| Common minimum versus specialist burden | Every domain needs source-to-claim recovery and a narrower result when the evidence is insufficient; complete sampling, elicitation, integration, and trials belong to an empirical reconstruction programme. |
 

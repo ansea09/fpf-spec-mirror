@@ -6,12 +6,12 @@ section_id: "C.2.2a:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2a/C.2.2a__012_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.2.2a — Language-State Chart over U.CharacteristicSpace"
   - "C.2.2a:10 — Rationale"
-line_start: 53002
-line_end: 53004
+line_start: 55219
+line_end: 55221
 dependencies:
   - "A.16"
   - "A.16.0"

@@ -6,12 +6,12 @@ section_id: "C.3.4:5"
 section_title: "Solution — Declaration, Correspondence, and Judgment"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__007_solution-declaration-correspondence-and-judgment.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.3.4 — KindUseAdaptationDeclaration — Tailor the Use of an Existing Kind"
   - "C.3.4:5 — Solution — Declaration, Correspondence, and Judgment"
-line_start: 55888
-line_end: 55915
+line_start: 58186
+line_end: 58213
 dependencies:
   - "A.2.6"
   - "C.2.1"
@@ -33,7 +33,7 @@ A `KindUseAdaptationDeclaration` is a named, versioned C.2.1 declaration epistem
 4. vocabulary or notation bindings;
 5. exact candidate and slice applicability plus dependencies;
 6. scope expectations routed separately through A.2.6; and
-7. intended guard use and this declaration episteme's formality, when current.
+7. intended guard use and this declaration episteme's formality, when the receiving use requires that assessment.
 
 For a candidate-bearing use, first evaluate adaptation admissibility. A candidate rejected by the base signature's ValueKind, an adaptation-specific candidate requirement needed merely to form the question, or the declared slice applicability is `not-applicable`; no adaptation judgment is formed. For an admissible request, use:
 

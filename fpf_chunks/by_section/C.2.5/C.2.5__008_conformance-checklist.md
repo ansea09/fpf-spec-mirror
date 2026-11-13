@@ -6,12 +6,12 @@ section_id: "C.2.5:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.5/C.2.5__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.2.5 — Language-State Closure Degree — How Fixed Is the Current Candidate Space?"
   - "C.2.5:7 — Conformance Checklist"
-line_start: 53991
-line_end: 53996
+line_start: 56228
+line_end: 56233
 dependencies:
   - "A.16"
   - "A.16.0"

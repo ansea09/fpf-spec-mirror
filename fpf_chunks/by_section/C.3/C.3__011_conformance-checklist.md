@@ -6,12 +6,12 @@ section_id: "C.3:9"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__011_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.3 — Kinds, Intent and Extent, and Typed Reasoning"
   - "C.3:9 — Conformance Checklist"
-line_start: 55172
-line_end: 55186
+line_start: 57454
+line_end: 57468
 dependencies:
   - "A.1"
   - "A.11"
@@ -48,7 +48,7 @@ keywords:
 
 | Check | Requirement |
 | --- | --- |
-| `CC-C3-1` | `U.Kind` and `U.SubkindOf` rely on exact accepted E.24.UK results; another public kind name still requires its own admission. |
+| `CC-C3-1` | `U.Kind` and `U.SubkindOf` rely on exact accepted E.24.UK results; another public kind name requires its own admission. |
 | `CC-C3-2` | Kind, `KindSignature`, admissibility result, admissible three-valued judgment, and optional extension remain distinct; scheme and locality are not stored on the kind. |
 | `CC-C3-3` | Kind identity is tested through candidate domain, membership distinction, intended member/non-member boundary, and continuity rule. A practice/source change is a comparison cue, not proof. |
 | `CC-C3-4` | Candidate and slice applicability is checked before judgment; `not-applicable` is distinct from admissible `unknown`. |

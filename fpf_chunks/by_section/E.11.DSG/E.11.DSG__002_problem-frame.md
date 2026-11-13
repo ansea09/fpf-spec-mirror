@@ -6,12 +6,12 @@ section_id: "E.11.DSG:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.DSG/E.11.DSG__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.11.DSG — Architectural Reference"
   - "E.11.DSG:1 — Problem frame"
-line_start: 104672
-line_end: 104685
+line_start: 110884
+line_end: 110905
 dependencies:
   - "C.2.1"
   - "C.2.P"
@@ -37,7 +37,11 @@ keywords:
 
 #### E.11.DSG:1.1 - Use this when
 
-Use this pattern when writing an architectural account for the users of a named method language: how it is assembled, why its parts and connections are selected, what they make possible and how to use them. The account can explain one framework, a DPF Suite or FPF Library. Understanding its choices also lets a user question a premise or propose an improvement. Call it `<name of the explained whole> Architectural Reference`. It carries the public architecture, shared explanation and useful question-led entries, with returns to the full Methods and evidence. It is a support unit of the explained language unless independent use or change justifies a separate product boundary; this function does not by itself make the account another framework or the discipline being described.
+Use this pattern when writing an architectural account for the users of a named method language: how it is assembled, why its parts and connections are selected, what they make possible and how to use them. The account can explain one framework, a DPF Suite or FPF Library.
+
+Understanding the language's choices also lets a user question a premise or propose an improvement. Call the account `<name of the explained whole> Architectural Reference`. It carries the public architecture, shared explanation and useful question-led entries, with returns to the full Methods and evidence.
+
+It is a support unit of the explained language unless independent use or change justifies a separate product boundary; this function does not by itself make the account another framework or the discipline being described.
 
 **First useful result.** Give the reader a usable account of the whole's purpose, constituents, connections and limits, then a direct way into the needed explanation or Method. For a working question, give an answer or honest blocker. Distinguish an available result, a MethodDescription to use, direct-source evidence and a result still missing. Explain each necessary contribution and end that entry with an ordinary stop or return. Do not fill a missing result with another title.
 
@@ -45,5 +49,9 @@ Use this pattern when writing an architectural account for the users of a named 
 
 **What this buys.** The reader can understand the whole without its internal development records, select a useful route, recognize constituent and external contributions, and reach the full Methods, cases, limits and evidence needed to act or adapt the language.
 
-**Not this pattern when.** Use E.4:4.2 and E.4.PFAD to decide which discipline a Suite describes and how its subdisciplines compose it. Use E.8 and the applicable Core or DPF authoring pattern to develop an unwritten Method, including a composite Method. Use a known pattern directly when its contribution is already clear; the architectural reference is not a prerequisite for that use. A separate curriculum or instructional Guide is a pedagogical companion. E.11.PFP governs framework publication form; it does not turn a supporting architectural reference into another framework. Describing FPF Library's connections does not claim a discipline above all its DPFs.
+**Not this pattern when.** Use E.4:4.2 and E.4.PFAD to decide which discipline a Suite describes and how its subdisciplines compose it. Use E.8 and the applicable Core or DPF authoring pattern to develop an unwritten Method, including a composite Method.
+
+Use a known pattern directly when its contribution is already clear; the architectural reference is not a prerequisite for that use.
+
+A separate curriculum or instructional Guide is a pedagogical companion. E.11.PFP governs framework publication form; it does not turn a supporting architectural reference into another framework. Describing FPF Library's connections does not claim a discipline above all its DPFs.
 

@@ -6,12 +6,12 @@ section_id: "E.17.1:15"
 section_title: "Worked family shapes, not shipped catalogue values"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__016_worked-family-shapes-not-shipped-catalogue-values.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.17.1 — Viewpoint Bundle Library - Reusable Viewpoint Reference Bundles"
   - "E.17.1:15 — Worked family shapes, not shipped catalogue values"
-line_start: 106925
-line_end: 106956
+line_start: 113466
+line_end: 113497
 dependencies:
   - "A.16.0"
   - "A.22"
@@ -39,14 +39,14 @@ keywords:
 
 #### E.17.1:15.1 - Hypothetical TEVB project binding
 
-E.17.2 supplies an authoring template, not a repository-shipped family. One project may constitute exact catalogue L and bind four local variables:
+E.17.2 supplies an authoring template, not a repository-shipped family. One project may constitute catalogue L and bind four local variables:
 
 - `r_functional -> P_functional`,
 - `r_procedural -> P_procedural`,
 - `r_allocation -> P_allocation`,
 - `r_module -> P_module`.
 
-Only after those are exact `U.ViewpointRef` values resolving exact admitted P editions under L's effective scheme can the project's ordinary family designator retrieve a reusable local declaration. Another project with similarly spelled variables or labels has not imported this family unless it resolves the same exact L and references.
+Only after those are `U.ViewpointRef` values resolving to admitted P editions under L's effective scheme can the project's ordinary family designator retrieve a reusable local declaration. Another project with similarly spelled variables or labels has not imported this family unless it resolves the same L and references.
 
 #### E.17.1:15.2 - Hypothetical governance and risk shape
 
@@ -57,13 +57,13 @@ A project may author a governance-oriented declaration with local reference vari
 - `r_compliance -> P_compliance`,
 - `r_operations -> P_operations`.
 
-This is an example of a possible declaration shape, not an exact current family. Each left-hand variable must be bound to an exact local `U.ViewpointRef`; each right-hand variable must be bound to one exact P independently admitted under E.17.0; and exact L, `R_L`, and the family designator must exist before reusable import is claimed. The four positions recur together but remain non-interchangeable.
+This is an example of a possible declaration shape, not a current family. Each left-hand variable must be bound to a local `U.ViewpointRef`; each right-hand variable must be bound to one P independently admitted under E.17.0. L, `R_L`, and the family designator must exist before reusable import is claimed. The four positions recur together but remain non-interchangeable.
 
 #### E.17.1:15.3 - Hypothetical research-method shape
 
-A project may likewise consider local variables `r_theory`, `r_experiment`, `r_inference`, `r_limitations`, and, where appropriate, `r_reproducibility`. This list teaches a candidate family shape only. A local inquiry note can import a subset only after the project has constituted exact L, bound each retained variable to an exact reference and P, and made omitted members visible in one actual declaration claim block.
+A project may likewise consider local variables `r_theory`, `r_experiment`, `r_inference`, `r_limitations`, and, where appropriate, `r_reproducibility`. This list teaches a candidate family shape only. A local inquiry note can import a subset only after the project has constituted L, bound each retained variable to a reference and P, and made omitted members visible in one declaration claim block.
 
 #### E.17.1:15.4 - Cross-family description relation positions
 
-A project may use one materialized local TEVB instance for its design family, another exact local governance family for program oversight, and another exact local publication-oriented family for publication faces and forms. `E.17.1` keeps these relation positions reviewable by preserving which exact catalogue and declaration each viewpoint came from and by preventing a final publication face or form from masquerading as the catalogue itself.
+A project may use one materialized local TEVB instance for its design family, another local governance family for program oversight, and another local publication-oriented family for publication faces and forms. `E.17.1` keeps these relation positions reviewable by preserving which catalogue and declaration each viewpoint came from and by preventing a final publication face or form from masquerading as the catalogue itself.
 

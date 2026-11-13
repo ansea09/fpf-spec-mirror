@@ -6,12 +6,12 @@ section_id: "B.2.4:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.4/B.2.4__014_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.2.4 — Do Capability or Functioning Changes Require Whole Reidentification?"
   - "B.2.4:11 — Relations"
-line_start: 44605
-line_end: 44611
+line_start: 46417
+line_end: 46423
 dependencies:
   - "A.10"
   - "A.15"
@@ -37,7 +37,7 @@ keywords:
 
 ### B.2.4:11 - Relations
 
-- **Specializes:** `B.2` for cases where exact capability, functioning, or selected in-life transformation-flow facts leave a whole-reidentification question after subject-pattern explanations are tested.
+- **Specializes:** `B.2` for cases where capability, functioning, or selected in-life transformation-flow facts leave a whole-reidentification question after subject-pattern explanations are tested.
 - **Uses:** `B.2.P` when emergence-family or title-mnemonic wording hides the claim kind.
 - **Coordinates with:** `A.2.2`, `C.16`, `A.6.F`, `A.3.4`, `E.18`, `C.30.TFS-REL`, `A.15`, `A.3.1`, `A.3.2`, `A.15.2`, `A.15.1`, `A.6.M`, `C.30`, `A.22`, `C.30.ASV`, `C.29`, `A.10`, and source-use patterns.
 - **Contrasts with:** `B.2.2` for system-result MHT and `B.2.3` for episteme-result MHT.

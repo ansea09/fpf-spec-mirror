@@ -6,12 +6,12 @@ section_id: "A.16:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.16 — Language-State Moves: Choose the Next Publication and Use of a Cue or Claim"
   - "A.16:4 — Solution"
-line_start: 33394
-line_end: 33488
+line_start: 34874
+line_end: 34968
 dependencies:
   - "A.13"
   - "A.15.1"
@@ -63,7 +63,7 @@ Here *move* means a typed transition in the publication of selected episteme con
 
 #### A.16:4.1 - Canonical move table
 
-This is the one canonical move table. Later examples apply it; they do not define another move family.
+This is the canonical move table. Later examples apply it; they do not define another move family.
 
 | Move | Use it when | Publication result | Keep explicit |
 | --- | --- | --- | --- |
@@ -72,11 +72,11 @@ This is the one canonical move table. Later examples apply it; they do not defin
 | `route` | a stabilized cue has several plausible downstream directions or one route must be selected | `RoutedCueSet` or another route-bearing publication makes plurality and any selection explicit | live routes, selected route if any, selection reason, and reopen condition |
 | `projection` | one aspect of an explicit route must be foregrounded without claiming endpoint admission | a typed route-bounded partial publication on an existing MVPK face | what is foregrounded, what is omitted or lost, and how reopen remains possible |
 | `formalize` | articulation or closure can increase under a named later rule | a more explicit symbolic, slot, or normal-form publication | the rule used, changed facets, and any new evidence-generating Work boundary |
-| `operationalize` | selected content is ready to face a method, Work, gate, or other operational question | the episteme or project record is docked to the pattern that defines or tests that use | the exact downstream contribution, its guard, and any world-facing Work boundary |
-| `reopen` | the current route, frame, or closure no longer holds cleanly | a publication in the same broad family expresses the reduced closure claim | reopened rivals, retained witnesses, and which prior endpoint-use or current-use claim no longer holds |
+| `operationalize` | selected content is ready to face a method, Work, gate, or other operational question | the episteme or project record is docked to the pattern that defines or tests that use | the downstream contribution, its guard, and any world-facing Work boundary |
+| `reopen` | the current route, frame, or closure no longer holds | a publication in the same broad family expresses the reduced closure claim | reopened rivals, retained witnesses, and which prior endpoint-use or current-use claim no longer holds |
 | `sketchBackoff` | an endpoint-bound or operational form over-commits the available grounds | an exploratory cue-bearing form becomes admissible again | retained anchors and witnesses, withdrawn closure, and the next safe question |
 | `respecify` | the broad family remains plausible but its framing scaffold, facet reading, or route specification is wrong | a revised framing or route specification replaces the earlier one | replaced commitments, invariants that stay fixed, and any episteme-identity change |
-| `retire` | a cue, route-bearing publication, episteme, or branch is no longer current for the named use because its grounds failed, a successor took over, or a current-use decision ended | retirement or withdrawal is explicit | reason, exact retired object, preserved history, and supported successor information or an unresolved successor question when the receiving use needs it |
+| `retire` | a cue, route-bearing publication, episteme, or branch is no longer current for the named use because its grounds failed, a successor took over, or a current-use decision ended | retirement or withdrawal is explicit | reason, retired object, preserved history, and supported successor information or an unresolved successor question when the receiving use needs it |
 
 The table names moves, not the resulting objects. `PreArticulationCuePack` and `RoutedCueSet` are publication forms defined elsewhere. `U.AbductivePrompt` is the question account defined by `B.5.2.0`; its publication form is selected separately. A claim-bearing episteme remains `U.Episteme`; `E.24.PUB` separately defines a bounded publication occurrence.
 
@@ -96,7 +96,7 @@ Do not use “move between publication forms” as a shortcut across these three
 
 1. **First typed preservation.** A precursor cue, trace, contrast, or witness may have no source episteme or source publication form. Name the precursor and the first typed preservation form. C.2.1 governs the identity of the first claim-bearing episteme when one is admitted.
 2. **Same episteme edition, another form.** When EntityOfConcern, ClaimGraph content, and effective reference scheme remain the same, one episteme edition may be issued in another form or on another carrier. Name the episteme and source and target forms only when they matter. `E.24.PUB` governs each claimed availability occurrence; neither form nor occurrence creates a successor episteme.
-3. **Content-changing successor.** When a C.2.1 discriminator changes, identify a separate target episteme. Name the source and target epistemes, the changed discriminator, what content is preserved, changed, and lost, and the exact lineage relation only when its predicate obtains. A repeated label, form, carrier, or move name proves no continuity. Use `A.16.0` only if the multi-step or branching history is load-bearing.
+3. **Content-changing successor.** When a C.2.1 discriminator changes, identify a separate target episteme. Name the source and target epistemes, the changed discriminator, what content is preserved, changed, and lost, and the lineage relation only when its predicate obtains. A repeated label, form, carrier, or move name proves no continuity. Use `A.16.0` only if the multi-step or branching history is load-bearing.
 
 The same discipline applies to project records through their own identity patterns. `E.24.PUB` says that an already identified episteme was made available for a bounded use; it says neither that content changed nor that an endpoint test passed.
 
@@ -106,11 +106,11 @@ Make the following content recoverable in the publication or, where needed, a sh
 
 | Field | Minimum content |
 | --- | --- |
-| Current item | precursor cue or exact source episteme/project record; source form only when one exists and matters |
+| Current item | precursor cue or source episteme/project record; source form only when one exists and matters |
 | Identity case | first typed preservation, same edition in another form, or content-changing successor |
 | Move and guard | one move from §4.1 and the changed facet or route condition that justifies it |
-| Target | exact target episteme/project record when identified, typed target publication form, and the concrete object or claim that the downstream pattern defines, constrains, or tests; name the exact `ClaimGraph` carrying that rule only when its identity or edition changes the use |
-| Preservation | witnesses or anchors retained; for a successor episteme, content preserved, changed, and lost plus any exact lineage relation |
+| Target | target episteme/project record when identified, typed target publication form, and the concrete object or claim that the downstream pattern defines, constrains, or tests; name the `ClaimGraph` carrying that rule only when its identity or edition changes the use |
+| Preservation | witnesses or anchors retained; for a successor episteme, content preserved, changed, and lost plus any lineage relation |
 | Return | endpoint condition not yet met, omitted or lost content, and reopen or retirement condition |
 
 Add an `EpistemePublicationRelation` occurrence only when bounded availability matters. Add the MVPK face only when rendering matters. Neither replaces the form, episteme, or next pattern.
@@ -119,7 +119,7 @@ Add an `EpistemePublicationRelation` occurrence only when bounded availability m
 
 Some `formalize` and `operationalize` moves only re-express available content. Others require measurement, experiment, installation or use of instrumentation, or execution. Expose the needed action and use the applicable measurement, experiment, gate, or endpoint pattern. If the receiving claim requires a distinct dated `U.Work`, establish its A.13 basis and independent A.15.1 admission; use F.6 afterward only for precise assignment-bound attribution. A.16 records the pending or separately established crossing; it does not establish that the action occurred or produced a result.
 
-Next-use docking and a Work crossing do not by themselves establish a change in authority, responsibility, permission, or commitment. If one of those relations actually changes, record it as a separate claim: the exact relation under its governing pattern; participants in that relation's own roles, including exact giving and receiving admitted systems when its predicate requires them; any exact `U.SystemRoleAssignment` occurrences through which they participate; its object or action, scope, and effective interval; and the assigning, instituting, revoking, or superseding act when its pattern requires one. A.2, A.2.1, and the applicable deontic or authority pattern establish and test that claim.
+Next-use docking and a Work crossing do not by themselves establish a change in authority, responsibility, permission, or commitment. If one of those relations changes, record it as a separate claim: the relation under its governing pattern; participants in that relation's own roles, including giving and receiving admitted systems when its predicate requires them; any `U.SystemRoleAssignment` occurrences through which they participate; its object or action, scope, and effective interval; and the assigning, instituting, revoking, or superseding act when its pattern requires one. A.2, A.2.1, and the applicable deontic or authority pattern establish and test that claim.
 
 Use `A.16.0` for such a handoff only when its legitimacy or interpretation depends on upstream move or lineage history. Otherwise the local account of the needed or performed action and the separately established relation are enough.
 
@@ -130,14 +130,14 @@ Do not compress several claims into `AuthorityState`. A reusable language-state 
 | Claim | What to show |
 | --- | --- |
 | Route plurality or selection | live routes; selected route if any; selection reason; route-bearing publication |
-| Endpoint admission or use disposition | named endpoint test, its result, and the exact stronger use admitted, narrowed, or blocked |
-| Publication availability | exact episteme, form, bounded use, and `EpistemePublicationRelation` occurrence when current |
-| Current use or retirement | exact cue, episteme, publication, or branch and the currentness, withdrawal, supersession, or retirement claim that applies |
+| Endpoint admission or use disposition | named endpoint test, its result, and the stronger use admitted, narrowed, or blocked |
+| Publication availability | episteme, form, bounded use, and `EpistemePublicationRelation` occurrence when current |
+| Current use or retirement | cue, episteme, publication, or branch and the currentness, withdrawal, supersession, or retirement claim that applies |
 | Actual relation change | only an independently established authority, responsibility, permission, or commitment relation with participants, object or action, scope, interval, and any act required by its governing pattern; otherwise omit the optional claim or report the unresolved change; state that a relation is unchanged only when an applicable negative criterion or complete closure basis supports that claim |
 
-Open route plurality is not a lineage fork. A multi-route state keeps several directions live inside one route-bearing publication. A lineage fork has separately identified successor members, their preserved and lost content, and any exact lineage relations that obtain.
+Open route plurality is not a lineage fork. A multi-route state keeps several directions live inside one route-bearing publication. A lineage fork has separately identified successor members, their preserved and lost content, and any lineage relations that obtain.
 
-`EndpointAdmissionProfile` may be reused as a declarative decision profile for next-use docking. Include only inputs required by the proposed use: the relevant `C.2.2a` position, selected `C.2.LS` facet readings, any route condition from `B.4.1`, any prompt-entry conditions from `B.5.2.0`, and the witness or grounding conditions it consumes. Apply it to judge only whether docking to the later question is admissible: relation-like content toward `A.6.P`, an open question and rival set toward `B.5.2.0`, evaluative content toward `C.16.Q`, ambiguous affordance-like wording toward `A.6.A` and then the recovered subject, viability or other quality-family content toward `C.25` when quality-family decomposition is the question, and executable docking toward `A.15`. Apply the selected pattern's own tests. A.6.A may return a sufficient claim, question or exact missing basis; that recovery establishes no common invitation relation. Tone, style or apparent explicitness supplies no subject result by itself. The admission result creates no authority, responsibility, permission, commitment, publication, gate, or Work state.
+`EndpointAdmissionProfile` may be reused as a declarative decision profile for next-use docking. Include only inputs required by the proposed use: the relevant `C.2.2a` position, selected `C.2.LS` facet readings, any route condition from `B.4.1`, any prompt-entry conditions from `B.5.2.0`, and the witness or grounding conditions it consumes. Apply it to judge only whether docking to the later question is admissible: relation-like content toward `A.6.P`, an open question and rival set toward `B.5.2.0`, evaluative content toward `C.16.Q`, ambiguous affordance-like wording toward `A.6.A` and then the recovered subject, viability or other quality-family content toward `C.25` when quality-family decomposition is the question, and executable docking toward `A.15`. Apply the selected pattern's own tests. A.6.A may return a sufficient claim, question or missing basis; that recovery establishes no common invitation relation. Tone, style or apparent explicitness supplies no subject result by itself. The admission result creates no authority, responsibility, permission, commitment, publication, gate, or Work state.
 
 #### A.16:4.7 - One history threshold
 

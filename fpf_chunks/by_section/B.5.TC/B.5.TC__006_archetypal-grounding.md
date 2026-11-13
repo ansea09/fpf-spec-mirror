@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.5.TC"
-pattern_title: "Compare Theoretical Accounts for a Working Question"
+pattern_title: "Compare Theoretical Accounts for a Question"
 section_id: "B.5.TC:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.TC/B.5.TC__006_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "B.5.TC — Compare Theoretical Accounts for a Working Question"
+  - "B.5.TC — Compare Theoretical Accounts for a Question"
   - "B.5.TC:5 — Archetypal Grounding"
-line_start: 49013
-line_end: 49044
+line_start: 51053
+line_end: 51084
 dependencies:
   - "B.5.RA"
   - "B.5.RR"
@@ -31,11 +31,11 @@ keywords:
 
 A mathematical account keeps routes as distinct objects. Routes p and q go from X to Y and cost 1 and 4. A route r goes from Y to Z and costs 2. Routes with matching endpoints can be concatenated; the cost of a concatenation is the sum of its costs. The two routes from X through Y to Z therefore cost 3 and 6.
 
-A second account keeps only whether travel between endpoints is possible. Both X-to-Y routes become the answer “yes”. Joining that answer to Y-to-Z reachability gives “yes” for X-to-Z. This account answers whether travel is possible. It cannot give the cost of the route actually taken: p followed by r and q followed by r have the same reachability summary and different costs.
+A second account keeps only whether travel between endpoints is possible. Both X-to-Y routes become the answer “yes”. Joining that answer to Y-to-Z reachability gives “yes” for X-to-Z. This account answers whether travel is possible. It cannot give the cost of the route taken: p followed by r and q followed by r have the same reachability summary and different costs.
 
-A third account keeps minimum costs. For finite nonempty sets of allowed first and second segments, assume every first segment can be followed by every second segment and costs add. Then the least combined cost is the sum of the two least costs. Every combined cost is at least that sum, and combining the two minimizing segments attains it. Here the answer is 1 + 2 = 3. The calculation can therefore answer the minimum-cost question without retaining every route. Choosing an actual route also requires the minimizing segments to be recoverable.
+A third account keeps minimum costs. For finite nonempty sets of allowed first and second segments, assume every first segment can be followed by every second segment and costs add. Then the least combined cost is the sum of the two least costs. Every combined cost is at least that sum, and combining the two minimizing segments attains it. Here the answer is 1 + 2 = 3. The calculation can therefore answer the minimum-cost question without retaining every route. Choosing a route also requires the minimizing segments to be recoverable.
 
-Now change the allowed combinations. Let the second segments be r with cost 2 and s with cost 10. Only p followed by s, and q followed by r, are allowed. The true minimum is min(1 + 10, 4 + 2) = 6. Independently minimizing the two stages gives 3, which no allowed route attains. The failure is the omitted compatibility relation. Retain the incoming-route distinction or calculate over the allowed pairs.
+Now change the allowed combinations. Let the second segments be r with cost 2 and s with cost 10. Only p followed by s, and q followed by r, are allowed. The minimum is min(1 + 10, 4 + 2) = 6. Independently minimizing the two stages gives 3, which no allowed route attains. The failure is the omitted compatibility relation. Retain the incoming-route distinction or calculate over the allowed pairs.
 
 The comparison yields three useful accounts with different retained information. Its changed case also identifies a condition for the minimum-cost composition rule. No physical interpretation is needed for this mathematical result. Using cost as travel time or expenditure adds the corresponding interpretation and additivity conditions.
 
@@ -53,7 +53,7 @@ The discrepancy is produced by the approximation used in the computation. Compar
 
 An indicator X and an output Y always follow a binary controller command U. Two causal hypotheses explain the observed pairs: A uses X := U and Y := X; B uses X := U and Y := U. In A, the indicator drives the output. In B, the controller drives both directly. Both yield X = Y = U in ordinary operation.
 
-The question is now what happens when X is forced to 1 while U remains 0. Represent this intervention by replacing the assignment to X. A gives Y = 1; B gives Y = 0. The same observed pairs leave that difference unresolved.
+The question is what happens when X is forced to 1 while U remains 0. Represent this intervention by replacing the assignment to X. A gives Y = 1; B gives Y = 0. The same observed pairs leave that difference unresolved.
 
-The next contribution could be the circuit description, an already available intervention result or a worthwhile discriminating test. If the work only predicts the observed indicator from U in unchanged operation, this causal difference need not be settled for that use. If it proposes controlling Y through X, retain the unresolved consequence until the needed causal premise is supplied. C.28 governs that intervention claim.
+The next contribution could be the circuit description, an available intervention result or a worthwhile discriminating test. If the work only predicts the observed indicator from U in unchanged operation, this causal difference need not be settled for that use. If it proposes controlling Y through X, retain the unresolved consequence until the needed causal premise is supplied. C.28 governs that intervention claim.
 

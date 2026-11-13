@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.5.TU"
-pattern_title: "Construct a Working Use of an Unfamiliar Theory"
+pattern_title: "Construct a Use of an Unfamiliar Theory"
 section_id: "B.5.TU:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.TU/B.5.TU__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "B.5.TU — Construct a Working Use of an Unfamiliar Theory"
+  - "B.5.TU — Construct a Use of an Unfamiliar Theory"
   - "B.5.TU:3 — Forces"
-line_start: 48736
-line_end: 48745
+line_start: 50770
+line_end: 50779
 dependencies:
   - "A.15.9"
   - "A.6.3.RT"
@@ -31,5 +31,5 @@ keywords:
 | A worked source case saves effort, while a new application changes some of its premises. | Reuse the case and identify the changed contribution before carrying over its answer. |
 | Operational fluency and understanding of derivations serve different work. | Recover the depth needed to apply, criticize or alter the contribution. |
 | A small case exposes connections, while a general claim reaches beyond that case. | Keep the demonstrated use and the argument for greater reach distinguishable. |
-| Available assistance can supply difficult operations, while the receiving use still needs interpretation. | Divide work at the missing contribution and retain the meaning of the returned result. |
+| Available assistance can supply difficult operations, while the receiving use needs interpretation. | Divide work at the missing contribution and retain the meaning of the returned result. |
 

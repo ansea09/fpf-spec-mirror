@@ -6,12 +6,12 @@ section_id: "C.28.CM:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28.CM/C.28.CM__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.28.CM — Construct and Challenge a Causal Model"
   - "C.28.CM:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 68665
-line_end: 68676
+line_start: 71738
+line_end: 71749
 dependencies:
   - "A.15.9"
   - "B.5.2"
@@ -33,7 +33,7 @@ keywords:
 | “The common cause explains everything, so there is no direct effect.” | Inspect the proposed direct path separately; both mechanisms may operate. |
 | “This variable is always a confounder.” | Name the question and path before deciding its role or adjustment use. |
 | “All reports in our incident set show the effect.” | Recover registration and selection, then the comparison needed for the target cases. |
-| “The graph fits, so it is the true graph.” | Name the implication actually tested and retain indistinguishable alternatives. |
+| “The graph fits, so it is the true graph.” | Name the implication tested and retain indistinguishable alternatives. |
 | “Remove the original cause and the ongoing problem ends.” | Reconstruct the present persistence mechanism and horizon. |
 | “A better model must precede any response.” | Compare the value of further discrimination with an independently justified available response. |
 

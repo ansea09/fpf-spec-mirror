@@ -6,12 +6,12 @@ section_id: "A.15.8:9"
 section_title: "Consequences and trade-offs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.8/A.15.8__010_consequences-and-trade-offs.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.15.8 — Work-Performance Configuration and Recovery Testing"
   - "A.15.8:9 — Consequences and trade-offs"
-line_start: 31900
-line_end: 31910
+line_start: 33149
+line_end: 33159
 dependencies:
   - "A.1"
   - "A.10"
@@ -48,5 +48,5 @@ keywords:
 | Preserved ownership | Work, plan, capability, System identity, representation, evidence, architecture, and choice remain independently checkable. |
 | Better handoff and degraded-mode evidence | A representative interruption or support-loss probe can expose dependencies hidden by a perfect run. |
 | Additional modeling cost | Identifying the needed relations and recovery conditions takes more effort than using one umbrella noun. |
-| Bounded conclusion | A conclusion is bounded by the named configuration, condition, window and evidence actually available; further assurance or transfer needs its direct grounds. |
+| Bounded conclusion | A conclusion is bounded by the named configuration, condition, window and evidence available; further assurance or transfer needs its direct grounds. |
 

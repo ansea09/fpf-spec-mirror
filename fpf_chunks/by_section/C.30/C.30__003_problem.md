@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.30"
-pattern_title: "Grounded Architecture and Selected-Structure Adequacy"
+pattern_title: "Architecture and Selected-Structure Adequacy"
 section_id: "C.30:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30/C.30__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "C.30 — Grounded Architecture and Selected-Structure Adequacy"
+  - "C.30 — Architecture and Selected-Structure Adequacy"
   - "C.30:2 — Problem"
-line_start: 71382
-line_end: 71404
+line_start: 74475
+line_end: 74497
 dependencies:
   - "A.1"
   - "A.10"
@@ -86,7 +86,7 @@ Engineering teams use "architecture" for several different things:
 - an ADR-like publication;
 - a project-side claim defined or tested by another FPF pattern.
 
-These uses are all useful in ordinary engineering speech, but they cannot carry the same FPF claim. The core distinction is the one already used across FPF: actual subject-relation occurrences; the exact A.22 structure selected from them; the direct `ArchitectureRelation` that may obtain between that structure and one holon; a C.2.1 claim about the holon, relation, or structure; the Description episteme or view; the representation and publication objects; and any project decision about changing architecture are different objects.
+These uses are all useful in ordinary engineering speech, but they cannot carry the same FPF claim. The core distinction is the one used across FPF: actual subject-relation occurrences; the A.22 structure selected from them; the `ArchitectureRelation` that may obtain between that structure and one holon; a C.2.1 claim about the holon, relation, or structure; the Description episteme or view; the representation and publication objects; and any project decision about changing architecture are different objects.
 
 The first-minute practitioner asks four questions:
 
@@ -95,5 +95,5 @@ The first-minute practitioner asks four questions:
 3. Which structure kind is in view—function, flow, control, module, Work, system-role-kind or assignment, enactor, information, data, placement, deployment, scale, or a declared logical structure—and which adjacent interface, evidence, or assurance relations matter?
 4. How is the inspected material being used: as claim content, description, view, representation, publication form, decision, source relation, or mathematical lens?
 
-The useful result preserves the distinctions needed by the architecture question. A module diagram may omit a control or flow relation that changes the next action. Conversely, a clear candidate statement may settle the present question before an actual relation or full description is available.
+The useful result preserves the distinctions needed by the architecture question. A module diagram may omit a control or flow relation that changes the next action. Conversely, a candidate statement may settle the question before an actual relation or full description is available.
 

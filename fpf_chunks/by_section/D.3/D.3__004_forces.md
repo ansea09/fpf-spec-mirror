@@ -6,12 +6,12 @@ section_id: "D.3:1.1"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.3/D.3__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "D.3 — Describe an Ethical Conflict Across Levels or Scopes"
   - "D.3:1.1 — Forces"
-line_start: 91834
-line_end: 91844
+line_start: 96328
+line_end: 96338
 dependencies:
   - "A.1"
   - "A.10"
@@ -43,7 +43,7 @@ keywords:
 | Conflict description vs. decision use | Make the sides and their tension inspectable for mediation or decision use under D.4. |
 | Level and scope plurality vs. fixed ladder | Recover the relevant relations and scopes from the case; structural levels do not establish ethical priority. |
 | Conflict vs. description | A narrative, table, graph, or formal expression can describe the conflict but is not the situation, claims, harms, or relations it describes. |
-| Useful first result vs. reusable precision | The first result needs connected sides and a tension statement; later reuse may need an identified episteme and typed supporting relations. |
-| Agency evidence vs. responsibility | Evidence may support an agency characteristic or threshold. Responsibility still needs its own direct predicate and actual participants; no score, label, collection name, or assignment supplies it. |
+| First result vs. reusable precision | The first result needs connected sides and a tension statement; later reuse may need an identified episteme and typed supporting relations. |
+| Agency evidence vs. responsibility | Evidence may support an agency characteristic or threshold. Responsibility needs its direct predicate and participants; no score, label, collection name, or assignment supplies it. |
 | Architecture residual vs. ethical conflict | A cross-scope structure can be architectural, ethical, or both. `C.30.ILC` triages the architecture residual; D.3 describes the ethical conflict. |
 

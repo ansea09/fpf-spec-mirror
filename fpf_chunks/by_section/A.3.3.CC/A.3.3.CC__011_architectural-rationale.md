@@ -6,12 +6,12 @@ section_id: "A.3.3.CC:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3.CC/A.3.3.CC__011_architectural-rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.3.3.CC — Construct a Configuration Description under Constraints"
   - "A.3.3.CC:10 — Architectural Rationale"
-line_start: 12475
-line_end: 12482
+line_start: 12906
+line_end: 12913
 dependencies:
   - "A.17"
   - "A.18"

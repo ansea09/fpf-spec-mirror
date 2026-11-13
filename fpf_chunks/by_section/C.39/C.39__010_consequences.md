@@ -6,12 +6,12 @@ section_id: "C.39:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39/C.39__010_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.39 — Find and Develop a Way to Obtain a Result"
   - "C.39:9 — Consequences"
-line_start: 82921
-line_end: 82924
+line_start: 86963
+line_end: 86966
 dependencies:
   - "A.22.CGUS"
   - "A.3.1"
@@ -33,5 +33,5 @@ keywords:
 
 ### C.39:9 - Consequences
 
-The reader obtains a usable next action before qualification or comparison has a complete candidate to consume. When later use needs it, the explanation also makes connections and selective change recoverable without private reconstruction. Source recovery and explanation take effort; decision-relevant refinement limits unnecessary work. Some developments end with a precise gap or narrower result. This Method guarantees neither invention nor acquired professional capability.
+The reader obtains a usable next action before qualification or comparison has a complete candidate to consume. When later use needs it, the explanation also makes connections and selective change recoverable without private reconstruction. Source recovery and explanation take effort; decision-relevant refinement limits unnecessary work. Some developments end with an identified gap or narrower result. This Method guarantees neither invention nor acquired professional capability.
 

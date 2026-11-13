@@ -6,12 +6,12 @@ section_id: "C.39.RO:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.RO/C.39.RO__012_sota-echoing.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.39.RO — Turn a Construction into a Reusable Operation"
   - "C.39.RO:11 — SoTA-Echoing"
-line_start: 83630
-line_end: 83641
+line_start: 87687
+line_end: 87700
 dependencies:
   - "A.3.1"
   - "A.3.2"
@@ -26,11 +26,13 @@ keywords:
 
 ### C.39.RO:11 - SoTA-Echoing
 
-For the question “How does a useful construction become an operation another use can vary?”, the selected line combines constructive generalization with explicit application conditions and examination of a changed use. It exposes the obtaining step and its scope before investing in a larger reusable library.
+For the question “How does a useful construction become an operation another use can vary?”, the selected line combines constructive generalization with application conditions and examination of a changed use. It exposes the obtaining step and its scope before investing in a larger reusable library.
 
-For the timing case, compare carrying the earlier 42.5-millisecond correction with carrying the midpoint operation. Both use the same available marker data. Copying the constant is sufficient for the unchanged case; after the 48-millisecond marker is added it leaves a largest residual of 5.5 milliseconds. Computing the new extremes costs a scan of the markers and yields the best constant correction, with a 4-millisecond residual bound and a proof that the 3-millisecond target is unattainable. Adopt the operation when changed data or a feasibility question makes that additional work useful.
+For the timing case, compare carrying the earlier 42.5-millisecond correction with carrying the midpoint operation. Both use the same available marker data. Copying the constant is sufficient for the unchanged case; after the 48-millisecond marker is added it leaves a largest residual of 5.5 milliseconds.
 
-[Grand et al., LILO (2024), §3 and §4.1–4.2](https://arxiv.org/html/2310.19791v2) connect reusable program components with further synthesis. Their comparison also shows that components can be hard to use when their names obscure their operations; generated explanations can introduce semantic errors. Adapt this contribution in :4.3/:4.6: expose the operation and describe its actual meaning. Their experiments concern three programming benchmarks and specific earlier language models.
+Computing the new extremes costs a scan of the markers and yields the best constant correction, with a 4-millisecond residual bound and a proof that the 3-millisecond target is unattainable. Adopt the operation when changed data or a feasibility question makes that additional work useful.
+
+[Grand et al., LILO (2024), §3 and §4.1–4.2](https://arxiv.org/html/2310.19791v2) connect reusable program components with further synthesis. Their comparison also shows that components can be hard to use when their names obscure their operations; generated explanations can introduce semantic errors. Adapt this contribution in :4.3/:4.6: expose the operation and describe its meaning. Their experiments concern three programming benchmarks and earlier language models.
 
 [Ahmed et al., TheoryCoder-2 (2026 preprint), §2.2–3](https://arxiv.org/html/2602.00929v1) connect abstract operators with predicates, a lower-level world model and executable actions, then reuse the operators across related game environments. Adapt the connection between proposed effect and obtaining operations in :4.3/:4.4. The reported transfer uses those representational assumptions and game settings.
 

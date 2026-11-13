@@ -6,12 +6,12 @@ section_id: "A.3.1.DR:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.DR/A.3.1.DR__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.3.1.DR — Recover Method Contributions from Documentary Sources"
   - "A.3.1.DR:7 — Conformance Checklist"
-line_start: 10184
-line_end: 10197
+line_start: 10585
+line_end: 10598
 dependencies:
   - "A.3.1.MR"
   - "A.3.1.QM"

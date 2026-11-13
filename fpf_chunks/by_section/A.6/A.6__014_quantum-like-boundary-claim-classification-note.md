@@ -6,12 +6,12 @@ section_id: "A.6:12a"
 section_title: "Quantum-like boundary-claim classification note"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6/A.6__014_quantum-like-boundary-claim-classification-note.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6 — Signature Stack: Classify and Place Boundary Claims"
   - "A.6:12a — Quantum-like boundary-claim classification note"
-line_start: 14272
-line_end: 14304
+line_start: 14729
+line_end: 14761
 dependencies:
   - "A.10"
   - "A.15"
@@ -57,7 +57,7 @@ keywords:
 
 ### A.6:12a - Quantum-like boundary-claim classification note
 
-Use A.6 first for ordinary boundary, interface, API, protocol, contract, connector, publication-face, and observability-evidence wording. Quantum-like boundary prose is supported only after the boundary text still needs a probe, order, frame, export, or state-reading distinction that ordinary boundary patterns would otherwise erase.
+Use A.6 first for ordinary boundary, interface, API, protocol, contract, connector, publication-face, and observability-evidence wording. Quantum-like boundary prose is supported only when the boundary text needs a probe, order, frame, export, or state-reading distinction that ordinary boundary patterns would otherwise erase.
 
 Action classification:
 
@@ -65,7 +65,7 @@ Action classification:
 2. Name the actual participants and any channel or carrier required by the boundary relation or operation separately.
 3. Apply the applicable ordinary FPF patterns to the ordinary boundary content: A.6, A.6.B, F.9, A.15, C.16, or C.25.
 4. If the boundary text uses a coarsened representation to claim preserved action, intervention, manipulation, explanation, or preserved structure across representation scales, state the causal-abstraction or approximate-causal-abstraction mapping before retaining QL wording.
-5. Ask whether the boundary act is being used as a passive read or unjustified lossless-transfer reading while actually changing the represented state, export validity, or viability decision.
+5. Ask whether the boundary act is being used as a passive read or unjustified lossless-transfer reading while changing the represented state, export validity, or viability decision.
 6. If yes, apply `C.26.1` only to that remaining residual question; keep the ordinary boundary pattern active.
 7. If no, keep the text in the ordinary boundary, bridge, work, measurement, or quality pattern and remove QL wording.
 

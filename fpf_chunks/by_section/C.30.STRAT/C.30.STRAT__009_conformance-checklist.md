@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__009_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.30.STRAT — Clarify Stratification and Architecture Source Labels"
   - "C.30.STRAT:7 — Conformance checklist"
-line_start: 73182
-line_end: 73197
+line_start: 76312
+line_end: 76327
 dependencies:
   - "A.10"
   - "A.15"

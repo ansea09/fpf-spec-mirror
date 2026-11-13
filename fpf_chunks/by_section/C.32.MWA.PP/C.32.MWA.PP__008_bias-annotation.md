@@ -6,12 +6,12 @@ section_id: "C.32.MWA.PP:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA.PP/C.32.MWA.PP__008_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.32.MWA.PP — Construct and Compare Method Performance and Provision Arrangements"
   - "C.32.MWA.PP:6 — Bias-Annotation"
-line_start: 79401
-line_end: 79420
+line_start: 83230
+line_end: 83249
 dependencies:
   - "A.3.1.MI"
   - "A.3.1.QM"
@@ -27,13 +27,13 @@ keywords:
 | --- | --- | --- |
 | universal-stack bias | Method, Work, support, allocation, description, and culture become one level sequence. | Name each selected structure and direct relation separately. |
 | visual-representation bias | A diagram or mathematical graph is treated as the architecture. | State the structure and relation semantics first; choose a representation only for a named use. |
-| concurrency bias | Overlap erases result-use, evidence, configuration, or authority guards. | Identify genuine first–then conditions directly. |
+| concurrency bias | Overlap erases result-use, evidence, configuration, or authority guards. | Identify first–then conditions. |
 | local-efficiency bias | Reduced effort in one role hides burden moved to another role or interval. | Show combined peak and total burdens with receiving scopes. |
 | trial-as-reality bias | A selected possible-future synthesis is reported as obtaining practice. | Keep decision, implementation Work, trial Work, observations, and relation truth distinct. |
 
 This Method starts from an intended contribution and can therefore underrepresent people who bear costs without being named as recipients. Recover affected participants when their workload, autonomy, exposure or legitimate interests can change the design. A sponsor's preferred culture is not the whole account of those consequences.
 
-Existing organizational boundaries bias generation toward moving tasks inside the current chart. Existing framework or professional labels can create the opposite bias: every useful distinction becomes a separate permanent specialty. Test actual contribution and interaction before selecting either boundary.
+Existing organizational boundaries bias generation toward moving tasks inside the current chart. Existing framework or professional labels can create the opposite bias: every useful distinction becomes a separate permanent specialty. Test contribution and interaction before selecting either boundary.
 
 Common-service advocates can count saved duplication while overlooking local interpretation and integration. Local-autonomy advocates can count responsiveness while overlooking common maintenance, incompatible decisions and loss of specialist depth. Apply the same whole-cost comparison to both.
 

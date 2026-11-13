@@ -6,12 +6,12 @@ section_id: "E.18.3:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.3/E.18.3__008_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.18.3 — Constraint-Governed Transformation-Flow Unfolding Structure"
   - "E.18.3:6 — Bias-Annotation"
-line_start: 112069
-line_end: 112079
+line_start: 119148
+line_end: 119158
 dependencies:
   - "A.10"
   - "A.15"
@@ -43,10 +43,10 @@ keywords:
 
 | Bias risk | Mitigation |
 | --- | --- |
-| Path-as-workflow | Restore the selected structure, exact E.18 positions and bindings, already-obtaining relations, discriminated applied-claim or E.18-event condition branches, preserved/lost structure, concrete neighboring contributions and reconsideration conditions. |
+| Path-as-workflow | Restore the selected structure, the E.18 positions and bindings it uses, already-obtaining relations, discriminated applied-claim or E.18-event condition branches, preserved/lost structure, concrete neighboring contributions and reconsideration conditions. |
 | Graph-as-structure-in-every-sense | Keep a pre-admission graph or flow card as an ordinary provisional explanation; constitute a C.2.1 episteme only when persistence or replay of its narrower claim is current. Keep a post-admission demonstrative episteme separate from the selected structure. |
 | Profile-as-second-structure | Keep the four A.22 discriminators as the one structure identity. E.18.3 qualification, records, descriptions, locators and reciprocal-looking references create no second structure. |
-| One TFS as universal parent | Classify several valuations, one internal `SubflowRef` and independently selected E.18.NET members before using a demonstration. |
-| Gate, evidence, or stronger-use absorption | Keep each stronger claim separate: its exact independently governed claim or relation, applicable criterion, and current facts or evidence establish that use even when a relation-reference episteme cites the same occurrence for transformation-flow replay. |
-| Intended realization as MethodDescription or Work | Use the A.3.2 membership test or A.15.1 occurrence test on the exact independently identified object; pattern refs, imperatives, rows, and selected continuations neither identify that object nor show that the test is satisfied. |
+| One TFS as universal parent | Before using a demonstration, distinguish a single TFS (which may have several valuations), a parent-relative internal `SubflowRef`, and a network of independently selected E.18.NET members. |
+| Gate, evidence, or stronger-use absorption | Keep each stronger claim separate: its independently governed claim or relation, applicable criterion, and current facts or evidence establish that use even when a relation-reference episteme cites the same occurrence for transformation-flow replay. |
+| Intended realization as MethodDescription or Work | Use the A.3.2 membership test or A.15.1 occurrence test on the independently identified object; pattern refs, imperatives, rows, and selected continuations neither identify that object nor show that the test is satisfied. |
 

@@ -6,12 +6,12 @@ section_id: "A.15.3:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.3/A.15.3__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.15.3 — SlotFillingsPlanItem: Plan a Value for an Existing Declaration Member"
   - "A.15.3:intro — Intro"
-line_start: 30062
-line_end: 30100
+line_start: 31144
+line_end: 31189
 dependencies:
   - "A.15.1"
   - "A.15.2"
@@ -52,7 +52,7 @@ keywords:
 > **Used by:** plans that must remember a chosen future relation participant, operation argument, expected result, or another value tied to an already declared member before work begins
 
 
-**At a glance.** Use `SlotFillingsPlanItem` when a plan must preserve a concrete choice before Work begins—for example, `Robot_8_Ref` as the planned holder for a future system-role assignment, with the assignment species named separately, or `Pump_37_Ref` as the planned `candidate` in a recognition operation. Point to the declaration member that already defines that position, and record the planned value and conditions. When a later question asks whether the choice was used, compare the established actual facts with the preserved plan. A field name, compatible type, Method phrase, form position, or plan label is not such a declaration.
+**At a glance.** Use `SlotFillingsPlanItem` when a plan must preserve a choice before Work begins—for example, `Robot_8_Ref` as the planned holder for a future system-role assignment, with the assignment species named separately, or `Pump_37_Ref` as the planned `candidate` in a recognition operation. Point to the declaration member that already defines that position, and record the planned value and conditions. When a later question asks whether the choice was used, compare the established actual facts with the preserved plan. A field name, compatible type, Method phrase, form position, or plan label is not such a declaration.
 
 **Use this when.** Use this pattern only when the choice points to a member already defined in a `RelationSignature`, an A.6.1 `OperationDeclaration`, or another declaration whose own pattern states both the member's meaning and the rule for its later actual use. If the plan merely says *use this method*, *reserve this resource*, or *meet this threshold* without reusing such a member, keep ordinary A.15.2 plan content.
 
@@ -61,7 +61,7 @@ keywords:
 **Working use order.**
 
 1. Identify the `U.WorkPlan` episteme and the future performance being planned. Keep the WorkPlan's already identified present EntityOfConcern unchanged.
-2. Open the declaration that will be used later and choose one member it actually defines. Verify that the declaration's own pattern states both what that member means and what must hold for actual use.
+2. Open the declaration that will be used later and choose one member it defines. Verify that the declaration's own pattern states both what that member means and what must hold for actual use.
 3. Record the declaration episteme, its local member designator, and the planned value or designation. Do not substitute a description, record, form field, or matching label.
 4. Apply the member's ValueKind, designation rule, and semantic cardinality. Add conditions and edition pins only when they can change which planned value is effective. State prohibitions, exclusions, and completeness as separate plan claims; omission is not prohibition.
 5. When a later question requires comparison, establish each claimed relation participant or operation binding independently. Identify a dated Work under A.15.1 only when that occurrence claim is needed. Compare actual with planned under the applicable policy, preserving the plan as the baseline.
@@ -70,11 +70,18 @@ keywords:
 
 **Reliance-bearing use.** Add concrete reference kinds, declaration or value episteme pins, alternative-selection conditions, target-declared cardinality, and a later comparison policy only when coordination, replay, audit, or work-entry preparation would change without them.
 
-**Stop condition.** Finish with one of these results. (1) The row resolves to an existing declaration member, and the planned value meets its ValueKind, designation, cardinality, and condition rules. (2) No reusable member is needed, so the choice stays ordinary A.15.2 plan content. (3) Typed reuse is needed but the member, its meaning, its actual-use rule, or the pattern that defines them is missing; return `missing-governor` for that planned use. (4) Required planning information is missing or unresolved; name what must be recovered (§12b). Do not invent a SlotSpec, wrapper declaration, generic field, or actual-use relation here.
+**Stop condition.** Finish with one of these results.
+
+1. The row resolves to an existing declaration member, and the planned value meets its ValueKind, designation, cardinality, and condition rules.
+2. No reusable member is needed, so the choice stays ordinary A.15.2 plan content.
+3. Typed reuse is needed but the member, its meaning, its actual-use rule, or the pattern that defines them is missing; return `missing-governor` for that planned use.
+4. Required planning information is missing or unresolved; name what must be recovered (§12b).
+
+Do not invent a SlotSpec, wrapper declaration, generic field, or actual-use relation here.
 
 **What goes wrong if missed.** A plan silently turns method prose or a schema field into a slot, treats type compatibility as planned or actual participation, treats omission or an empty filler as a prohibition, or later edits the baseline to match what happened.
 
 **What this buys.** The team can later say what it intended, what actually happened, and whether the two differ, while the declaration, plan, work, and actual participation remain separate objects.
 
-**Not this pattern when.** Use the exact declaration predicate and ClaimGraph located through `A.6.5`, `A.6.1`, or another declared-member source when defining the member; use A.15.2 for ordinary intended work without a planned filling; use A.15.1 for dated work; and use the exact applicable predicates for actual relation participation, operation bindings, methods, evidence, assurance, gates, acceptance, results, publication, or representation.
+**Not this pattern when.** Use the declaration predicate and ClaimGraph located through `A.6.5`, `A.6.1`, or another declared-member source when defining the member; use A.15.2 for ordinary intended work without a planned filling; use A.15.1 for dated work; and use the applicable predicates for actual relation participation, operation bindings, methods, evidence, assurance, gates, acceptance, results, publication, or representation.
 

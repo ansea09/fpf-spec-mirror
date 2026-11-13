@@ -6,12 +6,12 @@ section_id: "A.3.1.MV:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MV/A.3.1.MV__011_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.3.1.MV — Construct and Maintain a Method Variant"
   - "A.3.1.MV:9 — Consequences"
-line_start: 11173
-line_end: 11178
+line_start: 11574
+line_end: 11579
 dependencies:
   - "A.3.1"
   - "A.3.1.MI"

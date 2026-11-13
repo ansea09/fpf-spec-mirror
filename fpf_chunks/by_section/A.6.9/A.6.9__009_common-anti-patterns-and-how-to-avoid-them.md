@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.9"
-pattern_title: "Cross-Context Sameness Disambiguation - Restoring the concrete claim behind \"same\", \"equivalent\", and \"align\" (RPR-XCTX)"
+pattern_title: "Cross-Context Sameness Disambiguation - Restoring the claim behind \"same\", \"equivalent\", and \"align\" (RPR-XCTX)"
 section_id: "A.6.9:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.9/A.6.9__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.6.9 — Cross-Context Sameness Disambiguation - Restoring the concrete claim behind \"same\", \"equivalent\", and \"align\" (RPR-XCTX)"
+  - "A.6.9 — Cross-Context Sameness Disambiguation - Restoring the claim behind \"same\", \"equivalent\", and \"align\" (RPR-XCTX)"
   - "A.6.9:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 24797
-line_end: 24815
+line_start: 25718
+line_end: 25736
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -64,13 +64,13 @@ keywords:
 | `AP-XCTX-3` | Profile as use licence | Direction, rule, or tolerated loss is embedded in profile identity. | Move it to the separate C.2.1 bounded-use claim. |
 | `AP-XCTX-4` | Bridge-alone substitution | An obtaining Bridge is cited as sufficient for a use. | Require the affirmative bounded-use claim and current A.10 or B.3 reliance. |
 | `AP-XCTX-5` | Mapping artifact treated as sufficient proof | A lookup, score or successful ETL run is treated as proving the semantic relation or proposed use without the applicable rule. | Assess its content and grounds; test the Bridge predicate and bounded-use claim separately. |
-| `AP-XCTX-6` | String or id becomes endpoint | A word, file, id, or system fills a SenseCell slot. | Resolve the exact F.17 cell; apply the actual identifier rule to id claims, using A.6.6 only when the relation or participants remain hidden. |
+| `AP-XCTX-6` | String or id becomes endpoint | A word, file, id, or system fills a SenseCell slot. | Resolve the F.17 cell; apply the identifier rule to id claims, using A.6.6 only when the relation or participants remain hidden. |
 | `AP-XCTX-7` | Symmetry grants two use directions | One symmetric occurrence is read as two licences. | State each direction in its own use claim. |
 | `AP-XCTX-8` | Loss note becomes tolerance | An observed difference is assumed acceptable. | Keep it in evidence and name accepted loss as `t`. |
 | `AP-XCTX-9` | Confidence laundering | Higher `CL` or reviewer approval grants a use. | Treat `CL` as evidence shorthand and recover claim polarity plus reliance. |
-| `AP-XCTX-10` | Suitability becomes permission | An affirmative semantic claim is read as authorization. | Apply A.2.8.PER and cite the needed grant, non-prohibition, exercise, or conflict result; if it is absent or unresolved, state that exact result. |
-| `AP-XCTX-11` | Named use becomes occurrence | “Publication use” is treated as a publication. | Recover the exact publication occurrence under E.24.PUB, or recover another receiving object and cite the pattern that defines it. |
+| `AP-XCTX-10` | Suitability becomes permission | An affirmative semantic claim is read as authorization. | Apply A.2.8.PER and cite the needed grant, non-prohibition, exercise, or conflict result; if it is absent or unresolved, state that result. |
+| `AP-XCTX-11` | Named use becomes occurrence | “Publication use” is treated as a publication. | Recover the publication occurrence under E.24.PUB, or recover another receiving object and cite the pattern that defines it. |
 | `AP-XCTX-12` | Chain upgrade | A-to-B and B-to-C become direct A-to-C equivalence. | Test a direct A-to-C Bridge and composite use independently. |
-| `AP-XCTX-13` | Timeless or facetless claim | Edition or compared facet stays hidden. | State applicability and make the exact endpoint readings and compared facet explicit; change a reading only when its intended meaning changes. |
+| `AP-XCTX-13` | Timeless or facetless claim | Edition or compared facet stays hidden. | State applicability and make the endpoint readings and compared facet explicit; change a reading only when its intended meaning changes. |
 | `AP-XCTX-14` | Kernel promotion | A strong Bridge is used to admit one global U-kind. | Apply E.24.UK and A.11 independently. |
 

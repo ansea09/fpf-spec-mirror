@@ -6,12 +6,12 @@ section_id: "C.3.3:7"
 section_title: "Interactions (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.3/C.3.3__008_interactions-informative.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.3.3 — KindBridge and CL^k — Correspondence between Distinct Kinds"
   - "C.3.3:7 — Interactions (informative)"
-line_start: 55732
-line_end: 55755
+line_start: 58026
+line_end: 58049
 dependencies:
   - "A.2.6"
   - "A.6.REL"
@@ -37,11 +37,11 @@ Open only the channels the receiving claim consumes. Keep their definedness, los
 
 #### C.3.3:7.2 - With Receiving Classification
 
-After same-kind reuse or an obtaining bridge, use the receiving `KindSignature` edition. Check candidate and slice admissibility. If admissible, evaluate the exact receiving judgment. If a mapping motivates another signature, author that declaration episteme separately. A source judgment can support a claim but never supplies receiving truth.
+After same-kind reuse or an obtaining bridge, use the receiving `KindSignature` edition. Check candidate and slice admissibility. If admissible, evaluate the receiving judgment. If a mapping motivates another signature, author that declaration episteme separately. A source judgment can support a claim but never supplies receiving truth.
 
 #### C.3.3:7.3 - With Kind-use Adaptations
 
-For same-kind reuse, select the receiving C.3.4 declaration without a bridge; evaluate the receiving candidate afresh when that use is candidate-bearing. For distinct-kind use, recover the obtaining `KindBridge`, bridge assertion, receiving adaptation declaration, and any exact adaptation-correspondence declaration needed for differing constraints or bindings. Source adaptation results are not receiving truth.
+For same-kind reuse, select the receiving C.3.4 declaration without a bridge; evaluate the receiving candidate afresh when that use is candidate-bearing. For distinct-kind use, recover the obtaining `KindBridge`, bridge assertion, receiving adaptation declaration, and any adaptation-correspondence declaration needed for differing constraints or bindings. Source adaptation results are not receiving truth.
 
 #### C.3.3:7.4 - With Guards
 

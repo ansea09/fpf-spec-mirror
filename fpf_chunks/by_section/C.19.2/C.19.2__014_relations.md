@@ -6,12 +6,12 @@ section_id: "C.19.2:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.2/C.19.2__014_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.19.2 — Use-Bounded Apparatus Application"
   - "C.19.2:12 — Relations"
-line_start: 62200
-line_end: 62206
+line_start: 64692
+line_end: 64698
 dependencies:
   - "A.15.1"
   - "A.15.2"
@@ -37,7 +37,7 @@ keywords:
 ### C.19.2:12 - Relations
 
 - **Coordinates with:** `C.39` for a missing explanation of how to obtain the result; `C.40` for feasible variation and examination; `C.18` for the generation account and archive/front stewardship; `C.19` for explore/exploit policy over still-live candidate pools; `C.19.1` for scale-amenable bearer preference; `C.22.1` for adaptation signatures; `E.23` for repeated improvement; and `C.31.ASAP` for architecture-scale preference.
-- **Uses conditionally:** `C.11` only when an actual local-choice question over a live eligible set exists. It consumes, but does not extend, the four `ChoiceResult` dispositions.
-- **Hands off enactment to:** `A.15.2` for work plans, `A.15.1` for dated work, and `C.24` only for tool-call enactment planning. The direct domain pattern contains the defining content for the practical result.
-- **Description-level specialization:** `A.7.1` narrows the method claims stated here for consequence-guided ontology analysis. It retains the declared use, problem-facing result, claimed guarantee, horizon, useful threshold, separation among plan, Work, and result, stop, and reopen. It retains the candidate and choice branch only when that branch is actually triggered. This wording adds no relation occurrence between the described Methods and asserts neither `U.SubkindOf` nor a world relation.
+- **Uses conditionally:** `C.11` only when a local-choice question over a live eligible set exists. It consumes, but does not extend, the four `ChoiceResult` dispositions.
+- **Hands off enactment to:** `A.15.2` for work plans, `A.15.1` for dated work, and `C.24` only for tool-call enactment planning. The domain pattern contains the defining content for the practical result.
+- **Description-level specialization:** `A.7.1` narrows the method claims stated here for consequence-guided ontology analysis. It retains the declared use, problem-facing result, claimed guarantee, horizon, useful threshold, separation among plan, Work, and result, stop, and reopen. It retains the candidate and choice branch only when that branch is triggered. This wording adds no relation occurrence between the described Methods and asserts neither `U.SubkindOf` nor a world relation.
 

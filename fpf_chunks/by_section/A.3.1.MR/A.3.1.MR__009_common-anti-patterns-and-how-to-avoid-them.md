@@ -6,12 +6,12 @@ section_id: "A.3.1.MR:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MR/A.3.1.MR__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.3.1.MR — Candidate-Method Recovery from Work Evidence"
   - "A.3.1.MR:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 9988
-line_end: 9999
+line_start: 10385
+line_end: 10396
 dependencies:
   - "A.10"
   - "A.13"
@@ -32,7 +32,7 @@ keywords:
 | Anti-pattern | Repair |
 | --- | --- |
 | “The common sequence is the Method.” | Recover applicability, participant meanings, intended result, variation, limits, rivals, and missing contributions first. |
-| “The mined model is the MethodDescription.” | Keep the model as an episteme with its actual subject and claims. Apply `A.3.2` only when that same episteme concerns an admitted Method and makes a substantive claim about it as a way of doing. |
+| “The mined model is the MethodDescription.” | Keep the model as an episteme with its subject and claims. Apply `A.3.2` only when that same episteme concerns an admitted Method and makes a substantive claim about it as a way of doing. |
 | “Several candidates form one concern.” | Return one account per candidate; create a separate comparison subject only for a named use. |
 | “One expert performance proves the reusable way.” | Use it to open a hypothesis; seek several grounded occurrences or lower the result. |
 | “The log is raw fact.” | Name preparation Method, configuration, source, dated Work, correlation, encoding, window, and resulting event-log episteme. |

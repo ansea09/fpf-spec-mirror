@@ -6,12 +6,12 @@ section_id: "A.2.4:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.4/A.2.4__010_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.2.4 — Episteme Evidence-Use and Status-Use Relations"
   - "A.2.4:9 — Consequences"
-line_start: 6283
-line_end: 6290
+line_start: 6562
+line_end: 6569
 dependencies:
   - "A.10"
   - "A.2"
@@ -20,13 +20,7 @@ dependencies:
   - "A.6.RSIR"
   - "B.3"
   - "C.2.1"
-  - "C.28"
-  - "E.10.D2"
   - "E.10.ROLE"
-  - "E.17"
-  - "F.10"
-  - "G.11"
-  - "G.6"
   - "U.SystemRoleAssignment"
 keywords:
   - "claim"
@@ -45,5 +39,5 @@ Admitted systems may be classified under exact local system-role kinds and may h
 
 The cost is explicit relation recovery. A phrase such as "evidence role", "status role", "standard role", "proof role", or "benchmark role" no longer closes the claim. The user needs to recover which episteme, claim, scope, status, time window, provenance constraint, and direct pattern are current.
 
-The payoff is that one episteme can be reused honestly across many claims. Each use can have a different target claim, grounding holon, scope, polarity, relevance window, assurance use, weight model, or provenance constraint without multiplying system-role kinds.
+The payoff is that one episteme can be reused across many claims. Each use can have a different target claim, grounding holon, scope, polarity, relevance window, assurance use, weight model, or provenance constraint without multiplying system-role kinds.
 

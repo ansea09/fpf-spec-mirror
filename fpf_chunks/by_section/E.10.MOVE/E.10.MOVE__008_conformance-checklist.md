@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.10.MOVE"
-pattern_title: "Move, Readiness and Trajectory Wording Precision Restoration"
+pattern_title: "Clarify Wording About Moves, Readiness and Trajectories"
 section_id: "E.10.MOVE:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.MOVE/E.10.MOVE__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "E.10.MOVE — Move, Readiness and Trajectory Wording Precision Restoration"
+  - "E.10.MOVE — Clarify Wording About Moves, Readiness and Trajectories"
   - "E.10.MOVE:7 — Conformance Checklist"
-line_start: 101467
-line_end: 101483
+line_start: 107171
+line_end: 107194
 dependencies:
   - "A.1.STM"
   - "A.10"
@@ -66,5 +66,12 @@ keywords:
 
 #### E.10.MOVE:7.1 - Lowering and Reopen Conditions
 
-Lower, block, or reopen the repair when the governed text span, claim being made, or object under wording repair is not recoverable, the wording-use disposition is uncertain, the proposed wording changes kind or relation without an accepted subject pattern, the subject pattern is missing, a change-situation claim was not separated from pattern-use or readiness wording, the repaired wording loses the remaining reader use, or changed source wording invalidates the recorded source-licensed use.
+Lower, block, or reopen the repair under any of these conditions.
+
+- The governed text span, claim being made, or object under wording repair is not recoverable.
+- The wording-use disposition is uncertain.
+- The proposed wording changes kind or relation without an accepted subject pattern, or the subject pattern is missing.
+- A change-situation claim was not separated from pattern-use or readiness wording.
+- The repaired wording loses the remaining reader use.
+- Changed source wording invalidates the recorded source-licensed use.
 

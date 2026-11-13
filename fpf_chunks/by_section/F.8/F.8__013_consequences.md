@@ -6,12 +6,12 @@ section_id: "F.8:10"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__013_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision for a Name"
   - "F.8:10 — Consequences"
-line_start: 121098
-line_end: 121125
+line_start: 128768
+line_end: 128795
 dependencies:
   - "A.11"
   - "A.15"
@@ -77,7 +77,7 @@ Costs:
 - durable or public use may require its own NameCard, Bridge, row, reliance, decision result, or publication object; and
 - a proposed U-kind receives no F.8 name before E.24.UK settles admission.
 
-**Refresh by meaning, not by neighbour edition.**
+**When to revisit a naming rule.**
 
 - If F.14, F.5, F.17, or F.18 changes the lightest-sufficient naming ladder, row-entry threshold, `AdmissibleUse`, or escalation to a stronger naming object, revisit §§0 and 4.1–4.4, case 7.2, checks 03–09, and the compact corpus entry.
 - If A.2, C.3, F.4, A.2.1, A.13, A.15.1, or F.6 changes how a local system-role kind is recovered, how `L`, `K`, `D`, and `A` relate, how an exact actual performer and Work are admitted, or when precise assignment-bound attribution enters, revisit the corresponding target rows, step 7, §4.3, cases 7.1, 7.3, and 7.6, invariant 4, and checks 06–08.

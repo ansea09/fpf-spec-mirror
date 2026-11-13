@@ -6,12 +6,12 @@ section_id: "F.3:6"
 section_title: "Solution — how to think about clustering"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.3/F.3__007_solution-how-to-think-about-clustering.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.3 — Source-Local Sense Clustering"
   - "F.3:6 — Solution — how to think about clustering"
-line_start: 119313
-line_end: 119344
+line_start: 126912
+line_end: 126943
 dependencies:
   - "A.11"
   - "A.7"
@@ -34,7 +34,7 @@ keywords:
 
 ### F.3:6 - Solution — how to think about clustering
 
-#### F.3:6.1 - Consolidate source-blessed aliases
+#### F.3:6.1 - Consolidate aliases supported by source usage
 
 If spelling variants, abbreviations, or explicit synonyms are interchangeable in the relevant passages and do not change a conclusion, let one LocalSenseClaim cover them.
 
@@ -44,7 +44,7 @@ If spelling variants, abbreviations, or explicit synonyms are interchangeable in
 
 Split when the same head takes materially different participants or occupies a different place in the source’s propositions.
 
-*Example:* a BPMN *event* as a diagram node is not an outage occurrence merely because a tutorial uses the same word narratively.
+*Example:* in a BPMN diagram, *event* names a node. In a tutorial’s account of an outage, the same word can name an occurrence.
 
 #### F.3:6.3 - Split divergent entailments
 
@@ -54,7 +54,7 @@ If one use entails occurrence in time and another entails a design structure or 
 
 #### F.3:6.4 - Prefer the coarsest adequate partition
 
-Merge candidates when the recovered source uses establish that they are interchangeable for the receiving question and preserve every relevant conclusion. A failed attempt to find a distinction is insufficient when the source basis is too weak to decide. Keep that uncertainty explicit. Split when a concrete counterexample would otherwise be admitted; do not split merely to fill a taxonomy.
+Merge candidates when the recovered source uses establish that they are interchangeable for the receiving question and preserve every relevant conclusion. A failed attempt to find a distinction is insufficient when the source basis is too weak to decide. State which comparison remains unresolved. Split when a concrete counterexample would otherwise be admitted; do not split merely to fill a taxonomy.
 
 #### F.3:6.5 - Keep labels honest
 

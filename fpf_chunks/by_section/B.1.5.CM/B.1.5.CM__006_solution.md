@@ -6,12 +6,12 @@ section_id: "B.1.5.CM:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5.CM/B.1.5.CM__006_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.1.5.CM — Construct and Qualify a Composite Method"
   - "B.1.5.CM:4 — Solution"
-line_start: 42957
-line_end: 42988
+line_start: 44671
+line_end: 44702
 dependencies:
   - "A.3.1"
   - "B.1.5"
@@ -23,7 +23,7 @@ keywords:
 
 ### B.1.5.CM:4 - Solution
 
-B.1.5 supplies the exact composition test. This construction supplies the candidate whole, constituent contributions, interfaces and grounds to which that test applies; it can also return a useful relation account below the whole-Method threshold. Use an already complete B.1.5 result directly rather than reconstructing it.
+B.1.5 supplies the composition test. This construction supplies the candidate whole, constituent contributions, interfaces and grounds to which that test applies; it can also return a useful relation account below the whole-Method threshold. Use an already complete B.1.5 result directly rather than reconstructing it.
 
 Recover the proposed whole's semantics, test whole and participant identity separately from relation truth, and return the branch supported by that evidence.
 
@@ -44,7 +44,7 @@ Recover the proposed whole's semantics, test whole and participant identity sepa
 | --- | --- |
 | use and whole semantics | Intended result or preserved condition and receiving use; the whole semantics needed for the returned claim, including operations or invariant, applicability, participants and any relevant variation, bounds or reidentification conditions. A prospective or partial result keeps missing identity or relation grounds explicit. |
 | participant account | Each subject, kind or status, identity basis or open condition, and proposed contribution. |
-| relation sets | Each load-bearing direct relation, its participants, truth status, grounds and any guard required for its receiving use. |
+| relation sets | Each load-bearing relation, its participants, truth status, grounds and any guard required for its receiving use. |
 | branch verdict | Obtaining composition result, prospective candidate account, or lower return with decisive reason. |
 | prospective content | The guards, adapters, alternatives, recovery, stops, burdens, variation points and unresolved conditions that change the intended contribution or receiving use. |
 | continuation, when selected | Later Work and observations, any required authority, acceptance/failure and reconsideration condition; a realization/test WorkPlan where its coordination needs one. |

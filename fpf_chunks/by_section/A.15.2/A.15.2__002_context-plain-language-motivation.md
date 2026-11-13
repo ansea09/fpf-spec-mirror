@@ -6,12 +6,12 @@ section_id: "A.15.2:1"
 section_title: "Context (plain‑language motivation)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__002_context-plain-language-motivation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.15.2 — U.WorkPlan: Plan Content for Coordinating Future Work"
   - "A.15.2:1 — Context (plain‑language motivation)"
-line_start: 29786
-line_end: 29799
+line_start: 30864
+line_end: 30877
 dependencies:
   - "A.10"
   - "A.15"
@@ -58,7 +58,7 @@ keywords:
 
 ### A.15.2:1 - Context (plain‑language motivation)
 
-**Before and during Work.** Before Work begins, keep intended-work content in this WorkPlan. Use `A.15.5` when the question is whether that Work is ready to start, and use `C.11` only when a known chooser must compare an already formed `OptionSet`. Do not invent current Work for `A.15.7`. During Work, an `A.15.7` answer remains separate from the plan. Revise the WorkPlan only when the intended-work content actually changes, and identify any later performed action under `A.15.1` rather than back-filling the plan.
+**Before and during Work.** Before Work begins, keep intended-work content in this WorkPlan. Use `A.15.5` when the question is whether that Work is ready to start, and use `C.11` only when a known chooser must compare an already formed `OptionSet`. Do not invent current Work for `A.15.7`. During Work, an `A.15.7` answer remains separate from the plan. Revise the WorkPlan only when the intended-work content changes, and identify any later performed action under `A.15.1` rather than back-filling the plan.
 
 
 Intended operations are coordinated in **time**. A system uses a WorkPlan to decide when and by whom possible future work is intended, under what **constraints** and **budgets**. Distinguish this scheduling content from:

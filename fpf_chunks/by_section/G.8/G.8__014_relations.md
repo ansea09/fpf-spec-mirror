@@ -6,12 +6,12 @@ section_id: "G.8:13"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.8/G.8__014_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.8 — Package Method-Family Admissibility Rules and Maturity Ladders (SoS-LOG)"
   - "G.8:13 — Relations"
-line_start: 131091
-line_end: 131097
+line_start: 139159
+line_end: 139165
 dependencies:
   - "A.10"
   - "A.21"
@@ -38,7 +38,7 @@ keywords:
   - "SoS-LOG"
   - "admissibility ledger"
   - "rule ids"
-  - "tri-state {pass"
+  - "tri-state {pass\\"
 ---
 
 ### G.8:13 - Relations

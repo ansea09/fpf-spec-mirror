@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.10.LRN"
-pattern_title: "Recovering What “Learning” Means in the Current Claim"
+pattern_title: "Recover What “Learning” Means in This Claim"
 section_id: "E.10.LRN:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.LRN/E.10.LRN__004_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "E.10.LRN — Recovering What “Learning” Means in the Current Claim"
+  - "E.10.LRN — Recover What “Learning” Means in This Claim"
   - "E.10.LRN:2 — Problem"
-line_start: 100648
-line_end: 100653
+line_start: 106290
+line_end: 106295
 dependencies:
   - "A.10"
   - "A.15"
@@ -47,7 +47,7 @@ keywords:
 
 ### E.10.LRN:2 - Problem
 
-When the umbrella word remains load-bearing, authors silently transfer evidence and conclusions across subjects. A lesson becomes a capability; an artifact becomes proof of authorship or transfer; benchmark improvement becomes generalization; information gain becomes competence gain; model fitting becomes inference; an organizational slogan becomes changed practice; and a repeated pattern becomes a universal atom of knowledge.
+When the umbrella word remains load-bearing, authors transfer evidence and conclusions from one subject to another without naming the change. A lesson is mistaken for a capability, an artifact for proof of authorship or transfer, and a benchmark improvement for generalization. Information gain is mistaken for competence gain, and model fitting for inference. An organizational slogan stands in for changed practice, and a repeated pattern for a universal atom of knowledge.
 
-The repair must preserve familiar language while preventing those transfers. The direct subject patterns define capabilities, Work, Methods, epistemes, evidence, models, representations, cultures, and decisions; this pattern recovers the claim to which they apply.
+The repair must preserve familiar language while preventing those transfers. The direct subject patterns define capabilities, Work, Methods, epistemes, evidence, models, representations, cultures, and decisions. This pattern recovers the claim to which they apply.
 

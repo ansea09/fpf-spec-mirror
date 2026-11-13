@@ -3,15 +3,15 @@ chunk_kind: "child"
 pattern_id: "E.10"
 pattern_title: "Unified Lexical Rules for FPF"
 section_id: "E.10:12"
-section_title: "Archetypal grounding: three concise examples (informative)"
+section_title: "Archetypal grounding: three examples (informative)"
 source_path: "FPF-Spec.md"
-output_path: "by_section/E.10/E.10__014_archetypal-grounding-three-concise-examples-informative.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+output_path: "by_section/E.10/E.10__014_archetypal-grounding-three-examples-informative.md"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
-  - "E.10:12 — Archetypal grounding: three concise examples (informative)"
-line_start: 100445
-line_end: 100482
+  - "E.10:12 — Archetypal grounding: three examples (informative)"
+line_start: 106081
+line_end: 106124
 dependencies:
   - "A.10"
   - "A.15"
@@ -58,7 +58,7 @@ dependencies:
 keywords:
 ---
 
-### E.10:12 - Archetypal grounding: three concise examples *(informative)*
+### E.10:12 - Archetypal grounding: three examples *(informative)*
 
 These examples show the repaired claim first. Open the exact Work, attribution, publication, or naming apparatus only where the receiving use needs it.
 
@@ -68,9 +68,13 @@ These examples show the repaired claim first. Open the exact Work, attribution, 
 
 **Repair, taking `service` here to mean the ward team:** “Schedule `Incision_221` in `OR_Case_221_WorkPlan` for 08:00, using `IncisionMethod`. `SOP_OR_v4` states the incision-readiness constraint. `QAApprovalSystem` performs the approval; record its speech-act content. Separately recover the applicable A.21 profile and required check results. Its `GateDecisionResult` states whether and under which conditions the planned run may proceed. The ward team records `Patient_221`'s recovery in `RecoveryRecord_221`.”
 
-**Formal plan membership.** `OR_Case_221_WorkPlan` is used as `U.WorkPlan` only after A.15.2 membership is established: its already identified present EntityOfConcern is `Patient_221`, its horizon is the bounded surgical-planning interval, and `Incision_221`, a `PlanItem` substantively coordinates the intended surgeon classification and assignment conditions, operating-room resource reservation, planned start of 08:00, `IncisionMethod`, the `U.Method`, and the incision-readiness target. It cites `IncisionMethodDescription`, a separately identified claim-bearing episteme. That episteme is `U.MethodDescription` only because the method is its exact EntityOfConcern and its claims substantively describe how the method is carried out. Any edition identity needed by the plan is selected through a separate `U.EpistemeRef` whose subject pattern supplies its rule; carrier version remains separate.
+**Formal plan membership.** `OR_Case_221_WorkPlan` is used as `U.WorkPlan` only after A.15.2 membership is established: its already identified present EntityOfConcern is `Patient_221`, its horizon is the bounded surgical-planning interval, and its `PlanItem`, `Incision_221`, substantively coordinates the intended surgeon classification and assignment conditions, operating-room resource reservation, planned start of 08:00, the `U.Method` `IncisionMethod`, and the incision-readiness target.
 
-**Actual approval Work.** For `ApprovalSpeechActWork-221`, recover `QAApprovalSystem` as exact actual performer through A.13 and let A.15.1 independently admit the dated Work. Add F.6 only when this account or its receiving use expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment; F.6 identifies neither assignment nor performer. A missing or failed attribution alone leaves independently admitted Work intact; recheck any A.13 or A.15.1 premise invalidated by the same finding under A.15.1:4.1. Add `ApproverSystemRole` only when that classification matters.
+The WorkPlan cites `IncisionMethodDescription`, a separately identified claim-bearing episteme. That episteme is `U.MethodDescription` only because the method is its EntityOfConcern and its claims substantively describe how the method is carried out.
+
+Any edition identity needed by the plan is selected through a separate `U.EpistemeRef` whose subject pattern supplies its rule; carrier version remains separate.
+
+**Actual approval Work.** For `ApprovalSpeechActWork-221`, recover `QAApprovalSystem` as the actual performer through A.13 and let A.15.1 independently admit the dated Work. Add F.6 only when this account or its receiving use expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment; F.6 identifies neither assignment nor performer. A missing or failed attribution alone leaves independently admitted Work intact; recheck any A.13 or A.15.1 premise invalidated by the same finding under A.15.1:4.1. Add `ApproverSystemRole` only when that classification matters.
 
 **Separate source claims.** If the source also specifies a monitoring promise or an access method, recover those additional claims separately: `PostOpMonitoringPromiseContent` states the promised monitoring and its vitals acceptance envelope. `WardAccessMethod : U.Method` names the exact access method; `WardProtocol` is `U.MethodDescription` only if it is a separately identified claim-bearing episteme about that method and passes A.3.2, while its publication form and carrier remain separate. These are additional claims, not replacements for recording recovery.
 
@@ -80,9 +84,11 @@ These examples show the repaired claim first. Open the exact Work, attribution, 
 
 **Repair:** “`Robot_SN789` can execute `Weld_MIG_v3` within envelope E at measures M. The run `WeldWork-SN789-4711` lasts three minutes and changes the workpiece joint. Use the recorded measurements to check the duration and the seam's air-tightness acceptance criterion.”
 
-For one run, recover `Robot_SN789` as exact actual performer through A.13 and let A.15.1 independently admit `WeldWork-SN789-4711` from its performer, time, Method, and containing-System facts. Add F.6 only when this account or its receiving use expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment; F.6 identifies neither assignment nor performer. A missing or failed attribution alone leaves independently admitted Work intact; recheck any A.13 or A.15.1 premise invalidated by the same finding under A.15.1:4.1. Add `WelderSystemRole` only when that classification matters. Each bounded change of the workpiece joint is identified under A.3.4 before stating a work-to-change fact. If the Work first constitutes a distinct seam entity, `A.15.PROD` supplies its identity specification and inception boundary. Measurement-result epistemes remain separate evidence for acceptance and duration claims.
+For one run, recover `Robot_SN789` as the actual performer through A.13 and let A.15.1 independently admit `WeldWork-SN789-4711` from its performer, time, Method, and containing-System facts. Add F.6 only when this account or its receiving use expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment; F.6 identifies neither assignment nor performer. A missing or failed attribution alone leaves independently admitted Work intact; recheck any A.13 or A.15.1 premise invalidated by the same finding under A.15.1:4.1. Add `WelderSystemRole` only when that classification matters.
 
-Treat source string `WeldingCellContext` as a quoted recovery cue. If it changes the claim, recover the exact source edition, plant practice, effective scheme, scope, or working situation that it denotes. Recover the actual participant meanings and values from that assignment's declared A.2.1 species, together with its uninterrupted obtaining interval.
+Each bounded change of the workpiece joint is identified under A.3.4 before stating a work-to-change fact. If the Work first constitutes a distinct seam entity, `A.15.PROD` supplies its identity specification and inception boundary. Measurement-result epistemes remain separate evidence for acceptance and duration claims.
+
+Treat source string `WeldingCellContext` as a quoted recovery cue. If it changes the claim, recover the exact source edition, plant practice, effective scheme, scope, or working situation that it denotes. When an assignment is being recovered, identify its participant meanings and values from its declared A.2.1 species and recover its uninterrupted obtaining interval.
 
 #### E.10:12.3 - Cloud and SRE
 

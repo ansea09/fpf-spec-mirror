@@ -6,12 +6,12 @@ section_id: "E.4.PFR:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFR/E.4.PFR__011_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.4.PFR — Pattern-Framework Relation and Edition Discipline"
   - "E.4.PFR:9 — Rationale"
-line_start: 96046
-line_end: 96053
+line_start: 101192
+line_end: 101199
 dependencies:
   - "A.10"
   - "A.6.0"
@@ -48,9 +48,9 @@ keywords:
 
 ### E.4.PFR:9 - Rationale
 
-Descriptions of FPF pattern ecosystems state predicates, constraints, dependencies, publication and access arrangements, quality relations, and source uses; the patterns themselves do not act on one another. A sequence of pattern descriptions may describe a method or constrain a separately admitted transformation-flow structure, but displayed order alone performs no Work and admits no Transformation or flow.
+Descriptions of FPF pattern ecosystems state predicates, constraints, dependencies, publication and access arrangements, quality relations, and source uses. The patterns do not act on one another. A sequence of pattern descriptions may describe a method or constrain a separately admitted transformation-flow structure, but displayed order alone performs no Work and admits no Transformation or flow.
 
-The assertion-first rule follows C.2.1 identity and A.22.CGUS declarativity. It avoids building a second ontology of pattern ownership while retaining exact relations already supplied by the Core. The PFR row is a projection for its named maintenance use; the subject assertion and defining or constraining ClaimGraph supply its semantics.
+The assertion-first rule follows C.2.1 identity and A.22.CGUS declarativity. It avoids building a second ontology of pattern ownership while retaining exact relations already supplied by the Core. The PFR row is a projection for its named maintenance use. The subject assertion and defining or constraining ClaimGraph supply its semantics.
 
 The three-lane split also controls cost. Use Lane 1 whenever it closes the task. Lane 2 adds standardized form only for a consumer. Lane 3 separates actual-use truth from optional basis analysis and keeps its output non-permissive.
 

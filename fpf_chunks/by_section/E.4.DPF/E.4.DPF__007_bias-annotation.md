@@ -6,12 +6,12 @@ section_id: "E.4.DPF:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__007_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.4.DPF — Domain and Local Principle Frameworks: Whether and How to Author and Publish"
   - "E.4.DPF:6 — Bias-Annotation"
-line_start: 95188
-line_end: 95203
+line_start: 100165
+line_end: 100180
 dependencies:
   - "A.1.1"
   - "A.13"
@@ -55,9 +55,6 @@ dependencies:
   - "G.11"
   - "G.2"
 keywords:
-  - "and boundary into additional mini-method columns. Pattern bodies remain the main language of use"
-  - "do not copy first move"
-  - "result"
 ---
 
 ### E.4.DPF:6 - Bias-Annotation

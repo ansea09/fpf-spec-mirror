@@ -6,12 +6,12 @@ section_id: "C.37:11"
 section_title: "SoTA-Echoing  (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37/C.37__012_sota-echoing-informative.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.37 — Select and Use Representations for One Action"
   - "C.37:11 — SoTA-Echoing  (informative)"
-line_start: 81967
-line_end: 81976
+line_start: 85968
+line_end: 85977
 dependencies:
   - "A.10"
   - "A.2.4"
@@ -41,8 +41,8 @@ keywords:
 | Source line and status | Adopted move | Rejected overread |
 | --- | --- | --- |
 | Dutilh Novaes, *Formal Languages in Logic* (2012), and Krämer, “Why notational iconicity is a form of operational iconicity” (2017), conceptual and diagrammatic-reasoning lineage already used by C.2.1 | Representation and notation can change what users can inspect, compare, calculate, or infer; each row therefore states exposure, loss, and bounded use. | Reasoning affordance does not identify the represented subject, make a direct relation obtain, or authorize the receiving action. |
-| [W3C PROV-O Recommendation](https://www.w3.org/TR/prov-o/), 2013, stable provenance lineage used by A.10 and C.2.1 | Preserve exact source, entity, activity, and derivation distinctions when they are material to bounded reliance. | Provenance alone is not truth, currentness, permission, assurance, decision, or evidence of actual use. |
+| [W3C PROV-O Recommendation](https://www.w3.org/TR/prov-o/), 2013, stable provenance lineage used by A.10 and C.2.1 | Preserve source, entity, activity, and derivation distinctions when they are material to bounded reliance. | Provenance alone is not truth, currentness, permission, assurance, decision, or evidence of actual use. |
 | [Decision Theory, Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/archives/fall2023/entries/decision-theory/), stable baseline used by C.11 | Fix the chooser, option or action question, comparison basis, and explicit receiving result rather than ending with an informed-looking inventory. | C.37 does not replace C.11 or turn every representation-selection question into one universal decision calculus. |
 
-Reopen this source use when newer representation, provenance, view, or decision practice supplies a lower-effort way to keep the same direct-result and receiving-action boundaries, or when real interoperability requires a common standalone account kind that cannot preserve them through ordinary C.2.1 identity and direct references.
+Reopen this source use when newer representation, provenance, view, or decision practice supplies a lower-effort way to keep the same direct-result and receiving-action boundaries, or when interoperability requires a common standalone account kind that cannot preserve them through ordinary C.2.1 identity and direct references.
 

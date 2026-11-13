@@ -6,12 +6,12 @@ section_id: "C.41.SR:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.SR/C.41.SR__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.41.SR — Reconcile Checklist Results Across Shared Work"
   - "C.41.SR:3 — Forces"
-line_start: 89685
-line_end: 89694
+line_start: 93953
+line_end: 93962
 dependencies:
   - "A.10"
   - "B.1.5"
@@ -24,9 +24,9 @@ keywords:
 
 | Tension | Practical implication |
 | --- | --- |
-| Local usability and shared meaning | Keep local tools while connecting the claims actually consumed by others. |
+| Local usability and shared meaning | Keep local tools while connecting the claims consumed by others. |
 | Fast summary and adequate grounds | A shared status is useful only when its question and basis remain recoverable. |
 | Constituent success and encompassing result | Inspect the combination and any condition the parts cannot establish alone. |
 | Continuity and changed premises | Preserve history and unaffected results while reopening affected reliance. |
-| Coordination and administrative burden | Match the shared account to the real dependence; stop adding fields when conversation suffices. |
+| Coordination and administrative burden | Match the shared account to the dependence; stop adding fields when conversation suffices. |
 

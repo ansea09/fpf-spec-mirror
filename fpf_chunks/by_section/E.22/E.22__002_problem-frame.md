@@ -6,12 +6,12 @@ section_id: "E.22:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.22/E.22__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.22 — Improvement-Oriented Quality Evaluation Question Framing"
   - "E.22:1 — Problem frame"
-line_start: 114375
-line_end: 114389
+line_start: 121594
+line_end: 121608
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -36,10 +36,10 @@ First useful move: state what the recipient will use the answer for, identify th
 
 When those bindings are already settled and one direct evaluation is enough, run that evaluation. Rewriting its question as a separate frame adds no answer. Use `E.23` when repeated improvement across passes is needed.
 
-What goes wrong if missed: a reviewer can answer a different question, count closed findings without judging the changed object, or propose improvements that damage a quality the recipient needs.
+**What can go wrong.** A reviewer can answer a different question, count closed findings without judging the changed object, or propose improvements that damage a quality the recipient needs.
 
-What this buys in practice: requester and evaluator agree on the question before doing the evaluation. A small floor question can stay small; a request for alternatives can name the additional trade-offs and proposals it needs.
+**Practical gain.** Requester and evaluator agree on the question before doing the evaluation. A floor question can stay small. A request for alternatives can name the additional trade-offs and proposals it needs.
 
-The result of framing is the question about the selected object version. The evaluator must still obtain the quality result, and the recipient must still make any decision that uses it.
+Framing yields a question about the selected object version. The evaluator must obtain the quality result. The recipient must make any decision that uses it.
 
 

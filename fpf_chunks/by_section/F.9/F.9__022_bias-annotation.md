@@ -6,12 +6,12 @@ section_id: "F.9:20"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__022_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.9 — Relate Local Meanings across Contexts (Alignment and Bridge)"
   - "F.9:20 — Bias-Annotation"
-line_start: 121691
-line_end: 121699
+line_start: 129391
+line_end: 129399
 dependencies:
   - "A.10"
   - "A.13"
@@ -58,9 +58,9 @@ keywords:
 ### F.9:20 - Bias-Annotation
 
 
-* **Governance bias.** The pattern adds a separate use claim and reliance check. Mitigation: keep them in ordinary sentences when durable packaging has no payoff.
-* **Architecture bias.** Typed relation profiles can look heavier than synonym prose. Mitigation: the five-part script begins with the practical action and introduces exact terms only where they stop a real overread.
-* **Ontology and episteme bias.** F.9 resists global meaning claims and keeps claims separate from their subject. Mitigation: explicit Bridges still permit practical cross-context comparison.
-* **Pragmatic bias.** Conservative separation can feel slower than reusing a mapping table. Mitigation: a fixed Bridge can support many independently stated uses without being reidentified.
-* **Didactic bias.** An explanation using only internal nouns can obscure the action. Mitigation: every use starts by saying what a person will do, what rule they will follow, and what result would make them stop.
+* **Governance bias.** A separate use claim and reliance check add work. Keep them in ordinary sentences when durable packaging has no payoff.
+* **Architecture bias.** Typed relation profiles can look heavier than synonym prose. The five-part script begins with the practical action and introduces exact terms only where they stop a real overread.
+* **Ontology and episteme bias.** F.9 resists global meaning claims and keeps claims separate from their subject. Explicit Bridges permit practical cross-context comparison.
+* **Pragmatic bias.** Conservative separation can feel slower than reusing a mapping table. A fixed Bridge can support many independently stated uses without being reidentified.
+* **Didactic bias.** An explanation using only internal nouns can obscure the action. Every use starts by saying what a person will do, what rule they will follow, and what result would make them stop.
 

@@ -6,12 +6,12 @@ section_id: "G.8:6"
 section_title: "Archetypal Grounding (System / Episteme)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.8/G.8__007_archetypal-grounding-system-episteme.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.8 — Package Method-Family Admissibility Rules and Maturity Ladders (SoS-LOG)"
   - "G.8:6 — Archetypal Grounding (System / Episteme)"
-line_start: 130994
-line_end: 131004
+line_start: 139060
+line_end: 139072
 dependencies:
   - "A.10"
   - "A.21"
@@ -38,17 +38,19 @@ keywords:
   - "SoS-LOG"
   - "admissibility ledger"
   - "rule ids"
-  - "tri-state {pass"
+  - "tri-state {pass\\"
 ---
 
 ### G.8:6 - Archetypal Grounding (System / Episteme)
 
 **Show‑A — Tri‑state admissibility with set‑valued selection (multi‑criteria).**
-A CG‑Frame carries multiple offline/robust decision families (for example, conservative offline RL and transformer-based policy models). The bundle cites `SoSLogRuleId[]` (SoS‑LOG semantics in `C.23`) and cites `AcceptanceClauseId[]` for any floors (governed by `G.4`). The run‑time `AdmissibilityLedger` cites `PathSliceId` (when available) for each `pass/degrade/abstain`. `G.5` consumes the ledger and returns a **selected set** under the declared partial order—no scalar “winner”.
+A CG‑Frame carries multiple offline/robust decision families (for example, conservative offline RL and transformer-based policy models). The bundle cites `SoSLogRuleId[]` (SoS‑LOG semantics in `C.23`) and cites `AcceptanceClauseId[]` for any floors (governed by `G.4`). The run‑time `AdmissibilityLedger` cites `PathSliceId` (when available) for each `pass/degrade/abstain`. `G.5` uses the ledger to return a **selected set** under the declared partial order. A scalar winner would discard alternatives that order leaves unresolved.
 
 **Show-B — QD archive dispatch with edition-pinned descriptors.**
 A method family uses a QD archive, for example one driven by CMA-ES or a differentiable QD method. The bundle pins `DescriptorMapRef.edition` and `DistanceDefRef.edition`, plus insertion/emitter policies. Illumination metrics are logged as telemetry; any promotion into dominance is only via explicit CAL policy pins (recorded in the admissibility trace).
 
 **Show-C — Open-ended environment–method co-evolution.**
-A generator family operates in an open-ended setting (e.g., POET-style or PAIRED-style regimes). The bundle carries `TransferRulesRef.edition` and validity-region pins. If transfer validity is unknown, a declared narrower-use branch may return `degrade` after C.23’s prerequisites pass; without that permitted branch, the result is `abstain`. A missing evidence profile at R0 is reported as the missing prerequisite, with later Acceptance not reached, rather than filled with `false`. Retain an applicable maturity result when it was validly reused. Coverage/regret telemetry remains report-only unless its governing policy promotes it into dominance.
+A generator family operates in an open-ended setting (e.g., POET-style or PAIRED-style regimes). The bundle carries `TransferRulesRef.edition` and validity-region pins. If transfer validity is unknown, a declared narrower-use branch may return `degrade` after C.23’s prerequisites pass; without that permitted branch, the result is `abstain`.
+
+If the evidence profile is missing at R0, report that missing prerequisite. Record the later Acceptance judgement as not reached; assigning it `false` would invent a result. Retain an applicable maturity result when it was validly reused. Coverage/regret telemetry remains report-only unless its governing policy promotes it into dominance.
 

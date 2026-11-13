@@ -6,12 +6,12 @@ section_id: "E.22:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.22/E.22__010_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.22 — Improvement-Oriented Quality Evaluation Question Framing"
   - "E.22:9 — Consequences"
-line_start: 114721
-line_end: 114728
+line_start: 121984
+line_end: 121991
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -34,5 +34,5 @@ keywords:
 |---|---|---|
 | Review requests become typed. | Evaluators answer the intended quality question. | A complete request names the object and evaluation. |
 | Exceptional improvement becomes explicit. | Reviews can propose non-dominated improvements rather than stopping at floor defects. | Each proposal names its protected trade-offs. |
-| Absorption becomes quality-aware. | Follow-up says what improved or worsened. | Row discharge alone is not enough. |
+| Absorption becomes quality-aware. | The follow-up evaluation identifies what improved or worsened. | The evaluator must check the changed object. |
 

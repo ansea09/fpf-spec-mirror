@@ -6,12 +6,12 @@ section_id: "C.22.PFR:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.PFR/C.22.PFR__007_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.22.PFR — Problematic-For Relation"
   - "C.22.PFR:6 — Bias-Annotation"
-line_start: 63617
-line_end: 63624
+line_start: 66312
+line_end: 66319
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -30,7 +30,7 @@ keywords:
 
 ### C.22.PFR:6 - Bias-Annotation
 
-This pattern has an actuality bias: Plain **problem** names an obtaining dependent relation. The anticipated-condition guard preserves forecasts, scenarios, counterfactuals, hazards, and problem formulations as useful epistemes under their exact claim governors without backdating actuality.
+This pattern has an actuality bias: Plain **problem** names an obtaining dependent relation. Forecasts, scenarios, counterfactuals, hazards, and problem formulations remain useful epistemes under their claim governors without backdating actuality.
 
 It has a predicate-centered bias because adverse truth is load-bearing. The applicability relation prevents a criterion from becoming globally adverse by label; exact entity, scope, and interval stay explicit.
 

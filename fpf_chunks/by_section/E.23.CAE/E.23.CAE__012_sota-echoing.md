@@ -6,12 +6,12 @@ section_id: "E.23.CAE:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23.CAE/E.23.CAE__012_sota-echoing.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.23.CAE — Capability Access and Expression Differential Probe"
   - "E.23.CAE:11 — SoTA-Echoing"
-line_start: 115850
-line_end: 115866
+line_start: 123203
+line_end: 123221
 dependencies:
   - "A.15.7"
   - "A.15.8"
@@ -28,9 +28,11 @@ keywords:
 
 **Practice question.** When prior performance, failed transfer, or unstable expression leaves several live explanations, what is the smallest current defensible move that distinguishes an envelope or configuration failure, applicability or access failure, context-dependent expression, adaptation or enactment failure, and actual capability change without yet choosing development or repair Work?
 
-**Selected best-known line and serious alternatives.** **Adopt** an observation-first differential: bind the capability claim, hold development or updating fixed where safe, return to a qualified reference condition, vary the smallest decision-bearing condition, separate the observable failure positions, and retain genuine-change and unresolved exits. The serious defaults are to infer capability loss and begin development immediately, or to **adopt** a latent-context or COIN-style explanation as the common mechanism. At comparable first-decision effort, the selected line can be as small as one safe reference return and one discriminating contrast. It supplies a discriminating observation that the immediate-loss default omits, while retaining genuine-change and unresolved outcomes. Its affordability depends on the qualified contrast and the alternative work it can avoid. Its deliberate cost is that the extra contrast needs a qualified basis, may contaminate or endanger the case, and may truthfully return `unresolvedDifferential`.
+**Selected best-known line and serious alternatives.** **Adopt** an observation-first differential: bind the capability claim, hold development or updating fixed where safe, return to a qualified reference condition, vary the smallest decision-bearing condition, separate the observable failure positions, and retain genuine-change and unresolved exits. Two alternatives are to infer capability loss and begin development immediately, or to treat a latent-context or COIN-style account as the common explanation.
 
-**Defect overcome and pattern mutation.** Immediate loss/development projects one failed expression backward into capability change; a universal latent-context account projects one useful human explanation across non-isomorphic holders. The selected line changes `E.23.CAE:4.2` steps 4–8, the observation-qualified dispositions in `4.3`, the three holder cases in `5`, the assurance stop in `4.4`, the anti-patterns in `8`, and the source-sensitive reopen condition in `9`. It leaves mechanisms and interventions with their direct owners.
+At comparable first-decision effort, the selected line can be as small as one safe reference return and one discriminating contrast. It supplies a discriminating observation that the immediate-loss default omits, while retaining genuine-change and unresolved outcomes. Its affordability depends on the qualified contrast and the alternative work it can avoid. The extra contrast needs a qualified basis, may contaminate or endanger the case, and may return `unresolvedDifferential`.
+
+**What the comparison changes.** Immediate loss/development projects one failed expression backward into capability change; a universal latent-context account projects one useful human explanation across non-isomorphic holders. This comparison explains the separate observations in `E.23.CAE:4.2` steps 4–8 and the evidence required for each disposition in `4.3`. It also informs the three holder cases in `5`, the assurance stop in `4.4`, the anti-patterns in `8`, and the source-sensitive reopen condition in `9`. It leaves mechanisms and interventions with their direct owners.
 
 | Comparison role and source | Material move and receiving locus | Retained limit |
 | --- | --- | --- |

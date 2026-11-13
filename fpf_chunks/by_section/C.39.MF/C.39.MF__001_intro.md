@@ -6,12 +6,12 @@ section_id: "C.39.MF:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.MF/C.39.MF__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.39.MF — Choose and Reopen a Method Development Focus"
   - "C.39.MF:intro — Intro"
-line_start: 83655
-line_end: 83661
+line_start: 87714
+line_end: 87720
 dependencies:
   - "A.15.6"
   - "A.3.1"
@@ -26,5 +26,5 @@ keywords:
 > **Type:** Method pattern
 > **Status:** Stable
 
-> **Primary working result:** a **Method-focus result** that selects one Method, an established family or explicitly local grouping, a set of Method relations, or a non-Method return for one project decision. The result preserves every Method or candidate-account status and names one observation that would reopen the focus.
+> **Working result:** a **Method-focus result** that selects one Method, an established family or local grouping, a set of Method relations, or a non-Method return for one project decision. The result preserves every Method or candidate-account status and names one observation that would reopen the focus.
 

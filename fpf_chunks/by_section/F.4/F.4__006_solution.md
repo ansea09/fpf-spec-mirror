@@ -6,12 +6,12 @@ section_id: "F.4:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__006_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.4 — SystemRoleKindDescription — Describing an Exact System-Role Kind"
   - "F.4:4 — Solution"
-line_start: 119587
-line_end: 119660
+line_start: 127188
+line_end: 127263
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -47,7 +47,9 @@ keywords:
 
 ### F.4:4 - Solution
 
-Constitute one `SystemRoleKindDescription` through C.2.1. Its ClaimGraph describes one exact local system-role kind, and that kind is its EntityOfConcern. It makes the kind's candidate domain, operative membership condition, intended member/non-member boundary and continuity rule recoverable, together with its current `KindSignature`. State the description's effective reference scheme for interpreting those claims. It may record source or practice provenance so readers can find and compare definitions, but provenance is not a kind-identity key. The description gives readers enough to recognize and check the kind while routing neighboring claims to their direct rules.
+Constitute one `SystemRoleKindDescription` through C.2.1. Its ClaimGraph describes one exact local system-role kind, and that kind is its EntityOfConcern. It makes the kind's candidate domain, operative membership condition, intended member/non-member boundary and continuity rule recoverable, together with its current `KindSignature`. State the description's effective reference scheme for interpreting those claims.
+
+The description may record source or practice provenance so readers can find and compare definitions, but provenance is not a kind-identity key. The description gives readers enough to recognize and check the kind while routing neighboring claims to their direct rules.
 
 The following is a content checklist, not a relation signature or mandatory record.
 
@@ -85,7 +87,7 @@ These are claims or references in an episteme. They are not `SlotSpec` declarati
 | Conditional neighboring references | Add neighboring references for assignment state, capability, Method, naming, and Bridges only when the receiving use depends on them. |
 | Non-inference boundary | Keep description, classification, assignment and other neighboring claims separate; state an explicit contrast when it prevents a plausible mistake in the current use. |
 
-A quick local description may stop after the always-recoverable content. A consequence-bearing Work-admission use requires only the neighboring relations it actually needs.
+A quick local description may stop after the always-recoverable content. For a consequence-bearing Work-admission claim, add only the neighboring relations that claim depends on.
 
 #### F.4:4.2 - Description versus Neighboring Values
 
@@ -105,7 +107,7 @@ A quick local description may stop after the always-recoverable content. A conse
 
 F.4 points to these loci; it does not copy their ontology.
 
-Keep the description episteme, the exact local system-role kind it describes, the `KindSignature` that states the membership criterion, the effective scheme used to read the description, and any classification judgment about a candidate separate. Add an F.17 `SchemeSenseCell` only when a later use needs a stable local-sense address; cite a `LocalSenseBasisRelation` only when that relation actually obtains. An ordinary F.4 description requires neither.
+Keep the description episteme, the exact local system-role kind it describes, the `KindSignature` that states the membership criterion, the effective scheme used to read the description, and any classification judgment about a candidate separate. Add an F.17 `SchemeSenseCell` only when a later use needs a stable local-sense address; cite a `LocalSenseBasisRelation` only when that relation obtains. An ordinary F.4 description requires neither.
 
 #### F.4:4.3 - Positive Construction Rule
 
@@ -117,5 +119,5 @@ Write a description in this order:
 4. State the smallest direct criteria or invariants that distinguish the kind.
 5. State an explicit boundary when the current use could otherwise confuse the description with classification, assignment, capability, Method, Work or another neighboring claim.
 6. Add neighboring references only when the receiving use depends on them.
-7. Use F.18 for a durable public name. Use C.3.3 only when an actual relation between exact local kinds is current; use F.9 only when the receiving claim relates distinct F.17 local-sense cells.
+7. Use F.18 for a durable public name. Use C.3.3 only when the receiving claim concerns an obtaining relation between exact local kinds; use F.9 only when the receiving claim relates distinct F.17 local-sense cells.
 

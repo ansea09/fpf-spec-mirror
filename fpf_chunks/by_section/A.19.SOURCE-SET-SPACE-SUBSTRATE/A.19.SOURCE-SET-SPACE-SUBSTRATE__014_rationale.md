@@ -6,12 +6,12 @@ section_id: "A.19.SOURCE-SET-SPACE-SUBSTRATE:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SOURCE-SET-SPACE-SUBSTRATE/A.19.SOURCE-SET-SPACE-SUBSTRATE__014_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE — Source-Set and Search/Outcome-Space Substrate"
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE:10 — Rationale"
-line_start: 35948
-line_end: 35959
+line_start: 37450
+line_end: 37461
 dependencies:
   - "A.0"
   - "A.17"
@@ -44,7 +44,7 @@ keywords:
 - which declared space is named in the search-side position;
 - which declared space is named in the outcome-side position;
 - what `SpaceRefRelationKind` says about those two refs;
-- and how much transparency, distortion, uncertainty, or error the line is honestly claiming.
+- and how much transparency, distortion, uncertainty, or error the line is claiming.
 
 That is why this pattern stops before interpretive views and before publication metadata. If it tried to say less, the load would collapse back into vague `space` or `projection` talk. If it tried to say more, it would start absorbing views, fronts, archives, shortlists, or shipping semantics that belong elsewhere.
 

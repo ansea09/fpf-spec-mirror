@@ -6,12 +6,12 @@ section_id: "B.3:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__012_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.3 — Is This Claim Supported for This Use? — Trust and Assurance Calculus"
   - "B.3:10 — Rationale"
-line_start: 45147
-line_end: 45150
+line_start: 46999
+line_end: 47002
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -37,5 +37,5 @@ keywords:
 
 ### B.3:10 - Rationale
 
-Assurance-case practice supports explicit claims, arguments, evidence, and maintenance. Reliability engineering supports calculations tied to dependency structure and assumptions. Neither supports one universal `F-G-R-CL` score across unlike subjects. B.3 therefore standardizes the boundaries and the minimum result while leaving characteristics and aggregation with the exact models that define them.
+Assurance-case practice supports explicit claims, arguments, evidence, and maintenance. Reliability engineering supports calculations tied to dependency structure and assumptions. Neither supports one universal `F-G-R-CL` score across unlike subjects. B.3 therefore standardizes the boundaries and the minimum result while leaving characteristics and aggregation with the models that define them.
 

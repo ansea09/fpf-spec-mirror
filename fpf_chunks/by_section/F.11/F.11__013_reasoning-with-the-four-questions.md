@@ -3,15 +3,15 @@ chunk_kind: "child"
 pattern_id: "F.11"
 pattern_title: "Distinguish Method, MethodDescription, Work and Outputs"
 section_id: "F.11:12"
-section_title: "Safe reasoning moves"
+section_title: "Reasoning with the four questions"
 source_path: "FPF-Spec.md"
-output_path: "by_section/F.11/F.11__013_safe-reasoning-moves.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+output_path: "by_section/F.11/F.11__013_reasoning-with-the-four-questions.md"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.11 — Distinguish Method, MethodDescription, Work and Outputs"
-  - "F.11:12 — Safe reasoning moves"
-line_start: 122456
-line_end: 122468
+  - "F.11:12 — Reasoning with the four questions"
+line_start: 130201
+line_end: 130213
 dependencies:
   - "A.13"
   - "A.15"
@@ -43,11 +43,11 @@ keywords:
   - "performed-Work attribution"
 ---
 
-### F.11:12 - Safe reasoning moves
+### F.11:12 - Reasoning with the four questions
 
 1. **Classify the subject.** Is the sentence about a Method, MethodDescription, Work, or a particular output?
 2. **Keep design and occurrence apart.** A design claim does not establish a Work outcome.
-3. **Check membership.** Name the one admitted Method that is the episteme's exact `EntityOfConcern`; *describes* is only the plain shorthand allowed by A.3.2.
+3. **Check membership.** Identify the episteme’s one admitted Method as its exact `EntityOfConcern` and at least one substantive claim it makes about that Method as a way of doing. For this A.3.2 judgement, say that the episteme *describes* the Method.
 4. **State enactment only when supported.** Name the Work, Method, and basis for the enactment claim.
 5. **State description use separately.** Say whether and how the Work or performing System used, followed, deviated from, or conformed to the versioned description, and cite the rule that defines or tests that claim; otherwise return the bounded missing-governor result.
 6. **Locate outputs.** Relate a signal or changed value to the Work through its direct pattern.

@@ -6,12 +6,12 @@ section_id: "E.4.DPF:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.4.DPF — Domain and Local Principle Frameworks: Whether and How to Author and Publish"
   - "E.4.DPF:1 — Problem frame"
-line_start: 94657
-line_end: 94664
+line_start: 99446
+line_end: 99453
 dependencies:
   - "A.1.1"
   - "A.13"
@@ -55,9 +55,6 @@ dependencies:
   - "G.11"
   - "G.2"
 keywords:
-  - "and boundary into additional mini-method columns. Pattern bodies remain the main language of use"
-  - "do not copy first move"
-  - "result"
 ---
 
 ### E.4.DPF:1 - Problem frame
@@ -66,5 +63,5 @@ Use this pattern when a group needs to create a domain principle framework or lo
 
 This pattern explains how to author or revise an FPF-grounded framework. Start by writing one paragraph that names the intended reader, the domain or local situation, the first useful action, and the ordinary stop or wrong-turn return. Add a non-use boundary only when an independently grounded competing use is plausible for that reader and changes action. That paragraph is enough to enter the first-hour route before the framework architecture, durable names, or publication package are settled.
 
-Use this pattern when the work creates or revises the framework itself. Use `E.11` or `E.17` when an existing framework remains unchanged and the work only changes how readers or agents find or access it.
+Use this pattern when the work creates or revises the framework. Use `E.11` or `E.17` when an existing framework remains unchanged and the work only changes how readers or agents find or access it.
 

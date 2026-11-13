@@ -6,12 +6,12 @@ section_id: "A.15:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.15 — System-Role–Method–Work Alignment"
   - "A.15:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 29003
-line_end: 29016
+line_start: 30069
+line_end: 30082
 dependencies:
   - "A.10"
   - "A.13"
@@ -66,12 +66,12 @@ keywords:
 ### A.15:8 - Common Anti-Patterns and How to Avoid Them
 
 - **System-role-kind as part.** Do not place `InspectorSystemRole`, a capability, fit condition, or evidence or assurance record in structural decomposition merely because it appears on an architecture diagram.
-- **Universal assignment signature.** Do not give `U.SystemRoleAssignment` one permissive root signature. Recover the direct species and its exact local assigned-kind domain.
+- **Universal assignment signature.** Do not give `U.SystemRoleAssignment` one permissive root signature. Recover the direct species and its local assigned-kind domain.
 - **Generic assignment beside an appointment.** Let the specialized appointment occurrence itself belong to `U.SystemRoleAssignment`; F.6 uses its common holder projection.
 - **Recipe as evidence.** A MethodDescription can identify or constrain a Method but does not prove performed Work.
 - **Plan as performed Work.** A schedule or intended-assignment claim remains distinct from dated Work, which is identified independently under A.15.1; use A.15.2 for WorkPlan membership.
 - **Capability as Work.** Ability, a capability statement, or a passing fit condition is not performance.
-- **Assignment as responsibility or authority.** Recover the direct neighboring relation required by the claim, for example responsibility, commitment, permission, authority, access, or gate passage, or return its exact missing governor.
+- **Assignment as responsibility or authority.** Recover the direct neighboring relation required by the claim, for example responsibility, commitment, permission, authority, access, or gate passage, or return its missing governor.
 - **Approval collapse.** Keep approval or authorization Work and the operational Work it permits as separate occurrences and effect relations.
 - **Process soup.** Resolve ambiguous source wording before relying on it; do not create a generic process object.
 - **Appearance as execution.** Use A.15.4 when a dashboard, credential, copied approval, generated explanation, provenance label, or command-like cue is being relied on by appearance.

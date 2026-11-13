@@ -6,35 +6,24 @@ section_id: "C.18:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18/C.18__005_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.18 — Open-Ended Search Archive and Front Stewardship"
   - "C.18:3 — Forces"
-line_start: 61034
-line_end: 61044
+line_start: 63464
+line_end: 63474
 dependencies:
   - "A.15"
   - "A.19"
   - "A.19.CPM"
   - "A.19.SelectorMechanism"
-  - "C.11"
-  - "C.11.CRC"
   - "C.16"
   - "C.19"
-  - "C.28"
   - "C.30"
-  - "C.32"
-  - "C.32.P2S"
-  - "C.35"
   - "C.36"
-  - "E.17"
   - "E.18"
   - "E.18.1"
   - "E.23"
-  - "E.24.PUB"
-  - "F.17"
-  - "F.18"
-  - "F.9"
   - "G.11"
   - "G.5"
   - "G.9"
@@ -56,7 +45,7 @@ keywords:
 | Force | Tension |
 |---|---|
 | Exploration value | A retained variant may be valuable as a stepping stone even when it is not on the current front. |
-| Front honesty | A front must preserve the declared comparator, dominance set, admissibility, and partial-order semantics. |
+| Front semantics | A front must preserve the declared comparator, dominance set, admissibility, and partial-order semantics. |
 | Descriptor currentness | Descriptor maps, distance definitions, characteristic spaces, and family coordinates change over time. |
 | Practical continuation | Engineering teams need selected sets, architecture candidates, work plans, and measurements from archives without letting the archive authorize those moves. |
 | Cultural and style cases | Music, dance, science, medical, product, and AI-agent variants need source labels and term bridges without minting cultural root kinds. |

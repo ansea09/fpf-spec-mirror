@@ -6,12 +6,12 @@ section_id: "F.16:13"
 section_title: "Safe reasoning moves"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.16/F.16__014_safe-reasoning-moves.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.16 — Worked-Example Template (Cross-Domain)"
   - "F.16:13 — Safe reasoning moves"
-line_start: 124050
-line_end: 124061
+line_start: 131921
+line_end: 131934
 dependencies:
   - "A.10"
   - "A.15"
@@ -54,11 +54,13 @@ keywords:
 
 1. **Recognize.** State the working situation, failure, and practical gain.
 2. **Bound.** Write one claim and one receiving use.
-3. **Name actual subjects.** Replace vague words with the Systems, epistemes, Methods, Work, claims, observations, values, kinds, or assignments actually involved.
+3. **Name actual subjects.** Replace vague words with the Systems, epistemes, Methods, Work, claims, observations, values, kinds, or assignments involved in the claim.
 4. **Route relations.** Name the defining or testing pattern for each relation. For an alleged proxy, first test direct measurement; if a distinct indicator relation is needed and no rule supplies it, return A.6.RCD `missing-governor`.
 5. **Recover local wording.** Cite the source, edition, and scheme; add an F.17 cell only when the receiving use needs a stable local-meaning address.
-6. **Show evidence and evaluation.** Recover the direct evidence-use relations, their descriptive A.10 account and its bounded-reliance disposition. When evaluation occurs, show its inputs, rule and supported result with any declared scale. Recover Work, Method and exact application/result bindings when claimed or required by the governing rule; add F.10 status or a durable verdict episteme only for their selected uses. Use B.3 only for an actual named assurance claim.
+6. **Show evidence and evaluation.** Recover the direct evidence-use relations, their descriptive A.10 account and its bounded-reliance disposition.
+
+   When evaluation occurs, show its inputs, rule and supported result with any declared scale. Recover Work, Method and exact application/result bindings when claimed or required by the governing rule; add F.10 status or a durable verdict episteme only for their selected uses. Use B.3 only for an actual named assurance claim.
 7. **Use aids sparingly.** Add an F.7 table only when it lowers reading cost; never infer from layout.
 8. **State limits.** Include direction, loss, window, population, uncertainty, or non-use boundary that changes the conclusion.
-9. **Replay.** Run focused checks for the case's actual failure risks, including result and status separation when evaluation is present.
+9. **Replay.** Run focused checks for the case's failure risks, including result and status separation when evaluation is present.
 

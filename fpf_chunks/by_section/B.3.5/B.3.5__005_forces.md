@@ -6,12 +6,12 @@ section_id: "B.3.5:3.1"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.5/B.3.5__005_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.3.5 — Assurance Grounding for Working-Model Relation Claims (CT2R-LOG)"
   - "B.3.5:3.1 — Forces"
-line_start: 45455
-line_end: 45460
+line_start: 47317
+line_end: 47322
 dependencies:
   - "B.3"
   - "C.13"
@@ -21,7 +21,7 @@ keywords:
 
 ### B.3.5:3.1 - Forces
 
-* **Readable claims and inspectable support.** Practitioners need stable relation meanings; assurance readers need the direct facts and identity conditions supporting each claim.
+* **Readable claims and inspectable support.** Practitioners need stable relation meanings; assurance readers need the facts and identity conditions supporting each claim.
 * **Parsimony constraint.** The Kernel stays minimal; construction is **outside** the Kernel.
-* **Unification inside FPF.** We already unify external vocabularies; the same discipline is applied **internally** so patterns that publish structural claims can reuse one three-form construction-account discipline and one readable relation façade without making that account a second ontology.
+* **Unification inside FPF.** FPF unifies external vocabularies; the same discipline applies **internally** so patterns that publish structural claims can reuse one three-form construction-account discipline and one readable relation façade without making that account a second ontology.
 

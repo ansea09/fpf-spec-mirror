@@ -6,12 +6,12 @@ section_id: "A.7.CP:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.CP/A.7.CP__008_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.7.CP — Constructive-Premise Compact and Reasoning-Basis Use"
   - "A.7.CP:6 — Bias-Annotation"
-line_start: 26343
-line_end: 26347
+line_start: 27329
+line_end: 27333
 dependencies:
   - "A.7"
   - "A.7.1"
@@ -28,5 +28,5 @@ keywords:
 ### A.7.CP:6 - Bias-Annotation
 
 
-The main biases are foundation maximalism, premise-kind inflation, and trace-by-citation. The mitigation is one compact publication source, exact claim IDs, two context-local postures, actual work participation, and a non-use rule that keeps ordinary reasoning cheap.
+The main biases are foundation maximalism, premise-kind inflation, and trace-by-citation. The mitigation is one compact publication source, claim IDs, two context-local postures, work participation, and a non-use rule that keeps ordinary reasoning cheap.
 

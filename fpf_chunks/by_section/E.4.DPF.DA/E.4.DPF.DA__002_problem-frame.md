@@ -6,12 +6,12 @@ section_id: "E.4.DPF.DA:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF.DA/E.4.DPF.DA__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.4.DPF.DA — Evaluate a DPF or LPF Package for Its Declared Use (Package-Adequacy CharacteristicSpace)"
   - "E.4.DPF.DA:1 — Problem frame"
-line_start: 95312
-line_end: 95321
+line_start: 100289
+line_end: 100302
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -61,9 +61,13 @@ keywords:
 
 Use this pattern when a framework author, reviewer, steward, or AI agent must decide whether one Domain Principle Framework or Local Practice Framework package is good enough for one declared domain or local use.
 
-Primary `EntityOfConcern`: one exact authored framework episteme edition checked for one declared package use. Name the visible publication form, presentation carrier, access-facing presentation carrier, or access route being inspected without turning it into the framework edition or package architecture. The first useful result is one aggregate C.2.1 result episteme with all D1–D12 claims, its local status, and the smallest repair or explicit no-proposal disposition. The Solution gives the additional assurance detail only when a receiving use relies on it.
+Primary `EntityOfConcern`: one exact authored framework episteme edition checked for one declared package use. Name the visible publication form, presentation carrier, access-facing presentation carrier, or access route being inspected without turning it into the framework edition or package architecture.
 
-Use `E.4.DPF.DA`, rather than `E.2.DA`, for ordinary DPF package evaluation. `E.2.DA` asks whether FPF-level objects realize the FPF Pillars for broad FPF use; a DPF package must serve one declared domain or local use frame while depending on FPF Core without redefining it. Recover that frame through effective ReferenceScheme, ClaimScope, reader, intended use, qualification window, and only when interpretation depends on it an independently selected BoundedModelUseStructure. Add a non-use boundary only for a named competing use or plausible observed confusion. Use `E.2.DA` when the package changes or claims FPF-level Pillar adequacy.
+The first useful result is one aggregate C.2.1 result episteme with all D1–D12 claims, its local status, and the smallest repair or a statement that no repair is proposed. The Solution gives the additional assurance detail only when a receiving use relies on it.
+
+Use `E.4.DPF.DA` for an ordinary DPF package evaluation. `E.2.DA` asks whether FPF-level objects realize the FPF Pillars for broad FPF use. A DPF package must serve one declared domain or local use frame while depending on FPF Core without redefining it.
+
+To recover that frame, identify the effective ReferenceScheme, ClaimScope, reader, intended use and qualification window. Include an independently selected BoundedModelUseStructure only when its organization changes interpretation. Add a non-use boundary only for a named competing use or plausible observed confusion. Use `E.2.DA` when the package changes or claims FPF-level Pillar adequacy.
 
 Use `E.21` for the quality of individual DPF pattern bodies. Use this pattern for the package as a whole: domain scope, source basis, Core dependency, the framework publication form borne by its selected carrier, pattern-set coverage, relation and edition records, local publication, evaluation route, refresh route, and adoption utility.
 

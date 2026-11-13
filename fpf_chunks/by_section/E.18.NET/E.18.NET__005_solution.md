@@ -6,12 +6,12 @@ section_id: "E.18.NET:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.NET/E.18.NET__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.18.NET — Network of Transformation-Flow Structures"
   - "E.18.NET:4 — Solution"
-line_start: 112232
-line_end: 112378
+line_start: 119329
+line_end: 119511
 dependencies:
   - "A.1.STM"
   - "A.12"
@@ -41,9 +41,11 @@ keywords:
 
 #### E.18.NET:4.1 - Select a dependent non-agentive structure
 
-`TransformationFlowStructureNetwork@Context` is a dependent, non-agentive specialization of `U.Structure` defined by E.18.NET and selected through the A.22 identity law. It is not a root U-kind, acting system, holon, workflow, graph, record, publication, `FlowValuation`, WorkPlan, or performed Work. The `@Context` suffix qualifies retrieval and use; it adds no identity discriminator.
+`TransformationFlowStructureNetwork@Context` is a dependent, non-agentive specialization of `U.Structure` defined by E.18.NET and selected through the A.22 identity law. It is not a root U-kind, acting system, holon, workflow, graph, record, publication, `FlowValuation`, WorkPlan, or performed Work.
 
-For `N : TransformationFlowStructureNetwork`, recover exactly:
+The `@Context` suffix qualifies retrieval and use; it adds no identity discriminator.
+
+For `N : TransformationFlowStructureNetwork`, recover its four identity discriminators:
 
 ```text
 StructureIdentity(N) = <
@@ -54,17 +56,21 @@ StructureIdentity(N) = <
 >
 ```
 
-The four field names have the same meanings as in the first-use result: exact direct members, exact selected obtaining cross-flow occurrence refs, exact applied network constraints, and one concrete use frame. `returnCondition` is not a fifth identity discriminator; it records when the current use must return and reselect. `stopOrReturnCondition` states the boundary of the action or use within `networkUseFrame`; `returnCondition` names a change that reopens selection.
+As in the first-use result, the four fields identify the direct members, selected obtaining cross-flow occurrence refs, applied network constraints and one concrete use frame.
 
-`forbiddenOverread?`, also named `groundedForbiddenOverread?`, carries one optional explanatory guard under F.19:4's plausible-reader test. It remains outside `networkUseFrame` and structure identity. A change to that explanation alone leaves the network unchanged; if its content changes an applied constraint or a use-frame value, compare that existing discriminator.
+`returnCondition` is not a fifth identity discriminator; it records when the current use must return and reselect. `stopOrReturnCondition` states the boundary of the action or use within `networkUseFrame`; `returnCondition` names a change that reopens selection.
 
-The direct-member set contains at least two exact values. Each member is one independently identified `TransformationFlowStructure` or one independently identified E.18.NET-conforming `TransformationFlowStructureNetwork`. At least one selected relation occurrence binds positions in different direct members or in different leaf TFS members reached through them. The use frame states the concrete question or action, how this selection will be used, and its stop or return condition. “Current use”, “appropriate network”, and the title of a diagram are not use frames.
+`forbiddenOverread?`, also called `groundedForbiddenOverread?`, records an optional explanatory guard under F.19:4's plausible-reader test. It remains outside `networkUseFrame` and structure identity. A change to that explanation alone leaves the network unchanged; if its content changes an applied constraint or a use-frame value, compare that existing discriminator.
 
-The direct-member discriminator identifies the selected members; record rows cite those independently identified values. If a future receiver needs a separately re-identifiable world-side membership occurrence, apply the direct relation pattern that defines its participants, predicate, applicability, and identity rule. When that governor is missing, reopen the relation question under A.6.RCD.
+The direct-member set contains at least two members. Each member is one independently identified `TransformationFlowStructure` or one independently identified E.18.NET-conforming `TransformationFlowStructureNetwork`. At least one selected relation occurrence binds positions in different direct members or in different leaf TFS members reached through them.
+
+The use frame states the concrete question or action, how this selection will be used, and its stop or return condition. “Current use”, “appropriate network”, and the title of a diagram are not use frames.
+
+The direct-member discriminator identifies the selected members; record rows cite those independently identified values. If a later use needs a separately re-identifiable world-side membership occurrence, apply the direct relation pattern that defines its participants, predicate, applicability, and identity rule. When no such rule is available, reopen the relation question under A.6.RCD.
 
 #### E.18.NET:4.2 - Reidentification and change locality
 
-Replacing a direct member, selected relation occurrence, applied endpoint or exposure constraint, acyclicity constraint, or named selection-use frame identifies another selected network. Reidentifying a nested member reopens every parent network that selects that exact member.
+Replacing a direct member, selected relation occurrence, applied endpoint or exposure constraint, acyclicity constraint, or named selection-use frame identifies another selected network. Reidentifying a nested member reopens every parent network that selects that member.
 
 Changing only a name, reference designator, record edition, graph layout, mathematical description, publication, selecting system, selection Work, evidence item, `FlowValuation`, `PathSliceId`, or local `DesignRunTag` leaves the network unchanged when the four A.22 discriminators still resolve to the same values.
 
@@ -72,7 +78,9 @@ Changing only a name, reference designator, record edition, graph layout, mathem
 
 The selected direct-member nesting is acyclic. No direct or transitive member path from a network resolves back to that network, and every member path used by a reference is finite. The same network kind supports build-the-builder and supply-network recursion at any finite nesting depth.
 
-When functional layers are useful in a flow network, organize them by the contributions that the selected flows make to the stated result. In a build-the-builder case, one flow produces a system that performs work in another flow; recover the production, use and participation relations that connect them. Nesting one selected network inside another records member grouping for the current question. The depth of that nesting does not determine the functional layers or a modular hierarchy. Use C.30.STRAT:4.2 to keep functional layers distinct from levels in a module and interface structure.
+When functional layers are useful in a flow network, organize them by the contributions that the selected flows make to the stated result. In a build-the-builder case, one flow produces a system that performs work in another flow; recover the production, use and participation relations that connect them.
+
+Nesting one selected network inside another records member grouping for the current question. The depth of that nesting does not determine the functional layers or a modular hierarchy. Use C.30.STRAT:4.2 to keep functional layers distinct from levels in a module and interface structure.
 
 Cycles among selected cross-flow relation occurrences remain possible when their applicable predicates and constraints permit them. Feedback from operation or evaluation to development is therefore compatible with acyclic membership: the cycle is among those relation occurrences, not in network containment.
 
@@ -93,20 +101,26 @@ ExposedFlowPositionRef := <
 
 Every hop in `memberPath[]` resolves through the preceding network's direct members. Its final member is the TFS named by `leafFlowPositionRef`. When the path crosses a nested network, the leaf position must be one of the boundary positions that nested network exposes for the current use by the containing network. Two different paths to the same leaf TFS position are two different exposures.
 
-The parent network may compose the finite path and use the exposed boundary. It may not copy or silently flatten the nested member's internal structure. `FlowValuation`, `PathSliceId`, actual fillings, and `DesignRunTag` qualify use of a position; they are not part of `FlowPositionRef` or `ExposedFlowPositionRef` identity.
+The parent network may compose the finite path and use the exposed boundary. It must preserve the nested member’s internal structure without copying or flattening it. A separate mathematical description may flatten the nesting for a declared use when it states what the flattening preserves and loses. `FlowValuation`, `PathSliceId`, actual fillings, and `DesignRunTag` qualify use of a position; they are not part of `FlowPositionRef` or `ExposedFlowPositionRef` identity.
 
 #### E.18.NET:4.4 - Keep valuation and design/run state leaf-local
 
-Each `positionBindingRef` cites the relevant E.18 participant-position/use binding or a declaration-local binding whose pattern defines the needed participant meanings, value kind, and reference mode. A network introduces no universal cross-flow value kind. Recover each leaf TFS under E.18:5.1, including its A.22 identity, beta resolution and the complete participants of its selected relations. Its valuations use E.18:5.2’s declared connection/cut domain and regime.
+Each `positionBindingRef` cites the relevant E.18 participant-position/use binding or a declaration-local binding whose pattern defines the needed participant meanings, value kind, and reference mode. A network introduces no universal cross-flow value kind.
 
-`DesignRunTag` belongs to one exact position binding inside one exact leaf TFS. A network has no `FlowValuation` for the network as a whole, global design/run ladder, or automatic crossing that changes the carried entity's kind. If the same episteme fills local positions in different members—for example one position concerned with design work and another with production, verification, or later operation—record each leaf-local binding and the exact relation that obtains between them. Those ordinary member descriptions create no fixed TFS taxonomy or lifecycle phase. When a changed basis is actually used across members, follow E.18:5.13 through the exact cross-member occurrences and every dependent branch and join. Cover the required leaf-local PathSlices; independent uses and each member’s local state remain separate.
+Recover each leaf TFS under E.18:5.1, including its A.22 identity, beta resolution and the complete participants of its selected relations. Its valuations use E.18:5.2’s declared connection/cut domain and regime.
+
+`DesignRunTag` belongs to one position binding inside one leaf TFS. A network has no `FlowValuation` for the network as a whole, global design/run ladder, or automatic crossing that changes the carried entity's kind.
+
+If the same episteme fills local positions in different members—for example one position concerned with design work and another with production, verification, or later operation—record each leaf-local binding and the exact relation that obtains between them. Those ordinary member descriptions create no fixed TFS taxonomy or lifecycle phase.
+
+When a changed basis is used across members, follow E.18:5.13 through the exact cross-member occurrences and every dependent branch and join. Cover the required leaf-local PathSlices; independent uses and each member’s local state remain separate.
 
 #### E.18.NET:4.5 - Preserve the direct cross-flow relations
 
-For every relation used by the network, recover:
+For every relation used by the network, recover the following values.
 
-- the exact obtaining occurrence;
-- the exact relation kind;
+- the obtaining occurrence;
+- its admitted relation kind;
 - the pattern that defines or tests its predicate, applicability, and occurrence-identity rule;
 - the complete participant meanings and order;
 - the endpoint member and position binding for every participant; and
@@ -114,15 +128,25 @@ For every relation used by the network, recover:
 
 An n-ary relation remains n-ary. Do not decompose it into invented binary arrows. A row, edge label, shared entity, temporal adjacency, operation result, plan row, or graph connection never makes the relation obtain.
 
-E.18 resolves each internal connection(q) to its selected relation occurrence r. That position is local to one selected TFS; it supplies no universal cross-member predicate. For any production, use, participation, evaluation, correspondence, feedback, dependency, supply, or other cross-flow relation, the relation kind must already be admitted. Use its applicable relation pattern to recover the participant meanings, predicate, applicability, and occurrence-identity rule; current case facts or constituting history must satisfy the predicate affirmatively. Only then does one world-side occurrence obtain. Use A.6.REL only when a named use must distinguish that occurrence from another. For ordinary network selection, the PatternID and exact relation occurrence are enough; add `relationFunctionClaimRef` to the defining or constraining `ClaimGraph` only when comparison, migration, or reliance depends on that exact rule identity. The network selects only the exact already-obtaining occurrence ref.
+E.18 resolves each internal connection(q) to its selected relation occurrence r. That position is local to one selected TFS; it supplies no universal cross-member predicate.
 
-If no admitted relation kind and applicable predicate cover the intended participants and use, carry `missing-governor` from the pattern governing the relation claim. If required case facts are unavailable, carry its `missing-information` result; if the available basis is sufficient to apply the positive test but that test fails, carry `factually unsupported`. Neither result by itself establishes a negative. Carry an inapplicable or negative result only when the governing pattern defines that outcome and its current basis establishes it. Only a positive obtaining occurrence may fill `selectedCrossFlowRelationOccurrenceRefs[]`.
+For any production, use, participation, evaluation, correspondence, feedback, dependency, supply, or other cross-flow relation, the relation kind must already be admitted. Use its applicable relation pattern to recover the participant meanings, predicate, applicability, and occurrence-identity rule; current case facts or constituting history must satisfy the positive predicate.
 
-After a positive occurrence is established, test the E.18.NET endpoint and position bindings separately. A missing binding blocks network selection but does not change the relation result. Missing members, applied constraints, and use-frame values are likewise separate network-selection blockers. A row, graph edge, or episteme neither admits a relation kind nor creates an occurrence. In none of these branches substitute `creates`, `produces`, `uses`, `input`, `output`, `result`, `handoff`, or `transfer` as a generic edge.
+The occurrence obtains when those conditions hold. For network selection, identify an occurrence that already obtains. Use A.6.REL only when a named use must distinguish that occurrence from another.
+
+For ordinary network selection, the PatternID and exact relation occurrence are enough; add `relationFunctionClaimRef` to the defining or constraining `ClaimGraph` only when comparison, migration, or reliance depends on that exact rule identity. The network selects only the ref to the occurrence that already obtains.
+
+If no admitted relation kind and applicable predicate cover the intended participants and use, carry `missing-governor` from the pattern governing the relation claim. If required case facts are unavailable, carry its `missing-information` result; if the available basis is sufficient to apply the positive test but that test fails, carry `factually unsupported`.
+
+Neither missing information nor a failed positive test suffices to establish a negative. Carry an inapplicable or negative result only when the governing pattern defines that outcome and its current basis establishes it. Only a positive obtaining occurrence may fill `selectedCrossFlowRelationOccurrenceRefs[]`.
+
+After a positive occurrence is established, test the E.18.NET endpoint and position bindings separately. A missing binding blocks network selection but does not change the relation result. Missing members, applied constraints, and use-frame values are likewise separate network-selection blockers.
+
+A row, graph edge, or episteme neither admits a relation kind nor creates an occurrence. In none of these branches substitute `creates`, `produces`, `uses`, `input`, `output`, `result`, `handoff`, or `transfer` as a generic edge.
 
 #### E.18.NET:4.6 - Record the network without replacing it
 
-When the selected answer must survive beyond the immediate work, describe it with a separate C.2.1 episteme. Its effective scheme has the C.2.1:4.1.2 range `EpistemeInterpretationScheme`; recover the rules that interpret the record's network, member, relation and endpoint-binding designations and its claims:
+If the selected answer must remain available after the immediate work, describe it with a separate C.2.1 episteme. Its effective scheme has the C.2.1:4.1.2 range `EpistemeInterpretationScheme`; recover the rules that interpret the record's network, member, relation and endpoint-binding designations and its claims:
 
 ```text
 TransformationFlowStructureNetworkRecord@Context <: U.Episteme:
@@ -155,7 +179,9 @@ TransformationFlowStructureNetworkRecord@Context <: U.Episteme:
   returnCondition
 ```
 
-The record describes the network; it is not the network. Its member and relation rows cite objects that already exist and occurrences that already obtain. An architecture-correspondence row is a qualified reading only. It contributes no member or selected cross-flow relation unless an exact separately grounded relation occurrence and endpoint bindings also satisfy the network identity.
+The C.2.1 record describes the selected network. The network and record have different identities. The record’s member and relation rows cite objects that already exist and occurrences that already obtain.
+
+An architecture-correspondence row is a qualified reading only. It contributes no member or selected cross-flow relation unless a separately grounded relation occurrence and endpoint bindings also satisfy the network identity.
 
 E.18.NET defines this composite locator for one nested cross-flow row:
 
@@ -172,15 +198,25 @@ NetworkCrossFlowRelationRowRef := <
 >
 ```
 
-Resolve the record ref first, then match `crossFlowRelationRows[]` by the exact occurrence ref and the complete ordered endpoint-binding identity. Exactly one row must match. Zero matches or several matches leave the locator unresolved and stop that consumer; never fall back to the containing record, the occurrence alone, or a prose pointer. `NetworkCrossFlowRelationRowRef` is a reference shape, not a U-kind, episteme, or relation occurrence. Its `U.EpistemeRef` targets the containing record, never the nested row.
+Resolve the record ref first, then match `crossFlowRelationRows[]` by the occurrence ref and the complete ordered endpoint-binding identity. Exactly one row must match. Zero matches or several matches leave the locator unresolved and stop that consumer; never fall back to the containing record, the occurrence alone, or a prose pointer.
+
+`NetworkCrossFlowRelationRowRef` is a reference shape, not a U-kind, episteme, or relation occurrence. Its `U.EpistemeRef` targets the containing record, never the nested row.
 
 #### E.18.NET:4.7 - Keep descriptions, demonstrations, architecture, and Work outside identity
 
-Use E.18.2 for a graph, hypergraph, network expression, wiring diagram, category-theory object, tuple, fold, or other mathematical description of the selected network. State what that description preserves and loses. A rendered graph or publication face remains under E.17 and C.29 as applicable.
+Use E.18.2 for a graph, hypergraph, network expression, wiring diagram, category-theory object, tuple, fold, or other mathematical description of the selected network. State what that description preserves and loses. Use E.17 when publishing a rendered graph or another face. Use C.29 when the adequacy of the mathematical lens for its declared use is at issue.
 
-Use A.22.CGUS and E.18.3 for an admitted network-aware `DemonstrativeUnfoldingSlice@Context`. Its finite paths must map to already admitted included positions, its cross-flow relations must cite admitted exact relation-reference epistemes, and its tags remain in leaf-local bindings. The slice demonstrates one traversal; it is neither the network nor an actual trajectory, WorkPlan, or Work occurrence.
+Use A.22.CGUS and E.18.3 for an admitted network-aware `DemonstrativeUnfoldingSlice@Context`. Its finite paths must map to already admitted included positions, its cross-flow relations must cite admitted relation-reference epistemes identifying those occurrences, and its tags remain in leaf-local bindings. The slice demonstrates one traversal; it is neither the network nor an actual trajectory, WorkPlan, or Work occurrence.
 
-Use C.30.TFS-REL when architecture uses the independently selected network. Distinguish one named containing holon with an obtaining architecture relation whose selected structure is that exact network, a bounded C.30 claim about one named holon, and an explicit inter-holon use with its participating architecture claims. For the single-holon claim, retain its negative, unresolved or candidate/expected disposition, supporting or missing basis, and return before stronger reliance; the architecture claim does not relax network selection. Use C.32.CONWAY only for its one-pair architecture-influence reading; the pair does not become the network.
+Use C.30.TFS-REL when architecture uses the independently selected network. Distinguish one named containing holon with an obtaining architecture relation whose selected structure is that network, a bounded C.30 claim about one named holon, and an explicit inter-holon use with its participating architecture claims.
 
-Only admitted Systems perform Work. Selecting a network, writing its record, or drawing its graph may be Work when A.15.1 independently admits the occurrence after each precise performer has an A.13 core; none is performance by the network, and no Work claim is needed merely to select or discuss the network. When selection Work is material, cite those already established A.13 and A.15.1 results. Cite F.6 only when the current network account also needs precise assignment-bound attribution, and leave its proof with F.6. Keep the Method, performer, dated Work, result episteme, selection or decision relation, and any C.11 choice result separate. A result episteme is not a decision or accountability relation by form; state accountability, duty, responsibility, or authority only through the exact direct relation that obtains.
+For the single-holon claim, retain its negative, unresolved or candidate/expected disposition, supporting or missing basis, and return before stronger reliance; the architecture claim does not relax network selection.
+
+Use C.32.CONWAY only for its one-pair architecture-influence reading; the pair does not become the network.
+
+Only admitted Systems perform Work. Selecting a network, writing its record, or drawing its graph may be Work when A.15.1 independently admits the occurrence after each precise performer has an A.13 core; none is performance by the network, and no Work claim is needed merely to select or discuss the network.
+
+When selection Work is material, cite those already established A.13 and A.15.1 results. Cite F.6 only when the current network account also needs precise assignment-bound attribution, and leave its proof with F.6.
+
+Keep the Method, performer, dated Work, result episteme, selection or decision relation, and any C.11 choice result separate. A result episteme is not a decision or accountability relation by form; state accountability, duty, responsibility, or authority only through the direct relation that obtains.
 

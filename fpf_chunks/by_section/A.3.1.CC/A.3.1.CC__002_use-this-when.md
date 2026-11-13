@@ -6,12 +6,12 @@ section_id: "A.3.1.CC:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.CC/A.3.1.CC__002_use-this-when.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.3.1.CC — Check the Coherence of a Method Claim"
   - "A.3.1.CC:0 — Use This When"
-line_start: 10612
-line_end: 10634
+line_start: 11013
+line_end: 11035
 dependencies:
   - "A.10"
   - "A.15.8.MS"
@@ -25,7 +25,7 @@ keywords:
 
 Use this pattern when Method construction commitments, a MethodDescription, a selected representation, an enactment-support result, or trial evidence no longer agree well enough for a named use. Begin with the possible contradiction and the decision it blocks: which maintained claim may be wrong, incomplete, stale, or unsupported?
 
-The first useful result is a bounded coherence finding. It names the claim being checked, its maintained owner and edition, the comparison basis, the observed agreement or defect, and any correction or stop required. A truthful `owner-not-recoverable` or `missing-comparison-basis` result is better than declaring the whole Method incoherent.
+The first useful result is a bounded coherence finding. It names the claim being checked, its maintained owner and edition, the comparison basis, the observed agreement or defect, and any correction or stop required. An `owner-not-recoverable` or `missing-comparison-basis` result is better than declaring the whole Method incoherent.
 
 Here *coherence* is Plain practice wording for checking whether claims relied on for the declared use agree where they should. It is not a new FPF relation, Method admission, fit result, effectiveness result, or universal consistency proof.
 
@@ -40,7 +40,7 @@ Do not use this pattern to decide whether the Method fits another situation, tra
 | Method representation profile | A C.37.MP result for several unlike Method-related actions. It contains one complete C.37-bearing row per action and a separate cross-use result naming the shared Method source, correspondences, conflicting omissions, edition relations, keep-separate decisions, and changes that reopen several rows. | It does not select a representation for an arbitrary entity, make row colocation a composition result, or establish view, mathematical-lens, publication, or structure conformance by itself. |
 | support claim | One A.15.8.MS task, configuration, A.22 proposal or selection position, collection, membership, edition, publication, direct-relation, test, or reliance claim. | A repository or successful tool task cannot repair a contradiction in another maintained result by being convenient. |
 | trial evidence | A.3.1.WT occurrence-level observations and gaps qualified for a named later use. | An observation can bear on a claim. Any correction belongs in the maintained result that owns that claim. |
-| coherence finding | A bounded agreement, contradiction, missing-information, failed-declared-conformance, or currentness result about one named claim. | “The Method is coherent” is too broad unless every claim relied on and its qualification window are actually in scope. |
-| maintained owner | The maintained result whose claim is being checked and where any warranted correction belongs: B.1.5.CM, A.3.2.DE, C.37.MP, one exact A.15.8.MS result, or another named governor. | The file that displays a claim is not necessarily its owner. |
+| coherence finding | A bounded agreement, contradiction, missing-information, failed-declared-conformance, or currentness result about one named claim. | “The Method is coherent” is too broad unless every claim relied on and its qualification window are in scope. |
+| maintained owner | The maintained result whose claim is being checked and where any warranted correction belongs: B.1.5.CM, A.3.2.DE, C.37.MP, one A.15.8.MS result, or another named governor. | The file that displays a claim is not necessarily its owner. |
 | declared conformance | A conformance claim with its named scheme, criteria, represented entity, use, and qualification window. | Passing description-side conformance does not establish Method fit, Work performance, or worth. |
 

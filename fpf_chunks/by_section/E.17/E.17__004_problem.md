@@ -6,12 +6,12 @@ section_id: "E.17:3"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__004_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:3 — Problem"
-line_start: 107440
-line_end: 107446
+line_start: 114037
+line_end: 114043
 dependencies:
   - "A.10"
   - "A.15.4"
@@ -46,8 +46,8 @@ keywords:
 
 ### E.17:3 - Problem
 
-1. **Semantic drift in publication.** Unchecked presentations introduce claims not present in the exact C.2.1 source epistemes, including those about the arrow in the optional morphism profile. Each such episteme, including an episteme admitted for specification use, keeps its exact claim content, EntityOfConcern, and effective `ReferenceScheme`; publication form, viewpoint reference, scope, or carrier supplies none of those identity discriminators.
+1. **Semantic drift in publication.** Unchecked presentations introduce claims not present in the C.2.1 source epistemes, including those about the arrow in the optional morphism profile. Each such episteme, including one admitted for specification use, keeps its claim content, EntityOfConcern, and effective `ReferenceScheme`. Publication form, viewpoint reference, scope, or carrier supplies none of those identity discriminators.
 2. **Non‑compositionality in the morphism profile.** Publishing `g∘f` yields faces that do not match composing the faces of `f` and `g`.
-3. **View, viewpoint, and face confusion.** A template or face is treated as the view or viewpoint, with no exact conformance relation between two claim-bearing epistemes.
+3. **View, viewpoint, and face confusion.** A template or face is treated as the view or viewpoint, without conformance between the selected claim-bearing episteme and the viewpoint episteme.
 4. **Unpinned numbers.** Numeric claims lack unit, scale, reference‑plane, and **edition pins** from Part F or Part G, undermining auditability.
 

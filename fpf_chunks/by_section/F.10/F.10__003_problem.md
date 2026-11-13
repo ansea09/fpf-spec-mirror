@@ -6,12 +6,12 @@ section_id: "F.10:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.10 — Apply and Interpret Evidence, Standard and Requirement Statuses"
   - "F.10:2 — Problem"
-line_start: 122009
-line_end: 122021
+line_start: 129723
+line_end: 129735
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -43,7 +43,7 @@ keywords:
 
 ### F.10:2 - Problem
 
-Status vocabulary is useful because it is compact. It is dangerous because the same label often hides different objects and claims:
+A compact status label is useful and easy to misread. The same label often hides different objects and claims:
 
 1. **Modality collapse.** *Validated* is read as evidence standing, standard approval, requirement satisfaction, and release permission at once.
 2. **Target collapse.** The status does not say whether it concerns a claim, quantity, method description, standard edition, clause, system-role assignment, work result, publication, gate record, or another exact target.

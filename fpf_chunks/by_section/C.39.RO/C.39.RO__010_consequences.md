@@ -6,12 +6,12 @@ section_id: "C.39.RO:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.RO/C.39.RO__010_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.39.RO — Turn a Construction into a Reusable Operation"
   - "C.39.RO:9 — Consequences"
-line_start: 83612
-line_end: 83619
+line_start: 87669
+line_end: 87676
 dependencies:
   - "A.3.1"
   - "A.3.2"
@@ -26,9 +26,9 @@ keywords:
 
 ### C.39.RO:9 - Consequences
 
-A useful case becomes an operation that further work can instantiate and combine. Its exposed conditions also make local revision possible. A failure result can save work by excluding an unattainable request under the current operation.
+A useful case becomes an operation that further work can instantiate and combine. Its exposed conditions also make local revision possible. A failure result can save work by excluding an unattainable request under the operation.
 
 The added effort is recovering the construction, choosing the intended variation and establishing its scope. It is justified when another use needs the operation. A broader library, a new publication or a fully automated implementation may remain unnecessary for that use.
 
-Reopen the construction when an input meaning, application condition, constituent operation or receiving result changes in a way its current account cannot handle.
+Reopen the construction when an input meaning, application condition, constituent operation or receiving result changes in a way its account cannot handle.
 

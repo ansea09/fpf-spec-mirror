@@ -6,12 +6,12 @@ section_id: "E.17:7"
 section_title: "Objects used by the optional formal profile"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__008_objects-used-by-the-optional-formal-profile.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:7 — Objects used by the optional formal profile"
-line_start: 107819
-line_end: 107831
+line_start: 114461
+line_end: 114473
 dependencies:
   - "A.10"
   - "A.15.4"
@@ -55,5 +55,5 @@ keywords:
 | receiving episteme, when separately constructed | its claims are checked against the source and, only for a material `U.View` claim, against P | A.6.3 construction and E.17.0 conformance are independent claims |
 | publication occurrence, form, carrier | makes the selected episteme available to a declared audience and use | E.24.PUB identifies these objects and tests whether the publication relations obtain |
 
-In the optional morphism profile, the author selects source E and publication-form profile `F_face`; P is selected only for a material `U.View` claim or a formal operation whose definition depends on that viewpoint. A system performs any authoring, rendering, checking, or publication work. MVPK names the publication method and constraints.
+In the optional morphism profile, the author selects source E and publication-form profile `F_face`. P is selected only for a material `U.View` claim or a formal operation whose definition depends on that viewpoint. A system performs any authoring, rendering, checking, or publication work. MVPK names the publication method and constraints.
 

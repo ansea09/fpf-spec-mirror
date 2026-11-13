@@ -6,12 +6,12 @@ section_id: "C.27.TA:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27.TA/C.27.TA__007_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.27.TA — Temporal Aspect: Time Windows, Rhythm, Cadence, and Currentness"
   - "C.27.TA:5 — Archetypal Grounding"
-line_start: 67604
-line_end: 67649
+line_start: 70664
+line_end: 70709
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -61,14 +61,14 @@ Identify what each report needs to be current about for the comparison, the rele
 
 An architecture move is expected to reduce an interlevel conflict after two release cycles.
 
-C.27.TA states the expected recovery timing for the exact selected structure discussed by the C.30 architecture claim, under the release-cycle reference and window. Use A.22 and the applicable architecture pattern to identify that structure independently; the claim episteme is not its proxy. Use A.3.4 for the proposed structure transformation and evidence/result patterns for any observed effect.
+C.27.TA states the expected recovery timing for the selected structure discussed by the C.30 architecture claim, under the release-cycle reference and window. Use A.22 and the applicable architecture pattern to identify that structure independently; the claim episteme is not its proxy. Use A.3.4 for the proposed structure transformation and evidence/result patterns for any observed effect.
 
 ```text
 TemporalAspectStatementClaimContent:
-  entityOfConcernRef: the exact independently identified selected structure discussed by the C.30 interlevel-conflict claim.
+  entityOfConcernRef: the independently identified selected structure discussed by the C.30 interlevel-conflict claim.
   entityRulePatternCitation: A.22 plus the applicable C.30 architecture-structure pattern.
-  sourceOrUseBoundaryRef?: the exact C.30 architecture claim supplying this expected recovery-timing assertion.
-  claimOrWorkScopeRef?: exact A.2.6 claim scope for the pump-station operations-service architecture concern during release train R14-R15.
+  sourceOrUseBoundaryRef?: the C.30 architecture claim supplying this expected recovery-timing assertion.
+  claimOrWorkScopeRef?: A.2.6 claim scope for the pump-station operations-service architecture concern during release train R14-R15.
   aspectPredicate: recoveryTiming.
   temporalReference: release train cycle.
   windowOrInterval: two release cycles after the accepted architecture move starts.

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.9"
-pattern_title: "Cross-Context Sameness Disambiguation - Restoring the concrete claim behind \"same\", \"equivalent\", and \"align\" (RPR-XCTX)"
+pattern_title: "Cross-Context Sameness Disambiguation - Restoring the claim behind \"same\", \"equivalent\", and \"align\" (RPR-XCTX)"
 section_id: "A.6.9:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.9/A.6.9__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.6.9 — Cross-Context Sameness Disambiguation - Restoring the concrete claim behind \"same\", \"equivalent\", and \"align\" (RPR-XCTX)"
+  - "A.6.9 — Cross-Context Sameness Disambiguation - Restoring the claim behind \"same\", \"equivalent\", and \"align\" (RPR-XCTX)"
   - "A.6.9:7 — Conformance Checklist"
-line_start: 24773
-line_end: 24796
+line_start: 25694
+line_end: 25717
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -61,21 +61,21 @@ A repaired sentence or boundary statement conforms iff:
 
 1. **Concrete action.** The reader can say what object, comparison, substitution, translation, publication, or other action is at issue.
 2. **Use the applicable subject rule.** Recover only the reference-scheme, scope, grounding, time, project, viewpoint, representation, structure, subject-relation, identifier, system-role or Work claim actually made. A clear ordinary statement does not require all those neighboring objects.
-3. **Exact endpoints.** Every Bridge candidate uses two F.17 cell addresses resolving exact values.
+3. **Endpoints.** Every Bridge candidate uses two F.17 cell addresses resolving values.
 4. **No context proxy.** Semantic bounded context is the Plain local interpretation basis recovered from the endpoint projection; it is not a project situation, model-use structure, scope, grounding, time, viewpoint, identity, or direct relation participant.
-5. **Direct Bridge truth.** A positive occurrence appears only after the exact profile applies, its predicate is true, and dependencies are present.
+5. **Direct Bridge truth.** A positive occurrence appears only after the profile applies, its predicate is true, and dependencies are present.
 6. **Profile boundary.** Profile identity contains relation semantics only, with no use, tolerance, polarity, reliance, authorization, or receiving object.
-7. **Separate use claim.** Every proposed use of an obtaining Bridge names `u`, `d`, `r`, `t`, polarity, and effective scheme in a C.2.1 claim about the exact Bridge.
+7. **Separate use claim.** Every proposed use of an obtaining Bridge names `u`, `d`, `r`, `t`, polarity, and effective scheme in a C.2.1 claim about the Bridge.
 8. **Evidence honesty.** Mapping artifacts may carry claims and grounds; evaluate their contribution under the applicable evidence rule. Keep observed loss separate from the permitted loss in the bounded-use claim. CL grants nothing.
 9. **Reliance branch.** Current reliance follows A.10 or B.3 for the same use and does not become authorization.
 10. **Receiving-object boundary.** Any claim that the use happened names the actual object and states the concrete claim using the rule that defines its predicate.
 11. **Card boundary.** Actual, candidate, and negative cards use the correct EntityOfConcern and never create a Bridge or receiving occurrence.
 12. **Change honesty.** Endpoint, profile, use claim, reliance, card, publication, and receiving-object changes remain distinct.
-13. **No inferred inverse or composition.** An asymmetric inverse, opposite use direction, or direct A-to-C Bridge gets its own exact judgement.
+13. **No inferred inverse or composition.** An asymmetric inverse, opposite use direction, or direct A-to-C Bridge gets its own judgement.
 14. **Practical result.** The final sentence conveys the useful action and any necessary stop or reopen condition. An explanatory non-inference passes the independent-ground, plausible-reader and contribution tests in §4.4.
 15. **Same-locality route.** Same projection uses ordinary designation and, when claim extent changes, A.2.6 `widen`, `narrow`, or `refit`; it does not mint a Bridge.
-16. **RT boundary.** An ordinary A.6.3.RT note states the same concern, preserved content, representation delta, material loss and supported use. It includes a source-return condition and destination when return is needed for that use. A triggered exact construction adds exact `X`, `Y`, and `v`; actual representation-transformation Work enters only when the six-participant occurrence is asserted. None is scope translation or a Bridge.
-17. **Structure boundary.** When §4.8's crossing-organization branch is current, each participating `BoundedModelUseStructure` is independently selected; every selected subject crossing satisfies the predicate and obtaining condition defined for that relation, with its participants and occurrence identity explicit; and the conditional A.22 cross-structure selection names exact substrate, relation organization, applied constraints and invariants, and receiving-use frame. Recover a separately claimed selection judgment or dated selection Work under §4.8; identify a result episteme when persistence is needed and an exact governed decision when an accountable choice is claimed. Missing relation law returns the A.6.RCD missing-governor stop; shared participants or artifact presence alone establish none of these facts; their content may supply claims or grounds under the applicable rule.
+16. **RT boundary.** An ordinary A.6.3.RT note states the same concern, preserved content, representation delta, material loss and supported use. It includes a source-return condition and destination when return is needed for that use. A triggered construction adds `X`, `Y`, and `v`; actual representation-transformation Work enters only when the six-participant occurrence is asserted. None is scope translation or a Bridge.
+17. **Structure boundary.** When §4.8's crossing-organization branch is current, each participating `BoundedModelUseStructure` is independently selected; every selected subject crossing satisfies the predicate and obtaining condition defined for that relation, with its participants and occurrence identity explicit; and the conditional A.22 cross-structure selection names substrate, relation organization, applied constraints and invariants, and receiving-use frame. Recover a separately claimed selection judgment or dated selection Work under §4.8; identify a result episteme when persistence is needed and a governed decision when an accountable choice is claimed. Missing relation law returns the A.6.RCD missing-governor stop; shared participants or artifact presence alone establish none of these facts; their content may supply claims or grounds under the applicable rule.
 18. **Grounding and endpoint distinctions.** Grounding holon and EntityOfConcern are not assumed identical; every SenseCell, description episteme, designator, and reference remains distinct.
-19. **Published-model crossing stop.** The NAICS replay independently identifies the exact episteme edition and application system, keeps E.24.PUB occurrence/form/carrier separate, recovers applicability and actual model use before structure selection, and treats *Conformist* as a proposal only. If the receiving use selects another edition, establish applicability, actual use, coherence, preservation, loss, and any governed crossing for that exact episteme before selecting the structure. A positive adoption, dependency, or update-authority crossing requires a current pattern that defines its predicate, obtaining condition, and identity rule; an F.9 Bridge or publication evidence may support but does not supply that governor.
+19. **Published-model crossing stop.** The NAICS replay independently identifies the episteme edition and application system, keeps E.24.PUB occurrence/form/carrier separate, recovers applicability and actual model use before structure selection, and treats *Conformist* as a proposal only. If the receiving use selects another edition, establish applicability, actual use, coherence, preservation, loss, and any governed crossing for that episteme before selecting the structure. A positive adoption, dependency, or update-authority crossing requires a current pattern that defines its predicate, obtaining condition, and identity rule; an F.9 Bridge or publication evidence may support but does not supply that governor.
 

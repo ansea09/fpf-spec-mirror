@@ -6,12 +6,12 @@ section_id: "E.4.PFIP:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFIP/E.4.PFIP__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.4.PFIP — Principle-Framework Publication Integration and Preservation"
   - "E.4.PFIP:4 — Solution"
-line_start: 96126
-line_end: 96229
+line_start: 101276
+line_end: 101413
 dependencies:
   - "C.2.1"
   - "C.33"
@@ -34,11 +34,17 @@ For a candidate framework publication with a predecessor, run two independent co
 - **accepted source to candidate:** whether each accepted source contribution was incorporated into the named part of a candidate publication-form expression without changing its accepted meaning or use; and
 - **predecessor to candidate:** whether the candidate preserves the complete predecessor publication outside accepted content changes.
 
-The predecessor-to-candidate question has two branches. Use a one-to-one expression comparison for an eligible predecessor/candidate pair. Use an allocation comparison for a non-one-to-one publication-form change, including every split or merge even when a narrower one-to-one pair also survives.
+The predecessor-to-candidate question has two branches.
 
-These two comparisons and the two predecessor branches are parts of the method, not new FPF kinds. When a later use needs the conclusion as a reusable episteme, identify it under `C.2.1` and state the later reliance separately.
+Use a one-to-one expression comparison for an eligible predecessor/candidate pair.
 
-A publication-form expression here is one independently identified expression under E.24.PUB that follows the selected reusable form. Fix its domain and equality rule before comparing it. The form-mediated relation can remain true while its expression witness changes, so a preservation comparison identifies the actual predecessor and candidate expressions rather than relying on that relation alone.
+Use an allocation comparison for a non-one-to-one publication-form change, including every split or merge even when a narrower one-to-one pair also survives.
+
+These comparisons and predecessor branches are operations of the method. They introduce no FPF kinds. When a later use needs the conclusion as a reusable episteme, identify it under `C.2.1` and state the later reliance separately.
+
+A publication-form expression here is one independently identified expression under E.24.PUB that follows the selected reusable form. Fix its domain and equality rule before comparing it.
+
+The form-mediated relation can remain true while its expression witness changes, so a preservation comparison identifies the predecessor and candidate expressions rather than relying on that relation alone.
 
 #### E.4.PFIP:4.1 - Bound the candidate and accepted inputs
 
@@ -46,17 +52,25 @@ Identify:
 
 - the candidate FPF, DPF, or LPF edition and declared publication use;
 - every accepted source contribution included in this candidate edition;
-- every candidate `PublicationExpressionRelation` occurrence and its selected edition, independently identified expression, and bounded-use declaration, plus any selected form and its `PublicationFormConformanceRelation`; retain a current `PublicationFormExpressionRelation` claim with its actual expression witness;
+- every candidate `PublicationExpressionRelation` occurrence, its selected edition, independently identified expression and bounded-use declaration, and any selected form and its `PublicationFormConformanceRelation`. Retain a current `PublicationFormExpressionRelation` claim with its expression witness;
 - the corresponding carriers and publication occurrences only when their identities affect the comparison; and
 - every predecessor expression whose continuity, replacement, retirement, split, merge, or use change is claimed.
 
-Complete the accepted input set before assembly. If one source contribution changes a public entry, required input, result, field meaning, action order, stop, return, or another consumed interface, either include the affected public entries and direct consumers in this candidate or leave that contribution out until they can be updated with it.
+Complete the accepted input set before assembly.
 
-Before assigning a receiving passage, recover the content architecture that makes that receiver appropriate. Method placement and architectural-account placement answer different questions. The former follows the Method's subject, generality and required contributions under E.4 and E.4.PFAD; the latter follows the named whole explained under E.11.DSG:4.1. An account connecting Core and domain languages can belong to a Library account even when the general Method it explains belongs in Core. Retiring a separate carrier supplies neither placement decision. If the receiver is not justified, return that architecture question before treating a content match as an accepted allocation.
+If one source contribution changes a public entry, required input, result, field meaning, action order, stop, return, or another consumed interface, either include the affected public entries and direct consumers in this candidate or leave that contribution out until they can be updated with it.
 
-For each accepted source contribution, record the candidate publication-form expression and the passage, field, relation, cue, or selected structure intended to incorporate it. A source contribution with no corresponding predecessor content is an accepted addition. Changing or retiring predecessor content needs an accepted content decision; changing or retiring a publication form is not such a decision.
+Before assigning a receiving passage, recover the content architecture that makes that receiver appropriate. Method placement and architectural-account placement answer different questions.
 
-Use `E.24.PUB` to keep the framework edition, particular expression, reusable publication form, expression and conformance relations, carrier, bearing relation, audience, bounded use, and publication occurrence distinct. Use the smallest explicit statement that supports the comparison.
+Place a Method by its subject, generality and required contributions under E.4 and E.4.PFAD. Place an architectural account by the named whole it explains under E.11.DSG:4.1. An account connecting Core and domain languages can belong to a Library account even when the general Method it explains belongs in Core.
+
+Retiring a separate carrier supplies neither placement decision. If the receiver is not justified, return that architecture question before treating a content match as an accepted allocation.
+
+For each accepted source contribution, record the candidate publication-form expression and the passage, field, relation, cue, or selected structure intended to incorporate it.
+
+A source contribution with no corresponding predecessor content is an accepted addition. Changing or retiring predecessor content needs an accepted content decision; changing or retiring a publication form is not such a decision.
+
+Use `E.24.PUB` to keep the framework edition, individually identified expression, reusable publication form, expression and conformance relations, carrier, bearing relation, audience, bounded use, and publication occurrence distinct. Use the smallest explicit statement that supports the comparison.
 
 #### E.4.PFIP:4.2 - Compare accepted sources with candidate expressions
 
@@ -72,11 +86,13 @@ Classify each accepted source contribution with one of these outcomes:
 - placed where the intended reader or consumer cannot use it; or
 - blocked because the accepted source contribution or intended candidate expression part cannot be recovered.
 
-The checkable traversal can retain an ordinary positive classification without adding a prose row. This comparison establishes source carry-through only. It says nothing yet about unrelated predecessor content.
+You can retain an ordinary positive outcome in the checkable comparison without writing a prose row. This comparison establishes source carry-through only. Unrelated predecessor content needs its own comparison.
 
 #### E.4.PFIP:4.3 - Compare one eligible expression pair
 
-One preservation comparison follows one eligible pair: one predecessor `PublicationExpressionRelation` occurrence and one candidate occurrence, with both expression identities fixed. Where form-mediated continuity is claimed, retain the corresponding `PublicationFormExpressionRelation` occurrences and identify the exact expression witnesses being compared.
+One preservation comparison follows one eligible pair: one predecessor `PublicationExpressionRelation` occurrence and one candidate occurrence, with both expression identities fixed.
+
+Where form-mediated continuity is claimed, retain the corresponding `PublicationFormExpressionRelation` occurrences and identify the expression witnesses being compared.
 
 A pair is eligible only when both expressions have the same declared bounded use and either:
 
@@ -85,38 +101,52 @@ A pair is eligible only when both expressions have the same declared bounded use
 
 The same broad use alone does not pair two forms when several forms serve that use.
 
-Before concluding preservation, select one complete, form-appropriate comparison inventory. The inventory names every predecessor claim, instruction, boundary, field, relation, cue, or selected structure required for the declared use. Beside each entry, record why it matters—the FPF pattern that defines or constrains the form, or another accepted comparison basis—and any candidate correspondence. The inventory is a comparison aid; it does not make the named kinds members of one new kind.
+Before concluding preservation, select one complete, form-appropriate comparison inventory. The inventory names every predecessor claim, instruction, boundary, field, relation, cue, or selected structure required for the declared use.
 
-For comparable text expressions, deletion and replacement spans expose independently actionable predecessor claims, instructions, and boundaries. Treat this as one comparison technique, not the definition of completeness. For a card, diagram, retrieval form, or another expression without shared span coordinates, inventory the claims or selected structures required for the declared use. Use the FPF pattern that defines or constrains that form and, when applicable, `C.33` to state captured and lost structure or `C.34` to state a bounded structural correspondence.
+Beside each entry, record why it matters—the FPF pattern that defines or constrains the form, or another accepted comparison basis—and any candidate correspondence.
 
-Traverse the entire predecessor inventory. For each named content or selected structure, record one outcome:
+The inventory aids comparison. It does not make the named kinds members of one new kind.
+
+For comparable text expressions, deletion and replacement spans expose independently actionable predecessor claims, instructions, and boundaries. These spans are one comparison technique. Completeness depends on coverage of what the declared use requires.
+
+For a card, diagram, retrieval form, or another expression without shared span coordinates, inventory the claims or selected structures required for the declared use. Use the FPF pattern that defines or constrains that form and, when applicable, `C.33` to state captured and lost structure or `C.34` to state a bounded structural correspondence.
+
+Traverse the entire predecessor inventory. For each named item of content or selected structure, record one outcome:
 
 - matched by content or selected structure in one or more named candidate expression parts;
 - intentionally changed or retired by an accepted content decision;
 - accidentally lost; or
 - blocked because the correspondence or decision cannot be established.
 
-Classify candidate content or selected structure without a predecessor correspondence as an accepted or unexpected addition. If no applicable FPF pattern or accepted comparison basis makes a complete inventory selectable for the declared use, stop at `missing form-comparison basis`. Carrier identity, visual similarity, or a successful build cannot complete the comparison.
+Classify candidate content or selected structure without a predecessor correspondence as an accepted or unexpected addition.
+
+If no applicable FPF pattern or accepted comparison basis makes a complete inventory selectable for the declared use, stop at `missing form-comparison basis`. Carrier identity, visual similarity, or a successful build cannot complete the comparison.
 
 #### E.4.PFIP:4.4 - Allocate a non-one-to-one form change
 
-An accepted publication-form addition, retirement, split, merge, or use-change decision names the affected predecessor and candidate expression occurrences and any narrower one-to-one continuity that survives. It authorizes the change in publication forms. It does not dispose of predecessor content.
+An accepted publication-form addition, retirement, split, merge, or use-change decision names the affected predecessor and candidate expression occurrences and any narrower one-to-one continuity that survives. It authorizes the form change. Predecessor content needs its own disposition.
 
 Run a separate allocation comparison for every accepted form change that leaves an affected predecessor expression outside an eligible one-to-one pair, and for every split or merge even when narrower pairs survive.
 
 1. Select a complete inventory for every predecessor expression named by the form-change decision.
-2. For every named predecessor content or selected structure, use the receiving subject and publication function established in section 4.1, then record one or more corresponding candidate expression parts, an accepted content-change or content-retirement decision, an accidental-loss result, or a blocker. A complete textual match establishes correspondence, not the receiver's architectural suitability.
+2. For each named item of predecessor content or selected structure, use the receiving subject and publication function established in section 4.1, then record one or more corresponding candidate expression parts, an accepted content-change or content-retirement decision, an accidental-loss result, or a blocker. A complete textual match establishes correspondence. The receiver needs the architectural grounds from section 4.1.
 3. Allow predecessor content to appear in several candidate expressions and several predecessor inventory entries to correspond to one candidate expression part.
 4. Inspect the complete inventories of the named candidate expressions and classify candidate content or selected structure without a predecessor allocation as accepted or unexpected additions.
 5. Reuse an eligible-pair result as correspondence evidence when applicable, but do not let it replace the allocation traversal.
 
-Keep every named expression, carrier, edition, and publication occurrence separate throughout the allocation. The allocation comparison is the method for reasoning across them; it does not need a new collective publication kind.
+Keep every named expression, carrier, edition, and publication occurrence separate throughout the allocation. Use the allocation comparison to reason across these objects. It requires no collective publication kind.
 
-Without the form-change decision, stop at `missing publication-expression continuity decision`. Without a complete selectable predecessor inventory, stop at `missing form-comparison basis`. Without an outcome for any named predecessor content or selected structure, return accidental loss or a blocker. Retiring a form never retires its content by implication.
+Without the form-change decision, stop at `missing publication-expression continuity decision`.
+
+Without a complete selectable predecessor inventory, stop at `missing form-comparison basis`.
+
+Without an outcome for any named item of predecessor content or selected structure, return accidental loss or a blocker. Retiring a form never retires its content by implication.
 
 #### E.4.PFIP:4.5 - Complete the affected-publication comparison and return
 
-Identify every affected exact expression relation occurrence, its selected reusable form when applicable, and any form-mediated relation whose continuity is claimed and, when carrier or publication identity affects the comparison, its bearing and publication relations. Run every applicable eligible-pair comparison and allocation comparison. Check each shared public entry or direct consumer once across the comparisons, while preserving the separate expression results that depend on it.
+Identify every affected occurrence of the exact expression relation and its selected reusable form where applicable. Include any form-mediated relation whose continuity is claimed. If carrier or publication identity affects the comparison, include its bearing and publication relations.
+
+Run every applicable eligible-pair and allocation comparison. Check each shared public entry or direct consumer once across these comparisons and keep the separate expression results that depend on it.
 
 Return a bounded preservation conclusion with:
 
@@ -127,7 +157,11 @@ Return a bounded preservation conclusion with:
 - blockers and the comparisons they prevent; and
 - the declared use for which the conclusion holds.
 
-The complete traversal remains checkable even though unchanged predecessor content and selected structure receive no prose rows. A build result, successful accepted-source comparison, pattern-quality result, or package-adequacy result cannot substitute for it.
+The complete traversal remains checkable. Unchanged predecessor content and selected structure receive no prose rows. A build result, successful accepted-source comparison, pattern-quality result, or package-adequacy result cannot substitute for that traversal.
 
-When the framework publication has no predecessor, perform the accepted-source comparison, inspect the complete candidate inventory, check changed public entries and direct consumers, and use the applicable package evaluation. When an unchanged edition is merely republished through a different form or carrier, use `E.24.PUB`, `E.17`, `C.33`, and `C.34` for the changed publication claims. Use this pattern only when accepted-source integration or complete framework-publication continuity is the live problem.
+When the framework publication has no predecessor, perform the accepted-source comparison, inspect the complete candidate inventory, check changed public entries and direct consumers, and use the applicable package evaluation.
+
+When an unchanged edition is republished through a different form or carrier, use `E.24.PUB`, `E.17`, `C.33`, and `C.34` for the changed publication claims.
+
+Use this pattern only when accepted-source integration or complete framework-publication continuity is the live problem.
 

@@ -6,26 +6,23 @@ section_id: "C.24:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.24 — Plan Tool or Service Calls for a Fixed Action (C.Agent-Tools-CAL)"
   - "C.24:intro — Intro"
-line_start: 64570
-line_end: 64583
+line_start: 67402
+line_end: 67427
 dependencies:
   - "A.10"
   - "A.15"
   - "A.15.1"
   - "A.15.2"
-  - "A.15.7"
   - "B.1.6"
   - "B.3"
   - "C.11"
   - "C.16"
   - "C.18"
   - "C.19"
-  - "C.19.1"
-  - "C.2.1"
   - "C.28"
   - "C.5"
   - "E.17"
@@ -52,7 +49,19 @@ keywords:
 
 **Intent.** Help a practitioner turn an already fixed action or option into a budgeted call plan, then revise that plan or return a bounded checkpoint without confusing planning with selection or execution.
 
-**Depends on.** `A.15` and its planning and Work patterns for Methods, descriptions, plans, performed Work, and attribution; `A.15.7` for a situation-responsive next-action decision; `C.11` for a fixed choice among a current `OptionSet`; `C.2.1` when the relied-on decision or checkpoint needs a persistent episteme; `C.18` for candidate-generation records; `C.19` for live-pool policy; `C.19.1` for a scale-based comparison or waiver; `C.16` for measured comparison inputs; `OPS.11.1:4.2–4.3` for constructing a route from required contributions and reconciling its resource conditions; `G.6` when a call trace must remain replayable; and `B.3` only when a named assurance use needs one bounded assurance result.
+**Depends on.**
+
+- `A.15` and its planning and Work patterns for Methods, descriptions, plans, performed Work, and attribution;
+- `A.15.7` for a situation-responsive next-action decision;
+- `C.11` for a fixed choice among a current `OptionSet`;
+- `C.2.1` when the relied-on decision or checkpoint needs a persistent episteme;
+- `C.18` for candidate-generation records;
+- `C.19` for live-pool policy;
+- `C.19.1` for a scale-based comparison or waiver;
+- `C.16` for measured comparison inputs;
+- `OPS.11.1:4.2–4.3` for constructing a route from required contributions and reconciling its resource conditions;
+- `G.6` when a call trace must remain replayable;
+- `B.3` only when a named assurance use needs one bounded assurance result.
 
 **Coordinates with.** `U.PromiseContent` for service acceptance conditions, `C.28` when a planned call is intended to support a causal use, and `E.17`/`E.24.PUB` when an already obtained result is being published or made available.
 

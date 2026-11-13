@@ -6,12 +6,12 @@ section_id: "A.6.2:4"
 section_title: "Solution — define one local arrow discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.2/A.6.2__005_solution-define-one-local-arrow-discipline.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.2 — Effect-Free Episteme Morphing: Laws for Mathematical Relations Between Epistemes"
   - "A.6.2:4 — Solution — define one local arrow discipline"
-line_start: 17241
-line_end: 17413
+line_start: 18046
+line_end: 18234
 dependencies:
   - "A.6.0"
   - "A.6.1"
@@ -35,27 +35,27 @@ keywords:
 
 #### A.6.2:4.1 - Informal definition
 
-> **Definition.** An **effect-free episteme morphism** is a local mathematical arrow `f : X -> Y` between two exact epistemes. Under its selected formal substrate, it states how claim content, the EntityOfConcern, and any material reference or representation scheme correspond. Its content is this mathematical relation and its laws. Any Work, mechanism application, or episteme creation is a separate fact under its direct governor.
+> **Definition.** An **effect-free episteme morphism** is a local mathematical arrow `f : X -> Y` between two epistemes. Under its selected formal substrate, it states how claim content, the EntityOfConcern, and any material reference or representation scheme correspond. Its content is this mathematical relation and its laws. Any Work, mechanism application, or episteme creation is a separate fact under its direct governor.
 
 This is a local mathematical class defined here in the selected formal substrate, not an admitted durable U-kind. The pattern keeps the short name **EFEM** for that class. A reusable A.6.0 FormalSubstrate signature may declare its vocabulary and P0-P5 laws, but that signature episteme is not the class and is not one arrow.
 
 An arrow in this class:
 
-* has exact domain and codomain epistemes identified under C.2.1;
+* has domain and codomain epistemes identified under C.2.1;
 * is effect-free: no Work, mechanism application, system change, or carrier mutation follows from the arrow;
-* states the exact conservativity rule it claims;
+* states the conservativity rule it claims;
 * obeys the declared identity and composition laws; and
 * is classified locally by `EntityOfConcernChangeMode` as `preserve` or `retarget`.
 
-Within the selected formal substrate, one arrow is identified by its exact domain, codomain, arrow rule or designator, and declared formal equivalence. Two arrows can have the same endpoints and still be different. Changing a claim about whether the same arrow is suitable for another use does not reidentify the arrow.
+Within the selected formal substrate, one arrow is identified by its domain, codomain, arrow rule or designator, and declared formal equivalence. Two arrows can have the same endpoints and still be different. Changing a claim about whether the same arrow is suitable for another use does not reidentify the arrow.
 
 The ordinary FPF objects remain separate:
 
 * `f` is the local mathematical arrow;
 * the A.6.0 FormalSubstrate signature is a C.2.1 episteme declaring reusable vocabulary and laws for the arrow family;
 * a C.2.1 bounded-use assertion `q` about `f` is another episteme; its ClaimGraph states the invariant, visible loss, named receiving use, conditions, and affirmative or negative polarity;
-* a current-case judgement separately compares exact facts with `q` and returns `satisfies`, `fails`, or `cannot decide`;
-* an operation application and any Work that computes, authors, or changes an episteme are identified only when they actually occur.
+* a current-case judgement separately compares facts with `q` and returns `satisfies`, `fails`, or `cannot decide`;
+* an operation application and any Work that computes, authors, or changes an episteme are identified only when they occur.
 
 The A.6.3 viewing branch has endpoint epistemes about the same EntityOfConcern. The A.6.4 retargeting branch has endpoints about independently different entities. A receiving-use claim adds the separate bounded-use assertion `q`; a judgement about a current case tests its facts against `q`.
 
@@ -65,28 +65,36 @@ When a receiving use needs a reusable formal declaration, an A.6.0 `U.Signature(
 
 ```text
 SubjectKind     = local formal type EpMorphism
-RangedValueKind = admitted ordered-pair range over exact U.Episteme values satisfying the declared endpoint-kind constraints
+RangedValueKind = admitted ordered-pair range over U.Episteme values satisfying the declared endpoint-kind constraints
 ResultKind      = omitted; the arrow is the declared subject, not an operation result
 Applicability   = selected formal substrate, admitted endpoint kinds, and arrow-family conditions
 ```
 
-`SubjectKind` here is a type inside the selected formal substrate, not a durable FPF U-kind. Add `SliceSet` and `ExtentRule` only if one declared local type genuinely has slice-varying membership; do not use them to hide a use-specific suitability claim.
+`SubjectKind` here is a type inside the selected formal substrate, not a durable FPF U-kind. Add `SliceSet` and `ExtentRule` only if one declared local type has slice-varying membership; do not use them to hide a use-specific suitability claim.
 
 **Vocabulary.**
 
-* `U.Episteme` — the exact domain and codomain values.
+* `U.Episteme` — the domain and codomain values.
 * `EpMorphism` — the local formal type of arrows in the selected substrate.
 * `EntityOfConcernChangeMode = {preserve, retarget}` — a local two-value classification of one arrow, derived from its resolved endpoint EntitiesOfConcern rather than a durable U-kind or a `U.Characteristic`.
-* `Ep` — the selected category whose objects are the admitted exact epistemes and whose arrows are the admitted `EpMorphism` values. Call it a category only when it contains the required identities and is closed under every declared composition.
-* `EoCBase` — the endpoint-only thin category used to compare EntityOfConcern identity. Its objects are the exact independently resolved EntitiesOfConcern represented in the substrate. Between every ordered pair of admitted objects `A,B` it has one formal endpoint arrow `u_{A,B}`; `u_{A,A}` is the identity, and composition follows endpoints. These arrows are not independently meaningful domain or world-side relations.
-* `dom(f)` and `cod(f)` — the exact endpoint epistemes; `id_X` and `compose(g,f)` — the declared identity and composition operations.
-* `α : Ep -> EoCBase` — the declared mapping on objects and arrows. `α(X)` is X's exact EntityOfConcern after `entityOfConcernRef(X)` resolves it. For `f : X -> Y`, `α(f)` is the unique endpoint arrow `u_{α(X),α(Y)}`. It deliberately forgets f's arrow rule; different Ep arrows with the same endpoint EntitiesOfConcern therefore have the same image.
+* `Ep` — the selected category whose objects are the admitted epistemes and whose arrows are the admitted `EpMorphism` values. Call it a category only when it contains the required identities and is closed under every declared composition.
+* `EoCBase` — the endpoint-only thin category used to compare EntityOfConcern identity. Its objects are the independently resolved EntitiesOfConcern represented in the substrate. Between every ordered pair of admitted objects `A,B` it has one formal endpoint arrow `u_{A,B}`; `u_{A,A}` is the identity, and composition follows endpoints. These arrows are not independently meaningful domain or world-side relations.
+* `dom(f)` and `cod(f)` — the endpoint epistemes; `id_X` and `compose(g,f)` — the declared identity and composition operations.
+* `α : Ep -> EoCBase` — the declared mapping on objects and arrows. `α(X)` is X's EntityOfConcern after `entityOfConcernRef(X)` resolves it. For `f : X -> Y`, `α(f)` is the unique endpoint arrow `u_{α(X),α(Y)}`. It deliberately forgets f's arrow rule; different Ep arrows with the same endpoint EntitiesOfConcern therefore have the same image.
 
-For each arrow, recover the C.2.1 identity values of X and Y and state which identity-bearing values or ClaimGraph parts are preserved or differ. If the arrow rule uses a neighboring relation, name its exact predicate and participants on each side and state which endpoint facts it reads or compares. Equal or different endpoint profiles do not mean that the arrow changed a relation occurrence or made it obtain or cease; any actual relation change and producing application or Work remain under their direct patterns. `SubjectRef` remains only a legacy source projection; resolve it to the exact episteme and EntityOfConcern.
+For each arrow, recover the C.2.1 identity values of X and Y and state which identity-bearing values or ClaimGraph parts are preserved or differ. If the arrow rule uses a neighboring relation, name its predicate and participants on each side and state which endpoint facts it reads or compares.
 
-A claim that `f` is suitable for one exact use is a separate C.2.1 bounded-use assertion `q`; a current-case judgement separately tests exact facts against it. A.6.1 governs the application occurrence and its argument and result bindings when those facts are current; the applicable system and Work patterns govern the performing system and performed Work. The A.6.0 signature and the mathematical arrow `f : X -> Y` remain the reusable declaration and relation.
+Equal or different endpoint profiles do not mean that the arrow changed a relation occurrence or made it obtain or cease; any relation change and producing application or Work remain under their direct patterns.
 
-**Laws and applicability.** P0-P5 below govern the local arrow class. A.6.5 SlotSpecs enter only when an exact reusable direct-relation declaration is current; they are not fields of X, Y, or `f`.
+`SubjectRef` remains only a legacy source projection; resolve it to the episteme and EntityOfConcern.
+
+A claim that `f` is suitable for one use is a separate C.2.1 bounded-use assertion `q`; a current-case judgement separately tests facts against it.
+
+A.6.1 governs the application occurrence and its argument and result bindings when those facts are current; the applicable system and Work patterns govern the performing system and performed Work.
+
+The A.6.0 signature and the mathematical arrow `f : X -> Y` remain the reusable declaration and relation.
+
+**Laws and applicability.** P0-P5 below govern the local arrow class. A.6.5 SlotSpecs enter only when a reusable direct-relation declaration is current; they are not fields of X, Y, or `f`.
 
 #### A.6.2:4.3 - Laws P0–P5 (normative)
 
@@ -96,68 +104,72 @@ All laws below test membership in the local EFEM arrow class under the selected 
 
 For any arrow `f : X→Y` presented as an effect-free episteme morphism:
 
-1. **Typed epistemes.** `X` and `Y` are epistemes of declared kinds `K_X, K_Y : U.EpistemeKind`, each identified under C.2.1 by exact claim content, one EntityOfConcern, and one effective ReferenceScheme. Grounding and representation relations are added only when current; a viewpoint selected for a named describing use remains outside episteme identity.
+1. **Typed epistemes.** `X` and `Y` are epistemes of declared kinds `K_X, K_Y : U.EpistemeKind`, each identified under C.2.1 by claim content, one EntityOfConcern, and one effective ReferenceScheme. Grounding and representation relations are added only when current; a viewpoint selected for a named describing use remains outside episteme identity.
 
 2. **Value and use projection.** For each episteme `E`—and separately for a named describing use when one is current—EFEM laws may refer to:
-   * `content(E)` — E's exact identity-bearing claim content recovered under C.2.1:4.1.1;
-   * `entityOfConcernRef(E) : U.EntityRef` — designates E's exact EntityOfConcern;
-   * `selectedViewpointRef?(use) : U.ViewpointRef` — only when the named describing use selects one exact viewpoint; this is not a component of E's identity;
+   * `content(E)` — E's identity-bearing claim content recovered under C.2.1:4.1.1;
+   * `entityOfConcernRef(E) : U.EntityRef` — designates E's EntityOfConcern;
+   * `selectedViewpointRef?(use) : U.ViewpointRef` — only when the named describing use selects one viewpoint; this is not a component of E's identity;
    * `referenceScheme(E)` — the effective designation and interpretation rules recovered for E under C.2.1:4.1.1;
-   * `representationSchemeRef?(E) : U.RepresentationSchemeRef` — only when an exact representation scheme and its correspondence relation are current for E under their direct governors; C.29 governs any mathematical-lens use; this is not a C.2.1 identity component;
-   * a separately current neighboring fact — name the exact `EpistemeEditionRelation`, exact A.10 evidence or provenance relation, or other governed predicate and its participants when the arrow family reads or compares it; do not collect these facts in a generic projection. If E asserts such a fact, that assertion is already part of `content(E)`.
+   * `representationSchemeRef?(E) : U.RepresentationSchemeRef` — only when a representation scheme and its correspondence relation are current for E under their direct governors; C.29 governs any mathematical-lens use; this is not a C.2.1 identity component;
+   * a separately current neighboring fact — name the `EpistemeEditionRelation`, A.10 evidence or provenance relation, or other governed predicate and its participants when the arrow family reads or compares it; do not collect these facts in a generic projection. If E asserts such a fact, that assertion is already part of `content(E)`.
 
    These are projections of the identified endpoint values. The arrow family's declared endpoint kinds and predicates determine admissibility. If its law additionally classifies content or scheme candidates for substitution, recover that classification's own domain and criterion; endpoint membership supplies no general constituent ValueKind. C.2.1:4.2.1 governs that stronger typed use.
 
-   When grounding matters, name the exact grounding relation, its grounding holon, and the claims it covers; grounding is not another component of episteme identity.
+   When grounding matters, name the grounding relation, its grounding holon, and the claims it covers; grounding is not another component of episteme identity.
 
 3. **Derived `EntityOfConcernChangeMode` and subtype restriction.**
    Each admitted arrow receives its mode from its resolved endpoint EntitiesOfConcern:
 
-   * `entityOfConcernChangeMode(f) = preserve` when X and Y concern the same exact entity; a current grounding relation remains a separately governed fact;
-   * `entityOfConcernChangeMode(f) = retarget` when X and Y concern independently different entities. Any claim that `f` supports one receiving use is a separate A.6.4 bounded-use assertion `q`; its ClaimGraph states the invariant, visible loss, receiving use, conditions, and affirmative or negative polarity. A current-case judgement separately tests the exact facts.
+   * `entityOfConcernChangeMode(f) = preserve` when X and Y concern the same entity; a current grounding relation remains a separately governed fact;
+   * `entityOfConcernChangeMode(f) = retarget` when X and Y concern independently different entities. Any claim that `f` supports one receiving use is a separate A.6.4 bounded-use assertion `q`; its ClaimGraph states the invariant, visible loss, receiving use, conditions, and affirmative or negative polarity. A current-case judgement separately tests the facts.
 
    The parent EFEM class contains both modes. A named species or subtype may admit only one mode, but that restriction does not by itself make the subtype closed under composition. Classify each composite again from its final endpoints under P3.
 4. **Legacy SubjectRef and describing-use discipline.**
-   For Description epistemes, including those admitted for specification use, resolve legacy `subjectRef(E)` to exact E and its EntityOfConcern. State which endpoint claim content, EntityOfConcern, and effective scheme are preserved or differ. When grounding or a selected describing-use viewpoint matters, name the exact occurrence or use qualification on each side and state which facts the rule reads or compares. Any occurrence change follows its direct relation pattern, while viewpoint selection and conformance remain separately claimed.
+   For Description epistemes, including those admitted for specification use, resolve legacy `subjectRef(E)` to E and its EntityOfConcern. State which endpoint claim content, EntityOfConcern, and effective scheme are preserved or differ. When grounding or a selected describing-use viewpoint matters, name the occurrence or use qualification on each side and state which facts the rule reads or compares. Any occurrence change follows its direct relation pattern, while viewpoint selection and conformance remain separately claimed.
 
 ##### A.6.2:4.3.2 - P1 — Effect-free arrow, separate execution
 
 The mathematical statement `f : X -> Y` records only the arrow and its laws. A claim that a system computed, authored, stored, transmitted, or published Y requires the corresponding application, Work, result, or publication facts separately.
 
-When a system actually measures, simulates, translates, normalizes, fits, or otherwise produces or changes an episteme, identify separately:
+When a system measures, simulates, translates, normalizes, fits, or otherwise produces or changes an episteme, identify separately:
 
-* the exact A.6.1 operation application and its argument and result bindings, when that declaration is current;
+* the A.6.1 operation application and its argument and result bindings, when that declaration is current;
 * the system and any performed Work;
 * the affected or newly constituted episteme and its C.2.1 identity facts; and
-* any production, evidence, publication, or reliance relation that actually obtains under its own direct governor.
+* any production, evidence, publication, or reliance relation that obtains under its own direct governor.
 
-The same arrow can relate already existing epistemes, or be used in several separately identified applications. Conversely, two applications do not become the same because they use the same arrow. When a result or production relation is current, identify its separately governed application and exact result facts.
+The same arrow can relate already existing epistemes, or be used in several separately identified applications. Conversely, two applications do not become the same because they use the same arrow. When a result or production relation is current, identify its separately governed application and result facts.
 
 ##### A.6.2:4.3.3 - P2 — Claim conservativity (no unlicensed commitments)
 
-Let `content_X = content(X)` and `content_Y = content(Y)`, with their effective ReferenceSchemes and exact EntitiesOfConcern. Interpret each ClaimGraph through its effective scheme. Name any additional exact source episteme, current fact, grounding relation, or scheme correspondence that the arrow rule actually admits; an entity or label by itself is not a claim premise. Then:
+Let `content_X = content(X)` and `content_Y = content(Y)`, with their effective ReferenceSchemes and EntitiesOfConcern. Interpret each ClaimGraph through its effective scheme. Name any additional source episteme, current fact, grounding relation, or scheme correspondence that the arrow rule admits; an entity or label by itself is not a claim premise. Then:
 
-> Every assertion in `content_Y` must be recoverable as a logical consequence, conservative re-expression, selection, or declared aggregation of the identified source ClaimGraphs and exact admitted facts under the named schemes. This includes assertions about an episteme's edition, source, status, witness, provenance, or evidence. Calling an assertion metadata does not exempt it from P2.
+> Every assertion in `content_Y` must be recoverable as a logical consequence, conservative re-expression, selection, or declared aggregation of the identified source ClaimGraphs and admitted facts under the named schemes. This includes assertions about an episteme's edition, source, status, witness, provenance, or evidence. Calling an assertion metadata does not exempt it from P2.
 
-An EFEM arrow may omit claims or conservatively reorganize and re-express them. It may not introduce an unsupported atomic commitment, silently widen claim scope, or cross a ReferencePlane without the exact relation required for that move.
+An EFEM arrow may omit claims or conservatively reorganize and re-express them. It may not introduce an unsupported atomic commitment, silently widen claim scope, or cross a ReferencePlane without the relation required for that move.
 
-A separately obtaining edition, provenance, evidence, or status relation remains outside episteme identity. If the arrow family compares such a relation across X and Y, name the exact predicate and participants on each side. The arrow records that comparison; it does not create or update the relation. If Y asserts the relation, that assertion is identity-bearing `content_Y` and must pass the same source-to-result trace as every other assertion.
+A separately obtaining edition, provenance, evidence, or status relation remains outside episteme identity. If the arrow family compares such a relation across X and Y, name the predicate and participants on each side. The arrow records that comparison; it does not create or update the relation. If Y asserts the relation, that assertion is identity-bearing `content_Y` and must pass the same source-to-result trace as every other assertion.
 
-Where `entityOfConcernChangeMode(f) = retarget`, the arrow declaration states its formal cross-entity correspondence; it does not itself establish conservativity for a receiving use. For a claimed receiving use, a separate A.6.4 bounded-use assertion `q` states the invariant, visible loss, receiving use, conditions, and polarity. When judging a current case, test its exact facts against `q`. An ordinary time-to-frequency representation of the same signal instead routes through A.6.3.RT; apply C.29 when the case also makes a mathematical-lens-use claim. A Fourier relation enters a retargeting case only after C.2.1 independently identifies a different receiving EntityOfConcern.
+Where `entityOfConcernChangeMode(f) = retarget`, the arrow declaration states its formal cross-entity correspondence; it does not itself establish conservativity for a receiving use. For a claimed receiving use, a separate A.6.4 bounded-use assertion `q` states the invariant, visible loss, receiving use, conditions, and polarity. When judging a current case, test its facts against `q`.
+
+An ordinary time-to-frequency representation of the same signal instead routes through A.6.3.RT; apply C.29 when the case also makes a mathematical-lens-use claim. A Fourier relation enters a retargeting case only after C.2.1 independently identifies a different receiving EntityOfConcern.
 
 ##### A.6.2:4.3.4 - P3 — Category structure and EntityOfConcern mapping
 
-Use this law only after the selected FormalSubstrate declares both categories and the mapping below. `Ep` has admitted exact epistemes as objects and admitted EFEM arrows as arrows. It is a category only when it contains the required identities and every composite of admitted arrows with a matching middle episteme. If that closure is absent, keep the individual arrows and do not claim this category or functor.
+Use this law only after the selected FormalSubstrate declares both categories and the mapping below. `Ep` has admitted epistemes as objects and admitted EFEM arrows as arrows. It is a category only when it contains the required identities and every composite of admitted arrows with a matching middle episteme. If that closure is absent, keep the individual arrows and do not claim this category or functor.
 
-`EoCBase` is the endpoint-only thin category over the exact resolved EntitiesOfConcern represented in the substrate. For every admitted pair `A,B`, it contains one formal arrow `u_{A,B}`. Its only endomorphism at A is `u_{A,A}=id_A`, and `compose(u_{B,C},u_{A,B})=u_{A,C}`. This formal arrow records only endpoint identity or difference; it is not an F.9 Bridge, a domain relation, or a claim that any world-side relation obtains.
+`EoCBase` is the endpoint-only thin category over the resolved EntitiesOfConcern represented in the substrate. For every admitted pair `A,B`, it contains one formal arrow `u_{A,B}`. Its only endomorphism at A is `u_{A,A}=id_A`, and `compose(u_{B,C},u_{A,B})=u_{A,C}`. This formal arrow records only endpoint identity or difference; it is not an F.9 Bridge, a domain relation, or a claim that any world-side relation obtains.
 
 ```text
 α : Ep -> EoCBase
 ```
 
-On objects, `α(X)` is the exact EntityOfConcern resolved through `entityOfConcernRef(X)`; the reference is only the means of resolution. For `f : X -> Y`, `α(f)=u_{α(X),α(Y)}`. Thus a preserve-mode arrow maps to the base identity even when f is not an identity arrow in Ep, while a retarget-mode arrow maps to the unique formal arrow between its different endpoint entities. `α` intentionally forgets the rule that distinguishes two Ep arrows with the same endpoint entities.
+On objects, `α(X)` is the EntityOfConcern resolved through `entityOfConcernRef(X)`; the reference is only the means of resolution. For `f : X -> Y`, `α(f)=u_{α(X),α(Y)}`.
 
-**Practitioner check.** Point to exact X, Y, and f; resolve both EntitiesOfConcern; and identify the resulting endpoint arrow. For a proposed composition, point to the exact middle episteme and the admitted composite, then check P0-P2 for that composite. If the family lacks a required identity or composite, use its individual arrows without claiming the category or functor. No extra proof or record is required unless the receiving use calls for one.
+Thus a preserve-mode arrow maps to the base identity even when f is not an identity arrow in Ep, while a retarget-mode arrow maps to the unique formal arrow between its different endpoint entities. `α` intentionally forgets the rule that distinguishes two Ep arrows with the same endpoint entities.
+
+**Practitioner check.** Point to X, Y, and f; resolve both EntitiesOfConcern; and identify the resulting endpoint arrow. For a proposed composition, point to the middle episteme and the admitted composite, then check P0-P2 for that composite. If the family lacks a required identity or composite, use its individual arrows without claiming the category or functor. No extra proof or record is required unless the receiving use calls for one.
 
 1. **Identities.** For each admitted episteme X, Ep contains `id_X : X -> X`. For every `f : X -> Y`:
 
@@ -179,15 +191,17 @@ On objects, `α(X)` is the exact EntityOfConcern resolved through `entityOfConce
    compose(k, compose(g,f)) = compose(compose(k,g), f)
    ```
 
-   The α equation is replayable from endpoints. For a retargeting round trip from entity A through B back to A, both sides are the unique base endomorphism `u_{A,A}=id_A`; this says nothing about inverse world-side relations or identical Ep arrow rules. The composite has `preserve` mode when X and Z concern the same exact entity and `retarget` mode when they concern different entities.
+   The α equation is replayable from endpoints. For a retargeting round trip from entity A through B back to A, both sides are the unique base endomorphism `u_{A,A}=id_A`; this says nothing about inverse world-side relations or identical Ep arrow rules. The composite has `preserve` mode when X and Z concern the same entity and `retarget` mode when they concern different entities.
 
    A preserve-only or retarget-only subtype is not thereby closed under parent composition. A composite remains in that subtype only when its final mode and all additional subtype laws match; otherwise it remains an EFEM arrow in the parent class. When a receiving-use claim is made, a separate `q` states the final-use invariant, accumulated visible loss, receiving use, conditions, and polarity; a separate current-case judgement tests the final facts.
 
-3. **Scheme-aware composition.** If endpoint RepresentationSchemes or effective ReferenceSchemes differ, name the exact correspondence used by each route under its direct governor and state the equality or declared equivalence that makes the two routes agree. A.6.3.RT governs a same-EntityOfConcern representation-scheme transition; C.29 governs any mathematical-lens use. A scheme difference alone establishes neither. Use `natural`, `oplax`, or similar terminology only when the substrate supplies the mappings and comparison structure required by that term and the claimed laws are established by a proof or an applicable formal check. Otherwise state the required two-route agreement in ordinary language. Any witness episteme remains separately identified.
+3. **Scheme-aware composition.** If endpoint RepresentationSchemes or effective ReferenceSchemes differ, name the correspondence used by each route under its direct governor and state the equality or declared equivalence that makes the two routes agree. A.6.3.RT governs a same-EntityOfConcern representation-scheme transition; C.29 governs any mathematical-lens use. A scheme difference alone establishes neither. Use `natural`, `oplax`, or similar terminology only when the substrate supplies the mappings and comparison structure required by that term and the claimed laws are established by a proof or an applicable formal check. Otherwise state the required two-route agreement in ordinary language. Any witness episteme remains separately identified.
 
 ##### A.6.2:4.3.5 - P4 — Arrow and repeat boundary
 
-The common EFEM model treats `f : X -> Y` as one arrow with exact endpoints, an arrow rule or designator, and declared formal equivalence. It does not treat every arrow as a function that can be evaluated on an object, and it makes no claim that a separately declared operation is deterministic. A concrete substrate may add an evaluation operation only after declaring its argument kind, result kind, and relation to these exact arrows; that extra operation is not part of the common EFEM laws.
+The common EFEM model treats `f : X -> Y` as one arrow with endpoints, an arrow rule or designator, and declared formal equivalence. It does not treat every arrow as a function that can be evaluated on an object, and it makes no claim that a separately declared operation is deterministic.
+
+A concrete substrate may add an evaluation operation only after declaring its argument kind, result kind, and relation to these arrows; that extra operation is not part of the common EFEM laws.
 
 No universal idempotence follows. A normalization or another endomorphism `f : X -> X` may separately claim a repeat law such as `compose(f,f) ≃ f` only when composition is defined on the declared domain, `≃` is the substrate's stated equivalence, and a working fixture or proof supplies the witness. This mathematical repeat claim is not evidence that an operation was executed twice.
 
@@ -195,12 +209,14 @@ No universal idempotence follows. A normalization or another endomorphism `f : X
 
 Each arrow family states the formal domain in which its laws apply:
 
-* the allowed kinds of the two exact endpoint EntitiesOfConcern;
-* any exact grounding relations or endpoint facts that the arrow rule reads;
+* the allowed kinds of the two endpoint EntitiesOfConcern;
+* any grounding relations or endpoint facts that the arrow rule reads;
 * the admitted RepresentationScheme and ReferenceScheme pairs and any correspondence needed by the formal relation under its direct governor; and
 * any ClaimScope constraint required by the arrow law itself.
 
-If `X` or `Y` lies outside that domain, the arrow is not a member of this local family. This is distinct from an operation application being admitted or rejected. When a receiving-use claim is made, a use-specific scope, operating condition, or selected viewpoint enters `q` only when it changes the invariant, visible loss, receiving use, or conditions; `q` carries affirmative or negative polarity, and a separate current-case judgement tests exact facts against it. Changing either does not reidentify the arrow.
+If `X` or `Y` lies outside that domain, the arrow is not a member of this local family. This is distinct from an operation application being admitted or rejected.
 
-When the use also relates two exact F.17 local senses and the F.9 predicate obtains, cite that Bridge and a separate bounded-use claim. When it crosses a ReferencePlane, cite the applicable plane relation. A claim about performed transport follows P1's separate application and Work conditions. Different labels, contexts, schemes, planes or operating conditions alone create none of these relations.
+When a receiving-use claim is made, a use-specific scope, operating condition, or selected viewpoint enters `q` only when it changes the invariant, visible loss, receiving use, or conditions; `q` carries affirmative or negative polarity, and a separate current-case judgement tests facts against it. Changing either does not reidentify the arrow.
+
+When the use also relates two F.17 local senses and the F.9 predicate obtains, cite that Bridge and a separate bounded-use claim. When it crosses a ReferencePlane, cite the applicable plane relation. A claim about performed transport follows P1's separate application and Work conditions. Different labels, contexts, schemes, planes or operating conditions alone create none of these relations.
 

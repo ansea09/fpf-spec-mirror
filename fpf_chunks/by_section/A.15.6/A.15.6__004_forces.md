@@ -6,12 +6,12 @@ section_id: "A.15.6:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.6/A.15.6__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.15.6 — Recover What Project, Process, or Case Wording Refers To"
   - "A.15.6:3 — Forces"
-line_start: 31152
-line_end: 31166
+line_start: 32261
+line_end: 32275
 dependencies:
   - "A.1"
   - "A.1.STM"
@@ -51,6 +51,6 @@ keywords:
 | Project designation vs system-role classification and assignment | A project may designate one System without classifying it under a local system-role kind or asserting a system-role assignment. Conversely, an A.2 classification under a local system-role kind, or even an assignment occurrence and its declared `U.SystemRoleAssignment` species, does not prove that the project designated the holder. |
 | Expected target vs actual result | An objective or target guides work; an actual change, produced entity, evaluation, delivery, acceptance, or later use needs the pattern and facts that define its relation to the Work. |
 | Temporary work vs temporary organization | A team or organization may change while the same work whole continues, or persist across several work wholes. |
-| Description coherence vs EntityOfConcern honesty | Shared source events tempt authors to call project, process, and case accounts views of one entity even when their descriptions concern different entities. |
+| Description coherence vs subject identity | Shared source events tempt authors to call project, process, and case accounts views of one entity even when their descriptions concern different entities. |
 | Continuity vs. organizational change | Recover the actual history first; use a Work-continuity policy when interruption, replacement, split or merge leaves an identity question for the receiving use. |
 

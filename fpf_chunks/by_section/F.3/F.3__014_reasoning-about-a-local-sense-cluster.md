@@ -3,15 +3,15 @@ chunk_kind: "child"
 pattern_id: "F.3"
 pattern_title: "Source-Local Sense Clustering"
 section_id: "F.3:13"
-section_title: "Safe reasoning moves"
+section_title: "Reasoning about a local-sense cluster"
 source_path: "FPF-Spec.md"
-output_path: "by_section/F.3/F.3__014_safe-reasoning-moves.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+output_path: "by_section/F.3/F.3__014_reasoning-about-a-local-sense-cluster.md"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.3 — Source-Local Sense Clustering"
-  - "F.3:13 — Safe reasoning moves"
-line_start: 119448
-line_end: 119460
+  - "F.3:13 — Reasoning about a local-sense cluster"
+line_start: 127047
+line_end: 127059
 dependencies:
   - "A.11"
   - "A.7"
@@ -32,7 +32,7 @@ keywords:
   - "source expression"
 ---
 
-### F.3:13 - Safe reasoning moves
+### F.3:13 - Reasoning about a local-sense cluster
 
 1. **Alias consolidation.** Merge expressions only when the source uses them interchangeably for the current question.
 2. **Argument split.** Split uses whose required participants differ materially.
@@ -42,6 +42,6 @@ keywords:
 6. **Label check, when labels are used.** Tech stays idiomatic; Plain explains without widening.
 7. **Address check.** Create an F.17 cell only when the receiving use needs a stable address.
 8. **Edition check.** Re-evaluate the interpretation basis before carrying a claim across an edition change.
-9. **Coverage ping.** If a frequent source expression that matters to the receiving question has no local-sense claim, check whether one useful cluster is missing.
+9. **Check coverage.** If a frequent source expression that matters to the receiving question has no local-sense claim, check whether one useful cluster is missing.
 10. **Stop rule.** Do not infer a relation to another local meaning from clustering alone.
 

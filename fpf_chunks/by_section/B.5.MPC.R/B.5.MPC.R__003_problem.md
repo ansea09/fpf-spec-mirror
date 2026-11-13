@@ -6,12 +6,12 @@ section_id: "B.5.MPC.R:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.MPC.R/B.5.MPC.R__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.5.MPC.R — Repair a Physical-Mathematical-Computational Connection"
   - "B.5.MPC.R:2 — Problem"
-line_start: 47484
-line_end: 47491
+line_start: 49482
+line_end: 49489
 dependencies:
   - "A.15.9"
   - "A.3.3"
@@ -30,7 +30,7 @@ keywords:
 
 Local success can survive a failed joint answer. Algebra can produce a command beyond the device's range. A frequency calculation can correctly analyze samples while those samples are compatible with several physical frequencies. A voltage measurement can be accurate for the connected circuit while the question concerns the circuit before the meter was connected.
 
-Trying harder within the successful contribution can leave the failure unchanged. More arithmetic precision does not make an unavailable command executable. More samples taken under the same ambiguous sampling relation may preserve the ambiguity.
+Trying harder within the successful contribution can leave the failure unchanged. More arithmetic precision does not make an unavailable command executable. More samples taken under the ambiguous sampling relation may preserve the ambiguity.
 
-The difficulty is to locate which connection fails and change the contribution that can repair it. Several accounts may explain the same discrepancy, so an observed disagreement must not be assigned to a particular component before the available reasoning distinguishes those possibilities.
+The difficulty is to locate which connection fails and change the contribution that can repair it. Several accounts may explain the same discrepancy, so an observed disagreement must not be assigned to a component before the available reasoning distinguishes those possibilities.
 

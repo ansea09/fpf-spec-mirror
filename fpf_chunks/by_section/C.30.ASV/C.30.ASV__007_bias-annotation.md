@@ -6,12 +6,12 @@ section_id: "C.30.ASV:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ASV/C.30.ASV__007_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
   - "C.30.ASV:6 — Bias-Annotation"
-line_start: 74010
-line_end: 74023
+line_start: 77197
+line_end: 77210
 dependencies:
   - "A.1"
   - "A.10"
@@ -70,10 +70,10 @@ The following risks concern structural descriptions and their use in architectur
 | Bias risk | Mitigation |
 | --- | --- |
 | Module-view bias | Make module-interface one structure kind, not the default meaning of architecture. |
-| Viewpoint-kind conflation | Keep selected structure kind, exact viewpoint episteme P, catalogue L, local family declaration, exact `U.ViewpointRef`, candidate description E, and conformance relation separate. |
-| TEVB mutation bias | Reuse only exact references from a materialized project-local TEVB declaration when their resolved P rules fit; do not treat E.17.2's template or a `VF.TEVB.ENG` spelling as a current family value. |
+| Viewpoint-kind conflation | Keep selected structure kind, viewpoint episteme P, catalogue L, local family declaration, `U.ViewpointRef`, candidate description E, and conformance relation separate. |
+| TEVB mutation bias | Reuse only references from a materialized project-local TEVB declaration when their resolved P rules fit; do not treat E.17.2's template or a `VF.TEVB.ENG` spelling as a current family value. |
 | Check-only bias | Every failed conformance check gives a repair action or use of an applicable pattern. |
 | Didactic-thinning risk | The pattern starts with triage and action, not taxonomy alone. |
 
-This checklist verifies the preceding guidance after the practitioner has chosen the selected repair action; it is not a required project control form and not a substitute for the card, note, description, direct conformance relation, or repair guidance above.
+This checklist verifies the preceding guidance after the practitioner has chosen the repair action; it is not a required project control form and not a substitute for the card, note, description, conformance relation, or repair guidance above.
 

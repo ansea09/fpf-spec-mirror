@@ -6,12 +6,12 @@ section_id: "E.4.PFAD:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFAD/E.4.PFAD__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.4.PFAD — Principle-Framework Architecture Decision"
   - "E.4.PFAD:2 — Problem"
-line_start: 94264
-line_end: 94272
+line_start: 98937
+line_end: 98951
 dependencies:
   - "A.15.1"
   - "A.22"
@@ -53,10 +53,16 @@ keywords:
 
 ### E.4.PFAD:2 - Problem
 
-Framework authors repeatedly need to decide whether a recurring practitioner problem calls for a new framework, an existing framework contribution, another product such as a programme, service, or evidence package, a thinner access result, or no new maintained product now. When a framework is selected, later work needs its public field promise, first-edition boundary, problem-family coverage, first patterns and their material relations, representative use, important omissions, and publication or access consequence. They also need the selected FPF edition, the Core claims required for each receiving use, and any other framework-edition dependencies. Generic decision prose can hide those choices.
+Framework authors repeatedly need to decide whether a recurring practitioner problem calls for a new framework, an existing framework contribution, another product such as a programme, service, or evidence package, a thinner access result, or no new maintained product now.
+
+When a framework is selected, later work needs its public field promise, first-edition boundary, problem-family coverage, first patterns and their material relations, representative use, important omissions, and publication or access consequence. Framework authors also need the selected FPF edition, the Core claims required for each receiving use, and any other framework-edition dependencies. Generic decision prose can hide those choices.
 
 
-A small coherent authoring slice creates a common false positive: its few current patterns and neat structure are mistaken for a field-scale pattern language. Source diagrams create another: one list or hierarchy is copied into the DPF although Methods, Work, subjects, descriptions, capabilities, providers, and cultural change may have different structures. A large framework-specific form creates the opposite problem by making proposal, acceptance, DRR, edition, authoring, quality review, and publication look like one extra decision object.
+Authors commonly mistake a small, coherent set under development for a field-scale pattern language because it already has a few patterns and an orderly structure.
 
-The useful result is one readable answer whose framework consequences and limits are visible without adding a second decision stage or making cheap exploratory work produce decision paperwork.
+Source diagrams can also mislead authors. They may copy one list or hierarchy into the DPF although Methods, Work, subjects, descriptions, capabilities, providers, and cultural change may have different structures.
+
+A large framework-specific form creates the opposite problem by making proposal, acceptance, DRR, edition, authoring, quality review, and publication look like one extra decision object.
+
+The useful result is one readable answer that explains its consequences and limits for the framework. A second decision stage is unnecessary, and exploratory work can stop without a decision record.
 

@@ -6,12 +6,12 @@ section_id: "C.27:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__009_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Change"
   - "C.27:7 — Conformance Checklist"
-line_start: 67306
-line_end: 67324
+line_start: 70364
+line_end: 70382
 dependencies:
   - "A.10"
   - "A.3.3"
@@ -54,13 +54,13 @@ keywords:
 | --- | --- |
 | C27-1 | A C.27 result exists only when the temporal distinction changes a practical use. |
 | C27-2 | The source claim and its subject are recoverable. When its independent identity is consumed, cite the exact episteme or ClaimAddress. |
-| C27-3 | A separately identified adequacy episteme concerns that source episteme or addressed claim; it does not silently substitute the described subject or reference value. |
+| C27-3 | A separately identified adequacy episteme concerns that source episteme or addressed claim; it does not substitute the described subject or reference value. |
 | C27-4 | The positive temporal aspect retains its bearer, predicate, temporal reference and required extent or condition under C.27.TA. A separate exact reference is used only when needed. |
 | C27-5 | Dyn0, Dyn1, and Dyn2 classify claims, not Systems or other world objects. |
 | C27-6 | Ordinary prose or a record supplies the required explanation. A fuller profile adds only the direct-result references and contributions needed by its use. |
 | C27-7 | The assessment recovers the claimed input, temporal effect, relevant time, resistance or cost, grounds and supported use. An unsupported use or reopening condition is stated when it changes the receiving action. |
 | C27-8 | Performed Work names the actual System actor, whose A.13 core precedes independent A.15.1 Work admission. F.6 follows only when precise assignment-bound attribution is current. An assignment remains a separate obtaining relation and never acts. |
-| C27-9 | A non-system input uses its actual direct relation or remains an unresolved or source-side intervention claim; no generic applier branch is created. |
+| C27-9 | A non-system input uses its actual direct relation or remains an unresolved or source-side intervention claim. |
 | C27-10 | A viability use retains the C.26.3 envelope claim and the bearer's direct identity; an exact separate claim reference is added when the receiving use requires it. |
 | C27-11 | Measurement, dynamics, Work, causality, benchmark, promise, value, quality, viability, scaling, adaptation, search, publication, assurance, and residual QL stay with their direct patterns. |
 | C27-12 | A sufficient local use can finish without the optional trigger reference. A dependent use cites the needed neighboring result without copying its schema. |

@@ -6,12 +6,12 @@ section_id: "E.10.D2:15"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__016_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:15 — Relations"
-line_start: 102663
-line_end: 102679
+line_start: 108457
+line_end: 108473
 dependencies:
   - "A.7"
   - "C.2.1"
@@ -40,7 +40,7 @@ keywords:
 
 * **A.7 - Strict Distinction.** Supplies the general discipline for keeping an independently governed entity distinct from epistemic and presentation-side objects around it.
 * **C.2.1 - Episteme Identity, Constitution, Grounding, and Edition.** Supplies the exact ClaimGraph, EntityOfConcern, effective ReferenceScheme constitution and the neighboring grounding and edition relations.
-* **E.10 - Ontological Precision Restoration.** Supplies subject-first recovery and the rule that a word, field, position, or representation does not create the governed object.
+* **E.10 - Unified Lexical Rules for FPF.** Supplies subject-first recovery and the rule that a word, field, position, or representation does not create the governed object.
 
 **Coordinates with:**
 
@@ -49,5 +49,5 @@ keywords:
 * **A.10, B.3, and G.11.** Govern evidence provenance, assurance reliance, and currentness for exact objects and relations.
 * **A.6.3.RT / A.6.3.RT.OE** govern expression construction and correspondence; **C.29** supplies the mathematical-lens branch. **A.6.2, A.6.3, A.6.4, and F.9** govern episteme morphing, source-to-receiving construction, retargeting, and cross-scheme Bridge semantics without label-only sameness.
 * **A.3.2, F.4, and F.5.** Define method-description membership, system-role-kind-description content, and naming after the exact object and local sense are recovered.
-* **A.15.1 and direct receiving-use patterns.** Govern performed work and the exact premise, reference, decision-use, or operation-argument relations through which work actually uses an episteme.
+* **A.15.1 and direct receiving-use patterns.** Govern performed work and the exact premise, reference, decision-use, or operation-argument relations through which work uses an episteme.
 

@@ -6,12 +6,12 @@ section_id: "C.30.ASV:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ASV/C.30.ASV__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
   - "C.30.ASV:2 — Problem"
-line_start: 73295
-line_end: 73310
+line_start: 76429
+line_end: 76446
 dependencies:
   - "A.1"
   - "A.10"
@@ -65,9 +65,11 @@ keywords:
 
 ### C.30.ASV:2 - Problem
 
-Architecture structural-view work is selected-structure triage: which architecture-relevant structure is described, which structure kind is under consideration, which exact viewpoint's fixed rules the description satisfies, and what relation, constraint, invariant, operation, dynamics description, hidden or lost structure, correspondence, source-to-use path or work-reliance relation, and source-return condition changes the next architecture move. The candidate is first one C.2.1 description episteme. That same episteme is a `U.View` only while an exact `EpistemeViewpointConformanceRelation` to an independently identified `U.Viewpoint` episteme obtains. Diagram, representation, publication occurrence, form, carrier, and rendering remain separate.
+Architecture structural-view work is selected-structure triage: which architecture-relevant structure is described, which structure kind is under consideration, which viewpoint's fixed rules the description satisfies, and what relation, constraint, invariant, operation, dynamics description, hidden or lost structure, correspondence, source-to-use path or work-reliance relation, and source-return condition changes the next architecture move.
 
-Without this pattern:
+The candidate is first one C.2.1 description episteme. That same episteme is a `U.View` only while an `EpistemeViewpointConformanceRelation` to an independently identified `U.Viewpoint` episteme obtains. Diagram, representation, publication occurrence, form, carrier, and rendering remain separate.
+
+The problem includes these misreadings:
 
 - a module-interface view is treated as all architecture;
 - a selected transformation-flow structure, mathematical graph description, or control diagram is treated as proof;

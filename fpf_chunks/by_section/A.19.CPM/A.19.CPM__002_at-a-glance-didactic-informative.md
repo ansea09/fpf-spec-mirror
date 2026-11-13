@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.19.CPM"
-pattern_title: "Compare Admitted Profiles under a Declared Comparator (CPM)"
+pattern_title: "Compare Admitted Profiles under a Declared Comparator"
 section_id: "A.19.CPM:0"
 section_title: "At a glance (didactic, informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CPM/A.19.CPM__002_at-a-glance-didactic-informative.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.19.CPM — Compare Admitted Profiles under a Declared Comparator (CPM)"
+  - "A.19.CPM — Compare Admitted Profiles under a Declared Comparator"
   - "A.19.CPM:0 — At a glance (didactic, informative)"
-line_start: 38787
-line_end: 38813
+line_start: 40324
+line_end: 40350
 dependencies:
 keywords:
   - "ComparatorSet"
@@ -20,20 +20,20 @@ keywords:
   - "comparison"
   - "partial order"
   - "set-valued comparison outcome"
-  - "tri-state admissibility (pass"
+  - "tri-state admissibility (pass\\"
 ---
 
 ### A.19.CPM:0 - At a glance (didactic, informative)
 
 CPM is the CHR comparison kernel: it compares two admitted profiles under an explicit, admissibility‑gated comparator and returns a **set‑valued** comparison outcome.
 
-**One-screen purpose (manager-first).** CPM answers: "Given two admitted profiles and an explicit comparator, what relation holds under the declared admissibility frame?" It does **not** answer: "Which one should we pick?" (selection) nor "What is the score?" (scoring).
+**Purpose.** CPM answers: "Given two admitted profiles and an explicit comparator, what relation holds under the declared admissibility frame?" It does **not** answer: "Which one should we pick?" (selection) nor "What is the score?" (scoring).
 
 **Use this when.** Two admitted profiles must be compared under a declared rule. Recover their value meanings, select the admitted comparator and test its use conditions. Return only justified relation tokens when comparison proceeds; retain the eligibility judgment and withhold a comparison result when it must abstain. If this answers the receiving question, stop without adding selection or authorization.
 
-**What this buys.** A completed admitted comparison gives the practitioner one set-valued outcome that downstream selection can consume. The actual `Compare` application keeps the profile pair, comparator, claim scope and selected context slices, optional A.19 predicate, reference plane, evaluation window, policies, and output binding recoverable. Partial order, incomparability, missing evidence, and scale limits remain explicit instead of becoming a hidden scalar winner.
+**What this buys.** A completed admitted comparison gives the practitioner one set-valued outcome that downstream selection can consume. The `Compare` application keeps the profile pair, comparator, claim scope and selected context slices, optional A.19 predicate, reference plane, evaluation window, policies, and output binding recoverable. Partial order, incomparability, missing evidence, and scale limits remain explicit instead of becoming a hidden scalar winner.
 
-**First output.** When comparison returns a result, read the by-value set bound to `ComparisonResultSlot`: only the relation or poset tokens. Read comparator, comparison scope, predicate when used, plane, window, eligibility value, and evidence use from the actual operation application and their direct neighboring relations; they are not fields hidden inside the output.
+**First output.** When comparison returns a result, read the by-value set bound to `ComparisonResultSlot`: only the relation or poset tokens. Read comparator, comparison scope, predicate when used, plane, window, eligibility value, and evidence use from the operation application and their neighboring relations; they are not fields hidden inside the output.
 
 **Manager quick checklist (before you trust a comparison):**
 * **Comparator is explicit:** do we have a `ComparatorSpecRef`, and is it admitted by `CG‑Spec.ComparatorSet`?
@@ -42,11 +42,11 @@ CPM is the CHR comparison kernel: it compares two admitted profiles under an exp
 * **Partiality is preserved:** are we willing to accept incomparability and ties as first‑class outcomes (set‑valued result), rather than forcing a winner?
 
 * **Suite stage:** `compare` (pipeline order lives in `A.19.CHR:4.5`, not in the `mechanisms[]` enumeration).
-* **Input (conceptual):** left profile, right profile, `CN-Spec`, `CG-Spec`, an explicit `ComparatorSpec`, one `U.ClaimScope` with selected A.2.6 `U.ContextSlice` members, an optional A.19 `CharacteristicSpacePredicate` when the comparison depends on one, effective reference plane, explicit evaluation window, and optional explicit `MinimalEvidence` override.
+* **Input (conceptual):** left profile, right profile, `CN-Spec`, `CG-Spec`, an explicit `ComparatorSpec`, one `U.ClaimScope` with selected A.2.6 `U.ContextSlice` members, an optional A.19 `CharacteristicSpacePredicate` when the comparison depends on one, effective reference plane, explicit evaluation window, and optional `MinimalEvidence` override.
 * **Output (conceptual):** the by-value `ComparisonResultSlot` set of relation or poset tokens.
-* **Planned use:** an A.15.2 baseline selects ComparatorSpecRef editions and policy ids. A.15.3 and SlotFillingsPlanItem apply only to independently declared receiving positions under A.19.CHR:4.7.2. The actual Compare application carries its argument and result bindings under §4.1. Any dated comparison Work and A.10 evidence-provenance account retain their independent grounds.
+* **Planned use:** an A.15.2 baseline selects ComparatorSpecRef editions and policy ids. A.15.3 and SlotFillingsPlanItem apply only to independently declared receiving positions under A.19.CHR:4.7.2. The Compare application carries its argument and result bindings under §4.1. Any dated comparison Work and A.10 evidence-provenance account retain their independent grounds.
 * **Reproducible comparisons:** for parity and benchmark style runs that require a stable run package plus report record (editions, windows, parity pins), use `G.9` (Parity and Benchmark Harness). CPM stays kernel-only.
 * **Core safety commitments:** admissibility gate via `CG-Spec.ComparatorSet` + `CG-Spec.SCP` + CSLC; tri-state admissibility (`pass|degrade|abstain`); unknown never coerces to “pass” or to a fabricated outcome; no silent scalarization or totalization.
 * **Where method details live:** in editions of `ComparatorSpec` and their SoTA wiring (Part G packs and extensions), not inside CPM’s kernel semantics.
-* **Quick rule of thumb:** use `USCM` when you need scores from a declared scoring method and `SelectorMechanism` when you need a selected candidate set. Obtaining measured values follows the applicable C.16 measurement method; normalization follows UNM. CPM compares admitted profiles and returns relation tokens.
+* **Quick rule of thumb:** use `USCM` when you need scores from a declared scoring method and `SelectorMechanism` when you need a selected candidate set. Obtaining measured values follows the C.16 measurement method; normalization follows UNM. CPM compares admitted profiles and returns relation tokens.
 

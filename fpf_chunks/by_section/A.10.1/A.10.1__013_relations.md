@@ -6,12 +6,12 @@ section_id: "A.10.1:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10.1/A.10.1__013_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.10.1 — Revalidate Affected Uses When a Relied-on Source Changes"
   - "A.10.1:12 — Relations"
-line_start: 27391
-line_end: 27411
+line_start: 28421
+line_end: 28441
 dependencies:
   - "A.10"
   - "A.10.1"
@@ -29,7 +29,7 @@ keywords:
 **Builds on:**
 
 - `C.2.1` for source-episteme identity, claim content, subject, interpretation basis, edition continuity, and publication/carrier separation.
-- `A.10` for each exact source-to-use account and its independent `RelianceDisposition`.
+- `A.10` for each source-to-use account and its independent `RelianceDisposition`.
 - `A.11` for using existing kinds, relations, results, records, forms, and representations instead of minting an impact ontology.
 
 **Coordinates with:**
@@ -39,7 +39,7 @@ keywords:
 - `E.15` as the specialization for changes to one FPF pattern edition, retaining Delta-Class, predecessor-function continuity, proportionate pattern checks, and its candidate-plus-change-account result.
 - `B.3` and every direct evidence, truth, causal, choice, authority, permission, gate, release, planning, and Work pattern governing the corresponding results.
 
-**Supplies:** A practitioner using A.10.1 obtains a bounded discovery-and-reach statement for application of `SYSE.19`, `FIN.17`, `STR.2`, `PSDA.15`, or another direct subject pattern when its actual receiving content relied on the changed claim. The independently governed subject result continues directly to its existing consumers. A common A.10.1 account cites it only when a further receiving question needs that overview.
+**Supplies:** A practitioner using A.10.1 obtains a bounded discovery-and-reach statement for application of `SYSE.19`, `FIN.17`, `STR.2`, `PSDA.15`, or another direct subject pattern when its receiving content relied on the changed claim. The independently governed subject result continues directly to its existing consumers. A common A.10.1 account cites it only when a further receiving question needs that overview.
 
 If an already localized earlier decision use still needs comparison of its relied-on basis with a later result, `C.11.DBR` prepares that separate current-choice question. Unknown receiving uses stay here, and an adequate subject decision goes directly to its existing consumers. Pass the localized premise and use, not a completed account that already contains the decision to be made.
 

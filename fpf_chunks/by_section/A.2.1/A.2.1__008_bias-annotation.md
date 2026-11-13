@@ -6,14 +6,13 @@ section_id: "A.2.1:6"
 section_title: "Bias Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.1/A.2.1__008_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.2.1 — U.SystemRoleAssignment - Contextual System-Role Assignment"
   - "A.2.1:6 — Bias Annotation"
-line_start: 5127
-line_end: 5139
+line_start: 5301
+line_end: 5313
 dependencies:
-  - "A.1.1"
   - "A.15"
   - "A.15.1"
   - "A.2"
@@ -22,14 +21,9 @@ dependencies:
   - "A.2.7"
   - "A.3"
   - "A.6.5"
-  - "A.6.9"
   - "A.6.REL"
   - "C.2.1"
-  - "C.27"
-  - "C.27.TA"
-  - "C.3.3"
   - "F.6"
-  - "F.9"
 keywords:
   - "assignment predicate"
   - "direct assignment species"
@@ -47,7 +41,7 @@ keywords:
 | Record-first bias | A roster row or identifier is treated as the assignment occurrence. | State the species predicate and uninterrupted occurrence identity; keep the row as an assertion or publication. |
 | Universal-signature bias | One broad root signature hides several participant laws. | Admit direct species with exact local domains and real participants. |
 | Generic-duplicate bias | A stronger appointment is accompanied by a weaker assignment occurrence. | Let the specialized occurrence itself satisfy `U.SystemRoleAssignment` and use its common holder projection. |
-| Universal-context bias | Every assignment receives a context or optional model-use participant. | Keep context-denoted objects in their direct relation; declare a required participant only in a genuinely dependent species. |
+| Universal-context bias | Every assignment receives a context or optional model-use participant. | Keep context-denoted objects in their direct relation; declare a required participant only in a dependent species. |
 | Assignment-as-classification drift | Assignment is used as proof of kind membership. | Evaluate the C.3.2 judgment; use assignment only if the signature names its independently obtaining predicate. |
 | Assignment-as-Work drift | Current assignment is treated as completed Work. | Use A.13 to identify the actual performer and A.15.1 to admit `W : U.Work` independently. Name `RA` and run the separate F.6 check only if the current use must also say exactly under which assignment `W` was performed. |
 | Episteme-as-holder drift | A standard, report, model, or dataset fills `HolderSystemSlot`. | Keep the episteme in its evidence, reliance, external-rule, source-use, or publication relation. |

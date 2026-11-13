@@ -6,12 +6,12 @@ section_id: "C.37.MP:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37.MP/C.37.MP__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.37.MP — Maintain a Method Representation Profile"
   - "C.37.MP:intro — Intro"
-line_start: 81988
-line_end: 81994
+line_start: 85989
+line_end: 85995
 dependencies:
   - "A.10"
   - "A.3.1"
@@ -27,5 +27,5 @@ keywords:
 > **Type:** Method pattern
 > **Status:** Stable
 
-> **Primary working result:** a Method representation profile for one MethodDescription or candidate Method account. It relates logically complete use-bounded selections across Method actions, preserving source claims, cross-use correspondences, omissions, edition relations, keep-separate decisions and returns. A present profile can be sufficient working prose; when later use needs the basis retained, its rows carry their complete applicable `C.37` claim groups once.
+> **Working result:** a Method representation profile for one MethodDescription or candidate Method account. It relates complete use-bounded selections across Method actions, preserving source claims, cross-use correspondences, omissions, edition relations, keep-separate decisions and returns. A profile can be sufficient working prose; when later use needs the basis retained, its rows carry their complete applicable `C.37` claim groups once.
 

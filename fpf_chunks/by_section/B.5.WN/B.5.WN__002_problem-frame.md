@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.5.WN"
-pattern_title: "Develop Lines of Thought with Working Notes"
+pattern_title: "Develop Lines of Thought with Notes"
 section_id: "B.5.WN:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.WN/B.5.WN__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "B.5.WN — Develop Lines of Thought with Working Notes"
+  - "B.5.WN — Develop Lines of Thought with Notes"
   - "B.5.WN:1 — Problem frame"
-line_start: 46781
-line_end: 46792
+line_start: 48729
+line_end: 48740
 dependencies:
   - "A.15.10"
   - "A.15.11"
@@ -30,9 +30,9 @@ Use this pattern when useful observations, reading or tentative thoughts recur a
 
 This is a branch of reasoning practice: developing thought through addressable notes and meaningful relations between them. Its material is an evolving formulation, the grounds it uses and the connections through which another occasion of reasoning can continue it. A note can be handwritten, an addressable block or a separate file. The method concerns what the practitioner does with that material; storage and retrieval engineering remain further work when the available means are inadequate.
 
-**First useful move.** Take one available observation, source passage or rough note. Say what it lets you claim or ask, then compare that formulation with one relevant earlier thought. Write the consequential relation, including an unresolved difference when that is what the comparison produces.
+**First move.** Take one available observation, source passage or rough note. Say what it lets you claim or ask, then compare that formulation with one relevant earlier thought. Write the consequential relation, including an unresolved difference when that is what the comparison produces.
 
 The first result can be a better question, a counterexample, a missing premise or a usable continuation. A final publication topic need not be known. An assigned topic also provides an entry: follow the part of its argument that the available material cannot yet support.
 
-Use a sufficient project record directly when it already supports the next action. A longer-lived note network is worthwhile when later comparison, recombination or development warrants the work of keeping it usable. Routine recording, factual retrieval and recovery of an already specified interrupted action can end without building such a network. Learning to reason independently and obtaining a useful argument with assistance are different purposes.
+Use a sufficient project record when it supports the next action. A longer-lived note network is worthwhile when later comparison, recombination or development warrants the work of keeping it usable. Routine recording, factual retrieval and recovery of a specified interrupted action can end without building such a network. Learning to reason independently and obtaining a useful argument with assistance are different purposes.
 

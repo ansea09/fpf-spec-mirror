@@ -6,12 +6,12 @@ section_id: "E.9:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9/E.9__004_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.9 — Design-Rationale Record (DRR) for FPF Content Decisions"
   - "E.9:2 — Problem"
-line_start: 98161
-line_end: 98175
+line_start: 103718
+line_end: 103731
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -37,8 +37,7 @@ keywords:
 ---
 
 ### E.9:2 - Problem
-Direct edits to the Core, or DRRs that preserve apparatus without a usable
-selected answer, trigger four systemic hazards:
+Either a direct edit to Core or a DRR that documents the apparatus but leaves the answer unusable can expose the following risks.
 
 1. **Lost decision grounds** – future authors cannot recover why the answer
    was selected, which alternative or boundary mattered, or when to reopen it.

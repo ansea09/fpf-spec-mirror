@@ -6,12 +6,12 @@ section_id: "C.11.DBR:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.DBR/C.11.DBR__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.11.DBR — Reconsider a Decision When Its Relied-on Basis Changes"
   - "C.11.DBR:3 — Forces"
-line_start: 57656
-line_end: 57665
+line_start: 59992
+line_end: 60001
 dependencies:
   - "A.10"
   - "A.10.1"
@@ -30,7 +30,7 @@ keywords:
 | Force | What must be kept together |
 | --- | --- |
 | Responsiveness and continuity | Act on a defeated premise while keeping independently supported results usable. |
-| Later evidence and prior reliance | Qualify the new result and recover what the old choice actually relied on; neither substitutes for the other. |
+| Later evidence and prior reliance | Qualify the new result and recover what the old choice relied on; neither substitutes for the other. |
 | Comparable observations and changing conditions | A changed population, configuration or horizon can alter applicability without contradicting an earlier bounded claim. |
 | Useful uncertainty and inquiry cost | An unresolved cause can coexist with a justified current choice; further inquiry must earn its receiving value. |
 | Shared reasoning and subject judgement | The common comparison prepares reconsideration; the subject practice supplies materiality, consequences, feasible alternatives and authority. |

@@ -6,12 +6,12 @@ section_id: "C.33:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.33/C.33__010_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.33 — Assess Structural Information for Architecture Use"
   - "C.33:9 — Consequences"
-line_start: 80833
-line_end: 80847
+line_start: 84674
+line_end: 84688
 dependencies:
   - "A.22"
   - "A.6.3.NAR"
@@ -54,7 +54,7 @@ keywords:
 
 Positive consequences:
 
-- A partial carrier becomes usable without becoming authoritative. The architect can take exactly the structure that is recoverable and stop before overreading the carrier.
+- A partial carrier becomes usable without becoming authoritative. The architect can take the structure that is recoverable and stop before overreading the carrier.
 - Missing-structure return becomes local and reviewable: the note says which missing structure requires C.30, C.30.ASV, C.32.P2S, C.32, PAD, ADR, C.29, C.16, ACE, evidence, assurance, or work checks before the next use.
 - AI-produced maps and maps derived from named source publications, source models, or source codebases become safer architecture inputs because observation class, confidence, unexplored regions, and budget boundary are visible.
 - Neural-network and code-architecture source labels become usable without importing those labels as FPF ontology.

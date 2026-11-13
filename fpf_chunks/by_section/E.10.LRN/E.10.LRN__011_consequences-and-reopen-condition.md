@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.10.LRN"
-pattern_title: "Recovering What “Learning” Means in the Current Claim"
+pattern_title: "Recover What “Learning” Means in This Claim"
 section_id: "E.10.LRN:9"
 section_title: "Consequences and Reopen Condition"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.LRN/E.10.LRN__011_consequences-and-reopen-condition.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "E.10.LRN — Recovering What “Learning” Means in the Current Claim"
+  - "E.10.LRN — Recover What “Learning” Means in This Claim"
   - "E.10.LRN:9 — Consequences and Reopen Condition"
-line_start: 100786
-line_end: 100793
+line_start: 106434
+line_end: 106441
 dependencies:
   - "A.10"
   - "A.15"
@@ -47,7 +47,7 @@ keywords:
 
 ### E.10.LRN:9 - Consequences and Reopen Condition
 
-**Benefits.** Education, human capability, machine learning, inference, inquiry, representation, organizational, and cultural claims can share readable prose without sharing false identity. Evidence stays attached to the result it actually supports. Downstream DPFs can specialize Methods without inheriting an ambiguous FPF process.
+**Benefits.** Education, human capability, machine learning, inference, inquiry, representation, organizational, and cultural claims can share readable prose without sharing false identity. Evidence stays attached to the result it supports. Downstream DPFs can specialize Methods without inheriting an ambiguous FPF process.
 
 **Costs.** A load-bearing umbrella use needs one bounded recovery, and some sentences must be split. Domain methods and evidence still need their direct products.
 

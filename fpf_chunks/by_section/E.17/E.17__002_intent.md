@@ -6,12 +6,12 @@ section_id: "E.17:1"
 section_title: "Intent"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__002_intent.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:1 — Intent"
-line_start: 107427
-line_end: 107430
+line_start: 114022
+line_end: 114025
 dependencies:
   - "A.10"
   - "A.15.4"
@@ -46,5 +46,5 @@ keywords:
 
 ### E.17:1 - Intent
 
-Let a practitioner publish the few readable faces that current readers actually need from one accepted engineering account, without adding claims or turning publication metadata into engineering authority. The optional morphism profile keeps the earlier compositional publication tests for uses that genuinely publish morphisms; it is not the entry price for ordinary publication.
+Let a practitioner publish the few readable faces that current readers need from one accepted engineering account, without adding claims or turning publication metadata into engineering authority. The optional morphism profile keeps the earlier compositional publication tests for uses that publish morphisms. Ordinary publication does not require this profile.
 

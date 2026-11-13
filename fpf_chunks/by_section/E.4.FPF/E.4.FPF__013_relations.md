@@ -6,12 +6,12 @@ section_id: "E.4.FPF:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.FPF/E.4.FPF__013_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.4.FPF — FPF Edition Assembly: Publication Forms, Carriers and Access Routes"
   - "E.4.FPF:12 — Relations"
-line_start: 94231
-line_end: 94240
+line_start: 98898
+line_end: 98907
 dependencies:
   - "C.33"
   - "C.34"
@@ -39,9 +39,9 @@ keywords:
 
 ### E.4.FPF:12 - Relations
 
-- **Specializes:** `E.4` for the case where the framework family member under form work is FPF itself.
+- **Specializes:** `E.4` for work on the form of FPF.
 - **Builds on:** `E.2` Pillars through `E.2.DA` for whole-FPF adequacy.
-- **Coordinates with:** `E.4.PFR` when a named maintenance consumer needs a reusable relation, edition, dependency, publication, access, deprecation, or supersession record; otherwise state the direct relation assertion.
+- **Coordinates with:** `E.4.PFR` when a named maintenance consumer needs a reusable relation, edition, dependency, publication, access, deprecation, or supersession record. Otherwise state the relation.
 - **Coordinates with:** `E.4.DPF` and `E.4.DPF.DA` as sibling patterns for domain and local frameworks, not as FPF-level substitutes.
 - **Coordinates with:** `E.11.PFP` for the common framework publication form and with `E.11`, `E.17` for first entry, projection, and publication or access use.
 - **Coordinates with:** `G.2`, `G.11`, `C.33`, `C.34`, and `C.35` for source, currentness, structural preservation, and admission of generated or discovered results for architecture use.

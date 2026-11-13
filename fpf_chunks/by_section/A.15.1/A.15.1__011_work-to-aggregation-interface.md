@@ -6,12 +6,12 @@ section_id: "A.15.1:9"
 section_title: "Work-to-aggregation interface"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__011_work-to-aggregation-interface.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.15.1 — U.Work: Dated Performed Work Occurrence"
   - "A.15.1:9 — Work-to-aggregation interface"
-line_start: 29630
-line_end: 29663
+line_start: 30708
+line_end: 30741
 dependencies:
   - "A.1"
   - "A.10"
@@ -62,7 +62,7 @@ keywords:
 
 For utilization, lead time, cycle time, phase coverage or another temporal roll-up, use `B.1.4`. Recover the Work intervals, aggregation concern, time basis, selected combining rule, conditions it consumes and admissible use. An adequate ordinary account can state the result; a separate record is needed only by its receiving use. Union, convex hull and optional `Gamma_time` notation concern that temporal aggregation, not Work-occurrence identity.
 
-When the exact `B.1.4` result selects the Work-interval profile, retain these use-specific choices:
+When the `B.1.4` result selects the Work-interval profile, retain these use-specific choices:
 
 * **Union of intervals** for utilization or availability: preserve every covered instant and do not count overlap twice.
 * **Convex hull** `[min t_start, max t_end]` for lead time or cycle time: preserve elapsed span from first start to last end, including gaps.
@@ -78,11 +78,11 @@ For a total or ledger over performed resource-use facts, use `B.1.6`. Recover th
 
 B.1.6 result `BuildResourceAggregation_12 : WorkResourceAggregation@Context` names concern `Build12MeasuredResourceUse`, bounded context `BuildOps-v12`, that exact Work, and the two relation occurrences. It uses typed basis `BuildComputeAndElectricityBasis-v12`, measures `BuildRunnerCoreMinuteMeasure_12` and `BuildZone3KWhMeasure_12`, evidence refs `BuildRunnerAllocationEvidence_12` and `BuildZone3EnergyMeasurement_12`, holon delimitation `BuildService_A_Delimitation-v12`, and window `09:00-09:12`. Policy `BuildResourceRelationDedup-v12` counts each exact relation occurrence once across repeated evidence or a parent/child view. Rule `BuildTypedResourceVectorSum-v12` adds only entries of the same resource type and unit. Ledger `BuildResourceLedger_12` contributes `<BuildRunUsedCPU_12, 24 runner-core-minute>` and `<BuildRunUsedElectricity_12, 0.84 kWh>` and returns `Build12MeasuredResourceVector = <24 runner-core-minute, 0.84 kWh>` without summing or converting its unlike components. Its admissible use is the measured resource-disclosure input for Build 12; it proves no Work identity, production result, efficiency, cost, sustainability verdict, or acceptance.
 
-When an exact `B.1.6` aggregation must allocate shared or overlapping resource use, retain these non-default policy examples:
+When a `B.1.6` aggregation must allocate shared or overlapping resource use, retain these non-default policy examples:
 
 * **Parent attribution:** book a declared shared fixed value once at the parent and independently measured variable values at children.
 * **Pro rata by wall time:** divide a declared shared value by relative durations only when that driver is admissible for the resource basis.
-* **Driver based:** allocate by a measured driver such as CPU share, weight, or priority and state the exact allocation rule that uses it.
+* **Driver based:** allocate by a measured driver such as CPU share, weight, or priority and state the allocation rule that uses it.
 
 Whichever policy is selected, add only disjoint or explicitly deduplicated values and keep every aggregate figure traceable to its contributing Work refs and evidence. A policy label alone establishes neither allocation nor ledger value.
 

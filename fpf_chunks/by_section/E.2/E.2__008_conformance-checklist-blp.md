@@ -6,12 +6,12 @@ section_id: "E.2:7"
 section_title: "Conformance Checklist — BLP"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.2/E.2__008_conformance-checklist-blp.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.2 — FPF's Eleven Pillars and Bitter-Lesson Preference (BLP)"
   - "E.2:7 — Conformance Checklist — BLP"
-line_start: 92631
-line_end: 92651
+line_start: 97164
+line_end: 97184
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -44,13 +44,13 @@ keywords:
 
 | ID            | Requirement                                                                                                     | Purpose                                       |
 | ------------- | --------------------------------------------------------------------------------------------------------------- | --------------------------------------------- |
-| **CC‑BLP.1** | An activated comparison declares the α/δ tolerances, units and receiving conditions it actually uses, directly or through a policy profile. | Makes the comparison reproducible. |
+| **CC‑BLP.1** | An activated comparison declares the α/δ tolerances, units and receiving conditions it uses, directly or through a policy profile. | Makes the comparison reproducible. |
 | **CC‑BLP.2** | A Scale-Audit is required only when selected by the claim/risk or an independently applicable profile; it retains BLP-1a–e responses, uncertainty and pins. | Matches audit burden to the claimed use. |
 | **CC‑BLP.3** | A scale-based selection cites BLP-2 and the applicable precedence rules; non-dominance yields no scale preference unless a separate local policy decides it. | Separates evidence from policy preference. |
-| **CC‑BLP.4** | A heuristic meeting BLP-4's activated debt conditions is logged with scope, review, expiry and de-hardening plan. | Keeps real durable overrides inspectable. |
+| **CC‑BLP.4** | A heuristic meeting BLP-4's activated debt conditions is logged with scope, review, expiry and de-hardening plan. | Keeps durable overrides inspectable. |
 | **CC‑BLP.5** | Prescription form follows the task/control requirement; adaptation follows its product policy, permission, change authority and guards. | Preserves warranted procedures and bounded autonomy. |
 | **CC‑BLP.6** | Decision-material resource accounts use A.15.1, A.15.2, B.1.6, C.16 and A.10; an assurance claim uses B.3. A separately activated stronger profile retains its required accounts and oversight. | Preserves applicable resource and assurance duties. |
-| **CC‑BLP.7** | The response comparison records evidence-appropriate uncertainty; stochastic trial claims retain the actual replicate/seed and interval basis. | Prevents unsupported superiority. |
+| **CC‑BLP.7** | The response comparison records evidence-appropriate uncertainty; stochastic trial claims retain the replicate/seed and interval basis. | Prevents unsupported superiority. |
 
 #### E.2:7.1 - Usable response and ordinary non-use
 

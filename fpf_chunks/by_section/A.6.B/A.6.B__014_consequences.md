@@ -6,12 +6,12 @@ section_id: "A.6.B:12"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__014_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:12 — Consequences"
-line_start: 15384
-line_end: 15391
+line_start: 15895
+line_end: 15902
 dependencies:
   - "A.10"
   - "A.2.3"
@@ -48,7 +48,7 @@ keywords:
   - "The key words MUST"
   - "accountable norms and grants"
   - "actual exercise"
-  - "an individual-duty D- claim MUST name its actual bearer and exact separately obtaining U.Commitment"
+  - "an individual-duty D- claim MUST name its actual bearer and separately obtaining U.Commitment"
   - "and SHALL have their RFC 2119/8174 meanings only when capitalized as shown"
   - "and evaluated results distinct"
   - "as if it were an agent obligation"
@@ -78,7 +78,7 @@ keywords:
 
 | Benefits                                                                                                     | Trade‑offs / mitigations                                                                         |
 | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ |
-| **Stable modular boundaries.** Laws don’t accidentally become gates; governance doesn’t masquerade as truth. | Requires writers to split sentences; mitigated by the triangle decomposition pattern.            |
+| **Stable modular boundaries.** Laws, gates and normative claims remain distinct. | Requires writers to split sentences; mitigated by the triangle decomposition pattern.            |
 | **Explicit adjudication links.** Duties and claims about results can identify the evaluations and evidence relevant to their use. | Establishing that basis has a cost; require only the support the receiving use consumes. |
 | **Recoverable meaning across faces.** References connect an explanation to its governing claim. | More cross-references; a Claim Register can help when the claim set needs persistent reuse. |
 

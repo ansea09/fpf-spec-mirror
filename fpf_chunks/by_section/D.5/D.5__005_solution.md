@@ -6,12 +6,12 @@ section_id: "D.5:2"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.5/D.5__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "D.5 — Bias Audit and Ethical Assurance"
   - "D.5:2 — Solution"
-line_start: 92279
-line_end: 92315
+line_start: 96810
+line_end: 96846
 dependencies:
   - "A.10"
   - "B.3"
@@ -32,7 +32,7 @@ keywords:
 
 Identify the object, the bias or fairness concern, and the use the answer must support. Give the result warranted by the available basis, with the affected groups and limitations that change that use. A metric comparison can finish at its qualified measurement result; recognizing a value conflict returns to `D.3` or `D.4`.
 
-An intended audit, fairness, or assurance conclusion must satisfy its own evidence conditions. A missing basis leaves that conclusion unsupported. Select further investigation and the record it needs for that particular claim or decision, using §3.1.
+An intended audit, fairness, or assurance conclusion must satisfy its evidence conditions. A missing basis leaves that conclusion unsupported. Select further investigation and the record it needs for that claim or decision, using §3.1.
 
 Use `BiasAuditAssuranceFrame@Context` to organize an audit whose recipient needs to inspect the connection among claims, evidence, constraints, and residuals. The applicable content may already be present in the result being used:
 
@@ -63,5 +63,5 @@ BiasAuditAssuranceFrame@Context:
   strongerSourceReturnCondition?
 ```
 
-The frame organizes the audit account. Include relied-on evidence and any stronger-source return needed by the particular conclusion.
+The frame organizes the audit account. Include relied-on evidence and any stronger-source return needed by the conclusion.
 

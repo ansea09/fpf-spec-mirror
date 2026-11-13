@@ -6,12 +6,12 @@ section_id: "A.6.B:10"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__012_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:10 — Conformance Checklist"
-line_start: 15361
-line_end: 15372
+line_start: 15872
+line_end: 15883
 dependencies:
   - "A.10"
   - "A.2.3"
@@ -48,7 +48,7 @@ keywords:
   - "The key words MUST"
   - "accountable norms and grants"
   - "actual exercise"
-  - "an individual-duty D- claim MUST name its actual bearer and exact separately obtaining U.Commitment"
+  - "an individual-duty D- claim MUST name its actual bearer and separately obtaining U.Commitment"
   - "and SHALL have their RFC 2119/8174 meanings only when capitalized as shown"
   - "and evaluated results distinct"
   - "as if it were an agent obligation"
@@ -78,11 +78,11 @@ keywords:
 
 | ID                                       | Requirement                                                                                                                                                                                                      | Purpose                                                  |
 | ---------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
-| **CC‑A.6.B.1 (Atomicity).**              | A conforming boundary text **SHALL** decompose mixed sentences into **atomic claims** such that each atomic claim belongs to exactly one quadrant **L/A/D/E**.                                                    | Makes L/A/D/E classification unambiguous; prevents contract soup.       |
+| **CC‑A.6.B.1 (Atomicity).**              | A conforming boundary text **SHALL** decompose mixed sentences into **atomic claims** such that each atomic claim belongs to exactly one quadrant **L/A/D/E**.                                                    | Makes L/A/D/E classification unambiguous; prevents mixing claim jobs.       |
 | **CC‑A.6.B.2 (Quadrant classification).** | Each atomic claim **MUST** be classified by its job under §4 and have its own adjudication basis recovered, rather than taking a quadrant from its subject-pattern family. When permission wording is present, the single branch in §8.4.1 **MUST** select the claim's job before assigning L/A/D/E. | Prevents one pattern catalogue from replacing the square's decision. |
-| **CC‑A.6.B.3 (Form and obtaining constraints).** | `L-*` and `A-*` claims **MUST NOT** use RFC deontic keywords as operators. A generic-prescription `D-*` claim **MUST** name its exact normative source and applicable rule content without inventing an individual occurrence; an individual-duty `D-*` claim **MUST** name its actual bearer and exact separately obtaining `U.Commitment`; a grant `D-*` claim **MUST** satisfy §8.4.1. Claim text alone does not make the claimed relation obtain. Responsibility uses its direct predicate or exact missing governor. An `E-*` claim **MUST** name the work, evaluation, or observation that settles it and any evidence used for reliance. | Keeps normative content, individual institution, responsibility, and evaluated results distinct. |
+| **CC‑A.6.B.3 (Form and obtaining constraints).** | `L-*` and `A-*` claims **MUST NOT** use RFC deontic keywords as operators. A generic-prescription `D-*` claim **MUST** name its normative source and applicable rule content without inventing an individual occurrence; an individual-duty `D-*` claim **MUST** name its actual bearer and separately obtaining `U.Commitment`; a grant `D-*` claim **MUST** satisfy §8.4.1. Claim text alone does not make the claimed relation obtain. Responsibility uses its direct predicate or missing governor. An `E-*` claim **MUST** name the work, evaluation, or observation that settles it and any evidence used for reliance. | Keeps normative content, individual institution, responsibility, and evaluated results distinct. |
 | **CC‑A.6.B.4 (Explicit references).** | Where a claim materially depends on another L/A/D/E-classified claim, that dependency **MUST** be expressed by explicit ID or canonical-location reference. An accompanying explanation must preserve the referenced meaning. | Makes the governing claim recoverable across layers and faces. |
-| **CC‑A.6.B.5 (E‑claim adjudicability).** | Each `E-*` claim names its exact predicate and object plus the actual work, evaluation, or observation, scope/window, comparison frame, and other conditions required to settle that predicate. It adds an evidence or source-use relation when the receiving use needs that support, and identifies a carrier, schema, viewpoint or consumer only when that particular item matters to the use. | Makes work-effects adjudicable without forcing unrelated carrier apparatus into every result claim. |
-| **CC‑A.6.B.6 (No gate smuggling).**      | Operational admissibility predicates **MUST NOT** appear as `L-*` laws in the signature layer; they **MUST** be `A-*` claims in the canonical source of their governing admission rule.                                                             | Preserves substitution and signature stability.          |
-| **CC‑A.6.B.7 (Dependency grounds).** | `L-*` claims **MUST NOT** reference `A-*`, `D-*`, or `E-*`, except for purely informative notes explicitly marked informative. An `A-*` reference to `D-*` or `E-*` **MUST** meet §6.4's input and scope/currentness conditions. An `E-*` reference to `D-*` **MUST** meet §6.4's evidence-target or evaluation-input rule and **MUST NOT** treat the D claim alone as an E result. | Keeps reusable laws stable and makes gate inputs and evaluation grounds explicit. |
+| **CC‑A.6.B.5 (E‑claim adjudicability).** | Each `E-*` claim names its predicate and object plus the actual work, evaluation, or observation, scope/window, comparison frame, and other conditions required to settle that predicate. It adds an evidence or source-use relation when the receiving use needs that support, and identifies a carrier, schema, viewpoint or consumer only when that item matters to the use. | Makes work-effects adjudicable without forcing unrelated carrier apparatus into every result claim. |
+| **CC‑A.6.B.6 (Gates and laws).**      | Operational admissibility predicates **MUST NOT** appear as `L-*` laws in the signature layer; they **MUST** be `A-*` claims in the canonical source of their governing admission rule.                                                             | Preserves substitution and signature stability.          |
+| **CC‑A.6.B.7 (Dependency grounds).** | `L-*` claims **MUST NOT** reference `A-*`, `D-*`, or `E-*`, except for purely informative notes marked informative. An `A-*` reference to `D-*` or `E-*` **MUST** meet §6.4's input and scope/currentness conditions. An `E-*` reference to `D-*` **MUST** meet §6.4's evidence-target or evaluation-input rule and **MUST NOT** treat the D claim alone as an E result. | Keeps reusable laws stable and makes gate inputs and evaluation grounds explicit. |
 

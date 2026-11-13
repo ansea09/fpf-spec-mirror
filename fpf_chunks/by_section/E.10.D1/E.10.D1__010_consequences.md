@@ -6,12 +6,12 @@ section_id: "E.10.D1:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D1/E.10.D1__010_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.10.D1 — Recovering What “Context” Means in Use"
   - "E.10.D1:9 — Consequences"
-line_start: 102301
-line_end: 102306
+line_start: 108071
+line_end: 108078
 dependencies:
   - "A.1.1"
   - "A.2.6"
@@ -39,5 +39,7 @@ keywords:
 
 The repair removes one convenient universal alias. Authors must sometimes name several values that the old word compressed, and legacy `ContextId`, `U.BoundedContext`, and two-part SenseCell fields need semantic repair rather than mechanical renaming.
 
-In return, the author can use the method supplied for the subject question. Source-local meanings remain traceable to schemes and basis epistemes; model-use boundaries remain engineering structures; claim scopes remain scopes; working situations remain readable; obtaining `ArchitectureRelation` occurrences remain distinct from `ArchitectureClaim` content; and environment, domain, and publication claims keep their own participants and tests. A local repair can stop after one sentence, while recurring problems can reuse `E.10.ARCH` without copying a second ontology into every DPF.
+The author can then use the method supplied for the subject question. Source-local meanings remain traceable to schemes and basis epistemes; model-use boundaries remain engineering structures; claim scopes retain their applicability conditions. Working situations remain readable. Obtaining `ArchitectureRelation` occurrences remain distinct from `ArchitectureClaim` content. Environment, domain, and publication claims keep their own participants and tests.
+
+A local repair can stop after one sentence, while recurring problems can reuse `E.10.ARCH` without copying a second ontology into every DPF.
 

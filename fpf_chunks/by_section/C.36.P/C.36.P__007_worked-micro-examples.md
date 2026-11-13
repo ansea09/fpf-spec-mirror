@@ -6,12 +6,12 @@ section_id: "C.36.P:5"
 section_title: "Worked Micro-Examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.P/C.36.P__007_worked-micro-examples.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.36.P — Clarify Cultural-Evolution Wording for a Claim or Action"
   - "C.36.P:5 — Worked Micro-Examples"
-line_start: 90833
-line_end: 90867
+line_start: 95313
+line_end: 95347
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -81,13 +81,13 @@ CulturalEvolutionWordingRecoveryLine:
 
 #### C.36.P:5.2 - "This Tradition Is An Attractor"
 
-If `attractor` is a loose metaphor for a stable recognizable style, state that local meaning and use C.36 for the cultural-evolution case. Use F.9 only when an actual relation between distinct source-local cells is current. For a basin, stable-dynamics, or state-transition-law claim, recover the model, correspondence and conditions that support it. Use an adequate domain result directly, A.3.3 for its state space and transition law, C.27 for a temporal-adequacy question, and C.29 when a separate representation, transfer, or reliance question remains.
+If `attractor` is a loose metaphor for a stable recognizable style, state that local meaning and use C.36 for the cultural-evolution case. Use F.9 only when a relation between distinct source-local cells is current. For a basin, stable-dynamics, or state-transition-law claim, recover the model, correspondence and conditions that support it. Use an adequate domain result directly, A.3.3 for its state space and transition law, C.27 for a temporal-adequacy question, and C.29 when a separate representation, transfer, or reliance question remains.
 
 #### C.36.P:5.3 - "Technique As Developmental Machinery"
 
-If technique names a way of doing work, use `A.3.1 U.Method`. If it names a training plan, use `A.15.2 U.WorkPlan`. For a claim about a particular rehearsal or production occurrence, establish A.13's basis and independent A.15.1 admission; use F.6 only for precise assignment-bound attribution. Ordinary guidance about rehearsing or producing needs no invented occurrence. If the same term carries different source-local meanings, preserve each meaning and its claims. Use F.17 when their identification or qualification is needed, F.18 only when a durable name is needed, and F.9 only when an actual relation between distinct cells is current. Use C.36 only when the technique participates in a cultural-evolution case.
+If technique names a way of doing work, use `A.3.1 U.Method`. If it names a training plan, use `A.15.2 U.WorkPlan`. For a claim about a particular rehearsal or production occurrence, establish A.13's basis and independent A.15.1 admission; use F.6 only for precise assignment-bound attribution. Ordinary guidance about rehearsing or producing needs no invented occurrence. If the same term carries different source-local meanings, preserve each meaning and its claims. Use F.17 when their identification or qualification is needed, F.18 only when a durable name is needed, and F.9 only when a relation between distinct cells is current. Use C.36 only when the technique participates in a cultural-evolution case.
 
 #### C.36.P:5.4 - "The Scene Became A New Level"
 
-If a music or dance source says a scene, platform circulation, or canon “became a new level”, first recover the claim. Use C.36 for a changed recognition regime, C.18 for an archive relation, G.5 for a selected-set result declaration, G.11 for refresh, and F.17, F.18, or F.9 for term and actual-bridge work. A whole-reidentification or MHT claim uses B.2.P and then B.2 or its System or episteme specialization when current. A feedback-down claim uses B.2.5. A frustration or residual claim uses C.30.ILC for an architecture residual, C.29 for a mathematical lens, and D.3 or D.4 for ethical level conflict or mediation.
+If a music or dance source says a scene, platform circulation, or canon “became a new level”, first recover the claim. Use C.36 for a changed recognition regime, C.18 for an archive relation, G.5 for a selected-set result declaration, G.11 for refresh, and F.17, F.18, or F.9 for term and bridge work. A whole-reidentification or MHT claim uses B.2.P and then B.2 or its System or episteme specialization when current. A feedback-down claim uses B.2.5. A frustration or residual claim uses C.30.ILC for an architecture residual, C.29 for a mathematical lens, and D.3 or D.4 for ethical level conflict or mediation.
 

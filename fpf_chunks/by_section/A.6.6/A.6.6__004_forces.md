@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.6"
-pattern_title: "Base Declaration Discipline: Say Exactly What Something Depends On"
+pattern_title: "Base Declaration Discipline: Say What Something Depends On"
 section_id: "A.6.6:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.6.6 — Base Declaration Discipline: Say Exactly What Something Depends On"
+  - "A.6.6 — Base Declaration Discipline: Say What Something Depends On"
   - "A.6.6:3 — Forces"
-line_start: 23695
-line_end: 23705
+line_start: 24616
+line_end: 24626
 dependencies:
   - "A.10"
   - "A.14"
@@ -48,5 +48,5 @@ keywords:
 | **Two perspectives, one reality** | Dependent-view and base-view must both be expressible without renaming relation-end meanings or flipping meaning. |
 | **Compatibility with A.6.5** | When a reusable base-relation declaration needs SlotSpecs, keep SlotKind, ValueKind, and RefKind distinct and do not collapse designation edits with changes to a participant or relation. |
 | **Lexical guardrails** | Umbrella metaphors can hide participants, direction, and the applicable relation rule; the wording must recover those values. |
-| **Cross-local integrity** | When a declaration actually depends on a relation between different local kinds, local senses, scopes, or planes, that exact relation must remain explicit and reviewable; different sources alone do not create a Bridge. |
+| **Cross-local integrity** | When a declaration depends on a relation between different local kinds, local senses, scopes, or planes, that relation must remain explicit and reviewable; different sources alone do not create a Bridge. |
 

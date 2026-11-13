@@ -6,12 +6,12 @@ section_id: "C.32.MWA.PP:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA.PP/C.32.MWA.PP__013_sota-echoing.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.32.MWA.PP — Construct and Compare Method Performance and Provision Arrangements"
   - "C.32.MWA.PP:11 — SoTA-Echoing"
-line_start: 79499
-line_end: 79522
+line_start: 83328
+line_end: 83351
 dependencies:
   - "A.3.1.MI"
   - "A.3.1.QM"
@@ -30,7 +30,7 @@ The practice question is how to make a family of Methods performable through a j
 | Source line | Choice used here, its advantage and its limit |
 | --- | --- |
 | [UK Delivery Model Assessment](https://assets.publishing.service.gov.uk/media/60a387d5e90e07357422eb45/Delivery_model_assessment_guidance_note_May_2021.pdf), especially service components and delivery alternatives | Adapt the component-level provision comparison into §§4.5–4.8. It improves on a whole-office make/buy label. Procurement-specific rules and automatic weighted scoring are not imported; the comparison retains actual authority and distinct consequences. |
-| [Microsoft agent CoE operating models](https://learn.microsoft.com/en-us/agents/center-of-excellence/operating-models) and [Fabric CoE roadmap](https://learn.microsoft.com/en-us/power-bi/guidance/fabric-adoption-roadmap-center-of-excellence) | Adapt their separation of common means, delivery and local expertise. Revisit allocation as capability and controls change. Their IT arrangements are useful candidates, not universal office forms; the local Method and receiving result still govern transfer. |
+| [Microsoft agent CoE operating models](https://learn.microsoft.com/en-us/agents/center-of-excellence/operating-models) and [Fabric CoE roadmap](https://learn.microsoft.com/en-us/power-bi/guidance/fabric-adoption-roadmap-center-of-excellence) | Adapt their separation of common means, delivery and local expertise. Revisit allocation as capability and controls change. Their IT arrangements are useful candidates, not universal office forms; the local Method and receiving result govern transfer. |
 | [PMI PMO Value Ring overview](https://pmoga.pmi.org/resources/pmo-value-ring/apps) | Retain recipient value and a revisable mix of services when defining the remit. A service portfolio alone does not supply the transformation network or its execution architecture; §§4.1–4.7 make those additional connections. The public overview is the source used here, not an assumed reading of the entire current guide. |
 | [Implementation Support Practitioner Practice Guide](https://cippro.wpengine.com/wp-content/uploads/2022/10/ISP-Practice-Guide-v1-10.27.22.pdf), co-design, tailoring support, teams and capacity | Adopt adaptable help and linked capacity-building while separating intervention-specific expertise from general support. The source's human-services context does not supply every subject Method. Section 4.2 preserves the unknown-method and research branches rather than converting them into adoption. |
 | [Team Topologies: Key Concepts](https://teamtopologies.com/key-concepts) | Adapt distinct collaboration, facilitating help, persistent specialist provision and common platforms into the interaction choices of §4.5. A fixed team-type taxonomy is unnecessary here; the candidate's actual contribution and interaction burden decide. |
@@ -41,7 +41,7 @@ The practice question is how to make a family of Methods performable through a j
 
 AI performance and human acquisition need different evidence. The [Cybernetic Teammate primary abstract](https://www.nber.org/papers/w33641) supplies a bounded task-performance result, not whole-organization replacement or durable mastery. [Anthropic's skill-formation study](https://www.anthropic.com/research/AI-assistance-coding-skills) supplies immediate learning observations in one programming setting, not a universal prediction of future human–AI work. These limits motivate the separate promises and conditional capability premises in §5.6.
 
-The source contributions justify candidate operations and useful distinctions. Transfer beyond their original fields depends on the actual Method, holder, result and relations recovered here. Reopen the relevant choice when a developed subject practice supplies a better complete construction, when observed work defeats the claimed connection, or when changed means alter the total contribution.
+The source contributions justify candidate operations and useful distinctions. Transfer beyond their original fields depends on the Method, holder, result and relations recovered here. Reopen the relevant choice when a developed subject practice supplies a better complete construction, when observed work defeats the claimed connection, or when changed means alter the total contribution.
 
 Reopen when a representative use exposes another non-isomorphic structure that reverses the decision, when moved burden remains hidden, or when an arrangement cannot be realized without changing its selected relation set.
 

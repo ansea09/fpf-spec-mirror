@@ -6,12 +6,12 @@ section_id: "A.11.OP:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.11.OP/A.11.OP__006_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.11.OP — Decision-Relevant Least Action and Operational Parsimony: Test a Proposed Requirement"
   - "A.11.OP:5 — Archetypal Grounding"
-line_start: 27708
-line_end: 27753
+line_start: 28738
+line_end: 28789
 dependencies:
   - "A.10"
   - "A.11"
@@ -55,7 +55,11 @@ For a constructed comparison, suppose A, B and holding are all available within 
 | Method B | 10 hours | 0 hours | 5 hours |
 | Hold | 4 hours | 4 hours | 4 hours |
 
-These are illustrative planning inputs. On this basis, A and B each cost five expected hours; holding costs four. Suppose the probe distinguishes the three conditions in time. Choosing A, B or holding after its result costs 0.8 expected hours before probe effort. At one hour for the whole probe, the total is 1.8 hours, so the team selects the probe and the stated conditional continuation. At five hours for the same probe, still available before selection, the total is 5.8 hours: the completed advice is to hold on the current basis. If the probe cannot return before selection, its information does not serve this horizon. The operating constraints and uncertainty remain visible in each answer.
+These are illustrative planning inputs. On this basis, A and B each cost five expected hours; holding costs four. Suppose the probe distinguishes the three conditions in time. Choosing A, B or holding after its result costs 0.8 expected hours before probe effort.
+
+At one hour for the whole probe, the total is 1.8 hours, so the team selects the probe and the stated conditional continuation.
+
+At five hours for the same probe, still available before selection, the total is 5.8 hours: the completed advice is to hold on the current basis. If the probe cannot return before selection, its information does not serve this horizon. The operating constraints and uncertainty remain visible in each answer.
 
 If instead the team establishes that every materially plausible observation leads to Method A and no other reliance changes, the probe fails even the contribution screen for that use. The team can choose A directly, without inventing a study and then recording why it was omitted.
 
@@ -65,7 +69,9 @@ A pressure-system release check is expected to confirm the current operating dec
 
 `B.3`, the applicable evidence pattern, and the release authority set the assurance floor and disposition. A.11.OP returns only that the check is non-ceremonial for this named release reliance. A candidate check qualifies here only when the relying condition, exposure change, and direct owner are known.
 
-Now consider a local rule requiring a copy of the same accepted check record. In this constructed case, every relying reader already has the original, and retyping adds no independent verification. It consumes the technician's only hour available for correcting an identified defect. The local rule owner can amend this copying requirement today while retaining the required check and its accessible evidence. The useful amendment is to use the original record and recover that hour for correction. The protected people and pressure-system condition, the lost correction opportunity and the feasible authority to amend supply the comparison. If the amendment cannot be obtained in time, the technician follows the applicable requirement or authorized hold route; a favorable merits comparison alone does not authorize omission.
+Now consider a local rule requiring a copy of the same accepted check record. In this constructed case, every relying reader already has the original, and retyping adds no independent verification. It consumes the technician's only hour available for correcting an identified defect. The local rule owner can amend this copying requirement today while retaining the required check and its accessible evidence. The useful amendment is to use the original record and recover that hour for correction. The protected people and pressure-system condition, the lost correction opportunity and the feasible authority to amend supply the comparison.
+
+If the amendment cannot be obtained in time, the technician follows the applicable requirement or authorized hold route; a favorable merits comparison alone does not authorize omission.
 
 #### A.11.OP:5.4 - Recovery cue and discriminating language
 

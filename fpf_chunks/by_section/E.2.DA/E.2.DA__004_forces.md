@@ -6,12 +6,12 @@ section_id: "E.2.DA:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.2.DA/E.2.DA__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.2.DA — Evaluate How FPF Realizes Its Pillars (Pillar-Adequacy CharacteristicSpace)"
   - "E.2.DA:3 — Forces"
-line_start: 92721
-line_end: 92731
+line_start: 97254
+line_end: 97264
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -31,8 +31,8 @@ keywords:
 | Force | Tension |
 |---|---|
 | Constitutional meaning vs evaluation | Pillar meanings stay in `E.2`; values over realized adequacy are evaluated here. |
-| Whole-FPF quality vs local quality | One strong pattern can still belong to a framework whose entry and inter-pattern relations are weak. |
-| Discoverability vs precision | Real readers search ordinary words, while claim-bearing wording must preserve its FPF kinds and point to the content that defines, constrains, or tests the claim. |
+| Whole-FPF quality vs local quality | One strong pattern can belong to a framework whose entry and inter-pattern relations are weak. |
+| Discoverability vs precision | Readers search ordinary words, while claim-bearing wording must preserve its FPF kinds and point to the content that defines, constrains, or tests the claim. |
 | Didactic force vs semantic admissibility | The text must teach the move without smuggling new ontology into examples or projections. |
 | Breadth vs affordability | A complete result retains all eleven Pillars; reuse adequate evidence and limit further inquiry to what the judgement needs. |
 | Open-ended evolution vs release stop | FPF can improve forever, but one scoped object needs a local stop condition. |

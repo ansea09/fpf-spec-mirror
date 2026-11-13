@@ -6,36 +6,27 @@ section_id: "A.1.STM:3"
 section_title: "The attention map"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.STM/A.1.STM__005_the-attention-map.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.1.STM — Connect Project Reasoning (System-Thinking Long Mantra)"
   - "A.1.STM:3 — The attention map"
-line_start: 4132
-line_end: 4156
+line_start: 4240
+line_end: 4266
 dependencies:
   - "A.1"
-  - "A.1.CSD"
   - "A.1.SCR"
   - "A.10"
-  - "A.12"
-  - "A.14"
   - "A.15"
-  - "A.15.5"
   - "A.15.6"
-  - "A.15.PROD"
   - "A.2"
   - "A.2.1"
-  - "A.21"
   - "A.22.CGUS"
   - "A.3"
-  - "A.3.1"
-  - "A.3.4"
   - "B.3"
   - "B.5.PI"
   - "C.22.2"
   - "C.28"
   - "C.30"
-  - "C.30.STRAT"
   - "C.32.P2S"
   - "E.18"
   - "E.18.NET"
@@ -49,7 +40,7 @@ Keep these connected questions available while reasoning about the project. Begi
 | Region | Plain question | What the answer enables |
 | --- | --- | --- |
 | Outside change and use | What should become different or remain possible for whom, in which operating situation and time? | Establish the result sought, receiving transformations and success conditions, including a proposed future use. |
-| Wider functioning at that time | In what containing whole or other receiving system does this contribution matter, and through which relation? | Move upward through the relevant part–whole relations and examine the wider functioning. Keep use, interaction, ownership and creation relations distinct from containment. |
+| Wider functioning at that time | Of which larger functioning whole is the system a part, and how does the joint action of the parts produce the result sought? | Establish the relevant part–whole relations at the operating time, moving through the levels and inclusions that affect the decision. An unknown whole leaves an inquiry to resolve. Keep use, interaction, ownership and creation distinct from containment. |
 | Project systems-of-interest and uses | Which systems and receiving results matter to this decision, in which projects, and which boundaries and connections must the participants agree? | Connect contributions to the relevant uses and shared conditions through section 4.1. A future system can be described before an actual holder exists. |
 | Functioning and the system sought | What must the system do in use? What kind of system are we seeking by that function? | State the required behaviour, then a functional description such as "coolant circulator" and the conditions for a suitable candidate. Section 4.3 explains how this opens the choice of constructions. |
 | Construction | What organization, parts or materials could provide that functioning? | Compare possible constructions and their operating conditions through C.32.P2S and the C.30 family. |
@@ -65,5 +56,7 @@ First follow the anticipated contribution **toward receiving use** and examine t
 
 For an actual production account, distinguish Work, changes of continuing materials or parts, production participation, the new entity's identity inception, completion and later use through A.15.PROD and the relevant subject patterns. A system cannot undergo a change before it exists. Use an available recognition result for an actual system; section 7 supplies the return when systemhood is unresolved.
 
-When the receiving question needs a transformation-flow structure or a network of such structures, use E.18 to identify each TFS and E.18.NET for the network. The latter requires independently identified members, exact obtaining cross-member relation occurrences, complete endpoint bindings, applied constraints and the use frame. Production, operation, verification, feedback and recursive builder branches can concern different members. A shared entity, temporal adjacency or a drawn arrow supplies no relation between them. Keep a proposed network provisional and name the missing member, governor, predicate result, occurrence or binding. An ordinary project explanation need not make this network claim.
+When the receiving question needs a transformation-flow structure or a network of such structures, use E.18 to identify each TFS and E.18.NET for the network. The latter requires independently identified members, exact obtaining cross-member relation occurrences, complete endpoint bindings, applied constraints and the use frame. Production, operation, verification, feedback and recursive builder branches can concern different members.
+
+A shared entity, temporal adjacency or a drawn arrow supplies no relation between them. Keep a proposed network provisional and name the missing member, governor, predicate result, occurrence or binding. An ordinary project explanation need not make this network claim.
 

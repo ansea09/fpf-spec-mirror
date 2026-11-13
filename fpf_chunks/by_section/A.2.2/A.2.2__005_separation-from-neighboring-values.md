@@ -6,12 +6,12 @@ section_id: "A.2.2:4"
 section_title: "Separation From Neighboring Values"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__005_separation-from-neighboring-values.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.2.2 — System Capability: Conditions, Measures and Fit"
   - "A.2.2:4 — Separation From Neighboring Values"
-line_start: 5345
-line_end: 5356
+line_start: 5525
+line_end: 5536
 dependencies:
   - "A.1"
   - "A.15"
@@ -37,7 +37,7 @@ keywords:
 |---|---|
 | “Engineer role can approve the design.” | Treat bare *role* as an E.10.ROLE trigger. If it means classification, recover local kind `EngineerSystemRole` and a C.3.2 judgment for an admitted System. If assignment identity matters, name the assignment occurrence and its declared `U.SystemRoleAssignment` species. Do not infer permission, capability, action, responsibility, or approval Work from either claim; add a capability claim only for the measured and qualified ability of the holder System, and use the permission and performed-Work relations when those claims are made. |
 | “The robot is assigned as welder.” | Name an assignment occurrence with the robot as holder and its declared `U.SystemRoleAssignment` species, whose assigned-kind position has local domain `WelderSystemRoleKindDomain`; the occurrence supplies `WelderSystemRole` as the value admitted by that domain. Add a capability claim only if the claim also says that the robot can meet a welding envelope and measures. |
-| "The solver has the scheduling algorithm." | First identify what the possession phrase claims: a deployed-software relation, a capability statement about the solver system, a reference to exact `U.Method`, or a candidate claim-bearing episteme. Apply `A.3.2` only to the last candidate; it is `U.MethodDescription` only when its exact `EntityOfConcern` is one admitted Method and at least one substantive claim says how that Method is done. The phrase alone establishes none of these. |
+| "The solver has the scheduling algorithm." | First identify what the possession phrase claims: a deployed-software relation, a capability statement about the solver system, a reference to a `U.Method`, or a candidate claim-bearing episteme. Apply `A.3.2` only to the last candidate; it is `U.MethodDescription` only when its exact `EntityOfConcern` is one admitted Method and at least one substantive claim says how that Method is done. The phrase alone establishes none of these. |
 | "The report has evidence capability." | Recover the report's evidence-use relation. A separate capability claim needs a system that can perform evidential work. |
 | "The team did one successful run." | `U.Work` occurrence; a broader capability claim needs justified conditions, attained measures and current support. |
 | "We promise five-day close." | Promise content and commitment; the provider's qualified ability and its fit to the promised result need separate support. |

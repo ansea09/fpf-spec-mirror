@@ -6,12 +6,12 @@ section_id: "E.14:11"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__014_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.14 — Human-Centric Working-Model: Readable Claims and Recoverable Assurance"
   - "E.14:11 — Rationale"
-line_start: 105546
-line_end: 105555
+line_start: 111997
+line_end: 112008
 dependencies:
   - "B.3.5"
   - "C.13"
@@ -24,9 +24,11 @@ keywords:
 
 ### E.14:11 - Rationale
 
-**Why Working-Model is canonical.** FPF privileges **human-oriented relations** as the primary language and working representation for thinking and communication. This satisfies didactic primacy while preserving conceptual integrity: formal work serves the human layer, not the other way around. The canonical template and style principles institutionalise this choice without inviting notation lock-in.
+**Why Working-Model is canonical.** FPF privileges **human-oriented relations** as the primary language and working representation for thinking and communication. This satisfies didactic primacy while preserving conceptual integrity: formal work serves the human layer. The canonical template and style principles make that choice part of ordinary writing while preserving notational independence.
 
-**Why grounding is presented underneath the claim.** The direct claim stands on the pattern that defines or tests it. When assurance is current, Mapping, Logical, Constructive, and Empirical support sits beneath that claim, and the applicable profile or requirement says what must be declared. Authors select the contribution that addresses the current assurance question: meaning correspondence for **Concept-Bridge Assurance (CBA)**, a reasoned consequence or constructive argument for **Verification Assurance (VA)**, or empirical support for **Validation Assurance (LA)** under B.3.3. Each contributes only what its actual argument establishes for the receiving use.
+**Why grounding is presented underneath the claim.** The direct claim stands on the pattern that defines or tests it. When assurance is current, Mapping, Logical, Constructive, and Empirical support sits beneath that claim, and the applicable profile or requirement says what must be declared.
+
+Authors select the contribution that addresses the current assurance question: meaning correspondence for **Concept-Bridge Assurance (CBA)**, a reasoned consequence or constructive argument for **Verification Assurance (VA)**, or empirical support for **Validation Assurance (LA)** under B.3.3. Each contributes only what its actual argument establishes for the receiving use.
 
 **Why patterns teach before they tighten.** Tell-Show-Show places an architectural rule beside System and Episteme cases where it applies to both; E.7 permits a justified single-substrate boundary. The cases make application conditions and the recognition-to-assurance return inspectable. They do not by themselves establish reduced cognitive load, practical effectiveness, or universal applicability.
 

@@ -3,15 +3,15 @@ chunk_kind: "child"
 pattern_id: "E.14"
 pattern_title: "Human-Centric Working-Model: Readable Claims and Recoverable Assurance"
 section_id: "E.14:7"
-section_title: "Bias-Annotation (what to watch for, and the counter-moves)"
+section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
-output_path: "by_section/E.14/E.14__010_bias-annotation-what-to-watch-for-and-the-counter-moves.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+output_path: "by_section/E.14/E.14__010_bias-annotation.md"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.14 — Human-Centric Working-Model: Readable Claims and Recoverable Assurance"
-  - "E.14:7 — Bias-Annotation (what to watch for, and the counter-moves)"
-line_start: 105454
-line_end: 105467
+  - "E.14:7 — Bias-Annotation"
+line_start: 111893
+line_end: 111906
 dependencies:
   - "B.3.5"
   - "C.13"
@@ -22,9 +22,9 @@ dependencies:
 keywords:
 ---
 
-### E.14:7 - Bias-Annotation *(what to watch for, and the counter-moves)*
+### E.14:7 - Bias-Annotation
 
-| Bias (name) | Symptom in drafts | Conceptual counter-move | Where to check this |
+| Bias | Symptom in drafts | Response | Where to check this |
 | --------------------------------- | ------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
 | **Formalism capture**             | Treating a constructive narrative as “the real thing,” with **ut:\*Of** reduced to a label. | Re‑assert Working‑Model primacy: publish in **ut:\*Of**; attach assurance **downwards** only when needed.                                      | E.8 template; Notational‑Independence guard‑rail.                    |
 | **Canonical inversion**           | Demanding constructive grounding for epistemic links by default.                            | Keep the **progressive** stance: prefer Logical/Mapping assurance for knowledge claims; raise to Constructive only when structure is at issue. | Authoring template; Working‑Model pattern family.                    |

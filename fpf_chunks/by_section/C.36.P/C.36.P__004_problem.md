@@ -6,12 +6,12 @@ section_id: "C.36.P:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.P/C.36.P__004_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.36.P — Clarify Cultural-Evolution Wording for a Claim or Action"
   - "C.36.P:2 — Problem"
-line_start: 90772
-line_end: 90782
+line_start: 95252
+line_end: 95262
 dependencies:
   - "A.1"
   - "A.1.1"

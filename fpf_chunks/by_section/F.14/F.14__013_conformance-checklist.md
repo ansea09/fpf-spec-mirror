@@ -6,12 +6,12 @@ section_id: "F.14:12"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__013_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.14 — Anti-Explosion Control for System-Role and Status Name Families"
   - "F.14:12 — Conformance checklist"
-line_start: 123338
-line_end: 123352
+line_start: 131148
+line_end: 131162
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -57,8 +57,8 @@ keywords:
 | CC-F14-03 | Are the system-role-kind designation, local kind, `SystemRoleKindDescription`, exact relation among kinds, assignment, capability, Method, and performed Work distinct? |
 | CC-F14-04 | Are status family, value, window, use relation, evidence, and presentation distinct? |
 | CC-F14-05 | Are effective naming ReferenceScheme and exact local-sense basis used instead of a generic context slot? |
-| CC-F14-06 | Is a selected model-use structure absent unless its organization changes this exact naming use? |
-| CC-F14-07 | Does any cited F.9 Bridge actually obtain between exact cells, with proposed use and reliance separate? |
+| CC-F14-06 | Is a selected model-use structure absent unless its organization changes this naming use? |
+| CC-F14-07 | Does any cited F.9 Bridge obtain between exact cells, with proposed use and reliance separate? |
 | CC-F14-08 | Are NameCard, cell, row, id, publication occurrence, form, and carrier independently justified and mutually distinct? |
 | CC-F14-09 | Does every stronger ontology, relation, system-role kind, status, Work, evidence, authority, or publication claim require its direct pattern? |
 | CC-F14-10 | Are lineage spellings retained without carrying fused ontology or widening admitted use? |

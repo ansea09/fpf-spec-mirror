@@ -6,12 +6,12 @@ section_id: "C.26.3:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.3/C.26.3__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.26.3 — Viability-Envelope Boundary Regulation"
   - "C.26.3:3 — Forces"
-line_start: 66652
-line_end: 66661
+line_start: 69671
+line_end: 69680
 dependencies:
   - "A.10"
   - "A.15"
@@ -46,6 +46,6 @@ keywords:
 | Bundle vs scalar | Viability usually concerns a bundle, but dashboards often expose one or two proxies. |
 | Stability vs change | The system may preserve function by changing internal settings, external environment, boundary conditions, or operating regime. |
 | Sensing vs intervention | A measurement value is not a change or Work. Its use may report, probe, or participate in a separately grounded behavior-changing Work, interaction, or governance claim. |
-| General envelope regulation vs optional QL coordination | Use C.26.3 for the envelope-regulation claim and `C.25`, `U.Dynamics`, `A.6`, `A.15`, and `C.16` for its exact constituent claims and objects. Add `C.26` / QL only under the residual-obstruction condition in §1. |
+| General envelope regulation vs optional QL coordination | Use C.26.3 for the envelope-regulation claim and `C.25`, `U.Dynamics`, `A.6`, `A.15`, and `C.16` for its constituent claims and objects. Add `C.26` / QL only under the residual-obstruction condition in §1. |
 | Light use vs dynamics detail | Rate, inertia, damping, latency, and effort of the recovered intervention object or resulting change matter only when load-bearing. |
 

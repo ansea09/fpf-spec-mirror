@@ -6,12 +6,12 @@ section_id: "G.0:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.0/G.0__010_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.0 — Define Admissible Comparison and Aggregation for a Frame (CG-Spec)"
   - "G.0:9 — Consequences"
-line_start: 127169
-line_end: 127175
+line_start: 135219
+line_end: 135225
 dependencies:
   - "A.10"
   - "A.17"
@@ -54,8 +54,8 @@ keywords:
 
 ### G.0:9 - Consequences
 
-* **Lawful comparability.** The frame declares exactly what can be compared/aggregated and under what constraints.
+* **Lawful comparability.** The frame enumerates the comparisons and aggregations it permits and the constraints on each.
 * **Auditable selection.** Downstream selectors can justify outcomes via pinned legality surfaces and explicit evidence minima.
 * **Explicit transfer conditions.** Cross-context reuse exposes the correspondence, receiving conditions and any justified loss on which it relies.
-* **Lower drift under evolution.** Edition pinning + typed RSCR triggers makes comparability drift detectable and refreshable.
+* **Lower drift under evolution.** Compare edition pins to detect a change in the comparison basis. Use the corresponding typed RSCR trigger to refresh the affected comparisons.
 

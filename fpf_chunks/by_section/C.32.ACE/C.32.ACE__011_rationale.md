@@ -6,12 +6,12 @@ section_id: "C.32.ACE:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACE/C.32.ACE__011_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.32.ACE — Architecture Characteristic Eval Programs"
   - "C.32.ACE:10 — Rationale"
-line_start: 77966
-line_end: 77971
+line_start: 81795
+line_end: 81800
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -51,7 +51,7 @@ keywords:
 
 ### C.32.ACE:10 - Rationale
 
-An architecture-characteristic eval program connects declared criteria to the evaluation result needed by receiving work. It explains what will be observed or derived, under which conditions, and how that answer can be used. A comparison adds the parity conditions on which its inference depends; every actual answer comes from its independently established result kind. It does not answer "what is the criterion?", "is the measurement valid outside this use?", or "which architecture must be chosen?"
+An architecture-characteristic eval program connects declared criteria to the evaluation result needed by receiving work. It explains what will be observed or derived, under which conditions, and how that answer can be used. A comparison adds the parity conditions on which its inference depends; every answer comes from its independently established result kind. It does not answer "what is the criterion?", "is the measurement valid outside this use?", or "which architecture must be chosen?"
 
 The pattern is architecture-specific because it evaluates selected structures and architecture characteristics. The same eval form can be used in system, organization-as-system, built-asset, episteme, work-occurrence, discipline, AI-agent-setup, and C.36-recovered cultural-evolution cases once the admitted holon being described has been identified in each case. It can also evaluate Method-side, Work-side, evidence-side, local-kind, classification, or assignment structures after the described holon, the defining or constraining ClaimGraph located through the subject pattern, the bearer and predicate, and the scale rows are rebound. Unresolved “role” wording goes through `E.10.ROLE`; the pattern does not admit Methods, roles, practices, or cultures as holon kinds by label.
 

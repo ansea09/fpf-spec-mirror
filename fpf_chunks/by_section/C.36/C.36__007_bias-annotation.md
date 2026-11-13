@@ -6,12 +6,12 @@ section_id: "C.36:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36/C.36__007_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.36 — Cultural Evolution and Cultural-Evolution Engineering"
   - "C.36:6 — Bias-Annotation"
-line_start: 81622
-line_end: 81633
+line_start: 85611
+line_end: 85622
 dependencies:
   - "A.1"
   - "A.10"
@@ -65,9 +65,9 @@ keywords:
 
 | Lens | Likely drift | Repair |
 |---|---|---|
-| **Gov** | A case card, project choice, intervention proposal, or observed population trend is read as authorization, responsibility, acceptance, or policy. | Keep each project decision and authority claim with its direct pattern; C.36 records only the cultural relations and intervention distinctions actually current. |
-| **Arch** | One platform, archive, genre tree, lifecycle, or dashboard is treated as the cultural architecture. | Recover the relevant Methods, Work, subjects, memory epistemes, mediation, recognition, selection, measurement, and refresh relations; use architecture patterns only for actual architecture claims. |
+| **Gov** | A case card, project choice, intervention proposal, or observed population trend is read as authorization, responsibility, acceptance, or policy. | Keep each project decision and authority claim with the pattern for that claim; C.36 records only the cultural relations and intervention distinctions at issue. |
+| **Arch** | One platform, archive, genre tree, lifecycle, or dashboard is treated as the cultural architecture. | Recover the relevant Methods, Work, subjects, memory epistemes, mediation, recognition, selection, measurement, and refresh relations; use architecture patterns only for architecture claims. |
 | **Onto-Epist** | A familiar label, publication, model, score, or intervention card becomes the practice, population, variant, relation, performed Work, or effect. | Recover the object and relation under the applicable pattern; keep descriptions and records distinct from the subjects and occurrences they describe. |
-| **Prag** | Every optional card field is filled, while the project still cannot say what is supported or worth continuing or changing. | Start with the one-sentence case and open only fields whose identities change the current conclusion, proposal, Work, effect, comparison, or return. |
-| **Did** | Specialist evolutionary language or formal relation lists hide the recognizable project situation. | Use ordinary language first, then add the smallest exact terms and pattern references needed to make the claim and next action clear, including any boundary against a real overread. |
+| **Prag** | Every optional card field is filled, while the project still cannot say what is supported or worth continuing or changing. | Start with the one-sentence case and open only fields whose identities change the conclusion, proposal, Work, effect, comparison, or return. |
+| **Did** | Specialist evolutionary language or formal relation lists hide the recognizable project situation. | Use ordinary language first, then add only the terms and pattern references needed to make the claim and next action clear, including any boundary against a real overread. |
 

@@ -6,12 +6,12 @@ section_id: "B.3.5:8"
 section_title: "Compatibility & cross‑references"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.5/B.3.5__010_compatibility-cross-references.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.3.5 — Assurance Grounding for Working-Model Relation Claims (CT2R-LOG)"
   - "B.3.5:8 — Compatibility & cross‑references"
-line_start: 45580
-line_end: 45585
+line_start: 47462
+line_end: 47467
 dependencies:
   - "B.3"
   - "C.13"
@@ -21,7 +21,7 @@ keywords:
 
 ### B.3.5:8 - Compatibility & cross‑references
 
-* **B.3 and the direct proof or mathematical pattern.** CT2R-LOG makes the relied-on construction or support account inspectable; B.3 judges its contribution to the current assurance claim. State the actual logic and proof basis when a formal conclusion is used.
-* **B.3.3 (Assurance subtypes and levels).** The declared `validationMode` and actual `tv:groundedBy` account contribute only what they establish for the receiving assurance claim. They do not compute a universal L0–L2 progression; a published level requires an applicable justified profile.
-* **B.3.4 (Evidence ageing and currentness).** A relation assertion, its construction-trace episteme, and the warrants or evidence used for it retain their own editions and currentness. `validationMode=axiomatic` does not freeze a trace or make described world-side facts timeless; changed participants, relations, rules, or identity conditions require direct reinspection.
+* **B.3 and the proof or mathematical pattern.** CT2R-LOG makes the relied-on construction or support account inspectable; B.3 judges its contribution to the assurance claim. State the logic and proof basis when a formal conclusion is used.
+* **B.3.3 (Assurance subtypes and levels).** The declared `validationMode` and `tv:groundedBy` account contribute only what they establish for the receiving assurance claim. They do not compute a universal L0–L2 progression; a published level requires an applicable justified profile.
+* **B.3.4 (Evidence ageing and currentness).** A relation assertion, its construction-trace episteme, and the warrants or evidence used for it retain their own editions and currentness. `validationMode=axiomatic` does not freeze a trace or make described world-side facts timeless; changed participants, relations, rules, or identity conditions require reinspection.
 

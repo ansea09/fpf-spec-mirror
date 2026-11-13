@@ -6,12 +6,12 @@ section_id: "B.1.5.CM:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5.CM/B.1.5.CM__011_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.1.5.CM — Construct and Qualify a Composite Method"
   - "B.1.5.CM:9 — Consequences"
-line_start: 43071
-line_end: 43076
+line_start: 44791
+line_end: 44796
 dependencies:
   - "A.3.1"
   - "B.1.5"
@@ -23,7 +23,7 @@ keywords:
 
 ### B.1.5.CM:9 - Consequences
 
-Projects can move from architecture proposal to realization and learning under explicit identity and relation conditions. An established composition and a supported proposal remain distinguishable, and either can support the use for which its grounds are sufficient.
+Projects can move from architecture proposal to realization and learning under identity and relation conditions. An established composition and a supported proposal remain distinguishable, and either can support the use for which its grounds are sufficient.
 
 The cost is a visible open identity or relation question. Some proposed methodologies will remain candidate accounts after useful trials, and some will split into several Methods or a relation structure instead of maturing as one whole.
 

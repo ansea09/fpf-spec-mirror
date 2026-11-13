@@ -6,12 +6,12 @@ section_id: "E.24:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24/E.24__007_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.24 — U.Ontic and Ontic Introduction Discipline"
   - "E.24:5 — Archetypal Grounding"
-line_start: 116416
-line_end: 116471
+line_start: 123844
+line_end: 123903
 dependencies:
   - "A.19.ECS"
   - "A.6.0"
@@ -42,11 +42,11 @@ keywords:
 
 ### E.24:5 - Archetypal Grounding
 
-Use these slices as archetypes for the ontic-introduction decision. They are not a recommended progression. Each slice shows the exact governed payload, its ontology disposition, any independent source-use status, and the tempting overread that is blocked.
+These examples illustrate different ontic-introduction decisions. Their order does not prescribe a progression. Each slice shows the exact governed payload, its ontology disposition, any independent source-use status, and the tempting overread that is blocked.
 
 #### E.24:5.1 - Episteme Ontology Unit as Durable Ontic
 
-The ontology-unit individual `EpistemeOntic` coordinates the shared episteme constitution and the minimal relation rules used across current patterns. E.24.UK retains `U.Episteme` as the primary kind; C.2.1 identifies each particular episteme. The ontology unit is identified under :4 by that kind, the exact constitution rule and the included relation meanings. The PumpStation37 specification is one consuming example. Changing the example's publication or view leaves the ontology unit unchanged; changing a governing relation in its minimal set reopens the ontology unit's identity.
+The ontology-unit individual `EpistemeOntic` coordinates the shared episteme constitution and the minimal relation rules used across current patterns. E.24.UK retains `U.Episteme` as the primary kind; C.2.1 identifies each episteme. The ontology unit is identified under :4 by that kind, the exact constitution rule and the included relation meanings. The PumpStation37 specification is one consuming example. Changing the example's publication or view leaves the ontology unit unchanged; changing a governing relation in its minimal set reopens the ontology unit's identity.
 
 The coordination is needed because these uses must agree on which episteme they concern. Empirical grounding selects claims of that episteme; edition continuity compares distinct episteme identities; viewpoint conformance tests an identified episteme against an identified viewpoint; publication makes a selected edition available. C.2.1's constitution rule provides their common subject identity, while each direct pattern retains its own predicate. A content or interpretation change therefore reopens the dependent conclusions that use it, whereas a carrier change alone leaves that identity fixed. Without this shared rule, those patterns could silently evaluate, continue, or publish different knowledge objects under one name.
 
@@ -55,18 +55,22 @@ The coordination uses independently recoverable content and interpretation rules
 
 #### E.24:5.2 - Multi-Pattern Subject Matter as an Ontic-Candidate Archetype
 
-A project phrase such as "algorithm", "process", "solver", "workflow", "system", "quality", "time", "source", or "architecture" can point to one recognizable subject that is spread across several FPF values and patterns. The point of this archetype is not that all such subjects are one kind. The E.24 decision instead settles the status of the cross-pattern subject before patterns rely on it.
+A project phrase such as "algorithm", "process", "solver", "workflow", "system", "quality", "time", "source", or "architecture" can point to one recognizable subject that is spread across several FPF values and patterns. A shared phrase does not establish one kind for all these subjects. The E.24 decision settles the status of the cross-pattern subject before patterns rely on it.
 
 In this archetype, "process" and "workflow" begin as source expressions. Recover the one current object through `E.24:4.3a`, select the ontology disposition from that object's receiving use, and retain source-use status independently. The boundary fixture below supplies the concrete direct, bounded, durable-threshold, and unresolved cases; the label never becomes their common kind.
 
-A source-driven use closes only after the exact expression remains linked to what was carried forward. For example, a source expression `workflow` may have source-use status `quote-only` while its ontology disposition is direct subject-assertion use of one recovered `U.MethodDescription` under the `A.3.2` rule content and one selected `TransformationFlowStructure` under the `E.18` rule content. The source expression neither becomes their common kind nor disappears from the provenance of that use. If a later claim needs the source's stronger ordering, execution, or evidence meaning, reopen the named source episteme and state the exact stronger assertion under its defining or constraining `ClaimGraph`.
+A source-driven use closes only after the exact expression remains linked to what was carried forward. For example, `workflow` may remain `quote-only` while one receiving question is answered directly by a claim about a recovered `U.MethodDescription` under `A.3.2`, and another by a claim about a selected `TransformationFlowStructure` under `E.18`. If one use needs both assertions read together, apply the bounded-episteme threshold. The source expression neither becomes their common kind nor disappears from the provenance of that use. If a later claim needs the source's stronger ordering, execution, or evidence meaning, reopen the named source episteme and state the exact stronger assertion under its defining or constraining `ClaimGraph`.
 
 #### E.24:5.2a - One Workflow Expression Across the Boundary
 
-Use one fixture to see what changes the answer. The exact expression `Line 7 pump-service workflow` comes from source episteme `Line7MaintenanceManual_v4`; when availability matters, `Line7ManualRelease_2026-04` is its source publication occurrence. Keep its source-use status `quote-only` in every case below. The fixed EntityOfConcern of each decision card is `Line7WorkflowInquiry_v1`, an independently identified source-construct entity for this exact inquiry; it asserts neither a workflow ontic nor any branch payload. The recovered objects are already governed: `Pump37ServiceMethodDescription_v2` under A.3.2, `Pump37WeeklyMaintenancePlan_2026Q3` under A.15.2, dated Work occurrence `Pump37ServiceWork_2026-07-18` under A.15.1, and selected `Pump37MaintenanceFlowStructure` under E.18. The expression and provenance do not choose the ontology disposition; the receiving use and recovered evidence do.
+Use one fixture to see what changes the answer. The exact expression `Line 7 pump-service workflow` comes from source episteme `Line7MaintenanceManual_v4`; when availability matters, `Line7ManualRelease_2026-04` is its source publication occurrence.
+
+Keep its source-use status `quote-only` in every case below. The fixed EntityOfConcern of each decision card is `Line7WorkflowInquiry_v1`, an independently identified source-construct entity for this inquiry; it asserts neither a workflow ontic nor any branch payload.
+
+The recovered objects are already governed: `Pump37ServiceMethodDescription_v2` under A.3.2, `Pump37WeeklyMaintenancePlan_2026Q3` under A.15.2, dated Work occurrence `Pump37ServiceWork_2026-07-18` under A.15.1, and selected `Pump37MaintenanceFlowStructure` under E.18. The expression and provenance do not choose the ontology disposition; the receiving use and recovered evidence do.
 
 1. **Direct-use result.** A manual editor needs to check the one claim that `Pump37ServiceMethodDescription_v2` describes the service method used in the manual. A.3.2 closes that readable claim. The decision's EntityOfConcern remains `Line7WorkflowInquiry_v1`; its `DirectUseResult` points to the exact assertion, the identified method-description episteme, and A.3.2. Do not add a coordination episteme or a workflow ontic.
-2. **Bounded-episteme result.** A weekly scheduling review needs the method description, current work plan, dated Work occurrence, and selected flow structure read together because each claim explains how exact Pump #37 will be serviced that week. The decision's EntityOfConcern remains `Line7WorkflowInquiry_v1`; its `BoundedEpistemeResult` points to `Pump37WorkflowScheduling_v1`, whose own EntityOfConcern is exact Pump #37 under C.2.1. No current dependent use requires that claim package as ontology. Leave every designated object under its exact predicate, subject assertion, and defining or constraining `ClaimGraph`.
+2. **Bounded-episteme result.** A weekly scheduling review needs the method description, current work plan, dated Work occurrence, and selected flow structure read together because each claim explains how Pump #37 will be serviced that week. The decision's EntityOfConcern remains `Line7WorkflowInquiry_v1`; its `BoundedEpistemeResult` points to `Pump37WorkflowScheduling_v1`, a bounded episteme under C.2.1 whose EntityOfConcern is Pump #37. A.1 identifies the pump. No current dependent use requires that claim package as ontology. Leave every designated object under its exact predicate, subject assertion, and defining or constraining `ClaimGraph`.
 3. **Durable-ontic threshold—not met by the current fixture.** The decision's EntityOfConcern remains `Line7WorkflowInquiry_v1`. A positive `DurableOnticResult` would have to point to an independently identified ontology-unit individual such as `MaintenanceWorkflowOntic_v1`, its stable identity or constitution rule, and the exact reliance of multiple A.3.2, A.15.2, A.15.1, and E.18 consumers on that one unit. Those facts are absent, so this fixture has no durable result; when this stronger use is the active question, its `UnresolvedResult` names the missing identity and reliance evidence. The source expression and recurring four-object list do not identify a durable ontic.
 4. **Unresolved stop.** The same manual may ask only to “align the workflow” while leaving open whether the concern is the method description, plan, dated Work, flow structure, Pump #37, or an admitted whole or selected structure. The decision's EntityOfConcern remains `Line7WorkflowInquiry_v1`; its `UnresolvedResult` records that no exact governed payload has been recovered and names the missing identity evidence. Keep the quote and provenance, and split any direct claims that are already valid; do not turn the phrase or list into a subject.
 

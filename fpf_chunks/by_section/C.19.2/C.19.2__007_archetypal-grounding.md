@@ -6,12 +6,12 @@ section_id: "C.19.2:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.2/C.19.2__007_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.19.2 — Use-Bounded Apparatus Application"
   - "C.19.2:5 — Archetypal Grounding"
-line_start: 62130
-line_end: 62149
+line_start: 64621
+line_end: 64641
 dependencies:
   - "A.15.1"
   - "A.15.2"
@@ -47,10 +47,11 @@ In this constructed planning account, both eligible Methods satisfy the same gua
 
 The setup difference is 38 hours and the per-handoff saving is 8 minutes: the methods tie at 285 handoffs. At the declared 400-handoff horizon, C.11 returns `choose now` for the ontology-backed Method on the supplied equal-guarantee basis, saving an expected 15 hours 20 minutes. If the feasible horizon falls to 100, the same basis favors the lighter Method. These are conditional estimates, not observed maintenance results; changed costs or guarantees reopen their respective questions.
 
-An admitted maintenance-information System performs the dated configuration and application Work using the selected ontology-backed Method. The account recovers the System's A.13 core and independently admits the Work under A.15.1. Because the current question is whether setup cost is repaid across the handoffs and consumes no exact assignment-bound attribution, this short example does not open F.6 or expose assignment identity, species, participants, or attribution detail. A later attribution-bearing claim adds F.6 through the same obtaining A.13 assignment.
+An admitted maintenance-information System performs the dated configuration and application Work using the selected ontology-backed Method. The account recovers the System's A.13 core and independently admits the Work under A.15.1. Because the current question is whether setup cost is repaid across the handoffs and consumes no assignment-bound attribution, this example does not open F.6 or expose assignment identity, species, participants, or attribution detail. A later attribution-bearing claim adds F.6 through the same obtaining A.13 assignment.
 
-A separately admitted maintenance-decision System then performs decision Work using the selected Method. Its A.13 core and independent A.15.1 Work admission are recoverable; this setup-cost example consumes no exact assignment-bound attribution, so F.6 remains unopened. Under `A.6.1`, application `MaintenanceDecisionApplication-1` of operation `DecideMaintenance`, declared by `MaintenanceDecisionMechanism-E1`, returns `AuditedMaintenanceDecision-1` under result declaration `DecisionResult`; no Work-to-result or production claim is made. If repair or audit cost does not fall after the declared sample, reopen the apparatus application.
-**One-off naming repair.** A team already has the direct typed-relation method for one local, reversible naming decision. No rival is live and the current method has a credible small path, so no option set or choice result is created. The team performs the minimal wording and typing work and returns a scoped terminology decision. Recurrence, integration, a failed result, or a stronger guarantee may later open candidate generation and choice.
+A separately admitted maintenance-decision System then performs decision Work using the selected Method. Its A.13 core and independent A.15.1 Work admission are recoverable; this setup-cost example consumes no assignment-bound attribution, so F.6 remains unopened. Under `A.6.1`, application `MaintenanceDecisionApplication-1` of operation `DecideMaintenance`, declared by `MaintenanceDecisionMechanism-E1`, returns `AuditedMaintenanceDecision-1` under result declaration `DecisionResult`; no Work-to-result or production claim is made. If repair or audit cost does not fall after the declared sample, reopen the apparatus application.
+
+**One-off naming repair.** A team already has the typed-relation method for one local, reversible naming decision. No rival is live and the current method has a credible small path, so no option set or choice result is created. The team performs the minimal wording and typing work and returns a scoped terminology decision. Recurrence, integration, a failed result, or a stronger guarantee may later open candidate generation and choice.
 
 **Non-use.** If the blocked result comes from missing telemetry while the method, state kinds, and action distinctions are already clear, return to measurement and evidence work. Apparatus selection cannot manufacture the missing observation.
 

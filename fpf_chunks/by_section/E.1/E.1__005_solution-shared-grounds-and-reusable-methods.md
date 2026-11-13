@@ -6,12 +6,12 @@ section_id: "E.1:4"
 section_title: "Solution — Shared Grounds and Reusable Methods"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.1/E.1__005_solution-shared-grounds-and-reusable-methods.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.1 — Vision & Mission"
   - "E.1:4 — Solution — Shared Grounds and Reusable Methods"
-line_start: 92471
-line_end: 92494
+line_start: 97004
+line_end: 97027
 dependencies:
   - "E.2"
 keywords:
@@ -41,12 +41,12 @@ FPF expresses these shared grounds and reusable contributions through:
 
    * **Evolvability** — change is expected and governed;
    * **Cross‑Scale Coherence** — preserve shared distinctions across scales and qualify each part–whole algebra for its subject and the structure it preserves;
-   * **Didactic Transparency** — each element exposes its own reasoning path.
+   * **Didactic Transparency** — each element exposes its reasoning path.
 
 For a proposed rule or artifact, take one affected use through these steps:
 
 1. State the intended user, decision or action, and the failure the proposal addresses.
 2. For a normative rule, name at least one core invariant and explain the rule's contribution in that use. A copied invariant label is insufficient; if the contribution is unresolved, retain the proposal and return the missing argument or case before treating it as charter-conformant.
 3. State the artifact's intended measurable benefit, its comparison basis and how it could be checked, or the reason a benefit statement is inapplicable. Distinguish an aim or supported prediction from an observed result. Withdraw an unsupported outcome claim or obtain the evidence needed by that claim; do not substitute conformance for benefit.
-4. Apply only the additional feasibility and lexical conditions that the claim activates. Keep any remaining gap and the next useful action explicit. A changed benefit basis or invariant argument reopens the affected claim, not unrelated conclusions.
+4. Apply only the additional feasibility and lexical conditions that the claim activates. State any remaining gap and the next useful action. A changed benefit basis or invariant argument reopens the affected claim, not unrelated conclusions.
 

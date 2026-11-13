@@ -6,12 +6,12 @@ section_id: "G.11:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.11/G.11__014_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.11 — Decide Whether and How to Refresh SoTA Packs and Related Results (Telemetry and Decay)"
   - "G.11:12 — Relations"
-line_start: 132530
-line_end: 132535
+line_start: 140653
+line_end: 140660
 dependencies:
   - "A.10.1"
   - "A.6.RCD"
@@ -49,6 +49,8 @@ keywords:
 ### G.11:12 - Relations
 
 **Builds on:** `G.Core` (Part‑G invariants; RSCR trigger catalogue; alias docking; Default Governing Definition Index), `G.6` (EvidenceGraph, `PathId` and `PathSliceId`), `G.7` (Bridge sentinels; CL, Φ, and plane pins), `G.5` (selector and set-return), `G.8` (bundle telemetry hooks), `G.9` (parity), `G.10` (shipping hooks), `B.3.4` (freshness and decay), `E.18` (GateCrossing visibility).
+
 **Coordinates with:** `A.10.1` for source-change discovery, direct-use tests and affected reach; `C.11.DUA` for choosing worthwhile inquiry or a sufficient present answer; `G.12` for dashboard telemetry pins; `A.6.RCD` for reopening reused predicate definitions and derived relation kinds when their base definitions, named substrate edition, authorized derivation operation or applicability changes; `C.18` and `C.19` for archive, front and live-pool policy pins; `C.32.P2S` when telemetry, decay or freshness reopens architecture problem-to-structure carry-through; `C.23` for SoS-LOG branches and maturity ladders; `C.28` for causal-use support results, verdicts, supported and unsupported uses, and causal-use sentinel payloads; `F.15` for RSCR harness publications when present.
+
 **Publishes to:** UTS (refresh plan, refresh report, deprecations, edition bumps), and to the relevant subject patterns’ publication faces, forms, or units through delegated actions.
 

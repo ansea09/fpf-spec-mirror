@@ -6,12 +6,12 @@ section_id: "A.19.SOURCE-SET-SPACE-SUBSTRATE:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SOURCE-SET-SPACE-SUBSTRATE/A.19.SOURCE-SET-SPACE-SUBSTRATE__013_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE — Source-Set and Search/Outcome-Space Substrate"
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE:9 — Consequences"
-line_start: 35934
-line_end: 35947
+line_start: 37436
+line_end: 37449
 dependencies:
   - "A.0"
   - "A.17"
@@ -42,11 +42,11 @@ keywords:
 
 - Readers can see what the line is acting on, what spaces it distinguishes, what relation is declared between the two space refs, and what outcome load it claims.
 - `A.19`, `C.18`, `G.5`, and `G.10` stay coordinated without collapsing into one layer.
-- Heavier qualifiers such as declared map refs, metrics, transitions, and bridge-loss notes remain usable without being forced into every first slice.
+- Heavier qualifiers such as declared map refs, metrics, transitions, and bridge-loss notes remain usable without being forced into every initial declaration.
 
 **Trade-offs**
 
-- The line must expose one explicit relation and one explicit posture instead of hiding them in umbrella prose.
-- Some cases that used to look "simple" will expose real uncertainty or loss that now needs to be declared.
+- The line must expose one relation and one posture instead of hiding them in umbrella prose.
+- Some cases that used to look "simple" will expose uncertainty or loss that now needs to be declared.
 - Neighboring interpretive-view or publication patterns may need to be read as companions rather than assumed from local shorthand.
 

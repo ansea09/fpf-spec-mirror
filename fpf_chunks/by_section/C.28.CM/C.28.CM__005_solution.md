@@ -6,12 +6,12 @@ section_id: "C.28.CM:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28.CM/C.28.CM__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.28.CM — Construct and Challenge a Causal Model"
   - "C.28.CM:4 — Solution"
-line_start: 68516
-line_end: 68596
+line_start: 71589
+line_end: 71669
 dependencies:
   - "A.15.9"
   - "B.5.2"
@@ -65,7 +65,7 @@ Given a conditioning set W disjoint from the endpoints, a path is open when ever
 
 Apply this rule to all relevant paths, including those opened by the way the sample was selected. Conditioning on an incident being reported can matter even when “reported” is absent from the regression.
 
-Consider the complete small graph:
+Consider the complete graph:
 
 ~~~text
 Z → X → M → Y
@@ -76,9 +76,9 @@ S → D
 
 There are three simple X-to-Y paths. X → M → Y carries the proposed causal mechanism; X ← Z → Y carries a common cause; X → S ← Y is blocked at S before conditioning. Conditioning on Z blocks the common-cause path and retains the causal path. Conditioning on M blocks that causal path. Conditioning on S, or its descendant D, opens the collider path. Inspecting only the fork would miss that selection effect.
 
-For a total effect in an appropriate causal DAG, the back-door criterion provides one sufficient adjustment rule: choose measured covariates that are not descendants of X and block every path entering X through an arrowhead. This leaves the directed causal paths available. The resulting identification still relies on the model's causal interpretation, suitable data and support for the required comparisons. Failure of this sufficient criterion is not proof that the effect is unidentified. Use C.28 for the identification question rather than inventing an adjustment from one recognizable three-node shape.
+For a total effect in an appropriate causal DAG, the back-door criterion provides one sufficient adjustment rule: choose measured covariates that are not descendants of X and block every path entering X through an arrowhead. This leaves the directed causal paths available. The resulting identification relies on the model's causal interpretation, suitable data and support for the required comparisons. Failure of this sufficient criterion is not proof that the effect is unidentified. Use C.28 for the identification question rather than inventing an adjustment from one recognizable three-node shape.
 
-The ordinary d-separation rule above applies to DAGs. If feedback matters, distinguish times: an outcome at t may affect workload at t+1. A finite time-unfolded model still needs its initial conditions and omitted influences justified. An equilibrium with simultaneous causal feedback needs an appropriate cyclic model, its solution conditions and its separation rule. Do not erase feedback merely to obtain an acyclic picture.
+The ordinary d-separation rule above applies to DAGs. If feedback matters, distinguish times: an outcome at t may affect workload at t+1. A finite time-unfolded model needs its initial conditions and omitted influences justified. An equilibrium with simultaneous causal feedback needs an appropriate cyclic model, its solution conditions and its separation rule. Do not erase feedback merely to obtain an acyclic picture.
 
 #### C.28.CM:4.5 - Derive a consequence that can distinguish the accounts
 
@@ -86,7 +86,7 @@ Work the same question through each retained model. Start with a direction, a po
 
 Keep three operations distinct. Conditioning restricts attention using an observed value. Intervention replaces the specified mechanism. Omitting a variable from a report or marginalizing it out leaves its possible influence in the subject model. Treating all three as “fix the variable” can reverse the conclusion.
 
-When the mechanisms are specified, C.28.MR derives an intervention consequence while retaining the relevant other mechanisms and underlying inputs. Use C.29 when expressing or computing the model requires further mathematical construction. If the needed function or input law is missing, return that precise gap along with any qualitative result that survives.
+When the mechanisms are specified, C.28.MR derives an intervention consequence while retaining the relevant other mechanisms and underlying inputs. Use C.29 when expressing or computing the model requires further mathematical construction. If the needed function or input law is missing, return that gap along with any qualitative result that survives.
 
 Two graphs may entail the same observed independences. Two mechanisms may produce the same measurements in the available range. Retain both when the present material does not distinguish them. A causal-discovery procedure can contribute within its declared model class and assumptions; its returned graph does not remove those conditions.
 

@@ -6,12 +6,12 @@ section_id: "G.6:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.6/G.6__011_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.6 — Evidence Graph and Provenance Ledger: Citable Evidence-Provenance Paths"
   - "G.6:10 — Rationale"
-line_start: 130209
-line_end: 130216
+line_start: 138265
+line_end: 138272
 dependencies:
   - "A.10"
   - "A.10.1"
@@ -63,5 +63,5 @@ A.10 recovers one relied-on claim, its source/provenance account and bounded rel
 
 That representational gain does not justify a second ontology of evidence edges. Work, participants, products, subject results, result epistemes, outcomes, sources, provenance, currentness, and later uses already have direct governors. G.6 therefore projects their exact refs and direct relations, and C.29 governs the representation correspondence when current. This makes a complex chain readable without allowing graph topology to create facts.
 
-The ledger is likewise an index over established provenance, not a result store or process log. Missing relation evidence remains a visible gap; it is never repaired by drawing a more persuasive path.
+The ledger is likewise an index over established provenance, not a result store or process log. Show missing evidence for a relation as a gap. Redrawing the path cannot supply that evidence.
 

@@ -6,12 +6,12 @@ section_id: "E.8.ECSPF:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8.ECSPF/E.8.ECSPF__010_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.8.ECSPF — Author an FPF Pattern from an Accepted Evaluation CharacteristicSpace Specification"
   - "E.8.ECSPF:9 — Consequences"
-line_start: 98067
-line_end: 98072
+line_start: 103624
+line_end: 103631
 dependencies:
   - "A.19.ECS"
   - "C.25"
@@ -28,7 +28,9 @@ keywords:
 
 ### E.8.ECSPF:9 - Consequences
 
-A conforming `E.8.ECSPF` publication form makes evaluation guidance findable, teachable, and reusable inside FPF. It lets a practitioner frame an evaluation with `E.22` or repeat improvement with `E.23` without re-inventing values. It also makes the cost visible: a reusable evaluation pattern must publish more than a local rubric, because it must prevent wrong-kind use, hidden value drift, neighbour theft, and proxy-for-value substitution.
+A conforming `E.8.ECSPF` publication form makes evaluation guidance findable, teachable, and reusable inside FPF. It lets a practitioner frame an evaluation with `E.22` or repeat improvement with `E.23` without re-inventing values.
+
+It also makes the cost visible: a reusable evaluation pattern must publish more than a local rubric, because it must prevent wrong-kind use, hidden value drift, neighbour theft, and proxy-for-value substitution.
 
 The pattern's output is bounded evaluation guidance and the form of its result. For product certification, release approval, an evidence claim, or an improvement decision, use the applicable pattern and establish the required result or decision.
 

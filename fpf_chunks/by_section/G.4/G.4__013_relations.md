@@ -6,12 +6,12 @@ section_id: "G.4:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.4/G.4__013_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.4 — CAL Authoring for a CG-Frame: Operators, Acceptance Clauses, Evidence Wiring"
   - "G.4:12 — Relations"
-line_start: 129100
-line_end: 129112
+line_start: 137152
+line_end: 137164
 dependencies:
   - "A.10"
   - "A.13"
@@ -60,7 +60,7 @@ keywords:
 
 **Builds on:** `G.Core` (and the pattern template discipline in `E.8`).
 
-**Uses:** `G.1` (CG‑Frame Card), `G.2` (SoTA Synthesis Pack), `G.3` (CHR Pack), `G.0` (CG‑Spec legality gate), `A.19` (CN‑Spec plus direct comparison and selection patterns), `A.18` (CSLC), `A.2.6` (`U.ClaimScope`), `A.6.1` (declarations and actual bindings), `A.13` (precise performer core), `A.15.1` (independent Work admission), `A.2.1` (assignment species and occurrences), and `F.6` only for exact assignment-bound attribution through the same obtaining assignment, `C.2.1` (result epistemes), `C.11` (decision results), `A.10` (provenance and bounded reliance), `B.3` (assurance), `G.11` (currentness), and `E.18` (transformation-flow structure and GateCrossing), `A.21` (gate decisions from independent check results), `F.9` (actual relations between source-local meanings), `F.17` (SchemeSenseCells), and `E.17` (multi-view publication).
+**Uses:** `G.1` (CG‑Frame Card), `G.2` (SoTA Synthesis Pack), `G.3` (CHR Pack), `G.0` (CG‑Spec legality gate), `A.19` (CN‑Spec plus direct comparison and selection patterns), `A.18` (CSLC), `A.2.6` (`U.ClaimScope`), `A.6.1` (declarations and actual bindings), `A.13` (precise performer core), `A.15.1` (independent Work admission), `A.2.1` (assignment species and occurrences), and `F.6` only when the receiving claim needs to establish that the Work was performed under the same obtaining assignment, `C.2.1` (result epistemes), `C.11` (decision results), `A.10` (provenance and bounded reliance), `B.3` (assurance), `G.11` (currentness), and `E.18` (transformation-flow structure and GateCrossing), `A.21` (gate decisions from independent check results), `F.9` (actual relations between source-local meanings), `F.17` (SchemeSenseCells), and `E.17` (multi-view publication).
 
 **Uses (via Extensions):** `G.6` (EvidenceGraph/Path citation; when `G.4:Ext.EvidenceGraphWiring` is present), `C.18` (NQD), `C.19` (E/E‑LOG), `C.23` (SoS‑LOG).
 

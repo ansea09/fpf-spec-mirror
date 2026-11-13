@@ -6,12 +6,12 @@ section_id: "A.1.SCR:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.SCR/A.1.SCR__005_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.1.SCR — Finding the Acting or Changed System"
   - "A.1.SCR:3 — Forces"
-line_start: 3589
-line_end: 3599
+line_start: 3681
+line_end: 3691
 dependencies:
   - "A.1"
   - "A.1.CSD"
@@ -29,9 +29,9 @@ keywords:
 | Force | Tension |
 | --- | --- |
 | Useful entry vs classification ritual | A.1 is rigorous, but many subject-pattern questions do not depend on systemhood. |
-| Familiar wording vs exact identity | A noun can retrieve a case but cannot identify an entity, boundary, or kind. |
+| Familiar wording vs identity | A noun can retrieve a case but cannot identify an entity, boundary, or kind. |
 | Physical grounding vs kind collapse | Embodiment helps locate a subject but does not identify it with a local system-role kind or assignment, capability, Work, or description. |
 | Project intent vs actual existence | A designator or selection among alternatives is not yet an acting system. |
-| Positive action vs honest uncertainty | Missing construction facts must block the affected decision without creating a third ontic state. |
+| Positive action vs uncertainty | Missing construction facts must block the affected decision without creating a third ontic state. |
 | Reusable cases vs taxonomy | The examples teach one move but do not form a common kind. |
 

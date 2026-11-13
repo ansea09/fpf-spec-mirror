@@ -6,12 +6,12 @@ section_id: "C.38:6"
 section_title: "Precision restoration"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.38/C.38__007_precision-restoration.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.38 — Construct Comparable Ways to Obtain One Result"
   - "C.38:6 — Precision restoration"
-line_start: 82583
-line_end: 82596
+line_start: 86615
+line_end: 86628
 dependencies:
   - "A.10"
   - "A.15.9"
@@ -34,7 +34,7 @@ keywords:
 | Source label | Recover before comparison | Do not infer |
 | --- | --- | --- |
 | *build* | Sought result, proposed Work, Methods, performers, Systems, enabling branches, evidence, support, and exit needed by this decision. | Internal capability, authorization, Work, or success. |
-| *buy* or *lease* | Exact proposed provision, transfer, access, custody, ownership, support, and acceptance relations inside the whole way. | Purchase is the whole way or the result is available. |
+| *buy* or *lease* | Proposed provision, transfer, access, custody, ownership, support, and acceptance relations inside the whole way. | Purchase is the whole way or the result is available. |
 | *provider* or *outsource* | Proposed provider Work, supplied result, interfaces, evidence, responsibility, support, change, and exit boundaries. | Provider label establishes capability, authority, service, delivery, or acceptance. |
 | *internal* | Which Systems may perform which proposed Work under which support and capability premises. | Employment or organizational location is an arrangement kind or capability proof. |
 | *reuse* | The already-available System or result, fit, permitted use, adaptation, integration, evidence, support, and recovery. | Prior existence proves present suitability or availability. |

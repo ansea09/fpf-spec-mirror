@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.1.5.RS"
-pattern_title: "Evaluate a Constituent Method Replacement in Its Encompassing Uses"
+pattern_title: "Evaluate a Method Replacement in Its Encompassing Uses"
 section_id: "B.1.5.RS:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5.RS/B.1.5.RS__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "B.1.5.RS — Evaluate a Constituent Method Replacement in Its Encompassing Uses"
+  - "B.1.5.RS — Evaluate a Method Replacement in Its Encompassing Uses"
   - "B.1.5.RS:4 — Solution"
-line_start: 42769
-line_end: 42823
+line_start: 44475
+line_end: 44529
 dependencies:
   - "A.3.1"
   - "B.1.5"
@@ -28,7 +28,7 @@ Compare the candidate against what the encompassing work needs, then carry the c
 
 #### B.1.5.RS:4.1 - Name the proposed change
 
-Identify the current constituent, its candidate replacement and the gain: for example, reduced delay, effort or dependence on a scarce specialist. State what changes in the operation, its inputs, outputs, interactions or realization.
+Identify the constituent, its candidate replacement and the gain: for example, reduced delay, effort or dependence on a scarce specialist. State what changes in the operation, its inputs, outputs, interactions or realization.
 
 Keep a proposed replacement separate from one already performed. Use A.3.1 to settle any needed identity claim: exposing a hidden step, changing an implementation within an admitted variation and proposing another Method need not have the same answer.
 
@@ -36,9 +36,9 @@ Keep a proposed replacement separate from one already performed. Use A.3.1 to se
 
 Identify the encompassing Methods or work arrangements whose use can change. Follow an indirect use through the intermediate whole while it affects the decision. Include a second receiving use when the constituent is shared; local success in the first use does not by itself establish compatibility with the second.
 
-This is a search bounded by the intended replacement. If the actual users cannot be recovered, restrict adoption to the known uses or return the missing use information that prevents a broader decision. Do not require an inventory of all imaginable uses.
+This is a search bounded by the intended replacement. If the users cannot be recovered, restrict adoption to the known uses or return the missing use information that prevents a broader decision. Do not require an inventory of all imaginable uses.
 
-For each relevant whole, recover:
+For each whole, recover:
 
 - what it supplies or assumes at the constituent's entry;
 - what result or interaction it needs from the constituent;
@@ -51,7 +51,7 @@ Plain statements are sufficient when they make the comparison executable. Use an
 
 Apply the proposed constituent to the receiving conditions. Follow what it supplies through the affected part of the whole, including an interaction before final output when the whole relies on it.
 
-Choose an argument, available observations, calculation or trial that can discriminate the decision at proportionate cost. A known violation can reject a general replacement without testing every possible input. A successful example can reveal a usable construction but does not automatically support all inputs.
+Choose an argument, available observations, calculation or trial that can discriminate the decision at proportionate cost. A known violation can reject a general replacement without testing every input. A successful example can reveal a usable construction but does not automatically support all inputs.
 
 When an approximation is proposed, state the property preserved for the receiving use: a bound, ordering, feasible action, specified error or other needed consequence. Equal rounded answers on one example do not establish preservation of a different property.
 
@@ -63,7 +63,7 @@ If the same implementation must serve several wholes simultaneously, examine the
 | --- | --- |
 | The needed contribution and conditions are preserved. | Adopt the replacement for that use at the supported scope. |
 | Preservation holds only under a narrower condition. | Restrict use to that condition and retain a suitable alternative elsewhere. |
-| An adapter or changed combination can restore the needed contribution. | Treat that adaptation as part of the candidate and check its full burden and behavior. |
+| An adapter or changed combination can restore the needed contribution. | Treat that adaptation as part of the candidate and check its burden and behavior. |
 | A required contribution is lost. | Reject the replacement for that whole, change the requirement through the relevant decision, or choose another candidate. |
 | Information does not distinguish compatibility from failure. | Keep the uncertainty bounded and obtain more only if it can change a worthwhile next action. |
 
@@ -71,7 +71,7 @@ This is a directed conclusion. Replacing A by B in one use does not show that A 
 
 #### B.1.5.RS:4.5 - Adopt or retain alternatives
 
-Choose at the supported scope, accounting for adaptation, learning, operation and maintenance costs. Retain separate variants when their different strengths justify the burden; a single universal replacement is not required.
+Choose at the supported scope, accounting for adaptation, learning, operation and maintenance costs. Retain separate variants when their different strengths justify the burden; a universal replacement is not required.
 
 For an ongoing operation, use its ordinary rules for introducing change and retaining continuity. State the condition that would require reconsideration: changed inputs, another receiving whole, a tighter timing limit, lost support or a newly relevant result property.
 

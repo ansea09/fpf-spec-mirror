@@ -6,12 +6,12 @@ section_id: "A.2.8.PER:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8.PER/A.2.8.PER__012_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.2.8.PER — Granted Permission, Exercise, and Non-Prohibition"
   - "A.2.8.PER:10 — Rationale"
-line_start: 8750
-line_end: 8753
+line_start: 9101
+line_end: 9104
 dependencies:
   - "A.10"
   - "A.13"
@@ -35,5 +35,5 @@ keywords:
 
 ### A.2.8.PER:10 - Rationale
 
-Positive permission has different satisfaction and failure behavior from obligation. A grant can obtain while unused. Non-use does not violate that grant, but a separate duty may still be violated; matching action can exercise the grant without discharging a duty. Separating weak findings, strong grants and exercise preserves these consequences through the existing episteme, relation, speech-act, policy, Work and evidence-use patterns.
+Positive permission has different satisfaction and failure behavior from obligation. A grant can obtain while unused. Non-use does not violate that grant, but a separate duty may be violated; matching action can exercise the grant without discharging a duty. Separating weak findings, strong grants and exercise preserves these consequences through the existing episteme, relation, speech-act, policy, Work and evidence-use patterns.
 

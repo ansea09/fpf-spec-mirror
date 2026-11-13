@@ -6,12 +6,12 @@ section_id: "E.17:10"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__012_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:10 — Common Anti-Patterns and How to Avoid Them"
-line_start: 107899
-line_end: 107911
+line_start: 114541
+line_end: 114553
 dependencies:
   - "A.10"
   - "A.15.4"
@@ -47,13 +47,13 @@ keywords:
 ### E.17:10 - Common Anti-Patterns and How to Avoid Them
 
 1. **“Presentation logic” as semantics.**
-    *Fix:* Keep every claim in the source ClaimGraph. When a reader needs to know how a claim arose, name the exact authoring, measurement, observation, model, source-use, representation, or refinement relation. Use an exact specification-use gate, CG-Spec, or KD-CAL when it owns the requirement; keep views declarative; publication adds **zero** claims.
+    *Fix:* Keep every claim in the source ClaimGraph. When a reader needs to know how a claim arose, name the authoring, measurement, observation, model, source-use, representation, or refinement relation. Use the specification-use gate, CG-Spec, or KD-CAL when it owns the requirement. Keep views declarative. Publication adds **zero** claims.
 2. **Publishing only endpoint faces.**
     *Fix:* The optional formal profile constructs faces for `g o f`, not only endpoint faces for `FaceObj_s(X)`, `FaceObj_s(Y)`, and `FaceObj_s(Z)`. A system performs the construction work.
 3. **Unpinned numbers.**
-    *Fix:* Recover the value’s required interpretation and support. Retain the material pins and add CG or CHR references only when the applicable rule or selected profile consumes them; withhold a numeric use whose required basis remains missing.
+    *Fix:* Recover the value’s required interpretation and support. Retain the material pins and add CG or CHR references only when the applicable rule or selected profile consumes them. Withhold a numeric use whose required basis remains missing.
 4. **Face presented as a view without conformance.**
-    *Fix:* Resolve the exact viewpoint episteme and apply E.17.0 to the exact candidate episteme; redesign or re-emit the face only after the semantic repair.
+    *Fix:* Resolve the viewpoint episteme and apply E.17.0 to the candidate episteme; redesign or re-emit the face only after the semantic repair.
 5. **`InteropCard` equivalent to `TechCard` duplication.**
     *Fix:* `InteropCard` can refine typing or shape but cannot contradict `TechCard` (reindexing monotone).
 

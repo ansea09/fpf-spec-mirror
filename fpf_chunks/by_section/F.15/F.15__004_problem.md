@@ -6,12 +6,12 @@ section_id: "F.15:2.1"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__004_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Naming and Semantic Unification"
   - "F.15:2.1 — Problem"
-line_start: 123440
-line_end: 123443
+line_start: 131256
+line_end: 131261
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -57,5 +57,7 @@ keywords:
 
 ### F.15:2.1 - Problem
 
-A slice can look stable because labels, cards, rows, descriptions, relation records, aliases, and version ids are arranged in one table. Yet the table establishes none of its listed subject relations, checks, results, evidence uses, continuity claims, or publication occurrences. F.15 makes the exact static and before-and-after questions inspectable without defining or establishing the neighbouring naming, ontology, checking, evidence-use, or publication claims itself.
+A slice can look stable because labels, cards, rows, descriptions, relation records, aliases, and version ids are arranged in one table. Yet the table establishes none of its listed subject relations, checks, results, evidence uses, continuity claims, or publication occurrences.
+
+F.15 makes the exact static and before-and-after questions inspectable without defining or establishing the neighbouring naming, ontology, checking, evidence-use, or publication claims itself.
 

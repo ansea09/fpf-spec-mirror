@@ -6,12 +6,12 @@ section_id: "A.2.8:9"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8/A.2.8__012_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.2.8 — U.Commitment — Individual Duties to Act or Refrain"
   - "A.2.8:9 — Common Anti-Patterns and How to Avoid Them"
-line_start: 8407
-line_end: 8419
+line_start: 8746
+line_end: 8758
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -47,7 +47,7 @@ keywords:
 | `CommitmentSubject ::= RoleRef | RoleAssignmentRef | PartyRef` | It merges a kind, relation occurrence, and actual bearer. | Use one actual bearer branch; keep kind and assignment in the rule's grounds. |
 | Optional institution source | A published sentence appears sufficient to create the relation. | Require the applicable rule and its actual instituting basis. |
 | Assignment-as-duty | Staffing becomes obligation. | Treat the assignment only as a rule fact and identify a separate commitment. |
-| Duty-as-responsibility | One deontic relation silently creates ownership. | State the independent responsibility predicate or return `missing-governor`. |
+| Duty-as-responsibility | One deontic relation is treated as ownership. | State the independent responsibility predicate or return `missing-governor`. |
 | Gate-as-duty | Entry conditions become obligations. | Keep the A-claim and let an independently instituted commitment cite it when required. |
 | Auditable rhetoric without support | “Guaranteed” cannot be adjudicated. | Cite exact evidence claims and carriers only when reliance or adjudication is current. |
 | Silent mutation | Changed bearer or rule is hidden under one ID. | A changed identity-bearing fact prevents reuse of the same occurrence identity. Establish the new commitment under §4.2 before asserting another occurrence. |

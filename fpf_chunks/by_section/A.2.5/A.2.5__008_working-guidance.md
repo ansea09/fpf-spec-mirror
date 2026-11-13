@@ -6,12 +6,12 @@ section_id: "A.2.5:5"
 section_title: "Working Guidance"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__008_working-guidance.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.2.5 — SystemRoleAssignmentStateRelation - Assignment-State Recognition for Work Admission"
   - "A.2.5:5 — Working Guidance"
-line_start: 6504
-line_end: 6513
+line_start: 6806
+line_end: 6815
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -35,7 +35,7 @@ keywords:
 ### A.2.5:5 - Working Guidance
 
 1. Write the readable sentence naming the current assignment and state condition; name the receiving-use window only when the current check selects one.
-2. Recover the predicate by value: exact system-role kind, normalized truth-condition clauses, temporal reading, applicability, and only meaning-bearing semantic-basis editions.
+2. Recover the predicate by value: system-role kind, normalized truth-condition clauses, temporal reading, applicability, and only meaning-bearing semantic-basis editions.
 3. Derive the maximal continuous extent from assignment obtaining and predicate truth; separately check any receiving-use window against that extent.
 4. Ask whether the receiving use needs occurrence identity and whether it relies on the state claim. If both answers are no, keep the readable assertion and stop.
 5. For relied-on use, make the assertion episteme, polarity, direct claim-family reference, and required evidence-use relation explicit. Record supported, refuted, or unresolved reliance separately; absent evidence is neither negative polarity nor world-side non-obtaining.

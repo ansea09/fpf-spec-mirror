@@ -6,12 +6,12 @@ section_id: "A.6.C:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.C/A.6.C__013_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.C — Contract Unpacking for Boundaries"
   - "A.6.C:12 — Relations"
-line_start: 15808
-line_end: 15824
+line_start: 16383
+line_end: 16399
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -34,7 +34,7 @@ dependencies:
   - "U.SpeechAct"
   - "U.Work"
 keywords:
-  - "A.6.B separately classifies the actual claim"
+  - "A.6.B separately classifies the claim"
   - "MVPK no-new-semantics"
   - "OPTIONAL or authority-looking wording is ambiguous"
   - "atomic L/A/D/E rows"
@@ -66,8 +66,8 @@ keywords:
 * **Coordinates with**
 
   * **A.7** (EntityOfConcern, Description episteme, and carrier) for correct placement of evidence claims.
-  * **A.15.1** for the exact dated Work occurrence and its §4.6 dispatch to application/result, production, change, evaluation, evidence, delivery/transfer, and acceptance patterns.
+  * **A.15.1** for the dated Work occurrence and its §4.6 dispatch to application/result, production, change, evaluation, evidence, delivery/transfer, and acceptance patterns.
   * **F.12** (service acceptance) for structuring how promise-level commitments connect to evidence and acceptance windows.
   * **E.17** MVPK “no new semantics” rule to prevent publication faces from becoming new contracts.
-  * **A.2.8.PER** for the exact permission-side direct objects; A.6 `A6-AW-*` and A.6.B classify each atomic claim without treating pattern selection as its quadrant.
+  * **A.2.8.PER** for the permission-side direct objects; A.6 `A6-AW-*` and A.6.B classify each atomic claim without treating pattern selection as its quadrant.
 

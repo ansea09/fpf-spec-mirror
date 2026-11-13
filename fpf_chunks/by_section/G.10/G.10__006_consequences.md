@@ -6,12 +6,12 @@ section_id: "G.10:5"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.10/G.10__006_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.10 — SoTA Pack Shipping"
   - "G.10:5 — Consequences"
-line_start: 132001
-line_end: 132013
+line_start: 140082
+line_end: 140094
 dependencies:
   - "A.10"
   - "A.15.3"
@@ -63,6 +63,6 @@ keywords:
 
 **Costs / trade‑offs**
 
-* Shipping becomes more explicit (more pins and explicit surfaces), which raises authoring overhead.
-* If upstream governing definitions fail to provide citable ids/pins, `G.10` cannot paper over the gap; shipping will block or ship a visibly incomplete pack (depending on policy‑bound failure behaviour, governed by cited definitions).
+* Authors spend time recording the additional pins and publishing the pack surfaces.
+* If upstream governing definitions fail to provide citable ids/pins, apply the failure policy in the cited definitions. Shipping will stop or produce a visibly incomplete pack.
 

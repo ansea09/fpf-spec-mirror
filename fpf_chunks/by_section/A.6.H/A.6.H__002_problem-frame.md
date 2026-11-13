@@ -6,12 +6,12 @@ section_id: "A.6.H:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.H/A.6.H__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.H — Wholeness Language Unpacking — RPR-WHOLE"
   - "A.6.H:1 — Problem frame"
-line_start: 25176
-line_end: 25192
+line_start: 26097
+line_end: 26113
 dependencies:
   - "A.1"
   - "A.10"
@@ -67,10 +67,10 @@ Natural language compresses several different engineering questions into the sam
 - What individual is being treated as one whole?
 - Where is its boundary, and what lies outside it?
 - Which independently identified objects are parts, constituents, members, portions, or proper temporal restrictions?
-- Which relations among those objects actually obtain?
+- Which relations among those objects obtain?
 - Does a named use need a construction trace or a selected structure?
 - Is the same whole being recognized again, or must it be reidentified?
-- Is “complete” about performed Work, capability, specification, evidence, or another exact coverage claim?
+- Is “complete” about performed Work, capability, specification, evidence, or another coverage claim?
 - Is “integrity” a measured characteristic, an assurance claim, or a claim that an assembled entity remains one whole?
 
 Those questions have different participants, predicates, and subject patterns. A.6.H keeps the source wording readable while making the load-bearing claims exact.

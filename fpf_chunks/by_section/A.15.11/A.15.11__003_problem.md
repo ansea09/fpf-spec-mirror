@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.15.11"
-pattern_title: "Make Applicable Methods Noticeable in Work"
+pattern_title: "Make Methods Noticeable in Work"
 section_id: "A.15.11:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.11/A.15.11__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.15.11 — Make Applicable Methods Noticeable in Work"
+  - "A.15.11 — Make Methods Noticeable in Work"
   - "A.15.11:2 — Problem"
-line_start: 32657
-line_end: 32664
+line_start: 33995
+line_end: 34002
 dependencies:
   - "A.15"
   - "A.15.7"
@@ -32,5 +32,5 @@ A searchable library helps someone who has begun to search. A well-written descr
 
 The missed relation may be between levels of work. A component can function correctly while its contribution no longer serves the larger task. Conversely, improving a constituent capability can be more useful than replacing the whole method. Unless that relation is noticed, the practitioner may keep optimizing the wrong contribution.
 
-Prompting creates its own problem. Frequent recommendations interrupt work, consume interpretation time and can turn an adequate direct answer into an unnecessary procedure. The practical question is where and how to make a useful possibility apparent, while preserving the option to continue without it.
+Prompting creates its own problem. Frequent recommendations interrupt work, consume interpretation time and can turn an adequate answer into an unnecessary procedure. The practical question is where and how to make a useful possibility apparent, while preserving the option to continue without it.
 

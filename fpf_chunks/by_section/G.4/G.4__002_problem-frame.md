@@ -6,12 +6,12 @@ section_id: "G.4:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.4/G.4__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.4 — CAL Authoring for a CG-Frame: Operators, Acceptance Clauses, Evidence Wiring"
   - "G.4:1 — Problem frame"
-line_start: 128670
-line_end: 128685
+line_start: 136721
+line_end: 136736
 dependencies:
   - "A.10"
   - "A.13"
@@ -64,11 +64,11 @@ CAL authoring starts from:
 * a plurality of method traditions and claims (SoTA inputs), and
 * CHR‑typed measurement constructs (`Characteristic/Scale/Coordinate` + legality guard macros).
 
-Before any run‑time selection, comparison, aggregation, or selected-set formation is executed downstream, authors need an explicit, auditable **CAL Pack** that:
+Before downstream users run a selection, comparison, aggregation or selected-set formation, authors need an explicit, auditable **CAL Pack** that:
 
 1. defines *what operators exist* and what they are allowed to do over CHR types,
 2. externalizes *fit-for-purpose acceptance* as typed predicates whose use is bounded by an exact `ClaimScope`, any evaluation window required by the predicate or receiving use, and any separate qualification window that limits use, and
 3. binds these choices to an evidence wiring surface (lanes, provenance anchors, policy pins, and refresh triggers) so that downstream selection, logging, parity, and shipping can cite *stable ids* rather than re‑inventing semantics.
 
-This pattern provides the design‑time authoring kit and the publication surface for CAL artifacts, while delegating Part‑G‑wide invariants to `G.Core` and CN-Spec and CG-Spec legality to `CG‑Spec`/`CN‑Spec`.
+Use this kit to author and publish CAL declarations at design time. Use `G.Core` for shared Part G invariants, `CG‑Spec` for the comparison legality gate and `CN‑Spec` for governance.
 

@@ -6,12 +6,12 @@ section_id: "A.2.8:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8/A.2.8__005_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.2.8 — U.Commitment — Individual Duties to Act or Refrain"
   - "A.2.8:2 — Problem"
-line_start: 8160
-line_end: 8171
+line_start: 8493
+line_end: 8504
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -44,7 +44,7 @@ keywords:
 How can a practitioner state an individual deontic relation so that:
 
 1. the actual duty bearer is explicit;
-2. the duty referents, modality, scope, and validity are exact;
+2. the duty referents, modality, scope, and validity are specified;
 3. one applicable constitutive rule and its required actual basis make institution testable;
 4. a generic prescription remains generic until the rule is satisfied;
 5. relation identity survives compatible description changes but not a changed bearer, content, rule, or interrupted validity;

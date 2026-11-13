@@ -6,12 +6,12 @@ section_id: "E.17.ID.CR:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.ID.CR/E.17.ID.CR__007_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.17.ID.CR — Compare Sources Within a Shared Review Frame (ComparativeReviewUnit)"
   - "E.17.ID.CR:6 — Bias-Annotation"
-line_start: 109118
-line_end: 109125
+line_start: 115832
+line_end: 115839
 dependencies:
   - "A.15"
   - "A.15.2"
@@ -45,5 +45,5 @@ Scope: bounded comparative review units governed under `ComparativeReviewUnit` i
 
 This pattern focuses on a bounded comparison over available sources. Recover the source claims, shared question, comparison basis and supported contrast. When the receiving work asks for a stronger claim, use its governing Method and retain the grounds already established by the comparison.
 
-The governance risk is not that a comparative review unit exists; it is that fluent comparison hides stronger use. The pattern therefore keeps reader-fit, interaction mode, and source relation visible only when they change the review unit's actual use, while keeping authority-bearing claims with their own governing patterns and project-side FPF kinds and references named by value.
+Fluent comparison can hide a stronger use. Make reader fit, interaction mode and source relation visible only when they change the unit’s use. Authority-bearing claims remain with their governing patterns and project-side FPF kinds and references named by value.
 

@@ -6,12 +6,12 @@ section_id: "C.30.ASV:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ASV/C.30.ASV__011_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
   - "C.30.ASV:10 — Rationale"
-line_start: 74067
-line_end: 74074
+line_start: 77254
+line_end: 77261
 dependencies:
   - "A.1"
   - "A.10"
@@ -65,9 +65,9 @@ keywords:
 
 ### C.30.ASV:10 - Rationale
 
-C.30.ASV exists because architecture descriptions are commonly multi-view, but FPF cannot let "view" absorb every architecture claim. A structure kind and a viewpoint are different. A structure kind says what kind of selected structure is described; a viewpoint is one exact episteme whose fixed rules the candidate description must satisfy. The direct conformance occurrence, not a label or bundle, makes the same episteme a `U.View`.
+Architecture descriptions are commonly multi-view, but "view" cannot stand in for every architecture claim. A structure kind and a viewpoint are different. A structure kind says what kind of selected structure is described; a viewpoint is one episteme whose fixed rules the candidate description must satisfy. The conformance occurrence, not a label or bundle, makes the same episteme a `U.View`.
 
-The first useful result is an explanation of the selected structure, its kind and the intended use. An adequate ordinary sentence can finish triage. `ArchitectureStructureKindTriage@Project` and the fuller view record organize content when that helps a receiving use; neither is required merely because the explanation is retained or published. A claimed architecture structural view still requires exact description identity and E.17.0 conformance.
+The first useful result is an explanation of the selected structure, its kind and the intended use. An adequate ordinary sentence can finish triage. `ArchitectureStructureKindTriage@Project` and the fuller view record organize content when that helps a receiving use; neither is required merely because the explanation is retained or published. A claimed architecture structural view still requires description identity and E.17.0 conformance.
 
-The TEVB decision is conservative. E.17.2 supplies a four-position project-local authoring template, not a current family or importable bundle. To reuse a declared family, resolve exact `U.ViewpointRef` values from its materialized local declaration and preserve catalogue and member provenance. Direct use of an independently admitted viewpoint does not require forming that family. Architecture-specific structure kinds and candidate-record bindings are defined beside those exact local references rather than mutating their resolved viewpoint epistemes or treating declaration membership as conformance.
+E.17.2 supplies a four-position project-local authoring template, not a current family or importable bundle. To reuse a declared family, resolve `U.ViewpointRef` values from its materialized local declaration and preserve catalogue and member provenance. Direct use of an independently admitted viewpoint does not require forming that family. Architecture-specific structure kinds and candidate-record bindings are defined beside those local references rather than mutating their resolved viewpoint epistemes or treating declaration membership as conformance.
 

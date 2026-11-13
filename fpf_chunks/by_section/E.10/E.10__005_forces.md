@@ -6,12 +6,12 @@ section_id: "E.10:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__005_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:3 — Forces"
-line_start: 99714
-line_end: 99722
+line_start: 105281
+line_end: 105289
 dependencies:
   - "A.10"
   - "A.15"
@@ -62,7 +62,7 @@ keywords:
 
 | Force                          | Tension to resolve                                                                         |
 | ------------------------------ | ------------------------------------------------------------------------------------------ |
-| **Universality and local fit** | Kernel stays universal while exact sources, practices, schemes, and uses retain their needed local distinctions. |
+| **Universality and local fit** | Kernel stays universal while sources, practices, schemes, and uses retain their needed local distinctions. |
 | **Brevity and clarity**        | Short names help, but only if morphology signals the right governed kind.                 |
 | **Stability and evolution**    | Names should survive refactors while accommodating new roles and kinds without explosion. |
 | **Pedagogy and precision**     | Plain words aid learners; Tech labels anchor formal checks.                                |

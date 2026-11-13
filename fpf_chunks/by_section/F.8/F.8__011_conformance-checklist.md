@@ -6,12 +6,12 @@ section_id: "F.8:8"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__011_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision for a Name"
   - "F.8:8 — Conformance Checklist"
-line_start: 121063
-line_end: 121081
+line_start: 128733
+line_end: 128751
 dependencies:
   - "A.11"
   - "A.15"
@@ -73,9 +73,9 @@ keywords:
 | `CC-F8-07` | Classification and assignment remain under C.3 and A.2.1. Any precise performed Work begins with the exact actual performer recovered through A.13 and independent A.15.1 admission; F.6 appears only for an expressly consumed precise assignment-bound attribution through the same obtaining A.13 assignment. None is inferred from a name. |
 | `CC-F8-08` | Any other governed subject—for example, a status, evidence use, access value, policy, publication use, or relation position—returns to its subject pattern before naming. |
 | `CC-F8-09` | F.17 row reuse stays within `AdmissibleUse`; spelling or local-sense reuse implies neither an F.9 Bridge nor equivalence. |
-| `CC-F8-10` | Ordinary naming needs no separate decision-object identity. The accountable branch resolves the decision or choice occurrence through the pattern that admits it or returns `missing-governor`, while any C.11 result, Work, result episteme, record, and naming object stays separate. |
+| `CC-F8-10` | Ordinary naming needs no separate decision-object identity. The accountable branch identifies the decision or choice occurrence under its rule or gives the applicable §4.5 outcome. Any C.11 result, Work, result episteme, record and naming object stay separate. |
 | `CC-F8-11` | A locality label such as `PatternReview_2026` is interpreted as the Work, plan, claim content, ReferenceScheme, or other object actually present; the label creates none of them. |
 | `CC-F8-12` | An unsettled U-kind proposal receives only `blockOrLowerUse` and the needed E.24.CD or E.24.UK route. Naming reopens only for the object identified by a stable admission result. |
-| `CC-F8-13` | A policy identifier resolves its specification and scope. When its mint history is cited, replayed, normative, cross-local, or accountable, the occurrence basis required by §8.1 is also recoverable; otherwise that stronger claim returns `missing-governor`. |
+| `CC-F8-13` | A policy identifier resolves its specification and scope. If its mint history is cited, replayed, normative, cross-local, or accountable, the occurrence basis required by §8.1 must also be recoverable. Use §4.5 for a history claim whose basis is insufficient. |
 | `CC-F8-14` | The result states the governed subject, selected disposition and admitted naming use, with a reopen condition when continued reuse needs it. Any non-use boundary passes F.19's grounded-contribution test. |
 

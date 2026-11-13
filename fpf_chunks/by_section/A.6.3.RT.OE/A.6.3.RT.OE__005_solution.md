@@ -6,12 +6,12 @@ section_id: "A.6.3.RT.OE:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT.OE/A.6.3.RT.OE__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.3.RT.OE — Construct an Operative Expression"
   - "A.6.3.RT.OE:4 — Solution"
-line_start: 19056
-line_end: 19143
+line_start: 19915
+line_end: 20004
 dependencies:
   - "A.6.3.RT"
   - "B.5.RA"
@@ -34,7 +34,7 @@ Construction and use may alternate. A partial expression can be sufficient to ob
 
 #### A.6.3.RT.OE:4.1 - Recover the operation and the available content
 
-State what the practitioner should do with the expression and what result would count as useful. “Understand the diagram” is insufficient when the actual work is to compare two paths, substitute a quantity, identify a shared prerequisite or enter a phrase at the right time.
+State what the practitioner should do with the expression and what result would count as useful. “Understand the diagram” is insufficient when the work is to compare two paths, substitute a quantity, identify a shared prerequisite or enter a phrase at the right time.
 
 Recover the givens, constraints, unknowns and partial construction used by that operation. Keep their status visible when it matters: a given equality, a provisional correspondence and a result just derived support different next steps.
 
@@ -42,7 +42,7 @@ Use the subject Method to recover an absent operation or premise. B.5.RC and B.5
 
 ##### A.6.3.RT.OE:4.1.1 - Let a partial expression help obtain the question
 
-Sometimes the available material reveals a difficulty before it supplies a definite question. Start with an attainable operation on that material: place two reports together, arrange events by their stated times, separate an observation from its interpretation, or compare a proposed outcome with what is actually available. State what this attempt could distinguish. A provisional operation can be selected without pretending that the final inquiry is settled.
+Sometimes the available material reveals a difficulty before it supplies a definite question. Start with an attainable operation on that material: place two reports together, arrange events by their stated times, separate an observation from its interpretation, or compare a proposed outcome with what is available. State what this attempt could distinguish. A provisional operation can be selected while the final inquiry remains open.
 
 Try the operation and inspect what its expression lets you see. An unanswered position can expose a missing observation. Two incompatible interpretations can reveal a conflated question. A row that cannot accommodate a second attempt can reveal that the chosen unit was too coarse. Change the arrangement when the available material warrants that change; obtain a missing contribution when rearrangement cannot supply it.
 
@@ -64,9 +64,11 @@ Use the amount of labeling the operation needs. Reuse familiar conventions; expl
 
 A table also needs an interpretation for its rows and columns. A row may represent a case or relation with several participants, rather than one object. A column can ask for an object, quantity, condition or judgement. Explain what its entries denote and which combinations are meaningful before relying on alignment.
 
-For example, suppose a local `BenchKind` admits physical test benches already identified as `U.System` individuals. A column headed "Bench" asks which of those benches a job used. The entry `B7` designates a particular bench; it is not the name of the domain kind. `BenchKind` is a classification distinction, hence an individual of `U.Kind` under C.3.1, while B7 is classified by that distinction. These upper-kind, domain-kind and particular-object claims answer different questions. A table of kinds could instead contain `BenchKind` itself; it would need a different column interpretation.
+For example, suppose a local `BenchKind` admits physical test benches already identified as `U.System` individuals. A column headed "Bench" asks which of those benches a job used. The entry `B7` designates a bench; it is not the name of the domain kind.
 
-Use those distinctions to catch an actual mismatch. Placing `BenchKind` in the job's Bench position would name a classifying distinction when the operation needs the used bench. Placing a duration there supplies a different kind of value. A "30" in an occupation-duration column still needs its unit and interval meaning. Domain membership and the relation to this job require their own grounds; a heading or a successful spreadsheet entry does not establish them.
+`BenchKind` is a classification distinction, hence an individual of `U.Kind` under C.3.1, while B7 is classified by that distinction. These upper-kind, domain-kind and particular-object claims answer different questions. A table of kinds could instead contain `BenchKind` itself; it would need a different column interpretation.
+
+Use those distinctions to catch a mismatch. Placing `BenchKind` in the job's Bench position would name a classifying distinction when the operation needs the used bench. Placing a duration there supplies a different kind of value. A "30" in an occupation-duration column still needs its unit and interval meaning. Domain membership and the relation to this job require their own grounds; a heading or a successful spreadsheet entry does not establish them.
 
 Retain such annotations where the distinction changes inference, comparison or transfer. Familiar domain wording can be enough for an experienced reader. A computational validator can enforce the declared checks only when its implemented rules match this interpretation.
 
@@ -90,7 +92,7 @@ A useful relation may require an intermediate expression. Expand a shorthand, in
 
 Read the prepared expression using the selected conventions. Compare its participating parts, grouping, ordering and reference with the source content.
 
-Pay particular attention to a relation conveyed by position, enclosure, adjacency, repetition or timing. State its meaning when the convention does not already supply it. An arrow can mean implication, temporal order, a permitted transition or material flow; use the relation needed by this expression.
+Pay attention to a relation conveyed by position, enclosure, adjacency, repetition or timing. State its meaning when the convention does not already supply it. An arrow can mean implication, temporal order, a permitted transition or material flow; use the relation needed by this expression.
 
 When a plausible alternative interpretation would change the operation, test a small case that distinguishes it from the intended reading. In :5.2, the continuation C distinguishes two groupings because one requires A first and the other permits C on its own. The test exposes a change in permitted work that a list of retained letters would miss.
 
@@ -98,7 +100,7 @@ When the expression is used as a replacement for another, A.6.3.RT compares the 
 
 #### A.6.3.RT.OE:4.5 - Perform the operation and repair the expression
 
-Use the subject Method to perform the intended operation on the prepared expression. Inspect the actual transition: which parts were selected, how they were combined and what result followed.
+Use the subject Method to perform the intended operation on the prepared expression. Inspect the transition: which parts were selected, how they were combined and what result followed.
 
 If the operation cannot be followed, locate what is missing. The expression may hide a shared part, omit a scope delimiter or lack a stable reference. Repair that contribution. If the notation lacks a required distinction, return to scheme selection or design. If the subject inference or construction lacks a premise or operation, return to that Method.
 

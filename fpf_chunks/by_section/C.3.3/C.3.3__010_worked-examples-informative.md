@@ -6,12 +6,12 @@ section_id: "C.3.3:9"
 section_title: "Worked Examples (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.3/C.3.3__010_worked-examples-informative.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.3.3 — KindBridge and CL^k — Correspondence between Distinct Kinds"
   - "C.3.3:9 — Worked Examples (informative)"
-line_start: 55782
-line_end: 55795
+line_start: 58076
+line_end: 58093
 dependencies:
   - "A.2.6"
   - "A.6.REL"
@@ -27,7 +27,11 @@ keywords:
 
 #### C.3.3:9.1 - Vehicle → TransportUnit (manufacturing)
 
-Source kinds `Vehicle` and `PassengerCar`, target kinds `TransportUnit` and `PassengerTransportUnit`, and their exact declaration editions are independently identified. One KindBridge relation obtains from `Vehicle` to `TransportUnit` and another from `PassengerCar` to `PassengerTransportUnit` under the pinned scheme editions. The bridge assertion states that source fact `SubkindOfObtains(PassengerCar, Vehicle; sourceRS)` is preserved by target fact `SubkindOfObtains(PassengerTransportUnit, TransportUnit; targetRS)`, while the EV distinction is collapsed; it records `CL^k=2`, the lost battery-health invariants, and definedness limited to `registryAPI v1.4` in the selected time window. A candidate is first checked for admissibility and, if admissible, then classified by the exact receiving declaration; source classification is not copied. If the receiving claim also relies on an independently established scope translation, that relation's consequence remains separate from the kind-bridge consequence; the kind-bridge consequence leaves F and G unchanged.
+Source kinds `Vehicle` and `PassengerCar`, target kinds `TransportUnit` and `PassengerTransportUnit`, and their declaration editions are independently identified. One KindBridge relation obtains from `Vehicle` to `TransportUnit` and another from `PassengerCar` to `PassengerTransportUnit` under the pinned scheme editions.
+
+The bridge assertion states that source fact `SubkindOfObtains(PassengerCar, Vehicle; sourceRS)` is preserved by target fact `SubkindOfObtains(PassengerTransportUnit, TransportUnit; targetRS)`, while the EV distinction is collapsed; it records `CL^k=2`, the lost battery-health invariants, and definedness limited to `registryAPI v1.4` in the selected time window.
+
+A candidate is first checked for admissibility and, if admissible, then classified by the receiving declaration; source classification is not copied. If the receiving claim also relies on an independently established scope translation, that relation's consequence remains separate from the kind-bridge consequence; the kind-bridge consequence leaves F and G unchanged.
 
 #### C.3.3:9.2 - Same AuthenticatedRequest kind across services — no bridge
 

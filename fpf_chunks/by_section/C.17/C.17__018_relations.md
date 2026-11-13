@@ -6,28 +6,22 @@ section_id: "C.17:16"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__018_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.17 — Characterising Generative Novelty and Value"
   - "C.17:16 — Relations"
-line_start: 60981
-line_end: 60986
+line_start: 63401
+line_end: 63416
 dependencies:
-  - "A.0"
   - "A.1.1"
   - "A.10"
-  - "A.13"
   - "A.15.1"
-  - "A.15.2"
   - "A.17"
   - "A.18"
   - "A.19"
   - "A.19.ECS"
-  - "A.2.1"
   - "A.3.1"
   - "A.3.2"
-  - "A.6.1"
-  - "B.1.6"
   - "B.3"
   - "B.4"
   - "C.11"
@@ -57,6 +51,16 @@ keywords:
 ### C.17:16 - Relations
 
 - **Builds on:** `A.17`, `A.18`, `A.19`, `A.19.ECS`, `C.16`, `C.2.1`, `A.1.1`, `A.10`, and `B.3`.
-- **Coordinates with:** `E.10.LRN` for ambiguous learning-family wording, `A.13` for exact evaluator recovery and any separate agency or autonomy claim, `F.9` for an actual Bridge, `F.18` for lexical candidate-family diversity, `A.0:QF.2a` for an optional structured cross-scale qualifier, `B.4` and `G.11` for evolution and refresh, `A.15.1`, `A.15.2`, `B.1.6`, `A.3.1`, and `A.3.2` for Work, plans, resources, and Method descriptions, `A.2.1` for the assignment needed by the A.13 core and `F.6` only for an expressly consumed precise assignment-bound attribution, and `A.6.1` only for a separately claimed application of one exact declared Mechanism operation.
-- **Supplies results to:** `C.18`, `C.19`, and `G.5` for their exact set-side questions, `C.11.CRC` only when one finite configuration-relative comparison is missing, and `C.11` for choice, without taking over generation, set stewardship, pool policy, comparison, declaration, or choice.
+- **Coordinates with:**
+
+  - `E.10.LRN` for ambiguous learning-family wording;
+  - `A.13` for exact evaluator recovery and any separate agency or autonomy claim;
+  - `F.9` for an actual Bridge;
+  - `F.18` for lexical candidate-family diversity;
+  - `A.0:QF.2a` for an optional structured cross-scale qualifier;
+  - `B.4` and `G.11` for evolution and refresh;
+  - `A.15.1`, `A.15.2`, `B.1.6`, `A.3.1`, and `A.3.2` for Work, plans, resources, and Method descriptions;
+  - `A.2.1` for the assignment needed by the A.13 core and `F.6` only for an expressly consumed precise assignment-bound attribution;
+  - `A.6.1` only for a separately claimed application of one exact declared Mechanism operation.
+- **Supplies results to:** `C.18`, `C.19`, and `G.5` for their set-side questions, `C.11.CRC` only when one finite configuration-relative comparison is missing, and `C.11` for choice, without taking over generation, set stewardship, pool policy, comparison, declaration, or choice.
 

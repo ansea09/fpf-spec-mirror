@@ -6,12 +6,12 @@ section_id: "F.3:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.3/F.3__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.3 — Source-Local Sense Clustering"
   - "F.3:intro — Intro"
-line_start: 119256
-line_end: 119265
+line_start: 126855
+line_end: 126864
 dependencies:
   - "A.11"
   - "A.7"
@@ -38,7 +38,7 @@ keywords:
 **Type:** Architectural pattern.
 
 > **Status:** Stable
-**Depends on.** F.1 **Question-Relative Source Selection**; F.2 **Source-Local Term Harvesting & Normalisation**; F.17 for the optional three-part local-sense cell; E.10.D1 **Recovering What “Context” Means in Use**; A.7 **Strict Distinction**; A.11 **Ontological Parsimony**.
+**Depends on.** F.1 for question-relative source selection; F.2 **Source-Local Term Harvesting & Normalisation**; F.17 for the optional three-part local-sense cell; E.10.D1 **Recovering What “Context” Means in Use**; A.7 **Strict Distinction**; A.11 **Ontological Parsimony**.
 **Coordinates with.** F.4 **SystemRoleKindDescription**; F.7 **Concept-Set Table**; F.8 **Mint or Reuse Decision**; F.9 only when two exact local meanings need a tested relation.
 **Aliases (informative).** *source-local clustering*; *sense consolidation*.
 

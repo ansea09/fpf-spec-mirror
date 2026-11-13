@@ -6,12 +6,12 @@ section_id: "F.6:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.6 — SystemRoleAssignment and Performed-Work Attribution Check"
   - "F.6:intro — Intro"
-line_start: 120132
-line_end: 120137
+line_start: 127759
+line_end: 127764
 dependencies:
   - "A.1.1"
   - "A.10"

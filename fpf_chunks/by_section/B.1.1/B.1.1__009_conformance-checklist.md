@@ -6,12 +6,12 @@ section_id: "B.1.1:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.1/B.1.1__009_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.1.1 — Dependency Structure and Relation Grounding"
   - "B.1.1:7 — Conformance Checklist"
-line_start: 41366
-line_end: 41376
+line_start: 42978
+line_end: 42988
 dependencies:
   - "A.1"
   - "A.10"
@@ -34,7 +34,7 @@ keywords:
 | Check | Requirement |
 | --- | --- |
 | `CC-B1.1-1` | A dependency claim names the relation kind before graph notation is relied on. |
-| `CC-B1.1-2` | Graph, matrix, table and diagram wording distinguishes a representation from the organization it represents. When the receiving claim selects the representation's own organization as a U.Structure, identify that separate organization by the four A.22 discriminators. |
+| `CC-B1.1-2` | Graph, matrix, table and diagram wording distinguishes a representation from the organization it represents. When the receiving claim selects the representation's organization as a U.Structure, identify that separate organization by the four A.22 discriminators. |
 | `CC-B1.1-3` | Part-whole edges use A.14 and C.13 discipline. |
 | `CC-B1.1-4` | Boundary-crossing, transformation, evidence, source-use, publication-use, and representation relations are not recast as parthood. |
 | `CC-B1.1-5` | Design description, run occurrence, and evidence are not mixed; the record names their separate patterns and uses a DesignRunTag or equivalent scope discipline when needed. |

@@ -6,12 +6,12 @@ section_id: "C.39.WA:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.WA/C.39.WA__013_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.39.WA — Develop an Account of the Whole Subject"
   - "C.39.WA:12 — Relations"
-line_start: 83428
-line_end: 83440
+line_start: 87481
+line_end: 87493
 dependencies:
   - "C.20"
   - "C.39.QR"
@@ -23,7 +23,7 @@ keywords:
 ### C.39.WA:12 - Relations
 
 - C.39.QR returns partial work to its original question and uses this Method when the missing result is a whole-subject account.
-- A.6.H recovers the exact subject and relations of a holism claim.
+- A.6.H recovers the subject and relations of a holism claim.
 - A.14, B.1.5, C.2.1 and C.20 govern different constructions of wholes.
 - C.3/C.3.1 and A.3.1 distinguish kind relations and Method variation from composition.
 - C.29/C.29.1 govern mathematical representation and returned inference.

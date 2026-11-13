@@ -6,12 +6,12 @@ section_id: "D.1:4.1"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.1/D.1__008_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "D.1 — Clarify an Ethical Claim's Value Basis (Value Plurality)"
   - "D.1:4.1 — Bias-Annotation"
-line_start: 91595
-line_end: 91603
+line_start: 96079
+line_end: 96087
 dependencies:
   - "A.1"
   - "A.1.CSD"

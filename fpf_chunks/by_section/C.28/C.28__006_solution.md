@@ -6,12 +6,12 @@ section_id: "C.28:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__006_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.28 — CausalUse-CAL: Causal-Use Questions, Identification, and Realizability"
   - "C.28:4 — Solution"
-line_start: 67836
-line_end: 68373
+line_start: 70896
+line_end: 71435
 dependencies:
   - "A.10"
   - "A.15"
@@ -68,7 +68,7 @@ When a question or result must be referenced, recover its content and use the co
 - `PotentialOutcomeContrastRef` identifies the exact contrast or its description.
 - `CausalUseSupportResultRef` identifies one C.2.1 result episteme defined below.
 
-Support is composable. A real result may use several components:
+Support is composable. A result may use several components:
 
 ```text
 CausalSupportComponentRefs:
@@ -84,7 +84,9 @@ CausalSupportComponentRefs:
   transportabilityResultRef?
 ```
 
-These fields answer different questions. Do not compress them into one exclusive value. Each optional specialist ref identifies the exact result or record actually used. Keep a component's own assumptions, uncertainty or sensitivity, supported and unsupported uses, and reopen information with that component when its defining contract requires them; do not copy fields merely to complete a standard list. The common `CausalUseSupportResult` still states its own `supportedUse`, `unsupportedUse`, `limits`, optional evidence window, and `reopenCondition`. Naming a specialist subject in prose does not make its result available to a consumer.
+These fields answer different questions. Do not compress them into one exclusive value. Each optional specialist ref identifies the exact result or record used. Keep a component's own assumptions, uncertainty or sensitivity, supported and unsupported uses, and reopen information with that component when its defining contract requires them; do not copy fields merely to complete a standard list.
+
+The common `CausalUseSupportResult` still states its own `supportedUse`, `unsupportedUse`, `limits`, optional evidence window, and `reopenCondition`. Naming a specialist subject in prose does not make its result available to a consumer.
 
 | Component | Question it answers | Does not establish |
 | --- | --- | --- |
@@ -180,7 +182,7 @@ DurableCausalUseQuestionCard:
   stopOrReopenCondition
 ```
 
-When another pattern needs a stable conclusion, issue this small C.2.1 result episteme:
+When another pattern needs a stable conclusion, issue this C.2.1 result episteme:
 
 ```text
 CausalUseSupportResult:
@@ -257,7 +259,7 @@ An `identified` label without an identifying expression or derivation is incompl
 
 Thus the observed law does not identify `E[Y|do(X=1)]-E[Y|do(X=0)]` in a model class admitting both accounts. These two models and their differing answers supply `unmeasured_severity_obstruction_3`; the name alone would not be a witness. More observations of the same joint law cannot distinguish them. Additional assumptions or intervention evidence may exclude one account; a bound, if established for the admitted model class, supports its own bounded claim. Reporting an adjusted number alone does not change the nonidentification result.
 
-For a supplied causal model, C.28.MR derives the consequence by replacing the selected mechanism, retaining the other mechanisms and input law, and solving the relations needed by the query. The following case gives its small observation/intervention entry.
+For a supplied causal model, C.28.MR derives the consequence by replacing the selected mechanism, retaining the other mechanisms and input law, and solving the relations needed by the query. The following case illustrates that operation and its difference from observation.
 
 **Replayable sensor case: observation and intervention.** Let `H` denote binary high load and `S` a binary alarm. Stipulate `P(H=1)=0.5`, `P(S=1|H=1)=0.9` and `P(S=1|H=0)=0.1`. Bayes' rule gives `P(H=1|S=1)=0.9` and `P(H=1|S=0)=0.1`. These are observational questions about the stated joint distribution.
 
@@ -335,7 +337,7 @@ TargetTrialMappingResult:
   reopenCondition
 ```
 
-Every mapping field identifies the actual mapping. `protocolToDataGapAccountRef` points to one account that lists the observed gaps or explicitly states that none was found within the declared source and window. The residual-confounding and sensitivity fields remain present even when their bounded result is favourable. Reporting completeness is not a risk-of-bias, identification, or estimate verdict.
+Every mapping field identifies the mapping. `protocolToDataGapAccountRef` points to one account that lists the observed gaps or states that none was found within the declared source and window. The residual-confounding and sensitivity fields remain present even when their bounded result is favourable. Reporting completeness is not a risk-of-bias, identification, or estimate verdict.
 
 **Constructed target-trial mapping.** `HypertensionEmulationMap-2025` maps `HypertensionTargetTrial-1` to `ClinicRecords-2022-2024`: age and diagnosis fields implement eligibility; prescription records distinguish the two treatment strategies; the prescription date supplies assignment and time zero; encounter records map the twelve-month follow-up; and the recorded systolic-pressure field maps the outcome. `GapRecord-17` states that adherence after prescription is not observed, `ResidualConfoundingAssessment-17` retains unmeasured severity as a live threat, and `SensitivityMap-17` points to the negative-control and quantitative-bias analyses. The result supports construction and review of this emulation. It does not by itself establish identification, low bias, or a transportable effect; new severity or adherence data reopens it.
 
@@ -388,7 +390,7 @@ CausalTransportabilityResult:
   unresolvedAssumptionRefs?
 ```
 
-Identify every endpoint dimension that differs in the current claim. Population, domain, environment, data-generating regime, and semantic scheme answer different questions. A shared label proves nothing; a semantic Bridge is added only when its F.9 relation independently obtains.
+Identify every endpoint dimension that differs in the current claim. Population, domain, environment, data-generating regime, and semantic scheme answer different questions. A shared label does not establish transportability; a semantic Bridge is added only when its F.9 relation independently obtains.
 
 **Off-policy evaluation.**
 
@@ -436,7 +438,7 @@ The record states which interventions and queries the learned or abstracted vari
 
 Use C.28.CM when the causal relations, material alternatives or observing process still need to be modeled. It supplies a model with explicit premises and a useful consequence or unresolved distinction. Use C.28.MR for a required intervention derivation in a supplied model. These contributions return to the support question here; constructing a graph does not establish its empirical adequacy.
 
-Use specialist names only when the result depends on them. For a counterfactual graphical-model derivation, use the conditions and calculus in [Correa and Bareinboim, 2025](https://proceedings.mlr.press/v267/correa25a.html) and cite the actual derivation used:
+Use specialist names only when the result depends on them. For a counterfactual graphical-model derivation, use the conditions and calculus in [Correa and Bareinboim, 2025](https://proceedings.mlr.press/v267/correa25a.html) and cite the derivation used:
 
 
 ```text
@@ -462,7 +464,7 @@ CausalInferenceCalculusKind =
   gFormulaCalculus
 ```
 
-These values classify the formal support form. Concrete refs point to the model, diagram, derivation, assumptions, or proof. A graph-class label is not a proof and does not replace the plain statement of what was identified or bounded.
+These values classify the formal support form. References point to the model, diagram, derivation, assumptions, or proof. A graph-class label is not a proof and does not replace the plain statement of what was identified or bounded.
 
 #### C.28:4.8 - Causal evidence design and Work
 
@@ -526,7 +528,7 @@ The mechanism distinctions follow [Maiti and Bareinboim, *Sequential Causal Game
 
 For this interface, when a concrete rule is represented in the wider counterfactual family, record its simpler natural or interventional case when that reduction holds throughout the stated scope. Keep `mixedPolicy` when the specified combination matters. If selection itself requires the current natural proposal, expose that counterfactual dependence. For a family comparison, retain the declared available family and any restrictions. Thus the scalar is an informative summary of the supplied rule or family, not a disjoint ontology of policies.
 
-**Authored three-rule replay.** For binary `X°`, compare:
+**Constructed three-rule example.** For binary `X°`, compare:
 
 | Rule | Outputs for `X° = 0, 1` | Concrete classification |
 | --- | --- | --- |
@@ -554,7 +556,7 @@ The last evaluation needs the natural proposal and its relation to outcomes; a f
 | method dispatch | `G.5` | causal method-use classification and support refs |
 | benchmark parity | `G.9` | rung, estimand, support-component, transport, and support-result parity |
 
-#### C.28:4.13 - Cheap downgrade library
+#### C.28:4.13 - Examples of bounded results
 
 | Case | Plain bounded result |
 | --- | --- |
@@ -568,13 +570,13 @@ The last evaluation needs the natural proposal and its relation to outcomes; a f
 
 #### C.28:4.14 - Payoff check
 
-Keep a causal-use record only when it changes the supported causal statement, blocks a concrete overclaim, changes evidence work, or supplies a real basis to a downstream decision. Remove fields that do none of those things. Prefer triage when it preserves the same boundary.
+Keep a causal-use record only when it changes the supported causal statement, blocks a concrete overclaim, changes evidence work, or supplies a basis to a downstream decision. Remove fields that do none of those things. Prefer triage when it preserves the same boundary.
 
 #### C.28:4.15 - Publication-unit boundary
 
 When only wording inside one publication unit is unclear, use the publication and wording patterns. Open C.28 only when the wording is relied on causally.
 
-#### C.28:4.16 - Causal-laundering cases
+#### C.28:4.16 - Examples of unsupported causal claims
 
 | Case | Result |
 | --- | --- |

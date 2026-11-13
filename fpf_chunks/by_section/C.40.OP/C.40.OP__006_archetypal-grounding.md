@@ -6,12 +6,12 @@ section_id: "C.40.OP:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OP/C.40.OP__006_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.40.OP — Maintain Opportunities and Stepping Stones"
   - "C.40.OP:5 — Archetypal Grounding"
-line_start: 87971
-line_end: 88006
+line_start: 92205
+line_end: 92240
 dependencies:
   - "A.15.9"
   - "C.11.CRC"
@@ -28,7 +28,7 @@ keywords:
 
 #### C.40.OP:5.1 - An index changes the starting point of the later model step
 
-Consider a constructed review-support inquiry over ninety days. The actual case baseline is manual qualification, with sixty minutes per representative case and no separate index-maintenance allocation. A candidate index might reduce this to forty minutes, at two maintainer hours each week and six setup hours. A later retrieval-assisted configuration might reduce it to thirty minutes, with total maintenance of three hours weekly and four additional setup hours.
+Consider a constructed review-support inquiry over ninety days. The case baseline is manual qualification, with sixty minutes per representative case and no separate index-maintenance allocation. A candidate index might reduce this to forty minutes, at two maintainer hours each week and six setup hours. A later retrieval-assisted configuration might reduce it to thirty minutes, with total maintenance of three hours weekly and four additional setup hours.
 
 These are stipulated illustrative estimates under the same representative case type and compatible service assumptions, not observed effects. Data custody, representative verification, acceptance quality, and the feasibility of fitting the transitions within ninety days remain unqualified.
 
@@ -40,9 +40,9 @@ These are stipulated illustrative estimates under the same representative case t
 
 The second transition's marginal estimate is ten minutes per case, not thirty. A full path comparison against `S0` can still be made separately, but it must include the whole path's transition burden and time-dependent operating costs without counting the first gain again.
 
-The table is not a Pareto-improvement claim: maintenance demand increases and the protection/quality coordinates remain unqualified. Nor does it show that the index enables retrieval merely because it comes first. The relevant engineering result must establish whether the particular index and its data representation are actually reusable for the proposed retrieval configuration.
+The table is not a Pareto-improvement claim: maintenance demand increases and the protection/quality coordinates remain unqualified. Nor does it show that the index enables retrieval merely because it comes first. The engineering result must establish whether the index and its data representation are reusable for the proposed retrieval configuration.
 
-If that connection is absent, the index can remain a manual-support candidate on its independent contribution, while its stepping-stone claim remains unknown or is rejected. The team returns that exact reuse question rather than treating the three labels as a committed roadmap.
+If that connection is absent, the index can remain a manual-support candidate on its independent contribution, while its stepping-stone claim remains unknown or is rejected. The team returns that reuse question rather than treating the three labels as a committed roadmap.
 
 #### C.40.OP:5.2 - A retained question can cease to be a stepping stone
 
@@ -54,7 +54,7 @@ The steward rules out the proposed use. The team retires the stepping-stone clai
 
 #### C.40.OP:5.3 - Mira retains directions before choosing a programme
 
-In this constructed case, Mira is exploring review contributions over four months. She keeps two directions: develop more independent review capability, or improve the conditions for supported contribution. The first needs human-capability evidence about representative practice, feedback, and transfer; the second needs an actual continuing support arrangement. Both can remain described while those questions are open.
+In this constructed case, Mira is exploring review contributions over four months. She keeps two directions: develop more independent review capability, or improve the conditions for supported contribution. The first needs human-capability evidence about representative practice, feedback, and transfer; the second needs a continuing support arrangement. Both can remain described while those questions are open.
 
 A preliminary exercise is only a candidate stepping stone toward independent review until its enabling relation and feasible development conditions are supported. Being the first item in a course sequence is not that evidence. Retaining its description does not reserve Mira's practice time or a specialist's attention.
 

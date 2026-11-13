@@ -6,12 +6,12 @@ section_id: "E.4.PFR:3"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFR/E.4.PFR__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.4.PFR — Pattern-Framework Relation and Edition Discipline"
   - "E.4.PFR:3 — Solution"
-line_start: 95755
-line_end: 95907
+line_start: 100810
+line_end: 101037
 dependencies:
   - "A.10"
   - "A.6.0"
@@ -48,19 +48,31 @@ keywords:
 
 ### E.4.PFR:3 - Solution
 
-Select the lightest lane that changes the named receiver's next action. A more elaborate representation is not intrinsically better.
+Select the lightest lane that changes the named receiver's next action. Extra structure alone does not make a representation better.
 
 #### E.4.PFR:3.1 - Lane 1: ordinary subject assertion
 
-Name the exact subject or claim, exact relation function, exact defining or constraining ClaimGraph, assertion polarity, and current facts or constituting history. A pattern id, heading, field, file, or carrier may locate that ClaimGraph but does not own the subject and creates no governance relation.
+Name the subject or claim, identify the relation function and the ClaimGraph that defines or constrains it, and state the assertion’s polarity and the current facts or constituting history.
 
-If no actual formal-premise use or criterion selection is claimed, omit Lane 3; stop after the subject assertion unless a named maintenance receiver needs Lane 2. Create no PFR row, actual-use predicate assertion, candidate universe, basis analysis, scope/time placeholder, edition pin, witness wrapper, evidence or assurance result, accepted-use record, or relation occurrence merely to make the sentence look complete.
+A pattern id, heading, field, file, or carrier may locate that ClaimGraph but does not own the subject and creates no governance relation.
+
+If no actual formal-premise use or criterion selection is claimed, omit Lane 3. In that case, stop after the subject assertion unless a named maintenance receiver needs Lane 2.
+
+Create no PFR row, actual-use predicate assertion, candidate universe, basis analysis, scope/time placeholder, edition pin, witness wrapper, evidence or assurance result, accepted-use record, or relation occurrence merely to make the sentence look complete.
 
 #### E.4.PFR:3.2 - Lane 2: optional relation-specific maintenance row
 
-Choose the smallest stable form the named receiver consumes. Use `PatternFrameworkRelationRecord` when a cross-relation comparison or maintenance index needs common endpoint, relation-function and use fields. Use `FrameworkEditionDependencyRecord` when an edition-impact or refresh receiver needs the relied-on content, dependency reason, direction, and refresh fields. Choose one by default; either form faithfully represents an already identified assertion and creates no relation.
+Choose the smallest stable form the named receiver consumes.
 
-If one named receiver genuinely needs both views, both cite the same `subjectAssertionRef`, the dependency record cites the generic row through `genericRelationRecordRef`, and every overlapping value is derived from that assertion. Rebuild both views when the assertion changes; never maintain duplicate facts independently.
+Use `PatternFrameworkRelationRecord` when a cross-relation comparison or maintenance index needs common endpoint, relation-function and use fields.
+
+Use `FrameworkEditionDependencyRecord` when an edition-impact or refresh receiver needs the relied-on content, dependency reason, direction, and refresh fields.
+
+Choose one by default. Either form faithfully represents an already identified assertion and creates no relation.
+
+If one named receiver needs both views, both cite the same `subjectAssertionRef`, the dependency record cites the generic row through `genericRelationRecordRef`, and every overlapping value is derived from that assertion.
+
+Rebuild both views when the assertion changes. Never maintain duplicate facts independently.
 
 ```text
 PatternFrameworkRelationRecord@Context:
@@ -78,7 +90,11 @@ PatternFrameworkRelationRecord@Context:
   refreshOrSupersessionCondition?
 ```
 
-`relationFunctionClaimRef`, when present, resolves the exact defining or constraining ClaimGraph used by the subject assertion. It is not an owner field, pattern-authority assertion, provenance claim, or actual-use predicate. `subjectAssertionRef` is present only when the receiver needs stable reference to the exact C.2.1 assertion. Source and target remain the exact endpoints for this relation function; row order creates no direction.
+`relationFunctionClaimRef`, when present, resolves the defining or constraining ClaimGraph used by the subject assertion. It is not an owner field, pattern-authority assertion, provenance claim, or actual-use predicate.
+
+`subjectAssertionRef` is present only when the receiver needs stable reference to the C.2.1 assertion that the row represents.
+
+Source and target remain the endpoints for this relation function. Row order creates no direction.
 
 Dependency, specialization, publication, source reuse, quality, access, preservation, admission, and refresh retain their existing semantics. A PFR row translates none into derivation, evaluation, evidence, assurance, permission, authority, Work, or relation occurrence.
 
@@ -113,89 +129,148 @@ FrameworkPackageManifest@Context:
   blockedRuntimeOrBuildReading?
 ```
 
-`blockedStrongerReading` and `blockedRuntimeOrBuildReading` are optional. Include a rejected reading only when it passes F.19:4.4's independent-ground, plausible-reader and contribution test, and state the smallest clear correction. Leave the field absent when no such correction is needed; a tabular consumer may keep an empty column.
+`blockedStrongerReading` and `blockedRuntimeOrBuildReading` are optional. Include a rejected reading only when it passes F.19:4.4's independent-ground, plausible-reader and contribution test, and state the smallest clear correction. Leave the field absent when no such correction is needed. A tabular consumer may keep an empty column.
 
-The dependency record mirrors exactly one already stated direct dependency and cites that assertion through `subjectAssertionRef`. It names one dependent edition, one relied-on edition, the exact content from that relied-on edition, the named use, direction, reason, and refresh conditions as one unit. If one edition has several direct dependencies, write one record per relied-on edition or use a keyed collection of those records; never pair parallel edition and content lists or read them as a cross-product. A useful aggregate is only a projection over those direct records, not a second maintained truth. The record contains no compatibility boundary. `compatibilityClaimRefs`, when present, points only to a separately stated pairwise compatibility claim because a named maintenance receiver needs that connection. The reference does not create or complete the compatibility claim. `genericRelationRecordRef` is present only when the same receiver also consumes the generic row; both views derive overlapping values from `subjectAssertionRef` and refresh together. Deprecation and supersession likewise remain separate assertions; a package manifest may index them when its named maintenance use needs those refs.
+The dependency record mirrors one already stated direct dependency and cites that assertion through `subjectAssertionRef`. It names one dependent edition, one relied-on edition, the exact content from that relied-on edition, the named use, direction, reason, and refresh conditions as one unit.
 
-The manifest is a package-like index for a domain principle framework or local practice framework when authors actually need one. It indexes whichever generic relation rows or dependency-specific records its named operation consumes; either list may be empty, and one indexed form never requires its duplicate. When the operation genuinely needs both linked views, the manifest may index both without making either a second semantic source. The form of FPF itself uses E.4.FPF and its `FPFEditionRebuildabilityRecord`. A manifest entry, relation row, identifier, citation, or file path creates neither the referenced object nor any relation.
+If one edition has several direct dependencies, write one record per relied-on edition or use a keyed collection of those records. Never pair parallel edition and content lists or read them as a cross-product. A useful aggregate is only a projection over those direct records, not a second maintained truth.
+
+The record contains no compatibility boundary. `compatibilityClaimRefs`, when present, points only to a separately stated pairwise compatibility claim because a named maintenance receiver needs that connection. The reference does not create or complete the compatibility claim.
+
+`genericRelationRecordRef` is present only when the same receiver also consumes the generic row. Both views derive overlapping values from `subjectAssertionRef` and refresh together.
+
+Deprecation and supersession likewise remain separate assertions. A package manifest may index them when its named maintenance use needs those refs.
+
+The manifest is a package-like index for a domain principle framework or local practice framework when authors need one. It indexes whichever generic relation rows or dependency-specific records its named operation consumes. Either list may be empty, and one indexed form never requires its duplicate. When the operation needs both linked views, the manifest may index both without making either a second semantic source.
+
+The form of FPF uses E.4.FPF and its `FPFEditionRebuildabilityRecord`. A manifest entry, relation row, identifier, citation, or file path creates neither the referenced object nor any relation.
 
 #### E.4.PFR:3.3 - Relation functions keep their own semantics
 
 | Relation function | Admissible use | Exact defining or constraining locus |
 | --- | --- | --- |
-| Pattern-use recommendation | Recommends or sequences a candidate pattern use for a concern; actual application remains separate. | `E.11.PUR` |
+| Pattern-use recommendation | Recommends or sequences a candidate pattern use for a concern. Actual application remains separate. | `E.11.PUR` |
 | Specialization | Narrows parent content through exact inherited content plus child delta and stated use boundary. | parent content and `E.8` |
-| Framework-architecture answer: initial pattern-relation choices | Asserts each direct relation among selected initial patterns whose truth changes the selected architecture answer or its stated consequences, using the predicate that defines that relation; the one `E.9` answer records which choices were selected and why. Add a PFR row only when a named maintenance use needs a stable representation. | the pattern that defines or constrains each asserted relation; `E.9` for the selected answer; `E.4.PFAD` for its framework-specific profile |
+| Framework-architecture answer: initial pattern-relation choices | Asserts each direct relation among selected initial patterns whose truth changes the selected architecture answer or its stated consequences, using the predicate that defines that relation. The one `E.9` answer records which choices were selected and why. Add a PFR row only when a named maintenance use needs a stable representation. | the pattern that defines or constrains each asserted relation, `E.9` for the selected answer, and `E.4.PFAD` for its framework-specific profile |
 | Publication relation | Makes selected content available through a publication occurrence, form, unit, view, carrier, readme, preface, card, or table of contents. | `E.11`, `E.17`, `E.24.PUB` |
 | Access relation | Describes bounded access to selected framework content or guidance through a skill pack, MCP-backed service, retrieval route, or assistant integration. | exact access claim plus `E.11`/`E.17`; `C.35`, `A.15`, `A.10`, `B.3`, `E.9`, or `G.11` only when their distinct output is current |
-| Framework edition dependency | States that one dependent edition's content or result for a named use requires exact content from one relied-on edition: removing that content or changing it in a way relevant to the use would invalidate the dependent content/result or require that use to be reopened. It makes no compatibility claim. | E.4.PFR:3.4 for the defining predicate; `E.5.3` only for allowed direction and Core acyclicity; `G.11` only for currentness and refresh |
-| Framework edition compatibility | States whether one exact pair supports a named overlapping use across a stated difference or interface, with its impact and reopen condition. If the basis is insufficient, make no positive compatibility claim. | C.2.1 assertion identity and E.4.PFR:3.4 |
+| Framework edition dependency | States that one dependent edition's content or result for a named use requires exact content from one relied-on edition. Removing that content or changing it in a way relevant to the use would invalidate the dependent content/result or require that use to be reopened. The dependency assertion makes no compatibility claim. | E.4.PFR:3.4 for the defining predicate, `E.5.3` only for allowed direction and Core acyclicity, and `G.11` only for currentness and refresh |
+| Framework edition compatibility | States whether the two editions in the pair support a named overlapping use across a stated difference or interface, with its impact and reopen condition. If the basis is insufficient, make no positive compatibility claim. | C.2.1 assertion identity and E.4.PFR:3.4 |
 | Preservation relation | States that one carrier, edition, profile, or projection preserves selected structure for a licensed use. | `C.34`, with `C.33` for local carrier loss |
 | Generated-result architecture-use admission | States whether an exact generated or discovered result may enter the intended architecture use, with its truthful kind, the organization concerned and the status of the actual or proposed claim, including any unresolved basis, next-use condition, and limit and return. | `C.35` |
-| Quality framing, evaluation, or improvement | Frames a question, evaluates FPF/DPF/pattern adequacy, or records repeated improvement. | `E.22`, `E.2.DA`, `E.4.DPF.DA`, `E.21`, `E.23` as selected by the exact object |
+| Quality framing, evaluation, or improvement | Frames a question, evaluates FPF/DPF/pattern adequacy, or records repeated improvement. | `E.22`, `E.2.DA`, `E.4.DPF.DA`, `E.21`, `E.23` as selected for the object being framed, evaluated or improved |
 | Selected-set result declaration | States the selector-facing result kind, exact scope, selection or inclusion conditions, members, ordering, named use when required, and basis pins. It establishes no availability occurrence. | Use `G.5` for this declaration. If publication is separately current, use `E.17` for a source-backed face and return to source and `E.24.PUB` for the publication occurrence and audience availability. |
 | Source or decision reuse | Uses an exact source line, SoTA pack, DRR, selected answer, accepted decision, or evidence/source claim by value for a bounded use. | the exact source contribution and its bounded use; `G.2` when that contribution comes from a SoTA pack; `E.9` for the DRR and selected answer; the exact separate acceptance decision plus its authority relation or local rule for accepted-decision reuse; `A.10` only for an evidence-use claim |
 | Direct subject relation | States one exact relation or classification under its defining predicate and current case facts. | the exact subject pattern and C.2.1 assertion identity |
 
-The direct assertions, not a PFAD or PFR row, state the architecture-bearing relation facts. The `E.9` DRR records their selection and rationale; `E.4.PFAD` adds no relation or second decision result. An optional PFR row may point to an exact assertion for maintenance, but it neither creates that relation nor becomes a condition for accepting the answer.
+The direct assertions, not a PFAD or PFR row, state the architecture-bearing relation facts. The `E.9` DRR records their selection and rationale. `E.4.PFAD` adds no relation or second decision result.
 
-There is no `Subject-pattern relation`. When earlier prose says that one pattern contains the defining content for or governs a value, claim, boundary, relation, record form, or use, recover the subject assertion and exact relation function. Preserve genuine non-pattern ownership, legal or institutional authority, source attribution, evidence, and other direct relations.
+An optional PFR row may point to the assertion it represents for maintenance, but it neither creates that relation nor becomes a condition for accepting the answer.
+
+There is no `Subject-pattern relation`.
+
+When earlier prose says that one pattern contains the defining content for or governs a value, claim, boundary, relation, record form, or use, recover the subject assertion and identify its relation function. Preserve genuine non-pattern ownership, legal or institutional authority, source attribution, evidence, and other direct relations.
 
 #### E.4.PFR:3.4 - Edition and package discipline
 
-Domain and local frameworks depend toward more stable editions. A local practice framework may depend on a domain principle framework and on Core content in an FPF edition. A domain principle framework may depend on Core content in an FPF edition. Identify that FPF edition and its required Core claims separately, as E.4 specifies; E.4.FPF governs the FPF edition. Core does not depend on domain or local frameworks; incorporate an accepted transdisciplinary contribution through a deliberate Core amendment whose content no longer depends on those frameworks.
+Domain and local frameworks depend toward more stable editions. A local practice framework may depend on a domain principle framework and on Core content in an FPF edition. A domain principle framework may depend on Core content in an FPF edition.
 
-Framework-edition dependency obtains for one dependent edition, one relied-on edition, exact content in the relied-on edition, and one named use only when the dependent edition's current content or result for that use requires the relied-on content: removing it or changing it in a way relevant to the use would invalidate the dependent content/result or require that use to be reopened. State that case fact and why the content is required. Edition labels, joint publication, joint-use membership, and an allowed direction do not establish dependency.
+Identify that FPF edition and its required Core claims separately, as E.4 specifies. E.4.FPF governs the FPF edition.
 
-> `Domain@D` uses selected Core relation semantics in `FPF@C` as required constraints on framework review. Without those semantics, or after a relevant change to them, the affected review guidance cannot remain current without recheck. `Domain@D` therefore depends on `FPF@C` for that content and use. The edition labels are illustrative; an actual assertion identifies the particular claims used, as in §4.2.
+Core does not depend on domain or local frameworks. Incorporate an accepted transdisciplinary contribution through a deliberate Core amendment whose content no longer depends on those frameworks.
+
+Framework-edition dependency obtains for one dependent edition, one relied-on edition, exact content in the relied-on edition, and one named use only when the dependent edition's current content or result for that use requires the relied-on content. Removing it or changing it in a way relevant to the use would invalidate the dependent content/result or require that use to be reopened.
+
+State that case fact and why the content is required. Edition labels, joint publication, joint-use membership, and an allowed direction do not establish dependency.
+
+> `Domain@D` uses selected Core relation semantics in `FPF@C` as required constraints on framework review. Without those semantics, or after a relevant change to them, the affected review guidance cannot remain current without recheck. `Domain@D` therefore depends on `FPF@C` for that content and use. The edition labels are illustrative. An actual assertion identifies the claims used, as in §4.2.
 
 E.5.3 constrains the allowed dependency direction and Core acyclicity after the relation has been identified. G.11 governs the edition pin, currentness, and refresh condition. Neither supplies the dependency predicate or makes the case fact obtain.
 
-Compatibility answers whether one exact pair can support an overlapping use despite a stated difference or interface. State it separately and only when current:
+Compatibility answers whether the two editions in the pair can support an overlapping use despite a stated difference or interface. State it separately and only when current:
 
 > `Domain@D` and `FPF@C` are compatible for framework review across relation-semantics interface I. Difference X changes no admitted review operation within boundary B; reopen when I, X, B, or either edition changes.
 
-If that basis is insufficient, state the unresolved pair, overlap, or impact and make no positive compatibility claim. A dependency record may cite the independently stated compatibility claim only when a named maintenance consumer needs the link. Both claims may obtain for the same pair; neither is shorthand for the other. Deprecation and supersession are also separate claims and are indexed only when current.
+If that basis is insufficient, state the unresolved pair, overlap, or impact and make no positive compatibility claim. A dependency record may cite the independently stated compatibility claim only when a named maintenance consumer needs the link.
+
+Both claims may obtain for the same pair. Neither is shorthand for the other. Deprecation and supersession are also separate claims and are indexed only when current.
 
 Do not import binary compatibility, runtime import, build, module-call, API permission, or performed-work semantics. An edition label alone establishes no dependency, compatibility, deprecation, supersession, or refresh result.
 
-These are heterogeneous neighboring objects, not members of one type: a selected pattern-set result; its stable public identity when one is needed; a publication occurrence; an access carrier; a relation row; a dependency pin; an edition status; a source-pack pin; a quality result; a refresh plan; and a first-entry carrier. Listing an access means—for example, a skill package, MCP endpoint, API route, or assistant integration—records only the exact access claim that obtains; it creates no framework dependency, method order, tool permission, or authority. Use G.5 for selector-facing set-result declaration, E.17 for a source-backed publication face and return to source, E.24.PUB for the publication occurrence and audience availability, G.11 for currentness, and C.33 or C.34 when a carrier is used as architecture or preservation evidence.
+Keep these neighboring objects distinct:
+
+- a selected pattern-set result and its stable public identity when one is needed;
+- a publication occurrence and an access carrier;
+- a relation row, a dependency pin, and an edition status;
+- a source-pack pin, a quality result, a refresh plan, and a first-entry carrier.
+
+They are not members of one type. Listing an access means—for example, a skill package, MCP endpoint, API route, or assistant integration—records only the exact access claim that obtains. It creates no framework dependency, method order, tool permission, or authority.
+
+Use G.5 for selector-facing set-result declaration, E.17 for a source-backed publication face and return to source, E.24.PUB for the publication occurrence and audience availability, G.11 for currentness, and C.33 or C.34 when a carrier is used as architecture or preservation evidence.
 
 #### E.4.PFR:3.5 - Lane 3: exact actual rule-content use
 
-Use `derivedUsingRuleContent(dependentContent, baseContent)` only when one identified derivation claim used the exact nonempty base subgraph as a formal premise under a declared inference rule or application to produce the exact dependent ClaimGraph. Use `evaluatedAgainstRuleContent(dependentContent, baseContent)` only when one identified criterion-selection claim selected the exact base for one bounded evaluation claim concerning that dependent ClaimGraph. These predicates are declared by `RuleContentBasisFindingDefinition@R7`; definition, constraint, applicability, consultation, influence, source use, evidence, evaluation Work, result, sufficiency, assurance, reliance, permission, and publication are independent.
+Use `derivedUsingRuleContent(dependentContent, baseContent)` only when one identified derivation claim used the exact nonempty base subgraph as a formal premise under a declared inference rule or application to produce the exact dependent ClaimGraph.
 
-Each positive or negative actual-use assertion is an ordinary C.2.1 episteme. It names exact subject `S`, dependent graph `U`, base subgraph `B`, mode, exact derivation or evaluation-and-selection claim identity, bounded receiving use, effective scheme, and only independently current scope, time, interpretation, source, or witness qualifications. A same-scheme use invents no Bridge. The serialized form is a representation, not a relation occurrence or new kind.
+Use `evaluatedAgainstRuleContent(dependentContent, baseContent)` only when one identified criterion-selection claim selected the exact base for one bounded evaluation claim concerning that dependent ClaimGraph.
+
+`RuleContentBasisFindingDefinition@R7` declares both predicates. Definition, constraint, applicability, consultation, influence, source use, evidence, evaluation Work, result, sufficiency, assurance, reliance, permission, and publication are independent.
+
+Each positive or negative actual-use assertion is an ordinary C.2.1 episteme. It names exact subject `S`, dependent graph `U`, base subgraph `B`, mode, exact derivation or evaluation-and-selection claim identity, bounded receiving use, effective scheme, and only independently current scope, time, interpretation, source, or witness qualifications.
+
+A same-scheme use invents no Bridge. The serialized form is a representation, not a relation occurrence or new kind.
 
 #### E.4.PFR:3.6 - Optional high-cost basis analysis
 
-Open a basis analysis only for a named automated candidate comparison, reproducible cross-edition replay, same-subject conflict whose resolution can change the exact cell disposition or named receiver action, or bounded reliance/assurance receiver. One analysis is one C.2.1 episteme identified by `<AnalysisClaimGraph, BasisAnalysisQuestion@QGroup, effective ReferenceScheme>`. The question includes every independently current discriminator: `S`, `U`, derive/evaluate mode, bounded receiving use, exact actual-use claim identities, the receiving edition whenever changing it can change candidate applicability, the exact cell disposition, or the named receiver action, effective scheme, optional exact ClaimScope, and exact temporal-policy branch.
+Open a basis analysis only for a named automated candidate comparison, reproducible cross-edition replay, same-subject conflict whose resolution can change the cell disposition or named receiver action, or bounded reliance/assurance receiver.
 
-The analysis ClaimGraph carries a finite candidate universe containing only bases whose inclusion or exclusion can change the exact cell disposition or named receiver action. It carries a closure claim only when the enumeration rule, source boundary, completeness evidence, qualification window, and exclusion argument are exact. Each candidate is a finite nonempty set of semantic-base subgraphs used conjunctively. Each `CandidateEvaluation` keeps exactness, applicability, acceptance, witness, sufficiency and minimality independent, with supporting claim refs and a reconsideration condition for every unresolved or negative axis. Establishment follows `RuleContentBasisFamilyAlgebra@R8` in A.6.0 §4.6b: exactness, applicability and sufficiency are required; acceptance and witness are required only by the receiving contract. All required axes true establishes the candidate; any false required axis defeats it even if another is unknown; otherwise establishment is unresolved. Optional minimality is a separate answer and never filters a sufficient candidate. Duplicate graphs under one scheme collapse to one semantic atom while retaining source qualifications. Independently sufficient bases remain separate alternatives; jointly necessary bases remain one conjunctive alternative.
+One analysis is one C.2.1 episteme identified by `<AnalysisClaimGraph, BasisAnalysisQuestion@QGroup, effective ReferenceScheme>`.
 
-Derive-mode sufficiency requires derivation of the exact proposition under the named inference rules without undeclared premises. Evaluate-mode sufficiency requires the criteria and facts needed to obtain the bounded result under the named evaluation rule, including a negative result. These candidate tests establish neither R7 actual-premise use nor actual criterion selection. A minimal-family request adds a separately qualified minimality answer.
+The question includes every independently current discriminator: `S`, `U`, derive/evaluate mode, bounded receiving use, the identities of the actual-use claims, the effective scheme, optional exact ClaimScope, and the exact temporal-policy branch. Include the receiving edition whenever changing it can change candidate applicability, the cell disposition, or the named receiver’s action.
 
-Compatibility is pairwise, not a candidate property. Every overlapping established pair whose resolution can change the exact cell disposition or named receiver action receives an exact result naming both alternatives, overlap, supporting claims, and, when conflicting, incompatible consequences plus a bounded E.9 decision. Candidate axes, pairs, conflicts, and receiving-edition distinctions enter the analysis only under that same effect test. The temporal partition is maximal and non-overlapping under the selected policy and this candidate set. A no-time-dependence policy yields one atemporal cell. Changes to scope, temporal policy, candidate inclusion, or applicability reopen only the assertions and cells whose disposition or named receiver action can change.
+The analysis ClaimGraph carries a finite candidate universe containing only bases whose inclusion or exclusion can change the cell disposition or named receiver action. It carries a closure claim only when the enumeration rule, source boundary, completeness evidence, qualification window, and exclusion argument are exact.
+
+Each candidate is a finite nonempty set of semantic-base subgraphs used conjunctively. Each `CandidateEvaluation` keeps exactness, applicability, acceptance, witness, sufficiency and minimality independent, with supporting claim refs and a reconsideration condition for every unresolved or negative axis.
+
+Establishment follows `RuleContentBasisFamilyAlgebra@R8` in A.6.0 §4.6b. Exactness, applicability and sufficiency are required. Acceptance and witness are required only by the receiving contract. The candidate is established when all required axes are true. Any false required axis defeats it even if another is unknown. If no required axis is false and at least one is unknown, establishment is unresolved.
+
+Optional minimality is a separate answer and never filters a sufficient candidate. Duplicate graphs under one scheme collapse to one semantic atom while retaining source qualifications. Independently sufficient bases remain separate alternatives; jointly necessary bases remain one conjunctive alternative.
+
+Derive-mode sufficiency requires derivation of the exact proposition under the named inference rules without undeclared premises. Evaluate-mode sufficiency requires the criteria and facts needed to obtain the bounded result under the named evaluation rule, including a negative result.
+
+These candidate tests establish neither R7 actual-premise use nor actual criterion selection. A minimal-family request adds a separately qualified minimality answer.
+
+Compatibility is pairwise, not a candidate property. Every overlapping established pair whose resolution can change the cell disposition or named receiver action receives an exact result naming both alternatives, overlap, supporting claims, and, when conflicting, incompatible consequences plus a bounded E.9 decision.
+
+Candidate axes, pairs, conflicts, and receiving-edition distinctions enter the analysis only under that same effect test.
+
+The temporal partition is maximal and non-overlapping under the selected policy and this candidate set. A no-time-dependence policy yields one atemporal cell. Changes to scope, temporal policy, candidate inclusion, or applicability reopen only the assertions and cells whose disposition or named receiver action can change.
 
 Apply conflict precedence, then exactly one disposition in each cell:
 
 | Disposition | Truth condition |
 | --- | --- |
 | `established-conflict` | The established family is nonempty and a required pair has established incompatible consequences. |
-| `established-with-open-candidates` | The family is nonempty, no conflict is established, and the universe is open, a candidate establishment is unresolved, or a required pair is unresolved. |
+| `established-with-open-candidates` | The family is nonempty and no conflict is established. At least one of these conditions holds: the universe is open, a candidate establishment is unresolved, or a required pair is unresolved. |
 | `established-compatible` | The family is nonempty, the universe is closed, every candidate establishment is settled, and all required pairs are compatible. |
-| `open-no-established` | The family is empty and the universe is open or at least one candidate establishment is unresolved. |
+| `open-no-established` | The family is empty, and either the universe is open or at least one candidate establishment is unresolved. |
 | `closed-insufficient` | The family is empty, the universe is closed/nonempty, and every candidate decisively fails. |
 | `missing-candidates` | The universe is closed/empty and a supported absent-needed-content claim names the exact needed content, subject/use, search boundary and reconsideration condition. |
 | `closed-empty-unresolved-need` | The universe is closed/empty without that supported needed-content claim. |
 
-An unknown axis on a defeated candidate does not make establishment unresolved. Unknown optional minimality does not open the family disposition. With no required pair, all required pairs are compatible vacuously. The closed-empty branches differ in the supported need claim, not in how many candidates were found.
+An unknown axis on a defeated candidate does not make establishment unresolved. Unknown optional minimality does not open the family disposition.
 
-The basis answer is non-permissive. A downstream A.10 bounded-reliance claim or B.3 assurance result cites the exact analysis edition or cell-answer subgraph and supplies the evidence, attempted use and disposition required by its own rule. Include currentness and any live rival when they change that use or conclusion. Neither grants permission, gate passage, decision, Work, actual use, publication, or authority. A reverse consumer lookup is derived rather than inserted into the upstream ClaimGraph.
+With no required pair, all required pairs are compatible by vacuous truth. The closed-empty branches differ in the supported need claim, not in how many candidates were found.
+
+The basis answer is non-permissive. A downstream A.10 bounded-reliance claim or B.3 assurance result cites the exact analysis edition or cell-answer subgraph and supplies the evidence, attempted use and disposition required by its own rule. Include currentness and any live rival when they change that use or conclusion.
+
+Neither the bounded-reliance claim nor the assurance result grants permission, gate passage, decision, Work, actual use, publication, or authority. When a reverse consumer lookup is needed, derive it without inserting it into the upstream ClaimGraph.
 
 #### E.4.PFR:3.7 - Bootstrap and stopping rule
 
-A direct C.2.1 assertion always precedes optional PFR representation. The selected generic row or dependency-specific record cites the assertion and its exact defining or constraining ClaimGraph only when the named maintenance receiver needs that form. Neither representation can provide circular evidence for its own semantics.
+A direct C.2.1 assertion always precedes optional PFR representation. The selected generic row or dependency-specific record cites the assertion and its exact defining or constraining ClaimGraph only when the named maintenance receiver needs that form.
 
-After each assertion, ask: what named next action consumes more structure? If none, stop. A true stop has no pattern for the next question. When reconsideration is needed, state the condition or question and name a candidate pattern whose entry accepts it; do not model the pattern as receiver or destination.
+Neither representation can provide circular evidence for its own semantics.
+
+After each assertion, ask which named next action consumes more structure. If none, stop. At a stop there is no pattern for the next question. When reconsideration is needed, state the condition or question and name a candidate pattern whose entry accepts it. Do not model the pattern as receiver or destination.
 

@@ -6,12 +6,12 @@ section_id: "E.20:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.20/E.20__011_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.20 — Mechanism Introduction Protocol: Introduce or Revise FPF Mechanisms"
   - "E.20:10 — Rationale"
-line_start: 113726
-line_end: 113731
+line_start: 120877
+line_end: 120882
 dependencies:
   - "A.15.3"
   - "A.6.1"
@@ -42,7 +42,7 @@ keywords:
 
 ### E.20:10 - Rationale
 
-Mechanism declarations are high-leverage epistemes: a small change can affect suites, planned baselines, wiring modules, evaluations, and evidence uses. Without a protocol, the corpus tends toward semantic duplication across governing loci, so a reader cannot recover which declaration or neighboring relation actually changed.
+Mechanism declarations are high-leverage epistemes: a small change can affect suites, planned baselines, wiring modules, evaluations, and evidence uses. Without a protocol, the corpus tends toward semantic duplication across governing loci, so a reader cannot recover which declaration or neighboring relation changed.
 
-Governing-definition-directed authoring is a pragmatic compromise: it does not depend on tooling, yet it gives a stable governing-definition map that enables subsequent review and refresh.
+Authors can follow the protocol without tooling. The stable mapping from each change to its governing definition supports later review and refresh.
 

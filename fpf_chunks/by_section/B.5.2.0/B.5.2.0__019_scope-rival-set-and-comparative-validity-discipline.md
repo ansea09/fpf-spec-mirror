@@ -6,12 +6,12 @@ section_id: "B.5.2.0:17"
 section_title: "Scope, rival-set, and comparative-validity discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.0/B.5.2.0__019_scope-rival-set-and-comparative-validity-discipline.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.5.2.0 — Question Form for Entering Abduction (U.AbductivePrompt)"
   - "B.5.2.0:17 — Scope, rival-set, and comparative-validity discipline"
-line_start: 50097
-line_end: 50113
+line_start: 52165
+line_end: 52181
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -43,14 +43,14 @@ A prompt should declare the scope in which its question is being asked: the doma
 
 A prompt need not list hypotheses yet. Its explanatory demand and scope must make clear what a candidate explanation would have to explain; any already identified answer types can help clarify that demand.
 
-A prompt may be narrowed to become more discriminating, but the narrowing must not silently smuggle in the answer it is supposedly asking about. Otherwise the prompt ceases to be an initiating question and becomes a disguised conclusion. If its formulation excludes plausible rivals without grounds, repair that restriction; if it asserts an answer as settled, treat the answer-bearing account under its governing pattern.
+A prompt may be narrowed to become more discriminating, but the narrowing must not smuggle in the answer it is asking about. Otherwise the prompt ceases to be an initiating question and becomes a disguised conclusion. If its formulation excludes plausible rivals without grounds, repair that restriction; if it asserts an answer as settled, treat the answer-bearing account under its governing pattern.
 
 Prompts may be compared across contexts only when their species, scope, and provenance are explicit. A probe-shaped question and an opportunity-shaped question are not the same kind of abductive entry merely because both invite explanation.
 
-One note may legitimately contain a bundle of closely related prompts. If so, the bundle members should be distinguishable and still allow downstream rival comparison without confusion.
+One note may contain a bundle of closely related prompts. If so, the bundle members should be distinguishable and still allow downstream rival comparison without confusion.
 
 An assurance reader can test prompt readiness with three questions:
 
-1. **Is there an open explanatory question?** An asserted answer is no longer a prompt; narrowing the scope must leave the answer open. An action-choice question needs its own Method.
+1. **Is there an open explanatory question?** An asserted answer is no longer a prompt; narrowing the scope must leave the answer open. An action-choice question needs its Method.
 2. **Does the prompt species fit its initiating grounds?** If those grounds are an opportunity or a probe-related contrast, forcing anomaly species misclassifies the question.
 3. **Is the question explicit enough to generate and compare candidate explanations under its declared scope?** Establish the question and the grounds required for entry before using B.5.2. Identified rival hypotheses are not an entry requirement; their generation and comparison belong to B.5.2.

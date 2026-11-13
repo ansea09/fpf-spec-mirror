@@ -6,21 +6,19 @@ section_id: "A.8:2.1"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.8/A.8__005_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.8 — Universal Core Principle: Test a U-Kind Across Domains"
   - "A.8:2.1 — Forces"
-line_start: 26448
-line_end: 26456
+line_start: 27434
+line_end: 27442
 dependencies:
   - "A.11"
   - "C.3"
   - "C.3.1"
   - "E.24.UK"
-  - "F.17"
   - "F.18"
   - "F.8"
-  - "F.9"
 keywords:
   - "domain-agnostic"
   - "kernel-level U-kind admission"
@@ -32,7 +30,7 @@ keywords:
 
 | Force | Tension |
 |---|---|
-| Universality vs parsimony | FPF needs a small kernel, but some concepts really do carry the same modeling work across domains. |
+| Universality vs parsimony | FPF needs a small kernel, but some concepts carry the same modeling work across domains. |
 | Domain familiarity vs abstract contribution | Familiar words and prestigious sources can hide that the candidate only works in one tradition. |
 | Same word vs same work | Different domains may use different words for the same abstract contribution, and the same word may name different local objects. |
 | Stable kernel vs evolving FPF | A kernel primitive must survive new pattern families without forcing every local distinction into U-kind status. |

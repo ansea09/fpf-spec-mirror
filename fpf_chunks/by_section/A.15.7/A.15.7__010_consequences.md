@@ -6,12 +6,12 @@ section_id: "A.15.7:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.7/A.15.7__010_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.15.7 — Situation-Responsive Work Steering and Next-Action Selection"
   - "A.15.7:9 — Consequences"
-line_start: 31682
-line_end: 31691
+line_start: 32899
+line_end: 32908
 dependencies:
   - "A.10"
   - "A.13"
@@ -35,7 +35,7 @@ keywords:
 
 | Benefit | Cost or caution |
 | --- | --- |
-| Responsive Work remains methodical without becoming rigid. | The practitioner must identify the few facts that can actually change the next action. |
+| Responsive Work remains methodical without becoming rigid. | The practitioner must identify the few facts that can change the next action. |
 | Familiar cue recognition stays lightweight. | High-consequence cases require grounds adequate to the consequence. An already supported choice may suffice; uncertainty in a consumed premise can require comparison, refresh, fallback, or stop. |
 | Choosing, authority, and acting remain visible. | A recommender cannot absorb accountability merely because it supplies a score. |
 | Feedback can improve later choices or Methods. | Preserve the actual occurrence history. Correct or retract an earlier claim when new grounds refute it, and recheck dependent conclusions. Preserve an earlier claim edition when the receiving use needs it. |

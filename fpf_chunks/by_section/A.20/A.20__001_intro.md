@@ -6,12 +6,12 @@ section_id: "A.20:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.20 — Constraint Validity for Transformation Steps"
   - "A.20:intro — Intro"
-line_start: 39559
-line_end: 39568
+line_start: 41137
+line_end: 41146
 dependencies:
   - "A.10"
   - "A.15"
@@ -33,7 +33,7 @@ keywords:
 
 > **Type:** Architectural (A)
 > **Status:** Stable
-> **Normativity:** Normative unless explicitly marked informative
+> **Normativity:** Normative unless marked informative
 
 **Plain name.** Internal-constraint check.
 

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.30"
-pattern_title: "Grounded Architecture and Selected-Structure Adequacy"
+pattern_title: "Architecture and Selected-Structure Adequacy"
 section_id: "C.30:End"
 section_title: "C.30:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30/C.30__014_c-30-end.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "C.30 — Grounded Architecture and Selected-Structure Adequacy"
+  - "C.30 — Architecture and Selected-Structure Adequacy"
   - "C.30:End — C.30:End"
-line_start: 72025
-line_end: 72026
+line_start: 75118
+line_end: 75119
 dependencies:
   - "A.1"
   - "A.10"

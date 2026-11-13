@@ -6,12 +6,12 @@ section_id: "A.6.A:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.A/A.6.A__006_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.A — Affordance and Action-Invitation Precision Restoration (ACT-INV)"
   - "A.6.A:5 — Archetypal Grounding"
-line_start: 22242
-line_end: 22291
+line_start: 23129
+line_end: 23180
 dependencies:
   - "A.15"
   - "A.16"
@@ -51,7 +51,7 @@ keywords:
 
 #### A.6.A:5.1 - Tell
 
-Read an affordance-like sentence as a question about its intended meaning. The result can be an ordinary supported claim, a proposed action, an inquiry question, or an exact gap. Keep the subject conditions that make that result usable. An optional record can express the result but does not give different subjects one obtaining predicate.
+Read an affordance-like sentence as a question about its intended meaning. The result can be an ordinary supported claim, a proposed action, an inquiry question, or a gap. Keep the subject conditions that make that result usable. An optional record can express the result but does not give different subjects one obtaining predicate.
 
 #### A.6.A:5.2 - Show (System case)
 
@@ -61,9 +61,9 @@ Read an affordance-like sentence as a question about its intended meaning. The r
 
 Recover the proposed use: OpsTeam_Phoenix is considering RollbackMethod_R41 on Release_R41 in ProdCluster_EU_1 during RunWindow_RW. RollbackRunbook_R41 describes that Method. AlarmBundle_AB9 exposes the cue about ServiceState_S7; AnomalyPolicy_AP7 specifies the detection criteria. AlertTrace_91 and ErrorBudgetSeries_4 are candidate evidence for applying IncidentPolicy_IP2 over Horizon_H15m.
 
-The first useful statement is: “Check whether the current incident-policy guard and authority permit this team to use RollbackMethod_R41 on Release_R41 in this window; the alarm alone does not settle that question.” If the rule and facts establish a rollback duty or an admission result for this use, state that independently grounded result. Otherwise retain the proposed action or the precise missing condition. Nothing in these supplied names asserts a performed rollback.
+The first useful statement is: “Check whether the current incident-policy guard and authority permit this team to use RollbackMethod_R41 on Release_R41 in this window; the alarm alone does not settle that question.” If the rule and facts establish a rollback duty or an admission result for this use, state that independently grounded result. Otherwise retain the proposed action or the missing condition. Nothing in these supplied names asserts a performed rollback.
 
-If the receiving operational review uses `VP.OperationsControl`, resolve its `U.ViewpointRef` under `OperationsControlScheme_2026`. `OperationsRollbackView_9` remains an independently identified C.2.1 episteme and a `U.View` only if its exact E.17.0 conformance obtains. These are optional, separately established references, not additional requirements to understand the alarm sentence.
+If the receiving operational review uses `VP.OperationsControl`, resolve its `U.ViewpointRef` under `OperationsControlScheme_2026`. `OperationsRollbackView_9` remains an independently identified C.2.1 episteme and a `U.View` only if its E.17.0 conformance obtains. These are optional, separately established references, not additional requirements to understand the alarm sentence.
 
 **Recognizable near misses.** A runbook reference alone does not establish that its Method has been selected for enactment. A viewpoint field does not make a dashboard a `U.View`. The alarm, a recovery note or a `PolicyHook` does not prove duty, gate passage or performed Work.
 
@@ -75,7 +75,9 @@ Recover the proposed physical claim: ServiceRobot_R2 can pull DoorHandle_17 alon
 
 **Result with the supplied information.** These names identify the question but provide neither the physical obtaining predicate nor its required readings. Return: “Can R2 pull this handle along A1 in W1 under the specified grip, clearance and reach conditions? The applicable physical rule and its supported inputs are still needed.” A rule that requires sufficient contact force or a collision-free path must say so and be supported by the relevant measurements or model result. Naming G1, CP3 or a model run does not establish those conditions.
 
-When that subject rule and the evidence support the claim, return the qualified physical statement directly. If the receiving task instead needs an executable manipulation plan and already has a suitable domain method, use its required observations and constraint representation. Reuse any adequate existing interpretation; producing another recovery note adds nothing by itself. With the same robot, grip, clearance, reach and door facts, changing PS4 can change detection without changing the physical opportunity. Changing an operator cue can likewise change what the operator notices. Withdrawing the description changes its availability; it does not close the door or remove the opportunity. A different, information-constituted relation must be assessed under its own predicate rather than inferred from this physical case.
+When that subject rule and the evidence support the claim, return the qualified physical statement directly. If the receiving task instead needs an executable manipulation plan and already has a suitable domain method, use its required observations and constraint representation. Reuse any adequate existing interpretation; producing another recovery note adds nothing by itself.
+
+With the same robot, grip, clearance, reach and door facts, changing PS4 can change detection without changing the physical opportunity. Changing an operator cue can likewise change what the operator notices. Withdrawing the description changes its availability; it does not close the door or remove the opportunity. A different, information-constituted relation must be assessed under its own predicate rather than inferred from this physical case.
 
 #### A.6.A:5.3 - Show (Episteme case)
 
@@ -95,5 +97,5 @@ This question is the first useful result. If further question construction is ne
 
 Recover the proposed clarification: `AuthorCollective_C1` would express `DraftHypothesis_H7` using `TypedInvariantSet_V1` within `ClaimScope_G1`. `ReviewPanel_R4` points to `AmbiguityMemo_8` and `ReviewCommentSet_5` as grounds for that move.
 
-Return the actual question: “Which unresolved claims in H7 can V1 express under G1, and which ambiguities would remain?” If the receiving rule establishes readiness, state its qualified result and the proposed action. The named memo and comments alone establish neither readiness, Formality F, acceptance nor performed formalization. A sufficient question can remain open without becoming a generic invitation record.
+Return the question: “Which unresolved claims in H7 can V1 express under G1, and which ambiguities would remain?” If the receiving rule establishes readiness, state its qualified result and the proposed action. The named memo and comments alone establish neither readiness, Formality F, acceptance nor performed formalization. A sufficient question can remain open without becoming a generic invitation record.
 

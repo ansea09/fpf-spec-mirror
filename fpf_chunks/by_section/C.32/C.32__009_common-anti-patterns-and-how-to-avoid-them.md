@@ -6,12 +6,12 @@ section_id: "C.32:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32/C.32__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.32 — Architecture Candidate Synthesis"
   - "C.32:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 76447
-line_end: 76471
+line_start: 80065
+line_end: 80089
 dependencies:
   - "A.10"
   - "A.15"
@@ -29,7 +29,6 @@ dependencies:
   - "C.19"
   - "C.19.1"
   - "C.25"
-  - "C.29"
   - "C.30"
   - "C.30.ASV"
   - "C.30.ILC"
@@ -48,9 +47,6 @@ dependencies:
   - "C.32.MWA"
   - "C.32.P2S"
   - "C.32.PAD"
-  - "C.33"
-  - "C.34"
-  - "C.35"
   - "E.18"
   - "E.22"
   - "E.23"
@@ -76,11 +72,11 @@ keywords:
 | **Local structure win hides other-scope loss.** A module split, control placement, evidence scope, or direct responsibility-relation change helps one concern while worsening another architecture characteristic. | Rebuild the selected-structure contribution rows and record the gained and lost characteristics before comparison; do not infer responsibility from a team label or assignment. |
 | **Function and architecture characteristic collapse.** The candidate is argued from user-visible function while evolvability, coupling, cohesion, latency, evidence burden, or another architecture characteristic remains unnamed. | Recover the function through `A.6.F` or the structural-view pattern, then name the architecture characteristic separately. |
 | **Function without feasible bearer.** A functional architecture, workflow, Method step, or searched graph asks for a function but A.6.F identifies no bearer that satisfies the functional predicate under the relevant module, resource, placement, control, evidence, local-kind, classification, or assignment constraints. | Repair or reject it before treating it as feasible; retain its failure explicitly when useful for diagnosis or comparison. |
-| **No real trade-off.** The receiving question requires alternatives, but only one configuration is visible or the alternatives differ only in description. | Use :4 to construct structurally different candidates from the limiting relation. If a supported incumbent already answers the actual question, retain it; if a needed alternative remains unknown, name the unresolved construction rather than a completed comparison. |
+| **Missing structural alternatives.** The receiving question requires alternatives, but only one configuration is visible or the alternatives differ only in description. | Use :4 to construct structurally different candidates from the limiting relation. If a supported incumbent already answers the question, retain it; if a needed alternative remains unknown, name the unresolved construction rather than a completed comparison. |
 | **Description artifact stands in for candidate content.** A diagram, ADR, view, dashboard, benchmark output, or digital-twin view is the visible work product, but the selected structures and architecture-characteristic trade-off are still missing. | Recover the candidate content from the visible work product under its description, benchmark, publication or source-use rules. Use C.29 only for an unresolved mathematical representation choice, transfer or reliance question. |
-| **Front member treated as durable optimum.** A front member, local winner, or benchmark leader is used as if the evolution window will stay fixed. | Record evolution window, source-return condition, and retained alternatives under the exact C.18 or C.19 predicates; use G.5 only to declare a selected-set result from those alternatives. If the result is published, use E.17 for a source-backed face and source return and E.24.PUB for the publication occurrence and audience availability. |
+| **Front member treated as durable optimum.** A front member, local winner, or benchmark leader is used as if the evolution window will stay fixed. | Record evolution window, source-return condition, and retained alternatives under the C.18 or C.19 predicates; use G.5 only to declare a selected-set result from those alternatives. If the result is published, use E.17 for a source-backed face and source return and E.24.PUB for the publication occurrence and audience availability. |
 | **Software-source overfit.** A software architecture source supplies a useful architecture-change idea, but the described holon is not a software system. | Translate only the change over selected structures and characteristics; do not import the software ontology. |
-| **Architecture-influence source omitted.** The candidate architecture for a changed referent cannot be built, tested, deployed, certified, or evolved under the current architecture, Work, communication, method, tool, deployment, evidence, selected-structure, or other source, but that source's exact kind and influence status are hidden. | Use `C.32.CONWAY:4.1.1` to recover the operative constraint and an applicable change; recover the source kind and either its exact obtaining direct relation or the precise provisional disposition, keep the acting System, any local system-role kind or assignment, Work, changed referent, and any actual transformation distinct, and prepare the applicable source-side, transformed-side, joint or bounded-mismatch alternatives, preserving the requirement each must meet. |
+| **Architecture-influence source omitted.** The candidate architecture for a changed referent cannot be built, tested, deployed, certified, or evolved under the current architecture, Work, communication, method, tool, deployment, evidence, selected-structure, or other source, but that source's kind and influence status are hidden. | Use `C.32.CONWAY:4.1.1` to recover the operative constraint and an applicable change; recover the source kind and either its obtaining direct relation or the precise provisional disposition, keep the acting System, any local system-role kind or assignment, Work, changed referent, and any actual transformation distinct, and prepare the applicable source-side, transformed-side, joint or bounded-mismatch alternatives, preserving the requirement each must meet. |
 | **Method-defined dimensions lose their semantics.** A BIM, digital-twin, or view-method dimension already carries method-defined structure, constraint, cost, schedule, use-phase, or maintenance semantics, but the synthesis text keeps only the dimension name or dimension count. | Preserve the method semantics and map them to selected structures, constraints, characteristics, and source-return conditions. |
 | **Ideality shortcut.** Fewer bearers, fewer modules, or one universal module is only a candidate direction until functions, architecture characteristics, scale window, safety, admissibility, and losses are named. | Keep it as one candidate and expose those missing tests before comparison. |
 

@@ -6,12 +6,12 @@ section_id: "F.18:7"
 section_title: "Worked Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__009_worked-cases.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
   - "F.18:7 — Worked Cases"
-line_start: 125803
-line_end: 125969
+line_start: 133779
+line_end: 133961
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -57,7 +57,11 @@ Recovered values:
 - `ShipbuildingMethod` or a method family under A.3.1; if a separately identified `ShipbuildingMethodDescription : U.MethodDescription` episteme is current, name it separately under A.3.2 only when its exact `EntityOfConcern` is that Method;
 - `HullAssemblyWork` under the Work patterns.
 
-Here `HullAssemblyWork` is a work-family label or a label in a plan or assignment episteme. A designator such as `HullAssemblyWork-42@2026-07-15T09:10–11:35` names performed Work only when each exact actual performer has its A.13 core and A.15.1 independently admits the occurrence from the Method actually used, temporal extent, containing System, affected hull referent, material bindings, resource-use facts, and any current continuity policy. If the naming record also expressly represents which assignment covered that Work, it cites that same obtaining A.13 assignment and adds the F.6 attribution relation; missing or failed attribution alone leaves independently admitted Work and its name intact, subject to the premise recheck in section 5.3. A changed hull state, measurement result, evaluation verdict, delivery occurrence, or acceptance verdict remains a separately defined and separately named value.
+Here `HullAssemblyWork` is a work-family label or a label in a plan or assignment episteme. A designator such as `HullAssemblyWork-42@2026-07-15T09:10–11:35` names performed Work only when each exact actual performer has its A.13 core and A.15.1 independently admits the occurrence from the Method actually used, temporal extent, containing System, affected hull referent, material bindings, resource-use facts, and any current continuity policy.
+
+If the naming record also expressly represents which assignment covered that Work, it cites that same obtaining A.13 assignment and adds the F.6 attribution relation; missing or failed attribution alone leaves independently admitted Work and its name intact, subject to the premise recheck in section 5.3.
+
+A changed hull state, measurement result, evaluation verdict, delivery occurrence, or acceptance verdict remains a separately defined and separately named value.
 
 The local card is:
 
@@ -152,7 +156,9 @@ NameCard:
   RefreshCondition: reopen if the local kind or A.2.7 qualification changes, or readers merge musician classification or assignment, Method, or Work into this name
 ```
 
-If no durable qualified kind is admitted, keep *engineer-roboticist* as local ordinary wording rather than filling the card. Ordinary project communication may say “Vasya is our engineer-roboticist and musician” when the separate claims about his engineering and musicianship remain recoverable; any assignment is another claim. Name a current Method, MethodDescription, or performed Work through A.3.1, A.3.2, or A.15.1. If public reuse becomes current, apply section 4.4; do not infer an F.17 row from this local card.
+If no durable qualified kind is admitted, keep *engineer-roboticist* as local ordinary wording rather than filling the card. Ordinary project communication may say “Vasya is our engineer-roboticist and musician” when the separate claims about his engineering and musicianship remain recoverable; any assignment is another claim.
+
+Name a current Method, MethodDescription, or performed Work through A.3.1, A.3.2, or A.15.1. If public reuse becomes current, apply section 4.4; do not infer an F.17 row from this local card.
 
 #### F.18:7.2a - Method Relation Structure and Method Algebra Name
 
@@ -167,7 +173,9 @@ Recovered values:
 - a `C.29` mathematical-lens use when "algebra" is the selected representation for checking composition, fallback, or preserved/lost structure;
 - work plan or dated work only when a concrete plan or occurrence is current.
 
-F.18 settlement: `RobotEngineeringMethod` names a Method or method family only when that is the governed value. `RobotEngineeringMethodRelationStructure` may name the selected method relation structure when durable naming is needed. `RobotEngineeringMethodAlgebra` names the lens only when the algebraic representation itself is the governed value. Do not use a system-role-kind label such as `RoboticsEngineerSystemRole` to name the method relation structure, and do not use *method algebra* to hide a WorkPlan or performed Work.
+F.18 settlement: `RobotEngineeringMethod` names a Method or method family only when that is the governed value. `RobotEngineeringMethodRelationStructure` may name the selected method relation structure when durable naming is needed.
+
+`RobotEngineeringMethodAlgebra` names the lens only when the algebraic representation itself is the governed value. Do not use a system-role-kind label such as `RoboticsEngineerSystemRole` to name the method relation structure, and do not use *method algebra* to hide a WorkPlan or performed Work.
 
 #### F.18:7.3 - Evidence-Like Source Phrase
 
@@ -180,7 +188,9 @@ Recovered values:
 - possible source-currentness and assurance-use relations;
 - no system-role kind, assignment, or acting system merely because the episteme is used as evidence.
 
-F.18 settlement: mint no system-role-kind or assignment name. Recover the exact evidence-use relation under A.2.4 or another direct subject rule, including its participants and obtaining condition. A.10 supplies only its descriptive evidence-provenance account and bounded-reliance disposition. If durable naming is needed, compare names for that independently recovered relation; `ModelCardEvidenceUse` can be a candidate, not a relation created by the phrase or card. Then apply §4.4 only when a public row is needed; otherwise retain the local settlement.
+F.18 settlement: mint no system-role-kind or assignment name. Recover the exact evidence-use relation under A.2.4 or another direct subject rule, including its participants and obtaining condition. A.10 supplies only its descriptive evidence-provenance account and bounded-reliance disposition.
+
+If durable naming is needed, compare names for that independently recovered relation; `ModelCardEvidenceUse` can be a candidate, not a relation created by the phrase or card. Then apply §4.4 only when a public row is needed; otherwise retain the local settlement.
 
 #### F.18:7.4 - Interface-Like Source Phrase
 
@@ -196,7 +206,7 @@ Recovered candidates:
 - publication availability, exact expression, reusable form conformance, form-mediated expression, or carrier bearing under `E.24.PUB`;
 - a system-role assignment under A.2.1 only when an occurrence belongs to a declared species, has an admitted System as holder, and has the local kind as assigned-kind value; any responsibility or authority relation remains separate.
 
-F.18 settlement: do not mint `PaymentInterfaceRole`. First recover which governed value the phrase names. Then name that value through its subject pattern.
+Do not mint `PaymentInterfaceRole` from the ambiguous phrase. If the speakers mean that the API specifies a customer identifier, name that field through its declaration. If they mean responsibility for the identity data, identify who holds that responsibility and under which rule. Ask which claim they mean if the phrase leaves it open. Apply F.18 when the recovered value needs a durable name.
 
 #### F.18:7.5 - Cross-Context Name
 
@@ -208,5 +218,11 @@ Recovered values:
 - deployable module under module-interface patterns;
 - management unit under organizational patterns.
 
-F.18 settlement: first keep the three recovered values and their local labels separate. If only local speech is needed, stop there; do not name a claim merely because one team wants to explain the difference. If a public term use is proposed between different `<ReferenceScheme, LocalSenseClaim>` projections, identify the exact source and receiving F.17 cells and test the F.9 Bridge predicate between them. The same scheme with different `LocalSenseClaim` values qualifies; a different scheme only opens the question and never establishes the relation. When the Bridge obtains, state in ordinary C.2.1 wording whether it is suitable for this naming use, naming the direction, label-correspondence rule, tolerated loss, and polarity, and establish the current A.10 or B.3 reliance required by section 4.4.1. The Bridge does not choose the Tech label, the claim does not identify the governed value, and neither authorizes or performs publication. Only after those objects are current should the practitioner apply F.17 as specified in section 4.4. If the F.17 gate fails, keep the name and card local and mark the row pending; if no correspondence use is current, stop with the local settlement and create no Bridge or use claim regardless of scheme count.
+F.18 settlement: first keep the three recovered values and their local labels separate. If only local speech is needed, stop there; do not name a claim merely because one team wants to explain the difference.
+
+If a public term use is proposed between different `<ReferenceScheme, LocalSenseClaim>` projections, identify the exact source and receiving F.17 cells and test the F.9 Bridge predicate between them. The same scheme with different `LocalSenseClaim` values qualifies; a different scheme only opens the question and never establishes the relation.
+
+When the Bridge obtains, state in ordinary C.2.1 wording whether it is suitable for this naming use, naming the direction, label-correspondence rule, tolerated loss, and polarity, and establish the current A.10 or B.3 reliance required by section 4.4.1. The Bridge does not choose the Tech label, the claim does not identify the governed value, and neither authorizes or performs publication.
+
+For this cross-projection use, apply F.17 as specified in section 4.4 only after the Bridge, the use claim and the required reliance are current. If that public-row use lacks a required input, keep the name and card local and mark the row pending. A team that wants to publish its own term without claiming correspondence can use §4.4 directly. If only local speech is needed, keep the local wording.
 

@@ -6,12 +6,12 @@ section_id: "E.17.1:16"
 section_title: "Authoring and Review Guidance"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__017_authoring-and-review-guidance.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.17.1 — Viewpoint Bundle Library - Reusable Viewpoint Reference Bundles"
   - "E.17.1:16 — Authoring and Review Guidance"
-line_start: 106957
-line_end: 106988
+line_start: 113498
+line_end: 113529
 dependencies:
   - "A.16.0"
   - "A.22"
@@ -42,7 +42,7 @@ keywords:
 Bundle authors should ask:
 
 - what recurring family is being named,
-- which viewpoints truly belong together in that family,
+- which viewpoints belong together in that family,
 - what local didactic publications or examples belong in annexes instead of the bundle core,
 - and whether the bundle is stable enough to deserve a reusable family designator.
 
@@ -53,7 +53,7 @@ Bundle authors should ask:
 Reviewers should inspect both levels:
 
 - **member level** - are the included viewpoints individually explicit enough to be reused?
-- **bundle level** - do they actually form one coherent family rather than one convenient list?
+- **bundle level** - do they form one coherent family rather than one convenient list?
 
 They should also check whether a local project has silently forked the bundle while still using the inherited family designator.
 

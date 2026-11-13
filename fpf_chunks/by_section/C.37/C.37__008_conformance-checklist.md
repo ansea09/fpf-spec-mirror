@@ -6,12 +6,12 @@ section_id: "C.37:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37/C.37__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.37 — Select and Use Representations for One Action"
   - "C.37:7 — Conformance Checklist"
-line_start: 81924
-line_end: 81941
+line_start: 85925
+line_end: 85942
 dependencies:
   - "A.10"
   - "A.2.4"
@@ -42,15 +42,15 @@ keywords:
 | --- | --- |
 | `CC-C37.1` One receiving use | Every row names the same receiving System and action or decision. Another action has a distinct use account; unaffected grounds can be reused. |
 | `CC-C37.2` Direct exit tested | The account is absent when one direct pattern already supplies the complete one-result/one-use selection and limits. |
-| `CC-C37.3` Direct subject result | Each row identifies the candidate, subject, direct governor, and every positive relation required by the selected claim. |
+| `CC-C37.3` Direct subject result | Each row identifies the candidate, subject, rule governing the subject claim, and every positive relation required by the selected claim. |
 | `CC-C37.4` A.2.4 bounded | First evidence-use or status-use classification is optional and never substitutes for provenance, reliance, or action authority. |
-| `CC-C37.5` Reliance bounded | A relied-on claim has the source, support and actual use conditions it needs. Use A.10 when the source-to-use account remains implicit or must be replayable; then preserve its exact path, use relation and current `RelianceDisposition`, with the currentness, challenge, unsupported-use boundary and return conditions material to that reliance. |
-| `CC-C37.6` Receiving result separate | The direct choice, gate, permission, authorization, acceptance, or domain pattern supplies the action result. |
+| `CC-C37.5` Reliance bounded | A relied-on claim has the source, support and actual use conditions it needs. Use A.10 when the source-to-use account remains implicit or must be replayable; then preserve its path, use relation and current `RelianceDisposition`, with the currentness, challenge, unsupported-use boundary and return conditions material to that reliance. |
+| `CC-C37.6` Receiving result separate | The choice, gate, permission, authorization, acceptance, or domain pattern supplies the action result. |
 | `CC-C37.7` Exposure and loss | Each selected or declined claim states what is exposed or preserved and what is withheld, lost, transformed, or uncertain. |
-| `CC-C37.8` Honest disposition | Each row is `select`, `decline`, or `unresolved`; `degrade` narrows the selected claim rather than creating another row vocabulary. |
-| `CC-C37.9` Return visible | Every row names the source or direct pattern and the condition that reopens selection. |
+| `CC-C37.8` Row disposition | Each row is `select`, `decline`, or `unresolved`; `degrade` narrows the selected claim rather than creating another row vocabulary. |
+| `CC-C37.9` Return visible | Every row names the source or governing pattern and the condition that reopens selection. |
 | `CC-C37.10` Co-use bounded | Joint use means only reliance by the same receiver for the same action; no collection, structure, view family, graph, or integrated world account is inferred. |
 | `CC-C37.11` Use-needed retention | An immediate sufficient selection can finish without another record. When a later use needs the complete basis, it is recoverable once in an owning same-use result or one ordinary C.2.1 episteme, never both. |
-| `CC-C37.12` Assurance progressive | B.3 is opened only for an actual named assurance claim; reversible inspection carries no mandatory assurance burden. |
+| `CC-C37.12` Assurance progressive | B.3 is used only when the question concerns a named assurance claim; reversible inspection carries no mandatory assurance burden. |
 | `CC-C37.13` No universal ontology | No `U.Representation`, universal `RepresentationOf`, fixed representation taxonomy, master mediation route, or public account kind is introduced. |
 

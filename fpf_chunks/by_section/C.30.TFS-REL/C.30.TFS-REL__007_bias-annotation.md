@@ -6,24 +6,20 @@ section_id: "C.30.TFS-REL:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.TFS-REL/C.30.TFS-REL__007_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.30.TFS-REL — Use Transformation-Flow Structures and Networks in Architecture"
   - "C.30.TFS-REL:6 — Bias-Annotation"
-line_start: 74991
-line_end: 75001
+line_start: 78367
+line_end: 78377
 dependencies:
   - "A.10"
   - "A.15"
-  - "A.15.1"
   - "A.20"
   - "A.21"
   - "A.22"
   - "A.3.4"
-  - "A.6.0"
-  - "A.6.5"
   - "A.6.F"
-  - "A.6.M"
   - "A.7"
   - "B.3"
   - "C.16"
@@ -33,13 +29,8 @@ dependencies:
   - "C.30"
   - "C.30.AD"
   - "C.30.ASV"
-  - "C.30.STRAT"
   - "C.32"
   - "C.32.CONWAY"
-  - "C.32.P2S"
-  - "C.33"
-  - "C.34"
-  - "C.35"
   - "E.10"
   - "E.17.0"
   - "E.18"
@@ -48,7 +39,6 @@ dependencies:
   - "E.18.NET"
   - "E.24.PUB"
   - "F.18"
-  - "G.6"
 keywords:
   - "ArchitectureTransformationFlowStructureRelation"
   - "TFS"
@@ -70,5 +60,5 @@ keywords:
 | Non-flow claim overread | The relation table assigns non-flow claim kinds to their governing patterns. |
 | Mathematical overread | Mathematical-lens use of a graph or valuation is governed by C.29. |
 
-This checklist verifies the preceding guidance after the practitioner has chosen the selected repair action; it is not a required project control form and not a substitute for the card, note, use record, direct relations, or repair guidance above.
+This checklist verifies the preceding guidance after the practitioner has chosen the repair action; it is not a required project control form and not a substitute for the card, note, use record, direct relations, or repair guidance above.
 

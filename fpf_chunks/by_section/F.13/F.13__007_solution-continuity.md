@@ -6,12 +6,12 @@ section_id: "F.13:6"
 section_title: "Solution — Continuity"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.13/F.13__007_solution-continuity.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.13 — Lexical Continuity & Deprecation"
   - "F.13:6 — Solution — Continuity"
-line_start: 122834
-line_end: 122861
+line_start: 130612
+line_end: 130641
 dependencies:
   - "F.1"
   - "F.17"
@@ -44,7 +44,7 @@ Use the least-committing continuity relation that tells the truth after recoveri
 
 2. **`aliases(label_legacy ↔ label_pref)`** — a legacy synonym is kept for reading.
    *Use when:* The two exact label uses have the same scheme, local-sense claim, intended use and, where applicable, governed value.
-   *Effect:* Keep the needed two-way read-paths; writing uses `label_pref`. Preserve historical aliases that readers still need, distinguished from the preferred current designation. Distinct expressions need not be the same SchemeSenseCell.
+   *Effect:* Keep the needed two-way read-paths; writing uses `label_pref`. Preserve historical aliases that readers still need, distinguished from the preferred current designation. When the two labels occupy the `LocalExpression` slot, they identify distinct F.17 cells.
 
 3. **`splits(label_old ⇒ {label_A, label_B})`** — one earlier label covered several senses or rows that are now distinguished.
    *Use when:* F.3 recovers the distinct local senses, or F.7 establishes the required row refactor.
@@ -58,5 +58,7 @@ Use the least-committing continuity relation that tells the truth after recoveri
    *Use when:* The label misleads and no single successor preserves its earlier use.
    *Effect:* Keep a warning for historical reading and point to the relevant meanings or rows. A known single successor for an unchanged meaning belongs to rename, not retirement.
 
-**Meaning-change boundary.** These five label relations do not exhaust changes to the things being named. For a one-to-one changed criterion, recover the revision or replacement under the subject's rule, preserve the exact earlier claim, and settle the later name under F.18. If the governing continuity decision is unavailable, state that missing decision instead of inventing a split or merge. A needed relation between different semantic projections is a separate F.9 question.
+**Meaning-change boundary.** These five label relations do not exhaust changes to the things being named. For a one-to-one changed criterion, recover the revision or replacement under the subject's rule, preserve the exact earlier claim, and settle the later name under F.18. If the governing continuity decision is unavailable, state that missing decision instead of inventing a split or merge.
+
+A needed relation between different semantic projections is a separate F.9 question.
 

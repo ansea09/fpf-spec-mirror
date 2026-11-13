@@ -6,12 +6,12 @@ section_id: "A.15.4:3.1"
 section_title: "Archetypal Grounding - Worked Dashboard And Approval Examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__006_archetypal-grounding-worked-dashboard-and-approval-examples.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.15.4 — Work-Relevant Appearance-Based Reliance Repair"
   - "A.15.4:3.1 — Archetypal Grounding - Worked Dashboard And Approval Examples"
-line_start: 30622
-line_end: 30693
+line_start: 31713
+line_end: 31800
 dependencies:
   - "A.10"
   - "A.13"
@@ -89,15 +89,31 @@ Situation viewpoint prompts:
 | LLM user or tool user | Which required claim or result does the explanation help recover, and what basis does the proposed use require? Use A.10 when that evidence/provenance account must remain replayable. |
 | Security or compliance source contact | Which revocation relation, currentness relation, proof, credential-status record, system-role-assignment-state assertion, source-relation order, or supersession relation needs exposure, and which direct source, register, communication, access, or contact fact supports asking for it? For a repair allocation or duty, use §3.4 to recover that claim's rule and grounds and distinguish missing information from a failed test. |
 | Model or data documentation steward | Which intended use, evaluation condition, version, window, limitation, and evidence relation bound the model or data documentation? |
-| Assurance viewpoint | Which named claim actually has a `B.3` assurance claim, with what assurance tuple, evidence relation, limitations, and reopen condition? |
+| Assurance viewpoint | Which named claim has a `B.3` assurance claim, with what assurance tuple, evidence relation, limitations, and reopen condition? |
 
 Use the prerequisite lookup in §3.5 once the direct question is clear; return to A.15.4 only if an appearance still hides that question or its basis.
 
 For a state label intended to guide action, expose the source reference and the scope, time and currentness needed by that action. For example: `Gate decision: pass; GateDecisionRef; release; environment; window`. Add a denied overread only when it is locally plausible and changes the use; F.19 governs that wording decision.
 
-For incident learning, retain only the content needed to explain or repair the overread: encountered selected episteme, publication occurrence, form, or carrier; work or reliance claim under repair; required relation or result, its `SubjectPatternLocator`, and project-side reference; acting or affected System; a context field ending in `...SystemRoleAssignmentRef` only when assignment identity matters to F.6 attribution or another direct relation that independently obtains; separately recoverable capability, authority, and responsibility claims when current; affected target, context, and window; missing or stale source, publication occurrence, source-bearing relation, register entry, or project-side reference; the direct source, publication, register, communication, access, or contact fact supporting a cheap exposure request; and, only for an allocation or duty to repair, its distinct rule, case facts and any unresolved ground under §3.4; plausible overread; safe disposition; and smallest upstream repair.
+For incident learning, retain only the content needed to explain or repair the overread:
 
-Contestability and redress relation: when an authority-looking case affects assignment state, credential status, access, assignment, responsibility, release blockage, compliance claim, or safety-impacting Work, name the available challenge, review, redress, communication, source, publication, register, access, or contact relation before the work claim or reliance claim hardens. Recover the disputed source relation or claim, affected use or harm, allowed evidence or argument, possible disposition change, outcome route, and reopen trigger. Keep source exposure available under its own access conditions. A claim that a System has a duty to conduct later review or repair needs that duty's bearer, predicate and instituting basis; allocation and permission remain separate claims under §3.4. An unresolved duty limits that assertion, while a challenge can continue under its own established conditions.
+- encountered selected episteme, publication occurrence, form, or carrier
+- work or reliance claim under repair
+- required relation or result, its `SubjectPatternLocator`, and project-side reference
+- acting or affected System
+- a context field ending in `...SystemRoleAssignmentRef` only when assignment identity matters to F.6 attribution or another direct relation that independently obtains
+- separately recoverable capability, authority, and responsibility claims when current
+- affected target, context, and window
+- missing or stale source, publication occurrence, source-bearing relation, register entry, or project-side reference
+- the direct source, publication, register, communication, access, or contact fact supporting a cheap exposure request
+- only for an allocation or duty to repair, its distinct rule, case facts and any unresolved ground under §3.4
+- plausible overread
+- safe disposition
+- smallest upstream repair.
+
+Contestability and redress relation: when an authority-looking case affects assignment state, credential status, access, assignment, responsibility, release blockage, compliance claim, or safety-impacting Work, name the available challenge, review, redress, communication, source, publication, register, access, or contact relation before the work claim or reliance claim hardens. Recover the disputed source relation or claim, affected use or harm, allowed evidence or argument, possible disposition change, outcome route, and reopen trigger. Keep source exposure available under its own access conditions.
+
+A claim that a System has a duty to conduct later review or repair needs that duty's bearer, predicate and instituting basis; allocation and permission remain separate claims under §3.4. An unresolved duty limits that assertion, while a challenge can continue under its own established conditions.
 
 Lintable overread cues:
 
@@ -116,7 +132,7 @@ Stress cases for practice:
 | Case | Expected A.15.4 disposition |
 | --- | --- |
 | Green release dashboard tile with no `GateDecisionRef`. | Source-finding only; recover the `A.21` `GateDecisionResult`, directly or through a decision log that cites it, plus `A.10` evidence before gate-passage reliance. |
-| Copied approval from last month. | Treat the copy as a source-finding cue. Recover each permission or authority claim actually consumed by the intended use under the matching row above or its direct governing rule, with the currentness and evidence basis it requires. |
+| Copied approval from last month. | Treat the copy as a source-finding cue. Recover each permission or authority claim consumed by the intended use under the matching row above or its direct governing rule, with the currentness and evidence basis it requires. |
 | Register-backed credential badge screenshot after revocation. | Recover the entry, publication, status rule, direct status and required evidence/currentness/revocation basis. Add entry-producing Work only when the rule consumes it. A valid revocation blocks reliance even while the old entry remains visible. |
 | Register entry says `grant exercised; no violation`, but matching actual Work is unavailable. | Keep those claims unresolved. Recover the acted-on Work under A.13/A.15.1, the exercise predicate and the sufficiently complete current checked frame. A separate evaluation Work is needed only when that occurrence is claimed; it then needs its own basis. Add F.6 only for consumed attribution. Entry presence establishes neither result. |
 | Generated explanation says `authorized by policy`. | Recover the claim and its governing rule. Use E.17.EFP when explanation-class ambiguity changes the use, and A.10 when a replayable evidence/provenance account is needed. For each required permission or authority claim, apply the matching row above or its direct governing rule. |

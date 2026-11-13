@@ -6,12 +6,12 @@ section_id: "C.40.CU:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.CU/C.40.CU__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.40.CU — Develop a Useful and Reproducible Use of a Construct"
   - "C.40.CU:1 — Problem frame"
-line_start: 85887
-line_end: 85896
+line_start: 90119
+line_end: 90128
 dependencies:
   - "B.1.5.EW"
   - "B.1.5.RS"
@@ -36,5 +36,5 @@ The working reader develops or investigates such an application and can perform 
 
 **First useful move.** Preserve one response and the conditions that produced it. Ask what receiving use it could change, and what uncertainty would change the next action. Use the response within its supported limits, or construct the smallest worthwhile contrast needed before relying on it.
 
-The first result can be a bounded usable response, a candidate application, or an explicit missing contribution. A repeatable application additionally needs an obtainable method, capable participants and the conditions under which its result can be obtained. Use an already adequate application directly; ordinary material variation under C.40 is enough when no discovery-to-use connection is missing.
+The first result can be a bounded usable response, a candidate application, or a statement of the contribution still needed. A repeatable application additionally needs an obtainable method, capable participants and the conditions under which its result can be obtained. Use an already adequate application directly; ordinary material variation under C.40 is enough when no discovery-to-use connection is missing.
 

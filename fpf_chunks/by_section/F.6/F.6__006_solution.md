@@ -6,12 +6,12 @@ section_id: "F.6:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__006_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.6 — SystemRoleAssignment and Performed-Work Attribution Check"
   - "F.6:4 — Solution"
-line_start: 120198
-line_end: 120327
+line_start: 127827
+line_end: 127968
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -62,7 +62,11 @@ when performedUnderAssignment(W, RA) obtains:
   attributedPerformerSystem(W, RA) := RA.HolderSystemSlot
 ```
 
-`WorkOccurrenceSlot` names a dated Work already admitted under A.15.1 from independently grounded performance history, A.13-qualified actual performer facts, Method, extent, and containment. The typed slot consumes that completed membership result; F.6 does not establish `W : U.Work`; a finding that also invalidates a consumed admission premise invokes section 4.2's premise recheck. The declaration-local `SystemRoleAssignmentSlot` names one occurrence of an admitted assignment species declared under `U.SystemRoleAssignment`. Its `U.RelationRef` names that occurrence and is limited to `U.SystemRoleAssignment`. Filling the two slots, matching the holder, or finding temporal overlap does not establish that this Work was performed under this assignment; the case must independently establish that link.
+`WorkOccurrenceSlot` names a dated Work already admitted under A.15.1 from independently grounded performance history, A.13-qualified actual performer facts, Method, extent, and containment. The typed slot consumes that completed membership result; F.6 does not establish `W : U.Work`; a finding that also invalidates a consumed admission premise invokes section 4.2's premise recheck.
+
+The declaration-local `SystemRoleAssignmentSlot` names one occurrence of an admitted assignment species declared under `U.SystemRoleAssignment`. Its `U.RelationRef` names that occurrence and is limited to `U.SystemRoleAssignment`.
+
+Filling the two slots, matching the holder, or finding temporal overlap does not establish that this Work was performed under this assignment; the case must independently establish that link.
 
 For an obtaining attribution:
 
@@ -70,7 +74,7 @@ For an obtaining attribution:
 S = attributedPerformerSystem(W, RA) = RA.HolderSystemSlot
 ```
 
-`S` is the admitted System already recovered as an actual performer through A.13 and used by A.15.1 to admit `W`; F.6 does not discover it. `RA` is the assignment under which that Work is now attributed. The projection exposes the holder already carried by `RA` only to test equality with `S`; it creates neither performerhood, Work, attribution, classification, nor a generic assignment occurrence and discards none of RA's additional participants.
+`S` is the admitted System already recovered as an actual performer through A.13 and used by A.15.1 to admit `W`; F.6 does not discover it. `RA` is the assignment under which that Work is attributed. The projection exposes the holder already carried by `RA` only to test equality with `S`; it creates neither performerhood, Work, attribution, classification, nor a generic assignment occurrence and discards none of RA's additional participants.
 
 `performedBy` remains only a deprecated source relation name. Read it through the direct Work-assignment relation only after A.13 and A.15.1 have independently established the actual performer and admitted Work, and after holder equality is checked. New practitioner-facing claims say that the already recovered performer System performed the Work under the assignment, or name `performedUnderAssignment` when the relation name is needed; they never make the assignment the performer or use F.6 to discover one.
 
@@ -87,9 +91,13 @@ The direct Work-assignment attribution is a world-side fact, separate from any a
 5. `RA.HolderSystemSlot = S`, the admitted System that actually performed `W`; and
 6. RA's species predicate obtains throughout the attributed temporal extent of `W`.
 
-Conditions 1–3, 5, and 6 are five constraints on a valid attribution but do not establish it. F.6 reuses the obtaining A.13 assignment; it does not create the A.13 classification, assignment, evidence, optional profile, or Work. Where the independent A.13/A.15.1 admission grounds still hold, missing or failed attribution leaves `W : U.Work` intact and leaves only this exact assignment-bound attribution unasserted. If the same finding invalidates a premise actually consumed by that admission, recheck the premise and its dependent conclusions under A.15.1. Preserve independently grounded history and relations; absence of attribution alone is not evidence of no performance.
+Conditions 1–3, 5, and 6 are five constraints on a valid attribution but do not establish it. F.6 reuses the obtaining A.13 assignment; it does not create the A.13 classification, assignment, evidence, optional profile, or Work. Where the independent A.13/A.15.1 admission grounds still hold, missing or failed attribution leaves `W : U.Work` intact and leaves only this exact assignment-bound attribution unasserted. If the same finding invalidates a premise used in that admission, recheck the premise and its dependent conclusions under A.15.1.
 
-Two overlapping assignments held by the same System may satisfy all five constraints while the Work was performed under only one. To recover the link, start from the contribution required by each assignment and follow the actual action's initiation and execution, including the return of a result when it matters to that contribution. A request or commission can identify which contribution was undertaken; execution facts and any result-return facts can show whether this Work carried it out. Use the identity-bearing participants and rule of the actual assignment species to distinguish competing occurrences. These facts may be recoverable from an existing execution trace, correspondence, direct observation or another adequate source; no particular record format is required.
+Preserve independently grounded history and relations; absence of attribution alone is not evidence of no performance.
+
+Two overlapping assignments held by the same System may satisfy all five constraints while the Work was performed under only one. To recover the link, start from the contribution required by each assignment and follow the actual action's initiation and execution, including the return of a result when it matters to that contribution. A request or commission can identify which contribution was undertaken; execution facts and any result-return facts can show whether this Work carried it out. Use the identity-bearing participants and rule of the actual assignment species to distinguish competing occurrences.
+
+These facts may be recoverable from an existing execution trace, correspondence, direct observation or another adequate source; no particular record format is required.
 
 Reuse an already established pairing. When it is not established, inspect the point at which the histories would differ: for example, which commission's question the performer undertook and to which commission the resulting review answered. Shared task wording, holder and time alone do not decide that question. If the available facts still cannot distinguish the assignments, leave the attribution unresolved rather than asserting both.
 
@@ -130,11 +138,11 @@ Do not replace the species with one `Context` value. Recover what the source tok
 3. Recover the link from the assigned contribution and actual initiation, execution or return of result as in section 4.2. Identify the fact that distinguishes this Work–assignment pair from any live competing pair; matching holder and interval alone is insufficient.
 4. Confirm that the assignment holder is the actual performer.
 5. Confirm that the assignment predicate obtains throughout the attributed Work interval.
-6. When all five checks pass, state the F.6 relation or say plainly that the holder System performed the Work under that assignment. If the direct link, a participant, or a required constraint is missing, leave this assignment-bound attribution unresolved. Retain Work whose independent admission grounds still hold, and apply section 4.2's premise-recheck rule when the finding also affects those grounds; do not select another covering assignment.
+6. When all five checks pass, state the F.6 relation or say that the holder System performed the Work under that assignment. If the facts show that a required condition fails, rule out this pair. If the facts needed to decide the link or a condition are missing, leave the pair unresolved. Retain Work whose independent admission grounds still hold, and apply section 4.2's premise-recheck rule when the finding also affects those grounds; do not select another covering assignment.
 7. Keep assertions and evidence separate: they can support reliance on the attribution claim but do not make the relation obtain.
 8. Send classification, assignment state, capability, Method, evidence, source use, result, acceptance, publication, bridge, responsibility, and authority questions to their subject patterns.
 
-This sequence is application guidance, not a new check record or workflow object. Its first useful result is the readable exact relation, an unresolved exact pair with the missing fact named, or a corrected route to the direct neighboring claim.
+This sequence is application guidance, not a new check record or workflow object. The first useful result is a finding that the Work was or was not performed under this assignment, an unresolved pair with the missing fact named, or a reference to the rule for the neighboring claim.
 
 #### F.6:4.5 - Method and Work Boundary
 
@@ -161,7 +169,7 @@ The assignment, system-role kind, capability, Method, and MethodDescription do n
 
 #### F.6:4.7 - Source Shorthand and `RoleEnactment`
 
-`Holder#Role:Context@Window` is readable source notation only. Recover the actual system, local system-role kind, assignment species and occurrence, and the object denoted by `Context`. The source spelling is not a signature.
+`Holder#Role:Context@Window` is readable source notation only. Identify the system denoted by the shorthand, the local system-role kind, the assignment species and occurrence, and the object denoted by `Context`. The source spelling is not a signature.
 
 When source wording says `RoleEnactment` or `RoleEnactmentFact`, recover dated Work and `performedUnderAssignment`. Do not retain a second enactment kind, fact object, or relation occurrence.
 
@@ -175,5 +183,9 @@ InspectionWork-17 was performed by Robot-7 under InspectionAssignment-17.
 
 Expose declarations and occurrence keys only when a dependent use must distinguish occurrences, cite one as a participant, compare assertions, or preserve provenance. If the assignment cannot be recovered for this attribution, retain the independently grounded Work and actual performer, leave the attribution unresolved, and apply section 4.2 to any affected admission premise. State any source-reliance or evidence limit under its direct predicate.
 
-Another pattern may require a **complete A.13/A.15.1/F.6 basis** when its receiving use needs both admitted Work and precise assignment-bound performer attribution, and may point here instead of repeating this declaration and check sequence. That combined basis has a fixed order: A.13 first supplies every performer's exact System, local agential kind and criterion, classification, obtaining assignment, needed scope, working situation, window, and adequate core evidence; A.15.1 independently admits the dated Work from its performance history, at least one obtaining `enactsMethod` relation, extent, and at least one obtaining locally declared Work-to-System containment relation; only then does F.6 test every required exact Work-assignment pair through the same obtaining A.13 assignment. The phrase is never an A.15.1 membership test. A missing F.6 relation alone preserves independently admitted `W : U.Work` and leaves the precise attribution unresolved; section 4.2 governs a finding that also invalidates an admission premise. A characteristic profile remains conditional, and another enactment or containing-system relation is named only when the receiving use relies on it.
+Another pattern may require a **complete A.13/A.15.1/F.6 basis** when its receiving use needs both admitted Work and precise assignment-bound performer attribution, and may point here instead of repeating this declaration and check sequence.
+
+The combined basis has a fixed order: A.13 first supplies every performer's exact System, local agential kind and criterion, classification, obtaining assignment, needed scope, working situation, window, and adequate core evidence; A.15.1 independently admits the dated Work from its performance history, at least one obtaining `enactsMethod` relation, extent, and at least one obtaining locally declared Work-to-System containment relation; only then does F.6 test every required exact Work-assignment pair through the same obtaining A.13 assignment.
+
+The combined basis is not an A.15.1 membership test. A missing F.6 relation alone preserves independently admitted `W : U.Work` and leaves the precise attribution unresolved; section 4.2 governs a finding that also invalidates an admission premise. A characteristic profile remains conditional, and another enactment or containing-system relation is named only when the receiving use relies on it.
 

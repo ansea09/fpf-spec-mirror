@@ -6,12 +6,12 @@ section_id: "A.6.P.RI:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P.RI/A.6.P.RI__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.P.RI — Recover Agent-Relative References for Action"
   - "A.6.P.RI:7 — Conformance Checklist"
-line_start: 20674
-line_end: 20687
+line_start: 21547
+line_end: 21560
 dependencies:
   - "A.6.3.RT"
   - "A.6.4"
@@ -31,7 +31,7 @@ For a consequential interpretation or transfer, ask:
 - Can the recipient identify its own relevant position in the account?
 - Does the derived action still satisfy that purpose when the consequential condition changes?
 - Are missing information, authority, capability and support distinguished?
-- Does any actual change of EntityOfConcern use A.6.4 rather than being assumed from new notation?
+- Does any change of EntityOfConcern use A.6.4 rather than being assumed from new notation?
 
 Use the questions needed for the receiving decision. An already clear instruction needs no additional record.
 

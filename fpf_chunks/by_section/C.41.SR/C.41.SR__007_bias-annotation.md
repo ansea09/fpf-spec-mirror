@@ -6,12 +6,12 @@ section_id: "C.41.SR:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.SR/C.41.SR__007_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.41.SR — Reconcile Checklist Results Across Shared Work"
   - "C.41.SR:6 — Bias-Annotation"
-line_start: 89791
-line_end: 89796
+line_start: 94059
+line_end: 94064
 dependencies:
   - "A.10"
   - "B.1.5"

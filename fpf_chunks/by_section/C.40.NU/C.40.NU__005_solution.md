@@ -6,12 +6,12 @@ section_id: "C.40.NU:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.NU/C.40.NU__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.40.NU — Search Neighboring Uses and Means"
   - "C.40.NU:4 — Solution"
-line_start: 87036
-line_end: 87100
+line_start: 91270
+line_end: 91334
 dependencies:
   - "C.17"
   - "C.18"
@@ -33,7 +33,7 @@ Vary the few dimensions that could change the opportunity, make the resulting di
 
 #### C.40.NU:4.1 - Choose the search question and its limit
 
-Recover the subject and configuration, the receiving concern when known, the local question, horizon, protections, and effort boundary. Use `C.40.OI` only if these are still too loose to distinguish a useful lead from a slogan. Use `C.40.OC` when an unclear characteristic, scale, or current reading prevents a productive contrast.
+Recover the subject and configuration, the receiving concern when known, the local question, horizon, protections, and effort boundary. Use `C.40.OI` only if these are too loose to distinguish a useful lead from a slogan. Use `C.40.OC` when an unclear characteristic, scale, or current reading prevents a productive contrast.
 
 Write a question such as: “What different contribution could help the receiving engineer recover unsupported acceptance claims within this quarter?” The question may explore what is worthwhile; it need not name one fixed target or preferred solution.
 
@@ -50,7 +50,7 @@ Use the following search prompts selectively.
 | Substitute a technology or Method | Could manual, organizational, technical, provider, or mixed support supply the contribution differently? | A different mechanism, burden, limitation, or dependency, not just a new brand. |
 | Vary a characteristic | Could lower latency, clearer limits, better accessibility, reversibility, or a different burden make a contribution worthwhile? | An action-changing characteristic and the question about its meaning or evidence. |
 | Combine or change support | Could access, feedback, review, interfaces, resources, or a different division of contributions make an existing capability usable? | The support change and the dependency it would remove or introduce. |
-| Challenge an assumed constraint | Is this restriction a fact, an authoritative limit, a chosen premise, or an untested assumption? | A conditional alternative and the exact premise that must be resolved. |
+| Challenge an assumed constraint | Is this restriction a fact, an authoritative limit, a chosen premise, or an untested assumption? | A conditional alternative and the premise that must be resolved. |
 
 Do not lift a binding safety, confidentiality, legal, or authority condition merely to generate a convenient lead. If the requirement's own justification is the live question, use `C.11.DUA` §4.3 with the competent domain contribution. Identify the protected person or System and outcome, governed quantity or activity, evidence and threshold basis, marginal protection, full burden and displaced protective work. Compare retaining, tightening, revising or replacing it only where those are meaningful alternatives.
 
@@ -60,7 +60,7 @@ Use explicit value questions: what would matter to a receiver, what burden shoul
 
 #### C.40.NU:4.3 - Keep the operation, source, and claim status together
 
-For each retained lead, say what was varied, where the idea came from, what concrete difference might matter, and any material limit or unsupported premise. Preserve a source date or edition when its currentness affects the next use. Distinguish the source's actual claim from the inference made for this subject.
+For each retained lead, say what was varied, where the idea came from, what concrete difference might matter, and any material limit or unsupported premise. Preserve a source date or edition when its currentness affects the next use. Distinguish the source's claim from the inference made for this subject.
 
 For example: “The supplier describes long-record retrieval; changing the receiving use from automatic approval to claim-to-evidence recovery suggests a possible review aid. We have no result establishing its accuracy or permitted use with these records.” That is a search lead with a testable connection, not a supplier-validated opportunity.
 
@@ -70,11 +70,11 @@ Independent-looking pages that repeat one announcement supply one lineage of sug
 
 Keep a lead when its difference could change the receiving problem, proposed contribution, support, burden, protection, horizon, or next evidence request. Merge duplicates whose differences change none of those. Do not discard a distinct useful question solely because another lead has a more impressive demonstration.
 
-Keep the current way, a smaller repair, or no new development when each is a serious answer. “No new development” still has the continuing Work, costs, and exposure of the actual baseline.
+Keep the current way, a smaller repair, or no new development when each is a serious answer. “No new development” still has the continuing Work, costs, and exposure of the baseline.
 
 Mark leads as ready for problem/contribution inquiry, conditional on a named premise, rejected for this use, or retained for a separately stated future question. These are working descriptions, not scores or a universal classification. The strongest available result may be that none of the searched leads yet identifies a worthwhile contribution.
 
-#### C.40.NU:4.5 - Stop at a useful difference or an exact gap
+#### C.40.NU:4.5 - Stop at a useful difference or a gap
 
 Stop widening when the retained contrasts expose the unknowns that can change the inquiry at its chosen effort, when an adequate set already exists, or when a missing premise makes further generation uninformative. If the effort limit is reached first, report that limit and any consequential unsearched area; do not describe the search as sufficient merely because the time was spent.
 
@@ -82,9 +82,9 @@ When the receiving inquiry needs a further answer, state the discriminating ques
 
 A two-sentence return can suffice: “Changing the use and support exposed claim-to-evidence recovery and shift-exception handoff as different leads; three other products repeat the first mechanism. We stopped after the agreed source search because the next difference depends on whether receivers need either contribution; accessibility beyond the current office use remains unsearched.”
 
-#### C.40.NU:4.6 - Use formal search machinery only for its actual question
+#### C.40.NU:4.6 - Use formal search machinery only for the questions it answers
 
-Use [C.17](https://github.com/ailev/FPF/blob/main/FPF-Spec.md) when novelty, creativity, or value must be characterized for a named bearer, comparison basis, and objective. A novelty result alone does not establish worth for this opportunity inquiry. Use [C.18](https://github.com/ailev/FPF/blob/main/FPF-Spec.md) when an actual generation archive or front needs its generator, operators, descriptors, lineage, retention, or comparison basis. Use [C.19](https://github.com/ailev/FPF/blob/main/FPF-Spec.md) when the question is how to treat a still-live pool under its declared policy: widen it, keep its frontier, narrow it to a subset, or sunset a line. Selecting the next local candidate or probe under an unchanged policy is not that question.
+Use [C.17](https://github.com/ailev/FPF/blob/main/FPF-Spec.md) when novelty, creativity, or value must be characterized for a named bearer, comparison basis, and objective. A novelty result alone does not establish worth for this opportunity inquiry. Use [C.18](https://github.com/ailev/FPF/blob/main/FPF-Spec.md) when a generation archive or front needs its generator, operators, descriptors, lineage, retention, or comparison basis. Use [C.19](https://github.com/ailev/FPF/blob/main/FPF-Spec.md) when the question is how to treat a live pool under its declared policy: widen it, keep its frontier, narrow it to a subset, or sunset a line. Selecting the next local candidate or probe under an unchanged policy is not that question.
 
 Visiting a new region does not by itself expand the admissible possibility space. A stronger expansion claim needs the earlier and changed generation conditions and evidence of what a new operator, access relation, or building block makes available. Ordinary neighboring search need not make that claim.
 

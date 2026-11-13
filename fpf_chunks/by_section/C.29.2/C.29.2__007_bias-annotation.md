@@ -6,12 +6,12 @@ section_id: "C.29.2:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29.2/C.29.2__007_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.29.2 — Computational Formulation"
   - "C.29.2:6 — Bias-Annotation"
-line_start: 70647
-line_end: 70657
+line_start: 73740
+line_end: 73750
 dependencies:
   - "A.10"
   - "A.3.1"
@@ -40,5 +40,5 @@ keywords:
 | Exact-arithmetic default | Name representable values and operation semantics before transferring a proof to finite precision. |
 | Successful-example confidence | Preserve the traced result but obtain the argument needed for a larger input claim. |
 | Cheap-operation assumption | Recount when operand length, data movement or requested output size grows. |
-| Representation inevitability | Reject the failed representation at its demonstrated scope; test a concrete alternative rather than claiming the problem is impossible. |
+| Representation inevitability | Reject the failed representation at its demonstrated scope; test an alternative rather than claiming the problem is impossible. |
 

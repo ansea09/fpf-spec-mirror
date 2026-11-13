@@ -6,12 +6,12 @@ section_id: "A.16:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.16 — Language-State Moves: Choose the Next Publication and Use of a Cue or Claim"
   - "A.16:7 — Conformance checklist"
-line_start: 33539
-line_end: 33557
+line_start: 35019
+line_end: 35037
 dependencies:
   - "A.13"
   - "A.15.1"
@@ -57,7 +57,7 @@ keywords:
 
 ### A.16:7 - Conformance checklist
 
-Use this one checklist for authoring and review:
+Use this checklist for authoring and review:
 
 1. `A.16` does not redefine `F`, an endpoint test, Work, publication, or a graph-path calculus.
 2. The publication or accompanying note identifies one move from §4.1 and its facet or route guard; rhetorical relabeling is insufficient.
@@ -65,10 +65,10 @@ Use this one checklist for authoring and review:
 4. The source condition, typed target form, and object or claim that the downstream pattern defines, constrains, or tests are recoverable. The publication occurrence and MVPK face are added only when material and substitute for none of them.
 5. `projection` names a typed route-bounded form and its omissions; `respecify` does not hide an A.6.P, C.16.Q, or A.6.A precision repair.
 6. Route plurality or selection, endpoint disposition, publication availability, and current-use or retirement claims remain separate.
-7. A multi-route publication is not called a lineage fork. A true fork names separate successor identities, losses, and exact lineage relations.
+7. A multi-route publication is not called a lineage fork. A fork names separate successor identities, losses, and lineage relations.
 8. Reopen, backoff, respecify, and retire say which witnesses remain and which closure, route selection, endpoint use, publication, or current-use claim changes.
 9. Any dated Work and Work-result claim is established separately under its own patterns.
-10. Docking or a Work crossing alone establishes no authority, responsibility, permission, or commitment change. A real change names the exact relation and its own participants, object or action, scope, interval, and any instituting or ending act required by its governing pattern. An unchanged-relation claim requires an applicable negative criterion or complete closure basis.
+10. Docking or a Work crossing alone establishes no authority, responsibility, permission, or commitment change. A change names the relation and its own participants, object or action, scope, interval, and any instituting or ending act required by its governing pattern. An unchanged-relation claim requires an applicable negative criterion or complete closure basis.
 11. Use `EndpointAdmissionProfile` only to judge admissible docking; apply all of the endpoint pattern's own conditions.
 12. Sufficient local publication content stands alone. A.16.0 opens only at the §4.7 threshold, and E.18 opens only for an independently selected TransformationFlowStructure.
 13. A summarized chain leaves intermediate move identities, endpoint-rule changes, losses, and material status changes reconstructible.

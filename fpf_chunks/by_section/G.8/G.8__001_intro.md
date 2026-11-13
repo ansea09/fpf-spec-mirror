@@ -6,12 +6,12 @@ section_id: "G.8:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.8/G.8__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.8 — Package Method-Family Admissibility Rules and Maturity Ladders (SoS-LOG)"
   - "G.8:intro — Intro"
-line_start: 130642
-line_end: 130654
+line_start: 138702
+line_end: 138714
 dependencies:
   - "A.10"
   - "A.21"
@@ -38,7 +38,7 @@ keywords:
   - "SoS-LOG"
   - "admissibility ledger"
   - "rule ids"
-  - "tri-state {pass"
+  - "tri-state {pass\\"
 ---
 
 ## G.8 - Package Method-Family Admissibility Rules and Maturity Ladders (SoS-LOG)
@@ -52,5 +52,5 @@ keywords:
 
 
 
-**Modularity note (policy‑id pins are reference‑only).** This kit may pin/cite policy ids (e.g., `Φ/Ψ/Φ_plane` policies, `FailureBehaviorPolicyId`, illumination‑promotion policy ids, and E/E‑LOG policy ids) **as references only**. Conformance relies on the policy‑pin resolvability discipline of `F.8:8.1` (i.e., policy ids are not “inlined”; and when newly minted, they are backed by resolvable `PolicySpecRef` + `MintDecisionRef`). `G.8` does not define policy semantics and MUST NOT silently mint policy ids.
+**Policy references.** The kit may cite the IDs of policies such as `Φ/Ψ/Φ_plane`, `FailureBehaviorPolicyId`, illumination promotion and E/E‑LOG. Cite the policies by ID only; their definitions stay with their governing sources. Under `F.8:8.1`, each must resolve, and a newly minted ID needs a resolvable `PolicySpecRef` and `MintDecisionRef`. G.8 MUST NOT silently mint policy IDs.
 

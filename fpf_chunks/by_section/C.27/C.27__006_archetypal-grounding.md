@@ -6,12 +6,12 @@ section_id: "C.27:4"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__006_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Change"
   - "C.27:4 — Archetypal Grounding"
-line_start: 67122
-line_end: 67241
+line_start: 70178
+line_end: 70299
 dependencies:
   - "A.10"
   - "A.3.3"
@@ -79,7 +79,9 @@ reopenTrigger:
   work-mix shift, saturation, quality loss, or a measured rate after sprint N that does not match the planning estimate
 ~~~
 
-For a numerical version of this constructed case, let the backlog start at 120 comparable items, the baseline reduction rate be 20 per week, and each sprint last one week with no new incoming items. The doubling assumption gives 40 per week and leaves 40 items after the two sprints. That conditional calculation can inform local staffing discussion without establishing the assumed gain. If the measured first-sprint reduction is 20, there is progress, but the uniform 40-per-week estimate is not met in that sprint. Reassess ramp-up and the remaining estimate before relying on the second-sprint forecast; the first sprint alone does not determine the two-sprint outcome. No boundary-crossing profile is needed for this local use.
+For a numerical version of this constructed case, let the backlog start at 120 comparable items, the baseline reduction rate be 20 per week, and each sprint last one week with no new incoming items. The doubling assumption gives 40 per week and leaves 40 items after the two sprints. That conditional calculation can inform local staffing discussion without establishing the assumed gain.
+
+If the measured first-sprint reduction is 20, there is progress, but the uniform 40-per-week estimate is not met in that sprint. Reassess ramp-up and the remaining estimate before relying on the second-sprint forecast; the first sprint alone does not determine the two-sprint outcome. No boundary-crossing profile is needed for this local use.
 
 #### C.27:4.2 - Braking to Protect Viability
 
@@ -150,7 +152,7 @@ Cross-bearer coupling is absent because the claim does not rely on synchronizati
 | --- | --- | --- |
 | “Backlog is 120 items today.” | Dyn0 snapshot | stop; C.16 only when the measurement construction matters |
 | “Backlog fell by 20 items per week.” | Dyn1 rate | stop or C.16; no intervention claim |
-| “More tool calls will speed debugging.” | exact outcome rate, System actor only when Work is claimed, input, resistance, evaluation evidence, stop or replan, and unsupported reasoning-quality inference | C.24, A.15.1, F.6, evaluation, and evidence as applicable |
+| “More tool calls will speed debugging.” | outcome rate, System actor only when Work is claimed, input, resistance, evaluation evidence, stop or replan, and unsupported reasoning-quality inference | C.24, A.15.1, F.6, evaluation, and evidence as applicable |
 | “Method A improves faster than Method B.” | Dyn1 versus Dyn2 comparison, baseline and other windows, effort parity, hidden costs, and no causal or universal superiority | G.9 and C.16; C.28 only for causal use |
 | Equal final scores | adaptation window, effort parity, rework, validity, and recovery may still differ | G.9 |
 | “Velocity improved after becoming the target.” | measure, target pressure, actual Work change, gaming or selection, causal claim if any, and proxy divergence remain separate | C.16, E.13, C.28 when causal; C.26 only for residual QL |
@@ -164,7 +166,7 @@ Cross-bearer coupling is absent because the claim does not rely on synchronizati
 | “More data, reviewers, tokens, calls, or capacity doubles improvement.” | scale variable, scale window, probes, elasticity, and parity are missing | C.18.1 and G.9 |
 | “Release velocity rose while service demand and recovery time worsened.” | acceleration, braking, recovery, hidden cost, and unsupported improvement claim remain visible | C.26.3, C.25, and direct harm, safety, or assurance patterns |
 | “We can halve review time for this regulated release.” | temporal action and window do not establish safety, legality, quality, or release permission | direct legal, quality, safety, gate, and assurance patterns |
-| “The process is agile.” | recover the actual local head before treating agility as a temporal claim | A.6.P first; C.27 only if braking, redirection, or rate change is current |
+| “The process is agile.” | recover the local head before treating agility as a temporal claim | A.6.P first; C.27 only if braking, redirection, or rate change is current |
 | “This chapter accelerates orientation.” | ordinary explanatory prose | no C.27 record unless used for a decision, comparison, promise, or intervention claim |
 | Dashboard, probe, token, or active-sensing wording | ordinary measurement and use questions remain primary | C.16, planning, evidence, control; C.26 only for a residual QL cue |
 

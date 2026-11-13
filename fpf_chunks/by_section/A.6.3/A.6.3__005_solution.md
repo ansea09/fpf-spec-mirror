@@ -6,12 +6,12 @@ section_id: "A.6.3:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3/A.6.3__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.3 — Episteme viewing - EntityOfConcern-preserving episteme construction"
   - "A.6.3:4 — Solution"
-line_start: 17645
-line_end: 17751
+line_start: 18470
+line_end: 18576
 dependencies:
   - "A.13"
   - "A.15.1"
@@ -32,40 +32,40 @@ keywords:
 
 ### A.6.3:4 - Solution
 
-**Local mantra.** Identify X and Y. Hold their EntityOfConcern fixed. State the conservative construction and admitted loss. Add exact correspondence dependencies when used. Test `U.View` membership separately under E.17.0 only when the receiving use needs that membership.
+**Local mantra.** Identify X and Y. Hold their EntityOfConcern fixed. State the conservative construction and admitted loss. Add correspondence dependencies when used. Test `U.View` membership separately under E.17.0 only when the receiving use needs that membership.
 
 #### A.6.3:4.1 - Identify both epistemes independently
 
 Before declaring a viewing, recover for each of X and Y under C.2.1:
 
-- exact claim content;
-- exact EntityOfConcern;
+- claim content;
+- EntityOfConcern;
 - effective interpretation rules, identified under C.2.1:4.1.1 (`ReferenceScheme`).
 
 X and Y are separate epistemes whenever one of those identity discriminators differs. A filename, table, diagram, query result, `viewpointRef`, or publication form is not a substitute for either identity.
 
-If the supposed receiving item has no recoverable claim content or EntityOfConcern, stop: the receiving episteme has not been identified. If the exact EntityOfConcern differs, use A.6.4 retargeting rather than A.6.3.
+If the supposed receiving item has no recoverable claim content or EntityOfConcern, stop: the receiving episteme has not been identified. If the EntityOfConcern differs, use A.6.4 retargeting rather than A.6.3.
 
 #### A.6.3:4.2 - Declare the viewing construction
 
-A.6.3 viewing is a preserve-mode specialization of A.6.2's local effect-free arrow class, subject to the viewing construction and laws below. In the selected formal substrate, one viewing arrow is written `v : X -> Y` and has exact source episteme X and exact receiving episteme Y.
+A.6.3 viewing is a preserve-mode specialization of A.6.2's local effect-free arrow class, subject to the viewing construction and laws below. In the selected formal substrate, one viewing arrow is written `v : X -> Y` and has source episteme X and receiving episteme Y.
 
 The reusable A.6.0 declaration describes the admitted local arrow family, rather than turning one arrow or endpoint pair into a kind:
 
 ```text
 SubjectKind      = local A.6.2 EpMorphism type restricted to preserve-mode viewing arrows
-RangedValueKind = admitted ordered-pair range over exact U.Episteme values satisfying the declared endpoint-kind constraints
-ResultKind       = omitted; v is the declared subject and Y is its exact receiving endpoint
+RangedValueKind = admitted ordered-pair range over U.Episteme values satisfying the declared endpoint-kind constraints
+ResultKind       = omitted; v is the declared subject and Y is its receiving endpoint
 Applicability    = selected formal substrate, admitted endpoint kinds, viewing-rule conditions, and preserve mode
 ```
 
-`EpMorphism` is a local mathematical type in the selected substrate, not a durable FPF U-kind. The arrow records the declared construction from X to Y. Section 4.6 separately governs an account of its actual execution.
+`EpMorphism` is a local mathematical type in the selected substrate, not a durable FPF U-kind. The arrow records the declared construction from X to Y. Section 4.6 separately governs an account of its execution.
 
-A concrete viewing declaration states:
+A viewing declaration states:
 
-1. exact X and exact Y;
+1. X and Y;
 2. that `EntityOfConcern(X)=EntityOfConcern(Y)`;
-3. the claim-content construction from X and any additional exact sources to Y;
+3. the claim-content construction from X and any additional named sources to Y;
 4. how the source and receiving reference schemes are related;
 5. preserved claim components, admitted omissions or losses, and prohibited strengthening;
 6. applicability conditions and any fixed configuration needed for replay.
@@ -76,7 +76,7 @@ A separate assertion says whether this arrow supports one named receiving use an
 
 For every admitted `v : X -> Y`:
 
-1. **Same EntityOfConcern.** X and Y designate the same exact EntityOfConcern. Similar labels, bridge claims, or one shared project do not establish this equality.
+1. **Same EntityOfConcern.** X and Y designate the same EntityOfConcern. Similar labels, bridge claims, or one shared project do not establish this equality.
 2. **No unsupported strengthening.** Every claim in Y is recoverable as a consequence, conservative re-expression, or explicitly admitted aggregation of claims in the identified sources under the declared reference and representation semantics. This includes claims about the EntityOfConcern and any asserted correspondence, evidence or evaluation facts.
 3. **Declared loss.** Every omitted concern or claim family that affects receiving use is named, together with the condition under which the loss is admitted.
 4. **Reference discipline.** A changed effective reference scheme is explicit. If the change alters available operations or representation semantics, use A.6.3.RT; apply C.29 when the transition uses a declared mathematical lens. Do not call such a change formatting.
@@ -88,7 +88,7 @@ Truth of source claims is a separate evaluation. Conservativity says what Y is l
 
 #### A.6.3:4.4 - Keep optional viewpoint selection and view membership separate
 
-For the current use of receiving episteme Y, name the describing use and exact viewpoint P only when that selection changes what the receiver reads or checks. Keep Y, its EntityOfConcern, the use, and P distinct. Selecting P is outside C.2.1 identity and does not make E.17.0 conformance obtain.
+For the current use of receiving episteme Y, name the describing use and viewpoint P only when that selection changes what the receiver reads or checks. Keep Y, its EntityOfConcern, the use, and P distinct. Selecting P is outside C.2.1 identity and does not make E.17.0 conformance obtain.
 
 After Y is identified, apply E.17.0 only when the current use needs `U.View` membership:
 
@@ -101,21 +101,21 @@ Directly authored Y can qualify as a view without establishing an A.6.3 source-t
 
 #### A.6.3:4.5 - Distinguish direct and correspondence-mediated construction
 
-**Direct viewing.** Y is constructed from X and fixed configuration only. The declaration names the exact claim selection or rewriting rule and any loss. No generic correspondence object is required.
+**Direct viewing.** Y is constructed from X and fixed configuration only. The declaration names the claim selection or rewriting rule and any loss. No generic correspondence object is required.
 
-**Correspondence-mediated viewing.** Y depends on several exact source epistemes or on exact relations between their claim-bearing contents. Recover each direct correspondence, realization, trace, equivalence, or consistency relation under its governing pattern before using it. Then identify the C.2.1 episteme that states or describes those relations if the construction must cite it.
+**Correspondence-mediated viewing.** Y depends on several source epistemes or on relations between their claim-bearing contents. Recover each direct correspondence, realization, trace, equivalence, or consistency relation under its governing pattern before using it. Then identify the C.2.1 episteme that states or describes those relations if the construction must cite it.
 
-Plain `correspondence model` may name that claim-bearing episteme for convenience. It is not a public `U.CorrespondenceModel` kind. A graph edge or table cell may state or support a correspondence claim; its mere presence does not establish that the relation obtains. Judge the content and any evidence under the relation's governor and A.10. If a needed relation lacks a governor, return the missing-relation blocker or use A.6.RCD.
+Plain `correspondence model` may name that claim-bearing episteme. It is not a public `U.CorrespondenceModel` kind. A graph edge or table cell may state or support a correspondence claim; its presence does not establish that the relation obtains. Judge the content and any evidence under the relation's governor and A.10. If a needed relation lacks a governor, return the missing-relation blocker or use A.6.RCD.
 
-The viewing declaration cites the exact source epistemes and exact correspondence claims on which Y depends. If Y asserts facts about a correspondence episteme, evidence, or evaluation result, those assertions belong to Y's claim content and follow C.2.1's identity rule. The cited objects remain independently identified, and the assertions still require the support specified by the viewing law.
+The viewing declaration cites the source epistemes and correspondence claims on which Y depends. If Y asserts facts about a correspondence episteme, evidence, or evaluation result, those assertions belong to Y's claim content and follow C.2.1's identity rule. The cited objects remain independently identified, and the assertions still require the support specified by the viewing law.
 
 #### A.6.3:4.6 - Keep mathematical construction, work, production, and publication distinct
 
-Describe querying, rewriting, modeling or rendering in ordinary practitioner terms. When the account claims a particular dated `U.Work` occurrence, establish its A.13 basis and A.15.1 admission; identify the system that performed the work and the method it used. The source epistemes, parameters, tools, and receiving entities participate only through their direct relations or A.6.1 operation bindings.
+Describe querying, rewriting, modeling or rendering in ordinary practitioner terms. When the account claims a dated `U.Work` occurrence, establish its A.13 basis and A.15.1 admission; identify the system that performed the work and the method it used. The source epistemes, parameters, tools, and receiving entities participate only through their direct relations or A.6.1 operation bindings.
 
-If that work first constitutes exact episteme Y and the identity-inception claim matters, A.15.PROD governs the local work/change/identity claim. Neither work nor inception establishes conservativity or E.17.0 conformance.
+If that work first constitutes episteme Y and the identity-inception claim matters, A.15.PROD governs the local work/change/identity claim. Neither work nor inception establishes conservativity or E.17.0 conformance.
 
-If Y is made available, E.24.PUB separately identifies the publication occurrence, particular expression, any selected reusable publication form, and independently identified carrier whose actual state or realization yields that expression. Publication neither creates the A.6.3 construction nor grants `U.View` membership.
+If Y is made available, E.24.PUB separately identifies the publication occurrence, expression, any selected reusable publication form, and independently identified carrier whose state or realization yields that expression. Publication neither creates the A.6.3 construction nor grants `U.View` membership.
 
 #### A.6.3:4.7 - Preserve composition and replay
 
@@ -124,10 +124,10 @@ The selected formal substrate supplies the identities, admitted compositions, an
 - identity viewing preserves the same C.2.1 episteme;
 - composing `f : X -> Y` with `g : Y -> Z` gives the admitted composite `compose(g,f) : X -> Z` under A.6.2 P3;
 - if a separately declared construction operation is deterministic, replay with the same admitted inputs yields the same receiving C.2.1 identity discriminators;
-- random seeds, model editions, external service state, or timing that can change Y are explicit inputs to the work or declaration, not hidden meta;
+- random seeds, model editions, external service state, or timing that can change Y are explicit inputs to the work or declaration;
 - a normalization repeat claim identifies `n_X : X -> Y` and the next arrow `n_Y : Y -> Z`, establishes `Z = Y` under C.2.1, and witnesses `compose(n_Y,n_X) ≃ n_X` under the declared arrow equivalence. One `X -> Y` arrow is self-composable only when X = Y.
 
-A composition requires the exact middle episteme to match. A claim that two routes yield the same receiving episteme requires equality of all three C.2.1 identity discriminators; representation equivalence alone does not establish that identity. The repeat claim requires a fixture or proof under A.6.2 P4.
+A composition requires the middle episteme to match. A claim that two routes yield the same receiving episteme requires equality of all three C.2.1 identity discriminators; representation equivalence alone does not establish that identity. The repeat claim requires a fixture or proof under A.6.2 P4.
 
 #### A.6.3:4.8 - Stop at the lightest sufficient statement
 

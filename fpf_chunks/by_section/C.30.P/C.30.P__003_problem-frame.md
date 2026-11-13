@@ -6,12 +6,12 @@ section_id: "C.30.P:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.P/C.30.P__003_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.30.P — Clarify Architecture and Structure Wording (Precision Restoration)"
   - "C.30.P:1 — Problem frame"
-line_start: 72800
-line_end: 72821
+line_start: 75918
+line_end: 75939
 dependencies:
   - "A.10"
   - "A.15"

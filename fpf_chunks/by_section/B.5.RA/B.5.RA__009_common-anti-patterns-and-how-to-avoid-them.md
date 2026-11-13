@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.5.RA"
-pattern_title: "Recover an Argument for Its Next Use"
+pattern_title: "Recover an Argument for Use"
 section_id: "B.5.RA:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.RA/B.5.RA__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "B.5.RA — Recover an Argument for Its Next Use"
+  - "B.5.RA — Recover an Argument for Use"
   - "B.5.RA:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 48212
-line_end: 48225
+line_start: 50230
+line_end: 50243
 dependencies:
   - "B.5"
   - "B.5.MPC"
@@ -25,12 +25,12 @@ keywords:
 
 ### B.5.RA:8 - Common Anti-Patterns and How to Avoid Them
 
-| Failure in the working situation | Repair |
+| Failure in the situation | Repair |
 | --- | --- |
-| Choosing a scheme from a keyword or title and supplying its absent premises | Match the actual claims; recover contextual evidence for an implicit premise or revise the scheme. |
+| Choosing a scheme from a keyword or title and supplying its absent premises | Match the claims; recover contextual evidence for an implicit premise or revise the scheme. |
 | Splitting a conditional into two asserted facts | Keep the conditional relation intact and obtain a separate ground for its antecedent before using it. |
 | Making a charitable repair indistinguishable from the source's argument | State which additions have contextual support and which are your new grounds or proposed revision. |
-| Paraphrasing successive claims while the inference remains missing | Apply the relevant definition, rule or earlier result to the transition's actual premises. |
+| Paraphrasing successive claims while the inference remains missing | Apply the relevant definition, rule or earlier result to the transition's premises. |
 | Checking local steps while failing to explain why a lemma or construction appears | Recover the difficulty that contribution resolves and connect it to the conclusion. |
 | Treating several uses of one premise as several independent grounds | Keep the common prerequisite visible and examine its role in the needed branches. |
 | Promoting a temporary assumption to an established premise | Recover the subargument and the conclusion obtained when that assumption is discharged. |

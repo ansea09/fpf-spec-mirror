@@ -6,12 +6,12 @@ section_id: "E.16:9"
 section_title: "Mini conformance checklist (cross-E-F; author's quick use)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.16/E.16__010_mini-conformance-checklist-cross-e-f-author-s-quick-use.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.16 — RoC‑Autonomy Budget & Enforcement"
   - "E.16:9 — Mini conformance checklist (cross-E-F; author's quick use)"
-line_start: 106076
-line_end: 106086
+line_start: 112563
+line_end: 112573
 dependencies:
   - "A.10"
   - "A.13"
@@ -51,12 +51,12 @@ keywords:
 
 ### E.16:9 - Mini conformance checklist (cross-E-F; author's quick use)
 
-1. **Declare the boundary:** name the autonomy claim, consumer local kind, working situation, policy, ClaimScope, window, budget, override-authority kind, and exact A.2.7 incompatibility relation.
+1. **Declare the boundary:** name the autonomy claim, consumer local kind, working situation, policy, ClaimScope, window, budget, override-authority kind, and A.2.7 incompatibility relation.
 2. **Identify the proposed action:** keep an unscheduled budget prospective; use action-bound for a scheduled action, its work-entry claim, real assignments/holders and independent authority. Apply the declared action identity and continuation rule.
 3. **Gate permission to start:** apply the appropriate prospective allocation test, budget and guards to the bounded action. Recheck permission-relevant changes. A pass is not performed Work.
-4. **Record actual Work:** after independent A.15.1 admission, emit the Work-anchored ledger entry, attribution and actual delta; relate it to prior permission through the exact policy-supported action match.
+4. **Record actual Work:** after independent A.15.1 admission, emit the Work-anchored ledger entry, attribution and actual delta; relate it to prior permission through the policy-supported action match.
 5. **Check override separately:** distinguish the existing target Work from the proposed override; apply the selected actual-Work or prospective-action species to the real assignments and applicable window, and independently test authority before performance.
 6. **Publish what users need:** expose the budget edition, binding state, policy, override protocol, scope, and window in the UTS row.
 
-Optional telemetry and selection lenses remain optional.
+Telemetry and selection lenses are optional.
 

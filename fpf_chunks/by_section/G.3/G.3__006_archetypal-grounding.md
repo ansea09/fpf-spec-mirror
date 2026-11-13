@@ -6,12 +6,12 @@ section_id: "G.3:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.3/G.3__006_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.3 — CHR Authoring for a CG‑Frame: Characteristics, Scales, Levels, Coordinates"
   - "G.3:5 — Archetypal Grounding"
-line_start: 128554
-line_end: 128581
+line_start: 136605
+line_end: 136632
 dependencies:
   - "A.10"
   - "A.15.2"
@@ -61,7 +61,7 @@ keywords:
 ### G.3:5 - Archetypal Grounding
 
 **AG‑1 — ML fairness auditing.**
-*System:* a CG‑Frame for evaluating deployed classifiers across cohorts with explicit abstention/defer behavior.
+*System:* deployed classifiers evaluated across cohorts in a CG‑Frame that makes abstention or deferral explicit.
 *CHR authoring:* publish `DemographicParityGap` and `EqualizedOddsGap` as Characteristics with:
 
 * explicit ReferencePlane, with deployment population and sampling regime recorded separately as scope and protocol conditions,
@@ -73,7 +73,7 @@ keywords:
 *Downstream:* CAL acceptance binds thresholds and failure behavior; selector remains set‑returning under partial orders and may treat “defer/abstain” as a first‑class outcome (tri‑state semantics pinned through `G.Core`).
 
 **AG‑2 — Clinical diagnostics.**
-*System:* a CG‑Frame for comparing diagnostic pipelines under evolving datasets and protocols.
+*System:* diagnostic pipelines compared in a CG‑Frame as datasets and protocols evolve.
 *CHR authoring:* publish `Sensitivity` and `Specificity` as ratio‑scale, dimensionless Characteristics on `[0,1]`, with:
 
 * explicit `ObservableOf` (trial protocol, inclusion criteria, uncertainty model),
@@ -83,6 +83,6 @@ keywords:
 *Downstream:* CAL acceptance governs thresholds and guard-bands; source/proof/measurement references, including G.6 paths when used, identify the basis to reconsider after a relevant change.
 
 **AG‑3 — Quality‑Diversity / Illumination (MAP-Elites/CMA-ME lineage).**
-*System:* a CG-Frame that uses a QD archive or front as the source for a declared set-result outcome under G.5.
+*System:* a quality-diversity search system supplies an archive or front. In the CG-Frame, that set is the source for a declared set-result outcome under `G.5`.
 *CHR authoring:* declare which Characteristics play Q/D/QD‑score roles and pin the metric definitions (descriptor map, distance definition, method editions) so archives are reproducible across runs and refresh can be triggered on edition changes. CHR does not scalarize partial orders; set‑return semantics are pinned through `G.Core`.
 

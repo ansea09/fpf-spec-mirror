@@ -6,12 +6,12 @@ section_id: "C.21:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:intro — Intro"
-line_start: 62566
-line_end: 62572
+line_start: 65115
+line_end: 65121
 dependencies:
   - "A.10"
   - "A.17-A.18"
@@ -51,5 +51,5 @@ keywords:
 > **Status:** Stable
 > **Type:** Pattern
 
-> *Purpose.* Give FPF a typed, reviewable way to characterize the health, maturity, and structure of a scientific or engineering discipline without collapsing the result into taste, anecdotes, a dashboard view, an audit label, or one score. C.21 defines discipline-health Characteristics and the conditions under which their readings may be compared. It does not make a dashboard, publication, record, or Work occurrence part of the discipline.
+> *Purpose.* Characterize the health, maturity, and structure of a scientific or engineering discipline in a typed, reviewable way, without collapsing the result into taste, anecdotes, a dashboard view, an audit label, or one score. C.21 defines discipline-health Characteristics and the conditions under which their readings may be compared. It does not make a dashboard, publication, record, or Work occurrence part of the discipline.
 

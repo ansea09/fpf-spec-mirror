@@ -6,12 +6,12 @@ section_id: "C.3.1:7"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__009_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.3.1 — Kind Identity and Subkind Relations (U.Kind and U.SubkindOf)"
   - "C.3.1:7 — Archetypal Grounding"
-line_start: 55325
-line_end: 55339
+line_start: 57611
+line_end: 57625
 dependencies:
   - "A.1"
   - "A.11"
@@ -54,6 +54,6 @@ keywords:
 | Pump #14 changes state in a later plant slice. | Re-evaluate the admissible candidate and allow the extension to change. | Candidate-state change alone does not create a kind, signature, or relation occurrence. |
 | `InspectionWorkKind` is used locally. | Classify only an independently identified `W : U.Work`. | `U.Work`, a plan, or a log row cannot occupy W's candidate position. |
 | `WorkPlan` depends on Work. | Use the governing work or E.24.UK relation. | Do not encode dependency as `U.SubkindOf`. |
-| `SafetyCriticalFunctionKind` is proposed as a subkind of `FunctionKind`. | First recover both function senses under A.6.F, then use exact criterion entailment or the deliberately closed-domain branch. | The word *function*, a risk label, or current examples establish neither the kinds nor the subkind fact; another public `U.*` name still requires E.24.UK. |
+| `SafetyCriticalFunctionKind` is proposed as a subkind of `FunctionKind`. | First recover both function senses under A.6.F, then use exact criterion entailment or the deliberately closed-domain branch. | The word *function*, a risk label, or current examples establish neither the kinds nor the subkind fact; another public `U.*` name requires E.24.UK. |
 | A project proposes public `U.CoolingPump`. | Take the recovered kind to `E.24.UK`, then apply naming patterns if admitted. | Local typed use and `U.SubkindOf` do not admit or publish another durable kind. |
 

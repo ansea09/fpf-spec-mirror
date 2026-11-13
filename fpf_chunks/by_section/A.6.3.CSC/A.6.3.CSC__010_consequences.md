@@ -6,12 +6,12 @@ section_id: "A.6.3.CSC:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CSC/A.6.3.CSC__010_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.3.CSC — Controlled Semantic Coarsening: Shorten an Account for a Bounded Use"
   - "A.6.3.CSC:9 — Consequences"
-line_start: 18108
-line_end: 18115
+line_start: 18949
+line_end: 18956
 dependencies:
   - "A.15"
   - "A.20"
@@ -35,6 +35,6 @@ keywords:
 | Benefits | Trade-offs and mitigations |
 | --- | --- |
 | Cheap coarsened renderings stay admissible because the source, admissible use, loss, non-admissible use, and reopen path remain visible. | Authors must compare the candidate with its source. The optional mini-card helps when the receiving use needs an inspectable account of that comparison. |
-| Neighboring patterns can cite one common coarsening-boundary account instead of repeating partial local doctrine. | Readers must still use the pattern or exact authority source that defines or tests the primary downstream claim. The neighboring-boundary table and bad-fit examples keep that disposition inspectable. |
-| Load-bearing coarsening becomes reviewable without making every summary a full assurance object. | In high-risk cases the assurance record can grow. The use-specific field rule keeps growth tied to real risk. |
+| Neighboring patterns can cite one common coarsening-boundary account instead of repeating partial local doctrine. | Readers must still use the pattern or authority source that defines or tests the primary downstream claim. The neighboring-boundary table and bad-fit examples keep that disposition inspectable. |
+| Load-bearing coarsening becomes reviewable without making every summary a full assurance object. | In high-risk cases the assurance record can grow. The use-specific field rule keeps growth tied to risk. |
 

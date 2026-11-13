@@ -6,12 +6,12 @@ section_id: "E.3:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.3/E.3__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.3 — Principle Taxonomy, Precedence and Agent Autonomy Profiles (ABL)"
   - "E.3:4 — Solution"
-line_start: 92984
-line_end: 93021
+line_start: 97517
+line_end: 97554
 dependencies:
   - "E.1"
   - "E.2"
@@ -48,7 +48,7 @@ keywords:
 
  #### E.3:4.2 - **Precedence Stack**
 
-Each precedence node is an exact applicable pillar, derived principle, guard or assurance requirement, or local policy. The table identifies its source level; it does not rank every sentence in one file above every sentence in another. In particular, level 1 is the Eleven Pillars, not the entire E.2 file.
+Each precedence node is an applicable pillar, derived principle, guard or assurance requirement, or local policy. The table identifies its source level; it does not rank every sentence in one file above every sentence in another. In particular, level 1 is the Eleven Pillars, not the entire E.2 file.
 
    | Level | Governing Artefact                    | Overrides        |
    | ----- | ------------------------------------- | ---------------- |
@@ -61,7 +61,7 @@ Each precedence node is an exact applicable pillar, derived principle, guard or 
 **Default class order.** Identify the applicable rules and their source levels. Within the higher-rule boundaries, apply any explicit priority governing this pair. Only an otherwise unresolved conflict uses the default class order:
 `Gov ≫ Arch ≫ Epist ≫ Prag ≫ Did`
 
-**Unresolved conflict.** These relations form a partial order. Two incompatible applicable rules may remain tied or incomparable after the source-level, explicit-priority and class comparisons. Return that exact pair, the shared action and applicability conditions, and **hold the dependent action**. Unrelated actions remain governed by their own applicable rules. Acyclicity does not guarantee a winner.
+**Unresolved conflict.** These relations form a partial order. Two incompatible applicable rules may remain tied or incomparable after the source-level, explicit-priority and class comparisons. Return that pair, the shared action and applicability conditions, and **hold the dependent action**. Unrelated actions remain governed by their applicable rules. Acyclicity does not guarantee a winner.
 
 To resolve the hold, refer the pair to the authority empowered to amend the affected rules or their priority under their governing change process. That authority may adopt a priority or amend a rule's scope. Record the rationale, affected scope, Pillar Impact Analysis and edge effects under E.9; an exception also retains its required expiry. The DRR records the decision and does not itself authorize the change. Apply the resolution only after the necessary authorization, retaining higher-rule constraints and the graph rule below.
 

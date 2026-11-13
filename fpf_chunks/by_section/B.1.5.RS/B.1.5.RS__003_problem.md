@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.1.5.RS"
-pattern_title: "Evaluate a Constituent Method Replacement in Its Encompassing Uses"
+pattern_title: "Evaluate a Method Replacement in Its Encompassing Uses"
 section_id: "B.1.5.RS:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5.RS/B.1.5.RS__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "B.1.5.RS — Evaluate a Constituent Method Replacement in Its Encompassing Uses"
+  - "B.1.5.RS — Evaluate a Method Replacement in Its Encompassing Uses"
   - "B.1.5.RS:2 — Problem"
-line_start: 42754
-line_end: 42759
+line_start: 44460
+line_end: 44465
 dependencies:
   - "A.3.1"
   - "B.1.5"
@@ -26,5 +26,5 @@ keywords:
 
 Local adequacy does not establish substitutability. The whole can depend on output meaning, intermediate interactions, order, timing, recoverability or resource demand that a local comparison omitted. A shared constituent can satisfy one whole and fail another.
 
-The opposite failure is to demand that every internal detail remain identical. This prevents useful replacement even when the receiving work does not depend on that detail. The preservation question must come from the actual use.
+The opposite failure is to demand that every internal detail remain identical. This prevents useful replacement even when the receiving work does not depend on that detail. The preservation question must come from the use.
 

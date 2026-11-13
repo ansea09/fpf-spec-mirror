@@ -6,12 +6,12 @@ section_id: "A.2.7:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.7/A.2.7__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.2.7 — SystemRoleKindRelationStructure - Relations among System-Role Kinds"
   - "A.2.7:6 — Conformance Checklist"
-line_start: 8035
-line_end: 8057
+line_start: 8368
+line_end: 8390
 dependencies:
   - "A.2"
   - "A.2.1"
@@ -34,21 +34,21 @@ keywords:
 
 | Check | Question |
 |---|---|
-| `CC-A2.7-01` | For a direct question, are the exact relation kind or `C.3.1 U.SubkindOf`, participant kinds and predicate recoverable, with an occurrence identified only when obtaining and identity are established? For a dependent `SystemRoleKindRelationStructure`, are its exact kind constituents, selected obtaining relation occurrences, applied constraint claims and named selection-use frame recoverable? |
-| `CC-A2.7-02` | Are all individual kind-slot values and all members of the bundle set exact context-local system-role kinds? |
-| `CC-A2.7-03` | Does each direct context-local species declare exact SlotSpec ValueKinds and one by-value predicate? |
-| `CC-A2.7-04` | Does the predicate state the actual receiving, incompatibility, allocation, or residual-restriction rule, applicability, and only meaning-changing semantic basis? |
+| `CC-A2.7-01` | For a direct question, are the relation kind or `C.3.1 U.SubkindOf`, participant kinds and predicate recoverable, with an occurrence identified only when obtaining and identity are established? For a dependent `SystemRoleKindRelationStructure`, are its kind constituents, selected obtaining relation occurrences, applied constraint claims and named selection-use frame recoverable? |
+| `CC-A2.7-02` | Are all individual kind-slot values and all members of the bundle set context-local system-role kinds? |
+| `CC-A2.7-03` | Does each direct context-local species declare SlotSpec ValueKinds and one by-value predicate? |
+| `CC-A2.7-04` | Does the predicate state the receiving, incompatibility, allocation, or residual-restriction rule, applicability, and only meaning-changing semantic basis? |
 | `CC-A2.7-05` | Are system-role-taxonomy and scheme epistemes absent as generic participants and included in predicate identity only when they change meaning? |
 | `CC-A2.7-06` | Is relation obtaining distinct from assertion, evidence, identifier, publication, representation, and receiving-check outcome? |
 | `CC-A2.7-07` | Is substitution directional, incompatibility symmetric, and bundle membership order-insensitive? |
-| `CC-A2.7-08` | Does incompatibility name its exact species, holder rule, applicability and temporal test, with the actual-Work identity condition or the separately declared prospective-action identity/continuation condition of §4.3? Are actual assignments and the proposed action receiving inputs rather than new kind-relation participants? |
+| `CC-A2.7-08` | Does incompatibility name its species, holder rule, applicability and temporal test, with the actual-Work identity condition or the separately declared prospective-action identity/continuation condition of §4.3? Are actual assignments and the proposed action receiving inputs rather than new kind-relation participants? |
 | `CC-A2.7-09` | Does a bundle state its joint-admission and holder-allocation rule without creating a compound kind? |
-| `CC-A2.7-10` | Is `U.SubkindOf` used only after independent paired judgments establish monotonicity under the exact C.3.1 basis? |
+| `CC-A2.7-10` | Is `U.SubkindOf` used only after independent paired judgments establish monotonicity under the C.3.1 basis? |
 | `CC-A2.7-11` | Does a non-monotonic restriction remain a separately predicated residual relation? |
 | `CC-A2.7-12` | When occurrence identity matters, does it use fixed kind participants, fixed predicate, and maximal continuous truth interval rather than a row, graph key, or temporal SlotSpec; and is any target evaluation window kept in the receiving assertion or check? |
 | `CC-A2.7-13` | When an edition changes, is a claim of predicate or occurrence continuity supported by the comparison in §4.6, with an unresolved comparison left unresolved? |
 | `CC-A2.7-14` | Are current assignments and A.2.5 state occurrences inputs to the receiving check rather than relation participants? |
-| `CC-A2.7-15` | When the account asserts a particular dated checking Work, are its performer, independently admitted Work, selected Method and outcome recoverable under A.13 and A.15.1, with F.6 only for precise assignment attribution? |
+| `CC-A2.7-15` | When the account asserts a dated checking Work, are its performer, independently admitted Work, selected Method and outcome recoverable under A.13 and A.15.1, with F.6 only for precise assignment attribution? |
 | `CC-A2.7-16` | Are graphs, tables, matrices, algebras, policies, taxonomies, and publications kept as descriptions, lenses, or epistemes? |
 | `CC-A2.7-17` | Does a negative, candidate, counterfactual, or unsupported claim avoid fabricating a positive occurrence reference or actual extent? |
 | `CC-A2.7-18` | Does cross-scheme use keep the Bridge, bounded-use assertion, reliance, local relation, assignment, authorization, and Work distinct? |

@@ -6,12 +6,12 @@ section_id: "C.2.LS:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.LS/C.2.LS__010_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.2.LS — Language-State Facet Profile: Publish Readings and Use Conditions Together"
   - "C.2.LS:9 — Consequences"
-line_start: 53513
-line_end: 53515
+line_start: 55744
+line_end: 55746
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -43,5 +43,5 @@ keywords:
 ---
 
 ### C.2.LS:9 - Consequences
-The benefit is clearer source and rule references: early cue work, bridge annotations, and reopen moves can all refer to one explicit facet profile. The trade-off is making the selected readings and their use conditions recoverable, including any threshold actually used.
+The benefit is clearer source and rule references: early cue work, bridge annotations, and reopen moves can all refer to one explicit facet profile. The trade-off is making the selected readings and their use conditions recoverable, including any threshold used.
 

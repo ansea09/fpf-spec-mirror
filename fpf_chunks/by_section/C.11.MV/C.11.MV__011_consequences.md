@@ -6,12 +6,12 @@ section_id: "C.11.MV:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.MV/C.11.MV__011_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.11.MV — Compare the Worth of a Method Option"
   - "C.11.MV:9 — Consequences"
-line_start: 58290
-line_end: 58295
+line_start: 60651
+line_end: 60656
 dependencies:
   - "A.3.1.FT"
   - "A.3.1.QM"
@@ -24,7 +24,7 @@ keywords:
 
 ### C.11.MV:9 - Consequences
 
-Practical-worth decisions become revisable accounts rather than Method rankings. Teams can act while retaining branch conditions, evidence gaps, and stop alternatives, and later evidence can reopen the exact comparison position that changed.
+Practical-worth decisions become revisable accounts rather than Method rankings. Teams can act while retaining branch conditions, evidence gaps, and stop alternatives, and later evidence can reopen the comparison position that changed.
 
 The cost is resisting a convenient scalar answer. Some comparisons leave several alternatives open or justify another probe, and the team must name burdens, capability and support demands, side effects, and opportunity costs that were previously hidden.
 

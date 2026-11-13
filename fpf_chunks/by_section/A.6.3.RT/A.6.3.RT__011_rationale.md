@@ -6,12 +6,12 @@ section_id: "A.6.3.RT:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT/A.6.3.RT__011_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.3.RT — Representation-Scheme Transition: Change Representation of the Same EntityOfConcern"
   - "A.6.3.RT:10 — Rationale"
-line_start: 18949
-line_end: 18954
+line_start: 19808
+line_end: 19813
 dependencies:
   - "A.1.1"
   - "A.10"

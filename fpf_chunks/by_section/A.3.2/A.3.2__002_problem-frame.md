@@ -6,12 +6,12 @@ section_id: "A.3.2:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2/A.3.2__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.3.2 — U.MethodDescription: Description Episteme for a Way of Doing"
   - "A.3.2:1 — Problem frame"
-line_start: 11470
-line_end: 11493
+line_start: 11871
+line_end: 11896
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -56,7 +56,7 @@ keywords:
 
 Use this pattern when practitioners need reusable claims about how one Method is carried out and must keep those claims distinct from the representation, publication, approval, plan, or actual Work through which the Method is discussed or enacted. In FPF terms, decide whether an already identified `U.Episteme` is a `U.MethodDescription`: whether its `EntityOfConcern` is one admitted `U.Method` and its claims say something substantive about that Method as a way of doing.
 
-**When the reusable way is still only a candidate.** A candidate account or mined behavioural model is not a `U.MethodDescription` merely because it is coherent, executable, process-shaped, or traceable to sources. Use `A.3.1.MR` when the question is recovery from performance evidence; use `A.3.1` when a candidate is ready for Method identification. Positive `U.MethodDescription` membership requires an admitted `U.Method` as that episteme's `EntityOfConcern` and at least one substantive claim about the Method as a way of doing.
+**When the reusable way is only a candidate.** A candidate account or mined behavioural model is not a `U.MethodDescription` merely because it is coherent, executable, process-shaped, or traceable to sources. Use `A.3.1.MR` when the question is recovery from performance evidence; use `A.3.1` when a candidate is ready for Method identification. Positive `U.MethodDescription` membership requires an admitted `U.Method` as that episteme's `EntityOfConcern` and at least one substantive claim about the Method as a way of doing.
 
 **Plain reading.** A method description is the knowledge object whose claims say how one identified method is done. Code, text, or a diagram may represent those claims; a publication occurrence may make an edition available.
 
@@ -68,11 +68,13 @@ Recognizable working moments include:
 
 **Object being classified.** A.3.2 examines one already identified claim-bearing `U.Episteme` candidate and judges whether that same individual belongs to the dependent kind `U.MethodDescription`. For positive membership, the candidate episteme's C.2.1 `EntityOfConcern` must resolve to one admitted `U.Method`, and at least one of its claims must concern that Method as a way of doing. The Method is the internal subject of the episteme's claims, not a second candidate and not the object being classified. A.3.2 adds neither another episteme identity nor a binary description relation.
 
-**First useful move.** Name the candidate `U.Episteme`. Check two things: its C.2.1 `EntityOfConcern` is one admitted `U.Method`, and at least one claim says how that Method is done. If both hold, the same episteme is a `U.MethodDescription`; if either condition is false, it is not. If the basis does not establish whether a condition holds, leave membership unresolved. Only then, if someone proposes a concrete further use, write that use's criterion and result as a separate subject assertion under its predicate, with an optional subject-pattern locator. Otherwise stop at membership.
+**First useful move.** Name the candidate `U.Episteme`. Check two things: its C.2.1 `EntityOfConcern` is one admitted `U.Method`, and at least one claim says how that Method is done. If both hold, the same episteme is a `U.MethodDescription`; if either condition is false, it is not. If the basis does not establish whether a condition holds, leave membership unresolved.
+
+Only then, if someone proposes a concrete further use, write that use's criterion and result as a separate subject assertion under its predicate, with an optional subject-pattern locator. Otherwise stop at membership.
 
 **What goes wrong if missed.** A visible file or diagram is classified by its form, a mere mention is mistaken for a description, or an episteme about a relation structure among several Methods is treated as if it described one composite Method. Planning, enactment, audit, and review then rely on the wrong object.
 
 **What this buys.** The project can identify, compare, revise, and reuse claims about one Method while keeping representation, publication, planned use, enactment, and evidence use distinct.
 
-**Not this pattern when.** Do not infer membership from words such as `algorithm`, `program`, `proof`, `workflow`, `process`, `procedure`, `recipe`, or `model`. Ask what the sentence actually asserts. If its `EntityOfConcern` is not an admitted `U.Method`, or it says nothing substantive about that Method as a way of doing, `U.MethodDescription` membership does not hold. Use the subject pattern for any further claim about the actual Method, selected structure, formal declaration, work plan, dated Work, evidence use, or publication use.
+**Not this pattern when.** Do not infer membership from words such as `algorithm`, `program`, `proof`, `workflow`, `process`, `procedure`, `recipe`, or `model`. Ask what the sentence asserts. If its `EntityOfConcern` is not an admitted `U.Method`, or it says nothing substantive about that Method as a way of doing, `U.MethodDescription` membership does not hold. Use the subject pattern for any further claim about the Method, selected structure, formal declaration, work plan, dated Work, evidence use, or publication use.
 

@@ -6,12 +6,12 @@ section_id: "C.32.MLAO:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MLAO/C.32.MLAO__009_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.32.MLAO — Architecture Candidates to Reduce Cross-Scope Residuals"
   - "C.32.MLAO:9 — Consequences"
-line_start: 78645
-line_end: 78654
+line_start: 82474
+line_end: 82483
 dependencies:
   - "A.10"
   - "A.19.CPM"
@@ -57,7 +57,7 @@ keywords:
 |---|---|
 | Residual-reducing architecture candidates are made explicit. | The practitioner must recover the affected scopes and structures, expected residual reduction, possible new burdens and relevant preservation or loss. Comparison or choice adds its own requirements; unresolved level or whole-reidentification wording uses `C.30.STRAT` or `B.2.P`. |
 | Optimization language is usable without carrying architecture adequacy. | No scalar selector or architecture decision is available by wording alone. |
-| Holonic breadth is preserved. | Non-software cases must still recover their selected structures and patterns for the next questions. |
+| Holonic breadth is preserved. | Non-software cases must recover their selected structures and patterns for the next questions. |
 | Residual triage and candidate framing stay distinct. | The team may need both `C.30.ILC` and C.32.MLAO. |
 | Compressed representations can guide action. | Source-return triggers must be visible when a later use needs omitted distinctions. |
 

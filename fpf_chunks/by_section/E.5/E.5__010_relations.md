@@ -6,12 +6,12 @@ section_id: "E.5:9"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5/E.5__010_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.5 — Four Guard‑Rails of FPF"
   - "E.5:9 — Relations"
-line_start: 96404
-line_end: 96415
+line_start: 101605
+line_end: 101616
 dependencies:
   - "E.2"
   - "E.3"
@@ -32,5 +32,5 @@ keywords:
 * **Depends on:**
   * `pat:constitution/pillars` (E.2)
   * `pat:constitution/principle‑taxonomy` (E.3)
-* **Constrains:** every Core, Tooling, and Pedagogy artefact; all DRRs.
+* **Constrains:** every Core, Tooling, and Pedagogy artefact and all DRRs.
 

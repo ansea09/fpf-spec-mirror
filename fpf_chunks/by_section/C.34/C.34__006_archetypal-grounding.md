@@ -6,12 +6,12 @@ section_id: "C.34:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.34/C.34__006_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.34 — Assess Structural Correspondence for Architecture Use (Equivalence and Morphisms)"
   - "C.34:5 — Archetypal Grounding"
-line_start: 80970
-line_end: 80983
+line_start: 84819
+line_end: 84848
 dependencies:
   - "A.22"
   - "A.6.3.NAR"
@@ -46,15 +46,31 @@ keywords:
 
 ### C.34:5 - Archetypal Grounding
 
-C.34 is the pattern for a declared architecture preservation claim. It is used when a practitioner says that one description, view, model, generated output, or realized observation is same enough as another for a specific architecture use. The account identifies a sufficient warranted mapping, preserved structure, direction, scope and supported use, together with any material loss or uncertainty and the concrete rule needed by further reliance.
+C.34 is the pattern for a declared architecture preservation claim. It is used when a practitioner says that one description, view, model, generated output, or realized observation is same enough as another for a specific architecture use. The account identifies a sufficient warranted mapping, preserved structure, direction, scope and supported use, together with any material loss or uncertainty and the rule needed by further reliance.
 
-View and description case. Two architecture diagrams are edge-isomorphic. In one diagram an edge means data dependency; in the other it means control authority. C.34 records mapping mode `nearSameness`, preserved node partition, lost relation-type semantics, and non-admissible use "control separation decision." Recover the relation semantics through `C.30.ASV`, `C.30.TFS-REL` or `C.30.LCA` before relying on the mapping for control separation. Its supported node-partition use remains available.
+View and description case. Two architecture diagrams are edge-isomorphic. In one diagram an edge means data dependency; in the other it means control authority. C.34 records mapping mode `nearSameness`, preserved node partition, lost relation-type semantics, and non-admissible use "control separation decision."
 
-Source model and generated graph case. A code-agent dependency graph matches module names in the model used as the source, but marks several edges inferred and several regions unexplored. C.34 records the observation class and directionality, the supported dependency correspondence, and the dynamic wiring whose preservation is still unestablished. The graph may help inspect candidate dependencies; safe-change or release reliance needs the missing structure and its applicable assurance grounds.
+Recover the relation semantics through `C.30.ASV`, `C.30.TFS-REL` or `C.30.LCA` before relying on the mapping for control separation. Its supported node-partition use remains available.
 
-Candidate and realized structure case. A candidate architecture promises that a service split preserves interface substitutability, but the realized structure adds shared storage and a hidden orchestration dependency. C.34 records preserved interface signatures, lost runtime independence, changed coupling, and a preservation-loss condition that reopens the dependent decision premise before its reuse. Use `A.6.M` for substitutability, `A.6.F` for a function or bearer question, `C.31` for changed coupling, `C.30` for the changed structure and `C.32.PAD` for the affected decision as each question requires.
+Source model and generated graph case. A code-agent dependency graph matches module names in the model used as the source, but marks several edges inferred and several regions unexplored. C.34 records the observation class and directionality, the supported dependency correspondence, and the dynamic wiring whose preservation is still unestablished.
+
+The graph may help inspect candidate dependencies; safe-change or release reliance needs the missing structure and the assurance grounds for that use.
+
+Candidate and realized structure case. A candidate architecture promises that a service split preserves interface substitutability, but the realized structure adds shared storage and a hidden orchestration dependency. C.34 records preserved interface signatures, lost runtime independence, changed coupling, and a preservation-loss condition that reopens the dependent decision premise before its reuse.
+
+Use `A.6.M` for substitutability, `A.6.F` for a function or bearer question, `C.31` for changed coupling, `C.30` for the changed structure and `C.32.PAD` for the affected decision as each question requires.
 
 Neural substitution case. A candidate replaces an attention block with an SSM block. C.34 asks which selected structures are preserved: sequence dataflow, routing interface, memory access, latency envelope, training resource boundary, or inference resource boundary. Shape sameness or benchmark improvement does not by itself preserve the architecture relation needed by the next claim.
 
-Selected source structure and narrative structure case. An architecture narrative orders a candidate set as "pressure, alternative, trade-off, decision, residual." C.34 records mapping mode `correspondence`, preserved structure `candidate alternative and selected trade-off relation`, lost structure `full Pareto-front detail and rejected-candidate evals`, directionality `selected source structure to narrative only`, and admissible use `team orientation and decision memory`. The narrative order is not exact equivalence and does not license implementation, evidence, or assurance use without the rule that defines or tests that downstream claim.
+Selected source structure and narrative structure case. An architecture narrative orders a candidate set as "pressure, alternative, trade-off, decision, residual." C.34 records:
+
+| Aspect | Value |
+| --- | --- |
+| Mapping mode | `correspondence` |
+| Preserved structure | `candidate alternative and selected trade-off relation` |
+| Lost structure | `full Pareto-front detail and rejected-candidate evals` |
+| Directionality | `selected source structure to narrative only` |
+| Admissible use | `team orientation and decision memory` |
+
+The narrative order is not exact equivalence and does not license implementation, evidence, or assurance use without the rule that defines or tests that downstream claim.
 

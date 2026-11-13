@@ -6,12 +6,12 @@ section_id: "C.16:4"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__005_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:4 — Forces"
-line_start: 58627
-line_end: 58634
+line_start: 60998
+line_end: 61005
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -56,7 +56,7 @@ keywords:
 ### C.16:4 - Forces
 
 - **Interpretability vs convenience.** A compact value is easy to carry; a usable result needs its measurand, Characteristic, Scale, model, calibration, uncertainty, and time stance.
-- **Model dependence vs objectivity rhetoric.** Measurement may use corrections, calibration coefficients, influence quantities, and inference. Hiding them does not make the result more direct.
+- **Model dependence.** Measurement may use corrections, calibration coefficients, influence quantities, and inference. Omitting them from an account leaves those dependencies unchanged.
 - **Cross-domain reuse vs scale coercion.** Physics, software quality, architecture, survey, and judging cases need common discipline without one common scale.
 - **Repeatability vs occurrence identity.** A reusable method and operation declaration do not establish that measurement work occurred or that actual participants were bound.
 - **Result vs later interpretation.** A value attributed to a measurand is not by itself a diagnosis, conformance verdict, causal conclusion, assurance claim, or decision.

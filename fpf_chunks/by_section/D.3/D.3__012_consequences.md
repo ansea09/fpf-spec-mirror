@@ -6,12 +6,12 @@ section_id: "D.3:7"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.3/D.3__012_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "D.3 — Describe an Ethical Conflict Across Levels or Scopes"
   - "D.3:7 — Consequences"
-line_start: 92004
-line_end: 92007
+line_start: 96502
+line_end: 96505
 dependencies:
   - "A.1"
   - "A.10"

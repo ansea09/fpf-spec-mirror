@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.15.10"
-pattern_title: "Resume Interrupted Work"
+pattern_title: "Resume Work"
 section_id: "A.15.10:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.10/A.15.10__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.15.10 — Resume Interrupted Work"
+  - "A.15.10 — Resume Work"
   - "A.15.10:3 — Forces"
-line_start: 32464
-line_end: 32474
+line_start: 33786
+line_end: 33796
 dependencies:
   - "A.15"
   - "A.15.5"
@@ -31,7 +31,7 @@ keywords:
 
 | Need | Difficulty |
 | --- | --- |
-| Preserve the point of the work | The current position can survive after its purpose or governing method has been lost. |
+| Preserve the point of the work | The position can survive after its purpose or governing method has been lost. |
 | Keep preparation small | A complete history can be more expensive to create and read than a bounded reconstruction. |
 | Use current conditions | A faithful old note can be wrong about what is available now. |
 | Transfer work | The recipient may have different capabilities, access and responsibilities. |

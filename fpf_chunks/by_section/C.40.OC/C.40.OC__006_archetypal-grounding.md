@@ -6,12 +6,12 @@ section_id: "C.40.OC:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OC/C.40.OC__006_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.40.OC — Characterize a Subject for a Possible Change"
   - "C.40.OC:5 — Archetypal Grounding"
-line_start: 86893
-line_end: 86916
+line_start: 91127
+line_end: 91150
 dependencies:
   - "C.11.CRC"
   - "C.16"
@@ -38,7 +38,7 @@ Lead time has a lower-is-better quantity scale under a stated window; team auton
 
 #### C.40.OC:5.3 - AI arrangement and configuration identity
 
-A team wants to “improve the model.” The actual subject is a model edition with a retrieval corpus, tool permissions, evaluator, human escalation path, and operating environment. Selected characteristics include task success under the declared evaluation, false-action rate, explanation adequacy, data exposure, escalation latency, compute use, operator workload, and robustness to changed inputs.
+A team wants to “improve the model.” The subject is a model edition with a retrieval corpus, tool permissions, evaluator, human escalation path, and operating environment. Selected characteristics include task success under the declared evaluation, false-action rate, explanation adequacy, data exposure, escalation latency, compute use, operator workload, and robustness to changed inputs.
 
 A benchmark from the bare model does not characterize the deployed arrangement. Human learning evidence does not establish model adaptation. The next question is whether the current evaluation covers the intended tool-enabled configuration and protected safety/security conditions.
 

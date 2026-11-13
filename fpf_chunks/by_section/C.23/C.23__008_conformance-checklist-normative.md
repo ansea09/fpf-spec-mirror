@@ -6,12 +6,12 @@ section_id: "C.23:7"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.23/C.23__008_conformance-checklist-normative.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.23 — MethodFamily Evidence & Maturity (Method‑SoS‑LOG)"
   - "C.23:7 — Conformance Checklist (normative)"
-line_start: 64531
-line_end: 64550
+line_start: 67358
+line_end: 67377
 dependencies:
   - "A.10"
   - "B.3"
@@ -42,15 +42,15 @@ keywords:
 
 | ID           | Requirement                                                                                                                                                                                | Purpose                                       |
 | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------- |
-| **CC-C23.1** | An established or reused maturity judgement SHALL be cited through an editioned `MaturityCard` naming the exact family and registry edition, evidence profile, claim scope, qualification window, intended use, rung justification, A.10 anchors, and freshness windows. An early stop with no applicable judgement SHALL report that state under §4.2.1 without inventing a card or rung. Cite a relation and loss note only when the admission claim actually relies on it. | Makes established maturity auditable and keeps an unperformed judgement distinct from L0. |
+| **CC-C23.1** | An established or reused maturity judgement SHALL be cited through an editioned `MaturityCard` naming the exact family and registry edition, evidence profile, claim scope, qualification window, intended use, rung justification, A.10 anchors, and freshness windows. An early stop with no applicable judgement SHALL report that state under §4.2.1 without inventing a card or rung. Cite a relation and loss note only when the admission claim relies on it. | Makes established maturity auditable and keeps an unperformed judgement distinct from L0. |
 | **CC-C23.2** | Each `AdmissibilityLedger` row MUST identify the exact MethodFamilyId and registry edition, S2, rule edition, intended use, claim scope, qualification window, decisive branch, and decision result. It MUST retain the consulted policy editions, established or applicable reused Eligibility, CG-Spec, evidence-profile and Acceptance results, and Γ-fold contributors where used; required missing bases and unperformed judgements are reported under §4.2.1. The A.10 source basis and any G.6 path ids follow R5; relation and loss-policy ids appear only when relied on. | Keeps the premises of each actual branch reconstructable, including early refusal. |
 | **CC‑C23.3** | Enumerations used by the rules (**Degrade(mode)**; Maturity rungs) **SHALL** be **closed** and **UTS‑registered** (twin labels). | |
 | **CC‑C23.4** | **Unknowns** in live S2 fields **SHALL** map to `Degrade(mode)` (including `sandbox`) or `Abstain` with explicit **branch‑ids**; no `unknown→0/false` coercions.                                                          | Tri‑state discipline.                          |
 | **CC-C23.5** | If a branch relies on an F.9 Bridge, kind relation, or plane relation, it MUST cite that exact obtaining relation, direction, what meaning is preserved and what is lost, receiving use, and applicable loss policy; loss assessment and any assurance penalty follow R4. A changed family, evidence profile, claim scope, qualification window, or use is not by itself a crossing. | Keeps relation, loss, assurance and admission claims separate. |
 | **CC‑C23.6** | **No acceptance thresholds** in CHR or Maturity; acceptance thresholds **live only** in **AcceptanceClauses** (G.4).                                                                                             | Separation of concerns.                       |
 | **CC‑C23.7** | `MaturityCard` **SHALL NOT** be turned into a global scalar; treat as **poset**; any ordering **MUST** be lawful over CHR types.                                                           | Forbids cross‑scale scalarisation.            |
-| **CC‑C23.8** | Publish to **UTS** with twin labels. Run **GateCrossing visibility checks** only for a cited crossing of a selected **E.18** transformation-flow structure. Require **CrossingBundle** attestation only when the named receiving use needs it; apply **E.18/F.9/F.17/E.17** under their respective current uses. Apply **LanePurity** and **Lexical SD** (**E.10**); use GateChecks/GateProfile (**A.21**) only when a named gate decision is current. | Publication & crossing visibility hygiene. |
-| **CC‑C23.9** | All enumerations (e.g., `Degrade(mode)`, Maturity rungs) **SHALL** declare a **closed value set** and **Scale kind**, and be registered at UTS (LEX enum clarity).                          | Avoids lexical drift; lawful typing.          |
+| **CC‑C23.8** | Publish to **UTS** with twin labels. Run **GateCrossing visibility checks** only for a cited crossing of a selected **E.18** transformation-flow structure. Require **CrossingBundle** attestation only when the named receiving use needs it; apply **E.18/F.9/F.17/E.17** under their respective current uses. Apply **LanePurity** and **Lexical SD** (**E.10**); use GateChecks/GateProfile (**A.21**) only when a named gate decision is current. | Publication & crossing visibility. |
+| **CC‑C23.9** | All enumerations (e.g., `Degrade(mode)`, Maturity rungs) **SHALL** declare a **closed value set** and **Scale kind**, and be registered at UTS.                          | Avoids lexical drift; lawful typing.          |
 | **CC‑C23.10** | **RSCR tests** cover negative/refusal paths (illegal CHR ops; CG‑Spec gate fail; Bridge missing when relied on; **Φ table/policy‑id missing** when that penalty policy is used; **Lexical SD violations (E.10)**); ensure **branch coverage** (Admit/Degrade/Abstain, unknown). | |
 | **CC‑C23.11** | For an active QD use, **R0.QD MUST** pass: lawful **CharacteristicSpaceRef** (coordinates typed, dimension sufficient for the declared descriptor and comparison rules, planes declared where interpretation or the receiving contract requires them), **ArchiveConfig** (topology, resolution, K, `InsertionPolicyRef`, editioned `DistanceDef`) and **EmitterPolicyRef**. Evidence retention or set-valued selection alone does not activate this gate. | QD requirements apply to the actual QD use. |
 | **CC‑C23.12** | **DominanceRegime** **SHALL** default to `ParetoOnly`; switching to `ParetoPlusIllumination` **MUST** be authorised by **CAL** and cited by id in SCR.                                    | Prevents implicit scalarisation.              |

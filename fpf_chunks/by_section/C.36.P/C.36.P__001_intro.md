@@ -6,12 +6,12 @@ section_id: "C.36.P:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.P/C.36.P__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.36.P — Clarify Cultural-Evolution Wording for a Claim or Action"
   - "C.36.P:intro — Intro"
-line_start: 90712
-line_end: 90722
+line_start: 95192
+line_end: 95202
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -62,7 +62,7 @@ keywords:
 > **Plain-name:** cultural-evolution wording-use precision restoration
 > **Type:** Precision-restoration companion pattern (C)
 > **Status:** Stable
-> **Normativity:** Normative unless explicitly marked informative
+> **Normativity:** Normative unless marked informative
 > **Placement:** Part C -> C.36 companion
 > **Builds on:** `E.10`, `E.10.ARCH`, `E.10.DEV`, `E.10.ROLE`, `C.36`, `F.17`, `F.18`, `F.9`, `A.3.1`, `A.3.2`, `A.15`, `C.18`, `C.19`, `G.5`, and `G.11`.
 > **Purpose:** recover the object, relation, or claim hidden by culture, style, tradition, genre, scene, practice, technique, platform, regime, attractor, or developmental-machinery wording, then return to the project question without turning the label into ontology.

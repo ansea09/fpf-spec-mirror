@@ -6,12 +6,12 @@ section_id: "C.22.1:12"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.1/C.22.1__013_sota-echoing.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.22.1 — Task-family adaptation signature"
   - "C.22.1:12 — SoTA-Echoing"
-line_start: 63313
-line_end: 63335
+line_start: 65950
+line_end: 65976
 dependencies:
   - "A.15"
   - "C.19.1"
@@ -43,7 +43,11 @@ keywords:
 
 **Practice source, local alignment, and adoption decision.** [FactorMiner v1 (2026-02-16)](https://arxiv.org/html/2602.14670v1), §§4.1–4.4, separates factor quality and redundancy, the effect of experience memory on screening yield, and factor-evaluation computation time. [SkillOpt v2 (2026-05-25)](https://arxiv.org/html/2605.23904v2), §§3.1, 3.4–3.5 and 4.3–4.4, changes an external skill text while holding the task-execution model fixed, selects text revisions through held-out validation, and evaluates transfer and training tokens per test-score gain. This pattern **adopts** these distinctions among the changed object, attained result, evaluation or training cost, and tested reuse.
 
-**The shared field set is an original FPF construction.** For the question in §§1–6, §7 **adapts** those narrower comparisons by connecting the acquisition history to one `TaskFamilyRef` or `TaskSignature` and work-measure threshold. A terminal score and total cost per score gain can describe the attained result and average improvement cost, yet leave the resources needed to reach a particular threshold unresolved. Recording threshold timing and prior exposure adds observation effort but makes histories with the same final score distinguishable; §8 then separates claimed transfer, retention, and downside. The pattern **rejects** substituting either paper's reported metrics for this shared acquisition account. Reopen the comparison if a rival protocol supports the same specialization judgement with less observation, or exposes a consequential difference that these fields cannot express.
+**The shared field set is an original FPF construction.** For the question in §§1–6, §7 **adapts** those narrower comparisons by connecting the acquisition history to one `TaskFamilyRef` or `TaskSignature` and work-measure threshold. A terminal score and total cost per score gain can describe the attained result and average improvement cost, yet leave the resources needed to reach a particular threshold unresolved.
+
+Recording threshold timing and prior exposure adds observation effort but makes histories with the same final score distinguishable; §8 then separates claimed transfer, retention, and downside. The pattern **rejects** substituting either paper's reported metrics for this shared acquisition account.
+
+Reopen the comparison if a rival protocol supports the same specialization judgement with less observation, or exposes a consequential difference that these fields cannot express.
 
 **Claim 2.** A corridor-entry claim needs a baseline and evidence for the claimed difference.
 

@@ -6,12 +6,12 @@ section_id: "C.26:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26/C.26__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.26 — Quantum-Like Modeling Lens"
   - "C.26:1 — Problem frame"
-line_start: 65375
-line_end: 65453
+line_start: 68319
+line_end: 68401
 dependencies:
   - "A.10"
   - "A.15"
@@ -52,21 +52,25 @@ keywords:
 
 ### C.26:1 - Problem frame
 
-FPF already has local patterns for decisions, boundaries, bridges, work, measurement, search, and quality bundles. Some real architecture cases still break when those patterns are applied as if every read, question, dashboard, workshop, bridge, or simplified representation were a passive view of a stable state.
+FPF already has local patterns for decisions, boundaries, bridges, work, measurement, search, and quality bundles. Some architecture cases break when those patterns are applied as if every read, question, dashboard, workshop, bridge, or simplified representation were a passive view of a stable state.
 
-Use this pattern to examine a possible contextual-model obstruction that the ordinary subject account does not yet settle and that could change the inference or action. Retain a QL use only when a named obstruction is established under stated assumptions—for example, failure of a proposed joint probability law, incompatible probe algebra or an order-sensitive instrument result. A label, diagram, ordinary locality or mere model plurality does not establish that result. The claim is relative to the specified construction and use; it is not proof that every non-QL treatment must fail.
+Use this pattern to examine a possible contextual-model obstruction that the ordinary subject account does not yet settle and that could change the inference or action.
+
+Retain a QL use only when a named obstruction is established under stated assumptions—for example, failure of a proposed joint probability law, incompatible probe algebra or an order-sensitive instrument result. A label, diagram, ordinary locality or model plurality does not establish that result. The claim is relative to the specified construction and use; it is not proof that every non-QL treatment must fail.
 
 **What goes wrong if missed.** A dashboard, workshop, metric, bridge, export, or coarsened model is treated as a passive faithful readout even when the probe, frame, publication, or representation shortcut changes what can be inferred.
 
-**What this buys.** The user keeps the ordinary FPF pattern in charge and adds only the minimum quantum-like lens needed to prevent that concrete representational mistake.
+**What this buys.** The user keeps the ordinary FPF pattern in charge and adds the minimum quantum-like lens needed to prevent that representational mistake.
 
 **Identify the claim before the lens.** Name its subject and the interpretation, scope, probe/model frame and comparison conditions on which it depends. Recover an exact C.2.1 episteme or `U.ClaimScope` when the receiving use consumes that identity. For an empirical-grounding claim, test the exact covered claims and direct mappings under C.2.1:4.3; known absence and an unresolved grounding assertion remain different.
 
 If a viewpoint matters, record one `U.ViewpointRef` that resolves to the `U.Viewpoint` episteme P.
 
-When a particular dated evaluation Work is claimed, recover the actual performer System through A.13 and let A.15.1 independently admit the dated Work with its enacted Method. Cite the same obtaining A.13 assignment occurrence, its declared species, and F.6 only when the receiving use consumes precise assignment-bound attribution. Name a non-performing participant by its evaluation relation and position. Keep these neighboring values separate from the QL-use fields.
+When a particular dated evaluation Work is claimed, recover the actual performer System through A.13 and let A.15.1 independently admit the dated Work with its enacted Method.
 
-This pattern is not a physics claim. In FPF, `quantum-like` names a detached mathematical and representational lens, comparable in use to probability, calculus, optimization, or state-space modeling. A QL-lite note can supply a small recognition or conditional comparison. Choose additional mathematical or empirical support from what the receiving use needs the claim to establish, following :12b.
+Cite the same obtaining A.13 assignment occurrence, its declared species, and F.6 only when the receiving use consumes precise assignment-bound attribution. Name a non-performing participant by its evaluation relation and position. Keep these neighboring values separate from the QL-use fields.
+
+In FPF, `quantum-like` names a detached mathematical and representational lens, not a physical claim about the target. It is comparable in use to probability, calculus, optimization, or state-space modeling. A QL-lite note can supply a small recognition or conditional comparison. Choose additional mathematical or empirical support from what the receiving use needs the claim to establish, following :12b.
 
 | Working view | Value |
 | --- | --- |
@@ -74,7 +78,7 @@ This pattern is not a physics claim. In FPF, `quantum-like` names a detached mat
 | Primary EntityOfConcern | A local use of quantum-like mathematical language in pattern prose or work guidance. |
 | Admissible move | Admit, select another applicable pattern body, narrow, or escalate the QL wording by ordinary FPF pattern, QL cue, payoff, minimal admissible output, and local stop. |
 | Outside work | Physical quantum claims, general ontology, ordinary uncertainty/complexity, ordinary DDD locality, ordinary compression, and search/regime generation. |
-| What changes in practice | The writer stops asking "does quantum-like help here?" and asks "what representational mistake does this lens prevent here?" |
+| What changes in practice | The writer identifies the representational mistake that the lens prevents. |
 
 Ordinary modeling questions that can expose a QL need are listed below. C.26.1–C.26.3 also supply independently useful ordinary accounts of probe effects, distributed-state evidence and viability envelopes. Using one of those accounts does not activate QL; the lens requires the residual obstruction stated above.
 
@@ -82,7 +86,7 @@ Ordinary modeling questions that can expose a QL need are listed below. C.26.1�
 | --- | --- |
 | Probe-aware design | Design a workshop, dashboard, API read, survey, readiness check, or metric publication as a state-shaping interaction when it is not only a readout. |
 | Comparison-frame discipline | Notice earlier that two options, scores, or judgments cannot be compared in one frame without a bridge, coupling, or declared joint-comparison route. |
-| Export humility | Stop false cross-context substitution quickly: a carried value, report, or label may not export the same state for the intended use. |
+| Export limits | Prevent false cross-context substitution: a carried value, report, or label may not export the same state for the intended use. |
 | Low-recoverability distributed-state reading | Talk about team, organization, market, or service-mesh behavior without reducing the state to one report. |
 | Envelope-first viability | Move from "which single metric wins?" to a viability envelope with variables, sensors, actuators, costs, and failure modes. |
 | Admissible coarsening use | Use a cheaper state representation when it helps, while keeping source, loss, admissible use, non-admissible use, and reopen condition visible. |
@@ -92,8 +96,8 @@ Plain glosses:
 - `probe`: an operation that both produces an output and may change the represented state or admissible use of the output.
 - `frame`: the exact probe frame, measurement frame, comparison frame, or model frame selected by its subject pattern; the effective reference scheme remains a separate part of the claim-use account.
 - `state`: the represented condition relevant to the current decision.
-- `state update`: a typed update claim. When load-bearing, say whether the update is a system change, work change, epistemic reading update, carrier update, emitted-output update, formal model update, or update-law change; do not let one phrase carry all of them.
-- `context`: when locality may matter, recover the exact claim scope, reference scheme, local-sense endpoint, selected model-use structure, qualification window, viewpoint relation, or direct subject relation that the sentence actually needs.
+- `state update`: a typed update claim. When load-bearing, name the kind of update: system change, work change, epistemic reading update, carrier update, emitted-output update, formal model update, or update-law change.
+- `context`: when locality may matter, recover the exact claim scope, reference scheme, local-sense endpoint, selected model-use structure, qualification window, viewpoint relation, or direct subject relation that the sentence needs.
 - `export`: a carried representation whose use may lose timing, coordination, system-role or participation relations, use conditions, confidence, or relation structure.
 - `coarsening`: an intentionally cheaper state representation with declared loss and reopen conditions.
 

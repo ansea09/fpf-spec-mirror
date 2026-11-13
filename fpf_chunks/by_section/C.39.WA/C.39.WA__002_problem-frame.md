@@ -6,12 +6,12 @@ section_id: "C.39.WA:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.WA/C.39.WA__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.39.WA — Develop an Account of the Whole Subject"
   - "C.39.WA:1 — Problem frame"
-line_start: 83187
-line_end: 83194
+line_start: 87236
+line_end: 87243
 dependencies:
   - "C.20"
   - "C.39.QR"
@@ -26,5 +26,5 @@ keywords:
 
 Begin with the question the account must answer and the use it must enable. Recover the subject and required depth from that question and its substantive grounds. Then develop the organization that makes the contributions answer it together.
 
-The result is an account whose relevant parts, relations, grounds and limits can be followed, together with a justified judgement about its adequacy for the original use. A review can instead return an exact missing construction and the work needed to obtain it. Retain an already adequate account. A calculation or a local correction with an established question can finish under its own criterion.
+The result is an account whose relevant parts, relations, grounds and limits can be followed, together with a justified judgement about its adequacy for the original use. A review can instead identify the missing construction and the work needed to obtain it. Retain an already adequate account. A calculation or a local correction with an established question can finish under its own criterion.
 

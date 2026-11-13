@@ -6,12 +6,12 @@ section_id: "G.11:11"
 section_title: "SoTA-Echoing — Post‑2015 practices aligned (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.11/G.11__013_sota-echoing-post-2015-practices-aligned-informative.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.11 — Decide Whether and How to Refresh SoTA Packs and Related Results (Telemetry and Decay)"
   - "G.11:11 — SoTA-Echoing — Post‑2015 practices aligned (informative)"
-line_start: 132484
-line_end: 132529
+line_start: 140607
+line_end: 140652
 dependencies:
   - "A.10.1"
   - "A.6.RCD"
@@ -89,6 +89,6 @@ Each entry follows: **claim → practice → source → alignment → adoption s
 5. **Efficient orchestration benefits from bandit and early-stopping scheduling, but scheduling must not redefine trigger, action, parity, shipping, or Part-G-wide default semantics.**
    Practice: modern hyperparameter and experiment scheduling uses bandit-style resource allocation and asynchronous early stopping.
    Source: ASHA (`arXiv:1810.05934`) and BOHB (`arXiv:1807.01774`) as representative post-2015 scheduling practice.
-   Alignment: scheduling is expressed as `RefreshQueue` and `RefreshPlan@Context` policy pins (`RefreshPriorityPolicyIdRef`, `BudgetDeclRef`) so core semantics remain stable and the exact `U.WorkPlan` stays separate from dated Work.
+   Alignment: scheduling is expressed as `RefreshQueue` and `RefreshPlan@Context` policy pins (`RefreshPriorityPolicyIdRef`, `BudgetDeclRef`) so core semantics remain stable and the `U.WorkPlan` stays separate from dated Work.
    Adoption: **Adapt** (useful practice, but quarantined outside core norms).
 

@@ -6,12 +6,12 @@ section_id: "G.5:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.5 — Method-Family Registry, Dispatch and Selected-Set Result Declaration"
   - "G.5:intro — Intro"
-line_start: 129115
-line_end: 129124
+line_start: 137167
+line_end: 137176
 dependencies:
   - "C.11"
   - "C.18"
@@ -60,7 +60,7 @@ keywords:
 > **Status:** Stable
 > **Normativity:** Normative
 
-**Intent.** Help an engineer or framework author use a dispatcher and registry for rival method families and state selector-facing set outcomes. The outcome distinction covers retained alternatives and members jointly included for one named use without collapsing plurality into one hidden scalar winner.
+**Intent.** Help engineers and framework authors register and dispatch rival method families, and declare selector-facing sets from a selection or an already established membership basis. A set can retain alternatives for later choice or include all its members for one named use. Preserve that plurality when reporting the result. A hidden scalar winner would change its meaning.
 
 
 

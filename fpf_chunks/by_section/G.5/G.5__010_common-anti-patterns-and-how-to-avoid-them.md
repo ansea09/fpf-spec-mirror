@@ -6,12 +6,12 @@ section_id: "G.5:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.5 — Method-Family Registry, Dispatch and Selected-Set Result Declaration"
   - "G.5:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 129815
-line_end: 129849
+line_start: 137867
+line_end: 137901
 dependencies:
   - "C.11"
   - "C.18"
@@ -86,6 +86,6 @@ keywords:
   *Avoid:* use `JointUseSet`, name the joint use, and key one entry per exact member; keep direct member relations and actual selection separate.
 
 * **Anti‑pattern: “Declared result missing required content.”**
-  *Symptom:* a `Shortlist`, `JointUseSet`, narrowed handoff, or abstain result is named, but the emitted result still omits its members or keyed member entries, ordering, named use where required, or basis pins.
-  *Avoid:* state the result kind, retained members or keyed joint-use entries, ordering, named use where required, abstain or escalation condition, and basis pins directly in `G.5`.
+  *Symptom:* a result is named but omits its ordering status, basis or information required for its kind, such as the members of a shortlist, the keyed entries and use of a joint-use set, the content of a handoff, or the reason for abstention.
+  *Avoid:* state the result kind, ordering status and basis pins, with the members, named joint use, handoff content or blocking condition required for that outcome.
 

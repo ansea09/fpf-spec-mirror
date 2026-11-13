@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.P.WMR"
-pattern_title: "Exact Relation Recovery for Method and Work Claims"
+pattern_title: "Relation Recovery for Method and Work Claims"
 section_id: "A.6.P.WMR:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P.WMR/A.6.P.WMR__011_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.6.P.WMR — Exact Relation Recovery for Method and Work Claims"
+  - "A.6.P.WMR — Relation Recovery for Method and Work Claims"
   - "A.6.P.WMR:10 — Rationale"
-line_start: 21169
-line_end: 21176
+line_start: 22042
+line_end: 22049
 dependencies:
   - "A.15.1"
   - "A.15.1-A.15.3"

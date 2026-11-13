@@ -6,62 +6,79 @@ section_id: "C.32.P2S:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.P2S/C.32.P2S__006_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.32.P2S — Problem-to-Structure Architecturing Unfolding"
   - "C.32.P2S:5 — Archetypal Grounding"
-line_start: 77185
-line_end: 77202
+line_start: 80928
+line_end: 80978
 dependencies:
   - "A.1"
   - "A.1.SCR"
   - "A.1.STM"
   - "A.15.6"
   - "A.22"
-  - "A.22.CGUS"
-  - "A.3.4"
-  - "B.2"
   - "C.22.2"
   - "C.25"
   - "C.29"
   - "C.30"
-  - "C.30.AD"
-  - "C.30.ASV"
-  - "C.30.ILC"
-  - "C.30.TFS-REL"
   - "C.31"
   - "C.32"
-  - "C.32.ACE"
-  - "C.32.ACS"
-  - "C.32.CONWAY"
-  - "C.32.FAIL"
-  - "C.32.HCS"
-  - "C.32.MLAO"
   - "C.33"
-  - "C.34"
   - "C.35"
   - "E.17"
-  - "E.18"
-  - "E.18.3"
   - "E.24.PUB"
 keywords:
 ---
 
 ### C.32.P2S:5 - Archetypal Grounding
 
-The architect carries pressure into structure: first by finding which selected structures are missing or inadequate, then by constructing alternatives, deciding what will be pursued, enabling exact domain work, and watching which subject-side structures actually obtain under operation. An actual transformation is introduced only when its own `A.3.4` basis is grounded.
+The architect carries pressure into structure: first by finding which selected structures are missing or inadequate, then by constructing alternatives, deciding what will be pursued, enabling domain work, and watching which subject-side structures obtain under operation. An actual transformation is introduced only when its own `A.3.4` basis is grounded.
 
-**First-minute use slice.** A plant architect sees that expected throughput and actual throughput diverge after a layout change. The first P2S account names the production cell as described holon, the throughput-after-layout-change architecture question, operating-shift qualification window, pressure kind `actualStructureDivergesFromExpectedStructure`, first pattern to use `C.30`, unknown structure `material-flow bottleneck bearer`, selected structure candidate `buffer placement`, and pattern for the next claim `C.32`. A PAD decision, work plan or eval result is added only when its question becomes current; the account may use the card above when a reusable record helps.
+**First-minute use slice.** A plant architect sees that expected throughput and actual throughput diverge after a layout change. The first P2S account names:
+
+- the production cell as described holon;
+- the throughput-after-layout-change architecture question;
+- the operating-shift qualification window;
+- pressure kind `actualStructureDivergesFromExpectedStructure`;
+- first pattern to use `C.30`;
+- unknown structure `material-flow bottleneck bearer`;
+- selected structure candidate `buffer placement`;
+- pattern for the next claim `C.32`.
+
+A PAD decision, work plan or eval result is added only when its question becomes current; the account may use the card above when a reusable record helps.
 
 **Lens-use slice.** If the plant team builds a DSM or epiplexity-style model over stations, buffers and routing events, P2S retains the architecture inference and its grounds: the dependency or learnable structural content preserved, any consequential flow distinction omitted, and the structures the result can inform. Use C.29 when choosing or transferring that representation, or relying on its result, remains unresolved; an adequate domain treatment needs no additional lens account. Establish any architecture-adequacy, eval or decision conclusion separately.
 
-**Built asset and technical system.** A clinic has rising instrument-turnaround delays and infection-control pressure. The first P2S move does not ask for a better diagram. It names the clinic service system as described holon, the turnaround-and-contamination architecture question, intended operating use, applicable scope and window, candidate structure kinds, architecture characteristics, and uncertainty: room layout, sterile and contaminated flows, equipment modules, tray interface, maintenance work, throughput, contamination isolation, maintainability, and surge adaptability. Candidate synthesis develops these alternatives: a centralized autoclave bay, distributed sterilization modules, and a reusable tray-interface change. Use `C.32.PAD` for the decision selecting one configuration, `C.30.AD` and `C.32.ADR` for its descriptions and publication, and A.15-family patterns for construction and operating work. During operation, measure actual turnaround, contamination events, maintenance burden, and actual-structure feedback triggers.
+**Built asset and technical system.** A clinic has rising instrument-turnaround delays and infection-control pressure. The first P2S move does not ask for a better diagram. It names the clinic service system as described holon, the turnaround-and-contamination architecture question, intended operating use, applicable scope and window, candidate structure kinds, architecture characteristics, and uncertainty: room layout, sterile and contaminated flows, equipment modules, tray interface, maintenance work, throughput, contamination isolation, maintainability, and surge adaptability.
 
-**Method, organization and Work.** Inspection work catches ontological errors late. Recover what the source's "review practice" names before choosing the described holon. When the question concerns how source recovery, judgement and repair connect, the bearer can be the Method itself under A.3.1; candidate alternatives can change that sequence or its feedback. When staffing or coordination among performers is the problem, recover the review organization-as-system and its relevant structures. If a performed review is the subject, recover each actual performer through A.13 and identify the `U.Work` occurrence independently through A.15.1. Use `C.32.HCS` and `C.32.ACS` to bind characteristics to that bearer and the required result. Use `E.10.ROLE` to separate any local checker kind, classification, current assignment, direct review-relation position, function claim, organization position, and ordinary audience label. Candidate synthesis develops modal alternatives. Establish any claimed actual subject relations independently. For later actual inspection Work, add F.6 only when the flow or receiving use expressly represents precise assignment-bound attribution. Telemetry separately shows whether errors are caught earlier.
+Candidate synthesis develops these alternatives: a centralized autoclave bay, distributed sterilization modules, and a reusable tray-interface change. Use `C.32.PAD` for the decision selecting one configuration, `C.30.AD` and `C.32.ADR` for its descriptions and publication, and A.15-family patterns for construction and operating work.
 
-**Architecture-influence and transformed-side co-synthesis.** A team wants a modular product architecture but its toolchain, team communication, release method, and evidence workflow only support one tightly coupled build. The team uses `C.32.CONWAY` within the P2S flow: those typed influence sources and their direct relations remain separate from both exact C.30 architecture sides, the changed referent, any actual transformation, acting Systems, assignments, and Work. Candidate families include changing the product modules only, changing the influence-source structures only, changing both, or accepting a bounded mismatch while retaining a named correspondence-frame return condition. The decision states which side changes now, what architecture characteristics are protected, what Work and exact work-to-change relations realize the change, and what operation or delivery feedback can return to the `C.32.CONWAY` correspondence frame or to decision repair.
+During operation, measure turnaround, contamination events, maintenance burden, and actual-structure feedback triggers.
 
-**PumpSkid 7 realization and return.** Architecture pressure calls for a modular pump-skid with selected module and placement structures; use `C.32.PAD` for the project architecture decision. Assembly work `W-PS7-ASSEMBLY` and later commissioning work `W-PS7-COMMISSION` are separate Work occurrences admitted under `U.Work` by `A.15.1`. Mounting change `T-PS7-MOUNT`, wiring change `T-PS7-WIRE`, fluid-connection change `T-PS7-CONNECT`, and commissioning-related change `T-PS7-COMMISSION` are each independently identified under `A.3.4`. Where the assembly or commissioning work is asserted to cause a change, cite the work-to-change relation and its declared predicate. Shared work, temporal adjacency, and one selected pump-skid configuration do not establish one composite transformation. The local `A.15.PROD` entity-identity-inception claim uses the applicable PumpSkid 7 identity-specification edition, its applicability basis, work-to-change and change-to-identity facts, and `inceptionBoundary`; it need not assert a composite transformation. Later commissioning can remain production work until subject-state facts at `completionBoundary` satisfy the applicable production-completion-criterion edition; only then can a separate historically indexed completion claim be written. A later `C.30.AD` or `C.30.ASV` record describes the actual structure; use `C.32.ACE` to evaluate service-access coupling. When coupling is worse than the selected expectation, the eval result returns to decision repair or new synthesis. Neither the description, evaluation, identity-inception claim, completion claim, nor shared assembly work proves conformance to the selected architecture or transformation composition.
+**Method, organization and Work.** Inspection work catches ontological errors late. Recover what the source's "review practice" names before choosing the described holon. When the question concerns how source recovery, judgement and repair connect, the bearer can be the Method itself under A.3.1; candidate alternatives can change that sequence or its feedback.
 
-**Workshop capability with finite acceptance.** A workshop-development project must enable the delivery of machined components with an agreed surface finish under the expected order flow. The components in their receiving use supply the product SoI; the workshop is the architectural subject. One candidate adds a machine, another combines that machine with a revised production Method, qualified operators, suitable measurement and secured material access, and a third obtains suitable external machining. The architect compares their actual capacity, handovers, cost and provision conditions. A machine-only candidate cannot establish the workshop capability while the measurement Method or skilled operator is absent. A bounded acquisition project may still deliver and accept the machine. For the capability project, choose a supported combination or a bounded investigation of the unresolved fit; carry that distinction to PAD. Acceptance can demonstrate the agreed production capability under representative conditions without waiting for every future component to operate. Later use can reopen the product or capability hypothesis without erasing completed acquisition Work.
+When staffing or coordination among performers is the problem, recover the review organization-as-system and its relevant structures.
+
+If a performed review is the subject, recover each performer through A.13 and identify the `U.Work` occurrence independently through A.15.1.
+
+Use `C.32.HCS` and `C.32.ACS` to bind characteristics to the bearer recovered for the question and the required result. Use `E.10.ROLE` to separate any local checker kind, classification, current assignment, direct review-relation position, function claim, organization position, and ordinary audience label. Candidate synthesis develops modal alternatives. Establish any claimed actual subject relations independently. For later actual inspection Work, add F.6 only when the flow or receiving use expressly represents precise assignment-bound attribution. Telemetry separately shows whether errors are caught earlier.
+
+**Architecture-influence and transformed-side co-synthesis.** A team wants a modular product architecture but its toolchain, team communication, release method, and evidence workflow only support one tightly coupled build. The team uses `C.32.CONWAY` within the P2S flow: those typed influence sources and their direct relations remain separate from both C.30 architecture sides, the changed referent, any actual transformation, acting Systems, assignments, and Work.
+
+Candidate families include changing the product modules only, changing the influence-source structures only, changing both, or accepting a bounded mismatch while retaining a named correspondence-frame return condition. The decision states which side changes now, what architecture characteristics are protected, what Work and work-to-change relations realize the change, and what operation or delivery feedback can return to the `C.32.CONWAY` correspondence frame or to decision repair.
+
+**PumpSkid 7 realization and return.** Architecture pressure calls for a modular pump-skid with selected module and placement structures; use `C.32.PAD` for the project architecture decision.
+
+Assembly work `W-PS7-ASSEMBLY` and later commissioning work `W-PS7-COMMISSION` are separate Work occurrences admitted under `U.Work` by `A.15.1`. Mounting change `T-PS7-MOUNT`, wiring change `T-PS7-WIRE`, fluid-connection change `T-PS7-CONNECT`, and commissioning-related change `T-PS7-COMMISSION` are each independently identified under `A.3.4`. Where the assembly or commissioning work is asserted to cause a change, cite the work-to-change relation and its declared predicate. Shared work, temporal adjacency, and one selected pump-skid configuration do not establish one composite transformation.
+
+The local `A.15.PROD` entity-identity-inception claim uses the applicable PumpSkid 7 identity-specification edition, its applicability basis, work-to-change and change-to-identity facts, and `inceptionBoundary`; it need not assert a composite transformation. Later commissioning can remain production work until subject-state facts at `completionBoundary` satisfy the applicable production-completion-criterion edition; only then can a separate historically indexed completion claim be written.
+
+A later `C.30.AD` or `C.30.ASV` record describes the actual structure; use `C.32.ACE` to evaluate service-access coupling. When coupling is worse than the selected expectation, the eval result returns to decision repair or new synthesis. Neither the description, evaluation, identity-inception claim, completion claim, nor shared assembly work proves conformance to the selected architecture or transformation composition.
+
+**Workshop capability with finite acceptance.** A workshop-development project must enable the delivery of machined components with an agreed surface finish under the expected order flow. The components in their receiving use supply the product SoI; the workshop is the architectural subject. One candidate adds a machine, another combines that machine with a revised production Method, qualified operators, suitable measurement and secured material access, and a third obtains suitable external machining. The architect compares their actual capacity, handovers, cost and provision conditions.
+
+A machine-only candidate cannot establish the workshop capability while the measurement Method or skilled operator is absent. A bounded acquisition project may still deliver and accept the machine. For the capability project, choose a supported combination or a bounded investigation of the unresolved fit; carry that distinction to PAD.
+
+Acceptance can demonstrate the agreed production capability under representative conditions without waiting for every future component to operate. Later use can reopen the product or capability hypothesis without erasing completed acquisition Work.
 

@@ -6,12 +6,12 @@ section_id: "A.15.7:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.7/A.15.7__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.15.7 — Situation-Responsive Work Steering and Next-Action Selection"
   - "A.15.7:3 — Forces"
-line_start: 31562
-line_end: 31573
+line_start: 32747
+line_end: 32758
 dependencies:
   - "A.10"
   - "A.13"
@@ -35,11 +35,11 @@ keywords:
 
 | Force | Tension |
 | --- | --- |
-| Responsiveness versus method discipline | Current facts may require a different continuation, but the domain Method still limits admissible action. |
+| Responsiveness versus method discipline | Current facts may require a different continuation, but the domain Method limits admissible action. |
 | Speed versus truthfulness | Keep a supported choice as light as its consequences allow. When a changed condition or missing required support defeats a consumed premise, compare feasible refresh, a supported alternative, fallback or stop. |
 | Recognition versus explicit comparison | A familiar cue may support one response without constructing an `OptionSet`; several live alternatives may require `C.11`. |
 | Choice versus action | The deciding System and intended performer may be the same or different, and neither a score nor a document occupies either position. |
 | Domain Method versus steering Method | The reusable way being performed and the Method for choosing its next action are distinct even when the same Work enacts both. |
 | Feedback versus claims about past performance | A new observation can guide the next choice and reveal an earlier unsupported claim. Correct the claim while preserving the actual occurrence history. |
-| Plain use versus durable reliance | Most local choices need a readable sentence; another use may need a separately identified claim-bearing episteme and exact supporting relations. |
+| Plain use versus durable reliance | Most local choices need a readable sentence; another use may need a separately identified claim-bearing episteme and supporting relations. |
 

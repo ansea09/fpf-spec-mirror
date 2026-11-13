@@ -6,12 +6,12 @@ section_id: "F.16:2"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.16/F.16__003_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.16 — Worked-Example Template (Cross-Domain)"
   - "F.16:2 — Problem frame"
-line_start: 123879
-line_end: 123888
+line_start: 131722
+line_end: 131731
 dependencies:
   - "A.10"
   - "A.15"
@@ -55,7 +55,7 @@ keywords:
 Cross-domain examples fail when:
 
 1. **The claim is missing.** Sources and facts are listed, but the reader cannot tell what is being demonstrated.
-2. **Words replace subjects.** *Process*, *role*, *service*, or *execution* is used without recovering the actual value or relation.
+2. **Words replace subjects.** *Process*, *role*, *service*, or *execution* is used without identifying which value or relation the word denotes.
 3. **Relations hide in prose.** “Basically the same”, “implements”, “uses”, or “governs” conceals several different relation families.
 4. **A table is asked to prove.** Co-placement or row membership becomes sameness, permission, or evidence.
 5. **Evidence and limits disappear.** The page reaches a result or status without showing the evaluation, observation, source, loss, or boundary that supports it.

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.6"
-pattern_title: "Base Declaration Discipline: Say Exactly What Something Depends On"
+pattern_title: "Base Declaration Discipline: Say What Something Depends On"
 section_id: "A.6.6:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__010_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.6.6 — Base Declaration Discipline: Say Exactly What Something Depends On"
+  - "A.6.6 — Base Declaration Discipline: Say What Something Depends On"
   - "A.6.6:9 — Consequences"
-line_start: 23971
-line_end: 23986
+line_start: 24892
+line_end: 24907
 dependencies:
   - "A.10"
   - "A.14"
@@ -53,5 +53,5 @@ keywords:
 - The author must identify the direct relation instead of hiding it behind *support* or *anchor*. The mitigation is one ordinary sentence and the direct predicate, not a universal form.
 - A later replay or publication use may require more detail. Add only the missing declaration, qualifier, assertion, evidence, or occurrence identity at that point.
 
-**Adoption test (informative).** A team has adopted A.6.6 when it can answer three questions in order: What are the actual participants and direct relation? Does its predicate hold for this case? Does a named later use require a reusable declaration, occurrence identity, scope, time, evidence, or history? A negative answer to the third question is a valid stop.
+**Adoption test (informative).** A team has adopted A.6.6 when it can answer three questions in order: What are the participants and direct relation? Does its predicate hold for this case? Does a named later use require a reusable declaration, occurrence identity, scope, time, evidence, or history? A negative answer to the third question is a valid stop.
 

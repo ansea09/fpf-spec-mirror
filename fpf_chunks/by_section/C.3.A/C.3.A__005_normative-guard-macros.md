@@ -6,12 +6,12 @@ section_id: "C.3.A:4"
 section_title: "Normative guard macros"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.A/C.3.A__005_normative-guard-macros.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.3.A — Typed Guard Macros for Kinds + USM (Annex)"
   - "C.3.A:4 — Normative guard macros"
-line_start: 56250
-line_end: 56349
+line_start: 58558
+line_end: 58659
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -50,7 +50,9 @@ Names such as `Guard_TypedClaim` are editorial handles. A context may alias them
 5. check evidence freshness separately when the admission implies reliance; and
 6. check the policy-required expression properties on the exact claim or declaration episteme under C.2.3; a threshold is meaningful only on its named, justified local scale.
 
-The subkind direction above is contravariant only for restricting a universally quantified claim: a claim over `Vehicle` may enter a `PassengerCar`-restricted use when `PassengerCar` is a subkind of `Vehicle`. It is not a generic compatibility direction for producer outputs, operation arguments, mutable positions, or arbitrary typed slots; each such use states its own variance rule. This guard MUST NOT invent an anonymous candidate or infer a candidate classification from declaration compatibility.
+The subkind direction above is contravariant only for restricting a universally quantified claim: a claim over `Vehicle` may enter a `PassengerCar`-restricted use when `PassengerCar` is a subkind of `Vehicle`. It is not a generic compatibility direction for producer outputs, operation arguments, mutable positions, or arbitrary typed slots; each such use states its own variance rule.
+
+This guard MUST NOT invent an anonymous candidate or infer a candidate classification from declaration compatibility.
 
 #### C.3.A:4.2 - Guard_CandidateUse — apply a typed claim to an exact candidate
 
@@ -79,7 +81,7 @@ Evidence may support a classification assertion, but record presence, bridge pre
    - the kinds are identical or `SubkindOfObtains(k_A, k_B; effectiveReferenceScheme)` holds; or
    - for a bridged flow, an obtaining KindBridge maps `k_A` to exact, independently identified distinct target-side kind `k_A'`, its separate assertion carries the current mapping and loss basis, and `k_A'` is identical to `k_B` or `SubkindOfObtains(k_A', k_B; targetReferenceScheme)` holds;
 3. compute serial scope as the intersection of the two governed scopes and require coverage of `TargetSlice`;
-4. when an actual produced candidate enters B, check admissibility and evaluate `J(candidate, k_B, edition_B, TargetSlice)` only for an admissible request; continue only on `true`, retaining `not-applicable`, `false`, and `unknown` as distinct refusal grounds; and
+4. when a produced candidate enters B, check admissibility and evaluate `J(candidate, k_B, edition_B, TargetSlice)` only for an admissible request; continue only on `true`, retaining `not-applicable`, `false`, and `unknown` as distinct refusal grounds; and
 5. route justified bridge consequences to R and check freshness before allowing use.
 
 Declaration compatibility alone MUST NOT classify a future or actual output. Scope widening MUST NOT repair a type mismatch. The universal-claim variance rule in `Guard_TypedClaim` does not reverse this producer-to-consumer direction.
@@ -113,7 +115,7 @@ For each line, the guard SHALL:
 5. provide the USM independence justification; and
 6. include no slice outside the union of covered line scopes.
 
-If lines quantify over genuinely different kinds, normalize through separately justified kind relations or publish distinct claims; do not hide the difference in SpanUnion.
+If lines quantify over different kinds, normalize through separately justified kind relations or publish distinct claims; do not hide the difference in SpanUnion.
 
 #### C.3.A:4.6 - Guard_XContext_Typed — cross-context typed reuse
 
@@ -125,9 +127,9 @@ If lines quantify over genuinely different kinds, normalize through separately j
 2. recover the independently identified target `KindSignature` edition;
 3. when the receiving claim requires Scope translation, recover the obtaining Scope Bridge and its applicable congruence assessment, the separate affirmative translation-use claim, and the current reliance branch under A.2.6;
 4. require Claim scope, translated when needed, to cover the exact `TargetSlice` with all its declared selectors, including any `Gamma_time` required by A.2.6;
-5. when an actual candidate is current, check receiving admissibility and evaluate `J(candidate, targetKind, targetSignatureEdition, TargetSlice)` only for an admissible request; continue candidate-bearing use only on `true`, retaining `not-applicable`, `false`, and `unknown` as distinct refusal grounds;
+5. when the receiving use is candidate-bearing, check receiving admissibility and evaluate `J(candidate, targetKind, targetSignatureEdition, TargetSlice)` only for an admissible request; continue candidate-bearing use only on `true`, retaining `not-applicable`, `false`, and `unknown` as distinct refusal grounds;
 6. apply only justified scope- and kind-bridge consequences to R and complete required freshness and policy checks; and
 7. make the separate allow/refuse decision.
 
-A source judgment may support reliance but MUST NOT be copied as target truth. When no candidate is current, omit step 5 and complete the declaration-level use without forming a candidate judgment.
+A source judgment may support reliance but MUST NOT be copied as target truth. For declaration-level use, omit step 5 and complete the use without forming a candidate judgment.
 

@@ -6,12 +6,12 @@ section_id: "C.2.3:18"
 section_title: "Glossary and notation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.3/C.2.3__019_glossary-and-notation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.2.3 — Formality of an Episteme"
   - "C.2.3:18 — Glossary and notation"
-line_start: 53371
-line_end: 53379
+line_start: 55596
+line_end: 55604
 dependencies:
   - "A.16"
   - "A.18"
@@ -38,9 +38,9 @@ keywords:
 ### C.2.3:18 - Glossary and notation
 
 - **Formality assessment (F).** An assessment of selected properties of an episteme's expression, with its subject, interpretation and basis recoverable.
-- **Formality profile.** A structured account of those selected properties; when represented in a CharacteristicSpace, each actual Characteristic has its own declared slot.
+- **Formality profile.** A structured account of those selected properties; when represented in a CharacteristicSpace, each Characteristic has its own declared slot.
 - **Local ordered summary.** An explicit mapping from such assessments to a named ordinal scale whose levels have justified nested criteria.
 - **Change in formality.** A change in an assessed property or in a justified order, not a numerical difference between unrelated labels.
 - **Essential content and inference.** The content and connecting reasoning required by the assessed whole under its named composition relation; external warrant is assessed separately.
-- **Example notation.** `F: explicit typed invariant; derivation not supplied`, or a threshold on a specifically declared local specification-expression scale.
+- **Example notation.** `F: explicit typed invariant; derivation not supplied`, or a threshold on a declared local specification-expression scale.
 

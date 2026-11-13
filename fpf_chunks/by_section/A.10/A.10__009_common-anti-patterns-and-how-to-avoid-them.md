@@ -6,12 +6,12 @@ section_id: "A.10:6.2"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10/A.10__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.10 — Evidence Graph Referring: Claim-Bound Evidence and Provenance Graph"
   - "A.10:6.2 — Common Anti-Patterns and How to Avoid Them"
-line_start: 27010
-line_end: 27019
+line_start: 28032
+line_end: 28041
 dependencies:
   - "A.10"
   - "A.13"
@@ -57,6 +57,6 @@ keywords:
 - **Generic result field.** Recover the domain result and its defining or testing rule; identify the result episteme separately when its identity matters.
 - **Edge as fact.** Establish the direct relation first; then let the graph represent or cite it.
 - **Provenance as assurance or permission.** Enter B.3, A.2.8.PER, A.21, or the pattern that defines or tests the additional claim only when that claim is live.
-- **Citation as actual use.** Ground the exact premise/reference/argument relation and any later Work claimed as such.
+- **Citation as actual use.** Ground the premise/reference/argument relation and any later Work claimed as such.
 - **Full dossier by default.** Collect only fields that decide the bounded use, consequence, contestability, and reopen condition.
 

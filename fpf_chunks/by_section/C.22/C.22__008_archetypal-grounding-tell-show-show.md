@@ -6,12 +6,12 @@ section_id: "C.22:6"
 section_title: "Archetypal Grounding (Tell–Show–Show)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22/C.22__008_archetypal-grounding-tell-show-show.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.22 — Task Typing and TaskSignature Assignment (Problem-CHR)"
   - "C.22:6 — Archetypal Grounding (Tell–Show–Show)"
-line_start: 63092
-line_end: 63127
+line_start: 65691
+line_end: 65748
 dependencies:
   - "A.6.0"
   - "C.16"
@@ -32,37 +32,59 @@ keywords:
 
 ### C.22:6 - Archetypal Grounding (Tell–Show–Show)
 
-The examples show which TaskSignature fields supply eligibility or acceptance inputs. Keep that dependency recoverable when a downstream decision relies on it—for example, an ordinal service level permits order comparison, while budget arithmetic requires aligned units. The compact field projections below illustrate declaration content; §5.2 still governs the complete signature and assignment.
+The examples show which TaskSignature fields supply eligibility or acceptance inputs. Keep that dependency recoverable when a downstream decision relies on it—for example, an ordinal service level permits order comparison, while budget arithmetic requires aligned units. The compact field projections below illustrate declaration content; §5.2 governs the complete signature and assignment.
 
 **A. Differential equations (continuous systems, solver choice).**
+
 *TaskSignature fields.* `DataShape=ODE, stiff?=unknown, SizeAndConditionProfile={n≈10^3}, ObjectiveProfile={↓error@ratio, ↑throughput@ratio}, ConstraintRefs={budget-envelope relation, safety-predicate relation}, RegularityTraits={Lipschitz known?=unknown, Jacobian sparsity=high}, Missingness=MAR`.
+
 *Attachment.* Selector consumes TaskSignature; **eligibility** filters MethodFamilies whose eligibility conditions require known stiffness or differentiability, with unknown yielding **degrade or abstain** per family. **Acceptance** tests its `safety_gate` condition on the declared ordinal safety level using order comparison (`ORD_COMPARE_ONLY`), and uses **unit-aligned sums** for ratio-scale budgets. The selector declares a `Shortlist` retaining the non-dominated candidates and its comparison basis; no cross-ordinal weighting.
 
 **B. Mixed‑integer optimisation (planning and scheduling).**
+
 *TaskSignature fields.* `DataShape=MIP, NoiseModel=deterministic, ObjectiveProfile={↓cost@ratio, ↑service_level@ordinal}, Constraints={SLA hard, workforce soft}, RegularityTraits={convex_relaxation=available}, SizeAndConditionProfile={vars~10^5}, Missingness=MCAR`.
+
 *Attachment.* **CG‑Spec** forbids means over **service_level** (ordinal); **Acceptance** holds acceptance-gate thresholds; **Eligibility** checks convex-relaxation availability; **Selection** applies the **lexicographic** guard (assumption-fit before evidence-fit before resource). If this receiving use makes a named assurance claim about an exact target claim, including when a material-reliance rule requires it, use B.3 to obtain its separate assurance result from the relied-on evidence relations and the declared policy; otherwise this example adds no assurance fold. If the admissible comparison remains partial, the selector can declare an unordered `Shortlist` from the non-dominated candidates, with the comparison basis and unresolved ties.
 
 > *Practice example:* the cited [SciML Problem Interface](https://docs.sciml.ai/DiffEqDocs/stable/basics/problem/) constructs an immutable problem value before solver use and supports explicit `remake` when problem fields change. C.22 adapts only that problem-before-selector separation; it does not import Julia types as FPF ontology.
 
 **C. Quality-Diversity archive and declared set (illumination).**
+
 *TaskSignature fields.* `DataShape=policy‑search; ObjectiveProfile={↑reward@ratio, ↑coverage@ratio (report‑only)}, DominanceRegime=ParetoOnly, PortfolioMode=Archive, CharacteristicSpaceRef(d=3, characteristics=CHR‑typed), characteristicSpaceDescriptionRef=CS-description-1, ArchiveConfig(grid, res=32×32×16, K=1, InsertionPolicyRef=elite‑replace, DistanceDefRef.edition=v1), EmitterPolicyRef=v2, Budgeting{eval=1e6}, TelemetryHooks{PathSliceId=…}`. Include `PathSliceId` only when an E.18 path slice is current.
+
 *Selection result.* The QD archive remains the declared source. G.5 returns a `Shortlist` of retained alternatives from it, with exact members, ordering and basis pins under G.5:4.4b–4.4e. **Coverage and illumination** are reported separately and excluded from dominance under the declared `ParetoOnly` policy. Changes to `DistanceDefRef.edition` or the emitter policy are editioned and logged in SCR.
 
 **D. Open‑ended environment generation (POET‑class).**
+
 *TaskSignature fields.* `GeneratorIntent{GeneratorFamilyRef=…, EnvironmentValidityRegion=… (CHR‑typed), TransferRulesRef=…, CoverageMetric=…}`, `PortfolioMode=Archive`.
+
 *Selection result.* G.5 declares a `Shortlist` over the eligible **{environment, method}** pairs and cites the source, ordering and selection basis. **TransferRules** govern cross-environment policy reuse. This use reports its declared coverage and regret with their edition and policy basis, separately from the selector outcome. It requires neither a QD search nor an illumination report; a later receiving use that needs illumination obtains its measurement basis under C.17:5.1.
 
 **E. Physical manufacturing method-family eligibility.**
+
 *Problem-side episteme.* `PartFamilyFinishingProblemCard-E2 : U.Episteme` is the exact C.22.2 ProblemCard for a shop that must finish `AlloyPartFamily-17` on one machine under `ShopInspectionScheme-E4` and a production-window ClaimScope. The receiving question is which available finishing-method families can be compared without presuming one of them.
-*TaskSignature.* `SurfaceFinishingEligibilitySignature-E1` declares `EntityOfConcernRef=AlloyPartFamilyFinishingTarget-17`, `effectiveReferenceScheme=ShopFinishing-Scheme-A`, `TaskKind=surface-finishing work`, `ScopeSlice(G)=AlloyPartFamily-17 during [2026-09-01T00:00Z, 2026-10-01T00:00Z)`, `ObjectiveProfile={surface roughness Ra@ratio in micrometres with downward polarity, throughput@ratio}`, `ConstraintRefs={geometric-tolerance relation, heat-distortion relation, resource-envelope relation}`, and material hardness as a live `unknown`, with the rule for obtaining the needed measurement and the policy for handling that unknown in eligibility. The TaskSignature makes eligibility reviewable; it does not select grinding, honing, polishing, or another method and does not establish that any part was finished.
-*Assignment.* `FinishingMethodEligibilityUse-E1 : U.Episteme` states the exact receiving eligibility-comparison use. `TaskSignatureAssignmentRelation(PartFamilyFinishingProblemCard-E2, SurfaceFinishingEligibilitySignature-E1, FinishingMethodEligibilityUse-E1)` has exactly the problem-side episteme, signature, and receiving-use episteme as participants. It obtains only while that exact signature is actually adopted as the task-typing declaration for that exact card and the use stated in `FinishingMethodEligibilityUse-E1`, under `ShopFinishing-Scheme-A`, the declared part-family scope, `ShopInspectionScheme-E4`, and the production window above. Withdrawal of that adoption or change of a participant or qualification ends this assignment occurrence; a shared row, carrier, or publication does not make it obtain.
+
+*TaskSignature.* `SurfaceFinishingEligibilitySignature-E1` declares `EntityOfConcernRef=AlloyPartFamilyFinishingTarget-17`, `effectiveReferenceScheme=ShopFinishing-Scheme-A`, `TaskKind=surface-finishing work`, `ScopeSlice(G)=AlloyPartFamily-17 during [2026-09-01T00:00Z, 2026-10-01T00:00Z)`, `ObjectiveProfile={surface roughness Ra@ratio in micrometres with downward polarity, throughput@ratio}`, `ConstraintRefs={geometric-tolerance relation, heat-distortion relation, resource-envelope relation}`, and material hardness as a live `unknown`, with the rule for obtaining the needed measurement and the policy for handling that unknown in eligibility.
+
+The TaskSignature makes eligibility reviewable; it does not select grinding, honing, polishing, or another method and does not establish that any part was finished.
+
+*Assignment.* `FinishingMethodEligibilityUse-E1 : U.Episteme` states the exact receiving eligibility-comparison use. `TaskSignatureAssignmentRelation(PartFamilyFinishingProblemCard-E2, SurfaceFinishingEligibilitySignature-E1, FinishingMethodEligibilityUse-E1)` has exactly the problem-side episteme, signature, and receiving-use episteme as participants.
+
+It obtains only while that exact signature is adopted as the task-typing declaration for that exact card and the use stated in `FinishingMethodEligibilityUse-E1`, under `ShopFinishing-Scheme-A`, the declared part-family scope, `ShopInspectionScheme-E4`, and the production window above. Withdrawal of that adoption or change of a participant or qualification ends this assignment occurrence; a shared row, carrier, or publication does not make it obtain.
 
 **F. Clinical rehabilitation method-family eligibility.**
+
 *Problem-side episteme.* `CohortRehabilitationProblemCard-E3 : U.Episteme` is the exact C.22.2 ProblemCard for a rehabilitation service with `Cohort-2026-Q3` and a stated capability-change question under clinical safety constraints.
+
 *TaskSignature.* `RehabilitationFamilyComparisonSignature-E1` declares `EntityOfConcernRef=RehabilitationCapabilityChangeTarget-4`, `effectiveReferenceScheme=ClinicalRehabilitation-Scheme-C`, `TaskKind=rehabilitation-method-family comparison`, and `ScopeSlice(G)=Cohort-2026-Q3 in the declared care setting during [2026-08-01T00:00Z, 2026-11-01T00:00Z)`. It also declares outcome characteristics with their scale kinds, contraindication and resource constraints, and unknown tolerance or comorbidity values preserved as unknown. Include the evidence relations and follow-up windows only because this comparison use relies on them.
 
 C.22 makes the comparison inputs explicit. Diagnosis and treatment recommendations remain claims governed by the applicable clinical patterns. For a separately current evidence or benefit claim, apply its evidence or clinical evaluation pattern; for a named gate decision, use A.21; for a care-permission claim, use A.2.8.PER and its `GrantedPermissionRelation@Context` predicate; for decision authority, recover the applicable authority predicate. Return `missing-governor` under A.6.RCD only when no governing rule can state or test that exact needed relation claim.
 
-If clinical Work occurs, establish its actual performer System and obtaining assignment under A.13, then independently admit the dated Work and enacted Method under A.15.1. Expose the assignment identifier and declared species, and apply F.6, when this account or its receiving use consumes precise assignment-bound attribution through that assignment. Missing or failed F.6 attribution alone leaves independently admitted Work intact; recheck an admission premise and dependent conclusions if the same finding questions that premise. A local system-role classification or assignment supplies none of the separate permission or authority grounds above.
-*Assignment.* `RehabilitationInterventionFamilyComparisonUse-E1 : U.Episteme` states the exact receiving comparison use. `TaskSignatureAssignmentRelation(CohortRehabilitationProblemCard-E3, RehabilitationFamilyComparisonSignature-E1, RehabilitationInterventionFamilyComparisonUse-E1)` has exactly the problem-side episteme, signature, and receiving-use episteme as participants. It obtains only while that exact signature is actually adopted for that exact card and the use stated in `RehabilitationInterventionFamilyComparisonUse-E1`, under `ClinicalRehabilitation-Scheme-C`, the declared cohort and care ClaimScope, the qualification window above, and the stated evidence-use conditions. Withdrawal of that adoption or loss of a participant or qualification ends this assignment occurrence; cohort labels, records, carriers, and organizations add no signature field or fourth participant.
+If clinical Work occurs, establish its actual performer System and obtaining assignment under A.13, then independently admit the dated Work and enacted Method under A.15.1. Expose the assignment identifier and declared species, and apply F.6, when this account or its receiving use consumes precise assignment-bound attribution through that assignment.
+
+Missing or failed F.6 attribution alone leaves independently admitted Work intact; recheck an admission premise and dependent conclusions if the same finding questions that premise. A local system-role classification or assignment supplies none of the separate permission or authority grounds above.
+
+*Assignment.* `RehabilitationInterventionFamilyComparisonUse-E1 : U.Episteme` states the exact receiving comparison use. `TaskSignatureAssignmentRelation(CohortRehabilitationProblemCard-E3, RehabilitationFamilyComparisonSignature-E1, RehabilitationInterventionFamilyComparisonUse-E1)` has exactly the problem-side episteme, signature, and receiving-use episteme as participants.
+
+It obtains only while that exact signature is adopted for that exact card and the use stated in `RehabilitationInterventionFamilyComparisonUse-E1`, under `ClinicalRehabilitation-Scheme-C`, the declared cohort and care ClaimScope, the qualification window above, and the stated evidence-use conditions. Withdrawal of that adoption or loss of a participant or qualification ends this assignment occurrence; cohort labels, records, carriers, and organizations add no signature field or fourth participant.
 

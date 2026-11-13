@@ -6,12 +6,12 @@ section_id: "G.1:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.1/G.1__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.1 — Author a Reusable CG-Frame Generator and Selector Kit"
   - "G.1:1 — Problem frame"
-line_start: 127222
-line_end: 127240
+line_start: 135272
+line_end: 135290
 dependencies:
   - "A.10"
   - "A.15.2"
@@ -61,13 +61,13 @@ You are authoring a **CG‑Frame** and want a **repeatable scaffold** that conne
 * a **variant pool** (candidate ideas / decision options / method variants),
 * a **shortlist** (a set-result outcome, not a forced singleton),
 * **publication‑ready bindings** into Part‑F artefacts (UTS rows, Name Cards, RSCR tests, worked examples),
-* and **refresh readiness** (telemetry hooks + RSCR wiring) without redefining refresh or shipping.
+* and **refresh readiness** (telemetry hooks + RSCR wiring).
 
-This pattern is intentionally **a chassis**, not a method specification:
+The chassis connects the cards. The following patterns define their methods and payloads.
 
 * harvesting semantics are governed by `G.2`,
 * selection/dispatch semantics are governed by `G.5`,
 * CHR/CAL payload semantics are governed by `G.3` / `G.4`,
 * shipping semantics are governed by `G.10`,
-* refresh orchestration governing definition is `G.11`.
+* `G.11` governs refresh orchestration.
 

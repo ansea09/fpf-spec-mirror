@@ -6,12 +6,12 @@ section_id: "B.5.3:8"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.3/B.5.3__009_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.5.3 — Interpret Domain Vocabulary for an FPF Claim (Domain-Concept Bridge)"
   - "B.5.3:8 — Relations"
-line_start: 50389
-line_end: 50394
+line_start: 52469
+line_end: 52474
 dependencies:
   - "A.13"
   - "A.15"
@@ -45,6 +45,6 @@ keywords:
 ### B.5.3:8 - **Relations**
 
 * **Builds on:** `A.2`, `A.6.5`, `C.3`, `E.24.UK`, `F.0.1`, `F.1`, `F.2`, `F.3`, `F.5`, `F.8`, and `F.17`.
-* **Coordinates with:** `A.7`, `C.2.1`, `E.10.ROLE`, `E.17`, `A.13`, `A.15`, `B.3.3`, `F.7`, `F.9`, and the direct domain-specific CHR, LOG, and CAL patterns.
-* **Used when:** a project must recover what an exact source expression means for one FPF claim, or must relate two distinct local meanings for a named receiving use without confusing the wording, governed value, semantic relation, and use.
+* **Coordinates with:** `A.7`, `C.2.1`, `E.10.ROLE`, `E.17`, `A.13`, `A.15`, `B.3.3`, `F.7`, `F.9`, and the domain-specific CHR, LOG, and CAL patterns that define or constrain the value or relation.
+* **Used when:** a project must recover what a source expression means for one FPF claim, or must relate two distinct local meanings for a named receiving use without confusing the wording, FPF value, semantic relation, and use.
 

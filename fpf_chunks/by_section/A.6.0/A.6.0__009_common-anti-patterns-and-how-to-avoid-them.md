@@ -6,12 +6,12 @@ section_id: "A.6.0:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.0/A.6.0__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.0 — U.Signature - Reusable Law-Governed Declaration Episteme"
   - "A.6.0:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 16584
-line_end: 16596
+line_start: 17289
+line_end: 17301
 dependencies:
   - "A.15.1"
   - "A.17"
@@ -46,7 +46,7 @@ keywords:
 | Failure mode | Why it fails | Repair |
 |---|---|---|
 | Signature as publication template | Visual rows and publication metadata become signature identity. | Recover the declaration content and C.2.1 identity; govern publication separately. |
-| Relation signature as relation occurrence | Declaring participant meanings and laws is treated as evidence that the relation obtains. | Evaluate the direct predicate for the actual participants, state affirmative or negative assertion polarity under the exact direct claim family, keep supported, refuted, or unresolved reliance with `A.10` or the receiving evaluation, and use A.6.REL only when a receiving use needs occurrence identity. |
+| Relation signature as relation occurrence | Declaring participant meanings and laws is treated as evidence that the relation obtains. | Evaluate the direct predicate for the participants, state affirmative or negative assertion polarity under the direct claim family, keep supported, refuted, or unresolved reliance with `A.10` or the receiving evaluation, and use A.6.REL only when a receiving use needs occurrence identity. |
 | Applicability as context label | One undefined context word hides reference scheme, claim scope, time, selected `CHR:ReferencePlane`, and model use. | Recover each current qualifier under its direct kind or relation. |
 | Citation as declaration dependency | A bibliography entry, shared term, or manifest row is treated as proof that one declaration depends on another. | Remove the candidate provider: if the consumer can still interpret every required term and replay every stated law, keep a citation rather than an import. Otherwise name the provider, exact term or law, direct dependency predicate, and named dependent use. |
 | Mandatory maximum form | Every sentence receives SlotSpecs, dependencies, editions, and occurrence records. | Name the receiving use and include only the declaration or occurrence-identity objects it needs. |

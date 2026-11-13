@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.5.SD"
-pattern_title: "Construct a Useful Answer through Substantive Discussion"
+pattern_title: "Construct an Answer through Substantive Discussion"
 section_id: "B.5.SD:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.SD/B.5.SD__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "B.5.SD — Construct a Useful Answer through Substantive Discussion"
+  - "B.5.SD — Construct an Answer through Substantive Discussion"
   - "B.5.SD:7 — Conformance Checklist"
-line_start: 50875
-line_end: 50885
+line_start: 52979
+line_end: 52989
 dependencies:
   - "A.3.1"
   - "B.5.RA"

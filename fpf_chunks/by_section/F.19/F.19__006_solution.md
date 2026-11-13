@@ -6,12 +6,12 @@ section_id: "F.19:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.19/F.19__006_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
   - "F.19:4 — Solution"
-line_start: 126127
-line_end: 126251
+line_start: 134131
+line_end: 134287
 dependencies:
   - "A.19.SPR"
   - "A.6.P"
@@ -41,27 +41,43 @@ Use `OntologyFirstPlainRewrite` as one connected reading and repair over a natur
 #### F.19:4.3 - One connected reading and repair
 
 
-1. **State the governing message.** Say what object, claim, action, event, or distinction the span needs to convey. Mark process traces, status language, reference boilerplate, quality proof, defensive caveats, ornamental detail, and other apparatus that may be displacing it. Apparatus receives no protection merely because it is true or polished.
+1. **State the governing message.** Say what object, claim, action, event, or distinction the span needs to convey. Mark process traces, status language, reference boilerplate, quality proof, defensive caveats, ornamental detail, and other apparatus that may be displacing it. Truth or polish alone does not make the apparatus useful.
 2. **Recover the predicate and its participants.** Identify the operation and every participant that changes it. This may be an actor, object, source, target, result, or another required operand. Apply the same question to verbal and relational nouns: recover *of what*, *for what*, *between what*, or another required participant. Leave an argument implicit only when one intended value is cheaply and uniquely recoverable from the local span.
-3. **Check predicate compatibility.** Recover what the complete claim asserts under its negation, modality, or conditions, and test the subject and participants under the intended literal or metonymic reading. A positive assertion must assign its predicate to a compatible kind. A denial may correct an evidenced type mistake under the plausible-reader test below; without that ground, “evidence does not notice the error” introduces an idle alternative. Keep ordinary metonymy when the relation is established and the capable participant or work remains recoverable: a diagram may show, a framework may help, a reminder may cue, and a constraint may limit.
-4. **Resolve referents and kinds.** Pronouns, demonstratives, omitted heads, and repeated labels must select one locally appropriate referent. Preserve the object kind, claim or relation kind, slot or relation position, use and publication boundary, and flow distinction whenever one changes the claim. A shared grammatical position does not make different FPF kinds interchangeable.
-5. **Test contribution.** Try deleting every optional contrast, guard, modifier, example, coordinated member, and extra proposition. Remove it when the plausible intended reader can still recognize, understand, decide, and act in the same way. Local truth and grammatical fit do not earn a phrase a place by themselves.
-6. **Resolve coordination and lists on two axes.** Recover the proposition or action served by the series, its intended scope, and the relation among its members before choosing the form. Use one kind or predicate only when it fits every member. Distinguish a closed set, illustrative examples, alternatives, a sequence, several direct relations, and a failed ontology. A closed set needs its kind, membership rule, and closure. Connect illustrative examples to the proposition or kind they illustrate, with a non-exhaustive cue when a plausible reader could mistake them for a classification or a boundary of applicability. Usually state the proposition first. When an explanation starts from cases, make the transition to its general claim explicit and supply grounds for that claim's scope. Then decide whether the reader needs to distinguish or retain the members together. If so, preserve the series and the differences that matter to understanding or action. Otherwise state the governing claim or relation directly, retaining its scope and needed grounds. A question about one case may be answered by that case; a general explanation retains its general proposition and reasoning when illustrations are shortened. Test discourse load: keep each optional member for its distinct contribution; reduce repeated coordination and modifier chains that make the reader retain needless branches or postpone the governing message. Length is evidence to inspect, not a verdict. If a series hides an FPF kind, relation, or structure that ordinary reading cannot recover, use the pattern that defines or tests it, or return the unresolved meaning as a blocker.
-7. **Foreground, rewrite, and compare.** Put the governing event, claim, requested action, or decision before optional atmosphere, examples, caveats, and catalogues. A prerequisite may come first when it is needed for safe interpretation or action. Write the shortest ordinary technical sentence that preserves every live predicate and participant, established term, polarity, and action-changing detail. Such detail can include quantity or threshold, sequence or timing, criterion or tolerance, exception, and applicability. Compare before and after: any unsupported change of kind, relation, scope, use, currentness, or operational effect is a loss and blocks the rewrite unless another accepted decision authorizes it.
+3. **Check predicate compatibility.** Recover what the complete claim asserts under its negation, modality, or conditions, and test the subject and participants under the intended literal or metonymic reading. A positive assertion must assign its predicate to a compatible kind. A denial may correct an evidenced type mistake under the plausible-reader test below; without that ground, “evidence does not notice the error” introduces an idle alternative.
 
-Keep ontology visible only where it carries the sentence. A term-source or type annotation is needed only when it changes how the reader identifies the object, kind, relation, slot, use, publication boundary, admissible use, or applicable rule. A record, card, table, schema, data structure, dashboard, or named form remains apparatus unless it carries one of those values. If ordinary domain wording already preserves them, keep the ordinary sentence. "The aircraft flies" is better than a typed expansion unless the flight function, system kind, or slot relation is under repair.
+   Keep ordinary metonymy when the relation is established and the capable participant or work remains recoverable: a diagram may show, a framework may help, a reminder may cue, and a constraint may limit.
+4. **Resolve referents and kinds.** Pronouns, demonstratives, omitted heads, and repeated labels must select one locally appropriate referent. Preserve the object kind, claim or relation kind, slot or relation position, use and publication boundary, and flow distinction whenever one changes the claim. A shared grammatical position does not make different FPF kinds interchangeable.
+5. **Test contribution.** Read the complete span with and without each optional contrast, guard, modifier, example, coordinated member, or extra proposition. Remove it when the plausible intended reader can recognize, understand, decide, and act in the same way. Local truth and grammatical fit do not earn a phrase a place by themselves.
+6. **Resolve coordination and lists on two axes.** Recover the proposition or action served by the series, its intended scope, and the relation among its members before choosing the form. Use one kind or predicate only when it fits every member. Distinguish a closed set, illustrative examples, alternatives, a sequence, several direct relations, and a failed ontology. A closed set needs its kind, membership rule, and closure. Connect illustrative examples to the proposition or kind they illustrate, with a non-exhaustive cue when a plausible reader could mistake them for a classification or a boundary of applicability.
+
+   Usually state the proposition first. When an explanation starts from cases, make the transition to its general claim explicit and supply grounds for that claim's scope.
+
+   Then decide whether the reader needs to distinguish or retain the members together. If so, preserve the series and the differences that matter to understanding or action. Otherwise state the governing claim or relation directly, retaining its scope and needed grounds. A question about one case may be answered by that case; a general explanation retains its general proposition and reasoning when illustrations are shortened.
+
+   Test discourse load: keep each optional member for its distinct contribution; reduce repeated coordination and modifier chains that make the reader retain needless branches or postpone the governing message. Length is a reason to inspect the series. Decide from what the series contributes. If a series hides an FPF kind, relation, or structure that ordinary reading cannot recover, use the pattern that defines or tests it, or return the unresolved meaning as a blocker.
+7. **Foreground, rewrite, and compare.** Put the governing event, claim, requested action, or decision before optional atmosphere, examples, caveats, and catalogues. A prerequisite may come first when it is needed for safe interpretation or action. Write the shortest ordinary technical sentence that preserves every live predicate and participant, established term, polarity, and action-changing detail. Such detail can include quantity or threshold, sequence or timing, criterion or tolerance, exception, and applicability.
+
+   Compare before and after: any unsupported change of kind, relation, scope, use, currentness, or operational effect is a loss and blocks the rewrite unless another accepted decision authorizes it.
+
+Keep ontology visible only where it carries the sentence. A term-source or type annotation is needed only when it changes how the reader identifies the object, kind, relation, slot, use, publication boundary, admissible use, or applicable rule. A record, card, table, schema, data structure, dashboard, or named form remains apparatus unless it carries one of those values.
+
+If ordinary domain wording already preserves them, keep the ordinary sentence. "The aircraft flies" is better than a typed expansion unless the flight function, system kind, or slot relation is under repair.
 
 **Precision before a coarsened rendering.** When head kind, qualifier claim, or comparison basis remains unresolved in FPF-governed prose, use this working order:
 
-Restore the head kind first; a narrowing qualifier such as `comparative`, `safe`, `interactive`, or `reliable` does **not** by itself restore that kind. Then unpack the qualifier claim, then check whether the comparison or escalation basis is homogeneous. Only after that may a later Plain, didactic, or coarsened rendering admissibly relax the sentence, while keeping the more precise upstream interpretation recoverable.
+Restore the head kind first. A narrowing qualifier such as `comparative`, `safe`, `interactive`, or `reliable` does **not** by itself restore that kind. Unpack the qualifier claim and then check whether the comparison or escalation basis is homogeneous. Only after that may a later Plain, didactic, or coarsened rendering relax the sentence, while keeping the more precise upstream interpretation recoverable.
 
 Judge homogeneity against the comparison or condition rule actually used; recover distinct relations separately when that rule combines them. The basis may be a homogeneous claim-kind criterion, threshold, or named defining, constraining, or source-relation condition.
 
-Treat `exact`, `direct`, `current`, `governed`, `subject`, `owner`, `defining`, and similar qualifiers as content only when they distinguish live alternatives. Remove them when no such contrast changes the truth, action, stop, or reliance. A PatternID may remain an ordinary citation; expand it into a claim-bearing episteme, `ClaimGraph`, `U.MethodDescription`, `U.Method`, actor, assignment, `U.Work`, or another formal identity only when the current claim or a named later use depends on that distinction.
+Treat `exact`, `direct`, `current`, `governed`, `subject`, `owner`, `defining`, and similar qualifiers as content only when they distinguish live alternatives. Remove them when no such contrast changes the truth, action, stop, or reliance.
+
+A PatternID may remain an ordinary citation; expand it into a claim-bearing episteme, `ClaimGraph`, `U.MethodDescription`, `U.Method`, actor, assignment, `U.Work`, or another formal identity only when the current claim or a named later use depends on that distinction.
 
 Keep ordinary practitioner action and instrumental pattern-use wording ordinary when it does not assert a particular dated Work occurrence. “Use `E.9` to record the decision” and “the framework maintainer compares the editions” need no invented Method, MethodDescription, performer, assignment, or Work identity.
 
-Open the identity-bearing branch only when the sentence deliberately asserts a particular dated `U.Work` occurrence. Then point to its basis: A.13 first, independent A.15.1 Work admission second, and F.6 afterward only for precise assignment-bound attribution. Add a local system-role kind or a separate System-classification judgment only when that neighboring claim matters. Treat a pattern episteme as a `U.MethodDescription` only after `A.3.2` establishes that it has an already admitted Method as its exact `EntityOfConcern` and makes at least one substantive claim about that Method as a way of doing. Otherwise cite the applicable pattern content as guidance and use `A.3.1` for the Method itself.
+Open the identity-bearing branch only when the sentence deliberately asserts a particular dated `U.Work` occurrence. Then point to its basis: A.13 first, independent A.15.1 Work admission second, and F.6 afterward only for precise assignment-bound attribution. Add a local system-role kind or a separate System-classification judgment only when that neighboring claim matters.
+
+Treat a pattern episteme as a `U.MethodDescription` only after `A.3.2` establishes that it has an already admitted Method as its exact `EntityOfConcern` and makes at least one substantive claim about that Method as a way of doing. Otherwise cite the applicable pattern content as guidance and use `A.3.1` for the Method itself.
 
 
 
@@ -71,20 +87,26 @@ Open the identity-bearing branch only when the sentence deliberately asserts a p
 Use two reader tests for different decisions.
 
 - The **plausible intended reader** has the knowledge and task presupposed by the text. Use this reader to decide whether a foil, guard, warning, or contrast deserves mention. Do not substitute an adversarial reader who can imagine any false inference, or the author who already knows the answer.
-- The **cold intended reader** lacks the author's private context and unpublished notes. Use this reader after the rewrite: they can recover the object, predicate, participants, relevant kind or ordinary status, relation, action-changing detail, and next useful action.
+- The **cold intended reader** lacks the author's private context and unpublished notes. After the rewrite, ask whether this reader can recover the object, predicate, participants, relevant kind or ordinary status, relation, action-changing detail, and next useful action.
 
-Recover the instruction from the publication, its stated prerequisites and the knowledge presupposed for its intended reader. An application-test scenario may supply task-specific inputs, such as workload or available resources. Distinguish those inputs from explanations of the instruction supplied only for the test. If only the test scenario explains the action denoted by B2, successful application demonstrates use of that supplied explanation; the publication's wording question remains unanswered. Name or reference the action in the publication, then check recovery without the test-only explanation.
+Recover the instruction from the publication, its stated prerequisites and the knowledge presupposed for its intended reader. An application-test scenario may supply task-specific inputs, such as workload or available resources. Distinguish those inputs from explanations of the instruction supplied only for the test.
 
-Retain a negative alternative, denied consequence, warning, or non-use statement only when the exact rejected reading has an independent local ground; a plausible intended reader could take that reading here, including an evidenced type mistake; and the distinction changes truth, understanding, selection, safety, stop, reliance, or action. An earlier or source claim, an observed recurring mistake, a serious competing position, a visible representation feature, or an applicable safety risk can supply the ground. The guard itself cannot.
+If only the test scenario explains the action denoted by B2, successful application demonstrates use of that supplied explanation; the publication's wording question remains unanswered. Name or reference the action in the publication, then check recovery without the test-only explanation.
 
-Even a grounded guard should be the smallest clear correction. When actor allocation is the useful content, state it positively: “On receiving new evidence, the reader decides whether to reopen checking or revision.” When currentness is the useful content, state the direct use: “This guide conveys the seminar of 1 February 2026; check current rules against the current FPF edition.” Keep material negation, documented anti-patterns, fair disputes, and safety stops when their polarity or boundary is itself the claim.
+Retain a negative alternative, denied consequence, warning, or non-use statement only when three conditions hold. The particular reading being rejected has an independent local ground. A plausible intended reader could adopt that reading here, including through an evidenced type mistake. The distinction changes truth, understanding, selection, safety, stop, reliance, or action.
+
+An earlier or source claim, an observed recurring mistake, a serious competing position, a visible representation feature, or an applicable safety risk can supply the ground. The guard itself cannot.
+
+Use the smallest clear correction for a grounded guard. When actor allocation is the useful content, state it positively: “On receiving new evidence, the reader decides whether to reopen checking or revision.” When currentness is the useful content, state the direct use: “This guide conveys the seminar of 1 February 2026; check current rules against the current FPF edition.” Keep material negation, documented anti-patterns, fair disputes, and safety stops when their polarity or boundary is itself the claim.
 
 
 
 #### F.19:4.5 - Basis and coverage of a recovery judgement
 
 
-State whether the judgement rests on an expert walkthrough, an actual reading, or a formal-model estimate, using the distinctions in `C.2.8:4.5`. An expert can judge recoverability from the public text for the intended reader. An actual response establishes what that reader recovered under those reading conditions. A formal-model estimate retains its stated observer, selected structure and model conditions under `C.2.8:4.6`.
+State whether the judgement rests on an expert walkthrough, an actual reading, or a formal-model estimate, using the distinctions in `C.2.8:4.5`.
+
+An expert can judge recoverability from the public text for the intended reader. An actual response establishes what that reader recovered under those reading conditions. A formal-model estimate retains its stated observer, selected structure and model conditions under `C.2.8:4.6`.
 
 Use expert reading for a bounded wording judgement when it resolves the question from the permitted public inputs and no actual response is required. Obtain actual public-only recovery when:
 
@@ -93,24 +115,34 @@ Use expert reading for a bounded wording judgement when it resolves the question
 - it remains materially uncertain whether the publication supplies the needed instruction or the evaluator supplies it from private knowledge or test-only explanation; or
 - demonstrated misses undermine the sufficiency of the earlier expert reading for the affected instruction family.
 
-A visible wording defect can be repaired directly. Select any reading still needed for the repaired text and intended conclusion. Give a cold reader the publication, its stated prerequisites and task inputs, withholding private rationale and suggested answers. Preserve the initial recovery before supplying further explanation; qualify subsequent source returns or help under `C.2.8:4.3`.
+A visible wording defect can be repaired directly. Select any reading still needed for the repaired text and intended conclusion.
 
-Limit a recovery conclusion to the natural text units and relations examined under its actual evidence basis. A whole-publication conclusion needs coverage of the whole publication, including relations needed to read its parts together. Successful application probes cover their tested uses; they leave unexamined text outside that result. A whole expert reading combined with local actual readings retains that mixed basis. Reuse a result for the same or explicitly unaffected text, recovery question, reader preparation, access, assistance and budget when those conditions still apply. A local revalidation by a reader familiar with the earlier wording retains that qualification.
+Give a cold reader the publication, its stated prerequisites and task inputs, withholding private rationale and suggested answers. Preserve the initial recovery before supplying further explanation; qualify subsequent source returns or help under `C.2.8:4.3`.
 
-State a material limit in the receiving judgement or result already needed by the work. When a required reading is unavailable, identify the missing basis and leave only the dependent conclusion open. Correct recovery of what the text asserts and the subject-matter warrant or practical adequacy of that assertion remain separate questions under `C.2.8`.
+Limit a recovery conclusion to the natural text units and relations examined under its actual evidence basis. A whole-publication conclusion needs coverage of the whole publication, including relations needed to read its parts together. Successful application probes cover their tested uses; they leave unexamined text outside that result.
+
+A whole expert reading combined with local actual readings retains that mixed basis.
+
+Reuse a result for the same or explicitly unaffected text, recovery question, reader preparation, access, assistance and budget when those conditions still apply. A local revalidation by a reader familiar with the earlier wording retains that qualification.
+
+State a material limit in the receiving judgement or result already needed by the work. When a required reading is unavailable, identify the missing basis and leave only the dependent conclusion open.
+
+Correct recovery of what the text asserts and the subject-matter warrant or practical adequacy of that assertion remain separate questions under `C.2.8`.
 
 
 
 #### F.19:4.6 - Result and local revalidation
 
 
-The ordinary result is the repaired text, or a blocker naming the unresolved meaning. Do not require a separate result form, card, table, progress row, or recorded answer for each facet of the reading.
+Keep wording that already serves the reader. Where a change is needed, return the repaired text or identify the meaning that still needs to be established. Do not require a separate record for each facet of the reading, whether a form, card, table, progress row, or written answer.
 
-After changing words or syntax, reread the changed sentence and only the nearby text needed to determine its referents, predicate, participants, contrast, modality, support, action, and result. The earlier semantic verdict does not transfer to new wording. Unchanged spans and conclusions remain reusable; a local edit does not trigger an automatic whole-document pass.
+After changing words or syntax, reread the changed sentence with the passages needed to determine its referents, predicate, participants, contrast, modality, support, action, and result. Revisit a directly affected instruction wherever it appears.
+
+The earlier semantic verdict does not transfer to new wording. Reuse a judgement about an unchanged passage when the repair leaves its meaning and use unaffected. A local edit does not require a new reading of the whole document.
 
 When a named high-risk or disputed decision needs inspectable evidence, show the before text, repaired text, live values that had to survive, and any unresolved blocker. Use the receiving decision's existing comparison or review result. The optional fields below can structure that result when its receiver needs them; ordinary corrections need no separate form.
 
-If ordinary reading settles the issue, stop. Open `E.10`, `E.10.ARCH`, `E.10.ROLE`, `A.6.F`, `F.18`, or an exact subject pattern only when an FPF meaning or use condition remains unresolved. A trigger helps find a candidate; it neither bans the wording nor closes the judgement.
+If ordinary reading settles the issue, stop. If an FPF meaning or use condition remains unresolved, consult `E.10`, `E.10.ARCH`, `E.10.ROLE`, `A.6.F`, `F.18`, or the pattern whose definition, constraint, or test addresses that question. A trigger helps find a candidate; it neither bans the wording nor closes the judgement.
 
 #### F.19:4.1 - Result form
 

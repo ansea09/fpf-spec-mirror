@@ -6,12 +6,12 @@ section_id: "C.11:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11/C.11__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.11 — Decision Theory (Decsn-CAL)"
   - "C.11:1 — Problem frame"
-line_start: 56731
-line_end: 56757
+line_start: 59057
+line_end: 59083
 dependencies:
   - "A.10"
   - "A.13"
@@ -52,12 +52,12 @@ keywords:
 
 ### C.11:1 - Problem frame
 
-**When ongoing Work still needs a next action.** If admissible actions still have to be recovered from ongoing Work, its domain Method, and current facts, use `A.15.7` first. Return here only when a current chooser and `OptionSet` exist and comparison can change the result; a mandatory response or one familiar cue need not be inflated into an option set.
+**When ongoing Work still needs a next action.** If admissible actions still have to be recovered from ongoing Work, its domain Method, and current facts, use `A.15.7` first. Return here only when a current chooser and `OptionSet` exist and comparison can change the result; a mandatory response or one familiar cue need not be expanded into an option set.
 
 
-**Use this when.** Use this pattern when one `DecisionSubject` already has an `OptionSet` in hand and the real question is how to choose among those already-available options under uncertainty, preference, causal or subjunctive dependence, and bounded probing or computation.
+**Use this when.** Use this pattern when one `DecisionSubject` already has an `OptionSet` in hand and the question is how to choose among those already-available options under uncertainty, preference, causal or subjunctive dependence, and bounded probing or computation.
 
-**First output.** The first useful output is one explicit `DecisionSubject`, one explicit `OptionSet`, one explicit comparison basis, one explicit `ChoiceRule`, and one explicit `ChoiceResult` saying whether the lawful choice result is choose now, reject the current set, probe more, or move to a neighboring question.
+**First output.** The first useful output explicitly identifies one `DecisionSubject`, one `OptionSet`, the comparison basis and `ChoiceRule`, and the resulting `ChoiceResult`. That result states whether the lawful choice is to choose now, reject the current set, probe more, or move to a neighboring question.
 
 If that first output still cannot be stated, the local comparison is unfinished or the question belongs to a neighboring pattern.
 
@@ -73,7 +73,7 @@ If that first output still cannot be stated, the local comparison is unfinished 
 
 **Typical reroutes.** For candidate construction or development, use `C.38`–`C.40` as specified in §4.4; that section also distinguishes pool policy, selected-set publication and enactment. Use `A.13` when agency itself is at issue, or `A.18`/`A.19` when Scale bindings or a declared CharacteristicSpace or reusable predicate are the unresolved question.
 
-**What this pattern buys.** This pattern gives one stable place to compare classical, causal, success-first or subjunctive, bounded-resource, active-inference-adjacent, and quantum-like decision lines without silently reassigning search, selection, or planning doctrine to the wrong question. In practice it buys one explicit answer to four questions: choose now, reject the current set, probe again, or reroute.
+**What this pattern buys.** This pattern gives one stable place to compare classical, causal, success-first or subjunctive, bounded-resource, active-inference-adjacent, and quantum-like decision lines while keeping search, selection, and planning doctrine with their respective questions. In practice it buys one explicit answer to four questions: choose now, reject the current set, probe again, or reroute.
 
 **Not this pattern when.** Do not start here when the current question is still generating candidate options, setting exploration or exploitation policy over a candidate pool, declaring selector-facing set-result content, making that result available to an audience, or sequencing execution under an operational plan.
 

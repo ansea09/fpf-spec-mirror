@@ -6,12 +6,12 @@ section_id: "C.29.2:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29.2/C.29.2__006_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.29.2 — Computational Formulation"
   - "C.29.2:5 — Archetypal Grounding"
-line_start: 70495
-line_end: 70646
+line_start: 73588
+line_end: 73739
 dependencies:
   - "A.10"
   - "A.3.1"
@@ -60,13 +60,13 @@ This explains the elementary operations and their order. A parser or caller admi
 | `increment, double, stop`; `x0 = 3` | `(0,3)` | `(1,4)` | `(2,8)` | `8` |
 | `double, increment, stop`; `x0 = 3` | `(0,3)` | `(1,6)` | `(2,7)` | `7` |
 
-**Argument.** After `p` arithmetic steps, `x` is the result of applying exactly the first `p` instructions to `x0`, and `0 <= p <= n`. Initialization gives the empty composition. Each branch applies the next specified operation and advances the position, preserving that statement. While an arithmetic instruction remains, `n-p` decreases by one and cannot be negative. At `p=n` the next instruction is `stop`, so the returned integer is the requested composition. With `P = [stop]`, the same procedure returns `x0` immediately.
+**Argument.** After `p` arithmetic steps, `x` is the result of applying exactly the first `p` instructions to `x0`, and `0 <= p <= n`. Initialization gives the empty composition. Each branch applies the next specified operation and advances the position, preserving that statement. While an arithmetic instruction remains, `n-p` decreases by one and cannot be negative. At `p=n` the next instruction is `stop`, so the returned integer is the requested composition. With `P = [stop]`, the same procedure returns `x0`.
 
 **Cost changes with representation.** Counting one step for each arithmetic instruction and the final `stop` gives `n+1` instruction steps, apart from validation and input/output costs. That does not make arbitrary-size arithmetic constant-time. Represent the magnitude in binary and retain the sign separately. Let `b0` be the binary length of `|x0|`, counting zero as one bit. Each operation increases the magnitude's length by at most one, so the current magnitude needs at most `b0+n` bits, plus one sign bit. The position and stored program need additional space.
 
-With simple materialized binary arithmetic that scans or copies the current digits, an arithmetic step on `b` bits costs at most proportional to `b`. Summing the growing lengths gives an arithmetic-work upper bound proportional to `n*b0 + n^2` for that implementation, before any separately material program-access costs. A representation that treats doubling differently requires another estimate. On a fixed-width integer implementation, enough increments or doublings can instead overflow; the exact-integer argument then requires a range restriction or a different realization.
+With simple materialized binary arithmetic that scans or copies the current digits, an arithmetic step on `b` bits costs at most proportional to `b`. Summing the growing lengths gives an arithmetic-work upper bound proportional to `n*b0 + n^2` for that implementation. Add program-access costs when they matter to the estimate. A representation that treats doubling differently requires another estimate. On a fixed-width integer implementation, enough increments or doublings can instead overflow; the exact-integer argument then requires a range restriction or a different realization.
 
-**What became possible.** The executor can perform any calculation in this finite instruction class by receiving another sequence. [Turing's 1936 construction, §§5–7](https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf), makes encoded computation rules available to an interpreter; this small case uses that constructive idea. Turing's universal-machine result concerns a much richer simulation construction. Adding jumps or continuing input to this case changes its progress and cost questions and requires their own argument.
+**What became possible.** The executor can perform any calculation in this finite instruction class by receiving another sequence. [Turing's 1936 construction, §§5–7](https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf), makes encoded computation rules available to an interpreter; this small case uses that constructive idea. Turing's universal-machine result concerns a richer simulation construction. Adding jumps or continuing input to this case changes its progress and cost questions and requires their own argument.
 
 #### C.29.2:5.2 - Turn a root condition into a bounded approximation
 
@@ -124,7 +124,7 @@ Starting with all pairs `(1,0)`, apply the Hadamard operation `(a,b) -> ((a+b)/s
 
 An entangling gate can invalidate that representation. The two-qubit state with nonzero amplitudes `1/sqrt(2)` at `00` and `11` and zeros at `01` and `10` cannot be one product: nonzero `alpha_0*alpha_1` and `beta_0*beta_1` would make all four factors nonzero, contradicting a zero cross term. The product procedure must therefore reject that extension or receive a richer representation and update algorithm. Even in the product class, requesting all `2^50` amplitudes explicitly restores an exponential output count.
 
-**First result and next contribution.** The original dense proposal is ruled out. The factorized procedure answers the separately stated restricted question; it is not a replacement for an unspecified general circuit. To continue, recover the actual input-state and gate family, requested observable or samples, and tolerated error, then obtain and cost an applicable domain algorithm. The general method supplied the count and the construction question; quantum simulation supplies the representations and update/readout algorithms.
+**First result and next contribution.** The original dense proposal is ruled out. The factorized procedure answers the separately stated restricted question; it is not a replacement for an unspecified general circuit. To continue, recover the input-state and gate family, requested observable or samples, and tolerated error, then obtain and cost an applicable domain algorithm. The general method supplied the count and the construction question; quantum simulation supplies the representations and update/readout algorithms.
 
 #### C.29.2:5.4 - Obtain different computations from the same circuit relations
 
@@ -158,7 +158,7 @@ With `h = 0.1 s`, its first step gives `v_C_next = 3 V`, from which the readouts
 
 **Consistent initialization is another problem.** In the voltage-given question, the prescribed `v_C(0)=2 V` and `v_s(0)=12 V` force `v_R(0)=10 V`, `i(0)=1 A` and `dv_C/dt(0)=10 V/s`. An initializer's guess `i(0)=0 A` may be replaced while finding these values. Making `i(0)=0 A` an additional required condition instead contradicts the relations. The capacitor's prescribed initial voltage represents an initial physical condition in this model. A starting guess guides numerical search; the resulting numerical approximation is assessed against the initial constraints and required accuracy.
 
-For a larger differential-algebraic model, obtain the needed consistent-initialization, tearing or index-reduction Method from that discipline. Return the actual equations, givens, initial constraints and requested readouts with the unresolved question. A numerical initialization failure alone does not establish that the constraints are inconsistent; the contradiction in this small case follows from the displayed algebra.
+For a larger differential-algebraic model, obtain the needed consistent-initialization, tearing or index-reduction Method from that discipline. Return the equations, givens, initial constraints and requested readouts with the unresolved question. A numerical initialization failure alone does not establish that the constraints are inconsistent; the contradiction in this small case follows from the displayed algebra.
 
 #### C.29.2:5.5 - Construct a probability estimate with a specified error guarantee
 
@@ -181,5 +181,5 @@ Taking n = 2,000 makes the bound 0.05 at epsilon = 0.05. The guarantee concerns 
 
 This construction consumes 2,000 observations and counter updates. Each counter needs 11 bits to represent values through 2,000; the output can be retained as the rational s/2,000. Include the cost of obtaining an observation when that cost matters. This conservative bound already supplies a finite construction; a sharper concentration argument can reduce the required observations when that saving is worth obtaining.
 
-**Change the sampling premise.** If every read repeats one sampled bit B, then p_hat=B for every n. At p=0.5, its error is always 0.5, so the requested guarantee fails. More reads of that retained bit do not repair the construction. Obtain a sampling operation with the required independence, or recompute the error bound from the dependence actually supplied.
+**Change the sampling premise.** If every read repeats one sampled bit B, then p_hat=B for every n. At p=0.5, its error is always 0.5, so the requested guarantee fails. More reads of that retained bit do not repair the construction. Obtain a sampling operation with the required independence, or recompute the error bound from the dependence supplied.
 

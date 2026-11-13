@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.30"
-pattern_title: "Grounded Architecture and Selected-Structure Adequacy"
+pattern_title: "Architecture and Selected-Structure Adequacy"
 section_id: "C.30:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30/C.30__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "C.30 — Grounded Architecture and Selected-Structure Adequacy"
+  - "C.30 — Architecture and Selected-Structure Adequacy"
   - "C.30:3 — Forces"
-line_start: 71405
-line_end: 71415
+line_start: 74498
+line_end: 74508
 dependencies:
   - "A.1"
   - "A.10"
@@ -78,8 +78,8 @@ keywords:
 
 | Force | Tension |
 | --- | --- |
-| Everyday architecture speech vs FPF kind precision | Engineers need familiar phrases such as functional architecture, physical architecture, and control architecture; a precise FPF use recovers the described holon, selected structure, structure kind, architecture concern, admissible-use frame, and the exact use of inspected material as source, description, view, or publication form. |
-| Direct architecture relation vs claim vs description | An obtaining `ArchitectureRelation`, a C.2.1 claim about it or about candidate or expected structure, and a useful architecture description are easy to collapse into one word even though only the direct relation is subject-side architecture. |
+| Everyday architecture speech vs FPF kind precision | Engineers need familiar phrases such as functional architecture, physical architecture, and control architecture; a precise FPF use recovers the described holon, selected structure, structure kind, architecture concern, admissible-use frame, and the use of inspected material as source, description, view, or publication form. |
+| Direct architecture relation vs claim vs description | An obtaining `ArchitectureRelation`, a C.2.1 claim about it or about candidate or expected structure, and a useful architecture description are easy to collapse into one word even though only the relation is subject-side architecture. |
 | Multi-view adequacy vs module reduction | Architecture includes functional, flow, control, module structure, interface relation, Work, system-role-kind or assignment structure, evidence relation, information structure, placement structure, scale, and declared logical structures; module structure and interface relations form only one structure family. |
 | Small first architecture move vs full record | A short account can support the next move; additional description is useful when its information changes that move. |
 | Multi-view architecture discipline vs tool lock-in | FPF separates holons, selected structures, descriptions, viewpoints, views, correspondences, publications, source return, and the patterns used for separate claims without importing a tool-specific lifecycle. |

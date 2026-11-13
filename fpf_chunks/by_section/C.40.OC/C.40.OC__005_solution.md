@@ -6,12 +6,12 @@ section_id: "C.40.OC:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OC/C.40.OC__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.40.OC — Characterize a Subject for a Possible Change"
   - "C.40.OC:4 — Solution"
-line_start: 86761
-line_end: 86892
+line_start: 90995
+line_end: 91126
 dependencies:
   - "C.11.CRC"
   - "C.16"
@@ -28,7 +28,7 @@ Build a characteristic account sufficient for this inquiry, exposing every mater
 
 #### C.40.OC:4.1 - Bind the characterization to one subject, use, and horizon
 
-Name the exact subject and configuration. For an AI case, distinguish model, data, scaffold, tools, oversight, access, and surrounding operating arrangement when their differences matter. For an organization, name the organization or bounded arrangement rather than treating its chart or provider as the subject. For a person, name the person and relevant later-Work context.
+Name the subject and configuration. For an AI case, distinguish model, data, scaffold, tools, oversight, access, and surrounding operating arrangement when their differences matter. For an organization, name the organization or bounded arrangement rather than treating its chart or provider as the subject. For a person, name the person and relevant later-Work context.
 
 State the receiving use, horizon and scenarios. Include the time stance and evidence window needed to interpret or rely on the selected readings; a reported measurement retains its measurement-specific temporal basis. A characterization for today's incident-review Work is not automatically valid for a future management role. A model benchmark in one configuration does not characterize another configuration with the same product label.
 
@@ -56,7 +56,7 @@ A generic capability, maturity, readiness, quality, or performance catalogue is 
 
 For every selected characteristic, state in ordinary language:
 
-1. what exact subject or relation bears it;
+1. what subject or relation bears it;
 2. what the characteristic means for this receiving use;
 3. its scale or admissible levels and any unit;
 4. polarity—higher-is-better, lower-is-better, target-is-best, or no simple order;
@@ -67,7 +67,7 @@ For every selected characteristic, state in ordinary language:
 9. source, method, and qualification needed for reliance; and
 10. the next claim that this reading can change.
 
-Use [`C.16`](https://github.com/ailev/FPF/blob/main/FPF-Spec.md) when a value, score, sensor indication, rating, or comparison must be made interpretable as a measurement. A display or source link can report or locate a result; reliance still needs its measurement basis and supported relation to the subject. A MethodDescription explains a way of obtaining a result without establishing that the result was obtained.
+Use [`C.16`](https://github.com/ailev/FPF/blob/main/FPF-Spec.md) when a value, score, sensor indication, rating, or comparison must be made interpretable as a measurement. A display or source link can report or locate a result; reliance needs its measurement basis and supported relation to the subject. A MethodDescription explains a way of obtaining a result without establishing that the result was obtained.
 
 #### C.40.OC:4.4 - Orient the complete comparison coordinate set
 
@@ -84,21 +84,21 @@ State required authority separately as a condition for proceeding. Include the t
 
 Do not hide one family inside another or average incomparable scales. A Pareto-improvement claim is warranted only when the declared complete set has no worsening coordinate and at least one improving coordinate under the same basis. Otherwise use only supported language such as `beneficial`, `harmful`, `dominated`, `non-dominated`, or `indeterminate`. None of these selects the direction.
 
-#### C.40.OC:4.5 - Return characteristic meaning and evidence to direct owners
+#### C.40.OC:4.5 - Return characteristic meaning and evidence to owners
 
 Use the practice that owns the substantive characteristic:
 
 - human capability and representative later-Work evidence require the applicable capability assessment for that person, receiving Work and permitted support;
 - organization contribution, positions, assignments, arrangements, culture, and change remain with current organization and strategy practices;
-- AI/model evaluation, data, safety, security, oversight, and deployment claims remain with their direct engineering and governance owners;
+- AI/model evaluation, data, safety, security, oversight, and deployment claims remain with their engineering and governance owners;
 - service, flow, reliability, safety, and operability remain with operations, engineering, safety, and domain practices as applicable;
 - architecture characteristics use `C.32.ACS` or `C.32.ACE` only when architecture is the bearer;
 - measurement meaning and work use `C.16`; and
-- evidence reliance, provenance, and currentness use their direct FPF owners.
+- evidence reliance, provenance, and currentness use their FPF owners.
 
 Record an available MethodDescription as a way a result might be obtained, not as the result. Mark a source-qualified unknown when measurement, access, or currentness is insufficient.
 
-When a reading was established for a different bearer or configuration, rely on it only when the direct practice that owns the receiving characteristic supplies a qualified transfer basis covering the receiving bearer and configuration, characteristic meaning, scale, intended use, evidence window, and uncertainty. Without that basis, keep the receiving reading `unknown` and limit the affected opportunity claim. This can finish a useful characterization. Use A.15.9 and C.11.DUA to select an evidence request only when its obtainable contribution warrants formulation, qualification, supplier Work, delivery, interpretation, delay, and displaced work.
+When a reading was established for a different bearer or configuration, rely on it only when the practice that owns the receiving characteristic supplies a qualified transfer basis covering the receiving bearer and configuration, characteristic meaning, scale, intended use, evidence window, and uncertainty. Without that basis, keep the receiving reading `unknown` and limit the affected opportunity claim. This can finish a useful characterization. Use A.15.9 and C.11.DUA to select an evidence request only when its obtainable contribution warrants formulation, qualification, supplier Work, delivery, interpretation, delay, and displaced work.
 
 #### C.40.OC:4.6 - Write the bounded characterization
 
@@ -130,7 +130,7 @@ ChangeRelevantCharacterization@Context:
 
 Include only fields that serve the receiving use; an inactive request needs no field or explanation. This local form is not a universal characteristic space, measurement result, diagnosis, criterion verdict, capability profile, decision, or authorization. Several selected characteristics may use different scales and result epistemes.
 
-#### C.40.OC:4.7 - Choose the next truthful result
+#### C.40.OC:4.7 - Choose the next result
 
 Return one of these outcomes:
 

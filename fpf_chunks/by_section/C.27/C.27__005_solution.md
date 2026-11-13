@@ -6,12 +6,12 @@ section_id: "C.27:3"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Change"
   - "C.27:3 — Solution"
-line_start: 67034
-line_end: 67121
+line_start: 70088
+line_end: 70177
 dependencies:
   - "A.10"
   - "A.3.3"
@@ -101,7 +101,9 @@ Unknown resistance can support a local diagnosis or planning discussion. It cann
 
 Ordinary practitioner prose may say, for example, “the engineer slowed the rollout” when it recognizably names the System acting in the situation.
 
-If the receiving claim relies on performed Work, identify the actual System actor, recover its A.13 core, and independently admit the dated Work under A.15.1. Add F.6 afterward only when the temporal claim also needs precise assignment-bound attribution. If the claim relies on a local system-role kind, System classification, or assignment, add each distinction separately. An assignment does not act and does not supply authority; cite its directly declared relation species and exact obtaining occurrence while still naming the holder System.
+If the receiving claim relies on performed Work, identify the actual System actor, recover its A.13 core, and independently admit the dated Work under A.15.1. Add F.6 afterward only when the temporal claim also needs precise assignment-bound attribution.
+
+If the claim relies on a local system-role kind, System classification, or assignment, add each distinction separately. An assignment does not act and does not supply authority; cite its directly declared relation species and exact obtaining occurrence while still naming the holder System.
 
 For a non-system input, name its actual direct relation to the temporal behavior, or keep it as an unresolved or source-side intervention claim. Keep authority, WorkPlan, capability, performed Work, and claimed effect separate.
 
@@ -109,9 +111,9 @@ For a non-system input, name its actual direct relation to the temporal behavior
 
 Observed cadence can remain Dyn1. A rhythm claim becomes Dyn2 only when effort pattern, coordination, recovery, stabilization, or another intervention-sensitive use changes the supported action.
 
-For coasting, ask what continues after effort changes or stops, why it may continue, over which window, what use that reading supports, and what change reopens it. Possible bases include habit, automation, stored work, queue pressure, learned capability, commitment momentum, social norm, physical inertia, or unknown; these are examples, not proof.
+For coasting, ask what continues after effort changes or stops, why it may continue, over which window, what use that reading supports, and what change reopens it. Possible bases include habit, automation, stored work, queue pressure, learned capability, commitment momentum, social norm, physical inertia, or unknown.
 
-Keep coasting and debt distinct. Coasting describes continued movement or stability. Debt or hysteresis describes what remains and how costly reversal or recovery is. A claim may need both. Rework, service demand, quality loss, burnout, hidden queues, risk, or coordination cost can appear after acceleration. Reversibility may be unknown; that bounds use instead of forcing a theory.
+Keep coasting and debt distinct. Coasting describes continued movement or stability. Debt or hysteresis describes what remains and how costly reversal or recovery is. A claim may need both. Rework, service demand, quality loss, burnout, hidden queues, risk, or coordination cost can appear after acceleration. Reversibility may be unknown; that bounds use.
 
 #### C.27:3.4 - Boundary-Crossing Header
 
@@ -134,5 +136,5 @@ activeNeighborResults:
 
 When the profile is used to identify an adequacy episteme, its EntityOfConcern is the source episteme or addressed claim denoted by `sourceTemporalClaimRef`. The profile's references preserve the direct results it consumes; they are not substituted for those results.
 
-Each activeNeighborResults entry names the actual result kind supplied by its direct pattern. Do not replace a C.16 measurement result, C.28 causal-use result, G.9 parity result, C.26.3 envelope-regulation claim, Work occurrence, evidence relation, or assurance claim with a generic C.27 field.
+Each activeNeighborResults entry names the result kind supplied by its direct pattern. Do not replace a C.16 measurement result, C.28 causal-use result, G.9 parity result, C.26.3 envelope-regulation claim, Work occurrence, evidence relation, or assurance claim with a generic C.27 field.
 

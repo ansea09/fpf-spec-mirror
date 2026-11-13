@@ -6,12 +6,12 @@ section_id: "B.1.4:9"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.4/B.1.4__015_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.1.4 — Specify Order-Sensitive or Temporal Aggregation (Γ_ctx, Γ_time)"
   - "B.1.4:9 — Relations"
-line_start: 42139
-line_end: 42146
+line_start: 43798
+line_end: 43805
 dependencies:
   - "A.1.1"
   - "A.14"
@@ -37,8 +37,8 @@ keywords:
 ### B.1.4:9 - Relations
 
 - Builds on `B.1`, `A.14`, and `C.13` for part-whole, phase, and constructive grounding discipline.
-- Coordinates with `C.2.1` for exact episteme identities and independently obtaining edition relations; with `A.3.1`, `A.3.2`, `A.15.2`, and `A.15.1` for method, method description, work plan, dated work occurrence, and exact Work-temporal relations.
+- Coordinates with `C.2.1` for episteme identities and independently obtaining edition relations; with `A.3.1`, `A.3.2`, `A.15.2`, and `A.15.1` for method, method description, work plan, dated work occurrence, and Work-temporal relations.
 - Coordinates with `B.1.6` for work-resource aggregation.
 - Coordinates with `A.3.4` for transformation. Use `B.2` directly for a clear whole-reidentification question; use `B.2.P` first only when emergence-family wording hides the claim kind. The relevant subject pattern defines or constrains the recovered claim.
-- Coordinates with `C.27.TA` for positive temporal-aspect facts and `C.27` for a separate temporal-claim adequacy question. Use `C.29` when mathematical representation-choice, transfer or reliance remains unresolved. `E.18` governs an actual selected transformation-flow structure; `E.18.2` governs its mathematical description or that of a selected TFS network.
+- Coordinates with `C.27.TA` for positive temporal-aspect facts and `C.27` for a separate temporal-claim adequacy question. Use `C.29` when mathematical representation-choice, transfer or reliance remains unresolved. `E.18` governs a selected transformation-flow structure; `E.18.2` governs its mathematical description or that of a selected TFS network.
 

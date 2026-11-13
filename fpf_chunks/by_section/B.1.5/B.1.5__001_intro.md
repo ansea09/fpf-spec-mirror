@@ -6,12 +6,12 @@ section_id: "B.1.5:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5/B.1.5__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.1.5 — Gamma_method - Order-Sensitive Method Composition and Work Enactment"
   - "B.1.5:intro — Intro"
-line_start: 42149
-line_end: 42154
+line_start: 43808
+line_end: 43813
 dependencies:
   - "A.1"
   - "A.15"
@@ -61,5 +61,5 @@ keywords:
 
 > **Type:** Part B composition and grounding pattern
 > **Status:** Stable
-> **Normativity:** Normative unless a section is explicitly informative
+> **Normativity:** Normative unless a section is marked informative
 

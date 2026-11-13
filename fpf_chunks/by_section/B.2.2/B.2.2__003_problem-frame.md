@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.2.2"
-pattern_title: "Meta-System Transition: Test the Proposed New Whole as a System"
+pattern_title: "Test the Proposed New Whole as a System"
 section_id: "B.2.2:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.2/B.2.2__003_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "B.2.2 — Meta-System Transition: Test the Proposed New Whole as a System"
+  - "B.2.2 — Test the Proposed New Whole as a System"
   - "B.2.2:1 — Problem Frame"
-line_start: 43985
-line_end: 43992
+line_start: 45759
+line_end: 45768
 dependencies:
   - "A.1"
   - "A.10"
@@ -44,7 +44,9 @@ keywords:
 
 `B.2` is holon-general. `B.2.2` is its `U.System` specialization.
 
-B.2.2 tests whether B.2's exact proposed new whole satisfies A.1 and has a physical or operational organization through which it is eligible to act causally in work or transformation while preserving its identity—the direct `U.System` criterion. If it does, recover the separately governed system-level claims needed by the case, such as delimitation, objective, coordination, capability, functioning, architecture, transformation, work, assurance, or time. The old constituent systems may remain parts, participants, resources, or interacting neighbors, but their claims do not automatically become claims about that recognized result system.
+B.2.2 tests whether B.2's proposed new whole satisfies A.1 and has a physical or operational organization through which it is eligible to act causally in work or transformation while preserving its identity—the `U.System` criterion.
 
-A collection of systems is not thereby a system MHT. B.2.2 carries B.2's existing-whole/new-whole comparison through complete A.1 recognition and the direct `U.System` criterion.
+If it does, recover the separately governed system-level claims needed by the case, such as delimitation, objective, coordination, capability, functioning, architecture, transformation, work, assurance, or time. The old constituent systems may remain parts, participants, resources, or interacting neighbors, but their claims do not automatically become claims about that recognized result system.
+
+A collection of systems is not thereby a system MHT. B.2.2 carries B.2's existing-whole/new-whole comparison through A.1 recognition and the `U.System` criterion.
 

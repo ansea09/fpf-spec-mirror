@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.5.TU"
-pattern_title: "Construct a Working Use of an Unfamiliar Theory"
+pattern_title: "Construct a Use of an Unfamiliar Theory"
 section_id: "B.5.TU:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.TU/B.5.TU__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "B.5.TU — Construct a Working Use of an Unfamiliar Theory"
+  - "B.5.TU — Construct a Use of an Unfamiliar Theory"
   - "B.5.TU:4 — Solution"
-line_start: 48746
-line_end: 48799
+line_start: 50780
+line_end: 50833
 dependencies:
   - "A.15.9"
   - "A.6.3.RT"
@@ -25,7 +25,7 @@ keywords:
 
 ### B.5.TU:4 - Solution
 
-Connect the working question, the theory's constructive or inferential resources, and the use of the resulting answer. Enter where the unresolved connection begins; reuse contributions already available. The following unfolding can be revisited when its own result changes an earlier choice.
+Connect the question, the theory's constructive or inferential resources, and the use of the resulting answer. Enter where the unresolved connection begins; reuse contributions available. The following unfolding can be revisited when its result changes an earlier choice.
 
 #### B.5.TU:4.1 - Choose an application worth constructing
 
@@ -49,9 +49,9 @@ Connect each consequential object and condition to the selected case. Some are s
 
 Choose the values, boundary conditions, allowed operations and sought output. For a theoretical question, this may be entirely a construction within the theory. For a physical use, explain which system, quantity or interaction the mathematical object represents. C.29 supplies the mathematical correspondence and the comparison of what it preserves, omits or introduces.
 
-Compose the required operations. Check the connection between successive contributions: an operation's output must supply the next operation's required input. An integration procedure, for example, needs a function of its integration variable; a formula with unfilled path or parameter arguments has yet to supply that function.
+Compose the required operations. Check the connection between successive contributions: an operation's output must supply the next operation's required input. An integration procedure, for example, needs a function of its integration variable; a formula with unfilled path or parameter arguments does not supply that function.
 
-If a source case cannot be adapted by the available rules, identify the particular missing contribution. Another formulation, a specialist result or a developed operation may supply it. A.15.9 supports obtaining and using bounded help; C.39 supports developing a way when none is known.
+If a source case cannot be adapted by the available rules, identify the missing contribution. Another formulation, a specialist result or a developed operation may supply it. A.15.9 supports obtaining and using bounded help; C.39 supports developing a way when none is known.
 
 #### B.5.TU:4.4 - Obtain and inspect a consequence
 
@@ -61,7 +61,7 @@ When computation is involved, interpret its inputs, operations and output. C.29.
 
 Compare with a simple consequence you can inspect when that comparison can reveal an error: a limiting case, a preserved quantity, an input count, a dimensional relation or a small enumeration. Select the relevant comparison; its purpose is to expose a possible failure in this application.
 
-#### B.5.TU:4.5 - Apply the answer to the working question
+#### B.5.TU:4.5 - Apply the answer to the question
 
 Read the answer back in the terms of the intended use. If it gives a construction, determine whether the required inputs and operations are available. If it gives a bound, use the exclusion or allowance that bound supports. If it gives a physical prediction, identify the model and operating conditions under which that prediction concerns the system.
 
@@ -75,5 +75,5 @@ Return the interpreted answer and the conditions its receiver needs. An ordinary
 
 Stop when the contribution suffices. Otherwise identify what remains: a source explanation, missing operation, changed model, competing theoretical account or newly worthwhile question. B.5.RR follows the effect of a changed premise; B.5 coordinates a changed inquiry.
 
-Use this result to choose the next learning or work contribution. When the work requires one participant to apply or alter the method independently, that capability needs its own performed use under the relevant conditions. A supplied answer can still serve work that does not require that independence.
+Use this result to choose the next learning or work contribution. When the work requires one participant to apply or alter the method independently, that capability needs its performed use under the relevant conditions. A supplied answer can serve work that does not require that independence.
 

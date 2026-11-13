@@ -6,12 +6,12 @@ section_id: "C.21:5"
 section_title: "Three progressive uses"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__007_three-progressive-uses.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:5 — Three progressive uses"
-line_start: 62695
-line_end: 62708
+line_start: 65244
+line_end: 65257
 dependencies:
   - "A.10"
   - "A.17-A.18"
@@ -50,11 +50,11 @@ keywords:
 
 #### C.21:5.1 - Minimal readable health claim
 
-State the discipline, intended use, one Characteristic, the ClaimScope, comparison or observation basis, time stance, and ordinary result. Name the support actually relied on. Stop when this answers the working question. Do not require an EvidenceGraph, UTS row, registry, dashboard, definition set, series, or publication occurrence.
+State the discipline, intended use, one Characteristic, the ClaimScope, comparison or observation basis, time stance, and ordinary result. Name the support relied on. Stop when this answers the working question. Do not require an EvidenceGraph, UTS row, registry, dashboard, definition set, series, or publication occurrence.
 
 #### C.21:5.2 - Measurement, comparison, or aggregation
 
-Open C.16 when an actual measurement is claimed. Make the DHC replay basis recoverable, identify measurement Work and result separately, and apply A.18 legality. For direct comparison use the same-semantics branch in section 4.2. For a comparison that relies on a cross-local semantic relation, add the exact F.9 branch. Open G.0, A.19, normalization, distance, evidence-reliance, or assurance only when the operation or receiver actually consumes it.
+Open C.16 when an actual measurement is claimed. Make the DHC replay basis recoverable, identify measurement Work and result separately, and apply A.18 legality. For direct comparison use the same-semantics branch in section 4.2. For a comparison that relies on a cross-local semantic relation, add the exact F.9 branch. Open G.0, A.19, normalization, distance, evidence-reliance, or assurance only when the operation or receiver consumes it.
 
 #### C.21:5.3 - Reusable series, dashboard, or publication
 

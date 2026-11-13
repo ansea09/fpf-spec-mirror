@@ -6,12 +6,12 @@ section_id: "E.18.NET:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.NET/E.18.NET__013_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.18.NET — Network of Transformation-Flow Structures"
   - "E.18.NET:12 — Relations"
-line_start: 112544
-line_end: 112551
+line_start: 119699
+line_end: 119706
 dependencies:
   - "A.1.STM"
   - "A.12"
@@ -43,5 +43,5 @@ Builds on: `A.22` for selected-structure identity and non-agentivity; `E.18` for
 
 Coordinates with: `A.15.6` for actual project Work, project system-of-interest designation, and subject- or claim-centred case closure; `A.1.STM` for a Plain provisional long-mantra display and backward/forward attention use; `E.18.2` and `C.29` for mathematical descriptions; `A.22.CGUS` and `E.18.3` for admitted demonstrative slices; `C.30.TFS-REL` for architecture use; `C.32.CONWAY` for one qualified architecture-influence pair; `A.3.4`, `A.12`, and the A.15 family for actual transformation, causal or acting positions, Work, production, and work-to-change claims; `E.17` for publication; `E.11` for public entry and recognition; and `E.11.PUA` for using one already selected pattern to reach its first useful result.
 
-Does not replace: the direct pattern that defines or constrains any selected production, use, participation, evaluation, feedback, dependency, correspondence, supply, evidence, assurance, gate, decision, causal, or work relation. E.18.NET selects already obtaining occurrences for one network use; it does not mint their kinds or make them obtain.
+Does not replace: the direct pattern that defines or constrains any selected production, use, participation, evaluation, feedback, dependency, correspondence, supply, evidence, assurance, gate, decision, causal, or work relation. E.18.NET selects already obtaining occurrences for one network use; it does not define their kinds or make them obtain.
 

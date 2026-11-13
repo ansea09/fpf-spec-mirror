@@ -6,12 +6,12 @@ section_id: "F.7:7"
 section_title: "Conceptual construction"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.7/F.7__008_conceptual-construction.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.7 — Display Source-Local Comparisons in a Concept-Set Table"
   - "F.7:7 — Conceptual construction"
-line_start: 120577
-line_end: 120585
+line_start: 128231
+line_end: 128239
 dependencies:
   - "A.6.9"
   - "B.3"
@@ -41,7 +41,7 @@ keywords:
 
 * **Start from a question.** State the comparison or receiving use before selecting entries.
 * **Bring exact local meanings.** Use F.0.1, F.2, F.3, and F.17 only as needed.
-* **Bring relations, do not manufacture them.** Cite the direct pattern and evidence for each relation that matters.
+* **Show established relations.** Cite the direct pattern and evidence for each relation that matters.
 * **State the receiving-use conclusion separately.** Say what the current comparison permits, with its basis and limits.
 * **Keep the row focused.** Add an entry only when it changes the answer.
 * **Use contrast.** When no adequate relation is established, show the difference rather than forcing a unification.

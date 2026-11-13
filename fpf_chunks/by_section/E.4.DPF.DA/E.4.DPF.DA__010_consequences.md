@@ -6,12 +6,12 @@ section_id: "E.4.DPF.DA:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF.DA/E.4.DPF.DA__010_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.4.DPF.DA — Evaluate a DPF or LPF Package for Its Declared Use (Package-Adequacy CharacteristicSpace)"
   - "E.4.DPF.DA:9 — Consequences"
-line_start: 95677
-line_end: 95682
+line_start: 100720
+line_end: 100727
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -61,5 +61,7 @@ keywords:
 
 Package evaluation examines connections and field coverage that individual pattern checks cannot establish. Its cost includes recovering and assessing the needed evidence; reuse adequate results and scope additional work to the package judgement being sought.
 
-It also prevents a common false choice. A DPF seed can be useful without pretending to be public-ready, and a public-ready package can remain domain-bounded without pretending to be FPF Core. `D12` adds one field-coverage judgement and `PFM12` one incremental publication-form check. Neither starts a second evaluation pass, copies another Method's steps, or charges a `PFM1` observation twice.
+A DPF seed can be useful without being ready for public use. Readiness for public use does not extend the scope of a domain package to FPF Core.
+
+`D12` adds one field-coverage judgement and `PFM12` one incremental publication-form check. Neither starts a second evaluation pass, copies another Method's steps, or charges a `PFM1` observation twice.
 

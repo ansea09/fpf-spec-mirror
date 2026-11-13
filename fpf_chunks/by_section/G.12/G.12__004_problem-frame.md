@@ -6,12 +6,12 @@ section_id: "G.12:2"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.12/G.12__004_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.12 — DHC Dashboards (Discipline-Health Time Series and Views)"
   - "G.12:2 — Problem Frame"
-line_start: 132561
-line_end: 132573
+line_start: 140686
+line_end: 140698
 dependencies:
   - "A.19"
   - "A.2.6"
@@ -57,7 +57,7 @@ Dashboards drift or become misleading when they:
 * copy a value without its C.21 replay basis;
 * average nominal or ordinal values or mix Units;
 * hide normalization, distance, comparison, or target-band rules;
-* require a Bridge for every source difference or omit F.9 when distinct local senses are actually related;
+* require a Bridge for every source difference or omit F.9 when distinct local senses are related;
 * turn a row, screenshot, UTS name, form, or carrier into the measurement or series episteme;
 * turn selected sets or archives into one scalar winner; or
 * rebuild everything because changed definition and evidence pins cannot be localized.

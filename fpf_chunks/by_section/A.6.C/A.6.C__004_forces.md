@@ -6,12 +6,12 @@ section_id: "A.6.C:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.C/A.6.C__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.C — Contract Unpacking for Boundaries"
   - "A.6.C:3 — Forces"
-line_start: 15519
-line_end: 15529
+line_start: 16030
+line_end: 16040
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -34,7 +34,7 @@ dependencies:
   - "U.SpeechAct"
   - "U.Work"
 keywords:
-  - "A.6.B separately classifies the actual claim"
+  - "A.6.B separately classifies the claim"
   - "MVPK no-new-semantics"
   - "OPTIONAL or authority-looking wording is ambiguous"
   - "atomic L/A/D/E rows"
@@ -62,6 +62,6 @@ keywords:
 | Ontological correctness | Familiar contract wording can hide whether a guarantee is semantic, a prescription, an undertaking, or an observed result. |
 | Boundary diversity         | Software APIs, hardware connectors, protocols, and SLAs share the “contract” word but differ in what is adjudicated and how.                      |
 | Multi-view publication | Faces support audience fit when projection is needed; rephrasing can change the claim. |
-| Adjudicability | When “guarantee” or authority wording leaves a consequential ambiguity, recover the semantic truth, exact generic prescription, individual commitment or current grant, entry predicate, or observed/evaluated claim needed by the receiving use. |
+| Adjudicability | When “guarantee” or authority wording leaves a consequential ambiguity, recover the semantic truth, generic prescription, individual commitment or current grant, entry predicate, or observed/evaluated claim needed by the receiving use. |
 | Minimality                 | The unpacking should be lightweight enough to apply during routine authoring and review.                                                          |
 

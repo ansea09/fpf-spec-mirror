@@ -6,36 +6,27 @@ section_id: "A.1.STM:5"
 section_title: "Worked uses"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.STM/A.1.STM__007_worked-uses.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.1.STM — Connect Project Reasoning (System-Thinking Long Mantra)"
   - "A.1.STM:5 — Worked uses"
-line_start: 4290
-line_end: 4359
+line_start: 4414
+line_end: 4489
 dependencies:
   - "A.1"
-  - "A.1.CSD"
   - "A.1.SCR"
   - "A.10"
-  - "A.12"
-  - "A.14"
   - "A.15"
-  - "A.15.5"
   - "A.15.6"
-  - "A.15.PROD"
   - "A.2"
   - "A.2.1"
-  - "A.21"
   - "A.22.CGUS"
   - "A.3"
-  - "A.3.1"
-  - "A.3.4"
   - "B.3"
   - "B.5.PI"
   - "C.22.2"
   - "C.28"
   - "C.30"
-  - "C.30.STRAT"
   - "C.32.P2S"
   - "E.18"
   - "E.18.NET"
@@ -46,7 +37,9 @@ keywords:
 
 #### A.1.STM:5.1 - Common pump SoI, separate organizational contributions
 
-The intended operating situation requires reliable water delivery at the user's outlet. Start there and examine the water-supply installation of which the pump is a part at that time: demand, inlet supply, the downstream path and the conditions under which delivery must continue. The pump must move water and maintain the required flow and pressure within those conditions. "Water-delivery unit" names the sought system by that contribution. The claimed mechanism needs engineering grounds; the desired outlet result alone cannot establish it.
+The intended operating situation requires reliable water delivery at the user's outlet. Start there and, from the pump boundary, examine the water-supply installation of which the pump is a part at that time. Explain how the pump, inlet supply, downstream path, power and control equipment work together to maintain delivery. Demand and the required continuity of that whole determine the pump's needed flow and pressure under the stated conditions. "Water-delivery unit" names the sought system by that contribution. The claimed mechanism needs engineering grounds; the desired outlet result alone cannot establish it.
+
+Suppose only the pump drawing and desired outlet flow are initially available. The team cannot yet derive the pump requirements from the installation's functioning. It obtains the installation arrangement and operating information, identifies the other parts and checks how they cooperate to supply the outlet. If the missing fact concerns upstream storage or control, that becomes the next inquiry. A list of nearby pipes or the pump manufacturer's name would leave this account unfinished. Once the required account is supported, the team can reuse it when comparing internal pump constructions.
 
 In this modernization project, the operator, controller supplier and maintenance team designate the existing `PumpUnit-3` as the common SoI for the selected use. A supplier offering a usable controller under its own bounded delivery obligations can also have the controller as its product SoI. A separate project to develop the test laboratory has the laboratory as its engineering subject, with pump qualification providing the use basis. The water-supply installation is relevant through composition and operation; the supplier and laboratory are relevant through creation and provision. A.1 recognition, project designation, any local system-role classification and any assignment remain separate questions.
 
@@ -90,9 +83,11 @@ This one-off allocation does not establish a case for permanent expansion. If ex
 
 #### A.1.STM:5.2 - One-off service: a usable hairstyle
 
-A client and a stylist first describe the intended use: the appearance the client seeks while moving through an event and later ordinary conditions, including possible rain. They examine the hairstyle in that bodily and social use before choosing the arrangement of hair and fasteners, then cutting and styling Methods, a capable stylist and suitable tools. The salon contributes through creation; it is not a containing whole of the worn hairstyle. Merely completing the hair operations would leave the purpose unmet if the result cannot survive the agreed use.
+A client and a stylist first describe the intended use: the appearance the client seeks while moving through an event and later ordinary conditions, including possible rain. Starting at the proposed hair-and-fastener assembly's boundary, they examine the larger physical whole in use: the client with the worn hairstyle, including its attachment and the bodily movements it must accommodate. They must establish the claimed composition and explain how those parts function together. If that account is missing, they investigate it before treating an internal arrangement as justified. The event and other people also matter through interaction and reception. They then compare arrangements of hair and fasteners, cutting and styling Methods, a capable stylist and suitable tools. The salon contributes through creation; it is not a containing whole of the worn hairstyle. Merely completing the hair operations would leave the purpose unmet if the result cannot survive the agreed use.
 
-The embodied hairstyle is the proposed SoI; the salon is a provider, the sketch is a description, and the appointment's Work has its own boundary. Before the hairstyle exists, its designator belongs to the agreed description. For an actual system claim, A.1.SCR evaluates that exact proposed hair-and-fastener whole, its identity and physical organization; it does not substitute the client merely because the client is already a recognized System. If the whole is established not to satisfy the System criterion, reject that System interpretation. If necessary facts are missing, leave recognition unresolved and name the missing basis. In either case, preserve the supported service and result claims; do not treat those claims as settling the project's common SoI. The ordinary hairstyle name alone settles no systemhood question.
+The embodied hairstyle is the proposed SoI; the salon is a provider, the sketch is a description, and the appointment's Work has its own boundary. Before the hairstyle exists, its designator belongs to the agreed description. For an actual system claim, A.1.SCR evaluates that exact proposed hair-and-fastener whole, its identity and physical organization; it does not substitute the client merely because the client is already a recognized System.
+
+If the whole is established not to satisfy the System criterion, reject that System interpretation. If necessary facts are missing, leave recognition unresolved and name the missing basis. In either case, preserve the supported service and result claims; do not treat those claims as settling the project's common SoI. The ordinary hairstyle name alone settles no systemhood question.
 
 The sketch can be complete before styling; styling Work can end before the later use has been observed. Each local closure remains available at its own scope. A later failure under the agreed use conditions can reopen the design or service decision without making the earlier sketch an unfinished episteme or erasing the Work that happened.
 
@@ -100,7 +95,9 @@ The sketch can be complete before styling; styling Work can end before the later
 
 A materials-instrument team is developing a diagnostic installation for laboratories. Its intended use is to distinguish two material failure mechanisms, so that installation is the product SoI. A bounded research project investigates an explanatory model and produces an account of experiments; those results are epistemes. The shared systemic account connects model construction, test design and instrument changes to the diagnostic use. The argument and publication can reach their own acceptance before the installation is changed or the improved diagnosis is demonstrated.
 
-This choice depends on the stated research purpose. A project seeking a theorem, historical explanation or openly reusable knowledge must not invent an arbitrary laboratory, reader or computer as its SoI merely to fill a position. Its epistemic result can be legitimate and locally complete. For the diagnostic research, a supported finding that the proposed model cannot distinguish the mechanisms can finish the agreed inquiry and justify another approach; it does not establish improved diagnostic capability. If participants need a systemic account, they must still establish which system's useful use supplies their common purpose and how knowledge development contributes to it. An unknown or contested receiving use leaves that systemic basis open without invalidating the separate epistemic result.
+This choice depends on the stated research purpose. A project seeking a theorem, historical explanation or openly reusable knowledge must not invent an arbitrary laboratory, reader or computer as its SoI merely to fill a position. Its epistemic result can be legitimate and locally complete.
+
+For the diagnostic research, a supported finding that the proposed model cannot distinguish the mechanisms can finish the agreed inquiry and justify another approach; it does not establish improved diagnostic capability. If participants need a systemic account, they must still establish which system's useful use supplies their common purpose and how knowledge development contributes to it. An unknown or contested receiving use leaves that systemic basis open without invalidating the separate epistemic result.
 
 #### A.1.STM:5.4 - The same machine in different project roles
 

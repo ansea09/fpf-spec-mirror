@@ -6,12 +6,12 @@ section_id: "C.3.3:2"
 section_title: "Context"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.3/C.3.3__003_context.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.3.3 — KindBridge and CL^k — Correspondence between Distinct Kinds"
   - "C.3.3:2 — Context"
-line_start: 55653
-line_end: 55656
+line_start: 57943
+line_end: 57946
 dependencies:
   - "A.2.6"
   - "A.6.REL"
@@ -25,5 +25,5 @@ keywords:
 
 ### C.3.3:2 - Context
 
-Different sources or practices may use the same kind, or different kinds may coexist inside one source. Names, source labels, compatible schemes, and matching current extensions decide neither. First compare the candidate domains and membership distinctions under C.3.1. Same-kind reuse needs no bridge. Distinct-kind reuse may need a `KindBridge` when its exact correspondence predicate can be established. F.9 is additional only when distinct local senses and their bounded use are current.
+Different sources or practices may use the same kind, or different kinds may coexist inside one source. Names, source labels, compatible schemes, and matching current extensions decide neither. First compare the candidate domains and membership distinctions under C.3.1. Same-kind reuse needs no bridge. Distinct-kind reuse may need a `KindBridge` when its correspondence predicate can be established. F.9 is additional only when distinct local senses and their bounded use are current.
 

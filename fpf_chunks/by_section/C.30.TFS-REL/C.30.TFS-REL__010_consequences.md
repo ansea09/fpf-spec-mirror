@@ -6,24 +6,20 @@ section_id: "C.30.TFS-REL:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.TFS-REL/C.30.TFS-REL__010_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.30.TFS-REL — Use Transformation-Flow Structures and Networks in Architecture"
   - "C.30.TFS-REL:9 — Consequences"
-line_start: 75034
-line_end: 75042
+line_start: 78410
+line_end: 78418
 dependencies:
   - "A.10"
   - "A.15"
-  - "A.15.1"
   - "A.20"
   - "A.21"
   - "A.22"
   - "A.3.4"
-  - "A.6.0"
-  - "A.6.5"
   - "A.6.F"
-  - "A.6.M"
   - "A.7"
   - "B.3"
   - "C.16"
@@ -33,13 +29,8 @@ dependencies:
   - "C.30"
   - "C.30.AD"
   - "C.30.ASV"
-  - "C.30.STRAT"
   - "C.32"
   - "C.32.CONWAY"
-  - "C.32.P2S"
-  - "C.33"
-  - "C.34"
-  - "C.35"
   - "E.10"
   - "E.17.0"
   - "E.18"
@@ -48,7 +39,6 @@ dependencies:
   - "E.18.NET"
   - "E.24.PUB"
   - "F.18"
-  - "G.6"
 keywords:
   - "ArchitectureTransformationFlowStructureRelation"
   - "TFS"
@@ -65,7 +55,7 @@ keywords:
 
 | Benefit | Cost or trade-off |
 | --- | --- |
-| E.18 TFS paths, crossings, valuations, and E.18.NET network structure become usable across actual architecture relations, bounded claims, selected architecture structures, exact structural views, and conditional descriptions without merging owners. | Every use names the exact architecture locus. A network use also distinguishes the actual containing-holon, single-holon claim, or explicit inter-holon branch and keeps every characteristic on a named bearer. |
+| E.18 TFS paths, crossings, valuations, and E.18.NET network structure become usable across actual architecture relations, bounded claims, selected architecture structures, structural views, and conditional descriptions without merging owners. | Every use names the architecture locus. A network use also distinguishes the actual containing-holon, single-holon claim, or explicit inter-holon branch and keeps every characteristic on a named bearer. |
 | Required functional content, transformation-flow structure, and actual transformation stay separable. | Concise "the diagram is the architecture/change" prose is repaired before it carries an FPF claim. |
 | Non-flow claim kinds are assigned to their governing patterns. | More governing patterns are named when practitioners try to overuse the diagram, mathematical expression, or selected structure. |
 | The E.18 selected-structure boundary stays narrow. | Generic architecture adequacy remains outside E.18. |

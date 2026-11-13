@@ -6,12 +6,12 @@ section_id: "C.37.CF:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37.CF/C.37.CF__010_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.37.CF — Compare Content and Form Changes"
   - "C.37.CF:9 — Consequences"
-line_start: 82429
-line_end: 82434
+line_start: 86450
+line_end: 86455
 dependencies:
   - "A.3.2.DE"
   - "C.2.8"
@@ -23,5 +23,5 @@ keywords:
 
 A useful revision can be retained without overstating why it helped. Content defects and representation defects receive different repairs, and later selection or worth decisions receive evidence with usable limits.
 
-The cost is preparing informative contrasts and observing the actual task. When that cost cannot change the decision, take the sufficient direct result or an honestly bounded bundle comparison.
+The cost is preparing informative contrasts and observing the reader carry out the task. When that cost cannot change the decision, take the sufficient direct result or a bounded bundle comparison.
 

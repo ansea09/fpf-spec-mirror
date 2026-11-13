@@ -6,12 +6,12 @@ section_id: "G.6:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.6/G.6__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.6 — Evidence Graph and Provenance Ledger: Citable Evidence-Provenance Paths"
   - "G.6:1 — Problem Frame"
-line_start: 129919
-line_end: 129934
+line_start: 137971
+line_end: 137986
 dependencies:
   - "A.10"
   - "A.10.1"
@@ -61,15 +61,15 @@ keywords:
 
 Use this pattern when a later user must cite, replay, audit or refresh a chain of established facts, such as a measurement, an acceptance judgement and a decision. Give that chain a stable address while preserving the evidence and rules for its members.
 
-**Primary EntityOfConcern.** The primary `EntityOfConcern` is an addressable provenance representation: one `EvidenceGraph`, its `PathId` or `PathSliceId`, and any ledger entry that makes the path replayable. G.6 governs path identity, slicing, citation and refresh of the representation. The represented facts remain governed by their subject patterns.
+**Primary `EntityOfConcern`.** G.6 concerns an addressable provenance representation: one `EvidenceGraph`, its `PathId` or `PathSliceId`, and any ledger entry that makes the path replayable. G.6 governs path identity, slicing, citation and refresh of the representation. The represented facts remain governed by their subject patterns.
 
-**First useful move.** Name the relied-on claim or bounded use, then list the exact object refs and direct relation refs needed to replay it. For every relation record its direct governor and obtaining claim. Only then draw the path. Keep an unresolved relation as a gap; do not turn it into a graph edge asserted as obtaining.
+**First useful move.** Name the relied-on claim or bounded use, then list the exact object refs and direct relation refs needed to replay it. For each relation, identify the rule that governs it and cite the claim that it holds. Only then draw the path. Keep an unresolved relation as a gap; do not turn it into a graph edge asserted as obtaining.
 
-**What goes wrong if missed.** A tidy graph makes an unperformed method look like Work, a co-listed System or entity look like a participant or Work performer, a carrier look like a produced result, a measurement or verdict look like generic evidence, or a provenance edge look like the world-side relation itself.
+**What goes wrong if missed.** Reading a graph as proof of the facts it depicts can make an unperformed method look like Work, a co-listed System or entity look like a participant or Work performer, a carrier look like a produced result, a measurement or verdict look like generic evidence, or a provenance edge look like the world-side relation itself.
 
 **What this buys.** A downstream user can cite one path and recover its supporting facts, their qualifications and the direct relations that connect them. A changed premise can be traced to every dependent path within the established coverage.
 
-**Not this pattern when.** If the required fact or relation has not been established, use its subject pattern in §4.1 first. If only one local source-to-use statement is needed, stay in A.10.
+**When to use a different pattern.** If the required fact or relation has not been established, use its subject pattern in §4.1 first. If only one local source-to-use statement is needed, stay in A.10.
 
 Here `path` means a path in a descriptive provenance graph, not an action route.
 

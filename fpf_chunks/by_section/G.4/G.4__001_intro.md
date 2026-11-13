@@ -6,12 +6,12 @@ section_id: "G.4:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.4/G.4__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.4 — CAL Authoring for a CG-Frame: Operators, Acceptance Clauses, Evidence Wiring"
   - "G.4:intro — Intro"
-line_start: 128656
-line_end: 128669
+line_start: 136707
+line_end: 136720
 dependencies:
   - "A.10"
   - "A.13"
@@ -60,13 +60,13 @@ keywords:
 
 > **Status:** Stable
 
-**Use this when.** A team has typed characteristics and now needs to publish reusable operators, acceptance clauses, and legal compositions before any candidate is actually evaluated. The working object is one design-time `CAL Pack@CG-Frame`, not an evaluation run, verdict, selector outcome, assurance case, or decision.
+**Use this when.** A team has typed characteristics and now needs to publish reusable operators, acceptance clauses, and legal compositions before any candidate is evaluated. The working object is one design-time `CAL Pack@CG-Frame`, not an evaluation run, verdict, selector outcome, assurance case, or decision.
 
-**First move.** Write one plain acceptance statement for one task: “For subject `x` within `ClaimScope` `S`, with any temporal conditions required by this clause, apply operator `O` to a C.16 measurement result for Characteristic `K` that argument declaration `R` admits. In the actual application, bind current result episteme `E`; the application of clause `A` returns `pass | fail | unknown` under threshold or policy `P` and any currentness conditions needed for that use.” Then turn only the reusable operator and clause definitions into stable CAL declarations. `E` belongs to the later application, not to reusable clause `A`.
+**First move.** Write one plain acceptance statement for one task: “For subject `x` within `ClaimScope` `S`, with any temporal conditions required by this clause, apply operator `O` to a C.16 measurement result for Characteristic `K` that argument declaration `R` admits. When applying the clause, bind current result episteme `E`; the application of clause `A` returns `pass | fail | unknown` under threshold or policy `P` and any currentness conditions needed for that use.” Then turn only the reusable operator and clause definitions into stable CAL declarations. `E` belongs to the later application, not to reusable clause `A`.
 
-**Smallest viable CAL pack.** Publish one charter for the exact CG frame, one typed operator card, one acceptance clause with `ClaimScope`, any evaluation window required by its predicate or receiving use, and unknown or failure behavior, one legal flow, one evidence and currentness profile, one proof-or-gap row, one worked declaration example, and a minimal editioned `TaskMap` that cites the exact charter, the C.22 `TaskSignatureRef`, and the declaration refs used by selection. Stop there when this pack answers the task; method-family extensions, archive surfaces, crossing records, and additional policy pins enter only when the case actually needs them.
+**Smallest viable CAL pack.** Publish one charter for the exact CG frame, one typed operator card, one acceptance clause with `ClaimScope`, any evaluation window required by its predicate or receiving use, and unknown or failure behavior, one legal flow, one evidence and currentness profile, one proof-or-gap row and one worked declaration example. Publish a minimal editioned `TaskMap` that cites the exact charter, the C.22 `TaskSignatureRef`, and the declaration refs used by selection. Stop there when this pack answers the task; method-family extensions, archive surfaces, crossing records, and additional policy pins enter only when the case needs them.
 
 **What changes in practice.** Thresholds and failure behavior become inspectable, illegal arithmetic becomes an authoring defect, and runtime workers can cite stable declarations when applying an operator or clause.
 
-**Not this pattern.** Use C.16 for the measurement result, A.19 for comparison or selection, A.13 and A.15.1 for each precise performer and independently admitted dated evaluation Work, F.6 only when exact assignment-bound attribution is current, A.6.1 for actual bindings, C.2.1 for the verdict episteme, A.10/G.6 for provenance, G.11 for currentness, B.3 for assurance, and C.11 for a decision. If the immediate question is whether a declared clause actually ran and what result obtained, go directly to the declaration-to-runtime boundary in §4.4a.
+**Not this pattern.** Use C.16 for the measurement result, A.19 for comparison or selection, A.13 to identify each performer, A.15.1 for independent admission of dated evaluation Work, and F.6 when the receiving claim needs to establish that this Work was performed under the same assignment, A.6.1 for actual bindings, C.2.1 for the verdict episteme, A.10/G.6 for provenance, G.11 for currentness, B.3 for assurance, and C.11 for a decision. If the immediate question is whether the clause was applied and what verdict that application returned, use §4.4a to distinguish the declaration from its execution.
 

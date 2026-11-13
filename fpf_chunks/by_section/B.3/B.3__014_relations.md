@@ -6,12 +6,12 @@ section_id: "B.3:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__014_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.3 — Is This Claim Supported for This Use? — Trust and Assurance Calculus"
   - "B.3:11 — Relations"
-line_start: 45160
-line_end: 45166
+line_start: 47012
+line_end: 47018
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -37,8 +37,8 @@ keywords:
 
 ### B.3:11 - Relations
 
-- **Builds on:** `C.2.1` for target and assurance-result epistemes; `A.2.4` for exact evidence-use classification; `A.10` and `G.6` for source-provenance paths and bounded reliance; `A.2.6` for ClaimScope; `C.16` and `C.16.Q` for characteristic and scale discipline; and the direct domain patterns for every input result.
-- **Coordinates with:** `A.15.1` and `A.6.1` only when assessment Work and applications matter; `G.11` for currentness; `F.10` for status; `A.21` for gates; permission, commitment, release, access, responsibility, contest, redress, safety, and controlled-action patterns for their own results; and `E.17`, `E.24.PUB`, and `C.29` for publication and representation.
-- **Coordinates with:** `C.28` for causal-use results; `B.1.5`, `G.5` or the direct pattern for the relied-on Method fact; `A.22` only for an independently selected organization needed by the assurance argument.
-- **Used by:** a pattern or project decision that consumes one exact assurance result. The consumer still applies its own decision, permission, gate, status, or work rule.
+- **Builds on:** `C.2.1` for target and assurance-result epistemes; `A.2.4` for evidence-use classification; `A.10` and `G.6` for source-provenance paths and bounded reliance; `A.2.6` for ClaimScope; `C.16` and `C.16.Q` for characteristic and scale discipline; and the domain patterns for every input result.
+- **Coordinates with:** `A.15.1` and `A.6.1` only when assessment Work and applications matter; `G.11` for currentness; `F.10` for status; `A.21` for gates; permission, commitment, release, access, responsibility, contest, redress, safety, and controlled-action patterns for their results; and `E.17`, `E.24.PUB`, and `C.29` for publication and representation.
+- **Coordinates with:** `C.28` for causal-use results; `B.1.5`, `G.5` or the pattern for the relied-on Method fact; `A.22` only for an independently selected organization needed by the assurance argument.
+- **Used by:** a pattern or project decision that consumes one assurance result. The consumer applies its decision, permission, gate, status, or work rule.
 

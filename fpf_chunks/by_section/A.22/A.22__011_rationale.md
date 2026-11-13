@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.22"
-pattern_title: "Structure and Structural Views (STRUCT-CAL)"
+pattern_title: "Structure and Structural Views"
 section_id: "A.22:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__011_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.22 — Structure and Structural Views (STRUCT-CAL)"
+  - "A.22 — Structure and Structural Views"
   - "A.22:10 — Rationale"
-line_start: 40577
-line_end: 40584
+line_start: 42185
+line_end: 42192
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -69,9 +69,9 @@ keywords:
 
 ### A.22:10 - Rationale
 
-FPF needs one general selected-structure kind because many useful claims depend on organization before they depend on a specific architecture, mathematical, measurement, or publication pattern. The selected structure is dependent and non-agentive. Claims about it are carried by separate epistemes and views: it can be described, sourced, compared, coarsened, extracted, or used by architecture.
+FPF needs one general selected-structure kind because many useful claims depend on organization before they depend on an architecture, mathematical, measurement, or publication pattern. The selected structure is dependent and non-agentive. Claims about it are carried by separate epistemes and views: it can be described, sourced, compared, coarsened, extracted, or used by architecture.
 
 A practitioner can state the four identity values and stop when they answer the receiving question. `StructureQuestionCard@Project` is one optional aid. Heavier describing-use viewpoint selection, independently selected model-use structure, A.6.6 base-dependence, extraction, lens, evidence, and structure-use return records are used only when the next use would otherwise hide loss, source-basis dependence, or a non-structure claim kind.
 
-C.30 defines the direct `ArchitectureRelation` between one exact holon and one selected A.22 structure. An architecture claim states whether that relation obtains, or describes candidate or expected structure. Architecture descriptions and views are epistemes; publication makes them available. A.22 supplies the selected structure and its identity basis.
+C.30 defines the `ArchitectureRelation` between one holon and one selected A.22 structure. An architecture claim states whether that relation obtains, or describes candidate or expected structure. Architecture descriptions and views are epistemes; publication makes them available. A.22 supplies the selected structure and its identity basis.
 

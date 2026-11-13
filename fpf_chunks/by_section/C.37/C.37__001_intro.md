@@ -6,12 +6,12 @@ section_id: "C.37:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37/C.37__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.37 — Select and Use Representations for One Action"
   - "C.37:intro — Intro"
-line_start: 81705
-line_end: 81710
+line_start: 85694
+line_end: 85699
 dependencies:
   - "A.10"
   - "A.2.4"
@@ -40,5 +40,5 @@ keywords:
 
 > **Type:** Method pattern
 > **Status:** Stable
-> **Normativity:** Normative unless explicitly marked informative
+> **Normativity:** Normative unless marked informative
 

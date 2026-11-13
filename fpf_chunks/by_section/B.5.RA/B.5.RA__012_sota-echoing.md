@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.5.RA"
-pattern_title: "Recover an Argument for Its Next Use"
+pattern_title: "Recover an Argument for Use"
 section_id: "B.5.RA:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.RA/B.5.RA__012_sota-echoing.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "B.5.RA — Recover an Argument for Its Next Use"
+  - "B.5.RA — Recover an Argument for Use"
   - "B.5.RA:11 — SoTA-Echoing"
-line_start: 48244
-line_end: 48265
+line_start: 50262
+line_end: 50289
 dependencies:
   - "B.5"
   - "B.5.MPC"
@@ -25,7 +25,9 @@ keywords:
 
 ### B.5.RA:11 - SoTA-Echoing
 
-**Local and overall proof comprehension.** Mejía-Ramos and colleagues distinguish understanding terms, logical status and justifications from understanding a proof's main idea, components, transfer and examples. Their [2017 account of developing and validating proof-comprehension tests](https://sites.math.rutgers.edu/~jpmejia/files/Mejia_TUES_method.pdf), §2.2, develops the earlier 2012 model and makes the dimensions operational for particular undergraduate proofs. This pattern adopts the combination of local transitions and overall method in :4.2–:4.4. The published assessment results concern those proof-reading settings, while the generic recovery procedure here is a synthesis.
+**Local and overall proof comprehension.** Mejía-Ramos and colleagues distinguish understanding terms, logical status and justifications from understanding a proof's main idea, components, transfer and examples. Their [2017 account of developing and validating proof-comprehension tests](https://sites.math.rutgers.edu/~jpmejia/files/Mejia_TUES_method.pdf), §2.2, develops the earlier 2012 model and makes the dimensions operational for particular undergraduate proofs.
+
+This pattern adopts the combination of local transitions and overall method in :4.2–:4.4. The published assessment results concern those proof-reading settings, while the generic recovery procedure here is a synthesis.
 
 **Self-explanation.** Hodds, Alcock and Inglis's work is accompanied by the [Loughborough guide for mathematics lecturers](https://www.lboro.ac.uk/media/media/schoolanddepartments/mathematics-education-centre/downloads/SE-booklet-guide.pdf). It explains why relating claims to prior knowledge and to other claims differs from confidence reports or paraphrase. This contribution informs :4.4. The evidence reported there concerns undergraduate mathematical proof comprehension.
 
@@ -33,15 +35,19 @@ keywords:
 
 **AI-assisted reasoning.** Klowden and Tao's [Mathematical Methods and Human Thought in the Age of AI](https://arxiv.org/html/2603.26524v1), especially §4.4, distinguishes a verified formal statement from the intended statement and from the explanatory reasoning around a proof. This pattern adopts the intended-use comparison and the recovery of the method behind the result. The essay provides a contemporary conceptual argument, rather than an experiment validating this procedure.
 
-**Recoverable methods beyond answer production.** The [Math and AI declaration](https://mathandai.org/) raises the risk that rapid answer production can outpace understanding and development of methods. It is a position statement. This pattern takes the resulting recovery question: which reasoning can the next practitioner actually use? Human or AI production does not settle that question; the returned argument and its use do.
+**Recoverable methods beyond answer production.** The [Math and AI declaration](https://mathandai.org/) raises the risk that rapid answer production can outpace understanding and development of methods. It is a position statement. This pattern takes the resulting recovery question: which reasoning can the next practitioner use? Human or AI production does not settle that question; the returned argument and its use do.
 
 **Schemes and argument construction.** Walton's [*Argumentation Schemes & Their Application in Argument Mining*, §§1–4](https://ecampusontario.pressbooks.pub/criticalthinking1234/chapter/__unknown__-29/) is a historical methodological source, republished from 2011. It separates scheme recognition from matching keywords, distinguishes ordinary access to knowledge from expertise, and rejects a sunk-costs reading where the required prior investment is absent. These distinctions guide :4.4a.2 and the different failures in :5.4–:5.5.
 
-**From prose to a revisable map.** Davies, Barnett and van Gelder's [*Using Computer-aided Argument Mapping to Teach Reasoning* (2021), §§2–15](https://windsor.scholarsportal.info/omp/index.php/wsia/catalog/download/106/106/1083?inline=1) develops claim clarification, context-sensitive reconstruction, intermediate conclusions, hidden grounds and linked premises in §§3–15. Section 2, especially p. 119, also describes maps as support for writing and joint discussion; these are applications of mapping. Adapt that construction in :4.4a and :5.4–:5.5 while retaining source attribution and unresolved alternatives. Treat their term-matching and layout rules as search aids, not universal inference laws. Their conclusion leaves inference objections and fuller evidence integration undeveloped; those questions return here to the particular inference and its grounds. The teaching sequence remains a separate contribution to capability development.
+**From prose to a revisable map.** Davies, Barnett and van Gelder's [*Using Computer-aided Argument Mapping to Teach Reasoning* (2021), §§2–15](https://windsor.scholarsportal.info/omp/index.php/wsia/catalog/download/106/106/1083?inline=1) develops claim clarification, context-sensitive reconstruction, intermediate conclusions, hidden grounds and linked premises in §§3–15. Section 2, especially p. 119, also describes maps as support for writing and joint discussion; these are applications of mapping. Adapt that construction in :4.4a and :5.4–:5.5 while retaining source attribution and unresolved alternatives.
 
-**Limits of a question catalogue.** Hernández's [*Disentangling Critical Questions from Argument Schemes* (2023), §§2–5](https://doi.org/10.1007/s10503-023-09613-w), contests the idea that scheme questions supply a complete evaluation. Adapt its attention to the concrete question–answer exchange and the counterargument it can produce. The article proposes, but does not solve, a comparison of argument strength. The present synthesis keeps schemes useful for recovery while requiring contextual grounds for an evaluative conclusion; it adopts no score based on counting failed questions.
+Treat their term-matching and layout rules as search aids, not universal inference laws. Their conclusion leaves inference objections and fuller evidence integration undeveloped; those questions return here to the inference and its grounds. The teaching sequence remains a separate contribution to capability development.
 
-**Bounded method choice.** Compare line-by-line paraphrase, full proof validation and use-directed recovery on the same short argument. Paraphrase can retain the odd-sum formula while missing the equal-increment reason. Full validation answers correctness, but may spend effort inside already usable lemmas. Recovering the main reason together with the needed transitions gives the explanation or changed-use basis sought here. Select it when that is the unresolved task; retain full validation when correctness of the complete argument is the required conclusion. The drawing-recovery case extends the dependency method to a practical inference without treating mathematical proof as the sole form of reasoning. Reconsider this recovery approach if prepared readers repeatedly cannot recover why the decisive inference works, while another explanation or reading method enables the same use with comparable effort.
+**Limits of a question catalogue.** Hernández's [*Disentangling Critical Questions from Argument Schemes* (2023), §§2–5](https://doi.org/10.1007/s10503-023-09613-w), contests the idea that scheme questions supply a complete evaluation. Adapt its attention to the question–answer exchange and the counterargument it can produce. The article proposes, but does not solve, a comparison of argument strength. The present synthesis keeps schemes useful for recovery while requiring contextual grounds for an evaluative conclusion; it adopts no score based on counting failed questions.
+
+**Bounded method choice.** Compare line-by-line paraphrase, full proof validation and use-directed recovery on the same short argument. Paraphrase can retain the odd-sum formula while missing the equal-increment reason. Full validation answers correctness, but may spend effort inside usable lemmas. Recovering the main reason together with the needed transitions gives the explanation or changed-use basis sought here.
+
+Select it when that is the unresolved task; retain full validation when correctness of the complete argument is the required conclusion. The drawing-recovery case extends the dependency method to a practical inference without treating mathematical proof as the sole form of reasoning. Reconsider this recovery approach if prepared readers repeatedly cannot recover why the decisive inference works, while another explanation or reading method enables the same use with comparable effort.
 
 [Baumtrog's *Designing Critical Questions for Argumentation Schemes* (2021)](https://doi.org/10.1007/s10503-021-09549-z) contributes paired inquiry into support and possible failure. This pattern adopts that practical move without requiring his complete scheme design.
 

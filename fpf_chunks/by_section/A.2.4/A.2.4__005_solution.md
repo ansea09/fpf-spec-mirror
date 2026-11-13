@@ -6,12 +6,12 @@ section_id: "A.2.4:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.4/A.2.4__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.2.4 — Episteme Evidence-Use and Status-Use Relations"
   - "A.2.4:4 — Solution"
-line_start: 6105
-line_end: 6233
+line_start: 6360
+line_end: 6508
 dependencies:
   - "A.10"
   - "A.2"
@@ -20,13 +20,7 @@ dependencies:
   - "A.6.RSIR"
   - "B.3"
   - "C.2.1"
-  - "C.28"
-  - "E.10.D2"
   - "E.10.ROLE"
-  - "E.17"
-  - "F.10"
-  - "G.11"
-  - "G.6"
   - "U.SystemRoleAssignment"
 keywords:
   - "claim"
@@ -57,7 +51,9 @@ Use direct relation patterns instead:
 
 #### A.2.4:4.0 - First-use split
 
-An A.2.4 assertion answers only: which episteme is classified for which evidence-use or status-use, under which effective source scheme when interpretation matters, with which ClaimScope, polarity or status value, and window. When source production, evaluation, a local result, result episteme, provenance, currentness, receiving work, reliance, or assurance matters, the assertion names the direct object and the pattern passage that defines or constrains its claim; it does not re-express them as slots of a generic evidence result.
+An A.2.4 assertion answers only: which episteme is classified for which evidence-use or status-use, under which effective source scheme when interpretation matters, with which ClaimScope, polarity or status value, and window.
+
+When source production, evaluation, a local result, result episteme, provenance, currentness, receiving work, reliance, or assurance matters, the assertion names the direct object and the pattern passage that defines or constrains its claim; it does not re-express them as slots of a generic evidence result.
 
 #### A.2.4:4.1 - Evidence-Use Relation Slots
 
@@ -133,15 +129,19 @@ A.2.4 does not fill a missing direct governor with a generic status, evidence, w
 
 #### A.2.4:4.5 - Formal, empirical, causal, and status first uses
 
-Source labels such as `AxiomaticProofRole`, `ObservationEvidenceRole`, `MeasurementEvidenceRole`, `ModelFitEvidenceRole`, `CalibrationEvidenceRole`, and `BenchmarkEvidenceRole` are wording triggers. Recover the exact first-use classification or relation; the labels are neither local system-role kinds nor result kinds by spelling.
+Source labels such as `AxiomaticProofRole`, `ObservationEvidenceRole`, `MeasurementEvidenceRole`, `ModelFitEvidenceRole`, `CalibrationEvidenceRole`, and `BenchmarkEvidenceRole` are wording triggers. Recover the first-use classification or relation; the labels are neither local system-role kinds nor result kinds by spelling.
 
-**Formal line.** Classify the exact proof, derivation, counterexample, theory note, or proof-result episteme against the named theorem and theory-version fence. The formal pattern contains the defining content for entailment, refutation, malformed-proof, timeout, or checker-failure results; C.2.1 is the pattern for the episteme that states the result. When proof-checking is asserted as dated `U.Work`, use A.13 to identify the actual performer and A.15.1 to admit the occurrence independently. If the proof-checking account must also identify the assignment under which the Work was performed, check that relation separately through F.6. Keep the Method and bindings separate. A.2.4 states only how the episteme is used.
+**Formal line.** Classify the proof, derivation, counterexample, theory note, or proof-result episteme against the named theorem and theory-version fence. The formal pattern contains the defining content for entailment, refutation, malformed-proof, timeout, or checker-failure results; C.2.1 is the pattern for the episteme that states the result.
 
-**Empirical and measurement line.** Classify the exact dataset, observation episteme, C.16 measurement-result episteme, replication result, calibration result, benchmark result, or model-fit result episteme against one named claim. For any producing or evaluating Work, use A.13 to identify the actual performer and A.15.1 to admit the dated occurrence independently. If that account must also identify the assignment under which the Work was performed, check it separately through F.6. Keep direct relations or A.6.1 bindings separate. Each local result remains with C.16 or its exact domain governor; A.10/G.6 retain provenance; G.11 retains currentness.
+When proof-checking is asserted as dated `U.Work`, use A.13 to identify the actual performer and A.15.1 to admit the occurrence independently. If the proof-checking account must also identify the assignment under which the Work was performed, check that relation separately through F.6. Keep the Method and bindings separate. A.2.4 states only how the episteme is used.
 
-**Causal line.** C.28 is the pattern for the causal-use question, estimand, separate evidence/identification/estimate/sampling/simulation components, realizability, support result, supported use, and unsupported use. A.2.4 may classify the exact C.2.1 episteme used at first contact; evidence wording cannot turn simulator output into interventional or realized-counterfactual evidence.
+**Empirical and measurement line.** Classify the dataset, observation episteme, C.16 measurement-result episteme, replication result, calibration result, benchmark result, or model-fit result episteme against one named claim.
 
-**Status line.** A visible status carrier is classified separately from the governed status assertion. F.10 or the exact status pattern contains the defining content for the status value, G.11 is the pattern for edition currentness, and a gate, permission, commitment, system-role-kind, assignment, Work, assurance, or decision pattern contains the defining content for its own result. Display presence establishes none of them.
+For any producing or evaluating Work, use A.13 to identify the actual performer and A.15.1 to admit the dated occurrence independently. If that account must also identify the assignment under which the Work was performed, check it separately through F.6. Keep direct relations or A.6.1 bindings separate. Each local result remains with C.16 or its exact domain governor; A.10/G.6 retain provenance; G.11 retains currentness.
+
+**Causal line.** C.28 is the pattern for the causal-use question, estimand, separate evidence/identification/estimate/sampling/simulation components, realizability, support result, supported use, and unsupported use. A.2.4 may classify the C.2.1 episteme used at first contact; evidence wording cannot turn simulator output into interventional or realized-counterfactual evidence.
+
+**Status line.** A visible status carrier is classified separately from the governed status assertion. F.10 or the status pattern contains the defining content for the status value, G.11 is the pattern for edition currentness, and a gate, permission, commitment, system-role-kind, assignment, Work, assurance, or decision pattern contains the defining content for its own result. Display presence establishes none of them.
 
 #### A.2.4:4.6 - Work, result, provenance, and receiving-use boundary
 
@@ -166,5 +166,19 @@ When episteme inception through work matters, A.15.PROD supplies the local entit
 
 A.2.4 classifies the episteme's first evidence or status use. It may identify the episteme, target claim or status, effective source scheme when material, ClaimScope, polarity or value, window, intended use, and applicable definition or constraint. Questions about source Work, a local result, provenance, currentness, assurance or another receiving claim remain governed by their direct patterns.
 
-Open only the exact subject question whose predicate decides the use: A.13 for the actual performer; A.15.1 for independent Work admission; F.6 when the result must also identify the assignment under which that Work was performed; A.6.1 for actual bindings; the domain result predicate plus C.2.1 for result content; A.10/G.6 for provenance and bounded reliance; G.11 for currentness; B.3 for assurance; C.28 for causal use; F.10 for a status family; or E.17 for publication. Reopen the A.2.4 classification when the episteme, target claim/status, scope, polarity/value, window, or intended use changes.
+Open only the subject question whose predicate decides the use:
+
+* A.13 for the actual performer;
+* A.15.1 for independent Work admission;
+* F.6 when the result must also identify the assignment under which that Work was performed;
+* A.6.1 for actual bindings;
+* the domain result predicate plus C.2.1 for result content;
+* A.10/G.6 for provenance and bounded reliance;
+* G.11 for currentness;
+* B.3 for assurance;
+* C.28 for causal use;
+* F.10 for a status family;
+* E.17 for publication.
+
+Reopen the A.2.4 classification when the episteme, target claim/status, scope, polarity/value, window, or intended use changes.
 

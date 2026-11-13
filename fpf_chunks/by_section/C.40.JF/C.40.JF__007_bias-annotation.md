@@ -6,12 +6,12 @@ section_id: "C.40.JF:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.JF/C.40.JF__007_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.40.JF — Qualify Dependencies and Joint Reachability"
   - "C.40.JF:6 — Bias-Annotation"
-line_start: 87798
-line_end: 87803
+line_start: 92032
+line_end: 92037
 dependencies:
   - "A.10"
   - "A.15.9"
@@ -27,5 +27,5 @@ keywords:
 
 Optimism favors possible endpoints and hides the transition. Availability bias favors the one provider already known. Schedule and resource arithmetic can look precise while using unqualified quantities. Success in a supported test can be overread as independent capability or general transfer.
 
-Ask which condition would defeat the combination, whose burden is missing, and whether two premises share the same unsupported source. Keep qualified contradiction, uncertainty, and absence of evidence different. These checks expose assumptions; domain evidence still determines the reachability claim.
+Ask which condition would defeat the combination, whose burden is missing, and whether two premises share the same unsupported source. Keep qualified contradiction, uncertainty, and absence of evidence different. These checks expose assumptions; domain evidence determines the reachability claim.
 

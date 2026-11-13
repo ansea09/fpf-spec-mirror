@@ -6,12 +6,12 @@ section_id: "C.40.PC:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.PC/C.40.PC__007_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.40.PC — Construct a Worthwhile Problem and Proposed Contribution"
   - "C.40.PC:6 — Bias-Annotation"
-line_start: 87330
-line_end: 87338
+line_start: 91564
+line_end: 91572
 dependencies:
   - "A.15.9"
   - "A.2.3"
@@ -31,5 +31,5 @@ keywords:
 - **Benefit inflation:** an inspectable intermediate contribution is described as a guaranteed downstream improvement.
 - **Supplier authority:** an offer is taken as evidence of need, capability, or fulfilment.
 - **Commercial projection:** a research or community contribution is forced into a sales promise.
-- **Feasibility contamination:** an unknown solution causes rejection of a still-worthwhile problem, or a feasible tool creates a supposed need.
+- **Feasibility contamination:** an unknown solution causes rejection of a worthwhile problem, or a feasible tool creates a supposed need.
 

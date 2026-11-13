@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.19.CHR"
-pattern_title: "CHRMechanismSuite: Shared Rules for Characterization and Selection"
+pattern_title: "Shared Rules for Characterization and Selection"
 section_id: "A.19.CHR:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CHR/A.19.CHR__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.19.CHR — CHRMechanismSuite: Shared Rules for Characterization and Selection"
+  - "A.19.CHR — Shared Rules for Characterization and Selection"
   - "A.19.CHR:intro — Intro"
-line_start: 36834
-line_end: 36846
+line_start: 38340
+line_end: 38352
 dependencies:
   - "A.15.2"
   - "A.15.3"
@@ -47,16 +47,16 @@ keywords:
   - "tri-state guard decision"
 ---
 
-## A.19.CHR - CHRMechanismSuite: Shared Rules for Characterization and Selection
+## A.19.CHR - Shared Rules for Characterization and Selection
 
 > **Type:** Architectural (A)
 > **Status:** Stable
 
 **Use this when.** A characterization or selection task combines normalization, indicator choice, scoring and comparison, and the stages must agree on admissibility, uncertainty and the meaning of their results. A locally reasonable calculation can still be unusable downstream if it changes a scale, hides a default or discards a distinction needed for comparison.
 
-**Start here.** Select the exact declaration edition for each of the six CHR roles in §4.2. For the intended protocol, resolve each stage to its operation and governing specifications before choosing input values. The first useful result is a chain whose arguments, results and stop conditions agree. §4.8.1 works this through from a baseline to a concrete selected set.
+**Start here.** Select the declaration edition for each of the six CHR roles in §4.2. For the intended protocol, resolve each stage to its operation and governing specifications before choosing input values. The first useful result is a chain whose arguments, results and stop conditions agree. §4.8.1 works this through from a baseline to a selected set.
 
-**Ordinary boundary.** For one operation, use its A.19 member pattern directly. For a different set of jointly used contracts, use A.6.7. For an edition/reference plan without shared CHR conditions, use A.15.2. A CHR suite describes the shared contract; actual applications, gate decisions and publication retain their own rules.
+**Ordinary boundary.** For one operation, use its A.19 member pattern. For a different set of jointly used contracts, use A.6.7. For an edition/reference plan without shared CHR conditions, use A.15.2. A CHR suite describes the shared contract; applications, gate decisions and publication retain their own rules.
 
 `CHRMechanismSuiteDescription` is the canonical `MechSuiteDescription` instance for the six CHR roles. Its selected edition can be cited through `MechSuiteDescriptionRef`. On a P2W path, an ordinary A.15.2 WorkPlan records the chosen baseline; `CHRMechanismSuiteSlotFillingsPlanItem` is used only when A.15.3 typed filling is needed for an independently declared position.
 

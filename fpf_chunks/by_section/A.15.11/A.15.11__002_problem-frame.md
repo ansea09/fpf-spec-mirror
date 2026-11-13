@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.15.11"
-pattern_title: "Make Applicable Methods Noticeable in Work"
+pattern_title: "Make Methods Noticeable in Work"
 section_id: "A.15.11:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.11/A.15.11__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.15.11 — Make Applicable Methods Noticeable in Work"
+  - "A.15.11 — Make Methods Noticeable in Work"
   - "A.15.11:1 — Problem frame"
-line_start: 32643
-line_end: 32656
+line_start: 33981
+line_end: 33994
 dependencies:
   - "A.15"
   - "A.15.7"
@@ -34,9 +34,9 @@ A colleague can know how to compare alternatives yet estimate a proposed additio
 
 The subject is the arrangement that brings a potentially useful method into consideration during work. It connects an occasion, a recognizable relation to the work, and access to the needed operation. A cue is something encountered that makes that relation available: a question in a working document, a contrasting case, a colleague's agreed intervention or an event in a tool.
 
-The first useful result is a method considered at the point where it could help, followed by use, a named unresolved condition or dismissal. Someone arranging the opportunity needs a method that may help, or a specific question about a missed opportunity. The recipient need not already have diagnosed the omission.
+The first useful result is a method considered at the point where it could help, followed by use, a named unresolved condition or dismissal. Someone arranging the opportunity needs a method that may help, or a question about a missed opportunity. The recipient need not already have diagnosed the omission.
 
-When no useful method or meaningful question has yet been identified, B.5.PI helps bring ongoing work into inquiry. Arranging a reminder for a known method does not supply that preceding contribution. The cue arranged here can make that inquiry method available at an ordinary handover or demonstration, without anticipating the particular difficulty it may reveal.
+When no useful method or meaningful question has yet been identified, B.5.PI helps bring ongoing work into inquiry. Arranging a reminder for a known method does not supply that preceding contribution. The cue arranged here can make that inquiry method available at an ordinary handover or demonstration, without anticipating the difficulty it may reveal.
 
-If the useful method is already being considered, continue with selection or application directly. If its description cannot be obtained, repair access. If the performer recognizes the need but cannot perform the operation, obtain that contribution or develop the capability. More reminders alone do not supply it.
+If the useful method is already being considered, continue with selection or application. If its description cannot be obtained, repair access. If the performer recognizes the need but cannot perform the operation, obtain that contribution or develop the capability. More reminders alone do not supply it.
 

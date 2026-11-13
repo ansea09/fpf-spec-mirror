@@ -6,12 +6,12 @@ section_id: "A.6.7:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.7/A.6.7__007_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.7 — MechSuiteDescription — Shared Conditions for Joint Use of Distinct Mechanisms"
   - "A.6.7:6 — Bias-Annotation"
-line_start: 24390
-line_end: 24398
+line_start: 25311
+line_end: 25319
 dependencies:
   - "A.21"
   - "A.6.1"
@@ -42,7 +42,7 @@ keywords:
 Common biases this pattern guards against:
 
 * **Overloading “family”.** Treating “many different mechanisms” as “many realizations of one mechanism” destroys level hygiene and encourages semantic drift across members.
-* **Publication conflation.** Using “pack” semantics to smuggle publication/shipping obligations into the meaning of a mechanism bundle.
+* **Publication conflation.** Using “pack” semantics to include publication/shipping obligations in the meaning of a mechanism bundle.
 * **Gate conflation.** Treating suite-level obligations as gate decisions (“block”) instead of keeping `block` at the gate layer.
 * **Convenience totalization.** Collapsing partial orders into scalars “for ease of selection”, which undermines set-return semantics and admissibility gating.
 

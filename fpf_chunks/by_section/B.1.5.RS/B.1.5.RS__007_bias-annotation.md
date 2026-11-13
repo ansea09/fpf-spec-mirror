@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.1.5.RS"
-pattern_title: "Evaluate a Constituent Method Replacement in Its Encompassing Uses"
+pattern_title: "Evaluate a Method Replacement in Its Encompassing Uses"
 section_id: "B.1.5.RS:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5.RS/B.1.5.RS__007_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "B.1.5.RS — Evaluate a Constituent Method Replacement in Its Encompassing Uses"
+  - "B.1.5.RS — Evaluate a Method Replacement in Its Encompassing Uses"
   - "B.1.5.RS:6 — Bias-Annotation"
-line_start: 42850
-line_end: 42853
+line_start: 44558
+line_end: 44561
 dependencies:
   - "A.3.1"
   - "B.1.5"

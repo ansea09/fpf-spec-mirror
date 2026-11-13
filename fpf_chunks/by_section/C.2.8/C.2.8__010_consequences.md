@@ -6,12 +6,12 @@ section_id: "C.2.8:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.8/C.2.8__010_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.2.8 — ExtractableStructuralInformation — Structure This Reader Can Recover"
   - "C.2.8:9 — Consequences"
-line_start: 54689
-line_end: 54698
+line_start: 56947
+line_end: 56956
 dependencies:
   - "A.17"
   - "A.18"
@@ -40,7 +40,7 @@ A shared characteristic lets an author compare forms without confusing them with
 
 The practical cost is making material preparation, selection and access conditions explicit. A measurement or a causal claim about an explanation's effect needs grounds appropriate to that claim; reuse an adequate existing basis.
 
-An additional example, prerequisite, diagram or changed order is useful when it exposes worthwhile structure under the actual conditions. Sometimes the current expression already supplies the needed structure. Both outcomes are compatible with this characteristic.
+An additional example, prerequisite, diagram or changed order is useful when it exposes worthwhile structure under the conditions. Sometimes the current expression already supplies the needed structure. Both outcomes are compatible with this characteristic.
 
 Reconsider the qualified result when the account, expression, applicable form rules, selected structure, observer preparation, available operations, help, carrier access, budget or correctness basis changes. Reuse an unchanged result for a matching use.
 

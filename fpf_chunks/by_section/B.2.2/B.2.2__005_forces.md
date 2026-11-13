@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.2.2"
-pattern_title: "Meta-System Transition: Test the Proposed New Whole as a System"
+pattern_title: "Test the Proposed New Whole as a System"
 section_id: "B.2.2:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.2/B.2.2__005_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "B.2.2 — Meta-System Transition: Test the Proposed New Whole as a System"
+  - "B.2.2 — Test the Proposed New Whole as a System"
   - "B.2.2:3 — Forces"
-line_start: 44003
-line_end: 44012
+line_start: 45779
+line_end: 45788
 dependencies:
   - "A.1"
   - "A.10"
@@ -44,9 +44,9 @@ keywords:
 
 | Force | Tension |
 | --- | --- |
-| Component assurance vs result-system assurance | Old component claims may still matter, but they do not automatically cover the new operating whole. |
+| Component assurance vs result-system assurance | Old component claims may matter, but they do not automatically cover the new operating whole. |
 | Delimitation vs external participation | The result system needs an admitted delimitation while external acting systems, external resources, and its environment remain outside it. |
-| Coordination vs whole identity | An obtaining coordination relation can make the system question live, but coordination alone does not satisfy A.1 or the direct `U.System` criterion. |
+| Coordination vs whole identity | An obtaining coordination relation can make the system question live, but coordination alone does not satisfy A.1 or the `U.System` criterion. |
 | Capability gain vs identity change | A new capability envelope can reveal a result system, but some gains remain ordinary capability or functioning claims. |
 | System architecture vs system description | Architecture claims concern the operating whole; diagrams and records have separate description, representation, or publication uses. |
 

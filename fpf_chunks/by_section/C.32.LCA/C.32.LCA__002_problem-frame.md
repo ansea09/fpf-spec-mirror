@@ -6,12 +6,12 @@ section_id: "C.32.LCA:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.LCA/C.32.LCA__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.32.LCA — Construct and Compare a Control Architecture"
   - "C.32.LCA:1 — Problem frame"
-line_start: 76533
-line_end: 76556
+line_start: 80186
+line_end: 80209
 dependencies:
   - "A.3.3.PI"
   - "B.2.5"
@@ -29,7 +29,7 @@ A robot can follow a target accurately and still receive a target that exceeds i
 
 **First useful move.** Choose one consequential demand or disturbance. Follow it from the information available at the time, through the decision and permitted action, to the receiving result. Check whether the arrangement supplies the conditions along that path. A missing condition directs construction of an alternative; an adequate path can be retained while examining another consequential case or a justified improvement. Follow each proposed change through the same whole.
 
-**What this buys.** The reader obtains comparable control arrangements, the mechanism by which each could obtain the intended result, their conditions and costs, and a reason to retain, select or revise an arrangement. A useful result can be a simpler incumbent, a bounded proposal, a qualified technical construction, or a precise finding that the requested outcome is unavailable under the supplied conditions.
+**What this buys.** The reader obtains comparable control arrangements, the mechanism by which each could obtain the intended result, their conditions and costs, and a reason to retain, select or revise an arrangement. A result can be a simpler incumbent, a bounded proposal, a qualified technical construction, or a finding that the requested outcome is unavailable under the supplied conditions.
 
 The broad subject is functional organization: how contributions combine to obtain a whole result. This pattern develops its **control-architecture branch**. It constructs the organization of observation, decision and intervention, including coordination needed between controllers or participants. It does not presume a hierarchy, three layers, different update rates, or a correspondence between one function and one physical part. Layered and multirate control are important alternatives within this question.
 
@@ -38,10 +38,10 @@ The primary working reader is an architect, engineer or operations practitioner 
 **Ordinary boundaries.**
 
 - If an available controller or working arrangement already answers the question, use it. A new architecture exercise needs a consequential reason.
-- If the question is what control structure a description actually represents, use **C.30.LCA**. Its result can supply the present arrangement here.
+- If the question is what control structure a description represents, use **C.30.LCA**. Its result can supply the present arrangement here.
 - If the difficulty is functional construction without a control dependence, use **C.32** for the candidate-configuration question or **C.39** for a missing way to obtain the required contribution. Return here when the observation, decision and intervention dependence is the unresolved part.
 - If the task is to establish the purpose or legitimate priority itself, obtain that decision from its governing practice and participants. Here the question is how that decision affects feasible control and when feedback requires its reconsideration.
-- If a project needs a particular controller, estimator or safety proof, construct or obtain that technical result. The common architecture method below identifies and uses its necessary contribution; it does not replace the subject mathematics.
+- If a project needs a controller, estimator or safety proof, construct or obtain that technical result. The common architecture method below identifies and uses its necessary contribution; it does not replace the subject mathematics.
 
 A proposed arrangement and an operating arrangement have different evidence. The explanation can justify a candidate before implementation. Claims about its actual effectiveness require observations of its use under the conditions that matter.
 

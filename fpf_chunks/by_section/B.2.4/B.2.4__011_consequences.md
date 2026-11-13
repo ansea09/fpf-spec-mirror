@@ -6,12 +6,12 @@ section_id: "B.2.4:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.4/B.2.4__011_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.2.4 — Do Capability or Functioning Changes Require Whole Reidentification?"
   - "B.2.4:8 — Consequences"
-line_start: 44577
-line_end: 44590
+line_start: 46389
+line_end: 46402
 dependencies:
   - "A.10"
   - "A.15"
@@ -39,7 +39,7 @@ keywords:
 
 Positive consequences:
 
-- Exact capability and functioning facts can make real whole reidentification current, while evidence bears only on the associated claims.
+- Capability and functioning facts can make whole reidentification current, while evidence bears only on the associated claims.
 - Subject patterns remain visible, so local improvements are not overclaimed.
 - Method, work, function, module, and architecture distinctions survive high-pressure capability language; each claim remains with its subject pattern.
 

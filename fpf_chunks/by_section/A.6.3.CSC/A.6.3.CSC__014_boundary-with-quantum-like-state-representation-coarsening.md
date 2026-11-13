@@ -6,12 +6,12 @@ section_id: "A.6.3.CSC:12a"
 section_title: "Boundary with quantum-like state-representation coarsening"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CSC/A.6.3.CSC__014_boundary-with-quantum-like-state-representation-coarsening.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.3.CSC — Controlled Semantic Coarsening: Shorten an Account for a Bounded Use"
   - "A.6.3.CSC:12a — Boundary with quantum-like state-representation coarsening"
-line_start: 18151
-line_end: 18160
+line_start: 18992
+line_end: 19001
 dependencies:
   - "A.15"
   - "A.20"
@@ -32,11 +32,11 @@ keywords:
 
 ### A.6.3.CSC:12a - Boundary with quantum-like state-representation coarsening
 
-For a less detailed account of a model, state representation, or evidence set, use the ordinary source-to-candidate comparison and first check at `A.6.3.CSC:4.1`-`4.2`. They already require that the candidate neither lose a distinction needed for the present use nor add or strengthen anything the source does not support. A dashboard row, partner-safe page, diagram, or coarse display may expose claim-bearing content through a publication form and carrier; readability alone does not identify an exact episteme.
+For a less detailed account of a model, state representation, or evidence set, use the ordinary source-to-candidate comparison and first check at `A.6.3.CSC:4.1`-`4.2`. They already require that the candidate neither lose a distinction needed for the present use nor add or strengthen anything the source does not support. A dashboard row, partner-safe page, diagram, or coarse display may expose claim-bearing content through a publication form and carrier; readability alone does not identify an episteme.
 
 C.26 becomes current only when a named quantum-like cue remains material after that ordinary CSC comparison—for example incompatible probes, contextual probability, an instrument-like update, an open-information-system update rule, or no faithful-enough export for the declared use. Without such a surviving cue, stay in CSC.
 
-If the coarsened candidate claims to preserve action, intervention, manipulation, explanation, or cross-abstraction structure, state the exact correspondence or causal-abstraction relation before relying on that claim. C.26 may supply the additional quantum-like state-representation account only when the surviving cue requires it; CSC continues to supply the loss, unsupported-addition, narrower-use, non-use, and return boundary.
+If the coarsened candidate claims to preserve action, intervention, manipulation, explanation, or cross-abstraction structure, state the correspondence or causal-abstraction relation before relying on that claim. C.26 may supply the additional quantum-like state-representation account only when the surviving cue requires it; CSC continues to supply the loss, unsupported-addition, narrower-use, non-use, and return boundary.
 
 Independent reuse, formalization, empirical comparison, high stakes, or comparative performance can raise CSC identity or evidence demands. None of them opens C.26 by itself: a named quantum-like residue must remain. Do not add QL wording or apparatus to ordinary summary, anonymization, diagramming, audience adaptation, or controlled coarsening.
 

@@ -6,12 +6,12 @@ section_id: "E.18.3:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.3/E.18.3__005_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.18.3 — Constraint-Governed Transformation-Flow Unfolding Structure"
   - "E.18.3:3 — Forces"
-line_start: 111711
-line_end: 111719
+line_start: 118701
+line_end: 118709
 dependencies:
   - "A.10"
   - "A.15"
@@ -43,8 +43,8 @@ keywords:
 
 | Force | Tension |
 | --- | --- |
-| Transformation-flow richness vs universal-parent drift | E.18 is rich enough to explain many route-shaped transformation cases, but narrative, abduction, grounding, improvement, and public practical-use cards or walkthroughs are not transformation-flow merely by shape. |
+| Transformation-flow richness vs universal-parent drift | E.18 can explain many route-shaped transformation cases, but narrative, abduction, grounding, improvement, and public practical-use cards or walkthroughs do not qualify as transformation-flow structures by shape alone. |
 | Flow card usefulness vs work-order overread | A path or flow card can guide a next FPF use, but it does not authorize performed work or decide launch readiness. |
-| Neighboring values vs ontology absorption | Method, work, evidence, gate, decision, architecture, publication, and currentness values can connect to a flow position after the value is independently identified and any claim about it is shown to obtain from current facts or evidence under an applicable definition or test, without becoming transformation-flow kinds. |
+| Neighboring values vs ontology absorption | Method, work, evidence, gate, decision, architecture, publication, and currentness values can connect to a flow position. First identify the neighboring value independently and establish any claim about it from current facts or evidence under an applicable definition or test. The connection does not make it a transformation-flow kind. |
 | Demonstrative slices vs actual traces | A path slice may show a traversal for learning or review; actual project history may branch, pause, retry, or skip that traversal. |
 

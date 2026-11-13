@@ -6,12 +6,12 @@ section_id: "C.30.LCA:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.LCA/C.30.LCA__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.30.LCA — Control Structure View Adequacy (LCA)"
   - "C.30.LCA:7 — Conformance Checklist"
-line_start: 74357
-line_end: 74370
+line_start: 77609
+line_end: 77622
 dependencies:
   - "A.10"
   - "A.20"
@@ -49,10 +49,10 @@ keywords:
 
 | ID | Check | Why it matters |
 |---|---|---|
-| CC-LCA-1 | A conforming full description or view has one C.2.1 identity whose EntityOfConcern is one exact selected control structure; the described and controlled holons and any actual `ArchitectureRelation` remain separately recoverable. | Prevents a free-floating diagram, claim, or unspecified relation set from becoming structure or episteme identity. |
-| CC-LCA-2 | A conforming use records the direct control relations and participant meanings present: for example, reference provision, regulation or control, observation or estimation, plant or controlled-holon participation, or supervision. Systems, classifications, assignments, Methods, Work, and F.6 attribution are separate optional facts. | Keeps the view tied to actual control relations and their participants. |
+| CC-LCA-1 | A conforming full description or view has one C.2.1 identity whose EntityOfConcern is one selected control structure; the described and controlled holons and any `ArchitectureRelation` remain separately recoverable. | Prevents a free-floating diagram, claim, or unspecified relation set from being treated as structure or episteme identity. |
+| CC-LCA-2 | A conforming use records the direct control relations and participant meanings present: for example, reference provision, regulation or control, observation or estimation, plant or controlled-holon participation, or supervision. Systems, classifications, assignments, Methods, Work, and F.6 attribution are separate optional facts. | Keeps the view tied to control relations and their participants. |
 | CC-LCA-3 | `Layer`, `level`, `tier`, or `stack` wording enters only with a recovered direct control relation, inter-layer relation, rate band, or `B.2.5` supervisor-subholon relation. An assignment alone is insufficient. | Prevents generic stratification wording from standing in for control structure. |
-| CC-LCA-4 | A claimed `U.View` names the exact viewpoint episteme and independently obtaining `EpistemeViewpointConformanceRelation`; bundle membership, viewpoint label, authoring, query, diagram, and publication are insufficient. | Keeps structural description and view membership distinct. |
+| CC-LCA-4 | A claimed `U.View` names the viewpoint episteme and independently obtaining `EpistemeViewpointConformanceRelation`; bundle membership, viewpoint label, authoring, query, diagram, and publication are insufficient. | Keeps structural description and view membership distinct. |
 | CC-LCA-5 | Use the relevant patterns to state or test stability, safety, dynamics, temporal-aspect or rate-band structure, authored temporal-claim adequacy, causal use, empirical grounding, evidence, gate, and assurance claims. | Prevents LCA-as-proof. |
 | CC-LCA-6 | Use `B.2.5` to state or test its compound feedback claim; keep that assertion separate from the base relation references. | Keeps the assertion, base relations and stronger stability, safety, evidence, gate and assurance claims distinct. |
 | CC-LCA-7 | Use E.18 to identify and test any transformation-flow path slice used by the control view. The slice is not the control structure or actual transformation itself. | Keeps transformation-flow and LCA relations distinct. |

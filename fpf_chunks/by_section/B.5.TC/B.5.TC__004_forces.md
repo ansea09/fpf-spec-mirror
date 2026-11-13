@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.5.TC"
-pattern_title: "Compare Theoretical Accounts for a Working Question"
+pattern_title: "Compare Theoretical Accounts for a Question"
 section_id: "B.5.TC:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.TC/B.5.TC__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "B.5.TC — Compare Theoretical Accounts for a Working Question"
+  - "B.5.TC — Compare Theoretical Accounts for a Question"
   - "B.5.TC:3 — Forces"
-line_start: 48932
-line_end: 48941
+line_start: 50972
+line_end: 50981
 dependencies:
   - "B.5.RA"
   - "B.5.RR"
@@ -27,11 +27,11 @@ keywords:
 
 ### B.5.TC:3 - Forces
 
-| Force | Working tension |
+| Force | Tension |
 |---|---|
 | A shared question vs different concepts | Comparison needs a shared use, while translating every term into one vocabulary can erase the difference being investigated. |
 | Agreement vs scope | A worked case makes an account usable; an equivalence claim across cases needs the corresponding argument. |
 | Explanatory reach vs effort | A richer account can answer further questions while a smaller account supplies the present answer more cheaply. |
 | Discrimination vs useful closure | A difference may justify further work, or leave the needed result unchanged. |
-| Common operations vs subject knowledge | The comparison method travels across practices; its particular proofs, laws and causal premises come from the accounts being compared. |
+| Common operations vs subject knowledge | The comparison method travels across practices; its proofs, laws and causal premises come from the accounts being compared. |
 

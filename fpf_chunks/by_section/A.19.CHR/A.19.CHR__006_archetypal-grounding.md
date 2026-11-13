@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.19.CHR"
-pattern_title: "CHRMechanismSuite: Shared Rules for Characterization and Selection"
+pattern_title: "Shared Rules for Characterization and Selection"
 section_id: "A.19.CHR:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CHR/A.19.CHR__006_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.19.CHR — CHRMechanismSuite: Shared Rules for Characterization and Selection"
+  - "A.19.CHR — Shared Rules for Characterization and Selection"
   - "A.19.CHR:5 — Archetypal Grounding"
-line_start: 37221
-line_end: 37238
+line_start: 38731
+line_end: 38748
 dependencies:
   - "A.15.2"
   - "A.15.3"
@@ -53,9 +53,9 @@ keywords:
 
 A system-level decision must select a declared set of options when measurable evidence comes from multiple slices (test rigs, simulations, field trials). Measurements are multi-scale and not always comparable without explicit normalization, and some evidence is missing or stale. The team needs lawful comparison and selection without forcing a single scalar “fitness”.
 
-Use the filled reference selection in §4.8.1 as the baseline: exact contracts, scales, methods, time rule and policies yield a retained set of two offers. When the inputs instead come from tests or field trials, replace the stipulated case evidence with the evidence required by the actual CN-Spec/CG-Spec; incomplete evidence follows the declared failure rule. A claimed dated Work and any launch witness require their independent enactment basis. Any actual semantic/kind/plane relation or flow/gate crossing retains its own required anchors.
+Use the filled reference selection in §4.8.1 as the baseline: contracts, scales, methods, time rule and policies yield a retained set of two offers. When the inputs instead come from tests or field trials, replace the stipulated case evidence with the evidence required by the CN-Spec/CG-Spec; incomplete evidence follows the declared failure rule. A claimed dated Work and any launch witness require their independent enactment basis. Any semantic/kind/plane relation or flow/gate crossing retains its own required anchors.
 
-If a required UNM operation is hidden inside scoring, or an undeclared weighted sum replaces the selected partial-order comparison, the protocol no longer identifies the operations and comparison rule actually used. Make each required operation explicit and select a lawful scoring or comparison rule. Keep `Fold_Γ` optional unless the chosen method uses it.
+If a required UNM operation is hidden inside scoring, or an undeclared weighted sum replaces the selected partial-order comparison, the protocol no longer identifies the operations and comparison rule used. Make each required operation explicit and select a lawful scoring or comparison rule. Keep `Fold_Γ` optional unless the chosen method uses it.
 
 #### A.19.CHR:5.2 - `U.Episteme` vignette
 

@@ -6,12 +6,12 @@ section_id: "C.26.3:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.3/C.26.3__013_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.26.3 — Viability-Envelope Boundary Regulation"
   - "C.26.3:12 — Relations"
-line_start: 66943
-line_end: 66956
+line_start: 69995
+line_end: 70010
 dependencies:
   - "A.10"
   - "A.15"
@@ -47,6 +47,8 @@ keywords:
 - This pattern keeps: viability bearer, protected promise/function, viable region, disturbance, sensor/probe/candidate-intervention/direct-object split, adaptation cost, and failure mode.
 - Non-admissible use: stabilization wording is not a viability envelope, and C.27 is not the pattern for all stability-through-change claims.
 - Exit: if the claim being made is only better quality, healthier team, or more resilient service without a declared viability envelope, use C.25, E.13, or the relevant quality/proxy/value pattern rather than C.26.3 or a C.27 profile.
+
+**General relations.**
 
 - Builds on: `C.26`, `C.25`, `U.Dynamics`, `A.6`, `A.15`, `C.16`, `A.10`, `B.3`, `A.3`, `A.19`, `C.18`, `C.19`.
 - Coordinates with: `C.26.1` when a state-changing probe's output is used as a passive read for the decision; `C.26.2` when coordinated work, behavior, or traces support a collective-state reading that no single report or export faithfully carries.

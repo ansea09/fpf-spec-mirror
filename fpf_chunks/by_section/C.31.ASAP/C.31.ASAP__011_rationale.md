@@ -6,19 +6,18 @@ section_id: "C.31.ASAP:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.ASAP/C.31.ASAP__011_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.31.ASAP — Which Architecture Is Preferable Under Scale? (Scale Amenability)"
   - "C.31.ASAP:10 — Rationale"
-line_start: 76154
-line_end: 76159
+line_start: 79682
+line_end: 79687
 dependencies:
   - "A.1.1"
   - "A.10"
   - "A.17"
   - "A.18"
   - "A.19"
-  - "A.19.CPM"
   - "A.2.6"
   - "A.6.M"
   - "B.3"
@@ -34,12 +33,7 @@ dependencies:
   - "C.31"
   - "C.31.RSA"
   - "C.32"
-  - "C.32.ACS"
-  - "C.32.P2S"
   - "C.32.PAD"
-  - "C.33"
-  - "C.34"
-  - "C.35"
   - "G.5"
   - "G.6"
   - "G.9"
@@ -59,5 +53,5 @@ keywords:
 
 `C.31` and `C.31.RSA` can expose scale-sensitive characteristics and reusable-structure residue, but they should not themselves decide which architecture alternative is preferable under scale. C.31.ASAP governs this architecture scale-preference claim family; it is narrower than general BLP and broader than one measurement card.
 
-The pattern adapts BLP-style scale-amenability to architecture: prefer the alternative that preserves or improves reusable structure over a declared scale window when safety, law-domain, and assurance boundaries are comparable. Treat modularity, reuse, platform practice, and mathematical coarse-graining as candidate cues. Base the preference on the named scale variable and window, relevant structural behavior, exception-growth risk and the actual reach of available evidence. A no-probe reason retains the provisional-use limit in section 4.3.
+The pattern adapts BLP-style scale-amenability to architecture: prefer the alternative that preserves or improves reusable structure over a declared scale window when safety, law-domain, and assurance boundaries are comparable. Treat modularity, reuse, platform practice, and mathematical coarse-graining as candidate cues. Base the preference on the named scale variable and window, relevant structural behavior, exception-growth risk and the reach of available evidence. A no-probe reason retains the provisional-use limit in section 4.3.
 

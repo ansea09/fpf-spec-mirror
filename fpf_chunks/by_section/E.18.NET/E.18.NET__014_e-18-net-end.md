@@ -6,12 +6,12 @@ section_id: "E.18.NET:End"
 section_title: "E.18.NET:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.NET/E.18.NET__014_e-18-net-end.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.18.NET — Network of Transformation-Flow Structures"
   - "E.18.NET:End — E.18.NET:End"
-line_start: 112552
-line_end: 112553
+line_start: 119707
+line_end: 119708
 dependencies:
   - "A.1.STM"
   - "A.12"

@@ -6,12 +6,12 @@ section_id: "B.3.4:5"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.4/B.3.4__006_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "B.3.4 — Can Earlier Evidence Still Support This Use? — Evidence Decay and Epistemic Debt"
   - "B.3.4:5 — Conformance Checklist"
-line_start: 45372
-line_end: 45379
+line_start: 47232
+line_end: 47239
 dependencies:
   - "A.10"
   - "B.3"
@@ -32,7 +32,7 @@ keywords:
 
 - **CC-ED.1 (Use-qualified currentness):** A currentness conclusion MUST identify the relied-on claim/use and the conditions or temporal boundary that change it. A carrier's age or absent date SHALL NOT alone establish loss of support.
 - **CC-ED.2 (Interpreted planning measure):** A numerical ED or debt budget MUST define its counted entities, dependency treatment, scale, applicable unit, purpose and the meaning of any action threshold. No project has a default obligation to adopt one.
-- **CC-ED.3 (Affected reach):** Reconsideration MUST follow the actual support dependencies. Any aggregation MUST use an applicable interpreted model and avoid counting duplicate paths as additional evidence or risk.
-- **CC-ED.4 (Qualified disposition):** A trigger MUST be interpreted for the receiving use; it SHALL NOT automatically downgrade a level or require Refresh/Deprecate/Waive. Preserve a sufficient current result without a separate renewal or no-refresh certificate. Preserve real qualification, rights and resource-use expiry.
-- **CC-ED.5 (Actual exception authority):** A waiver, when used, MUST have the authority and scope allowed by the applicable rule, a rationale, affected risk bearers and accountability, and its actual ending or reconsideration condition. Keep the auditable exception with the decision that uses it; a title or lowered assurance status does not confer risk-acceptance authority.
+- **CC-ED.3 (Affected reach):** Reconsideration MUST follow the support dependencies. Any aggregation MUST use an applicable interpreted model and avoid counting duplicate paths as additional evidence or risk.
+- **CC-ED.4 (Qualified disposition):** A trigger MUST be interpreted for the receiving use; it SHALL NOT automatically downgrade a level or require Refresh/Deprecate/Waive. Preserve a sufficient current result without a separate renewal or no-refresh certificate. Preserve qualification, rights and resource-use expiry.
+- **CC-ED.5 (Exception authority):** A waiver, when used, MUST have the authority and scope allowed by the applicable rule, a rationale, affected risk bearers and accountability, and its ending or reconsideration condition. Keep the auditable exception with the decision that uses it; a title or lowered assurance status does not confer risk-acceptance authority.
 

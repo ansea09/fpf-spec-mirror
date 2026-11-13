@@ -6,12 +6,12 @@ section_id: "A.6.4:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__007_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.4 — EntityOfConcern Retargeting: Judge a Bounded Use Across Different Entities"
   - "A.6.4:6 — Bias-Annotation"
-line_start: 19899
-line_end: 19902
+line_start: 20772
+line_end: 20775
 dependencies:
   - "A.10"
   - "A.15"
@@ -37,5 +37,5 @@ keywords:
 
 ### A.6.4:6 - Bias-Annotation
 
-A.6.4 deliberately foregrounds the exact source and receiving entities when the EntityOfConcern changes. Recover that pair. For a claimed receiving use, state q's invariant, visible loss, use and conditions. When judging a current case, recover the facts needed for that judgement. Open a neighboring branch only when a separately current claim needs its direct pattern.
+A.6.4 foregrounds the source and receiving entities when the EntityOfConcern changes. Recover that pair. For a claimed receiving use, state q's invariant, visible loss, use and conditions. When judging a current case, recover the facts needed for that judgement. Open a neighboring branch only when a separately current claim needs its direct pattern.
 

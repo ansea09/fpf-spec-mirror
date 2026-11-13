@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.5.TC"
-pattern_title: "Compare Theoretical Accounts for a Working Question"
+pattern_title: "Compare Theoretical Accounts for a Question"
 section_id: "B.5.TC:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.TC/B.5.TC__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "B.5.TC — Compare Theoretical Accounts for a Working Question"
+  - "B.5.TC — Compare Theoretical Accounts for a Question"
   - "B.5.TC:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 49062
-line_end: 49071
+line_start: 51102
+line_end: 51111
 dependencies:
   - "B.5.RA"
   - "B.5.RR"
@@ -32,6 +32,6 @@ keywords:
 | Comparing unlike outputs as rivals: reachability and minimum cost are both called a route answer. | State the question each answers, then construct the common question or their complementary use. |
 | Identifying theoretical accounts because a fitted case gives the same number. | Compare the meanings and decisive operations; derive the range of agreement when a broader claim is needed. |
 | Treating a numerical discrepancy as a physical-theory disagreement. | Recover the formulation and approximation, as in the oscillator case, before changing the physical account. |
-| Selecting a more elaborate account for capabilities the present question does not use. | Compare the adequate answers and their burdens; retain the further capability for the question that needs it. |
+| Selecting a more elaborate account for capabilities the question does not use. | Compare the adequate answers and their burdens; retain the further capability for the question that needs it. |
 | Seeking more observations to resolve a difference that ordinary observations cannot distinguish. | Derive the discriminating consequence and use the relevant causal or other domain method; retain an unresolved difference when further inquiry is unavailable or unwarranted. |
 

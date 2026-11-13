@@ -6,12 +6,12 @@ section_id: "E.10.D2:9"
 section_title: "Archetypal grounding and bias annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__010_archetypal-grounding-and-bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:9 — Archetypal grounding and bias annotation"
-line_start: 102553
-line_end: 102562
+line_start: 108339
+line_end: 108348
 dependencies:
   - "A.7"
   - "C.2.1"
@@ -42,5 +42,5 @@ keywords:
 
 **Card and diagram case.** A filled card or diagram can be a claim-bearing episteme when its C.2.1 constitution is recoverable. Its layout can separately be a publication form or representation, and its file can be a carrier. Filling or displaying it makes no subject relation obtain.
 
-The dominant bias is substitution by the most visible object: a reader sees a file, diagram, dashboard, card, label, or status and lets it replace the independently governed entity, episteme, relation occurrence, or authority needed for the decision. The corrective move is not lexical replacement. Recover the exact object and direct relation for the named receiving use.
+The dominant bias is substitution by the most visible object: a reader sees a file, diagram, dashboard, card, label, or status and lets it replace the independently governed entity, episteme, relation occurrence, or authority needed for the decision. Replacing the word leaves that substitution unresolved. Recover the exact object and direct relation for the named receiving use.
 

@@ -6,12 +6,12 @@ section_id: "C.11.DBR:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.DBR/C.11.DBR__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.11.DBR — Reconsider a Decision When Its Relied-on Basis Changes"
   - "C.11.DBR:2 — Problem"
-line_start: 57650
-line_end: 57655
+line_start: 59986
+line_end: 59991
 dependencies:
   - "A.10"
   - "A.10.1"
@@ -29,5 +29,5 @@ keywords:
 
 Feedback can miss its receiving decision in two opposite ways. A later result stays in a report while the team continues relying on a defeated premise. Or one changed condition reopens every related decision, including commitments and completed work whose grounds remain sound.
 
-Neither recency nor surprise identifies the affected choice. The missing connection is between a later result and the exact basis used by an earlier result for a particular use. A comparison must establish that connection before it can prepare reconsideration. Recording a change, diagnosing its cause, choosing a response and performing that response are different contributions.
+Neither recency nor surprise identifies the affected choice. The missing connection is between a later result and the basis used by an earlier result for a particular use. A comparison must establish that connection before it can prepare reconsideration. Recording a change, diagnosing its cause, choosing a response and performing that response are different contributions.
 

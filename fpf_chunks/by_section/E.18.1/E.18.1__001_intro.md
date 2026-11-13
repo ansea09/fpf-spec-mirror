@@ -6,12 +6,12 @@ section_id: "E.18.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.18.1 — P2W Problem-to-Work Carry-Through"
   - "E.18.1:intro — Intro"
-line_start: 110874
-line_end: 110884
+line_start: 117736
+line_end: 117746
 dependencies:
   - "A.15"
   - "A.15.PROD"
@@ -58,8 +58,8 @@ keywords:
 > **Plain-name:** problem-to-work carry-through
 > **Type:** Architectural pattern (E)
 > **Status:** Stable
-> **Normativity:** Normative unless explicitly marked informative
+> **Normativity:** Normative unless marked informative
 > **Placement:** Part E -> E.18 child pattern
-> **Builds on:** `E.18` Transformation Flow Structure, `C.22.2` ProblemCard@Context, `A.6.0` `U.Signature`, `A.6.1` `U.Mechanism`, `A.3.1` `U.Method`, `A.3.2` `U.MethodDescription` membership, `A.3.4` actual bounded change, the A.15 work family, `A.15.PROD` local production-claim recovery, `A.6.RCD` exact blocker boundary and local-claim dispositions, `A.6.REL` relation-occurrence and receiving-use discipline, `A.6.P` relational precision restoration, `A.6.P.WMR` wording-to-relation recovery, `C.29`, `C.16`, `A.19.CPM`, `A.19.SelectorMechanism`, `C.18`, `C.19`, `F.8`, `F.18`, `F.17`, `F.9`, `G.5`, `G.9`, `G.11`, `A.20`, and `A.21`.
+> **Builds on:** `E.18` Transformation Flow Structure, `C.22.2` ProblemCard@Context, `A.6.0` `U.Signature`, `A.6.1` `U.Mechanism`, `A.3.1` `U.Method`, `A.3.2` `U.MethodDescription` membership, `A.3.4` actual bounded change, the A.15 work family, `A.15.PROD` local production-claim recovery, `A.6.RCD` blocker boundary and local-claim dispositions, `A.6.REL` relation-occurrence and receiving-use discipline, `A.6.P` relational precision restoration, `A.6.P.WMR` wording-to-relation recovery, `C.29`, `C.16`, `A.19.CPM`, `A.19.SelectorMechanism`, `C.18`, `C.19`, `F.8`, `F.18`, `F.17`, `F.9`, `G.5`, `G.9`, `G.11`, `A.20`, and `A.21`.
 > **Purpose:** preserve selected distinctions from an accepted problem-side record as method selection, planning, performed work, result interpretation, and return become current.
 

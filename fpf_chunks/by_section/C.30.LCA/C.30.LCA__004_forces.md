@@ -6,12 +6,12 @@ section_id: "C.30.LCA:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.LCA/C.30.LCA__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.30.LCA — Control Structure View Adequacy (LCA)"
   - "C.30.LCA:3 — Forces"
-line_start: 74150
-line_end: 74158
+line_start: 77377
+line_end: 77385
 dependencies:
   - "A.10"
   - "A.20"
@@ -48,9 +48,9 @@ keywords:
 ### C.30.LCA:3 - Forces
 
 * Control terminology helps engineers identify observations, commands, feedback and their participants; preserve it when its local meaning is clear.
-* The same source labels can name different things. C.30.LCA applies after an exact direct control relation, rate-band relation, control-layer relation, or `B.2.5` supervisor-subholon relation is recovered. An assignment is neither required nor sufficient for control; include it only when it independently obtains. A model-use structure is cited only when that independently selected structure changes interpretation.
+* The same source labels can name different things. C.30.LCA applies after a direct control relation, rate-band relation, control-layer relation, or `B.2.5` supervisor-subholon relation is recovered. An assignment is neither required nor sufficient for control; include it only when it independently obtains. A model-use structure is cited only when that independently selected structure changes interpretation.
 * Layered and multi-rate control descriptions often need timing and dynamics claims before they can carry stability or safety claims.
 * `B.2.5` supplies a compound supervisor-subholon feedback claim grounded in observation, return and coupling facts. A feedback diagram alone establishes none of those facts.
 * Mathematical graph descriptions of E.18 `TransformationFlowStructure` values can describe flow, path, crossing, or transformation-flow relations relevant to control, but the selected flow structure, graph expression, and control structure remain distinct.
-* Practitioners need one small first output; exact viewpoint conformance, dynamics, C.29, evidence, assurance, and gate records are used only when the question calls for them.
+* Practitioners need one small first output; viewpoint conformance, dynamics, C.29, evidence, assurance, and gate records are used only when the question calls for them.
 

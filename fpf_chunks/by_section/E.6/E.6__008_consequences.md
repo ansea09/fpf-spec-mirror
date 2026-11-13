@@ -6,12 +6,12 @@ section_id: "E.6:7"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.6/E.6__008_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.6 — Didactic Architecture of the FPF Specification"
   - "E.6:7 — Consequences"
-line_start: 96806
-line_end: 96812
+line_start: 102043
+line_end: 102049
 dependencies:
   - "E.2"
 keywords:
@@ -28,5 +28,5 @@ keywords:
 | Benefits | Trade‑offs / Mitigations |
 |----------|-------------------------|
 | Readers can choose introductory explanation or direct entry to the pattern they need. | Authors must maintain the explanation and entry guidance under E.8. |
-| Grounding can be read beside the claims it explains. | The Architectural Reference's introductory examples evolve when new archetypes are added; their change is handled through the relevant architecture decision. |
+| Grounding can be read beside the claims it explains. | The Architectural Reference's introductory examples evolve when new archetypes are added. Their change is handled through the relevant architecture decision. |
 

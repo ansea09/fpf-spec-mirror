@@ -6,12 +6,12 @@ section_id: "G.9:8"
 section_title: "Archetypal grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.9/G.9__010_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.9 — Parity and Benchmark Harness"
   - "G.9:8 — Archetypal grounding"
-line_start: 131616
-line_end: 131629
+line_start: 139696
+line_end: 139713
 dependencies:
   - "A.19"
   - "A.2.6"
@@ -49,7 +49,7 @@ keywords:
 ### G.9:8 — Archetypal grounding
 
 **Show-A — Multi-tradition parity for decision systems.**
-ParityPlan pins a rolling evidence window and comparator refs; ParityReport publishes a selected-set outcome plus the evidence trace. Family labels such as preference-learning comparators, causal decision pipelines, offline-RL evaluation pipelines, and robust BO-style selectors remain illustrative until a `G.2` SoTA pack or named current source pins the exact family being compared; the parity report still must preserve the selected set or partial order rather than collapse everything into a single scalar.
+ParityPlan pins a rolling evidence window and comparator refs; ParityReport publishes a selected-set outcome plus the evidence trace. Family labels such as preference-learning comparators, causal decision pipelines, offline-RL evaluation pipelines, and robust BO-style selectors remain illustrative until a `G.2` SoTA pack or named current source pins the exact family being compared. The parity report must preserve the selected set or partial order rather than collapse everything into a single scalar.
 
 **Show-B — QD parity (for example, CMA-MAE `arXiv:2205.10752` and DQD `arXiv:2106.03894`).**
 ParityPlan pins descriptor/distance definitions and archive insertion policy editions. ParityReport identifies the compared archive states, records the lawful comparison result and telemetry deltas, and keeps illumination summaries separate from dominance unless explicitly promoted.
@@ -58,5 +58,9 @@ ParityPlan pins descriptor/distance definitions and archive insertion policy edi
 ParityPlan pins transfer rule editions and exploration policy refs. ParityReport publishes the comparison and any declared selected-set outcome with transfer-keyed traces (PathSlice). A policy change identifies the dependent uses for G.11 to reconsider.
 
 **Show-D — Causal method rung parity.**
-A team compares an observational predictor, an intervention optimizer, and a counterfactual policy strategy under one "best causal method" headline. `G.9` first runs `CausalRungParityScreen`: if rungs, support components, estimands, endpoints, or outcome windows differ, the screen returns degraded parity or abstain before a full record is fabricated. When full parity remains plausible, `G.9` requires `CausalMethodRungParityRecord`: each method declares `targetCausalUseClaimKind`, target `CausalityLadderRung`, `causalEstimandRef`, interventional-action basis, the support components actually consumed, relevant C.28 support result, follow-up window, outcome measure, changed transport endpoints, and estimate-result basis. If those fields differ, the parity report names `declaredCausalityLadderBridgeOrLossRef`, transportability or estimation refs where available, and degraded parity or abstain result. The admissible output may be a selected set by comparable rung, not one scalar winner.
+A team compares an observational predictor, an intervention optimizer, and a counterfactual policy strategy under one "best causal method" headline. The team first applies `CausalRungParityScreen`. If differences in rungs, support components, estimands, endpoints or outcome windows make the proposed comparison untenable, it reports degraded parity or abstention without opening the full record.
+
+When full parity remains plausible, `G.9` requires `CausalMethodRungParityRecord`. For each method, the record states `targetCausalUseClaimKind`, target `CausalityLadderRung`, `causalEstimandRef`, interventional-action basis, the support components consumed, relevant C.28 support result, follow-up window, outcome measure, changed transport endpoints, and estimate-result basis.
+
+When fields differ, the report names the applicable `declaredCausalityLadderBridgeOrLossRef` and any available transportability or estimation references. It reports degraded parity or abstention where parity cannot be established. The admissible output may be a selected set by comparable rung, not one scalar winner.
 

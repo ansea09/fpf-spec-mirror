@@ -6,12 +6,12 @@ section_id: "F.10:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__008_conformance-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.10 — Apply and Interpret Evidence, Standard and Requirement Statuses"
   - "F.10:7 — Conformance checklist"
-line_start: 122219
-line_end: 122237
+line_start: 129949
+line_end: 129967
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -57,6 +57,6 @@ keywords:
 | `CC-F10-10` Design-run | Are standard approval, runtime evidence, requirement evaluation, and runtime satisfaction separate? |
 | `CC-F10-11` Receiving use | Is each actual premise/gate/assurance/permission/release/decision use grounded under its direct governor, with dated Work separately admitted only when that occurrence is claimed, rather than inferred from intended use or display? |
 | `CC-F10-12` No creation | Does status neither define/create its target nor turn evidence absence into target falsity? |
-| `CC-F10-13` No system-role drift | Does evidence, status, standard, or requirement use refrain from establishing System admission, a local system-role classification, or an assignment? When a receiving claim needs an assignment, does it name the occurrence and its declared species? Does the occurrence carry every required participant value and have the independently admitted System as holder? |
+| `CC-F10-13` No system-role drift | Does the account avoid inferring System admission, a local system-role classification, or an assignment from evidence, status, standard, or requirement use? When a receiving claim needs an assignment, does it name the occurrence and its declared species? Does the occurrence carry every required participant value and have the independently admitted System as holder? |
 | `CC-F10-14` Subject-pattern boundary | Do evidence provenance, assurance, causal use, publication, gate, permission, commitment, work, requirement evaluation, approval act, and decision remain with direct governors? |
 

@@ -6,12 +6,12 @@ section_id: "F.12:13"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.12/F.12__014_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.12 — Evaluate Promise Fulfilment from Work Evidence (Service Acceptance)"
   - "F.12:13 — Relations"
-line_start: 122725
-line_end: 122736
+line_start: 130496
+line_end: 130509
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -55,7 +55,9 @@ keywords:
 - Use **F.5** for clear designations, **F.9** only for an actual relation between distinct local meanings, **F.10** for separate EvidenceStatus and RequirementStatus uses and windows, and **F.11** to keep Method, MethodDescription, Work, and output distinct.
 - Use **A.2.3** for exact promise content, PromiseContentUse, delivered outcome and fulfilment; **A.15.1** for admitted delivery Work and any claimed evaluation Work; and **A.6.1** when the exact evaluation-operation application and result binding are current.
 
-**Uses direct subject patterns.** Use C.2 and C.16 for observations, characteristics, scales, units, and measured values. When the measurement does not directly concern the promised characteristic, use C.16.P to recover the distinct indicator relation and cite the pattern that defines or tests it; use A.6.RCD `missing-governor` when no such rule exists. Use A.10 for descriptive provenance and bounded reliance, B.3 only for an actual named assurance claim, E.13 only for optimized or decision-driving proxies, and the appropriate direct pattern for kind, control, or transformation claims.
+**Uses direct subject patterns.** Use C.2 and C.16 for observations, characteristics, scales, units, and measured values. When the measurement does not directly concern the promised characteristic, use C.16.P to recover the distinct indicator relation and cite the pattern that defines or tests it; use A.6.RCD `missing-governor` when no such rule exists.
+
+Use A.10 for descriptive provenance and bounded reliance, B.3 only for an actual named assurance claim, E.13 only for optimized or decision-driving proxies, and the appropriate direct pattern for kind, control, or transformation claims.
 
 **Constrains:** Reporting and assurance preserve the promise content, delivery Work, observations, measured values, relevant window, evaluation rule and result scale. Any claimed evaluation Work, exact application, verdict episteme, EvidenceStatus, RequirementStatus, evidence use, material reliance, indicator relation and F.9 relation retains its own meaning and grounds. A relation-specific CL or loss is reported with that relation rather than folded into the result or status.
 

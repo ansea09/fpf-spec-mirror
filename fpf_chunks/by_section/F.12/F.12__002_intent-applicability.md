@@ -6,12 +6,12 @@ section_id: "F.12:1"
 section_title: "Intent & applicability"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.12/F.12__002_intent-applicability.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.12 — Evaluate Promise Fulfilment from Work Evidence (Service Acceptance)"
   - "F.12:1 — Intent & applicability"
-line_start: 122528
-line_end: 122535
+line_start: 130277
+line_end: 130286
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -49,7 +49,9 @@ keywords:
 
 ### F.12:1 - Intent & applicability
 
-**Intent.** Relate an exact promise-content claim to the delivery Work and outcome being judged, the observations and measured values used as evidence, the relevant window and population, and application of the declared acceptance rule to those inputs. Return a result on its declared scale. Recover a separate dated evaluation Work when the claim or receiving use consumes that performance history. Map the result to F.10 status when needed, and identify a durable verdict episteme when another use needs that assertion. Keep these objects and relations distinct so a reader can see what would change the result.
+**Intent.** Relate an exact promise-content claim to the delivery Work and outcome being judged, the observations and measured values used as evidence, the relevant window and population, and application of the declared acceptance rule to those inputs. Return a result on its declared scale.
+
+Recover a separate dated evaluation Work when the claim or receiving use consumes that performance history. Map the result to F.10 status when needed, and identify a durable verdict episteme when another use needs that assertion. Keep these objects and relations distinct so a reader can see what would change the result.
 
 **Use this when.** An SLO, SLA clause, safety margin, response-time target, quality gate, or other promise must be judged from actual occurrences.
 

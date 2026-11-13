@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.10.ARCH"
-pattern_title: "Wording-Use Ontological Precision Restoration Architecture"
+pattern_title: "Architecture for Recovering Ontological Meaning in Wording"
 section_id: "E.10.ARCH:0.4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__006_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
+  - "E.10.ARCH — Architecture for Recovering Ontological Meaning in Wording"
   - "E.10.ARCH:0.4 — Solution"
-line_start: 101592
-line_end: 101595
+line_start: 107303
+line_end: 107306
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -65,5 +65,5 @@ keywords:
 
 ### E.10.ARCH:0.4 - Solution
 
-Use `F.19` for the normal whole-span repair, `E.10` for compact recognition and routing, and `E.10.ARCH` only for the unresolved ontology that remains. Once the object, relation, or claim is recovered, use its defining, constraining, or testing rule and cite the pattern that contains it. Add an applicability row only when recurring wording hides a stable recovery shape and a useful surviving reader use that no existing rule already carries.
+Use `F.19` for whole-span repair, `E.10` for compact recognition and routing, and `E.10.ARCH` only for the ontology that remains unresolved. Once the object, relation, or claim is recovered, use its defining, constraining, or testing rule and cite the pattern that contains it. Add an applicability row only when recurring wording hides a stable recovery shape and a useful surviving reader use that no existing rule carries.
 

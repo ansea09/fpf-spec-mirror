@@ -6,12 +6,12 @@ section_id: "C.41.OF:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.OF/C.41.OF__006_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.41.OF — Fit a Checklist to Its Occasion of Use"
   - "C.41.OF:5 — Archetypal Grounding"
-line_start: 89455
-line_end: 89468
+line_start: 93723
+line_end: 93736
 dependencies:
   - "A.15.8"
   - "C.41"
@@ -23,7 +23,7 @@ keywords:
 
 The seminar organizer originally emails a spreadsheet a day before delivery. The person packing the cards sees it only after the box is closed. She marks “ready” from memory. The current description is in a separate document that she cannot open.
 
-The repaired arrangement puts the three questions and the v2 description in the preparation workspace. The packer counts and inspects during assembly; the facilitator compares wording where instructional interpretation is needed. Before closing the box, the organizer confirms the identified set and unresolved questions.
+The repaired arrangement puts the three questions and the v2 description in the preparation workspace. The packer counts and inspects during assembly; the facilitator compares wording where instructional interpretation is needed. Before closing the box, the organizer confirms the set and unresolved questions.
 
 Another reminder email would leave the missing access and late occasion unchanged. A permanent second observer would add effort before the team knows which difficulty remains. The organizer instead joins one initial use to inspect access and interpretation, then examines an ordinary later use if the arrangement will be relied on. Continued assistance is selected only for a difficulty that the revised arrangement still cannot resolve.
 

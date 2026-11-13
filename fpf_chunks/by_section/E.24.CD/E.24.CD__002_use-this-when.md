@@ -6,12 +6,12 @@ section_id: "E.24.CD:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.CD/E.24.CD__002_use-this-when.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.24.CD — Ontic Candidate Detection and First-Use Disposition"
   - "E.24.CD:0 — Use This When"
-line_start: 116597
-line_end: 116625
+line_start: 124038
+line_end: 124066
 dependencies:
   - "A.1"
   - "A.14"
@@ -65,13 +65,13 @@ Typical moments:
 - a draft ToC row names a family that no current pattern yet governs;
 - a proposed `U.*` kind feels useful, but it may duplicate a current kind or direct relation.
 
-**Primary EntityOfConcern.** When the author records this choice in a C.2.1 episteme, its EntityOfConcern is the subject already identified under a direct pattern. If that subject cannot yet be identified, use the source episteme or expression entity whose inquiry remains open. The visible form and the note recording the disposition are not substitutes.
+**Primary EntityOfConcern.** When the author records this choice in a C.2.1 episteme, its EntityOfConcern is the subject already identified under a direct pattern. If that subject cannot yet be identified, an independently identified source episteme or expression entity can carry the open inquiry. Without an identifiable subject, keep the question attached to the blocked work or source material. The visible form and the note recording the disposition are not substitutes.
 
-**First useful move.** Write one plain sentence: “For this work or decision, we need to know or do `<action>` about `<subject>`.” Then ignore the wrapper long enough to recover the subject, the needed claim, and the current pattern that defines or constrains it. Apply the first truthful disposition in section 4.
+**First useful move.** Write one plain sentence: “For this work or decision, we need to know or do `<action>` about `<subject>`.” Then look past the form to recover the subject, the needed claim, and the current pattern that defines or constrains it. Apply the first disposition in section 4 that fits the case.
 
 **What goes wrong if missed.** FPF grows shadow ontology. A table becomes a kind; a field label is mistaken for a relation-participant meaning; a filled field is treated as an actual relation participant merely because it occupies a column; a card becomes the subject; or a convenient word creates a second ontology over values and relations that already have subject patterns.
 
-**What this buys.** The author identifies one usable subject pattern without filling a candidate record or maintaining a registry. A genuine durable ontic must still pass E.24's full identity and relation test; simpler cases stop with their subject pattern, local classification, description or publication handling, wording repair, or a precise unresolved question.
+**What this buys.** The author identifies an applicable pattern or the fact still needed to choose one without filling a candidate record or maintaining a registry. A proposal for a durable ontic must pass E.24's full identity and relation test; simpler cases stop with their subject pattern, local classification, description or publication handling, wording repair, or a precise unresolved question.
 
 **Not this pattern when.**
 

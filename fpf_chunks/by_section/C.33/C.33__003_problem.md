@@ -6,12 +6,12 @@ section_id: "C.33:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.33/C.33__003_problem.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.33 — Assess Structural Information for Architecture Use"
   - "C.33:2 — Problem"
-line_start: 80741
-line_end: 80754
+line_start: 84572
+line_end: 84585
 dependencies:
   - "A.22"
   - "A.6.3.NAR"
@@ -60,7 +60,7 @@ Common failures:
 
 - a diagram, model, generated graph, ADR, or benchmark trace starts acting as architecture by presentation;
 - structural information is confused with a score, entropy value, epiplexity estimate, dashboard reading, or eval result;
-- hidden structure becomes invisible exactly when a later candidate, decision, or work method depends on it;
+- hidden structure becomes invisible when a later candidate, decision, or work method depends on it;
 - source labels such as layer, router, expert, cache, memory, block, gate, SSM, pruning, distillation, or architecture search are copied as FPF ontology instead of being recovered through current FPF rules that define the relevant structures and relations;
 - partial-observation outputs from code agents or AI tools are treated as internal belief proof, safe-change authority, evidence sufficiency, or release confidence.
 

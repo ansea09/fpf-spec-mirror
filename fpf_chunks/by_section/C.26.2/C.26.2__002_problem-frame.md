@@ -6,12 +6,12 @@ section_id: "C.26.2:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.2/C.26.2__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.26.2 — Enacted Distributed State Evidence"
   - "C.26.2:1 — Problem frame"
-line_start: 66277
-line_end: 66297
+line_start: 69273
+line_end: 69293
 dependencies:
   - "A.10"
   - "A.15"
@@ -47,12 +47,12 @@ The pattern supports a bounded claim about the collective's current organization
 | Evidence-bound state reading | An evidence-bound state reading over a declared collective `U.System`. |
 | Minimal state-reading move | Recover the collective pattern from its parts' observed actions and relations; retain the evidence, time and live interpretation limits needed by the receiving use. |
 | Outside work | Unsupported group-mind or timeless-culture claims, a report mistaken for its subject, and questions already answered adequately by a routine, measurement or other subject account. |
-| What changes in practice | The team can use coordinated work, behavior, or trace patterns as evidence without pretending one report faithfully exports the whole state. |
+| What changes in practice | The team can use coordinated work, behavior, or trace patterns as evidence without assuming one report faithfully exports the whole state. |
 
 Plain glosses:
 - `collective bearer`: the declared team, organization, service mesh, market slice, or other `U.System` whose coordinated work, behavior, or trace pattern is being read.
 - `coordinated work or behavior`: role-work, service behavior, market participant traces, routine, commitment, artifact use, or coordinated action.
-- `distributed-state reading`: a minimal evidence-bound interpretation of coordinated work or behavior, not a new hidden group entity.
+- `distributed-state reading`: a minimal evidence-bound interpretation of coordinated work or behavior.
 - `carrier`: a log, trace record, dashboard, report, API response or other artifact that makes relevant work inspectable. A commitment, routine or change in work is distinguished from the record or observation used as evidence of it.
 - `faithful-enough export`: a representation good enough for the current decision; when it is not faithful enough, state what was lost and why.
 

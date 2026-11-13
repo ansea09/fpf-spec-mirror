@@ -6,12 +6,12 @@ section_id: "A.3.1.MI:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MI/A.3.1.MI__008_bias-annotation.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.3.1.MI — Introduce a Method into Practice and Decide What to Keep or Change"
   - "A.3.1.MI:6 — Bias-Annotation"
-line_start: 11386
-line_end: 11398
+line_start: 11787
+line_end: 11799
 dependencies:
   - "A.3.1"
   - "A.3.1.FT"
@@ -31,6 +31,6 @@ keywords:
 | availability-as-use bias | Published material or a configured tool becomes later enactment. | Admit actual Work and the named `enactsMethod` or use relation independently. |
 | authorization compression | Expertise, sponsorship, project position, ownership, assignment, permission, and authority become interchangeable. | Name the predicate, participants, scope, and positive basis for each relied-on relation. |
 | outside-result attribution bias | A favourable domain result fills every observation position and becomes causal proof. | Compare each selected position; use C.28 only when the decision relies on causality. |
-| adaptation-smearing bias | A local workaround silently changes the target, introduction strategy, descriptions, WorkPlan, support, and fit together. | Classify the modification as target or introduction-strategy change and return only the maintained account, description, WorkPlan claim, support claim, fit claim, or local decision actually affected. |
+| adaptation-smearing bias | A local workaround silently changes the target, introduction strategy, descriptions, WorkPlan, support, and fit together. | Classify the modification as target or introduction-strategy change and return only the maintained account, description, WorkPlan claim, support claim, fit claim, or local decision affected. |
 | lifecycle bias | Introduction, reach, and later use become compulsory adoption stages. | Keep A.3.1.MI independently enterable and use C.36.MC only for a bounded population-level cultural question. |
 

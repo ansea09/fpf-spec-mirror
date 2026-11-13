@@ -6,12 +6,12 @@ section_id: "A.7.2:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.2/A.7.2__003_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.7.2 — FPF Ontology-Premise Reconciliation"
   - "A.7.2:1 — Problem frame"
-line_start: 26012
-line_end: 26017
+line_start: 26962
+line_end: 26967
 dependencies:
   - "A.10"
   - "A.7.1"
@@ -34,7 +34,7 @@ keywords:
 
 ### A.7.2:1 - Problem frame
 
-Neighboring FPF pattern epistemes and `U.MethodDescription` epistemes can state different premises about existence, constitution, identity, dependence, obtaining, representation, agency, or formal projection. One dated application of a system-role-assignment clause may conclude that a relation does not obtain for its exact participants and scope because the instituting act required by its applicable rule has not occurred, while another concludes that the same relation obtains from a signed organization chart alone. Both texts may be internally clear, yet these application results conflict about assignment constitution in the same scope; duty and responsibility remain separately governed claims.
+Neighboring FPF pattern epistemes and `U.MethodDescription` epistemes can state different premises about existence, constitution, identity, dependence, obtaining, representation, agency, or formal projection. One dated application of a system-role-assignment clause may conclude that a relation does not obtain for its participants and scope because the instituting act required by its applicable rule has not occurred, while another concludes that the same relation obtains from a signed organization chart alone. Both texts may be internally clear, yet these application results conflict about assignment constitution in the same scope; duty and responsibility remain separately governed claims.
 
-The governed concern is one bounded reconciliation of exact FPF receiving claims and their practical consequences. The ordinary result can be compatibility, separation, non-composition, no-conflict stop, or unresolved escalation. Convergence is not mandatory.
+The concern is one bounded reconciliation of FPF receiving claims and their practical consequences. The ordinary result can be compatibility, separation, non-composition, no-conflict stop, or unresolved escalation. Convergence is not mandatory.
 

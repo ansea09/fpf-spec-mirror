@@ -6,12 +6,12 @@ section_id: "A.2.6:10"
 section_title: "Guard Patterns (ESG & Method–Work)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__011_guard-patterns-esg-method-work.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Test Scope Membership and Combine Scopes"
   - "A.2.6:10 — Guard Patterns (ESG & Method–Work)"
-line_start: 7133
-line_end: 7213
+line_start: 7454
+line_end: 7534
 dependencies:
   - "A.1.1"
   - "A.15.1"
@@ -35,7 +35,7 @@ keywords:
 
 #### A.2.6:10.1 - Common guard shape
 
-A claim-scope guard starts with one exact judgment:
+A claim-scope guard starts by evaluating membership:
 
 ```text
 membershipResult := evaluateMembership(TargetSlice, ClaimScope, InterpretationBasis)
@@ -53,7 +53,7 @@ Add a translation branch only when the membership predicate uses exact local sen
 member(TargetSlice, ClaimScope) = true
 ```
 
-Name the exact claim-bearing episteme, exact `U.ClaimScope`, and exact target slice. The episteme, scope, and slice remain different values.
+Name the claim-bearing episteme, `U.ClaimScope`, and target slice. The episteme, scope, and slice remain different values.
 
 **EG-2 - Formality or evidence, only when current.** A receiving state may separately require a C.2.3 condition on expression properties, possibly abbreviated by a justified local threshold, or an A.10 freshness judgment.
 
@@ -110,5 +110,5 @@ The source claim-bearing episteme designates `SourceScope`. The Bridge relates e
 
 When membership depends on time, name an exact `gammaTime` point, interval, or policy and the boundary that changes membership. Keep every selector already declared in the slice schema, even when this predicate does not inspect it. If a work qualification or evidence-freshness condition varies with time, name its exact evaluation time and interval or policy under that condition's direct governor rather than copying it into scope. For example, `qualificationWindowHolds(holderAbilityClaim, Recertification90d, evaluationTime)` is a separate guard; it is not a scope selector.
 
-Do not write implicit “latest.” Do not invent a time selector merely to complete a new slice declaration.
+Do not write implicit “latest.” Do not add a time selector merely to complete a new slice declaration.
 

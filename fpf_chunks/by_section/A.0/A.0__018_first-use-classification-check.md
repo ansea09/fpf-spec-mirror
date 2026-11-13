@@ -6,12 +6,12 @@ section_id: "A.0:QF.2c"
 section_title: "First-use classification check"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.0/A.0__018_first-use-classification-check.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.0 — Generative Search Onboarding Glossary (NQD & E/E‑LOG)"
   - "A.0:QF.2c — First-use classification check"
-line_start: 2507
-line_end: 2517
+line_start: 2543
+line_end: 2553
 dependencies:
   - "A.19"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
@@ -59,10 +59,10 @@ keywords:
 
 - Start with `DeclaredSubstrateInterpretiveView` when the NQD/OEE task is simply to keep one declared palette, front, shortlist, or archive readable while comparing candidate material.
 - Start with it only when any cited `SearchSpaceRef`, `OutcomeSpaceRef`, mappings, or qualifiers are already declared elsewhere and remain recoverable through the base substrate, source set, or set result.
-- Escalate to `DeclaredSubstrateAtlasView` only when one named `InspectionQuestion` about the same declared substrate requires reading several declared views, spaces, mappings, or qualifiers together. State what their joint reading contributes to that question and why a thinner interpretation is insufficient; use `A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW` for the declaration.
-- If the reading keeps several declared set views together, name `TypedSetViews` explicitly instead of letting atlas wording hide that view-set choice.
-- If the reading depends on one source-to-outcome map, name `OutcomeMapRef` explicitly instead of letting the overlay silently stand in for that map.
-- If the reading depends on one metric or neighborhood discipline, name `SpaceMetricRef` explicitly instead of letting the space name stand in for that metric.
-- If the reading depends on one transition, cross-scale state-change, or dynamic-coupling basis, name `TransitionRelationRef` explicitly instead of letting the overlay silently absorb that transition-support requirement.
-- Not this glossary-side interpretive-view stack when the real move is to invent one new search doctrine, one new outcome metric family, or one new publication surface. Those decisions stay with the governing patterns for the object itself.
+- Escalate to `DeclaredSubstrateAtlasView` only when one named `InspectionQuestion` about the same declared substrate requires reading several declared views, spaces, mappings, or qualifiers together. State what their joint reading contributes to that question and why a simpler interpretation is insufficient; use `A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW` for the declaration.
+- If the reading keeps several declared set views together, name `TypedSetViews` explicitly.
+- If the reading depends on one source-to-outcome map, name `OutcomeMapRef` explicitly.
+- If the reading depends on one metric or neighborhood discipline, name `SpaceMetricRef` explicitly.
+- If the reading depends on one transition, cross-scale state-change, or dynamic-coupling basis, name `TransitionRelationRef` explicitly.
+- Creating a search doctrine, an outcome metric family, or a publication surface lies outside this interpretive-view guidance; use the object's governing patterns for those decisions.
 

@@ -6,12 +6,12 @@ section_id: "C.27:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__002_use-this-when.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Change"
   - "C.27:0 — Use This When"
-line_start: 66965
-line_end: 67001
+line_start: 70019
+line_end: 70055
 dependencies:
   - "A.10"
   - "A.3.3"
@@ -52,13 +52,13 @@ keywords:
 
 Use this pattern when a claim about speed, rhythm, throughput, recovery, convergence, rollout, adoption, braking, coasting, redirection, or stabilization is being used to change action.
 
-The practical question is simple:
+The practical question is:
 
 > Are we only reading a state, only reading a rate, or claiming that an intervention changes a rate, rhythm, recovery, or regime?
 
 If the claim is only a state or rate reading and that answers the receiving question, stop. For an intervention-sensitive claim, recover the proposed input, relevant time, resistance or cost, and grounds for the predicted change. Return the supported use and any material limitation; add a reopening condition when later reliance needs it.
 
-**What this buys.** A trend no longer passes silently as an intervention model. Braking, pausing, stabilizing, redirecting, coasting, widening, narrowing, or slowing rollout remain available when acceleration would be the wrong move.
+**What this buys.** The practitioner distinguishes a trend from an intervention model. Braking, pausing, stabilizing, redirecting, coasting, widening, narrowing, or slowing rollout remain available when acceleration would be the wrong move.
 
 **Primary working object.** The temporal claim whose adequacy matters to the receiving action. Recover its content and subject from the available plan, report, model, observation or other account. An exact C.2.1 episteme or `ClaimAddress` is needed when the receiving use relies on that independently referable identity. Here `ClaimAddress` means exact edition plus intrinsic claim identity declared by that edition's ClaimGraph.
 
@@ -83,5 +83,5 @@ Dyn0, Dyn1, and Dyn2 classify authored claims. They do not classify Systems, tea
 - The question is a bounded transformation. Use A.3.4.
 - The question is planned or performed Work. Use A.15.2, A.15.1, and F.6 as applicable.
 - The question is causal use, benchmark parity, a promise, assurance, value, harm, viability, scaling, adaptation, search health, publication, or residual QL. Use the direct pattern for that question; keep C.27 only if a separate temporal-claim adequacy question remains.
-- The reader has only a cue such as braking difficulty, rhythm mismatch, demand accumulation, divergent event traces, or more activity without better results. Keep the cue through A.16, A.16.1, B.4.1, or B.5.2.0 until an exact temporal claim can be stated.
+- The reader has only a cue such as braking difficulty, rhythm mismatch, demand accumulation, divergent event traces, or more activity without better results. Keep the cue through A.16, A.16.1, B.4.1, or B.5.2.0 until a temporal claim can be stated.
 

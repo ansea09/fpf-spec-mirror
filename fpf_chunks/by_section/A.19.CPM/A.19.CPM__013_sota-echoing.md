@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.19.CPM"
-pattern_title: "Compare Admitted Profiles under a Declared Comparator (CPM)"
+pattern_title: "Compare Admitted Profiles under a Declared Comparator"
 section_id: "A.19.CPM:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CPM/A.19.CPM__013_sota-echoing.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "A.19.CPM — Compare Admitted Profiles under a Declared Comparator (CPM)"
+  - "A.19.CPM — Compare Admitted Profiles under a Declared Comparator"
   - "A.19.CPM:11 — SoTA-Echoing"
-line_start: 39112
-line_end: 39123
+line_start: 40667
+line_end: 40678
 dependencies:
 keywords:
   - "ComparatorSet"
@@ -20,7 +20,7 @@ keywords:
   - "comparison"
   - "partial order"
   - "set-valued comparison outcome"
-  - "tri-state admissibility (pass"
+  - "tri-state admissibility (pass\\"
 ---
 
 ### A.19.CPM:11 - SoTA-Echoing
@@ -33,5 +33,5 @@ Concrete comparator-family SoTA packages are cited through their current Part G 
 | ----------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
 | **Fair ranking and constrained ranking** (e.g., Zehlike et al., 2017; Biega et al., 2018)                                             | Reinforces the “no hidden tie‑breaks and thresholds” stance: fairness constraints belong in explicit comparator and acceptance policies, not as silent kernel constants. | Integrate via `ComparatorSpec` editions in `CG‑Spec.ComparatorSet` + policy pins; CPM remains unchanged.              |
 | **Uncertainty-aware and set-valued inference** (e.g., Romano et al., 2019; Barber et al., 2021)                                       | Prediction intervals or other uncertainty results retain their own semantics. A declared comparator determines which relation tokens follow; an interval is neither a CPM token set nor by itself a reason for abstention.                         | Model as comparator families (or supporting method families) packaged in `G.2`; wired into declared `ComparatorSpec`. |
-| **Differentiable sorting and learned comparators** (e.g., Grover et al., 2019; Blondel et al., 2020) | Replay and drift assessment use the learned `ComparatorSpec` edition and the actual comparison's policy, argument and result bindings. Add an A.10 evidence-provenance account when the bounded source-to-use grounds must remain replayable. | Use a sorting or learned-comparison component only under a ComparatorSpec that establishes the returned relation semantics and required conditions; an algorithm label is insufficient. |
+| **Differentiable sorting and learned comparators** (e.g., Grover et al., 2019; Blondel et al., 2020) | Replay and drift assessment use the learned `ComparatorSpec` edition and the comparison's policy, argument and result bindings. Add an A.10 evidence-provenance account when the bounded source-to-use grounds must remain replayable. | Use a sorting or learned-comparison component only under a ComparatorSpec that establishes the returned relation semantics and required conditions; an algorithm label is insufficient. |
 

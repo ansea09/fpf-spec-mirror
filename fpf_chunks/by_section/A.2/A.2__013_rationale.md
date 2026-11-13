@@ -6,24 +6,20 @@ section_id: "A.2:11"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2/A.2__013_rationale.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.2 — System-Role Kinds and Assignments"
   - "A.2:11 — Rationale"
-line_start: 4836
-line_end: 4850
+line_start: 4988
+line_end: 5002
 dependencies:
   - "A.1"
-  - "A.1.1"
   - "A.15"
   - "A.2.1"
   - "A.2.5"
   - "A.2.7"
-  - "A.6.0"
-  - "A.6.5"
   - "A.6.REL"
   - "A.6.RSIR"
-  - "C.2.1"
   - "C.3"
   - "C.3.1"
   - "C.3.2"
@@ -50,7 +46,7 @@ The architecture therefore keeps these levels separate:
 3. any directly declared `U.SystemRoleAssignment` occurrence;
 4. direct neighboring relations for state, capability, Method, Work, responsibility, commitment, permission, authority, evidence, reliance, description, and publication.
 
-Fields in a `SystemRoleKindDescription` belong to the description episteme. Proposed “parts” repeatedly resolve into other kinds, relation predicates, assignments, Method or Work structures, or parts of description epistemes. The useful structure for relations among system-role kinds is the exact relation structure governed by A.2.7. Resolve the other proposed “parts” through their subject patterns (§4.6), not role mereology.
+Fields in a `SystemRoleKindDescription` belong to the description episteme. Proposed “parts” repeatedly resolve into other kinds, relation predicates, assignments, Method or Work structures, or parts of description epistemes. The useful structure for relations among system-role kinds is the relation structure governed by A.2.7. Resolve the other proposed “parts” through their subject patterns (§4.6), not role mereology.
 
 Semantic locality needs no universal context participant. C.3's candidate domain, operative membership distinction, boundary probes, and continuity rule recover the kind. A practice or source reference locates the definition and warns where comparison may be needed; it is not an identity participant. An assignment species declares only its real participants. A receiving assertion or use can cite a selected model-use structure when that structure actually changes interpretation.
 

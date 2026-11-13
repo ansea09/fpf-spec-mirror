@@ -6,12 +6,12 @@ section_id: "C.40.CU:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.CU/C.40.CU__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.40.CU — Develop a Useful and Reproducible Use of a Construct"
   - "C.40.CU:4 — Solution"
-line_start: 85914
-line_end: 86017
+line_start: 90146
+line_end: 90249
 dependencies:
   - "B.1.5.EW"
   - "B.1.5.RS"
@@ -100,19 +100,19 @@ Start at the first unsupported contribution of the chosen way. The relevant engi
 
 Make the critical joins explicit. What does the receiver of a probe result treat as established? What does the designer change because of it? What must the operator recognize before using the resulting arrangement? Which result satisfies the original receiving need? B.1.5 governs composition; B.1.5.EW recovers how the constituent actions perform the encompassing work.
 
-Examine a representative use against the same result conditions used to choose the arrangement. A derivation can establish a model-conditional result; a performed trial supplies observations within its actual conditions. Keep these forms of support distinct. If the result is partial, retain the qualified part and name the unmet condition.
+Examine a representative use against the same result conditions used to choose the arrangement. A derivation can establish a model-conditional result; a performed trial supplies observations within its conditions. Keep these forms of support distinct. If the result is partial, retain the qualified part and name the unmet condition.
 
 When the whole fails, locate the first consequential mismatch: response qualification, architecture, realization, joining, performer capability, access or changed support. Repair that contribution and reuse the rest where its conditions still hold. A changed deadline can require a different operation; it need not reopen the origin of an already qualified response.
 
-If reliance includes a transition between realizations, examine the transition as well as the endpoints. The running arrangement may need to detect the trigger, change realization and preserve the required result during the transient. A designer's possession of two alternatives does not establish that runtime ability. Use A.15.8 when configuration or recovery reliance is the actual question.
+If reliance includes a transition between realizations, examine the transition as well as the endpoints. The running arrangement may need to detect the trigger, change realization and preserve the required result during the transient. A designer's possession of two alternatives does not establish that runtime ability. Use A.15.8 when configuration or recovery reliance is the question.
 
 #### C.40.CU:4.6 - Make the use reproducible for another performer or occasion
 
-Recover what made the successful enactment possible: preparation, inputs, operative steps, supporting artifacts or people, recognition conditions, acceptance basis and stops. Preserve the needed intermediate meanings, not just the final output.
+Recover what made the successful enactment possible: preparation, inputs, operative steps, supporting artifacts or contributors, recognition conditions, acceptance basis and stops. Preserve the needed intermediate meanings, not just the final output.
 
 Decide which contributions the receiver must perform and which can remain obtainable from elsewhere. Restore access or activation when that is sufficient; develop capability when the receiver cannot perform a necessary operation. E.23.CAE distinguishes those gaps under grounded capability claims, E.23.CDI develops the named capability, and C.36.RP arranges acquisition, provision and continuing access.
 
-Use a receiving attempt that can reveal the uncertain transfer. A person who copied a demonstration may still be unable to adapt its critical step. Ask the receiver to use the method under the changed condition that matters, with the support the intended arrangement actually permits. If the helper supplied the decision, the supported configuration's success remains useful, but does not establish the receiver's independent capability.
+Use a receiving attempt that can reveal the uncertain transfer. A person who copied a demonstration may still be unable to adapt its critical step. Ask the receiver to use the method under the changed condition that matters, with the support the intended arrangement permits. If the helper supplied the decision, the supported configuration's success remains useful, but does not establish the receiver's independent capability.
 
 For shared terms, test a consequential action on the common object. Ask participants to classify or act on the same borderline case, state what they expect to happen, and inspect the difference. Repair the operative distinction or action when identical words hide different uses. Agreement in wording alone does not establish common understanding.
 
@@ -122,7 +122,7 @@ Retain an obtainable explanation, executable material or demonstration suited to
 
 Keep the useful construction, its supported scope and the means needed for another enactment. If a disturbance can reveal a different retained state or recovery behavior, qualify that behavior over the window the use needs. Normal appearance now is not evidence of indefinite retention or recovery after every disturbance.
 
-A new input, environment, performer, criterion or time window can reopen a particular connection. Use B.1.5.RS when a constituent is replaced across several encompassing uses. Use C.40.CD when the result opens a new problem or requires a changed obtaining way. Keep the previous bounded application where it remains supported.
+A new input, environment, performer, criterion or time window can reopen a connection. Use B.1.5.RS when a constituent is replaced across several encompassing uses. Use C.40.CD when the result opens a new problem or requires a changed obtaining way. Keep the previous bounded application where it remains supported.
 
 End the current development when the selected receiving use is supplied, when a sufficient conditional result serves the assignment, or when no attainable next distinction or construction warrants its burden. State which of these outcomes has been reached. A promising clue can be retained without claiming a realized application.
 
@@ -130,5 +130,5 @@ End the current development when the selected receiving use is supplied, when a 
 
 Recognition needs a concrete response, a possible useful difference and one uncertainty or connection that changes the next move. A modest proposed application can begin there.
 
-A reliance claim additionally needs support for the actual holder or configuration, obtaining conditions, interpretation, receiving result and material limitations. The receiving domain determines the necessary trials, safety, ethics, authorization and operating evidence. This pattern neither certifies a construct nor establishes intelligence, sentience, clinical efficacy or universal independence from assistance.
+A reliance claim additionally needs support for the holder or configuration, obtaining conditions, interpretation, receiving result and material limitations. The receiving domain determines the necessary trials, safety, ethics, authorization and operating evidence. This pattern neither certifies a construct nor establishes intelligence, sentience, clinical efficacy or universal independence from assistance.
 

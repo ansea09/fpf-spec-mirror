@@ -6,12 +6,12 @@ section_id: "G.1:8"
 section_title: "Common Anti‑Patterns and How to Avoid Them (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.1/G.1__009_common-anti-patterns-and-how-to-avoid-them-informative.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "G.1 — Author a Reusable CG-Frame Generator and Selector Kit"
   - "G.1:8 — Common Anti‑Patterns and How to Avoid Them (informative)"
-line_start: 127630
-line_end: 127646
+line_start: 135680
+line_end: 135696
 dependencies:
   - "A.10"
   - "A.15.2"
@@ -61,7 +61,7 @@ keywords:
   *Avoid:* keep M3 core method‑agnostic; add algorithm families only via Extensions with explicit governing patterns and edition pins.
 
 * **Anti‑pattern: “Shortlist = one winner.”**
-  *Avoid:* preserve selected-set returns; any singleton choice must be an explicit downstream decision rule (policy‑bound).
+  *Avoid:* return the selected set even if it has one member. Choosing one among several selected candidates requires an explicit downstream decision rule.
 
 * **Anti‑pattern: “Refresh plan described as prose triggers.”**
   *Avoid:* record canonical `RSCRTriggerKindId` and payload pins; aliases only as labels and only if docked.

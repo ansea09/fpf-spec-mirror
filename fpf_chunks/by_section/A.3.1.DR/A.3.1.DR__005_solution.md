@@ -6,12 +6,12 @@ section_id: "A.3.1.DR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.DR/A.3.1.DR__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.3.1.DR — Recover Method Contributions from Documentary Sources"
   - "A.3.1.DR:4 — Solution"
-line_start: 10086
-line_end: 10134
+line_start: 10485
+line_end: 10535
 dependencies:
   - "A.3.1.MR"
   - "A.3.1.QM"
@@ -24,7 +24,7 @@ keywords:
 
 F.0.1 supplies source-local meaning recovery; A.3.1.MR instead reconstructs a candidate reusable way from Work evidence. The documentary operation below retains what an author proposes, including the source's complete constructive scope where that is the requested result. It does not convert a documentary assertion into an observation of practice.
 
-Build a source-traceable dossier around the receiving decision. Recover each documentary contribution in its own source meaning, preserve unlike kinds, and prepare only the downstream subjects whose question is current.
+Build a source-traceable dossier around the receiving decision. Recover each documentary contribution in its own source meaning, preserve unlike kinds, and prepare only the downstream subjects needed for the receiving decision.
 
 #### A.3.1.DR:4.1 - Pattern-Use Unfolding
 
@@ -34,7 +34,9 @@ Build a source-traceable dossier around the receiving decision. Recover each doc
 4. **Preserve the subject and evidence role.** Distinguish identified Methods, individually scoped candidate accounts, MethodDescriptions or other epistemes, Systems and support/access, capabilities and assignments, inputs/results/premises, and direct relations. A source's report of evidence is recovered as that report, not as independently established Work or effectiveness. Send a new question about a reusable way in occurrence evidence to A.3.1.MR; specialist RMP.10 follows only under its entry condition.
 5. **Record intended use and possible loss.** Say what the receiving use proposes to keep, change, reject, or leave unresolved and what source meaning or context would be lost. These are source-local recovery dispositions. Do not yet assert cross-source sameness, perform semantic merging, allocate a remainder to a supplier, or design the resulting pattern language.
 6. **Recover direct relations and small dependency slices.** Retain supported production/use, schema correspondence, provider access, allocation, responsibility, authority, or other relevant relations. A line, container, chapter, lane, or local section supplies no relation. Attach only the source claims, conditions, and returns needed for the next judgement.
-7. **Prepare the actual downstream subjects.** A.3.1.QM receives only identified Methods and individually scoped candidate Method accounts, each with the smallest slice needed to judge contribution, inputs/results, applicability, burden, capability, support, authority/access, and evidence. B.1.5.CM receives a proposed-whole account when whole identity and relations are the question; retain its proposed semantics, participant statuses, relation boundary, and source slices. Other kinds remain in the dossier or accompany those subjects without becoming Methods.
+7. **Prepare the downstream subjects.** A.3.1.QM receives only identified Methods and individually scoped candidate Method accounts, each with the smallest slice needed to judge contribution, inputs/results, applicability, burden, capability, support, authority/access, and evidence.
+
+   B.1.5.CM receives a proposed-whole account when whole identity and relations are the question; retain its proposed semantics, participant statuses, relation boundary, and source slices. Other kinds remain in the dossier or accompany those subjects without becoming Methods.
 8. **Return the dossier and any blocking gaps.** Use open navigation sections when they help retrieval. Stop when the subjects and source basis needed for the receiving decision are recoverable. If edition, role, receiving use, a needed current comparator, source return, kind, relation, or evidence is missing, name the affected contribution and the missing basis. Continue unaffected recovery when it can still serve the receiving decision; do not claim completeness beyond the recovered boundary.
 
 ##### A.3.1.DR:4.1.1 - Select the Recovery Profile Per Source
@@ -48,7 +50,7 @@ For an ordinary package, the default is **decision-bounded recovery**: inspect o
 | Gap-only | An exact earlier source/supplier comparison and its affected gap or delta are recoverable. | Recover that gap and its dependencies. Widen or stop if the baseline, scope, or source meaning has changed. A missing keyword is not a gap definition. |
 | Mixed | The bounded corpus contains sources with different roles or recovery needs. | Apply the appropriate profile separately to each documentary source. Route occurrence evidence separately and retain the limits of any returned candidate account, specialist dossier, or lower result. |
 
-“Full” is not an instruction to extract all possible knowledge from a source. The receiving decision sets the completeness boundary. A change from source-local recovery to cross-source reconciliation is a new question, not the final unspoken step of A.3.1.DR.
+“Full” is not an instruction to extract all possible knowledge from a source. The receiving decision sets the completeness boundary. A change from source-local recovery to cross-source reconciliation is a new question, not the final step of A.3.1.DR.
 
 #### A.3.1.DR:4.2 - Record the Result
 
@@ -58,7 +60,7 @@ For an ordinary package, the default is **decision-bounded recovery**: inspect o
 | source/use statement | Per source: locator, role, recovery profile, receiving use, and currentness or reopening condition; combine this with the boundary for one ordinary package. |
 | entries | Local reference, source locator and meaning, difficulty/opportunity, any asserted action/change, any first result/blocker, existing kind or unresolved status, bounded use, and loss. |
 | direct relations | Related subjects, relation, source or evidence basis, truth status, and unresolved condition. |
-| occurrence-evidence return, when current | The A.3.1.MR or RMP.10 result with its own candidate statuses, real rivals, gaps and evidence limits. Include a distinguishing question only when it changes the receiving use, or a held-out result only when actually obtained. An ordinary account needs no prospective study to fill this row; raw observations are not documentary Method entries. |
+| occurrence-evidence return, when needed | The A.3.1.MR or RMP.10 result with its own candidate statuses, rivals, gaps and evidence limits. Include a distinguishing question only when it changes the receiving use, or a held-out result only when obtained. An ordinary account needs no prospective study to fill this row; raw observations are not documentary Method entries. |
 | navigation | Open local sections used only for finding contributions. |
 | downstream subjects | Identified Methods and individually scoped accounts with dependency slices for A.3.1.QM; a proposed-whole account with its identity/relation boundary for B.1.5.CM when needed. |
 | stop and return | Supported result for the receiving decision; any missing source, role, use, comparator, kind, relation, or evidence; any further question the decision requires. |

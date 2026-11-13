@@ -6,12 +6,12 @@ section_id: "C.40.PC:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.PC/C.40.PC__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.40.PC — Construct a Worthwhile Problem and Proposed Contribution"
   - "C.40.PC:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 87353
-line_end: 87363
+line_start: 91587
+line_end: 91597
 dependencies:
   - "A.15.9"
   - "A.2.3"
@@ -33,5 +33,5 @@ keywords:
 | Faster approval by implication | Qualification support is promoted into an unproved benefit and authority claim. | State the inspectable contribution and qualify stronger benefits separately. |
 | Offer equals commitment | The content of an offer is mistaken for an obtaining provider relation. | Identify the promise source and separately establish any commitment or provision. |
 | One sponsor speaks for everyone | Effects and conflicting interests disappear. | Preserve attributed concerns and consequential missing voices or evidence. |
-| Unreachable therefore worthless | Missing support is allowed to erase a genuine receiving problem. | Retain the problem and return the exact direction or reachability gap. |
+| Unreachable therefore worthless | Missing support is allowed to erase a receiving problem. | Retain the problem and return the direction or reachability gap. |
 

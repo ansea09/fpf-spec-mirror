@@ -6,12 +6,12 @@ section_id: "C.40.NU:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.NU/C.40.NU__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.40.NU — Search Neighboring Uses and Means"
   - "C.40.NU:1 — Problem Frame"
-line_start: 87007
-line_end: 87016
+line_start: 91241
+line_end: 91250
 dependencies:
   - "C.17"
   - "C.18"
@@ -33,7 +33,7 @@ keywords:
 
 Start with one bounded subject, a question worth investigating, a horizon, protected conditions, and an effort limit. The question may concern a known receiver or what a change to available material could reveal. Ask what could change if the receiving use, the way of contributing, a relevant characteristic, or the support were different. The first useful result can be a small set of materially different leads with their generating operations, sources and next question. An examined local result can also be enough to stop this branch.
 
-This is opportunity-generating search: the worthwhile problem and target contribution may still be provisional. A *lead* is a possibility worth examining, not yet a supported need, complete direction, or reachable change. A separate adviser is unnecessary.
+This is opportunity-generating search: the worthwhile problem and target contribution may be provisional. A *lead* is a possibility worth examining, not yet a supported need, complete direction, or reachable change. A separate adviser is unnecessary.
 
-**Ordinary non-use boundary.** Reuse an adequate lead or direction set when another search is unlikely to change the current inquiry. If a bounded decision-support question already needs a finite alternative set, use an applicable Method for generating decision alternatives. If one domain practice owns the whole discovery question, use it directly. If the only question is a requirement's justification, use C.11.DUA with its direct domain basis without reopening opportunity search. Do not open a generation archive merely to remember two possibilities.
+**Ordinary non-use boundary.** Reuse an adequate lead or direction set when another search is unlikely to change the current inquiry. If a bounded decision-support question already needs a finite alternative set, use an applicable Method for generating decision alternatives. If one domain practice owns the whole discovery question, use it. If the only question is a requirement's justification, use C.11.DUA with its domain basis without reopening opportunity search. Do not open a generation archive merely to remember two possibilities.
 

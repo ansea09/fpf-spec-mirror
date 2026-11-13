@@ -6,12 +6,12 @@ section_id: "F.13:12"
 section_title: "Reasoning primitives (judgement schemas, notation‑free)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.13/F.13__013_reasoning-primitives-judgement-schemas-notation-free.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.13 — Lexical Continuity & Deprecation"
   - "F.13:12 — Reasoning primitives (judgement schemas, notation‑free)"
-line_start: 122972
-line_end: 123020
+line_start: 130752
+line_end: 130804
 dependencies:
   - "F.1"
   - "F.17"
@@ -36,7 +36,9 @@ keywords:
 
 Use these schemas to decide which continuity claim the recovered facts support.
 
-Let `meaningOf(ℓ)` recover the exact `<ReferenceScheme, LocalSenseClaim>` projection for one local label use; let `useOf(ℓ)` recover its intended naming use. Where a value is being named, recover it independently under its subject rule. `pref(t)` denotes the preferred expression for that exact naming use, not a global preferred word.
+Let `meaningOf(ℓ)` recover the exact `<ReferenceScheme, LocalSenseClaim>` projection for one local label use; let `useOf(ℓ)` recover its intended naming use.
+
+Where a value is being named, recover it independently under its subject rule. `pref(t)` denotes the preferred expression for that exact naming use, not a global preferred word.
 
 #### F.13:12.1 - Same‑sense & same‑place
 
@@ -47,7 +49,7 @@ Two expressions with the same `meaningOf`, intended use and independently govern
 #### F.13:12.2 - Local alias
 
 
-Under the same conditions, a legacy expression may remain a read-path to `pref(t)`. Retain its own exact coordinate and any source basis; aliasing is not cell identity.
+Under the same conditions, a legacy expression may remain a read-path to `pref(t)`. Retain its coordinate and any source basis. Aliasing does not establish cell identity.
 
 #### F.13:12.3 - Split detection
 
@@ -79,5 +81,7 @@ Keep the historical aliases needed by the naming use, with their meanings and ed
 
 #### F.13:12.10 - Row‑level continuity
 
-A Concept-Set display label may change while the exact comparison content and receiving use remain unchanged. Recover changed row content under F.7 first. When an F.17 UnifiedTermRow's identity-bearing claims change, retain the earlier and corresponding later epistemes under C.2.1/F.17; a stable row designator is not identity proof.
+A Concept-Set display label may change while the exact comparison content and receiving use remain unchanged. Recover changed row content under F.7 first.
+
+When an F.17 UnifiedTermRow's identity-bearing claims change, retain the earlier and corresponding later epistemes under C.2.1/F.17; a stable row designator is not identity proof.
 

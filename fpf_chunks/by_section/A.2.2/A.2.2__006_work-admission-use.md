@@ -6,12 +6,12 @@ section_id: "A.2.2:5"
 section_title: "Work-Admission Use"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__006_work-admission-use.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.2.2 — System Capability: Conditions, Measures and Fit"
   - "A.2.2:5 — Work-Admission Use"
-line_start: 5357
-line_end: 5381
+line_start: 5537
+line_end: 5563
 dependencies:
   - "A.1"
   - "A.15"
@@ -52,7 +52,9 @@ The checks are separate:
 - one exact `U.Method` supplies the method-side condition, while an independently admitted `U.MethodDescription` or work-admission episteme may state the capability threshold used by the check;
 - the ability claim states what the holder can achieve under the declared conditions and attained bounds;
 - the capability-fit condition compares that qualified claim with the current work conditions and required bounds;
-- after execution, A.13 first recovers the exact actual performer and A.15.1 independently admits the dated Work occurrence; F.6 `performedUnderAssignment(W, RA)` is added only when this capability account or its receiving use expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment, while actual `enactsMethod(W, M)` separately relates the Work to the exact Method;
+- after execution, A.13 first recovers the actual performer and A.15.1 independently admits the dated Work occurrence.
+
+  F.6 `performedUnderAssignment(W, RA)` is added only when this capability account or its receiving use expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment, while actual `enactsMethod(W, M)` separately relates the Work to the exact Method.
 
 Do not put the threshold into the local system-role-kind name.
 

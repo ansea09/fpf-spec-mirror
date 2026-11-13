@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.17.AUD.OOTD"
-pattern_title: "PublicationUnit Stability Discipline and PublicationUnit Primary-Subject Discipline - publication-unit stability over one primary subject"
+pattern_title: "Clarify the Primary Subject of a Publication Unit (PublicationUnit Primary-Subject Discipline)"
 section_id: "E.17.AUD.OOTD:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.OOTD/E.17.AUD.OOTD__004_forces.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "E.17.AUD.OOTD — PublicationUnit Stability Discipline and PublicationUnit Primary-Subject Discipline - publication-unit stability over one primary subject"
+  - "E.17.AUD.OOTD — Clarify the Primary Subject of a Publication Unit (PublicationUnit Primary-Subject Discipline)"
   - "E.17.AUD.OOTD:3 — Forces"
-line_start: 109888
-line_end: 109897
+line_start: 116641
+line_end: 116650
 dependencies:
   - "A.10"
   - "A.15"
@@ -45,7 +45,7 @@ keywords:
 | --- | --- |
 | **Local repair vs publication-unit stability** | The pattern must not replace local precision repair, but it must become available when local repair no longer stabilizes the unit. |
 | **Primary-subject clarity vs surrounding-work convenience** | The unit must keep one primary subject without forcing the whole surrounding work process into the same text. |
-| **Interpretation clarity vs overgrowth** | The section must distinguish primary subject, exact `EntityOfConcern` when applicable, concern, carried move, downstream use, publication form, carrier, and process without turning into a giant ontology lecture. |
+| **Interpretation clarity vs overgrowth** | The section must distinguish primary subject, `EntityOfConcern` when applicable, concern, carried move, downstream use, publication form, carrier, and process without requiring a long explanation of the ontology. |
 | **Plain entry vs later assurance** | The opening must stay light enough for ordinary use while preserving the distinctions needed if a concrete neighboring claim or assurance question later arises. |
 | **Publication-unit stability vs architecture replacement** | The pattern must not replace view, face, carrier, publication, or moving-lineage architecture. |
 

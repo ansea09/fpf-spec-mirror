@@ -6,12 +6,12 @@ section_id: "C.26.3:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.3/C.26.3__010_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.26.3 — Viability-Envelope Boundary Regulation"
   - "C.26.3:9 — Consequences"
-line_start: 66912
-line_end: 66917
+line_start: 69964
+line_end: 69969
 dependencies:
   - "A.10"
   - "A.15"
@@ -43,5 +43,5 @@ keywords:
 
 The envelope account makes trade-offs visible: preserving one characteristic can violate a constraint supplied by another claim. It supports a diagnosis, or comparison of independently identified proposals, while the direct subject patterns continue to govern the proposed objects and any actual changes.
 
-The cost is that simple metric stories become less simple. That is acceptable when the metric story hides another envelope dimension, an intervention cost, a boundary condition, or a failure mode.
+An envelope account requires more detail than an account based on one metric. That detail is warranted when the metric hides another envelope dimension, an intervention cost, a boundary condition, or a failure mode.
 

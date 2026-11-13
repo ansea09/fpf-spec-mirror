@@ -6,12 +6,12 @@ section_id: "A.3:10"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3/A.3__011_relations.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.3 — Transformer Quartet: Distinguish Work, Performer, Method and Method Description"
   - "A.3:10 — Relations"
-line_start: 9333
-line_end: 9371
+line_start: 9712
+line_end: 9750
 dependencies:
   - "A.10"
   - "A.12-A.15"
@@ -50,8 +50,8 @@ These patterns govern claims about participation and causal structure. Use an as
 **A.15 Role-Method-Work Alignment.**
 A.3 relies on A.15's separation of local system-role kind, System-classification claim, exact world-side SystemRoleAssignment occurrence, run-independent Method, conditional MethodDescription reliance, intended WorkPlan episteme, world-side dated Work occurrence, and any assertion, description, log, or evidence about that occurrence. The Work stands in an actual `enactsMethod` relation; use F.6 with the same A.13 assignment only when precise assignment-bound attribution is claimed. A MethodDescription may describe the Method; neither the description, plan, nor record proves that Work or actual change occurred.
 
-**A.14 Advanced Mereology.**
-A.3 consumes A.14/C.13 only for independently grounded part or structure relations and forbids inferring System-part membership from a local system-role kind or recipe. Selecting grounded internal positions for a reflexive claim is not an MHT; B.2 opens only when the containing whole is actually reidentified.
+**A.14 Mereology.**
+A.3 consumes A.14/C.13 only for independently grounded part or structure relations and forbids inferring System-part membership from a local system-role kind or recipe. Selecting grounded internal positions for a reflexive claim is not an MHT; B.2 opens only when the containing whole is reidentified.
 
 **B-cluster (Gamma sections).**
 A.3 supplies grounded actor-side facts and exact Work occurrences that receiving assertions may designate. B.1.5 governs order-sensitive Method composition and optional `Gamma_method`; B.1.4 governs a selected temporal aggregation and optional `Gamma_time`; B.1.6 governs a selected Work-resource aggregation and optional `Gamma_work`. System-boundary and epistemic aggregations use their exact direct patterns when current. Every such result has its own EntityOfConcern, policy, evidence, and admissible use rather than becoming a field or identity condition of MethodDescription, SystemRoleAssignment, or Work.

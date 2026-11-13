@@ -6,12 +6,12 @@ section_id: "A.15.2:5"
 section_title: "What a good WorkPlan states (review checklist)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__006_what-a-good-workplan-states-review-checklist.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.15.2 — U.WorkPlan: Plan Content for Coordinating Future Work"
   - "A.15.2:5 — What a good WorkPlan states (review checklist)"
-line_start: 29915
-line_end: 29929
+line_start: 30993
+line_end: 31007
 dependencies:
   - "A.10"
   - "A.15"
@@ -64,10 +64,10 @@ Apply the items needed by the coordination or comparison claim; this is a recogn
 2. **`PlanItem` content components** with intended-performance designator, target Method, the selected method-description episteme when one plan claim relies on it, planned windows, and dependencies.
 3. **Intended performer System and local system-role-kind conditions**, any reference to an existing assignment occurrence and its declared species, and the A.2.2 capability threshold or fit condition; a proposed holder-and-kind pair or threshold is not an assignment or fit result.
 4. **Safety envelopes**, constraints, and other admissibility conditions for planned work.
-5. **Resource budgets** and exact **reservation claims** on assets.
+5. **Resource budgets** and **reservation claims** on assets.
 6. **Acceptance targets** with their direct criteria and intended qualification windows.
-7. **Cross-context interpretation boundary:** when a proposed use depends on correspondence between local senses with different interpretation bases, pin both effective reference schemes and resolve the two F.17 `SchemeSenseCell` values. F.9 says only whether their Bridge obtains. A separate C.2.1 claim says whether this exact reuse is acceptable in this direction, under this correspondence rule and tolerated loss; A.10 governs ordinary evidence reliance and B.3 governs assurance-bearing reliance. A negative use claim leaves the Bridge true but stops the reuse; a non-passing reliance result stops or narrows it. Establish any value conversion, target comparison, commitment, acceptance, verdict reuse, plan coordination, or Work claim separately under the pattern that defines it.
+7. **Cross-context interpretation boundary:** when a proposed use depends on correspondence between local senses with different interpretation bases, pin both effective reference schemes and resolve the two F.17 `SchemeSenseCell` values. F.9 says only whether their Bridge obtains. A separate C.2.1 claim says whether this reuse is acceptable in this direction, under this correspondence rule and tolerated loss; A.10 governs ordinary evidence reliance and B.3 governs assurance-bearing reliance. A negative use claim leaves the Bridge true but stops the reuse; a non-passing reliance result stops or narrows it. Establish any value conversion, target comparison, commitment, acceptance, verdict reuse, plan coordination, or Work claim separately under the pattern that defines it.
 8. **Baseline when the receiving comparison needs one.** Keep the earlier plan identifiable. Claim edition continuity only when `EpistemeEditionRelation` obtains, and use a change note when the attributed difference needs explanation. If continuity is unestablished, leave it unresolved; a first plan has no earlier plan relation, and a negative continuity claim needs its own basis.
-9. **Policy pointers** to A.15.1 work continuity, B.1.4 temporal aggregation, B.1.6 resource aggregation, and any exact local comparison policy needed by the receiving KPI.
+9. **Policy pointers** to A.15.1 work continuity, B.1.4 temporal aggregation, B.1.6 resource aggregation, and any local comparison policy needed by the receiving KPI.
 10. **Exception question** stating how ad hoc or emergency Work will be handled by a local plan-use assertion; use one reusable predicate-definition episteme when the receiving use needs a stable definition, and require an admitted direct relation kind before claiming fulfilment or exception occurrences.
 

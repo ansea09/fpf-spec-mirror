@@ -6,12 +6,12 @@ section_id: "A.15.6:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.6/A.15.6__012_sota-echoing.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.15.6 — Recover What Project, Process, or Case Wording Refers To"
   - "A.15.6:11 — SoTA-Echoing"
-line_start: 31474
-line_end: 31489
+line_start: 32655
+line_end: 32670
 dependencies:
   - "A.1"
   - "A.1.STM"
@@ -51,7 +51,7 @@ keywords:
 | Jalali, [*Evaluating user acceptance of knowledge-intensive business process modeling languages*](https://doi.org/10.1007/s10270-023-01120-6), 2023 | In two studies of trained course participants, CMMN, DCR, and Declare received different perceived-usefulness and ease-of-use results; interactive simulation may influence learning and perceived usability. | **Adapt as a representation-use boundary.** A notation can help practitioners represent flexible case work. The case subject, closure and any asserted Work use their own rules and facts. Keep perceived ease of use and simulation support visible when selecting a description form. |
 
 
-FPF uses these contributions to distinguish temporary organization, intended and performed work, and the subjects selected by process and case questions. Its own admission and relation rules then test those particular claims. The project, process and case accounts can inform one another without acquiring a shared identity.
+FPF uses these contributions to distinguish temporary organization, intended and performed work, and the subjects selected by process and case questions. Its own admission and relation rules then test those claims. The project, process and case accounts can inform one another without acquiring a shared identity.
 
 
 

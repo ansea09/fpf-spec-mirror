@@ -6,12 +6,12 @@ section_id: "A.2.8:10"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8/A.2.8__013_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.2.8 — U.Commitment — Individual Duties to Act or Refrain"
   - "A.2.8:10 — Consequences"
-line_start: 8420
-line_end: 8435
+line_start: 8759
+line_end: 8774
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -52,6 +52,6 @@ keywords:
 **Costs and mitigations**
 
 - An individual-duty assertion must establish the applicable rule and actual instituting basis. A generic policy statement can remain sufficient when no individual duty is being asserted.
-- Domains with another instituting basis need the pattern that defines that basis. Until then, return the exact `missing-governor` result.
+- Domains with another instituting basis need the pattern that defines that basis. Until then, return the `missing-governor` result.
 - Conflict resolution remains outside this pattern. Preserve each current commitment plus the exact source, independently obtaining authority relation, and selecting rule required by the named conflict or choice use; apply D.3/D.4 for an interlevel ethical conflict, C.11 for an explicit choice among available options, or return `missing-governor[commitment conflict resolution]` when no direct result rule exists.
 

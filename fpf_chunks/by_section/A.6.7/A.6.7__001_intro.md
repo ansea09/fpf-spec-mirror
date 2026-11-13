@@ -6,12 +6,12 @@ section_id: "A.6.7:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.7/A.6.7__001_intro.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.7 — MechSuiteDescription — Shared Conditions for Joint Use of Distinct Mechanisms"
   - "A.6.7:intro — Intro"
-line_start: 24052
-line_end: 24087
+line_start: 24973
+line_end: 25008
 dependencies:
   - "A.21"
   - "A.6.1"
@@ -43,7 +43,7 @@ keywords:
 > **Status:** Stable.
 > **Normativity:** Normative [A] (Core).
 
-**Use this when.** Several distinct mechanism declarations must be used together under shared conditions. Select their exact contracts and cite the required specifications. State a permitted operation order when joint use needs a protocol.
+**Use this when.** Several distinct mechanism declarations must be used together under shared conditions. Select their contracts and cite the required specifications. State a permitted operation order when joint use needs a protocol.
 
 **First useful result.** The distinct member declarations, their joint conditions and required specification references are recoverable. Each declared protocol step also resolves to one member declaration edition and one operation in that declaration. Two implementations of the same declaration do not become two members.
 
@@ -55,7 +55,7 @@ A `MechSuiteDescription` describes a finite set of distinct mechanism declaratio
 
 **Builds on.** A.6.1 (`U.Mechanism` canonical form), A.6.5 (SlotSpecs where a RelationSignature is current), E.10 (lexical + ontological rules; strict distinction; minimal specificity; kind suffixes), E.18 (transformation-flow structure and crossing visibility), E.18.1 (P2W carry-through), A.21 (gate-level decisions).
 
-**Used by.** Mechanism stacks governed by **shared admissibility, transport and audit obligations** and selected operation declarations, including shared suites reused by Part G patterns such as G.5.
+**Used by.** Mechanism stacks governed by **shared admissibility, transport and audit obligations** and operation declarations, including shared suites reused by Part G patterns such as G.5.
 
 **Declared vocabulary and references.**
 

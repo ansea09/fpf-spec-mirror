@@ -6,12 +6,12 @@ section_id: "C.11.MV:5"
 section_title: "Archetypal Grounding - Field Evidence and Alternatives"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.MV/C.11.MV__007_archetypal-grounding-field-evidence-and-alternatives.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.11.MV — Compare the Worth of a Method Option"
   - "C.11.MV:5 — Archetypal Grounding - Field Evidence and Alternatives"
-line_start: 58206
-line_end: 58252
+line_start: 60563
+line_end: 60613
 dependencies:
   - "A.3.1.FT"
   - "A.3.1.QM"
@@ -53,7 +53,11 @@ In the constructed EC-417 case, the team must release a controller firmware and 
 
 Keep the comparison tied to this decision and make burden, confidentiality, holder capabilities, project, user, provider, repository, PLM and CI Systems, Agent-performed Work, direct relations, recovery, side effects, reversibility, and evidence limits explicit. The three A.15.8.MS support tasks establish their bounded task observations only; the three-release WorkPlan supplies no release-worth evidence.
 
-Keep `C-EC-Release-v2` as a candidate. Preserve the missing A.22 selection basis, untested AI-provider and feedback branches, and unsupported `CUR-EC417-CadenceEffect-1`. The timing and capacity estimates support rejecting B's overloaded safety allocation and retaining B2 as a proposal for at most three trials under its entry conditions. If those conditions cannot be met, return stop/next-slot or the signed-first A alternative with its timing consequence. An actual release or trial entry still needs every applicable capability, assignment, permission and authority condition. If the question is demonstrated release worth, return the missing performed-release and alternative evidence. The observed support-task results, with the tailoring operation still undefined and its permission/authority stop untested, do not establish that stronger result.
+Keep `C-EC-Release-v2` as a candidate. Preserve the missing A.22 selection basis, untested AI-provider and feedback branches, and unsupported `CUR-EC417-CadenceEffect-1`.
+
+The timing and capacity estimates support rejecting B's overloaded safety allocation and retaining B2 as a proposal for at most three trials under its entry conditions. If those conditions cannot be met, return stop/next-slot or the signed-first A alternative with its timing consequence.
+
+An actual release or trial entry still needs every applicable capability, assignment, permission and authority condition. If the question is demonstrated release worth, return the missing performed-release and alternative evidence. The observed support-task results, with the tailoring operation still undefined and its permission/authority stop untested, do not establish that stronger result.
 
 #### C.11.MV:5.2 - Use situated evidence in another Method-repertoire decision
 
@@ -61,7 +65,7 @@ Supply evidence to another Method-repertoire decision only when that receiving u
 
 | Evidence contribution | Required boundary |
 | --- | --- |
-| source decision | C.11.MV subject and status, receiving practice, domain result, situation family, alternative set, qualification window, and exact action considered. |
+| source decision | C.11.MV subject and status, receiving practice, domain result, situation family, alternative set, qualification window, and action considered. |
 | evidence | Observations and credible estimates distinguished per alternative, with their sources, domain consequences, burdens, capability and System demands, side effects, opportunity costs, reversibility, reach and gaps. Actual Work, performers and direct relations retain their independently supported basis wherever claimed. |
 | supported statement | The smallest situated worth statement that bears on the receiving Method-repertoire decision. |
 | non-transfer | No transfer of the C.11.MV `keep`/`revise`/`replace`/`branch`/`stop` action, implementation authority, universal Method rank, causal claim, or evidence outside the stated source-use conditions. |

@@ -6,12 +6,12 @@ section_id: "E.10.DEV:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.DEV/E.10.DEV__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "E.10.DEV — Recovering What Development or Evolution Means in the Current Claim"
   - "E.10.DEV:4 — Solution"
-line_start: 101032
-line_end: 101089
+line_start: 106688
+line_end: 106745
 dependencies:
   - "A.15"
   - "A.2.2"
@@ -44,7 +44,7 @@ Recover the current claim from the subject and use rather than from the umbrella
 4. **Expose direction or value only when claimed.** Name the objective, characteristic, scale, polarity, viewpoint, and evidence needed by the receiving use. The word *development* does not establish improvement.
 5. **State posture.** Mark the claim's posture—for example, actual, observed, reconstructed, predicted, simulated, proposed, recommended, or planned.
 6. **Choose one direct branch.** Split the sentence when it carries several independently actionable claims.
-7. **Stop after recovery.** The allowed recovery outcomes are the repaired claim, ordinary non-use, quote-only use, missing information, direct owner, or exact architecture gap. State the next use or stop for the selected outcome.
+7. **Stop after recovery.** Choose one of six recovery outcomes—a repaired claim, ordinary non-use, quote-only use, missing information, the direct owner, or an exact architecture gap. State the next use or stop for the selected outcome.
 
 #### E.10.DEV:4.1 - Optional DevelopmentEvolutionWordingRecoveryLine
 
@@ -64,7 +64,7 @@ DevelopmentEvolutionWordingRecoveryLine:
   currentnessOrReopen?:
 ```
 
-`blockedOverread?` states a rejected reading only when independent local evidence makes that reading plausible to the intended reader and deleting the boundary would change understanding, selection, safety, reliance, stop, or action. This temporary line supports inspection or replay of the wording repair; admission of a substantive product uses its direct owner. Omit fields the receiving use does not need.
+`blockedOverread?` states a rejected reading only when independent local evidence makes that reading plausible to the intended reader and deleting the boundary would change understanding, selection, safety, reliance, stop, or action. Use the temporary line for inspection or replay of the wording repair. When a substantive product needs admission, apply its direct owner’s rule. Omit fields the receiving use does not need.
 
 #### E.10.DEV:4.2 - Direct branches
 
@@ -84,7 +84,7 @@ DevelopmentEvolutionWordingRecoveryLine:
 
 #### E.10.DEV:4.3 - Coordination with trajectory wording
 
-The phrase *development trajectory* does not require two full repairs by spelling alone.
+The phrase *development trajectory* does not by itself require two full repairs.
 
 - Start with `E.10.DEV` when the action-changing doubt is which subject is developing, what remains identifiable, or whether improvement is asserted. If that repair also makes the path wording harmless, stop.
 - Continue to `E.10.MOVE` only when the trajectory itself still carries a separate claim about position space, order, segment identity, actual, predicted, or planned posture, or representation.

@@ -6,12 +6,12 @@ section_id: "C.22.2:5"
 section_title: "Relation to C.22"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__006_relation-to-c-22.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:5 — Relation to C.22"
-line_start: 63941
-line_end: 63948
+line_start: 66673
+line_end: 66680
 dependencies:
   - "A.10"
   - "A.15"
@@ -58,7 +58,7 @@ keywords:
 
 ### C.22.2:5 - Relation to C.22
 
-C.22 governs TaskSignature constitution and `TaskSignatureAssignmentRelation`. ProblemCard is earlier and explicit: it states which problem-side claims are ready for P2W, search, comparison, characterization, refresh, retirement, or another direct pattern.
+C.22 governs TaskSignature constitution and `TaskSignatureAssignmentRelation`. ProblemCard comes earlier: it states which problem-side claims are ready for P2W, search, comparison, characterization, refresh, retirement, or another direct pattern.
 
 A card may prepare TaskKind, characteristic bindings, scope, and candidate TaskSignatures. C.22 assigns one only when the exact problem-side episteme, TaskSignature, and receiving-use episteme satisfy its obtaining rule. Several plausible signatures remain candidates.
 

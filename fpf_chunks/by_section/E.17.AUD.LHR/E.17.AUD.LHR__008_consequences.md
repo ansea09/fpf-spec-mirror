@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.17.AUD.LHR"
-pattern_title: "PublicationUnit Stability Discipline and Local Head Restoration - repair the overloaded local lexical head before the publication unit inherits it"
+pattern_title: "Restore the Local Meaning of an Overloaded Word or Phrase (Local Head Restoration)"
 section_id: "E.17.AUD.LHR:7"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.LHR/E.17.AUD.LHR__008_consequences.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
-  - "E.17.AUD.LHR — PublicationUnit Stability Discipline and Local Head Restoration - repair the overloaded local lexical head before the publication unit inherits it"
+  - "E.17.AUD.LHR — Restore the Local Meaning of an Overloaded Word or Phrase (Local Head Restoration)"
   - "E.17.AUD.LHR:7 — Consequences"
-line_start: 109789
-line_end: 109798
+line_start: 116542
+line_end: 116551
 dependencies:
   - "A.10"
   - "A.15"
@@ -40,8 +40,8 @@ keywords:
 Used well, this pattern:
 - prevents one vague local lexical head from governing a whole section by accident;
 - keeps local repair cheap instead of escalating too early;
-- makes later publication-unit stability review cleaner because the local lexical head question has already been restored;
+- makes later publication-unit stability review cleaner because the local head’s meaning has already been restored;
 - gives authors and reviewers one common language for saying `the problem is still local`.
 
-Used badly, it can become one more vocabulary exercise. If the publication unit still has unstable primary-subject or carried-move reading after local repair, do not keep polishing the overloaded local lexical head forever. Apply the governing pattern for the remaining problem situation.
+Used badly, it can become one more vocabulary exercise. If the publication unit still has unstable primary-subject or carried-move reading after local repair, stop polishing the overloaded local lexical head. Apply the governing pattern for the remaining problem situation.
 

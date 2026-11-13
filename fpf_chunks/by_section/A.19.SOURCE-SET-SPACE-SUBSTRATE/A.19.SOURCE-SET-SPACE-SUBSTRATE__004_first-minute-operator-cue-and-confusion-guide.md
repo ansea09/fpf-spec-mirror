@@ -6,12 +6,12 @@ section_id: "A.19.SOURCE-SET-SPACE-SUBSTRATE:0.b"
 section_title: "First-minute operator cue and confusion guide"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SOURCE-SET-SPACE-SUBSTRATE/A.19.SOURCE-SET-SPACE-SUBSTRATE__004_first-minute-operator-cue-and-confusion-guide.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE — Source-Set and Search/Outcome-Space Substrate"
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE:0.b — First-minute operator cue and confusion guide"
-line_start: 35586
-line_end: 35608
+line_start: 37088
+line_end: 37110
 dependencies:
   - "A.0"
   - "A.17"
@@ -42,7 +42,7 @@ When the receiving use depends on the source set, search space and outcome space
 
 First recover:
 
-1. Name the active source set, or the contributing source sets and their composition.
+1. Name the source set, or the contributing source sets and their composition.
 2. Point `SearchSpaceRef` and `OutcomeSpaceRef` to declared `CharacteristicSpace`.
 3. Choose `sameDeclaredSpaceAs` or `distinctDeclaredSpaceFrom`.
 4. State the source-to-outcome relation in direction, mode, and carrier.

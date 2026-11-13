@@ -6,12 +6,12 @@ section_id: "F.0.2:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2/F.0.2__012_sota-echoing.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "F.0.2 — Semantic Synthesis across Source Ontologies"
   - "F.0.2:11 — SoTA-Echoing"
-line_start: 118201
-line_end: 118214
+line_start: 125791
+line_end: 125804
 dependencies:
   - "A.2.4"
   - "C.2.1"
@@ -44,5 +44,5 @@ keywords:
 
 For the authoring question in :5.1, a correspondence-only answer can identify similar terms but leaves the outside-before-inside contribution undecided. A full `G.2` pack adds a reusable corpus, claim sheets, inventories, alignments and downstream handoffs; these become worth their cost when later questions need that broader result. The bounded method instead retains source-local claims, compares the decision-changing difference and produces one result for the named decision.
 
-Jaakkola's question and source-role discipline, Okoli's extraction and iterative synthesis, and Carroll–Brunton's treatment of non-fit inform steps 1–5 of that bounded route. These contributions organize the comparison; the particular working case selects what can be integrated and what must remain different. The accepted trade-off is limited coverage for a smaller first result. Reopen the source cut when a known rival or counterexample can change that result, and open `G.2` when the receiving work needs its broader reusable outputs.
+Jaakkola's question and source-role discipline, Okoli's extraction and iterative synthesis, and Carroll–Brunton's treatment of non-fit inform steps 1–5 of that bounded route. These contributions organize the comparison; the working case determines what can be integrated and what must remain different. The trade-off is limited coverage for a smaller first result. Reopen the source cut when a known rival or counterexample can change that result, and open `G.2` when the receiving work needs its broader reusable outputs.
 

@@ -6,12 +6,12 @@ section_id: "C.30.AD.BA:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD.BA/C.30.AD.BA__002_problem-frame.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.30.AD.BA — Built-Asset Architecture Description and Reference Designation"
   - "C.30.AD.BA:1 — Problem Frame"
-line_start: 72511
-line_end: 72516
+line_start: 75610
+line_end: 75615
 dependencies:
   - "A.1"
   - "A.10"
@@ -56,5 +56,5 @@ keywords:
 
 Built-asset work joins descriptions made for design, fabrication, construction, commissioning, operation, maintenance, adaptation, and decommissioning. A hospital, bridge, plant, railway corridor, or campus can therefore have a geometry model, spatial decomposition, functional and flow descriptions, product and equipment structures, cost and schedule descriptions, operation and maintenance records, sustainability and energy views, asset registers, live telemetry, inspection histories, and several reference-designation schemes.
 
-These are not interchangeable descriptions of one undifferentiated object. They select different structures of the same built asset, or sometimes describe different entities related to that asset. The architect needs to recover which exact EntityOfConcern each description has, which A.22 structure each claimed view describes, how the views correspond, which designation or reference relation makes an entity retrievable, and what currentness boundary permits the description to guide the next architecture move.
+These descriptions select different structures of the same built asset, or sometimes describe different entities related to that asset. They are not interchangeable descriptions of one undifferentiated object. The architect needs to recover which EntityOfConcern each description has, which A.22 structure each claimed view describes, how the views correspond, which designation or reference relation makes an entity retrievable, and what currentness boundary permits the description to guide the next architecture move.
 

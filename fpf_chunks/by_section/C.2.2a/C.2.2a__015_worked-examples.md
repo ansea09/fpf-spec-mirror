@@ -6,12 +6,12 @@ section_id: "C.2.2a:13"
 section_title: "Worked Examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2a/C.2.2a__015_worked-examples.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.2.2a — Language-State Chart over U.CharacteristicSpace"
   - "C.2.2a:13 — Worked Examples"
-line_start: 53025
-line_end: 53054
+line_start: 55242
+line_end: 55273
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -55,7 +55,7 @@ A position claim for a research cue note may state:
 - the relevant bodily observation or trace derivation, stated as a separate claim under C.2.6,
 - and mixed representation factors.
 
-Keep these readings explicit when testing entry into `A.6.P` or `C.25`; the note should remain upstream while the relevant receiving pattern's entry conditions remain unmet, even if its prose happens to look polished.
+Keep these readings explicit when testing entry into `A.6.P` or `C.25`; the note should remain upstream while the relevant receiving pattern's entry conditions remain unmet, even if its prose looks polished.
 
 #### C.2.2a:13.2 - Routed operator alert note
 Use `Pump-alert-21` from C.2.LS:13.1 to compare the three stated diagnostic alternatives before selecting a check. The alert names Pump P7, its indicated pressure of 70 kPa, the alarm condition `p_indicated(P7,t21) < 90 kPa`, and the contrasting implications of sensor bias, low supply, and an open bypass. Its chart readings and separate use condition are:
@@ -66,7 +66,9 @@ Use `Pump-alert-21` from C.2.LS:13.1 to compare the three stated diagnostic alte
 - use condition under C.2.6: the console connects the alert to the operator's acknowledgement and diagnostic-check selection; this is stated beside the coordinates;
 - `RepresentationFactorBundle = {local, sparse, symbolic}` for the alert's indicator-code component only: one of eight named units is active, the fixed decoder gives its report label, and the active fraction `1/8` meets the example's local sparse criterion. C.2.LS:13.1 supplies the unit order, decoder, and criterion.
 
-If an accepted reference-gauge reading of 72 kPa for the same sample t21 excludes sensor bias under the stated case rule while the other two alternatives remain, update `CD` to `CD2`. The question remains fully stated and the code, expression properties, and operator-loop connection are unchanged. Keep the live responses explicit in the route-bearing seam publication. Before publishing an endpoint-subject-qualified work record or reliance record, test the applicable downstream pattern's conditions; these chart readings do not decide that result.
+If an accepted reference-gauge reading of 72 kPa for the same sample t21 excludes sensor bias under the stated case rule while the other two alternatives remain, update `CD` to `CD2`. The question remains fully stated and the code, expression properties, and operator-loop connection are unchanged.
+
+Keep the live responses explicit in the route-bearing seam publication. Before publishing an endpoint-subject-qualified work record or reliance record, test the applicable downstream pattern's conditions; these chart readings do not decide that result.
 
 #### C.2.2a:13.3 - Viewpoint-bound adequacy note
 An adequacy note using identified assertions from an architecture description may state explicit vocabulary and predicates, articulation sufficient for the described comparisons, mid-level closure and symbolic representation. Its account names the document edition and accessible assertions needed for that judgement under C.2.6. Its position can be compared in the same chart as a bodily-observation cue when the selected Characteristics and Scales have the same meanings; source and access claims remain separate.

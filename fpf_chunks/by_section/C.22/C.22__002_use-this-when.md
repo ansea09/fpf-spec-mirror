@@ -6,12 +6,12 @@ section_id: "C.22:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22/C.22__002_use-this-when.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.22 — Task Typing and TaskSignature Assignment (Problem-CHR)"
   - "C.22:0 — Use This When"
-line_start: 62842
-line_end: 62851
+line_start: 65397
+line_end: 65408
 dependencies:
   - "A.6.0"
   - "C.16"
@@ -34,9 +34,11 @@ keywords:
 
 Use this pattern when one stabilized problem-side episteme must be related to a selector-facing `TaskSignature` for eligibility, acceptance, or policy-governed selection. Typical cases include solver choice, method-family eligibility, QD archive selection, open-ended generator selection, or specialization claims that need a declared task family or work target.
 
-The working moment often sounds like this: "We are about to compare possible ways of doing, but which facts about this problem make a method family eligible, comparable, or unacceptable for this use?" Construct the smallest A.6.0 TaskSignature that a later selector can consume without selecting a method in advance, then assign it to the exact problem-side episteme and receiving use. If problem framing remains contested or stale, use `C.22.2`. If a sufficient signature and assignment already exist and the current question is selection, use `G.5`. If a method is selected and dated enactment is being prepared, use `A.15.2`.
+The working moment often sounds like this: "We are about to compare possible ways of doing, but which facts about this problem make a method family eligible, comparable, or unacceptable for this use?" Construct the smallest A.6.0 TaskSignature that a later selector can consume without selecting a method in advance, then assign it to the exact problem-side episteme and receiving use.
+
+If problem framing remains contested or stale, use `C.22.2`. If a sufficient signature and assignment already exist and the current question is selection, use `G.5`. If a method is selected and dated enactment is being prepared, use `A.15.2`.
 
 **What goes wrong if missed.** Unstated selector inputs let eligibility drift; incompatible scales are combined, unknowns are coerced and acceptance criteria are mistaken for characteristic definitions. A reuse that depends on semantic correspondence can also proceed without its local senses, obtaining F.9 relation and separate bounded-use claim.
 
-**What this buys.** The downstream selection question gets one separately constituted TaskSignature with typed vocabulary, laws, applicability, unknown handling, and ClaimScope. Evidence, freshness, and cross-semantic relations are added only when that receiving use actually needs them. Its assignment is replayable while publication and serialization can vary without changing the signature.
+**What this buys.** The downstream selection question gets one separately constituted TaskSignature with typed vocabulary, laws, applicability, unknown handling, and ClaimScope. Evidence, freshness, and cross-semantic relations are added only when that receiving use needs them. Its assignment is replayable while publication and serialization can vary without changing the signature.
 

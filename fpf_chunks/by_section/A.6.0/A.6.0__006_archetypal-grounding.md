@@ -6,12 +6,12 @@ section_id: "A.6.0:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.0/A.6.0__006_archetypal-grounding.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "A.6.0 — U.Signature - Reusable Law-Governed Declaration Episteme"
   - "A.6.0:5 — Archetypal Grounding"
-line_start: 16495
-line_end: 16548
+line_start: 17188
+line_end: 17253
 dependencies:
   - "A.15.1"
   - "A.17"
@@ -47,7 +47,7 @@ keywords:
 
 A multi-domain modeling team repeatedly uses one connector-and-equation calculus. The `EntityOfConcernRef` of its `U.Signature(profile=FormalSubstrate)` identifies that calculus. `SubjectKind` names the modeled connector declarations governed by the calculus, and `RangedValueKind` names its well-formed terms and equations. Vocabulary names the potential and flow variables. Its inference and equation laws say how a selected connection assertion yields potential equality and the zero-sum flow equation. Applicability states the modeling assumptions and selected `CHR:ReferencePlane`. If those terms or laws cannot be interpreted or replayed without a named quantity declaration, the manifest names that provider and the exact imported term or law; otherwise a background citation stays outside the dependency manifest.
 
-The sentence `ModeledPort_A is connected to ModeledPort_B` is a separate model-side connection assertion. If repeated typed connection claims require a `RelationSignature`, first recover or admit the exact modeled-connection relation kind, its two connectable-port participant meanings, direct predicate, qualifier laws, Applicability, and occurrence-identity rule; only then may that relation declaration cite this FormalSubstrate when the dependency test passes. A generated equation set and a connector diagram are later result and representation epistemes, not either declaration; use A.6.1 for operations, A.15.1 for Work, and E.24.PUB for publication. Govern each representation and its declared correspondence through the applicable representation pattern, including A.6.3.RT for a same-EntityOfConcern representation-scheme transition. Open C.29 only for a mathematical-lens use.
+The sentence `ModeledPort_A is connected to ModeledPort_B` is a separate model-side connection assertion. If repeated typed connection claims require a `RelationSignature`, first recover or admit the modeled-connection relation kind, its two connectable-port participant meanings, direct predicate, qualifier laws, Applicability, and occurrence-identity rule; only then may that relation declaration cite this FormalSubstrate when the dependency test passes. A generated equation set and a connector diagram are later result and representation epistemes, not either declaration; use A.6.1 for operations, A.15.1 for Work, and E.24.PUB for publication. Govern each representation and its declared correspondence through the applicable representation pattern, including A.6.3.RT for a same-EntityOfConcern representation-scheme transition. Open C.29 only for a mathematical-lens use.
 
 Practical payoff: engineers can compare the connector vocabulary and equation laws across tools.
 
@@ -55,7 +55,9 @@ Practical payoff: engineers can compare the connector vocabulary and equation la
 
 A clinician needs the ordinary claim: `During PatientEpisode_8472, Intervention_5mg was associated with OutcomeChange_BPminus10 over ObservationWindow_Days0to28 under the stated dosing and population conditions.` No current direct pattern in this corpus governs a `DoseResponseRelationKind`. For this use, A.6.RCD therefore keeps the sentence as a local compound claim in one C.2.1 episteme; repeated clinical uses may justify a reusable predicate-definition episteme, but neither result is a `RelationSignature` or a relation occurrence.
 
-The local predicate treats the named patient episode, intervention, outcome change, and observation window as its exact inputs. `ObservationWindow_Days0to28` answers how long this patient's outcome change is aggregated for this assertion. The claim's or reusable definition's Applicability instead states the population, dosing protocol and conditions, and the time and claim scope in which the rule is used. Do not repeat the patient window as Applicability unless a separate applicability claim genuinely uses that same interval. Before any `RelationSignature` can be published, the missing-governor result must name the candidate relation kind, these participant meanings, the direct predicate, Applicability, occurrence-identity rule, and a standalone clinical domain governor; E.24/E.24.UK must admit the result.
+The local predicate treats the named patient episode, intervention, outcome change, and observation window as its inputs. `ObservationWindow_Days0to28` answers how long this patient's outcome change is aggregated for this assertion. The claim's or reusable definition's Applicability instead states the population, dosing protocol and conditions, and the time and claim scope in which the rule is used. Do not repeat the patient window as Applicability unless a separate applicability claim uses that same interval.
+
+Before any `RelationSignature` can be published, the missing-governor result must name the candidate relation kind, these participant meanings, the direct predicate, Applicability, occurrence-identity rule, and a standalone clinical domain governor; E.24/E.24.UK must admit the result.
 
 A selected assay-result episteme may support or refute the compound assertion. Use A.2.4/A.10 to qualify that evidence use and any intended reliance. When an assay result changes, reassess whether it supports or refutes the same bounded assertion; that assessment may stay the same, change, or be unresolved. The reusable predicate definition remains unchanged. A changed outcome meaning, population, dosing condition, or declared applicability changes the definition's claim content and C.2.1 identity.
 
@@ -67,7 +69,7 @@ During `AssessmentInterval_2026Q2`, learner `Learner_17` correctly diagnoses cav
 
 `Criterion_PumpCavitationDiagnosis_v3` is the reusable declaration governed here. Its `EntityOfConcernRef` identifies the pump-cavitation diagnosis criterion; `SubjectKind` names assessed pump-cavitation diagnostic performances and `RangedValueKind` names the results `meets` and `does not meet`. Vocabulary defines the cases, diagnosis, and corrective action; Laws say which observable response earns either result; Applicability limits the equipment family, task form, and assessment method. No current direct pattern supplies `DemonstratedCompetenceRelationKind`, so this case asserts neither that relation signature nor a world-side demonstrated-competence occurrence.
 
-For this bounded assessment use, the direct A.2.4/A.10 evidence-use relation names `PerformanceObservation_17A` as `EvidenceEpisteme`, the quoted competence claim as `EvidenceTargetClaim`, the two specified cases as `EvidenceClaimScope`, `supports` as `EvidencePolarity`, and `AssessmentInterval_2026Q2` as `EvidenceRelevanceWindow`. Its A.10 evidence-provenance path identifies the observation work, method, carrier, and assessor's relying context. That relation supports reliance on this exact competence claim; it does not authorize course progression. A self-report without that observation path, a performance on another task, or a performance outside the named interval does not by itself establish this bounded claim.
+For this bounded assessment use, the direct A.2.4/A.10 evidence-use relation names `PerformanceObservation_17A` as `EvidenceEpisteme`, the quoted competence claim as `EvidenceTargetClaim`, the two specified cases as `EvidenceClaimScope`, `supports` as `EvidencePolarity`, and `AssessmentInterval_2026Q2` as `EvidenceRelevanceWindow`. Its A.10 evidence-provenance path identifies the observation work, method, carrier, and assessor's relying context. That relation supports reliance on this competence claim; it does not authorize course progression. A self-report without that observation path, a performance on another task, or a performance outside the named interval does not by itself establish this bounded claim.
 
 Changing the publication form or making another publication occurrence for the unchanged criterion or competence assertion changes neither episteme. Changing the criterion's Vocabulary, Laws, or Applicability changes its claim content and identifies another declaration episteme; any edition or continuity relation must separately obtain. A new performance observation or assessor claim likewise identifies separate evidence or claim content rather than changing the criterion declaration.
 
@@ -79,19 +81,29 @@ An engineer declares the reusable operation `zeroVector(n)` in ordinary language
 
 The declaration imports the exact type-former `FiniteVector(RealScalar, n)` and its length-index law from FormalSubstrate signature `FiniteVectorSubstrate_v2`. Remove that provider and neither the result declaration can be interpreted nor the length law replayed, so this is a declaration dependency rather than a background citation. The operation argument and result remain A.6.1 declarations; they are not A.6.5 relation SlotSpecs.
 
-A Lean representation may write the result as `Vector Real n`. A proof-carrying record representation may write `entries: List Real` together with `lengthProof: entries.length = n`. Because both represent the same operation declaration and no mathematical lens changes the next comparison action, A.6.3.RT alone governs this representation-scheme transition. It preserves the result-length index and the all-zero law. Lean binder order, implicit elaboration, record field order, and the location of the length proof are representation-local and need not survive. Stop here: no C.29 result is needed. If a later comparison uses a named free-module lens to decide algebraic reuse, that changed lens use opens C.29 and must separately state the preserved addition and scalar action and the lost coordinate or layout detail. State a blocked inference only when it passes F.19:4's full guard test.
+A Lean representation may write the result as `Vector Real n`. A proof-carrying record representation may write `entries: List Real` together with `lengthProof: entries.length = n`.
 
-Practical payoff: formal-methods engineers can fill and inspect the dependent A.6.1 declaration, test its actual FormalSubstrate dependency, and compare representations.
+Because both represent the same operation declaration and no mathematical lens changes the next comparison action, A.6.3.RT alone governs this representation-scheme transition. It preserves the result-length index and the all-zero law. Lean binder order, implicit elaboration, record field order, and the location of the length proof are representation-local and need not survive. Stop here: no C.29 result is needed.
+
+If a later comparison uses a named free-module lens to decide algebraic reuse, that changed lens use opens C.29 and must separately state the preserved addition and scalar action and the lost coordinate or layout detail. State a blocked inference only when it passes F.19:4's full guard test.
+
+Practical payoff: formal-methods engineers can fill and inspect the dependent A.6.1 declaration, test its FormalSubstrate dependency, and compare representations.
 
 #### A.6.0:5.5 - PrincipleFrame: heat-flow balance
 
 A thermal-modeling team writes a `PrincipleFrame` for a selected system boundary and interval. Under the explicit assumption that heat is the only net energy transfer, net heat transferred across that boundary during the interval equals the change in stored energy. The frame distinguishes inward and outward transfer. It cites the heat-flow characteristics, units, selected `CHR:ReferencePlane` and measurement declaration needed to check the balance; Applicability states the modeled systems and conditions under which this assumption and balance hold.
 
-A comparison result may show that the residual is below the chosen tolerance. The comparator and tolerance remain under their direct comparison and measurement patterns; operation admission remains under A.6.1, and a gate-passage verdict remains under A.21/C.11. If a laboratory measurement sense is proposed for use in a plant-model sense, resolve both exact F.17 local senses and apply F.9. Cite a Bridge only when its predicate obtains; state the bounded use and any preservation or loss of sign convention, unit, and boundary interpretation separately.
+A comparison result may show that the residual is below the chosen tolerance. The comparator and tolerance remain under their direct comparison and measurement patterns; operation admission remains under A.6.1, and a gate-passage verdict remains under A.21/C.11. If a laboratory measurement sense is proposed for use in a plant-model sense, resolve both F.17 local senses and apply F.9. Cite a Bridge only when its predicate obtains; state the bounded use and any preservation or loss of sign convention, unit, and boundary interpretation separately.
 
 Practical payoff: the physical principle remains reusable while the measurement setup, comparator, run decision, and cross-scheme transport can change or fail independently.
 
 #### A.6.0:5.6 - Reduced ordinary-use case
 
-The sentence `During Shift-17, Robot-7 is assigned as inspector through InspectionAssignment-17` is enough for a task that only reports whether the direct `MaintenanceInspectionAssignment` predicate holds for its actual participants during that episode. Stop there. If a staffing assertion and an F.6 Work-attribution consumer must reuse the same participant meanings and assignment laws, cite that direct species' existing `RelationSignature`. If later Work attribution or history must distinguish this assignment from a later reassignment, apply A.2.1's direct occurrence-identity rule and refer to the distinguished episode. A roster-row id that merely points to the assertion opens neither branch. Each result is complete for its stated task; the shorter result is not an incomplete signature.
+The sentence `During Shift-17, Robot-7 is assigned as inspector through InspectionAssignment-17` is enough for a task that only reports whether the direct `MaintenanceInspectionAssignment` predicate holds for its participants during that episode. Stop there.
+
+If a staffing assertion and an F.6 Work-attribution consumer must reuse the same participant meanings and assignment laws, cite that direct species' existing `RelationSignature`.
+
+If later Work attribution or history must distinguish this assignment from a later reassignment, apply A.2.1's direct occurrence-identity rule and refer to the distinguished episode.
+
+A roster-row id that merely points to the assertion opens neither branch. Each result is complete for its stated task; the shorter result is not an incomplete signature.
 

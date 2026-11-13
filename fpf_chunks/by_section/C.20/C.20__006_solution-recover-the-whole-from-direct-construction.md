@@ -6,12 +6,12 @@ section_id: "C.20:4"
 section_title: "Solution - recover the whole from direct construction"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.20/C.20__006_solution-recover-the-whole-from-direct-construction.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.20 — Composition of U.Discipline (Discipline-CAL)"
   - "C.20:4 — Solution - recover the whole from direct construction"
-line_start: 62264
-line_end: 62410
+line_start: 64770
+line_end: 64934
 dependencies:
   - "A.1"
   - "A.14"
@@ -29,13 +29,7 @@ dependencies:
   - "C.2.1"
   - "C.20"
   - "C.21"
-  - "C.22"
-  - "C.23"
-  - "C.3"
-  - "E.10"
   - "E.24.UK"
-  - "F.17"
-  - "F.18"
   - "F.9"
   - "G.5"
 keywords:
@@ -61,7 +55,7 @@ Recover six constructive components for the same candidate:
 2. **Exact constituents.** Identify every claimed part under its direct kind and identity pattern. The construction must contain at least one exact knowledge-bearing contribution and at least one exact reusable-practice contribution; these are assembly contributions, not fixed part kinds or heterogeneous card positions.
 3. **Constructive part relations and assembly.** Recover each obtaining `disciplinePartOf(part, candidate)` occurrence and every other exact whole-forming claim needed by the assembly. A list, co-use, adjacency, or common publisher supplies none of them.
 4. **Identity and reidentification rule.** State which constituent, relation, boundary, or coupling changes preserve this candidate and which identify another whole or end the current one.
-5. **Composition-grounded whole characteristic.** State at least one exact A.17-governed Characteristic whose value or state is produced or sustained by the practice-and-knowledge composition and is not attributable to one constituent alone. Use A.18 for Scale legality and C.16 only when an actual value is measured.
+5. **Composition-grounded whole characteristic.** State at least one exact A.17-governed Characteristic whose value or state is produced or sustained by the practice-and-knowledge composition and is not attributable to one constituent alone. Use A.18 for Scale legality and C.16 only when a value is measured.
 6. **Larger-assembly compatibility.** State the candidate boundary, exposed practice-and-knowledge interfaces, relevant whole characteristics, and identity-preservation conditions that make it admissible as a possible constituent under at least one governed larger field assembly. This establishes possibility, not an actual larger-discipline part relation.
 
 The candidate is recognized as `U.Discipline` only when all six components and the C.20-specific practice-and-knowledge condition hold. A materialized classification assertion is a separate C.2.1 episteme about the candidate. Evidence can support that assertion and receiving work can rely on it, but neither creates the discipline.
@@ -109,18 +103,24 @@ The same discipline may continue through a permitted canon revision, method repl
 
 A change outside those conditions identifies another candidate or leaves the stronger claim unresolved. When a receiving use asks whether the old whole can still explain the case, run B.2's existing-whole explanation check after the direct C.20 facts are recovered. Loss of evidence, another description edition, a renamed field, or a stale registry entry does not itself end or create a discipline.
 
-"Discipline edition" is therefore not one automatic object. Recover the changed subject:
+"Discipline edition" can concern different objects. Recover the changed subject:
 
 - revised canon, standard, method description, classification assertion, or discipline description is another C.2.1 episteme when its identity discriminator changes, with historical continuation tested separately;
 - a newly available edition has its own E.24.PUB publication occurrence, particular expression, carrier, audience, use, and availability interval;
 - an unchanged discipline during a proper interval may be described through the direct temporal and A.14 phase route;
 - a changed field assembly outside the reidentification rule requires another discipline candidate, not a renamed description.
 
-Identify a reusable publication form and its conformance separately when the current use relies on its rules. Keep the change rationale as claim content of one exact C.2.1-identified revision or decision episteme. When historical continuation is asserted, the assertion about the exact `EpistemeEditionRelation` cites the exact source use, applicable continuity policy or rule, and the preserved and deliberately changed claim, EntityOfConcern, and scheme features that the rule consumes. Revision Work, Method, provenance, change facts, and evidence are case facts; no label establishes continuity. When availability changes, trace the publication transition through the ending and beginning E.24.PUB occurrences with their selected edition, audience, bounded use, particular expression, carrier, and availability intervals. The rationale, edition-relation assertion, publication occurrences, and discipline reidentification result remain distinct; none decides another merely by being recorded.
+Identify a reusable publication form and its conformance separately when the current use relies on its rules. Keep the change rationale as claim content of one exact C.2.1-identified revision or decision episteme.
+
+When historical continuation is asserted, the assertion about the exact `EpistemeEditionRelation` cites the exact source use, applicable continuity policy or rule, and the preserved and deliberately changed claim, EntityOfConcern, and scheme features that the rule consumes. Revision Work, Method, provenance, change facts, and evidence are case facts; no label establishes continuity.
+
+When availability changes, trace the publication transition through the ending and beginning E.24.PUB occurrences with their selected edition, audience, bounded use, particular expression, carrier, and availability intervals.
+
+The rationale, edition-relation assertion, publication occurrences, and discipline reidentification result remain distinct; none decides another merely by being recorded.
 
 #### C.20:4.5 - Require a composition-grounded whole characteristic
 
-Name at least one exact Characteristic under A.17, its Scale under A.18, and its direct measurement or evaluation route only when a current use needs a value. A useful local choice is the degree to which the assembly sustains a replayable practice-knowledge coupling: independently identified knowledge contributions constrain field practice, and separately governed practice results can be used to test, revise, or replace those knowledge contributions under declared rules. This is a local characteristic choice, not a new universal kind or scalar score; C.16 governs a measurement chain only when dated measurement Work actually attributes a value.
+Name at least one exact Characteristic under A.17, its Scale under A.18, and its direct measurement or evaluation route only when a current use needs a value. A useful local choice is the degree to which the assembly sustains a replayable practice-knowledge coupling: independently identified knowledge contributions constrain field practice, and separately governed practice results can be used to test, revise, or replace those knowledge contributions under declared rules. This is a local characteristic choice, not a new universal kind or scalar score; C.16 governs a measurement chain only when dated measurement Work attributes a value.
 
 The value must depend on the composition. Citation count from one episteme, frequency of one method, size of one organization, bridge count, publication count, or a single maturity label is not a composition-grounded whole characteristic. Rival traditions can coexist when their boundaries, incompatibilities, permitted uses, and contribution relations are explicit; cohesion does not require false consensus.
 
@@ -128,7 +128,9 @@ C.21 is the pattern for discipline-health characteristics such as reproducibilit
 
 #### C.20:4.6 - Keep neighboring objects with their subject patterns
 
-Keep the three boundaries explicit. A **domain** is a subject-area or catalogue designation. A **semantic locality** is the bounded use of exact local meanings under its effective ReferenceScheme, ClaimScope, and direct F.17 pattern; it is not another holon or a discipline constituent by locality alone. A **discipline** is the exact field-level practice-and-knowledge whole recognized by the C.20 construction test. The same or similar word across domains or semantic localities establishes none of shared meaning, one discipline, parthood, or identity. When a use relies on a semantic crossing, state the two exact local senses and cite an F.9 Bridge only if its predicate obtains; field or locality difference alone creates no Bridge. Then test each discipline candidate independently; even an obtaining high-congruence Bridge does not merge its endpoints.
+Keep the three boundaries explicit. A **domain** is a subject-area or catalogue designation. A **semantic locality** is the bounded use of exact local meanings under its effective ReferenceScheme, ClaimScope, and direct F.17 pattern; it is not another holon or a discipline constituent by locality alone. A **discipline** is the exact field-level practice-and-knowledge whole recognized by the C.20 construction test.
+
+The same or similar word across domains or semantic localities establishes none of shared meaning, one discipline, parthood, or identity. When a use relies on a semantic crossing, state the two exact local senses and cite an F.9 Bridge only if its predicate obtains; field or locality difference alone creates no Bridge. Then test each discipline candidate independently; even an obtaining high-congruence Bridge does not merge its endpoints.
 
 Use these intake prompts to recover candidate contributions and surrounding dependencies, keeping each item under its subject pattern:
 
@@ -138,7 +140,7 @@ Use these intake prompts to recover candidate contributions and surrounding depe
 - **cross-locality candidates:** exact F.9 Bridges, F.17 term or local-sense rows, Bridge descriptions, and loss observations used across semantic localities or source traditions;
 - **comparison candidates:** exact Characteristics, Scales, Units, comparators, evidence policies, and CG-Spec declarations used to make a named comparison admissible.
 
-The palette prevents those reader questions from disappearing; it is neither a required five-part decomposition nor a constructor. No category must be filled by ritual. Every exact item remains under the subject pattern below and becomes a C.20 part only when `disciplinePartOf` independently obtains.
+The palette prevents those reader questions from disappearing; it is neither a required five-part decomposition nor a constructor. Filling every category is not required. Every item remains under the subject pattern below and becomes a C.20 part only when `disciplinePartOf` independently obtains.
 
 | Apparent discipline content | Subject pattern and C.20 boundary |
 | --- | --- |
@@ -176,21 +178,31 @@ The classification can remain a C.2.1 claim without admitting another public U-k
 
 #### C.20:4.9 - Crossing, comparison, evidence, health, and publication are conditional branches
 
-Open these branches only when the named discipline use actually needs them.
+Open these branches only when the named discipline use needs them.
 
 **Cross-field or cross-sense use.** A cross-field use may use independently governed claims without a semantic crossing. When an exact cross-context semantic relation is claimed, first resolve two exact F.17 `SchemeSenseCell` values; F.9 identifies an obtaining Bridge only when their semantic-context projections differ and the direct predicate and dependencies are satisfied. A field, scheme, cell, or plane difference alone creates no Bridge. For an obtaining Bridge, keep a separate current C.2.1 bounded-use proposition whose EntityOfConcern is that Bridge and whose ClaimGraph names the proposed action `u`, exact direction `d`, use-specific correspondence rule `r`, tolerated semantic loss `t`, and affirmative or negative polarity. Observed loss and counterexamples remain evidence; the permitted-loss tolerance remains claim content. Neither one reidentifies the Bridge.
 
-For ordinary evidence reliance, recover the descriptive A.10 evidence-provenance path and the independently established direct relations it cites for the same bounded use. Only `RelianceDisposition=pass` supports that affirmative use; `degrade` supports only the named narrower use, while `abstain`, `reopen`, `evidence-needed`, `assurance-needed`, or `blocked-current-use` does not pass the attempt. Use B.3 only when an actual named assurance claim is current, and require its result for that same bounded assurance use. Authorization and any actual comparison, substitution, translation, publication, or Work occurrence remain with their subject patterns.
+For ordinary evidence reliance, recover the descriptive A.10 evidence-provenance path and the independently established direct relations it cites for the same bounded use. Only `RelianceDisposition=pass` supports that affirmative use; `degrade` supports only the named narrower use, while `abstain`, `reopen`, `evidence-needed`, `assurance-needed`, or `blocked-current-use` does not pass the attempt. Use B.3 only when a named assurance claim is current, and require its result for that same bounded assurance use. Authorization and any actual comparison, substitution, translation, publication, or Work occurrence remain with their subject patterns.
 
-**Crossing visibility and presentation checks.** Keep an exact Bridge and separate bounded-use proposition discoverable in an account that relies on that obtaining semantic relation. For a ReferencePlane-only crossing, keep the applicable plane relation and policy discoverable instead; if both facts are current, keep both under their own predicates. Materialize an E.18 `CrossingBundle` only when an independently current E.18 structural `GateCrossing` exists and a named downstream use relies on durable evidence for that structural crossing; if it also relies on cross-semantic correspondence, add E.18's separate F.9 block. E.17 governs publication packaging and A.21 governs any actual GateCheck or GateDecision. For lane purity, inspect the current B.3 result by value: every characteristic keeps its bearer and scale, and any aggregation cites its domain model and assumptions; there is no universal F-G-R-CL fold. Apply E.10 lexical checks to the published labels, keep normative prose notation-neutral, and treat every discipline column as didactic only.
+**Crossing visibility and presentation checks.** Keep an exact Bridge and separate bounded-use proposition discoverable in an account that relies on that obtaining semantic relation. For a ReferencePlane-only crossing, keep the applicable plane relation and policy discoverable instead; if both facts are current, keep both under their own predicates. Materialize an E.18 `CrossingBundle` only when an independently current E.18 structural `GateCrossing` exists and a named downstream use relies on durable evidence for that structural crossing; if it also relies on cross-semantic correspondence, add E.18's separate F.9 block. E.17 governs publication packaging and A.21 governs any actual GateCheck or GateDecision.
+
+For lane purity, inspect the current B.3 result by value: every characteristic keeps its bearer and scale, and any aggregation cites its domain model and assumptions; there is no universal F-G-R-CL fold. Apply E.10 lexical checks to the published labels, keep normative prose notation-neutral, and treat every discipline column as didactic only.
 
 **Comparison or aggregation.** Identify the exact Characteristics under A.17 and their Scales, applicable Units and legal operations under A.18; C.16 supplies measurement results when the inputs are measured. A mean over an ordinal Scale and an aggregation that mixes unconverted or incommensurable Units are inadmissible: stop that operation, establish a lawful transformation or comparison scheme, or retain the separate values. When using A.19.CPM, bind its required profile pair, comparator, claim scope and selected slices, predicate when used, reference scheme and plane, evaluation point or interval, and evidence policy; retain its set-valued result. CPM does not aggregate. A numeric or profile aggregation uses its own justified combining rule and recoverable inputs and contributors; a selected A.19.ULSAM or B.1 `Γ-fold` retains that interface's arguments and result binding.
 
 Ordinary comparison or folding mathematics needs no asserted dated `U.Work`. When the account asserts dated comparison or aggregation Work, or the receiving use consumes it, recover its A.13 core and independent A.15.1 admission; use F.6 only for precise assignment-bound attribution. A calculation application and its qualification window do not by themselves establish a dated Work occurrence.
 
-When a comparison or aggregation is governed by a G.0 CG-Spec, its pre-operation check names the Characteristic ids, `ScaleComplianceProfile` with applicable Unit, polarity and legal-operation conditions, `MinimalEvidence`, and the admitted comparator or declared `Γ-fold` and contributors. Missing or unknown required declarations or evidence block that governed operation. Ordinary comparisons and aggregates still need compatible inputs and a lawful operation; they need no CG-Spec unless the receiving use selects that interface. If the operation relies on an obtaining F.9 Bridge between exact F.17 `SchemeSenseCell` values, use the separate Bridge, bounded-use-claim and reliance branch above. A ReferencePlane crossing instead uses its applicable relation and policy; when both relations matter, retain both. These relations do not supply the operation's scope, comparator, inputs or result.
+When a comparison or aggregation is governed by a G.0 CG-Spec, its pre-operation check names the Characteristic ids, `ScaleComplianceProfile` with applicable Unit, polarity and legal-operation conditions, `MinimalEvidence`, and the admitted comparator or declared `Γ-fold` and contributors. Missing or unknown required declarations or evidence block that governed operation. Ordinary comparisons and aggregates still need compatible inputs and a lawful operation; they need no CG-Spec unless the receiving use selects that interface.
 
-**Evidence, currentness, and assurance.** Use A.10 for source use and the evidence-provenance path, and G.11 for selected-edition currentness. When an imported source claim supports a construction, classification, comparison, publication, or assurance use, keep the exact source and edition plus only the lane tags, freshness window, or validity conditions that the receiving use consumes. Claims that need no such reliance acquire none of this apparatus merely because they concern a discipline. Open B.3 only for an actual named assurance claim. Its `AssuranceResult` identifies the target claim, assurance use, basis, disposition, limits, and reopen condition. If the argument consumes a characteristic or calculation, name its bearer, property, scale, unit, interpretation, basis, dependency model, assumptions, rule, and rival as applicable. C.20 supplies no default F/G/R/CL lanes, weakest-link fold, `SpanUnion`, congruence penalty, plane penalty, or assurance arithmetic. A Bridge-related penalty is current only when an actual named B.3 assurance claim uses an applicable declared domain model whose current facts and rule yield it; that value belongs only to the calculated `AssuranceResult` for that named use. State `ReferencePlane` only when it changes an exact input or interpretation; when an exact plane crossing is current, cite the applicable plane relation and policy. The selected plane and its relation identify neither a discipline part nor a part relation. Insufficient or unknown support narrows, abstains, requests evidence, reopens, or blocks the attempted assurance use under B.3; it does not make a part relation or whole obtain or cease.
+If the operation relies on an obtaining F.9 Bridge between exact F.17 `SchemeSenseCell` values, use the separate Bridge, bounded-use-claim and reliance branch above. A ReferencePlane crossing instead uses its applicable relation and policy; when both relations matter, retain both. These relations do not supply the operation's scope, comparator, inputs or result.
+
+**Evidence, currentness, and assurance.** Use A.10 for source use and the evidence-provenance path, and G.11 for selected-edition currentness. When an imported source claim supports a construction, classification, comparison, publication, or assurance use, keep the exact source and edition plus only the lane tags, freshness window, or validity conditions that the receiving use consumes. Use this apparatus only for claims that need such reliance.
+
+Open B.3 only for a named assurance claim. Its `AssuranceResult` identifies the target claim, assurance use, basis, disposition, limits, and reopen condition. If the argument consumes a characteristic or calculation, name its bearer, property, scale, unit, interpretation, basis, dependency model, assumptions, rule, and rival as applicable. C.20 supplies no default F/G/R/CL lanes, weakest-link fold, `SpanUnion`, congruence penalty, plane penalty, or assurance arithmetic. A Bridge-related penalty is current only when a named B.3 assurance claim uses an applicable declared domain model whose current facts and rule yield it; that value belongs only to the calculated `AssuranceResult` for that named use.
+
+State `ReferencePlane` only when it changes an exact input or interpretation; when an exact plane crossing is current, cite the applicable plane relation and policy. The selected plane and its relation identify neither a discipline part nor a part relation.
+
+Insufficient or unknown support narrows, abstains, requests evidence, reopens, or blocks the attempted assurance use under B.3; it does not make a part relation or whole obtain or cease.
 
 **Health or state view.** C.21 can evaluate typed discipline-health characteristics. Local values such as emerging, consolidating, codified, or fragmenting need their defining criteria and support, with Scale, observation period and currentness conditions as required by the claim. A decision threshold belongs to the applicable decision rule; represent it as a G.4 AcceptanceClause when that formal acceptance interface is used. A state label, health vector, score, or dashboard transition does not itself reidentify the discipline.
 

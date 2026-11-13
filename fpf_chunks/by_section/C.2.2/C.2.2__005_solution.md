@@ -6,28 +6,21 @@ section_id: "C.2.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2/C.2.2__005_solution.md"
-commit_sha: "b223469ecafb9735c1d9bac220671e3336618339"
+commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
 heading_path:
   - "C.2.2 — Reliability R in the F–G–R triad"
   - "C.2.2:4 — Solution"
-line_start: 52559
-line_end: 52709
+line_start: 54750
+line_end: 54902
 dependencies:
-  - "A.1.1"
-  - "A.10"
   - "A.2.6"
   - "A.21"
-  - "A.6.3.RT"
-  - "A.6.3.RT.OE"
   - "B.1.3"
   - "B.3"
-  - "B.3.3"
-  - "B.3.4"
   - "C.16"
   - "C.2"
   - "C.2.3"
   - "C.21"
-  - "C.29"
   - "C.3"
   - "C.3.3"
   - "C.3.A"
@@ -79,7 +72,9 @@ A location always concerns one exact claim. `G` carries its `U.ClaimScope`; any 
 **Mode and assurance contribution.** A declared `validationMode` states the justification posture under its selected profile. B.3.5 defines the allowed modes and grounds for its covered claims. Use B.3.3 to judge what the actual support establishes for this claim and receiving use; the mode alone does not select a fixed mix of assurance contributions.
 In all modes, **R remains warrant**, not ontological truth; “proof ⇒ R=1 in the world” is a category error.
 
-**Formal-input rule.** Empirical R may be N/A for a strictly axiomatic claim. Preserve the proof and its conclusion under the stated axioms; **do not set `R_proxy := F` for an R fold**. The tag `line=formal`, a postulative mode, or rescaling F into [0,1] supplies no conversion model. A declared F-derived ordinal proxy is valid only for its own ordinal meaning. Any F-derived value used as another quantity needs a receiving model establishing its meaning, scale, conversion, assumptions, and warranted application; in particular, checkability alone does not establish a probability about a real system.
+**Formal-input rule.** Empirical R may be N/A for a strictly axiomatic claim. Preserve the proof and its conclusion under the stated axioms; **do not set `R_proxy := F` for an R fold**. The tag `line=formal`, a postulative mode, or rescaling F into [0,1] supplies no conversion model. A declared F-derived ordinal proxy is valid only for its own ordinal meaning.
+
+Any F-derived value used as another quantity needs a receiving model establishing its meaning, scale, conversion, assumptions, and warranted application; in particular, checkability alone does not establish a probability about a real system.
 
 `⟨F,G,R⟩` is an **assurance tuple**, not a `U.CharacteristicSpace`; `G` remains a `U.ClaimScope`. Successive assessments may be compared through their actual expression properties, scope changes and warrant grounds. A separate characteristic-space chart requires its own Characteristics and Scales under A.19; the tuple alone supplies no metric or dynamics.
 
@@ -97,13 +92,13 @@ In all modes, **R remains warrant**, not ontological truth; “proof ⇒ R=1 in 
 #### C.2.2:4.3 - Dependence-sensitive support composition
 
 **Definition DEF‑C2.2‑3 (Support composition).**
-For claim `c`, identify the support actually needed by its receiving use. Distinguish indispensable premises, alternative sufficient arguments, complementary evidence for the same question, support for different scope slices, and counterevidence. A source's presence in the graph does not make it an indispensable premise. B.1.3 supplies the synthesis Method and its guidance and controller examples.
+For claim `c`, identify the support needed by its receiving use. Distinguish indispensable premises, alternative sufficient arguments, complementary evidence for the same question, support for different scope slices, and counterevidence. A source's presence in the graph does not make it an indispensable premise. B.1.3 supplies the synthesis Method and its guidance and controller examples.
 
-Let `SpineClaims(P)` name premises and lemmas actually required by argument `P`; `SpineRelations(P)` names the actual scope, kind, plane, notation, source-local, model-use, and evidence-reuse relations it traverses. Satellite citations are not required premises. Retain each contribution's source, assumptions, scope, and limitations, including shared datasets, duplicated evidence, and common bias.
+Let `SpineClaims(P)` name premises and lemmas required by argument `P`; `SpineRelations(P)` names the scope, kind, plane, notation, source-local, model-use, and evidence-reuse relations it traverses. Satellite citations are not required premises. Retain each contribution's source, assumptions, scope, and limitations, including shared datasets, duplicated evidence, and common bias.
 
 **Choose the operation from the model.** B.3 requires the target quantity, compatible scales, dependency assumptions, and warranted operation before an aggregate is calculated. An indispensable weak premise can limit an inference, but `min` is not a universal probability or warrant fold. Two necessary independent conditions with probabilities 0.9 each give 0.81 for their conjunction; minimum 0.9 overstates it. Without independence, use the warranted conditional model or leave the joint probability unresolved. Monotonicity and boundedness of a proposed rule are insufficient.
 
-**Alternative and complementary support.** An actually sufficient argument may be usable without the others. A maximum can select the best attested argument value under a model whose result has that meaning; it does not measure combined corroboration. Complementary evidence may strengthen or qualify a conclusion by addressing different rival explanations or limitations, even when neither source is sufficient alone. Count neither publications nor method names as independent confirmation. A shared bias may leave apparent agreement uninformative. There is no universal “never exceed the best source” cap and no entangled-source fallback to minimum.
+**Alternative and complementary support.** A sufficient argument may be usable without the others. A maximum can select the best attested argument value under a model whose result has that meaning; it does not measure combined corroboration. Complementary evidence may strengthen or qualify a conclusion by addressing different rival explanations or limitations, even when neither source is sufficient alone. Count neither publications nor method names as independent confirmation. A shared bias may leave apparent agreement uninformative. There is no universal “never exceed the best source” cap and no entangled-source fallback to minimum.
 
 **Scope and conflict.** Retain different `G_path` slices under A.2.6; do not use maximum to hide unsupported regions. For overlapping-scope `p` and `¬p`, preserve credible contrary evidence. Separate claims only by distinctions established by the sources; otherwise narrow, qualify, or withhold the affected conclusion. An uninformative study, a lack of decisive support, and evidence against the claim are not interchangeable.
 
@@ -111,17 +106,17 @@ Let `SpineClaims(P)` name premises and lemmas actually required by argument `P`;
 
 #### C.2.2:4.4 - Relation-specific congruence penalties route to R only
 
-A reused claim may traverse more than one independently governed relation. Before calculating `R_eff`, state what actually changed and use the rule for that change. A.2.6 owns claim-scope operations; C.3/C.3.3 owns kind relations; F.9 owns a semantic Bridge between exact local-sense cells; notation, reference-plane, model-use, and evidence-reuse relations keep their own definitions. None is a universal crossing relation.
+A reused claim may traverse more than one independently governed relation. Before calculating `R_eff`, state what changed and use the rule for that change. A.2.6 owns claim-scope operations; C.3/C.3.3 owns kind relations; F.9 owns a semantic Bridge between exact local-sense cells; notation, reference-plane, model-use, and evidence-reuse relations keep their own definitions. None is a universal crossing relation.
 
 **Invariant INV-C2.2-1 (R-only penalty routing).** For each traversed relation `r` whose rule declares a congruence loss:
 
-`F_out = F_in`
-`G_out = translate(r, G_in)` only when `r` is an applicable A.2.6 scope translation; otherwise `G_out = G_in`
-`R_out ≤ R_in` on the named ordered warrant scale for a loss-only transformation, with any numerical penalty justified by that relation's receiving model
+- `F_out = F_in`.
+- `G_out = translate(r, G_in)` only when `r` is an applicable A.2.6 scope translation; otherwise `G_out = G_in`.
+- `R_out ≤ R_in` on the named ordered warrant scale for a loss-only transformation, with any numerical penalty justified by that relation's receiving model.
 
 A scope translation may narrow or re-express `G`; it never widens the claim silently. A change in formality is a new episteme or explicit ΔF move, not a transport penalty. A semantic Bridge changes neither kind nor scope by itself. A kind or plane relation supplies no semantic correspondence unless that separate relation also obtains. Evidence reuse changes warrant only through its own evidence-use or reliance claim.
 
-There is no implicit crossing. If a reuse depends on a changed value and its required relation or operation is absent, unresolved, or outside its applicability, the reuse is non-conformant. Each path records the relations it actually traverses and routes their declared losses to `R`, while every other coordinate changes only under its own rule.
+There is no implicit crossing. If a reuse depends on a changed value and its required relation or operation is absent, unresolved, or outside its applicability, the reuse is non-conformant. Each path records the relations it traverses and routes their declared losses to `R`, while every other coordinate changes only under its own rule.
 
 #### C.2.2:4.4.A - Worked micro-example: scope revision and evidence reuse
 
@@ -143,11 +138,11 @@ The example therefore preserves one simple rule: name each changed value and rel
 **Definition DEF‑C2.2‑4 (Effective reliability under reuse).**
 A relied-on relation may introduce loss in the support for the receiving claim. Name that relation and its scope, semantic, notation, model-use, evidence-reuse, kind, or reference-plane rule. The corresponding `CL`, `CL^k`, or `CL^plane` is an ordinal summary belonging to that relation family; the ranks are not amounts to subtract from R.
 
-A quantitative loss model names the receiving quantity and scale, input meanings, dependencies, loss interpretation, derivation or calibration, and applicability assumptions under B.3. If the model uses functions `Φ`, `Ψ`, `Φ_plane`, and a combining operation `Π`, cite their actual definitions and versions. A policy identifier, table, monotonicity, boundedness, or clipping to [0,1] does not by itself justify any of them.
+A quantitative loss model names the receiving quantity and scale, input meanings, dependencies, loss interpretation, derivation or calibration, and applicability assumptions under B.3. If the model uses functions `Φ`, `Ψ`, `Φ_plane`, and a combining operation `Π`, cite the definitions and versions used by the model. A policy identifier, table, monotonicity, boundedness, or clipping to [0,1] does not by itself justify any of them.
 
 For a loss-only interpretation on an ordered scale, worsening fit cannot by itself count as an improvement in warrant. The model must justify any pathwise CL minimum, repeated-loss treatment, or neutral term for an absent relation. Preserve separately justified ordinal chain-congruence operations in C.3.3; they do not provide a numerical R penalty.
 
-**Positive quantitative illustration, not a default.** Suppose a receiving claim requires events A and B. An applicable model and evidence establish `P(A) ≥ 0.82` and `P(¬B) ≤ 0.15` for the same use. The probability bound `P(A ∩ B) ≥ max(0, 0.82 − 0.15) = 0.67` follows without an independence assumption. Here 0.67 is a lower bound, not a point estimate or a generic confidence score. The 0.15 term comes from the stated bound on failure of B, not a CL rank. If those event meanings or bounds are unavailable, the calculation is unavailable.
+**Quantitative illustration: a lower bound for two required events.** Suppose a receiving claim requires events A and B. An applicable model and evidence establish `P(A) ≥ 0.82` and `P(¬B) ≤ 0.15` for the same use. The probability bound `P(A ∩ B) ≥ max(0, 0.82 − 0.15) = 0.67` follows without an independence assumption. Here 0.67 is a lower bound, not a point estimate or a generic confidence score. The 0.15 term comes from the stated bound on failure of B, not a CL rank. If those event meanings or bounds are unavailable, the calculation is unavailable.
 
 **Reuse conditions.** Apply a relation's justified admissibility or protection condition to the named use before relying on it; neither this pattern nor a bare CL rung creates a universal waiver obligation. If the condition is unsupported, limit or stop that reliance while retaining any independently supported source conclusion.
 
@@ -191,17 +186,17 @@ A minimal, conforming KD‑CAL authoring flow for reliability is:
 4. **Connect the supporting grounds.** Make the relied-on grounds and their bearing on the claim inspectable under B.3.3. Use evidence references, stubs or lane tags when the receiving account requires them. Retain validity windows and currentness rules where they affect the use (B.3.4).
 5. **Identify support roles and dependence.** Distinguish required premises, sufficient alternatives, complementary support, scope slices, and counterevidence. Identify duplicated data, shared assumptions, and plausible common biases.
 6. **Choose a justified calculation or a synthesis without a common numerical R.** Name the receiving quantity, compatible scales, assumptions, and model before any numerical fold. Otherwise retain separate support and a reasoned bounded conclusion; do not substitute a universal min or max.
-7. **Name actual relations on reuse.** Use A.2.6 for an applicable scope translation, C.3/C.3.3 for a kind relation, F.9 for a semantic relation between exact local-sense cells, and the direct pattern for notation, plane, model-use, or evidence reuse. Record the fit or loss declared by each traversed relation. If a required relation is absent or unresolved, stop that reuse; a generic cross-context Bridge cannot substitute for it.
+7. **Name actual relations on reuse.** Use A.2.6 for an applicable scope translation, C.3/C.3.3 for a kind relation, F.9 for a semantic relation between exact local-sense cells, and the pattern governing notation, plane, model-use, or evidence reuse. Record the fit or loss declared by each traversed relation. If a required relation is absent or unresolved, stop that reuse; a generic cross-context Bridge cannot substitute for it.
 8. **Return the usable result.** State F, G, and the supported conclusion with its warrant and limitations. State R numerically only under the justified receiving model, with the actual calculation and relied-on loss definitions. A formal conclusion does not require an empirical score. Inquiry or action choice, if needed, remains separate.
 
 
 #### C.2.2:4.8.A - Authoring template: claim-local support summary
 
-When publishing a path-specific R for a guard or decision, include enough of the support summary to identify its actual quantity, model, inputs, and use. G.6 PathId references can carry this information; no new Core type or mandatory table is introduced.
+When publishing a path-specific R for a guard or decision, include enough of the support summary to identify its quantity, model, inputs, and use. G.6 PathId references can carry this information; no new Core type or mandatory table is introduced.
 
 | PathId | Receiving claim and support | Quantity and model | R result | Fit and limitations | Lane tags | Validity |
 | --- | --- | --- | --- | --- | --- | --- |
-| P-1 | A ∩ B; the two bounds in §4.5 | Probability lower bound; union-bound argument for the stated events | ≥0.67, not a point estimate | No numerical penalty follows from a CL rank; both input bounds must apply to this same use | Applicable TA/VA/LA references | Intersection of the actual input-bound validity conditions |
+| P-1 | A ∩ B; the two bounds in §4.5 | Probability lower bound; union-bound argument for the stated events | ≥0.67, not a point estimate | No numerical penalty follows from a CL rank; both input bounds must apply to this same use | Applicable TA/VA/LA references | Intersection of the input-bound validity conditions |
 
-Retain actual CL summaries where their relation uses them; any chain minimum needs that relation's ordinal meaning. Empirical time limits and the fixed theory version of a proof remain different conditions. If several paths are consumed, retain their distinct scopes and models and cite the actual PathId(s). A synthesis without a common numerical R may instead give its separate contributions and limitations in ordinary prose.
+Retain actual CL summaries where their relation uses them; any chain minimum needs that relation's ordinal meaning. Empirical time limits and the fixed theory version of a proof remain different conditions. If several paths are consumed, retain their distinct scopes and models and cite their PathId(s). A synthesis without a common numerical R may instead give its separate contributions and limitations in ordinary prose.
 
