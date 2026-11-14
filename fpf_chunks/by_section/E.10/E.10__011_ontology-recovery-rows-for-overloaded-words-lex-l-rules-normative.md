@@ -6,12 +6,12 @@ section_id: "E.10:9"
 section_title: "Ontology recovery rows for overloaded words (LEX L-rules; normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__011_ontology-recovery-rows-for-overloaded-words-lex-l-rules-normative.md"
-commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
+commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:9 — Ontology recovery rows for overloaded words (LEX L-rules; normative)"
-line_start: 105888
-line_end: 106045
+line_start: 105931
+line_end: 106088
 dependencies:
   - "A.10"
   - "A.15"
@@ -137,7 +137,7 @@ A text **passes** LEX if all answers are **Green**:
 * **With F‑cluster (Unification) and UTS (F.17).**
   Recover each source-local cell under its effective scheme. A comparison row may cite direct Bridges, losses, contrasts, and separately warranted use claims; the row creates none of them. UTS is the human-readable term publication.
 
-> **Acts and tokens.** LEX applies to **tokens**; USM applies to **acts**: mint, rename, and use. Conformance: `LEX.TokenClass(t)=c ⇒ USM.Scope(usage) ∈ AllowedScopes(c)` (see § 7.5).
+> **Acts and tokens.** Identify the class of the token. For a mint, rename or use, check the conditions of the act against the policy for that class (§7.5).
 
 #### E.10:9.5 - Conformance checklist (LEX‑CC)
 
@@ -147,7 +147,7 @@ A text **passes** LEX if all answers are **Green**:
 4. **LEX-CC-4 (Cross-local relation).** Recover the exact relation being asserted between local senses. Cite an F.9 Bridge only when its direct predicate obtains between identified cells; any proposed use and reliance remain separate. Shared spelling establishes none of them.
 5. **LEX‑CC‑5 (MG-DA).** New tokens pass **MG-DA** tests, including **full‑text collision** and **Reserved‑Names** checks.
 6. **LEX‑CC‑6 (Service, acceptance, and evidence).** Service or access wording establishes neither **Work** nor acceptance. An acceptance claim names the selected criterion episteme, any evaluation or acceptance Work that applied it, the returned value or result episteme, and the acceptance predicate with its participants under the applicable acceptance pattern; delivery Work, evidence, or a positive display proves none by itself. Evidence use is a relation over an **Episteme**, target claim or use, the scope, polarity, temporal conditions and provenance required by the evidence use.
-7. **LEX‑CC‑7 (USM compatibility).** For each LexicalAct, `USM.Scope ∈ AllowedScopes(LEX.TokenClass)`.
+7. **LEX‑CC‑7 (USM compatibility).** Apply the token-class policy to the individual use or proposed range of uses (§7.5).
 8. **LEX-CC-8 (Naming discipline).** If overload cleanup yields one local replacement phrase, the text records the repaired phrase and applicable local repair pattern. If cleanup yields one durable reusable name, the text first records the applicable **F.8** decision for the already identified value, then completes an **F.18** NameCard; public, Core-facing, durable, or cross-local publication also supplies the **F.17** term row. Intuition-first labels, partial NameCards, and naming acts that substitute for value or kind admission are non-conformant.
 
 #### E.10:9.6 - Worked micro‑examples (short, cross‑domain)
@@ -204,7 +204,7 @@ When a thinking term identifies the subject of a holonic question, name the whol
 
 These are qualified applications, not exhaustive definitions of the familiar forms of thinking. An “operational” judgement can also concern capacity, commitments and service under OPS.23. Management and strategic reasoning can connect Systems, Methods, Work and Epistemes. Mathematical thinking can compose claim-bearing knowledge and proof Methods while also constructing mathematical objects and operations. Keep an object of a mathematical claim distinct from the Episteme making that claim.
 
-Translate the intended subject and operation, not just the adjective. Russian «методологическое мышление» concerns methods and their grounds in this use; English “methodical thinking” can instead mean orderly procedure. “Systematic” does not by itself mean FPF's “system thinking.” For the Work application, “reasoning about performed work” and «мышление о выполненных работах» make the intended subject explicit. Preserve a source's different use when quoting or explaining it.
+Translate the intended subject and operation, not just the adjective. Russian «методологическое мышление» concerns methods and their grounds in this use; English “methodical thinking” can instead mean orderly procedure. “Systematic” does not by itself mean FPF's “system thinking.” For the Work application, “reasoning about performed work” identifies what happened and whose contribution is at issue. Preserve a source's different use when quoting or explaining it.
 
 [Library.Reference:1.2](https://github.com/ailev/FPF/blob/main/FPF-LIBRARY-REFERENCE.md#libraryreference12---holonic-thinking-across-different-kinds-of-whole) develops the common construction and its limits. Apply this distinction with F.19 when authoring or repairing a consequential use. The adjective alone supplies neither holon admission nor a part–whole, level or layer relation.
 

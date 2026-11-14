@@ -6,12 +6,12 @@ section_id: "B.5.RA:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.RA/B.5.RA__006_archetypal-grounding.md"
-commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
+commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
 heading_path:
   - "B.5.RA — Recover an Argument for Use"
   - "B.5.RA:5 — Archetypal Grounding"
-line_start: 50075
-line_end: 50203
+line_start: 50084
+line_end: 50212
 dependencies:
   - "B.5"
   - "B.5.MPC"

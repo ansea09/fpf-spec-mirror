@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/G.0.md"
-commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
+commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
 heading_path:
   - "G.0 — Define Admissible Comparison and Aggregation for a Frame (CG-Spec)"
-line_start: 134893
-line_end: 135252
+line_start: 134956
+line_end: 135317
 dependencies:
   - "A.10"
   - "A.17"
@@ -58,7 +58,7 @@ keywords:
 **Tag.** Architectural pattern (foundational Standard; constrains G.1–G.5)
 **Stage.** *Design time.* Define the admissible comparisons and evidence minima that run-time checks will use.
 **Primary output.** `CG‑Spec` specifies which comparisons and aggregations a `CG‑Frame` permits, independently of notation. Publish the specification and its edition pins in UTS for downstream reproducibility and RSCR.
-**Primary hooks.** `USM.ScopeSlice(G)`, `entityOfConcern`, `SCP`, `MinimalEvidence`, `CNSpecRef`, `Γ‑fold`, `Φ(CL)` / `Φ_plane` policy pins, `UTS` publication (Name Cards + edition pins).
+**Primary hooks.** `U.ClaimScope` (G), admitted task and object kinds, `entityOfConcern`, `SCP`, `MinimalEvidence`, `CNSpecRef`, `Γ‑fold`, `Φ(CL)` / `Φ_plane` policy pins, `UTS` publication (Name Cards + edition pins).
 
 
 ### G.0:1 - Problem frame
@@ -148,13 +148,15 @@ Profiles/sets + explicit deltas; `Nil‑elision` applies.
 
 #### G.0:4.3 - CG‑Spec conceptual model (normative)
 
+The `Scope` entry groups two declarations. The claim scope answers whether the intended comparison applies under the conditions of a particular use. The task and object kinds specify what may enter the comparison. Test the proposed context slice against the former and the proposed task and object against the latter. C.22 calls the claim-scope field in its TaskSignature `ScopeSlice(G)`.
+
 ```
 CG‑Spec :=
 ⟨
   UTS.id, Edition,
   Context, Purpose, Audience,
 
-  Scope := USM.ScopeSlice(G) ⊕ Boundary{TaskKinds, ObjectKinds},
+  Scope := ⟨ClaimScope: U.ClaimScope, Boundary: {TaskKinds, ObjectKinds}⟩,
 
   entityOfConcern := ⟨GroundingHolon, ReferencePlane ∈ {world|concept|episteme}⟩,
   WorldRegime? ∈ {prep|live},          // refines ReferencePlane=world only

@@ -6,12 +6,12 @@ section_id: "C.39.WA:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.WA/C.39.WA__006_archetypal-grounding.md"
-commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
+commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
 heading_path:
   - "C.39.WA — Develop an Account of the Whole Subject"
   - "C.39.WA:5 — Archetypal Grounding"
-line_start: 87370
-line_end: 87427
+line_start: 87409
+line_end: 87466
 dependencies:
   - "C.20"
   - "C.39.QR"
@@ -68,11 +68,11 @@ The completed entry contains that field explanation and the connections at the f
 
 A mathematics author is commissioned to explain finite-dimensional linear maps to readers who can solve elementary linear equations. The account must connect maps, equations and matrix calculations so that readers can reason about existence and uniqueness of solutions. This scope is part of the commission. The available notes define a map, introduce a matrix, and then present successful calculations in that order.
 
-The author recovers what must be explained before choosing a more elaborate calculation. Two questions organize the subject: which outputs can a map attain, and which inputs it treats alike? In the standard theory, the image answers the first question. Linearity gives the second a common construction: \(T(x)=T(y)\) exactly when \(x-y\) lies in the kernel. Consequently, \(T(x)=b\) is solvable when \(b\) is in the image; after one solution \(x_0\) is found, all solutions have the form \(x_0+k\) with \(k\) in the kernel. The [UCL account of linear maps](https://www.homepages.ucl.ac.uk/~ucahmto/0007_2021/3-3-linear-maps.html) supplies the definitions and structural grounds.
+The author recovers what must be explained before choosing a more elaborate calculation. Two questions organize the subject: which outputs can a map attain, and which inputs it treats alike? In the standard theory, the image answers the first question. Linearity gives the second a common construction: $T(x)=T(y)$ exactly when $x-y$ lies in the kernel. Consequently, $T(x)=b$ is solvable when $b$ is in the image; after one solution $x_0$ is found, all solutions have the form $x_0+k$ with $k$ in the kernel. The [UCL account of linear maps](https://www.homepages.ucl.ac.uk/~ucahmto/0007_2021/3-3-linear-maps.html) supplies the definitions and structural grounds.
 
 These relations give the author a reason to change the exposition. The new opening states the two questions and derives their connection through linearity. The kernel and image definitions now help answer those questions. A solved equation is placed after the solution-set construction, so the reader can see which features of that calculation arise from the common relation. The matrix section explains how selected bases represent the map and make calculation possible. A change of basis can change the matrix while retaining the map and the two structural questions.
 
-The reviewer then examines a transition the draft had left implicit: the claim that a map reaches every output. Two maps can have the formula \(T(x,y)=(x,0)\) and different codomains. With codomain \(\mathbb{R}^2\), some outputs are unattainable; with the first coordinate axis as codomain, every allowed output is attained. The formula alone leaves this judgement underdetermined. The author repairs the general explanation by including the declared codomain in the attainable-output question, and updates the affected statements and examples. The kernel argument remains valid. This local finding has changed the common account and selected its dependent revisions.
+The reviewer then examines a transition the draft had left implicit: the claim that a map reaches every output. Two maps can have the formula $T(x,y)=(x,0)$ and different codomains. With codomain $\mathbb{R}^2$, some outputs are unattainable; with the first coordinate axis as codomain, every allowed output is attained. The formula alone leaves this judgement underdetermined. The author repairs the general explanation by including the declared codomain in the attainable-output question, and updates the affected statements and examples. The kernel argument remains valid. This local finding has changed the common account and selected its dependent revisions.
 
 The reviewer returns to the commissioned use. Existence is explained through image membership; freedom among solutions through the kernel; matrix computation through the chosen representation. The text now gives their connecting grounds before asking the reader to interpret particular calculations. These grounds also let the author select useful contrasts: a different codomain tests the scope of the attainable-output claim, whereas changing only a matrix entry may exercise the same calculation again.
 

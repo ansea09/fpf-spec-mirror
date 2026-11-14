@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.40.RQ.md"
-commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
+commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
 heading_path:
   - "C.40.RQ — Requalify Changed Opportunities"
-line_start: 92310
-line_end: 92546
+line_start: 92349
+line_end: 92585
 dependencies:
   - "A.10"
   - "A.10.1"
@@ -84,7 +84,7 @@ If a credible change indicates a possible protection breach, follow the existing
 
 For one known opportunity, inspect how the changed premise supports its contribution, direction, comparison, reachability, retention, or advising boundary. Ask which action or conclusion would change if that premise no longer held. A source listed in the same bibliography may do no work in this claim; an uncited assumption may do substantial work.
 
-Use [A.10.1 — Revalidate Affected Uses When a Relied-on Source Changes](https://github.com/ailev/FPF/blob/main/FPF-Spec.md) when a changed source claim requires discovering and revalidating several receiving uses, especially when the receivers are not yet fully known. It supplies the bounded search frame, complementary source- and receiver-oriented discovery, coverage limits, direct-reliance test, and action-changing reach. Do not substitute a link scan for that result.
+Use [A.10.1 — Revalidate Affected Uses When a Relied-on Source Changes](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a101---revalidate-affected-uses-when-a-relied-on-source-changes) when a changed source claim may affect several receiving uses or some of the uses must still be found. It supplies the bounded search frame, complementary source- and receiver-oriented discovery, coverage limits, direct-reliance test, and a way to establish which receiving conclusions or actions could change. Do not substitute a link scan for that result.
 
 Keep the returned discovery conclusions distinct from the opportunity judgement. A confirmed dependent use needs a supported subject judgment or scoped blocker; an adequate existing result may supply it. The direct return can finish the question. Add a common account only when a receiver needs that overview, and group equivalent irrelevant mentions without separate exclusion records. An unresolved use or inaccessible source remains a gap. Do not call an uninspected branch unaffected or extend a local negative search result beyond its covered frame.
 

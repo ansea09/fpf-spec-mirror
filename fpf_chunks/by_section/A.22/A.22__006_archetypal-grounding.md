@@ -6,12 +6,12 @@ section_id: "A.22:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__006_archetypal-grounding.md"
-commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
+commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
 heading_path:
   - "A.22 — Structure and Structural Views"
   - "A.22:5 — Archetypal Grounding"
-line_start: 42126
-line_end: 42133
+line_start: 42135
+line_end: 42142
 dependencies:
   - "A.1"
   - "A.1.1"

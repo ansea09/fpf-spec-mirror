@@ -6,12 +6,12 @@ section_id: "A.14:6"
 section_title: "Choosing a relation (decision table)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.14/A.14__007_choosing-a-relation-decision-table.md"
-commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
+commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
 heading_path:
   - "A.14 — Mereology: Components, Portions, Aspects & Phases"
   - "A.14:6 — Choosing a relation (decision table)"
-line_start: 29576
-line_end: 29589
+line_start: 29585
+line_end: 29598
 dependencies:
   - "A.1"
   - "A.15"

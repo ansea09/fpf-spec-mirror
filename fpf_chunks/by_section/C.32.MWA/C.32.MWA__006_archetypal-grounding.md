@@ -6,12 +6,12 @@ section_id: "C.32.MWA:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA/C.32.MWA__006_archetypal-grounding.md"
-commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
+commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
 heading_path:
   - "C.32.MWA — Synthesize an Architecture Account of Methods and Their Use"
   - "C.32.MWA:5 — Archetypal Grounding"
-line_start: 82634
-line_end: 82643
+line_start: 82651
+line_end: 82664
 dependencies:
   - "A.13"
   - "A.15.1"
@@ -36,6 +36,10 @@ keywords:
 ---
 
 ### C.32.MWA:5 - Archetypal Grounding
+
+**Preparing borscht for eighteen guests.** The cooking repertoire contains several established ways to prepare borscht. The host asks which regional style the guests prefer. Their stated preference helps the cook select a recipe. Eighteen portions determine a quantity. If the selected way admits that quantity and the pot has the required capacity, scaling ingredients is a setting of the same method. If the pot is too small, an allowed split into batches, another established method, or a trial of a changed order of heating are different responses. A trial may show whether the change works. On the day, access to the kitchen, ingredients, equipment and an available cook determine whether preparation can start. Serving eighteen bowls supplies evidence of delivery. To establish that the guests liked the dish requires evidence of their response.
+
+**Checking a terminology collection.** A methodologist observing several editorial teams reconstructs how they test whether two terms denote the same kind. Another team can use the account to select a check for its language pair. A recording shows how an editor compared the criteria. The account and recording are available to the receiving team even if a contracted service performs the entire first check. Its returned list of incompatible definitions can meet the immediate editorial need. To establish the team's ability to repeat the check with its normal tools, examine the team's contribution on a representative assignment. The criterion for equivalent meanings may stay the same. If the current method already permits the extra test, using it is an allowed choice. Requiring a new independent test before accepting a match changes the operation or its stopping rule. Compare the revised way with the original under A.3.1:4.7.
 
 **Methods and their social-dance use.** A five-minute social-dance occurrence sits inside a longer party. The architecture question connects dance methods, their performance, participant capabilities and the transmission of the style. Preparation has a first-then order, while movement regulation, figure performance, partner coordination, style-specific performance and event participation can overlap in time. A teaching diagram is a description; bodily and pair capabilities concern participating Systems; scene transmission and later style selection are cultural relations. The synthesis keeps these structures linked but not identical. A sequence-only stack loses simultaneity, while one culture-level stack loses the Work and subject relations.
 

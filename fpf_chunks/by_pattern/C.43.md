@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.43.md"
-commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
+commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
 heading_path:
   - "C.43 — Connect Observation, Choice and Action in Control"
-line_start: 94663
-line_end: 95191
+line_start: 94702
+line_end: 95230
 dependencies:
   - "A.12"
   - "C.11"
@@ -189,10 +189,10 @@ This distinction changes which interventions are worthwhile and when. Cheap comp
 
 Value information through the decisions it can improve, together with any separately justified use of the knowledge. For one decision maker with a specified probability model, a fixed finite set of available actions A, integrable utility u, and current information I, the gross instrumental value of a signal Y can be written as:
 
-\[
-\mathbb E_Y\!\left[\max_{a\in A}\mathbb E[u(a,\theta)\mid I,Y]\right]
+$$
+\mathbb E_Y\negthinspace\left[\max_{a\in A}\mathbb E[u(a,\theta)\mid I,Y]\right]
 -\max_{a\in A}\mathbb E[u(a,\theta)\mid I].
-\]
+$$
 
 The expression compares choosing after the signal with choosing without it. It assumes the signal can be ignored and the former actions retained. Acquisition, interpretation, delay and displaced opportunities enter the net comparison. If the experiment changes the system or available actions, compare those changed continuations rather than subtracting a price from an otherwise unchanged formula.
 

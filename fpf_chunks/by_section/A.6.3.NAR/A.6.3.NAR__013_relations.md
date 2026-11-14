@@ -6,12 +6,12 @@ section_id: "A.6.3.NAR:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.NAR/A.6.3.NAR__013_relations.md"
-commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
+commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
 heading_path:
   - "A.6.3.NAR — Structure-to-Narrative Rendering"
   - "A.6.3.NAR:12 — Relations"
-line_start: 20584
-line_end: 20594
+line_start: 20592
+line_end: 20602
 dependencies:
   - "A.10"
   - "A.22.CGUS"

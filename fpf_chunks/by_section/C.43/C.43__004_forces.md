@@ -6,12 +6,12 @@ section_id: "C.43:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.43/C.43__004_forces.md"
-commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
+commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
 heading_path:
   - "C.43 — Connect Observation, Choice and Action in Control"
   - "C.43:3 — Forces"
-line_start: 94695
-line_end: 94705
+line_start: 94734
+line_end: 94744
 dependencies:
   - "A.12"
   - "C.11"

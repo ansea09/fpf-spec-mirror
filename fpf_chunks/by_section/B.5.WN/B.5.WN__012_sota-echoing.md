@@ -6,12 +6,12 @@ section_id: "B.5.WN:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.WN/B.5.WN__012_sota-echoing.md"
-commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
+commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
 heading_path:
   - "B.5.WN — Develop Lines of Thought with Notes"
   - "B.5.WN:11 — SoTA-Echoing"
-line_start: 48956
-line_end: 48973
+line_start: 48965
+line_end: 48982
 dependencies:
   - "A.15.10"
   - "A.15.11"

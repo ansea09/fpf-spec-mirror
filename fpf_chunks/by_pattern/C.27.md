@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.27.md"
-commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
+commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Change"
-line_start: 70013
-line_end: 70487
+line_start: 70024
+line_end: 70498
 dependencies:
   - "A.10"
   - "A.3.3"
@@ -490,7 +490,7 @@ The source set below is the June 2026 basis for C.27's claim-adequacy rules. Reo
 
 Source references:
 
-- D2-SRC-1: [Статика, динамика первой производной, динамика второй производной](https://ailev.livejournal.com/1648977.html).
+- D2-SRC-1: [Statics and the dynamics of the first and second derivatives (in Russian)](https://ailev.livejournal.com/1648977.html).
 - D2-SRC-2: [Learning-Based Model Predictive Control: Toward Safe Learning in Control](https://www.annualreviews.org/eprint/2STMCYXGPHBRMTDP9W2D/full/10.1146/annurev-control-090419-075625), [Review on model predictive control: an engineering perspective](https://link.springer.com/article/10.1007/s00170-021-07682-3), and [Goal-oriented safe active learning for predictive control using Bayesian recurrent neural networks](https://arxiv.org/abs/2604.12542).
 - D2-SRC-3: [A Survey of Constraint Formulations in Safe Reinforcement Learning](https://www.ijcai.org/proceedings/2024/0913.pdf), [A Review of Off-Policy Evaluation in Reinforcement Learning](https://arxiv.org/pdf/2212.06355), [Conservative Q-Learning for Offline Reinforcement Learning](https://proceedings.neurips.cc/paper/2020/hash/0d2b2061826a5df3221116a5085a6052-Abstract.html), [Methods in dynamic treatment regimens using observational healthcare data](https://www.sciencedirect.com/science/article/pii/S0169260725000756), and [Safe Continual Reinforcement Learning Methods for Nonstationary Environments: Toward a Survey](https://arxiv.org/abs/2601.05152).
 - D2-SRC-4: [Causal Inference: What If](https://miguelhernan.org/whatifbook) and [Causal Inference About the Effects of Interventions From Observational Studies in Medical Journals](https://jamanetwork.com/journals/jama/fullarticle/2818746).

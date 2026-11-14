@@ -6,12 +6,12 @@ section_id: "E.4.DPF:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__005_solution.md"
-commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
+commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
 heading_path:
   - "E.4.DPF — Domain and Local Principle Frameworks: Whether and How to Author and Publish"
   - "E.4.DPF:4 — Solution"
-line_start: 99473
-line_end: 100060
+line_start: 99512
+line_end: 100099
 dependencies:
   - "A.1.1"
   - "A.13"
@@ -61,7 +61,7 @@ keywords:
 
 Use the first-hour route to help a reader new to the framework decide whether authoring should begin. This route answers that question before asking for proposal, dependency, naming, quality or publication material.
 
-1. Name the intended reader, recurring working problem and useful result.
+1. Name the intended reader, recurring working problem and useful result. Identify the user by the work they need the framework for. Follow E.8:4.2.3 when the distinction between doing the work and assisting with it changes whose decision or capability the result demonstrates.
 2. Recover candidate contributions from that problem and its sources before fitting them to the current Library: recurring practitioner problems, reusable moves or Methods, first useful results, ordinary stops or wrong-turn returns, and source or refresh boundaries. When the use spans several problem families, recover their consequential connections and the practice field or fields they serve. A field can include known Methods as well as missing ones; novelty of elementary operations is not its identity test.
 3. Inspect what FPF Core, existing domain or local frameworks, and current sources provide.
    - Treat a role or competence account, several independently reusable contributions, a Card or mantra spanning material relations, a plausible field and refresh boundary, a representative use across contributions, or visible action or result loss under one broad owner as a cue to compare, not as proof of a DPF.

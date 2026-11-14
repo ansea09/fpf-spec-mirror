@@ -6,12 +6,12 @@ section_id: "E.21:5"
 section_title: "Archetypal Grounding - worked slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.21/E.21__006_archetypal-grounding-worked-slices.md"
-commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
+commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
 heading_path:
   - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
   - "E.21:5 — Archetypal Grounding - worked slices"
-line_start: 121365
-line_end: 121484
+line_start: 121407
+line_end: 121526
 dependencies:
   - "A.17-A.19"
   - "A.19.ECS"
@@ -62,7 +62,7 @@ The final sentence is deliberately defective: an unrelated editorial revision wo
 **Configuration and evidence basis.**
 
 - `PatternOfConcernRef`: the complete quoted `EX.1@source-pin-1` edition.
-- `ClaimScope`: diagnostic rehearsal of E.21 on one small pattern; declared floor `3 sufficientlyExpressedForDeclaredUse` for this rehearsal only.
+- `ClaimScope`: first-use assessments of the quoted edition from its supplied text under the conditions of this rehearsal. The declared floor is `3 sufficientlyExpressedForDeclaredUse` for this rehearsal.
 - `WorkingReaderScope`: a new evaluator who has E.21 and the quoted text but no campaign history.
 - `IntendedUse`: learn whether this edition is coherent enough for the diagnostic rehearsal and identify the first repair; if EX.1 is later proposed for publication or ordinary authoring use, that receiving use requires its own admission decision.
 - `QualificationWindow`: until the quoted edition, E.21 scale, or named comparison evidence changes.

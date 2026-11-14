@@ -6,12 +6,12 @@ section_id: "A.1.STM:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.STM/A.1.STM__006_solution.md"
-commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
+commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
 heading_path:
   - "A.1.STM — Connect Project Reasoning (System-Thinking Long Mantra)"
   - "A.1.STM:4 — Solution"
-line_start: 4267
-line_end: 4413
+line_start: 4271
+line_end: 4417
 dependencies:
   - "A.1"
   - "A.1.SCR"
@@ -80,7 +80,7 @@ Keep these answers distinguishable:
 | Required functioning | The behaviour or contribution needed in use, such as circulating coolant at a required rate under stated conditions. | Supplies a demand to investigate; it does not yet select a construction or establish an actual effect. |
 | System named by its function | The kind of system sought for that contribution, such as a coolant circulator. | Opens the search for suitable systems and constructions. This functional classification differs from the system's role in the project. |
 
-**System-of-interest** is the English term for **целевая система**; this Library uses **SoI**. The meaning here keeps the useful product and its creators' common purpose in view. When another source uses *system-of-interest* merely for whichever system an observer investigates, recover that source meaning explicitly; use *system-in-hand* for the local system in the present account. "Our system" needs the relation that makes it ours: what we make, change, operate or provide.
+This Library uses **system-of-interest (SoI)** for the system identified in relation to the undertaking described below. The meaning here keeps the useful product and its creators' common purpose in view. When another source uses *system-of-interest* merely for whichever system an observer investigates, recover that source meaning explicitly; use *system-in-hand* for the local system in the present account. "Our system" needs the relation that makes it ours: what we make, change, operate or provide.
 
 A component, instrument or machine can be the SoI of a distinct product undertaking when it is supplied for use to identified recipients or a known class of recipients, with a bounded product decision and obligations for its fitness. For example, a test-rig manufacturer supplies a usable instrument to laboratories. In the pump cooperation, a laboratory developing its test capability remains a creator, and its rig can be the local system-in-hand. The actual supply and obligations explain the distinction; incorporation, internal transfer prices, a contract or the word *project* do not settle it.
 

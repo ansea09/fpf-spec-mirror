@@ -6,12 +6,12 @@ section_id: "C.39.QR:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.QR/C.39.QR__001_intro.md"
-commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
+commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
 heading_path:
   - "C.39.QR — Return Results to the Original Question"
   - "C.39.QR:intro — Intro"
-line_start: 87007
-line_end: 87011
+line_start: 87028
+line_end: 87032
 dependencies:
   - "C.11.DUA"
   - "C.39"

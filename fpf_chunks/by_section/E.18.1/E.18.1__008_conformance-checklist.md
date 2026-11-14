@@ -6,12 +6,12 @@ section_id: "E.18.1:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__008_conformance-checklist.md"
-commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
+commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
 heading_path:
   - "E.18.1 — P2W Problem-to-Work Carry-Through"
   - "E.18.1:7 — Conformance Checklist"
-line_start: 118285
-line_end: 118311
+line_start: 118327
+line_end: 118353
 dependencies:
   - "A.15"
   - "A.15.PROD"
@@ -75,7 +75,7 @@ keywords:
 - `CC-E18.1-16` A work-to-change continuation cites the positive or negative claim or blocker already returned by the named subject predicate's defining pattern or the applicable `A.6.RCD` route. It keeps the actual `U.Work` and `U.Transformation` references when they are part of that result, but does not reconstruct occurrence proof, predicate tests, failure classification, or negative-claim closure. The BuildOps and Pump 14 slices show positive carry-through; Pump 14 also preserves the earlier `missing-governor` stop. A production continuation likewise carries only the result or blocker returned by `A.15.PROD`.
 - `CC-E18.1-17` A PatternID reference, selected or recommended continuation, imperative wording, intended realization, plan seed, graph or filled table admits no `U.MethodDescription`. Membership exists only for an independently identified C.2.1 episteme whose EntityOfConcern is one admitted `U.Method` and whose ClaimContent contains at least one substantive way-of-doing claim.
 - `CC-E18.1-18` *Move* remains Plain wording for the exact current object or use action. Proposed or chosen work remains distinct from dated performed Work; no universal Move kind, record or relation is introduced.
-- `CC-E18.1-19` The local mantra is the compact formula in `4`, answers one stated decision, maps every term to independently identified values, has the filled cooling use, and stops at the applicable neighboring pattern. It is not the five-row display, a Method, MethodDescription, plan, Work, CGUS or structure identity.
+- `CC-E18.1-19` The wording of the local mantra in §4 recalls one decision. Each phrase refers to an independently identified value, as illustrated in the cooling case. The practitioner stops when the applicable neighboring pattern supplies its answer or identifies the missing basis. The five-row table displays the possible continuations.
 
 
 

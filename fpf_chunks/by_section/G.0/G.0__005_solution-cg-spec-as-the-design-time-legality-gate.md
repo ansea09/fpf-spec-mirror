@@ -6,12 +6,12 @@ section_id: "G.0:4"
 section_title: "Solution — CG‑Spec as the design-time legality gate"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.0/G.0__005_solution-cg-spec-as-the-design-time-legality-gate.md"
-commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
+commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
 heading_path:
   - "G.0 — Define Admissible Comparison and Aggregation for a Frame (CG-Spec)"
   - "G.0:4 — Solution — CG‑Spec as the design-time legality gate"
-line_start: 134932
-line_end: 135150
+line_start: 134995
+line_end: 135215
 dependencies:
   - "A.10"
   - "A.17"
@@ -110,13 +110,15 @@ Profiles/sets + explicit deltas; `Nil‑elision` applies.
 
 #### G.0:4.3 - CG‑Spec conceptual model (normative)
 
+The `Scope` entry groups two declarations. The claim scope answers whether the intended comparison applies under the conditions of a particular use. The task and object kinds specify what may enter the comparison. Test the proposed context slice against the former and the proposed task and object against the latter. C.22 calls the claim-scope field in its TaskSignature `ScopeSlice(G)`.
+
 ```
 CG‑Spec :=
 ⟨
   UTS.id, Edition,
   Context, Purpose, Audience,
 
-  Scope := USM.ScopeSlice(G) ⊕ Boundary{TaskKinds, ObjectKinds},
+  Scope := ⟨ClaimScope: U.ClaimScope, Boundary: {TaskKinds, ObjectKinds}⟩,
 
   entityOfConcern := ⟨GroundingHolon, ReferencePlane ∈ {world|concept|episteme}⟩,
   WorldRegime? ∈ {prep|live},          // refines ReferencePlane=world only

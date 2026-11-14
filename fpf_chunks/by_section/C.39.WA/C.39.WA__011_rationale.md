@@ -6,12 +6,12 @@ section_id: "C.39.WA:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.WA/C.39.WA__011_rationale.md"
-commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
+commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
 heading_path:
   - "C.39.WA — Develop an Account of the Whole Subject"
   - "C.39.WA:10 — Rationale"
-line_start: 87463
-line_end: 87468
+line_start: 87502
+line_end: 87507
 dependencies:
   - "C.20"
   - "C.39.QR"

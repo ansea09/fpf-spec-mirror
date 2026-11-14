@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.8.md"
-commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
+commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision for a Name"
-line_start: 128390
-line_end: 128849
+line_start: 128436
+line_end: 128895
 dependencies:
   - "A.11"
   - "A.15"

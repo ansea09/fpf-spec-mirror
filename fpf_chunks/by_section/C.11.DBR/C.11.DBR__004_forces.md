@@ -6,12 +6,12 @@ section_id: "C.11.DBR:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.DBR/C.11.DBR__004_forces.md"
-commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
+commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
 heading_path:
   - "C.11.DBR — Reconsider a Decision When Its Relied-on Basis Changes"
   - "C.11.DBR:3 — Forces"
-line_start: 59992
-line_end: 60001
+line_start: 60003
+line_end: 60012
 dependencies:
   - "A.10"
   - "A.10.1"

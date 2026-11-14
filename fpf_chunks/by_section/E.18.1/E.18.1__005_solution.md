@@ -6,12 +6,12 @@ section_id: "E.18.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__005_solution.md"
-commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
+commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
 heading_path:
   - "E.18.1 — P2W Problem-to-Work Carry-Through"
   - "E.18.1:4 — Solution"
-line_start: 117811
-line_end: 118166
+line_start: 117853
+line_end: 118208
 dependencies:
   - "A.15"
   - "A.15.PROD"
@@ -54,11 +54,11 @@ keywords:
 
 ### E.18.1:4 - Solution
 
-**Local P2W mantra.** Use this formula to recall the Plain question behind one working decision: *which P2W continuation, if any, is justified now?*
+**Local P2W mantra.** Use this wording to recall the question behind one working decision. *Which P2W continuation, if any, is justified now?*
 
 > **Carry the accepted distinction — ask one relation question — apply the pattern for that relation — keep its result or stop — reopen only the dependent continuation.**
 
-| Formula term | Identified value |
+| Phrase in the mantra | Identified value |
 | --- | --- |
 | Carry the accepted distinction | one accepted ProblemCard claim and the receiving decision or use that would change if the claim changed |
 | ask one relation question | one ordinary question with its participants; several independent claims are split |
@@ -70,7 +70,7 @@ keywords:
 
 If the lens subject, declared use, preservation/loss account or stop is unresolved, keep that C.29 question open and do not advance by wording to method selection, planning or Work.
 
-The formula is neither `U.Method`, `U.MethodDescription`, `U.WorkPlan`, dated `U.Work`, actual `U.Transformation`, CGUS nor a P2W relation. Imperative grammar and repetition establish none of those objects. The five rows below are a readable display of conditional continuations, not the mantra itself and not a project-work order.
+The wording helps a practitioner recall which question to ask. A claim about a Method, MethodDescription, plan, dated Work, Transformation, CGUS or P2W relation requires identification of that object under its own rule. The five rows below display conditional continuations. The applicable relation determines which one to take.
 
 | Shown continuation | Applicable pattern contribution | Solution use | Expected result | Current condition |
 |---|---|---|---|---|
@@ -121,7 +121,7 @@ Start with the part of the accepted ProblemCard that can change the answer neede
 
 Choose the next question from the work that needs the answer. Say what answering it would enable and what would count as enough for that use. If the present need is to choose guidance, an explained selection and its applicability boundary can suffice.
 
-If the next action needs a subject result, such as a plan or a measurement, apply the supplying method to the case and obtain that result or identify the exact gap. Use an adequate existing way directly. If the way itself is missing, use C.39 to find or develop it; E.4.CM guides that construction when it must become a maintained framework contribution.
+If the next action needs a subject result, such as a plan or a measurement, apply the supplying method to the case and obtain that result or identify the exact gap. Use an adequate existing way directly. If the way itself is missing, use C.39 to find or develop it; E.4.CM guides that construction when it must become a maintained framework contribution. When the next decision depends jointly on how a suitable method becomes available, how a performer gains access or capability, and how the job is supplied, C.32.MWA:4 connects those contributions. For a readiness decision alone, use A.15.5 for the intended job.
 
 Bring the answer back to the receiving decision or action. Explain how the carried claim constrained the question, choice or interpretation of the answer. If the local answer leaves a connection required by the larger task unresolved, keep that connection as unfinished work. A stop can settle the present inquiry while leaving the receiving task dependent on further facts or a still-missing way.
 
@@ -129,7 +129,7 @@ For example, C.22.2:20.1a supplies an accepted ProblemCard about two support-pol
 
 This move introduces no `ProblemToWorkCarryThroughRelation@Context`, reusable predicate definition, `RelationSignature`, or P2W relation occurrence.
 
-When transfer, audit, delayed feedback, costly reversal, automation, or durable reuse requires another person or later action to replay the claim, use the `C.2.1` episteme in `4.1`. Its identity is its ClaimGraph, the accepted `ProblemCard@Context` as EntityOfConcern, and the effective reference scheme.
+When transfer, audit, delayed feedback, costly reversal, automation, or durable reuse requires the claim to be retraced, use the `C.2.1` episteme in `4.1`. Its identity is its ClaimGraph, the accepted `ProblemCard@Context` as EntityOfConcern, and the effective reference scheme.
 
 The ClaimGraph records the accepted card edition and carried claim slice, decision or use relying on the result, concrete question, applicable pattern reference, contribution used, returned result kind and ref or stop, and why the carried content remains relevant. It designates a separately identified `U.Viewpoint` episteme or `BoundedModelUseStructure` only when the claim uses that object and its organization changes how the receiving claim is interpreted; neither becomes another identity discriminator.
 

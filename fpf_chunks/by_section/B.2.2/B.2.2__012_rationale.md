@@ -6,12 +6,12 @@ section_id: "B.2.2:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.2/B.2.2__012_rationale.md"
-commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
+commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
 heading_path:
   - "B.2.2 — Test the Proposed New Whole as a System"
   - "B.2.2:9 — Rationale"
-line_start: 45941
-line_end: 45946
+line_start: 45950
+line_end: 45955
 dependencies:
   - "A.1"
   - "A.10"

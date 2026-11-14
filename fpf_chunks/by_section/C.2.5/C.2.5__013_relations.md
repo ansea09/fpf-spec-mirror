@@ -6,12 +6,12 @@ section_id: "C.2.5:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.5/C.2.5__013_relations.md"
-commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
+commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
 heading_path:
   - "C.2.5 — Language-State Closure Degree — How Fixed Is the Current Candidate Space?"
   - "C.2.5:12 — Relations"
-line_start: 56248
-line_end: 56251
+line_start: 56257
+line_end: 56260
 dependencies:
   - "A.16"
   - "A.16.0"

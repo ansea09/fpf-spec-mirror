@@ -6,12 +6,12 @@ section_id: "A.3.1.FT:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.FT/A.3.1.FT__012_rationale.md"
-commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
+commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
 heading_path:
   - "A.3.1.FT — Qualify Method Fit and Transfer"
   - "A.3.1.FT:10 — Rationale"
-line_start: 11378
-line_end: 11383
+line_start: 11386
+line_end: 11391
 dependencies:
   - "A.3.1"
   - "A.3.1.QM"

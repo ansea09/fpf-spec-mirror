@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.19.UNM.md"
-commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
+commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
 heading_path:
   - "A.19.UNM — Normalize Coordinate Values under Declared Invariants"
-line_start: 38919
-line_end: 39376
+line_start: 38928
+line_end: 39385
 dependencies:
 keywords:
   - "CV→NCV"

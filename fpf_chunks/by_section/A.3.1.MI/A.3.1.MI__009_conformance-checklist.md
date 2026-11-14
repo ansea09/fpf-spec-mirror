@@ -6,12 +6,12 @@ section_id: "A.3.1.MI:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MI/A.3.1.MI__009_conformance-checklist.md"
-commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
+commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
 heading_path:
   - "A.3.1.MI — Introduce a Method into Practice and Decide What to Keep or Change"
   - "A.3.1.MI:7 — Conformance Checklist"
-line_start: 11800
-line_end: 11815
+line_start: 11808
+line_end: 11823
 dependencies:
   - "A.3.1"
   - "A.3.1.FT"

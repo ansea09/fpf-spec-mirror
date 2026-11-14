@@ -6,12 +6,12 @@ section_id: "C.11.MV:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.MV/C.11.MV__013_sota-echoing.md"
-commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
+commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
 heading_path:
   - "C.11.MV — Compare the Worth of a Method Option"
   - "C.11.MV:11 — SoTA-Echoing"
-line_start: 60669
-line_end: 60677
+line_start: 60680
+line_end: 60688
 dependencies:
   - "A.3.1.FT"
   - "A.3.1.QM"

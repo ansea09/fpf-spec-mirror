@@ -6,12 +6,12 @@ section_id: "A.15.10:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.10/A.15.10__004_forces.md"
-commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
+commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
 heading_path:
   - "A.15.10 — Resume Work"
   - "A.15.10:3 — Forces"
-line_start: 33786
-line_end: 33796
+line_start: 33795
+line_end: 33805
 dependencies:
   - "A.15"
   - "A.15.5"

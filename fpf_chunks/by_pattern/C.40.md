@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.40.md"
-commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
+commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
 heading_path:
   - "C.40 — Develop Branching Search from Reusable Material"
-line_start: 88970
-line_end: 89893
+line_start: 89009
+line_end: 89932
 dependencies:
   - "C.11"
   - "C.18"

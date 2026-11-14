@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.39.MF.md"
-commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
+commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
 heading_path:
   - "C.39.MF — Choose and Reopen a Method Development Focus"
-line_start: 87714
-line_end: 87891
+line_start: 87753
+line_end: 87930
 dependencies:
   - "A.15.6"
   - "A.3.1"

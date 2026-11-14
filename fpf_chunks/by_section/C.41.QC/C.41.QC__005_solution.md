@@ -6,12 +6,12 @@ section_id: "C.41.QC:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.QC/C.41.QC__005_solution.md"
-commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
+commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
 heading_path:
   - "C.41.QC — Qualify Checklist Criteria and Checking Means"
   - "C.41.QC:4 — Solution"
-line_start: 94143
-line_end: 94202
+line_start: 94182
+line_end: 94241
 dependencies:
   - "A.10"
   - "C.41"

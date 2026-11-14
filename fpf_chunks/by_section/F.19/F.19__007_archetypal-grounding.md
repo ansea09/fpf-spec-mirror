@@ -6,12 +6,12 @@ section_id: "F.19:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.19/F.19__007_archetypal-grounding.md"
-commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
+commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
   - "F.19:5 — Archetypal Grounding"
-line_start: 134288
-line_end: 134327
+line_start: 134348
+line_end: 134387
 dependencies:
   - "A.19.SPR"
   - "A.6.P"
@@ -62,7 +62,7 @@ These cases show repairs and situations in which ordinary wording should remain.
 | Ordinary metonymy | “The diagram shows the dependency.” | Retain when the diagram depicts it and the reader can recover the represented relation; do not expand a clear sentence into a Method and Work trace. |
 | Recoverable ellipsis | “Take the solution, mix, and pour it into the flask.” | Retain when `it` has one local antecedent and the destination is stated. The reader need not solve a reference puzzle. |
 | Required long set | A legal set, interface signature, inventory, or safety checklist has many members. | Retain the full series when its kind, membership or governing rule, and closure are declared and each member changes use. |
-| Expressive parallelism | “Расцветали яблони и груши...” in a song, quotation, or discussion of poetic form. | Retain only where evocation or rhythm is the declared work. In a technical message, rhythm does not earn repeated pairs or a delayed governing claim. |
+| Expressive parallelism | “By day they sailed, by night they sang” in a discussion of poetic form. The repeated construction carries the rhythm. | Retain only where evocation or rhythm is the declared work. In a technical message, rhythm does not earn repeated pairs or a delayed governing claim. |
 
 **Illustrative case — expert preparation and public wording.** A production-planning guide says, “Use their exact result for the plan; it is not a completion certificate.” A private briefing identifies the result as the forecasting team's demand estimate in Report R for 1–7 June under scenario S. The planner must compare that demand with available production capacity; a changed period or scenario requires an applicable estimate before comparison.
 

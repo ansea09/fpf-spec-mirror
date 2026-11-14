@@ -6,12 +6,12 @@ section_id: "C.32.LCA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.LCA/C.32.LCA__005_solution.md"
-commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
+commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
 heading_path:
   - "C.32.LCA — Construct and Compare a Control Architecture"
   - "C.32.LCA:4 — Solution"
-line_start: 80230
-line_end: 80442
+line_start: 80241
+line_end: 80453
 dependencies:
   - "A.3.3.PI"
   - "B.2.5"
@@ -142,14 +142,14 @@ Start from the last time at which an action can still obtain the required conseq
 
 For a serial path with applicable upper duration bounds, a sufficient timing condition is
 
-\[
+$$
 t_{\mathrm{change}}+
 L_{\mathrm{detect}}+
 L_{\mathrm{deliver}}+
 L_{\mathrm{decide}}+
 L_{\mathrm{execute}}
 \leq t_{\mathrm{needed}}.
-\]
+$$
 
 Each bound must cover its whole contribution under the compared conditions. Periodic observation contributes the worst wait until the next observation as well as the observation work. A computation bound must include the resource arrangement under which it can be achieved. A decision bound must include the availability of a participant with the required authority.
 

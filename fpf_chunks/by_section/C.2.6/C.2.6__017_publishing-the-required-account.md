@@ -6,12 +6,12 @@ section_id: "C.2.6:16"
 section_title: "Publishing the Required Account"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.6/C.2.6__017_publishing-the-required-account.md"
-commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
+commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
 heading_path:
   - "C.2.6 — Sources, Evidence and Conditions for Using an Episteme"
   - "C.2.6:16 — Publishing the Required Account"
-line_start: 56503
-line_end: 56513
+line_start: 56512
+line_end: 56522
 dependencies:
   - "A.10"
   - "A.16"

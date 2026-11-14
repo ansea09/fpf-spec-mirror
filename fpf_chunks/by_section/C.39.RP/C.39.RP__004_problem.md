@@ -6,12 +6,12 @@ section_id: "C.39.RP:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.RP/C.39.RP__004_problem.md"
-commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
+commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
 heading_path:
   - "C.39.RP — Organize a Repertoire for Method Development"
   - "C.39.RP:2 — Problem"
-line_start: 88337
-line_end: 88342
+line_start: 88376
+line_end: 88381
 dependencies:
   - "A.3.1.DR"
   - "A.3.1.MR"

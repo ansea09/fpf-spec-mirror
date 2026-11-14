@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.5.SD.md"
-commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
+commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
 heading_path:
   - "B.5.SD — Construct an Answer through Substantive Discussion"
-line_start: 52840
-line_end: 53043
+line_start: 52849
+line_end: 53052
 dependencies:
   - "A.3.1"
   - "B.5.RA"
@@ -195,7 +195,7 @@ The practice question is how a discussion produces a usable substantive result. 
 
 **Adopt** the distinction from the IAF [Core Competencies, revised 2021](https://iaf-world.org/wp-content/uploads/2025/09/Revised-IAF-Core-Competencies-December-6-2021.pdf): facilitation includes helping a group obtain useful outcomes, inquire into underlying issues and select suitable methods, while respecting professional boundaries. **Adapt** the contribution in sections 4.2–4.6 by making the subject inference, receiver and consequential variation explicit.
 
-The practitioner essay [“Об фасилитаторов,” 2020](https://ailev.livejournal.com/1520610.html) provides a critical case of orderly communication substituting for connected thought. **Adopt** its distinction between constructing a connected model and checking whether important concerns have been considered and related. **Adapt** that distinction in 4.3. Assess subject competence independently of the professional title, and examine the construction's reasoning rather than relying on checklist completion. A competent facilitator can also perform subject integration. The essay is conceptual criticism, not comparative effectiveness evidence.
+The practitioner essay [the author’s essay on facilitators (2020)](https://ailev.livejournal.com/1520610.html) provides a critical case of orderly communication substituting for connected thought. **Adopt** its distinction between constructing a connected model and checking whether important concerns have been considered and related. **Adapt** that distinction in 4.3. Assess subject competence independently of the professional title, and examine the construction's reasoning rather than relying on checklist completion. A competent facilitator can also perform subject integration. The essay is conceptual criticism, not comparative effectiveness evidence.
 
 Against a meeting that already produces the required answer, no additional procedure is selected. Against a missing relation, the additional subject work is justified by the receiving use; its cost is made explicit. Reopen if the answer is adequate, if an unexamined condition defeats the result, or if another construction supplies the same warrant with less burden.
 

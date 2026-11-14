@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.M.md"
-commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
+commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
 heading_path:
   - "A.6.M — Module and Interface Claim Repair"
-line_start: 23761
-line_end: 24171
+line_start: 23769
+line_end: 24179
 dependencies:
   - "A.10"
   - "A.20"

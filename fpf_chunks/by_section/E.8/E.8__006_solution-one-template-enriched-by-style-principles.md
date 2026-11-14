@@ -6,12 +6,12 @@ section_id: "E.8:4"
 section_title: "Solution — One template, enriched by style principles"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__006_solution-one-template-enriched-by-style-principles.md"
-commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
+commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:4 — Solution — One template, enriched by style principles"
-line_start: 102271
-line_end: 102997
+line_start: 102310
+line_end: 103040
 dependencies:
   - "E.10"
   - "E.10.MOVE"
@@ -585,6 +585,10 @@ The raw/result prototype, the source-qualified comparison and the reduced single
 Determine the content owed to the reader from the subject, declared scope and receiving work. Include the relations, grounds, alternatives and conditions needed for that work; do not let the circumstances of a convenient example decide which of them to explain. This is a priority in deciding adequacy, not a compulsory order of discovery or presentation.
 
 A case, sketch or attempted calculation can reveal a missing relation before the general account is finished. Carry that discovery back into the account and distinguish a reusable condition from an incidental feature of the case.
+
+When the reader is learning to model a domain, say what the reader must do with the domain's own types. For a transdisciplinary principle, explain which distinction applies to those types, how to recognize the relation and what inference it warrants. For a domain principle, supply the field's own rule and its conditions. If the intended result is a way of working, explain how to select or construct the next operation, what it produces, and which dependent choices to revisit when its grounds change. A single publication may teach all of these. On unfamiliar material, ask the reader to select, relate or revise the local types and use them to reach a result in the recipient's terms. A worked case makes that reasoning inspectable. C.39.WA:4.3 distinguishes the relations used in such inferences.
+
+When an author uses a case to test an independent choice, identify the choice the prompt leaves open, the sources and help available at that point, and what the learner actually supplied. A problem statement in a brief can support a test of evaluating that formulation. To test formulating the problem, use work in which the learner still had to frame it. An earlier working record can supply that evidence. E.23.CDI:4.2.1 guides the separate decision about how a holder can acquire and demonstrate a capability under its working conditions.
 
 **Keep the explained subject and its example distinguishable.** When teaching a Method, identify the reusable way, the actual or stipulated performance that illustrates it, and the material on which that performance works. Show which choice or action in the example enacts which operation and why its result is usable next.
 

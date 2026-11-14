@@ -6,12 +6,12 @@ section_id: "E.10:8"
 section_title: "Morphology and Lexical Form (LEX.Morph)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__010_morphology-and-lexical-form-lex-morph.md"
-commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
+commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:8 — Morphology and Lexical Form (LEX.Morph)"
-line_start: 105626
-line_end: 105887
+line_start: 105669
+line_end: 105930
 dependencies:
   - "A.10"
   - "A.15"
@@ -257,9 +257,9 @@ canonical FPF pattern while remaining lexical-query support only.
 
 #### E.10:8.6 - Compatibility with USM (acts and tokens)
 
-**LEX applies to tokens; USM applies to acts.** Mint, rename, and use are **LexicalActs** that carry a USM scope (e.g., ClaimScope, WorkScope). LEX constrains **where** a token form may appear via **AllowedScopes** policies:
+**Token class and use.** Determine the class of the token, the setting of its use and the applicable `AllowedScopes` policy. A claim made by a LexicalAct has its own claim scope. A capability to perform the Work can have a work scope.
 
-`LEX.TokenClass(t)=c  ⇒  USM.Scope(usage) ∈ AllowedScopes(c)`.
+For an individual use, test the slice for that use. For a standing permission, check coverage as set out in §7.5.
 
 Example: use of a `KernelToken` in a locally scoped constraint is admitted only under the exact scheme and allowed-scope rule; an alias adds no Bridge. Keep logged performance assertions separate from the MethodDescription's method-side claims, even when one file presents both.
 
@@ -272,7 +272,7 @@ Example: use of a `KernelToken` in a locally scoped constraint is admitted only 
 * **SCR‑MOR‑S05 (Collision).** Full‑text + Reserved‑Names checks pass (no other sense of the token elsewhere).
 * **SCR‑MOR‑S06 (Object‑of‑talk).** Heads pass M‑2; no bare metaphors as heads.
 * **RSCR-MOR-E01 (DevOps firewall).** Tool and file suffixes stay in local glossaries or operational configurations; none leak into KernelToken names.
-* **RSCR‑MOR‑E02 (USM compliance).** For each LexicalAct, verify `USM.Scope ∈ AllowedScopes(LEX.TokenClass)` (see § 7.5).
+* **RSCR‑MOR‑E02 (USM compliance).** Apply §7.5 to the proposed use in its register and setting.
 
 #### E.10:8.8 - Autonomy lexicon (L‑AUTO )
 **Recovery cues in FPF-governed autonomy claims:** unresolved “validity”, “actor” or “agent”, “kill switch”, “process” for behavior, and “envelope” used **as scope**. Apply the relevant recovery only when the claim is unclear; ordinary and already precise uses remain available.

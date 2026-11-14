@@ -6,12 +6,12 @@ section_id: "B.5.QD.CF:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.QD.CF/B.5.QD.CF__011_architectural-rationale.md"
-commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
+commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
 heading_path:
   - "B.5.QD.CF — Reformulate a Problem by Examining Its Conflicting Assumptions"
   - "B.5.QD.CF:10 — Architectural Rationale"
-line_start: 51543
-line_end: 51550
+line_start: 51552
+line_end: 51559
 dependencies:
   - "B.1.5.EW"
   - "B.5.FM"

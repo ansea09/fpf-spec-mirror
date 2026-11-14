@@ -6,12 +6,12 @@ section_id: "A.10.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10.1/A.10.1__001_intro.md"
-commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
+commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
 heading_path:
   - "A.10.1 — Revalidate Affected Uses When a Relied-on Source Changes"
   - "A.10.1:intro — Intro"
-line_start: 28098
-line_end: 28107
+line_start: 28106
+line_end: 28115
 dependencies:
   - "A.10"
   - "A.10.1"
@@ -32,5 +32,5 @@ keywords:
 
 **Normativity.** Normative unless a passage is marked informative.
 
-> **One-sentence summary.** When a relied-on source claim changes and its receiving uses are not yet fully known, bound where uses count, search from both source and receiver sides, confirm actual dependence, and apply direct subject guidance only across action-changing reach; finish with the useful direct result and its material limits, adding a common account only for a receiving use that needs it.
+> **One-sentence summary.** When a relied-on claim changes, identify which uses count for the question, look for any that still need to be found, and follow direct uses as far as the change could alter what a receiver can conclude or do. Return each subject result with its limits.
 

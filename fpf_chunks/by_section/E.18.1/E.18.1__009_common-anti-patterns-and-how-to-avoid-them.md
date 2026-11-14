@@ -6,12 +6,12 @@ section_id: "E.18.1:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
+commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
 heading_path:
   - "E.18.1 — P2W Problem-to-Work Carry-Through"
   - "E.18.1:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 118312
-line_end: 118327
+line_start: 118354
+line_end: 118369
 dependencies:
   - "A.15"
   - "A.15.PROD"
@@ -65,6 +65,6 @@ keywords:
 | **Plan, path, or proximity as actual change.** A desired state, model, method, plan, flow arrow, adjacent work occurrence, or common affected referent is treated as an actual or composite transformation. | Apply `A.3.4` to the change and the direct work-to-change or `A.15.PROD` pattern to its separate claim. Carry only the results or blockers they return; shared timing or proximity opens no composition or production claim. |
 | **Intended realization as MethodDescription.** A selected continuation, recommendation, plan seed, imperative sentence or pattern ref is said to describe the Method it may realize. | First identify one C.2.1 episteme and one admitted `U.Method`; apply A.3.2 only when that Method is the episteme's EntityOfConcern and the ClaimContent contains a substantive way-of-doing claim. |
 | **One giant transformation flow.** Independently selected development, production, use or evaluation flows are flattened because a diagram or common product connects them. | Keep same-TFS valuations and internal `SubflowRef` cases in E.18; select E.18.NET only from independently identified members and cross-boundary occurrences. |
-| **Displayed mantra as execution.** The five-row display, repeated formula or word *move* is treated as a method, plan or performed step. | Keep the formula as Plain recall wording for one decision, the table as display content, and apply the pattern for each current action or object. |
+| **Treating a reminder as evidence of execution.** A practitioner infers a plan or performed step from the repeated words or the five-row display. | Use the mantra to recall the decision and the table to locate a possible continuation. Apply the governing pattern to establish which action was planned or performed. |
 | **Interface shortcut.** Interface, port, protocol, connection, resource, or integration wording selects function, method, work, evidence, gate, or architecture by itself. | Recover the module-interface, signature-slot, function, architecture, work, evidence, or gate relation before continuing. |
 

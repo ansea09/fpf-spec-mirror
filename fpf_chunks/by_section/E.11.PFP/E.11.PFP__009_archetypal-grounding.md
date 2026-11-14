@@ -6,12 +6,12 @@ section_id: "E.11.PFP:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PFP/E.11.PFP__009_archetypal-grounding.md"
-commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
+commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
 heading_path:
   - "E.11.PFP — Framework Publication Form Profile for Markdown"
   - "E.11.PFP:5 — Archetypal Grounding"
-line_start: 110755
-line_end: 110776
+line_start: 110797
+line_end: 110818
 dependencies:
   - "A.3.2"
   - "C.29"
@@ -50,7 +50,7 @@ keywords:
 
 **Inquiry and direct use.** Four pump inspections show three repeated orders and one reversal after a vibration cue. The public entry returns directly to `A.3.1.MR`, which recovers candidate Methods from Work evidence. Its worked case compares a fixed order with an exception against a cue-responsive order. In a fifth inspection, observe whether the technician changes order when the vibration cue is present. That observation can distinguish the accounts; until then, both remain candidates. The reader has a next investigative action while the larger inquiry remains open.
 
-**Shared profile.** A Russian-language profile supports both a guide and a slidement. It inherits `F.19` for recovering a sentence's claim, participants, and useful action, and adds Russian agreement checks. For example, change «Группа проверяют результат» to «Группа проверяет результат» (“The group checks the result”): the named collective remains the performer, while the verb agrees with the singular grammatical subject. Read the repaired sentence under F.19; reuse that matching result when the unchanged sentence appears in both formats. The guide and slidement retain their own format and use conditions. The profile's public account explains this shared contribution and language-specific delta once, with returns from both uses.
+**Shared profile.** A Russian-language profile supports both a guide and a slidement. It inherits `F.19` for recovering a sentence's claim, participants, and useful action, and adds Russian agreement checks. For example, English “the team are checking the result” can take plural agreement in British usage. Russian «группа проверяет результат» takes singular agreement when «группа» is the subject here. The named team performs the work in both versions. The translator can correct the verb without changing who acts. Read the repaired sentence under F.19; reuse that matching result when the unchanged sentence appears in both formats. The guide and slidement retain their own format and use conditions. The profile's public account explains this shared contribution and language-specific delta once, with returns from both uses.
 
 **Near miss.** A relation table has rows whose first cells are PatternIDs and titles, followed by relation and source-return columns. It remains a relation table. A checker that calls it another pattern index from those cell values is guessing semantics from data shape and fails this profile.
 

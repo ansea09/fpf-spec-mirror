@@ -6,12 +6,12 @@ section_id: "A.6.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.1/A.6.1__005_solution.md"
-commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
+commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
 heading_path:
   - "A.6.1 — U.Mechanism - Reusable Law-Governed Operation Declaration"
   - "A.6.1:4 — Solution"
-line_start: 17431
-line_end: 17724
+line_start: 17439
+line_end: 17732
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -159,7 +159,7 @@ A stable designator can refer to a mechanism episteme; file path, publication st
 Meaning and applicability answer different questions:
 
 - the effective `ReferenceScheme` determines how the declaration content is interpreted;
-- `U.ClaimScope` identifies the entities and relations to which the current use claim applies;
+- `U.ClaimScope` specifies the conditions under which the use claim applies. Identify the entities and relations the claim concerns separately. To use the claim in one case, test its `U.ContextSlice` for membership in that scope.
 - the applicability interval states when that use is claimed;
 - the selected `CHR:ReferencePlane` states the world, conceptual, or epistemic referent mode when that distinction is current;
 - mechanism-specific conditions state assumptions that affect operation admission;
@@ -251,7 +251,7 @@ The relation has these positions when typed reuse needs them:
 |---|---|---|
 | declared mechanism | `U.Mechanism` | The declaration whose operations and laws are current. |
 | realizing entity | `U.Entity` or a narrower direct kind | The entity claimed to realize the declaration; its direct kind remains unchanged. |
-| realization scope | `U.ClaimScope` | The entities and relations for which the realization claim is made. |
+| realization scope | `U.ClaimScope` | Set of context slices for which the claim that this entity realizes this mechanism is made. |
 | derived realization extent | temporal interval | The maximal continuous interval over which the realization predicate obtains; this is an identity contribution, not a writable participant. |
 
 The realization predicate obtains when the realizing entity provides the declared operations and preserves the declared laws for admitted uses in the stated scope and interval.

@@ -6,12 +6,12 @@ section_id: "A.10.1:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10.1/A.10.1__003_problem.md"
-commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
+commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
 heading_path:
   - "A.10.1 — Revalidate Affected Uses When a Relied-on Source Changes"
   - "A.10.1:2 — Problem"
-line_start: 28137
-line_end: 28150
+line_start: 28145
+line_end: 28158
 dependencies:
   - "A.10"
   - "A.10.1"
@@ -33,7 +33,7 @@ The cheapest apparent boundaries are therefore unreliable:
 1. a file or edition label says too little about changed meaning;
 2. a citation, mention, link, carrier, adjacency, or graph path says too little about actual reliance;
 3. a repository search says too little about surfaces it could not inspect;
-4. transitive reach says too much when no downstream action can change; and
+4. stopping at the last changed action can miss a conclusion that needs revision, while following every link can reach results that never used the changed claim, and
 5. a local revalidation summary says too little about the subject result that justified it.
 
 Without a bounded search frame, “no affected use found” can silently mean “we searched one convenient repository.” Without application of direct subject guidance and an independently obtained subject result, “preserved” or “reopened” becomes an ungoverned universal status. The method must make both errors visible without turning every source change into a corpus-wide programme.

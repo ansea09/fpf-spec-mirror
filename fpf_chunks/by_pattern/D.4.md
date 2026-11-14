@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/D.4.md"
-commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
+commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
 heading_path:
   - "D.4 — Ethical Mediation and Decision Use"
-line_start: 96561
-line_end: 96769
+line_start: 96600
+line_end: 96808
 dependencies:
   - "A.1.CSD"
   - "A.10"

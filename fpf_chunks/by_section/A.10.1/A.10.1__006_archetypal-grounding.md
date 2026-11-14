@@ -6,12 +6,12 @@ section_id: "A.10.1:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10.1/A.10.1__006_archetypal-grounding.md"
-commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
+commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
 heading_path:
   - "A.10.1 — Revalidate Affected Uses When a Relied-on Source Changes"
   - "A.10.1:5 — Archetypal Grounding"
-line_start: 28307
-line_end: 28355
+line_start: 28315
+line_end: 28364
 dependencies:
   - "A.10"
   - "A.10.1"
@@ -38,7 +38,7 @@ The source-outward route follows exact E2 references and established traces. The
 
 - the thermal-model parameter bound `depends`;
 - the cold-start test condition `depends`;
-- the safety claim's use of evidence produced under that condition `depends`, and its action-changing reach continues to the service-release premise; and
+- the safety claim's use of evidence produced under that condition `depends`, and the service-release decision relies on that safety claim; and
 - the interface description's bibliography entry `mentions only`.
 
 The affected reach stops at the last service-release action that can change. The practitioner applies `SYSE.19` to the discovery-and-reach statement. The independently governed engineering revalidation result records tests using the new calibration Method at `-15 °C` for units `S006`–`S008`, supporting that release condition, and leaves `S009`–`S010` without the needed calibration evidence. That result goes directly to `SYSE.14`, where the authorized release decision remains.
@@ -69,6 +69,7 @@ The practitioner applies `STR.2` to the discovery-and-reach statement. That appl
 | --- | --- | --- |
 | The same source episteme appears at a new URL with a new layout. | Compatible claims, applicability and access; repair the reference and finish without multi-use discovery or another result record. | `C.2.1`, `E.17`, `E.24.PUB`, and `A.10` when availability affects one bounded use. |
 | A bibliography or catalogue mentions the changed source but uses none of its claims. | `mentions only`; no affected reach. Group equivalent mentions and retain a short reason only when the existing result's receiver needs it. | No subject revalidation follows from mention alone. |
+| A revised service study widens its estimate of weekly demand from 40–60 hours to 35–65. A maintained report gives the estimate for current planning, and a planning brief uses that range. | Reassess the current range in both documents. The staffing rule adds capacity whenever even the lower estimate exceeds 30 hours. Both ranges meet it. | Update the report and brief for current planning. Preserve the earlier report edition with its original basis. Retain the staffing decision on its revised basis. |
 | Candidate content appears to use the claim, but the premise or applicability cannot be recovered. | `unresolved` with the missing fact. | Return the gap now. Obtain the missing basis only when a needed stronger conclusion warrants that contribution. |
 | An included repository is inaccessible or its index is stale. | Record a discovery-coverage gap; finish independent resolved branches. | Do not call possible uses in that surface unaffected. |
 | The source is unchanged but the represented world changed. | Outside this pattern's selected branch. | Use the direct configuration, currentness, change, or decision pattern. |

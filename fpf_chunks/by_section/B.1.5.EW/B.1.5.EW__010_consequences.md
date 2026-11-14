@@ -6,12 +6,12 @@ section_id: "B.1.5.EW:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5.EW/B.1.5.EW__010_consequences.md"
-commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
+commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
 heading_path:
   - "B.1.5.EW — Recover How Constituent Actions Enact Encompassing Work"
   - "B.1.5.EW:9 — Consequences"
-line_start: 44409
-line_end: 44414
+line_start: 44418
+line_end: 44423
 dependencies:
   - "A.15.1"
   - "A.22.CGUS"

@@ -6,12 +6,12 @@ section_id: "A.22:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__003_problem.md"
-commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
+commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
 heading_path:
   - "A.22 — Structure and Structural Views"
   - "A.22:2 — Problem"
-line_start: 41743
-line_end: 41762
+line_start: 41752
+line_end: 41771
 dependencies:
   - "A.1"
   - "A.1.1"

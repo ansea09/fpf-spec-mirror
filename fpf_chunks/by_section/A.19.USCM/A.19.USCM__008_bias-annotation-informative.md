@@ -6,12 +6,12 @@ section_id: "A.19.USCM:6"
 section_title: "Bias-Annotation — informative"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.USCM/A.19.USCM__008_bias-annotation-informative.md"
-commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
+commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
 heading_path:
   - "A.19.USCM — Scoring Mechanism"
   - "A.19.USCM:6 — Bias-Annotation — informative"
-line_start: 39898
-line_end: 39909
+line_start: 39907
+line_end: 39918
 dependencies:
 keywords:
   - "CG-Spec.MinimalEvidence"

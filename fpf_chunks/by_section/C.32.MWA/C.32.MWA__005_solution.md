@@ -6,12 +6,12 @@ section_id: "C.32.MWA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA/C.32.MWA__005_solution.md"
-commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
+commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
 heading_path:
   - "C.32.MWA — Synthesize an Architecture Account of Methods and Their Use"
   - "C.32.MWA:4 — Solution"
-line_start: 82581
-line_end: 82633
+line_start: 82592
+line_end: 82650
 dependencies:
   - "A.13"
   - "A.15.1"
@@ -37,7 +37,13 @@ keywords:
 
 ### C.32.MWA:4 - Solution
 
-Build one readable synthesis from the relations supported by the current case. Keep the following eight actions in order as an attention aid, not as a claim that the activity being studied is one eight-stage process.
+For an architecture decision, examine how methods, performers and means of provision fit together. The eight actions in §4.1 help organize that inquiry. The mantra below can also be used on its own to locate one missing contribution in familiar arrangements.
+
+**A mantra for following a method from a need to its use.** *What work is needed, and what is missing? Is there a way to do it? If several ways are available, how do we choose? Where can we find or develop a missing way? How will the way reach whoever needs it? What must the performer learn, what can the performer discover through inquiry or practice, and what help will be available? Which method fits this case, and what must be set or changed? Are the means and authority in place? Who did what? What did the work produce, what reached the recipient, how was it used, and what effect was observed?*
+
+Use as much of the mantra as the job requires. If a cook already knows the recipe and has been denied access to the kitchen, the immediate task is to obtain entry from the agent authorized to grant it or find another available kitchen. Check readiness when the decision is whether the whole job can start. Develop an architecture account when the arrangement itself needs examination, for instance when changing who provides a step also changes who can learn or perform it. A methodologist can reconstruct a way of working from observations and examine the grounds for its applicability. A practitioner can find the same way in a discipline's literature, learn it from a demonstration or commission the work. Discovery by this practitioner establishes novelty for that practitioner. A claim of novelty for a discipline needs comparison with what its practice and sources already supply.
+
+A discipline can describe one reusable method. If the decision calls for comparing several, recover what makes each one applicable. Call them a family when the grouping matters and its basis can be stated. A family catalogue may compare many methods. A.3.2 identifies a MethodDescription by the one Method it describes and what it says about doing it. To put a way into use, identify the method that fits the present requirements and the settings its applicability permits (A.3.1:4.7–4.8). Develop the missing way through C.39 if none fits. A description or demonstration may give the performer what is needed to try it. E.23.CDI:4.2.1 addresses acquiring the capability or obtaining continuing support. A.15.5 tests readiness for the particular job, and A.15.1 identifies its actual performance. Establish what the work produced, whether it reached the recipient, what the recipient did with it and what changed. A catalogue may exist before anyone receives it. A.6.P.WMR helps recover the particular relation when “result” leaves it open. If an accepted problem formulation is the starting point, E.18.1 carries its relevant claim to the particular decision that needs it. In teaching, follow the dependencies aloud. In practice, begin with the gap that matters. An observed failure can take the practitioner back to the choice of a method, the help required or an unmet condition of the job.
 
 #### C.32.MWA:4.1 - Eight actions
 

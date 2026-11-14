@@ -6,12 +6,12 @@ section_id: "C.39:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39/C.39__005_solution.md"
-commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
+commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
 heading_path:
   - "C.39 — Find and Develop a Way to Obtain a Result"
   - "C.39:4 — Solution"
-line_start: 86730
-line_end: 86860
+line_start: 86751
+line_end: 86881
 dependencies:
   - "A.22.CGUS"
   - "A.3.1"
@@ -45,7 +45,7 @@ Look first for an applicable Method or an available result that supplies this co
 
 Keep this receiving use as the basis of sufficiency while selecting a smaller operation, asking another contributor, or revising an example. The local question says which contribution is wanted; it does not silently replace what that contribution must make possible. A legitimate change of purpose changes this basis explicitly. Before concluding from the returned contribution, follow it into the receiving continuation: what can now be done, and does an indispensable transformation, distinction, coordination or ground still have to be invented? This is a way to discover the missing question, not only a check after someone has already named a defect.
 
-Retain an adequate supplied contribution. If a needed connection is absent, construct it through sections 4.2–4.3; if the way exists but its explanation or access is missing, repair that description or access. If the receiving action instead needs unavailable capability, means or authority, obtain that support or return the usable result with the dependent action still open. A list of unmeasured effects does not select among these cases. C.11.DUA selects further inquiry when its attainable answer can justify changing the use or decision.
+Retain an adequate supplied contribution. When a connection is missing from the way itself, construct it through sections 4.2–4.3. If an adequate method is already known, recover the description or access that the receiving performer needs. For a job, obtaining an agreed product from a supplier can suffice. When a particular holder must gain the ability to do the work, identify the missing contribution and how the holder will use it under working conditions (E.23.CDI:4.2.1). When access, equipment or permission is known to be missing, obtain it from the responsible provider or choose a workable alternative. A.15.5 tests the full kit when the decision is whether this job can start. When several such contributions must fit together, the mantra in C.32.MWA:4 connects finding or developing a way to work with making it available, preparing the job and checking its actual use. Use C.40.JD if the method, the performer and their working conditions need coordinated development. C.11.DUA selects further inquiry when its attainable answer can justify changing the decision.
 
 #### C.39:4.2 - Follow a neighboring practice to the missing connection
 

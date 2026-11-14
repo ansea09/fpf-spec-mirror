@@ -6,12 +6,12 @@ section_id: "E.11.DSG:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.DSG/E.11.DSG__002_problem-frame.md"
-commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
+commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
 heading_path:
   - "E.11.DSG — Architectural Reference"
   - "E.11.DSG:1 — Problem frame"
-line_start: 110884
-line_end: 110905
+line_start: 110926
+line_end: 110947
 dependencies:
   - "C.2.1"
   - "C.2.P"

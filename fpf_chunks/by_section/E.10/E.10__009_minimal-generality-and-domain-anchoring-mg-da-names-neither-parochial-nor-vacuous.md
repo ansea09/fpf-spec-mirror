@@ -6,12 +6,12 @@ section_id: "E.10:7"
 section_title: "Minimal Generality and Domain Anchoring (MG-DA) — names neither parochial nor vacuous"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__009_minimal-generality-and-domain-anchoring-mg-da-names-neither-parochial-nor-vacuous.md"
-commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
+commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:7 — Minimal Generality and Domain Anchoring (MG-DA) — names neither parochial nor vacuous"
-line_start: 105500
-line_end: 105625
+line_start: 105543
+line_end: 105668
 dependencies:
   - "A.10"
   - "A.15"
@@ -111,8 +111,8 @@ It is **not** a USM scope and carries **no** truth or validity semantics.
 **MG-DA-T7 (EntityOfConcern ground).** The definition card states the EntityOfConcern-side kind criterion for membership; reviewers can check membership without consulting external narrative.
 
 #### E.10:7.5 - Compatibility with USM (how tokens and scopes meet)
-**USM applies to acts, not tokens.** Mint, rename, and use are **LexicalActs** that carry a USM scope. `LEX.TokenClass` constrains **where** a token may be used via an **AllowedScopes** policy:
-**Conformance rule.** For any usage `u` of a token `t`: `LEX.TokenClass(t)=c  ⇒  USM.Scope(u) ∈ AllowedScopes(c).`
+To check a mint, rename or use of a token, identify its class and the conditions of this particular LexicalAct, including the register and publication setting required by the policy. `AllowedScopes(c)` supplies the policy for token class `c`.
+For one use, test whether its `U.ContextSlice` belongs to a scope admitted by that policy under A.2.6. To authorize use throughout a proposed scope, show that the policy covers every proposed slice. For a policy that explicitly requires registration of the exact scope, also check the corresponding registry entry. An unresolved test supplies no permission to use the token.
 
 The LEX registry defines `AllowedScopes(c)` (for example, `KernelToken` use in normative kernel constraints is admitted; Plain-register use outside a glossary is restricted; a locally scoped use under another scheme requires its own valid designation rule and does not gain a Bridge by alias alone).
 
@@ -172,7 +172,7 @@ Do **not** mint *ETLService* at kernel level. Recover the ETL claim first: the w
 
 **SCR‑LEX‑S04 (Enumeration rule gate).** Every enumeration names its closed value set, classified kind, and classification rule. Require a `CharacteristicSpace` only when one named `U.Characteristic` is bound to one declared CSLC scale; otherwise retain the local classifier, state/status value set, source wording or representation under its direct pattern, example or alternative set, local kind, or another construction defined for that classification.
 
-**SCR‑LEX‑S05 (USM compatibility).** For each LexicalAct, `USM.Scope ∈ AllowedScopes(LEX.TokenClass)`.
+**SCR‑LEX‑S05 (USM compatibility).** For each LexicalAct, apply the allowed-use test in §7.5 to the token class and the proposed use.
 
 **SCR‑LEX‑S06 (Slot and Ref suffix discipline).** A token ending in **`…Slot`** names the declaration-local **SlotKind** inside one exact A.6.5 `SlotSpec` of one reusable `RelationSignature`. A token ending in **`…Ref`** names either a RefKind admitted by its direct reference pattern or a receiving-episteme field explicitly typed by that RefKind; the field remains designation or reference apparatus and does not become the participant or SlotSpec. No ValueKind or representation field may acquire either suffix by shape alone.
 

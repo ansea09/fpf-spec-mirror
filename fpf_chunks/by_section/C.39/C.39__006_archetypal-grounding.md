@@ -6,12 +6,12 @@ section_id: "C.39:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39/C.39__006_archetypal-grounding.md"
-commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
+commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
 heading_path:
   - "C.39 — Find and Develop a Way to Obtain a Result"
   - "C.39:5 — Archetypal Grounding"
-line_start: 86861
-line_end: 86933
+line_start: 86882
+line_end: 86954
 dependencies:
   - "A.22.CGUS"
   - "A.3.1"
@@ -85,7 +85,7 @@ The practitioner has obtained a conditional preparation, explicit joins to two r
 
 #### C.39:5.4 - Obtain a usable way from a source discussion
 
-**Start with the receiving work.** An author receives a discussion about taking the consequences of reasoning seriously in action. The needed result is an explainable way to examine a proposal and decide how to continue. The author starts with what the discussion makes possible, then follows the proposed action to its requirements. This example adapts the first section of A. Levenchuk's historical discussion *Method Council, 19 October 2022* («Методсовет ШСМ 19 октября 2022»), keeping its constructive proposal and the added receiving conditions distinguishable.
+**Start with the receiving work.** An author receives a discussion about taking the consequences of reasoning seriously in action. The needed result is an explainable way to examine a proposal and decide how to continue. The author starts with what the discussion makes possible, then follows the proposed action to its requirements. This example adapts the first section of A. Levenchuk's historical discussion *Method Council, 19 October 2022*, keeping its constructive proposal and the added receiving conditions distinguishable.
 
 **Recover the positive construction.** The source describes a person proposing an unusual action, exposing it to reasoned objections, answering an objection or changing the proposal, and then acting when no further objection is found in the discussion. It also distinguishes deciding what is to be learned from designing how to teach it. Merely extracting the words “logic”, “criticism” and “action” would lose the revisable proposal and the connection to a next move. Treating the anecdotes as proof of a universally successful method would add support they do not supply.
 

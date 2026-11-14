@@ -6,12 +6,12 @@ section_id: "C.39.WA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.WA/C.39.WA__005_solution.md"
-commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
+commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
 heading_path:
   - "C.39.WA — Develop an Account of the Whole Subject"
   - "C.39.WA:4 — Solution"
-line_start: 87263
-line_end: 87369
+line_start: 87284
+line_end: 87408
 dependencies:
   - "C.20"
   - "C.39.QR"
@@ -56,7 +56,17 @@ A useful general explanation supplies reasons for choices. It lets the reader sa
 
 #### C.39.WA:4.3 - Identify the relation used in each consequential transition
 
-Identify the subjects on both sides of a transition and the relation that permits the next claim. Use the following distinctions where they change the explanation or its appraisal.
+**A mantra for reasoning with models and methods.** *What must we establish or do, and about what? If the kind matters, which one, and what tells us that an object belongs to it? What relates which objects, and how? From which observations or premises, by which rule, can we draw what conclusion, for which cases? By what method can we produce what is needed or bring about or maintain the required condition? What must one operation supply to another? If a premise changes, what must we reconsider?*
+
+For teaching, unfold these questions from the intended use. Supply the field's terms for the types and relations, and its operations for obtaining a result. Work through why the answers depend on one another. In practice, enter through what is available. A local record can lead back to the rule that gives it meaning. If that rule itself needs examination, make it the new subject and apply the questions to it. Later evidence about the same subject can reopen just the conclusions and actions that depended on the earlier evidence.
+
+Give each answer in the terms of the work. A field supplies criteria for recognizing instances of its kinds. To decide whether two records refer to the same instrument, use the instrument's identification conditions. Two instruments can satisfy the same kind criterion. A kind, a discipline and an individual instrument can each be what a claim is about. Name which one you mean. If a model loses a difference that the judgement depends on, amend the model or limit the judgement.
+
+State the claim the evidence supports. In classification, apply the kind's criterion to the candidate. In a calculation, give the premises and the rule that yields the conclusion. To infer something about an operating system from a model, establish which correspondence and conditions permit the inference. Say which cases the claim covers. A.2.6 tests coverage when a proposed use requires membership in a declared claim scope. A Method has its own conditions of applicability. A contract can specify commissioned work, deliverables and acceptance conditions. Use the meaning of *scope* that the particular statement requires.
+
+For an action, name the reusable way and what it must obtain or preserve under those conditions. Distinguish the conclusion reached, the report carrying it, its delivery, and any later change in the recipient's work. The report can be both the output of one operation and evidence used by another. State each relation with its own verb. A.6.P.WMR recovers the participants when calling something a “result” leaves its role unclear. If the goal is a change in the world, identify how to establish whether the change occurred.
+
+For a move from one claim or subject to another, name the relation on which the inference relies, the kinds of its participants, what fills each relevant role here, and the direction of the inference. A multi-party relation can require more than two participants. If a boundary matters, identify what crosses it, between which places or organizations, and in which direction. Translating a record can leave the instrument it describes in the same laboratory. Use A.6.5 when declaring positions in a reusable relation signature. The following relations support different moves.
 
 | Transition | What must be recovered |
 | --- | --- |
@@ -72,6 +82,14 @@ Identify the subjects on both sides of a transition and the relation that permit
 A relation identifies how its participants are connected. A returned claim also needs an applicable inference rule. Separately, the resulting work must be compared with the original account question; C.39.QR:4.2–4.4 develops these two judgements.
 
 These relations can coexist. A reusable calculation can be a constituent of one Method and supply a result to another. A discipline can contain other disciplines and use results from fields that are not its constituents. A representation can preserve some structure, omit some and introduce useful constructed objects. Explain the relevant correspondence before returning a conclusion to the represented subject.
+
+**Give a modeling level a point of reference.** Name what the claim concerns, the cases it covers and the use of the answer. “The laboratory's rule for releasing an instrument” identifies a starting point. If you need to reason from a particular record to the rule it cites, identify that record, the rule and the citation. A release record can direct you to the local rule under which a decision was made. Check the applicable edition and the issuing authority. To examine that rule in turn, compare it with the discipline's conditions for a valid verdict. To establish what actually happened, return to the identified instrument, configuration and observations. Carry forward only the conclusions for which that return supplies grounds.
+
+A transdisciplinary distinction can guide reasoning within one discipline. Interdisciplinary work brings contributions from different disciplines into a common result. Ask which distinction guides the choice of types, or which contributions must be connected. Both questions can matter in one undertaking.
+
+Locate the reasoning in terms the recipient uses. Identify the discipline that supplies the types, the local practice whose rule is being examined, or the occurrence to which a claim refers. A discipline can itself be the subject of a claim about its methods. To examine a field's type, ask what kind of distinction it makes and check it against the proposed higher-order criterion. In the other direction, propose a field type or relation, test its meaning against disciplinary practice and identify individual occurrences when the inquiry needs them. C.20 gives a test for the discipline as a whole. C.2.1 identifies the episteme stating a model or claim about the subject. A change of subject, a reclassification and a move to a constituent each license a different inference.
+
+When the subject is a way of working, follow the **result and the operation** as well as the types. Start from the promised result, on what object and under which conditions. An agreed field procedure may supply the general operation with a domain-specific test, instruments or admissible evidence. Establish whether you have selected a setting within the same Method or changed the way and its applicability. One operation can use another's result through an external service. To claim a constituent Method, establish which reusable operations and connections make up the whole, how they jointly obtain its result and which replacements preserve it. Two comparable Methods can also be alternatives, each sufficient for the same use. A performed check on Tuesday establishes an occurrence under its own conditions. A.3.1:4.8 and B.1.5 give the grounds for these comparisons.
 
 Grounding connects a case with an explained construction. Identify that construction and make its relevant objects, relations, operations and grounds available to the reader. Show which consequential moves in the case instantiate which operations, why the conditions select them, and what a change would reopen. In an account of a Method, distinguish the explained Method, its displayed performance and the subject worked on during that performance. For example, when explaining how to design an explanation, a calculation can be the material; selecting a contrast and revising the explanation are performances of the explained Method. E.8:4.2.1.1–1.3 and EXD.2 develop this correspondence for authoring explanations.
 

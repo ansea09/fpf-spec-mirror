@@ -6,12 +6,12 @@ section_id: "A.19.USCM:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.USCM/A.19.USCM__013_sota-echoing.md"
-commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
+commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
 heading_path:
   - "A.19.USCM — Scoring Mechanism"
   - "A.19.USCM:11 — SoTA-Echoing"
-line_start: 39977
-line_end: 39998
+line_start: 39986
+line_end: 40007
 dependencies:
 keywords:
   - "CG-Spec.MinimalEvidence"

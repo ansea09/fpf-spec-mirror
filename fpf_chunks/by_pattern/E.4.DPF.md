@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.4.DPF.md"
-commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
+commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
 heading_path:
   - "E.4.DPF — Domain and Local Principle Frameworks: Whether and How to Author and Publish"
-line_start: 99440
-line_end: 100282
+line_start: 99479
+line_end: 100321
 dependencies:
   - "A.1.1"
   - "A.13"
@@ -76,7 +76,7 @@ Domain and local framework authors often have strong source material and urgent 
 
 A working framework needs more than a good table of contents. It needs source-grounded pattern selection, architecture decisions, direct assertions of material relations, names, worked cases, quality evaluation, and refresh conditions. Include the relation or edition records a current maintenance use requires, for example for dependency, compatibility, migration, deprecation or supersession.
 
-A DPF gives an intended practitioner or assisting agent a source-grounded pattern language for recognizing typical problem situations in the domain, avoiding known failure modes, and applying SoTA solution moves with visible boundaries and refresh conditions. Its ontology and vocabulary support those moves. Known failure modes include beginner mistakes and experienced-practitioner failures caused by stale, local-only, or non-SoTA practice.
+A DPF gives its intended users a source-grounded pattern language for recognizing typical problem situations in the domain, avoiding known failure modes, and applying SoTA solution moves with visible boundaries and refresh conditions. Its ontology and vocabulary support those moves. Known failure modes include beginner mistakes and experienced-practitioner failures caused by stale, local-only, or non-SoTA practice.
 
 ### E.4.DPF:3 - Forces
 
@@ -93,7 +93,7 @@ A DPF gives an intended practitioner or assisting agent a source-grounded patter
 
 Use the first-hour route to help a reader new to the framework decide whether authoring should begin. This route answers that question before asking for proposal, dependency, naming, quality or publication material.
 
-1. Name the intended reader, recurring working problem and useful result.
+1. Name the intended reader, recurring working problem and useful result. Identify the user by the work they need the framework for. Follow E.8:4.2.3 when the distinction between doing the work and assisting with it changes whose decision or capability the result demonstrates.
 2. Recover candidate contributions from that problem and its sources before fitting them to the current Library: recurring practitioner problems, reusable moves or Methods, first useful results, ordinary stops or wrong-turn returns, and source or refresh boundaries. When the use spans several problem families, recover their consequential connections and the practice field or fields they serve. A field can include known Methods as well as missing ones; novelty of elementary operations is not its identity test.
 3. Inspect what FPF Core, existing domain or local frameworks, and current sources provide.
    - Treat a role or competence account, several independently reusable contributions, a Card or mantra spanning material relations, a plausible field and refresh boundary, a representative use across contributions, or visible action or result loss under one broad owner as a cue to compare, not as proof of a DPF.

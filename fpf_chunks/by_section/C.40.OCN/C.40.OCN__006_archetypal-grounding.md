@@ -6,12 +6,12 @@ section_id: "C.40.OCN:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OCN/C.40.OCN__006_archetypal-grounding.md"
-commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
+commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
 heading_path:
   - "C.40.OCN — Construct a Bounded Opportunity"
   - "C.40.OCN:5 — Archetypal Grounding"
-line_start: 90571
-line_end: 90628
+line_start: 90610
+line_end: 90667
 dependencies:
   - "A.15.9"
   - "C.11"

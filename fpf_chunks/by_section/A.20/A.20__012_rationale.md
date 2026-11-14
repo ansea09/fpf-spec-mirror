@@ -6,12 +6,12 @@ section_id: "A.20:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__012_rationale.md"
-commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
+commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
 heading_path:
   - "A.20 — Constraint Validity for Transformation Steps"
   - "A.20:10 — Rationale"
-line_start: 41365
-line_end: 41368
+line_start: 41374
+line_end: 41377
 dependencies:
   - "A.10"
   - "A.15"

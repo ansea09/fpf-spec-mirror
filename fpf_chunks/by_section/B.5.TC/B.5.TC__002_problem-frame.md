@@ -6,12 +6,12 @@ section_id: "B.5.TC:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.TC/B.5.TC__002_problem-frame.md"
-commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
+commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
 heading_path:
   - "B.5.TC — Compare Theoretical Accounts for a Question"
   - "B.5.TC:1 — Problem frame"
-line_start: 50954
-line_end: 50965
+line_start: 50963
+line_end: 50974
 dependencies:
   - "B.5.RA"
   - "B.5.RR"

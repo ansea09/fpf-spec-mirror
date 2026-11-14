@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.1.6.md"
-commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
+commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
 heading_path:
   - "B.1.6 — Work-Resource Aggregation"
-line_start: 44823
-line_end: 45071
+line_start: 44832
+line_end: 45080
 dependencies:
   - "A.1"
   - "A.10"

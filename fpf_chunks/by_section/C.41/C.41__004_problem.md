@@ -6,12 +6,12 @@ section_id: "C.41:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41/C.41__004_problem.md"
-commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
+commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
 heading_path:
   - "C.41 — Select Checklist Questions for a Work Result"
   - "C.41:2 — Problem"
-line_start: 93338
-line_end: 93343
+line_start: 93377
+line_end: 93382
 dependencies:
   - "A.3.1"
   - "A.3.2"

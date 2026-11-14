@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.39.QR.md"
-commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
+commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
 heading_path:
   - "C.39.QR — Return Results to the Original Question"
-line_start: 87007
-line_end: 87230
+line_start: 87028
+line_end: 87251
 dependencies:
   - "C.11.DUA"
   - "C.39"

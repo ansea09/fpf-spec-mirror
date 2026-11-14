@@ -6,12 +6,12 @@ section_id: "F.19:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.19/F.19__006_solution.md"
-commit_sha: "1e57ccda08ebbb9d49b7b2190bc2740b72075a13"
+commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
   - "F.19:4 — Solution"
-line_start: 134131
-line_end: 134287
+line_start: 134177
+line_end: 134347
 dependencies:
   - "A.19.SPR"
   - "A.6.P"
@@ -62,6 +62,20 @@ Use `OntologyFirstPlainRewrite` as one connected reading and repair over a natur
 Keep ontology visible only where it carries the sentence. A term-source or type annotation is needed only when it changes how the reader identifies the object, kind, relation, slot, use, publication boundary, admissible use, or applicable rule. A record, card, table, schema, data structure, dashboard, or named form remains apparatus unless it carries one of those values.
 
 If ordinary domain wording already preserves them, keep the ordinary sentence. "The aircraft flies" is better than a typed expansion unless the flight function, system kind, or slot relation is under repair.
+
+##### F.19:4.3.1 - Keep what a passage claims and teaches through a change of wording
+
+Read from the opening question to the decision, instruction or conclusion. What does the reader have to identify? Is the passage about one item, a kind and its criterion, a model or specification, a lot, or a family with a stated grouping rule? Is it reporting a dated action, explaining a repeatable way to act, or assigning the next job? The nouns can all be correctly typed while the answer slips from a rule for further cases into the story of one successful job.
+
+If a second reading is plausible, try both on the work this reader has to do. Could a technician repair the wrong unit, a designer revise the product drawing when one unit needs repair, or a reviewer accept one successful check as grounds for every unit? Establish what the source actually supplies. State the missing identifier, criterion, condition or relation at the point where the readings diverge. If the evidence cannot decide between them, keep both readings open and obtain the particular fact the decision needs. Where the document already identifies the right unit or operation, use its ordinary name.
+
+Follow the method as well as the object. If the text promises to teach a way to check an item, recover the operation, the conditions under which it applies and what would count as success. When repeatability is in question, try the wording on another item to which the rule should apply. The very same case may admit two ways to do the work. If the passage says which method was chosen or prescribed, identify the separate grounds for that choice. An account of what the technician did on Monday supplies one performance. Recover what permits repeating the check and which choices must be made again. Conversely, a report that one item passed calls for the record of its test. General instructions alone cannot establish that occurrence. Keep the field's own rule in view when moving from a transdisciplinary distinction to a discipline, or from that rule to a local procedure or job.
+
+Write for the decision in front of the recipient. A furniture designer can write “Use drawing T, revision 4, for the seat joint.” The workshop order can read “Repair the loose joint on stool 17.” For an order to inspect the May lot, give the lot reference. If inspecting any available stool is sufficient, say so. One agent may need any of these forms. In “giraffes have long necks” the plural can express a characteristic of the kind. In “three giraffes came to the waterhole” it reports observed individuals. Singular wording can also speak of a kind or of one individual. Quantity, criterion and referent come from the statement in use. An explicit “all”, a particular set of items, or an exception belongs in the text when it changes what the reader may conclude or must do.
+
+Reread the whole passage after the edit. Which object would two competent users pick, what claim could each support, and what operation would each perform? Can they still say why moving from the case to the wider rule, or applying that rule here, is warranted? If both readings already lead to the intended action for the same reason, the familiar wording is enough. Use C.3 to test a candidate against the kind criterion. Use A.2.6 to check whether a claim covers the conditions of use, and A.3.1 to identify a repeatable method. When a change of subject affects the conclusion or action, use C.39.WA:4.3 to find the relation and the grounds the subject practice supplies.
+
+##### F.19:4.3.2 - Restore a technical head when the meaning is still ambiguous
 
 **Precision before a coarsened rendering.** When head kind, qualifier claim, or comparison basis remains unresolved in FPF-governed prose, use this working order:
 
