@@ -6,12 +6,12 @@ section_id: "B.3.5:10"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.5/B.3.5__012_bias-annotation.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "B.3.5 — Assurance Grounding for Working-Model Relation Claims (CT2R-LOG)"
   - "B.3.5:10 — Bias-Annotation"
-line_start: 47573
-line_end: 47584
+line_start: 47584
+line_end: 47595
 dependencies:
   - "B.3"
   - "C.13"

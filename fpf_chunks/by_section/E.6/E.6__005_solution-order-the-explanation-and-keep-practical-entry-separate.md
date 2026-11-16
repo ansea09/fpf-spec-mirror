@@ -6,12 +6,12 @@ section_id: "E.6:4"
 section_title: "Solution — Order the explanation and keep practical entry separate"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.6/E.6__005_solution-order-the-explanation-and-keep-practical-entry-separate.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "E.6 — Didactic Architecture of the FPF Specification"
   - "E.6:4 — Solution — Order the explanation and keep practical entry separate"
-line_start: 102040
-line_end: 102064
+line_start: 102339
+line_end: 102363
 dependencies:
   - "E.2"
 keywords:

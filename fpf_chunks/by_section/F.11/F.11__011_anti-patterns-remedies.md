@@ -6,12 +6,12 @@ section_id: "F.11:10"
 section_title: "Anti-patterns & remedies"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__011_anti-patterns-remedies.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "F.11 — Distinguish Method, MethodDescription, Work and Outputs"
   - "F.11:10 — Anti-patterns & remedies"
-line_start: 130199
-line_end: 130215
+line_start: 130506
+line_end: 130522
 dependencies:
   - "A.13"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "E.17.AUD.OOTD:End"
 section_title: "E.17.AUD.OOTD:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.OOTD/E.17.AUD.OOTD__014_e-17-aud-ootd-end.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "E.17.AUD.OOTD — Clarify the Primary Subject of a Publication Unit (PublicationUnit Primary-Subject Discipline)"
   - "E.17.AUD.OOTD:End — E.17.AUD.OOTD:End"
-line_start: 116998
-line_end: 116999
+line_start: 117303
+line_end: 117304
 dependencies:
   - "A.10"
   - "A.15"

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.24.UK.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "E.24.UK — U-kind Admission and Ontic Settlement"
-line_start: 124831
-line_end: 125373
+line_start: 125136
+line_end: 125678
 dependencies:
   - "A.1.1"
   - "A.11"
@@ -294,7 +294,7 @@ The admission does not force explicit materialization of every obtaining relatio
 
 Apply the positive extent rule before classifying a nearby object. Predicate content is a rule. An assertion or occurrence description is a C.2.1 episteme. F.18 governs a designator or reference, and E.24.PUB governs a reusable form. A row, graph edge or diagram element retains its interpretation under the applicable subject-description or representation rule.
 
-Use C.29 for an unresolved mathematical representation, transfer or reliance question and A.6.3.RT for a representation-scheme transition. The rule, episteme, designator, reference, form and representation remain distinct from the obtaining occurrence. Connect the object under consideration to the occurrence only through its explicit assertion, description, designation, reference, publication, or representation relation.
+Use C.29 for an unresolved mathematical representation, transfer or reliance question and A.6.3.RT for a representation transition. The rule, episteme, designator, reference, form and representation remain distinct from the obtaining occurrence. Connect the object under consideration to the occurrence only through its explicit assertion, description, designation, reference, publication, or representation relation.
 
 An individuable publication-relation occurrence is a `U.Relation` when E.24.PUB defines that relation and states its obtaining and identity conditions. A row that represents the occurrence remains a representation element. Reidentify the current object by the rule that defines or tests it instead of inferring membership from words such as relation, edge, link, record, or reference.
 
@@ -509,7 +509,7 @@ If the candidate names participation in a relation, a SlotSpec, an assertion or 
 | `CC-E24UK-6` | A world-side relation participant retains its independently governed kind. The cited direct relation pattern states what that participant means in the relation; a relation kind or occurrence does not own a ClaimGraph. |
 | `CC-E24UK-6a` | A reusable declaration component remains one A.6.5 SlotSpec; its SlotKind does not become a U-kind. |
 | `CC-E24UK-6b` | A participant designation or other assertion or description field remains inside the receiving `U.Episteme`. |
-| `CC-E24UK-6c` | A selected structure remains under A.22 and a reusable publication form under E.24.PUB. A representation element retains its interpretation and subject correspondence under the applicable rule. Use C.29 for unresolved mathematical representation, transfer or reliance and A.6.3.RT for a representation-scheme transition. |
+| `CC-E24UK-6c` | A selected structure remains under A.22 and a reusable publication form under E.24.PUB. A representation element retains its interpretation and subject correspondence under the applicable rule. Use C.29 for unresolved mathematical representation, transfer or reliance and A.6.3.RT for a representation transition. |
 | `CC-E24UK-7` | F.8, F.5, F.18, and F.17 are used only after the governed object and admission decision are stable. |
 | `CC-E24UK-8` | E.24 remains the head ontic pattern; use E.24.UK for detailed U-kind admission without duplicating that procedure back into E.24. |
 
@@ -575,7 +575,7 @@ The progressive route can under-admit a distinction if a bounded use hides later
 
 - **Shares settlement with:** `E.24` through the one `E24FamilySettlementDecision` schema in `E.24:4.0a`. E.24.UK records the `UKindAdmissionResult`; E.24 records the ontology disposition and an `OnticSettlementResult` only when a durable ontic is selected. An existing result may be reused, while a case needing both new outputs is one atomic co-decision with neither output used as prior evidence.
 - **Uses for relation admission:** `A.6.REL` states the common occurrence discipline. Each direct relation pattern states participant meanings, obtaining, applicability, and occurrence identity. An `A.6.RCD` application may record a residual claim or a derived-or-primitive candidate with its proposed direct subject settlement; local-claim and predicate-definition results remain claim content and do not admit a relation kind.
-- **Uses for neighboring objects:** `A.6.0` defines reusable signature identity; `A.6.5` defines `SlotSpec` declarations; `C.2.1` defines admission-decision, assertion, and description episteme identity; `F.18` supplies the naming rule for selected Tech labels and designators; subject-description patterns govern their correspondence claims, `A.6.3.RT` governs representation-scheme transition, and `C.29` supplies unresolved mathematical representation, transfer or reliance work.
+- **Uses for neighboring objects:** `A.6.0` defines reusable signature identity; `A.6.5` defines `SlotSpec` declarations; `C.2.1` defines admission-decision, assertion, and description episteme identity; `F.18` supplies the naming rule for selected Tech labels and designators; subject-description patterns govern their correspondence claims, `A.6.3.RT` governs representation transition, and `C.29` supplies unresolved mathematical representation, transfer or reliance work.
 - **Coordinates with:** `A.22` for admitted structure identity and dependent structure predicates; `A.1.1` for bounded model-use relations; `A.2.6` for claim-scope membership; `C.3`, `C.3.1`, and `C.3.2` for admitted `U.Kind` individuals, the admitted `U.SubkindOf` direct species, declaration, admissibility, and judgment; `E.24.CD` for candidate detection; `E.24.PUB` for publication distinctions; direct kind patterns for every other admission; and `E.10`, F.8, F.17, and F.18 for wording and naming after settlement.
 - **Does not replace:** the rule that defines or constrains the classified individuals, their identity or membership, intended extent, and action-facing use, or the PatternID that locates that rule.
 

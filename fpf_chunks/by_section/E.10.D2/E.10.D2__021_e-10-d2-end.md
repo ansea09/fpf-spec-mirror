@@ -6,12 +6,12 @@ section_id: "E.10.D2:End"
 section_title: "E.10.D2:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__021_e-10-d2-end.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:End — E.10.D2:End"
-line_start: 108575
-line_end: 108576
+line_start: 108880
+line_end: 108881
 dependencies:
   - "A.7"
   - "C.2.1"

@@ -6,12 +6,12 @@ section_id: "E.17.1:4"
 section_title: "Solution - one catalogue episteme with local bundle declarations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__005_solution-one-catalogue-episteme-with-local-bundle-declarations.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "E.17.1 — Viewpoint Bundle Library - Reusable Viewpoint Reference Bundles"
   - "E.17.1:4 — Solution - one catalogue episteme with local bundle declarations"
-line_start: 113241
-line_end: 113351
+line_start: 113546
+line_end: 113656
 dependencies:
   - "A.16.0"
   - "A.22"
@@ -144,5 +144,5 @@ When form-mediated expression and bearing are claimed, retain E.24.PUB's corresp
 
 Changing a participant or restoring availability after a gap yields another publication occurrence under E.24.PUB; it does not reidentify unchanged L or any member viewpoint.
 
-Rendering, printing, or uploading is separate system-performed `U.Work`. For a diagram or catalogue rendering, recover the correspondence between its elements and independently identified declarations or viewpoint epistemes. Use A.6.3.RT/A.6.3.RT.OE when constructing an expression or changing its representation scheme. Add C.29 when choosing or using a mathematical representation raises an inference or transfer question. Publication, representation, form, carrier, or rendering grants no viewpoint or view membership and makes no represented world-side relation obtain.
+Rendering, printing, or uploading is separate system-performed `U.Work`. For a diagram or catalogue rendering, recover the correspondence between its elements and independently identified declarations or viewpoint epistemes. Use A.6.3.RT/A.6.3.RT.OE when constructing an expression or changing its representation language or reasoning medium for a particular use. Add C.29 when choosing or using a mathematical representation raises an inference or transfer question. Publication, representation, form, carrier, or rendering grants no viewpoint or view membership and makes no represented world-side relation obtain.
 

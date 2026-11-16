@@ -6,12 +6,12 @@ section_id: "A.6.9:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.9/A.6.9__013_relations.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "A.6.9 — Cross-Context Sameness Disambiguation - Restoring the claim behind \"same\", \"equivalent\", and \"align\" (RPR-XCTX)"
   - "A.6.9:12 — Relations"
-line_start: 25785
-line_end: 25791
+line_start: 25792
+line_end: 25798
 dependencies:
   - "A.1.1"
   - "A.10"

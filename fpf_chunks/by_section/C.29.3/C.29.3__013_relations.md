@@ -6,12 +6,12 @@ section_id: "C.29.3:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29.3/C.29.3__013_relations.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "C.29.3 — Computational Realization"
   - "C.29.3:12 — Relations"
-line_start: 74184
-line_end: 74197
+line_start: 74294
+line_end: 74307
 dependencies:
   - "A.3.3"
   - "A.6.1"
@@ -31,7 +31,7 @@ keywords:
 | B.5.MPC - Connect Physical, Mathematical and Computational Reasoning | Connects the local realization to the physical question, mathematical construction and useful consequence. |
 | A.3.3 - U.Dynamics | Constructs the state and permitted continuations needed to reason about intermediate or repeated operation. |
 | A.6.1 - U.Mechanism | Supplies operation-declaration and realization semantics when those relations are asserted. |
-| A.6.3.RT - Representation-Scheme Transition | Helps change the representation of preparation, operations and readout under an available scheme while preserving the content needed for use. |
+| A.6.3.RT - Representation Transition | Helps change the representation of preparation, operations and readout under the conventions chosen for that use while preserving the content needed for use. |
 | C.16 - Measurement and Metrics Characterization | Supplies the measurement relation and the interpretation limits of a physical indication. |
 | C.11.DUA - Make Advice and Evidence Demands Worth Their Burden | Selects further assurance or information by the receiving decision and its cost. |
 

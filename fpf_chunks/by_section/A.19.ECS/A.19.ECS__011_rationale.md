@@ -6,12 +6,12 @@ section_id: "A.19.ECS:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ECS/A.19.ECS__011_rationale.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "A.19.ECS — CharacteristicSpace Construction: Define What Counts as Better"
   - "A.19.ECS:9 — Rationale"
-line_start: 36739
-line_end: 36746
+line_start: 36746
+line_end: 36753
 dependencies:
   - "A.17-A.19"
   - "C.16"

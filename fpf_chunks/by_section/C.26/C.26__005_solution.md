@@ -6,12 +6,12 @@ section_id: "C.26:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26/C.26__005_solution.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "C.26 — Quantum-Like Modeling Lens"
   - "C.26:4 — Solution"
-line_start: 68440
-line_end: 68777
+line_start: 68550
+line_end: 68887
 dependencies:
   - "A.10"
   - "A.15"
@@ -122,7 +122,7 @@ QL boundary selection:
 | Is this ordinary evidence, provenance, method, or carrier issue? | `A.10` and, when assurance-bearing, `B.3`. |
 | Is this ordinary work, routine, incentive, alignment, or authority issue? | `A.15` and neighboring work/authority patterns. |
 | Is this ordinary quality-bundle, viability, feedback, or dynamics tuning? | `C.25`, `U.Dynamics`, and measurement or work patterns. |
-| Is this ordinary representation-scheme transition or controlled coarsening? | `A.6.3.RT`, `A.6.3.CSC`, and ordinary representation patterns. |
+| Is this ordinary representation transition or controlled coarsening? | `A.6.3.RT`, `A.6.3.CSC`, and ordinary representation patterns. |
 | After the ordinary subject patterns, does one named contextual-model obstruction such as no-global-section, incompatible probe algebra, or order-sensitive instrument behavior still change the admissible inference or action? | Use `C.26` or the relevant `C.26.*` child with the minimum sufficient field set; otherwise omit QL wording. |
 
 The following questions can organize a retained QL use in ordinary prose or a record. Include the identity, grounding and viewpoint distinctions only where the claim or receiving use consumes them.
@@ -327,14 +327,14 @@ Evidence-use class scales by use:
 
 Use this card when a fuller state representation is too detailed, unstable, unavailable, or expensive for the current bounded decision and a reduced-detail state representation is useful only under a declared QL cue.
 
-`A.6.3.CSC` carries controlled coarsened rendering; `A.6.3.RT` carries same-selected-entity representation-scheme transition; `A.19`, `U.Dynamics`, modeling patterns, and ordinary abstraction patterns carry ordinary state abstraction. C.26 carries only the residual QL cue plus the loss/use boundary for this shortcut.
+`A.6.3.CSC` carries controlled coarsened rendering; `A.6.3.RT` carries same-selected-entity representation transition; `A.19`, `U.Dynamics`, modeling patterns, and ordinary abstraction patterns carry ordinary state abstraction. C.26 carries only the residual QL cue plus the loss/use boundary for this shortcut.
 
 Question-to-pattern map:
 
 | Main question | First FPF pattern or relation |
 | --- | --- |
 | Coarsened rendering of source episteme or source publication for narrower use | `A.6.3.CSC` |
-| Same-selected-entity representation-scheme or reasoning-medium transition | `A.6.3.RT` |
+| Same-selected-entity representation-language or reasoning-medium transition | `A.6.3.RT` |
 | Cross-context equivalence, substitution, projection, export, or loss | `F.9` for an exact SenseCell Bridge and its bounded-use claim; `F.9.1` only for an optional stance note about that claim. Use the subject pattern for other export or loss claims. Keep the lens-specific preserved and lost structure here. |
 | Measurement coordinate, scale, score, result, or dashboard reading | `C.16` |
 | Evidence carrier, provenance, method, support, or time window | `A.10` |

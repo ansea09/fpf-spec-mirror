@@ -6,12 +6,12 @@ section_id: "E.24.PUB:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__006_solution.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "E.24.PUB — Episteme Publication: Availability, Form and Carrier"
   - "E.24.PUB:4 — Solution"
-line_start: 124497
-line_end: 124686
+line_start: 124802
+line_end: 124991
 dependencies:
   - "A.6.3"
   - "A.6.3.RT"
@@ -201,7 +201,7 @@ Ask one question at a time:
 | Do the selected claims form an identifiable whole about an EntityOfConcern under an effective reference scheme? | a `U.Episteme` under `C.2.1`; the filled card or diagram supplies its expression |
 | Does `EpistemeViewpointConformanceRelation(E,P)` obtain for that episteme E and at least one exact viewpoint episteme P? | the same E has dependent-kind membership as `U.View` under `E.17.0`; any A.6.3 construction remains a separate optional relation |
 | Does the expression follow selected reusable formation or arrangement rules? | `PublicationFormConformanceRelation(X,F)`; expression of E for U is checked separately |
-| Do selected elements correspond to independently recovered objects and support modeling or reasoning operations? | a representation with a correspondence to its subject under the applicable subject or representation rule. Use A.6.3.RT for a scheme transition and A.6.3.RT.OE for constructing an expression. Use C.29 when mathematical representation, inference or transfer needs additional grounds |
+| Do selected elements correspond to independently recovered objects and support modeling or reasoning operations? | a representation with a correspondence to its subject under the applicable subject or representation rule. Use A.6.3.RT for a representation transition and A.6.3.RT.OE for constructing an expression. Use C.29 when mathematical representation, inference or transfer needs additional grounds |
 | Does an actual state or realization of the selected carrier yield exact X? | `PublicationExpressionBearingRelation(C,X)` |
 | Is the selected episteme available to the declared audience for the declared use through X and C? | one `EpistemePublicationRelation(E,A,U,X,C)` occurrence |
 

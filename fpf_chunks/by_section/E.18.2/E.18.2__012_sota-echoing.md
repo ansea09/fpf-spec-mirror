@@ -6,12 +6,12 @@ section_id: "E.18.2:9"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.2/E.18.2__012_sota-echoing.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "E.18.2 — Transformation Flow Mathematical Description"
   - "E.18.2:9 — SoTA-Echoing"
-line_start: 118687
-line_end: 118695
+line_start: 118992
+line_end: 119000
 dependencies:
   - "A.10"
   - "A.15"

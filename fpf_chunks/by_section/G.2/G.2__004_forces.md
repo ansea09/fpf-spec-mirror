@@ -6,12 +6,12 @@ section_id: "G.2:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.2/G.2__004_forces.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "G.2 — Harvest and Synthesize SoTA for a CG-Frame"
   - "G.2:3 — Forces"
-line_start: 135834
-line_end: 135841
+line_start: 136141
+line_end: 136148
 dependencies:
   - "A.10"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"

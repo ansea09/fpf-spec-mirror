@@ -6,12 +6,12 @@ section_id: "A.1.RI:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.RI/A.1.RI__013_relations.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "A.1.RI — Reidentifying an Object across Observations"
   - "A.1.RI:12 — Relations"
-line_start: 3134
-line_end: 3144
+line_start: 3137
+line_end: 3147
 dependencies:
   - "A.1"
   - "A.3.3.PI"

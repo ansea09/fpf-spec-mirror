@@ -6,12 +6,12 @@ section_id: "C.19.2:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.2/C.19.2__007_archetypal-grounding.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "C.19.2 — Use-Bounded Apparatus Application"
   - "C.19.2:5 — Archetypal Grounding"
-line_start: 64632
-line_end: 64652
+line_start: 64742
+line_end: 64762
 dependencies:
   - "A.15.1"
   - "A.15.2"

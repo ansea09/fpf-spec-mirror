@@ -6,12 +6,12 @@ section_id: "C.26:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26/C.26__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "C.26 — Quantum-Like Modeling Lens"
   - "C.26:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 68844
-line_end: 68910
+line_start: 68954
+line_end: 69020
 dependencies:
   - "A.10"
   - "A.15"
@@ -90,7 +90,7 @@ Use these as quick applicability tests. The ordinary result, including a result 
 | Market "expects" a feature because many actors change behavior. | Identify the bearer or trace population and examine the domain, incentive and evidence account. | Inferring expectation or a collective System from parallel traces alone. | Retain the supported behavior or state claim, distinguishing it from the explanation of the movement. |
 | Latency is green while support load and customer promise degrade. | `C.25` / `C.16` first; `C.26.3` for multi-characteristic envelope regulation under disturbance when a candidate intervention, boundary condition, adaptation cost, or failure mode matters. Retain `C.26` / QL only when the residual contextual-model obstruction condition holds. | Calling one green metric viability. | Add envelope variables, actuators, costs, and failure mode. |
 | Summary compresses an architecture decision for executives. | Use an adequate coarsening account; retain QL only for a named residual obstruction. | Assuming the summary retains every decision-relevant distinction. | Use the summary where its contents suffice; recover omitted detail when the receiving decision depends on it. |
-| Diagram translates the same system into graph form. | `A.6.3.RT` first; no QL unless incompatible representation, probe, or export cue remains. | Calling any diagram a QL state model. | Declare representation-scheme change, reasoning-medium change, and source tether. |
+| Diagram translates the same system into graph form. | `A.6.3.RT` first; no QL unless incompatible representation, probe, or export cue remains. | Calling any diagram a QL state model. | State how the representation language or the reasoning medium changed and which source content must remain recoverable. |
 | Low-bit model approximates expensive simulation. | Modeling, approximation, compression, or implementation pattern first; QL only if the shortcut claim depends on QL state, probe, or frame admissibility. | Treating low-bit or linear form as QL activation. | State the approximation and its relevant loss or error and use limits. If a performance advantage is claimed, supply its comparison under :4.5. |
 | Assurance load is raised because a QL explanation is published, reused or written formally. | Identify the receiving conclusion and what support it needs under :12b. | Making a fuller record without resolving a consequential question. | Reuse the adequate account; add only the missing mathematical, empirical or assurance contribution needed for the new use. |
 | Author claims QL is faster or better than a classical method. | Supply the named baseline, comparison quantity, conditions and grounds under :4.5. | Accepting superiority rhetoric. | State the supported comparison, or qualify or withdraw the unsupported advantage. |

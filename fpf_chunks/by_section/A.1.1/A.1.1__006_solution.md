@@ -6,12 +6,12 @@ section_id: "A.1.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.1/A.1.1__006_solution.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "A.1.1 — Bounded Model-Use Structure: Applicability, Use and Expression Coherence (DDD Bounded Context)"
   - "A.1.1:4 — Solution"
-line_start: 3226
-line_end: 3479
+line_start: 3229
+line_end: 3482
 dependencies:
   - "A.1"
   - "A.14"
@@ -279,7 +279,7 @@ Only then may a distinct A.22 structure select several such endpoints and indepe
 
 A candidate context-mapping episteme may carry claims about a proposed crossing organization without designating an exact structure. Once the direct crossing and A.22 identity exist, a corresponding C.2.1 episteme may designate that exact cross-structure and its participants.
 
-A diagram, prose account, or interactive representation may show the structure or proposal through its stated correspondence to the participants, crossings, direction, and qualifications. Use A.6.3.RT for a transition between representation schemes and A.6.3.RT.OE:4 to construct an expression for the needed operation; use C.29 when the working question needs a mathematical lens. The episteme is a `U.View` only after exact E.17.0 conformance obtains.
+A diagram, prose account, or interactive representation may show the structure or proposal through its stated correspondence to the participants, crossings, direction, and qualifications. Use A.6.3.RT when the intended operation on this material depends on changing its representation language or reasoning medium. Use A.6.3.RT.OE:4 to construct a suitable expression and C.29 when the question needs a mathematical lens. The episteme is a `U.View` only after exact E.17.0 conformance obtains.
 
 #### A.1.1:4.7 - Preserve the lightweight path
 

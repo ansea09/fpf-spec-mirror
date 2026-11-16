@@ -6,12 +6,12 @@ section_id: "A.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1/A.1__006_solution.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "A.1 — Recognize a Whole with Parts (U.Holon and Admitted Holon Kinds)"
   - "A.1:4 — Solution"
-line_start: 2644
-line_end: 2778
+line_start: 2647
+line_end: 2781
 dependencies:
   - "A.1.1"
   - "A.1.STM"

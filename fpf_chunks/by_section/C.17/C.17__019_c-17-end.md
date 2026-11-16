@@ -6,12 +6,12 @@ section_id: "C.17:End"
 section_title: "C.17:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__019_c-17-end.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "C.17 — Characterising Generative Novelty and Value"
   - "C.17:End — C.17:End"
-line_start: 63428
-line_end: 63431
+line_start: 63538
+line_end: 63541
 dependencies:
   - "A.1.1"
   - "A.10"

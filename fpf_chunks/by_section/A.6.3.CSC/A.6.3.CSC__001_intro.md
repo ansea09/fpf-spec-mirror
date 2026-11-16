@@ -6,12 +6,12 @@ section_id: "A.6.3.CSC:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CSC/A.6.3.CSC__001_intro.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "A.6.3.CSC — Controlled Semantic Coarsening: Shorten an Account for a Bounded Use"
   - "A.6.3.CSC:intro — Intro"
-line_start: 18664
-line_end: 18674
+line_start: 18671
+line_end: 18681
 dependencies:
   - "A.15"
   - "A.20"

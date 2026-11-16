@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.2.2.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "B.2.2 — Test the Proposed New Whole as a System"
-line_start: 45740
-line_end: 45977
+line_start: 45751
+line_end: 45988
 dependencies:
   - "A.1"
   - "A.10"

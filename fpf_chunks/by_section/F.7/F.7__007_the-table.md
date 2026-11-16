@@ -6,12 +6,12 @@ section_id: "F.7:6"
 section_title: "The table"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.7/F.7__007_the-table.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "F.7 — Display Source-Local Comparisons in a Concept-Set Table"
   - "F.7:6 — The table"
-line_start: 128259
-line_end: 128276
+line_start: 128566
+line_end: 128583
 dependencies:
   - "A.6.9"
   - "B.3"

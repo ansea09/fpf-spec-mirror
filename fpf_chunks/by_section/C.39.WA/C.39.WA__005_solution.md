@@ -6,12 +6,12 @@ section_id: "C.39.WA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.WA/C.39.WA__005_solution.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "C.39.WA — Develop an Account of the Whole Subject"
   - "C.39.WA:4 — Solution"
-line_start: 87284
-line_end: 87408
+line_start: 87481
+line_end: 87607
 dependencies:
   - "C.20"
   - "C.39.QR"
@@ -82,6 +82,8 @@ For a move from one claim or subject to another, name the relation on which the 
 A relation identifies how its participants are connected. A returned claim also needs an applicable inference rule. Separately, the resulting work must be compared with the original account question; C.39.QR:4.2–4.4 develops these two judgements.
 
 These relations can coexist. A reusable calculation can be a constituent of one Method and supply a result to another. A discipline can contain other disciplines and use results from fields that are not its constituents. A representation can preserve some structure, omit some and introduce useful constructed objects. Explain the relevant correspondence before returning a conclusion to the represented subject.
+
+**Identify a claimed refinement.** When an account of a system, method or field treats one model as more specific than another, keep the inquiry fixed. Show what the later model preserves, a possibility it still allows and what it rules out. B.5.MR gives the comparison for individual models and for models of their governing conventions. B.1 supplies the different grounds needed when the claim moves from a constituent to an encompassing whole.
 
 **Give a modeling level a point of reference.** Name what the claim concerns, the cases it covers and the use of the answer. “The laboratory's rule for releasing an instrument” identifies a starting point. If you need to reason from a particular record to the rule it cites, identify that record, the rule and the citation. A release record can direct you to the local rule under which a decision was made. Check the applicable edition and the issuing authority. To examine that rule in turn, compare it with the discipline's conditions for a valid verdict. To establish what actually happened, return to the identified instrument, configuration and observations. Carry forward only the conclusions for which that return supplies grounds.
 

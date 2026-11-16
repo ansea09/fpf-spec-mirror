@@ -6,12 +6,12 @@ section_id: "A.6.2:7"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.2/A.6.2__008_conformance-checklist-normative.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "A.6.2 — Effect-Free Episteme Morphing: Laws for Mathematical Relations Between Epistemes"
   - "A.6.2:7 — Conformance Checklist (normative)"
-line_start: 18341
-line_end: 18353
+line_start: 18348
+line_end: 18360
 dependencies:
   - "A.6.0"
   - "A.6.1"

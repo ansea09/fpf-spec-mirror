@@ -6,12 +6,12 @@ section_id: "B.2.4:End"
 section_title: "B.2.4:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.4/B.2.4__015_b-2-4-end.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "B.2.4 — Do Capability or Functioning Changes Require Whole Reidentification?"
   - "B.2.4:End — B.2.4:End"
-line_start: 46433
-line_end: 46434
+line_start: 46444
+line_end: 46445
 dependencies:
   - "A.10"
   - "A.15"

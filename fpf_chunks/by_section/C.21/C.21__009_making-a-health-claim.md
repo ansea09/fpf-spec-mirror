@@ -6,12 +6,12 @@ section_id: "C.21:7"
 section_title: "Making a health claim"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__009_making-a-health-claim.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:7 — Making a health claim"
-line_start: 65297
-line_end: 65307
+line_start: 65407
+line_end: 65417
 dependencies:
   - "A.10"
   - "A.17-A.18"

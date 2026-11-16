@@ -6,12 +6,12 @@ section_id: "A.2.1:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.1/A.2.1__007_archetypal-grounding.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "A.2.1 — U.SystemRoleAssignment - Contextual System-Role Assignment"
   - "A.2.1:5 — Archetypal Grounding"
-line_start: 5258
-line_end: 5304
+line_start: 5261
+line_end: 5307
 dependencies:
   - "A.15"
   - "A.15.1"

@@ -6,12 +6,12 @@ section_id: "E.24.CD:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.CD/E.24.CD__007_archetypal-grounding.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "E.24.CD — Ontic Candidate Detection and First-Use Disposition"
   - "E.24.CD:5 — Archetypal Grounding"
-line_start: 124212
-line_end: 124330
+line_start: 124517
+line_end: 124635
 dependencies:
   - "A.1"
   - "A.14"
@@ -156,7 +156,7 @@ Inconsistent descriptions do not make their world-side subjects inconsistent wit
 
 An architecture diagram may carry claims about selected structures of one holon. If the diagram is selected as one claim-bearing whole, C.2.1 identifies that episteme.
 
-The same episteme has `U.View` membership only when E.17.0 conformance obtains; its publication form and carrier use E.24.PUB; C.30.AD governs its architecture-description adequacy and correspondence to the independently recovered subject. Use A.6.3.RT if a representation-scheme transition is claimed, and C.29 for an unresolved mathematical representation, transfer or reliance question.
+The same episteme has `U.View` membership only when E.17.0 conformance obtains; its publication form and carrier use E.24.PUB; C.30.AD governs its architecture-description adequacy and correspondence to the independently recovered subject. Use A.6.3.RT if a representation transition is claimed, and C.29 for an unresolved mathematical representation, transfer or reliance question.
 
 The diagram does not become the architecture, structure, or ontic by being visible. If the current work is to correct one architectural claim, apply the architecture and structure patterns directly.
 

@@ -6,12 +6,12 @@ section_id: "C.17:2"
 section_title: "Keep the evaluation objects distinct"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__004_keep-the-evaluation-objects-distinct.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "C.17 — Characterising Generative Novelty and Value"
   - "C.17:2 — Keep the evaluation objects distinct"
-line_start: 63084
-line_end: 63106
+line_start: 63194
+line_end: 63216
 dependencies:
   - "A.1.1"
   - "A.10"

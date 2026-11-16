@@ -6,12 +6,12 @@ section_id: "A.3.1.WT:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.WT/A.3.1.WT__013_sota-echoing.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "A.3.1.WT — Design and Interpret a Method Work Trial"
   - "A.3.1.WT:11 — SoTA-Echoing"
-line_start: 10998
-line_end: 11005
+line_start: 11005
+line_end: 11012
 dependencies:
   - "A.10"
   - "A.15.1"

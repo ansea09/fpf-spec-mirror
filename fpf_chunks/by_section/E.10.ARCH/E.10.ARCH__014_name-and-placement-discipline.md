@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:8"
 section_title: "Name and placement discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__014_name-and-placement-discipline.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "E.10.ARCH — Architecture for Recovering Ontological Meaning in Wording"
   - "E.10.ARCH:8 — Name and placement discipline"
-line_start: 107577
-line_end: 107586
+line_start: 107882
+line_end: 107891
 dependencies:
   - "A.10"
   - "A.15.1"

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.2.1.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
-line_start: 53191
-line_end: 54169
+line_start: 53297
+line_end: 54279
 dependencies:
   - "A.1"
   - "A.10"
@@ -42,7 +42,7 @@ keywords:
 
 **First useful move.** Establish what the account must help its recipient understand or do. Recover the relevant claims, their subject and interpretation; write or draw what is understood when the account is still developing. A corrected sentence, an interpretable table or a justified answer about a changed dependency can finish the task. Section :4.0 connects these moves; :4.1.1 gives the identity comparison when needed.
 
-**One-line summary.** A `U.Episteme` is a claim-bearing holon identified by exact claim content, one exact EntityOfConcern, and the effective `ReferenceScheme` that makes the claims interpretable about that entity. Changing any of these three discriminators identifies another episteme.
+**One-line summary.** A `U.Episteme` is a claim-bearing holon identified by exact claim content, one exact EntityOfConcern, and the effective `ReferenceScheme` that makes the claims interpretable about that entity. Changing any of these three discriminators identifies another episteme. The representation language can be shared by records whose effective rules differ. A document-specific convention for an empty cell can alter the claims a reader may use even where both readings are admitted by the language (E.5.2.L:4.1).
 
 **Primary working reader and viewpoint.** The engineer or researcher comparing, revising, teaching, grounding or publishing that knowledge object. The working concern is to reidentify it through those uses and locate a change when it occurs.
 
@@ -145,6 +145,10 @@ These are semantic discriminators. For this whole, the subject T is an independe
 A file boundary is useful for finding material, while the selected claims and their organization determine the account being compared. Several files can express one account; a file can contain several independently identified accounts. When only a claim or a subgraph is needed, select that constituent explicitly. When a new episteme is constituted about it, the selected content becomes the EntityOfConcern of that new episteme.
 
 If a word, sign or reference still permits materially different readings, retain that uncertainty and obtain the missing interpretation before relying on the disputed conclusion. Where exact constituent identification matters, C.2.1 supplies `NonemptyClaimContent`, `EpistemeInterpretationScheme`, `ClaimContentDesignation` and `SchemeDesignation`. Ordinary writing needs only the explanations and references sufficient for its actual use.
+
+**Using an episteme as a model.** For a claim-bearing informational model, identify this episteme once by its claim content, EntityOfConcern and effective interpretation. State which reading or operation on it can answer the inquiry and what warrants that use. A room number can designate a room, a timetable can state its scheduled occupancy, and that same timetable can be used to predict when the room will be free. Only the prediction relies on the relevant correspondence between scheduled and actual occupancy. If the inference concerns the episteme's own EntityOfConcern, use that same subject. If the account is used by analogy for another entity, keep its original subject and give the grounds for transfer. A.1.1 governs its named, bounded uses with a holon.
+
+The thing used as a model can also be a physical specimen or a directly observed performance. A report about it is a separately identifiable episteme. The tested specimen can be the EntityOfConcern of one report and the GroundingHolon for selected claims about a different system, when the empirical relation in §4.3 obtains. For observations from which a repeatable method is to be recovered, use A.3.1.MR.
 
 ##### C.2.1:4.0.4 - Connect the claims with their subject and grounds
 
@@ -344,7 +348,7 @@ Open a row below only when its first column names the reader's next sentence or 
 | A reader must assert that a later episteme revises, refines, or supersedes an earlier one. | one exact `EpistemeEditionRelation` occurrence | C.2.1:4.5 |
 | An account must assert that particular Work occurred. | identify the actual performer and admit the dated Work independently; if the account also attributes it to an assignment, test that attribution separately | `A.13` and `A.15.1`; `F.6` only for the stated attribution |
 | A publisher must make one selected episteme edition available to a declared audience for a bounded use. | the exact publication occurrence, expression and independently identified carrier, with reusable form conformance when needed | `E.17` and `E.24.PUB` |
-| A user will calculate, infer, navigate, or inspect through a representation whose available operations matter. | the representation scheme, operations and correspondence needed for that use | the applicable representation pattern; `A.6.3.RT` for a same-EntityOfConcern transition; `C.29` only for an unresolved mathematical-lens choice, transfer or reliance question |
+| A user will calculate, infer, navigate, or inspect through a representation whose available operations matter. | the chosen representation, the conventions for interpreting it, the operations and the correspondence needed for that use | the applicable representation pattern; `A.6.3.RT` for a same-EntityOfConcern transition; `C.29` only for an unresolved mathematical-lens choice, transfer or reliance question |
 | One receiving System must select, decline, or co-use candidate results of different kinds as representations for the same exact action or decision. | one C.37 use-bounded representation-selection account; keep each direct subject result, optional A.2.4 first-use classification, A.10 reliance path when material, and receiving result separately governed | `C.37` |
 
 
@@ -611,7 +615,7 @@ The grounding holon need not be identical to the EntityOfConcern. One method-des
 | evidence use or assurance for a claim | the exact evidence-use relation and applicable grounds; when a source-to-use account must remain replayable, the descriptive A.10 path, independently established relations and local `RelianceDisposition`; when a named assurance claim is at issue, the exact B.3 `AssuranceResult` or its non-positive disposition | evidence and assurance can support, narrow, or stop reliance on the claim while the episteme's identity remains fixed |
 | publication | exact publication occurrence and any selected reusable publication form under E.17 and E.24.PUB | making an edition available does not constitute or reidentify it |
 | presentation carrier | an independently identified physical or digital `U.Entity` under its own identity rule | actual bearing of X under E.24.PUB leaves episteme identity governed by its G/T/R triple |
-| representation and admissible operations | the representation scheme, selected elements and operations used for the represented episteme, with any required correspondence or transition governed through :4.0 | a change of scheme or admitted operations can change the available work |
+| representation and admissible operations | the representation’s interpretation, selected elements and operations used for the represented episteme, with any required correspondence or transition governed through :4.0 | a change of interpretation or admitted operations can change the available work |
 
 Names ending in `Slot` are admissible here only as SlotKinds inside the exact `RelationSignature` governed by the neighboring direct relation pattern. A card or other episteme form carries participant designations in ordinary fields; it does not acquire SlotKinds by using similar field labels. None of those neighboring SlotSpecs belongs to `EpistemeConstitutionRelationSignature`.
 
@@ -692,7 +696,7 @@ When inception is attributed to Work, apply **A.15.PROD:4.5**. Begin with the su
 
 A.6.2-A.6.4 define episteme-to-episteme morphing, source-to-receiving viewing construction, and retargeting. Identify every source and receiving episteme independently under C.2.1 before testing the exact transformation relation. Each transformation pattern states which identity discriminator is preserved or changed and names the exact correspondence, reinterpretation, or retargeting relation on which it relies. When a possible Bridge between exact F.17 cells is at issue, use F.9 to test whether that relation obtains. If the morphism relies on that Bridge for a proposed use, state a separate C.2.1 assertion with the Bridge as EntityOfConcern and `<u,d,r,t>` plus polarity in its ClaimGraph, then recover the A.10 evidence-provenance path and RelianceDisposition for that same bounded use, adding B.3 only when a named assurance claim is at issue; none of those facts makes the morphism application occur. Categorical function, mapping, or tuple notation creates no direct relation occurrence.
 
-For an A.6.3 source-to-receiving viewing construction, the two identified epistemes have the same EntityOfConcern, and the receiving claims are licensed under the viewing rule by the source together with any additional named sources and admitted facts that rule requires. Claim content or the effective scheme may be restricted without changing that subject. `E.17.0` alone judges whether the receiving episteme conforms to an exact viewpoint and therefore has dependent `U.View` membership. Direct authoring or query generation can yield a candidate episteme without an A.6.3 construction, and neither route creates a multi-view family. For retargeting, the EntityOfConcern changes and the case names the exact domain correspondence, retargeting rule, or relation on which it relies. An F.9 Bridge is additional only when the case separately asserts a semantic relation between exact F.17 local senses from different semantic contexts and the F.9 predicate obtains. For a same-EntityOfConcern representation transition, use A.6.3.RT; the represented episteme may remain unchanged while the representation scheme and admitted operations change.
+For an A.6.3 source-to-receiving viewing construction, the two identified epistemes have the same EntityOfConcern, and the receiving claims are licensed under the viewing rule by the source together with any additional named sources and admitted facts that rule requires. Claim content or the effective scheme may be restricted without changing that subject. `E.17.0` alone judges whether the receiving episteme conforms to an exact viewpoint and therefore has dependent `U.View` membership. Direct authoring or query generation can yield a candidate episteme without an A.6.3 construction, and neither route creates a multi-view family. For retargeting, the EntityOfConcern changes and the case names the exact domain correspondence, retargeting rule, or relation on which it relies. An F.9 Bridge is additional only when the case separately asserts a semantic relation between exact F.17 local senses from different semantic contexts and the F.9 predicate obtains. For a same-EntityOfConcern representation transition, use A.6.3.RT; the represented episteme may remain unchanged while the way it is represented and the available operations change.
 
 #### C.2.1:4.10 - Relation and neighboring-object reference
 
@@ -725,13 +729,13 @@ The Symbol-Concept-Object triangle is a teaching projection, not the episteme on
 
 | Triangle corner | C.2.1 projection | What the projection suppresses |
 | --- | --- | --- |
-| Symbol | selected representation elements and any publication carrier | representation scheme, admitted operations, publication occurrence, and correspondence to the episteme |
+| Symbol | selected representation elements and any publication carrier | conventions for reading or using the representation, admitted operations, publication occurrence, and correspondence to the episteme |
 | Concept | `ClaimGraph` interpreted under an effective `ReferenceScheme` | claim scope, justification, viewpoint, and edition relations |
 | Object | exact EntityOfConcern and any current `EpistemeEmpiricalGroundingRelation` | the difference between what claims concern and the holon through which they are empirically inspectable |
 
 A triangle diagram may be used to introduce expression, meaning, and subject if its caption says that it compresses the C.2.1 episteme ontology. Its corners and arrows are representation elements. They supply no SlotKinds, direct relation occurrences, or identity rules.
 
-This limitation matters in practice. A proof-assistant term, wiring diagram, clinical chart, learned embedding, or verbal explanation can all occupy the Symbol corner while supporting different operations and different losses. Those questions belong to the representation-scheme and transition patterns; one geometric picture does not answer them.
+This limitation matters in practice. A proof-assistant term, wiring diagram, clinical chart, learned embedding, or verbal explanation can all occupy the Symbol corner while supporting different operations and different losses. Those questions belong to the patterns for choosing and transforming representations (C.37 and A.6.3.RT); one geometric picture does not answer them.
 
 ### C.2.1:6 - Description and specification-use boundary  *(normative)*
 

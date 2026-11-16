@@ -6,12 +6,12 @@ section_id: "C.2.1:5"
 section_title: "Semantic triangle as a didactic projection  (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__006_semantic-triangle-as-a-didactic-projection-informative.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:5 — Semantic triangle as a didactic projection  (informative)"
-line_start: 53880
-line_end: 53893
+line_start: 53990
+line_end: 54003
 dependencies:
   - "A.1"
   - "A.10"
@@ -37,11 +37,11 @@ The Symbol-Concept-Object triangle is a teaching projection, not the episteme on
 
 | Triangle corner | C.2.1 projection | What the projection suppresses |
 | --- | --- | --- |
-| Symbol | selected representation elements and any publication carrier | representation scheme, admitted operations, publication occurrence, and correspondence to the episteme |
+| Symbol | selected representation elements and any publication carrier | conventions for reading or using the representation, admitted operations, publication occurrence, and correspondence to the episteme |
 | Concept | `ClaimGraph` interpreted under an effective `ReferenceScheme` | claim scope, justification, viewpoint, and edition relations |
 | Object | exact EntityOfConcern and any current `EpistemeEmpiricalGroundingRelation` | the difference between what claims concern and the holon through which they are empirically inspectable |
 
 A triangle diagram may be used to introduce expression, meaning, and subject if its caption says that it compresses the C.2.1 episteme ontology. Its corners and arrows are representation elements. They supply no SlotKinds, direct relation occurrences, or identity rules.
 
-This limitation matters in practice. A proof-assistant term, wiring diagram, clinical chart, learned embedding, or verbal explanation can all occupy the Symbol corner while supporting different operations and different losses. Those questions belong to the representation-scheme and transition patterns; one geometric picture does not answer them.
+This limitation matters in practice. A proof-assistant term, wiring diagram, clinical chart, learned embedding, or verbal explanation can all occupy the Symbol corner while supporting different operations and different losses. Those questions belong to the patterns for choosing and transforming representations (C.37 and A.6.3.RT); one geometric picture does not answer them.
 

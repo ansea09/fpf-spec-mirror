@@ -6,12 +6,12 @@ section_id: "A.1.RI:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.RI/A.1.RI__012_sota-echoing.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "A.1.RI — Reidentifying an Object across Observations"
   - "A.1.RI:11 — SoTA-Echoing"
-line_start: 3120
-line_end: 3133
+line_start: 3123
+line_end: 3136
 dependencies:
   - "A.1"
   - "A.3.3.PI"

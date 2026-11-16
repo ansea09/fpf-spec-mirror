@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__001_intro.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "E.10.ARCH — Architecture for Recovering Ontological Meaning in Wording"
   - "E.10.ARCH:intro — Intro"
-line_start: 107299
-line_end: 107308
+line_start: 107604
+line_end: 107613
 dependencies:
   - "A.10"
   - "A.15.1"

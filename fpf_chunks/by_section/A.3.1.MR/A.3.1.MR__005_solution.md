@@ -6,12 +6,12 @@ section_id: "A.3.1.MR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MR/A.3.1.MR__005_solution.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "A.3.1.MR — Candidate-Method Recovery from Work Evidence"
   - "A.3.1.MR:4 — Solution"
-line_start: 10280
-line_end: 10340
+line_start: 10283
+line_end: 10347
 dependencies:
   - "A.10"
   - "A.13"
@@ -60,6 +60,10 @@ If no candidate entity or truthful effective scheme can be recovered, lower the 
 
    Separately select investigation only when its attainable contribution warrants its whole design, acquisition, interpretation and displaced-Work burden.
 9. **Return the result warranted for the receiving use.** Return one or more candidate accounts ready for `A.3.1` identification or specialist work, with a separate comparison only when needed; or lower to a Work-related record, local regularity, performer-specific habit, observed sequence, or unresolved cue. Prepare MethodDescription-authoring input separately. The same account can qualify as `U.MethodDescription` only after its `EntityOfConcern` is admitted as one `U.Method` and its claims pass `A.3.2`.
+
+**When the source is a live demonstration.** Identify what the observer can see and what is already known about the proposed method. A performance of a known method can show a visible feature directly. If a signal and a fixed waiting time coincide in the recorded or observed episode, two different methods can fit the action. An observation in which the signal arrives later can distinguish waiting for the signal from waiting a fixed time. Use such a variation only if the difference matters. Retain the evidence at its actual scope when the methods remain indistinguishable. Admission of the observed episode as `U.Work` uses independently established enactment grounds from step 2.
+
+The performed occurrence can itself serve as a model of the selected feature. A gesture or utterance can additionally express claim content under a recoverable interpretation. A judgement about the observer's capability needs evidence about that observer under A.2.2. Evidence of a gain also calls for a comparable prior basis. Attributing the change to this demonstration calls for grounds connecting the two.
 
 #### A.3.1.MR:4.3 - Select the result branch
 

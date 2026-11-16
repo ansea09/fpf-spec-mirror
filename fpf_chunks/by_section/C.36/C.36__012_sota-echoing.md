@@ -6,12 +6,12 @@ section_id: "C.36:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36/C.36__012_sota-echoing.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "C.36 — Cultural Evolution and Cultural-Evolution Engineering"
   - "C.36:11 — SoTA-Echoing"
-line_start: 85692
-line_end: 85706
+line_start: 85802
+line_end: 85816
 dependencies:
   - "A.1"
   - "A.10"

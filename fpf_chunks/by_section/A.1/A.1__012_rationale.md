@@ -6,12 +6,12 @@ section_id: "A.1:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1/A.1__012_rationale.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "A.1 — Recognize a Whole with Parts (U.Holon and Admitted Holon Kinds)"
   - "A.1:10 — Rationale"
-line_start: 2908
-line_end: 2917
+line_start: 2911
+line_end: 2920
 dependencies:
   - "A.1.1"
   - "A.1.STM"

@@ -6,12 +6,12 @@ section_id: "E.17.0:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.0/E.17.0__005_solution.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "E.17.0 — Viewpoint and View Recognition for Multi-View Describing"
   - "E.17.0:4 — Solution"
-line_start: 112681
-line_end: 113090
+line_start: 112986
+line_end: 113395
 dependencies:
   - "A.22"
   - "A.6.3"
@@ -372,9 +372,9 @@ Recover `S_dep` from `E_dependent`, `S_base` from `E_base`, and `S_decl` from D.
 
 Keep claim-scope `widen`, `narrow`, and `refit` under A.2.6 when no local-sense translation is needed. Use `translate` only when scope membership must be expressed between exact local senses: require an obtaining F.9 Bridge between their exact `SchemeSenseCell` values, the separate affirmative claim for that translation's direction, rule, and tolerance, and the current A.10 or B.3 reliance branch. Scheme difference, same spelling, token reuse, or translation intent triggers no Bridge.
 
-Use A.6.3.RT when the dependency use needs a representation-scheme transition. Recover exact source and receiving epistemes and their construction, preservation, loss, and admissible use when that reliance-facing use requires them.
+Use A.6.3.RT when the dependency use depends on a changed representation language or reasoning medium. Recover exact source and receiving epistemes and their construction, preservation, loss, and admissible use when that reliance-facing use requires them.
 
-Open `RepresentationSchemeTransitionRelation@Context` only when the transition occurrence matters to that use and all six required participants—one independently selected `BoundedModelUseStructure : U.Structure`, the preserved EntityOfConcern, source and receiving representation epistemes, and source and receiving scheme-description epistemes—plus actual representation-transformation Work are independently recoverable. The `@Context` suffix is the retrieval label for that A.1.1 use, and Work belongs to the obtaining test rather than the participant tuple. Apply A.6.3.RT's same-EntityOfConcern, preservation, loss or recoverability, and tuple-plus-scheme-pair identity rules; add a transition-description episteme only when its receiving use needs one.
+When the receiving use depends on the transition occurrence, apply `RepresentationTransitionRelation@Context`. Recover the six participants separately. They are the independently selected `BoundedModelUseStructure : U.Structure`, the preserved EntityOfConcern, source episteme `X`, receiving episteme `Y`, an episteme describing the effective interpretation rules of `X`, and one describing those of `Y`. Establish the actual representation-transformation Work as required by A.6.3.RT:4.1.b. The six participants determine the occurrence’s identity. The Work is part of the test that the occurrence took place. `@Context` is the retrieval label for that A.1.1 use. Apply A.6.3.RT’s conditions for preservation, loss or recoverability. Add a description of the transition only when the receiving use needs it.
 
 Add C.29 only for a current mathematical lens. Use F.9 separately when the claim needs a Bridge between distinct local senses. If interpretation or the proposed dependency use lacks a required basis, name that gap and block only that use; the absence of a six-participant transition occurrence or Bridge by itself blocks neither the direct dependency judgment nor a supported exact construction.
 

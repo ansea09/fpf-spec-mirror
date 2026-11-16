@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.3.RT"
-pattern_title: "Representation-Scheme Transition: Change Representation of the Same EntityOfConcern"
+pattern_title: "Representation Transition: Change Representation of the Same EntityOfConcern"
 section_id: "A.6.3.RT:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT/A.6.3.RT__002_problem-frame.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
-  - "A.6.3.RT — Representation-Scheme Transition: Change Representation of the Same EntityOfConcern"
+  - "A.6.3.RT — Representation Transition: Change Representation of the Same EntityOfConcern"
   - "A.6.3.RT:1 — Problem frame"
-line_start: 19377
-line_end: 19410
+line_start: 19384
+line_end: 19417
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -49,9 +49,9 @@ keywords:
 
 ### A.6.3.RT:1 - Problem frame
 
-Use this pattern when practical content must survive a change of representation scheme or reasoning medium: prose to table, table to diagram, diagram to structured notation, a model to a different inspectable rendering, or another declared representation change. In plain language: **change the representation while preserving what matters for this use**.
+Use this pattern when changing the representation language or the reasoning medium helps someone inspect, compare or calculate using the same material. A table shown in time order and the same table aligned by component can use one language while supporting different comparisons. Exporting the chosen table to another file can leave both the language and the reasoning medium unchanged.
 
-Start with the content that must survive and the action the new representation should support. The source can be givens, constraints and a partial construction while the answer is still unknown. Under an available scheme, make the target, compare it with the source, and state what was preserved, foregrounded, rearranged, lost or newly suggested. Exact episteme identities are not prerequisites for this ordinary first result.
+Start with the content that must survive and the action the new representation should support. The source can be givens, constraints and a partial construction while the answer is still unknown. Construct the target representation in the chosen medium. Compare it with the source and state what was preserved, foregrounded, rearranged, lost or newly suggested. Exact episteme identities are not prerequisites for this ordinary first result.
 
 Plain starting vocabulary:
 
@@ -60,7 +60,7 @@ Plain starting vocabulary:
 | `source material` | The source claims, table, prose, diagram, model, record, publication, or other material being re-represented. In an exact case, distinguish the source episteme from its form, carrier, world-side concern, and additional inputs. |
 | `content to survive` | The claims, relations, commitments, uncertainty, source pins, or distinctions the target representation must still support for the declared use. |
 | `target representation` | The table, diagram, symbolic expression, sequence of signs or other representation made for the receiving task. Its visible form or carrier does not by itself identify a receiving episteme. |
-| `representation scheme` | The conventions for forming and interpreting expressions in this use. Different expressions can use the same scheme. |
+| `representation language` | The conventional system that admits the expressions and gives them readings. A change in layout can preserve the language while changing what its user can inspect or compare. |
 | `reasoning medium` | What the representation lets a user inspect, compare, infer, traverse, or replay more or less easily. |
 | `representation delta` | What changed in shape, notation, salience, topology, ordering, interaction, or another representation factor. |
 | `loss and recoverability` | What becomes harder to see or is omitted, and how the user can recover it when it matters. |
@@ -77,7 +77,7 @@ Plain starting vocabulary:
 
 **Exact claim identity.** Open the episteme-construction branch when a receiving use depends on exact claim identity or an explicit preservation construction. Independent citation, a consequential scheme crossing, disputed support or a decode-mediated claim can create that need. Recover source episteme `X`, receiving episteme `Y` and viewing construction `v : X -> Y`, together with the source claims and relations on which `v` depends, and the scheme relation, loss/recoverability or assurance needed by that use.
 
-**Later-specific occurrence.** Open `RepresentationSchemeTransitionRelation@Context` only when actual representation-transformation Work and the six participants defined in §4.1.b are themselves material. An exact `v : X -> Y` does not imply that occurrence.
+**Later-specific occurrence.** Open `RepresentationTransitionRelation@Context` only when actual representation-transformation Work and the six participants defined in §4.1.b are themselves material. An exact `v : X -> Y` does not imply that occurrence.
 
-**Not this pattern when.** Use A.6.3.CR for same-regime wording, A.6.3.NAR when reader-useful narrative ordering is primary, E.17.EFP when explanation adequacy is primary, A.6.4 when the EntityOfConcern changes, A.7 for carrier work or extraction that has not yet constituted a receiving episteme, and A.6.3.CSC when a narrower-use coarsened receiving episteme is primary.
+**Not this pattern when.** Use A.6.3.CR for faithful restatement or translation when the receiver needs the same claims in other words or another language, A.6.3.NAR when reader-useful narrative ordering is primary, E.17.EFP when explanation adequacy is primary, A.6.4 when the EntityOfConcern changes, A.7 for carrier work or extraction that has not yet constituted a receiving episteme, and A.6.3.CSC when a narrower-use coarsened receiving episteme is primary.
 

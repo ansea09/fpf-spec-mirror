@@ -6,12 +6,12 @@ section_id: "E.17.2:5"
 section_title: "Worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.2/E.17.2__006_worked-cases.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "E.17.2 — TEVB - Project-local Typical Engineering Viewpoint Bundle Template for Holons"
   - "E.17.2:5 — Worked cases"
-line_start: 113885
-line_end: 113945
+line_start: 114190
+line_end: 114250
 dependencies:
   - "A.22"
   - "A.6.3"
@@ -88,5 +88,5 @@ First determine whether the product is a claim-bearing episteme or only a diagra
 
 It becomes a `U.View` only if one viewpoint P admits E's EntityOfConcern and `EpistemeViewpointConformanceRelation(E,P)` obtains. Method enactment, product naming, diagram form, declaration position, publication, and visual resemblance grant no membership.
 
-If the map represents independently recovered domain regions or relations, recover how its elements correspond to those subjects. Use A.6.3.RT/A.6.3.RT.OE for constructing the expression or changing its representation scheme. Add C.29 when a mathematical inference or transfer depends on that correspondence. A carrier remains with E.24.PUB, and the drawing makes no represented world-side relation obtain.
+If the map represents independently recovered domain regions or relations, recover how its elements correspond to those subjects. Use A.6.3.RT/A.6.3.RT.OE for constructing the expression or changing its representation language or reasoning medium for a particular use. Add C.29 when a mathematical inference or transfer depends on that correspondence. A carrier remains with E.24.PUB, and the drawing makes no represented world-side relation obtain.
 

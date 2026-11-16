@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.37.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "C.37 — Select and Use Representations for One Action"
-line_start: 85715
-line_end: 86009
+line_start: 85825
+line_end: 86121
 dependencies:
   - "A.10"
   - "A.2.4"
@@ -199,10 +199,12 @@ Co-use does not establish:
 - one multi-view family or mutual conformance;
 - one integrated model or coherent world account;
 - one constructional whole or composition relation;
-- one shared representation scheme, graph, or correspondence;
+- one shared representation language, graph, or correspondence;
 - one assurance result or authorization.
 
 For an additional claim, open `C.13`, `A.22`, `E.17.0`, `C.29`, a domain integration pattern, or another governing pattern only when the receiving action depends on that claim.
+
+Use C.37.MM when the decision requires an inference across models or a successor must recover their governing conventions and the methods by which their results were obtained. A straightforward use of several sources can end here.
 
 #### C.37:4.7 - Recognition, reliance, assurance, and action remain separate
 

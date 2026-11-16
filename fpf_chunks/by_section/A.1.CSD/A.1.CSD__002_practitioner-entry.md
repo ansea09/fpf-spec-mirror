@@ -6,12 +6,12 @@ section_id: "A.1.CSD:0"
 section_title: "Practitioner Entry"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.CSD/A.1.CSD__002_practitioner-entry.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "A.1.CSD — Discovering Systems That May Bear Consequences"
   - "A.1.CSD:0 — Practitioner Entry"
-line_start: 3922
-line_end: 3959
+line_start: 3925
+line_end: 3962
 dependencies:
   - "A.1"
   - "A.1.SCR"

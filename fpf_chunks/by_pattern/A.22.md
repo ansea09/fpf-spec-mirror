@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.22.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "A.22 — Structure and Structural Views"
-line_start: 41699
-line_end: 42229
+line_start: 41706
+line_end: 42236
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -179,7 +179,7 @@ Base `U.Structure` identity has no ambient context field. A bounded-context labe
 
 The first discriminator is a plurality, not a graph node set created by notation. A separately useful C.13 collection may designate the same constituents, but collection membership neither proves parthood nor replaces their identities. The second discriminator contains the relation occurrences chosen for this organization; a relation name, edge label, tuple position, or adjacency row is insufficient. The third contains the semantic constraints applied; changing only the rationale, formatting, or publication of an unchanged constraint claim does not change this discriminator. The fourth names the use question, admissible action, and stop or return condition.
 
-Two references resolve to the same `U.Structure` when all four discriminators resolve to the same values. A changed designator, selecting system, method, work occurrence, result episteme, description, graph, representation scheme, view, or publication leaves the structure unchanged when the four discriminators remain unchanged. Replacing a constituent, a selected relation occurrence, an applied constraint, or the named use frame can identify another structure.
+Two references resolve to the same `U.Structure` when all four discriminators resolve to the same values. A changed designator, selecting system, method, work occurrence, result episteme, description, graph, representation language, view, or publication leaves the structure unchanged when the four discriminators remain unchanged. Replacing a constituent, a selected relation occurrence, an applied constraint, or the named use frame can identify another structure.
 
 If a relation occurrence may have been reidentified, apply its relation pattern before reapplying A.22. A change to an explanatory guard alone does not change identity. If its content changes an applied constraint or a frame value, compare that existing discriminator.
 

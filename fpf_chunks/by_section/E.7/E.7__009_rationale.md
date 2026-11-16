@@ -6,12 +6,12 @@ section_id: "E.7:8"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.7/E.7__009_rationale.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "E.7 — Archetypal Grounding: Explain Rules of FPF Architectural Patterns through Cases"
   - "E.7:8 — Rationale"
-line_start: 102157
-line_end: 102159
+line_start: 102456
+line_end: 102458
 dependencies:
   - "E.5.4"
   - "E.6"

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.17.2.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "E.17.2 — TEVB - Project-local Typical Engineering Viewpoint Bundle Template for Holons"
-line_start: 113633
-line_end: 114018
+line_start: 113938
+line_end: 114323
 dependencies:
   - "A.22"
   - "A.6.3"
@@ -266,7 +266,7 @@ A materialized local TEVB instance provides four project references. The templat
 2. state the realization, allocation, dependency, consistency, trace, or other direct relation claimed;
 3. use the pattern that defines and tests that relation, including its obtaining law;
 4. use A.6.RCD when no existing direct or derived relation is sufficient;
-5. recover any representation's correspondence to that relation; use A.6.3.RT/A.6.3.RT.OE for expression construction or representation-scheme transition, adding C.29 when a mathematical inference or transfer question requires it.
+5. recover any representation's correspondence to that relation; use A.6.3.RT/A.6.3.RT.OE for expression construction or representation transition, adding C.29 when a mathematical inference or transfer question requires it.
 
 If a separate receiving claim asserts dated `U.Work`, recover each actual performer through A.13 and use A.15.1 to establish the Work, Method, time, and containing System independently. Add F.6 only when that receiving claim also consumes precise assignment-bound attribution through the same obtaining A.13 assignment. Missing or failed F.6 alone leaves independently admitted Work intact. Those Work and optional attribution facts are neither participants in the cross-view relation nor prerequisites for identifying it.
 
@@ -339,7 +339,7 @@ First determine whether the product is a claim-bearing episteme or only a diagra
 
 It becomes a `U.View` only if one viewpoint P admits E's EntityOfConcern and `EpistemeViewpointConformanceRelation(E,P)` obtains. Method enactment, product naming, diagram form, declaration position, publication, and visual resemblance grant no membership.
 
-If the map represents independently recovered domain regions or relations, recover how its elements correspond to those subjects. Use A.6.3.RT/A.6.3.RT.OE for constructing the expression or changing its representation scheme. Add C.29 when a mathematical inference or transfer depends on that correspondence. A carrier remains with E.24.PUB, and the drawing makes no represented world-side relation obtain.
+If the map represents independently recovered domain regions or relations, recover how its elements correspond to those subjects. Use A.6.3.RT/A.6.3.RT.OE for constructing the expression or changing its representation language or reasoning medium for a particular use. Add C.29 when a mathematical inference or transfer depends on that correspondence. A carrier remains with E.24.PUB, and the drawing makes no represented world-side relation obtain.
 
 ### E.17.2:6 - Consequences
 
@@ -392,7 +392,7 @@ Responsibility/allocation is retained because it changes the practical question 
 - Use **C.13** to construct collections and **A.22** to select structures.
 - Use **A.6.3** only for optional source-to-receiving viewing construction; that construction does not grant view membership.
 - Use **A.3.1/A.3.2** for Methods and MethodDescriptions, **A.3.4** for transformations, **A.2** for local system-role kinds, **C.3.2** for their `KindSignature` declarations, four-input classification judgments, and optional extensions, **A.2.1** for `U.SystemRoleAssignment` species and occurrences, **A.2.2** for capabilities, **A.2.7** for relations among system-role kinds, the direct responsibility pattern for responsibility, **E.18** for transformation flows, and **B.1.1** plus applicable module or interface patterns for dependency, module, and interface relations.
-- Use **E.24.PUB** for publication objects and relations, **A.6.3.RT/A.6.3.RT.OE** for expression construction and representation-scheme transition, and **C.29** for a mathematical lens over independently recovered objects or relations.
+- Use **E.24.PUB** for publication objects and relations, **A.6.3.RT/A.6.3.RT.OE** for expression construction and representation transition, and **C.29** for a mathematical lens over independently recovered objects or relations.
 - Use **A.6.RCD** to state or derive a needed relation claim, or return its blocker, when current predicates are insufficient.
 
 ### E.17.2:9 - Conformance checklist

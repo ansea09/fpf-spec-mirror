@@ -6,12 +6,12 @@ section_id: "A.3.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1/A.3.1__005_solution.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "A.3.1 — U.Method: Reusable Way of Doing with Explicit Applicability"
   - "A.3.1:4 — Solution"
-line_start: 9814
-line_end: 10060
+line_start: 9817
+line_end: 10063
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -186,7 +186,7 @@ Choose by the claim being made:
 * If it schedules future work or reports a dated occurrence, use A.15.2 or A.15.1.
 * If it claims evidence, provenance or support, use the direct pattern for that claim or relation. Add an A.10 source-to-use account when source recovery, provenance, currentness or bounded reliance must remain replayable. If a representation's form or layout is being treated as sufficient to prescribe or authorize action, apply C.2.P.DR before choosing the pattern for that claim.
 
-Use §4.2 for cross-context correspondence, bounded-use, assurance, and mechanism-realization claims. C.2.1, A.6.3, A.6.3.RT, A.6.4, or A.1.1 governs an actual change of episteme edition, reference scheme, representation scheme, retargeting, or model-use relation. A.6.1 governs an application binding. State one of these relations only when its participants and predicate are present; otherwise retain the source objects without asserting the relation.
+Use §4.2 for cross-context correspondence, bounded-use, assurance, and mechanism-realization claims. C.2.1 governs changes of episteme edition or effective interpretation rules. Use A.6.3 for viewing an episteme, A.6.3.RT for a representation transition, A.6.4 for retargeting, and A.1.1 for a model-use relation. A.6.1 governs an application binding. State one of these relations only when its participants and predicate are present; otherwise retain the source objects without asserting the relation.
 
 Thus *algorithm* and *practice* remain source cues. “The SQL query is the method” fails unless the project can state the reusable way of querying, its admissible inputs, intended result, and stop independently of that query text. “Our review practice is the method” fails when the sentence is about a team assignment, dated review, discipline, tradition, evidence record, or publication.
 

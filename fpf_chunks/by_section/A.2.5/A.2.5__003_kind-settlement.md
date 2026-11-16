@@ -6,12 +6,12 @@ section_id: "A.2.5:0.1"
 section_title: "Kind Settlement"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__003_kind-settlement.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "A.2.5 — SystemRoleAssignmentStateRelation - Assignment-State Recognition for Work Admission"
   - "A.2.5:0.1 — Kind Settlement"
-line_start: 6652
-line_end: 6673
+line_start: 6655
+line_end: 6676
 dependencies:
   - "A.15"
   - "A.15.1"

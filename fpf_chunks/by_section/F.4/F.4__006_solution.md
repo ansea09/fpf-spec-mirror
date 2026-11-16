@@ -6,12 +6,12 @@ section_id: "F.4:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__006_solution.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "F.4 — SystemRoleKindDescription — Describing an Exact System-Role Kind"
   - "F.4:4 — Solution"
-line_start: 127234
-line_end: 127309
+line_start: 127541
+line_end: 127616
 dependencies:
   - "A.15"
   - "A.15.1"

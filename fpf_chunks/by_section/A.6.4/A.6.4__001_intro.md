@@ -6,12 +6,12 @@ section_id: "A.6.4:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__001_intro.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "A.6.4 — EntityOfConcern Retargeting: Judge a Bounded Use Across Different Entities"
   - "A.6.4:intro — Intro"
-line_start: 20605
-line_end: 20622
+line_start: 20612
+line_end: 20629
 dependencies:
   - "A.10"
   - "A.15"
@@ -51,5 +51,5 @@ keywords:
 
 **What this buys.** The reader can decide one receiving use from the bounded-use assertion q and current facts; source-claim survival, performed Work, and EntityOfConcern identity retain their separate bases.
 
-**Not this pattern when.** If the EntityOfConcern is preserved, use the pattern for the change that occurred: A.6.3.CR for wording, A.6.3.RT for representation scheme or reasoning medium, A.6.3.CSC for controlled coarsening, or E.17.EFP for explanation mode. A normal time-to-frequency description of the same signal is an A.6.3.RT case. Use C.29 when a separate mathematical representation or transfer question remains; bring its correspondence and limits back to that representation change. Use F.9 only for a separately claimed Bridge between two local senses. Keep every other independently current claim under its direct pattern; the Relations section names the main neighboring owners once.
+**Not this pattern when.** If the EntityOfConcern is preserved, use the pattern for the change that occurred: A.6.3.CR for faithful restatement, including translation, A.6.3.RT when a change of representation language or reasoning medium enables the intended operation, A.6.3.CSC for controlled coarsening, or E.17.EFP for explanation mode. A normal time-to-frequency description of the same signal is an A.6.3.RT case. Use C.29 when a separate mathematical representation or transfer question remains; bring its correspondence and limits back to that representation change. Use F.9 only for a separately claimed Bridge between two local senses. Keep every other independently current claim under its direct pattern; the Relations section names the main neighboring owners once.
 

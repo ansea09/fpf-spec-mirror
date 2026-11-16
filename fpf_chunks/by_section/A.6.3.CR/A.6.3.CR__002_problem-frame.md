@@ -6,12 +6,12 @@ section_id: "A.6.3.CR:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CR/A.6.3.CR__002_problem-frame.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "A.6.3.CR — ConservativeRetextualization: EntityOfConcern-Preserving Textual Re-Expression"
   - "A.6.3.CR:1 — Problem frame"
-line_start: 19022
-line_end: 19039
+line_start: 19029
+line_end: 19046
 dependencies:
   - "A.15"
   - "A.6.2"
@@ -48,5 +48,5 @@ Use this pattern when available source claims about the same EntityOfConcern nee
 
 **Fuller review.** Add the information needed when a dispute, risk or intended reliance cannot be settled from that short statement. External citation, cross-context use or a release decision may make preservation, correspondence or use conditions material; they do not by themselves require every field in §4.3.
 
-**Use a neighboring pattern when** explanation is primary (`ExplanationFaithfulnessProfile`), the representation scheme materially changes (`RepresentationSchemeTransition`), the EntityOfConcern changes (`A.6.4`), or the work makes a comparative-review claim (`E.17.ID.CR`). F.9 governs an asserted semantic Bridge or its bounded use; F.9.1 supplies an optional stance note. A coarsened rendering whose loss requires a narrower use and return to the source is governed by `A.6.3.CSC Controlled Semantic Coarsening`.
+**Use a neighboring pattern when** explanation is primary (`ExplanationFaithfulnessProfile`), the intended operation depends on changing the representation language or reasoning medium (`RepresentationTransition`), the EntityOfConcern changes (`A.6.4`), or the work makes a comparative-review claim (`E.17.ID.CR`). F.9 governs an asserted semantic Bridge or its bounded use; F.9.1 supplies an optional stance note. A coarsened rendering whose loss requires a narrower use and return to the source is governed by `A.6.3.CSC Controlled Semantic Coarsening`.
 

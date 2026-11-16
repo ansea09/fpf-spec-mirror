@@ -6,12 +6,12 @@ section_id: "C.37.CF:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37.CF/C.37.CF__005_solution.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "C.37.CF — Compare Content and Form Changes"
   - "C.37.CF:4 — Solution"
-line_start: 86290
-line_end: 86360
+line_start: 86402
+line_end: 86472
 dependencies:
   - "A.3.2.DE"
   - "C.2.8"
@@ -31,7 +31,7 @@ Name the reader or consuming system, the Method or candidate account, the intend
 
 State the content that must survive: the relied-on action claims, relations, applicability, uncertainty, result, stop and source-return information. Then state the representation difference, such as notation, arrangement, salience, navigation or interaction. Do not call a new condition or an unsupported diagram edge a form-only change.
 
-Use A.6.3.RT for a changed representation scheme, or the applicable same-regime wording, narrative or coarsening result. Its preservation and loss answer helps establish the comparison inputs; it does not demonstrate improved performance. If the Method's reusable semantics also changed, retain the A.3.1.MV identity/variant question and bound the description comparison accordingly.
+Use A.6.3.RT when a change of representation language or reasoning medium affects the receiving operation, or the applicable same-regime wording, narrative or coarsening result. Its preservation and loss answer helps establish the comparison inputs; it does not demonstrate improved performance. If the Method's reusable semantics also changed, retain the A.3.1.MV identity/variant question and bound the description comparison accordingly.
 
 #### C.37.CF:4.2 - Choose the smallest informative contrasts
 

@@ -6,12 +6,12 @@ section_id: "C.32.MWA:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA/C.32.MWA__001_intro.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "C.32.MWA — Synthesize an Architecture Account of Methods and Their Use"
   - "C.32.MWA:intro — Intro"
-line_start: 82532
-line_end: 82539
+line_start: 82642
+line_end: 82649
 dependencies:
   - "A.13"
   - "A.15.1"

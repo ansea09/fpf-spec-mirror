@@ -6,12 +6,12 @@ section_id: "E.9:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9/E.9__001_intro.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "E.9 — Design-Rationale Record (DRR) for FPF Content Decisions"
   - "E.9:intro — Intro"
-line_start: 103717
-line_end: 103722
+line_start: 104018
+line_end: 104023
 dependencies:
   - "A.10"
   - "A.15.1"

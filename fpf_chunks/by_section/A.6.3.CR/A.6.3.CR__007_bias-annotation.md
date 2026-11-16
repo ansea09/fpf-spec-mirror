@@ -6,12 +6,12 @@ section_id: "A.6.3.CR:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CR/A.6.3.CR__007_bias-annotation.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "A.6.3.CR — ConservativeRetextualization: EntityOfConcern-Preserving Textual Re-Expression"
   - "A.6.3.CR:6 — Bias-Annotation"
-line_start: 19305
-line_end: 19308
+line_start: 19312
+line_end: 19315
 dependencies:
   - "A.15"
   - "A.6.2"
@@ -34,5 +34,5 @@ keywords:
 
 ### A.6.3.CR:6 - Bias-Annotation
 
-This pattern biases toward same-entity conservativity and away from explanation or retargeting inflation. The main mitigation is to repair a preservation defect within CR when possible and apply `ExplanationFaithfulnessProfile`, `RepresentationSchemeTransition`, `A.6.4`, or the pattern that defines, constrains, or tests the changed claim or use when it requires leaving same-entity textual restatement.
+This pattern biases toward same-entity conservativity and away from explanation or retargeting inflation. The main mitigation is to repair a preservation defect within CR when possible and apply `ExplanationFaithfulnessProfile`, `RepresentationTransition`, `A.6.4`, or the pattern that defines, constrains, or tests the changed claim or use when it requires leaving same-entity textual restatement.
 

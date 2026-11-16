@@ -6,12 +6,12 @@ section_id: "E.4.DPF:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__001_intro.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "E.4.DPF — Domain and Local Principle Frameworks: Whether and How to Author and Publish"
   - "E.4.DPF:intro — Intro"
-line_start: 99479
-line_end: 99484
+line_start: 99692
+line_end: 99697
 dependencies:
   - "A.1.1"
   - "A.13"

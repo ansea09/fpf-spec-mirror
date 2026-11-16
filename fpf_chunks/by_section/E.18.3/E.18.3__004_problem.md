@@ -6,12 +6,12 @@ section_id: "E.18.3:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.3/E.18.3__004_problem.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "E.18.3 — Constraint-Governed Transformation-Flow Unfolding Structure"
   - "E.18.3:2 — Problem"
-line_start: 118735
-line_end: 118742
+line_start: 119040
+line_end: 119047
 dependencies:
   - "A.10"
   - "A.15"

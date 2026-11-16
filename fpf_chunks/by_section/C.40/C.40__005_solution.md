@@ -6,12 +6,12 @@ section_id: "C.40:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40/C.40__005_solution.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "C.40 — Develop Branching Search from Reusable Material"
   - "C.40:4 — Solution"
-line_start: 89052
-line_end: 89499
+line_start: 89251
+line_end: 89706
 dependencies:
   - "C.11"
   - "C.18"
@@ -140,6 +140,10 @@ The arrows show result use and a return for development. The forecast selects wo
 **Choose what is allowed to change together.** A useful form may require its own tuned parameters. Compare a form with parameters fitted by the allowed inner operation rather than condemn it under settings suited only to its rival. Conversely, adding adjustable parameters is not automatically an improvement. Compare fixed forms, tuned forms and changed forms where those alternatives can settle the question. State the allowed tuning work for each; count it in the development burden. If the changed form needs another initializer, data preparation or support, compare that complete arrangement and preserve the dependency in the returned way.
 
 Changing a training loss changes what guides updates. It does not by itself change what the receiving use values. An outer comparison can favor a loss whose numerical value is larger or whose early learning is slower because the resulting model performs better in the intended use. If the evaluation itself is defective, return to A.19.ECS and E.23; optimizing the candidate against that defect is no repair. A change of the receiving requirement instead reopens the affected question through C.40.CD.
+
+**Identify which work could release the constraint.** If useful proposals have stopped appearing, compare how the current way generates, examines and passes them on. Give an already qualified proposal to the receiving operation. If it can use the proposal, inspect whether generation reaches proposals of that kind and whether the assessment would retain them. If assessment discards a proposal that withstands a relevant trial, repair the comparison or the reference collection. If it is retained but the receiving work cannot start, identify the missing knowledge, access, authority or other means. A successful intervention locates one constraint under the tested conditions. Several contributions can constrain the same continuation. Compare their combined change with the least costly sufficient repair.
+
+Keep three grounds for allocating another attempt distinct. Difference from an archive depends on its contents and the means of comparison. Suitability for the receiving work depends on a criterion for its intended result. Promise for further development depends on what could be done next with the candidate. A favourable judgement of promise can warrant a bounded trial. To credit the candidate with opening a continuation, establish what the trial or a justified construction makes attainable and what provision it requires.
 
 **Make search affordable by choosing an approximation.** First obtain enough applications to make the comparison intelligible. Then choose among the following arrangements according to what is costly and what evidence the decision needs. They can be combined when their combined losses remain acceptable; they are not compulsory stages.
 
@@ -357,6 +361,10 @@ The useful result is an applied contribution with an examined outcome: changed m
 #### C.40:4.11 - Build the representation together with its changes
 
 Use this branch when the material's form makes a needed variation difficult or unavailable: a shared rule changes too many parts, a grammar cannot express the proposed construction, or repeated changes never leave the same family. Also use it when choosing material for further development requires examining which useful variations it can produce. The useful result is editable material, a way to obtain its candidate result, and changes that expose worthwhile continuations while preserving the conditions that matter. A familiar direct edit or sufficient construction can finish this work without a population search. The operation-choice construction below also applies when the representation is adequate but choosing useful changes remains costly or unreliable.
+
+**Compare what can change from the same present result.** State the next difference the work needs, which properties must survive the change, the permitted operations, and the available resources. Two representations can yield identical current behaviour and admit different changes. Every permitted operation may preserve a relation that the proposed target violates in one representation. A legal sequence in the other may reach that target within the available budget. The target and the protected properties now supply a reason to choose between the representations. A different target can reverse that choice.
+
+When a change is expressible, distinguish its existence from the ability of the current search to find it. Try a directed change of known effect and inspect the target property and the protected behaviour. If the intended change is reached but protected behaviour disappears, vary the update or its size before concluding that the representation excludes it. If a previously attainable behaviour seems to have vanished, compare access and activation conditions where they can affect observation (E.23.CAE). Reconstruct the needed response under a qualified intervention. Restoration under changed access establishes that the response remains attainable there. It leaves the original cause open if other conditions changed with access.
 
 **Connect the stored material to what is examined.** Start with one current example, one consequential difference to obtain, and the properties that must survive. Follow the material through the operation that constructs or executes it to the result used in comparison. For a drawing, a parameter record drives a generator and produces a figure. For a procedure, an expression is interpreted on inputs and produces actions or another result. State the inputs, initial state and support that affect that passage. When learning or development is part of it, include that work before judging the resulting candidate. An encoded description, its constructed object and the behavior of that object have different change conditions.
 

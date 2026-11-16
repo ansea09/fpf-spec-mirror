@@ -6,12 +6,12 @@ section_id: "C.29.3:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29.3/C.29.3__002_problem-frame.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "C.29.3 — Computational Realization"
   - "C.29.3:1 — Problem frame"
-line_start: 73863
-line_end: 73874
+line_start: 73973
+line_end: 73984
 dependencies:
   - "A.3.3"
   - "A.6.1"

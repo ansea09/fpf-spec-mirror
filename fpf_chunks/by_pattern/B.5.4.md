@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.5.4.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "B.5.4 — Recognize a Concept in a Situation"
-line_start: 52486
-line_end: 52616
+line_start: 52592
+line_end: 52722
 dependencies:
   - "A.7.1"
   - "B.5"

@@ -6,12 +6,12 @@ section_id: "C.38:9"
 section_title: "Consequences and trade-offs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.38/C.38__010_consequences-and-trade-offs.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "C.38 — Construct Comparable Ways to Obtain One Result"
   - "C.38:9 — Consequences and trade-offs"
-line_start: 86681
-line_end: 86692
+line_start: 86878
+line_end: 86889
 dependencies:
   - "A.10"
   - "A.15.9"

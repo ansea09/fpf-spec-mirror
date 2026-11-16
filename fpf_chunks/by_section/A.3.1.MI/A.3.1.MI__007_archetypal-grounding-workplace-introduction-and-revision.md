@@ -6,12 +6,12 @@ section_id: "A.3.1.MI:5"
 section_title: "Archetypal Grounding - Workplace Introduction and Revision"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MI/A.3.1.MI__007_archetypal-grounding-workplace-introduction-and-revision.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "A.3.1.MI — Introduce a Method into Practice and Decide What to Keep or Change"
   - "A.3.1.MI:5 — Archetypal Grounding - Workplace Introduction and Revision"
-line_start: 11759
-line_end: 11794
+line_start: 11766
+line_end: 11801
 dependencies:
   - "A.3.1"
   - "A.3.1.FT"

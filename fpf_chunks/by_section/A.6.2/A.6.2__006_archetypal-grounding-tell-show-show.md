@@ -6,12 +6,12 @@ section_id: "A.6.2:5"
 section_title: "Archetypal Grounding (Tell–Show–Show)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.2/A.6.2__006_archetypal-grounding-tell-show-show.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "A.6.2 — Effect-Free Episteme Morphing: Laws for Mathematical Relations Between Epistemes"
   - "A.6.2:5 — Archetypal Grounding (Tell–Show–Show)"
-line_start: 18243
-line_end: 18330
+line_start: 18250
+line_end: 18337
 dependencies:
   - "A.6.0"
   - "A.6.1"
@@ -68,7 +68,7 @@ Let `X = V_raw`, `Y = V_norm`. For this example, assume each episteme independen
 * `entityOfConcernRef(X) = entityOfConcernRef(Y)` (same system);
 * when grounding is current, the same grounding occurrence and grounding holon are found on both sides; this is an endpoint comparison, not a change made by `NormalizeView`;
 * any viewpoint selected by the named normalization use is the same P for X and Y; this selection is outside episteme identity;
-* `representationSchemeRef(X) = representationSchemeRef(Y)` (same notation).
+* The source and receiving expressions selected for this comparison use the same representation language. Establish this by resolving each language reference under its applicable binding. One episteme may supply both endpoints and still be expressed in two different languages. Equal reference spellings alone do not establish equality of the two languages.
 
 The EFEM `NormalizeView : X→Y`:
 

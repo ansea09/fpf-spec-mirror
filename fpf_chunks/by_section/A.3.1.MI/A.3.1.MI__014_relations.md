@@ -6,12 +6,12 @@ section_id: "A.3.1.MI:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MI/A.3.1.MI__014_relations.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "A.3.1.MI — Introduce a Method into Practice and Decide What to Keep or Change"
   - "A.3.1.MI:12 — Relations"
-line_start: 11860
-line_end: 11870
+line_start: 11867
+line_end: 11877
 dependencies:
   - "A.3.1"
   - "A.3.1.FT"

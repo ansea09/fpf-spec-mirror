@@ -6,12 +6,12 @@ section_id: "C.40.JD:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.JD/C.40.JD__007_bias-annotation.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "C.40.JD — Develop a Way, Its Holder and Its Provision Together"
   - "C.40.JD:6 — Bias-Annotation"
-line_start: 93100
-line_end: 93103
+line_start: 93311
+line_end: 93314
 dependencies:
   - "A.12"
   - "C.32.MWA.PP"

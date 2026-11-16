@@ -6,12 +6,12 @@ section_id: "A.3.1.MV:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MV/A.3.1.MV__013_sota-echoing.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "A.3.1.MV — Construct and Maintain a Method Variant"
   - "A.3.1.MV:11 — SoTA-Echoing"
-line_start: 11594
-line_end: 11602
+line_start: 11601
+line_end: 11609
 dependencies:
   - "A.3.1"
   - "A.3.1.MI"

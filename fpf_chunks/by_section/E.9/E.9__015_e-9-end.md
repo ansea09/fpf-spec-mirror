@@ -6,12 +6,12 @@ section_id: "E.9:End"
 section_title: "E.9:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9/E.9__015_e-9-end.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "E.9 — Design-Rationale Record (DRR) for FPF Content Decisions"
   - "E.9:End — E.9:End"
-line_start: 104075
-line_end: 104076
+line_start: 104376
+line_end: 104377
 dependencies:
   - "A.10"
   - "A.15.1"

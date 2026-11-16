@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.10.ARCH.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "E.10.ARCH — Architecture for Recovering Ontological Meaning in Wording"
-line_start: 107299
-line_end: 107749
+line_start: 107604
+line_end: 108054
 dependencies:
   - "A.10"
   - "A.15.1"

@@ -6,12 +6,12 @@ section_id: "C.2.2a:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2a/C.2.2a__011_consequences.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "C.2.2a — Language-State Chart over U.CharacteristicSpace"
   - "C.2.2a:9 — Consequences"
-line_start: 55225
-line_end: 55227
+line_start: 55335
+line_end: 55337
 dependencies:
   - "A.16"
   - "A.16.0"

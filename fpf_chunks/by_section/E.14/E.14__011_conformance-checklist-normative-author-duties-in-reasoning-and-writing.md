@@ -6,12 +6,12 @@ section_id: "E.14:8"
 section_title: "Conformance Checklist (normative author duties in reasoning and writing)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__011_conformance-checklist-normative-author-duties-in-reasoning-and-writing.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "E.14 — Human-Centric Working-Model: Readable Claims and Recoverable Assurance"
   - "E.14:8 — Conformance Checklist (normative author duties in reasoning and writing)"
-line_start: 111949
-line_end: 112019
+line_start: 112254
+line_end: 112324
 dependencies:
   - "B.3.5"
   - "C.13"

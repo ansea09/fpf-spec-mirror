@@ -6,12 +6,12 @@ section_id: "F.11:5"
 section_title: "Minimal vocabulary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__006_minimal-vocabulary.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "F.11 — Distinguish Method, MethodDescription, Work and Outputs"
   - "F.11:5 — Minimal vocabulary"
-line_start: 130129
-line_end: 130139
+line_start: 130436
+line_end: 130446
 dependencies:
   - "A.13"
   - "A.15"

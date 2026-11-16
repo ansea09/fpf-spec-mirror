@@ -6,12 +6,12 @@ section_id: "A.6.4:End"
 section_title: "A.6.4:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__015_a-6-4-end.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "A.6.4 — EntityOfConcern Retargeting: Judge a Bounded Use Across Different Entities"
   - "A.6.4:End — A.6.4:End"
-line_start: 20858
-line_end: 20859
+line_start: 20865
+line_end: 20866
 dependencies:
   - "A.10"
   - "A.15"

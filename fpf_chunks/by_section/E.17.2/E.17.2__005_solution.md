@@ -6,12 +6,12 @@ section_id: "E.17.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.2/E.17.2__005_solution.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "E.17.2 — TEVB - Project-local Typical Engineering Viewpoint Bundle Template for Holons"
   - "E.17.2:4 — Solution"
-line_start: 113706
-line_end: 113884
+line_start: 114011
+line_end: 114189
 dependencies:
   - "A.22"
   - "A.6.3"
@@ -194,7 +194,7 @@ A materialized local TEVB instance provides four project references. The templat
 2. state the realization, allocation, dependency, consistency, trace, or other direct relation claimed;
 3. use the pattern that defines and tests that relation, including its obtaining law;
 4. use A.6.RCD when no existing direct or derived relation is sufficient;
-5. recover any representation's correspondence to that relation; use A.6.3.RT/A.6.3.RT.OE for expression construction or representation-scheme transition, adding C.29 when a mathematical inference or transfer question requires it.
+5. recover any representation's correspondence to that relation; use A.6.3.RT/A.6.3.RT.OE for expression construction or representation transition, adding C.29 when a mathematical inference or transfer question requires it.
 
 If a separate receiving claim asserts dated `U.Work`, recover each actual performer through A.13 and use A.15.1 to establish the Work, Method, time, and containing System independently. Add F.6 only when that receiving claim also consumes precise assignment-bound attribution through the same obtaining A.13 assignment. Missing or failed F.6 alone leaves independently admitted Work intact. Those Work and optional attribution facts are neither participants in the cross-view relation nor prerequisites for identifying it.
 

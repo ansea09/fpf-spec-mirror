@@ -6,12 +6,12 @@ section_id: "A.6.4:7"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__008_conformance-checklist-normative.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "A.6.4 — EntityOfConcern Retargeting: Judge a Bounded Use Across Different Entities"
   - "A.6.4:7 — Conformance Checklist (normative)"
-line_start: 20784
-line_end: 20805
+line_start: 20791
+line_end: 20812
 dependencies:
   - "A.10"
   - "A.15"

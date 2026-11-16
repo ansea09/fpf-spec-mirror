@@ -6,12 +6,12 @@ section_id: "F.0.2:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2/F.0.2__008_conformance-checklist.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "F.0.2 — Semantic Synthesis across Source Ontologies"
   - "F.0.2:7 — Conformance Checklist"
-line_start: 125792
-line_end: 125804
+line_start: 126099
+line_end: 126111
 dependencies:
   - "A.2.4"
   - "C.2.1"
@@ -39,7 +39,7 @@ keywords:
 - `CC-F0.2-3` The source cut covers the intended use, known rival explanations, action-changing counterexamples, transfer limits, and material non-fit by relevance rather than by a universal count or distance threshold.
 - `CC-F0.2-4` Similarity, correspondence, Bridge, framework fit, or `G.2` pack conformance is used as input and not as synthesis truth or permission to merge.
 - `CC-F0.2-5` The result is one provisional synthesis claim, contrast claim or unresolved-inquiry claim whose content, subject, interpretation basis and sources are recoverable. Add a stable local locator when later citation or replay needs it.
-- `CC-F0.2-6` The result answers its receiving content, placement or pattern-allocation question. Keep any decision record required by that use; an absent disposition is not acceptance.
+- `CC-F0.2-6` The result identifies the inference, action or framework decision its grounds support and what remains open for that use. Keep any decision record required by the recipient.
 - `CC-F0.2-7` The result identifies the source claims and editions it relies on, why each matters, retained differences and limits, and material reopen conditions.
 - `CC-F0.2-8` An unresolved-inquiry claim concerns the inquiry state, names what remains usable and the next source action, and does not turn missing evidence into a negative domain claim.
 - `CC-F0.2-9` Domain roles, methods, examples, evidence bases, and refresh lines stay in their subject DPF; the reusable synthesis move remains independent of those DPFs.

@@ -6,12 +6,12 @@ section_id: "B.1.5.CM:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5.CM/B.1.5.CM__009_conformance-checklist.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "B.1.5.CM — Construct and Qualify a Composite Method"
   - "B.1.5.CM:7 — Conformance Checklist"
-line_start: 44779
-line_end: 44789
+line_start: 44790
+line_end: 44800
 dependencies:
   - "A.3.1"
   - "B.1.5"

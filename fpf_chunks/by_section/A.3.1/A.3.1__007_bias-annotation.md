@@ -6,12 +6,12 @@ section_id: "A.3.1:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1/A.3.1__007_bias-annotation.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "A.3.1 — U.Method: Reusable Way of Doing with Explicit Applicability"
   - "A.3.1:6 — Bias-Annotation"
-line_start: 10121
-line_end: 10134
+line_start: 10124
+line_end: 10137
 dependencies:
   - "A.1"
   - "A.1.1"

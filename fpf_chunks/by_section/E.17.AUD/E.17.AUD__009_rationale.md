@@ -6,12 +6,12 @@ section_id: "E.17.AUD:8"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD/E.17.AUD__009_rationale.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "E.17.AUD — Keep a Publication Unit Stable (PublicationUnit Stability Discipline)"
   - "E.17.AUD:8 — Rationale"
-line_start: 116203
-line_end: 116208
+line_start: 116508
+line_end: 116513
 dependencies:
   - "A.16.0"
   - "A.7"

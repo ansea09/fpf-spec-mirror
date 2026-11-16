@@ -6,12 +6,12 @@ section_id: "C.40.OD:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OD/C.40.OD__013_relations.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "C.40.OD — Construct and Continue Open-Ended Development"
   - "C.40.OD:12 — Relations"
-line_start: 92897
-line_end: 92906
+line_start: 93108
+line_end: 93117
 dependencies:
   - "C.32.MWA.PP"
   - "C.40.CD"

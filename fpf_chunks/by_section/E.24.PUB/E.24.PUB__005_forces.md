@@ -6,12 +6,12 @@ section_id: "E.24.PUB:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__005_forces.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "E.24.PUB — Episteme Publication: Availability, Form and Carrier"
   - "E.24.PUB:3 — Forces"
-line_start: 124487
-line_end: 124496
+line_start: 124792
+line_end: 124801
 dependencies:
   - "A.6.3"
   - "A.6.3.RT"

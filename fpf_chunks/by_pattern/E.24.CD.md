@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.24.CD.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "E.24.CD — Ontic Candidate Detection and First-Use Disposition"
-line_start: 124076
-line_end: 124431
+line_start: 124381
+line_end: 124736
 dependencies:
   - "A.1"
   - "A.14"
@@ -82,7 +82,7 @@ Typical moments:
 
 - If one existing subject pattern already states the needed claim, use it directly.
 - If a local kind, criterion, candidate judgment, or extension is already the question, use `C.3`, `C.3.1`, and `C.3.2`.
-- If the question concerns a description episteme, use `C.2.1` for its identity and the subject-specific description pattern. Use `E.17.0` for view membership and `E.24.PUB` for publication form, occurrence and carrier. Representation correspondence stays with its applicable subject or representation rule; use `A.6.3.RT` for a representation-scheme transition and `C.29` for an unresolved mathematical representation, transfer or reliance question.
+- If the question concerns a description episteme, use `C.2.1` for its identity and the subject-specific description pattern. Use `E.17.0` for view membership and `E.24.PUB` for publication form, occurrence and carrier. Representation correspondence stays with its applicable subject or representation rule; use `A.6.3.RT` for a representation transition and `C.29` for an unresolved mathematical representation, transfer or reliance question.
 - If the subject and governing claim are clear and only the wording hides them, use `F.19` for wording repair and `E.10` for any unresolved meaning.
 - If a durable ontic has already been selected, use `E.24`; if a durable public `U.*` kind is separately at issue, use `E.24.UK`.
 - If the work is comparing architecture alternatives, construct the evaluation through `A.19.ECS`.
@@ -135,7 +135,7 @@ Plain `situation`, `incident`, `current configuration`, `operating <system>`, an
 | Wording such as `situation`, `incident`, `current configuration`, `operating <system>`, or `emergency` groups several cues. | Recover the exact systems or holons, characteristic or state claims, actual part relations, and only the temporal or causal relations needed by the current use. Add actual `U.Transformation` or `U.Work` only when independently grounded under `A.3.4` or `A.15.1`. Use a possible-state episteme when possibility is the subject, and a separate C.2.1 description episteme only when claim-bearing orientation is current. | Their conjunction is neither `U.Situation` nor `U.IncidentSituation`. An episteme's EntityOfConcern and any grounding holon in a separately current `EpistemeEmpiricalGroundingRelation` neither identify the world-side subject nor become mandatory fields. Stop decomposition once the action-facing distinction needed by the receiving use is recovered. |
 | A proposed subject exists only as an arbitrary fusion, co-presence, connected set, or chosen boundary. | Reject the bundle without forcing it through a construction record. If a constructed object survives as the current subject, apply `B.1`, `A.14`, and `C.13`, and apply `B.2` only when whole reidentification is current; recover its exact construction inputs, whole-forming relations, and identity rule. | Fusion, co-presence, connectedness, and a selected boundary alone form no durable whole. The no-mint result does not block an irreducible subject later shown to have its own identity and obtaining laws. |
 | Repeated typed reasoning needs a local criterion, candidate judgment, or true-candidate set for one context slice. | Use `C.3`, `C.3.1`, and `C.3.2`. | The local kind, `KindSignature`, judgment, and optional extension stay distinct; neither a public `U.*` kind nor a classification-relation occurrence follows. |
-| A card, record, table, diagram, file, or schema carries claims, is used as a description, conforms to a viewpoint, expresses an edition, represents something, or bears a form. | Use `C.2.1` to identify an episteme only when its constitution test passes. If it describes a method, structure, relation occurrence, or another subject, apply that subject's description pattern. Use `E.17.0` for actual view membership, `E.24.PUB` for publication, the subject-description pattern for its representation correspondence, `A.6.3.RT` for a representation-scheme transition, and `C.29` for an unresolved mathematical representation, transfer or reliance question. Several patterns can apply because they govern different objects or relations. | Visible shape does not identify the described subject or make any neighboring relation obtain. |
+| A card, record, table, diagram, file, or schema carries claims, is used as a description, conforms to a viewpoint, expresses an edition, represents something, or bears a form. | Use `C.2.1` to identify an episteme only when its constitution test passes. If it describes a method, structure, relation occurrence, or another subject, apply that subject's description pattern. Use `E.17.0` for actual view membership, `E.24.PUB` for publication, the subject-description pattern for its representation correspondence, `A.6.3.RT` for a representation transition, and `C.29` for an unresolved mathematical representation, transfer or reliance question. Several patterns can apply because they govern different objects or relations. | Visible shape does not identify the described subject or make any neighboring relation obtain. |
 | A path, table, dashboard, schema, or other declarative form seems to authorize, dispatch, prove, prescribe, or perform something by its shape. | Use `C.2.P.DR` to name the visible expression, recover the direct object or relation, state its representation or correspondence use—or `none`—and block the unsupported action claim. | A declarative form does not itself authorize or dispatch work, perform an action, or grant authority. |
 | Words such as `relation`, `slot`, `field`, `interface`, bare *role*, `function`, or `endpoint` still leave the object or claim unclear. | Use E.10.ROLE first for bare *role*; continue to A.6.RSIR when it denotes relation participation, a declaration place, an interface place, or a representation position. Use A.6.F for function wording and A.6.P or the pattern for the recovered relation. Then stop at that pattern. | An engineering word creates no subject kind, relation kind, participant, declaration, system-role kind, or assignment. |
 | The subject and governing claim are already clear, but a word or phrase compresses them. | Repair the bounded wording through `F.19`; use `E.10` for any unresolved meaning. | A clearer name does not create a new subject, relation, or kind. |
@@ -291,7 +291,7 @@ Inconsistent descriptions do not make their world-side subjects inconsistent wit
 
 An architecture diagram may carry claims about selected structures of one holon. If the diagram is selected as one claim-bearing whole, C.2.1 identifies that episteme.
 
-The same episteme has `U.View` membership only when E.17.0 conformance obtains; its publication form and carrier use E.24.PUB; C.30.AD governs its architecture-description adequacy and correspondence to the independently recovered subject. Use A.6.3.RT if a representation-scheme transition is claimed, and C.29 for an unresolved mathematical representation, transfer or reliance question.
+The same episteme has `U.View` membership only when E.17.0 conformance obtains; its publication form and carrier use E.24.PUB; C.30.AD governs its architecture-description adequacy and correspondence to the independently recovered subject. Use A.6.3.RT if a representation transition is claimed, and C.29 for an unresolved mathematical representation, transfer or reliance question.
 
 The diagram does not become the architecture, structure, or ontic by being visible. If the current work is to correct one architectural claim, apply the architecture and structure patterns directly.
 
@@ -382,7 +382,7 @@ The pattern therefore asks for one first-use disposition instead of a candidate 
 
 Keep direct claims in their direct patterns; use C.2.1 only when one exact ClaimGraph, one EntityOfConcern for those claims, and one effective ReferenceScheme constitute an episteme; and use C.3.2 for local classification.
 
-Keep publication in E.24.PUB, subject-description correspondence with its applicable pattern, representation-scheme transition in A.6.3.RT and unresolved mathematical representation, transfer or reliance questions with C.29. Use C.2.P.DR to block action inferred from declarative form; resolve ambiguous wording through A.6.RSIR, A.6.F, A.6.P, or E.10; and name only an already governed value through F.18.
+Keep publication in E.24.PUB, subject-description correspondence with its applicable pattern, representation transition in A.6.3.RT and unresolved mathematical representation, transfer or reliance questions with C.29. Use C.2.P.DR to block action inferred from declarative form; resolve ambiguous wording through A.6.RSIR, A.6.F, A.6.P, or E.10; and name only an already governed value through F.18.
 
 Open E.24 when the detection facts in section 4.3 make shared ontology a live question that those simpler applications do not close.
 
@@ -402,7 +402,7 @@ Reopen this source comparison when a newer ontology-engineering or data-model-to
 
 ### E.24.CD:12 - Relations
 
-- **Builds on:** `E.24` for durable ontic settlement; `E.24.UK` for separate public U-kind admission; `C.2.1` for exact episteme constitution; `C.3`, `C.3.1`, and `C.3.2` for local typed projection; `E.24.PUB` for publication; the applicable subject-description pattern for representation correspondence, `A.6.3.RT` for representation-scheme transition, `C.29` for unresolved mathematical representation, transfer or reliance and `C.2.P.DR` for declarative-form overread; `A.6.5` for `SlotSpec` declaration and participant-designation discipline; `A.6.RSIR`, `A.6.F`, `A.6.P`, `E.10`, and `E.10.ARCH` for bounded ambiguity repair; and `F.18` for naming after the governed value is settled.
+- **Builds on:** `E.24` for durable ontic settlement; `E.24.UK` for separate public U-kind admission; `C.2.1` for exact episteme constitution; `C.3`, `C.3.1`, and `C.3.2` for local typed projection; `E.24.PUB` for publication; the applicable subject-description pattern for representation correspondence, `A.6.3.RT` for representation transition, `C.29` for unresolved mathematical representation, transfer or reliance and `C.2.P.DR` for declarative-form overread; `A.6.5` for `SlotSpec` declaration and participant-designation discipline; `A.6.RSIR`, `A.6.F`, `A.6.P`, `E.10`, and `E.10.ARCH` for bounded ambiguity repair; and `F.18` for naming after the governed value is settled.
 - **Coordinates with:** `A.6.RCD` when the missing piece is a relation-bearing claim that no current direct predicate closes. A local compound claim or predicate-definition episteme is neither a relation kind nor an occurrence; only a separately justified kind candidate proceeds through `E.24` and `E.24.UK`. It also coordinates with `E.17.0` for actual view membership; `A.1`, `B.1`, `B.2`, `A.14`, and `C.13` for a surviving constructed-whole question; `A.3.4`, `A.15.1`, the temporal patterns, and `C.28` for actual change, work, temporal, and causal claims; `A.6.0` and `C.29` for formal-substrate and mathematical-lens use; `C.22.PFR`, `C.22.2`, `E.18.1`, and `E.23` for actual Problem, problem-side formulation, and later problematization; `A.19` for `U.CharacteristicSpace`; and `A.19.ECS` for evaluation-characteristic construction.
 - **Used by:** DRRs and authoring work that must decide whether a recurring construct uses an existing subject pattern, remains one or several bounded epistemes, becomes a local typed projection, applies description or publication handling, receives wording repair, opens E.24, or remains unresolved.
 

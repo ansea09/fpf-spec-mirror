@@ -6,12 +6,12 @@ section_id: "C.2.3:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.3/C.2.3__006_archetypal-grounding.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "C.2.3 — Formality of an Episteme"
   - "C.2.3:5 — Archetypal Grounding"
-line_start: 55392
-line_end: 55399
+line_start: 55502
+line_end: 55509
 dependencies:
   - "A.16"
   - "A.18"

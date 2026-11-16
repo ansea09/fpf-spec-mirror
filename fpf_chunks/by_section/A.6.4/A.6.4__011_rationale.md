@@ -6,12 +6,12 @@ section_id: "A.6.4:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__011_rationale.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "A.6.4 — EntityOfConcern Retargeting: Judge a Bounded Use Across Different Entities"
   - "A.6.4:10 — Rationale"
-line_start: 20823
-line_end: 20826
+line_start: 20830
+line_end: 20833
 dependencies:
   - "A.10"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "A.1.CSD:End"
 section_title: "A.1.CSD:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.CSD/A.1.CSD__016_a-1-csd-end.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "A.1.CSD — Discovering Systems That May Bear Consequences"
   - "A.1.CSD:End — A.1.CSD:End"
-line_start: 4190
-line_end: 4191
+line_start: 4193
+line_end: 4194
 dependencies:
   - "A.1"
   - "A.1.SCR"

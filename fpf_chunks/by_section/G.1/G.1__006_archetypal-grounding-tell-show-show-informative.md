@@ -6,12 +6,12 @@ section_id: "G.1:5"
 section_title: "Archetypal Grounding — Tell–Show–Show (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.1/G.1__006_archetypal-grounding-tell-show-show-informative.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "G.1 — Author a Reusable CG-Frame Generator and Selector Kit"
   - "G.1:5 — Archetypal Grounding — Tell–Show–Show (informative)"
-line_start: 135702
-line_end: 135722
+line_start: 136009
+line_end: 136029
 dependencies:
   - "A.10"
   - "A.15.2"

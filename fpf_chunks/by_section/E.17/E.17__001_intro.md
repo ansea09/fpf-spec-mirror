@@ -6,12 +6,12 @@ section_id: "E.17:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__001_intro.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:intro — Intro"
-line_start: 114019
-line_end: 114063
+line_start: 114324
+line_end: 114368
 dependencies:
   - "A.10"
   - "A.15.4"

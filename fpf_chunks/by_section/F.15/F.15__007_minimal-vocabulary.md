@@ -6,12 +6,12 @@ section_id: "F.15:5"
 section_title: "Minimal vocabulary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__007_minimal-vocabulary.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Naming and Semantic Unification"
   - "F.15:5 — Minimal vocabulary"
-line_start: 131333
-line_end: 131344
+line_start: 131640
+line_end: 131651
 dependencies:
   - "A.1.1"
   - "A.10"

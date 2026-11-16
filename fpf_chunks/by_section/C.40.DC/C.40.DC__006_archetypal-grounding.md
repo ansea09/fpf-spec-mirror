@@ -6,12 +6,12 @@ section_id: "C.40.DC:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.DC/C.40.DC__006_archetypal-grounding.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "C.40.DC — Construct Directions with Support Configurations"
   - "C.40.DC:5 — Archetypal Grounding"
-line_start: 91788
-line_end: 91845
+line_start: 91997
+line_end: 92054
 dependencies:
   - "A.3.1"
   - "A.3.2"

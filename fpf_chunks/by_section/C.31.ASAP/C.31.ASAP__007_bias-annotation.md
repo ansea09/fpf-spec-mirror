@@ -6,12 +6,12 @@ section_id: "C.31.ASAP:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.ASAP/C.31.ASAP__007_bias-annotation.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "C.31.ASAP — Which Architecture Is Preferable Under Scale? (Scale Amenability)"
   - "C.31.ASAP:6 — Bias-Annotation"
-line_start: 79647
-line_end: 79656
+line_start: 79757
+line_end: 79766
 dependencies:
   - "A.1.1"
   - "A.10"

@@ -6,12 +6,12 @@ section_id: "A.6.3.NAR:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.NAR/A.6.3.NAR__002_problem-frame.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "A.6.3.NAR — Structure-to-Narrative Rendering"
   - "A.6.3.NAR:1 — Problem frame"
-line_start: 20205
-line_end: 20240
+line_start: 20212
+line_end: 20247
 dependencies:
   - "A.10"
   - "A.22.CGUS"
@@ -71,7 +71,7 @@ Plain starting vocabulary:
 
 **Ordinary use.** For low-reliance teaching, orientation, or internal explanation, the useful narrative with the needed source and ordering information is enough. Exact endpoint identities and a formal construction record are not prerequisites for this first result.
 
-**Reliance-facing use.** Open the exact branch only when the receiving use makes claim-level identity and preservation evidence material: for example, the narrative must travel independently, be cited or disputed, cross a material representation-scheme boundary for consequential use, enter generated-output admission under an identity-bearing receiver, support consequential reliance, or satisfy another named receiver that requires exact identity. A public context is a cue to ask which receiving requirement applies; publicness alone is not sufficient.
+**Reliance-facing use.** Open the exact branch only when the receiving use makes claim-level identity and preservation evidence material: for example, the narrative must travel independently, be cited or disputed, support a new operation of inspection or reasoning through a change of representation, enter generated-output admission under an identity-bearing receiver, support consequential reliance, or satisfy another named receiver that requires exact identity. A public context is a cue to ask which receiving requirement applies; publicness alone is not sufficient.
 
 Then recover source episteme `X`, receiving narrative episteme `Y`, and construction `n : X -> Y`, together with the additional source dependencies, scheme relation, loss, evidence, or assurance required by that receiving use.
 

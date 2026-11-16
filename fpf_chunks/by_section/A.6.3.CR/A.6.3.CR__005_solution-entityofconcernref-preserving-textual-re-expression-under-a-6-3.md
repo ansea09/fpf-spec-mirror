@@ -6,12 +6,12 @@ section_id: "A.6.3.CR:4"
 section_title: "Solution — entityOfConcernRef-preserving textual re-expression under A.6.3"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CR/A.6.3.CR__005_solution-entityofconcernref-preserving-textual-re-expression-under-a-6-3.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "A.6.3.CR — ConservativeRetextualization: EntityOfConcern-Preserving Textual Re-Expression"
   - "A.6.3.CR:4 — Solution — entityOfConcernRef-preserving textual re-expression under A.6.3"
-line_start: 19057
-line_end: 19214
+line_start: 19064
+line_end: 19221
 dependencies:
   - "A.15"
   - "A.6.2"
@@ -72,21 +72,21 @@ These local review labels follow the `E.17:5.1e` local-field rule.
 **Out of scope**
 - a difference between the EntityOfConcern values resolved by the source and receiving references, including a hidden change of EntityOfConcern (`A.6.4`);
 - explanation-facing renderings whose main purpose is explanatory rendering rather than same-entity rewrite (`ExplanationFaithfulnessProfile`);
-- a material change of representation scheme, for example a text-to-diagram conversion that changes available operations or interpretation (`RepresentationSchemeTransition`);
+- a change of representation language or reasoning medium that makes a materially different operation possible, including aligning entries written in the same language for comparison (`RepresentationTransition`);
 - comparison, abductive-prompt, ranking, recommendation, bridge-mediated, substitution, or action-selection work that introduces new claims rather than restating available ones.
 
 #### A.6.3.CR:4.2.a - Reader guidance
 
 Use this pattern when the EntityOfConcern stays fixed and textual restatement remains the primary move.
 - If the main change is explanatory, apply ExplanationFaithfulnessProfile.
-- If the main change is a representation-scheme shift, apply RepresentationSchemeTransition.
+- If the intended operation depends on a change of representation language or reasoning medium, apply RepresentationTransition.
 - If the EntityOfConcern changes, apply A.6.4.
 
 #### A.6.3.CR:4.2.b - What the user checks first
 
 Start with the preservation question:
 1. Is the published result still about the same EntityOfConcern?
-2. Does the result remain a textual restatement, or is explanation or a representation-scheme change now primary?
+2. Does the reader need a clearer restatement, an explanation, or an expression in which a different operation becomes practical? When the last need calls for a change of representation language or reasoning medium, use A.6.3.RT.
 3. Can the reader see what was omitted, softened, or foregrounded?
 4. If several sources or correspondence claims contribute, can each receiving claim be traced to those sources and the rule that licenses it?
 5. Is the source merely pointed at, was it actually used, are the rewritten claims recoverable from it, and is the result admissible for the intended use?
@@ -113,7 +113,7 @@ Follow **E.14’s working-model-first discipline**: an ordinary report, summary,
 
 **Explicit review record (when fuller review is needed).** Include or inherit the fields needed to inspect the material preservation, correspondence, source-use or downstream-use question. Assurance, policy and cross-context cases often make such questions consequential. The record may inherit pattern ids and pinned metadata instead of restating them inline. Select only the applicable groups:
 - transform relation (`patternSpecializationRef = A.6.3 specialization`, `relationFunctionClaimRef`, `sourcePublicationOrRecordForm`, `targetPublicationOrRecordForm`, `changeTargetRef`);
-- preservation context (`entityOfConcernPolicy = preserve`, `boundedContextPolicy`, `viewpointPolicy`, `referenceSchemePolicy`, `representationSchemePolicy`, `groundingPolicy`, `referencePlanePolicy`);
+- preservation context (`entityOfConcernPolicy = preserve`, `boundedContextPolicy`, `viewpointPolicy`, `referenceSchemePolicy` for the episteme’s effective interpretation, `representationLanguagePolicy` for the language of expression, `groundingPolicy`, `referencePlanePolicy`);
 - claim and publication discipline (`claimPolicy`, `claimScopePolicy`, `publicationScopePolicy`, `reliabilityTransportPolicy`, `pinningPolicy`, `provenancePolicy`, `lossProfile`);
 - continuity and bridge discipline (`claimContinuityClass`, `microtheoryContinuityClass`, `onticContinuityClass`, `bridgeRequirement`, `conservativityWitness`);
 - downstream and admissibility discipline (`worldContactPolicy`, `evidencePolicy`, `gatePolicy`, `workCrossing`, `upstreamPatternLocator`, `downstreamPatternLocator`, `admissibleFaces`, `admissiblePublicationRenderings`, `compositionRule`, `reopenCondition`);

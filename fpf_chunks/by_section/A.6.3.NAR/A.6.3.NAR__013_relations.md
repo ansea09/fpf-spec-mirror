@@ -6,12 +6,12 @@ section_id: "A.6.3.NAR:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.NAR/A.6.3.NAR__013_relations.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "A.6.3.NAR — Structure-to-Narrative Rendering"
   - "A.6.3.NAR:12 — Relations"
-line_start: 20592
-line_end: 20602
+line_start: 20599
+line_end: 20609
 dependencies:
   - "A.10"
   - "A.22.CGUS"
@@ -44,7 +44,7 @@ keywords:
 ### A.6.3.NAR:12 - Relations
 
 - **Specializes:** `A.6.3` for structure-to-sequence narrative construction. The ordinary entry exposes selection, ordering, loss, use, and return; the triggered exact branch states same-EntityOfConcern `n : X -> Y` and any correspondence dependencies.
-- **Coordinates with:** `A.6.3.CR` for same-regime textual re-expression, `A.6.3.RT` for a material representation-scheme transition, `A.6.3.CSC` for controlled semantic coarsening, `A.6.4` for changed EntityOfConcern, and `E.17.EFP` for explanation-use adequacy.
+- **Coordinates with:** `A.6.3.CR` for same-regime textual re-expression, `A.6.3.RT` when the receiving operation depends on a representation transition, `A.6.3.CSC` for controlled semantic coarsening, `A.6.4` for changed EntityOfConcern, and `E.17.EFP` for explanation-use adequacy.
 - **Uses when current:** `C.2.8` for extractable structural amount, the applicable domain evaluation for its local scale, `C.29` for a mathematical estimate's correspondence, `C.33` for captured and lost architecture-relevant structure, and `C.34` for a correspondence claim needed by architecture work.
 - **Coordinates with:** `A.22.CGUS` for its ordinary branch when continuation conditions need clarification. For a claimed source or narrative-ordering CGUS, establish that structure's identity and membership; the optional unfolding block records references to that structure.
 - **Coordinates with:** `C.35` for generated results entering architecture work, `G.2` for its SoTA harvesting/synthesis claims, `E.6` and `E.11` for learning order and first-entry publication questions, and `E.17` for publication-form use, `E.17.0` for viewpoint conformance, `E.17.AUD` for audience, and `E.24.PUB` for publication questions.

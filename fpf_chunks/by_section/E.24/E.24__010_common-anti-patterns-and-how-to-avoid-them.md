@@ -6,12 +6,12 @@ section_id: "E.24:7"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24/E.24__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "E.24 — U.Ontic and Ontic Introduction Discipline"
   - "E.24:7 — Common Anti-Patterns and How to Avoid Them"
-line_start: 123997
-line_end: 124009
+line_start: 124302
+line_end: 124314
 dependencies:
   - "A.19.ECS"
   - "A.6.0"

@@ -6,12 +6,12 @@ section_id: "A.6.3.CR:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CR/A.6.3.CR__008_conformance-checklist.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "A.6.3.CR — ConservativeRetextualization: EntityOfConcern-Preserving Textual Re-Expression"
   - "A.6.3.CR:7 — Conformance Checklist"
-line_start: 19309
-line_end: 19327
+line_start: 19316
+line_end: 19334
 dependencies:
   - "A.15"
   - "A.6.2"
@@ -37,7 +37,7 @@ keywords:
 1. **CC-CR-1 — Same EntityOfConcern remains explicit.**
    The EntityOfConcern values independently resolved by the source and receiving `entityOfConcernRef` values are equal.
 2. **CC-CR-2 — Textual re-expression remains the right family.**
-   Textual restatement remains primary; explanation or a material representation-scheme change is not the primary move.
+   The intended use is served by a textual restatement. Check whether the reader instead needs an explanation or an operation made possible by a change of representation language or reasoning medium.
 3. **CC-CR-3 — Material loss, provenance, pinning, and reliability conditions remain recoverable.**
    The case makes conditions that affect interpretation or intended use recoverable from the text, its surrounding publication, or the source references on which that use depends.
 4. **CC-CR-4 — Direct or correspondence-mediated construction is identifiable.**
@@ -47,7 +47,7 @@ keywords:
 6. **CC-CR-6 — Local conservativity witness remains satisfied.**
    The reviewed case does not silently widen modality, remove caveats, raise reliability assessment, add an F.9 Bridge or bounded-use suitability claim, establish current reliance or authorization, claim that receiving use occurred, or collapse declared alternatives beyond stated loss notes.
 7. **CC-CR-7 — A missing condition, preservation defect, or changed claim is explicit on failure.**
-   If the case fails a check, name the missing source or condition, the repairable preservation defect, or the changed claim. Repair and recheck within CR when the intended restatement can be restored. For a different claim or use, name the pattern to use next (`ExplanationFaithfulnessProfile`, `RepresentationSchemeTransition`, `A.6.4`, `B.5.2`, or another applicable pattern).
+   If the case fails a check, name the missing source or condition, the repairable preservation defect, or the changed claim. Repair and recheck within CR when the intended restatement can be restored. For a different claim or use, name the pattern to use next (`ExplanationFaithfulnessProfile`, `RepresentationTransition`, `A.6.4`, `B.5.2`, or another applicable pattern).
 8. **CC-CR-8 — Working-model first remains intact.**
    Ordinary same-entity rewrites stay lightweight; fuller explicit review records carry the fields needed for cases requiring fuller review.
 

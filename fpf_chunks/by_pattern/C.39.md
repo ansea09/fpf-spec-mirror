@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.39.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "C.39 — Find and Develop a Way to Obtain a Result"
-line_start: 86715
-line_end: 87027
+line_start: 86912
+line_end: 87224
 dependencies:
   - "A.22.CGUS"
   - "A.3.1"
@@ -44,7 +44,7 @@ The working reader is anyone developing a way of acting for a practical use. No 
 
 Begin with the sought change and what would distinguish its attainment. Reuse an adequate Method or result where one is available. Otherwise recover operations from relevant practice or theory, follow them on target material, construct the missing connection, and explain enough for the intended use. When that use includes later application or adaptation, keep the reasons, conditions and conditional returns available as well as the actions.
 
-Selecting, adapting and connecting ways of acting performs methodological synthesis. Semantic synthesis in F.0.2 addresses a different question: which claims and distinctions can be supported by comparing source accounts. Constructing a way can reveal a missing distinction, and a clarified distinction can change the way. Neither requires finishing an entire ontology or methodology before a useful local action.
+**Methodological synthesis** constructs or changes a way of working, including the conceptual work its operations require. Determine what each operation acts on, what its result means for the next operation and what counts as success. Use concepts that already settle those choices. If the sources attach different meanings to an input, result or condition, F.0.2 helps establish what their claims support. Use a common premise where the accounts agree. A supported difference can change which action applies. If a premise remains open, change how the evidence will be obtained or limit the conclusion that relies on it. A conceptual synthesis can also be the complete result of a separate inquiry into what the sources warrant.
 
 The first result can be one sufficiently explained candidate, a recovered applicable Method, or a precise unsolved operation and a worthwhile next question. A connected account can extend that result when several uses need it. This transdisciplinary guidance does not supply missing professional knowledge, instruments, skill or permission, and a conditional construction does not establish empirical effectiveness.
 

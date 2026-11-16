@@ -6,12 +6,12 @@ section_id: "A.6.4:4"
 section_title: "Solution — separate the arrow, use claim, current-case judgement, and any application"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__005_solution-separate-the-arrow-use-claim-current-case-judgement-and-any-application.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "A.6.4 — EntityOfConcern Retargeting: Judge a Bounded Use Across Different Entities"
   - "A.6.4:4 — Solution — separate the arrow, use claim, current-case judgement, and any application"
-line_start: 20655
-line_end: 20761
+line_start: 20662
+line_end: 20768
 dependencies:
   - "A.10"
   - "A.15"
@@ -130,7 +130,7 @@ An arrow that preserves the EntityOfConcern remains in A.6.2 preserve mode. A.6.
 A.6.4 is triggered only by an independently established change of EntityOfConcern. A changed kind, ontology frame, predicate set, mathematical domain, or notation is a recognition cue that reopens the C.2.1 identity test; none decides the branch by itself.
 
 Boundary rules:
-- if the EntityOfConcern is preserved and the main change is representation scheme or reasoning medium, use `A.6.3.RT`;
+- If the EntityOfConcern stays the same, use `A.6.3.RT` when the intended operation depends on changing the representation language or reasoning medium.
 - if the EntityOfConcern is preserved and the main change is explanation mode, explanatory stance, or explanation-facing publication, use `E.17.EFP`;
 - if the same case also asserts a semantic relation between two local senses from different semantic contexts, test `F.9` separately and cite a Bridge only when its predicate obtains; use `F.9.1` only for an optional stance note about that already constituted use claim. A domain correspondence, mathematical rule, or direct case fact enters the current-case basis only through the claim established by its governor; that claim alone does not open F.9;
 - if the receiving use requires a mapping, correspondence or route-equivalence claim whose direct governor is missing, resolve that missing basis before relying on the claim;

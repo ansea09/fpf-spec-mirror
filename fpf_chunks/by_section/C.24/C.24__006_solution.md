@@ -6,12 +6,12 @@ section_id: "C.24:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__006_solution.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "C.24 — Plan Tool or Service Calls for a Fixed Action (C.Agent-Tools-CAL)"
   - "C.24:4 — Solution"
-line_start: 67564
-line_end: 67812
+line_start: 67674
+line_end: 67922
 dependencies:
   - "A.10"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "A.3:10"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3/A.3__011_relations.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "A.3 — Transformer Quartet: Distinguish Work, Performer, Method and Method Description"
   - "A.3:10 — Relations"
-line_start: 9718
-line_end: 9756
+line_start: 9721
+line_end: 9759
 dependencies:
   - "A.10"
   - "A.12-A.15"

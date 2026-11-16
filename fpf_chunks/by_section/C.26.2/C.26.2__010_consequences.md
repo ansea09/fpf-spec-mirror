@@ -6,12 +6,12 @@ section_id: "C.26.2:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.2/C.26.2__010_consequences.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "C.26.2 — Enacted Distributed State Evidence"
   - "C.26.2:9 — Consequences"
-line_start: 69588
-line_end: 69593
+line_start: 69698
+line_end: 69703
 dependencies:
   - "A.10"
   - "A.15"

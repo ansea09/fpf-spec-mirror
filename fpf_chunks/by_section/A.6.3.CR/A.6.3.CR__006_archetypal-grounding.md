@@ -6,12 +6,12 @@ section_id: "A.6.3.CR:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CR/A.6.3.CR__006_archetypal-grounding.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "A.6.3.CR — ConservativeRetextualization: EntityOfConcern-Preserving Textual Re-Expression"
   - "A.6.3.CR:5 — Archetypal Grounding"
-line_start: 19215
-line_end: 19304
+line_start: 19222
+line_end: 19311
 dependencies:
   - "A.15"
   - "A.6.2"
@@ -85,7 +85,7 @@ When the generated-summary case needs shared vocabulary, use only the `E.17:5.1b
 
 The summary may expose or cite the source slice it restates. It does not become that source slice by fluency, brevity, translation, layout, generated form, or reuse. If the needed source content, governing requirement, or case relation is missing, a repair request or source-gap note is only prospective: it neither establishes earlier source use nor supplies the missing claim support or use condition.
 
-If the generated summary is source-pointer-only, merely plausible, claim-widened, or carrying added linkage, do not treat it as a conservative source-equivalent summary. For source-finding or orientation, retain only the justified pointer and separate any unsupported or new proposition from the source-backed account. Repair the claim against the source, or apply A.6.3.CSC, ExplanationFaithfulnessProfile, RepresentationSchemeTransition, E.17.ID.CR, A.15, A.10, or another pattern that defines, constrains, or tests the claim. An orientation or coarsening label alone does not make an unsupported claim source-faithful.
+If the generated summary is source-pointer-only, merely plausible, claim-widened, or carrying added linkage, do not treat it as a conservative source-equivalent summary. For source-finding or orientation, retain only the justified pointer and separate any unsupported or new proposition from the source-backed account. Repair the claim against the source, or apply A.6.3.CSC, ExplanationFaithfulnessProfile, RepresentationTransition, E.17.ID.CR, A.15, A.10, or another pattern that defines, constrains, or tests the claim. An orientation or coarsening label alone does not make an unsupported claim source-faithful.
 
 #### A.6.3.CR:5.2 - Same-EntityOfConcern rewrite via declared correspondence
 
@@ -119,6 +119,6 @@ This does **not** remain ordinary `ConservativeRetextualization`. The coarsened 
 
 A text is rewritten not mainly to restate the same source, but to explain why it matters, simplify reasoning for a learner, or narrate a mechanism. That move should leave `ConservativeRetextualization` and be reviewed under `ExplanationFaithfulnessProfile`.
 
-#### A.6.3.CR:5.4 - Boundary to representation-scheme transition
-A prose note is rewritten as a table, matrix, diagram, latent representation, or distributed representation with a material representation-scheme change. Even if the EntityOfConcern stays fixed, this is not only a textual rewrite; it belongs with `RepresentationSchemeTransition`.
+#### A.6.3.CR:5.4 - Boundary to representation transition
+A reader can need the same events aligned by component to compare recurrences. The event descriptions can stay in the same language while their arrangement makes that comparison practical. A change of representation language can also make an operation possible. Use `RepresentationTransition` when that change is the point of the work.
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.40.OD.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "C.40.OD — Construct and Continue Open-Ended Development"
-line_start: 92586
-line_end: 92908
+line_start: 92795
+line_end: 93119
 dependencies:
   - "C.32.MWA.PP"
   - "C.40.CD"
@@ -230,6 +230,8 @@ The typical network thus remains an aid to constructing and revising concrete pr
 Compare what the construction promised with what it made possible. An improved explanation, a new Method, a prepared performer and an accessible offer are different results. Use each result's own qualification and preserve the support on which it depends. The same observation can support one claim and leave another unresolved.
 
 Show what the changed position makes newly attainable. Formulate a worthwhile next problem and name the means and support for a first attempt. For an inquiry, state what observation, argument or construction would establish its result. For a proposed practical change, identify who can choose it and what that choice depends on. A feasible continuation establishes an opportunity. To show self-development in action, identify the developing agent's own choice of problem, the work it initiated and the help it used. To establish growth beyond greater output on a familiar task, identify the new class of problems, the change in how candidates are generated or evaluated, or the improved means of making further improvements.
+
+Compare the proposed continuation with what was attainable before the change. State the new problem, the capability or understanding it calls for, and which retained method, representation, evidence or provision now makes an attempt feasible. When two ways yield the same present result, the useful difference may be the next change one can make while retaining a required capability. C.40:4.7 and :4.11 help locate the constraint. A novel proposal can justify an inquiry into feasibility. An attainable problem requires a warranted path to an attempt. An initiated investigation additionally requires a performer, means and work actually begun.
 
 Finite observations qualify particular transitions and the means available for continuation. Stop an exhausted or harmful branch, preserve useful knowledge and take up another worthwhile problem when conditions warrant it. A provider's bounded contract can end while the recipient or independent cultural carriers continue.
 

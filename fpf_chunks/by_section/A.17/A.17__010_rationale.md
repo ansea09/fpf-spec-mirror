@@ -6,12 +6,12 @@ section_id: "A.17:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.17/A.17__010_rationale.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "A.17 — Canonical “Characteristic” (A.CHR-NORM): Name What Is Measured"
   - "A.17:9 — Rationale"
-line_start: 35895
-line_end: 35906
+line_start: 35902
+line_end: 35913
 dependencies:
   - "A.17"
   - "A.18"

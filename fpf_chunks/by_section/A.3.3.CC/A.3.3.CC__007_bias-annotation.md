@@ -6,12 +6,12 @@ section_id: "A.3.3.CC:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3.CC/A.3.3.CC__007_bias-annotation.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "A.3.3.CC — Construct a Configuration Description under Constraints"
   - "A.3.3.CC:6 — Bias-Annotation"
-line_start: 12878
-line_end: 12885
+line_start: 12885
+line_end: 12892
 dependencies:
   - "A.17"
   - "A.18"

@@ -6,12 +6,12 @@ section_id: "C.41:End"
 section_title: "C.41:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41/C.41__015_c-41-end.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "C.41 — Select Checklist Questions for a Work Result"
   - "C.41:End — C.41:End"
-line_start: 93537
-line_end: 93538
+line_start: 93748
+line_end: 93749
 dependencies:
   - "A.3.1"
   - "A.3.2"

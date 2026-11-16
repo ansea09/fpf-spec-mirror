@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.4.PFIP.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "E.4.PFIP — Principle-Framework Publication Integration and Preservation"
-line_start: 101258
-line_end: 101563
+line_start: 101471
+line_end: 101776
 dependencies:
   - "C.2.1"
   - "C.33"

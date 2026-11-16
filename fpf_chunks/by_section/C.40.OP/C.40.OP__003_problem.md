@@ -6,12 +6,12 @@ section_id: "C.40.OP:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OP/C.40.OP__003_problem.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "C.40.OP — Maintain Opportunities and Stepping Stones"
   - "C.40.OP:2 — Problem"
-line_start: 92155
-line_end: 92162
+line_start: 92364
+line_end: 92371
 dependencies:
   - "A.15.9"
   - "C.11.CRC"

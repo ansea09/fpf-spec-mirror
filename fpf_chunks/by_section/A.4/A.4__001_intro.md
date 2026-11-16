@@ -6,12 +6,12 @@ section_id: "A.4:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.4/A.4__001_intro.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "A.4 — Compare a System's Intended Design with Its Operating Conditions"
   - "A.4:intro — Intro"
-line_start: 14017
-line_end: 14020
+line_start: 14024
+line_end: 14027
 dependencies:
   - "A.1"
   - "A.1.1"

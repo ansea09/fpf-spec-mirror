@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.5.MPC.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "B.5.MPC — Connect Physical, Mathematical and Computational Reasoning"
-line_start: 48996
-line_end: 49474
+line_start: 49007
+line_end: 49485
 dependencies:
   - "A.15.9"
   - "A.3.3"
@@ -502,7 +502,7 @@ The source-supported distinctions remain useful even when their historical origi
 | **Uses C.29.3 — Computational Realization** | Compares input preparation, system operation and readout with the required result, and returns a failed connection to its repair. |
 | **Uses A.3.3 — U.Dynamics** | Supports the construction of configurations, retained state and allowed continuations when the receiving prediction or operation requires them. It uses the supplied subject laws and interaction rules. |
 | **Uses C.16 — Measurement and Metrics Characterization** | Constructs and interprets the measurement relation connecting the sought quantity, apparatus influences and indication. This contribution is needed when the joint consequence consumes an observation. |
-| **Uses A.6.3.RT — Representation-Scheme Transition** | Constructs an operative expression under an available scheme and compares its content and use with the source. The applicable subject Method supplies any new conclusion obtained with that expression. |
+| **Uses A.6.3.RT — Representation Transition** | Constructs an operative expression under the conventions of the chosen representation and compares its content and use with the source. The applicable subject Method supplies any new conclusion obtained with that expression. |
 | **Uses A.6.1 for realization semantics** | Keeps a declared operation, its realization relation and the performance of a Method distinguishable when those claims matter to the executing arrangement. |
 | **Uses A.15.9 for a needed contribution from another practice** | Helps obtain the result, explanation or formulation that the next operation needs, with its receiving use made explicit. |
 | **Coordinates with C.39 and C.40** | Searches for a missing way and develops the problem or Method repertoire when the existing connections expose a worthwhile construction question. |

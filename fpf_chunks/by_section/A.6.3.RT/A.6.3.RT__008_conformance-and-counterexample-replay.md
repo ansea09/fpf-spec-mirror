@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.3.RT"
-pattern_title: "Representation-Scheme Transition: Change Representation of the Same EntityOfConcern"
+pattern_title: "Representation Transition: Change Representation of the Same EntityOfConcern"
 section_id: "A.6.3.RT:7"
 section_title: "Conformance and counterexample replay"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT/A.6.3.RT__008_conformance-and-counterexample-replay.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
-  - "A.6.3.RT — Representation-Scheme Transition: Change Representation of the Same EntityOfConcern"
+  - "A.6.3.RT — Representation Transition: Change Representation of the Same EntityOfConcern"
   - "A.6.3.RT:7 — Conformance and counterexample replay"
-line_start: 19753
-line_end: 19789
+line_start: 19760
+line_end: 19796
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -51,19 +51,19 @@ keywords:
 
 #### A.6.3.RT:7.1 - Ordinary and exact checks
 
-1. **CC-RT-1 — Useful ordinary entry.** A user can recover the source content, choose an available scheme, make a target suited to the next action, and compare it with the source before supplying exact endpoint identities. Givens, unknowns and a partial construction can support this first result.
-2. **CC-RT-2 — Same concern and right family.** The target still concerns the same thing; representation scheme or reasoning medium is the primary change rather than wording, narrative, explanation, carrier work, retargeting, bridge use, or controlled coarsening.
+1. **CC-RT-1 — Useful ordinary entry.** A user can recover the source content, choose a representation and a medium that support the next action, make the target, and compare it with the source before supplying exact endpoint identities. Givens, unknowns and a partial construction can support this first result.
+2. **CC-RT-2 — Same concern and right family.** The target still concerns the same thing; the intended operation depends on a change of representation language or reasoning medium rather than wording, narrative, explanation, carrier work, retargeting, bridge use, or controlled coarsening.
 3. **CC-RT-3 — Delta and source comparison.** Preserved and foregrounded content, rearrangement, loss, recoverability, and apparent links not licensed by the source are visible.
 4. **CC-RT-4 — Use and return.** The supported use is clear. Any excluded use or source-return requirement follows §4.1's grounded plausible-reader and consequence test.
 5. **CC-RT-5 — Progressive burden.** Detailed factors, semiotic mode, decode evidence, exact identities, Work, publication, evidence, and assurance appear only when each changes use or blocks a likely error.
 6. **CC-RT-6 — Exact endpoints when triggered.** `X` and `Y` are independently identified C.2.1 epistemes with the same EntityOfConcern and effective schemes. Their model, display, output or carrier labels alone do not establish those identities.
 7. **CC-RT-7 — Exact construction.** `v : X -> Y` states claim construction, endpoint-scheme relation, same EntityOfConcern, preservation, loss/recovery, prohibited strengthening, applicability, use, and return.
 8. **CC-RT-8 — Exact dependencies and neighbors.** Correspondence dependencies obtain independently; C.29 representation, E.17.0 View membership, grounding, publication, evidence, assurance, bridge, gate, and receiving Work remain separate.
-9. **CC-RT-9 — Later-specific occurrence only at its trigger.** A positive `RepresentationSchemeTransitionRelation@Context` has the A.1.1 model-use structure, preserved concern, `X`, `Y`, two scheme-description epistemes, and Work satisfying §4.1.b.
+9. **CC-RT-9 — Later-specific occurrence only at its trigger.** A positive `RepresentationTransitionRelation@Context` has the A.1.1 model-use structure, preserved concern, `X`, `Y`, one episteme describing the effective interpretation rules of `X` and one describing those of `Y`, and Work satisfying §4.1.b.
 10. **CC-RT-10 — Occurrence, Work, and description stay distinct.** The participant tuple identifies the occurrence; Work and production claims remain separate; the transition-description episteme has the occurrence as EntityOfConcern and its own C.2.1 identity.
 11. **CC-RT-11 — Occurrence identity.** Only a changed participant reidentifies the occurrence; repeat Work, evidence, publication, layout, carrier, description edition, or C.29 output does not.
 12. **CC-RT-12 — Reuse is local.** When the source or target, delta, dependency, loss, use, evidence, or return changes, reopen only the affected part of the account.
-13. **CC-RT-13 — Construction and subject result.** The expression uses identified rules and supports the named operation. A trial is required only when it can decide usefulness. A new subject conclusion keeps its construction or argument as its source; notation-scheme design and the subject Method remain distinct from making the expression.
+13. **CC-RT-13 — Construction and subject result.** The target representation supports the named operation. For an expression, identify the conventions used to form and interpret it. For a physical or learned representation, establish the correspondence or checked means of reading it that the inference needs. Try the operation when the trial can decide usefulness. A new conclusion keeps its grounds in the subject work that established it.
 
 #### A.6.3.RT:7.2 - Counterexample replay
 
@@ -71,9 +71,9 @@ keywords:
 | --- | --- |
 | Ordinary entry | A service note can become a useful comparison table and loss note without first inventing `X`, `Y`, `v`, Work, publication, or assurance records. |
 | Constructive use | Givens and an intermediate geometric construction can become a diagram used in an argument. RT compares the diagram with those inputs; geometry establishes any new conclusion. |
-| Scheme limit | If the selected conventions cannot express a required distinction, choose another scheme or design the missing rules before claiming a usable expression under them. |
+| Limit of the chosen notation | If the language cannot express what the user needs to distinguish, select another representation language or design the missing construction or interpretation rule. |
 | Preserve vs retarget | Exact RT requires equal EntityOfConcern; a changed concern requires A.6.4 even when labels overlap. |
-| Same scheme | If scheme and reasoning medium are unchanged and only wording changes, use A.6.3.CR. |
+| Faithful textual restatement or translation | Use A.6.3.CR when the task is to express the same claims in other words or another language. Use A.6.3.RT if the new representation also enables a distinct operation the receiver needs. |
 | Different scheme | Scheme difference alone establishes neither `v`, correspondence, Work, Bridge, nor the six-participant occurrence. |
 | Candidate vs `U.View` | A valid receiving episteme and RT construction may fail E.17.0 conformance and remain a non-View candidate. |
 | Publication/form/carrier | Availability, form change, or carrier replacement substitutes for no endpoint and reidentifies no unchanged construction or occurrence. |

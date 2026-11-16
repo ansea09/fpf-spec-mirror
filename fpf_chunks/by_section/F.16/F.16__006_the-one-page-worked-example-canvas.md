@@ -6,12 +6,12 @@ section_id: "F.16:5"
 section_title: "The one-page Worked-Example Canvas"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.16/F.16__006_the-one-page-worked-example-canvas.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "F.16 — Worked-Example Template (Cross-Domain)"
   - "F.16:5 — The one-page Worked-Example Canvas"
-line_start: 131806
-line_end: 131835
+line_start: 132113
+line_end: 132142
 dependencies:
   - "A.10"
   - "A.15"

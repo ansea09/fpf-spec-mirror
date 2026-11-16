@@ -6,12 +6,12 @@ section_id: "A.6.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.1/A.6.1__005_solution.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "A.6.1 — U.Mechanism - Reusable Law-Governed Operation Declaration"
   - "A.6.1:4 — Solution"
-line_start: 17439
-line_end: 17732
+line_start: 17446
+line_end: 17739
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -146,7 +146,7 @@ If the operations do not share one truthful subject-and-range pair, do not hide 
 
 `OperationDeclaration`, `ArgumentDeclaration`, and `ResultDeclaration` name parts of the declaration content. A `bindingDesignationRule` says whether a binding carries the value itself or one governed reference that resolves to it; a stored token or compatible reference does not establish a binding. An operation index may be derived from the operation designators for retrieval, but it is not another semantic content group.
 
-A.6.5 SlotSpecs declare participant meanings only inside a `RelationSignature` for an already governed direct relation kind. A.6.1 argument and result declarations govern the named values of an operation application. Mathematical operand order remains representation-local. Use A.6.3.RT for a same-EntityOfConcern representation-scheme transition and C.29 only for a mathematical-lens use; state a correspondence when the representation must preserve the independently declared operation meanings.
+A.6.5 SlotSpecs declare participant meanings only inside a `RelationSignature` for an already governed direct relation kind. A.6.1 argument and result declarations govern the named values of an operation application. Mathematical operand order remains representation-local. Use A.6.3.RT for a same-EntityOfConcern representation transition and C.29 only for a mathematical-lens use; state a correspondence when the representation must preserve the independently declared operation meanings.
 
 Keep neighboring facts outside mechanism identity-bearing content. Cite an F.9 Bridge only when two `SchemeSenseCell` values are being related across semantic contexts and its predicate obtains. Cite an actual application binding only when the downstream claim asserts which value the application used or returned. Evaluation, subject participation, evidence use, and realization each require their own obtaining predicate.
 

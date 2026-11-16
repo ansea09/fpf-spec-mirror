@@ -6,12 +6,12 @@ section_id: "A.9:8"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.9/A.9__009_rationale.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "A.9 — Choose and Check an Aggregation Law for the Intended Result"
   - "A.9:8 — Rationale"
-line_start: 27651
-line_end: 27656
+line_start: 27658
+line_end: 27663
 dependencies:
   - "A.19.CN"
   - "A.19.ULSAM"

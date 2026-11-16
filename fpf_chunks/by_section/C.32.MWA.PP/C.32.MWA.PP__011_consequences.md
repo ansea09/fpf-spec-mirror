@@ -6,12 +6,12 @@ section_id: "C.32.MWA.PP:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA.PP/C.32.MWA.PP__011_consequences.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "C.32.MWA.PP — Construct and Compare Method Performance and Provision Arrangements"
   - "C.32.MWA.PP:9 — Consequences"
-line_start: 83319
-line_end: 83328
+line_start: 83429
+line_end: 83438
 dependencies:
   - "A.3.1.MI"
   - "A.3.1.QM"

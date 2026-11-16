@@ -6,12 +6,12 @@ section_id: "C.35:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.35/C.35__001_intro.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "C.35 — Assess Generated or Discovered Results for Architecture Use"
   - "C.35:intro — Intro"
-line_start: 84945
-line_end: 84950
+line_start: 85055
+line_end: 85060
 dependencies:
   - "A.22"
   - "A.6.M"

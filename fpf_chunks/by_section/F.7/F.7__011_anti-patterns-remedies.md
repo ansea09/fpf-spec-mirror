@@ -6,12 +6,12 @@ section_id: "F.7:10"
 section_title: "Anti-patterns & remedies"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.7/F.7__011_anti-patterns-remedies.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "F.7 — Display Source-Local Comparisons in a Concept-Set Table"
   - "F.7:10 — Anti-patterns & remedies"
-line_start: 128329
-line_end: 128343
+line_start: 128636
+line_end: 128650
 dependencies:
   - "A.6.9"
   - "B.3"

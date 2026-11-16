@@ -6,12 +6,12 @@ section_id: "A.3.1.MR:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MR/A.3.1.MR__001_intro.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "A.3.1.MR — Candidate-Method Recovery from Work Evidence"
   - "A.3.1.MR:intro — Intro"
-line_start: 10227
-line_end: 10236
+line_start: 10230
+line_end: 10239
 dependencies:
   - "A.10"
   - "A.13"
@@ -35,5 +35,5 @@ keywords:
 
 **Plain name.** Recover source-traceable candidate accounts of a reusable way from several performances or other direct evidence.
 
-**Primary reader.** A practitioner, researcher, analyst, or method engineer who has observations or records from several performances and needs a reusable explanation before Method identification or specialist reconstruction.
+**Primary reader.** A practitioner, researcher, analyst or method engineer who needs to understand what an observed performance shows about a reusable way of working, or to recover candidate accounts from several performances or other direct evidence.
 

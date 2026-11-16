@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.4.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "E.4 — FPF Ecosystem Architecture: Framework Families, Products and DPF Suites"
-line_start: 97711
-line_end: 98113
+line_start: 97922
+line_end: 98326
 dependencies:
   - "C.20"
   - "C.33"
@@ -302,6 +302,8 @@ For a durable ecosystem-architecture answer, use the following operations as the
 12. State currentness, refresh, and edition-change claims using `G.11`, the exact edition values, and their source/currentness assertions.
 13. Before using a carrier or transformed or generated view as evidence, state the exact source-return or preservation assertion under the predicate defined in `C.33`, `C.34`, or `C.35`.
 14. Evaluate whole-FPF adequacy through `E.2.DA`, DPF or local-framework package adequacy through `E.4.DPF.DA`, individual pattern quality through `E.21`, improve through `E.23`, and use `E.19` for a selected admission, refresh, or return-for-repair question.
+
+When placing a foundational contribution, identify what would settle a disagreement about it. Give a Core rule the premises its users need. If several Core definitions depend on one commitment and their separate passages cannot reliably keep it consistent, state it once in Core and refer to it from those definitions. Put a method of deriving those premises or testing their physical interpretation with the discipline that can correct it. A separate edition earns its place when independent consumers must adopt the same commitments and check compatibility as they change. A reading order can be supplied in the Reference. Use B.5.MR if the claim concerns one model refining another.
 
 Use this routing table when a proposed change is ambiguous. Its rows are common routes, not a closed taxonomy:
 

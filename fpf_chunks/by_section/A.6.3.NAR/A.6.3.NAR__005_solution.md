@@ -6,12 +6,12 @@ section_id: "A.6.3.NAR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.NAR/A.6.3.NAR__005_solution.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "A.6.3.NAR — Structure-to-Narrative Rendering"
   - "A.6.3.NAR:4 — Solution"
-line_start: 20265
-line_end: 20444
+line_start: 20272
+line_end: 20451
 dependencies:
   - "A.10"
   - "A.22.CGUS"
@@ -213,7 +213,7 @@ An ordinary narrative remains fit while its source material, selected structures
 | Source material or selected structures change | Compare the narrative with the changed source. Retain it when the change leaves its selected structures, claims and supported use unchanged; otherwise repair the affected ordering, preservation, loss, unsupported additions or return, and restrict only uses no longer supported. |
 | An exact discriminator of `X`, `Y`, an additional source episteme, or a depended-on relation changes | Reidentify only the changed object; restate the affected part of `n`, preservation, loss, and return. Use C.33 only for architecture-relevant captured/lost structure and G.2 only for its SoTA harvesting/synthesis claims. |
 | Intended reader or listener use becomes stronger, broader, or more reliance-facing | Reassess the narrative for the changed use and retain any already supported use. Open the exact branch only if the changed receiver now makes claim identity material, and add only the identity, source-chain, evidence, assurance, ethics, publication, or policy account that receiver requires; otherwise revise the ordinary account only as needed. |
-| Ordering rationale or connective account changes | Reopen the ordering and visible-loss account. Use RT as well when a material representation-scheme shift remains after narrative ordering is accounted for; use CSC when a narrower-use coarsened episteme is primary. |
+| Ordering rationale or connective account changes | Reopen the ordering and visible-loss account. Use RT as well when the receiving operation still depends on changing the representation language or reasoning medium after the ordering is settled; use CSC when a narrower-use coarsened episteme is primary. |
 | Source material is missing, stale, or unreachable, or a stronger claim still lacks its claim-specific result | Identify and restrict the uses that depend on the missing, stale or unreachable source or absent claim-specific result. Restore source access or obtain the needed result when the receiving task requires it; preserve already supported uses. Use G.11 when currentness or freshness is the live defect. |
 | Generated output, source-pack plan, schema, or admission result changes | Use C.35 for admission of an affected generated result to architecture use and G.2 for its SoTA harvesting/synthesis claims; reopen NAR only for the affected source-to-narrative relation, loss, and return. |
 | Domain narrative vocabulary or relevant narrative, NLG, or cognitive SoTA changes a relied-on field | Refresh that domain basis and replay the affected use; do not enlarge Core vocabulary merely to mirror the domain source. |

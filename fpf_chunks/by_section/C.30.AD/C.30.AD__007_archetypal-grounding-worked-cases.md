@@ -6,12 +6,12 @@ section_id: "C.30.AD:5"
 section_title: "Archetypal Grounding (Worked Cases)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__007_archetypal-grounding-worked-cases.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:5 — Archetypal Grounding (Worked Cases)"
-line_start: 75487
-line_end: 75508
+line_start: 75597
+line_end: 75618
 dependencies:
   - "A.1"
   - "A.10"

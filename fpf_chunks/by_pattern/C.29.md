@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.29.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "C.29 — Mathematical Lens Use"
-line_start: 71999
-line_end: 73032
+line_start: 72109
+line_end: 73142
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -548,7 +548,7 @@ Use `A.6.0`'s FormalSubstrate profile when a separate declaration of vocabulary,
 | measurement construction, scale, unit, or comparability, or evidence-stub adequacy | `C.16` | States measurement-dependent `LensUseBoundaryValue` only; measurement construction, scale, unit, or polarity, direct comparability, and evidence-stub adequacy stay with `C.16`. |
 | explanation-facing rendering or generated explanation use | `E.17.EFP` | States mathematical-lens use for the mathematical explanation used inside the rendering; explanation-use discipline stays with `E.17.EFP`. |
 | bounded comparative review unit | `E.17.ID.CR` | States declared lens use for a mathematical comparison construction or rival lens when that construction affects the comparative review use. |
-| same-EntityOfConcern representation-scheme transition | `A.6.3.RT` | C.29 applies only if the representation shift imports a contested or use-affecting mathematical lens. |
+| same-EntityOfConcern representation transition | `A.6.3.RT` | C.29 applies only if the representation shift imports a contested or use-affecting mathematical lens. |
 | coarsened rendering with narrower declared lens use and source-bearing reopen | `A.6.3.CSC` | C.29 applies only if the coarsening depends on mathematical abstraction, quotienting, or coarse-graining. |
 | cross-context meaning, bridge kind, direction, CL, loss, and substitution | `F.9` | Reference the Bridge and its separate bounded-use claim; keep Bridge semantics in `F.9`. |
 | causal-use question or verdict | `C.28` | Block causal overread or cite a `C.28` application or `CausalUseSupportResultRef`. |

@@ -6,12 +6,12 @@ section_id: "C.29.1:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29.1/C.29.1__013_relations.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "C.29.1 — Mathematical Result Transfer"
   - "C.29.1:12 — Relations"
-line_start: 73452
-line_end: 73462
+line_start: 73562
+line_end: 73572
 dependencies:
   - "A.3.3"
   - "A.6.3.RT"
@@ -27,7 +27,7 @@ keywords:
 |---|---|
 | **C.29 - Mathematical Lens Use** | Supplies selection of a mathematical account and the general correspondence-and-return method. C.29.1 specializes its operation-transfer contribution. C.29:4.4 supplies recording options for a use that needs a recoverable account. |
 | **B.5 - Canonical Reasoning Cycle** | B.5:4.2 and B.5:4.3 recover or construct the source contribution and its argument. B.5:4.4 uses the consequence or revises the question when a transfer exposes a missing premise. |
-| **A.6.3.RT - Representation-Scheme Transition: Change Representation of the Same EntityOfConcern** | Constructs expressions and relates representation schemes. This pattern establishes the operation, representative and result comparisons used to carry a mathematical consequence through such a change. |
+| **A.6.3.RT - Representation Transition: Change Representation of the Same EntityOfConcern** | Constructs expressions and compares representations and the operations they support. This pattern establishes the operation, representative and result comparisons used to carry a mathematical consequence through such a change. |
 | **B.5.MPC - Connect Physical, Mathematical and Computational Reasoning** | Uses this mathematical transfer within a connected physical account, mathematical construction and computation. It supplies the wider coordination when physical premises, execution or observation remain unresolved. |
 | **A.3.3 - U.Dynamics: State-Space and Transition-Law Episteme** | Supplies state and change descriptions when the transferred operation is an update or a prediction. The transfer here compares a proposed summary with that specified evolution; choosing the physical evolution remains subject work. |
 | **C.16 - Measurement & Metrics Characterization (MM‑CHR)** | Supplies the measurement construction when obtaining a discriminating observation is the selected repair. A mathematical bound on values compatible with an indication still depends on the applicable measurement relation. |

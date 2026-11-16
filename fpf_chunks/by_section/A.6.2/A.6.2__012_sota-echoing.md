@@ -6,12 +6,12 @@ section_id: "A.6.2:10.1"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.2/A.6.2__012_sota-echoing.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "A.6.2 — Effect-Free Episteme Morphing: Laws for Mathematical Relations Between Epistemes"
   - "A.6.2:10.1 — SoTA-Echoing"
-line_start: 18400
-line_end: 18410
+line_start: 18407
+line_end: 18417
 dependencies:
   - "A.6.0"
   - "A.6.1"

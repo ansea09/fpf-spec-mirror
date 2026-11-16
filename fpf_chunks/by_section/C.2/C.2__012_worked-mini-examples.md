@@ -6,12 +6,12 @@ section_id: "C.2:11"
 section_title: "Worked mini‑examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2/C.2__012_worked-mini-examples.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "C.2 — Epistemic holon composition (KD-CAL)"
   - "C.2:11 — Worked mini‑examples"
-line_start: 53183
-line_end: 53188
+line_start: 53289
+line_end: 53294
 dependencies:
   - "A.1"
   - "A.10"

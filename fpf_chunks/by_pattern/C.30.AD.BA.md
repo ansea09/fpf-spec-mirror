@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.30.AD.BA.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "C.30.AD.BA — Built-Asset Architecture Description and Reference Designation"
-line_start: 75597
-line_end: 75885
+line_start: 75707
+line_end: 75995
 dependencies:
   - "A.1"
   - "A.10"
@@ -174,7 +174,7 @@ A single IFC publication may carry source descriptions for several rows. Convers
 
 #### C.30.AD.BA:2.2 - Recover a reference designation as a relation
 
-A reference designation is useful because it makes information about an entity retrievable under an explicit structuring and designation scheme. First recover the designation or reference relation through its direct representation/reference/naming owner. `C.30.AD.BA` records only its built-asset architecture-description use; a code, field, repeated string, list row, or the record below neither admits a relation kind nor makes an occurrence obtain. If no current subject pattern supplies the needed relation, keep the designation use as bounded C.2.1 claim content; apply `A.6.RCD` only when a named repeated receiving use needs a reusable predicate definition or admitted direct relation.
+A reference designation makes information about an entity retrievable under stated structuring and designation rules. When comparing two identifiable systems of designations, E.5.2.L:4.1 supplies the tests for formation, reading and resolution. For one asset, give the rules by value when that already identifies its aspect, issuer and effective interval. A well-formed but unassigned code in a complete register, two possible assignments and an unavailable register give different answers about which asset the reader can locate. First recover the designation or reference relation through its direct representation/reference/naming owner. `C.30.AD.BA` records only its built-asset architecture-description use; a code, field, repeated string, list row, or the record below neither admits a relation kind nor makes an occurrence obtain. If no current subject pattern supplies the needed relation, keep the designation use as bounded C.2.1 claim content; apply `A.6.RCD` only when a named repeated receiving use needs a reusable predicate definition or admitted direct relation.
 
 ```text
 BuiltAssetReferenceDesignationUse:

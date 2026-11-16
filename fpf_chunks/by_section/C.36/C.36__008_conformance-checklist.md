@@ -6,12 +6,12 @@ section_id: "C.36:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36/C.36__008_conformance-checklist.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "C.36 — Cultural Evolution and Cultural-Evolution Engineering"
   - "C.36:7 — Conformance Checklist"
-line_start: 85644
-line_end: 85659
+line_start: 85754
+line_end: 85769
 dependencies:
   - "A.1"
   - "A.10"

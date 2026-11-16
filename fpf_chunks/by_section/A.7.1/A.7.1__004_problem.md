@@ -6,12 +6,12 @@ section_id: "A.7.1:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.1/A.7.1__004_problem.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "A.7.1 — Consequence-Guided Ontological Problem Solving"
   - "A.7.1:2 — Problem"
-line_start: 26792
-line_end: 26797
+line_start: 26799
+line_end: 26804
 dependencies:
   - "A.11"
   - "A.7"

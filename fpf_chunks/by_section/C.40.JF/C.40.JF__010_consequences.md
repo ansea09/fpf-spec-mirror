@@ -6,12 +6,12 @@ section_id: "C.40.JF:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.JF/C.40.JF__010_consequences.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "C.40.JF — Qualify Dependencies and Joint Reachability"
   - "C.40.JF:9 — Consequences"
-line_start: 92101
-line_end: 92106
+line_start: 92310
+line_end: 92315
 dependencies:
   - "A.10"
   - "A.15.9"

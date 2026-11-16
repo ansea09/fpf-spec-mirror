@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.17.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
-line_start: 114019
-line_end: 114651
+line_start: 114324
+line_end: 114956
 dependencies:
   - "A.10"
   - "A.15.4"
@@ -270,7 +270,7 @@ When a publication-facing unit, publication face, rendering, narrower-use render
 | Is the publication-facing unit being used as work-entry readiness? | Use `A.15.5` for the result about the WorkPlan and PlanItem, readiness criterion, checking Work, current inputs, reliance window and stop or recheck condition. A gate or permission remains a separate result. |
 | Is the publication-facing unit being used as gate passage, constraint validity, adjudication, or release decision source? | Recover the `A.20` constraint result or `A.21` gate result and the applicable rule, subject, source results, scope, window, and action consequence. Add a log, replay witness, freshness result, or evidence path only when the governing rule or receiving use requires it. A release claim also retains its own decision or authority basis. |
 | Is it the same EntityOfConcern with textual restatement only? | `A.6.3.CR Conservative Retextualization`. |
-| Is it the same EntityOfConcern with representation scheme or reasoning medium changed? | `A.6.3.RT Representation-Scheme Transition`. |
+| Does an operation on the same EntityOfConcern depend on changing the representation language or reasoning medium? | `A.6.3.RT Representation Transition`. |
 | Is it deliberately reduced-use and useful only under narrower bounded use, `non-admissible downstream use`, and source-bearing reopen? | `A.6.3.CSC Controlled Semantic Coarsening`. |
 | Is the primary issue explanation-facing rendering class on an existing MVPK face? | `E.17.EFP ExplanationFaithfulnessProfile`. |
 | Is the primary issue one bounded comparative review unit over sources? | `E.17.ID.CR ComparativeReviewUnit`. |

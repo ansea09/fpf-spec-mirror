@@ -6,12 +6,12 @@ section_id: "C.2.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__001_intro.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:intro — Intro"
-line_start: 53191
-line_end: 53214
+line_start: 53297
+line_end: 53320
 dependencies:
   - "A.1"
   - "A.10"
@@ -43,7 +43,7 @@ keywords:
 
 **First useful move.** Establish what the account must help its recipient understand or do. Recover the relevant claims, their subject and interpretation; write or draw what is understood when the account is still developing. A corrected sentence, an interpretable table or a justified answer about a changed dependency can finish the task. Section :4.0 connects these moves; :4.1.1 gives the identity comparison when needed.
 
-**One-line summary.** A `U.Episteme` is a claim-bearing holon identified by exact claim content, one exact EntityOfConcern, and the effective `ReferenceScheme` that makes the claims interpretable about that entity. Changing any of these three discriminators identifies another episteme.
+**One-line summary.** A `U.Episteme` is a claim-bearing holon identified by exact claim content, one exact EntityOfConcern, and the effective `ReferenceScheme` that makes the claims interpretable about that entity. Changing any of these three discriminators identifies another episteme. The representation language can be shared by records whose effective rules differ. A document-specific convention for an empty cell can alter the claims a reader may use even where both readings are admitted by the language (E.5.2.L:4.1).
 
 **Primary working reader and viewpoint.** The engineer or researcher comparing, revising, teaching, grounding or publishing that knowledge object. The working concern is to reidentify it through those uses and locate a change when it occurs.
 

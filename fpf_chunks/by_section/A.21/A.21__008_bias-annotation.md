@@ -6,12 +6,12 @@ section_id: "A.21:6"
 section_title: "Bias annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.21/A.21__008_bias-annotation.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "A.21 — Gate Decisions from Independent Check Results"
   - "A.21:6 — Bias annotation"
-line_start: 41625
-line_end: 41631
+line_start: 41632
+line_end: 41638
 dependencies:
   - "A.10"
   - "A.15.5"

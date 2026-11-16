@@ -6,12 +6,12 @@ section_id: "A.9:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.9/A.9__004_forces.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "A.9 — Choose and Check an Aggregation Law for the Intended Result"
   - "A.9:3 — Forces"
-line_start: 27584
-line_end: 27592
+line_start: 27591
+line_end: 27599
 dependencies:
   - "A.19.CN"
   - "A.19.ULSAM"

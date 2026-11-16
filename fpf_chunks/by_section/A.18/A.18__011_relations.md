@@ -6,12 +6,12 @@ section_id: "A.18:10"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.18/A.18__011_relations.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "A.18 — CSLC in Kernel (Characteristic ⟷ Scale ⟷ Level ⟷ Coordinate) (A.CSLC‑KERNEL)"
   - "A.18:10 — Relations"
-line_start: 36072
-line_end: 36083
+line_start: 36079
+line_end: 36090
 dependencies:
   - "A.17"
   - "A.19"

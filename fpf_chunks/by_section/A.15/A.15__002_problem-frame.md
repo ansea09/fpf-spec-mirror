@@ -6,12 +6,12 @@ section_id: "A.15:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__002_problem-frame.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "A.15 — System-Role–Method–Work Alignment"
   - "A.15:1 — Problem frame"
-line_start: 29857
-line_end: 29874
+line_start: 29864
+line_end: 29881
 dependencies:
   - "A.10"
   - "A.13"

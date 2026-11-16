@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.3.RT"
-pattern_title: "Representation-Scheme Transition: Change Representation of the Same EntityOfConcern"
+pattern_title: "Representation Transition: Change Representation of the Same EntityOfConcern"
 section_id: "A.6.3.RT:12b"
 section_title: "C.29 mathematical-lens use relation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT/A.6.3.RT__015_c-29-mathematical-lens-use-relation.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
-  - "A.6.3.RT — Representation-Scheme Transition: Change Representation of the Same EntityOfConcern"
+  - "A.6.3.RT — Representation Transition: Change Representation of the Same EntityOfConcern"
   - "A.6.3.RT:12b — C.29 mathematical-lens use relation"
-line_start: 19880
-line_end: 19883
+line_start: 19887
+line_end: 19890
 dependencies:
   - "A.1.1"
   - "A.10"

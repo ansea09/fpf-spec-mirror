@@ -6,12 +6,12 @@ section_id: "A.2.8:11"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8/A.2.8__014_rationale.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "A.2.8 — U.Commitment — Individual Duties to Act or Refrain"
   - "A.2.8:11 — Rationale"
-line_start: 8781
-line_end: 8784
+line_start: 8784
+line_end: 8787
 dependencies:
   - "A.10"
   - "A.15.1"

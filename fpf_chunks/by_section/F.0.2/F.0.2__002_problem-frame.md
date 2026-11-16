@@ -6,12 +6,12 @@ section_id: "F.0.2:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2/F.0.2__002_problem-frame.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "F.0.2 — Semantic Synthesis across Source Ontologies"
   - "F.0.2:1 — Problem frame"
-line_start: 125631
-line_end: 125644
+line_start: 125936
+line_end: 125949
 dependencies:
   - "A.2.4"
   - "C.2.1"
@@ -34,9 +34,9 @@ keywords:
 
 ### F.0.2:1 - Problem frame
 
-Use this pattern when several sources describe the same working question through materially different concepts, relations, explanations, or boundaries, and those differences can change a named authoring decision or a contribution to one subject pattern.
+Use this pattern when sources answer the same inquiry through different concepts, relations or explanations and the difference matters to what someone can conclude or do. The recipient may need the comparison itself, a way to act that depends on it, or a contribution to a framework pattern.
 
-Here semantic synthesis means comparing and developing claims through the concepts, relations and boundaries used by their sources. Conceptual synthesis names this semantic work; it can concern theories of action as well as other subject matters.
+In this pattern, **conceptual synthesis** and **semantic synthesis** name the same work. It means comparing and developing claims through the concepts, relations and boundaries used by their sources. It can concern a theory of action or any other subject. When undertaken to construct or revise a method, this conceptual work is part of methodological synthesis. Its conclusions can also answer an inquiry in their own right.
 
 The primary concern is one bounded semantic-synthesis question for one declared receiving use. The first useful move is to state that question and the difference that could change the next decision. Keep each source claim local through `F.0.1`, choose the source cut through `F.1`, then compare the claims here.
 

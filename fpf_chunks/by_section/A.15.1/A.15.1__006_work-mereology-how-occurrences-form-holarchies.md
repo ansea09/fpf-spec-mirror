@@ -6,12 +6,12 @@ section_id: "A.15.1:5"
 section_title: "Work mereology (how occurrences form holarchies)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__006_work-mereology-how-occurrences-form-holarchies.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "A.15.1 — U.Work: Dated Performed Work Occurrence"
   - "A.15.1:5 — Work mereology (how occurrences form holarchies)"
-line_start: 30420
-line_end: 30503
+line_start: 30427
+line_end: 30510
 dependencies:
   - "A.1"
   - "A.10"

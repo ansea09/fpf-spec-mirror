@@ -6,12 +6,12 @@ section_id: "C.36.MC:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.MC/C.36.MC__013_sota-echoing.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "C.36.MC — Qualify and Develop a Method Culture"
   - "C.36.MC:11 — SoTA-Echoing"
-line_start: 95920
-line_end: 95940
+line_start: 96131
+line_end: 96151
 dependencies:
   - "A.15.1"
   - "A.3.1"

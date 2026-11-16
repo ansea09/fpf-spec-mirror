@@ -6,12 +6,12 @@ section_id: "E.5.2:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5.2/E.5.2__002_problem-frame.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "E.5.2 — Notational Independence"
   - "E.5.2:1 — Problem frame"
-line_start: 101744
-line_end: 101753
+line_start: 101957
+line_end: 101966
 dependencies:
   - "A.6.3.RT"
   - "A.6.3.RT.OE"
@@ -27,7 +27,7 @@ Use this pattern when expressing FPF content or using another expression to carr
 
 A single expression needs an explanation of its interpretation. A semantic mapping is needed when expressions are compared or one is translated, substituted or relied on as carrying the other's content.
 
-A **representation scheme** supplies conventions for forming and interpreting expressions. A particular table, drawing, formula or vocal phrase is an **expression** read under those conventions.
+A **representation language** supplies conventions for forming and interpreting expressions. A particular table, drawing, formula or vocal phrase is an **expression** read under those conventions. When a decision depends on which forms the language admits or which readings they can carry, use E.5.2.L:4.1. An ordinary choice of expression can be made here.
 
 FPF concepts must remain understandable across disciplines, tools and future notations. If their meaning can only be recovered from one diagram style, file syntax or markup dialect, other users must reconstruct it before they can apply the pattern.
 

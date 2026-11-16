@@ -6,12 +6,12 @@ section_id: "C.2.4:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.4/C.2.4__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "C.2.4 — Articulation Explicitness — How Explicit Is an Episteme's Meaning for Its Use?"
   - "C.2.4:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 56017
-line_end: 56022
+line_start: 56127
+line_end: 56132
 dependencies:
   - "A.13"
   - "A.15"

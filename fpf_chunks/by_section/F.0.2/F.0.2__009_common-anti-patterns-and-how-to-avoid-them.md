@@ -6,12 +6,12 @@ section_id: "F.0.2:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2/F.0.2__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "F.0.2 — Semantic Synthesis across Source Ontologies"
   - "F.0.2:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 125805
-line_end: 125815
+line_start: 126112
+line_end: 126122
 dependencies:
   - "A.2.4"
   - "C.2.1"
@@ -38,7 +38,7 @@ keywords:
 | --- | --- | --- |
 | Crosswalk as synthesis | Candidate correspondences are presented without a receiving claim or practical action. | State the receiving question, compare action-changing differences, and write one of the three result claims. |
 | Similar words as one concept | Lexical resemblance hides different entities, relations, or explanatory roles. | Restore source-local claims through `F.0.1`; add an `F.9` Bridge only for a relation the comparison asserts. |
-| Literature narrative without a move | Sources are summarized but no authoring decision changes. | State the proposed practitioner action and first result, or close with a contrast or unresolved inquiry. |
+| Literature narrative without an answer | The sources are recognizable, yet the reader cannot say what follows from comparing them. | Return the supported conclusion, the consequential difference or the specific question still open. Show which operation changes if a method depends on it. |
 | Framework fit as assurance | Material is forced into the receiving ontology and fit is treated as truth. | Keep non-fit visible and separate authoring proposal, evidence use, admission, and reliance. |
 | Missing source as falsity | An unavailable or weak source is used to reject the disputed claim. | Make the bounded inquiry state the EntityOfConcern and name the source action that may close it. |
 | Heavy pack by default | Every bounded question is expanded into a full `G.2` programme. | Use one bounded comparison; use `G.2` only when its broad harvesting and handoff result is needed. |

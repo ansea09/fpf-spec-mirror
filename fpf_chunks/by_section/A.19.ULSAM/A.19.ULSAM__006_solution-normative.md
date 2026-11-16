@@ -6,12 +6,12 @@ section_id: "A.19.ULSAM:4"
 section_title: "Solution (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ULSAM/A.19.ULSAM__006_solution-normative.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "A.19.ULSAM — Unified Lawful Scale Aggregation Mechanism"
   - "A.19.ULSAM:4 — Solution (normative)"
-line_start: 40097
-line_end: 40199
+line_start: 40104
+line_end: 40206
 dependencies:
   - "A.19.CPM"
   - "A.19.SelectorMechanism"

@@ -6,12 +6,12 @@ section_id: "E.5.2:4"
 section_title: "Solution - Keep meaning portable while choosing a useful expression"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5.2/E.5.2__005_solution-keep-meaning-portable-while-choosing-a-useful-expression.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "E.5.2 — Notational Independence"
   - "E.5.2:4 — Solution - Keep meaning portable while choosing a useful expression"
-line_start: 101765
-line_end: 101797
+line_start: 101978
+line_end: 102010
 dependencies:
   - "A.6.3.RT"
   - "A.6.3.RT.OE"
@@ -28,12 +28,12 @@ keywords:
 
    A diagram, calculus or learned vocal-gestural expression may carry a reasoning or construction step. When it does, explain the operation and its prerequisites locally or cite the guidance for that subject. The pattern about that subject or the applicable Method governs the reasoning or construction. The reader obtains the subject result by applying that Method.
 
-   When changing representation scheme or reasoning medium, use A.6.3.RT to construct and compare the representation.
+   When the intended operation depends on a change of representation language or reasoning medium, use A.6.3.RT to construct and compare the expressions. A faithful translation whose purpose is textual restatement can use A.6.3.CR.
 
 2. **State the semantic mapping.**
    When expressions are compared or one is translated, substituted or relied on as carrying the other's content, their semantic mapping **SHALL** be stated.
 
-   Name the source expression and the expression being compared with it. Name their representation schemes when the rules matter to interpretation. State the correspondences for the claims and conditions needed by the intended use. If a relevant distinction is lost, state the loss and limit the equivalence claim accordingly.
+   Name the source expression and the expression being compared with it. Name their representation languages when the rules matter to interpretation. State the correspondences for the claims and conditions needed by the intended use. If a relevant distinction is lost, state the loss and limit the equivalence claim accordingly.
 
    A meaning-preserving mapping leaves open what operations a reader can perform with each expression, with what preparation and effort.
 
@@ -52,5 +52,5 @@ The first result is an expression whose meaning can be recovered, with an explan
 
 If a claim changes, compare again with the named source expression. Then repair the correspondence or narrow the claimed equivalence and permitted use.
 
-Use A.6.3.RT to compare content carried between expressions and A.6.3.RT.OE to construct an expression with which the intended operation can be performed. If the representation scheme cannot express a needed distinction, select another scheme or redesign the scheme before claiming that the distinction is preserved.
+Use A.6.3.RT to compare content carried between expressions and A.6.3.RT.OE to construct an expression with which the intended operation can be performed. If the representation language cannot express a needed distinction, select another language or extend its conventions before claiming that the distinction is preserved.
 

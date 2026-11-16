@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.5.3.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "B.5.3 — Interpret Domain Vocabulary for an FPF Claim (Domain-Concept Bridge)"
-line_start: 52388
-line_end: 52485
+line_start: 52494
+line_end: 52591
 dependencies:
   - "A.13"
   - "A.15"
@@ -117,7 +117,7 @@ The same expression can be reused in an architecture view, a requirements docume
 | **Subtype explosion** | Every domain expression becomes a new root kind. | Keep the source-local wording when it suffices. Use C.3 for a needed kind and E.24.UK for a proposed durable public FPF U-kind. |
 | **Magic synonym** | A table says "sensor = component" and is treated as identity or permission. | Recover each local claim and the FPF value used. If two distinct cells must be related, test the F.9 relation and judge the named use separately. |
 | **Role-for-everything** | Evidence, status, local meaning, responsibility, and document use are all called roles. | Apply E.10.ROLE, then name the value or relation and use the pattern that defines or constrains it. A local system-role kind or assignment is only one possible result. |
-| **Description collapse** | A diagram label is treated as the entity, interface, or method. | Keep entity, description episteme, representation scheme, and publication form distinct. |
+| **Description collapse** | A diagram label is treated as the entity, interface, or method. | Keep entity, description episteme, conventions for reading the representation, and publication form distinct. |
 
 ### B.5.3:6 - **Consequences**
 

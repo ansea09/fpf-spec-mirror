@@ -6,12 +6,12 @@ section_id: "A.3.1.MR:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MR/A.3.1.MR__002_problem-frame.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "A.3.1.MR — Candidate-Method Recovery from Work Evidence"
   - "A.3.1.MR:1 — Problem frame"
-line_start: 10237
-line_end: 10261
+line_start: 10240
+line_end: 10264
 dependencies:
   - "A.10"
   - "A.13"
@@ -29,7 +29,7 @@ keywords:
 
 ### A.3.1.MR:1 - Problem frame
 
-**Use this when.** Use this pattern when you have observations or records from several performances and want to understand what reusable way they may show, but the reusable way being recovered has not yet been admitted as a Method.
+**Use this when.** Use observations or records from several performances to recover a candidate account of a reusable way before Method identification. A single demonstration can already show how one feature was enacted. If several rules could explain the action, retain the plausible alternatives and identify an observation that would distinguish them when the difference matters. If the step shown answers the immediate question, finish there.
 
 **First useful result.** Return a traceable provisional explanation of the reusable way the material may show, its rivals, important gaps and limits—or state that the material shows only what happened. A distinguishing question is included when it changes the intended recovery or downstream use; neither an answerable future test nor an investigation plan is required merely to finish the account.
 

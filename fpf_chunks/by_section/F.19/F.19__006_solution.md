@@ -6,12 +6,12 @@ section_id: "F.19:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.19/F.19__006_solution.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
   - "F.19:4 — Solution"
-line_start: 134177
-line_end: 134347
+line_start: 134484
+line_end: 134654
 dependencies:
   - "A.19.SPR"
   - "A.6.P"
@@ -73,7 +73,7 @@ Follow the method as well as the object. If the text promises to teach a way to 
 
 Write for the decision in front of the recipient. A furniture designer can write “Use drawing T, revision 4, for the seat joint.” The workshop order can read “Repair the loose joint on stool 17.” For an order to inspect the May lot, give the lot reference. If inspecting any available stool is sufficient, say so. One agent may need any of these forms. In “giraffes have long necks” the plural can express a characteristic of the kind. In “three giraffes came to the waterhole” it reports observed individuals. Singular wording can also speak of a kind or of one individual. Quantity, criterion and referent come from the statement in use. An explicit “all”, a particular set of items, or an exception belongs in the text when it changes what the reader may conclude or must do.
 
-Reread the whole passage after the edit. Which object would two competent users pick, what claim could each support, and what operation would each perform? Can they still say why moving from the case to the wider rule, or applying that rule here, is warranted? If both readings already lead to the intended action for the same reason, the familiar wording is enough. Use C.3 to test a candidate against the kind criterion. Use A.2.6 to check whether a claim covers the conditions of use, and A.3.1 to identify a repeatable method. When a change of subject affects the conclusion or action, use C.39.WA:4.3 to find the relation and the grounds the subject practice supplies.
+Reread the whole passage after the edit. Which object would two competent users pick, what claim could each support, and what operation would each perform? Can they still say why moving from the case to the wider rule, or applying that rule here, is warranted? If both readings already lead to the intended action for the same reason, the familiar wording is enough. Use C.3 to test a candidate against the kind criterion. Use A.2.6 to check whether a claim covers the conditions of use, and A.3.1 to identify a repeatable method. When a change of subject affects the conclusion or action, use C.39.WA:4.3 to find the relation and the grounds the subject practice supplies. When rewriting a model or specification, compare what the earlier and revised words allow under the same conditions. An example allowed by both can conceal a lost alternative or a newly permitted one. Use B.5.MR if the difference changes a decision.
 
 ##### F.19:4.3.2 - Restore a technical head when the meaning is still ambiguous
 

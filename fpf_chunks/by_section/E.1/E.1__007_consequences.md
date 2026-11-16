@@ -6,12 +6,12 @@ section_id: "E.1:6"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.1/E.1__007_consequences.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "E.1 — Vision & Mission"
   - "E.1:6 — Consequences"
-line_start: 97102
-line_end: 97116
+line_start: 97313
+line_end: 97327
 dependencies:
   - "E.2"
 keywords:

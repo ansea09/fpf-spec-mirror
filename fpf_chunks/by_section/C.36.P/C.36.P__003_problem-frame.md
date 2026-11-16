@@ -6,12 +6,12 @@ section_id: "C.36.P:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.P/C.36.P__003_problem-frame.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "C.36.P — Clarify Cultural-Evolution Wording for a Claim or Action"
   - "C.36.P:1 — Problem Frame"
-line_start: 95285
-line_end: 95290
+line_start: 95496
+line_end: 95501
 dependencies:
   - "A.1"
   - "A.1.1"

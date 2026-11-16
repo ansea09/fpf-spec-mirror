@@ -6,12 +6,12 @@ section_id: "B.5:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5/B.5__004_forces.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "B.5 — Choose the Next Reasoning Contribution (Canonical Reasoning Cycle)"
   - "B.5:3 — Forces"
-line_start: 48153
-line_end: 48162
+line_start: 48164
+line_end: 48173
 dependencies:
   - "A.10"
   - "B.5.1"

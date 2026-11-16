@@ -6,12 +6,12 @@ section_id: "B.1.2:End"
 section_title: "B.1.2:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.2/B.1.2__015_b-1-2-end.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "B.1.2 — Coordinate Decisions About System Aggregation and Delimitation"
   - "B.1.2:End — B.1.2:End"
-line_start: 43252
-line_end: 43253
+line_start: 43263
+line_end: 43264
 dependencies:
   - "A.1"
   - "A.10"

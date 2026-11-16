@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.1.5.EW.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "B.1.5.EW — Recover How Constituent Actions Enact Encompassing Work"
-line_start: 44278
-line_end: 44453
+line_start: 44289
+line_end: 44464
 dependencies:
   - "A.15.1"
   - "A.22.CGUS"

@@ -6,12 +6,12 @@ section_id: "C.36.RP:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.RP/C.36.RP__013_relations.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "C.36.RP — Sustain and Renew Shared Ways of Working"
   - "C.36.RP:12 — Relations"
-line_start: 95604
-line_end: 95615
+line_start: 95815
+line_end: 95826
 dependencies:
   - "B.5.MPC"
   - "B.5.RA"

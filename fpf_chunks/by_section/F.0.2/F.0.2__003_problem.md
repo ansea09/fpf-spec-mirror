@@ -6,12 +6,12 @@ section_id: "F.0.2:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2/F.0.2__003_problem.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "F.0.2 — Semantic Synthesis across Source Ontologies"
   - "F.0.2:2 — Problem"
-line_start: 125645
-line_end: 125656
+line_start: 125950
+line_end: 125961
 dependencies:
   - "A.2.4"
   - "C.2.1"
@@ -34,7 +34,7 @@ keywords:
 
 ### F.0.2:2 - Problem
 
-Framework authors often receive maintained syntheses, books, papers, standards, models, and current alternatives whose ontologies are partly similar and partly incompatible. Lexical alignment can reveal candidate correspondences, but it cannot decide whether the receiving framework should adopt a shared claim. A literature summary can preserve sources, but it may never state what changes in practice.
+Researchers, practitioners and framework authors often receive accounts that use similar terms for different relations or explanations. A correspondence between terms identifies a comparison to make. To decide what follows, recover what each source says about the same inquiry, under which conditions and on what grounds.
 
 Three failures follow:
 

@@ -6,12 +6,12 @@ section_id: "A.6.1:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.1/A.6.1__007_bias-annotation.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "A.6.1 — U.Mechanism - Reusable Law-Governed Operation Declaration"
   - "A.6.1:6 — Bias-Annotation"
-line_start: 17846
-line_end: 17855
+line_start: 17853
+line_end: 17862
 dependencies:
   - "A.1"
   - "A.1.1"

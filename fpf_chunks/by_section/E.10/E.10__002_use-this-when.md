@@ -6,12 +6,12 @@ section_id: "E.10:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__002_use-this-when.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:0 — Use this when"
-line_start: 104549
-line_end: 105302
+line_start: 104850
+line_end: 105607
 dependencies:
   - "A.10"
   - "A.15"
@@ -564,6 +564,10 @@ A reusable name for performed work goes to `F.18` only after A.13 and A.15.1 ind
 
 Retain *practice/practise* in professional expressions and in ordinary accounts of practising to acquire capability. A concrete Work occurrence, community, discipline, transmitted tradition, tool or description keeps its kind. Neither a synonym list nor a preferred word turns it into a Method. Conversely, writing *practice*, *culture* and *method* in one account supplies no basis for inventing three distinct entities.
 
+Try the word *method* in place of the professional name. What reusable way would the reader identify? What else would they lose? *Way of working* can name the method directly. *Practice* may also say that people in a particular field or workplace regularly use it. *Technology* can draw attention to the tools on which it depends. *Style* can identify how an individual or community performs it. State the extra claim when the reader needs it. Evidence that a team selected a development method leaves its capability, resource assignments and actual performance to be established separately.
+
+Some engineering communities call a larger method a *method*, one of its constituents a *practice*, and a characteristic manner of execution a *style*. These names alone establish neither a part–whole relation nor a level of model refinement. For a constituent, show what it contributes to the encompassing method under B.1.5. For a narrower choice of method, identify what it retains and what it changes under A.3.1:4.8. Keep the professional expression when it already permits the intended decision.
+
 Apply this preference when authoring or repairing the explanation, with F.19's whole-span reading. Ordinary synonyms do not each require a registered Plain Twin. E.10.ARCH supplies a deeper route only when the kind or relation remains unresolved.
 
 ##### E.10:0.2c.22 - Whole-corpus trigger use
@@ -625,7 +629,7 @@ For `claim`, recover:
 - claim-bearing episteme;
 - claim node, claim content;
 - EntityOfConcern or claim referent;
-- viewpoint and representation scheme when needed for the claim;
+- viewpoint and the conventions needed to read the selected expression;
 - admissibility target when the claim is used.
 
 For evidence-like words, recover:

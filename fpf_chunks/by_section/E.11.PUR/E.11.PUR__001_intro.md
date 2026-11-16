@@ -6,12 +6,12 @@ section_id: "E.11.PUR:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUR/E.11.PUR__001_intro.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "E.11.PUR — Pattern-Use Applicability, Recommendation, and Coordination"
   - "E.11.PUR:intro — Intro"
-line_start: 110025
-line_end: 110030
+line_start: 110330
+line_end: 110335
 dependencies:
   - "A.10"
   - "A.15"

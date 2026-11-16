@@ -2,11 +2,11 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `2aea46c8a8ad57c56a81423184fd0d2e19d19cca`
+Commit SHA: `eaef57bb8e4f119376cf48dc8f9b5297beb4559b`
 
 Chunking method: `pattern-aware`
 
-Patterns: `403`
+Patterns: `406`
 
 ## Patterns
 
@@ -59,7 +59,7 @@ Patterns: `403`
 - [A.6.3 — Episteme viewing - EntityOfConcern-preserving episteme construction](by_pattern/A.6.3.md)
 - [A.6.3.CSC — Controlled Semantic Coarsening: Shorten an Account for a Bounded Use](by_pattern/A.6.3.CSC.md)
 - [A.6.3.CR — ConservativeRetextualization: EntityOfConcern-Preserving Textual Re-Expression](by_pattern/A.6.3.CR.md)
-- [A.6.3.RT — Representation-Scheme Transition: Change Representation of the Same EntityOfConcern](by_pattern/A.6.3.RT.md)
+- [A.6.3.RT — Representation Transition: Change Representation of the Same EntityOfConcern](by_pattern/A.6.3.RT.md)
 - [A.6.3.RT.OE — Construct an Operative Expression](by_pattern/A.6.3.RT.OE.md)
 - [A.6.3.NAR — Structure-to-Narrative Rendering](by_pattern/A.6.3.NAR.md)
 - [A.6.4 — EntityOfConcern Retargeting: Judge a Bounded Use Across Different Entities](by_pattern/A.6.4.md)
@@ -158,6 +158,7 @@ Patterns: `403`
 - [B.5.RA — Recover an Argument for Use](by_pattern/B.5.RA.md)
 - [B.5.RR — Revise Reasoning After a Premise or Question Changes](by_pattern/B.5.RR.md)
 - [B.5.FM — Construct a Model for the Question](by_pattern/B.5.FM.md)
+- [B.5.MR — Compare Models for Refinement](by_pattern/B.5.MR.md)
 - [B.5.TU — Construct a Use of an Unfamiliar Theory](by_pattern/B.5.TU.md)
 - [B.5.TC — Compare Theoretical Accounts for a Question](by_pattern/B.5.TC.md)
 - [B.5.QD — Develop a Question from a Result or Construction](by_pattern/B.5.QD.md)
@@ -264,6 +265,7 @@ Patterns: `403`
 - [C.37 — Select and Use Representations for One Action](by_pattern/C.37.md)
 - [C.37.MP — Maintain a Method Representation Profile](by_pattern/C.37.MP.md)
 - [C.37.CF — Compare Content and Form Changes](by_pattern/C.37.CF.md)
+- [C.37.MM — Coordinate Related Models for Use and Handover](by_pattern/C.37.MM.md)
 - [C.38 — Construct Comparable Ways to Obtain One Result](by_pattern/C.38.md)
 - [C.39 — Find and Develop a Way to Obtain a Result](by_pattern/C.39.md)
 - [C.39.QR — Return Results to the Original Question](by_pattern/C.39.QR.md)
@@ -320,6 +322,7 @@ Patterns: `403`
 - [E.5 — Four Guard‑Rails of FPF](by_pattern/E.5.md)
 - [E.5.1 — DevOps Lexical Firewall](by_pattern/E.5.1.md)
 - [E.5.2 — Notational Independence](by_pattern/E.5.2.md)
+- [E.5.2.L — Languages, Expressions and Interpretation](by_pattern/E.5.2.L.md)
 - [E.5.3 — Unidirectional Dependency between FPF Families](by_pattern/E.5.3.md)
 - [E.5.4 — Cross‑Disciplinary Bias Audit](by_pattern/E.5.4.md)
 - [E.6 — Didactic Architecture of the FPF Specification](by_pattern/E.6.md)

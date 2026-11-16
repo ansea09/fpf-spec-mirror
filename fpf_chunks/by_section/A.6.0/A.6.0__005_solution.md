@@ -6,12 +6,12 @@ section_id: "A.6.0:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.0/A.6.0__005_solution.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "A.6.0 — U.Signature - Reusable Law-Governed Declaration Episteme"
   - "A.6.0:4 — Solution"
-line_start: 16896
-line_end: 17195
+line_start: 16903
+line_end: 17202
 dependencies:
   - "A.15.1"
   - "A.17"
@@ -150,7 +150,7 @@ Use A.6.5 to declare these participant meanings. In the simple `MaintenanceInspe
 
 A stronger species adds only a participant that changes its predicate or occurrence identity. Taxonomy episteme, reference scheme, interval description, and generic context may interpret an assertion but are not generic world-side assignment participants. Do not force SlotSpecs into a one-off assertion that has no receiving typed use.
 
-A formal or mechanism declaration may instead need named operation arguments and a result. A.6.1 governs that `OperationAlgebra`. A representation may use a mathematical operand order, product, function, or tuple. A.6.3.RT governs a same-EntityOfConcern representation-scheme transition; C.29 governs only a mathematical-lens use.
+A formal or mechanism declaration may instead need named operation arguments and a result. A.6.1 governs that `OperationAlgebra`. A representation may use a mathematical operand order, product, function, or tuple. A.6.3.RT governs a same-EntityOfConcern representation transition; C.29 governs only a mathematical-lens use.
 
 Those operation parameters do not become `RelationSignature` SlotSpecs or SlotKinds merely because the same notation uses angle brackets or numbered arguments. When a relation claim consumes a mathematical representation, state an explicit correspondence between the representation's operands and the independently declared SlotSpecs.
 
@@ -271,7 +271,7 @@ R8's succession claim names R7, R8, `changeClass = reusable-law-change`, the add
 | Method | A.3.1 |
 | Performed work | A.15.1 |
 | Optional source-to-receiving-episteme viewing construction | A.6.3 |
-| Same-EntityOfConcern representation-scheme transition | A.6.3.RT |
+| Same-EntityOfConcern representation transition | A.6.3.RT |
 | Cross-reference-scheme, cross-plane, or changed model-use-structure use | Use F.9 only when the use relates two F.17 local senses and its direct Bridge predicate obtains; state the bounded-use claim separately. Otherwise use the direct plane or model-use-structure pattern. |
 | Numeric comparison, normalization, units, scales, and measurement | A.19.CPM and A.19.UNM, together with A.17, A.18, C.16, and the direct measurement pattern when each object or relation is current |
 | Mathematical or diagrammatic lens use, including its operand mapping or correspondence | C.29 |

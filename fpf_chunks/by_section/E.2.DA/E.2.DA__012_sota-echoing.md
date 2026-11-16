@@ -6,12 +6,12 @@ section_id: "E.2.DA:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.2.DA/E.2.DA__012_sota-echoing.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "E.2.DA — Evaluate How FPF Realizes Its Pillars (Pillar-Adequacy CharacteristicSpace)"
   - "E.2.DA:11 — SoTA-Echoing"
-line_start: 97516
-line_end: 97527
+line_start: 97727
+line_end: 97738
 dependencies:
   - "A.19.ECS"
   - "E.10"

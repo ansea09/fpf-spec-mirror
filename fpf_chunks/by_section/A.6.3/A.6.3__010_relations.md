@@ -6,12 +6,12 @@ section_id: "A.6.3:9"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3/A.6.3__010_relations.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "A.6.3 — Episteme viewing - EntityOfConcern-preserving episteme construction"
   - "A.6.3:9 — Relations"
-line_start: 18648
-line_end: 18661
+line_start: 18655
+line_end: 18668
 dependencies:
   - "A.13"
   - "A.15.1"
@@ -37,7 +37,7 @@ keywords:
 - **C.2.1** identifies source and receiving epistemes.
 - **E.17.0** alone governs `U.Viewpoint`, conformance, and `U.View` membership.
 - **A.6.3.CR** governs conservative textual re-expression when wording and organization are the main change.
-- **A.6.3.RT** governs same-EntityOfConcern representation-scheme transition with explicit recoverability and loss.
+- **A.6.3.RT** governs same-EntityOfConcern representation transition with explicit recoverability and loss.
 - **A.6.4** governs a changed EntityOfConcern.
 - **C.29** governs a declared mathematical-lens use of the construction or correspondence, including a diagram used for that mathematical claim.
 - **A.13** supplies the basis for an explicit dated Work claim; **A.15.1 and A.15.PROD** govern its admission and any local entity-identity-inception or completion claim.

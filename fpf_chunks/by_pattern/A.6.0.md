@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.0.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "A.6.0 — U.Signature - Reusable Law-Governed Declaration Episteme"
-line_start: 16839
-line_end: 17376
+line_start: 16846
+line_end: 17383
 dependencies:
   - "A.15.1"
   - "A.17"
@@ -206,7 +206,7 @@ Use A.6.5 to declare these participant meanings. In the simple `MaintenanceInspe
 
 A stronger species adds only a participant that changes its predicate or occurrence identity. Taxonomy episteme, reference scheme, interval description, and generic context may interpret an assertion but are not generic world-side assignment participants. Do not force SlotSpecs into a one-off assertion that has no receiving typed use.
 
-A formal or mechanism declaration may instead need named operation arguments and a result. A.6.1 governs that `OperationAlgebra`. A representation may use a mathematical operand order, product, function, or tuple. A.6.3.RT governs a same-EntityOfConcern representation-scheme transition; C.29 governs only a mathematical-lens use.
+A formal or mechanism declaration may instead need named operation arguments and a result. A.6.1 governs that `OperationAlgebra`. A representation may use a mathematical operand order, product, function, or tuple. A.6.3.RT governs a same-EntityOfConcern representation transition; C.29 governs only a mathematical-lens use.
 
 Those operation parameters do not become `RelationSignature` SlotSpecs or SlotKinds merely because the same notation uses angle brackets or numbered arguments. When a relation claim consumes a mathematical representation, state an explicit correspondence between the representation's operands and the independently declared SlotSpecs.
 
@@ -327,7 +327,7 @@ R8's succession claim names R7, R8, `changeClass = reusable-law-change`, the add
 | Method | A.3.1 |
 | Performed work | A.15.1 |
 | Optional source-to-receiving-episteme viewing construction | A.6.3 |
-| Same-EntityOfConcern representation-scheme transition | A.6.3.RT |
+| Same-EntityOfConcern representation transition | A.6.3.RT |
 | Cross-reference-scheme, cross-plane, or changed model-use-structure use | Use F.9 only when the use relates two F.17 local senses and its direct Bridge predicate obtains; state the bounded-use claim separately. Otherwise use the direct plane or model-use-structure pattern. |
 | Numeric comparison, normalization, units, scales, and measurement | A.19.CPM and A.19.UNM, together with A.17, A.18, C.16, and the direct measurement pattern when each object or relation is current |
 | Mathematical or diagrammatic lens use, including its operand mapping or correspondence | C.29 |
@@ -403,7 +403,7 @@ Do not revise the signature merely because a realization, work occurrence, measu
 
 A multi-domain modeling team repeatedly uses one connector-and-equation calculus. The `EntityOfConcernRef` of its `U.Signature(profile=FormalSubstrate)` identifies that calculus. `SubjectKind` names the modeled connector declarations governed by the calculus, and `RangedValueKind` names its well-formed terms and equations. Vocabulary names the potential and flow variables. Its inference and equation laws say how a selected connection assertion yields potential equality and the zero-sum flow equation. Applicability states the modeling assumptions and selected `CHR:ReferencePlane`. If those terms or laws cannot be interpreted or replayed without a named quantity declaration, the manifest names that provider and the exact imported term or law; otherwise a background citation stays outside the dependency manifest.
 
-The sentence `ModeledPort_A is connected to ModeledPort_B` is a separate model-side connection assertion. If repeated typed connection claims require a `RelationSignature`, first recover or admit the modeled-connection relation kind, its two connectable-port participant meanings, direct predicate, qualifier laws, Applicability, and occurrence-identity rule; only then may that relation declaration cite this FormalSubstrate when the dependency test passes. A generated equation set and a connector diagram are later result and representation epistemes, not either declaration; use A.6.1 for operations, A.15.1 for Work, and E.24.PUB for publication. Govern each representation and its declared correspondence through the applicable representation pattern, including A.6.3.RT for a same-EntityOfConcern representation-scheme transition. Open C.29 only for a mathematical-lens use.
+The sentence `ModeledPort_A is connected to ModeledPort_B` is a separate model-side connection assertion. If repeated typed connection claims require a `RelationSignature`, first recover or admit the modeled-connection relation kind, its two connectable-port participant meanings, direct predicate, qualifier laws, Applicability, and occurrence-identity rule; only then may that relation declaration cite this FormalSubstrate when the dependency test passes. A generated equation set and a connector diagram are later result and representation epistemes, not either declaration; use A.6.1 for operations, A.15.1 for Work, and E.24.PUB for publication. Govern each representation and its declared correspondence through the applicable representation pattern, including A.6.3.RT for a same-EntityOfConcern representation transition. Open C.29 only for a mathematical-lens use.
 
 Practical payoff: engineers can compare the connector vocabulary and equation laws across tools.
 
@@ -439,7 +439,7 @@ The declaration imports the exact type-former `FiniteVector(RealScalar, n)` and 
 
 A Lean representation may write the result as `Vector Real n`. A proof-carrying record representation may write `entries: List Real` together with `lengthProof: entries.length = n`.
 
-Because both represent the same operation declaration and no mathematical lens changes the next comparison action, A.6.3.RT alone governs this representation-scheme transition. It preserves the result-length index and the all-zero law. Lean binder order, implicit elaboration, record field order, and the location of the length proof are representation-local and need not survive. Stop here: no C.29 result is needed.
+Because both represent the same operation declaration and no mathematical lens changes the next comparison action, A.6.3.RT alone governs this representation transition. It preserves the result-length index and the all-zero law. Lean binder order, implicit elaboration, record field order, and the location of the length proof are representation-local and need not survive. Stop here: no C.29 result is needed.
 
 If a later comparison uses a named free-module lens to decide algebraic reuse, that changed lens use opens C.29 and must separately state the preserved addition and scalar action and the lost coordinate or layout detail. State a blocked inference only when it passes F.19:4's full guard test.
 

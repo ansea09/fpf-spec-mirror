@@ -6,12 +6,12 @@ section_id: "A.2.2:2"
 section_title: "Qualified Ability and Its Use Basis"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__003_qualified-ability-and-its-use-basis.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "A.2.2 — System Capability: Conditions, Measures and Fit"
   - "A.2.2:2 — Qualified Ability and Its Use Basis"
-line_start: 5456
-line_end: 5492
+line_start: 5459
+line_end: 5495
 dependencies:
   - "A.1"
   - "A.15"

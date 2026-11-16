@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.3.RT"
-pattern_title: "Representation-Scheme Transition: Change Representation of the Same EntityOfConcern"
+pattern_title: "Representation Transition: Change Representation of the Same EntityOfConcern"
 section_id: "A.6.3.RT:4"
 section_title: "Solution — preserve practical content across a representation change"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT/A.6.3.RT__005_solution-preserve-practical-content-across-a-representation-change.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
-  - "A.6.3.RT — Representation-Scheme Transition: Change Representation of the Same EntityOfConcern"
+  - "A.6.3.RT — Representation Transition: Change Representation of the Same EntityOfConcern"
   - "A.6.3.RT:4 — Solution — preserve practical content across a representation change"
-line_start: 19431
-line_end: 19623
+line_start: 19438
+line_end: 19630
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -55,16 +55,16 @@ Produce the useful target first:
 
 1. Name the user action the new representation should help: compare, inspect, traverse, calculate, communicate or replay. Identify the user's familiarity with the notation when that changes what they can do with it.
 2. Point to the source material. Recover the givens, constraints and partial construction, including the claims, commitments, uncertainty and source references that must survive. Keep unknowns identifiable as unknowns.
-3. Choose an available scheme and a target representation suited to that action. Identify the formation and interpretation rules needed for this use; a familiar notation can be named without reproducing its grammar.
+3. Choose a target representation and a medium in which the user can perform the intended operation. When the target is an expression in a representation language, identify the formation and interpretation conventions it needs. A familiar notation may suffice. For a physical arrangement or a learned representation, establish how the user can obtain a reading or make a comparison and what warrants using it for this inquiry.
 4. Make the smallest target that supports the action. Arrange its parts so they can be used together: for example, keep a shared element recognizable in two groupings, or align a sequence of signs with a temporal reference. Explain any meaning-bearing mark, position or timing whose interpretation is not already clear from the selected conventions. A.6.3.RT.OE develops this construction when the expression's parts must be prepared for the intended operation.
 5. Compare target and source. Mark what is preserved and foregrounded; what is rearranged, omitted or harder to recover; and which visible links or interpretations were added by the representation.
-6. Try the intended operation when a short trial can decide whether the expression is useful. Apply the relevant mathematical, physical or other subject Method. Use the result to judge or repair the expression.
+6. Try the intended operation when a short trial can decide whether the representation is useful. Apply the relevant mathematical, physical or other subject Method. Use the result to judge or repair the representation.
 7. State the representation and reasoning-medium delta only as far as it changes use or blocks a likely overread.
 8. State the supported use. Add a non-admissible use or return condition when a source limitation, representation feature, observed misunderstanding or applicable risk gives a plausible reader a consequential reason to need it. Name the return destination when return is required.
 
-The first result is the expression and its representation note. If working with the expression establishes a new claim, its construction or argument supplies the source for representing that claim. Do not describe the new conclusion as content preserved from the original givens; sharing an EntityOfConcern does not establish that preservation.
+The first result is the target representation and its representation note. When work with the representation establishes a new claim, its construction, observation or argument supplies the grounds for that claim. Attribute preserved claims to the original givens and newly established claims to the work that supports them, even when both concern the same entity.
 
-Choose another available scheme when the current one cannot express a needed distinction. If new signs or rules are needed, develop the scheme through notation-design work. The scheme's description can use A.6.0 for a reusable vocabulary, laws and applicability, and A.6.1 for declared operations when those are needed. Those declarations describe the designed rules. RT uses the selected rules to construct expressions.
+Choose another representation language when the current language cannot express a distinction that matters to the work. Developing new signs or formation rules is notational design. A.6.0 supports a reusable vocabulary and its laws, and A.6.1 the declaration of operations. Use the chosen conventions to construct the expression.
 
 The following questions can guide a compact note; retain only entries needed to interpret or use the target:
 
@@ -88,8 +88,8 @@ Then establish the A.6.3 construction `v : X -> Y`:
 1. identify source episteme `X` and receiving episteme `Y` independently under C.2.1 by claim content, EntityOfConcern, and effective `ReferenceScheme`;
 2. require the same EntityOfConcern; a changed concern requires A.6.4;
 3. state how claims in `X` and any named additional source epistemes construct the claims in `Y`;
-4. state the relation between endpoint schemes, preserved and foregrounded content, admitted loss or recoverability, prohibited strengthening, applicability, use, and return; and
-5. cite every correspondence relation on which `v` depends. Scheme difference, similar content, adjacency, or a visible edge proves none.
+4. compare the effective interpretation rules of `X` and `Y`, including the case in which they agree. State what the construction preserves, foregrounds or loses, what remains recoverable, where strengthening is prohibited and when the user should return to the source.
+5. cite the grounds for each correspondence relation on which `v` depends. When reproducing the operation requires a particular expression, identify the expression actually used at each relevant endpoint and its representation language or decoding conditions. A change of expression can matter even if `X` and `Y` have the same effective rules.
 
 Identify `X` and `Y` from their claim content, EntityOfConcern and effective schemes. A model or decoded output can supply an endpoint if those C.2.1 conditions are established; its label, visible form or carrier does not establish them. When an endpoint cannot yet be identified, retain the useful rendering or candidate carrier without asserting the exact construction.
 
@@ -99,20 +99,20 @@ An exact `v` performs no Work and is not a relation occurrence. A system may per
 
 #### A.6.3.RT:4.1.b - Later-specific six-participant occurrence
 
-Use `RepresentationSchemeTransitionRelation@Context` only when the transition occurrence is itself needed and all six participants plus Work are present. The suffix `@Context` retrieves one independently selected A.1.1 `BoundedModelUseStructure : U.Structure`; it introduces no generic context kind or description-context field.
+Use `RepresentationTransitionRelation@Context` only when the transition occurrence is itself needed and all six participants plus Work are present. The suffix `@Context` retrieves one independently selected A.1.1 `BoundedModelUseStructure : U.Structure`; it introduces no generic context kind or description-context field.
 
 ```text
-RepresentationSchemeTransitionRelation@Context <: U.Relation:
+RepresentationTransitionRelation@Context <: U.Relation:
   TransitionModelUseStructureSlot = <TransitionModelUseStructureSlot, U.Structure, SelectedStructureReference constrained to one BoundedModelUseStructure>
   PreservedEntityOfConcernSlot = <PreservedEntityOfConcernSlot, U.Entity, U.EntityRef>
   SourceRepresentationEpistemeSlot = <SourceRepresentationEpistemeSlot, U.Episteme, U.EpistemeRef>
   ReceivingRepresentationEpistemeSlot = <ReceivingRepresentationEpistemeSlot, U.Episteme, U.EpistemeRef>
-  SourceRepresentationSchemeDescriptionSlot = <SourceRepresentationSchemeDescriptionSlot, U.Episteme, U.EpistemeRef>
-  ReceivingRepresentationSchemeDescriptionSlot = <ReceivingRepresentationSchemeDescriptionSlot, U.Episteme, U.EpistemeRef>
+  SourceInterpretationRulesDescriptionSlot = <SourceInterpretationRulesDescriptionSlot, U.Episteme, U.EpistemeRef>
+  ReceivingInterpretationRulesDescriptionSlot = <ReceivingInterpretationRulesDescriptionSlot, U.Episteme, U.EpistemeRef>
   direction = SourceRepresentationEpistemeSlot -> ReceivingRepresentationEpistemeSlot
 ```
 
-The six SlotSpecs and direction are the `RelationSignature`. `X` and `Y` have the same EntityOfConcern and their own effective schemes. Each scheme-description episteme is independently constituted: its claims describe one endpoint scheme, its EntityOfConcern is that scheme, and its own effective reference scheme makes the description interpretable. A scheme label or visible notation fills no scheme-description slot.
+The six SlotSpecs and their direction define the `RelationSignature`. `X` and `Y` concern the same entity. The subject of the source rules-description episteme is the effective interpretation rules of `X`. The subject of the receiving rules-description episteme is the effective interpretation rules of `Y`. Each description has its own claims and its own effective interpretation rules. To fill a description slot, supply the episteme with that subject. A language reference identifies a language. A rules-description slot takes an episteme. A manual whose subject is the equipment may mention the table rules without supplying the required description episteme.
 
 A positive occurrence obtains only when all of the following hold together:
 
@@ -129,7 +129,7 @@ The occurrence is participant-determined by the six-participant tuple. Changing 
 
 For a durable description of an obtaining occurrence, first establish that occurrence. Identify its description episteme under C.2.1 by claim content about the six-participant occurrence, that occurrence as EntityOfConcern and the description's effective `ReferenceScheme`. Editing the claim graph creates another description episteme without changing the occurrence.
 
-Its claim content may make these values recoverable; they are not extra participants or identity fields:
+A description may record the following comparisons. When the receiver needs to reproduce an operation on particular expressions, identify the expressions and their language bindings or the applicable decoding conditions. The six participants in §4.1.b identify the occurrence.
 
 | Description content | Meaning |
 | --- | --- |
@@ -139,7 +139,7 @@ Its claim content may make these values recoverable; they are not extra particip
 | `sourceRelationReferenceEpistemeRefs[]?` | Separately needed C.2.1 epistemes about source relations used by the construction; each relation retains its own obtaining basis. |
 | `preservedClaimRefs[]` | Source claims carried into `Y` for this use. |
 | `preservedCommitmentRefs[]?` | Commitments preserved when a commitment is current. |
-| `representationSchemeDeltaDescriptionRef` | What differs between the source and receiving schemes described by the participating scheme-description epistemes. |
+| `interpretationRulesDeltaDescriptionRef` | The supported comparison of the endpoints’ effective interpretation rules, including the finding that they agree. |
 | `reasoningMediumDeltaDescriptionRef?` | Changed inspection, comparison, inference, or replay affordance when material. |
 | `representationLossDescriptionRef?` | Lost, narrowed, foregrounded, or rearranged distinctions. |
 | `recoverabilityDescriptionRef?` | How omitted content is recovered from `X` or source relations. |
@@ -191,7 +191,7 @@ In ordinary language, say what changed and why it helps: “the table foreground
 
 ##### A.6.3.RT:4.5.a - Preservation and conservativity
 
-The ordinary move preserves the practical content named for the use. The exact branch preserves the same EntityOfConcern across independently constituted `X` and `Y` while changing scheme and often reasoning medium.
+The ordinary move preserves the practical content named for the use. The exact branch compares two independently constituted epistemes concerning the same entity. Establish what readers can recover under the effective interpretation rules of each endpoint and what the new expression lets them do.
 
 Check for unsupported strengthening when a target:
 
@@ -223,7 +223,7 @@ Reopen the affected account when source content, endpoint identity, recovery ass
 
 | What became primary | Required move |
 | --- | --- |
-| Same-regime wording only | Use A.6.3.CR. |
+| Restating or translating the same claims for the reader | Use A.6.3.CR. Use RT as well when the new representation supports a distinct operation the reader needs. |
 | Reader-useful ordering into a narrative path | Use A.6.3.NAR; keep RT only for a remaining material scheme shift. |
 | Explanation adequacy of an existing face | Use E.17.EFP. |
 | Receiving episteme has an independently identified different EntityOfConcern | Use A.6.4 to classify the retargeting arrow. For a claimed receiving use, establish its separate C.2.1 bounded-use assertion. When evaluating that assertion in a current case, judge it as `satisfies`, `fails`, or `cannot decide`. |

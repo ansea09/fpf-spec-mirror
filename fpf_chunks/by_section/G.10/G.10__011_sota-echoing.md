@@ -6,12 +6,12 @@ section_id: "G.10:8.2"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.10/G.10__011_sota-echoing.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "G.10 — SoTA Pack Shipping"
   - "G.10:8.2 — SoTA-Echoing"
-line_start: 140209
-line_end: 140214
+line_start: 140516
+line_end: 140521
 dependencies:
   - "A.10"
   - "A.15.3"

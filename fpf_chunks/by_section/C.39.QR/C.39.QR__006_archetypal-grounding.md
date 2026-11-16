@@ -6,12 +6,12 @@ section_id: "C.39.QR:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.QR/C.39.QR__006_archetypal-grounding.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "C.39.QR — Return Results to the Original Question"
   - "C.39.QR:5 — Archetypal Grounding"
-line_start: 87149
-line_end: 87189
+line_start: 87346
+line_end: 87386
 dependencies:
   - "C.11.DUA"
   - "C.39"

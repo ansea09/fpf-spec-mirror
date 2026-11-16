@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.5.RC.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "B.5.RC — Recover a Construction from Its Description"
-line_start: 49732
-line_end: 49923
+line_start: 49743
+line_end: 49934
 dependencies:
   - "A.6.3.RT"
   - "B.5"
@@ -206,7 +206,7 @@ The recovered procedure and the stand example are the present synthesis. Reconsi
 - **B.5:** selects construction recovery as one contribution to inquiry and connects its result with further reasoning.
 - **B.5.RA:** recovers the argument for a property that construction or later use needs.
 - **B.5.MPC:** uses recovered constructions while connecting physical, mathematical and computational reasoning.
-- **A.6.3.RT:** prepares a usable expression under a notation scheme when the representation obstructs an operation.
+- **A.6.3.RT:** helps change the representation when the inspector needs another operation on the recovered construction. A.6.3.RT.OE supports making an expression under an available notation.
 - **C.29.1 and C.29.2:** supply mathematical result transfer and computational formulation when those are the missing constructions.
 - **C.39:** develops a missing way of working from the localized problem.
 - **C.11.DUA:** selects the additional checking or information worth obtaining for the intended use.

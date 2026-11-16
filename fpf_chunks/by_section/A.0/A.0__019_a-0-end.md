@@ -6,12 +6,12 @@ section_id: "A.0:End"
 section_title: "A.0:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.0/A.0__019_a-0-end.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "A.0 — Generative Search Onboarding Glossary (NQD & E/E‑LOG)"
   - "A.0:End — A.0:End"
-line_start: 2558
-line_end: 2561
+line_start: 2561
+line_end: 2564
 dependencies:
   - "A.19"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"

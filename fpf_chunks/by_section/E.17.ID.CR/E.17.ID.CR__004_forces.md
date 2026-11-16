@@ -6,12 +6,12 @@ section_id: "E.17.ID.CR:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.ID.CR/E.17.ID.CR__004_forces.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "E.17.ID.CR — Compare Sources Within a Shared Review Frame (ComparativeReviewUnit)"
   - "E.17.ID.CR:3 — Forces"
-line_start: 115303
-line_end: 115317
+line_start: 115608
+line_end: 115622
 dependencies:
   - "A.15"
   - "A.15.2"
@@ -47,7 +47,7 @@ keywords:
 | **Middle-band reality** | Some bounded comparisons establish a contrast beyond a short F.9.1 stance note about an existing bounded-use claim without selecting an action. |
 | **Source tether vs interpretive lift** | The comparison adds a bounded interpretation grounded in its sources. It cannot introduce a meaning independent of them. |
 | **Comparison unit vs surrounding work** | The pattern keeps the comparative review unit, the bounded comparison, and the larger review process distinct even when the prose uses similar labels. |
-| **Viewing restraint** | Interpretation does not absorb same-entity viewing, conservative rewriting, or representation-scheme transition whose main question is not bounded comparison. |
+| **Viewing restraint** | Interpretation does not absorb same-entity viewing, conservative rewriting, or representation transition whose main question is not bounded comparison. |
 | **Bridge restraint** | Interpretation does not become a second bridge taxonomy. |
 | **Explanation restraint** | The use of an existing explanation face remains governed by `E.17.EFP`. |
 | **Abductive restraint** | Interpretation stops before an abductive-prompt or action-selection claim governs the next action. |

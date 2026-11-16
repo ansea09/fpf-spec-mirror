@@ -6,12 +6,12 @@ section_id: "B.1.4:5"
 section_title: "Archetypal Grounding (Worked Slices)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.4/B.1.4__008_archetypal-grounding-worked-slices.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "B.1.4 — Specify Order-Sensitive or Temporal Aggregation (Γ_ctx, Γ_time)"
   - "B.1.4:5 — Archetypal Grounding (Worked Slices)"
-line_start: 43741
-line_end: 43756
+line_start: 43752
+line_end: 43767
 dependencies:
   - "A.1.1"
   - "A.14"

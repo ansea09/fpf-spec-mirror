@@ -6,12 +6,12 @@ section_id: "F.4:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__011_consequences.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "F.4 — SystemRoleKindDescription — Describing an Exact System-Role Kind"
   - "F.4:9 — Consequences"
-line_start: 127413
-line_end: 127427
+line_start: 127720
+line_end: 127734
 dependencies:
   - "A.15"
   - "A.15.1"

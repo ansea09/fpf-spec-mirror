@@ -6,12 +6,12 @@ section_id: "E.24.UK:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.UK/E.24.UK__006_solution.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "E.24.UK — U-kind Admission and Ontic Settlement"
   - "E.24.UK:4 — Solution"
-line_start: 124903
-line_end: 125181
+line_start: 125208
+line_end: 125486
 dependencies:
   - "A.1.1"
   - "A.11"
@@ -223,7 +223,7 @@ The admission does not force explicit materialization of every obtaining relatio
 
 Apply the positive extent rule before classifying a nearby object. Predicate content is a rule. An assertion or occurrence description is a C.2.1 episteme. F.18 governs a designator or reference, and E.24.PUB governs a reusable form. A row, graph edge or diagram element retains its interpretation under the applicable subject-description or representation rule.
 
-Use C.29 for an unresolved mathematical representation, transfer or reliance question and A.6.3.RT for a representation-scheme transition. The rule, episteme, designator, reference, form and representation remain distinct from the obtaining occurrence. Connect the object under consideration to the occurrence only through its explicit assertion, description, designation, reference, publication, or representation relation.
+Use C.29 for an unresolved mathematical representation, transfer or reliance question and A.6.3.RT for a representation transition. The rule, episteme, designator, reference, form and representation remain distinct from the obtaining occurrence. Connect the object under consideration to the occurrence only through its explicit assertion, description, designation, reference, publication, or representation relation.
 
 An individuable publication-relation occurrence is a `U.Relation` when E.24.PUB defines that relation and states its obtaining and identity conditions. A row that represents the occurrence remains a representation element. Reidentify the current object by the rule that defines or tests it instead of inferring membership from words such as relation, edge, link, record, or reference.
 

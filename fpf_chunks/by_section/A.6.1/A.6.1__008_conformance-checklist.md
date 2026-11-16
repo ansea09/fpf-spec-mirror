@@ -6,12 +6,12 @@ section_id: "A.6.1:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.1/A.6.1__008_conformance-checklist.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "A.6.1 — U.Mechanism - Reusable Law-Governed Operation Declaration"
   - "A.6.1:7 — Conformance Checklist"
-line_start: 17856
-line_end: 17879
+line_start: 17863
+line_end: 17886
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -69,7 +69,7 @@ keywords:
 15. **Method and work boundary.** Method, method description, work plan, dated work, actual application, and binding remain separately identifiable. A.6.1 defines neither dated-work identity nor work mereology.
 16. **Result boundary.** A result binding relates the application to the value it returned. Production or entity-identity inception uses A.15.PROD; a materialized result episteme uses C.2.1.
 17. **Mechanism comparison claims.** Every refinement, conservative-extension, or equivalence claim names endpoint mechanism epistemes, reference schemes, scope, predicate, and preserved and changed content. Historical continuation is stated only through a separately obtaining C.2.1 `EpistemeEditionRelation`; a comparison or shared label supplies none. The claim uses an already admitted direct relation, the applicable A.6.RCD branch, or the missing-governor stop. Generic mechanism `transport` is absent; cross-context `SchemeSenseCell` correspondence requires F.9.
-18. **Mathematical-lens boundary.** C.29 governs use of a mathematical object as a lens with selected preserved and lost structure. Mathematical notation or operand order alone does not open that use; a same-EntityOfConcern representation-scheme transition uses A.6.3.RT.
+18. **Mathematical-lens boundary.** C.29 governs use of a mathematical object as a lens with selected preserved and lost structure. Mathematical notation or operand order alone does not open that use; a same-EntityOfConcern representation transition uses A.6.3.RT.
 19. **Progressive explicitness.** One-off direct use is not forced into a mechanism declaration or application-binding apparatus.
 20. **CGUS boundary.** Use the ordinary branch for a question about continuation conditions; continue to formal qualification only when a named later use needs structure identity or replayable results. Mnemonic imperatives remain recall wording.
 21. **Changed object.** Declaration, application, binding, realization, evaluation, evidence, work, representation, and publication changes return to the object that changed.

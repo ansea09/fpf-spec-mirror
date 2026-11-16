@@ -6,12 +6,12 @@ section_id: "A.2.8:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8/A.2.8__005_problem.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "A.2.8 — U.Commitment — Individual Duties to Act or Refrain"
   - "A.2.8:2 — Problem"
-line_start: 8499
-line_end: 8510
+line_start: 8502
+line_end: 8513
 dependencies:
   - "A.10"
   - "A.15.1"

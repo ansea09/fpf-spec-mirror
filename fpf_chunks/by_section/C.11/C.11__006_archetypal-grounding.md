@@ -6,12 +6,12 @@ section_id: "C.11:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11/C.11__006_archetypal-grounding.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "C.11 — Decision Theory (Decsn-CAL)"
   - "C.11:5 — Archetypal Grounding"
-line_start: 59582
-line_end: 59625
+line_start: 59692
+line_end: 59735
 dependencies:
   - "A.10"
   - "A.13"

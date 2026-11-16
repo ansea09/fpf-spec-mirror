@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.21.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
-line_start: 120957
-line_end: 121631
+line_start: 121262
+line_end: 121936
 dependencies:
   - "A.17-A.19"
   - "A.19.ECS"

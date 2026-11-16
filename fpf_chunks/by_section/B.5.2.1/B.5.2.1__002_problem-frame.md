@@ -6,12 +6,12 @@ section_id: "B.5.2.1:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.1/B.5.2.1__002_problem-frame.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "B.5.2.1 — Instrument Abductive Hypothesis Generation with Novelty–Quality–Diversity (NQD)"
   - "B.5.2.1:1 — Problem Frame"
-line_start: 52203
-line_end: 52209
+line_start: 52309
+line_end: 52315
 dependencies:
   - "A.17"
   - "A.18"

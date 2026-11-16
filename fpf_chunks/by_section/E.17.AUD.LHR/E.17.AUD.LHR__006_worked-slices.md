@@ -6,12 +6,12 @@ section_id: "E.17.AUD.LHR:5"
 section_title: "Worked slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.LHR/E.17.AUD.LHR__006_worked-slices.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "E.17.AUD.LHR — Restore the Local Meaning of an Overloaded Word or Phrase (Local Head Restoration)"
   - "E.17.AUD.LHR:5 — Worked slices"
-line_start: 116437
-line_end: 116559
+line_start: 116742
+line_end: 116864
 dependencies:
   - "A.10"
   - "A.15"

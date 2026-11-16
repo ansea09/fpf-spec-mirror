@@ -6,12 +6,12 @@ section_id: "C.32.P2S:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.P2S/C.32.P2S__005_solution.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "C.32.P2S — Problem-to-Structure Architecturing Unfolding"
   - "C.32.P2S:4 — Solution"
-line_start: 80791
-line_end: 80938
+line_start: 80901
+line_end: 81048
 dependencies:
   - "A.1"
   - "A.1.SCR"

@@ -6,12 +6,12 @@ section_id: "E.3:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.3/E.3__010_rationale.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "E.3 — Principle Taxonomy, Precedence and Agent Autonomy Profiles (ABL)"
   - "E.3:9 — Rationale"
-line_start: 97683
-line_end: 97685
+line_start: 97894
+line_end: 97896
 dependencies:
   - "E.1"
   - "E.2"

@@ -6,12 +6,12 @@ section_id: "A.15.PROD:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.PROD/A.15.PROD__012_sota-echoing.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "A.15.PROD — Production Work, Entity-Identity Inception, and Production Completion Recovery"
   - "A.15.PROD:11 — SoTA-Echoing"
-line_start: 34780
-line_end: 34798
+line_start: 34787
+line_end: 34805
 dependencies:
   - "A.1"
   - "A.10"

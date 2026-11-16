@@ -6,12 +6,12 @@ section_id: "A.6.3.CSC:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CSC/A.6.3.CSC__005_solution.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "A.6.3.CSC — Controlled Semantic Coarsening: Shorten an Account for a Bounded Use"
   - "A.6.3.CSC:4 — Solution"
-line_start: 18724
-line_end: 18865
+line_start: 18731
+line_end: 18872
 dependencies:
   - "A.15"
   - "A.20"
@@ -82,7 +82,7 @@ Before using the shorter candidate, ask:
 4. Are the supported use and any required source return clear, with any explicit exclusion justified under F.19:4?
 5. Are the source material, candidate content, publication occurrence, form, carrier, Work, evidence, assurance, authority, and gate claim kept separate whenever one of those distinctions is current?
 
-This first check tests only source-to-candidate fidelity; it establishes neither that the source claims are true nor that the source or candidate is adequate for a later decision. If any answer is no, revise the candidate or return to the source. Use A.6.3.CR when no controlled-loss or narrower-use issue remains, A.6.3.RT when representation-scheme change is primary, A.6.4 when the EntityOfConcern changes, and E.8, A.7, or E.24.PUB when the live object is authoring, extraction/carrier behavior, or publication. Resume a blocked use only after the required repair is complete and verified.
+This first check tests only source-to-candidate fidelity; it establishes neither that the source claims are true nor that the source or candidate is adequate for a later decision. If any answer is no, revise the candidate or return to the source. Use A.6.3.CR when no controlled-loss or narrower-use issue remains, A.6.3.RT when the receiving operation depends on a change of representation language or reasoning medium, A.6.4 when the EntityOfConcern changes, and E.8, A.7, or E.24.PUB when the live object is authoring, extraction/carrier behavior, or publication. Resume a blocked use only after the required repair is complete and verified.
 
 #### A.6.3.CSC:4.3 - Ordinary vs exact reuse or reliance account
 
@@ -148,8 +148,8 @@ A coarsening chain may not reset provenance. For `X -> Y1 -> Y2`, identify all t
 
 | If the primary question is now... | Use this pattern contribution or authority source |
 | --- | --- |
-| Same-entity textual rewording without a separate narrower-use or controlled-loss question | `A.6.3.CR` |
-| Representation scheme or reasoning-medium shift | `A.6.3.RT` |
+| Faithful restatement or translation of text about the same entity, with the same usable scope | `A.6.3.CR` |
+| A receiving operation depends on a change of representation language or reasoning medium | `A.6.3.RT` |
 | Source structure is ordered into a sequential narrative path and the ordering rationale is primary | `A.6.3.NAR` for the narrative rendering relation; keep CSC for the controlled-loss and narrower-use account when source distinctions are dropped or narrowed |
 | Explanation-facing class over source episteme `X`, whether or not it is currently published | `E.17.EFP`; any publication occurrence, form, and carrier remain under E.24.PUB |
 | Bounded comparison over source epistemes, with any publication access stated separately | `E.17.ID.CR` |

@@ -6,12 +6,12 @@ section_id: "A.6.P.RI:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P.RI/A.6.P.RI__011_architectural-rationale.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "A.6.P.RI — Recover Agent-Relative References for Action"
   - "A.6.P.RI:10 — Architectural Rationale"
-line_start: 21585
-line_end: 21592
+line_start: 21592
+line_end: 21599
 dependencies:
   - "A.6.3.RT"
   - "A.6.4"

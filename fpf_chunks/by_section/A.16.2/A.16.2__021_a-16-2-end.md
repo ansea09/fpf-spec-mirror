@@ -6,12 +6,12 @@ section_id: "A.16.2:End"
 section_title: "A.16.2:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.2/A.16.2__021_a-16-2-end.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "A.16.2 — Reopen, SketchBackoff, Respecify, or Retire a Language-State Publication"
   - "A.16.2:End — A.16.2:End"
-line_start: 35777
-line_end: 35778
+line_start: 35784
+line_end: 35785
 dependencies:
   - "A.16"
   - "A.16.0"

@@ -1,16 +1,16 @@
 ---
 chunk_kind: "parent"
 pattern_id: "A.6.3.RT"
-pattern_title: "Representation-Scheme Transition: Change Representation of the Same EntityOfConcern"
+pattern_title: "Representation Transition: Change Representation of the Same EntityOfConcern"
 section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.3.RT.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
-  - "A.6.3.RT — Representation-Scheme Transition: Change Representation of the Same EntityOfConcern"
-line_start: 19371
-line_end: 19885
+  - "A.6.3.RT — Representation Transition: Change Representation of the Same EntityOfConcern"
+line_start: 19378
+line_end: 19892
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -46,7 +46,7 @@ dependencies:
 keywords:
 ---
 
-## A.6.3.RT - Representation-Scheme Transition: Change Representation of the Same EntityOfConcern
+## A.6.3.RT - Representation Transition: Change Representation of the Same EntityOfConcern
 
 > **Type:** Specialization pattern
 > **Status:** Stable
@@ -54,9 +54,9 @@ keywords:
 
 ### A.6.3.RT:1 - Problem frame
 
-Use this pattern when practical content must survive a change of representation scheme or reasoning medium: prose to table, table to diagram, diagram to structured notation, a model to a different inspectable rendering, or another declared representation change. In plain language: **change the representation while preserving what matters for this use**.
+Use this pattern when changing the representation language or the reasoning medium helps someone inspect, compare or calculate using the same material. A table shown in time order and the same table aligned by component can use one language while supporting different comparisons. Exporting the chosen table to another file can leave both the language and the reasoning medium unchanged.
 
-Start with the content that must survive and the action the new representation should support. The source can be givens, constraints and a partial construction while the answer is still unknown. Under an available scheme, make the target, compare it with the source, and state what was preserved, foregrounded, rearranged, lost or newly suggested. Exact episteme identities are not prerequisites for this ordinary first result.
+Start with the content that must survive and the action the new representation should support. The source can be givens, constraints and a partial construction while the answer is still unknown. Construct the target representation in the chosen medium. Compare it with the source and state what was preserved, foregrounded, rearranged, lost or newly suggested. Exact episteme identities are not prerequisites for this ordinary first result.
 
 Plain starting vocabulary:
 
@@ -65,7 +65,7 @@ Plain starting vocabulary:
 | `source material` | The source claims, table, prose, diagram, model, record, publication, or other material being re-represented. In an exact case, distinguish the source episteme from its form, carrier, world-side concern, and additional inputs. |
 | `content to survive` | The claims, relations, commitments, uncertainty, source pins, or distinctions the target representation must still support for the declared use. |
 | `target representation` | The table, diagram, symbolic expression, sequence of signs or other representation made for the receiving task. Its visible form or carrier does not by itself identify a receiving episteme. |
-| `representation scheme` | The conventions for forming and interpreting expressions in this use. Different expressions can use the same scheme. |
+| `representation language` | The conventional system that admits the expressions and gives them readings. A change in layout can preserve the language while changing what its user can inspect or compare. |
 | `reasoning medium` | What the representation lets a user inspect, compare, infer, traverse, or replay more or less easily. |
 | `representation delta` | What changed in shape, notation, salience, topology, ordering, interaction, or another representation factor. |
 | `loss and recoverability` | What becomes harder to see or is omitted, and how the user can recover it when it matters. |
@@ -82,9 +82,9 @@ Plain starting vocabulary:
 
 **Exact claim identity.** Open the episteme-construction branch when a receiving use depends on exact claim identity or an explicit preservation construction. Independent citation, a consequential scheme crossing, disputed support or a decode-mediated claim can create that need. Recover source episteme `X`, receiving episteme `Y` and viewing construction `v : X -> Y`, together with the source claims and relations on which `v` depends, and the scheme relation, loss/recoverability or assurance needed by that use.
 
-**Later-specific occurrence.** Open `RepresentationSchemeTransitionRelation@Context` only when actual representation-transformation Work and the six participants defined in §4.1.b are themselves material. An exact `v : X -> Y` does not imply that occurrence.
+**Later-specific occurrence.** Open `RepresentationTransitionRelation@Context` only when actual representation-transformation Work and the six participants defined in §4.1.b are themselves material. An exact `v : X -> Y` does not imply that occurrence.
 
-**Not this pattern when.** Use A.6.3.CR for same-regime wording, A.6.3.NAR when reader-useful narrative ordering is primary, E.17.EFP when explanation adequacy is primary, A.6.4 when the EntityOfConcern changes, A.7 for carrier work or extraction that has not yet constituted a receiving episteme, and A.6.3.CSC when a narrower-use coarsened receiving episteme is primary.
+**Not this pattern when.** Use A.6.3.CR for faithful restatement or translation when the receiver needs the same claims in other words or another language, A.6.3.NAR when reader-useful narrative ordering is primary, E.17.EFP when explanation adequacy is primary, A.6.4 when the EntityOfConcern changes, A.7 for carrier work or extraction that has not yet constituted a receiving episteme, and A.6.3.CSC when a narrower-use coarsened receiving episteme is primary.
 
 ### A.6.3.RT:2 - Problem
 
@@ -114,16 +114,16 @@ Produce the useful target first:
 
 1. Name the user action the new representation should help: compare, inspect, traverse, calculate, communicate or replay. Identify the user's familiarity with the notation when that changes what they can do with it.
 2. Point to the source material. Recover the givens, constraints and partial construction, including the claims, commitments, uncertainty and source references that must survive. Keep unknowns identifiable as unknowns.
-3. Choose an available scheme and a target representation suited to that action. Identify the formation and interpretation rules needed for this use; a familiar notation can be named without reproducing its grammar.
+3. Choose a target representation and a medium in which the user can perform the intended operation. When the target is an expression in a representation language, identify the formation and interpretation conventions it needs. A familiar notation may suffice. For a physical arrangement or a learned representation, establish how the user can obtain a reading or make a comparison and what warrants using it for this inquiry.
 4. Make the smallest target that supports the action. Arrange its parts so they can be used together: for example, keep a shared element recognizable in two groupings, or align a sequence of signs with a temporal reference. Explain any meaning-bearing mark, position or timing whose interpretation is not already clear from the selected conventions. A.6.3.RT.OE develops this construction when the expression's parts must be prepared for the intended operation.
 5. Compare target and source. Mark what is preserved and foregrounded; what is rearranged, omitted or harder to recover; and which visible links or interpretations were added by the representation.
-6. Try the intended operation when a short trial can decide whether the expression is useful. Apply the relevant mathematical, physical or other subject Method. Use the result to judge or repair the expression.
+6. Try the intended operation when a short trial can decide whether the representation is useful. Apply the relevant mathematical, physical or other subject Method. Use the result to judge or repair the representation.
 7. State the representation and reasoning-medium delta only as far as it changes use or blocks a likely overread.
 8. State the supported use. Add a non-admissible use or return condition when a source limitation, representation feature, observed misunderstanding or applicable risk gives a plausible reader a consequential reason to need it. Name the return destination when return is required.
 
-The first result is the expression and its representation note. If working with the expression establishes a new claim, its construction or argument supplies the source for representing that claim. Do not describe the new conclusion as content preserved from the original givens; sharing an EntityOfConcern does not establish that preservation.
+The first result is the target representation and its representation note. When work with the representation establishes a new claim, its construction, observation or argument supplies the grounds for that claim. Attribute preserved claims to the original givens and newly established claims to the work that supports them, even when both concern the same entity.
 
-Choose another available scheme when the current one cannot express a needed distinction. If new signs or rules are needed, develop the scheme through notation-design work. The scheme's description can use A.6.0 for a reusable vocabulary, laws and applicability, and A.6.1 for declared operations when those are needed. Those declarations describe the designed rules. RT uses the selected rules to construct expressions.
+Choose another representation language when the current language cannot express a distinction that matters to the work. Developing new signs or formation rules is notational design. A.6.0 supports a reusable vocabulary and its laws, and A.6.1 the declaration of operations. Use the chosen conventions to construct the expression.
 
 The following questions can guide a compact note; retain only entries needed to interpret or use the target:
 
@@ -147,8 +147,8 @@ Then establish the A.6.3 construction `v : X -> Y`:
 1. identify source episteme `X` and receiving episteme `Y` independently under C.2.1 by claim content, EntityOfConcern, and effective `ReferenceScheme`;
 2. require the same EntityOfConcern; a changed concern requires A.6.4;
 3. state how claims in `X` and any named additional source epistemes construct the claims in `Y`;
-4. state the relation between endpoint schemes, preserved and foregrounded content, admitted loss or recoverability, prohibited strengthening, applicability, use, and return; and
-5. cite every correspondence relation on which `v` depends. Scheme difference, similar content, adjacency, or a visible edge proves none.
+4. compare the effective interpretation rules of `X` and `Y`, including the case in which they agree. State what the construction preserves, foregrounds or loses, what remains recoverable, where strengthening is prohibited and when the user should return to the source.
+5. cite the grounds for each correspondence relation on which `v` depends. When reproducing the operation requires a particular expression, identify the expression actually used at each relevant endpoint and its representation language or decoding conditions. A change of expression can matter even if `X` and `Y` have the same effective rules.
 
 Identify `X` and `Y` from their claim content, EntityOfConcern and effective schemes. A model or decoded output can supply an endpoint if those C.2.1 conditions are established; its label, visible form or carrier does not establish them. When an endpoint cannot yet be identified, retain the useful rendering or candidate carrier without asserting the exact construction.
 
@@ -158,20 +158,20 @@ An exact `v` performs no Work and is not a relation occurrence. A system may per
 
 #### A.6.3.RT:4.1.b - Later-specific six-participant occurrence
 
-Use `RepresentationSchemeTransitionRelation@Context` only when the transition occurrence is itself needed and all six participants plus Work are present. The suffix `@Context` retrieves one independently selected A.1.1 `BoundedModelUseStructure : U.Structure`; it introduces no generic context kind or description-context field.
+Use `RepresentationTransitionRelation@Context` only when the transition occurrence is itself needed and all six participants plus Work are present. The suffix `@Context` retrieves one independently selected A.1.1 `BoundedModelUseStructure : U.Structure`; it introduces no generic context kind or description-context field.
 
 ```text
-RepresentationSchemeTransitionRelation@Context <: U.Relation:
+RepresentationTransitionRelation@Context <: U.Relation:
   TransitionModelUseStructureSlot = <TransitionModelUseStructureSlot, U.Structure, SelectedStructureReference constrained to one BoundedModelUseStructure>
   PreservedEntityOfConcernSlot = <PreservedEntityOfConcernSlot, U.Entity, U.EntityRef>
   SourceRepresentationEpistemeSlot = <SourceRepresentationEpistemeSlot, U.Episteme, U.EpistemeRef>
   ReceivingRepresentationEpistemeSlot = <ReceivingRepresentationEpistemeSlot, U.Episteme, U.EpistemeRef>
-  SourceRepresentationSchemeDescriptionSlot = <SourceRepresentationSchemeDescriptionSlot, U.Episteme, U.EpistemeRef>
-  ReceivingRepresentationSchemeDescriptionSlot = <ReceivingRepresentationSchemeDescriptionSlot, U.Episteme, U.EpistemeRef>
+  SourceInterpretationRulesDescriptionSlot = <SourceInterpretationRulesDescriptionSlot, U.Episteme, U.EpistemeRef>
+  ReceivingInterpretationRulesDescriptionSlot = <ReceivingInterpretationRulesDescriptionSlot, U.Episteme, U.EpistemeRef>
   direction = SourceRepresentationEpistemeSlot -> ReceivingRepresentationEpistemeSlot
 ```
 
-The six SlotSpecs and direction are the `RelationSignature`. `X` and `Y` have the same EntityOfConcern and their own effective schemes. Each scheme-description episteme is independently constituted: its claims describe one endpoint scheme, its EntityOfConcern is that scheme, and its own effective reference scheme makes the description interpretable. A scheme label or visible notation fills no scheme-description slot.
+The six SlotSpecs and their direction define the `RelationSignature`. `X` and `Y` concern the same entity. The subject of the source rules-description episteme is the effective interpretation rules of `X`. The subject of the receiving rules-description episteme is the effective interpretation rules of `Y`. Each description has its own claims and its own effective interpretation rules. To fill a description slot, supply the episteme with that subject. A language reference identifies a language. A rules-description slot takes an episteme. A manual whose subject is the equipment may mention the table rules without supplying the required description episteme.
 
 A positive occurrence obtains only when all of the following hold together:
 
@@ -188,7 +188,7 @@ The occurrence is participant-determined by the six-participant tuple. Changing 
 
 For a durable description of an obtaining occurrence, first establish that occurrence. Identify its description episteme under C.2.1 by claim content about the six-participant occurrence, that occurrence as EntityOfConcern and the description's effective `ReferenceScheme`. Editing the claim graph creates another description episteme without changing the occurrence.
 
-Its claim content may make these values recoverable; they are not extra participants or identity fields:
+A description may record the following comparisons. When the receiver needs to reproduce an operation on particular expressions, identify the expressions and their language bindings or the applicable decoding conditions. The six participants in §4.1.b identify the occurrence.
 
 | Description content | Meaning |
 | --- | --- |
@@ -198,7 +198,7 @@ Its claim content may make these values recoverable; they are not extra particip
 | `sourceRelationReferenceEpistemeRefs[]?` | Separately needed C.2.1 epistemes about source relations used by the construction; each relation retains its own obtaining basis. |
 | `preservedClaimRefs[]` | Source claims carried into `Y` for this use. |
 | `preservedCommitmentRefs[]?` | Commitments preserved when a commitment is current. |
-| `representationSchemeDeltaDescriptionRef` | What differs between the source and receiving schemes described by the participating scheme-description epistemes. |
+| `interpretationRulesDeltaDescriptionRef` | The supported comparison of the endpoints’ effective interpretation rules, including the finding that they agree. |
 | `reasoningMediumDeltaDescriptionRef?` | Changed inspection, comparison, inference, or replay affordance when material. |
 | `representationLossDescriptionRef?` | Lost, narrowed, foregrounded, or rearranged distinctions. |
 | `recoverabilityDescriptionRef?` | How omitted content is recovered from `X` or source relations. |
@@ -250,7 +250,7 @@ In ordinary language, say what changed and why it helps: “the table foreground
 
 ##### A.6.3.RT:4.5.a - Preservation and conservativity
 
-The ordinary move preserves the practical content named for the use. The exact branch preserves the same EntityOfConcern across independently constituted `X` and `Y` while changing scheme and often reasoning medium.
+The ordinary move preserves the practical content named for the use. The exact branch compares two independently constituted epistemes concerning the same entity. Establish what readers can recover under the effective interpretation rules of each endpoint and what the new expression lets them do.
 
 Check for unsupported strengthening when a target:
 
@@ -282,7 +282,7 @@ Reopen the affected account when source content, endpoint identity, recovery ass
 
 | What became primary | Required move |
 | --- | --- |
-| Same-regime wording only | Use A.6.3.CR. |
+| Restating or translating the same claims for the reader | Use A.6.3.CR. Use RT as well when the new representation supports a distinct operation the reader needs. |
 | Reader-useful ordering into a narrative path | Use A.6.3.NAR; keep RT only for a remaining material scheme shift. |
 | Explanation adequacy of an existing face | Use E.17.EFP. |
 | Receiving episteme has an independently identified different EntityOfConcern | Use A.6.4 to classify the retargeting arrow. For a claimed receiving use, establish its separate C.2.1 bounded-use assertion. When evaluating that assertion in a current case, judge it as `satisfies`, `fails`, or `cannot decide`. |
@@ -333,7 +333,7 @@ For this identity-and-obtaining illustration, take the stated endpoint, scheme, 
 
 Source episteme `CoolingLoopRelationTable-X` and receiving episteme `CoolingLoopDependencyDiagram-Y` state the same two connection claims about `CoolingLoop-7` under effective schemes `TabularPlantScheme-5` and `DirectedDiagramPlantScheme-3`. `Y` is a candidate episteme, not automatically a `U.View`.
 
-Scheme-description epistemes `TabularPlantSchemeDescription-5` and `DirectedDiagramPlantSchemeDescription-3` concern their respective schemes and state their interpretation rules. Independently selected `CoolingLoopReviewModelUseStructure` satisfies A.1.1 because its model-use organization changes this review.
+The epistemes `TabularPlantInterpretationRulesDescription-5` and `DirectedDiagramPlantInterpretationRulesDescription-3` identify the rules for reading the table and diagram respectively. Each describes the effective interpretation at one endpoint. Independently selected `CoolingLoopReviewModelUseStructure` satisfies A.1.1 because its model-use organization changes this review.
 
 A.13 identifies `PlantModelingTool-2` as the performer through the covering assignment. A.15.1 independently admits dated `CoolingLoopDiagrammingWork-18`. Because this example states precise assignment-bound attribution, its direct case fact says that the Work was performed under the same A.13 assignment, so the F.6 check is positive. If that direct fact were missing, attribution would remain unresolved. If the facts refuted an F.6 condition, that attribution would fail. Neither outcome alone overturns the independent Work admission. A finding that also invalidates a premise consumed by A.13 or A.15.1 reopens that premise and the dependent claims.
 
@@ -342,13 +342,13 @@ The Work's A.6.1 bindings use all six participants. `DiagramCoolingLoop : X -> Y
 Only then does this occurrence obtain:
 
 ```text
-RepresentationSchemeTransitionRelation@Context(
+RepresentationTransitionRelation@Context(
   CoolingLoopReviewModelUseStructure,
   CoolingLoop-7,
   CoolingLoopRelationTable-X,
   CoolingLoopDependencyDiagram-Y,
-  TabularPlantSchemeDescription-5,
-  DirectedDiagramPlantSchemeDescription-3)
+  TabularPlantInterpretationRulesDescription-5,
+  DirectedDiagramPlantInterpretationRulesDescription-3)
 ```
 
 Its transition-description episteme cites the Work, construction, source relations, omitted qualifiers, topology-inspection use, blocked control-timing/work-order inference, and return to `X`. Rows become directed edges; pairwise lookup becomes topology inspection; each edge links back to its source-table relation. Publication, diagram form, and SVG carrier remain separate. `Y` is a `U.View` only if E.17.0 conformance independently obtains.
@@ -387,7 +387,7 @@ A prose note is shortened, reordered, or translated but remains in the same text
 
 #### A.6.3.RT:5.4 - Boundary to explanation-facing rendering
 
-A representation is changed mainly to teach or explain an existing face. E.17.EFP is primary; RT remains only for a separately material scheme transition.
+A representation is changed mainly to teach or explain an existing face. Use E.17.EFP for that explanatory work. Use RT as well when a change of representation language or reasoning medium independently enables an operation the reader needs.
 
 #### A.6.3.RT:5.4.a - Boundary to bridge-bearing comparison
 
@@ -395,7 +395,7 @@ A local reliability note about Pump P-2 becomes a comparison claiming operationa
 
 #### A.6.3.RT:5.4.b - Boundary to carrier work
 
-A table is exported as CSV and dashboard PNG after its representation scheme was chosen. The later activity produces the CSV and PNG carriers by formatting, exporting, packaging, or rendering the already chosen representation; it is not another RT merely because the visible form changed.
+A table is exported as CSV and dashboard PNG after the table structure and the reading of its entries have been chosen. The later activity produces the CSV and PNG carriers by formatting, exporting, packaging, or rendering the already chosen representation; it is not another RT merely because the visible form changed.
 
 #### A.6.3.RT:5.4.c - Boundary to coarsened dashboard view
 
@@ -411,7 +411,7 @@ This adds an earlier attempt by the team, a discovery with the claim that D forc
 
 **Source-faithful reader ordering.** `To examine C-2, first consider module split M, then data-custody constraint D and placement constraint P; finally consider the unresolved latency-versus-maintainability trade-off T.`
 
-The source-faithful alternative orders the selected structures into a reader path; “first”, “then”, and “finally” describe that reading order, not a history of design Work. Apply A.6.3.NAR for ordering, connective account, preservation/loss, use, and source return. Use RT only for a remaining representation-scheme shift that does not depend on that narrative ordering.
+The source-faithful alternative orders the selected structures into a reader path; “first”, “then”, and “finally” describe that reading order, not a history of design Work. Apply A.6.3.NAR for ordering, connective account, preservation/loss, use, and source return. Use RT as well if a change of representation language or reasoning medium contributes an operation beyond the ordering of the account.
 
 #### A.6.3.RT:5.5 - Guarded decode-mediated rendering
 
@@ -432,19 +432,19 @@ Probe run P-8 is tied to model-state log M-12 and evaluation bundle EV-4. If the
 
 #### A.6.3.RT:7.1 - Ordinary and exact checks
 
-1. **CC-RT-1 — Useful ordinary entry.** A user can recover the source content, choose an available scheme, make a target suited to the next action, and compare it with the source before supplying exact endpoint identities. Givens, unknowns and a partial construction can support this first result.
-2. **CC-RT-2 — Same concern and right family.** The target still concerns the same thing; representation scheme or reasoning medium is the primary change rather than wording, narrative, explanation, carrier work, retargeting, bridge use, or controlled coarsening.
+1. **CC-RT-1 — Useful ordinary entry.** A user can recover the source content, choose a representation and a medium that support the next action, make the target, and compare it with the source before supplying exact endpoint identities. Givens, unknowns and a partial construction can support this first result.
+2. **CC-RT-2 — Same concern and right family.** The target still concerns the same thing; the intended operation depends on a change of representation language or reasoning medium rather than wording, narrative, explanation, carrier work, retargeting, bridge use, or controlled coarsening.
 3. **CC-RT-3 — Delta and source comparison.** Preserved and foregrounded content, rearrangement, loss, recoverability, and apparent links not licensed by the source are visible.
 4. **CC-RT-4 — Use and return.** The supported use is clear. Any excluded use or source-return requirement follows §4.1's grounded plausible-reader and consequence test.
 5. **CC-RT-5 — Progressive burden.** Detailed factors, semiotic mode, decode evidence, exact identities, Work, publication, evidence, and assurance appear only when each changes use or blocks a likely error.
 6. **CC-RT-6 — Exact endpoints when triggered.** `X` and `Y` are independently identified C.2.1 epistemes with the same EntityOfConcern and effective schemes. Their model, display, output or carrier labels alone do not establish those identities.
 7. **CC-RT-7 — Exact construction.** `v : X -> Y` states claim construction, endpoint-scheme relation, same EntityOfConcern, preservation, loss/recovery, prohibited strengthening, applicability, use, and return.
 8. **CC-RT-8 — Exact dependencies and neighbors.** Correspondence dependencies obtain independently; C.29 representation, E.17.0 View membership, grounding, publication, evidence, assurance, bridge, gate, and receiving Work remain separate.
-9. **CC-RT-9 — Later-specific occurrence only at its trigger.** A positive `RepresentationSchemeTransitionRelation@Context` has the A.1.1 model-use structure, preserved concern, `X`, `Y`, two scheme-description epistemes, and Work satisfying §4.1.b.
+9. **CC-RT-9 — Later-specific occurrence only at its trigger.** A positive `RepresentationTransitionRelation@Context` has the A.1.1 model-use structure, preserved concern, `X`, `Y`, one episteme describing the effective interpretation rules of `X` and one describing those of `Y`, and Work satisfying §4.1.b.
 10. **CC-RT-10 — Occurrence, Work, and description stay distinct.** The participant tuple identifies the occurrence; Work and production claims remain separate; the transition-description episteme has the occurrence as EntityOfConcern and its own C.2.1 identity.
 11. **CC-RT-11 — Occurrence identity.** Only a changed participant reidentifies the occurrence; repeat Work, evidence, publication, layout, carrier, description edition, or C.29 output does not.
 12. **CC-RT-12 — Reuse is local.** When the source or target, delta, dependency, loss, use, evidence, or return changes, reopen only the affected part of the account.
-13. **CC-RT-13 — Construction and subject result.** The expression uses identified rules and supports the named operation. A trial is required only when it can decide usefulness. A new subject conclusion keeps its construction or argument as its source; notation-scheme design and the subject Method remain distinct from making the expression.
+13. **CC-RT-13 — Construction and subject result.** The target representation supports the named operation. For an expression, identify the conventions used to form and interpret it. For a physical or learned representation, establish the correspondence or checked means of reading it that the inference needs. Try the operation when the trial can decide usefulness. A new conclusion keeps its grounds in the subject work that established it.
 
 #### A.6.3.RT:7.2 - Counterexample replay
 
@@ -452,9 +452,9 @@ Probe run P-8 is tied to model-state log M-12 and evaluation bundle EV-4. If the
 | --- | --- |
 | Ordinary entry | A service note can become a useful comparison table and loss note without first inventing `X`, `Y`, `v`, Work, publication, or assurance records. |
 | Constructive use | Givens and an intermediate geometric construction can become a diagram used in an argument. RT compares the diagram with those inputs; geometry establishes any new conclusion. |
-| Scheme limit | If the selected conventions cannot express a required distinction, choose another scheme or design the missing rules before claiming a usable expression under them. |
+| Limit of the chosen notation | If the language cannot express what the user needs to distinguish, select another representation language or design the missing construction or interpretation rule. |
 | Preserve vs retarget | Exact RT requires equal EntityOfConcern; a changed concern requires A.6.4 even when labels overlap. |
-| Same scheme | If scheme and reasoning medium are unchanged and only wording changes, use A.6.3.CR. |
+| Faithful textual restatement or translation | Use A.6.3.CR when the task is to express the same claims in other words or another language. Use A.6.3.RT if the new representation also enables a distinct operation the receiver needs. |
 | Different scheme | Scheme difference alone establishes neither `v`, correspondence, Work, Bridge, nor the six-participant occurrence. |
 | Candidate vs `U.View` | A valid receiving episteme and RT construction may fail E.17.0 conformance and remain a non-View candidate. |
 | Publication/form/carrier | Availability, form change, or carrier replacement substitutes for no endpoint and reidentifies no unchanged construction or occurrence. |

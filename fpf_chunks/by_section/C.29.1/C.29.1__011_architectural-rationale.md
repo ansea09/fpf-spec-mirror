@@ -6,12 +6,12 @@ section_id: "C.29.1:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29.1/C.29.1__011_architectural-rationale.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "C.29.1 — Mathematical Result Transfer"
   - "C.29.1:10 — Architectural Rationale"
-line_start: 73404
-line_end: 73437
+line_start: 73514
+line_end: 73547
 dependencies:
   - "A.3.3"
   - "A.6.3.RT"
@@ -49,7 +49,7 @@ Returns therefore follow the failed dependency. The practitioner can refine a st
 
 #### C.29.1:10.4 - Why expression construction and joint reasoning remain distinct
 
-A.6.3.RT helps construct an expression under a representation scheme. Defining m and d is such an expression move. Deriving their inverse and update equations establishes the mathematical transfer addressed here. The notation makes that derivation easier to perform and inspect; it does not determine its truth.
+A.6.3.RT helps construct an expression in a representation language suited to the operation. Defining m and d is such an expression move. Deriving their inverse and update equations establishes the mathematical transfer addressed here. The notation makes that derivation easier to perform and inspect; it does not determine its truth.
 
 C.29 supplies the broader choice and use of a mathematical account. B.5.MPC connects a mathematical result with physical interpretation, computation and execution when the working question requires all of them. This pattern contributes the mathematical comparison inside that work and can also be used independently.
 

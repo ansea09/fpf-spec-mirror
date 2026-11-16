@@ -6,12 +6,12 @@ section_id: "A.19.ULSAM:0"
 section_title: "At a glance (didactic, informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ULSAM/A.19.ULSAM__002_at-a-glance-didactic-informative.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "A.19.ULSAM — Unified Lawful Scale Aggregation Mechanism"
   - "A.19.ULSAM:0 — At a glance (didactic, informative)"
-line_start: 40041
-line_end: 40065
+line_start: 40048
+line_end: 40072
 dependencies:
   - "A.19.CPM"
   - "A.19.SelectorMechanism"

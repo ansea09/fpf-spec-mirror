@@ -6,12 +6,12 @@ section_id: "C.21:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__003_problem-frame.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:1 — Problem Frame"
-line_start: 65146
-line_end: 65151
+line_start: 65256
+line_end: 65261
 dependencies:
   - "A.10"
   - "A.17-A.18"

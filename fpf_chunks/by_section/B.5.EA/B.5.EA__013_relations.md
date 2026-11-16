@@ -6,12 +6,12 @@ section_id: "B.5.EA:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.EA/B.5.EA__013_relations.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "B.5.EA — Articulate a Distinction from Experience"
   - "B.5.EA:12 — Relations"
-line_start: 48722
-line_end: 48729
+line_start: 48733
+line_end: 48740
 dependencies:
   - "B.5"
   - "B.5.4"

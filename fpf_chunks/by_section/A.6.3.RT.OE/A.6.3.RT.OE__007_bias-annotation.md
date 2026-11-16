@@ -6,12 +6,12 @@ section_id: "A.6.3.RT.OE:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT.OE/A.6.3.RT.OE__007_bias-annotation.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "A.6.3.RT.OE — Construct an Operative Expression"
   - "A.6.3.RT.OE:6 — Bias-Annotation"
-line_start: 20119
-line_end: 20124
+line_start: 20126
+line_end: 20131
 dependencies:
   - "A.6.3.RT"
   - "B.5.RA"

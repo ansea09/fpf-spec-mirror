@@ -6,12 +6,12 @@ section_id: "A.3.3.CC:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3.CC/A.3.3.CC__006_archetypal-grounding.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "A.3.3.CC — Construct a Configuration Description under Constraints"
   - "A.3.3.CC:5 — Archetypal Grounding"
-line_start: 12832
-line_end: 12877
+line_start: 12839
+line_end: 12884
 dependencies:
   - "A.17"
   - "A.18"

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.3.RT"
-pattern_title: "Representation-Scheme Transition: Change Representation of the Same EntityOfConcern"
+pattern_title: "Representation Transition: Change Representation of the Same EntityOfConcern"
 section_id: "A.6.3.RT:5"
 section_title: "Archetypal grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT/A.6.3.RT__006_archetypal-grounding.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
-  - "A.6.3.RT — Representation-Scheme Transition: Change Representation of the Same EntityOfConcern"
+  - "A.6.3.RT — Representation Transition: Change Representation of the Same EntityOfConcern"
   - "A.6.3.RT:5 — Archetypal grounding"
-line_start: 19624
-line_end: 19741
+line_start: 19631
+line_end: 19748
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -81,7 +81,7 @@ For this identity-and-obtaining illustration, take the stated endpoint, scheme, 
 
 Source episteme `CoolingLoopRelationTable-X` and receiving episteme `CoolingLoopDependencyDiagram-Y` state the same two connection claims about `CoolingLoop-7` under effective schemes `TabularPlantScheme-5` and `DirectedDiagramPlantScheme-3`. `Y` is a candidate episteme, not automatically a `U.View`.
 
-Scheme-description epistemes `TabularPlantSchemeDescription-5` and `DirectedDiagramPlantSchemeDescription-3` concern their respective schemes and state their interpretation rules. Independently selected `CoolingLoopReviewModelUseStructure` satisfies A.1.1 because its model-use organization changes this review.
+The epistemes `TabularPlantInterpretationRulesDescription-5` and `DirectedDiagramPlantInterpretationRulesDescription-3` identify the rules for reading the table and diagram respectively. Each describes the effective interpretation at one endpoint. Independently selected `CoolingLoopReviewModelUseStructure` satisfies A.1.1 because its model-use organization changes this review.
 
 A.13 identifies `PlantModelingTool-2` as the performer through the covering assignment. A.15.1 independently admits dated `CoolingLoopDiagrammingWork-18`. Because this example states precise assignment-bound attribution, its direct case fact says that the Work was performed under the same A.13 assignment, so the F.6 check is positive. If that direct fact were missing, attribution would remain unresolved. If the facts refuted an F.6 condition, that attribution would fail. Neither outcome alone overturns the independent Work admission. A finding that also invalidates a premise consumed by A.13 or A.15.1 reopens that premise and the dependent claims.
 
@@ -90,13 +90,13 @@ The Work's A.6.1 bindings use all six participants. `DiagramCoolingLoop : X -> Y
 Only then does this occurrence obtain:
 
 ```text
-RepresentationSchemeTransitionRelation@Context(
+RepresentationTransitionRelation@Context(
   CoolingLoopReviewModelUseStructure,
   CoolingLoop-7,
   CoolingLoopRelationTable-X,
   CoolingLoopDependencyDiagram-Y,
-  TabularPlantSchemeDescription-5,
-  DirectedDiagramPlantSchemeDescription-3)
+  TabularPlantInterpretationRulesDescription-5,
+  DirectedDiagramPlantInterpretationRulesDescription-3)
 ```
 
 Its transition-description episteme cites the Work, construction, source relations, omitted qualifiers, topology-inspection use, blocked control-timing/work-order inference, and return to `X`. Rows become directed edges; pairwise lookup becomes topology inspection; each edge links back to its source-table relation. Publication, diagram form, and SVG carrier remain separate. `Y` is a `U.View` only if E.17.0 conformance independently obtains.
@@ -135,7 +135,7 @@ A prose note is shortened, reordered, or translated but remains in the same text
 
 #### A.6.3.RT:5.4 - Boundary to explanation-facing rendering
 
-A representation is changed mainly to teach or explain an existing face. E.17.EFP is primary; RT remains only for a separately material scheme transition.
+A representation is changed mainly to teach or explain an existing face. Use E.17.EFP for that explanatory work. Use RT as well when a change of representation language or reasoning medium independently enables an operation the reader needs.
 
 #### A.6.3.RT:5.4.a - Boundary to bridge-bearing comparison
 
@@ -143,7 +143,7 @@ A local reliability note about Pump P-2 becomes a comparison claiming operationa
 
 #### A.6.3.RT:5.4.b - Boundary to carrier work
 
-A table is exported as CSV and dashboard PNG after its representation scheme was chosen. The later activity produces the CSV and PNG carriers by formatting, exporting, packaging, or rendering the already chosen representation; it is not another RT merely because the visible form changed.
+A table is exported as CSV and dashboard PNG after the table structure and the reading of its entries have been chosen. The later activity produces the CSV and PNG carriers by formatting, exporting, packaging, or rendering the already chosen representation; it is not another RT merely because the visible form changed.
 
 #### A.6.3.RT:5.4.c - Boundary to coarsened dashboard view
 
@@ -159,7 +159,7 @@ This adds an earlier attempt by the team, a discovery with the claim that D forc
 
 **Source-faithful reader ordering.** `To examine C-2, first consider module split M, then data-custody constraint D and placement constraint P; finally consider the unresolved latency-versus-maintainability trade-off T.`
 
-The source-faithful alternative orders the selected structures into a reader path; “first”, “then”, and “finally” describe that reading order, not a history of design Work. Apply A.6.3.NAR for ordering, connective account, preservation/loss, use, and source return. Use RT only for a remaining representation-scheme shift that does not depend on that narrative ordering.
+The source-faithful alternative orders the selected structures into a reader path; “first”, “then”, and “finally” describe that reading order, not a history of design Work. Apply A.6.3.NAR for ordering, connective account, preservation/loss, use, and source return. Use RT as well if a change of representation language or reasoning medium contributes an operation beyond the ordering of the account.
 
 #### A.6.3.RT:5.5 - Guarded decode-mediated rendering
 

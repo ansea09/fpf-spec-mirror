@@ -6,12 +6,12 @@ section_id: "C.2.8:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.8/C.2.8__008_conformance-checklist.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "C.2.8 — ExtractableStructuralInformation — Structure This Reader Can Recover"
   - "C.2.8:7 — Conformance Checklist"
-line_start: 56930
-line_end: 56944
+line_start: 57040
+line_end: 57054
 dependencies:
   - "A.17"
   - "A.18"

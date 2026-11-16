@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:0.1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__003_problem-frame.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "E.10.ARCH — Architecture for Recovering Ontological Meaning in Wording"
   - "E.10.ARCH:0.1 — Problem Frame"
-line_start: 107327
-line_end: 107330
+line_start: 107632
+line_end: 107635
 dependencies:
   - "A.10"
   - "A.15.1"

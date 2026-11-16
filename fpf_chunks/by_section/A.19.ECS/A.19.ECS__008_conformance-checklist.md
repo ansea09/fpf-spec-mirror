@@ -6,12 +6,12 @@ section_id: "A.19.ECS:6"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ECS/A.19.ECS__008_conformance-checklist.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "A.19.ECS — CharacteristicSpace Construction: Define What Counts as Better"
   - "A.19.ECS:6 — Conformance checklist"
-line_start: 36694
-line_end: 36715
+line_start: 36701
+line_end: 36722
 dependencies:
   - "A.17-A.19"
   - "C.16"

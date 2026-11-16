@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.5.TC.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "B.5.TC — Compare Theoretical Accounts for a Question"
-line_start: 50957
-line_end: 51158
+line_start: 51061
+line_end: 51264
 dependencies:
   - "B.5.RA"
   - "B.5.RR"
@@ -128,6 +128,8 @@ Reopen when the question, premises, interpretation, available operation or relev
 Recognize the need from an unresolved disagreement or a choice between accounts. One worked comparison can reveal an omitted premise or a useful complementary answer.
 
 Qualify the result for its intended use. A mathematical equivalence needs a derivation over its claimed domain. A physical prediction needs the corresponding model and observation basis. An implemented approximation needs an error account adequate for the question. Use the relevant subject Methods for these claims. Use B.3 when a named assurance claim about this result and use needs its assurance argument and qualification. Broader reliance is a reason to establish the broader claim, while an ordinary local use can stop with its sufficient local result.
+
+If the comparison turns on whether one model refines another, check for the same inquiry that the receiving model admits a completion and that every such completion preserves the earlier commitments. For strict refinement, also identify a previously admissible possibility it excludes (B.5.MR). Keep the other grounds for preferring a theoretical account visible when that comparison leaves the models incomparable.
 
 ### B.5.TC:5 - Archetypal Grounding
 

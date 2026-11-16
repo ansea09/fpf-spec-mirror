@@ -6,12 +6,12 @@ section_id: "B.5.TC:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.TC/B.5.TC__007_bias-annotation.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "B.5.TC — Compare Theoretical Accounts for a Question"
   - "B.5.TC:6 — Bias-Annotation"
-line_start: 51094
-line_end: 51099
+line_start: 51200
+line_end: 51205
 dependencies:
   - "B.5.RA"
   - "B.5.RR"

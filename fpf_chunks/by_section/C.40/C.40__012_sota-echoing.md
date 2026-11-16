@@ -6,12 +6,12 @@ section_id: "C.40:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40/C.40__012_sota-echoing.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "C.40 — Develop Branching Search from Reusable Material"
   - "C.40:11 — SoTA-Echoing"
-line_start: 89870
-line_end: 89915
+line_start: 90077
+line_end: 90124
 dependencies:
   - "C.11"
   - "C.18"
@@ -22,6 +22,8 @@ keywords:
 ---
 
 ### C.40:11 - SoTA-Echoing
+
+The [Lila research synthesis](https://www.lila.ai/news/a-new-synthesis-for-the-field-of-open-endedness) proposes connecting generation, recognition of promising ideas and subsequent investigation. Sections 4.7 and 4.11 supply separate tests for those contributions. [Creative Priming](https://arxiv.org/html/2611.11740v1) changes how a fixed responder is prompted. [The Value of Not Knowing](https://arxiv.org/html/2611.11725v1) varies a generator's training and then adds a knowledgeable reviser. [Unified Factored Organizers](https://arxiv.org/html/2611.11862v1) changes the training pressure on a network's internal representation. [Lehman and Stanley](https://arxiv.org/html/2611.11020v1) study how a later change interacts with the existing representation and update. These experiments justify testing different components when current outputs agree. Evidence that the complete research practice sustains further development also requires an attainable next problem, means of investigation and a consequential use of the result.
 
 | Practice question and selected line | Alternative, mutation and limit | Reopen condition |
 | --- | --- | --- |

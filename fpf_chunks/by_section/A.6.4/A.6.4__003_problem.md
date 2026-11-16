@@ -6,12 +6,12 @@ section_id: "A.6.4:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__003_problem.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "A.6.4 — EntityOfConcern Retargeting: Judge a Bounded Use Across Different Entities"
   - "A.6.4:2 — Problem"
-line_start: 20635
-line_end: 20646
+line_start: 20642
+line_end: 20653
 dependencies:
   - "A.10"
   - "A.15"

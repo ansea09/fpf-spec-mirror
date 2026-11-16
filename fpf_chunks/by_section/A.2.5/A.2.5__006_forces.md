@@ -6,12 +6,12 @@ section_id: "A.2.5:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__006_forces.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "A.2.5 — SystemRoleAssignmentStateRelation - Assignment-State Recognition for Work Admission"
   - "A.2.5:3 — Forces"
-line_start: 6695
-line_end: 6705
+line_start: 6698
+line_end: 6708
 dependencies:
   - "A.15"
   - "A.15.1"

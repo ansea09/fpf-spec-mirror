@@ -6,12 +6,12 @@ section_id: "A.4:8"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.4/A.4__009_rationale.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "A.4 — Compare a System's Intended Design with Its Operating Conditions"
   - "A.4:8 — Rationale"
-line_start: 14108
-line_end: 14115
+line_start: 14115
+line_end: 14122
 dependencies:
   - "A.1"
   - "A.1.1"

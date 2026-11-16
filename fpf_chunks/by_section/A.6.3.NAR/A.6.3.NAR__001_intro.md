@@ -6,12 +6,12 @@ section_id: "A.6.3.NAR:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.NAR/A.6.3.NAR__001_intro.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "A.6.3.NAR — Structure-to-Narrative Rendering"
   - "A.6.3.NAR:intro — Intro"
-line_start: 20199
-line_end: 20204
+line_start: 20206
+line_end: 20211
 dependencies:
   - "A.10"
   - "A.22.CGUS"

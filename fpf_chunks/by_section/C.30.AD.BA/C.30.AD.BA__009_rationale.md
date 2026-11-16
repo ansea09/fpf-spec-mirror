@@ -6,12 +6,12 @@ section_id: "C.30.AD.BA:6"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD.BA/C.30.AD.BA__009_rationale.md"
-commit_sha: "2aea46c8a8ad57c56a81423184fd0d2e19d19cca"
+commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
 heading_path:
   - "C.30.AD.BA — Built-Asset Architecture Description and Reference Designation"
   - "C.30.AD.BA:6 — Rationale"
-line_start: 75855
-line_end: 75860
+line_start: 75965
+line_end: 75970
 dependencies:
   - "A.1"
   - "A.10"
