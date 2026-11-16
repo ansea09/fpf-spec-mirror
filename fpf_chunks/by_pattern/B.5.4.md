@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.5.4.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "B.5.4 — Recognize a Concept in a Situation"
-line_start: 52592
-line_end: 52722
+line_start: 52627
+line_end: 52757
 dependencies:
   - "A.7.1"
   - "B.5"
@@ -77,7 +77,7 @@ A laboratory must place three tests in two simultaneous-run slots. Its operating
 
 Represent tests by vertices and a pairwise inability to share a slot by an edge. The operating conditions imply edges AB and BC. The construction in [B.5:5.1][fpf-b5-5-1-ref] produces slots {A,C} and \{B\}; reading the result back means that neither exclusive resource is double-booked.
 
-Now change the conditions: A and C also require the same observer throughout a run. This adds edge AC. The triangle needs three slots under these conditions; two-colouring no longer supplies an arrangement.
+Now change the conditions: A and C also require the same observer throughout a run. The observer can provide the required observation for only one of those tests at a time. This adds edge AC. The triangle needs three slots under these conditions; two-colouring no longer supplies an arrangement.
 
 Consider instead three tests with independent fixtures whose shared resource is a 5 A supply. Each draws 2 A. Any pair can run together, but all three exceed the supply's capacity. A graph with no pairwise conflict edges loses that group constraint. Retain the currents and the slot-wise capacity inequality when constructing the arrangement.
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.40.CD.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "C.40.CD — Develop Problems and Ways of Solving Them Together"
-line_start: 90142
-line_end: 90360
+line_start: 90181
+line_end: 90399
 dependencies:
   - "B.5.MPC"
   - "B.5.MPC.R"

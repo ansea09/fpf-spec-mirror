@@ -6,12 +6,12 @@ section_id: "F.17:5"
 section_title: "Minimal vocabulary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__007_minimal-vocabulary.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "F.17 — Make a Settled Naming Decision Recoverable for Reuse (Unified Term Sheet)"
   - "F.17:5 — Minimal vocabulary"
-line_start: 132421
-line_end: 132524
+line_start: 132462
+line_end: 132565
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -135,7 +135,7 @@ The claim graph cites the separate NameCard and the governed value's kind, locat
 
 The row, card, designations, governed value, external row reference, and `UTSRowId` designator remain distinct; `UnificationThreadId`, `Block`, and `RowEditionId` are navigation or edition designators rather than additional identity discriminators.
 
-If a later row episteme revises, refines, or supersedes an earlier one, an independently obtaining C.2.1 `EpistemeEditionRelation(earlierRowEpisteme, laterRowEpisteme)` carries historical continuation. Stable row spelling, id, table position, shared carrier, or later publication establishes no such relation. A `CurrentnessCondition` is row claim content; it is not the edition relation and does not make itself true.
+To establish historical continuation between two row epistemes, test C.2.1's `EpistemeEditionRelation(earlierRowEpisteme, laterRowEpisteme)`. An independently established refinement or supersession claim does not by itself supply that continuity. Stable row spelling, id, table position, shared carrier, or later publication establishes no such relation. A `CurrentnessCondition` is row claim content; it is not the edition relation and does not make itself true.
 
 When a selected row edition must be made available, E.24.PUB supplies `PublicationExpressionRelation(selectedRowEdition, expression, boundedUseDeclaration)`, `PublicationExpressionBearingRelation(carrier, expression)` and `EpistemePublicationRelation(selectedRowEdition, audienceDeclaration, boundedUseDeclaration, expression, carrier)`.
 

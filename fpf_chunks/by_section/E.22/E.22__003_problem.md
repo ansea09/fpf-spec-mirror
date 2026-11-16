@@ -6,12 +6,12 @@ section_id: "E.22:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.22/E.22__003_problem.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "E.22 — Improvement-Oriented Quality Evaluation Question Framing"
   - "E.22:2 — Problem"
-line_start: 121956
-line_end: 121961
+line_start: 121997
+line_end: 122002
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"

@@ -6,12 +6,12 @@ section_id: "A.6.B:12"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__014_consequences.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:12 — Consequences"
-line_start: 15910
-line_end: 15917
+line_start: 15909
+line_end: 15916
 dependencies:
   - "A.10"
   - "A.2.3"

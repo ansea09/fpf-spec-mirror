@@ -6,12 +6,12 @@ section_id: "A.10.1:End"
 section_title: "A.10.1:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10.1/A.10.1__014_a-10-1-end.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "A.10.1 — Revalidate Affected Uses When a Relied-on Source Changes"
   - "A.10.1:End — A.10.1:End"
-line_start: 28458
-line_end: 28459
+line_start: 28457
+line_end: 28458
 dependencies:
   - "A.10"
   - "A.10.1"

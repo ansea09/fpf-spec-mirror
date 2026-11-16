@@ -6,12 +6,12 @@ section_id: "E.14:10"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__013_consequences.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "E.14 — Human-Centric Working-Model: Readable Claims and Recoverable Assurance"
   - "E.14:10 — Consequences"
-line_start: 112335
-line_end: 112343
+line_start: 112376
+line_end: 112384
 dependencies:
   - "B.3.5"
   - "C.13"

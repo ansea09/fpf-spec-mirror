@@ -6,12 +6,12 @@ section_id: "B.5.MPC:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.MPC/B.5.MPC__004_forces.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "B.5.MPC — Connect Physical, Mathematical and Computational Reasoning"
   - "B.5.MPC:3 — Forces"
-line_start: 49035
-line_end: 49045
+line_start: 49034
+line_end: 49044
 dependencies:
   - "A.15.9"
   - "A.3.3"
@@ -42,5 +42,5 @@ keywords:
 | Constructive freedom and justified consequence | New models, expressions and procedures can open a useful route; their decisive properties require the relevant physical or mathematical grounds. |
 | Abstract result and executing means | A computation can be correct for its stated inputs while the proposed apparatus cannot prepare, represent or execute those inputs. |
 | Reuse and change | Existing results save work, but their use depends on the premises and interpretations that the new question consumes. |
-| Explanation and available effort | A person or team needs enough understanding to use and question contributions without reconstructing every discipline before an ordinary decision. |
+| Explanation and available effort | The receiver needs enough understanding to use and question contributions without reconstructing every discipline. |
 

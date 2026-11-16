@@ -6,12 +6,12 @@ section_id: "A.6.M:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.M/A.6.M__011_rationale.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "A.6.M — Module and Interface Claim Repair"
   - "A.6.M:10 — Rationale"
-line_start: 24141
-line_end: 24150
+line_start: 24140
+line_end: 24149
 dependencies:
   - "A.10"
   - "A.20"

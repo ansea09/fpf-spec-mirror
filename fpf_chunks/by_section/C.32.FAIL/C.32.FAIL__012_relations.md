@@ -6,12 +6,12 @@ section_id: "C.32.FAIL:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.FAIL/C.32.FAIL__012_relations.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "C.32.FAIL — Architecture Failure Recognition and Repair"
   - "C.32.FAIL:12 — Relations"
-line_start: 83731
-line_end: 83737
+line_start: 83769
+line_end: 83775
 dependencies:
   - "A.10"
   - "A.13"

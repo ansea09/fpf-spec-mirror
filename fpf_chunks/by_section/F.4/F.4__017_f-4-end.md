@@ -6,12 +6,12 @@ section_id: "F.4:End"
 section_title: "F.4:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__017_f-4-end.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "F.4 — SystemRoleKindDescription — Describing an Exact System-Role Kind"
   - "F.4:End — F.4:End"
-line_start: 127807
-line_end: 127808
+line_start: 127848
+line_end: 127849
 dependencies:
   - "A.15"
   - "A.15.1"

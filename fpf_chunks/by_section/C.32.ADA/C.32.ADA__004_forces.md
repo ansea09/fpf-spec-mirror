@@ -6,12 +6,12 @@ section_id: "C.32.ADA:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ADA/C.32.ADA__004_forces.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "C.32.ADA — Architecture Decision Adequacy Scales"
   - "C.32.ADA:3 — Forces"
-line_start: 84418
-line_end: 84428
+line_start: 84456
+line_end: 84466
 dependencies:
   - "A.1.1"
   - "A.10"

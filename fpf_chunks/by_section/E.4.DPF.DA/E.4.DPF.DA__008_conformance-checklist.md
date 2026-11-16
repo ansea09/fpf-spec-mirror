@@ -6,12 +6,12 @@ section_id: "E.4.DPF.DA:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF.DA/E.4.DPF.DA__008_conformance-checklist.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "E.4.DPF.DA — Evaluate a DPF or LPF Package for Its Declared Use (Package-Adequacy CharacteristicSpace)"
   - "E.4.DPF.DA:7 — Conformance Checklist"
-line_start: 100929
-line_end: 100948
+line_start: 100970
+line_end: 100989
 dependencies:
   - "A.1.1"
   - "A.10"

@@ -6,12 +6,12 @@ section_id: "E.10.ROLE:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ROLE/E.10.ROLE__009_conformance-checklist.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "E.10.ROLE — Recover What “Role” Means in This Claim"
   - "E.10.ROLE:7 — Conformance Checklist"
-line_start: 108191
-line_end: 108203
+line_start: 108232
+line_end: 108244
 dependencies:
   - "A.2"
   - "A.2.1"

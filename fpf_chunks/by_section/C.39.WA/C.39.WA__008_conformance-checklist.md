@@ -6,12 +6,12 @@ section_id: "C.39.WA:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.WA/C.39.WA__008_conformance-checklist.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "C.39.WA — Develop an Account of the Whole Subject"
   - "C.39.WA:7 — Conformance Checklist"
-line_start: 87672
-line_end: 87684
+line_start: 87711
+line_end: 87723
 dependencies:
   - "C.20"
   - "C.39.QR"

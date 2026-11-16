@@ -6,15 +6,16 @@ section_id: "E.19:4"
 section_title: "Solution — Profile-based gates for admission and refresh"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__006_solution-profile-based-gates-for-admission-and-refresh.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:4 — Solution — Profile-based gates for admission and refresh"
-line_start: 120128
-line_end: 120679
+line_start: 120169
+line_end: 120720
 dependencies:
   - "A.15.1"
   - "A.6.P"
+  - "B.5.MR"
   - "E.10"
   - "E.2.DA"
   - "E.21"
@@ -184,12 +185,12 @@ When admission or refresh includes precise-language repair, apply `CC-E19-7a`. I
 
 For a broad cleanup across several patterns, or any cleanup that touches FPF-governed Problem frames, Problem sections, first-use recognition text, archetypal grounding, examples, or worked slices, check whether the didactic function was harmed. In inspect-repair-verify, restore the working situation, first useful move, and the definition, constraint, test, or other pattern contribution needed by the claim; in independent findings, record the exact harm and repair direction. A positive `improved` or `preserved` account is required only when another evaluation makes that value one of its substantive results, and it belongs in that evaluation.
 
-**PCP‑MOD (Modularity and abstraction-boundary discipline)** — Trigger: the reviewed pattern or subset shows scope creep or mixes levels of abstraction (for example, a pattern bundles universal core rules with frame-specific content and discipline-specific method semantics, or it mixes EntityOfConcern, Description, and Specification positions in one object).
+**PCP‑MOD (Modularity and abstraction-boundary discipline)** — Trigger: the reviewed pattern or subset shows scope creep, mixes rules with different ranges of applicability, or conflates kinds or relations (for example, a pattern bundles universal core rules with frame-specific content and discipline-specific method semantics, or it mixes EntityOfConcern, Description, and Specification positions in one object).
 
 Checks include:
 
 * an explicit **core vs extensions** cut (universal invariants are factored into one stable “core”, and extensions reference it rather than re-stating or mutating it),
-* no conflation of **specialization vs dependency**: use `⊑/⊑⁺` for refinement/extension and `Uses` for pipelines; do not mix their semantics,
+* no conflation of **specialization, model refinement and dependency**: apply the defining specialization rule when a kind or declaration specializes another; use B.5.MR for a claim of model refinement or abstraction, and `Uses` for the declared use dependency. State which relation the comparison requires,
 * no conflation of package-form, concrete pattern-to-claim contribution, and package-relation functions: **Pack vs Kit vs Suite vs Family vs Bundle vs Cluster vs Profile vs Overlay vs Record vs Umbrella** are not interchanged, and the review states carrier status, the definition, constraint, test, or other pattern contribution used, and the package relation, preserving those distinctions across stylistic changes,
 * description-lane descriptions and their publications do not grow mechanism semantics; for an MVPK face or projected publication form, no-new-claim checks that it introduces no claim beyond the selected episteme and no-shadow-default checks that it introduces no undeclared default. Keep the selected episteme, optional projection/construction, face, publication form, publication occurrence, rendering, and carrier distinct. The selected episteme has `U.View` membership only when exact E.17.0 conformance independently obtains; face status, projection, profile selection, and compliance with these two checks establish no membership or truth,
 * slot-discipline hygiene for any ordered specialization set: SlotKind invariance is preserved and inherited operations do not gain new mandatory inputs (A.6.5 / A.6.1 specialization discipline).

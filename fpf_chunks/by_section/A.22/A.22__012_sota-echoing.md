@@ -6,12 +6,12 @@ section_id: "A.22:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__012_sota-echoing.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "A.22 — Structure and Structural Views"
   - "A.22:11 — SoTA-Echoing"
-line_start: 42209
-line_end: 42221
+line_start: 42208
+line_end: 42220
 dependencies:
   - "A.1"
   - "A.1.1"

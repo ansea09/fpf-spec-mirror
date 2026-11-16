@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.5.MR"
-pattern_title: "Compare Models for Refinement"
+pattern_title: "Compare Models by Refinement and Abstraction"
 section_id: "B.5.MR:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.MR/B.5.MR__003_problem.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
-  - "B.5.MR — Compare Models for Refinement"
+  - "B.5.MR — Compare Models by Refinement and Abstraction"
   - "B.5.MR:2 — Problem"
-line_start: 50777
-line_end: 50780
+line_start: 50776
+line_end: 50779
 dependencies:
   - "B.1"
   - "B.5.FM"
@@ -23,5 +23,5 @@ keywords:
 
 ### B.5.MR:2 - Problem
 
-More detail can narrow a choice, leave the answer unchanged, or contradict an earlier commitment. A change of wording, a new unit or a newly chosen discipline may also change what the reader takes the question to mean. How can the reader establish what a proposed refinement actually permits them to infer?
+More detail can narrow a choice, leave the answer unchanged, or contradict an earlier commitment. Omitting detail can leave the same assertions recoverable or lose a premise the reader needs. A change of wording, a new unit or a newly chosen discipline may also change what the reader takes the question to mean. How can the reader construct and compare models while establishing what each change permits them to infer?
 

@@ -6,12 +6,12 @@ section_id: "B.1.5.EW:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5.EW/B.1.5.EW__007_bias-annotation.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "B.1.5.EW — Recover How Constituent Actions Enact Encompassing Work"
   - "B.1.5.EW:6 — Bias-Annotation"
-line_start: 44406
-line_end: 44409
+line_start: 44405
+line_end: 44408
 dependencies:
   - "A.15.1"
   - "A.22.CGUS"

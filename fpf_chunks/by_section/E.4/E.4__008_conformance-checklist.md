@@ -6,12 +6,12 @@ section_id: "E.4:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4/E.4__008_conformance-checklist.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "E.4 — FPF Ecosystem Architecture: Framework Families, Products and DPF Suites"
   - "E.4:7 — Conformance Checklist"
-line_start: 98254
-line_end: 98269
+line_start: 98295
+line_end: 98310
 dependencies:
   - "C.20"
   - "C.33"

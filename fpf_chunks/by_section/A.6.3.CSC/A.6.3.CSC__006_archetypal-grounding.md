@@ -6,12 +6,12 @@ section_id: "A.6.3.CSC:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CSC/A.6.3.CSC__006_archetypal-grounding.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "A.6.3.CSC — Controlled Semantic Coarsening: Shorten an Account for a Bounded Use"
   - "A.6.3.CSC:5 — Archetypal Grounding"
-line_start: 18873
-line_end: 18900
+line_start: 18872
+line_end: 18899
 dependencies:
   - "A.15"
   - "A.20"

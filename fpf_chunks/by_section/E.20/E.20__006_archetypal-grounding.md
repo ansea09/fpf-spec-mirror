@@ -6,12 +6,12 @@ section_id: "E.20:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.20/E.20__006_archetypal-grounding.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "E.20 — Mechanism Introduction Protocol: Introduce or Revise FPF Mechanisms"
   - "E.20:5 — Archetypal Grounding"
-line_start: 121161
-line_end: 121173
+line_start: 121202
+line_end: 121214
 dependencies:
   - "A.15.3"
   - "A.6.1"

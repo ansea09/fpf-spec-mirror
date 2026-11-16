@@ -6,12 +6,12 @@ section_id: "F.11:12"
 section_title: "Reasoning with the four questions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__013_reasoning-with-the-four-questions.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "F.11 — Distinguish Method, MethodDescription, Work and Outputs"
   - "F.11:12 — Reasoning with the four questions"
-line_start: 130554
-line_end: 130566
+line_start: 130595
+line_end: 130607
 dependencies:
   - "A.13"
   - "A.15"

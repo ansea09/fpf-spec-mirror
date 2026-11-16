@@ -6,12 +6,12 @@ section_id: "E.18.2:4.5"
 section_title: "Archetypal Grounding (Worked Slices)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.2/E.18.2__006_archetypal-grounding-worked-slices.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "E.18.2 — Transformation Flow Mathematical Description"
   - "E.18.2:4.5 — Archetypal Grounding (Worked Slices)"
-line_start: 118928
-line_end: 118943
+line_start: 118969
+line_end: 118984
 dependencies:
   - "A.10"
   - "A.15"

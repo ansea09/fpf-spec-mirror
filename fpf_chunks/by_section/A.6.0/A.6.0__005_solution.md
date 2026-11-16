@@ -6,12 +6,12 @@ section_id: "A.6.0:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.0/A.6.0__005_solution.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "A.6.0 — U.Signature - Reusable Law-Governed Declaration Episteme"
   - "A.6.0:4 — Solution"
-line_start: 16903
-line_end: 17202
+line_start: 16902
+line_end: 17201
 dependencies:
   - "A.15.1"
   - "A.17"
@@ -331,7 +331,7 @@ A change to `imports` or `provides` changes the consumer signature's identity on
 
 A changed later use does not change the signature unless the change alters one of its C.2.1 identity discriminators. For example, a new mechanism realization remains a new realization, and a new publication layout remains a new publication form.
 
-Connect two different epistemes by `EpistemeEditionRelation`, refinement, supersession, or another independently governed continuity relation only when that relation's own predicate obtains under its direct governor. Revision work, shared title, changed identifier, citation, or sequence alone establishes no such occurrence.
+Recover the particular relation being claimed between two different epistemes. For historical continuation, test `EpistemeEditionRelation` under C.2.1. For model refinement or abstraction, compare the interpreted assertions under B.5.MR. Supersession or another relation needs its own predicate and grounds. Revision work, shared title, changed identifier, citation, or sequence alone establishes none of these relations.
 
 When a once-current signature becomes stale while its identity remains recoverable, G.11 governs currentness and selection among recoverable editions.
 

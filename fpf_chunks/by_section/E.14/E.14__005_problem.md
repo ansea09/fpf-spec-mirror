@@ -6,12 +6,12 @@ section_id: "E.14:2.1"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__005_problem.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "E.14 — Human-Centric Working-Model: Readable Claims and Recoverable Assurance"
   - "E.14:2.1 — Problem"
-line_start: 111989
-line_end: 111994
+line_start: 112030
+line_end: 112035
 dependencies:
   - "B.3.5"
   - "C.13"

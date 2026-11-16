@@ -6,12 +6,12 @@ section_id: "A.7.CP:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.CP/A.7.CP__008_bias-annotation.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "A.7.CP — Constructive-Premise Compact and Reasoning-Basis Use"
   - "A.7.CP:6 — Bias-Annotation"
-line_start: 27344
-line_end: 27348
+line_start: 27343
+line_end: 27347
 dependencies:
   - "A.7"
   - "A.7.1"

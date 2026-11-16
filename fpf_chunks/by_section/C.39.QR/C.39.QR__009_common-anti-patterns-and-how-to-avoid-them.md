@@ -6,12 +6,12 @@ section_id: "C.39.QR:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.QR/C.39.QR__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "C.39.QR — Return Results to the Original Question"
   - "C.39.QR:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 87405
-line_end: 87413
+line_start: 87443
+line_end: 87451
 dependencies:
   - "C.11.DUA"
   - "C.39"

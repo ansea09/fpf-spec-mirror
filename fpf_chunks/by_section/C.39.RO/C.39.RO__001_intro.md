@@ -6,12 +6,12 @@ section_id: "C.39.RO:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.RO/C.39.RO__001_intro.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "C.39.RO — Turn a Construction into a Reusable Operation"
   - "C.39.RO:intro — Intro"
-line_start: 87734
-line_end: 87739
+line_start: 87773
+line_end: 87778
 dependencies:
   - "A.3.1"
   - "A.3.2"

@@ -6,12 +6,12 @@ section_id: "A.16:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__009_consequences.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "A.16 — Language-State Moves: Choose the Next Publication and Use of a Cue or Claim"
   - "A.16:8 — Consequences"
-line_start: 35054
-line_end: 35061
+line_start: 35053
+line_end: 35060
 dependencies:
   - "A.13"
   - "A.15.1"

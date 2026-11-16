@@ -6,12 +6,12 @@ section_id: "A.19.UNM:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UNM/A.19.UNM__011_consequences.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "A.19.UNM — Normalize Coordinate Values under Declared Invariants"
   - "A.19.UNM:9 — Consequences"
-line_start: 39337
-line_end: 39348
+line_start: 39336
+line_end: 39347
 dependencies:
 keywords:
   - "CV→NCV"

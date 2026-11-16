@@ -6,12 +6,12 @@ section_id: "C.2.P.DR:6"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P.DR/C.2.P.DR__008_conformance-checklist.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "C.2.P.DR — Repair Claims Based on Declarative Form Alone (Declarative Representation Precision Restoration)"
   - "C.2.P.DR:6 — Conformance checklist"
-line_start: 57406
-line_end: 57420
+line_start: 57444
+line_end: 57458
 dependencies:
   - "A.10"
   - "A.15.1"

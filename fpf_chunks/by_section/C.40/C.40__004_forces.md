@@ -6,12 +6,12 @@ section_id: "C.40:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40/C.40__004_forces.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "C.40 — Develop Branching Search from Reusable Material"
   - "C.40:3 — Forces"
-line_start: 89241
-line_end: 89250
+line_start: 89280
+line_end: 89289
 dependencies:
   - "C.11"
   - "C.18"

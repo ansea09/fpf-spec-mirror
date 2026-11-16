@@ -6,12 +6,12 @@ section_id: "C.2.3:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.3/C.2.3__003_problem.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "C.2.3 — Formality of an Episteme"
   - "C.2.3:2 — Problem"
-line_start: 55429
-line_end: 55436
+line_start: 55467
+line_end: 55474
 dependencies:
   - "A.16"
   - "A.18"

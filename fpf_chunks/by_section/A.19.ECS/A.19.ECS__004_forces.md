@@ -6,12 +6,12 @@ section_id: "A.19.ECS:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ECS/A.19.ECS__004_forces.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "A.19.ECS — CharacteristicSpace Construction: Define What Counts as Better"
   - "A.19.ECS:3 — Forces"
-line_start: 36561
-line_end: 36572
+line_start: 36560
+line_end: 36571
 dependencies:
   - "A.17-A.19"
   - "C.16"

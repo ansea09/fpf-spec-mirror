@@ -6,12 +6,12 @@ section_id: "A.7:13"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__015_relations.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "A.7 — Distinction: Repair Conflations of FPF Objects (Clarity Lattice)"
   - "A.7:13 — Relations"
-line_start: 26737
-line_end: 26743
+line_start: 26736
+line_end: 26742
 dependencies:
   - "A.1"
   - "A.10"

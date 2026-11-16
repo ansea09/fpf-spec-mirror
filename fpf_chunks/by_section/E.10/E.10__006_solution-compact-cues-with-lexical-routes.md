@@ -6,12 +6,12 @@ section_id: "E.10:4"
 section_title: "Solution - compact cues with lexical routes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__006_solution-compact-cues-with-lexical-routes.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:4 — Solution - compact cues with lexical routes"
-line_start: 105638
-line_end: 105647
+line_start: 105679
+line_end: 105688
 dependencies:
   - "A.10"
   - "A.15"

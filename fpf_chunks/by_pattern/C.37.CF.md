@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.37.CF.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "C.37.CF — Compare Content and Form Changes"
-line_start: 86372
-line_end: 86613
+line_start: 86410
+line_end: 86651
 dependencies:
   - "A.3.2.DE"
   - "C.2.8"

@@ -6,12 +6,12 @@ section_id: "B.2.2:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.2/B.2.2__003_problem-frame.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "B.2.2 — Test the Proposed New Whole as a System"
   - "B.2.2:1 — Problem Frame"
-line_start: 45779
-line_end: 45788
+line_start: 45778
+line_end: 45787
 dependencies:
   - "A.1"
   - "A.10"

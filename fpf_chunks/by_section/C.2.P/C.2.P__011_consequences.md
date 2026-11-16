@@ -6,12 +6,12 @@ section_id: "C.2.P:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P/C.2.P__011_consequences.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "C.2.P — Clarify Episteme, Publication, and Source Wording (Epistemic Precision Restoration)"
   - "C.2.P:9 — Consequences"
-line_start: 54719
-line_end: 54740
+line_start: 54757
+line_end: 54778
 dependencies:
   - "A.10"
   - "A.15"

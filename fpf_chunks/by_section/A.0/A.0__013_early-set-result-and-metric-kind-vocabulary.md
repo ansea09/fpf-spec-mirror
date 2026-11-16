@@ -6,7 +6,7 @@ section_id: "A.0:QF.1"
 section_title: "Early set-result and metric-kind vocabulary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.0/A.0__013_early-set-result-and-metric-kind-vocabulary.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "A.0 — Generative Search Onboarding Glossary (NQD & E/E‑LOG)"
   - "A.0:QF.1 — Early set-result and metric-kind vocabulary"

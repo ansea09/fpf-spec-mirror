@@ -6,12 +6,12 @@ section_id: "F.2:12"
 section_title: "Reasoning from a source-local meaning"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.2/F.2__013_reasoning-from-a-source-local-meaning.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "F.2 — Source-Local Term Harvesting & Normalisation"
   - "F.2:12 — Reasoning from a source-local meaning"
-line_start: 127146
-line_end: 127156
+line_start: 127187
+line_end: 127197
 dependencies:
   - "A.11"
   - "A.7"

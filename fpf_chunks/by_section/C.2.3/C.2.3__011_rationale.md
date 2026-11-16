@@ -6,12 +6,12 @@ section_id: "C.2.3:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.3/C.2.3__011_rationale.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "C.2.3 — Formality of an Episteme"
   - "C.2.3:10 — Rationale"
-line_start: 55552
-line_end: 55557
+line_start: 55590
+line_end: 55595
 dependencies:
   - "A.16"
   - "A.18"

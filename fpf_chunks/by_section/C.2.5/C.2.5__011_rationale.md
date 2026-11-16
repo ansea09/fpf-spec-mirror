@@ -6,12 +6,12 @@ section_id: "C.2.5:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.5/C.2.5__011_rationale.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "C.2.5 — Language-State Closure Degree — How Fixed Is the Current Candidate Space?"
   - "C.2.5:10 — Rationale"
-line_start: 56361
-line_end: 56363
+line_start: 56399
+line_end: 56401
 dependencies:
   - "A.16"
   - "A.16.0"

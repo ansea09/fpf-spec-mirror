@@ -6,12 +6,12 @@ section_id: "C.32.MLAO:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MLAO/C.32.MLAO__001_intro.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "C.32.MLAO — Architecture Candidates to Reduce Cross-Scope Residuals"
   - "C.32.MLAO:intro — Intro"
-line_start: 82385
-line_end: 82390
+line_start: 82423
+line_end: 82428
 dependencies:
   - "A.10"
   - "A.19.CPM"

@@ -6,12 +6,12 @@ section_id: "C.32.MWA.PP:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA.PP/C.32.MWA.PP__006_solution.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "C.32.MWA.PP — Construct and Compare Method Performance and Provision Arrangements"
   - "C.32.MWA.PP:4 — Solution"
-line_start: 82933
-line_end: 83180
+line_start: 82971
+line_end: 83218
 dependencies:
   - "A.3.1.MI"
   - "A.3.1.QM"
@@ -217,7 +217,7 @@ The architecture result explains what would need to hold and why the arrangement
 
 Begin with the useful result and its receiver. Explain which Methods and local actions must contribute, what each receives and returns, the important exception path, permitted variations, ordinary support, protected continuing work, and the decision and authority for the attempt. Include the decisive rejected alternative, accepted trade-off and condition for reconsideration. Keep current evidence beside unestablished relations so the receiving practitioner can reuse what is sufficient.
 
-Participants must be able to understand and challenge the proposal before their contribution is assumed. A provider can reveal an unavailable window; a recipient can expose an unusable intermediate result; a practitioner can show that a suggested action changes the Method's criterion. Return the challenge to the affected comparison. Explanation, discussion, negotiation, facilitation and leadership use their own sufficient Methods where needed. C.32.MWA.PP supplies the arrangement and unresolved question; it does not make all those practices architecture steps. Voluntary participation needs agreement. An employer's allocation authority has a scope and does not create missing competence or make a subject claim true.
+Before assuming a contribution, establish that it can be provided under the proposed conditions. Give those who must assess or agree to the arrangement enough information to understand and challenge the relevant proposal. A provider can reveal an unavailable window; a recipient can expose an unusable intermediate result; a practitioner can show that a suggested action changes the Method's criterion. Return the challenge to the affected comparison. Explanation, discussion, negotiation, facilitation and leadership use their own sufficient Methods where needed. C.32.MWA.PP supplies the arrangement and unresolved question; it does not make all those practices architecture steps. Voluntary participation needs agreement. An employer's allocation authority has a scope and does not create missing competence or make a subject claim true.
 
 Select the receiving Method from the result still missing.
 

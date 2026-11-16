@@ -6,12 +6,12 @@ section_id: "C.32.LCA:End"
 section_title: "C.32.LCA:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.LCA/C.32.LCA__014_c-32-lca-end.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "C.32.LCA — Construct and Compare a Control Architecture"
   - "C.32.LCA:End — C.32.LCA:End"
-line_start: 80718
-line_end: 80719
+line_start: 80756
+line_end: 80757
 dependencies:
   - "A.3.3.PI"
   - "B.2.5"

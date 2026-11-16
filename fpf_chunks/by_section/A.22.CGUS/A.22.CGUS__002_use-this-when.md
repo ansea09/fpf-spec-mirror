@@ -6,12 +6,12 @@ section_id: "A.22.CGUS:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22.CGUS/A.22.CGUS__002_use-this-when.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "A.22.CGUS — Which Continuations Are Available? — Constraint-Governed Unfolding Structure (CGUS)"
   - "A.22.CGUS:0 — Use This When"
-line_start: 42243
-line_end: 42256
+line_start: 42242
+line_end: 42255
 dependencies:
   - "A.10"
   - "A.15"

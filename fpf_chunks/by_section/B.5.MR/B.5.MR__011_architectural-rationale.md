@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.5.MR"
-pattern_title: "Compare Models for Refinement"
+pattern_title: "Compare Models by Refinement and Abstraction"
 section_id: "B.5.MR:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.MR/B.5.MR__011_architectural-rationale.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
-  - "B.5.MR — Compare Models for Refinement"
+  - "B.5.MR — Compare Models by Refinement and Abstraction"
   - "B.5.MR:10 — Architectural Rationale"
-line_start: 50845
-line_end: 50848
+line_start: 50878
+line_end: 50881
 dependencies:
   - "B.1"
   - "B.5.FM"
@@ -23,5 +23,5 @@ keywords:
 
 ### B.5.MR:10 - Architectural Rationale
 
-One comparison serves many kinds of modeled entity because it concerns the commitments a model makes for an inquiry. Kind-specific composition, physical similarity and performed work retain their own tests. This division lets the same model answer questions at different scales without assigning its file or language a single level.
+One comparison serves many kinds of modeled entity because it concerns the assertions a model makes for an inquiry. Its converse supplies abstraction while leaving the construction of a suitable model to the receiving need and subject grounds. Kind-specific composition, physical similarity and performed work retain their own tests. This division lets the same model answer questions at different scales without assigning its file or language a single level.
 

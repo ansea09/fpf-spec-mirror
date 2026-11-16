@@ -6,12 +6,12 @@ section_id: "F.0.2.MA:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2.MA/F.0.2.MA__001_intro.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "F.0.2.MA — Synthesize and Allocate Method Contributions"
   - "F.0.2.MA:intro — Intro"
-line_start: 126174
-line_end: 126179
+line_start: 126215
+line_end: 126220
 dependencies:
   - "A.3.1.DR"
   - "A.3.1.MR"

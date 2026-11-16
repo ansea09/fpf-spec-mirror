@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.40.JD.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "C.40.JD — Develop a Way, Its Holder and Its Provision Together"
-line_start: 93120
-line_end: 93358
+line_start: 93159
+line_end: 93397
 dependencies:
   - "A.12"
   - "C.32.MWA.PP"
@@ -89,7 +89,7 @@ Use the work and its appropriate examination to recover three distinct results w
 
 The first goes back into ordinary operation. The second changes the starting position for subsequent development. The third can change the Method, help, organization or the earlier direction. A useful result that still depends on a specialist remains useful. It does not establish independent capability, nor does that limit invalidate the delivered service.
 
-The join requires more than writing a proposed capability between “training” and “performance”. The learning work exercises the named operation; the receiving work requires that operation under the promised assistance; and the resulting evidence supports only the capability of the holder and arrangement. C.40.CU, E.23.CDI and the subject evaluation Methods provide the corresponding construction and qualification.
+Use the development or provision Method selected for the holder to make the named operation available. Check the receiving performance under the promised assistance and state what capability the evidence supports for the holder and arrangement. C.40.CU, E.23.CDI and the subject evaluation Methods provide the corresponding construction and qualification.
 
 #### C.40.JD:4.4 - Change a connection and derive the changed arrangement
 

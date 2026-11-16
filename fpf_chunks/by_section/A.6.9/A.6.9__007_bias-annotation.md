@@ -6,12 +6,12 @@ section_id: "A.6.9:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.9/A.6.9__007_bias-annotation.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "A.6.9 — Cross-Context Sameness Disambiguation - Restoring the claim behind \"same\", \"equivalent\", and \"align\" (RPR-XCTX)"
   - "A.6.9:6 — Bias-Annotation"
-line_start: 25698
-line_end: 25708
+line_start: 25697
+line_end: 25707
 dependencies:
   - "A.1.1"
   - "A.10"

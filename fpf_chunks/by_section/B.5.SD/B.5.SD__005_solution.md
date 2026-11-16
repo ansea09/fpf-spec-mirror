@@ -6,12 +6,12 @@ section_id: "B.5.SD:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.SD/B.5.SD__005_solution.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "B.5.SD — Construct an Answer through Substantive Discussion"
   - "B.5.SD:4 — Solution"
-line_start: 52985
-line_end: 53061
+line_start: 53020
+line_end: 53096
 dependencies:
   - "A.3.1"
   - "B.5.RA"
@@ -61,7 +61,7 @@ At intervals, have the receiver or another capable participant trace a consequen
 
 #### B.5.SD:4.4 - Work with objections as contributions to the answer
 
-Invite a participant to state the claim, relation or consequence they challenge and why it matters to the receiving use. Restate the objection in terms they recognize before trying to answer it. Preserve an unfamiliar but potentially consequential objection long enough for a qualified person to examine it.
+Invite a participant to state the claim, relation or consequence they challenge and why it matters to the receiving use. Restate the objection in terms they recognize before trying to answer it. Preserve an unfamiliar but potentially consequential objection long enough for a qualified contributor to examine it.
 
 Distinguish several responses. A misunderstanding can need explanation. A factual conflict can need source comparison or observation. An unsupported inference can need a model, test or narrower conclusion. A disadvantage can require another proposal. A value conflict can need D.4 or a governing decision. An incompatible contribution belongs with LDR.2. These are different continuations, not labels for dismissing the objector.
 

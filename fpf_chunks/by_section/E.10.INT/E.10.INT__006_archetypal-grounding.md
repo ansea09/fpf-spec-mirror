@@ -6,12 +6,12 @@ section_id: "E.10.INT:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.INT/E.10.INT__006_archetypal-grounding.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "E.10.INT — Recovering What Interest or Curiosity Means Here"
   - "E.10.INT:5 — Archetypal Grounding"
-line_start: 106896
-line_end: 106925
+line_start: 106937
+line_end: 106966
 dependencies:
   - "C.11"
   - "C.16"

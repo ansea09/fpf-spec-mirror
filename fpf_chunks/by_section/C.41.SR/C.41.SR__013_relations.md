@@ -6,12 +6,12 @@ section_id: "C.41.SR:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.SR/C.41.SR__013_relations.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "C.41.SR — Reconcile Checklist Results Across Shared Work"
   - "C.41.SR:12 — Relations"
-line_start: 94355
-line_end: 94360
+line_start: 94394
+line_end: 94399
 dependencies:
   - "A.10"
   - "B.1.5"

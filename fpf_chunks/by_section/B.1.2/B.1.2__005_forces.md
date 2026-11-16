@@ -6,12 +6,12 @@ section_id: "B.1.2:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.2/B.1.2__005_forces.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "B.1.2 — Coordinate Decisions About System Aggregation and Delimitation"
   - "B.1.2:3 — Forces"
-line_start: 43113
-line_end: 43123
+line_start: 43112
+line_end: 43122
 dependencies:
   - "A.1"
   - "A.10"

@@ -6,12 +6,12 @@ section_id: "B.1.5:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5/B.1.5__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "B.1.5 — Gamma_method - Order-Sensitive Method Composition and Work Enactment"
   - "B.1.5:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 44224
-line_end: 44239
+line_start: 44223
+line_end: 44238
 dependencies:
   - "A.1"
   - "A.15"

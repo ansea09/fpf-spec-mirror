@@ -6,12 +6,12 @@ section_id: "B.5.FM:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.FM/B.5.FM__003_problem.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "B.5.FM — Construct a Model for the Question"
   - "B.5.FM:2 — Problem"
-line_start: 50520
-line_end: 50527
+line_start: 50519
+line_end: 50526
 dependencies:
   - "A.3.3"
   - "A.6.3.RT"

@@ -6,12 +6,12 @@ section_id: "E.11.PUR:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUR/E.11.PUR__011_rationale.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "E.11.PUR — Pattern-Use Applicability, Recommendation, and Coordination"
   - "E.11.PUR:10 — Rationale"
-line_start: 110738
-line_end: 110749
+line_start: 110779
+line_end: 110790
 dependencies:
   - "A.10"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "A.4:7"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.4/A.4__008_consequences.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "A.4 — Compare a System's Intended Design with Its Operating Conditions"
   - "A.4:7 — Consequences"
-line_start: 14109
-line_end: 14114
+line_start: 14108
+line_end: 14113
 dependencies:
   - "A.1"
   - "A.1.1"

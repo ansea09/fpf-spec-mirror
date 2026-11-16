@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.10.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
-line_start: 104840
-line_end: 106599
+line_start: 104881
+line_end: 106640
 dependencies:
   - "A.10"
   - "A.15"
@@ -575,7 +575,7 @@ Retain *practice/practise* in professional expressions and in ordinary accounts 
 
 Try the word *method* in place of the professional name. What reusable way would the reader identify? What else would they lose? *Way of working* can name the method directly. *Practice* may also say that people in a particular field or workplace regularly use it. *Technology* can draw attention to the tools on which it depends. *Style* can identify how an individual or community performs it. State the extra claim when the reader needs it. Evidence that a team selected a development method leaves its capability, resource assignments and actual performance to be established separately.
 
-Some engineering communities call a larger method a *method*, one of its constituents a *practice*, and a characteristic manner of execution a *style*. These names alone establish neither a part–whole relation nor a level of model refinement. For a constituent, show what it contributes to the encompassing method under B.1.5. For a narrower choice of method, identify what it retains and what it changes under A.3.1:4.8. Keep the professional expression when it already permits the intended decision.
+Some engineering communities call a larger method a *method*, one of its constituents a *practice*, and a characteristic manner of execution a *style*. These names alone establish neither a part–whole relation nor a level of model abstraction. For a constituent, show what it contributes to the encompassing method under B.1.5. For a narrower choice of method, identify what it retains and what it changes under A.3.1:4.8. Keep the professional expression when it already permits the intended decision.
 
 Apply this preference when authoring or repairing the explanation, with F.19's whole-span reading. Ordinary synonyms do not each require a registered Plain Twin. E.10.ARCH supplies a deeper route only when the kind or relation remains unresolved.
 

@@ -6,12 +6,12 @@ section_id: "E.17.AUD.OOTD:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.OOTD/E.17.AUD.OOTD__010_consequences.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "E.17.AUD.OOTD — Clarify the Primary Subject of a Publication Unit (PublicationUnit Primary-Subject Discipline)"
   - "E.17.AUD.OOTD:9 — Consequences"
-line_start: 117247
-line_end: 117256
+line_start: 117288
+line_end: 117297
 dependencies:
   - "A.10"
   - "A.15"

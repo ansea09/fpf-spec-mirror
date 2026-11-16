@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.5.MPC.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "B.5.MPC — Connect Physical, Mathematical and Computational Reasoning"
-line_start: 49007
-line_end: 49485
+line_start: 49006
+line_end: 49484
 dependencies:
   - "A.15.9"
   - "A.3.3"
@@ -69,7 +69,7 @@ A division into “physics first, mathematics second, implementation last” als
 | Constructive freedom and justified consequence | New models, expressions and procedures can open a useful route; their decisive properties require the relevant physical or mathematical grounds. |
 | Abstract result and executing means | A computation can be correct for its stated inputs while the proposed apparatus cannot prepare, represent or execute those inputs. |
 | Reuse and change | Existing results save work, but their use depends on the premises and interpretations that the new question consumes. |
-| Explanation and available effort | A person or team needs enough understanding to use and question contributions without reconstructing every discipline before an ordinary decision. |
+| Explanation and available effort | The receiver needs enough understanding to use and question contributions without reconstructing every discipline. |
 
 ### B.5.MPC:4 - Solution
 
@@ -79,7 +79,7 @@ The long mantra keeps the whole question available while attention moves between
 
 **Orient by the physical question → propose the relevant physical account → construct a mathematical question and its interpretation → obtain a result and, where needed, a computation → connect its execution and observations to the intended quantities → return the consequence to the physical question → choose the useful action or the next missing contribution.**
 
-The arrows recall result dependencies. They do not prescribe the order in which people must discover, receive or develop every contribution. A theorem, algorithm, measurement or physical mechanism can be the first available input.
+The arrows recall result dependencies. They do not prescribe the order in which contributors must discover, receive or develop every contribution. A theorem, algorithm, measurement or physical mechanism can be the first available input.
 
 #### B.5.MPC:4.1 - Recover the physical difference the answer should resolve
 
@@ -193,13 +193,13 @@ Distinguish the consequence of an obstruction. A mathematical contradiction bloc
 
 Stop when the supported result answers the intended use. When development is the purpose, work one consequential variation far enough to reveal a new construction, obstruction or missing operation. Explain which additional action or longer inquiry it could enable. B.5:4.4, C.39 and C.40 supply the corresponding question and repertoire development; continued work is justified by that use.
 
-#### B.5.MPC:4.8 - Divide human and AI contributions by the result they must supply
+#### B.5.MPC:4.8 - Divide work by the result each contributor must supply
 
 Allocate work around the dependencies above. A contributor can supply a physical account, a mathematical construction, a proof, a computation, a proposed realization or an explanation of the connection. State the question, available inputs, missing result and intended use when obtaining help through A.15.9. Ask for the formulation when the equation has not yet been constructed.
 
 Retain enough understanding at each receiving point to use and question its input. The receiver of a motion count should be able to identify its unit, the rotation it counts, its sign and its dependence on the motion model. The receiver of a two-colouring result should be able to connect the returned labels or odd-cycle witness to the contact list. The receiver of an occupancy bound should be able to identify the material and procedural conditions that preserve the stock.
 
-That understanding can be held by one person or distributed across people and AI with an effective way to obtain a missing explanation. Arrange a capable contribution for each consequential connection. A completed report alone does not establish that this capability is available when a premise changes.
+That understanding can be held by one agent or distributed across contributors with an effective way to obtain a missing explanation. Arrange a capable contributor for each consequential connection. A completed report alone does not establish that this capability is available when a premise changes.
 
 Choose depth from the later work. Using a stable formula may require interpretation and checks at the connection. Changing the formula requires understanding its derivation. Designing a new algorithm or physical theory requires the additional specialist capability.
 

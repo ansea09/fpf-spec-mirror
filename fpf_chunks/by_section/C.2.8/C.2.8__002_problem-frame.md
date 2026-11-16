@@ -6,12 +6,12 @@ section_id: "C.2.8:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.8/C.2.8__002_problem-frame.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "C.2.8 — ExtractableStructuralInformation — Structure This Reader Can Recover"
   - "C.2.8:1 — Problem frame"
-line_start: 56858
-line_end: 56871
+line_start: 56896
+line_end: 56909
 dependencies:
   - "A.17"
   - "A.18"
@@ -36,7 +36,7 @@ keywords:
 
 ### C.2.8:1 - Problem frame
 
-Use this pattern when an explanation, pattern text, architecture account or another expressed description must make selected structure recoverable by a reader or computational observer. You may be comparing two forms of the same account, deciding whether an added explanation exposes a missing dependency, or checking what an observer can extract with the available preparation and time.
+Use this pattern when an explanation, pattern text, architecture account or another expressed description must make selected structure recoverable by a reader or observing system. You may be comparing two forms of the same account, deciding whether an added explanation exposes a missing dependency, or checking what an observer can extract with the available preparation and time.
 
 **First useful move.** Name the relation or distinction the reader needs, identify the available account and its expression, and state the preparation, source access and budget that can change recovery. Compare what the reader can correctly recover under those conditions. A useful result can be two sentences: “Both accounts expose the dependency on a durable write. Only the second account exposes why the reporting replica was chosen; this is an author estimate for readers familiar with replication, with the same source access and three-minute budget.”
 

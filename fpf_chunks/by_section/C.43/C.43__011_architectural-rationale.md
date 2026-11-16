@@ -6,12 +6,12 @@ section_id: "C.43:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.43/C.43__011_architectural-rationale.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "C.43 — Connect Observation, Choice and Action in Control"
   - "C.43:10 — Architectural Rationale"
-line_start: 95400
-line_end: 95407
+line_start: 95439
+line_end: 95446
 dependencies:
   - "A.12"
   - "C.11"

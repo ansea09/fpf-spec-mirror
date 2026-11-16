@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.29.1.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "C.29.1 — Mathematical Result Transfer"
-line_start: 73143
-line_end: 73574
+line_start: 73181
+line_end: 73612
 dependencies:
   - "A.3.3"
   - "A.6.3.RT"
@@ -423,7 +423,7 @@ A.6.3.RT helps construct an expression in a representation language suited to th
 
 C.29 supplies the broader choice and use of a mathematical account. B.5.MPC connects a mathematical result with physical interpretation, computation and execution when the working question requires all of them. This pattern contributes the mathematical comparison inside that work and can also be used independently.
 
-A human or AI contributor can construct the correspondence, derive an identity or search for a conflicting pair. The receiving practitioner still needs enough of the domain, operation and conclusion to use the result or request the missing argument. B.5:4.5 and B.5.MPC:4.8 explain how to divide such contributions without losing the shared question.
+A contributor can construct the correspondence, derive an identity or search for a conflicting pair. The receiving practitioner still needs enough understanding of the domain, operation and conclusion to use the result or request the missing argument. B.5:4.5 and B.5.MPC:4.8 explain how to divide such contributions without losing the shared question.
 
 ### C.29.1:11 - SoTA-Echoing
 

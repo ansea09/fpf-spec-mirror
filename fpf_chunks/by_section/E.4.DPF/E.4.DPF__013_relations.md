@@ -6,12 +6,12 @@ section_id: "E.4.DPF:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__013_relations.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "E.4.DPF — Domain and Local Principle Frameworks: Whether and How to Author and Publish"
   - "E.4.DPF:12 — Relations"
-line_start: 100520
-line_end: 100532
+line_start: 100561
+line_end: 100573
 dependencies:
   - "A.1.1"
   - "A.13"

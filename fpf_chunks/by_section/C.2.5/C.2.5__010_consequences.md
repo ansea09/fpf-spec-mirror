@@ -6,12 +6,12 @@ section_id: "C.2.5:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.5/C.2.5__010_consequences.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "C.2.5 — Language-State Closure Degree — How Fixed Is the Current Candidate Space?"
   - "C.2.5:9 — Consequences"
-line_start: 56358
-line_end: 56360
+line_start: 56396
+line_end: 56398
 dependencies:
   - "A.16"
   - "A.16.0"

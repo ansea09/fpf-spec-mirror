@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.39.QR.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "C.39.QR — Return Results to the Original Question"
-line_start: 87225
-line_end: 87448
+line_start: 87263
+line_end: 87486
 dependencies:
   - "C.11.DUA"
   - "C.39"
@@ -109,7 +109,7 @@ Use C.39:4.2–4.5 to construct a missing obtaining way or join. When the reques
 
 For promised source recovery, apply F.0.2.RC to the promised contribution and scope. For a system or service, use its engineering and operating methods to establish the relevant whole conditions. Where the missing contribution is capability, equipment, access or authority, obtain or revise that support through its responsible practice.
 
-Distinguish synthesis, generalization and abstraction. Connecting contributions to obtain a result, widening a claim's warranted range, and selecting distinctions for a description are different operations. Choose the one the gap requires, and explain its result. A wider field name cannot supply a missing connection.
+Synthesis connects contributions to obtain a result. Generalization widens the range for which a claim is warranted. Model abstraction constructs or selects a model that leaves some determinations open while retaining the conclusion the receiving work needs; apply B.5.MR to compare its assertions and admitted answers with the starting model. Changing what a description displays can leave the same model assertions recoverable and need not change its abstraction level. Choose the operation the gap requires, and explain its result. A wider field name cannot supply a missing connection.
 
 Follow a changed encompassing condition to the contributions that relied on it. Follow a consequential finding in a contribution back to the encompassing account. Retain unaffected uses on the basis of their dependencies.
 

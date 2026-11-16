@@ -6,12 +6,12 @@ section_id: "D.1:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.1/D.1__002_problem-frame.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "D.1 — Clarify an Ethical Claim's Value Basis (Value Plurality)"
   - "D.1:1 — Problem Frame"
-line_start: 96183
-line_end: 96188
+line_start: 96222
+line_end: 96227
 dependencies:
   - "A.1"
   - "A.1.CSD"

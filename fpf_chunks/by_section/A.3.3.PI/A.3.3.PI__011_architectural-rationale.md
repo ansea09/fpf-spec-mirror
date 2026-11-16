@@ -6,12 +6,12 @@ section_id: "A.3.3.PI:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3.PI/A.3.3.PI__011_architectural-rationale.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "A.3.3.PI — Retain the Information Needed for Prediction"
   - "A.3.3.PI:10 — Architectural Rationale"
-line_start: 13402
-line_end: 13409
+line_start: 13401
+line_end: 13408
 dependencies:
   - "A.3.3"
   - "A.3.3.CC"

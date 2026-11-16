@@ -6,12 +6,12 @@ section_id: "A.16.0:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.0/A.16.0__010_consequences.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "A.16.0 — Keep an Episteme's Language-State and Publication History Recoverable"
   - "A.16.0:9 — Consequences"
-line_start: 35307
-line_end: 35309
+line_start: 35306
+line_end: 35308
 dependencies:
   - "A.16"
   - "A.16.1"

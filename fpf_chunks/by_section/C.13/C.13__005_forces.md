@@ -6,12 +6,12 @@ section_id: "C.13:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.13/C.13__005_forces.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "C.13 — Constructional Mereology (Compose‑CAL)"
   - "C.13:3 — Forces"
-line_start: 60846
-line_end: 60854
+line_start: 60884
+line_end: 60892
 dependencies:
   - "A.1"
   - "A.14"

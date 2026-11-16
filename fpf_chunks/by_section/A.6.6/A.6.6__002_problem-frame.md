@@ -6,12 +6,12 @@ section_id: "A.6.6:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__002_problem-frame.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "A.6.6 — Base Declaration Discipline: Say What Something Depends On"
   - "A.6.6:1 — Problem frame"
-line_start: 24564
-line_end: 24593
+line_start: 24563
+line_end: 24592
 dependencies:
   - "A.10"
   - "A.14"

@@ -2,7 +2,7 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `eaef57bb8e4f119376cf48dc8f9b5297beb4559b`
+Commit SHA: `e230eef4f6955116bf697ca9ba5e79247af1843e`
 
 Chunking method: `pattern-aware`
 
@@ -158,7 +158,7 @@ Patterns: `406`
 - [B.5.RA — Recover an Argument for Use](by_pattern/B.5.RA.md)
 - [B.5.RR — Revise Reasoning After a Premise or Question Changes](by_pattern/B.5.RR.md)
 - [B.5.FM — Construct a Model for the Question](by_pattern/B.5.FM.md)
-- [B.5.MR — Compare Models for Refinement](by_pattern/B.5.MR.md)
+- [B.5.MR — Compare Models by Refinement and Abstraction](by_pattern/B.5.MR.md)
 - [B.5.TU — Construct a Use of an Unfamiliar Theory](by_pattern/B.5.TU.md)
 - [B.5.TC — Compare Theoretical Accounts for a Question](by_pattern/B.5.TC.md)
 - [B.5.QD — Develop a Question from a Result or Construction](by_pattern/B.5.QD.md)

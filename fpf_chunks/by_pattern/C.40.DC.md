@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.40.DC.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "C.40.DC — Construct Directions with Support Configurations"
-line_start: 91883
-line_end: 92133
+line_start: 91922
+line_end: 92172
 dependencies:
   - "A.3.1"
   - "A.3.2"
@@ -234,7 +234,7 @@ A conforming direction/support account:
 
 ### C.40.DC:9 - Consequences
 
-Practitioners obtain directions that another person can inspect, challenge, and qualify. A capability-development route can coexist with a support repair or external contribution. The next inquiry becomes precise: which access, feedback, transition, resource, or protection premise changes this candidate?
+Practitioners obtain directions that another agent can inspect, challenge, and qualify. A capability-development route can coexist with a support repair or external contribution. The next inquiry becomes precise: which access, feedback, transition, resource, or protection premise changes this candidate?
 
 The cost is recovering the baseline and enough support detail to expose interactions. Some attractive labels become conditional fragments, and the comparison may remain indeterminate. A commitment may have to wait while the responsible practice supplies the necessary result.
 

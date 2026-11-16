@@ -6,12 +6,12 @@ section_id: "A.3.1.MR:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MR/A.3.1.MR__004_forces.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "A.3.1.MR — Candidate-Method Recovery from Work Evidence"
   - "A.3.1.MR:3 — Forces"
-line_start: 10271
-line_end: 10282
+line_start: 10270
+line_end: 10281
 dependencies:
   - "A.10"
   - "A.13"

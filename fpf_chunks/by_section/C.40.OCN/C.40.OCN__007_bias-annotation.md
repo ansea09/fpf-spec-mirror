@@ -6,12 +6,12 @@ section_id: "C.40.OCN:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OCN/C.40.OCN__007_bias-annotation.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "C.40.OCN — Construct a Bounded Opportunity"
   - "C.40.OCN:6 — Bias-Annotation"
-line_start: 90877
-line_end: 90880
+line_start: 90916
+line_end: 90919
 dependencies:
   - "A.15.9"
   - "C.11"

@@ -6,12 +6,12 @@ section_id: "E.23:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__008_conformance-checklist.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:7 — Conformance Checklist"
-line_start: 122946
-line_end: 122967
+line_start: 122987
+line_end: 123008
 dependencies:
   - "A.19.ECS"
   - "A.22.CGUS"

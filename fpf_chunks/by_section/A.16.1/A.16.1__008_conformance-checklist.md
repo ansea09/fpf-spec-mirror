@@ -6,12 +6,12 @@ section_id: "A.16.1:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__008_conformance-checklist.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "A.16.1 — PreArticulationCuePack: Preserve an Early Cue Before Choosing Its Use"
   - "A.16.1:7 — Conformance Checklist"
-line_start: 35487
-line_end: 35495
+line_start: 35486
+line_end: 35494
 dependencies:
   - "A.16"
   - "A.16.0"

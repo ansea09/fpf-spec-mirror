@@ -6,12 +6,12 @@ section_id: "A.22:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__013_relations.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "A.22 — Structure and Structural Views"
   - "A.22:12 — Relations"
-line_start: 42222
-line_end: 42234
+line_start: 42221
+line_end: 42233
 dependencies:
   - "A.1"
   - "A.1.1"

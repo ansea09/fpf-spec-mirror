@@ -6,12 +6,12 @@ section_id: "C.31.ASAP:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.ASAP/C.31.ASAP__013_relations.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "C.31.ASAP — Which Architecture Is Preferable Under Scale? (Scale Amenability)"
   - "C.31.ASAP:12 — Relations"
-line_start: 79819
-line_end: 79856
+line_start: 79857
+line_end: 79894
 dependencies:
   - "A.1.1"
   - "A.10"

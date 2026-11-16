@@ -6,12 +6,12 @@ section_id: "C.28:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__014_relations.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "C.28 — CausalUse-CAL: Causal-Use Questions, Identification, and Realizability"
   - "C.28:12 — Relations"
-line_start: 71653
-line_end: 71673
+line_start: 71691
+line_end: 71711
 dependencies:
   - "A.10"
   - "A.15"

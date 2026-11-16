@@ -6,12 +6,12 @@ section_id: "A.15.4:3"
 section_title: "Solution - Work-Relevant Appearance-Based Reliance Repair"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__005_solution-work-relevant-appearance-based-reliance-repair.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "A.15.4 — Work-Relevant Appearance-Based Reliance Repair"
   - "A.15.4:3 — Solution - Work-Relevant Appearance-Based Reliance Repair"
-line_start: 31582
-line_end: 31728
+line_start: 31581
+line_end: 31727
 dependencies:
   - "A.10"
   - "A.13"

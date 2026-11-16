@@ -6,12 +6,12 @@ section_id: "C.42:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.42/C.42__006_archetypal-grounding.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "C.42 — Reduce Work While Preserving the Needed Result"
   - "C.42:5 — Archetypal Grounding"
-line_start: 94758
-line_end: 94831
+line_start: 94797
+line_end: 94870
 dependencies:
   - "A.11.OP"
   - "A.3.1.MI"

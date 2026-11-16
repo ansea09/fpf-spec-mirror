@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.5.RC.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "B.5.RC — Recover a Construction from Its Description"
-line_start: 49743
-line_end: 49934
+line_start: 49742
+line_end: 49933
 dependencies:
   - "A.6.3.RT"
   - "B.5"
@@ -185,7 +185,7 @@ Recovery may expose a gap in the source or in the reader's preparation. It also 
 
 Backward recovery and forward construction answer complementary questions. The backward direction reveals what the desired result requires. The forward direction tests whether the available inputs and operations can supply it. Either direction alone can leave a gap: a plausible plan may lack an executable step, while available operations may produce objects irrelevant to the question.
 
-The method follows the construction's dependency structure. One intermediate object can support several later steps, and several objects can be required jointly. Preserving these relations makes the construction intelligible and helps divide its execution among people and AI agents. The receiving operation determines what a collaborator needs to supply.
+The method follows the construction's dependency structure. One intermediate object can support several later steps, and several objects can be required jointly. Preserving these relations makes the construction intelligible and helps divide its execution among performers. The receiving operation determines what a collaborator needs to supply.
 
 Construction and reasoning about properties remain connected. In the triangle case, the construction creates a common point and the circle properties establish equal sides. In the stand case, fitting conditions permit assembly, while load and carrying requirements can lead to design revision. This relation warrants cooperating methods for construction recovery and argument recovery.
 

@@ -6,12 +6,12 @@ section_id: "B.1.5.CM:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5.CM/B.1.5.CM__013_sota-echoing.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "B.1.5.CM — Construct and Qualify a Composite Method"
   - "B.1.5.CM:11 — SoTA-Echoing"
-line_start: 44823
-line_end: 44832
+line_start: 44822
+line_end: 44831
 dependencies:
   - "A.3.1"
   - "B.1.5"

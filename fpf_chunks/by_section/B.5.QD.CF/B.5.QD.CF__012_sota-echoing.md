@@ -6,12 +6,12 @@ section_id: "B.5.QD.CF:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.QD.CF/B.5.QD.CF__012_sota-echoing.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "B.5.QD.CF — Reformulate a Problem by Examining Its Conflicting Assumptions"
   - "B.5.QD.CF:11 — SoTA-Echoing"
-line_start: 51666
-line_end: 51679
+line_start: 51701
+line_end: 51714
 dependencies:
   - "B.1.5.EW"
   - "B.5.FM"

@@ -6,12 +6,12 @@ section_id: "C.41.UA:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.UA/C.41.UA__013_relations.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "C.41.UA — Use a Checklist to Answer Questions and Act on the Results"
   - "C.41.UA:12 — Relations"
-line_start: 94175
-line_end: 94180
+line_start: 94214
+line_end: 94219
 dependencies:
   - "A.10"
   - "A.15.1"

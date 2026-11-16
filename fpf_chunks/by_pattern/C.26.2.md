@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.26.2.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "C.26.2 — Enacted Distributed State Evidence"
-line_start: 69388
-line_end: 69733
+line_start: 69426
+line_end: 69771
 dependencies:
   - "A.10"
   - "A.15"

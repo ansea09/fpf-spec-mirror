@@ -6,12 +6,12 @@ section_id: "B.1.5.RS:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5.RS/B.1.5.RS__005_solution.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "B.1.5.RS — Evaluate a Method Replacement in Its Encompassing Uses"
   - "B.1.5.RS:4 — Solution"
-line_start: 44495
-line_end: 44549
+line_start: 44494
+line_end: 44548
 dependencies:
   - "A.3.1"
   - "B.1.5"

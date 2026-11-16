@@ -6,12 +6,12 @@ section_id: "C.39.RQ:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.RQ/C.39.RQ__012_rationale.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "C.39.RQ — Construct Situated Method Requirements"
   - "C.39.RQ:10 — Rationale"
-line_start: 88961
-line_end: 88966
+line_start: 89000
+line_end: 89005
 dependencies:
   - "A.3.1"
   - "C.11"

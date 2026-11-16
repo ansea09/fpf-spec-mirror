@@ -6,12 +6,12 @@ section_id: "D.1:8"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.1/D.1__012_rationale.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "D.1 — Clarify an Ethical Claim's Value Basis (Value Plurality)"
   - "D.1:8 — Rationale"
-line_start: 96364
-line_end: 96369
+line_start: 96403
+line_end: 96408
 dependencies:
   - "A.1"
   - "A.1.CSD"

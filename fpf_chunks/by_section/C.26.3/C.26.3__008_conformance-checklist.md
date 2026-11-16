@@ -6,12 +6,12 @@ section_id: "C.26.3:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.3/C.26.3__008_conformance-checklist.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "C.26.3 — Viability-Envelope Boundary Regulation"
   - "C.26.3:7 — Conformance Checklist"
-line_start: 70037
-line_end: 70055
+line_start: 70075
+line_end: 70093
 dependencies:
   - "A.10"
   - "A.15"

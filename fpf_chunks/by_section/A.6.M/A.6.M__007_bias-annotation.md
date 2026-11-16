@@ -6,12 +6,12 @@ section_id: "A.6.M:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.M/A.6.M__007_bias-annotation.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "A.6.M — Module and Interface Claim Repair"
   - "A.6.M:6 — Bias-Annotation"
-line_start: 24086
-line_end: 24097
+line_start: 24085
+line_end: 24096
 dependencies:
   - "A.10"
   - "A.20"

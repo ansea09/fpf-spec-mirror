@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.37.MM.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "C.37.MM — Coordinate Related Models for Use and Handover"
-line_start: 86614
-line_end: 86698
+line_start: 86652
+line_end: 86736
 dependencies:
   - "B.5.MR"
   - "C.2.1"

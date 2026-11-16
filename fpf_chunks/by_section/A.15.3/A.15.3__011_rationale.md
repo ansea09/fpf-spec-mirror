@@ -6,12 +6,12 @@ section_id: "A.15.3:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.3/A.15.3__011_rationale.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "A.15.3 — SlotFillingsPlanItem: Plan a Value for an Existing Declaration Member"
   - "A.15.3:10 — Rationale"
-line_start: 31456
-line_end: 31461
+line_start: 31455
+line_end: 31460
 dependencies:
   - "A.15.1"
   - "A.15.2"

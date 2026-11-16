@@ -6,12 +6,12 @@ section_id: "C.28.CM:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28.CM/C.28.CM__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "C.28.CM — Construct and Challenge a Causal Model"
   - "C.28.CM:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 71859
-line_end: 71870
+line_start: 71897
+line_end: 71908
 dependencies:
   - "A.15.9"
   - "B.5.2"

@@ -6,12 +6,12 @@ section_id: "A.9:7"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.9/A.9__008_consequences.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "A.9 — Choose and Check an Aggregation Law for the Intended Result"
   - "A.9:7 — Consequences"
-line_start: 27652
-line_end: 27657
+line_start: 27651
+line_end: 27656
 dependencies:
   - "A.19.CN"
   - "A.19.ULSAM"

@@ -6,12 +6,12 @@ section_id: "C.39.RQ:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.RQ/C.39.RQ__006_solution.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "C.39.RQ — Construct Situated Method Requirements"
   - "C.39.RQ:4 — Solution"
-line_start: 88792
-line_end: 88853
+line_start: 88831
+line_end: 88892
 dependencies:
   - "A.3.1"
   - "C.11"

@@ -6,12 +6,12 @@ section_id: "A.3.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2/A.3.2__005_solution.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "A.3.2 — U.MethodDescription: Description Episteme for a Way of Doing"
   - "A.3.2:4 — Solution"
-line_start: 11933
-line_end: 12054
+line_start: 11932
+line_end: 12053
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -106,7 +106,7 @@ Then inspect the claim concerns that matter for that named use:
 | Parameters | Which values may vary between work occurrences, over which ranges, and when are they bound? |
 | Evaluation conditions | Which criterion is applied to the concrete Work occurrence, referent, measurement, or result, and which pattern defines that criterion? |
 | Internal composition | Which admitted methods are parts of one composite method, and what organization constructs that whole? |
-| Variation, edition, and refinement | Which claim content is preserved or changed, and is the current claim about another episteme edition, equivalence of claim content, or refinement of the method itself? |
+| Change and comparison | Which claims are preserved or changed? Distinguish equivalence of claim content, a C.2.1 edition relation, B.5.MR refinement or abstraction between models of a Method, and an A.3.1 claim about Method identity or relations. |
 | Edition and publication use | Which episteme edition is relied on, and does its publication use affect currentness or availability? |
 
 Calendars, assignees, work authorization, gate passage, and dated execution witnesses are governed by planning, assignment, gate, or work-occurrence patterns. They may cite a method description.

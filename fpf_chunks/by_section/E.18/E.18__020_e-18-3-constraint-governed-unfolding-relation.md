@@ -6,12 +6,12 @@ section_id: "E.18:15c"
 section_title: "E.18.3 Constraint-Governed Unfolding Relation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__020_e-18-3-constraint-governed-unfolding-relation.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:15c — E.18.3 Constraint-Governed Unfolding Relation"
-line_start: 118073
-line_end: 118080
+line_start: 118114
+line_end: 118121
 dependencies:
   - "A.15.1"
   - "A.15.PROD"

@@ -6,12 +6,12 @@ section_id: "B.5.QD:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.QD/B.5.QD__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "B.5.QD — Develop a Question from a Result or Construction"
   - "B.5.QD:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 51431
-line_end: 51441
+line_start: 51466
+line_end: 51476
 dependencies:
   - "B.5.MPC"
   - "B.5.RA"

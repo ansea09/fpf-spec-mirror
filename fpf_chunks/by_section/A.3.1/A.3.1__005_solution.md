@@ -6,12 +6,12 @@ section_id: "A.3.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1/A.3.1__005_solution.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "A.3.1 — U.Method: Reusable Way of Doing with Explicit Applicability"
   - "A.3.1:4 — Solution"
 line_start: 9817
-line_end: 10063
+line_end: 10062
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -88,8 +88,6 @@ Start with the least apparatus that lets another reader recognize the same metho
 1. **Ordinary use.** State the reusable way of doing, the kinds of participants it is for, when it applies, what it is meant to achieve or preserve, and any applicable use limits or stop conditions. If that sentence is enough for the decision at hand, stop.
 2. **Later comparison or reliance.** Use the needed entries in the Plain aid below when the ordinary statement is insufficient to distinguish same-named methods, compare descriptions or variants, cite one edition in a plan, or audit why this method was selected.
 3. **Organization of several methods or uses.** Open `A.22`, `B.1.5`, or another direct composition pattern only when the question is about the organization itself—for example, which methods were composed, selected, used as fallbacks, or enacted in the reviewed work.
-
-Moving to a heavier level must solve one of those concrete problems.
 
 The following Plain identification aid is optional and is not a data schema. Omit every entry that the stated decision does not use.
 
@@ -239,10 +237,11 @@ Start with the practical question, not a graph or the umbrella word *specializat
 | Does this reusable way meet one or more Method-kind criteria? | Use `C.3.2` for the admissibility check and a `true`, `false`, or `unknown` judgment. An out-of-scope request is `not-applicable` and forms no judgment. |
 | Does one Method kind have several broader kinds? | Check each broader-kind claim under `C.3.1`. |
 | Does one Method contribute to several larger Methods? | Use `B.1.5` for every part–whole pair and every whole construction. Each whole keeps its own action, boundary, interfaces, and reidentification rule. |
+| Is one model of a Method a refinement or an abstraction of another? | Use `B.5.MR` to compare their assertions and admitted answers for a stated inquiry and interpretation. The models may concern the same Method; §4.7 separately governs Method identification. |
 | Are two Methods being compared for refinement or replacement? | First identify both Methods and the use that needs the comparison. State the direction, what remains, what changes, and the material guards or losses. A sentence or local claim is often enough for one use. |
 | Is this another question—for example, parameter variation, family grouping, fallback, dispatch, a description, a selected structure, performed Work, capability, provider contribution, or cultural change? | Use the pattern that defines or tests that claim. The label alone establishes no Method kind, Method part, or relation occurrence. |
 
-Before claiming refinement or replacement, decide whether the changed account identifies the same Method. If it does, state what was preserved and what changed; do not invent a relation between two Methods. If two Methods are identified, a refinement comparison states its direction and use, the semantics retained from the first Method, what the second narrows or strengthens, and the action or result that changes.
+Before claiming refinement or replacement between Methods, decide whether the changed account identifies the same Method. If it does, state what was preserved and what changed; do not invent a relation between two Methods. If two Methods are identified, a refinement comparison states its direction and use, the semantics retained from the first Method, what the second narrows or strengthens, and the action or result that changes.
 
 A replacement comparison says which Method may replace which other Method, for what use, under which preconditions, with which intended result or preserved condition, and which bounds, interfaces, losses, and guards must remain visible. Do not infer the reverse direction. Shared kind criteria or similar descriptions do not prove replacement.
 

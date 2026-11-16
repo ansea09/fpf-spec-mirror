@@ -6,12 +6,12 @@ section_id: "C.2.6:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.6/C.2.6__013_relations.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "C.2.6 — Sources, Evidence and Conditions for Using an Episteme"
   - "C.2.6:12 — Relations"
-line_start: 56578
-line_end: 56581
+line_start: 56616
+line_end: 56619
 dependencies:
   - "A.10"
   - "A.16"

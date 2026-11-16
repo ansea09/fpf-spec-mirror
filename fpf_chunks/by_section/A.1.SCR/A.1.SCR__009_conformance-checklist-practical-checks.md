@@ -6,7 +6,7 @@ section_id: "A.1.SCR:7"
 section_title: "Conformance Checklist — Practical Checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.SCR/A.1.SCR__009_conformance-checklist-practical-checks.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "A.1.SCR — Finding the Acting or Changed System"
   - "A.1.SCR:7 — Conformance Checklist — Practical Checks"

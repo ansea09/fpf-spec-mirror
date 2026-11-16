@@ -6,7 +6,7 @@ section_id: "A.1.STM:7"
 section_title: "Recognition before relying on a system"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.STM/A.1.STM__009_recognition-before-relying-on-a-system.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "A.1.STM — Connect Project Reasoning (System-Thinking Long Mantra)"
   - "A.1.STM:7 — Recognition before relying on a system"

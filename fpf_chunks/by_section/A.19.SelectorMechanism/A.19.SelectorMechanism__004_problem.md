@@ -6,12 +6,12 @@ section_id: "A.19.SelectorMechanism:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SelectorMechanism/A.19.SelectorMechanism__004_problem.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "A.19.SelectorMechanism — Selection Kernel"
   - "A.19.SelectorMechanism:2 — Problem"
-line_start: 40763
-line_end: 40782
+line_start: 40762
+line_end: 40781
 dependencies:
   - "A.19.CHR"
   - "A.19.CN"

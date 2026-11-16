@@ -6,12 +6,12 @@ section_id: "E.23.CAE:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23.CAE/E.23.CAE__003_problem.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "E.23.CAE — Capability Access and Expression Differential Probe"
   - "E.23.CAE:2 — Problem"
-line_start: 123334
-line_end: 123343
+line_start: 123375
+line_end: 123384
 dependencies:
   - "A.15.7"
   - "A.15.8"

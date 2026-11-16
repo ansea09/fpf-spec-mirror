@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.5.MR"
-pattern_title: "Compare Models for Refinement"
+pattern_title: "Compare Models by Refinement and Abstraction"
 section_id: "B.5.MR:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.MR/B.5.MR__002_problem-frame.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
-  - "B.5.MR — Compare Models for Refinement"
+  - "B.5.MR — Compare Models by Refinement and Abstraction"
   - "B.5.MR:1 — Problem frame"
-line_start: 50771
-line_end: 50776
+line_start: 50770
+line_end: 50775
 dependencies:
   - "B.1"
   - "B.5.FM"
@@ -23,7 +23,7 @@ keywords:
 
 ### B.5.MR:1 - Problem frame
 
-**Use this when** someone proposes to rely on a later model because it is said to refine an earlier one. The practical question is which earlier conclusions still hold and which choice, state or behavior the later model now excludes. Two specifications of a design, two accounts of a method or two editions of the rules for constructing a model can each raise that question.
+**Use this when** you need a model to determine something left open by another model, or need an abstraction that leaves some determinations open while retaining a useful conclusion. The practical question is which answers remain admissible and which conclusions can still be used. Two specifications of a design, two accounts of a method or two editions of the rules for constructing a model can each raise that question.
 
-A useful first result is a sentence explaining what was open, what still qualifies, and what has become impossible under the new conditions. When deciding between theories that answer different questions, B.5.TC helps identify a comparable use. When the change is in the actual system, examine the changed system directly.
+A useful first result identifies the inquiry, the assertions preserved and the answers admitted by each model. A strict refinement excludes an earlier admissible answer. A strict abstraction admits an answer excluded before, so a conclusion that depended on that exclusion needs reconsideration. When deciding between theories that answer different questions, B.5.TC helps identify a comparable use. When the change is in the actual system, examine the changed system directly.
 

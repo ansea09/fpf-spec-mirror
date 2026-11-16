@@ -6,12 +6,12 @@ section_id: "C.39.WI:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.WI/C.39.WI__002_problem-frame.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "C.39.WI — Discover Worthwhile Method Improvements"
   - "C.39.WI:1 — Problem frame"
-line_start: 88135
-line_end: 88144
+line_start: 88174
+line_end: 88183
 dependencies:
   - "C.11.DUA"
   - "C.11.MV"

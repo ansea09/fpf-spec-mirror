@@ -6,12 +6,12 @@ section_id: "A.6.P.RI:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P.RI/A.6.P.RI__008_conformance-checklist.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "A.6.P.RI — Recover Agent-Relative References for Action"
   - "A.6.P.RI:7 — Conformance Checklist"
-line_start: 21562
-line_end: 21575
+line_start: 21561
+line_end: 21574
 dependencies:
   - "A.6.3.RT"
   - "A.6.4"

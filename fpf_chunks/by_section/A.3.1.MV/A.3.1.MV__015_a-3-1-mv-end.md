@@ -6,12 +6,12 @@ section_id: "A.3.1.MV:End"
 section_title: "A.3.1.MV:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MV/A.3.1.MV__015_a-3-1-mv-end.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "A.3.1.MV — Construct and Maintain a Method Variant"
   - "A.3.1.MV:End — A.3.1.MV:End"
-line_start: 11619
-line_end: 11620
+line_start: 11618
+line_end: 11619
 dependencies:
   - "A.3.1"
   - "A.3.1.MI"

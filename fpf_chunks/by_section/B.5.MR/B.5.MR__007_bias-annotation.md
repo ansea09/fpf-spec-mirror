@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.5.MR"
-pattern_title: "Compare Models for Refinement"
+pattern_title: "Compare Models by Refinement and Abstraction"
 section_id: "B.5.MR:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.MR/B.5.MR__007_bias-annotation.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
-  - "B.5.MR — Compare Models for Refinement"
+  - "B.5.MR — Compare Models by Refinement and Abstraction"
   - "B.5.MR:6 — Bias-Annotation"
-line_start: 50827
-line_end: 50830
+line_start: 50856
+line_end: 50859
 dependencies:
   - "B.1"
   - "B.5.FM"
@@ -23,5 +23,5 @@ keywords:
 
 ### B.5.MR:6 - Bias-Annotation
 
-A vivid individual case can conceal what the earlier condition covered. Start with the intended inquiry and an admissible alternative. Looking only for a stricter result can also hide agreement, a real conflict or uncertainty.
+A vivid individual case can conceal what the earlier assertion covered. Start with the intended inquiry and an admissible alternative. Looking only for a stricter result can hide agreement, a real conflict or uncertainty. Looking only for a simpler abstraction can conceal the loss of a conclusion the next decision needs.
 

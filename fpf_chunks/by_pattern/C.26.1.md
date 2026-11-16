@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.26.1.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "C.26.1 — Probe-Coupled Boundary Interaction"
-line_start: 69098
-line_end: 69387
+line_start: 69136
+line_end: 69425
 dependencies:
   - "A.1.1"
   - "A.10"

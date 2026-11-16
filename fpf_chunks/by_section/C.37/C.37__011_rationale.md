@@ -6,12 +6,12 @@ section_id: "C.37:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37/C.37__011_rationale.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "C.37 — Select and Use Representations for One Action"
   - "C.37:10 — Rationale"
-line_start: 86095
-line_end: 86100
+line_start: 86133
+line_end: 86138
 dependencies:
   - "A.10"
   - "A.2.4"

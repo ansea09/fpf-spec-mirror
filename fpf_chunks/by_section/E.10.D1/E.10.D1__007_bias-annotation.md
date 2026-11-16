@@ -6,12 +6,12 @@ section_id: "E.10.D1:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D1/E.10.D1__007_bias-annotation.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "E.10.D1 — Recovering What “Context” Means in Use"
   - "E.10.D1:6 — Bias-Annotation"
-line_start: 108380
-line_end: 108389
+line_start: 108421
+line_end: 108430
 dependencies:
   - "A.1.1"
   - "A.2.6"

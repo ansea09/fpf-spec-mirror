@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.40.JF.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "C.40.JF — Qualify Dependencies and Joint Reachability"
-line_start: 92134
-line_end: 92345
+line_start: 92173
+line_end: 92384
 dependencies:
   - "A.10"
   - "A.15.9"
@@ -87,7 +87,7 @@ Put jointly necessary conditions on one compatible basis. Recover the time inter
 
 Ask which conditions compete, complement, substitute for, or interfere with one another. Inspect common causes and shared suppliers, thresholds, congestion, delays, continuing obligations, and evidence dependencies where they can change the result. Two claims derived from the same unqualified assumption do not independently support the combination.
 
-For a sequence, check whether the earlier transition can establish the next step's starting conditions within the declared horizon. A planned learning result remains a condition on the later step until the human-development evidence supports it. A later resource estimate must include continuing demands inherited from earlier steps. For alternatives, preserve their separate bases: a conflict between them may rule out simultaneous realization without ruling out either alone.
+For a sequence, check whether the earlier transition can establish the next step's starting conditions within the declared horizon. A planned learning result remains a condition on the later step until learning evidence for the intended holder supports it. A later resource estimate must include continuing demands inherited from earlier steps. For alternatives, preserve their separate bases: a conflict between them may rule out simultaneous realization without ruling out either alone.
 
 Use the domain analysis when the joint question needs scheduling, engineering, safety, organizational allocation, finance, or another specialized result. An ordinary arithmetic conflict can be stated when the underlying quantities and limits are qualified. Do not infer independence, additivity, or a probability of completion from the shape of a dependency diagram.
 

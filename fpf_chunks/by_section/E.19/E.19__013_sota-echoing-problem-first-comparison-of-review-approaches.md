@@ -6,15 +6,16 @@ section_id: "E.19:11"
 section_title: "SoTA-Echoing — problem-first comparison of review approaches"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__013_sota-echoing-problem-first-comparison-of-review-approaches.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:11 — SoTA-Echoing — problem-first comparison of review approaches"
-line_start: 120803
-line_end: 120826
+line_start: 120844
+line_end: 120867
 dependencies:
   - "A.15.1"
   - "A.6.P"
+  - "B.5.MR"
   - "E.10"
   - "E.2.DA"
   - "E.21"

@@ -6,12 +6,12 @@ section_id: "C.39.WA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.WA/C.39.WA__005_solution.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "C.39.WA — Develop an Account of the Whole Subject"
   - "C.39.WA:4 — Solution"
-line_start: 87481
-line_end: 87607
+line_start: 87519
+line_end: 87646
 dependencies:
   - "C.20"
   - "C.39.QR"
@@ -77,15 +77,16 @@ For a move from one claim or subject to another, name the relation on which the 
 | Work enacts a Method | The reusable Method and the performer, occurrence and conditions; A.3.1 and A.15.1 govern these different subjects. |
 | A description or model represents a subject | The original subject, representation objects and relations, claims, correspondence and the returned inference. C.2.1 and, for mathematical model use, C.29/C.29.1 preserve these distinctions. |
 | A construction supports a more general operation | The retained premises, variable inputs, operation and grounds for the wider application; C.39.RO develops the generalization. |
-| An abstraction serves a selected question | The retained distinctions and relations, the omitted detail, and the questions the selected representation can answer. |
+| A model abstraction serves a selected question | The inquiry, interpreted assertions and admitted answers of both models; B.5.MR tests the comparison and which conclusions remain available. |
+| A representation shows less detail | The content recoverable from the representation and its established conventions. Less displayed detail can retain the same model assertions. |
 
 A relation identifies how its participants are connected. A returned claim also needs an applicable inference rule. Separately, the resulting work must be compared with the original account question; C.39.QR:4.2–4.4 develops these two judgements.
 
 These relations can coexist. A reusable calculation can be a constituent of one Method and supply a result to another. A discipline can contain other disciplines and use results from fields that are not its constituents. A representation can preserve some structure, omit some and introduce useful constructed objects. Explain the relevant correspondence before returning a conclusion to the represented subject.
 
-**Identify a claimed refinement.** When an account of a system, method or field treats one model as more specific than another, keep the inquiry fixed. Show what the later model preserves, a possibility it still allows and what it rules out. B.5.MR gives the comparison for individual models and for models of their governing conventions. B.1 supplies the different grounds needed when the claim moves from a constituent to an encompassing whole.
+**Identify a claimed refinement.** When an account of a system, method or field treats one model as more concrete than another, keep the inquiry fixed. Show what the later model preserves, a possibility it still allows and what it rules out. B.5.MR gives the comparison for individual models and for models of their governing conventions. B.1 supplies the different grounds needed when the claim moves from a constituent to an encompassing whole.
 
-**Give a modeling level a point of reference.** Name what the claim concerns, the cases it covers and the use of the answer. “The laboratory's rule for releasing an instrument” identifies a starting point. If you need to reason from a particular record to the rule it cites, identify that record, the rule and the citation. A release record can direct you to the local rule under which a decision was made. Check the applicable edition and the issuing authority. To examine that rule in turn, compare it with the discipline's conditions for a valid verdict. To establish what actually happened, return to the identified instrument, configuration and observations. Carry forward only the conclusions for which that return supplies grounds.
+**Identify the subject and relation before moving.** Name what the claim concerns, the cases it covers and the use of the answer. “The laboratory's rule for releasing an instrument” identifies a starting point. If you need to reason from a particular record to the rule it cites, identify that record, the rule and the citation. A release record can direct you to the local rule under which a decision was made. Check the applicable edition and the issuing authority. To examine that rule in turn, compare it with the discipline's conditions for a valid verdict. To establish what actually happened, return to the identified instrument, configuration and observations. Carry forward only the conclusions for which that return supplies grounds.
 
 A transdisciplinary distinction can guide reasoning within one discipline. Interdisciplinary work brings contributions from different disciplines into a common result. Ask which distinction guides the choice of types, or which contributions must be connected. Both questions can matter in one undertaking.
 
@@ -109,7 +110,7 @@ This is the constructive role of the whole explanation. For a family of Methods,
 
 Then follow findings back into the common account. An unexpected case can reveal a missing premise, a new problem family or an incorrect connection. Revise the affected explanation and its uses. Keep the source's useful constructions while critically examining its claimed generality.
 
-Distinguish three moves when developing that return. Synthesis connects contributions into an organized account or way. Generalization extends the range for which a claim or operation is warranted. Abstraction selects a representation's distinctions for a question. One piece of work can need all three, with each contribution explained.
+Distinguish the operations needed for that return. Synthesis connects contributions into an organized account or way. Generalization extends the range for which a claim or operation is warranted. Model abstraction leaves some determinations open while retaining the conclusion the receiving work needs; apply B.5.MR to compare the resulting model with the starting model. Selecting what an account displays can preserve all model assertions and leave the abstraction level unchanged. One piece of work can need several of these operations, with each contribution explained.
 
 **Questions:** Which choices about parts follow from the common grounds? What changes when a consequential condition changes? What do varied cases reveal about the common explanation? Which general contribution still has to be invented by the reader?
 

@@ -6,12 +6,12 @@ section_id: "C.40.JF:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.JF/C.40.JF__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "C.40.JF — Qualify Dependencies and Joint Reachability"
   - "C.40.JF:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 92299
-line_end: 92309
+line_start: 92338
+line_end: 92348
 dependencies:
   - "A.10"
   - "A.15.9"

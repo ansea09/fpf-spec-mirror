@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.10.INT.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "E.10.INT — Recovering What Interest or Curiosity Means Here"
-line_start: 106818
-line_end: 106988
+line_start: 106859
+line_end: 107029
 dependencies:
   - "C.11"
   - "C.16"

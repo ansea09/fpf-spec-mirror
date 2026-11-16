@@ -6,12 +6,12 @@ section_id: "E.23.CDI:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23.CDI/E.23.CDI__005_solution.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "E.23.CDI — Developing Capability for a Named Work Family"
   - "E.23.CDI:4 — Solution"
-line_start: 123107
-line_end: 123173
+line_start: 123148
+line_end: 123214
 dependencies:
   - "A.15.1"
   - "A.2.2"
@@ -67,7 +67,7 @@ The holder can discover an operation through its own inquiry and practice, recov
 
 **Connect help to later work.** State what the next attempt receives and must produce, which help remains, and how its output reaches the receiving work. Keep legitimate tools or a useful division of work when independence is not part of the target. If removing help would disrupt a live service, use a protected rehearsal or retain qualified provision while developing the missing contribution.
 
-If a teacher's exercise conflicts with a manager's production demand, settle time, workload and acceptance with the person who can change that arrangement; more instruction alone will not obtain those conditions.
+If a teacher's exercise conflicts with a manager's production demand, settle time, workload and acceptance with the role holders who can authorize the needed changes; more instruction alone will not obtain those conditions.
 
 **Use feedback for the claim it can support.** An adaptive arrangement can use a progress signal to choose another exercise or data batch. The resulting capability claim needs evidence of the selected Method relation in receiving work. When the signal improves but that work fails, retain the narrower claim, inspect whether the examples and feedback distinguish the missing relation, and revise that basis or the intervention.
 

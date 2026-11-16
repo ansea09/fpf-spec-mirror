@@ -6,12 +6,12 @@ section_id: "E.16:5"
 section_title: "Archetypal grounding (human-centric)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.16/E.16__006_archetypal-grounding-human-centric.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "E.16 — RoC‑Autonomy Budget & Enforcement"
   - "E.16:5 — Archetypal grounding (human-centric)"
-line_start: 112829
-line_end: 112857
+line_start: 112870
+line_end: 112898
 dependencies:
   - "A.10"
   - "A.13"

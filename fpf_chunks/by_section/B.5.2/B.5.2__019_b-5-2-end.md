@@ -6,12 +6,12 @@ section_id: "B.5.2:End"
 section_title: "B.5.2:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2/B.5.2__019_b-5-2-end.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "B.5.2 — Generate and Compare Candidate Explanations (Abductive Loop)"
   - "B.5.2:End — B.5.2:End"
-line_start: 52066
-line_end: 52067
+line_start: 52101
+line_end: 52102
 dependencies:
   - "A.10"
   - "A.16"

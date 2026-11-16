@@ -6,12 +6,12 @@ section_id: "A.6.F:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.F/A.6.F__001_intro.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "A.6.F — Function and Functional Precision Restoration (RPR-FUNCTION)"
   - "A.6.F:intro — Intro"
-line_start: 23362
-line_end: 23367
+line_start: 23361
+line_end: 23366
 dependencies:
   - "A.10"
   - "A.15"

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.15.10.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "A.15.10 — Resume Work"
-line_start: 33778
-line_end: 33990
+line_start: 33777
+line_end: 33989
 dependencies:
   - "A.15"
   - "A.15.5"

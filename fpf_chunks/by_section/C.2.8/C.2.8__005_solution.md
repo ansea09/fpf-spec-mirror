@@ -6,12 +6,12 @@ section_id: "C.2.8:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.8/C.2.8__005_solution.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "C.2.8 — ExtractableStructuralInformation — Structure This Reader Can Recover"
   - "C.2.8:4 — Solution"
-line_start: 56888
-line_end: 56983
+line_start: 56926
+line_end: 57021
 dependencies:
   - "A.17"
   - "A.18"
@@ -58,7 +58,7 @@ This is a relation Characteristic under A.17, with arity three over the ordered 
 
 Its aspect is the amount of selected structure correctly extractable from E through X by O under stated comparison conditions.
 
-E retains its C.2.1 identity. X is an independently identified `U.Entity`: the sign construction that expresses E, identified under its expression domain's formation and equality rules. If reading order affects the selected operation, those rules must preserve order as part of X. O is the specified human or computational observer. An estimate about a reader class states the relevant preparation and variation among its members; it does not treat the class as another individual reader.
+E retains its C.2.1 identity. X is an independently identified `U.Entity`: the sign construction that expresses E, identified under its expression domain's formation and equality rules. If reading order affects the selected operation, those rules must preserve order as part of X. O is the specified reader or observing system. For distributed extraction, identify the observing system and how its participants' contributions produce the recovered structure. An estimate about a reader class states the relevant preparation and variation among its members; it does not treat the class as another individual reader.
 
 Where notation helps, write `ESI_C(E, X, O)`. C fixes the selected structure, correctness criterion, relevant prior knowledge, usable operations, available assistance and tools, access conditions, budget and any other qualification that changes interpretation. These conditions qualify the characteristic of the tuple; they are not an additional bearer or a universal record kind.
 

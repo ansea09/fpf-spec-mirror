@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.40.OI.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "C.40.OI — Bound an Opportunity Inquiry"
-line_start: 90925
-line_end: 91187
+line_start: 90964
+line_end: 91226
 dependencies:
   - "A.15.9"
   - "B.5.PI"
@@ -35,7 +35,7 @@ keywords:
 
 What inquiry is worth conducting when someone says “we should develop,” names a fashionable solution, or asks what to develop next before the receiving change is clear?
 
-Use this pattern when a person, organization, community, AI arrangement, platform, facility, research programme, or another identified subject has a development concern or aspiration but the receiving use, horizon, protected conditions, reason to explore, or affordable inquiry effort is loose. The first useful result is a bounded inquiry that another person can inspect, or one missing premise that prevents such an inquiry.
+Use this pattern when a person, organization, community, AI arrangement, platform, facility, research programme, or another identified subject has a development concern or aspiration but the receiving use, horizon, protected conditions, reason to explore, or affordable inquiry effort is loose. The first useful result is a bounded inquiry that another agent can inspect, or one missing premise that prevents such an inquiry.
 
 Begin here without appointing an adviser. A person can bound a self-inquiry and continue into opportunity construction. When a distinct performer is already being asked to advise a named recipient, this pattern can recover the subject, use, and horizon, but the applicable professional engagement Method governs whether the advising relationship itself is admissible.
 

@@ -6,12 +6,12 @@ section_id: "E.10.ROLE:5"
 section_title: "Archetypal Grounding — Worked Slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ROLE/E.10.ROLE__007_archetypal-grounding-worked-slices.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "E.10.ROLE — Recover What “Role” Means in This Claim"
   - "E.10.ROLE:5 — Archetypal Grounding — Worked Slices"
-line_start: 108155
-line_end: 108184
+line_start: 108196
+line_end: 108225
 dependencies:
   - "A.2"
   - "A.2.1"

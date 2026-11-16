@@ -6,12 +6,12 @@ section_id: "B.5.2.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.1/B.5.2.1__001_intro.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "B.5.2.1 — Instrument Abductive Hypothesis Generation with Novelty–Quality–Diversity (NQD)"
   - "B.5.2.1:intro — Intro"
-line_start: 52299
-line_end: 52308
+line_start: 52334
+line_end: 52343
 dependencies:
   - "A.17"
   - "A.18"

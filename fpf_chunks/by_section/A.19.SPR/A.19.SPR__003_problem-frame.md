@@ -6,12 +6,12 @@ section_id: "A.19.SPR:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SPR/A.19.SPR__003_problem-frame.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "A.19.SPR — Repair State and Status Wording"
   - "A.19.SPR:1 — Problem frame"
-line_start: 36819
-line_end: 36826
+line_start: 36818
+line_end: 36825
 dependencies:
   - "A.10"
   - "A.16"

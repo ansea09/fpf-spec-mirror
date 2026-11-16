@@ -6,12 +6,12 @@ section_id: "C.40.DC:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.DC/C.40.DC__010_consequences.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "C.40.DC — Construct Directions with Support Configurations"
   - "C.40.DC:9 — Consequences"
-line_start: 92093
-line_end: 92100
+line_start: 92132
+line_end: 92139
 dependencies:
   - "A.3.1"
   - "A.3.2"
@@ -25,7 +25,7 @@ keywords:
 
 ### C.40.DC:9 - Consequences
 
-Practitioners obtain directions that another person can inspect, challenge, and qualify. A capability-development route can coexist with a support repair or external contribution. The next inquiry becomes precise: which access, feedback, transition, resource, or protection premise changes this candidate?
+Practitioners obtain directions that another agent can inspect, challenge, and qualify. A capability-development route can coexist with a support repair or external contribution. The next inquiry becomes precise: which access, feedback, transition, resource, or protection premise changes this candidate?
 
 The cost is recovering the baseline and enough support detail to expose interactions. Some attractive labels become conditional fragments, and the comparison may remain indeterminate. A commitment may have to wait while the responsible practice supplies the necessary result.
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.0.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "A.6.0 — U.Signature - Reusable Law-Governed Declaration Episteme"
-line_start: 16846
-line_end: 17383
+line_start: 16845
+line_end: 17382
 dependencies:
   - "A.15.1"
   - "A.17"
@@ -387,7 +387,7 @@ A change to `imports` or `provides` changes the consumer signature's identity on
 
 A changed later use does not change the signature unless the change alters one of its C.2.1 identity discriminators. For example, a new mechanism realization remains a new realization, and a new publication layout remains a new publication form.
 
-Connect two different epistemes by `EpistemeEditionRelation`, refinement, supersession, or another independently governed continuity relation only when that relation's own predicate obtains under its direct governor. Revision work, shared title, changed identifier, citation, or sequence alone establishes no such occurrence.
+Recover the particular relation being claimed between two different epistemes. For historical continuation, test `EpistemeEditionRelation` under C.2.1. For model refinement or abstraction, compare the interpreted assertions under B.5.MR. Supersession or another relation needs its own predicate and grounds. Revision work, shared title, changed identifier, citation, or sequence alone establishes none of these relations.
 
 When a once-current signature becomes stale while its identity remains recoverable, G.11 governs currentness and selection among recoverable editions.
 
@@ -494,7 +494,7 @@ Each worked declaration has its own C.2.1 identity, which remains independent of
 12. **Progressive elaboration.** A direct assertion suffices when the task only asks whether the predicate holds. A signature opens when a receiving use needs reusable declaration content. Occurrence identity opens for same-occurrence reference, comparison, qualification, history/change or relation participation. A log or assertion identifier alone opens none of them.
 13. **CGUS boundary.** Use the ordinary branch to clarify continuation conditions; continue to formal qualification only when a named later use needs structure identity or replayable results, using the structure and continuation conditions stated in §4.
 14. **Profile boundary.** FormalSubstrate and PrincipleFrame remain profiles of `U.Signature` rather than new root kinds. A PrincipleFrame names its postulates and the observable distinctions needed to check them, leaves operation and gate admission with their subject patterns, and uses F.9 for a relation between two F.17 local senses, citing a Bridge only when its direct predicate obtains.
-15. **Changed object.** Changed claim content carried by the ClaimGraph, EntityOfConcern, or effective reference scheme identifies another episteme. Judge A.6.0 membership for that episteme independently, and assert edition, refinement, supersession, or another continuity relation only when its own predicate obtains. A changed use, identifier, publication form, carrier, provider currentness, or G.11 refresh state does none of those things by itself.
+15. **Changed object.** Changed claim content carried by the ClaimGraph, EntityOfConcern, or effective reference scheme identifies another episteme. Judge A.6.0 membership for that episteme independently, and assert edition, refinement, supersession, or another relation only when its own predicate obtains. A changed use, identifier, publication form, carrier, provider currentness, or G.11 refresh state does none of those things by itself.
 16. **F.19 self-application and reader use.** Apply F.19 by value to every materially changed technical declaration, mantra, checklist instruction, and worked case; revalidate the changed span with its meaning-dependent neighbours. The cold intended reader must be able to recover the same governed object, subject pattern, admissible use, and practical claim or action, including any result that changes that use. Keep ordinary technical wording when it already carries the needed distinctions; unpack terms or add an explanation only when recovery needs it. Use E.10:11 item 16 when the value-substitution question is selected. State a nearby non-use or contrasting case only when F.19:4's full guard test warrants it. A `Plain` label without that reader-visible recovery does not pass.
 17. **Case-level witness.** Each worked case names its EntityOfConcern, the direct pattern that defines or constrains the claim being made, and what the practitioner can now write, decide, or inspect. State the nearest category error it rejects only when F.19:4's full guard test warrants that contrast. A domain label or the presence of several case headings is not evidence of cross-domain fit.
 

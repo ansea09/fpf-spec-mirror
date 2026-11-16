@@ -6,12 +6,12 @@ section_id: "C.35:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.35/C.35__011_rationale.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "C.35 — Assess Generated or Discovered Results for Architecture Use"
   - "C.35:10 — Rationale"
-line_start: 85326
-line_end: 85333
+line_start: 85364
+line_end: 85371
 dependencies:
   - "A.22"
   - "A.6.M"

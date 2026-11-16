@@ -6,12 +6,12 @@ section_id: "A.7.CP:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.CP/A.7.CP__009_conformance-checklist.md"
-commit_sha: "eaef57bb8e4f119376cf48dc8f9b5297beb4559b"
+commit_sha: "e230eef4f6955116bf697ca9ba5e79247af1843e"
 heading_path:
   - "A.7.CP — Constructive-Premise Compact and Reasoning-Basis Use"
   - "A.7.CP:7 — Conformance Checklist"
-line_start: 27349
-line_end: 27361
+line_start: 27348
+line_end: 27360
 dependencies:
   - "A.7"
   - "A.7.1"
