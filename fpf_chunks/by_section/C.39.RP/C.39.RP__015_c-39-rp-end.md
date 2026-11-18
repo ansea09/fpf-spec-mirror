@@ -6,12 +6,12 @@ section_id: "C.39.RP:End"
 section_title: "C.39.RP:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.RP/C.39.RP__015_c-39-rp-end.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.39.RP — Organize a Repertoire for Method Development"
   - "C.39.RP:End — C.39.RP:End"
-line_start: 88800
-line_end: 88801
+line_start: 88867
+line_end: 88868
 dependencies:
   - "A.3.1.DR"
   - "A.3.1.MR"

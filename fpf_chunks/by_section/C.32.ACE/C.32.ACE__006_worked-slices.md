@@ -6,12 +6,12 @@ section_id: "C.32.ACE:5"
 section_title: "Worked slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACE/C.32.ACE__006_worked-slices.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.32.ACE — Architecture Characteristic Eval Programs"
   - "C.32.ACE:5 — Worked slices"
-line_start: 81928
-line_end: 81939
+line_start: 81975
+line_end: 81988
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -51,11 +51,13 @@ keywords:
 
 ### C.32.ACE:5 - Worked slices
 
-**Latency candidate.** A service candidate promises latency under 100 ms and an eval reads 240 ms. If the 100 ms band is a hard constraint, the candidate is inadmissible for this cycle. If the project is exploring a trade-off front, the candidate misses the latency target while supplying useful evidence about resource placement, interface burden, or control separation. Treat it as an error only when the project used that expectation to plan work and unplanned rework follows.
+**Latency candidate.** For a promise that every applicable request finishes in under 100 ms, one verified 240 ms request in the required operating conditions violates the promise. A computed 240 ms case in the design model defeats that model’s guarantee if the case is admitted. A claim about the installation needs grounds connecting the case and the response to that installation. For a requirement that at least 95 percent of this period’s requests finish in under 100 ms, a complete period of 99 requests at 50 ms and one at 240 ms passes. The slow request by itself leaves the share open. Keep the operating requirement when exploring alternatives. A candidate that fails it can still help explain the resource or interface trade-off. A different requirement needs a decision by whoever can change the commitment.
 
 **BIM digital twin.** A built-asset team compares architecture candidates that combine placement, schedule, use-phase, maintenance, and cost structures. ACE does not treat the number of dimensions as the evaluation. The practitioner defines a parity frame and evals the ACS rows declared for the project, such as access, source-return cost, observability, and maintenance reach, then records results with the parity-frame and result-form fields needed by `A.19.CPM`.
 
 **Method-family architecture.** A review-Method family has ACS rows for evidence reuse and change reach. If source wording also says “role substitutability,” use `E.10.ROLE` and `C.32.ACS` to bind the exact recovered subject and predicate—such as substitutability among local system-role kinds under A.2.7, not among holders or assignments—before ACE evaluates it. A separate C.25 bundle covers teachability. ACE defines a batch evaluation over three Method variants. One variant loses on teachability but reveals a reusable evidence relation; C.32 may use it as a stepping stone.
+
+If the comparison asks whether a learner can design a review, determine which criteria, alternatives and checks the teaching material already supplied. A correct choice among those alternatives can demonstrate their use. A design the learner developed and justified, with its available help recorded, provides evidence for that part of the design claim. The three Method variants in the evaluation alone establish no learning effect.
 
 **AI-agent workflow.** A model-supported workflow has candidates with different function graphs and tool boundaries. ACE evaluates latency, evidence refresh, policy controllability, and rollback under the same task set and evidence window. A benchmark score is not the architecture decision; it supplies one eval reading inside the parity frame.
 

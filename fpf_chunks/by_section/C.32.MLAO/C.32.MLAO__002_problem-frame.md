@@ -6,12 +6,12 @@ section_id: "C.32.MLAO:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MLAO/C.32.MLAO__002_problem-frame.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.32.MLAO — Architecture Candidates to Reduce Cross-Scope Residuals"
   - "C.32.MLAO:1 — Problem frame"
-line_start: 82457
-line_end: 82547
+line_start: 82506
+line_end: 82596
 dependencies:
   - "A.10"
   - "A.19.CPM"
@@ -67,7 +67,7 @@ Typical entry phrases:
 "The graph looks better, but which architecture change reduced the residual?"
 ```
 
-**First-minute use slice.** A regulated product-family team has used `C.30.ILC` to name a residual: local product variants are quicker to ship, but certification evidence grows at the family scope. Using C.32.MLAO, the practitioner frames three residual-reducing candidate changes: add evidence scope, narrow interface grammar, or accept a bounded exception with a reopen trigger. Each candidate states the residual it reduces and the new burden it creates. The team now has inputs for `A.19.CPM`, `C.11`, `A.19.SelectorMechanism`, or `G.5` when comparison, local choice, selection, or selected-set result declaration is current.
+**First-minute use slice.** A product-family team finds that local variants ship earlier while the family spends more time on certification exceptions. A narrower interface might eliminate a class of exceptions. Qualifying the common evidence once might remove repeated checks while retaining the local checks that depend on installation. Keeping an uncommon variant can also be adequate. For each candidate, follow one affected delivery through certification and identify the change that would remove a check or add work. Each trace can establish where work is removed, added or transferred in that delivery. To compare the family, identify the affected variants and how often the changed checks arise. Use applicable rules, bounds or records of the mix to determine whether the choice holds across the deliveries in question. The team can make this comparison before installing either design.
 
 The primary `EntityOfConcern` is a residual-reducing candidate frame for one grounded architecture question. The frame asks where a local architecture improvement moved the cost and which candidate can reduce that moved cost without hiding its new burden. The described holon can be a system, organization-as-system, discipline, AI-agent setup, built asset, episteme, work occurrence, or an instance of another admitted holon kind. Recover source labels such as practice, culture, tradition, style, or method before architecture use. Use `E.10.ROLE` for unresolved `role` wording: it may resolve to a local system-role kind, an assignment occurrence, a participant position in a direct relation, a function claim, an organization or representation position, or ordinary wording. Carry only the recovered object or relation, never a generic role-side structure. Candidate Systems, assignments, Methods, plans, and structures remain modal content until their own facts obtain; a publication family appears only under its applicable pattern. Use `E.24.PUB` for a publication occurrence and audience availability; add `E.17` when a source-backed face and source return are needed. C.32.MLAO is not a universal optimizer, adequacy claim, selector, decision, assurance argument, publication pattern, or software-system-only pattern.
 
@@ -75,7 +75,7 @@ What goes wrong if C.32.MLAO is missed: local success is called whole-holon arch
 
 What C.32.MLAO buys in practice: the practitioner can prepare residual-reducing architecture candidates for later comparison by explaining expected residual reduction, possible new burden, affected scopes and relevant preservation or loss. Include source-return conditions when later use needs omitted distinctions.
 
-Ordinary working move: name where the local improvement moved the cost, name the selected structure and scope that now carry the residual, then prepare candidate changes that reduce that residual while making the new burden explicit.
+Ordinary working move: identify who now bears the work or loss and which connection puts it there. Change that connection in a candidate and follow the change to the result its recipient needs. State any additional burden that follows and the conditions that remain open.
 
 Adoption test: after using C.32.MLAO, a reader can see the expected residual reduction, possible new burden, affected scopes, relevant preservation or loss, and evolution-window stop condition for each candidate, including what remains unresolved.
 

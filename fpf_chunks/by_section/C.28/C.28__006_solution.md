@@ -6,12 +6,12 @@ section_id: "C.28:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__006_solution.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.28 — CausalUse-CAL: Causal-Use Questions, Identification, and Realizability"
   - "C.28:4 — Solution"
-line_start: 71082
-line_end: 71621
+line_start: 71100
+line_end: 71643
 dependencies:
   - "A.10"
   - "A.15"
@@ -128,6 +128,8 @@ CausalityLadderRung =
 Potential-outcome notation alone does not select the third rung. The population average effect `E[Y(1)] - E[Y(0)]` uses two interventional marginals and can be a second-rung question. A joint claim such as `P(Y(1) > Y(0))`, or what would have happened to this case given its observed history, needs the corresponding third-rung information. See [Yang and Bareinboim, §2](https://causalai.net/r130.pdf) for the hierarchy's distinction among those distributions.
 
 Lower-rung data may contribute to a higher-rung result only through a replayable identification, bound, or other specialist result. The rung label itself supplies no support.
+
+The rung names the *question* put to a causal model. The levels in `B.5.MR:4.3` name what a model specifies as it is abstracted or refined. A discipline can model a process and ask what was observed, what a specified intervention would produce, or what would have happened in a particular episode. Naming an intervention in a question does not establish that it was performed or reveal its effect. Even a documented action establishes an observed outcome only when the outcome itself is available.
 
 #### C.28:4.1a - Causal-Use Claim Kind
 
@@ -257,7 +259,9 @@ An `identified` label without an identifying expression or derivation is incompl
 - Model M0 has an unobserved fair binary input U, `X=U` and `Y=U`. Replacing X by either constant leaves `P(Y=1)=0.5`, so the average intervention contrast is 0.
 - Model M1 has the same U and `X=U`, but `Y=X`. Replacing X by 1 gives Y=1; replacing X by 0 gives Y=0, so that contrast is 1.
 
-Thus the observed law does not identify `E[Y|do(X=1)]-E[Y|do(X=0)]` in a model class admitting both accounts. These two models and their differing answers supply `unmeasured_severity_obstruction_3`; the name alone would not be a witness. More observations of the same joint law cannot distinguish them. Additional assumptions or intervention evidence may exclude one account; a bound, if established for the admitted model class, supports its own bounded claim. Reporting an adjusted number alone does not change the nonidentification result.
+The two compatible models give different values of `E[Y|do(X=1)]-E[Y|do(X=0)]`. An exact value therefore cannot be identified in a class admitting both. More observations of that same joint law cannot settle which effect is correct.
+
+The same information does settle a weaker decision. Assume binary outcomes for the same target population under two well-defined assignments, with consistency: the outcome under the assignment actually received equals the observed outcome. In this *stipulated population law*, everyone receiving 0 had outcome 0, so switching such a person to 1 could leave the outcome unchanged or raise it to 1. Everyone receiving 1 had outcome 1, so switching such a person to 0 could leave the outcome unchanged or lower it. In both groups the contrast “outcome under 1 minus outcome under 0” lies between 0 and 1. The population mean contrast has those same bounds. M0 attains 0 and M1 attains 1. These premises rule out a negative mean effect. They leave open whether the mean improves by at least 0.25. For an empirical sample, establish what its distribution supports about the target population before using this bound there. This calculation uses the bounded outcomes for each assignment to put limits on the unobserved contrast. [Manski, 1990, pp. 319–321](https://ipcid.org/evaluation/outros_temas/Manski%20-%20Nonparametric%20Bounds.pdf).
 
 For a supplied causal model, C.28.MR derives the consequence by replacing the selected mechanism, retaining the other mechanisms and input law, and solving the relations needed by the query. The following case illustrates that operation and its difference from observation.
 
@@ -580,8 +584,8 @@ When only wording inside one publication unit is unclear, use the publication an
 
 | Case | Result |
 | --- | --- |
-| “Users who received X improved, so X works.” | Observational rung; association supported; intervention effect unsupported unless identification/design results close the gap. |
-| “We changed X once, so the policy works everywhere.” | Interventional result limited to its population/environment/window; transport requires exact endpoints and assumptions. |
+| “Users who received X improved, so X works.” | If comparable observations before and after show improvement among recipients, report that within-group change. A comparison by receipt of X requires a contrast in receipt. Attributing the improvement to X also requires grounds for the outcome under the relevant alternative. |
+| “We changed X once, so the policy works everywhere.” | A record of the change can establish its occurrence. An outcome record can establish what followed in that case. To credit the change, establish a warranted comparison with the alternative. To use an established effect elsewhere, identify the target conditions and what supports transfer. |
 | “The simulator shows what would have happened.” | With no causal reliance, exit to model reporting. With causal reliance, cite the simulation result, assumptions, validation, supported model use, and unsupported realized/interventional use. |
 | “The trial was randomized, therefore the estimate is valid.” | Run the common threats: interference, attrition, measurement, adherence, and analysis can still lower the result. |
 | “The observational estimand is identified.” | Cite the identifying expression/derivation for `identified`; a bound supports `bounded` wording, and a nonidentification witness supports `nonidentified` wording. The label alone is incomplete. |

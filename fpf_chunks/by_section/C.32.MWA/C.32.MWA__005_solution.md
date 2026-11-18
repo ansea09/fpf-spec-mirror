@@ -6,12 +6,12 @@ section_id: "C.32.MWA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA/C.32.MWA__005_solution.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.32.MWA — Synthesize an Architecture Account of Methods and Their Use"
   - "C.32.MWA:4 — Solution"
-line_start: 82768
-line_end: 82826
+line_start: 82819
+line_end: 82877
 dependencies:
   - "A.13"
   - "A.15.1"
@@ -47,13 +47,13 @@ A discipline can describe one reusable method. If the decision calls for compari
 
 #### C.32.MWA:4.1 - Eight actions
 
-1. **Choose an entry.** For an obtaining organization of Method use, anchor one independently admitted representative performed Work occurrence and the useful result at stake, with A.13 bases before A.15.1 admission; establish the other relied-on relations separately. For a possible-future organization, anchor an intended-use case, `WorkPlan`, or another correctly typed prospective account; state what would put that proposal into use and how later representative Work would test it. Keep actual development or support Work separate from the proposed use. Actual and prospective claims can coexist in the same account.
+1. **Choose an entry.** For a claim about performed Work, start with an identified occurrence and recover its A.13 and A.15.1 grounds. For a claim about what can already be obtained, check the applicable agreement, qualification, access and availability. For a proposed organization of Method use, start with the intended use or WorkPlan and identify what must become effective. An approval can settle a design obligation before the first use. To establish performance or its effect, recover evidence for that claim.
 2. **Name the subject and participants.** State the subject under discussion (`EntityOfConcern`) and the kinds of the participants before classifying rows or positions. A source word such as *practice*, *layer*, *role*, *model*, or *provider* does not settle those kinds.
 3. **Build alternatives for the question.** State whether the alternatives are competing architecture accounts of the same arrangement, proposed changes to that arrangement, or both. Competing accounts can reveal a relation that a sequence-only description misses; proposed changes alter how the Methods would be used or supported. Keep those comparisons distinct. Develop or reuse alternatives that can change the decision or fail on different cases. When NQD is the current generation test, retain NQD-distinct candidates: their novelty is not a relabeling, their use-value preserves the declared constraints, and their diversity exposes different failure modes. A first layout needs examination against the question; retain it when it supplies an adequate answer. Do not turn NQD into one scalar score.
 4. **Recover each relation used.** In ordinary words first, state whether the source claim concerns Method composition or order, Work parthood or overlap, a subject relation, description or model use, a capability or provider dependency, cultural dynamics, or another admitted relation. Use the pattern that defines or constrains that relation when the claim matters to the answer. For structures of a Method and its uses, C.30.ASV:4.5a helps select the question before drawing its representation.
 5. **Separate the described objects from their descriptions.** Keep identified Methods, Work, Systems and their relations distinct from the descriptions, models, views and coarse-grained accounts about them. A description can itself be used in Work; name that use separately from what it describes. State the correspondence and the distinctions each description preserves or loses.
 6. **Resolve a whole-identity question when needed.** Use `B.2` when the current claim raises a consequential question about retaining the identified Method, Work, System or Discipline whole or identifying a new one. Keep the existing whole when a supported explanation is sufficient, and retain uncertainty when the needed basis is missing. Reidentify a selected structure under `A.22`'s four identity discriminators when the claim requires a different selected structure.
-7. **Compare conflict and moved burden.** Expose conflicts between candidate structures. For every apparent local repair, ask what residual, constraint, cost, evidence burden, delay, or loss moved to another structure or scope. Compare the alternatives against the named architecture question, not against visual tidiness.
+7. **Compare conflict and moved burden.** Follow the change to the people, agents or equipment that receive the work. Establish what their extra effort or waiting changes for the required result. A shorter drafting step can yield a later accepted release when the reviewer becomes available late (C.32:5.1). Attribute the elapsed time of a completed release from its actual start and acceptance. If the claim concerns who designed the change, recover the choices already supplied and the ones that the performer made.
 8. **Keep deliberate and distributed change distinct.** Separate a project's architecture choice or intervention from cultural generation, transmission, recognition, selection, rejection, retention, and loss. A project can influence those processes without controlling or proving them.
 
 #### C.32.MWA:4.2 - Short working result
@@ -63,7 +63,7 @@ Write the first result as a short account that another practitioner can use with
 ```text
 Current architecture question:
 Entry: obtaining / possible-future organization of Method use; status of each relied-on claim
-Representative occurrence or prospective anchor:
+Grounds for actual performance, effective provision or proposed use:
 Useful result at stake:
 Selected structures and the relations used:
 Correspondences between described objects and descriptions, with losses:
@@ -77,20 +77,20 @@ A compact table can support this account. Symbolic predicates are optional assur
 
 #### C.32.MWA:4.3 - Conditional product-boundary comparison
 
-Only when product identity is the current architecture question, compare these four different arrangements:
+When deciding where practitioners should find and maintain domain guidance, compare the arrangements that could actually meet their need. Four possibilities have arisen in the FPF ecosystem:
 
 1. one domain DPF;
 2. independently maintained sibling DPFs;
 3. direct use of FPF plus exact domain sources; and
 4. a proposed common applied DPF.
 
-For each arrangement, state the recurring practitioner problem, first useful result, independently useful boundary, sources and maintenance burden, and what another arrangement would leave hidden or duplicate. These four are comparison forms, not a selected product roster. When product identity is not the question, do not force this comparison into the Method.
+For each serious possibility, state the recurring problem, the first useful result, who could maintain it, and what would be hidden or duplicated. A binding access condition can rule out an arrangement before it is developed further. Other products can have different useful boundaries. Identify alternatives from the uses and maintenance work of those products.
 
 #### C.32.MWA:4.4 - Stop, lower, and reopen
 
 Stop when the short synthesis identifies the entry, selected structures and relations, consequential correspondences and losses, any conflict or moved burden, and the next useful action. Include different alternatives when the receiving question needs a comparison; an adequate account or retained arrangement can finish without inventing another option. Add a view only when it can change the answer.
 
-Lower only the dependent claim when its subject, representative occurrence or prospective anchor, relation, evidence boundary, or required alternative is not recoverable. Preserve independently useful content and obtain the named missing basis from its direct source or pattern.
+Limit the conclusion that lacks its grounds. For performed work, identify the occurrence. For a right, booking or other effective provision, check its terms and availability. For a proposed arrangement, recover the intended use and what is still needed for it to work. Keep the other supported conclusions and obtain the particular missing source when the decision depends on it.
 
 Reopen when representative Work contradicts the synthesis, a proposed organization of Method use is put into practice, a new structure changes the decision, a moved burden becomes material, a direct source changes a relied-on premise, or the product-boundary question enters or leaves scope.
 

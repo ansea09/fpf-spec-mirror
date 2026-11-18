@@ -6,12 +6,12 @@ section_id: "C.26.2:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.2/C.26.2__008_conformance-checklist.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.26.2 — Enacted Distributed State Evidence"
   - "C.26.2:7 — Conformance Checklist"
-line_start: 69734
-line_end: 69752
+line_start: 69752
+line_end: 69770
 dependencies:
   - "A.10"
   - "A.15"
@@ -39,8 +39,8 @@ keywords:
 
 | ID | Check |
 | --- | --- |
-| CC-C26.2.1 | The collective bearer is a declared `U.System` or collective system, not a bare group label. |
-| CC-C26.2.2 | Observed coordinated work, behavior, and trace pattern is named. |
+| CC-C26.2.1 | A collective-state claim identifies its `U.System` bearer. If only a population of records can be identified, report what those records establish about that population. |
+| CC-C26.2.2 | For a claim of coordination, identify the actions or traces and the relation that connects them. If the evidence leaves that relation open or rules it out, state that result and retain the supported local observations. |
 | CC-C26.2.3 | Evidence carriers and time window are named. |
 | CC-C26.2.4 | The QL cue / formal cue is named if QL wording is retained. |
 | CC-C26.2.5 | Persistence, decay/refresh conditions and reprobe cost are retained when the claim or receiving action depends on them. |

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/G.12.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "G.12 — DHC Dashboards (Discipline-Health Time Series and Views)"
-line_start: 141210
-line_end: 141482
+line_start: 141279
+line_end: 141551
 dependencies:
   - "A.19"
   - "A.2.6"
@@ -174,7 +174,7 @@ DashboardSlice := <
 1. When new coordinates are required, obtain their C.16 measurement results and coordinate-result epistemes with the active C.21 replay basis. Identify the Method used and the dated measurement Work, and the MethodDescription, model, and calibration basis required for that measurement use. Keep these objects separate. G.12 creates none of them from a dashboard row.
 2. When the receiving use needs one series episteme, assemble or revise the `DHCSeries` ClaimGraph from exact coordinate-result refs and windows. If a series episteme is unnecessary, construct the local view over the result refs. Series assembly may be dated Work; its resulting episteme remains separate from the Work or work record.
 3. Apply A.18 and the A.19/G.0 rules used for comparison, normalization, distance or aggregation. Nominal and ordinal values remain non-arithmetic unless an explicit lawful transformation creates another Scale.
-4. Construct `DHCRow` and `DashboardSlice` representations. They may omit fields for readability only when every displayed claim still resolves its exact result and replay basis.
+4. Construct the `DHCRow` and `DashboardSlice` representations. Keep each displayed claim linked to its result and replay basis. Label a reported rate with the population it actually describes. If the user needs a decision about a wider population, show the range or estimate supported for that population and whether it settles the decision. A filter that selects fewer rows can change the question a panel answers.
 
 **Stage C — Publish or refresh only when required**
 
@@ -315,7 +315,7 @@ G.12 counters screen-first, “latest”-by-default, scalar-winner, and publicat
 
 ### G.12:11 — Worked Micro-examples
 
-**Decision-making dashboard.** A local view shows exact `ReproducibilityRate`, `FormalRecognitionStatus`, `PracticeAdoptionRate`, `AlignmentDensity`, `TraditionShareEntropy`, and `TraditionShareConcentration` result refs. Entropy and HHI occupy separate rows with their directions visible. A portfolio panel preserves the G.5 selected set. No audience publication is claimed.
+**Decision-making dashboard.** A local view shows exact `ReproducibilityRate`, `FormalRecognitionStatus`, `PracticeAdoptionRate`, `AlignmentDensity`, `TraditionShareEntropy`, and `TraditionShareConcentration` result refs. A row showing 60% adoption among respondents gives the number who replied, the number eligible and the period. The portfolio owner asks whether at least half of all eligible units adopted the practice. Show the C.21 result for that population. If every admissible count reaches the threshold, it is met. If every count falls short, it is missed. Two admissible counts on opposite sides leave the answer open. If only an outer bound crosses the threshold, report the limit of that calculation. A tighter calculation with the existing observations may settle the question. The owner decides what to do. Entropy and HHI occupy separate rows with their directions visible. A portfolio panel preserves the G.5 selected set. No audience publication is claimed.
 
 **Evolutionary architecture dashboard.** A `DHCSeries` episteme orders exact reproducibility and DisruptionBalance results over declared windows. An optional open-ended panel shows transfer events as telemetry. A later E.24.PUB occurrence makes the selected series edition available to a named audience in dashboard form; that occurrence neither changes the series content nor turns the rendering Work into the health result.
 

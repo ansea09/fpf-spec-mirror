@@ -6,12 +6,12 @@ section_id: "C.30.ILC:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ILC/C.30.ILC__002_problem-frame.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.30.ILC — Cross-Scope Architecture Residual Triage"
   - "C.30.ILC:1 — Problem frame"
-line_start: 77881
-line_end: 77939
+line_start: 77906
+line_end: 77960
 dependencies:
   - "A.10"
   - "A.22"
@@ -54,16 +54,12 @@ Use this pattern when a project situation contains a cross-scope architecture re
 "We may need to add, split, or mediate a declared holon level, declared scope, control layer, interface grammar, work scope, or evidence scope, but it is not clear which architecture move is admissible."
 ```
 
-**First-minute use slice.** A robotics team says a local controller upgrade made each arm faster, but cell-level stoppages and audit exceptions grew. Before drawing another architecture view, the team identifies:
+**First-minute use slice.** After an assembly team retunes its arm controllers, individual arms finish faster. The team also reports more cell stoppages and more audit exceptions. The engineer takes the assembly cell as the holon of interest and separates the two decisions.
 
-- described holon = assembly cell;
-- declared levels and scopes = arm controller, cell control, evidence scope;
-- level-bearing selected structure = control and evidence-reuse structure;
-- residual-bearing locus = control-rate conflict plus evidence-reuse failure;
-- local repair already attempted = retuned each arm controller;
-- first architecture move = expose the coupling and evidence-use conditions that the retuning left unresolved.
+- For the stoppages, compare the time required for an arm to acknowledge a request with the interval the cell controller allows. Use the active configuration and the recorded reason for a stop to distinguish a timeout from a shortage of material. To explain an increase across jobs, also check which jobs and operating conditions were compared.
+- For the audit exceptions, compare the records the retuned controllers supply with the information the audit now requires. Changed audit criteria can produce more exceptions even if the controllers supply the same records.
 
-A mediator or control-layer change is a candidate response if that diagnosis supports it; use `C.30.ASV` when its structural view is needed.
+A documented timing incompatibility rules out timely acknowledgement through that interface. If timely acknowledgement is required, revise the design. If timeout with a fallback is permitted, check whether that alternative meets the cell’s need. Evidence that the interface caused a particular stop warrants addressing that occurrence. The aggregate counts alone leave both diagnoses open. A mediator or changed control layer becomes a candidate when the diagnosed coupling calls for it. Use C.30.ASV when its structural view is needed.
 
 The first result names the affected holon levels or scopes, the structure that carries them, the residual-bearing locus, any attempted local repair or reason for its insufficiency, and the first warranted architecture move. An adequate ordinary explanation can finish the question. `CrossScopeArchitectureResidualTriageRecord@Context` can organize the result when its fields help the receiving use.
 

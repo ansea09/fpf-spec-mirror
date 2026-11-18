@@ -6,12 +6,12 @@ section_id: "C.32.PAD:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.PAD/C.32.PAD__002_problem-frame.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.32.PAD — Project Architecture Decision After Candidate Synthesis"
   - "C.32.PAD:1 — Problem frame"
-line_start: 83812
-line_end: 83931
+line_start: 83865
+line_end: 83987
 dependencies:
   - "A.1.STM"
   - "A.10"
@@ -64,9 +64,9 @@ keywords:
 
 ### C.32.PAD:1 - Problem frame
 
-Use this pattern when a project has synthesized candidate architecture configurations and must make the project architecture decision that will guide later design, implementation, construction, operation, governance, or change work.
+Use this pattern when a project must commit to an architecture that will guide design, construction, operation or change. A commission to choose any conforming design can be satisfied with one qualified option. Choosing the best of several designs calls for a comparison. An agreement may already fix a design, leaving the project to establish feasibility and decide how to put the commitment into effect.
 
-Primary working reader: an architect or architecture-responsible practitioner who has enough candidate synthesis, comparison input, and architecture-characteristic pressure to decide what architecture will be pursued now.
+An architect or another practitioner responsible for the decision uses the pattern to settle what the project will pursue, which conditions bind it and what can be decided during implementation.
 
 Typical entry phrases:
 
@@ -80,7 +80,7 @@ Typical entry phrases:
 
 **First-minute use slice.** A product-family architect has a C.32 candidate palette with three module, placement, and evidence-structure variants. C.32.ACS names maintainability, substitutability, and evidence reuse as optimization indicators, and C.32.ACE has evaluated the candidates under one parity frame. Using C.32.PAD, the architect records the exact composite project work, selected configuration, affected selected structures, accepted loss in evidence reuse, method-use instruction for product teams, structures fixed by the decision, refinement left open, source-return condition, and reopen trigger. The result is not an ADR file yet; it is the architecture decision relation concerning that project work which an ADR or another publication form can describe.
 
-The primary `EntityOfConcern` is `ArchitectureDecisionRelation@Project`: an architecture decision relation over one bounded architecture question with one exact composite project `U.Work` as a participant. It links that work, the decision subject, candidate basis, selected architecture option, affected structures, architecture characteristics, rationale, accepted losses, consequences, method and work expectations, publication projection, evidence or eval exits, and reopen conditions.
+The primary `EntityOfConcern` is `ArchitectureDecisionRelation@Project`: an architecture decision relation over one bounded architecture question with one exact composite project `U.Work` as a participant. It links that work, the decision subject, candidate basis or binding condition, selected architecture option, affected structures, architecture characteristics, rationale, accepted losses, consequences, method and work expectations, publication projection, evidence or eval exits, and reopen conditions.
 
 `ArchitectureDecisionRelation@Project` is not a new `U.*` kind. `@Project` is a compatibility and retrieval cue, not the source of project identity or scope. The relation is project-local only when `projectWorkOccurrenceRef` identifies the exact composite `U.Work` that participates in it. When another slot becomes load-bearing as an FPF object, recover the subject pattern for that object.
 
@@ -94,9 +94,9 @@ A team writes an architecture record, diagram, shortlist, ranking, or local choi
 
 Practitioners performing the project work can turn a candidate palette into one governed decision relation that can guide work, be described in an ADR-like record, support review, and be reconsidered as the architecture evolves.
 
-Ordinary working move: recover the live decision question, cite the candidate basis, select the architecture option or bounded exception, record the trade-off over declared architecture characteristics, then bind the decision to method-use expectations, work split, source-return, and reopen conditions.
+Recover the decision to be made. Compare the feasible options if their differences affect the choice. If a binding condition fixes the design, identify it and check whether the project can fulfill it. State what the project commits to, how that affects subsequent work and what could reopen the decision.
 
-Adoption test: after using C.32.PAD, another practitioner can answer: what architecture option was selected, from which candidate basis, for which affected structures, under which architecture-characteristic trade-off, with which method and work consequences, and under which reopen condition.
+Another practitioner can recover why the project will pursue this design, the structures and commitments affected, any alternatives and losses considered, the consequences for methods and work, and the conditions for reopening it.
 
 Not this pattern when the current work is candidate synthesis, architecture-description adequacy, ADR publication projection, adequacy evaluation, evidence, assurance, gate passage, local choice, or performed work. Use the pattern for the next question named in `Relations` for those claims.
 
@@ -118,7 +118,8 @@ ArchitectureDecisionRelation@Project:
   intendedDecisionUse:
   claimScopeRef: U.ClaimScope
   decisionWindowRef:
-  candidateBasisRefs:
+  candidateBasisRefs?: qualification of a sufficient option or the basis for comparing alternatives
+  bindingConditionRefs?: when an agreement or other binding condition settles the design
   comparisonOrSelectionRefs?
   structuralInformationLensUseRefs?
   holonTransitionOrBOSCTriggerRefs?
@@ -132,15 +133,17 @@ ArchitectureDecisionRelation@Project:
       selectedStructureRef:
       decisionEffect:
       relationFunctionClaimRef:
-  architectureCharacteristicTradeoffs:
+  bindingConstraintRefs?: conditions that remain in force for the selected design
+  noLiveTradeoffReason?: when the decision involves no trade-off
+  architectureCharacteristicTradeoffs?:
     - architectureCharacteristicRef:
       criteriaRowRef?
       expectedGain:
-      acceptedLoss:
+      acceptedLoss?: when the choice entails this loss
       evalResultRef?
       guardrailRef?
   rationaleRefs:
-  rejectedOptionRefs:
+  rejectedOptionRefs?: when an option was considered and rejected
   consequenceRows:
   architectureDescriptionRefs:
   methodUseInstructions:

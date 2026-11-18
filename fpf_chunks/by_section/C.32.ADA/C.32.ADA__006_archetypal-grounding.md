@@ -6,12 +6,12 @@ section_id: "C.32.ADA:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ADA/C.32.ADA__006_archetypal-grounding.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.32.ADA — Architecture Decision Adequacy Scales"
   - "C.32.ADA:5 — Archetypal Grounding"
-line_start: 84603
-line_end: 84612
+line_start: 84663
+line_end: 84672
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -56,9 +56,9 @@ keywords:
 
 ### C.32.ADA:5 - Archetypal Grounding
 
-**Developer-work readiness.** A service architecture decision has strong candidate traceability and trade-off rationale, but the ADR only says "teams should use events". ADA gives `MethodAndWorkDockingAdequacy = 2 partiallyExpressedForDeclaredUse` because the acting Systems, MethodDescription, expected structure effect, and readiness condition are not recoverable from the instruction. In this case the ADR also requires implementation to be attributed to an exact assignment, so the absent assignment species/current-occurrence refs and F.6 relation are additional attribution defects. A Work-only instruction need not contain those attribution refs, but needs the obtaining A.13 assignment basis. Any responsibility claim must cite its direct domain predicate or missing governor.
+**Developer-work readiness.** A service decision explains the candidate and trade-off, but the instruction “teams should use events” leaves the event boundary, Method, required capabilities and start conditions open. Its `MethodAndWorkDockingAdequacy` for the intended implementers is `2 partiallyExpressedForDeclaredUse`. The decision can prescribe how a future shift should implement a change before its members are assigned. For an instruction to start now, establish who can and may perform it. If the report goes on to claim actual Work or its performance under a particular assignment, establish those occurrences under A.13/A.15.1 and F.6 as applicable. Any claim of responsibility has its own domain predicate.
 
-**ADR-publication readiness.** A manufacturing architecture decision is clear, but the trade-study memo omits status and supersession. ADA gives `PublicationProjectionAdequacy = 2 partiallyExpressedForDeclaredUse` and `EvolutionAndReopenConditionAdequacy = 3 sufficientlyExpressedForDeclaredUse`. The repair states the missing record-status and supersession assertions using C.32.ADR.
+**ADR-publication readiness.** The manufacturing trade-study memo omits status and supersession, so its readers cannot establish which instruction is in force from this copy. For that use the projection merits `2 partiallyExpressedForDeclaredUse`. Open the decision or another authoritative record if the task also asks how adequately the underlying decision sets out its reopen conditions. A complete decision with an incomplete memo and a decision that itself lacks those conditions require different repairs. Until the relevant decision content is available, leave its coordinate unresolved. When it is available, assess that content and repair the memo through C.32.ADR.
 
 **Architecture review.** A method-family architecture decision has candidate options and Method instructions, but no declared architecture characteristics. ADA gives `ArchitectureCharacteristicTradeoffAdequacy = 0 absent`. The repair states the missing characteristic assertions using C.32.ACS and C.25 before review can judge the decision.
 

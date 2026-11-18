@@ -6,12 +6,12 @@ section_id: "C.32.HCS:5"
 section_title: "Worked slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.HCS/C.32.HCS__006_worked-slices.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.32.HCS — Architecture-Bearing Family Characteristic Starter Packs"
   - "C.32.HCS:5 — Worked slices"
-line_start: 81438
-line_end: 81449
+line_start: 81481
+line_end: 81494
 dependencies:
   - "A.19"
   - "C.11"
@@ -43,6 +43,8 @@ keywords:
 **Method and Work.** A reusable review Method connects source recovery, comparison, judgement and correction. Evidence reuse and change reach are plausible starter heads because changing how a dependent claim is found can alter both missed defects and repeated reading. A completed review has a separate Work question: were the required comparisons performed, and what delay or rework occurred? Improving the next Method version cannot retroactively change that Work. If the issue is reviewer staffing, select the performing organization and its contributions instead. Local system-role-kind substitution uses A.2.7; assignment continuity and Work coverage retain their own bearers.
 
 **Same bearer, different domain.** An instructional Method also has parts, order and feedback, but its receiving result concerns what a learner can do under specified support. Removing corrective feedback may simplify the description while weakening the Method. Carry the learner result and help conditions into ACS; do not reuse software throughput or readability as if either measured learning. Teachability is composite and uses C.25.
+
+For example, a correct architecture diagram may reproduce the solution included in an exercise. To assess the learner’s design work, recover the decisions the task left open, the help available, what the learner actually designed and the grounds they supplied. A learner who set and justified a timeout can receive credit for that choice. Credit for the complete design also requires the structural decisions the assignment placed with its designer. Earlier project work can already provide that evidence. If the purpose is to apply an approved design, supplying it is appropriate.
 
 **AI-agent workflow.** A retrieval-action setup starts from evidence refresh, policy controllability, latency, observability, and rollback. Benchmark performance stays a benchmark signal or comparison input until an architecture bearer and scale row are named.
 

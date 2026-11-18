@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.30.STRAT.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.30.STRAT — Clarify Stratification and Architecture Source Labels"
-line_start: 76295
-line_end: 76564
+line_start: 76320
+line_end: 76589
 dependencies:
   - "A.10"
   - "A.15"
@@ -153,7 +153,7 @@ The note is neither the selected structure nor the relation, claim, publication,
 
 | Recovered meaning | Common source labels | What must become clear | Pattern to use |
 | --- | --- | --- | --- |
-| Control structure | `layer`, `level`, `tier`, sometimes `gate` | The obtaining control relation, what its participants do, any rate band or locality boundary, and a B.2.5 supervisor-subholon relation only when it obtains. | `C.30.LCA`; use B.2.5, dynamics, temporal, evidence, assurance, or gate patterns only for their separate claims. |
+| Control structure | `layer`, `level`, `tier`, sometimes `gate` | Which relation the design specifies or which control relation actually obtained, what the participants do, and the relevant rates or locality. A claim of supervisor-subholon feedback needs its B.2.5 basis. | `C.30.LCA` for the control account. Use B.2.5, dynamics, temporal, evidence, assurance or gate patterns for those further claims. |
 | Selected structure or structural view | `layer`, `level`, `stack`, `block`, `view` | The selected, hidden, lost, or preserved structure; view selection; correspondence; source return; an `ArchitectureClaim` when claim content is needed; and a separate `ArchitectureRelation` only when that relation obtains. | `A.22`, `C.30`, `C.30.ASV`, or the applicable C.30 subpattern. |
 | Module, interface, or substitution | `block`, `cache`, `router`, `expert`, sometimes `layer` or `stack` | Module boundary, interface specification, substitutability relation, variation point, conformance relation, or reliance boundary. | `A.6.M`; stop using C.30.STRAT once that relation is clear. |
 | Function or transformation flow | `block`, `expert`, `cache`, `router`, `gate`, sometimes `layer` | Transformation or effect, path selection, graph node, path or crossing, architecture-to-flow relation, or E.18 flow valuation. | `A.6.F`, `E.18`, or `C.30.TFS-REL`. |
@@ -164,7 +164,7 @@ The note is neither the selected structure nor the relation, claim, publication,
 | Evidence, assurance, gate, work, decision, or causal use | `gate`, `proof`, `safety`, `decision`, `work`, `effect`, or any label used as authority | Evidence path, assurance argument, constraint-validity record, gate decision, Work occurrence, decision record, causal-use record, and any limits imposed by the applicable pattern on that claim. | `A.10`, `G.6`, `B.3`, `A.20`, `A.21`, `A.15.1`, `C.11`, `C.28`, or the applicable neighboring pattern. |
 | Ordinary source-label non-use | any source label | No FPF claim remains after the sentence is read in context. | No precision-restoration pattern; keep ordinary wording, quote it, reduce its use, or block reliance. |
 
-**Functional layers and modular levels.** For the distinction used here, functional layers group contributions by what they do; modular levels organize modules through their interface relations. State the organizing relation and any allocation between the two: one functional layer can involve several modules, and one module can realize contributions in several functional layers. This pair does not exhaust qualified uses of “level.” System composition, Method composition, classification, abstraction and time can support different accounts under their own rules. Preserve a source's clearly defined terminology and explain the relation needed by the present use. Use A.6.F for the functional contribution and A.6.M for the module/interface claim; use the relevant subject pattern when another relation is at issue.
+**Functional layers and modular levels.** A functional layer groups functions by what they contribute or are intended to achieve. A module interface states conditions under which another module can use or replace what it supplies. To speak of modular levels, name the order, such as enclosure by a composite module or an acyclic dependency among modules. Two peers may exchange data through a well-defined interface. Their exchange alone supplies no higher or lower module. Dependencies can leave some modules unordered. When a numbered level for each module matters, state how the levels are assigned. A functional layer can span several modules and a module can serve several functions. Use A.6.F for the functional contribution and A.6.M for the module and interface claims.
 
 **When a level claim matters.** When a later decision or design relies on a sentence such as “X is at level L” or “A is above B,” name the subject at stake (the `EntityOfConcern`), what is being ordered, compared, grouped, or mapped, the relation or scale mapping that gives the claim its meaning, when it applies, and whether the sentence asserts, proposes, assumes, or illustrates the claim. Apply the same test when `layer`, `tier`, `band`, `scale`, or `stage` carries the stronger claim.
 
@@ -210,7 +210,7 @@ C.30 placement does not decide the recovered meaning. After recovery, use the ru
 | `The cache proves the architecture scales.` | Recover the cache's subject, the scaling claim and grounds appropriate to that claim. A formal bound may follow by derivation under stated assumptions; empirical performance and named assurance claims need their own grounds. Use only the corresponding domain, measurement, evidence or assurance branch. |
 | `The LCA upper layer guarantees safety.` | First decide whether `layer` names a control relation. If so, C.30.LCA records the relation, participant meanings, rate band, and relevant locality or model-use boundary. Safety, evidence, assurance, dynamics, temporal, and gate claims remain separate. |
 | `The architecture description places service logic in the application layer.` | Recover the description's declared viewpoint or model-kind convention and what `application layer` means there. It may be a useful grouping in the description. State separately any claim that the described system itself has an obtaining layer, dependency, module, control, or flow relation; neither the diagram position nor architecture-description conformance establishes that world-side claim. |
-| `Our operating model has strategic, coordination, and execution levels.` | If these are only headings or work areas, keep them as local labels. Before claiming levels in an organization or practice, say what the three areas are, how they are ordered or mapped, when that ordering applies, and whether it is asserted, proposed, assumed, or illustrated. Slide order, a curriculum, or a first-then flow establishes none of this. |
+| `Our operating model has strategic, coordination, and execution levels.` | To decide who can reassign work, inspect the delegation between the roles. To decide which shifts a dispatch rule permits, compare models of that decision. A disciplinary model may permit either shift while a site's standing instruction permits only the early shift. The latter is a more concrete model for that choice under B.5.MR. Staff at several ranks can use the very same rule. To establish when one order was actually dispatched, inspect the occurrence. If the three terms only name sections of a document, use them as headings. |
 | `This gate selects the winning architecture.` | A neural-network gate or router uses `A.6.F` or E.18; an internal-constraint result uses A.20; a project gate decision uses A.21; a selector-facing set-result declaration uses G.5, while a local choice among already available options uses C.11. The label alone decides none of these. |
 
 #### C.30.STRAT:4.5a - Filled repair note

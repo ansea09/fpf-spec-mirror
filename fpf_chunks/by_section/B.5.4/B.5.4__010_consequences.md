@@ -6,12 +6,12 @@ section_id: "B.5.4:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.4/B.5.4__010_consequences.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "B.5.4 — Recognize a Concept in a Situation"
   - "B.5.4:9 — Consequences"
-line_start: 52741
-line_end: 52746
+line_start: 52743
+line_end: 52748
 dependencies:
   - "A.7.1"
   - "B.5"

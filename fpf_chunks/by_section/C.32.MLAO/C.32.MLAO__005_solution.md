@@ -6,12 +6,12 @@ section_id: "C.32.MLAO:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MLAO/C.32.MLAO__005_solution.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.32.MLAO — Architecture Candidates to Reduce Cross-Scope Residuals"
   - "C.32.MLAO:4 — Solution"
-line_start: 82564
-line_end: 82619
+line_start: 82613
+line_end: 82670
 dependencies:
   - "A.10"
   - "A.19.CPM"
@@ -68,6 +68,8 @@ Work in eight steps:
 
 Before relying on a candidate for residual reduction, answer the working questions: which scope and selected structure change, which architecture characteristic or Q-Bundle slot is at stake, what residual is expected to decrease, what structure is preserved or lost, and what new burden is expected or why none is currently identified. A provisional candidate can retain unanswered questions; it cannot supply the conclusions those answers would support.
 
+For a claim of improvement across scopes, identify what is being compared and for whom. Reviewer effort, author effort and elapsed time to acceptance can give different orderings even for one document. Use the work and availability in each candidate to determine the ordering the recipient needs (C.32:5.1). A count of recent exceptions can locate a burden. To attribute the change to a shared design, compare the admitted mix of products and check which obligations the design actually changes. A new mandatory check on every product can raise the count under either design.
+
 | Candidate change family | Use when | Repair it provides |
 |---|---|---|
 | `splitScope` | One scope carries incompatible tempo, functional demand, constraint, or admissibility condition. | Separates the conflict and names coordination cost. |
@@ -97,7 +99,7 @@ If the current claim is explicit comparison, use `A.19.CPM` with admitted profil
 
 **Ideality and BLP discipline.** TRIZ ideality can suggest residual-reducing candidate changes: remove a support bearer, transfer a useful function onto an existing resource, or generalize a bearer so fewer selected structures carry more useful functions. BLP can prefer a more general scale-amenable bearer only inside its declared scale window and audit boundary. Both lines guide candidate generation. When removing a bearer, inspect transferred functions and possible coupling, evidence, control and source-return burdens; retain the applicable scale boundary and receiving comparison or choice rules.
 
-**Functional-bearer feasibility discipline.** Before a candidate can support a feasibility or residual-reduction claim, name a bearer that could perform the function under the applicable module, placement, resource, control, information and evidence constraints. This is a design-time feasibility claim, not proof that the System, assignment, or Work already exists. An assignment supplies neither capability, functioning, function bearing, nor performance. If feasibility is unknown, investigate the consequential uncertainty. If no feasible bearer can be proposed, add or change a candidate bearer, split the function, change placement, resource access, or control relations, reduce the demand, or mark the candidate unfit for that use. It may remain useful as an exploratory alternative or counterexample. A responsibility claim needs an admitted direct predicate; otherwise record the missing governor.
+**Function-bearing feasibility.** Identify what would perform the required function under the applicable interface, placement, resource, control, information and evidence conditions. A compatible qualified bearer can support a design-time feasibility claim. An assignment alone leaves its capability open. Failure to find a bearer leaves a search question. When a named bearer fails, reject that configuration for the stated use. To rule out the design across all permitted bearers, establish that the constraint excludes them all. A changed bearer, split function or different placement can be a further candidate. A reduction in the required function changes the promise and needs the authority to revise it.
 
 **Architecture-influence and transformed-side discipline.** When a residual is carried by one independently typed architecture-side source constraining architecture content for a changed referent, use `C.32.CONWAY`. For each actual side, keep the exact C.30 described holon, obtaining `ArchitectureRelation`, and selected `U.Structure` together; keep candidate, required, desired, or expected content in an exact C.30 `ArchitectureClaim`. Keep the changed referent and any actual A.3.4 `U.Transformation` separate. Then prepare residual-reducing candidates that change the influence-source side, the transformed side, both sides, or a bounded mismatch as comparison inputs or downstream candidate alternatives. Influence, transformation, flow, Work, and module-interface claims belong to their exact relation pattern, `A.3.4`, `E.18`, `A.15`, or `A.6.M` when current. Use `C.29` when a separate question remains about choosing, transferring, or relying on a mathematical representation of structural similarity.
 

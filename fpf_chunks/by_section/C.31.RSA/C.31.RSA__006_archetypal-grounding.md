@@ -6,12 +6,12 @@ section_id: "C.31.RSA:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.RSA/C.31.RSA__006_archetypal-grounding.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.31.RSA — Reusable Structure Accounting"
   - "C.31.RSA:5 — Archetypal Grounding"
-line_start: 79309
-line_end: 79419
+line_start: 79334
+line_end: 79442
 dependencies:
   - "A.10"
   - "A.19"
@@ -69,7 +69,7 @@ Where the record does not explain a difference, recover that condition from the 
 
 The next account can therefore retain the common test and approval preparation, preserve the contractual witness, and propose an interface or adapter change for the recurring format exception. Replaying that proposed change through input, integration and test shows whether it preserves the required result and whether it merely relocates work.
 
-Evidence validity for a new deployment still depends on that deployment's conditions; a reused procedure or file alone does not settle it. If the existing bounded account answers the receiving question, no refactoring or numeric share is needed.
+For the next delivery, the contract requires an on-site witness. A prior test may cover the unchanged component, while the witness clause still calls for work at this site. If the new adapter changes a signal used in the component test, inspect the qualification boundary. Evidence covering that adapter and signal can be used directly. Otherwise qualify the affected path or choose an already covered configuration. The purchase or acceptance decision can use these findings under its own rule.
 
 `ReusableStructureTriage`:
 
@@ -98,10 +98,8 @@ whereBespokeResidueCurrentlyGrows:
   customer-specific approval work
   integration exceptions outside interface grammar
   local evidence witnesses not covered by reusable package
-residueRefactoredInto:
-  workStructure + evidencePackage + interfaceSpecification
 residueAcceptedAsBoundedException:
-  customer-specific regulatory clause with declared non-admissible reuse
+  on-site witness required by this customer’s contract
 sourceReturnCondition:
   return to deployment evidence and regulatory exception record before assurance or gate use
 relatedClaimPatternsIfClaimed:
@@ -110,26 +108,26 @@ stopCondition:
   report-only accounting; establish comparison, evidence-validity or assurance grounds when that further use is made
 ```
 
-Admissible move: publish the local report-only RSA note and refactor the repeated organization of delivery approval work into reusable work structure and reusable evidence structure. Non-admissible move: claim that the reusable evidence package proves every deployment or that a high reusable share makes the architecture better.
+Publish the account of shared and local work. The interface change is available for design and testing. Once it is implemented, use the affected deliveries to establish where the adapter work now occurs and what its cost is.
 
 #### C.31.RSA:5.2 - Anti-case: high share hides a bad architecture move
 
 Situation:
 
 ```text
-A team reports that 85 percent of its architecture is reusable because most screens use one shared template.
-The template makes many local exceptions necessary for product teams and side-channel integrations.
+A product line released 20 screens. Build records trace 17 to a shared template. Two were built from independent designs without the template and meet the same visual specification. The origin of the last screen is unknown.
+Teams report local work on input and integration exceptions.
 ```
 
-This is not a successful RSA result. The accounting basis counts template instances but hides interface relation cost, lost variation, hidden bespoke work, and evidence decay. The repair is to mark the share as report-only, add the missing bespoke-residue slots, and apply A.6.M, C.31, or a characteristic pattern governing the claim to the interface relation cost before any comparison or decision use.
+For an agreement requiring at least 85 percent of the released screens to use the template, the 17 traced uses suffice. Between 17 and 18 screens used it. An exact percentage, or a decision at a 90 percent threshold, depends on the origin of the remaining screen. Comparing screen appearance could establish conformity with a visual specification. It cannot recover that missing build history.
 
-Lowering replay: the team tries to use the 85 percent share to rank this template architecture above another product-line variant and approve the template program. The use is lowered to local report-only accounting because the comparator set, accounting-basis alignment, interface-cost measure, source-return condition, and decision record are absent.
+The same account leaves open whether to fund the template for the next release. Compare the cost of maintaining and adapting it with the cost of developing and maintaining the independent designs for the planned assortment. Include the local work on both alternatives. A common template can save production work while moving more work into integration.
 
-Recover the interface claim and actual costs, using A.6.M for unresolved module-interface meaning and C.16 for the cost measurement. A.19.CPM governs comparison of admitted profiles; A.19 applies to a CharacteristicSpace or reusable space predicate when one is used, and C.11 to local choice.
+Compare applicable offers, engineering estimates or work records for the planned assortment, including interface maintenance and local adaptations. Use observed costs when reporting work already done. An offer covering the full intended service can settle its quoted price while actual future expenditure is still open. Use A.6.M for a disputed interface interpretation, C.16 for a cost measure and C.11 for the local funding decision.
 
 These grounds can support comparison of the existing variants before any interface is changed. A chosen repair changes the candidate and reopens the affected accounting and comparison.
 
-Stop condition: do not use the 85 percent share for outside-RSA ranking, gate, assurance, or decision. Reopen the RSA note when the interface grammar, exception register, or comparator set changes.
+Keep the release count when the next release changes the planned assortment or the cost comparison. Reopen only the answer that depends on the changed facts.
 
 #### C.31.RSA:5.3 - Transfer case: neural-network block replacement
 
@@ -142,8 +140,8 @@ The benchmark improves, but cache placement, memory access, and ablation evidenc
 
 To transfer RSA from product-line architecture to neural-network architecture, use the already recovered reusable locus or first apply `C.30.STRAT` to treat `block`, `cache`, and related terms as source labels. Then RSA names the declared structures and accounting basis:
 
-- reusable structure may be located in recovered repeated-block topology, dataflow pattern, cache-placement rule, or evaluation harness;
-- bespoke residue may be located in model-specific tuning, data distribution dependence, memory-layout exception, or ablation gap;
+- trace which earlier topology, dataflow, cache rule or evaluation harness the team used. To credit a new design, establish which choice the team made beyond implementing the supplied architecture;
+- check the target's memory layout, input distribution and tuning needs before offering the same change for another model;
 - benchmark gain is not reusable-structure accounting by itself;
 - establish evidence and causal claims under their direct rules; use `A.10` for a needed replayable source-to-use account, `G.6` for a needed citable provenance path, and `C.28` for causal-use recovery. Use `C.29` for an unresolved mathematical representation choice, transfer or reliance question.
 

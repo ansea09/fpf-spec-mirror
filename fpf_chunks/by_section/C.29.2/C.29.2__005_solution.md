@@ -6,12 +6,12 @@ section_id: "C.29.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29.2/C.29.2__005_solution.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.29.2 — Computational Formulation"
   - "C.29.2:4 — Solution"
-line_start: 73687
-line_end: 73773
+line_start: 73704
+line_end: 73790
 dependencies:
   - "A.10"
   - "A.3.1"
@@ -90,7 +90,7 @@ A well-defined mathematical object need not have the finite representation or un
 
 For a finite search domain with an effective test, explicit enumeration can provide a terminating baseline. It may be too expensive, but it separates an obtainable procedure from an open construction. For an unbounded search, failure to find an answer in the allotted time leaves a different result; it does not establish nonexistence.
 
-For numerical work, connect the stopping test to error in the requested output. Locate relevant errors in input representation, algorithmic approximation, arithmetic and output conversion. Allocate tolerance among them only under a justified rule for combining their effects. Physical-model and measurement uncertainty remain separate inputs from the relevant modeling and C.16 methods; numerical convergence does not settle them.
+For numerical work, connect the stopping test to the result the recipient will use. An error bound sufficient for reporting a value may still allow both answers to a threshold question. Compare the full error interval with that threshold. If it crosses the threshold, try a direct comparison, a tighter enclosure or a reformulation of the test. Locate the errors from input representation, approximation, arithmetic and output conversion and justify how they combine. To use the result for a physical decision, also account for consequential model and measurement uncertainty.
 
 If finite precision can reverse a decisive comparison, increase precision, use a justified enclosure, reformulate the test or return that comparison as unresolved. If an iteration no longer changes its stored state, a limit of the ideal iteration does not show that the implementation will reach the requested tolerance. Return to the representation or stopping rule. Narrow the claim only when the narrower answer remains useful and the change is explicit.
 

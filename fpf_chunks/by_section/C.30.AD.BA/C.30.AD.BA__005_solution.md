@@ -6,12 +6,12 @@ section_id: "C.30.AD.BA:2"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD.BA/C.30.AD.BA__005_solution.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.30.AD.BA — Built-Asset Architecture Description and Reference Designation"
   - "C.30.AD.BA:2 — Solution"
-line_start: 75817
-line_end: 75982
+line_start: 75842
+line_end: 76007
 dependencies:
   - "A.1"
   - "A.10"
@@ -159,7 +159,7 @@ An IFC exchange or another machine-readable model is a representation and public
 3. record the source-to-use path into the architecture description or view episteme;
 4. state the admissible architecture use and any lost, inferred, unknown, stale, or unavailable relation content.
 
-An exchange checker can use a computer-interpretable specification to evaluate whether declared information is present and shaped as specified. That evaluation concerns the exchange description or publication. It does not make schema relation data obtain in the built asset, constitute a selected structure, grant `U.View` membership, establish description truth, or show that the selected architecture is adequate for the asset's functions, constraints, or architectural characteristics. Apply the architecture, characteristic-evaluation, evidence, and assurance patterns for those claims.
+An exchange checker can establish which records satisfy a computer-interpretable information specification. State the population it actually checks. If each exported equipment occurrence carries a maintenance identifier, a receiver may accept that property of the delivered records. For coverage of the installation, use an established correspondence to all equipment in scope. A verified complete export of a current asset register may already provide it. Otherwise reconcile the export with a grounded inventory and check for omitted units or multiple records for one unit. A shared equipment type may suffice to select maintenance instructions. Establishing which unit was serviced requires a correspondence to the individual unit. Use the relevant architecture, characteristic, evidence or assurance method for conclusions about the asset.
 
 #### C.30.AD.BA:2.4 - Keep a digital-twin description coupled without merging its objects
 

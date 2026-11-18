@@ -6,12 +6,12 @@ section_id: "C.40.OD:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OD/C.40.OD__008_conformance-checklist.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.40.OD — Construct and Continue Open-Ended Development"
   - "C.40.OD:7 — Conformance Checklist"
-line_start: 93118
-line_end: 93130
+line_start: 93185
+line_end: 93197
 dependencies:
   - "C.32.MWA.PP"
   - "C.40.CD"

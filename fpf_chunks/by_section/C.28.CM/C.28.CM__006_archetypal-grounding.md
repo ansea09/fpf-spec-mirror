@@ -6,12 +6,12 @@ section_id: "C.28.CM:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28.CM/C.28.CM__006_archetypal-grounding.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.28.CM — Construct and Challenge a Causal Model"
   - "C.28.CM:5 — Archetypal Grounding"
-line_start: 71856
-line_end: 71906
+line_start: 71878
+line_end: 71930
 dependencies:
   - "A.15.9"
   - "B.5.2"
@@ -43,7 +43,9 @@ Let S=1 mean a report entered the incident sample, either because R=1 or because
 
 The first return is specific: determine which joining inputs were actually missing or wrong, then distinguish the two modeled failure mechanisms. If all retained accounts support a cheap temporary manual check under the decision's own conditions, using it does not establish which account caused the incident.
 
-**Onset, persistence and amplification.** Suppose a queue began during a specialist's absence. After their return, ten new items and capacity for ten items arrive each day. Under the simplified balance B(t+1)=max(0, B(t)+A(t)+R(t)−C(t)), with backlog B(0)=12, A=10, R=0 and C=10, the backlog remains 12. Two daily rework items, R=2, increase it by two per day. The absence explains the initial loss of service; the present flow balance explains persistence; rework explains growth under these premises. Restoring attendance alone need not clear the backlog. A different arrival pattern, capacity or feedback from delay to rework reopens the corresponding part of the model.
+**Onset, persistence and amplification.** A queue first appeared while a specialist was absent. This dates its onset. To decide whether the absence produced the queue, compare the service those arrivals actually received by the time the queue formed with the service they would have received by then under the dispatch rule with the specialist present. If the rule holds requests for a batch, they may have waited even with the specialist on duty. Enough capacity over the whole day could still leave work waiting when several requests arrive together.
+
+After the specialist returns, suppose the backlog is 12 comparable items. Ten items arrive each day. While enough eligible work is waiting, the service uses its capacity of ten completions per day. Under `B(t+1)=max(0,B(t)+A(t)+R(t)−C(t))`, with arrivals A=10, rework R=0 and usable capacity C=10, the backlog stays at 12. Two extra items of rework each day make it grow by two per day under the same conditions. Preventing that rework would stop the growth in this model. To reduce the total backlog to zero, cumulative completions must also cover the initial 12 on top of arrivals and rework. These conclusions about the period after the return can guide action even if the cause of onset is still open.
 
 #### C.28.CM:5.2 - Construct the measurement and device mechanisms separately
 

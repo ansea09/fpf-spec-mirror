@@ -6,12 +6,12 @@ section_id: "C.22.PFR:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.PFR/C.22.PFR__008_conformance-checklist.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.22.PFR — Problematic-For Relation"
   - "C.22.PFR:7 — Conformance Checklist"
-line_start: 66506
-line_end: 66522
+line_start: 66511
+line_end: 66527
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -35,7 +35,7 @@ keywords:
 3. `ProblemCriterionApplicabilityRelation` has the predicate, exact problem-for entity, claim scope, and declared criterion-applicability window as its four participants. It obtains while that criterion governs those participants, independently of adverse-condition satisfaction; its occurrence extent is the maximal continuous period of actual applicability.
 4. PFR has exactly two non-derived participant slots: actual condition and criterion applicability.
 5. Predicate, entity, scope, declared criterion-applicability window, and actual applicability-occurrence extent are projected from applicability rather than copied into PFR.
-6. The selected direct consumer obtains the exact point through the declared direct assignment or projection and governs comparator, cuts or bands, polarity, admissibility, evaluation, and support; the condition relation is never treated as a coordinate by itself.
+6. The selected direct consumer identifies the input from the actual condition, its link to the entity and use, and the applicable comparison. Evidence supporting the adverse side at a stated time may establish an exact value or constrain the input sufficiently to settle the comparison under §4.3.
 7. Evaluation work, outcomes, measurements, evidence, assessment claims, descriptions, and cards do not create or identify PFR by default.
 8. Repeated PFR occurrences use the two participant references plus actual adverse inception. Add a stable occurrence identifier only for co-inceptions or a receiving history that must survive revision of the claimed inception boundary; the currently asserted start, derived end, and completed extent are not mutable key fields.
 9. `[adverseEpisodeStart, open]` is used only by a claim that supports current continuous obtaining; a later supported end completes the claimed extent on the same stable occurrence reference.

@@ -6,12 +6,12 @@ section_id: "C.22.PFR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.PFR/C.22.PFR__005_solution.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.22.PFR — Problematic-For Relation"
   - "C.22.PFR:4 — Solution"
-line_start: 66246
-line_end: 66450
+line_start: 66249
+line_end: 66455
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -38,12 +38,12 @@ Model an actual Problem as one obtaining `ProblematicForRelation`, a dependent e
 
 A performed evaluation remains `U.Work`; its result episteme and evidential-support relations remain separately governed, and none of these constitutes predicate meaning.
 
-Before testing adversity, answer three plain questions: **what point or value does this condition supply, how is that point obtained, and why is it the input for this problem-for entity and use?** The by-value predicate therefore carries one `ConditionToPredicateInputRule` as part of its own semantics, not as another PFR participant:
+Before testing adversity, identify the characteristic the predicate compares, how the actual condition supplies its value and why it bears on this entity and use. The predicate carries one `ConditionToPredicateInputRule` as part of its semantics:
 
 - **Direct input:** the actual-condition participant is already a governed characteristic-assignment or state relation whose subject pattern exposes the exact characteristic-space coordinate, scale, and value used by the predicate.
 - **Projected input:** when that relation does not itself expose the needed point, the rule cites one exact governed projection or bridge, its source relation kind and participant positions, target characteristic space, coordinate and scale, and the direct relation or predicate connecting that input to the problem-for entity and receiving use.
 
-A relation reference alone is not a coordinate. If neither path yields the exact point and the problem-for link, adverse truth and PFR remain unestablished. When two projections are plausible, the rule names the selected one; identify the nearest inadmissible alternative only when one fails the declared input or problem-for-link conditions. `ConditionToPredicateInputRule` is a pattern-local by-value rule inside `CharacteristicSpacePredicate`; it is not a U-kind, relation occurrence, evaluation result, or copied PFR field.
+Establish which input the rule takes from the actual condition and how it relates to the affected entity. A reference to the condition alone leaves that connection open. The evidence may bound the input closely enough to decide the comparison (§4.3). When two projections are plausible, the rule names the selected one; identify the nearest inadmissible alternative only when one fails the declared input or problem-for-link conditions. `ConditionToPredicateInputRule` is a pattern-local by-value rule inside `CharacteristicSpacePredicate`; it is not a U-kind, relation occurrence, evaluation result, or copied PFR field.
 
 The F.18 NameCard identifies the applicability relation kind.
 
@@ -142,7 +142,9 @@ This is a derivation from one participant, not a consistency check between copie
 2. The exact `ProblemCriterionApplicabilityRelation` obtains because its criterion remains governing for the exact entity and claim scope under the declared criterion-applicability window, independently of whether the actual condition is adverse.
 3. For the actual-condition participant, the predicate's exact `ConditionToPredicateInputRule` must yield the declared characteristic-space point or value and the direct link to the problem-for entity and use; that point falls on the adverse side under the selected scale, comparator, cut or band, polarity, and admissibility semantics.
 
-The selected direct consumer supplies the governed input projection or consumes the direct characteristic assignment, then governs the comparator and admissibility semantics. An evaluation may calculate or support a claim that the resulting point is adverse. Comparison outcomes, acceptance outcomes, state or gate results, measurements, evidence, and assessment claims are not automatically PFR participants, and producing them does not make PFR obtain.
+The selected direct consumer identifies the input through the declared assignment or projection and supplies the comparator and admissibility rules. The actual value determines which side of the criterion obtains. An evaluation supplies grounds for a claim about that value or about the comparison.
+
+To establish the side of the criterion from incomplete evidence, first establish the condition, the applicability of the criterion to this entity and use at the time in question, and at least one input value compatible with the evidence. If all compatible values fall on the adverse side, the evidence establishes adversity at that time. If all fall outside it, the evidence rules it out there. One feasible value on each side leaves the comparison open. A bound wholly on one side can settle the question. A bound extending to both sides may include unattainable values. When no value fits the evidence, revisit the observations and their interpretation (C.16.IR:4.3). The time at which adversity is established can lie inside an episode whose start or end is still unknown. The two obtaining relations in §4.2 remain the PFR participants. Measurements and evaluation outcomes can support assertions about them and about adversity.
 
 A Problem can therefore obtain unnoticed. Later detection can involve work, evidence, and claims about the already obtaining relation; it does not create retroactive actuality.
 
@@ -221,13 +223,13 @@ Repeated problematization, method search, work, evaluation, and continuation occ
 
 For a first use, name only what decides the case:
 
-1. the exact obtaining condition and the value or point it supplies;
+1. the actual condition, when it is established, and what the evidence shows about the input from that condition;
 2. the criterion that makes that point adverse, including the selected input path and cut or band;
 3. the entity for which it is a Problem, the use or claim scope, and the applicability window.
 
 Then write one ordinary sentence:
 
-> `<condition and value>` misses `<criterion>` for `<entity and use>` during `<applicability window>`; therefore it is an actual Problem for that entity and use.
+> At `<time or supported interval>`, `<condition>` falls on the adverse side of `<criterion>` for `<entity and use>`. This criterion applies during `<applicability window>`.
 
 Stop there when the next work only needs to recognize the Problem. Cite the direct condition and criterion patterns, but do not fill a PFR record, repeat either relation signature, or assign a PFR identifier. The NameCards and signatures above define reusable semantics; they are not a mandatory user form.
 

@@ -6,12 +6,12 @@ section_id: "C.26:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26/C.26__005_solution.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.26 — Quantum-Like Modeling Lens"
   - "C.26:4 — Solution"
-line_start: 68615
-line_end: 68952
+line_start: 68630
+line_end: 68968
 dependencies:
   - "A.10"
   - "A.15"
@@ -143,9 +143,9 @@ Examples of the decision difference to recover, whether the ordinary account is 
 
 | False reading | Repair | Decision diff |
 | --- | --- | --- |
-| Dashboard passively shows release readiness. | Dashboard publication changes readiness behavior. | Do not use dashboard alone as release evidence; add independent work traces or redesign metric publication. |
-| Workshop discovered the boundary. | Workshop also created the boundary meaning. | Do not export workshop result as timeless domain fact; record window, participants, carriers, and unresolved rivals. |
-| Service is healthy because latency is green. | Viability envelope is degraded by support load and promise failure. | Add envelope variables and actuators; do not greenlight based on latency alone. |
+| Dashboard passively shows release readiness. | The dashboard reports the recorded checks. Examine whether publication also changed how people performed or recorded the work. | Use checks that bear on the release decision. If reporting practices changed, establish which readings remain comparable. |
+| Workshop discovered the boundary. | The record identifies the boundary participants agreed to use. Its earlier use and the workshop’s effect on practice are separate claims. | Use the agreement for decisions it covers. Consult earlier work to determine whether people already used that boundary. |
+| Service is healthy because latency is green. | The latency reading meets its bound. The service commitment also covers the currency of information shown to customers. | Check that condition before confirming the joint commitment. A verified breach already settles a decision requiring both. |
 | Summary preserves architecture state. | The summary omits distinctions from the source. | Use it where the retained distinctions support the receiving decision; consult or reconstruct omitted detail when that decision depends on it. |
 
 Minimum ordinary-pattern return from the QL activation test:
@@ -153,14 +153,13 @@ Minimum ordinary-pattern return from the QL activation test:
 ```text
 Ordinary patterns: C.16 + A.15.
 Disposition: no QL wording. The stated facts establish a performative metric effect; no contextual-model obstruction surviving those ordinary patterns is established.
-Claim: DeliverySystem-12's release readiness during W, assessed under the operational criteria with dashboard readings compared before and after publication.
-Mistake prevented: dashboard result would be read as passive release-readiness evidence.
-Probe effect: publication changed team behavior during W.
-Decision diff: do not use dashboard alone for release; add independent work traces.
-Stop: this note locates how dashboard publication changed the work being assessed. Resolve the resulting readiness question with the applicable work and measurement Methods.
+Claim: Did DeliverySystem-12 meet all required release checks at the end of W?
+Probe effect: In this constructed case the team recorded its decision to reprioritize work in response to the published dashboard. Its work log shows that change taking effect during W.
+Decision: Match the timestamped results to the required checks and their times. One established failure answers the question for this joint rule. Report a pass when every required check is supported at the required time. If the existing evidence still permits either verdict, recover evidence for the condition that could change it.
+Stop: The recorded decision and its enactment explain the change in work priorities.
 ```
 
-This completes the ordinary-pattern return: the dashboard must not be treated as a passive readiness read, and the stated facts do not yet activate QL. Reopen C.26 only if one named contextual-model obstruction survives the ordinary account and changes an admissible inference or action. Reuse adequate existing support under :12b; publication of this note alone requires no new assurance account.
+The changed priorities can be assessed under the work and measurement patterns. Reopen C.26 when a named contextual-model obstruction survives that account and changes a conclusion or action. Existing evidence can settle the decision.
 
 Finish with the useful result the receiving question needs. A mathematical consequence or corrected reading may be sufficient. Use `C.11` only when a choice remains.
 
@@ -197,10 +196,10 @@ Apply both sides of the activation test:
 
 Keep incompatible-probe outputs in their own algebras. A common label or diagram does not supply a joint probability space, comparison relation, grounding relation, or cross-structure occurrence.
 
-Ordinary wording repairs that may finish before QL activation:
-- "the metric reported readiness" becomes "the metric publication or measurement regime functioned as a probe interaction that changed readiness behavior";
+Read the observation and its intended use before choosing a more precise formulation. Ordinary FPF methods can settle the following questions:
+- For “the metric reported readiness,” identify which check passed. To claim that publication changed behavior, trace the change in the work through which the metric was produced or used.
 - "two risk scores disagree" becomes "the two scores may come from non-shared comparison frames with no declared admissible joint comparison route";
-- "the workshop discovered the split" becomes "the workshop was a probe whose order and framing changed alignment and local meaning";
+- For “the workshop discovered the split,” identify what participants recorded or agreed. Attribute a change to the order of questions only when the procedure and evidence support that effect.
 - "the team knows" becomes a bounded claim about the coordinated work evidenced, with its relevant interpretation limits;
 - "this smaller model is enough" becomes a claim that its retained distinctions suffice for the named use, with any actual loss and limit stated.
 
@@ -327,7 +326,7 @@ Evidence-use class scales by use:
 
 Use this card when a fuller state representation is too detailed, unstable, unavailable, or expensive for the current bounded decision and a reduced-detail state representation is useful only under a declared QL cue.
 
-`A.6.3.CSC` carries controlled coarsened rendering; `A.6.3.RT` carries same-selected-entity representation transition; `A.19`, `U.Dynamics`, modeling patterns, and ordinary abstraction patterns carry ordinary state abstraction. C.26 carries only the residual QL cue plus the loss/use boundary for this shortcut.
+For a shorter rendering of the same claims, use `A.6.3.CSC`. For another way to represent the same selected entity, use `A.6.3.RT`. When comparing a more abstract model with a more concrete one, use `B.5.MR:4.2–4.3` to establish what the concrete model preserves and which alternatives it excludes. `A.19` and `U.Dynamics` govern state and change. Use C.26 when the decision also encounters the contextual-model obstruction tested in section 4.
 
 Question-to-pattern map:
 
@@ -341,6 +340,8 @@ Question-to-pattern map:
 | Assurance claim, release support, audit, readiness, or compliance use | `B.3` |
 | Search-space pruning, option generation, or missing alternatives | `C.18`, `C.19`, `A.19` |
 | Named contextual-model obstruction remaining after the applicable ordinary account | `C.26` |
+
+To decide from a coarser reading, identify what detailed states or histories could produce it under the model. If none can, check the reading and the model before using them together. If every compatible history permits the proposed action, the missing detail cannot rule out that action. A shared reading may still leave open which action is best. If one compatible history permits an action and another rules it out, recover what distinguishes them before relying on the reading for that choice. For a decision based on probability or expected value, use the applicable probability model and its evidence.
 
 For a bounded coarsening use, start with these questions. An adequate ordinary explanation can answer them without a separate card.
 

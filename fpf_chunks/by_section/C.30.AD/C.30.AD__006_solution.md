@@ -6,12 +6,12 @@ section_id: "C.30.AD:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__006_solution.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:4 — Solution"
-line_start: 75421
-line_end: 75661
+line_start: 75446
+line_end: 75686
 dependencies:
   - "A.1"
   - "A.10"
@@ -206,7 +206,7 @@ Common architecture-description views:
 
 Before combining two views, establish whether they describe the same holon, the same architecture-relation occurrence, the same selected structure, related structures, or different subjects. State that correspondence as a supported claim or cite a direct relation that holds. When source material enters the use, identify the source and its contribution. Use `sourceToUsePathRefs` when that provenance needs a citable G.6 path: `PathCitationRecordRef` here means a reference to one G.6 `PathCitationRecord`, resolving its EvidenceGraph, path and slice. That descriptive path cites independently established direct relations; it is not itself one of them. Add a return condition when a stronger use needs the named source or its defining claims.
 
-**Coarse-graining check.** A coarser description groups, omits, or summarizes distinctions found in another description or source. Before relying on it, name the described subject, the finer and coarser description structures, the mapping or correspondence between them, the distinctions kept and lost, and the intended use. These are facts about the descriptions and their use. They do not show that the subject itself has matching levels, parts, or relations. If the decision needs that subject-side claim, establish it separately through the pattern that defines or tests the subject relation; otherwise say only that the description was coarsened.
+**Coarse-graining check.** A coarser description groups, omits or summarizes distinctions. Identify what was grouped and how it corresponds to the finer description. Identify at least one admissible finer arrangement and ask whether all arrangements allowed by the coarser description under its stated assumptions give the same answer. If so, use that answer. If a binding or observation narrows the arrangements further, carry that source with the conclusion. If two give different answers, name the allocation, placement or other distinction that separates them and return to a source that can settle it. Use A.22 or the governing subject pattern to establish any claimed levels or parts of the holon itself.
 
 ```text
 ArchitectureDescriptionCorrespondenceClaim content:

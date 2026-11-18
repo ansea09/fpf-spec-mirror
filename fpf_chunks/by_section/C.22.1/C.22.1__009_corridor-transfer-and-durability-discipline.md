@@ -6,12 +6,12 @@ section_id: "C.22.1:8"
 section_title: "Corridor, transfer, and durability discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.1/C.22.1__009_corridor-transfer-and-durability-discipline.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.22.1 — Task-family adaptation signature"
   - "C.22.1:8 — Corridor, transfer, and durability discipline"
-line_start: 66100
-line_end: 66111
+line_start: 66103
+line_end: 66114
 dependencies:
   - "A.15"
   - "C.19.1"
@@ -44,8 +44,8 @@ keywords:
 - If a stepping stone mattered, publish the stepping-stone evidence as part of the adaptation signature.
 - Corridor or stepping-stone notes do not replace the work-measure threshold account; they explain why the adaptation path matters, not whether the threshold was reached.
 - A fast threshold result is not yet enough to claim durable specialization.
-- If transfer to a neighboring task family is claimed, name the transfer target and the observed gain.
-- If retention is claimed, name the reuse or retention window rather than implying durability from one isolated run.
+- For transfer, identify the target task family, baseline and observed change there. To attribute that change to the earlier practice, give grounds that distinguish its effect from repeat testing, practice on the target or changed assistance when those explanations are plausible (C.28). State how far the evidence reaches across the target family.
+- For retention, report when and under what support conditions performance was demonstrated again. Use a comparable criterion over the stated delay. An unobserved interval can remain open.
 - If specialization harms neighboring task families, narrows reusable competence, or creates de-specialization cost, publish that in `downsideEffect?`.
 - If post-threshold performance matters to later exploitation, publish `postThresholdEfficiency?` to show performance after threshold crossing.
 

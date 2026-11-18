@@ -6,12 +6,12 @@ section_id: "C.22.1:9"
 section_title: "Worked moment"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.1/C.22.1__010_worked-moment.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.22.1 — Task-family adaptation signature"
   - "C.22.1:9 — Worked moment"
-line_start: 66112
-line_end: 66121
+line_start: 66115
+line_end: 66124
 dependencies:
   - "A.15"
   - "C.19.1"
@@ -41,9 +41,9 @@ keywords:
 
 Consider two research setups, A and B, adapting to the same catalyst-search family. This is an illustrative comparison. The declared threshold is at least 80 accepted predictions out of the same 100 held-out cases under a fixed validation rule. Both start with the same training corpus and no prior exposure to those held-out cases. Time starts when adaptation begins; the budget counts all adaptation and evaluation calls. The rule checks threshold attainment at the end of each round.
 
-A first meets the rule after 2 hours and 120 calls; B after 6 hours and 480 calls. Both finish at 85/100. The signatures therefore distinguish acquisition time and cost despite equal final scores. They report first observed attainment at the declared checkpoints, without claiming an unobserved earlier crossing.
+A first passes a scheduled check after 2 hours and 120 calls, B after 6 hours and 480 calls. Both finish at 85/100. The histories show what each setup spent by its first observed pass. To conclude that either acquired the capability during adaptation, establish how it performed beforehand under comparable conditions. A failed check followed by a pass brackets the observed change at the declared checkpoints.
 
-On a named adjacent family, the same before/after test gives A 60/100 then 70/100 and B 60/100 then 60/100. That supports A's observed 10-percentage-point transfer gain on this test and no observed gain for B on it; it does not settle all neighboring families. Retention beyond the measured run is untested, and no durable-specialization claim is made. If A also claims corridor entry, it names the prior repertoire and the repeatable solution class absent from that baseline; the faster threshold alone does not supply this evidence.
+On a named adjacent family, a before/after test gives A 60/100 then 70/100 and B 60/100 then 60/100. A improved by ten percentage points on this test. B's observed score stayed the same. These observations leave open how much change the original practice caused. A comparison that accounts for repeat testing, other training and assistance can support a transfer claim for the conditions it covers. Retention beyond the measured run is untested. A corridor-entry claim would need the prior repertoire and evidence of a repeatable solution class absent from it.
 
 The comparison can finish with these bounded claims. If A's prior exposure later proves different, reopen the equal-exposure comparison while retaining the observed histories. A later retention claim needs its own window and observations. A selector may use the signature under its applicable rule; the signature alone chooses neither setup.
 

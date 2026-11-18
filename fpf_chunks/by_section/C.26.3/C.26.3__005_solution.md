@@ -6,12 +6,12 @@ section_id: "C.26.3:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.3/C.26.3__005_solution.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.26.3 — Viability-Envelope Boundary Regulation"
   - "C.26.3:4 — Solution"
-line_start: 69867
-line_end: 70061
+line_start: 69885
+line_end: 70079
 dependencies:
   - "A.10"
   - "A.15"
@@ -135,7 +135,7 @@ Envelope-regulation sequence:
 3. Obtain each bound from its governing basis. Reuse an applicable customer requirement, commitment, safety or operating limit, or an established resource constraint. Where the constraint is capacity, relate the demand in the stated window to the people, equipment, time or other provision actually available under that same workload and service condition.
 
    A historical average describes performance; it does not set acceptable performance. If a needed limit is absent, recover it with the party entitled to set the requirement or make the trade-off. Until then, a proposed threshold remains a scenario assumption: return the effects or feasible range and identify the unresolved acceptability question.
-4. Identify the disturbance or regime change and the observations needed to locate the current state against those bounds. Use existing observations where adequate. Recover what each sensor or probe measures, including timing, coverage and a supported behavior-changing effect; use `C.26.1` for a material unresolved interpretation.
+4. Identify the disturbance or regime change and the observations needed to locate the current state against those bounds. Use existing observations where adequate. Recover what each sensor or probe measures, including timing, coverage and a supported behavior-changing effect; use `C.26.1` for a material unresolved interpretation. Match the observation to the time covered by each bound. An hour's total can settle a limit on that total. One verified breach in a five-minute interval defeats a bound required in every interval. To confirm compliance throughout, cover all the intervals by observations or by a justified bound on the unobserved ones.
 5. If regulation is needed, trace the failure to an available change in the mechanism, resource, operating rule or boundary condition. Reuse a suitable domain Method. When the dependency is unresolved, `C.28.CM` develops the causal account; `C.28.MR` derives consequences of a specified mechanism change, and `C.29` contributes when formulation or transfer needs mathematical work. Recover the proposal's object and distinguish it from any performed Work, actual transformation or obtaining relation. An F.9 endpoint/profile change requires testing the resulting Bridge candidate; Work does not revise a fixed Bridge occurrence.
 6. Follow each proposed change to every affected constraint, including displaced work, transition time and adaptation cost. Use a calculation, simulation, case evidence or other justified account appropriate to the decision. Keep its assumptions and uncertainty visible. Improving one variable is sufficient only if the remaining required conditions also hold.
 7. Return the supported diagnosis or conditional proposal. A known violation can rule out restoration of the envelope even while another effect remains unknown. A positive viability claim needs all its required conditions supported; an unresolved limit or effect may instead warrant a restricted action, further inquiry or no change. New inquiry is conditional on its attainable contribution to the receiving decision, not a required extra step.

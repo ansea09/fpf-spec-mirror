@@ -6,12 +6,12 @@ section_id: "C.31.ASAP:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.ASAP/C.31.ASAP__005_solution.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.31.ASAP — Which Architecture Is Preferable Under Scale? (Scale Amenability)"
   - "C.31.ASAP:4 — Solution"
-line_start: 79606
-line_end: 79778
+line_start: 79628
+line_end: 79804
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -60,8 +60,8 @@ C.31.ASAP applies only when all of the following are present:
 1. a declared architecture alternative set, described holon, `U.ClaimScope`, and relevant A.2.6 `U.ContextSlice` membership;
 2. a declared scale variable and its window;
 3. a claimed preference under scale;
-4. slope evidence, scale-probe evidence, or a no-probe reason;
-5. an expected stable or improving structure, exception-growth risk, or source-return condition that changes the next architecture move.
+4. the observed scale behavior, a derivation from applicable conditions, evidence from a scale probe, or a reason why the claim remains hypothetical;
+5. the grounds relating the architecture alternatives to that comparison. These may include an applicable quotation for the required service, or differences in structure and local exceptions where those affect the claimed advantage.
 
 If those fields are absent, keep the claim in `C.31` as a temporal or scale-sensitive characteristic cue, in `C.31.RSA` as report-only accounting, in `C.29` as a bounded lens-use output, or in ordinary architecture prose.
 
@@ -82,9 +82,10 @@ ScaleClaimTriage:
   claimedPreferenceUnderScale:
   slopeEvidenceRef?:
   scaleProbeEvidenceRef?:
+  comparisonBasisRef?:
   noProbeReason?:
-  expectedStableOrImprovingStructure:
-  exceptionGrowthRisk:
+  expectedStableOrImprovingStructure?:
+  exceptionGrowthRisk?:
   sourceReturnCondition?:
   admissibleUse:
   nonAdmissibleUse?:
@@ -106,11 +107,13 @@ Retaining or publishing the bounded answer preserves its limits. A stronger comp
 
 When architecture alternatives satisfy the same safety, law-domain and assurance boundaries, prefer the alternative whose relevant reusable structure remains stable or improves over the declared scale window, unless a stated bounded exception justifies another choice. Select the functional, flow, control, interface, work-template or evidence structure and any learning-transfer characteristic on which this architecture question depends.
 
-This is a declared structural preference policy. Its application needs grounds for the claimed behavior; it does not establish a scaling law. When the relevant profiles conflict, tie or remain uncertain, retain those limits and use the declared comparator or decision rule to resolve the question. A no-probe reason can justify a bounded provisional use or further inquiry, but supplies no observed slope.
+Define the advantage that would change the recommendation. Compare both alternatives for the same deliveries under the conditions that affect that advantage. Separate a one-time investment from work repeated at each installation or each new interface type. When deciding whether to commission a shared design, count the preparation it requires. When deciding whether to keep using one already built, compare future costs and commitments that the choice can still change. The original expense remains part of the investment history. More deployments at an established site may require none of the qualification work that a first deployment in a new jurisdiction requires. Check where the two alternatives tie or change order. When different admissible mixes of sites give different recommendations, state which mix supports each and what is known about the proposed rollout.
+
+Observations can support a comparison for the conditions examined. A binding rate, an engineering bound or a supported construction can also establish an answer for the entire stated range under its assumptions. Record the observations or the applicable derivation and its assumptions. A quotation or bound that orders the alternatives throughout a window can be cited in `comparisonBasisRef` even when neither slope is known. An advantage in price throughout a window establishes which quote is cheaper. To claim its price grows more slowly, compare the changes in price. When an untested premise could reverse the preference, state what depends on it. A reason for skipping a probe supplies no evidence about its outcome. An applicable derivation can already settle the question. Conflicting characteristics need the preference or decision rule for the work in question.
 
 C.31.ASAP defines the scale-preference claim and its boundary. Use `G.9` for a parity claim and `A.21` for a gate claim; the candidate, comparison, set-declaration, and choice uses are distinguished below.
 
-A scale-preference claim may inform `C.32` candidate generation or supply one input to an `A.19.CPM` comparison by naming the scale variable, scale window, expected stable or improving structure, exception-growth risk, and any source-return condition needed for candidate alternatives.
+A scale-preference claim may inform `C.32` candidate generation or supply one input to an `A.19.CPM` comparison by naming the scale variable and window, the grounds for ordering the alternatives, and any structural uncertainty or exception that could reverse that order.
 
 Use:
 
@@ -134,7 +137,7 @@ Typical architecture scale variables include:
 | --- | --- |
 | `N_units` | repeated units or instances |
 | `N_scopeCount` | aggregation scopes, coarse-graining scopes, or typed LCA control scopes |
-| `N_sites` | deployments, sites, markets, or jurisdictions |
+| `N_sites` | Distinct deployment sites. Deployment events, markets and jurisdictions can have different counts and costs. Name and count the one that drives the work in question. |
 | `N_interfaceTypes` | distinct interface grammar variants |
 | `N_requiredTransformationKinds` | distinct transformation kinds in the selected functional-structure view |
 | `N_flowRelationKinds` | flow-relation or crossing variants in the selected flow-structure view |
@@ -144,7 +147,7 @@ Typical architecture scale variables include:
 | `N_regulatoryInstances` | approval, safety, or certification repeats |
 | `freedomOfAction` | allowed design, search, or control variation |
 
-The claim needs the scale variable with its window, the expected structural behavior and exception-growth risk. Add a source-return condition when omitted distinctions could change the receiving action.
+Name the scale variable, its window and the characteristic whose behavior matters to the comparison. Add a source-return condition when omitted distinctions could change the receiving action. Increasing the number of sites changes a quantity in the model. Abstracting the model can leave the jurisdiction of a site open. The same disciplinary model can compare five and forty sites. Use B.5.MR:4.2 when asking which conclusions still follow after leaving a distinction open.
 
 #### C.31.ASAP:4.5 - Scale audit outputs
 
@@ -160,7 +163,8 @@ ArchitectureScaleAuditRecord@Project:
   modelUseStructureRef?:
   scaleVariableRefs:
   scaleWindowRef:
-  ArchitectureSlopeVector:
+  ArchitectureSlopeVector?:
+  comparisonBasisRef?:
   IsoScaleParityNote?:
   ASAPWaiverReason?:
   ArchitectureHeuristicDebt?:
@@ -220,5 +224,5 @@ Name at least one possible repair or stop before using the scale preference to g
 
 A scale preference may use an RG, coarse-graining, epiplexity, graph, multilevel-learning or frustration model. Establish the assumptions and correspondence needed by that inference; an adequate domain treatment can suffice. Use `C.29` when choosing or transferring the representation, or relying on its result, leaves an unresolved question. Keep the architecture scale-preference claim in C.31.ASAP and use C.18.1 for a scale-law claim.
 
-The C.31.ASAP account retains its scale variable, scale window, slope or scale-probe grounds, exception-growth risk and any material source-return condition. When a C.29 account is needed, it can use `MLU.Description@RGArchitecture`, `MLU.Description@MultilevelLearningFrustration` or another local account to explain the representation, correspondence, preserved and lost distinctions, payoff and limits. A separately named output is needed only when the receiving use requires it.
+The account retains its scale variable, window and the basis for the comparison, including any variation in exceptions that can change the answer. State where to recover an omitted fact when the answer depends on it. When a C.29 account is needed, it can use `MLU.Description@RGArchitecture`, `MLU.Description@MultilevelLearningFrustration` or another local account to explain the representation, correspondence, preserved and lost distinctions, payoff and limits. A separately named output is needed only when the receiving use requires it.
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.5.SD.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "B.5.SD — Construct an Answer through Substantive Discussion"
-line_start: 53019
-line_end: 53222
+line_start: 53021
+line_end: 53224
 dependencies:
   - "A.3.1"
   - "B.5.RA"

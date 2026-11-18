@@ -6,12 +6,12 @@ section_id: "C.26.2:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.2/C.26.2__006_archetypal-grounding.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.26.2 — Enacted Distributed State Evidence"
   - "C.26.2:5 — Archetypal Grounding"
-line_start: 69716
-line_end: 69727
+line_start: 69734
+line_end: 69745
 dependencies:
   - "A.10"
   - "A.15"
@@ -41,7 +41,7 @@ Tell: In a constructed incident case, the independently identified incident-resp
 
 Show, System side: the bearer is that incident-response System during the stated half-hour. Preparing rollback and changing support routing are observed work; logs, messages and artifact records make those actions inspectable. The observations are not replaced by the later survey.
 
-Show, Episteme side: the System acted consistently with a release-freeze readiness posture during 14:00–14:30. Report those coordinated actions in incident communication instead of reporting a unanimous freeze decision.
+The incident coordinator can report the three actions as consistent with freeze preparation during this half-hour. To report a coordinated response, use work records that connect them. For example, one incident entry could link the release hold to the request to redirect support traffic and to the rollback prepared for the held deployment. That link would support coordination even if the actions occurred in sequence. A claim that all three teams were ready together has a different test: a trustworthy joint observation can establish readiness at its recorded instant. To report readiness throughout the half-hour, establish how long it held.
 
 An unwritten directive, playbook, shared alarm or dashboard effect remains a rival explanation; the case does not establish a separate causal mechanism. If a playbook fully explains the actions needed by the receiving use, retain that ordinary account.
 

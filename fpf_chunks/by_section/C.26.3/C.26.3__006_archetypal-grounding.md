@@ -6,12 +6,12 @@ section_id: "C.26.3:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.3/C.26.3__006_archetypal-grounding.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.26.3 — Viability-Envelope Boundary Regulation"
   - "C.26.3:5 — Archetypal Grounding"
-line_start: 70062
-line_end: 70093
+line_start: 70080
+line_end: 70109
 dependencies:
   - "A.10"
   - "A.15"
@@ -53,17 +53,15 @@ Compare two matched one-hour windows under the stipulated spike condition, befor
 | CheckoutSystem-1 stale payment-failure statuses over the incident hour | <=1% | 0.2% | 3% |
 | Incident support demand: customer contacts requiring handling during that hour | <=20 | 10 | 45 |
 
-The observed values are constructed case premises. Latency improves, but in the changed setting the status constraint is violated and support demand exceeds the stipulated handling capacity, so the declared envelope is not restored.
+In this constructed case the highest five-minute p95 falls from 350 to 180 ms. In the second hour the status and support bounds are both exceeded. That hour therefore fails the joint requirement.
 
 The decision combines properties of CheckoutSystem-1 with demand on the incident-support team. The support figure counts contacts requiring handling; a count of completed handling would concern actual support Work. Operator attention, if added, would concern the people handling those contacts. Fulfillment of CheckoutPromiseContent-1 still needs its own evaluation.
 
-If the acceptable stale-status bound has not been established, retain the observed 3% and the finding that support demand of 45 contacts exceeds capacity for 20. This does not settle whether 3% is acceptable. Recover the correctness requirement from the receiving use and its requirement setter; until then, the positive envelope verdict remains open.
-
-If the receiving task asks only whether the proposed cache setting restores all already declared constraints, the excess demand is enough to answer no.
+Suppose the acceptable stale-status bound is missing. Demand of 45 contacts already exceeds capacity for 20, so the joint requirement failed in this hour. Keep the observed stale-status rate of 3%. Recover the freshness requirement if deciding whether that rate also fails or which remedy to pursue.
 
 A dashboard query is an observation operation unless a behavior-changing effect is separately established.
 
-Retain the diagnosis that the changed setting improves latency while violating other envelope constraints. The dependency through cached status suggests comparing a shorter cache duration or bypassing the cache for payment-failure updates; either could increase upstream work and latency. Recover the relevant update and read paths before predicting that trade-off. A valid existing account can settle it; otherwise the missing effect remains a question rather than an observed remedy.
+For this hour the team can report that service fell outside the required bounds. To decide whether changing the cache setting caused the difference or would restore service in another spike, examine how the setting affected reads and updates and what else differed between the two hours. That account can guide comparison of a shorter cache duration and a bypass for payment-failure updates, including their effects on upstream work and latency.
 
 Recover the proposal's object, adaptation cost, applicable authority and realization latency before choosing it; a planned enactment belongs in a WorkPlan. Missing intervention evidence leaves the diagnosis useful.
 

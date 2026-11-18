@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/G.8.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "G.8 — Package Method-Family Admissibility Rules and Maturity Ladders (SoS-LOG)"
-line_start: 139249
-line_end: 139728
+line_start: 139316
+line_end: 139797
 dependencies:
   - "A.10"
   - "A.21"
@@ -268,8 +268,10 @@ Use `EvidencePathRefs` to cite the relevant `PathId[]` or `PathSliceId[]` when t
 
 * closed rungs (UTS‑registered identifiers),
 * `Scale kind = ordinal` and a declared `ReferencePlane`,
-* (optional) explicit poset edges / precedence constraints,
+* the order needed for any comparison the admission use makes, stated here or recoverable from the cited scale edition,
 * rung transition justifications that cite evidence paths (typically `G.6` paths).
+
+For an “at least” floor, check whether the assessed rung equals or succeeds the required rung in that order. Known incomparability fails that test. An unavailable comparison leaves the verdict undetermined under the clause's unknown rule. A clause that calls for a particular kind of evidence also needs grounds establishing that fact.
 
 Dispatchers, auditors and refresh planners can cite the published ladder description. The card describes the ladder under C.23.
 

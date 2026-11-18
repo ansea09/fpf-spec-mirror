@@ -6,12 +6,12 @@ section_id: "C.32.ACS:5"
 section_title: "Worked slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACS/C.32.ACS__006_worked-slices.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.32.ACS — Architecture Characteristic Criteria Set"
   - "C.32.ACS:5 — Worked slices"
-line_start: 81694
-line_end: 81703
+line_start: 81741
+line_end: 81750
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -53,7 +53,7 @@ keywords:
 
 **Method-family architecture.** A review lead needs a method that detects affected dependent claims without repeating unrelated reading. HCS supplies evidence reuse, change reach and exception growth as possible heads. ACS prepares criteria for comparing a fixed local search with a method that follows the changed claim into its direct uses. The bearer is the Method; the relevant structure is the connection between source recovery and dependent-use comparison. Candidate rows concern missed dependent claims under the declared task family and effort to obtain a useful review, with preservation of correct content as a guardrail. Known defective and difficult admissible cases can support a bounded comparison; a claim about actual release effort requires observations from performed Work. Teachability remains a C.25 question when learner preparation and support matter.
 
-**AI-agent architecture.** HCS suggests evidence refresh, policy controllability, latency, observability, and rollback. ACS marks policy controllability, evidence refresh, and latency as optimization indicators. Benchmark performance is not an architecture characteristic by name; it can supply an eval reading only after the bearer, scale, parity frame, and receiving use are declared.
+**AI-agent architecture.** HCS suggests evidence refresh, policy controllability, latency, observability, and rollback. ACS marks policy controllability, evidence refresh, and latency as optimization indicators. For a reading from a single benchmark run, state what was evaluated, the scale, the workload and what the reading can establish. A comparison across designs also depends on the operating conditions that must correspond for that comparison.
 
 **Team and assignment architecture.** A hospital escalation team starts from coordination load, accountability clarity, decision latency, evidence custody, substitutability among local system-role kinds, and continuity of assignment occurrences and their holder Systems. ACS creates separate criteria because A.2.7 can compare or relate local kinds but does not substitute holders. The kind-substitutability row binds the exact local kind-relation structure and predicate; the assignment-continuity row binds the exact assignment occurrences, holder Systems, and continuity predicate. ACS marks decision latency, accountability clarity, and evidence custody as optimization indicators, keeps patient-safety loss and assignment-continuity loss as guardrails, and leaves staffing choice to the receiving decision pattern.
 

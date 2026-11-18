@@ -6,12 +6,12 @@ section_id: "C.30.LCA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.LCA/C.30.LCA__005_solution.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.30.LCA — Control Structure View Adequacy (LCA)"
   - "C.30.LCA:4 — Solution"
-line_start: 77573
-line_end: 77779
+line_start: 77598
+line_end: 77804
 dependencies:
   - "A.10"
   - "A.20"
@@ -47,7 +47,7 @@ keywords:
 
 ### C.30.LCA:4 - Solution
 
-Treat LCA-like source descriptions as possible inputs to a control-structure description under C.30. Identify the controlled holon and the actual control relations needed by the question, such as observation, actuation, reference provision or supervision, with each participant's meaning. For a selected-structure or full-view claim, identify that control structure and its described-holon trace; add an architecture relation only when independently established. For B.2.5 feedback, retain the compound assertion alongside its base relations.
+Start with the controlled holon and the decision at hand. For design work, recover the observation, command, reference or supervision relations that the proposed structure specifies, including the meaning of each participant. For a claim about a running loop, establish which of those relations obtained in the named configuration and period. A full structural view also requires the selected control structure, its described-holon trace and the E.17.0 viewpoint conformance. Include an architecture relation only on its C.30 basis. For B.2.5 feedback, retain the compound assertion alongside its base relations.
 
 Add participating Systems, local kinds, separate System-classification judgments, assignment species and obtaining occurrences, Methods, and Work only when the corresponding fact is independently established. Use A.22 to identify the selected structure from its constituents, selected obtaining relation occurrences, applied constraint claims, and receiving-use frame; a note, diagram, list, description, kind, or assignment creates none of them. If a source label is not yet control-specific, apply `C.30.STRAT` first. Then state the supported conclusion and any further pattern needed by the question.
 
@@ -219,11 +219,11 @@ If a dated Work occurrence involving an episteme is claimed, recover the perform
 
 **Transformation-flow boundary.** An `E.18` transformation-flow path slice may supply flow-structure, path, crossing, or transformation-flow-structure input to the control view when that relation is being used. The transformation-flow description may use a mathematical graph expression under `E.18.2`; the description is a `U.View` only when E.17.0 conformance obtains. Neither the expression nor the description becomes the functional architecture, the control structure, or proof of control adequacy.
 
-**C.29 boundary.** An LCA can be a model used for one selected control structure, or it can be used as a transferable mathematical lens. Use `C.29` when a mathematical lens makes transfer, prediction, reusable cross-domain explanation, or another control-structure use more inspectable. Dynamics, rate bands, authored temporal-claim adequacy, and causal claims remain with `A.3.3`, `C.27.TA`, `C.27`, and `C.28`.
+**Use of a mathematical model.** A proof can settle the response of the modeled loop for all disturbances and operating conditions covered by its assumptions. To apply that proof to the installed loop, identify the operating mode and check the feedback path, plant response and timing on which the conclusion depends. A successful trial can establish the response in that trial. C.29 handles the transfer, A.3.3 the dynamics, C.27.TA and C.27 the temporal claims, and C.28 a claim about the effect of changing the controller.
 
 **Nesting and scale rule.** When nested control affects latency, stability, observability, accountability or assurance, recover the affected relation and the bounds needed for that use. Retain a scale-audit reference only when the receiving rule calls for it; nesting alone requires no additional record.
 
-**Worked slice A - LCA diagram used as proof.** A safety note says: `The Layered Control Architecture proves the plant is safe because the supervisor monitors the lower controller.` A conforming repair keeps the control-structure view and names planner, controller, plant, and supervisor relations, observation and actuation boundaries, and any rate bands.
+**Worked slice A — a diagram used as proof.** A safety note claims that a plant is safe because the supervisor monitors the lower controller. Recover what the diagram specifies about the observation path. A display may show measurements even when commands run on a timer. To establish feedback in one episode, trace a measurement used in choosing a command, the applied command, and the observation of its effect. That trace can confirm feedback for the episode. To assess safety, name the hazard and operating conditions and establish how the response addresses them.
 
 Use the applicable safety pattern for the safety claim, `B.3` only for a named assurance claim, `A.10` for bounded source-to-use reliance, `G.6` for citable provenance paths, `C.27.TA` for temporal aspects and rate bands, `C.27` for authored temporal-claim adequacy, and `A.3.3` or the applicable dynamics pattern for dynamics or stability.
 

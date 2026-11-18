@@ -6,12 +6,12 @@ section_id: "C.32.ADR:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ADR/C.32.ADR__002_problem-frame.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.32.ADR — Architecture Decision Record Projection"
   - "C.32.ADR:1 — Problem frame"
-line_start: 84176
-line_end: 84238
+line_start: 84234
+line_end: 84296
 dependencies:
   - "A.10"
   - "A.15"
@@ -44,7 +44,7 @@ keywords:
 
 ### C.32.ADR:1 - Problem frame
 
-Use this pattern when an `ArchitectureDecisionRelation@Project` or equivalent project architecture decision must be published as an ADR-like record, decision memo, trade-study record, certification rationale, or similar decision-description record.
+Use this pattern to publish a project architecture proposal for discussion or an effective project architecture decision for people who will act on it. A team can use an ADR, a decision memo, a trade-study record or a certification rationale. For a decision in force, identify the `ArchitectureDecisionRelation@Project` or the equivalent decision under the project’s governing practice.
 
 Primary working reader: an architect or architecture-responsible practitioner preparing a decision record for developers, reviewers, maintainers, operators, certifiers, or future architects.
 
@@ -68,9 +68,9 @@ A project can publish a record-shaped text that hides the actual architecture de
 
 A decision record can be small, readable, updateable, and tied to candidate synthesis, selected structures, architecture characteristics, method-use instructions, work split, confirmation evals, and source-return.
 
-Ordinary working move: start from a PAD decision relation, select the record's publication scope, map each necessary section to the decision content it carries, then publish only what the reader needs to use, check, or reopen the decision.
+Start with the proposal readers are to discuss or the decision they can act on. Establish its status and choose the content readers need to examine, use or reopen it. For an effective decision, make the PAD decision relation recoverable.
 
-Adoption test: after using C.32.ADR, a future reader can recover the decision question, considered options, outcome, rationale, consequences, required method or work change, confirmation or eval path, source links, and supersession condition without mistaking the record for the architecture or the decision relation.
+After using the record, a reader can identify the decision to be made, the options and what can be done at the stated status. For an adopted design the reader can recover the outcome, grounds, consequences, changes to methods or work, how to check implementation and when to reopen the choice.
 
 Use `C.32.PAD` when the decision content needs development; drafting its record can support that work without a second artifact. Keep an unresolved proposal visibly proposed. Use the subject pattern when the current question is architecture-description adequacy, a general MVPK face, evidence, assurance, gate passage, local choice, performed work or pattern authoring. Use the pattern for the next question named in `Relations`.
 
@@ -81,8 +81,8 @@ ArchitectureDecisionRecordProjection@Project:
   projectWorkOccurrenceRef?: U.EntityRef constrained to U.Work
   architectureDecisionRecordProjectUseRelationRef?: U.RelationRef governed by the exact record-use, publication-use, or work-use pattern
   projectionId:
-  architectureDecisionRelationRef:
-  architectureDecisionDescriptionRef:
+  architectureDecisionRelationRef?: identify the effective decision here or by value when reporting that it was made
+  architectureDecisionDescriptionRef: the recoverable content and its status, including a proposal when that is what is published
   publicationCarrierRef:
   publicationScopeRef:
   intendedReaderRefs:

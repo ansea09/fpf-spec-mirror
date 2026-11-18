@@ -6,7 +6,7 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.1.SCR.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "A.1.SCR — Finding the Acting or Changed System"
 line_start: 3644
@@ -266,7 +266,7 @@ The pattern makes full system recognition more useful by applying it only where 
 
 The conditional route preserves two useful results: a direct subject-pattern answer when systemhood does not change the decision, and a complete A.1 recognition result when it does. Keeping the proposed entity fixed through that choice prevents a familiar noun or a convenient neighboring referent from selecting a different actor, change bearer or project SoI. Project designation remains a separate claim.
 
-Extent-sensitive identity remains useful because it forces the practitioner to state what exists and survives change. Unrestricted composition and category import remain rejected. The seven cases demonstrate transfer across domains without asserting a common kind.
+Extent-sensitive identity remains useful because it forces the practitioner to state what exists and survives change. Unrestricted composition and category import remain rejected. The seven worked cases show which decisions the stated facts support and why. For a treated surface the next step is to identify the workpiece and the change to its surface. For a game session it may be necessary to establish the identity of the operational whole across changes in its constituents. To use the method in a new discipline, identify what acted or changed there, which facts support that identification, and whether the pending decision actually depends on systemhood.
 
 ### A.1.SCR:11 - SoTA-Echoing
 

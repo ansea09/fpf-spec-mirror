@@ -6,12 +6,12 @@ section_id: "C.31.RSA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.RSA/C.31.RSA__005_solution.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.31.RSA — Reusable Structure Accounting"
   - "C.31.RSA:4 — Solution"
-line_start: 79166
-line_end: 79308
+line_start: 79187
+line_end: 79333
 dependencies:
   - "A.10"
   - "A.19"
@@ -44,12 +44,16 @@ C.31.RSA governs reusable-structure accounting over declared structures and stru
 
 #### C.31.RSA:4.0 - Recover reuse and residue from instances
 
-Begin with the result for which reuse matters: for example, delivering another product variant, repeating a review, or applying an evidence package to another case. Select the instances that can answer that question, including a differing or failed instance when it can expose the limit of the apparent common rule. A known template-instance count can be reported directly; this construction is for an unresolved reuse claim.
+Start with the decision. To establish past use, trace what an identified delivery took from the shared design, procedure, evidence or physical article. Name what was carried over and which changes the delivery team made. Two independently made products can both fit the same specification. That can establish conformity even when the origin of one product is unknown. To identify the design choices a person or team made, compare the instructions, designs, parameter settings and help available with the choices made during the work. A worker can produce the correct adapter from a supplier's drawing or choose and justify its geometry independently. A cutting or assembly record can establish execution in either case. Credit design of the part when the record or the person's account establishes which choices that person or team made and why. Work completed before one particular template arrived rules out the use of that template but can still have followed another drawing. To commission a further design, compare the choices it requires and the help that will be available with those the person actually made under comparable conditions. One independently designed flange can support a further flange assignment while leaving design of an entire adapter open.
+
+For a proposed use, compare what the recipient needs with what the shared design or procedure supplies in the intended conditions. Check that the chosen settings work **together**, including their interfaces and any local adaptation. A supported design rule, qualification or test that already covers this combination can answer the question before the first delivery there. If a necessary condition fails, identify what has to change or which alternative fits. If its value is unknown and it could change the answer, identify what would settle it. Actual use at the new site will have its own production or work history.
+
+For a claim about a whole family, explain why the common rule covers all the admitted combinations. One admitted combination that needs an extra operation defeats a promise of use without that operation throughout the family. Preserve the supported uses elsewhere. A known count of template uses can finish a request for that count.
 
 1. **Follow the same required result through the instances.** Use the available products, configurations, instructions, test and approval material, or actual work records to recover what supplies that result, what it receives, and the conditions of each connection. C.30.ASV helps recover the selected structure; C.32.MWA.PP:4.1 and :4.4 help trace performance and provision when those relations matter. Compare the relation or way of doing.
-2. **Explain the differences that matter.** For each consequential difference, find the requirement, input, environmental condition or arrangement that it responds to. Inspect a contrasting instance and the relevant instruction or requirement; ask its provider what would fail if the difference were removed. If that answer is unknown, name the document, participant, observation or justified bounded replay that could distinguish the possibilities. Keep the dependent part unresolved while using the supported common parts.
+2. **Explain the differences that matter.** Identify the requirement, input, environment or local arrangement that accounts for each consequential difference. A contract can already settle whether the customer needs an on-site witness. When the reason is unclear, use a contrasting delivery, a work record, the provider's account or a bounded trial that can distinguish the plausible explanations. Preserve an established shared part while investigating a difference that could change its use.
 3. **State the reusable rule and its permitted variation.** Identify what can remain the same, which values or steps change, and under which conditions the resulting instance still supplies the required result. A necessary customer-specific approval or local adaptation may remain bespoke. A repeated workaround may instead expose a missing parameter, interface condition or Method step. Actual substitution, evidence validity and assurance claims retain their subject rules; resemblance between instances does not establish those claims.
-4. **Choose the next sufficient result.** The common rule, its reusable locus, necessary exceptions and any unresolved dependency may finish a qualitative account. If a repair is needed, use :4.5 to consider where to place the common structure, then follow the affected instance through to its receiving result to check the change and any new burden. A proposed refactoring is a C.32 candidate; the account can also support retaining the present arrangement.
+4. **Choose the next sufficient result.** The shared rule, its permitted changes and the remaining local work may finish the account. When considering a repair under :4.5, trace its consequences through an affected delivery, including who would take on the work moved elsewhere. C.32 can use the proposed change as a candidate. Record a relocation as accomplished when it has taken effect.
 5. **Count only when the question needs a share.** Select the population, unit and reuse test from that question, then apply :4.1–:4.4. A count of template uses, a claim of valid evidence reuse and a claim that whole deliveries can share a Method answer different questions. Preserve the conditions and uncertainty of the one counted.
 
 #### C.31.RSA:4.1 - Typed accounting description
@@ -135,9 +139,9 @@ RSA is useful because it points to relocation and repair actions:
 | Situation | Repair direction |
 | --- | --- |
 | Repeated delivery work contains structure that is not explicit in the work or method description being used. | Move repeated structure into `MethodDescription`, work structure, or reusable work relation. |
-| Repeated interface exceptions are handled one by one. | Add or revise interface grammar, variability slots, or substitution policy; use A.6.M when this is a module-interface claim. |
+| Repeated interface exceptions are handled one by one. | Identify the operating condition that requires the exception. Keep a local adapter when it accommodates that condition economically. Consider a shared interface change when it would serve the affected configurations and its migration and conformance costs are justified. A.6.M governs the module-interface relation. |
 | An undocumented dependency crosses module or view boundaries. | Expose the dependency, revise boundary, add correspondence, or add source-return condition. |
-| Evidence is recreated for each instance. | Move repeatable evidence into an evidence package, assurance argument record, or validity-context note. |
+| Evidence is recreated for each instance. | Identify which claim, configuration and conditions the earlier evidence covers. Reuse the result where it still answers the question. For an uncovered condition, the same procedure may generate new evidence. |
 | Regulatory or safety-case residue remains one-off. | Split reusable argument structure from context-specific exception; apply B.3 to the assurance claim, including a claim about safety-case support, and G.6 when a citable provenance path is needed. |
 | Compression hides needed distinctions. | Recover the omitted distinctions or reduce compression. Use C.29 when choosing or transferring the mathematical representation, or relying on its result, leaves an unresolved question. |
 | Bespoke residue protects necessary local variation. | Keep it as a bounded exception with its use conditions and any action-changing limit. |

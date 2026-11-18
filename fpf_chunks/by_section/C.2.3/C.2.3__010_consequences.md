@@ -6,12 +6,12 @@ section_id: "C.2.3:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.3/C.2.3__010_consequences.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.2.3 — Formality of an Episteme"
   - "C.2.3:9 — Consequences"
-line_start: 55602
-line_end: 55610
+line_start: 55604
+line_end: 55612
 dependencies:
   - "A.16"
   - "A.18"

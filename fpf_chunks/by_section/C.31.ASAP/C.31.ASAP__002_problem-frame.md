@@ -6,12 +6,12 @@ section_id: "C.31.ASAP:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.ASAP/C.31.ASAP__002_problem-frame.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.31.ASAP — Which Architecture Is Preferable Under Scale? (Scale Amenability)"
   - "C.31.ASAP:1 — Problem frame"
-line_start: 79524
-line_end: 79586
+line_start: 79547
+line_end: 79608
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -65,9 +65,9 @@ ScaleClaimTriage:
   scaleVariableRef:
   scaleWindowRef:
   claimedPreferenceUnderScale:
-  slopeEvidenceRef, scaleProbeEvidenceRef, or noProbeReason:
-  expectedStableOrImprovingStructure:
-  exceptionGrowthRisk:
+  slopeEvidenceRef, scaleProbeEvidenceRef, comparisonBasisRef, or noProbeReason:
+  expectedStableOrImprovingStructure?:
+  exceptionGrowthRisk?:
   sourceReturnCondition?:
   relatedClaimGovernanceIfClaimed:
   stopCondition:
@@ -79,9 +79,8 @@ Ordinary use starts by naming:
 - the `U.ClaimScope` and relevant A.2.6 `U.ContextSlice` membership;
 - the scale variable and scale window;
 - the claimed preference under scale;
-- the available slope or scale-probe evidence or no-probe reason;
-- the expected stable or improving structure; and
-- the exception-growth risk.
+- the observations or derivation supporting the proposed scale behavior, or what remains open in their absence;
+- the structural feature or exception behavior on which that preference depends, when it calls for either.
 
 Name `modelUseStructureRef` only when one independently selected `BoundedModelUseStructure` changes this receiving interpretation; it never replaces the claim scope.
 
@@ -94,7 +93,7 @@ What goes wrong if C.31.ASAP is missed:
 - exception growth is hidden until the architecture is already expensive to change; and
 - coarse descriptions keep losing lower-scope safety or semantic distinctions without a source-return condition.
 
-What C.31.ASAP buys in practice: the practitioner can say what is being scaled, where the scale claim holds, what structure is expected to remain stable or improve, what exceptions are allowed, what evidence or no-probe reason exists, which scale-preference claim stays in C.31.ASAP, and which pattern defines or tests any lens-use, evidence, assurance, selection, or decision claim being made.
+A practitioner can use the resulting account to say which architecture is preferable for the planned scale and criterion, which conditions support that judgement, and what could reverse it.
 
 For questions limited to the following concerns, use the corresponding patterns instead of C.31.ASAP:
 

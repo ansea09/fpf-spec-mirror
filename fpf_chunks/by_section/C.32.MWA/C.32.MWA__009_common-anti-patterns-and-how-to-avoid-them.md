@@ -6,12 +6,12 @@ section_id: "C.32.MWA:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA/C.32.MWA__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.32.MWA — Synthesize an Architecture Account of Methods and Their Use"
   - "C.32.MWA:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 82869
-line_end: 82883
+line_start: 82920
+line_end: 82934
 dependencies:
   - "A.13"
   - "A.15.1"
@@ -44,8 +44,8 @@ keywords:
 | **One view set for every practice** | A convenient template becomes a universal ontology and imports irrelevant work. | Always keep the identity-and-relation check; add other structures only when they change the decision. |
 | **Synonyms as alternatives** | Several names hide one unchanged organization and create false diversity. | State what decision, relation, or unlike-case result differs; merge candidates that differ only by labels. |
 | **Local win, invisible burden** | The apparent improvement exports cost, delay, evidence, control, or residual to another structure. | Name the receiving scope and compare the moved burden with the claimed gain. |
-| **Product comparison everywhere** | The Method becomes framework-product design even when the architecture of Methods and their use is the only question. | Open the four-option branch only when product identity is current. |
-| **Product comparison nowhere** | A live field or maintenance boundary is hidden inside a favored architecture. | Compare the four arrangements and pass the result to the applicable product decision. |
+| **Product comparison everywhere** | A guidance-product decision is imposed on an unrelated architecture question. | Compare product boundaries when what practitioners can obtain or maintain depends on those boundaries. |
+| **Product comparison nowhere** | One favored publication arrangement conceals an independent field or maintenance need. | Compare the arrangements that could meet that need and give the reasons to the product decision maker. |
 | **Model equals its subject** | A view or matrix is treated as a world-side whole or relation. | State the described subject, model use, correspondence, and preserved and lost distinctions. |
 | **Project choice equals cultural success** | A deliberate intervention is taken as proof of later recognition, spread, selection, or retention. | Keep the project claim and each cultural-change claim separate; use `C.36` for the latter. |
 | **Notation as the first result** | The account becomes precise but unusable to the practitioner who must act on it. | Lead with the short prose synthesis; retain notation only where it catches an ambiguity or supports a later check. |

@@ -6,12 +6,12 @@ section_id: "C.31.RSA:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.RSA/C.31.RSA__002_problem-frame.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.31.RSA — Reusable Structure Accounting"
   - "C.31.RSA:1 — Problem frame"
-line_start: 79095
-line_end: 79144
+line_start: 79116
+line_end: 79165
 dependencies:
   - "A.10"
   - "A.19"
@@ -40,7 +40,7 @@ keywords:
 
 ### C.31.RSA:1 - Problem frame
 
-Use this pattern when a practitioner needs to locate where reusable structure lives, where bespoke residue grows, which accounting basis is being used, what can be refactored, and what remains a bounded exception or source-return condition. A report-only share supports a separate use only when that use meets the conditions defined by its applicable pattern.
+Use this pattern when planning another delivery or reviewing a claim of reuse. Work out which part came from a shared design, procedure or physical article, which work was specific to the delivery, and what the next use requires. A team can use the same procedure twice and still need new measurements each time.
 
 Claim-use boundary: any use that relies on the RSA account to make a claim beyond reusable-structure accounting is outside RSA. Examples include comparison, publication, evidence validity, assurance or safety-case reliance, gate use, architecture scale preference, causal use, selected-set result declaration, candidate synthesis, and local decision.
 
@@ -63,7 +63,7 @@ ReusableStructureTriage:
   evidenceRefs:
   whereReusableStructureCurrentlyLives:
   whereBespokeResidueCurrentlyGrows:
-  residueRefactoredInto:
+  residueRefactoredInto?:
     template | interfaceSpecification | methodDescription |
     workStructure | evidencePackage | assuranceArgumentStructure | otherDeclared
   residueAcceptedAsBoundedException:

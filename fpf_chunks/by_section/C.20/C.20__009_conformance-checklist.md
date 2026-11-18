@@ -6,12 +6,12 @@ section_id: "C.20:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.20/C.20__009_conformance-checklist.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.20 — Composition of U.Discipline (Discipline-CAL)"
   - "C.20:7 — Conformance Checklist"
-line_start: 65203
-line_end: 65223
+line_start: 65206
+line_end: 65226
 dependencies:
   - "A.1"
   - "A.14"
@@ -57,7 +57,7 @@ keywords:
 | `CC-C20-8` | Candidate-side interfaces and identity-preservation conditions fit at least one governed possible larger field assembly; an actual larger-discipline part claim still needs its own obtaining occurrence. |
 | `CC-C20-9` | Domain names, epistemes, Methods, systems, Work, structures, Bridges, comparisons, publications, evidence, and decisions remain with subject patterns unless the separate C.20 part predicate obtains. |
 | `CC-C20-10` | Any selected bounded-model-use structure is optional, independently identified, tied to one named receiving use, and creates no part, holon, subkind, viewpoint count, breadth, or identity. |
-| `CC-C20-11` | Applied, multidisciplinary, transdisciplinary, tradition, lineage, and school claims state their own criteria; no public U-kind or discipline part follows from wording or counts. |
+| `CC-C20-11` | A breadth claim identifies what it classifies and the criterion used. For joint interdisciplinary work, identify the result that combines the disciplines’ contributions. For a transdisciplinary principle, state the relation and the conditions for interpreting it in each eligible discipline. For use in one field, identify which distinction, inference or choice relied on the principle. A claim about a new discipline must also satisfy section 4.1. Applied, tradition, lineage and school classifications retain their declared criteria. A public U-kind and a discipline part each require their own grounds. |
 | `CC-C20-12` | A field, scheme, cell, or plane difference alone creates no F.9 Bridge. A use that relies on an obtaining Bridge separates it from its bounded-use proposition, direction, rule, tolerance, polarity, A.10 reliance or actual named B.3 assurance branch, observed loss when relevant, and actual comparison; a ReferencePlane-only crossing instead cites the applicable plane relation and policy. |
 | `CC-C20-13` | Comparison or aggregation retains its exact inputs, Characteristics, Scales, applicable Units, scope and justified operation; measurement and selected G.0/A.19 interfaces retain their own conditions. C.20 defines no comparison result or reliability fold. |
 | `CC-C20-14` | A health value, state label, evidence profile, registry row, description edition, publication occurrence, form, or carrier changes no discipline construction fact by itself. |

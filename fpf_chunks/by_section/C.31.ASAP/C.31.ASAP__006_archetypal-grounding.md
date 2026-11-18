@@ -6,12 +6,12 @@ section_id: "C.31.ASAP:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.ASAP/C.31.ASAP__006_archetypal-grounding.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.31.ASAP — Which Architecture Is Preferable Under Scale? (Scale Amenability)"
   - "C.31.ASAP:5 — Archetypal Grounding"
-line_start: 79779
-line_end: 79822
+line_start: 79805
+line_end: 79852
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -53,7 +53,7 @@ keywords:
 
 | Archetype | Without C.31.ASAP | With C.31.ASAP |
 | --- | --- | --- |
-| Product-line platform | Platform name is treated as scale-preference evidence. | Variability slots, extension rules, exception curve, and refactor triggers are declared before preference use. |
+| Product-line platform | A team treats a platform name as grounds for lower rollout cost. | Compare the work or price for the planned varieties and volumes. Investigate a variation or exception when it can change that comparison. |
 | Neural architecture block library | Reusing blocks is treated as reusable architecture by itself. | The alternative set names scale variable, interface grammar variants, exception growth, and source-return condition. |
 | Safety or certification reuse | Reusable evidence package is counted without validation boundary. | Evidence reuse remains tied to source-return. An evidence-validity or safety claim is tested under its applicable domain rule. Establish the relied-on source grounds; use `A.10` for a needed replayable source-to-use account, `G.6` for needed addressable provenance, and `B.3` when a named assurance claim is current. |
 | Cross-scope residual | A frustration or complexity label is treated as scale mathematics. | C.31.ASAP names the scale window and residual slope; establish the mathematical basis of the interpretation; use C.29 if representation choice, transfer or reliance is unresolved. |
@@ -70,7 +70,7 @@ ScaleClaimTriage:
   scaleVariableRef: N_sites
   scaleWindowRef: 5 to 40 regulated deployment sites inside the current qualification window
   claimedPreferenceUnderScale: platform alternative is preferred if interface variants and approval exceptions grow slower than bespoke variants
-  slopeEvidenceRef, scaleProbeEvidenceRef, or noProbeReason: evidence from six deployments; behavior outside the tested conditions remains a hypothesis unless an extrapolation basis is supplied
+  scaleProbeEvidenceRef: six platform deployments using the ordinary interface within one qualification regime. The records identify the interface, local exceptions and work completed at those sites.
   expectedStableOrImprovingStructure: interface grammar, reusable test package, deployment work template
   exceptionGrowthRisk: jurisdiction-specific clauses and side-channel integrations may grow faster than sites
   sourceReturnCondition: return to exception register, interface variant log and deployment evidence when a wider window or stronger use needs distinctions omitted from this account
@@ -78,7 +78,11 @@ ScaleClaimTriage:
   stopCondition: retain the supported local guidance and the untested-window hypothesis; establish comparison, evidence-validity or decision grounds for that further use
 ```
 
-Admissible move: use the supported local comparison to consider the platform and its interface-grammar repair. The six-deployment probe alone does not establish the whole 5–40-site window. Retain the wider preference as a hypothesis until a warranted extrapolation or further probe supports it; if exceptions accelerate, narrow or split the window and revise the preference. A separate selected-set, evidence, assurance, gate or decision use retains its own grounds.
+The six platform deliveries show which interfaces and exceptions occurred there. Predicting a lower growth rate than the bespoke alternative calls for comparable grounds for that alternative and for the future mix of sites. Identify the change in configuration or jurisdiction that could reverse the preference.
+
+Suppose both suppliers offer the same required service for five to forty sites during the quotation period. The shared platform costs 18 units to prepare the common interface and 2 per ordinary site. The bespoke offer costs 5 per site. At five ordinary sites the quoted totals are 28 and 25. At six they tie. From seven through forty ordinary sites the platform costs less. This follows from the two binding offers for that range. The six installations alone would not establish those prices.
+
+At eight sites the ordinary prices are 34 and 40. Under the same offers one site needing a different connector adds a one-time charge of 12 to the platform total and is included in the bespoke price. The comparison then favors the bespoke offer at 40 against 46. If the eighth site's connector is unknown and the other seven are ordinary, its interface specification settles which offer is less expensive. An assertion about actual expenditure still needs the charges incurred. An architecture choice can also depend on service or assurance conditions beyond price. At twelve sites with at most one such surcharge, the platform quote is either 42 or 54 against 60. Its price advantage then holds with either connector.
 
 #### C.31.ASAP:5.2 - Near-miss lowering slice
 
@@ -86,10 +90,10 @@ Near-miss: a team says the platform architecture should win because it has an 82
 
 Lowering replay:
 
-- The platform label is a source cue, not scale-preference evidence; recover variability slots, extension rules, exception curve, and source-return condition first.
-- The 82 percent reusable-structure share stays report-only under C.31.RSA until the scale variable, scale window, accounting basis, comparator admission, and admissible comparison relation are declared.
+- Identify the feature of the proposed platform on which the preference depends. For a preference based on exception-handling effort, recover which variants require an exception and how much work it adds.
+- The team's reported 82 percent gives a starting point for checking the claim. Recover the counting unit, population and records to establish the share. Even an established share can correspond to 41 of 50 or 82 of 100. It supplies an absolute count only with an adequate denominator and precision. For a scale preference, establish how the counted reuse affects the characteristic compared over the proposed deployments.
 - An RG-like phrase alone supplies no mathematical correspondence or scale-preference evidence. Recover the model and its relevant preservation and loss; use C.29 if representation choice, transfer or reliance remains unresolved.
 - The "bespoke debt" label is lowered to waiver review when safety, law-domain, mission, assurance, or scale-probe overturn reasons may justify the local variant.
 
-Stop the dependent C.31.ASAP use when its scale window, probe evidence or no-probe reason, required comparator admission, or action-changing source-return condition is absent. Reopen it only after the fields required by that use are recoverable and the platform-label, share, lens, and waiver claims have their governing patterns.
+Report the 82 percent as the team's statement until its basis is established. Preserve a verified accounting result within that basis. If compatible rollout plans favor different alternatives, identify the conditions for each preference and what the present decision requires.
 

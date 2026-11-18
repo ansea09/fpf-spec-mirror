@@ -6,12 +6,12 @@ section_id: "C.22.2:2"
 section_title: "Thin First Use and Output Kind"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__003_thin-first-use-and-output-kind.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:2 — Thin First Use and Output Kind"
-line_start: 66633
-line_end: 66819
+line_start: 66638
+line_end: 66824
 dependencies:
   - "A.10"
   - "A.15"
@@ -65,9 +65,9 @@ The first substantive use is the Thin form. It is a practitioner-facing prompt f
 **Develop the content from accessible material.** If the concern is still a rough signal, use the constructive examination in B.5:4.1.2 at the scale needed here:
 
 1. Follow an actual episode, inspect the artifact or recover the source statement that prompted attention. Separate what it shows from a proposed cause or solution. Trace what result is used, by whom or by what next operation, and what happens there.
-2. Recover why that consequence matters. Read the applicable purpose, acceptance condition, commitment or constraint, or ask the participant responsible for that use. Connect the observed condition to that criterion through the relevant subject account. If the criterion or connection is unknown, preserve that specific inquiry rather than asserting an actual Problem.
+2. Recover why that consequence matters. Read the applicable purpose, acceptance condition, commitment or constraint, or ask the participant responsible for that use. Identify the entity affected in that use and trace how the observed condition bears on its criterion. The person reporting the signal and the subject of the card can each differ from the affected entity. If the criterion or connection is unknown, preserve that specific inquiry rather than asserting an actual Problem.
 3. Form the claim at the extent the material supports. Identify the participants and relation, the cases or conditions covered, and the meaning of the terms used. Distinguish a reported current condition from a forecast, an explanation to test or a claim about available means. Inspect a contrasting case when it can distinguish materially different formulations; retain an adequate existing formulation directly.
-4. When the next use needs an improvement or acceptance check, derive it from the consequence and criterion: what observable result or argument would establish the needed difference, under what conditions, and by which available comparison or test? Use an adequate existing result or method; obtain the particular missing observation, interpretation or subject assistance when it prevents that check. A source inquiry can still be the sufficient next use before such a check is available.
+4. When the next use needs a check, derive it from the claim the recipient must decide. A clarification can be tested by asking which recorded event satisfies the applicable rule. An improvement in service needs a comparison of service outcomes across the relevant work under comparable conditions. Identify the observation or argument that can settle the claim. Use an adequate existing result or method; obtain the particular missing observation, interpretation or subject assistance when it prevents that check. A source inquiry can still be the sufficient next use before such a check is available.
 5. Carry the supported formulation and its consequential uncertainty into the Thin form below. Choose the next operation because its available inputs and attainable result answer the remaining question. If no useful operation can yet be described, return to the episode or request help on that missing connection.
 
 A `ProblemCard` is complete for its current use when it states:

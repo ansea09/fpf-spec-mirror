@@ -6,12 +6,12 @@ section_id: "C.30.AD:5"
 section_title: "Archetypal Grounding (Worked Cases)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__007_archetypal-grounding-worked-cases.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:5 — Archetypal Grounding (Worked Cases)"
-line_start: 75662
-line_end: 75683
+line_start: 75687
+line_end: 75708
 dependencies:
   - "A.1"
   - "A.10"
@@ -90,9 +90,9 @@ keywords:
 | An architecture document compares residual-reducing candidate decompositions or optimization moves. | Record with `C.30.AD` only the description or publication use of that comparison. Use `C.32.MLAO` for residual-reducing frames, `C.32` for candidate palettes, `A.19.CPM` or `A.19.SelectorMechanism` for comparison and selector-policy use, `C.18` or `C.19` for archives, fronts, and current-pool treatment, `G.5` for selected-set result declaration, and `C.11` for final local choice. For a measurement claim, use the pattern that defines or tests the measured characteristic and result. |
 | A review note, dashboard, or generated report describes gaps in an architecture description rather than the architecture itself. | Treat the second description as its own `U.Episteme` and name its source, representation, publication, review, or evaluation relation. Keep the path to the first description and its EntityOfConcern visible without treating either description as architecture, residual, decision, or proof. |
 
-**Worked use: one subject, two descriptions, one changed placement.** Consider a constructed payment-system case. `PaymentFunctions1` describes the authorization and capture functions of `PaymentSystem1`; `PaymentDeployment1` describes its application instances and their placement on `HostA` and `HostB` at time t1. Each description has its own ClaimGraph and effective reference scheme, with `PaymentSystem1` as its EntityOfConcern. The common subject is supported by those identifications. To infer where authorization runs, the practitioner also needs the correspondence from that function to an application instance and the instance's placement. Merely putting the two diagrams beside one another supplies neither connection. If they are called `U.View`, their separate conformance to the selected functional and deployment viewpoints must also hold; that conformance does not establish the truth of the deployment claim.
+**Worked use: one subject, two descriptions, one changed placement.** Consider a constructed payment-system case. `PaymentFunctions1` describes the authorization and capture functions of `PaymentSystem1`; `PaymentDeployment1` describes its application instances and their host placements at time t1. Each description has its own ClaimGraph and effective reference scheme, with `PaymentSystem1` as its EntityOfConcern. The common subject is supported by those identifications. Suppose authorization can run on either of two application instances. If the current placement inventory locates both on `HostA` and these are the only eligible instances, the host is known even with no record of which instance served a call. If one is on each host, both answers fit these descriptions. A binding in force at the time can settle which hosts are permitted. If both hosts are permitted for that call, use evidence that locates it when it ran. Each claimed `U.View` also needs conformance to its selected viewpoint under E.17.0.
 
-Suppose the identified configuration and invocation facts supply those connections. The descriptions now support the bounded answer that authorization runs through the named instance on `HostA` at t1. A short explanation with those source references can be retained and handed on without a card. For a proposed move to `HostB`, the same material identifies the connection to change; it does not show that the move has occurred or that capacity, latency, or release conditions will be met. Those questions require their own basis. The intended placement can be stated as a specification while its realization remains unresolved.
+For example, suppose the invocation record identifies instance `Auth1` as the handler for call Q at t1 and the deployment record places `Auth1` on `HostA` at that time. The records together locate Q on `HostA`. A short account citing both suffices. To move `Auth1` to `HostB`, the designer can specify the new placement now. Its available capacity, achieved latency and actual deployment are separate decisions with their own grounds.
 
 After an actual placement change at t2, the t1 deployment description can remain a true historical description but no longer answer the current-placement question. Return to the changed configuration and relevant facts to produce the revised deployment description and correspondence. Retain the functional description if its functions, claims and reference scheme are unaffected. A new rendering of the old deployment description would not supply this repair. The changed condition therefore selects the description and connection to revisit; it does not require rebuilding the whole view set or withdrawing the historical answer.
 

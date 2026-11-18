@@ -6,12 +6,12 @@ section_id: "C.32.ACS:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACS/C.32.ACS__002_problem-frame.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.32.ACS — Architecture Characteristic Criteria Set"
   - "C.32.ACS:1 — Problem frame"
-line_start: 81516
-line_end: 81605
+line_start: 81561
+line_end: 81650
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -65,7 +65,7 @@ Typical entry phrases:
 
 This pattern constructs a project architecture-characteristic criteria set for the receiving improvement or evaluation question. The optional records below can keep its bindings recoverable. Its rows can supply C.32 synthesis, C.32.MLAO residual work, C.32.ACE eval programs, and later patterns for the next questions. The named set and row records are C.32.ACS-local forms, not new `U.*` kinds; starter packs, `U.Characteristic` values, Q-Bundles, measurement methods and results, eval programs and results, candidate palettes, comparison rules, selection results, G.5 result declarations, actual publications, local choices, and architecture decisions remain separate objects.
 
-Ordinary working move: make one row per project architecture characteristic, bind its bearer and scale, mark whether it drives optimization, guards against loss, or only gives context, and record what eval reading can reopen synthesis.
+Ordinary working move: identify the bearer and scale of the characteristic, then state the decision each use of its value supports. A binding limit determines admission. A preference can use the same quantity to rank the admitted candidates. Record the uses separately when their decision rules differ.
 
 The first useful result is a set of criteria with their meanings, use classes and necessary bindings. Use `ArchitectureCharacteristicCriteriaSet@Project` when a record helps:
 

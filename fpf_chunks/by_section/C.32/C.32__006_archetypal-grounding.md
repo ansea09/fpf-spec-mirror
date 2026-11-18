@@ -6,12 +6,12 @@ section_id: "C.32:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32/C.32__006_archetypal-grounding.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.32 — Architecture Candidate Synthesis"
   - "C.32:5 — Archetypal Grounding"
-line_start: 80215
-line_end: 80226
+line_start: 80249
+line_end: 80270
 dependencies:
   - "A.10"
   - "A.15"
@@ -73,5 +73,15 @@ keywords:
 | Built-asset digital-twin handover where a method-defined digital-twin view hides source loss | Which selected structures do the digital-twin dimensions describe, and which source-return obligations must survive maintenance use? | Prepare candidates that split information view, add source-return scope, retarget maintenance responsibility, or change module and placement structure. | Stop before built-asset architecture-description, MVPK publication-face, or A.10 evidence-relation claims unless `C.30.AD.BA`, `E.17`, `E.24.PUB`, or evidence patterns are current. |
 | Emergency-department triage arrangement whose local desk is fast but hospital-wide escalation is brittle | How should admitted Systems, local system-role kinds or classifications, future assignment conditions, procedure and Method structure, control, direct responsibility, evidence, and any actual Work and separately needed F.6 attribution be configured so speed does not erase escalation adequacy? | Prepare candidates that retarget responsibility only through an admitted direct predicate, state a possible mediator assignment as plan or candidate content rather than an occurrence, split triage scope by patient class, or adjust evidence capture; use the missing governor when needed. | Stop before ethical mediation, evidence, staffing decision, assignment occurrence, or performed Work unless those claims are current. |
 | AI-agent review setup where local autonomy conflicts with policy scope | How should control, module-interface, evidence-refresh, and work-method structures be configured so autonomy and policy conformance stay jointly acceptable? | Prepare candidates that add supervisor relation, narrow model interface behavior, change evidence refresh cadence, or alter work-method responsibility. | Stop before safety, release, gate, or causal claims unless their subject patterns are current. |
-| Method family whose reusable template speeds authoring and slows review | How should Method structure, authored-section structure, review evidence, admitted Systems, possible future assignment conditions, and direct review-responsibility relations be configured so repeatability does not create hidden review residue? | Prepare candidates that split Method variants, add review evidence scope, change a planned assignment condition, retarget responsibility through its direct predicate or record the missing governor, or accept bounded local Method residue. | Stop before Method governance, curriculum decision, assignment occurrence, performed Work, description use, or publication-face use unless the pattern for the next question is current. |
+| Method family whose shared template shortens drafting and lengthens review | Which arrangement gets an acceptable document to its reader earlier? | Compare drafting and review of each document with use of the template. Another candidate separates reusable checks on the common material from checks that need the completed document. Establish which checks can travel with the template. | Use the qualifying conditions and the reviewer’s availability to decide what can already be recommended. See §5.1. |
+
+#### C.32:5.1 - Choose an arrangement for an accepted document
+
+A team must deliver a document after an independent review. Under one design the author drafts for 50 minutes and the reviewer needs 20 minutes. A shared template changes those times to 35 and 30 minutes. Both designs preserve the same review of the finished document. For this comparison assume those durations, a common start, an immediately available author, review after drafting and no rework. The reviewer has time to finish once available, is authorized to accept the document and accepts it when the review ends. In this agreement, delivery occurs when the accepted document becomes available to the reader. Acceptance gives the reader immediate access.
+
+If the reviewer is ready for either handover, the template delivers at minute 65 and the existing arrangement at minute 70. If the reviewer first becomes available at minute 60, both drafts wait. The existing arrangement delivers at minute 80 and the template at minute 90. The template saves five minutes of combined effort in both comparisons. The earliest acceptable delivery changes with the appointment. Even an inexact appointment can settle the choice. Availability by minute 39 puts the template ahead throughout that range.
+
+A third design could qualify common material once and review its use in each finished document. To compare it, identify the common checks, the authority that accepts their reuse and the local checks each document still needs. A new heading in the template leaves this work in place unless a check or its input actually changes.
+
+These times are consequences of the stated designs. Suppose instead that accepted documents are delivered together at minute 100. Both designs then meet the same delivery time under either appointment. If the recipient chooses the lower effort at equal delivery, the template can be selected without first resolving the appointment. To establish how long a particular release took, use its actual start and the event promised to the recipient. Use the delivery terms to identify the event and its evidence. A portal access record can establish when the document became available under this agreement. If delivery is complete when a named recipient receives the document, establish when it reached them. If the agreement also requires their acknowledgement to complete delivery, use the time of that act. A receipt at minute 100 followed by a required acknowledgement at minute 120 completes delivery at minute 120. To establish what passed review, use the applicable criterion and the review result for that document. A comparison across releases also depends on what they had to deliver, reviewer availability and any rework. A shorter observed release can raise a question about the design without identifying what caused the difference.
 

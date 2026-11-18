@@ -6,12 +6,12 @@ section_id: "E.8:4"
 section_title: "Solution — One template, enriched by style principles"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__006_solution-one-template-enriched-by-style-principles.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:4 — Solution — One template, enriched by style principles"
-line_start: 102696
-line_end: 103428
+line_start: 102763
+line_end: 103495
 dependencies:
   - "E.10"
   - "E.10.MOVE"
@@ -588,7 +588,7 @@ A case, sketch or attempted calculation can reveal a missing relation before the
 
 When the reader is learning to model a domain, say what the reader must do with the domain's own types. For a transdisciplinary principle, explain which distinction applies to those types, how to recognize the relation and what inference it warrants. For a domain principle, supply the field's own rule and its conditions. If the intended result is a way of working, explain how to select or construct the next operation, what it produces, and which dependent choices to revisit when its grounds change. A single publication may teach all of these. On unfamiliar material, ask the reader to select, relate or revise the local types and use them to reach a result in the recipient's terms. A worked case makes that reasoning inspectable. C.39.WA:4.3 distinguishes the relations used in such inferences.
 
-When an author uses a case to test an independent choice, identify the choice the prompt leaves open, the sources and help available at that point, and what the learner actually supplied. A problem statement in a brief can support a test of evaluating that formulation. To test formulating the problem, use work in which the learner still had to frame it. An earlier working record can supply that evidence. E.23.CDI:4.2.1 guides the separate decision about how a holder can acquire and demonstrate a capability under its working conditions.
+When an author uses a case to test an independent choice, identify the choice the prompt leaves open, the sources and help available at that point, and what the learner actually supplied. A problem statement in a brief can support a test of evaluating that formulation. To test formulating the problem, use work in which the learner still had to frame it. An earlier working record can supply that evidence. Apply the same test when the task is to construct a disciplinary model. Inspect which unit, identity criterion, correspondence or decision rule was already given. A worked answer can show how the learner applied it. Credit independent construction for the model choices the learner actually made and justified. If a completed form could be copied, check the result itself and keep attribution open until there is evidence of the learner's work. E.23.CDI:4.2.1 guides the separate decision about how a holder can acquire and demonstrate a capability under its working conditions.
 
 **Keep the explained subject and its example distinguishable.** When teaching a Method, identify the reusable way, the actual or stipulated performance that illustrates it, and the material on which that performance works. Show which choice or action in the example enacts which operation and why its result is usable next.
 

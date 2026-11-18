@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.13.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "F.13 — Lexical Continuity & Deprecation"
-line_start: 130995
-line_end: 131302
+line_start: 131062
+line_end: 131369
 dependencies:
   - "F.1"
   - "F.17"

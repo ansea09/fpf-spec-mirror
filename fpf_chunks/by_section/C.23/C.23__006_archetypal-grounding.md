@@ -6,12 +6,12 @@ section_id: "C.23:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.23/C.23__006_archetypal-grounding.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.23 — MethodFamily Evidence & Maturity (Method‑SoS‑LOG)"
   - "C.23:5 — Archetypal Grounding"
-line_start: 67489
-line_end: 67539
+line_start: 67502
+line_end: 67552
 dependencies:
   - "A.10"
   - "B.3"
@@ -70,7 +70,7 @@ The following are constructed branch examples. For each later branch, stipulate 
 - `Constraint‑Programming`: **MaturityCard**=`L2`; the ordinal `service_level≥B` Acceptance predicate is met. Baseline parity is an additional CAL condition, not a missing R0 minimum in this example. Its declared failure behavior permits `Degrade(scope-narrow)` while parity is unresolved, after R0 and eligibility pass for the narrowed use. If that parity basis were required by R0, the result would be `Abstain`.
 - `Heuristic meta‑search`: **MaturityCard**=`L1`. The applicable AcceptanceClause and family failure policy decide between a permitted `Degrade(sandbox)` branch and `Abstain`; L1 alone supplies neither outcome.
 
-*Didactic anchor.* G.5 declares a `Shortlist` of the non-dominated retained candidates, with its comparison basis and unresolved ties; no cross-ordinal weighting is introduced.
+*Using these results.* Hand the dispatcher the admission decision and permitted conditions for each family. A family admitted for a sandbox trial can enter that trial. Before selecting it for ordinary work, establish its eligibility for that use. A shortlist can retain alternatives eligible for the same intended use. To claim that a member is non-dominated, compare performance on cost and service under the stated order and common conditions (C.18:4.4). The admission results above provide no such comparison.
 
 > Dunning, Huchette and Lubin (2017) describe **JuMP** as a modeling language that separates model expression from optimization-solver choice. This supplies a concrete software example of preserving a problem description while considering different solvers. ([SIAM Review][18])
 

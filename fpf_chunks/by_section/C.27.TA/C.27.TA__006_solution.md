@@ -6,12 +6,12 @@ section_id: "C.27.TA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27.TA/C.27.TA__006_solution.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.27.TA — Temporal Aspect: Time Windows, Rhythm, Cadence, and Currentness"
   - "C.27.TA:4 — Solution"
-line_start: 70743
-line_end: 70849
+line_start: 70759
+line_end: 70867
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -118,6 +118,8 @@ Add the remaining fields only when their values change the claim or receiving ac
 #### C.27.TA:4.4 - Rhythm, Cadence, And Synchronization
 
 A rhythm or cadence claim needs its bearer, recurrence or ordering property and timing reference. An empirical assertion such as a weekly cadence observed during R14 also needs that observation window. A planned rule such as "run a review every Friday while this plan applies" can state its recurrence and applicability directly. Add phase, synchronization, entrainment or other cross-bearer relations when the claim depends on them.
+
+Choose the timing rule by what the recipient needs. An average number of occurrences per week, at least one occurrence in each calendar week, and a maximum seven-day gap answer different questions. For weekly coverage, place dated events in their reporting weeks. For a gap limit, compare elapsed times between successive events over the period the agreement covers. When a missing record is meant to establish a missed occurrence, check which events the recording procedure covers. A plan supplies the intended timing and can be used to schedule work.
 
 Optional reference-bearing form:
 

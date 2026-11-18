@@ -6,12 +6,12 @@ section_id: "C.26.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.2/C.26.2__005_solution.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.26.2 — Enacted Distributed State Evidence"
   - "C.26.2:4 — Solution"
-line_start: 69498
-line_end: 69715
+line_start: 69514
+line_end: 69733
 dependencies:
   - "A.10"
   - "A.15"
@@ -150,6 +150,8 @@ When the reading depends on relations among parts, recover that organization exp
 The evidence-bound state reading is a `U.Episteme` reading over coordinated work, behavior, or trace patterns by a declared collective `U.System`. The pattern does not govern an inner group entity, a culture substance, a market mind, a hidden service intelligence, or a reusable kernel state kind.
 
 The useful state claim retains the collective bearer and boundary, the observed pattern, the evidence supporting it and its time window. Include persistence, probe or export conditions, serious alternatives and further subject work only when the receiving claim depends on them.
+
+Read the timing condition from the decision. Some decisions combine separately completed checks. For an ordered handoff, follow the same item from completion by one part to receipt by the next. For joint readiness, identify the required instant or period. A single observation can establish the joint state at an instant. Observations made at different times can also suffice when other evidence establishes the necessary overlap. One verified interruption during a period of required continuous readiness defeats that claim. When every history compatible with the observations satisfies the specified timing condition, accept it. When every such history violates it, report failure. When some satisfy it and others do not, retain the local readings and leave joint readiness open. If the observations conflict so that no history fits them, resolve that conflict before using them together.
 
 This pattern is useful because many work states are enacted before they are articulable. For example:
 

@@ -6,12 +6,12 @@ section_id: "C.22:1"
 section_title: "Intent"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22/C.22__003_intent.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.22 — Task Typing and TaskSignature Assignment (Problem-CHR)"
   - "C.22:1 — Intent"
-line_start: 65595
-line_end: 65630
+line_start: 65598
+line_end: 65633
 dependencies:
   - "A.6.0"
   - "C.16"
@@ -60,7 +60,7 @@ Make the task distinctions relevant to a selector decision explicit in a typed `
 
 `ProblemCard` is the C.22.2 C.2.1 episteme used to stabilize one problem-side representation before downstream Principles-to-Work.
 
-A ProblemCard can prepare `TaskKind`, scope, and characteristic bindings for a candidate TaskSignature. Assignment obtains only when one signature is adequate for the named receiving use. If several signatures remain plausible, keep them as candidates under the selection or problem-framing pattern rather than asserting one assignment occurrence.
+A ProblemCard can prepare `TaskKind`, scope, and characteristic bindings for a candidate TaskSignature. Identify which adequate signature was adopted for this problem-side episteme and receiving use under §5.2. Other adequate descriptions may be available. If adequacy or adoption is unresolved, retain the candidate signatures and identify what would settle it.
 
 Assigning a TaskSignature does not transfer the card's claims into it. The signature keeps only its A.6.0 declaration content; the card remains the reviewable problem-side episteme that explains why this problem can proceed to characterization, comparison, search, refresh, retirement, or another subject pattern.
 

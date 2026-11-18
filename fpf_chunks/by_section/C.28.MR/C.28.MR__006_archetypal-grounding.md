@@ -6,12 +6,12 @@ section_id: "C.28.MR:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28.MR/C.28.MR__006_archetypal-grounding.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.28.MR — Derive an Intervention Consequence by Mechanism Replacement"
   - "C.28.MR:5 — Archetypal Grounding"
-line_start: 72067
-line_end: 72106
+line_start: 72091
+line_end: 72132
 dependencies:
   - "A.3.3.TR"
   - "B.5.MPC"
@@ -37,7 +37,9 @@ The observational probability of no alarm is `0.5*0.1 + 0.5*0.9 = 0.5`. High loa
 
 For `do(S=0)`, replace the second mechanism by `S=0`. The equation for H and the input law are retained. Therefore `P(H=1 | do(S=0))=0.5`. Forcing this indicator removes its information about H without changing H in the supplied model.
 
-The result answers a current-load question under the stated absence of an S-to-H influence. If alarm output controls subsequent cooling, a later-load query needs that later mechanism and the duration of the override. The current calculation remains usable for the current question; the new temporal question has an additional required input.
+For a particular past episode the answer uses what was observed *in that episode*. Suppose the alarm sounded and load was unobserved. The factual mechanisms give `P(H=1 | S=1)=0.45/(0.45+0.05)=0.9`. In the alternative where the alarm was silenced at that instant, its replacement leaves H unchanged for each compatible underlying input. The probability of high load in that alternative given the original alarm is therefore 0.9. Drawing a fresh episode from the population would give 0.5. Treating the imposed silence as an observation of a naturally silent alarm would give 0.1. Each number answers a different question.
+
+All three calculations concern current load under the stated absence of an S-to-H influence at that instant. If alarm output controls subsequent cooling, a later-load query needs that later mechanism and the duration of the override.
 
 #### C.28.MR:5.2 - Change a display or a supply command
 
@@ -51,7 +53,7 @@ Replacing the display equation by `D=6 V` leaves `V=12 V`; current and power rem
 
 Suppose the supply's current limit is now relevant. Use the revised positive-command model `V=min(C, I_max R)` with `I_max=1.5 A`. The 12 V command now gives 9 V at the load and 13.5 W. The 6 V command still gives 6 W. Relative to natural behavior, the calculated power reduction is now 7.5 W, instead of 18 W in the earlier operating-region model.
 
-This is a model comparison. Using this result for a physical supply requires an account of its regulation, load and limiting behavior. Altering a graphical interface value is a physical intervention only when the interface controls the modeled command.
+To use this comparison for a physical supply, establish its regulation, load and limiting behavior. Editing a displayed number can be a real change to the display. The calculated effect on load current applies to a change of supply command. Establish which mechanism the interface changes and whether a controller later acts on its reading.
 
 #### C.28.MR:5.3 - A definite intervention answer with an indefinite baseline
 

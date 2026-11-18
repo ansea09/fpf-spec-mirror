@@ -6,12 +6,12 @@ section_id: "C.21:6"
 section_title: "Archetypal Grounding (five domains)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__008_archetypal-grounding-five-domains.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:6 — Archetypal Grounding (five domains)"
-line_start: 65444
-line_end: 65471
+line_start: 65447
+line_end: 65474
 dependencies:
   - "A.10"
   - "A.17-A.18"
@@ -50,9 +50,9 @@ keywords:
 
 #### C.21:6.1 - Computer vision: direct comparison without a Bridge
 
-Two `ReproducibilityRate` results concern the same benchmark population and ClaimScope. Both cite the same Characteristic and ratio Scale editions, the same `DHCMethodRef.edition`, compatible model and calibration rules, and matching 24-month population windows. The team compares the two rates directly under that basis. The source reports have different publication editions, but no distinct F.17 local senses are being related, so no F.9 relation is required.
+Two `ReproducibilityRate` results concern the same named set of tested benchmark claims in matching 24-month windows. They cite the same Characteristic and ratio Scale editions, the same `DHCMethodRef.edition`, and compatible model, calibration and independent-team conditions. The team can compare the rates for that set. If two reports tested different subsets of a common benchmark, state what was tested in each. An inference about the common benchmark population also depends on how the claims were selected. The source reports have different publication editions, but no distinct F.17 local senses are being related, so no F.9 relation is required.
 
-Formal benchmark approval and actual benchmark adoption are reported separately as `FormalRecognitionStatus` and `PracticeAdoptionRate`.
+Formal benchmark approval and actual benchmark adoption have separate results, `FormalRecognitionStatus` and `PracticeAdoptionRate`. Ten teams are eligible this quarter. Count a team as an adopter if it used the benchmark in a qualifying test during that quarter. The records establish use for four teams and no qualifying use for two. Either status remains possible for each of the other four, with no further joint restriction. Between four and eight of the ten could be adopters. A decision that requires at least six adopters is still open. Confirming qualifying use by two distinct teams among the four with unknown status would settle it even if the last two statuses remain unknown. The rate among the six teams with known status answers a different question.
 
 #### C.21:6.2 - Biomedicine: evidence resolution without ratio substitution
 

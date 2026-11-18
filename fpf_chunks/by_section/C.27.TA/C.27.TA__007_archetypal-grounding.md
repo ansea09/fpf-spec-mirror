@@ -6,12 +6,12 @@ section_id: "C.27.TA:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27.TA/C.27.TA__007_archetypal-grounding.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.27.TA — Temporal Aspect: Time Windows, Rhythm, Cadence, and Currentness"
   - "C.27.TA:5 — Archetypal Grounding"
-line_start: 70850
-line_end: 70895
+line_start: 70868
+line_end: 70913
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -47,9 +47,9 @@ keywords:
 
 #### C.27.TA:5.1 - Release Cadence
 
-`CheckoutSystem-1 had a weekly release cadence during release train R14.`
+Suppose R14 comprises four full reporting weeks, Monday through Sunday. Operations needs at least one release in each week. Four dated release events, one in each week, establish that requirement for R14. A total of four alone establishes an average of one per week and leaves their distribution open. A week with no releases defeats the weekly requirement. A blank in a log establishes that absence when the log covers every release in the week.
 
-This result identifies the bearer, cadence, release-train timing reference and R14 observation window. It is sufficient when the receiving use needs that cadence; a claim about its quality or effect needs separate grounds.
+A support agreement might instead limit the elapsed time between releases to seven days. Consecutive releases on Monday of one week and Sunday of the next meet the one-per-week requirement for those two weeks while leaving thirteen days between releases at the same hour. Two log entries thirteen days apart leave room for intervening releases. To report a breach, establish an interval longer than seven days with no release. A series of confirmed releases spaced at most seven days apart can show coverage even if additional releases went unrecorded. Include releases on either side of R14 when the agreement covers gaps crossing those boundaries.
 
 #### C.27.TA:5.2 - Source Freshness
 

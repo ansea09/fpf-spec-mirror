@@ -6,12 +6,12 @@ section_id: "C.20:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.20/C.20__007_archetypal-grounding.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.20 — Composition of U.Discipline (Discipline-CAL)"
   - "C.20:5 — Archetypal Grounding"
-line_start: 65121
-line_end: 65178
+line_start: 65124
+line_end: 65181
 dependencies:
   - "A.1"
   - "A.14"
@@ -93,7 +93,7 @@ They leave the field constituents, `disciplinePartOf` occurrences, practice-know
 
 A safety-engineering team proposes to reuse one resilience-engineering term. F.17 resolves the two exact `SchemeSenseCell` values, and their semantic-context projections differ. The stated directed `BridgePredicateProfile` applies to those endpoint readings at its stated as-of basis; the current endpoint meanings satisfy its relation-kind-specific semantic condition and Boolean truth condition; and all required dependencies are present. F.9 therefore identifies an obtaining directed Bridge. A separate bounded-use proposition states the direction, mapping rule, tolerated loss, and polarity for this hazard-review use. Review Work may rely on that proposition through A.10, and a comparison may apply A.19.CPM.
 
-These facts establish no `disciplinePartOf` occurrence and no new discipline. Calling the work transdisciplinary requires a declared classification criterion. Claiming one new integrated discipline requires another exact candidate and all six C.20 construction components; one Bridge, two labels, or two selected structures cannot supply them.
+The directed correspondence relates the two meanings of the term. To rely on that correspondence in the hazard review, the bounded-use proposition must support this use in the stated direction, and the A.10 reliance check must permit it. If the teams combine their methods to produce this review, the joint result can establish interdisciplinary work. A resilience principle has transdisciplinary reach when the same relation admits warranted interpretations in different disciplines under stated conditions. To show that the safety team used it here, identify which distinction, inference or choice in its hazard review depended on the principle. Evidence from the second discipline may already establish the wider reach. To establish a new discipline, identify the candidate whole and examine all six construction components in section 4.1.
 
 #### C.20:5.4 - Canon revision, same field, and another field
 

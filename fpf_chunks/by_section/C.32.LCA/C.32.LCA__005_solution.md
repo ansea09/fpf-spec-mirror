@@ -6,12 +6,12 @@ section_id: "C.32.LCA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.LCA/C.32.LCA__005_solution.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.32.LCA — Construct and Compare a Control Architecture"
   - "C.32.LCA:4 — Solution"
-line_start: 80417
-line_end: 80629
+line_start: 80461
+line_end: 80675
 dependencies:
   - "A.3.3.PI"
   - "B.2.5"
@@ -162,6 +162,8 @@ A failed placement rejects that schedule; it does not prove that a different ord
 For example, two otherwise parallel branches each require ten minutes from the same editor before their outputs can be used together. With one continuously available editor and no other required work, serializing the two edits gives a twenty-minute completion. Both editing jobs become ready to start at the same time. A deadline fifteen minutes later is impossible under those conditions, although either branch alone fits. A second qualified and authorized editor, a changed operation or a later deadline changes a different premise of the construction.
 
 Retain a timing summary only when the receiving answer follows from what it keeps. Total free time can conceal incompatible windows; an average rate can conceal a late individual response. Derive the response time or useful bound from the retained dependencies, availability and occupation conditions. If two allowed arrangements share the proposed summary but give different answers, retain the distinguishing condition, derive a bound that covers both, or restrict the claim.
+
+Identify the end event the recipient relies on. Completion of an intervention and receipt of its confirmation may have different deadlines. If the receiving decision needs confirmation, include how the observer can establish completion and when the report reaches the person who must act. If only the physical completion has a deadline, later evidence can establish that the intervention met it.
 
 Failure to find such a pair does not establish sufficiency. The timing-summary test specializes the information question in :4.3 to the time and capacity needed by the control decision. An average duration does not establish a worst-case deadline.
 

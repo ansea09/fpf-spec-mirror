@@ -6,12 +6,12 @@ section_id: "C.32.ADR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ADR/C.32.ADR__005_solution.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.32.ADR — Architecture Decision Record Projection"
   - "C.32.ADR:4 — Solution"
-line_start: 84262
-line_end: 84303
+line_start: 84320
+line_end: 84361
 dependencies:
   - "A.10"
   - "A.15"
@@ -44,16 +44,16 @@ keywords:
 
 ### C.32.ADR:4 - Solution
 
-Publish the recoverable decision and its description for the declared readers. If the decision content is missing, develop it through `C.32.PAD`; the same written account can support that work and later describe its result. A draft or template does not establish that a decision was made.
+Publish the content and status the intended readers need. A consultation draft can give them the proposal to examine. Where the governing rule makes an authorized signature on that document effective, the signed document can also establish the decision, its scope and effective time. Identify the authority, act and applicable rule for that use. Two copies with the same proposed design can therefore warrant different actions. Whether an installation already implements the decision is a further claim about that installation.
 
 Work in this order:
 
 1. Name the publication carrier and intended readers. Use a file or other carrier for the Markdown ADR, decision memo, trade-study record, engineering change note, certification rationale, design-review record, or other decision-description form.
-2. Make the decision relation and its description recoverable by reference or by value. If either remains unresolved, develop the missing content and keep the draft's status truthful.
+2. For a proposal, identify what readers can discuss and what action could adopt it. For an effective decision, give the decision and its description by reference or by value, with its applicable status. Use C.32.PAD to develop missing decision content.
 3. Choose the smallest scope that lets intended readers use the decision. Include the explanatory slice they need, with access to the fuller architecture or Method description when needed; avoid duplicating material that adds no useful content.
 4. Choose headings or carrier positions that make the needed decision functions recoverable. A separate mapping table is useful only when the relationship would otherwise be unclear.
 5. Carry the candidate basis. Record candidate options from `C.32` or the reason no candidate-set question is live. Do not invent options in the ADR after the decision.
-6. Carry the decision outcome. State the selected architecture option, bounded exception, or supersession relation from PAD.
+6. Carry the outcome that has been reached. A consultation can invite a choice among open options. For an adopted decision, identify the selected architecture option, bounded exception or supersession from PAD.
 7. Carry rationale, accepted losses, and consequences. Include architecture-characteristic trade-offs and guardrails, not only benefits.
 8. Carry Method-use instructions and work split when the decision guides developer work. State the required action and expected structure effect plainly; cite the Method, pattern-use guidance or readiness rule when the reader needs it.
 9. Carry the confirmation, evaluation or violation-detection conditions needed by the decision's use. Use `C.32.ACE` for evaluation framing, `C.16` for measurement, `A.10` for a needed replayable source-to-use account, and `B.3`, `A.21` or the governance rule for the respective assurance, gate or authority claim. Preserve the support each claim requires.
@@ -70,7 +70,7 @@ Select the following functions by the declared reader use, retaining what is nee
 | Problem frame and decision question | The bounded architecture question, described holon, context, and current reader use. |
 | Forces and architecture characteristics | The architecture characteristics, constraints, concerns, and trade-offs that made the decision nontrivial. |
 | Candidate options | Candidate options, rejected options, bounded exception, or stated reason no candidate-set question is live. |
-| Decision outcome | The selected architecture option and affected selected structures. |
+| Decision outcome | The option still under consideration or the option adopted, its affected structures, and what the reader can act on at this status. |
 | Rationale | Why this outcome is acceptable now, including accepted losses and protected guardrails. |
 | Consequences | Expected effects on structures, methods, teams, costs, risks, evidence, operation, and later change. |
 | Method-use instruction | Required style, pattern use, method description, or work practice, when the decision changes developer work. |

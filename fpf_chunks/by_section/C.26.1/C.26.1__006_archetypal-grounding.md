@@ -6,12 +6,12 @@ section_id: "C.26.1:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.1/C.26.1__006_archetypal-grounding.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.26.1 — Probe-Coupled Boundary Interaction"
   - "C.26.1:5 — Archetypal Grounding"
-line_start: 69370
-line_end: 69377
+line_start: 69386
+line_end: 69393
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -40,9 +40,9 @@ keywords:
 
 ### C.26.1:5 - Archetypal Grounding
 
-A team runs a service-boundary workshop after a series of incidents. The first map says "Payments is separate from Checkout". A week later, incident triage and backlog priorities have changed because the workshop reframed payment failure as a customer-promise risk.
+A team runs a service-boundary workshop after a series of incidents. The first map says “Payments is separate from Checkout.” During the meeting, participants agree that failure to update a customer's payment status will enter checkout incident triage. The signed decision records the new triage rule. The next week's incident log cites it when two such incidents are redirected.
 
-System side: the teams, services, dashboards, event stream, workshop format, and escalation routine are part of the boundary situation. The workshop changes alignment and future work; its notes and resulting map carry the recorded output.
+The meeting record establishes the new agreement. The later log shows two applications. To decide whether earlier incidents of the same kind already went to checkout triage, examine earlier routing records for failures to update payment status. Payments can be a separate service while Checkout handles those incidents. Establish the service boundary from the relevant interfaces and responsibilities if the decision requires it. The records leave open whether a different question order would have changed the agreement.
 
-Episteme side: the minimal evidence-bound claim is "the workshop work functioned as a probe lane that changed the represented boundary state and exposed export loss across Checkout and Payment." Use that account to assess a boundary or probe decision and the needed `F.9` correspondence; it does not by itself establish that the split is desirable or authorized.
+Use the recorded rule for the handoff it governs. If another team will apply it, compare which incidents each team calls a failure to update payment status and whether a difference changes routing. Use `F.9` for a cross-context correspondence when needed.
 

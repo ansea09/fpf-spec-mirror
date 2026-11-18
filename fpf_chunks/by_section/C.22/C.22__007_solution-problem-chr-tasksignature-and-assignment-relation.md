@@ -6,12 +6,12 @@ section_id: "C.22:5"
 section_title: "Solution — Problem CHR, TaskSignature, and assignment relation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22/C.22__007_solution-problem-chr-tasksignature-and-assignment-relation.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.22 — Task Typing and TaskSignature Assignment (Problem-CHR)"
   - "C.22:5 — Solution — Problem CHR, TaskSignature, and assignment relation"
-line_start: 65665
-line_end: 65876
+line_start: 65668
+line_end: 65879
 dependencies:
   - "A.6.0"
   - "C.16"
@@ -38,7 +38,7 @@ Apply that formula as follows:
 
 1. Confirm that the problem-side representation is stable enough for selector-facing use; otherwise use `C.22.2`.
 2. Name the receiving eligibility, acceptance, or selection question and the `TaskKind`, optional task family, or work target that the signature will declare.
-3. Read the eligibility conditions, acceptance clauses or comparison criteria of the receiving use. For each condition, identify the task-side fact or characteristic whose value the condition consumes, and recover it from the problem-side account or its source. Include that trait and its interpretation; leave unrelated optional extensions absent. If the condition cannot yet be interpreted for this task, retain the unresolved mapping for the subject inquiry rather than inventing a field value.
+3. Read the eligibility conditions, acceptance clauses or comparison criteria of the receiving use. For each condition, identify the task-side fact or characteristic whose value the condition consumes, and recover it from the problem-side account or its source. Include that trait and its interpretation; leave unrelated optional extensions absent. If two feasible tasks fit the same description but require different eligibility or acceptance decisions, identify the characteristic that accounts for the difference. When a method must be chosen before work starts, establish what the chooser can learn by then. A supported conditional choice or a declared rule for an unknown value can suffice. Keep an unresolved interpretation visible.
 4. Identify each live Characteristic and Scale, its Unit and polarity when applicable, and the admitted comparison relation. Declare ReferencePlane when interpretation or the receiving comparison contract requires it. Apply these conditions before aggregation or comparison.
 5. Preserve a live but unknown value as `unknown`; include or reference the exact scope, evidence relation, freshness or edition condition on which later use relies. When cross-semantic reuse is current, resolve the two local senses and test the F.9 Bridge separately; a shared label, scheme, or plane does not establish it.
 6. Close with one minimal `TaskSignature`. Pass later eligibility and acceptance claims to `C.23` and `G.4`, and method-family selection to `G.5`; do not put their outcomes back into the signature as if they were problem traits.
@@ -51,7 +51,7 @@ Each live characteristic has its Scale, applicable Unit and polarity, required R
 
 A downstream selector can now consume the assigned signature without guessing, but no eligibility verdict, acceptance result, method recommendation, selector outcome, WorkPlan, or dated Work is claimed.
 
-Close by bounded non-use when problem framing is not stable enough for a TaskSignature declaration, when no selector-facing receiving use is current, or when the current question has already become eligibility, acceptance, selection, planning, or performed work. A non-current optional extension remains absent. If several signatures or assignment relations remain plausible, preserve them as candidates under the governing problem or selection pattern rather than asserting one assignment.
+Close by bounded non-use when problem framing is not stable enough for a TaskSignature declaration, when no selector-facing receiving use is current, or when the current question has already become eligibility, acceptance, selection, planning, or performed work. A non-current optional extension remains absent. Report a particular assignment when the evidence establishes adoption of that adequate signature under §5.2. Keep unresolved alternatives as candidates.
 
 Return to the smallest affected TaskSignature position when its receiving question, exact target, effective ReferenceScheme, ClaimScope, `TaskKind`, task-family reference, characteristic meaning, scale, unit, polarity, reference plane, unknown status, evidence-use relation, freshness condition, or edition changes. Recheck the F.9 endpoint senses, Bridge predicate, bounded-use claim, or reliance result only when that exact dependency changed. Keep the upstream `ProblemCard` and downstream selection history unchanged unless that exact change invalidates them under their own subject patterns.
 
@@ -197,7 +197,7 @@ C.22 introduces no local refresh object and does not rewrite earlier selector re
 **DesignRunTag hygiene.** Do not mix DesignRunTag positions in one signature edition. If design-side information is reused in run-time Work, identify the actual receiving Work and its relations independently. Cite an E.18 structural `GateCrossing` only when a selected transformation-flow use contains that occurrence; it does not require a package and does not establish an F.9 Bridge.
 
 ##### C.22:5.2.1 - Specialization-claim reference discipline (normative)
-A specialization claim identifies the holder, dyad, team, or scoped portfolio, the task family or TaskSignature, the work target, and the criterion and grounds for usable performance. A claim that the specialization was acquired also needs support for the change from the relevant prior state. When the receiving use compares acquisition or adaptation, C.22.1 supplies the adaptation budget, prior-exposure and threshold-crossing conditions; retain freshness and provenance to the extent reuse depends on them. A method may be selected, refined, or retired in this process, while the specialization claim concerns the stated holder or portfolio. Preserve the task-family and work-target references required by the C.22.1, G.5 or G.9 receiving use.
+A specialization claim identifies the holder, dyad, team, or scoped portfolio, the task family or TaskSignature, the work target, and the criterion and grounds for usable performance. Identify what the holder did and what assistance was available during the performance. A claim of acquisition needs evidence of change from the relevant prior state under the support conditions of the intended work. When the receiving use compares acquisition or adaptation, C.22.1 supplies the adaptation budget, prior-exposure and threshold-crossing conditions; retain freshness and provenance to the extent reuse depends on them. A method may be selected, refined, or retired in this process, while the specialization claim concerns the stated holder or portfolio. Preserve the task-family and work-target references required by the C.22.1, G.5 or G.9 receiving use.
 
 Low-human-overlap or newly discovered task families remain admissible when those task-family or signature references are explicit by value.
 

@@ -6,12 +6,12 @@ section_id: "C.39.WA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.WA/C.39.WA__005_solution.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.39.WA — Develop an Account of the Whole Subject"
   - "C.39.WA:4 — Solution"
-line_start: 87547
-line_end: 87674
+line_start: 87612
+line_end: 87741
 dependencies:
   - "C.20"
   - "C.39.QR"
@@ -119,6 +119,8 @@ Distinguish the operations needed for that return. Synthesis connects contributi
 Describe what the candidate explains, temporarily setting aside its title, field label and declaration of completeness. Compare that content with the expectation from section 4.1 across the assigned scope. Inspect the general construction and its relations as well as local claims. Recover what the cases concretize and which consequential variations of the declared subject they expose. Compare the knowledge and operations available in the general account with those displayed in its cases.
 
 If following a running case has shifted attention to its application domain, restore the explanation of the Method being taught and the return from its performance. Retain the useful case content.
+
+For an account of a principle, identify the relation the reader can recover and the decisions it supports when relevant conditions change. A single worked example can supply the whole explanation if it gives the argument for that range. If a completed case shows how someone used an already chosen rule, accept that demonstration. When the commission also asks how to construct the rule, return the account for the missing choices and their grounds. An explanation of why one particular event occurred can be complete once it establishes the requested connection for that event.
 
 For each consequential conclusion, retain its subject, property, scope and grounds. Truth of a claim, membership in a field, coherence of a construction, coverage of an assigned account, usability by a reader and effect in work answer different questions. Select the conclusion the assignment needs and obtain its basis.
 

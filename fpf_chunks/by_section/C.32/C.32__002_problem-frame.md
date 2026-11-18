@@ -6,12 +6,12 @@ section_id: "C.32:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32/C.32__002_problem-frame.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.32 — Architecture Candidate Synthesis"
   - "C.32:1 — Problem frame"
-line_start: 79931
-line_end: 80057
+line_start: 79961
+line_end: 80087
 dependencies:
   - "A.10"
   - "A.15"
@@ -83,9 +83,9 @@ Typical entry phrases:
 
 The work question is synthesis: how should required functions, constructive modules, field placement, control responsibility, and certification evidence be coordinated so maintainability, substitutability, latency, and evidence reuse stay acceptable?
 
-Using C.32, the practitioner first records the selected structures and what each contributes to the synthesis, then records three candidate configurations: one shared module grammar with tighter evidence scope, one product-family split with lower interface burden, and one bounded exception that keeps the existing module split but changes evidence responsibility and reopen trigger.
+Follow one field replacement through removal, fitting and acceptance. Keeping a common module can save the field team a replacement procedure if the common qualification covers the installed interfaces. Splitting the family can simplify each interface while requiring two sets of spares and evidence. Keeping the existing split and securing qualified local approval can suffice for an exceptional site. These are different configurations because they change what must fit, who can accept the replacement or what the field team must stock.
 
-The team now has candidate architecture configurations under declared characteristics, not one attractive platform proposal and not new obtaining architecture relations by candidate wording.
+The team can describe these candidates before any field unit has been changed. To decide which to carry forward, establish which sites each can serve and compare the work left to the field team.
 
 The primary `EntityOfConcern` is the candidate architecture palette for one C.30-grounded synthesis question. Its inputs are the described holon, any obtaining `ArchitectureRelation` occurrences and their selected `U.Structure` participants, and any candidate, required, desired, or expected structures stated only in an `ArchitectureClaim`.
 

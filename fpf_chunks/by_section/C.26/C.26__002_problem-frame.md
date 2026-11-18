@@ -6,12 +6,12 @@ section_id: "C.26:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26/C.26__002_problem-frame.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.26 — Quantum-Like Modeling Lens"
   - "C.26:1 — Problem frame"
-line_start: 68505
-line_end: 68587
+line_start: 68520
+line_end: 68602
 dependencies:
   - "A.10"
   - "A.15"
@@ -105,11 +105,11 @@ Phrase hygiene:
 
 | Risky phrase | Better FPF phrase |
 | --- | --- |
-| Dashboard changed the state. | Dashboard publication or use changed work behavior or evidence conditions. |
+| Dashboard changed the state. | Name the reported measure and its time. If publication changed how people worked, identify the change and how it was established. |
 | Metric acted as observer. | Measurement/publication regime functioned as a probe interaction. |
 | Organization knows. | Coordinated work traces support a low-recoverability state reading over a declared collective bearer. |
 | Market is entangled with product team. | Market participants and the product team respond to each other; identify the observed responses and the model used to relate them. |
-| Boundary collapsed after workshop. | Workshop work selected or created a local boundary reading for this decision window. |
+| Boundary collapsed after workshop. | State which boundary participants agreed to use, or which practice changed and how the change was established. |
 | State cannot be copied. | No faithful-enough export supports the named receiving use under its effective reference scheme and declared loss. |
 | Same metric in two contexts. | Same-named results under independently recovered measurement and comparison frames; compare only through an admitted joint-comparison route. |
 | Quantum-like service health. | Viability-envelope reading affected by probe, export, or coarsening cue. |
@@ -119,8 +119,8 @@ Example style:
 | Style | Example |
 | --- | --- |
 | Bad | The team's quantum-like distributed state collapsed after the readiness dashboard observation. |
-| Better | The readiness dashboard was not a passive read: its publication changed team behavior, so the dashboard result cannot be used alone as pre-publication readiness evidence. |
-| Best | Apply `C.16` and `A.15` to the metric and changed work; `C.26.1` can clarify the probe effect. Publication changed readiness behavior in window W, so add independent work traces before using the dashboard for release assurance under `B.3`. These facts alone supply no contextual-model obstruction and require no QL wording. |
+| Better | A snapshot captured before publication shows which checks had passed at that time. After publication the team gave priority to the displayed checks. |
+| Best | Use the dated snapshot for the checks it records. If release also depends on later work or on a condition the display omits, recover evidence for that condition under `A.15`, `C.16` or `B.3`. Use `C.26.1` if sampling or publication leaves the reading in doubt. |
 
 Read these terms by the distinctions the model needs.
 

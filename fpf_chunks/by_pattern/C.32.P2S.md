@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.32.P2S.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.32.P2S — Problem-to-Structure Architecturing Unfolding"
-line_start: 80786
-line_end: 81301
+line_start: 80832
+line_end: 81342
 dependencies:
   - "A.1"
   - "A.1.SCR"
@@ -255,6 +255,8 @@ Use the analogy with `E.18.1` P2W narrowly. A P2W use carries an accepted proble
     Use separate local `A.15.PROD` claims only when production-work participation, entity-identity inception, or historically indexed production completion is current. The P2S card records refs to the independently established Work occurrences, transformations, Work-to-change relations, and local production claims.
 11. Observe, inspect, measure, and evaluate subject-side `U.Structure` values whose declared substrate and selected relation organization are recovered under `A.22` from relation occurrences, applied constraints, invariants, or other facts that obtain. Include architecture-characteristic results and functional-characteristic or capability implications in operation or use. Ask whether those actual structures enable or block the functions and effects they were meant to bear, and ask what selected structure, accepted loss, counter-characteristic, or functional implication got worse when a visible metric improved.
 
+    When a measured characteristic misses its target, first identify the promised value, the observed population and the operating conditions. To establish a structural discrepancy, compare the intended connection with the one in place. The same layout can deliver less under a different input mix or an unavailable operator. A verified discrepancy can justify correcting a binding design even while its contribution to the performance shortfall remains open.
+
     A description, measurement, evaluation result, publication, or resemblance to the selected structure does not itself make a structure actual or establish conformance. Use `C.30` to name an obtaining `ArchitectureRelation` only when its holon, selected-structure participant, and predicate are satisfied; keep candidate, required, desired, expected, negative, or unresolved architecture content in an `ArchitectureClaim`.
 
     Use `C.30.AD` or `C.30.ASV` for actual-structure descriptions or views, `C.32.ACE` for eval programs and eval results, `C.16` for measurement, and `C.25` for Q-bundles.
@@ -363,18 +365,11 @@ Stop conditions:
 
 The architect carries pressure into structure: first by finding which selected structures are missing or inadequate, then by constructing alternatives, deciding what will be pursued, enabling domain work, and watching which subject-side structures obtain under operation. An actual transformation is introduced only when its own `A.3.4` basis is grounded.
 
-**First-minute use slice.** A plant architect sees that expected throughput and actual throughput diverge after a layout change. The first P2S account names:
+**A throughput shortfall after a layout change.** A plant architect finds that a production cell delivered fewer accepted units per shift than the layout design predicted. The count establishes the shortfall for the observed shifts. It leaves open whether a buffer was installed on a different route, the input mix changed or the cell spent longer waiting for release. Identify which of those differences would change the proposed action.
 
-- the production cell as described holon;
-- the throughput-after-layout-change architecture question;
-- the operating-shift qualification window;
-- pressure kind `actualStructureDivergesFromExpectedStructure`;
-- first pattern to use `C.30`;
-- unknown structure `material-flow bottleneck bearer`;
-- selected structure candidate `buffer placement`;
-- pattern for the next claim `C.32`.
+The approved layout requires output from station B to bypass the shared fixture. Inspection shows that B's conveyor actually feeds the fixture. This establishes a discrepancy in the installed connection. The architect can call for conformity to the approved layout where that decision is binding. To claim that rerouting will restore the missing output, trace which operations waited for the fixture and what would still limit accepted output after the change. If inspection instead confirms the bypass, keep the throughput shortfall and investigate the constraint that remains.
 
-A PAD decision, work plan or eval result is added only when its question becomes current; the account may use the card above when a reusable record helps.
+A short P2S account can therefore record a production-cell performance question first. Record `actualStructureDivergesFromExpectedStructure` for the inspected conveyor once its actual connection has been compared with the binding layout. Keep the shift data and any still unidentified bottleneck separately recoverable. Use C.32 to develop changes to the connections implicated in the shortfall. The output record alone supplies no particular buffer design.
 
 **Lens-use slice.** If the plant team builds a DSM or epiplexity-style model over stations, buffers and routing events, P2S retains the architecture inference and its grounds: the dependency or learnable structural content preserved, any consequential flow distinction omitted, and the structures the result can inform. Use C.29 when choosing or transferring that representation, or relying on its result, remains unresolved; an adequate domain treatment needs no additional lens account. Establish any architecture-adequacy, eval or decision conclusion separately.
 
@@ -390,7 +385,7 @@ When staffing or coordination among performers is the problem, recover the revie
 
 If a performed review is the subject, recover each performer through A.13 and identify the `U.Work` occurrence independently through A.15.1.
 
-Use `C.32.HCS` and `C.32.ACS` to bind characteristics to the bearer recovered for the question and the required result. Use `E.10.ROLE` to separate any local checker kind, classification, current assignment, direct review-relation position, function claim, organization position, and ordinary audience label. Candidate synthesis develops modal alternatives. Establish any claimed actual subject relations independently. For later actual inspection Work, add F.6 only when the flow or receiving use expressly represents precise assignment-bound attribution. Telemetry separately shows whether errors are caught earlier.
+Use `C.32.HCS` and `C.32.ACS` to bind characteristics to the bearer recovered for the question and the required result. Use `E.10.ROLE` to separate any local checker kind, classification, current assignment, direct review-relation position, function claim, organization position, and ordinary audience label. Candidate synthesis develops modal alternatives. Establish any claimed actual subject relations independently. For later actual inspection Work, add F.6 only when the flow or receiving use expressly represents precise assignment-bound attribution. Compare the phase at which the same kinds of errors become detectable under each arrangement. Records of detection can establish when particular errors were found. A rise in recorded early findings may also reflect more errors in the incoming material or a change in recording.
 
 **Architecture-influence and transformed-side co-synthesis.** A team wants a modular product architecture but its toolchain, team communication, release method, and evidence workflow only support one tightly coupled build. The team uses `C.32.CONWAY` within the P2S flow: those typed influence sources and their direct relations remain separate from both C.30 architecture sides, the changed referent, any actual transformation, acting Systems, assignments, and Work.
 

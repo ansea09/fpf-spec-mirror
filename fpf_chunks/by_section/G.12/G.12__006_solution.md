@@ -6,12 +6,12 @@ section_id: "G.12:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.12/G.12__006_solution.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "G.12 — DHC Dashboards (Discipline-Health Time Series and Views)"
   - "G.12:4 — Solution"
-line_start: 141256
-line_end: 141420
+line_start: 141325
+line_end: 141489
 dependencies:
   - "A.19"
   - "A.2.6"
@@ -129,7 +129,7 @@ DashboardSlice := <
 1. When new coordinates are required, obtain their C.16 measurement results and coordinate-result epistemes with the active C.21 replay basis. Identify the Method used and the dated measurement Work, and the MethodDescription, model, and calibration basis required for that measurement use. Keep these objects separate. G.12 creates none of them from a dashboard row.
 2. When the receiving use needs one series episteme, assemble or revise the `DHCSeries` ClaimGraph from exact coordinate-result refs and windows. If a series episteme is unnecessary, construct the local view over the result refs. Series assembly may be dated Work; its resulting episteme remains separate from the Work or work record.
 3. Apply A.18 and the A.19/G.0 rules used for comparison, normalization, distance or aggregation. Nominal and ordinal values remain non-arithmetic unless an explicit lawful transformation creates another Scale.
-4. Construct `DHCRow` and `DashboardSlice` representations. They may omit fields for readability only when every displayed claim still resolves its exact result and replay basis.
+4. Construct the `DHCRow` and `DashboardSlice` representations. Keep each displayed claim linked to its result and replay basis. Label a reported rate with the population it actually describes. If the user needs a decision about a wider population, show the range or estimate supported for that population and whether it settles the decision. A filter that selects fewer rows can change the question a panel answers.
 
 **Stage C — Publish or refresh only when required**
 

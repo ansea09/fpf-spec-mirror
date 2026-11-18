@@ -6,12 +6,12 @@ section_id: "C.30.LCA:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.LCA/C.30.LCA__002_problem-frame.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.30.LCA — Control Structure View Adequacy (LCA)"
   - "C.30.LCA:1 — Problem frame"
-line_start: 77514
-line_end: 77557
+line_start: 77539
+line_end: 77582
 dependencies:
   - "A.10"
   - "A.20"
@@ -51,7 +51,7 @@ Use this pattern when a control diagram, control-language source, or selected co
 
 A participating System, local system-role kind, System-classification judgment, assignment, Method, or Work is a separate fact. Add it only when it independently obtains and changes the use of the control-structure result.
 
-The first useful result can be one sentence: “Supervisor S sends allowed-mode commands to controller C and receives status feedback; this diagram does not yet establish stability or safety.” The small note below retains that result and the next action. If the source says only `layer`, `level`, `tier`, or `stack` without a control-specific relation, use `C.30.STRAT` first.
+A first result can state what the drawing specifies: “Supervisor S is to send allowed-mode commands to controller C and receive its status.” To describe the running loop, identify which status was received, how it informed a decision, which command was sent or received, and what is known about the response. A failed actuator can receive a command without acting. A short architecture claim can retain the proposal. Use the note below for an identified control relation and its participants. If the source gives only a label such as `layer`, `level`, `tier` or `stack`, C.30.STRAT helps recover the intended relation.
 
 What goes wrong if C.30.LCA is missed: a control diagram is treated as the control structure, `U.View`, or proof; stratification labels bypass `C.30.STRAT` and carry undeclared scope; and `B.2.5`, E.18 transformation-flow prose, or Layered Control Architecture prose is overread as control adequacy.
 

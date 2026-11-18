@@ -6,12 +6,12 @@ section_id: "C.26:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26/C.26__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.26 — Quantum-Like Modeling Lens"
   - "C.26:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 69019
-line_end: 69085
+line_start: 69035
+line_end: 69101
 dependencies:
   - "A.10"
   - "A.15"
@@ -82,7 +82,7 @@ Use these as quick applicability tests. The ordinary result, including a result 
 
 | Scenario | Expected route | Avoid | Expected output |
 | --- | --- | --- | --- |
-| Dashboard readiness improves because teams optimize the displayed metric. | `C.16` / `A.15` first; `C.26.1` only if the output is reused as a passive readiness read after state-shaping publication. | Treating the dashboard value as release evidence by itself. | Redesign metric publication or add independent work traces before release use. |
+| Teams prioritize the checks displayed on the readiness dashboard. | Use `C.16` and `A.15` to establish what was measured when. Use `C.26.1` if the interaction affects the intended reading. | Taking a change in the displayed score as proof that the release condition improved. | Use existing evidence for the conditions it covers. Recover another observation when the release depends on an unresolved condition. |
 | Workshop "discovers" a boundary but also creates alignment and local meaning. | `A.6` / `A.15` first; `C.26.1` for false pre-probe discovery reading. | Exporting the workshop result as a timeless domain fact. | Record window, participants, carriers, unresolved rivals, and bridge/export limits. |
 | API read warms cache and changes later timing. | Recover interface semantics and the sampling/write sequence; use `C.26.1` while the output's interpretation is unresolved. | Treating all timings as observations of the same cache regime. | Retain the supported pre-read or post-read quantity, or name the missing timing premise. |
 | Two service health reports use different measurement frames. | `C.16` / `F.9` first; `C.26` only if no admissible shared comparison frame remains. | Averaging the scores as one posterior-looking value. | Name the frame difference and either build an admissible comparison route or stop comparison. |

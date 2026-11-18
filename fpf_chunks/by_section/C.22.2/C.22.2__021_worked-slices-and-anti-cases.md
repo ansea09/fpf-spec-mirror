@@ -6,12 +6,12 @@ section_id: "C.22.2:20"
 section_title: "Worked Slices and Anti-Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__021_worked-slices-and-anti-cases.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:20 — Worked Slices and Anti-Cases"
-line_start: 67140
-line_end: 67206
+line_start: 67145
+line_end: 67213
 dependencies:
   - "A.10"
   - "A.15"
@@ -76,7 +76,7 @@ These rows are recognition slices, not complete Thin cards. Before using one, co
 
 Consider a support team seeing repeated reopened hand-offs after a new interface policy. Its source episteme `SupportHandoffPolicy-E7` contains the two clauses compared below. The incoming request says "rewrite the escalation workflow." The card first identifies the concern and improvement probe; selecting a rewrite requires its own grounds.
 
-The first-line entry uses "complete" for sending the case; the specialist entry uses it for accepting the case. Put those two meanings together: the same status names different events. This comparison supplies the question "Which event completes the hand-off?" and identifies the ambiguity retained below. It does not establish the cause of reopening. If both entries instead mean acceptance, this contrast no longer supports an ambiguity claim; retain the reopening signal and reopen the formulation.
+The first-line entry uses "complete" when a case is sent. The specialist entry uses it when the case is accepted. Both events can be recorded correctly. The shared queue must decide when to remove an item from the sender's list. For a case that has been sent but is still awaiting acceptance, the two readings give different decisions. The team can now ask which event authorizes that change. If the queue already distinguishes dispatch from acceptance and applies a single unambiguous rule, the two labels alone give no reason to revise it. The reopened cases still merit inquiry.
 
 
 | Card field | Filled value |
@@ -85,14 +85,16 @@ The first-line entry uses "complete" for sending the case; the specialist entry 
 | Problem-side EntityOfConcern | The identified source episteme `SupportHandoffPolicy-E7`, whose two clauses use the same completion label for different events. |
 | Effective ReferenceScheme and ClaimScope | Scheme: support-interface hand-off under the new policy edition. ClaimScope: SupportOps-EU. |
 | Claim family | Descriptive claim about the two policy clauses and their different completion meanings. The prediction that reopened escalations will continue while this wording remains is an untested hypothesis, not an established forecast or causal result. No actual PFR is asserted. |
-| Ground for addressing the concern | The two policy clauses attach different events to one completion label, and reopened cases make clarification useful. The request to "rewrite the escalation workflow" proposes a solution without yet establishing that a rewrite is needed. |
-| Improvement check or acceptance probe | Sample reopened cases; accepted improvement means fewer reopened hand-offs within that ClaimScope and window without increasing unresolved safety, compliance, or customer-impact exceptions. |
-| Next use | Use E.18.1 to carry only the hand-off-ambiguity claim and acceptance probe into one next relation question. Do not select a method, approve a rewrite, pass a gate, or authorize Work. |
+| Ground for addressing the concern | For a sent case still awaiting acceptance, the two readings disagree on whether it belongs in the sender's queue. Identify which event governs removal. To establish who remains accountable for follow-up, consult the rule assigning that responsibility. |
+| Improvement check or acceptance probe | For the pending case, establish which event the rule requires for removal from the sender's list and check what the queue does before and after that event. |
+| Next use | Carry the two clause meanings and the queue question into E.18.1. Obtain the governing rule or refer the unresolved choice to the person authorized to settle it. |
 | Qualification window (current here) | Two-week incident window under the stated policy edition. |
 | Problem-formulation follow-up reason (current here) | Resolve which event the policy means by completion. Examine System, assignment, Method, Work or policy-boundary relations only if that clarification exposes a question that depends on them. |
 | Validation boundary (current here) | Same support interface, policy edition, ClaimScope, incident window, and source logs; refresh if the scheme, scope, source logs, window, or acceptance probe changes. |
-| Readiness disposition | `P2W-ready` only for the narrow next use above, because the card carries the ambiguity claim, rejects the preselected Work request, and supplies an acceptance probe. |
+| Readiness disposition | `P2W-ready` for resolving the queue rule. A sent case still awaiting acceptance lets the receiver check whether the shared queue follows the agreed removal rule. |
 | Subject-pattern cues (current here) | Use the applicable A.6 declaration or interface rule if completion semantics remains unresolved. Retain the direct grounds for a relied-on claim; use A.10 when its evidence or provenance needs a replayable account and G.11 when its currentness is at issue. Add A.2/A.2.1/A.13/A.15 for an actual classification, assignment or dated Work claim; F.6 only for precise assignment attribution, and A.21 only for a gate claim. |
+
+A claim that the service improved would need different evidence. To compare reopening rates, identify all eligible hand-offs in comparable periods, or use a sample that supports an estimate for them. For each period, determine which hand-offs reopened within the same follow-up time and compare their proportions, accounting for changes in the case mix that affect the comparison. Check the unresolved safety, compliance and customer-impact exceptions. Looking only at reopened cases can reveal how a hand-off went wrong. It leaves the reopening rate unknown.
 
 The P2W export is narrow: signal, joint EntityOfConcern, effective ReferenceScheme, ClaimScope, claim family, not-wish or not-preselected-Work reason, improvement check or acceptance probe, and next use. In this case it also carries the qualification window, validation boundary, follow-up reason, and subject-pattern cues because the stated next use relies on them.
 

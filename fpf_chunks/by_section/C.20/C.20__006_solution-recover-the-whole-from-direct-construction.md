@@ -6,12 +6,12 @@ section_id: "C.20:4"
 section_title: "Solution - recover the whole from direct construction"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.20/C.20__006_solution-recover-the-whole-from-direct-construction.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.20 — Composition of U.Discipline (Discipline-CAL)"
   - "C.20:4 — Solution - recover the whole from direct construction"
-line_start: 64956
-line_end: 65120
+line_start: 64959
+line_end: 65123
 dependencies:
   - "A.1"
   - "A.14"
@@ -170,7 +170,7 @@ Applied, multidisciplinary, transdisciplinary, tradition, lineage, and school la
 
 - For a project-local kind, use C.3 to state exact intent, membership predicate, scope, and the candidate disciplines that satisfy it.
 - A multidisciplinary claim normally needs several independently identified disciplines and exact contribution or use claims; co-listing fields or counting viewpoints is insufficient.
-- A transdisciplinary claim must declare the integrative criterion that distinguishes it from side-by-side use. If the claim is that one new discipline exists, run the complete C.20 construction test for that new candidate.
+- In an interdisciplinary project, identify the result that depends on combining contributions from distinct disciplines. For a transdisciplinary principle or Method, identify the relation or operation that practitioners can interpret in different eligible disciplines and the conditions each interpretation must preserve (C.39.WA:4.3). A project can use such a principle within one discipline or while combining several. If the claim concerns the formation of a new discipline, test that candidate under section 4.1.
 - A tradition, lineage, school, variant, edition, or provenance claim identifies its exact subject and the exact historical-continuation, source-use, method, similarity, edition, derivation, or provenance relation under that relation's subject pattern. Tradition or lineage can organize variants or editions within or across disciplines as an ordinary auxiliary value or a C.3 project-local kind; none is a discipline part, subkind, or public U-kind by label. A public kind requires its own direct governor, identity and use rule, and E.24.UK admission.
 - An applied classification states what application-facing criterion is satisfied. Method use, one project, one organization, or one selected structure does not establish it by itself.
 

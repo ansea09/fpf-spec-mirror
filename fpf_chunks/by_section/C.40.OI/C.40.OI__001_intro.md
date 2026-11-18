@@ -6,12 +6,12 @@ section_id: "C.40.OI:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OI/C.40.OI__001_intro.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.40.OI — Bound an Opportunity Inquiry"
   - "C.40.OI:intro — Intro"
-line_start: 90992
-line_end: 91000
+line_start: 91059
+line_end: 91067
 dependencies:
   - "A.15.9"
   - "B.5.PI"

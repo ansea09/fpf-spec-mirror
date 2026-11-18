@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.18.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.18 — Open-Ended Search Archive and Front Stewardship"
-line_start: 63603
-line_end: 63942
+line_start: 63605
+line_end: 63945
 dependencies:
   - "A.15"
   - "A.19"
@@ -266,7 +266,8 @@ Stop at ordinary same-space exploration when no action depends on the stronger m
 
 
 - Start from one declared candidate or eligibility set.
-- Apply the declared dominance relation to eligible candidates for the same use. One eligible rival that dominates a candidate settles its exclusion. To establish membership, rule out domination by every eligible rival, using the comparisons or a bound that covers them. Two candidates may be incomparable because each does better on a different criterion. Missing evidence about a criterion can instead leave their relation open. If the front is computed over a set of recorded comparisons, state which candidates and comparisons those records cover before using it to judge the underlying alternatives.
+- Apply the declared dominance relation to eligible candidates for the same use. With incomplete evidence, first establish that the observations admit at least one joint account of the candidates’ performance. Exclude a candidate if every admissible account contains an eligible rival that dominates it. Different accounts can identify different rivals. To establish front membership, rule out domination in every account. Two accounts that give different membership decisions establish that membership is open. A bound or proof can settle the decision without enumerating accounts.
+- Two candidates may each do better on a different criterion. Their established trade-off differs from uncertainty about who does better. The identity of a rival may remain open after the evidence settles a candidate’s exclusion. If the front is computed over recorded comparisons, state which candidates and comparisons those records cover before using it to judge the underlying alternatives.
 - Return the exploration archive separately when the question concerns retained exploration value, coverage, novelty, diversity, stepping-stone value, or future reachability.
 - Keep tie-breakers and telemetry explicit so diversity, illumination, or popularity signals do not rewrite front semantics.
 - Before promoting telemetry or a popularity-like signal into the comparator, dominance set, or selected-set criteria, check which intended archive/front uses or values become worse or more fragile when that signal improves. State the affected uses or values, or the checked loci when none worsened, and cite the policy or decision authority that admits the promotion and any trade-off. If this basis or authority is missing, keep the signal as telemetry. Use it as a bounded tie-breaker only when a separate applicable policy already admits that use.

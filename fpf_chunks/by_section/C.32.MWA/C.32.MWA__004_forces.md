@@ -6,12 +6,12 @@ section_id: "C.32.MWA:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA/C.32.MWA__004_forces.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.32.MWA — Synthesize an Architecture Account of Methods and Their Use"
   - "C.32.MWA:3 — Forces"
-line_start: 82756
-line_end: 82767
+line_start: 82807
+line_end: 82818
 dependencies:
   - "A.13"
   - "A.15.1"
@@ -40,7 +40,7 @@ keywords:
 | Force | Tension to hold |
 | --- | --- |
 | **One answer vs several structures** | The decision needs a coherent account, while the useful structures may remain non-isomorphic. |
-| **Actual use vs prospective design** | Obtaining Work offers dated evidence; proposed Method use needs a realization and later-test account instead. |
+| **Actual use and prospective design** | Performed Work has a history. An agreement can already be effective for future work. A proposal needs grounds for the realization or performance on which the receiving decision relies. |
 | **Precision vs readable entry** | Exact kinds and relations prevent false claims; notation-first prose can make the Method unusable to the practitioner who needs it. |
 | **Candidate breadth vs proportional effort** | The first source layout is rarely enough; an unlimited candidate search can delay the decision without changing it. |
 | **Local gain vs moved burden** | One structure can improve while another inherits cost, delay, evidence burden, loss of control, or unresolved residual. |

@@ -6,12 +6,12 @@ section_id: "C.29.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29.1/C.29.1__005_solution.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.29.1 — Mathematical Result Transfer"
   - "C.29.1:4 — Solution"
-line_start: 73252
-line_end: 73392
+line_start: 73273
+line_end: 73409
 dependencies:
   - "A.3.3"
   - "A.6.3.RT"
@@ -125,13 +125,9 @@ A map that combines source cases can erase differences; equality of their images
 
 When the exact queried value is not determined, construct the values compatible with the retained information. For a represented value y, these arise from source cases satisfying F(x) = y and the stated premises. Prove a lower bound L(y), an upper bound U(y), or another relation that holds for all those cases. The resulting interval can answer a threshold question even when it cannot identify one value.
 
-For a decision q ≤ b:
+For the threshold q ≤ b, an upper bound U(y) ≤ b establishes the threshold for every compatible case. A lower bound L(y) > b excludes it for every compatible case. When L(y) ≤ b < U(y), the enclosure alone leaves the answer open for one unspecified case. Its bounds can include unattainable values. To establish that the retained information cannot decide the threshold for that case, exhibit a compatible case meeting the limit and another exceeding it, or prove both outcomes are possible. C.16.IR applies this test to quantities inferred from readings. A single permitted case above b already refutes a guarantee that every case meets it.
 
-- an upper bound U(y) ≤ b establishes the decision for every compatible case;
-- a lower bound L(y) > b rules it out for every compatible case;
-- a bound spanning b leaves the decision unresolved.
-
-These are consequences of the bound, so retain its domain, units and relevant time or parameter range. A bound for a sampled instant does not by itself answer what happened between samples.
+Preserve the domain, units and relevant time of the comparison. A bound for one sampled instant can settle the decision for that instant. To guarantee a condition throughout a period, also establish what can happen between samples.
 
 A relaxation offers another useful transfer. Let S be the allowed source solutions, let T be receiving solutions, and suppose every solution in S has an image in T with the same cost. If the receiving account permits additional solutions, minimizing there can give a lower bound on the source minimum. When the minima exist:
 
@@ -139,7 +135,7 @@ A relaxation offers another useful transfer. Let S be the allowed source solutio
 min over T of receiving cost ≤ min over S of source cost.
 ~~~
 
-The reason is that the receiving search includes a cost-preserving image of every source option. Maximization gives an upper bound under the analogous assumptions. An optimal receiving solution that has no source counterpart still supports the bound; it does not supply a feasible source plan. A returned plan requires an allowed source witness.
+The reason is that the receiving search includes a cost-preserving image of every source option. Maximization gives an upper bound under the analogous assumptions. An optimal receiving solution that has no source counterpart still supports the bound; it does not supply a feasible source plan. A returned plan requires an allowed source witness. A budget decision may need less than an optimum. For minimization, any feasible source plan at or below budget establishes feasibility. A proven lower bound strictly above budget excludes every plan. If a lower bound equals the budget, establish that the source permits a plan at that cost before promising delivery. Even an infimum can be approached by feasible costs without being attained.
 
 Where the comparison is approximate, derive the error relation for the needed operation and propagate it through later steps. For example, if a later scalar operation h satisfies |h(a) − h(b)| ≤ K|a − b|, with K ≥ 0, on the relevant interval, an input error at most ε contributes at most Kε at its output. Any additional error introduced by computing h is added to that contribution. Adding the errors of successive steps without accounting for amplification can understate the final error.
 
@@ -156,7 +152,7 @@ If the comparison fails, use the failure to choose the next construction.
 | Two representatives give different values | Change the representation or ask for a class property, such as a minimum or interval, and establish that new property's use. |
 | Agreement holds only on part of the domain | State and use that restriction if it includes the intended cases; otherwise seek another correspondence. |
 | A missing source premise prevents the comparison | Recover or establish that premise before repairing the receiving calculation. |
-| A sound bound is too broad for the decision | Find which retained uncertainty spans the threshold and obtain a discriminating premise or observation. |
+| A sound bound is too broad for the decision | Try a direct comparison or a tighter bound from the available premises. If compatible cases give different decisions, identify the observation or source condition that could separate them. |
 
 After a repair, repeat the affected comparison and the later steps that depend on it. Keep conclusions whose premises and correspondences remain applicable.
 

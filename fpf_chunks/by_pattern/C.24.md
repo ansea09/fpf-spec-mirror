@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.24.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.24 — Plan Tool or Service Calls for a Fixed Action (C.Agent-Tools-CAL)"
-line_start: 67588
-line_end: 68052
+line_start: 67601
+line_end: 68065
 dependencies:
   - "A.10"
   - "A.15"
@@ -240,7 +240,7 @@ To construct the route, use the backward construction and forward check in `OPS.
 
 1. **Recover usable contributions.** Read the available Methods and any needed route descriptions for the results they supply, required inputs, preconditions, relevant effects and limits. Resolve missing interface meaning from the maintained description or provider. Begin with the action's receiving completion conditions.
 2. **Work backwards from the required result.** Choose an admitted Method that can supply it. For each input not already available, find a qualified preceding Method or an available source that supplies it. Continue until the route reaches available inputs. Keep required joins and enabling conditions. If a contribution cannot be supplied, return that particular gap rather than adding an ungrounded call.
-3. **Check forwards from the available inputs.** Follow the proposed outputs into the next inputs. Check consequential units, scope, access, timing and other use conditions. Reconcile shared resources and applicable budget. Elapsed time is not the sum of resource expenditure when calls overlap. Reuse established interface and performance bounds where adequate.
+3. **Check forwards from the available inputs.** Follow the proposed outputs into the next inputs. Check consequential units, scope, access, timing and other use conditions. Reconcile shared resources and applicable budget. Elapsed time is not the sum of resource expenditure when calls overlap. Reuse established interface and performance bounds where adequate. Compare the final output with the result promised to the recipient. If a call only prepares the input for delivery or acceptance, include the work still needed and its time and entry conditions in the plan.
 4. **Return the route or the unresolved question.** A supported route states the calls, intermediate results, order or safe parallelism, resource assumptions and stop or replan conditions needed by the use. If an unknown condition could change feasibility or route choice, identify it and what information could settle it. Section 4.2 selects a bounded scout only when such a scout can usefully answer that question. A changed action returns to its selecting Method.
 
 
@@ -391,11 +391,11 @@ An actual call needs its independent A.15.1 grounds; add assignment-bound attrib
 
 **Constructing a route from a fixed result.**
 
-In this constructed case, the action is to deliver an accepted weekly report from a named export. The maintained interface specifies millisecond timestamps and the receiving report's week boundary and time zone. Available admitted Methods extract rows, convert them to the temporal representation accepted by the aggregator, aggregate by that week, and render the report. Their planning bounds are respectively 2, 3, 4 and 1 minutes for the stipulated input size and one sequential performer; prerequisites and permission are satisfied, and 12 minutes are available.
+The fixed action is to deliver a weekly report and obtain the recipient's acceptance. The maintained interface specifies the timestamp unit, the recipient's week boundary and time zone, and the required report format. Four admitted Methods extract the rows, convert their timestamps, aggregate by week, and render a conforming report. For the specified input size and one sequential performer, they take at most 2, 3, 4 and 1 minutes respectively. The team has 12 minutes.
 
-Work backwards: the report needs aggregates; the aggregator needs compatible rows; the converter needs the export's declared timestamps; extraction supplies those rows. Check forwards that each output meets the next input conditions. The supported route needs at most 10 minutes under these bounds, so no scout is needed.
+Work backwards from acceptance. The four calls prepare the report in at most 10 minutes. Their outputs establish that it can be ready to send. The recipient also provides an admitted submission Method. Under its stated conditions it delivers a conforming report and returns the recipient's acceptance within 2 minutes. The intended performer has access, the receiver is available for the full interval, and the prepared report meets its entry conditions. The five-call plan therefore fits the 12-minute budget. The time bound warrants adopting the plan under the stated conditions. To close the actual job by its deadline, establish when this recipient accepted this report. Acceptance after the deadline means the commissioned job finished late. Delivery itself may have been on time. An undated acceptance can establish receipt and acceptance while leaving timeliness open.
 
-If the export already supplies the required temporal representation, omit conversion and the bound becomes 7 minutes. If only 9 minutes remain while conversion is still needed, these bounds do not establish that the unchanged route will meet the deadline. It cannot be adopted on this basis when the use requires that guarantee. A tighter justified bound, a qualified faster route or prepared compatible input could change the result; their basis must be established.
+If the export already supplies compatible timestamps, the remaining calls fit in 9 minutes. If the submission service promises only to queue the file within 2 minutes, the team can promise timely submission on that basis. A deadline for recipient acceptance still depends on what happens after queuing.
 
 If the timestamp unit or week boundary is missing, recover that interface or receiving condition from its authoritative source. The magnitude of sample numbers does not establish a unit. A changed report requirement returns to the action basis before replanning.
 

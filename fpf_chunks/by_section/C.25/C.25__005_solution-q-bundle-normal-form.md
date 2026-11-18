@@ -6,12 +6,12 @@ section_id: "C.25:4"
 section_title: "Solution - Q-Bundle normal form"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.25/C.25__005_solution-q-bundle-normal-form.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.25 — Q-Bundle: Express a Quality Claim as One Characteristic or a Structured Bundle"
   - "C.25:4 — Solution - Q-Bundle normal form"
-line_start: 68111
-line_end: 68155
+line_start: 68124
+line_end: 68170
 dependencies:
   - "A.15"
   - "A.18"
@@ -77,5 +77,7 @@ A quality guard is conjunctive only over the truth conditions that the current c
 
 `declared scope covers TargetSlice AND declared measures satisfy their own laws AND each other declared prerequisite holds`
 
-An absent optional slot contributes no condition. Each measure keeps its own Scale and comparison law; a trade-off, alternative, weighted combination, or partial order must be stated under the pattern that defines it rather than hidden in `AND`. If this typed decomposition cannot express what makes the claim true, do not force the family into C.25.
+An optional field can be left out when the claim does not depend on it. When another party uses that claim to make a decision, recover the conditions of *that decision* and compare them with what the claim covers. A supplier may document response time while the receiving service also requires current information. Meeting the response-time target settles that part. The service can accept both conditions when it also has grounds for freshness. An established breach of either bound rules out acceptance under this joint requirement.
+
+Each measure keeps its own scale and comparison law. Use the declared decision rule for alternatives, trade-offs, weighted combinations or partial orders. If the typed decomposition cannot express what makes the claim true, use the pattern that governs the comparison.
 

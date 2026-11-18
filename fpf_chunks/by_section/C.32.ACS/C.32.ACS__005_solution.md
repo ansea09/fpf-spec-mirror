@@ -6,12 +6,12 @@ section_id: "C.32.ACS:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACS/C.32.ACS__005_solution.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.32.ACS — Architecture Characteristic Criteria Set"
   - "C.32.ACS:4 — Solution"
-line_start: 81627
-line_end: 81693
+line_start: 81672
+line_end: 81740
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -55,7 +55,7 @@ Construct or reuse criteria from the project improvement question, architecture 
 
 `ArchitectureCharacteristicCriteriaSet@Project` is a C.32.ACS-local project working record: it holds criteria-row references and use classifications for improvement work. Each `draftProjectCriteriaRows` entry is another local record form, not the referenced `U.Characteristic`, Q-Bundle slot, scale, predicate, measurement result, eval program, or eval result. The set and rows create no new `U.*` kind and replace none of those objects.
 
-For a particular architecture decision, a characteristic is architecturally relevant when it matters to a required result or constraint and a difference between the considered structures can change its attainable expression under stated conditions. Name the bearer, relevant structural alternatives and reason for that connection. A domain or functional quality can satisfy this condition; the name of an `-ility` alone cannot. Architectural relevance frames a hypothesis or justified dependence, not proof of a causal effect.
+A characteristic matters to an architecture decision when it can admit or exclude a design, distinguish eligible designs, or protect a result at risk. The same constraint can reject every candidate examined. A 10 A limit rules out two designs that each require 12 A, even though their current demands are equal. Conversely, a fixed interface can leave only one permitted design to check. Identify the bearer, conditions and architectural dependence. A proposed change in a characteristic needs grounds in that dependence before it can count as a gain.
 
 A C.25 Q-Bundle is the structured form for a composite quality family. A scale row binds one characteristic or Q-Bundle slot to a bearer, scale form, use class, and receiving use. A row whose scale form exposes exception growth, interface variation, or another scale-sensitive characteristic remains a criterion row; a preference between architecture alternatives over a declared scale window is a separate `C.31.ASAP` claim. An architecture-characteristic eval program belongs to `C.32.ACE`; it frames evaluation of one declared row, coupled rows, Q-Bundle slots, or C.32 candidate palettes while each typed result remains under the pattern that defines and tests that result.
 
@@ -63,7 +63,7 @@ A C.25 Q-Bundle is the structured form for a composite quality family. A scale r
 
 Work in this order:
 
-1. Name the described holon, architecture use, and improvement cycle or one-pass eval use. Connect the receiving role and situation to a needed result, the quality that matters, the structural alternatives that could change it, and an attainable observation. Keep a Method, its description, a performed Work occurrence and the performing System distinct when choosing that bearer. For every admitted row, bind the claim scope and relevant context slices, effective reference scheme and applicable plane, with any qualification or evaluation window required by the criterion or receiving use. Preserve every declared slice selector. A proposed row can retain a missing binding as an explicit question until admission. Designate a selected A.1.1 `BoundedModelUseStructure` only when it independently changes that row's interpretation.
+1. Name the described holon, architecture use, and improvement cycle or one-pass eval use. Connect the receiving role and situation to a needed result, the quality that matters, the structures or binding constraints that determine it, and an observation, justified bound or existing result that can answer the criterion. Keep a Method, its description, a performed Work occurrence and the performing System distinct when choosing that bearer. For every admitted row, bind the claim scope and relevant context slices, effective reference scheme and applicable plane, with any qualification or evaluation window required by the criterion or receiving use. Preserve every declared slice selector. A proposed row can retain a missing binding as an explicit question until admission. Designate a selected A.1.1 `BoundedModelUseStructure` only when it independently changes that row's interpretation.
 2. Use C.32.HCS when a family starting point is needed. Directly recoverable project pressure or adequate existing criteria can supply the starting point. Source catalogues supply possible heads whose project bindings need examination.
 3. Build draft project criteria rows. There may be dozens of draft rows when broad scanning is needed, but each row must have a possible bearer, use reason, and pattern for the next question.
 4. For each source or starter head, decide whether it is one architecture characteristic, one C.25 Q-Bundle, one Q-Bundle slot, or only source vocabulary.
@@ -78,6 +78,8 @@ Work in this order:
 Use `optimizationIndicator` only when the row can responsibly guide architecture changes now. A project normally carries only three to five such rows.
 
 Use `monitoredGuardrail` when the row protects a binding condition or guards against a loss caused by optimizing another row. Guardrails can have readings and eval results, but they do not define the cycle's optimization direction.
+
+One quantity can serve both decisions. If the service must respond within 100 ms and faster service is preferable among qualifying designs, use one row for admission and a second for the preference, with the same applicable latency measure. A lower price cannot compensate for breaching the hard limit. Identify whether that limit applies to every request, to a specified proportion or to the declared aggregate.
 
 Use `contextOnly` when the row helps interpretation but should not drive improvement, comparison, or selection in the current cycle.
 

@@ -6,12 +6,12 @@ section_id: "C.27:3"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__005_solution.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Change"
   - "C.27:3 — Solution"
-line_start: 70274
-line_end: 70363
+line_start: 70290
+line_end: 70379
 dependencies:
   - "A.10"
   - "A.3.3"
@@ -54,7 +54,7 @@ Use the least-committing result that changes the receiving action.
 
 1. Recover the temporal claim from the available account, keeping its subject, quantity or condition and relevant time explicit. Cite an exact episteme or ClaimAddress when that identity is consumed by the use.
 2. Resolve what the timing means: a dated observation, elapsed duration, order, recurring cadence, validity condition or another temporal property. Use `C.27.TA` if this is unclear; a separate temporal-aspect artifact is unnecessary when the claim already states it adequately.
-3. Classify the claim as Dyn0, Dyn1 or Dyn2.
+3. Classify the claim as Dyn0, Dyn1 or Dyn2. Compare the decision with what the observations cover. Two dated counts of the same stock under the same counting rule can establish its net change. If duplicate entries were removed between counts, establish how much of the recorded change came from the correction before crediting it to completed work. The same endpoints can follow a steady decline or a rise followed by a sharper fall. To judge the path between them, use records or a supported model of the intervening period. To attribute a change to an action, compare what the relevant quantity would do under that action and under its alternative.
 4. If it is Dyn0 or Dyn1 and no intervention-sensitive question remains, stop or use C.16 for the unresolved measurement question.
 5. For Dyn2, connect the proposed input to the claimed temporal effect. Recover the baseline, relevant window and resistance or cost; identify whether the basis is observation, a planning assumption, a model consequence or a causal result. Reuse adequate grounds. When the effect is the unresolved causal question, use C.28 and its construction or mechanism-replacement method as needed.
 6. Return the supported conclusion and only the neighboring result on which it depends. Unknown resistance or another missing premise can justify a narrower or unresolved result.

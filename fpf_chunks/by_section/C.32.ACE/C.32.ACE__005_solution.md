@@ -6,12 +6,12 @@ section_id: "C.32.ACE:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACE/C.32.ACE__005_solution.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.32.ACE — Architecture Characteristic Eval Programs"
   - "C.32.ACE:4 — Solution"
-line_start: 81907
-line_end: 81927
+line_start: 81954
+line_end: 81974
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -51,16 +51,16 @@ keywords:
 
 ### C.32.ACE:4 - Solution
 
-Create an architecture-characteristic eval program only after the evaluated criteria rows exist in `C.32.ACS` or a declared C.25 Q-Bundle slot.
+Identify at least one declared criterion for the evaluation. Use a C.32.ACS row, a C.25 Q-Bundle slot, or both when the evaluation needs both.
 
 Work in this order:
 
-1. Reference the evaluated ACS criteria set, evaluated rows, and any Q-Bundle slots.
+1. Cite each evaluated criterion where it is defined. For an ACS row, include the set it belongs to. For a Q-Bundle slot, identify the bundle and slot. Recover the result it asks for, such as a bound for every request or the share of requests within a limit.
 2. State the eval purpose: current characterization, candidate comparison, portfolio-frontier work, post-change impact measurement, monitoring, or trigger for the next synthesis pass.
 3. Name the candidates, bearers, and selected structures being evaluated.
 4. Establish the exact `U.ClaimScope`, relevant A.2.6 `U.ContextSlice` membership and effective reference scheme. Retain every declared selector and the plane, time stance or window, input projection, resource budget, applicable units, admissible inputs and missing-data treatment required by the chosen operation and receiving inference. Establish parity when that inference depends on comparable conditions; `parityFrameRef` can retain it but does not replace the underlying facts. An atemporal structural judgement needs no invented temporal window; actual measurement and dated Work retain their own conditions.
 5. Choose eval scope: one criterion, coupled criteria, one Q-Bundle slice, a candidate portfolio, or a holistic use slice.
-6. Choose eval operations. Use measurement, simulation, benchmark, scenario walkthrough, monitor, review, or evidence audit according to the claim. Use `test` only when the intended operation checks an expectation or hard constraint. When a particular evaluation Work occurrence is claimed, recover each evaluator's A.13 core and let A.15.1 independently admit the occurrence from its history, Method followed, extent and containing-System relation. Add `evaluationWorkAttributionRefs` only when the record or receiving use represents precise assignment-bound attribution. Add an operation-application relation only when that claim is needed and its predicate obtains. Establish the typed result separately; the program record does not run.
+6. Choose eval operations. An evaluation can derive a consequence from qualified premises, measure performance or examine an existing result for applicability. Choose measurement, simulation, benchmark, walkthrough, monitoring, review or evidence audit according to what remains open. Name the derivation and its premises when relying on a calculated bound. An existing result can settle the criterion directly. Use `test` only when the intended operation checks an expectation or hard constraint. When a particular evaluation Work occurrence is claimed, recover each evaluator's A.13 core and let A.15.1 independently admit the occurrence from its history, Method followed, extent and containing-System relation. Add `evaluationWorkAttributionRefs` only when the record or receiving use represents precise assignment-bound attribution. Add an operation-application relation only when that claim is needed and its predicate obtains. Establish the typed result separately; the program record does not run.
 7. Declare the result form. Examples include a reading, band, rank, dominance relation, trade-off front, qualitative state, or evidence finding; use the definition and test for the result kind.
 8. Examine material proxy risk before the eval result drives work, and protect the characteristics or constraints it could compromise. If no material risk is found, retain that basis. Optimize only the chosen indicators; keep binding constraints and other necessary safeguards visible.
 9. State the receiving use: `C.32` synthesis input, `C.32.MLAO` residual input, `E.23` improvement feedback, `A.19.CPM` comparison input, `A.19.SelectorMechanism` selection input, `C.11` choice input, input for a selected-set result declared under `G.5`, or architecture-decision input for `C.32.PAD`. For publication input, distinguish `E.17` source-backed face and source return from the `E.24.PUB` publication occurrence and audience availability.

@@ -6,12 +6,12 @@ section_id: "C.22.2:4"
 section_title: "Problem, Task, Method, Work, and Result Split"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__005_problem-task-method-work-and-result-split.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:4 — Problem, Task, Method, Work, and Result Split"
-line_start: 66840
-line_end: 66858
+line_start: 66845
+line_end: 66863
 dependencies:
   - "A.10"
   - "A.15"
@@ -73,5 +73,5 @@ keywords:
 | `U.Work` | Performed dated Work | Governed by A.15.1; its record or evidence is separate. |
 | Result, measurement, assertion, evidence, or reliance | Output or claim governed by C.16, C.2.1, A.10, G.6, B.3, G.11, or its direct subject pattern | A claim-bearing result can supply card content or support. It can serve as the card when it satisfies the card's C.2.1 constitution and problem-side use; other results are represented by claims about them. |
 
-Use C.22 to prepare the TaskSignature from the exact problem-side episteme or `ProblemProfile` needed by one receiving use. Assert an assignment only when one TaskSignature is adequate for that use and C.22's obtaining rule holds. If several profiles or signatures remain plausible, preserve candidates rather than asserting one assignment. When the question becomes selection, planning, performed Work, result, gate, evidence, or reliance, apply its governor instead of expanding the card.
+Use C.22 to prepare the TaskSignature from the exact problem-side episteme or `ProblemProfile` needed by one receiving use. Report the adequate signature actually adopted for the stated problem-side episteme and use under C.22:5.2. Another adequate description can remain available. If adequacy or adoption is unresolved, identify the candidates and the missing grounds. When the question becomes selection, planning, performed Work, result, gate, evidence, or reliance, apply its governor instead of expanding the card.
 

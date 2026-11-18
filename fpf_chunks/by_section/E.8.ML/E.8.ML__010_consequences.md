@@ -6,12 +6,12 @@ section_id: "E.8.ML:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8.ML/E.8.ML__010_consequences.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "E.8.ML — Construct a Pattern Language for Connected Methods"
   - "E.8.ML:9 — Consequences"
-line_start: 103806
-line_end: 103811
+line_start: 103873
+line_end: 103878
 dependencies:
   - "A.3.2.DE"
   - "B.1.5"

@@ -6,12 +6,12 @@ section_id: "C.32:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32/C.32__005_solution.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.32 — Architecture Candidate Synthesis"
   - "C.32:4 — Solution"
-line_start: 80088
-line_end: 80214
+line_start: 80118
+line_end: 80248
 dependencies:
   - "A.10"
   - "A.15"
@@ -67,6 +67,8 @@ keywords:
 
 Use an adequate existing candidate account directly. To start from one current or proposed configuration, trace a required result or constraint through the selected structures: which bearer and relation supply it, and where does the arrangement fail, impose a material burden or leave feasibility unknown? Use the applicable change in the table below to construct a variant, then follow its changed inputs and connections through to the receiving result. C.32.MWA.PP supplies this tracing and construction for performance and provision; C.32.LCA supplies it for control, and C.32.CONWAY:4.1.1 for a constraining production or organization arrangement. Keep the incumbent when it is adequate, including as a comparison candidate.
 
+Construct each alternative far enough to explain how it could deliver the same required result. Identify what changes hands, who or what performs the changed operation, and which other work depends on its output. Two drawings of the same connections can support different inquiries while describing one arrangement. A different assignment, interface or order of work counts as an architectural alternative when it changes an operative connection. When assessing an architect's work, identify which connections the brief already specified and which ones the architect constructed and justified. Selecting from supplied designs can answer a selection assignment.
+
 The palette retains the configurations needed by the receiving question. `ArchitectureSynthesisFrame@Project` can expose their connections and `CandidateArchitecturePalette@Project` can retain the result. Selection, publication and decision remain separately governed uses.
 
 Work in seven steps:
@@ -82,6 +84,8 @@ Work in seven steps:
 
    F.6 identifies neither assignment nor performer, missing or failed F.6 attribution alone leaves the Work intact while its independent A.13/A.15.1 grounds still hold, and an assignment never carries responsibility by itself.
 5. For each candidate, state its selected-structure changes, expected gains, known losses, constraint fit and preserved or hidden structure. Identify material unknowns rather than inventing a gain or loss. Add a source-return condition when omitted distinctions affect the next use.
+
+   Identify the event the recipient needs. The work can finish, be accepted and become available to its user at different times. Follow each alternative to that event. A later distribution batch can deliver two accepted versions at the same time. Keep the operating conditions common to the alternatives, including shared resources and any binding acceptance criterion. A gain on one operation can trade against a loss on another. Compare the candidates under each operating condition that the evidence still allows. When the same choice holds throughout, carry it forward with that range of use. If the choice reverses, locate the condition that distinguishes the alternatives. A preference among the candidates examined extends to all eligible configurations only when the comparison covers them or an applicable bound rules the others out.
 6. When a front, archive, search result, or pool-treatment policy is being used, cite `C.18`, `C.19`, or NQD and OEE support as generation or retention support only. Keep the C.32 candidate content separate from archive work, front membership, pool treatment, selected-set result declaration, publication, and local choice.
 7. Stop when the palette supplies the candidate content needed by the receiving question, such as comparison, archive use, selected-set declaration, publication, choice or repair. That content need not perform the receiving operation in advance.
 
@@ -138,7 +142,7 @@ Candidate architecture changes are local C.32 entries for candidate configuratio
 |---|---|---|
 | `configurationSynthesis` | Coordinate several selected structures into one candidate architecture configuration. | State the selected-structure contribution rows and architecture characteristics before claiming improvement. |
 | `functionalAllocationChange` | Change the candidate A.6.F bearer or the module, Method, Work, local kind, separate System-classification judgment, assignment, control, or other structures that constrain its functioning. | Keep the functional predicate and bearer distinct from every neighboring structure; unresolved “role” wording goes through `E.10.ROLE`. |
-| `functionBearerFeasibilityRepair` | Repair a candidate whose functional structure names a required function that no admitted bearer can bear under module, placement, resource, control, or evidence constraints. | Add or change an A.6.F bearer, split the function, change placement or resource access, change the direct control or responsibility relation, reduce the functional demand, or reject the candidate. |
+| `functionBearerFeasibilityRepair` | Repair a candidate whose functional structure names a required function that no admitted bearer can bear under module, placement, resource, control, or evidence constraints. | Add or change an A.6.F bearer, split the function, change placement or resource access, change the direct control or responsibility relation, or reject the candidate. If a lower demand would make the candidate feasible, take the proposed change to the authority that owns the commitment. Compare against the demand in force until that authority changes it. |
 | `functionBearerConsolidation` | Transfer a required function onto an existing bearer under the selected-structure constraints, remove a support bearer, or propose one more general bearer for several functions. | State the functions transferred, the bearer removed or generalized, the affected architecture characteristics, the lost options, and the BLP scale window or waiver when scale advantage is claimed. |
 | `structuralSubstitution` | Replace one selected structure with another candidate structure. | State what is preserved and what is lost. |
 | `relationRetargeting` | Change an affected relation endpoint, direct responsibility relation, system-role assignment, dependency relation, admissible-use boundary, or source-return relation. | Name the relation kind and its predicate before using the change in a candidate; if a needed responsibility predicate is absent, record the missing governor. |

@@ -6,12 +6,12 @@ section_id: "C.32.MWA:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA/C.32.MWA__002_problem-frame.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.32.MWA — Synthesize an Architecture Account of Methods and Their Use"
   - "C.32.MWA:1 — Problem frame"
-line_start: 82716
-line_end: 82743
+line_start: 82767
+line_end: 82794
 dependencies:
   - "A.13"
   - "A.15.1"
@@ -45,7 +45,7 @@ Here **method** is the main name for a reusable way of doing. **Practice** can n
 
 The primary working reader is an architect, methodologist, practice designer, or domain-framework author who has already found useful source material but cannot safely copy its table, stack, lifecycle, or diagram as the architecture account.
 
-**First useful move.** State whether the architecture question concerns arrangements already used in representative Work or a proposed organization of Method use. These are the obtaining and possible-future entries. Keep that status for each relied-on claim: an existing provider or development activity does not make the proposed use actual. Then state the architecture question and select only the structures that can change its answer.
+**First useful move.** Decide what you need to establish about the arrangement. A service agreement in force can already reserve a reviewer, a tool or a time window for the first job. To describe how a job was actually done, recover that performance. For a proposed arrangement, establish what would make its contributions available together. Different parts of one account can have different status. Select the structures that can change the decision.
 
 **What goes wrong if missed.** A source layout is mistaken for the arrangement it describes. A list becomes levels, a procedure becomes a hierarchy, overlapping activities become a sequence, a model becomes the thing modeled, or a future design acquires fictitious performed Work. A local repair may also look successful only because its unresolved burden moved to another structure or scope.
 

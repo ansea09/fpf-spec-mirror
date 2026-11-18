@@ -6,12 +6,12 @@ section_id: "C.41.OF:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.OF/C.41.OF__011_architectural-rationale.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.41.OF — Fit a Checklist to Its Occasion of Use"
   - "C.41.OF:10 — Architectural Rationale"
-line_start: 94083
-line_end: 94088
+line_start: 94150
+line_end: 94155
 dependencies:
   - "A.15.8"
   - "C.41"

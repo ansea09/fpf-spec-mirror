@@ -6,12 +6,12 @@ section_id: "C.32.CONWAY:5"
 section_title: "Worked Correspondence Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.CONWAY/C.32.CONWAY__006_worked-correspondence-cases.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.32.CONWAY — Architecture-Influence and Transformed-Architecture Correspondence"
   - "C.32.CONWAY:5 — Worked Correspondence Cases"
-line_start: 82325
-line_end: 82363
+line_start: 82374
+line_end: 82412
 dependencies:
   - "A.10"
   - "A.12"
@@ -51,7 +51,7 @@ keywords:
 
 A manufacturing-cell candidate must supply a qualified way to obtain the needed joint evidence with less shared work. A product-boundary candidate can place the interacting parts within one independently replaceable unit and check what that larger unit costs the field user. A joint candidate changes the interface and qualifies the corresponding separate test. Keeping the batch dependency is a bounded alternative only where the replacement requirement permits it; otherwise it does not satisfy that requirement. Follow each proposed change through production, test, acceptance and replacement before treating its benefit as established.
 
-If the shared test instead exists only because the current fixture or approval arrangement is convenient, the same tracing can justify investigating separate provision without changing the product boundary. If its reason is undocumented, obtain the applicable procedure and provider's explanation first; do not infer either case from the fact that testing is shared. The exact positive case below represents independently established relation and performance facts after the relevant predicates and evidence have been supplied.
+If the shared test exists for the convenience of the present fixture, independent provision may be possible without changing the product boundary. Suppose a qualified service can supply the required joint result within the field deadline under either account of the old fixture. The team can arrange that service on its terms. Replacing the joint result with two separate tests would require establishing what the certification rule accepts. The fact that past tests were shared settles neither that rule nor the reason for the old fixture. The exact positive case below uses independently established relation and performance facts.
 
 | Grounded working case | Acting and performance facts | Influence-source and architecture-pair facts | Candidate work | Stop or return |
 |---|---|---|---|---|

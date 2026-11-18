@@ -6,12 +6,12 @@ section_id: "C.32.CONWAY:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.CONWAY/C.32.CONWAY__005_solution.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.32.CONWAY — Architecture-Influence and Transformed-Architecture Correspondence"
   - "C.32.CONWAY:4 — Solution"
-line_start: 82228
-line_end: 82324
+line_start: 82277
+line_end: 82373
 dependencies:
   - "A.10"
   - "A.12"
@@ -65,7 +65,7 @@ Begin with the source-side pressure and candidate changes, using the local frame
 Use an already warranted explanation and candidate directly. Otherwise start with one needed product change or receiving result and the available instructions, change records, test material and participants. For work and provision dependencies, use C.32.MWA.PP:4.1 and :4.4–:4.7 to trace the result backward to its supplying operations and follow their outputs forward to the receiving use.
 
 - **Locate the dependency that limits the intended change.** Follow a representative actual change or explicit proposed change through production, integration, testing, evidence and approval as relevant. At a shared or unavailable contribution, inspect the rule and the input it needs. Ask its provider what would fail if this change proceeded separately. A wait may come from a shared resource, a required joint check, incompatible information or a decision right; those conditions lead to different candidates.
-- **Establish which condition must be preserved.** Compare that explanation with the requirement, interface contract, test procedure or actual failed change. Distinguish a necessary domain or contractual dependency from the present arrangement used to satisfy it. When the reason is unknown, seek the particular rule, observation or provider explanation that can distinguish them; a bounded trial is useful only if its possible result justifies its cost and permissions. Keep an unresolved fact explicit instead of treating the dependency as either necessary or dispensable.
+- **Establish which condition must be preserved.** Compare that explanation with the requirement, interface contract, test procedure or actual failed change. Distinguish a necessary domain or contractual dependency from the present arrangement used to satisfy it. If the choice turns on the reason, use the applicable rule, an observation or the provider’s explanation to distinguish the possible dependencies. A bounded trial earns its cost when its possible outcomes change what can be done and the trial is permitted. A candidate that satisfies every dependency still in question can be carried forward while the reason for the old arrangement remains open.
 - **Construct a change at that relation.** A source-side candidate can provide independent access, qualified verification, information or decision authority where shared provision is the limitation. A transformed-side candidate can change a module boundary or interface so the required joint condition no longer crosses it. A joint candidate changes the interface and the way its production or verification is supplied. A bounded mismatch retains the dependency and states its actual cost and allowable limit; it is usable only if the receiving requirement permits that compromise. Develop the forms applicable to the recovered condition, including retaining an adequate arrangement.
 - **Follow each changed connection through to the result.** Check that its input is available, its provider can supply it under the relevant capacity, timing and authority conditions, and its output establishes what the receiver needs. Preserve required joint checks or supply justified replacements. Explain the expected gain and any identified new burden or loss. A changed diagram alone does not establish these performance or causal claims.
 

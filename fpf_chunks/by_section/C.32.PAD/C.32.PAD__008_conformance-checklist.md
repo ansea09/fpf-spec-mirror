@@ -6,12 +6,12 @@ section_id: "C.32.PAD:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.PAD/C.32.PAD__008_conformance-checklist.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.32.PAD — Project Architecture Decision After Candidate Synthesis"
   - "C.32.PAD:7 — Conformance Checklist"
-line_start: 84089
-line_end: 84104
+line_start: 84147
+line_end: 84162
 dependencies:
   - "A.1.STM"
   - "A.10"
@@ -70,7 +70,7 @@ keywords:
 | `CC-PAD-2` | The decision cites candidate basis from `C.32` or a named receiving candidate pattern, or states why no candidate-set question is live. |
 | `CC-PAD-3` | The selected architecture option or bounded exception is named. |
 | `CC-PAD-4` | Affected selected structures are named with subject pattern refs. |
-| `CC-PAD-5` | Architecture-characteristic trade-offs, accepted losses, and guardrails are recorded. For creator development, the choice retains the affected product uses, promised capability, finite acceptance, provision conditions and authority to change commitments. |
+| `CC-PAD-5` | The decision carries forward the binding constraints and applicable guardrails. It records the relevant trade-offs and accepted losses, or explains why the decision involves no live trade-off. For creator development, the choice retains the affected product uses, promised capability, finite acceptance, provision conditions and authority to change commitments. |
 | `CC-PAD-6` | Architecture-description refs, method-use instructions, and performed-work boundaries remain distinct. |
 | `CC-PAD-7` | The architect-developer split, source-return condition, and reopen conditions are recorded. |
 | `CC-PAD-8` | Unresolved whole-transition wording uses `B.2.P`, and a remaining whole-reidentification claim uses `B.2`. Use `C.29` when mathematical representation choice, transfer or reliance remains unresolved; ordinary description correspondence and loss use their description rules. |

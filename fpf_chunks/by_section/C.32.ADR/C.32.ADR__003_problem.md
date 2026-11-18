@@ -6,12 +6,12 @@ section_id: "C.32.ADR:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ADR/C.32.ADR__003_problem.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.32.ADR — Architecture Decision Record Projection"
   - "C.32.ADR:2 — Problem"
-line_start: 84239
-line_end: 84250
+line_start: 84297
+line_end: 84308
 dependencies:
   - "A.10"
   - "A.15"
@@ -52,5 +52,5 @@ For a principle framework, use C.32.ADR only in the exceptional case where the a
 
 The section question is therefore not "which headings are allowed?" The section question is "which decision functions must a reader recover?" Headings can vary by organization or industry. Preserve the decision question, outcome, rationale, material consequences, status and update conditions; include options, Method/work instructions, confirmation and source return when they are needed for the declared use.
 
-ADR-like projection is not software-only. Engineering trade-study records, safety-certification rationale, design review memos, BIM decision logs, method-governance records, and organization-design records can play the same publication role after the project decision relation and record use are typed. The source form may differ; the FPF section functions stay recoverable.
+Engineering trade studies, safety-certification rationales, design review memos, BIM decision logs and method-governance records can each carry a proposal or an effective decision. Identify what the intended reader can review, authorize or act on and what gives the document that effect. Choose the sections that supply the grounds for that use.
 

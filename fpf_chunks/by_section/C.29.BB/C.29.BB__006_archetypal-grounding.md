@@ -6,12 +6,12 @@ section_id: "C.29.BB:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29.BB/C.29.BB__006_archetypal-grounding.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.29.BB — Construct a Balance across a Boundary"
   - "C.29.BB:5 — Archetypal Grounding"
-line_start: 74481
-line_end: 74534
+line_start: 74504
+line_end: 74559
 dependencies:
   - "A.3.3.TR"
   - "C.11.DUA"
@@ -43,7 +43,9 @@ Now change the condition: the line begins empty, receives 15 L from A, delivers 
 
 The two tanks contain 43 L. Their boundary excludes the line, so 15 L leaves that boundary and 13 L re-enters. The combined tank change is 12 - 7 - 15 + 13 = 3 L. Including the line gives 45 L and recovers the five-litre increase from the external exchanges alone.
 
-If the line's increase is known only to lie between 0 and 2 L, the final tank total lies between 43 and 45 L. This bound settles a request for at least 42 L in the tanks. A request for at least 44 L needs a tighter bound or the line's content. No additional observation is required for the first request.
+If the line's increase is known only to lie between 0 and 2 L, the final tank total lies between 43 and 45 L. This bound settles a request for at least 42 L in the tanks. The admissible 2 L retained in the line leaves only 43 L in the tanks, which refutes a guarantee of 44 L for every filling allowed here. An empty line would leave 45 L. To decide whether one unknown filling delivered at least 44 L, determine whether the line retained at most 1 L. The 42 L guarantee already holds throughout.
+
+Reverse the question. Suppose the tank measurements show 43 L at the end and the net recorded external inflow was 5 L. Starting from 40 L leaves 2 L to account for outside the tanks. If the line began empty and could have retained 0 to 2 L, unrecorded net outflow from tanks and line together could be anywhere from 0 to 2 L, assuming exact amounts and no production or removal inside. These data rule out unrecorded net outflow above 2 L. They still permit all 2 L to be in the line. To diagnose leakage, distinguish storage and other unrecorded exchanges.
 
 #### C.29.BB:5.2 - Moving and reworking a job preserve one count but change its distribution
 

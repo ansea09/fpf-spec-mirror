@@ -6,12 +6,12 @@ section_id: "C.32.MWA.PP:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA.PP/C.32.MWA.PP__007_archetypal-grounding.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.32.MWA.PP — Construct and Compare Method Performance and Provision Arrangements"
   - "C.32.MWA.PP:5 — Archetypal Grounding"
-line_start: 83247
-line_end: 83426
+line_start: 83300
+line_end: 83479
 dependencies:
   - "A.3.1.MI"
   - "A.3.1.QM"
@@ -185,11 +185,11 @@ A team needs a comparison of changes in twenty supplier notices before its weekl
 | Correct, integrate and use the comparison | 1 hour | 1 hour |
 | Total recurring specialist time | 5 hours | 2.5 hours |
 
-The AI-assisted way also requires 1.5 hours of initial setup. The team has three specialist hours available each week after continuing obligations. Under these stipulated estimates, the first assisted cycle needs four hours and cannot fit; later cycles need 2.5. C.32.MWA.PP exposes that timing constraint instead of hiding setup in an average saving. The owner obtains 1.5 hours for setup in the preceding week, without displacing its existing commitments. The selected arrangement now fits its stated resource premise. Two such comparisons with no shared work would need five recurring hours and reopen that premise.
+The assisted way takes another 1.5 specialist hours to set up. Only three are free each week after standing commitments. Setup and the first comparison together need four, so the owner reserves the setup time the week before. The supplier releases the twenty notices by 09:00 Thursday. The specialist can prepare the comparison from 09:00 to 09:30, check the draft from 10:00 to 11:00 once the agent has returned it, and correct and use it from 11:00 to noon. Those bookings and timely access to the draft make the noon decision feasible under the estimates. Three free hours on Friday would give the same weekly total and miss that decision. Two comparisons with no shared work would exceed even the weekly capacity.
 
 The agent receives the twenty applicable notices and the comparison question. It may read the supplied material and prepare an internal draft; it has no authority in this case to amend supplier terms or publish externally. A source-checking return preserves a notice's condition: a changed lead time applies to new orders after a specified date. The receiver uses that condition to separate new orders from the existing backlog. A draft that applied the new time to every order would fail the receiving use even if generation completed without an error.
 
-The worked arrangement ends with the used comparison and its unresolved items. If a source becomes inaccessible, the affected claim remains unverified; other supported claims can be used within their limits. If correcting the drafts begins to exceed the estimate, reopen that candidate's effort and qualification. Faster generation alone does not establish the original capacity claim.
+The worked arrangement ends with the used comparison and its unresolved items. If the supplier portal goes offline, a retained notice or prior check can still establish the edition and the order dates it covers. Check whether it meets the receiving terms. Reopen the affected conclusion if a consequential condition or the notice’s currentness remains unknown, or if the agreement requires a fresh check with the supplier. If correcting the drafts begins to exceed the estimate, reopen that candidate's effort and qualification. Faster generation alone does not establish the original capacity claim.
 
 ##### C.32.MWA.PP:5.7.2 - Change the purpose to the person's own capability
 

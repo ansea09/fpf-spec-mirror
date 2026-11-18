@@ -6,12 +6,12 @@ section_id: "C.40.NP:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.NP/C.40.NP__012_sota-echoing.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.40.NP — Continue from a Result to New Attainable Problems"
   - "C.40.NP:11 — SoTA-Echoing"
-line_start: 93562
-line_end: 93569
+line_start: 93629
+line_end: 93636
 dependencies:
   - "C.18"
   - "C.19"

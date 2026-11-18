@@ -6,12 +6,12 @@ section_id: "C.32.MWA.PP:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA.PP/C.32.MWA.PP__006_solution.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.32.MWA.PP — Construct and Compare Method Performance and Provision Arrangements"
   - "C.32.MWA.PP:4 — Solution"
-line_start: 82999
-line_end: 83246
+line_start: 83050
+line_end: 83299
 dependencies:
   - "A.3.1.MI"
   - "A.3.1.QM"
@@ -142,6 +142,8 @@ Similarly construct **AI-based arrangements as whole alternatives**. Qualified a
 A common carrier can be responsible for making help obtainable while independent providers perform it. Complete that candidate with how a question reaches a qualified provider, how the receiver recognizes a usable response, who handles refusal or failure, and what keeps access available. A portal with an unfilled request queue supplies only a portal.
 
 When an architecture comparison is warranted, compare at least two serious syntheses whose proposed direct relations differ.
+
+For a decision on an assignment, distinguish the options the brief provided from the construction needed to make them workable. A practitioner who chooses a supplied service on the stated criteria may have completed the selection. To credit the design of a different arrangement, identify a changed handover, allocation or dependency that the practitioner established and explain how it meets the receiving need. Use the same distinction when the purchaser commissions a design from an agent or a supplier.
 
 Treat central, local, specialized, federated and external descriptions as properties of the resulting candidates. They are not a catalogue from which the Method starts. One candidate can centralize common tools, distribute performance and retain an external specialist at the same time.
 

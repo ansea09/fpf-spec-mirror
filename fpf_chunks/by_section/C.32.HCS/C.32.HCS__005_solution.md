@@ -6,12 +6,12 @@ section_id: "C.32.HCS:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.HCS/C.32.HCS__005_solution.md"
-commit_sha: "ffd3e6add6f2de6931c1da794f74c86d071fb9fd"
+commit_sha: "169e3e09c04a4174ce4c26682cf181a0d255b6f7"
 heading_path:
   - "C.32.HCS — Architecture-Bearing Family Characteristic Starter Packs"
   - "C.32.HCS:4 — Solution"
-line_start: 81384
-line_end: 81437
+line_start: 81425
+line_end: 81480
 dependencies:
   - "A.19"
   - "C.11"
@@ -65,7 +65,9 @@ Choose with four distinct considerations: the common characterization method, th
 | AI-agent setup, model-supported workflow, or information system | model boundary, tool boundary, retrieval service, supervisor relation, evidence refresh relation, deployment placement, action interface | function-bearer fit, observability, evidence refresh, policy controllability, latency, resource load, interface grammar burden, rollback, benchmark transfer risk | safety, trustworthiness, robustness, usefulness |
 | Evidence-bearing assurance or certification work arrangement after A.10/A.15 recovery | evidence packages, claim scopes, audit trails, inspection work, certification mechanisms, evidence-provenance entries, source-currentness relation records, method descriptions, system-role assignments, responsibility relations | evidence reuse, traceability, source-return cost, inspection latency, certification burden, scope stability, mechanism visibility, change reach | assurance-case quality, certification-work quality, compliance-work quality |
 
-In HCS, `source-return cost` is a starter head for a holon family only when repeated source return incurs effort, latency, or risk. The return is from a derivative, coarsened, extracted, rendered, or reused publication or evidence carrier back to the named source expression, selected source `U.Episteme`, `EpistemePublicationRelation` occurrence when availability matters, source-bearing relation, evidence-provenance entry, evidence relation, transform record, or defining ClaimGraph needed for stronger reliance. It is not a generic source-quality name. If the project is only asking whether a catalogue term is useful, keep the wording as source catalogue wording; if recoverability itself is the concern, carry `source-return cost` to `C.32.ACS` and bind its bearer, scale, and use.
+In HCS, `source-return cost` is a starter head for a holon family when recovering the source could impose decision-relevant effort, delay or exposure, once or repeatedly. The return is from a derivative, coarsened, extracted, rendered, or reused publication or evidence carrier back to the named source expression, selected source `U.Episteme`, `EpistemePublicationRelation` occurrence when availability matters, source-bearing relation, evidence-provenance entry, evidence relation, transform record, or defining ClaimGraph needed for stronger reliance. It is not a generic source-quality name. If the project is only asking whether a catalogue term is useful, keep the wording as source catalogue wording; if recoverability itself is the concern, carry `source-return cost` to `C.32.ACS` and bind its bearer, scale, and use.
+
+A commissioning team may need a single archived reading before releasing an installation. If recovering it would stop work for two days, its cost already matters. Frequency matters when the project decision depends on cumulative burden.
 
 #### C.32.HCS:4.3 - Rebinding rule
 
@@ -73,7 +75,7 @@ When a starter head is reused at another bearer kind, holon level, domain, or co
 
 Example: `availability` for an engineered service may use time-window and service-scope measures. A method-side case may ask whether a particular System can access a Method description and evidence relation in the working situation. A kind case may ask whether A.2.7 admits substitution; an assignment case may ask whether holder replacement or assignment continuity obtains; a responsibility case needs its own relation. These are different bearers, predicates, and scales.
 
-Refresh the starter pack when its starting assumptions no longer hold: the admitted holon family changes, source-label recovery changes the recovered family or bearer, a B.2 whole reidentification changes the bearer or scale, a source catalogue changes the available vocabulary, repeated ACS project-row uses show that a head never survives project binding, or repeated ACS project-row uses reveal a missing head for that family. Revise the affected guidance and any action-changing caution. Existing project criteria rows remain with `C.32.ACS`; measurements remain with `C.16`; eval programs remain with `C.32.ACE`.
+Refresh the starter pack when a change in the family, source, bearer or use changes which heads help a project establish its criteria. One project can expose a missing head or refute a claim that every eligible project needs a particular one. Several projects in one domain can justify narrowing the guidance for that domain. To move a question from the usual starting set to guidance for specialist projects, establish where asking it first helps and where it can wait. Keep the question available wherever it still matters. A claim that no eligible project needs the characteristic requires grounds covering the whole family. Retain project-specific criteria in C.32.ACS, measurements in C.16 and evaluation programs in C.32.ACE.
 
 #### C.32.HCS:4.4 - ACS Criteria-Row Use
 
